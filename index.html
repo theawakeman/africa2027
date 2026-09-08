@@ -7,79 +7,43 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/icons/icon-192.png">
 <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<link rel="stylesheet" href="assets/css/site.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <title>África 2027</title>
-<style>
-:root {
-  --navy:#16324F; --teal:#1E7A8A; --sand:#D9B26F;
-  --bg:#FAF7F1; --surface:#FFFFFF; --surface2:#F1EDE4;
-  --ink:#22303C; --ink-soft:#5B6B77; --line:#E2DCD0; --link:#186875; --head:#16324F;
-  --green:#2E7D32; --green-bg:#E5F1E5; --grey:#5F6B72; --grey-bg:#EBEDEE;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg:#141A21; --surface:#1C242D; --surface2:#232D38; --ink:#E4E9ED; --ink-soft:#9AA8B3;
-    --line:#33404C; --link:#6FC2D0; --head:#BFD5E8; --teal:#4FA3B2; --sand:#C2A468;
-    --green:#7FC784; --green-bg:#1E3320; --grey:#A9B4BC; --grey-bg:#2A343D;
-  }
-}
-:root[data-theme="dark"] {
-  --bg:#141A21; --surface:#1C242D; --surface2:#232D38; --ink:#E4E9ED; --ink-soft:#9AA8B3;
-  --line:#33404C; --link:#6FC2D0; --head:#BFD5E8; --teal:#4FA3B2; --sand:#C2A468;
-  --green:#7FC784; --green-bg:#1E3320; --grey:#A9B4BC; --grey-bg:#2A343D;
-}
-* { box-sizing:border-box; }
-body { margin:0; background:var(--bg); color:var(--ink); font-family:"Source Serif 4", Georgia, serif; line-height:1.6; }
-img { max-width:100%; }
-.hero { background:var(--navy); color:#fff; padding:44px clamp(18px,5vw,60px) 38px; }
-.hero .kicker { font-family:Archivo,sans-serif; font-size:12px; font-weight:700; letter-spacing:.24em; color:var(--sand); }
-.hero h1 { font-family:Archivo,sans-serif; font-size:clamp(38px,8vw,64px); font-weight:800; margin:.05em 0 .1em; line-height:1; }
-.hero p { margin:0; color:#D9E3EC; font-style:italic; max-width:52ch; }
-main { max-width:900px; margin:0 auto; padding:26px clamp(14px,4vw,32px) 60px; }
-h2 { font-family:Archivo,sans-serif; color:var(--head); font-size:22px; font-weight:800; border-bottom:3px solid var(--sand); padding-bottom:6px; margin:34px 0 14px; }
-.cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
-.card { background:var(--surface); border:1px solid var(--line); border-radius:12px; overflow:hidden; text-decoration:none; color:var(--ink); display:flex; flex-direction:column; transition:transform .15s ease; }
-a.card:hover { transform:translateY(-2px); }
-.card img { width:100%; aspect-ratio:16/8.5; object-fit:cover; display:block; }
-.card .ph { width:100%; aspect-ratio:16/8.5; background:linear-gradient(135deg,var(--surface2),var(--line)); display:flex; align-items:center; justify-content:center; font-family:Archivo,sans-serif; font-weight:800; color:var(--ink-soft); letter-spacing:.1em; }
-.card .body { padding:12px 15px 14px; display:flex; flex-direction:column; gap:6px; }
-.card h3 { margin:0; font-family:Archivo,sans-serif; font-size:18px; color:var(--head); }
-.card .meta { font-family:Archivo,sans-serif; font-size:12.5px; color:var(--ink-soft); }
-.badge { align-self:flex-start; font-family:Archivo,sans-serif; font-size:11px; font-weight:700; padding:2px 10px; border-radius:99px; }
-.b-ok { background:var(--green-bg); color:var(--green); }
-.b-prep { background:var(--grey-bg); color:var(--grey); }
-.note { background:var(--surface2); border-left:4px solid var(--teal); border-radius:8px; padding:12px 16px; font-size:15px; }
-.note b { font-family:Archivo,sans-serif; }
-footer { text-align:center; font-family:Archivo,sans-serif; font-size:13px; color:var(--ink-soft); border-top:1px solid var(--line); margin-top:50px; padding-top:16px; }
-a { color:var(--link); }
-</style>
 </head>
 <body>
+<nav class="nav"><a class="brand" href="">ÁFRICA 2027</a><a href="mapa/">Mapa</a><a href="#paises">Países</a><a href="documentacion/">Documentación</a></nav>
 <header class="hero">
-  <div class="kicker">EXPEDICIÓN OVERLAND · ENERO–AGOSTO 2027</div>
-  <h1>África 2027</h1>
-  <p>Barcelona → Sudáfrica → Barcelona · 2 vehículos 4x4 · 3 viajeros · 1 perro. Fichas operativas de cada país: ruta, fronteras, perro, salud, seguridad y logística.</p>
-</header>
-<main>
-<h2>Fichas de país</h2>
-<div class="cards">
-  <a class="card" href="senegal/">
-    <img src="assets/img/senegal/01.jpg" alt="Delta del Saloum, Senegal">
-    <div class="body"><h3>Senegal</h3><span class="badge b-ok">Ficha disponible</span><span class="meta">Diama → Kalifourou · 17–21 días · revisión 8 sep 2026</span></div>
-  </a>
-  <div class="card">
-    <div class="ph">MAURITANIA</div>
-    <div class="body"><h3>Mauritania</h3><span class="badge b-prep">En preparación web</span><span class="meta">Ficha existente en Drive; pendiente de pasar al portal</span></div>
+  <img class="bg" src="assets/img/senegal/01.jpg" alt="Delta del Saloum">
+  <div class="veil"></div>
+  <div class="inner">
+    <div class="kicker">EXPEDICIÓN OVERLAND · ENERO–AGOSTO 2027</div>
+    <h1>África 2027</h1>
+    <p class="sub">Barcelona → Sudáfrica → Barcelona · 2 vehículos 4x4 · 3 viajeros · 1 perro</p>
   </div>
+</header>
+<div class="chips">
+  <div class="chip"><span class="chip-label">SALIDA</span><b>10 ene 2027</b></div>
+  <div class="chip"><span class="chip-label">REGRESO</span><b>~15 ago 2027</b></div>
+  <div class="chip"><span class="chip-label">FICHAS COMPLETAS</span><b>2 de 29 en ruta</b></div>
+  <div class="chip"><span class="chip-label">VERSIÓN</span><b>20260908-2208</b></div>
 </div>
-<h2>Uso sin conexión</h2>
-<p class="note"><b>Instalar en el móvil:</b> abre esta página en el navegador y usa «Añadir a pantalla de inicio». La app guarda todas las fichas en el teléfono y funciona sin cobertura; cuando vuelve a haber internet, comprueba sola si hay cambios y avisa para actualizar.</p>
-<h2>Mapa del proyecto</h2>
-<p><a href="https://www.google.com/maps/d/edit?hl=es&mid=1brUmvoMOalT61Od_OwLFWtfjZwFxd8M" target="_blank" rel="noopener">Abrir el My Maps África 2027</a> (requiere conexión).</p>
-<footer>ÁFRICA 2027 · versión 20260908-2128</footer>
+<main>
+<section id="accesos" style="margin-top:26px">
+<div class="cards">
+  <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras. Toca un punto para ver su ficha.</span></div></a>
+  <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
+  <a class="card" href="https://www.google.com/maps/d/edit?hl=es&mid=1brUmvoMOalT61Od_OwLFWtfjZwFxd8M" target="_blank" rel="noopener"><div class="body"><h3>📍 My Maps (Google)</h3><span class="meta">Mapa maestro compartido del proyecto (requiere conexión).</span></div></a>
+</div>
+</section>
+<section id="paises"><h2>Fichas de país</h2><h3 style="margin-top:26px">Corredor de bajada · África occidental</h3><div class="cards"><a class="card" href="paises/marruecos/"><div class="body"><h3>Marruecos</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/sahara-occidental/"><div class="body"><h3>Sahara Occidental (tránsito)</h3><span class="badge b-draft">Borrador</span><span class="meta">precaución · zona bajo administración marroquí en el corredor costero</span></div></a><a class="card" href="paises/mauritania/"><img src="assets/img/mauritania/01.jpg" alt="" loading="lazy"><div class="body"><h3>Mauritania</h3><span class="badge b-ok">Ficha disponible</span><span class="meta">Guerguerat → Diama · rev. 6 sep 2026</span></div></a><a class="card" href="paises/senegal/"><img src="assets/img/senegal/01.jpg" alt="" loading="lazy"><div class="body"><h3>Senegal</h3><span class="badge b-ok">Ficha disponible</span><span class="meta">Diama → Kalifourou · 17–21 días · rev. 8 sep 2026</span></div></a><a class="card" href="paises/guinea/"><div class="body"><h3>Guinea</h3><span class="badge b-draft">Borrador</span><span class="meta">precaución · situación política a vigilar</span></div></a><a class="card" href="paises/sierra-leona/"><div class="body"><h3>Sierra Leona</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/liberia/"><div class="body"><h3>Liberia</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/costa-de-marfil/"><div class="body"><h3>Costa de Marfil</h3><span class="badge b-draft">Borrador</span><span class="meta">estable en el sur · precaución en el norte</span></div></a><a class="card" href="paises/ghana/"><div class="body"><h3>Ghana</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/togo/"><div class="body"><h3>Togo</h3><span class="badge b-draft">Borrador</span><span class="meta">estable en costa · precaución en el norte</span></div></a><a class="card" href="paises/benin/"><div class="body"><h3>Benín</h3><span class="badge b-draft">Borrador</span><span class="meta">estable en costa · riesgo en el extremo norte (parques W/Pendjari)</span></div></a><a class="card" href="paises/nigeria/"><div class="body"><h3>Nigeria</h3><span class="badge b-draft">Borrador</span><span class="meta">riesgo alto en varias zonas · corredor costero Lagos–Benin City con precaución máxima</span></div></a><a class="card" href="paises/camerun/"><div class="body"><h3>Camerún</h3><span class="badge b-draft">Borrador</span><span class="meta">precaución · evitar Extremo Norte y regiones anglófonas NW/SW</span></div></a><a class="card" href="paises/gabon/"><div class="body"><h3>Gabón</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/congo/"><div class="body"><h3>Congo (Brazzaville)</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución en Pool</span></div></a><a class="card" href="paises/rd-congo/"><div class="body"><h3>RD Congo (tránsito Matadi)</h3><span class="badge b-draft">Borrador</span><span class="meta">conflicto activo en el ESTE (lejos de la ruta) · tránsito oeste Matadi–Lufu con precaución</span></div></a><a class="card" href="paises/angola/"><div class="body"><h3>Angola</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/namibia/"><div class="body"><h3>Namibia</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/sudafrica/"><div class="body"><h3>Sudáfrica</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución urbana</span></div></a></div><h3 style="margin-top:26px">Corredor de regreso · África oriental</h3><div class="cards"><a class="card" href="paises/mozambique/"><div class="body"><h3>Mozambique</h3><span class="badge b-draft">Borrador</span><span class="meta">precaución · evitar Cabo Delgado norte</span></div></a><a class="card" href="paises/malaui/"><div class="body"><h3>Malaui</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/tanzania/"><div class="body"><h3>Tanzania</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/kenia/"><div class="body"><h3>Kenia</h3><span class="badge b-draft">Borrador</span><span class="meta">precaución · evitar zonas fronterizas con Somalia</span></div></a><a class="card" href="paises/etiopia/"><div class="body"><h3>Etiopía</h3><span class="badge b-draft">Borrador</span><span class="meta">precaución/riesgo según regiones (Amhara, Tigray, Oromía) — evaluación fina obligatoria</span></div></a><a class="card" href="paises/sudan/"><div class="body"><h3>Sudán</h3><span class="badge b-draft">Borrador</span><span class="meta">CONFLICTO ACTIVO (guerra civil desde 2023) — corredor terrestre hacia Egipto bloqueado a efectos de planificación</span></div></a><a class="card" href="paises/egipto/"><div class="body"><h3>Egipto</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal (evitar Sinaí norte)</span></div></a></div><h3 style="margin-top:26px">Alternativas y opcionales</h3><div class="cards"><a class="card" href="paises/gambia/"><div class="body"><h3>Gambia</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/lesoto/"><div class="body"><h3>Lesoto</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/esuatini/"><div class="body"><h3>Esuatini</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/zimbabue/"><div class="body"><h3>Zimbabue</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución económica</span></div></a><a class="card" href="paises/botsuana/"><div class="body"><h3>Botsuana</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/zambia/"><div class="body"><h3>Zambia</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/uganda/"><div class="body"><h3>Uganda</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/ruanda/"><div class="body"><h3>Ruanda</h3><span class="badge b-draft">Borrador</span><span class="meta">estable</span></div></a><a class="card" href="paises/yibuti/"><div class="body"><h3>Yibuti</h3><span class="badge b-draft">Borrador</span><span class="meta">estable · precaución normal</span></div></a></div><h3 style="margin-top:26px">Excluidos por protocolo</h3><div class="cards"><a class="card" href="paises/mali/"><div class="body"><h3>Mali</h3><span class="badge b-x">Excluido</span><span class="meta">CONFLICTO ACTIVO — excluido totalmente por protocolo del proyecto</span></div></a><a class="card" href="paises/guinea-bisau/"><div class="body"><h3>Guinea-Bisáu</h3><span class="badge b-x">Excluido</span><span class="meta">inestabilidad política recurrente — fuera del itinerario por protocolo</span></div></a></div><h3 style="margin-top:26px">Fuera de la ruta prevista</h3><div class="cards"><a class="card" href="paises/argelia/"><div class="body"><h3>Argelia</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">precaución · permisos y escolta en el sur</span></div></a><a class="card" href="paises/tunez/"><div class="body"><h3>Túnez</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/libia/"><div class="body"><h3>Libia</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">CONFLICTO / inestabilidad grave</span></div></a><a class="card" href="paises/burkina-faso/"><div class="body"><h3>Burkina Faso</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">CONFLICTO ACTIVO (insurgencia)</span></div></a><a class="card" href="paises/niger/"><div class="body"><h3>Níger</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">riesgo alto / junta militar</span></div></a><a class="card" href="paises/chad/"><div class="body"><h3>Chad</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">riesgo alto en varias zonas</span></div></a><a class="card" href="paises/rca/"><div class="body"><h3>República Centroafricana</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">CONFLICTO ACTIVO</span></div></a><a class="card" href="paises/sudan-del-sur/"><div class="body"><h3>Sudán del Sur</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">riesgo alto / inestabilidad</span></div></a><a class="card" href="paises/somalia/"><div class="body"><h3>Somalia</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">CONFLICTO ACTIVO</span></div></a><a class="card" href="paises/eritrea/"><div class="body"><h3>Eritrea</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">precaución · permisos internos restrictivos</span></div></a><a class="card" href="paises/guinea-ecuatorial/"><div class="body"><h3>Guinea Ecuatorial</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/santo-tome/"><div class="body"><h3>Santo Tomé y Príncipe</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable</span></div></a><a class="card" href="paises/cabo-verde/"><div class="body"><h3>Cabo Verde</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable</span></div></a><a class="card" href="paises/comoras/"><div class="body"><h3>Comoras</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/seychelles/"><div class="body"><h3>Seychelles</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable</span></div></a><a class="card" href="paises/mauricio/"><div class="body"><h3>Mauricio</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable</span></div></a><a class="card" href="paises/madagascar/"><div class="body"><h3>Madagascar</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">estable · precaución normal</span></div></a><a class="card" href="paises/burundi/"><div class="body"><h3>Burundi</h3><span class="badge b-off">Fuera de ruta</span><span class="meta">precaución/riesgo</span></div></a></div></section>
+<section id="offline"><h2>Uso sin conexión</h2>
+<p class="callout" style="display:block"><strong>Instalar en el móvil:</strong> abre esta página en el navegador y usa «Añadir a pantalla de inicio». La app guarda todas las fichas y fotos en el teléfono y funciona sin cobertura; el mapa base necesita internet la primera vez que se ve cada zona. Cuando vuelve a haber conexión, la app comprueba sola si hay cambios y avisa con «Nueva versión disponible».</p>
+</section>
+<footer>ÁFRICA 2027 · versión 20260908-2208 · <a href="documentacion/">documentación</a> · <a href="mapa/">mapa</a></footer>
 </main>
 
-<div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:99;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
+<div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register(document.querySelector('link[rel=manifest]').getAttribute('href').replace('manifest.webmanifest','sw.js')).then(reg => {

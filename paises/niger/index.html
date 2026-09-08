@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16324F">
+<link rel="manifest" href="../../manifest.webmanifest">
+<link rel="icon" href="../../assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="../../assets/icons/icon-192.png">
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<title>Níger · África 2027</title>
+</head>
+<body>
+<nav class="nav"><a class="brand" href="../../">ÁFRICA 2027</a><span class="brand" style="padding-left:0">· Níger</span><a href="../../mapa/">Mapa general</a><a href="../../documentacion/">Documentación</a><a href="../../#paises">Todos los países</a></nav>
+<header class="hero"><div style="padding:44px clamp(16px,4vw,48px) 20px">
+  <div class="kicker">FICHA DE PAÍS · BORRADOR</div>
+  <h1>Níger</h1>
+  <p class="sub">Fuera de la ruta prevista</p>
+</div></header>
+<div class="chips"><div class="chip"><span class="chip-label">PAPEL EN LA RUTA</span><b>Fuera de la ruta prevista</b></div><div class="chip"><span class="chip-label">SEGURIDAD</span><b><span class="st st-amber">riesgo alto / junta militar</span></b></div><div class="chip"><span class="chip-label">CPD</span><b><span class="st st-grey">sin datos</span></b></div></div>
+<main>
+<p style="margin-top:14px"><span class="badge b-off">Fuera de la ruta prevista</span></p>
+<section id="estado" style="margin-top:10px"><h2>Estado de planificación</h2><div class="callout warn"><div class="callout-title">Ficha borrador</div><p>Datos orientativos preparados el 8 de septiembre de 2026 a partir de conocimiento general del corredor. TODO pendiente de verificación con fuentes oficiales antes de planificar; se revisará país por país.</p></div><div class="tblwrap"><table class=""><thead><tr><th>Tema</th><th>Estado orientativo</th></tr></thead><tbody><tr ><td>Seguridad y conflicto</td><td>riesgo alto / junta militar</td></tr><tr ><td>Frontera terrestre</td><td>No prevista</td></tr><tr ><td>Nota de ruta</td><td>Fuera de ruta</td></tr></tbody></table></div><div class="callout "><div class="callout-title">Trámites comunes</div><p>CPD, autorizaciones de los vehículos, seguro, perro y salud: ver <a href="../../documentacion/">Documentación general</a>.</p></div></section>
+<footer>ÁFRICA 2027 · Níger · borrador · versión 20260908-2208 · <a href="../../">Portal</a></footer>
+</main>
+
+<div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(document.querySelector('link[rel=manifest]').getAttribute('href').replace('manifest.webmanifest','sw.js')).then(reg => {
+    function watch(sw){ sw.addEventListener('statechange', () => { if (sw.state === 'installed' && navigator.serviceWorker.controller) show(reg); }); }
+    if (reg.waiting && navigator.serviceWorker.controller) show(reg);
+    if (reg.installing) watch(reg.installing);
+    reg.addEventListener('updatefound', () => watch(reg.installing));
+  });
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
+}
+</script>
+</body>
+</html>
