@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 03 Liberia-Ghana</name>
+  <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
@@ -8,91 +9,91 @@
     <name>Monrovia (Providence Island y West Point)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/An%20aerial%20view%20of%20the%20West%20Point%20area%20of%20Monrovia.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital y única gran base logística: puerto, aeropuerto (Roberts Intl., a ~1 h), bancos y talleres. Providence Island, cuna histórica del asentamiento, y el barrio densísimo de West Point como referencia urbana.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3156,-10.8074">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Azul</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-10.8074,6.3156,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Robertsport</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Robertsport%20Beach%2C%20Cape%20Mount%20County.jpg?width=900" width="320"/><br/><b>Media · Costa · surf</b><br/>Península de Cape Mount, meca del surf en África Occidental, playas extensas y poco masificadas, y el Centro Tubman de Cultura Africana. Buen punto de descanso cerca de la frontera con Sierra Leona.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.75,-11.3667">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-turquesa</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Turquesa</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-11.3667,6.75,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Sapo</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Zwergflusspferd%20-%20Pygmy%20Hippopotamus%20-%20Hexaprotodon%20liberiensis.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Segunda mayor selva primaria continua de África Occidental tras Taï; hipopótamo pigmeo, elefante de bosque y chimpancés. Acceso por pista larga desde Greenville; solo con guía del parque y autorización previa. El perro n<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.4,-8.8">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Verde</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-8.8,5.4,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Reserva Estricta del Monte Nimba (lado liberiano)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Nimba%20Strict%20Nature%20Reserve-108453.jpg?width=900" width="320"/><br/><b>Media · Naturaleza · frontera</b><br/>Macizo montañoso compartido con Guinea y Costa de Marfil, reserva UNESCO de alta biodiversidad; el acceso turístico regulado es limitado y depende de la zona (núcleo vs. periferia). Confirmar con la Forestry Development <br/><b>Perro:</b> requiere autorización escrita<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.55,-8.5">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Verde</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-8.5,7.55,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Man y las Dents de Man</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dent%20de%20Man%20montagne.jpg?width=900" width="320"/><br/><b>Media · Naturaleza · montaña</b><br/>Ciudad de montaña rodeada de picos escarpados (Dents de Man), cascadas y puentes colgantes tradicionales de liana. Base de aclimatación tras la entrada desde Liberia, con clima más fresco que la costa.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.4125,-7.5539">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Verde</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-7.5539,7.4125,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Yamoussoukro — Basílica de Nuestra Señora de la Paz</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Basilique%20notre%20Dame%20de%20la%20Paix%20de%20Yamoussoukro%20(2).jpg?width=900" width="320"/><br/><b>Media · Patrimonio</b><br/>Capital política del país y mayor basílica católica del mundo por superficie, réplica ampliada de San Pedro del Vaticano. Visita guiada obligatoria en el interior; el perro puede quedarse en el vehículo o esperar en el e<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.8167,-5.2833">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-ambar</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Ámbar</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-5.2833,6.8167,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Grand-Bassam</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/WikiConvFr23%20Visite%20B%C3%A2timents%20sites%20historiques%20de%20Grand-Bassam%20(boblioth%C3%A8que%20municicpale%20de%20Grand-Bassam%20)%2002.jpg?width=900" width="320"/><br/><b>Media · Patrimonio UNESCO</b><br/>Antigua capital colonial francesa, ciudad UNESCO de arquitectura colonial en decadencia elegante junto a playas de arena; museo del traje y ambiente artesanal. Parada obligada cerca de Abidjan.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.2,-3.7333">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-ambar</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Ámbar</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-3.7333,5.2,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Abidjan (Plateau y puerto)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/WikiConvFr23%20Visite%20B%C3%A2timents%20sites%20historiques%20de%20Grand-Bassam%20(boblioth%C3%A8que%20municicpale%20de%20Grand-Bassam%20)%2003.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital económica y mayor base logística del golfo de Guinea occidental: puerto, aeropuerto internacional, embajada de España, talleres y recambios 4x4 de referencia regional.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.3097,-4.0122">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Azul</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-4.0122,5.3097,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Castillo de Elmina</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elmina%20Castle%20-%20Ghana.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>El fuerte europeo más antiguo del África subsahariana (portugués, 1482), punto central de la memoria de la trata atlántica; museo y visita guiada obligatoria en el interior. El perro espera fuera durante la visita.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.0836,-1.3508">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-ambar</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Ámbar</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-1.3508,5.0836,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Castillo de Cape Coast</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Castle%2C%20Cape%20Coast%20(P1100221).jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Fuerte y museo gemelo de Elmina, con la «puerta sin retorno» hacia los barcos negreros; una de las visitas históricas más intensas de la ruta. Reservar tiempo para la explicación guiada, obligatoria y recomendable.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.1053,-1.2466">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-ambar</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Ámbar</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-1.2466,5.1053,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Kakum (pasarela de dosel)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Canopy%20walkway%20in%20Kakum%20National%20Park%204.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Selva tropical primaria con la pasarela colgante de dosel más conocida de África Occidental, a 30-40 m de altura entre siete plataformas. El perro no puede acceder al parque ni a la pasarela.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.35,-1.3833">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Verde</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-1.3833,5.35,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Accra (Independence Square y Jamestown)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Independence%20Arch%20Accra%20Ghana.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital y mayor base logística del golfo de Guinea oriental: puerto (Tema), aeropuerto internacional, embajada de España, talleres y recambios. Independence Square y el barrio pesquero de Jamestown como referencia urbana<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5471,-0.1942">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Azul</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-0.1942,5.5471,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cascadas de Wli</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wli%20Lower%20Fall-4.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>La cascada más alta de Ghana (~80 m), en la región del Volta cerca de la frontera con Togo; caminata corta hasta la caída baja, más exigente hasta la alta. Buen último punto antes de cruzar a Togo por Aflao/Kpalimé.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.1167,0.5833">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
-    <ExtendedData><Data name="categoria"><value>PDI · Verde</value></Data></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>0.5833,7.1167,0</coordinates></Point>
   </Placemark>
 </Document></kml>
