@@ -1,182 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 01 Marruecos-Mauritania</name>
-  <Style id="icon-blue"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon></IconStyle></Style>
-  <Style id="icon-grn"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon></IconStyle></Style>
-  <Style id="icon-ltblu"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href></Icon></IconStyle></Style>
-  <Style id="icon-wht"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon></IconStyle></Style>
-  <Style id="icon-ylw"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-ambar"><IconStyle><color>ff177FC4</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-azul"><IconStyle><color>ffB06C2B</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-gris"><IconStyle><color>ff666666</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-naranja"><IconStyle><color>ff297BD9</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-turquesa"><IconStyle><color>ff8A7A1E</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-verde"><IconStyle><color>ff327D2E</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/star.png</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Chefchaouen</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chefchaouen%20(Blue%20City).jpg?width=900" width="320"/><br/><b>Media · Patrimonio</b><br/>La «ciudad azul» del Rif: medina encalada en tonos añil, callejones peatonales y talleres de artesanía. Parada clásica de aclimatación tras el desembarco en Tánger Med, antes de bajar hacia Fez.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.1688,-5.2636">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-5.2636,35.1688,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Volubilis</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Roman%20Mosaic%20floor%20in%20Volubilis%2C%20Morocco.jpg?width=900" width="320"/><br/><b>Media · Patrimonio romano</b><br/>Ruinas romanas mejor conservadas del Magreb (mosaicos, arco de Caracalla, capitolio); yacimiento UNESCO junto a Mulay Idriss. Perro con correa en el recinto abierto; sombra escasa en verano.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=34.0742,-5.5547">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-5.5547,34.0742,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Fez el Bali (medina y curtidurías)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tanneries%20in%20Fes.jpg?width=900" width="320"/><br/><b>Media · Patrimonio</b><br/>La medina medieval más grande y viva del mundo árabe: Chouara (curtidurías), Qaraouiyine y miles de callejones sin vehículos. Acceso de perro a curtidurías y zocos cubiertos sujeto a criterio del guía/propietario: confir<br/><b>Perro:</b> requiere autorización escrita<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=34.0631,-4.9787">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-4.9787,34.0631,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Erg Chebbi — Merzouga</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dunes-Merzouga-Erg%20Chebi.JPG?width=900" width="320"/><br/><b>Alta · Desierto</b><br/>Las mayores dunas de Marruecos (hasta 150 m), puerta al Sáhara argelino. Bivac en auberges con parking para 4x4, salidas en pista de arena suelta; agua y sombra limitadas para el perro en las horas centrales.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.0801,-4.0134">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-naranja</styleUrl>
     <Point><coordinates>-4.0134,31.0801,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Garganta del Todra</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Todra%20Gorge.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza · 4x4</b><br/>Cañón calizo de paredes de hasta 300 m; pista remontable en vehículo hasta el estrechamiento y a pie/con guía más allá. Combinar con Dades para un bucle de gargantas.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.581,-5.5809">Google Maps</a>]]></description>
-    <styleUrl>#icon-grn</styleUrl>
+    <styleUrl>#icon-poi-verde</styleUrl>
     <Point><coordinates>-5.5809,31.581,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Aït Benhaddou</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%C3%AFtBenhaddou%20Morocco%202.jpg?width=900" width="320"/><br/><b>Media · Patrimonio UNESCO</b><br/>Ksar de tierra apisonada, plató de cine (Gladiator, Juego de Tronos) y ejemplo mejor conservado de arquitectura preshariana del Alto Atlas. Cruce del río a pie o en pasarela improvisada según caudal.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.0472,-7.1319">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-7.1319,31.0472,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Marrakech — Jemaa el-Fnaa</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jamaa%20El%20Fna%2C%20Marrakesh%2C%20Morocco%2C%2020250124%201804%207017.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Plaza-mercado UNESCO (patrimonio inmaterial), base logística mayor del sur: talleres, recambios 4x4, hospitales de referencia y vuelos internacionales si hay que resolver una incidencia grave.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.6258,-7.9891">Google Maps</a>]]></description>
-    <styleUrl>#icon-blue</styleUrl>
+    <styleUrl>#icon-poi-azul</styleUrl>
     <Point><coordinates>-7.9891,31.6258,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Puerto de Tizi n'Test</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tizi-n-Test%20Marokko.jpg?width=900" width="320"/><br/><b>Alta · 4x4 · paso de montaña</b><br/>Puerto de 2 092 m sobre el Alto Atlas occidental, carretera estrecha con curvas cerradas y caídas pronunciadas: alternativa panorámica al Tizi n'Tichka para bajar de Marrakech hacia el Sous. Evitar con niebla o de noche.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.8697,-8.3563">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-naranja</styleUrl>
     <Point><coordinates>-8.3563,30.8697,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Essaouira</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Skala%20du%20Port%20Essaouira%20Morocco.jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>Puerto pesquero amurallado (ex Mogador), vientos alisios constantes, medina UNESCO. Playa amplia para el perro fuera de las zonas de baño señalizadas del centro.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.5085,-9.7595">Google Maps</a>]]></description>
-    <styleUrl>#icon-ltblu</styleUrl>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
     <Point><coordinates>-9.7595,31.5085,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Tafraout y valle de Ameln</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%22Ein%20sch%C3%B6ner%20Ort%20im%20Tal%20der%20Ammeln%22.%2008.jpg?width=900" width="320"/><br/><b>Media · Paisaje</b><br/>Pueblos bereberes de adobe rosado bajo formaciones graníticas (Napoleón's Hat); pistas secundarias hacia pinturas rupestres y almendros. Base tranquila para descansar antes del tramo sahariano.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.7181,-8.977">Google Maps</a>]]></description>
-    <styleUrl>#icon-grn</styleUrl>
+    <styleUrl>#icon-poi-verde</styleUrl>
     <Point><coordinates>-8.977,29.7181,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Arco de Legzira</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/MA.GN.Sidi-Ifni%20Legzira-Beach%20Stone-Arch%20756%2016x9-R%205120x2880.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Playa de acantilados rojizos con arco natural (uno de los dos colapsó en 2020); acceso solo con marea baja, sin socorrista. No aparcar al pie del acantilado por desprendimientos.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.3452,-10.1263">Google Maps</a>]]></description>
-    <styleUrl>#icon-grn</styleUrl>
+    <styleUrl>#icon-poi-verde</styleUrl>
     <Point><coordinates>-10.1263,29.3452,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Sidi Ifni</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sidi%20Ifni%20Commune%20House.jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>Antiguo enclave español (Ifni), arquitectura art-déco colonial, puerto pesquero activo y surf. Última ciudad grande con servicios completos antes del tramo semidesértico hacia Guelmim.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.3797,-10.1728">Google Maps</a>]]></description>
-    <styleUrl>#icon-ltblu</styleUrl>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
     <Point><coordinates>-10.1728,29.3797,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Khnifiss</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Flamingo%20in%20Khenifiss%20National%20Park%20Tarfaya%20Morocco.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Mayor laguna costera de Marruecos, humedal Ramsar con flamencos y aves migratorias entre Tan-Tan y Tarfaya. Acceso de vehículo y perro restringido en la zona núcleo: confirmar con la delegación de Aguas y Bosques antes d<br/><b>Perro:</b> requiere autorización escrita<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.97,-12.34">Google Maps</a>]]></description>
-    <styleUrl>#icon-grn</styleUrl>
+    <styleUrl>#icon-poi-verde</styleUrl>
     <Point><coordinates>-12.34,27.97,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Tarfaya</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Camels%20near%20Tarfaya%20Morocco.jpg?width=900" width="320"/><br/><b>Media · Historia · logística</b><br/>Ciudad ligada a Saint-Exupéry y la Aeropostale (fuerte Casa del Mar en el islote frente a la costa), gran parque eólico. Última parada de repostaje y descanso antes de entrar en el corredor del Sáhara Occidental.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.9394,-12.9231">Google Maps</a>]]></description>
-    <styleUrl>#icon-wht</styleUrl>
+    <styleUrl>#icon-poi-gris</styleUrl>
     <Point><coordinates>-12.9231,27.9394,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Laayoune (El Aaiún)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune%20Cathedral%202011.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Mayor ciudad del Sáhara Occidental bajo administración marroquí; última base con hospital de referencia, talleres, bancos y combustible antes del tramo semidesértico hacia Dakhla. Catedral de estilo colonial español como<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.1418,-13.1873">Google Maps</a>]]></description>
-    <styleUrl>#icon-blue</styleUrl>
+    <styleUrl>#icon-poi-azul</styleUrl>
     <Point><coordinates>-13.1873,27.1418,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Laguna de Dakhla</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Media · Naturaleza · deporte</b><br/>Península y laguna de aguas planas, referencia mundial de kitesurf y windsurf; ambiente de viajeros y overlanders con explanadas para pernoctar. Punto de descanso recomendado antes del tramo final a Guerguerat.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.69,-15.95">Google Maps</a>]]></description>
-    <styleUrl>#icon-ltblu</styleUrl>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
     <Point><coordinates>-15.95,23.69,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Guerguerat — paso fronterizo</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat%20border%20crossing.jpg?width=900" width="320"/><br/><b>Alta · Frontera</b><br/>Único paso terrestre hacia Mauritania: control marroquí, franja de tierra de nadie sin asfaltar (con cambistas informales) y control mauritano con varios edificios y controles por nacionalidad. Calcular 4–6 horas y no cr<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.34,-16.95">Google Maps</a>]]></description>
-    <styleUrl>#icon-wht</styleUrl>
+    <styleUrl>#icon-poi-gris</styleUrl>
     <Point><coordinates>-16.95,21.34,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Ben Amera</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/01.jpg" width="320"/><br/><b>Alta · Overland</b><br/>Monolito y vivac; tramo remoto junto al eje ferroviario. Acceso solo con track reciente, autonomía y criterio local.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.23003,-13.66437">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-13.66437,21.23003,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Aïcha</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/02.jpg" width="320"/><br/><b>Alta · Arte y desierto</b><br/>Monolito y conjunto escultórico próximo a Ben Amera; visita combinada por pista, a unos 7 km.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.29208,-13.69197">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-13.69197,21.29208,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Chinguetti</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/03.jpg" width="320"/><br/><b>Alta · Patrimonio</b><br/>Ksar histórico, mezquita y bibliotecas; base cultural del Adrar y punto de apoyo para el bucle oriental.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.46343,-12.36648">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-12.36648,20.46343,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Ouadane</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/04.jpg" width="320"/><br/><b>Alta · Patrimonio</b><br/>Antiguo ksar y puerta de acceso al entorno de Richat; reservar margen para pista, guía y meteorología.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.93373,-11.61737">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-11.61737,20.93373,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Oasis de Terjit</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/05.jpg" width="320"/><br/><b>Alta · Excursión</b><br/>Palmeral y surgencia de agua; parada de descanso en el Adrar combinable con Tifoujar y Valle Blanco.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.25242,-13.0877">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-13.0877,20.25242,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Atar</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/06.jpg" width="320"/><br/><b>Logística · Servicios</b><br/>Base principal para combustible, agua, talleres, provisiones, comunicaciones y contratación de guía.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.51819,-13.05439">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-13.05439,20.51819,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Guelb er Richat</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/07.jpg" width="320"/><br/><b>Alta · 4x4 y geología</b><br/>Ojo del Sáhara; bloque 4x4 remoto desde Ouadane que exige navegación, combustible y margen de retorno.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.11085,-11.39283">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-11.39283,21.11085,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Iwik y Banc d'Arguin</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/08.jpg" width="320"/><br/><b>Alta · Naturaleza</b><br/>Parque costero y hábitat de aves migratorias; acceso sujeto a autorización, guía, pistas permitidas y reglas sobre el perro.<br/><b>Perro:</b> requiere autorización escrita; confirmar reglas del parque<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.87841,-16.30442">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-16.30442,19.87841,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Puerto pesquero de Nuakchot</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/09.jpg" width="320"/><br/><b>Media · Cultura</b><br/>Actividad portuaria y parada urbana; extremar discreción fotográfica y confirmar restricciones locales antes de usar dron.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.11029,-16.02292">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-16.02292,18.11029,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque de Diawling</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/10.jpg" width="320"/><br/><b>Alta · Naturaleza y frontera</b><br/>Humedales del delta y enlace potencial con Diama; confirmar acceso, guía, estado de pista y admisión del perro.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.39078,-16.35094">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-16.35094,16.39078,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Paso de Tifoujar</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/11.jpg" width="320"/><br/><b>Alta · 4x4</b><br/>Descenso escénico y arenoso hacia Oued El Abiod; validar firme, trazado y sentido recomendado con información reciente.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.09967,-13.19672">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-13.19672,20.09967,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Valle Blanco</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/mauritania/12.jpg" width="320"/><br/><b>Alta · 4x4</b><br/>Oued El Abiod; corredor natural entre Tifoujar y Terjit, sujeto a arena, agua y estado de la pista.<br/><b>Perro:</b> pendiente de confirmación oficial<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.17762,-13.21507">Google Maps</a>]]></description>
-    <styleUrl>#icon-ylw</styleUrl>
+    <styleUrl>#icon-poi-ambar</styleUrl>
     <Point><coordinates>-13.21507,20.17762,0</coordinates></Point>
   </Placemark>
 </Document></kml>
