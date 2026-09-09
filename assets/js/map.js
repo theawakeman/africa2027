@@ -8,6 +8,8 @@ function a27CatStyle(p){
   if (p.type === 'hospital')  return {color:'#B43A3A', label:'Hospitales'};
   if (p.type === 'consular')  return {color:'#673AB7', label:'Consulados'};
   if (p.type === 'frontera')  return {color:'#5F6B72', label:'Fronteras'};
+  if (p.type === 'agua')      return {color:'#1E88C7', label:'Agua potable'};
+  if (p.type === 'combustible') return {color:'#B8560D', label:'Combustible'};
   if (p.type === 'servicio')  return {color:'#2B6CB0', label:'Servicios'};
   return {color:a27Color(p.color), label:'Puntos de interés'};
 }
