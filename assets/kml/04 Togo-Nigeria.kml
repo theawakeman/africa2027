@@ -1,81 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 04 Togo-Nigeria</name>
+  <Style id="icon-blue"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon></IconStyle></Style>
+  <Style id="icon-grn"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon></IconStyle></Style>
+  <Style id="icon-purple"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href></Icon></IconStyle></Style>
+  <Style id="icon-ylw"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Lomé (Grand Marché y Catedral del Sagrado Corazón)</name>
-    <description><![CDATA[Capital y única gran base logística del país: puerto, aeropuerto internacional, mercado central (Grand Marché, dominado por las «Nana Benz» del comercio textil) junto a la Catedral del Sagrado Corazón. Última plaza con o
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lomé%20Grand%20Marché%20with%20the%20Cathédrale%20du%20Sacré%20Coeur%20(33592985581).jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital y única gran base logística del país: puerto, aeropuerto internacional, mercado central (Grand Marché, dominado por las «Nana Benz» del comercio textil) junto a la Catedral del Sagrado Corazón. Última plaza con o<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1319,1.2228">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>1.2228,6.1319,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Lac Togo y Togoville</name>
-    <description><![CDATA[Laguna costera a 30 km de Lomé; Togoville es cuna del vudú togolés y del tratado colonial de 1884 con Alemania, con una catedral católica sincrética (Notre-Dame du Lac Togo) junto a los santuarios vudú. Travesía en pirag
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cathédrale%20Notre-Dame%20du%20Lac%20Togo.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Laguna costera a 30 km de Lomé; Togoville es cuna del vudú togolés y del tratado colonial de 1884 con Alemania, con una catedral católica sincrética (Notre-Dame du Lac Togo) junto a los santuarios vudú. Travesía en pirag<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.2667,1.5333">Google Maps</a>]]></description>
+    <styleUrl>#icon-ylw</styleUrl>
     <Point><coordinates>1.5333,6.2667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cascada de Kpimé (Kpalimé)</name>
-    <description><![CDATA[Cascada de unos 50 m en las montañas de Kpalimé (macizo del Togo, región cafetera y cacaotera), con senderos entre plantaciones y buena climatología por altitud. Desvío hacia el interior desde el eje costero.
-PERRO: permitido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cascade%20de%20Kpimé%201.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Cascada de unos 50 m en las montañas de Kpalimé (macizo del Togo, región cafetera y cacaotera), con senderos entre plantaciones y buena climatología por altitud. Desvío hacia el interior desde el eje costero.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.9667,0.6333">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>0.6333,6.9667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Aného</name>
-    <description><![CDATA[Antigua capital colonial alemana (Klein Popo) sobre el litoral, con arquitectura afro-brasileña y afro-portuguesa de los antiguos comerciantes de esclavos retornados; playa amplia y tranquila junto a la frontera con Bení
-PERRO: permitido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Aného%20Beach%2C%20DSC01117%20-%20by%20Fanfan.JPG?width=900" width="320"/><br/><b>Baja · Cultura</b><br/>Antigua capital colonial alemana (Klein Popo) sobre el litoral, con arquitectura afro-brasileña y afro-portuguesa de los antiguos comerciantes de esclavos retornados; playa amplia y tranquila junto a la frontera con Bení<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.2333,1.6">Google Maps</a>]]></description>
+    <styleUrl>#icon-ylw</styleUrl>
     <Point><coordinates>1.6,6.2333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cotonou (Mercado de Dantokpa)</name>
-    <description><![CDATA[Capital económica y mayor base logística del país: puerto, aeropuerto internacional, embajada de España acreditada desde Abuja, talleres y recambios. El mercado de Dantokpa, uno de los más grandes de África Occidental, o
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marché%20Dantokpa%201.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital económica y mayor base logística del país: puerto, aeropuerto internacional, embajada de España acreditada desde Abuja, talleres y recambios. El mercado de Dantokpa, uno de los más grandes de África Occidental, o<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3703,2.3912">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>2.3912,6.3703,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Uidá — Puerta del No Retorno</name>
-    <description><![CDATA[Cuna histórica del vudú y uno de los mayores puntos de embarque de la trata atlántica; el monumento de la Puerta del No Retorno cierra la Route des Esclaves, con el Templo de las Pitones y la Basílica de la Inmaculada Co
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Porte%20du%20non-retour%20au%20Benin.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio</b><br/>Cuna histórica del vudú y uno de los mayores puntos de embarque de la trata atlántica; el monumento de la Puerta del No Retorno cierra la Route des Esclaves, con el Templo de las Pitones y la Basílica de la Inmaculada Co<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3597,2.087">Google Maps</a>]]></description>
+    <styleUrl>#icon-ylw</styleUrl>
     <Point><coordinates>2.087,6.3597,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Ganvié — poblado lacustre</name>
-    <description><![CDATA[Aldea sobre pilotes en el lago Nokoué, fundada por el pueblo tofinu para escapar de los cazadores de esclavos fon; se visita exclusivamente en piragua con guía local. El perro no tiene cabida en las piraguas ni en las vi
-PERRO: prohibido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ganvié%20fishing%20village%20on%20stilts%20in%20Benin%20(10282059623)%20(2).jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>Aldea sobre pilotes en el lago Nokoué, fundada por el pueblo tofinu para escapar de los cazadores de esclavos fon; se visita exclusivamente en piragua con guía local. El perro no tiene cabida en las piraguas ni en las vi<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4667,2.4167">Google Maps</a>]]></description>
+    <styleUrl>#icon-purple</styleUrl>
     <Point><coordinates>2.4167,6.4667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Palacios Reales de Abomey</name>
-    <description><![CDATA[Recinto de doce palacios sucesivos de los reyes del antiguo Reino de Dahomey (s. XVII-XIX), Patrimonio Mundial UNESCO; bajorrelieves de barro y el Museo Histórico de Abomey narran la historia militar y ritual del reino.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Palaces%2C%20Abomey%20(Benin)%20banner.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Recinto de doce palacios sucesivos de los reyes del antiguo Reino de Dahomey (s. XVII-XIX), Patrimonio Mundial UNESCO; bajorrelieves de barro y el Museo Histórico de Abomey narran la historia militar y ritual del reino.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.1833,1.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-ylw</styleUrl>
     <Point><coordinates>1.9833,7.1833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Lagos (Lekki Conservation Centre)</name>
-    <description><![CDATA[Megaciudad y mayor base logística del golfo de Guinea: puerto, aeropuerto internacional, embajada de España, talleres y recambios de todo tipo. El Lekki Conservation Centre ofrece la pasarela colgante más larga de África
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/LEKKI%20CONSERVATION%20CENTRE%20LAGOS%2C%20NIGERIA%20(LCC)%2006.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Megaciudad y mayor base logística del golfo de Guinea: puerto, aeropuerto internacional, embajada de España, talleres y recambios de todo tipo. El Lekki Conservation Centre ofrece la pasarela colgante más larga de África<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4432,3.6011">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>3.6011,6.4432,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Bosque Sagrado de Osun-Osogbo</name>
-    <description><![CDATA[Bosque sagrado a orillas del río Osun, Patrimonio Mundial UNESCO y santuario viviente del pueblo yoruba dedicado a la diosa Osun; esculturas y santuarios integrados en la vegetación, con el festival anual Osun-Osogbo com
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Osun-Osogbo%20Sacred%20Grove%2C%20Osun%20State.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Bosque sagrado a orillas del río Osun, Patrimonio Mundial UNESCO y santuario viviente del pueblo yoruba dedicado a la diosa Osun; esculturas y santuarios integrados en la vegetación, con el festival anual Osun-Osogbo com<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.7581,4.5586">Google Maps</a>]]></description>
+    <styleUrl>#icon-ylw</styleUrl>
     <Point><coordinates>4.5586,7.7581,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Benin City (Palacio del Oba)</name>
-    <description><![CDATA[Antigua capital del Reino de Benín, cuna de los célebres bronces de Benín; el palacio del Oba sigue siendo sede activa de la monarquía tradicional edo, con guías locales que explican la historia del reino y de las piezas
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Palace%20of%20the%20Oba%20of%20Benin%20cropped.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Antigua capital del Reino de Benín, cuna de los célebres bronces de Benín; el palacio del Oba sigue siendo sede activa de la monarquía tradicional edo, con guías locales que explican la historia del reino y de las piezas<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.335,5.6037">Google Maps</a>]]></description>
+    <styleUrl>#icon-purple</styleUrl>
     <Point><coordinates>5.6037,6.335,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Calabar</name>
-    <description><![CDATA[Ciudad más ordenada y tranquila del itinerario nigeriano, antiguo puerto de la trata atlántica reconvertido en referencia de memoria histórica (Slave History Museum); última gran base de servicios antes del desvío a Obud
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Calabar%20carnival%209.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Ciudad más ordenada y tranquila del itinerario nigeriano, antiguo puerto de la trata atlántica reconvertido en referencia de memoria histórica (Slave History Museum); última gran base de servicios antes del desvío a Obud<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.9589,8.3269">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>8.3269,4.9589,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Obudu Mountain Resort</name>
-    <description><![CDATA[Antiguo rancho ganadero colonial reconvertido en resort de montaña a 1.500 m de altitud, con teleférico, clima fresco y vistas sobre la meseta de Obudu; último punto de aclimatación antes del descenso hacia la frontera c
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Obudu%20Mountain%20Resort%2002.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Antiguo rancho ganadero colonial reconvertido en resort de montaña a 1.500 m de altitud, con teleférico, clima fresco y vistas sobre la meseta de Obudu; último punto de aclimatación antes del descenso hacia la frontera c<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.6167,9.4">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>9.4,6.6167,0</coordinates></Point>
   </Placemark>
 </Document></kml>

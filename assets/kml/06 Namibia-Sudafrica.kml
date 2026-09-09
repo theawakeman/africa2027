@@ -1,51 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 06 Namibia-Sudafrica</name>
+  <Style id="icon-blue"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon></IconStyle></Style>
+  <Style id="icon-grn"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon></IconStyle></Style>
+  <Style id="icon-ylw"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Parque Nacional de Etosha</name>
-    <description><![CDATA[Una de las mejores reservas de fauna de África: la gran cuenca salina (pan) atrae elefantes, leones, rinocerontes y grandes manadas a los abrevaderos, muy visibles desde el propio vehículo. El perro no tiene acceso al pa
-PERRO: prohibido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20at%20waterhole%2C%20Etosha%20National%20Park%2C%20Namibia.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Una de las mejores reservas de fauna de África: la gran cuenca salina (pan) atrae elefantes, leones, rinocerontes y grandes manadas a los abrevaderos, muy visibles desde el propio vehículo. El perro no tiene acceso al pa<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.1667,15.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>15.9167,-19.1667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Swakopmund</name>
-    <description><![CDATA[Ciudad costera de arquitectura colonial alemana en plena puerta del Skeleton Coast; mejor oferta de talleres y recambios del tramo namibio tras Windhoek, y base para excursiones a las dunas y a la colonia de focas de Cap
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Swakopmund%20panorama%20from%20mole%2020190522.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Ciudad costera de arquitectura colonial alemana en plena puerta del Skeleton Coast; mejor oferta de talleres y recambios del tramo namibio tras Windhoek, y base para excursiones a las dunas y a la colonia de focas de Cap<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.6783,14.5267">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>14.5267,-22.6783,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Sossusvlei y Dune 45</name>
-    <description><![CDATA[Las dunas de arena naranja más altas y fotografiadas del planeta, en el corazón del desierto del Namib; amanecer en Dune 45 y la arcilla blanca agrietada de Deadvlei como referencia visual del país.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/006%20Dune%2045%20in%20Sossusvlei%20at%20sunrise%20Photo%20by%20Giles%20Laurent.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Las dunas de arena naranja más altas y fotografiadas del planeta, en el corazón del desierto del Namib; amanecer en Dune 45 y la arcilla blanca agrietada de Deadvlei como referencia visual del país.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-24.7333,15.8">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>15.8,-24.7333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cañón del río Fish (Fish River Canyon)</name>
-    <description><![CDATA[El segundo cañón más grande del mundo tras el Gran Cañón; miradores accesibles en coche sobre el borde del desfiladero, último gran hito namibio antes de cruzar a Sudáfrica.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20River%20Canyon%20Namibia.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>El segundo cañón más grande del mundo tras el Gran Cañón; miradores accesibles en coche sobre el borde del desfiladero, último gran hito namibio antes de cruzar a Sudáfrica.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-27.5833,17.6167">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>17.6167,-27.5833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Ciudad del Cabo (Table Mountain)</name>
-    <description><![CDATA[Punto de giro del viaje: mejor base logística de todo el corredor para el mantenimiento a fondo de los dos vehículos (talleres especializados en 4x4, recambios, neumáticos), con Table Mountain como referencia visual de l
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Town%20(ZA)%2C%20Table%20Mountain%20--%202024%20--%202825.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Punto de giro del viaje: mejor base logística de todo el corredor para el mantenimiento a fondo de los dos vehículos (talleres especializados en 4x4, recambios, neumáticos), con Table Mountain como referencia visual de l<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9628,18.4098">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>18.4098,-33.9628,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cabo de Buena Esperanza</name>
-    <description><![CDATA[Extremo suroeste de la península del Cabo, dentro del Parque Nacional Table Mountain; acantilados, colonias de babuinos junto a la carretera y el faro de Cape Point como hito simbólico de haber llegado al punto más austr
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Town%20(ZA)%2C%20Cape%20Peninsula%20National%20Park%2C%20Cape%20of%20Good%20Hope%20--%202024%20--%203326.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Extremo suroeste de la península del Cabo, dentro del Parque Nacional Table Mountain; acantilados, colonias de babuinos junto a la carretera y el faro de Cape Point como hito simbólico de haber llegado al punto más austr<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-34.3568,18.474">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>18.474,-34.3568,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Stellenbosch (Winelands)</name>
-    <description><![CDATA[Segunda ciudad más antigua de Sudáfrica y corazón de la región vinícola del Cabo, con bodegas de arquitectura holandesa del Cabo (Cape Dutch) a menos de una hora de Ciudad del Cabo; buen día de descanso dentro de la larg
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Vineyards%20in%20Stellenbosch%20II.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Segunda ciudad más antigua de Sudáfrica y corazón de la región vinícola del Cabo, con bodegas de arquitectura holandesa del Cabo (Cape Dutch) a menos de una hora de Ciudad del Cabo; buen día de descanso dentro de la larg<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9346,18.8642">Google Maps</a>]]></description>
+    <styleUrl>#icon-ylw</styleUrl>
     <Point><coordinates>18.8642,-33.9346,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Garden Route (Knysna)</name>
-    <description><![CDATA[Franja costera entre bosques indígenas, lagunas y acantilados a lo largo de varios cientos de kilómetros de la N2; Knysna, sobre su laguna, como referencia central de un desvío hacia el este antes de decidir la ruta de r
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Knysna%2C%20Garden%20Route%2C%20Western%20Cape%2C%20South%20Africa%20(20479044646).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Franja costera entre bosques indígenas, lagunas y acantilados a lo largo de varios cientos de kilómetros de la N2; Knysna, sobre su laguna, como referencia central de un desvío hacia el este antes de decidir la ruta de r<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-34.0363,23.0471">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>23.0471,-34.0363,0</coordinates></Point>
   </Placemark>
 </Document></kml>

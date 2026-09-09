@@ -1,99 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 07 Mozambique-Kenia</name>
+  <Style id="icon-blue"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon></IconStyle></Style>
+  <Style id="icon-grn"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Maputo</name>
-    <description><![CDATA[Capital y mayor base de servicios del país, con la Avenida Samora Machel y la Casa de Fierro de Eiffel como referencias urbanas; sede de la embajada de España y punto de entrada natural desde Sudáfrica o Esuatini.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Avenida%20Samora%20Machel%20towards%20Maputo%20City%20Hall.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital y mayor base de servicios del país, con la Avenida Samora Machel y la Casa de Fierro de Eiffel como referencias urbanas; sede de la embajada de España y punto de entrada natural desde Sudáfrica o Esuatini.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.9692,32.5732">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>32.5732,-25.9692,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Arquipélago de Bazaruto (Vilanculos)</name>
-    <description><![CDATA[Parque nacional marino con dunas de arena blanca, dugongos y arrecifes de coral; Vilanculos es la base logística en tierra para visitar el archipiélago en barco, punto de referencia de toda la costa índica del sur del pa
-PERRO: no recomendado]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bazaruto%20Archipelago%20National%20Park%2C%20Mozambique.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Parque nacional marino con dunas de arena blanca, dugongos y arrecifes de coral; Vilanculos es la base logística en tierra para visitar el archipiélago en barco, punto de referencia de toda la costa índica del sur del pa<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.9686,35.3172">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>35.3172,-21.9686,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Beira</name>
-    <description><![CDATA[Segunda ciudad del país y puerto clave del corredor hacia Zimbabue y Malaui; la Catedral (Sé da Beira) resume el legado colonial portugués. Base de repostaje y descanso antes de virar hacia el interior por Tete.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sé%20da%20Beira.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Segunda ciudad del país y puerto clave del corredor hacia Zimbabue y Malaui; la Catedral (Sé da Beira) resume el legado colonial portugués. Base de repostaje y descanso antes de virar hacia el interior por Tete.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8437,34.8389">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>34.8389,-19.8437,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Gorongosa</name>
-    <description><![CDATA[Uno de los grandes proyectos de restauración de fauna de África tras la guerra civil (elefantes, leones, licaones); acceso por la puerta de Chitengo. Perro prohibido dentro del parque; opción de dejarlo en el campamento 
-PERRO: prohibido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gorongosa%20Park%20Gate.JPG?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Uno de los grandes proyectos de restauración de fauna de África tras la guerra civil (elefantes, leones, licaones); acceso por la puerta de Chitengo. Perro prohibido dentro del parque; opción de dejarlo en el campamento <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.9686,34.3536">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>34.3536,-18.9686,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Zomba y su meseta</name>
-    <description><![CDATA[Antigua capital colonial a los pies de una meseta boscosa de más de 1.800 m, con miradores, cascadas y aire fresco tras el calor del corredor de Tete; buena base de descanso nada más entrar desde Mozambique.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Antigua capital colonial a los pies de una meseta boscosa de más de 1.800 m, con miradores, cascadas y aire fresco tras el calor del corredor de Tete; buena base de descanso nada más entrar desde Mozambique.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.3833,35.3167">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>35.3167,-15.3833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Liwonde</name>
-    <description><![CDATA[Uno de los grandes proyectos de recuperación de fauna del país junto al río Shire: elefantes, rinocerontes negros reintroducidos y una de las mejores densidades de aves de la región; safaris en vehículo o barco.
-PERRO: prohibido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20in%20Liwonde%20National%20Park.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Uno de los grandes proyectos de recuperación de fauna del país junto al río Shire: elefantes, rinocerontes negros reintroducidos y una de las mejores densidades de aves de la región; safaris en vehículo o barco.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.8333,35.3167">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>35.3167,-14.8333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Lago Malaui — Cabo Maclear</name>
-    <description><![CDATA[El gran eje del país: tercer lago más grande de África, con playas de agua dulce, cientos de especies endémicas de cíclidos y el Parque Nacional del Lago Malaui (UNESCO) frente a la costa de Cabo Maclear.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Otter%20Point%2C%20Cape%20Maclear%20(Malawi).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El gran eje del país: tercer lago más grande de África, con playas de agua dulce, cientos de especies endémicas de cíclidos y el Parque Nacional del Lago Malaui (UNESCO) frente a la costa de Cabo Maclear.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.0206,34.8306">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>34.8306,-14.0206,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Lilongwe</name>
-    <description><![CDATA[Capital administrativa del país, con la mayor oferta de talleres, recambios y supermercados del tramo; base logística antes de continuar hacia el norte y la frontera de Songwe con Tanzania.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe%2C%20Malawi.JPG?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital administrativa del país, con la mayor oferta de talleres, recambios y supermercados del tramo; base logística antes de continuar hacia el norte y la frontera de Songwe con Tanzania.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9626,33.7741">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>33.7741,-13.9626,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cráter del Ngorongoro</name>
-    <description><![CDATA[Caldera volcánica de 20 km de diámetro convertida en el mayor recinto natural de fauna cerrado de África: los «Big Five» conviven en un espacio de densidad excepcional. Área de Conservación gestionada junto a comunidades
-PERRO: prohibido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wide%20aerial%20landscape%20of%20the%20Ngorongoro%20ecosystem.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Caldera volcánica de 20 km de diámetro convertida en el mayor recinto natural de fauna cerrado de África: los «Big Five» conviven en un espacio de densidad excepcional. Área de Conservación gestionada junto a comunidades<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.2,35.5">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>35.5,-3.2,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Arusha y el monte Meru</name>
-    <description><![CDATA[Capital logística del norte de safaris (Serengeti, Ngorongoro, Kilimanjaro, Manyara); mejor oferta de talleres, recambios y supermercados del tramo, y puerta de salida hacia Kenia por Namanga.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20meru%20with%20snow%2C%20Arusha%20Region%2C%20Tanzania.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital logística del norte de safaris (Serengeti, Ngorongoro, Kilimanjaro, Manyara); mejor oferta de talleres, recambios y supermercados del tramo, y puerta de salida hacia Kenia por Namanga.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>36.683,-3.3869,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Dar es Salaam</name>
-    <description><![CDATA[Antigua capital y mayor ciudad y puerto del país; desvío costero opcional desde el eje Mbeya-Arusha, con mejor infraestructura urbana y punto de embarque del ferry hacia Zanzíbar.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dar%20es%20Salaam%20City%20Skyline.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Antigua capital y mayor ciudad y puerto del país; desvío costero opcional desde el eje Mbeya-Arusha, con mejor infraestructura urbana y punto de embarque del ferry hacia Zanzíbar.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.7924,39.2083">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>39.2083,-6.7924,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Zanzíbar (Stone Town)</name>
-    <description><![CDATA[Ciudad histórica swahili-omaní (UNESCO) en la isla de Unguja, accesible en ferry desde Dar es Salaam; casco antiguo, mercados de especias y playas del archipiélago como desvío costero opcional del corredor.
-PERRO: no recomendado]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stone%20Town%2C%20Zanzibar%2C%202021%2C%2036.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Ciudad histórica swahili-omaní (UNESCO) en la isla de Unguja, accesible en ferry desde Dar es Salaam; casco antiguo, mercados de especias y playas del archipiélago como desvío costero opcional del corredor.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.1659,39.1917">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>39.1917,-6.1659,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Nairobi</name>
-    <description><![CDATA[Capital y mayor base logística del proyecto en el corredor de regreso: talleres especializados en vehículos de expedición, recambios, embajada de España y el único Parque Nacional del mundo pegado al perfil de una gran c
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nairobi%20Skyline%20Savannah%20Kenya%20May19%20R1600687.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital y mayor base logística del proyecto en el corredor de regreso: talleres especializados en vehículos de expedición, recambios, embajada de España y el único Parque Nacional del mundo pegado al perfil de una gran c<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2864,36.8172">Google Maps</a>]]></description>
+    <styleUrl>#icon-blue</styleUrl>
     <Point><coordinates>36.8172,-1.2864,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Amboseli</name>
-    <description><![CDATA[Célebre por sus manadas de elefantes con el Kilimanjaro como telón de fondo; primer gran parque tras cruzar desde Tanzania por Namanga, con alojamientos justo a la entrada del parque.
-PERRO: prohibido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Amboseli%20National%20Park%20and%20Mt.%20Kilimanjaro.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Célebre por sus manadas de elefantes con el Kilimanjaro como telón de fondo; primer gran parque tras cruzar desde Tanzania por Namanga, con alojamientos justo a la entrada del parque.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.6527,37.2606">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>37.2606,-2.6527,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Nanyuki y el monte Kenia</name>
-    <description><![CDATA[Localidad sobre el ecuador geográfico a los pies del monte Kenia (segundo pico más alto de África); base de servicios y descanso en el eje norte hacia Isiolo y Marsabit, con buena oferta de talleres.
-PERRO: permitido con condiciones]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Mt.%20Kenya%20from%20the%20Nanyuki%20Town.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Localidad sobre el ecuador geográfico a los pies del monte Kenia (segundo pico más alto de África); base de servicios y descanso en el eje norte hacia Isiolo y Marsabit, con buena oferta de talleres.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.0167,37.0667">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>37.0667,0.0167,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Marsabit</name>
-    <description><![CDATA[Oasis forestal de altitud en pleno desierto del norte de Kenia, con cráteres-lago (Lake Paradise) y fauna adaptada al bosque de niebla; última gran referencia natural antes del corredor desértico hacia Moyale y Etiopía.
-PERRO: prohibido]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Buffalos%20at%20Marsabit%20National%20Park.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Oasis forestal de altitud en pleno desierto del norte de Kenia, con cráteres-lago (Lake Paradise) y fauna adaptada al bosque de niebla; última gran referencia natural antes del corredor desértico hacia Moyale y Etiopía.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.3167,37.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-grn</styleUrl>
     <Point><coordinates>37.9833,2.3167,0</coordinates></Point>
   </Placemark>
 </Document></kml>
