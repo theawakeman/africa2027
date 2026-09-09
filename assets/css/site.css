@@ -135,6 +135,7 @@ a.card { transition:transform .15s ease; } a.card:hover { transform:translateY(-
 .b-draft { background:var(--amber-bg); color:var(--amber); }
 .b-off { background:var(--grey-bg); color:var(--grey); }
 .b-x { background:var(--red-bg); color:var(--red); }
+.hero .verif-badge { display:inline-block; margin:8px 0 2px; align-self:auto; }
 
 .btn { display:inline-block; background:var(--teal); color:#fff; border:none; border-radius:8px; padding:8px 16px; font-size:14px; font-weight:700; text-decoration:none; cursor:pointer; }
 
