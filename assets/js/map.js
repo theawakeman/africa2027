@@ -13,7 +13,7 @@ function a27CatStyle(p){
 }
 function a27Popup(p, root){
   let h = '';
-  if (p.img) h += '<img src="'+root+p.img+'" alt="" style="width:100%;aspect-ratio:16/9;object-fit:cover">';
+  if (p.img) h += '<img src="'+(p.img.indexOf('http')===0?p.img:root+p.img)+'" alt="" style="width:100%;aspect-ratio:16/9;object-fit:cover">';
   h += '<strong style="font-size:14px">'+p.name+'</strong><br>';
   if (p.cat) h += '<span style="color:#1E7A8A;font-weight:700">'+(p.prio? p.prio+' · ':'')+p.cat+'</span><br>';
   if (p.desc) h += '<span>'+p.desc+'</span><br>';
