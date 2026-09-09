@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16324F">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<link rel="icon" href="../../../assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="../../../assets/icons/icon-192.png">
+<link rel="stylesheet" href="../../../assets/css/site.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<title>Historia de Yibuti · África 2027</title>
+</head>
+<body>
+<nav class="nav"><a class="brand" href="../../../">ÁFRICA 2027</a><span class="brand" style="padding-left:0">· Historia</span><a href="../../../mapa/">Mapa general</a><a href="../../../documentacion/">Documentación</a><a href="../../../paises/yibuti/">← Ficha de Yibuti</a></nav>
+<header class="hero histhero">
+  <img class="bg" src="https://commons.wikimedia.org/wiki/Special:FilePath/Jetty%20of%20the%20Port%20of%20Djibouti.jpg?width=900" alt="Yibuti">
+  <div class="veil"></div>
+  <div class="photo-credit">Yibuti ciudad y el puerto · Uvceto · CC BY-SA 4.0</div>
+  <div class="inner">
+    <div class="kicker">HISTORIA Y CONTEXTO · YIBUTI</div>
+    <h1>Historia de Yibuti</h1>
+    <p class="sub">Orígenes, colonización, independencia y situación actual — para leer o escuchar durante el viaje.</p>
+  </div>
+</header><main><div class="audio-bar" id="audio-bar"><button id="a27-play" class="btn">🔊 Escuchar la historia</button><button id="a27-pause" class="btn ghost" hidden>⏸ Pausar</button><button id="a27-stop" class="btn ghost" hidden>⏹ Detener</button><span class="audio-status" id="a27-status"></span></div><p class="figcap">El audio se genera en el propio dispositivo (voz del sistema); no requiere conexión una vez cargada la página ni descarga de ningún archivo.</p><article id="historia-article" class="historia-article"><p>Yibuti debe su existencia a su posición en la boca del mar Rojo: puesto comercial afar y somalí convertido en colonia francesa en 1896 precisamente para controlar esa ruta marítima, obtuvo la independencia en 1977 y hoy vive de esa misma posición estratégica —puerto, base logística internacional y, para este viaje, la salida marítima que sustituye al bloqueado corredor de Sudán.</p><h3>Pueblos afar e issa en la boca del mar Rojo</h3><p>Antes de la colonización, la actual Yibuti era territorio de pastores nómadas afar (relacionados con los pueblos de las tierras altas etíopes) y de clanes somalíes issa, organizados en sultanatos y jefaturas tradicionales que controlaban las rutas de caravanas de sal y ganado entre el interior africano y el mar Rojo.</p><h3>La Costa Francesa de los Somalíes</h3><p>Francia estableció un protectorado en 1862 sobre Obock y fundó la ciudad de Yibuti en 1888, atraída por su bahía natural profunda, justo enfrente de la colonia británica de Adén, en la orilla arábiga. En 1896 el territorio se formalizó como colonia de la Costa Francesa de los Somalíes, y en 1917 el ferrocarril Yibuti-Adís Abeba convirtió al puerto en la salida marítima natural de la Etiopía interior, sin costa propia — el mismo papel que cumple hoy para este proyecto.</p><h3>Independencia en 1977</h3><p>Tras dos referendos (1958 y 1967) en los que la población optó por seguir vinculada a Francia, Yibuti alcanzó finalmente la independencia en 1977, bajo el liderazgo de Hassan Gouled Aptidon, en un delicado equilibrio político entre las comunidades afar e issa que marcó las décadas siguientes, incluida una guerra civil interna entre 1991 y 1994.</p><h3>Situación actual: la geografía como destino</h3><p>Yibuti ha convertido su posición geográfica en su principal activo económico: alberga bases militares de Francia, Estados Unidos, China y Japón —una concentración única en el mundo— y su puerto, ampliado en las últimas décadas, es la salida marítima de facto de Etiopía y un nodo clave del comercio del mar Rojo. Para este proyecto, esa misma infraestructura portuaria es la que permite sortear el bloqueo del corredor de Sudán y enviar el vehículo hacia Egipto o Europa por mar.</p></article><section id="fuentes-historia"><h2>Fuentes y para profundizar</h2><ul class="srcs"><li><a href="https://www.bbc.com/news/world-africa-13232162" target="_blank" rel="noopener">BBC News · Djibouti country profile</a></li><li><a href="https://www.britannica.com/place/Djibouti/History" target="_blank" rel="noopener">Encyclopaedia Britannica · Djibouti, History</a></li><li><a href="https://overlandingassociation.org/overland-wiki/shipping-around-ethiopia/" target="_blank" rel="noopener">Overlanding Association · Shipping around Ethiopia</a></li></ul></section><footer>ÁFRICA 2027 · Historia de Yibuti · versión 20260909-0650 · <a href="../../../paises/yibuti/">Volver a la ficha</a> · <a href="../../../">Portal</a></footer></main>
+<script>
+(function(){
+  const bar = document.getElementById('audio-bar');
+  if (!bar) return;
+  if (!('speechSynthesis' in window)) { bar.hidden = true; return; }
+  const article = document.getElementById('historia-article');
+  const playBtn = document.getElementById('a27-play');
+  const pauseBtn = document.getElementById('a27-pause');
+  const stopBtn = document.getElementById('a27-stop');
+  const status = document.getElementById('a27-status');
+  function pickVoice(){
+    const voices = speechSynthesis.getVoices();
+    return voices.find(v => v.lang && v.lang.toLowerCase().startsWith('es')) || voices[0];
+  }
+  function start(){
+    speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(article.innerText);
+    utter.lang = 'es-ES';
+    const v = pickVoice(); if (v) utter.voice = v;
+    utter.rate = 0.98;
+    utter.onstart = () => { status.textContent = 'Narrando…'; playBtn.hidden = true; pauseBtn.hidden = false; stopBtn.hidden = false; pauseBtn.textContent = '⏸ Pausar'; };
+    utter.onend = () => { status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    utter.onerror = () => { status.textContent = 'No se pudo reproducir el audio en este dispositivo.'; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    speechSynthesis.speak(utter);
+  }
+  playBtn.addEventListener('click', start);
+  pauseBtn.addEventListener('click', () => {
+    if (speechSynthesis.speaking && !speechSynthesis.paused) { speechSynthesis.pause(); pauseBtn.textContent = '▶ Reanudar'; }
+    else if (speechSynthesis.paused) { speechSynthesis.resume(); pauseBtn.textContent = '⏸ Pausar'; }
+  });
+  stopBtn.addEventListener('click', () => { speechSynthesis.cancel(); status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; });
+  window.addEventListener('beforeunload', () => speechSynthesis.cancel());
+})();
+</script>
+
+<div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(document.querySelector('link[rel=manifest]').getAttribute('href').replace('manifest.webmanifest','sw.js')).then(reg => {
+    function watch(sw){ sw.addEventListener('statechange', () => { if (sw.state === 'installed' && navigator.serviceWorker.controller) show(reg); }); }
+    if (reg.waiting && navigator.serviceWorker.controller) show(reg);
+    if (reg.installing) watch(reg.installing);
+    reg.addEventListener('updatefound', () => watch(reg.installing));
+  });
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
+}
+</script>
+</body>
+</html>
