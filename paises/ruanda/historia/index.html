@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16324F">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<link rel="icon" href="../../../assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="../../../assets/icons/icon-192.png">
+<link rel="stylesheet" href="../../../assets/css/site.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<title>Historia de Ruanda · África 2027</title>
+</head>
+<body>
+<nav class="nav"><a class="brand" href="../../../">ÁFRICA 2027</a><span class="brand" style="padding-left:0">· Historia</span><a href="../../../mapa/">Mapa general</a><a href="../../../documentacion/">Documentación</a><a href="../../../paises/ruanda/">← Ficha de Ruanda</a></nav>
+<header class="hero histhero">
+  <img class="bg" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kigali%20city%20view.jpg?width=900" alt="Ruanda">
+  <div class="veil"></div>
+  <div class="photo-credit">Kigali · Baraka29 · CC BY-SA 4.0</div>
+  <div class="inner">
+    <div class="kicker">HISTORIA Y CONTEXTO · RUANDA</div>
+    <h1>Historia de Ruanda</h1>
+    <p class="sub">Orígenes, colonización, independencia y situación actual — para leer o escuchar durante el viaje.</p>
+  </div>
+</header><main><div class="audio-bar" id="audio-bar"><button id="a27-play" class="btn">🔊 Escuchar la historia</button><button id="a27-pause" class="btn ghost" hidden>⏸ Pausar</button><button id="a27-stop" class="btn ghost" hidden>⏹ Detener</button><span class="audio-status" id="a27-status"></span></div><p class="figcap">El audio se genera en el propio dispositivo (voz del sistema); no requiere conexión una vez cargada la página ni descarga de ningún archivo.</p><article id="historia-article" class="historia-article"><p>Ruanda es un país pequeño y densamente poblado con una identidad precolonial fuertemente centralizada en torno a la monarquía tutsi, cuyas divisiones étnicas fueron rigidificadas y explotadas por el colonialismo belga hasta desembocar en el genocidio de 1994 contra los tutsis, uno de los episodios más brutales del siglo XX; desde entonces el país ha construido una reconstrucción notable bajo un gobierno fuertemente centralizado, con Kigali como modelo regional de orden y desarrollo, aunque con muy poco espacio para la disidencia política.</p><h3>El reino de Ruanda precolonial</h3><p>Antes de la colonización, el territorio estaba organizado en torno a un reino centralizado dominado por la monarquía tutsi (el mwami), con una estructura social jerárquica entre tutsis, hutus y twa que originalmente tenía más de casta socioeconómica y ocupacional (ganaderos frente a agricultores) que de origen étnico o racial diferenciado, con importante movilidad entre grupos.</p><h3>El colonialismo alemán y belga: la fabricación de la división étnica</h3><p>Alemania y después Bélgica (tras la Primera Guerra Mundial) gobernaron a través de la aristocracia tutsi, a la que favorecieron sistemáticamente, y introdujeron carnés de identidad étnica obligatorios que fijaron de forma rígida y pseudocientífica una distinción entre hutus y tutsis que hasta entonces había sido mucho más fluida, sentando las bases del enfrentamiento posterior.</p><h3>El genocidio de 1994</h3><p>Tras décadas de tensión poselecciones y varios episodios de violencia previa, el asesinato del presidente en abril de 1994 desencadenó un genocidio planificado contra la población tutsi (y hutus moderados) que se cobró alrededor de 800.000 vidas en apenas cien días, uno de los genocidios más rápidos y brutales de la historia moderna, hasta que el Frente Patriótico Ruandés puso fin a la matanza y tomó el poder.</p><h3>Situación actual: reconstrucción, centralización del poder y crecimiento</h3><p>Desde 1994, el gobierno liderado por Paul Kagame ha impulsado una notable reconstrucción económica e institucional —Kigali es hoy una de las ciudades más limpias y seguras de África y un centro de innovación tecnológica regional—, combinada con un control político muy estricto, restricciones severas a la oposición y a la prensa, y una prohibición legal de mencionar la etnia en la vida pública como parte de una política oficial de reconciliación nacional; el país también ha estado implicado en tensiones y conflictos armados en la vecina RD Congo, un asunto de atención internacional continuada.</p></article><section id="fuentes-historia"><h2>Fuentes y para profundizar</h2><ul class="srcs"><li><a href="https://www.bbc.com/news/world-africa-14093238" target="_blank" rel="noopener">BBC News · Rwanda country profile</a></li><li><a href="https://www.britannica.com/place/Rwanda/History" target="_blank" rel="noopener">Encyclopaedia Britannica · Rwanda, History</a></li><li><a href="https://www.un.org/en/preventgenocide/rwanda/" target="_blank" rel="noopener">United Nations · Outreach Programme on the Rwanda Genocide</a></li></ul></section><footer>ÁFRICA 2027 · Historia de Ruanda · versión 20260909-0708 · <a href="../../../paises/ruanda/">Volver a la ficha</a> · <a href="../../../">Portal</a></footer></main>
+<script>
+(function(){
+  const bar = document.getElementById('audio-bar');
+  if (!bar) return;
+  if (!('speechSynthesis' in window)) { bar.hidden = true; return; }
+  const article = document.getElementById('historia-article');
+  const playBtn = document.getElementById('a27-play');
+  const pauseBtn = document.getElementById('a27-pause');
+  const stopBtn = document.getElementById('a27-stop');
+  const status = document.getElementById('a27-status');
+  function pickVoice(){
+    const voices = speechSynthesis.getVoices();
+    return voices.find(v => v.lang && v.lang.toLowerCase().startsWith('es')) || voices[0];
+  }
+  function start(){
+    speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(article.innerText);
+    utter.lang = 'es-ES';
+    const v = pickVoice(); if (v) utter.voice = v;
+    utter.rate = 0.98;
+    utter.onstart = () => { status.textContent = 'Narrando…'; playBtn.hidden = true; pauseBtn.hidden = false; stopBtn.hidden = false; pauseBtn.textContent = '⏸ Pausar'; };
+    utter.onend = () => { status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    utter.onerror = () => { status.textContent = 'No se pudo reproducir el audio en este dispositivo.'; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    speechSynthesis.speak(utter);
+  }
+  playBtn.addEventListener('click', start);
+  pauseBtn.addEventListener('click', () => {
+    if (speechSynthesis.speaking && !speechSynthesis.paused) { speechSynthesis.pause(); pauseBtn.textContent = '▶ Reanudar'; }
+    else if (speechSynthesis.paused) { speechSynthesis.resume(); pauseBtn.textContent = '⏸ Pausar'; }
+  });
+  stopBtn.addEventListener('click', () => { speechSynthesis.cancel(); status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; });
+  window.addEventListener('beforeunload', () => speechSynthesis.cancel());
+})();
+</script>
+
+<div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(document.querySelector('link[rel=manifest]').getAttribute('href').replace('manifest.webmanifest','sw.js')).then(reg => {
+    function watch(sw){ sw.addEventListener('statechange', () => { if (sw.state === 'installed' && navigator.serviceWorker.controller) show(reg); }); }
+    if (reg.waiting && navigator.serviceWorker.controller) show(reg);
+    if (reg.installing) watch(reg.installing);
+    reg.addEventListener('updatefound', () => watch(reg.installing));
+  });
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
+}
+</script>
+</body>
+</html>
