@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16324F">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<link rel="icon" href="../../../assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="../../../assets/icons/icon-192.png">
+<link rel="stylesheet" href="../../../assets/css/site.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<title>Historia de Benín · África 2027</title>
+</head>
+<body>
+<nav class="nav"><a class="brand" href="../../../">ÁFRICA 2027</a><span class="brand" style="padding-left:0">· Historia</span><a href="../../../mapa/">Mapa general</a><a href="../../../documentacion/">Documentación</a><a href="../../../paises/benin/">← Ficha de Benín</a></nav>
+<header class="hero histhero">
+  <img class="bg" src="https://commons.wikimedia.org/wiki/Special:FilePath/Marché%20Dantokpa%201.jpg?width=900" alt="Benín">
+  <div class="veil"></div>
+  <div class="photo-credit">Cotonou (Mercado de Dantokpa) · Alacoolwiki · CC BY 4.0</div>
+  <div class="inner">
+    <div class="kicker">HISTORIA Y CONTEXTO · BENÍN</div>
+    <h1>Historia de Benín</h1>
+    <p class="sub">Orígenes, colonización, independencia y situación actual — para leer o escuchar durante el viaje.</p>
+  </div>
+</header><main><div class="audio-bar" id="audio-bar"><button id="a27-play" class="btn">🔊 Escuchar la historia</button><button id="a27-pause" class="btn ghost" hidden>⏸ Pausar</button><button id="a27-stop" class="btn ghost" hidden>⏹ Detener</button><span class="audio-status" id="a27-status"></span></div><p class="figcap">El audio se genera en el propio dispositivo (voz del sistema); no requiere conexión una vez cargada la página ni descarga de ningún archivo.</p><article id="historia-article" class="historia-article"><p>Benín fue el corazón del poderoso reino de Dahomey, temido por su ejército y tristemente célebre por su papel en la trata negrera atlántica desde el «Puerto de No Retorno» de Ouidah; hoy es reconocido como uno de los grandes bastiones democráticos de África Occidental desde su pionera transición pacífica del socialismo al multipartidismo en 1990, y sigue siendo cuna del vudú, religión que aquí tiene su origen histórico y su reconocimiento oficial.</p><h3>El reino de Dahomey y su ejército de amazonas</h3><p>El reino de Dahomey, con capital en Abomey, se consolidó desde el siglo XVII como una de las potencias militares más organizadas de África Occidental, célebre por su cuerpo de guerreras (las «amazonas» de Dahomey) y por un Estado centralizado que sostenía su economía en gran medida sobre la captura y venta de esclavos a comerciantes europeos en la costa.</p><h3>Ouidah y el «Puerto de No Retorno»</h3><p>La ciudad costera de Ouidah fue uno de los mayores puertos de embarque de esclavos hacia América durante los siglos XVII a XIX, un pasado hoy conmemorado en la «Ruta de los Esclavos» y su monumento del Puerto de No Retorno; Ouidah es también, junto con Abomey, uno de los grandes centros espirituales del vudú, religión reconocida oficialmente en Benín y con festival nacional propio.</p><h3>Colonia francesa y la efímera «República Popular de Benín»</h3><p>Francia colonizó el territorio como Dahomey a finales del siglo XIX, integrándolo en el África Occidental Francesa; tras la independencia en 1960, el país vivió una notable inestabilidad con varios golpes de Estado hasta que el militar Mathieu Kérékou instauró en 1972 un régimen marxista-leninista de partido único, renombrando el país República Popular de Benín en 1975.</p><h3>Situación actual: pionero de la transición democrática africana</h3><p>En 1990, Benín fue pionero al organizar una «Conferencia Nacional» que condujo pacíficamente del marxismo al multipartidismo, un modelo que después inspiraría transiciones similares en otros países africanos; el propio Kérékou aceptó la derrota electoral en 1991, un hecho poco común en la época, y desde entonces el país mantiene una de las democracias más estables de la región, aunque con tensiones recientes en torno a reformas constitucionales.</p></article><section id="fuentes-historia"><h2>Fuentes y para profundizar</h2><ul class="srcs"><li><a href="https://www.bbc.com/news/world-africa-13037572" target="_blank" rel="noopener">BBC News · Benin country profile</a></li><li><a href="https://whc.unesco.org/en/list/323/" target="_blank" rel="noopener">UNESCO · Palacios reales de Abomey</a></li><li><a href="https://www.britannica.com/place/Benin" target="_blank" rel="noopener">Encyclopaedia Britannica · Benin, History</a></li></ul></section><footer>ÁFRICA 2027 · Historia de Benín · versión 20260909-0719 · <a href="../../../paises/benin/">Volver a la ficha</a> · <a href="../../../">Portal</a></footer></main>
+<script>
+(function(){
+  const bar = document.getElementById('audio-bar');
+  if (!bar) return;
+  if (!('speechSynthesis' in window)) { bar.hidden = true; return; }
+  const article = document.getElementById('historia-article');
+  const playBtn = document.getElementById('a27-play');
+  const pauseBtn = document.getElementById('a27-pause');
+  const stopBtn = document.getElementById('a27-stop');
+  const status = document.getElementById('a27-status');
+  function pickVoice(){
+    const voices = speechSynthesis.getVoices();
+    return voices.find(v => v.lang && v.lang.toLowerCase().startsWith('es')) || voices[0];
+  }
+  function start(){
+    speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(article.innerText);
+    utter.lang = 'es-ES';
+    const v = pickVoice(); if (v) utter.voice = v;
+    utter.rate = 0.98;
+    utter.onstart = () => { status.textContent = 'Narrando…'; playBtn.hidden = true; pauseBtn.hidden = false; stopBtn.hidden = false; pauseBtn.textContent = '⏸ Pausar'; };
+    utter.onend = () => { status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    utter.onerror = () => { status.textContent = 'No se pudo reproducir el audio en este dispositivo.'; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    speechSynthesis.speak(utter);
+  }
+  playBtn.addEventListener('click', start);
+  pauseBtn.addEventListener('click', () => {
+    if (speechSynthesis.speaking && !speechSynthesis.paused) { speechSynthesis.pause(); pauseBtn.textContent = '▶ Reanudar'; }
+    else if (speechSynthesis.paused) { speechSynthesis.resume(); pauseBtn.textContent = '⏸ Pausar'; }
+  });
+  stopBtn.addEventListener('click', () => { speechSynthesis.cancel(); status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; });
+  window.addEventListener('beforeunload', () => speechSynthesis.cancel());
+})();
+</script>
+
+<div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(document.querySelector('link[rel=manifest]').getAttribute('href').replace('manifest.webmanifest','sw.js')).then(reg => {
+    function watch(sw){ sw.addEventListener('statechange', () => { if (sw.state === 'installed' && navigator.serviceWorker.controller) show(reg); }); }
+    if (reg.waiting && navigator.serviceWorker.controller) show(reg);
+    if (reg.installing) watch(reg.installing);
+    reg.addEventListener('updatefound', () => watch(reg.installing));
+  });
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
+}
+</script>
+</body>
+</html>

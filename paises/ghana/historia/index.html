@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16324F">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<link rel="icon" href="../../../assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="../../../assets/icons/icon-192.png">
+<link rel="stylesheet" href="../../../assets/css/site.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<title>Historia de Ghana · África 2027</title>
+</head>
+<body>
+<nav class="nav"><a class="brand" href="../../../">ÁFRICA 2027</a><span class="brand" style="padding-left:0">· Historia</span><a href="../../../mapa/">Mapa general</a><a href="../../../documentacion/">Documentación</a><a href="../../../paises/ghana/">← Ficha de Ghana</a></nav>
+<header class="hero histhero">
+  <img class="bg" src="https://commons.wikimedia.org/wiki/Special:FilePath/Elmina%20Castle%20-%20Ghana.jpg?width=900" alt="Ghana">
+  <div class="veil"></div>
+  <div class="photo-credit">Castillo de Elmina · Damien Halleux Radermecker · CC BY-SA 2.0</div>
+  <div class="inner">
+    <div class="kicker">HISTORIA Y CONTEXTO · GHANA</div>
+    <h1>Historia de Ghana</h1>
+    <p class="sub">Orígenes, colonización, independencia y situación actual — para leer o escuchar durante el viaje.</p>
+  </div>
+</header><main><div class="audio-bar" id="audio-bar"><button id="a27-play" class="btn">🔊 Escuchar la historia</button><button id="a27-pause" class="btn ghost" hidden>⏸ Pausar</button><button id="a27-stop" class="btn ghost" hidden>⏹ Detener</button><span class="audio-status" id="a27-status"></span></div><p class="figcap">El audio se genera en el propio dispositivo (voz del sistema); no requiere conexión una vez cargada la página ni descarga de ningún archivo.</p><article id="historia-article" class="historia-article"><p>Ghana fue la Costa del Oro, uno de los grandes centros del comercio de oro y esclavos de África Occidental, y en 1957 se convirtió en el primer país subsahariano en independizarse del colonialismo europeo, bajo el liderazgo carismático de Kwame Nkrumah y su visión panafricanista; tras un periodo de golpes militares, el país se ha consolidado desde los años noventa como una de las democracias más estables y admiradas de todo el continente.</p><h3>El imperio ashanti y la Costa del Oro</h3><p>El poderoso imperio ashanti, con capital en Kumasi, dominó buena parte del territorio desde el siglo XVII, construyendo su riqueza sobre el comercio del oro y, trágicamente, también de esclavos hacia la costa; los castillos de Elmina y Cape Coast, construidos primero por los portugueses y luego disputados por holandeses y británicos, fueron puntos clave de embarque de esclavos hacia América, hoy Patrimonio de la Humanidad y lugares de memoria histórica visitables.</p><h3>Colonia británica de la Costa del Oro</h3><p>Gran Bretaña estableció su colonia de la Costa del Oro a lo largo del siglo XIX, tras varias guerras contra el imperio ashanti, que finalmente fue anexionado en 1902; la colonia se convirtió en una de las más prósperas de África Occidental gracias a la exportación de cacao, mineral de oro y madera.</p><h3>Independencia bajo Nkrumah y el panafricanismo</h3><p>Ghana se independizó en 1957, la primera colonia subsahariana en hacerlo, bajo el liderazgo de Kwame Nkrumah, una figura clave del panafricanismo que impulsó la creación de la Organización para la Unidad Africana; su gobierno, cada vez más autoritario y con una economía en dificultades, fue derrocado por un golpe militar en 1966, abriendo un periodo de casi dos décadas de inestabilidad política y golpes de Estado.</p><h3>Situación actual: modelo de estabilidad democrática</h3><p>Desde el retorno al gobierno civil en 1992 bajo Jerry Rawlings, Ghana ha celebrado sucesivas elecciones competitivas con alternancia pacífica de poder, consolidándose como una de las democracias más estables de África y un destino habitual de memoria histórica afroamericana («Year of Return»); el descubrimiento de petróleo en 2007 y una economía diversificada (cacao, oro, servicios) sostienen hoy uno de los crecimientos más sólidos de la región.</p></article><section id="fuentes-historia"><h2>Fuentes y para profundizar</h2><ul class="srcs"><li><a href="https://www.bbc.com/news/world-africa-13433790" target="_blank" rel="noopener">BBC News · Ghana country profile</a></li><li><a href="https://whc.unesco.org/en/list/34/" target="_blank" rel="noopener">UNESCO · Castillos y fortalezas de Ghana</a></li><li><a href="https://www.britannica.com/place/Ghana/History" target="_blank" rel="noopener">Encyclopaedia Britannica · Ghana, History</a></li></ul></section><footer>ÁFRICA 2027 · Historia de Ghana · versión 20260909-0719 · <a href="../../../paises/ghana/">Volver a la ficha</a> · <a href="../../../">Portal</a></footer></main>
+<script>
+(function(){
+  const bar = document.getElementById('audio-bar');
+  if (!bar) return;
+  if (!('speechSynthesis' in window)) { bar.hidden = true; return; }
+  const article = document.getElementById('historia-article');
+  const playBtn = document.getElementById('a27-play');
+  const pauseBtn = document.getElementById('a27-pause');
+  const stopBtn = document.getElementById('a27-stop');
+  const status = document.getElementById('a27-status');
+  function pickVoice(){
+    const voices = speechSynthesis.getVoices();
+    return voices.find(v => v.lang && v.lang.toLowerCase().startsWith('es')) || voices[0];
+  }
+  function start(){
+    speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(article.innerText);
+    utter.lang = 'es-ES';
+    const v = pickVoice(); if (v) utter.voice = v;
+    utter.rate = 0.98;
+    utter.onstart = () => { status.textContent = 'Narrando…'; playBtn.hidden = true; pauseBtn.hidden = false; stopBtn.hidden = false; pauseBtn.textContent = '⏸ Pausar'; };
+    utter.onend = () => { status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    utter.onerror = () => { status.textContent = 'No se pudo reproducir el audio en este dispositivo.'; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; };
+    speechSynthesis.speak(utter);
+  }
+  playBtn.addEventListener('click', start);
+  pauseBtn.addEventListener('click', () => {
+    if (speechSynthesis.speaking && !speechSynthesis.paused) { speechSynthesis.pause(); pauseBtn.textContent = '▶ Reanudar'; }
+    else if (speechSynthesis.paused) { speechSynthesis.resume(); pauseBtn.textContent = '⏸ Pausar'; }
+  });
+  stopBtn.addEventListener('click', () => { speechSynthesis.cancel(); status.textContent = ''; playBtn.hidden = false; pauseBtn.hidden = true; stopBtn.hidden = true; });
+  window.addEventListener('beforeunload', () => speechSynthesis.cancel());
+})();
+</script>
+
+<div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(document.querySelector('link[rel=manifest]').getAttribute('href').replace('manifest.webmanifest','sw.js')).then(reg => {
+    function watch(sw){ sw.addEventListener('statechange', () => { if (sw.state === 'installed' && navigator.serviceWorker.controller) show(reg); }); }
+    if (reg.waiting && navigator.serviceWorker.controller) show(reg);
+    if (reg.installing) watch(reg.installing);
+    reg.addEventListener('updatefound', () => watch(reg.installing));
+  });
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
+}
+</script>
+</body>
+</html>
