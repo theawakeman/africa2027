@@ -279,7 +279,11 @@ async function loadCountry(slug){
   document.getElementById("formCard").hidden = true;
   document.getElementById("fichaBody").innerHTML = "";
   document.getElementById("tabsBar").hidden = !slug;
-  if (!slug) return;
+  if (!slug){
+    document.getElementById("poiSection").hidden = true;
+    document.getElementById("fichaSection").hidden = true;
+    return;
+  }
   showTab("pois");
   msg("Cargando puntos de " + slug + "…", "info");
   try {
@@ -470,7 +474,7 @@ def render_admin(countries_for_admin):
     <button class="tab-btn" id="tabFichaBtn" type="button">Ficha del país</button>
   </div>
 
-  <div id="poiSection">
+  <div id="poiSection" hidden>
     <div class="toolbar">
       <button class="btn" id="addBtn">+ Añadir punto</button>
     </div>
