@@ -1,0 +1,210 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/2009%20Luanda%20Angola%203818325721.jpg?width=900",
+  "hero_credit": "Luanda · Chimpanz APe · CC BY 2.0",
+  "chips": [
+    [
+      "ENTRADA",
+      "Lufu/Luvo (desde RD Congo)"
+    ],
+    [
+      "SALIDA",
+      "Santa Clara/Oshikango (hacia Namibia)"
+    ],
+    [
+      "SEGURIDAD",
+      "estable · precaución normal"
+    ],
+    [
+      "VISADO",
+      "exención de 30 días para españoles — verificar vigencia antes de viajar"
+    ],
+    [
+      "DESVÍO UNESCO",
+      "M'banza-Kongo, cerca de la frontera de entrada"
+    ],
+    [
+      "REVALIDACIÓN",
+      "30–60 días antes"
+    ]
+  ],
+  "historia_resumen": "Angola, heredera del gran reino de Ndongo y del reino de Kongo, sufrió casi cinco siglos de presencia colonial portuguesa centrada en la trata de esclavos hacia Brasil, y tras una independencia tardía en 1975 se sumió de inmediato en una guerra civil de 27 años (1975-2002) que fue uno de los grandes escenarios de la Guerra Fría en África, con Cuba y la URSS apoyando al gobierno marxista y Sudáfrica y Estados Unidos a la guerrilla de UNITA; la paz de 2002 dio paso a un boom petrolero que ha transformado Luanda en una de las ciudades más caras del mundo.",
+  "historia_secciones": [
+    [
+      "Los reinos de Kongo y Ndongo",
+      "El norte del actual territorio formó parte del reino de Kongo, mientras que el reino de Ndongo, gobernado en el siglo XVII por la célebre reina Nzinga Mbandi —hoy símbolo nacional de resistencia—, libró una larga lucha contra el avance portugués antes de sucumbir a la ocupación colonial."
+    ],
+    [
+      "Cinco siglos de colonización portuguesa y la trata de esclavos",
+      "Portugal estableció su presencia en la costa angoleña ya en el siglo XV, y Angola se convirtió en uno de los mayores puntos de origen de la trata negrera atlántica, con millones de personas embarcadas hacia Brasil a lo largo de tres siglos; el dominio colonial portugués, uno de los más prolongados y tardíos en abandonar África, se mantuvo hasta 1975."
+    ],
+    [
+      "Independencia y la guerra civil de la Guerra Fría (1975-2002)",
+      "Angola alcanzó la independencia en 1975 tras una guerra de liberación, pero la rivalidad entre los movimientos independentistas MPLA, UNITA y FNLA derivó de inmediato en una guerra civil que se convirtió en uno de los grandes conflictos por delegación de la Guerra Fría: Cuba y la Unión Soviética respaldaron al gobierno marxista del MPLA, mientras Sudáfrica del apartheid y Estados Unidos apoyaron a la guerrilla anticomunista de UNITA liderada por Jonas Savimbi; el conflicto se prolongó, con altibajos, hasta la muerte de Savimbi en 2002."
+    ],
+    [
+      "Situación actual: boom petrolero y desigualdad",
+      "Desde el fin de la guerra, Angola ha vivido un notable boom económico basado en sus enormes reservas petroleras (una de las mayores de África) y, en menor medida, en diamantes, que ha convertido a Luanda en una de las capitales más caras del mundo para expatriados, conviviendo con una desigualdad social muy marcada; el partido MPLA, en el poder desde la independencia, mantiene el control político del país bajo el presidente João Lourenço desde 2017."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · Angola country profile",
+      "https://www.bbc.com/news/world-africa-13036732"
+    ],
+    [
+      "Encyclopaedia Britannica · Angola, History",
+      "https://www.britannica.com/place/Angola/History"
+    ],
+    [
+      "Council on Foreign Relations · Angola's civil war",
+      "https://www.cfr.org/timeline/angolas-civil-war"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Entrada — Lufu/Luvo (desde RD Congo)",
+      "cat": "Frontera",
+      "lat": -5.9167,
+      "lon": 13.9667,
+      "info": "Cruce del puente fronterizo con RD Congo; registro y sellado ~500 m dentro de Angola. Desvío opcional a M'banza-Kongo (Patrimonio Mundial UNESCO, antigua capital del Reino del Kongo) a poca distancia de la frontera."
+    },
+    {
+      "name": "Frontera · Salida — Santa Clara/Oshikango (hacia Namibia)",
+      "cat": "Frontera",
+      "lat": -17.35,
+      "lon": 15.75,
+      "info": "Paso principal y más transitado hacia Namibia; carretera asfaltada en ambos lados, infraestructura de control moderna."
+    },
+    {
+      "name": "Embajada de España en Luanda",
+      "cat": "Consular",
+      "lat": -8.8167,
+      "lon": 13.2333,
+      "info": "Rua Frederico Welwitsch 84, Torre Maculusso, 12º andar C, Postal 3061, Luanda. Tel. +244 222 391 166/187/188 · Emergencia consular: +244 929 900 900."
+    },
+    {
+      "name": "Hospital Américo Boavida — Luanda",
+      "cat": "Hospital",
+      "lat": -8.8147,
+      "lon": 13.2302,
+      "info": "Principal hospital de referencia de la capital. Coordenada urbana aproximada."
+    },
+    {
+      "name": "Combustible · Luanda / Lobito",
+      "cat": "Combustible",
+      "lat": -8.8383,
+      "lon": 13.2344,
+      "info": "Mejor oferta y calidad del país (Sonangol, Pumangol) en las dos grandes ciudades costeras; repostar a fondo en ambas antes de tramos más largos hacia el sur."
+    },
+    {
+      "name": "Combustible · M'banza-Kongo / Uíge (eje norte)",
+      "cat": "Combustible",
+      "lat": -6.2667,
+      "lon": 14.25,
+      "info": "Estaciones formales en el desvío norte antes de bajar a Luanda; confirmar disponibilidad, oferta más limitada que en la costa."
+    },
+    {
+      "name": "Agua potable y de uso general · Luanda",
+      "cat": "Agua potable",
+      "lat": -8.8383,
+      "lon": 13.2344,
+      "info": "Agua embotellada sin problema en supermercados de la capital; estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito de uso general con manguera."
+    }
+  ],
+  "sources": [
+    [
+      "Angola-Visa.com · proceso de e-visa para viajeros overland",
+      "https://www.angola-visa.com/overland/"
+    ],
+    [
+      "Hinterland Travel · requisitos de visado de Angola para ciudadanos españoles",
+      "https://www.hinterlandtravel.com/spain/destinations/angola"
+    ],
+    [
+      "WhirledAway · cruce de frontera Lufu (RD Congo) / Luvo (Angola)",
+      "https://whirled-away.com/border-crossing-drc-angola/"
+    ],
+    [
+      "Africa Tour Visa · frontera Angola-República del Congo (referencia Cabinda)",
+      "https://www.africatourvisa.com/angola/border-crossing/republicof-the-congo-border/"
+    ],
+    [
+      "Embajada de España en Angola · contacto",
+      "https://www.exteriores.gob.es/Embajadas/luanda/es/Paginas/index.aspx"
+    ],
+    [
+      "tech.africa · disponibilidad de Starlink en África (2026)",
+      "https://tech.africa/starlink-africa/"
+    ],
+    [
+      "UNESCO · Mbanza Kongo, vestigios de la capital del antiguo Reino del Kongo",
+      "https://whc.unesco.org/en/list/1473/"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ],
+    [
+      "Tracks4Africa · cartografía y puntos overland de África",
+      "https://tracks4africa.co.za/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
+  "emergency": "Emergencia consular española (Luanda): +244 929 900 900 · Embajada: +244 222 391 166.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<p>Angola marca el regreso a un país con infraestructura sólida y buenas carreteras tras el tramo más exigente de Centroáfrica: Luanda como gran base logística, el paisaje lunar del Miradouro da Lua a las puertas de la capital, la ciudad colonial de Lobito y un desvío histórico opcional a M'banza-Kongo (UNESCO) cerca de la frontera de entrada, antes del largo descenso hacia Namibia.</p><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Dentro del corredor de bajada, tras RD Congo y antes de Namibia.</td></tr><tr ><td>Entrada</td><td>Lufu/Luvo desde RD Congo; desvío opcional a M'banza-Kongo (UNESCO) a poca distancia.</td></tr><tr ><td>Salida</td><td>Santa Clara/Oshikango hacia Namibia: paso más transitado, infraestructura moderna.</td></tr><tr ><td>Visado</td><td>Exención de visado de turismo de 30 días para pasaportes españoles a fecha de esta revisión — confirmar vigencia 30-60 días antes, la política ha cambiado varias veces en los últimos años.</td></tr><tr ><td>Seguridad</td><td>Estable en todo el país, precaución normal; sin zonas excluidas en el corredor previsto.</td></tr><tr ><td>Comunicaciones</td><td>Starlink anunciado para 2026, no confirmado activo; SIM local (Unitel, Africell) como base.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Visado:</strong> la exención de 30 días para españoles debe reconfirmarse 30-60 días antes de viajar — Angola ha ajustado su política de visados varias veces en los últimos años; si hay cualquier duda, tramitar el e-Visa como respaldo.</li><li><strong>Reentradas:</strong> si el itinerario contempla salir de Angola y volver a entrar (por ejemplo, por un desvío a Cabinda), verificar que el régimen de entrada aplicable permite múltiples entradas — la exención de 30 días se trata como de entrada única salvo confirmación expresa.</li><li><strong>M'banza-Kongo:</strong> desvío que añade tiempo y pista adicional cerca de la frontera — valorar según el calendario general del tramo centroafricano, que ya acumula varias fronteras complejas seguidas.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Angola, heredera del gran reino de Ndongo y del reino de Kongo, sufrió casi cinco siglos de presencia colonial portuguesa centrada en la trata de esclavos hacia Brasil, y tras una independencia tardía en 1975 se sumió de inmediato en una guerra civil de 27 años (1975-2002) que fue uno de los grandes escenarios de la Guerra Fría en África, con Cuba y la URSS apoyando al gobierno marxista y Sudáfrica y Estados Unidos a la guerrilla de UNITA; la paz de 2002 dio paso a un boom petrolero que ha transformado Luanda en una de las ciudades más caras del mundo.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Angola →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Descenso por la costa atlántica angoleña, desde la frontera de RD Congo hasta el paso hacia Namibia.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y desvío histórico</td><td>Lufu/Luvo → (M'banza-Kongo opcional) → Luanda</td><td>UNESCO cerca de la frontera; capital como base logística</td></tr><tr ><td>Paisaje y costa</td><td>Luanda → Miradouro da Lua → Lobito</td><td>Mirador lunar; ciudad colonial portuaria</td></tr><tr ><td>Hacia Namibia</td><td>Lobito → Namibe → Santa Clara/Oshikango</td><td>Descenso largo por buena infraestructura hasta la frontera namibia</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Sin pistas 4x4 destacadas de interés específico para el proyecto en este primer tramo angoleño: la costa Luanda-Lobito es carretera asfaltada en buen estado; el desierto del Namibe (más al sur) se trata en el tramo siguiente.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Luanda: alojamientos con parking vigilado, opción más práctica que la acampada libre en la capital.</li><li>Lobito: hoteles y alguna opción de camping costero con aparcamiento.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Luanda: agua embotellada en supermercados sin problema de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito con manguera; confirmar en recepción.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje costero: Lufu/Luvo → Luanda (~350 km) → Miradouro da Lua (~40 km) → Lobito (~500 km), con estaciones formales (Sonangol, Pumangol) en cada núcleo urbano intermedio.</li><li>Repostar a fondo en Luanda y de nuevo en Lobito antes de continuar hacia Namibe y el sur, donde la oferta se espacía más.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>Exención de visado de turismo (30 días) para pasaportes españoles a fecha de esta revisión; confirmar vigencia 30-60 días antes de viajar.</li><li>Si la exención cambiara, tramitar el e-Visa angoleño con antelación suficiente, prestando atención a si se necesita entrada múltiple.</li><li>Certificado internacional de fiebre amarilla exigido en frontera.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Lufu/Luvo (RD Congo)</td><td>Cruce del puente fronterizo; registro y sellado ~500 m dentro de Angola; desvío opcional a M'banza-Kongo cerca de aquí.</td></tr><tr ><td>Salida</td><td>Santa Clara/Oshikango (Namibia)</td><td>Paso más transitado hacia Namibia; carretera asfaltada e infraestructura de control moderna en ambos lados.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD recomendado; confirmar si Angola exige también una importación temporal adicional del vehículo, dado que el país no pertenece a CEDEAO ni a CEMAC.</li><li>Seguro de responsabilidad civil local obligatorio: contratarlo al entrar por Lufu/Luvo si no se dispone de cobertura previa válida.</li><li>Carnet de conducir internacional obligatorio en todos los controles.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Autorización previa obligatoria: tratar como restringido</div><p>Angola exige autorización previa del Instituto Nacional de Aviação Civil (INAVIC) para cualquier vuelo de dron, con especial sensibilidad cerca de instalaciones petroleras y portuarias (Luanda, Lobito, Cabinda). Norma prudente del proyecto: no volar sin permiso escrito, y evitar cualquier vuelo cerca de infraestructura energética o militar.</p></div><ul class=\"ticks\"><li>Solicitar autorización previa por escrito al INAVIC antes de intentar introducir el dron en el país.</li><li>No volar cerca de instalaciones petroleras o portuarias (Luanda, Lobito) ni de zonas militares.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Anunciado para 2026, aún no activo a mediados de año: tratar como no disponible</div><p>Angola figura entre los mercados africanos con Starlink previsto («coming in 2026») pero sin confirmación de servicio activo a mediados de 2026. Tratarlo como no disponible hasta confirmación oficial y mantener SIM local (Unitel, Africell) como conectividad principal.</p></div><ul class=\"ticks\"><li>Estado no confirmado a mediados de 2026 pese al anuncio de llegada dentro del año: revisar el mapa oficial 30-60 días antes.</li><li>SIM local (Unitel, Africell) como conectividad principal en Luanda y el eje costero.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente (&lt;10 días) y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Sin requisitos adicionales específicos identificados más allá de los comunes del proyecto (microchip, pasaporte UE, titulación de anticuerpos ya obtenida antes de salir de la UE).</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Luanda, Miradouro da Lua, Lobito</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y sombra; calor seco en el sur, más húmedo en la franja costera norte.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Fiebre amarilla: certificado internacional obligatorio para la entrada.</li><li>Malaria presente en todo el territorio, con mayor intensidad en el norte: profilaxis a valorar con Sanidad Exterior.</li><li>Hospital Américo Boavida (Luanda) como referencia hospitalaria del tramo; seguro con evacuación médica imprescindible.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>País estable con precaución normal en todo el corredor previsto; buena infraestructura de carreteras tras el tramo más exigente de Centroáfrica.</p><ul class=\"ticks\"><li>Sin zonas excluidas por seguridad en el tramo previsto entre Lufu/Luvo y la frontera namibia.</li><li>Extremar la precaución documental en el cruce de Lufu/Luvo: primer país fuera de las zonas de seguro regional CEDEAO/CEMAC del tramo.</li><li>Llevar siempre el certificado de fiebre amarilla y copias de la documentación del vehículo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado</td><td>Reconfirmar la vigencia de la exención de 30 días para españoles 30-60 días antes de viajar</td></tr><tr ><td>M'banza-Kongo</td><td>Decidir si el desvío UNESCO entra en el calendario del tramo centroafricano</td></tr><tr ><td>Seguro e importación del vehículo</td><td>Confirmar el procedimiento exacto al entrar por Lufu/Luvo, fuera de CEDEAO/CEMAC</td></tr><tr ><td>Dron</td><td>Contactar con el INAVIC o descartar el vuelo en el país</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

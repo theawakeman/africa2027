@@ -1,0 +1,202 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Town%20(ZA)%2C%20Table%20Mountain%20--%202024%20--%202825.jpg?width=900",
+  "hero_credit": "Ciudad del Cabo (Table Mountain) · Dietmar Rabich · CC BY-SA 4.0",
+  "chips": [
+    [
+      "ENTRADA",
+      "Vioolsdrif/Noordoewer (desde Namibia)"
+    ],
+    [
+      "SALIDA (REGRESO)",
+      "Lebombo (hacia Mozambique)"
+    ],
+    [
+      "SEGURIDAD",
+      "estable · precaución urbana"
+    ],
+    [
+      "VEHÍCULO",
+      "declaración obligatoria SARS/TMS desde el 1 jun 2026"
+    ],
+    [
+      "PUNTO DE GIRO",
+      "mantenimiento a fondo de ambos vehículos"
+    ],
+    [
+      "REVALIDACIÓN",
+      "30–60 días antes"
+    ]
+  ],
+  "historia_resumen": "Sudáfrica es la historia de los reinos zulú y otros pueblos bantúes, de la colonización holandesa y británica y sus enfrentamientos (las guerras bóer), y sobre todo del apartheid, el sistema de segregación racial institucionalizado en 1948 que aisló al país internacionalmente durante décadas, hasta su desmantelamiento negociado a comienzos de los noventa entre F. W. de Klerk y Nelson Mandela, símbolo mundial de reconciliación, que se convirtió en 1994 en el primer presidente elegido democráticamente por todos los sudafricanos.",
+  "historia_secciones": [
+    [
+      "Pueblos khoisan, la expansión bantú y el auge zulú",
+      "El territorio fue hogar original de los pueblos khoisan (san y khoikhoi), y desde hace unos 1.500 años recibió la migración de pueblos bantúes de habla nguni y sotho-tswana; en el siglo XIX, el rey Shaka forjó el poderoso reino zulú mediante una revolución militar y política (el «Mfecane») que reconfiguró el mapa étnico de toda la región."
+    ],
+    [
+      "Colonos holandeses, bóers y las guerras anglo-bóer",
+      "La Compañía Holandesa de las Indias Orientales estableció un puesto de aprovisionamiento en Ciudad del Cabo en 1652, origen de la población afrikáner (bóer); la anexión británica de la colonia del Cabo en el siglo XIX empujó a los bóers a emigrar al interior (el «Gran Trek») y fundar sus propias repúblicas, lo que desembocó en dos guerras anglo-bóer (la segunda, 1899-1902, con campos de concentración británicos para civiles bóers), tras las cuales las colonias se unificaron en la Unión Sudafricana en 1910 bajo dominio británico."
+    ],
+    [
+      "El apartheid (1948-1994)",
+      "En 1948 el Partido Nacional afrikáner institucionalizó el apartheid, un sistema legal de segregación racial extrema que clasificaba a la población por raza, restringía derechos políticos, movimiento y propiedad de la mayoría negra, y creaba «bantustanes» como pseudo-Estados étnicos; el Congreso Nacional Africano (ANC), con Nelson Mandela como figura central, lideró décadas de resistencia, que le costaron 27 años de prisión, mientras el país sufría un creciente aislamiento internacional mediante sanciones y boicots deportivos y culturales."
+    ],
+    [
+      "El fin negociado del apartheid y la Sudáfrica democrática",
+      "La liberación de Mandela en 1990 y las negociaciones con el presidente F. W. de Klerk (ambos Nobel de la Paz en 1993) condujeron a las primeras elecciones multirraciales en 1994, ganadas por el ANC con Mandela como presidente; la Comisión de la Verdad y la Reconciliación, liderada por el arzobispo Desmond Tutu, se convirtió en modelo internacional de justicia transicional. Treinta años después, Sudáfrica sigue siendo la economía más industrializada de África, aunque enfrenta desigualdad extrema, altos niveles de criminalidad y desafíos de gobernanza dentro del propio ANC, hoy en coalición de gobierno tras perder la mayoría absoluta en 2024."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · South Africa country profile",
+      "https://www.bbc.com/news/world-africa-14094918"
+    ],
+    [
+      "Nobel Prize · Nelson Mandela & F. W. de Klerk (1993)",
+      "https://www.nobelprize.org/prizes/peace/1993/summary/"
+    ],
+    [
+      "South African History Online · Apartheid legislation",
+      "https://www.sahistory.org.za/"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Entrada — Vioolsdrif/Noordoewer (desde Namibia)",
+      "cat": "Frontera",
+      "lat": -28.75,
+      "lon": 17.75,
+      "info": "Paso principal desde Namibia, operativo 24h. Desde el 1 de junio de 2026, declarar el vehículo extranjero en el sistema SARS Traveller Management System (TMS) antes de cruzar — online, app SATMS/SARS MobiApp, código QR en el propio puesto, o con un funcionario de aduanas."
+    },
+    {
+      "name": "Frontera · Salida — Lebombo (hacia Mozambique, inicio del regreso)",
+      "cat": "Frontera",
+      "lat": -25.4667,
+      "lon": 31.9833,
+      "info": "Paso principal hacia Mozambique cuando se inicie el tramo de regreso; confirmar de nuevo el trámite SARS/TMS de salida antes de partir de Ciudad del Cabo."
+    },
+    {
+      "name": "Embajada de España en Pretoria",
+      "cat": "Consular",
+      "lat": -25.755,
+      "lon": 28.2378,
+      "info": "Lord Charles Complex, 337 Brooklyn Road, Brooklyn, Pretoria 0181. Tel. +27 12 460 0123 · Emergencia consular (Gauteng y norte): +27 (0)76 114 61 51."
+    },
+    {
+      "name": "Consulado General de España en Ciudad del Cabo",
+      "cat": "Consular",
+      "lat": -33.9249,
+      "lon": 18.4241,
+      "info": "Atención durante los meses de sesión parlamentaria; emergencia consular (Western Cape, Eastern Cape, KwaZulu-Natal, Northern Cape): +27 76 114 61 52."
+    },
+    {
+      "name": "Groote Schuur Hospital — Ciudad del Cabo",
+      "cat": "Hospital",
+      "lat": -33.9403,
+      "lon": 18.4644,
+      "info": "Principal hospital universitario y de referencia de Ciudad del Cabo, con muy buena capacidad para urgencias graves — el mejor del corredor hasta ahora. Coordenada urbana aproximada."
+    },
+    {
+      "name": "Combustible · Ciudad del Cabo y Winelands",
+      "cat": "Combustible",
+      "lat": -33.9249,
+      "lon": 18.4241,
+      "info": "Mejor oferta y calidad de todo el corredor (Engen, Shell, Sasol, BP); ningún problema de suministro en este tramo."
+    },
+    {
+      "name": "Agua potable y de uso general · Ciudad del Cabo",
+      "cat": "Agua potable",
+      "lat": -33.9249,
+      "lon": 18.4241,
+      "info": "Agua del grifo potable de calidad europea; estaciones de servicio, campings y talleres de toda la zona permiten llenar el depósito de uso general sin ninguna restricción."
+    }
+  ],
+  "sources": [
+    [
+      "SARS · nuevo sistema de declaración de vehículos extranjeros (desde 1 junio 2026)",
+      "https://www.sars.gov.za/travellerdeclaration/declaration-of-foreign-registered-vehicles-used-by-travellers/"
+    ],
+    [
+      "SARS · nota de prensa sobre la modernización de declaraciones aduaneras transfronterizas",
+      "https://www.sars.gov.za/media-release/sars-modernises-cross-border-customs-declarations-for-foreign-vehicles-from-1-june-2026/"
+    ],
+    [
+      "AA Sudáfrica · Carnet de Passage en Douane",
+      "https://aa.co.za/travel/carnet-de-passage-en-douane/"
+    ],
+    [
+      "FastestFibre · estatus legal de Starlink en Sudáfrica (2026)",
+      "https://fastestfibre.co.za/insights/is-starlink-legal-in-south-africa/"
+    ],
+    [
+      "Embajada de España en Pretoria · contacto",
+      "https://www.exteriores.gob.es/Embajadas/pretoria/es/Embajada/Paginas/Direcciones,%20tel%C3%A9fonos,%20horario%20y%20calendario.aspx"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ],
+    [
+      "Tracks4Africa · cartografía y puntos overland de África",
+      "https://tracks4africa.co.za/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Sudáfrica marca el punto de giro entre el corredor de bajada y el de regreso.",
+  "emergency": "Policía 10111 · Ambulancia 10177 · Emergencia consular española (Ciudad del Cabo): +27 76 114 61 52 · (Pretoria/norte): +27 (0)76 114 61 51.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Sudáfrica es el punto de giro del viaje: revisar a fondo ambos vehículos antes de iniciar el regreso. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cada frontera.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<p>Sudáfrica es el punto de giro de la expedición: el país con mejor infraestructura, seguridad vial y oferta de talleres de todo el corredor, ideal para el mantenimiento a fondo del Grenadier y la Delica antes de iniciar el regreso. Ciudad del Cabo como base de varios días, con el Cabo de Buena Esperanza, los Winelands de Stellenbosch y un posible desvío por la Garden Route antes de decidir la fecha exacta de salida hacia Mozambique.</p><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Punto de giro del corredor de bajada: fin de la bajada, inicio del regreso hacia Mozambique.</td></tr><tr ><td>Entrada</td><td>Vioolsdrif/Noordoewer desde Namibia: operativo 24h, con declaración SARS/TMS obligatoria desde junio de 2026.</td></tr><tr ><td>Salida (regreso)</td><td>Lebombo hacia Mozambique, cuando se decida iniciar el tramo de vuelta.</td></tr><tr ><td>Visado</td><td>Exención de visado de 90 días para pasaportes españoles — confirmar vigencia antes de viajar.</td></tr><tr ><td>Seguridad</td><td>Estable con precaución urbana normal (hurtos, robos de vehículo estacionado); sin zonas excluidas para el itinerario previsto.</td></tr><tr ><td>Comunicaciones</td><td>Starlink bloqueado por requisitos de propiedad (B-BBEE); SIM local (Vodacom, MTN) como base — la mejor cobertura móvil del corredor.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Declaración SARS/TMS:</strong> obligatoria desde el 1 de junio de 2026 para cualquier vehículo extranjero que entre o salga de Sudáfrica — completar el trámite (online, app o en el propio puesto) antes de llegar a Vioolsdrif y de nuevo antes de salir por Lebombo.</li><li><strong>Starlink:</strong> no disponible legalmente — no depender de él como comunicación principal ni usar un kit «roaming» de otro país de forma permanente.</li><li><strong>Precaución urbana:</strong> hurtos y robos de vehículos estacionados son el riesgo real en Sudáfrica, no la violencia generalizada — aparcamiento vigilado siempre en Ciudad del Cabo y otras ciudades.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Sudáfrica es la historia de los reinos zulú y otros pueblos bantúes, de la colonización holandesa y británica y sus enfrentamientos (las guerras bóer), y sobre todo del apartheid, el sistema de segregación racial institucionalizado en 1948 que aisló al país internacionalmente durante décadas, hasta su desmantelamiento negociado a comienzos de los noventa entre F. W. de Klerk y Nelson Mandela, símbolo mundial de reconciliación, que se convirtió en 1994 en el primer presidente elegido democráticamente por todos los sudafricanos.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Sudáfrica →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Estancia larga en la región del Cabo para el mantenimiento de los vehículos, con margen para el Cabo de Buena Esperanza, Stellenbosch y la Garden Route.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y capital del Cabo</td><td>Vioolsdrif → Ciudad del Cabo</td><td>Base de mantenimiento a fondo de ambos vehículos</td></tr><tr ><td>Extremo de la península</td><td>Ciudad del Cabo → Cabo de Buena Esperanza</td><td>Punto simbólico de fin de la bajada</td></tr><tr ><td>Winelands</td><td>Ciudad del Cabo → Stellenbosch</td><td>Día de descanso dentro de la estancia larga</td></tr><tr ><td>Desvío costero opcional</td><td>Ciudad del Cabo → Garden Route (Knysna)</td><td>A valorar según el calendario general antes de decidir la fecha de salida hacia Mozambique</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Sin pistas 4x4 destacadas de interés específico para el proyecto en este tramo: toda la región del Cabo es carretera asfaltada de primer nivel — el punto de giro es para descansar el vehículo, no para exigirlo.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Ciudad del Cabo: amplia oferta de alojamiento y aparcamiento vigilado; recomendable frente a la acampada libre en la ciudad.</li><li>Garden Route: red de campings de buen nivel a lo largo de toda la costa.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Ciudad del Cabo y la región del Cabo: agua del grifo de calidad europea, sin ninguna restricción de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): sin ninguna limitación en talleres, campings y estaciones de servicio de toda la región durante la estancia larga.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin ningún riesgo de gap de 500 km en este tramo: la mejor red de estaciones de servicio (Engen, Shell, Sasol, BP) y la mejor calidad de combustible de todo el corredor.</li><li>Aprovechar el punto de giro para una puesta a punto completa antes del tramo de regreso, que vuelve a exigir más planificación de combustible en Mozambique y Malaui.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>Exención de visado de turismo de 90 días para pasaportes españoles a fecha de esta revisión; confirmar vigencia antes de viajar.</li><li>Sin certificado de fiebre amarilla exigido si se llega directamente desde Namibia (confirmar según el itinerario previo completo).</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Vioolsdrif/Noordoewer (Namibia)</td><td>Operativo 24h; declaración SARS/TMS del vehículo obligatoria desde junio de 2026.</td></tr><tr ><td>Salida (regreso)</td><td>Lebombo (Mozambique)</td><td>Paso principal hacia el tramo de regreso; repetir la declaración SARS/TMS antes de salir.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>Declaración obligatoria en el sistema SARS Traveller Management System (TMS) desde el 1 de junio de 2026, por adelantado o en el propio puesto (online, app SATMS/SARS MobiApp, código QR, o con un funcionario aduanero); resulta en un permiso de importación temporal válido 6 meses y reutilizable en varias entradas.</li><li>Llevar también el CPD como respaldo documental, útil en el resto del corredor.</li><li>Aprovechar la estancia en Ciudad del Cabo para una revisión mecánica completa de ambos vehículos: neumáticos, suspensión, filtros y frenos tras el tramo centroafricano.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout ok\"><div class=\"callout-title\">Marco regulatorio claro y accesible (SACAA)</div><p>Sudáfrica tiene uno de los marcos de drones más desarrollados y accesibles de África a través de la South African Civil Aviation Authority (SACAA): registro sencillo para drones turísticos por debajo de ciertos pesos, restricciones claras publicadas (línea de vista, techo, distancia a aeropuertos) y sin necesidad de autorización previa compleja para uso recreativo estándar. Aun así, no volar en parques nacionales sin permiso de SANParks ni cerca de aeropuertos o instalaciones sensibles.</p></div><ul class=\"ticks\"><li>Registrar el dron ante la SACAA si el peso lo requiere; marco regulatorio claro, de los más accesibles del continente.</li><li>No volar en parques nacionales sin permiso de SANParks ni cerca de aeropuertos o instalaciones sensibles.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout warn\"><div class=\"callout-title\">No autorizado — bloqueado por requisitos de propiedad (B-BBEE)</div><p>Starlink no dispone de licencia de telecomunicaciones en Sudáfrica a mediados de 2026: el conflicto entre la exigencia legal de un 30% de propiedad negra (B-BBEE) y la política global de SpaceX de no ceder participación local sigue sin resolverse; el regulador ICASA rechazó en mayo de 2026 la vía alternativa propuesta (EEIP). Existe un mercado gris de kits registrados en países vecinos usados en modo «Roam», pero opera en una zona legal ambigua, sin protección al consumidor y con riesgo de suspensión por parte de Starlink si detecta uso permanente transfronterizo. Mantener SIM local (Vodacom, MTN) como base — la cobertura móvil sudafricana es de las mejores de África.</p></div><ul class=\"ticks\"><li>Sin licencia legal a mediados de 2026 por el conflicto de propiedad B-BBEE; revisar si hay avance legislativo 30-60 días antes de viajar.</li><li>SIM local (Vodacom, MTN) como conectividad principal — la mejor cobertura móvil de todo el corredor, buen momento para depender de ella en vez de Starlink.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Permiso de importación veterinario previo obligatorio — tramitarlo con antelación suficiente antes de la entrada.</li><li>Certificado veterinario internacional reciente y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Aprovechar la estancia larga en Ciudad del Cabo para una revisión veterinaria completa del perro antes del tramo de regreso.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Ciudad del Cabo, Stellenbosch, Garden Route</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Sin restricciones relevantes; clima templado, buen país para el perro en general.</td></tr><tr ><td>Cabo de Buena Esperanza (Parque Nacional Table Mountain)</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa obligatoria; cuidado con los babuinos, que pueden mostrarse territoriales cerca de vehículos y comida.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Sin riesgo relevante de malaria en la región del Cabo (a diferencia del norte y noreste del país, fuera de este tramo).</li><li>Agua del grifo de calidad europea en toda la región: buen momento para descansar el protocolo de potabilización del vehículo.</li><li>Groote Schuur (Ciudad del Cabo) como mejor hospital de referencia de todo el corredor; aprovechar para cualquier revisión médica pendiente del equipo humano antes del regreso.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>País estable con el riesgo real concentrado en la delincuencia urbana oportunista (hurtos, robo de vehículos estacionados), no en violencia generalizada ni inestabilidad política.</p><ul class=\"ticks\"><li>Aparcamiento siempre vigilado en Ciudad del Cabo y cualquier núcleo urbano; no dejar nada visible en los vehículos.</li><li>Sin zonas excluidas por seguridad en el itinerario previsto de la región del Cabo y la Garden Route.</li><li>Aprovechar el punto de giro para revisar en profundidad el protocolo de seguridad y comunicaciones del tramo de regreso antes de salir hacia Mozambique.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Mantenimiento</td><td>Reservar taller especializado en Ciudad del Cabo con antelación para la revisión a fondo de ambos vehículos</td></tr><tr ><td>SARS/TMS</td><td>Completar la declaración del vehículo antes de entrar y de nuevo antes de salir hacia Mozambique</td></tr><tr ><td>Calendario de regreso</td><td>Decidir la fecha de salida hacia Mozambique y si se incluye el desvío completo de la Garden Route</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

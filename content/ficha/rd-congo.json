@@ -1,0 +1,206 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900",
+  "hero_credit": "Kinshasa (orilla del río Congo) · EdwinAlden.1995 · CC BY-SA 4.0",
+  "chips": [
+    [
+      "ENTRADA",
+      "Ferry Brazzaville–Kinshasa (desde Congo-Brazzaville)"
+    ],
+    [
+      "SALIDA",
+      "Lufu/Luvo (hacia Angola)"
+    ],
+    [
+      "SEGURIDAD",
+      "conflicto activo en el ESTE — a ~2.000 km, fuera de esta ruta"
+    ],
+    [
+      "RUTA",
+      "solo tránsito occidental Kinshasa–Matadi–Boma"
+    ],
+    [
+      "SEGURO",
+      "seguro local propio — fuera de las zonas CEDEAO/CEMAC"
+    ],
+    [
+      "REVALIDACIÓN",
+      "30–60 días antes, y de nuevo 72 h antes de cada frontera"
+    ]
+  ],
+  "historia_resumen": "La República Democrática del Congo es el escenario de una de las mayores tragedias coloniales de la historia —el Estado Libre del Congo del rey belga Leopoldo II, un régimen de explotación del caucho que causó millones de muertos— y, tras la independencia en 1960, de décadas de dictadura bajo Mobutu Sese Seko y de las llamadas «guerras mundiales africanas» (1996-2003), el conflicto con más víctimas mortales desde la Segunda Guerra Mundial; este proyecto solo transita brevemente por el corredor de Matadi, lejos de las zonas de conflicto activo del este.",
+  "historia_secciones": [
+    [
+      "El reino de Kongo y la cuenca del río Congo",
+      "El poderoso reino de Kongo, con el que Portugal mantuvo relaciones diplomáticas desde el siglo XV (incluida la conversión al cristianismo de su rey Nzinga a Nkuwu), dominó la desembocadura del río Congo, la zona que hoy recorre este corredor de tránsito por Matadi, antes de decaer por la presión de la trata de esclavos portuguesa."
+    ],
+    [
+      "El Estado Libre del Congo de Leopoldo II",
+      "En 1885, el rey Leopoldo II de Bélgica obtuvo el territorio como posesión personal —no como colonia del Estado belga— bajo el nombre de Estado Libre del Congo, y lo explotó mediante un régimen de trabajo forzado para la extracción de caucho de una brutalidad extrema, documentada internacionalmente y responsable de la muerte de varios millones de congoleños; la presión internacional forzó a Bélgica a asumir el territorio como colonia oficial en 1908."
+    ],
+    [
+      "Independencia, Mobutu y el Zaire",
+      "El Congo se independizó en 1960 en medio de un caos político que incluyó el asesinato del primer ministro Patrice Lumumba, y tras una crisis de varios años el militar Mobutu Sese Seko tomó el poder en 1965, gobernando durante 32 años bajo un régimen cleptocrático de partido único que renombró el país Zaire, hasta ser derrocado en 1997."
+    ],
+    [
+      "Las «guerras mundiales africanas» y el conflicto persistente en el este",
+      "La caída de Mobutu desencadenó dos guerras sucesivas (1996-97 y 1998-2003) que llegaron a involucrar a nueve países africanos, con un saldo estimado de varios millones de muertos, en su mayoría por hambre y enfermedad, el conflicto más letal desde la Segunda Guerra Mundial; aunque la guerra formal terminó en 2003, el este del país (Kivu) sigue sufriendo un conflicto armado activo entre el ejército, grupos armados locales y fuerzas regionales, un foco de inestabilidad grave completamente ajeno al breve corredor de tránsito de Matadi que contempla este proyecto."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · DR Congo country profile",
+      "https://www.bbc.com/news/world-africa-13286306"
+    ],
+    [
+      "Encyclopaedia Britannica · Democratic Republic of the Congo, History",
+      "https://www.britannica.com/place/Democratic-Republic-of-the-Congo/History"
+    ],
+    [
+      "Council on Foreign Relations · Conflict in the Democratic Republic of Congo",
+      "https://www.cfr.org/global-conflict-tracker/conflict/violence-democratic-republic-congo"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Entrada — Ferry Brazzaville–Kinshasa (desde Congo-Brazzaville)",
+      "cat": "Frontera",
+      "lat": -4.28,
+      "lon": 15.28,
+      "info": "Cruce fluvial con trámite aduanero en ambos lados; confirmar frecuencia y tarifa del servicio de carga con antelación."
+    },
+    {
+      "name": "Frontera · Salida — Lufu/Luvo (hacia Angola)",
+      "cat": "Frontera",
+      "lat": -5.9167,
+      "lon": 13.9667,
+      "info": "Cruce a pie/vehículo hacia Luvo (Angola); registro en inmigración de RD Congo, paso de un puente y trámite de entrada angoleño unos 500 m después. Proceso descrito como ágil y sin solicitudes de soborno por overlanders recientes."
+    },
+    {
+      "name": "Embajada de España en Kinshasa (también RD Congo y Congo-Brazzaville)",
+      "cat": "Consular",
+      "lat": -4.305,
+      "lon": 15.305,
+      "info": "Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe). Tel. +243 813 300 061 / 817 008 770 / 818 843 195 · Emergencia consular: +243 819 500 289."
+    },
+    {
+      "name": "Hôpital Général de Référence de Kinshasa",
+      "cat": "Hospital",
+      "lat": -4.325,
+      "lon": 15.3139,
+      "info": "Principal hospital de referencia de la capital. Coordenada urbana aproximada."
+    },
+    {
+      "name": "Combustible · Kinshasa",
+      "cat": "Combustible",
+      "lat": -4.4419,
+      "lon": 15.2663,
+      "info": "Mejor oferta y calidad del país (Total, Engen); repostar a fondo antes del tramo hacia Matadi y la frontera de Angola."
+    },
+    {
+      "name": "Combustible · Matadi",
+      "cat": "Combustible",
+      "lat": -5.8167,
+      "lon": 13.45,
+      "info": "Última plaza con oferta formal amplia antes de Lufu/Luvo; repostar a fondo aquí."
+    },
+    {
+      "name": "Agua potable y de uso general · Kinshasa",
+      "cat": "Agua potable",
+      "lat": -4.4419,
+      "lon": 15.2663,
+      "info": "Agua embotellada sin problema en supermercados de la capital; estaciones de servicio y hoteles de Kinshasa y Matadi permiten llenar el depósito de uso general con manguera."
+    }
+  ],
+  "sources": [
+    [
+      "WhirledAway · cruce de frontera Lufu (RD Congo) / Luvo (Angola)",
+      "https://whirled-away.com/border-crossing-drc-angola/"
+    ],
+    [
+      "Kwafrika Travel · guía de visado de RD Congo (2026)",
+      "https://www.kwafrikatravel.com/dr-congo-visa-guide/"
+    ],
+    [
+      "Critical Threats · Congo War Security Review (agosto 2026)",
+      "https://www.criticalthreats.org/briefs/congo-war-security-review"
+    ],
+    [
+      "The Ops Con · nivel de amenaza M23 en el este de RD Congo (2026)",
+      "https://theopscon.com/intelligence/eastern-drc-m23-threat-level-june-2026"
+    ],
+    [
+      "Embajada de España en Kinshasa (RD Congo y Congo-Brazzaville)",
+      "https://www.exteriores.gob.es/Embajadas/kinshasa/es/Paginas/index.aspx"
+    ],
+    [
+      "Businessday NG · Starlink activo en RD Congo (integración Airtel)",
+      "https://businessday.ng/technology/article/airtel-starlink-launch-direct-to-phone-satellite-service-in-dr-congo/"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ],
+    [
+      "Tracks4Africa · cartografía y puntos overland de África",
+      "https://tracks4africa.co.za/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Cubre exclusivamente el corredor occidental de tránsito; no aplica en absoluto al este del país.",
+  "emergency": "Emergencia consular española (Kinshasa): +243 819 500 289.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Esta ficha cubre EXCLUSIVAMENTE el tránsito occidental Kinshasa-Matadi-Lufu; el este del país (Kivu, conflicto M23) está a unos 2.000 km de esta ruta y queda completamente fuera del itinerario. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<div class=\"callout \"><div class=\"callout-title\">Decisión de ruta</div><p>RD Congo se atraviesa exclusivamente por su estrecho corredor occidental —Kinshasa, Matadi, Boma— hasta la frontera de Lufu/Luvo con Angola, un tránsito de pocos días por carretera principal. El conflicto activo del este del país (M23, Kivu, Goma) está a más de 2.000 km de este corredor y no afecta al itinerario en absoluto; se menciona aquí solo para que quede explícito que esta ficha NO cubre esa región y que no forma parte de la ruta del proyecto bajo ninguna circunstancia.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Dentro del corredor de bajada, tras Congo-Brazzaville y antes de Angola.</td></tr><tr ><td>Entrada</td><td>Ferry Brazzaville-Kinshasa sobre el río Congo.</td></tr><tr ><td>Salida</td><td>Lufu/Luvo hacia Angola: cruce ágil, sin incidencias reportadas por overlanders recientes.</td></tr><tr ><td>Seguridad</td><td>Corredor occidental (Kinshasa-Matadi-Boma) manejable con precaución alta; ESTE del país (M23/Kivu) completamente excluido, a ~2.000 km de esta ruta.</td></tr><tr ><td>Seguro</td><td>RD Congo no pertenece a CEDEAO ni a CEMAC: confirmar y contratar el seguro local de responsabilidad civil al entrar.</td></tr><tr ><td>Comunicaciones</td><td>Starlink activo; SIM local (Vodacom, Airtel, Orange) como base en Kinshasa.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li>El itinerario cubre EXCLUSIVAMENTE el corredor occidental Kinshasa-Matadi-Lufu; el este del país (Kivu, M23, Goma) está fuera de la ruta bajo cualquier circunstancia — no es una alerta de proximidad, es una región distinta a miles de kilómetros.</li><li><strong>Visado:</strong> trámite descrito como exigente y con requisitos que cambian con frecuencia — iniciar el proceso con más antelación que en el resto de países del tramo.</li><li><strong>Seguro del vehículo:</strong> RD Congo queda fuera de las zonas regionales CEDEAO (Brown Card) y CEMAC (Carte Rose) — no dar por hecho ninguna cobertura previa, contratar el seguro local al entrar.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>La República Democrática del Congo es el escenario de una de las mayores tragedias coloniales de la historia —el Estado Libre del Congo del rey belga Leopoldo II, un régimen de explotación del caucho que causó millones de muertos— y, tras la independencia en 1960, de décadas de dictadura bajo Mobutu Sese Seko y de las llamadas «guerras mundiales africanas» (1996-2003), el conflicto con más víctimas mortales desde la Segunda Guerra Mundial; este proyecto solo transita brevemente por el corredor de Matadi, lejos de las zonas de conflicto activo del este.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de RD Congo (tránsito Matadi) →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Tránsito corto y directo por el estrecho corredor occidental del país, entre el río Congo y la frontera de Angola.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y capital</td><td>Ferry Kinshasa → Kinshasa</td><td>Base logística mayor; embajada española</td></tr><tr ><td>Descenso hacia la costa</td><td>Kinshasa → Boma → Matadi</td><td>Antigua capital colonial; puente sobre el río Congo</td></tr><tr ><td>Hacia Angola</td><td>Matadi → Lufu/Luvo</td><td>Cruce descrito como ágil por overlanders recientes</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Sin pistas 4x4 destacadas de interés específico para el proyecto: el corredor Kinshasa-Boma-Matadi-Lufu es carretera principal asfaltada.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Kinshasa: alojamientos con parking vigilado, opción única frente a la acampada libre en la megaciudad.</li><li>Matadi: hoteles con aparcamiento, suficiente para una noche antes de la frontera.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Kinshasa: agua embotellada en supermercados sin problema de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): estaciones de servicio y hoteles de Kinshasa y Matadi permiten llenar el depósito con manguera; confirmar en recepción. Entre Boma y Lufu no dar por hecho ningún punto adicional.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el corredor previsto: Kinshasa → Boma (~350 km) → Matadi (~50 km) → Lufu/Luvo (~90 km), con estaciones formales en cada núcleo urbano.</li><li>Repostar a fondo en Kinshasa y de nuevo en Matadi: última plaza con oferta amplia antes de cruzar a Angola.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>Visado congoleño (RD Congo) previo obligatorio para ciudadanos españoles, con trámite descrito como exigente — iniciar el proceso con semanas de margen adicional respecto a otros países del tramo.</li><li>Certificado internacional de fiebre amarilla exigido en frontera.</li><li>Llevar copias adicionales de toda la documentación: los controles en el corredor occidental son frecuentes.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Ferry Brazzaville–Kinshasa (Congo-Brazzaville)</td><td>Cruce fluvial con trámite aduanero en ambos lados; confirmar frecuencia y tarifa de carga con antelación.</td></tr><tr ><td>Salida</td><td>Lufu/Luvo (Angola)</td><td>Registro en inmigración de RD Congo, cruce del puente y trámite de entrada angoleño ~500 m después; proceso ágil según overlanders recientes.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD con todos los pares de sellos en regla.</li><li>RD Congo no pertenece a CEDEAO ni CEMAC: contratar seguro local de responsabilidad civil al entrar, no dar por válida ninguna Carte Brune o Carte Rose previa.</li><li>Carnet de conducir internacional obligatorio; controles frecuentes en todo el corredor occidental.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Sin marco civil turístico claro: tratar como prohibido</div><p>RD Congo no publica un procedimiento civil turístico simple y estable para drones, y el contexto de seguridad del país (aunque no en el corredor occidental) hace que cualquier equipo aéreo sea tratado con máxima sensibilidad por las autoridades. Norma prudente del proyecto: no volar en ningún caso sin autorización previa por escrito, y nunca cerca de fronteras, del río Congo o de instalaciones oficiales.</p></div><ul class=\"ticks\"><li>No volar en ningún caso sin autorización previa por escrito; el contexto de seguridad nacional hace que cualquier equipo aéreo sea tratado con máxima sensibilidad.</li><li>Nunca cerca de fronteras, del río Congo o de instalaciones oficiales en Kinshasa, Boma o Matadi.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout ok\"><div class=\"callout-title\">Starlink activo en el país (verificar cobertura exacta antes de entrar)</div><p>RD Congo es uno de los mercados africanos con Starlink activo confirmado a mediados de 2026, con acuerdos recientes de integración satélite-móvil (Airtel). Puede usarse como respaldo de comunicaciones fiable en un país con infraestructura terrestre limitada; revisar el mapa oficial 30-60 días antes por si cambia la cobertura o el marco regulatorio.</p></div><ul class=\"ticks\"><li>Servicio activo confirmado a mediados de 2026, con integración satélite-móvil reciente (Airtel): revisar el mapa oficial 30-60 días antes por posibles cambios.</li><li>SIM local (Vodacom, Airtel, Orange) como conectividad complementaria en Kinshasa.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente (&lt;10 días) y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Sin requisitos adicionales específicos identificados más allá de los comunes del proyecto (microchip, pasaporte UE, titulación de anticuerpos ya obtenida antes de salir de la UE).</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Kinshasa, Boma, Matadi</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa siempre puesta; tráfico muy denso en Kinshasa.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Fiebre amarilla: certificado internacional obligatorio para la entrada.</li><li>Malaria presente en todo el territorio: profilaxis a valorar con Sanidad Exterior.</li><li>Hôpital Général de Référence de Kinshasa como mejor referencia hospitalaria del tramo; seguro con evacuación médica real imprescindible.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>El corredor occidental (Kinshasa-Matadi-Boma-Lufu) es manejable con precaución alta y sin relación alguna con el conflicto del este del país, a unos 2.000 km de distancia.</p><ul class=\"ticks\"><li>No hay ninguna razón operativa para acercarse al este del país (Kivu, Goma): queda completamente fuera de cualquier variante razonable de esta ruta.</li><li>Extremar la seguridad de convoy y check-in diario en Kinshasa por la densidad de tráfico y el tamaño de la ciudad.</li><li>Llevar siempre el certificado de fiebre amarilla y copias completas de la documentación del vehículo, dado el número de controles en el corredor.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado</td><td>Iniciar el trámite de RD Congo con semanas de margen adicional por su complejidad</td></tr><tr ><td>Seguro local</td><td>Confirmar dónde y cómo contratarlo al entrar por el ferry de Kinshasa</td></tr><tr ><td>Ferry Brazzaville-Kinshasa</td><td>Coordinar con la ficha de Congo-Brazzaville: frecuencia, tarifa y embarque del vehículo</td></tr><tr ><td>Dron</td><td>Descartar el vuelo en el país salvo autorización escrita expresa</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

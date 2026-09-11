@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Panel de edición de puntos de interés (/admin/) para África 2027.
+"""Panel de edición (/admin/) para África 2027: puntos de interés (Fase 1) y
+resto de la ficha de país — hero, chips, historia, logística, fuentes y
+secciones personalizadas (Fase 2).
 
 Página estática que habla directamente con la API de contenidos de GitHub
 (usando un token personal que el propio usuario pega y que se guarda SOLO en
-su navegador) para leer y escribir content/pois/<slug>.json. No pasa por
-ningún backend propio: es un cliente puro que hace fetch() a api.github.com.
+su navegador) para leer y escribir content/pois/<slug>.json y
+content/ficha/<slug>.json. No pasa por ningún backend propio: es un cliente
+puro que hace fetch() a api.github.com.
 """
 import json
 
@@ -43,6 +46,11 @@ textarea{min-height:70px;resize:vertical}
 #msg.err{display:block;background:#fbe9e7;color:var(--a-red)}
 #msg.info{display:block;background:#eef6f8;color:var(--a-teal)}
 .hint{font-size:12px;color:var(--a-ink-soft);margin-top:4px}
+.tabs{display:flex;gap:0;margin:4px 0 18px;border-bottom:1px solid var(--a-line)}
+.tab-btn{background:none;border:none;padding:10px 4px;margin-right:22px;font-size:14.5px;font-weight:700;color:var(--a-ink-soft);cursor:pointer;font-family:inherit;border-bottom:2px solid transparent}
+.tab-btn.active{color:var(--a-teal);border-bottom-color:var(--a-teal)}
+.rep-item{padding:12px 0;border-top:1px solid var(--a-line)}
+.rep-item:first-of-type{border-top:none}
 [hidden]{display:none!important}
 """
 
@@ -82,6 +90,176 @@ let currentPois = null;   // array en memoria
 let currentSha = null;    // sha del archivo en GitHub, para poder guardar
 let editingIndex = null;  // índice dentro de currentPois que se está editando, o null = punto nuevo
 
+let fichaSha = null;      // sha de content/ficha/<slug>.json
+let fichaWorking = {};    // copia de trabajo de la ficha (repeaters ya convertidos a objetos)
+
+// -------- Fase 2: resto de la ficha (hero, chips, historia, logística, fuentes, secciones) --------
+
+const SIMPLE_FIELDS = [
+  {name:"hero_img", label:"Foto de portada (URL de imagen — Wikimedia Commons u otra pública)", ph:"https://commons.wikimedia.org/wiki/Special:FilePath/..."},
+  {name:"hero_credit", label:"Crédito de la foto de portada"},
+  {name:"historia_resumen", label:"Resumen de historia (párrafo introductorio de la ficha)", ta:true},
+  {name:"notice", label:"Aviso operativo (aparece justo bajo la cabecera)", ta:true},
+  {name:"emergency", label:"Teléfonos de emergencia", ta:true},
+  {name:"sources_note", label:"Nota sobre las fuentes", ta:true},
+  {name:"matrix_note", label:"Nota de consistencia de la matriz de puntos", ta:true},
+];
+
+const REPEATER_DEFS = {
+  chips: {label:"Chips de cabecera", hint:"Las etiquetas cortas que aparecen bajo el título de la ficha (corredor, ritmo, seguridad...).",
+    fields:[{name:"label", label:"Etiqueta", ph:"p. ej. CORREDOR"}, {name:"value", label:"Valor", ph:"p. ej. Diama → Kalifourou"}],
+    fromArr:a=>({label:a?.[0]??"", value:a?.[1]??""}), toArr:o=>[o.label||"", o.value||""]},
+  historia_secciones: {label:"Secciones de la historia", hint:"Los bloques de la página «Historia de …» (título + texto de cada época).",
+    fields:[{name:"title", label:"Título"}, {name:"text", label:"Texto", ta:true}],
+    fromArr:a=>({title:a?.[0]??"", text:a?.[1]??""}), toArr:o=>[o.title||"", o.text||""]},
+  historia_fuentes: {label:"Fuentes de la historia", hint:"Enlaces que aparecen al final de la página de historia.",
+    fields:[{name:"label", label:"Etiqueta"}, {name:"url", label:"URL"}],
+    fromArr:a=>({label:a?.[0]??"", url:a?.[1]??""}), toArr:o=>[o.label||"", o.url||""]},
+  sources: {label:"Fuentes generales de la ficha", hint:"Lista de fuentes que aparece al final de la ficha del país.",
+    fields:[{name:"label", label:"Etiqueta"}, {name:"url", label:"URL"}],
+    fromArr:a=>({label:a?.[0]??"", url:a?.[1]??""}), toArr:o=>[o.label||"", o.url||""]},
+  logistics: {label:"Logística (hospitales, fronteras, combustible, agua, consulados...)", hint:"Puntos que aparecen en la capa de emergencias y logística del mapa.",
+    fields:[{name:"name", label:"Nombre"}, {name:"cat", label:"Categoría", ph:"Hospital / Frontera / Combustible / Agua potable / Consular"},
+      {name:"lat", label:"Latitud", num:true}, {name:"lon", label:"Longitud", num:true}, {name:"info", label:"Información", ta:true}],
+    fromArr:o=>({name:o?.name??"", cat:o?.cat??"", lat:o?.lat??"", lon:o?.lon??"", info:o?.info??""}),
+    toArr:o=>({name:o.name||"", cat:o.cat||"", lat:parseFloat(o.lat)||0, lon:parseFloat(o.lon)||0, info:o.info||""})},
+  custom_sections: {label:"Secciones personalizadas (antes de logística y fuentes)", hint:"Resumen operativo, historia, ruta, agua y combustible… Contenido en HTML.",
+    fields:[{name:"id", label:"ID (ancla, sin espacios ni acentos)", ph:"p. ej. resumen"}, {name:"title", label:"Título visible"},
+      {name:"html", label:"Contenido (HTML)", ta:true, big:true}],
+    fromArr:a=>({id:a?.[0]??"", title:a?.[1]??"", html:a?.[2]??""}), toArr:o=>[o.id||"", o.title||"", o.html||""]},
+  custom_sections_post: {label:"Secciones personalizadas (después de logística y fuentes)", hint:"Fronteras, drones, Starlink, perro y salud, seguridad, validación GPX… Contenido en HTML.",
+    fields:[{name:"id", label:"ID (ancla, sin espacios ni acentos)"}, {name:"title", label:"Título visible"},
+      {name:"html", label:"Contenido (HTML)", ta:true, big:true}],
+    fromArr:a=>({id:a?.[0]??"", title:a?.[1]??"", html:a?.[2]??""}), toArr:o=>[o.id||"", o.title||"", o.html||""]},
+};
+
+function escHtml(s){ return (s==null?"":String(s)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function escAttr(s){ return (s==null?"":String(s)).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+function convertFichaIn(raw){
+  const w = {...raw};
+  for (const key of Object.keys(REPEATER_DEFS)){
+    const def = REPEATER_DEFS[key];
+    w[key] = (raw[key] || []).map(def.fromArr);
+  }
+  return w;
+}
+function convertFichaOut(w){
+  const out = {...w};
+  for (const key of Object.keys(REPEATER_DEFS)){
+    out[key] = (w[key] || []).map(REPEATER_DEFS[key].toArr);
+  }
+  return out;
+}
+
+function showTab(tab){
+  document.getElementById("poiSection").hidden = tab !== "pois";
+  document.getElementById("fichaSection").hidden = tab !== "ficha";
+  document.getElementById("tabPoisBtn").classList.toggle("active", tab === "pois");
+  document.getElementById("tabFichaBtn").classList.toggle("active", tab === "ficha");
+}
+
+async function loadFicha(slug){
+  try {
+    const res = await fetch(`${API}/contents/content/ficha/${slug}.json?ref=${BRANCH}`, {headers: authHeaders()});
+    if (res.ok){
+      const data = await res.json();
+      fichaSha = data.sha;
+      fichaWorking = convertFichaIn(JSON.parse(b64ToUtf8(data.content)));
+    } else {
+      fichaSha = null;
+      fichaWorking = convertFichaIn({});
+    }
+  } catch (e){
+    fichaSha = null;
+    fichaWorking = convertFichaIn({});
+  }
+  renderFicha();
+}
+
+function renderFicha(){
+  const body = document.getElementById("fichaBody");
+  if (!body) return;
+  let html = '<div class="card"><h2 style="margin-top:0">Datos generales</h2>';
+  for (const f of SIMPLE_FIELDS){
+    const val = fichaWorking[f.name] ?? "";
+    html += `<label>${f.label}</label>`;
+    html += f.ta
+      ? `<textarea data-simple="${f.name}" style="min-height:90px">${escHtml(val)}</textarea>`
+      : `<input type="text" data-simple="${f.name}" value="${escAttr(val)}" placeholder="${escAttr(f.ph||"")}">`;
+  }
+  html += '</div>';
+  for (const key of Object.keys(REPEATER_DEFS)) html += renderRepeaterCard(key);
+  html += `<div class="toolbar"><button class="btn" type="button" id="saveFichaBtn">Guardar cambios de la ficha</button></div>`;
+  body.innerHTML = html;
+
+  body.querySelectorAll("[data-simple]").forEach(el => {
+    el.addEventListener("input", () => { fichaWorking[el.dataset.simple] = el.value; });
+  });
+  body.querySelectorAll("[data-rep-key]").forEach(el => {
+    el.addEventListener("input", () => {
+      fichaWorking[el.dataset.repKey][parseInt(el.dataset.repI, 10)][el.dataset.repField] = el.value;
+    });
+  });
+  document.getElementById("saveFichaBtn").addEventListener("click", saveFicha);
+}
+
+function renderRepeaterCard(key){
+  const def = REPEATER_DEFS[key];
+  const items = fichaWorking[key] || [];
+  let html = `<div class="card"><h2 style="margin-top:0">${def.label}</h2><p class="hint">${def.hint}</p>`;
+  if (!items.length) html += `<p class="hint">Todavía no hay elementos.</p>`;
+  items.forEach((item, i) => {
+    html += `<div class="rep-item">`;
+    def.fields.forEach(f => {
+      const val = item[f.name] ?? "";
+      html += `<label>${f.label}</label>`;
+      html += f.ta
+        ? `<textarea data-rep-key="${key}" data-rep-i="${i}" data-rep-field="${f.name}" style="min-height:${f.big?"160px":"70px"}">${escHtml(val)}</textarea>`
+        : `<input type="${f.num?"number":"text"}" ${f.num?'step="0.00001"':""} data-rep-key="${key}" data-rep-i="${i}" data-rep-field="${f.name}" value="${escAttr(val)}" placeholder="${escAttr(f.ph||"")}">`;
+    });
+    html += `<div class="toolbar"><button class="btn danger" type="button" onclick="removeRepItem('${key}',${i})">Borrar este elemento</button></div></div>`;
+  });
+  html += `<div class="toolbar"><button class="btn ghost" type="button" onclick="addRepItem('${key}')">+ Añadir</button></div></div>`;
+  return html;
+}
+
+function addRepItem(key){
+  const empty = {};
+  REPEATER_DEFS[key].fields.forEach(f => empty[f.name] = "");
+  (fichaWorking[key] = fichaWorking[key] || []).push(empty);
+  renderFicha();
+}
+function removeRepItem(key, i){
+  fichaWorking[key].splice(i, 1);
+  renderFicha();
+}
+
+async function saveFicha(){
+  msg("Guardando ficha en GitHub…", "info");
+  try {
+    const out = convertFichaOut(fichaWorking);
+    const body = {
+      message: `Editar ficha: ${currentSlug}`,
+      content: utf8ToB64(JSON.stringify(out, null, 2) + "\n"),
+      branch: BRANCH,
+    };
+    if (fichaSha) body.sha = fichaSha;
+    const res = await fetch(`${API}/contents/content/ficha/${currentSlug}.json`, {
+      method: "PUT", headers: {...authHeaders(), "Content-Type": "application/json"}, body: JSON.stringify(body),
+    });
+    if (!res.ok){
+      const t = await res.text();
+      throw new Error("GitHub respondió " + res.status + ": " + t.slice(0, 200));
+    }
+    const data = await res.json();
+    fichaSha = data.content.sha;
+    msg("Ficha guardada. El sitio se reconstruye solo en 1-2 minutos.", "ok");
+  } catch (e){
+    msg("Error al guardar la ficha: " + e.message, "err");
+  }
+}
+
 function imgSrc(img){
   if (!img) return "";
   return img.indexOf("http") === 0 ? img : SITE_URL + img;
@@ -96,9 +274,13 @@ function fillCountrySelect(){
 async function loadCountry(slug){
   currentSlug = slug;
   currentPois = null; currentSha = null; editingIndex = null;
+  fichaSha = null; fichaWorking = {};
   document.getElementById("poiList").innerHTML = "";
   document.getElementById("formCard").hidden = true;
+  document.getElementById("fichaBody").innerHTML = "";
+  document.getElementById("tabsBar").hidden = !slug;
   if (!slug) return;
+  showTab("pois");
   msg("Cargando puntos de " + slug + "…", "info");
   try {
     const res = await fetch(`${API}/contents/content/pois/${slug}.json?ref=${BRANCH}`, {headers: authHeaders()});
@@ -111,6 +293,7 @@ async function loadCountry(slug){
   } catch (e){
     msg("Error al cargar: " + e.message, "err");
   }
+  loadFicha(slug);
 }
 
 function renderPoiList(){
@@ -245,6 +428,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("forgetTokenBtn").addEventListener("click", forgetToken);
   document.getElementById("addBtn").addEventListener("click", () => openEdit(null));
   document.getElementById("cancelBtn").addEventListener("click", closeForm);
+  document.getElementById("tabPoisBtn").addEventListener("click", () => showTab("pois"));
+  document.getElementById("tabFichaBtn").addEventListener("click", () => showTab("ficha"));
 });
 """
 
@@ -256,8 +441,8 @@ def render_admin(countries_for_admin):
                   .replace("__BRANCH__", BRANCH)
                   .replace("__COUNTRIES_JSON__", countries_json))
     body = """<div class="wrap">
-<h1>Panel de edición · puntos de interés</h1>
-<p class="lead">Añade, edita o borra puntos de las fichas de país. Los cambios se guardan directamente en GitHub y el sitio se reconstruye y publica solo en 1-2 minutos.</p>
+<h1>Panel de edición</h1>
+<p class="lead">Edita los puntos de interés y el resto de la ficha de cada país (historia, chips, logística, fuentes, secciones...). Los cambios se guardan directamente en GitHub y el sitio se reconstruye y publica solo en 1-2 minutos.</p>
 
 <div id="msg"></div>
 
@@ -280,70 +465,81 @@ def render_admin(countries_for_admin):
     <button class="btn ghost" id="forgetTokenBtn" style="align-self:flex-end">Olvidar token</button>
   </div>
 
-  <div class="toolbar">
-    <button class="btn" id="addBtn">+ Añadir punto</button>
+  <div class="tabs" id="tabsBar" hidden>
+    <button class="tab-btn active" id="tabPoisBtn" type="button">Puntos de interés</button>
+    <button class="tab-btn" id="tabFichaBtn" type="button">Ficha del país</button>
   </div>
 
-  <div class="poi-list" id="poiList"></div>
+  <div id="poiSection">
+    <div class="toolbar">
+      <button class="btn" id="addBtn">+ Añadir punto</button>
+    </div>
 
-  <div class="card" id="formCard" hidden>
-    <h2 id="formTitle" style="margin-top:0">Punto</h2>
-    <form id="poiForm">
-      <label for="f_name">Nombre exacto</label>
-      <input type="text" id="f_name" required>
+    <div class="poi-list" id="poiList"></div>
 
-      <div class="row2">
-        <div><label for="f_cat">Categoría</label><input type="text" id="f_cat" placeholder="p. ej. Naturaleza y cultura"></div>
-        <div><label for="f_prio">Prioridad</label>
-          <select id="f_prio">
-            <option>Imprescindible</option><option>Muy recomendable</option>
-            <option>Recomendable</option><option>Opcional</option>
-          </select>
+    <div class="card" id="formCard" hidden>
+      <h2 id="formTitle" style="margin-top:0">Punto</h2>
+      <form id="poiForm">
+        <label for="f_name">Nombre exacto</label>
+        <input type="text" id="f_name" required>
+
+        <div class="row2">
+          <div><label for="f_cat">Categoría</label><input type="text" id="f_cat" placeholder="p. ej. Naturaleza y cultura"></div>
+          <div><label for="f_prio">Prioridad</label>
+            <select id="f_prio">
+              <option>Imprescindible</option><option>Muy recomendable</option>
+              <option>Recomendable</option><option>Opcional</option>
+            </select>
+          </div>
         </div>
-      </div>
 
-      <div class="row2">
-        <div><label for="f_lat">Latitud</label><input type="number" step="0.00001" id="f_lat" required></div>
-        <div><label for="f_lon">Longitud</label><input type="number" step="0.00001" id="f_lon" required></div>
-      </div>
-
-      <label for="f_desc">Descripción</label>
-      <textarea id="f_desc"></textarea>
-
-      <label for="f_img">Foto (URL completa — Wikimedia Commons, o cualquier imagen pública)</label>
-      <input type="url" id="f_img" placeholder="https://commons.wikimedia.org/wiki/Special:FilePath/...">
-      <p class="hint">De momento el panel no sube archivos de foto directamente: pega la URL de una imagen ya publicada (Wikimedia Commons funciona bien — busca el sitio en commons.wikimedia.org y usa "Special:FilePath/nombre.jpg?width=900").</p>
-
-      <div class="row2">
-        <div><label for="f_credit">Crédito de la foto</label><input type="text" id="f_credit"></div>
-        <div><label for="f_source">Fuente (URL)</label><input type="url" id="f_source"></div>
-      </div>
-
-      <div class="row2">
-        <div><label for="f_dog">Perro (estado)</label><input type="text" id="f_dog" placeholder="p. ej. permitido con condiciones"></div>
-        <div><label for="f_dog_note">Nota sobre el perro</label><input type="text" id="f_dog_note"></div>
-      </div>
-
-      <div class="row2">
-        <div><label for="f_color">Color (capa My Maps)</label>
-          <select id="f_color">
-            <option value="turquesa">Turquesa</option><option value="verde">Verde</option>
-            <option value="marron">Marrón</option><option value="naranja">Naranja</option>
-            <option value="morado">Morado</option><option value="azul">Azul</option>
-            <option value="gris">Gris</option><option value="ambar">Ámbar</option>
-          </select>
+        <div class="row2">
+          <div><label for="f_lat">Latitud</label><input type="number" step="0.00001" id="f_lat" required></div>
+          <div><label for="f_lon">Longitud</label><input type="number" step="0.00001" id="f_lon" required></div>
         </div>
-        <div><label for="f_time">Tiempo estimado</label><input type="text" id="f_time" placeholder="p. ej. 1 día"></div>
-      </div>
 
-      <label for="f_icon">Icono (solo descriptivo, para tu propia referencia)</label>
-      <input type="text" id="f_icon" placeholder="p. ej. árbol / fauna">
+        <label for="f_desc">Descripción</label>
+        <textarea id="f_desc"></textarea>
 
-      <div class="toolbar">
-        <button class="btn" type="submit">Guardar</button>
-        <button class="btn ghost" type="button" id="cancelBtn">Cancelar</button>
-      </div>
-    </form>
+        <label for="f_img">Foto (URL completa — Wikimedia Commons, o cualquier imagen pública)</label>
+        <input type="url" id="f_img" placeholder="https://commons.wikimedia.org/wiki/Special:FilePath/...">
+        <p class="hint">De momento el panel no sube archivos de foto directamente: pega la URL de una imagen ya publicada (Wikimedia Commons funciona bien — busca el sitio en commons.wikimedia.org y usa "Special:FilePath/nombre.jpg?width=900").</p>
+
+        <div class="row2">
+          <div><label for="f_credit">Crédito de la foto</label><input type="text" id="f_credit"></div>
+          <div><label for="f_source">Fuente (URL)</label><input type="url" id="f_source"></div>
+        </div>
+
+        <div class="row2">
+          <div><label for="f_dog">Perro (estado)</label><input type="text" id="f_dog" placeholder="p. ej. permitido con condiciones"></div>
+          <div><label for="f_dog_note">Nota sobre el perro</label><input type="text" id="f_dog_note"></div>
+        </div>
+
+        <div class="row2">
+          <div><label for="f_color">Color (capa My Maps)</label>
+            <select id="f_color">
+              <option value="turquesa">Turquesa</option><option value="verde">Verde</option>
+              <option value="marron">Marrón</option><option value="naranja">Naranja</option>
+              <option value="morado">Morado</option><option value="azul">Azul</option>
+              <option value="gris">Gris</option><option value="ambar">Ámbar</option>
+            </select>
+          </div>
+          <div><label for="f_time">Tiempo estimado</label><input type="text" id="f_time" placeholder="p. ej. 1 día"></div>
+        </div>
+
+        <label for="f_icon">Icono (solo descriptivo, para tu propia referencia)</label>
+        <input type="text" id="f_icon" placeholder="p. ej. árbol / fauna">
+
+        <div class="toolbar">
+          <button class="btn" type="submit">Guardar</button>
+          <button class="btn ghost" type="button" id="cancelBtn">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="fichaSection" hidden>
+    <div id="fichaBody"></div>
   </div>
 </div>
 </div>

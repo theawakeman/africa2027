@@ -1,0 +1,206 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
+  "hero_credit": "Zomba y su meseta · Dr. Ferdinand Groeger · CC BY-SA 3.0",
+  "chips": [
+    [
+      "ENTRADA",
+      "Zóbuè/Mwanza (desde Mozambique)"
+    ],
+    [
+      "SALIDA",
+      "Songwe (hacia Tanzania)"
+    ],
+    [
+      "SEGURIDAD",
+      "estable — sin exclusiones de ruta"
+    ],
+    [
+      "VISADO",
+      "eVisa — verificar exención antes de viajar"
+    ],
+    [
+      "COMUNICACIONES",
+      "Starlink activo (ok)"
+    ],
+    [
+      "REVALIDACIÓN",
+      "30–60 días antes"
+    ]
+  ],
+  "historia_resumen": "Malaui creció alrededor del gran lago que le da nombre, cruce de rutas de comercio y de la trata de esclavos árabe-swahili hasta que el misionero David Livingstone impulsó su freno; convertido en el protectorado británico de Niasalandia, alcanzó la independencia en 1964 bajo Hastings Banda, cuyo régimen autoritario de partido único duró tres décadas, y hoy es uno de los países más estables y tranquilos del corredor de regreso.",
+  "historia_secciones": [
+    [
+      "El lago y las rutas de comercio",
+      "El lago Malaui, tercero más grande de África, ha sido durante siglos el eje de la vida de los pueblos chewa, yao y ngoni que se asentaron en sus orillas. En el siglo XIX, mercaderes árabe-swahilis remontaron el lago desde la costa mozambiqueña y tanzana para comerciar con marfil y personas esclavizadas, convirtiendo la región en uno de los últimos grandes escenarios de la trata de esclavos en el interior de África oriental."
+    ],
+    [
+      "Livingstone y el protectorado británico",
+      "El misionero y explorador escocés David Livingstone llegó al lago en 1859 y dedicó buena parte de su carrera a denunciar la trata de esclavos en la región, lo que impulsó la presencia misionera y comercial británica posterior. En 1891 el territorio se convirtió en el protectorado británico de Niasalandia (British Central Africa, luego Nyasaland), integrado entre 1953 y 1963 en la Federación de Rodesia y Niasalandia junto a las actuales Zimbabue y Zambia, una unión impuesta y resistida por la población africana."
+    ],
+    [
+      "Independencia y la era de Hastings Banda",
+      "Malaui alcanzó la independencia en 1964 bajo el liderazgo de Hastings Kamuzu Banda, quien gobernó como presidente vitalicio de partido único hasta 1994, con un régimen autoritario de censura estricta y culto a la personalidad, pero también de relativa estabilidad y ausencia de los conflictos armados que sacudieron a varios de sus vecinos en esas décadas. La transición a un sistema multipartidista llegó en 1994 tras un referéndum."
+    ],
+    [
+      "Situación actual: uno de los tramos más tranquilos de la ruta",
+      "Desde los años 90, Malaui ha mantenido un sistema democrático con alternancia de poder, sin conflictos armados ni insurgencias activas en su territorio, aunque continúa siendo uno de los países más pobres del mundo. Para este viaje, ese contexto se traduce en un tramo sin zonas excluidas: el itinerario Zóbuè-Zomba-Liwonde-Cabo Maclear-Lilongwe-Songwe se recorre con precaución normal de viaje, sin las alertas de seguridad que condicionan a varios de sus vecinos."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · Malawi country profile",
+      "https://www.bbc.com/news/world-africa-13864367"
+    ],
+    [
+      "Encyclopaedia Britannica · Malawi, History",
+      "https://www.britannica.com/place/Malawi/History"
+    ],
+    [
+      "UNESCO · Lago Malaui, Patrimonio de la Humanidad",
+      "https://whc.unesco.org/en/list/289/"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Entrada — Zóbuè/Mwanza (desde Mozambique)",
+      "cat": "Frontera",
+      "lat": -16.1167,
+      "lon": 33.05,
+      "info": "Cruce del corredor de Tete; carretera asfaltada, controles rutinarios sin incidencias reportadas."
+    },
+    {
+      "name": "Frontera · Salida — Songwe (hacia Tanzania)",
+      "cat": "Frontera",
+      "lat": -9.3833,
+      "lon": 33.7167,
+      "info": "Puente sobre el río Songwe, al norte de Karonga; cruce estándar hacia Mbeya (Tanzania), con puesto integrado a ambos lados."
+    },
+    {
+      "name": "Consulado Honorario de España en Lilongwe",
+      "cat": "Consular",
+      "lat": -13.9626,
+      "lon": 33.7741,
+      "info": "María Ángeles Soriano, Blantyre Street 279, Area 10, Lilongüe. Tel./WhatsApp (+265) 999 846 081. Depende de la Embajada de España en Harare (Zimbabue), que también cubre Zambia."
+    },
+    {
+      "name": "Embajada de España en Harare (competente para Malaui)",
+      "cat": "Consular",
+      "lat": -17.8292,
+      "lon": 31.0522,
+      "info": "16 Phillips Ave., Belgravia, P.O. Box 3300, Harare (Zimbabue). Tel. +263 (0)242 250740/1 · Emergencia consular: +263 (0)772 436 620. Referencia diplomática de Malaui y Zambia; contactar directamente el consulado honorario de Lilongüe para gestiones ordinarias y solo Harare para trámites mayores."
+    },
+    {
+      "name": "Hospital Kamuzu Central, Lilongwe",
+      "cat": "Hospital",
+      "lat": -13.9553,
+      "lon": 33.7614,
+      "info": "Principal hospital de referencia de la capital; mejor opción sanitaria del tramo junto con clínicas privadas de Blantyre."
+    },
+    {
+      "name": "Combustible · Zomba / Blantyre / Lilongwe",
+      "cat": "Combustible",
+      "lat": -15.3833,
+      "lon": 35.3333,
+      "info": "Estaciones formales (Puma, Total, OilCom) en las principales ciudades del corredor sur-norte; sin gap relevante de 500 km en el eje previsto."
+    },
+    {
+      "name": "Agua potable y de uso general · Lilongwe y Cabo Maclear",
+      "cat": "Agua potable",
+      "lat": -13.9626,
+      "lon": 33.7741,
+      "info": "Agua embotellada en supermercados de Lilongwe y Blantyre; lodges y campings de Cabo Maclear y Liwonde permiten llenar el depósito de uso general con manguera."
+    }
+  ],
+  "sources": [
+    [
+      "Embajada de España en Harare · Malaui (consulado honorario de Lilongüe)",
+      "https://www.exteriores.gob.es/Embajadas/harare/es/Embajada/tambien-somos-tu-embajada-en/Paginas/Malawi.aspx"
+    ],
+    [
+      "thingstodoinmalawi.com · requisitos de visado/eVisa para Malaui",
+      "https://thingstodoinmalawi.com/entry-requirements/"
+    ],
+    [
+      "Bordercrossinghub.com · cruce de Mwanza/Zóbuè",
+      "https://bordercrossinghub.com/mwanza-zobue-border-crossing/"
+    ],
+    [
+      "Tracks4Africa Blog · Carnet de Passage en el sur de África",
+      "https://blog.tracks4africa.co.za/2888-2/"
+    ],
+    [
+      "PetTravel.com · requisitos de importación de mascotas a Malaui",
+      "https://www.pettravel.com/information/pet-passports/malawi-pet-import-requirements/"
+    ],
+    [
+      "connectingafrica.com · lanzamiento de Starlink en Malaui",
+      "https://www.connectingafrica.com/broadband/spacex-s-starlink-launches-in-malawi"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ],
+    [
+      "Tracks4Africa · cartografía y puntos overland de África",
+      "https://tracks4africa.co.za/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
+  "emergency": "Consulado Honorario de España en Lilongüe: (+265) 999 846 081 · Embajada de España en Harare (competente para Malaui), emergencia consular: +263 (0)772 436 620.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Segundo país del corredor de regreso, tras Mozambique.</td></tr><tr ><td>Entrada</td><td>Zóbuè/Mwanza desde Mozambique, por el corredor de Tete.</td></tr><tr ><td>Salida</td><td>Songwe hacia Tanzania, al norte de Karonga.</td></tr><tr ><td>Seguridad</td><td>País estable, sin zonas excluidas del itinerario; el Lago Malaui es el eje del tramo.</td></tr><tr ><td>Visado</td><td>eVisa (evisa.gov.mw) obligatoria para españoles — no exentos; tramitar con 5-10 días laborables de antelación.</td></tr><tr ><td>Vehículo</td><td>CPD recomendado; verificar si se admite permiso temporal alternativo en frontera.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Visado:</strong> España NO está exenta — tramitar el eVisa en evisa.gov.mw antes de llegar a la frontera, no confiar en visado a la llegada.</li><li>Perro prohibido en el Parque Nacional de Liwonde: prever cuidador en la entrada o rotación del itinerario.</li><li>Sin alertas de seguridad activas en el corredor previsto a fecha de esta revisión; reconfirmar igualmente 30-60 días antes.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Malaui creció alrededor del gran lago que le da nombre, cruce de rutas de comercio y de la trata de esclavos árabe-swahili hasta que el misionero David Livingstone impulsó su freno; convertido en el protectorado británico de Niasalandia, alcanzó la independencia en 1964 bajo Hastings Banda, cuyo régimen autoritario de partido único duró tres décadas, y hoy es uno de los países más estables y tranquilos del corredor de regreso.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Malaui →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Entrada por el corredor de Tete hacia la meseta de Zomba, descenso al Parque de Liwonde, ascenso a la costa del Lago Malaui en Cabo Maclear y paso por Lilongwe antes de salir hacia Tanzania por Songwe.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y meseta</td><td>Zóbuè/Mwanza → Zomba</td><td>Aire fresco de meseta tras el calor de Tete; descanso</td></tr><tr ><td>Fauna</td><td>Zomba → Liwonde NP</td><td>Safaris en vehículo o barco por el río Shire</td></tr><tr ><td>Lago</td><td>Liwonde → Cabo Maclear</td><td>Playas de agua dulce del Lago Malaui; 2 noches recomendadas</td></tr><tr ><td>Capital y salida</td><td>Cabo Maclear → Lilongwe → Songwe</td><td>Base logística final antes de Tanzania</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Sin pistas 4x4 destacadas de interés específico para el proyecto: el eje Zóbuè-Zomba-Liwonde-Cabo Maclear-Lilongwe-Songwe es carretera asfaltada en su mayor parte, con pistas de tierra en buen estado dentro de Liwonde.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Cabo Maclear: campings y lodges de playa con aparcamiento, muy orientados a overlanders y mochileros.</li><li>Liwonde: campamentos dentro y en la entrada del parque, con opción de safari nocturno.</li><li>Zomba y Lilongwe: hoteles y campings urbanos sin incidencias reportadas.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Lilongwe y Blantyre: agua embotellada sin problema en supermercados.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): lodges y campings de Cabo Maclear, Liwonde, Zomba y Lilongwe permiten llenar el depósito con manguera; confirmar en recepción.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje previsto: Zóbuè → Zomba (~90 km) → Liwonde (~50 km) → Cabo Maclear (~110 km) → Lilongwe (~250 km) → Songwe (~470 km), todos con estaciones formales.</li><li>Zomba, Blantyre y Lilongwe concentran la mejor oferta y calidad del país (Puma, Total, OilCom); repostar a fondo antes del tramo final hacia Songwe.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>eVisa obligatoria para ciudadanos españoles (evisa.gov.mw), aproximadamente 75 USD, 5-10 días laborables de tramitación, válida 30 días de entrada única.</li><li>Certificado internacional de fiebre amarilla exigido si se procede de zona endémica.</li><li>Confirmar 30-60 días antes si existe alguna vía de exención o visado a la llegada que haya cambiado desde esta revisión.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Zóbuè/Mwanza (Mozambique)</td><td>Corredor de Tete; carretera asfaltada, controles rutinarios.</td></tr><tr ><td>Salida</td><td>Songwe (Tanzania)</td><td>Puente sobre el río Songwe, al norte de Karonga; puesto integrado.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD recomendado — verificar si Malaui admite alternativa de permiso temporal en frontera para vehículos de turismo.</li><li>Seguro de terceros (COMESA) obligatorio, comprado en la frontera de entrada.</li><li>Carnet de conducir internacional recomendado en todos los controles.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Autorización previa obligatoria ante la Autoridad de Aviación Civil de Malaui</div><p>Malaui exige registro y autorización previa del Departamento de Aviación Civil para el uso de drones, incluido el uso recreativo con cámara; el trámite puede llevar varias semanas. Norma prudente del proyecto: solicitar el permiso con antelación suficiente y no volar sobre los parques nacionales (Liwonde, Lago Malaui) sin autorización específica del área protegida.</p></div><ul class=\"ticks\"><li>Solicitar autorización previa ante el Departamento de Aviación Civil de Malaui, con margen de varias semanas.</li><li>No volar sobre Liwonde ni la costa del Lago Malaui sin autorización específica del área protegida.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout ok\"><div class=\"callout-title\">Disponible y operativo en 2026</div><p>Starlink está activo comercialmente en Malaui, con cobertura confirmada en el corredor Zomba-Blantyre-Lilongwe y en la costa del Lago Malaui; kit y suscripción configurables antes de entrar al país.</p></div><ul class=\"ticks\"><li>Servicio activo y operativo en 2026 en el corredor Zomba-Blantyre-Lilongwe y en la costa del Lago Malaui.</li><li>SIM local (TNM, Airtel Malawi) como respaldo en zonas rurales sin cobertura satelital directa.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente y vacuna antirrábica en vigor, exigibles en frontera.</li><li>Perro prohibido en el Parque Nacional de Liwonde; prever cuidador en la entrada o dejarlo en Zomba/Cabo Maclear durante la visita.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Parque Nacional de Liwonde</td><td><span class=\"st st-red\">prohibido</span></td><td>No se permite el acceso de mascotas a las zonas de fauna del parque; dejar con cuidador en la entrada.</td></tr><tr ><td>Zomba, Cabo Maclear, Lilongwe</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y sombra; buen clima en la meseta de Zomba, más calor en la costa del lago.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Malaria presente en todo el territorio, especialmente en la costa del lago: profilaxis a valorar con Sanidad Exterior.</li><li>Fiebre amarilla: certificado exigido si se procede de zona endémica.</li><li>Hospital Kamuzu Central (Lilongwe) como mejor referencia sanitaria; seguro con evacuación médica real imprescindible fuera de la capital.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>Malaui es uno de los tramos más tranquilos del corredor de regreso: sin zonas excluidas ni alertas activas, con precaución normal de viaje suficiente en todo el itinerario.</p><ul class=\"ticks\"><li>Precaución normal de viaje; sin zonas del itinerario que requieran exclusión o revalidación especial.</li><li>Aparcamiento vigilado en Lilongwe y Blantyre por prudencia estándar, sin incidencia reportada relevante.</li><li>Carreteras secundarias de la meseta de Zomba pueden tener baches tras las lluvias: circular con luz de día.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado</td><td>Tramitar el eVisa en evisa.gov.mw con margen suficiente</td></tr><tr ><td>Vehículo</td><td>Confirmar si se admite permiso temporal alternativo al CPD en frontera</td></tr><tr ><td>Perro</td><td>Confirmar cuidador en Liwonde durante la visita al parque</td></tr><tr ><td>Dron</td><td>Iniciar trámite de autorización ante el Departamento de Aviación Civil con semanas de antelación</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "content/pois/**"
+      - "content/ficha/**"
       - "assets/img/**"
 
 permissions:

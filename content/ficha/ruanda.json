@@ -1,0 +1,183 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kigali%20city%20view.jpg?width=900",
+  "hero_credit": "Kigali · Baraka29 · CC BY-SA 4.0",
+  "chips": [
+    [
+      "ROL EN LA RUTA",
+      "opcional — trekking de gorilas en Volcanoes NP"
+    ],
+    [
+      "ENTRADA/SALIDA",
+      "Rusumo (Tanzania) o Gatuna (Uganda)"
+    ],
+    [
+      "SEGURIDAD",
+      "estable — orden y control fuertes"
+    ],
+    [
+      "COMUNICACIONES",
+      "Starlink activo (ok)"
+    ]
+  ],
+  "historia_resumen": "Ruanda es un país pequeño y densamente poblado con una identidad precolonial fuertemente centralizada en torno a la monarquía tutsi, cuyas divisiones étnicas fueron rigidificadas y explotadas por el colonialismo belga hasta desembocar en el genocidio de 1994 contra los tutsis, uno de los episodios más brutales del siglo XX; desde entonces el país ha construido una reconstrucción notable bajo un gobierno fuertemente centralizado, con Kigali como modelo regional de orden y desarrollo, aunque con muy poco espacio para la disidencia política.",
+  "historia_secciones": [
+    [
+      "El reino de Ruanda precolonial",
+      "Antes de la colonización, el territorio estaba organizado en torno a un reino centralizado dominado por la monarquía tutsi (el mwami), con una estructura social jerárquica entre tutsis, hutus y twa que originalmente tenía más de casta socioeconómica y ocupacional (ganaderos frente a agricultores) que de origen étnico o racial diferenciado, con importante movilidad entre grupos."
+    ],
+    [
+      "El colonialismo alemán y belga: la fabricación de la división étnica",
+      "Alemania y después Bélgica (tras la Primera Guerra Mundial) gobernaron a través de la aristocracia tutsi, a la que favorecieron sistemáticamente, y introdujeron carnés de identidad étnica obligatorios que fijaron de forma rígida y pseudocientífica una distinción entre hutus y tutsis que hasta entonces había sido mucho más fluida, sentando las bases del enfrentamiento posterior."
+    ],
+    [
+      "El genocidio de 1994",
+      "Tras décadas de tensión poselecciones y varios episodios de violencia previa, el asesinato del presidente en abril de 1994 desencadenó un genocidio planificado contra la población tutsi (y hutus moderados) que se cobró alrededor de 800.000 vidas en apenas cien días, uno de los genocidios más rápidos y brutales de la historia moderna, hasta que el Frente Patriótico Ruandés puso fin a la matanza y tomó el poder."
+    ],
+    [
+      "Situación actual: reconstrucción, centralización del poder y crecimiento",
+      "Desde 1994, el gobierno liderado por Paul Kagame ha impulsado una notable reconstrucción económica e institucional —Kigali es hoy una de las ciudades más limpias y seguras de África y un centro de innovación tecnológica regional—, combinada con un control político muy estricto, restricciones severas a la oposición y a la prensa, y una prohibición legal de mencionar la etnia en la vida pública como parte de una política oficial de reconciliación nacional; el país también ha estado implicado en tensiones y conflictos armados en la vecina RD Congo, un asunto de atención internacional continuada."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · Rwanda country profile",
+      "https://www.bbc.com/news/world-africa-14093238"
+    ],
+    [
+      "Encyclopaedia Britannica · Rwanda, History",
+      "https://www.britannica.com/place/Rwanda/History"
+    ],
+    [
+      "United Nations · Outreach Programme on the Rwanda Genocide",
+      "https://www.un.org/en/preventgenocide/rwanda/"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Rusumo (con Tanzania)",
+      "cat": "Frontera",
+      "lat": -2.3833,
+      "lon": 30.7833,
+      "info": "Principal paso hacia/desde Tanzania, puesto de ventanilla única sobre el río Kagera; cruce relativamente ágil."
+    },
+    {
+      "name": "Frontera · Gatuna/Katuna (con Uganda)",
+      "cat": "Frontera",
+      "lat": -1.3,
+      "lon": 30.05,
+      "info": "Paso habitual hacia/desde Uganda, útil para enlazar con el trekking de gorilas de Bwindi; sujeto a cierres o restricciones puntuales según el estado de las relaciones bilaterales, verificar antes de viajar."
+    },
+    {
+      "name": "Embajada de España en Dar es Salaam (competente para Ruanda)",
+      "cat": "Consular",
+      "lat": -6.7924,
+      "lon": 39.2083,
+      "info": "99 B Kinondoni Road, Dar es Salaam (Tanzania). Tel. +255 022 266 60 18/19; emergencias +255 754 04 21 23. Gestionar trámites mayores a través de esta embajada."
+    },
+    {
+      "name": "King Faisal Hospital, Kigali",
+      "cat": "Hospital",
+      "lat": -1.9548,
+      "lon": 30.093,
+      "info": "Principal hospital de referencia privado-público de la capital; para necesidades serias, evacuación hacia Nairobi es la práctica habitual en la región."
+    },
+    {
+      "name": "Combustible · Kigali / Musanze (acceso a Volcanoes NP)",
+      "cat": "Combustible",
+      "lat": -1.9441,
+      "lon": 30.0619,
+      "info": "Estaciones formales en ambas localidades; repostar a fondo en Musanze antes del tramo final hacia Kinigi."
+    },
+    {
+      "name": "Agua potable y de uso general · Kigali y Musanze",
+      "cat": "Agua potable",
+      "lat": -1.9441,
+      "lon": 30.0619,
+      "info": "Agua embotellada sin problema en ambas localidades; lodges de Kinigi permiten llenar el depósito de uso general con manguera, confirmar en recepción."
+    }
+  ],
+  "sources": [
+    [
+      "Irembo · portal oficial de trámites del gobierno de Ruanda (visados)",
+      "https://irembo.gov.rw/"
+    ],
+    [
+      "Rwanda Development Board · permisos de trekking de gorilas",
+      "https://www.rdb.rw/"
+    ],
+    [
+      "Rwanda Utilities Regulatory Authority (RURA) · normativa de drones",
+      "https://www.rura.rw/"
+    ],
+    [
+      "UNESCO · Parque Nacional de los Volcanes (lista indicativa)",
+      "https://whc.unesco.org/en/tentativelists/5439/"
+    ],
+    [
+      "tech.africa · Starlink en África, estado por país 2026",
+      "https://tech.africa/starlink-africa/"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Ruanda es un desvío opcional: confirmar si se incluye antes de revalidar el resto de trámites.",
+  "emergency": "Sin representación española propia en Ruanda — gestionar emergencias a través de la Embajada de España en Dar es Salaam (Tanzania), competente para el país: +255 022 266 60 18/19; emergencias +255 754 04 21 23.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, si finalmente se incluye este desvío.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Rol en la ruta</td><td>Alternativa de naturaleza de alto nivel: trekking de gorilas de montaña en Volcanoes NP, permiso previo obligatorio y de coste elevado.</td></tr><tr ><td>Entrada/salida</td><td>Rusumo desde Tanzania, o Gatuna/Katuna desde Uganda si se combina con Bwindi.</td></tr><tr ><td>Seguridad</td><td>País muy ordenado y seguro para el visitante, con control político interno estricto; sin alertas relevantes para el turista en la ruta prevista.</td></tr><tr ><td>Perro</td><td>Prohibido en Volcanoes NP; planificar cuidado en Musanze o Kinigi.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li>El permiso de trekking de gorilas en Volcanoes NP (Rwanda Development Board) tiene cupo diario muy limitado, coste elevado y conviene reservarlo con varios meses de antelación.</li><li>Verificar el estado de la frontera de Gatuna/Katuna con Uganda antes de viajar, ya que ha sufrido cierres o restricciones puntuales en el pasado por tensiones bilaterales.</li><li><strong>Perro prohibido en Volcanoes NP:</strong> prever cuidador o alojamiento con guardería en Musanze o Kinigi.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Ruanda es un país pequeño y densamente poblado con una identidad precolonial fuertemente centralizada en torno a la monarquía tutsi, cuyas divisiones étnicas fueron rigidificadas y explotadas por el colonialismo belga hasta desembocar en el genocidio de 1994 contra los tutsis, uno de los episodios más brutales del siglo XX; desde entonces el país ha construido una reconstrucción notable bajo un gobierno fuertemente centralizado, con Kigali como modelo regional de orden y desarrollo, aunque con muy poco espacio para la disidencia política.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Ruanda →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Entrada por Rusumo desde Tanzania o Gatuna desde Uganda, escala en Kigali para gestiones y memoria histórica, travesía hacia el norte vía Musanze hasta Kinigi para el trekking de gorilas en Volcanoes NP.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada</td><td>Rusumo/Gatuna → Kigali</td><td>Gestiones, Kigali Genocide Memorial</td></tr><tr ><td>Travesía norte</td><td>Kigali → Musanze</td><td>Escala logística antes del acceso al parque</td></tr><tr ><td>Trekking de gorilas</td><td>Musanze → Kinigi (Volcanoes NP)</td><td>Permiso previo obligatorio; cupo diario muy limitado</td></tr><tr ><td>Salida</td><td>Kinigi → frontera con Uganda</td><td>Enlace opcional hacia Bwindi (Uganda) para más trekking</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Pista de tierra en el tramo final Musanze-Kinigi (practicable con turismo la mayor parte del año, algo más exigente en temporada de lluvias); el resto del eje es carretera asfaltada en muy buen estado.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Kigali: opciones limitadas orientadas a overlanders; considerar alojamiento urbano convencional.</li><li>Kinigi: campamentos y lodges junto al parque, con parcelas para vehículo propio en varios de ellos.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Kigali y Musanze: agua embotellada sin problema.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): lodges de Kinigi permiten llenar el depósito con manguera; confirmar en recepción.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Kigali y Musanze concentran la oferta fiable; repostar a fondo en Musanze antes del tramo final hacia Kinigi.</li><li>Sin gap relevante de 500 km en el eje asfaltado Rusumo-Kigali-Musanze.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>Visado a la llegada o e-visa disponible para españoles, tramitar con antelación vía Irembo si se prefiere.</li><li>Certificado internacional de fiebre amarilla exigido si se procede de zona endémica.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada/salida (este)</td><td>Rusumo (Tanzania)</td><td>Ventanilla única sobre el río Kagera; cruce ágil.</td></tr><tr ><td>Entrada/salida (norte)</td><td>Gatuna/Katuna (Uganda)</td><td>Verificar estado antes de viajar por posibles restricciones bilaterales.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>Permiso temporal en frontera para el vehículo; confirmar despacho aduanero según el punto de entrada.</li><li>Seguro de terceros COMESA válido en Ruanda como miembro de la región.</li><li>Normativa de tráfico y limpieza urbana muy estricta en Kigali (bolsas de plástico prohibidas en todo el país): evitar llevarlas al cruzar la frontera.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout danger\"><div class=\"callout-title\">Prohibido sin permiso previo, y prácticamente excluido en Volcanoes NP</div><p>Ruanda exige un permiso previo de la Rwanda Utilities Regulatory Authority (RURA) para cualquier uso de drones, con proceso restrictivo; su uso dentro de Volcanoes National Park y durante el trekking de gorilas está prohibido en la práctica. Norma del proyecto: no volar el dron en ningún parque o zona de trekking sin autorización expresa ya concedida.</p></div><ul class=\"ticks\"><li>No volar en ningún caso dentro de Volcanoes NP o durante el trekking de gorilas sin autorización expresa ya concedida.</li><li>Solicitar el permiso de la RURA con antelación si se quiere volar fuera de zonas protegidas; proceso restrictivo.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout ok\"><div class=\"callout-title\">Disponible y operativo en 2026</div><p>Starlink está activo comercialmente en Ruanda, uno de los primeros países africanos en autorizarlo, con buena cobertura incluso en Kigali y zonas rurales del norte; kit y suscripción configurables antes de entrar al país.</p></div><ul class=\"ticks\"><li>Servicio activo y de los primeros autorizados en África, con buena cobertura incluso en Musanze y Kinigi.</li><li>SIM local (MTN Rwanda, Airtel) como respaldo en zonas más remotas.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional y permiso de importación previo, exigibles en frontera.</li><li>Perro prohibido en Volcanoes NP y durante el trekking de gorilas; prever cuidador o alojamiento con guardería en Musanze o Kinigi.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Parque Nacional de los Volcanes</td><td><span class=\"st st-red\">prohibido</span></td><td>No se permite el acceso de mascotas al parque ni al trekking de gorilas; dejar en Musanze o Kinigi con cuidador o en el alojamiento.</td></tr><tr ><td>Kigali, Musanze</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y control en zonas urbanas; normativa municipal de limpieza especialmente estricta en Kigali.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Malaria presente en zonas bajas del país, riesgo menor en las zonas altas de Volcanoes NP: profilaxis a valorar con Sanidad Exterior.</li><li>Fiebre amarilla: certificado exigido si se procede de zona endémica.</li><li>King Faisal Hospital (Kigali) como referencia nacional; evacuación hacia Nairobi para casos serios.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>Ruanda es percibido como uno de los países más seguros y ordenados de África para el visitante, con un control estatal muy fuerte; conviene evitar cualquier comentario público sobre etnia o política interna, tema legalmente sensible en el país.</p><ul class=\"ticks\"><li>Evitar comentarios o publicaciones sobre etnia, genocidio o política interna que puedan malinterpretarse; el tema está regulado legalmente.</li><li>Respetar siempre las indicaciones del guía durante el trekking de gorilas: distancia mínima y normas de comportamiento ante los animales.</li><li>Normativa muy estricta contra bolsas de plástico de un solo uso en todo el país: no introducirlas.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Trekking de gorilas</td><td>Reservar permiso con el Rwanda Development Board con varios meses de antelación (cupo muy limitado, coste elevado)</td></tr><tr ><td>Frontera con Uganda</td><td>Verificar el estado de Gatuna/Katuna antes de viajar por posibles restricciones bilaterales</td></tr><tr ><td>Perro</td><td>Confirmar guardería o cuidador en Musanze/Kinigi durante el trekking</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

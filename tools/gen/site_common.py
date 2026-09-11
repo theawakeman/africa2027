@@ -7,6 +7,18 @@ from pathlib import Path
 SITE = Path(__file__).resolve().parent.parent.parent
 MYMAPS = "https://www.google.com/maps/d/edit?hl=es&mid=1brUmvoMOalT61Od_OwLFWtfjZwFxd8M"
 
+# Campos de la ficha de país editables desde el panel (/admin/) vía
+# content/ficha/<slug>.json. Si el JSON existe, cada clave presente en él
+# sustituye a la calculada por data_<pais>.py; las claves ausentes del JSON
+# se dejan tal cual las produjo el módulo Python del país.
+FICHA_FIELDS = [
+    "hero_img", "hero_credit", "chips",
+    "historia_resumen", "historia_secciones", "historia_fuentes",
+    "logistics", "sources", "sources_note",
+    "emergency", "matrix_note", "notice",
+    "custom_sections", "custom_sections_post",
+]
+
 def esc(s):
     return _html.escape(str(s), quote=False)
 

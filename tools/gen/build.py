@@ -5,7 +5,7 @@ import datetime
 from pathlib import Path
 
 from site_common import (SITE, MYMAPS, esc, attr, gmaps, page, table, callout,
-                         bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML)
+                         bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML, FICHA_FIELDS)
 from admin_panel import render_admin, ADMIN_CSS
 import data_senegal
 import data_mauritania
@@ -37,6 +37,18 @@ for _slug, _d in FULL.items():
     _pf = POIS_DIR / f"{_slug}.json"
     if _pf.exists():
         _d["pois"] = json.loads(_pf.read_text(encoding="utf-8"))
+
+# ---- Resto de la ficha editable desde el panel (/admin/): si existe
+# content/ficha/<slug>.json, cada clave presente ahí sustituye a la calculada
+# por data_<pais>.py (hero, chips, historia, logística, fuentes, secciones...).
+FICHA_DIR = SITE / "content" / "ficha"
+for _slug, _d in FULL.items():
+    _ff = FICHA_DIR / f"{_slug}.json"
+    if _ff.exists():
+        _overrides = json.loads(_ff.read_text(encoding="utf-8"))
+        for _k in FICHA_FIELDS:
+            if _k in _overrides:
+                _d[_k] = _overrides[_k]
 
 # ---------------------------------------------------------------- map assets
 MAP_JS = r"""

@@ -1,0 +1,203 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wide%20aerial%20landscape%20of%20the%20Ngorongoro%20ecosystem.jpg?width=900",
+  "hero_credit": "Cráter del Ngorongoro · Arnold Tibaijuka · CC BY-SA 4.0",
+  "chips": [
+    [
+      "ENTRADA",
+      "Songwe (desde Malaui)"
+    ],
+    [
+      "SALIDA",
+      "Namanga (hacia Kenia)"
+    ],
+    [
+      "SEGURIDAD",
+      "estable · precaución normal — sin exclusiones de ruta"
+    ],
+    [
+      "VEHÍCULO",
+      "CPD exigido en la práctica en frontera terrestre — imprescindible"
+    ],
+    [
+      "COMUNICACIONES",
+      "Starlink en transición — tratar como no garantizado"
+    ],
+    [
+      "REVALIDACIÓN",
+      "30–60 días antes"
+    ]
+  ],
+  "historia_resumen": "Tanzania nace de la unión en 1964 de Tanganica y el sultanato de Zanzíbar, dos historias muy distintas — el interior bantú de la Ruta de la Seda del marfil y el emporio comercial swahili-omaní de la costa — fusionadas bajo el liderazgo de Julius Nyerere y su particular experimento socialista africano (ujamaa); hoy es uno de los países más estables políticamente del continente, con la meseta del Serengeti y el Ngorongoro como epicentro mundial de la conservación de fauna.",
+  "historia_secciones": [
+    [
+      "La costa swahili y el sultanato de Zanzíbar",
+      "Durante más de un milenio, la costa tanzana formó parte del mundo swahili, una civilización mestiza de comerciantes bantúes, árabes y persas que edificó ciudades-estado prósperas con el comercio de oro, marfil y esclavos hacia Oriente Medio e India. En el siglo XIX, el sultanato omaní trasladó su capital a Zanzíbar, convirtiendo la isla en el mayor mercado de esclavos y de clavo del Índico occidental, con Stone Town como su corazón administrativo y comercial — hoy Patrimonio de la Humanidad."
+    ],
+    [
+      "Colonización alemana y británica del interior",
+      "El interior, poblado por más de cien grupos étnicos bantúes, nilóticos y cusitas, fue colonizado por Alemania a finales del siglo XIX como el África Oriental Alemana, con una represión especialmente dura durante la rebelión Maji Maji (1905-1907). Tras la Primera Guerra Mundial, el territorio pasó a administración británica como Tanganica, mientras Zanzíbar seguía siendo un protectorado británico aparte, con el sultanato local nominalmente en el trono."
+    ],
+    [
+      "Independencia, unión y el socialismo de Nyerere",
+      "Tanganica se independizó en 1961 y Zanzíbar en 1963, pero una revolución popular derrocó al sultán de Zanzíbar apenas un mes después de su independencia. En 1964 ambos territorios se unieron para formar Tanzania, bajo el liderazgo de Julius Nyerere. Nyerere impulsó el ujamaa, un modelo de socialismo africano basado en aldeas comunales autosuficientes y en el suajili como lengua nacional unificadora — una política que, pese a sus fracasos económicos, dejó a Tanzania con una cohesión nacional y una estabilidad política poco comunes en la región."
+    ],
+    [
+      "Situación actual: estabilidad y capital mundial de los safaris",
+      "Tanzania es hoy uno de los países más estables de África, sin conflictos armados internos activos, aunque mantiene tensiones políticas ocasionales en torno a procesos electorales en Zanzíbar. El país alberga algunos de los ecosistemas de fauna más importantes del planeta —el Serengeti, el cráter del Ngorongoro y el Kilimanjaro— convertidos en el eje económico y turístico del norte, y en el gran atractivo natural de este tramo del corredor de regreso."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · Tanzania country profile",
+      "https://www.bbc.com/news/world-africa-14095868"
+    ],
+    [
+      "Encyclopaedia Britannica · Tanzania, History",
+      "https://www.britannica.com/place/Tanzania/History"
+    ],
+    [
+      "UNESCO · Stone Town de Zanzíbar, Patrimonio de la Humanidad",
+      "https://whc.unesco.org/en/list/173/"
+    ],
+    [
+      "UNESCO · Área de Conservación de Ngorongoro, Patrimonio de la Humanidad",
+      "https://whc.unesco.org/en/list/39/"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Entrada — Songwe (desde Malaui)",
+      "cat": "Frontera",
+      "lat": -9.3833,
+      "lon": 33.7167,
+      "info": "Puente sobre el río Songwe, al norte de Karonga; cruce estándar hacia Mbeya, con puesto integrado a ambos lados."
+    },
+    {
+      "name": "Frontera · Salida — Namanga (hacia Kenia)",
+      "cat": "Frontera",
+      "lat": -2.545,
+      "lon": 36.7867,
+      "info": "Paso principal del corredor norte, junto al Parque de Amboseli; puesto de alto tránsito turístico bien equipado."
+    },
+    {
+      "name": "Embajada de España en Dar es Salaam",
+      "cat": "Consular",
+      "lat": -6.79,
+      "lon": 39.26,
+      "info": "99 B Kinondoni Road, P.O. Box 842, Dar es Salaam. Tel. (+255) 022 266 60 18/19 · Emergencia consular 24h: (+255) 754 04 21 23 · emb.daressalaam@maec.es."
+    },
+    {
+      "name": "Muhimbili National Hospital, Dar es Salaam",
+      "cat": "Hospital",
+      "lat": -6.8083,
+      "lon": 39.2764,
+      "info": "Principal hospital de referencia del país; mejor opción sanitaria del tramo costero junto con clínicas privadas de Arusha."
+    },
+    {
+      "name": "Combustible · Mbeya / Iringa / Arusha",
+      "cat": "Combustible",
+      "lat": -3.3869,
+      "lon": 36.683,
+      "info": "Estaciones formales (TotalEnergies, Puma, Oryx) en las ciudades principales del corredor Mbeya-Iringa-Arusha; sin gap relevante de 500 km en el eje previsto."
+    },
+    {
+      "name": "Agua potable y de uso general · Arusha y Dar es Salaam",
+      "cat": "Agua potable",
+      "lat": -3.3869,
+      "lon": 36.683,
+      "info": "Agua embotellada sin problema en supermercados de ambas ciudades; lodges de safari y campings del corredor Mbeya-Iringa-Arusha permiten llenar el depósito de uso general con manguera."
+    }
+  ],
+  "sources": [
+    [
+      "Embajada de España en Dar es Salaam · contacto",
+      "https://www.exteriores.gob.es/Embajadas/daressalaam/en/Embajada/Paginas/Horario,-localizaci%C3%B3n-y-contacto.aspx"
+    ],
+    [
+      "safarimasters.com · requisitos de visado/e-visa para Tanzania",
+      "https://safarimasters.com/tanzania-entry-requirements/"
+    ],
+    [
+      "tech.africa · Starlink en África, estado por país 2026 (Tanzania: licencia en trámite, servicio parcial vía Airtel)",
+      "https://tech.africa/starlink-africa/"
+    ],
+    [
+      "Space in Africa · solicitud de licencia de Starlink en Tanzania",
+      "https://spaceinafrica.com/2024/11/16/starlink-applies-for-licenses-to-operate-in-tanzania/"
+    ],
+    [
+      "Overlanding Association · Carnet de Passage y permisos de vehículo por país",
+      "https://overlandingassociation.org/carnet-de-passage/"
+    ],
+    [
+      "PetTravel.com · requisitos de importación de mascotas a Tanzania",
+      "https://www.pettravel.com/information/pet-passports/tanzania-pet-import-requirements/"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ],
+    [
+      "Tracks4Africa · cartografía y puntos overland de África",
+      "https://tracks4africa.co.za/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
+  "emergency": "Emergencia consular española (Dar es Salaam, 24h): (+255) 754 04 21 23 · Embajada de España en Dar es Salaam: (+255) 022 266 60 18/19.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Tercer país del corredor de regreso, tras Malaui.</td></tr><tr ><td>Entrada</td><td>Songwe desde Malaui, al norte de Karonga.</td></tr><tr ><td>Salida</td><td>Namanga hacia Kenia, junto al Parque de Amboseli.</td></tr><tr ><td>Seguridad</td><td>País estable, sin zonas excluidas del itinerario; precaución normal reforzada en zonas turísticas de alta afluencia.</td></tr><tr ><td>Visado</td><td>e-Visa disponible (Spain no exenta): tramitar online, 5-10 días laborables, o visado a la llegada como respaldo.</td></tr><tr ><td>Vehículo</td><td>CPD exigido en la práctica en la frontera terrestre — imprescindible, no opcional como en países vecinos.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>CPD imprescindible:</strong> a diferencia de Mozambique o Malaui, la frontera terrestre de Tanzania exige en la práctica el Carnet de Passage — no confiar en un permiso temporal alternativo.</li><li><strong>Dron:</strong> no intentar volar dentro de Ngorongoro o Serengeti sin el permiso de pago de TANAPA tramitado con antelación; en la práctica rara vez se concede a particulares.</li><li><strong>Starlink:</strong> no garantizar el servicio antes de confirmarlo 30-60 días antes del viaje; llevar SIM local como respaldo principal.</li><li>Perro prohibido en el Ngorongoro y el Serengeti: prever cuidador en Arusha o Karatu antes de los safaris.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Tanzania nace de la unión en 1964 de Tanganica y el sultanato de Zanzíbar, dos historias muy distintas — el interior bantú de la Ruta de la Seda del marfil y el emporio comercial swahili-omaní de la costa — fusionadas bajo el liderazgo de Julius Nyerere y su particular experimento socialista africano (ujamaa); hoy es uno de los países más estables políticamente del continente, con la meseta del Serengeti y el Ngorongoro como epicentro mundial de la conservación de fauna.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Tanzania →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Entrada por Songwe y ascenso por el corredor central (Mbeya-Iringa) hasta Arusha, con el cráter del Ngorongoro como eje de safari y un desvío costero opcional a Dar es Salaam/Zanzíbar antes de salir hacia Kenia por Namanga.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y corredor central</td><td>Songwe → Mbeya → Iringa</td><td>Carretera asfaltada principal (Great North Road / TAZARA)</td></tr><tr ><td>Desvío costero opcional</td><td>Iringa → Dar es Salaam → Zanzíbar (ferry)</td><td>2-3 noches; regreso al eje principal por la misma vía o vía Dodoma</td></tr><tr ><td>Safari y logística</td><td>Iringa/Dodoma → Arusha</td><td>Base de safaris del norte; mejor oferta de talleres y recambios</td></tr><tr ><td>Cráter y salida</td><td>Arusha → Ngorongoro → Namanga</td><td>1-2 noches en el cráter; salida hacia Kenia junto a Amboseli</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Pistas de safari dentro del Área de Conservación del Ngorongoro y el Serengeti, solo con guía/vehículo homologado del parque cuando así se exija.</li><li>El eje principal Songwe-Mbeya-Iringa-Arusha-Namanga es carretera asfaltada; el desvío a Zanzíbar requiere ferry de vehículos desde Dar es Salaam (reserva previa recomendada).</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Arusha y Karatu (puerta del Ngorongoro): campings orientados a overlanders y operadores de safari, buena oferta de aparcamiento vigilado.</li><li>Dentro del Área de Conservación del Ngorongoro: campamentos designados únicamente, sin acampada libre.</li><li>Dar es Salaam y Zanzíbar: hoteles y campings urbanos/costeros sin incidencias reportadas.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Arusha y Dar es Salaam: agua embotellada sin problema en supermercados.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): lodges de safari y campings del corredor Mbeya-Iringa-Arusha, así como hoteles de Dar es Salaam y Zanzíbar, permiten llenar el depósito con manguera; confirmar en recepción.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje previsto: Songwe → Mbeya (~120 km) → Iringa (~300 km) → Arusha (~470 km vía Dodoma) → Namanga (~110 km), todos con estaciones formales.</li><li>Mbeya, Iringa y Arusha concentran la mejor oferta y calidad del país (TotalEnergies, Puma, Oryx); repostar a fondo en Arusha antes del tramo final hacia Kenia.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>e-Visa obligatoria para ciudadanos españoles (no exentos), 50 USD, 5-10 días laborables de tramitación; visado a la llegada disponible como respaldo en los principales puestos.</li><li>Certificado internacional de fiebre amarilla exigido si se procede de zona endémica (aplica viniendo de Malaui/Mozambique).</li><li>Confirmar 30-60 días antes la vigencia exacta y si se exige el CPD también para tránsito exclusivamente por carretera.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Songwe (Malaui)</td><td>Puente sobre el río Songwe, al norte de Karonga; puesto integrado.</td></tr><tr ><td>Salida</td><td>Namanga (Kenia)</td><td>Paso de alto tránsito turístico junto al Parque de Amboseli; puesto bien equipado.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD exigido en la práctica en la frontera terrestre de Songwe — imprescindible, con todos los pares de sellos en regla.</li><li>Permiso de importación temporal (TIP) de 90 días complementario al CPD, más seguro de terceros e inspección aduanera en frontera.</li><li>Carnet de conducir internacional obligatorio en todos los controles.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Autorización previa obligatoria de la TCAA, muy restrictiva en parques nacionales</div><p>Tanzania exige permiso previo de la Tanzania Civil Aviation Authority (TCAA) para cualquier vuelo de dron, y TANAPA (Parques Nacionales de Tanzania) añade un permiso adicional y de pago para volar dentro de sus áreas — incluidos el Ngorongoro y el Serengeti, donde en la práctica rara vez se autoriza a particulares. Norma prudente del proyecto: no volar dentro de áreas protegidas sin el permiso de TANAPA en mano, y tramitar el permiso TCAA con semanas de antelación para el resto del país.</p></div><ul class=\"ticks\"><li>Tramitar el permiso TCAA con semanas de antelación para volar fuera de áreas protegidas.</li><li>No intentar volar dentro del Ngorongoro o el Serengeti sin el permiso de pago de TANAPA ya concedido.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Licencia solicitada, servicio aún no plenamente activo — tratar como en transición durante 2026</div><p>Starlink solicitó licencia en Tanzania a finales de 2024 y ha sido preseleccionada por la TCRA, con cobertura parcial ya operativa vía un acuerdo directo-a-dispositivo con Airtel Africa, pero sin servicio residencial pleno confirmado a la fecha de esta revisión. Tratar como no garantizado y llevar SIM local (Vodacom, Airtel Tanzania, Tigo) como conectividad principal; reconfirmar el estado 30-60 días antes del viaje.</p></div><ul class=\"ticks\"><li>Servicio en transición: licencia solicitada y preseleccionada por la TCRA, cobertura parcial vía acuerdo directo-a-dispositivo con Airtel, sin servicio residencial pleno confirmado a la fecha de esta revisión.</li><li>SIM local (Vodacom, Airtel Tanzania, Tigo) como conectividad principal mientras se confirma el estado de Starlink.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente y vacuna antirrábica en vigor, exigibles en frontera.</li><li>Perro prohibido en el Ngorongoro y el Serengeti; prever cuidador en Arusha o Karatu durante los días de safari.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Cráter del Ngorongoro y Serengeti</td><td><span class=\"st st-red\">prohibido</span></td><td>No se permite el acceso de mascotas a las áreas de conservación y parques nacionales; dejar con cuidador en Arusha o Karatu.</td></tr><tr ><td>Zanzíbar</td><td><span class=\"st st-amber\">no recomendado</span></td><td>Trayecto en ferry y calor húmedo intenso; sin infraestructura práctica para mascotas en la isla.</td></tr><tr ><td>Arusha, Dar es Salaam, corredor Mbeya-Iringa</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y sombra; calor elevado en la costa.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Malaria presente en todo el territorio, incluida la costa y Zanzíbar: profilaxis a valorar con Sanidad Exterior.</li><li>Fiebre amarilla: certificado exigido si se procede de zona endémica.</li><li>Muhimbili National Hospital (Dar es Salaam) como mejor referencia sanitaria; clínicas privadas de Arusha para el tramo de safaris. Seguro con evacuación médica real imprescindible en el Ngorongoro/Serengeti.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>Tanzania es un tramo estable del corredor de regreso: sin zonas excluidas, con precaución normal reforzada en el ambiente de alta afluencia turística de las zonas de safari.</p><ul class=\"ticks\"><li>Precaución normal reforzada en zonas de alta afluencia turística (robos oportunistas de bolsos/cámaras en Arusha y Zanzíbar).</li><li>En safari, seguir siempre las indicaciones del guía/ranger respecto a distancia con la fauna y horarios de circulación dentro de los parques.</li><li>Aparcamiento vigilado en Dar es Salaam y Arusha por prudencia estándar.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>CPD</td><td>Confirmar todos los pares de sellos antes de Songwe — exigencia estricta en esta frontera</td></tr><tr ><td>Starlink</td><td>Reconfirmar estado de licencia y cobertura 30-60 días antes del viaje</td></tr><tr ><td>Dron</td><td>Tramitar TCAA con semanas de antelación; descartar vuelo dentro de Ngorongoro/Serengeti salvo permiso TANAPA concedido</td></tr><tr ><td>Perro</td><td>Confirmar cuidador en Arusha/Karatu para los días de safari</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

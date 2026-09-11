@@ -1,0 +1,203 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Market%20scene%20in%20Turmi%2C%20Ethiopia%2C%202011.jpg?width=900",
+  "hero_credit": "Valle del Omo (Turmi y mercados del sur) · Josep M. Gracia · CC BY-SA 4.0",
+  "chips": [
+    [
+      "ENTRADA",
+      "Moyale (desde Kenia)"
+    ],
+    [
+      "SALIDA",
+      "Galafi (hacia Yibuti) — corredor de Sudán BLOQUEADO"
+    ],
+    [
+      "SEGURIDAD",
+      "Tigray, Amhara y Oromía: evaluación fina obligatoria"
+    ],
+    [
+      "VEHÍCULO",
+      "CPD NO aceptado — requiere patrocinio de operador etíope"
+    ],
+    [
+      "COMUNICACIONES",
+      "Starlink sin fecha prevista"
+    ],
+    [
+      "DECISIÓN",
+      "ruta hacia Egipto por Yibuti (RoRo), no por Sudán"
+    ]
+  ],
+  "historia_resumen": "Etiopía es el único país africano que nunca fue colonizado de forma duradera, heredero del antiguo reino de Aksum y de una monarquía milenaria derrocada por una revolución marxista en 1974; tres décadas de guerra civil y de independencia de Eritrea dieron paso a una relativa estabilidad que se ha visto sacudida de nuevo desde 2020 por la guerra de Tigray y tensiones en Amhara y Oromía, el motivo directo por el que este viaje traza un eje sur-este muy concreto y evita el resto del país.",
+  "historia_secciones": [
+    [
+      "Aksum y la cristiandad más antigua de África",
+      "El reino de Aksum, en el norte del actual Tigray, fue una de las grandes potencias comerciales del mundo antiguo, con moneda propia y rutas hacia el mar Rojo y el Mediterráneo. En el siglo IV adoptó el cristianismo como religión oficial —entre las primerísimas conversiones estatales del mundo—, dando origen a la Iglesia ortodoxa etíope, que conserva hoy tradiciones litúrgicas y arquitectónicas únicas, como las iglesias excavadas en roca de Lalibela."
+    ],
+    [
+      "La monarquía salomónica y la resistencia a la colonización",
+      "Durante siglos, una sucesión de emperadores reclamó descender del rey Salomón y la reina de Saba, dando a Etiopía una legitimidad dinástica poco común en el continente. En 1896, el emperador Menelik II infligió a Italia una derrota decisiva en la batalla de Adwa, la única victoria africana que frenó de forma duradera un intento de conquista colonial europea y convirtió a Etiopía en símbolo panafricano de resistencia. Italia ocupó el país brevemente entre 1936 y 1941 bajo Mussolini, pero esa ocupación nunca se consolidó como colonia plena y el emperador Haile Selassie fue restaurado con apoyo aliado."
+    ],
+    [
+      "Revolución, guerra civil e independencia de Eritrea",
+      "La monarquía de Haile Selassie fue derrocada en 1974 por una junta militar marxista (el Derg), que instauró un régimen represivo marcado por el «Terror Rojo» y una economía centralizada que agravó hambrunas devastadoras en los años 80. Una coalición de guerrillas regionales derrocó al Derg en 1991, y en 1993 Eritrea —que había luchado por su independencia durante tres décadas— se separó formalmente de Etiopía, dejando al país sin salida directa al mar."
+    ],
+    [
+      "Situación actual: la guerra de Tigray y la fragmentación regional",
+      "Etiopía vivió dos décadas de crecimiento económico notable bajo un sistema federal étnico, hasta que en 2020 estalló la guerra de Tigray entre el gobierno federal y el Frente Popular de Liberación de Tigray, uno de los conflictos más mortíferos del mundo en ese periodo. Pese a un acuerdo de paz en 2022, la inestabilidad se ha extendido a las regiones de Amhara (milicias Fano) y Oromía (insurgencia del Frente de Liberación Oromo), con actividad armada activa reportada todavía en 2026. Por eso el itinerario de este viaje se ciñe a un eje muy concreto —Moyale, Valle del Omo, Adís Abeba, Langano y Harar— y evita por completo el norte y el interior del país; ver la decisión de ruta de esta ficha."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · Ethiopia country profile",
+      "https://www.bbc.com/news/world-africa-13349398"
+    ],
+    [
+      "Encyclopaedia Britannica · Ethiopia, History",
+      "https://www.britannica.com/place/Ethiopia/History"
+    ],
+    [
+      "UNESCO · Aksum, Patrimonio de la Humanidad",
+      "https://whc.unesco.org/en/list/15/"
+    ],
+    [
+      "UNESCO · Iglesias excavadas en roca de Lalibela, Patrimonio de la Humanidad",
+      "https://whc.unesco.org/en/list/18/"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Entrada — Moyale (desde Kenia)",
+      "cat": "Frontera",
+      "lat": 3.53,
+      "lon": 39.05,
+      "info": "Carretera A2 asfaltada; el vehículo NO se admite con CPD (ver alerta de vehículos) — gestionar el patrocinio de un operador turístico etíope con antelación."
+    },
+    {
+      "name": "Frontera · Salida — Galafi (hacia Yibuti)",
+      "cat": "Frontera",
+      "lat": 11.4667,
+      "lon": 41.9333,
+      "info": "Puesto principal del corredor comercial Adís Abeba-Yibuti (el mismo que usa el ferrocarril de mercancías); bien transitado y equipado."
+    },
+    {
+      "name": "Embajada de España en Adís Abeba",
+      "cat": "Consular",
+      "lat": 9.028,
+      "lon": 38.76,
+      "info": "Haile Melekot Street, Gullele Subcity, Woreda 01, House Nº 036, P.O. Box 2312, Addis Abeba. Tel. +251 111222542 · Emergencia consular 24h: +251 911 219 403 · emb.addisabeba.consu@maec.es. También acreditada en Yibuti y Seychelles."
+    },
+    {
+      "name": "Black Lion Hospital, Adís Abeba",
+      "cat": "Hospital",
+      "lat": 9.035,
+      "lon": 38.75,
+      "info": "Principal hospital de referencia del país; mejor opción sanitaria del tramo junto con clínicas privadas de la capital."
+    },
+    {
+      "name": "Combustible · Adís Abeba / eje Moyale-Harar",
+      "cat": "Combustible",
+      "lat": 9.025,
+      "lon": 38.7469,
+      "info": "Estaciones formales (NOC, Total) en las ciudades principales del eje sur-Adís Abeba-Harar; repostar a fondo en cada ciudad antes de tramos rurales largos."
+    },
+    {
+      "name": "Agua potable y de uso general · Adís Abeba",
+      "cat": "Agua potable",
+      "lat": 9.025,
+      "lon": 38.7469,
+      "info": "Agua embotellada sin problema en supermercados de la capital; hoteles y lodges de Langano y Harar permiten llenar el depósito de uso general con manguera."
+    }
+  ],
+  "sources": [
+    [
+      "U.S. Embassy Ethiopia · avisos de viaje 2026",
+      "https://et.usembassy.gov/travel-advisory-ethiopia-august-27-2026/"
+    ],
+    [
+      "travelwarningcheck.com · situación de seguridad por región en Etiopía 2026",
+      "https://www.travelwarningcheck.com/travel-advisory/ethiopia"
+    ],
+    [
+      "Great Ethiopian Tours · entrada con vehículo propio por Moyale (patrocinio de operador, sin CPD)",
+      "https://www.greatethiopiantours.com/enter-ethiopia-with-a-foreign-vehicle-via-moyale-border-crossing/"
+    ],
+    [
+      "Embajada de España en Adís Abeba · contacto",
+      "https://www.exteriores.gob.es/Embajadas/addisabeba/es/Embajada/Paginas/Contacto.aspx"
+    ],
+    [
+      "tech.africa · Starlink en África, estado por país 2026",
+      "https://tech.africa/starlink-africa/"
+    ],
+    [
+      "UNESCO · Ciudad histórica fortificada de Harar Jugol",
+      "https://whc.unesco.org/en/list/1189/"
+    ],
+    [
+      "Overlanding Association · Shipping around Ethiopia (alternativas marítimas al corredor de Sudán)",
+      "https://overlandingassociation.org/overland-wiki/shipping-around-ethiopia/"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. La decisión sobre el corredor de Sudán debe revalidarse activamente antes del viaje.",
+  "emergency": "Emergencia consular española (Adís Abeba, 24h): +251 911 219 403 · Embajada de España en Adís Abeba: +251 111222542.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<div class=\"callout \"><div class=\"callout-title\">Decisión de ruta</div><p>La guerra civil de Sudán (activa desde 2023, sin alto el fuego a mediados de 2026) bloquea por completo el corredor terrestre histórico Etiopía→Sudán→Egipto: las fronteras no son fiables ni planificables mientras dure el conflicto. Decisión del proyecto: NO intentar el corredor de Sudán bajo ninguna circunstancia mientras persista la guerra civil. La alternativa adoptada es desviar la ruta hacia el este, saliendo de Etiopía por Galafi hacia Yibuti, y desde el puerto de Yibuti (o, en su defecto, desde Adís Abeba con transporte a puerto) contratar un envío marítimo RoRo o en contenedor del vehículo hacia Egipto (vía Arabia Saudí en tránsito) o directamente hacia Europa, mientras la tripulación vuela por separado. Esta decisión debe revisarse activamente 30-60 días antes del tramo final: si el conflicto de Sudán se resolviera con garantías suficientes, se podría reevaluar el corredor terrestre clásico; en caso contrario, Yibuti-mar es la ruta de referencia del proyecto — ver también la ficha de Yibuti y la de Egipto.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Último país de tránito terrestre pleno del corredor de regreso antes de la decisión marítima.</td></tr><tr ><td>Entrada</td><td>Moyale desde Kenia, carretera A2 asfaltada.</td></tr><tr ><td>Salida</td><td>Galafi hacia Yibuti — NO se intenta el corredor de Sudán (ver decisión de ruta).</td></tr><tr ><td>Seguridad</td><td>Tigray, Amhara y Oromía: conflicto/inestabilidad activos — evitar por completo salvo el eje sur-Adís Abeba-Harar validado.</td></tr><tr ><td>Vehículo</td><td>CPD no aceptado en la práctica: se exige patrocinio de un operador turístico etíope licenciado y un Temporary Import Permit tramitado por él.</td></tr><tr ><td>Comunicaciones</td><td>Starlink sin fecha prevista de licencia; SIM local imprescindible.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Tigray, Amhara y Oromía:</strong> conflicto armado y actividad insurgente activos a mediados de 2026 — excluidos del itinerario; el eje del proyecto (Moyale-Valle del Omo-Adís Abeba-Langano-Harar-Galafi) los evita, pero revalidar 30-60 días antes.</li><li><strong>Corredor de Sudán:</strong> BLOQUEADO por la guerra civil — no planificar ninguna variante que lo atraviese mientras dure el conflicto.</li><li><strong>Vehículo:</strong> gestionar el patrocinio del operador etíope y el permiso de Aduanas de Adís Abeba con semanas de antelación; no presentarse en Moyale sin esta documentación resuelta.</li><li><strong>Valle del Omo:</strong> fotografiar personas solo con consentimiento explícito y, cuando así se acostumbre, la contribución acordada; ir siempre con guía local.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Etiopía es el único país africano que nunca fue colonizado de forma duradera, heredero del antiguo reino de Aksum y de una monarquía milenaria derrocada por una revolución marxista en 1974; tres décadas de guerra civil y de independencia de Eritrea dieron paso a una relativa estabilidad que se ha visto sacudida de nuevo desde 2020 por la guerra de Tigray y tensiones en Amhara y Oromía, el motivo directo por el que este viaje traza un eje sur-este muy concreto y evita el resto del país.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Etiopía →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Entrada por Moyale y el Valle del Omo, base logística y de decisión en Adís Abeba, descanso en el lago Langano y cierre cultural en Harar antes de salir hacia Yibuti por Galafi — evitando por completo el corredor de Sudán.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y cultura</td><td>Moyale → Valle del Omo (Turmi)</td><td>Mercados tradicionales; guía local obligatorio</td></tr><tr ><td>Capital y decisión</td><td>Turmi → Adís Abeba</td><td>Embajada española; gestión del envío marítimo hacia Egipto/Europa</td></tr><tr ><td>Descanso</td><td>Adís Abeba → Lago Langano</td><td>Transición hacia el este; apto para el baño</td></tr><tr ><td>Cultura y salida</td><td>Langano → Harar → Galafi</td><td>Ciudad amurallada UNESCO; salida hacia Yibuti</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Pistas de tierra en el tramo Moyale-Turmi del Valle del Omo, transitables con 4x4 en estación seca; el resto del eje previsto (Adís Abeba-Langano-Harar-Galafi) es carretera asfaltada.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Turmi: campings y lodges orientados a visitantes del Valle del Omo, con guías locales disponibles in situ.</li><li>Langano: lodges y campings de playa lacustre, opción de descanso real tras el tramo sur.</li><li>Harar: hoteles dentro y fuera de la muralla; sin acampada libre recomendada en el casco histórico.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Adís Abeba: agua embotellada sin problema en supermercados.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): hoteles y lodges de Langano y Harar permiten llenar el depósito con manguera; en el Valle del Omo, confirmar con el guía/lodge local antes de dar por hecho un punto.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje previsto: Moyale → Turmi (~90 km) → Adís Abeba (~600 km) → Langano (~200 km) → Harar (~370 km) → Galafi (~330 km), todos con estaciones formales salvo el tramo final más rural hacia Galafi.</li><li>Repostar a fondo en Harar antes de Galafi: la oferta en el tramo final hacia la frontera de Yibuti es más escasa.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>e-Visa obligatoria para ciudadanos españoles, tramitada online con antelación.</li><li>Certificado internacional de fiebre amarilla exigido si se procede de zona endémica (aplica viniendo de Kenia).</li><li>Confirmar 30-60 días antes la situación de seguridad exacta por región antes de fijar el itinerario definitivo.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Moyale (Kenia)</td><td>Carretera A2 asfaltada; gestionar patrocinio de operador etíope antes de llegar.</td></tr><tr ><td>Salida</td><td>Galafi (Yibuti)</td><td>Corredor comercial principal Adís Abeba-Yibuti; puesto bien equipado.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>El CPD NO se acepta en la práctica en Etiopía: es imprescindible contratar a un operador turístico etíope licenciado que actúe como patrocinador, obtenga el permiso del Ministerio de Turismo y tramite el Temporary Import Permit ante la Aduana de Adís Abeba.</li><li>Solicitar también una carta de la Embajada de Etiopía en Nairobi dirigida a aduanas, antes de presentarse en Moyale.</li><li>Seguro de terceros local obligatorio, gestionado normalmente por el propio operador patrocinador.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Prohibición de facto y muy alta sensibilidad militar</div><p>Etiopía mantiene un contexto de conflicto interno activo en varias regiones y una notable sensibilidad hacia cualquier aeronave no tripulada; en la práctica no se conceden autorizaciones a particulares y el riesgo de confiscación o problemas legales es alto. Norma del proyecto: no volar el dron en ningún punto del país sin una autorización oficial explícita y verificada por escrito.</p></div><ul class=\"ticks\"><li>No volar el dron en ningún punto del país sin autorización oficial explícita y verificada por escrito.</li><li>Máxima discreción cerca de cualquier instalación gubernamental o militar, especialmente en Adís Abeba.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Sin fecha prevista de licencia a mediados de 2026</div><p>Etiopía figura entre los países africanos sin fecha prevista de aprobación de licencia para Starlink a mediados de 2026. Tratar como no disponible y llevar SIM local (Ethio Telecom, Safaricom Ethiopia) como conectividad principal en todo el país.</p></div><ul class=\"ticks\"><li>Sin fecha prevista de licencia a mediados de 2026: tratar como no disponible en todo el país.</li><li>SIM local (Ethio Telecom, Safaricom Ethiopia) como conectividad principal.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente y vacuna antirrábica en vigor, exigibles en frontera.</li><li>No recomendado en el Valle del Omo por la logística de las visitas culturales y el calor; valorar dejarlo con cuidador en Adís Abeba durante ese tramo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Valle del Omo</td><td><span class=\"st st-amber\">no recomendado</span></td><td>Desplazamientos largos por pista, calor y logística de visitas culturales incompatibles con llevar mascota; valorar dejarla en Adís Abeba con cuidador.</td></tr><tr ><td>Adís Abeba, Langano, Harar</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y sombra; clima templado en la capital y Langano, más caluroso en Harar.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Malaria presente en tierras bajas (incluido el Valle del Omo y el corredor hacia Yibuti); menor riesgo en Adís Abeba por altitud. Profilaxis a valorar con Sanidad Exterior.</li><li>Fiebre amarilla: certificado exigido si se procede de zona endémica.</li><li>Black Lion Hospital (Adís Abeba) como mejor referencia sanitaria del tramo; seguro con evacuación médica real imprescindible fuera de la capital.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>Etiopía combina un eje sur-este manejable (Moyale-Valle del Omo-Adís Abeba-Langano-Harar) con varias regiones en conflicto activo (Tigray, Amhara, Oromía) que quedan fuera de cualquier variante de esta ruta.</p><ul class=\"ticks\"><li>No desviarse hacia Tigray, Amhara ni el interior de Oromía bajo ninguna circunstancia mientras persista la inestabilidad reportada.</li><li>Revalidar la situación de seguridad de todo el eje previsto 30-60 días antes del viaje, con fuentes oficiales y locales.</li><li>En Adís Abeba, evitar zonas de concentración de protestas y seguir indicaciones de la embajada ante cualquier incidente.</li><li>En el Valle del Omo, moverse siempre con guía local y evitar desplazamientos nocturnos por pista.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Vehículo</td><td>Cerrar el patrocinio del operador etíope y el TIP antes de llegar a Moyale</td></tr><tr ><td>Corredor de Sudán</td><td>Confirmar que sigue bloqueado 30-60 días antes; si no, reevaluar con el proyecto</td></tr><tr ><td>Envío marítimo</td><td>Reservar el RoRo/contenedor desde Yibuti hacia Egipto o Europa con antelación suficiente</td></tr><tr ><td>Seguridad regional</td><td>Revalidar Tigray/Amhara/Oromía justo antes del viaje</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

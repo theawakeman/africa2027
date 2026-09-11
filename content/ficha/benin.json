@@ -1,0 +1,202 @@
+{
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Marché%20Dantokpa%201.jpg?width=900",
+  "hero_credit": "Cotonou (Mercado de Dantokpa) · Alacoolwiki · CC BY 4.0",
+  "chips": [
+    [
+      "ENTRADA",
+      "Hillacondji/Sanvee-Condji (desde Togo)"
+    ],
+    [
+      "SALIDA",
+      "Kraké/Seme (hacia Nigeria)"
+    ],
+    [
+      "SEGURIDAD",
+      "estable en el sur · precaución en el norte (Pendjari/W)"
+    ],
+    [
+      "FRONTERA TERRESTRE",
+      "Kraké/Seme, la más transitada de la subregión"
+    ],
+    [
+      "VISADO NIGERIA",
+      "tramitar ANTES de llegar a Kraké — sin visado en frontera"
+    ],
+    [
+      "REVALIDACIÓN",
+      "30–60 días antes"
+    ]
+  ],
+  "historia_resumen": "Benín fue el corazón del poderoso reino de Dahomey, temido por su ejército y tristemente célebre por su papel en la trata negrera atlántica desde el «Puerto de No Retorno» de Ouidah; hoy es reconocido como uno de los grandes bastiones democráticos de África Occidental desde su pionera transición pacífica del socialismo al multipartidismo en 1990, y sigue siendo cuna del vudú, religión que aquí tiene su origen histórico y su reconocimiento oficial.",
+  "historia_secciones": [
+    [
+      "El reino de Dahomey y su ejército de amazonas",
+      "El reino de Dahomey, con capital en Abomey, se consolidó desde el siglo XVII como una de las potencias militares más organizadas de África Occidental, célebre por su cuerpo de guerreras (las «amazonas» de Dahomey) y por un Estado centralizado que sostenía su economía en gran medida sobre la captura y venta de esclavos a comerciantes europeos en la costa."
+    ],
+    [
+      "Ouidah y el «Puerto de No Retorno»",
+      "La ciudad costera de Ouidah fue uno de los mayores puertos de embarque de esclavos hacia América durante los siglos XVII a XIX, un pasado hoy conmemorado en la «Ruta de los Esclavos» y su monumento del Puerto de No Retorno; Ouidah es también, junto con Abomey, uno de los grandes centros espirituales del vudú, religión reconocida oficialmente en Benín y con festival nacional propio."
+    ],
+    [
+      "Colonia francesa y la efímera «República Popular de Benín»",
+      "Francia colonizó el territorio como Dahomey a finales del siglo XIX, integrándolo en el África Occidental Francesa; tras la independencia en 1960, el país vivió una notable inestabilidad con varios golpes de Estado hasta que el militar Mathieu Kérékou instauró en 1972 un régimen marxista-leninista de partido único, renombrando el país República Popular de Benín en 1975."
+    ],
+    [
+      "Situación actual: pionero de la transición democrática africana",
+      "En 1990, Benín fue pionero al organizar una «Conferencia Nacional» que condujo pacíficamente del marxismo al multipartidismo, un modelo que después inspiraría transiciones similares en otros países africanos; el propio Kérékou aceptó la derrota electoral en 1991, un hecho poco común en la época, y desde entonces el país mantiene una de las democracias más estables de la región, aunque con tensiones recientes en torno a reformas constitucionales."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · Benin country profile",
+      "https://www.bbc.com/news/world-africa-13037572"
+    ],
+    [
+      "UNESCO · Palacios reales de Abomey",
+      "https://whc.unesco.org/en/list/323/"
+    ],
+    [
+      "Encyclopaedia Britannica · Benin, History",
+      "https://www.britannica.com/place/Benin"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Frontera · Entrada — Hillacondji/Sanvee-Condji (desde Togo)",
+      "cat": "Frontera",
+      "lat": 6.1667,
+      "lon": 1.6333,
+      "info": "Puesto conjunto (yuxtapuesto) entre Togo y Benín; cruzar por la mañana, el tráfico comercial se satura al mediodía."
+    },
+    {
+      "name": "Frontera · Salida — Kraké/Seme (hacia Nigeria)",
+      "cat": "Frontera",
+      "lat": 6.3697,
+      "lon": 2.7275,
+      "info": "Paso más transitado de África Occidental hacia Lagos; alta congestión y controles múltiples. Tramitar el visado nigeriano ANTES de llegar — no existe visado en frontera para turismo."
+    },
+    {
+      "name": "Embajada de España en Abuja (acreditada también en Benín)",
+      "cat": "Consular",
+      "lat": 9.0579,
+      "lon": 7.4951,
+      "info": "Nigeria y Benín comparten demarcación consular española desde Abuja. Contacto y cita previa por la embajada de Abuja; Cotonou dispone solo de gestión honoraria puntual — confirmar canal exacto antes del viaje."
+    },
+    {
+      "name": "CNHU-HKM (Centre National Hospitalier Universitaire) — Cotonou",
+      "cat": "Hospital",
+      "lat": 6.3667,
+      "lon": 2.4333,
+      "info": "Principal hospital universitario y de referencia del país. Coordenada urbana aproximada."
+    },
+    {
+      "name": "Combustible · Cotonou",
+      "cat": "Combustible",
+      "lat": 6.3703,
+      "lon": 2.3912,
+      "info": "Mejor oferta y calidad del país (Total, Oryx, Petro Ivoire); repostar aquí antes del tramo final hacia Kraké/Nigeria."
+    },
+    {
+      "name": "Combustible · Uidá / Abomey",
+      "cat": "Combustible",
+      "lat": 6.3667,
+      "lon": 2.0333,
+      "info": "Estaciones formales en el eje Cotonou-Uidá-Abomey, sin problema de suministro en el itinerario previsto."
+    },
+    {
+      "name": "Agua potable y de uso general · Cotonou",
+      "cat": "Agua potable",
+      "lat": 6.3703,
+      "lon": 2.3912,
+      "info": "Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Cotonou y Uidá permiten llenar el depósito de uso general con manguera."
+    }
+  ],
+  "sources": [
+    [
+      "Scoot West Africa · guía de visados de África Occidental",
+      "https://scootwestafrica.com/guide-visas/"
+    ],
+    [
+      "Scoot West Africa · cruce de Seme/Kraké con e-visa nigeriano",
+      "https://scootwestafrica.com/crossing-at-seme-krake-with-an-e-visa-for-nigeria/"
+    ],
+    [
+      "ECOWAS Brown Card · esquema regional de seguro (CEDEAO)",
+      "https://www.browncard.org/"
+    ],
+    [
+      "Embajada de España en Nigeria, Benín y CEDEAO (Abuja)",
+      "https://www.exteriores.gob.es/Embajadas/abuja/es/Paginas/index.aspx"
+    ],
+    [
+      "UNESCO · Palacios Reales de Abomey",
+      "https://whc.unesco.org/en/list/323/"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ],
+    [
+      "Tracks4Africa · cartografía y puntos overland de África",
+      "https://tracks4africa.co.za/"
+    ]
+  ],
+  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
+  "emergency": "Policía 117 · Bomberos/Ambulancia 118 · Emergencia consular española (Embajada Abuja): consultar teléfono vigente en exteriores.gob.es antes de viajar.",
+  "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
+  "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<p>Benín concentra en poco espacio algunos de los puntos históricos más importantes del golfo de Guinea: Uidá y la Puerta del No Retorno (memoria de la trata atlántica y cuna del vudú), el poblado lacustre de Ganvié y los Palacios Reales de Abomey (UNESCO), con Cotonou como base logística antes de cruzar a Nigeria por Kraké/Seme, el paso más transitado — y el que exige más planificación previa de todo el tramo.</p><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Dentro del corredor de bajada, tras Togo y antes de Nigeria.</td></tr><tr ><td>Entrada</td><td>Hillacondji/Sanvee-Condji desde Togo: puesto conjunto, cruzar por la mañana.</td></tr><tr ><td>Salida</td><td>Kraké/Seme hacia Nigeria: paso más transitado de la subregión; visado nigeriano imprescindible ANTES de llegar.</td></tr><tr ><td>Visado Nigeria</td><td>No existe visado de turismo en frontera — tramitar el e-Visa o visado consular con semanas de antelación.</td></tr><tr ><td>Seguridad</td><td>Estable en el sur (Cotonou-Uidá-Abomey-Ganvié); el norte (parques de Pendjari y W, frontera con Burkina Faso/Níger) fuera del itinerario por riesgo yihadista transfronterizo del Sahel.</td></tr><tr ><td>Comunicaciones</td><td>Starlink sin confirmar en el país; SIM local (MTN Bénin, Moov) como base.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Visado de Nigeria:</strong> NO se emite en la frontera de Kraké/Seme para turismo — tramitarlo por e-Visa o consulado antes de salir de España o desde Cotonou, con margen de varias semanas.</li><li>Norte de Benín (parques de Pendjari y W, frontera con Burkina Faso y Níger): fuera del itinerario previsto por el riesgo de incursiones yihadistas transfronterizas del Sahel, extendido a esta zona en los últimos años.</li><li><strong>Ganvié:</strong> perro prohibido en piraguas y viviendas — planificar cuidado en Cotonou antes de la visita.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Benín fue el corazón del poderoso reino de Dahomey, temido por su ejército y tristemente célebre por su papel en la trata negrera atlántica desde el «Puerto de No Retorno» de Ouidah; hoy es reconocido como uno de los grandes bastiones democráticos de África Occidental desde su pionera transición pacífica del socialismo al multipartidismo en 1990, y sigue siendo cuna del vudú, religión que aquí tiene su origen histórico y su reconocimiento oficial.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Benín →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Tramo del sur de Benín, entre las dos fronteras de Togo y Nigeria, con desvío a Abomey.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y costa histórica</td><td>Hillacondji → Uidá → Cotonou</td><td>Puerta del No Retorno; base logística en Cotonou</td></tr><tr ><td>Desvío histórico</td><td>Cotonou → Abomey (Palacios Reales)</td><td>UNESCO; ida y vuelta desde Cotonou o de paso hacia el norte corto</td></tr><tr ><td>Poblado lacustre</td><td>Cotonou → Ganvié</td><td>Piragua con guía local; perro prohibido a bordo</td></tr><tr ><td>Hacia Nigeria</td><td>Cotonou → Kraké/Seme</td><td>Paso más transitado de la subregión; visado nigeriano ya tramitado</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Sin pistas 4x4 destacadas de interés específico para el proyecto: el eje Hillacondji-Cotonou-Abomey-Kraké es carretera asfaltada en buen estado.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Cotonou: alojamientos con parking vigilado, opción más práctica que la acampada libre en la capital económica.</li><li>Uidá/Abomey: pequeños hoteles con aparcamiento cerca de los sitios históricos.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Cotonou y Uidá: agua embotellada en supermercados y tiendas sin problema de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): estaciones de servicio de Cotonou y los hoteles de Uidá y Abomey permiten llenar el depósito con manguera; confirmar en recepción.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km: Hillacondji → Cotonou (~85 km) → Abomey (~140 km, desvío) → Ganvié (~20 km) → Kraké/Seme (~35 km), todos con estaciones formales.</li><li>Repostar en Cotonou antes del desvío a Abomey y antes del tramo final hacia Kraké: mejor oferta y calidad del país.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>Visado electrónico (e-Visa) beninés previo obligatorio para ciudadanos españoles; tramitar con antelación.</li><li>Visado nigeriano: imprescindible antes de llegar a Kraké/Seme — no hay visado de turismo en frontera; el visado de llegada (visa on arrival) en Nigeria está limitado a negocios con invitación y no aplica a la mayoría de overlanders.</li><li>Certificado internacional de fiebre amarilla exigido en frontera.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Hillacondji/Sanvee-Condji (Togo)</td><td>Puesto conjunto (yuxtapuesto); cruzar por la mañana, tráfico comercial satura el mediodía.</td></tr><tr ><td>Salida</td><td>Kraké/Seme (Nigeria)</td><td>Paso más transitado de la subregión hacia Lagos; alta congestión y controles múltiples; visado nigeriano ya tramitado es obligatorio.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD con todos los pares de sellos en regla; Carte Brune CEDEAO como seguro de responsabilidad civil regional.</li><li>Carnet de conducir internacional obligatorio en todos los controles.</li><li>Documentación del vehículo en copias adicionales para el paso de Kraké/Seme, el más exigente en revisión documental del tramo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout warn\"><div class=\"callout-title\">Autorización previa obligatoria: tratar como restringido</div><p>Benín no publica un procedimiento civil turístico simple y estable para drones; la Autorité Nationale de l'Aviation Civile (ANAC-Bénin) exige autorización previa para cualquier vuelo. Norma prudente del proyecto: no volar sin permiso escrito, mantener el equipo declarable, y evitar zonas cercanas a fronteras, instalaciones militares y áreas protegidas (Pendjari, W).</p></div><ul class=\"ticks\"><li>Solicitar autorización previa por escrito a la ANAC-Bénin antes de intentar introducir el dron en el país.</li><li>No volar en Pendjari, W ni cerca de fronteras o instalaciones militares, tampoco con autorización genérica.</li></ul>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout warn\"><div class=\"callout-title\">No disponible / estado no confirmado a mediados de 2026</div><p>Benín no figura de forma consistente entre los mercados africanos con Starlink activo en las listas de expansión revisadas a mediados de 2026. Tratarlo como no disponible hasta confirmación oficial y mantener SIM local (MTN Bénin, Moov) como conectividad principal.</p></div><ul class=\"ticks\"><li>Estado no confirmado a mediados de 2026: revisar el mapa oficial 30-60 días antes de la entrada.</li><li>SIM local (MTN Bénin, Moov) como conectividad principal en Cotonou y el eje sur.</li></ul>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente (&lt;10 días) y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Sin requisitos adicionales específicos identificados más allá de los comunes del proyecto (microchip, pasaporte UE, titulación de anticuerpos ya obtenida antes de salir de la UE).</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Ganvié (piraguas y viviendas palafíticas)</td><td><span class=\"st st-red\">prohibido</span></td><td>Dejar el perro en Cotonou con cuidador o rotación entre los viajeros durante la visita.</td></tr><tr ><td>Cotonou, Uidá, Abomey</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y sombra; tráfico denso en Cotonou.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Fiebre amarilla: certificado internacional obligatorio para la entrada.</li><li>Malaria presente en todo el territorio: profilaxis a valorar con Sanidad Exterior.</li><li>CNHU-HKM (Cotonou) como referencia hospitalaria del tramo; seguro con evacuación médica imprescindible.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>Sur de Benín (Cotonou-Uidá-Abomey-Ganvié) estable con precaución normal; el norte del país queda fuera del itinerario por el riesgo yihadista transfronterizo del Sahel.</p><ul class=\"ticks\"><li>No desviarse hacia el norte del país (Pendjari, W, fronteras con Burkina Faso y Níger) por la situación de seguridad regional.</li><li>Preparar toda la documentación (vehículo, visados, CPD) antes de llegar a Kraké/Seme: es el control más exhaustivo del tramo.</li><li>Llevar siempre el certificado de fiebre amarilla y copias de la documentación del vehículo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "Validación y decisiones",
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado Nigeria</td><td>Tramitar con semanas de antelación — condiciona toda la salida por Kraké/Seme</td></tr><tr ><td>Visado Benín</td><td>Tramitar el e-Visa beninés con margen suficiente</td></tr><tr ><td>Dron</td><td>Contactar con la ANAC-Bénin o descartar el vuelo en el país</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ]
+  ]
+}

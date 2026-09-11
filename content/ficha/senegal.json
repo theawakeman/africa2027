@@ -1,0 +1,325 @@
+{
+  "hero_img": "assets/img/senegal/01.jpg",
+  "hero_credit": "Delta del Saloum · Unión Europea, Copernicus Sentinel-2",
+  "chips": [
+    [
+      "CORREDOR",
+      "Diama → Kalifourou"
+    ],
+    [
+      "RITMO",
+      "17–21 días"
+    ],
+    [
+      "SEGURIDAD",
+      "<span class=\"st st-amber\">precaución en este y Casamance</span>"
+    ],
+    [
+      "FRONTERA TERRESTRE",
+      "<span class=\"st st-grey\">abierta · verificar antes</span>"
+    ],
+    [
+      "CPD",
+      "<span class=\"st st-amber\">recomendado</span>"
+    ],
+    [
+      "REVALIDACIÓN",
+      "dic 2026"
+    ]
+  ],
+  "historia_resumen": "Senegal es, junto con Costa de Marfil y Ghana, uno de los países más estables democráticamente de África Occidental, con un pasado marcado por los grandes imperios sahelianos, el trauma de la trata negrera atlántica desde la isla de Gorea, un colonialismo francés que hizo de Dakar su capital para toda el África Occidental Francesa, y una tradición ininterrumpida desde 1960 de transiciones de poder sin golpes de Estado, poco común en la región.",
+  "historia_secciones": [
+    [
+      "Imperios sahelianos y el reino de Yolof",
+      "El territorio formó parte de la periferia de grandes imperios sahelianos como Ghana y Mali, y albergó el reino de Yolof (o Djolof), una confederación de reinos wólof que dominó la región entre los siglos XIV y XVI antes de fragmentarse en entidades más pequeñas como Cayor y Baol."
+    ],
+    [
+      "Gorea y la trata atlántica de esclavos",
+      "La isla de Gorea, frente a Dakar y hoy Patrimonio de la Humanidad de la UNESCO, fue uno de los mayores puntos de partida de la trata negrera atlántica entre los siglos XV y XIX, con la llamada «Casa de los Esclavos» como testimonio conmovedor de ese comercio, gestionado sucesivamente por portugueses, holandeses, ingleses y franceses."
+    ],
+    [
+      "Colonia francesa y capital de la AOF",
+      "Francia consolidó su control sobre Senegal a lo largo del siglo XIX, convirtiendo Dakar en 1902 en la capital de todo el África Occidental Francesa (AOF), un conjunto de ocho colonias; Senegal disfrutó de un estatus administrativo algo distinto a otras colonias, con representación parlamentaria en París desde 1848 para los habitantes de las «cuatro comunas», un precedente temprano poco habitual en el África colonial."
+    ],
+    [
+      "Independencia y una tradición democrática poco común",
+      "Senegal se independizó en 1960 bajo el poeta-presidente Léopold Sédar Senghor, y ha mantenido desde entonces, con la excepción de tensiones puntuales, una tradición de alternancia democrática pacífica sin golpes de Estado militares, algo excepcional en la región; el conflicto de baja intensidad en la región sureña de Casamance, activo desde los años ochenta, se ha ido apagando en la última década sin llegar a afectar al eje turístico principal del país."
+    ]
+  ],
+  "historia_fuentes": [
+    [
+      "BBC News · Senegal country profile",
+      "https://www.bbc.com/news/world-africa-14093674"
+    ],
+    [
+      "UNESCO · Isla de Gorea, Patrimonio de la Humanidad",
+      "https://whc.unesco.org/en/list/26/"
+    ],
+    [
+      "Encyclopaedia Britannica · Senegal, History",
+      "https://www.britannica.com/place/Senegal/History"
+    ]
+  ],
+  "logistics": [
+    {
+      "name": "Embajada de España en Dakar",
+      "cat": "Consular",
+      "lat": 14.6604,
+      "lon": -17.4352,
+      "info": "+221 33 889 65 80 / +221 33 821 30 81 · emb.dakar@maec.es"
+    },
+    {
+      "name": "Consulado General de España en Dakar",
+      "cat": "Consular",
+      "lat": 14.7032,
+      "lon": -17.4702,
+      "info": "+221 33 869 07 07 · emergencia +221 77 569 28 89 · cog.dakar@maec.es"
+    },
+    {
+      "name": "Hôpital Principal de Dakar",
+      "cat": "Hospital",
+      "lat": 14.66128,
+      "lon": -17.43479,
+      "info": "Urgencias; 1 Avenue Nelson Mandela. SAMU: 1515; confirmar antes de desplazarse."
+    },
+    {
+      "name": "Centre Hospitalier Régional de Saint-Louis",
+      "cat": "Hospital",
+      "lat": 16.02284,
+      "lon": -16.50597,
+      "info": "+221 77 289 02 44 · Boulevard Abdoulaye Mar Diop."
+    },
+    {
+      "name": "Centre Hospitalier Régional de Tambacounda",
+      "cat": "Hospital",
+      "lat": 13.75328,
+      "lon": -13.67261,
+      "info": "+221 33 981 10 28 / +221 33 981 12 18."
+    },
+    {
+      "name": "Centre Hospitalier Régional Amath Dansokho — Kédougou",
+      "cat": "Hospital",
+      "lat": 12.552,
+      "lon": -12.185,
+      "info": "+221 78 163 78 39 · coordenada urbana aproximada."
+    },
+    {
+      "name": "Centre de santé de Ranérou",
+      "cat": "Hospital",
+      "lat": 15.29808,
+      "lon": -13.96239,
+      "info": "Capacidad limitada; coordenada provisional; no sustituye evacuación."
+    },
+    {
+      "name": "Paso fronterizo Kalifourou — salida hacia Guinea",
+      "cat": "Frontera",
+      "lat": 12.92415,
+      "lon": -13.63848,
+      "info": "Control senegalés del corredor base; revalidar apertura, horario y trámites."
+    },
+    {
+      "name": "Paso fronterizo Boundou Fourdou–Sambaïlo — entrada en Guinea",
+      "cat": "Frontera",
+      "lat": 12.58241,
+      "lon": -13.37191,
+      "info": "Entrada guineana hacia Koundara; posición operativa a confirmar."
+    },
+    {
+      "name": "Paso Karang–Amdalai — Senegal/Gambia (alternativa)",
+      "cat": "Frontera",
+      "lat": 13.59169,
+      "lon": -16.42208,
+      "info": "No forma parte del corredor base."
+    },
+    {
+      "name": "Paso Keur Ayib–Farafenni — Senegal/Gambia (alternativa)",
+      "cat": "Frontera",
+      "lat": 13.59335,
+      "lon": -15.60578,
+      "info": "No forma parte del corredor base."
+    },
+    {
+      "name": "Combustible · Saint-Louis",
+      "cat": "Combustible",
+      "lat": 16.0294,
+      "lon": -16.4894,
+      "info": "Estaciones formales (Total, Elton, Shell) en la entrada de la ciudad; repostar tras la frontera de Diama."
+    },
+    {
+      "name": "Combustible · Dakar",
+      "cat": "Combustible",
+      "lat": 14.7167,
+      "lon": -17.4677,
+      "info": "Mejor oferta y calidad del país; repostar aquí antes del bloque del Ferlo o del Saloum."
+    },
+    {
+      "name": "Combustible · Tambacounda",
+      "cat": "Combustible",
+      "lat": 13.7667,
+      "lon": -13.6667,
+      "info": "Última ciudad grande con oferta amplia antes de Kédougou y el bloque oriental."
+    },
+    {
+      "name": "Combustible · Kédougou",
+      "cat": "Combustible",
+      "lat": 12.5578,
+      "lon": -12.174,
+      "info": "Estaciones formales limitadas; repostar a fondo antes de Bandafassi, Iwol y Dindéfelo."
+    },
+    {
+      "name": "Agua potable · Dakar, Saint-Louis, Tambacounda (supermercados y garrafas)",
+      "cat": "Agua potable",
+      "lat": 14.7167,
+      "lon": -17.4677,
+      "info": "Agua embotellada disponible en las ciudades principales del itinerario; en el bloque del Ferlo y del Bassari, cargar reserva completa antes de salir de Kédougou o Ranérou."
+    }
+  ],
+  "sources": [
+    [
+      "MAEC España · Recomendaciones de viaje Senegal",
+      "https://www.exteriores.gob.es/Embajadas/dakar/es/ViajarA/Paginas/Recomendaciones-de-viaje.aspx"
+    ],
+    [
+      "France Diplomatie · Sécurité Sénégal",
+      "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/senegal/"
+    ],
+    [
+      "FCDO Reino Unido · Regional risks",
+      "https://www.gov.uk/foreign-travel-advice/senegal/regional-risks"
+    ],
+    [
+      "FCDO Reino Unido · Safety and security",
+      "https://www.gov.uk/foreign-travel-advice/senegal/safety-and-security"
+    ],
+    [
+      "Embajada de España en Dakar · contacto",
+      "https://www.exteriores.gob.es/Embajadas/dakar/es/Embajada/Paginas/Contacto.aspx"
+    ],
+    [
+      "Consulado General de España en Dakar · contacto",
+      "https://www.exteriores.gob.es/Consulados/dakar/es/Consulado/Paginas/Horario%2C-Localizacion-y-Contacto.aspx"
+    ],
+    [
+      "Aduanas de Senegal · importación temporal",
+      "https://www.douanes.sn/ndn217/?lang=en"
+    ],
+    [
+      "Aduanas de Senegal · admisión temporal excepcional",
+      "https://www.douanes.sn/benefit-from-the-exceptional-temporary-admission-eta/"
+    ],
+    [
+      "RACE · Carnet de Passages en Douane",
+      "https://www.race.es/servicios/carnet-de-passages"
+    ],
+    [
+      "CEDEAO · Estados de la Carte Brune",
+      "https://www.cartebrune.org/-Etats-Membres-.html"
+    ],
+    [
+      "Dirección de Parques Nacionales de Senegal · ecoturismo",
+      "https://www.dpn.sn/ecotourisme/"
+    ],
+    [
+      "UNESCO · Senegal",
+      "https://whc.unesco.org/en/statesparties/sn/"
+    ],
+    [
+      "CDC · Senegal Traveler View",
+      "https://wwwnc.cdc.gov/travel/destinations/traveler/none/senegal"
+    ],
+    [
+      "USDA APHIS · requisitos de entrada de mascotas en Senegal",
+      "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-senegal"
+    ],
+    [
+      "ANACIM · anexo RPAS",
+      "https://www.anacim.sn/IMG/pdf/annexe_5_au_ras_06_-_systemes_d_aeronefs_telepilotes_rpas_.pdf"
+    ],
+    [
+      "ANACIM · contacto",
+      "https://anacim.sn/"
+    ],
+    [
+      "Starlink · mapa de disponibilidad Senegal",
+      "https://starlink.com/sn/map"
+    ],
+    [
+      "APS · autorización de cinco años a Starlink",
+      "https://aps.sn/starlink-une-autorisation-dexploitation-de-cinq-ans-accordee-au-fournisseur-dacces-a-internet-par-satellite-tutelle/"
+    ],
+    [
+      "CHVD Pikine · hospital veterinario",
+      "https://chvd.sn/"
+    ],
+    [
+      "Hôtel de la Résidence Saint-Louis · servicios y mascotas",
+      "https://www.hoteldelaresidence.com/services/"
+    ],
+    [
+      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "https://ioverlander.com/"
+    ],
+    [
+      "Tracks4Africa · cartografía y puntos overland de África",
+      "https://tracks4africa.co.za/"
+    ]
+  ],
+  "sources_note": "Consulta realizada el 8 de septiembre de 2026. Las fuentes cambian; el enlace y la fecha forman parte del dato operativo.",
+  "emergency": "Policía 17 · Bomberos 18 · Gendarmería 123 · Ambulancia/SAMU: probar 15 y 1515. Consulado de España: +221 77 569 28 89. Guardar también en papel y comprobar al comprar la SIM.",
+  "matrix_note": "Los nombres y coordenadas coinciden con la exportación KMZ del 8 de septiembre de 2026. Los puntos anónimos Punto 19, Punto 42 y Punto 43 no se consideran parte de Senegal.",
+  "notice": "Documento operativo sujeto a revalidación final en diciembre de 2026 y en cada frontera.",
+  "custom_sections": [
+    [
+      "resumen",
+      "Resumen operativo",
+      "<div class=\"callout \"><div class=\"callout-title\">Decisión de ruta</div><p>Entrada por Diama desde Mauritania. Salida base por Kalifourou–Boundou Fourdou–Sambaïlo hacia Koundara (Guinea). Mali y Guinea-Bissau quedan fuera; Gambia se conserva únicamente como alternativa.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Decisión operativa</th></tr></thead><tbody><tr ><td>Duración</td><td>17–18 días sin Ferlo; 20–21 días con el bloque Ferlo</td></tr><tr ><td>Perfil</td><td>Naturaleza, cultura local y pocas ciudades; Dakar concentrado en 1–2 días</td></tr><tr ><td>Acampada</td><td>Libre solo con validación local; en ciudades, fronteras y áreas protegidas usar recinto vigilado</td></tr><tr ><td>Conducción</td><td>Evitar totalmente la noche; limitar jornadas largas y entrar en destino con luz</td></tr><tr ><td>Perro</td><td>Restricción principal: autorización escrita en áreas protegidas y prohibición en Djoudj/Niokolo-Koba</td></tr><tr ><td>Vehículos</td><td>CPD recomendado; seguro local y Carte Brune CEDEAO; ver documentación general para trámites</td></tr><tr ><td>Salud</td><td>Malaria en todo el país; fiebre amarilla y documentación sanitaria; rabia canina presente</td></tr><tr ><td>Comunicaciones</td><td>Starlink autorizado y disponible en 2026; mantener SIM local y mensajería satelital</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Perro:</strong> no entrar en un área protegida sin autorización escrita; no asumir que permanecer dentro del vehículo resuelve la prohibición.</li><li><strong>Niokolo-Koba y Djoudj:</strong> visita únicamente con cuidado canino resuelto o rotación entre viajeros.</li><li><strong>Fronteras orientales:</strong> evitar la noche, usar ejes principales y confirmar seguridad y apertura inmediatamente antes de salir.</li><li><strong>CPD:</strong> para 17–21 días evita depender de extensiones del passavant; cada vehículo necesita su propia garantía y sellos completos.</li><li><strong>Dron:</strong> no volar sin autorización ANACIM; un dron con cámara añade autorización del Ministerio del Interior.</li></ul>"
+    ],
+    [
+      "historia",
+      "Historia y contexto",
+      "<p>Senegal es, junto con Costa de Marfil y Ghana, uno de los países más estables democráticamente de África Occidental, con un pasado marcado por los grandes imperios sahelianos, el trauma de la trata negrera atlántica desde la isla de Gorea, un colonialismo francés que hizo de Dakar su capital para toda el África Occidental Francesa, y una tradición ininterrumpida desde 1960 de transiciones de poder sin golpes de Estado, poco común en la región.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Senegal →</a></p></div>"
+    ],
+    [
+      "ruta",
+      "Ruta propuesta",
+      "<p>Itinerario pensado para enero–febrero de 2027, estación seca. El Ferlo añade aislamiento y pista, pero no es imprescindible para la continuidad del viaje.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Día</th><th>Tramo / base</th><th>Objetivo</th><th>Condición</th></tr></thead><tbody><tr ><td>1</td><td>Diama → Saint-Louis</td><td>Entrada, aduanas, seguros, SIM y descanso</td><td>No añadir Djoudj el día de frontera</td></tr><tr ><td>2</td><td>Saint-Louis + Guet Ndar</td><td>Patrimonio e inmersión local</td><td>A pie; aparcamiento vigilado</td></tr><tr ><td>3</td><td>Djoudj</td><td>Piragua y observación de aves</td><td>Perro prohibido; visita solo con cuidado resuelto</td></tr><tr ><td>4</td><td>Langue de Barbarie</td><td>Estuario, dunas y aves</td><td>Autorización escrita para el perro o rotación</td></tr><tr ><td>5</td><td>Saint-Louis → Lac Rose</td><td>Traslado costero y parada paisajística</td><td>Llegar con luz</td></tr><tr ><td>6–7</td><td>Dakar + Gorée</td><td>Gorée; uno o dos museos; reabastecimiento</td><td>Vehículos vigilados; evitar sobrecargar la ciudad</td></tr><tr ><td>8</td><td>Dakar → Joal-Fadiouth</td><td>Isla de conchas y cultura local</td><td>Confirmar acceso del perro</td></tr><tr ><td>9–10</td><td>Toubacouta + Delta del Saloum</td><td>Piragua, manglar, islas y aves</td><td>Alojamiento con aparcamiento y cuidado canino acordados</td></tr><tr ><td>11–13</td><td>Bloque Ferlo (opcional)</td><td>Linguère–Ranérou–Katané–Tambacounda</td><td>Solo con autorización, track reciente, autonomía y salida temprana</td></tr><tr ><td>14</td><td>Tambacounda</td><td>Revisión de vehículos, combustible y provisiones</td><td>Confirmar pistas y seguridad oriental</td></tr><tr ><td>15–16</td><td>Niokolo-Koba</td><td>Parque con guía</td><td>Perro prohibido; exige cuidado verificado o rotación</td></tr><tr ><td>17</td><td>Kédougou</td><td>Base, guía, salud y mantenimiento</td><td>Resolver siguientes excursiones antes de salir</td></tr><tr ><td>18</td><td>Bandafassi + Iwol</td><td>Paisaje cultural y caminata</td><td>Acuerdo previo con guía y comunidad</td></tr><tr ><td>19</td><td>Dindéfelo</td><td>Cascada y bosque</td><td>Menos agua en estación seca; confirmar perro</td></tr><tr ><td>20</td><td>Ethiolo / Salémata</td><td>Cultura bassari</td><td>Opcional si el ritmo o el calor aprietan</td></tr><tr ><td>21</td><td>Kalifourou → Sambaïlo → Koundara</td><td>Salida a Guinea</td><td>Solo corredor oficial; no conducir de noche</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Criterio de recorte</div><p>Si se pierde tiempo en frontera, mecánica o cuidado del perro, recortar primero Ferlo, luego uno de los museos de Dakar y finalmente Ethiolo. Mantener Djoudj, Saint-Louis, Gorée, Saloum, Niokolo-Koba y el País Bassari si las restricciones caninas están resueltas.</p></div><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Priorizar campamento discreto y con consentimiento local, lejos de carreteras, puestos de control, fronteras, playas urbanas y núcleos de fauna.</li><li>En Dakar, Saint-Louis, Toubacouta, Kédougou y antes de parques: elegir recinto con cierre físico y espacio para ambos 4x4.</li><li>No dejar al perro solo en un vehículo cerrado; el calor sigue siendo peligroso en enero, especialmente en interior y este.</li><li>En el Ferlo y pistas orientales: confirmar agua, combustible, track, cobertura y hora de llegada; compartir plan de etapa con un contacto.</li></ul>"
+    ],
+    [
+      "agua-combustible",
+      "Agua y combustible",
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar también el depósito de uso general (ducha, aseo, vajilla, limpieza), no solo el agua potable de beber.</p><ul class=\"ticks\"><li>Dakar, Saint-Louis y Tambacounda: agua embotellada en supermercados y tiendas sin ningún problema de suministro.</li><li>Recarga de depósito de uso general: estaciones de servicio Total/Shell/Elton de Dakar, Saint-Louis, Tambacounda y Kédougou y los campings de la Petite Côte y Saint-Louis (Zebrabar, Camping de la Langue de Barbarie) aceptan llenar bidones/depósito con manguera; confirmar precio en recepción.</li><li>Bloque del Ferlo y del país Bassari (Kédougou, Bandafassi, Iwol, Dindéfelo): cargar reserva completa (mínimo 20-30 l por vehículo, beber y uso general) antes de salir de Tambacounda o Kédougou; sin garantía fiable en pistas y aldeas.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje principal: Diama → Saint-Louis (~40 km) → Dakar (~270 km) → Tambacounda (~440 km) → Kédougou (~220 km), todos con estaciones formales.</li><li>Bloque del Ferlo (Linguère-Ranérou-Katané, opcional): oferta escasa e informal; repostar a fondo en Dakar o Saint-Louis antes de entrar y no confiar en encontrar gasóleo de calidad por el camino.</li><li>Kédougou es la última plaza con estaciones formales antes de Bandafassi, Iwol, Dindéfelo y la frontera de Guinea: salir siempre con el depósito lleno.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+    ]
+  ],
+  "custom_sections_post": [
+    [
+      "fronteras",
+      "Visado, fronteras y vehículos",
+      "<h3>Visado</h3><ul class=\"ticks\"><li>Ciudadanos españoles: MAEC indica exención de visado para estancias inferiores a 90 días; pasaporte con más de seis meses de validez y páginas libres.</li></ul><h3>Entrada por Diama</h3><ul class=\"ticks\"><li>Cerrar primero la salida mauritana de personas, vehículos y perro; comprobar que cada CPD o permiso temporal queda sellado.</li><li>En Senegal: inmigración de cada viajero; aduana de cada vehículo; seguro local/Carte Brune; control veterinario y permiso de importación del perro.</li><li>No entregar originales a intermediarios fuera de ventanilla. Fotografiar cada sello antes de abandonar el puesto.</li><li>Confirmar horario, tasas y aceptación de los documentos 48–72 h antes. Llegar a primera hora con moneda local y copias.</li></ul><h3>Vehículos: CPD frente a passavant en Senegal</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Documento</th><th>Qué es</th><th>Encaje</th><th>Riesgo práctico</th></tr></thead><tbody><tr ><td>CPD</td><td>Admisión temporal respaldada por garantía internacional</td><td>Recomendado para 17–21 días y para el resto del viaje</td><td>Cada entrada y salida debe sellarse; un fallo puede bloquear el aval</td></tr><tr ><td>Passavant</td><td>Permiso local de circulación</td><td>Máximo inicial de 10 días según Aduanas; hasta dos extensiones de 15 días</td><td>Obliga a gestionar prórrogas; confirmar dónde y cuándo antes de depender de él</td></tr><tr ><td>Admisión temporal excepcional</td><td>Régimen aduanero condicionado</td><td>Puede alcanzar hasta 6 meses según el caso</td><td>Requiere trámite específico; no asumir concesión en frontera</td></tr></tbody></table></div><div class=\"callout ok\"><div class=\"callout-title\">Decisión</div><p>Solicitar CPD para ambos vehículos antes de salir de España. El passavant queda como contingencia, no como plan principal.</p></div><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>Cómo tramitar el CPD, la autorización de empresa del Grenadier, la documentación de la Delica y el seguro/Carte Brune están en <a href=\"../../documentacion/\">Documentación general</a> — aplican a todo el viaje, no solo a Senegal.</p></div><h3>Seguro en Senegal</h3><ul class=\"ticks\"><li>Comprar responsabilidad civil válida en Senegal y solicitar Carte Brune CEDEAO para continuidad regional; verificar países, vehículo, fechas, matrícula y conductor.</li><li>No asumir que la Carta Verde europea cubre Senegal. Conservar recibo y certificado por separado.</li></ul>"
+    ],
+    [
+      "drones",
+      "Drones",
+      "<div class=\"callout danger\"><div class=\"callout-title\">Regla simple</div><p>No volar en Senegal sin autorización de ANACIM. Para un dron con cámara, la normativa publicada exige además autorización del Ministerio del Interior.</p></div><ul class=\"ticks\"><li>Presentar la solicitud con al menos siete días de antelación; para un viaje itinerante conviene iniciar el expediente varias semanas antes.</li><li>Documentación publicada: identidad, antecedentes (&lt;3 meses), justificación del uso para extranjeros, zona/fechas/ruta, características del RPAS, formación del piloto, manuales, seguro RC y formularios de impacto de seguridad.</li><li>ANACIM: Aéroport militaire Léopold Sédar Senghor, Dakar-Yoff · anacim@anacim.sn · +221 33 865 60 00. Revalidar el procedimiento aplicable desde el 26 de noviembre de 2026.</li></ul><div class=\"callout \"><div class=\"callout-title\">Normas comunes de vuelo</div><p>Las reglas genéricas (aeropuertos, fronteras, multitudes, áreas protegidas) están en <a href=\"../../documentacion/#drones\">Documentación general · drones</a>.</p></div>"
+    ],
+    [
+      "starlink",
+      "Starlink",
+      "<div class=\"callout ok\"><div class=\"callout-title\">Estado 2026</div><p>Starlink figura disponible en Senegal y recibió una autorización de explotación de cinco años. La página local muestra planes en CFA; el mapa y el plan Roam deben verificarse de nuevo antes de entrar.</p></div><ul class=\"ticks\"><li>Declarar el equipo si Aduanas lo solicita y conservar factura, número de serie y prueba de titularidad.</li></ul><div class=\"callout \"><div class=\"callout-title\">Reglas comunes de Starlink Roam</div><p>Los límites de itinerancia y la preparación del plan están en <a href=\"../../documentacion/#starlink\">Documentación general · Starlink</a>.</p></div>"
+    ],
+    [
+      "perro",
+      "Perro y salud",
+      "<h3>Entrada del perro en Senegal</h3><ul class=\"ticks\"><li>Solicitar con antelación permiso de importación a la autoridad veterinaria senegalesa. La fuente oficial de viaje de USDA confirma que el permiso es obligatorio; revalidar la aceptación en frontera terrestre por Diama.</li><li>Fuentes secundarias sitúan el certificado veterinario dentro de las 72 h previas; confirmar el plazo por escrito.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia, titulación serológica y reentrada en la UE: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Djoudj</td><td><span class=\"st st-red\">prohibido</span></td><td>Cuidador en Saint-Louis confirmado o rotación</td></tr><tr ><td>Langue de Barbarie</td><td><span class=\"st st-amber\">requiere autorización escrita</span></td><td>Alojamiento/cuidador en Gandiol o Saint-Louis; rotación</td></tr><tr ><td>Gorée y museos de Dakar</td><td><span class=\"st st-grey\">pendiente de confirmación oficial / prohibido en interiores</span></td><td>Cuidador verificado o visitas por turnos</td></tr><tr ><td>Delta del Saloum</td><td><span class=\"st st-amber\">requiere autorización escrita en reservas</span></td><td>Acordar con alojamiento y patrón de piragua; rotación</td></tr><tr ><td>Niokolo-Koba</td><td><span class=\"st st-red\">prohibido</span></td><td>Cuidado con pernocta verificado cerca de la entrada o rotación</td></tr><tr ><td>Bandafassi, Iwol, Ethiolo</td><td><span class=\"st st-amber\">requiere autorización escrita</span></td><td>Acuerdo con guía y comunidad; cuidador en Kédougou o rotación</td></tr><tr ><td>Dindéfelo</td><td><span class=\"st st-amber\">requiere autorización escrita</span></td><td>Confirmar con gestión comunitaria; cuidador o rotación</td></tr><tr ><td>Ferlo Norte/Sur y Katané</td><td><span class=\"st st-amber\">requiere autorización escrita</span></td><td>Sin residencia verificada; rotación es el respaldo real</td></tr></tbody></table></div><h3>Atención veterinaria y cuidado</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Lugar</th><th>Capacidad publicada</th><th>Contacto</th><th>Uso operativo</th></tr></thead><tbody><tr ><td>CHVD Pikine, Dakar</td><td>Hospital veterinario de referencia; urgencias 24/7 publicitadas</td><td>+221 33 838 70 10 · WhatsApp +221 77 749 68 60</td><td>Confirmar hospitalización o guarda antes del viaje</td></tr><tr ><td>Vet Services, Dakar</td><td>Clínica de pequeños animales</td><td>+221 33 832 56 71 · vetservices@orange.sn</td><td>Respaldo clínico; no publica pensión</td></tr><tr ><td>Hôtel de la Résidence, Saint-Louis</td><td>Acepta mascotas con correa; comida/paseo bajo petición</td><td>+221 33 961 12 60</td><td>Candidato para apoyo en Djoudj; confirmar supervisión real</td></tr><tr ><td>Kédougou / Ranérou</td><td>Sin residencia profesional verificada</td><td>—</td><td>Rotación entre viajeros como respaldo obligatorio</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Cuidado aún no cerrado</div><p>No hay residencia profesional fiable documentada cerca de Niokolo-Koba, Kédougou o Ranérou. No reservar actividades incompatibles con el perro hasta obtener confirmación directa, fotos del recinto, supervisión, prueba de vacunación y contacto veterinario.</p></div><h3>Salud humana en Senegal</h3><ul class=\"ticks\"><li>Malaria: CDC sitúa el riesgo en todo Senegal. Elegir profilaxis con Sanidad Exterior; mosquitera, repelente y ropa larga.</li><li>Fiebre amarilla: llevar certificado internacional; puede exigirse llegando desde país con riesgo.</li><li>Estación seca: valorar vacuna meningocócica; no bañarse en aguas dulces por esquistosomiasis.</li></ul>"
+    ],
+    [
+      "seguridad",
+      "Seguridad y comunicaciones",
+      "<p>MAEC España, France Diplomatie y FCDO coinciden en reforzar precauciones en zonas fronterizas remotas, Casamance y el este próximo a Mali. El corredor base evita Mali y Guinea-Bissau, pero exige revalidación local antes de Niokolo-Koba, Kédougou y la salida a Guinea.</p><ul class=\"ticks\"><li>En Dakar y Saint-Louis: discreción con cámaras/teléfonos, puertas cerradas, nada visible en vehículos y aparcamiento vigilado.</li><li>En el este: carreteras principales, no publicar ubicación en tiempo real, preguntar a gendarmería/alojamientos y no acercarse a la frontera de Mali.</li><li>Comprar SIM local al inicio y probar llamadas de emergencia, hotspot y cobertura. Contactos con prefijo +221.</li><li>Descargar Senegal y Guinea en OsmAnd y esta app en los teléfonos de los tres viajeros.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común de seguridad</div><p>Conducción, controles, check-in diario y escalado están en <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+    ],
+    [
+      "gpx",
+      "GPX, validación y decisiones",
+      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Momento</th><th>Acciones</th></tr></thead><tbody><tr ><td>60–90 días antes</td><td>CPD de ambos vehículos; carta de empresa; visado Guinea; permiso del perro; títulos de rabia</td></tr><tr ><td>30 días antes</td><td>ANACIM si se pretende volar; confirmar Djoudj/Langue/Niokolo/Ferlo; pedir cuidado canino por escrito</td></tr><tr ><td>7–14 días antes</td><td>Seguridad MAEC/Francia/FCDO; apertura Diama y Sambaïlo; seguro/Carte Brune; Starlink Roam</td></tr><tr ><td>48–72 h antes</td><td>Estado de pista Ferlo y Niokolo; combustible; efectivo; alojamiento vigilado; certificados veterinarios</td></tr><tr ><td>En cada frontera</td><td>Fotografiar sellos y documentos; verificar plazo del vehículo y del perro antes de salir del puesto</td></tr></tbody></table></div><h3>Validación GPX específica</h3><ul class=\"ticks\"><li>Marcar como aproximadas Katané, CHR Kédougou, Centre de santé Ranérou y el puesto exacto de Sambaïlo hasta verificación local.</li><li>No convertir los puntos de parques en pistas transitables: las trazas internas requieren guía/autorización.</li></ul><h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Ferlo</td><td>Incluir solo si hay autorización, track reciente y tres días de margen</td></tr><tr ><td>Cuidado del perro</td><td>Cerrar opciones reales en Saint-Louis, Dakar y Niokolo/Kédougou; hacer prueba corta si es posible</td></tr><tr ><td>Dron</td><td>Decidir si compensa el expediente; sin autorización, transportar apagado y no volar</td></tr><tr ><td>CPD</td><td>Confirmar con RACE titular/aval del vehículo de empresa y documentación de la Delica</td></tr><tr ><td>Frontera Guinea</td><td>Confirmar apertura y punto de control de Kalifourou/Sambaïlo una semana antes</td></tr></tbody></table></div>"
+    ]
+  ]
+}
