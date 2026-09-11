@@ -59,6 +59,8 @@ def make_ficha(spec):
     ruta += table(s.get("route_headers", ("Bloque", "Contenido", "Condición")), s["route_rows"], cls="num")
     if s.get("offroad"):
         ruta += "<h3>Rutas y pistas 4x4 destacadas</h3>" + bullets(s["offroad"])
+    if s.get("senderismo"):
+        ruta += "<h3>Excursiones a pie</h3>" + bullets(s["senderismo"])
     if s.get("acampada"):
         ruta += "<h3>Acampada y pernocta</h3>" + bullets(s["acampada"])
 

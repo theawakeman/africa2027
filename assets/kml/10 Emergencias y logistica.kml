@@ -1059,10 +1059,38 @@
   </Placemark>
   <Placemark>
     <name>Combustible · Malanje</name>
-    <description><![CDATA[<b>Combustible</b><br/>Última oferta formal de combustible sólida antes de internarse hacia el este (Kuito, Luena, Cazombo); repostar a fondo aquí en la bajada.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.5402,16.341">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Base del triángulo de Malanje (Pedras Negras, Kalandula, Cangandala): combustible formal, hospital provincial, hoteles y mercado. Última plaza grande antes del altiplano.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.5402,16.341">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>16.341,-9.5402,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Huambo · base logística del altiplano</name>
+    <description><![CDATA[<b>Combustible</b><br/>Segunda ciudad del país (la antigua Nova Lisboa), a 1.700 m: combustible, talleres, hospital provincial y hoteles. Punto de partida hacia el Morro do Moco (70 km al oeste, hasta la aldea de Kanjonde) y hacia Bailundo.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.7761,15.7392">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.7392,-12.7761,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Kuito (Bié)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Capital de Bié y única parada de servicios entre Huambo y Luena; repostar aquí aunque el depósito no esté bajo, porque el siguiente tramo son ~400 km de asfalto degradado.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.3833,16.9333">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.9333,-12.3833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Benguela · servicios de costa</name>
+    <description><![CDATA[<b>Combustible</b><br/>Junto con Lobito (30 km), la gran plaza de servicios de la costa central en la subida: combustible, talleres, recambios, hospital y alojamiento.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.5783,13.4055">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.4055,-12.5783,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tombwa · último servicio antes del desierto profundo</name>
+    <description><![CDATA[<b>Combustible</b><br/>Último pueblo con combustible (irregular) antes de Baía dos Tigres y del desvío a Virei/Tchitundu-Hulu; confirmar existencias y salir con garrafas llenas desde Namibe.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.8,11.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.85,-15.8,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Cazombo (extremo este, escaso)</name>

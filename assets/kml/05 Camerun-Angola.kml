@@ -3,6 +3,8 @@
   <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Limbe (Centro de Fauna y Down Beach)</name>
@@ -104,7 +106,7 @@
   </Placemark>
   <Placemark>
     <name>Luanda</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/2009%20Luanda%20Angola%203818325721.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital y mayor base logística del país: puerto, aeropuerto internacional, embajada de España, talleres y recambios de todo tipo. Marginal (paseo marítimo), Fortaleza de San Miguel e Ilha de Luanda como referencia urbana<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.8383,13.2344">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/2009%20Luanda%20Angola%203818325721.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital y mayor base logística del país: puerto, aeropuerto internacional, embajada de España, talleres y recambios de todo tipo. Marginal (paseo marítimo), Fortaleza de San Miguel y el Museo Nacional de Antropología com<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.8383,13.2344">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.2344,-8.8383,0</coordinates></Point>
@@ -125,65 +127,135 @@
   </Placemark>
   <Placemark>
     <name>Cascadas de Kalandula (Calandula)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Con 105 m de altura y 400 m de anchura, la segunda mayor catarata de África por caudal tras las Victoria Falls, sobre el río Lucala en la provincia de Malanje; a unos 360 km de Luanda por una carretera que combina tramos<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.0758,16.0033">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Con 105 m de altura y 400 m de anchura, la segunda mayor catarata de África por caudal tras las Victoria Falls, sobre el río Lucala en la provincia de Malanje; a unos 360 km de Luanda. Se puede bajar a pie hasta la base <br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.0758,16.0033">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>16.0033,-9.0758,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Namibe (Moçâmedes)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marginal%20of%20Namibe.JPG?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Ciudad y puerto donde el desierto del Namibe llega literalmente al Atlántico; arquitectura colonial portuguesa en la Marginal, base logística para el desierto, Tundavala, Serra da Leba y la expedición avanzada a la Baía <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.1961,12.1522">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-azul</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>12.1522,-15.1961,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Baía dos Tigres (avanzado, opcional)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ilha%20dos%20Tigres%201466540%20960%20720.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Antigua península convertida en isla en 1962, con el pueblo pesquero abandonado tragado por la arena; el tramo mítico de duna-hasta-el-mar del sur de Angola. Se llega desde Tombwa cruzando el paso de marea 'Doodsakker', <br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.6167,11.7833">Google Maps</a>]]></description>
+    <name>Parque Nacional de Cangandala · palanca negra gigante</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stavenn%20Hippotragus%20niger%20variani%2000.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El parque más pequeño de Angola (630 km², a unos 50 km al sur de la ciudad de Malanje) y el único lugar del mundo, junto con la vecina reserva de Luando, donde vive la PALANCA NEGRA GIGANTE: el símbolo nacional de Angola<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.9167,16.4">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>11.7833,-16.6167,0</coordinates></Point>
+    <Point><coordinates>16.4,-9.9167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Waku Kungo (hipopótamos y plantaciones de café)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Waku%20Kungo%2C%20Angola%20-%20panoramio.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>En el altiplano de Kwanza Sul, entre las antiguas grandes plantaciones de café coloniales hoy semiabandonadas, hay lagunas donde se pueden observar hipopótamos en libertad y sin entrar en ningún parque nacional — lo que <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.35,15.1167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.1167,-11.35,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bailundo (reino del Bailundo)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Igreja%20Matriz%20de%20Waku%20Kungo%20-%20panoramio.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Antigua capital del reino de Bailundo, uno de los grandes reinos ovimbundu del altiplano y todavía hoy una monarquía tradicional viva: se puede solicitar audiencia con la autoridad tradicional (o soba) y asistir a ceremo<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.1833,15.8167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.8167,-12.1833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Morro do Moco · techo de Angola (2.620 m)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Morro%20do%20Moco%2C%20Huambo%2C%20Angola.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El punto más alto de Angola, a 70 km al oeste de Huambo, con la aldea de Kanjonde al pie como punto de partida de la subida a pie. Conserva los últimos bosques afromontanos del país y es Área Importante para las Aves: 23<br/><b>Perro:</b> permitido con correa<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.4667,15.1667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.1667,-12.4667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Luena (Moxico)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Luena%20Angola.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital de Moxico y última ciudad con servicios reales (combustible formal, taller, hospital, mercado) antes de los más de 400 km de pistas hacia Cazombo y la frontera de Zambia. Punto de no retorno logístico de la bajad<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.7833,19.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>19.9167,-11.7833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Iona</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Welwitschia%20in%20the%20Namibe%20desert.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>15.200 km² de desierto del Namib angoleño gestionados por African Parks: oryx, cebras, springbok, guepardo, leopardo, hiena parda y jirafas angoleñas reintroducidas en 2023-2024 tras desaparecer en la guerra civil; welwi<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.7,12.3333">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Welwitschia%20in%20the%20Namibe%20desert.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>15.200 km² de desierto del Namib angoleño gestionados por African Parks: oryx, cebras, springbok, guepardo, leopardo, hiena parda y jirafas angoleñas reintroducidas en 2023-2024 tras desaparecer en la guerra civil; welwi<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.7,12.3333">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>12.3333,-16.7,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Foz do Cunene</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Angola%20Namibe%20Bentiaba%20OM%2020170710%20(19).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Desembocadura del río Cunene, frontera natural con Namibia, entre dunas y un paisaje casi lunar; aguas termales río arriba (extremar precaución, hay cocodrilos aguas abajo). Combinar con Iona en un mismo bucle de 2-3 día<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.3,11.6667">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Angola%20Namibe%20Bentiaba%20OM%2020170710%20(19).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Desembocadura del río Cunene, frontera natural con Namibia, entre dunas y un paisaje casi lunar; aguas termales río arriba (extremar precaución, hay cocodrilos aguas abajo). Combinar con Iona en un mismo bucle de 2-3 día<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.3,11.6667">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>11.6667,-17.3,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Baía dos Tigres (avanzado, opcional)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ilha%20dos%20Tigres%201466540%20960%20720.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Antigua península convertida en isla en 1962, con el pueblo pesquero abandonado tragado por la arena; el tramo mítico de duna-hasta-el-mar del sur de Angola. Se llega desde Tombwa cruzando el paso de marea 'Doodsakker', <br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.6167,11.7833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.7833,-16.6167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tchitundu-Hulu · arte rupestre</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Angola%20Namibe%20Bentiaba%20OM%2020170710%20(19).jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>Conjunto de arte rupestre sobre varios inselbergs en plena semidesierto, a 37 km al suroeste de Virei y 150 km al sur de Moçâmedes: cuatro yacimientos repartidos en un kilómetro (Tchitundu-Hulu Mumule, Tchitundu-Hulu Muc<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.9406,12.8793">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.8793,-15.9406,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lagoa do Arco (Lake Arco)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mini%20oasis%20in%20the%20namibe%20desert%2C%20Angola.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Oasis de agua dulce en pleno desierto del Namibe, encajado entre dos grandes arcos de arenisca, con aves acuáticas, rapaces y tejedores. La aldea vecina de Njambasana ha montado un aparcamiento y un camping básico de ges<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.7661,12.0667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.0667,-15.7661,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Namibe (Moçâmedes)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marginal%20of%20Namibe.JPG?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Ciudad y puerto donde el desierto del Namibe llega literalmente al Atlántico; arquitectura colonial portuguesa en la Marginal, base logística para el desierto, Tundavala, Serra da Leba, Lagoa do Arco, Tchitundu-Hulu y la<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.1961,12.1522">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.1522,-15.1961,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Serra da Leba</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Serra%20da%20Leba-Road.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El puerto de montaña más fotografiado de Angola: la EN280 sube en herraduras cerradas desde la llanura costera (~720 m) hasta 1.845 m de altitud, enlazando Namibe con la meseta de Lubango. Asfaltado pero exigente; mirado<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.0711,13.2486">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Serra%20da%20Leba-Road.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El puerto de montaña más fotografiado de Angola: la EN280 sube en herraduras cerradas desde la llanura costera (~720 m) hasta 1.845 m de altitud, enlazando Namibe con la meseta de Lubango. Asfaltado pero exigente; mirado<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.0711,13.2486">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.2486,-15.0711,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Tundavala (Fenda da Tundavala)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tundavala%20Gap.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Grieta de unos 800 m en el borde de la meseta de Humpata, a 18 km de Lubango, con un salto de más de 1.000 m hasta la llanura; una de las 7 Maravillas Naturales de Angola. Pista de tierra desde Lubango; el mirador está e<br/><b>Perro:</b> permitido con correa corta<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.8177,13.3814">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tundavala%20Gap.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Grieta de unos 800 m en el borde de la meseta de Humpata, a 18 km de Lubango, con un salto de más de 1.000 m hasta la llanura; una de las 7 Maravillas Naturales de Angola. Pista de tierra desde Lubango y varios senderos <br/><b>Perro:</b> permitido con correa corta<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.8177,13.3814">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.3814,-14.8177,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Benguela</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Morena%20Benguela.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>La ciudad colonial portuguesa mejor conservada de la costa angoleña, cabecera del histórico ferrocarril de Benguela que cruzaba el continente hasta el Congo; playas urbanas (Praia Morena, Coatinha) y centro histórico pas<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.5783,13.4055">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.4055,-12.5783,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Lobito</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lobito%20restinga2.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Ciudad portuaria sobre una restinga arenosa entre el océano y la bahía, con arquitectura colonial portuguesa bien conservada (Igreja da Arrábida) y ambiente más tranquilo que Luanda; punto de descanso en la subida hacia <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.3644,13.5456">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lobito%20restinga2.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Ciudad portuaria sobre una restinga arenosa entre el océano y la bahía, con arquitectura colonial portuguesa bien conservada (Igreja da Arrábida); gran plaza logística de la costa junto con Benguela, a 30 km.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.3644,13.5456">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.5456,-12.3644,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Cabo Ledo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cabo%20Ledo%20beach%2C%20Angola%2002.jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>Bahía de arena a unos 120 km al sur de Luanda, conocida por una de las olas izquierdas más largas de África y por sus acantilados rojos sobre la playa; camping y alojamientos sencillos junto a la arena, ambiente relajado<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.6833,13.2167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.2167,-9.6833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Parque Nacional de Kissama (Quiçama)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kissama%20003.JPG?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>A unos 70 km al sur de Luanda, el único parque nacional angoleño realmente operativo, repoblado tras la guerra con la 'Operación Arca de Noé' (elefantes y otras especies traídos de Botsuana y Sudáfrica); baobabs, candela<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.75,13.583">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kissama%20003.JPG?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>A unos 70 km al sur de Luanda, el único parque nacional angoleño realmente operativo y el más accesible del país, repoblado tras la guerra con la 'Operación Arca de Noé' (elefantes y otras especies traídos de Botsuana y <br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.75,13.583">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.583,-9.75,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mussulo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mussulo%20Island%20banner%20view%20from%20taxi%20boat.jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>Larga lengua de arena frente a Luanda que encierra una laguna de agua tranquila, con restaurantes de pescado y playas a un lado y bahía mansa al otro; se llega en barco-taxi desde la capital. Última parada ligera del via<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#poi-22">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.9833,13.1667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.1667,-8.9833,0</coordinates></Point>
   </Placemark>
 </Document></kml>

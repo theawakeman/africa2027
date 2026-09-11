@@ -4,27 +4,35 @@
   "chips": [
     [
       "BAJADA",
-      "Lufu/Luvo → Malanje (Kalandula) → Cazombo/Caripande (Zambia)"
+      "Lufu/Luvo → Malanje → altiplano de Huambo → Moxico → Caripande (Zambia) · ~2.600 km"
     ],
     [
       "SUBIDA",
-      "Santa Clara/Oshikango → Namibe/Leba/Tundavala → Lobito → Kissama → Luanda → Lufu/Luvo"
+      "Santa Clara → Iona/Namibe → Leba/Tundavala → Benguela → Kissama → Luanda → Lufu/Luvo · ~2.400 km"
     ],
     [
-      "SEGURIDAD",
-      "estable · precaución normal, extremar en el tramo remoto de Moxico"
-    ],
-    [
-      "VISADO",
-      "exención de 30 días para españoles — verificar vigencia antes de viajar"
+      "PDIs",
+      "22 puntos repartidos entre los dos corredores, sin solapamiento salvo Luanda"
     ],
     [
       "4x4 MÍTICO",
-      "Serra da Leba · Tundavala · Baía dos Tigres (avanzado)"
+      "Baía dos Tigres (duna al mar) · Serra da Leba · Iona · pista de Tchitundu-Hulu"
     ],
     [
-      "REVALIDACIÓN",
-      "30–60 días antes"
+      "A PIE",
+      "Morro do Moco 2.620 m · Tundavala · base de Kalandula"
+    ],
+    [
+      "FAUNA CON PERRO",
+      "Waku Kungo (hipopótamos fuera de parque) — la mejor opción del país"
+    ],
+    [
+      "VISADO",
+      "exención de 30 días para españoles — verificar vigencia y doble entrada"
+    ],
+    [
+      "SEGURIDAD",
+      "estable · precaución normal, aislamiento real en Moxico"
     ]
   ],
   "historia_resumen": "Angola, heredera del gran reino de Ndongo y del reino de Kongo, sufrió casi cinco siglos de presencia colonial portuguesa centrada en la trata de esclavos hacia Brasil, y tras una independencia tardía en 1975 se sumió de inmediato en una guerra civil de 27 años (1975-2002) que fue uno de los grandes escenarios de la Guerra Fría en África, con Cuba y la URSS apoyando al gobierno marxista y Sudáfrica y Estados Unidos a la guerrilla de UNITA; la paz de 2002 dio paso a un boom petrolero que ha transformado Luanda en una de las ciudades más caras del mundo.",
@@ -129,7 +137,35 @@
       "cat": "Combustible",
       "lat": -9.5402,
       "lon": 16.341,
-      "info": "Última oferta formal de combustible sólida antes de internarse hacia el este (Kuito, Luena, Cazombo); repostar a fondo aquí en la bajada."
+      "info": "Base del triángulo de Malanje (Pedras Negras, Kalandula, Cangandala): combustible formal, hospital provincial, hoteles y mercado. Última plaza grande antes del altiplano."
+    },
+    {
+      "name": "Huambo · base logística del altiplano",
+      "cat": "Combustible",
+      "lat": -12.7761,
+      "lon": 15.7392,
+      "info": "Segunda ciudad del país (la antigua Nova Lisboa), a 1.700 m: combustible, talleres, hospital provincial y hoteles. Punto de partida hacia el Morro do Moco (70 km al oeste, hasta la aldea de Kanjonde) y hacia Bailundo."
+    },
+    {
+      "name": "Combustible · Kuito (Bié)",
+      "cat": "Combustible",
+      "lat": -12.3833,
+      "lon": 16.9333,
+      "info": "Capital de Bié y única parada de servicios entre Huambo y Luena; repostar aquí aunque el depósito no esté bajo, porque el siguiente tramo son ~400 km de asfalto degradado."
+    },
+    {
+      "name": "Benguela · servicios de costa",
+      "cat": "Combustible",
+      "lat": -12.5783,
+      "lon": 13.4055,
+      "info": "Junto con Lobito (30 km), la gran plaza de servicios de la costa central en la subida: combustible, talleres, recambios, hospital y alojamiento."
+    },
+    {
+      "name": "Tombwa · último servicio antes del desierto profundo",
+      "cat": "Combustible",
+      "lat": -15.8,
+      "lon": 11.85,
+      "info": "Último pueblo con combustible (irregular) antes de Baía dos Tigres y del desvío a Virei/Tchitundu-Hulu; confirmar existencias y salir con garrafas llenas desde Namibe."
     },
     {
       "name": "Combustible · Cazombo (extremo este, escaso)",
@@ -237,6 +273,54 @@
     [
       "Wikipedia · Calueque",
       "https://en.wikipedia.org/wiki/Calueque"
+    ],
+    [
+      "Angola Tourism (web oficial de turismo) · naturaleza y parques",
+      "https://angola-tourism.com/nature/"
+    ],
+    [
+      "Angola Tourism (web oficial de turismo) · regiones de Huambo y Bié",
+      "https://angola-tourism.com/huambo-and-bie/"
+    ],
+    [
+      "Wikipedia · Mount Moco (Morro do Moco)",
+      "https://en.wikipedia.org/wiki/Mount_Moco"
+    ],
+    [
+      "Wikipédia (pt) · Parque Nacional da Cangandala",
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Cangandala"
+    ],
+    [
+      "Fundação Kissama · la palanca negra gigante",
+      "https://fundacaokissama.co.ao/index.php/pt/palancanegra/palanca"
+    ],
+    [
+      "Wikipedia · Tchitundu-Hulu (arte rupestre)",
+      "https://en.wikipedia.org/wiki/Tchitundu-Hulu"
+    ],
+    [
+      "UNESCO · Site Archéologique de Tchitundu-Hulu (lista indicativa)",
+      "https://whc.unesco.org/en/tentativelists/6251/"
+    ],
+    [
+      "British Museum · African Rock Art, Tchitundu-Hulu",
+      "https://africanrockart.britishmuseum.org/country/angola/tchitundu-hulu/"
+    ],
+    [
+      "Wikipedia · Lake Arco (Lagoa do Arco)",
+      "https://en.wikipedia.org/wiki/Lake_Arco"
+    ],
+    [
+      "Wikipedia · Bicuari National Park",
+      "https://en.wikipedia.org/wiki/Bicuari_National_Park"
+    ],
+    [
+      "Angola Expert · conducir y hacer overland por Angola, estado de las carreteras",
+      "https://www.angolaexpert.com/en/angola-roads-a-guide-to-driving-across-the-country/"
+    ],
+    [
+      "Take Your Backpack · guías de rutas a pie en Angola (Moco, Tundavala, Serra da Leba)",
+      "https://www.takeyourbackpack.com/backpacking-in-angola/hike-mount-moco-trail/"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 11 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
@@ -257,7 +341,7 @@
     [
       "ruta",
       "Ruta propuesta",
-      "<p>Angola se cruza dos veces por regiones distintas: la bajada por el eje Luanda–Malanje–Moxico hacia Zambia, y la subida por el desierto del suroeste (Namibe–Iona–Leba–Tundavala) y la costa hasta Luanda.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Bajada · Entrada y desvío histórico</td><td>Lufu/Luvo → (M'banza-Kongo opcional) → Luanda</td><td>UNESCO cerca de la frontera; capital como base logística</td></tr><tr ><td>Bajada · Interior de Malanje</td><td>Luanda → Miradouro da Lua → Pedras Negras → Cascadas de Kalandula</td><td>Desvío interior con dos de los paisajes más espectaculares del país</td></tr><tr ><td>Bajada · Travesía a Zambia</td><td>Kalandula → Kuito/Luena → Cazombo → Caripande (frontera)</td><td>Tramo remoto de Moxico; solo en temporada seca, con depósitos llenos</td></tr><tr ><td>Subida · Entrada suroeste</td><td>Santa Clara/Oshikango (o Calueque/Ruacana) → Parque de Iona → Foz do Cunene</td><td>Bucle desértico de 2-3 días antes de subir hacia Namibe</td></tr><tr ><td>Subida · Desierto y meseta</td><td>Namibe → Baía dos Tigres (opcional, avanzado) → Serra da Leba → Lubango/Tundavala</td><td>El bloque de tramos 4x4 míticos del país: duna hasta el mar, puerto de montaña y fenda</td></tr><tr ><td>Subida · Costa y cierre</td><td>Lubango → Lobito → Kissama → Luanda → Lufu/Luvo</td><td>Vuelta a la capital y salida hacia RD Congo para continuar la subida</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Serra da Leba (EN280): el puerto de montaña más icónico de Angola, con curvas de herradura cerradas subiendo de ~720 m a 1.845 m entre Namibe y Lubango; asfaltado pero exigente, parada fotográfica obligada con los 4x4.</li><li>Tundavala: pista de tierra de ~18 km desde Lubango hasta el borde de la fenda (2.200 m); terreno suelto en tramos, correa corta para el perro en el propio mirador por el desnivel de más de 1.000 m.</li><li>Baía dos Tigres (avanzado, opcional): EL tramo mítico de 'duna que llega al mar' del sur de Angola, a través del paso de marea 'Doodsakker' desde Tombwa — solo con marea baja y luna llena o nueva, mínimo 2 vehículos y equipo de recuperación. Encaja exactamente con lo que buscamos para el bloque sur, pero exige preparación experta o guía local.</li><li>Parque Nacional de Iona: pistas de arena y tierra por paisaje semidesértico sin señalización fija; jornada completa desde Namibe, GPX o guía recomendado.</li><li>Tramo Malanje–Cazombo (bajada, no recreativo pero sí 4x4 real): más de 100 km de arena profunda y barro en temporada de lluvias, según relatos de otros overlanders; en temporada seca es un tramo largo pero asumible con 4x4 estándar.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Luanda: alojamientos con parking vigilado, opción más práctica que la acampada libre en la capital.</li><li>Lobito: hoteles y alguna opción de camping costero con aparcamiento.</li><li>Pedras Negras: vivac salvaje entre los bloques de granito, citado por otros overlanders como uno de los mejores del país; pedir permiso/avisar en el pueblo más cercano.</li><li>Namibe y Lubango: hoteles con aparcamiento; base para las excursiones a Tundavala, Serra da Leba e Iona.</li><li>Tramo de Moxico (bajada): acampada libre habitual, pero registrarse siempre en la policía local (práctica confirmada en Cazombo por otros viajeros) y pedir orientación a los ancianos del pueblo sobre el estado de la pista.</li></ul>"
+      "<p>Angola se cruza dos veces por regiones completamente distintas: la bajada por el interior (Luanda → Malanje → altiplano de Huambo → Bié → Moxico) hasta Zambia, y la subida por el suroeste desértico (Iona, Namibe, Serra da Leba, Tundavala) y la costa hasta Luanda. Etapas calculadas sobre una media de <strong>250 km/día</strong>: ~2.600 km en la bajada (unos 14-16 días con paradas) y ~2.400 km en la subida (unos 14-18 días, más lentos por las pistas del desierto).</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Etapa</th><th>Recorrido</th><th>Distancia y días aprox.</th></tr></thead><tbody><tr ><td>Bajada 1 · Entrada y capital</td><td>Lufu/Luvo → (M'banza-Kongo, UNESCO, opcional) → Luanda</td><td>~350 km · 2-3 días con el desvío</td></tr><tr ><td>Bajada 2 · Salida de Luanda</td><td>Luanda → Miradouro da Lua → Malanje</td><td>~400 km · 2 días</td></tr><tr ><td>Bajada 3 · Triángulo de Malanje</td><td>Pedras Negras → Kalandula → Cangandala (palanca negra)</td><td>~250 km en bucle · 3 días</td></tr><tr ><td>Bajada 4 · Altiplano de Kwanza Sul</td><td>Malanje → Waku Kungo (hipopótamos y cafetales)</td><td>~450 km · 2-3 días</td></tr><tr ><td>Bajada 5 · Reino y techo de Angola</td><td>Waku Kungo → Bailundo → Morro do Moco (2.620 m) → Huambo</td><td>~300 km · 3-4 días con la subida a pie al Moco</td></tr><tr ><td>Bajada 6 · Travesía del este</td><td>Huambo → Kuito → Luena</td><td>~650 km · 3 días, asfalto degradado</td></tr><tr ><td>Bajada 7 · Moxico remoto y frontera</td><td>Luena → Cazombo → Caripande (frontera de Zambia)</td><td>~450 km · 3-4 días de pista; solo temporada seca</td></tr><tr ><td>Subida 1 · Entrada y desierto</td><td>Santa Clara/Oshikango (o Calueque/Ruacana) → Parque de Iona → Foz do Cunene</td><td>~500 km · 3-4 días, pista lenta</td></tr><tr ><td>Subida 2 · Costa del Namibe</td><td>Foz do Cunene → Baía dos Tigres (opcional, avanzado) → Tombwa</td><td>~250 km · 2-3 días si se hace Tigres</td></tr><tr ><td>Subida 3 · Arte rupestre y oasis</td><td>Tombwa → Tchitundu-Hulu (Virei) → Lagoa do Arco → Namibe</td><td>~450 km · 3 días, todo pista</td></tr><tr ><td>Subida 4 · Puerto de montaña y fenda</td><td>Namibe → Serra da Leba → Lubango → Tundavala</td><td>~250 km · 2-3 días</td></tr><tr ><td>Subida 5 · Bajada a la costa</td><td>Lubango → Benguela → Lobito</td><td>~500 km · 2-3 días</td></tr><tr ><td>Subida 6 · Costa de Luanda y cierre</td><td>Lobito → Cabo Ledo → Kissama → Mussulo → Luanda → Lufu/Luvo</td><td>~800 km · 4-5 días</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Baía dos Tigres (avanzado, opcional): EL tramo mítico de 'duna que llega al mar' del sur de Angola, a través del paso de marea 'Doodsakker' desde Tombwa — solo con marea baja y luna llena o nueva, mínimo 2 vehículos y equipo de recuperación. Encaja exactamente con lo que buscamos para el bloque sur, pero exige preparación experta o guía local.</li><li>Serra da Leba (EN280): el puerto de montaña más icónico de Angola, con curvas de herradura cerradas subiendo de ~720 m a 1.845 m entre Namibe y Lubango; asfaltado pero exigente, parada fotográfica obligada con los 4x4.</li><li>Parque Nacional de Iona: pistas de arena y tierra por paisaje semidesértico sin señalización fija; jornada completa desde Namibe, GPX o guía recomendado.</li><li>Pista a Tchitundu-Hulu (Virei): 150 km al sur de Moçâmedes y 37 km más al suroeste de Virei por pista de semidesierto hasta los inselbergs del arte rupestre; sin servicios en todo el trayecto, autonomía completa de agua y combustible.</li><li>Acceso a la Lagoa do Arco: pista de arena y roca por el desierto hasta el oasis; la propia aldea de Njambasana gestiona aparcamiento y camping, así que es el vivac natural del tramo.</li><li>Tundavala: pista de tierra de ~18 km desde Lubango hasta el borde de la fenda (2.200 m); terreno suelto en tramos, correa corta para el perro en el propio mirador por el desnivel de más de 1.000 m.</li><li>Tramo Luena–Cazombo–Caripande (bajada): más de 100 km de arena profunda con charcos y puentes de madera, y barro intransitable en temporada de lluvias según relatos de otros overlanders; velocidades reales de 10-20 km/h. En temporada seca es largo pero asumible con 4x4 estándar.</li><li>Acceso al Morro do Moco: pista desde Huambo hasta Kanjonde (~70 km) y después a pie; la pista final es de tierra y empeora en lluvias.</li></ul><h3>Excursiones a pie</h3><ul class=\"ticks\"><li>Morro do Moco (2.620 m), Huambo: LA gran excursión a pie del país. Subida al punto más alto de Angola desde la aldea de Kanjonde, atravesando los últimos bosques afromontanos; guía local de la aldea imprescindible (no hay sendero señalizado ni estatus de protección). Jornada completa, mejor entre julio y septiembre, cuando florecen las proteas. 233 especies de aves, varias endémicas.</li><li>Tundavala (Huíla): varios senderos cortos por el borde del escarpe de la meseta de Humpata, con vistas de más de 10.000 km² y un desnivel de 1.000 m a los pies. Sin protección en el borde: extremar precaución y llevar al perro con correa corta.</li><li>Cascadas de Kalandula (Malanje): sendero empinado que baja hasta la base del salto para verlo desde abajo, entre la niebla de agua y el arcoíris permanente. Resbaladizo; calzado con suela agarrada.</li><li>Pedras Negras de Pungo Andongo (Malanje): rutas cortas entre los monolitos de granito, incluyendo las huellas talladas atribuidas a la reina Nzinga y las ruinas del fuerte portugués.</li><li>Fenda do Bimbi (Huíla): otra grieta del escarpe cerca de Lubango, menos conocida que Tundavala y habitual como caminata corta entre los viajeros que pasan por la zona; confirmar acceso y estado del sendero en Lubango antes de ir.</li><li>Serra da Leba: se puede caminar por el borde del escarpe junto al mirador del puerto, con los cerros y las curvas de herradura a la vista.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Pedras Negras: vivac salvaje entre los bloques de granito, citado por otros overlanders como uno de los mejores del país; pedir permiso o avisar en el pueblo más cercano.</li><li>Lagoa do Arco: camping básico de gestión comunitaria montado por la aldea de Njambasana, con aparcamiento y tasa — la pernocta organizada más cómoda del desierto del Namibe.</li><li>Kanjonde (pie del Morro do Moco): pernocta en la aldea o junto a ella, acordada con el guía local, como base para subir al amanecer.</li><li>Cabo Ledo: camping y alojamientos sencillos junto a la playa; el mejor sitio del país para parar dos días con el perro.</li><li>Luanda: alojamientos con parking vigilado, opción más práctica que la acampada libre en la capital.</li><li>Benguela, Lobito, Namibe, Lubango y Huambo: hoteles con aparcamiento; bases urbanas de cada tramo.</li><li>Tramo de Moxico (bajada): acampada libre habitual, pero registrarse siempre en la policía local (práctica confirmada en Cazombo por otros viajeros) y pedir orientación a los ancianos del pueblo sobre el estado de la pista.</li></ul>"
     ],
     [
       "agua-combustible",
@@ -284,7 +368,7 @@
     [
       "perro",
       "Perro y salud",
-      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente (&lt;10 días) y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Sin requisitos adicionales específicos identificados más allá de los comunes del proyecto (microchip, pasaporte UE, titulación de anticuerpos ya obtenida antes de salir de la UE).</li><li>Ver la matriz por zona más abajo: los dos parques nacionales (Iona, Kissama) son la única duda seria pendiente de confirmar.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Luanda, Lobito, Namibe, Miradouro da Lua, Pedras Negras, Kalandula, Serra da Leba, Tundavala</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa siempre en miradores y acantilados (Tundavala); calor seco en el sur, más húmedo en la franja costera norte.</td></tr><tr ><td>Parque Nacional de Iona / Parque Nacional de Kissama</td><td><span class=\"st st-green\">no confirmado</span></td><td>Ambos tienen guepardo/leopardo/hiena parda (Iona) o leones y elefantes reintroducidos (Kissama): tratar como prohibido para circular suelto o incluso en vehículo hasta confirmación escrita de African Parks (Iona) y del operador de Kissama. Plan B: visitar el mirador/puerta de entrada dejando al perro con un miembro del grupo en el vehículo con aire y agua, o saltar el parque en ese tramo.</td></tr><tr ><td>Baía dos Tigres, Foz do Cunene</td><td><span class=\"st st-amber\">permitido con precaución</span></td><td>Sol y calor extremos sin sombra natural en Baía dos Tigres — llevar toldo y agua de sobra; en Foz do Cunene mantener al perro lejos de la orilla por los cocodrilos del Cunene aguas abajo.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Fiebre amarilla: certificado internacional obligatorio para la entrada.</li><li>Malaria presente en todo el territorio, con mayor intensidad en el norte: profilaxis a valorar con Sanidad Exterior.</li><li>Hospital Américo Boavida (Luanda) y Hospital Central da Huíla (Lubango) como referencias hospitalarias de cada corredor; seguro con evacuación médica imprescindible, sobre todo en el tramo remoto de Moxico.</li></ul>"
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente (&lt;10 días) y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Sin requisitos adicionales específicos identificados más allá de los comunes del proyecto (microchip, pasaporte UE, titulación de anticuerpos ya obtenida antes de salir de la UE).</li><li>Ver la matriz por zona más abajo: los dos parques nacionales (Iona, Kissama) son la única duda seria pendiente de confirmar.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Waku Kungo (hipopótamos en libertad)</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>LA mejor opción de fauna salvaje del país compatible con el perro: las lagunas con hipopótamos del altiplano de Kwanza Sul están FUERA de cualquier parque nacional, así que no aplica la prohibición de mascotas. Mantener distancia real con los hipopótamos (son el animal grande más peligroso de África) y el perro atado y dentro del vehículo cerca del agua.</td></tr><tr ><td>Luanda, Benguela, Lobito, Namibe, Mussulo, Cabo Ledo</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Ciudades y playas sin restricción específica; Cabo Ledo y Mussulo son las paradas más cómodas del viaje para el perro. Calor seco en el sur, más húmedo en la franja costera norte.</td></tr><tr ><td>Miradouro da Lua, Pedras Negras, Kalandula, Serra da Leba, Tundavala, Morro do Moco, Tchitundu-Hulu, Lagoa do Arco</td><td><span class=\"st st-green\">permitido</span></td><td>Todos son sitios abiertos sin gestión de parque nacional. Correa corta obligatoria en los bordes de acantilado (Tundavala, Serra da Leba) y en el sendero de bajada a Kalandula. En el Moco, consultar con el guía de Kanjonde si el perro puede acompañar la subida.</td></tr><tr ><td>Parque Nacional de Iona / Kissama / Cangandala</td><td><span class=\"st st-green\">no confirmado</span></td><td>Los tres tienen grandes depredadores o megafauna (Iona: guepardo, leopardo, hiena parda; Kissama: leones y elefantes reintroducidos; Cangandala: leopardo y león, además de la palanca negra gigante en peligro crítico). Tratar como prohibido hasta confirmación escrita de African Parks (Iona) y del INBAC (Kissama, Cangandala). Plan B: mirador o puerta de entrada con un miembro del grupo quedándose con el perro, o sustituir por Waku Kungo, que sí es compatible.</td></tr><tr ><td>Baía dos Tigres, Foz do Cunene</td><td><span class=\"st st-amber\">permitido con precaución</span></td><td>Sol y calor extremos sin sombra natural en Baía dos Tigres — llevar toldo y agua de sobra; en Foz do Cunene mantener al perro lejos de la orilla por los cocodrilos del Cunene aguas abajo.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Fiebre amarilla: certificado internacional obligatorio para la entrada.</li><li>Malaria presente en todo el territorio, con mayor intensidad en el norte: profilaxis a valorar con Sanidad Exterior.</li><li>Hospital Américo Boavida (Luanda) y Hospital Central da Huíla (Lubango) como referencias hospitalarias de cada corredor; seguro con evacuación médica imprescindible, sobre todo en el tramo remoto de Moxico.</li></ul>"
     ],
     [
       "seguridad",
@@ -294,7 +378,7 @@
     [
       "gpx",
       "Validación y decisiones",
-      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado de doble entrada</td><td>Confirmar si la exención de 30 días cubre las dos pasadas (bajada y subida) o si hace falta e-Visa de entrada múltiple</td></tr><tr ><td>Frontera Caripande/Cazombo</td><td>Confirmar horario, estado real de la pista y si el trámite acepta inglés o solo portugués, 30-60 días antes</td></tr><tr ><td>Perro en Iona y Kissama</td><td>Contactar con African Parks (Iona) y el operador de Kissama para confirmar si el perro puede ir en el vehículo dentro del parque</td></tr><tr ><td>Baía dos Tigres</td><td>Decidir si se intenta en solitario (2 vehículos + mareas) o se contrata apoyo local, y si encaja en el calendario del bloque sur</td></tr><tr ><td>M'banza-Kongo</td><td>Decidir si el desvío UNESCO entra en el calendario del tramo centroafricano</td></tr><tr ><td>Seguro e importación del vehículo</td><td>Confirmar el procedimiento exacto al entrar por Lufu/Luvo y por Santa Clara, fuera de CEDEAO/CEMAC</td></tr><tr ><td>Dron</td><td>Contactar con el INAVIC o descartar el vuelo en el país</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado de doble entrada</td><td>Confirmar si la exención de 30 días cubre las dos pasadas (bajada y subida) o si hace falta e-Visa de entrada múltiple</td></tr><tr ><td>Frontera Caripande/Cazombo</td><td>Confirmar horario, estado real de la pista y si el trámite acepta inglés o solo portugués, 30-60 días antes</td></tr><tr ><td>Perro en Iona, Kissama y Cangandala</td><td>Contactar con African Parks (Iona) y el INBAC (Kissama, Cangandala) para confirmar si el perro puede ir en el vehículo dentro del parque</td></tr><tr ><td>Cangandala · acceso real</td><td>Confirmar con el INBAC si el parque está ya abierto al público, cuál es la puerta de entrada y su coordenada exacta, y si la palanca negra gigante es avistable sin guía oficial</td></tr><tr ><td>Morro do Moco · guía local</td><td>Contactar con la aldea de Kanjonde para la subida a pie y confirmar si el perro puede acompañar o se queda en el vehículo en la aldea</td></tr><tr ><td>Lagoa do Arco · ¿tiene agua?</td><td>Confirmar antes de desviarse: estuvo seca varios años tras las lluvias fallidas de 2013-2014</td></tr><tr ><td>Bicuar (Huíla)</td><td>Parque en reconstrucción con elefantes volviendo; confirmar si es visitable en 2027 y si compensa el desvío de 120 km desde Lubango</td></tr><tr ><td>Fotos pendientes de sustituir</td><td>Bailundo, Tchitundu-Hulu y Foz do Cunene usan imágenes de referencia de su región, no del propio sitio: sustituir por fotos propias cuando las tengamos</td></tr><tr ><td>Baía dos Tigres</td><td>Decidir si se intenta en solitario (2 vehículos + mareas) o se contrata apoyo local, y si encaja en el calendario del bloque sur</td></tr><tr ><td>M'banza-Kongo</td><td>Decidir si el desvío UNESCO entra en el calendario del tramo centroafricano</td></tr><tr ><td>Seguro e importación del vehículo</td><td>Confirmar el procedimiento exacto al entrar por Lufu/Luvo y por Santa Clara, fuera de CEDEAO/CEMAC</td></tr><tr ><td>Dron</td><td>Contactar con el INAVIC o descartar el vuelo en el país</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
     ],
     [
       "experiencias",
