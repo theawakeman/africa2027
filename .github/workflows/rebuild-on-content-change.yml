@@ -24,6 +24,8 @@ jobs:
 
       - name: Reconstruir el sitio estático
         run: python3 tools/gen/build.py
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
 
       - name: Publicar los cambios
         run: |
