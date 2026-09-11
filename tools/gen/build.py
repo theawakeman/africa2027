@@ -21,7 +21,8 @@ import importlib
 for _slug in ["marruecos", "sahara-occidental", "guinea", "sierra-leona", "liberia", "costa-de-marfil",
               "ghana", "togo", "benin", "nigeria", "camerun", "gabon", "congo", "rd-congo", "angola",
               "namibia", "sudafrica", "mozambique", "malaui", "tanzania", "kenia", "etiopia", "sudan", "egipto",
-              "gambia", "lesoto", "esuatini", "zimbabue", "botsuana", "zambia", "uganda", "ruanda", "yibuti"]:
+              "gambia", "lesoto", "esuatini", "zimbabue", "botsuana", "zambia", "uganda", "ruanda", "yibuti",
+              "madagascar"]:
     try:
         _m = importlib.import_module("data_" + _slug.replace("-", "_"))
         FULL[_slug] = _m.get_data()
@@ -419,13 +420,13 @@ def render_historia(d):
 def render_portal(countries):
     root = ""
     nav = top_nav(root)
-    ruta_total = sum(1 for c in countries if c["group"] in ("bajada", "regreso", "alternativa"))
-    ruta_completas = sum(1 for c in countries if c["group"] in ("bajada", "regreso", "alternativa") and c["estado"] == "completa")
+    ruta_total = sum(1 for c in countries if c["group"] in ("bajada", "bucle", "subida"))
+    ruta_completas = sum(1 for c in countries if c["group"] in ("bajada", "bucle", "subida") and c["estado"] == "completa")
     groups = {}
     for c in countries:
         groups.setdefault(c["group"], []).append(c)
     cards_html = ""
-    order = ["bajada", "regreso", "alternativa", "excluido", "fuera"]
+    order = ["bajada", "bucle", "subida", "alternativa", "vuelo", "excluido", "fuera"]
     for g in order:
         if g not in groups:
             continue

@@ -1813,4 +1813,25 @@
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>43.1456,11.5721,0</coordinates></Point>
   </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional Ivato (Antananarivo)</name>
+    <description><![CDATA[<b>Consular</b><br/>Único aeropuerto internacional relevante para esta escapada; vuelos domésticos de Air Madagascar/Tsaradia hacia Morondava, Nosy Be y otros puntos.<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.7969,47.4788">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.4788,-18.7969,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital Joseph Ravoahangy Andrianavalona (HJRA), Antananarivo</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país, en la capital; fuera de Antananarivo la atención médica es muy limitada — seguro de evacuación fuertemente recomendado.<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.91,47.525">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.525,-18.91,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre ValBio, cerca de Ranomafana</name>
+    <description><![CDATA[<b>Servicio</b><br/>Centro de investigación con presencia médica básica ligada al parque; no sustituye una evacuación a Antananarivo en caso serio.<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.255,47.42">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.42,-21.255,0</coordinates></Point>
+  </Placemark>
 </Document></kml>
