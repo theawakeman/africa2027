@@ -1716,18 +1716,18 @@
     <Point><coordinates>25.15,-17.8167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Kazungula (con Botsuana/Zimbabue)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Punto cuádruple con puente nuevo sobre el Zambeze; cruce ágil, base para enlazar con Botsuana o continuar hacia Zimbabue por Victoria Falls.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.7833,25.2667">Google Maps</a>]]></description>
+    <name>Frontera · Entrada — Chavuma/Caripande (desde Angola)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso remoto del noroeste, frente al puesto angoleño de Caripande. Pistas de arena con charcos profundos en el lado angoleño; en el zambiano mejora hacia Zambezi town. Solo temporada seca (mayo-septiembre). Las cataratas de Chavuma, sobre el Zambeze, están junto al propio paso y merecen la parada. Confirmar horario (suele 07:00-18:00) y que el puesto emite visado en frontera.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.0833,22.6833">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>25.2667,-17.7833,0</coordinates></Point>
+    <Point><coordinates>22.6833,-13.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Chirundu (con Zimbabue)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Uno de los pasos más transitados de la región (corredor Norte-Sur); puesto fronterizo de ventanilla única (one-stop border post), relativamente ágil para lo que es la media regional.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.0333,28.85">Google Maps</a>]]></description>
+    <name>Frontera · Salida — Nakonde/Tunduma (hacia Tanzania)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El gran paso del corredor TANZAM, el más transitado del norte: mucho camión, colas y gestores informales. Puesto de ventanilla única. Llegar temprano y contar con varias horas; vigilar la documentación del vehículo en todo momento.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.3333,32.75">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>28.85,-16.0333,0</coordinates></Point>
+    <Point><coordinates>32.75,-9.3333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Harare (competente para Zambia)</name>
@@ -1738,24 +1738,66 @@
   </Placemark>
   <Placemark>
     <name>University Teaching Hospital, Lusaka</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país en la capital; para necesidades serias, evacuación hacia Sudáfrica es la práctica habitual en la región.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.4067,28.305">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país en la capital; para necesidades serias, la evacuación hacia Sudáfrica es la práctica habitual en la región.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.4067,28.305">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>28.305,-15.4067,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Livingstone / Lusaka / Mfuwe</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en las tres localidades; repostar a fondo en cada una, especialmente antes del tramo hacia South Luangwa, con menos oferta fiable en el camino.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8419,25.8543">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>25.8543,-17.8419,0</coordinates></Point>
+    <name>Hospital general de Kasama (norte)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia sanitaria del circuito de cascadas y del tramo de Tanganyika; lo más cercano a Mpulungu, Kalambo y Chishimba.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-10.2129,31.1808">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1808,-10.2129,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Livingstone y Lusaka</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en ambas ciudades; lodges y campings permiten llenar el depósito de uso general con manguera, confirmar potabilidad en zonas rurales del valle del Luangwa.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8419,25.8543">Google Maps</a>]]></description>
+    <name>Combustible · Mongu (oeste)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Única oferta formal fiable del oeste: repostar a fondo aquí tanto al entrar desde Angola como antes de cruzar hacia Kafue. Entre la frontera y Mongu no hay garantía ninguna.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.2667,23.1333">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>23.1333,-15.2667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Lusaka</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país, con todas las marcas y gasóleo fiable. Punto de repostaje a fondo antes del norte.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.4067,28.305">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.305,-15.4067,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Serenje / Mpika (Great North Road)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Las dos plazas del eje norte y el último suministro seguro antes de Bangweulu y Kasanka: African Parks recomienda expresamente salir de aquí con el depósito lleno y provisiones.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.8333,31.45">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.45,-11.8333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Kasama / Mbala (norte)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Oferta razonable en el norte profundo; repostar antes de meterse en el circuito de cascadas (Mporokoso, Kawambwa) donde la oferta es irregular.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-10.2129,31.1808">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1808,-10.2129,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kawambwa · provisiones del circuito de cascadas</name>
+    <description><![CDATA[<b>Servicio</b><br/>Panaderías y tiendas de alimentación: el único reabastecimiento real entre las cascadas de Lumangwe, Kabwelume y Ntumbachushi.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.7833,29.0833">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.0833,-9.7833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Lusaka y Livingstone</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en ambas; lodges y campings permiten llenar el depósito de uso general con manguera. En el valle del Luangwa y el norte rural, confirmar potabilidad antes de beber.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.4067,28.305">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>25.8543,-17.8419,0</coordinates></Point>
+    <Point><coordinates>28.305,-15.4067,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · campings de cascadas (norte)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Lumangwe, Ntumbachushi y Chishimba tienen camping con aseos y agua corriente; tratarla antes de beber. Las pozas son de agua cristalina pero no potable sin filtrar.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.5333,29.3833">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.3833,-9.5333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Malaba (con Kenia)</name>
