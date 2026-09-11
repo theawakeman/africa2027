@@ -3,24 +3,24 @@
   "hero_credit": "Luanda · Chimpanz APe · CC BY 2.0",
   "chips": [
     [
-      "ENTRADA",
-      "Lufu/Luvo (desde RD Congo)"
+      "BAJADA",
+      "Lufu/Luvo → Malanje (Kalandula) → Cazombo/Caripande (Zambia)"
     ],
     [
-      "SALIDA",
-      "Santa Clara/Oshikango (hacia Namibia)"
+      "SUBIDA",
+      "Santa Clara/Oshikango → Namibe/Leba/Tundavala → Lobito → Kissama → Luanda → Lufu/Luvo"
     ],
     [
       "SEGURIDAD",
-      "estable · precaución normal"
+      "estable · precaución normal, extremar en el tramo remoto de Moxico"
     ],
     [
       "VISADO",
       "exención de 30 días para españoles — verificar vigencia antes de viajar"
     ],
     [
-      "DESVÍO UNESCO",
-      "M'banza-Kongo, cerca de la frontera de entrada"
+      "4x4 MÍTICO",
+      "Serra da Leba · Tundavala · Baía dos Tigres (avanzado)"
     ],
     [
       "REVALIDACIÓN",
@@ -62,18 +62,32 @@
   ],
   "logistics": [
     {
-      "name": "Frontera · Entrada — Lufu/Luvo (desde RD Congo)",
+      "name": "Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)",
       "cat": "Frontera",
       "lat": -5.9167,
       "lon": 13.9667,
-      "info": "Cruce del puente fronterizo con RD Congo; registro y sellado ~500 m dentro de Angola. Desvío opcional a M'banza-Kongo (Patrimonio Mundial UNESCO, antigua capital del Reino del Kongo) a poca distancia de la frontera."
+      "info": "Cruce del puente fronterizo con RD Congo; registro y sellado ~500 m dentro de Angola. Desvío opcional a M'banza-Kongo (Patrimonio Mundial UNESCO, antigua capital del Reino del Kongo) a poca distancia. También es la frontera de SALIDA en la subida, cerrando el corredor angoleño."
     },
     {
-      "name": "Frontera · Salida — Santa Clara/Oshikango (hacia Namibia)",
+      "name": "Frontera · Salida bajada — Caripande (hacia Zambia, cerca de Cazombo)",
+      "cat": "Frontera",
+      "lat": -11.9,
+      "lon": 22.9,
+      "info": "Paso remoto en el extremo este de Angola (provincia de Moxico), frente al puesto zambiano de Chavuma. Otros overlanders describen la oficina de inmigración angoleña como muy precaria (secuelas de la guerra) y el trámite en portugués; más de 100 km de pistas de arena con charcos profundos entre Cazombo y la zona previa a la frontera, intransitables o muy lentos en temporada de lluvias (octubre-marzo). Cruzar solo en temporada seca (mayo-septiembre) y registrarse en la policía de Cazombo."
+    },
+    {
+      "name": "Frontera · Entrada subida — Santa Clara/Oshikango (desde Namibia)",
       "cat": "Frontera",
       "lat": -17.35,
       "lon": 15.75,
-      "info": "Paso principal y más transitado hacia Namibia; carretera asfaltada en ambos lados, infraestructura de control moderna."
+      "info": "Paso principal y más transitado entre Angola y Namibia; carretera asfaltada en ambos lados, infraestructura de control moderna. Punto de entrada de la subida hacia Namibe, Serra da Leba y Tundavala."
+    },
+    {
+      "name": "Frontera · Alternativa subida — Calueque/Ruacana (desde Namibia)",
+      "cat": "Frontera",
+      "lat": -17.2825,
+      "lon": 14.5347,
+      "info": "Paso alternativo más al oeste, junto a la presa de Calueque sobre el río Cunene y el puesto namibio de Ruacana/Omahenene; pista sin asfaltar en el lado angoleño, más lenta que Santa Clara pero da acceso directo a las cataratas de Ruacana, Epupa (lado namibio) y al Parque Nacional de Iona sin desvío adicional."
     },
     {
       "name": "Embajada de España en Luanda",
@@ -90,11 +104,18 @@
       "info": "Principal hospital de referencia de la capital. Coordenada urbana aproximada."
     },
     {
+      "name": "Hospital Central da Huíla — Lubango",
+      "cat": "Hospital",
+      "lat": -14.9077,
+      "lon": 13.4925,
+      "info": "Referencia hospitalaria del tramo de Serra da Leba y Tundavala, en la subida entre Namibe y la costa."
+    },
+    {
       "name": "Combustible · Luanda / Lobito",
       "cat": "Combustible",
       "lat": -8.8383,
       "lon": 13.2344,
-      "info": "Mejor oferta y calidad del país (Sonangol, Pumangol) en las dos grandes ciudades costeras; repostar a fondo en ambas antes de tramos más largos hacia el sur."
+      "info": "Mejor oferta y calidad del país (Sonangol, Pumangol) en las dos grandes ciudades costeras; repostar a fondo en ambas."
     },
     {
       "name": "Combustible · M'banza-Kongo / Uíge (eje norte)",
@@ -102,6 +123,27 @@
       "lat": -6.2667,
       "lon": 14.25,
       "info": "Estaciones formales en el desvío norte antes de bajar a Luanda; confirmar disponibilidad, oferta más limitada que en la costa."
+    },
+    {
+      "name": "Combustible · Malanje",
+      "cat": "Combustible",
+      "lat": -9.5402,
+      "lon": 16.341,
+      "info": "Última oferta formal de combustible sólida antes de internarse hacia el este (Kuito, Luena, Cazombo); repostar a fondo aquí en la bajada."
+    },
+    {
+      "name": "Combustible · Cazombo (extremo este, escaso)",
+      "cat": "Combustible",
+      "lat": -11.9,
+      "lon": 22.9,
+      "info": "Oferta muy limitada e irregular; llegar con depósitos y garrafas de reserva llenas desde Luena, sobre todo si el cruce a Zambia se complica por barro."
+    },
+    {
+      "name": "Combustible · Namibe / Lubango (eje sur)",
+      "cat": "Combustible",
+      "lat": -15.1961,
+      "lon": 12.1522,
+      "info": "Estaciones formales en ambas ciudades; repostar en Namibe antes de Baía dos Tigres/Iona (sin oferta) y de nuevo en Lubango tras Serra da Leba."
     },
     {
       "name": "Agua potable y de uso general · Luanda",
@@ -125,10 +167,6 @@
       "https://whirled-away.com/border-crossing-drc-angola/"
     ],
     [
-      "Africa Tour Visa · frontera Angola-República del Congo (referencia Cabinda)",
-      "https://www.africatourvisa.com/angola/border-crossing/republicof-the-congo-border/"
-    ],
-    [
       "Embajada de España en Angola · contacto",
       "https://www.exteriores.gob.es/Embajadas/luanda/es/Paginas/index.aspx"
     ],
@@ -141,15 +179,67 @@
       "https://whc.unesco.org/en/list/1473/"
     ],
     [
-      "iOverlander · puntos de combustible y agua verificados por la comunidad",
+      "iOverlander · puntos de combustible, agua y fronteras verificados por la comunidad",
       "https://ioverlander.com/"
     ],
     [
-      "Tracks4Africa · cartografía y puntos overland de África",
+      "Tracks4Africa · cartografía, puntos overland y blog de viajeros por África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "Tracks4Africa Blog · «Angola… an acquired taste» — guía práctica de overland por Angola",
+      "https://blog.tracks4africa.co.za/angola-acquired-taste/"
+    ],
+    [
+      "Paul Godard · relato de expedición 4x4 por el sur de Angola (2022)",
+      "https://www.paulgodard.com/blog/79"
+    ],
+    [
+      "Africa Overland Blog · cruce de frontera Zambia-Angola por Chavuma/Caripande y travesía hasta Kalandula",
+      "https://africaoverland.blog/2019/12/08/road-tripping-across-angola/"
+    ],
+    [
+      "kumakonda.com · expedición 4x4 a Baía dos Tigres y Foz do Cunene",
+      "https://kumakonda.com/ilha-da-baia-dos-tigres-angola/"
+    ],
+    [
+      "Wikipedia · Iona National Park",
+      "https://en.wikipedia.org/wiki/Iona_National_Park"
+    ],
+    [
+      "African Parks · Parque Nacional de Iona",
+      "https://www.africanparks.org/the-parks/iona"
+    ],
+    [
+      "Wikipedia · Quiçama National Park",
+      "https://en.wikipedia.org/wiki/Qui%C3%A7ama_National_Park"
+    ],
+    [
+      "Wikipedia · Kalandula Falls",
+      "https://en.wikipedia.org/wiki/Kalandula_Falls"
+    ],
+    [
+      "Wikipedia · Black Rocks at Pungo Andongo",
+      "https://en.wikipedia.org/wiki/Black_Rocks_at_Pungo_Andongo"
+    ],
+    [
+      "Wikipedia · Tundavala Gap",
+      "https://en.wikipedia.org/wiki/Tundavala_Gap"
+    ],
+    [
+      "Wikipedia · Serra da Leba",
+      "https://en.wikipedia.org/wiki/Serra_da_Leba"
+    ],
+    [
+      "Wikipedia · Cazombo",
+      "https://en.wikipedia.org/wiki/Cazombo"
+    ],
+    [
+      "Wikipedia · Calueque",
+      "https://en.wikipedia.org/wiki/Calueque"
     ]
   ],
-  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
+  "sources_note": "Última revisión de esta versión: 11 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
   "emergency": "Emergencia consular española (Luanda): +244 929 900 900 · Embajada: +244 222 391 166.",
   "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
   "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
@@ -157,7 +247,7 @@
     [
       "resumen",
       "Resumen operativo",
-      "<p>Angola marca el regreso a un país con infraestructura sólida y buenas carreteras tras el tramo más exigente de Centroáfrica: Luanda como gran base logística, el paisaje lunar del Miradouro da Lua a las puertas de la capital, la ciudad colonial de Lobito y un desvío histórico opcional a M'banza-Kongo (UNESCO) cerca de la frontera de entrada, antes del largo descenso hacia Namibia.</p><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Dentro del corredor de bajada, tras RD Congo y antes de Namibia.</td></tr><tr ><td>Entrada</td><td>Lufu/Luvo desde RD Congo; desvío opcional a M'banza-Kongo (UNESCO) a poca distancia.</td></tr><tr ><td>Salida</td><td>Santa Clara/Oshikango hacia Namibia: paso más transitado, infraestructura moderna.</td></tr><tr ><td>Visado</td><td>Exención de visado de turismo de 30 días para pasaportes españoles a fecha de esta revisión — confirmar vigencia 30-60 días antes, la política ha cambiado varias veces en los últimos años.</td></tr><tr ><td>Seguridad</td><td>Estable en todo el país, precaución normal; sin zonas excluidas en el corredor previsto.</td></tr><tr ><td>Comunicaciones</td><td>Starlink anunciado para 2026, no confirmado activo; SIM local (Unitel, Africell) como base.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Visado:</strong> la exención de 30 días para españoles debe reconfirmarse 30-60 días antes de viajar — Angola ha ajustado su política de visados varias veces en los últimos años; si hay cualquier duda, tramitar el e-Visa como respaldo.</li><li><strong>Reentradas:</strong> si el itinerario contempla salir de Angola y volver a entrar (por ejemplo, por un desvío a Cabinda), verificar que el régimen de entrada aplicable permite múltiples entradas — la exención de 30 días se trata como de entrada única salvo confirmación expresa.</li><li><strong>M'banza-Kongo:</strong> desvío que añade tiempo y pista adicional cerca de la frontera — valorar según el calendario general del tramo centroafricano, que ya acumula varias fronteras complejas seguidas.</li></ul>"
+      "<p>Angola se recorre DOS VECES en direcciones distintas: en la <strong>bajada</strong>, tras RD Congo, un eje corto por Luanda y un desvío interior a las cascadas de Kalandula y Pedras Negras antes de internarse hacia el este remoto de Moxico y cruzar a Zambia por Caripande/Cazombo; en la <strong>subida</strong>, ya de vuelta desde Namibia, el país se cruza por el extremo suroeste — el desierto del Namibe, el Parque Nacional de Iona, Serra da Leba y Tundavala — antes de subir por la costa (Lobito, Kissama) hasta Luanda y salir de nuevo por Lufu/Luvo hacia RD Congo. Los dos corredores solo comparten Luanda y la propia frontera del norte; el resto del país se ve por completo distinto en cada pasada.</p><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Bajada: tras RD Congo, antes de Zambia. Subida: tras Namibia, antes de continuar por RD Congo/Congo hacia el norte.</td></tr><tr ><td>Entrada bajada</td><td>Lufu/Luvo desde RD Congo; desvío opcional a M'banza-Kongo (UNESCO) a poca distancia.</td></tr><tr ><td>Salida bajada</td><td>Caripande, cerca de Cazombo, hacia Zambia (Chavuma): paso remoto, pistas de arena, solo en temporada seca.</td></tr><tr ><td>Entrada subida</td><td>Santa Clara/Oshikango desde Namibia (o Calueque/Ruacana como alternativa más al oeste).</td></tr><tr ><td>Salida subida</td><td>Lufu/Luvo hacia RD Congo, cerrando el corredor angoleño antes de continuar la subida por Congo/Camerún.</td></tr><tr ><td>Visado</td><td>Exención de visado de turismo de 30 días para pasaportes españoles a fecha de esta revisión — confirmar vigencia 30-60 días antes; comprobar también si permite las dos entradas (bajada y subida) o si hace falta e-Visa de entrada múltiple.</td></tr><tr ><td>Seguridad</td><td>Estable en todo el país, precaución normal; el único tramo que exige planificación adicional es el extremo este (Moxico) en la bajada, por aislamiento y estado de las pistas, no por inseguridad.</td></tr><tr ><td>Comunicaciones</td><td>Starlink anunciado para 2026, no confirmado activo; SIM local (Unitel, Africell) como base, con cobertura muy limitada en el tramo de Moxico.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Visado:</strong> la exención de 30 días para españoles debe reconfirmarse 30-60 días antes de viajar — Angola ha ajustado su política de visados varias veces en los últimos años; si hay cualquier duda, tramitar el e-Visa como respaldo, y verificar expresamente si admite dos entradas separadas (bajada y subida) dentro del mismo viaje.</li><li><strong>Reentrada:</strong> al tratarse de un corredor doble (se sale hacia Zambia y se vuelve a entrar meses después desde Namibia), confirmar con la representación consular angoleña si la exención de 30 días cubre dos entradas o si hace falta gestionar dos trámites distintos.</li><li><strong>Tramo Malanje–Cazombo (bajada):</strong> más de 100 km de pista de arena con posibles charcos profundos y puentes de madera; viajar solo en temporada seca (mayo-septiembre) y llevar combustible y agua de reserva — la oferta de ambos es escasa a partir de Malanje.</li><li><strong>M'banza-Kongo:</strong> desvío que añade tiempo y pista adicional cerca de la frontera de entrada — valorar según el calendario general del tramo centroafricano, que ya acumula varias fronteras complejas seguidas.</li><li><strong>Baía dos Tigres:</strong> tramo avanzado que depende de mareas y fase lunar; no intentarlo sin al menos 2 vehículos y, idealmente, apoyo de un operador local (p. ej. Sandura Tours) — tratarlo como opcional según tiempo y experiencia del grupo en arena.</li></ul>"
     ],
     [
       "historia",
@@ -167,44 +257,49 @@
     [
       "ruta",
       "Ruta propuesta",
-      "<p>Descenso por la costa atlántica angoleña, desde la frontera de RD Congo hasta el paso hacia Namibia.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y desvío histórico</td><td>Lufu/Luvo → (M'banza-Kongo opcional) → Luanda</td><td>UNESCO cerca de la frontera; capital como base logística</td></tr><tr ><td>Paisaje y costa</td><td>Luanda → Miradouro da Lua → Lobito</td><td>Mirador lunar; ciudad colonial portuaria</td></tr><tr ><td>Hacia Namibia</td><td>Lobito → Namibe → Santa Clara/Oshikango</td><td>Descenso largo por buena infraestructura hasta la frontera namibia</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Sin pistas 4x4 destacadas de interés específico para el proyecto en este primer tramo angoleño: la costa Luanda-Lobito es carretera asfaltada en buen estado; el desierto del Namibe (más al sur) se trata en el tramo siguiente.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Luanda: alojamientos con parking vigilado, opción más práctica que la acampada libre en la capital.</li><li>Lobito: hoteles y alguna opción de camping costero con aparcamiento.</li></ul>"
+      "<p>Angola se cruza dos veces por regiones distintas: la bajada por el eje Luanda–Malanje–Moxico hacia Zambia, y la subida por el desierto del suroeste (Namibe–Iona–Leba–Tundavala) y la costa hasta Luanda.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Bajada · Entrada y desvío histórico</td><td>Lufu/Luvo → (M'banza-Kongo opcional) → Luanda</td><td>UNESCO cerca de la frontera; capital como base logística</td></tr><tr ><td>Bajada · Interior de Malanje</td><td>Luanda → Miradouro da Lua → Pedras Negras → Cascadas de Kalandula</td><td>Desvío interior con dos de los paisajes más espectaculares del país</td></tr><tr ><td>Bajada · Travesía a Zambia</td><td>Kalandula → Kuito/Luena → Cazombo → Caripande (frontera)</td><td>Tramo remoto de Moxico; solo en temporada seca, con depósitos llenos</td></tr><tr ><td>Subida · Entrada suroeste</td><td>Santa Clara/Oshikango (o Calueque/Ruacana) → Parque de Iona → Foz do Cunene</td><td>Bucle desértico de 2-3 días antes de subir hacia Namibe</td></tr><tr ><td>Subida · Desierto y meseta</td><td>Namibe → Baía dos Tigres (opcional, avanzado) → Serra da Leba → Lubango/Tundavala</td><td>El bloque de tramos 4x4 míticos del país: duna hasta el mar, puerto de montaña y fenda</td></tr><tr ><td>Subida · Costa y cierre</td><td>Lubango → Lobito → Kissama → Luanda → Lufu/Luvo</td><td>Vuelta a la capital y salida hacia RD Congo para continuar la subida</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Serra da Leba (EN280): el puerto de montaña más icónico de Angola, con curvas de herradura cerradas subiendo de ~720 m a 1.845 m entre Namibe y Lubango; asfaltado pero exigente, parada fotográfica obligada con los 4x4.</li><li>Tundavala: pista de tierra de ~18 km desde Lubango hasta el borde de la fenda (2.200 m); terreno suelto en tramos, correa corta para el perro en el propio mirador por el desnivel de más de 1.000 m.</li><li>Baía dos Tigres (avanzado, opcional): EL tramo mítico de 'duna que llega al mar' del sur de Angola, a través del paso de marea 'Doodsakker' desde Tombwa — solo con marea baja y luna llena o nueva, mínimo 2 vehículos y equipo de recuperación. Encaja exactamente con lo que buscamos para el bloque sur, pero exige preparación experta o guía local.</li><li>Parque Nacional de Iona: pistas de arena y tierra por paisaje semidesértico sin señalización fija; jornada completa desde Namibe, GPX o guía recomendado.</li><li>Tramo Malanje–Cazombo (bajada, no recreativo pero sí 4x4 real): más de 100 km de arena profunda y barro en temporada de lluvias, según relatos de otros overlanders; en temporada seca es un tramo largo pero asumible con 4x4 estándar.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Luanda: alojamientos con parking vigilado, opción más práctica que la acampada libre en la capital.</li><li>Lobito: hoteles y alguna opción de camping costero con aparcamiento.</li><li>Pedras Negras: vivac salvaje entre los bloques de granito, citado por otros overlanders como uno de los mejores del país; pedir permiso/avisar en el pueblo más cercano.</li><li>Namibe y Lubango: hoteles con aparcamiento; base para las excursiones a Tundavala, Serra da Leba e Iona.</li><li>Tramo de Moxico (bajada): acampada libre habitual, pero registrarse siempre en la policía local (práctica confirmada en Cazombo por otros viajeros) y pedir orientación a los ancianos del pueblo sobre el estado de la pista.</li></ul>"
     ],
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Luanda: agua embotellada en supermercados sin problema de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito con manguera; confirmar en recepción.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje costero: Lufu/Luvo → Luanda (~350 km) → Miradouro da Lua (~40 km) → Lobito (~500 km), con estaciones formales (Sonangol, Pumangol) en cada núcleo urbano intermedio.</li><li>Repostar a fondo en Luanda y de nuevo en Lobito antes de continuar hacia Namibe y el sur, donde la oferta se espacía más.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Luanda: agua embotellada en supermercados sin problema de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): estaciones de servicio y hoteles de Luanda, Lobito y Namibe permiten llenar el depósito con manguera; confirmar en recepción.</li><li>Tramo de Moxico y Baía dos Tigres: sin garantía ninguna — salir con depósitos llenos al 100%.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada: sin riesgo de gap de 500 km hasta Malanje (Lufu/Luvo → Luanda ~350 km → Malanje ~350 km, con estaciones formales en cada núcleo); a partir de Malanje hacia Cazombo la oferta se espacía mucho — depósitos llenos y garrafas de reserva.</li><li>Subida: Santa Clara/Oshikango → Namibe (~300 km) con oferta razonable; sin garantía entre Namibe y Baía dos Tigres/Iona — llenar en Namibe. Namibe → Lubango (Serra da Leba) → Lobito → Luanda con estaciones formales en cada ciudad.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
     [
       "fronteras",
       "Visado, fronteras y vehículos",
-      "<h3>Visado</h3><ul class=\"ticks\"><li>Exención de visado de turismo (30 días) para pasaportes españoles a fecha de esta revisión; confirmar vigencia 30-60 días antes de viajar.</li><li>Si la exención cambiara, tramitar el e-Visa angoleño con antelación suficiente, prestando atención a si se necesita entrada múltiple.</li><li>Certificado internacional de fiebre amarilla exigido en frontera.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Lufu/Luvo (RD Congo)</td><td>Cruce del puente fronterizo; registro y sellado ~500 m dentro de Angola; desvío opcional a M'banza-Kongo cerca de aquí.</td></tr><tr ><td>Salida</td><td>Santa Clara/Oshikango (Namibia)</td><td>Paso más transitado hacia Namibia; carretera asfaltada e infraestructura de control moderna en ambos lados.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD recomendado; confirmar si Angola exige también una importación temporal adicional del vehículo, dado que el país no pertenece a CEDEAO ni a CEMAC.</li><li>Seguro de responsabilidad civil local obligatorio: contratarlo al entrar por Lufu/Luvo si no se dispone de cobertura previa válida.</li><li>Carnet de conducir internacional obligatorio en todos los controles.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+      "<h3>Visado</h3><ul class=\"ticks\"><li>Exención de visado de turismo (30 días) para pasaportes españoles a fecha de esta revisión; confirmar vigencia 30-60 días antes de viajar.</li><li>Confirmar expresamente si la exención permite dos entradas (bajada y subida) dentro del mismo viaje o si hace falta gestionar el e-Visa de entrada múltiple con antelación.</li><li>Certificado internacional de fiebre amarilla exigido en frontera.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada bajada</td><td>Lufu/Luvo (RD Congo)</td><td>Cruce del puente fronterizo; registro y sellado ~500 m dentro de Angola; desvío opcional a M'banza-Kongo cerca de aquí.</td></tr><tr ><td>Salida bajada</td><td>Caripande, cerca de Cazombo (Zambia)</td><td>Paso remoto en Moxico; oficina angoleña muy precaria según otros overlanders, trámite en portugués; solo en temporada seca.</td></tr><tr ><td>Entrada subida</td><td>Santa Clara/Oshikango (Namibia)</td><td>Paso más transitado hacia Namibia; carretera asfaltada e infraestructura de control moderna en ambos lados.</td></tr><tr ><td>Alternativa entrada subida</td><td>Calueque/Ruacana (Namibia)</td><td>Más al oeste, junto a la presa de Calueque; pista sin asfaltar pero acceso directo a Ruacana, Epupa e Iona.</td></tr><tr ><td>Salida subida</td><td>Lufu/Luvo (RD Congo)</td><td>Mismo paso que la entrada de la bajada, cerrando el corredor angoleño antes de continuar la subida hacia el norte.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD recomendado; confirmar si Angola exige también una importación temporal adicional del vehículo, dado que el país no pertenece a CEDEAO ni a CEMAC.</li><li>Seguro de responsabilidad civil local obligatorio: contratarlo al entrar por Lufu/Luvo o Santa Clara si no se dispone de cobertura previa válida.</li><li>Carnet de conducir internacional obligatorio en todos los controles.</li><li>Depósitos y garrafas de combustible/agua llenos antes de Malanje→Cazombo (bajada) y antes de Namibe→Baía dos Tigres/Iona (subida): son los dos tramos del país sin garantía de suministro.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
     ],
     [
       "drones",
       "Drones",
-      "<div class=\"callout warn\"><div class=\"callout-title\">Autorización previa obligatoria: tratar como restringido</div><p>Angola exige autorización previa del Instituto Nacional de Aviação Civil (INAVIC) para cualquier vuelo de dron, con especial sensibilidad cerca de instalaciones petroleras y portuarias (Luanda, Lobito, Cabinda). Norma prudente del proyecto: no volar sin permiso escrito, y evitar cualquier vuelo cerca de infraestructura energética o militar.</p></div><ul class=\"ticks\"><li>Solicitar autorización previa por escrito al INAVIC antes de intentar introducir el dron en el país.</li><li>No volar cerca de instalaciones petroleras o portuarias (Luanda, Lobito) ni de zonas militares.</li></ul>"
+      "<div class=\"callout warn\"><div class=\"callout-title\">Autorización previa obligatoria: tratar como restringido</div><p>Angola exige autorización previa del Instituto Nacional de Aviação Civil (INAVIC) para cualquier vuelo de dron, con especial sensibilidad cerca de instalaciones petroleras y portuarias (Luanda, Lobito, Cabinda) y de la presa de Calueque. Norma prudente del proyecto: no volar sin permiso escrito, y evitar cualquier vuelo cerca de infraestructura energética, militar o de los parques nacionales sin autorización expresa.</p></div><ul class=\"ticks\"><li>Solicitar autorización previa por escrito al INAVIC antes de intentar introducir el dron en el país.</li><li>No volar cerca de instalaciones petroleras o portuarias (Luanda, Lobito), de la presa de Calueque, ni de zonas militares o de los parques nacionales sin autorización expresa.</li></ul>"
     ],
     [
       "starlink",
       "Starlink",
-      "<div class=\"callout warn\"><div class=\"callout-title\">Anunciado para 2026, aún no activo a mediados de año: tratar como no disponible</div><p>Angola figura entre los mercados africanos con Starlink previsto («coming in 2026») pero sin confirmación de servicio activo a mediados de 2026. Tratarlo como no disponible hasta confirmación oficial y mantener SIM local (Unitel, Africell) como conectividad principal.</p></div><ul class=\"ticks\"><li>Estado no confirmado a mediados de 2026 pese al anuncio de llegada dentro del año: revisar el mapa oficial 30-60 días antes.</li><li>SIM local (Unitel, Africell) como conectividad principal en Luanda y el eje costero.</li></ul>"
+      "<div class=\"callout warn\"><div class=\"callout-title\">Anunciado para 2026, aún no activo a mediados de año: tratar como no disponible</div><p>Angola figura entre los mercados africanos con Starlink previsto («coming in 2026») pero sin confirmación de servicio activo a mediados de 2026. Tratarlo como no disponible hasta confirmación oficial y mantener SIM local (Unitel, Africell) como conectividad principal; en el tramo remoto de Moxico (bajada hacia Zambia) no dar por hecho tampoco cobertura móvil continua.</p></div><ul class=\"ticks\"><li>Estado no confirmado a mediados de 2026 pese al anuncio de llegada dentro del año: revisar el mapa oficial 30-60 días antes.</li><li>SIM local (Unitel, Africell) como conectividad principal en Luanda y el eje costero; no dar por hecha cobertura móvil en el tramo remoto de Moxico.</li></ul>"
     ],
     [
       "perro",
       "Perro y salud",
-      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente (&lt;10 días) y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Sin requisitos adicionales específicos identificados más allá de los comunes del proyecto (microchip, pasaporte UE, titulación de anticuerpos ya obtenida antes de salir de la UE).</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Luanda, Miradouro da Lua, Lobito</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y sombra; calor seco en el sur, más húmedo en la franja costera norte.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Fiebre amarilla: certificado internacional obligatorio para la entrada.</li><li>Malaria presente en todo el territorio, con mayor intensidad en el norte: profilaxis a valorar con Sanidad Exterior.</li><li>Hospital Américo Boavida (Luanda) como referencia hospitalaria del tramo; seguro con evacuación médica imprescindible.</li></ul>"
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente (&lt;10 días) y vacuna antirrábica en vigor, exigibles en el control fronterizo.</li><li>Sin requisitos adicionales específicos identificados más allá de los comunes del proyecto (microchip, pasaporte UE, titulación de anticuerpos ya obtenida antes de salir de la UE).</li><li>Ver la matriz por zona más abajo: los dos parques nacionales (Iona, Kissama) son la única duda seria pendiente de confirmar.</li></ul><div class=\"callout \"><div class=\"callout-title\">Requisitos comunes del perro</div><p>Microchip, pasaporte UE, rabia y titulación serológica: ver <a href=\"../../documentacion/#perro\">Documentación general · perro</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Luanda, Lobito, Namibe, Miradouro da Lua, Pedras Negras, Kalandula, Serra da Leba, Tundavala</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa siempre en miradores y acantilados (Tundavala); calor seco en el sur, más húmedo en la franja costera norte.</td></tr><tr ><td>Parque Nacional de Iona / Parque Nacional de Kissama</td><td><span class=\"st st-green\">no confirmado</span></td><td>Ambos tienen guepardo/leopardo/hiena parda (Iona) o leones y elefantes reintroducidos (Kissama): tratar como prohibido para circular suelto o incluso en vehículo hasta confirmación escrita de African Parks (Iona) y del operador de Kissama. Plan B: visitar el mirador/puerta de entrada dejando al perro con un miembro del grupo en el vehículo con aire y agua, o saltar el parque en ese tramo.</td></tr><tr ><td>Baía dos Tigres, Foz do Cunene</td><td><span class=\"st st-amber\">permitido con precaución</span></td><td>Sol y calor extremos sin sombra natural en Baía dos Tigres — llevar toldo y agua de sobra; en Foz do Cunene mantener al perro lejos de la orilla por los cocodrilos del Cunene aguas abajo.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Fiebre amarilla: certificado internacional obligatorio para la entrada.</li><li>Malaria presente en todo el territorio, con mayor intensidad en el norte: profilaxis a valorar con Sanidad Exterior.</li><li>Hospital Américo Boavida (Luanda) y Hospital Central da Huíla (Lubango) como referencias hospitalarias de cada corredor; seguro con evacuación médica imprescindible, sobre todo en el tramo remoto de Moxico.</li></ul>"
     ],
     [
       "seguridad",
       "Seguridad y comunicaciones",
-      "<p>País estable con precaución normal en todo el corredor previsto; buena infraestructura de carreteras tras el tramo más exigente de Centroáfrica.</p><ul class=\"ticks\"><li>Sin zonas excluidas por seguridad en el tramo previsto entre Lufu/Luvo y la frontera namibia.</li><li>Extremar la precaución documental en el cruce de Lufu/Luvo: primer país fuera de las zonas de seguro regional CEDEAO/CEMAC del tramo.</li><li>Llevar siempre el certificado de fiebre amarilla y copias de la documentación del vehículo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+      "<p>País estable con precaución normal en todo el corredor previsto; el único factor a gestionar con cuidado es el aislamiento del tramo de Moxico (bajada) y la logística de mareas de Baía dos Tigres (subida), no la inseguridad.</p><ul class=\"ticks\"><li>Sin zonas excluidas por seguridad en ninguno de los dos corredores previstos.</li><li>Extremar la precaución documental en el cruce de Lufu/Luvo: primer país fuera de las zonas de seguro regional CEDEAO/CEMAC del tramo.</li><li>Tramo de Moxico (bajada): aislamiento real más que inseguridad — llevar siempre combustible, agua y comida de reserva, y registrarse en la policía local como hacen otros overlanders.</li><li>Llevar siempre el certificado de fiebre amarilla y copias de la documentación del vehículo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
     ],
     [
       "gpx",
       "Validación y decisiones",
-      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado</td><td>Reconfirmar la vigencia de la exención de 30 días para españoles 30-60 días antes de viajar</td></tr><tr ><td>M'banza-Kongo</td><td>Decidir si el desvío UNESCO entra en el calendario del tramo centroafricano</td></tr><tr ><td>Seguro e importación del vehículo</td><td>Confirmar el procedimiento exacto al entrar por Lufu/Luvo, fuera de CEDEAO/CEMAC</td></tr><tr ><td>Dron</td><td>Contactar con el INAVIC o descartar el vuelo en el país</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Visado de doble entrada</td><td>Confirmar si la exención de 30 días cubre las dos pasadas (bajada y subida) o si hace falta e-Visa de entrada múltiple</td></tr><tr ><td>Frontera Caripande/Cazombo</td><td>Confirmar horario, estado real de la pista y si el trámite acepta inglés o solo portugués, 30-60 días antes</td></tr><tr ><td>Perro en Iona y Kissama</td><td>Contactar con African Parks (Iona) y el operador de Kissama para confirmar si el perro puede ir en el vehículo dentro del parque</td></tr><tr ><td>Baía dos Tigres</td><td>Decidir si se intenta en solitario (2 vehículos + mareas) o se contrata apoyo local, y si encaja en el calendario del bloque sur</td></tr><tr ><td>M'banza-Kongo</td><td>Decidir si el desvío UNESCO entra en el calendario del tramo centroafricano</td></tr><tr ><td>Seguro e importación del vehículo</td><td>Confirmar el procedimiento exacto al entrar por Lufu/Luvo y por Santa Clara, fuera de CEDEAO/CEMAC</td></tr><tr ><td>Dron</td><td>Contactar con el INAVIC o descartar el vuelo en el país</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ],
+    [
+      "experiencias",
+      "Experiencias de otros overlanders",
+      "<p>Relatos y comentarios reales de otros overlanders sobre Angola, para contrastar con la planificación oficial de esta ficha:</p><ul class=\"ticks\"><li>Expedición 2022 por el sur de Angola (Paul Godard, 4 semanas, 2 vehículos): entrada por Santa Clara con e-visa (120 $/persona, 80 $ pagando en moneda local); ruta real Ondjiva → Xangongo → Calueque → cataratas de Ruacana → Epupa → Parque de Iona → desembocadura del Cunene → Namibe → Serra da Leba → Lubango → Tundavala → Kalandula → Pedras Negras → Kissama → Luanda. La EN140 la describen como «la peor carretera asfaltada jamás vista», con baches de hasta 80 cm; acampada libre en casi todo el trayecto, avisando siempre al jefe del pueblo o los ancianos locales.</li><li>Cruce Zambia→Angola por Chavuma/Caripande (Africa Overland Blog, ruta este-oeste hasta Kalandula): oficina de inmigración angoleña descrita como «una sala diminuta y sucia, con agujeros de bala de la guerra civil»; trámite negociado en portugués. Más de 100 km de pistas de arena con charcos profundos y puentes de madera inestables; velocidad real de 10-20 km/h. Llevar cuerdas de remolque — ayudar a vehículos varados es una norma no escrita en estas pistas. Cruzaron en diciembre, al inicio de las lluvias, y lo describen como muy exigente: recomendable evitarlo en plena temporada húmeda (octubre-marzo).</li><li><strong>Baía dos Tigres (kumakonda.com):</strong> el paso de marea 'Doodsakker' solo es practicable con marea baja y luna llena o nueva; se recomienda mínimo 2 vehículos, equipo de recuperación y, si se quiere llegar a la propia isla, una embarcación auxiliar. Los operadores especializados insisten en que es una expedición que requiere planificación profesional, no un tramo para improvisar en solitario.</li><li>Consejos generales de Tracks4Africa para overlanders en Angola: TIP (importación temporal) y seguro local de terceros obligatorios en cualquier frontera; llevar un embudo con filtro para el combustible, ya que la calidad del gasóleo/gasolina es irregular fuera de las grandes ciudades; la acampada libre está generalmente permitida en zonas remotas; los controles de policía a la entrada de los pueblos suelen ser correctos y sin problemas.</li><li><strong>Política de mascotas en Iona y Kissama:</strong> no se ha localizado ninguna normativa pública específica sobre perros en ninguno de los dos parques. Dado que ambos tienen depredadores grandes (Iona: guepardo, leopardo, hiena parda; Kissama: leones reintroducidos) o megafauna (elefantes en Kissama), la práctica habitual en parques africanos comparables es prohibirlos dentro del vehículo en zona de fauna — contactar directamente con African Parks (Iona) y con el operador de Kissama antes de viajar para confirmar, y tener un plan B (mirador de entrada, o turnos para quedarse con el perro fuera del parque).</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes de estas experiencias</div><p>Relatos y comentarios reales de otros overlanders recogidos en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a>, <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a> y blogs/foros públicos de viajeros — no son información oficial: contrastar siempre la fecha del comentario antes de confiar en un dato de frontera, pista o parque.</p></div>"
     ]
   ]
 }

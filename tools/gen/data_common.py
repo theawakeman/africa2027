@@ -30,6 +30,8 @@ def make_ficha(spec):
     d["logistics"] = [{"name": n, "cat": c, "lat": la, "lon": lo, "info": i} for n, c, la, lo, i in s["logistics"]]
     d["corridor"] = s.get("corridor", [])
     d["corridor_alt"] = s.get("corridor_alt", [])
+    d["corridor_label"] = s.get("corridor_label", "Corredor")
+    d["corridor_alt_label"] = s.get("corridor_alt_label", "Corredor (alternativo)")
 
     historia = ""
     if s.get("historia_resumen"):
@@ -108,6 +110,11 @@ def make_ficha(spec):
         ("seguridad", "Seguridad y comunicaciones", seguridad),
         ("gpx", "Validación y decisiones", gpx),
     ]
+    if s.get("experiencias"):
+        exp = f"<p>{s['experiencias_intro']}</p>" if s.get("experiencias_intro") else ""
+        exp += bullets(s["experiencias"], bold_split=True)
+        exp += callout("", "Fuentes de estas experiencias", 'Relatos y comentarios reales de otros overlanders recogidos en <a href="https://ioverlander.com/" target="_blank" rel="noopener">iOverlander</a>, <a href="https://tracks4africa.co.za/" target="_blank" rel="noopener">Tracks4Africa</a> y blogs/foros públicos de viajeros — no son información oficial: contrastar siempre la fecha del comentario antes de confiar en un dato de frontera, pista o parque.', raw=True)
+        d["custom_sections_post"].append(("experiencias", "Experiencias de otros overlanders", exp))
     d["sources"] = s["sources"]
     d["sources_note"] = s["sources_note"]
     d["emergency"] = s["emergency"]

@@ -150,9 +150,9 @@ def map_points(d, with_ficha=True):
 def map_lines(d):
     lines = []
     if d.get("corridor"):
-        lines.append({"label":"Corredor","color":"#1E7A8A","pts":[[round(a,5),round(b,5)] for a,b in d["corridor"]]})
+        lines.append({"label":d.get("corridor_label","Corredor"),"color":"#1E7A8A","pts":[[round(a,5),round(b,5)] for a,b in d["corridor"]]})
     if d.get("corridor_alt"):
-        lines.append({"label":"Corredor","color":"#C47F17","dash":True,"pts":[[round(a,5),round(b,5)] for a,b in d["corridor_alt"]]})
+        lines.append({"label":d.get("corridor_alt_label","Corredor (alternativo)"),"color":"#C47F17","dash":True,"pts":[[round(a,5),round(b,5)] for a,b in d["corridor_alt"]]})
     return lines
 
 # ---------------------------------------------------------------- nav helper

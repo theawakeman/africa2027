@@ -995,18 +995,32 @@
     <Point><coordinates>15.2663,-4.4419,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Lufu/Luvo (desde RD Congo)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce del puente fronterizo con RD Congo; registro y sellado ~500 m dentro de Angola. Desvío opcional a M'banza-Kongo (Patrimonio Mundial UNESCO, antigua capital del Reino del Kongo) a poca distancia de la frontera.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.9167,13.9667">Google Maps</a>]]></description>
+    <name>Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Cruce del puente fronterizo con RD Congo; registro y sellado ~500 m dentro de Angola. Desvío opcional a M'banza-Kongo (Patrimonio Mundial UNESCO, antigua capital del Reino del Kongo) a poca distancia. También es la frontera de SALIDA en la subida, cerrando el corredor angoleño.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.9167,13.9667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.9667,-5.9167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Santa Clara/Oshikango (hacia Namibia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal y más transitado hacia Namibia; carretera asfaltada en ambos lados, infraestructura de control moderna.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.35,15.75">Google Maps</a>]]></description>
+    <name>Frontera · Salida bajada — Caripande (hacia Zambia, cerca de Cazombo)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso remoto en el extremo este de Angola (provincia de Moxico), frente al puesto zambiano de Chavuma. Otros overlanders describen la oficina de inmigración angoleña como muy precaria (secuelas de la guerra) y el trámite en portugués; más de 100 km de pistas de arena con charcos profundos entre Cazombo y la zona previa a la frontera, intransitables o muy lentos en temporada de lluvias (octubre-marzo). Cruzar solo en temporada seca (mayo-septiembre) y registrarse en la policía de Cazombo.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.9,22.9">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>22.9,-11.9,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada subida — Santa Clara/Oshikango (desde Namibia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal y más transitado entre Angola y Namibia; carretera asfaltada en ambos lados, infraestructura de control moderna. Punto de entrada de la subida hacia Namibe, Serra da Leba y Tundavala.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.35,15.75">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.75,-17.35,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Alternativa subida — Calueque/Ruacana (desde Namibia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso alternativo más al oeste, junto a la presa de Calueque sobre el río Cunene y el puesto namibio de Ruacana/Omahenene; pista sin asfaltar en el lado angoleño, más lenta que Santa Clara pero da acceso directo a las cataratas de Ruacana, Epupa (lado namibio) y al Parque Nacional de Iona sin desvío adicional.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.2825,14.5347">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.5347,-17.2825,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Luanda</name>
@@ -1023,8 +1037,15 @@
     <Point><coordinates>13.2302,-8.8147,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Hospital Central da Huíla — Lubango</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del tramo de Serra da Leba y Tundavala, en la subida entre Namibe y la costa.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.9077,13.4925">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.4925,-14.9077,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Combustible · Luanda / Lobito</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Sonangol, Pumangol) en las dos grandes ciudades costeras; repostar a fondo en ambas antes de tramos más largos hacia el sur.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.8383,13.2344">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Sonangol, Pumangol) en las dos grandes ciudades costeras; repostar a fondo en ambas.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.8383,13.2344">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.2344,-8.8383,0</coordinates></Point>
@@ -1035,6 +1056,27 @@
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>14.25,-6.2667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Malanje</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última oferta formal de combustible sólida antes de internarse hacia el este (Kuito, Luena, Cazombo); repostar a fondo aquí en la bajada.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.5402,16.341">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.341,-9.5402,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Cazombo (extremo este, escaso)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Oferta muy limitada e irregular; llegar con depósitos y garrafas de reserva llenas desde Luena, sobre todo si el cruce a Zambia se complica por barro.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.9,22.9">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>22.9,-11.9,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Namibe / Lubango (eje sur)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en ambas ciudades; repostar en Namibe antes de Baía dos Tigres/Iona (sin oferta) y de nuevo en Lubango tras Serra da Leba.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.1961,12.1522">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.1522,-15.1961,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Luanda</name>
