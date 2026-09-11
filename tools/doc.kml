@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Àfrica 2027</name>
+    <description>Viatge Overland per Àfrica </description>
+    <Style id="icon-1502-F9A825-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-F9A825-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-F9A825-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1502-F9A825-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1502-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1538-757575-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1538-757575-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1538-757575">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1538-757575-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1538-757575-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1548-673AB7-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1548-673AB7-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1548-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1548-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1548-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1807-FF5252-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1807-FF5252-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1807-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1807-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1807-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Puntos de interés</name>
+      <Placemark>
+        <name>Ben Amera</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6gOx_QGc4RU0CdzSeU5yVnMxGW-h2DS3NTdzAC3wFztrl7GcqG8D__aSG1MKCHmCx9Q7rew_mlkFbuf2QFl80SWDG5rkpzpucy8TGC5FeuqNW24i64NSdQ-x84tliqMFHt4mF7AyHZlK8N4JTlvBYRHv0HGv1nTQgZAoU8BvQgKs3OzbguXypGFj4vTq_fsFS2eAdFLJ2C5kF5GEqyC7DNuBChUfb7ofHvpTeRS316I2CudgiT_XKyDJ0?fife=s16383" height="200" width="auto" /><br><br>Monolito y vivac; tramo remoto junto al eje ferroviario. Acceso solo con track reciente, autonomía y criterio local.<br>Enlace: https://www.google.com/maps/search/?api=1&query=21.230030%2C-13.664371<br>Fotografía: Les3corbiers · CC BY-SA 3.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Ben_Amira_2006.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6gOx_QGc4RU0CdzSeU5yVnMxGW-h2DS3NTdzAC3wFztrl7GcqG8D__aSG1MKCHmCx9Q7rew_mlkFbuf2QFl80SWDG5rkpzpucy8TGC5FeuqNW24i64NSdQ-x84tliqMFHt4mF7AyHZlK8N4JTlvBYRHv0HGv1nTQgZAoU8BvQgKs3OzbguXypGFj4vTq_fsFS2eAdFLJ2C5kF5GEqyC7DNuBChUfb7ofHvpTeRS316I2CudgiT_XKyDJ0?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.6646506,21.2303349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delta del Saloum</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5LzQHl18apW9PRZziTmdE4j73PrX0u8CSx8myx2Z-mtqAjfrMZkCeY5td58OKdPomz3DwrsGQJ9iZl4RpGkw7WA6bCs_hOjOo3X_hMxbcNV7VvrnhlMB6GsO77m2JN0vk9sWEHPcUhmIyW-lnmbvuN7OjdcPy_WsHEi0MK2tyw1hrNwAfcRTsui4zBAOS3ERirFj8QIzeziD4_oRQkawwr5OOPLUkJSiB-58z7L0Qg51B2ov1vFOA7VqA?fife=s16383" height="200" width="auto" /><br><br>IMPRESCINDIBLE · NATURALEZA Y CULTURA · UNESCO<br>Paisaje de manglares, bolongs, islas y grandes acumulaciones históricas de conchas. Explorar en piragua desde Toubacouta y dedicar aproximadamente dos días al conjunto del delta.<br>PERRO: normas variables según reserva, embarcación y alojamiento. Confirmar cada actividad; si se prohíbe, organizar cuidado diurno o con pernocta fuera del espacio protegido.<br>Info: https://whc.unesco.org/en/list/1359/<br><br><br>Fotografía: Unión Europea, Copernicus Sentinel-2 · atribución Copernicus 2024<br>Fuente: https://commons.wikimedia.org/wiki/File:Saloum_Delta_in_Senegal_(Copernicus_2024-02-18).jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5LzQHl18apW9PRZziTmdE4j73PrX0u8CSx8myx2Z-mtqAjfrMZkCeY5td58OKdPomz3DwrsGQJ9iZl4RpGkw7WA6bCs_hOjOo3X_hMxbcNV7VvrnhlMB6GsO77m2JN0vk9sWEHPcUhmIyW-lnmbvuN7OjdcPy_WsHEi0MK2tyw1hrNwAfcRTsui4zBAOS3ERirFj8QIzeziD4_oRQkawwr5OOPLUkJSiB-58z7L0Qg51B2ov1vFOA7VqA?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.498783,13.835345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cabinda</name>
+        <description>Punt per creuar a DRC més curt</description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            12.197583,-5.5705739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[3°07'18.9"S 15°37'01.7"E]]></name>
+        <description>Buscar per la zona el santuari del silver back gorilla</description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            15.6171388888889,-3.12191666666667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cabinda</name>
+        <styleUrl>#icon-1502-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            12.197583,-5.5705739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matadi</name>
+        <description>Frontera DRC</description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            13.4627375,-5.8508719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colinas Canyon</name>
+        <styleUrl>#icon-1502-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            12.1352604,-15.7403175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aïcha</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4jTo9Yh3ndil4V6-ZQMJubNHTAWa2rcMj20x7aRapnCAQfxlHZCY3dzERpt_iEl_KzTAJnAv8jQQ7N_NZEBGDa4h3r8PT4dROK69v8P124B0S34-vzx6km-tbGJpt38otWi16EoTZ-wvQ7uA920-k0QKJA_CnshSKW0qjkUoIUxnBYse-QSq3S_c-hADaGMJ-RogJh55KcLqWjKUQ_dMhJvorvYurhyhXXo-rkO4jyzMF-ktP-rAPBFW8?fife=s16383" height="200" width="auto" /><br><br>Monolito y conjunto escultórico próximo a Ben Amera; visita combinada por pista, a unos 7 km.<br>Enlace: https://www.google.com/maps/search/?api=1&query=21.292083%2C-13.691967<br><br>Fotografía: Embajada de Alemania en Nuakchot · crédito institucional<br>Fuente: https://nouakchott.diplo.de/mr-de/2245892-2245892]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4jTo9Yh3ndil4V6-ZQMJubNHTAWa2rcMj20x7aRapnCAQfxlHZCY3dzERpt_iEl_KzTAJnAv8jQQ7N_NZEBGDa4h3r8PT4dROK69v8P124B0S34-vzx6km-tbGJpt38otWi16EoTZ-wvQ7uA920-k0QKJA_CnshSKW0qjkUoIUxnBYse-QSq3S_c-hADaGMJ-RogJh55KcLqWjKUQ_dMhJvorvYurhyhXXo-rkO4jyzMF-ktP-rAPBFW8?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.691967,21.292083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chinguetti</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4CxQeuIaU3ZW9PwWuK1RsotU2A7UvATTo2Kq-fKEGA0LPYZzYSFT5AHudJrQ5jhpleqCRcT85k_S0q-JdLQastDnNdeCgXVkRkb9SyNGGm67BHw2IF1b_x3Ccqrf59LhnXUQuiNLR_RRKbQPZIkmDYWni5Yi7FUnkNnLiI3Y5uQvf9W6yK5aC-THOGFrAjwHp7-8gmsL0BtvDMj6OvXT8YOgiX0_hIR-s7uccpUA-SrXMqR_p2Ewu8CNU?fife=s16383" height="200" width="auto" /><br><br>Ksar histórico, mezquita y bibliotecas; base cultural del Adrar y punto de apoyo para el bucle oriental.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.463434%2C-12.366484<br><br>Fotografía: Radosław Botev · CC BY 3.0 PL<br>Fuente: https://commons.wikimedia.org/wiki/File:Chinguetti_Mosque.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4CxQeuIaU3ZW9PwWuK1RsotU2A7UvATTo2Kq-fKEGA0LPYZzYSFT5AHudJrQ5jhpleqCRcT85k_S0q-JdLQastDnNdeCgXVkRkb9SyNGGm67BHw2IF1b_x3Ccqrf59LhnXUQuiNLR_RRKbQPZIkmDYWni5Yi7FUnkNnLiI3Y5uQvf9W6yK5aC-THOGFrAjwHp7-8gmsL0BtvDMj6OvXT8YOgiX0_hIR-s7uccpUA-SrXMqR_p2Ewu8CNU?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -12.366484,20.463434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ouadane</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7yNvGXKTOjVOD1EN3QTvn2aKumpf5LX2C7CjKFIw6yGjvWgWOI2ZtdZiCzLEGPAkTpeyVrNDg_-icJsQ5d3AFPGnlMbFG9RAovohi9r6dhjCIZ0ydWhKudYi6dtqxQEUjs31fEzrdTV43bgBa1UJ8njj59EE1loaqEqerWlZsWrKT0kZM8gMbcpz4ZKHKL41u8S7IhWPb2qGw_49N4LlnMGN8YLxpGHtSIAMyLEuxXHjF5hpVNihrQhac?fife=s16383" height="200" width="auto" /><br><br>Antiguo ksar y puerta de acceso al entorno de Richat; reservar margen para pista, guía y meteorología.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.933726%2C-11.617374<br><br>Fotografía: www.Bildtankstelle.de · CC BY-SA 1.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Oudane_old_tower.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7yNvGXKTOjVOD1EN3QTvn2aKumpf5LX2C7CjKFIw6yGjvWgWOI2ZtdZiCzLEGPAkTpeyVrNDg_-icJsQ5d3AFPGnlMbFG9RAovohi9r6dhjCIZ0ydWhKudYi6dtqxQEUjs31fEzrdTV43bgBa1UJ8njj59EE1loaqEqerWlZsWrKT0kZM8gMbcpz4ZKHKL41u8S7IhWPb2qGw_49N4LlnMGN8YLxpGHtSIAMyLEuxXHjF5hpVNihrQhac?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -11.617374,20.933726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oasis de Terjit</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6K0aCd3-38QWbTA78qvHFRckHx286oarmrpHw2PTLnqPa6rlw0p7yRRU52udKn3rQLXHYXoq0PZJ5fqL8UnoT2CNWWpxt6_Qo3jqJ9TMRUCHDaKVZ6LIGbEIVVuTy_JgaW_hP9dBxHyHUP86iQmFLlfaiKGIv5d1viNfOQSoAE7fo5exlbhhCkTwPUYz_WIg8pm0-oqT_o1cVSA1Np2EfR9Fh7kvbwMBG_KO1xcUQoeL8yBILUb7NvM0E?fife=s16383" height="200" width="auto" /><br><br>Palmeral y surgencia de agua; parada de descanso en el Adrar combinable con Tifoujar y Valle Blanco.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.252417%2C-13.087703<br><br>Fotografía: Ammar Hassan · CC BY 2.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Oasis_In_The_Desert_(15166702115).jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6K0aCd3-38QWbTA78qvHFRckHx286oarmrpHw2PTLnqPa6rlw0p7yRRU52udKn3rQLXHYXoq0PZJ5fqL8UnoT2CNWWpxt6_Qo3jqJ9TMRUCHDaKVZ6LIGbEIVVuTy_JgaW_hP9dBxHyHUP86iQmFLlfaiKGIv5d1viNfOQSoAE7fo5exlbhhCkTwPUYz_WIg8pm0-oqT_o1cVSA1Np2EfR9Fh7kvbwMBG_KO1xcUQoeL8yBILUb7NvM0E?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.087703,20.252417,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5b0coc7x9qMWe3e6zaarXb7MKgoZHg8BGEy1GospLcHD-i_Ulko3waPp6vlAHDoxEU8Knds7Ll2wdpzS7QliBJBePJLjtJ9OOU7vs9Sev0w8IHdLIntD_JTffOZamLhlreS1dKtD-mljbbSF17-r8NjrC8Uxt1dr-OAPPnpUrVE4b6Czis6NlsBh4p3rx44bPPmhT0UcC9d2Y47Rvzj5-b1VesTiTR7E8oOnWUYG0AQPx_oL9UF0DBDsI?fife=s16383" height="200" width="auto" /><br><br>Base principal para combustible, agua, talleres, provisiones, comunicaciones y contratación de guía.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.518194%2C-13.054393<br><br>Fotografía: Ji-Elle · CC BY-SA 3.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Atar_square.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5b0coc7x9qMWe3e6zaarXb7MKgoZHg8BGEy1GospLcHD-i_Ulko3waPp6vlAHDoxEU8Knds7Ll2wdpzS7QliBJBePJLjtJ9OOU7vs9Sev0w8IHdLIntD_JTffOZamLhlreS1dKtD-mljbbSF17-r8NjrC8Uxt1dr-OAPPnpUrVE4b6Czis6NlsBh4p3rx44bPPmhT0UcC9d2Y47Rvzj5-b1VesTiTR7E8oOnWUYG0AQPx_oL9UF0DBDsI?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.054393,20.518194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guelb er Richat</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7UxolR-VHYlGAMwkAwnbMFnmmjv7oAqnYb5GvyFvFiWkKoRQI-IbxGb2Mw_odeG7UlmsZulJ2tBeQrS_HO0Nc84vbOzlrG-kTwmfAtfMnXsaXT9rU2W1nYo8bBeT50-i3U4-LAf7lQ4p5VwAAQ0tLdZrAyXq-JB5OWIEHOxhDsTu3fGiuitxVzCfJU68xklRnT977TfRiKd7l47zbpMhqZDplpstBdumQU7B28ju3CxW_mALFqPZFVyNg?fife=s16383" height="200" width="auto" /><br><br>Ojo del Sáhara; bloque 4x4 remoto desde Ouadane que exige navegación, combustible y margen de retorno.<br>Enlace: https://www.google.com/maps/search/?api=1&query=21.110846%2C-11.392830<br><br>Fotografía: USGS/EROS/NASA Landsat · dominio público<br>Fuente: https://commons.wikimedia.org/wiki/File:Richat_Structure_by_Landsat_7.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7UxolR-VHYlGAMwkAwnbMFnmmjv7oAqnYb5GvyFvFiWkKoRQI-IbxGb2Mw_odeG7UlmsZulJ2tBeQrS_HO0Nc84vbOzlrG-kTwmfAtfMnXsaXT9rU2W1nYo8bBeT50-i3U4-LAf7lQ4p5VwAAQ0tLdZrAyXq-JB5OWIEHOxhDsTu3fGiuitxVzCfJU68xklRnT977TfRiKd7l47zbpMhqZDplpstBdumQU7B28ju3CxW_mALFqPZFVyNg?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -11.39283,21.110846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iwik y Banc d’Arguin</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7m2FeaM48P3At5i2PAy_EF0UV8CJL6GnJV-QuJWx49jkxoU96s-ALT_sMs_DUnSk7j5PnlQGlo1JpkXHJo3Z_GJJlhEln-Z-rmrFKixp6IzIxnKvfEM-KffHtZybZj9itXGyqdW6tF4j1VQpGiuSkIs0keCPaUVWtD-ANFCy5XhfWf0m7C5s1iCCGgigKAKxX1j1NXxeCku-oamQ8Q-dwlZPdkxb2QifFI4F6CBFGIB35oLFU7CrBXbgk?fife=s16383" height="200" width="auto" /><br><br>Parque costero y hábitat de aves migratorias; acceso sujeto a autorización, guía, pistas permitidas y reglas sobre el perro.<br>Enlace: https://www.google.com/maps/search/?api=1&query=19.878406%2C-16.304419<br><br>Fotografía: NASA Earth Observatory · dominio público<br>Fuente: https://commons.wikimedia.org/wiki/File:Bancdarguin_oli_2019362.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7m2FeaM48P3At5i2PAy_EF0UV8CJL6GnJV-QuJWx49jkxoU96s-ALT_sMs_DUnSk7j5PnlQGlo1JpkXHJo3Z_GJJlhEln-Z-rmrFKixp6IzIxnKvfEM-KffHtZybZj9itXGyqdW6tF4j1VQpGiuSkIs0keCPaUVWtD-ANFCy5XhfWf0m7C5s1iCCGgigKAKxX1j1NXxeCku-oamQ8Q-dwlZPdkxb2QifFI4F6CBFGIB35oLFU7CrBXbgk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.304419,19.878406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puerto pesquero de Nuakchot</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6MHz9avI9nH4Kf8pAvT45dNoX4FmuND1gTYuJdab-UvvBSYXX4cLa-VBHge_2xwP6G35eDcv4KDsxKtlnhMwtTiQrbK4-rJYYS49ziTimDlIoe3s2YutCe7cSxGYFdvTY334eGOFEW2S_S0D5UuVMPCt-VhW2yvhH871J6mQb3noWf7u5KCGjAV-1OtYEqen2yOLg27iZSRBrwNRt6ahIbphOiR8pIHnhuYBBkK_7m2fh8zUxO2fwsbLE?fife=s16383" height="200" width="auto" /><br><br>Actividad portuaria y parada urbana; extremar discreción fotográfica y confirmar restricciones locales antes de usar dron.<br>Enlace: https://www.google.com/maps/search/?api=1&query=18.110292%2C-16.022916<br><br>Fotografía: Hugues · CC BY-SA 2.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Port_de_peche_Nouakchott.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6MHz9avI9nH4Kf8pAvT45dNoX4FmuND1gTYuJdab-UvvBSYXX4cLa-VBHge_2xwP6G35eDcv4KDsxKtlnhMwtTiQrbK4-rJYYS49ziTimDlIoe3s2YutCe7cSxGYFdvTY334eGOFEW2S_S0D5UuVMPCt-VhW2yvhH871J6mQb3noWf7u5KCGjAV-1OtYEqen2yOLg27iZSRBrwNRt6ahIbphOiR8pIHnhuYBBkK_7m2fh8zUxO2fwsbLE?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.022916,18.110292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque de Diawling</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7rhofPfCQ0N63DY3o971K63g_UL3xVvQ_XvqVH0CYeULXU-h6VQ3OGPxFtCynYKqxd7pzDQssv2srz_FU6V-O75MdwlloY_p-AAge3d-yaAJoxvzIpWa0qe_csEg1MM1_Z7X3GuPtCouVmgrZ5c4k1xC6wNoTHmNy_9SIdy4DL3bobOyDM1AgL7vlR-6Jdw5fW0uwnp8LoNH6t9yPsKD05S3ECEBSGKkUZIo40rm3DzFed13rgoLXsFc4?fife=s16383" height="200" width="auto" /><br><br>Humedales del delta y enlace potencial con Diama; confirmar acceso, guía, estado de pista y admisión del perro.<br>Enlace: https://www.google.com/maps/search/?api=1&query=16.390784%2C-16.350941<br><br>Fotografía: Parc National du Diawling · kit de prensa oficial<br>Fuente: https://www.pnd.mr/espace-presse/]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7rhofPfCQ0N63DY3o971K63g_UL3xVvQ_XvqVH0CYeULXU-h6VQ3OGPxFtCynYKqxd7pzDQssv2srz_FU6V-O75MdwlloY_p-AAge3d-yaAJoxvzIpWa0qe_csEg1MM1_Z7X3GuPtCouVmgrZ5c4k1xC6wNoTHmNy_9SIdy4DL3bobOyDM1AgL7vlR-6Jdw5fW0uwnp8LoNH6t9yPsKD05S3ECEBSGKkUZIo40rm3DzFed13rgoLXsFc4?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.350941,16.390784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paso de Tifoujar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ESLtSyzii1KDk5EqzyDrS_infdusGM1CV1xiH8ahm6g7A1YOWmYgNZLDYtH0t2AU89utRpX9FyCD8XyG-RvOfxHZntpQrkMUER1CYnoe8yAvSujUg9Is3TlIqzO-aiByWdKOnRwh-JgxUfaWpC733IajRNo6mTVKXhLhxL_iAgv5Ni_x_0P49WvO6W4bCX4Jowys6YLztpLH1y-GUVFbS46FNQo25bXIlA-rtyUMstuxGNPkRNlKEP5Y?fife=s16383" height="200" width="auto" /><br><br>Descenso escénico y arenoso hacia Oued El Abiod; validar firme, trazado y sentido recomendado con información reciente.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.099669%2C-13.196719<br><br>Fotografía: Clemens Schmillen · CC BY-SA 4.0<br>Fuente: https://commons.wikimedia.org/wiki/File:TifoujarPass.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ESLtSyzii1KDk5EqzyDrS_infdusGM1CV1xiH8ahm6g7A1YOWmYgNZLDYtH0t2AU89utRpX9FyCD8XyG-RvOfxHZntpQrkMUER1CYnoe8yAvSujUg9Is3TlIqzO-aiByWdKOnRwh-JgxUfaWpC733IajRNo6mTVKXhLhxL_iAgv5Ni_x_0P49WvO6W4bCX4Jowys6YLztpLH1y-GUVFbS46FNQo25bXIlA-rtyUMstuxGNPkRNlKEP5Y?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.196719,20.099669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle Blanco</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5CwNyruUzQyIYBJxmq5gb5X8MVQC0r39sMZmZ-FgjOM56UWMRNJU2k4zXaCW0rpLEtJ_QYYC2agR3Bkto-B85yElr6H3hDDmvKRidzfIaqualEtU1ZMBIClHvxhfbR0hHpdsDeCKTFLhbwcJQDWy06lnho2vfTbfrLV6vm36XonG63I64bQlBGQLSDohw02GrnCt47-9WWKcejzRbqpgcwTLH4BCbNGhB6hos72niaifjWpmfCBaHmdy0?fife=s16383" height="200" width="auto" /><br><br>Oued El Abiod; corredor natural entre Tifoujar y Terjit, sujeto a arena, agua y estado de la pista.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.177620%2C-13.215070<br><br>Fotografía: Radosław Botev · CC BY 3.0 PL; imagen representativa del Adrar<br>Fuente: https://commons.wikimedia.org/wiki/File:Sahara_desert_Adrar_Province_Mauritania.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5CwNyruUzQyIYBJxmq5gb5X8MVQC0r39sMZmZ-FgjOM56UWMRNJU2k4zXaCW0rpLEtJ_QYYC2agR3Bkto-B85yElr6H3hDDmvKRidzfIaqualEtU1ZMBIClHvxhfbR0hHpdsDeCKTFLhbwcJQDWy06lnho2vfTbfrLV6vm36XonG63I64bQlBGQLSDohw02GrnCt47-9WWKcejzRbqpgcwTLH4BCbNGhB6hos72niaifjWpmfCBaHmdy0?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.21507,20.17762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto 19</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -16.0213389,18.11562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Nacional de Djoudj</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6WBoKuF3ZfqIt88e3-A6YcnPNz9rzxxrZOwGkrDfEs9kTWEsN3_5iLNLi1z2qG8DZKl9Kg9sbhQQSYsCUIcyWWZamuTyDF2t-zJEOASW4uqSRquLtviDeKOl8l8RzpO0yqM0CdFFEuZRxp1KhhvfPxYVaVXY_MPd8AlmKuaU96VehENZXDLkTd4KkQSLcx7O2nZsFAGA_7Tm8INtV8COxBTr0GOz6xMnTw30-RM0vBb9au6Ysk6gYNgzk?fife=s16383" height="200" width="auto" /><br><br>IMPRESCINDIBLE · NATURALEZA · UNESCO<br>Gran humedal del delta del Senegal, fundamental para las aves migratorias. La experiencia principal es la salida en piragua entre pelícanos y otras aves acuáticas; plantear como visita de un día desde Saint-Louis.<br>PERRO: PROHIBIDO. No planificar su entrada, tampoco dentro del vehículo. Cuidador diurno en Saint-Louis pendiente de verificación; mantener la rotación entre viajeros como respaldo.<br>Info: https://whc.unesco.org/en/list/25/<br><br><br>Fotografía: Rémi Jouan · CC BY 3.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Djoudj_-_Pelican_(6).JPG]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6WBoKuF3ZfqIt88e3-A6YcnPNz9rzxxrZOwGkrDfEs9kTWEsN3_5iLNLi1z2qG8DZKl9Kg9sbhQQSYsCUIcyWWZamuTyDF2t-zJEOASW4uqSRquLtviDeKOl8l8RzpO0yqM0CdFFEuZRxp1KhhvfPxYVaVXY_MPd8AlmKuaU96VehENZXDLkTd4KkQSLcx7O2nZsFAGA_7Tm8INtV8COxBTr0GOz6xMnTw30-RM0vBb9au6Ysk6gYNgzk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.274099,16.358328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint-Louis – isla histórica</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR432f1r2ckfUbwdSHbqVtU31yC79HGC-wcbkPb0mEy4_nzfymTHQ4edYK5U9C-icvNABdrVrkoYh3O7Eka4yr1UrC9Ex9hFjJLccsQvvOBz9wp_ypGGM0dIrd4ejQt3mXTLgpQswM9f4zXIF-LILr8NnZ-EU5p1kX42EjG8OD1Mbvj0n5VN1YmAPClv63aquPWk9pse8TxgMAR4b8Rw6AKwoAfIWADkFucSBu3ROGSRyCHeAnlTZLXuGxY?fife=s16383" height="200" width="auto" /><br><br>IMPRESCINDIBLE · CIUDAD HISTÓRICA · UNESCO<br>Antigua capital colonial asentada en una isla del río Senegal. Recorrer a pie el puente Faidherbe, los muelles y la arquitectura histórica; base ideal para Djoudj y Gandiol. Dedicar 1–2 días.<br>PERRO: ciudad visitable con correa; confirmar alojamiento pet-friendly. Para Djoudj, organizar cuidador diurno verificado.<br>Info: https://whc.unesco.org/en/list/956/<br><br><br>Fotografía: Mich-nguyen · CC BY-SA 4.0<br>Fuente: https://commons.wikimedia.org/wiki/File:2017-06-10_Faidherbe_bridge.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR432f1r2ckfUbwdSHbqVtU31yC79HGC-wcbkPb0mEy4_nzfymTHQ4edYK5U9C-icvNABdrVrkoYh3O7Eka4yr1UrC9Ex9hFjJLccsQvvOBz9wp_ypGGM0dIrd4ejQt3mXTLgpQswM9f4zXIF-LILr8NnZ-EU5p1kX42EjG8OD1Mbvj0n5VN1YmAPClv63aquPWk9pse8TxgMAR4b8Rw6AKwoAfIWADkFucSBu3ROGSRyCHeAnlTZLXuGxY?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.50373,16.026072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guet Ndar – barrio pesquero</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7k7CbI5G2EP77cgGokoIF6cz8bEiCCctNfvqbhhOHvdIfq_v9jcPa59IowxmNMSrLTPKtkrkyNkmiX_6sIEQPr0xAOCm7D7l-Vphl0vyAM8lXK1Z8QwYVqErTTDkPxvMZcxnMSalloo2Vcc8FtZJwl0yNtbidf88AmmYoKnke1qSCejgtvjxSHxyQxQDx1mLIZquMdPygA0QuXLT7XkqTse9ff5_Yo47lqEmUSW4vVix2hYcGMLNHriKw?fife=s16383" height="200" width="auto" /><br><br>MUY RECOMENDABLE · CULTURA VIVA · FOTOGRAFÍA<br>Barrio pesquero de Saint-Louis, muy denso y activo, con piraguas, mercados y regreso de las embarcaciones. Visitar con discreción, pedir permiso antes de fotografiar y evitar bloquear la actividad local.<br>PERRO: posible con correa, pero vigilar tráfico, residuos, calor y perros sueltos; no dejarlo solo en el vehículo.<br>Info: https://whc.unesco.org/en/list/956/<br><br><br>Fotografía: Alweaver2 · CC BY-SA 4.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Guet_N%27dar,_Saint_Louis,_Senegal.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7k7CbI5G2EP77cgGokoIF6cz8bEiCCctNfvqbhhOHvdIfq_v9jcPa59IowxmNMSrLTPKtkrkyNkmiX_6sIEQPr0xAOCm7D7l-Vphl0vyAM8lXK1Z8QwYVqErTTDkPxvMZcxnMSalloo2Vcc8FtZJwl0yNtbidf88AmmYoKnke1qSCejgtvjxSHxyQxQDx1mLIZquMdPygA0QuXLT7XkqTse9ff5_Yo47lqEmUSW4vVix2hYcGMLNHriKw?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.508694,16.020915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Nacional de la Langue de Barbarie</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7c7TqHQ7bmEHQc18LWDQSCd9mz5UhHNAX0EpdVddmtnUfJCJvytETKonx6nzzWwkCyIy1p9EQ-pwz21u_oIDnWBienaHltKn2gM3XYx0_Iwb3K3XXoHngP4FuPlKNMaCr0pZ_d45bEDHL3cX1mi257EKpaizitHo1dR7lCU3yJz4pXc_B6kgIqpwn0IagzxkVtoAran2W8L05hJq40TOQy_vAlLiqKCQ1pkDy3XmDced4mNmgAH2F5zxY?fife=s16383" height="200" width="auto" /><br><br>MUY RECOMENDABLE · COSTA · AVES<br>Dunas, estuario, playa y colonias de aves en la desembocadura del río Senegal. Encaja como excursión desde Saint-Louis o parada en Gandiol antes de seguir hacia Dakar.<br>PERRO: PENDIENTE DE CONFIRMACIÓN OFICIAL. No entrar sin respuesta escrita; si se prohíbe, buscar cuidador en Gandiol o Saint-Louis y mantener la rotación como respaldo.<br>Info: https://www.dpn.sn/ecotourisme/<br><br><br>Fotografía: MariemeFALL8 · CC0<br>Fuente: https://commons.wikimedia.org/wiki/File:Gandiole_langue_de_barbarie.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7c7TqHQ7bmEHQc18LWDQSCd9mz5UhHNAX0EpdVddmtnUfJCJvytETKonx6nzzWwkCyIy1p9EQ-pwz21u_oIDnWBienaHltKn2gM3XYx0_Iwb3K3XXoHngP4FuPlKNMaCr0pZ_d45bEDHL3cX1mi257EKpaizitHo1dR7lCU3yJz4pXc_B6kgIqpwn0IagzxkVtoAran2W8L05hJq40TOQy_vAlLiqKCQ1pkDy3XmDced4mNmgAH2F5zxY?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.510005,15.866439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lac Rose – lago Retba</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR523pNpaQZ22KPCnpmItB2seM-hciVCmdL0HWYcPH9Sj80JB7LKq7_y6blm3IbpiK8pg4Cxi-7Ll6gzxbihafZv9ERMPBvkrI3a-71mqayBnmp378Ah_xCXvp5b_ULEfiFIxDjOuHStFhuEtL4pPY3XXj8AG7Fu38f-87-w1IF5UvQi08cygu0VHUQW_QeK7EEXzMJoaC6XqgFERy_jckzV6cz0XnKMXx-wokrYDTdF6CndDt89oY1sTq0?fife=s16383" height="200" width="auto" /><br><br>RECOMENDABLE · PAISAJE · PARADA<br>Lago hipersalino conocido por sus tonos rosados y por la extracción tradicional de sal. El color depende de la salinidad, la luz y las condiciones del momento; plantear como parada de medio día, no como destino principal.<br>PERRO: entorno exterior generalmente manejable con correa; confirmar acceso concreto y evitar baño, ingestión de agua salada y exposición al calor.<br>Info: https://aps.sn/le-lac-rose-retrouve-sa-couleur-apres-des-annees-de-desequilibre-ecologique-ucad/<br><br><br>Fotografía: Manu25 · licencia indicada en Wikimedia Commons<br>Fuente: https://commons.wikimedia.org/wiki/File:Lac-rose_s%C3%A9n%C3%A9gal.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR523pNpaQZ22KPCnpmItB2seM-hciVCmdL0HWYcPH9Sj80JB7LKq7_y6blm3IbpiK8pg4Cxi-7Ll6gzxbihafZv9ERMPBvkrI3a-71mqayBnmp378Ah_xCXvp5b_ULEfiFIxDjOuHStFhuEtL4pPY3XXj8AG7Fu38f-87-w1IF5UvQi08cygu0VHUQW_QeK7EEXzMJoaC6XqgFERy_jckzV6cz0XnKMXx-wokrYDTdF6CndDt89oY1sTq0?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -17.234132,14.838784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Isla de Gorée</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6k6BwHAD3wmsNxR97ltT5280m0ck-3WnARCvWEKoGzmn7vzPM3uCY7df0RWHP2ukT54I6NetRnxbLDcAWlLlGGRQ7PCiQzH7Gw5Z61oKW2nGJitvTj_suMP3t1bqUOVd2UolMHj0eXdBEUCFo_YLxtIoIzzR2ZHeO4CD1Bc5BK00pZXUmRhk0kl5lb3x7dVGQqSuvV3PJ_-hxiAgx5vRyzVSt4ZwRUlHjSfef74i9OdBZYQ4y61sRPE0o?fife=s16383" height="200" width="auto" /><br><br>IMPRESCINDIBLE · HISTORIA · UNESCO<br>Conjunto histórico y memorial frente a Dakar, con arquitectura colonial, museos y espacios vinculados a la trata atlántica. Reservar medio día o un día y dejar los vehículos vigilados en Dakar.<br>PERRO: política de la chalupa y acceso a museos PENDIENTES DE CONFIRMACIÓN. Prever cuidador verificado o rotación entre viajeros en Dakar.<br>Info: https://whc.unesco.org/en/list/26/<br><br><br>Fotografía: Kahuna613 · dominio público<br>Fuente: https://commons.wikimedia.org/wiki/File:Goree_Island.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6k6BwHAD3wmsNxR97ltT5280m0ck-3WnARCvWEKoGzmn7vzPM3uCY7df0RWHP2ukT54I6NetRnxbLDcAWlLlGGRQ7PCiQzH7Gw5Z61oKW2nGJitvTj_suMP3t1bqUOVd2UolMHj0eXdBEUCFo_YLxtIoIzzR2ZHeO4CD1Bc5BK00pZXUmRhk0kl5lb3x7dVGQqSuvV3PJ_-hxiAgx5vRyzVSt4ZwRUlHjSfef74i9OdBZYQ4y61sRPE0o?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -17.398928,14.66786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo de las Civilizaciones Negras</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR78T9WpwUiGknDIc8nHqcI-pK_FADt4QjmScO1VB_1lXAayssA9dbLdIeD9lr3TmCyXCWWqOAn9DdHZ2308iNCnRzIpo2Pw4cKeiTBLhJTBeMEt4PLNug2IU7mrezraT4JY803Ue_CPbSrgXSj38rtpFPTP6n_NUYVOR_rhRWhU1ALPQn_-AxC9Ru_L41DMchtPhovB0cvNRmpvSOtzC2ICR0HSzEhZovBAMA5P8USsdg5F9PqoFVBTHQA?fife=s16383" height="200" width="auto" /><br><br>MUY RECOMENDABLE · MUSEO · CULTURA<br>Museo de referencia para conocer las civilizaciones africanas, sus diásporas y el arte del continente. Combinar con Gorée y el centro de Dakar; comprobar horarios y exposiciones antes de la visita.<br>PERRO: no contar con acceso al interior. Visita por turnos o cuidador diurno verificado en Dakar.<br>Info: https://mcn.sn/<br><br><br>Fotografía: Tacomagoree · CC BY-SA 4.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_civilisations_noires_Dakar.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR78T9WpwUiGknDIc8nHqcI-pK_FADt4QjmScO1VB_1lXAayssA9dbLdIeD9lr3TmCyXCWWqOAn9DdHZ2308iNCnRzIpo2Pw4cKeiTBLhJTBeMEt4PLNug2IU7mrezraT4JY803Ue_CPbSrgXSj38rtpFPTP6n_NUYVOR_rhRWhU1ALPQn_-AxC9Ru_L41DMchtPhovB0cvNRmpvSOtzC2ICR0HSzEhZovBAMA5P8USsdg5F9PqoFVBTHQA?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -17.435131,14.677288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monumento del Renacimiento Africano</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR456lJ4xLVD3vhTT8Bf2JtRdfKQr8uIjVEec66ttJ875Ae7uejVYZ_JfERnNox4yY7_-LIqxMJld7CXDZ-jTySG9omSLZ1sJMyzrLyfGszalpcKn2gTrmVptkXraNEjg_P0i__9q1t9VIuGoVpgC3sbHXo0ANs9uFmdOX45ec0MHpjo7_ZgiI8enmT4sP-j5TIA-DujdoxjJngtV-HU-LvNaWnVz1bn38nH48ddRzZXSXgft4cyoMQeC9A?fife=s16383" height="200" width="auto" /><br><br>RECOMENDABLE · MIRADOR · ARQUITECTURA<br>Monumento situado sobre una de las colinas de las Mamelles, con amplias vistas de Dakar y la costa. Parada corta que encaja con la Corniche y el faro.<br>PERRO: exterior probablemente posible con correa; confirmar normas del recinto y no dejarlo en el vehículo por el calor.<br>Info: https://www.monumentrenaissanceafricaine.com/<br><br><br>Fotografía: Gromane · CC0<br>Fuente: https://commons.wikimedia.org/wiki/File:African_Renaissance_Monument_Dakar_2025.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR456lJ4xLVD3vhTT8Bf2JtRdfKQr8uIjVEec66ttJ875Ae7uejVYZ_JfERnNox4yY7_-LIqxMJld7CXDZ-jTySG9omSLZ1sJMyzrLyfGszalpcKn2gTrmVptkXraNEjg_P0i__9q1t9VIuGoVpgC3sbHXo0ANs9uFmdOX45ec0MHpjo7_ZgiI8enmT4sP-j5TIA-DujdoxjJngtV-HU-LvNaWnVz1bn38nH48ddRzZXSXgft4cyoMQeC9A?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -17.494954,14.722209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joal-Fadiouth – isla de conchas</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4enoZXbxfMa3aFHVtq9tzYynlrRbKAqwJXet_g0bdZGu3esT0-2yVpt0wP8awmFNC4Hti9a-zJ4iL0ZFPJJYPP-o__oBJjJDQJ52DVNno5db7cSG6eLzf3q6OP-Tihem0IzQB6ecI7f0meY9W3_BmytAd2wcfytS1ccVCcP9pt_9vfr0BiKFtGiuAc1yg_OOXARXQr6stWhLIdgMrD62iaY82ITEHvtEw8qXsUOSz4ZhcQ8uCupfc4Upc?fife=s16383" height="200" width="auto" /><br><br>MUY RECOMENDABLE · CULTURA · MANGLAR<br>Localidad formada por Joal y la isla peatonal de Fadiouth, construida sobre conchas. Destacan el puente, los graneros y el cementerio compartido por comunidades musulmanas y cristianas. Visita de medio día.<br>PERRO: entorno urbano exterior posiblemente accesible con correa; confirmar el acceso al puente, la isla y el cementerio con un guía local.<br>Info: https://whc.unesco.org/en/tentativelists/2075/<br><br><br>Fotografía: Komalick · CC BY-SA<br>Fuente: https://commons.wikimedia.org/wiki/File:Fadiouth_bridge.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4enoZXbxfMa3aFHVtq9tzYynlrRbKAqwJXet_g0bdZGu3esT0-2yVpt0wP8awmFNC4Hti9a-zJ4iL0ZFPJJYPP-o__oBJjJDQJ52DVNno5db7cSG6eLzf3q6OP-Tihem0IzQB6ecI7f0meY9W3_BmytAd2wcfytS1ccVCcP9pt_9vfr0BiKFtGiuAc1yg_OOXARXQr6stWhLIdgMrD62iaY82ITEHvtEw8qXsUOSz4ZhcQ8uCupfc4Upc?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.850288,14.181169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toubacouta – base del delta del Saloum</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4z9O7iTtVf08Qxv26ovG9I6BH8VZlhQCe8L8K7sy6A9vMoMJVldI--eanbt7rsh-wylAtPaknSg4tQQU75-WFdhRd9FYVjITRgqCmrq6ttswIubsvJDy8rkcCBQEox93jm7uWPh22-fN3xu5-B0qGZzqvseikQ-inSh0DuMNp9mU4zHdF0mUBoFozBI7-ECZLlC50MV5dM8GNF4aUTC2GUPml3rSkbeqB7ZayhqX_mrpH4utmV86czHAc?fife=s16383" height="200" width="auto" /><br><br>IMPRESCINDIBLE · MANGLAR · BASE DE EXCURSIONES<br>Base práctica para navegar por los bolongs, visitar islas y observar aves en el delta del Saloum. Reservar unas dos noches y escoger un alojamiento con aparcamiento seguro para ambos vehículos.<br>PERRO: confirmar alojamiento pet-friendly y admisión en cada embarcación. Si no puede participar, organizar cuidador diurno en el propio alojamiento antes de reservar.<br>Info: https://whc.unesco.org/en/list/1359/<br><br><br>Fotografía: Issiaga0 · CC BY-SA 4.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Delta_Du_Sine_Saloum.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4z9O7iTtVf08Qxv26ovG9I6BH8VZlhQCe8L8K7sy6A9vMoMJVldI--eanbt7rsh-wylAtPaknSg4tQQU75-WFdhRd9FYVjITRgqCmrq6ttswIubsvJDy8rkcCBQEox93jm7uWPh22-fN3xu5-B0qGZzqvseikQ-inSh0DuMNp9mU4zHdF0mUBoFozBI7-ECZLlC50MV5dM8GNF4aUTC2GUPml3rSkbeqB7ZayhqX_mrpH4utmV86czHAc?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -16.47003,13.781102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Nacional de Niokolo-Koba</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6AdhcAa03kkl4PAlBHhWuxygtKdDW1_kmeq6zSChbrUkyuSvrBVXWkwzMnKGHvP8YYK9tS3Gt8t9_xyW5hd6PWPasJ2ZxoiN1FKT1ulTgxTGBNoAGc--5qZnFTJqU5nnIT51tHlFAIKsia58bCUkFuY7hho2Nas2HatSsePOovHPv0I8SK8xNLS3OHU29yM28ecKt2HfaLlmnQoeaw77O2euD5LxN3RoC7sWFE8Vge15ePqUaFXsyI7Y4?fife=s16383" height="200" width="auto" /><br><br>IMPRESCINDIBLE · NATURALEZA · UNESCO<br>Gran parque atravesado por el río Gambia, valioso por su paisaje salvaje, primates, antílopes, hipopótamos y aves. No esperar densidades tipo Serengeti; dedicar dos días con guía y pistas verificadas.<br>PERRO: PROHIBIDO, también dentro del vehículo. VISITA CONDICIONADA hasta encontrar cuidador diurno y con pernocta verificado cerca de la entrada, con veterinario y alternativa de respaldo.<br>Info: https://whc.unesco.org/en/list/153/<br><br><br>Fotografía: Sosocisse · CC BY-SA 4.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Koba_Niokolo_ko_ba.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6AdhcAa03kkl4PAlBHhWuxygtKdDW1_kmeq6zSChbrUkyuSvrBVXWkwzMnKGHvP8YYK9tS3Gt8t9_xyW5hd6PWPasJ2ZxoiN1FKT1ulTgxTGBNoAGc--5qZnFTJqU5nnIT51tHlFAIKsia58bCUkFuY7hho2Nas2HatSsePOovHPv0I8SK8xNLS3OHU29yM28ecKt2HfaLlmnQoeaw77O2euD5LxN3RoC7sWFE8Vge15ePqUaFXsyI7Y4?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -12.94482,13.009999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kédougou – base del Senegal oriental</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Lo1_QJvrhXAXqh-38qPI5Ck5qlre6nYzuwgd9DxCgIICqMIHSi-4bW_GhDAPRIppmhMVlIXlWlDeSeZt9WIGb7sNwC2777L8R9k1wB3mbmo8sNpvMfrrfP_BfNC9irTvgnE1_KhNlkOXtfceDSnzBim0QZTVj2hMBe4Ad9wQ7xz9rbIqKKLRRJuFp2JAuuBKXg82aybrvUxiG2oYHWUkLL0krJNp4dGEo3RnXj6Hvb8eDgp0SyY2WOFU?fife=s16383" height="200" width="auto" /><br><br>LOGÍSTICA · CULTURA · BASE DE EXCURSIONES<br>Base para combustible, provisiones, guías y acceso al País Bassari, Bandafassi, Iwol y Dindéfelo. Conviene revisar ambos vehículos antes de entrar en pistas y confirmar la salida posterior hacia Kalifourou–Koundara.<br>PERRO: buscar aquí veterinario y cuidador local verificable para las excursiones que no lo admitan; actualmente no hay residencia canina confirmada.<br>Info: https://whc.unesco.org/en/list/1407/<br><br><br>Fotografía: gbaku · CC BY-SA<br>Fuente: https://commons.wikimedia.org/wiki/File:KedougouVillage.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Lo1_QJvrhXAXqh-38qPI5Ck5qlre6nYzuwgd9DxCgIICqMIHSi-4bW_GhDAPRIppmhMVlIXlWlDeSeZt9WIGb7sNwC2777L8R9k1wB3mbmo8sNpvMfrrfP_BfNC9irTvgnE1_KhNlkOXtfceDSnzBim0QZTVj2hMBe4Ad9wQ7xz9rbIqKKLRRJuFp2JAuuBKXg82aybrvUxiG2oYHWUkLL0krJNp4dGEo3RnXj6Hvb8eDgp0SyY2WOFU?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -12.18075,12.55558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bandafassi – puerta del País Bassari</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR57m6VIZW6Eo5fQwHJYdo4_Vu-tgnyu3R3AR_I08Erc1zxrjn-lfQdrn5NQKvS76u1n-NGJvVVaf0DfcDJ-bubDQt2T3e5woAgOJgLxr_J8iavMdZ5h2Lrbbp3voEgA5XbFCeMCqYhARj-__qg88SYREQa6N8D7UJ1hl7e0myq9Eu7biF0LH9eespWYMC2YMXM5PEl5y9MKGo45MMNjT8qB9V-JdUkIU_FfGwBO0fCIwUxi48v5P5W1Fwk?fife=s16383" height="200" width="auto" /><br><br>MUY RECOMENDABLE · PAISAJE CULTURAL · UNESCO<br>Localidad de acceso al paisaje cultural bassari, fulani y bedik. Utilizar guía local acreditado y plantear la visita como encuentro respetuoso, no como una parada fotográfica improvisada.<br>PERRO: PENDIENTE DE ACUERDO CON GUÍA Y COMUNIDAD. Llevarlo con correa, evitar viviendas y espacios ceremoniales y prever cuidador en Kédougou si no es aceptado.<br>Info: https://whc.unesco.org/en/list/1407/<br><br><br>Fotografía: John Atherton · CC BY-SA 2.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Masked_dancers_at_a_girls_initiation_ceremony,_Bandafassi,_southeast_Senegal_(West_Africa)_(467196052).jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR57m6VIZW6Eo5fQwHJYdo4_Vu-tgnyu3R3AR_I08Erc1zxrjn-lfQdrn5NQKvS76u1n-NGJvVVaf0DfcDJ-bubDQt2T3e5woAgOJgLxr_J8iavMdZ5h2Lrbbp3voEgA5XbFCeMCqYhARj-__qg88SYREQa6N8D7UJ1hl7e0myq9Eu7biF0LH9eespWYMC2YMXM5PEl5y9MKGo45MMNjT8qB9V-JdUkIU_FfGwBO0fCIwUxi48v5P5W1Fwk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -12.310599,12.538716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iwol – aldea bedik</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7f36C-eISmNJPIoH6c_f4b-37L-spnowvKZ6u0f9eZKBczKq_Cx-ppY_yCfu9r0w3ddnNGCqPItsJX3nk5DL8dLiH3fUS3g19M6c6Hy3HvtfmcJfC-uw2AnBM2QU4E8nGgcoQQdZgl8Vk_0Tkrgztlwh8BqaCOvgb8l2AEWH1Zjozzrca5CXlV5LYBeQK6UVsSu3QPPdJyPGNdPdccRQTA0ao1jqxv0b0nEyz1oWtixU5iHiymR9W0IBg?fife=s16383" height="200" width="auto" /><br><br>IMPRESCINDIBLE · CULTURA · SENDERISMO<br>Aldea bedik en altura, accesible mediante caminata desde Ibel. La experiencia depende de un guía local, del respeto a la comunidad y de evitar las horas de máximo calor.<br>PERRO: requiere autorización previa del guía y la comunidad; valorar calor, ganado y perros locales. Si no se acepta, organizar cuidador diurno en Kédougou o Bandafassi.<br>Info: https://whc.unesco.org/en/list/1407/<br><br><br>Fotografía: John Atherton · CC BY-SA 2.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Bedik_village_of_Iwol,_Southeast_S%C3%A9n%C3%A9gal_(462983188).jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7f36C-eISmNJPIoH6c_f4b-37L-spnowvKZ6u0f9eZKBczKq_Cx-ppY_yCfu9r0w3ddnNGCqPItsJX3nk5DL8dLiH3fUS3g19M6c6Hy3HvtfmcJfC-uw2AnBM2QU4E8nGgcoQQdZgl8Vk_0Tkrgztlwh8BqaCOvgb8l2AEWH1Zjozzrca5CXlV5LYBeQK6UVsSu3QPPdJyPGNdPdccRQTA0ao1jqxv0b0nEyz1oWtixU5iHiymR9W0IBg?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -12.381775,12.526554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cascada de Dindéfelo</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR495d1dQEH4kmBHKjgETVsdt2JV_Kzvdvyf08fxev0tN5fI3YRHI065gRNUz3oOeWCa3UNkz-6NLoukr9QUNGs6QT5lZj6xDNyqqve2Cmgn0fOYPv8fNFbPmtI2lcQuad00skysKS_CNBBFVORPZA0HV-qh2o9LGEoJMNEWIP7Oi3x5MXbc01yW1mhVBXOBaIAEhWXlMvZtZvGoomGVJ6oXyOmZrnf5aYsbMl_RjTcNN7AZeRLE8Ybydms?fife=s16383" height="200" width="auto" /><br><br>MUY RECOMENDABLE · NATURALEZA · SENDERISMO<br>Cascada y bosque al pie del macizo del Fouta-Djalon. En enero-febrero llevará menos agua que durante o después de las lluvias, pero el paisaje y la caminata siguen justificando la visita.<br>PERRO: reserva comunitaria; acceso PENDIENTE DE CONFIRMACIÓN con el guía y la gestión local. Si se admite, correa permanente y control por fauna, ganado y calor.<br>Info: https://aps.sn/dindefelo-mise-sur-lecotourisme-pour-preserver-sa-reserve-naturelle-et-sa-cascade/<br><br><br>Fotografía: Jonas Roux · CC BY 2.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Dindefelo.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR495d1dQEH4kmBHKjgETVsdt2JV_Kzvdvyf08fxev0tN5fI3YRHI065gRNUz3oOeWCa3UNkz-6NLoukr9QUNGs6QT5lZj6xDNyqqve2Cmgn0fOYPv8fNFbPmtI2lcQuad00skysKS_CNBBFVORPZA0HV-qh2o9LGEoJMNEWIP7Oi3x5MXbc01yW1mhVBXOBaIAEhWXlMvZtZvGoomGVJ6oXyOmZrnf5aYsbMl_RjTcNN7AZeRLE8Ybydms?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -12.32356,12.36526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ethiolo – cultura bassari</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7ArkyuDPTW0knXHo5cYUaweha-Q1mNmoBCsevEYynevwNEYmqL7Irmqy_bhKFcL9bOWi_T0kObfDnH5u5VHZvPdZYgtX5hVMoHPx_7Li5_EwAqkzTrZ7J2YnJtazmTWpUVs6geoSpq1KuDMUM12AV0-UkkZa1pU12XSvC6dfAC3G_WfSsUioLMAdINrcVeGRG75lyXddbI80ft7eTCfv81w2gxAXTND-dRlXTqI1ltGgr4dFmJa15f6xY?fife=s16383" height="200" width="auto" /><br><br>RECOMENDABLE · CULTURA · PAISAJE UNESCO<br>Aldea y territorio bassari próximo a Salémata. Solo merece el desvío con guía local y tiempo para comprender la cultura viva; evitar visitas invasivas o durante ceremonias sin invitación.<br>PERRO: autorización previa de la comunidad y del guía. Mantenerlo controlado y prever cuidador local si existen restricciones culturales o animales sueltos.<br>Info: https://whc.unesco.org/en/list/1407/<br><br><br>Fotografía: EricSenegal · CC BY-SA 4.0<br>Fuente: https://commons.wikimedia.org/wiki/File:Village_Bassari_d%27ethiolo.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7ArkyuDPTW0knXHo5cYUaweha-Q1mNmoBCsevEYynevwNEYmqL7Irmqy_bhKFcL9bOWi_T0kObfDnH5u5VHZvPdZYgtX5hVMoHPx_7Li5_EwAqkzTrZ7J2YnJtazmTWpUVs6geoSpq1KuDMUM12AV0-UkkZa1pU12XSvC6dfAC3G_WfSsUioLMAdINrcVeGRG75lyXddbI80ft7eTCfv81w2gxAXTND-dRlXTqI1ltGgr4dFmJa15f6xY?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -12.856031,12.589336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo Théodore Monod de Arte Africano</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6bXCs0LYNAsPFuZeS6P02nNGfkmhvLJevnq-0Wavgq0bScdqfBYySYeak1qv4ycxCjrSD5oufDFGX0Ak6TFgcpFKmb6RDhxs6K2aogLG6_h9VhE88YdVVaX1gdoIWpF-LsMALHM03cer2OpMEy30dkrO6ZVPxmiYRClWT2vu5mrDIFJLTqm213F_yW-PnxbjzyAMNTP83iFX2CtBDELYu8guCrjWrAGqxwjYEGJf-MRACRwSSvi2Pa1Dk?fife=s16383" height="200" width="auto" /><br><br>RECOMENDABLE · MUSEO · PATRIMONIO<br>Colecciones de arte, arqueología y culturas de África occidental en el histórico edificio del IFAN. Complementa al Museo de las Civilizaciones Negras con una escala más íntima y etnográfica.<br>PERRO: no contar con acceso al interior. Visita por turnos o cuidador diurno verificado en Dakar.<br>Info: https://ifan.ucad.sn/<br><br><br>Fotografía: Zythème · CC0<br>Fuente: https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d%27art_africain_Th%C3%A9odore_Monod.jpg]]></description>
+        <styleUrl>#icon-1502-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6bXCs0LYNAsPFuZeS6P02nNGfkmhvLJevnq-0Wavgq0bScdqfBYySYeak1qv4ycxCjrSD5oufDFGX0Ak6TFgcpFKmb6RDhxs6K2aogLG6_h9VhE88YdVVaX1gdoIWpF-LsMALHM03cer2OpMEy30dkrO6ZVPxmiYRClWT2vu5mrDIFJLTqm213F_yW-PnxbjzyAMNTP83iFX2CtBDELYu8guCrjWrAGqxwjYEGJf-MRACRwSSvi2Pa1Dk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -17.438148,14.663533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reserva de Fauna del Ferlo Norte</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5_qZ4E7qaxKcqzyV8lxoS1WD7V2tQMBNRLhVi-GBFbKs50jme84s0E95omEZOQ6vXcYSDpJv23vjWKZYDq-g63ViuiiM6S6Av3vQGEv6PJgV4gPO4oDeMgp-9vTEDfLSpmFsb0DsDBP16py3XZYmE5xnnHrsNJCwd5VAORt5JIOfwx7peZp8VU5gDOPXEwGRDz44vp3qT8zF1HpLcGMyniWnqjw7a2DT4T7eUQy8q0jsqOb-Srfh5hUkM?fife=s16383" height="200" width="auto" /><br><br>Gran reserva saheliana de estepa y sabana de acacias. Interesa por el ecosistema, la avifauna y la sensación de aislamiento; no esperar una densidad de fauna comparable a Niokolo-Koba.<br>Perro: requiere autorización previa de la Dirección de Parques. No asumir que puede permanecer dentro del coche. Si se deniega, organizar cuidador seguro en Ranérou o rotación entre viajeros.<br>Enlace: https://www.google.com/maps/search/?api=1&query=15.54520%2C-14.01075<br><br>Fotografía: Charles J. Sharp · CC BY-SA 4.0; especie representativa del Ferlo<br>Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Abyssinian_ground-hornbill_(Bucorvus_abyssinicus)_male.jpg)]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5_qZ4E7qaxKcqzyV8lxoS1WD7V2tQMBNRLhVi-GBFbKs50jme84s0E95omEZOQ6vXcYSDpJv23vjWKZYDq-g63ViuiiM6S6Av3vQGEv6PJgV4gPO4oDeMgp-9vTEDfLSpmFsb0DsDBP16py3XZYmE5xnnHrsNJCwd5VAORt5JIOfwx7peZp8VU5gDOPXEwGRDz44vp3qT8zF1HpLcGMyniWnqjw7a2DT4T7eUQy8q0jsqOb-Srfh5hUkM?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -14.01075,15.5452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enclos de Katané — fauna saharosaheliana</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6w9HYlS8VoO2sqIED2xT4d5lowcz1yNZhqUdtgFrMFZ8qhVjVeNaUcYzArWv_0GHBUmrn3ld3BbQyKzweSPuUxEY9TCVIROYH78mfAHqTrZfdVcnsuWVbgIwPE0nroaRac5LXedD_JUyegIDPSfdHnmxOExFxJklLxO6I24Gawz1nCx2IBr5Aq6dgZU2zESgN-nhuaELvz1BwsXqJRFXas0h28IN4DaJqBdWnldvLcBh4u-M88LrGeKnk?fife=s16383" height="200" width="auto" /><br><br>Recinto de aclimatación y reintroducción dentro de Ferlo Norte, conocido por sus oryx, gacelas y tortugas sulcata. El acceso es remoto y debe coordinarse con el conservador o los ecoguardas desde Ranérou.<br>Perro: área de fauna cercada; no entrar sin autorización escrita, aunque permanezca en el vehículo. Prioridad: cuidador verificado en Ranérou o rotación.<br>Coordenada: aproximada, a unos 30 km al norte de Ranérou; confirmar puerta y pista con el conservador antes de salir.<br><br>Fotografía: La Vie Sénégalaise · enclos de Katané<br>Fuente: Reportaje sobre Katané (https://laviesenegalaise.com/reserve-de-faune-du-ferlo-lenclos-de-katane-un-paradis-au-coeur-de-ranerou/)]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6w9HYlS8VoO2sqIED2xT4d5lowcz1yNZhqUdtgFrMFZ8qhVjVeNaUcYzArWv_0GHBUmrn3ld3BbQyKzweSPuUxEY9TCVIROYH78mfAHqTrZfdVcnsuWVbgIwPE0nroaRac5LXedD_JUyegIDPSfdHnmxOExFxJklLxO6I24Gawz1nCx2IBr5Aq6dgZU2zESgN-nhuaELvz1BwsXqJRFXas0h28IN4DaJqBdWnldvLcBh4u-M88LrGeKnk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -14.1,15.47,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ranérou — puerta del Ferlo</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR59RB6SawHfUn0MDAZi0DqN7UnRFtg-wJXvv2RPk0RLsNh9od2AZuCmJ8oQLpMiae2OtR0L6zeF8FZ3jivBgJK_-NLBuHy3k_bdkmsti5ITvCJ7BdPcHt8oqm1c1rthAY_Ow5BRjj71i4rhCKhgm_byEKzxasrlu4qdzlNzxQ6E8exFojdbYnRKSYNq5nzObGMixz7c0jaM3IzqCxgXJfrrqSkY5flgydSllt-zmaX40MRq1yvaXuGDHuk?fife=s16383" height="200" width="auto" /><br><br>Base práctica para combustible, agua, información de pistas y contacto con los responsables de Ferlo Norte y Sur. Buen punto para conocer la vida pastoril peul sin convertir la visita en un safari convencional.<br>Perro: localidad habitada; mantenerlo controlado por ganado, perros locales y riesgo de rabia. Confirmar alojamiento y cuidador antes de acceder a las reservas.<br>Enlace: https://www.google.com/maps/search/?api=1&query=15.29808%2C-13.96239<br><br>Fotografía: La Vie Sénégalaise · entorno de Ranérou y Katané<br>Fuente: Reportaje sobre Ranérou–Katané (https://laviesenegalaise.com/reserve-de-faune-du-ferlo-lenclos-de-katane-un-paradis-au-coeur-de-ranerou/)]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR59RB6SawHfUn0MDAZi0DqN7UnRFtg-wJXvv2RPk0RLsNh9od2AZuCmJ8oQLpMiae2OtR0L6zeF8FZ3jivBgJK_-NLBuHy3k_bdkmsti5ITvCJ7BdPcHt8oqm1c1rthAY_Ow5BRjj71i4rhCKhgm_byEKzxasrlu4qdzlNzxQ6E8exFojdbYnRKSYNq5nzObGMixz7c0jaM3IzqCxgXJfrrqSkY5flgydSllt-zmaX40MRq1yvaXuGDHuk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.96239,15.29808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reserva de Fauna del Ferlo Sur</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4J3I6fIKnaLIqFSyu5DaY8znraGq99sKkJmd741iBhFDkMYvjlag4V2XZZGKP-PNqfhNfWHDsWqRZHDIndRRz8evzwM3rnfwtW3j7O0sWl_lFI0-tUbIUxkGlDhaYZdlzZHOwY0dsMxqOvR8K4JFplW3t3wvR3kciYGRHXdBavELwDPWoGuXw1m-5He55_a6nUAtu7mrC2XNq-71crbK1qwnFwOAGFe6TRRd7GED19LN1MGBKE4XQBEX0?fife=s16383" height="200" width="auto" /><br><br>Sector protegido de sabana saheliana al sur de Ranérou. Aporta paisaje remoto y continuidad ecológica hacia el Senegal oriental; la fauna suele ser más dispersa que en Ferlo Norte.<br>Perro: requiere autorización previa. Verificar si la pista elegida atraviesa el núcleo protegido; si es así, la restricción puede afectar incluso al tránsito con el perro dentro del vehículo.<br>Enlace: https://www.google.com/maps/search/?api=1&query=14.91670%2C-13.91670<br><br>Fotografía: Araesmojo · CC BY-SA 4.0; vista satelital del Ferlo<br>Fuente: Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ferlo_Desert.jpg)]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4J3I6fIKnaLIqFSyu5DaY8znraGq99sKkJmd741iBhFDkMYvjlag4V2XZZGKP-PNqfhNfWHDsWqRZHDIndRRz8evzwM3rnfwtW3j7O0sWl_lFI0-tUbIUxkGlDhaYZdlzZHOwY0dsMxqOvR8K4JFplW3t3wvR3kciYGRHXdBavELwDPWoGuXw1m-5He55_a6nUAtu7mrC2XNq-71crbK1qwnFwOAGFe6TRRd7GED19LN1MGBKE4XQBEX0?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.9167,14.9167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pista 4x4 Ranérou–Tambacounda — travesía del Ferlo</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6vFTFAhwaqIrc4VAjEn8-jLUPGEPAyvL24SBQIwKvxFYNXis4VbhVo6xLEmFTe3cs-JPPO5ASXMqmpwJE4MsxJtBHMDru2oACKB7UxdKCoLK4THYfC6RRu-5cLQhjinUElStRhwEKyNXDisjWRvlFz30-l9JYc2gPiNPFOduZ_r33S_tN_zErFcrLm1MtuIfOtIGQ4bUChUHunv275l5VQc7IZsJcdirPJVB6g2ERyIQXpqYAjQS_ACfs?fife=s16383" height="200" width="auto" /><br><br>Travesía overland de unos 230 km por sabana y pistas a veces arenosas. El trazado puede resultar poco evidente, con servicios escasos; descargar una traza contrastada, comprobar el estado local y salir con autonomía de agua y combustible.<br>Perro: confirmar qué ramales atraviesan áreas protegidas. Fuera de los núcleos, llevarlo atado cerca de poblados, ganado y perros locales.<br>Estado: referencia de planificación; revalidar pista y GPX inmediatamente antes del viaje.<br><br>Fotografía: Kap2Cap · ambiente de la pista entre Ranérou y Tambacounda<br>Fuente: Relato y traza de referencia (https://roadtrip.kap2cap.fr/voyage/462/dakar-abidjan-dakar)]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6vFTFAhwaqIrc4VAjEn8-jLUPGEPAyvL24SBQIwKvxFYNXis4VbhVo6xLEmFTe3cs-JPPO5ASXMqmpwJE4MsxJtBHMDru2oACKB7UxdKCoLK4THYfC6RRu-5cLQhjinUElStRhwEKyNXDisjWRvlFz30-l9JYc2gPiNPFOduZ_r33S_tN_zErFcrLm1MtuIfOtIGQ4bUChUHunv275l5VQc7IZsJcdirPJVB6g2ERyIQXpqYAjQS_ACfs?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -13.8,14.35,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto 42</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -12.3902666,16.2483591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punto 43</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.1119062,18.6827912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Emergencias y logística</name>
+      <Placemark>
+        <name>Entrada norte — puesto mauritano de Guerguerat</name>
+        <description><![CDATA[Categoría: Frontera<br>Corredor oficial hacia Nuadibú. No abandonar la pista marcada en la zona intermedia.<br>Enlace: https://www.google.com/maps/search/?api=1&query=21.333667%2C-16.947167<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1538-757575</styleUrl>
+        <Point>
+          <coordinates>
+            -16.947167,21.333667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salida Diama — presa y puesto fronterizo</name>
+        <description><![CDATA[Categoría: Frontera<br>Opción preferente por Diawling; verificar horarios, tasas y trámite de ambos vehículos.<br>Enlace: https://www.google.com/maps/search/?api=1&query=16.215814%2C-16.414842<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1538-757575</styleUrl>
+        <Point>
+          <coordinates>
+            -16.414842,16.215814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salida Rosso — embarcadero del ferry</name>
+        <description><![CDATA[Categoría: Frontera<br>Alternativa a Diama; prever colas, ferry y controles en ambas orillas.<br>Enlace: https://www.google.com/maps/search/?api=1&query=16.508730%2C-15.811760<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1538-757575</styleUrl>
+        <Point>
+          <coordinates>
+            -15.81176,16.50873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Embajada de España en Nuakchot</name>
+        <description><![CDATA[Categoría: Consular<br>+222 4525 2080 / 4525 2579 / 4529 8650 · emergencia +222 4683 3662 · emb.nouakchott@maec.es<br>Enlace: https://www.google.com/maps/search/?api=1&query=18.095114%2C-15.974247<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1548-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -15.974247,18.095114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Consulado de España en Nuadibú</name>
+        <description><![CDATA[Categoría: Consular<br>+222 4574 5371 · emergencia +222 4670 7502 · con.nouadhibou@maec.es. Coordenada urbana provisional.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.930000%2C-17.033000<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1548-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -17.033,20.93,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Consulado honorario de España en Rosso</name>
+        <description><![CDATA[Categoría: Consular<br>+222 4690 1067. Coordenada urbana provisional; confirmar ubicación por teléfono.<br>Enlace: https://www.google.com/maps/search/?api=1&query=16.512800%2C-15.805000<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1548-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -15.805,16.5128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Consulado honorario de España en Chinguetti</name>
+        <description><![CDATA[Categoría: Consular<br>+222 3445 6929 · sasbureau@yahoo.fr. Coordenada urbana provisional.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.463434%2C-12.366484<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1548-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -12.366484,20.463434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Hospitalier National — Nuakchot</name>
+        <description><![CDATA[Categoría: Hospital principal<br>Hospital público de referencia; capacidad limitada para casos complejos.<br>Enlace: https://www.google.com/maps/search/?api=1&query=18.088061%2C-15.987981<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1807-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -15.987981,18.088061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Hospitalier des Spécialités — Nuadibú</name>
+        <description><![CDATA[Categoría: Hospital principal<br>Centro hospitalario de referencia en el norte de la ruta.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.928785%2C-17.044440<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1807-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -17.04444,20.928785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Hospitalier d’Atar</name>
+        <description><![CDATA[Categoría: Hospital secundario<br>Recurso sanitario urbano para el bloque del Adrar; no sustituye seguro de evacuación.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.522141%2C-13.052103<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1807-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -13.052103,20.522141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hôpital de la Fraternité — Chinguetti</name>
+        <description><![CDATA[Categoría: Hospital secundario<br>Centro local relevante en el itinerario interior.<br>Enlace: https://www.google.com/maps/search/?api=1&query=20.463786%2C-12.368122<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1807-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -12.368122,20.463786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clinique Chiva — Nuakchot</name>
+        <description><![CDATA[Categoría: Hospital secundario<br>Clínica privada citada por Exteriores; confirmar servicio y contacto antes de desplazarse.<br>Enlace: https://www.google.com/maps/search/?api=1&query=18.100592%2C-15.984603<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1807-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -15.984603,18.100592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clinique Kissi — Nuakchot</name>
+        <description><![CDATA[Categoría: Hospital secundario<br>Clínica privada citada por Exteriores; confirmar servicio y contacto antes de desplazarse.<br>Enlace: https://www.google.com/maps/search/?api=1&query=18.098591%2C-15.981838<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1807-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -15.981838,18.098591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clinique Ibn Sina — Nuakchot</name>
+        <description><![CDATA[Categoría: Hospital secundario<br>Clínica privada citada por Exteriores; confirmar servicio y contacto antes de desplazarse.<br>Enlace: https://www.google.com/maps/search/?api=1&query=18.099631%2C-15.994403<br>Coordenadas verificadas: 6 de septiembre de 2026. Confirmar por teléfono los puntos señalados como provisionales.]]></description>
+        <styleUrl>#icon-1807-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            -15.994403,18.099631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Embajada de España en Dakar</name>
+        <description><![CDATA[Categoría: Consular<br>18–20 Avenue Nelson Mandela, Dakar · +221 33 889 65 80 / +221 33 821 30 81 · emb.dakar@maec.es.<br>Fuente: Ministerio de Asuntos Exteriores de España (https://www.exteriores.gob.es/Embajadas/dakar/es/Paginas/index.aspx)<br>Datos verificados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -17.4352,14.6604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Consulado General de España en Dakar</name>
+        <description><![CDATA[Categoría: Consular<br>Corniche Ouest, Fann-Mermoz, Villa nº 7 · +221 33 869 07 07 · emergencia 24 h: +221 77 569 28 89 · cog.dakar@maec.es.<br>Fuente: Consulado General de España (https://www.exteriores.gob.es/Consulados/dakar/es/Paginas/index.aspx)<br>Coordenada: aproximada; confirmar acceso antes de desplazarse. Datos verificados el 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -17.4702,14.7032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hôpital Principal de Dakar</name>
+        <description><![CDATA[Categoría: Hospital principal<br>Hospital público de referencia con urgencias, en 1 Avenue Nelson Mandela. Para emergencia médica nacional: SAMU 1515.<br>Enlace: Google Maps (https://www.google.com/maps/search/?api=1&query=14.66128%2C-17.43479)<br>Datos verificados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -17.43479,14.66128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Hospitalier Régional de Saint-Louis</name>
+        <description><![CDATA[Categoría: Hospital principal<br>Hospital regional con urgencias · Boulevard Abdoulaye Mar Diop · +221 77 289 02 44.<br>Enlace: Google Maps (https://www.google.com/maps/search/?api=1&query=16.02284%2C-16.50597)<br>Fuente: CHR Saint-Louis (https://chrsaintlouis.sn/). Datos verificados el 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -16.50597,16.02284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Hospitalier Régional de Tambacounda</name>
+        <description><![CDATA[Categoría: Hospital principal<br>Hospital regional de referencia en el corredor oriental · Avenue Léopold Senghor · +221 33 981 10 28 / +221 33 981 12 18. SAMU: 1515.<br>Enlace: Google Maps (https://www.google.com/maps/search/?api=1&query=13.75328%2C-13.67261)<br>Datos verificados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -13.67261,13.75328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Hospitalier Régional Amath Dansokho — Kédougou</name>
+        <description><![CDATA[Categoría: Hospital principal<br>Único establecimiento público de nivel II de la región, con capacidad teórica de 150 camas. Teléfono publicado: +221 78 163 78 39. Coordenada urbana aproximada; confirmar acceso.<br>Fuente: CHR Amath Dansokho (https://chr-kedougou.com/presentation/). Datos verificados el 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -12.185,12.552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre de santé de Ranérou</name>
+        <description><![CDATA[Categoría: Hospital secundario<br>Recurso sanitario básico para la travesía del Ferlo. La capacidad local es limitada y la distancia media a centros de referencia es elevada; no sustituye seguro de evacuación ni botiquín autónomo.<br>Coordenada: centro urbano provisional; verificar ubicación y funcionamiento en Ranérou.<br>Datos revisados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -13.96239,15.29808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paso fronterizo Kalifourou — salida de Senegal hacia Guinea</name>
+        <description><![CDATA[Categoría: Frontera<br>Salida prevista del corredor Senegal–Guinea por Manda–Kalifourou–Boundou Fourdou–Sambaïlo–Koundara. En Kalifourou se concentran controles senegaleses; el puesto conjunto de la línea fronteriza está más al sur.<br>Revalidar apertura, horario, visado guineano previo, documentación y seguro de ambos vehículos, y requisitos veterinarios del perro. No improvisar cruces secundarios.<br>Enlace: Google Maps (https://www.google.com/maps/search/?api=1&query=12.92415%2C-13.63848)<br>Datos revisados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -13.63848,12.92415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paso fronterizo Boundou Fourdou–Sambaïlo — entrada en Guinea</name>
+        <description><![CDATA[Categoría: Frontera<br>Puesto fronterizo del corredor principal hacia Koundara. La posición se marca en Sambaïlo como referencia operativa; confirmar el punto exacto donde se realizan policía, inmigración y aduana.<br>Revalidar apertura, trámites de ambos vehículos, cambio de moneda, seguro y certificado sanitario/importación del perro.<br>Enlace: Google Maps (https://www.google.com/maps/search/?api=1&query=12.58241%2C-13.37191)<br>Datos revisados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -13.37191,12.58241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paso Karang–Amdalai — Senegal/Gambia (alternativa)</name>
+        <description><![CDATA[Categoría: Frontera<br>Principal cruce occidental Senegal–Gambia en el eje hacia Banjul. No forma parte del corredor base hacia Guinea; conservar solo como alternativa logística.<br>Confirmar apertura, seguro CEDEAO, formalidades de los dos vehículos y admisión del perro antes de utilizarlo.<br>Enlace: Google Maps (https://www.google.com/maps/search/?api=1&query=13.59169%2C-16.42208)<br>Datos revisados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -16.42208,13.59169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paso Keur Ayib–Farafenni — Senegal/Gambia (alternativa)</name>
+        <description><![CDATA[Categoría: Frontera<br>Cruce principal de la Transgambiana y acceso al puente de Senegambia. No forma parte del corredor base; alternativa para atravesar Gambia si se replantease la ruta.<br>Confirmar ambos controles de entrada y salida, seguro, documentación de vehículos y perro, y tasas vigentes.<br>Enlace: Google Maps (https://www.google.com/maps/search/?api=1&query=13.59335%2C-15.60578)<br>Datos revisados: 8 de septiembre de 2026.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -15.60578,13.59335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,36 @@
+[
+  {
+    "n": 1,
+    "name": "Kampala",
+    "cat": "Ciudad",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "1-2 noches",
+    "lat": 0.3476,
+    "lon": 32.5825,
+    "desc": "Capital vibrante repartida sobre siete colinas, con mercados, templos de distintas religiones y el cercano origen del Nilo en Jinja como excursión clásica; base logística y de gestiones para la ruta hacia Bwindi.",
+    "credit": "Todd Huffman · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampala%20skyline.jpg?width=900",
+    "source": "https://commons.wikimedia.org/wiki/File:Kampala%20skyline.jpg",
+    "icon": "ciudad",
+    "color": "azul",
+    "dog_note": ""
+  },
+  {
+    "n": 2,
+    "name": "Bosque Impenetrable de Bwindi (Buhoma)",
+    "cat": "Naturaleza",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "2 noches",
+    "lat": -1.05,
+    "lon": 29.6167,
+    "desc": "Patrimonio de la Humanidad y uno de los últimos refugios del gorila de montaña; el trekking guiado para verlos (con permiso previo, cupo muy limitado) es una de las experiencias de naturaleza más singulares de toda la ruta.",
+    "credit": "Giles Laurent · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/068%20Mountain%20gorilla%20close-up%20at%20Bwindi%20Impenetrable%20Forest%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg?width=900",
+    "source": "https://commons.wikimedia.org/wiki/File:068%20Mountain%20gorilla%20close-up%20at%20Bwindi%20Impenetrable%20Forest%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg",
+    "icon": "naturaleza",
+    "color": "verde",
+    "dog_note": ""
+  }
+]
