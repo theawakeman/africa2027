@@ -221,6 +221,7 @@ MODAL_JS = """
 def head(root, title):
     return f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <meta name="theme-color" content="#16324F">
 <link rel="manifest" href="{root}manifest.webmanifest">
 <link rel="icon" href="{root}assets/icons/icon-192.png">
