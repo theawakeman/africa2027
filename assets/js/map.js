@@ -22,7 +22,7 @@ function a27Popup(p, root){
   if (p.dog) h += '<span class="st '+p.dogcls+'">perro: '+p.dog+'</span><br>';
   if (p.info) h += '<span>'+p.info+'</span><br>';
   h += '<div style="margin-top:6px;display:flex;gap:10px;flex-wrap:wrap">';
-  if (p.ficha) h += '<a href="'+root+p.ficha+'">Ver en la ficha</a>';
+  if (p.ficha) h += '<a href="'+(p.ficha.indexOf('#')===0?p.ficha:root+p.ficha)+'">Ver en la ficha</a>';
   h += '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
   return h;
 }
