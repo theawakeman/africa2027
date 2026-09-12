@@ -1,114 +1,110 @@
 # -*- coding: utf-8 -*-
 """Quién emite el permiso del perro en cada país, y dónde se pide exactamente.
 
-Investigado y VERIFICADO en septiembre de 2026 por tres revisiones independientes:
-cada URL se abrió una a una para comprobar que responde y que trata realmente del
-permiso de importación de animales de compañía. Las que no lo hacían no están aquí.
+Investigado en septiembre de 2026 y AUDITADO el 12-09-2026 contra las fuentes
+reales (informe «auditoria-perro-2027» del proyecto): cada URL, correo, teléfono
+y plazo se ha vuelto a comprobar; lo que no se pudo abrir se dice.
+
+Criterio del campo url: la página OFICIAL NACIONAL del organismo veterinario o
+del portal de trámites del país. Los modelos de APHIS (EE. UU.), gov.uk,
+dgav.pt y las webs comerciales se relegan a «fuentes»: describen el circuito de
+otro país exportador, no la norma del país de destino.
 
 Campos:
-  url_verificada  False = la página existe pero no se ha podido abrir desde aquí
-                  (cortafuegos, TLS roto); el enlace se marca en la app.
-  url_generica    True  = solo se ha encontrado la portada del organismo.
-  cert_dias       Validez del certificado sanitario desde su emisión. None cuando
-                  el país no publica plazo: no se inventa.
+  url_verificada  False = la página existe (indexada) pero no se ha podido abrir
+                  desde aquí (bloqueo, TLS roto, servidor caído); se marca en la app.
+  url_generica    True  = solo se ha encontrado la portada o una página que no
+                  trata expresamente de animales de compañía.
+  cert_dias       Validez del certificado sanitario desde su emisión, en días
+                  (3 = 72 h). None cuando el país no publica plazo: no se inventa.
+  auditado        Fecha de la última verificación de la entrada.
 """
 
-CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire des Produits Alimentaires (ONSSA) - '
-                            'Direction des Services Vétérinaires',
+CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire des Produits Alimentaires '
+                            '(ONSSA) - Direction des Services Vétérinaires',
                'url': 'https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/',
                'url_generica': False,
                'url_verificada': False,
                'email': None,
-               'tel': '+212 5 37 67 65 00',
+               'tel': '+212 5 37 67 65 13 (Direccion de Control Fronterizo y Acuerdos SPS de '
+                      'ONSSA, segun FAO/Codex) · +212 5 37 67 65 00 (solo en directorios '
+                      'comerciales)',
                'cert': True,
                'cert_dias': None,
-               'cert_quien': 'Veterinario oficial del pais de salida (en la UE, veterinario oficial '
-                             'habilitado; certificado en modelo bilateral, no vale el pasaporte europeo '
-                             'solo)',
-               'nota': 'AVISO: el dominio onssa.gov.ma NO ES ALCANZABLE desde el entorno de verificacion '
-                       '(la conexion es rechazada), asi que la URL NO se ha podido abrir ni comprobar; '
-                       "aparece indexada con el titulo 'Chiens et chats - ONSSA' bajo la ruta de control a "
-                       'la importacion de animales vivos, por lo que casi seguro es la pagina correcta, '
-                       'pero NO esta verificada. ONSSA publica ademas el modelo UE en '
-                       'onssa.gov.ma/wp-content/uploads/2023/07/Importation-au-Maroc-de-chiens-et-chats-a-partir-de-lUE.pdf '
-                       '(tampoco verificado). VALIDEZ DEL CERTIFICADO: no hay cifra verificada para salida '
-                       'desde la UE; los modelos bilaterales verificados dan cifras distintas (Reino '
-                       'Unido: 7 dias; EEUU: 3 dias tras el visado de APHIS), por eso cert_dias va a None. '
-                       'Requisitos comunes verificados: microchip o tatuaje previo a la vacuna, vacuna '
-                       'antirrabica inactivada con >=21 dias desde la primovacunacion, examen clinico en '
-                       'las 24 h previas al embarque y procedencia de pais libre de rabia los 6 meses '
-                       'anteriores. Telefono: centralita de ONSSA en Rabat (av. Hadj Ahmed Cherkaoui, '
-                       'Agdal) segun directorio comercial telecontact.ma, NO confirmado en fuente oficial. '
-                       'Email: no publicado en fuente accesible.',
-               'fuentes': ['https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-morocco',
-                           'https://www.aphis.usda.gov/sites/default/files/morocco-dog-cat_0.pdf',
+               'cert_quien': 'Veterinario oficial espanol, certificado bilateral ASE-3131 «perros '
+                             'y gatos a Marruecos» tramitado por CEXGAN (digital desde el '
+                             '01-09-2025, sin apostilla): chip anterior a la vacuna, vacuna '
+                             'antirrabica inactivada con >=21 dias si es primovacunacion, examen '
+                             'clinico en las 24 h previas al embarque y titulacion >=0,5 UI/ml '
+                             'para exportacion temporal',
+               'nota': 'Sin permiso previo de importacion para un perro de la UE con su dueno '
+                       '(ninguno de los tres modelos oficiales, ES/UK/EEUU, lo menciona). La '
+                       'pagina de ONSSA es la correcta por titulo pero no se ha podido abrir desde '
+                       'el entorno de verificacion: comprobarla a mano. No hay validez publicada '
+                       'en dias para el certificado espanol: lo que fija es el examen clinico en '
+                       'las 24 h previas (el modelo britanico vale 7 dias y el estadounidense 3). '
+                       'El «limite de 3 animales» no tiene fuente. Email oficial de ONSSA/DSV: no '
+                       'publicado en fuente accesible.',
+               'fuentes': ['https://servicio.mapama.gob.es/cexgan/documentacionpublica/perrosgatosmarruecosase-3131.pdf',
+                           'https://colegioveterinarios.net/wp-content/uploads/2025/07/Nota-informativa-CEXGAN-Perros-y-gatos-Marruecos-2025.pdf',
+                           'https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones',
                            'https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-morocco-certificate-3916',
-                           'https://assets.publishing.service.gov.uk/media/689da555e95097004f723f64/3916EHC_V4.pdf',
-                           'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm',
-                           'https://www.telecontact.ma/annonceur/onssa/3257548/rabat.php']},
+                           'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-morocco',
+                           'https://www.consulat.ma/en/introduction-pets',
+                           'https://www.fao.org/fao-who-codexalimentarius/about-codex/members/detail/en/c/15642/',
+                           'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+               'auditado': '2026-09-12'},
  'mauritania': {'organismo': "Direction des Services Vétérinaires (DSV) / Direction de l'Élevage, "
                              "Ministère de l'Élevage (antes Ministère du Développement Rural)",
-                'url': 'https://elevage.gov.mr/',
+                'url': 'https://elevage.gov.mr/?lang=fr',
                 'url_generica': True,
                 'url_verificada': True,
                 'email': None,
                 'tel': None,
                 'cert': True,
                 'cert_dias': None,
-                'cert_quien': 'Veterinario oficial del pais de salida (certificado zoosanitario)',
-                'nota': 'NO ENCONTRADA ninguna pagina, ni del Gobierno mauritano ni consular, que publique '
-                        'el tramite de importacion de animales de compania. APHIS NO tiene ficha de '
-                        'Mauritania en pet-travel (la URL .../pet-travel-us-mauritania devuelve 404) y '
-                        "Mauritania no figura en su menu de destinos. La web del Ministere de l'Elevage "
-                        '(elevage.gov.mr) entra en bucle de redirecciones y no se ha podido abrir. El '
-                        'unico dato verificado es que la importacion de animales vivos exige certificado '
-                        'zoosanitario (portal logistico LCA/Logistics Cluster) y la identificacion del '
-                        'organismo competente en el directorio de Delegados de la OMSA/WOAH (Director des '
-                        'Services Veterinaires, Ministere du Developpement Rural, Ksar, Nouakchott; el '
-                        "punto focal figura tambien como Direction de l'Elevage, BP 180, Nouakchott). SOLO "
-                        "PORTADA: la URL dada es la portada del Ministere de l'Elevage (elevage.gov.mr), "
-                        'que si carga y tiene una seccion de servicios veterinarios (en arabe), pero NO '
-                        'publica ficha del tramite ni telefono/email de contacto. Ruta practica '
-                        'recomendada: escribir a la Embajada de Mauritania en Paris '
-                        '(ambarimparis@gmail.com, +33 1 45 04 88 54), cuya pagina consular esta verificada '
-                        'pero NO menciona animales; o a la Embajada en Madrid. Sin plazo de validez del '
-                        'certificado publicado.',
-                'fuentes': ['https://elevage.gov.mr/',
-                            'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm',
-                            'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/animalwelfare/PF_animalwelfare_fr.htm',
-                            'https://lca.logcluster.org/13-mauritanie-information-douaniere',
-                            'https://ambarimparis.fr/informations-consulaires/']},
- 'senegal': {'organismo': "Direction des Services Vétérinaires (DSV), Ministère de l'Agriculture, de la "
-                          "Souveraineté Alimentaire et de l'Élevage",
+                'cert_quien': 'Veterinario oficial del pais de salida; segun Anivetvoyage (verif. '
+                              '10-10-2025) emitido <48 h antes de la salida; segun PetTravel, '
+                              'dentro de los 10 dias previos. Sin cifra oficial',
+                'nota': 'No existe ninguna pagina oficial mauritana ni consular con el tramite; la '
+                        "web del Ministere de l'Elevage abre pero su seccion de servicios "
+                        'veterinarios solo tiene noticias. Lo unico publicado son dos fichas '
+                        'comerciales coincidentes: microchip, rabia puesta hace menos de 12 meses, '
+                        'certificado reciente y sin titulacion; PetTravel anade que no hace falta '
+                        'permiso previo para una mascota que viaja con su dueno.',
+                'fuentes': ['https://www.anivetvoyage.com/formalites-pays/m/253-mauritanie.html',
+                            'https://www.pettravel.com/information/pet-passports/mauritania-pet-import-requirements/',
+                            'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+                'auditado': '2026-09-12'},
+ 'senegal': {'organismo': "Direction des Services Vétérinaires (DSV), Ministère de l'Agriculture, "
+                          "de la Souveraineté Alimentaire et de l'Élevage",
              'url': 'https://senegalservices.sn/demarche/demander-lautorisation-dimporter-des-animaux-de-compagnie',
              'url_generica': False,
              'url_verificada': False,
-             'email': 'contacts@elevage.gouv.sn',
-             'tel': None,
+             'email': 'contacts@elevage.gouv.sn (buzon general del ministerio) / '
+                      'wadesanou@gmail.com (secretaria DSV) / dsvmepa@gmail.com (DSV, segun APHIS)',
+             'tel': '+221 33 859 06 31 (ministerio, portal geosenegal.gouv.sn)',
              'cert': True,
-             'cert_dias': 21,
-             'cert_quien': 'Veterinario oficial/acreditado del pais de salida (en la UE, veterinario '
-                           'oficial); debe acompañar al animal',
-             'nota': 'LA URL QUE FALTABA: el portal oficial Senegal Services publica la ficha del tramite '
-                     "con el titulo exacto 'Demander l'autorisation d'importer des animaux de compagnie'. "
-                     'AVISO: NO se ha podido abrir desde el entorno de verificacion (senegalservices.sn y '
-                     'servicepublic.gouv.sn rechazan la conexion), por eso url_verificada=False; el titulo '
-                     'y la ruta si estan indexados. Ficha del mismo tramite tambien en '
-                     'servicepublic.gouv.sn (/index.php/demarche_administrative/demarche/1/1018/22/254), '
-                     'igualmente inaccesible. URL ALTERNATIVA SI VERIFICADA (abierta y comprobada, trata '
-                     'de Senegal y de perros): '
-                     'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-senegal '
-                     '. Contenido confirmado ahi: hace falta PERMISO DE IMPORTACION previo del Ministere '
-                     "de l'Agriculture, de la Souverainete Alimentaire et de l'Elevage, valido 3 meses "
-                     'desde su emision; certificado sanitario emitido dentro de los 21 dias previos al '
-                     'viaje; vacuna antirrabica al menos 21 dias antes. Emails operativos de la DSV segun '
-                     'APHIS: dsvmepa@gmail.com y wadesanou@gmail.com. Direccion: 37 Avenue Pasteur, BP 67, '
-                     'Dakar. Telefono no publicado en ninguna fuente verificada.',
+             'cert_dias': 3,
+             'cert_quien': 'Veterinario oficial del pais de salida, emitido MENOS DE 72 H antes de '
+                           'la llegada (Anivetvoyage, verif. 24-01-2026); PetTravel y el modelo '
+                           'britanico hablan de examen en las 48 h previas; los «21 dias» que '
+                           'circulan son solo la validez del modelo estadounidense',
+             'nota': 'Permiso de importacion previo obligatorio, emitido por la Direction des '
+                     'Services Veterinaires (37 Avenue Pasteur, BP 67, Dakar), valido 3 meses: lo '
+                     'confirman tres fuentes independientes. Rabia puesta hace mas de 1 mes y '
+                     'menos de 12; titulacion no exigida; antiparasitario obligatorio. La ficha '
+                     'oficial de Senegal Services tiene el titulo correcto pero no se ha podido '
+                     'abrir desde el entorno de verificacion: comprobarla a mano. Ninguna fuente '
+                     'publica el plazo de tramitacion.',
              'fuentes': ['https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-senegal',
-                         'https://senegalservices.sn/demarche/demander-lautorisation-dimporter-des-animaux-de-compagnie',
+                         'https://anivetvoyage.com/pays/senegal/',
                          'https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-senegal-certificate-6367',
-                         'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm']},
- 'gambia': {'organismo': 'Department of Livestock Services (Veterinary Services), Ministry of Agriculture',
+                         'https://geosenegal.gouv.sn/',
+                         'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+             'auditado': '2026-09-12'},
+ 'gambia': {'organismo': 'Department of Livestock Services (Veterinary Services), Ministry of '
+                         'Agriculture',
             'url': 'https://gambiaembassy.eu/faqs/',
             'url_generica': False,
             'url_verificada': True,
@@ -116,363 +112,284 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
             'tel': '+220 4397472',
             'cert': True,
             'cert_dias': None,
-            'cert_quien': "Veterinario del pais de origen ('Veterinarian's health certificate issued at "
-                          "point of origin')",
-            'nota': 'La Embajada de Gambia en Bruselas (jurisdiccion UE) dice que el permiso de '
-                    'importacion se obtiene REGISTRANDO al animal EN GAMBIA, despues de llegar, ante el '
-                    'Gambian Veterinary Department; no hay permiso previo publicado. Exige certificado '
-                    'veterinario de origen, cartilla de vacunacion y vacuna antirrabica. Telefono dado por '
-                    'la embajada para el departamento veterinario: +220 4397472. PENDIENTE: no hay web '
-                    'propia del Department of Livestock Services localizable; no se ha encontrado email '
-                    'oficial ni validez publicada del certificado. APHIS no tiene ficha de Gambia en '
-                    'pet-travel.',
+            'cert_quien': "Veterinario del pais de origen ('Veterinarian's health certificate "
+                          "issued at point of origin')",
+            'nota': 'La FAQ de la embajada (unica fuente) pide certificado sanitario del '
+                    'veterinario de origen, cartilla de vacunas y pasaporte, con el animal '
+                    '«certified as healthy, fit for travel and vaccinated for rabies»; el permiso '
+                    'de importacion se obtiene registrando al animal en el Gambian Veterinary '
+                    'Department DESPUES de llegar. No se ha localizado pagina del Department of '
+                    'Livestock Services.',
             'fuentes': ['https://gambiaembassy.eu/faqs/',
-                        'https://www.aphis.usda.gov/live-animal-export/export-live-animals-gambia']},
- 'guinea': {'organismo': "Direction Nationale des Services Vétérinaires (DNSV), Ministère de l'Élevage et "
-                         'des Productions Animales',
-            'url': 'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-guinea',
-            'url_generica': False,
+                        'https://www.aphis.usda.gov/live-animal-export/export-live-animals-gambia'],
+            'auditado': '2026-09-12'},
+ 'guinea': {'organismo': 'Direction Nationale des Services Vétérinaires (DNSV), Ministère de '
+                         "l'Élevage et des Productions Animales",
+            'url': 'https://www.elevage.gov.gn/',
+            'url_generica': True,
             'url_verificada': True,
             'email': 'contact@elevage.gov.gn',
             'tel': None,
             'cert': True,
-            'cert_dias': None,
-            'cert_quien': 'Veterinario oficial/acreditado del pais de salida',
-            'nota': 'La ficha APHIS de Guinea esta verificada y es especifica del pais, pero solo exige un '
-                    'certificado sanitario internacional para perros y gatos y NO publica ni plazo de '
-                    'validez ni permiso de importacion previo: APHIS remite explicitamente a confirmar con '
-                    'las autoridades guineanas o la embajada. El organismo competente es la DNSV '
-                    '(identificado en el directorio de Delegados de la OMSA/WOAH y en la pagina de '
-                    'misiones del Ministerio, elevage.gov.gn); su direccion postal es BP 559, Conakry. El '
-                    'email dado es el buzon general del Ministerio de Elevage, unico verificado; el '
-                    'telefono que publica esa web es un marcador de posicion (+224 000 00 00 00), por eso '
-                    'va a None. NO se ha encontrado ninguna pagina guineana que publique el tramite.',
-            'fuentes': ['https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-guinea',
-                        'https://www.elevage.gov.gn/mission-et-attributions/',
-                        'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm']},
- 'sierra-leona': {'organismo': 'Livestock and Veterinary Services Division, Ministry of Agriculture, '
-                               'Forestry and Food Security (MAFFS)',
-                  'url': 'https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-sierra-leone-certificate-6548',
-                  'url_generica': False,
+            'cert_dias': 3,
+            'cert_quien': 'Veterinario oficial del pais de salida, <72 h antes de la llegada '
+                          '(Anivetvoyage, verif. 06-04-2024; sin fuente oficial guineana)',
+            'nota': "No hay pagina oficial del tramite: la web del Ministere de l'Elevage es solo "
+                    "portada (su telefono es un numero de relleno). El Code de l'Elevage (Loi "
+                    'L/2018/026/AN, art. 41) somete a control veterinario todo animal vivo que '
+                    'entre «par voie terrestre, ferroviaire, fluviale, maritime ou aerienne» y el '
+                    'art. 150 prohibe importar perros de primera categoria. Anivetvoyage: '
+                    'microchip, rabia <12 meses, certificado <72 h, sin titulacion. Sin testimonio '
+                    'de cruce con perro.',
+            'fuentes': ['https://cnt.gov.gn/archive.assemblee/www.assemblee.gov.gn/conakry-le-03-juillet-2018-l2018026an-loi-portant-code-de-lelevage-et-des-produits-animaux.html',
+                        'https://www.anivetvoyage.com/formalites-pays/g/301-guinee.html',
+                        'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-guinea',
+                        'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+            'auditado': '2026-09-12'},
+ 'sierra-leona': {'organismo': 'Livestock and Veterinary Services Division, Ministry of '
+                               'Agriculture, Forestry and Food Security (MAFFS)',
+                  'url': 'https://maf.gov.sl/',
+                  'url_generica': True,
                   'url_verificada': True,
                   'email': None,
                   'tel': None,
                   'cert': True,
                   'cert_dias': 7,
-                  'cert_quien': 'Veterinario oficial (Official Veterinarian) del pais de salida',
-                  'nota': 'NO EXISTE pagina del Gobierno de Sierra Leona ni consular que publique el '
-                          'tramite; Sierra Leona tampoco figura en el menu de destinos de pet-travel de '
-                          'APHIS. La URL dada es la ficha oficial britanica (DEFRA/APHA) del certificado '
-                          "6548 'Export cats and dogs to Sierra Leone', verificada, con el modelo de "
-                          'certificado y las notas de orientacion; el modelo (6548EHC_V3.pdf) esta '
-                          'comprobado y dice literalmente que el certificado es valido 7 dias desde la '
-                          'firma, exige examen clinico sin signos de enfermedad contagiosa (moquillo, '
-                          'rabia, parasitos externos) y constancia de la vacuna antirrabica. En ese modelo '
-                          'NO se menciona permiso de importacion previo, pero eso no prueba que no lo '
-                          'haya. Organismo competente identificado en el directorio de Delegados de la '
-                          'OMSA/WOAH: Livestock and Veterinary Services Division del MAFFS, Youyi '
-                          'Building, Freetown. Sin email ni telefono publicados en fuente verificada: '
-                          'confirmar por la Alta Comision de Sierra Leona antes de salir.',
+                  'cert_quien': 'Veterinario oficial del pais de salida; el modelo britanico (EHC '
+                                '6548) vale 7 dias y admite incluso animal no vacunado de rabia',
+                  'nota': 'No existe ninguna pagina oficial sierraleonesa sobre importacion de '
+                          'animales de compania: la web del Ministry of Agriculture and Food '
+                          'Security es solo portada y el Unified Permit Portal no se ha podido '
+                          'abrir. La unica descripcion del regimen es el certificado bilateral '
+                          'britanico.',
                   'fuentes': ['https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-sierra-leone-certificate-6548',
-                              'https://assets.publishing.service.gov.uk/media/5bceea93ed915d4315aba3e1/6548EHC_V3.pdf',
-                              'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm',
-                              'https://www.aphis.usda.gov/live-animal-export/export-live-animals-sierra-leone']},
- 'liberia': {'organismo': "Consulate General / Embassy of the Republic of Liberia (emite el 'Pet "
-                          "Clearance'); autoridad interna: Ministry of Agriculture de Liberia",
-             'url': 'https://liberiaconsulate-ny.com/consulate-services/pet-clearance/',
+                              'https://assets.publishing.service.gov.uk/media/65ae3d20751546000d7b4a8d/6548EHC_V3.pdf',
+                              'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+                  'auditado': '2026-09-12'},
+ 'liberia': {'organismo': 'Ministry of Agriculture — Animal Resources Division (su director es el '
+                          'Chief Veterinary Officer); el «Pet Clearance» previo lo expiden tambien '
+                          'los consulados y embajadas de Liberia',
+             'url': 'https://www.moa.gov.lr/general/sps-national-enquiry-pointnational-notification-authority',
              'url_generica': False,
              'url_verificada': True,
-             'email': 'info@liberiaconsulate-ny.com',
-             'tel': '+1 212 687 1025',
+             'email': 'gvoupawoe@moa.gov.lr (CVO) / SPSNEP@moa.gov.lr / '
+                      'info@liberiaconsulate-ny.com (consulado NY)',
+             'tel': '+231 886 400 600 (CVO) · +231 880 745 449 (SPS NEP) · +1 212 687 1025 '
+                    '(consulado NY)',
              'cert': True,
              'cert_dias': 30,
-             'cert_quien': 'Veterinario colegiado del pais de salida (o servicio veterinario oficial)',
-             'nota': "En Liberia el permiso es un 'Pet Clearance' que expide la MISION DIPLOMATICA "
-                     'liberiana ANTES del viaje, no un ministerio en Monrovia. El certificado sanitario '
-                     'debe tener fecha no superior a 30 dias antes de la llegada. Tasa 100 USD por animal '
-                     'en el consulado de NY. OJO viaje desde España: hay que pedirlo a la Embajada de '
-                     'Liberia acreditada ante España (no a la de Nueva York); los datos de aqui son los '
-                     'del consulado de NY, los unicos con pagina verificada. La Embajada de Liberia en '
-                     'EEUU publica el mismo tramite en liberianembassyus.org (tel +1 202 723 0437, '
-                     'info@liberianembassyus.org). PENDIENTE: no se ha encontrado ninguna pagina del '
-                     'Gobierno de Liberia que publique el tramite.',
+             'cert_quien': 'Veterinario colegiado del pais de salida, fechado no mas de 30 dias '
+                           'antes de la llegada (pet clearance consular); el ministerio pide '
+                           'ademas las pegatinas de las vacunas en el certificado',
+             'nota': 'La pagina del Ministry of Agriculture describe el procedimiento: carta de '
+                     'solicitud al Director of Animal Resources «for companion or domestic '
+                     'animals», certificado sanitario con las pegatinas de vacunacion, y permisos '
+                     'expedidos en 48 h. El consulado de Nueva York y la embajada en Washington '
+                     'ofrecen un «Pet Clearance» previo por 100 USD (giro postal, no '
+                     'reembolsable). Liberia no tiene embajada en Espana.',
              'fuentes': ['https://liberiaconsulate-ny.com/consulate-services/pet-clearance/',
-                         'https://www.liberianembassyus.org/document/requirements-for-pet-travel-to-liberia']},
- 'costa-de-marfil': {'organismo': 'Direction des Services Vétérinaires (DSV), Ministère des Ressources '
-                                  'Animales et Halieutiques',
-                     'url': 'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ivory-coast',
-                     'url_generica': False,
+                         'https://liberianembassyus.org/document/requirements-for-pet-travel-to-liberia',
+                         'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+             'auditado': '2026-09-12'},
+ 'costa-de-marfil': {'organismo': 'Direction des Services Vétérinaires (DSV), Ministère des '
+                                  'Ressources Animales et Halieutiques',
+                     'url': 'https://www.gucecotedivoire.ci/pwic/animaux-vivants/',
+                     'url_generica': True,
                      'url_verificada': True,
-                     'email': 'carv.dsvci@gmail.com',
-                     'tel': '+225 27 20 21 89 72',
+                     'email': 'carv.dsvci@gmail.com / dsv.sdsa2017@gmail.com (ambos publicados por '
+                              'APHIS para pedir el permiso)',
+                     'tel': '+225 27 20 21 89 72 (DSV, Cite Administrative Tour C 11.º, '
+                            'Abidjan-Plateau; el prefijo 27 es la renumeracion de 2021 y no esta '
+                            'verificado por llamada)',
                      'cert': True,
                      'cert_dias': 10,
-                     'cert_quien': 'Veterinario oficial/acreditado del pais de salida, refrendado por la '
-                                   'autoridad veterinaria nacional',
-                     'nota': 'Hace falta AUTORIZACION DE IMPORTACION previa de la DSV: formulario de '
-                             'solicitud + copia del certificado de vacunacion antirrabica en vigor. '
-                             'Segundo email: dsv.sdsa2017@gmail.com. Rabia: si es primovacunacion o '
-                             'refuerzo fuera de plazo, esperar 21 dias antes de viajar. Direccion DSV: '
-                             'Cite Administrative, Tour C, 11e etage, Abidjan-Plateau. El telefono figura '
-                             'en el portal GUCE como 20 21 89 72 (numeracion antigua de 8 cifras); se da '
-                             'ya con el prefijo 27 de la numeracion a 10 cifras vigente desde 2021, SIN '
-                             'VERIFICAR por llamada. Formulario oficial de solicitud (PDF, en frances, del '
-                             'MIRAH) reproducido por APHIS: ptw-ivory-coast-import-permit-application.pdf.',
+                     'cert_quien': 'Veterinario oficial/acreditado del pais de salida, refrendado '
+                                   'por la autoridad veterinaria nacional dentro de los 10 dias '
+                                   'previos al viaje (dato del modelo estadounidense; sin cifra '
+                                   'marfilena)',
+                     'nota': 'Permiso previo confirmado: existe formulario oficial del Ministere '
+                             'des Ressources Animales et Halieutiques / DSV para «carnivores '
+                             'domestiques» (reproducido por APHIS), que se pide por correo '
+                             'adjuntando el certificado antirrabico. La ventanilla unica GUCE '
+                             'describe la importacion de animales vivos (autorizacion previa del '
+                             'MIRAH + laissez-passer sanitario de la DSV) pero no menciona '
+                             'mascotas; ninguna pagina marfilena lo hace. Rabia: al menos 21 dias '
+                             'tras primovacunacion.',
                      'fuentes': ['https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ivory-coast',
                                  'https://www.aphis.usda.gov/sites/default/files/ptw-ivory-coast-import-permit-application.pdf',
-                                 'https://www.gucecotedivoire.ci/pwic/animaux-vivants/']},
- 'ghana': {'organismo': 'Veterinary Services Department (VSD), Ministry of Food and Agriculture (MoFA)',
-           'url': 'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ghana',
-           'url_generica': False,
+                                 'https://ressourcesanimales.gouv.ci/direction/direction-des-services-veterinaires-dsv/',
+                                 'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+                     'auditado': '2026-09-12'},
+ 'ghana': {'organismo': 'Veterinary Services Directorate / Department (VSD), Ministry of Food and '
+                        'Agriculture (MoFA)',
+           'url': 'https://mofa.gov.gh/site/directorates/technical-directorates/veterinary-services',
+           'url_generica': True,
            'url_verificada': True,
            'email': 'vsd@mofa.gov.gh',
-           'tel': '+233 24 264 9497',
+           'tel': '+233 24 264 9497 (linea de emergencia de la VSD; los otros dos numeros de su '
+                  'web son de relleno)',
            'cert': True,
            'cert_dias': 30,
-           'cert_quien': "Veterinario oficial del pais de salida ('International Health Certificate'; "
-                         'desde EEUU lo emite veterinario acreditado y lo refrenda APHIS, que acepta '
-                         'refrendo digital)',
-           'nota': 'OJO AL NOMBRE: el organismo existe y su sitio oficial es vsd.gov.gh, pero se llama a '
-                   "si mismo 'Veterinary Services Department', no 'Directorate'. La portada vsd.gov.gh SI "
-                   'se ha abierto y verificado, y de ahi salen el email (vsd@mofa.gov.gh), la direccion '
-                   'postal (P.O. Box M161, Accra) y el telefono que se da aqui, que es la linea de '
-                   "emergencia publicada (0242649497). El otro numero de la portada aparece como '(233) "
-                   "030-1234567', que es evidentemente un numero de relleno: NO usarlo. LA PAGINA DEL "
-                   "TRAMITE NO SIRVE: la portada enlaza 'Import Requirements' en "
-                   'https://vsd.gov.gh/255-2/, pero esa URL devuelve error de servidor en TRES intentos '
-                   "distintos, asi que no se ha podido verificar y no se da como 'url'. El sitio tampoco "
-                   "tiene pagina dedicada a mascotas, solo 'Import Requirements'/'Export Requirements' "
-                   "genericos. Por eso la 'url' que se da es la ficha de USDA-APHIS, que SI se ha abierto "
-                   'y SI trata de perros y gatos hacia Ghana. cert_dias=30 sale del modelo APHIS (ver '
-                   'aviso transversal de cabecera). DATO UTIL DE FUENTE COMERCIAL (pettravel.com, marcada '
-                   'como tal, abierta y verificada): en Ghana SI hace falta permiso de importacion incluso '
-                   'para mascota personal, se pide despues de las analiticas y el permiso vale 8 semanas; '
-                   'vacuna antirrabica entre 30 dias y 6 meses antes de entrar; microchip ISO 11784/11785. '
-                   'NO CONFIRMADO POR EL VSD. PROCEDIMIENTO (wikiprocedure, fuente terciaria NO oficial, '
-                   'verificada): formulario en la oficina del VSD (Government Animal Clinic, Okodan Rd, '
-                   'Accra), solicitud por escrito con al menos 7 dias de antelacion, aviso al puesto de '
-                   'entrada 3 dias antes, y cuarentena teorica de 21-30 dias. Telefonos de MoFA citados '
-                   'alli: +233 21 662961 / 663036 / 662810. La cuarentena es el riesgo serio a aclarar por '
-                   'escrito ANTES de salir.',
-           'fuentes': ['https://vsd.gov.gh/',
+           'cert_quien': "Veterinario oficial del pais de salida ('International Health "
+                         "Certificate'); los 30 dias son la validez del modelo estadounidense, no "
+                         'una norma ghanesa publicada',
+           'nota': 'Permiso de importacion previo (PetTravel: valido 8 semanas; wikiprocedure: '
+                   'solicitud escrita con al menos 7 dias de antelacion), rabia entre 30 dias y 6 '
+                   'meses antes, microchip ISO. La pagina especifica «Import Requirements» de '
+                   'vsd.gov.gh (/255-2/) existe pero no se ha podido abrir: comprobarla a mano. El '
+                   'plazo «2-4 semanas» no tiene fuente.',
+           'fuentes': ['https://vsd.gov.gh/255-2/',
                        'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ghana',
-                       'https://www.aphis.usda.gov/sites/default/files/ghana-dog-cat.pdf',
                        'https://www.pettravel.com/information/pet-passports/ghana-pet-import-requirements/',
-                       'https://www.wikiprocedure.com/index.php/Ghana_-_Apply_for_Live_Animal_and_Animal_Products_Import']},
- 'togo': {'organismo': "Ministère de l'Agriculture, de la Production Animale (Ressources Animales) et de "
-                       'la Souveraineté Alimentaire (MAPRASA) - servicios veterinarios / Direction de '
-                       "l'Élevage",
-          'url': 'https://www.pettravel.com/information/pet-passports/togo-pet-import-requirements/',
-          'url_generica': False,
+                       'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+           'auditado': '2026-09-12'},
+ 'togo': {'organismo': "Ministère de l'Agriculture, de la Production Animale (Ressources Animales) "
+                       'et de la Souveraineté Alimentaire (MAPRASA) - servicios veterinarios / '
+                       "Direction de l'Élevage",
+          'url': 'https://agriculture.gouv.tg/',
+          'url_generica': True,
           'url_verificada': True,
           'email': None,
           'tel': None,
           'cert': True,
           'cert_dias': 3,
-          'cert_quien': 'Veterinario oficial del pais de salida, o veterinario habilitado con refrendo de '
-                        'veterinario oficial',
-          'nota': 'URL DE FUENTE COMERCIAL, MARCADA COMO TAL (pettravel.com): es el ULTIMO RECURSO porque '
-                  'NO EXISTE ninguna pagina oficial togolesa localizable sobre importacion de animales de '
-                  'compania. Se ha abierto y verificado que trata del tema. NOMBRE DEL MINISTERIO SI '
-                  "VERIFICADO en fuente oficial: la ficha de USDA-APHIS 'Export Live Animals to Togo' "
-                  "(abierta y verificada) cita expresamente al 'Ministry of Agriculture, Fisheries Animal "
-                  "resources and Food Sovereignty (MAPRASA) of the Togolese Republic' como la autoridad "
-                  'que acepta los certificados; pero esa ficha va de ganado y aves, NO de mascotas, por '
-                  "eso no se usa como 'url'. APHIS NO tiene ficha de mascotas de Togo: "
-                  '.../pet-travel-us-togo da 404 comprobado. No se ha encontrado email ni telefono del '
-                  'servicio veterinario togoles. PERMISO DE IMPORTACION - PUNTO CRITICO PARA ESTA RUTA: '
-                  'pettravel dice que SI hace falta permiso salvo que se entre desde una lista cerrada de '
-                  'paises que incluye Benin, Burkina, Costa de Marfil, Camerun, Gabon, los dos Congos, '
-                  'Mali, Niger, Senegal y FRANCIA, pero NO incluye ESPANA ni GHANA. Es decir: entrando a '
-                  'Togo desde Ghana, que es lo que hara este viaje, segun esta fuente HARIA FALTA PERMISO. '
-                  'Dato no confirmado oficialmente pero demasiado importante para ignorarlo: preguntar por '
-                  'escrito. cert_dias=3 lo dan DOS fuentes comerciales independientes que coinciden '
-                  "(pettravel: 'within 3 days of entry'; anivetvoyage: emitido como maximo 3 dias antes de "
-                  'la llegada). Vacuna antirrabica: al menos 21 dias antes (pettravel) / entre 21 dias y '
-                  '12 meses (anivetvoyage). Microchip recomendado, no exigido segun pettravel.',
-          'fuentes': ['https://www.aphis.usda.gov/live-animal-export/export-live-animals-togo',
-                      'https://www.pettravel.com/information/pet-passports/togo-pet-import-requirements/',
-                      'https://www.anivetvoyage.com/formalites-pays/t/174-togo.html']},
- 'benin': {'organismo': "Direction de l'Élevage (DE), Ministère de l'Agriculture, de l'Élevage et de la "
-                        'Pêche (MAEP)',
+          'cert_quien': 'Veterinario oficial del pais de salida, o veterinario habilitado con '
+                        'refrendo de veterinario oficial',
+          'nota': 'Ninguna pagina togolesa trata de animales vivos ni mascotas (el portal de '
+                  'tramites del Estado dice «Aucun service digitalise pour le moment»). Fuentes '
+                  'comerciales coincidentes: certificado emitido no mas de 3 dias antes de la '
+                  'llegada, rabia >21 dias y <12 meses, microchip recomendado. PetTravel: permiso '
+                  'de importacion exigido salvo que se llegue desde una lista cerrada de paises '
+                  '(Benin, Burkina, Camerun, Costa de Marfil, Francia, Gabon, Mali, Mauritania, '
+                  'Niger, Senegal...): ni Ghana ni Espana estan en ella. Direccion postal (WOAH): '
+                  "Direction de l'Elevage, 59 rue de la Kozah, Lome.",
+          'fuentes': ['https://www.pettravel.com/information/pet-passports/togo-pet-import-requirements/',
+                      'https://www.anivetvoyage.com/formalites-pays/t/174-togo.html',
+                      'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+          'auditado': '2026-09-12'},
+ 'benin': {'organismo': "Direction de l'Élevage (DE), Ministère de l'Agriculture, de l'Élevage et "
+                        'de la Pêche (MAEP)',
            'url': 'https://catis.xroad.bj/publicservices/PS00501',
            'url_generica': False,
            'url_verificada': True,
            'email': None,
            'tel': None,
            'cert': True,
-           'cert_dias': 10,
-           'cert_quien': 'Veterinario oficial del pais de salida; en Benin el certificado sanitario '
-                         "internacional lo expide la Direction de l'Élevage",
-           'nota': 'EL MEJOR RESULTADO OFICIAL DE TODA LA LISTA JUNTO CON ANGOLA. La URL es el catalogo '
-                   'oficial de servicios publicos del Gobierno de Benin (CatIS, catis.xroad.bj), abierto y '
-                   "verificado, y el servicio PS00501 se titula literalmente 'Controle sanitaire et "
-                   "delivrance des certificats sanitaires internationaux a l'importation et a "
-                   "l'exportation des animaux vivants' y su descripcion incluye EXPRESAMENTE 'animaux de "
-                   "compagnie'. Es exactamente el tramite que se busca, nombrado por el propio Estado "
-                   "benines. ORGANISMO: lo presta la Direction de l'Elevage, del MAEP (ficha de "
-                   'institucion verificada en https://catis.xroad.bj/institutions/IN00173). BASE LEGAL '
-                   'citada en la ficha: Arrete N.045/MAEP/MEF/MDGLAAT/D-CAB/SGM/DRH/DRFM/DE/SA de 15 de '
-                   'febrero de 2008, sobre tasas de los servicios veterinarios. DIRECCION FISICA '
-                   "VERIFICADA de la Direction de l'Elevage: Cotonou, Akpakpa, apres ancien pont, domaine "
-                   "avant Societe 'la Roche'. Horario 8:00-12:30 y 14:00-17:30, lunes a viernes. LO QUE NO "
-                   'HAY: ni la ficha del servicio ni la de la institucion publican email ni telefono, por '
-                   'eso ambos van a None. Los unicos correos que aparecen en CatIS (info@ega.ee, '
-                   'info@upmind.ee) son de los administradores estonios de la plataforma, NO de Benin: no '
-                   'escribir ahi. Hay que presentarse o llamar por otra via. cert_dias=10 procede de '
-                   'fuente COMERCIAL (anivetvoyage, marcada, verificada): certificado valido diez dias '
-                   'desde su emision, y emitido menos de 72 h antes de la llegada; vacuna antirrabica de '
-                   'mas de 1 mes y menos de 1 ano. NO confirmado por el MAEP.',
-           'fuentes': ['https://catis.xroad.bj/publicservices/PS00501',
-                       'https://catis.xroad.bj/institutions/IN00173',
-                       'https://anivetvoyage.com/pays/benin/']},
- 'nigeria': {'organismo': 'Federal Department of Veterinary and Pest Control Services (FDVPCS) - Chief '
-                          'Veterinary Officer of Nigeria (CVO), Federal Ministry of Agriculture. La '
-                          'Nigeria Agricultural Quarantine Service (NAQS) NO emite el permiso: inspecciona '
-                          'y pone en cuarentena a la llegada',
-             'url': 'https://naqs.gov.ng/animal/',
-             'url_generica': False,
+           'cert_dias': 3,
+           'cert_quien': 'Veterinario oficial del pais de salida, emitido MENOS DE 72 H antes de '
+                         'la llegada (Anivetvoyage). Los «10 dias» que figuraban antes eran la '
+                         'validez del certificado UE de reentrada, no del de entrada en Benin',
+           'nota': 'La ficha oficial CatIS PS00501 («controle sanitaire et delivrance des '
+                   "certificats sanitaires internationaux a l'importation et a l'exportation des "
+                   "animaux vivants (betail, animaux de compagnie...)», Direction de l'Elevage, "
+                   'arrete 045/MAEP de 2008) no da documentos, coste, plazo ni contacto. Oficina: '
+                   'Cotonou, Akpakpa, tras el antiguo puente (L-V 8:00-12:30 / 14:00-17:30); BP '
+                   '2041 (WOAH). Rabia >1 mes y <1 ano, microchip y pasaporte. Permiso previo: sin '
+                   'fuente.',
+           'fuentes': ['https://catis.xroad.bj/institutions/IN00173',
+                       'https://anivetvoyage.com/pays/benin/',
+                       'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+           'auditado': '2026-09-12'},
+ 'nigeria': {'organismo': 'Chief Veterinary Officer (CVO) — Federal Department of Veterinary and '
+                          'Pest Control Services, desde 2024 en el Federal Ministry of Livestock '
+                          'Development (FMLD). La Nigeria Agricultural Quarantine Service (NAQS) '
+                          'NO emite el permiso: inspecciona y pone en cuarentena a la llegada',
+             'url': 'https://www.fmld.gov.ng/structure/',
+             'url_generica': True,
              'url_verificada': True,
-             'email': 'contact@naqs.gov.ng',
-             'tel': '+234 807 777 8943',
+             'email': 'vpcs@fmard.gov.ng (CVO, segun nota del servicio veterinario ruso, sin '
+                      'fecha) / info@fmld.gov.ng / contact@naqs.gov.ng (NAQS)',
+             'tel': '+234 807 777 8943 (NAQS, Abuja)',
              'cert': True,
-             'cert_dias': 30,
-             'cert_quien': "Veterinario oficial del pais de salida ('Sanitary/Health certificate'); desde "
-                           'EEUU, veterinario acreditado MAS refrendo de APHIS en TINTA ORIGINAL y con '
-                           'sello en relieve',
-             'nota': 'CORRECCION IMPORTANTE AL PLANTEAMIENTO DE PARTIDA: el permiso de importacion NO lo '
-                     'emite NAQS. El SOP oficial de la propia NAQS (PDF abierto y verificado) dice '
-                     "literalmente 'Apply for import permit to the chief Veterinary Officer (CVO), Federal "
-                     "Department of Veterinary and Pest Control Services', con direccion en el Federal "
-                     'Ministry of Agriculture, Area 11, Abuja. NAQS es quien inspecciona en el puesto '
-                     'fronterizo y quien manda los animales vivos a estacion de cuarentena para '
-                     'observacion. HAY QUE HACER LAS DOS COSAS: pedir el permiso al CVO y notificar a '
-                     'NAQS. URL VERIFICADA: naqs.gov.ng/animal/ se ha abierto y trata de cuarentena animal '
-                     "citando expresamente perros ('including dogs, cattle, cats, horses...'). Es la "
-                     'pagina del departamento competente, no un formulario de permiso. CONTACTOS '
-                     'VERIFICADOS EN ESA PAGINA: contact@naqs.gov.ng, info@naqs.gov.ng, +234 8077778943, '
-                     '+234 8091333385; jefe de departamento Dr. Emeka Asiegbu (emeka.asiegbu@naqs.gov.ng, '
-                     'hod.aq@naqs.gov.ng); Plot 81, Ralph Shodeinde Street, Central Business District, '
-                     'Abuja. NO se ha localizado email ni telefono directos del CVO/FDVPCS, que es a quien '
-                     'hay que dirigir formalmente la solicitud: usar NAQS como puerta de entrada y pedir '
-                     'que la deriven. cert_dias=30 sale del modelo APHIS (ver aviso transversal de '
-                     'cabecera). REQUISITOS VERIFICADOS en el certificado APHIS de Nigeria: MICROCHIP '
-                     "OBLIGATORIO ('All pets (dogs and/or cats) must be microchipped') y vacuna "
-                     'antirrabica con vacuna inactivada dentro del ano anterior a la fecha de salida. '
-                     'ATENCION: Nigeria es de los pocos que NO acepta refrendo digital, exige tinta '
-                     'original y sello en relieve.',
-             'fuentes': ['https://naqs.gov.ng/animal/',
-                         'https://naqs.gov.ng/wp-content/uploads/2020/07/NAQS_SOP.pdf',
+             'cert_dias': None,
+             'cert_quien': 'Veterinario oficial del pais de salida. Las fuentes discrepan: el '
+                           'modelo estadounidense vale 30 dias con refrendo en tinta original y '
+                           'sello en relieve; PetTravel dice 48 h; una nota del servicio '
+                           'veterinario ruso pide certificado con al menos 2 semanas de validez',
+             'nota': 'El SOP oficial de NAQS es claro: «Apply for import permit to the Chief '
+                     'Veterinary Officer (CVO), Federal Department of Veterinary and Pest Control '
+                     'Services». Pista del procedimiento (nota rusa, sin fecha): escribir al CVO '
+                     'con pasaporte veterinario, certificado antirrabico (<1 ano) y carta firmada, '
+                     'pagar 5.000 NGN por Remita y recibir el permiso en 3-4 dias; otras fuentes '
+                     'hablan de hasta 3 meses, o del mismo dia en persona. El portal de permisos '
+                     'fmard.gov.ng/l_page/vetpermit/ existe pero esta caido: probarlo a mano. '
+                     'Rabia inactivada <1 ano, microchip obligatorio, cuarentena posible (2-3 '
+                     'semanas). PetTravel confunde Nigeria con Niger en su propia ficha: no '
+                     'usarla.',
+             'fuentes': ['https://naqs.gov.ng/wp-content/uploads/2020/07/NAQS_SOP.pdf',
+                         'https://naqs.gov.ng/animal/',
+                         'https://fmard.gov.ng/l_page/vetpermit/',
                          'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-nigeria',
-                         'https://www.aphis.usda.gov/sites/default/files/nigeria-dog-cat.pdf']},
- 'camerun': {'organismo': "Ministère de l'Élevage, des Pêches et des Industries Animales (MINEPIA) - "
-                          'Direction des Services Vétérinaires',
-             'url': 'https://www.aphis.usda.gov/pet-travel/pet-travel-united-states-cameroon',
+                         'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+             'auditado': '2026-09-12'},
+ 'camerun': {'organismo': "Ministère de l'Élevage, des Pêches et des Industries Animales (MINEPIA) "
+                          '- Direction des Services Vétérinaires',
+             'url': 'https://minepia.cm/site/services/productions-et-industries-animales/obtention-dune-autorisation-dimportation-des-poussins-dun-jour-des-oeufs-a-couver-des-animaux-delevage-et-de-compagnie/',
              'url_generica': False,
-             'url_verificada': True,
+             'url_verificada': False,
              'email': None,
              'tel': None,
              'cert': True,
-             'cert_dias': 30,
-             'cert_quien': 'Veterinario oficial del pais de salida (desde EEUU, veterinario acreditado MAS '
-                           'refrendo de APHIS en tinta original y con sello en relieve)',
-             'nota': 'MINEPIA es el ministerio competente, confirmado por el nombre y por la existencia en '
-                     "su web de una ficha de tramite titulada 'OBTENTION D'UNE AUTORISATION D'IMPORTATION "
-                     "DES POUSSINS D'UN JOUR, DES OEUFS A COUVER, DES ANIMAUX D'ELEVAGE ET DE COMPAGNIE' "
-                     'en '
-                     'minepia.cm/site/services/productions-et-industries-animales/obtention-dune-autorisation-dimportation-des-poussins-dun-jour-des-oeufs-a-couver-des-animaux-delevage-et-de-compagnie/ '
-                     "Por el titulo es EXACTAMENTE el tramite buscado (dice 'animaux de compagnie'), pero "
-                     'NO SE HA PODIDO ABRIR NI VERIFICAR: el dominio minepia.cm tiene la cadena de '
-                     'certificado TLS rota y bloquea el acceso automatico, en cuatro intentos y por tres '
-                     'rutas distintas (pagina del tramite, /site/contact/ y www.minepia.cm). Por eso NO se '
-                     "da como 'url' y no hay email ni telefono: MERECE LA PENA ABRIRLA A MANO EN UN "
-                     "NAVEGADOR, es previsiblemente la mejor fuente para Camerun. La 'url' que se da es la "
-                     'ficha de USDA-APHIS de Camerun, abierta y verificada, con certificado veterinario '
-                     'descargable para perros y gatos. OJO: esta en el patron de URL ANTIGUO '
-                     '(/pet-travel/pet-travel-united-states-cameroon); el patron nuevo '
-                     '(/pet-travel/us-to-another-country-export/pet-travel-us-cameroon) da 404. '
-                     'cert_dias=30 sale del modelo APHIS (ver aviso transversal de cabecera). El '
-                     'certificado verificado exige verificacion de microchip. DATO DE FUENTE COMERCIAL '
-                     '(pettravel.com, marcada, verificada): afirma que NO hace falta permiso de '
-                     'importacion para mascota personal que viaja con su dueno, y que la vacuna '
-                     'antirrabica debe tener al menos 30 dias y no mas de 12 meses, con animal mayor de 3 '
-                     'meses. CONTRADICE la existencia del tramite de MINEPIA: no fiarse, preguntar.',
+             'cert_dias': None,
+             'cert_quien': 'Veterinario oficial del pais de salida; los «30 dias» son la validez '
+                           'del modelo estadounidense, no una norma camerunesa publicada',
+             'nota': "La ficha de MINEPIA «Obtention d'une autorisation d'importation... des "
+                     "animaux d'elevage et de compagnie» es, por titulo, exactamente el tramite, "
+                     'pero el certificado TLS del dominio esta roto y no se ha podido abrir (el '
+                     'navegador avisara): comprobarla a mano. Permiso previo sin resolver: MINEPIA '
+                     'publica el tramite, PetTravel dice que no hace falta para mascotas con '
+                     'dueno. Rabia al menos 30 dias antes (PetTravel). Sin email ni telefono '
+                     'verificables.',
              'fuentes': ['https://www.aphis.usda.gov/pet-travel/pet-travel-united-states-cameroon',
-                         'https://www.aphis.usda.gov/sites/default/files/cameroon-dog-cat.pdf',
-                         'https://minepia.cm/site/services/productions-et-industries-animales/obtention-dune-autorisation-dimportation-des-poussins-dun-jour-des-oeufs-a-couver-des-animaux-delevage-et-de-compagnie/',
-                         'https://www.pettravel.com/information/pet-passports/cameroon-pet-import-requirements/']},
- 'gabon': {'organismo': "Direction Générale de l'Élevage, Ministère de l'Agriculture et de l'Alimentation",
-           'url': 'https://www.pettravel.com/information/pet-passports/gabon-pet-import-requirements/',
-           'url_generica': False,
+                         'https://www.pettravel.com/information/pet-passports/cameroon-pet-import-requirements/',
+                         'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+             'auditado': '2026-09-12'},
+ 'gabon': {'organismo': "Direction Générale de l'Élevage, Ministère de l'Agriculture et de "
+                        "l'Alimentation",
+           'url': 'https://www.agriculture.gouv.ga/',
+           'url_generica': True,
            'url_verificada': True,
            'email': None,
            'tel': None,
            'cert': True,
-           'cert_dias': 10,
-           'cert_quien': 'Veterinario habilitado del pais de salida (certificat sanitaire international)',
-           'nota': 'EL PAIS CON MENOS RESPALDO OFICIAL DE LOS NUEVE, junto con Togo. URL DE FUENTE '
-                   'COMERCIAL, MARCADA COMO TAL (pettravel.com), usada como ultimo recurso: se ha abierto '
-                   'y verificado que trata de los requisitos de entrada de perros a Gabon. ORGANISMO '
-                   'IDENTIFICADO PERO NO VERIFICADO: existe agriculture.gouv.ga con una pagina de la '
-                   "Direction Generale de l'Elevage en "
-                   'www.agriculture.gouv.ga/8-ministere/2-autres-contenus-ministere/10-directions-generales/14-direction-generale-de-l-elevage/ '
-                   ', pero el dominio hace timeout y bloquea el acceso automatico, asi que no se ha podido '
-                   'abrir ni sacar de ahi nombre del director, email ni telefono. Merece la pena '
-                   'intentarlo a mano. APHIS NO tiene ficha de Gabon en NINGUNO de sus dos patrones de URL '
-                   '(404 comprobado en ambos), asi que no hay respaldo estadounidense tampoco. REQUISITOS '
-                   'SEGUN LAS DOS FUENTES COMERCIALES (coinciden en lo esencial): pettravel dice que NO '
-                   'hace falta permiso de importacion para mascota personal y que el certificado sanitario '
-                   'se emite dentro de los 10 dias previos al transporte, con vacuna antirrabica entre 30 '
-                   'dias y 12 meses antes y microchip recomendado pero no obligatorio; anivetvoyage '
-                   'endurece el plazo a 72 horas antes de la llegada y exige microchip y pasaporte, con '
-                   'vacuna de mas de 30 dias y menos de un ano. ANTE LA DISCREPANCIA 10 DIAS / 72 HORAS, '
-                   'ir a lo seguro y llevar el certificado emitido en las 72 h previas. Gabon es tercer '
-                   'pais de riesgo rabico no favorable: para VOLVER a la UE hace falta titulacion de '
-                   'anticuerpos antirrabicos hecha ANTES de salir de Europa.',
+           'cert_dias': None,
+           'cert_quien': 'Veterinario oficial del pais de salida; PetTravel dice dentro de los 10 '
+                         'dias previos y Anivetvoyage (que bebe de PetTravel/IATA) <72 h: sin '
+                         'respaldo gabones',
+           'nota': 'La web del ministerio abre pero es solo portada; la pagina de la Direction '
+                   "Generale de l'Elevage esta indexada y da timeout. Ninguna fuente gabonesa "
+                   'sobre mascotas. PetTravel: sin permiso previo para mascota con dueno, rabia '
+                   'entre 30 dias y 12 meses, microchip recomendado.',
            'fuentes': ['https://www.pettravel.com/information/pet-passports/gabon-pet-import-requirements/',
-                       'https://www.anivetvoyage.com/formalites-pays/g/182-gabon.html',
-                       'https://www.agriculture.gouv.ga/8-ministere/2-autres-contenus-ministere/10-directions-generales/14-direction-generale-de-l-elevage/']},
+                       'https://anivetvoyage.com/formalites-pays/g/182-gabon.html',
+                       'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+           'auditado': '2026-09-12'},
  'congo': {'organismo': "Direction Générale de l'Élevage (servicios veterinarios), Ministère de "
                         "l'Agriculture, de l'Élevage et de la Pêche, Brazzaville",
-           'url': 'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-republic-congo-brazzaville',
-           'url_generica': False,
-           'url_verificada': True,
+           'url': 'https://agriculture.gouv.cg/',
+           'url_generica': True,
+           'url_verificada': False,
            'email': None,
            'tel': None,
            'cert': True,
-           'cert_dias': 30,
-           'cert_quien': 'Veterinario oficial del pais de salida (desde EEUU, veterinario acreditado mas '
-                         'refrendo de APHIS; aqui SI se acepta refrendo digital)',
-           'nota': 'YA NO ES UN AGUJERO NEGRO. SI EXISTE ficha oficial de USDA-APHIS para '
-                   "Congo-Brazzaville, abierta y verificada, con un 'Veterinary Health Certificate' "
-                   'descargable especifico para perros y gatos (congo-dog-cat.pdf, tambien abierto y '
-                   'verificado). Es la unica fuente OFICIAL localizada que documenta el tramite, por eso '
-                   "se da como 'url' aunque sea estadounidense y no congolena. AVISO QUE DA LA PROPIA "
-                   "APHIS: 'For pet travel requirements not listed, APHIS has not been officially informed "
-                   "by the foreign country about the requirements for your pet's travel'. Traducido: Congo "
-                   'no le ha comunicado requisitos adicionales, asi que la existencia o no de un permiso '
-                   'de importacion local sigue SIN DOCUMENTAR. MINISTERIO IDENTIFICADO PERO NO VERIFICADO: '
-                   "existe agriculture.gouv.cg con pagina propia de la Direction Generale de l'Elevage "
-                   '(https://agriculture.gouv.cg/direction-generale-de-lelevage-2/). El dominio bloquea el '
-                   'acceso automatico (robots.txt inaccesible, timeout) en dos intentos, tanto en la '
-                   'pagina de la direccion como en la portada, asi que no se ha podido extraer email ni '
-                   'telefono. Merece la pena abrirlo a mano. cert_dias=30 sale del modelo APHIS (ver aviso '
-                   'transversal de cabecera). Como contraste, la fuente comercial anivetvoyage (marcada, '
-                   "verificada) dice 'certificat de sante international etabli par un veterinaire, moins "
-                   "de 72 heures avant l'arrivee' y exige microchip y pasaporte, con validacion por "
-                   'veterinario oficial. ANTE LA DISCREPANCIA, llevar el certificado emitido en las 72 h '
-                   'previas. VIA ALTERNATIVA REAL: escribir a la embajada del Congo en Paris. No se ha '
-                   'podido verificar su web oficial (ambacongofr.org dio 404 en la pagina interna y el '
-                   'acceso a la portada quedo sin autorizar), por lo que NO se da ningun correo de '
-                   "embajada sin comprobar. Preferir la Direction Generale de l'Elevage.",
+           'cert_dias': None,
+           'cert_quien': 'Veterinario oficial del pais de salida; los «30 dias» son la validez del '
+                         'modelo estadounidense',
+           'nota': "El portal del Ministere de l'Agriculture, de l'Elevage et de la Peche esta en "
+                   "mantenimiento y la pagina de la Direction Generale de l'Elevage devuelve 404 "
+                   '(reintentar). Ninguna fuente, oficial o de campo, documenta los papeles del '
+                   'perro en esta frontera; el unico precedente localizado (The Pack Track, 2017, '
+                   'dos perros) cruzo Gabon y Congo por tierra pero no cuenta que le pidieron. '
+                   "Direccion postal (WOAH): DG de l'Elevage, BP 2453, Brazzaville.",
            'fuentes': ['https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-republic-congo-brazzaville',
-                       'https://www.aphis.usda.gov/sites/default/files/congo-dog-cat.pdf',
-                       'https://www.aphis.usda.gov/live-animal-export/export-live-animals-republic-congo-brazzaville',
-                       'https://agriculture.gouv.cg/direction-generale-de-lelevage-2/',
-                       'https://anivetvoyage.com/pays/congo-brazzaville/']},
- 'rd-congo': {'organismo': "Ministère de l'Agriculture et Sécurité Alimentaire (MINASA) - servicios "
-                           'veterinarios; el control en frontera lo ejerce el Service de la Quarantaine '
-                           'Animale et Végétale (SQAV)',
+                       'https://www.thepacktrack.com/blogs/dog-blog/bongo-in-the-congo',
+                       'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+           'auditado': '2026-09-12'},
+ 'rd-congo': {'organismo': 'Direction des Services Veterinaires (Blvd du 30 juin / Av. Batetela, '
+                           'Kinshasa-Gombe), que probablemente depende del Ministere de la Peche '
+                           'et Elevage y no del MINASA; el control en frontera lo ejerce el '
+                           'Service de la Quarantaine Animale et Vegetale (SQAV, decreto 05/161 de '
+                           '2005)',
               'url': 'https://agriculture.gouv.cd/contact.php',
               'url_generica': True,
               'url_verificada': True,
@@ -480,183 +397,130 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
               'tel': '+243 828 174 932',
               'cert': True,
               'cert_dias': 10,
-              'cert_quien': 'Veterinario oficial del pais de salida (certificat sanitaire international)',
-              'nota': 'DEJA DE SER UN AGUJERO NEGRO EN LA PARTE DE CONTACTO, PERO NO EN LA DEL TRAMITE. '
-                      'HALLAZGO: existe portal oficial del ministerio, agriculture.gouv.cd, y su pagina de '
-                      'contacto se ha abierto y VERIFICADO. De ahi salen el email y el telefono que se '
-                      'dan: info@agriculture.gouv.cd, +243 828 174 932 y +243 826 927 162, en el cruce de '
-                      'la Avenue Batetela y el Blvd du 30 Juin, Gombe, Kinshasa. Nombre oficial: '
-                      "'Ministere de l'agriculture et securite alimentaire'. POR QUE url_generica=True: se "
-                      'ha recorrido el portal entero (index, ministere.php, service.php, legislation.php) '
-                      'y NO HAY ninguna pagina sobre importacion de animales, cuarentena animal, servicios '
-                      'veterinarios ni certificados sanitarios. Lo unico enlazable es la pagina de '
-                      "contacto, que no explica el tramite. SQAV: el 'Service de la Quarantaine Animale et "
-                      "Vegetale' aparece citado como el organismo de control fronterizo en prensa "
-                      'congolena (Le Courrier de Kinshasa / ADIAC), pero NO se ha podido confirmar en '
-                      "fuente gubernamental ni encontrar contacto propio, por eso va en 'organismo' como "
-                      'matiz y no como emisor principal. APHIS NO tiene ficha de mascotas de la RDC (404 '
-                      'comprobado en los dos patrones de URL); su ficha de animales vivos existe pero solo '
-                      'cubre bovinos y aves. SEGUNDA VIA VERIFICADA, muy util si el ministerio no contesta '
-                      '- las dos embajadas: BRUSELAS (ambardc.be, abierta y verificada): info@ambardc.be, '
-                      'secretariat@ambardc.be, +32 2 213 49 80, Rue Marie de Bourgogne 30, 1000 Bruxelles. '
-                      'PARIS (ambardcparis.com, abierta y verificada): contact@ambardcparis.com, '
-                      'ambacongoparis@orange.fr, 01 42 25 57 50, 32 cours Albert 1er, 75008 Paris. Ninguna '
-                      'de las dos menciona importacion de animales en su web: hay que preguntar. '
-                      'cert_dias=10 procede de fuente COMERCIAL (anivetvoyage, marcada, verificada): '
-                      'certificado sanitario internacional emitido menos de 10 dias antes de la llegada y '
-                      'valido diez dias, vacuna antirrabica de mas de 1 mes y menos de 1 ano, microchip y '
-                      'pasaporte. NO CONFIRMADO OFICIALMENTE.',
-              'fuentes': ['https://agriculture.gouv.cd/contact.php',
-                          'https://agriculture.gouv.cd/index.php',
-                          'https://ambardc.be/',
-                          'https://ambardcparis.com/contact/',
-                          'https://www.aphis.usda.gov/live-animal-export/export-live-animals-democratic-republic-congo',
-                          'https://anivetvoyage.com/pays/republique-democratique-du-congo/']},
+              'cert_quien': 'Veterinario oficial del pais de salida, <10 dias antes de la llegada '
+                            '(Anivetvoyage; sin fuente oficial)',
+              'nota': 'El portal del MINASA solo tiene portada y contacto (email y telefono '
+                      'confirmados); no hay ninguna pagina oficial del tramite ni contacto propio '
+                      'del SQAV. Escribir a los dos ministerios. Rabia >1 mes y <1 ano, microchip. '
+                      'Ningun relato de overlander con perro ha cruzado la RDC: el precedente de '
+                      '2017 la evito entrando en Angola por Cabinda.',
+              'fuentes': ['https://agriculture.gouv.cd/index.php',
+                          'https://anivetvoyage.com/pays/republique-democratique-du-congo/',
+                          'https://www.ecolex.org/',
+                          'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+              'auditado': '2026-09-12'},
  'angola': {'organismo': 'Instituto dos Serviços de Veterinária (ISV), Ministério da Agricultura e '
                          'Florestas (MINAGRIF)',
-            'url': 'https://www.dgav.pt/wp-content/uploads/2023/11/CERTIFICACAO-SANITARIA-ANGOLA-CAES-E-GATOS-2023.pdf',
-            'url_generica': False,
+            'url': 'https://minagrif.gov.ao/',
+            'url_generica': True,
             'url_verificada': True,
             'email': 'gticii@minagrif.gov.ao',
             'tel': None,
             'cert': True,
             'cert_dias': 10,
-            'cert_quien': 'Médico veterinário oficial del pais de salida; el examen clinico debe '
-                          'acreditarse con documentacion emitida por un medico veterinario clinico',
-            'nota': 'LA MEJOR FUENTE DE TODA LA LISTA PARA QUIEN SALE DE LA PENINSULA. La DGAV portuguesa '
-                    '(autoridad veterinaria de un Estado miembro de la UE) publica el documento oficial de '
-                    'certificacion sanitaria para exportar PERROS Y GATOS a Angola, edicion 2023, abierto '
-                    'y verificado. Al ser un acuerdo bilateral con Angola describe los requisitos REALES '
-                    'del lado angolano, y es directamente utilizable saliendo de Espana coordinandolo con '
-                    'los servicios veterinarios espanoles. REQUISITOS VERIFICADOS EN ESE DOCUMENTO: (1) '
-                    "HACE FALTA LICENCIA DE IMPORTACION PREVIA, llamada 'licenca Zoo-Sanitaria', que debe "
-                    'solicitar el interesado - este es el permiso que se buscaba; (2) el certificado '
-                    'veterinario es VALIDO 10 DIAS; (3) identificacion por MICROCHIP OBLIGATORIA; (4) la '
-                    'vacuna antirrabica no puede administrarse antes de los 3 meses de edad del animal y '
-                    'debe ponerse mas de 72 horas antes de la salida. LO QUE EL DOCUMENTO NO DICE: no '
-                    'nombra al organismo angolano que emite la licencia zoo-sanitaria ni da su contacto. '
-                    'El ISV es el organismo competente, confirmado en el portal oficial minagrif.gov.ao '
-                    "(pagina de entidades tuteladas, abierta y verificada), donde figura como 'orgao "
-                    "publico, tutelado pelo Ministerio da Agricultura e Florestas' responsable de sanidad "
-                    'animal y salud publica veterinaria. EMAIL: gticii@minagrif.gov.ao es el correo '
-                    'GENERAL del ministerio (pagina de contactos verificada), NO del ISV, que no publica '
-                    'correo propio. Direccion del ministerio: Largo Antonio Jacinto, Edificio B, Luanda. '
-                    'No hay telefono publicado: la pagina de contactos esta a medio montar, con campos '
-                    'vacios. Por eso tel=None. DESCARTADO TRAS COMPROBARLO: el servicio del portal de '
-                    "tramites SEPE 'Pre-licenciamento MINAGRIF - Instituto dos Servicos de Veterinaria' se "
-                    'abrio y NO SIRVE: es pre-licenciamiento de PRODUCTOS de origen animal para empresas '
-                    'con licencia industrial o mayorista, no de animales de compania. APHIS NO tiene ficha '
-                    'de mascotas de Angola (404 comprobado).',
+            'cert_quien': 'Veterinario oficial del pais de salida. Modelo oficial DGAV '
+                          '(Portugal→Angola, 2023): licenca zoo-sanitaria previa, microchip, '
+                          'vacuna antirrabica >72 h antes del embarque, examen clinico y '
+                          'TITULACION >=0,5 UI/ml en laboratorio autorizado OIE (>=30 dias tras la '
+                          'vacuna); valido 10 dias. Confirmar en CEXGAN si Espana usa el mismo '
+                          'modelo',
+            'nota': 'Ninguna pagina angolena describe el tramite (no existe isv.gov.ao; '
+                    'minagrif.gov.ao solo cita al ISV como entidad tutelada). El certificado '
+                    'bilateral portugues es la unica descripcion de la licenca zoo-sanitaria y '
+                    'exige titulacion antirrabica: llevar el original vinculado al microchip. '
+                    'PetTravel contradice todo eso (sin permiso, 14 dias, sin titulacion, «air '
+                    'cargo»): se conserva la oficial. El buzon gticii@ es el unico publicado por '
+                    'el ministerio (gabinete TIC, no el ISV).',
             'fuentes': ['https://www.dgav.pt/wp-content/uploads/2023/11/CERTIFICACAO-SANITARIA-ANGOLA-CAES-E-GATOS-2023.pdf',
-                        'https://minagrif.gov.ao/web/entidades-tutela',
                         'https://minagrif.gov.ao/web/contactos',
-                        'https://sepe.gov.ao/catalogo/mais-servicos/pedido-de-licenciamento/pre-licenciamento-minagrif-br-instituto-dos-servicos-de-veterinaria-br-produtos-de-origem-animal']},
- 'zambia': {'organismo': 'Department of Veterinary Services, Ministry of Fisheries and Livestock (MFL)',
+                        'https://minagrif.gov.ao/web/entidades-tutela',
+                        'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+            'auditado': '2026-09-12'},
+ 'zambia': {'organismo': 'Department of Veterinary Services, Ministry of Fisheries and Livestock '
+                         '(MFL) — antes «Department of Research & Specialist Services / Veterinary '
+                         '& Tsetse Control Services», nombre que aun usa la embajada',
             'url': 'https://www.zambiatradeportal.gov.zm/index.php?r=searchProcedure/view1&id=116',
             'url_generica': False,
             'url_verificada': True,
             'email': 'info@mfl.gov.zm',
-            'tel': '+260 1 253933 / +260 1 253945',
+            'tel': '+260 1 253933 / +260 1 253945 (numeracion antigua publicada por la embajada; '
+                   'probablemente obsoleta)',
             'cert': True,
             'cert_dias': 7,
-            'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 48 h antes de '
-                          'la salida)',
-            'nota': "URL VERIFICADA: procedimiento 'Import Permit requirement for Animals, Animal "
-                    "Products, Animal By-Products and Articles' del Zambia Trade Information Portal "
-                    '(portal oficial del Gobierno, dominio gov.zm). Detalla tasas explicitas para '
-                    'mascotas: ZMW 250 para animales pequenos (perros, gatos) hasta 100 por envio, y ZMW '
-                    '100 para el permiso minimo de 5 animales domesticos o menos. Circuito real: se '
-                    'presenta la solicitud al Department of Fisheries and Livestock Marketing, que la '
-                    'remite al Department of Veterinary Services para el visto bueno sanitario y la '
-                    "emision del permiso veterinario; hace falta ademas una 'Letter of No Objection' del "
-                    'Director of Veterinary Services para animales vivos. El permiso tiene validez de 6 '
-                    'semanas. Base legal: Animal Health Act, 2010. OJO CON LOS NOMBRES ANTIGUOS: la pagina '
-                    "de la embajada zambiana en Washington (verificada) sigue dando 'Department of "
-                    'Research & Specialist Services, Mulungushi House, P.O. Box 50060, Lusaka, tel +260-1 '
-                    "253933/45, fax 253520/260505' y la guia britanica dice 'Department of Veterinary and "
-                    "Tsetse Control Services, P.O. Box 50060, 15101 Ridgeway, Lusaka'; los tres nombres "
-                    'apuntan al mismo servicio veterinario (misma P.O. Box 50060). El email '
-                    'info@mfl.gov.zm es el del Ministerio (verificado en el trade portal), NO un buzon '
-                    'especifico de permisos: no se ha encontrado publicado ningun email directo del DVS. '
-                    'cert_dias=7 procede de la clausula impresa en el certificado bilateral UK-Zambia EHC '
-                    "3928 ('This certificate is valid for 7 days from the date of signature').",
+            'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 48 h '
+                          'antes de la salida)',
+            'nota': 'Portal oficial de comercio: permiso bajo la Animal Health Act 2010, valido 6 '
+                    'semanas, con Letter of No Objection del Director of Veterinary Services; tasa '
+                    '«Pets (cats and dogs)... maximum 2 pets: ZMW 50». Primero el permiso, despues '
+                    'el certificado (redactado segun las condiciones del permiso); admite gestor '
+                    'en Lusaka; a la llegada hay que avisar al Veterinary Officer mas cercano. Sin '
+                    'plazo publicado.',
             'fuentes': ['https://www.zambiatradeportal.gov.zm/index.php?r=searchProcedure/view1&id=116',
                         'https://www.zambiaembassy.org/page/procedures-for-importation-of-livestock-and-pets-into-zambia',
                         'https://assets.publishing.service.gov.uk/media/65ae438f751546000d7b4a8e/3928NFG.pdf',
-                        'https://assets.publishing.service.gov.uk/media/5bc758aa40f0b61ca9b5c0a7/3928EHC_V3.pdf']},
- 'tanzania': {'organismo': 'Director of Veterinary Services, Ministry of Livestock and Fisheries (Wizara '
-                           'ya Mifugo na Uvuvi) - Temeke Veterinary Office',
-              'url': 'https://www.de.tzembassy.go.tz/services/Importing-Pets-Dogs',
+                        'https://assets.publishing.service.gov.uk/media/5bc758aa40f0b61ca9b5c0a7/3928EHC_V3.pdf'],
+            'auditado': '2026-09-12'},
+ 'tanzania': {'organismo': 'Director of Veterinary Services, Ministry of Livestock and Fisheries '
+                           '(Wizara ya Mifugo na Uvuvi), Dodoma; permisos por el sistema '
+                           'electronico MIMIS. La guia de las embajadas (Temeke Veterinary Office, '
+                           'Dar es Salaam) es de hacia 2005',
+              'url': 'https://www.mifugouvuvi.go.tz/services/vibali-vya-mifugo',
               'url_generica': False,
               'url_verificada': True,
-              'email': 'zoosanitary@mifugo.go.tz / epid1@mifugo.go.tz',
-              'tel': '+255 22 2862592 (fax +255 22 2862538)',
+              'email': 'barua@mlf.go.tz (ministerio) / helpdesk@mlf.go.tz (MIMIS) / '
+                       'zoosanitary@mifugo.go.tz / epid1@mifugo.go.tz (guia de embajadas) / '
+                       'barua@mifugo.go.tz (DVS)',
+              'tel': '+255 22 2861908 y +255 26 2322610 (ministerio) · +255 668 217 882 (MIMIS) · '
+                     '+255 713 840 853 (DVS, Dr. Benezeth Malinda, vigente en 2025) · +255 22 '
+                     '2862592 (Temeke, guia antigua)',
               'cert': True,
               'cert_dias': 10,
-              'cert_quien': "Veterinario oficial del pais de salida ('sanitary certificate from a "
-                            "qualified veterinary surgeon in the country of export')",
-              'nota': 'URL VERIFICADA y es la mejor de las trece: la Embajada de Tanzania en Berlin tiene '
-                      "una pagina dedicada SOLO a perros ('Importing Pets - Dogs'), mas util que la "
-                      "generica 'Import Permit Food, Plants, Pets and Animal Products' que publican el "
-                      'resto de embajadas (tambien verificadas: un.tzembassy.go.tz y us.tzembassy.go.tz, '
-                      'mismos datos de contacto). TRAMITE: no hay formulario; se manda una CARTA de '
-                      'solicitud al Director of Veterinary Services indicando raza/tipo de perro, edad, '
-                      'puerto o frontera de entrada, y adjuntando los certificados de vacunacion. '
-                      'Direccion postal: Temeke Veterinary Office, P.O. Box 9152, Dar es Salaam. Tasas: '
-                      'Tsh 30.000 de importacion + Tsh 20.000 de exportacion (Tsh 50.000 en total) - '
-                      'relevante porque saldras del pais por tierra y necesitaras tambien el de salida. '
-                      'Rabia: al menos 1 mes y no mas de 3 anos antes de la entrada. Recomiendan DHLP y '
-                      'desparasitacion cada 45 dias / trimestral. Inspeccion veterinaria en el punto de '
-                      'entrada y posible cuarentena. Conviene tener un contacto local que recoja el '
-                      "permiso. cert_dias=10 procede del certificado bilateral UK-Tanzania EHC 3129 ('This "
-                      "certificate is valid for 10 days', con examen clinico no mas de 10 dias antes de la "
-                      'salida). OJO: el ministerio aparece con nombres historicos distintos segun la '
-                      "fuente ('Ministry of Water and Livestock Development' en las embajadas, 'Livestock "
-                      "Division, Ministry of Agriculture' en la guia britanica); el dominio de correo "
-                      'vigente es mifugo.go.tz.',
-              'fuentes': ['https://www.de.tzembassy.go.tz/services/Importing-Pets-Dogs',
-                          'https://www.un.tzembassy.go.tz/services/import-permit-food-plants-pets-and-animal-products',
-                          'https://www.us.tzembassy.go.tz/services/import-permit-food-plants-pets-and-animal-products',
-                          'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-tanzania',
-                          'https://assets.publishing.service.gov.uk/media/66d9ada4561701fa1c214e7a/3129NFG.pdf',
-                          'https://assets.publishing.service.gov.uk/media/66d9ad97fb86ba5a1f214e74/3129EHC_V4.pdf']},
+              'cert_quien': 'Veterinario oficial del pais de salida. Las fuentes discrepan: modelo '
+                            'britanico 10 dias, Keringa (comercial) 4 dias, PetTravel 14 dias: '
+                            'emitirlo lo mas tarde posible',
+              'nota': 'El ministerio dice que los permisos de importacion y exportacion de '
+                      'animales se piden en el sistema electronico MIMIS (mimis.mifugo.go.tz, '
+                      'requiere cuenta). Guia de embajadas: carta al DVS indicando «type/breed, '
+                      'age, port of entry», rabia entre 1 mes y 3 anos, DHLP recomendado, '
+                      'desparasitacion cada 3 meses o comprimidos cada 45 dias, tasas 30.000 TSH '
+                      '(entrada) + 20.000 (permiso de EXPORTACION al salir); un testimonio '
+                      'reciente lo obtuvo gratis por email via la oficina veterinaria de Arusha, '
+                      'valido 30 dias y nombrando el puesto (cruzo por Tunduma). P.O. Box 2847 '
+                      'segun el ministerio, 2870 segun el portal de comercio.',
+              'fuentes': ['https://mimis.mifugo.go.tz',
+                          'https://www.de.tzembassy.go.tz/services/Importing-Pets-Dogs',
+                          'https://trade.tanzania.go.tz/media/en1516634461-ZOOSANITARY_INSPECTORATE_EXPORT_AND_IMPORT_PROTOCOLS_.pdf',
+                          'https://trade.tanzania.go.tz/Contacts/65?l=en',
+                          'https://ondjila-travel.com/reisen-mit-tieren/',
+                          'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+              'auditado': '2026-09-12'},
  'kenia': {'organismo': 'Directorate of Veterinary Services (DVS), State Department for Livestock '
                         'Development, Ministry of Agriculture and Livestock Development',
            'url': 'https://infotradekenya.go.ke/procedure/1422?l=en',
            'url_generica': False,
            'url_verificada': True,
            'email': None,
-           'tel': '+254 20 631567 (fax +254 20 631273)',
+           'tel': '+254 20 631567 (DVS Kabete, numeracion antigua publicada por gov.uk; '
+                  'probablemente obsoleta)',
            'cert': True,
            'cert_dias': 7,
-           'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 5 dias antes de '
-                         'la salida)',
-           'nota': "URL VERIFICADA PARCIALMENTE: la pagina responde y su titulo es exactamente 'Import "
-                   "permit for dogs & cats (VS01)' en el portal oficial InfoTrade Kenya (KenTrade, dominio "
-                   'go.ke), pero el detalle del tramite se carga por JavaScript y NO se ha podido leer el '
-                   'contenido (entidad, tasas, plazos); la vista imprimible del portal esta bloqueada por '
-                   'robots.txt. El nombre del permiso, VS01, si esta confirmado. MUY RELEVANTE PARA '
-                   'OVERLAND: el mismo portal publica procedimientos especificos de entrada por frontera '
-                   "terrestre - 'Dogs & cats import procedure through the Busia One Stop Border Post "
-                   "(OSBP)', y equivalentes para Malaba (frontera con Uganda), Isebania (frontera con "
-                   'Tanzania) y Lunga Lunga (frontera con Tanzania, en dos variantes segun valor declarado '
-                   'por encima o por debajo de USD 2.000). Se listan en '
-                   'https://infotradekenya.go.ke/objective/62?l=en (verificado). EMAIL: no se ha '
-                   'encontrado publicado ningun correo del DVS de Kenia en fuente oficial; el unico correo '
-                   'verificado del portal es infotradekenya@kentrade.go.ke (+254 709 950 000), que es el '
-                   'servicio de atencion de KenTrade, NO el emisor del permiso. Por eso email=None. El '
-                   'telefono es el que publica la guia oficial britanica para el Director of Veterinary '
-                   'Services (PO Box 34188, Kabete, Nairobi); es un numero antiguo de 7 digitos y puede '
-                   'haber cambiado con la renumeracion keniana. El permiso tambien se puede pedir, segun '
-                   'esa misma guia, a traves de la Kenya High Commission en Londres. cert_dias=7 procede '
-                   "del certificado bilateral UK-Kenia EHC 2913 ('This certificate is valid for 7 days, "
-                   "extended by the duration of the voyage of travelling by sea').",
-           'fuentes': ['https://infotradekenya.go.ke/procedure/1422?l=en',
-                       'https://infotradekenya.go.ke/objective/62?l=en',
+           'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 5 dias '
+                         'antes de la salida)',
+           'nota': 'El portal oficial InfoTrade Kenya publica el «Import permit for dogs & cats '
+                   '(VS01)» y procedimientos especificos de importacion de perros por los puestos '
+                   'terrestres de Busia, Malaba, Isebania y Lunga Lunga (el detalle solo se ve en '
+                   'navegador). Las embajadas tramitan el permiso con carta de peticion, cartilla '
+                   'y copia del pasaporte (Washington 50 USD, Berna 70 CHF; consultar la de '
+                   'Madrid). Todo animal que entre por via distinta a Mombasa (mar) o Nairobi '
+                   '(aire) debe presentarse en la oficina veterinaria mas cercana en 3 dias '
+                   '(gov.uk 2913NFG). No hay email del DVS publicado.',
+           'fuentes': ['https://infotradekenya.go.ke/objective/62?l=en',
+                       'https://kenyaembassydc.org/petimport/',
                        'https://assets.publishing.service.gov.uk/media/5bc702eaed915d0b01a1bd0b/2913NFG_.pdf',
-                       'https://assets.publishing.service.gov.uk/media/5bc702d0e5274a360e8ed071/2913EHC_V3.pdf']},
- 'uganda': {'organismo': 'Commissioner Animal Health (CAH), Ministry of Agriculture, Animal Industry and '
-                         'Fisheries (MAAIF)',
+                       'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+           'auditado': '2026-09-12'},
+ 'uganda': {'organismo': 'Commissioner Animal Health (CAH), Ministry of Agriculture, Animal '
+                         'Industry and Fisheries (MAAIF)',
             'url': 'https://www.agriculture.go.ug/dogs-and-cats/',
             'url_generica': False,
             'url_verificada': True,
@@ -664,30 +528,22 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
             'tel': '+256 41 4320004',
             'cert': True,
             'cert_dias': 7,
-            'cert_quien': 'Autoridad veterinaria del pais de origen; certificado oficial en ingles o con '
-                          'traduccion al ingles (examen clinico no mas de 48 h antes de la salida)',
-            'nota': "URL VERIFICADA y excelente: pagina del propio ministerio titulada 'Dogs and Cats', "
-                    'dedicada en exclusiva a la importacion de perros y gatos. TRAMITE: solicitud POR '
-                    'ESCRITO al Commissioner for Animal Health con AL MENOS 7 DIAS de antelacion a la '
-                    'importacion, indicando pais de origen, proveedor, tipo de animal, raza, sexo y '
-                    'cantidad. Direccion: Plot 16-18 Lugard Avenue, P.O. Box 102, Entebbe. AVISO '
-                    'IMPORTANTE PARA VIAJE CON PERRO: la pagina establece un periodo de cuarentena de 21 a '
-                    '30 dias durante el cual se toman muestras de todos los animales importados para '
-                    'contrastar o analizar determinadas enfermedades. Confirmar por email si se aplica de '
-                    'hecho a mascotas que entran por carretera, porque haria inviable el transito rapido. '
-                    'Vacunas exigidas para perros: rabia, moquillo, parvovirus, hepatitis infecciosa '
-                    'canina, parainfluenza y traqueobronquitis infecciosa canina. La rabia, segun la guia '
-                    'britanica, no menos de 30 dias y no mas de 12 meses antes de la salida. cert_dias=7 '
-                    "procede del certificado bilateral UK-Uganda EHC 3925 ('This certificate is valid for "
-                    "7 days'). La guia britanica llama al organismo 'Department of Veterinary Services and "
-                    "Animal Industry'; el nombre vigente en la web del ministerio es Commissioner Animal "
-                    'Health.',
+            'cert_quien': 'Autoridad veterinaria del pais de origen; certificado oficial en ingles '
+                          'o con traduccion al ingles (examen clinico no mas de 48 h antes de la '
+                          'salida)',
+            'nota': 'Pagina oficial del MAAIF especifica de perros y gatos: solicitud al '
+                    'Commissioner Animal Health (Plot 16-18 Lugard Avenue, Entebbe) al menos 7 '
+                    'dias antes, indicando pais de origen, tipo, raza y sexo; cuarentena publicada '
+                    'de 21-30 dias (un testimonio reciente entro por Mutukula sin que se '
+                    'aplicara); vacunas de rabia, moquillo, parvo, hepatitis, parainfluenza y '
+                    'traqueobronquitis.',
             'fuentes': ['https://www.agriculture.go.ug/dogs-and-cats/',
                         'https://www.agriculture.go.ug/import-export-and-transit-of-animals-and-animal-products-in-uganda/',
                         'https://assets.publishing.service.gov.uk/media/65aa944882fee9000d6f5f8f/3925NFG.pdf',
-                        'https://assets.publishing.service.gov.uk/media/5bc74ee3ed915d64c90dfd28/3925EHC_V4.pdf']},
- 'ruanda': {'organismo': 'Rwanda Agriculture and Animal Resources Development Board (RAB) - Veterinary '
-                         'Services Unit',
+                        'https://assets.publishing.service.gov.uk/media/5bc74ee3ed915d64c90dfd28/3925EHC_V4.pdf'],
+            'auditado': '2026-09-12'},
+ 'ruanda': {'organismo': 'Rwanda Agriculture and Animal Resources Development Board (RAB) - '
+                         'Veterinary Services Unit',
             'url': 'https://rwandatrade.rw/procedure/509?l=en',
             'url_generica': False,
             'url_verificada': True,
@@ -696,32 +552,20 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
             'cert': True,
             'cert_dias': None,
             'cert_quien': 'Veterinario oficial del pais de salida (certificado de vacunacion; el '
-                          'procedimiento oficial no exige un modelo concreto de certificado sanitario)',
-            'nota': "URL VERIFICADA y es el pais mejor documentado de los trece: 'Full procedure for the "
-                    "import of dogs and cats' del Rwanda Trade Portal (portal oficial), con los 9 pasos, "
-                    'personas de contacto y base legal. Existe ademas la ficha corta del permiso en '
-                    'https://rwandatrade.rw/procedure/422?l=en (tambien verificada). TRAMITE EN 3 PASOS '
-                    'PARA EL PERMISO: (1) pagar RWF 15.000 en BPR Bank Rwanda a la cuenta 400374715110578 '
-                    "'RAB Internally Generated Revenues'; (2) presentar la solicitud EN LINEA en el portal "
-                    'https://arpms.rab.gov.rw/ adjuntando copia del pasaporte del dueno, carta de '
-                    'solicitud original, recibo de pago original y copia del certificado de vacunacion; '
-                    '(3) recoger el permiso en persona en la Veterinary Services Unit del RAB (P.O. Box '
-                    '5016, Kigali). Responsable nominal: Dr. Isidore Gafarasi Mapendo, tel +250 738 503 '
-                    '589. Ademas hay que declarar la carga en la ventanilla unica (https://sw.gov.rw, '
-                    'info@sw.gov.rw, +250 788 185 611) y pasar inspeccion de aduanas y del RAB; tasa de '
-                    'tramitacion adicional RWF 3.000 (total RWF 18.000 sin agente de aduanas). Base legal: '
-                    'Ley nº 54/2008 de 10/09/2008, arts. 141-150. cert_dias=None: el procedimiento oficial '
-                    'no publica ninguna validez y no existe modelo bilateral britanico ni ficha APHIS para '
-                    "Ruanda. El unico dato circulante (certificado sanitario 'no older than 14 days', "
-                    'desparasitacion 5 dias antes) procede de New Vision Veterinary Hospital de Kigali '
-                    '(nvvh.rw), clinica privada que tramita permisos con el RAB: es verosimil y util para '
-                    'planificar, pero NO es fuente oficial y por eso no se consigna.',
+                          'procedimiento oficial no exige un modelo concreto de certificado '
+                          'sanitario)',
+            'nota': 'Portal oficial RwandaTrade con «Full procedure for the import of dogs and '
+                    'cats» (509), «Obtain import permit - Dogs and cats» (422) y fichas de '
+                    '«Clearance of dogs and cats» en distintos puestos fronterizos. El contenido '
+                    '(tasas, contactos) se carga por JavaScript y no se ha podido releer: email y '
+                    'telefono proceden de la verificacion anterior.',
             'fuentes': ['https://rwandatrade.rw/procedure/509?l=en',
                         'https://rwandatrade.rw/procedure/422?l=en',
                         'https://arpms.rab.gov.rw/',
-                        'https://nvvh.rw/pet-traveling-documents/']},
- 'malaui': {'organismo': 'Department of Animal Health and Livestock Development (DAHLD) - Chief Veterinary '
-                         'Officer, Ministry of Agriculture',
+                        'https://nvvh.rw/pet-traveling-documents/'],
+            'auditado': '2026-09-12'},
+ 'malaui': {'organismo': 'Department of Animal Health and Livestock Development (DAHLD) - Chief '
+                         'Veterinary Officer, Ministry of Agriculture',
             'url': 'https://www.malawitradeportal.com/en-gb/site/display/300',
             'url_generica': False,
             'url_verificada': True,
@@ -729,36 +573,22 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
             'tel': '+265 1 789033 / +265 988 558115',
             'cert': True,
             'cert_dias': None,
-            'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 14 dias antes '
-                          'de la salida)',
-            'nota': "URL VERIFICADA: guia 'Step by Step: How to Import Animal or Animal Products' del "
-                    'Malawi Trade Portal (portal oficial). Cubre animales vivos en general, no hay pagina '
-                    'especifica de mascotas. TRAMITE: solicitud POR ESCRITO al Director del DAHLD '
-                    'indicando los animales concretos que se pretenden importar; incluye una comprobacion '
-                    'previa de brotes de enfermedad en el pais exportador. Tasa del permiso: MWK 10.000. '
-                    'Direccion postal del DAHLD: Private Bag 2096, Lilongwe (la guia oficial britanica da '
-                    "'Chief Veterinary Officer, P.O. Box 30372, Lilongwe' - hay dos apartados distintos en "
-                    'circulacion, confirmar al escribir). AVISO: el portal plantea el tramite pensando en '
-                    'importadores comerciales y lista pasos que para un particular en transito no deberian '
-                    'aplicar (registro de empresa en MBRS, numero TIN en la Malawi Revenue Authority). '
-                    'Confirmar por email el circuito para mascota acompanada. EMAIL/TEL: son los generales '
-                    'del Ministerio de Agricultura (verificados en agriculture.gov.mw/contacts); NO se ha '
-                    'encontrado publicado ningun contacto directo del DAHLD ni de su Director. El portal '
-                    'de comercio solo ofrece como alternativa el Ministerio de Comercio '
-                    '(trademin@trade.gov.mw, +265 1 770244), que no es el emisor. cert_dias=None de forma '
-                    'deliberada: el certificado bilateral UK-Malaui EHC 3944 deja la validez EN BLANCO '
-                    "para que la rellene el veterinario certificador ('This certificate is valid for "
-                    "......... days'), asi que no hay cifra publicada. Lo que si esta fijado es la ventana "
-                    'de examen clinico: no mas de 14 dias antes de la salida.',
+            'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 14 '
+                          'dias antes de la salida)',
+            'nota': 'Portal de comercio (generico, sin mascotas): solicitud escrita al Director '
+                    'del DAHLD (Private Bag 2096, Lilongwe), MWK 10.000, con preinspeccion. Email '
+                    'y telefonos del ministerio no reverificados.',
             'fuentes': ['https://www.malawitradeportal.com/en-gb/site/display/300',
                         'https://agriculture.gov.mw/healthandlivestock',
                         'https://agriculture.gov.mw/contacts',
                         'https://assets.publishing.service.gov.uk/media/5bc70bf340f0b638518795ab/3944NFG.pdf',
-                        'https://assets.publishing.service.gov.uk/media/5bc70be2ed915d0ae30b91f9/3944EHC_V3.pdf']},
- 'mozambique': {'organismo': 'Direccao Nacional de Veterinaria / Autoridade Veterinaria Nacional (DINAV), '
-                             'Ministerio da Agricultura, Ambiente e Pescas (MAAP)',
+                        'https://assets.publishing.service.gov.uk/media/5bc70be2ed915d0ae30b91f9/3944EHC_V3.pdf'],
+            'auditado': '2026-09-12'},
+ 'mozambique': {'organismo': 'Direccao Nacional de Veterinaria (DINAV) / Autoridade Veterinaria, '
+                             'Ministerio da Agricultura, Ambiente e Pescas (MAAP), Praca dos '
+                             'Herois Mocambicanos, Maputo',
                 'url': 'https://www.agricultura.gov.mz/servicos-ao-cidadao/procedimentos-para-o-movimento-de-animais-seus-produtos-e-subprodutos/',
-                'url_generica': False,
+                'url_generica': True,
                 'url_verificada': True,
                 'email': 'geral@maap.gov.mz / geral@agricultura.gov.mz',
                 'tel': '+258 21 468200 (linha verde +258 84 3438999)',
@@ -766,66 +596,43 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
                 'cert_dias': 7,
                 'cert_quien': 'Veterinario oficial del pais de salida (certificado sanitario '
                               'internacional; examen clinico no mas de 48 h antes de la salida)',
-                'nota': "URL VERIFICADA: 'Guiao de Procedimentos para o Movimento de Animais, seus "
-                        "Produtos e Subprodutos', en el apartado Servicos ao Cidadao de la web del "
-                        "ministerio. Confirma literalmente que 'a licenca de importacao e emitida pela "
-                        "DINAV' y que sin licencia de importacion Y certificado sanitario internacional no "
-                        "se permite la entrada. FORMULARIO: existe el impreso oficial 'Pedido de Licenca "
-                        "de importacao de animais vivos' en "
-                        'https://www.agricultura.gov.mz/wp-content/uploads/2018/01/Pedido_Licenca_importacao_animais_vivos.doc '
-                        '(el enlace responde y descarga un .doc, pero al ser binario no se ha podido leer '
-                        'su contenido para confirmar los campos). EMAIL/TEL: son los generales del '
-                        'ministerio (verificados en la propia pagina); no hay buzon publicado especifico '
-                        "de la DINAV. OJO con el nombre del ministerio: cambio de 'Ministerio da "
-                        "Agricultura e Desenvolvimento Rural' a 'Ministerio da Agricultura, Ambiente e "
-                        "Pescas' (MAAP), y conviven los dominios agricultura.gov.mz y maap.gov.mz. "
-                        "cert_dias=7 procede del certificado bilateral UK-Mozambique EHC 4143 ('This "
-                        "certificate is valid for 7 days from the date of signature'); ese modelo incluye "
-                        'casilla expresa para el numero de licencia de importacion. CONTEXTO: en 2024 el '
-                        'Gobierno prohibio la importacion de determinadas razas consideradas peligrosas - '
-                        'verificar la raza del perro antes de planificar la entrada.',
-                'fuentes': ['https://www.agricultura.gov.mz/servicos-ao-cidadao/procedimentos-para-o-movimento-de-animais-seus-produtos-e-subprodutos/',
-                            'https://www.agricultura.gov.mz/wp-content/uploads/2018/01/Pedido_Licenca_importacao_animais_vivos.doc',
+                'nota': 'La pagina oficial describe la licenca de importacion de animales vivos '
+                        '(emitida por la DINAV) y el certificado sanitario internacional, pero no '
+                        'menciona mascotas. Emails y telefonos son los generales del ministerio. '
+                        'Modelo britanico: certificado valido 7 dias, examen en las 48 h previas, '
+                        'rabia entre 30 dias y 12 meses. Desde abril de 2024 esta prohibida la '
+                        'importacion de Pit-bull, Rottweiler, Staffordshire americano, Bull '
+                        'Terrier, Dogo Argentino, Fila Brasileiro, Tosa Inu, San Bernardo y cruces '
+                        'con lobo, entre otras razas.',
+                'fuentes': ['https://www.agricultura.gov.mz/instituicional/ministerio/estrutura-organica/direccao-nacional-de-veterinaria/',
                             'https://assets.publishing.service.gov.uk/media/5bcecf21ed915d431874e31d/4143NFG.pdf',
-                            'https://assets.publishing.service.gov.uk/media/5bcecf0ce5274a6bd864f36d/4143EHC_V3.pdf']},
- 'zimbabue': {'organismo': 'Director of Veterinary Services, Division of Veterinary Services, Ministry of '
-                           'Lands, Agriculture, Fisheries, Water and Rural Development',
-              'url': 'https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-zimbabwe-certificate-3929',
-              'url_generica': False,
+                            'https://aimnews.org/',
+                            'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+                'auditado': '2026-09-12'},
+ 'zimbabue': {'organismo': 'Directorate of Veterinary Services, Ministry of Lands, Agriculture, '
+                           'Fisheries, Water and Rural Development (P.O. Box CY 66, Causeway, '
+                           'Harare)',
+              'url': 'https://www.agric.gov.zw/wordpress/?page_id=7883',
+              'url_generica': True,
               'url_verificada': True,
               'email': None,
-              'tel': '+263 4 791355 (fax +263 4 720879)',
+              'tel': '+263 4 791355 / fax +263 4 720879 (numeracion antigua publicada por gov.uk; '
+                     'hoy probablemente +263 242 791355)',
               'cert': True,
               'cert_dias': 7,
-              'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 48 h antes '
-                            'de la salida)',
-              'nota': 'PEOR CASO DE LOS TRECE - LEER CON ATENCION. NO EXISTE, o no se ha podido encontrar, '
-                      'NINGUNA pagina del Gobierno de Zimbabue que explique el tramite: la Division of '
-                      'Veterinary Services no tiene web propia localizable y su unica presencia publica '
-                      'actualizada es una pagina de Facebook (facebook.com/vetservices.zw). APHIS NO tiene '
-                      'ficha de Zimbabue en pet-travel (la URL .../pet-travel-us-zimbabwe devuelve 404) y '
-                      'su pagina de animales vivos para Zimbabue no da ningun contacto local. Por eso la '
-                      'URL que se da NO es zimbabuense: es la ficha oficial del Gobierno britanico del '
-                      'certificado de exportacion de perros y gatos a Zimbabue (EHC 3929), verificada, que '
-                      'si publica el organismo y su direccion. Es la mejor fuente accesible y estable, '
-                      'pero hay que tratarla como referencia, no como tramite. DATO CLAVE VERIFICADO en '
-                      "esa guia: 'No dog or cat may be imported into Zimbabwe except in accordance with "
-                      "the terms of an import permit', emitido por el Director of Veterinary Services, "
-                      'P.O. Box CY 66, Causeway, Harare, tel +263 4 791355, fax +263 4 720879. EMAIL: no '
-                      'publicado en ninguna fuente oficial; email=None. TELEFONO: el numero dado es el de '
-                      'la guia britanica y usa el prefijo antiguo de Harare (4); con la renumeracion '
-                      'actual seria +263 242 791355. Circula ademas +263 242 791516 junto a la mencion de '
-                      'una tasa de USD 150 por animal y un plazo de 3-5 dias, pero eso procede de '
-                      'Wikiprocedure (wiki abierta, NO fuente oficial) y no se consigna como dato. '
-                      "cert_dias=7 procede de la clausula del propio EHC 3929 ('This certificate is valid "
-                      "for 7 days'). ALTERNATIVA OVERLAND: si entras desde Sudafrica, Botsuana, Lesoto o "
-                      'Esuatini, el documento real es el Interterritorial Movement Permit for Dogs and '
-                      'Cats del modelo SADC, que Zimbabue acepta expresamente y que vale 60 dias desde su '
-                      'emision.',
-              'fuentes': ['https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-zimbabwe-certificate-3929',
+              'cert_quien': 'Veterinario oficial del pais de salida (examen clinico no mas de 48 h '
+                            'antes de la salida)',
+              'nota': 'No existe pagina nacional del tramite que abra (dlvs.gov.zw no responde). '
+                      'ZIMRA confirma que los animales domesticos necesitan permiso del Department '
+                      'of Veterinary Services; la guia britanica: «no dog or cat may be imported '
+                      'into Zimbabwe except in accordance with the terms of an import permit», '
+                      'certificado valido 7 dias con examen en las 48 h previas. Zimbabue no exige '
+                      'rabia previa (vacuna a la llegada).',
+              'fuentes': ['https://www.zimra.co.zw/customs/restricted-and-prohibited-goods',
+                          'https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-zimbabwe-certificate-3929',
                           'https://assets.publishing.service.gov.uk/media/5bc7594140f0b61ca2dd15f8/3929NFG.pdf',
-                          'https://assets.publishing.service.gov.uk/media/5bc7592740f0b61c92ec8b6b/3929EHC_V3.pdf',
-                          'https://www.elsenburg.com/wp-content/uploads/2022/02/VHC-Interterritorial-Movement-permit-SADC-dogs_cats-template-2012_0.pdf']},
+                          'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+              'auditado': '2026-09-12'},
  'botsuana': {'organismo': 'Department of Veterinary Services, Ministry of Agriculture (Botswana)',
               'url': 'https://www.gov.bw/business-compliance-agriculture-animal-husbandry/issuance-import-permit-live-animals-animal',
               'url_generica': False,
@@ -833,223 +640,187 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
               'email': 'DVSpermits@gov.bw',
               'tel': '+267 3689513 / +267 3689510 (call centre 17755)',
               'cert': True,
-              'cert_dias': 60,
-              'cert_quien': 'Veterinario oficial del pais de salida; en entrada desde el area SADC, '
-                            'Interterritorial Movement Permit firmado por veterinario colegiado u oficial '
-                            'Y refrendado por un Government Veterinarian con sello oficial',
-              'nota': "URL VERIFICADA, es la que sospechabas y es correcta: 'Issuance of Import Permit of "
-                      "Live Animal(s), Animal Product(s) and Animal Feed(s)' en gov.bw. Trata expresamente "
-                      'perros y gatos y confirma tus datos de contacto (en la pagina el correo aparece '
-                      "ofuscado como 'DVSpermits[at]gov[dot]bw'). REQUISITOS QUE LISTA LA PAGINA: registro "
-                      'valido de inmunizacion antirrabica para perros y gatos; para cachorros de menos de '
-                      '3 meses, prueba de que la madre fue vacunada al menos un mes y no mas de 12 meses '
-                      'antes del parto; prueba de que no hay restricciones de movimiento por control de '
-                      'rabia en la zona de origen; el pais de origen no debe tener enfermedades '
-                      'notificables relevantes; y presentar el animal en la oficina para inspeccion antes '
-                      'de la emision del permiso. Plazo de tramitacion: 1 dia habil. La pagina no publica '
-                      'tasas. cert_dias=60 NO sale de gov.bw (que no publica ninguna validez) sino del '
-                      'modelo SADC verificado de Interterritorial Movement Permit for Dogs and Cats, que '
-                      'cubre expresamente Sudafrica, Zimbabue, Botsuana, Lesoto y Esuatini y dice que '
-                      "sirve como permiso de movimiento 'for a period of sixty days from date of issue'. "
-                      'Es el documento que usaras de hecho entrando por tierra desde Sudafrica o Namibia. '
-                      'Ese modelo exige ademas que la rabia lleve puesta un minimo de 30 dias (60 si hubo '
-                      'casos de rabia en la zona en los tres meses anteriores). Para una llegada directa '
-                      'desde Europa no hay cifra publicada. APHIS tiene ficha de Botsuana pero es inutil: '
-                      'dice expresamente que no ha sido informada oficialmente de los requisitos y solo '
-                      'ofrece un modelo generico de certificado.',
-              'fuentes': ['https://www.gov.bw/business-compliance-agriculture-animal-husbandry/issuance-import-permit-live-animals-animal',
-                          'https://www.elsenburg.com/wp-content/uploads/2022/02/VHC-Interterritorial-Movement-permit-SADC-dogs_cats-template-2012_0.pdf',
+              'cert_dias': None,
+              'cert_quien': 'Veterinario oficial del pais de salida; entrando desde el area SADC, '
+                            'Interterritorial Movement Permit (valido 60 dias) firmado por '
+                            'veterinario y refrendado por un Government Veterinarian. Para un '
+                            'perro que llega de fuera de la SADC no hay validez publicada',
+              'nota': 'La mejor pagina oficial de toda la ruta: permiso en un dia habil en '
+                      'cualquier District Veterinary Office, con inspeccion del animal, cartilla '
+                      'de rabia valida y prueba de que no hay restricciones por rabia en la zona '
+                      'de origen; documentos en ingles o setsuana; sin restriccion de puesto '
+                      'fronterizo; sin analiticas publicadas. El «Animal Transit Permit» de gov.bw '
+                      'es de fauna silvestre y excluye expresamente a los animales domesticos.',
+              'fuentes': ['https://www.elsenburg.com/wp-content/uploads/2022/02/VHC-Interterritorial-Movement-permit-SADC-dogs_cats-template-2012_0.pdf',
                           'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-botswana',
-                          'https://www.aphis.usda.gov/sites/default/files/botswana-dog-cat.pdf']},
+                          'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+              'auditado': '2026-09-12'},
  'sudafrica': {'organismo': 'Director: Animal Health - Import Export Policy Unit, Department of '
                             'Agriculture, Land Reform and Rural Development (DALRRD)',
                'url': 'https://www.gov.za/services/import/import-animals-and-animal-products',
                'url_generica': False,
                'url_verificada': True,
-               'email': 'VetPermits@daff.gov.za',
-               'tel': None,
+               'email': 'vetpermits@dalrrd.gov.za (vigente, pagina de contactos de DALRRD) / '
+                        'VetPermits@daff.gov.za (heredado, aun publicado en gov.za y DIRCO)',
+               'tel': '+27 12 319 7514 / +27 12 319 7559 (Import-Export Policy Unit) · fax +27 12 '
+                      '329 8292',
                'cert': True,
                'cert_dias': 10,
-               'cert_quien': 'Veterinario oficial del pais de salida (emision del certificado Y su '
-                             'refrendo oficial deben caer dentro de los 10 dias previos al viaje)',
-               'nota': "URL VERIFICADA: ficha de servicio 'Import animals and animal products' en gov.za, "
-                       'que explica el tramite completo y confirma tu dato (VetPermits@daff.gov.za). '
-                       "TRAMITE: solicitar el permiso veterinario de importacion al 'Director: Animal "
-                       "Health, Import Export Policy Unit, Private Bag X138, Pretoria 0001' ANTES del "
-                       'envio. Hay tres formularios segun el animal vaya a cuarentena, a control adicional '
-                       'o a ninguna de las dos; se descargan en '
-                       'https://www.nda.gov.za/index.php/core-business/agricultural-production/animal-production/animal-health '
-                       '(enlace citado por gov.za; el dominio nda.gov.za rechaza la verificacion '
-                       'automatica por problema de certificado TLS, asi que NO se ha podido abrir). Una '
-                       'vez aprobado por el veterinario estatal de la oficina nacional, el permiso se '
-                       'emite en 3-5 dias habiles. TASA: la cifra de R140 por permiso que ya tenias es '
-                       "coherente con el sistema, pero gov.za solo dice que 'the cost is revised annually "
-                       "and published in the Government Gazette'; el tarifario vigente se publica en "
-                       'gov.za (ej. tarrifs-for-veterinary-imports-permits-2024). TELEFONO: no hay '
-                       'telefono publicado para permisos, solo fax (012 329 6892 / 012 329 8292); por eso '
-                       "tel=None. cert_dias=10 esta verificado en la guia APHIS de Sudafrica: 'Final "
-                       'veterinary inspection, health certificate issuance, and certificate endorsement '
-                       "must occur within 10 days of the pet's travel'. PRUEBAS OBLIGATORIAS (las mas "
-                       'duras de toda la ruta, planificar con 6-8 semanas): negativo en Brucella canis, '
-                       'Trypanosoma evansi, Babesia gibsoni, Dirofilaria immitis (filaria) y Leishmania, '
-                       'TODAS realizadas dentro de los 30 dias previos a la importacion, sin excepciones '
-                       'salvo dispensa expresa de Sudafrica. Microchip obligatorio y rabia puesta dentro '
-                       'de los 12 meses y al menos 30 dias antes (reducible a 15 dias con dispensa).',
-               'fuentes': ['https://www.gov.za/services/import/import-animals-and-animal-products',
-                           'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-south-africa',
+               'cert_quien': 'Veterinario oficial del pais de salida: emision del certificado Y su '
+                             'refrendo dentro de los 10 dias previos al viaje. CINCO analiticas '
+                             'negativas hechas en los 30 dias previos, con metodo fijado (Brucella '
+                             'canis SAT o RSAT; Trypanosoma evansi CATT Y frotis Giemsa; Babesia '
+                             'gibsoni dos pruebas; Dirofilaria immitis filtracion de '
+                             'microfilarias, unico metodo aceptado; Leishmania IFAT, ELISA, DAT o '
+                             'Western blot), con el numero de microchip en todos los informes; '
+                             'rabia puesta hace menos de 12 meses',
+               'nota': 'Permiso veterinario de importacion del Director: Animal Health, valido '
+                       '«for one consignment only» (una sola entrada), a solicitar con al menos 4 '
+                       'semanas; tasa R140 segun la embajada (cifra de 2014, se revisa cada ano); '
+                       'los certificados originales se presentan solo en el puesto de entrada. La '
+                       'pagina gov.za del tramite excluye expresamente «cats and dogs»: el detalle '
+                       'esta en el certificado IMP.DOG.GEN (reproducido por APHIS, sept. 2024). '
+                       'Testimonio 2017: entregar los papeles en mano en la oficina veterinaria '
+                       'estatal acelero un tramite que por correo tardaba 3 semanas.',
+               'fuentes': ['https://old.dalrrd.gov.za/Branches/Agricultural-Production-Health-Food-Safety/Animal-Health/contacts/importexport',
                            'https://www.aphis.usda.gov/sites/default/files/south-africa-dog-guidance.pdf',
-                           'https://www.gov.uk/export-health-certificates/export-dogs-to-south-africa-certificate-6256',
-                           'https://assets.publishing.service.gov.uk/media/65438cda1f1a60000d360c76/6256NFG.pdf']},
+                           'https://dirco.gov.za/washingtondc/importing-pets-to-south-africa/',
+                           'https://www.elsenburg.com/exporting-pets-and-products/',
+                           'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+               'auditado': '2026-09-12'},
  'namibia': {'organismo': 'Directorate of Veterinary Services - Import/Export Office, Ministry of '
                           'Agriculture, Water and Land Reform (MAWLR)',
              'url': 'https://namibiatradeportal.gov.na/trade-goods/procedure-details/view_express_entity/485',
              'url_generica': False,
              'url_verificada': True,
              'email': 'vet.permits@mawlr.gov.na',
-             'tel': '+264 61 276592 (tambien +264 61 2087892 y +264 61 2087891/0; Walvis Bay +264 64 '
-                    '203073)',
+             'tel': '+264 61 276592 (Import/Export) · +264 61 2087892, 2087891/0 y 303150 · Walvis '
+                    'Bay +264 64 203073',
              'cert': True,
              'cert_dias': None,
-             'cert_quien': 'Veterinario oficial del pais de salida (examen clinico dentro de los 10 dias '
-                           'previos a la salida)',
-             'nota': "URL VERIFICADA: 'Procedure for Application of a Namibian Veterinary Import Permit "
-                     "and Veterinary Import Permit for conveyance in transit' en el Namibia Trade "
-                     'Information Portal (dominio oficial gov.na). Confirma tu correo (ahi aparece como '
-                     'Vet.Permits@mawlr.gov.na). OFICINA: Government Office Park, Ministry of Agriculture, '
-                     'Water and Land Reform, East Wing, 2ª planta, Windhoek. Horario 08:00-13:00 y '
-                     '14:00-17:00 de lunes a viernes. TASAS: N$ 150 el permiso veterinario de importacion; '
-                     'N$ 50 el permiso de transito - ESTE SEGUNDO ES EL RELEVANTE si solo atraviesas '
-                     'Namibia sin quedarte. PLAZO: maximo 3 dias habiles si la documentacion esta '
-                     'completa. FORMULARIO: se descarga en '
-                     'https://namibiatradeportal.gov.na/download_file/de4b6d16-da8f-4470-bb55-202d39fd2165/277 '
-                     "y tambien esta en mawf.gov.na ('Veterinary Import Application Form.pdf'). PASO EXTRA "
-                     'POCO CONOCIDO, verificado en la Veterinary Association of Namibia: antes de viajar '
-                     'hay que enviar por email al veterinario estatal namibio de la zona de destino una '
-                     'copia del permiso de importacion ya cumplimentado, el pasaporte de vacunacion del '
-                     'perro y los resultados negativos de las pruebas, para su verificacion. PRUEBAS: '
-                     'negativo en Brucella canis, Trypanosoma evansi, Leishmania, Dirofilaria y Babesia; '
-                     'segun el modelo APHIS, realizadas dentro de los 30 dias previos a la salida. Rabia '
-                     'entre 30 dias y 12 meses antes. Tras la llegada, 6 meses de preventivo de filaria. '
-                     'cert_dias=None: ni el portal ni MAWLR publican validez del certificado, y el '
-                     "certificado bilateral britanico para Namibia (EHC 3917) esta SUSPENDIDO ('on hold', "
-                     'no utilizable), asi que no hay cifra oficial que citar. Lo unico fijado es la '
-                     'ventana de examen clinico de 10 dias.',
-             'fuentes': ['https://namibiatradeportal.gov.na/trade-goods/procedure-details/view_express_entity/485',
-                         'https://van.org.na/section.php?secid=52&menuid=52',
-                         'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-namibia',
+             'cert_quien': 'Veterinario oficial del pais de salida (examen clinico en los 10 dias '
+                           'previos), sobre el formulario del permiso namibio enviado por '
+                           'mensajeria; CINCO analiticas negativas (Brucella canis, Trypanosoma '
+                           'evansi, Leishmania, Dirofilaria, Babesia) con los metodos que fije el '
+                           'permiso y, segun el modelo estadounidense, hechas en los 30 dias '
+                           'previos; rabia entre 30 dias y 12 meses si es primovacunacion; '
+                           'prevencion de filaria durante 6 meses tras la llegada',
+             'nota': 'Portal oficial de comercio: permiso de importacion N$150, «maximum of three '
+                     'working days» con la documentacion completa (lo que tarda semanas es la '
+                     'mensajeria del permiso original y las analiticas). Antes de viajar hay que '
+                     'enviar por email al veterinario estatal namibio el permiso cumplimentado, la '
+                     'cartilla y los resultados negativos para obtener el «landing permission». '
+                     'Desde Botsuana basta cartilla y certificado sanitario; desde Sudafrica, '
+                     'Inter-Territorial Movement Permit SA-Namibia (30 dias, sin analiticas, para '
+                     'animales residentes; preguntar si vale para un perro UE ya importado a '
+                     'Sudafrica). La pagina mawlr.gov.na/directorate-of-veterinary-services existe '
+                     'pero no abre.',
+             'fuentes': ['https://van.org.na/section.php?secid=52&menuid=52',
+                         'https://www.van.org.na/pdf/Namibian%20Interterritorial%20Movement%20Permit.pdf',
                          'https://www.aphis.usda.gov/sites/default/files/namibia-dog_0.pdf',
-                         'https://www.gov.uk/export-health-certificates/export-dogs-to-namibia-certificate-3917']},
- 'lesoto': {'organismo': 'Department of Livestock Services - Imports and Exports Office, Ministry of '
-                         'Agriculture, Food Security and Nutrition',
+                         'https://mawlr.gov.na/directorate-of-veterinary-services',
+                         'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+             'auditado': '2026-09-12'},
+ 'lesoto': {'organismo': 'Department of Livestock Services - Imports and Exports Office, Ministry '
+                         'of Agriculture, Food Security and Nutrition',
             'url': 'https://lesotho.eregulations.org/procedure/160?l=en',
             'url_generica': False,
             'url_verificada': True,
             'email': None,
             'tel': '+266 2231 7284 (fax +266 2231 1500)',
             'cert': True,
-            'cert_dias': 60,
-            'cert_quien': 'Veterinario oficial del pais de salida; en entrada desde el area SADC, '
-                          'Interterritorial Movement Permit firmado por veterinario colegiado u oficial Y '
-                          'refrendado por un Government Veterinarian con sello oficial',
-            'nota': "URL VERIFICADA: procedimiento 'Obtain international veterinary import permit' del "
-                    'portal oficial eRegulations Lesotho (respaldado por el Gobierno y la UNCTAD). '
-                    "IMPORTANTE: el procedimiento esta CATALOGADO bajo 'importacion de carne', lo que "
-                    "despista, pero su cuadro de tasas verificado incluye expresamente 'LSL 10 - Permit "
-                    "fee for pets' junto a 'LSL 0-100 - Permit fee for live animals', asi que SI es el "
-                    'tramite que cubre al perro. El permiso de mascota cuesta 10 maloti, una miseria. '
-                    'OFICINA: Imports and Exports Office, Epidemiology and Data Management Section, '
-                    'Private Bag A 82, Maseru. Horario 08:00-16:30 de lunes a viernes. Web institucional: '
-                    'https://www.gov.ls/ministry-of-agriculture/ PLAZOS Y CALENDARIO SEMANAL (dato muy '
-                    'util): la solicitud debe presentarse entre 7 y 30 dias antes de la importacion, y la '
-                    'oficina trabaja por dias fijos - lunes y martes se reciben solicitudes, miercoles se '
-                    'tramitan, jueves y viernes se entregan los permisos. El tramite entero lleva de 1,5 a '
-                    '8 dias. DOCUMENTOS: formulario de solicitud original, certificado veterinario del '
-                    'pais de origen (copia), certificado de estar al corriente con Hacienda (copia) y '
-                    'documento de identidad (copia). EMAIL: el portal publica el nombre de dos personas de '
-                    'contacto (Liou Ramokoatsi, Imports and Export Permit Assistant Clerk, tel +266 5818 '
-                    '7083 / +266 6229 7921; y Matsita Taoana) pero OFUSCA sus direcciones de correo, y no '
-                    'hay buzon generico del departamento: por eso email=None. cert_dias=60 procede del '
-                    'modelo SADC de Interterritorial Movement Permit for Dogs and Cats, verificado, que '
-                    'cubre expresamente Lesoto y vale 60 dias desde su emision - y como Lesoto es un '
-                    'enclave dentro de Sudafrica, ese es necesariamente el documento que usaras. Fuentes '
-                    'comerciales (pettravel) afirman que si se entra desde Botsuana, Malaui, Namibia, '
-                    'Sudafrica, Esuatini o Zimbabue no hace falta solicitud previa al Director of Animal '
-                    'Health; NO esta confirmado en fuente oficial, no te fies sin escribir antes.',
-            'fuentes': ['https://lesotho.eregulations.org/procedure/160?l=en',
-                        'https://lesotho.eregulations.org/Contacts/61?letter=d&l=en',
-                        'https://www.elsenburg.com/wp-content/uploads/2022/02/VHC-Interterritorial-Movement-permit-SADC-dogs_cats-template-2012_0.pdf']},
- 'esuatini': {'organismo': 'Department of Veterinary and Livestock Services, Ministry of Agriculture '
-                           '(Eswatini)',
+            'cert_dias': None,
+            'cert_quien': 'Veterinario oficial del pais de salida; el modelo SADC de permiso '
+                          'interterritorial (60 dias) cubre Lesoto, pero no hay validez lesotense '
+                          'publicada para un perro que llega de fuera',
+            'nota': 'Portal oficial eRegulations: «International Veterinary import permit» del '
+                    'Department of Livestock Services (contenido por JavaScript; tasas y '
+                    'calendario no reverificados). Contacto de importacion y exportacion: Private '
+                    'Bag A 82, Maseru, +266 2231 7284, L-V 8:00-16:30.',
+            'fuentes': ['https://lesotho.eregulations.org/Contacts/61?letter=d&l=en',
+                        'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+            'auditado': '2026-09-12'},
+ 'esuatini': {'organismo': 'Department of Veterinary and Livestock Services, Ministry of '
+                           'Agriculture (Eswatini)',
               'url': 'https://www.gov.sz/index.php/ministries-departments/ministry-of-agriculture/veterinary-a-livestock',
               'url_generica': True,
               'url_verificada': True,
               'email': None,
               'tel': '+268 2404 2731/9 / +268 2404 6362',
               'cert': True,
-              'cert_dias': 60,
-              'cert_quien': 'Veterinario oficial del pais de salida; en entrada desde el area SADC, '
-                            'Interterritorial Movement Permit firmado por veterinario colegiado u oficial '
-                            'Y refrendado por un Government Veterinarian con sello oficial',
-              'nota': 'url_generica=True: NO EXISTE pagina del tramite. La URL que se da es la ficha del '
-                      'departamento veterinario dentro de gov.sz - esta verificada y es el nivel mas '
-                      'concreto que hay (no es la portada del ministerio), pero solo describe el mandato '
-                      'del departamento y NO menciona en ningun momento permisos de importacion ni '
-                      'mascotas. Se ha buscado y descartado: APHIS no tiene ficha de Esuatini/Swazilandia '
-                      'en pet-travel; el Reino Unido no tiene certificado bilateral de perros y gatos con '
-                      'Esuatini (solo uno de carne, el 7931); y el Eswatini Trade Information Portal no '
-                      'publica ninguna medida ni procedimiento sobre animales vivos o mascotas (se '
-                      'comprobo el procedimiento id=33, que resulto ser el de despacho aduanero de '
-                      'vehiculos). CONTACTO: direccion Ministry of Agriculture Headquarters, P.O. Box 162, '
-                      'Mbabane. El Director del departamento figura como Dr. Xolani Dlamini, movil +268 '
-                      '7606 2602 - util porque en Esuatini el movil suele responder antes que la '
-                      'centralita. NO hay ningun correo publicado en gov.sz para este departamento, por '
-                      'eso email=None: habra que llamar. cert_dias=60 procede del modelo SADC de '
-                      'Interterritorial Movement Permit for Dogs and Cats, verificado, que cubre '
-                      'expresamente Esuatini (aparece con su nombre antiguo, Swaziland) y vale 60 dias '
-                      'desde su emision; entrando por tierra desde Sudafrica o Mozambique es el documento '
-                      'que usaras. Exige rabia puesta con un minimo de 30 dias (60 si hubo casos de rabia '
-                      'en la zona en los tres meses anteriores). Fuentes comerciales (pettravel) hablan de '
-                      'un certificado emitido dentro de los 10 dias previos a la entrada y de solicitud al '
-                      "'Director of Animal Health' salvo procedencia SADC; NO confirmado en fuente "
-                      'oficial, no se consigna.',
+              'cert_dias': None,
+              'cert_quien': 'Veterinario oficial del pais de salida; el modelo SADC de permiso '
+                            'interterritorial (60 dias) cubre Esuatini, pero no hay validez propia '
+                            'publicada',
+              'nota': 'La pagina del Department of Veterinary and Livestock Services es '
+                      'institucional: no existe pagina del tramite. Testimonio 2017: entrada '
+                      'sencilla con el permiso de importacion SACU, que quisieron quedarse en la '
+                      'frontera (insistir en conservarlo).',
               'fuentes': ['https://www.gov.sz/index.php/ministries-departments/ministry-of-agriculture/veterinary-a-livestock',
                           'https://www.elsenburg.com/wp-content/uploads/2022/02/VHC-Interterritorial-Movement-permit-SADC-dogs_cats-template-2012_0.pdf',
-                          'https://www.eswatinitradeportal.gov.sz/index.php?r=SearchMeasures/index']},
- 'sahara-occidental': {'organismo': 'Office National de Sécurité Sanitaire des Produits Alimentaires '
-                                    '(ONSSA) - Direction des Services Vétérinaires',
+                          'https://www.eswatinitradeportal.gov.sz/index.php?r=SearchMeasures/index'],
+              'auditado': '2026-09-12'},
+ 'sahara-occidental': {'organismo': 'Office National de Sécurité Sanitaire des Produits '
+                                    'Alimentaires (ONSSA) - Direction des Services Vétérinaires',
                        'url': 'https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/',
                        'url_generica': False,
                        'url_verificada': False,
                        'email': None,
-                       'tel': '+212 5 37 67 65 00',
+                       'tel': '+212 5 37 67 65 13 (Direccion de Control Fronterizo y Acuerdos SPS '
+                              'de ONSSA, segun FAO/Codex) · +212 5 37 67 65 00 (solo en '
+                              'directorios comerciales)',
                        'cert': True,
                        'cert_dias': None,
-                       'cert_quien': 'Veterinario oficial del pais de salida (en la UE, veterinario '
-                                     'oficial habilitado; certificado en modelo bilateral, no vale el '
-                                     'pasaporte europeo solo)',
-                       'nota': 'Administrado por Marruecos: no hay trámite ni organismo propio. Rige lo de '
-                               'Marruecos.',
-                       'fuentes': ['https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-morocco',
-                                   'https://www.aphis.usda.gov/sites/default/files/morocco-dog-cat_0.pdf',
+                       'cert_quien': 'Veterinario oficial espanol, certificado bilateral ASE-3131 '
+                                     '«perros y gatos a Marruecos» tramitado por CEXGAN (digital '
+                                     'desde el 01-09-2025, sin apostilla): chip anterior a la '
+                                     'vacuna, vacuna antirrabica inactivada con >=21 dias si es '
+                                     'primovacunacion, examen clinico en las 24 h previas al '
+                                     'embarque y titulacion >=0,5 UI/ml para exportacion temporal',
+                       'nota': 'Administrado por Marruecos: no hay tramite ni organismo propio. El '
+                               'control se hace al salir hacia Mauritania, en Guerguerat. Sin '
+                               'permiso previo de importacion para un perro de la UE con su dueno '
+                               '(ninguno de los tres modelos oficiales, ES/UK/EEUU, lo menciona). '
+                               'La pagina de ONSSA es la correcta por titulo pero no se ha podido '
+                               'abrir desde el entorno de verificacion: comprobarla a mano. No hay '
+                               'validez publicada en dias para el certificado espanol: lo que fija '
+                               'es el examen clinico en las 24 h previas (el modelo britanico vale '
+                               '7 dias y el estadounidense 3). El «limite de 3 animales» no tiene '
+                               'fuente. Email oficial de ONSSA/DSV: no publicado en fuente '
+                               'accesible.',
+                       'fuentes': ['https://servicio.mapama.gob.es/cexgan/documentacionpublica/perrosgatosmarruecosase-3131.pdf',
+                                   'https://colegioveterinarios.net/wp-content/uploads/2025/07/Nota-informativa-CEXGAN-Perros-y-gatos-Marruecos-2025.pdf',
+                                   'https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones',
                                    'https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-morocco-certificate-3916',
-                                   'https://assets.publishing.service.gov.uk/media/689da555e95097004f723f64/3916EHC_V4.pdf',
-                                   'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm',
-                                   'https://www.telecontact.ma/annonceur/onssa/3257548/rabat.php']}}
-
-# La vuelta a la UE no es un permiso de país: es el certificado zoosanitario de
-# reentrada. Se añade a mano para que la fila «UE / España» de §2.2 no quede vacía.
-CONTACTOS["ue"] = {
-    "organismo": "Comisión Europea, DG SANTE — movimiento no comercial desde terceros países",
-    "url": "https://food.ec.europa.eu/animals/movement-pets/eu-legislation/"
-           "non-commercial-movement-non-eu-countries_en",
-    "url_generica": False,
-    "url_verificada": True,
-    "email": None,
-    "tel": None,
-    "cert": True,
-    "cert_dias": 10,
-    "cert_quien": "Veterinario oficial del pais de salida (Marruecos, ONSSA) y refrendado "
-                  "por su autoridad competente",
-    "nota": "Entrada obligatoria por un Punto de Entrada de Viajeros designado.",
-    "fuentes": ["https://food.ec.europa.eu/animals/movement-pets_en"],
-}
+                                   'https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-morocco',
+                                   'https://www.consulat.ma/en/introduction-pets',
+                                   'https://www.fao.org/fao-who-codexalimentarius/about-codex/members/detail/en/c/15642/',
+                                   'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
+                       'auditado': '2026-09-12'},
+ 'ue': {'organismo': 'Comisión Europea, DG SANTE — movimiento no comercial desde terceros países',
+        'url': 'https://food.ec.europa.eu/animals/movement-pets/eu-legislation/non-commercial-movement-non-eu-countries_en',
+        'url_generica': False,
+        'url_verificada': True,
+        'email': None,
+        'tel': None,
+        'cert': True,
+        'cert_dias': 10,
+        'cert_quien': 'SOLO si falla la via del pasaporte: veterinario oficial de Marruecos '
+                      '(ONSSA) o veterinario autorizado con refrendo de la autoridad competente, '
+                      'modelo del Reg. de Ejecucion (UE) 2026/705 anexo III, valido 10 dias desde '
+                      'la emision hasta el control en el Punto de Entrada de Viajeros',
+        'nota': 'Normativa vigente desde el 22-04-2026: Reg. Delegado (UE) 2026/131 (requisitos), '
+                'Reg. de Ejecucion 2026/636 (listas de paises: ningun pais africano continental) y '
+                '2026/705 (modelos). VIA A, por defecto: un perro con pasaporte UE, rabia puesta '
+                'en la UE antes de salir y aun valida al volver, y titulacion >=0,5 UI/ml anotada '
+                'en el pasaporte antes de salir, reentra SOLO CON EL PASAPORTE, sin certificado y '
+                'sin los 90 dias (art. 20(b) del Reg. 2026/131); la revacunacion fuera de la UE '
+                'rompe esta via. VIA B: certificado. Puntos de Entrada de Viajeros: Algeciras y '
+                'Tarifa (puerto, todas las categorias; servicio en Muelle Juan Carlos I s/n, '
+                'Algeciras), tambien Ceuta-El Tarajal por tierra. Unico laboratorio aprobado en '
+                'Africa: ARC-Onderstepoort (Sudafrica), aprobado el 24-05-2024.',
+        'fuentes': ['https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202600131',
+                    'https://food.ec.europa.eu/animals/movement-pets/approved-rabies-serology-laboratories/non-eu-countries_en',
+                    'https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones',
+                    'https://agriculture.gouv.fr/faq-modalites-dimportation-des-animaux-de-compagnie-en-provenance-de-pays-tiers'],
+        'auditado': '2026-09-12'}}

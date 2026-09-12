@@ -7,6 +7,8 @@ correo hay que escribir, y si hace falta certificado sanitario y cuántos días
 vale. Y añade a cada ficha de país de §3 un bloque «Dónde se pide».
 
 Se ejecuta a mano cuando cambien los contactos:  python3 actualiza_dosier.py
+Es idempotente: antes de escribir quita las columnas y los bloques que generó
+la vez anterior, así que se puede lanzar tantas veces como haga falta.
 """
 import re
 from pathlib import Path
@@ -59,12 +61,16 @@ def _organismo(slug):
     return f"[{nombre}]({url}){marca}"
 
 
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
+
+
 def _correo(slug):
+    """Solo las direcciones; las anotaciones («vigente», «buzón general») van en la nota."""
     d = CONTACTOS.get(slug) or {}
     c = d.get("email")
     if not c:
         return "— *sin correo publicado*"
-    return " · ".join(f"`{x.strip()}`" for x in re.split(r"[/;,]| o ", c) if "@" in x)
+    return " · ".join(f"`{x}`" for x in EMAIL.findall(c))
 
 
 def _certificado(slug):
@@ -163,8 +169,8 @@ def bloque_pais(slug, titulo="Dónde se pide"):
         web = " — *sin página localizada*"
     correo = ""
     if d.get("email"):
-        correo = "**Escribir a:** " + " · ".join(
-            f"`{x.strip()}`" for x in re.split(r"[/;,]| o ", d["email"]) if "@" in x) + "  \n"
+        # En la ficha se conservan las anotaciones («vigente», «buzón general»…)
+        correo = "**Escribir a:** " + EMAIL.sub(lambda m: f"`{m.group(0)}`", d["email"]) + "  \n"
     tel = f"**Teléfono:** {d['tel']}  \n" if d.get("tel") else ""
     cert = _certificado(slug).replace("**", "")
     if d.get("cert_quien"):
@@ -183,8 +189,39 @@ def bloque_pais(slug, titulo="Dónde se pide"):
     return txt
 
 
+NUEVAS_CAB = "| Quién lo emite | Correo | Certificado sanitario |"
+
+
+def quita_generado(md):
+    """Deja el dosier como estaba antes de la última ejecución.
+
+    Quita las tres columnas añadidas a las tablas de §2 y los bloques «Dónde se
+    pide» de §3, para que la siguiente pasada los regenere desde CONTACTOS.
+    """
+    salida, dentro = [], False
+    for ln in md.split("\n"):
+        t = ln.strip()
+        if t.startswith("|") and t.endswith(NUEVAS_CAB):
+            dentro = True
+            salida.append("|" + "|".join(_celdas(ln)[:-3]) + "|")
+            continue
+        if dentro:
+            if not t.startswith("|"):
+                dentro = False
+                salida.append(ln)
+                continue
+            salida.append("|" + "|".join(_celdas(ln)[:-3]) + "|")
+            continue
+        salida.append(ln)
+    md = "\n".join(salida)
+    # bloque «Dónde se pide…» (párrafo + líneas de detalle + cita opcional) hasta la línea en blanco doble
+    md = re.sub(r"\n\*\*Dónde se pide[^\n]*\n(?:[^\n]+  \n)*(?:\n> [^\n]*\n)?", "\n", md)
+    return re.sub(r"\n{3,}", "\n\n", md)
+
+
 def main():
     md = DOSIER.read_text(encoding="utf-8")
+    md = quita_generado(md)
 
     md = reescribe_tabla(
         md, "| # | País | Entrada terrestre | Permiso previo | Tiempo de tramitación | Dificultad | Nota clave |", 1)
