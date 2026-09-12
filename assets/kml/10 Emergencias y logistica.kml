@@ -400,53 +400,130 @@
     <Point><coordinates>-15.935,23.6845,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Sambaïlo / Diaobé (desde Kédougou, Senegal)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso terrestre principal desde Senegal, evitando expresamente Guinea-Bissau. ~20 km de tierra de nadie entre puestos; ferry antiguo sobre el río Bantala que puede estar averiado — prever demoras. Horario habitual 08:00–18:30. Documentos del vehículo (carta verde, laissez-passer/CPD) deben estar en regla antes de llegar.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.55,-13.35">Google Maps</a>]]></description>
+    <name>Frontera · Entrada bajada — Sambaïlo / Koundara (desde Manda-Kalifourou, Senegal)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso más fácil entre Senegal y Guinea y el que usa la práctica totalidad del tráfico: carretera asfaltada en buen estado a los dos lados, del puesto senegalés de Manda-Kalifourou al guineano de Sambaïlo, en la prefectura de Koundara. Evita por completo el territorio de Guinea-Bisáu, excluido por protocolo del proyecto. AVISOS: (1) el visado NO se expide en la frontera — hay que llegar con la eVisa o el visado consular ya emitido; (2) las fronteras de Guinea CIERRAN DE NOCHE: llegar con margen de varias horas de luz; (3) hay ~20 km de tierra de nadie entre los dos puestos; (4) se paga un laissez-passer de frontera del orden de 50.000 GNF que fija la duración de la estancia — comprobar que la fecha que escriben cubre todo el tramo previsto; (5) el ferry sobre el río Bantala, en la variante antigua, ha estado averiado con frecuencia: confirmar qué ruta está operativa. Es también la frontera de SALIDA de la subida.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.55,-13.35">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.35,12.55,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Frontera · Salida bajada — N'Zo / Gbapleu (hacia Danané, Costa de Marfil)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal entre la Guinea forestal y el oeste de Costa de Marfil, en la prefectura de Lola: del puesto guineano de N'Zo al marfileño de Gbapleu, y de ahí a Danané y Man. Reabierto en septiembre de 2016 tras el cierre sanitario por el ébola. Es la salida obligada de la bajada, porque LIBERIA ESTÁ EXCLUIDA de la ruta por la imposibilidad de obtener visado en frontera terrestre: de Guinea se va directo a Costa de Marfil. POR CONFIRMAR: horarios exactos, si sellan CPD y el estado del asfalto en el tramo Nzérékoré-Lola-N'Zo. Frontera cerrada de noche.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.55,-8.45">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.45,7.55,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada subida — N'Zo / Gbapleu (desde Costa de Marfil)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Mismo paso en sentido inverso. Aquí se abre el segundo visado guineano y el segundo permiso temporal del vehículo. Alternativa teórica más al norte (Sipilou / Kérouané-Beyla) que evitaría repetir el puesto, PERO está muy poco documentada y la carretera es incierta: POR CONFIRMAR antes de contar con ella. Salvo que se verifique, la entrada de la subida repite N'Zo y la diferenciación de corredores se consigue en el interior del país, no en la frontera.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.55,-8.45">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.45,7.55,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Variante de salida — Pamelap (hacia Sierra Leona)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso costero Forécariah-Pamelap-Kambia, asfaltado de punta a punta, hacia Freetown. Solo se activa si se ejecuta la variante opcional de Sierra Leona en el tramo de subida que contempla la ruta global. No es la salida prevista por defecto.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.3,-13.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.05,9.3,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · EXCLUIDA — todos los pasos con Guinea-Bisáu y con Malí</name>
+    <description><![CDATA[<b>Frontera</b><br/>Guinea-Bisáu queda excluida por protocolo del proyecto: ninguna variante debe rozar su territorio, ni siquiera como atajo. Malí queda excluido por conflicto: eso descarta el eje Siguiri-Kourémalé y toda la franja fronteriza del noreste (prefecturas de Siguiri y Mandiana), donde además hay presión de grupos armados del Sahel. El corredor de subida por la Alta Guinea se mantiene deliberadamente al sur y al oeste de esa franja.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.0,-13.8">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.8,12.0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Embajada de España en Conakry</name>
-    <description><![CDATA[<b>Consular</b><br/>Place Almamy Samory Touré, Bâtiment R2000, 6º piso, Moussoudougou, Coléah. Cancillería +224 664 20 22 01. Sección consular +224 613 33 90 90. Emergencia consular grave +224 664 33 54 93. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.53,-13.68">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Place Almamy Samory Touré, Bâtiment R2000, 6º piso, Moussoudougou, Coléah. Cancillería +224 664 20 22 01 · Sección consular +224 613 33 90 90 · Emergencia consular grave +224 664 33 54 93. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.53,-13.68">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.68,9.53,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Embajada de Costa de Marfil en Conakry</name>
+    <description><![CDATA[<b>Consular</b><br/>Punto crítico del itinerario: es donde se tramita el visado marfileño para la salida de la bajada. Confirmar dirección, horarios y requisitos por teléfono nada más llegar a Conakry, con margen de varios días. Coordenada urbana aproximada — POR CONFIRMAR.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.535,-13.675">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.675,9.535,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Hôpital National Donka — Conakry</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; capacidad limitada para politraumatismos — el seguro de evacuación es imprescindible en todo el país. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.535,-13.695">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; capacidad limitada para politraumatismos. El seguro con evacuación aérea es imprescindible en todo el país: la evacuación realista desde Guinea es a Dakar o a Europa. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.535,-13.695">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.695,9.535,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Centre médical — Labé</name>
-    <description><![CDATA[<b>Hospital</b><br/>Recurso sanitario regional del Fouta Djallon; para casos graves, evacuación a Conakry o a Dakar. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3167,-12.2833">Google Maps</a>]]></description>
+    <name>Hôpital Régional de Labé</name>
+    <description><![CDATA[<b>Hospital</b><br/>Recurso sanitario de referencia de todo el Fouta Djallon y del corredor norte. Para casos graves, evacuación a Conakry o a Dakar. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3167,-12.2833">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-12.2833,11.3167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Labé</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (Total, Petroguinée) en el centro regional del Fouta Djallon; confirmar existencias antes de tramos secundarios.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3167,-12.2833">Google Maps</a>]]></description>
+    <name>Laboratoire Régional Vétérinaire de Labé</name>
+    <description><![CDATA[<b>Servicio</b><br/>Uno de los pocos servicios veterinarios oficiales del interior de Guinea, dependiente de la Direction Nationale des Services Vétérinaires (DNSV). Es el recurso más cercano si hay que resolver algo con el perro —un certificado, una vacuna, un problema sanitario— fuera de Conakry, y está justo en el nudo de los dos corredores. Coordenada urbana aproximada: localizar en Labé al llegar.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3167,-12.2833">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.2833,11.3167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital Régional de Nzérékoré</name>
+    <description><![CDATA[<b>Hospital</b><br/>Única referencia hospitalaria seria de toda la Guinea forestal y del sureste. Entre Kankan y Nzérékoré no hay nada equivalente.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.7561,-8.8179">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.8179,7.7561,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital Régional de Kankan</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del corredor de subida por la Alta Guinea.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.3853,-9.3057">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.3057,10.3853,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Conakry</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Vivo/Shell, Petroguinée). Repostar a fondo aquí antes de cualquier tramo interior.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5092,-13.7122">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.7122,9.5092,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Labé, Pita, Mamou, Dalaba, Kindia</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en todas las ciudades del eje Labé-Mamou-Kindia-Conakry: es el corredor con mejor cobertura del país. Repostar en Labé antes de subir a Mali/Loura o de bajar a Doucki.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3167,-12.2833">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-12.2833,11.3167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Conakry</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país; repostar aquí siempre que sea posible antes de tramos interiores.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5092,-13.7122">Google Maps</a>]]></description>
+    <name>Combustible · Faranah, Kissidougou, Macenta, Nzérékoré</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en las capitales del eje sureste, pero con roturas de suministro puntuales. Autonomía recomendada Mamou → Nzérékoré (~650 km) con garrafas, y no depender de Macenta.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.7561,-8.8179">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.7122,9.5092,0</coordinates></Point>
+    <Point><coordinates>-8.8179,7.7561,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Conakry y Labé (garrafas/supermercados)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada disponible en Conakry y Labé; fuera de estas ciudades, tratar o hervir el agua local antes de consumirla.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5092,-13.7122">Google Maps</a>]]></description>
+    <name>Combustible · Kankan, Kouroussa, Dabola (escaso a partir de Tougué)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Kankan y Dabola tienen estaciones formales. AVISO: a partir de Dabola, la pista Tougué-Labé del corredor de subida no tiene garantía de combustible — salir de Dabola con depósitos y garrafas llenos (~350 km hasta Labé, pero con consumo de pista).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.3853,-9.3057">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.3057,10.3853,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Conakry, Labé, Kankan, Nzérékoré</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa disponible en todas las ciudades. Para el depósito de uso general: estaciones de servicio, hoteles y misiones católicas suelen permitir llenar con manguera. En el Fouta el agua de manantial es abundante pero hay que tratarla igualmente.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5092,-13.7122">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.7122,9.5092,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · Fouta Djallon (el castillo de agua de África occidental)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Paradoja útil: es la región con más agua de África occidental —de aquí nacen el Níger, el Senegal y el Gambia— y a la vez una donde el agua de superficie no es potable sin tratar. Manantiales y arroyos constantes en todo el altiplano: filtro mecánico más tratamiento químico o ebullición, siempre. En los campamentos de Doucki y Kambadaga el agua es de pozo o manantial.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.0833,-12.4">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.4,11.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Gbalamuya/Pamelap (desde Guinea)</name>
@@ -540,158 +617,354 @@
     <Point><coordinates>-10.8074,6.3156,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Danané/Loguatuo (desde Liberia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Continuación de la ruta desde Ganta (Liberia); control de inmigración y aduanas. Confirmar estado de la vía en temporada de lluvias.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.25,-8.15">Google Maps</a>]]></description>
+    <name>Frontera · Entrada bajada — Gbapleu / N'Zoo (desde Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal del oeste, en el eje Nzérékoré–Lola–N'Zoo (Guinea) → Gbapleu–Danané (Costa de Marfil). Los 48 km entre la frontera y Danané están asfaltados desde 2017; el lado guineano (Lola–N'Zoo, 32 km) sigue en obras y en muy mal estado, y el tramo Sérédou–Nzérékoré está descrito por la prensa guineana como «nidos de elefante» (~4 h para 97 km). Zona de triple frontera Costa de Marfil–Guinea–Liberia: no desviarse hacia el sur. ATENCIÓN: el visado marfileño NO se puede sacar aquí — hay que llevarlo ya estampado desde la embajada de Conakry. Coordenada aproximada del puesto.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.1,-8.4">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.15,7.25,0</coordinates></Point>
+    <Point><coordinates>-8.4,7.1,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Noé/Elubo (hacia Ghana)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal y más transitado hacia Ghana; carretera pavimentada en buen estado en el lado ghanés, puente sobre el río fronterizo. Horario 06:00-18:00.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.1667,-2.7667">Google Maps</a>]]></description>
+    <name>Frontera · Salida bajada — Noé / Elubo (hacia Ghana)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso más transitado de toda África occidental francófona-anglófona: carretera asfaltada en buen estado a ambos lados y puente sobre el río Tanoé. Horario habitual 06:00–18:00. Cambio de franco CFA a cedi, cambio de conducción no (ambos por la derecha) pero sí de idioma administrativo. Presentar Carte Brune CEDEAO, CPD y certificado de fiebre amarilla.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.1167,-2.7667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-2.7667,5.1667,0</coordinates></Point>
+    <Point><coordinates>-2.7667,5.1167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Abidjan</name>
-    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. +225 22 44 48 50 · fax +225 22 44 71 22 · emb.abidjan@maec.es.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.36,-3.97">Google Maps</a>]]></description>
+    <name>Frontera · Entrada subida — Soko / Sampa (desde Ghana)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso interior del este: Sampa (región de Bono, Ghana) del lado ghanés, Soko del lado marfileño, camino de Bondoukou. La evaluación logística del Logistics Cluster lo documenta como puesto formal abierto TODOS LOS DÍAS de 06:00 a 18:00, sin cierres anuales, con tráfico modesto (~10 camiones y ~20 vehículos privados al día) y aduana de tramitación MANUAL, no informatizada — es decir, lento pero sin colas. Sampa tiene siete gasolineras y mercado los lunes; Tema Port queda a 520 km. Se elige expresamente para no repetir Noé en la subida. CONFIRMAR que la aduana marfileña de Soko puede tramitar el passavant/CPD de un vehículo extranjero; alternativa de respaldo: Takikro/Tanoso o volver a Noé.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.9717,-2.7189">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-2.7189,7.9717,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida subida — Sipilou (hacia Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Segundo paso marfileño hacia Guinea, al norte del de Gbapleu, en el departamento de Biankouma; figura en la evaluación logística del Logistics Cluster como puesto fronterizo formal. Da a la región guineana de Beyla/Sinko. Pista y asfalto degradado, menos tráfico y menos servicios que Gbapleu — pero es lo que permite que la subida no repita el paso de la bajada. CONFIRMAR horario, existencia de aduana con capacidad de tramitar CPD y estado de la pista 72 h antes. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.9833,-8.0333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.0333,7.9833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Abiyán</name>
+    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. Tel. +225 22 44 48 50 · emb.abidjan@maec.es. Demarcación que cubre también Guinea y otros países del entorno: es el punto consular de referencia de todo este tramo del viaje.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.36,-3.97">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-3.97,5.36,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>CHU de Cocody — Abidjan</name>
-    <description><![CDATA[<b>Hospital</b><br/>Centro Hospitalario Universitario de referencia en la capital económica; mejor capacidad de la región para urgencias graves. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.355,-3.985">Google Maps</a>]]></description>
+    <name>CHU de Cocody — Abiyán</name>
+    <description><![CDATA[<b>Hospital</b><br/>Centro Hospitalario Universitario de Cocody, referencia de la capital económica y la mejor capacidad de urgencias graves de la subregión junto con la PISAM (clínica privada de Cocody, la opción habitual para extranjeros). Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.355,-3.985">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-3.985,5.355,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Man</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (Total, Ola Energy) en la ciudad de montaña; primer repostaje serio tras la frontera de Liberia.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.4125,-7.5539">Google Maps</a>]]></description>
+    <name>Hospital regional de Man</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del bloque de montaña del oeste (Nimba, Dent de Man, Tonkoui, puentes de lianas). Capacidad limitada: para algo grave, evacuación a Abiyán.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.4125,-7.5539">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-7.5539,7.4125,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>CHU de Bouaké</name>
+    <description><![CDATA[<b>Hospital</b><br/>Centro hospitalario universitario del centro del país y única referencia seria del corredor de subida entre Abiyán y el norte.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.6906,-5.03">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-5.03,7.6906,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Danané / Man</name>
+    <description><![CDATA[<b>Combustible</b><br/>Primer repostaje formal tras la frontera de Guinea (Total, Petro Ivoire, Ola Energy). Llenar a fondo en Man antes de las pistas de montaña y del desvío al Nimba: fuera de las ciudades del oeste la oferta es informal y de calidad dudosa.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.4125,-7.5539">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-7.5539,7.4125,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Yamoussoukro</name>
-    <description><![CDATA[<b>Combustible</b><br/>Buena oferta en la capital política, a medio camino hacia la costa.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.8167,-5.2833">Google Maps</a>]]></description>
+    <name>Combustible · Daloa / Yamoussoukro</name>
+    <description><![CDATA[<b>Combustible</b><br/>Eje central con la mejor red del interior; Yamoussoukro es además el mejor punto para repostar antes de bajar hacia Gagnoa, Soubré y el bloque forestal de Taï.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.8097,-5.2758">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-5.2833,6.8167,0</coordinates></Point>
+    <Point><coordinates>-5.2758,6.8097,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Abidjan</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país; repostar aquí antes de Grand-Bassam y del tramo final a Ghana.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.3097,-4.0122">Google Maps</a>]]></description>
+    <name>Combustible · Soubré y San-Pédro (bloque de Taï)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Soubré es la última plaza formal antes de las pistas forestales de Taï por el norte, y San-Pédro —segundo puerto del país, con talleres, recambios y hospital— lo es por el sur al salir del parque hacia la costa. Entre ambos, dentro del bloque forestal, la oferta es escasa: entrar con depósitos llenos y garrafas.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.7485,-6.6363">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-4.0122,5.3097,0</coordinates></Point>
+    <Point><coordinates>-6.6363,4.7485,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Abidjan y Yamoussoukro (supermercados y garrafas)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada ampliamente disponible en las ciudades del itinerario; sin problema de suministro en este tramo.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.3097,-4.0122">Google Maps</a>]]></description>
+    <name>Combustible · Abiyán</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y mejor calidad del país, con diferencia. Repostar a fondo aquí antes del tramo final a Ghana y, en la subida, al volver a entrar en el país.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.325,-4.02">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-4.02,5.325,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Bondoukou / Bouaké / Korhogo (eje de subida)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Tres plazas formales bien espaciadas en el corredor de subida (Bondoukou ~330 km de Bouaké, Bouaké ~230 km de Korhogo). Bouaké es la mejor de las tres para talleres y recambios.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.6906,-5.03">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-5.03,7.6906,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Séguéla (último del oeste en la subida)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última estación formal fiable antes de Touba, Biankouma y la frontera de Sipilou. Salir de aquí con depósitos y garrafas llenos: el tramo final de la subida tiene oferta escasa e irregular.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.9611,-6.6731">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-6.6731,7.9611,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Abiyán, Yamoussoukro, Bouaké, Man</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema de suministro en supermercados (Carrefour, Prosuma, Sococé) de Abiyán y en las capitales regionales. Para la recarga del depósito de uso general, las estaciones Total/Petro Ivoire y los hoteles con aparcamiento de estas cuatro ciudades permiten llenar con manguera; confirmar precio o donativo en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.325,-4.02">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-4.0122,5.3097,0</coordinates></Point>
+    <Point><coordinates>-4.02,5.325,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Elubo (desde Costa de Marfil)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal y más transitado de la subregión; carretera pavimentada en buen estado, puente sobre el río fronterizo, horario 06:00-18:00. Laissez-passer/C59 temporal para vehículos extranjeros.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.0333,-2.8667">Google Maps</a>]]></description>
+    <name>Base canina · Abiyán (veterinarios y residencias)</name>
+    <description><![CDATA[<b>Consular</b><br/>Abiyán concentra clínicas veterinarias de nivel europeo y residencias caninas — según el dosier canino del proyecto, el mejor punto de respiro del perro en toda África occidental. Es también donde hay que dejarlo si se entra en el Parque Nacional de Taï o en el de la Comoé. Coordenada aproximada de la zona de Cocody/Deux-Plateaux.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.345,-3.99">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-3.99,5.345,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada bajada — Elubo / Noé (desde Costa de Marfil)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso costero principal y el más transitado entre los dos países; carretera pavimentada en buen estado y puente sobre el río Tanoé. Horario declarado 06:00-18:00 (llegar temprano). Otros overlanders lo describen como uno de los cruces más sencillos de África occidental: unos 40 minutos en total, procesamiento biométrico digital, 60 días de estancia concedidos y ningún pago informal. Carnet de paso (CPD) muy recomendable — sin él Ghana exige garantía o depósito aduanero. Piden el permiso internacional de conducir. Cajeros operativos justo después del paso (Ghana usa cedis, no francos CFA).<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.0333,-2.8667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-2.8667,5.0333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Aflao (hacia Togo)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso urbano integrado en la conurbación Aflao-Lomé; alto volumen de tráfico peatonal y comercial, prever demoras.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1167,1.2">Google Maps</a>]]></description>
+    <name>Frontera · Salida bajada — Aflao (hacia Togo/Lomé)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso urbano integrado en la conurbación Aflao-Lomé, el de mayor volumen peatonal y comercial de la subregión. Prever demoras y mucho gentío; llevar toda la documentación a mano y el vehículo cerrado. Horario amplio, pero cruzar por la mañana.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1167,1.2">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.2,6.1167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Accra (también acreditada en Togo)</name>
-    <description><![CDATA[<b>Consular</b><br/>Drake Av. Extension, Airport Residential Area, P.M.B. KA 44, Accra. +233 302 77 40 04/05. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.605,-0.17">Google Maps</a>]]></description>
+    <name>Frontera · Entrada subida — Akanu / Noepé (desde Togo, eje Ho-Kpalimé)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso interior mucho más tranquilo que Aflao, en la carretera Ho-Kpalimé, que abre directamente la región Volta y sus montañas. Coordenada aproximada: confirmar el punto exacto y el horario 72 h antes. Es la pieza que permite que el corredor de subida no repita ni un kilómetro del de bajada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.55,0.6333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.6333,6.55,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida subida — Sampa (hacia Bondoukou, Costa de Marfil)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del noroeste, en la región Bono, hacia Bondoukou; muy poco transitado frente a Elubo. POR CONFIRMAR: horario real, si tramita CPD/carnet y si el eVisa marfileño se admite aquí. Alternativa documentada más al sur: Dormaa Ahenkro (hacia Agnibilékrou). Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.95,-2.7">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-2.7,7.95,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Accra (acreditada también en Togo)</name>
+    <description><![CDATA[<b>Consular</b><br/>Drake Avenue Extension, Airport Residential Area, P.M.B. KA 44, Accra. Tel. +233 302 77 40 04 / 05. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.605,-0.17">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-0.17,5.605,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Korle Bu Teaching Hospital — Accra</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia del país; mejor capacidad de la subregión para urgencias graves. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5364,-0.227">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario del país y mejor capacidad de urgencias de todo el tramo de África occidental. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5364,-0.227">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-0.227,5.5364,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Elubo</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones en el propio puesto fronterizo (GOIL, Total); repostar al entrar si el depósito no está lleno.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.0333,-2.8667">Google Maps</a>]]></description>
+    <name>Komfo Anokye Teaching Hospital — Kumasi</name>
+    <description><![CDATA[<b>Hospital</b><br/>Segunda referencia hospitalaria del país y la del corredor de subida antes del norte. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.698,-1.63">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.63,6.698,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tamale Teaching Hospital — Tamale</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital de referencia del norte: la única capacidad real entre Kumasi y la frontera de Burkina/Costa de Marfil. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.4008,-0.8393">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-0.8393,9.4008,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sekondi-Takoradi · servicios de la costa oeste</name>
+    <description><![CDATA[<b>Combustible</b><br/>Tercera plaza del país y capital petrolera: combustible, talleres, recambios, neumáticos, supermercados y hospital. Punto de servicios entre Elubo y Cape Coast, y base para Busua y Cape Three Points.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.8974,-1.7604">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.7604,4.8974,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ho · base de la región Volta (subida)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Capital de la región Volta y base de servicios del bloque de excursiones a pie (Amedzofe, Tafi Atome, Wli, Afadjato): combustible, hospital regional, bancos y alojamiento con aparcamiento.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.6,0.4667">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.4667,6.6,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tamale · base logística del norte</name>
+    <description><![CDATA[<b>Combustible</b><br/>Cuarta ciudad del país y ÚLTIMA plaza de servicios completos antes de Mole y del extremo norte: combustible formal, talleres, hospital, mercado, bancos. Lo que no se consiga aquí, no se consigue hasta Bolgatanga o ya en Costa de Marfil.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.4008,-0.8393">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-0.8393,9.4008,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bolgatanga · extremo norte</name>
+    <description><![CDATA[<b>Combustible</b><br/>Capital de la región Alto Oriental, base para Paga, Sirigu y Tongo Hills; combustible y servicios básicos, oferta más limitada que Tamale.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.7856,-0.8514">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-0.8514,10.7856,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Elubo (frontera)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones en el propio puesto fronterizo (GOIL, Total/TotalEnergies); repostar al entrar si el depósito no viene lleno de Costa de Marfil.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.0333,-2.8667">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-2.8667,5.0333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Cape Coast / Elmina</name>
-    <description><![CDATA[<b>Combustible</b><br/>Buena oferta en el eje costero histórico, entre Elubo y Accra.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.1053,-1.2466">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Buena oferta en el eje costero histórico, entre Takoradi y Accra.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.1053,-1.2466">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-1.2466,5.1053,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Accra</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (GOIL, Total, Shell); repostar aquí antes del tramo final hacia Aflao/Togo.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5471,-0.1942">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (GOIL, TotalEnergies, Shell/Vivo, Star Oil); repostar a fondo antes del tramo final hacia Aflao y también al empezar la subida.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5471,-0.1942">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-0.1942,5.5471,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Accra y Cape Coast (supermercados y garrafas)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada ampliamente disponible en todo el eje costero del itinerario; sin problema de suministro en este tramo.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5471,-0.1942">Google Maps</a>]]></description>
+    <name>Combustible · Kumasi</name>
+    <description><![CDATA[<b>Combustible</b><br/>Segunda mejor oferta del país; repostar a fondo antes de subir al norte.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.6885,-1.6244">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.6244,6.6885,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Damongo / Larabanga (puerta de Mole)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última oferta formal antes del parque; irregular en Larabanga. Llegar con depósito lleno desde Tamale (~150 km) y llevar garrafa de reserva.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.0833,-1.8167">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.8167,9.0833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Wa y eje Bole-Sampa (salida a Costa de Marfil)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Oferta escasa e irregular en todo el eje Bole-Wenchi-Sampa: salir con depósitos y garrafas llenos de Tamale o Kumasi. POR CONFIRMAR sobre el terreno. Coordenada aproximada (Bole).<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.1667,-2.4833">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-2.4833,9.1667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable · Accra, Kumasi, Cape Coast, Tamale</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en sachet ('pure water') disponible absolutamente en todas partes y muy barata; sin problema de suministro en ningún punto del itinerario.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5471,-0.1942">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-0.1942,5.5471,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Aflao/Kodjoviakopé (desde Ghana)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso urbano integrado en la conurbación Aflao-Lomé, el más transitado del tramo; caminar menos de 1 km entre ambos puestos. Reputación conocida de estafadores de cambio de moneda — usar solo casas de cambio autorizadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1167,1.2">Google Maps</a>]]></description>
+    <name>Frontera · Entrada bajada — Aflao/Kodjoviakopé (desde Ghana)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso urbano integrado en la conurbación Aflao-Lomé, el más transitado de todo el golfo de Guinea occidental; menos de 1 km entre ambos puestos y a 5 km del centro de Lomé. Horario aproximado 06:00-18:00 (confirmar: el horario efectivo varía). Reputación consolidada de estafadores de cambio de moneda y de «ayudantes» no oficiales — usar solo casas de cambio autorizadas y no soltar nunca el pasaporte.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1167,1.2">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.2,6.1167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Hillacondji/Sanvee-Condji (hacia Benín)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto conjunto (yuxtapuesto) entre Togo y Benín a unos 21 km de Lomé; cruzar por la mañana, el tráfico comercial se satura al mediodía.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1667,1.6333">Google Maps</a>]]></description>
+    <name>Frontera · Salida bajada — Hillacondji/Sanvee-Condji (hacia Benín)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto conjunto (yuxtapuesto) Togo-Benín a unos 21 km de Lomé, con los dos países tramitando en la misma instalación. Cruzar por la mañana: el tráfico comercial satura el mediodía.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1667,1.6333">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.6333,6.1667,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Frontera · Entrada subida — Ouaké (desde Benín, eje Djougou-Kara)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del eje Djougou-Kara, a 37 km de Djougou; según la evaluación logística del Logistics Cluster opera 24/7 salvo festivos nacionales de Benín, y exige seguro CEDEAO y laissez-passer del vehículo. Es la puerta natural del corredor interior de subida. POR CONFIRMAR el nombre exacto del puesto togolés al otro lado y su horario real en 2027.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.6719,1.3637">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.3637,9.6719,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Alternativa subida — Tohoun/Azovè (desde Benín, eje central)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso interior mucho más al sur, sobre el eje Notsé-Azovè, fuera por completo de cualquier zona de riesgo; alternativa si la situación del norte desaconseja entrar por Ouaké. Coordenada aproximada, por verificar.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.0,1.6">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.6,7.0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida subida — Wli/Kpalimé (hacia Ghana, región del Volta)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso menor de montaña junto a las cataratas de Wli (Ghana), la ruta más corta entre Kpalimé y el Volta ghanés. Relato de viajeros con vehículo: el lado ghanés es lento y desorganizado (revisar personalmente que sellos y fechas del carnet estén bien puestos), el lado togolés más profesional, con la aduana del carnet unos kilómetros dentro, cerca de Tomegbé. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.12,0.59">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.59,7.12,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Cinkassé (hacia Burkina Faso) — EXCLUIDA</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto fronterizo integrado del corredor Lomé-Uagadugú, en el extremo norte del país. FUERA DEL ITINERARIO: está en plena región de las Savanes, bajo estado de emergencia, y el cruce a Burkina Faso está desaconsejado para extranjeros.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.9833,0.2333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.2333,10.9833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Embajada de España en Accra (acreditada también en Togo)</name>
-    <description><![CDATA[<b>Consular</b><br/>Drake Av. Extension, Airport Residential Area, P.M.B. KA 44, Accra (Ghana). +233 302 77 40 04/05. Togo no tiene embajada española propia; gestionar trámites con margen desde Accra o Lomé.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.605,-0.17">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Drake Av. Extension, Airport Residential Area, P.M.B. KA 44, Accra (Ghana). +233 302 77 40 04/05. Togo no tiene embajada española propia; gestionar cualquier trámite con margen desde Accra o desde el consulado honorario en Lomé, cuyo canal exacto hay que confirmar antes del viaje.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.605,-0.17">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-0.17,5.605,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>CHU Sylvanus Olympio — Lomé</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia del país. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1256,1.2283">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia del país, en el corredor de bajada. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1256,1.2283">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.2283,6.1256,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>CHU Kara — Kara</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del norte y del corredor interior de subida; entre Kara y Lomé no hay nada equivalente. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5511,1.1861">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.1861,9.5511,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Combustible · Lomé</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Togo Oil, Total, CM Oil); repostar aquí antes o después de cualquiera de las dos fronteras.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1319,1.2228">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Togo Oil, Total, CM Oil, Sanol); repostar aquí antes o después de cualquiera de las dos fronteras costeras.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1319,1.2228">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.2228,6.1319,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Aného / Hillacondji</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en Aného, última plaza con oferta amplia antes de cruzar a Benín.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.2333,1.6">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en Aného, última plaza con oferta amplia antes de cruzar a Benín en la bajada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.2333,1.6">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.6,6.2333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Kara</name>
+    <description><![CDATA[<b>Combustible</b><br/>Plaza de servicios del norte: combustible formal, talleres y recambios básicos. Llenar aquí antes de cualquier desvío a Koutammakou o Sarakawa.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5511,1.1861">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.1861,9.5511,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Sokodé</name>
+    <description><![CDATA[<b>Combustible</b><br/>Parada intermedia obligada del eje N1 entre Kara y Atakpamé (~160 km hasta Atakpamé); estaciones formales y mercado.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.9833,1.1333">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.1333,8.9833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Atakpamé · servicios del centro-sur</name>
+    <description><![CDATA[<b>Combustible</b><br/>Capital de la región de los Plateaux sobre la N1, con combustible, hospital regional y hoteles; punto donde el corredor de subida abandona la nacional para bajar por el Litimé hacia Badou y Kpalimé.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.5333,1.1333">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.1333,7.5333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Kpalimé</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última plaza con oferta razonable antes de la frontera de Wli y de las pistas de montaña de Klouto y Agou; la oferta en las aldeas de la sierra es nula.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.9,0.6333">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.6333,6.9,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Lomé</name>
@@ -701,102 +974,249 @@
     <Point><coordinates>1.2228,6.1319,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Hillacondji/Sanvee-Condji (desde Togo)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto conjunto (yuxtapuesto) entre Togo y Benín; cruzar por la mañana, el tráfico comercial se satura al mediodía.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1667,1.6333">Google Maps</a>]]></description>
+    <name>Agua potable y de uso general · Kara y Kpalimé</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Hoteles con aparcamiento en Kara y Kpalimé permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5511,1.1861">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.1861,9.5511,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada bajada — Hillacondji/Sanvee-Condji (desde Togo)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto conjunto (yuxtapuesto) Togo-Benín, con los dos países tramitando en la misma instalación, a 85 km de Cotonú. Cruzar por la mañana: el tráfico comercial satura el mediodía.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1667,1.6333">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.6333,6.1667,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Kraké/Seme (hacia Nigeria)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso más transitado de África Occidental hacia Lagos; alta congestión y controles múltiples. Tramitar el visado nigeriano ANTES de llegar — no existe visado en frontera para turismo.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3697,2.7275">Google Maps</a>]]></description>
+    <name>Frontera · Salida bajada — Sèmè-Kraké (hacia Nigeria)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso más transitado de toda África occidental, a 20 km de Cotonú y en la puerta de Lagos: congestión permanente, controles múltiples (inmigración, aduana, sanidad, policía) y presión constante de intermediarios. Tramitar el e-Visa nigeriano ANTES de llegar: no existe visado de turismo en frontera. Cruzar a primerísima hora.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3697,2.7275">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>2.7275,6.3697,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Abuja (acreditada también en Benín)</name>
-    <description><![CDATA[<b>Consular</b><br/>Nigeria y Benín comparten demarcación consular española desde Abuja. Contacto y cita previa por la embajada de Abuja; Cotonou dispone solo de gestión honoraria puntual — confirmar canal exacto antes del viaje.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.0579,7.4951">Google Maps</a>]]></description>
-    <styleUrl>#icon-consular</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>7.4951,9.0579,0</coordinates></Point>
+    <name>Frontera · Entrada subida — Ilara/Kétou (desde Nigeria, eje interior)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso interior mucho más tranquilo que Sèmè-Kraké, sobre el eje Ilara (Ogun, Nigeria) – Kétou. Kétou es además una de las capitales históricas yoruba y conserva la PUERTA AKABA IDÉNA, puerta fortificada de la muralla del reino y símbolo de resistencia frente a las razias del Dahomey, incluida en la lista indicativa de la UNESCO. COORDENADA APROXIMADA: verificar posición exacta, horario y si admite vehículo extranjero con carnet antes de planificar por aquí.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.37,2.73">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.73,7.37,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>CNHU-HKM (Centre National Hospitalier Universitaire) — Cotonou</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia del país. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3667,2.4333">Google Maps</a>]]></description>
+    <name>Frontera · Alternativa subida — Igolo/Idiroko (desde Nigeria)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Segundo paso más transitado con Nigeria, al norte de Porto-Novo; más ágil que Sèmè-Kraké pero todavía muy concurrido. Alternativa razonable si Ilara/Kétou no resulta viable. Coordenada aproximada, por verificar.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.65,2.77">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.77,6.65,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida subida — Ouaké (hacia Togo, eje Djougou-Kara)</name>
+    <description><![CDATA[<b>Frontera</b><br/>A 37 km de Djougou. Según la evaluación logística del Logistics Cluster opera 24 h los 7 días de la semana salvo festivos nacionales de Benín, y exige seguro CEDEAO y laissez-passer del vehículo; sin báscula en el puesto de aduanas. ⚠️ Está en el departamento de la Donga, que NO figura en las listas de «no viajar» (Atakora, Alibori, Borgou) pero sí dentro de la «mitad norte» que el Ministerio español desaconseja en bloque: revalidar antes de usarlo.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.6719,1.3637">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.3637,9.6719,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Alternativa subida — Azovè/Tohoun (hacia Togo, eje central)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso interior muy al sur, sobre el eje Azovè-Tohoun, completamente fuera de cualquier zona de riesgo. Es el PLAN B del corredor de subida si la situación del norte desaconseja subir hasta Djougou: obliga a acortar el corredor interior (se pierden Bassila, Djougou y Taneka) pero mantiene Kétou, Savè, Dassa, Savalou y Abomey.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.9833,1.6667">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.6667,6.9833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Consulado General de España en Lagos (demarcación de Benín)</name>
+    <description><![CDATA[<b>Consular</b><br/>Benín depende consularmente de la representación española en Nigeria. Emergencia consular: +234 80 3360 1658. Hay además Consulado Honorario en Cotonú: +229 21 339 219 / 220 / 726. Confirmar teléfonos vigentes en exteriores.gob.es antes de viajar.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.44,3.42">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.42,6.44,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>CNHU-HKM (Centre National Hospitalier Universitaire) — Cotonú</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia del país; Cotonú tiene además varias clínicas privadas de nivel aceptable, las mejores del corredor. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3667,2.4333">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>2.4333,6.3667,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Cotonou</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Oryx, Petro Ivoire); repostar aquí antes del tramo final hacia Kraké/Nigeria.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3703,2.3912">Google Maps</a>]]></description>
+    <name>Hospital de zona · Dassa-Zoumè / Abomey</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencias sanitarias intermedias del corredor interior; entre Abomey y Djougou no hay nada de nivel. Coordenadas urbanas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.1833,1.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.9833,7.1833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Cotonú</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Oryx, Petro Ivoire, MRS); repostar a fondo aquí antes de Sèmè-Kraké o antes de subir al interior. ATENCIÓN: buena parte del combustible que se vende en Benín es «kpayo», gasolina de contrabando nigeriana vendida en garrafas al borde de la carretera, muy barata y de calidad impredecible — NO usarla en los vehículos del proyecto.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3703,2.3912">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>2.3912,6.3703,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Uidá / Abomey</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en el eje Cotonou-Uidá-Abomey, sin problema de suministro en el itinerario previsto.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3667,2.0333">Google Maps</a>]]></description>
+    <name>Combustible · Ouidah / Grand-Popo</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en el eje costero entre Hillacondji y Cotonú, sin problema de suministro.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3628,2.0853">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>2.0333,6.3667,0</coordinates></Point>
+    <Point><coordinates>2.0853,6.3628,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Cotonou</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Cotonou y Uidá permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3703,2.3912">Google Maps</a>]]></description>
+    <name>Combustible · Bohicon (nudo de Abomey)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Bohicon, a 9 km de Abomey, es el verdadero nudo de carreteras y de servicios del centro del país: combustible, talleres, mercado y la estación de ferrocarril. Repostar aquí, no en Abomey.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.1786,2.0667">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.0667,7.1786,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Dassa-Zoumè y Savalou</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales sobre la N2 y la N3; últimos puntos fiables antes del tramo Savalou-Bassila-Djougou.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.75,2.1833">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.1833,7.75,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Djougou</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última plaza con combustible formal antes de salir a Togo por Ouaké. Llenar depósitos y garrafas aquí.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.7,1.6667">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.6667,9.7,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Cotonú</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Cotonú y Ouidah permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3703,2.3912">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>2.3912,6.3703,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Kraké/Seme (desde Benín)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso más transitado de África Occidental hacia Lagos; visado nigeriano ya tramitado, CPD y seguro Brown Card en regla. Alta congestión, varios filtros de control sucesivos.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3697,2.7275">Google Maps</a>]]></description>
+    <name>Agua potable y de uso general · Possotomé (lago Ahémé)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Albergue y camping comunitario de Eco-Bénin a orillas del lago, con agua corriente; además, fuentes de agua mineral explotadas desde 1952 en el propio pueblo.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.45,1.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.9833,6.45,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Dassa y Djougou</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Hoteles con aparcamiento en ambas ciudades permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.75,2.1833">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.1833,7.75,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada bajada — Sèmè-Kraké (desde Benín)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso terrestre más transitado de África occidental, hoy convertido en puesto fronterizo conjunto (Joint Border Post) con instalaciones nuevas, lo que según los overlanders que lo han cruzado recientemente ha eliminado buena parte de los intermediarios y del caos anterior. Secuencia real: control sanitario (cartilla de fiebre amarilla; pueden pedir cólera y meningitis), salida de Benín —que suele llevar más tiempo que la entrada en Nigeria—, inmigración nigeriana con escaneo del código QR de la landing card, biometría de huellas y, por separado, aduana para el vehículo. El e-Visa nigeriano SÍ se acepta aquí (cruces documentados). Llevar todo impreso además de en digital. Horario diurno; llegar temprano.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3697,2.7275">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>2.7275,6.3697,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Mfum/Ekok (hacia Camerún)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce del río Cross State hacia Mamfe (región Suroeste de Camerún, zona de crisis anglófona). Ver alerta de seguridad específica antes de decidir esta salida.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.945,9.06">Google Maps</a>]]></description>
+    <name>Frontera · Salida bajada — Mfum/Ekok (hacia Camerún)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único paso terrestre asfaltado y con aduana plena entre Nigeria y Camerún en el sur; cruce del río Cross hacia Ekok y Mamfe, ya en la región Suroeste camerunesa, en conflicto activo por la crisis anglófona. Salir de Ikom a primera hora para tener toda la jornada por delante al otro lado. Aquí se cierra el permiso de admisión temporal del vehículo de la Nigeria Customs Service: hay que presentar el vehículo y la declaración aduanera aprobada. Ver la alerta detallada y el protocolo en la ficha de Camerún antes de decidir este paso.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.945,9.06">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.06,5.945,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Abuja (también acreditada en Benín)</name>
-    <description><![CDATA[<b>Consular</b><br/>Consulado General de España en Lagos: 21C Kofo Abayomi St, Victoria Island, Lagos. Tel. +234 (0)1 2094603499 · Emergencia consular: +234 803 360 1658. Embajada en Abuja para trámites de visado y asuntos oficiales.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.0579,7.4951">Google Maps</a>]]></description>
+    <name>Frontera · Salida subida — Idiroko / Igolo (hacia Benín)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Segundo paso Nigeria-Benín en importancia, a unos 100 km al norte de Sèmè, en el estado de Ogun. Elegido deliberadamente para que el corredor de subida no repita el eje costero de Lagos: mucho menos tráfico que Sèmè y acceso directo desde Abeokuta por Ilaro. Es, eso sí, un corredor con fama de contrabando intenso (arroz, combustible), lo que se traduce en más controles de aduana y policía en los kilómetros previos, no en más riesgo. POR CONFIRMAR: que la aduana de Idiroko esté habilitada para cerrar el permiso de admisión temporal del vehículo y sellar el CPD — si no lo estuviera, hay que salir por Sèmè.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.7333,2.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.8833,6.7333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada subida — Mfum/Ekok (desde Camerún)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Mismo paso que la salida de la bajada, ahora en sentido inverso. Aquí se abre el segundo permiso de admisión temporal del vehículo y se presenta el segundo visado nigeriano (o la segunda entrada del visado múltiple). Repostar en Mamfe o Ekok es poco fiable: llegar con combustible desde Camerún y repostar en Ikom.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.945,9.06">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.06,5.945,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Consulado General de España en Lagos</name>
+    <description><![CDATA[<b>Consular</b><br/>21C Kofo Abayomi St, Victoria Island, Lagos. Tel. +234 (0)1 2094603499 · Emergencia consular 24 h: +234 803 360 1658. Es el punto consular útil del viaje: está en el corredor de bajada. La Embajada de España está en Abuya, fuera de la ruta.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4281,3.4219">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.4219,6.4281,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Abuya</name>
+    <description><![CDATA[<b>Consular</b><br/>Plot 493, Yedseram Street, Maitama, Abuya. Fuera del corredor previsto: solo se contempla un desplazamiento a Abuya en caso de emergencia consular grave, y atravesando el Middle Belt, que es precisamente lo que el itinerario evita.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.0579,7.4951">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>7.4951,9.0579,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Lagos University Teaching Hospital (LUTH) — Lagos</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia de Lagos; mejor capacidad del tramo para urgencias graves. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.5194,3.3486">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario de Lagos y mejor capacidad del corredor para urgencias graves, junto con los hospitales privados de Victoria Island (Reddington, Lagoon). Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.5194,3.3486">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>3.3486,6.5194,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Lagos</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta del país (NNPC, Total, Oando); repostar aquí y comprobar precio, sujeto a variaciones frecuentes por política de subsidios.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4432,3.6011">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>3.6011,6.4432,0</coordinates></Point>
+    <name>University of Calabar Teaching Hospital (UCTH)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital universitario de referencia del sureste y última capacidad hospitalaria seria antes de Camerún: a partir de Ikom y hasta Duala (Camerún) no hay nada equivalente. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.955,8.34">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.34,4.955,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Benin City / Calabar</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en el eje Lagos-Benin City-Calabar; confirmar disponibilidad real, con roturas de suministro puntuales fuera de las grandes ciudades.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.335,5.6037">Google Maps</a>]]></description>
+    <name>University College Hospital (UCH) — Ibadan</name>
+    <description><![CDATA[<b>Hospital</b><br/>El hospital universitario más antiguo y prestigioso de Nigeria, referencia del corredor de subida entre Benin City y la frontera de Idiroko. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.4,3.899">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.899,7.4,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Stella Obasanjo / hospitales de Benin City</name>
+    <description><![CDATA[<b>Hospital</b><br/>Benin City es la única capacidad hospitalaria del tramo central (University of Benin Teaching Hospital, UBTH, en Ugbowo). Punto medio entre Lagos y Calabar. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.335,5.6037">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>5.6037,6.335,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mercado de repuestos de Ladipo — Lagos</name>
+    <description><![CDATA[<b>Servicio</b><br/>El mayor mercado de recambios de automoción de África occidental, en Mushin. Es donde conseguir cualquier pieza mecánica del viaje de bajada — y el sitio donde revisar los vehículos a fondo antes del bloque centroafricano, donde ya no hay nada equivalente hasta Duala. Ir acompañado de un mecánico de confianza, regatear y comprobar la pieza antes de pagar. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.54,3.33">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.33,6.54,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Lagos</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (NNPC, TotalEnergies, Oando, Ardova, MRS). Desde la puesta en marcha de la refinería de Dangote, en la propia península de Lekki, el suministro del suroeste es mucho más estable que en los años de colas y desabastecimiento, pero el precio sigue moviéndose con frecuencia. Repostar a fondo aquí.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4541,3.3947">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.3947,6.4541,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Benin City / Asaba / Calabar</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales suficientes en todo el eje Lagos-Ore-Benin City-Asaba-Onitsha-Aba-Uyo-Calabar: no hay ningún hueco de 500 km en el corredor de bajada. Calabar es la última plaza con oferta amplia y garantizada.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.335,5.6037">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>5.6037,6.335,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Lagos y Calabar</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada («pure water» en bolsa o botella) ampliamente disponible; estaciones de servicio y hoteles de Lagos y Calabar permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4432,3.6011">Google Maps</a>]]></description>
+    <name>Combustible · Ikom (último antes de Camerún)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última estación formal fiable antes de Mfum/Ekok y de todo el tramo camerunés de Mamfe-Kumba, donde el suministro puede estar interrumpido por la situación de seguridad. Salir de Ikom con depósitos y garrafas llenos.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.9667,8.7">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.7,5.9667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Ogoja / Abakaliki / Enugu (corredor de subida)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en el eje Ikom-Ogoja-Abakaliki-Enugu-Onitsha de la subida. Evitar comprar en bidones a pie de carretera: es práctica habitual en el norte de Cross River pero la calidad del gasóleo es imprevisible.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3249,8.1137">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.1137,6.3249,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Lagos, Benin City, Calabar</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa («pure water») disponible en cualquier parte y a precio bajo. Para el depósito de uso general: estaciones de servicio grandes, hoteles con aparcamiento y el Marina Resort de Calabar permiten llenar con manguera; pedirlo en recepción y pagar la propina habitual.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4541,3.3947">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>3.6011,6.4432,0</coordinates></Point>
+    <Point><coordinates>3.3947,6.4541,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · Ikom y Obudu</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Últimas recargas cómodas de cada corredor antes de los tramos de frontera. En el interior de Cross River el agua es de pozo o de perforación: tratarla siempre.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.9667,8.7">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.7,5.9667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Ekok/Mfum (desde Nigeria)</name>
