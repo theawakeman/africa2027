@@ -7,32 +7,151 @@
   <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
-    <name>Limbe (Centro de Fauna y Down Beach)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Ciudad costera a los pies del monte Camerún, con el Limbe Wildlife Centre (santuario de primates rescatados del tráfico de carne de animales silvestres) y playas volcánicas de arena negra; primera gran base de servicios <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.0186,9.2054">Google Maps</a>]]></description>
+    <name>Mamfe (paso obligado de entrada)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital del departamento de Manyu, a 70 km del paso de Ekok/Mfum y primera población camerunesa de la ruta. Está en pleno corazón de la crisis anglófona: es nudo de la carretera Ekok-Bamenda y ha sufrido enfrentamientos,<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.75,9.3167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.3167,5.75,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kumba y el lago cratérico de Barombi Mbo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900" width="320"/><br/><b>Baja · Naturaleza</b><br/>Kumba es la mayor ciudad del interior de la región Suroeste y el segundo punto caliente del tránsito de entrada. A 5 km al norte está el lago Barombi Mbo, un lago cratérico volcánico de unos 2,5 km de diámetro y más de 1<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.6667,9.4167">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.4167,4.6667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Limbe · playas de arena negra y Wildlife Centre</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>Ciudad costera a los pies del monte Camerún, con playas de arena negra volcánica (Down Beach, Mile 6, Seme Beach) donde la lava llegó literalmente al mar, y el Limbe Wildlife Centre, santuario de gorilas, chimpancés, dri<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.0186,9.2054">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.2054,4.0186,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Kribi (Chutes de la Lobé)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Una de las pocas cascadas del mundo que cae directamente al mar; playas de arena blanca y aguas tranquilas, con Kribi como referencia de descanso y de la mejor oferta de pescado fresco de la costa camerunesa.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.9098,9.8973">Google Maps</a>]]></description>
+    <name>Monte Camerún (4.095 m) · «Mount Fako»</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El techo del África occidental y uno de los volcanes más activos del continente (erupciones en 1999, 2000 y 2012), que se levanta desde el nivel del mar hasta 4.095 m en apenas 25 km horizontales: de selva a páramo alpin<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.2033,9.1706">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>9.8973,2.9098,0</coordinates></Point>
+    <Point><coordinates>9.1706,4.2033,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Duala</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital económica, mayor puerto de África central y la mejor plaza del país para talleres, recambios, neumáticos y soldadura, además de aeropuerto internacional. Es también el punto donde se sale de la región anglófona y<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.0483,9.7043">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.7043,4.0483,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kribi</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>La mejor playa de Camerún: arena blanca, cocoteros y un mar tranquilo, con la mejor oferta de pescado y marisco a la brasa de la costa (los «kilomètres» de chiringuitos al sur del pueblo). Puerto de aguas profundas al no<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.9369,9.9096">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.9096,2.9369,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas de la Lobé</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>A 8 km al sur de Kribi, el río Lobé se descuelga en una cortina de saltos de unos 20 m que caen DIRECTAMENTE sobre el Atlántico: uno de los dos o tres únicos sitios del mundo (y el único de África) donde una catarata des<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.85,9.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.8833,2.85,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Campo Ma'an</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>2.640 km² de selva atlántica costera en el extremo suroeste, entre el mar y la frontera de Guinea Ecuatorial, creado como compensación ambiental del oleoducto Chad-Camerún. Elefantes de bosque, gorilas de llanura occiden<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.3667,10.1">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.1,2.3667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sangmélima</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital del departamento de Dja-et-Lobo y ÚLTIMA plaza de servicios reales (combustible formal, taller, hospital, banco, mercado) antes de los 325 km del corredor Ketta-Djoum hacia la frontera del Congo. Punto de no reto<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.9333,11.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.9833,2.9333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reserva de Fauna del Dja (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>5.260 km² de selva tropical húmeda casi intacta, rodeada en el 90 % de su perímetro por el meandro del río Dja, Patrimonio Mundial de la UNESCO desde 1987 y Reserva de la Biosfera. Una de las mayores y mejor conservadas <br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.1,12.8">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.8,3.1,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Djoum · cabecera de la carretera Ketta-Djoum</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Pueblo de la selva del sur, a 120 km de Sangmélima, que da nombre al corredor internacional Ketta-Djoum (Camerún-Congo). Últimas garrafas, últimos víveres y última cobertura móvil fiable antes de Mintom y de la frontera <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.6667,12.6667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.6667,2.6667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Yaundé</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital política, sede de la embajada de España y mayor base administrativa y logística del interior del país, asentada sobre siete colinas; punto de paso obligado antes de continuar hacia Gabón o la República del Congo.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.848,11.5021">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital política, asentada sobre siete colinas a 750 m de altitud, con un clima mucho más llevadero que Duala. Embajada de España, resto de embajadas del tramo centroafricano (Congo, RD Congo, Gabón), Hôpital Central y H<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.848,11.5021">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>11.5021,3.848,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Duala</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital económica y mayor puerto del país; talleres, recambios y aeropuerto internacional, aunque con más tráfico, calor húmedo y menor tranquilidad que Limbe o Kribi para pernoctar.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.0483,9.7043">Google Maps</a>]]></description>
+    <name>Moloundou y el río Ngoko</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Último pueblo del extremo sureste de Camerún, sobre el río Ngoko, que aquí hace de frontera con el Congo. El puesto fronterizo de Socambo, unos kilómetros aguas abajo, es el paso fluvial hacia Ouesso: cruce en barcaza o <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.0333,15.2">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>9.7043,4.0483,0</coordinates></Point>
+    <Point><coordinates>15.2,2.0333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Lobéké y los baka</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>2.170 km² de selva del Congo en el extremo sureste, parte del Trinacional de la Sangha (Patrimonio Mundial de la UNESCO junto con Nouabalé-Ndoki en Congo y Dzanga-Sangha en la República Centroafricana). Su mayor atractiv<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.3,15.6167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.6167,2.3,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Yokadouma</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital del departamento de Boumba-et-Ngoko y única plaza con servicios (combustible formal irregular, taller elemental, hospital de distrito, misión católica) en los 500 km de selva entre Moloundou y Bertoua. Base logís<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.5167,15.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.05,3.5167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bertoua</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital de la región del Este y primera ciudad grande al salir de la selva: combustible garantizado, bancos con cajeros, hospital regional, hoteles con aparcamiento y el reencuentro con el asfalto continuo hacia Yaundé. <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.5833,13.6833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.6833,4.5833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mefou · santuario de primates (Ape Action Africa)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>A unos 45 km al sur de Yaundé, dentro del Parque Nacional de Mefou, el santuario de Ape Action Africa acoge más de 300 primates rescatados del tráfico: gorilas de llanura occidental, chimpancés, mandriles, drills y varia<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.6167,11.6">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.6,3.6167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Foumban · palacio del sultán bamún</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>Capital histórica del reino bamún, una de las monarquías tradicionales vivas más importantes de África occidental y central, con una dinastía documentada desde el siglo XIV. El Palacio Real (1917, de ladrillo, inspirado <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.7167,10.9">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.9,5.7167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chefferie de Bandjoun (Bafoussam)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>La más célebre de las chefferies bamileké del país de las Praderas: un conjunto de casas-palacio de planta cuadrada con altísimos techos cónicos de paja y fachadas de postes tallados, alineadas tras una gran plaza ceremo<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.3667,10.4167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.4167,5.3667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dschang y las cataratas de la Métché</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Dschang, a 1.400 m en las montañas bamileké, es la ciudad de clima más agradable de Camerún (los alemanes y luego los franceses la usaron como estación de altura) y base del célebre «Centre Climatique». A 12 km, las cata<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.45,10.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.05,5.45,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas de Ekom-Nkam y monte Manengouba</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Las cataratas de Ekom-Nkam, cerca de Melong, caen 80 m en un anfiteatro de selva primaria y son famosas por haber sido el escenario de la película «Greystoke: la leyenda de Tarzán» (1984); sendero escalonado hasta el mir<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.0833,9.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.9167,5.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Libreville (Boulevard de l'Indépendance)</name>
@@ -84,25 +203,88 @@
     <Point><coordinates>15.2429,-4.2634,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Kinshasa (orilla del río Congo)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital y megaciudad del país, frente a Brazzaville al otro lado del río Congo; embajada de España, aeropuerto internacional y mejor oferta de talleres del tramo, aunque con tráfico denso y logística exigente.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.4419,15.2663">Google Maps</a>]]></description>
+    <name>Kinshasa (Gombe y la orilla del río Congo)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Megaciudad de más de 17 millones de habitantes y una de las mayores del mundo, separada de Brazzaville por solo 4 km de río: son las dos capitales más próximas del planeta que no comparten el mismo país. El barrio de la <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.3276,15.3136">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.2663,-4.4419,0</coordinates></Point>
+    <Point><coordinates>15.3136,-4.3276,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Boma</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boma%20DR%20Congo.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Antigua capital colonial del Congo Belga (hasta 1926), con arquitectura de la época y el gran baobab histórico junto al río; parada intermedia en el descenso hacia la costa.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.85,13.05">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-ambar</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>13.05,-5.85,0</coordinates></Point>
+    <name>Marché Central de Kinshasa (Zando)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Central%20Market%2C%20Kinshasa%2C%20ZNTO.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>El «Zando», el gran mercado central de Kinshasa, en pleno centro: decenas de miles de puestos, telas de wax, pescado seco, fruta, herramientas y electrónica de segunda mano. Es el retrato más directo de la ciudad y el me<br/><b>Perro:</b> no recomendado — dejarlo en el vehículo<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.3243,15.311">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.311,-4.3243,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Matadi (puente Maréchal Mobutu)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matadi%20Bridge%20DR%20Congo.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Principal puerto fluvial del país sobre el río Congo, con el mayor puente colgante de África central; última gran plaza de servicios antes del breve tramo costero hacia la frontera de Angola.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8167,13.45">Google Maps</a>]]></description>
+    <name>Rápidos de Kinsuka (Livingstone Falls)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Congo%20River%20from%20Kinshasa%20in%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>A las afueras del oeste de Kinshasa, en la comuna de Ngaliema, el río Congo —el segundo río del mundo por caudal— se estrella contra las rocas al iniciar las cataratas Livingstone, los 350 km de rápidos que lo hacen inna<br/><b>Perro:</b> permitido con correa corta<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.3806,15.2131">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.2131,-4.3806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jardín Botánico de Kisantu</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Entr%C3%A9e%20du%20jardin%20du%20p%C3%A8re%20Gillet%20%C3%A0%20Kisantu%2C%20Bas-Congo.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>A unos 120 km de Kinshasa por la N1, junto a la misión jesuita de Kisantu: 225 hectáreas creadas en 1900 por el hermano Justin Gillet, uno de los jardines botánicos históricos de África y el mejor sitio del corredor para<br/><b>Perro:</b> permitido con correa<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.1349,15.0854">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.0854,-5.1349,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cuevas de Mbanza-Ngungu (grottes de Thysville)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/All%C3%A9e%20au%20jardin%20du%20p%C3%A8re%20Gillet%20%C3%A0%20Kisantu.JPG?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Mbanza-Ngungu, la antigua Thysville colonial, está a unos 700 m de altitud y tiene un clima notablemente fresco para el Congo: fue la estación de altura donde los colonos belgas iban a escapar del calor de Kinshasa y Mat<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.2461,14.8637">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.8637,-5.2461,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Matadi y el puente Maréchal sobre el río Congo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matadi%20Bridge%20DR%20Congo.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Puerto principal del país, encaramado en las laderas empinadísimas de la garganta del Congo a 148 km del mar: por aquí entra casi toda la importación de RD Congo y de aquí sale la caravana de camiones que colapsa la N1. <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8167,13.4833">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>13.45,-5.8167,0</coordinates></Point>
+    <Point><coordinates>13.4833,-5.8167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Boma · antigua capital colonial y el baobab de Stanley</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boma%20DR%20Congo.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>Capital del Estado Libre del Congo y después del Congo Belga entre 1886 y 1926, antes de que el poder se trasladara a Léopoldville (Kinshasa). Conserva un conjunto de arquitectura colonial en madera y hierro prefabricado<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8511,13.0528">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.0528,-5.8511,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Muanda, la desembocadura del Congo y el Parque Marino de los Manglares</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/L'oc%C3%A9an%20atlantique%20vu%20de%20la%20plage%20de%20Muanda.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>RD Congo, un país de 2,3 millones de km², tiene solo unos 37 km de costa atlántica: toda ella aquí, en el territorio de Muanda, al norte de la boca del río Congo. Playas largas de arena, cocoteros, campamentos sencillos <br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.9269,12.3494">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.3494,-5.9269,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chutes de Zongo (río Inkisi)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Zongo%20Falls%201%20(chutes%20de%20Zongo)%20-%20panoramio.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Salto de unos 65 m sobre el río Inkisi, a unas tres horas de Kinshasa por un desvío desde el eje de la N1: la escapada clásica de fin de semana de los kinois y, con diferencia, el mejor sitio de acampada del corredor. Ha<br/><b>Perro:</b> permitido con correa corta<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.0167,14.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.8833,-5.0167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lola ya Bonobo · santuario de bonobos</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bonobo.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>A unos 25 km al sur del centro de Kinshasa, en las Petites Chutes de la Lukaya (Mont Ngafula), el único santuario del mundo dedicado al bonobo: un gran simio que solo existe en RD Congo, al sur del río Congo, y que es el<br/><b>Perro:</b> prohibido — perro fuera del recinto<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.5333,15.3667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.3667,-4.5333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Valle del N'sele (Nsele Valley Park)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bonobo%20at%20Nsele%20Valley%20Park%2C%20Kinshasa%2C%20DR%20Congo.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>En el extremo oriental de la provincia de Kinshasa, donde el río N'sele desemboca en el Congo, hay un espacio privado de conservación con sabana, galería fluvial y fauna reintroducida (antílopes, primates, aves acuáticas<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.3667,15.5833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.5833,-4.3667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rumba congoleña en directo (Kinshasa)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bakolo%20Music%20International%2C%20the%20oldest%20traditional%20congolese%20rumba%20music%20group%20during%20a%20rehearsal%20In%20Kinshasa.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>La rumba congoleña está inscrita en la Lista Representativa del Patrimonio Cultural Inmaterial de la UNESCO desde 2021, y Kinshasa es su capital mundial: de aquí salieron Franco Luambo y el TPOK Jazz, Tabu Ley Rochereau,<br/><b>Perro:</b> no recomendado — dejarlo en el alojamiento<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.335,15.286">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.286,-4.335,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Luanda</name>
