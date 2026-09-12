@@ -515,6 +515,7 @@ def render_perro():
     """Sección propia del perro, generada desde docs/DOSSIER_PERRO.md.
     El markdown es la fuente única: se actualiza ese archivo y la página sale sola."""
     from md_mini import md_to_html, md_headings
+    from enlaza_paises import enlazar, indice_paises
     root = "../"
     md = PERRO_MD.read_text(encoding="utf-8") if PERRO_MD.exists() else "# Dossier del perro\n\nPendiente."
 
@@ -553,7 +554,8 @@ def render_perro():
         "<strong>[SIN CONFIRMAR]</strong> (las fuentes se contradicen o callan). Lo que no se sabe se dice "
         "que no se sabe, y se indica a quién hay que escribir para cerrarlo.", raw=True)
 
-    body = nav + hero + '<main>' + leyenda + md_to_html(md, base_level=2) + "</main>"
+    cuerpo = enlazar(md_to_html(md, base_level=2), root)
+    body = nav + hero + "<main>" + leyenda + indice_paises(root) + cuerpo + "</main>"
     return page(root, "El perro · África 2027", body)
 
 # ---------------------------------------------------------------- docs page
