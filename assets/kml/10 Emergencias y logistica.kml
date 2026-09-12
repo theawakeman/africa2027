@@ -1464,8 +1464,15 @@
     <Point><coordinates>36.7867,-2.545,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Moyale (hacia Etiopía)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Extremo norte del corredor desértico; carretera asfaltada (A2) completada en los últimos años, aunque la zona requiere revalidación de seguridad 30-60 días antes por el contexto fronterizo con Etiopía y Somalia.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.5228,39.0556">Google Maps</a>]]></description>
+    <name>Frontera · Salida — Lunga Lunga/Horohoro (hacia Tanzania)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso COSTERO al sur de Diani, distinto del de entrada: puesto de ventanilla única moderno y abierto 24 horas, que enlaza directamente con Tanga y el corredor costero tanzano. Es la salida del punto más oriental del viaje y el inicio del regreso.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.5583,39.1167">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.1167,-4.5583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Moyale · frontera con Etiopía (FUERA de la ruta)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Se mantiene como referencia informativa: la ruta confirmada NO continúa hacia el Cuerno de África. Desde Kenia el viaje da la vuelta y regresa por Tanzania.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.5228,39.0556">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>39.0556,3.5228,0</coordinates></Point>
@@ -1479,21 +1486,21 @@
   </Placemark>
   <Placemark>
     <name>Aga Khan University Hospital / Nairobi Hospital</name>
-    <description><![CDATA[<b>Hospital</b><br/>Referencia sanitaria de mayor nivel del corredor de regreso completo; buen momento para revisiones médicas antes del tramo final hacia Etiopía.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2667,36.8083">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>La mejor referencia sanitaria de todo el bucle sur y este: buen momento para revisiones médicas y para reponer botiquín antes de emprender el regreso.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2667,36.8083">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.8083,-1.2667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Nairobi / Nanyuki / Isiolo</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (Shell, TotalEnergies, Rubis) en todo el eje sur-norte hasta Isiolo; a partir de Marsabit, repostar a fondo antes del tramo desértico hacia Moyale.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2864,36.8172">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (Shell, TotalEnergies, Rubis) en todo el eje central hasta Isiolo; a partir de Marsabit hay que repostar a fondo antes del bucle desértico de Chalbi y Turkana, donde solo hay combustible de bidón.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2864,36.8172">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.8172,-1.2864,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Nairobi</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Nairobi; talleres y campings de Nanyuki e Isiolo permiten llenar el depósito de uso general con manguera. En Marsabit y el corredor hacia Moyale, cargar el depósito a tope antes de salir de Isiolo.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2864,36.8172">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Nairobi; talleres y campings de Nanyuki e Isiolo permiten llenar el depósito de uso general con manguera. Para el bucle del norte, cargar a tope en Isiolo y de nuevo en Marsabit.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2864,36.8172">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.8172,-1.2864,0</coordinates></Point>
