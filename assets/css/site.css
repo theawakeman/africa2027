@@ -96,8 +96,6 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .poi-card { background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
 .poi-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
 /* Enlaces a fichas de país desde la sección del perro */
-.paislink { color:inherit; text-decoration:none; border-bottom:1px dotted #1E7A8A; }
-.paislink:hover { color:#1E7A8A; border-bottom-style:solid; }
 /* Referencias externas detectadas automáticamente: URL, dominio, correo o fuente */
 a.fuente { color:#0F5F6E; text-decoration:none; border-bottom:1px solid rgba(15,95,110,.35);
            word-break:break-word; }
@@ -107,12 +105,6 @@ a.fuente::after { content:"97"; font-size:.72em; margin-left:.12em; opacity:.55
 a.fuente[href^="mailto:"]::after { content:"¸9"; vertical-align:baseline; margin-left:.2em; }
 code a.fuente { border-bottom:none; }
 code a.fuente::after { opacity:.45; }
-.paisidx { margin:0 0 22px; padding:14px 16px; background:#f4f7f8; border:1px solid #dde5e8; border-radius:10px; }
-.paisidx-lab { display:block; font-size:12px; text-transform:uppercase; letter-spacing:.06em;
-  color:#5c6b72; margin-bottom:9px; }
-.paischip { display:inline-block; margin:0 6px 6px 0; padding:4px 10px; font-size:13px;
-  background:#fff; border:1px solid #cfdade; border-radius:999px; color:#1E7A8A; text-decoration:none; }
-.paischip:hover { background:#1E7A8A; border-color:#1E7A8A; color:#fff; }
 .poi-noimg { width:100%; aspect-ratio:16/9; display:flex; align-items:center; justify-content:center;
   background:repeating-linear-gradient(45deg,#eceff1,#eceff1 10px,#e3e7ea 10px,#e3e7ea 20px);
   color:#7a848a; font-size:12px; letter-spacing:.04em; text-align:center; padding:0 14px; }
