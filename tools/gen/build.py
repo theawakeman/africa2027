@@ -32,7 +32,7 @@ import data_mauritania
 from data_countries import C, GROUP_LABELS
 
 VERSION = datetime.datetime.now().strftime("%Y%m%d-%H%M")
-TODAY = "8 de septiembre de 2026"
+TODAY = "12 de septiembre de 2026"
 SITE_URL = "https://theawakeman.github.io/africa2027/"
 
 FULL = {"senegal": data_senegal.get_data(), "mauritania": data_mauritania.get_data()}
@@ -555,17 +555,26 @@ def render_cpd():
     n_obl = sum(1 for v in en_ruta.values() if v[0] == "obligatorio")
     n_rec = sum(1 for v in en_ruta.values() if v[0] == "recomendable")
     n_no = sum(1 for v in en_ruta.values() if v[0] == "no")
+    n_disp = sum(1 for v in en_ruta.values() if v[1] == "EN DISPUTA")
+
+    def _lista(nivel):
+        noms = [nombres.get(s, s) for s, v in en_ruta.items() if v[0] == nivel]
+        return ", ".join(noms[:-1]) + (" y " if len(noms) > 1 else "") + noms[-1] if noms else "ninguno"
 
     conclusion = callout("warn", "La respuesta corta",
-        f"<p>De los {len(en_ruta)} países de la ruta, <strong>{n_obl} exige CPD</strong> (Kenia), "
-        f"<strong>{n_rec} son recomendables</strong> (Senegal, Ghana y Sudáfrica) y "
+        f"<p>De los {len(en_ruta)} países de la ruta, <strong>{n_obl} exige CPD</strong> ({_lista('obligatorio')}), "
+        f"<strong>{n_rec} son recomendables</strong> ({_lista('recomendable')}) y "
         f"<strong>{n_no} no lo necesitan</strong>: se resuelven con un permiso temporal en la frontera.</p>"
-        "<p><strong>Cuidado: en cuatro países las fuentes no coinciden</strong>, y ahí la tabla de abajo "
-        "recoge las dos versiones en vez de elegir por ti. El punto que decide casi siempre es el mismo: "
-        "<strong>si el vehículo entra por tierra o llega en barco</strong>. Las listas de los emisores de "
-        "carnets no hacen esa distinción; las aduanas de destino, sí.</p>"
-        "<p>En dos países —<strong>Uganda y Mozambique</strong>— el carnet <strong>ni siquiera se "
-        "acepta</strong>, y en <strong>Angola</strong> puede complicar el paso en vez de facilitarlo.</p>",
+        f"<p><strong>Cuidado: en {n_disp} países las fuentes no coinciden</strong> (Sudáfrica, Nigeria y "
+        "Gambia), y ahí la tabla de abajo recoge las dos versiones en vez de elegir por ti. En Sudáfrica el "
+        "desacuerdo no es tierra-frente-a-barco: es que la aduana publica un permiso gratuito que no nombra "
+        "el carnet y el emisor alemán (ADAC) dice que ese permiso no lo sustituye. En Nigeria, el propio "
+        "comunicado de aduanas de enero de 2026 lista el CPD entre los papeles a presentar.</p>"
+        "<p>En dos países —<strong>Uganda y Mozambique</strong>— el carnet <strong>no sirve de nada</strong> "
+        "(Uganda no lo reconoce; Mozambique exige TIP igualmente), y en <strong>Angola</strong> puede "
+        "complicar el paso en vez de facilitarlo.</p>"
+        "<p class=\"figcap\">Contenido auditado el 12-09-2026 contra las fuentes originales; casi todos los "
+        "importes de África occidental y central son de un único relato de 2023 y se marcan así.</p>",
         raw=True)
 
     disputa = ('<section id="disputa"><h2>Dónde las fuentes no coinciden</h2>'
@@ -574,34 +583,53 @@ def render_cpd():
         + table(["País", "Dice el emisor del carnet", "Dice la aduana del país", "Cómo se ha clasificado aquí"], [
             ["<strong>Sudáfrica</strong>",
              "<strong>RACE:</strong> figura en su lista de países en los que el CPD «es requerido». "
-             "No distingue tierra de barco.",
-             "<strong>SARS</strong> publica un régimen de importación temporal (TIP de 6 meses, gratuito) "
-             "que no menciona carnet. La <strong>AA de Sudáfrica</strong>, que es el emisor de carnets del "
-             "país, dice que el CPD es «obligatorio para Egipto y Kenia y recomendable fuera de la SACU».",
-             "<strong>Recomendable</strong>, no resuelto. Se sigue al emisor hasta tener respuesta escrita "
+             "<strong>ADAC</strong> (02-06-2026): la declaración de viajero de SARS «does not replace the "
+             "Carnet»; para vehículos de fuera de la SACU el carnet «remains mandatory»; sin él, TIP con "
+             "depósito del arancel y agente aduanero. La <strong>AA de Sudáfrica</strong> dice «obligatorio "
+             "para Egipto y Kenia, recomendable fuera de la SACU», pero escribe para sudafricanos que salen.",
+             "<strong>SARS</strong> publica desde el 1 de junio de 2026 un TIP de 6 meses, multientrada y "
+             "gratuito, declarado en el Traveller Management System, sin exención SACU. Sus páginas no "
+             "mencionan el carnet; su política de carnets (SC-TA-01-04, 2024) sigue vigente.",
+             "<strong>Recomendable</strong>, casi obligatorio. Nadie ha contado una entrada terrestre "
+             "sin carnet después del 1 de junio de 2026. Se sigue al emisor hasta tener respuesta escrita "
              "de SARS, porque el coste de equivocarse en frontera es mucho mayor que el del carnet."],
             ["<strong>Kenia</strong>",
              "<strong>RACE</strong> y <strong>AA de Sudáfrica</strong> coinciden: requerido / obligatorio.",
-             "La <strong>KRA</strong> se contradice consigo misma: el aviso 774 (2017) exige CPD a "
-             "vehículos de fuera de la EAC/COMESA; el 1870, posterior, abre la vía del Form C32 sin carnet.",
+             "La <strong>KRA</strong> tiene dos avisos que no casan: el 774 (efectivo 15-12-2017) exige "
+             "carnet a vehículos de fuera de la EAC/COMESA; el 1870 (sin fecha visible) admite «Form C32 "
+             "or carnet» y da 14 días gratis. En el mostrador la discuten: hay relato de rechazo del C32 "
+             "impreso en Loitoktok.",
              "<strong>Obligatorio.</strong> Dos emisores independientes lo dicen y la alternativa depende "
              "de un aviso que el funcionario de turno puede no aplicar."],
-            ["<strong>Nigeria y Tanzania</strong>",
-             "<strong>No aparecen</strong> en la lista del RACE. Su fama viene de la lista de Horizons "
-             "Unlimited, que es de países que lo <em>aceptan</em>.",
-             "Nigeria lanzó en enero de 2026 un permiso electrónico que menciona el CPD solo «si procede». "
-             "Tanzania emite TIP en frontera.",
-             "<strong>No necesario.</strong> Aquí las fuentes sí coinciden; lo que estaba mal era la "
-             "página de Documentación general de esta app, ya corregida."],
+            ["<strong>Nigeria</strong>",
+             "<strong>No aparece</strong> en la lista del RACE. Horizons Unlimited la pone en su tabla de "
+             "países que lo <em>exigen</em>.",
+             "El comunicado oficial del Nigeria Customs Service (07-01-2026) crea un permiso de admisión "
+             "temporal de 90 + 30 días y lista el CPD entre los documentos a presentar en frontera. En "
+             "2023, antes de ese permiso, un overlander entró sin carnet y gratis.",
+             "<strong>Recomendable, en disputa.</strong> Con carnet, permiso y carnet; sin carnet, nadie "
+             "ha documentado que lo concedan desde 2026."],
+            ["<strong>Gambia</strong>",
+             "Horizons Unlimited la pone en su tabla de países que lo <em>exigen</em>.",
+             "La Gambia Revenue Authority dice que «for foreigners, a carnet de passage has to be "
+             "obtained»; en la práctica un overlander sin carnet pagó 11 USD de TIP (2023).",
+             "<strong>Recomendable, en disputa.</strong> Solo se cruza en la subida."],
+            ["<strong>Tanzania</strong>",
+             "No aparece en la lista del RACE; sí en la tabla de países que lo <em>exigen</em> de Horizons "
+             "Unlimited.",
+             "TIP en frontera sin carnet documentado (2018, 2025).",
+             "<strong>No necesario.</strong> La práctica de campo pesa más que una tabla sin fecha."],
         ])
         + callout("warn", "Lo que hay que preguntar, y a quién",
+            "<p><strong>A SARS:</strong> si un vehículo español que entra por un paso terrestre obtiene el "
+            "TIP del Traveller Management System sin garantía, o necesita carnet o depósito. Es la pregunta "
+            "que resuelve el caso. Pedir la respuesta por escrito y llevarla encima.</p>"
             "<p><strong>Al RACE:</strong> si su lista distingue entre entrar por tierra y embarcar el "
-            "vehículo, y en qué se basa para Sudáfrica. Es la pregunta que resuelve el caso.</p>"
-            "<p><strong>A SARS:</strong> si un vehículo español que entra por un paso terrestre necesita "
-            "CPD o le basta el TIP del Traveller Management System. Pedir la respuesta por escrito y "
-            "llevarla encima.</p>"
+            "vehículo, si tramita a distancia, y en qué se basa para Sudáfrica.</p>"
             "<p><strong>A la KRA:</strong> si el Form C32 sigue disponible para un vehículo europeo, "
-            "citando el aviso 1870.</p>", raw=True)
+            "citando el aviso 1870.</p>"
+            "<p><strong>Al Nigeria Customs Service:</strong> si el Temporary Vehicle Admission Permit se "
+            "concede sin CPD.</p>", raw=True)
         + '</section>')
 
     # --- mapa
@@ -622,8 +650,9 @@ def render_cpd():
 
     mapa = (f'<div id="cpdmap" class="mapbox tall"></div>{leyenda}'
             '<p class="figcap">Toca cualquier país coloreado para ver su situación. '
-            'Egipto y Libia salen en rojo pero <strong>no están en la ruta</strong>: se incluyen porque son '
-            'los únicos sitios de África donde el carnet es de verdad obligatorio.</p>')
+            'Egipto y Libia salen en rojo pero <strong>no están en la ruta</strong>: Egipto es el caso '
+            'clásico de carnet obligatorio y Libia figura en la lista del RACE sin ninguna fuente actual '
+            'que lo confirme.</p>')
 
     # --- tablas por nivel
     def tabla(nivel):
@@ -643,8 +672,9 @@ def render_cpd():
          "Los emisores de carnets lo dan por exigido y la alternativa, si existe, depende de que el "
          "funcionario aplique un aviso interno. No es sitio para improvisar."),
         ("recomendable", "recomendable", "Naranja — recomendable, no obligatorio",
-         "Se entra sin carnet, pero llevarlo ahorra dinero, tiempo o una discusión en el mostrador. "
-         "Son tres, y conviene leer el detalle de cada uno antes de decidir."),
+         "Se entra sin carnet, pero llevarlo ahorra dinero, tiempo o una discusión en el mostrador; en los "
+         "marcados «en disputa» ni siquiera está claro que se entre sin él. Conviene leer el detalle de "
+         "cada uno antes de decidir."),
         ("no", "no", "Verde — no necesario",
          "Se resuelve en la propia frontera con un permiso temporal. En algunos el carnet ni se acepta."),
     ]:
@@ -658,37 +688,47 @@ def render_cpd():
                'y se pierden si el carnet vuelve sin cerrar correctamente.</p>'
              + callout("warn", "Comparación directa",
                        "Las tasas de entrada de <strong>todos</strong> los países de la ruta suman del orden "
-                       "de <strong>700-900 €</strong>, y la mitad son Ghana y Senegal. El CPD cuesta ~330 € "
-                       "más 2.780 € retenidos, y aun así <strong>habría que pagar igualmente</strong> casi "
-                       "todas las tasas de carretera, carbono y seguro, que no son aduaneras.")
+                       "de <strong>700-900 €</strong> (cifras casi todas de 2023), y la mitad son Ghana y "
+                       "Senegal. El CPD cuesta ~330 € más 2.780 € retenidos, y aun así <strong>habría que "
+                       "pagar igualmente</strong> casi todas las tasas de carretera, carbono y seguro, que "
+                       "no son aduaneras.")
              + '</section>')
 
     decision = ('<section id="decision"><h2>Cómo se decide</h2>'
         + bullets([
-            "**La pregunta no es «¿lo piden?», sino «¿entra o sale el coche en barco?»** Por tierra no hace "
-            "falta en ningún país de la ruta. Si al final se embarca el vehículo de vuelta desde Durban, "
-            "Ciudad del Cabo o Walvis Bay, el carnet pasa a ser muy recomendable para el despacho portuario "
-            "— y **emitirlo desde África es inviable**. Es una decisión que hay que tomar antes de salir.",
-            "**Senegal se resuelve por la ruta, no por el papel.** Entrar por Diama en vez de Rosso, o desde "
-            "Mali por Kidira, evita el problema de la edad del vehículo sin pagar nada.",
-            "**Ghana es el único gasto grande inevitable** sin carnet: ~490 USD. Con CPD, no. Por sí solo "
+            "**Por tierra, tres países de la ruta exigen o probablemente exigen el carnet:** Kenia (los dos "
+            "emisores coinciden), Nigeria (el comunicado de aduanas de 2026 lo lista como documento a "
+            "presentar) y Sudáfrica (según el ADAC, obligatorio para vehículos de fuera de la SACU; SARS no "
+            "lo aclara). El resto se resuelve con un permiso temporal en frontera.",
+            "**Si además se embarca el vehículo** de vuelta desde Durban, Ciudad del Cabo o Walvis Bay, el "
+            "carnet pasa a ser muy recomendable para el despacho portuario, y **emitirlo desde África es "
+            "inviable en la práctica** (el RACE solo expide a matrícula española y exige aval bancario; "
+            "no dice nada de tramitar a distancia: preguntarlo). Es una decisión que hay que tomar antes de salir.",
+            "**Senegal no se resuelve por la ruta:** la aduana aplica la norma de los 8 años tanto en Rosso "
+            "como en Diama (250 € documentados en Diama hasta 2026). Con vehículo de 8 años o menos, "
+            "passavant de 5.000 FCFA y a seguir; si lo supera, 250 € o entrar desde Mali por Kidira (dato "
+            "de 2017). Con carnet también se paga el passavant y hay que sellar en Dakar.",
+            "**Ghana es el gasto grande evitable** sin carnet: ~490 USD (2023). Con CPD, no. Por sí solo "
             "no justifica el aval, pero es la mitad del argumento.",
-            "**Kenia se cubre con papeles, no con carnet:** cuenta eCitizen hecha de antemano, el aviso 1870 "
-            "de la KRA impreso, y una respuesta por escrito de la KRA guardada en el móvil y en papel.",
-            "**En Uganda, Mozambique y Angola el carnet no ayuda.** En los dos primeros no se acepta; en "
-            "Angola, un sello mal puesto es justo lo que hace perder el aval.",
+            "**Kenia se cubre con papeles, no con carnet, solo si se acepta el riesgo de que los discutan:** "
+            "cuenta eCitizen hecha de antemano, el aviso 1870 de la KRA impreso, y una respuesta por "
+            "escrito de la KRA guardada en el móvil y en papel.",
+            "**En Uganda, Mozambique y Angola el carnet no ayuda.** Uganda no lo reconoce, Mozambique exige "
+            "TIP igualmente; en Angola, un sello mal puesto es justo lo que hace perder el aval.",
         ], bold_split=True)
         + callout("warn", "Veredicto para esta ruta",
-                  "<p><strong>Con Kenia en la ruta, la balanza se inclina a emitirlo.</strong> Es el único "
-                  "país en el que los dos emisores consultados coinciden en que se exige, y sumado a "
-                  "Ghana (490 USD de permiso sin carnet), a Senegal y a la duda abierta de Sudáfrica, el "
-                  "carnet deja de ser un gasto evitable.</p>"
-                  "<p><strong>Sin Kenia</strong> —si el bucle oriental se recorta— la respuesta cambia: "
-                  "el resto se resuelve con permisos de frontera y no compensa inmovilizar 2.780 €.</p>"
-                  "<p>Y en cualquiera de los dos casos: si se embarca el vehículo de vuelta desde Durban, "
+                  "<p><strong>Con Kenia en la ruta, la balanza se inclina claramente a emitirlo.</strong> "
+                  "Es el país en el que los dos emisores consultados coinciden en que se exige, y a él se "
+                  "suman ahora Nigeria (documento exigido por el texto oficial de 2026), Sudáfrica (el ADAC "
+                  "lo da por obligatorio y SARS no lo desmiente), Ghana (490 USD de permiso sin carnet) y "
+                  "Senegal. El carnet deja de ser un gasto evitable.</p>"
+                  "<p><strong>Sin Kenia</strong> —si el bucle oriental se recorta— la balanza sigue "
+                  "inclinada por Nigeria y Sudáfrica, que se cruzan igualmente; solo si además se evitaran "
+                  "esos dos compensaría no inmovilizar 2.780 €.</p>"
+                  "<p>Y en cualquiera de los casos: si se embarca el vehículo de vuelta desde Durban, "
                   "Ciudad del Cabo o Walvis Bay, el carnet hace falta para el despacho portuario y "
                   "<strong>emitirlo desde África es inviable</strong>.</p>"
-                  "<p>Lo que no cambia: en Uganda y Mozambique el carnet no se acepta, y en Angola un "
+                  "<p>Lo que no cambia: en Uganda y Mozambique el carnet no sirve, y en Angola un "
                   "sello mal puesto es lo que hace perder el aval. Llevarlo no exime de vigilarlo.</p>",
                   raw=True)
         + '</section>')
@@ -698,10 +738,13 @@ def render_cpd():
                           for n, u, t in FUENTES])
                + callout("warn", "Por qué circulan tantas listas contradictorias",
                          "Casi todas las listas de «países que exigen carnet» que se encuentran por internet "
-                         "descienden de la de Horizons Unlimited, que lleva escrito encima, en mayúsculas, que "
-                         "es una lista de países que lo <strong>aceptan</strong>. Quien la copia sin la nota "
-                         "convierte «puedes» en «debes». Cuando una lista y la aduana del país se contradicen, "
-                         "aquí se ha conservado la aduana.", raw=True)
+                         "descienden de Horizons Unlimited, que publica dos tablas: una de países donde "
+                         "<strong>se puede</strong> usar el carnet y otra, «to the best of our knowledge» y sin "
+                         "fecha, de países donde <strong>se exige</strong>. La segunda incluye Guinea, Gambia, "
+                         "Nigeria, Tanzania, Kenia y la SACU, y en varios de ellos la práctica de los permisos "
+                         "temporales la ha dejado atrás. Cuando una lista y la aduana del país se contradicen, "
+                         "aquí se ha conservado la aduana; cuando la aduana calla y el emisor habla, se ha "
+                         "conservado el emisor.", raw=True)
                + '</section>')
 
     body = (nav + hero + '<main style="max-width:1200px">' + conclusion + mapa + bloques
@@ -784,27 +827,30 @@ def render_docs():
         "países; el detalle país por país, con su color y su alternativa, está en "
         f'<a href="{root}cpd/">la sección CPD</a>.</strong></p>'
         + callout("warn", "Lo que hay que saber antes de decidir",
-            "<p>De los 32 países de la ruta, <strong>uno lo exige</strong> (Kenia), <strong>tres son "
-            "recomendables</strong> (Senegal, Ghana y Sudáfrica) y <strong>el resto se resuelve con un "
-            "permiso temporal en la propia frontera</strong>.</p>"
-            "<p><strong>Sudáfrica está en disputa:</strong> el RACE la incluye en su lista de países en "
-            "los que el CPD «es requerido»; SARS y la Automobile Association sudafricana dicen que por "
-            "tierra basta el permiso temporal. La lista del RACE no distingue entrar por tierra de "
-            "llegar en barco, y esa distinción es probablemente toda la explicación.</p>"
-            f'<p>Las dos versiones, y a quién preguntar para cerrarlo, están en '
+            "<p>De los 32 países de la ruta, <strong>uno lo exige</strong> (Kenia), <strong>cinco son "
+            "recomendables</strong> (Senegal, Gambia, Ghana, Nigeria y Sudáfrica; en Sudáfrica, Nigeria y "
+            "Gambia las fuentes se contradicen) y <strong>el resto se resuelve con un permiso temporal en la "
+            "propia frontera</strong>.</p>"
+            "<p><strong>Sudáfrica está en disputa:</strong> SARS publica desde junio de 2026 un permiso "
+            "temporal gratuito de seis meses que no nombra el carnet; el RACE la incluye entre los países "
+            "en los que el CPD «es requerido» y el ADAC afirma que ese permiso «no sustituye al carnet» y que "
+            "sin él hay depósito del arancel. <strong>Nigeria</strong>: el comunicado oficial de aduanas de "
+            "enero de 2026 lista el CPD entre los documentos a presentar.</p>"
+            f'<p>Las versiones enfrentadas, y a quién preguntar para cerrarlo, están en '
             f'<a href="{root}cpd/#disputa">CPD → Dónde las fuentes no coinciden</a>.</p>', raw=True)
         + bullets([
-            "El RACE lo expide en exclusiva en España. Contacto publicado: eloy_gonzalo@race.es · +34 91 594 73 00.",
+            "El RACE lo expide en exclusiva en España y solo a vehículos de matrícula española. Contacto publicado: eloy_gonzalo@race.es · +34 91 594 73 00.",
             "Documentación: permiso de circulación, ficha técnica, DNI del titular, solicitud y aval bancario de validez indefinida.",
             "Aval mínimo de 2.780 € según valor venal GANVAM, emisión de unos 230 €, formatos de 10 o 25 hojas y validez de un año. Pedir presupuesto escrito para cada vehículo.",
             "Cada entrada y salida debe quedar sellada (par completo). Un sello que falte puede bloquear la devolución del aval: comprobarlo antes de salir de cada puesto.",
             "No cerrar el expediente hasta que el CPD vuelva con todos los pares de sellos, especialmente del último país.",
-            "En Uganda y Mozambique el carnet no se acepta, y en Angola un sello mal puesto es justo lo que hace perder el aval. Llevarlo no exime de vigilarlo.",
+            "En Uganda el carnet no se reconoce y en Mozambique el TIP es obligatorio aunque se lleve; en Angola un sello mal puesto es justo lo que hace perder el aval. Llevarlo no exime de vigilarlo.",
             "Si el vehículo se embarca de vuelta desde Durban, Ciudad del Cabo o Walvis Bay, el carnet hace falta para el despacho portuario, y emitirlo desde África es inviable: es una decisión que se toma antes de salir.",
         ])
         + callout("", "Egipto y Libia",
-            "Son los dos únicos países africanos donde el carnet es indiscutiblemente obligatorio, y "
-            "ninguno está en la ruta. De ahí viene su fama.")
+            "Egipto es el caso clásico de carnet obligatorio en África (depósito de hasta el 200 % del valor "
+            "del vehículo sin él); Libia figura en la lista del RACE sin ninguna fuente actual que lo "
+            "confirme. Ninguno está en la ruta.")
     )
     grenadier = (
         "<p>El Ineos Grenadier está a nombre de una empresa: para sacarlo de España, importarlo temporalmente y cruzar fronteras hace falta un paquete de autorización societaria coherente con el CPD.</p>"
@@ -832,28 +878,30 @@ def render_docs():
         "a qué correo se escribe, plazos y dónde puede estar el perro y dónde no— está en "
         f'<a href="{root}perro/">la sección El perro</a>.</strong></p>'
         + callout("warn", "Esto no es un trámite ligero",
-            "<p>De los 22 países de la ruta de ida, <strong>nueve exigen permiso de importación previo "
-            "confirmado por fuente oficial</strong> y cuatro más lo piden con toda probabilidad. Solo "
-            "Marruecos y el Sáhara Occidental no piden ninguno.</p>"
-            "<p>Los permisos se piden <strong>con semanas o meses de antelación</strong>; los "
-            "certificados sanitarios se emiten <strong>en ruta, días antes de cada frontera</strong>, "
-            "porque caducan: Tanzania 10 días, Senegal 21, la mayoría entre 7 y 10.</p>", raw=True)
+            "<p>De los 22 países de la ruta de ida, <strong>doce exigen permiso de importación previo "
+            "confirmado</strong> y dos más lo piden con toda probabilidad; en el resto no hay fuente que lo "
+            "aclare. Solo Marruecos y el Sáhara Occidental no piden ninguno.</p>"
+            "<p>Los permisos se piden <strong>con semanas de antelación</strong>; los certificados "
+            "sanitarios se emiten <strong>en ruta, días antes de cada frontera</strong>, porque caducan: "
+            "en los países francófonos la ventana habitual es de <strong>48-72 horas</strong> (Senegal, "
+            "Benín, Guinea, Mauritania), en el resto entre 7 y 10 días. Los «30 días» que circulan son la "
+            "validez del modelo estadounidense de APHIS, no una norma del país.</p>", raw=True)
         + bullets([
             "Microchip legible y pasaporte europeo. Llevar lector propio: muchos puestos africanos no tienen.",
-            "Vacuna antirrábica **siempre en vigor, sin un solo día de interrupción** durante todo el viaje. Si caduca antes de revacunar, la titulación europea muere y son tres meses de espera en África para poder volver.",
-            "**Titulación de anticuerpos de rabia** hecha en la UE antes de salir y anotada en el pasaporte. Es la llave del retorno: no se repite nunca más mientras la rabia no caduque.",
+            "Vacuna antirrábica **siempre en vigor, sin un solo día de interrupción** durante todo el viaje, y **puesta en España antes de salir**, con validez que cubra hasta después del regreso. No revacunar en África: una vacuna puesta fuera de la UE rompe la vía de vuelta con el pasaporte.",
+            "**Titulación de anticuerpos de rabia** hecha en la UE antes de salir y anotada en el pasaporte. Es la llave del retorno: con rabia y titulación anotadas antes de salir, el perro vuelve **solo con el pasaporte**, sin certificado ni espera de 90 días (Reg. (UE) 2026/131). También la exigen Marruecos (certificado ASE-3131 de salida temporal) y Angola.",
             "**Certificado veterinario internacional para cada frontera**, emitido en el país anterior. No se sacan en España: caducan antes de llegar.",
-            "El certificado de salida de España para Marruecos se tramita por **CEXGAN**, a través del veterinario colegiado. Es la única gestión del viaje que depende de la administración española.",
-            "**Namibia exige cinco serologías negativas** (Brucella canis, Trypanosoma evansi, leishmania, dirofilaria y babesia). Las hechas en España sirven para decidir, no para entrar: hay que contar con repetirlas en Onderstepoort (Pretoria).",
-            "Desparasitación interna y externa al día; prevención de leishmania y dirofilariosis; botiquín canino, bozal y correa de repuesto.",
+            "El certificado de salida de España para Marruecos es el **ASE-3131** (digital desde septiembre de 2025), tramitado por **CEXGAN** a través del veterinario colegiado, con examen clínico en las 24 h previas al ferry. Es la única gestión del viaje que depende de la administración española.",
+            "**Sudáfrica y Namibia exigen cinco serologías negativas** (Brucella canis, Trypanosoma evansi, leishmania, dirofilaria y babesia), con métodos concretos y **hechas en los 30 días previos a la entrada**. Las de España sirven para decidir, no para entrar: se repiten en Sudáfrica (Onderstepoort, Pretoria) antes de Namibia.",
+            "Desparasitación interna y externa al día; prevención de leishmania y dirofilariosis; botiquín canino, bozal (recomendado en fronteras y controles, no exigido) y correa de repuesto.",
             "Regla del proyecto: en cada parque o reserva, estado explícito (permitido / con condiciones / autorización escrita / prohibido / pendiente) y solución de cuidado verificada antes de dar la visita por resuelta. Separación máxima prevista, 2-3 días.",
             "Calor: nunca dejar al perro solo en un vehículo cerrado. Sombra, agua y protección de almohadillas; parar 15 minutos cada dos horas en tramos largos.",
         ], bold_split=False)
         + callout("", "Los dos bloqueos posibles",
             "<p>No es el volumen de papeleo lo que puede tumbar el viaje, sino dos cosas concretas: "
-            "<strong>una leishmania positiva antes de salir</strong>, que cerraría Namibia y "
-            "probablemente Sudáfrica, y <strong>que se pase la fecha de la rabia en ruta</strong>. "
-            "Todo lo demás admite gestionarse sobre la marcha.</p>", raw=True)
+            "<strong>una leishmania positiva antes de salir</strong> (el 17 % de los perros españoles da "
+            "positivo), que cerraría Namibia y Sudáfrica, y <strong>que se pase la fecha de la rabia en "
+            "ruta</strong>. Todo lo demás admite gestionarse sobre la marcha.</p>", raw=True)
     )
     salud = bullets([
         "Visita al Centro de Vacunación Internacional con el itinerario continental completo (ambos sentidos).",
