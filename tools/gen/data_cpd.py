@@ -24,7 +24,8 @@ CPD = {
                    "Guerguerat. No es miembro de la CEDEAO, así que la Carte Brune no sirve aquí."),
     "senegal": ("recomendable", "CONFIRMADO", "Passavant (10 días + 2 prórrogas de 15)",
                 "~4 € si el vehículo es «joven» · ~250 € si supera el límite de edad",
-                "El único país de la ruta que aparece en la lista del RACE. El problema no es el CPD "
+                "Figura en la lista de países en los que el RACE dice que el CPD «es requerido». "
+                "El problema no es el CPD "
                 "en sí: es el límite de edad del vehículo (5 años hasta 2016, 8 desde 2016, 10 por "
                 "decreto de octubre de 2025). Es norma de importación definitiva, pero la aduana de "
                 "Rosso la aplica igual. Dos alternativas sin CPD: entrar por Diama en vez de Rosso, o "
@@ -68,13 +69,16 @@ CPD = {
                "de ~250 USD que circula por los foros es de tránsito comercial: no aplica al turista."),
     "tanzania": ("no", "CONFIRMADO", "TIP en frontera + road tax", "25 USD/mes (+5 USD de tasa menor)",
                  "Aparece como obligatorio en listas antiguas. No lo es."),
-    "kenia": ("recomendable", "CONFIRMADO", "Form C32 (gratis, 14 días) + Foreign Vehicle Permit",
+    "kenia": ("obligatorio", "CONFIRMADO", "Form C32 (gratis, 14 días) + Foreign Vehicle Permit",
               "C32 gratis · FVP 21-101 USD según cilindrada y plazo",
-              "El único de la ruta que figura en la lista del RACE, y la propia KRA se contradice: el "
-              "aviso 774 (2017) exige CPD a vehículos de fuera de la EAC/COMESA, y el 1870, posterior, "
-              "abre la vía del Form C32 sin carnet. Pasó de obligatorio a recomendable. Mitigación sin "
-              "CPD: cuenta eCitizen hecha antes de llegar, correo a la KRA guardado por escrito y el "
-              "aviso 1870 impreso. Tarifas del FVP: <2000cc 21 USD/mes o 51 USD/3 meses; >2000cc 41 y 101."),
+              "EL MÁS EXIGENTE DE LA RUTA. Lo dicen los dos emisores de carnets consultados: el RACE lo "
+              "lista como país en el que el CPD «es requerido», y la Automobile Association de Sudáfrica "
+              "dice que es «obligatorio para Egipto y Kenia». La propia KRA se contradice: su aviso 774 "
+              "(2017) exige CPD a vehículos de fuera de la EAC/COMESA, y el 1870, posterior, abre la vía "
+              "del Form C32 sin carnet. Existe alternativa documentada, pero aquí es donde más fácil es "
+              "que te la discutan en el mostrador. Sin CPD: cuenta eCitizen hecha antes de llegar, "
+              "respuesta escrita de la KRA guardada y el aviso 1870 impreso. FVP: <2000cc 21 USD/mes o "
+              "51 USD/3 meses; >2000cc 41 y 101."),
     "uganda": ("no", "CONFIRMADO", "Temporary Road Licence de la URA", "~13-18 €/mes",
                "Uganda NO acepta el carnet. Tracks4Africa, 2023: «Uganda does not accept or recognise a "
                "Carnet». Llevarlo aquí es aval inmovilizado a cambio de nada."),
@@ -88,8 +92,18 @@ CPD = {
     "zimbabue": ("no", "CONFIRMADO", "TIP de ZIMRA (hasta 3 meses) + carbon tax + seguro + peajes", "~45-70 USD", ""),
     "botsuana": ("no", "CONFIRMADO", "Temporary Import Permit de BURS + Road Safety levy", "~11 €", ""),
     "namibia": ("no", "CONFIRMADO", "Cross-Border Charge del RFA + TIP de NamRA", "N$534 (~27 €)", ""),
-    "sudafrica": ("no", "CONFIRMADO", "TIP de 6 meses multientrada, gratuito, vía SARS Traveller Management System",
+    "sudafrica": ("recomendable", "EN DISPUTA", "TIP de 6 meses multientrada, gratuito, vía SARS Traveller Management System",
                   "Gratis",
+                  "LAS FUENTES NO COINCIDEN, y hay que decidir con eso encima de la mesa. El RACE lo "
+                  "lista como país en el que el CPD «es requerido», sin distinguir si el vehículo entra "
+                  "por tierra o llega en barco. Las fuentes sudafricanas dicen lo contrario para la "
+                  "entrada terrestre: SARS publica un régimen de importación temporal que no menciona "
+                  "carnet, y la Automobile Association de Sudáfrica —que ES el emisor de carnets del "
+                  "país— dice que el CPD es «obligatorio para Egipto y Kenia y recomendable para viajar "
+                  "a países fuera de la unión aduanera de África austral». La explicación más probable "
+                  "de la discrepancia es que la lista del RACE no separa tierra de barco: llegando en "
+                  "barco a Durban o Ciudad del Cabo, el carnet sí hace falta para el despacho portuario. "
+                  "Hasta tener respuesta escrita de SARS, se trata como recomendable, no como resuelto. "
                   "CAMBIO IMPORTANTE para 2027: desde el 1 de junio de 2026 hay que declarar el vehículo "
                   "en línea en el TMS de SARS ANTES de llegar a la frontera. A cambio, el TIP es de seis "
                   "meses, multientrada y gratuito, y cubre las escapadas a Lesoto y Esuatini. SARS es "
