@@ -1310,46 +1310,151 @@
     <Point><coordinates>33.7741,-13.9626,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Songwe (desde Malaui)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puente sobre el río Songwe, al norte de Karonga; cruce estándar hacia Mbeya, con puesto integrado a ambos lados.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.3833,33.7167">Google Maps</a>]]></description>
+    <name>Frontera · Entrada interior — Tunduma/Nakonde (desde Zambia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El gran paso del corredor TANZAM y el más transitado del sur: puesto de ventanilla única (OSBP), mucho camión, colas largas y gestores informales. Llegar temprano, contar con varias horas y no perder de vista la documentación del vehículo. Aquí se tramitan el visado, el permiso temporal de importación del vehículo (TIP) o el sellado del CPD, la tasa de carretera (~25 USD/mes/vehículo según relatos de overlanders) y el seguro de terceros si no se lleva Tarjeta Amarilla COMESA válida.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.3,32.7667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>33.7167,-9.3833,0</coordinates></Point>
+    <Point><coordinates>32.7667,-9.3,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Namanga (hacia Kenia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal del corredor norte, junto al Parque de Amboseli; puesto de alto tránsito turístico bien equipado.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.545,36.7867">Google Maps</a>]]></description>
+    <name>Frontera · Salida interior — Namanga (hacia Kenia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal del corredor norte, junto al Parque de Amboseli, de alto tránsito turístico y bien equipado. Aviso: durante las protestas poselectorales de octubre-noviembre de 2025 este paso sufrió cierres y disturbios en el lado keniano; confirmar normalidad 72 h antes. Devolver el TIP y obtener el sello de salida del vehículo.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.545,36.7867">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.7867,-2.545,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Frontera · Entrada costa — Horohoro/Lunga Lunga (desde Kenia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso COSTERO sobre la A14 Mombasa-Dar, distinto del de subida: puesto de ventanilla única moderno con funcionarios de los dos países en el mismo edificio, abierto 24 h, asfalto en buen estado en ambos lados, combustible a menos de 1 km y 4G. Tiempos de espera normales de 15-30 minutos; horas punta de 7 a 10 de la mañana y fines de semana. Nuevo TIP y nueva tasa de carretera al reentrar (ojo: hay relatos de cobros duplicados de la tasa de 25 USD en la reentrada — pedir justificante).<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.6,39.1054">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.1054,-4.6,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida costa (opción A) — Kilambo/Namoto, ferry del Rovuma</name>
+    <description><![CDATA[<b>Frontera</b><br/>ATENCIÓN, PUNTO CRÍTICO: NO es un puente, es un FERRY de barcaza sobre la desembocadura del río Rovuma, a unos 40 km de Mtwara, con capacidad para unos 6 vehículos 4x4. Horario del lado mozambiqueño 07:00-19:00 y del lado tanzano muy restringido (se cita 07:00-08:00); la salida depende de la MAREA (hace falta un mínimo de 3 m de agua) y puede implicar dormir esperando la marea siguiente. Además, el lado mozambiqueño (Quionga, Palma, Mocímboa da Praia, norte de Cabo Delgado) está bajo una insurgencia activa y las fuentes especializadas recomiendan expresamente NO usar este paso. Coordenada aproximada: confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-10.4667,40.4167">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>40.4167,-10.4667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida costa (opción B) — Mtambaswala/Negomano, puente de la Unidad</name>
+    <description><![CDATA[<b>Frontera</b><br/>El verdadero PUENTE DE LA UNIDAD sobre el Rovuma, inaugurado el 12 de mayo de 2010: 720 m, 18 vanos, dos carriles. Pero NO está junto a Mtwara: está unos 180 km al interior, en Mtambaswala (lado tanzano) frente a Negomano (lado mozambiqueño), y se llega desde Masasi. Es la alternativa terrestre seria al ferry de Kilambo y deja en el norte de Niassa/Cabo Delgado occidental, más alejado de la zona de insurgencia costera. Confirmar 60 días antes que el puesto emite visado y despacha vehículos particulares, y revisar el estado de seguridad del corredor de Negomano.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.4144,38.4942">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>38.4942,-11.4144,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Embajada de España en Dar es Salaam</name>
-    <description><![CDATA[<b>Consular</b><br/>99 B Kinondoni Road, P.O. Box 842, Dar es Salaam. Tel. (+255) 022 266 60 18/19 · Emergencia consular 24h: (+255) 754 04 21 23 · emb.daressalaam@maec.es.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.79,39.26">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>99 B Kinondoni Road, P.O. Box 842, Dar es Salaam. Tel. (+255) 022 266 60 18/19 · Emergencia consular 24h: (+255) 754 04 21 23 · emb.daressalaam@maec.es. Es la única representación española del país: relevante sobre todo para el corredor de la costa.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.79,39.26">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>39.26,-6.79,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Muhimbili National Hospital, Dar es Salaam</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; mejor opción sanitaria del tramo costero junto con clínicas privadas de Arusha.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.8083,39.2764">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país. Mejor opción sanitaria del corredor costero; para casos graves, la práctica regional es la evacuación a Nairobi o Sudáfrica.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.8083,39.2764">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>39.2764,-6.8083,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Mbeya / Iringa / Arusha</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (TotalEnergies, Puma, Oryx) en las ciudades principales del corredor Mbeya-Iringa-Arusha; sin gap relevante de 500 km en el eje previsto.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
+    <name>Clínicas privadas de Arusha</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia sanitaria del corredor interior y del circuito norte (hospital del Monte Meru y varias clínicas privadas). Lo más cercano a Ngorongoro, Serengeti, Natron y Kilimanjaro: a partir de aquí, hacia el Serengeti, la evacuación es aérea.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.683,-3.3869,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hospital de referencia · Mbeya</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital zonal de referencia del sur, el primero tras entrar desde Zambia y el único serio antes de Iringa.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.9,33.45">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.45,-8.9,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mbwa Wa Africa · clínica veterinaria y refugio (Usa River, Arusha)</name>
+    <description><![CDATA[<b>Servicio</b><br/>Clínica veterinaria y refugio de animales en Usa River, a unos 25 km de Arusha camino de Moshi (P.O. Box 89; tel. refugio +255 626 515 750, clínica +255 627 593 149; lun-vie 9-17, sáb 9-14). LA referencia veterinaria del norte de Tanzania y el primer contacto a explorar para dejar al perro durante los días de Ngorongoro, Serengeti y, si se hace, Kilimanjaro. Confirmar por escrito si aceptan alojamiento de un perro viajero antes de contar con ello.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3667,36.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.85,-3.3667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mbeya · base logística del sur</name>
+    <description><![CDATA[<b>Combustible</b><br/>Primera ciudad grande tras Tunduma (110 km) y base del altiplano del sur: combustible formal (TotalEnergies, Puma, Oryx), talleres, hospital, mercado. Punto de partida del lago Ngozi, de Kitulo y del desvío al oeste (Sumbawanga-Mpanda-Kigoma). Repostar a fondo antes de cualquiera de las tres cosas.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.9,33.45">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.45,-8.9,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Sumbawanga / Mpanda (eje del oeste)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Las dos únicas plazas con suministro fiable del corredor occidental hacia Katavi y Kigoma. Entre ellas y hasta Kigoma hay cientos de kilómetros de grava: salir con depósitos y garrafas llenos. Sitalike, a la puerta de Katavi, no garantiza nada.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-7.9667,31.6167">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.6167,-7.9667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Iringa</name>
+    <description><![CDATA[<b>Combustible</b><br/>Base logística del tramo sur a 1.600 m: combustible, talleres, recambios, hospital regional y buen mercado. Último suministro seguro antes de Ruaha (130 km de pista hasta Msembe) y punto de paso obligado entre Mbeya y Dodoma.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-7.77,35.69">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.69,-7.77,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dodoma · capital administrativa y nudo central</name>
+    <description><![CDATA[<b>Combustible</b><br/>Capital oficial del país desde 1973 (y sede del parlamento), en el centro geográfico: combustible, talleres, hospital y alojamiento. Nudo del corredor interior entre Iringa y Babati/Tarangire, con el desvío a la zona vinícola de Dodoma, poco conocida. No es una parada turística, pero sí el repostaje obligado de un tramo de 700 km.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.163,35.7516">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.7516,-6.163,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Arusha / Moshi</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del corredor interior, con todas las marcas. Repostar a fondo antes de Ngorongoro-Serengeti (dentro de los parques no hay suministro fiable) y antes del desvío al lago Natron, donde no hay nada.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.683,-3.3869,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Arusha y Dar es Salaam</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de ambas ciudades; lodges de safari y campings del corredor Mbeya-Iringa-Arusha permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
+    <name>Combustible · Karatu (puerta del Ngorongoro)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última plaza con combustible, cajeros, supermercado y talleres antes de entrar al Área de Conservación del Ngorongoro y al Serengeti. Fundamental: el circuito Ngorongoro-Olduvai-Serengeti-Natron puede sumar 600-800 km sin una estación de servicio de confianza.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3333,35.6667">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.6667,-3.3333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Tanga / Dar es Salaam (eje de la costa)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Corredor costero con estaciones formales en Tanga, Muheza, Korogwe, Bagamoyo y Dar es Salaam; sin gaps relevantes en el tramo norte de la costa.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.0689,39.0989">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.0989,-5.0689,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Kibiti / Kilwa Masoko / Lindi / Mtwara (sur de la costa)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Eje sur de la costa por la T6 (recientemente mejorada): estaciones en Kibiti, Ikwiriri, Kilwa Masoko, Lindi y Mtwara. El gap real es el acceso a Nyerere/Mtemere (80-100 km de pista sin nada) y el desvío de Masasi hacia el puente de la Unidad.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.9333,39.5167">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.5167,-8.9333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Arusha, Dar es Salaam, Mbeya</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las tres ciudades; campings, lodges y hoteles permiten llenar el depósito de uso general con manguera. Confirmar siempre en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.683,-3.3869,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · campings de los parques del norte</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Los campings públicos del Ngorongoro (Simba) y del Serengeti (Seronera) tienen agua corriente y aseos, pero el suministro es irregular y no potable sin tratar. Entrar al circuito con los depósitos llenos al 100 % desde Karatu.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.2,35.5">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.5,-3.2,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · lago Natron y corredor del oeste</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Sin garantía ninguna: en Engare Sero el agua es escasa y el calor extremo (hay que contar 5-6 litros por persona y día), y en el eje Sumbawanga-Mpanda-Kigoma no hay recarga fiable fuera de las ciudades. Salir al 100 % y llevar filtro.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.45,36.0167">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.0167,-2.45,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Namanga (desde Tanzania)</name>
@@ -1632,46 +1737,137 @@
     <Point><coordinates>31.2,-26.45,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Kazungula (con Botsuana/Zambia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Punto cuádruple donde convergen Zimbabue, Zambia, Botsuana y (a poca distancia) Namibia; puente nuevo sobre el Zambeze que agiliza el tránsito de vehículos.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.7833,25.2667">Google Maps</a>]]></description>
+    <name>Frontera · ENTRADA — Forbes/Machipanda (desde Mozambique)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Nuestra entrada, a 8 km de Mutare sobre la carretera de Beira: el gran corredor económico Harare-Beira, con muchísimo camión pesado y congestión habitual. Las fuentes de referencia siguen publicando horario 06:00-20:00 los siete días, pero los dos gobiernos anunciaron el paso a funcionamiento 24/7 desde diciembre: CONFIRMAR 72 h antes. Teléfonos del lado zimbabuense: +263 20 63 003 / 67 532 / 66 196. Aquí se tramitan visado (30 USD una entrada), permiso temporal de importación del vehículo o sellado del CPD, seguro de terceros si no se lleva Tarjeta Amarilla COMESA, y las tasas de vehículo extranjero. Llegar temprano.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.0053,32.7125">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>25.2667,-17.7833,0</coordinates></Point>
+    <Point><coordinates>32.7125,-19.0053,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Beitbridge (con Sudáfrica)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce terrestre más transitado del país, a menudo congestionado por tráfico comercial; prever tiempo de espera adicional.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.2167,30.0">Google Maps</a>]]></description>
+    <name>Frontera · SALIDA — Kazungula carretera (hacia Botsuana)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Nuestra salida elegida, a unos 70 km de la ciudad de Victoria Falls: horario 06:00-20:00, desemboca directamente en Kasane (Botsuana), a las puertas de Chobe. OJO con la confusión de nombres: el PUENTE de Kazungula, el nuevo, une Zambia con Botsuana; lo nuestro es el PUESTO DE CARRETERA Zimbabue-Botsuana, que es otro. En el lado botsuano hay control de FIEBRE AFTOSA con baño de neumáticos y de calzado y decomiso de carne y lácteos: vaciar la nevera antes. Coordenada aproximada: confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.795,25.26">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>25.26,-17.795,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · SALIDA alternativa — Plumtree/Ramokgwebana (hacia Botsuana)</name>
+    <description><![CDATA[<b>Frontera</b><br/>La otra opción, descartada como principal: 10,2 km al suroeste de Plumtree sobre la A7, horario 06:00-22:00 todos los días incluidos festivos, y deja en Francistown. Tasas documentadas por Tracks4Africa (enero de 2023, revisar): 20 USD de road access, 55-120 USD de seguro de terceros según cilindrada, 70 USD de carbon tax a la salida y 10 USD de peaje, SOLO EN EFECTIVO en USD o ZAR. Punta de tráfico de julio a octubre. Un overlander de la expedición de Tracks4Africa lo cruzó en una hora y lo describe como amable. Tel. +263 19 2561 / +263 712 321 211.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.4833,27.7833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.7833,-20.4833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Beitbridge (hacia Sudáfrica) — NO la usamos</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso más transitado de la región y, según las guías de autoconducción, el más lento: dos o tres horas en hora punta. NO está en nuestro trazado —de Zimbabue salimos a Botsuana—, pero queda documentado como salida de emergencia hacia Sudáfrica si hubiera que evacuar o reparar.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.2167,30.0">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>30.0,-22.2167,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Frontera · Chirundu y la coronación de la presa de Kariba (hacia Zambia) — no la usamos</name>
+    <description><![CDATA[<b>Frontera</b><br/>Dos pasos hacia Zambia en la variante norte que NO usamos porque Zambia se visitó meses antes: Chirundu (ventanilla única, mucho camión) y el paso peatonal y de vehículos sobre la coronación de la presa de Kariba. Solo relevantes como contexto: desde Mana Pools y Kariba se ve Zambia al otro lado del río.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.0333,28.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.85,-16.0333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Embajada de España en Harare</name>
-    <description><![CDATA[<b>Consular</b><br/>16 Phillips Ave., Belgravia, P.O. Box 3300, Harare. Tel. +263 (0)242 250740/1 · Emergencia consular: +263 (0)772 436 620 · emb.harare@maec.es. También competente para Malaui y Zambia.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.81,31.05">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>16 Phillips Ave., Belgravia, P.O. Box 3300, Harare. Tel. +263 (0)242 250740/1 · Emergencia consular: +263 (0)772 436 620 · emb.harare@maec.es. Competente también para Zambia y Malaui. Única representación española del país: en el eje principal (Mutare-Masvingo-Bulawayo-Cataratas Victoria) queda a 300-600 km de casi todo.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.81,31.05">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.05,-17.81,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Victoria Falls Hospital / Mater Dei Hospital (Bulawayo)</name>
-    <description><![CDATA[<b>Hospital</b><br/>Clínicas privadas de referencia en la zona turística de Cataratas Victoria; para necesidades serias, evacuación hacia Sudáfrica es la opción más fiable.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.93,25.83">Google Maps</a>]]></description>
+    <name>Hospitales privados de Harare (Avenues, Baines Avenue)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia sanitaria nacional y la mejor del país; relevante sobre todo para la variante norte (Mana Pools, Kariba). Para casos graves, la práctica regional es la evacuación a Sudáfrica.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.82,31.045">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.045,-17.82,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mater Dei Hospital, Bulawayo</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital privado de referencia del sur y el más cercano a Matobo, Khami, Hwange y Gran Zimbabue. Es el centro serio del eje principal.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.5833,-20.15,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hospital provincial de Mutare</name>
+    <description><![CDATA[<b>Hospital</b><br/>Primer hospital al entrar desde Mozambique y la referencia de las Eastern Highlands (Bvumba, Nyanga, Chimanimani). Para un accidente de montaña en el Nyangani o en Chimanimani, el rescate es terrestre y lento: contar con ello.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.9707,32.6709">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.6709,-18.9707,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Clínica privada de Victoria Falls</name>
+    <description><![CDATA[<b>Hospital</b><br/>Clínica orientada al turismo de aventura en la zona de las cataratas, con experiencia en traumatología de actividades. Último recurso sanitario antes de Botsuana.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.93,25.83">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>25.83,-17.93,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Victoria Falls / Bulawayo / Masvingo</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en las ciudades del eje turístico; la disponibilidad de combustible en Zimbabue ha sido históricamente irregular — llevar reserva y pagar preferentemente en USD.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.9243,25.8572">Google Maps</a>]]></description>
+    <name>Combustible · Mutare, Masvingo, Bulawayo, Harare, Victoria Falls</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales de marca (Puma, Total, Zuva, Engen) en todas las ciudades del eje. Desde que la venta se hace en dólares, el suministro es CONSISTENTE y han desaparecido las colas y el racionamiento que marcaron la década pasada: es una corrección importante respecto a la versión anterior de esta ficha. Precio tope de ZERA en septiembre de 2026: gasóleo 1,95 USD/l y gasolina mezcla E10 1,96 USD/l. En la práctica, la mayoría de las estaciones solo aceptan dólares en efectivo.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>25.8572,-17.9243,0</coordinates></Point>
+    <Point><coordinates>28.5833,-20.15,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Victoria Falls</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en la zona turística; hoteles y lodges permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.9243,25.8572">Google Maps</a>]]></description>
+    <name>Combustible · Chiredzi (puerta de Gonarezhou)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Último suministro antes de Gonarezhou: dentro del parque no hay nada y los accesos a Chipinda Pools y a Chilojo son arena. Entrar con depósitos y garrafas llenos y con autonomía para todo el circuito.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.05,31.6667">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.6667,-21.05,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Hwange Main Camp y Dete</name>
+    <description><![CDATA[<b>Combustible</b><br/>Main Camp de Hwange tiene combustible y tienda, pero no es fiable al 100 %: repostar en Hwange pueblo, en Dete o en Victoria Falls y tratar el del parque como un extra. Los enlaces a Sinamatella y Robins, por el norte, consumen mucho más de lo previsto por la arena.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.6167,26.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>26.85,-18.6167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Karoi, Makuti y Kariba (variante norte)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Eje de la variante norte: Chinhoyi, Karoi, Makuti y Kariba tienen estaciones. Después de Makuti y del puesto de Marongora no hay NADA hasta salir de Mana Pools, y el tramo Kariba-Binga-Chizarira-Hwange es el más largo sin suministro de toda la ficha: Binga es la única plaza intermedia.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.8167,29.6833">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.6833,-16.8167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · ciudades del eje</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Mutare, Masvingo, Bulawayo, Harare y Victoria Falls. Para el depósito de uso general (ducha, aseo, vajilla), los campings de overlanders de Victoria Falls, los lodges del borde de Matobo y los campings de Great Zimbabwe y Nyanga permiten llenar con manguera: confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>25.8572,-17.9243,0</coordinates></Point>
+    <Point><coordinates>28.5833,-20.15,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · campamentos de ZimParks</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Main Camp, Sinamatella, Robins (Hwange), Maleme y Sandy Spruit (Matobo), Nyamepi (Mana Pools) y los campamentos de Nyanga tienen agua corriente y aseos, pero el suministro es irregular y NO potable sin tratar. Entrar a cada parque al 100 % de depósitos.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.0,26.5">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>26.5,-19.0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · Gonarezhou, Chizarira y la variante norte</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Sin ninguna garantía: los campamentos de naturaleza de Gonarezhou y los siete de Chizarira no tienen agua tratada, y en Chizarira hay que entrarla toda. Filtro obligatorio y nunca beber del Runde, del Save ni del Zambeze sin tratar (bilharzia y cocodrilos en la orilla).<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.3,31.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.8833,-21.3,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Taller y recambios · Bulawayo</name>
+    <description><![CDATA[<b>Servicio</b><br/>La mejor oferta de talleres, recambios, neumáticos y soldadura del sur del país, herencia de su pasado industrial y ferroviario. Parada técnica recomendada de los dos vehículos antes de Hwange y de la salida a Botsuana.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.5833,-20.15,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reservas de ZimParks · Harare (sede central)</name>
+    <description><![CDATA[<b>Servicio</b><br/>Mana Pools, Matusadona y las parcelas exclusivas NO tienen reserva online: se gestionan por correo (info@zimparks.org.zw) o por teléfono, y se confirman por escrito. Hacerlo con semanas de antelación y llevar la confirmación impresa a la puerta, porque en la puerta solo se pagan la entrada y los extras.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8292,31.0522">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.0522,-17.8292,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Kazungula (con Zambia/Zimbabue)</name>

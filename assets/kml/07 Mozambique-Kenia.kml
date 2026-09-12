@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 07 Mozambique-Kenia</name>
   <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
+  <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Maputo</name>
@@ -60,32 +63,186 @@
     <Point><coordinates>33.7741,-13.9626,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Cráter del Ngorongoro</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wide%20aerial%20landscape%20of%20the%20Ngorongoro%20ecosystem.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Caldera volcánica de 20 km de diámetro convertida en el mayor recinto natural de fauna cerrado de África: los «Big Five» conviven en un espacio de densidad excepcional. Área de Conservación gestionada junto a comunidades<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.2,35.5">Google Maps</a>]]></description>
+    <name>Lago Ngozi · cráter de los Poroto</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Southern%20Highlands%20(Tanzania)%20banner.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Lago de caldera a unos 30 km al sur de Mbeya, camino de Tukuyu, en los montes Poroto: 3,1 km² de agua verde encajada a 74 m de profundidad en un cráter de paredes forestadas, descrito como el segundo mayor lago de cráter<br/><b>Perro:</b> permitido con correa<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.0081,33.5531">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.5531,-9.0081,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Kitulo · el «Serengeti de las flores»</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kitulo%20National%20Park%20Entry.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>412 km² de pradera de altura a unos 2.600 m entre los montes Kipengere, Poroto y Livingstone, que los vecinos llaman «Bustani ya Mungu» (el jardín de Dios) y los botánicos el Serengeti de las flores: unas 350 especies de<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.05,33.8333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.8333,-9.05,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Katavi (el oeste salvaje)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nyumba%20ya%20makuti%2C%20Katavi%20Tanzania.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Tercer parque más grande del país y uno de los menos visitados de África: llanuras inundables del Katuma con concentraciones enormes de búfalo e hipopótamo en la estación seca, cuando los ríos se reducen a pozas. Apenas <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.8833,31.1667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1667,-6.8833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kigoma y Ujiji · «Dr. Livingstone, I presume?»</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Oldest%20ship%20in%20lake%20Tanganyika.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>Puerto principal de Tanzania en el lago Tanganyika, con la estación término del ferrocarril central alemán y el histórico vapor MV Liemba (botado en 1913 como Graf von Götzen, desmontado y transportado a lomos desde la c<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.8769,29.6267">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.6267,-4.8769,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mahale Mountains y Gombe Stream · chimpancés</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gombe%20Stream%20NP%20gegenseitiges%20Lausen.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Los dos parques de chimpancés del lago Tanganyika, accesibles SOLO EN BARCO (no hay carretera hasta las puertas). Mahale, sobre la ladera selvática que cae al lago, alberga el mayor grupo de chimpancés protegido del mund<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.1,29.7667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.7667,-6.1,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Ruaha (el mayor del país)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ruaha%20National%20Park%20Panorama.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Unos 20.000 km² (más de 30.000 con los humedales anexionados), el parque nacional más grande de Tanzania y de África oriental, en la transición entre la sabana de acacias del este y el bosque de miombo del sur: una de la<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-7.6833,34.8167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.8167,-7.6833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Udzungwa Mountains · cascadas de Sanje</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Waterfall%20on%20Sanje%20Falls%20trail%20at%20Udzungwa%20Mountains%20National%20Park.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El parque de senderismo de Tanzania: no hay pistas de safari, se recorre solo a pie. Parte del Arco Oriental, un archipiélago de bosques de montaña aislados con un nivel de endemismo comparable al de las Galápagos (dos e<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-7.8436,36.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.8833,-7.8436,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Isimila · yacimiento de la Edad de Piedra e Iringa</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ismila-Stone-Age-Site-Tanzania.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>A unos 20 km al suroeste de Iringa, una garganta de erosión donde hace unos 60.000-100.000 años hubo una laguna somera en cuyas orillas se acumularon miles de herramientas achelenses de piedra (hachas de mano, raederas) <br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-7.9167,35.6">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.6,-7.9167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Tarangire · los baobabs</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Baobab%20tree%2C%20Tarangire%20National%20Park%20(4)%20(28062313514).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>La puerta sur del circuito norte y el parque de los BAOBABS: bosques abiertos de estos árboles descomunales sobre el valle del río Tarangire, que en la estación seca (julio-octubre) concentra la mayor densidad de elefant<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.6833,35.9667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.9667,-3.6833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional del lago Manyara</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sleeping%20lion%202%2C%20Lake%20Manyara%20National%20Park%20(2015).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Franja estrecha de 330 km² entre el escarpe del Rift y un lago alcalino somero, al pie de la subida a Ngorongoro: bosque de acuíferos con manantiales, babuinos en bandadas enormes, los célebres LEONES TREPADORES DE ÁRBOL<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.5833,35.825">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.825,-3.5833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cráter del Ngorongoro</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wide%20aerial%20landscape%20of%20the%20Ngorongoro%20ecosystem.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Caldera volcánica de 20 km de diámetro y 600 m de paredes, Patrimonio de la Humanidad y el recinto natural de fauna más denso de África: los «Big Five» en 260 km², con una de las poblaciones de rinoceronte negro más acce<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.2,35.5">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>35.5,-3.2,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Arusha y el monte Meru</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20meru%20with%20snow%2C%20Arusha%20Region%2C%20Tanzania.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital logística del norte de safaris (Serengeti, Ngorongoro, Kilimanjaro, Manyara); mejor oferta de talleres, recambios y supermercados del tramo, y puerta de salida hacia Kenia por Namanga.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
+    <name>Garganta de Olduvai (Oldupai)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Panoramic%20view%20of%20Olduvai%20Gorge.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>Barranco de 48 km dentro del Área de Conservación del Ngorongoro, en el camino entre el cráter y el Serengeti, que es probablemente el yacimiento paleoantropológico más importante del mundo: aquí Mary y Louis Leakey enco<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.9917,35.35">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.35,-2.9917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional del Serengeti</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kopjes%20on%20the%20serengeti%20national%20park%20tanzania%20africa%20landscape.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>14.750 km² de llanura infinita interrumpida solo por los KOPJES, islas de granito donde se tumban los leones, y escenario de la GRAN MIGRACIÓN: unos 1,3 millones de ñus y cientos de miles de cebras y gacelas en un circui<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.4333,34.8333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.8333,-2.4333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lago Natron y Engare Sero</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lago%20natron.PNG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Lago de sosa de un rojo imposible al pie del Rift, el ÚNICO LUGAR DE CRÍA REGULAR DEL FLAMENCO ENANO de toda África oriental (el 75 % de la población mundial nace aquí), con temperaturas del agua de hasta 60 °C y costras<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.45,36.0167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.0167,-2.45,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ol Doinyo Lengai · la montaña de Dios (2.962 m)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ol%20Doinyo%20Lengai%20Crater.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Volcán activo y sagrado para los masái, el ÚNICO DEL MUNDO que emite natrocarbonatita: una lava tan fría (500-600 °C) y fluida que de día parece barro negro y solo brilla de noche, y que al contacto con la humedad se vue<br/><b>Perro:</b> prohibido en la ascensión<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.7642,35.9142">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.9142,-2.7642,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Arusha y el monte Meru (4.562 m)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20meru%20with%20snow%2C%20Arusha%20Region%2C%20Tanzania.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital logística del norte y mejor plaza de servicios de todo el corredor interior: talleres y recambios de 4x4, neumáticos, supermercados grandes, clínicas privadas, tramitación de permisos de parque y la única oferta <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.683,-3.3869,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Kilimanjaro (5.895 m) · decisión de presupuesto</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kibo%20Summit%2C%20Mount%20Kilimanjaro%2C%20Tanzania%20(30819102678).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>El techo de África y la montaña aislada más alta del planeta, a 80 km al este de Arusha. Subirlo NO es una excursión, es una expedición cara y reglada: guía y porteadores obligatorios por ley, 5-10 días según ruta (Maran<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.0674,37.3556">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>37.3556,-3.0674,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tanga y las cuevas de Amboni</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tanga%2C%20Tanzania%2C%20town%20centre.JPG?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Primera ciudad tras la frontera costera, a unos 60 km de Horohoro: puerto colonial alemán tranquilo, con el cementerio de guerra, la casa de Bagamoyo Road y un ritmo muy distinto al de Dar. A 8 km al norte están las CUEV<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.0689,39.0989">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.0989,-5.0689,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Montes Usambara occidentales (Lushoto)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Road%20to%20Korogwe%2C%20with%20the%20Usambara%20Mountains.%20Tanzania.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Bloque de montaña del Arco Oriental que se eleva desde la sabana caliente hasta 2.000 m de bosque nuboso, con un clima fresco y niebla que los alemanes convirtieron en su sanatorio de altura. LA MEJOR ZONA DE SENDERISMO <br/><b>Perro:</b> permitido con correa<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7833,38.2833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>38.2833,-4.7833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pangani y el Parque Nacional de Saadani</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Street%20Scene%20in%20Pangani%20Mashariki%2001.jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>Pueblo suajili somnoliento en la desembocadura del río Pangani, con casas omaníes desconchadas, el antiguo boma alemán y la historia dura de haber sido terminal de una de las rutas de caravanas de esclavos y marfil; play<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.4264,38.9803">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>38.9803,-5.4264,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bagamoyo y las ruinas de Kaole</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kaole%20Ruins%20in%20Bagamoyo%2C%20Tanzania.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>«Bwaga-moyo», deja aquí tu corazón: primera capital del África Oriental Alemana y el puerto donde terminaban las caravanas de esclavos y marfil del interior antes de embarcar hacia Zanzíbar. Conserva el boma alemán, la v<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.44,38.9">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>38.9,-6.44,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Dar es Salaam</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dar%20es%20Salaam%20City%20Skyline.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Antigua capital y mayor ciudad y puerto del país; desvío costero opcional desde el eje Mbeya-Arusha, con mejor infraestructura urbana y punto de embarque del ferry hacia Zanzíbar.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.7924,39.2083">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dar%20es%20Salaam%20City%20Skyline.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Mayor ciudad y puerto del país y la plaza logística clave del corredor costero: embajada de España, talleres y recambios de todo tipo, Muhimbili como hospital de referencia nacional, supermercados grandes, y el puerto de<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-22">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.7924,39.2083">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>39.2083,-6.7924,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Zanzíbar (Stone Town)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stone%20Town%2C%20Zanzibar%2C%202021%2C%2036.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Ciudad histórica swahili-omaní (UNESCO) en la isla de Unguja, accesible en ferry desde Dar es Salaam; casco antiguo, mercados de especias y playas del archipiélago como desvío costero opcional del corredor.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.1659,39.1917">Google Maps</a>]]></description>
+    <name>Zanzíbar · Stone Town (decisión con perro)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stone%20Town%2C%20Zanzibar%2C%202021%2C%2036.jpg?width=900" width="320"/><br/><b>Media · Patrimonio UNESCO</b><br/>Ciudad de piedra suajili-omaní, Patrimonio de la Humanidad: callejuelas imposibles, puertas de teca talladas, la Casa de las Maravillas, el mercado de esclavos sobre el que se construyó la catedral anglicana, y el archip<br/><b>Perro:</b> no recomendado — ver matriz<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-23">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.1659,39.1917">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.1917,-6.1659,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Nyerere (ex-Selous)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/ElefantenAmRufiji.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>30.893 km² segregados en 2019 de la antigua Reserva de Caza de Selous (que era, con 50.000 km², la mayor área protegida de África): hoy es EL PARQUE NACIONAL MÁS GRANDE DEL CONTINENTE. Lo define el río Rufiji, con un lab<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-24">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-7.75,37.9">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>39.1917,-6.1659,0</coordinates></Point>
+    <Point><coordinates>37.9,-7.75,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kilwa Kisiwani y Songo Mnara</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Mosque%20Kilwa%20Kisiwani%20Tanzania.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>La mayor ciudad suajili de su tiempo: desde el siglo XI al XVI, Kilwa controló el comercio del oro de Zimbabue hacia el Índico, acuñó su propia moneda y deslumbró a Ibn Battuta, que en el siglo XIV la describió como una <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-25">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.9578,39.5206">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.5206,-8.9578,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mtwara, Lindi y la meseta makonde</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Makonde%20Plateau%20escarpment.JPG?width=900" width="320"/><br/><b>Media · Cultura</b><br/>El extremo sur del país y el último punto de Tanzania antes de Mozambique. Lindi y Mtwara son dos puertos tranquilos con arquitectura colonial alemana y portuguesa y playas casi vacías (Msimbati, en la reserva marina de <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#poi-26">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-10.2667,40.1833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>40.1833,-10.2667,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Nairobi</name>

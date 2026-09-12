@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 09 Alternativas</name>
   <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
+  <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
@@ -47,18 +48,158 @@
     <Point><coordinates>31.1,-26.15,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Cataratas Victoria (Mosi-oa-Tunya)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Falls%2C%20Zimbabwe%2001.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Una de las Siete Maravillas Naturales del Mundo y Patrimonio de la Humanidad compartido con Zambia: 1,7 km de frente de agua cayendo hasta 108 m, con el mejor mirador del lado zimbabuense (Parque Nacional de las Catarata<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.9243,25.8572">Google Maps</a>]]></description>
+    <name>Mutare y el Christmas Pass</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Primera ciudad del país, a 8 km de la frontera de Forbes: la tercera de Zimbabue, encajada en un valle a 1.120 m y rodeada de montaña, con un clima muy distinto al de la llanura mozambiqueña que acabamos de dejar. Es nue<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.9707,32.6709">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.6709,-18.9707,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Montes Bvumba · jardín botánico, Bunga Forest y Leopard Rock</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>A 29 km de Mutare por una carretera que sube entre montaña arbolada y granjas, los Bvumba («la niebla», en shona) se levantan casi 1.000 m sobre la llanura de Mozambique: bosque nuboso afromontano, llovizna permanente y <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.9969,32.6633">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.6633,-18.9969,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Monte Nyangani (2.592 m) · el techo de Zimbabue</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El punto más alto del país, dentro del Parque Nacional de Nyanga. La subida es la gran excursión de las Eastern Highlands y no es técnica: 8-9 km ida y vuelta, unos 400 m de desnivel y 3-4 horas desde el aparcamiento ofi<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.3,32.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.85,-18.3,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas de Mtarazi (762 m) y la garganta del Pungwe</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>La cascada más alta de Zimbabue y una de las más altas de África: 762 m de caída libre desde el borde del escarpe de Nyanga hasta el valle del Honde, unos kilómetros al sur de la garganta del Pungwe. El mirador está a 1,<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.47,32.81">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.81,-18.47,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ruinas de Ziwa y Nyahokwe · las terrazas de Nyanga</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Zimbabwe%20Ruins.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>El yacimiento menos conocido y más extraño del país: en las laderas al norte de Nyanga hay un paisaje agrícola fósil de cientos de kilómetros cuadrados de TERRAZAS DE PIEDRA, recintos, canales de riego y los célebres «pi<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.19,32.65">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.65,-18.19,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chimanimani · Bailey's Folly y el refugio de montaña</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El senderismo serio de Zimbabue. Una cadena de 50 km de cuarcita y granito en la frontera con Mozambique, a 148 km al sur de Mutare por la A9 y 17,5 km más de pista hasta el campamento base de ZimParks. No hay pistas de <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.7886,32.994">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.994,-19.7886,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gran Zimbabue · la ciudad de piedra que da nombre al país</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Zimbabwe%20Ruins.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Patrimonio de la Humanidad desde 1986 y la mayor ruina de piedra precolonial del África subsahariana: una ciudad shona construida entre 1100 y 1450, con muros de piedra seca SIN ARGAMASA de hasta 11 m de altura y 5 m de <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.2675,30.9333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.9333,-20.2675,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Masvingo y el lago Mutirikwi</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Zimbabwe%20Ruins.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>La ciudad más antigua del país (fundada como Fort Victoria en 1890) y el nudo logístico de todo el sur: es el cruce entre la carretera de Harare-Beitbridge y la de Bulawayo, con combustible fiable, talleres, bancos, supe<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.0637,30.8277">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.8277,-20.0637,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gonarezhou y los acantilados de Chilojo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/WV%20banner%20Matabeland%20Landscape%20in%20Hwange%20National%20Park.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>«El lugar de los elefantes»: 5.053 km² en el extremo sureste, el segundo parque del país, con unos 11.000 elefantes, más de 400 especies de ave y una fracción mínima de los visitantes de Hwange. Es el parque 4x4 por exce<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.3,31.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.8833,-21.3,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bulawayo · la segunda ciudad y el mejor taller del país</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Antigua capital del reino ndebele de Lobengula y después ciudad industrial y ferroviaria de Rodesia: avenidas anchísimas (se dice que se trazaron para que girara un carro con una yunta completa), arquitectura colonial in<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.5833,-20.15,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Matobo Hills · arte rupestre, World's View y rinocerontes a pie</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Patrimonio de la Humanidad desde 2003 y, para nuestro proyecto, probablemente el mejor sitio de Zimbabue: un caos de bolos de granito, kopjes equilibrados y abrigos rocosos a 35 km al sur de Bulawayo. La inscripción reco<br/><b>Perro:</b> ver matriz — parcialmente posible<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.4872,28.5114">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.5114,-20.4872,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Khami (Khame) · la capital del estado de Butua</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Zimbabwe%20Ruins.jpg?width=900" width="320"/><br/><b>Media · Patrimonio UNESCO</b><br/>Patrimonio de la Humanidad desde 1986, a solo 22 km al oeste de Bulawayo y casi siempre vacío: la capital de la dinastía Torwa (el estado de Butua) que surgió justo cuando Gran Zimbabue se despoblaba, entre 1450 y 1650, <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.1583,28.3767">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.3767,-20.1583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Hwange · el mayor del país</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cecil%20the%20lion%20at%20Hwange%20National%20Park%20%284516560206%29.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>14.651 km² —el parque más grande de Zimbabue, del tamaño de Bélgica— y una de las mayores concentraciones de elefante del continente: se citan más de 40.000 animales, con más de cien especies de mamífero, incluidos perro<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.0,26.5">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>26.5,-19.0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas Victoria · el lado zimbabuense y el Rainforest</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Falls%2C%20Zimbabwe%2001.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>ESTA ES LA VISTA. Patrimonio de la Humanidad compartido con Zambia, 1,7 km de frente de agua cayendo hasta 108 m en una grieta de basalto, y DOS TERCIOS DE ESE FRENTE ESTÁN EN ESTE LADO: el lado zimbabuense es el que da <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.9243,25.8572">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>25.8572,-17.9243,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Gran Zimbabue (ruinas)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Zimbabwe%20Ruins.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>La mayor construcción de piedra prehispánica del África subsahariana, capital de un reino comercial medieval que dio nombre al país moderno; Patrimonio de la Humanidad y referencia arqueológica de primer orden.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.2667,30.9333">Google Maps</a>]]></description>
+    <name>Puente de las Cataratas Victoria y la garganta del Batoka</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Falls%2C%20Zimbabwe%2001.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>El puente de Cecil Rhodes, inaugurado en 1905 como eslabón del ferrocarril del Cabo a El Cairo que nunca se terminó: 198 m de arco de acero a 128 m sobre el Zambeze, en el punto donde el río sale de las cataratas y entra<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.9281,25.8569">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-morado</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>30.9333,-20.2667,0</coordinates></Point>
+    <Point><coordinates>25.8569,-17.9281,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Victoria Falls (ciudad) y el Parque Nacional del Zambeze</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Falls%2C%20Zimbabwe%2001.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>La última plaza logística antes de Botsuana y la más orientada al viajero de todo el país: campings de overlanders (el Victoria Falls Rest Camp, en el centro, es el clásico), supermercados, cajeros, clínica privada, tall<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.9333,25.8333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>25.8333,-17.9333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Harare · capital, embajada y trámites</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>A 263 km de Mutare por la A3, la capital es el punto de trámite de la variante norte: EMBAJADA DE ESPAÑA (16 Phillips Ave., Belgravia), oficina central de ZimParks para reservar Mana Pools y Matusadona —que NO tienen res<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8292,31.0522">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.0522,-17.8292,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Domboshava y las Balancing Rocks de Epworth</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Dos excursiones de media jornada a las puertas de Harare, las dos fuera de ZimParks y por tanto compatibles con el perro con correa. DOMBOSHAVA, a 17 km del norte de la ciudad por Borrowdale Road, es Monumento Nacional n<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.6078,31.1687">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1687,-17.6078,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cuevas de Chinhoyi y el Sleeping Pool</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise%20Matobo%20Zimbabwe.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>A unos 8 km al noroeste de Chinhoyi, en la carretera de Harare a Kariba, un sistema de cuevas de dolomita cuyo corazón es el WONDER HOLE: una caverna de techo colapsado con paredes verticales que caen unos 46 m hasta una<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.3167,30.1333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.1333,-17.3167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mana Pools · safari a pie sin guía junto al Zambeze</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Zambezi%20River%20at%20junction%20of%20Namibia%2C%20Zambia%2C%20Zimbabwe%20%26%20Botswana.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>El punto más singular de todo Zimbabue y uno de los más singulares de África: 2.196 km² de llanura de inundación del bajo Zambeze, Patrimonio de la Humanidad (con Sapi y Chewore), donde el bosque catedralicio de albidas <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.75,29.3833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.3833,-15.75,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lago Kariba, la presa y Matusadona</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Zambezi%20River%20at%20junction%20of%20Namibia%2C%20Zambia%2C%20Zimbabwe%20%26%20Botswana.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Uno de los lagos artificiales más grandes del mundo y un capítulo entero de la historia africana del siglo XX. La PRESA DE KARIBA —128 m de alto, 579 m de coronación, arco de doble curvatura construido por el consorcio i<br/><b>Perro:</b> ver matriz<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.5222,28.7614">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.7614,-16.5222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chizarira · el parque que nadie visita</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/WV%20banner%20Matabeland%20Landscape%20in%20Hwange%20National%20Park.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>2.000 km² sobre el escarpe del Zambeze, el cuarto parque del país y casi con seguridad el menos visitado: el nombre viene de una palabra batonga que significa «gran barrera», por el muro del escarpe. Terreno roto, gargan<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#poi-22">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.7,27.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.8833,-17.7,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de Chobe</name>
