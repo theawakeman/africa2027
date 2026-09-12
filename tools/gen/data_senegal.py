@@ -60,8 +60,8 @@ LOGISTICS = [
     ("Centre de santé de Ranérou", "Hospital", 15.29808, -13.96239, "Capacidad limitada; coordenada provisional; no sustituye evacuación."),
     ("Paso fronterizo Kalifourou — salida hacia Guinea", "Frontera", 12.92415, -13.63848, "Control senegalés del corredor base; revalidar apertura, horario y trámites."),
     ("Paso fronterizo Boundou Fourdou–Sambaïlo — entrada en Guinea", "Frontera", 12.58241, -13.37191, "Entrada guineana hacia Koundara; posición operativa a confirmar."),
-    ("Paso Karang–Amdalai — Senegal/Gambia (alternativa)", "Frontera", 13.59169, -16.42208, "No forma parte del corredor base."),
-    ("Paso Keur Ayib–Farafenni — Senegal/Gambia (alternativa)", "Frontera", 13.59335, -15.60578, "No forma parte del corredor base."),
+    ("Paso Karang–Amdalai — Senegal/Gambia (SUBIDA)", "Frontera", 13.59169, -16.42208, "Paso del corredor de SUBIDA: se cruza a Gambia a la vuelta, viniendo de Casamance, para subir después hacia Dakar y el lago Retba. Ver la ficha de Gambia."),
+    ("Paso Keur Ayib–Farafenni — Senegal/Gambia (SUBIDA)", "Frontera", 13.59335, -15.60578, "Paso de la variante interior de Gambia, junto al puente de Senegambia, si a la vuelta se remonta el río en vez de tomar el eje corto costero."),
     ("Combustible · Saint-Louis", "Combustible", 16.02940, -16.48940, "Estaciones formales (Total, Elton, Shell) en la entrada de la ciudad; repostar tras la frontera de Diama."),
     ("Combustible · Dakar", "Combustible", 14.71670, -17.46770, "Mejor oferta y calidad del país; repostar aquí antes del bloque del Ferlo o del Saloum."),
     ("Combustible · Tambacounda", "Combustible", 13.76670, -13.66670, "Última ciudad grande con oferta amplia antes de Kédougou y el bloque oriental."),
@@ -192,7 +192,7 @@ def get_data(root="../../"):
         ("Comunicaciones", "Starlink autorizado y disponible en 2026; mantener SIM local y mensajería satelital"),
     ]
     resumen = (
-        callout("", "Decisión de ruta", "Entrada por Diama desde Mauritania. Salida base por Kalifourou–Boundou Fourdou–Sambaïlo hacia Koundara (Guinea). Mali y Guinea-Bissau quedan fuera; Gambia se conserva únicamente como alternativa.")
+        callout("", "Decisión de ruta", "Entrada por Diama desde Mauritania. Salida base por Kalifourou–Boundou Fourdou–Sambaïlo hacia Koundara (Guinea). Mali y Guinea-Bissau quedan fuera. GAMBIA SÍ forma parte de la ruta, pero solo en la SUBIDA: a la vuelta se baja por el suroeste de Senegal (Casamance), se cruza Gambia y se sube hacia Dakar y el lago Retba.")
         + table(("Tema", "Decisión operativa"), facts)
         + "<h3>Alertas que condicionan la visita</h3>"
         + bullets([
