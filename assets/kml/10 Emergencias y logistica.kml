@@ -323,81 +323,102 @@
     <Point><coordinates>-8.0,31.6,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Guerguerat / Punto Kilométrico 55</name>
-    <description><![CDATA[<b>Frontera</b><br/>Corredor único hacia Nuadibú (Mauritania). Llevar dírhams o euros en efectivo (no dólares), agua y paciencia; contratar eVisa mauritana con antelación (no hay visado a la llegada). No fotografiar en el paso.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.34,-16.95">Google Maps</a>]]></description>
+    <name>Entrada (bajada) · Tarfaya → Tah: sin frontera internacional</name>
+    <description><![CDATA[<b>Frontera</b><br/>NO hay frontera internacional al entrar: la administración marroquí es continua desde Tarfaya y el vehículo sigue con la misma TVIP obtenida en Tánger Med. Lo que sí empieza aquí es el régimen de CONTROLES DE GENDARMERÍA: a partir de Tah los puestos se suceden cada pocas decenas de kilómetros. Última localidad marroquí propiamente dicha: Tarfaya, con el museo de Saint-Exupéry y la Casa del Mar.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.9394,-12.9231">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-16.95,21.34,0</coordinates></Point>
+    <Point><coordinates>-12.9231,27.9394,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Delegación de Aguas y Bosques — Laayoune</name>
-    <description><![CDATA[<b>Servicio</b><br/>Punto de referencia para confirmar accesos a zonas protegidas costeras del tramo Tarfaya-Dakhla. Coordenada urbana aproximada; confirmar por teléfono antes de desplazarse.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.15,-13.2">Google Maps</a>]]></description>
-    <styleUrl>#icon-servicio</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.2,27.15,0</coordinates></Point>
+    <name>Salida (bajada) / Entrada (subida) · Guerguerat</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único paso terrestre con Mauritania y único corredor viable norte-sur de toda África occidental. Control marroquí + tierra de nadie sin asfaltar + control mauritano: 4-6 h. eVisa mauritana OBLIGATORIA tramitada con antelación (ya no hay visado a la llegada). Llevar dírhams o euros en efectivo, no dólares. No fotografiar nada. Cruzar por la mañana. En la subida el sentido es el inverso y el control marroquí de ENTRADA es más minucioso que el de salida.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.4261,-16.9586">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.9586,21.4261,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Hospital Regional Hassan II — Laayoune</name>
-    <description><![CDATA[<b>Hospital</b><br/>Hospital de referencia de la región; capacidad limitada para politraumatismos graves — el seguro de evacuación es imprescindible en este tramo. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.145,-13.195">Google Maps</a>]]></description>
+    <name>Salida (subida) · Smara → Tan-Tan o El Aaiún → Tarfaya</name>
+    <description><![CDATA[<b>Frontera</b><br/>Tampoco hay frontera al salir del territorio hacia Marruecos. La subida puede rematar por el interior (Smara → Tan-Tan, POR CONFIRMAR estado de la carretera y controles) o volviendo a la N1 costera por El Aaiún y Tarfaya. En ambos casos la continuidad administrativa es marroquí.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.9394,-12.9231">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.9231,27.9394,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hospital Regional Hassan II — El Aaiún</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital de referencia del territorio. Cubre urgencias y cirugía básica, no politraumatismos graves: el seguro con evacuación médica es imprescindible en este tramo. La evacuación realista es a Agadir o Canarias. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.145,-13.195">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.195,27.145,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Centro de salud — Dakhla</name>
-    <description><![CDATA[<b>Hospital</b><br/>Recurso sanitario urbano de Dakhla; para urgencias graves, evacuación hacia Laayoune o Agadir. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.6845,-15.935">Google Maps</a>]]></description>
+    <name>Hospital / centro de salud — Dajla</name>
+    <description><![CDATA[<b>Hospital</b><br/>Recurso sanitario urbano de Dajla, suficiente para lo básico. Para urgencias graves, evacuación a El Aaiún o Agadir — a 550 y 1.200 km. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.6845,-15.935">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-15.935,23.6845,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Consulado de España más próximo — Agadir (referencia)</name>
-    <description><![CDATA[<b>Consular</b><br/>Sin representación consular española en Laayoune ni Dakhla: el consulado de Agadir y la embajada en Rabat son las referencias operativas para todo el tramo del Sáhara Occidental.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.4202,-9.5982">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Sin representación consular española en El Aaiún ni en Dajla: el consulado general de Agadir y la embajada en Rabat son las referencias operativas para todo el territorio, en las dos pasadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.4202,-9.5982">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-9.5982,30.4202,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Laayoune Plage</name>
-    <description><![CDATA[<b>Combustible</b><br/>Primera estación tras salir de Laayoune, ~20 km al sur. Diésel estándar marroquí.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.11,-13.42">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Primera estación tras salir de El Aaiún, ~20 km al sur. Diésel subvencionado, sensiblemente más barato que en Marruecos: repostar aquí en las dos pasadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.11,-13.42">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.42,27.11,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Lemsid</name>
-    <description><![CDATA[<b>Combustible</b><br/>~80 km al sur de Laayoune Plage; punto de repostaje intermedio confirmado por overlanders (Horizons Unlimited, iOverlander).<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.72,-13.63">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>~80 km al sur de Laayoune Plage. Punto de repostaje intermedio confirmado por overlanders (Horizons Unlimited, iOverlander).<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.72,-13.63">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.63,26.72,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Boujdour</name>
-    <description><![CDATA[<b>Combustible</b><br/>~80 km al sur de Lemsid; última localidad con oferta amplia antes del tramo largo hacia Dakhla. Repostar aquí siempre, aunque el depósito no esté a la mitad.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.1258,-14.49">Google Maps</a>]]></description>
+    <name>Combustible · Bojador (Boujdour)</name>
+    <description><![CDATA[<b>Combustible</b><br/>~80 km al sur de Lemsid; última localidad con oferta amplia antes del tramo largo hacia Dajla. Repostar aquí siempre, aunque el depósito no esté a la mitad.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.1331,-14.4669">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-14.49,26.1258,0</coordinates></Point>
+    <Point><coordinates>-14.4669,26.1331,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · cruce de Dakhla (Dakhla Junction)</name>
-    <description><![CDATA[<b>Combustible</b><br/>~290 km al sur de Boujdour; dos estaciones en la rotonda de acceso a la península de Dakhla, confirmadas y activas en iOverlander. Tramo previo sin nada intermedio salvo viento.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.735,-15.87">Google Maps</a>]]></description>
+    <name>Combustible · cruce de Dajla (Dakhla Junction)</name>
+    <description><![CDATA[<b>Combustible</b><br/>~290 km al sur de Bojador; dos estaciones en la rotonda de acceso a la península, confirmadas y activas en iOverlander. El tramo previo no tiene nada intermedio salvo viento.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.735,-15.87">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-15.87,23.735,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Bir Gandouz</name>
-    <description><![CDATA[<b>Combustible</b><br/>Última localidad con estación fiable antes de Guerguerat (~80 km); el tramo Dakhla-Bir Gandouz (~250 km) es el más largo sin repostaje garantizado de todo Marruecos/Sáhara — llegar con depósito lleno desde Dakhla.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.017,-16.317">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Última estación fiable antes de Guerguerat (~80 km). El tramo Dajla-Bir Gandouz (~250 km) es el más largo sin repostaje garantizado de todo el bloque Marruecos/Sáhara: llegar con el depósito lleno desde Dajla.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.017,-16.317">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-16.317,21.017,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Dakhla y Laayoune (supermercados y garrafas)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada disponible en Laayoune y Dakhla; fuera de estas dos ciudades, prácticamente inexistente en el tramo costero. Cargar reserva completa en cada una antes de continuar.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.6845,-15.935">Google Maps</a>]]></description>
+    <name>Combustible · El Aaiún → Smara (corredor de subida)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Eje interior de ~240 km con oferta escasa: repostar a fondo en El Aaiún y contar con que entre medias puede no haber nada fiable. POR CONFIRMAR sobre el terreno antes de tomar el desvío de Smara.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.7394,-11.6703">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.6703,26.7394,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · El Aaiún y Dajla</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Las dos únicas ciudades con suministro garantizado del territorio. Agua embotellada en supermercados; recarga del depósito de uso general en estaciones de servicio (Afriquia, Shell) y en los campamentos de la laguna de Dajla. Fuera de estas dos ciudades no dar por hecho NINGÚN punto de agua. El Aaiún tiene planta desaladora.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.6845,-15.935">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-15.935,23.6845,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Zona de exclusión · muro de arena (berma) y franja este</name>
+    <description><![CDATA[<b>Servicio</b><br/>El muro marroquí recorre unos 2.700 km de sur a norte y está flanqueado por EL CAMPO DE MINAS CONTINUO MÁS LARGO DEL MUNDO, con minas colocadas en zigzag a un metro unas de otras y hasta tres filas en algunos tramos. Toda la franja este del territorio, y cualquier pista que se aleje del corredor asfaltado hacia el interior, queda EXCLUIDA SIN EXCEPCIÓN. Coordenada meramente indicativa de la zona a evitar, no un punto a visitar.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.0,-11.0">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.0,26.0,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Sambaïlo / Koundara (desde Manda-Kalifourou, Senegal)</name>
@@ -526,95 +547,193 @@
     <Point><coordinates>-12.4,11.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Gbalamuya/Pamelap (desde Guinea)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal desde Conakry (~6-8 h de trayecto total); control de inmigración y aduanas, certificado de fiebre amarilla exigido. Recomendable cruzar y circular en horas de luz.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.51,-12.95">Google Maps</a>]]></description>
+    <name>Frontera · Entrada del bucle — Gbalamuya / Pamelap (desde Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso principal del país y el único bien documentado: enfrente del puesto guineano de Pamelap, en la carretera Conakry-Freetown, asfaltada de punta a punta. La web oficial de turismo de Sierra Leona lo describe como el punto de entrada principal para quien llega de Conakry y de África occidental, con 6-8 horas de trayecto total Conakry-Freetown, y avisa de que el cruce puede llevar varias horas por colas y trámites administrativos. Requisitos del vehículo según esa misma fuente: permiso de circulación, carnet de conducir y pasaporte, seguro de responsabilidad civil válido en Sierra Leona (se recomienda expresamente la Brown Card de la CEDEAO) y carnet de paso en aduana O permiso de importación temporal. Certificado de fiebre amarilla comprobado. Cruzar siempre de día. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.1167,-12.9167">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-12.95,9.51,0</coordinates></Point>
+    <Point><coordinates>-12.9167,9.1167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Jendema / Bo-Waterside (hacia Liberia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Ruta menos usada que la de Guinea; mismos requisitos documentales. Confirmar estado de la vía en temporada de lluvias antes de salir.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.85,-11.25">Google Maps</a>]]></description>
+    <name>Frontera · Salida por defecto — Gbalamuya / Pamelap (de vuelta a Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>La salida conservadora del bucle: se sale por donde se entró y se retoma el corredor guineano de subida por Forécariah-Coyah-Kindia-Mamou-Labé. Tiene la ventaja de ser el único paso con garantías y el inconveniente de repetir el tramo Kambia-Freetown. Si se elige esta opción, conviene hacer el bucle en sentido horario (sur primero, norte después) para no repetir carretera dentro de Sierra Leona.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.1167,-12.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.9167,9.1167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida alternativa norte — Kamakwie / Madina Oula (hacia Kindia, Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>POR CONFIRMAR. Paso menor del noroeste, en la zona de Outamba-Kilimi, que permitiría salir directamente desde el parque hacia el eje guineano de Kindia sin repetir Gbalamuya. No se ha localizado documentación operativa: puede no tener aduana habilitada para vehículos extranjeros ni capacidad para sellar CPD, que es el riesgo real. NO contar con este paso hasta verificarlo con overlanders recientes o con la aduana. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.95,-12.25">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.25,9.95,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida alternativa noreste — Kabala / Faranah (hacia la Alta Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>POR CONFIRMAR. Paso de montaña del noreste que conectaría Kabala y las Loma directamente con Faranah, en Guinea — es decir, con el nacimiento del Níger y con el corredor guineano de subida por Dabola. Sería, sobre el papel, el encaje perfecto del bucle: entrar por Gbalamuya y salir por aquí, sin repetir un solo kilómetro. Pero es un paso secundario, mal documentado, en pista, y con aduana incierta para un vehículo extranjero con CPD. VERIFICAR ANTES DE CONTAR CON ÉL. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.7,-11.2">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.2,9.7,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Jendema / Bo-Waterside (hacia Liberia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del sureste hacia Liberia, operativo y con tráfico comercial. NO se usa en este plan: Liberia está excluida de la ruta fija por el problema del visado (ver la ficha de Liberia). Se documenta porque es uno de los tres puntos donde Sierra Leona expide visado a la llegada y porque, si el problema liberiano se resolviera, sería la puerta de enlace natural desde Sulima y Zimmi.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.85,-11.25">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-11.25,6.85,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Cobertura consular española (referencia)</name>
-    <description><![CDATA[<b>Consular</b><br/>Sin embajada de España en Sierra Leona: la demarcación consular corresponde a la Embajada de España en Conakry (Guinea), +224 664 20 22 01, emergencia +224 664 33 54 93.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.53,-13.68">Google Maps</a>]]></description>
+    <name>Cobertura consular española — Embajada en Conakry (Guinea)</name>
+    <description><![CDATA[<b>Consular</b><br/>España no tiene embajada en Freetown: la demarcación consular corresponde a la Embajada de España en Conakry. Cancillería +224 664 20 22 01 · Sección consular +224 613 33 90 90 · Emergencia consular grave +224 664 33 54 93. Es una ventaja relativa de este bucle: la embajada de referencia está a un día de camino, en el país por el que se entra y se sale.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.53,-13.68">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.68,9.53,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Connaught Hospital — Freetown</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital público de referencia en la capital; capacidad limitada para politraumatismos graves. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.487,-13.234">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital público de referencia del país, en el centro de Freetown. Capacidad limitada para politraumatismos graves. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.487,-13.234">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.234,8.487,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Holy Spirit Hospital — Makeni</name>
+    <description><![CDATA[<b>Hospital</b><br/>El mayor hospital privado de la Provincia del Norte y la referencia sanitaria realista de todo el tramo de montaña (Kabala, Loma, Outamba). Entre Makeni y las Loma no hay nada equivalente.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.8817,-12.0442">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.0442,8.8817,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kenema Government Hospital · unidad de fiebre de Lassa</name>
+    <description><![CDATA[<b>Hospital</b><br/>Una de las pocas unidades del mundo dedicadas al tratamiento y la investigación de la fiebre de Lassa, en funcionamiento desde los años setenta con el Viral Hemorrhagic Fever Consortium. Fue aquí donde se diagnosticó el primer caso de ébola de Sierra Leona el 25 de mayo de 2014. Referencia del sureste.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.8767,-11.1875">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.1875,7.8767,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Combustible · Freetown</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Petroleum SL, ORYX); repostar aquí siempre que sea posible.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.484,-13.2299">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, NP/Petroleum SL, Leonoil). Repostar a fondo aquí antes de la península y antes de bajar al sureste.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.484,-13.2299">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.2299,8.484,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Freetown (supermercados y garrafas)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada disponible en la capital; fuera de Freetown, tratar o hervir el agua local antes de consumirla.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.484,-13.2299">Google Maps</a>]]></description>
+    <name>Combustible · Bo, Kenema, Makeni</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en las tres ciudades grandes del interior, que son los tres puntos de repostaje seguros del bucle. Bo es el último antes de Tiwai y Gola; Makeni, el último antes de Kabala y de la montaña.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.9564,-11.74">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.74,7.9564,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Kabala y Kamakwie (incierto)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Puntos de venta elementales y a veces en garrafa. NO dar por hecho el suministro: salir de Makeni con depósitos y garrafas llenos para cubrir Kabala, la aproximación a las Loma, Kamakwie y Outamba-Kilimi y la vuelta (~500-600 km de ida y vuelta con consumo de pista).<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5833,-11.55">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.55,9.5833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · Freetown y ciudades principales</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa en Freetown, Bo, Kenema y Makeni. Para el depósito de uso general (ducha, aseo, limpieza), estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca beber del grifo.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.484,-13.2299">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.2299,8.484,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Bo-Waterside/Jendema (desde Sierra Leona)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto operativo 08:00-18:00 con tráfico comercial denso (camiones y buses); control de inmigración liberiano. Reservar margen de tiempo por congestión.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.85,-11.25">Google Maps</a>]]></description>
+    <name>Agua · península de Freetown y montaña</name>
+    <description><![CDATA[<b>Agua potable</b><br/>En la península hay agua corriente en los alojamientos de River No. 2, Tokeh y Bureh, y arroyos de montaña abundantes — tratar siempre. En las Loma y en Outamba, el agua es de río o de pozo del pueblo: filtro mecánico más tratamiento químico o ebullición, sin excepción. Salir de Kabala con los depósitos llenos.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.323,-13.1866">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.1866,8.323,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · BLOQUEADA para nosotros — Bo-Waterside / Jendema (desde Sierra Leona)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto principal del oeste, con tráfico comercial denso de camiones y autobuses. Operativo y funcional — pero no para un pasaporte español sin visado estampado previo: el visado electrónico liberiano solo se expide en el aeropuerto internacional de Monrovia, no en frontera terrestre. Con visado consular en mano, es el paso más lógico desde Sierra Leona.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.85,-11.25">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-11.25,6.85,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Loguatuo/Ganta (hacia Costa de Marfil, vía Danané)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal hacia el oeste de Costa de Marfil desde Ganta; confirmar estado de la vía y horarios antes de salir.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.2833,-8.1667">Google Maps</a>]]></description>
+    <name>Frontera · BLOQUEADA para nosotros — Ganta / Nzérékoré (desde Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del noreste desde la Guinea forestal, marcado por el río Mano. Sería la entrada natural si Liberia se insertara entre Guinea y Costa de Marfil, que es exactamente el hueco que el proyecto ha tenido que cerrar saltando directo de Guinea a Costa de Marfil por N'Zo/Gbapleu. Mismo bloqueo de visado.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.2333,-8.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.9833,7.2333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida hipotética — Loguatuo / Ganta (hacia Danané, Costa de Marfil)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal hacia el oeste marfileño. Sería la salida del corredor liberiano y el punto de reenganche con el trazado ya previsto de Costa de Marfil. POR CONFIRMAR horarios y sellado de CPD. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.2833,-8.1667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-8.1667,7.2833,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Embajada de Liberia en Conakry (Guinea) · LA VÍA DE SOLUCIÓN</name>
+    <description><![CDATA[<b>Consular</b><br/>PIEZA CLAVE DE ESTA FICHA. Liberia mantiene embajada en Conakry, en Freetown, en Abiyán, en Accra y en Dakar. Cualquiera de ellas puede, en principio, estampar un visado en el pasaporte antes de llegar a la frontera terrestre, que es exactamente lo que el visado electrónico no resuelve. Conakry es la más útil para nosotros porque el corredor del proyecto pasa por allí, y porque coincide con la parada donde ya hay que tramitar otros visados del bloque. POR CONFIRMAR por teléfono o correo: si expide a extranjeros NO residentes en Guinea, requisitos, plazo de tramitación y coste. Coordenada urbana aproximada — localizar la dirección exacta al confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.535,-13.675">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.675,9.535,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de Liberia en París (cubre España)</name>
+    <description><![CDATA[<b>Consular</b><br/>Liberia NO tiene embajada en España: la demarcación corresponde a su embajada en París, que cubre además Bulgaria, Chipre, Grecia, Mónaco, Portugal, Suiza y la UNESCO. Es la vía para sacar el visado ANTES de salir de Barcelona. El problema es de calendario, no de trámite: un visado turístico suele tener una ventana de validez de tres meses desde su emisión, y Liberia caería en el tercer o cuarto mes de la bajada — es decir, probablemente caducado antes de llegar. POR CONFIRMAR si existe una modalidad de validez larga o de entrada diferida. Coordenada de referencia de París.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=48.8566,2.3522">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.3522,48.8566,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Embajada de España en Abidjan (cobertura de Liberia)</name>
-    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. +225 22 44 48 50 · emb.abidjan@maec.es. Sin embajada española en Monrovia desde 1990.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.36,-3.97">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. +225 22 44 48 50 · emb.abidjan@maec.es. España no tiene embajada en Monrovia desde 1990: la referencia consular para cualquier incidencia grave en Liberia está en Costa de Marfil.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.36,-3.97">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-3.97,5.36,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>John F. Kennedy Medical Center — Monrovia</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; capacidad limitada para politraumatismos graves. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.29,-10.76">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país. Capacidad limitada para politraumatismos graves; la evacuación realista es a Accra, a Dakar o a Europa. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.29,-10.76">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-10.76,6.29,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Monrovia</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, ExxonMobil/Liberia Petroleum); repostar aquí antes de tramos hacia el interior.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3156,-10.8074">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-10.8074,6.3156,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Combustible · Ganta</name>
-    <description><![CDATA[<b>Combustible</b><br/>Última ciudad grande con estaciones formales antes de la frontera de Loguatuo hacia Costa de Marfil.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.2333,-8.9833">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <name>Ganta Hospital — Nimba</name>
+    <description><![CDATA[<b>Hospital</b><br/>Atiende a unas 450.000 personas del condado de Nimba y de la región fronteriza: la única referencia sanitaria seria de todo el noreste.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.2333,-8.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-8.9833,7.2333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Monrovia (supermercados y garrafas)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada disponible en la capital; fuera de Monrovia, tratar o hervir el agua local, especialmente cerca de Sapo.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3156,-10.8074">Google Maps</a>]]></description>
+    <name>Combustible · Monrovia</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Aminata, Srimex/LPRC). Repostar a fondo aquí antes de cualquier tramo interior o del sureste.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3131,-10.8014">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-10.8014,6.3131,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Buchanan, Gbarnga, Ganta, Zwedru</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en las ciudades del eje asfaltado Monrovia-Gbarnga-Ganta y en Buchanan. Zwedru tiene suministro pero irregular. Buchanan es el último repostaje seguro antes del sureste.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.88,-10.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-10.05,5.88,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · sureste (Greenville, Harper) — INCIERTO</name>
+    <description><![CDATA[<b>Combustible</b><br/>AVISO SERIO: entre Buchanan y Harper, pasando por Greenville, no hay ninguna garantía de suministro formal y buena parte del combustible se compra en garrafa a pie de carretera. Con los ~600 km de vía costera del sureste en el estado en que están, este es el tramo de mayor riesgo logístico de todo el país. Autonomía completa y garrafas llenas desde Buchanan.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.0167,-9.0333">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.0333,5.0167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · Monrovia y ciudades del eje asfaltado</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de Monrovia y en las ciudades del eje Gbarnga-Ganta. Para el depósito de uso general, estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca beber del grifo.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3131,-10.8014">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-10.8074,6.3156,0</coordinates></Point>
+    <Point><coordinates>-10.8014,6.3131,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · sureste y Sapo</name>
+    <description><![CDATA[<b>Agua potable</b><br/>En el sureste y en la aproximación a Sapo no hay ningún punto fiable: agua de río tratada con filtro mecánico más tratamiento químico o ebullición. Salir de Greenville con toda la reserva llena. Paradoja: es el país más lluvioso de la región y a la vez uno de los más difíciles para conseguir agua potable fuera de la capital.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.4,-8.8">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.8,5.4,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Gbapleu / N'Zoo (desde Guinea)</name>
@@ -1317,50 +1436,78 @@
     <Point><coordinates>9.9096,2.9369,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Ambam/Bitam (desde Camerún) o Kyé-Ossi (desde la zona de las tres fronteras)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Zona de las tres fronteras Camerún-Gabón-Guinea Ecuatorial; carretera asfaltada desde Yaundé, fuera de las áreas de conflicto camerunesas.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.0833,11.4833">Google Maps</a>]]></description>
+    <name>Frontera · Entrada — Eboro/Abang-Minko'o, cerca de Bitam (desde Camerún)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Zona de las tres fronteras Camerún-Gabón-Guinea Ecuatorial, al sur de Ambam y Kyé-Ossi. Carretera asfaltada desde Yaundé y fuera de las áreas de conflicto anglófonas camerunesas. AQUÍ ESTÁ EL PROBLEMA: es un puesto TERRESTRE, y el eVisa gabonés solo vale para llegadas aéreas al aeropuerto Léon Mba de Libreville. Sin visado consular previo, este paso no se cruza. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.0833,11.4833">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>11.4833,2.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Salida — Doussala/Ndendé (hacia Congo-Brazzaville)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal hacia Dolisie; carretera asfaltada en el lado gabonés, confirmar estado de la pista en el lado congoleño antes de salir.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.8333,10.9167">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal del suroeste hacia Dolisie (Congo). Asfalto en el lado gabonés; confirmar el estado de la pista del lado congoleño. La ficha de Congo ya lo recoge como alternativa informativa desde Dolisie.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.8333,10.9167">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>10.9167,-2.8333,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Frontera · Salida este — hacia Okoyo (Congo), por Léconi</name>
+    <description><![CDATA[<b>Frontera</b><br/>Salida oriental desde las mesetas Batéké hacia Okoyo, que está en el corredor de SUBIDA de la ficha de Congo (Djambala-Lékana-Okoyo). Encajaría muy bien sobre el papel, pero POR CONFIRMAR que el paso existe como puesto internacional habilitado y que admite vehículos particulares extranjeros. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.65,14.4">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.4,-1.65,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de Gabón en Madrid (y consulados de Barcelona y Bilbao)</name>
+    <description><![CDATA[<b>Consular</b><br/>AQUÍ ES DONDE SE RESUELVE EL PROBLEMA DEL VISADO. Gabón mantiene embajada en Madrid y consulados en Barcelona y Bilbao: es la vía para obtener el visado tradicional en pasaporte que exige la entrada terrestre. Confirmar por teléfono tasas, plazos y documentación exigida a un viaje overland sin billete de avión. Coordenada: Madrid, referencia.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=40.4168,-3.7038">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-3.7038,40.4168,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Embajada de España en Libreville</name>
-    <description><![CDATA[<b>Consular</b><br/>Immeuble Diamant, 2º piso, Bd. de la Nation (cruce con Rue Dr. Cureau), B.P. 1157, Libreville. Tel. +241 (0)11 72 12 64 · Emergencia consular: +241 (0)66 44 47 47. También acreditada en Santo Tomé y Príncipe (no en Congo-Brazzaville).<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3936,9.455">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Immeuble Diamant, 2º piso, Bd. de la Nation (cruce con Rue Dr. Cureau), B.P. 1157, Libreville. Tel. +241 (0)11 72 12 64 · Emergencia consular: +241 (0)66 44 47 47. Abierta desde 1962; también acreditada en Santo Tomé y Príncipe (no en Congo-Brazzaville).<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3936,9.455">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.455,0.3936,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Centre Hospitalier Universitaire de Libreville</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia del país. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4247,9.4142">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia del país. Fuera de Libreville la infraestructura sanitaria es mínima: seguro con evacuación médica imprescindible. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4247,9.4142">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.4142,0.4247,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>CIRMF · Franceville (referencia sanitaria del este)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Centre International de Recherches Médicales de Franceville: instituto biomédico con laboratorio de bioseguridad nivel 4, uno de los pocos de África, central en la investigación del ébola. No es un hospital para viajeros, pero marca dónde está la capacidad técnica del este del país.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.6333,13.5833">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.5833,-1.6333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Combustible · Libreville</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Petro Gabon); repostar a fondo antes del tramo largo hacia el sur.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4162,9.4673">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Petro Gabon); repostar a fondo antes de cualquier tramo largo.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4162,9.4673">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.4673,0.4162,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Lambaréné / Mayumba</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en el eje sur; confirmar disponibilidad real en Mayumba, última plaza antes de Congo-Brazzaville.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.7,10.2333">Google Maps</a>]]></description>
+    <name>Combustible · Lambaréné / Mouila / Ndendé (eje sur, N1)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en los núcleos del eje sur; confirmar disponibilidad real en Ndendé, última plaza antes de la frontera congoleña.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.7,10.2333">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>10.2333,-0.7,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Combustible · Makokou / Franceville (eje este)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Las dos plazas del interior. Entre Makokou e Ivindo, y en las mesetas Batéké, no hay suministro: entrar con garrafas llenas.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.6333,13.5833">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.5833,-1.6333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Agua potable y de uso general · Libreville</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Libreville y Lambaréné permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4162,9.4673">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Libreville, Lambaréné y Franceville permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4162,9.4673">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.4673,0.4162,0</coordinates></Point>
@@ -2038,18 +2185,46 @@
     <Point><coordinates>35.5453,-23.8544,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Zóbuè/Mwanza (desde Mozambique)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce del corredor de Tete; carretera asfaltada, controles rutinarios sin incidencias reportadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.1167,33.05">Google Maps</a>]]></description>
+    <name>Frontera · Songwe / Kasumulu (Tanzania)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso natural de entrada si Malaui se inserta viniendo de Tanzania: puente sobre el río Songwe, en la M1 al norte de Karonga, enfrentado a Kasumulu (Tanzania) y a una hora larga de Mbeya. Es el único cruce carretero relevante con Tanzania y está bien rodado por el tráfico regional. Coordenada aproximada: verificar. Horario y trámite de vehículo por confirmar 72 h antes.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.5333,33.55">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>33.05,-16.1167,0</coordinates></Point>
+    <Point><coordinates>33.55,-9.5333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Songwe (hacia Tanzania)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puente sobre el río Songwe, al norte de Karonga; cruce estándar hacia Mbeya (Tanzania), con puesto integrado a ambos lados.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.3833,33.7167">Google Maps</a>]]></description>
+    <name>Frontera · Chiponde / Mandimba (Mozambique — Niassa)</name>
+    <description><![CDATA[<b>Frontera</b><br/>SALIDA PREFERENTE de la variante corta: desde Mangochi hacia Mandimba y de ahí a Cuamba o Lichinga, es decir, directamente al Niassa mozambiqueño. Es el paso que permite hacer Malaui SIN renunciar al norte de Mozambique (Niassa, Nampula, Ilha de Moçambique). Pista en el lado mozambiqueño; confirmar estado y horario. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.45,35.6333">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>33.7167,-9.3833,0</coordinates></Point>
+    <Point><coordinates>35.6333,-14.45,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Mwanza / Zóbuè (Mozambique — corredor de Tete)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Salida del bucle completo, a ~110 km de Blantyre por asfalto: es el corredor de camiones de Tete y el mismo paso que la ficha de Mozambique ya identifica como plan B de entrada al país. Tráfico pesado y colas. Lleva a Tete y al sur/centro de Mozambique, renunciando al norte.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.6136,34.3856">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.3856,-15.6136,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Muloza / Milange (Mozambique — Zambezia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Tercera salida posible, al pie de Mulanje, hacia Mocuba y Quelimane. Encaja muy bien si el último bloque es Mulanje y el té, pero deja fuera Majete. Menos transitada que Zóbuè. Coordenada aproximada: verificar.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.0833,35.75">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.75,-16.0833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Mchinji / Mwami (Zambia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso con Zambia, a ~110 km al oeste de Lilongüe, enfrentado a Chipata (Zambia) y a la puerta de South Luangwa. Solo relevante en la variante que entra o sale por Zambia; obliga a replantear el corredor norte zambiano, que en la ruta actual termina en Nakonde. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.7667,32.7333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.7333,-13.7667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Chitipa / Kameme (Zambia, extremo norte)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Cruce remoto del extremo noroeste, hacia Isoka (Zambia), que permitiría entrar a Malaui desde el norte de Zambia sin pasar por Tanzania. Pista, poco tráfico y muy poco documentado: POR CONFIRMAR que admite vehículos extranjeros y que emite/valida el visado. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.7,33.27">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.27,-9.7,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Consulado Honorario de España en Lilongwe</name>
@@ -2060,31 +2235,66 @@
   </Placemark>
   <Placemark>
     <name>Embajada de España en Harare (competente para Malaui)</name>
-    <description><![CDATA[<b>Consular</b><br/>16 Phillips Ave., Belgravia, P.O. Box 3300, Harare (Zimbabue). Tel. +263 (0)242 250740/1 · Emergencia consular: +263 (0)772 436 620. Referencia diplomática de Malaui y Zambia; contactar directamente el consulado honorario de Lilongüe para gestiones ordinarias y solo Harare para trámites mayores.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8292,31.0522">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>16 Phillips Ave., Belgravia, P.O. Box 3300, Harare (Zimbabue). Tel. +263 (0)242 250740/1 · Emergencia consular: +263 (0)772 436 620. Referencia diplomática de Malaui y Zambia; para gestiones ordinarias, contactar primero con el consulado honorario de Lilongüe.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8292,31.0522">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.0522,-17.8292,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Hospital Kamuzu Central, Lilongwe</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia de la capital; mejor opción sanitaria del tramo junto con clínicas privadas de Blantyre.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9553,33.7614">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital de referencia de la capital y del centro del país; para lo serio, la práctica regional es la evacuación a Sudáfrica.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9553,33.7614">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>33.7614,-13.9553,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Zomba / Blantyre / Lilongwe</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (Puma, Total, OilCom) en las principales ciudades del corredor sur-norte; sin gap relevante de 500 km en el eje previsto.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.3833,35.3333">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>35.3333,-15.3833,0</coordinates></Point>
+    <name>Queen Elizabeth Central Hospital, Blantyre</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia nacional, en la capital comercial; mejor opción del sur, junto con las clínicas privadas de Blantyre y Limbe.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.7861,35.0058">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.0058,-15.7861,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Lilongwe y Cabo Maclear</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de Lilongwe y Blantyre; lodges y campings de Cabo Maclear y Liwonde permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9626,33.7741">Google Maps</a>]]></description>
+    <name>Hospital de Mzuzu (norte)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia sanitaria del bloque norte: Nyika, Livingstonia, Nkhata Bay y toda la costa hasta Karonga dependen de aquí.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.4581,34.015">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.015,-11.4581,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Karonga / Mzuzu / Rumphi (norte)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Las tres plazas del norte. Repostar a fondo en Mzuzu o Rumphi antes de subir a Nyika y antes del escarpe de Livingstonia: arriba no hay nada.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-11.4581,34.015">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.015,-11.4581,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Lilongwe</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país junto con Blantyre (Puma, Total, Petroda). Punto de repostaje a fondo.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9833,33.7681">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.7681,-13.9833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Blantyre / Zomba (sur)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Plaza principal del sur; última oferta grande antes de Mulanje, Thyolo, Majete y las fronteras mozambiqueñas.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.7861,35.0058">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.0058,-15.7861,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Lilongwe, Blantyre, Mzuzu</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las tres ciudades; lodges y campings permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9833,33.7681">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>33.7741,-13.9626,0</coordinates></Point>
+    <Point><coordinates>33.7681,-13.9833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua · campings del lago (Cabo Maclear, Nkhata Bay, Chintheche, Senga Bay)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Todos los campings de la orilla tienen agua corriente y duchas; potabilizar antes de beber. NO usar agua del lago sin filtrar y tratar (bilharzia).<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.0206,34.8306">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.8306,-14.0206,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada interior — Tunduma/Nakonde (desde Zambia)</name>
@@ -2395,130 +2605,221 @@
     <Point><coordinates>31.2357,30.0444,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Karang/Amdalai (con Senegal, oeste)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce más usado desde la Petite Côte senegalesa; protocolo binacional específico para no perder el corredor base del proyecto por Senegal.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.2167,-16.7">Google Maps</a>]]></description>
+    <name>Frontera · Entrada — Séléti (desde la Casamance, eje Ziguinchor-Brikama)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal desde la Casamance senegalesa por la carretera de Ziguinchor a Brikama y los Kombos. Es la entrada natural del corredor de subida. COORDENADA APROXIMADA y horario POR CONFIRMAR 72 h antes. Al entrar se sale de la zona del franco CFA y se pasa al dalasi: cambiar solo lo justo.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.1,-16.52">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-16.7,13.2167,0</coordinates></Point>
+    <Point><coordinates>-16.52,13.1,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Keur Ayib/Farafenni (con Senegal, este)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Alternativa oriental si el desvío a Gambia se hace desde el interior de Senegal en lugar de la costa.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5667,-15.6">Google Maps</a>]]></description>
+    <name>Frontera · Entrada alternativa — Darsilami / Kartong-Allahein (litoral)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Alternativa litoral para entrar directamente a Kartong desde la Basse Casamance. El cruce del río Allahein es en piragua para peatones: POR CONFIRMAR si existe paso practicable con vehículo o si obliga a rodear por Darsilami/Séléti. No darlo por bueno sin verificación.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.0833,-16.7583">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-15.6,13.5667,0</coordinates></Point>
+    <Point><coordinates>-16.7583,13.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Banjul</name>
-    <description><![CDATA[<b>Consular</b><br/>Oficina de la embajada de España en Banjul (dependiente de Dakar para trámites mayores); confirmar dirección y teléfono exactos 30-60 días antes — información pendiente de verificación directa.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4549,-16.579">Google Maps</a>]]></description>
+    <name>Frontera · Salida oeste — Amdalai / Karang (hacia la Petite Côte y Dakar)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Salida del eje costero: carretera del norte desde Barra, ~30 km. Es el paso que enlaza con Toubacouta, el delta del Saloum, Kaolack y Dakar, y por tanto con el lago Retba. Muy transitado y bien rodado por overlanders; horario amplio pero cruzar por la mañana. Coordenada aproximada del lado gambiano.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4917,-16.5333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.5333,13.4917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida este — Keur Ayib / Farafenni (Trans-Gambia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Salida de la variante del río arriba, al norte de Farafenni por la carretera Trans-Gambia. Enlaza con Kaolack por el interior. Coordenada tomada de la ficha de Senegal para mantener la coherencia entre las dos fichas.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5933,-15.6058">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.6058,13.5933,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ferry de vehículos · Banjul – Barra</name>
+    <description><![CDATA[<b>Frontera</b><br/>Transbordador de vehículos de ~4 km sobre el estuario, gestionado por Gambia Ferries Services. Travesía 30-45 min, cola de 2-5 h en día malo. Historial de averías y suspensiones: CONFIRMAR que opera el día antes. Plan B: puente de Senegambia (Farafenni-Soma), ~110 km río arriba.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4542,-16.5753">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.5753,13.4542,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puente de Senegambia (Farafenni – Soma)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puente de 1,9 km (942 m sobre el río) abierto a vehículos ligeros el 21 de enero de 2019; financiado por el Banco Africano de Desarrollo (65 M$ de 93 M$) y construido por Isolux Corsán (España) con el grupo senegalés Arezki. Redujo el trayecto Dakar-Ziguinchor de un día a unas cinco horas y sustituyó al viejo ferry de la Trans-Gambia, que llegaba a acumular esperas de 10-20 días para camiones. ES LA OPCIÓN FIABLE PARA CRUZAR EL RÍO CON VEHÍCULO. Peaje: POR CONFIRMAR (hay disputa documentada entre Gambia Ferries Services y la National Roads Authority sobre la recaudación). Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.49,-15.55">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.55,13.49,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Banjul (referencia: Dakar)</name>
+    <description><![CDATA[<b>Consular</b><br/>España NO tiene embajada residente en Banjul: la competencia es de la Embajada de España en Dakar (Senegal), que es la referencia consular real de todo el tramo. Existe representación honoraria en Banjul — CONFIRMAR dirección, teléfono y vigencia 30-60 días antes; dato pendiente de verificación directa.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4549,-16.579">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-16.579,13.4549,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Royal Victoria Teaching Hospital, Banjul</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; capacidad limitada — seguro con evacuación médica real recomendable.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.454,-16.5776">Google Maps</a>]]></description>
+    <name>Edward Francis Small Teaching Hospital (ex Royal Victoria) — Banjul</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país, en Banjul. Capacidad limitada para traumatismos graves: el seguro con evacuación médica (a Dakar, que está a 300 km y tiene el mejor nivel de la subregión) es imprescindible. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.454,-16.5776">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-16.5776,13.454,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Banjul / Serrekunda</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en la conurbación de Banjul-Serrekunda-Kotu; sin gap relevante dado lo compacto del país.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4549,-16.579">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-16.579,13.4549,0</coordinates></Point>
+    <name>Clínicas privadas y veterinarios · Kombos (Serrekunda, Kololi, Fajara)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Las clínicas privadas de la zona de los Kombos cubren urgencias menores mejor que el hospital público. Es también donde están los veterinarios del país; para cualquier cosa seria, Dakar. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4383,-16.6781">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.6781,13.4383,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Serrekunda / Kotu</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en la zona turística; hoteles de Kotu permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4526,-16.7069">Google Maps</a>]]></description>
+    <name>Combustible · Kombos (Serrekunda, Kololi, Bakau, Brikama)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (GACH, Jah Oil, Total). Repostar a fondo aquí antes de subir el río: al este de Soma la red se vuelve escasa.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4383,-16.6781">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.6781,13.4383,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Soma / Farafenni (nudo de la Trans-Gambia)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Nudo de las dos orillas junto al puente de Senegambia y última oferta razonable antes del tramo largo hacia Janjanbureh. Llegar lleno y salir lleno.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.43,-15.53">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.53,13.43,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Janjanbureh / Bansang</name>
+    <description><![CDATA[<b>Combustible</b><br/>Oferta limitada e irregular del río arriba. POR CONFIRMAR sobre el terreno; llevar garrafa de reserva desde Soma. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5333,-14.7667">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.7667,13.5333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Kombos y Tendaba</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en toda la franja costera y en Serrekunda. Los hoteles de Kotu/Kololi y el Tendaba Camp permiten llenar el depósito de uso general con manguera; confirmar en recepción. Del río arriba, garantizar la reserva completa antes de salir de Soma.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4526,-16.7069">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-16.7069,13.4526,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Puesto de Sani Pass (con Sudáfrica)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto fronterizo en lo alto del puerto; pista de montaña de tierra y roca en el lado lesotense, exigente en mal tiempo o con nieve.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.59,29.28">Google Maps</a>]]></description>
+    <name>Frontera · Caledonspoort (con Sudáfrica, Free State)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Entrada norte, desde Fouriesburg/Clarens: la puerta cómoda del país y la más cercana a Ts'ehlanyane (45 minutos de asfalto). Horario amplio (aprox. 06:00–22:00, confirmar). Coordenadas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.6833,28.3667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>29.28,-29.59,0</coordinates></Point>
+    <Point><coordinates>28.3667,-28.6833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Maseru Bridge (con Sudáfrica)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce principal y más transitado, asfaltado, si se opta por una vuelta completa por carretera en lugar de solo Sani Pass.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.32,27.52">Google Maps</a>]]></description>
+    <name>Frontera · Maseru Bridge (con Sudáfrica, Free State)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso principal del país, junto a la capital y a 20 km de Ladybrand. ABIERTO 24 HORAS. Es el más transitado y el de trámite más formal: la referencia si hay que resolver papeleo.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.3167,27.4667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>27.52,-29.32,0</coordinates></Point>
+    <Point><coordinates>27.4667,-29.3167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Sani Pass (con Sudáfrica, KwaZulu-Natal)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El puesto está ARRIBA DEL TODO, en la cima del paso, a 2.874 m. Abre de 6:00 a 18:00 en ambos lados y no se cruza fuera de horario. Sudáfrica exige 4x4 para subir. Es la salida espectacular del país hacia el Drakensberg de KZN.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.5836,29.2879">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.2879,-29.5836,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Qacha's Nek (con Sudáfrica, Cabo Oriental)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puerta del sureste y acceso rodado a Sehlabathebe. Horario limitado. Alternativa: Ramatseliso's Gate, más al este y más cerca del parque, pero con pista dura. Coordenadas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-30.1167,28.6833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.6833,-30.1167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Tele Bridge (con Sudáfrica, Cabo Oriental)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del extremo sur junto a Quthing, hacia Sterkspruit. Útil para entrar o salir por el sur combinando con las huellas de dinosaurio. Coordenadas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-30.4333,27.7333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.7333,-30.4333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Pretoria (competente para Lesoto)</name>
-    <description><![CDATA[<b>Consular</b><br/>Referencia diplomática de Lesoto, Madagascar, Mauricio y Comores; gestionar trámites mayores a través de Pretoria (Sudáfrica) — ver ficha de Sudáfrica para el contacto completo.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.7461,28.1871">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>No hay representación española en Lesoto: la competencia es de la Embajada de España en Pretoria (Sudáfrica). Comprobar teléfono de emergencia consular vigente antes de entrar.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.75,28.2333">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>28.1871,-25.7461,0</coordinates></Point>
+    <Point><coordinates>28.2333,-25.75,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Queen Mamohato Memorial Hospital, Maseru</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; para necesidades serias, evacuación hacia Sudáfrica (Bloemfontein o Durban) es la opción real.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.32,27.5">Google Maps</a>]]></description>
+    <name>Queen 'Mamohato Memorial Hospital, Maseru</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país. Para cualquier cosa seria, la práctica es evacuación a Bloemfontein o Johannesburgo (Sudáfrica), que están cerca: es una de las ventajas de que Lesoto sea un enclave.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.31,27.48">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>27.5,-29.32,0</coordinates></Point>
+    <Point><coordinates>27.48,-29.31,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Maseru</name>
-    <description><![CDATA[<b>Combustible</b><br/>Única concentración fiable de estaciones formales si se hace la vuelta completa por el país; repostar a fondo antes de cualquier tramo de montaña.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.3167,27.4833">Google Maps</a>]]></description>
+    <name>Combustible · Butha-Buthe, Maseru, Mokhotlong, Thaba-Tseka, Semonkong, Quthing</name>
+    <description><![CDATA[<b>Combustible</b><br/>Red escasa y de fiabilidad variable en la montaña. Repostar SIEMPRE que se pueda y llevar garrafas: entre Butha-Buthe y Mokhotlong por la A1, y en el interior (Thaba-Tseka, Semonkong, Sehlabathebe), la disponibilidad no está garantizada.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.31,27.48">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>27.4833,-29.3167,0</coordinates></Point>
+    <Point><coordinates>27.48,-29.31,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Maseru</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en la capital; lodges de montaña cerca de Sani Pass permiten llenar el depósito de uso general con manguera, confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.3167,27.4833">Google Maps</a>]]></description>
+    <name>Agua potable y de uso general · Maseru, Butha-Buthe, Semonkong</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en Maseru y en las cabeceras de distrito. El agua de los arroyos de altura es de las más limpias del continente (es la que Lesoto vende a Sudáfrica), pero hay ganado por todas partes: filtrar y potabilizar siempre. Lodges de Semonkong, Malealea y Ts'ehlanyane permiten llenar el depósito de uso general.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.31,27.48">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>27.4833,-29.3167,0</coordinates></Point>
+    <Point><coordinates>27.48,-29.31,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Ngwenya/Oshoek (con Sudáfrica)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce principal y más transitado desde Sudáfrica (Mpumalanga); asfaltado y bien equipado.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.1667,31.0">Google Maps</a>]]></description>
+    <name>Frontera · Ngwenya / Oshoek (con Sudáfrica, Mpumalanga)</name>
+    <description><![CDATA[<b>Frontera</b><br/>EL PASO PRINCIPAL del país, en la carretera de Johannesburgo y Mbabane, y el más cercano a la mina de Ngwenya y a Malolotja. Es el más transitado y el de horario más amplio (aprox. 07:00–22:00, CONFIRMAR). Coordenadas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.2,31.0167">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.0,-26.1667,0</coordinates></Point>
+    <Point><coordinates>31.0167,-26.2,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Lomahasha/Namaacha (con Mozambique)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce hacia Mozambique en el extremo noreste del país; permite enlazar directamente Esuatini con el corredor de Maputo.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.95,31.9333">Google Maps</a>]]></description>
+    <name>Frontera · Matsamo / Jeppe's Reef (con Sudáfrica, Mpumalanga)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del norte, el enlace natural con el Kruger por Malelane. Útil si el desvío se encaja viniendo del Kruger. Horario limitado. Coordenadas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.7167,31.3167">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.9333,-25.95,0</coordinates></Point>
+    <Point><coordinates>31.3167,-25.7167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Maputo (competente para Esuatini)</name>
-    <description><![CDATA[<b>Consular</b><br/>Rua Damião de Góis, 347, Maputo (Mozambique). Tel. (+258) 21 49 20 25/27/30 · Emergencia consular 24h: (+258) 84 32 82 900. Gestionar trámites mayores a través de esta embajada.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.97,32.585">Google Maps</a>]]></description>
+    <name>Frontera · Lavumisa / Golela (con Sudáfrica, KwaZulu-Natal)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del sur, en la N2 hacia Durban y el Drakensberg. Es la salida lógica si el desvío se encadena con Lesoto y el sur de Sudáfrica. Horario amplio. Coordenadas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-27.3167,31.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.9167,-27.3167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Lomahasha / Namaacha (con Mozambique)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso del noreste hacia Namaacha y Maputo: la salida directa a Mozambique sin volver a entrar en Sudáfrica, que es lo que convierte a Esuatini en un desvío CORTO y no en un rodeo. Confirmar horario. Coordenadas aproximadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.9833,31.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.9833,-25.9833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Mhlumeni / Goba (con Mozambique)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Alternativa a Lomahasha, más al sur y con carretera nueva hacia Maputo; suele ser más rápido. Coordenadas aproximadas, horario por confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.2333,31.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.9833,-26.2333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Maputo (también embajada en Esuatini)</name>
+    <description><![CDATA[<b>Consular</b><br/>No hay embajada de España en Esuatini: la competencia es de la Embajada de España en Maputo (Mozambique), que es además el país al que se sale por el este. Confirmar el teléfono de emergencia consular vigente antes de entrar.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.9667,32.5833">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>32.585,-25.97,0</coordinates></Point>
+    <Point><coordinates>32.5833,-25.9667,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Mbabane Government Hospital</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; para necesidades serias, evacuación hacia Sudáfrica es la opción más fiable.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.3167,31.1333">Google Maps</a>]]></description>
+    <name>Mbabane Government Hospital / clínicas privadas de Ezulwini</name>
+    <description><![CDATA[<b>Hospital</b><br/>Red sanitaria limitada. Para cualquier cosa seria, la práctica es evacuación a Nelspruit/Mbombela o Johannesburgo (Sudáfrica), que están cerca. Comprobar que el seguro cubre la evacuación transfronteriza.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.3167,31.1333">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.1333,-26.3167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Mbabane / Ezulwini / Manzini</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en el eje urbano central del país; sin gap relevante dado el tamaño compacto de Esuatini.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.3054,31.1367">Google Maps</a>]]></description>
+    <name>Combustible · Mbabane, Ezulwini, Manzini, Piggs Peak, Simunye, Big Bend</name>
+    <description><![CDATA[<b>Combustible</b><br/>Red buena y fiable para el tamaño del país (Galp, Total, Puma, Engen), con precios habitualmente algo más baratos que en Sudáfrica. No hay ningún gap de autonomía relevante: Esuatini mide 200 km de norte a sur.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4833,31.3667">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.1367,-26.3054,0</coordinates></Point>
+    <Point><coordinates>31.3667,-26.4833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Ezulwini</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en la zona turística del valle de Ezulwini; hoteles y lodges permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.45,31.2">Google Maps</a>]]></description>
+    <name>Agua potable y de uso general · Ezulwini, Mbabane, Manzini</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de todo el país. Campings de Mlilwane, Malolotja, Hlane, Maguga y Phophonyane permiten llenar el depósito de uso general con manguera; confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4333,31.1667">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.2,-26.45,0</coordinates></Point>
+    <Point><coordinates>31.1667,-26.4333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · ENTRADA — Forbes/Machipanda (desde Mozambique)</name>
@@ -2843,88 +3144,123 @@
     <Point><coordinates>29.3833,-9.5333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Malaba (con Kenia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Principal paso del corredor Norte hacia/desde Kenia; puesto de ventanilla única, con tráfico pesado de camiones y tiempos de espera variables.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.6333,34.2667">Google Maps</a>]]></description>
+    <name>Frontera · Entrada — Malaba (con Kenia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Principal paso del Corredor Norte desde Kenia; puesto de ventanilla única (OSBP) con tráfico pesado de camiones y esperas variables. La eVisa ugandesa hay que llevarla YA IMPRESA.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.6333,34.2667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>34.2667,0.6333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Busia (con Kenia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Alternativa a Malaba, algo menos congestionada, también con formato de ventanilla única.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4667,34.0833">Google Maps</a>]]></description>
+    <name>Frontera · Entrada alternativa — Busia (con Kenia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Alternativa a Malaba, también OSBP y bastante menos congestionada de camiones; suele ser más rápida para turismo. Enlaza igual de bien con Jinja.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4667,34.0833">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>34.0833,0.4667,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Nairobi (competente para Uganda)</name>
-    <description><![CDATA[<b>Consular</b><br/>CBA Building, 3ª planta, Mara &amp; Ragati Roads, Upper Hill, Nairobi (Kenia). Tel. +254 20 272 02 22/3/4/5; emergencias +254 733 63 11 44. Gestionar trámites mayores a través de esta embajada.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2921,36.8219">Google Maps</a>]]></description>
-    <styleUrl>#icon-consular</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>36.8219,-1.2921,0</coordinates></Point>
+    <name>Frontera · Salida — Cyanika (con Ruanda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del extremo suroeste, entre Kisoro y Musanze (Ruanda): la salida lógica si se encadena Bwindi/Mgahinga con el Parque de los Volcanes. Puesto pequeño y rápido. HORARIO LIMITADO (no 24 h): confirmar antes de llegar.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2333,29.6333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.6333,-1.2333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Mulago National Referral Hospital, Kampala</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; para necesidades serias, evacuación hacia Nairobi es la práctica habitual en la región.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3419,32.5764">Google Maps</a>]]></description>
+    <name>Frontera · Salida alternativa — Katuna/Gatuna (con Ruanda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal entre Kabale y Kigali, en la carretera troncal: más tráfico y trámite más formal que Cyanika, pero mejor asfalto. Estuvo cerrado por la crisis Ruanda-Uganda de 2019-2022 y volvió a abrir: confirmar estado real antes de contar con él.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2333,29.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.9833,-1.2333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida alternativa — Mutukula (con Tanzania)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Si no se sigue a Ruanda, es la salida al sur hacia Bukoba y el lago Victoria tanzano; cae bien tras el Lago Mburo. Coordenadas aproximadas, por confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.0,31.4">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.4,-1.0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Nairobi (competente para Uganda)</name>
+    <description><![CDATA[<b>Consular</b><br/>No hay embajada de España en Uganda. CBA Building, 3ª planta, Mara &amp; Ragati Roads, Upper Hill, Nairobi (Kenia). Tel. +254 20 272 02 22/3/4/5; emergencia consular +254 733 63 11 44.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2977,36.8129">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.8129,-1.2977,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>International Hospital Kampala / Mulago National Referral Hospital</name>
+    <description><![CDATA[<b>Hospital</b><br/>Mulago es el hospital nacional de referencia; el International Hospital Kampala (IHK, privado) es la opción habitual para extranjeros. Para casos serios, la práctica regional es evacuación a Nairobi.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3419,32.5764">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>32.5764,0.3419,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Kampala / Kabale (acceso a Bwindi)</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en ambas localidades; repostar a fondo en Kabale antes del tramo final de pista hacia Buhoma.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3476,32.5825">Google Maps</a>]]></description>
+    <name>Combustible · Kampala, Jinja, Gulu, Mbarara, Kasese, Kabale</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (Shell/Vivo, TotalEnergies, Stabex, City Oil) en todas las ciudades del eje. Repostar a fondo en Gulu antes del bucle a Kidepo y en Kabale/Kisoro antes del tramo final a Bwindi.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3476,32.5825">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>32.5825,0.3476,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Kampala y Kabale</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en ambas localidades; lodges de Buhoma permiten llenar el depósito de uso general con manguera, confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3476,32.5825">Google Maps</a>]]></description>
+    <name>Agua potable y de uso general · Kampala, Entebbe, Jinja, Fort Portal</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en todas las ciudades. Para el depósito de uso general, los campings de Jinja, Entebbe, Fort Portal, Bunyonyi y Buhoma permiten llenar con manguera; confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.05,32.46">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>32.5825,0.3476,0</coordinates></Point>
+    <Point><coordinates>32.46,0.05,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Rusumo (con Tanzania)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Principal paso hacia/desde Tanzania, puesto de ventanilla única sobre el río Kagera; cruce relativamente ágil.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.3833,30.7833">Google Maps</a>]]></description>
+    <name>Frontera · Entrada — Cyanika (con Uganda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del noroeste entre Kisoro (Uganda) y Musanze: 25 km entre Mgahinga y el Parque de los Volcanes, la entrada natural si se viene de los gorilas ugandeses. Puesto pequeño y rápido, HORARIO LIMITADO (no 24 h): confirmar antes de llegar. AQUÍ SE REQUISAN LAS BOLSAS DE PLÁSTICO.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2333,29.6333">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.6333,-1.2333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada alternativa — Gatuna/Katuna (con Uganda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal de la carretera troncal Kabale–Kigali, con mejor asfalto y más tráfico. Estuvo CERRADO entre 2019 y 2022 por la crisis diplomática con Uganda: confirmar estado 72 h antes.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2333,29.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.9833,-1.2333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida — Rusumo (con Tanzania)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puente sobre las cataratas de Rusumo, en el río Kagera: la salida al este hacia Benako y Kahama (Tanzania), justo al sur de Akagera. Puesto de ventanilla única del corredor central. Es la salida lógica si se vuelve al bucle principal por Tanzania.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.3833,30.7833">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>30.7833,-2.3833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Gatuna/Katuna (con Uganda)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso habitual hacia/desde Uganda, útil para enlazar con el trekking de gorilas de Bwindi; sujeto a cierres o restricciones puntuales según el estado de las relaciones bilaterales, verificar antes de viajar.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.3,30.05">Google Maps</a>]]></description>
+    <name>Frontera · Salida alternativa — Kagitumba (con Uganda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Extremo noreste, junto a Akagera, hacia Mbarara (Uganda). Útil si se quiere cerrar el bucle Uganda-Ruanda por el este en vez de por el oeste. Coordenadas aproximadas, por confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.0333,30.4667">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>30.05,-1.3,0</coordinates></Point>
+    <Point><coordinates>30.4667,-1.0333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Dar es Salaam (competente para Ruanda)</name>
-    <description><![CDATA[<b>Consular</b><br/>99 B Kinondoni Road, Dar es Salaam (Tanzania). Tel. +255 022 266 60 18/19; emergencias +255 754 04 21 23. Gestionar trámites mayores a través de esta embajada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-6.7924,39.2083">Google Maps</a>]]></description>
+    <name>Embajada de España en Kampala/Nairobi (competencia para Ruanda)</name>
+    <description><![CDATA[<b>Consular</b><br/>No hay embajada de España en Ruanda. La competencia recae en la Embajada de España en Nairobi (Kenia): CBA Building, Mara &amp; Ragati Roads, Upper Hill. Tel. +254 20 272 02 22/3/4/5; emergencia consular +254 733 63 11 44. CONFIRMAR la demarcación vigente antes del viaje.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2977,36.8129">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>39.2083,-6.7924,0</coordinates></Point>
+    <Point><coordinates>36.8129,-1.2977,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>King Faisal Hospital, Kigali</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia privado-público de la capital; para necesidades serias, evacuación hacia Nairobi es la práctica habitual en la región.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9548,30.093">Google Maps</a>]]></description>
+    <name>King Faisal Hospital / CHUK, Kigali</name>
+    <description><![CDATA[<b>Hospital</b><br/>King Faisal Hospital (privado, Kacyiru) es la referencia para extranjeros y de los mejores de África oriental; CHUK es el hospital universitario público. Para casos muy graves, evacuación a Nairobi.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9536,30.0606">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>30.093,-1.9548,0</coordinates></Point>
+    <Point><coordinates>30.0606,-1.9536,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Kigali / Musanze (acceso a Volcanoes NP)</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en ambas localidades; repostar a fondo en Musanze antes del tramo final hacia Kinigi.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9441,30.0619">Google Maps</a>]]></description>
+    <name>Combustible · Kigali, Musanze, Rubavu, Karongi, Rusizi, Huye</name>
+    <description><![CDATA[<b>Combustible</b><br/>Red de estaciones formales (SP, Engen, Rubis, Kobil) buena y bien repartida: Ruanda es un país pequeño con carreteras excelentes y no hay ningún gap de autonomía relevante. Repostar antes de meterse en el Congo Nile Trail y antes de Akagera.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9536,30.0606">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>30.0619,-1.9441,0</coordinates></Point>
+    <Point><coordinates>30.0606,-1.9536,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Kigali y Musanze</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en ambas localidades; lodges de Kinigi permiten llenar el depósito de uso general con manguera, confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9441,30.0619">Google Maps</a>]]></description>
+    <name>Agua potable y de uso general · Kigali, Musanze, Gisenyi, Karongi</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en todas las ciudades. Para el depósito de uso general, los campings y lodges del Kivu (Gisenyi, Kinunu, Karongi) permiten llenar con manguera. El lago Kivu es de los pocos grandes lagos africanos sin bilharzia documentada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9536,30.0606">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>30.0619,-1.9441,0</coordinates></Point>
+    <Point><coordinates>30.0606,-1.9536,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Galafi (desde Etiopía)</name>
