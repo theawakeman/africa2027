@@ -128,6 +128,21 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .poi-card { background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
 .poi-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
 /* Enlaces a fichas de país desde la sección del perro */
+/* Cabecera sin foto (secciones «El perro» y «CPD») */
+.hero.small .hero-txt { max-width:1200px; margin:0 auto; color:#fff;
+  padding:26px clamp(16px,4vw,48px) 30px; }
+.hero.small .hero-txt .kicker { display:block; margin-bottom:6px; }
+.hero.small .hero-txt p { margin:.6em 0 0; max-width:78ch; line-height:1.5;
+  font-size:clamp(15px,2.2vw,17px); color:#D9E3EC; }
+.hero.small .hero-txt p strong { color:#fff; }
+/* Leyenda del mapa del CPD */
+.cpdleg { display:flex; flex-wrap:wrap; gap:8px 18px; margin:12px 0 4px; }
+.cpdkey { display:flex; align-items:flex-start; gap:7px; font-size:13px; color:#3d4a50;
+  max-width:330px; line-height:1.35; }
+.cpdkey i { flex:0 0 auto; width:14px; height:14px; border-radius:3px; margin-top:2px;
+  border:1px solid rgba(0,0,0,.12); }
+.cpdkey b { color:#16242b; white-space:nowrap; }
+.cpdkey span { display:block; }
 /* Referencias internas §N: saltan a su sección y dicen cuál al pasar el ratón */
 a.sec { color:#0F5F6E; font-weight:600; text-decoration:none; white-space:nowrap;
   padding:0 2px; border-radius:3px; background:rgba(30,122,138,.10); cursor:help; }

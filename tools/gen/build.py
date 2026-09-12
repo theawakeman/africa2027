@@ -163,7 +163,8 @@ def navbar(root, items, brand_suffix=""):
     suf = f'<span class="brand" style="padding-left:0">· {esc(brand_suffix)}</span>' if brand_suffix else ""
     return f'<nav class="nav"><a class="brand" href="{root}">ÁFRICA 2027</a>{suf}{links}</nav>'
 
-TOP_NAV = [("Mapa", "{root}mapa/"), ("Países", "{root}#paises"), ("El perro", "{root}perro/"), ("Documentación", "{root}documentacion/")]
+TOP_NAV = [("Mapa", "{root}mapa/"), ("Países", "{root}#paises"), ("El perro", "{root}perro/"),
+           ("CPD", "{root}cpd/"), ("Documentación", "{root}documentacion/")]
 
 def top_nav(root, extra=""):
     items = [(t, u.format(root=root)) for t, u in TOP_NAV]
@@ -508,6 +509,148 @@ def render_map_page(all_points, all_lines):
                   f'<script src="{root}assets/vendor/leaflet.js"></script>'
                   f'<script src="{root}assets/js/map.js"></script>')
     return page(root, "Mapa general · África 2027", body, extra_head=extra_head)
+
+# ---------------------------------------------------------------- CPD page
+def render_cpd():
+    """Resumen del Carnet de Passages en Douane, con mapa de países por color."""
+    from data_cpd import CPD, NIVELES, FUERA_DE_RUTA, COSTE_CPD, FUENTES
+    root = "../"
+    nombres = {slug: name for slug, name, *_ in C}
+    grupos = {slug: group for slug, _, group, *_ in C}
+
+    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/")]
+    nav = navbar(root, secs + [("Obligatorio", "#obligatorio"), ("Recomendable", "#recomendable"),
+                               ("No necesario", "#no"), ("Coste", "#coste"),
+                               ("Cómo se decide", "#decision"), ("Fuentes", "#fuentes")], "CPD")
+
+    hero = """<header class="hero small">
+  <div class="hero-txt">
+    <span class="kicker">Carnet de Passages en Douane · investigación de septiembre de 2026</span>
+    <h1>El CPD, país por país</h1>
+    <p>Dónde hace falta de verdad el «pasaporte del vehículo», dónde solo conviene y dónde no sirve
+    para nada. Clasificación para un vehículo español que entra y sale <strong>por tierra</strong>.</p>
+  </div>
+</header>"""
+
+    # --- conclusión
+    en_ruta = {s: v for s, v in CPD.items() if s not in FUERA_DE_RUTA}
+    n_obl = sum(1 for v in en_ruta.values() if v[0] == "obligatorio")
+    n_rec = sum(1 for v in en_ruta.values() if v[0] == "recomendable")
+    n_no = sum(1 for v in en_ruta.values() if v[0] == "no")
+
+    conclusion = callout("ok", "La respuesta corta",
+        f"<p><strong>Ningún país de la ruta exige el CPD.</strong> De los {len(en_ruta)} países "
+        f"estudiados, <strong>{n_obl} son obligatorios</strong>, <strong>{n_rec} recomendables</strong> "
+        f"(Senegal, Ghana y Kenia) y <strong>{n_no} no lo necesitan</strong>: se resuelven con un permiso "
+        "temporal en la propia frontera.</p>"
+        "<p>Los dos únicos países africanos donde el carnet es realmente obligatorio son "
+        "<strong>Egipto y Libia</strong>, y ninguno de los dos está en la ruta. De ahí viene toda su fama.</p>"
+        "<p>En dos países —<strong>Uganda y Mozambique</strong>— el carnet <strong>ni siquiera se "
+        "acepta</strong>, y en <strong>Angola</strong> puede complicar el paso en vez de facilitarlo.</p>",
+        raw=True)
+
+    # --- mapa
+    datos_mapa = {}
+    for slug, (nivel, conf, alt, coste, nota) in CPD.items():
+        datos_mapa[slug] = {
+            "n": nombres.get(slug, slug), "lvl": nivel, "color": NIVELES[nivel][0],
+            "lab": NIVELES[nivel][1], "alt": alt, "cost": coste,
+            "ruta": slug not in FUERA_DE_RUTA,
+            "href": root + f"paises/{slug}/" if slug in grupos else "",
+        }
+    cfg = {"root": root, "data": datos_mapa}
+
+    leyenda = '<div class="cpdleg">' + "".join(
+        f'<span class="cpdkey"><i style="background:{c}"></i><b>{lab}</b> — {desc}</span>'
+        for c, lab, desc in NIVELES.values()
+    ) + '<span class="cpdkey"><i style="background:#cfd8dc"></i><b>Fuera del estudio</b> — países que no se cruzan.</span></div>'
+
+    mapa = (f'<div id="cpdmap" class="mapbox tall"></div>{leyenda}'
+            '<p class="figcap">Toca cualquier país coloreado para ver su situación. '
+            'Egipto y Libia salen en rojo pero <strong>no están en la ruta</strong>: se incluyen porque son '
+            'los únicos sitios de África donde el carnet es de verdad obligatorio.</p>')
+
+    # --- tablas por nivel
+    def tabla(nivel):
+        filas = []
+        for slug, (lvl, conf, alt, coste, nota) in CPD.items():
+            if lvl != nivel:
+                continue
+            nom = nombres.get(slug, slug)
+            etiqueta = "" if slug not in FUERA_DE_RUTA else ' <em>(fuera de la ruta)</em>'
+            enlace = (f'<a href="{root}paises/{slug}/">{esc(nom)}</a>' if slug in grupos else esc(nom))
+            filas.append([f"<strong>{enlace}</strong>{etiqueta}", st_pill(conf), alt, coste, nota or "—"])
+        return table(["País", "Confianza", "Qué se usa en su lugar", "Coste", "Detalle"], filas)
+
+    bloques = ""
+    for nivel, anchor, titulo, intro in [
+        ("obligatorio", "obligatorio", "Rojo — obligatorio",
+         "Sin CPD no se entra, y no hay documento alternativo. <strong>Ninguno está en la ruta.</strong>"),
+        ("recomendable", "recomendable", "Naranja — recomendable, no obligatorio",
+         "Se entra sin carnet, pero llevarlo ahorra dinero, tiempo o una discusión en el mostrador. "
+         "Son tres, y conviene leer el detalle de cada uno antes de decidir."),
+        ("no", "no", "Verde — no necesario",
+         "Se resuelve en la propia frontera con un permiso temporal. En algunos el carnet ni se acepta."),
+    ]:
+        bloques += (f'<section id="{anchor}"><h2>{titulo}</h2><p>{intro}</p>{tabla(nivel)}</section>')
+
+    # --- coste y decisión
+    coste = ('<section id="coste"><h2>Lo que cuesta el CPD</h2>'
+             '<p>Emitido por el <strong>RACE</strong>, único emisor en España:</p>'
+             + table(["Concepto", "Importe"], [[c, f"<strong>{v}</strong>"] for c, v in COSTE_CPD])
+             + '<p>El aval no es un gasto, pero son casi 2.800 € inmovilizados durante todo el viaje, '
+               'y se pierden si el carnet vuelve sin cerrar correctamente.</p>'
+             + callout("warn", "Comparación directa",
+                       "Las tasas de entrada de <strong>todos</strong> los países de la ruta suman del orden "
+                       "de <strong>700-900 €</strong>, y la mitad son Ghana y Senegal. El CPD cuesta ~330 € "
+                       "más 2.780 € retenidos, y aun así <strong>habría que pagar igualmente</strong> casi "
+                       "todas las tasas de carretera, carbono y seguro, que no son aduaneras.")
+             + '</section>')
+
+    decision = ('<section id="decision"><h2>Cómo se decide</h2>'
+        + bullets([
+            "**La pregunta no es «¿lo piden?», sino «¿entra o sale el coche en barco?»** Por tierra no hace "
+            "falta en ningún país de la ruta. Si al final se embarca el vehículo de vuelta desde Durban, "
+            "Ciudad del Cabo o Walvis Bay, el carnet pasa a ser muy recomendable para el despacho portuario "
+            "— y **emitirlo desde África es inviable**. Es una decisión que hay que tomar antes de salir.",
+            "**Senegal se resuelve por la ruta, no por el papel.** Entrar por Diama en vez de Rosso, o desde "
+            "Mali por Kidira, evita el problema de la edad del vehículo sin pagar nada.",
+            "**Ghana es el único gasto grande inevitable** sin carnet: ~490 USD. Con CPD, no. Por sí solo "
+            "no justifica el aval, pero es la mitad del argumento.",
+            "**Kenia se cubre con papeles, no con carnet:** cuenta eCitizen hecha de antemano, el aviso 1870 "
+            "de la KRA impreso, y una respuesta por escrito de la KRA guardada en el móvil y en papel.",
+            "**En Uganda, Mozambique y Angola el carnet no ayuda.** En los dos primeros no se acepta; en "
+            "Angola, un sello mal puesto es justo lo que hace perder el aval.",
+        ], bold_split=True)
+        + callout("", "Veredicto para esta ruta",
+                  "<p><strong>No emitir CPD</strong>, salvo que se decida embarcar el vehículo de vuelta. "
+                  "El dinero se va en tasas locales de todos modos, y el carnet añade un riesgo que no "
+                  "tiene contrapartida: el de volver a España con una hoja sin sellar y perder el aval.</p>"
+                  "<p>Si se emite de todas formas, es por <strong>Ghana y Senegal</strong>, no por Kenia.</p>",
+                  raw=True)
+        + '</section>')
+
+    fuentes = ('<section id="fuentes"><h2>Fuentes</h2>'
+               + bullets([f'<a href="{u}" target="_blank" rel="noopener">{esc(n)}</a> — {t}'
+                          for n, u, t in FUENTES])
+               + callout("warn", "Por qué circulan tantas listas contradictorias",
+                         "Casi todas las listas de «países que exigen carnet» que se encuentran por internet "
+                         "descienden de la de Horizons Unlimited, que lleva escrito encima, en mayúsculas, que "
+                         "es una lista de países que lo <strong>aceptan</strong>. Quien la copia sin la nota "
+                         "convierte «puedes» en «debes». Cuando una lista y la aduana del país se contradicen, "
+                         "aquí se ha conservado la aduana.", raw=True)
+               + '</section>')
+
+    body = (nav + hero + '<main style="max-width:1200px">' + conclusion + mapa + bloques
+            + coste + decision + fuentes
+            + f"<footer>ÁFRICA 2027 · versión {VERSION}</footer></main>"
+            + f'<script>var A27_CPD = {json.dumps(cfg, ensure_ascii=False)};</script>'
+            + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
+              '&& typeof a27CpdMap === "function") a27CpdMap("cpdmap", A27_CPD); });</script>')
+    extra_head = (f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css">'
+                  f'<script src="{root}assets/vendor/leaflet.js"></script>'
+                  f'<script src="{root}assets/js/cpdmap.js"></script>')
+    return page(root, "El CPD país por país · África 2027", body, extra_head=extra_head)
 
 # ---------------------------------------------------------------- perro page
 PERRO_MD = Path(__file__).parent / "docs" / "DOSSIER_PERRO.md"
@@ -878,6 +1021,7 @@ def main():
     pages["mapa/index.html"] = render_map_page(all_points, all_lines)
     pages["documentacion/index.html"] = render_docs()
     pages["perro/index.html"] = render_perro()
+    pages["cpd/index.html"] = render_cpd()
 
     name_by_slug = {slug: name for slug, name, *_ in C}
     countries_for_admin = [{"slug": slug, "name": name_by_slug.get(slug, slug)}
