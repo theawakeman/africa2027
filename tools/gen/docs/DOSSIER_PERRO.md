@@ -152,8 +152,28 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 | 6 | Dosier físico: pasaporte UE, titulación original, historial vacunal, 10 fotos del perro con el microchip legible | En ventanilla mandan los papeles, no la ley | **3 meses antes de salir** |
 | 7 | Microchip: **comprobar que se lee** con lector propio. Llevar **lector propio**. | Muchos puestos africanos no tienen lector. Sin lectura, no hay identificación | **3 meses antes de salir** |
 | 8 | Botiquín canino específico (§7) + suero antiofídico + tratamiento tripanosomiasis | No se compra en ruta | **2 meses antes de salir** |
+| 9 | Encargar al veterinario el **certificado de exportación por CEXGAN** para Marruecos y que confirme qué modelo aplica (§1.3) | Es la única gestión del viaje que depende de la administración española | **2 meses antes de salir** |
 
-**Ninguna de estas ocho acciones es un certificado sanitario.** Los certificados no se sacan en Europa (salvo el de Marruecos, que es la primera frontera): caducan antes de llegar. Lo que se hace aquí es la parte que *no* caduca —analíticas, vacunas, papeles de base— y las preguntas por escrito que hay que tener contestadas antes de arrancar.
+**Solo la acción 9 es un certificado sanitario.** Las otras ocho son la parte que *no* caduca —analíticas, vacunas, papeles de base— más las preguntas por escrito que hay que tener contestadas antes de arrancar. Los certificados de los demás países se emiten en ruta, porque caducan antes de llegar.
+
+---
+
+## 1.3 CEXGAN — se usa una sola vez, al salir de España
+
+**Qué es. [CONFIRMADO]** No es un certificado: es la **aplicación del Ministerio de Agricultura (MAPA)** por la que se tramitan los certificados sanitarios de exportación de animales. El documento que sale de ahí es el **certificado de exportación** que pide Marruecos en la primera frontera.
+
+| Pregunta | Respuesta |
+|---|---|
+| **¿Hace falta para el continente africano?** | **NO.** Solo para **salir de España**. Los cruces entre países africanos no pasan por CEXGAN: los resuelven las autoridades veterinarias de cada país (§3). |
+| **¿Hace falta para volver a Europa?** | **NO.** CEXGAN es solo exportación. El certificado de reentrada lo emite el **veterinario oficial del país de salida** —Marruecos, ONSSA— y lo refrenda su autoridad competente (§4). España no interviene. |
+| **¿Quién lo tramita?** | El **veterinario colegiado**, en nombre del propietario. Lo revisa y emite el **servicio veterinario oficial**. **[CONFIRMADO]** |
+| **¿Cuándo?** | Los colegios veterinarios recomiendan empezar **≥1 mes antes** de la salida. El certificado en sí se emite pegado a la fecha de viaje: Marruecos lo exige de **menos de 10 días** (§3.1). |
+| **¿Qué modelo de certificado?** | **[SIN CONFIRMAR]** Marruecos **no** figura en la lista pública de certificado genérico (GeNI) del MAPA. Hay que consultar el módulo **«Información de mercados»** de CEXGAN y confirmarlo con el servicio veterinario oficial. |
+| **¿Cuánto cuesta?** | **[SIN CONFIRMAR]** No publicado. |
+
+> **ACCIÓN:** encargarlo al veterinario **2 meses antes de salir** y pedirle expresamente que confirme en «Información de mercados» **qué modelo aplica a Marruecos**, porque no está en la lista genérica. Es la única gestión de todo el viaje que depende de la administración española.
+
+**Fuentes:** [MAPA — Viajar con la mascota: perros, gatos, hurones](https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones) · [MAPA — Certificados sanitarios de exportación](https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/export/certificados_exportacion) · [MAPA — Listado GeNI de animales de compañía (PDF)](https://servicio.mapama.gob.es/cexgan/DocumentacionPublica/GeNI_Mascota.pdf) · [Colegio Oficial de Veterinarios de Jaén — CEXGAN](https://colvetjaen.com/importacion-animal-cexgan/).
 
 ---
 
@@ -890,6 +910,7 @@ Estas son las preguntas **sin cerrar**. No se han rellenado con suposiciones.
 | 14 | **Confiscación del permiso SACU en frontera** — The Pack Track relata que **quisieron quedárselo** en lugar de devolverlo. ¿Se puede pedir copia sellada o permiso por país? | 🟡 Abierto | `VetPermits@daff.gov.za` |
 | 15 | **Zanzíbar** — traslado marítimo interinsular; posible trámite adicional. Sin fuentes. | 🟢 Menor | `zoosanitary@mifugo.go.tz` |
 | 16 | **Vacuna de leishmania vs serología de Namibia** — ¿genera falso positivo que bloquee la entrada? | 🟠 Abierto | Veterinario + `vet.permits@mawlr.gov.na` |
+| 17 | **Modelo de certificado CEXGAN para Marruecos** — Marruecos no figura en la lista genérica (GeNI) del MAPA. ¿Existe modelo específico, o se emite genérico igualmente? Coste tampoco publicado. | 🟡 Abierto | Veterinario colegiado + servicio veterinario oficial, módulo «Información de mercados» de CEXGAN |
 
 ---
 
