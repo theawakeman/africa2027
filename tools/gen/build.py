@@ -9,6 +9,24 @@ from site_common import (SITE, MYMAPS, esc, attr, gmaps, page, table, callout,
                          bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML, FICHA_FIELDS)
 from admin_panel import render_admin, ADMIN_CSS
 from enlaza_fuentes import enlazar_fuentes
+
+
+def destinos_conocidos():
+    """Dominio -> página concreta, para que una mención suelta no caiga en la portada.
+
+    Se alimenta de las URL del permiso del perro ya verificadas una a una.
+    """
+    from urllib.parse import urlparse
+    from data_perro_contactos import CONTACTOS
+    out = {}
+    for v in CONTACTOS.values():
+        u = v.get("url")
+        if not u or v.get("url_generica"):
+            continue
+        host = urlparse(u).netloc.lower()
+        out.setdefault(host, u)
+        out.setdefault(host[4:] if host.startswith("www.") else "www." + host, u)
+    return out
 import data_senegal
 import data_mauritania
 from data_countries import C, GROUP_LABELS
@@ -1037,9 +1055,10 @@ def main():
     # Cualquier referencia externa del texto (URL, dominio, correo o fuente
     # conocida) se convierte en enlace cliclable antes de escribir la página.
     n_enlaces = 0
+    profundas = destinos_conocidos()
     for path, html_text in pages.items():
         if path != "admin/index.html":          # el panel de edición se deja intacto
-            nuevo = enlazar_fuentes(html_text)
+            nuevo = enlazar_fuentes(html_text, profundas)
             n_enlaces += nuevo.count('class="fuente"')
             html_text = nuevo
         f = SITE / path

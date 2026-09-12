@@ -123,7 +123,7 @@ COSTE_CPD = [
 ]
 
 FUENTES = [
-    ("RACE", "https://www.race.es/", "Emisor exclusivo en España. Su lista de países que exigen CPD "
+    ("RACE", "https://www.race.es/servicios/carnet-de-passages", "Emisor exclusivo en España. Su lista de países que exigen CPD "
      "incluye, de toda África: Kenia, Sudáfrica y países de la Commonwealth, Libia y Senegal."),
     ("Automobile Association of South Africa", "https://aa.co.za/travel/carnet-de-passage-en-douane/",
      "Emisor sudafricano: el CPD es «obligatorio para Egipto y Kenia y recomendable para viajar a "

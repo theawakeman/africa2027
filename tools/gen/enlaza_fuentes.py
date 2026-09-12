@@ -67,6 +67,12 @@ FUENTES = {
     "OMS":                "https://www.who.int/es",
     "WOAH":               "https://www.woah.org/es/inicio/",
     "FAO":                "https://www.fao.org/home/es",
+    "USDA-APHIS":         "https://www.aphis.usda.gov/pet-travel",
+    "APHIS":              "https://www.aphis.usda.gov/pet-travel",
+    "DG SANTE":           "https://food.ec.europa.eu/animals/movement-pets_en",
+    "ONSSA":              "https://www.onssa.gov.ma/",
+    "RACE":               "https://www.race.es/servicios/carnet-de-passages",
+    "ADAC":               "https://www.adac.de/",
 }
 
 # Se prueban primero los nombres largos: «The Pack Track» antes que «Track».
@@ -99,12 +105,9 @@ def _corta(url, maximo=58):
     return url[:maximo - 1] + "…"
 
 
-def _enlaza_texto(texto, usados):
+def _enlaza_texto(texto, usados, idx=None, pos=0):
     """Enlaza las referencias externas de un fragmento ya libre de etiquetas."""
-    if "&" in texto:
-        # Los & del HTML ya vienen escapados; para las URLs hay que deshacerlo
-        # solo al construir el href, no en el texto visible.
-        pass
+    idx = idx or {}
 
     # 1) URLs completas
     def _url(m):
@@ -116,10 +119,11 @@ def _enlaza_texto(texto, usados):
     # 2) Correos
     texto = RE_MAIL.sub(lambda m: _a("mailto:" + m.group(1), m.group(1)), texto)
 
-    # 3) Dominios sueltos
+    # 3) Dominios sueltos -> a la página concreta si se conoce, no a la portada
     def _dom(m):
         d = m.group(1)
-        return _a("https://" + d, d)
+        destino = _mejor(idx, d.lower().lstrip("www."), pos + m.start()) or ("https://" + d)
+        return _a(destino, d)
     texto = RE_DOMINIO.sub(_dom, texto)
 
     # 4) Fuentes con nombre, una vez por bloque
@@ -128,18 +132,72 @@ def _enlaza_texto(texto, usados):
         if nombre in usados:
             return nombre
         usados.add(nombre)
-        return _a(FUENTES[nombre], nombre)
+        base = FUENTES[nombre]
+        destino = _mejor(idx, _host(base), pos + m.start()) or base
+        return _a(destino, nombre)
     texto = RE_FUENTES.sub(_fuente, texto)
 
     return texto
 
 
-def enlazar_fuentes(html):
-    """Devuelve el HTML con todas las referencias externas convertidas en enlaces."""
+# ------------------------------------------------- enlaces al punto concreto
+
+RE_HOST = re.compile(r"https?://([^/\s\"'<>]+)")
+
+
+def _host(url):
+    m = RE_HOST.match(url)
+    return m.group(1).lower().lstrip("www.") if m else ""
+
+
+def _profundas(html):
+    """{host: [(posición, url)]} con las URL completas que ya aparecen en la página.
+
+    Sirve para que una mención suelta a «tzembassy.go.tz» no acabe en la portada
+    del dominio, sino en la página concreta que la propia página ya está citando.
+    Se guarda la posición para poder elegir, de entre varias, la más cercana al
+    sitio donde se hace la mención: es lo que evita enlazar la ficha de Tanzania
+    desde un párrafo que habla de Senegal.
+    """
+    idx = {}
+    for m in re.finditer(r'https?://[^\s<>"\'()\[\]]+', html):
+        url = m.group(0).rstrip(".,;:!?").replace("&amp;", "&")
+        if url.count("/") < 3 or url.rstrip("/").endswith(_host(url)):
+            continue                      # es la portada: no aporta nada
+        idx.setdefault(_host(url), []).append((m.start(), url))
+    return idx
+
+
+def _mejor(idx, host, pos):
+    """La URL profunda de ese host que aparece más cerca de la mención."""
+    cands = idx.get(host)
+    if not cands:
+        # a veces la mención es «www.x.com» y la URL está en «x.com», o al revés
+        for h, c in idx.items():
+            if h.endswith("." + host) or host.endswith("." + h):
+                cands = c
+                break
+    if not cands:
+        return None
+    return min(cands, key=lambda c: abs(c[0] - pos))[1]
+
+
+def enlazar_fuentes(html, profundas=None):
+    """Devuelve el HTML con todas las referencias externas convertidas en enlaces.
+
+    `profundas` permite inyectar destinos concretos conocidos (por ejemplo, la
+    página exacta del permiso del perro de cada país) para dominios que la
+    página no cita por extenso.
+    """
+    idx = _profundas(html)
+    for host, url in (profundas or {}).items():
+        idx.setdefault(host.lower().lstrip("www."), []).append((0, url))
+
     partes = TROZOS.split(html)
     pila_opaca = 0
     usados = set()
     salida = []
+    pos = 0
 
     for trozo in partes:
         if trozo.startswith("<"):
@@ -150,19 +208,18 @@ def enlazar_fuentes(html):
                     pila_opaca -= 1
                 if c.group(1).lower() in BLOQUE:
                     usados = set()
-                continue
-            a = ABRE.match(trozo)
-            if a and not AUTOCIERRA.search(trozo):
-                nombre = a.group(1).lower()
-                if nombre in OPACAS:
-                    pila_opaca += 1
-                elif nombre in BLOQUE:
-                    usados = set()
-            continue
-
-        if pila_opaca or not trozo.strip():
+            else:
+                a = ABRE.match(trozo)
+                if a and not AUTOCIERRA.search(trozo):
+                    nombre = a.group(1).lower()
+                    if nombre in OPACAS:
+                        pila_opaca += 1
+                    elif nombre in BLOQUE:
+                        usados = set()
+        elif pila_opaca or not trozo.strip():
             salida.append(trozo)
         else:
-            salida.append(_enlaza_texto(trozo, usados))
+            salida.append(_enlaza_texto(trozo, usados, idx, pos))
+        pos += len(trozo)
 
     return "".join(salida)

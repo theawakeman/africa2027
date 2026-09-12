@@ -185,61 +185,61 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 
 *«Tiempo de tramitación» es lo que tarda la administración en devolver el permiso desde que se solicita, no lo que dura el permiso ni con cuánta antelación hay que pedirlo. Como casi todos se piden en ruta, esa cifra es la que dice cuántos días de margen hace falta en el país anterior antes de plantarse en la frontera.*
 
-| # | País | Entrada terrestre | Permiso previo | Tiempo de tramitación | Dificultad | Nota clave |
-|---|---|---|---|---|---|---|
-| 1 | **Marruecos** | ✅ Sí | ❌ No | — | 🟢 | Certificado veterinario <10 días + rabia. Cruce Tarifa/Algeciras–Tánger. |
-| 2 | **Sáhara Occidental** | ✅ Sí | ❌ No | — | 🟢 | Administrado por Marruecos: no hay trámite propio. |
-| 3 | **Mauritania** | ✅ Sí | ⚠️ Sin confirmar | ? | 🟡 | Frontera Guerguerat. Control laxo en la práctica. |
-| 4 | **Senegal** | ✅ Sí | ⚠️ Probable sí | ~2 sem | 🟡 | Dirección de Servicios Veterinarios, Dakar. |
-| 5 | **Guinea** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | Fuentes mudas. Ver §8. |
-| 6 | **Costa de Marfil** | ✅ Probable | ⚠️ Probable sí | ~2 sem | 🟡 | |
-| 7 | **Ghana** | ✅ Sí | ✅ Sí | 2–4 sem | 🟡 | Veterinary Services Directorate, Accra. |
-| 8 | **Togo** | ✅ Probable | ⚠️ Sin confirmar | ? | 🟡 | |
-| 9 | **Benín** | ✅ Probable | ⚠️ Sin confirmar | ? | 🟡 | |
-| 10 | **Nigeria** | ✅ Sí | ✅ Sí | 2–4 sem | 🟠 | Nigeria Agricultural Quarantine Service (NAQS). Burocracia densa. |
-| 11 | **Camerún** | ✅ Sí | ✅ Probable sí | 2–4 sem | 🟠 | MINEPIA. |
-| 12 | **Congo-Brazzaville** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | |
-| 13 | **RD Congo** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | Cruce del río en Kinshasa. Ver §8. |
-| 14 | **Angola** | ✅ Probable | ✅ Probable sí | 2–4 sem | 🟠 | |
-| 15 | **Zambia** | ✅ Sí | ✅ Sí | 1–3 sem | 🟡 | Dept. of Veterinary Services, Lusaka. Ruta bien rodada. |
-| 16 | **Tanzania** | ✅ **Sí** (ver §1.1) | ✅ Sí | 2–4 sem | 🟡 | **Nombrar el puesto terrestre en la solicitud.** 30.000 TSH. |
-| 17 | **Kenia** | ✅ Sí | ✅ Sí | 1–2 sem | 🟢 | DVS Kabete. País con mejores servicios veterinarios de la ruta. |
-| 18 | **Mozambique** | ✅ Sí | ✅ Sí | 2–3 sem | 🟡 | |
-| 19 | **Zimbabue** | ✅ Sí | ✅ Sí | 1–2 sem | 🟡 | Dept. of Veterinary Services, Harare. |
-| 20 | **Botsuana** | ✅ **Sí** | ✅ Sí | **1 día hábil** | 🟢 | Oficina Veterinaria de Distrito. El más ágil de la ruta. |
-| 21 | **Sudáfrica** | ✅ Sí | ✅ Sí | **hasta 3 sem** | 🟠 | DALRRD. **Analíticas de garrapatas.** Acelera entregar en mano. |
-| 22 | **Namibia** | ✅ Sí | ✅ Sí | 2–4 sem | 🟠 | **Las 5 analíticas.** Permiso se envía por mensajería a tu país. |
+| # | País | Entrada terrestre | Permiso previo | Tiempo de tramitación | Dificultad | Nota clave | Quién lo emite | Correo | Certificado sanitario |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | **Marruecos** | ✅ Sí | ❌ No | — | 🟢 | Certificado veterinario <10 días + rabia. Cruce Tarifa/Algeciras–Tánger. | [Office National de Sécurité Sanitaire des…](https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/) ❓ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| 2 | **Sáhara Occidental** | ✅ Sí | ❌ No | — | 🟢 | Administrado por Marruecos: no hay trámite propio. | [Office National de Sécurité Sanitaire des…](https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/) ❓ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| 3 | **Mauritania** | ✅ Sí | ⚠️ Sin confirmar | ? | 🟡 | Frontera Guerguerat. Control laxo en la práctica. | [Direction des Services Vétérinaires](https://elevage.gov.mr/) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| 4 | **Senegal** | ✅ Sí | ⚠️ Probable sí | ~2 sem | 🟡 | Dirección de Servicios Veterinarios, Dakar. | [Direction des Services Vétérinaires](https://senegalservices.sn/demarche/demander-lautorisation-dimporter-des-animaux-de-compagnie) ❓ | `contacts@elevage.gouv.sn` | ✅ Sí · **21 días** |
+| 5 | **Guinea** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | Fuentes mudas. Ver §8. | [Direction Nationale des Services Vétérinaires](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-guinea) | `contact@elevage.gov.gn` | ✅ Sí · *validez sin publicar* |
+| 6 | **Costa de Marfil** | ✅ Probable | ⚠️ Probable sí | ~2 sem | 🟡 | | [Direction des Services Vétérinaires](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ivory-coast) | `carv.dsvci@gmail.com` | ✅ Sí · **10 días** |
+| 7 | **Ghana** | ✅ Sí | ✅ Sí | 2–4 sem | 🟡 | Veterinary Services Directorate, Accra. | [Veterinary Services Department](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ghana) | `vsd@mofa.gov.gh` | ✅ Sí · **30 días** |
+| 8 | **Togo** | ✅ Probable | ⚠️ Sin confirmar | ? | 🟡 | | [Ministère de l'Agriculture](https://www.pettravel.com/information/pet-passports/togo-pet-import-requirements/) | — *sin correo publicado* | ✅ Sí · **3 días** |
+| 9 | **Benín** | ✅ Probable | ⚠️ Sin confirmar | ? | 🟡 | | [Direction de l'Élevage](https://catis.xroad.bj/publicservices/PS00501) | — *sin correo publicado* | ✅ Sí · **10 días** |
+| 10 | **Nigeria** | ✅ Sí | ✅ Sí | 2–4 sem | 🟠 | Nigeria Agricultural Quarantine Service (NAQS). Burocracia densa. | [Federal Department of Veterinary and Pest…](https://naqs.gov.ng/animal/) | `contact@naqs.gov.ng` | ✅ Sí · **30 días** |
+| 11 | **Camerún** | ✅ Sí | ✅ Probable sí | 2–4 sem | 🟠 | MINEPIA. | [Ministère de l'Élevage](https://www.aphis.usda.gov/pet-travel/pet-travel-united-states-cameroon) | — *sin correo publicado* | ✅ Sí · **30 días** |
+| 12 | **Congo-Brazzaville** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | | [Direction Générale de l'Élevage](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-republic-congo-brazzaville) | — *sin correo publicado* | ✅ Sí · **30 días** |
+| 13 | **RD Congo** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | Cruce del río en Kinshasa. Ver §8. | [Ministère de l'Agriculture et Sécurité…](https://agriculture.gouv.cd/contact.php) ⚠️ | `info@agriculture.gouv.cd` | ✅ Sí · **10 días** |
+| 14 | **Angola** | ✅ Probable | ✅ Probable sí | 2–4 sem | 🟠 | | [Instituto dos Serviços de Veterinária](https://www.dgav.pt/wp-content/uploads/2023/11/CERTIFICACAO-SANITARIA-ANGOLA-CAES-E-GATOS-2023.pdf) | `gticii@minagrif.gov.ao` | ✅ Sí · **10 días** |
+| 15 | **Zambia** | ✅ Sí | ✅ Sí | 1–3 sem | 🟡 | Dept. of Veterinary Services, Lusaka. Ruta bien rodada. | [Department of Veterinary Services](https://www.zambiatradeportal.gov.zm/index.php?r=searchProcedure/view1&id=116) | `info@mfl.gov.zm` | ✅ Sí · **7 días** |
+| 16 | **Tanzania** | ✅ **Sí** (ver §1.1) | ✅ Sí | 2–4 sem | 🟡 | **Nombrar el puesto terrestre en la solicitud.** 30.000 TSH. | [Director of Veterinary Services](https://www.de.tzembassy.go.tz/services/Importing-Pets-Dogs) | `zoosanitary@mifugo.go.tz` · `epid1@mifugo.go.tz` | ✅ Sí · **10 días** |
+| 17 | **Kenia** | ✅ Sí | ✅ Sí | 1–2 sem | 🟢 | DVS Kabete. País con mejores servicios veterinarios de la ruta. | [Directorate of Veterinary Services](https://infotradekenya.go.ke/procedure/1422?l=en) | — *sin correo publicado* | ✅ Sí · **7 días** |
+| 18 | **Mozambique** | ✅ Sí | ✅ Sí | 2–3 sem | 🟡 | | [Direccao Nacional de Veterinaria /…](https://www.agricultura.gov.mz/servicos-ao-cidadao/procedimentos-para-o-movimento-de-animais-seus-produtos-e-subprodutos/) | `geral@maap.gov.mz` · `geral@agricultura.gov.mz` | ✅ Sí · **7 días** |
+| 19 | **Zimbabue** | ✅ Sí | ✅ Sí | 1–2 sem | 🟡 | Dept. of Veterinary Services, Harare. | [Director of Veterinary Services](https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-zimbabwe-certificate-3929) | — *sin correo publicado* | ✅ Sí · **7 días** |
+| 20 | **Botsuana** | ✅ **Sí** | ✅ Sí | **1 día hábil** | 🟢 | Oficina Veterinaria de Distrito. El más ágil de la ruta. | [Department of Veterinary Services](https://www.gov.bw/business-compliance-agriculture-animal-husbandry/issuance-import-permit-live-animals-animal) | `DVSpermits@gov.bw` | ✅ Sí · **60 días** |
+| 21 | **Sudáfrica** | ✅ Sí | ✅ Sí | **hasta 3 sem** | 🟠 | DALRRD. **Analíticas de garrapatas.** Acelera entregar en mano. | [Director: Animal Health - Import Export…](https://www.gov.za/services/import/import-animals-and-animal-products) | `VetPermits@daff.gov.za` | ✅ Sí · **10 días** |
+| 22 | **Namibia** | ✅ Sí | ✅ Sí | 2–4 sem | 🟠 | **Las 5 analíticas.** Permiso se envía por mensajería a tu país. | [Directorate of Veterinary Services -…](https://namibiatradeportal.gov.na/trade-goods/procedure-details/view_express_entity/485) | `vet.permits@mawlr.gov.na` | ✅ Sí · *validez sin publicar* |
 
 ## 2.2 Ruta de vuelta (segundo cruce)
 
-| # | País | ¿Permiso nuevo? | Dificultad | Nota |
-|---|---|---|---|---|
-| 23 | **Angola** | ⚠️ Sí, casi seguro | 🟠 | Segundo permiso. |
-| 24 | **RD Congo** | ⚠️ Sin confirmar | 🟠 | |
-| 25 | **Congo** | ⚠️ Sin confirmar | 🟠 | |
-| 26 | **Camerún** | ⚠️ Sí, probable | 🟠 | |
-| 27 | **Nigeria** | ⚠️ Sí, probable | 🟠 | |
-| 28 | **Benín** | ⚠️ Sin confirmar | 🟡 | |
-| 29 | **Togo** | ⚠️ Sin confirmar | 🟡 | |
-| 30 | **Ghana** | ⚠️ Sí, probable | 🟡 | |
-| 31 | **Costa de Marfil** | ⚠️ Probable | 🟡 | |
-| 32 | **Guinea** | ⚠️ Sin confirmar | 🟠 | |
-| 33 | **Senegal** | ⚠️ Probable | 🟡 | |
-| 34 | **Gambia** | ⚠️ Sin confirmar | 🟡 | Solo en la vuelta. |
-| 35 | **Mauritania** | ⚠️ Sin confirmar | 🟡 | |
-| 36 | **Sáhara Occ. / Marruecos** | ❌ No | 🟢 | |
-| 37 | **UE / España** | ✅ **Certificado UE** | 🟠 | Ver §4. **Punto de Entrada de Viajeros obligatorio.** |
+| # | País | ¿Permiso nuevo? | Dificultad | Nota | Quién lo emite | Correo | Certificado sanitario |
+|---|---|---|---|---|---|---|---|
+| 23 | **Angola** | ⚠️ Sí, casi seguro | 🟠 | Segundo permiso. | [Instituto dos Serviços de Veterinária](https://www.dgav.pt/wp-content/uploads/2023/11/CERTIFICACAO-SANITARIA-ANGOLA-CAES-E-GATOS-2023.pdf) | `gticii@minagrif.gov.ao` | ✅ Sí · **10 días** |
+| 24 | **RD Congo** | ⚠️ Sin confirmar | 🟠 | | [Ministère de l'Agriculture et Sécurité…](https://agriculture.gouv.cd/contact.php) ⚠️ | `info@agriculture.gouv.cd` | ✅ Sí · **10 días** |
+| 25 | **Congo** | ⚠️ Sin confirmar | 🟠 | | [Direction Générale de l'Élevage](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-republic-congo-brazzaville) | — *sin correo publicado* | ✅ Sí · **30 días** |
+| 26 | **Camerún** | ⚠️ Sí, probable | 🟠 | | [Ministère de l'Élevage](https://www.aphis.usda.gov/pet-travel/pet-travel-united-states-cameroon) | — *sin correo publicado* | ✅ Sí · **30 días** |
+| 27 | **Nigeria** | ⚠️ Sí, probable | 🟠 | | [Federal Department of Veterinary and Pest…](https://naqs.gov.ng/animal/) | `contact@naqs.gov.ng` | ✅ Sí · **30 días** |
+| 28 | **Benín** | ⚠️ Sin confirmar | 🟡 | | [Direction de l'Élevage](https://catis.xroad.bj/publicservices/PS00501) | — *sin correo publicado* | ✅ Sí · **10 días** |
+| 29 | **Togo** | ⚠️ Sin confirmar | 🟡 | | [Ministère de l'Agriculture](https://www.pettravel.com/information/pet-passports/togo-pet-import-requirements/) | — *sin correo publicado* | ✅ Sí · **3 días** |
+| 30 | **Ghana** | ⚠️ Sí, probable | 🟡 | | [Veterinary Services Department](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ghana) | `vsd@mofa.gov.gh` | ✅ Sí · **30 días** |
+| 31 | **Costa de Marfil** | ⚠️ Probable | 🟡 | | [Direction des Services Vétérinaires](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ivory-coast) | `carv.dsvci@gmail.com` | ✅ Sí · **10 días** |
+| 32 | **Guinea** | ⚠️ Sin confirmar | 🟠 | | [Direction Nationale des Services Vétérinaires](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-guinea) | `contact@elevage.gov.gn` | ✅ Sí · *validez sin publicar* |
+| 33 | **Senegal** | ⚠️ Probable | 🟡 | | [Direction des Services Vétérinaires](https://senegalservices.sn/demarche/demander-lautorisation-dimporter-des-animaux-de-compagnie) ❓ | `contacts@elevage.gouv.sn` | ✅ Sí · **21 días** |
+| 34 | **Gambia** | ⚠️ Sin confirmar | 🟡 | Solo en la vuelta. | [Department of Livestock Services](https://gambiaembassy.eu/faqs/) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| 35 | **Mauritania** | ⚠️ Sin confirmar | 🟡 | | [Direction des Services Vétérinaires](https://elevage.gov.mr/) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| 36 | **Sáhara Occ. / Marruecos** | ❌ No | 🟢 | | [Office National de Sécurité Sanitaire des…](https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/) ❓ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| 37 | **UE / España** | ✅ **Certificado UE** | 🟠 | Ver §4. **Punto de Entrada de Viajeros obligatorio.** | [Comisión Europea](https://food.ec.europa.eu/animals/movement-pets/eu-legislation/non-commercial-movement-non-eu-countries_en) | — *sin correo publicado* | ✅ Sí · **10 días** |
 
 ## 2.3 Alternativas
 
-| País | Entrada terrestre | Permiso | Dificultad | Nota |
-|---|---|---|---|---|
-| **Sierra Leona** | ⚠️ Sin confirmar | ? | 🟠 | |
-| **Malaui** | ✅ Probable | ✅ Sí | 🟡 | |
-| **Uganda** | ✅ Probable | ✅ Sí | 🟡 | |
-| **Ruanda** | ✅ Probable | ✅ Sí | 🟡 | Administración eficiente. |
-| **Esuatini** | ✅ **Sí** (testimonio directo) | SACU | 🟢 | Cruce terrestre con perro documentado. |
-| **Lesoto** | ✅ Probable | SACU | 🟢 | |
+| País | Entrada terrestre | Permiso | Dificultad | Nota | Quién lo emite | Correo | Certificado sanitario |
+|---|---|---|---|---|---|---|---|
+| **Sierra Leona** | ⚠️ Sin confirmar | ? | 🟠 | | [Livestock and Veterinary Services Division](https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-sierra-leone-certificate-6548) | — *sin correo publicado* | ✅ Sí · **7 días** |
+| **Malaui** | ✅ Probable | ✅ Sí | 🟡 | | [Department of Animal Health and Livestock…](https://www.malawitradeportal.com/en-gb/site/display/300) | `agriculture@agriculture.gov.mw` | ✅ Sí · *validez sin publicar* |
+| **Uganda** | ✅ Probable | ✅ Sí | 🟡 | | [Commissioner Animal Health](https://www.agriculture.go.ug/dogs-and-cats/) | `maaif@agriculture.go.ug` | ✅ Sí · **7 días** |
+| **Ruanda** | ✅ Probable | ✅ Sí | 🟡 | Administración eficiente. | [Rwanda Agriculture and Animal Resources…](https://rwandatrade.rw/procedure/509?l=en) | `arpms@rab.gov.rw` | ✅ Sí · *validez sin publicar* |
+| **Esuatini** | ✅ **Sí** (testimonio directo) | SACU | 🟢 | Cruce terrestre con perro documentado. | [Department of Veterinary and Livestock…](https://www.gov.sz/index.php/ministries-departments/ministry-of-agriculture/veterinary-a-livestock) ⚠️ | — *sin correo publicado* | ✅ Sí · **60 días** |
+| **Lesoto** | ✅ Probable | SACU | 🟢 | | [Department of Livestock Services - Imports…](https://lesotho.eregulations.org/procedure/160?l=en) | — *sin correo publicado* | ✅ Sí · **60 días** |
 
 ---
 
@@ -280,6 +280,11 @@ Tres indicios de que esas fichas no son fiables como fuente legal:
 
 ---
 
+**Dónde se pide.** Office National de Sécurité Sanitaire des Produits Alimentaires (ONSSA) - Direction des Services Vétérinaires — [página del trámite](https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/) ❓ *no se ha podido abrir para comprobarla*  
+**Teléfono:** +212 5 37 67 65 00  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial del pais de salida (en la UE, veterinario oficial habilitado; certificado en modelo bilateral, no vale el pasaporte europeo solo)  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-morocco) · [aphis.usda.gov](https://www.aphis.usda.gov/sites/default/files/morocco-dog-cat_0.pdf)  
+
 ## 3.2 SÁHARA OCCIDENTAL 🟢
 
 **[CONFIRMADO]** Territorio bajo administración marroquí de facto en el corredor de la ruta (Bojador–Dajla–Guerguerat). **No hay trámite aduanero ni veterinario independiente.** El control se produce al salir hacia Mauritania, en **Guerguerat**.
@@ -287,6 +292,13 @@ Tres indicios de que esas fichas no son fiables como fuente legal:
 Sin requisitos propios para el perro. Consideración práctica: **calor extremo y ausencia total de veterinarios** en ~1.100 km. Llevar agua de sobra y botiquín.
 
 ---
+
+**Dónde se pide.** Office National de Sécurité Sanitaire des Produits Alimentaires (ONSSA) - Direction des Services Vétérinaires — [página del trámite](https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/) ❓ *no se ha podido abrir para comprobarla*  
+**Teléfono:** +212 5 37 67 65 00  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial del pais de salida (en la UE, veterinario oficial habilitado; certificado en modelo bilateral, no vale el pasaporte europeo solo)  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-morocco) · [aphis.usda.gov](https://www.aphis.usda.gov/sites/default/files/morocco-dog-cat_0.pdf)  
+
+> Administrado por Marruecos: no hay trámite ni organismo propio.
 
 ## 3.3 MAURITANIA 🟡
 
@@ -300,6 +312,12 @@ Sin requisitos propios para el perro. Consideración práctica: **calor extremo 
 > **A quién escribir:** Embajada de Mauritania en Madrid; Direction des Services Vétérinaires, Nouakchott. Ver §6.
 
 ---
+
+**Dónde se pide.** Direction des Services Vétérinaires (DSV) / Direction de l'Élevage, Ministère de l'Élevage (antes Ministère du Développement Rural) — [portada del organismo](https://elevage.gov.mr/) ⚠️ *no se ha localizado la página del trámite*  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial del pais de salida (certificado zoosanitario)  
+**Otra fuente:** [woah.org](https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm) · [woah.org](https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/animalwelfare/PF_animalwelfare_fr.htm)  
+
+> NO ENCONTRADA ninguna pagina, ni del Gobierno mauritano ni consular, que publique el tramite de importacion de animales de compania.
 
 ## 3.4 SENEGAL 🟡
 
@@ -320,6 +338,11 @@ Sin requisitos propios para el perro. Consideración práctica: **calor extremo 
 
 ---
 
+**Dónde se pide.** Direction des Services Vétérinaires (DSV), Ministère de l'Agriculture, de la Souveraineté Alimentaire et de l'Élevage — [página del trámite](https://senegalservices.sn/demarche/demander-lautorisation-dimporter-des-animaux-de-compagnie) ❓ *no se ha podido abrir para comprobarla*  
+**Escribir a:** `contacts@elevage.gouv.sn`  
+**Certificado sanitario:** ✅ Sí · 21 días · lo emite: Veterinario oficial/acreditado del pais de salida (en la UE, veterinario oficial); debe acompañar al animal  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-senegal) · [gov.uk](https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-senegal-certificate-6367)  
+
 ## 3.5 GUINEA 🟠
 
 **Entrada terrestre:** **[SIN CONFIRMAR]**
@@ -332,6 +355,11 @@ Es, junto con Congo-Brazzaville y RD Congo, uno de los **tres agujeros negros do
 
 ---
 
+**Dónde se pide.** Direction Nationale des Services Vétérinaires (DNSV), Ministère de l'Élevage et des Productions Animales — [página del trámite](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-guinea)  
+**Escribir a:** `contact@elevage.gov.gn`  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial/acreditado del pais de salida  
+**Otra fuente:** [elevage.gov.gn](https://www.elevage.gov.gn/mission-et-attributions/) · [woah.org](https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm)  
+
 ## 3.6 COSTA DE MARFIL 🟡
 
 **Entrada terrestre:** ✅ Probable. **[PROBABLE]**
@@ -342,6 +370,12 @@ Es, junto con Congo-Brazzaville y RD Congo, uno de los **tres agujeros negros do
 > **A quién escribir:** Direction des Services Vétérinaires, Ministère des Ressources Animales et Halieutiques, Abiyán.
 
 ---
+
+**Dónde se pide.** Direction des Services Vétérinaires (DSV), Ministère des Ressources Animales et Halieutiques — [página del trámite](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ivory-coast)  
+**Escribir a:** `carv.dsvci@gmail.com`  
+**Teléfono:** +225 27 20 21 89 72  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial/acreditado del pais de salida, refrendado por la autoridad veterinaria nacional  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/sites/default/files/ptw-ivory-coast-import-permit-application.pdf) · [gucecotedivoire.ci](https://www.gucecotedivoire.ci/pwic/animaux-vivants/)  
 
 ## 3.7 GHANA 🟡
 
@@ -354,6 +388,14 @@ Es, junto con Congo-Brazzaville y RD Congo, uno de los **tres agujeros negros do
 
 ---
 
+**Dónde se pide.** Veterinary Services Department (VSD), Ministry of Food and Agriculture (MoFA) — [página del trámite](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-ghana)  
+**Escribir a:** `vsd@mofa.gov.gh`  
+**Teléfono:** +233 24 264 9497  
+**Certificado sanitario:** ✅ Sí · 30 días · lo emite: Veterinario oficial del pais de salida ('International Health Certificate'; desde EEUU lo emite veterinario acreditado y lo refrenda APHIS, que acepta refrendo digital)  
+**Otra fuente:** [vsd.gov.gh](https://vsd.gov.gh/) · [aphis.usda.gov](https://www.aphis.usda.gov/sites/default/files/ghana-dog-cat.pdf)  
+
+> OJO AL NOMBRE: el organismo existe y su sitio oficial es vsd.gov.gh, pero se llama a si mismo 'Veterinary Services Department', no 'Directorate'.
+
 ## 3.8 TOGO 🟡 · 3.9 BENÍN 🟡
 
 **Entrada terrestre:** ✅ Probable en ambos. **[PROBABLE]**
@@ -363,6 +405,14 @@ Son países pequeños, de tránsito rápido (1–3 días). En la práctica, el r
 > **A quién escribir:** Direction de l'Élevage, Lomé (Togo) · Direction de l'Élevage, Cotonú (Benín).
 
 ---
+
+**Dónde se pide · Togo.** Ministère de l'Agriculture, de la Production Animale (Ressources Animales) et de la Souveraineté Alimentaire (MAPRASA) - servicios veterinarios / Direction de l'Élevage — [página del trámite](https://www.pettravel.com/information/pet-passports/togo-pet-import-requirements/)  
+**Certificado sanitario:** ✅ Sí · 3 días · lo emite: Veterinario oficial del pais de salida, o veterinario habilitado con refrendo de veterinario oficial  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/live-animal-export/export-live-animals-togo) · [anivetvoyage.com](https://www.anivetvoyage.com/formalites-pays/t/174-togo.html)  
+
+**Dónde se pide · Benín.** Direction de l'Élevage (DE), Ministère de l'Agriculture, de l'Élevage et de la Pêche (MAEP) — [página del trámite](https://catis.xroad.bj/publicservices/PS00501)  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial del pais de salida; en Benin el certificado sanitario internacional lo expide la Direction de l'Élevage  
+**Otra fuente:** [catis.xroad.bj](https://catis.xroad.bj/institutions/IN00173) · [anivetvoyage.com](https://anivetvoyage.com/pays/benin/)  
 
 ## 3.10 NIGERIA 🟠
 
@@ -381,6 +431,12 @@ PetTravel afirma que los perros entran *"vía Aeropuerto Internacional Murtala M
 
 ---
 
+**Dónde se pide.** Federal Department of Veterinary and Pest Control Services (FDVPCS) - Chief Veterinary Officer of Nigeria (CVO), Federal Ministry of Agriculture. La Nigeria Agricultural Quarantine Service (NAQS) NO emite el permiso: inspecciona y pone en cuarentena a la llegada — [página del trámite](https://naqs.gov.ng/animal/)  
+**Escribir a:** `contact@naqs.gov.ng`  
+**Teléfono:** +234 807 777 8943  
+**Certificado sanitario:** ✅ Sí · 30 días · lo emite: Veterinario oficial del pais de salida ('Sanitary/Health certificate'); desde EEUU, veterinario acreditado MAS refrendo de APHIS en TINTA ORIGINAL y con sello en relieve  
+**Otra fuente:** [naqs.gov.ng](https://naqs.gov.ng/wp-content/uploads/2020/07/NAQS_SOP.pdf) · [aphis.usda.gov](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-nigeria)  
+
 ## 3.11 CAMERÚN 🟠
 
 **Entrada terrestre:** ✅ Sí (Ekok/Mfum desde Nigeria; Kye-Ossi hacia el sur). **[PROBABLE]**
@@ -389,6 +445,10 @@ PetTravel afirma que los perros entran *"vía Aeropuerto Internacional Murtala M
 **Con el perro dentro:** Yaundé y Duala tienen veterinarios. **Zona de máximo riesgo de tsetse** en el tramo sur/este (ver §7).
 
 ---
+
+**Dónde se pide.** Ministère de l'Élevage, des Pêches et des Industries Animales (MINEPIA) - Direction des Services Vétérinaires — [página del trámite](https://www.aphis.usda.gov/pet-travel/pet-travel-united-states-cameroon)  
+**Certificado sanitario:** ✅ Sí · 30 días · lo emite: Veterinario oficial del pais de salida (desde EEUU, veterinario acreditado MAS refrendo de APHIS en tinta original y con sello en relieve)  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/sites/default/files/cameroon-dog-cat.pdf) · [minepia.cm](https://minepia.cm/site/services/productions-et-industries-animales/obtention-dune-autorisation-dimportation-des-poussins-dun-jour-des-oeufs-a-couver-des-animaux-delevage-et-de-compagnie/)  
 
 ## 3.12 CONGO-BRAZZAVILLE 🟠 · 3.13 RD CONGO 🟠
 
@@ -403,6 +463,16 @@ Complicación adicional: entre Brazzaville y Kinshasa el cruce es **fluvial** (f
 
 ---
 
+**Dónde se pide · Congo-Brazzaville.** Direction Générale de l'Élevage (servicios veterinarios), Ministère de l'Agriculture, de l'Élevage et de la Pêche, Brazzaville — [página del trámite](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-republic-congo-brazzaville)  
+**Certificado sanitario:** ✅ Sí · 30 días · lo emite: Veterinario oficial del pais de salida (desde EEUU, veterinario acreditado mas refrendo de APHIS; aqui SI se acepta refrendo digital)  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/sites/default/files/congo-dog-cat.pdf) · [aphis.usda.gov](https://www.aphis.usda.gov/live-animal-export/export-live-animals-republic-congo-brazzaville)  
+
+**Dónde se pide · Rd Congo.** Ministère de l'Agriculture et Sécurité Alimentaire (MINASA) - servicios veterinarios; el control en frontera lo ejerce el Service de la Quarantaine Animale et Végétale (SQAV) — [portada del organismo](https://agriculture.gouv.cd/contact.php) ⚠️ *no se ha localizado la página del trámite*  
+**Escribir a:** `info@agriculture.gouv.cd`  
+**Teléfono:** +243 828 174 932  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial del pais de salida (certificat sanitaire international)  
+**Otra fuente:** [agriculture.gouv.cd](https://agriculture.gouv.cd/index.php) · [ambardc.be](https://ambardc.be/)  
+
 ## 3.14 ANGOLA 🟠
 
 **Entrada terrestre:** ✅ Probable. **[PROBABLE]**
@@ -410,6 +480,11 @@ Complicación adicional: entre Brazzaville y Kinshasa el cruce es **fluvial** (f
 Se cruza **dos veces**: contar con **dos permisos**.
 
 ---
+
+**Dónde se pide.** Instituto dos Serviços de Veterinária (ISV), Ministério da Agricultura e Florestas (MINAGRIF) — [página del trámite](https://www.dgav.pt/wp-content/uploads/2023/11/CERTIFICACAO-SANITARIA-ANGOLA-CAES-E-GATOS-2023.pdf)  
+**Escribir a:** `gticii@minagrif.gov.ao`  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Médico veterinário oficial del pais de salida; el examen clinico debe acreditarse con documentacion emitida por un medico veterinario clinico  
+**Otra fuente:** [minagrif.gov.ao](https://minagrif.gov.ao/web/entidades-tutela) · [minagrif.gov.ao](https://minagrif.gov.ao/web/contactos)  
 
 ## 3.15 ZAMBIA 🟡
 
@@ -427,6 +502,12 @@ Se cruza **dos veces**: contar con **dos permisos**.
 **Con el perro dentro:** South Luangwa, Kafue, Lower Zambezi: **perros prohibidos**. Livingstone (Cataratas Victoria) tiene alojamientos y residencias caninas — **buen punto para dejarlo** unos días. Nota: el nombre histórico del departamento (*Tsetse Control*) no es casual: **Zambia es zona activa de tsetse** (ver §7; hay estudio publicado sobre perros como reservorio de tripanosomiasis en el distrito de Mambwe, este de Zambia).
 
 ---
+
+**Dónde se pide.** Department of Veterinary Services, Ministry of Fisheries and Livestock (MFL) — [página del trámite](https://www.zambiatradeportal.gov.zm/index.php?r=searchProcedure/view1&id=116)  
+**Escribir a:** `info@mfl.gov.zm`  
+**Teléfono:** +260 1 253933 / +260 1 253945  
+**Certificado sanitario:** ✅ Sí · 7 días · lo emite: Veterinario oficial del pais de salida (examen clinico no mas de 48 h antes de la salida)  
+**Otra fuente:** [zambiaembassy.org](https://www.zambiaembassy.org/page/procedures-for-importation-of-livestock-and-pets-into-zambia) · [assets.publishing.service.gov.uk](https://assets.publishing.service.gov.uk/media/65ae438f751546000d7b4a8e/3928NFG.pdf)  
 
 ## 3.16 TANZANIA 🟡 — *el caso que había que resolver*
 
@@ -457,6 +538,12 @@ Ministerio: `barua@mlf.go.tz` · www.mifugouvuvi.go.tz · Government City, Mtumb
 
 ---
 
+**Dónde se pide.** Director of Veterinary Services, Ministry of Livestock and Fisheries (Wizara ya Mifugo na Uvuvi) - Temeke Veterinary Office — [página del trámite](https://www.de.tzembassy.go.tz/services/Importing-Pets-Dogs)  
+**Escribir a:** `zoosanitary@mifugo.go.tz` · `epid1@mifugo.go.tz`  
+**Teléfono:** +255 22 2862592 (fax +255 22 2862538)  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial del pais de salida ('sanitary certificate from a qualified veterinary surgeon in the country of export')  
+**Otra fuente:** [un.tzembassy.go.tz](https://www.un.tzembassy.go.tz/services/import-permit-food-plants-pets-and-animal-products) · [us.tzembassy.go.tz](https://www.us.tzembassy.go.tz/services/import-permit-food-plants-pets-and-animal-products)  
+
 ## 3.17 KENIA 🟢
 
 **Entrada terrestre:** ✅ Sí (Namanga, Isebania, Taveta). **[PROBABLE]**
@@ -473,6 +560,11 @@ Ministerio: `barua@mlf.go.tz` · www.mifugouvuvi.go.tz · Government City, Mtumb
 
 ---
 
+**Dónde se pide.** Directorate of Veterinary Services (DVS), State Department for Livestock Development, Ministry of Agriculture and Livestock Development — [página del trámite](https://infotradekenya.go.ke/procedure/1422?l=en)  
+**Teléfono:** +254 20 631567 (fax +254 20 631273)  
+**Certificado sanitario:** ✅ Sí · 7 días · lo emite: Veterinario oficial del pais de salida (examen clinico no mas de 5 dias antes de la salida)  
+**Otra fuente:** [infotradekenya.go.ke](https://infotradekenya.go.ke/objective/62?l=en) · [assets.publishing.service.gov.uk](https://assets.publishing.service.gov.uk/media/5bc702eaed915d0b01a1bd0b/2913NFG_.pdf)  
+
 ## 3.18 MOZAMBIQUE 🟡
 
 **Entrada terrestre:** ✅ Sí. **[PROBABLE]**
@@ -482,6 +574,12 @@ Ministerio: `barua@mlf.go.tz` · www.mifugouvuvi.go.tz · Government City, Mtumb
 
 ---
 
+**Dónde se pide.** Direccao Nacional de Veterinaria / Autoridade Veterinaria Nacional (DINAV), Ministerio da Agricultura, Ambiente e Pescas (MAAP) — [página del trámite](https://www.agricultura.gov.mz/servicos-ao-cidadao/procedimentos-para-o-movimento-de-animais-seus-produtos-e-subprodutos/)  
+**Escribir a:** `geral@maap.gov.mz` · `geral@agricultura.gov.mz`  
+**Teléfono:** +258 21 468200 (linha verde +258 84 3438999)  
+**Certificado sanitario:** ✅ Sí · 7 días · lo emite: Veterinario oficial del pais de salida (certificado sanitario internacional; examen clinico no mas de 48 h antes de la salida)  
+**Otra fuente:** [agricultura.gov.mz](https://www.agricultura.gov.mz/wp-content/uploads/2018/01/Pedido_Licenca_importacao_animais_vivos.doc) · [assets.publishing.service.gov.uk](https://assets.publishing.service.gov.uk/media/5bcecf21ed915d431874e31d/4143NFG.pdf)  
+
 ## 3.19 ZIMBABUE 🟡
 
 **Entrada terrestre:** ✅ Sí (Beitbridge, Victoria Falls, Chirundu, Nyamapanda). **[PROBABLE]**
@@ -490,6 +588,11 @@ Ministerio: `barua@mlf.go.tz` · www.mifugouvuvi.go.tz · Government City, Mtumb
 **Con el perro dentro:** Hwange, Mana Pools: **prohibidos**. Victoria Falls, Bulawayo y las Eastern Highlands (Nyanga, Vumba) tienen alojamientos que aceptan perros.
 
 ---
+
+**Dónde se pide.** Director of Veterinary Services, Division of Veterinary Services, Ministry of Lands, Agriculture, Fisheries, Water and Rural Development — [página del trámite](https://www.gov.uk/export-health-certificates/export-cats-and-dogs-to-zimbabwe-certificate-3929)  
+**Teléfono:** +263 4 791355 (fax +263 4 720879)  
+**Certificado sanitario:** ✅ Sí · 7 días · lo emite: Veterinario oficial del pais de salida (examen clinico no mas de 48 h antes de la salida)  
+**Otra fuente:** [assets.publishing.service.gov.uk](https://assets.publishing.service.gov.uk/media/5bc7594140f0b61ca2dd15f8/3929NFG.pdf) · [assets.publishing.service.gov.uk](https://assets.publishing.service.gov.uk/media/5bc7592740f0b61c92ec8b6b/3929EHC_V3.pdf)  
 
 ## 3.20 BOTSUANA 🟢 — *el otro caso que había que resolver*
 
@@ -513,6 +616,12 @@ Evidencia:
 **Con el perro dentro:** Chobe, Moremi, Okavango, Nxai Pan, Makgadikgadi, Kgalagadi: **perros prohibidos, y aquí se aplica en serio** (hay leones, licaones y elefantes; es una prohibición de seguridad, no burocrática). Maun y Kasane tienen alojamientos y residencias donde dejarlo. **[CONFIRMADO]** — testimonio Tracks4Africa: dejaron los perros en **Kgalagadi Lodge** mientras visitaban el parque.
 
 ---
+
+**Dónde se pide.** Department of Veterinary Services, Ministry of Agriculture (Botswana) — [página del trámite](https://www.gov.bw/business-compliance-agriculture-animal-husbandry/issuance-import-permit-live-animals-animal)  
+**Escribir a:** `DVSpermits@gov.bw`  
+**Teléfono:** +267 3689513 / +267 3689510 (call centre 17755)  
+**Certificado sanitario:** ✅ Sí · 60 días · lo emite: Veterinario oficial del pais de salida; en entrada desde el area SADC, Interterritorial Movement Permit firmado por veterinario colegiado u oficial Y refrendado por un Government Veterinarian con sello oficial  
+**Otra fuente:** [elsenburg.com](https://www.elsenburg.com/wp-content/uploads/2022/02/VHC-Interterritorial-Movement-permit-SADC-dogs_cats-template-2012_0.pdf) · [aphis.usda.gov](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-botswana)  
 
 ## 3.21 SUDÁFRICA 🟠
 
@@ -546,6 +655,11 @@ Evidencia:
 
 ---
 
+**Dónde se pide.** Director: Animal Health - Import Export Policy Unit, Department of Agriculture, Land Reform and Rural Development (DALRRD) — [página del trámite](https://www.gov.za/services/import/import-animals-and-animal-products)  
+**Escribir a:** `VetPermits@daff.gov.za`  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial del pais de salida (emision del certificado Y su refrendo oficial deben caer dentro de los 10 dias previos al viaje)  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-south-africa) · [aphis.usda.gov](https://www.aphis.usda.gov/sites/default/files/south-africa-dog-guidance.pdf)  
+
 ## 3.22 NAMIBIA 🟠
 
 **Entrada terrestre:** ✅ Sí. **[CONFIRMADO]** — testimonios directos: Noordoewer/Vioolsdrift y Rietfontein/Klein Menasse, ambos **terrestres**, descritos como eficientes con perros.
@@ -567,6 +681,12 @@ Evidencia:
 - **Riesgo documentado:** **calor extremo** y **carreteras de tabla de lavar** (la C14 citada expresamente). Recomendación del testimonio: **parar 15 minutos cada dos horas**.
 
 ---
+
+**Dónde se pide.** Directorate of Veterinary Services - Import/Export Office, Ministry of Agriculture, Water and Land Reform (MAWLR) — [página del trámite](https://namibiatradeportal.gov.na/trade-goods/procedure-details/view_express_entity/485)  
+**Escribir a:** `vet.permits@mawlr.gov.na`  
+**Teléfono:** +264 61 276592 (tambien +264 61 2087892 y +264 61 2087891/0; Walvis Bay +264 64 203073)  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial del pais de salida (examen clinico dentro de los 10 dias previos a la salida)  
+**Otra fuente:** [van.org.na](https://van.org.na/section.php?secid=52&menuid=52) · [aphis.usda.gov](https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-namibia)  
 
 ## 3.23 ALTERNATIVAS
 
