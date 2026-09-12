@@ -130,6 +130,15 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 /* Enlaces a fichas de país desde la sección del perro */
 .paislink { color:inherit; text-decoration:none; border-bottom:1px dotted #1E7A8A; }
 .paislink:hover { color:#1E7A8A; border-bottom-style:solid; }
+/* Referencias externas detectadas automáticamente: URL, dominio, correo o fuente */
+a.fuente { color:#0F5F6E; text-decoration:none; border-bottom:1px solid rgba(15,95,110,.35);
+           word-break:break-word; }
+a.fuente:hover { border-bottom-color:#0F5F6E; background:rgba(30,122,138,.08); }
+a.fuente::after { content:"\2197"; font-size:.72em; margin-left:.12em; opacity:.55;
+                  vertical-align:super; }
+a.fuente[href^="mailto:"]::after { content:"\2709"; vertical-align:baseline; margin-left:.2em; }
+code a.fuente { border-bottom:none; }
+code a.fuente::after { opacity:.45; }
 .paisidx { margin:0 0 22px; padding:14px 16px; background:#f4f7f8; border:1px solid #dde5e8; border-radius:10px; }
 .paisidx-lab { display:block; font-size:12px; text-transform:uppercase; letter-spacing:.06em;
   color:#5c6b72; margin-bottom:9px; }

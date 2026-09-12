@@ -8,6 +8,7 @@ from pathlib import Path
 from site_common import (SITE, MYMAPS, esc, attr, gmaps, page, table, callout,
                          bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML, FICHA_FIELDS)
 from admin_panel import render_admin, ADMIN_CSS
+from enlaza_fuentes import enlazar_fuentes
 import data_senegal
 import data_mauritania
 from data_countries import C, GROUP_LABELS
@@ -886,7 +887,14 @@ def main():
 
     (SITE / "assets/js/points.json").write_text(json.dumps(all_points, ensure_ascii=False), encoding="utf-8")
 
+    # Cualquier referencia externa del texto (URL, dominio, correo o fuente
+    # conocida) se convierte en enlace cliclable antes de escribir la página.
+    n_enlaces = 0
     for path, html_text in pages.items():
+        if path != "admin/index.html":          # el panel de edición se deja intacto
+            nuevo = enlazar_fuentes(html_text)
+            n_enlaces += nuevo.count('class="fuente"')
+            html_text = nuevo
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(html_text, encoding="utf-8")
