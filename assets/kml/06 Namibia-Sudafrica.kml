@@ -3,34 +3,176 @@
   <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
-    <name>Parque Nacional de Etosha</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20at%20waterhole%2C%20Etosha%20National%20Park%2C%20Namibia.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Una de las mejores reservas de fauna de África: la gran cuenca salina (pan) atrae elefantes, leones, rinocerontes y grandes manadas a los abrevaderos, muy visibles desde el propio vehículo. El perro no tiene acceso al pa<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.1667,15.9167">Google Maps</a>]]></description>
+    <name>Cañón del río Fish y Ai-Ais</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20River%20Canyon%20Namibia.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El segundo cañón más grande del mundo tras el Gran Cañón: 160 km de largo, hasta 27 km de ancho y 550 m de profundidad, excavado por el río Fish en un paisaje de roca desnuda. El Main Viewpoint y el Hell's Bend son acces<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-27.595,17.615">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.9167,-19.1667,0</coordinates></Point>
+    <Point><coordinates>17.615,-27.595,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bosque de kokerbooms y Giant's Playground (Keetmanshoop)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Quiver-Tree-Forest-2015.JPG?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>A 14 km de Keetmanshoop, en la granja privada Gariganus, unos 250 ejemplares de kokerboom (Aloidendron dichotomum, el «árbol carcaj» que los san usaban para hacer aljabas) forman un bosque declarado monumento nacional; a<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4667,18.2333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>18.2333,-26.4667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Caballos salvajes de Garub (Aus)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Desert%20Horses%20close%20to%20Aus%20-%20Namibia.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>A 20 km al oeste de Aus, junto a la B4, un abrevadero artificial con hide de observación permite ver la ÚNICA POBLACIÓN DE CABALLOS SALVAJES DEL DESIERTO DEL MUNDO: entre 90 y 150 animales, descendientes probablemente de<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.6333,16.0167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.0167,-26.6333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lüderitz</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%BCderitz%20B%C3%B6dikerhaus.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Puerto alemán de 1883 encajado entre el océano y el desierto, con arquitectura Jugendstil (la Felsenkirche, la Goerke Haus) que parece trasplantada del Báltico. Punta final de una carretera de 120 km entre dunas móviles <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.6481,15.1594">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.1594,-26.6481,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kolmanskop · el pueblo tragado por la arena</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kolmanskop%20hospital%2C%20L%C3%BCderitz%20%28Namibia%29.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>A 10 km de Lüderitz, el pueblo minero de diamantes más rico de África en 1910 —con casino, bolera, hospital con el primer aparato de rayos X del hemisferio sur y tranvía— fue abandonado en 1956 y el Namib se lo ha ido co<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.7044,15.23">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.23,-26.7044,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sossusvlei y Dune 45</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/006%20Dune%2045%20in%20Sossusvlei%20at%20sunrise%20Photo%20by%20Giles%20Laurent.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Las dunas de arena más altas y fotografiadas del planeta, en el mar de arena del Namib (Patrimonio UNESCO): Big Daddy pasa de los 320 m y Dune 45, a 45 km de la puerta de Sesriem, es la que todo el mundo sube al amanecer<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-24.7272,15.3436">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.3436,-24.7272,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Deadvlei</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dead%20Vlei%2C%20Sossusvlei%2C%20Namibia%2C%202018-08-06%2C%20DD%20018-033%20PAN.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>La imagen más reconocible de Namibia: una antigua salina de arcilla blanca agrietada, rodeada por dunas naranjas de 300 m, con los esqueletos negros de acacias muertas hace unos 700 años que el clima seco ha momificado s<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-24.7592,15.2925">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.2925,-24.7592,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cañón del Kuiseb y Welwitschia Drive (Namib-Naukluft)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Namibia%20Kuiseb-Canyon%2005.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>La C14 entre Solitaire y Walvis Bay cruza los pasos de Gaub y Kuiseb, dos gargantas de esquisto plegado con miradores sobre el lecho seco del río Kuiseb, la frontera natural que detiene el avance del mar de dunas hacia e<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-23.4333,15.65">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.65,-23.4333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Walvis Bay · laguna y flamencos</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Flamenco%20com%C3%BAn%20%28Phoenicopterus%20roseus%29%2C%20Walvis%20Bay%2C%20Namibia%2C%202018-08-05%2C%20DD%2029.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>La laguna de Walvis Bay es un humedal RAMSAR y uno de los sitios de aves costeras más importantes del sur de África: hasta 100.000 aves, con decenas de miles de FLAMENCOS ENANOS Y COMUNES que se ven desde el propio paseo<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.9575,14.49">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.49,-22.9575,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sandwich Harbour · las dunas que caen al mar</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Namib%20desert%20meets%20Atlantic%20ocean.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>A 55 km al sur de Walvis Bay, el punto donde las dunas de 100 m del Namib SE DERRUMBAN DIRECTAMENTE SOBRE EL ATLÁNTICO: la imagen más buscada del país y uno de los tramos 4x4 más célebres de África. Se llega por playa, y<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-23.3833,14.4667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.4667,-23.3833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Swakopmund</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Swakopmund%20panorama%20from%20mole%2020190522.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Ciudad costera de arquitectura colonial alemana en plena puerta del Skeleton Coast; mejor oferta de talleres y recambios del tramo namibio tras Windhoek, y base para excursiones a las dunas y a la colonia de focas de Cap<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.6783,14.5267">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Swakopmund%20panorama%20from%20mole%2020190522.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>La ciudad alemana en el desierto: paseo marítimo, Jetty de 1905, panaderías con Apfelstrudel y niebla del Atlántico casi todas las mañanas. Es la MEJOR PLAZA LOGÍSTICA de todo el oeste namibio después de Windhoek (taller<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.6783,14.5267">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>14.5267,-22.6783,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Sossusvlei y Dune 45</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/006%20Dune%2045%20in%20Sossusvlei%20at%20sunrise%20Photo%20by%20Giles%20Laurent.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Las dunas de arena naranja más altas y fotografiadas del planeta, en el corazón del desierto del Namib; amanecer en Dune 45 y la arcilla blanca agrietada de Deadvlei como referencia visual del país.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-24.7333,15.8">Google Maps</a>]]></description>
+    <name>Spitzkoppe</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Spitzkoppe%20Namibia5.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El «Matterhorn de Namibia»: un inselberg de granito rojo de 1.728 m que emerge 700 m sobre la llanura, con 120 millones de años y formas redondeadas por la erosión. El Rock Arch es el arco natural más fotografiado del pa<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.8272,15.1944">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.8,-24.7333,0</coordinates></Point>
+    <Point><coordinates>15.1944,-21.8272,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Cañón del río Fish (Fish River Canyon)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20River%20Canyon%20Namibia.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>El segundo cañón más grande del mundo tras el Gran Cañón; miradores accesibles en coche sobre el borde del desfiladero, último gran hito namibio antes de cruzar a Sudáfrica.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-27.5833,17.6167">Google Maps</a>]]></description>
+    <name>Cape Cross · colonia de lobos marinos</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Fur%20Seals%20Cape%20Cross.jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>Entre 80.000 y 200.000 lobos marinos de El Cabo según la época, la mayor colonia reproductora del mundo de la especie, sobre una punta de roca a 120 km al norte de Swakopmund. El ruido y sobre todo el OLOR son parte de l<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.7714,13.9503">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.9503,-21.7714,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Messum Crater</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Namib%20desert%20meets%20Atlantic%20ocean.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Un cráter de colapso volcánico de 22 km de diámetro en medio de la llanura de grava más silenciosa de Namibia, resto de un complejo ígneo de 132 millones de años relacionado con la apertura del Atlántico. NO HAY PISTA OF<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.4,14.2333">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>17.6167,-27.5833,0</coordinates></Point>
+    <Point><coordinates>14.2333,-21.4,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Brandberg · la Dama Blanca</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wei%C3%9Fe%20Dame%20Brandberg.JPG?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>El macizo del Brandberg culmina en el Königstein (2.573 m), el PUNTO MÁS ALTO DE NAMIBIA. En el Tsisab Ravine, a 45 minutos a pie desde el aparcamiento y con guía local obligatorio, está la «Dama Blanca», la pintura rupe<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.1167,14.55">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.55,-21.1167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Twyfelfontein (Patrimonio UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rock%20engraving%20in%20Twyfelfontein.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Primer Patrimonio de la Humanidad de Namibia (2007): más de 2.000 GRABADOS RUPESTRES san sobre arenisca roja —rinocerontes, jirafas, huellas de animales y el célebre «león-hombre» con cola acabada en mano— con entre 2.00<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.5906,14.3728">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.3728,-20.5906,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Damaraland · Palmwag y los elefantes del desierto</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Spitzmaulnashorn%20in%20Namibia.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>LA CLAVE DEL VIAJE CON EL PERRO: aquí hay fauna grande de verdad —elefantes del desierto que caminan 70 km al día entre lechos secos, la mayor población de RINOCERONTE NEGRO EN LIBERTAD FUERA DE UN PARQUE del planeta, ji<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8833,13.95">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.95,-19.8833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Skeleton Coast · de Ugab a Terrace Bay</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shipwreck-skeleton-coast.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>«La tierra que Dios hizo con rabia», la llamaban los san: 500 km de costa de niebla, corriente fría de Benguela, esqueletos de ballena y PECIOS oxidándose en la arena. El tramo abierto al público va de la puerta de Ugabm<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.2833,13.2167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.2167,-20.2833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Etosha</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20at%20waterhole%2C%20Etosha%20National%20Park%2C%20Namibia.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Una de las mejores reservas de fauna de África y probablemente la más fácil de recorrer en vehículo propio: una cuenca salina de 5.000 km² tan blanca que se ve desde el espacio, rodeada de más de 50 abrevaderos donde en <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.1806,15.9128">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.9128,-19.1806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kaokoland · Van Zyl's Pass y el Marienfluss</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Himba%20woman%20%28Namibia%29.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El último gran territorio salvaje del país y el hogar de los HIMBA, que siguen viviendo del ganado y cubriéndose de otjize (ocre y grasa). Van Zyl's Pass es uno de los pasos 4x4 más duros de África: unos 15 km de bajada <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.5333,12.65">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.65,-17.5333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas de Epupa</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Epupa%20Falls%20%28detail%29.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El Cunene, frontera con Angola, se rompe en una serie de saltos de hasta 37 m repartidos en 1,5 km de ancho entre baobabs y palmeras makalani; el nombre significa «espuma» en herero. Es el oasis del Kaokoland: campings c<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.0011,13.2453">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.2453,-17.0011,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas de Ruacana</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Epupa%20Falls%20%28detail%29.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Salto de 120 m y 700 m de ancho sobre el Cunene, justo en la frontera con Angola y a un paso del puesto fronterizo de Ruacana/Calueque. Es una de las mayores cascadas de África POR CAUDAL POTENCIAL, pero el agua la regul<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-22">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.3897,14.2192">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.2192,-17.3897,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Windhoek</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Christ%20Church%20in%20Windhoek%2C%20Namibia.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital a 1.700 m de altitud, tranquila y sorprendentemente europea: la Christuskirche de 1907, la Alte Feste, el Independence Memorial Museum y el mercado de Katutura. Es LA gran plaza logística del país —concesionarios<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-23">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.5609,17.0658">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>17.0658,-22.5609,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Meseta del Waterberg</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Waterberg%20cliff%20face.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Una mesa de arenisca roja de 50 km de largo que se levanta 200 m sobre la sabana, con un ecosistema aislado arriba usado como SANTUARIO DE ESPECIES AMENAZADAS (rinoceronte blanco y negro, sable, roan) y una de las mejore<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#poi-24">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.5,17.2333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>17.2333,-20.5,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Ciudad del Cabo (Table Mountain)</name>

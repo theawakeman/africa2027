@@ -3,36 +3,163 @@
   <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-gris"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,666666,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
-    <name>Maputo</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Avenida%20Samora%20Machel%20towards%20Maputo%20City%20Hall.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital y mayor base de servicios del país, con la Avenida Samora Machel y la Casa de Fierro de Eiffel como referencias urbanas; sede de la embajada de España y punto de entrada natural desde Sudáfrica o Esuatini.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.9692,32.5732">Google Maps</a>]]></description>
+    <name>Lichinga y la meseta del Niassa</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lichinga%20-%20Julius%20Nyerere%20street.JPG?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Primera plaza con servicios reales tras entrar por el Rovuma: capital de la provincia de Niassa, a 1.300 m sobre una meseta fresca de pinares y plantaciones, con combustible formal, bancos, mercado y hospital provincial.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.3128,35.2406">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>32.5732,-25.9692,0</coordinates></Point>
+    <Point><coordinates>35.2406,-13.3128,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Arquipélago de Bazaruto (Vilanculos)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bazaruto%20Archipelago%20National%20Park%2C%20Mozambique.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Parque nacional marino con dunas de arena blanca, dugongos y arrecifes de coral; Vilanculos es la base logística en tierra para visitar el archipiélago en barco, punto de referencia de toda la costa índica del sur del pa<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.9686,35.3172">Google Maps</a>]]></description>
+    <name>Lago Niassa · Metangula, Cóbuè e islas</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>La orilla mozambiqueña del LAGO MALAUI (aquí Niassa), el tercer lago más grande de África y el de mayor diversidad de peces del planeta: cientos de especies de cíclidos endémicos en agua transparente, sin bilharzia decla<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.6892,34.8181">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>35.3172,-21.9686,0</coordinates></Point>
+    <Point><coordinates>34.8181,-12.6892,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reserva Especial de Niassa (EXCLUIDA por seguridad)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mozambique%20location%20map.svg?width=900" width="320"/><br/><b>Descartada · Referencia · conflicto</b><br/>ZONA EXCLUIDA. Sobre el papel es la joya: 42.000 km² de miombo virgen a orillas del Lugenda y el Rovuma, uno de los espacios protegidos más grandes de África, con elefantes, licaones y una de las últimas poblaciones gran<br/><b>Perro:</b> irrelevante: no se entra<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.1667,37.5">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-gris</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Gris</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>37.5,-12.1667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cuamba y el ferrocarril de Nacala</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mozambique%20126.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Nudo ferroviario en mitad del interior, donde la línea de Nacala cruza hacia Malaui: uno de los pocos trenes de pasajeros que siguen funcionando en África austral pasa por aquí y sigue siendo la espina dorsal social de t<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.8036,36.5372">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.5372,-14.8036,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gurué, el monte Namuli y las plantaciones de té</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Guru%C3%A9%20Mo%C3%A7ambique.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El rincón verde y fresco que casi nadie asocia con Mozambique: laderas escalonadas de té a 1.000 m, cascadas, niebla y antiguas casas coloniales de las compañías tealeras. Encima se levanta el MONTE NAMULI (2.419 m), el <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.4667,36.9833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.9833,-15.4667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nampula</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/2010-10-18%2010-55-38%20Mozambique%20Maputo%20Chamanculo%20%E2%80%9DB%E2%80%9D.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Tercera ciudad del país y la gran plaza logística de todo el norte: talleres, neumáticos, recambios, supermercados, hospital central y bancos. Rodeada de inselbergs de granito espectaculares y con el Museo Nacional de Et<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.1165,39.2666">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.2666,-15.1165,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ilha de Moçambique (Patrimonio de la Humanidad)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Forte%20de%20S%C3%A3o%20Sebasti%C3%A3o%20-%20Igreja.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>EL GRAN IMPRESCINDIBLE DEL NORTE. Una isla de coral de 3 km por 500 m, unida al continente por un puente de un solo carril de 3,8 km, que fue capital de todo el África Oriental Portuguesa durante casi cuatro siglos. Patr<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.0347,40.7358">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>40.7358,-15.0347,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chocas-Mar, las Cabaceiras y la bahía de Mossuril</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sand%20Rd%20(4x4%20requied)%2C%20Mozambique%20-%20panoramio%20(1).jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>Justo enfrente de Ilha, al otro lado de la bahía, un rosario de playas de arena blanca y manglares al que se llega por PISTAS DE ARENA entre cocoteros: Chocas-Mar, Cabaceira Pequena y Cabaceira Grande, con la iglesia por<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.9667,40.6167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>40.6167,-14.9667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pemba y el archipiélago de las Quirimbas (EXCLUIDOS)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pemba%20port%20(8443551177).jpg?width=900" width="320"/><br/><b>Descartada · Referencia · conflicto</b><br/>ZONA EXCLUIDA. Pemba, la bahía natural más grande de África después de Sídney, la isla de Ibo con sus tres fuertes portugueses y el archipiélago de las Quirimbas serían, sin el conflicto, dos semanas completas de viaje. <br/><b>Perro:</b> irrelevante: no se entra<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-12.974,40.5178">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-gris</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Gris</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>40.5178,-12.974,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quelimane</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tribunal%20Judicial%20da%20Prov%C3%ADncia%20de%20Zamb%C3%A9zia%2C%20Quelimane%2C%20Mo%C3%A7ambique.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Puerto fluvial sobre el río dos Bons Sinais, la ciudad del cocotero y punto de partida histórico de la travesía de África de Livingstone. Arquitectura colonial deteriorada pero con carácter, catedral antigua, mercado eno<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8786,36.8883">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.8883,-17.8786,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Caia y el puente del Zambeze</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cahorra%20bassa.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>El punto donde la EN1 cruza el ZAMBEZE por el puente Armando Emílio Guebuza (2.376 m, inaugurado en 2009), que sustituyó a la barcaza que durante décadas partió el país en dos. Es el nudo que decide la ruta: desde aquí s<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.8286,35.3336">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.3336,-17.8286,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tete, Cahora Bassa y el puente colgante</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cahorra%20bassa.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Corazón de la variante interior. Tete es la ciudad más calurosa de Mozambique (más de 45 °C en octubre) y su puente colgante sobre el Zambeze, de 1973, sigue siendo una imagen icónica del país. A 150 km al oeste está la <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-16.1564,33.5867">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.5867,-16.1564,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Gorongosa</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gorongosa%20Park%20Gate.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>EL PARQUE DE REFERENCIA MUNDIAL EN RESTAURACIÓN. La guerra civil borró el 90-95% de la fauna grande; desde 2004 el proyecto de restauración de Gorongosa la ha reconstruido hasta las decenas de miles de animales, y hoy es<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.9814,34.3517">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.3517,-18.9814,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Monte Gorongosa y las cascadas de Murombodzi</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Gorongosa%2C%20Gorongosa%20National%20Park%2C%20Mozambique%20(46316615492).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>LA MEJOR CAMINATA DEL CENTRO DEL PAÍS. El macizo de Gorongosa (1.863 m), incorporado al parque en 2010 precisamente porque su bosque de niebla es la fábrica de agua que alimenta el valle, se sube desde la aldea de Sadjun<br/><b>Perro:</b> prohibido dentro del área del parque<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.4333,34.0667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.0667,-18.4333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Beira</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sé%20da%20Beira.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Segunda ciudad del país y puerto clave del corredor hacia Zimbabue y Malaui; la Catedral (Sé da Beira) resume el legado colonial portugués. Base de repostaje y descanso antes de virar hacia el interior por Tete.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8437,34.8389">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9%20da%20Beira.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Segunda ciudad del país y cabecera del corredor de Beira hacia Zimbabue: el mejor sitio del centro para talleres, recambios, neumáticos y aprovisionamiento serio. La Sé da Beira y el Grande Hotel —un coloso art déco de 1<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8437,34.8389">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>34.8389,-19.8437,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Parque Nacional de Gorongosa</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gorongosa%20Park%20Gate.JPG?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Uno de los grandes proyectos de restauración de fauna de África tras la guerra civil (elefantes, leones, licaones); acceso por la puerta de Chitengo. Perro prohibido dentro del parque; opción de dejarlo en el campamento <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.9686,34.3536">Google Maps</a>]]></description>
+    <name>Chimoio, Manica y el arte rupestre de Chinhamapere</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chimanimani%20Zimbabwe1%20var.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Última plaza grande antes de la frontera de Machipanda, en la meseta de Manica: clima fresco, buenos servicios y base para el bloque montañoso. A 70 km, el pueblo de Manica conserva el mirador de Penha Longa sobre la fro<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.1164,33.4833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.4833,-19.1164,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reserva Nacional de Chimanimani y el monte Binga (2.436 m)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Binga%20Mozambique.JPG?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>EL TECHO DE MOZAMBIQUE y la mejor travesía a pie del país. El monte Binga (2.436 m) corona la sierra de Chimanimani, en la frontera con Zimbabue: cuarcitas blancas, praderas de altura, bosque de galería y cascadas. Desde<br/><b>Perro:</b> prohibido dentro de la reserva<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.7647,33.0619">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>34.3536,-18.9686,0</coordinates></Point>
+    <Point><coordinates>33.0619,-19.7647,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Inhassoro y la península de San Sebastián</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sand%20Rd%20(4x4%20requied)%2C%20Mozambique%20-%20panoramio%20(1).jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>El acceso terrestre más salvaje del archipiélago. Desde Inhassoro sale la PISTA DE ARENA de la PENÍNSULA DE SAN SEBASTIÁN, un dedo de dunas y matorral costero de unos 60 km que apunta hacia Bazaruto y que es una reserva <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.5333,35.2">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.2,-21.5333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vilanculos y el archipiélago de Bazaruto</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bazaruto%20Archipelago%20National%20Park%2C%20Mozambique.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Parque nacional marino de cinco islas con DUNAS DE ARENA BLANCA DE 100 M cayendo al mar, arrecifes de coral, mantas y la última población viable de DUGONGO del océano Índico occidental. A las islas solo se llega en barco<br/><b>Perro:</b> no en las islas<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.0027,35.3133">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.3133,-22.0027,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tofo, Barra e Inhambane</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Church%20Inhambane%20(3984583818).jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>LA CAPITAL MUNDIAL DEL TIBURÓN BALLENA Y LA MANTA GIGANTE. La bahía de Tofo tiene una de las agregaciones más constantes del planeta de ambas especies (la Marine Megafauna Foundation nació aquí), y entre junio y octubre <br/><b>Perro:</b> permitido en las playas de Tofo y Barra<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-23.8544,35.5453">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.5453,-23.8544,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Maputo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Avenida%20Samora%20Machel%20towards%20Maputo%20City%20Hall.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital, embajada de España y la mayor base de servicios del país: talleres de 4x4, recambios, hospital central y clínicas privadas (Cruz Azul), supermercados grandes y consulados para el resto del bucle. Avenidas de aca<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.9692,32.5732">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.5732,-25.9692,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ponta do Ouro, Ponta Malongane y el Parque Nacional de Maputo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ponta%20do%20Ouro%20in%20the%20morning.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>EL EXTREMO SUR DE MOZAMBIQUE Y EL PARAÍSO 4x4 DEL PAÍS. Desde el puente de Katembe la carretera acaba y empieza el laberinto de PISTAS DE ARENA PROFUNDA entre dunas boscosas, lagos interiores (Sugi, Sotiva, Piti) y las p<br/><b>Perro:</b> permitido fuera del parque<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#poi-22">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.8433,32.8917">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.8917,-26.8433,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Zomba y su meseta</name>
