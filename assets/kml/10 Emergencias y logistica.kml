@@ -946,53 +946,123 @@
     <Point><coordinates>9.4673,0.4162,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Ndendé/Doussala (desde Gabón)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal desde Gabón hacia Dolisie; confirmar el estado de la pista en temporada de lluvias.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.8333,10.9167">Google Maps</a>]]></description>
+    <name>Frontera · Entrada bajada — Ntam / Souanké (desde Camerún)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Extremo congoleño del corredor Ketta-Djoum / Brazzaville-Yaundé. El lado CONGOLEÑO está confirmado: los 143 km Sembé-Souanké-Ntam se inauguraron asfaltados el 6 de marzo de 2020 y el conjunto de 312 km del lado congoleño está terminado; el que iba con retraso es el tramo camerunés (191 km). POR CONFIRMAR, y es crítico: coordenada exacta del puesto, si el cruce del río Ngoko/Dja es por puente terminado o por barcaza, horario de apertura, si la aduana congoleña sella el CPD aquí o hay que bajar a Ouesso, y si el paso admite vehículos particulares extranjeros o solo tráfico comercial. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.2,14.0">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.0,2.2,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida bajada — Beach de Brazzaville, ferry hacia Kinshasa</name>
+    <description><![CDATA[<b>Frontera</b><br/>El cruce más notorio de África para overlanders. NO hay puente sobre el río Congo. Pasajeros en canot rapide (15-20 min, ~16.400 FCFA por persona según relatos de 2024-2025); vehículos en el bac/barcaza, con salidas limitadas y no diarias. Intervienen puerto, inmigración (DGM del lado RDC), aduanas de ambos países, higiene (fiebre amarilla) y policía. Presupuestar UN DÍA ENTERO por persona y 1-3 días adicionales para el despacho del vehículo en Kinshasa. Empezar a primera hora; hay quien recomienda cruzar en domingo, con menos aglomeración. Coordinar con la ficha de RD Congo, que documenta el trámite desde la otra orilla.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.279,15.286">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.286,-4.279,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Entrada subida — Beach de Brazzaville, ferry desde Kinshasa</name>
+    <description><![CDATA[<b>Frontera</b><br/>Mismo cruce en sentido inverso, ya de vuelta desde Angola/RD Congo. Segundo día entero de trámites. Aquí arranca el corredor de subida: Brazzaville → Ngo → Djambala → Lékana → Okoyo → Boundji → Owando → Makoua → Ouesso.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.279,15.286">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.286,-4.279,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Salida subida — Socambo / Moloundou (hacia Camerún)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso fluvial sobre el río Ngoko frente a Ouesso: barcaza o piragua motorizada, sin puente. Elegido para que la subida no repita el corredor Ketta-Djoum. CRÍTICO POR CONFIRMAR: capacidad real de la barcaza para vehículos de 3 t, frecuencia, horario, y si la aduana camerunesa de Moloundou sella CPD de vehículo extranjero. Plan B: salir de nuevo por Ntam/Souanké. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.5833,16.0833">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.0833,1.5833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Alternativa — Ndendé / Doussala (hacia Gabón, desde Dolisie)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Solo relevante si se hace el desvío suroeste y se decide salir hacia Gabón en vez de volver a Brazzaville. Gabón queda fuera de la ruta fija del proyecto (eVisa solo aéreo): tratar como informativo.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.8333,10.9167">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>10.9167,-2.8333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Brazzaville–Kinshasa (ferry sobre el río Congo, hacia RD Congo)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce en barco/ferry entre las dos capitales; trámite de aduana y pasaportes en ambos lados del río, vehículo embarcado aparte — confirmar tarifas y horarios con antelación, el servicio de carga puede tener menos frecuencia que el de pasajeros.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.28,15.28">Google Maps</a>]]></description>
-    <styleUrl>#icon-frontera</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.28,-4.28,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Embajada de España en Kinshasa (también acreditada en Congo-Brazzaville)</name>
-    <description><![CDATA[<b>Consular</b><br/>Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe), RD Congo. Tel. +243 813 300 061 / 817 008 770 · Emergencia consular: +243 819 500 289. Sin embajada española propia en Congo-Brazzaville.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.305,15.305">Google Maps</a>]]></description>
+    <name>Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)</name>
+    <description><![CDATA[<b>Consular</b><br/>Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe), RD Congo. Tel. +243 813 300 061 / 817 008 770 · Emergencia consular: +243 819 500 289. NO hay embajada española en Congo-Brazzaville: la representación competente está justo al otro lado del río, lo que en la práctica significa que para cualquier gestión consular hay que cruzar el ferry.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.305,15.305">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.305,-4.305,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Hôpital Général de Brazzaville</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia de la capital congoleña. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2694,15.2761">Google Maps</a>]]></description>
+    <name>Hôpital Général de Brazzaville (CHU)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal referencia hospitalaria del país junto con el Hôpital Central des Armées Pierre Mobengo. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2694,15.2761">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.2761,-4.2694,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Pointe-Noire / Brazzaville</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, Congo Oil) en las dos grandes ciudades; repostar a fondo en ambas antes de cualquier tramo más largo.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
+    <name>Hospitales de Pointe-Noire</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hôpital Général Adolphe Sicé y clínicas privadas ligadas al sector petrolero: la mejor sanidad privada del país, relevante solo si se hace el desvío suroeste.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.8481,-4.7975,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital de base de Ouesso</name>
+    <description><![CDATA[<b>Hospital</b><br/>Única referencia sanitaria seria de todo el norte forestal, entre Odzala, Nouabalé-Ndoki y las dos fronteras cameruneses. A más de 800 km de Brazzaville.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.05,1.6167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Ouesso</name>
+    <description><![CDATA[<b>Combustible</b><br/>Últimas estaciones formales del norte. Salir de aquí con depósitos y garrafas al 100 % antes de Odzala o de Nouabalé-Ndoki: dentro del bloque forestal el combustible es en bidones, caro y no garantizado.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.05,1.6167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Etoumbi y Ewo (puerta de Odzala)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Último punto con oferta —irregular— antes de Mbomo y del parque. Etoumbi es además el pueblo-puerta del sector occidental de Odzala. Confirmar existencias; no planificar contando con ellas.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.0167,14.95">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.95,0.0167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Owando</name>
+    <description><![CDATA[<b>Combustible</b><br/>Plaza intermedia obligada de la RN2 entre Brazzaville y Ouesso (~400 km a cada lado). Repostar aunque el depósito no esté bajo.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.4833,15.9">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.9,-0.4833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Brazzaville</name>
+    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, X-Oil, Puma). Repostar a fondo antes del ferry: al otro lado, en Kinshasa, la calidad es más variable y el despacho puede retenernos días.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2634,15.2429">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.2429,-4.2634,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Djambala y Okoyo (corredor de subida)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Oferta escasa en el eje de las mesetas Batéké. Salir de Brazzaville con autonomía suficiente para llegar holgadamente a Owando.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.5333,14.75">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.75,-2.5333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Dolisie y Pointe-Noire (desvío suroeste)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales y la mejor calidad de gasóleo del país en Pointe-Noire, por el sector petrolero.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>11.8481,-4.7975,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Dolisie</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales en el nudo de comunicaciones entre Gabón, Pointe-Noire y Brazzaville.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2,12.6667">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>12.6667,-4.2,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Agua potable y de uso general · Pointe-Noire y Brazzaville</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las dos grandes ciudades; estaciones de servicio y hoteles permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
+    <name>Agua potable y de uso general · Brazzaville</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles y estaciones de servicio permiten llenar el depósito de uso general con manguera. Es el mejor punto de recarga completa antes de la travesía norte.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2634,15.2429">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>11.8481,-4.7975,0</coordinates></Point>
+    <Point><coordinates>15.2429,-4.2634,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable y de uso general · Ouesso y Owando</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Recarga posible en hoteles y misiones. A partir de aquí, hacia Odzala o hacia Nouabalé-Ndoki, el agua es de río o de pozo: filtrar y potabilizar sin excepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.05,1.6167,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Beach Ngobila, ferry desde Brazzaville</name>
@@ -1324,53 +1394,123 @@
     <Point><coordinates>13.95,-19.8833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Vioolsdrif/Noordoewer (desde Namibia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal desde Namibia, operativo 24h. Desde el 1 de junio de 2026, declarar el vehículo extranjero en el sistema SARS Traveller Management System (TMS) antes de cruzar — online, app SATMS/SARS MobiApp, código QR en el propio puesto, o con un funcionario de aduanas.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.75,17.75">Google Maps</a>]]></description>
+    <name>Frontera · Entrada — Martin's Drift / Groblersbrug (desde Botsuana)</name>
+    <description><![CDATA[<b>Frontera</b><br/>HORARIO 06:00-22:00, sobre el río Limpopo, en la N11 hacia Mokopane. Es la salida que ya elige la ficha de Botsuana después del Tuli Block. Mucho camión de carga: evitar las horas punta de media mañana y media tarde. Declarar el vehículo extranjero en el sistema SARS Traveller Management System (TMS) antes de cruzar. Restricciones fitosanitarias al entrar: fruta, verdura y productos de origen animal.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.6167,28.0333">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>17.75,-28.75,0</coordinates></Point>
+    <Point><coordinates>28.0333,-22.6167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Lebombo (hacia Mozambique, inicio del regreso)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal hacia Mozambique cuando se inicie el tramo de regreso; confirmar de nuevo el trámite SARS/TMS de salida antes de partir de Ciudad del Cabo.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.4667,31.9833">Google Maps</a>]]></description>
+    <name>Frontera · Salida — Vioolsdrif / Noordoewer (hacia Namibia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>OPERATIVO 24 HORAS, sobre el río Orange, en la N7. Es el paso principal del suroeste africano y el que la ficha de Namibia documenta como entrada. Colas largas en vacaciones escolares sudafricanas y a fin de año. Repetir la declaración SARS/TMS de salida del vehículo. Del lado namibio se paga el Cross-Border Charge en la oficina de la Road Fund Administration.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.7583,17.6167">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>17.6167,-28.7583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Alternativa — Sendelingsdrift (pontón al Richtersveld namibio)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Pontón sobre el río Orange dentro del parque transfronterizo, con horario corto y sujeto al nivel del agua y al peso del vehículo. Permite pasar del Richtersveld sudafricano al namibio sin dar la vuelta por Vioolsdrif. CONFIRMAR límite de peso y anchura antes de contar con él para dos vehículos de expedición cargados — si no despacha, la salida es Vioolsdrif sin discusión.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.125,16.885">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.885,-28.125,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera · Alternativa este — Lebombo (hacia Mozambique)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal hacia Mozambique junto a Komatipoort y la puerta de Crocodile Bridge de Kruger. NO se usa en esta ruta (Mozambique queda antes en el bucle), se documenta como salida de emergencia del corredor este.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.4667,31.9833">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.9833,-25.4667,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Frontera · Alternativa — Sani Pass (hacia Lesoto)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto fronterizo de montaña a 2.876 m, SOLO 4X4, con ambos controles cerrando a las 18:00 y cierre por nieve sin aviso. Entrar en Lesoto con el perro exige su propio permiso veterinario: valorar subir solo hasta el control sudafricano.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.5872,29.2878">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.2878,-29.5872,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Embajada de España en Pretoria</name>
-    <description><![CDATA[<b>Consular</b><br/>Lord Charles Complex, 337 Brooklyn Road, Brooklyn, Pretoria 0181. Tel. +27 12 460 0123 · Emergencia consular (Gauteng y norte): +27 (0)76 114 61 51.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.755,28.2378">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Lord Charles Complex, 337 Brooklyn Road, Brooklyn, Pretoria 0181. Tel. +27 12 460 0123 · Emergencia consular (Gauteng y norte): +27 (0)76 114 61 51. Es la representación española de referencia para todo el bloque sur del viaje.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.755,28.2378">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>28.2378,-25.755,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Consulado General de España en Ciudad del Cabo</name>
-    <description><![CDATA[<b>Consular</b><br/>Atención durante los meses de sesión parlamentaria; emergencia consular (Western Cape, Eastern Cape, KwaZulu-Natal, Northern Cape): +27 76 114 61 52.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Atención durante los meses de sesión parlamentaria. Emergencia consular (Western Cape, Eastern Cape, KwaZulu-Natal, Northern Cape): +27 76 114 61 52.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>18.4241,-33.9249,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Groote Schuur Hospital — Ciudad del Cabo</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario y de referencia de Ciudad del Cabo, con muy buena capacidad para urgencias graves — el mejor del corredor hasta ahora. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9403,18.4644">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital universitario de referencia (aquí se hizo el primer trasplante de corazón del mundo en 1967). Junto con los privados del grupo Mediclinic y Netcare, es la mejor sanidad de todo el corredor africano. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9403,18.4644">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>18.4644,-33.9403,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Ciudad del Cabo y Winelands</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad de todo el corredor (Engen, Shell, Sasol, BP); ningún problema de suministro en este tramo.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <name>Charlotte Maxeke / Milpark / Netcare Sunninghill — Johannesburgo</name>
+    <description><![CDATA[<b>Hospital</b><br/>Gauteng concentra la mejor medicina privada del continente (Netcare Milpark es el centro de trauma de referencia de África austral). Para cualquier problema serio del equipo, resolverlo aquí o en Ciudad del Cabo y no más adelante. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.1833,28.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.05,-26.1833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Talleres 4x4 de expedición · Gauteng (Johannesburgo-Pretoria)</name>
+    <description><![CDATA[<b>Servicio</b><br/>Mayor concentración de preparadores 4x4 de África: ejes de Kyalami, Midrand, Centurion, Strijdom Park (Randburg) y Wynberg. Suspensiones, protecciones, depósitos auxiliares, snorkels, sistemas eléctricos y de 12 V, neveras, lonas y tiendas de techo. Concesionarios oficiales de Ineos y Mitsubishi. PEDIR CITA con antelación y prever 5-7 días de estancia si hay trabajo de fondo.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.05,28.0">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.0,-26.05,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Talleres 4x4 y recambios · Ciudad del Cabo</name>
+    <description><![CDATA[<b>Servicio</b><br/>Segunda plaza del país, con comunidad overland activa (foros de 4x4community.co.za) y cadenas nacionales de accesorios 4x4, neumáticos y baterías. Es el ÚLTIMO SITIO SERIO antes de la subida por el oeste: a partir de Springbok no hay nada comparable hasta Windhoek.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>18.4241,-33.9249,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Ciudad del Cabo</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua del grifo potable de calidad europea; estaciones de servicio, campings y talleres de toda la zona permiten llenar el depósito de uso general sin ninguna restricción.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
+    <name>Combustible y provisiones · eje N1/N2/N3 y ciudades</name>
+    <description><![CDATA[<b>Combustible</b><br/>Red de estaciones de servicio de primer nivel (Engen, Shell, Sasol, BP, Total, Astron) con tienda, cajero y aseos, y áreas de servicio cada 100-150 km en las autovías. Estaciones ATENDIDAS: no es autoservicio, se da propina al empleado. Diésel de calidad europea.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.8587,31.0218">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.0218,-29.8587,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · eje oeste (Upington, Springbok, Steinkopf)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Puntos clave de la subida. Upington es la última plaza grande antes de Kgalagadi y del Richtersveld; Springbok, la última antes de Namaqualand y del Richtersveld; Steinkopf y Vioolsdrif, las últimas antes de la frontera. Entrar al Kgalagadi y al Richtersveld con autonomía completa de ida y vuelta.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.4478,21.2561">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>21.2561,-28.4478,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable · todo el país</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua del grifo potable de calidad europea en ciudades y en la inmensa mayoría de los pueblos; campings, estaciones de servicio y talleres permiten llenar el depósito de uso general sin restricción. Excepciones a tratar: algunos municipios pequeños del Karoo y del Eastern Cape con avisos puntuales de calidad, y los campamentos sin servicios del Richtersveld y del Kgalagadi, donde hay que entrar cargado.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>18.4241,-33.9249,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Veterinarios, laboratorios y residencias caninas · Pretoria y Johannesburgo</name>
+    <description><![CDATA[<b>Servicio</b><br/>La facultad de veterinaria de Onderstepoort (Universidad de Pretoria) y los laboratorios privados de Gauteng son EL MEJOR SITIO DE TODO EL VIAJE para poner al día la documentación del perro: titulación de rabia y panel de enfermedades por garrapatas y vectores. Residencias caninas profesionales abundantes en toda el área metropolitana.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.7479,28.2293">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.2293,-25.7479,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Veterinarios y residencias caninas · Ciudad del Cabo y Winelands</name>
+    <description><![CDATA[<b>Servicio</b><br/>Segunda plaza para el perro: clínicas de nivel europeo, laboratorios, y residencias caninas y de acogida familiar («pet sitting») abundantes en la península y en Somerset West. Reservar los días de Robben Island y de los parques.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>18.4241,-33.9249,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Residencias caninas · puertas de Kruger (Hoedspruit, Hazyview, White River, Nelspruit)</name>
+    <description><![CDATA[<b>Servicio</b><br/>Los pueblos de las puertas de Kruger tienen residencias y guarderías caninas pensadas precisamente para quien entra al parque varios días. Es la solución operativa del tramo este. Confirmar por teléfono y reservar antes de llegar.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-24.35,30.95">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.95,-24.35,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada RECOMENDADA — Matchedje / Puente de la Unidad 2 (desde Tanzania)</name>
