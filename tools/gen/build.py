@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Static site generator for África 2027 (PWA, offline-first)."""
 import json
+import re
 import datetime
 from pathlib import Path
 
@@ -161,7 +162,7 @@ def navbar(root, items, brand_suffix=""):
     suf = f'<span class="brand" style="padding-left:0">· {esc(brand_suffix)}</span>' if brand_suffix else ""
     return f'<nav class="nav"><a class="brand" href="{root}">ÁFRICA 2027</a>{suf}{links}</nav>'
 
-TOP_NAV = [("Mapa", "{root}mapa/"), ("Países", "{root}#paises"), ("Documentación", "{root}documentacion/")]
+TOP_NAV = [("Mapa", "{root}mapa/"), ("Países", "{root}#paises"), ("El perro", "{root}perro/"), ("Documentación", "{root}documentacion/")]
 
 def top_nav(root, extra=""):
     items = [(t, u.format(root=root)) for t, u in TOP_NAV]
@@ -507,6 +508,54 @@ def render_map_page(all_points, all_lines):
                   f'<script src="{root}assets/js/map.js"></script>')
     return page(root, "Mapa general · África 2027", body, extra_head=extra_head)
 
+# ---------------------------------------------------------------- perro page
+PERRO_MD = Path(__file__).parent / "docs" / "DOSSIER_PERRO.md"
+
+def render_perro():
+    """Sección propia del perro, generada desde docs/DOSSIER_PERRO.md.
+    El markdown es la fuente única: se actualiza ese archivo y la página sale sola."""
+    from md_mini import md_to_html, md_headings
+    root = "../"
+    md = PERRO_MD.read_text(encoding="utf-8") if PERRO_MD.exists() else "# Dossier del perro\n\nPendiente."
+
+    # El documento trae su propia portada, leyenda e índice; aquí sobran, porque
+    # la página ya pone cabecera, leyenda y menú. Se empieza en el primer capítulo.
+    _lines = md.split("\n")
+    for _k, _l in enumerate(_lines):
+        if _l.startswith("# ") and _k > 0:
+            md = "\n".join(_lines[_k:])
+            break
+
+    # Índice lateral a partir de los encabezados de primer nivel
+    tops = [(t, a) for t, a, lvl in md_headings(md, levels=(1,))]
+    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/")]
+    def _short(t):
+        t = re.sub(r"^\d+[.)]\s*", "", t.split("·")[0].strip())   # fuera el "1. "
+        if len(t) <= 20:
+            return t
+        cut = t[:20].rsplit(" ", 1)[0]                              # cortar por palabra
+        return (cut or t[:20]) + "…"
+    nav = navbar(root, secs + [(_short(t), "#" + a) for t, a in tops[:8]], "El perro")
+
+    hero = f"""<header class="hero small">
+  <div class="hero-txt">
+    <span class="kicker">Sección propia · se actualiza sobre la marcha</span>
+    <h1>El perro</h1>
+    <p>Todo lo que hace falta para cruzar África por tierra con el perro: entrada país por país,
+    papeles, plazos, dónde puede estar y dónde no, salud en ruta y la vuelta a la UE.
+    Cada afirmación lleva su nivel de confianza y su fuente.</p>
+  </div>
+</header>"""
+
+    leyenda = callout("", "Cómo leer esta sección",
+        "Cada dato va etiquetado como <strong>[CONFIRMADO]</strong> (fuente oficial del país o varios "
+        "testimonios coincidentes), <strong>[PROBABLE]</strong> (una sola fuente buena) o "
+        "<strong>[SIN CONFIRMAR]</strong> (las fuentes se contradicen o callan). Lo que no se sabe se dice "
+        "que no se sabe, y se indica a quién hay que escribir para cerrarlo.", raw=True)
+
+    body = nav + hero + '<main>' + leyenda + md_to_html(md, base_level=2) + "</main>"
+    return page(root, "El perro · África 2027", body)
+
 # ---------------------------------------------------------------- docs page
 def render_docs():
     root = "../"
@@ -822,6 +871,7 @@ def main():
         all_lines += map_lines(d)
     pages["mapa/index.html"] = render_map_page(all_points, all_lines)
     pages["documentacion/index.html"] = render_docs()
+    pages["perro/index.html"] = render_perro()
 
     name_by_slug = {slug: name for slug, name, *_ in C}
     countries_for_admin = [{"slug": slug, "name": name_by_slug.get(slug, slug)}

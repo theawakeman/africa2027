@@ -86,7 +86,11 @@ def make_ficha(spec):
     starlink = callout(sk, st_, sb) + bullets(s["starlink"])
 
     perro = "<h3>Entrada del perro</h3>" + bullets(s["perro_intro"])
-    perro += callout("", "Requisitos comunes del perro", 'Microchip, pasaporte UE, rabia y titulación serológica: ver <a href="../../documentacion/#perro">Documentación general · perro</a>.', raw=True)
+    perro += callout("", "Todo lo del perro, en su propia sección",
+                     'Entrada país por país, permisos, plazos, salud en ruta y la vuelta a la UE, con el nivel de '
+                     'confianza y la fuente de cada dato: <a href="../../perro/">ver la sección El perro →</a>. '
+                     'Requisitos comunes (microchip, pasaporte UE, rabia y titulación serológica) en '
+                     '<a href="../../documentacion/#perro">Documentación general</a>.', raw=True)
     if s.get("dog_matrix"):
         perro += "<h3>Matriz canina por zona</h3>" + table(("Zona", "Estado", "Plan B obligatorio"),
                                                           [(z, st_pill(e), p) for z, e, p in s["dog_matrix"]])
