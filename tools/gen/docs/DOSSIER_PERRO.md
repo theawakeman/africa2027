@@ -122,16 +122,26 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 
 ## 1.2 Checklist de lo que hay que hacer ANTES de salir de Europa
 
-| # | Acción | Por qué | Plazo |
+> **Cuidado con la palabra «plazo»: en este dosier hay tres relojes distintos y no se deben mezclar.**
+>
+> 1. **Cuándo hay que hacerlo** (la tabla de aquí abajo) — cuenta atrás desde el día de salida de Europa. «12 meses antes» significa que esa gestión se empieza un año antes de arrancar, no que dure un año.
+> 2. **Cuánto tarda en tramitarse** (columna «Tiempo de tramitación» de §2) — lo que la administración de cada país tarda en devolver el permiso desde que se solicita. Botsuana, 1 día hábil; Sudáfrica, hasta 3 semanas.
+> 3. **Cuánto vale una vez emitido** (el detalle país por país está en §3) — la ventana en la que el documento sirve. Es el reloj corto y traicionero: el permiso de la SACU vale **30 días**, el certificado zoosanitario de la UE **10 días**, y el certificado veterinario de Tanzania **4–14 días desde su emisión**. Por eso **no se sacan en España**: se sacan en el país anterior, lo más tarde posible.
+>
+> La regla práctica: **los permisos se piden con meses de antelación; los certificados sanitarios se emiten sobre la marcha, días antes de cada frontera.**
+
+| # | Acción | Por qué | Cuándo hacerlo |
 |---|---|---|---|
-| 1 | **Serología de las 5 de Namibia** (Brucella canis, T. evansi, Leishmania, Dirofilaria, Babesia) | Un positivo de leishmania bloquea Namibia y quizá Sudáfrica. Hay que saberlo **antes** de planificar. | **−12 meses** |
-| 2 | Verificar fecha de caducidad de la rabia y **planificar la revacunación dentro de validez** | Si se pasa, la titulación UE muere y son 3 meses de espera para volver | **−12 meses** |
-| 3 | Escribir a Tanzania (`zoosanitary@mifugo.go.tz`) y Botsuana (`DVSpermits@gov.bw`) pidiendo **confirmación escrita de entrada terrestre** nombrando el puesto | Desactiva el riesgo 1 de forma definitiva | **−10 meses** |
-| 4 | Escribir a Namibia (`vet.permits@mawlr.gov.na`) preguntando si aceptan analíticas hechas en Onderstepoort en ruta | Determina si las pruebas se hacen en España o sobre la marcha | **−10 meses** |
-| 5 | Vacunación **no obligatoria pero imprescindible**: parvovirus, moquillo, hepatitis, leptospirosis, parainfluenza (DHLPP), tos de las perreras | Tanzania las exige expresamente; el parvovirus mata en África | **−6 meses** |
-| 6 | Dosier físico: pasaporte UE, titulación original, historial vacunal, 10 fotos del perro con el microchip legible | En ventanilla mandan los papeles, no la ley | **−3 meses** |
-| 7 | Microchip: **comprobar que se lee** con lector propio. Llevar **lector propio**. | Muchos puestos africanos no tienen lector. Sin lectura, no hay identificación | **−3 meses** |
-| 8 | Botiquín canino específico (§7) + suero antiofídico + tratamiento tripanosomiasis | No se compra en ruta | **−2 meses** |
+| 1 | **Serología de las 5 de Namibia** (Brucella canis, T. evansi, Leishmania, Dirofilaria, Babesia) | Un positivo de leishmania bloquea Namibia y quizá Sudáfrica. Hay que saberlo **antes** de planificar. | **12 meses antes de salir** |
+| 2 | Verificar fecha de caducidad de la rabia y **planificar la revacunación dentro de validez** | Si se pasa, la titulación UE muere y son 3 meses de espera para volver | **12 meses antes de salir** |
+| 3 | Escribir a Tanzania (`zoosanitary@mifugo.go.tz`) y Botsuana (`DVSpermits@gov.bw`) pidiendo **confirmación escrita de entrada terrestre** nombrando el puesto | Desactiva el riesgo 1 de forma definitiva | **10 meses antes de salir** |
+| 4 | Escribir a Namibia (`vet.permits@mawlr.gov.na`) preguntando si aceptan analíticas hechas en Onderstepoort en ruta | Determina si las pruebas se hacen en España o sobre la marcha | **10 meses antes de salir** |
+| 5 | Vacunación **no obligatoria pero imprescindible**: parvovirus, moquillo, hepatitis, leptospirosis, parainfluenza (DHLPP), tos de las perreras | Tanzania las exige expresamente; el parvovirus mata en África | **6 meses antes de salir** |
+| 6 | Dosier físico: pasaporte UE, titulación original, historial vacunal, 10 fotos del perro con el microchip legible | En ventanilla mandan los papeles, no la ley | **3 meses antes de salir** |
+| 7 | Microchip: **comprobar que se lee** con lector propio. Llevar **lector propio**. | Muchos puestos africanos no tienen lector. Sin lectura, no hay identificación | **3 meses antes de salir** |
+| 8 | Botiquín canino específico (§7) + suero antiofídico + tratamiento tripanosomiasis | No se compra en ruta | **2 meses antes de salir** |
+
+**Ninguna de estas ocho acciones es un certificado sanitario.** Los certificados no se sacan en Europa (salvo el de Marruecos, que es la primera frontera): caducan antes de llegar. Lo que se hace aquí es la parte que *no* caduca —analíticas, vacunas, papeles de base— y las preguntas por escrito que hay que tener contestadas antes de arrancar.
 
 ---
 
@@ -141,7 +151,9 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 
 ## 2.1 Ruta de ida
 
-| # | País | Entrada terrestre | Permiso previo | Plazo tramitación | Dificultad | Nota clave |
+*«Tiempo de tramitación» es lo que tarda la administración en devolver el permiso desde que se solicita, no lo que dura el permiso ni con cuánta antelación hay que pedirlo. Como casi todos se piden en ruta, esa cifra es la que dice cuántos días de margen hace falta en el país anterior antes de plantarse en la frontera.*
+
+| # | País | Entrada terrestre | Permiso previo | Tiempo de tramitación | Dificultad | Nota clave |
 |---|---|---|---|---|---|---|
 | 1 | **Marruecos** | ✅ Sí | ❌ No | — | 🟢 | Certificado veterinario <10 días + rabia. Cruce Tarifa/Algeciras–Tánger. |
 | 2 | **Sáhara Occidental** | ✅ Sí | ❌ No | — | 🟢 | Administrado por Marruecos: no hay trámite propio. |
