@@ -129,6 +129,10 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 > 3. **Cuánto vale una vez emitido** (el detalle país por país está en §3) — la ventana en la que el documento sirve. Es el reloj corto y traicionero: el permiso de la SACU vale **30 días**, el certificado zoosanitario de la UE **10 días**, y el certificado veterinario de Tanzania **4–14 días desde su emisión**. Por eso **no se sacan en España**: se sacan en el país anterior, lo más tarde posible.
 >
 > La regla práctica: **los permisos se piden con meses de antelación; los certificados sanitarios se emiten sobre la marcha, días antes de cada frontera.**
+>
+> **Y una cuarta cosa que no es un reloj:** los «12 meses» de las dos primeras filas del checklist **no los exige nadie**. Ninguna administración pide que las serologías o la revisión de la rabia se hagan con un año de antelación. Son margen propio, y por dos razones distintas: la fila 1 es un **punto de decisión** —si la leishmania sale positiva, Namibia se cae y hay que rehacer la ruta, y eso no se improvisa con tres meses— y la fila 2 es **encaje de calendario**: hay que colocar la revacunación antirrábica de forma que nunca caduque durante los ocho meses de viaje (ver §1.1, riesgo 4).
+>
+> El **único plazo previo que sí es normativo** es el de la titulación de anticuerpos antirrábicos para volver a la UE, y son **unos 4 meses**, no 12: vacunar → esperar **30 días** → extraer sangre → esperar **90 días** antes de que pueda emitirse el certificado de reentrada. Si el perro ya tiene la titulación hecha y la rabia no caduca nunca, ese plazo no se vuelve a aplicar: **el test no se repite**. Por eso la fila 2 del checklist importa tanto.
 
 | # | Acción | Por qué | Cuándo hacerlo |
 |---|---|---|---|
