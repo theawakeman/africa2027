@@ -88,9 +88,17 @@ Namibia exige resultado **negativo** para **cinco** enfermedades:
 - **Leishmania.** El perro sale de **España**, país **endémico** de leishmaniosis. Un porcentaje nada despreciable de perros españoles es **seropositivo sin estar enfermo**. Un positivo serológico **bloquea la entrada a Namibia** aunque el animal esté sano.
 - **Babesia y Dirofilaria.** Tras meses atravesando África con garrapatas y mosquitos, la probabilidad de **seroconvertir por el camino** es alta. Es decir: **un perro que salió negativo de España puede dar positivo cuando se haga la analítica para entrar en Namibia**, a mitad de viaje.
 
-> **ACCIÓN CRÍTICA, ANTES DE SALIR:** hacer **ya** en España la serología completa de las cinco. Si sale algún positivo, **Namibia (y probablemente Sudáfrica) quedan comprometidas** y hay que replantear ese tramo antes de comprar nada.
+**¿Las serologías hechas en España valen para todo el viaje? NO. Hay que contar con repetirlas en África.**
+
+| | |
+|---|---|
+| **Para qué sirven las de España** | **Para decidir, no para entrar.** Si la leishmania sale positiva, Namibia —y probablemente Sudáfrica— se caen, y hay que rehacer el tramo sur antes de comprometer dinero. |
+| **Por qué no valen como documento de entrada** | **[CONFIRMADO]** El permiso namibio **especifica los métodos de análisis en el propio permiso**, y ese permiso se emite meses después. **[CONFIRMADO]** *Babesia*, *Dirofilaria* y *T. evansi* se contagian en ruta: un negativo español no dice nada del perro al llegar a Namibia. |
+| **Dónde se repiten** | **Onderstepoort Veterinary Institute (Pretoria, Sudáfrica)** es el laboratorio de referencia del continente y queda en la ruta justo antes de Namibia. |
+| **Lo que falta saber** | **[SIN CONFIRMAR]** Si Namibia acepta analíticas de un laboratorio **no namibio** (Onderstepoort) o exige laboratorio propio. **Sin esta respuesta no se sabe dónde ni cuándo hacerlas.** Pregunta abierta a `vet.permits@mawlr.gov.na` — checklist fila 4 y §8. |
+| **Plazo de validez de las analíticas** | **[SIN CONFIRMAR]** No publicado. Se conocerá al recibir el permiso. |
+
 > **ACCIÓN EN RUTA:** profilaxis antiparasitaria **agresiva y sin fallos** (collar + pipeta + macrocíclico mensual). No es solo salud: es **requisito de entrada**.
-> **[SIN CONFIRMAR]** Si el permiso namibio acepta analíticas hechas en un laboratorio **sudafricano** (Onderstepoort) en ruta, o exige laboratorio del país de origen. Es una pregunta que **hay que hacer por escrito** a `vet.permits@mawlr.gov.na`.
 
 ---
 
@@ -122,21 +130,21 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 
 ## 1.2 Checklist de lo que hay que hacer ANTES de salir de Europa
 
-> **Cuidado con la palabra «plazo»: en este dosier hay tres relojes distintos y no se deben mezclar.**
->
-> 1. **Cuándo hay que hacerlo** (la tabla de aquí abajo) — cuenta atrás desde el día de salida de Europa. «12 meses antes» significa que esa gestión se empieza un año antes de arrancar, no que dure un año.
-> 2. **Cuánto tarda en tramitarse** (columna «Tiempo de tramitación» de §2) — lo que la administración de cada país tarda en devolver el permiso desde que se solicita. Botsuana, 1 día hábil; Sudáfrica, hasta 3 semanas.
-> 3. **Cuánto vale una vez emitido** (el detalle país por país está en §3) — la ventana en la que el documento sirve. Es el reloj corto y traicionero: el permiso de la SACU vale **30 días**, el certificado zoosanitario de la UE **10 días**, y el certificado veterinario de Tanzania **4–14 días desde su emisión**. Por eso **no se sacan en España**: se sacan en el país anterior, lo más tarde posible.
->
-> La regla práctica: **los permisos se piden con meses de antelación; los certificados sanitarios se emiten sobre la marcha, días antes de cada frontera.**
->
-> **Y una cuarta cosa que no es un reloj:** los «12 meses» de las dos primeras filas del checklist **no los exige nadie**. Ninguna administración pide que las serologías o la revisión de la rabia se hagan con un año de antelación. Son margen propio, y por dos razones distintas: la fila 1 es un **punto de decisión** —si la leishmania sale positiva, Namibia se cae y hay que rehacer la ruta, y eso no se improvisa con tres meses— y la fila 2 es **encaje de calendario**: hay que colocar la revacunación antirrábica de forma que nunca caduque durante los ocho meses de viaje (ver §1.1, riesgo 4).
->
-> El **único plazo previo que sí es normativo** es el de la titulación de anticuerpos antirrábicos para volver a la UE, y son **unos 4 meses**, no 12: vacunar → esperar **30 días** → extraer sangre → esperar **90 días** antes de que pueda emitirse el certificado de reentrada. Si el perro ya tiene la titulación hecha y la rabia no caduca nunca, ese plazo no se vuelve a aplicar: **el test no se repite**. Por eso la fila 2 del checklist importa tanto.
+**Tres plazos distintos. No confundirlos:**
+
+| Plazo | Qué mide | Ejemplo |
+|---|---|---|
+| **Cuándo hacerlo** | Cuenta atrás desde el día de salida. Es la última columna del checklist de aquí abajo. | «12 meses antes de salir» = empezar la gestión un año antes. |
+| **Tiempo de tramitación** | Lo que tarda la administración en devolver el permiso desde que se pide. Columna de §2. | Botsuana, 1 día hábil. Sudáfrica, hasta 3 semanas. |
+| **Validez** | Lo que vale el documento una vez emitido. Detalle país por país en §3. | Permiso SACU, 30 días. Certificado UE, 10 días. Tanzania, 4–14 días. |
+
+**Regla:** los permisos se piden con meses de antelación; los certificados sanitarios se emiten en ruta, días antes de cada frontera, porque caducan.
+
+**Los «12 meses» del checklist no los exige nadie.** Son margen propio: la fila 1 es un punto de decisión y la fila 2 es encaje de calendario. El único plazo previo normativo son los **~4 meses** de la titulación antirrábica para volver a la UE: vacuna → **+30 días** (extracción de sangre) → **+90 días** (ya puede emitirse el certificado de reentrada). No se repite nunca más si la rabia no caduca ni un día (§1.1, riesgo 4).
 
 | # | Acción | Por qué | Cuándo hacerlo |
 |---|---|---|---|
-| 1 | **Serología de las 5 de Namibia** (Brucella canis, T. evansi, Leishmania, Dirofilaria, Babesia) | Un positivo de leishmania bloquea Namibia y quizá Sudáfrica. Hay que saberlo **antes** de planificar. | **12 meses antes de salir** |
+| 1 | **Serología de las 5 de Namibia** (Brucella canis, T. evansi, Leishmania, Dirofilaria, Babesia) | Sirven **para decidir, no para entrar**: un positivo de leishmania bloquea Namibia y quizá Sudáfrica. **Hay que contar con repetirlas en Sudáfrica** antes de Namibia (§1.1, riesgo 3). | **12 meses antes de salir** |
 | 2 | Verificar fecha de caducidad de la rabia y **planificar la revacunación dentro de validez** | Si se pasa, la titulación UE muere y son 3 meses de espera para volver | **12 meses antes de salir** |
 | 3 | Escribir a Tanzania (`zoosanitary@mifugo.go.tz`) y Botsuana (`DVSpermits@gov.bw`) pidiendo **confirmación escrita de entrada terrestre** nombrando el puesto | Desactiva el riesgo 1 de forma definitiva | **10 meses antes de salir** |
 | 4 | Escribir a Namibia (`vet.permits@mawlr.gov.na`) preguntando si aceptan analíticas hechas en Onderstepoort en ruta | Determina si las pruebas se hacen en España o sobre la marcha | **10 meses antes de salir** |
