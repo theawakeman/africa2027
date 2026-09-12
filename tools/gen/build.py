@@ -557,7 +557,8 @@ def render_perro():
         "Las particularidades concretas de cada país (permisos, parques donde no entra, alojamiento y "
         "plan B) están además en el apartado del perro de su propia ficha.", raw=True)
 
-    cuerpo = md_to_html(md, base_level=2)
+    from enlaza_secciones import indice, enlazar_secciones
+    cuerpo = enlazar_secciones(md_to_html(md, base_level=2), indice(md))
     body = nav + hero + "<main>" + leyenda + cuerpo + "</main>"
     return page(root, "El perro · África 2027", body)
 

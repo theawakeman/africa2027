@@ -96,6 +96,13 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .poi-card { background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
 .poi-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
 /* Enlaces a fichas de país desde la sección del perro */
+/* Referencias internas §N: saltan a su sección y dicen cuál al pasar el ratón */
+a.sec { color:#0F5F6E; font-weight:600; text-decoration:none; white-space:nowrap;
+  padding:0 2px; border-radius:3px; background:rgba(30,122,138,.10); cursor:help; }
+a.sec:hover { background:#1E7A8A; color:#fff; }
+main h2[id], main h3[id] { scroll-margin-top:70px; }
+main h2[id]:target, main h3[id]:target { background:rgba(30,122,138,.12);
+  box-shadow:-10px 0 0 rgba(30,122,138,.12); border-radius:3px; }
 /* Referencias externas detectadas automáticamente: URL, dominio, correo o fuente */
 a.fuente { color:#0F5F6E; text-decoration:none; border-bottom:1px solid rgba(15,95,110,.35);
            word-break:break-word; }
