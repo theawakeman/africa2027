@@ -74,7 +74,7 @@ POIS = [
          credit="Wikimedia Commons", source=W + "Benin%20Natitingou.JPG?width=900"),
     # ===== LO QUE NOS PERDEMOS: el norte, fuera del itinerario por seguridad =====
     dict(n=17, name="Parque Nacional de la Pendjari — FUERA DEL ITINERARIO 2027", cat="Naturaleza", prio="Baja", dog="prohibido", time="—",
-         lat=11.1000, lon=1.3000,
+         lat=11.05, lon=1.517,
          desc="🚫 EL GRAN SACRIFICIO DE ESTA FICHA. 6.445 km² gestionados por AFRICAN PARKS desde 2017 y considerados el mejor parque de África occidental: unos 2.800 elefantes —la mayor población de la región—, búfalos, hipopótamos, y sobre todo uno de los ÚLTIMOS REFUGIOS DEL LEÓN DE ÁFRICA OCCIDENTAL, subespecie en peligro crítico de la que el complejo W-Arly-Pendjari conserva en torno al 90% de la población superviviente. También guepardo y licaón. PERO: la insurgencia yihadista del norte de Benín, iniciada en noviembre de 2021, ha convertido Pendjari y el vecino Parque W en santuario y base operativa del JNIM, con ataques recurrentes a puestos militares y guardas en la zona (Point Triple, cataratas de Koudou, Koalou) y bajas continuadas hasta 2026. Los avisos de viaje de España, Australia, Canadá y EE. UU. coinciden en «no viajar» a los departamentos de Atakora, Alibori y Borgou y expresamente a Pendjari y W. ESTE PARQUE ESTÁ FUERA DEL ITINERARIO DE 2027. Imagen de referencia de la región de la Atacora.",
          credit="Wikimedia Commons", source=W + "Jeune%20homme%20sautant%20des%20cascades%20de%20Tanougou%20(Bénin).jpg?width=900"),
     dict(n=18, name="Cascadas de Tanougou y la cordillera de la Atacora — FUERA DEL ITINERARIO 2027", cat="Naturaleza", prio="Baja", dog="prohibido", time="—",

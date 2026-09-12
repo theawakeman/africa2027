@@ -36,7 +36,7 @@ POIS = [
          desc="A unos 110 km al sureste de Monrovia, el tercer puerto del país y el punto donde termina el ferrocarril minero de 250 km que baja el hierro desde Yekepa, en los montes Nimba — una de las pocas líneas férreas en funcionamiento de África occidental. Fundada en 1832 por cuáqueros negros como Port Cresson y refundada como Bassa Cove tras el conflicto de 1835 con los bassa, se libró relativamente de la destrucción de la primera guerra civil y sirvió de refugio. Lo que interesa al viajero está fuera del puerto: playas aisladas y lagunas a lo largo de toda la costa de Grand Bassa, prácticamente vacías, con cocoteros y pueblos de pescadores kru. Es la última parada con servicios reales antes de meterse en el sureste, que es otro mundo. Aquí se reposta a fondo y se cargan provisiones.",
          credit="Bethel. Anthony Chisom · CC BY-SA 4.0", source=W + "Robertsport%20Beach%2C%20Cape%20Mount%20County.jpg?width=900"),
     dict(n=8, name="Greenville (Sinoe) · la puerta de Sapo", cat="Ciudad · servicios", prio="Media", dog="permitido con condiciones", time="1 noche",
-         lat=5.0167, lon=-9.0333,
+         lat=5.4111, lon=-8.4146,
          desc="Capital del condado de Sinoe, a unos 150 km al sureste de Monrovia en línea recta pero mucho más por carretera, sobre una laguna junto a la desembocadura del río Sinoe. Unos 16.000 habitantes, tercer puerto del país con dos muelles y seis metros de calado, y una economía que gira alrededor de la madera. La fundó hacia 1838 la Mississippi Colonization Society y lleva el nombre de un plantador de Misisipi que financió el traslado de sus antiguos esclavos; quedó destruida en la guerra civil y se reconstruyó después. El dato que la define: 185 días de lluvia al año. Es la base logística obligatoria para Sapo —el último sitio con combustible, provisiones y un teléfono— y el punto donde hay que tener resuelta la autorización de la Forestry Development Authority antes de seguir.",
          credit="Wikimedia Commons", source=W + "An%20aerial%20view%20of%20the%20West%20Point%20area%20of%20Monrovia.jpg?width=900"),
     dict(n=9, name="Parque Nacional de Sapo", cat="Naturaleza", prio="Alta", dog="prohibido", time="3–5 días",
@@ -178,7 +178,7 @@ CORRIDOR = [
     (6.2833, -10.3500),   # Harbel (Firestone)
     (5.8800, -10.0500),   # Buchanan
     (5.0167, -9.0333),    # Greenville
-    (5.4000, -8.8000),    # Parque Nacional de Sapo
+    (5.4111, -8.4146),    # Parque Nacional de Sapo
     (4.3758, -7.7008),    # Harper (Cabo Palmas)
 ]
 

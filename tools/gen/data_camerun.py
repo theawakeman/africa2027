@@ -44,7 +44,7 @@ POIS = [
          desc="Capital del departamento de Dja-et-Lobo y ÚLTIMA plaza de servicios reales (combustible formal, taller, hospital, banco, mercado) antes de los 325 km del corredor Ketta-Djoum hacia la frontera del Congo. Punto de no retorno logístico de la bajada: lo que no se consiga aquí no se consigue hasta Ouesso, ya en Congo. Cabecera de la carretera del corredor Brazzaville-Yaundé financiado por el BAD.",
          credit="Wikimedia Commons", source=W + "Yaoundé%201.jpg?width=900"),
     dict(n=10, name="Reserva de Fauna del Dja (UNESCO)", cat="Patrimonio UNESCO", prio="Alta", dog="no confirmado — tratar como prohibido", time="2–3 días",
-         lat=3.1000, lon=12.8000,
+         lat=3, lon=13,
          desc="5.260 km² de selva tropical húmeda casi intacta, rodeada en el 90 % de su perímetro por el meandro del río Dja, Patrimonio Mundial de la UNESCO desde 1987 y Reserva de la Biosfera. Una de las mayores y mejor conservadas selvas de África: gorila de llanura occidental, chimpancé, elefante de bosque, bongo, pangolín gigante y más de 320 especies de aves. También es territorio de los baka. Accesos principales: Somalomo (norte, desde Abong-Mbang) y el flanco sur desde Djoum/Mintom, que es justo el que roza nuestro corredor de bajada. Guía obligatorio del MINFOF; la visita es de selva cerrada a pie, no de safari en coche.",
          credit="Wikimedia Commons", source=W + "Yaoundé%201.jpg?width=900"),
     dict(n=11, name="Djoum · cabecera de la carretera Ketta-Djoum", cat="Ciudad · servicios", prio="Media", dog="permitido con condiciones", time="1 noche",

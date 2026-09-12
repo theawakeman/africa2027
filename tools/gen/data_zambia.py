@@ -8,7 +8,7 @@ W = "https://commons.wikimedia.org/wiki/Special:FilePath/"
 POIS = [
     # ===== OESTE: entrada desde Angola por Chavuma/Caripande, Barotseland =====
     dict(n=1, name="Parque Nacional de Liuwa Plain", cat="Naturaleza", prio="Alta", dog="prohibido", time="2–3 días",
-         lat=-14.6000, lon=22.6000,
+         lat=-14.5, lon=22.483,
          desc="Llanura inmensa en el extremo oeste, gestionada por African Parks, que alberga la SEGUNDA MAYOR MIGRACIÓN DE ÑUS DE ÁFRICA (unos 45.000 animales) además de una célebre población de hienas y el regreso de los leones tras la guerra. Está a un paso de la frontera angoleña, así que encaja justo al entrar y no exige desviarse. Solo 4x4 y solo en temporada seca: en lluvias la llanura se inunda por completo. Imagen: vista satelital de la llanura del Barotse, el mismo sistema de inundación — pendiente de sustituir por una foto del parque.",
          credit="NASA · Wikimedia Commons", source=W + "NASA%20Barotse%20Floodplain%20compressed.JPG?width=900"),
     dict(n=2, name="Mongu y la llanura del Barotse (Kuomboka)", cat="Cultura", prio="Alta", dog="permitido con condiciones", time="1–2 noches",
@@ -144,7 +144,7 @@ SOURCES = [
 ]
 
 # Principal: frontera de Angola (NO) -> Barotseland -> Kafue -> Lusaka -> norte -> frontera de Tanzania (NE)
-CORRIDOR = [(-13.0833, 22.6833), (-14.6000, 22.6000), (-15.2667, 23.1333), (-14.1000, 25.8000),
+CORRIDOR = [(-13.0833, 22.6833), (-14.5000, 22.4830), (-15.2667, 23.1333), (-14.1000, 25.8000),
             (-15.4067, 28.3050), (-13.2333, 30.2333), (-12.5833, 30.2500), (-11.5000, 30.2500),
             (-11.8333, 31.4500), (-13.0833, 31.9500), (-11.8333, 31.4500), (-9.8000, 29.1000),
             (-9.5333, 29.3833), (-10.1167, 30.9333), (-8.7667, 31.1167), (-8.6000, 31.2333),

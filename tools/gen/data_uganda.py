@@ -31,7 +31,7 @@ POIS = [
          desc="Península sobre el lago Victoria a 34 km de Kampala, mucho más tranquila que la capital y mejor sitio para dormir con el perro. Los Jardines Botánicos Nacionales, trazados en 1898, bajan hasta la propia orilla y son un paseo de sombra con colobos y turacos; al lado está el Centro de Educación de Vida Silvestre (el antiguo zoo), y desde el embarcadero salen las lanchas a la isla de Ngamba, santuario de chimpancés huérfanos. Es también el aeropuerto internacional del país: punto de entrada y salida de recambios y de gente que se incorpore al viaje.",
          credit=NOFOTO, source=""),
     dict(n=6, name="Islas Ssese (lago Victoria)", cat="Costa", prio="Media", dog="por confirmar", time="2 noches",
-         lat=-0.4000, lon=32.3000,
+         lat=-0.4333, lon=32.25,
          desc="Archipiélago de 84 islas en el noroeste del lago Victoria, con playas de arena, bosque y una calma total; se llega en ferry desde Entebbe (a Kalangala, en la isla de Bugala) o desde Bukakata, cerca de Masaka, con un ferry corto que admite vehículos y es gratuito. Es el descanso de playa del interior de África: hamacas, pescado y cero tráfico. Ojo: hay bilharzia en gran parte de la orilla del lago Victoria, así que bañarse no es recomendable ni para las personas ni para el perro.",
          credit=NOFOTO, source=""),
     dict(n=7, name="Santuario de rinocerontes de Ziwa", cat="Naturaleza", prio="Alta", dog="prohibido", time="1 noche",

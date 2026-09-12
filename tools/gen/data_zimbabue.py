@@ -75,7 +75,7 @@ POIS = [
          desc="Patrimonio de la Humanidad desde 1986, a solo 22 km al oeste de Bulawayo y casi siempre vacío: la capital de la dinastía Torwa (el estado de Butua) que surgió justo cuando Gran Zimbabue se despoblaba, entre 1450 y 1650, y que los ndebele abandonaron en el siglo XIX. Son 108 hectáreas de plataformas y recintos de piedra seca sobre una colina a 1.300 m, con EL MURO DECORADO MÁS LARGO DE TODA LA SUBREGIÓN y los motivos de chevrón y ajedrezado que definen el estilo Khami. Es uno de los pocos sitios zimbabuenses que los buscadores de tesoros no destriparon, así que su estratigrafía está intacta: de ahí han salido porcelana española del siglo XV y XVII, gres de Renania y porcelana Ming, prueba del comercio a larga distancia. Segundo monumento de piedra del país por tamaño después de Gran Zimbabue, y una parada de media mañana perfecta saliendo de Bulawayo. Gestionado por NMMZ, no por ZimParks. Imagen: piedra seca zimbabuense (Gran Zimbabue), de referencia, NO de Khami — pendiente de sustituir.",
          credit="Wikimedia Commons", source=IMG_GREATZIM),
     dict(n=13, name="Parque Nacional de Hwange · el mayor del país", cat="Naturaleza", prio="Alta", dog="prohibido", time="3–4 días",
-         lat=-19.0000, lon=26.5000,
+         lat=-18.735, lon=26.955,
          desc="14.651 km² —el parque más grande de Zimbabue, del tamaño de Bélgica— y una de las mayores concentraciones de elefante del continente: se citan más de 40.000 animales, con más de cien especies de mamífero, incluidos perro salvaje africano y rinoceronte. Lo singular de Hwange es que no tiene ningún río permanente: la fauna depende de POZAS BOMBEADAS artificialmente, lo que en la seca (julio-octubre) concentra cantidades de animales absurdas en puntos concretos. El más famoso es la PLATAFORMA DE NYAMANDHLOVU, el mejor escondite de observación del país, y después Mandavu Dam y las pozas de Kennedy. Tres campamentos de ZimParks: MAIN CAMP al este, cerca de Dete (el más equipado, con combustible y tienda), SINAMATELLA sobre un acantilado en el centro-norte y ROBINS en el extremo norte, el más aislado. Las pistas principales alrededor de Main Camp son grava mantenida, transitables con 2WD de buena altura libre; el norte y los enlaces Sinamatella-Robins son 4x4 de verdad, con arena profunda. Límite de 40 km/h en todo el parque. Tasas: 15-20 USD/persona/día según fuente, 5 USD de vehículo, camping desde 15 USD/persona. A 190 km de las Cataratas Victoria (2,5 h) y 340 km de Bulawayo.",
          credit="Wikimedia Commons", source=IMG_LION),
     dict(n=14, name="Cataratas Victoria · el lado zimbabuense y el Rainforest", cat="Patrimonio UNESCO", prio="Alta", dog="prohibido", time="2–3 noches",
@@ -263,7 +263,7 @@ CORRIDOR = [(-19.0053, 32.7125), (-18.9707, 32.6709), (-18.9969, 32.6633), (-18.
             (-18.9707, 32.6709), (-19.8000, 32.8700), (-19.7886, 32.9940), (-19.8000, 32.3300),
             (-20.0637, 30.8277), (-20.2675, 30.9333), (-21.0500, 31.6667), (-21.3000, 31.8833),
             (-21.0500, 31.6667), (-20.0637, 30.8277), (-20.1500, 28.5833), (-20.1583, 28.3767),
-            (-20.4872, 28.5114), (-20.1500, 28.5833), (-19.0000, 26.5000), (-18.3647, 26.4998),
+            (-20.4872, 28.5114), (-20.1500, 28.5833), (-18.7350, 26.9550), (-18.3647, 26.4998),
             (-17.9333, 25.8333), (-17.9243, 25.8572), (-17.7950, 25.2600)]
 
 # Variante norte — EL ZAMBEZE: Mutare -> Harare (Domboshava, Epworth) -> Chinhoyi -> Karoi
@@ -273,7 +273,7 @@ CORRIDOR_ALT = [(-18.9707, 32.6709), (-17.8292, 31.0522), (-17.6078, 31.1687), (
                 (-17.8292, 31.0522), (-17.3667, 30.2000), (-17.3167, 30.1333), (-16.8167, 29.6833),
                 (-16.3000, 29.2500), (-15.7500, 29.3833), (-16.3000, 29.2500), (-16.5222, 28.7614),
                 (-16.9300, 28.5700), (-16.5222, 28.7614), (-17.6167, 27.3333), (-17.7000, 27.8833),
-                (-18.3647, 26.4998), (-19.0000, 26.5000), (-17.9333, 25.8333), (-17.7950, 25.2600)]
+                (-18.3647, 26.4998), (-18.7350, 26.9550), (-17.9333, 25.8333), (-17.7950, 25.2600)]
 
 CORRIDOR_LABEL = "Eje principal · diagonal sur (Forbes → Kazungula)"
 CORRIDOR_ALT_LABEL = "Variante norte · el Zambeze (Harare, Mana Pools y Kariba)"
