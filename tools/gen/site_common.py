@@ -127,6 +127,9 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .poi-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(290px,1fr)); gap:18px; margin-top:18px; }
 .poi-card { background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
 .poi-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
+.poi-noimg { width:100%; aspect-ratio:16/9; display:flex; align-items:center; justify-content:center;
+  background:repeating-linear-gradient(45deg,#eceff1,#eceff1 10px,#e3e7ea 10px,#e3e7ea 20px);
+  color:#7a848a; font-size:12px; letter-spacing:.04em; text-align:center; padding:0 14px; }
 .poi-body { padding:12px 14px 14px; display:flex; flex-direction:column; gap:7px; flex:1; }
 .poi-body h3 { margin:0; font-size:16px; color:var(--head); line-height:1.25; }
 .poi-tags { display:flex; flex-wrap:wrap; gap:6px; font-size:11px; font-weight:700; align-items:center; }

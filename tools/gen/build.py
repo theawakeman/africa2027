@@ -244,16 +244,23 @@ def render_ficha(d):
         src = p["source"]
         src_html = f'<a href="{attr(src)}" target="_blank" rel="noopener">fuente</a>' if src.startswith("http") else esc(src or "—")
         extra = f"<p class='poi-desc dognote'><strong>Perro:</strong> {esc(p['dog_note'])}</p>" if p.get("dog_note") else ""
+        # PDIs sin foto verificada: se omite la imagen en vez de dejar un hueco roto.
+        if p.get("img"):
+            img_html = f'<img src="{isrc(root, p["img"])}" alt="{attr(p["name"])}" loading="lazy">'
+            credit_html = f'Foto: {esc(p["credit"])} · {src_html} · {gmaps(p["lat"], p["lon"], "abrir ubicación")}'
+        else:
+            img_html = '<div class="poi-noimg">Sin fotografía verificada todavía</div>'
+            credit_html = gmaps(p["lat"], p["lon"], "abrir ubicación")
         cards += f"""
 <article class="poi-card" id="poi-{p['n']}">
-  <img src="{isrc(root, p['img'])}" alt="{attr(p['name'])}" loading="lazy">
+  {img_html}
   <div class="poi-body">
     <h3>{esc(p['name'])}</h3>
     <div class="poi-tags"><span class="prio">{esc(p['prio'])}</span><span class="cat">{esc(p['cat'])}</span><span class="time">{esc(p['time'])}</span></div>
     <div><span class="st {dog_cls(p['dog'])}">perro: {esc(p['dog'])}</span></div>
     <p class="poi-desc">{esc(p['desc'])}</p>
     {extra}
-    <div class="credit">Foto: {esc(p['credit'])} · {src_html} · {gmaps(p['lat'], p['lon'], 'abrir ubicación')}</div>
+    <div class="credit">{credit_html}</div>
   </div>
 </article>"""
     body.append(sec("fotos", "Fotografías de los puntos de interés",

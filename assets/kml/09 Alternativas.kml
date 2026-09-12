@@ -4,48 +4,392 @@
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
-    <name>Isla Kunta Kinteh (antigua James Island)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>Isla fluvial en el río Gambia, antiguo fuerte y factoría negrera británica, Patrimonio de la Humanidad por su papel central en la memoria de la trata atlántica de esclavos; se visita en barco desde Juffureh.<br/><b>Perro:</b> no aplicable (isla, acceso en barco)<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5772,-16.5719">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-morado</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-16.5719,13.5772,0</coordinates></Point>
+    <name>Kartong · playa, Folonko y el río Allahein</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>El pueblo más al sur de Gambia, justo en la desembocadura del río Allahein, que es la frontera misma con la Casamance senegalesa — al otro lado de la ría se ve ya Senegal, y los vecinos la cruzan en piragua. Playa larguí<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.0833,-16.7583">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.7583,13.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Kotu Beach / Serrekunda (costa turística)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Franja costera atlántica de la Gambia turística, con buena oferta hotelera y observación de aves; Serrekunda, la mayor ciudad del país, concentra los mercados y servicios más completos.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4526,-16.7069">Google Maps</a>]]></description>
+    <name>Tanji · pueblo de pescadores, museo y reserva de aves</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>La playa de pesca más viva del país: a media tarde vuelven las piraguas pintadas y toda la arena se convierte en un mercado de pescado, ahumaderos y hielo, con un ruido y un color que no tienen nada de espectáculo montad<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.35,-16.79">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.79,13.35,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reserva Natural de Abuko · la más antigua del país</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>107 hectáreas de galería forestal a 20 minutos de Serrekunda, y el origen de toda la conservación gambiana: el arroyo de Lamin se valló en 1916 como captación de agua, y en 1968, por empeño del oficial de fauna Eddie Bre<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.3958,-16.6456">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.6456,13.3958,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Makasutu · bosque sagrado y el bolong de Mandina</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>«Makasutu» significa bosque sagrado en mandinga, y es el ejemplo mejor montado de ecoturismo privado del país: unas 400 hectáreas junto a Brikama que reúnen de golpe los cuatro paisajes de Gambia — manglar de mareas, pal<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.28,-16.58">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.58,13.28,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bijilo Forest Park (Monkey Park) y la franja de Kololi</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>51 hectáreas de bosque costero vallado justo detrás de los hoteles de Kololi, con 4,5 km de sendero entre dunas, matorral litoral y palmeras. Lo llaman Monkey Park porque los monos verdes, los colobos rojos de Temminck, <br/><b>Perro:</b> prohibido en el parque<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4328,-16.7264">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.7264,13.4328,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kotu y Bakau · playas, Kotu Bridge y observación de aves</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>La franja hotelera clásica y la base más cómoda del país para parar varios días: playa de arena con rompiente, alojamientos con aparcamiento, supermercados, cajeros y agencias. Lo que la hace singular no es la playa sino<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4526,-16.7069">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-16.7069,13.4526,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Sani Pass (Techo de África)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sani%20Pass%20Lesotho%202.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Uno de los puertos de montaña 4x4 más icónicos del sur de África, con curvas de herradura que suben desde KwaZulu-Natal hasta los 2.876 m del altiplano lesotense; imprescindible vehículo con tracción total y frenos en bu<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.5833,29.2833">Google Maps</a>]]></description>
+    <name>Cocodrilario sagrado de Katchikally (Bakau)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>En pleno Bakau, una poza de agua dulce rodeada de bosquecillo donde viven alrededor de ochenta cocodrilos del Nilo considerados sagrados desde hace siglos por la familia Bojang, que sigue custodiando el lugar. Es un sant<br/><b>Perro:</b> prohibido en la poza<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4806,-16.6697">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.6697,13.4806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Serrekunda · el mayor mercado del país</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Banjul es la capital, pero SERREKUNDA es la ciudad de verdad: el área metropolitana mayor del país, corazón del conurbano de los Kombos, donde vive casi la mitad de la población de Gambia y se concentra el 40 % de los ne<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4383,-16.6781">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.6781,13.4383,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Banjul · Arco 22, Albert Market y la isla de Santa María</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Una capital rarísima: apenas 30.000 habitantes en una isla plana (Santa María) rodeada de manglar, a la que se entra bajo el ARCO 22, un arco triunfal de 35 m —de las estructuras más altas del país— levantado por Yahya J<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4542,-16.5753">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.5753,13.4542,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Travesía del río Gambia · ferry Banjul–Barra</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El gran rito overlander del país: unos 4 km de estuario entre el embarcadero de Banjul y el de Barra, en la orilla norte, en un transbordador de vehículos que es a la vez mercado flotante, autobús y espectáculo. La trave<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4667,-16.5667">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>29.2833,-29.5833,0</coordinates></Point>
+    <Point><coordinates>-16.5667,13.4667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fuerte Bullen y Barra · la boca del río</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Media · Patrimonio UNESCO</b><br/>Nada más desembarcar del ferry, en la punta misma de la orilla norte, está el FUERTE BULLEN, construido por los británicos en 1826 —tras la abolición— no para comerciar con esclavos sino para IMPEDIRLO: sus cañones cruza<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4833,-16.55">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.55,13.4833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Juffureh y Albreda · el museo de la esclavitud</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>A 30 km río arriba por la orilla norte, dos pueblos pegados que son el punto de partida de la visita a Kunta Kinteh. ALBREDA fue factoría francesa y JUFFUREH pueblo mandinga; en el edificio colonial de los Maurel Frères <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.3386,-16.3825">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.3825,13.3386,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Isla de Kunta Kinteh (antigua James Island) · UNESCO</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Un islote que se está comiendo el río —hoy es una sexta parte de lo que era— con las ruinas del fuerte y unos baobabs aferrados a la orilla, a menos de 3 km de Albreda. Los portugueses la avistaron en 1456 y la llamaron <br/><b>Perro:</b> no aplicable (isla, acceso en barco)<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.3175,-16.3614">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.3614,13.3175,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Niumi y la isla de Jinack</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotu%20Beach%2C%20The%20Gambia%20(16197149546).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>49 km² de franja litoral en el extremo noroeste, declarados en 1987 y Ramsar desde 2008: es la parte gambiana del DELTA DEL SALOUM, que continúa sin costura en Senegal, y combina marisma dulce, lagunas salobres, manglar <br/><b>Perro:</b> prohibido en el parque<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5417,-16.5236">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.5236,13.5417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Kiang West y Tendaba</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>115 km² en la orilla sur, a unos 145 km de Banjul, y el gran espacio natural continental del país: sabana de Guinea, bosque seco caducifolio de baobabs y acacias rojas, llanuras de marea y una red de bolongs de manglar. <br/><b>Perro:</b> prohibido en el parque<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.3833,-15.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.9167,13.3833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reserva de humedales de Bao Bolong · el manglar grande</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Justo enfrente de Kiang West, en la orilla norte y a unos 18 km de Farafenni, 220 km² declarados en 1996 y PRIMER HUMEDAL RAMSAR DE GAMBIA. Lo que lo hace excepcional es una franja de manglar denso de dos kilómetros y me<br/><b>Perro:</b> prohibido en la reserva<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5667,-15.8167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.8167,13.5667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Janjanbureh (Georgetown) y la isla de MacCarthy</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>A 300 km de la costa, la vieja GEORGETOWN colonial sobre una isla fluvial: el capitán británico Alexander Grant compró la isla de Lemain al rey de Niani en 1823 y fundó aquí un ASENTAMIENTO PARA ESCLAVOS LIBERADOS, que l<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5333,-14.7667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.7667,13.5333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Círculos de piedra de Wassu · megalitos senegambianos (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>A 22 km de Lamin Koto, en la orilla norte, ONCE CÍRCULOS de columnas de laterita labradas a mano y clavadas de pie, con sus piedras frontales delante, sobre un campo de túmulos funerarios; aquí está la columna más alta d<br/><b>Perro:</b> permitido con correa<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.6914,-14.8731">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.8731,13.6914,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional del río Gambia · las islas de los chimpancés</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Island%20near%20Juffureh%20(4129325186).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>585 hectáreas de archipiélago —las BABOON ISLANDS, una isla grande y cuatro pequeñas— en el río, aguas abajo de Janjanbureh. Desde 1979 albergan el CHIMPANCEE REHABILITATION PROJECT, iniciado por Stella Marsden: chimpanc<br/><b>Perro:</b> no aplicable (acceso prohibido a las islas)<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.6417,-14.9639">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.9639,13.6417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Butha-Buthe y la puerta norte</name>
+    <description><![CDATA[<b>Media · Ciudad · servicios</b><br/>Primera ciudad tras el paso fronterizo de Caledonspoort y el arranque de la travesía del norte. Aquí se reposta, se compra y se decide: por un lado sube la A1 hacia los pasos de Moteng y Tlaeeng, por otro se entra a Ts'e<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.7667,28.25">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.25,-28.7667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Ts'ehlanyane</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>El mejor parque de Lesoto y uno de los grandes secretos de África austral: 5.600 hectáreas de naturaleza agreste al pie del paso de Holomo, entre los 1.940 y los 3.112 m, con uno de los poquísimos bosques autóctonos que <br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.917,28.583">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.583,-28.917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Liphofung · cuevas y arte rupestre</name>
+    <description><![CDATA[<b>Media · Cultura</b><br/>Abrigo de arenisca en la subida hacia Oxbow, con pinturas rupestres san y un pequeño centro cultural basotho. Su nombre significa «lugar del eland» y aquí se refugió Moshoeshoe I en sus desplazamientos. Es la parada cort<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.867,28.533">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.533,-28.867,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso de Moteng y Oxbow</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>La primera gran subida de la A1: el paso de Moteng (2.820 m) trepa en horquillas cerradísimas con pendientes que castigan a los camiones y vistas que se abren de golpe sobre los valles del norte. Arriba aparece Oxbow, un<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.7333,28.6833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.6833,-28.7333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Afriski (paso de Mahlasela) · esquiar en África</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>SÍ, SE PUEDE ESQUIAR EN ÁFRICA. Afriski está a unos 3.050 m en el paso de Mahlasela (3.222 m), es una de las dos únicas estaciones de esquí del África subsahariana y la única de Lesoto: una pista de 1 km con 305 m de des<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.8228,28.7281">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.7281,-28.8228,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso de Tlaeeng · la carretera asfaltada más alta de África austral</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>Poco después de Afriski, la A1 corona el paso de Tlaeeng a unos 3.275 m: es la CARRETERA ASFALTADA MÁS ALTA DE ÁFRICA AUSTRAL y uno de los puntos de carretera más altos de todo el continente. No hay nada arriba salvo el <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-28.87,28.76">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.76,-28.87,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mokhotlong</name>
+    <description><![CDATA[<b>Media · Ciudad · servicios</b><br/>La ciudad más aislada del país y última base antes del Sani Pass: combustible (no siempre garantizado), tienda, y poco más. Es territorio de pastores a caballo con manta basotho y gorro mokorotlo, y el sitio donde se ve <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.29,29.07">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.07,-29.29,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Thabana Ntlenyana · el techo de África austral</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>3.482 m: el pico más alto de África al sur del Kilimanjaro, y se sube ANDANDO, sin material técnico. Está en la cresta de Mohlesi, justo al norte del Sani Pass, y se ataca desde Sani Top o desde la carretera de Mokhotlon<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.467,29.267">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.267,-29.467,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sani Pass · el acceso 4x4 mítico</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lesotho%20-%20South%20Africa%20Border%20-%20Sani%20Pass.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>EL TRAMO 4x4 MÁS FAMOSO DE ÁFRICA AUSTRAL. La pista sube 1.332 m —de 1.544 a 2.876 m— por la pared del Drakensberg en una sucesión de horquillas de grava con RAMPAS DE HASTA EL 33% (1:3). Sudáfrica solo permite subirlo e<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.5881,29.2927">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.2927,-29.5881,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sani Top · el pub más alto de África</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sani%20Pass%20Lesotho%202.jpg?width=900" width="320"/><br/><b>Alta · Cultura</b><br/>Justo al coronar el Sani Pass, a 2.874 m, está el Sani Mountain Lodge y su bar, que se anuncia como EL PUB MÁS ALTO DE ÁFRICA: chimenea encendida, cerveza Maluti y un ventanal sobre el precipicio por el que se acaba de s<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.5836,29.2879">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.2879,-29.5836,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Presa de Katse</name>
+    <description><![CDATA[<b>Alta · Cultura</b><br/>La obra que explica la economía del país: una presa de arco de hormigón de 185 m de altura y 710 m de coronación sobre el río Malibamatso, la SEGUNDA MÁS ALTA DE ÁFRICA y la de mayor altitud del continente (1.993 m). For<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.337,28.5061">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.5061,-29.337,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso de Mafika Lisiu y reserva de Bokong</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>La subida a Katse desde Pitseng corona el paso de MAFIKA LISIU a unos 3.090 m, otro de los grandes puertos asfaltados del país, con un mirador en lo alto sobre un mar de crestas. Justo arriba está la Reserva Natural de B<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.25,28.35">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.35,-29.25,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Presa de Mohale y su carretera</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>La segunda presa del Lesotho Highlands Water Project, de escollera y unos 145 m, conectada con Katse por un túnel de trasvase de 32 km. Lo interesante para el viaje no es la presa sino LA CARRETERA: la A3 de Maseru a Moh<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.467,28.083">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.083,-29.467,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Maseru</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Maseru%2C%20Lesotho.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Capital y único centro urbano relevante del país, enclavada en el altiplano y completamente rodeada por Sudáfrica; base de servicios básicos si el itinerario incluye una vuelta completa por Lesoto en lugar de una simple <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.3167,27.4833">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Maseru%2C%20Lesotho.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>La capital, pegada al río Caledon y a la frontera del Maseru Bridge, es la única base logística de verdad del país: bancos, supermercados sudafricanos, talleres, hospitales y las oficinas donde se tramitan permisos. No e<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.31,27.48">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>27.4833,-29.3167,0</coordinates></Point>
+    <Point><coordinates>27.48,-29.31,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Santuario de Vida Silvestre de Mlilwane</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Plains%20zebra%20in%20Mlilwane%20Wildlife%20Sanctuary%2001.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Primera reserva protegida del país, sin grandes depredadores, lo que permite paseos y rutas en bicicleta entre cebras, antílopes e hipopótamos; una introducción cómoda a la fauna del sur de África.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4667,31.1667">Google Maps</a>]]></description>
+    <name>Thaba-Bosiu · la montaña fortaleza de Moshoeshoe</name>
+    <description><![CDATA[<b>Alta · Cultura</b><br/>LA CUNA DE LA NACIÓN BASOTHO, a 24 km de Maseru. En julio de 1824 Moshoeshoe I, huyendo de las guerras del Mfecane, subió con su gente a esta meseta de arenisca de 2 km² y 1.804 m rodeada de cortados verticales, con ocho<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.3503,27.6714">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.6714,-29.3503,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Morija · museo y huellas de dinosaurio</name>
+    <description><![CDATA[<b>Media · Cultura</b><br/>El pueblo de la primera misión evangélica francesa (1833), que trajo la imprenta y fijó por escrito el sesotho: aquí está el Museo y Archivos de Morija, el mejor museo del país, con paleontología, etnografía e historia b<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.6333,27.5">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.5,-29.6333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Malealea</name>
+    <description><![CDATA[<b>Alta · Cultura</b><br/>Una vieja tienda comercial de 1905 convertida en lodge en un valle de montaña, y el sitio donde la mayoría de los viajeros descubre el LESOTO A CABALLO: los ponis basotho, pequeños, duros y criados para estas laderas, so<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.85,27.6167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.6167,-29.85,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Semonkong y la cascada de Maletsunyane</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>EL SALTO Y EL RÉCORD. La cascada de Maletsunyane cae 192 M DE UN SOLO CHORRO en un anfiteatro de basalto, y la nube de agua pulverizada que levanta da nombre al pueblo: Semonkong, «el lugar del humo». Desde el borde, el <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.8686,28.0517">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.1667,-26.4667,0</coordinates></Point>
+    <Point><coordinates>28.0517,-29.8686,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quthing (Moyeni) · las huellas de dinosaurio</name>
+    <description><![CDATA[<b>Alta · Cultura</b><br/>La ciudad más meridional del país, a 1.500 m sobre el río Senqu (el Orange en su cabecera) y junto a la frontera del Tele Bridge con el Cabo Oriental. A la entrada, y prácticamente al borde de la carretera, hay un yacimi<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-30.4001,27.7002">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.7002,-30.4001,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Sehlabathebe</name>
+    <description><![CDATA[<b>Alta · Patrimonio UNESCO</b><br/>El rincón más salvaje y remoto de Lesoto: 69,5 km² a una altitud media de 2.400 m, en el extremo sureste contra el escarpe del Drakensberg, dentro del bien Patrimonio de la Humanidad de MALOTI-DRAKENSBERG que Lesoto comp<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.8989,29.1211">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.1211,-29.8989,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ngwenya · la mina más antigua del mundo</name>
+    <description><![CDATA[<b>Alta · Patrimonio UNESCO</b><br/>Nada más cruzar la frontera de Oshoek, en la loma de Bomvu Ridge, está el yacimiento minero más antiguo conocido de la humanidad: LA LION CAVERN, datada por radiocarbono entre hace 41.000 Y 43.000 AÑOS. Los primeros habi<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.2017,31.0339">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.0339,-26.2017,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fábrica de vidrio de Ngwenya</name>
+    <description><![CDATA[<b>Media · Cultura</b><br/>A un paso de la frontera y de la mina antigua, una vidriería artesanal que trabaja EXCLUSIVAMENTE CON VIDRIO RECICLADO recogido en todo el país: se ve soplar las piezas desde una pasarela sobre el taller, y el resultado <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.2,31.0333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.0333,-26.2,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Reserva Natural de Malolotja</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Malolotja%20Scenery%20(31722500693).jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Montañas del noroeste del país con senderos de trekking, la segunda cascada más alta de África austral (Malolotja Falls) y buena observación de aves; alternativa de naturaleza más agreste que Mlilwane.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.15,31.1">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Malolotja%20Scenery%20(31722500693).jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>EL MEJOR SENDERISMO DEL PAÍS Y DE LOS MEJORES DE ÁFRICA AUSTRAL: 180 km² de montaña abierta en la frontera noroccidental, con solo 25 km de carretera dentro y una red de senderos que permite caminatas de un día o travesí<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.1333,31.1167">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.1,-26.15,0</coordinates></Point>
+    <Point><coordinates>31.1167,-26.1333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Malolotja Canopy Tour · la tirolina del cañón</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>Dentro de Malolotja, un recorrido de tirolinas de plataforma en plataforma sobre el cañón del río Majolomba, con un PUENTE COLGANTE de unos 50 m de altura sobre la garganta como remate. Se anuncia como la tirolina más la<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.135,31.12">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.12,-26.135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Presa de Maguga y el valle del Komati</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>Una presa de escollera de 115 m sobre el río Komati, al norte de Malolotja, que embalsa un lago serpenteante entre montañas y crea uno de los mejores miradores de carretera del país. Hay lodge y camping en la orilla, pes<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.0333,31.2167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.2167,-26.0333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Arte rupestre de Nsangwini</name>
+    <description><![CDATA[<b>Media · Cultura</b><br/>El único abrigo con arte rupestre san abierto al público en Esuatini, en un balcón de roca sobre el valle del Komati al que se baja por un sendero corto pero empinado. Tiene un panel excepcional con FIGURAS ALADAS —seres<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.0,31.2">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.2,-26.0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cascadas de Phophonyane</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>Reserva privada junto a Piggs Peak en torno a una sucesión de saltos y pozas del río Phophonyane, encajados en un bosque autóctono de ribera con más de 250 especies de aves. Hay senderos cortos, pozas naturales en las qu<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.95,31.2">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.2,-25.95,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mbabane</name>
+    <description><![CDATA[<b>Media · Ciudad · servicios</b><br/>La capital administrativa, en el highveld a unos 1.100 m, con clima fresco y un tamaño muy manejable: bancos, supermercados sudafricanos, talleres, hospitales y el mercado de artesanía como principal atractivo urbano. No<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.3167,31.1333">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1333,-26.3167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sibebe · el monolito de granito</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>A 10 km de Mbabane se levanta una cúpula de granito desnudo que se describe como EL SEGUNDO MONOLITO MÁS GRANDE DEL MUNDO DESPUÉS DE ULURU y el mayor plutón de granito expuesto del planeta: 350 m de pared sobre el valle <br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.2833,31.1667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1667,-26.2833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Valle de Ezulwini</name>
+    <description><![CDATA[<b>Alta · Cultura</b><br/>«El valle del cielo»: el corredor entre Mbabane y Manzini donde se concentra casi todo lo que hay que ver en Esuatini, y la base natural del desvío. Reúne el mercado de artesanía de Ezulwini, las fuentes termales de Cudd<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4333,31.1667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1667,-26.4333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mantenga · poblado cultural suazi y las cascadas</name>
+    <description><![CDATA[<b>Alta · Cultura</b><br/>Reserva natural de la Eswatini National Trust Commission que contiene la mejor reconstrucción de una ALDEA SUAZI TRADICIONAL de mediados del siglo XIX: dieciséis estructuras de paja y barro levantadas con técnica auténti<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.45,31.1833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1833,-26.45,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Santuario de Vida Silvestre de Mlilwane</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Plains%20zebra%20in%20Mlilwane%20Wildlife%20Sanctuary%2001.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>4.560 hectáreas en el valle de Ezulwini y el área protegida más antigua del país, rehabilitada por la familia Reilly sobre antiguas tierras de cultivo y minas de estaño. Su singularidad es que NO TIENE GRANDES DEPREDADOR<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4691,31.1619">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.1619,-26.4691,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Manzini</name>
+    <description><![CDATA[<b>Media · Ciudad · servicios</b><br/>La mayor ciudad y el corazón comercial e industrial del país, a media hora de Ezulwini. Su atractivo real es EL MERCADO: el de productos frescos abajo y, arriba, el de artesanía, que los jueves y viernes por la mañana es<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4833,31.3667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.3667,-26.4833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reserva de Mkhaya · el rinoceronte negro</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>El sitio con mejor reputación de África austral para ver RINOCERONTE NEGRO de cerca, y una reserva con una historia particular: se creó en 1979 para salvar de la extinción al GANADO NGUNI autóctono, y acabó convertida en<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.625,31.7375">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.7375,-26.625,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional Real de Hlane</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>300 km² en el lowveld nororiental, a unos 67 km de Manzini: el ÁREA PROTEGIDA MÁS GRANDE DEL PAÍS y el antiguo coto de caza real, que hoy el rey Mswati III mantiene en fideicomiso para la nación. «Hlane» significa «tierr<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.25,31.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.8833,-26.25,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lubombo y el Shewula Mountain Camp</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>En el escarpe de los montes Lubombo, contra la frontera de Mozambique, está el primer campamento comunitario del país: lo gestiona íntegramente la comunidad de Shewula, con cabañas sencillas asomadas al borde de la meset<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.1333,31.95">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.95,-26.1333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Mutare y el Christmas Pass</name>
@@ -447,32 +791,270 @@
     <Point><coordinates>31.2333,-8.6,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Cataratas de Sipi</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>Primera parada natural nada más entrar desde Kenia y una de las mejores sorpresas del país: tres saltos escalonados en la ladera noroeste del monte Elgon — Sipi (95 m), Ngasire (unos 85 m) y Simba (74 m) — unidos por un <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.3344,34.39">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.39,1.3344,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Monte Elgon · pico Wagagai y la caldera</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>Volcán apagado gigantesco en la frontera con Kenia, con una de las calderas intactas más grandes del mundo y el pico Wagagai (4.321 m) íntegramente en territorio ugandés. Es un trekking mucho menos masificado y mucho más<br/><b>Perro:</b> prohibido en el parque<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.1378,34.5603">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.5603,1.1378,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jinja y la fuente del Nilo</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>Aquí el Nilo Blanco sale del lago Victoria y empieza sus 6.700 km hasta el Mediterráneo: es literalmente el arranque del río que el viaje ya habrá cruzado o bordeará. Speke describió en 1862 unas cataratas «de unos cuatr<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4233,33.2039">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.2039,0.4233,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Kampala</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kampala%20skyline.jpg?width=900" width="320"/><br/><b>Media · Ciudad</b><br/>Capital vibrante repartida sobre siete colinas, con mercados, templos de distintas religiones y el cercano origen del Nilo en Jinja como excursión clásica; base logística y de gestiones para la ruta hacia Bwindi.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3476,32.5825">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kampala%20skyline.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Capital repartida sobre siete colinas y la gran base logística del desvío: talleres, recambios, veterinarios de buen nivel, supermercados y bancos. Tiene además un patrimonio que casi nadie visita: las Tumbas de los Kaba<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3476,32.5825">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>32.5825,0.3476,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Bosque Impenetrable de Bwindi (Buhoma)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/068%20Mountain%20gorilla%20close-up%20at%20Bwindi%20Impenetrable%20Forest%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Patrimonio de la Humanidad y uno de los últimos refugios del gorila de montaña; el trekking guiado para verlos (con permiso previo, cupo muy limitado) es una de las experiencias de naturaleza más singulares de toda la ru<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.05,29.6167">Google Maps</a>]]></description>
+    <name>Entebbe · jardines botánicos y la orilla del Victoria</name>
+    <description><![CDATA[<b>Media · Ciudad · servicios</b><br/>Península sobre el lago Victoria a 34 km de Kampala, mucho más tranquila que la capital y mejor sitio para dormir con el perro. Los Jardines Botánicos Nacionales, trazados en 1898, bajan hasta la propia orilla y son un p<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.05,32.46">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.46,0.05,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Islas Ssese (lago Victoria)</name>
+    <description><![CDATA[<b>Media · Costa</b><br/>Archipiélago de 84 islas en el noroeste del lago Victoria, con playas de arena, bosque y una calma total; se llega en ferry desde Entebbe (a Kalangala, en la isla de Bugala) o desde Bukakata, cerca de Masaka, con un ferr<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.4,32.3">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.3,-0.4,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Santuario de rinocerontes de Ziwa</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>El único sitio de Uganda donde hay rinocerontes en libertad: el país los perdió por completo con la caza furtiva de los años setenta y ochenta, y en 2005 se reintrodujeron seis ejemplares de rinoceronte blanco que en jul<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.4856,32.0953">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.0953,1.4856,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas Murchison · el Nilo estrangulado</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>El espectáculo hidráulico más brutal del viaje: todo el caudal del Nilo Victoria, un río de cientos de metros de ancho, se comprime en una grieta de MENOS DE 10 METROS y se despeña 43 m con un estruendo que se oye antes <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.2783,31.6856">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.6856,2.2783,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional del Valle de Kidepo</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>EL PARQUE MÁS REMOTO Y SALVAJE DE UGANDA, en el extremo noreste contra la frontera con Sudán del Sur: 1.442 km² de sabana entre montañas, con dos valles fluviales estacionales (Kidepo y Narus) y una sensación de vacío qu<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.9,33.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.85,3.9,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gulu y el norte</name>
+    <description><![CDATA[<b>Media · Ciudad · servicios</b><br/>Principal ciudad del norte y nudo logístico obligado del bucle a Kidepo: combustible fiable, talleres, bancos y hospitales. Fue el epicentro del conflicto del Ejército de Resistencia del Señor (LRA) de Joseph Kony entre <br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.7747,32.299">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.299,2.7747,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Portal y los lagos de cráter de Ndali-Kasenda</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>Ciudad de altura al pie de los Rwenzori, capital del reino tradicional de Toro y una de las zonas más bonitas y menos visitadas del país: alrededor hay más de cincuenta lagos de cráter volcánico, verdes y redondos, encaj<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.671,30.275">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.275,0.671,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Kibale · chimpancés</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>La mayor concentración de primates de África oriental: trece especies en un mismo bosque, incluidos varios grupos de chimpancés habituados a la presencia humana. El seguimiento de chimpancés dura una hora con el grupo, y<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.5,30.4">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.4,0.5,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Montes Rwenzori · las Montañas de la Luna</name>
+    <description><![CDATA[<b>Alta · Patrimonio UNESCO</b><br/>LA GRAN CAMINATA DEL DESVÍO y una rareza planetaria: glaciares permanentes prácticamente sobre el ecuador. Ptolomeo las llamó las Montañas de la Luna y las señaló como fuente del Nilo. El pico Margherita, en el monte Sta<br/><b>Perro:</b> prohibido en el parque<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.3858,29.8717">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.8717,0.3858,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Katwe · salinas y campo de cráteres</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>Al norte del canal de Kazinga se abre un campo volcánico de cráteres jóvenes, y en uno de ellos, el lago Katwe, se extrae sal a mano desde hace siglos en salinas de estanques familiares: los trabajadores entran en la sal<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.1333,29.8833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.8833,-0.1333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional Queen Elizabeth · canal de Kazinga</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>1.978 km² entre el lago George y el lago Edward, con 95 especies de mamíferos y más de 600 de aves — una de las cifras más altas de África para un solo parque. Su joya es el CANAL DE KAZINGA, un brazo natural de 32 km qu<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.1372,30.0411">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.0411,-0.1372,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ishasha · los leones trepadores</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>Sector sur de Queen Elizabeth y una de las dos únicas poblaciones del mundo donde los leones suben habitualmente a los árboles: aquí se tumban en las ramas horizontales de las higueras sicómoro, con los machos de melena <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.6167,29.6667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.6667,-0.6167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bosque Impenetrable de Bwindi (Buhoma)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/068%20Mountain%20gorilla%20close-up%20at%20Bwindi%20Impenetrable%20Forest%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg?width=900" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>EL MOTIVO DE TODO EL DESVÍO. Selva de montaña de 25.000 años de antigüedad, Patrimonio de la Humanidad, que alberga cerca de la mitad de los gorilas de montaña que quedan en el planeta. El seguimiento es a pie por ladera<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.05,29.6167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>29.6167,-1.05,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Kigali</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kigali%20city%20view.jpg?width=900" width="320"/><br/><b>Media · Ciudad</b><br/>Una de las capitales más limpias y ordenadas de África, reconstruida tras el genocidio de 1994; el Kigali Genocide Memorial es visita obligada para entender el país, y la ciudad sirve de base logística y de gestiones ant<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9441,30.0619">Google Maps</a>]]></description>
+    <name>Parque Nacional de los Gorilas de Mgahinga</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>El parque más pequeño de Uganda (33,9 km²) y el más espectacular de ver: la esquina ugandesa de los volcanes Virunga, con tres conos apagados — Muhabura (4.127 m), Gahinga y Sabyinyo — sobre los que se puede subir a pie <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.3694,29.6403">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.6403,-1.3694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lago Bunyonyi</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>«El lugar de los muchos pajarillos»: un lago de 40 m de profundidad encajado entre colinas aterrazadas, con 29 islas y más de 200 especies de aves, a 7 km de Kabale y a 1.960 m de altitud. Es el sitio donde descansar ant<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2833,29.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.9167,-1.2833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional del Lago Mburo</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>El parque pequeño (260 km²) que cae justo en la carretera principal Kampala–Mbarara, a 240 km de la capital: la parada perfecta para no hacer de un tirón el regreso desde el suroeste. Es el único sitio de Uganda con cebr<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.6278,30.9667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.9667,-0.6278,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Musanze (Ruhengeri) y sus cuevas</name>
+    <description><![CDATA[<b>Alta · Ciudad · servicios</b><br/>Puerta de entrada a los volcanes y base logística del norte: combustible, bancos, mercado y alojamientos de todos los precios, a 1.850 m de altitud y con los cinco conos de los Virunga asomando por encima de los tejados.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.499,29.635">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>30.0619,-1.9441,0</coordinates></Point>
+    <Point><coordinates>29.635,-1.499,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Parque Nacional de los Volcanes (Kinigi)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bisoke%20Crater%20Lake%20in%20Volcanoes%20National%20Park%2C%20Rwanda.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Cadena de volcanes de los Virunga y uno de los últimos refugios del gorila de montaña; el trekking guiado (permiso previo, cupo muy limitado y de coste elevado) es la gran experiencia de naturaleza de este desvío, junto <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.4667,29.4833">Google Maps</a>]]></description>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bisoke%20Crater%20Lake%20in%20Volcanoes%20National%20Park%2C%20Rwanda.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>160 km² que abarcan cinco de los ocho volcanes Virunga —Karisimbi, Bisoke, Muhabura, Gahinga y Sabyinyo— y la mitad ruandesa de la población mundial de gorila de montaña. Es el parque de Dian Fossey y el escenario de «Go<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.4675,29.4925">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>29.4833,-1.4667,0</coordinates></Point>
+    <Point><coordinates>29.4925,-1.4675,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Monte Bisoke · el lago del cráter</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>La mejor excursión a pie de Ruanda y la alternativa barata a los gorilas: subida de unas tres horas por barro y bambú hasta los 3.711 m, donde se abre un lago de cráter perfectamente circular de aguas verdes, con Ruanda <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.4581,29.4886">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.4886,-1.4581,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Karisoke y la tumba de Dian Fossey</name>
+    <description><![CDATA[<b>Media · Cultura</b><br/>Entre el Karisimbi y el Bisoke, a unas dos horas de caminata desde la puerta del parque, están las ruinas del centro de investigación de Karisoke que Dian Fossey fundó en 1967 y el pequeño cementerio donde ella misma est<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.475,29.48">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.48,-1.475,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lagos gemelos Burera y Ruhondo</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>Dos lagos alargados separados por una lengua de tierra, al este de Musanze, con los volcanes al fondo y las laderas cultivadas en terrazas hasta el borde del agua: es el paisaje que sale en todas las fotos de «el país de<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.4333,29.7667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.7667,-1.4333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gisenyi (Rubavu) y el lago Kivu</name>
+    <description><![CDATA[<b>Alta · Costa</b><br/>La playa del interior de África: arena, palmeras y un paseo marítimo colonial a orillas del Kivu, octavo lago de África (2.700 km², 480 m de profundidad máxima), pegado a la frontera con RD Congo — Goma está literalmente<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.7,29.25">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.25,-1.7,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Congo Nile Trail · la ruta de la orilla del Kivu</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>LA GRAN RUTA DEL PAÍS: unos 227 km por la orilla oriental del lago Kivu, de Rubavu (Gisenyi) en el norte a Rusizi (Cyangugu) en el sur, pasando por Kinunu, Karongi (Kibuye) y Kibogora. Está pensada para hacerse a pie (un<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9,29.34">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.34,-1.9,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Karongi (Kibuye) y las islas del Kivu</name>
+    <description><![CDATA[<b>Media · Costa</b><br/>El punto medio del Congo Nile Trail y el rincón más bonito del lago: una península de penínsulas, con bahías recortadas, eucaliptos y agua tranquila. Desde el embarcadero salen barcas a la isla de Napoleón (llamada así p<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.06,29.35">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.35,-2.06,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rusizi (Cyangugu) y la frontera de Bukavu</name>
+    <description><![CDATA[<b>Media · Ciudad · servicios</b><br/>Extremo suroeste del país, donde el lago Kivu se vacía en el río Rusizi y termina el Congo Nile Trail. Es el final logístico del oeste, con combustible y servicios, y la puerta de Nyungwe por el sur. Enfrente, al otro la<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.4833,28.9">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.9,-2.4833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Nyungwe · la pasarela del dosel</name>
+    <description><![CDATA[<b>Alta · Patrimonio UNESCO</b><br/>1.019 km² de selva de montaña primaria, una de las más antiguas de África y Patrimonio de la Humanidad desde 2023, gestionada por African Parks desde 2020. Tiene 13 especies de primates (una cuarta parte de todas las de <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.49,29.2928">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.2928,-2.49,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Huye (Butare) y el Museo Etnográfico Nacional</name>
+    <description><![CDATA[<b>Media · Cultura</b><br/>La capital intelectual del país, sede de la Universidad Nacional, y el mejor museo de Ruanda con diferencia: el Museo Etnográfico Nacional, regalo de Bélgica en 1989, con siete salas sobre geología, agricultura, ganaderí<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.5967,29.74">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.74,-2.5967,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nyanza · el Palacio del Rey (Rukari)</name>
+    <description><![CDATA[<b>Media · Cultura</b><br/>La capital histórica de la monarquía ruandesa. En la colina de Rukari se conserva reconstruido a tamaño real el palacio tradicional del mwami, una enorme cúpula de paja trenzada, y al lado el palacio de estilo colonial d<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.35,29.75">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.75,-2.35,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kigali</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kigali%20city%20view.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>La capital más limpia, ordenada y segura de África, repartida sobre colinas y valles y sin un solo papel en el suelo; para un viaje overland es una parada de oro: talleres, recambios, veterinarios, hospitales de nivel, s<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9536,30.0606">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.0606,-1.9536,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Memorial del Genocidio de Kigali (Gisozi)</name>
+    <description><![CDATA[<b>Alta · Patrimonio UNESCO</b><br/>No es una atracción turística: es una tumba. Aquí están enterrados los restos de MÁS DE 250.000 PERSONAS asesinadas durante el genocidio contra los tutsis de 1994, en fosas comunes de cien mil cada una. Se inauguró el 7 <br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9311,30.06">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.06,-1.9311,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Memoriales de Nyamata y Ntarama</name>
+    <description><![CDATA[<b>Media · Patrimonio UNESCO</b><br/>A unos 30 km al sur de Kigali, dos iglesias donde la gente se refugió en abril de 1994 creyendo que un templo sería sagrado. En Nyamata se encerraron unas 10.000 personas; los atacantes abrieron boquetes en los muros par<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.145,30.105">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.105,-2.145,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lago Muhazi</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>Lago largo y ramificado al este de Kigali, en la carretera de Akagera: un sitio de fin de semana de los kigalíes, con embarcaderos, restaurantes de tilapia a la brasa y alojamientos sencillos junto al agua. No tiene ning<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.85,30.35">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.35,-1.85,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Akagera</name>
+    <description><![CDATA[<b>Alta · Naturaleza</b><br/>LA HISTORIA DE RECUPERACIÓN MÁS ESPECTACULAR DE ÁFRICA. En 2010 este parque de 1.122 km² en la frontera con Tanzania estaba arrasado por la caza furtiva y el ganado; African Parks y el Rwanda Development Board firmaron u<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.6333,30.7833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.7833,-1.6333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Gishwati-Mukura</name>
+    <description><![CDATA[<b>Media · Naturaleza</b><br/>El parque más joven de Ruanda (2016) y Reserva de la Biosfera de la UNESCO desde 2020: dos retazos de selva de montaña que estuvieron a punto de desaparecer —Gishwati se quedó en el 10% de su superficie original por la d<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.8,29.35">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.35,-1.8,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Yibuti ciudad y el puerto</name>

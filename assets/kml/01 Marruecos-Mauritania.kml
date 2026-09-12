@@ -4,6 +4,7 @@
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-gris"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,666666,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-naranja"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,D97B29,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
@@ -106,25 +107,116 @@
     <Point><coordinates>-12.9231,27.9394,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Laayoune (El Aaiún)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune%20Cathedral%202011.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Mayor ciudad del Sáhara Occidental bajo administración marroquí; última base con hospital de referencia, talleres, bancos y combustible antes del tramo semidesértico hacia Dakhla. Catedral de estilo colonial español como<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.1418,-13.1873">Google Maps</a>]]></description>
+    <name>El Aaiún (Laayoune) · la mayor ciudad del territorio</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune%20Cathedral%202011.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>262.000 habitantes y, de largo, la mayor ciudad del Sáhara Occidental: la fundó el capitán español Antonio de Oro en 1938 como puesto militar y explotó con el descubrimiento de los fosfatos de Bu Craa en los años cuarent<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.15,-13.2">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-azul</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.1873,27.1418,0</coordinates></Point>
+    <Point><coordinates>-13.2,27.15,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Laguna de Dakhla</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Media · Naturaleza · deporte</b><br/>Península y laguna de aguas planas, referencia mundial de kitesurf y windsurf; ambiente de viajeros y overlanders con explanadas para pernoctar. Punto de descanso recomendado antes del tramo final a Guerguerat.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.69,-15.95">Google Maps</a>]]></description>
+    <name>Laayoune Plage y Foum el Oued · la desembocadura del Saguía</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune%20Cathedral%202011.jpg?width=900" width="320"/><br/><b>Media · Costa</b><br/>A unos 25 km al oeste de El Aaiún, donde el cauce seco de la Saguía el-Hamra alcanza el Atlántico: un pueblo de pescadores, una playa larguísima batida por el viento del norte, una zona de casetas y restaurantes de pesca<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.11,-13.42">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-turquesa</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.42,27.11,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bu Craa · la cinta transportadora más larga del mundo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune%20Cathedral%202011.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>A un centenar de kilómetros al sureste de El Aaiún está la mina de fosfatos de Bu Craa, con un yacimiento de más de 1.700 millones de toneladas y en explotación desde 1972. Lo espectacular no es la mina sino su CINTA TRA<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.3228,-12.8497">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.8497,26.3228,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lemsid · la etapa intermedia</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune%20Cathedral%202011.jpg?width=900" width="320"/><br/><b>Baja · Ciudad · servicios</b><br/>Un puñado de edificios, una estación de servicio y un café a unos 100 km al sur de El Aaiún, en mitad de la nada. No hay nada que ver y es exactamente por eso por lo que está en esta ficha: en el corredor Laayoune-Dakhla<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.72,-13.63">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.63,26.72,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bojador (Boujdour) · el cabo que nadie se atrevía a doblar</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>Durante siglos, el CABO BOJADOR fue el fin del mundo conocido para la navegación europea: las corrientes, la niebla y la leyenda del «mar tenebroso» del que no se volvía hicieron que ningún barco lo doblara hasta que Gil<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.1331,-14.4669">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.4669,26.1331,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Duna Blanca (White Dune) y el brazo de la laguna</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>El icono visual de Dajla: una duna de arena blanquísima que cae directamente sobre el agua turquesa y llana de la laguna, en la orilla continental, a unos 40 km al norte de la ciudad y a pie de la N1. Con la marea baja s<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.6,-15.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.85,23.6,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Laguna de Dajla (Dakhla Bay) · Ramsar y flamencos</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Alta · Naturaleza</b><br/>Unos 400 km² de bahía somera y 37 km de largo entre la península de Río de Oro y el continente: agua plana, azul turquesa y poco profunda, que es lo que la ha convertido en referencia mundial del kitesurf y a la vez en u<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.69,-15.95">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-15.95,23.69,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Guerguerat — paso fronterizo</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat%20border%20crossing.jpg?width=900" width="320"/><br/><b>Alta · Frontera</b><br/>Único paso terrestre hacia Mauritania: control marroquí, franja de tierra de nadie sin asfaltar (con cambistas informales) y control mauritano con varios edificios y controles por nacionalidad. Calcular 4–6 horas y no cr<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.34,-16.95">Google Maps</a>]]></description>
+    <name>Dajla (Dakhla) · la antigua Villa Cisneros</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>La segunda ciudad del territorio (161.000 habitantes) al final de una península estrecha de 40 km que entra en el Atlántico: océano abierto a un lado, laguna a otro. La fundó España en 1884 como VILLA CISNEROS —el nombre<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.7167,-15.95">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.95,23.7167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kitesurf, surf y los spots del Atlántico de Dajla</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Alta · Costa</b><br/>El punto fuerte deportivo de todo el corredor atlántico. En la LAGUNA, agua plana y viento térmico del norte prácticamente garantizado de marzo a octubre (y muy frecuente el resto del año): es un sitio de aprendizaje exc<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.73,-15.92">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.92,23.73,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bir Gandouz · la última parada antes de la frontera</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat%20border%20crossing.jpg?width=900" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Pueblo de carretera a unos 80 km de Guerguerat y último punto con estación de servicio fiable, café, algún alojamiento muy básico y cobertura razonable antes del paso a Mauritania. Mucha gente pernocta aquí para cruzar l<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.017,-16.317">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.317,21.017,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Guerguerat · el paso y la tierra de nadie</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat%20border%20crossing.jpg?width=900" width="320"/><br/><b>Alta · Frontera</b><br/>Uno de los cruces más comentados de toda la ruta y el ÚNICO paso terrestre hacia Mauritania: está a unos 11 km de la frontera y a 5 del Atlántico, y es hoy la única carretera segura entre todo el norte de África y el Áfr<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.4261,-16.9586">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-gris</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Gris</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-16.95,21.34,0</coordinates></Point>
+    <Point><coordinates>-16.9586,21.4261,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bahía de Cintra (Golfo de Cintra)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Una enorme bahía en forma de media luna a unos 120 km al sur de Dajla, de aguas muy someras —10 m de media en la parte central— y 29 millas náuticas de anchura, casi deshabitada salvo por asentamientos de pescadores disp<br/><b>Perro:</b> no aplicable (solo mirador desde la N1)<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=22.9519,-16.2156">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.2156,22.9519,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sebja de Imlili · los peces del desierto</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Una de las rarezas naturales más asombrosas del norte de África y prácticamente desconocida: a unas decenas de kilómetros al sureste de Dajla, en plena depresión salina, hay un conjunto de cientos de pozas de agua hipers<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.15,-15.85">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.85,23.15,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fuentes termales de Asmaa</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=900" width="320"/><br/><b>Media · Naturaleza</b><br/>Manantiales de agua termal a unos 38 °C en pleno desierto, al norte de Dajla y cerca de la carretera de acceso a la península. Es un balneario muy modesto —piscinas de obra, vestuarios básicos, separación de horarios o e<br/><b>Perro:</b> prohibido en las pozas<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.85,-15.8">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.8,23.85,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Smara y la zawiya de Ma al-Aynayn</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune%20Cathedral%202011.jpg?width=900" width="320"/><br/><b>Media · Cultura</b><br/>La única ciudad del interior del territorio con una historia propia anterior a la colonización: fundada en 1869 como oasis de caravanas, se convirtió en 1902 en la capital espiritual del jeque MA AL-AYNAYN, que instaló a<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.7394,-11.6703">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.6703,26.7394,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cabo Blanco y La Güera · la foca monje (NO accesible desde aquí)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat%20border%20crossing.jpg?width=900" width="320"/><br/><b>Baja · Naturaleza</b><br/>Respuesta honesta a una pregunta que siempre sale: SÍ, la mayor colonia superviviente de FOCA MONJE DEL MEDITERRÁNEO del mundo —unos 270-300 ejemplares, la única que conserva estructura de colonia tras la mortandad de 19<br/><b>Perro:</b> no aplicable<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.8333,-17.0833">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-17.0833,20.8333,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Ben Amera</name>
