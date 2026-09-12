@@ -109,13 +109,21 @@ function a27Map(elId, cfg){
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
   const groups = {};
+  // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.
+  const on = cfg.defaultOn ? new Set(cfg.defaultOn) : null;
   function group(label){
-    if (!groups[label]) groups[label] = L.layerGroup().addTo(map);
+    if (!groups[label]) {
+      groups[label] = L.layerGroup();
+      if (!on || on.has(label)) groups[label].addTo(map);
+    }
     return groups[label];
   }
+  // Orden fijo de la leyenda (las capas no listadas van después, por orden de aparición).
+  (cfg.groupOrder || []).forEach(label => { if (!groups[label]) groups[label] = null; });
   (cfg.lines || []).forEach(li => {
-    L.polyline(li.pts, {color: li.color, weight: 4, dashArray: li.dash ? '8 8' : null, opacity:.85})
-      .addTo(group(li.label || 'Corredor'));
+    const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
+    if (li.title) pl.bindTooltip(li.title, {sticky: true});
+    pl.addTo(group(li.label || 'Corredor'));
   });
   (cfg.points || []).forEach(p => {
     const s = a27CatStyle(p);
@@ -123,6 +131,7 @@ function a27Map(elId, cfg){
     mk.bindPopup(a27Popup(p, cfg.root), {maxWidth: 290});
     mk.addTo(group(s.label));
   });
+  Object.keys(groups).forEach(k => { if (groups[k] === null) delete groups[k]; });
   if (Object.keys(groups).length > 1) L.control.layers(null, groups, {collapsed: window.innerWidth < 700}).addTo(map);
   const all = (cfg.points || []).map(p => [p.lat, p.lon]);
   (cfg.lines || []).forEach(li => li.pts.forEach(pt => all.push(pt)));
@@ -173,6 +182,53 @@ def map_lines(d):
         lines.append({"label":d.get("corridor_label","Corredor"),"color":"#1E7A8A","pts":[[round(a,5),round(b,5)] for a,b in d["corridor"]]})
     if d.get("corridor_alt"):
         lines.append({"label":d.get("corridor_alt_label","Corredor (alternativo)"),"color":"#C47F17","dash":True,"pts":[[round(a,5),round(b,5)] for a,b in d["corridor_alt"]]})
+    return lines
+
+
+# ---------------------------------------------------------------- mapa general
+# Papel de cada corredor de país en el mapa general. En las fichas cada país
+# conserva sus propias etiquetas; aquí se agrupan en cuatro capas para que la
+# leyenda no tenga un ramal por país:
+#   bajada      → «Corredor de bajada (ida)»      · encendida por defecto
+#   subida      → «Corredor de subida (vuelta)»   · encendida por defecto
+#   variante    → «Variantes por país»            · apagada
+#   alternativa → «Ramales y alternativas»        · apagada
+# (papel del corredor principal, papel del corredor alternativo)
+MAPA_GENERAL_ROLES = {
+    "marruecos": ("bajada", "variante"), "sahara-occidental": ("bajada", "subida"),
+    "mauritania": ("bajada", "variante"), "senegal": ("bajada", "variante"),
+    "gambia": ("subida", "variante"), "guinea": ("bajada", "subida"),
+    "costa-de-marfil": ("bajada", "subida"), "ghana": ("bajada", "subida"),
+    "togo": ("bajada", "subida"), "benin": ("bajada", "subida"), "nigeria": ("bajada", "subida"),
+    "camerun": ("bajada", "subida"), "congo": ("bajada", "subida"), "rd-congo": ("bajada", "subida"),
+    "angola": ("bajada", "subida"), "zambia": ("bajada", "variante"),
+    "tanzania": ("bajada", "subida"),   # «Subida por el interior (Zambia→Kenia)» es la ida; «Bajada por la costa» la vuelta
+    "kenia": ("bajada", "subida"), "mozambique": ("subida", "variante"), "zimbabue": ("subida", "variante"),
+    "botsuana": ("subida", "variante"), "sudafrica": ("subida", "subida"), "namibia": ("subida", "variante"),
+}
+MAPA_GENERAL_CAPAS = {
+    "bajada":      ("Corredor de bajada (ida)",    "#1E7A8A", False),
+    "subida":      ("Corredor de subida (vuelta)", "#C47F17", False),
+    "variante":    ("Variantes por país",          "#5F6B72", True),
+    "alternativa": ("Ramales y alternativas",      "#9AA5AB", True),
+}
+MAPA_GENERAL_ON = ["Corredor de bajada (ida)", "Corredor de subida (vuelta)", "Puntos de interés"]
+MAPA_GENERAL_ORDEN = ["Corredor de bajada (ida)", "Corredor de subida (vuelta)", "Puntos de interés",
+                      "Variantes por país", "Ramales y alternativas", "Fronteras", "Hospitales",
+                      "Consulados", "Agua potable", "Combustible", "Servicios"]
+
+
+def map_lines_general(d):
+    """Corredores de un país agrupados en las capas del mapa general."""
+    roles = MAPA_GENERAL_ROLES.get(d["slug"], ("alternativa", "alternativa"))
+    lines = []
+    for key, role in (("corridor", roles[0]), ("corridor_alt", roles[1])):
+        if not d.get(key):
+            continue
+        label, color, dash = MAPA_GENERAL_CAPAS[role]
+        lines.append({"label": label, "color": color, "dash": dash,
+                      "title": f"{d['name']} · {d.get(key + '_label', 'Corredor')}",
+                      "pts": [[round(a, 5), round(b, 5)] for a, b in d[key]]})
     return lines
 
 # ---------------------------------------------------------------- nav helper
@@ -511,14 +567,15 @@ def render_portal(countries):
 def render_map_page(all_points, all_lines):
     root = "../"
     nav = navbar(root, [("Portal", root), ("Documentación", root + "documentacion/")], "Mapa general")
-    cfg = {"center": [14.0, -5.0], "zoom": 4, "root": root, "points": all_points, "lines": all_lines}
+    cfg = {"center": [14.0, -5.0], "zoom": 4, "root": root, "points": all_points, "lines": all_lines,
+           "defaultOn": MAPA_GENERAL_ON, "groupOrder": MAPA_GENERAL_ORDEN}
     body = f"""{nav}
 <main style="max-width:1400px">
 <h2 style="margin-top:18px">Mapa general del viaje</h2>
-<p>Capas activables con el control de la esquina superior derecha: puntos de interés, hospitales, consulados, fronteras, agua potable y combustible (además de servicios genéricos). Toca cualquier punto para ver su información y abrir la ficha del país o Google Maps. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
+<p>Por defecto se muestran solo el <strong>corredor de bajada</strong>, el <strong>corredor de subida</strong> y los <strong>puntos de interés</strong>. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua potable, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Toca cualquier punto para ver su información y abrir la ficha del país o Google Maps. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
 <p class="callout" style="display:block"><strong>Agua y combustible:</strong> puntos verificados con fuentes propias, iOverlander y Tracks4Africa (comunidad overlander); revisar siempre comentarios recientes de esas plataformas antes de fiarse de un punto, porque una fuente o gasolinera puede cerrar o quedarse seca sin previo aviso. Objetivo de planificación: no dejar tramos de más de ~500 km sin una opción de combustible confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
-<p class="figcap">Corredores: turquesa = ruta base trabajada · ámbar discontinuo = variantes. Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
+<p class="figcap">Corredores: turquesa = bajada (ida) · ámbar = subida (vuelta) · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
 <footer>ÁFRICA 2027 · versión {VERSION}</footer>
 </main>
 <script>var A27_GEN = {json.dumps(cfg, ensure_ascii=False)};</script>
@@ -1162,7 +1219,7 @@ def main():
     all_points, all_lines = [], []
     for d in FULL.values():
         all_points += map_points(d, with_ficha=True)
-        all_lines += map_lines(d)
+        all_lines += map_lines_general(d)
     pages["mapa/index.html"] = render_map_page(all_points, all_lines)
     pages["documentacion/index.html"] = render_docs()
     pages["perro/index.html"] = render_perro()

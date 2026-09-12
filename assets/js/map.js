@@ -35,13 +35,21 @@ function a27Map(elId, cfg){
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
   const groups = {};
+  // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.
+  const on = cfg.defaultOn ? new Set(cfg.defaultOn) : null;
   function group(label){
-    if (!groups[label]) groups[label] = L.layerGroup().addTo(map);
+    if (!groups[label]) {
+      groups[label] = L.layerGroup();
+      if (!on || on.has(label)) groups[label].addTo(map);
+    }
     return groups[label];
   }
+  // Orden fijo de la leyenda (las capas no listadas van después, por orden de aparición).
+  (cfg.groupOrder || []).forEach(label => { if (!groups[label]) groups[label] = null; });
   (cfg.lines || []).forEach(li => {
-    L.polyline(li.pts, {color: li.color, weight: 4, dashArray: li.dash ? '8 8' : null, opacity:.85})
-      .addTo(group(li.label || 'Corredor'));
+    const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
+    if (li.title) pl.bindTooltip(li.title, {sticky: true});
+    pl.addTo(group(li.label || 'Corredor'));
   });
   (cfg.points || []).forEach(p => {
     const s = a27CatStyle(p);
@@ -49,6 +57,7 @@ function a27Map(elId, cfg){
     mk.bindPopup(a27Popup(p, cfg.root), {maxWidth: 290});
     mk.addTo(group(s.label));
   });
+  Object.keys(groups).forEach(k => { if (groups[k] === null) delete groups[k]; });
   if (Object.keys(groups).length > 1) L.control.layers(null, groups, {collapsed: window.innerWidth < 700}).addTo(map);
   const all = (cfg.points || []).map(p => [p.lat, p.lon]);
   (cfg.lines || []).forEach(li => li.pts.forEach(pt => all.push(pt)));
