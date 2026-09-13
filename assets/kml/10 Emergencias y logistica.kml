@@ -421,53 +421,53 @@
     <Point><coordinates>-11.0,26.0,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada bajada — Sambaïlo / Koundara (desde Manda-Kalifourou, Senegal)</name>
-    <description><![CDATA[<b>Frontera</b><br/>El paso más fácil entre Senegal y Guinea y el que usa la práctica totalidad del tráfico: carretera asfaltada en buen estado a los dos lados, del puesto senegalés de Manda-Kalifourou al guineano de Sambaïlo, en la prefectura de Koundara. Evita por completo el territorio de Guinea-Bisáu, excluido por protocolo del proyecto. AVISOS: (1) el visado NO se expide en la frontera — hay que llegar con la eVisa o el visado consular ya emitido; (2) las fronteras de Guinea CIERRAN DE NOCHE: llegar con margen de varias horas de luz; (3) hay ~20 km de tierra de nadie entre los dos puestos; (4) se paga un laissez-passer de frontera del orden de 50.000 GNF que fija la duración de la estancia — comprobar que la fecha que escriben cubre todo el tramo previsto; (5) el ferry sobre el río Bantala, en la variante antigua, ha estado averiado con frecuencia: confirmar qué ruta está operativa. Es también la frontera de SALIDA de la subida.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.55,-13.35">Google Maps</a>]]></description>
+    <name>Frontera · Entrada bajada — Sambaïlo / Koundara (desde Kalifourou, Senegal)</name>
+    <description><![CDATA[<b>Frontera</b><br/>El paso más fácil entre Senegal y Guinea y el que usa la práctica totalidad del tráfico: carretera asfaltada en buen estado a los dos lados. El puesto SENEGALÉS real de este eje es KALIFOUROU (12,92415 / -13,63848, región de Kolda), no Manda; del lado GUINEANO los trámites se hacen en SAMBAÏLO, subprefectura a 11 km al noroeste de Koundara y a unos 48 km de Kalifourou. Esta coordenada es el nodo OSM del pueblo de Sambaïlo: OSM no cartografía aquí ningún puesto fronterizo. El puesto de control yuxtapuesto de Boundou Fourdou, construido a caballo sobre la raya y entregado a las autoridades en diciembre de 2019, seguía descrito en abril de 2023 con «une absence totale de vie administrative»: no contar con él. El eje evita por completo el territorio de Guinea-Bisáu, excluido por protocolo del proyecto. AVISOS: (1) el visado NO se expide en la frontera — hay que llegar con la eVisa o el visado consular ya emitido; (2) las fronteras de Guinea CIERRAN DE NOCHE: llegar con margen de varias horas de luz; (3) hay una franja larga de tierra de nadie entre los dos puestos —las fuentes hablan de ~20 km, pero de Kalifourou a Sambaïlo hay ~48 km de carretera: POR CONFIRMAR dónde está exactamente cada control—; (4) se paga un laissez-passer de frontera del orden de 50.000 GNF que fija la duración de la estancia — comprobar que la fecha que escriben cubre todo el tramo previsto; (5) el ferry sobre el río Bantala, en la variante antigua, ha estado averiado con frecuencia: confirmar qué ruta está operativa. Es también la frontera de SALIDA de la subida.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.58241,-13.37191">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.35,12.55,0</coordinates></Point>
+    <Point><coordinates>-13.37191,12.58241,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Salida bajada — N'Zo / Gbapleu (hacia Danané, Costa de Marfil)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal entre la Guinea forestal y el oeste de Costa de Marfil, en la prefectura de Lola: del puesto guineano de N'Zo al marfileño de Gbapleu, y de ahí a Danané y Man. Reabierto en septiembre de 2016 tras el cierre sanitario por el ébola. Es la salida obligada de la bajada, porque LIBERIA ESTÁ EXCLUIDA de la ruta por la imposibilidad de obtener visado en frontera terrestre: de Guinea se va directo a Costa de Marfil. POR CONFIRMAR: horarios exactos, si sellan CPD y el estado del asfalto en el tramo Nzérékoré-Lola-N'Zo. Frontera cerrada de noche.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.55,-8.45">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal entre la Guinea forestal y el oeste de Costa de Marfil, en la prefectura de Lola: del puesto guineano de N'Zo al marfileño de Gbapleu, y de ahí a Danané y Man. Reabierto en septiembre de 2016 tras el cierre sanitario por el ébola. Es la salida obligada de la bajada, porque LIBERIA ESTÁ EXCLUIDA de la ruta por la imposibilidad de obtener visado en frontera terrestre: de Guinea se va directo a Costa de Marfil. POR CONFIRMAR: horarios exactos, si sellan CPD y el estado del asfalto en el tramo Nzérékoré-Lola-N'Zo. Frontera cerrada de noche. GEOMETRÍA DEL PASO (nodos OSM, verificados): las Douanes guineanas están DENTRO del pueblo de N'Zoo (7,67720 / -8,31470, a 280 m del mercado semanal); 6 km al sur, la Police aux frontières (7,62060 / -8,30528); y 1,25 km más allá, ya en la raya, el Poste Frontière (7,60982 / -8,31122), que es esta coordenada. Del lado marfileño, el pueblo de Gbapleu queda 4,5 km al suroeste. Son TRES paradas, no una, repartidas en unos 8 km.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.60982,-8.31122">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.45,7.55,0</coordinates></Point>
+    <Point><coordinates>-8.31122,7.60982,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada subida — N'Zo / Gbapleu (desde Costa de Marfil)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Mismo paso en sentido inverso. Aquí se abre el segundo visado guineano y el segundo permiso temporal del vehículo. Alternativa teórica más al norte (Sipilou / Kérouané-Beyla) que evitaría repetir el puesto, PERO está muy poco documentada y la carretera es incierta: POR CONFIRMAR antes de contar con ella. Salvo que se verifique, la entrada de la subida repite N'Zo y la diferenciación de corredores se consigue en el interior del país, no en la frontera.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.55,-8.45">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Mismo paso en sentido inverso. Aquí se abre el segundo visado guineano y el segundo permiso temporal del vehículo. Alternativa teórica más al norte (Sipilou / Kérouané-Beyla) que evitaría repetir el puesto, PERO está muy poco documentada y la carretera es incierta: POR CONFIRMAR antes de contar con ella. Salvo que se verifique, la entrada de la subida repite N'Zo y la diferenciación de corredores se consigue en el interior del país, no en la frontera. La coordenada es la misma que la de salida (Poste Frontière de N'Zoo, 7,60982 / -8,31122): ver en aquel punto la secuencia de aduana, policía de fronteras y puesto de raya.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.60982,-8.31122">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.45,7.55,0</coordinates></Point>
+    <Point><coordinates>-8.31122,7.60982,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Variante de salida — Pamelap (hacia Sierra Leona)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso costero Forécariah-Pamelap-Kambia, asfaltado de punta a punta, hacia Freetown. Solo se activa si se ejecuta la variante opcional de Sierra Leona en el tramo de subida que contempla la ruta global. No es la salida prevista por defecto.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.3,-13.05">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso costero Forécariah-Pamelap-Kambia, asfaltado de punta a punta, hacia Freetown. Solo se activa si se ejecuta la variante opcional de Sierra Leona en el tramo de subida que contempla la ruta global. No es la salida prevista por defecto. La coordenada es el nodo OSM del pueblo guineano de Pamélap (subprefectura de Forécariah, región de Kindia, 35 m de altitud): el comisariado «Pamelap Police» está unos 500 m al sursuroeste y OSM cartografía además un control fronterizo EN CONSTRUCCIÓN. Al otro lado está Gbalamuya, distrito de Kambia (Sierra Leona).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.18013,-12.96925">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.05,9.3,0</coordinates></Point>
+    <Point><coordinates>-12.96925,9.18013,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · EXCLUIDA — todos los pasos con Guinea-Bisáu y con Malí</name>
-    <description><![CDATA[<b>Frontera</b><br/>Guinea-Bisáu queda excluida por protocolo del proyecto: ninguna variante debe rozar su territorio, ni siquiera como atajo. Malí queda excluido por conflicto: eso descarta el eje Siguiri-Kourémalé y toda la franja fronteriza del noreste (prefecturas de Siguiri y Mandiana), donde además hay presión de grupos armados del Sahel. El corredor de subida por la Alta Guinea se mantiene deliberadamente al sur y al oeste de esa franja.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.0,-13.8">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>NO ES UN LUGAR: esto es una regla de exclusión, no un punto geocodificable, y su coordenada (12,0 / -13,8) es solo un ancla para que la regla se vea en el mapa del noroeste — no hay ni debe buscarse aquí ningún puesto. Guinea-Bisáu queda excluida por protocolo del proyecto: ninguna variante debe rozar su territorio, ni siquiera como atajo. Malí queda excluido por conflicto: eso descarta el eje Siguiri-Kourémalé y toda la franja fronteriza del noreste (prefecturas de Siguiri y Mandiana), donde además hay presión de grupos armados del Sahel. El corredor de subida por la Alta Guinea se mantiene deliberadamente al sur y al oeste de esa franja.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.0,-13.8">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.8,12.0,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Conakry</name>
-    <description><![CDATA[<b>Consular</b><br/>Place Almamy Samory Touré, Bâtiment R2000, 6º piso, Moussoudougou, Coléah. Cancillería +224 664 20 22 01 · Sección consular +224 613 33 90 90 · Emergencia consular grave +224 664 33 54 93. Coordenada urbana aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.53,-13.68">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Place Almamy Samory Touré, Bâtiment R2000, 6º piso, Moussoudougou, Coléah — B.P. 706, Conakry (dirección verificada en exteriores.gob.es). Cancillería +224 664 18 64 04 y +224 664 20 22 01 · Sección consular +224 613 33 90 90 · Emergencia consular grave +224 664 33 54 93 · emb.conakry@maec.es · sección consular emb.conakry.sc@maec.es · registro civil emb.conakry.rgc@maec.es. La embajada está acreditada también en Sierra Leona. EDIFICIO NO VERIFICADO: OSM no tiene el nodo de la embajada y la Place Almamy Samory Touré no aparece cartografiada; esta coordenada es el nodo OSM del barrio de Coléah, es decir precisión de barrio (±1 km). Fijar el punto exacto al llegar.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.52937,-13.68384">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.68,9.53,0</coordinates></Point>
+    <Point><coordinates>-13.68384,9.52937,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de Costa de Marfil en Conakry</name>
-    <description><![CDATA[<b>Consular</b><br/>Punto crítico del itinerario: es donde se tramita el visado marfileño para la salida de la bajada. Confirmar dirección, horarios y requisitos por teléfono nada más llegar a Conakry, con margen de varios días. Coordenada urbana aproximada — POR CONFIRMAR.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.535,-13.675">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Punto crítico del itinerario: es donde se tramita el visado marfileño para la salida de la bajada. Ambassade de Côte d'Ivoire, Boulevard du Commerce, Kaloum — 190 m al sur de la catedral de Santa María y 340 m al norte del Palais Mohammed V (OSM way 549630555). Tel. +224 656 34 34 34 · guinee.diplomatie.gouv.ci · horario cartografiado en OSM: lunes a jueves 9:00-15:00, viernes 9:00-14:00. Confirmar horarios y requisitos por teléfono nada más llegar a Conakry, con margen de varios días.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.50847,-13.71541">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.675,9.535,0</coordinates></Point>
+    <Point><coordinates>-13.71541,9.50847,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Hôpital National Donka — Conakry</name>
@@ -485,10 +485,10 @@
   </Placemark>
   <Placemark>
     <name>Laboratoire Régional Vétérinaire de Labé</name>
-    <description><![CDATA[<b>Servicio</b><br/>Uno de los pocos servicios veterinarios oficiales del interior de Guinea, dependiente de la Direction Nationale des Services Vétérinaires (DNSV). Es el recurso más cercano si hay que resolver algo con el perro —un certificado, una vacuna, un problema sanitario— fuera de Conakry, y está justo en el nudo de los dos corredores. Coordenada urbana aproximada: localizar en Labé al llegar.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3167,-12.2833">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicio</b><br/>Uno de los pocos servicios veterinarios oficiales del interior de Guinea, dependiente de la Direction Nationale des Services Vétérinaires (DNSV). Está dentro del CFEL (centro de formación ganadera de Labé), unos 5 km al norte del centro de la ciudad y 3 km al noreste del aeródromo de Tata; se inauguró el 18 de diciembre de 2019, rehabilitado con financiación de USAID y coordinación de la FAO, dentro de un programa de tres laboratorios regionales (Labé, Kankan y Nzérékoré). OJO CON LAS EXPECTATIVAS: es un laboratorio de DIAGNÓSTICO —microbiología y serología, parasitología/coprología y virología, con prueba rápida e inmunofluorescencia de rabia—, no una clínica veterinaria, y funciona con muy poco personal. Sirve para analizar un problema sanitario del perro; para un certificado o una vacuna hay que ver in situ qué puede firmar el servicio veterinario y con cuánto margen. Es el recurso más cercano fuera de Conakry y está justo en el nudo de los dos corredores.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3596,-12.27487">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-12.2833,11.3167,0</coordinates></Point>
+    <Point><coordinates>-12.27487,11.3596,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Hôpital Régional de Nzérékoré</name>
@@ -499,10 +499,10 @@
   </Placemark>
   <Placemark>
     <name>Hôpital Régional de Kankan</name>
-    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del corredor de subida por la Alta Guinea.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.3853,-9.3057">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del corredor de subida por la Alta Guinea. Coordenada del recinto hospitalario (OSM way 788920328), unos 2 km al sur del punto urbano de Kankan, junto al gobernorado regional y la central eléctrica.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.3686,-9.30563">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-9.3057,10.3853,0</coordinates></Point>
+    <Point><coordinates>-9.30563,10.3686,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Combustible · Conakry</name>
@@ -562,24 +562,24 @@
   </Placemark>
   <Placemark>
     <name>Frontera · Salida alternativa norte — Kamakwie / Madina Oula (hacia Kindia, Guinea)</name>
-    <description><![CDATA[<b>Frontera</b><br/>POR CONFIRMAR. Paso menor del noroeste, en la zona de Outamba-Kilimi, que permitiría salir directamente desde el parque hacia el eje guineano de Kindia sin repetir Gbalamuya. No se ha localizado documentación operativa: puede no tener aduana habilitada para vehículos extranjeros ni capacidad para sellar CPD, que es el riesgo real. NO contar con este paso hasta verificarlo con overlanders recientes o con la aduana. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.95,-12.25">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>POR CONFIRMAR. Paso menor del noroeste, en la zona de Outamba-Kilimi, que permitiría salir directamente desde el parque hacia el eje guineano de Kindia sin repetir Gbalamuya. No se ha localizado documentación operativa: puede no tener aduana habilitada para vehículos extranjeros ni capacidad para sellar CPD, que es el riesgo real. NO contar con este paso hasta verificarlo con overlanders recientes o con la aduana. Coordenada corregida (18,4 km): el punto está ahora sobre el puesto fronterizo sierraleonés que sí está cartografiado en OpenStreetMap (nodo 5459864108), 1 km al norte del pueblo de Sainya; el puesto guineano de Madina Oula queda 8 km al noroeste (nodo 5459864107). Que el puesto exista como control no significa que tenga aduana: sigue sin documentación operativa.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.84509,-12.3796">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-12.25,9.95,0</coordinates></Point>
+    <Point><coordinates>-12.3796,9.84509,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Salida alternativa noreste — Kabala / Faranah (hacia la Alta Guinea)</name>
-    <description><![CDATA[<b>Frontera</b><br/>POR CONFIRMAR. Paso de montaña del noreste que conectaría Kabala y las Loma directamente con Faranah, en Guinea — es decir, con el nacimiento del Níger y con el corredor guineano de subida por Dabola. Sería, sobre el papel, el encaje perfecto del bucle: entrar por Gbalamuya y salir por aquí, sin repetir un solo kilómetro. Pero es un paso secundario, mal documentado, en pista, y con aduana incierta para un vehículo extranjero con CPD. VERIFICAR ANTES DE CONTAR CON ÉL. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.7,-11.2">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>POR CONFIRMAR. Paso de montaña del noreste que conectaría Kabala y las Loma directamente con Faranah, en Guinea — es decir, con el nacimiento del Níger y con el corredor guineano de subida por Dabola. Sería, sobre el papel, el encaje perfecto del bucle: entrar por Gbalamuya y salir por aquí, sin repetir un solo kilómetro. Pero es un paso secundario, mal documentado, en pista, y con aduana incierta para un vehículo extranjero con CPD. VERIFICAR ANTES DE CONTAR CON ÉL. COORDENADA NO VERIFICADA: el puesto no aparece con topónimo propio en OpenStreetMap y el Logistics Cluster de Naciones Unidas no ha sido accesible en esta revisión, así que el punto se ha dejado donde estaba. Lo único confirmado es el eje: el último pueblo sierraleonés es Gberia Fotombu (9,87852 / -11,16548) y el primero guineano, Hérémakono (9,8897 / -11,0668), a 11 km; el paso está entre los dos, entre 20 y 26 km al noreste de este punto.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.7,-11.2">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-11.2,9.7,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Jendema / Bo-Waterside (hacia Liberia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso del sureste hacia Liberia, operativo y con tráfico comercial. NO se usa en este plan: Liberia está excluida de la ruta fija por el problema del visado (ver la ficha de Liberia). Se documenta porque es uno de los tres puntos donde Sierra Leona expide visado a la llegada y porque, si el problema liberiano se resolviera, sería la puerta de enlace natural desde Sulima y Zimmi.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.85,-11.25">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso del sureste hacia Liberia, operativo y con tráfico comercial. NO se usa en este plan: Liberia está excluida de la ruta fija por el problema del visado (ver la ficha de Liberia). Se documenta porque es uno de los tres puntos donde Sierra Leona expide visado a la llegada y porque, si el problema liberiano se resolviera, sería la puerta de enlace natural desde Sulima y Zimmi. Coordenada corregida (24,2 km) sobre el pueblo de Jendema en OpenStreetMap: queda a 1,6 km del punto de Bo-Waterside de la ficha de Liberia, que es lo que debe ser — son los dos lados del mismo puente sobre el río Mano.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.0223,-11.38414">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-11.25,6.85,0</coordinates></Point>
+    <Point><coordinates>-11.38414,7.0223,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cobertura consular española — Embajada en Conakry (Guinea)</name>
@@ -646,10 +646,10 @@
   </Placemark>
   <Placemark>
     <name>Frontera · BLOQUEADA para nosotros — Bo-Waterside / Jendema (desde Sierra Leona)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto principal del oeste, con tráfico comercial denso de camiones y autobuses. Operativo y funcional — pero no para un pasaporte español sin visado estampado previo: el visado electrónico liberiano solo se expide en el aeropuerto internacional de Monrovia, no en frontera terrestre. Con visado consular en mano, es el paso más lógico desde Sierra Leona.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.85,-11.25">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto principal del oeste, con tráfico comercial denso de camiones y autobuses. Operativo y funcional — pero no para un pasaporte español sin visado estampado previo: el visado electrónico liberiano solo se expide en el aeropuerto internacional de Monrovia, no en frontera terrestre. Con visado consular en mano, es el paso más lógico desde Sierra Leona.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.01212,-11.37447">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-11.25,6.85,0</coordinates></Point>
+    <Point><coordinates>-11.37447,7.01212,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · BLOQUEADA para nosotros — Ganta / Nzérékoré (desde Guinea)</name>
@@ -660,31 +660,31 @@
   </Placemark>
   <Placemark>
     <name>Frontera · Salida hipotética — Loguatuo / Ganta (hacia Danané, Costa de Marfil)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal hacia el oeste marfileño. Sería la salida del corredor liberiano y el punto de reenganche con el trazado ya previsto de Costa de Marfil. POR CONFIRMAR horarios y sellado de CPD. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.2833,-8.1667">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal hacia el oeste marfileño. Sería la salida del corredor liberiano y el punto de reenganche con el trazado ya previsto de Costa de Marfil. POR CONFIRMAR horarios y sellado de CPD. Coordenada corregida sobre el pueblo de Loguatuo (OpenStreetMap); antes caía 22,6 km al este, ya en territorio marfileño.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.23933,-8.36691">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.1667,7.2833,0</coordinates></Point>
+    <Point><coordinates>-8.36691,7.23933,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de Liberia en Conakry (Guinea) · LA VÍA DE SOLUCIÓN</name>
-    <description><![CDATA[<b>Consular</b><br/>PIEZA CLAVE DE ESTA FICHA. Liberia mantiene embajada en Conakry, en Freetown, en Abiyán, en Accra y en Dakar. Cualquiera de ellas puede, en principio, estampar un visado en el pasaporte antes de llegar a la frontera terrestre, que es exactamente lo que el visado electrónico no resuelve. Conakry es la más útil para nosotros porque el corredor del proyecto pasa por allí, y porque coincide con la parada donde ya hay que tramitar otros visados del bloque. POR CONFIRMAR por teléfono o correo: si expide a extranjeros NO residentes en Guinea, requisitos, plazo de tramitación y coste. Coordenada urbana aproximada — localizar la dirección exacta al confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.535,-13.675">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>PIEZA CLAVE DE ESTA FICHA. Liberia mantiene embajada en Conakry, en Freetown, en Abiyán, en Accra y en Dakar. Cualquiera de ellas puede, en principio, estampar un visado en el pasaporte antes de llegar a la frontera terrestre, que es exactamente lo que el visado electrónico no resuelve. Conakry es la más útil para nosotros porque el corredor del proyecto pasa por allí, y porque coincide con la parada donde ya hay que tramitar otros visados del bloque. POR CONFIRMAR por teléfono o correo: si expide a extranjeros NO residentes en Guinea, requisitos, plazo de tramitación y coste. Coordenada corregida sobre el nodo office=diplomatic «Embassy of Liberia» de OpenStreetMap, en la comuna de Ratoma (Conakry); confirmar el número de calle al llamar.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.59904,-13.65485">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.675,9.535,0</coordinates></Point>
+    <Point><coordinates>-13.65485,9.59904,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de Liberia en París (cubre España)</name>
-    <description><![CDATA[<b>Consular</b><br/>Liberia NO tiene embajada en España: la demarcación corresponde a su embajada en París, que cubre además Bulgaria, Chipre, Grecia, Mónaco, Portugal, Suiza y la UNESCO. Es la vía para sacar el visado ANTES de salir de Barcelona. El problema es de calendario, no de trámite: un visado turístico suele tener una ventana de validez de tres meses desde su emisión, y Liberia caería en el tercer o cuarto mes de la bajada — es decir, probablemente caducado antes de llegar. POR CONFIRMAR si existe una modalidad de validez larga o de entrada diferida. Coordenada de referencia de París.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=48.8566,2.3522">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Liberia NO tiene embajada en España: la demarcación corresponde a su embajada en París, que cubre además Bulgaria, Chipre, Grecia, Mónaco, Portugal, Suiza y la UNESCO. Es la vía para sacar el visado ANTES de salir de Barcelona. El problema es de calendario, no de trámite: un visado turístico suele tener una ventana de validez de tres meses desde su emisión, y Liberia caería en el tercer o cuarto mes de la bajada — es decir, probablemente caducado antes de llegar. POR CONFIRMAR si existe una modalidad de validez larga o de entrada diferida. Dirección: 12 Place du Général Catroux, 75017 París · +33 1 47 63 58 55 · contact@embassyofliberia-paris.org. Coordenada corregida sobre el edificio.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=48.88279,2.31135">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>2.3522,48.8566,0</coordinates></Point>
+    <Point><coordinates>2.31135,48.88279,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Abidjan (cobertura de Liberia)</name>
-    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. +225 22 44 48 50 · emb.abidjan@maec.es. España no tiene embajada en Monrovia desde 1990: la referencia consular para cualquier incidencia grave en Liberia está en Costa de Marfil.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.36,-3.97">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. +225 22 44 48 50 · emb.abidjan@maec.es. España no tiene embajada en Monrovia desde 1990: la referencia consular para cualquier incidencia grave en Liberia está en Costa de Marfil.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.34617,-4.00593">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-3.97,5.36,0</coordinates></Point>
+    <Point><coordinates>-4.00593,5.34617,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>John F. Kennedy Medical Center — Monrovia</name>
@@ -730,45 +730,45 @@
   </Placemark>
   <Placemark>
     <name>Agua · sureste y Sapo</name>
-    <description><![CDATA[<b>Agua potable</b><br/>En el sureste y en la aproximación a Sapo no hay ningún punto fiable: agua de río tratada con filtro mecánico más tratamiento químico o ebullición. Salir de Greenville con toda la reserva llena. Paradoja: es el país más lluvioso de la región y a la vez uno de los más difíciles para conseguir agua potable fuera de la capital.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.4,-8.8">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>En el sureste y en la aproximación a Sapo no hay ningún punto fiable: agua de río tratada con filtro mecánico más tratamiento químico o ebullición. Salir de Greenville con toda la reserva llena. El punto está anclado en la sede del Parque Nacional de Sapo, que es la referencia navegable de la zona. Paradoja: es el país más lluvioso de la región y a la vez uno de los más difíciles para conseguir agua potable fuera de la capital.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.35392,-8.81508">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.8,5.4,0</coordinates></Point>
+    <Point><coordinates>-8.81508,5.35392,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Gbapleu / N'Zoo (desde Guinea)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso principal del oeste, en el eje Nzérékoré–Lola–N'Zoo (Guinea) → Gbapleu–Danané (Costa de Marfil). Los 48 km entre la frontera y Danané están asfaltados desde 2017; el lado guineano (Lola–N'Zoo, 32 km) sigue en obras y en muy mal estado, y el tramo Sérédou–Nzérékoré está descrito por la prensa guineana como «nidos de elefante» (~4 h para 97 km). Zona de triple frontera Costa de Marfil–Guinea–Liberia: no desviarse hacia el sur. ATENCIÓN: el visado marfileño NO se puede sacar aquí — hay que llevarlo ya estampado desde la embajada de Conakry. Coordenada aproximada del puesto.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.1,-8.4">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso principal del oeste, en el eje Nzérékoré–Lola–N'Zoo (Guinea) → Gbapleu–Danané (Costa de Marfil). Los 48 km entre la frontera y Danané están asfaltados desde 2017; el lado guineano (Lola–N'Zoo, 32 km) sigue en obras y en muy mal estado, y el tramo Sérédou–Nzérékoré está descrito por la prensa guineana como «nidos de elefante» (~4 h para 97 km). Zona de triple frontera Costa de Marfil–Guinea–Liberia: no desviarse hacia el sur. ATENCIÓN: el visado marfileño NO se puede sacar aquí — hay que llevarlo ya estampado desde la embajada de Conakry. GEOMETRÍA DEL PASO (nodos OSM verificados, coherente con la ficha de Guinea): esta coordenada es ahora el PUEBLO MARFILEÑO DE GBAPLEU (7,57104 / -8,32829), en el lado marfileño de la raya y a unos 40 km en línea recta de Danané (48 km de carretera). Del lado guineano, 4,7 km al noreste, está el Poste Frontière (7,60982 / -8,31122); 1,3 km más al norte la Police aux frontières (7,62060 / -8,30528); y 6 km más allá las Douanes, dentro del pueblo de N'Zoo (7,67720 / -8,31470). Son tres paradas guineanas repartidas en unos 8 km. OSM no cartografía ningún puesto del lado marfileño: el pin marca el pueblo, no la barrera. CUIDADO CON LOS HOMÓNIMOS: hay otros dos «Gbapleu» en el país —un pueblo junto a Duékoué (6,47932 / -7,15838) y un barrio de Man (7,40723 / -7,52887)—; el punto anterior de la ficha caía a 53 km de éste, en despoblado.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.57104,-8.32829">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.4,7.1,0</coordinates></Point>
+    <Point><coordinates>-8.32829,7.57104,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Salida bajada — Noé / Elubo (hacia Ghana)</name>
-    <description><![CDATA[<b>Frontera</b><br/>El paso más transitado de toda África occidental francófona-anglófona: carretera asfaltada en buen estado a ambos lados y puente sobre el río Tanoé. Horario habitual 06:00–18:00. Cambio de franco CFA a cedi, cambio de conducción no (ambos por la derecha) pero sí de idioma administrativo. Presentar Carte Brune CEDEAO, CPD y certificado de fiebre amarilla.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.1167,-2.7667">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>El paso más transitado de toda África occidental francófona-anglófona: carretera asfaltada en buen estado a ambos lados y puente sobre el río Tanoé. Horario habitual 06:00–18:00. Cambio de franco CFA a cedi, cambio de conducción no (ambos por la derecha) pero sí de idioma administrativo. Presentar Carte Brune CEDEAO, CPD y certificado de fiebre amarilla. Coordenada corregida sobre el nodo OSM «Poste frontière de Noé» (la barrera marfileña): el «Poste frontière de Elubo» ghanés queda 740 m al este, al otro lado del puente, y la sous-préfecture de Noé 680 m al noroeste. El punto anterior caía 19 km al sur, sobre el cordón litoral.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.28994,-2.78675">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-2.7667,5.1167,0</coordinates></Point>
+    <Point><coordinates>-2.78675,5.28994,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada subida — Soko / Sampa (desde Ghana)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso interior del este: Sampa (región de Bono, Ghana) del lado ghanés, Soko del lado marfileño, camino de Bondoukou. La evaluación logística del Logistics Cluster lo documenta como puesto formal abierto TODOS LOS DÍAS de 06:00 a 18:00, sin cierres anuales, con tráfico modesto (~10 camiones y ~20 vehículos privados al día) y aduana de tramitación MANUAL, no informatizada — es decir, lento pero sin colas. Sampa tiene siete gasolineras y mercado los lunes; Tema Port queda a 520 km. Se elige expresamente para no repetir Noé en la subida. CONFIRMAR que la aduana marfileña de Soko puede tramitar el passavant/CPD de un vehículo extranjero; alternativa de respaldo: Takikro/Tanoso o volver a Noé.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.9717,-2.7189">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso interior del este: Sampa (región de Bono, Ghana) del lado ghanés, Soko del lado marfileño, camino de Bondoukou. La evaluación logística del Logistics Cluster lo documenta como puesto formal abierto TODOS LOS DÍAS de 06:00 a 18:00, sin cierres anuales, con tráfico modesto (~10 camiones y ~20 vehículos privados al día) y aduana de tramitación MANUAL, no informatizada — es decir, lento pero sin colas. Sampa tiene siete gasolineras y mercado los lunes; Tema Port queda a 520 km. Se elige expresamente para no repetir Noé en la subida. CONFIRMAR que la aduana marfileña de Soko puede tramitar el passavant/CPD de un vehículo extranjero; alternativa de respaldo: Takikro/Tanoso o volver a Noé. Coordenada corregida sobre el nodo OSM «Poste Frontière de Soko»: el pueblo de Soko queda 500 m al noroeste, su aeródromo 4,5 km al noroeste y Sampa 7 km al sureste.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.98753,-2.73859">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-2.7189,7.9717,0</coordinates></Point>
+    <Point><coordinates>-2.73859,7.98753,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Salida subida — Sipilou (hacia Guinea)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Segundo paso marfileño hacia Guinea, al norte del de Gbapleu, en el departamento de Biankouma; figura en la evaluación logística del Logistics Cluster como puesto fronterizo formal. Da a la región guineana de Beyla/Sinko. Pista y asfalto degradado, menos tráfico y menos servicios que Gbapleu — pero es lo que permite que la subida no repita el paso de la bajada. CONFIRMAR horario, existencia de aduana con capacidad de tramitar CPD y estado de la pista 72 h antes. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.9833,-8.0333">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Segundo paso marfileño hacia Guinea, al norte del de Gbapleu, en el departamento de Biankouma; figura en la evaluación logística del Logistics Cluster como puesto fronterizo formal. Da a la región guineana de Beyla/Sinko. Pista y asfalto degradado, menos tráfico y menos servicios que Gbapleu — pero es lo que permite que la subida no repita el paso de la bajada. CONFIRMAR horario, existencia de aduana con capacidad de tramitar CPD y estado de la pista 72 h antes. COORDENADA CORREGIDA: los trámites marfileños NO están en la raya sino en el extremo sur del propio pueblo de SIPILOU —OSM cartografía ahí el «Poste Frontière» (comisaría, 7,85747 / -8,10995), con la Douane y el Poste de Contrôle Sanitaire de Sipilou 260-270 m al norte y la mairie, la préfecture y la gare routière a 1-1,25 km al noreste—. Es una buena noticia: hay aduana y sanidad cartografiadas. El punto anterior caía 16 km al norte, en despoblado.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.85747,-8.10995">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.0333,7.9833,0</coordinates></Point>
+    <Point><coordinates>-8.10995,7.85747,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Abiyán</name>
-    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. Tel. +225 22 44 48 50 · emb.abidjan@maec.es. Demarcación que cubre también Guinea y otros países del entorno: es el punto consular de referencia de todo este tramo del viaje.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.36,-3.97">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Impasse Ablaha Pokou, Cocody Danga Nord, 08 B.P. 876 — Abidjan 08. Tel. +225 27 22 44 48 50 y +225 27 22 44 45 77 · fax 27 22 44 71 22 · emb.abidjan@maec.es. Urgencia consular fuera de horario: +225 07 07 42 57 89. Dirección y teléfonos VERIFICADOS en exteriores.gob.es (la numeración marfileña pasó a 10 cifras: los números antiguos de 8 cifras que circulan por la red ya no marcan). Demarcación: Costa de Marfil y LIBERIA —España no tiene embajada en Monrovia—; la ficha decía antes que cubría Guinea y la web del Ministerio no lo dice. Es el punto consular de referencia de todo este tramo del viaje. Coordenada corregida sobre el nodo office=diplomatic «Embassy of Spain» de OpenStreetMap, la misma que ya usa la ficha de Liberia.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.34617,-4.00593">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-3.97,5.36,0</coordinates></Point>
+    <Point><coordinates>-4.00593,5.34617,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>CHU de Cocody — Abiyán</name>
@@ -779,10 +779,10 @@
   </Placemark>
   <Placemark>
     <name>Hospital regional de Man</name>
-    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del bloque de montaña del oeste (Nimba, Dent de Man, Tonkoui, puentes de lianas). Capacidad limitada: para algo grave, evacuación a Abiyán.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.4125,-7.5539">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Hospital</b><br/>Centre Hospitalier Régional de Man, en el barrio de Thérèse, entre el estadio de Man (270 m) y el mercado (350 m); OSM lo da abierto 24 h. Referencia hospitalaria del bloque de montaña del oeste (Nimba, Dent de Man, Tonkoui, puentes de lianas). Capacidad limitada: para algo grave, evacuación a Abiyán. Coordenada corregida: antes marcaba el centro de Man, ahora el recinto del hospital (vía OSM 786544752), 900 m al suroeste.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.40638,-7.54781">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-7.5539,7.4125,0</coordinates></Point>
+    <Point><coordinates>-7.54781,7.40638,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>CHU de Bouaké</name>
