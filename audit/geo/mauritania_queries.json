@@ -1,0 +1,438 @@
+{
+ "slug": "mauritania",
+ "bbox": [
+  -17.5,
+  14.399999999999999,
+  -4.5,
+  27.6
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Ben Amera",
+   "cat": "Overland",
+   "prio": "Alta",
+   "lat": 21.23003,
+   "lon": -13.66437,
+   "desc": "Monolito y vivac; tramo remoto junto al eje ferroviario. Acceso solo con track reciente, autonomía y criterio local.",
+   "q": [
+    "Ben Amera"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Aïcha",
+   "cat": "Arte y desierto",
+   "prio": "Alta",
+   "lat": 21.29208,
+   "lon": -13.69197,
+   "desc": "Monolito y conjunto escultórico próximo a Ben Amera; visita combinada por pista, a unos 7 km.",
+   "q": [
+    "Aïcha"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Chinguetti",
+   "cat": "Patrimonio",
+   "prio": "Alta",
+   "lat": 20.46343,
+   "lon": -12.36648,
+   "desc": "Ksar histórico, mezquita y bibliotecas; base cultural del Adrar y punto de apoyo para el bucle oriental.",
+   "q": [
+    "Chinguetti"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Ouadane",
+   "cat": "Patrimonio",
+   "prio": "Alta",
+   "lat": 20.93373,
+   "lon": -11.61737,
+   "desc": "Antiguo ksar y puerta de acceso al entorno de Richat; reservar margen para pista, guía y meteorología.",
+   "q": [
+    "Ouadane"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Oasis de Terjit",
+   "cat": "Excursión",
+   "prio": "Alta",
+   "lat": 20.25242,
+   "lon": -13.0877,
+   "desc": "Palmeral y surgencia de agua; parada de descanso en el Adrar combinable con Tifoujar y Valle Blanco.",
+   "q": [
+    "Oasis de Terjit",
+    "Terjit"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Atar",
+   "cat": "Servicios",
+   "prio": "Logística",
+   "lat": 20.51819,
+   "lon": -13.05439,
+   "desc": "Base principal para combustible, agua, talleres, provisiones, comunicaciones y contratación de guía.",
+   "q": [
+    "Atar"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Guelb er Richat",
+   "cat": "4x4 y geología",
+   "prio": "Alta",
+   "lat": 21.11085,
+   "lon": -11.39283,
+   "desc": "Ojo del Sáhara; bloque 4x4 remoto desde Ouadane que exige navegación, combustible y margen de retorno.",
+   "q": [
+    "Guelb er Richat",
+    "Richat Structure"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Iwik y Banc d'Arguin",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 19.87841,
+   "lon": -16.30442,
+   "desc": "Parque costero y hábitat de aves migratorias; acceso sujeto a autorización, guía, pistas permitidas y reglas sobre el perro.",
+   "q": [
+    "Iwik y Banc d'Arguin",
+    "Iwik",
+    "Banc d'Arguin"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Puerto pesquero de Nuakchot",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 18.11029,
+   "lon": -16.02292,
+   "desc": "Actividad portuaria y parada urbana; extremar discreción fotográfica y confirmar restricciones locales antes de usar dron.",
+   "q": [
+    "Puerto pesquero de Nuakchot",
+    "Port pesquero de Nuakchot",
+    "Port de pêche Nouakchott",
+    "Port pesquero de Nouakchott"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Parque de Diawling",
+   "cat": "Naturaleza y frontera",
+   "prio": "Alta",
+   "lat": 16.39078,
+   "lon": -16.35094,
+   "desc": "Humedales del delta y enlace potencial con Diama; confirmar acceso, guía, estado de pista y admisión del perro.",
+   "q": [
+    "Parque de Diawling",
+    "Parc national du Diawling"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Paso de Tifoujar",
+   "cat": "4x4",
+   "prio": "Alta",
+   "lat": 20.09967,
+   "lon": -13.19672,
+   "desc": "Descenso escénico y arenoso hacia Oued El Abiod; validar firme, trazado y sentido recomendado con información reciente.",
+   "q": [
+    "Paso de Tifoujar",
+    "Tifoujar"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Valle Blanco",
+   "cat": "4x4",
+   "prio": "Alta",
+   "lat": 20.17762,
+   "lon": -13.21507,
+   "desc": "Oued El Abiod; corredor natural entre Tifoujar y Terjit, sujeto a arena, agua y estado de la pista.",
+   "q": [
+    "Valle Blanco",
+    "Vallée Blanche Amogjar"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada norte — puesto mauritano de Guerguerat",
+   "cat": "Frontera",
+   "lat": 21.333667,
+   "lon": -16.947167,
+   "desc": "Corredor oficial hacia Nuadibú. No abandonar la pista marcada en la zona intermedia.",
+   "q": [
+    "Guerguerat"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida Diama — presa y puesto fronterizo",
+   "cat": "Frontera",
+   "lat": 16.215814,
+   "lon": -16.414842,
+   "desc": "Opción preferente por Diawling; verificar horarios, tasas y trámite de ambos vehículos.",
+   "q": [
+    "Diama"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Salida Rosso — embarcadero del ferry",
+   "cat": "Frontera",
+   "lat": 16.50873,
+   "lon": -15.81176,
+   "desc": "Alternativa a Diama; prever colas, ferry y controles en ambas orillas.",
+   "q": [
+    "Rosso"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Embajada de España en Nuakchot",
+   "cat": "Consular",
+   "lat": 18.095114,
+   "lon": -15.974247,
+   "desc": "+222 4525 2080 / 4525 2579 · emergencia +222 4683 3662 · emb.nouakchott@maec.es",
+   "q": [
+    "Embajada de España en Nuakchot",
+    "Embassy of Spain Nuakchot",
+    "Spain Embassy Nuakchot",
+    "Embajada de España en Nouakchott",
+    "Embassy of Spain Nouakchott"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Consulado de España en Nuadibú",
+   "cat": "Consular",
+   "lat": 20.93,
+   "lon": -17.033,
+   "desc": "+222 4574 5371 · emergencia +222 4670 7502 · con.nouadhibou@maec.es. Coordenada urbana provisional.",
+   "q": [
+    "Consulado de España en Nuadibú",
+    "Consulate of Spain Nuadibú",
+    "Spain Consulate Nuadibú",
+    "Consulado de España en Nouadhibou",
+    "Consulate of Spain Nouadhibou"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Consulado honorario de España en Rosso",
+   "cat": "Consular",
+   "lat": 16.5128,
+   "lon": -15.805,
+   "desc": "+222 4690 1067. Coordenada urbana provisional; confirmar por teléfono.",
+   "q": [
+    "Consulado honorario de España en Rosso"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Consulado honorario de España en Chinguetti",
+   "cat": "Consular",
+   "lat": 20.463434,
+   "lon": -12.366484,
+   "desc": "+222 3445 6929 · sasbureau@yahoo.fr. Coordenada urbana provisional.",
+   "q": [
+    "Consulado honorario de España en Chinguetti"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Centre Hospitalier National — Nuakchot",
+   "cat": "Hospital",
+   "lat": 18.088061,
+   "lon": -15.987981,
+   "desc": "Hospital público de referencia; capacidad limitada para casos complejos.",
+   "q": [
+    "Centre Hospitalier National"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Centre Hospitalier des Spécialités — Nuadibú",
+   "cat": "Hospital",
+   "lat": 20.928785,
+   "lon": -17.04444,
+   "desc": "Centro hospitalario de referencia en el norte de la ruta.",
+   "q": [
+    "Centre Hospitalier des Spécialités"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Centre Hospitalier d'Atar",
+   "cat": "Hospital",
+   "lat": 20.522141,
+   "lon": -13.052103,
+   "desc": "Recurso sanitario urbano para el bloque del Adrar; no sustituye seguro de evacuación.",
+   "q": [
+    "Centre Hospitalier d'Atar"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Hôpital de la Fraternité — Chinguetti",
+   "cat": "Hospital",
+   "lat": 20.463786,
+   "lon": -12.368122,
+   "desc": "Centro local relevante en el itinerario interior.",
+   "q": [
+    "Hôpital de la Fraternité",
+    "la Fraternité"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Clinique Chiva — Nuakchot",
+   "cat": "Hospital",
+   "lat": 18.100592,
+   "lon": -15.984603,
+   "desc": "Clínica privada citada por Exteriores; confirmar servicio antes de desplazarse.",
+   "q": [
+    "Clinique Chiva"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Clinique Kissi — Nuakchot",
+   "cat": "Hospital",
+   "lat": 18.098591,
+   "lon": -15.981838,
+   "desc": "Clínica privada citada por Exteriores; confirmar servicio antes de desplazarse.",
+   "q": [
+    "Clinique Kissi"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Clinique Ibn Sina — Nuakchot",
+   "cat": "Hospital",
+   "lat": 18.099631,
+   "lon": -15.994403,
+   "desc": "Clínica privada citada por Exteriores; confirmar servicio antes de desplazarse.",
+   "q": [
+    "Clinique Ibn Sina"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Combustible · Nuadibú",
+   "cat": "Combustible",
+   "lat": 20.93,
+   "lon": -17.033,
+   "desc": "Primera plaza con oferta amplia tras la frontera de Guerguerat; repostar aquí antes del eje ferroviario.",
+   "q": [
+    "Nuadibú",
+    "Nouadhibou"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Combustible · Atar",
+   "cat": "Combustible",
+   "lat": 20.51819,
+   "lon": -13.05439,
+   "desc": "Base del Adrar; última oferta formal fiable antes de los bloques de Tifoujar, Chinguetti, Ouadane y Richat — salir con el depósito lleno.",
+   "q": [
+    "Atar"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Combustible · Nuakchot",
+   "cat": "Combustible",
+   "lat": 18.11029,
+   "lon": -16.02292,
+   "desc": "Mejor oferta y calidad del país; repostar aquí antes del tramo final hacia Diawling/Diama o Rosso.",
+   "q": [
+    "Nuakchot",
+    "Nouakchott"
+   ]
+  },
+  {
+   "id": "log-17",
+   "type": "log",
+   "n": 17,
+   "name": "Agua potable · Nuadibú, Atar, Nuakchot (garrafas/supermercados)",
+   "cat": "Agua potable",
+   "lat": 20.51819,
+   "lon": -13.05439,
+   "desc": "Agua embotellada en las tres ciudades principales; en el eje ferroviario y el bucle del Adrar (Ben Amera, Tifoujar, Richat) no hay fuente fiable — cargar reserva completa en Atar.",
+   "q": [
+    "Nuadibú",
+    "Atar",
+    "Nuakchot",
+    "Nouadhibou",
+    "Nouakchott"
+   ]
+  }
+ ]
+}

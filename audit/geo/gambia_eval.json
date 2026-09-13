@@ -1,0 +1,1567 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Kartong · playa, Folonko y el río Allahein",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 13.0833,
+  "lon": -16.7583,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kartong",
+   "kind": "place=town",
+   "lat": 13.09131,
+   "lon": -16.75969,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kartong",
+    "kind": "place=town",
+    "lat": 13.09131,
+    "lon": -16.75969,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kartong folonko clinic",
+    "kind": "amenity=pharmacy",
+    "lat": 13.09313,
+    "lon": -16.76111,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kartong Community Clinic",
+    "kind": "amenity=hospital",
+    "lat": 13.09699,
+    "lon": -16.76214,
+    "d": 1.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Tanji · pueblo de pescadores, museo y reserva de aves",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 13.35,
+  "lon": -16.79,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tanji",
+   "kind": "place=village",
+   "lat": 13.35856,
+   "lon": -16.79751,
+   "d": 1.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tanji",
+    "kind": "waterway=river",
+    "lat": 13.36178,
+    "lon": -16.77681,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tanji",
+    "kind": "place=village",
+    "lat": 13.35856,
+    "lon": -16.79751,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tanji",
+    "kind": "waterway=oxbow",
+    "lat": 13.37882,
+    "lon": -16.79525,
+    "d": 3.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Reserva Natural de Abuko · la más antigua del país",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 13.3958,
+  "lon": -16.6456,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Abuko Nature Reserve",
+   "kind": "protected area",
+   "lat": 13.39583,
+   "lon": -16.64556,
+   "d": 0,
+   "match": true,
+   "id": "Q335818"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Abuko Nature Reserve",
+    "kind": "natural=wood",
+    "lat": 13.39066,
+    "lon": -16.65126,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Abuko Nature Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.39066,
+    "lon": -16.65126,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Abuko Nature Reserve Trail",
+    "kind": "highway=path",
+    "lat": 13.38955,
+    "lon": -16.65185,
+    "d": 1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Abuko Nature Reserve",
+    "kind": "protected area",
+    "lat": 13.39583,
+    "lon": -16.64556,
+    "d": 0,
+    "match": true,
+    "id": "Q335818"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Makasutu · bosque sagrado y el bolong de Mandina",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 13.28,
+  "lon": -16.58,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Entrance makasutu",
+   "kind": "tourism=attraction",
+   "lat": 13.28478,
+   "lon": -16.62163,
+   "d": 4.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Entrance makasutu",
+    "kind": "tourism=attraction",
+    "lat": 13.28478,
+    "lon": -16.62163,
+    "d": 4.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mamasutu",
+    "kind": "place=village",
+    "lat": 13.31916,
+    "lon": -14.38446,
+    "d": 237.6,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Makasutu Culture Forest",
+    "kind": "conservation area in the Gambia, West Africa",
+    "lat": 13.31111,
+    "lon": -16.60944,
+    "d": 4.7,
+    "match": true,
+    "id": "Q114054271"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Bijilo Forest Park (Monkey Park) y la franja de Kololi",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 13.4328,
+  "lon": -16.7264,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Bijilo Forest Park",
+   "kind": "protected area",
+   "lat": 13.43278,
+   "lon": -16.72639,
+   "d": 0,
+   "match": true,
+   "id": "Q859906"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bijilo Forest Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.43074,
+    "lon": -16.72894,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bijilo Forest Park",
+    "kind": "natural=wood",
+    "lat": 13.43074,
+    "lon": -16.72894,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bijilo Forest Park",
+    "kind": "protected area",
+    "lat": 13.43278,
+    "lon": -16.72639,
+    "d": 0,
+    "match": true,
+    "id": "Q859906"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Kotu y Bakau · playas, Kotu Bridge y observación de aves",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 13.4526,
+  "lon": -16.7069,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kotu",
+   "kind": "place=suburb",
+   "lat": 13.45527,
+   "lon": -16.70343,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kotu",
+    "kind": "place=suburb",
+    "lat": 13.45527,
+    "lon": -16.70343,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kotu beach",
+    "kind": "place=neighbourhood",
+    "lat": 13.46365,
+    "lon": -16.70466,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kotu Creek",
+    "kind": "waterway=river",
+    "lat": 13.45702,
+    "lon": -16.68784,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bakau",
+    "kind": "town in Gambia",
+    "lat": 13.47972,
+    "lon": -16.67361,
+    "d": 4.7,
+    "match": true,
+    "id": "Q804275"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Cocodrilario sagrado de Katchikally (Bakau)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 13.4806,
+  "lon": -16.6697,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Kachikally Crocodile Pool",
+   "kind": "tourism=zoo",
+   "lat": 13.47667,
+   "lon": -16.67243,
+   "d": 0.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kachikally Crocodile Pool",
+    "kind": "tourism=zoo",
+    "lat": 13.47667,
+    "lon": -16.67243,
+    "d": 0.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kachikally Crocodile Pool",
+    "kind": "tourism=museum",
+    "lat": 13.47696,
+    "lon": -16.67284,
+    "d": 0.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kachikally Crocodile Pool",
+    "kind": "tourism=attraction",
+    "lat": 13.47653,
+    "lon": -16.67256,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Serrekunda · el mayor mercado del país",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 13.4383,
+  "lon": -16.6781,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Serrekunda",
+   "kind": "place=city",
+   "lat": 13.43876,
+   "lon": -16.67481,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Serrekunda",
+    "kind": "place=city",
+    "lat": 13.43876,
+    "lon": -16.67481,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serrekunda Cemetry",
+    "kind": "landuse=cemetery",
+    "lat": 13.43489,
+    "lon": -16.68056,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serrekunda west soccer field",
+    "kind": "leisure=pitch",
+    "lat": 13.44715,
+    "lon": -16.67807,
+    "d": 1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Serekunda",
+    "kind": "ciudad más poblada de Gambia",
+    "lat": 13.445,
+    "lon": -16.675,
+    "d": 0.8,
+    "match": false,
+    "id": "Q217568"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Banjul · Arco 22, Albert Market y la isla de Santa María",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 13.4542,
+  "lon": -16.5753,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Banjul",
+   "kind": "place=town",
+   "lat": 13.45535,
+   "lon": -16.57565,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Banjul",
+    "kind": "boundary=administrative",
+    "lat": 13.44102,
+    "lon": -16.56275,
+    "d": 2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Banjul",
+    "kind": "place=town",
+    "lat": 13.45535,
+    "lon": -16.57565,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Banjul",
+    "kind": "amenity=ferry_terminal",
+    "lat": 13.44653,
+    "lon": -16.5721,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Banjul",
+    "kind": "capital de Gambia",
+    "lat": 13.45306,
+    "lon": -16.5775,
+    "d": 0.3,
+    "match": true,
+    "id": "Q3726"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Travesía del río Gambia · ferry Banjul–Barra",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 13.4667,
+  "lon": -16.5667,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "wd",
+   "name": "Banjul",
+   "kind": "capital de Gambia",
+   "lat": 13.45306,
+   "lon": -16.5775,
+   "d": 1.9,
+   "match": false,
+   "id": "Q3726"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tippa garage - Banjul terminal",
+    "kind": "amenity=bus_station",
+    "lat": 13.43488,
+    "lon": -16.69185,
+    "d": 14,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ferry Terminal Road",
+    "kind": "highway=trunk",
+    "lat": 13.48426,
+    "lon": -16.54627,
+    "d": 2.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Barra Ferry Terminal",
+    "kind": "amenity=ferry_terminal",
+    "lat": 13.48492,
+    "lon": -16.54576,
+    "d": 3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Banjul",
+    "kind": "capital de Gambia",
+    "lat": 13.45306,
+    "lon": -16.5775,
+    "d": 1.9,
+    "match": false,
+    "id": "Q3726"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Fuerte Bullen y Barra · la boca del río",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 13.4833,
+  "lon": -16.55,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Fort Bullen",
+   "kind": "building=yes",
+   "lat": 13.4875,
+   "lon": -16.54866,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Fort Bullen",
+    "kind": "building=yes",
+    "lat": 13.4875,
+    "lon": -16.54866,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Fort Bullen",
+    "kind": "fortress at the mouth of the Gambia River at Barra Point",
+    "lat": 13.48749,
+    "lon": -16.54843,
+    "d": 0.5,
+    "match": true,
+    "id": "Q1438468"
+   },
+   {
+    "src": "wd",
+    "name": "Q808776",
+    "kind": "cape in North Bank Division, Gambia",
+    "lat": 13.48742,
+    "lon": -16.54823,
+    "d": 0.5,
+    "match": false,
+    "id": "Q808776"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Juffureh y Albreda · el museo de la esclavitud",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 13.3386,
+  "lon": -16.3825,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Juffureh",
+   "kind": "place=village",
+   "lat": 13.33824,
+   "lon": -16.3815,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Juffureh",
+    "kind": "place=village",
+    "lat": 13.33824,
+    "lon": -16.3815,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Juffureh Rest House",
+    "kind": "tourism=hotel",
+    "lat": 13.33702,
+    "lon": -16.38203,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Albadarr-Juffureh",
+    "kind": "landuse=residential",
+    "lat": 13.33823,
+    "lon": -16.38575,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Jufureh",
+    "kind": "Es una población de Gambia a la División North Bank",
+    "lat": 13.33861,
+    "lon": -16.3825,
+    "d": 0,
+    "match": false,
+    "id": "Q1711203"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Isla de Kunta Kinteh (antigua James Island) · UNESCO",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 13.3175,
+  "lon": -16.3614,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kunta Kinteh Island",
+   "kind": "place=islet",
+   "lat": 13.31749,
+   "lon": -16.3614,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kunta Kinteh Island",
+    "kind": "place=islet",
+    "lat": 13.31749,
+    "lon": -16.3614,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Isla Kunta Kinteh",
+    "kind": "island in Gambia",
+    "lat": 13.31753,
+    "lon": -16.36144,
+    "d": 0,
+    "match": true,
+    "id": "Q213188"
+   },
+   {
+    "src": "wd",
+    "name": "Kunta Kinteh Island and Related Sites",
+    "kind": "World Heritage site in the Gambia",
+    "lat": 13.31747,
+    "lon": -16.36147,
+    "d": 0,
+    "match": true,
+    "id": "Q4387456"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Parque Nacional de Niumi y la isla de Jinack",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 13.5417,
+  "lon": -16.5236,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Niumi National Park",
+   "kind": "boundary=national_park",
+   "lat": 13.5452,
+   "lon": -16.52372,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Niumi National Park",
+    "kind": "boundary=national_park",
+    "lat": 13.5452,
+    "lon": -16.52372,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional de Niumi",
+    "kind": "espacio protegido en Gambia",
+    "lat": 13.56667,
+    "lon": -16.5,
+    "d": 3.8,
+    "match": true,
+    "id": "Q922736"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Parque Nacional de Kiang West y Tendaba",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 13.3833,
+  "lon": -15.9167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kiang West National Park",
+   "kind": "National park found in Gambia",
+   "lat": 13.38333,
+   "lon": -15.91667,
+   "d": 0,
+   "match": true,
+   "id": "Q1740765"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kiang West National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.38504,
+    "lon": -15.91376,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kiang West National Park",
+    "kind": "National park found in Gambia",
+    "lat": 13.38333,
+    "lon": -15.91667,
+    "d": 0,
+    "match": true,
+    "id": "Q1740765"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Reserva de humedales de Bao Bolong · el manglar grande",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 13.5667,
+  "lon": -15.8167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bao Bolong Wetland Reserve",
+   "kind": "leisure=nature_reserve",
+   "lat": 13.52312,
+   "lon": -15.77333,
+   "d": 6.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bao Bolong Wetland Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.52312,
+    "lon": -15.77333,
+    "d": 6.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bao Bolong Wetland Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.52014,
+    "lon": -15.8638,
+    "d": 7.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bao Bolong Wetland Reserve",
+    "kind": "protected area",
+    "lat": 13.51667,
+    "lon": -15.86667,
+    "d": 7.8,
+    "match": true,
+    "id": "Q807045"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Janjanbureh (Georgetown) y la isla de MacCarthy",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 13.5333,
+  "lon": -14.7667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Janjanbureh",
+   "kind": "town in eastern Gambia",
+   "lat": 13.53413,
+   "lon": -14.76615,
+   "d": 0.1,
+   "match": true,
+   "id": "Q1002786"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Janjanbureh",
+    "kind": "boundary=administrative",
+    "lat": 13.52192,
+    "lon": -14.87085,
+    "d": 11.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Janjanbureh",
+    "kind": "boundary=administrative",
+    "lat": 13.54103,
+    "lon": -14.77545,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Janjanbureh",
+    "kind": "place=town",
+    "lat": 13.53908,
+    "lon": -14.76123,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Janjanbureh",
+    "kind": "town in eastern Gambia",
+    "lat": 13.53413,
+    "lon": -14.76615,
+    "d": 0.1,
+    "match": true,
+    "id": "Q1002786"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Círculos de piedra de Wassu · megalitos senegambianos (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 13.6914,
+  "lon": -14.8731,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Wassu",
+   "kind": "place=town",
+   "lat": 13.6924,
+   "lon": -14.8788,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Wassu",
+    "kind": "place=town",
+    "lat": 13.6924,
+    "lon": -14.8788,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Wassu",
+    "kind": "highway=bus_stop",
+    "lat": 13.69099,
+    "lon": -14.87857,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Wassu Stone Circles",
+    "kind": "historic=archaeological_site",
+    "lat": 13.69177,
+    "lon": -14.87309,
+    "d": 0,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Wassu",
+    "kind": "Gambia",
+    "lat": 13.69222,
+    "lon": -14.87917,
+    "d": 0.7,
+    "match": true,
+    "id": "Q2552196"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Parque Nacional del río Gambia · las islas de los chimpancés",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 13.6417,
+  "lon": -14.9639,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Parque nacional del Río Gambia",
+   "kind": "national park",
+   "lat": 13.63889,
+   "lon": -14.95944,
+   "d": 0.6,
+   "match": true,
+   "id": "Q492185"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "River Gambia National Park",
+    "kind": "boundary=national_park",
+    "lat": 13.63788,
+    "lon": -14.98301,
+    "d": 2.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kiang West National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.38504,
+    "lon": -15.91376,
+    "d": 106.6,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional del Río Gambia",
+    "kind": "national park",
+    "lat": 13.63889,
+    "lon": -14.95944,
+    "d": 0.6,
+    "match": true,
+    "id": "Q492185"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Séléti (desde la Casamance, eje Ziguinchor-Brikama)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.1,
+  "lon": -16.52,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Seleti",
+   "kind": "place=village",
+   "lat": 13.14543,
+   "lon": -16.57751,
+   "d": 8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Seleti",
+    "kind": "place=village",
+    "lat": 13.14543,
+    "lon": -16.57751,
+    "d": 8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Entrada alternativa — Darsilami / Kartong-Allahein (litoral)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.0833,
+  "lon": -16.7583,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Darsilami",
+   "kind": "",
+   "lat": 13.4,
+   "lon": -14.26667,
+   "d": 272,
+   "match": true,
+   "id": "Q24844194"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Darsalami",
+    "kind": "place=village",
+    "lat": 13.17693,
+    "lon": -16.65673,
+    "d": 15.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Darselami",
+    "kind": "place=village",
+    "lat": 13.26785,
+    "lon": -15.99643,
+    "d": 85,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Daru Silam",
+    "kind": "place=village",
+    "lat": 13.5281,
+    "lon": -16.07865,
+    "d": 88.6,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Darsilami",
+    "kind": "",
+    "lat": 13.4,
+    "lon": -14.26667,
+    "d": 272,
+    "match": true,
+    "id": "Q24844194"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida oeste — Amdalai / Karang (hacia la Petite Côte y Dakar)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.4917,
+  "lon": -16.5333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Amdalai",
+   "kind": "place=village",
+   "lat": 13.58823,
+   "lon": -16.42225,
+   "d": 16.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Amdalai",
+    "kind": "place=village",
+    "lat": 13.58823,
+    "lon": -16.42225,
+    "d": 16.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Amdalai",
+    "kind": "place=village",
+    "lat": 13.2114,
+    "lon": -16.4923,
+    "d": 31.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Amdalai",
+    "kind": "human settlement",
+    "lat": 13.58848,
+    "lon": -16.42206,
+    "d": 16.1,
+    "match": true,
+    "id": "Q460354"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Salida este — Keur Ayib / Farafenni (Trans-Gambia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.5933,
+  "lon": -15.6058,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Farafenni",
+   "kind": "city",
+   "lat": 13.56667,
+   "lon": -15.6,
+   "d": 3,
+   "match": true,
+   "id": "Q1200999"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Keur Ayip Guèye",
+    "kind": "place=village",
+    "lat": 13.59579,
+    "lon": -15.60563,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Keur Ayip Touré",
+    "kind": "place=village",
+    "lat": 13.70816,
+    "lon": -15.58226,
+    "d": 13,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Grande Mosquee Keur Ayip Gueye",
+    "kind": "amenity=place_of_worship",
+    "lat": 13.59483,
+    "lon": -15.6027,
+    "d": 0.4,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Farafenni",
+    "kind": "city",
+    "lat": 13.56667,
+    "lon": -15.6,
+    "d": 3,
+    "match": true,
+    "id": "Q1200999"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Ferry de vehículos · Banjul – Barra",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.4542,
+  "lon": -16.5753,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Barra Ferry Terminal",
+   "kind": "amenity=ferry_terminal",
+   "lat": 13.48492,
+   "lon": -16.54576,
+   "d": 4.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tippa garage - Banjul terminal",
+    "kind": "amenity=bus_station",
+    "lat": 13.43488,
+    "lon": -16.69185,
+    "d": 12.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ferry Terminal Road",
+    "kind": "highway=trunk",
+    "lat": 13.48426,
+    "lon": -16.54627,
+    "d": 4.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Barra Ferry Terminal",
+    "kind": "amenity=ferry_terminal",
+    "lat": 13.48492,
+    "lon": -16.54576,
+    "d": 4.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Puente de Senegambia (Farafenni – Soma)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.49,
+  "lon": -15.55,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Senegambia Bridge",
+   "kind": "highway=trunk",
+   "lat": 13.51616,
+   "lon": -15.57244,
+   "d": 3.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Senegambia Bridge",
+    "kind": "highway=trunk",
+    "lat": 13.51616,
+    "lon": -15.57244,
+    "d": 3.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Senegambia bridge",
+    "kind": "Bridge in Gambia",
+    "lat": 13.51639,
+    "lon": -15.5725,
+    "d": 3.8,
+    "match": true,
+    "id": "Q60851956"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Embajada de España en Banjul (referencia: Dakar)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 13.4549,
+  "lon": -16.579,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Edward Francis Small Teaching Hospital (ex Royal Victoria) — Banjul",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 13.454,
+  "lon": -16.5776,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Edward Francis Small Teaching Hospital",
+   "kind": "amenity=hospital",
+   "lat": 13.45749,
+   "lon": -16.57725,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Edward Francis Small Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": 13.45749,
+    "lon": -16.57725,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Hospital universitario real Victoria",
+    "kind": "hospital in Gambia",
+    "lat": 13.4575,
+    "lon": -16.5775,
+    "d": 0.4,
+    "match": false,
+    "id": "Q2171145"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Clínicas privadas y veterinarios · Kombos (Serrekunda, Kololi, Fajara)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 13.4383,
+  "lon": -16.6781,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Serrekunda",
+   "kind": "place=city",
+   "lat": 13.43876,
+   "lon": -16.67481,
+   "d": 0.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Serrekunda",
+    "kind": "place=city",
+    "lat": 13.43876,
+    "lon": -16.67481,
+    "d": 0.4,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Serekunda",
+    "kind": "ciudad más poblada de Gambia",
+    "lat": 13.445,
+    "lon": -16.675,
+    "d": 0.8,
+    "match": false,
+    "id": "Q217568"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Kombos (Serrekunda, Kololi, Bakau, Brikama)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 13.4383,
+  "lon": -16.6781,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Serrekunda",
+   "kind": "place=city",
+   "lat": 13.43876,
+   "lon": -16.67481,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Serrekunda",
+    "kind": "place=city",
+    "lat": 13.43876,
+    "lon": -16.67481,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Serekunda",
+    "kind": "ciudad más poblada de Gambia",
+    "lat": 13.445,
+    "lon": -16.675,
+    "d": 0.8,
+    "match": false,
+    "id": "Q217568"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Soma / Farafenni (nudo de la Trans-Gambia)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 13.43,
+  "lon": -15.53,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Soma saw mill",
+   "kind": "craft=sawmill",
+   "lat": 13.43678,
+   "lon": -15.53375,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Soma",
+    "kind": "place=town",
+    "lat": 13.44464,
+    "lon": -15.53553,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Soma Mansakonko Road",
+    "kind": "highway=residential",
+    "lat": 13.44907,
+    "lon": -15.53498,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Soma saw mill",
+    "kind": "craft=sawmill",
+    "lat": 13.43678,
+    "lon": -15.53375,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Farafenni",
+    "kind": "city",
+    "lat": 13.56667,
+    "lon": -15.6,
+    "d": 17,
+    "match": true,
+    "id": "Q1200999"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Janjanbureh / Bansang",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 13.5333,
+  "lon": -14.7667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Janjanbureh",
+   "kind": "town in eastern Gambia",
+   "lat": 13.53413,
+   "lon": -14.76615,
+   "d": 0.1,
+   "match": true,
+   "id": "Q1002786"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Janjanbureh",
+    "kind": "boundary=administrative",
+    "lat": 13.54103,
+    "lon": -14.77545,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Janjanbureh",
+    "kind": "place=town",
+    "lat": 13.53908,
+    "lon": -14.76123,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Janjanbureh",
+    "kind": "town in eastern Gambia",
+    "lat": 13.53413,
+    "lon": -14.76615,
+    "d": 0.1,
+    "match": true,
+    "id": "Q1002786"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Agua potable y de uso general · Kombos y Tendaba",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 13.4526,
+  "lon": -16.7069,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Tendaba",
+   "kind": "human settlement",
+   "lat": 13.43833,
+   "lon": -15.80722,
+   "d": 97.3,
+   "match": true,
+   "id": "Q1658548"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kotu",
+    "kind": "place=suburb",
+    "lat": 13.45527,
+    "lon": -16.70343,
+    "d": 0.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kotu beach",
+    "kind": "place=neighbourhood",
+    "lat": 13.46365,
+    "lon": -16.70466,
+    "d": 1.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Tendaba",
+    "kind": "human settlement",
+    "lat": 13.43833,
+    "lon": -15.80722,
+    "d": 97.3,
+    "match": true,
+    "id": "Q1658548"
+   }
+  ]
+ }
+]

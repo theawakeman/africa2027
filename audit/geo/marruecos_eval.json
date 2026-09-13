@@ -1,0 +1,1211 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Chefchaouen",
+  "cat": "Patrimonio",
+  "clase": "punto",
+  "lat": 35.1688,
+  "lon": -5.2636,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Chefchaouen",
+   "kind": "place=town",
+   "lat": 35.16877,
+   "lon": -5.26835,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chefchaouen",
+    "kind": "place=town",
+    "lat": 35.16877,
+    "lon": -5.26835,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chefchaouen ⵜⵛⴻⴼⵜⵛⴰⵡⴻⵏ شفشاون",
+    "kind": "boundary=administrative",
+    "lat": 35.17008,
+    "lon": -5.27666,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chefchaouen Province",
+    "kind": "boundary=administrative",
+    "lat": 35.10016,
+    "lon": -5.00708,
+    "d": 24.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Xauen",
+    "kind": "ciudad marroquí situada en el Rif occidental en la región de Akhmas",
+    "lat": 35.16877,
+    "lon": -5.26835,
+    "d": 0.4,
+    "match": false,
+    "id": "Q676778"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Volubilis",
+  "cat": "Patrimonio romano",
+  "clase": "punto",
+  "lat": 34.0742,
+  "lon": -5.5547,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Volubilis",
+   "kind": "leisure=park",
+   "lat": 34.07347,
+   "lon": -5.55537,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Volubilis",
+    "kind": "leisure=park",
+    "lat": 34.07347,
+    "lon": -5.55537,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Oualili",
+    "kind": "place=village",
+    "lat": 34.03996,
+    "lon": -5.56269,
+    "d": 3.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Volubilis Museum",
+    "kind": "tourism=museum",
+    "lat": 34.07144,
+    "lon": -5.55342,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Volubilis",
+    "kind": "capital del reino de Mauritania y ciudad romana",
+    "lat": 34.07111,
+    "lon": -5.55361,
+    "d": 0.4,
+    "match": true,
+    "id": "Q391215"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Fez el Bali (medina y curtidurías)",
+  "cat": "Patrimonio",
+  "clase": "punto",
+  "lat": 34.0631,
+  "lon": -4.9787,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "medina de Fez",
+   "kind": "Sitio del patrimonio cultural marroquí",
+   "lat": 34.0625,
+   "lon": -4.9725,
+   "d": 0.6,
+   "match": true,
+   "id": "Q2072102"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Riad Fes Iline",
+    "kind": "tourism=guest_house",
+    "lat": 34.06069,
+    "lon": -4.98011,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Funduq al-Najjarin",
+    "kind": "craft=yes",
+    "lat": 34.0648,
+    "lon": -4.97596,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Funduq al-Najjarin",
+    "kind": "tourism=museum",
+    "lat": 34.0648,
+    "lon": -4.97596,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "medina de Fez",
+    "kind": "Sitio del patrimonio cultural marroquí",
+    "lat": 34.0625,
+    "lon": -4.9725,
+    "d": 0.6,
+    "match": true,
+    "id": "Q2072102"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Erg Chebbi — Merzouga",
+  "cat": "Desierto",
+  "clase": "area",
+  "lat": 31.0801,
+  "lon": -4.0134,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Erg Chebbi, Grand Dune",
+   "kind": "tourism=viewpoint",
+   "lat": 31.14734,
+   "lon": -4.00895,
+   "d": 7.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Erg Chebbi",
+    "kind": "natural=sand",
+    "lat": 31.13824,
+    "lon": -3.97078,
+    "d": 7.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Erg Chebbi, Grand Dune",
+    "kind": "tourism=viewpoint",
+    "lat": 31.14734,
+    "lon": -4.00895,
+    "d": 7.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasbah Erg Chebbi",
+    "kind": "tourism=caravan_site",
+    "lat": 31.18304,
+    "lon": -4.03208,
+    "d": 11.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Erg Chebbi",
+    "kind": "Dune landscape in Morocco",
+    "lat": 31.16667,
+    "lon": -3.98333,
+    "d": 10,
+    "match": true,
+    "id": "Q146219"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Garganta del Todra",
+  "cat": "Naturaleza · 4x4",
+  "clase": "punto",
+  "lat": 31.581,
+  "lon": -5.5809,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Garganta del Capitán",
+   "kind": "waterway=waterfall",
+   "lat": 36.13824,
+   "lon": -5.51048,
+   "d": 506.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Garganta del Capitán",
+    "kind": "waterway=waterfall",
+    "lat": 36.13824,
+    "lon": -5.51048,
+    "d": 506.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embalse de la Garganta del Prior",
+    "kind": "water=reservoir",
+    "lat": 36.15598,
+    "lon": -5.4966,
+    "d": 508.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Garganta del Valdeinfierno",
+    "kind": "waterway=stream",
+    "lat": 36.22845,
+    "lon": -5.61629,
+    "d": 516.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Aït Benhaddou",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 31.0472,
+  "lon": -7.1319,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Aït Benhaddou",
+   "kind": "place=town",
+   "lat": 31.04515,
+   "lon": -7.13097,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Aït Benhaddou",
+    "kind": "place=town",
+    "lat": 31.04515,
+    "lon": -7.13097,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ksar of Ait-Ben-Haddou",
+    "kind": "place=suburb",
+    "lat": 31.04685,
+    "lon": -7.12962,
+    "d": 0.2,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Ksar de Ait Ben Hadu",
+    "kind": "Pueblo histórico en el sureste de Marruecos",
+    "lat": 31.05,
+    "lon": -7.13333,
+    "d": 0.3,
+    "match": false,
+    "id": "Q309436"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Marrakech — Jemaa el-Fnaa",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 31.6258,
+  "lon": -7.9891,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Marrakech",
+   "kind": "ciudad de Marruecos",
+   "lat": 31.62947,
+   "lon": -7.98108,
+   "d": 0.9,
+   "match": true,
+   "id": "Q101625"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Marrakesh",
+    "kind": "place=city",
+    "lat": 31.62583,
+    "lon": -7.98916,
+    "d": 0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Marrakech",
+    "kind": "railway=station",
+    "lat": 31.63043,
+    "lon": -8.01767,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Marrakech",
+    "kind": "railway=stop",
+    "lat": 31.62988,
+    "lon": -8.01902,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Marrakech",
+    "kind": "ciudad de Marruecos",
+    "lat": 31.62947,
+    "lon": -7.98108,
+    "d": 0.9,
+    "match": true,
+    "id": "Q101625"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Puerto de Tizi n'Test",
+  "cat": "4x4 · paso de montaña",
+  "clase": "punto",
+  "lat": 30.8697,
+  "lon": -8.3563,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Tizi n'Test",
+   "kind": "mountain_pass=yes",
+   "lat": 30.86822,
+   "lon": -8.37889,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tizi n'Test",
+    "kind": "boundary=administrative",
+    "lat": 30.83339,
+    "lon": -8.45115,
+    "d": 9.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tizi n'Test",
+    "kind": "mountain_pass=yes",
+    "lat": 30.86822,
+    "lon": -8.37889,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tizi n'Test",
+    "kind": "amenity=cafe",
+    "lat": 30.86833,
+    "lon": -8.37904,
+    "d": 2.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Essaouira",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 31.5085,
+  "lon": -9.7595,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Essaouira",
+   "kind": "place=city",
+   "lat": 31.51183,
+   "lon": -9.76209,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Essaouira",
+    "kind": "place=city",
+    "lat": 31.51183,
+    "lon": -9.76209,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Essaouira",
+    "kind": "tourism=caravan_site",
+    "lat": 31.49607,
+    "lon": -9.76363,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Essaouira Province",
+    "kind": "boundary=administrative",
+    "lat": 31.36262,
+    "lon": -9.5074,
+    "d": 28.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Esauira",
+    "kind": "ciudad en Marruecos",
+    "lat": 31.51302,
+    "lon": -9.7687,
+    "d": 1,
+    "match": false,
+    "id": "Q216939"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Tafraout y valle de Ameln",
+  "cat": "Paisaje",
+  "clase": "area",
+  "lat": 29.7181,
+  "lon": -8.977,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Camp la Vallée",
+   "kind": "tourism=camp_site",
+   "lat": 29.75612,
+   "lon": -8.95871,
+   "d": 4.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hotel gite ''La Vallée de Tarsouate''",
+    "kind": "tourism=guest_house",
+    "lat": 29.57835,
+    "lon": -9.02238,
+    "d": 16.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Camp la Vallée",
+    "kind": "tourism=camp_site",
+    "lat": 29.75612,
+    "lon": -8.95871,
+    "d": 4.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Arco de Legzira",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 29.3452,
+  "lon": -10.1263,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Legzira",
+   "kind": "place=hamlet",
+   "lat": 29.44646,
+   "lon": -10.11562,
+   "d": 11.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Legzira",
+    "kind": "place=hamlet",
+    "lat": 29.44646,
+    "lon": -10.11562,
+    "d": 11.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Beachtrail to Legzira Sea Arch",
+    "kind": "highway=path",
+    "lat": 29.43727,
+    "lon": -10.12333,
+    "d": 10.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Plage Legzira",
+    "kind": "natural=beach",
+    "lat": 29.44362,
+    "lon": -10.11792,
+    "d": 11,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Sidi Ifni",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 29.3797,
+  "lon": -10.1728,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Sidi Ifni",
+   "kind": "ciudad de Marruecos",
+   "lat": 29.37975,
+   "lon": -10.17299,
+   "d": 0,
+   "match": true,
+   "id": "Q632361"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sidi Ifni",
+    "kind": "place=city",
+    "lat": 29.37913,
+    "lon": -10.17156,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sidi Ifni Province",
+    "kind": "boundary=administrative",
+    "lat": 29.32797,
+    "lon": -9.75896,
+    "d": 40.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sidi Ifni",
+    "kind": "building=yes",
+    "lat": 29.3883,
+    "lon": -10.17158,
+    "d": 1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Sidi Ifni",
+    "kind": "ciudad de Marruecos",
+    "lat": 29.37975,
+    "lon": -10.17299,
+    "d": 0,
+    "match": true,
+    "id": "Q632361"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Parque Nacional de Khnifiss",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 27.97,
+  "lon": -12.34,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Khenifiss National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": 27.98475,
+   "lon": -12.39392,
+   "d": 5.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Khenifiss National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 27.98475,
+    "lon": -12.39392,
+    "d": 5.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Khenifiss National Park",
+    "kind": "boundary=national_park",
+    "lat": 27.98475,
+    "lon": -12.39392,
+    "d": 5.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Tarfaya",
+  "cat": "Historia · logística",
+  "clase": "punto",
+  "lat": 27.9394,
+  "lon": -12.9231,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tarfaya",
+   "kind": "place=town",
+   "lat": 27.94012,
+   "lon": -12.92499,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tarfaya",
+    "kind": "place=town",
+    "lat": 27.94012,
+    "lon": -12.92499,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "TARFAYA",
+    "kind": "amenity=hospital",
+    "lat": 27.9421,
+    "lon": -12.92315,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tarfaya Province",
+    "kind": "boundary=administrative",
+    "lat": 27.53702,
+    "lon": -12.57612,
+    "d": 56.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Tarfaya",
+    "kind": "ciudad en Marruecos",
+    "lat": 27.91333,
+    "lon": -12.93167,
+    "d": 3,
+    "match": true,
+    "id": "Q988654"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Puerto de Tánger Med (ferry Tarifa/Algeciras)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 35.901,
+  "lon": -5.515,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Tánger Med",
+   "kind": "Puerto marroquí situado en el Estrecho de Gibraltar",
+   "lat": 35.88981,
+   "lon": -5.50133,
+   "d": 1.8,
+   "match": true,
+   "id": "Q518888"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Port Passagers Tanger Med",
+    "kind": "amenity=ferry_terminal",
+    "lat": 35.87794,
+    "lon": -5.51435,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Port Tanger Med II - TC3",
+    "kind": "landuse=industrial",
+    "lat": 35.87158,
+    "lon": -5.52676,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Port Tanger Med II - TC4",
+    "kind": "landuse=industrial",
+    "lat": 35.86187,
+    "lon": -5.537,
+    "d": 4.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Tánger Med",
+    "kind": "Puerto marroquí situado en el Estrecho de Gibraltar",
+    "lat": 35.88981,
+    "lon": -5.50133,
+    "d": 1.8,
+    "match": true,
+    "id": "Q518888"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Continuidad hacia el sur — límite de administración marroquí / Sáhara Occidental",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 27.66,
+  "lon": -13.2,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Morocco except Western Sahara",
+   "kind": "boundary=historic",
+   "lat": 31.812,
+   "lon": -6.34759,
+   "d": 806.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Morocco except Western Sahara",
+    "kind": "boundary=historic",
+    "lat": 31.812,
+    "lon": -6.34759,
+    "d": 806.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Embajada de España en Rabat",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 33.9832,
+  "lon": -6.8558,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": 33.96008,
+   "lon": -6.82389,
+   "d": 3.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": 33.96008,
+    "lon": -6.82389,
+    "d": 3.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Consulado General de España en Tánger",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 35.7767,
+  "lon": -5.8043,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Consulado General de Espana",
+   "kind": "office=diplomatic",
+   "lat": 35.78003,
+   "lon": -5.82381,
+   "d": 1.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Consulado General de Espana",
+    "kind": "office=diplomatic",
+    "lat": 35.78003,
+    "lon": -5.82381,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Consulado General Espana",
+    "kind": "office=diplomatic",
+    "lat": 35.57023,
+    "lon": -5.3738,
+    "d": 45.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Consulado General de España en Casablanca",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 33.5883,
+  "lon": -7.6114,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Consulate General of the Philippines",
+   "kind": "office=diplomatic",
+   "lat": 33.5703,
+   "lon": -7.62617,
+   "d": 2.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Consulate General of Senegal in Casablanca",
+    "kind": "office=diplomatic",
+    "lat": 33.59614,
+    "lon": -7.65447,
+    "d": 4.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Consulate General of the Philippines",
+    "kind": "office=diplomatic",
+    "lat": 33.5703,
+    "lon": -7.62617,
+    "d": 2.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Consulate General of the United States",
+    "kind": "office=diplomatic",
+    "lat": 33.56663,
+    "lon": -7.6633,
+    "d": 5.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Consulado General de España en Agadir",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 30.4202,
+  "lon": -9.5982,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Ambassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": 34.01129,
+   "lon": -6.84148,
+   "d": 476.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ambassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": 34.01129,
+    "lon": -6.84148,
+    "d": 476.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Hôpital Ibn Sina — Rabat (CHU)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 34.0068,
+  "lon": -6.8306,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Des Enfants Du CHU Ibn Sina",
+   "kind": "amenity=hospital",
+   "lat": 33.98662,
+   "lon": -6.85415,
+   "d": 3.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital des Spécialitée du CHU IBN SINA",
+    "kind": "landuse=construction",
+    "lat": 33.98211,
+    "lon": -6.85818,
+    "d": 3.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Des Enfants Du CHU Ibn Sina",
+    "kind": "amenity=hospital",
+    "lat": 33.98662,
+    "lon": -6.85415,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hopital Ibn Sina",
+    "kind": "highway=bus_stop",
+    "lat": 33.98528,
+    "lon": -6.85343,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ibn Sina hospital center",
+    "kind": "healthcare organization in Rabat, Morocco",
+    "lat": 33.98433,
+    "lon": -6.85113,
+    "d": 3.1,
+    "match": true,
+    "id": "Q30253994"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Hôpital Militaire Avicenne — Marrakech",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 31.6183,
+  "lon": -8.0064,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Militaire Avicenne",
+   "kind": "highway=bus_stop",
+   "lat": 31.63353,
+   "lon": -8.02048,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Militaire Avicenne",
+    "kind": "highway=bus_stop",
+    "lat": 31.63353,
+    "lon": -8.02048,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hopital Militaire Avicenne",
+    "kind": "amenity=hospital",
+    "lat": 31.63486,
+    "lon": -8.02165,
+    "d": 2.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Hôpital militaire Avicenne",
+    "kind": "healthcare organization in Marrakesh, Morocco",
+    "lat": 31.6348,
+    "lon": -8.02121,
+    "d": 2.3,
+    "match": true,
+    "id": "Q30281418"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hôpital Hassan II — Agadir",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 30.4278,
+  "lon": -9.5981,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Pharmacie Hôpital Hassan II صيدلية مستشفى الحسن الثاني",
+   "kind": "amenity=pharmacy",
+   "lat": 30.43589,
+   "lon": -9.58683,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Hassan II",
+    "kind": "amenity=hospital",
+    "lat": 32.8929,
+    "lon": -6.90597,
+    "d": 374.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Hassan II",
+    "kind": "highway=bus_stop",
+    "lat": 32.89051,
+    "lon": -6.90616,
+    "d": 374,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pharmacie Hôpital Hassan II صيدلية مستشفى الحسن الثاني",
+    "kind": "amenity=pharmacy",
+    "lat": 30.43589,
+    "lon": -9.58683,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Universidad Hasán II de Casablanca",
+    "kind": "Universidad en Marruecos",
+    "lat": 33.54,
+    "lon": -7.6,
+    "d": 394,
+    "match": false,
+    "id": "Q82826"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · red densa Afriquia/Shell/Total en todo el eje N1",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 30.4,
+  "lon": -9.6,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Afriquia",
+   "kind": "amenity=fuel",
+   "lat": 30.39628,
+   "lon": -9.58176,
+   "d": 1.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Afriquia",
+    "kind": "amenity=fuel",
+    "lat": 30.39628,
+    "lon": -9.58176,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Afriquia",
+    "kind": "amenity=fuel",
+    "lat": 30.42681,
+    "lon": -9.61597,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Afriquia",
+    "kind": "amenity=fuel",
+    "lat": 30.42116,
+    "lon": -9.55451,
+    "d": 5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Afriquia",
+    "kind": "station du tramway de Casablanca",
+    "lat": 33.55497,
+    "lon": -7.59262,
+    "d": 398.6,
+    "match": true,
+    "id": "Q130362603"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Agua potable · supermercados y garrafas en todas las ciudades",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 31.6,
+  "lon": -8.0,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ }
+]

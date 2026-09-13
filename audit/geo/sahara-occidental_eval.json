@@ -1,0 +1,1499 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "El Aaiún (Laayoune) · la mayor ciudad del territorio",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 27.15,
+  "lon": -13.2,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "El Aaiún",
+   "kind": "ciudad más poblada del Sahara Occidental",
+   "lat": 27.15,
+   "lon": -13.2,
+   "d": 0,
+   "match": true,
+   "id": "Q47837"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Laayoune",
+    "kind": "place=city",
+    "lat": 27.15451,
+    "lon": -13.19539,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boulevard Yacoub El Mansour",
+    "kind": "highway=residential",
+    "lat": 27.15368,
+    "lon": -13.19952,
+    "d": 0.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Rue El Hagounia",
+    "kind": "highway=residential",
+    "lat": 27.15533,
+    "lon": -13.20367,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "El Aaiún",
+    "kind": "ciudad más poblada del Sahara Occidental",
+    "lat": 27.15,
+    "lon": -13.2,
+    "d": 0,
+    "match": true,
+    "id": "Q47837"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Laayoune Plage y Foum el Oued · la desembocadura del Saguía",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 27.11,
+  "lon": -13.42,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Plage de Laâyoune",
+   "kind": "place=quarter",
+   "lat": 27.09526,
+   "lon": -13.42018,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Plage de Laâyoune",
+    "kind": "place=quarter",
+    "lat": 27.09526,
+    "lon": -13.42018,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Plage de Laâyoune",
+    "kind": "natural=beach",
+    "lat": 27.09118,
+    "lon": -13.4179,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Laâyoune Port ميناء العيون",
+    "kind": "amenity=post_office",
+    "lat": 27.09453,
+    "lon": -13.41075,
+    "d": 1.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "El Marsa",
+    "kind": "ciudad en Sahara Occidental",
+    "lat": 27.09794,
+    "lon": -13.41447,
+    "d": 1.4,
+    "match": false,
+    "id": "Q3544425"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Bu Craa · la cinta transportadora más larga del mundo",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 26.3228,
+  "lon": -12.8497,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Bu Craa",
+   "kind": "",
+   "lat": 26.65,
+   "lon": -12.93333,
+   "d": 37.3,
+   "match": true,
+   "id": "Q23937930"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Boucraa",
+    "kind": "place=village",
+    "lat": 26.3576,
+    "lon": -12.84435,
+    "d": 3.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "caïdat de Boukraa قيادة بوكراع",
+    "kind": "boundary=administrative",
+    "lat": 26.53388,
+    "lon": -12.93576,
+    "d": 25,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Boulevard Boukraa شارع بوكراع",
+    "kind": "highway=unclassified",
+    "lat": 27.13973,
+    "lon": -13.1996,
+    "d": 97.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Bucraa",
+    "kind": "human settlement in Western Sahara",
+    "lat": 26.32278,
+    "lon": -12.84972,
+    "d": 0,
+    "match": false,
+    "id": "Q894941"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Lemsid · la etapa intermedia",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 26.72,
+  "lon": -13.63,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Lemsid",
+   "kind": "a small oasis town near El-Aaiun in the Saguia el-Hamra part of Western Sahara",
+   "lat": 26.54035,
+   "lon": -13.84766,
+   "d": 29.4,
+   "match": true,
+   "id": "Q6521520"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lemseid",
+    "kind": "place=village",
+    "lat": 26.53933,
+    "lon": -13.83683,
+    "d": 28.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lamssid لمسيد",
+    "kind": "boundary=administrative",
+    "lat": 26.10053,
+    "lon": -13.48131,
+    "d": 70.5,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Lemsid",
+    "kind": "a small oasis town near El-Aaiun in the Saguia el-Hamra part of Western Sahara",
+    "lat": 26.54035,
+    "lon": -13.84766,
+    "d": 29.4,
+    "match": true,
+    "id": "Q6521520"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Bojador (Boujdour) · el cabo que nadie se atrevía a doblar",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 26.1331,
+  "lon": -14.4669,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Estación de Autobuses de Bojador",
+   "kind": "highway=bus_stop",
+   "lat": 26.12822,
+   "lon": -14.48178,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cape Bojador",
+    "kind": "natural=cape",
+    "lat": 26.12333,
+    "lon": -14.50056,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boujdour",
+    "kind": "place=city",
+    "lat": 26.12634,
+    "lon": -14.48365,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Estación de Autobuses de Bojador",
+    "kind": "highway=bus_stop",
+    "lat": 26.12822,
+    "lon": -14.48178,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Cabo Bojador",
+    "kind": "cabo del Sahara Occidental",
+    "lat": 26.12694,
+    "lon": -14.49917,
+    "d": 3.3,
+    "match": true,
+    "id": "Q185222"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "La Duna Blanca (White Dune) y el brazo de la laguna",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 23.6,
+  "lon": -15.85,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Duna Blanca",
+   "kind": "amenity=car_rental",
+   "lat": 23.70078,
+   "lon": -15.92926,
+   "d": 13.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Duna Blanca",
+    "kind": "amenity=car_rental",
+    "lat": 23.70078,
+    "lon": -15.92926,
+    "d": 13.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Laguna de Dajla (Dakhla Bay) · Ramsar y flamencos",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 23.69,
+  "lon": -15.95,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Dakhla Bay",
+   "kind": "",
+   "lat": 23.73355,
+   "lon": -15.86173,
+   "d": 10.2,
+   "match": true,
+   "id": "Q25390655"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gare routière de Dakhla",
+    "kind": "amenity=bus_station",
+    "lat": 23.70687,
+    "lon": -15.94431,
+    "d": 2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Laguna de Santiago",
+    "kind": "place=hamlet",
+    "lat": 28.03343,
+    "lon": -17.19289,
+    "d": 498.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Presa de la Laguna",
+    "kind": "natural=water",
+    "lat": 28.06369,
+    "lon": -15.68249,
+    "d": 487.1,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Dakhla Bay",
+    "kind": "",
+    "lat": 23.73355,
+    "lon": -15.86173,
+    "d": 10.2,
+    "match": true,
+    "id": "Q25390655"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Dajla (Dakhla) · la antigua Villa Cisneros",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 23.7167,
+  "lon": -15.95,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Villa Cisneros",
+   "kind": "ciudad del Sahara Occidental",
+   "lat": 23.71667,
+   "lon": -15.95,
+   "d": 0,
+   "match": true,
+   "id": "Q345204"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ḍleī’a el Ḥamra",
+    "kind": "place=locality",
+    "lat": 22.59305,
+    "lon": -12.4538,
+    "d": 378.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Dal' et el Ladmiya",
+    "kind": "natural=cliff",
+    "lat": 26.61574,
+    "lon": -8.63463,
+    "d": 803.5,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Villa Cisneros",
+    "kind": "ciudad del Sahara Occidental",
+    "lat": 23.71667,
+    "lon": -15.95,
+    "d": 0,
+    "match": true,
+    "id": "Q345204"
+   },
+   {
+    "src": "wd",
+    "name": "Dajla-Río de Oro",
+    "kind": "región en el Sahara Occidental",
+    "lat": 23,
+    "lon": -15,
+    "d": 125.5,
+    "match": true,
+    "id": "Q21235104"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Kitesurf, surf y los spots del Atlántico de Dajla",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 23.73,
+  "lon": -15.92,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "PK25 Dakhla",
+   "kind": "tourism=hotel",
+   "lat": 23.90167,
+   "lon": -15.7851,
+   "d": 23.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "PK25 Dakhla",
+    "kind": "tourism=hotel",
+    "lat": 23.90167,
+    "lon": -15.7851,
+    "d": 23.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Bir Gandouz · la última parada antes de la frontera",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 21.017,
+  "lon": -16.317,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Bir Gandouz بئر كندوز",
+   "kind": "amenity=post_office",
+   "lat": 21.6127,
+   "lon": -16.4674,
+   "d": 68,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bir Gandouz بئر كندوز",
+    "kind": "amenity=post_office",
+    "lat": 21.6127,
+    "lon": -16.4674,
+    "d": 68,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bir Gandus",
+    "kind": "place=village",
+    "lat": 21.61373,
+    "lon": -16.47107,
+    "d": 68.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Caïdat de Bir Gandouz",
+    "kind": "boundary=administrative",
+    "lat": 21.83528,
+    "lon": -16.40374,
+    "d": 91.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bir Gandús",
+    "kind": "villa en el Sahara Occidental",
+    "lat": 21.61567,
+    "lon": -16.46866,
+    "d": 68.4,
+    "match": false,
+    "id": "Q2637709"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Guerguerat · el paso y la tierra de nadie",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 21.4261,
+  "lon": -16.9586,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Guerguerat",
+   "kind": "puesto fronterizo que conecta el Sahara Occidental con Mauritania",
+   "lat": 21.42611,
+   "lon": -16.95861,
+   "d": 0,
+   "match": true,
+   "id": "Q3118919"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Guerguerat",
+    "kind": "place=village",
+    "lat": 21.42699,
+    "lon": -16.95992,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Guerguerat",
+    "kind": "puesto fronterizo que conecta el Sahara Occidental con Mauritania",
+    "lat": 21.42611,
+    "lon": -16.95861,
+    "d": 0,
+    "match": true,
+    "id": "Q3118919"
+   },
+   {
+    "src": "wd",
+    "name": "Guerguerat",
+    "kind": "",
+    "lat": 21.2283,
+    "lon": -17.0308,
+    "d": 23.2,
+    "match": true,
+    "id": "Q23937441"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Bahía de Cintra (Golfo de Cintra)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 22.9519,
+  "lon": -16.2156,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "wd",
+   "name": "Angra de Cintra",
+   "kind": "bay in Western Sahara",
+   "lat": 22.9519,
+   "lon": -16.2156,
+   "d": 0,
+   "match": false,
+   "id": "Q8199676"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gulf of Cintra",
+    "kind": "natural=bay",
+    "lat": 23.00644,
+    "lon": -16.19161,
+    "d": 6.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Dakhla Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 23.72603,
+    "lon": -15.92694,
+    "d": 91,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Boulevard Bahia Aini",
+    "kind": "highway=residential",
+    "lat": 23.69582,
+    "lon": -15.93813,
+    "d": 87.4,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Angra de Cintra",
+    "kind": "bay in Western Sahara",
+    "lat": 22.9519,
+    "lon": -16.2156,
+    "d": 0,
+    "match": false,
+    "id": "Q8199676"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Sebja de Imlili · los peces del desierto",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 23.15,
+  "lon": -15.85,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Sebja Agrisa",
+   "kind": "natural=wetland",
+   "lat": 22.41089,
+   "lon": -15.37067,
+   "d": 95.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sebja Agrisa",
+    "kind": "natural=wetland",
+    "lat": 22.41089,
+    "lon": -15.37067,
+    "d": 95.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Fuentes termales de Asmaa",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 23.85,
+  "lon": -15.8,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Hot spring",
+   "kind": "natural=spring",
+   "lat": 23.90271,
+   "lon": -15.7871,
+   "d": 6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hot spring",
+    "kind": "natural=spring",
+    "lat": 23.90271,
+    "lon": -15.7871,
+    "d": 6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Smara y la zawiya de Ma al-Aynayn",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 26.7394,
+  "lon": -11.6703,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Smara",
+   "kind": "place=city",
+   "lat": 26.74358,
+   "lon": -11.66455,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Smara",
+    "kind": "place=city",
+    "lat": 26.74358,
+    "lon": -11.66455,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Smara Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 26.73245,
+    "lon": -11.68422,
+    "d": 1.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Smara bus station",
+    "kind": "amenity=bus_station",
+    "lat": 26.73843,
+    "lon": -11.6995,
+    "d": 2.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Esmara",
+    "kind": "ciudad en Sahara Occidental",
+    "lat": 26.73944,
+    "lon": -11.67028,
+    "d": 0,
+    "match": false,
+    "id": "Q842810"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Cabo Blanco y La Güera · la foca monje (NO accesible desde aquí)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 20.8333,
+  "lon": -17.0833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Cabo Blanco",
+   "kind": "cabo atlántico, entre Sáhara Occidental y Mauritania",
+   "lat": 20.77139,
+   "lon": -17.04722,
+   "d": 7.8,
+   "match": true,
+   "id": "Q1520946"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cabo Blanco",
+    "kind": "place=suburb",
+    "lat": 28.07116,
+    "lon": -16.67131,
+    "d": 805.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cabo Blanco",
+    "kind": "waterway=stream",
+    "lat": 28.07953,
+    "lon": -16.67157,
+    "d": 806.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Presa de Cabo Blanco",
+    "kind": "water=reservoir",
+    "lat": 28.06751,
+    "lon": -16.6668,
+    "d": 805.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Cabo Blanco",
+    "kind": "cabo atlántico, entre Sáhara Occidental y Mauritania",
+    "lat": 20.77139,
+    "lon": -17.04722,
+    "d": 7.8,
+    "match": true,
+    "id": "Q1520946"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Entrada (bajada) · Tarfaya → Tah: sin frontera internacional",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 27.9394,
+  "lon": -12.9231,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tarfaya",
+   "kind": "place=town",
+   "lat": 27.94012,
+   "lon": -12.92499,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tarfaya",
+    "kind": "place=town",
+    "lat": 27.94012,
+    "lon": -12.92499,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "TARFAYA",
+    "kind": "amenity=hospital",
+    "lat": 27.9421,
+    "lon": -12.92315,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tarfaya Province",
+    "kind": "boundary=administrative",
+    "lat": 27.53702,
+    "lon": -12.57612,
+    "d": 56.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Tarfaya",
+    "kind": "ciudad en Marruecos",
+    "lat": 27.91333,
+    "lon": -12.93167,
+    "d": 3,
+    "match": true,
+    "id": "Q988654"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Salida (bajada) / Entrada (subida) · Guerguerat",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 21.4261,
+  "lon": -16.9586,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Guerguerat",
+   "kind": "puesto fronterizo que conecta el Sahara Occidental con Mauritania",
+   "lat": 21.42611,
+   "lon": -16.95861,
+   "d": 0,
+   "match": true,
+   "id": "Q3118919"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Guerguerat",
+    "kind": "place=village",
+    "lat": 21.42699,
+    "lon": -16.95992,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Guerguerat",
+    "kind": "puesto fronterizo que conecta el Sahara Occidental con Mauritania",
+    "lat": 21.42611,
+    "lon": -16.95861,
+    "d": 0,
+    "match": true,
+    "id": "Q3118919"
+   },
+   {
+    "src": "wd",
+    "name": "Guerguerat",
+    "kind": "",
+    "lat": 21.2283,
+    "lon": -17.0308,
+    "d": 23.2,
+    "match": true,
+    "id": "Q23937441"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Salida (subida) · Smara → Tan-Tan o El Aaiún → Tarfaya",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 27.9394,
+  "lon": -12.9231,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Smara Airport",
+   "kind": "aeroway=aerodrome",
+   "lat": 26.73245,
+   "lon": -11.68422,
+   "d": 181.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Smara",
+    "kind": "place=city",
+    "lat": 26.74358,
+    "lon": -11.66455,
+    "d": 182,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Smara Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 26.73245,
+    "lon": -11.68422,
+    "d": 181.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Smara",
+    "kind": "shop=travel_agency",
+    "lat": 24.97835,
+    "lon": -9.87847,
+    "d": 447.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Esmara",
+    "kind": "ciudad en Sahara Occidental",
+    "lat": 26.73944,
+    "lon": -11.67028,
+    "d": 182,
+    "match": false,
+    "id": "Q842810"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Hospital Regional Hassan II — El Aaiún",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 27.145,
+  "lon": -13.195,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "General Hospitals of Dakhla",
+   "kind": "amenity=hospital",
+   "lat": 23.71395,
+   "lon": -15.92274,
+   "d": 469.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "General Hospitals of Dakhla",
+    "kind": "amenity=hospital",
+    "lat": 23.71395,
+    "lon": -15.92274,
+    "d": 469.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Hospital / centro de salud — Dajla",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 23.6845,
+  "lon": -15.935,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "General Hospitals of Dakhla",
+   "kind": "amenity=hospital",
+   "lat": 23.71395,
+   "lon": -15.92274,
+   "d": 3.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "General Hospitals of Dakhla",
+    "kind": "amenity=hospital",
+    "lat": 23.71395,
+    "lon": -15.92274,
+    "d": 3.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Consulado de España más próximo — Agadir (referencia)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 30.4202,
+  "lon": -9.5982,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Consultorio Local de Tafira",
+   "kind": "amenity=clinic",
+   "lat": 28.0607,
+   "lon": -15.46043,
+   "d": 626.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lugar Agadir",
+    "kind": "highway=track",
+    "lat": 27.81122,
+    "lon": -15.45545,
+    "d": 638.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Consultorio Local de San Lorenzo",
+    "kind": "amenity=hospital",
+    "lat": 28.07583,
+    "lon": -15.4749,
+    "d": 626.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Consultorio Local de Tafira",
+    "kind": "amenity=clinic",
+    "lat": 28.0607,
+    "lon": -15.46043,
+    "d": 626.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Combustible · Laayoune Plage",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 27.11,
+  "lon": -13.42,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Plage de Laâyoune",
+   "kind": "place=quarter",
+   "lat": 27.09526,
+   "lon": -13.42018,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Plage de Laâyoune",
+    "kind": "place=quarter",
+    "lat": 27.09526,
+    "lon": -13.42018,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Plage de Laâyoune",
+    "kind": "natural=beach",
+    "lat": 27.09118,
+    "lon": -13.4179,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Laâyoune Port ميناء العيون",
+    "kind": "amenity=post_office",
+    "lat": 27.09453,
+    "lon": -13.41075,
+    "d": 1.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "El Marsa",
+    "kind": "ciudad en Sahara Occidental",
+    "lat": 27.09794,
+    "lon": -13.41447,
+    "d": 1.4,
+    "match": false,
+    "id": "Q3544425"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Lemsid",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 26.72,
+  "lon": -13.63,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Lemsid",
+   "kind": "a small oasis town near El-Aaiun in the Saguia el-Hamra part of Western Sahara",
+   "lat": 26.54035,
+   "lon": -13.84766,
+   "d": 29.4,
+   "match": true,
+   "id": "Q6521520"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lemseid",
+    "kind": "place=village",
+    "lat": 26.53933,
+    "lon": -13.83683,
+    "d": 28.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lamssid لمسيد",
+    "kind": "boundary=administrative",
+    "lat": 26.10053,
+    "lon": -13.48131,
+    "d": 70.5,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Lemsid",
+    "kind": "a small oasis town near El-Aaiun in the Saguia el-Hamra part of Western Sahara",
+    "lat": 26.54035,
+    "lon": -13.84766,
+    "d": 29.4,
+    "match": true,
+    "id": "Q6521520"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · Bojador (Boujdour)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 26.1331,
+  "lon": -14.4669,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Estación de Autobuses de Bojador",
+   "kind": "highway=bus_stop",
+   "lat": 26.12822,
+   "lon": -14.48178,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cape Bojador",
+    "kind": "natural=cape",
+    "lat": 26.12333,
+    "lon": -14.50056,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boujdour",
+    "kind": "place=city",
+    "lat": 26.12634,
+    "lon": -14.48365,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Estación de Autobuses de Bojador",
+    "kind": "highway=bus_stop",
+    "lat": 26.12822,
+    "lon": -14.48178,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Cabo Bojador",
+    "kind": "cabo del Sahara Occidental",
+    "lat": 26.12694,
+    "lon": -14.49917,
+    "d": 3.3,
+    "match": true,
+    "id": "Q185222"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · cruce de Dajla (Dakhla Junction)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 23.735,
+  "lon": -15.87,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Dajla-Río de Oro",
+   "kind": "región en el Sahara Occidental",
+   "lat": 23,
+   "lon": -15,
+   "d": 120.7,
+   "match": true,
+   "id": "Q21235104"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ḍleī’a el Ḥamra",
+    "kind": "place=locality",
+    "lat": 22.59305,
+    "lon": -12.4538,
+    "d": 371.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Dal' et el Ladmiya",
+    "kind": "natural=cliff",
+    "lat": 26.61574,
+    "lon": -8.63463,
+    "d": 795.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Villa Cisneros",
+    "kind": "ciudad del Sahara Occidental",
+    "lat": 23.71667,
+    "lon": -15.95,
+    "d": 8.4,
+    "match": false,
+    "id": "Q345204"
+   },
+   {
+    "src": "wd",
+    "name": "Dajla-Río de Oro",
+    "kind": "región en el Sahara Occidental",
+    "lat": 23,
+    "lon": -15,
+    "d": 120.7,
+    "match": true,
+    "id": "Q21235104"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Bir Gandouz",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 21.017,
+  "lon": -16.317,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Bir Gandouz بئر كندوز",
+   "kind": "amenity=post_office",
+   "lat": 21.6127,
+   "lon": -16.4674,
+   "d": 68,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bir Gandouz بئر كندوز",
+    "kind": "amenity=post_office",
+    "lat": 21.6127,
+    "lon": -16.4674,
+    "d": 68,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bir Gandus",
+    "kind": "place=village",
+    "lat": 21.61373,
+    "lon": -16.47107,
+    "d": 68.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Caïdat de Bir Gandouz",
+    "kind": "boundary=administrative",
+    "lat": 21.83528,
+    "lon": -16.40374,
+    "d": 91.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bir Gandús",
+    "kind": "villa en el Sahara Occidental",
+    "lat": 21.61567,
+    "lon": -16.46866,
+    "d": 68.4,
+    "match": false,
+    "id": "Q2637709"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · El Aaiún → Smara (corredor de subida)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 26.7394,
+  "lon": -11.6703,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "El Aaiún",
+   "kind": "ciudad más poblada del Sahara Occidental",
+   "lat": 27.15,
+   "lon": -13.2,
+   "d": 158.4,
+   "match": true,
+   "id": "Q47837"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Laayoune",
+    "kind": "place=city",
+    "lat": 27.15451,
+    "lon": -13.19539,
+    "d": 158.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Boulevard Abd El Moumen Al Mouwahhid",
+    "kind": "highway=tertiary",
+    "lat": 27.1404,
+    "lon": -13.18524,
+    "d": 156.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Avenue El Laakad",
+    "kind": "highway=residential",
+    "lat": 27.14093,
+    "lon": -13.18898,
+    "d": 157,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "El Aaiún",
+    "kind": "ciudad más poblada del Sahara Occidental",
+    "lat": 27.15,
+    "lon": -13.2,
+    "d": 158.4,
+    "match": true,
+    "id": "Q47837"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Agua potable y de uso general · El Aaiún y Dajla",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 23.6845,
+  "lon": -15.935,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "El Aaiún",
+   "kind": "ciudad más poblada del Sahara Occidental",
+   "lat": 27.15,
+   "lon": -13.2,
+   "d": 473.2,
+   "match": true,
+   "id": "Q47837"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Laayoune",
+    "kind": "place=city",
+    "lat": 27.15451,
+    "lon": -13.19539,
+    "d": 473.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Boulevard Abd El Moumen Al Mouwahhid",
+    "kind": "highway=tertiary",
+    "lat": 27.1404,
+    "lon": -13.18524,
+    "d": 473.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Boulevard Yacoub El Mansour",
+    "kind": "highway=residential",
+    "lat": 27.15368,
+    "lon": -13.19952,
+    "d": 473.5,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "El Aaiún",
+    "kind": "ciudad más poblada del Sahara Occidental",
+    "lat": 27.15,
+    "lon": -13.2,
+    "d": 473.2,
+    "match": true,
+    "id": "Q47837"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Zona de exclusión · muro de arena (berma) y franja este",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": 26.0,
+  "lon": -11.0,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ }
+]

@@ -1,0 +1,1828 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Delta del Saloum",
+  "cat": "Naturaleza y cultura",
+  "clase": "area",
+  "lat": 13.835345,
+  "lon": -16.498783,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Delta del Saloum",
+   "kind": "river delta in Senegal",
+   "lat": 13.83528,
+   "lon": -16.49861,
+   "d": 0,
+   "match": true,
+   "id": "Q559363"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bureau du Parc du Delta du Saloum",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.64812,
+    "lon": -16.49402,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Delta Saloum Fishing Maison d'hôtes",
+    "kind": "tourism=guest_house",
+    "lat": 13.78421,
+    "lon": -16.47235,
+    "d": 6.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Entrée du parc du Delta du Saloum",
+    "kind": "historic=monument",
+    "lat": 13.64859,
+    "lon": -16.48893,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Delta del Saloum",
+    "kind": "river delta in Senegal",
+    "lat": 13.83528,
+    "lon": -16.49861,
+    "d": 0,
+    "match": true,
+    "id": "Q559363"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Parque Nacional de Djoudj",
+  "cat": "Parque nacional",
+  "clase": "area",
+  "lat": 16.358328,
+  "lon": -16.274099,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Parc National des oiseaux du Djoudj (PNOD)",
+   "kind": "leisure=nature_reserve",
+   "lat": 16.35899,
+   "lon": -16.2744,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National des oiseaux du Djoudj",
+    "kind": "boundary=national_park",
+    "lat": 16.43028,
+    "lon": -16.22382,
+    "d": 9.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National des oiseaux du Djoudj",
+    "kind": "leisure=nature_reserve",
+    "lat": 16.43028,
+    "lon": -16.22382,
+    "d": 9.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National des oiseaux du Djoudj (PNOD)",
+    "kind": "leisure=nature_reserve",
+    "lat": 16.35899,
+    "lon": -16.2744,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Saint-Louis – isla histórica",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 16.026072,
+  "lon": -16.50373,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Saint-Louis",
+   "kind": "región",
+   "lat": 16.0257,
+   "lon": -16.50208,
+   "d": 0.2,
+   "match": true,
+   "id": "Q178872"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Saint-Louis",
+    "kind": "place=city",
+    "lat": 16.02804,
+    "lon": -16.50487,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Saint Louis Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 16.05121,
+    "lon": -16.46125,
+    "d": 5.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Saint-Louis, Gare Dakar",
+    "kind": "highway=bus_stop",
+    "lat": 15.98841,
+    "lon": -16.48833,
+    "d": 4.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Saint Louis",
+    "kind": "ciudad de Senegal",
+    "lat": 16.03333,
+    "lon": -16.5,
+    "d": 0.9,
+    "match": true,
+    "id": "Q273779"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Guet Ndar – barrio pesquero",
+  "cat": "Cultura viva",
+  "clase": "punto",
+  "lat": 16.020915,
+  "lon": -16.508694,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Guet Ndar",
+   "kind": "village in Senegal",
+   "lat": 16.02121,
+   "lon": -16.5089,
+   "d": 0,
+   "match": true,
+   "id": "Q3119226"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Guet Ndar",
+    "kind": "boundary=administrative",
+    "lat": 16.01816,
+    "lon": -16.50923,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Guet N'Dar",
+    "kind": "place=neighbourhood",
+    "lat": 16.02257,
+    "lon": -16.50851,
+    "d": 0.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Poste de Santé de Guet Ndar",
+    "kind": "amenity=doctors",
+    "lat": 16.01932,
+    "lon": -16.50926,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Guet Ndar",
+    "kind": "village in Senegal",
+    "lat": 16.02121,
+    "lon": -16.5089,
+    "d": 0,
+    "match": true,
+    "id": "Q3119226"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Parque Nacional de la Langue de Barbarie",
+  "cat": "Parque costero",
+  "clase": "area",
+  "lat": 15.866439,
+  "lon": -16.510005,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bureau du Parc de la Langue de Barbarie",
+   "kind": "leisure=nature_reserve",
+   "lat": 15.86628,
+   "lon": -16.5101,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Langue de Barbarie National Park",
+    "kind": "boundary=national_park",
+    "lat": 15.82865,
+    "lon": -16.52686,
+    "d": 4.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Langue de Barbarie National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 15.82865,
+    "lon": -16.52686,
+    "d": 4.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bureau du Parc de la Langue de Barbarie",
+    "kind": "leisure=nature_reserve",
+    "lat": 15.86628,
+    "lon": -16.5101,
+    "d": 0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Lac Rose – lago Retba",
+  "cat": "Paisaje",
+  "clase": "area",
+  "lat": 14.838784,
+  "lon": -17.234132,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lac rose",
+   "kind": "water=lake",
+   "lat": 14.8388,
+   "lon": -17.23283,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lac rose",
+    "kind": "water=lake",
+    "lat": 14.8388,
+    "lon": -17.23283,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lac Retba",
+    "kind": "tourism=attraction",
+    "lat": 14.84473,
+    "lon": -17.21666,
+    "d": 2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Route du Lac rose",
+    "kind": "highway=secondary",
+    "lat": 14.80701,
+    "lon": -17.2521,
+    "d": 4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Lago Rosa",
+    "kind": "lago en Senegal",
+    "lat": 14.83889,
+    "lon": -17.23444,
+    "d": 0,
+    "match": false,
+    "id": "Q1522557"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Isla de Gorée",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 14.66786,
+  "lon": -17.398928,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Island of Gorée",
+   "kind": "place=islet",
+   "lat": 14.6672,
+   "lon": -17.39836,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Island of Gorée",
+    "kind": "place=islet",
+    "lat": 14.6672,
+    "lon": -17.39836,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Isla de Gorea",
+    "kind": "isla de Senegal",
+    "lat": 14.66694,
+    "lon": -17.39833,
+    "d": 0.1,
+    "match": false,
+    "id": "Q244347"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Museo de las Civilizaciones Negras",
+  "cat": "Museo",
+  "clase": "punto",
+  "lat": 14.677288,
+  "lon": -17.435131,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Monumento del Renacimiento Africano",
+  "cat": "Monumento y mirador",
+  "clase": "punto",
+  "lat": 14.722209,
+  "lon": -17.494954,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Monument de la Renaissance Africaine",
+   "kind": "historic=monument",
+   "lat": 14.72214,
+   "lon": -17.49497,
+   "d": 0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Monument de la Renaissance Africaine",
+    "kind": "historic=monument",
+    "lat": 14.72214,
+    "lon": -17.49497,
+    "d": 0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Monument de la Reneissance Africaine",
+    "kind": "tourism=artwork",
+    "lat": 14.72214,
+    "lon": -17.495,
+    "d": 0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Joal-Fadiouth – isla de conchas",
+  "cat": "Cultura y manglar",
+  "clase": "punto",
+  "lat": 14.181169,
+  "lon": -16.850288,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Port de peche de Joal-Fadiouth",
+   "kind": "shop=seafood",
+   "lat": 14.18329,
+   "lon": -16.86127,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Joal-Fadiouth",
+    "kind": "place=town",
+    "lat": 14.15463,
+    "lon": -16.83269,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Port de peche de Joal-Fadiouth",
+    "kind": "shop=seafood",
+    "lat": 14.18329,
+    "lon": -16.86127,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Amas coquiller de Fadiouth",
+    "kind": "natural=peak",
+    "lat": 14.15649,
+    "lon": -16.82596,
+    "d": 3.8,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Joal-Fadiouth",
+    "kind": "localidad de Senegal",
+    "lat": 14.15314,
+    "lon": -16.83164,
+    "d": 3.7,
+    "match": true,
+    "id": "Q1340331"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Toubacouta – base del delta del Saloum",
+  "cat": "Base de excursiones",
+  "clase": "ciudad",
+  "lat": 13.781102,
+  "lon": -16.47003,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Toubacouta",
+   "kind": "commune of Senegal",
+   "lat": 13.77925,
+   "lon": -16.46847,
+   "d": 0.3,
+   "match": true,
+   "id": "Q16542751"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Toubacouta",
+    "kind": "place=town",
+    "lat": 13.78386,
+    "lon": -16.47484,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Toubacouta",
+    "kind": "landuse=residential",
+    "lat": 13.78739,
+    "lon": -16.47236,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Toubacouta",
+    "kind": "waterway=river",
+    "lat": 13.89029,
+    "lon": -16.42389,
+    "d": 13.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Toubacouta",
+    "kind": "ciudad de Fatick, Senegal",
+    "lat": 13.78289,
+    "lon": -16.47428,
+    "d": 0.5,
+    "match": true,
+    "id": "Q3532781"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Parque Nacional de Niokolo-Koba",
+  "cat": "Parque nacional",
+  "clase": "area",
+  "lat": 13.009999,
+  "lon": -12.94482,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Niokolo-Koba National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": 13.00148,
+   "lon": -13.03551,
+   "d": 9.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Niokolo-Koba National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 13.00148,
+    "lon": -13.03551,
+    "d": 9.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Niokolo-Koba National Park",
+    "kind": "boundary=national_park",
+    "lat": 13.00148,
+    "lon": -13.03551,
+    "d": 9.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional Niokolo-Koba",
+    "kind": "national park of Senegal and UNESCO World Heritage Site",
+    "lat": 13.07417,
+    "lon": -12.72222,
+    "d": 25.1,
+    "match": true,
+    "id": "Q679891"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Kédougou – base del Senegal oriental",
+  "cat": "Base logística",
+  "clase": "ciudad",
+  "lat": 12.55558,
+  "lon": -12.18075,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kedougou",
+   "kind": "place=town",
+   "lat": 12.55708,
+   "lon": -12.18557,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kedougou",
+    "kind": "place=town",
+    "lat": 12.55708,
+    "lon": -12.18557,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kédougou Region",
+    "kind": "place=region",
+    "lat": 12.88568,
+    "lon": -12.28636,
+    "d": 38.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kedougou Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 12.57236,
+    "lon": -12.22004,
+    "d": 4.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kédougou",
+    "kind": "región del Senegal",
+    "lat": 12.55948,
+    "lon": -12.17448,
+    "d": 0.8,
+    "match": true,
+    "id": "Q1046666"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Bandafassi – puerta del País Bassari",
+  "cat": "Paisaje cultural UNESCO",
+  "clase": "punto",
+  "lat": 12.538716,
+  "lon": -12.310599,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bandafassi",
+   "kind": "place=village",
+   "lat": 12.5386,
+   "lon": -12.31031,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bandafassi",
+    "kind": "place=village",
+    "lat": 12.5386,
+    "lon": -12.31031,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arrondissement de Bandafassi",
+    "kind": "boundary=administrative",
+    "lat": 12.76046,
+    "lon": -12.40922,
+    "d": 26.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mosque de Bandafassi",
+    "kind": "amenity=place_of_worship",
+    "lat": 12.53865,
+    "lon": -12.31079,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bandafassi",
+    "kind": "rural community of Senegal",
+    "lat": 12.53873,
+    "lon": -12.31057,
+    "d": 0,
+    "match": true,
+    "id": "Q16541562"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Iwol – aldea bedik",
+  "cat": "Cultura y senderismo",
+  "clase": "punto",
+  "lat": 12.526554,
+  "lon": -12.381775,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Iwol",
+   "kind": "place=village",
+   "lat": 12.52626,
+   "lon": -12.38176,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Iwol",
+    "kind": "place=village",
+    "lat": 12.52626,
+    "lon": -12.38176,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Iwol",
+    "kind": "landuse=residential",
+    "lat": 12.52628,
+    "lon": -12.38203,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Iwol",
+    "kind": "village in Senegal",
+    "lat": 12.52561,
+    "lon": -12.38194,
+    "d": 0.1,
+    "match": true,
+    "id": "Q3156413"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Cascada de Dindéfelo",
+  "cat": "Naturaleza y senderismo",
+  "clase": "punto",
+  "lat": 12.36526,
+  "lon": -12.32356,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Dindefelo Falls",
+   "kind": "waterway=waterfall",
+   "lat": 12.36479,
+   "lon": -12.32503,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dindefelo Falls",
+    "kind": "waterway=waterfall",
+    "lat": 12.36479,
+    "lon": -12.32503,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "campement villageois de Dindefello",
+    "kind": "tourism=guest_house",
+    "lat": 12.37908,
+    "lon": -12.32467,
+    "d": 1.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bush path from Dar Salam to Dindefello Road",
+    "kind": "highway=track",
+    "lat": 12.52633,
+    "lon": -12.24477,
+    "d": 19.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Ethiolo – cultura bassari",
+  "cat": "Paisaje cultural UNESCO",
+  "clase": "punto",
+  "lat": 12.589336,
+  "lon": -12.856031,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Ethiolo",
+   "kind": "village du Sénégal",
+   "lat": 12.58938,
+   "lon": -12.85597,
+   "d": 0,
+   "match": true,
+   "id": "Q3059292"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ethiolo",
+    "kind": "place=village",
+    "lat": 12.59042,
+    "lon": -12.85076,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ethiolo",
+    "kind": "landuse=residential",
+    "lat": 12.58994,
+    "lon": -12.84887,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Communauté rurale de Ethiolo",
+    "kind": "boundary=administrative",
+    "lat": 12.54795,
+    "lon": -12.83933,
+    "d": 4.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ethiolo",
+    "kind": "village du Sénégal",
+    "lat": 12.58938,
+    "lon": -12.85597,
+    "d": 0,
+    "match": true,
+    "id": "Q3059292"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Museo Théodore Monod de Arte Africano",
+  "cat": "Museo",
+  "clase": "punto",
+  "lat": 14.663533,
+  "lon": -17.438148,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Musée Théodore-Monod d'Art africain",
+   "kind": "tourism=museum",
+   "lat": 14.66367,
+   "lon": -17.43828,
+   "d": 0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Musée Théodore-Monod d'Art africain",
+    "kind": "tourism=museum",
+    "lat": 14.66367,
+    "lon": -17.43828,
+    "d": 0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Reserva de Fauna del Ferlo Norte",
+  "cat": "Reserva de fauna",
+  "clase": "area",
+  "lat": 15.5452,
+  "lon": -14.01075,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Réserve de faune du Ferlo Nord",
+   "kind": "leisure=nature_reserve",
+   "lat": 15.68458,
+   "lon": -14.01739,
+   "d": 15.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Réserve de faune du Ferlo Nord",
+    "kind": "leisure=nature_reserve",
+    "lat": 15.68458,
+    "lon": -14.01739,
+    "d": 15.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Réserve de faune du Ferlo Sud",
+    "kind": "leisure=nature_reserve",
+    "lat": 14.84163,
+    "lon": -13.92164,
+    "d": 78.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Réserve sylvo-pastorale de Younoferé",
+    "kind": "leisure=nature_reserve",
+    "lat": 15.13555,
+    "lon": -14.38691,
+    "d": 60.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Enclos de Katané — fauna saharosaheliana",
+  "cat": "Área de fauna",
+  "clase": "area",
+  "lat": 15.47,
+  "lon": -14.1,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Poste de sante Katane",
+   "kind": "amenity=doctors",
+   "lat": 15.48793,
+   "lon": -14.11326,
+   "d": 2.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Poste de sante Katane",
+    "kind": "amenity=doctors",
+    "lat": 15.48793,
+    "lon": -14.11326,
+    "d": 2.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Enclos d'élevage",
+    "kind": "natural=heath",
+    "lat": 16.4959,
+    "lon": -15.81938,
+    "d": 216.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Enclos tortues",
+    "kind": "landuse=animal_keeping",
+    "lat": 15.92805,
+    "lon": -16.46775,
+    "d": 258.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Ranérou — puerta del Ferlo",
+  "cat": "Base logística",
+  "clase": "ciudad",
+  "lat": 15.29808,
+  "lon": -13.96239,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ranérou",
+   "kind": "place=town",
+   "lat": 15.29808,
+   "lon": -13.96239,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ranérou",
+    "kind": "place=town",
+    "lat": 15.29808,
+    "lon": -13.96239,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Département de Ranérou-Ferlo",
+    "kind": "boundary=administrative",
+    "lat": 15.10513,
+    "lon": -14.07034,
+    "d": 24.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Touba Ranérou",
+    "kind": "place=village",
+    "lat": 15.32999,
+    "lon": -13.92708,
+    "d": 5.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ranérou",
+    "kind": "town in Matam, Senegal",
+    "lat": 15.29539,
+    "lon": -13.95796,
+    "d": 0.6,
+    "match": true,
+    "id": "Q3419053"
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Reserva de Fauna del Ferlo Sur",
+  "cat": "Reserva de fauna",
+  "clase": "area",
+  "lat": 14.9167,
+  "lon": -13.9167,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Réserve de faune du Ferlo Sud",
+   "kind": "leisure=nature_reserve",
+   "lat": 14.84163,
+   "lon": -13.92164,
+   "d": 8.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Réserve de faune du Ferlo Sud",
+    "kind": "leisure=nature_reserve",
+    "lat": 14.84163,
+    "lon": -13.92164,
+    "d": 8.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-23",
+  "type": "poi",
+  "name": "Pista 4x4 Ranérou–Tambacounda — travesía del Ferlo",
+  "cat": "Pista 4x4",
+  "clase": "area",
+  "lat": 14.35,
+  "lon": -13.8,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Embajada de España en Dakar",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 14.6604,
+  "lon": -17.4352,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": 14.66292,
+   "lon": -17.43621,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": 14.66292,
+    "lon": -17.43621,
+    "d": 0.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Consulado General de España en Dakar",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 14.7032,
+  "lon": -17.4702,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": 14.66292,
+   "lon": -17.43621,
+   "d": 5.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Consulate of the United States of America",
+    "kind": "office=diplomatic",
+    "lat": 14.7458,
+    "lon": -17.5269,
+    "d": 7.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": 14.66292,
+    "lon": -17.43621,
+    "d": 5.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Hôpital Principal de Dakar",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 14.66128,
+  "lon": -17.43479,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hopital Principal de Dakar",
+   "kind": "amenity=hospital",
+   "lat": 14.66112,
+   "lon": -17.43478,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parking Hôpital Principal de Dakar",
+    "kind": "amenity=parking",
+    "lat": 14.66226,
+    "lon": -17.43458,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hopital Principal de Dakar",
+    "kind": "amenity=hospital",
+    "lat": 14.66112,
+    "lon": -17.43478,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arret Hopital Principal",
+    "kind": "highway=bus_stop",
+    "lat": 14.66256,
+    "lon": -17.43495,
+    "d": 0.1,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Hôpital Principal de Dakar",
+    "kind": "healthcare organization in Dakar, Senegal",
+    "lat": 14.66145,
+    "lon": -17.43481,
+    "d": 0,
+    "match": true,
+    "id": "Q30279967"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Centre Hospitalier Régional de Saint-Louis",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 16.02284,
+  "lon": -16.50597,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital régional de Saint-Louis",
+   "kind": "amenity=hospital",
+   "lat": 16.02284,
+   "lon": -16.50597,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital régional de Saint-Louis",
+    "kind": "amenity=hospital",
+    "lat": 16.02284,
+    "lon": -16.50597,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Saint Louis",
+    "kind": "ciudad de Senegal",
+    "lat": 16.03333,
+    "lon": -16.5,
+    "d": 1.3,
+    "match": true,
+    "id": "Q273779"
+   },
+   {
+    "src": "wd",
+    "name": "Saint-Louis",
+    "kind": "región",
+    "lat": 16.0257,
+    "lon": -16.50208,
+    "d": 0.5,
+    "match": true,
+    "id": "Q178872"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Centre Hospitalier Régional de Tambacounda",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 13.75328,
+  "lon": -13.67261,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Tambacounda",
+   "kind": "ciudad en Senegal",
+   "lat": 13.76889,
+   "lon": -13.66722,
+   "d": 1.8,
+   "match": true,
+   "id": "Q977305"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Régional de Kolda",
+    "kind": "amenity=hospital",
+    "lat": 12.90548,
+    "lon": -14.94844,
+    "d": 167.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Regional de Ourossogui",
+    "kind": "amenity=hospital",
+    "lat": 15.60387,
+    "lon": -13.32985,
+    "d": 209.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Régional \"Heinrich Lübke\"",
+    "kind": "amenity=hospital",
+    "lat": 14.64229,
+    "lon": -16.23172,
+    "d": 293,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Tambacounda",
+    "kind": "región de Senegal",
+    "lat": 13.77256,
+    "lon": -13.67114,
+    "d": 2.1,
+    "match": true,
+    "id": "Q848554"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Centre Hospitalier Régional Amath Dansokho — Kédougou",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 12.552,
+  "lon": -12.185,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital régional de Saint-Louis",
+   "kind": "amenity=hospital",
+   "lat": 16.02284,
+   "lon": -16.50597,
+   "d": 604.7,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital régional de Saint-Louis",
+    "kind": "amenity=hospital",
+    "lat": 16.02284,
+    "lon": -16.50597,
+    "d": 604.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Centre de santé de Ranérou",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 15.29808,
+  "lon": -13.96239,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Ranérou",
+   "kind": "town in Matam, Senegal",
+   "lat": 15.29539,
+   "lon": -13.95796,
+   "d": 0.6,
+   "match": true,
+   "id": "Q3419053"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "District Hospital",
+    "kind": "amenity=hospital",
+    "lat": 15.30427,
+    "lon": -13.95953,
+    "d": 0.8,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Ranérou",
+    "kind": "town in Matam, Senegal",
+    "lat": 15.29539,
+    "lon": -13.95796,
+    "d": 0.6,
+    "match": true,
+    "id": "Q3419053"
+   },
+   {
+    "src": "wd",
+    "name": "Departamento de Ranérou-Ferlo",
+    "kind": "department in Matam Region, Senegal",
+    "lat": 15.29568,
+    "lon": -13.95596,
+    "d": 0.7,
+    "match": true,
+    "id": "Q2085443"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Paso fronterizo Kalifourou — salida hacia Guinea",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 12.92415,
+  "lon": -13.63848,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kalifourou",
+   "kind": "place=village",
+   "lat": 12.92792,
+   "lon": -13.64196,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kalifourou",
+    "kind": "place=village",
+    "lat": 12.92792,
+    "lon": -13.64196,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Poste de Garde de Kalifourou",
+    "kind": "amenity=police",
+    "lat": 12.91842,
+    "lon": -13.63845,
+    "d": 0.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Paso fronterizo Boundou Fourdou–Sambaïlo — entrada en Guinea",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 12.58241,
+  "lon": -13.37191,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Sambailo",
+   "kind": "human settlement in Guinea",
+   "lat": 12.58333,
+   "lon": -13.36667,
+   "d": 0.6,
+   "match": true,
+   "id": "Q7408982"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Boundou Fourdou",
+    "kind": "place=hamlet",
+    "lat": 12.66783,
+    "lon": -13.55848,
+    "d": 22.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Sambailo",
+    "kind": "human settlement in Guinea",
+    "lat": 12.58333,
+    "lon": -13.36667,
+    "d": 0.6,
+    "match": true,
+    "id": "Q7408982"
+   },
+   {
+    "src": "wd",
+    "name": "Sambailo Airport",
+    "kind": "airport in Guinea",
+    "lat": 12.5727,
+    "lon": -13.3585,
+    "d": 1.8,
+    "match": true,
+    "id": "Q7408985"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Paso Karang–Amdalai — Senegal/Gambia (SUBIDA)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.59169,
+  "lon": -16.42208,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Amdalai",
+   "kind": "human settlement",
+   "lat": 13.58848,
+   "lon": -16.42206,
+   "d": 0.4,
+   "match": true,
+   "id": "Q460354"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Karang Poste",
+    "kind": "place=town",
+    "lat": 13.60632,
+    "lon": -16.42352,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karang Bah",
+    "kind": "place=village",
+    "lat": 13.60106,
+    "lon": -16.44415,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karang Soce",
+    "kind": "landuse=residential",
+    "lat": 13.60229,
+    "lon": -16.44424,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Amdalai",
+    "kind": "human settlement",
+    "lat": 13.58848,
+    "lon": -16.42206,
+    "d": 0.4,
+    "match": true,
+    "id": "Q460354"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Paso Keur Ayib–Farafenni — Senegal/Gambia (SUBIDA)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 13.59335,
+  "lon": -15.60578,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Farafenni",
+   "kind": "city",
+   "lat": 13.56667,
+   "lon": -15.6,
+   "d": 3,
+   "match": true,
+   "id": "Q1200999"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Keur Ayip Guèye",
+    "kind": "place=village",
+    "lat": 13.59579,
+    "lon": -15.60563,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Keur Ayip Touré",
+    "kind": "place=village",
+    "lat": 13.70816,
+    "lon": -15.58226,
+    "d": 13,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Grande Mosquee Keur Ayip Gueye",
+    "kind": "amenity=place_of_worship",
+    "lat": 13.59483,
+    "lon": -15.6027,
+    "d": 0.4,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Farafenni",
+    "kind": "city",
+    "lat": 13.56667,
+    "lon": -15.6,
+    "d": 3,
+    "match": true,
+    "id": "Q1200999"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Saint-Louis",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 16.0294,
+  "lon": -16.4894,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Saint Louis",
+   "kind": "ciudad de Senegal",
+   "lat": 16.03333,
+   "lon": -16.5,
+   "d": 1.2,
+   "match": true,
+   "id": "Q273779"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Saint-Louis",
+    "kind": "place=city",
+    "lat": 16.02804,
+    "lon": -16.50487,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Saint Louis",
+    "kind": "ciudad de Senegal",
+    "lat": 16.03333,
+    "lon": -16.5,
+    "d": 1.2,
+    "match": true,
+    "id": "Q273779"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Dakar",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 14.7167,
+  "lon": -17.4677,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Dakar",
+   "kind": "región de Senegal",
+   "lat": 14.71566,
+   "lon": -17.47029,
+   "d": 0.3,
+   "match": true,
+   "id": "Q856268"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dakar",
+    "kind": "place=city",
+    "lat": 14.69342,
+    "lon": -17.44794,
+    "d": 3.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Dakar",
+    "kind": "capital de Senegal",
+    "lat": 14.67256,
+    "lon": -17.432,
+    "d": 6.2,
+    "match": true,
+    "id": "Q3718"
+   },
+   {
+    "src": "wd",
+    "name": "Dakar",
+    "kind": "región de Senegal",
+    "lat": 14.71566,
+    "lon": -17.47029,
+    "d": 0.3,
+    "match": true,
+    "id": "Q856268"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Tambacounda",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 13.7667,
+  "lon": -13.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Tambacounda",
+   "kind": "ciudad en Senegal",
+   "lat": 13.76889,
+   "lon": -13.66722,
+   "d": 0.2,
+   "match": true,
+   "id": "Q977305"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tambacounda",
+    "kind": "place=city",
+    "lat": 13.76926,
+    "lon": -13.66829,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Tambacounda",
+    "kind": "ciudad en Senegal",
+    "lat": 13.76889,
+    "lon": -13.66722,
+    "d": 0.2,
+    "match": true,
+    "id": "Q977305"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Kédougou",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 12.5578,
+  "lon": -12.174,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kédougou",
+   "kind": "departamento",
+   "lat": 12.55778,
+   "lon": -12.17417,
+   "d": 0,
+   "match": true,
+   "id": "Q2083190"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kedougou",
+    "kind": "place=town",
+    "lat": 12.55708,
+    "lon": -12.18557,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kédougou",
+    "kind": "departamento",
+    "lat": 12.55778,
+    "lon": -12.17417,
+    "d": 0,
+    "match": true,
+    "id": "Q2083190"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Agua potable · Dakar, Saint-Louis, Tambacounda (supermercados y garrafas)",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 14.7167,
+  "lon": -17.4677,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Dakar",
+   "kind": "región de Senegal",
+   "lat": 14.71566,
+   "lon": -17.47029,
+   "d": 0.3,
+   "match": true,
+   "id": "Q856268"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dakar",
+    "kind": "place=city",
+    "lat": 14.69342,
+    "lon": -17.44794,
+    "d": 3.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Dakar",
+    "kind": "región de Senegal",
+    "lat": 14.71566,
+    "lon": -17.47029,
+    "d": 0.3,
+    "match": true,
+    "id": "Q856268"
+   }
+  ]
+ }
+]

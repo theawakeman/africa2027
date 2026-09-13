@@ -1,0 +1,370 @@
+{
+ "slug": "marruecos",
+ "bbox": [
+  -13.600000000000001,
+  27.3,
+  -0.6000000000000001,
+  36.3
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Chefchaouen",
+   "cat": "Patrimonio",
+   "prio": "Media",
+   "lat": 35.1688,
+   "lon": -5.2636,
+   "desc": "La «ciudad azul» del Rif: medina encalada en tonos añil, callejones peatonales y talleres de artesanía. Parada clásica de aclimatación tras el desembarco en Tánger Med, antes de bajar hacia Fez.",
+   "q": [
+    "Chefchaouen"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Volubilis",
+   "cat": "Patrimonio romano",
+   "prio": "Media",
+   "lat": 34.0742,
+   "lon": -5.5547,
+   "desc": "Ruinas romanas mejor conservadas del Magreb (mosaicos, arco de Caracalla, capitolio); yacimiento UNESCO junto a Mulay Idriss. Perro con correa en el recinto abierto; sombra escasa en verano.",
+   "q": [
+    "Volubilis"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Fez el Bali (medina y curtidurías)",
+   "cat": "Patrimonio",
+   "prio": "Media",
+   "lat": 34.0631,
+   "lon": -4.9787,
+   "desc": "La medina medieval más grande y viva del mundo árabe: Chouara (curtidurías), Qaraouiyine y miles de callejones sin vehículos. Acceso de perro a curtidurías y zocos cubiertos sujeto a criterio del guía",
+   "q": [
+    "Fez el Bali",
+    "Fez el Bali (medina y curtidurías)"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Erg Chebbi — Merzouga",
+   "cat": "Desierto",
+   "prio": "Alta",
+   "lat": 31.0801,
+   "lon": -4.0134,
+   "desc": "Las mayores dunas de Marruecos (hasta 150 m), puerta al Sáhara argelino. Bivac en auberges con parking para 4x4, salidas en pista de arena suelta; agua y sombra limitadas para el perro en las horas ce",
+   "q": [
+    "Erg Chebbi"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Garganta del Todra",
+   "cat": "Naturaleza · 4x4",
+   "prio": "Alta",
+   "lat": 31.581,
+   "lon": -5.5809,
+   "desc": "Cañón calizo de paredes de hasta 300 m; pista remontable en vehículo hasta el estrechamiento y a pie/con guía más allá. Combinar con Dades para un bucle de gargantas.",
+   "q": [
+    "Garganta del Todra"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Aït Benhaddou",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Media",
+   "lat": 31.0472,
+   "lon": -7.1319,
+   "desc": "Ksar de tierra apisonada, plató de cine (Gladiator, Juego de Tronos) y ejemplo mejor conservado de arquitectura preshariana del Alto Atlas. Cruce del río a pie o en pasarela improvisada según caudal.",
+   "q": [
+    "Aït Benhaddou"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Marrakech — Jemaa el-Fnaa",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 31.6258,
+   "lon": -7.9891,
+   "desc": "Plaza-mercado UNESCO (patrimonio inmaterial), base logística mayor del sur: talleres, recambios 4x4, hospitales de referencia y vuelos internacionales si hay que resolver una incidencia grave.",
+   "q": [
+    "Marrakech"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Puerto de Tizi n'Test",
+   "cat": "4x4 · paso de montaña",
+   "prio": "Alta",
+   "lat": 30.8697,
+   "lon": -8.3563,
+   "desc": "Puerto de 2 092 m sobre el Alto Atlas occidental, carretera estrecha con curvas cerradas y caídas pronunciadas: alternativa panorámica al Tizi n'Tichka para bajar de Marrakech hacia el Sous. Evitar co",
+   "q": [
+    "Puerto de Tizi n'Test",
+    "Port Tizi n'Test"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Essaouira",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 31.5085,
+   "lon": -9.7595,
+   "desc": "Puerto pesquero amurallado (ex Mogador), vientos alisios constantes, medina UNESCO. Playa amplia para el perro fuera de las zonas de baño señalizadas del centro.",
+   "q": [
+    "Essaouira"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Tafraout y valle de Ameln",
+   "cat": "Paisaje",
+   "prio": "Media",
+   "lat": 29.7181,
+   "lon": -8.977,
+   "desc": "Pueblos bereberes de adobe rosado bajo formaciones graníticas (Napoleón's Hat); pistas secundarias hacia pinturas rupestres y almendros. Base tranquila para descansar antes del tramo sahariano.",
+   "q": [
+    "Tafraout y valle de Ameln"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Arco de Legzira",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 29.3452,
+   "lon": -10.1263,
+   "desc": "Playa de acantilados rojizos con arco natural (uno de los dos colapsó en 2020); acceso solo con marea baja, sin socorrista. No aparcar al pie del acantilado por desprendimientos.",
+   "q": [
+    "Arco de Legzira"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Sidi Ifni",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 29.3797,
+   "lon": -10.1728,
+   "desc": "Antiguo enclave español (Ifni), arquitectura art-déco colonial, puerto pesquero activo y surf. Última ciudad grande con servicios completos antes del tramo semidesértico hacia Guelmim.",
+   "q": [
+    "Sidi Ifni"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Parque Nacional de Khnifiss",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 27.97,
+   "lon": -12.34,
+   "desc": "Mayor laguna costera de Marruecos, humedal Ramsar con flamencos y aves migratorias entre Tan-Tan y Tarfaya. Acceso de vehículo y perro restringido en la zona núcleo: confirmar con la delegación de Agu",
+   "q": [
+    "Parque Nacional de Khnifiss",
+    "Parc national Khnifiss"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Tarfaya",
+   "cat": "Historia · logística",
+   "prio": "Media",
+   "lat": 27.9394,
+   "lon": -12.9231,
+   "desc": "Ciudad ligada a Saint-Exupéry y la Aeropostale (fuerte Casa del Mar en el islote frente a la costa), gran parque eólico. Última parada de repostaje y descanso antes de entrar en el corredor del Sáhara",
+   "q": [
+    "Tarfaya"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada — Puerto de Tánger Med (ferry Tarifa/Algeciras)",
+   "cat": "Frontera",
+   "lat": 35.901,
+   "lon": -5.515,
+   "desc": "Entrada con vehículo y perro en el mismo ferry; control de pasaporte, ficha de importación temporal (TVIP) y, si procede, TIR/CPD de la Delica en el mismo trámite. Reservar plaza de vehículo con antel",
+   "q": [
+    "Tánger Med",
+    "Tarifa",
+    "Algeciras"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Continuidad hacia el sur — límite de administración marroquí / Sáhara Occidental",
+   "cat": "Frontera",
+   "lat": 27.66,
+   "lon": -13.2,
+   "desc": "No hay control fronterizo internacional entre Tarfaya y Laayoune (administración marroquí continua); sí puede haber controles de gendarmería con petición de documentación. El control real de salida de",
+   "q": [
+    "Continuidad hacia el sur",
+    "Sáhara Occidental"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Embajada de España en Rabat",
+   "cat": "Consular",
+   "lat": 33.9832,
+   "lon": -6.8558,
+   "desc": "Rue Aïn Khalouiya, Rte. des Zaërs, Km. 5, Souissi. +212 537 63 39 00. Coordenada urbana aproximada (Souissi).",
+   "q": [
+    "Embajada de España en Rabat",
+    "Embassy of Spain Rabat",
+    "Spain Embassy Rabat"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Consulado General de España en Tánger",
+   "cat": "Consular",
+   "lat": 35.7767,
+   "lon": -5.8043,
+   "desc": "85, Av. Président Habib Bourguiba. +212 539 93 70 00. Referencia útil justo tras el desembarco en Tánger Med.",
+   "q": [
+    "Consulado General de España en Tánger",
+    "Consulate of Spain Tánger",
+    "Spain Consulate Tánger"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Consulado General de España en Casablanca",
+   "cat": "Consular",
+   "lat": 33.5883,
+   "lon": -7.6114,
+   "desc": "31, Rue d'Alger. +212 522 22 07 52. Coordenada urbana aproximada.",
+   "q": [
+    "Consulado General de España en Casablanca",
+    "Consulate of Spain Casablanca",
+    "Spain Consulate Casablanca"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Consulado General de España en Agadir",
+   "cat": "Consular",
+   "lat": 30.4202,
+   "lon": -9.5982,
+   "desc": "49, Rue Ibn Batouta, secteur mixte. +212 528 84 56 81/71. Última oficina consular española antes del tramo sur; sin representación en Laayoune ni Dakhla.",
+   "q": [
+    "Consulado General de España en Agadir",
+    "Consulate of Spain Agadir",
+    "Spain Consulate Agadir"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Hôpital Ibn Sina — Rabat (CHU)",
+   "cat": "Hospital",
+   "lat": 34.0068,
+   "lon": -6.8306,
+   "desc": "Centro Hospitalario Universitario de referencia nacional. Coordenada urbana aproximada.",
+   "q": [
+    "Hôpital Ibn Sina",
+    "Ibn Sina"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Hôpital Militaire Avicenne — Marrakech",
+   "cat": "Hospital",
+   "lat": 31.6183,
+   "lon": -8.0064,
+   "desc": "Hospital de referencia en el sur para urgencias graves; base logística antes de entrar en el Atlas y el desierto. Coordenada urbana aproximada.",
+   "q": [
+    "Hôpital Militaire Avicenne",
+    "Militaire Avicenne"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hôpital Hassan II — Agadir",
+   "cat": "Hospital",
+   "lat": 30.4278,
+   "lon": -9.5981,
+   "desc": "Hospital regional de referencia del Sous; punto de apoyo médico antes del tramo semidesértico. Coordenada urbana aproximada.",
+   "q": [
+    "Hôpital Hassan II",
+    "Hassan II"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · red densa Afriquia/Shell/Total en todo el eje N1",
+   "cat": "Combustible",
+   "lat": 30.4,
+   "lon": -9.6,
+   "desc": "Sin problema de autonomía en Marruecos: estaciones cada pocos kilómetros en el eje Tánger–Agadir–Tarfaya, todas con gasóleo de calidad estándar europea. Punto representativo (Agadir); repostar siempre",
+   "q": [
+    "Afriquia",
+    "Shell",
+    "Total",
+    "red densa Afriquia/Shell/Total en todo el eje N1"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Agua potable · supermercados y garrafas en todas las ciudades",
+   "cat": "Agua potable",
+   "lat": 31.6,
+   "lon": -8.0,
+   "desc": "Agua embotellada disponible en todas las poblaciones del itinerario; grifo potable en riads y campings de las ciudades principales, no recomendable en el resto sin tratar. Punto representativo (Marrak",
+   "q": [
+    "supermercados y garrafas en todas las ciudades"
+   ]
+  }
+ ]
+}

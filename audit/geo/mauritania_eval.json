@@ -1,0 +1,1357 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Ben Amera",
+  "cat": "Overland",
+  "clase": "punto",
+  "lat": 21.23003,
+  "lon": -13.66437,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ben Amera",
+   "kind": "natural=peak",
+   "lat": 21.23003,
+   "lon": -13.66437,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ben Amera",
+    "kind": "natural=peak",
+    "lat": 21.23003,
+    "lon": -13.66437,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ben Amera",
+    "kind": "place=village",
+    "lat": 21.19946,
+    "lon": -13.67589,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ben Amera",
+    "kind": "landuse=residential",
+    "lat": 21.19963,
+    "lon": -13.67581,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ben Amera",
+    "kind": "mountain",
+    "lat": 21.23333,
+    "lon": -13.66667,
+    "d": 0.4,
+    "match": true,
+    "id": "Q430848"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Aïcha",
+  "cat": "Arte y desierto",
+  "clase": "area",
+  "lat": 21.29208,
+  "lon": -13.69197,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Dhala Aïcha",
+   "kind": "natural=peak",
+   "lat": 19.7863,
+   "lon": -11.6722,
+   "d": 268.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Aïsha",
+    "kind": "natural=hill",
+    "lat": 21.29494,
+    "lon": -13.69584,
+    "d": 0.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Aïcha batiment",
+    "kind": "landuse=residential",
+    "lat": 14.73512,
+    "lon": -17.32341,
+    "d": 823.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dhala Aïcha",
+    "kind": "natural=peak",
+    "lat": 19.7863,
+    "lon": -11.6722,
+    "d": 268.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Chinguetti",
+  "cat": "Patrimonio",
+  "clase": "punto",
+  "lat": 20.46343,
+  "lon": -12.36648,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Chinguetti",
+   "kind": "place=city",
+   "lat": 20.46343,
+   "lon": -12.36648,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chinguetti",
+    "kind": "place=city",
+    "lat": 20.46343,
+    "lon": -12.36648,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chingueṭṭi",
+    "kind": "place=hamlet",
+    "lat": 20.44036,
+    "lon": -12.2622,
+    "d": 11.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cimetière de Chinguetti مقبرة شنقيط",
+    "kind": "landuse=cemetery",
+    "lat": 20.46008,
+    "lon": -12.36579,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Chingueti",
+    "kind": "localidad en Mauritania",
+    "lat": 20.45742,
+    "lon": -12.36233,
+    "d": 0.8,
+    "match": false,
+    "id": "Q312357"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Ouadane",
+  "cat": "Patrimonio",
+  "clase": "punto",
+  "lat": 20.93373,
+  "lon": -11.61737,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ouadane",
+   "kind": "place=city",
+   "lat": 20.93373,
+   "lon": -11.61737,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ouadane",
+    "kind": "place=city",
+    "lat": 20.93373,
+    "lon": -11.61737,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouadane",
+    "kind": "place=village",
+    "lat": 15.30254,
+    "lon": -16.24539,
+    "d": 794.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouadane Hospital",
+    "kind": "building=hospital",
+    "lat": 20.92977,
+    "lon": -11.61796,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Uadane",
+    "kind": "commune of Mauritania",
+    "lat": 20.93194,
+    "lon": -11.61958,
+    "d": 0.3,
+    "match": false,
+    "id": "Q843127"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Oasis de Terjit",
+  "cat": "Excursión",
+  "clase": "punto",
+  "lat": 20.25242,
+  "lon": -13.0877,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Oasis de Terjit واحه ترجيت",
+   "kind": "tourism=attraction",
+   "lat": 20.25242,
+   "lon": -13.0877,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Oasis de Terjit واحه ترجيت",
+    "kind": "tourism=attraction",
+    "lat": 20.25242,
+    "lon": -13.0877,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Terjit",
+    "kind": "oasis in Adrar Region, Mauritania",
+    "lat": 20.25714,
+    "lon": -13.09422,
+    "d": 0.9,
+    "match": true,
+    "id": "Q3518370"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Atar",
+  "cat": "Servicios",
+  "clase": "ciudad",
+  "lat": 20.51819,
+  "lon": -13.05439,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Atar",
+   "kind": "place=city",
+   "lat": 20.51819,
+   "lon": -13.05439,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Atar",
+    "kind": "place=city",
+    "lat": 20.51819,
+    "lon": -13.05439,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Atar International Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 20.504,
+    "lon": -13.04553,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "ATARBIATOU ISLAMIYATOU SOUENA",
+    "kind": "amenity=school",
+    "lat": 15.18712,
+    "lon": -11.7841,
+    "d": 607.8,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Atar",
+    "kind": "ciudad de Mauritania",
+    "lat": 20.51856,
+    "lon": -13.05389,
+    "d": 0.1,
+    "match": true,
+    "id": "Q735645"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Guelb er Richat",
+  "cat": "4x4 y geología",
+  "clase": "punto",
+  "lat": 21.11085,
+  "lon": -11.39283,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Guelb er Richât",
+   "kind": "place=locality",
+   "lat": 21.11716,
+   "lon": -11.40183,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Richat Structure",
+    "kind": "place=locality",
+    "lat": 21.10969,
+    "lon": -11.37847,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Richat Structure",
+    "kind": "place=locality",
+    "lat": 21.10969,
+    "lon": -11.37847,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Guelb er Richât",
+    "kind": "place=locality",
+    "lat": 21.11716,
+    "lon": -11.40183,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Estructura de Richat",
+    "kind": "accidente geográfico en el desierto del Sahara",
+    "lat": 21.124,
+    "lon": -11.402,
+    "d": 1.7,
+    "match": false,
+    "id": "Q744591"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Iwik y Banc d'Arguin",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 19.87841,
+  "lon": -16.30442,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Iwik",
+   "kind": "place=village",
+   "lat": 19.87841,
+   "lon": -16.30442,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Iwik",
+    "kind": "place=village",
+    "lat": 19.87841,
+    "lon": -16.30442,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Iwik",
+    "kind": "tourism=camp_site",
+    "lat": 19.88433,
+    "lon": -16.29531,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional del Banco de Arguin",
+    "kind": "Mauritanian National Park",
+    "lat": 20.23472,
+    "lon": -16.10889,
+    "d": 44.6,
+    "match": false,
+    "id": "Q539518"
+   },
+   {
+    "src": "wd",
+    "name": "Bahía de Arguin",
+    "kind": "bay on the coast of Mauritania",
+    "lat": 20.08,
+    "lon": -16.62,
+    "d": 39.9,
+    "match": false,
+    "id": "Q3269270"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Puerto pesquero de Nuakchot",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 18.11029,
+  "lon": -16.02292,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Port of Nouakchott",
+   "kind": "landuse=industrial",
+   "lat": 17.99494,
+   "lon": -16.02703,
+   "d": 12.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "ميناء الصيد",
+    "kind": "tourism=attraction",
+    "lat": 18.10338,
+    "lon": -16.02594,
+    "d": 0.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Port of Nouakchott",
+    "kind": "landuse=industrial",
+    "lat": 17.99494,
+    "lon": -16.02703,
+    "d": 12.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Plage des pecheurs",
+    "kind": "highway=bus_stop",
+    "lat": 18.11029,
+    "lon": -16.02292,
+    "d": 0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Parque de Diawling",
+  "cat": "Naturaleza y frontera",
+  "clase": "area",
+  "lat": 16.39078,
+  "lon": -16.35094,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Parque nacional de Diawling",
+   "kind": "national park",
+   "lat": 16.4167,
+   "lon": -16.35,
+   "d": 2.9,
+   "match": true,
+   "id": "Q1209241"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National du Diawling",
+    "kind": "leisure=park",
+    "lat": 16.5031,
+    "lon": -16.32538,
+    "d": 12.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional de Diawling",
+    "kind": "national park",
+    "lat": 16.4167,
+    "lon": -16.35,
+    "d": 2.9,
+    "match": true,
+    "id": "Q1209241"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Paso de Tifoujar",
+  "cat": "4x4",
+  "clase": "punto",
+  "lat": 20.09967,
+  "lon": -13.19672,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Tifoujar Pass",
+   "kind": "mountain pass",
+   "lat": 20.09967,
+   "lon": -13.19672,
+   "d": 0,
+   "match": true,
+   "id": "Q27730644"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tifoujar Pass",
+    "kind": "place=locality",
+    "lat": 20.09382,
+    "lon": -13.20275,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tifoujar Pass",
+    "kind": "place=locality",
+    "lat": 20.09382,
+    "lon": -13.20275,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "",
+    "kind": "natural=sand",
+    "lat": 20.10132,
+    "lon": -13.19737,
+    "d": 0.2,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Tifoujar Pass",
+    "kind": "mountain pass",
+    "lat": 20.09967,
+    "lon": -13.19672,
+    "d": 0,
+    "match": true,
+    "id": "Q27730644"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Valle Blanco",
+  "cat": "4x4",
+  "clase": "area",
+  "lat": 20.17762,
+  "lon": -13.21507,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Oued Amogjâr",
+   "kind": "waterway=river",
+   "lat": 20.59913,
+   "lon": -12.74097,
+   "d": 68.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Goûr Amogjâr",
+    "kind": "natural=peak",
+    "lat": 20.6362,
+    "lon": -12.72448,
+    "d": 72.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Oued Amogjâr",
+    "kind": "waterway=river",
+    "lat": 20.59913,
+    "lon": -12.74097,
+    "d": 68.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Oued Amogjâr",
+    "kind": "natural=valley",
+    "lat": 20.59913,
+    "lon": -12.74097,
+    "d": 68.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada norte — puesto mauritano de Guerguerat",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 21.333667,
+  "lon": -16.947167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Guerguerat",
+   "kind": "puesto fronterizo que conecta el Sahara Occidental con Mauritania",
+   "lat": 21.42611,
+   "lon": -16.95861,
+   "d": 10.3,
+   "match": true,
+   "id": "Q3118919"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Guerguerat",
+    "kind": "place=village",
+    "lat": 21.42699,
+    "lon": -16.95992,
+    "d": 10.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Guerguerat",
+    "kind": "puesto fronterizo que conecta el Sahara Occidental con Mauritania",
+    "lat": 21.42611,
+    "lon": -16.95861,
+    "d": 10.3,
+    "match": true,
+    "id": "Q3118919"
+   },
+   {
+    "src": "wd",
+    "name": "Guerguerat",
+    "kind": "",
+    "lat": 21.2283,
+    "lon": -17.0308,
+    "d": 14.6,
+    "match": true,
+    "id": "Q23937441"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida Diama — presa y puesto fronterizo",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 16.215814,
+  "lon": -16.414842,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Diama Dam",
+   "kind": "waterway=dam",
+   "lat": 16.21439,
+   "lon": -16.41517,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Diama",
+    "kind": "place=village",
+    "lat": 16.20857,
+    "lon": -16.40355,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Diama",
+    "kind": "amenity=ferry_terminal",
+    "lat": 16.21338,
+    "lon": -16.40873,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Diama Dam",
+    "kind": "waterway=dam",
+    "lat": 16.21439,
+    "lon": -16.41517,
+    "d": 0.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida Rosso — embarcadero del ferry",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 16.50873,
+  "lon": -15.81176,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Rosso",
+   "kind": "amenity=ferry_terminal",
+   "lat": 16.50855,
+   "lon": -15.81185,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Rosso",
+    "kind": "place=city",
+    "lat": 16.51325,
+    "lon": -15.80997,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Rosso",
+    "kind": "amenity=ferry_terminal",
+    "lat": 16.50855,
+    "lon": -15.81185,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Rosso",
+    "kind": "aeroway=aerodrome",
+    "lat": 16.44077,
+    "lon": -15.75314,
+    "d": 9.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Rosso",
+    "kind": "ciudad de Mauritania",
+    "lat": 16.51278,
+    "lon": -15.805,
+    "d": 0.8,
+    "match": true,
+    "id": "Q861580"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Embajada de España en Nuakchot",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 18.095114,
+  "lon": -15.974247,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of the Kingdom of Spain",
+   "kind": "office=diplomatic",
+   "lat": 18.09511,
+   "lon": -15.97425,
+   "d": 0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of the Kingdom of Spain",
+    "kind": "office=diplomatic",
+    "lat": 18.09511,
+    "lon": -15.97425,
+    "d": 0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Consulado de España en Nuadibú",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 20.93,
+  "lon": -17.033,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Honorary Consulate of Guinea Bissau",
+   "kind": "office=diplomatic",
+   "lat": 20.91103,
+   "lon": -17.05317,
+   "d": 3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Honorary Consulate of Guinea Bissau",
+    "kind": "office=diplomatic",
+    "lat": 20.91103,
+    "lon": -17.05317,
+    "d": 3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Consulado honorario de España en Rosso",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 16.5128,
+  "lon": -15.805,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Consulado honorario de España en Chinguetti",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 20.463434,
+  "lon": -12.366484,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Centre Hospitalier National — Nuakchot",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 18.088061,
+  "lon": -15.987981,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Centre Hospitalier National المستشفى الوطني",
+   "kind": "amenity=hospital",
+   "lat": 18.08806,
+   "lon": -15.98798,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier National المستشفى الوطني",
+    "kind": "amenity=hospital",
+    "lat": 18.08806,
+    "lon": -15.98798,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier National Seydi El Hadji Malick Sy De Tivaouane",
+    "kind": "amenity=hospital",
+    "lat": 14.9776,
+    "lon": -16.77556,
+    "d": 355.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "centre hospitalier national mathlaboul fawzaini de touba",
+    "kind": "amenity=hospital",
+    "lat": 14.85839,
+    "lon": -15.90872,
+    "d": 359.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Hôpital Aristide Le Dantec",
+    "kind": "hospital in Dakar, Senegal",
+    "lat": 14.65768,
+    "lon": -17.43676,
+    "d": 411.6,
+    "match": false,
+    "id": "Q30279730"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Centre Hospitalier des Spécialités — Nuadibú",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 20.928785,
+  "lon": -17.04444,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Centre Hospitalier des Spécialités de Nouadhibou مركز مستشفى نواذيبو التخصصي",
+   "kind": "amenity=hospital",
+   "lat": 20.92878,
+   "lon": -17.04444,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier des Spécialités de Nouadhibou مركز مستشفى نواذيبو التخصصي",
+    "kind": "amenity=hospital",
+    "lat": 20.92878,
+    "lon": -17.04444,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier des Spécialités تخصصات المستشفى",
+    "kind": "amenity=hospital",
+    "lat": 18.08311,
+    "lon": -15.99912,
+    "d": 334.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Centre Hospitalier d'Atar",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 20.522141,
+  "lon": -13.052103,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Centre Hospitalier Régional مركز المستشفى الإقليمي",
+   "kind": "amenity=hospital",
+   "lat": 20.52214,
+   "lon": -13.0521,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier d'Atar",
+    "kind": "building=hospital",
+    "lat": 20.47047,
+    "lon": -13.071,
+    "d": 6.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Régional مركز المستشفى الإقليمي",
+    "kind": "amenity=hospital",
+    "lat": 20.52214,
+    "lon": -13.0521,
+    "d": 0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Hôpital de la Fraternité — Chinguetti",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 20.463786,
+  "lon": -12.368122,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital de la Fraternité مستشفى الأخوة",
+   "kind": "amenity=hospital",
+   "lat": 20.46379,
+   "lon": -12.36812,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital de la Fraternité مستشفى الأخوة",
+    "kind": "amenity=hospital",
+    "lat": 20.46379,
+    "lon": -12.36812,
+    "d": 0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Clinique Chiva — Nuakchot",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 18.100592,
+  "lon": -15.984603,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Clinique Chiva",
+   "kind": "amenity=hospital",
+   "lat": 18.10059,
+   "lon": -15.9846,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Clinique Chiva",
+    "kind": "amenity=hospital",
+    "lat": 18.10059,
+    "lon": -15.9846,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Clinique Chiva",
+    "kind": "hospital in Nouakchott, Mauritania",
+    "lat": 18.10056,
+    "lon": -15.98472,
+    "d": 0,
+    "match": true,
+    "id": "Q5133869"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Clinique Kissi — Nuakchot",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 18.098591,
+  "lon": -15.981838,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Clinique Kissi",
+   "kind": "amenity=clinic",
+   "lat": 18.09859,
+   "lon": -15.98184,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Clinique Kissi",
+    "kind": "amenity=clinic",
+    "lat": 18.09859,
+    "lon": -15.98184,
+    "d": 0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Clinique Ibn Sina — Nuakchot",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 18.099631,
+  "lon": -15.994403,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Clinique Ibn Sina عيادة ابن سينا",
+   "kind": "amenity=hospital",
+   "lat": 18.09963,
+   "lon": -15.9944,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Clinique Ibn Sina عيادة ابن سينا",
+    "kind": "amenity=hospital",
+    "lat": 18.09963,
+    "lon": -15.9944,
+    "d": 0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Nuadibú",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 20.93,
+  "lon": -17.033,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Nuadibú",
+   "kind": "ciudad de Mauritania",
+   "lat": 20.91475,
+   "lon": -17.05017,
+   "d": 2.5,
+   "match": true,
+   "id": "Q184184"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nouadhibou",
+    "kind": "place=city",
+    "lat": 20.9127,
+    "lon": -17.05031,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nouadhibou",
+    "kind": "railway=stop",
+    "lat": 21.00731,
+    "lon": -17.03231,
+    "d": 8.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nouadhibou",
+    "kind": "railway=station",
+    "lat": 21.00731,
+    "lon": -17.03216,
+    "d": 8.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Nuadibú",
+    "kind": "ciudad de Mauritania",
+    "lat": 20.91475,
+    "lon": -17.05017,
+    "d": 2.5,
+    "match": true,
+    "id": "Q184184"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Combustible · Atar",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 20.51819,
+  "lon": -13.05439,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Atar",
+   "kind": "place=city",
+   "lat": 20.51819,
+   "lon": -13.05439,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Atar",
+    "kind": "place=city",
+    "lat": 20.51819,
+    "lon": -13.05439,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Atar International Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 20.504,
+    "lon": -13.04553,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Atar",
+    "kind": "ciudad de Mauritania",
+    "lat": 20.51856,
+    "lon": -13.05389,
+    "d": 0.1,
+    "match": true,
+    "id": "Q735645"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Combustible · Nuakchot",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 18.11029,
+  "lon": -16.02292,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nouakchott-Ouest Region",
+   "kind": "boundary=administrative",
+   "lat": 18.11279,
+   "lon": -15.99303,
+   "d": 3.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nouakchott",
+    "kind": "place=city",
+    "lat": 18.07924,
+    "lon": -15.97801,
+    "d": 5.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nouakchott University",
+    "kind": "amenity=university",
+    "lat": 18.08943,
+    "lon": -15.9676,
+    "d": 6.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nouakchott-Ouest Region",
+    "kind": "boundary=administrative",
+    "lat": 18.11279,
+    "lon": -15.99303,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Nuakchot",
+    "kind": "capital de Mauritania",
+    "lat": 18.08581,
+    "lon": -15.9785,
+    "d": 5.4,
+    "match": true,
+    "id": "Q3688"
+   }
+  ]
+ },
+ {
+  "id": "log-17",
+  "type": "log",
+  "name": "Agua potable · Nuadibú, Atar, Nuakchot (garrafas/supermercados)",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 20.51819,
+  "lon": -13.05439,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Atar",
+   "kind": "place=city",
+   "lat": 20.51819,
+   "lon": -13.05439,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Atar",
+    "kind": "place=city",
+    "lat": 20.51819,
+    "lon": -13.05439,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Atar International Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 20.504,
+    "lon": -13.04553,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Atar",
+    "kind": "ciudad de Mauritania",
+    "lat": 20.51856,
+    "lon": -13.05389,
+    "d": 0.1,
+    "match": true,
+    "id": "Q735645"
+   }
+  ]
+ }
+]
