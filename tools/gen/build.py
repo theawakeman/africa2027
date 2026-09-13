@@ -100,6 +100,31 @@ function a27Popup(p, root){
   h += '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
   return h;
 }
+// Leyenda de capas plegada en un icono: se abre y se cierra con un clic en el icono,
+// y también se cierra al tocar el mapa. No se despliega sola al pasar el ratón.
+function a27Leyenda(map, groups){
+  const lc = L.control.layers(null, groups, {collapsed: true}).addTo(map);
+  const cont = lc.getContainer();
+  const btn = cont.querySelector('.leaflet-control-layers-toggle');
+  L.DomEvent.off(cont, 'mouseenter mouseleave');   // nada de abrirse al pasar por encima
+  if (btn) {
+    L.DomEvent.off(btn, 'click');                  // el clic propio de Leaflet solo abre; aquí alterna
+    btn.setAttribute('title', 'Capas del mapa');
+    btn.setAttribute('aria-label', 'Mostrar u ocultar las capas del mapa');
+    L.DomEvent.on(btn, 'click', function(e){
+      L.DomEvent.stop(e);
+      if (cont.classList.contains('leaflet-control-layers-expanded')) lc.collapse(); else lc.expand();
+    });
+  }
+  const lista = cont.querySelector('.leaflet-control-layers-overlays');
+  if (lista) {
+    const cab = L.DomUtil.create('div', 'a27-leyenda-cab');
+    cab.innerHTML = '<span>Capas</span><button type="button" class="a27-leyenda-x" aria-label="Cerrar las capas">&times;</button>';
+    lista.parentNode.insertBefore(cab, lista);
+    L.DomEvent.on(cab.querySelector('.a27-leyenda-x'), 'click', function(e){ L.DomEvent.stop(e); lc.collapse(); });
+  }
+  return lc;
+}
 function a27Map(elId, cfg){
   const el = document.getElementById(elId);
   if (!el || typeof L === 'undefined') return null;
@@ -132,7 +157,7 @@ function a27Map(elId, cfg){
     mk.addTo(group(s.label));
   });
   Object.keys(groups).forEach(k => { if (groups[k] === null) delete groups[k]; });
-  if (Object.keys(groups).length > 1) L.control.layers(null, groups, {collapsed: window.innerWidth < 700}).addTo(map);
+  if (Object.keys(groups).length > 1) a27Leyenda(map, groups);
   const all = (cfg.points || []).map(p => [p.lat, p.lon]);
   (cfg.lines || []).forEach(li => li.pts.forEach(pt => all.push(pt)));
   if (cfg.fit !== false && all.length) map.fitBounds(L.latLngBounds(all), {padding: [34, 34]});

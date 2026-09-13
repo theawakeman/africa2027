@@ -150,6 +150,16 @@ code a.fuente::after { opacity:.45; }
 .leaflet-popup-content .st { font-size:10.5px; }
 .leaflet-container { font-family:"Archivo",sans-serif; background:#DCE7DC; }
 
+/* Leyenda de capas: plegada en un icono, se abre y se cierra con un clic */
+.leaflet-control-layers { border-radius:8px !important; border:1px solid rgba(0,0,0,.18) !important; box-shadow:0 2px 10px rgba(0,0,0,.18) !important; }
+.leaflet-control-layers-toggle { width:38px !important; height:38px !important; background-size:22px 22px !important; }
+.leaflet-control-layers-expanded { padding:8px 12px 10px !important; max-height:min(62vh, 420px); overflow-y:auto; max-width:min(78vw, 340px); }
+.leaflet-control-layers-expanded label { font-size:13px; line-height:1.5; display:flex; gap:7px; align-items:flex-start; }
+.leaflet-control-layers-expanded label span { display:inline; }
+.a27-leyenda-cab { display:flex; align-items:center; justify-content:space-between; gap:12px; font-family:"Archivo",sans-serif; font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#5F6B72; border-bottom:1px solid rgba(0,0,0,.12); padding-bottom:5px; margin-bottom:6px; }
+.a27-leyenda-x { background:none; border:none; cursor:pointer; font-size:19px; line-height:1; color:#5F6B72; padding:0 2px; }
+.a27-leyenda-x:hover { color:#16324F; }
+
 dialog.poi-modal { border:none; border-radius:12px; padding:0; max-width:520px; width:calc(100vw - 32px); background:var(--surface); color:var(--ink); box-shadow:0 12px 50px rgba(0,0,0,.4); }
 dialog.poi-modal::backdrop { background:rgba(10,20,30,.55); }
 dialog.poi-modal .poi-card { border:none; border-radius:0; }

@@ -1,0 +1,1986 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Koundara y el Parque Nacional del Badiar",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 12.4833,
+  "lon": -13.3,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Koundara",
+   "kind": "human settlement in Guinea",
+   "lat": 12.48333,
+   "lon": -13.3,
+   "d": 0,
+   "match": true,
+   "id": "Q985374"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Koundara",
+    "kind": "place=town",
+    "lat": 12.48515,
+    "lon": -13.29851,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Koundara Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 12.33509,
+    "lon": -13.16763,
+    "d": 21.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Koundara centre",
+    "kind": "shop=supermarket",
+    "lat": 12.48463,
+    "lon": -13.29644,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Koundara",
+    "kind": "human settlement in Guinea",
+    "lat": 12.48333,
+    "lon": -13.3,
+    "d": 0,
+    "match": true,
+    "id": "Q985374"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Labé · capital del Fouta Djallon",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 11.3167,
+  "lon": -12.2833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Labé",
+   "kind": "city in Guinea",
+   "lat": 11.31667,
+   "lon": -12.28333,
+   "d": 0,
+   "match": true,
+   "id": "Q1020384"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Labé",
+    "kind": "place=city",
+    "lat": 11.323,
+    "lon": -12.28225,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Labé Region",
+    "kind": "place=state",
+    "lat": 11.76148,
+    "lon": -12.01189,
+    "d": 57.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Labé Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 11.39572,
+    "lon": -12.29115,
+    "d": 8.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Labé",
+    "kind": "city in Guinea",
+    "lat": 11.31667,
+    "lon": -12.28333,
+    "d": 0,
+    "match": true,
+    "id": "Q1020384"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Monte Loura y la Dama de Mali (1.515 m)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 12.0833,
+  "lon": -12.3,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Monte Loura",
+   "kind": "mountain in Guinea",
+   "lat": 12.11224,
+   "lon": -12.26354,
+   "d": 5.1,
+   "match": true,
+   "id": "Q2746420"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mount Loura",
+    "kind": "natural=peak",
+    "lat": 12.11208,
+    "lon": -12.25949,
+    "d": 5.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Monte Loura",
+    "kind": "mountain in Guinea",
+    "lat": 12.11224,
+    "lon": -12.26354,
+    "d": 5.1,
+    "match": true,
+    "id": "Q2746420"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Pita y las cataratas de Kinkon",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 10.9833,
+  "lon": -12.4,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kinkon",
+   "kind": "waterway=waterfall",
+   "lat": 11.0562,
+   "lon": -12.45404,
+   "d": 10,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kinkon",
+    "kind": "water=lake",
+    "lat": 11.06604,
+    "lon": -12.45434,
+    "d": 10.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinkon",
+    "kind": "waterway=waterfall",
+    "lat": 11.0562,
+    "lon": -12.45404,
+    "d": 10,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinkon",
+    "kind": "waterway=dam",
+    "lat": 11.0605,
+    "lon": -12.45776,
+    "d": 10.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kinkon",
+    "kind": "watercourse in Guinea",
+    "lat": 10.41667,
+    "lon": -14.4,
+    "d": 227.4,
+    "match": true,
+    "id": "Q24851003"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Cataratas de Kambadaga",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 11.0167,
+  "lon": -12.5167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kambadaga",
+   "kind": "waterway=waterfall",
+   "lat": 10.99718,
+   "lon": -12.49317,
+   "d": 3.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kambadaga",
+    "kind": "waterway=waterfall",
+    "lat": 10.99718,
+    "lon": -12.49317,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kambadaga",
+    "kind": "waterway=waterfall",
+    "lat": 10.99407,
+    "lon": -12.49297,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kambadaga Falls View",
+    "kind": "tourism=viewpoint",
+    "lat": 10.99148,
+    "lon": -12.49242,
+    "d": 3.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kambadaga Falls",
+    "kind": "waterfall in Pita, Guinea",
+    "lat": 10.99407,
+    "lon": -12.49297,
+    "d": 3.6,
+    "match": true,
+    "id": "Q107159474"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Doucki · el «Gran Cañón de Guinea»",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 11.15,
+  "lon": -12.6,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Doucki",
+   "kind": "place=village",
+   "lat": 10.9853,
+   "lon": -12.59924,
+   "d": 18.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Doucki",
+    "kind": "place=village",
+    "lat": 10.9853,
+    "lon": -12.59924,
+    "d": 18.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Douki",
+    "kind": "place=hamlet",
+    "lat": 11.1016,
+    "lon": -13.17043,
+    "d": 62.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Dounki",
+    "kind": "place=hamlet",
+    "lat": 10.87015,
+    "lon": -11.96177,
+    "d": 76.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Dalaba · la estación de altura colonial",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 10.6833,
+  "lon": -12.25,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Dalaba",
+   "kind": "place=town",
+   "lat": 10.69119,
+   "lon": -12.25162,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dalaba",
+    "kind": "place=town",
+    "lat": 10.69119,
+    "lon": -12.25162,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dalaba",
+    "kind": "place=hamlet",
+    "lat": 10.57493,
+    "lon": -11.76967,
+    "d": 53.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dalaba Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 10.88428,
+    "lon": -12.04604,
+    "d": 31.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Dalaba",
+    "kind": "ciudad de Guinea",
+    "lat": 10.69167,
+    "lon": -12.25,
+    "d": 0.9,
+    "match": true,
+    "id": "Q984798"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Cataratas de Ditinn",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 10.75,
+  "lon": -12.1667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "chutes de Ditinn",
+   "kind": "waterway=waterfall",
+   "lat": 10.81621,
+   "lon": -12.18594,
+   "d": 7.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "chutes de Ditinn",
+    "kind": "waterway=waterfall",
+    "lat": 10.81621,
+    "lon": -12.18594,
+    "d": 7.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ditinn",
+    "kind": "human settlement in Guinea",
+    "lat": 10.88333,
+    "lon": -12.18333,
+    "d": 14.9,
+    "match": true,
+    "id": "Q5283672"
+   },
+   {
+    "src": "wd",
+    "name": "Ditinn",
+    "kind": "watercourse in Guinea",
+    "lat": 10.91667,
+    "lon": -12.18333,
+    "d": 18.6,
+    "match": true,
+    "id": "Q24854490"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Kindia · el Velo de la Novia y el monte Gangan",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 10.05,
+  "lon": -12.8542,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kindia",
+   "kind": "human settlement",
+   "lat": 10.04972,
+   "lon": -12.85417,
+   "d": 0,
+   "match": true,
+   "id": "Q997057"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kindia Region",
+    "kind": "place=state",
+    "lat": 10.11544,
+    "lon": -13.19169,
+    "d": 37.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kindia",
+    "kind": "place=city",
+    "lat": 10.0368,
+    "lon": -12.82602,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kindia",
+    "kind": "place=hamlet",
+    "lat": 9.23127,
+    "lon": -12.71014,
+    "d": 92.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kindia",
+    "kind": "human settlement",
+    "lat": 10.04972,
+    "lon": -12.85417,
+    "d": 0,
+    "match": true,
+    "id": "Q997057"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Conakry",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 9.5092,
+  "lon": -13.7122,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Conakry",
+   "kind": "amenity=ferry_terminal",
+   "lat": 9.50363,
+   "lon": -13.71593,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Conakry",
+    "kind": "place=city",
+    "lat": 9.51706,
+    "lon": -13.69984,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry",
+    "kind": "amenity=ferry_terminal",
+    "lat": 9.50363,
+    "lon": -13.71593,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry International Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 9.57655,
+    "lon": -13.61308,
+    "d": 13.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Conakri",
+    "kind": "capital de Guinea",
+    "lat": 9.50917,
+    "lon": -13.71222,
+    "d": 0,
+    "match": false,
+    "id": "Q3733"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Islas de Los (Room, Kassa, Tamara)",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 9.45,
+  "lon": -13.83,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Loos Islands",
+   "kind": "place=archipelago",
+   "lat": 9.4831,
+   "lon": -13.82673,
+   "d": 3.7,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Loos Islands",
+    "kind": "place=archipelago",
+    "lat": 9.4831,
+    "lon": -13.82673,
+    "d": 3.7,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Islas de Los",
+    "kind": "Archipelago off the coast of Guinea",
+    "lat": 9.4625,
+    "lon": -13.795,
+    "d": 4.1,
+    "match": false,
+    "id": "Q292625"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Boké y la costa de Boffa (variante costera)",
+  "cat": "Cultura",
+  "clase": "area",
+  "lat": 10.9333,
+  "lon": -14.3,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Boké",
+   "kind": "city in Guinea",
+   "lat": 10.93139,
+   "lon": -14.28917,
+   "d": 1.2,
+   "match": true,
+   "id": "Q891240"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Boké",
+    "kind": "place=city",
+    "lat": 10.95224,
+    "lon": -14.27606,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boké Region",
+    "kind": "place=state",
+    "lat": 11.34069,
+    "lon": -13.94407,
+    "d": 59.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boké",
+    "kind": "railway=station",
+    "lat": 10.95261,
+    "lon": -14.30448,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Boké",
+    "kind": "city in Guinea",
+    "lat": 10.93139,
+    "lon": -14.28917,
+    "d": 1.2,
+    "match": true,
+    "id": "Q891240"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Faranah y el nacimiento del río Níger",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 10.0333,
+  "lon": -10.75,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Faranah",
+   "kind": "place=city",
+   "lat": 10.04249,
+   "lon": -10.74082,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Faranah",
+    "kind": "place=city",
+    "lat": 10.04249,
+    "lon": -10.74082,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Faranah Region",
+    "kind": "place=state",
+    "lat": 10.31432,
+    "lon": -10.8901,
+    "d": 34.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Faranah",
+    "kind": "railway=station",
+    "lat": 9.89767,
+    "lon": -10.66916,
+    "d": 17.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Faranah",
+    "kind": "region of Guinea",
+    "lat": 10,
+    "lon": -10.83333,
+    "d": 9.8,
+    "match": true,
+    "id": "Q870166"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Bosque de Ziama (Macenta) · Reserva de la Biosfera",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 8.4,
+  "lon": -9.3167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Ziama",
+   "kind": "",
+   "lat": 8,
+   "lon": -9.58333,
+   "d": 53.3,
+   "match": true,
+   "id": "Q27459435"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ziama",
+    "kind": "place=hamlet",
+    "lat": 7.33777,
+    "lon": -10.5059,
+    "d": 176.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ziamah",
+    "kind": "place=hamlet",
+    "lat": 8.33868,
+    "lon": -9.76823,
+    "d": 50.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "ziama",
+    "kind": "landuse=forest",
+    "lat": 10.27824,
+    "lon": -12.91915,
+    "d": 447,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ziama",
+    "kind": "",
+    "lat": 8,
+    "lon": -9.58333,
+    "d": 53.3,
+    "match": true,
+    "id": "Q27459435"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Nzérékoré y la Guinea forestal",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 7.7561,
+  "lon": -8.8179,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "N'Zérékoré-Centre",
+   "kind": "boundary=administrative",
+   "lat": 7.75195,
+   "lon": -8.81379,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nzérékoré Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 7.89329,
+    "lon": -8.88129,
+    "d": 16.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nzérékoré Region",
+    "kind": "place=state",
+    "lat": 8.39257,
+    "lon": -8.85725,
+    "d": 70.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "N'Zérékoré-Centre",
+    "kind": "boundary=administrative",
+    "lat": 7.75195,
+    "lon": -8.81379,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Nzérékoré",
+    "kind": "ciudad de Guinea",
+    "lat": 7.75222,
+    "lon": -8.82167,
+    "d": 0.6,
+    "match": true,
+    "id": "Q1002799"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Montes Nimba (UNESCO) · la triple frontera",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 7.6032,
+  "lon": -8.391,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nimba",
+   "kind": "natural=peak",
+   "lat": 7.62259,
+   "lon": -8.40806,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nimba",
+    "kind": "natural=peak",
+    "lat": 7.62259,
+    "lon": -8.40806,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Réserve intégrale du mont Nimba",
+    "kind": "boundary=protected_area",
+    "lat": 7.58005,
+    "lon": -8.41836,
+    "d": 4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "La résidence Nimba",
+    "kind": "tourism=hotel",
+    "lat": 7.2695,
+    "lon": -8.15127,
+    "d": 45.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Monts Nimba",
+    "kind": "",
+    "lat": 7.56306,
+    "lon": -8.465,
+    "d": 9.3,
+    "match": true,
+    "id": "Q27459282"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Kankan · capital de la Alta Guinea",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 10.3853,
+  "lon": -9.3057,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kankan",
+   "kind": "place=city",
+   "lat": 10.38352,
+   "lon": -9.30694,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kankan Region",
+    "kind": "place=state",
+    "lat": 10.62484,
+    "lon": -9.31752,
+    "d": 26.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kankan",
+    "kind": "place=city",
+    "lat": 10.38352,
+    "lon": -9.30694,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kankan Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 10.24486,
+    "lon": -9.21461,
+    "d": 18.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kankan",
+    "kind": "region of Guinea",
+    "lat": 10.5,
+    "lon": -9.25,
+    "d": 14.1,
+    "match": true,
+    "id": "Q870191"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Kouroussa y el Parque Nacional del Alto Níger",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 10.65,
+  "lon": -9.8833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Parc National du Haut-Niger",
+   "kind": "leisure=nature_reserve",
+   "lat": 10.4381,
+   "lon": -10.30644,
+   "d": 51.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National du Haut-Niger",
+    "kind": "leisure=nature_reserve",
+    "lat": 10.4381,
+    "lon": -10.30644,
+    "d": 51.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional del Alto Níger",
+    "kind": "protected area in Guinea Conakri",
+    "lat": 10.5,
+    "lon": -10.2,
+    "d": 38.4,
+    "match": false,
+    "id": "Q2944459"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Dabola y las cataratas del Tinkisso",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 10.75,
+  "lon": -11.1167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Tinkisso",
+   "kind": "place=hamlet",
+   "lat": 10.94775,
+   "lon": -11.01441,
+   "d": 24.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tinkisso",
+    "kind": "waterway=river",
+    "lat": 11.19953,
+    "lon": -10.5786,
+    "d": 77.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tinkisso",
+    "kind": "place=hamlet",
+    "lat": 10.94775,
+    "lon": -11.01441,
+    "d": 24.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tinkisso",
+    "kind": "place=hamlet",
+    "lat": 10.53619,
+    "lon": -11.44718,
+    "d": 43.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Tinkisso",
+    "kind": "river in Guinea",
+    "lat": 11.35444,
+    "lon": -9.16361,
+    "d": 223.5,
+    "match": true,
+    "id": "Q1852253"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Tougué y el Fouta oriental",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 11.4333,
+  "lon": -11.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tougué",
+   "kind": "place=town",
+   "lat": 11.43946,
+   "lon": -11.66295,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tougué",
+    "kind": "place=town",
+    "lat": 11.43946,
+    "lon": -11.66295,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tougué Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 11.51153,
+    "lon": -11.483,
+    "d": 21.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Touguiwel",
+    "kind": "place=hamlet",
+    "lat": 11.14783,
+    "lon": -12.90192,
+    "d": 138.4,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Tougué",
+    "kind": "city in Guinea",
+    "lat": 11.45,
+    "lon": -11.6833,
+    "d": 2.6,
+    "match": true,
+    "id": "Q7828837"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Sambaïlo / Koundara (desde Manda-Kalifourou, Senegal)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 12.55,
+  "lon": -13.35,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Sambailo Airport",
+   "kind": "airport in Guinea",
+   "lat": 12.5727,
+   "lon": -13.3585,
+   "d": 2.7,
+   "match": true,
+   "id": "Q7408985"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sambaïlo",
+    "kind": "place=village",
+    "lat": 12.58241,
+    "lon": -13.37191,
+    "d": 4.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Sambailo",
+    "kind": "aeroway=aerodrome",
+    "lat": 12.57499,
+    "lon": -13.36244,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "École primaire de Sambailo",
+    "kind": "amenity=school",
+    "lat": 12.5816,
+    "lon": -13.37244,
+    "d": 4.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Sambailo",
+    "kind": "human settlement in Guinea",
+    "lat": 12.58333,
+    "lon": -13.36667,
+    "d": 4.1,
+    "match": true,
+    "id": "Q7408982"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — N'Zo / Gbapleu (hacia Danané, Costa de Marfil)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 7.55,
+  "lon": -8.45,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Centre de Santé N'zoo",
+   "kind": "amenity=clinic",
+   "lat": 7.67834,
+   "lon": -8.3145,
+   "d": 20.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "N'Zoo",
+    "kind": "place=town",
+    "lat": 7.67875,
+    "lon": -8.31367,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre de Santé N'zoo",
+    "kind": "amenity=clinic",
+    "lat": 7.67834,
+    "lon": -8.3145,
+    "d": 20.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Marché herdomadeur de N'Zoo",
+    "kind": "amenity=marketplace",
+    "lat": 7.6798,
+    "lon": -8.31425,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "N'Zoo",
+    "kind": "localidad de la prefectura de Lola en la región de Nzérékoré, Guinea",
+    "lat": 7.67944,
+    "lon": -8.31417,
+    "d": 20.8,
+    "match": true,
+    "id": "Q6951300"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada subida — N'Zo / Gbapleu (desde Costa de Marfil)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 7.55,
+  "lon": -8.45,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Centre de Santé N'zoo",
+   "kind": "amenity=clinic",
+   "lat": 7.67834,
+   "lon": -8.3145,
+   "d": 20.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "N'Zoo",
+    "kind": "place=town",
+    "lat": 7.67875,
+    "lon": -8.31367,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre de Santé N'zoo",
+    "kind": "amenity=clinic",
+    "lat": 7.67834,
+    "lon": -8.3145,
+    "d": 20.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Marché herdomadeur de N'Zoo",
+    "kind": "amenity=marketplace",
+    "lat": 7.6798,
+    "lon": -8.31425,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "N'Zoo",
+    "kind": "localidad de la prefectura de Lola en la región de Nzérékoré, Guinea",
+    "lat": 7.67944,
+    "lon": -8.31417,
+    "d": 20.8,
+    "match": true,
+    "id": "Q6951300"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Variante de salida — Pamelap (hacia Sierra Leona)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 9.3,
+  "lon": -13.05,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Pamélap",
+   "kind": "place=village",
+   "lat": 9.18013,
+   "lon": -12.96925,
+   "d": 16,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pamelap Police",
+    "kind": "amenity=police",
+    "lat": 9.17585,
+    "lon": -12.96357,
+    "d": 16.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pamélap",
+    "kind": "place=village",
+    "lat": 9.18013,
+    "lon": -12.96925,
+    "d": 16,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pamalap",
+    "kind": "place=village",
+    "lat": 9.03473,
+    "lon": -13.18552,
+    "d": 33,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · EXCLUIDA — todos los pasos con Guinea-Bisáu y con Malí",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 12.0,
+  "lon": -13.8,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kounsitel",
+   "kind": "place=town",
+   "lat": 11.80393,
+   "lon": -13.0744,
+   "d": 81.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kounsitel",
+    "kind": "place=town",
+    "lat": 11.80393,
+    "lon": -13.0744,
+    "d": 81.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kounsita",
+    "kind": "place=village",
+    "lat": 10.26214,
+    "lon": -13.46477,
+    "d": 196.7,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Kounsitel",
+    "kind": "sub-prefecture and town in Boké Region, Guinea",
+    "lat": 11.93333,
+    "lon": -12.95,
+    "d": 92.8,
+    "match": true,
+    "id": "Q6434655"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Conakry",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 9.53,
+  "lon": -13.68,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of the Federal Republic of Germany",
+   "kind": "office=diplomatic",
+   "lat": 9.51227,
+   "lon": -13.716,
+   "d": 4.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of the Federal Republic of Germany",
+    "kind": "office=diplomatic",
+    "lat": 9.51227,
+    "lon": -13.716,
+    "d": 4.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embassy of France",
+    "kind": "office=diplomatic",
+    "lat": 9.51169,
+    "lon": -13.71521,
+    "d": 4.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embassy of the United States",
+    "kind": "office=diplomatic",
+    "lat": 9.59528,
+    "lon": -13.63643,
+    "d": 8.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Embajada de Costa de Marfil en Conakry",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 9.535,
+  "lon": -13.675,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Ivory Coast",
+   "kind": "office=diplomatic",
+   "lat": 9.50847,
+   "lon": -13.71541,
+   "d": 5.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Ivory Coast",
+    "kind": "office=diplomatic",
+    "lat": 9.50847,
+    "lon": -13.71541,
+    "d": 5.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Hôpital National Donka — Conakry",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 9.535,
+  "lon": -13.695,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Donka Hôpital",
+   "kind": "highway=bus_stop",
+   "lat": 9.53616,
+   "lon": -13.68459,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Donka Hôpital",
+    "kind": "highway=bus_stop",
+    "lat": 9.53616,
+    "lon": -13.68459,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry Donka Hospital ETU",
+    "kind": "amenity=hospital",
+    "lat": 9.53562,
+    "lon": -13.68322,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre National de Transfusion Sanguine  (CNTS)",
+    "kind": "healthcare=blood_bank",
+    "lat": 9.5373,
+    "lon": -13.67973,
+    "d": 1.7,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Donka Hospital",
+    "kind": "hospital in Guinea",
+    "lat": 9.53759,
+    "lon": -13.68273,
+    "d": 1.4,
+    "match": true,
+    "id": "Q5296214"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hôpital Régional de Labé",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 11.3167,
+  "lon": -12.2833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "hôpital Régional de Labé",
+   "kind": "hospital in Guinea",
+   "lat": 11.31848,
+   "lon": -12.28468,
+   "d": 0.2,
+   "match": true,
+   "id": "Q113957878"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Régional de Labé",
+    "kind": "amenity=hospital",
+    "lat": 11.31812,
+    "lon": -12.28528,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "hôpital Régional de Labé",
+    "kind": "hospital in Guinea",
+    "lat": 11.31848,
+    "lon": -12.28468,
+    "d": 0.2,
+    "match": true,
+    "id": "Q113957878"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Laboratoire Régional Vétérinaire de Labé",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": 11.3167,
+  "lon": -12.2833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Laboratoire Régional Vétérinaire de Labé",
+   "kind": "amenity=doctors",
+   "lat": 11.3596,
+   "lon": -12.27487,
+   "d": 4.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Laboratoire Régional Vétérinaire de Labé",
+    "kind": "amenity=doctors",
+    "lat": 11.3596,
+    "lon": -12.27487,
+    "d": 4.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Laboratoire Régional Vétérinaire de Labé",
+    "kind": "healthcare=laboratory",
+    "lat": 11.35956,
+    "lon": -12.27456,
+    "d": 4.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Hôpital Régional de Nzérékoré",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 7.7561,
+  "lon": -8.8179,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital régional de N'Zérékoré",
+   "kind": "amenity=hospital",
+   "lat": 7.74876,
+   "lon": -8.82277,
+   "d": 1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital régional de N'Zérékoré",
+    "kind": "amenity=hospital",
+    "lat": 7.74876,
+    "lon": -8.82277,
+    "d": 1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Hôpital Régional de Kankan",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 10.3853,
+  "lon": -9.3057,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Régional de Kankan",
+   "kind": "amenity=hospital",
+   "lat": 10.36848,
+   "lon": -9.30541,
+   "d": 1.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Régional de Kankan",
+    "kind": "amenity=hospital",
+    "lat": 10.36848,
+    "lon": -9.30541,
+    "d": 1.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Conakry",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 9.5092,
+  "lon": -13.7122,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Conakry",
+   "kind": "amenity=ferry_terminal",
+   "lat": 9.50363,
+   "lon": -13.71593,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Conakry",
+    "kind": "place=city",
+    "lat": 9.51706,
+    "lon": -13.69984,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry",
+    "kind": "amenity=ferry_terminal",
+    "lat": 9.50363,
+    "lon": -13.71593,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry International Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 9.57655,
+    "lon": -13.61308,
+    "d": 13.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Conakri",
+    "kind": "capital de Guinea",
+    "lat": 9.50917,
+    "lon": -13.71222,
+    "d": 0,
+    "match": false,
+    "id": "Q3733"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Labé, Pita, Mamou, Dalaba, Kindia",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 11.3167,
+  "lon": -12.2833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Labé",
+   "kind": "city in Guinea",
+   "lat": 11.31667,
+   "lon": -12.28333,
+   "d": 0,
+   "match": true,
+   "id": "Q1020384"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Labé",
+    "kind": "place=city",
+    "lat": 11.323,
+    "lon": -12.28225,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Labé Region",
+    "kind": "place=state",
+    "lat": 11.76148,
+    "lon": -12.01189,
+    "d": 57.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Labé Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 11.39572,
+    "lon": -12.29115,
+    "d": 8.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Labé",
+    "kind": "city in Guinea",
+    "lat": 11.31667,
+    "lon": -12.28333,
+    "d": 0,
+    "match": true,
+    "id": "Q1020384"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Faranah, Kissidougou, Macenta, Nzérékoré",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 7.7561,
+  "lon": -8.8179,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Nzérékoré",
+   "kind": "ciudad de Guinea",
+   "lat": 7.75222,
+   "lon": -8.82167,
+   "d": 0.6,
+   "match": true,
+   "id": "Q1002799"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nzérékoré Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 7.89329,
+    "lon": -8.88129,
+    "d": 16.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nzérékoré Region",
+    "kind": "place=state",
+    "lat": 8.39257,
+    "lon": -8.85725,
+    "d": 70.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "N'Zérékoré-Centre",
+    "kind": "boundary=administrative",
+    "lat": 7.75195,
+    "lon": -8.81379,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Nzérékoré",
+    "kind": "ciudad de Guinea",
+    "lat": 7.75222,
+    "lon": -8.82167,
+    "d": 0.6,
+    "match": true,
+    "id": "Q1002799"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Combustible · Kankan, Kouroussa, Dabola (escaso a partir de Tougué)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 10.3853,
+  "lon": -9.3057,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kankan",
+   "kind": "place=city",
+   "lat": 10.38352,
+   "lon": -9.30694,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kankan Region",
+    "kind": "place=state",
+    "lat": 10.62484,
+    "lon": -9.31752,
+    "d": 26.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kankan",
+    "kind": "place=city",
+    "lat": 10.38352,
+    "lon": -9.30694,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kankan Prefecture",
+    "kind": "boundary=administrative",
+    "lat": 10.24486,
+    "lon": -9.21461,
+    "d": 18.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kankan",
+    "kind": "region of Guinea",
+    "lat": 10.5,
+    "lon": -9.25,
+    "d": 14.1,
+    "match": true,
+    "id": "Q870191"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Agua potable y de uso general · Conakry, Labé, Kankan, Nzérékoré",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 9.5092,
+  "lon": -13.7122,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Conakry",
+   "kind": "amenity=ferry_terminal",
+   "lat": 9.50363,
+   "lon": -13.71593,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Conakry",
+    "kind": "place=city",
+    "lat": 9.51706,
+    "lon": -13.69984,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry",
+    "kind": "amenity=ferry_terminal",
+    "lat": 9.50363,
+    "lon": -13.71593,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry International Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 9.57655,
+    "lon": -13.61308,
+    "d": 13.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Conakri",
+    "kind": "capital de Guinea",
+    "lat": 9.50917,
+    "lon": -13.71222,
+    "d": 0,
+    "match": false,
+    "id": "Q3733"
+   }
+  ]
+ },
+ {
+  "id": "log-17",
+  "type": "log",
+  "name": "Agua · Fouta Djallon (el castillo de agua de África occidental)",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 11.0833,
+  "lon": -12.4,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Fouta Djallon",
+   "kind": "natural=mountain_range",
+   "lat": 11.15,
+   "lon": -12.26,
+   "d": 17,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Fouta Djallon",
+    "kind": "natural=mountain_range",
+    "lat": 11.15,
+    "lon": -12.26,
+    "d": 17,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Futa Yallon",
+    "kind": "region in the Republic of Guinea, West Africa",
+    "lat": 11.315,
+    "lon": -12.2975,
+    "d": 28.1,
+    "match": false,
+    "id": "Q850245"
+   },
+   {
+    "src": "wd",
+    "name": "Museo de Fouta Djallon",
+    "kind": "museo en Labé, Guinea",
+    "lat": 11.31318,
+    "lon": -12.30654,
+    "d": 27.5,
+    "match": true,
+    "id": "Q16886851"
+   }
+  ]
+ }
+]

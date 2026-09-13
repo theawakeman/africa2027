@@ -1,0 +1,1795 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Gbalamuya / Kambia · la puerta de entrada",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 9.1167,
+  "lon": -12.9167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kambia",
+   "kind": "place in Northern Province, Sierra Leone",
+   "lat": 9.12389,
+   "lon": -12.91806,
+   "d": 0.8,
+   "match": true,
+   "id": "Q1722889"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gbalamuya",
+    "kind": "place=village",
+    "lat": 9.17026,
+    "lon": -12.95015,
+    "d": 7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gbalamuya Communit Health Centre (CHC)",
+    "kind": "amenity=clinic",
+    "lat": 9.17488,
+    "lon": -12.95168,
+    "d": 7.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gbalasua",
+    "kind": "place=hamlet",
+    "lat": 7.04044,
+    "lon": -10.87963,
+    "d": 321.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Kambia",
+    "kind": "place in Northern Province, Sierra Leone",
+    "lat": 9.12389,
+    "lon": -12.91806,
+    "d": 0.8,
+    "match": true,
+    "id": "Q1722889"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Freetown · la ciudad de los libertos",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 8.484,
+  "lon": -13.2299,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Freetown Amusement Park",
+   "kind": "leisure=park",
+   "lat": 8.48688,
+   "lon": -13.2325,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Freetown",
+    "kind": "place=city",
+    "lat": 8.479,
+    "lon": -13.26795,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Freetown Amusement Park",
+    "kind": "leisure=park",
+    "lat": 8.48688,
+    "lon": -13.2325,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Freetown Road",
+    "kind": "highway=tertiary",
+    "lat": 8.47907,
+    "lon": -13.2624,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Freetown",
+    "kind": "capital de Sierra Leona",
+    "lat": 8.48722,
+    "lon": -13.23556,
+    "d": 0.7,
+    "match": true,
+    "id": "Q3780"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Museo Nacional del Ferrocarril (Cline Town, Freetown)",
+  "cat": "Cultura",
+  "clase": "area",
+  "lat": 8.488,
+  "lon": -13.205,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Sierra Leone National Railway Museum",
+   "kind": "rail museum in Freetown, Sierra Leone",
+   "lat": 8.48962,
+   "lon": -13.20599,
+   "d": 0.2,
+   "match": true,
+   "id": "Q15122535"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "National Railway Museum",
+    "kind": "tourism=museum",
+    "lat": 8.48941,
+    "lon": -13.20885,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "National Railway Museum",
+    "kind": "tourism=museum",
+    "lat": 8.48945,
+    "lon": -13.20942,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Sierra Leone National Railway Museum",
+    "kind": "rail museum in Freetown, Sierra Leone",
+    "lat": 8.48962,
+    "lon": -13.20599,
+    "d": 0.2,
+    "match": true,
+    "id": "Q15122535"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Santuario de chimpancés de Tacugama",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 8.42,
+  "lon": -13.18,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tacugama Chimpanzee Sanctuary",
+   "kind": "leisure=nature_reserve",
+   "lat": 8.41998,
+   "lon": -13.20628,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tacugama Chimpanzee Sanctuary",
+    "kind": "leisure=nature_reserve",
+    "lat": 8.41998,
+    "lon": -13.20628,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tacugama Chimpanzee Sanctuary",
+    "kind": "tourism=camp_site",
+    "lat": 8.41998,
+    "lon": -13.20628,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Q1562526",
+    "kind": "",
+    "lat": 8.41806,
+    "lon": -13.2075,
+    "d": 3,
+    "match": false,
+    "id": "Q1562526"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Parque Nacional de la Península Occidental (Sugar Loaf, Guma)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 8.3406,
+  "lon": -13.1578,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Western Area Peninsula National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": 8.32002,
+   "lon": -13.15175,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Western Area Peninsula National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 8.32002,
+    "lon": -13.15175,
+    "d": 2.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Western Area Peninsula National Park",
+    "kind": "national park in Sierra Leone",
+    "lat": 8.38306,
+    "lon": -13.16667,
+    "d": 4.8,
+    "match": true,
+    "id": "Q256104"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "River No. 2 Beach",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 8.323,
+  "lon": -13.1866,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "River No. 2 Beach Road",
+   "kind": "highway=residential",
+   "lat": 8.33728,
+   "lon": -13.20421,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "River No. 2 Beach Road",
+    "kind": "highway=residential",
+    "lat": 8.33728,
+    "lon": -13.20421,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "No 2 River beach",
+    "kind": "natural=beach",
+    "lat": 8.33536,
+    "lon": -13.20538,
+    "d": 2.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Tokeh Beach",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 8.2833,
+  "lon": -13.2,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tokeh beach",
+   "kind": "natural=beach",
+   "lat": 8.31325,
+   "lon": -13.1965,
+   "d": 3.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tokeh beach",
+    "kind": "natural=beach",
+    "lat": 8.31325,
+    "lon": -13.1965,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tokeh Beach Resort",
+    "kind": "tourism=hotel",
+    "lat": 8.31465,
+    "lon": -13.19564,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "No 2 River beach",
+    "kind": "natural=beach",
+    "lat": 8.33536,
+    "lon": -13.20538,
+    "d": 5.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Bureh Beach · la playa del surf",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 8.26,
+  "lon": -13.19,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bureh Beach Surf Club",
+   "kind": "building=yes",
+   "lat": 8.20764,
+   "lon": -13.15534,
+   "d": 7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bureh beach",
+    "kind": "natural=beach",
+    "lat": 8.20365,
+    "lon": -13.15854,
+    "d": 7.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bureh Beach Surf Club",
+    "kind": "building=yes",
+    "lat": 8.20764,
+    "lon": -13.15534,
+    "d": 7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Burgh Beach Surf Club Drive",
+    "kind": "highway=residential",
+    "lat": 8.20745,
+    "lon": -13.15465,
+    "d": 7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Islas Banana (Dublin, Ricketts y Mes-Meheux)",
+  "cat": "Naturaleza · costa",
+  "clase": "area",
+  "lat": 8.1167,
+  "lon": -13.2167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Banana Islands",
+   "kind": "island group in Sierra Leone",
+   "lat": 8.11722,
+   "lon": -13.21167,
+   "d": 0.6,
+   "match": true,
+   "id": "Q806076"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Banana islands",
+    "kind": "place=island",
+    "lat": 8.10559,
+    "lon": -13.22724,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Banana Islands",
+    "kind": "island group in Sierra Leone",
+    "lat": 8.11722,
+    "lon": -13.21167,
+    "d": 0.6,
+    "match": true,
+    "id": "Q806076"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Bunce Island · la isla de la trata",
+  "cat": "Patrimonio",
+  "clase": "punto",
+  "lat": 8.5697,
+  "lon": -13.0406,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bunce Island",
+   "kind": "place=islet",
+   "lat": 8.56973,
+   "lon": -13.04031,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bunce Island",
+    "kind": "place=islet",
+    "lat": 8.56973,
+    "lon": -13.04031,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bunce Island Fortress",
+    "kind": "historic=ruins",
+    "lat": 8.57148,
+    "lon": -13.03973,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Isla Bunce",
+    "kind": "island",
+    "lat": 8.56987,
+    "lon": -13.04027,
+    "d": 0,
+    "match": true,
+    "id": "Q1004939"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Bo · la segunda ciudad",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 7.9564,
+  "lon": -11.74,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Bo",
+   "kind": "place=city",
+   "lat": 7.96206,
+   "lon": -11.73665,
+   "d": 0.7,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bo",
+    "kind": "place=city",
+    "lat": 7.96206,
+    "lon": -11.73665,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bo",
+    "kind": "place=state",
+    "lat": 7.96203,
+    "lon": -11.73648,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bo",
+    "kind": "place=hamlet",
+    "lat": 7.93618,
+    "lon": -11.34749,
+    "d": 43.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Kenema y el país de los diamantes",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 7.8767,
+  "lon": -11.1875,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kenema",
+   "kind": "municipio de Sierra Leona",
+   "lat": 7.88333,
+   "lon": -11.18333,
+   "d": 0.9,
+   "match": true,
+   "id": "Q634698"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kenema",
+    "kind": "place=city",
+    "lat": 7.88597,
+    "lon": -11.18638,
+    "d": 1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kenema",
+    "kind": "place=state",
+    "lat": 7.88709,
+    "lon": -11.18882,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kenema",
+    "kind": "place=hamlet",
+    "lat": 8.45959,
+    "lon": -10.24005,
+    "d": 122.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kenema",
+    "kind": "municipio de Sierra Leona",
+    "lat": 7.88333,
+    "lon": -11.18333,
+    "d": 0.9,
+    "match": true,
+    "id": "Q634698"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Parque Nacional de Gola Rainforest (UNESCO 2025)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 7.5,
+  "lon": -10.92,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Parque nacional del bosque lluvioso de Gola",
+   "kind": "national park",
+   "lat": 7.5,
+   "lon": -10.98333,
+   "d": 7,
+   "match": true,
+   "id": "Q1512159"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gola National Park",
+    "kind": "boundary=national_park",
+    "lat": 7.46307,
+    "lon": -10.83664,
+    "d": 10.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional del bosque lluvioso de Gola",
+    "kind": "national park",
+    "lat": 7.5,
+    "lon": -10.98333,
+    "d": 7,
+    "match": true,
+    "id": "Q1512159"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Isla de Tiwai · once especies de primates",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 7.5442,
+  "lon": -11.3489,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tiwai Island",
+   "kind": "natural=wood",
+   "lat": 7.54509,
+   "lon": -11.34574,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tiwai Island",
+    "kind": "tourism=attraction",
+    "lat": 7.5638,
+    "lon": -11.34458,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tiwai Island",
+    "kind": "natural=wood",
+    "lat": 7.54509,
+    "lon": -11.34574,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tiwai Island Wildlife Sanctuary",
+    "kind": "tourism=hostel",
+    "lat": 7.54995,
+    "lon": -11.35255,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Isla Tiwai",
+    "kind": "protected area",
+    "lat": 7.5425,
+    "lon": -11.34583,
+    "d": 0.4,
+    "match": true,
+    "id": "Q1504757"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Sulima y la desembocadura del Moa",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 6.9694,
+  "lon": -11.575,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sulima",
+   "kind": "place=town",
+   "lat": 6.96942,
+   "lon": -11.57531,
+   "d": 0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sulima",
+    "kind": "place=town",
+    "lat": 6.96942,
+    "lon": -11.57531,
+    "d": 0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sulima",
+    "kind": "place=hamlet",
+    "lat": 7.8,
+    "lon": -11.45,
+    "d": 93.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sulima",
+    "kind": "place=hamlet",
+    "lat": 7.96654,
+    "lon": -12.85132,
+    "d": 179.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Sulima",
+    "kind": "chiefdom in Northern Province, Sierra Leone",
+    "lat": 9.81789,
+    "lon": -11.25545,
+    "d": 318.7,
+    "match": true,
+    "id": "Q7636271"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Islas Turtle (archipiélago sherbro)",
+  "cat": "Naturaleza · costa",
+  "clase": "area",
+  "lat": 7.55,
+  "lon": -12.95,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Turtle Islands",
+   "kind": "place=island",
+   "lat": 7.61838,
+   "lon": -12.99545,
+   "d": 9.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Turtle Islands",
+    "kind": "place=island",
+    "lat": 7.61838,
+    "lon": -12.99545,
+    "d": 9.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Turtle Islands Expeditions",
+    "kind": "natural=beach",
+    "lat": 7.63598,
+    "lon": -12.99237,
+    "d": 10.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Turtle Islands",
+    "kind": "island group in Sierra Leone",
+    "lat": 7.6181,
+    "lon": -13.01125,
+    "d": 10.1,
+    "match": true,
+    "id": "Q28455407"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Makeni · capital del norte",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 8.8817,
+  "lon": -12.0442,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Makeni",
+   "kind": "ciudad en Sierra Leona",
+   "lat": 8.88167,
+   "lon": -12.04417,
+   "d": 0,
+   "match": true,
+   "id": "Q42678"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Makeni",
+    "kind": "place=city",
+    "lat": 8.88819,
+    "lon": -12.04419,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Makeni",
+    "kind": "place=hamlet",
+    "lat": 8.73974,
+    "lon": -11.99894,
+    "d": 16.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Makeni",
+    "kind": "amenity=school",
+    "lat": 8.86841,
+    "lon": -12.04113,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Makeni",
+    "kind": "ciudad en Sierra Leona",
+    "lat": 8.88167,
+    "lon": -12.04417,
+    "d": 0,
+    "match": true,
+    "id": "Q42678"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Kabala y la colina de Gbawuria",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 9.5833,
+  "lon": -11.55,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kabala Police Station",
+   "kind": "amenity=police",
+   "lat": 9.58597,
+   "lon": -11.55062,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kabala",
+    "kind": "place=town",
+    "lat": 9.58765,
+    "lon": -11.55006,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kabala Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 9.63832,
+    "lon": -11.51522,
+    "d": 7.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kabala Police Station",
+    "kind": "amenity=police",
+    "lat": 9.58597,
+    "lon": -11.55062,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kabala",
+    "kind": "city in kaduna",
+    "lat": 9.58778,
+    "lon": -11.55167,
+    "d": 0.5,
+    "match": true,
+    "id": "Q930789"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Monte Bintumani (1.945 m) y las montañas Loma",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 9.225,
+  "lon": -11.1167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Bintumani",
+   "kind": "highest mountain in Sierra Leone",
+   "lat": 9.225,
+   "lon": -11.11667,
+   "d": 0,
+   "match": true,
+   "id": "Q769525"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Loma Mansa",
+    "kind": "natural=peak",
+    "lat": 9.2271,
+    "lon": -11.11569,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bintumani",
+    "kind": "highest mountain in Sierra Leone",
+    "lat": 9.225,
+    "lon": -11.11667,
+    "d": 0,
+    "match": true,
+    "id": "Q769525"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Parque Nacional de Outamba-Kilimi",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 9.7694,
+  "lon": -12.0261,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Parque nacional de Outamba-Kilimi",
+   "kind": "national park northwest Sierra Leone near the border with the Republic of Guinea",
+   "lat": 9.77194,
+   "lon": -12.02611,
+   "d": 0.3,
+   "match": true,
+   "id": "Q724189"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Outamba-Kimili National Park",
+    "kind": "tourism=attraction",
+    "lat": 9.67048,
+    "lon": -12.17224,
+    "d": 19.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Outamba-Kimili National Park",
+    "kind": "tourism=camp_site",
+    "lat": 9.67053,
+    "lon": -12.17237,
+    "d": 19.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional de Outamba-Kilimi",
+    "kind": "national park northwest Sierra Leone near the border with the Republic of Guinea",
+    "lat": 9.77194,
+    "lon": -12.02611,
+    "d": 0.3,
+    "match": true,
+    "id": "Q724189"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada del bucle — Gbalamuya / Pamelap (desde Guinea)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 9.1167,
+  "lon": -12.9167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kambia",
+   "kind": "place in Northern Province, Sierra Leone",
+   "lat": 9.12389,
+   "lon": -12.91806,
+   "d": 0.8,
+   "match": true,
+   "id": "Q1722889"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gbalamuya",
+    "kind": "place=village",
+    "lat": 9.17026,
+    "lon": -12.95015,
+    "d": 7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gbalamuya Communit Health Centre (CHC)",
+    "kind": "amenity=clinic",
+    "lat": 9.17488,
+    "lon": -12.95168,
+    "d": 7.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gbalasua",
+    "kind": "place=hamlet",
+    "lat": 7.04044,
+    "lon": -10.87963,
+    "d": 321.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Kambia",
+    "kind": "place in Northern Province, Sierra Leone",
+    "lat": 9.12389,
+    "lon": -12.91806,
+    "d": 0.8,
+    "match": true,
+    "id": "Q1722889"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida por defecto — Gbalamuya / Pamelap (de vuelta a Guinea)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 9.1167,
+  "lon": -12.9167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kambia",
+   "kind": "place in Northern Province, Sierra Leone",
+   "lat": 9.12389,
+   "lon": -12.91806,
+   "d": 0.8,
+   "match": true,
+   "id": "Q1722889"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gbalamuya",
+    "kind": "place=village",
+    "lat": 9.17026,
+    "lon": -12.95015,
+    "d": 7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gbalamuya Communit Health Centre (CHC)",
+    "kind": "amenity=clinic",
+    "lat": 9.17488,
+    "lon": -12.95168,
+    "d": 7.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gbalasua",
+    "kind": "place=hamlet",
+    "lat": 7.04044,
+    "lon": -10.87963,
+    "d": 321.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Kambia",
+    "kind": "place in Northern Province, Sierra Leone",
+    "lat": 9.12389,
+    "lon": -12.91806,
+    "d": 0.8,
+    "match": true,
+    "id": "Q1722889"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida alternativa norte — Kamakwie / Madina Oula (hacia Kindia, Guinea)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 9.95,
+  "lon": -12.25,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Sainya",
+   "kind": "place=town",
+   "lat": 9.83755,
+   "lon": -12.3786,
+   "d": 18.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sainya",
+    "kind": "place=town",
+    "lat": 9.83755,
+    "lon": -12.3786,
+    "d": 18.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sanka",
+    "kind": "place=village",
+    "lat": 10.36475,
+    "lon": -13.09813,
+    "d": 103.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sanda",
+    "kind": "place=hamlet",
+    "lat": 8.87638,
+    "lon": -12.66422,
+    "d": 127.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Salida alternativa noreste — Kabala / Faranah (hacia la Alta Guinea)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 9.7,
+  "lon": -11.2,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Falaba",
+   "kind": "place in Northern Province, Sierra Leone",
+   "lat": 9.85389,
+   "lon": -11.32222,
+   "d": 21.7,
+   "match": true,
+   "id": "Q5431614"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Falaba",
+    "kind": "place=town",
+    "lat": 9.85546,
+    "lon": -11.32114,
+    "d": 21.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Falaba",
+    "kind": "place=hamlet",
+    "lat": 7.98047,
+    "lon": -11.76571,
+    "d": 201.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Falaba",
+    "kind": "place=hamlet",
+    "lat": 8.30427,
+    "lon": -12.36368,
+    "d": 201,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Falaba",
+    "kind": "place in Northern Province, Sierra Leone",
+    "lat": 9.85389,
+    "lon": -11.32222,
+    "d": 21.7,
+    "match": true,
+    "id": "Q5431614"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Jendema / Bo-Waterside (hacia Liberia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.85,
+  "lon": -11.25,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Bo Waterside",
+   "kind": "human settlement",
+   "lat": 7.0107,
+   "lon": -11.373,
+   "d": 22.4,
+   "match": true,
+   "id": "Q887448"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Jendema",
+    "kind": "place=hamlet",
+    "lat": 7.0223,
+    "lon": -11.38414,
+    "d": 24.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Jendema Community Market",
+    "kind": "amenity=marketplace",
+    "lat": 7.02,
+    "lon": -11.3831,
+    "d": 23.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Jendema Community Health Centre",
+    "kind": "building=hospital",
+    "lat": 7.02278,
+    "lon": -11.38626,
+    "d": 24.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bo Waterside",
+    "kind": "human settlement",
+    "lat": 7.0107,
+    "lon": -11.373,
+    "d": 22.4,
+    "match": true,
+    "id": "Q887448"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Cobertura consular española — Embajada en Conakry (Guinea)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 9.53,
+  "lon": -13.68,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Conakry Donka Hospital ETU",
+   "kind": "amenity=hospital",
+   "lat": 9.53562,
+   "lon": -13.68322,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Conakry",
+    "kind": "place=city",
+    "lat": 9.51706,
+    "lon": -13.69984,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry International Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 9.57655,
+    "lon": -13.61308,
+    "d": 9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conakry Donka Hospital ETU",
+    "kind": "amenity=hospital",
+    "lat": 9.53562,
+    "lon": -13.68322,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Conakry Region",
+    "kind": "region in Guinea",
+    "lat": 9.57265,
+    "lon": -13.64399,
+    "d": 6.2,
+    "match": true,
+    "id": "Q1373230"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Connaught Hospital — Freetown",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 8.487,
+  "lon": -13.234,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Connaught Hospital",
+   "kind": "office=government",
+   "lat": 8.48872,
+   "lon": -13.23777,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Connaught Hospital",
+    "kind": "office=government",
+    "lat": 8.48872,
+    "lon": -13.23777,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Connaught Hospital",
+    "kind": "amenity=office",
+    "lat": 8.48872,
+    "lon": -13.23777,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Connaught Hospital",
+    "kind": "amenity=dentist",
+    "lat": 8.48842,
+    "lon": -13.23869,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Connaught Hospital",
+    "kind": "hospital in Sierra Leone",
+    "lat": 8.48843,
+    "lon": -13.23841,
+    "d": 0.5,
+    "match": true,
+    "id": "Q5161328"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Holy Spirit Hospital — Makeni",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 8.8817,
+  "lon": -12.0442,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Holy spirit hospital",
+   "kind": "amenity=clinic",
+   "lat": 8.89218,
+   "lon": -12.03646,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Holy spirit hospital",
+    "kind": "amenity=clinic",
+    "lat": 8.89218,
+    "lon": -12.03646,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Holy Spirit Hospital",
+    "kind": "amenity=hospital",
+    "lat": 8.8926,
+    "lon": -12.0361,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Holy Spirit Hospital",
+    "kind": "amenity=hospital",
+    "lat": 8.89215,
+    "lon": -12.03641,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Holy Spirit Hospital",
+    "kind": "hospital",
+    "lat": 8.89251,
+    "lon": -12.03629,
+    "d": 1.5,
+    "match": true,
+    "id": "Q65050937"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Kenema Government Hospital · unidad de fiebre de Lassa",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 7.8767,
+  "lon": -11.1875,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kenema Government Hospital",
+   "kind": "hospital in Sierra Leone",
+   "lat": 7.87517,
+   "lon": -11.18472,
+   "d": 0.4,
+   "match": true,
+   "id": "Q18628132"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "District Health Management Team (DHMT)",
+    "kind": "amenity=hospital",
+    "lat": 7.87521,
+    "lon": -11.18497,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Kenema Government Hospital",
+    "kind": "hospital in Sierra Leone",
+    "lat": 7.87517,
+    "lon": -11.18472,
+    "d": 0.4,
+    "match": true,
+    "id": "Q18628132"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Freetown",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 8.484,
+  "lon": -13.2299,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Freetown Amusement Park",
+   "kind": "leisure=park",
+   "lat": 8.48688,
+   "lon": -13.2325,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Freetown",
+    "kind": "place=city",
+    "lat": 8.479,
+    "lon": -13.26795,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Freetown Amusement Park",
+    "kind": "leisure=park",
+    "lat": 8.48688,
+    "lon": -13.2325,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Freetown Road",
+    "kind": "highway=tertiary",
+    "lat": 8.47907,
+    "lon": -13.2624,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Freetown",
+    "kind": "capital de Sierra Leona",
+    "lat": 8.48722,
+    "lon": -13.23556,
+    "d": 0.7,
+    "match": true,
+    "id": "Q3780"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Bo, Kenema, Makeni",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 7.9564,
+  "lon": -11.74,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Bo Town",
+   "kind": "city in Sierra Leone",
+   "lat": 7.95778,
+   "lon": -11.73639,
+   "d": 0.4,
+   "match": true,
+   "id": "Q31917219"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bo",
+    "kind": "place=city",
+    "lat": 7.96206,
+    "lon": -11.73665,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bo",
+    "kind": "place=state",
+    "lat": 7.96203,
+    "lon": -11.73648,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bo",
+    "kind": "place=hamlet",
+    "lat": 7.93618,
+    "lon": -11.34749,
+    "d": 43.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Bo Town",
+    "kind": "city in Sierra Leone",
+    "lat": 7.95778,
+    "lon": -11.73639,
+    "d": 0.4,
+    "match": true,
+    "id": "Q31917219"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Kabala y Kamakwie (incierto)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 9.5833,
+  "lon": -11.55,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kabala Police Station",
+   "kind": "amenity=police",
+   "lat": 9.58597,
+   "lon": -11.55062,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kabala",
+    "kind": "place=town",
+    "lat": 9.58765,
+    "lon": -11.55006,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kabala Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 9.63832,
+    "lon": -11.51522,
+    "d": 7.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kabala Police Station",
+    "kind": "amenity=police",
+    "lat": 9.58597,
+    "lon": -11.55062,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kabala",
+    "kind": "city in kaduna",
+    "lat": 9.58778,
+    "lon": -11.55167,
+    "d": 0.5,
+    "match": true,
+    "id": "Q930789"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Agua · Freetown y ciudades principales",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 8.484,
+  "lon": -13.2299,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Freetown Amusement Park",
+   "kind": "leisure=park",
+   "lat": 8.48688,
+   "lon": -13.2325,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Freetown",
+    "kind": "place=city",
+    "lat": 8.479,
+    "lon": -13.26795,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Freetown Amusement Park",
+    "kind": "leisure=park",
+    "lat": 8.48688,
+    "lon": -13.2325,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Freetown Road",
+    "kind": "highway=tertiary",
+    "lat": 8.47907,
+    "lon": -13.2624,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Freetown",
+    "kind": "capital de Sierra Leona",
+    "lat": 8.48722,
+    "lon": -13.23556,
+    "d": 0.7,
+    "match": true,
+    "id": "Q3780"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Agua · península de Freetown y montaña",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 8.323,
+  "lon": -13.1866,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "River No. 2 Beach Road",
+   "kind": "highway=residential",
+   "lat": 8.33728,
+   "lon": -13.20421,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "River No. 2 Beach Road",
+    "kind": "highway=residential",
+    "lat": 8.33728,
+    "lon": -13.20421,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "No 2 River beach",
+    "kind": "natural=beach",
+    "lat": 8.33536,
+    "lon": -13.20538,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Área Occidental",
+    "kind": "division of Sierra Leone",
+    "lat": 8.33333,
+    "lon": -13,
+    "d": 20.6,
+    "match": false,
+    "id": "Q1050475"
+   },
+   {
+    "src": "wd",
+    "name": "Freetown Peninsula",
+    "kind": "",
+    "lat": 8.40782,
+    "lon": -13.17203,
+    "d": 9.6,
+    "match": true,
+    "id": "Q964511"
+   }
+  ]
+ }
+]

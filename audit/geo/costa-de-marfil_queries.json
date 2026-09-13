@@ -1,0 +1,578 @@
+{
+ "slug": "costa-de-marfil",
+ "bbox": [
+  -9.0,
+  3.9000000000000004,
+  -2.1,
+  11.100000000000001
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Monte Nimba (Reserva Natural Integral, UNESCO)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 7.5406,
+   "lon": -8.4581,
+   "desc": "La cadena del Nimba se levanta sobre la triple frontera de Costa de Marfil, Guinea y Liberia y culmina en el monte Richard-Molard (1.752 m), techo de los dos primeros países. Es Patrimonio Mundial de ",
+   "q": [
+    "Mont Nimba",
+    "Monts Nimba",
+    "Réserve naturelle intégrale du mont Nimba"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Man · la ciudad de las dieciocho montañas",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 7.4125,
+   "lon": -7.5539,
+   "desc": "Capital de la región de Tonkpi y del oeste forestal marfileño, encajada en un anfiteatro de cumbres que le ha dado el apodo de «la ciudad de las 18 montañas». Clima notablemente más fresco que la cost",
+   "q": [
+    "Man",
+    "Man Côte d'Ivoire"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Dent de Man (881 m)",
+   "cat": "Naturaleza · montaña",
+   "prio": "Alta",
+   "lat": 7.4553,
+   "lon": -7.5192,
+   "desc": "El diente de roca que domina Man y símbolo de toda la región: una cumbre puntiaguda de unos 881 m que se sube a pie en una jornada corta (unas 2-3 h de subida) por sendero de selva y bloques, con vist",
+   "q": [
+    "Dent de Man",
+    "La Dent de Man"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Mont Tonkoui (1.189 m)",
+   "cat": "Naturaleza · montaña",
+   "prio": "Alta",
+   "lat": 7.455,
+   "lon": -7.625,
+   "desc": "La segunda cumbre más alta de Costa de Marfil, a unos 20 km al noroeste de Man. Tiene la particularidad de que una pista de tierra sube casi hasta la cima (antigua estación climática y repetidores), l",
+   "q": [
+    "Mont Tonkoui",
+    "Tonkoui"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "La Cascade de Man",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 7.3833,
+   "lon": -7.5667,
+   "desc": "A unos 5 km del centro de Man, un salto de agua encajado en un bosque de bambúes gigantes que forma un túnel vegetal sobre el sendero de acceso — la imagen más reproducida de la región después de la D",
+   "q": [
+    "Cascade de Man",
+    "La Cascade de Man",
+    "Cascades de Man"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Puente de lianas de Lieupleu (y los puentes dan)",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 7.2667,
+   "lon": -7.7167,
+   "desc": "Los puentes de lianas del país dan son pasarelas colgantes tejidas enteramente con lianas vivas sobre los ríos de la selva, sin un solo clavo, mantenidas y renovadas por especialistas rituales de cada",
+   "q": [
+    "Pont de lianes de Lieupleu",
+    "Lieupleu",
+    "Pont de lianes"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Cascadas de Gbêtitapéa (Daloa)",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 6.9167,
+   "lon": -6.4333,
+   "desc": "A pocos kilómetros del centro de Daloa, en el barrio-aldea de Gbêtitapéa, el río se despeña en una serie de saltos y marmitas de granito rodeados de vegetación: el sitio natural más conocido del centr",
+   "q": [
+    "Daloa",
+    "Gbêtitapéa",
+    "Gbetitapea"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Yamoussoukro · Basílica de Nuestra Señora de la Paz",
+   "cat": "Patrimonio",
+   "prio": "Alta",
+   "lat": 6.8094,
+   "lon": -5.2966,
+   "desc": "La iglesia más grande del mundo, plantada en medio de la sabana de la aldea natal de Félix Houphouët-Boigny, que hizo de ella la capital política del país. Inaugurada en 1990 y consagrada por Juan Pab",
+   "q": [
+    "Basilique Notre-Dame de la Paix",
+    "Basilique de Yamoussoukro",
+    "Yamoussoukro"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Parque Nacional de Taï (UNESCO) · chimpancés con herramientas",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 5.75,
+   "lon": -7.35,
+   "desc": "Unos 5.400 km² del último gran bloque de selva primaria de África occidental, Patrimonio Mundial de la UNESCO desde 1982 y Reserva de la Biosfera. Aquí vive la población de chimpancés occidentales mej",
+   "q": [
+    "Parc national de Taï",
+    "Taï National Park",
+    "Taï"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Mont Niénokoué (396 m) · mirador sobre la selva de Taï",
+   "cat": "Naturaleza · montaña",
+   "prio": "Media",
+   "lat": 5.4333,
+   "lon": -7.1833,
+   "desc": "Inselberg de granito que emerge del mar de selva en el sur del Parque Nacional de Taï, accesible desde el campamento ecoturístico de Djouroutou. La subida a pie con guía atraviesa selva cerrada y term",
+   "q": [
+    "Mont Niénokoué",
+    "Niénokoué"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Sassandra y la costa oeste",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": 4.95,
+   "lon": -6.0833,
+   "desc": "Antiguo puesto comercial francés en la desembocadura del río Sassandra, con casas coloniales desconchadas sobre el acantilado, un puerto pesquero muy vivo y, justo al este, la mejor tanda de playas de",
+   "q": [
+    "Sassandra"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Grand-Lahou y el Parque Nacional de Azagny",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 5.1333,
+   "lon": -5.0167,
+   "desc": "Grand-Lahou es la aldea del cordón litoral donde el río Bandama se encuentra con el Atlántico, con las ruinas del viejo Grand-Lahou colonial siendo literalmente devoradas por el mar (uno de los casos ",
+   "q": [
+    "Grand-Lahou",
+    "Parc national d'Azagny",
+    "Azagny"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Abiyán · Le Plateau y la laguna Ébrié",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 5.325,
+   "lon": -4.02,
+   "desc": "Capital económica y mayor base logística de todo el golfo de Guinea occidental: puerto, aeropuerto internacional, Embajada de España, talleres y recambios 4x4 de referencia regional, veterinarios de n",
+   "q": [
+    "Abidjan",
+    "Le Plateau Abidjan",
+    "Plateau Abidjan"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Grand-Bassam (UNESCO)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 5.1961,
+   "lon": -3.7389,
+   "desc": "Primera capital de la Costa de Marfil colonial (1893-1896) y Patrimonio Mundial de la UNESCO desde 2012 como «ciudad histórica colonial». El Quartier France, encajado entre el mar y la laguna, conserv",
+   "q": [
+    "Grand-Bassam",
+    "Grand Bassam"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Assinie-Mafia y el cordón litoral",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": 5.1333,
+   "lon": -3.4667,
+   "desc": "La última playa antes de Ghana y la más conocida del país: una lengua de arena entre el Atlántico y la laguna Aby, con cocoteros, campamentos, piraguas y el estuario de la Bassin d'Assinie. Más allá, ",
+   "q": [
+    "Assinie-Mafia",
+    "Assinie"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Bondoukou y las mezquitas de estilo sudanés",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 8.0402,
+   "lon": -2.8,
+   "desc": "Capital del Zanzan y una de las ciudades más antiguas del país: fue etapa mayor de las rutas caravaneras dyula entre el Sahel y el bosque, y conserva una notable concentración de mezquitas de adobe de",
+   "q": [
+    "Bondoukou"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Parque Nacional de la Comoé (UNESCO) · CONDICIONAL por seguridad",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Media",
+   "lat": 8.75,
+   "lon": -3.7,
+   "desc": "Con unos 11.500 km² es el mayor parque nacional de África occidental y uno de los mayores del continente, Patrimonio Mundial de la UNESCO desde 1983 y Reserva de la Biosfera: un gradiente completo des",
+   "q": [
+    "Parc national de la Comoé",
+    "Comoé National Park",
+    "Comoé"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Bouaké",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 7.6906,
+   "lon": -5.03,
+   "desc": "Segunda ciudad del país y capital del centro, en pleno país baulé. Fue la capital de facto de la zona rebelde durante la partición del país entre 2002 y 2011, y hoy es un gran nudo de carreteras y fer",
+   "q": [
+    "Bouaké"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Katiola · la alfarería mangoro",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 8.1333,
+   "lon": -5.1,
+   "desc": "A 50 km al norte de Bouaké, Katiola es la capital de la cerámica marfileña: las mujeres mangoro (subgrupo de los tagbana) modelan a mano, sin torno, grandes canaris de agua, braseros y jarras que se v",
+   "q": [
+    "Katiola"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Korhogo y el país senufo",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 9.4578,
+   "lon": -5.6294,
+   "desc": "Capital del norte y del pueblo senufo, la gran parada cultural de la subida. Aquí están: los TEJIDOS DE KORHOGO, telas de algodón cubiertas de animales estilizados, máscaras y figuras rituales, que se",
+   "q": [
+    "Korhogo"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Séguéla",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 7.9611,
+   "lon": -6.6731,
+   "desc": "Capital del Worodougou, en el centro-oeste, y tradicionalmente la ciudad de los diamantes aluviales marfileños (los yacimientos de Séguéla y Tortiya estuvieron bajo embargo internacional del Proceso d",
+   "q": [
+    "Séguéla"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "Biankouma y la pista de Sipilou",
+   "cat": "Naturaleza · montaña",
+   "prio": "Media",
+   "lat": 7.7333,
+   "lon": -7.6167,
+   "desc": "Biankouma es la otra capital de montaña del oeste, al norte de Man, en pleno macizo del Tonkpi y rodeada de aldeas toura y dan con arquitectura tradicional de adobe y techo cónico de paja (los pueblos",
+   "q": [
+    "Biankouma",
+    "Sipilou"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada bajada — Gbapleu / N'Zoo (desde Guinea)",
+   "cat": "Frontera",
+   "lat": 7.1,
+   "lon": -8.4,
+   "desc": "Paso principal del oeste, en el eje Nzérékoré–Lola–N'Zoo (Guinea) → Gbapleu–Danané (Costa de Marfil). Los 48 km entre la frontera y Danané están asfaltados desde 2017; el lado guineano (Lola–N'Zoo, 32",
+   "q": [
+    "Gbapleu",
+    "Zouan-Hounien",
+    "Danané"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida bajada — Noé / Elubo (hacia Ghana)",
+   "cat": "Frontera",
+   "lat": 5.1167,
+   "lon": -2.7667,
+   "desc": "El paso más transitado de toda África occidental francófona-anglófona: carretera asfaltada en buen estado a ambos lados y puente sobre el río Tanoé. Horario habitual 06:00–18:00. Cambio de franco CFA ",
+   "q": [
+    "Noé",
+    "Noe Côte d'Ivoire",
+    "Elubo"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada subida — Soko / Sampa (desde Ghana)",
+   "cat": "Frontera",
+   "lat": 7.9717,
+   "lon": -2.7189,
+   "desc": "Paso interior del este: Sampa (región de Bono, Ghana) del lado ghanés, Soko del lado marfileño, camino de Bondoukou. La evaluación logística del Logistics Cluster lo documenta como puesto formal abier",
+   "q": [
+    "Soko",
+    "Sampa",
+    "Bondoukou"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Salida subida — Sipilou (hacia Guinea)",
+   "cat": "Frontera",
+   "lat": 7.9833,
+   "lon": -8.0333,
+   "desc": "Segundo paso marfileño hacia Guinea, al norte del de Gbapleu, en el departamento de Biankouma; figura en la evaluación logística del Logistics Cluster como puesto fronterizo formal. Da a la región gui",
+   "q": [
+    "Sipilou",
+    "Sipilou Côte d'Ivoire"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Embajada de España en Abiyán",
+   "cat": "Consular",
+   "lat": 5.36,
+   "lon": -3.97,
+   "desc": "Impasse Ablaha Pokou, Cocody Danga Nord, Abiyán. Tel. +225 22 44 48 50 · emb.abidjan@maec.es. Demarcación que cubre también Guinea y otros países del entorno: es el punto consular de referencia de tod",
+   "q": [
+    "Ambassade d'Espagne Abidjan",
+    "Embassy of Spain Abidjan",
+    "Cocody Abidjan"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "CHU de Cocody — Abiyán",
+   "cat": "Hospital",
+   "lat": 5.355,
+   "lon": -3.985,
+   "desc": "Centro Hospitalario Universitario de Cocody, referencia de la capital económica y la mejor capacidad de urgencias graves de la subregión junto con la PISAM (clínica privada de Cocody, la opción habitu",
+   "q": [
+    "CHU de Cocody",
+    "CHU Cocody Abidjan",
+    "Cocody"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Hospital regional de Man",
+   "cat": "Hospital",
+   "lat": 7.4125,
+   "lon": -7.5539,
+   "desc": "Referencia hospitalaria del bloque de montaña del oeste (Nimba, Dent de Man, Tonkoui, puentes de lianas). Capacidad limitada: para algo grave, evacuación a Abiyán.",
+   "q": [
+    "Centre Hospitalier Régional de Man",
+    "CHR de Man",
+    "Hôpital de Man",
+    "Man"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "CHU de Bouaké",
+   "cat": "Hospital",
+   "lat": 7.6906,
+   "lon": -5.03,
+   "desc": "Centro hospitalario universitario del centro del país y única referencia seria del corredor de subida entre Abiyán y el norte.",
+   "q": [
+    "CHU de Bouaké",
+    "CHU Bouaké",
+    "Bouaké"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Combustible · Danané / Man",
+   "cat": "Combustible",
+   "lat": 7.4125,
+   "lon": -7.5539,
+   "desc": "Primer repostaje formal tras la frontera de Guinea (Total, Petro Ivoire, Ola Energy). Llenar a fondo en Man antes de las pistas de montaña y del desvío al Nimba: fuera de las ciudades del oeste la ofe",
+   "q": [
+    "Man",
+    "Danané"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Daloa / Yamoussoukro",
+   "cat": "Combustible",
+   "lat": 6.8097,
+   "lon": -5.2758,
+   "desc": "Eje central con la mejor red del interior; Yamoussoukro es además el mejor punto para repostar antes de bajar hacia Gagnoa, Soubré y el bloque forestal de Taï.",
+   "q": [
+    "Yamoussoukro",
+    "Daloa"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Soubré y San-Pédro (bloque de Taï)",
+   "cat": "Combustible",
+   "lat": 4.7485,
+   "lon": -6.6363,
+   "desc": "Soubré es la última plaza formal antes de las pistas forestales de Taï por el norte, y San-Pédro —segundo puerto del país, con talleres, recambios y hospital— lo es por el sur al salir del parque haci",
+   "q": [
+    "San-Pédro",
+    "San Pedro Côte d'Ivoire",
+    "Soubré"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Abiyán",
+   "cat": "Combustible",
+   "lat": 5.325,
+   "lon": -4.02,
+   "desc": "Mejor oferta y mejor calidad del país, con diferencia. Repostar a fondo aquí antes del tramo final a Ghana y, en la subida, al volver a entrar en el país.",
+   "q": [
+    "Abidjan"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Bondoukou / Bouaké / Korhogo (eje de subida)",
+   "cat": "Combustible",
+   "lat": 7.6906,
+   "lon": -5.03,
+   "desc": "Tres plazas formales bien espaciadas en el corredor de subida (Bondoukou ~330 km de Bouaké, Bouaké ~230 km de Korhogo). Bouaké es la mejor de las tres para talleres y recambios.",
+   "q": [
+    "Bouaké",
+    "Bondoukou",
+    "Korhogo"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Combustible · Séguéla (último del oeste en la subida)",
+   "cat": "Combustible",
+   "lat": 7.9611,
+   "lon": -6.6731,
+   "desc": "Última estación formal fiable antes de Touba, Biankouma y la frontera de Sipilou. Salir de aquí con depósitos y garrafas llenos: el tramo final de la subida tiene oferta escasa e irregular.",
+   "q": [
+    "Séguéla"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Agua potable y de uso general · Abiyán, Yamoussoukro, Bouaké, Man",
+   "cat": "Agua potable",
+   "lat": 5.325,
+   "lon": -4.02,
+   "desc": "Agua embotellada sin problema de suministro en supermercados (Carrefour, Prosuma, Sococé) de Abiyán y en las capitales regionales. Para la recarga del depósito de uso general, las estaciones Total/Pet",
+   "q": [
+    "Abidjan",
+    "Yamoussoukro",
+    "Bouaké",
+    "Man"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Base canina · Abiyán (veterinarios y residencias)",
+   "cat": "Consular",
+   "lat": 5.345,
+   "lon": -3.99,
+   "desc": "Abiyán concentra clínicas veterinarias de nivel europeo y residencias caninas — según el dosier canino del proyecto, el mejor punto de respiro del perro en toda África occidental. Es también donde hay",
+   "q": [
+    "Cocody Abidjan",
+    "Abidjan"
+   ]
+  }
+ ]
+}

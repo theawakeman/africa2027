@@ -1,0 +1,598 @@
+{
+ "slug": "guinea",
+ "bbox": [
+  -15.5,
+  6.8,
+  -7.3,
+  13.100000000000001
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Koundara y el Parque Nacional del Badiar",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 12.4833,
+   "lon": -13.3,
+   "desc": "Primera población guineana tras el paso de Sambaïlo y capital de la prefectura del extremo noroeste. A pocos kilómetros al norte está el Parque Nacional del Badiar, unas 38.000 hectáreas de sabana arb",
+   "q": [
+    "Koundara",
+    "Parc National du Badiar",
+    "Badiar"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Labé · capital del Fouta Djallon",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 11.3167,
+   "lon": -12.2833,
+   "desc": "Segunda o tercera ciudad del país y capital indiscutible de la Guinea Media: a 1.000 m de altitud, con clima fresco, el mayor mercado del altiplano —donde se ve la sociedad fulani del Fouta en estado ",
+   "q": [
+    "Labé",
+    "Labe Guinée"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Monte Loura y la Dama de Mali (1.515 m)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 12.0833,
+   "lon": -12.3,
+   "desc": "El techo del Fouta Djallon y el punto más alto de toda África occidental fuera de las tierras altas camerunesas: 1.515 m sobre el borde norte del altiplano, junto al pueblo de Mali, a unos 120 km al n",
+   "q": [
+    "Mont Loura",
+    "Dame de Mali",
+    "Mali Guinée",
+    "Monts Loura"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Pita y las cataratas de Kinkon",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 10.9833,
+   "lon": -12.4,
+   "desc": "Pita es el centro del Fouta Djallon central y la base para las dos grandes cascadas de la región. Las chutes de Kinkon están a unos 12 km, sobre el río Kokoulo: una caída de unos 80 m en un cañón de a",
+   "q": [
+    "Chutes de Kinkon",
+    "Kinkon",
+    "Pita"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Cataratas de Kambadaga",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 11.0167,
+   "lon": -12.5167,
+   "desc": "La otra gran cascada de Pita y, para muchos viajeros, la mejor de Guinea: una sucesión de tres saltos escalonados sobre el mismo río Kokoulo, encajados en un cañón de arenisca, con pozas profundas y v",
+   "q": [
+    "Chutes de Kambadaga",
+    "Kambadaga"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Doucki · el «Gran Cañón de Guinea»",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 11.15,
+   "lon": -12.6,
+   "desc": "El sitio de senderismo más famoso de África occidental entre mochileros, y probablemente el mejor del viaje entre Marruecos y Camerún. Un pueblo de unos 500 habitantes en el borde del altiplano, donde",
+   "q": [
+    "Doucki",
+    "Doucki Guinée"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Dalaba · la estación de altura colonial",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 10.6833,
+   "lon": -12.25,
+   "desc": "A 1.200 m, en el corazón del Fouta, Dalaba fue la estación climática de la administración colonial francesa: el sitio donde los funcionarios subían a escapar del calor de Conakry, con jardines, huerta",
+   "q": [
+    "Dalaba"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Cataratas de Ditinn",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 10.75,
+   "lon": -12.1667,
+   "desc": "A unos 50 km al noreste de Dalaba, la cascada más fotogénica de Guinea: un chorro único que se descuelga en caída libre desde un labio de arenisca de unos 70-80 m sobre un circo de paredes verticales ",
+   "q": [
+    "Chutes de Ditinn",
+    "Ditinn"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Kindia · el Velo de la Novia y el monte Gangan",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 10.05,
+   "lon": -12.8542,
+   "desc": "Cuarta ciudad del país, a 135 km de Conakry sobre la vieja línea del ferrocarril colonial, y la puerta del Fouta desde la costa. A pocos kilómetros está el Voile de la Mariée (el «Velo de la Novia»), ",
+   "q": [
+    "Kindia",
+    "Voile de la Mariée",
+    "Mont Gangan"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Conakry",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 9.5092,
+   "lon": -13.7122,
+   "desc": "Capital en una península estrecha de unos 35 km que se adentra en el Atlántico, con el centro administrativo y el puerto en la punta (Kaloum) y la ciudad real extendiéndose kilómetros hacia el interio",
+   "q": [
+    "Conakry"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Islas de Los (Room, Kassa, Tamara)",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 9.45,
+   "lon": -13.83,
+   "desc": "Archipiélago a unos 20 minutos de lancha del puerto de Conakry: tres islas principales —Tamara (Factory), Room y Kassa— con playas de arena, cocoteros y agua tranquila, que fueron enclave británico ha",
+   "q": [
+    "Îles de Los",
+    "Iles de Los",
+    "Kassa",
+    "Tamara"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Boké y la costa de Boffa (variante costera)",
+   "cat": "Cultura",
+   "prio": "Baja",
+   "lat": 10.9333,
+   "lon": -14.3,
+   "desc": "VARIANTE OPCIONAL, fuera de los dos corredores principales: la carretera de la costa norte (N3) desde Conakry hacia Boffa y Boké. Boké conserva el Fortin de Boké, puesto colonial francés de 1878 junto",
+   "q": [
+    "Boké",
+    "Boffa",
+    "Boke Guinée"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Faranah y el nacimiento del río Níger",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 10.0333,
+   "lon": -10.75,
+   "desc": "Faranah es la ciudad del alto Níger —ciudad natal de Sékou Touré, con su mezquita monumental y un trazado de avenidas desproporcionado para su tamaño— y la base para el sitio geográfico más simbólico ",
+   "q": [
+    "Faranah",
+    "Source du Niger",
+    "Niger"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Bosque de Ziama (Macenta) · Reserva de la Biosfera",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 8.4,
+   "lon": -9.3167,
+   "desc": "Unas 116.000 hectáreas de selva tropical húmeda de tierras bajas en la prefectura de Macenta, la mayor masa forestal que queda en Guinea y Reserva de la Biosfera de la UNESCO desde 1980. Es un fragmen",
+   "q": [
+    "Ziama",
+    "Forêt de Ziama",
+    "Massif de Ziama",
+    "Macenta"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Nzérékoré y la Guinea forestal",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 7.7561,
+   "lon": -8.8179,
+   "desc": "Tercera ciudad de Guinea y capital de la Guinée Forestière, un mundo completamente distinto al resto del país: selva húmeda en lugar de sabana, 1.800 mm de lluvia al año, y los pueblos kpelle, kissi, ",
+   "q": [
+    "Nzérékoré",
+    "N'Zérékoré",
+    "Nzerekore"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Montes Nimba (UNESCO) · la triple frontera",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 7.6032,
+   "lon": -8.391,
+   "desc": "Reserva Natural Integral del Monte Nimba, Patrimonio Mundial de la UNESCO desde 1981 (y en la Lista del Patrimonio Mundial en Peligro desde 1992 por la presión minera): 17.632 hectáreas repartidas ent",
+   "q": [
+    "Monts Nimba",
+    "Mont Nimba",
+    "Réserve naturelle intégrale des monts Nimba"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Kankan · capital de la Alta Guinea",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 10.3853,
+   "lon": -9.3057,
+   "desc": "Segunda ciudad del país por población y capital histórica del mundo malinké guineano, a orillas del río Milo, afluente del Níger. Es el gran centro del islam en Guinea —la Gran Mezquita de Kankan es u",
+   "q": [
+    "Kankan"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Kouroussa y el Parque Nacional del Alto Níger",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 10.65,
+   "lon": -9.8833,
+   "desc": "Kouroussa es la ciudad del Níger propiamente dicho: aquí el río, que nació como un manantial cerca de Faranah, ya es navegable, y desde este punto arrancaban históricamente los vapores fluviales hacia",
+   "q": [
+    "Parc National du Haut Niger",
+    "Kouroussa",
+    "Haut Niger"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Dabola y las cataratas del Tinkisso",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 10.75,
+   "lon": -11.1167,
+   "desc": "Dabola está en la bisagra entre la sabana de la Alta Guinea y el pie oriental del Fouta Djallon, y es la parada natural del corredor de subida entre Kouroussa y Tougué. A pocos kilómetros están las ca",
+   "q": [
+    "Chutes du Tinkisso",
+    "Tinkisso",
+    "Dabola"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Tougué y el Fouta oriental",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 11.4333,
+   "lon": -11.6667,
+   "desc": "La prefectura menos visitada del Fouta Djallon y la más difícil de alcanzar: el flanco oriental del altiplano, donde la meseta cae hacia la cuenca del Tinkisso en una sucesión de escarpes, gargantas y",
+   "q": [
+    "Tougué",
+    "Tougue Guinée"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada bajada — Sambaïlo / Koundara (desde Manda-Kalifourou, Senegal)",
+   "cat": "Frontera",
+   "lat": 12.55,
+   "lon": -13.35,
+   "desc": "El paso más fácil entre Senegal y Guinea y el que usa la práctica totalidad del tráfico: carretera asfaltada en buen estado a los dos lados, del puesto senegalés de Manda-Kalifourou al guineano de Sam",
+   "q": [
+    "Sambaïlo",
+    "Sambailo",
+    "Koundara"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida bajada — N'Zo / Gbapleu (hacia Danané, Costa de Marfil)",
+   "cat": "Frontera",
+   "lat": 7.55,
+   "lon": -8.45,
+   "desc": "Paso principal entre la Guinea forestal y el oeste de Costa de Marfil, en la prefectura de Lola: del puesto guineano de N'Zo al marfileño de Gbapleu, y de ahí a Danané y Man. Reabierto en septiembre d",
+   "q": [
+    "N'Zoo",
+    "Nzoo",
+    "Gbapleu",
+    "Lola"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada subida — N'Zo / Gbapleu (desde Costa de Marfil)",
+   "cat": "Frontera",
+   "lat": 7.55,
+   "lon": -8.45,
+   "desc": "Mismo paso en sentido inverso. Aquí se abre el segundo visado guineano y el segundo permiso temporal del vehículo. Alternativa teórica más al norte (Sipilou / Kérouané-Beyla) que evitaría repetir el p",
+   "q": [
+    "N'Zoo",
+    "Nzoo",
+    "Gbapleu",
+    "Lola"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Variante de salida — Pamelap (hacia Sierra Leona)",
+   "cat": "Frontera",
+   "lat": 9.3,
+   "lon": -13.05,
+   "desc": "Paso costero Forécariah-Pamelap-Kambia, asfaltado de punta a punta, hacia Freetown. Solo se activa si se ejecuta la variante opcional de Sierra Leona en el tramo de subida que contempla la ruta global",
+   "q": [
+    "Pamelap",
+    "Pamlap",
+    "Farmoreah"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · EXCLUIDA — todos los pasos con Guinea-Bisáu y con Malí",
+   "cat": "Frontera",
+   "lat": 12.0,
+   "lon": -13.8,
+   "desc": "Guinea-Bisáu queda excluida por protocolo del proyecto: ninguna variante debe rozar su territorio, ni siquiera como atajo. Malí queda excluido por conflicto: eso descarta el eje Siguiri-Kourémalé y to",
+   "q": [
+    "Kounsitel",
+    "Gaoual",
+    "Koundara"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Embajada de España en Conakry",
+   "cat": "Consular",
+   "lat": 9.53,
+   "lon": -13.68,
+   "desc": "Place Almamy Samory Touré, Bâtiment R2000, 6º piso, Moussoudougou, Coléah. Cancillería +224 664 20 22 01 · Sección consular +224 613 33 90 90 · Emergencia consular grave +224 664 33 54 93. Coordenada ",
+   "q": [
+    "Ambassade d'Espagne Conakry",
+    "Embassy of Spain Conakry",
+    "Coléah Conakry"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Embajada de Costa de Marfil en Conakry",
+   "cat": "Consular",
+   "lat": 9.535,
+   "lon": -13.675,
+   "desc": "Punto crítico del itinerario: es donde se tramita el visado marfileño para la salida de la bajada. Confirmar dirección, horarios y requisitos por teléfono nada más llegar a Conakry, con margen de vari",
+   "q": [
+    "Ambassade de Côte d'Ivoire Conakry",
+    "Ambassade de Côte d'Ivoire",
+    "Conakry"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Hôpital National Donka — Conakry",
+   "cat": "Hospital",
+   "lat": 9.535,
+   "lon": -13.695,
+   "desc": "Principal hospital de referencia del país; capacidad limitada para politraumatismos. El seguro con evacuación aérea es imprescindible en todo el país: la evacuación realista desde Guinea es a Dakar o ",
+   "q": [
+    "Hôpital National Donka",
+    "CHU Donka",
+    "Donka"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hôpital Régional de Labé",
+   "cat": "Hospital",
+   "lat": 11.3167,
+   "lon": -12.2833,
+   "desc": "Recurso sanitario de referencia de todo el Fouta Djallon y del corredor norte. Para casos graves, evacuación a Conakry o a Dakar. Coordenada urbana aproximada.",
+   "q": [
+    "Hôpital Régional de Labé",
+    "Hôpital de Labé",
+    "Labé"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Laboratoire Régional Vétérinaire de Labé",
+   "cat": "Servicio",
+   "lat": 11.3167,
+   "lon": -12.2833,
+   "desc": "Uno de los pocos servicios veterinarios oficiales del interior de Guinea, dependiente de la Direction Nationale des Services Vétérinaires (DNSV). Es el recurso más cercano si hay que resolver algo con",
+   "q": [
+    "Laboratoire Vétérinaire Labé",
+    "Laboratoire Régional Vétérinaire de Labé",
+    "Labé"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Hôpital Régional de Nzérékoré",
+   "cat": "Hospital",
+   "lat": 7.7561,
+   "lon": -8.8179,
+   "desc": "Única referencia hospitalaria seria de toda la Guinea forestal y del sureste. Entre Kankan y Nzérékoré no hay nada equivalente.",
+   "q": [
+    "Hôpital Régional de Nzérékoré",
+    "Hôpital de Nzérékoré",
+    "Nzérékoré"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Hôpital Régional de Kankan",
+   "cat": "Hospital",
+   "lat": 10.3853,
+   "lon": -9.3057,
+   "desc": "Referencia hospitalaria del corredor de subida por la Alta Guinea.",
+   "q": [
+    "Hôpital Régional de Kankan",
+    "Hôpital de Kankan",
+    "Kankan"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Conakry",
+   "cat": "Combustible",
+   "lat": 9.5092,
+   "lon": -13.7122,
+   "desc": "Mejor oferta y calidad del país (Total, Vivo/Shell, Petroguinée). Repostar a fondo aquí antes de cualquier tramo interior.",
+   "q": [
+    "Conakry"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Combustible · Labé, Pita, Mamou, Dalaba, Kindia",
+   "cat": "Combustible",
+   "lat": 11.3167,
+   "lon": -12.2833,
+   "desc": "Estaciones formales en todas las ciudades del eje Labé-Mamou-Kindia-Conakry: es el corredor con mejor cobertura del país. Repostar en Labé antes de subir a Mali/Loura o de bajar a Doucki.",
+   "q": [
+    "Labé",
+    "Pita",
+    "Mamou",
+    "Dalaba",
+    "Kindia"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Combustible · Faranah, Kissidougou, Macenta, Nzérékoré",
+   "cat": "Combustible",
+   "lat": 7.7561,
+   "lon": -8.8179,
+   "desc": "Estaciones formales en las capitales del eje sureste, pero con roturas de suministro puntuales. Autonomía recomendada Mamou → Nzérékoré (~650 km) con garrafas, y no depender de Macenta.",
+   "q": [
+    "Nzérékoré",
+    "Macenta",
+    "Kissidougou",
+    "Faranah"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Combustible · Kankan, Kouroussa, Dabola (escaso a partir de Tougué)",
+   "cat": "Combustible",
+   "lat": 10.3853,
+   "lon": -9.3057,
+   "desc": "Kankan y Dabola tienen estaciones formales. AVISO: a partir de Dabola, la pista Tougué-Labé del corredor de subida no tiene garantía de combustible — salir de Dabola con depósitos y garrafas llenos (~",
+   "q": [
+    "Kankan",
+    "Kouroussa",
+    "Dabola",
+    "Tougué"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Agua potable y de uso general · Conakry, Labé, Kankan, Nzérékoré",
+   "cat": "Agua potable",
+   "lat": 9.5092,
+   "lon": -13.7122,
+   "desc": "Agua embotellada y en bolsa disponible en todas las ciudades. Para el depósito de uso general: estaciones de servicio, hoteles y misiones católicas suelen permitir llenar con manguera. En el Fouta el ",
+   "q": [
+    "Conakry",
+    "Labé",
+    "Kankan",
+    "Nzérékoré"
+   ]
+  },
+  {
+   "id": "log-17",
+   "type": "log",
+   "n": 17,
+   "name": "Agua · Fouta Djallon (el castillo de agua de África occidental)",
+   "cat": "Agua potable",
+   "lat": 11.0833,
+   "lon": -12.4,
+   "desc": "Paradoja útil: es la región con más agua de África occidental —de aquí nacen el Níger, el Senegal y el Gambia— y a la vez una donde el agua de superficie no es potable sin tratar. Manantiales y arroyo",
+   "q": [
+    "Fouta Djallon",
+    "Fouta-Djalon",
+    "Pita"
+   ]
+  }
+ ]
+}

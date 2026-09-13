@@ -1,0 +1,527 @@
+{
+ "slug": "sierra-leona",
+ "bbox": [
+  -13.700000000000001,
+  6.5,
+  -9.899999999999999,
+  10.4
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Gbalamuya / Kambia · la puerta de entrada",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 9.1167,
+   "lon": -12.9167,
+   "desc": "Gbalamuya es el puesto fronterizo principal del país, justo enfrente del guineano de Pamelap, en la carretera Conakry-Freetown: es el paso que usa prácticamente todo el tráfico regional y el único doc",
+   "q": [
+    "Gbalamuya",
+    "Kambia",
+    "Gbalamuya Sierra Leone"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Freetown · la ciudad de los libertos",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 8.484,
+   "lon": -13.2299,
+   "desc": "Capital y única base logística de talla nacional: el mayor puerto natural de África, bancos con cajero, supermercados, talleres, hospitales y las embajadas. Fundada en 1792 por colonos negros llegados",
+   "q": [
+    "Freetown"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Museo Nacional del Ferrocarril (Cline Town, Freetown)",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 8.488,
+   "lon": -13.205,
+   "desc": "Una de las visitas más inesperadas de África occidental y una historia de supervivencia en sí misma. El ferrocarril del gobierno de Sierra Leona funcionó hasta 1974; cuando se cerró, el material rodan",
+   "q": [
+    "Sierra Leone National Railway Museum",
+    "National Railway Museum Freetown",
+    "Cline Town"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Santuario de chimpancés de Tacugama",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 8.42,
+   "lon": -13.18,
+   "desc": "A menos de media hora del centro de Freetown, dentro del bosque del Parque Nacional de la Península, el santuario que fundó Bala Amarasekaran en 1995 para acoger chimpancés huérfanos y confiscados del",
+   "q": [
+    "Tacugama Chimpanzee Sanctuary",
+    "Tacugama"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Parque Nacional de la Península Occidental (Sugar Loaf, Guma)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 8.3406,
+   "lon": -13.1578,
+   "desc": "18.337 hectáreas de selva semidecidua de dosel cerrado colgadas sobre Freetown y sus playas: reserva forestal desde 1916, parque nacional desde 2012 y sitio en la lista indicativa de la UNESCO. Es el ",
+   "q": [
+    "Western Area Peninsula National Park",
+    "Western Area National Park",
+    "Sugar Loaf Mountain",
+    "Guma Valley"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "River No. 2 Beach",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": 8.323,
+   "lon": -13.1866,
+   "desc": "La playa de postal de África occidental y la más conocida del país: una lengua de arena blanquísima donde un río de agua dulce baja de la montaña y desemboca en el Atlántico formando una laguna, con l",
+   "q": [
+    "River No. 2 Beach",
+    "River Number Two Beach",
+    "River No 2"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Tokeh Beach",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 8.2833,
+   "lon": -13.2,
+   "desc": "Cinco kilómetros de arena al sur de River No. 2, con montaña al fondo y el pueblo de pescadores en un extremo. Fue la playa de moda de Sierra Leona antes de la guerra —hubo aquí un complejo hotelero f",
+   "q": [
+    "Tokeh Beach",
+    "Tokeh"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Bureh Beach · la playa del surf",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 8.26,
+   "lon": -13.19,
+   "desc": "En el extremo sur de la península, la playa donde nació el surf en Sierra Leona: el Bureh Beach Surf Club, montado por jóvenes del pueblo, alquila tablas, da clases y gestiona cabañas y camping en la ",
+   "q": [
+    "Bureh Beach",
+    "Bureh Town"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Islas Banana (Dublin, Ricketts y Mes-Meheux)",
+   "cat": "Naturaleza · costa",
+   "prio": "Alta",
+   "lat": 8.1167,
+   "lon": -13.2167,
+   "desc": "Tres islas frente a la bahía de Yawri, al final de la península: Dublin y Ricketts unidas por una calzada de piedra, y la diminuta Mes-Meheux deshabitada. Unos 900 habitantes en total, descendientes d",
+   "q": [
+    "Banana Islands",
+    "Dublin Sierra Leone",
+    "Ricketts",
+    "Mes-Meheux"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Bunce Island · la isla de la trata",
+   "cat": "Patrimonio",
+   "prio": "Alta",
+   "lat": 8.5697,
+   "lon": -13.0406,
+   "desc": "Río Sierra Leona arriba, a una hora larga de barca desde Freetown, las ruinas del castillo negrero británico que operó desde hacia 1670 hasta su cierre en torno a 1840. Lo levantó la Royal African Com",
+   "q": [
+    "Bunce Island",
+    "Bunce"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Bo · la segunda ciudad",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 7.9564,
+   "lon": -11.74,
+   "desc": "Segunda ciudad del país (unos 230.000 habitantes), capital del Protectorado entre 1930 y la independencia de 1961, y el centro financiero, educativo y comercial de todo el sur. Es el nudo obligado ent",
+   "q": [
+    "Bo",
+    "Bo Sierra Leone"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Kenema y el país de los diamantes",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 7.8767,
+   "lon": -11.1875,
+   "desc": "Tercera ciudad del país, en un paso natural de las colinas de Kambui a 173 m, y la capital administrativa del diamante aluvial de Sierra Leona: aquí está la Government Diamond Office, creada en 1959, ",
+   "q": [
+    "Kenema"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Parque Nacional de Gola Rainforest (UNESCO 2025)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 7.5,
+   "lon": -10.92,
+   "desc": "71.070 hectáreas de selva tropical de tierras bajas en la frontera con Liberia, el mayor bloque de selva primaria que queda en Sierra Leona y segundo parque nacional del país desde 2010. En 2025 fue i",
+   "q": [
+    "Gola Rainforest National Park",
+    "Gola Forest",
+    "Gola"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Isla de Tiwai · once especies de primates",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 7.5442,
+   "lon": -11.3489,
+   "desc": "Una isla fluvial de 12 km² en medio del río Moa, a 15 km de Potoru, con una de las mayores densidades de primates registradas del planeta: ONCE especies conviviendo en 1.200 hectáreas — chimpancé occi",
+   "q": [
+    "Tiwai Island",
+    "Tiwai Island Wildlife Sanctuary",
+    "Tiwai"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Sulima y la desembocadura del Moa",
+   "cat": "Costa",
+   "prio": "Baja",
+   "lat": 6.9694,
+   "lon": -11.575,
+   "desc": "El extremo suroriental del país, donde el río Moa —el mismo que rodea Tiwai— desemboca en el Atlántico, casi en la frontera de Liberia. Sulima fue puesto comercial en el siglo XIX y acogió después a m",
+   "q": [
+    "Sulima",
+    "Moa River",
+    "Sulima Sierra Leone"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Islas Turtle (archipiélago sherbro)",
+   "cat": "Naturaleza · costa",
+   "prio": "Media",
+   "lat": 7.55,
+   "lon": -12.95,
+   "desc": "Ocho islas de arena blanca repartidas sobre 13 km de bajíos, al oeste de la isla de Sherbro, en el distrito de Bonthe: Yele, Bakie, Bumpetuk, Chepo, Hoong, Mut, Nyangei y Sei. Siete están habitadas po",
+   "q": [
+    "Turtle Islands",
+    "Sherbro",
+    "Turtle Islands Sierra Leone"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Makeni · capital del norte",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 8.8817,
+   "lon": -12.0442,
+   "desc": "Quinta ciudad del país (unos 85.000 habitantes en el censo de 2021) y centro económico de la Provincia del Norte, a unos 175 km de Freetown por la carretera principal asfaltada. Es la última plaza con",
+   "q": [
+    "Makeni"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Kabala y la colina de Gbawuria",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 9.5833,
+   "lon": -11.55,
+   "desc": "Capital del distrito de Koinadugu, a unos 320 km de Freetown, rodeada de montañas y con el aire más seco y fresco del país: es la base obligada de todo el bloque de montaña. Al oeste del pueblo se lev",
+   "q": [
+    "Kabala",
+    "Gbawuria Hill",
+    "Wara Wara"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Monte Bintumani (1.945 m) y las montañas Loma",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 9.225,
+   "lon": -11.1167,
+   "desc": "El techo de Sierra Leona y el punto más alto de toda África occidental al oeste del Camerún: 1.945 m, en la cadena de las Loma, declarada reserva forestal de caza vedada desde 1952 (33.201 ha) y área ",
+   "q": [
+    "Mount Bintumani",
+    "Bintumani",
+    "Loma Mountains",
+    "Loma Mansa"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Parque Nacional de Outamba-Kilimi",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 9.7694,
+   "lon": -12.0261,
+   "desc": "1.109 km² en el extremo noroeste, pegado a la frontera de Guinea, en dos sectores: Outamba (741 km²) y Kilimi (368 km²). Reserva de caza desde 1974 y parque nacional desde octubre de 1995. Terreno lla",
+   "q": [
+    "Outamba-Kilimi National Park",
+    "Outamba Kilimi",
+    "Outamba"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada del bucle — Gbalamuya / Pamelap (desde Guinea)",
+   "cat": "Frontera",
+   "lat": 9.1167,
+   "lon": -12.9167,
+   "desc": "El paso principal del país y el único bien documentado: enfrente del puesto guineano de Pamelap, en la carretera Conakry-Freetown, asfaltada de punta a punta. La web oficial de turismo de Sierra Leona",
+   "q": [
+    "Gbalamuya",
+    "Kambia",
+    "Pamelap"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida por defecto — Gbalamuya / Pamelap (de vuelta a Guinea)",
+   "cat": "Frontera",
+   "lat": 9.1167,
+   "lon": -12.9167,
+   "desc": "La salida conservadora del bucle: se sale por donde se entró y se retoma el corredor guineano de subida por Forécariah-Coyah-Kindia-Mamou-Labé. Tiene la ventaja de ser el único paso con garantías y el",
+   "q": [
+    "Gbalamuya",
+    "Kambia",
+    "Pamelap"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Salida alternativa norte — Kamakwie / Madina Oula (hacia Kindia, Guinea)",
+   "cat": "Frontera",
+   "lat": 9.95,
+   "lon": -12.25,
+   "desc": "POR CONFIRMAR. Paso menor del noroeste, en la zona de Outamba-Kilimi, que permitiría salir directamente desde el parque hacia el eje guineano de Kindia sin repetir Gbalamuya. No se ha localizado docum",
+   "q": [
+    "Sanya",
+    "Fadugu",
+    "Kamakwie"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Salida alternativa noreste — Kabala / Faranah (hacia la Alta Guinea)",
+   "cat": "Frontera",
+   "lat": 9.7,
+   "lon": -11.2,
+   "desc": "POR CONFIRMAR. Paso de montaña del noreste que conectaría Kabala y las Loma directamente con Faranah, en Guinea — es decir, con el nacimiento del Níger y con el corredor guineano de subida por Dabola.",
+   "q": [
+    "Falaba",
+    "Gberia Fotombu",
+    "Musaia",
+    "Kabala"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Jendema / Bo-Waterside (hacia Liberia)",
+   "cat": "Frontera",
+   "lat": 6.85,
+   "lon": -11.25,
+   "desc": "Paso del sureste hacia Liberia, operativo y con tráfico comercial. NO se usa en este plan: Liberia está excluida de la ruta fija por el problema del visado (ver la ficha de Liberia). Se documenta porq",
+   "q": [
+    "Jendema",
+    "Bo-Waterside",
+    "Zimmi"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Cobertura consular española — Embajada en Conakry (Guinea)",
+   "cat": "Consular",
+   "lat": 9.53,
+   "lon": -13.68,
+   "desc": "España no tiene embajada en Freetown: la demarcación consular corresponde a la Embajada de España en Conakry. Cancillería +224 664 20 22 01 · Sección consular +224 613 33 90 90 · Emergencia consular g",
+   "q": [
+    "Conakry",
+    "Ambassade d'Espagne Conakry",
+    "Embassy of Spain Conakry"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Connaught Hospital — Freetown",
+   "cat": "Hospital",
+   "lat": 8.487,
+   "lon": -13.234,
+   "desc": "Principal hospital público de referencia del país, en el centro de Freetown. Capacidad limitada para politraumatismos graves. Coordenada urbana aproximada.",
+   "q": [
+    "Connaught Hospital",
+    "Connaught Hospital Freetown"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Holy Spirit Hospital — Makeni",
+   "cat": "Hospital",
+   "lat": 8.8817,
+   "lon": -12.0442,
+   "desc": "El mayor hospital privado de la Provincia del Norte y la referencia sanitaria realista de todo el tramo de montaña (Kabala, Loma, Outamba). Entre Makeni y las Loma no hay nada equivalente.",
+   "q": [
+    "Holy Spirit Hospital",
+    "Holy Spirit Hospital Makeni",
+    "Makeni"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Kenema Government Hospital · unidad de fiebre de Lassa",
+   "cat": "Hospital",
+   "lat": 7.8767,
+   "lon": -11.1875,
+   "desc": "Una de las pocas unidades del mundo dedicadas al tratamiento y la investigación de la fiebre de Lassa, en funcionamiento desde los años setenta con el Viral Hemorrhagic Fever Consortium. Fue aquí dond",
+   "q": [
+    "Kenema Government Hospital",
+    "Kenema Hospital",
+    "Kenema"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Freetown",
+   "cat": "Combustible",
+   "lat": 8.484,
+   "lon": -13.2299,
+   "desc": "Mejor oferta y calidad del país (Total, NP/Petroleum SL, Leonoil). Repostar a fondo aquí antes de la península y antes de bajar al sureste.",
+   "q": [
+    "Freetown"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Bo, Kenema, Makeni",
+   "cat": "Combustible",
+   "lat": 7.9564,
+   "lon": -11.74,
+   "desc": "Estaciones formales en las tres ciudades grandes del interior, que son los tres puntos de repostaje seguros del bucle. Bo es el último antes de Tiwai y Gola; Makeni, el último antes de Kabala y de la ",
+   "q": [
+    "Bo",
+    "Bo Town"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Kabala y Kamakwie (incierto)",
+   "cat": "Combustible",
+   "lat": 9.5833,
+   "lon": -11.55,
+   "desc": "Puntos de venta elementales y a veces en garrafa. NO dar por hecho el suministro: salir de Makeni con depósitos y garrafas llenos para cubrir Kabala, la aproximación a las Loma, Kamakwie y Outamba-Kil",
+   "q": [
+    "Kabala",
+    "Kamakwie"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Agua · Freetown y ciudades principales",
+   "cat": "Agua potable",
+   "lat": 8.484,
+   "lon": -13.2299,
+   "desc": "Agua embotellada y en bolsa en Freetown, Bo, Kenema y Makeni. Para el depósito de uso general (ducha, aseo, limpieza), estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca be",
+   "q": [
+    "Freetown"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Agua · península de Freetown y montaña",
+   "cat": "Agua potable",
+   "lat": 8.323,
+   "lon": -13.1866,
+   "desc": "En la península hay agua corriente en los alojamientos de River No. 2, Tokeh y Bureh, y arroyos de montaña abundantes — tratar siempre. En las Loma y en Outamba, el agua es de río o de pozo del pueblo",
+   "q": [
+    "River No. 2 Beach",
+    "Freetown Peninsula",
+    "Freetown"
+   ]
+  }
+ ]
+}
