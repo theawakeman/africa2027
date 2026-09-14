@@ -34,6 +34,15 @@ sus pies corresponden al lugar declarado. Se corrigieron siete pines adicionales
 Monts de Cristal estaba desplazado 33,7 km y Moukalaba-Doudou 10,4 km respecto
 a las fichas actuales de Google Maps.
 
+Congo-Brazzaville queda cerrado en esta segunda pasada: 18/18 PDIs con ficha de
+decisión, 18/18 con enlace útil y 18/18 con carrusel de tres fotografías. Se
+contrastaron 35 archivos con la API de Commons y 19 imágenes externas contra su
+URL de origen; no queda ningún archivo repetido. La revisión volvió a comprobar
+los pines en Google Maps y corrigió seis coordenadas adicionales. También separó
+Loufoulakari de Béla, la Escuela de Poto-Poto de los mercados, el museo nuevo del
+antiguo palacio y la memoria del Congo-Océan de un servicio de pasajeros que no
+se ha podido confirmar.
+
 ## Alcance de la primera pasada
 
 - Se revisaron las asignaciones fotográficas de los 92 PDIs. Cada ficha tiene
@@ -57,10 +66,10 @@ a las fichas actuales de Google Maps.
 |---|---:|---:|---:|---:|---:|---:|
 | Camerún | 21 | 11/11 | 21 | 21 | 55 + 3 externas | 0 |
 | Gabón | 19 | 9/9 | 19 | 19 | 43 + 12 externas | 0 |
-| Congo | 18 | 8/8 | 4 | 4 | 11 | 14 |
+| Congo | 18 | 8/8 | 18 | 18 | 35 + 19 externas | 0 |
 | RD Congo | 12 | 9/9 | 10 | 6 | 22 | 2 |
 | Angola | 22 | 11/11 | 22 | 19 | 54 + 2 externas | 0 |
-| **Total provisional** | **92** | **48/48** | **76** | **69** | **185 + 17 externas** | **16** |
+| **Total provisional** | **92** | **48/48** | **90** | **83** | **209 + 36 externas** | **2** |
 
 ## Problema inicial y criterio aplicado
 
@@ -76,16 +85,13 @@ rotulan sin ambigüedad: Cangandala usa una foto de la palanca negra gigante
 tomada en Luando y un mapa de distribución; Tchitundu-Hulu usa una reproducción
 del motivo «Sol de Angola», no una vista del yacimiento.
 
-## Huecos deliberados en prioridad alta
+## Hueco deliberado en prioridad alta
 
-- **Congo:** Ngaga Camp; bais de Odzala; rápidos del Djoué; cataratas de
-  Loufoulakari; reserva de Lésio-Louna.
 - **RD Congo:** rápidos de Kinsuka / Chez Tintin.
 
-Estos seis PDIs mantienen toda la información de decisión, pero no muestran la
-vieja imagen incorrecta. Se podrán completar cuando exista una fotografía libre
-que identifique inequívocamente el sitio o cuando se incorporen fotografías
-propias.
+Ese PDI mantiene la información de decisión, pero no muestra una imagen ajena
+como si fuera el lugar. Se cerrará en la siguiente unidad de trabajo con una
+fuente visual que identifique inequívocamente el enclave.
 
 ## Hallazgos de actualidad incorporados
 
@@ -99,5 +105,5 @@ propias.
 
 ## Pendiente de esta reapertura
 
-Quedan por cerrar Congo y RD Congo. Hasta entonces este grupo no vuelve a
-marcarse como terminado bajo el nuevo estándar.
+Queda por cerrar RD Congo. Hasta entonces este grupo no vuelve a marcarse como
+terminado bajo el nuevo estándar.

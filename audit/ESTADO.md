@@ -11,7 +11,7 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 1 | Marruecos, Sáhara Occidental, Mauritania, Senegal, Gambia | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
 | 2 | Guinea, Sierra Leona, Liberia, Costa de Marfil | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
 | 3 | Ghana, Togo, Benín, Nigeria | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
-| 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Reabierto: Camerún, Gabón y Angola cerrados; Congo y RD Congo pendientes | Reabierto: Camerún 21/21, Gabón 19/19 y Angola 22/22; Congo y RD Congo pendientes | Reabierto: Camerún 21/21, Gabón 19/19 y Angola 22/22; Congo y RD Congo pendientes | Pendiente |
+| 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Reabierto: Camerún, Gabón, Congo y Angola cerrados; RD Congo pendiente | Reabierto: Camerún 21/21, Gabón 19/19, Congo 18/18 y Angola 22/22; RD Congo pendiente | Reabierto: Camerún 21/21, Gabón 19/19, Congo 18/18 y Angola 22/22; RD Congo pendiente | Pendiente |
 | 5 | Zambia, Tanzania, Kenia, Mozambique | En curso, aún no publicada | GPS verificado en Google Maps, aún no aplicado | Pendiente | Pendiente | Pendiente | Pendiente |
 | 6+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
 
@@ -23,7 +23,7 @@ en esas tres columnas: se volverá a ellos en una pasada retroactiva.
 
 El detalle cuantitativo de la reapertura está en
 [`audit/pdi/grupo4.md`](pdi/grupo4.md). La segunda pasada ha cerrado Angola,
-Camerún y Gabón y continúa con Congo y RD Congo. En el grupo 5 solo se ha preparado
+Camerún, Gabón y Congo y continúa con RD Congo. En el grupo 5 solo se ha preparado
 la historia y se han comprobado los pines en Google Maps; sus PDIs todavía no se
 han modificado bajo este nuevo estándar. El grupo 6 es, por tanto, el primer grupo
 completamente intacto.

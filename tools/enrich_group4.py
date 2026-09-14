@@ -96,6 +96,26 @@ LINKS: dict[str, dict[int, tuple[str, str]]] = {
         21: ("UNESCO · Reserva de la Biosfera Quiçama", "https://www.unesco.org/en/mab/quicama"),
         22: ("Mussulo · península, bahía y accesos", "https://en.wikipedia.org/wiki/Mussulo"),
     },
+    "congo": {
+        1: ("Presidencia del Congo · apertura del corredor Sembé–Souanké–Ntam", "https://presidence.cg/2020/06/01/discours-du-president-de-la-republique-sur-letat-de-la-nation/"),
+        2: ("Nouabalé-Ndoki · distancias y acceso desde Ouesso", "https://ndoki.org/fr-fr/Visiter/Infos"),
+        3: ("Visita oficial · Nouabalé-Ndoki", "https://ndoki.org/en-us/Visit/Park-info"),
+        4: ("UNESCO · Odzala-Kokoua, Patrimonio Mundial", "https://whc.unesco.org/en/list/692"),
+        5: ("Visit Odzala · Ngaga Lodge y reservas", "https://visitodzala-kokoua.org/"),
+        6: ("Visit Odzala · visita de día al bai de Imbalanga", "https://visitodzala-kokoua.org/visiteurs-a-la-journee/"),
+        7: ("Basílica de Santa Ana · historia y arquitectura", "https://fr.wikipedia.org/wiki/Basilique_Sainte-Anne-du-Congo_de_Brazzaville"),
+        8: ("Ramsar · ficha oficial del sitio Rapides du Congo-Djoué", "https://rsis.ramsar.org/RISapp/files/RISrep/CG1857RIS.pdf"),
+        9: ("Loufoulakari · localización e historia de las cataratas", "https://fr.wikipedia.org/wiki/Chutes_de_la_Loufoulakari"),
+        10: ("Escuela de Poto-Poto · historia y principales artistas", "https://www.cesbc.org/culture_et_arts/artsplastiques/potopoto/potopoto.htm"),
+        11: ("Dolisie · historia, transporte y contexto urbano", "https://fr.wikipedia.org/wiki/Dolisie"),
+        12: ("Pointe-Noire · historia, barrios y transportes", "https://fr.wikipedia.org/wiki/Pointe-Noire_(r%C3%A9publique_du_Congo)"),
+        13: ("TotalEnergies · inauguración del nuevo Museo Mâ Loango", "https://totalenergies.cg/decouvrir-totalenergies/actualites/inauguration-du-nouveau-musee-ma-loango-de-diosso-le-musee-de"),
+        14: ("Noé · visita y conservación en Conkouati-Douli", "https://noe.org/actions/gestion-du-parc-national-de-conkouati-douli/"),
+        15: ("Archives nationales du monde du travail · memoria del Congo-Océan", "https://archives-nationales-travail.culture.gouv.fr/Decouvrir/Dossiers-du-mois/Le-chemin-de-fer-Congo-Ocean-effroyable-consommateur-de-vies-humaines"),
+        16: ("Proyecto Lésio-Louna · sitios de ecoturismo y accesos", "https://www.ppgcongo.org/eco-tourisme/"),
+        17: ("WCS · creación y patrimonio natural de Ogooué-Leketi", "https://congo.wcs.org/fr-fr/News/ID/25021/Creation-du-Parc-National-dOgoue-Leketi"),
+        18: ("Monumento del Ecuador · ficha cartográfica y coordenadas", "https://virtualglobetrotting.com/map/equator-monument-2/"),
+    },
 }
 
 
@@ -244,6 +264,134 @@ VISITS: dict[str, dict[int, dict[str, str]]] = {
             "skip": "No bajar con lluvia fuerte, terreno inseguro, ceremonia en curso o si no puede mantenerse al perro controlado y lejos del borde.",
         },
     },
+    "congo": {
+        1: {
+            "why": "No es una atracción aislada: es la primera escala para entender el corredor transfronterizo y decidir si el tramo forestal hacia Ouesso es viable ese día.",
+            "see": "Mercado, vida de una pequeña cabecera forestal y el contraste entre la carretera internacional nueva y los servicios locales limitados.",
+            "access": "El pin coincide con la ficha de Souanké en Google Maps. Resolver aquí cualquier sello pendiente y preguntar por combustible, carretera y cobertura antes de seguir.",
+            "when": "Llegar de día; una tarde y una noche bastan si el paso fronterizo y los papeles están completos.",
+            "skip": "No saltarse la comprobación administrativa; sí reducir la parada si todo está resuelto y queda luz suficiente para una siguiente etapa segura.",
+        },
+        2: {
+            "why": "Es la base imprescindible del norte: desde aquí se preparan Nouabalé-Ndoki, la puerta oriental de Odzala y, en sentido inverso, el cruce hacia Camerún.",
+            "see": "El puerto y el río Sangha muestran la función fluvial de la ciudad; el resto de la parada debe dedicarse a combustible, compras, salud y comunicaciones.",
+            "access": "El pin identifica Ouesso, no un hotel ni un embarcadero. Pedir al operador de cada parque su punto de recogida y comprobar Socambo por separado.",
+            "when": "Una o dos noches, preferiblemente incluyendo horas laborables para reservas y gestiones.",
+            "skip": "No gastar días de parque en turismo urbano; tampoco abandonar Ouesso sin autonomía y confirmaciones escritas.",
+        },
+        3: {
+            "why": "Permite entrar en una selva primaria excepcional y observar un bai de investigación dentro del Trinacional de la Sangha, Patrimonio Mundial.",
+            "see": "Mbeli Bai, bosque inundado y posible fauna de selva; Mondika y Wali son experiencias distintas y ninguna observación está garantizada.",
+            "access": "No navegar al centroide. La visita se cierra con el parque desde Ouesso y combina pista, barca y base en Bomassa según el programa contratado.",
+            "when": "Reservar de tres a cinco días y confirmar temporada, transporte, campamento y cupos con mucha antelación.",
+            "skip": "Descartarlo si no hay reserva oficial, si el traslado ocupa casi todo el tiempo disponible o si no se puede resolver el cuidado del perro fuera del parque.",
+        },
+        4: {
+            "why": "Es el gran objetivo natural del país: selva del Congo, bais y uno de los principales refugios de gorila y elefante de bosque.",
+            "see": "Caminatas guiadas, barca, claros forestales y fauna posible; cada campamento ofrece un sector y una experiencia diferentes.",
+            "access": "El pin es la ficha oficial del parque en Google Maps, no una puerta. Elegir antes entre puerta oriental, Camp Imbalanga y lodges del sector occidental.",
+            "when": "Mínimo cuatro días; confirmar lluvias, 4x4, alojamiento, traslados y actividades en la reserva.",
+            "skip": "No entrar con un itinerario ambiguo ni esperar resolverlo al llegar: el tamaño del parque hace inútil un pin sin operador y sector definidos.",
+        },
+        5: {
+            "why": "Es la experiencia especializada de seguimiento de gorila de llanura occidental habituado y una de las pocas de este tipo en África central.",
+            "see": "Rastreo a pie en bosque denso, explicación de los investigadores y el propio lodge; el encuentro con gorilas nunca se garantiza.",
+            "access": "El pin coincide con Ngaga Lodge en Google Maps. Solo ir con reserva, traslado y permiso confirmados por el operador.",
+            "when": "Reservar con antelación y dejar margen por lluvia, salud y movimientos del grupo.",
+            "skip": "Descartarlo si faltan precio total, protocolo sanitario, edad mínima, política de cancelación o un plan seguro para el perro.",
+        },
+        6: {
+            "why": "Imbalanga permite observar con paciencia un claro forestal sin confundirlo con el producto de gorilas de Ngaga.",
+            "see": "Bai, mirador, huellas, bosque y posibles gorilas, elefantes, búfalos o sitatungas; son animales libres y no hay garantía.",
+            "access": "La coordenada es la localización científica publicada de Camp Imbalanga. El operador debe entregar la puerta y el punto final de encuentro; no hay un pin independiente fiable en Maps.",
+            "when": "Como salida de día desde la puerta oriental o con noche en el campamento, siempre con actividad y traslado confirmados.",
+            "skip": "No usar la coordenada de investigación como instrucciones de acceso ni mezclar en una sola reserva los bais de Lokoué, Moba e Imbalanga.",
+        },
+        7: {
+            "why": "La basílica es la obra arquitectónica más reconocible de Brazzaville y la capital es la base real para preparar el ferry y reparar los vehículos.",
+            "see": "Las tejas verdes, la nave de ladrillo y la luz interior de Santa Ana; completar con un paseo breve por el centro y el frente fluvial permitido.",
+            "access": "El pin coincide con la basílica. Aparcar en recinto vigilado y evitar fotos del puerto, Beach, controles y edificios sensibles.",
+            "when": "Visita con luz; reservar días laborables para gestor, bancos, talleres y trámites del ferry.",
+            "skip": "No ampliar la estancia urbana si el ferry y ambos vehículos están resueltos; la logística prima sobre acumular paradas.",
+        },
+        8: {
+            "why": "El Djoué hace visible el sistema de rápidos que impidió continuar la navegación hacia el Atlántico y condicionó la historia del transporte del Congo.",
+            "see": "Canal rocoso, saltos y ribera dentro del humedal Ramsar Rapides du Congo-Djoué; no es una cascada acondicionada.",
+            "access": "El pin coincide con el hito de Google Maps «cataracte bord du djoue». Confirmar acceso local, mantener distancia del caudal y no usar dron.",
+            "when": "De día y con roca seca; el nivel del agua cambia mucho la seguridad y la visibilidad.",
+            "skip": "Renunciar con lluvia, crecida, controles o cualquier restricción de fotografía en la zona sensible del río.",
+        },
+        9: {
+            "why": "Es la excursión de naturaleza más potente al sur de Brazzaville: varias caídas del Loufoulakari sobre grandes estratos de arenisca.",
+            "see": "Rápidos, escalones de roca y confluencia cercana con el Congo; las Chutes de Béla pertenecen al Louvoubi y son otro lugar.",
+            "access": "El pin corresponde a Loufoulakari. Llegar por Mbanza-Ndounga/Kimpandzou con guía y estado de la pista confirmado; no seguir una etiqueta ambigua.",
+            "when": "Jornada completa, salida temprana y roca razonablemente seca.",
+            "skip": "No intentarlo tarde, con tormenta, sin acompañamiento local o si el último tramo no está practicable.",
+        },
+        10: {
+            "why": "La escuela fundada por Pierre Lods en 1951 permite entender una corriente decisiva de la pintura moderna de África central y ver obra contemporánea en su lugar de producción.",
+            "see": "Talleres, galería, artistas trabajando y pinturas de estilos muy distintos; preguntar antes de fotografiar o comprar.",
+            "access": "El pin coincide con École de Peinture de Poto-Poto en Google Maps, Rue Mayama. Los mercados de Poto-Poto y Total son paradas separadas.",
+            "when": "En horario diurno, idealmente contactando antes para confirmar que el taller está abierto.",
+            "skip": "Omitirla si está cerrada; no sustituirla por una visita improvisada a un mercado concurrido con cámaras y perro.",
+        },
+        11: {
+            "why": "Dolisie explica la unión entre carretera y Congo-Océan y es la escala de servicios más lógica entre Brazzaville y la costa.",
+            "see": "La estación, edificios del periodo ferroviario y una ciudad de cruce más funcional que monumental.",
+            "access": "El pin marca el centro de Dolisie; la estación tiene su propio acceso al este. Llegar con luz y escoger aparcamiento seguro.",
+            "when": "Una noche para combustible, taller, comida y descanso si se realiza el gran desvío occidental.",
+            "skip": "Si no se baja a Pointe-Noire o Conkouati, no justifica por sí sola el desvío desde la ruta principal.",
+        },
+        12: {
+            "why": "Muestra la costa, el puerto y la economía petrolera del país, además de ofrecer los mejores servicios mecánicos del suroeste.",
+            "see": "Centro, frente atlántico y Côte Sauvage; Pointe Indienne requiere un desplazamiento aparte y comprobación del acceso.",
+            "access": "El pin identifica el centro urbano. No fotografiar instalaciones portuarias o petroleras y confirmar por teléfono cualquier repuesto antes de recorrer la RN1.",
+            "when": "Dos noches si se combina ciudad, costa y mantenimiento; más si se continúa a Conkouati.",
+            "skip": "El viaje de ida y vuelta desde Brazzaville ronda mil kilómetros: descartarlo si no aporta costa, parque o una reparación concreta.",
+        },
+        13: {
+            "why": "El nuevo museo es la mejor introducción al reino de Loango, la cultura vili y la memoria de la trata atlántica antes de recorrer Diosso.",
+            "see": "Colecciones permanentes y temporales en el complejo inaugurado en 2018; el antiguo palacio-museo queda como referencia histórica separada.",
+            "access": "El pin se ha trasladado al nuevo Museo de Loango visible en Google Maps y satélite. Confirmar horario y reglas de fotografía.",
+            "when": "Media jornada, combinable con la garganta de Diosso solo si se usa para esta última su acceso específico y seguro.",
+            "skip": "No navegar a la antigua ficha de Musée Mâ Loango marcada como cerrada; tampoco acercarse al borde de la garganta sin guía local.",
+        },
+        14: {
+            "why": "Reúne en un solo parque costa salvaje, lagunas, bosque y sabana, con tortugas marinas y un programa de rehabilitación de chimpancés.",
+            "see": "Paisaje lagunar y atlántico, playas de puesta en temporada y recorridos autorizados; ninguna especie es un avistamiento seguro.",
+            "access": "El pin es un punto de referencia dentro del parque, no una oficina ni una puerta. Noé u operador debe fijar sector, guía, alojamiento y encuentro desde Pointe-Noire.",
+            "when": "Dos o tres días y reserva previa; preguntar por lluvias, pistas y temporada de tortugas.",
+            "skip": "Descartarlo sin respuesta operativa, con pistas cerradas o si no existe una solución segura para dejar al perro fuera del área de fauna.",
+        },
+        15: {
+            "why": "La estación permite contar tanto la ingeniería que conectó Brazzaville con el mar como el enorme coste humano del trabajo forzado colonial.",
+            "see": "Estación terminal de Brazzaville, fotografías históricas y trazado; no se presenta el tren como transporte turístico disponible.",
+            "access": "El pin coincide con Gare Centrale de Brazzaville. Preguntar en taquilla solo para información actual y fotografiar con permiso.",
+            "when": "Media hora o una hora durante la estancia en la capital; integrar la memoria del ferrocarril con la visita a Djoué.",
+            "skip": "No comprar ni organizar etapas basándose en horarios antiguos: no se ha confirmado un servicio de pasajeros utilizable para el viaje.",
+        },
+        16: {
+            "why": "Es un proyecto de rehabilitación y reintroducción de gorilas cercano a la RN2, con una historia de conservación distinta de Odzala.",
+            "see": "Según el circuito confirmado, vivero, lagos, sabana, navegación o gorilas reintroducidos; la web disponible es antigua y no garantiza que cada actividad siga abierta.",
+            "access": "El pin coincide con la ficha de la reserva en Google Maps, pero no define la entrada. PPG debe confirmar si se entra por Iboubikro, Abio u otro punto.",
+            "when": "Solo con cita, programa y precio actuales por escrito y con el cuidado del perro resuelto fuera del proyecto.",
+            "skip": "No desplazarse usando el folleto histórico como confirmación operativa; sin respuesta reciente, tratar la visita como no disponible.",
+        },
+        17: {
+            "why": "Djambala introduce la sabana ondulada y los bosques-galería de las mesetas Batéké y sirve de base para evaluar el corredor occidental de subida.",
+            "see": "La ciudad, el altiplano y el paisaje de la P20. Ogooué-Leketi es un parque remoto distinto, no una excursión automática desde este pin.",
+            "access": "El pin coincide con Djambala. Comprobar combustible y estado de la ruta hacia Lékana/Okoyo; no entrar al parque sin autoridad o guía que fije acceso.",
+            "when": "Una noche como escala; reservar más solo si existe una actividad concreta y confirmada.",
+            "skip": "No añadir días esperando turismo organizado en Ogooué-Leketi: la fuente de WCS documenta su valor y creación, no una visita abierta.",
+        },
+        18: {
+            "why": "Es una parada breve y legible sobre el propio paralelo cero, mucho más precisa que representar a la vez Makoua y Owando.",
+            "see": "La esfera armilar del monumento y el cruce de la línea del Ecuador; la antigua torre de Makoua puede verse como referencia urbana secundaria.",
+            "access": "El pin coincide con el monumento junto a la carretera, validado por dos cartografías independientes. Detenerse fuera de la calzada y pedir permiso si hay gente.",
+            "when": "Parada corta con luz durante la etapa de la RN2; usar Owando para los servicios importantes.",
+            "skip": "No convertirlo en una noche adicional si se dispone de luz y autonomía para llegar a la escala planificada.",
+        },
+    },
 }
 
 
@@ -263,12 +411,26 @@ COORDS: dict[str, dict[int, tuple[float, float]]] = {
         18: (5.7325002, 10.9015616),
         20: (5.5324938, 10.3297126),
     },
+    "congo": {
+        4: (1.3206287, 14.8454619),
+        6: (0.7630556, 15.2608333),
+        8: (-4.3098988, 15.2287212),
+        10: (-4.2544308, 15.2743693),
+        13: (-4.62554, 11.85238),
+        15: (-4.269353, 15.288332),
+    },
 }
 
 
 NAMES: dict[str, dict[int, str]] = {
     "camerun": {
         20: "Cataratas de la Métché (desde Bafoussam)",
+    },
+    "congo": {
+        6: "Camp Imbalanga y su bai · Odzala oriental",
+        10: "Escuela de Pintura de Poto-Poto",
+        13: "Nuevo Museo Mâ Loango de Diosso",
+        15: "Estación de Brazzaville · memoria del Congo-Océan",
     },
 }
 
@@ -329,6 +491,115 @@ DESCRIPTIONS: dict[str, dict[int, str]] = {
             "el perro puede mantenerse con seguridad lejos del borde."
         ),
     },
+    "congo": {
+        1: (
+            "Souanké es la cabecera del distrito noroccidental por el que entra el corredor Brazzaville–Yaundé "
+            "desde Ntam; Sembé queda más al este y no comparte este pin. El tramo Sembé–Souanké–Ntam, de "
+            "unos 143 km, fue asfaltado dentro del programa de integración regional e inaugurado en marzo de 2020. "
+            "La mejora de la calzada no convierte Souanké en una gran base: mercado, gendarmería y combustible "
+            "pueden ser limitados. El pin coincide con la ficha de Google Maps; confirmar allí sellos, papeles del "
+            "vehículo y estado del eje antes de internarse hacia Ouesso."
+        ),
+        2: (
+            "Ouesso creció como puerto del Sangha y hoy es la capital del departamento de Sangha y la base logística "
+            "del norte congoleño. Desde aquí se coordinan Nouabalé-Ndoki, la puerta oriental de Odzala y, en sentido "
+            "inverso, el paso fluvial de Socambo hacia Camerún. El puerto, el mercado y el movimiento de piraguas y "
+            "barcazas explican mejor la ciudad que un monumento aislado. Conviene resolver combustible, efectivo, "
+            "compras, salud y comunicaciones antes de salir; cada parque debe proporcionar su punto real de recogida."
+        ),
+        4: (
+            "Protegido desde 1935, Odzala-Kokoua ocupa un gran mosaico de selva, sabana y claros pantanosos en la "
+            "Cuvette-Ouest. Es Reserva de la Biosfera y desde 2023 Patrimonio Mundial de la UNESCO por sus procesos "
+            "ecológicos y poblaciones de elefante de bosque, gorila de llanura occidental y otros mamíferos. Los bais "
+            "permiten que la fauna salga del bosque, pero ningún avistamiento se promete. La coordenada coincide con "
+            "la ficha del parque en Google Maps y es representativa, no una puerta: sector, campamento, 4x4 y traslados "
+            "deben cerrarse antes de trazar el acceso."
+        ),
+        6: (
+            "Camp Imbalanga, abierto al ecoturismo en el sector oriental de Odzala, se encuentra junto a un bai donde "
+            "la observación paciente puede revelar gorilas, elefantes, búfalos, sitatungas y primates. No debe fundirse "
+            "en una sola ficha con Lokoué o Moba: son claros y logísticas distintos. La coordenada procede de la "
+            "localización de Camp Imbalanga publicada en un estudio científico (00°45′47″ N, 15°15′39″ E); Google "
+            "Maps no ofrece un pin propio fiable. African Parks publica salidas desde la puerta oriental, a unas dos "
+            "horas de Ouesso, pero debe entregar el punto de encuentro y las condiciones vigentes."
+        ),
+        8: (
+            "Los rápidos del Djoué forman parte del humedal Ramsar Rapides du Congo-Djoué, inscrito en 2009 y de unas "
+            "2.500 ha, donde el Djoué y la Loua atraviesan canales rocosos antes de alcanzar el Congo. Este obstáculo "
+            "natural ayuda a entender por qué la navegación entre el Pool Malebo y el Atlántico no es continua y por "
+            "qué se construyó el ferrocarril Congo-Océan. El pin coincide con el hito «cataracte bord du djoue» de Google "
+            "Maps, no con un restaurante ni con la presa. La ribera no está acondicionada: roca seca, distancia al "
+            "caudal, permiso fotográfico local y nada de dron."
+        ),
+        9: (
+            "A unos 75 km al sur de Brazzaville, el Loufoulakari se precipita en varias gradas sobre grandes estratos "
+            "de arenisca poco antes de desembocar en el Congo. El acceso habitual deja la carretera principal hacia "
+            "Mbanza-Ndounga y Kimpandzou y termina por pista, sin infraestructura turística consolidada. La coordenada "
+            "se ha validado con la localización publicada de Loufoulakari. No es «Chutes de Béla»: Béla es otra cascada, "
+            "sobre el Louvoubi y a más de 30 km. Salir temprano, ir con contacto local y evitar roca mojada o crecida."
+        ),
+        10: (
+            "Pierre Lods fundó en 1951 el taller que se convertiría en la Escuela de Pintura de Poto-Poto. Su método "
+            "inicial favoreció la experimentación libre y dio origen a estilos de gran influencia en el arte moderno de "
+            "África central, desde las figuras «Mickey» hasta generaciones posteriores muy diversas. El pin ya no es un "
+            "centroide del barrio: coincide con la escuela real en Rue Mayama, Google Maps. Taller, galería y artistas "
+            "merecen la visita; los mercados de Poto-Poto, Plateau y Total son lugares distintos y no comparten pin."
+        ),
+        11: (
+            "Dolisie nació como estación y nudo del ferrocarril Congo-Océan; entre 1975 y 1991 llevó oficialmente el "
+            "nombre de Loubomo. Hoy enlaza la RN1 Brazzaville–Pointe-Noire con las rutas del Niari y hacia la frontera "
+            "gabonesa. La estación y los edificios vinculados al ferrocarril conservan la huella de esa historia, pero "
+            "su valor para el viaje es sobre todo práctico: talleres, combustible y hospital a mitad del largo desvío "
+            "occidental. El pin representa el centro urbano; la estación se visita con su acceso propio."
+        ),
+        12: (
+            "Pointe-Noire se desarrolló como terminal atlántica del Congo-Océan y desde la apertura del ferrocarril y "
+            "el puerto en la década de 1930 se convirtió en la capital económica del país. El petróleo reforzó después "
+            "su papel portuario y explica la presencia de talleres, recambios y sanidad privada. Côte Sauvage y el "
+            "frente atlántico aportan una costa muy distinta del interior; Pointe Indienne es un desplazamiento separado. "
+            "La RN1 desde Brazzaville supone unos 510 km por sentido, por lo que solo compensa por costa, Conkouati o una "
+            "necesidad mecánica confirmada."
+        ),
+        13: (
+            "El nuevo Museo Mâ Loango fue construido para sustituir al pequeño museo instalado desde 1982 en el antiguo "
+            "palacio real, ya muy degradado. Inaugurado el 23 de agosto de 2018 en un complejo de 5.000 m², conserva "
+            "colecciones sobre el reino de Loango, la cultura vili, los oficios y la trata atlántica. Google Maps aún "
+            "muestra la ficha del antiguo palacio como cerrada; el pin se ha trasladado al nuevo «Musée de Loango», "
+            "cuya posición también se comprobó por satélite. La garganta de Diosso es otra visita y exige un acceso seguro "
+            "propio, lejos del borde erosionado."
+        ),
+        15: (
+            "La estación terminal de Brazzaville abrió con el Congo-Océan en 1934, tras trece años de obras destinadas "
+            "a salvar los rápidos que separan el Pool Malebo del Atlántico. La línea de unos 510 km quedó asociada al "
+            "trabajo forzado colonial y a la muerte de al menos 17.000 trabajadores africanos, denunciada entonces por "
+            "André Gide y Albert Londres. El pin coincide con la Gare Centrale. No se ha podido confirmar un servicio "
+            "de pasajeros actual y utilizable para este viaje: las estadísticas de 2025 muestran un tráfico residual. "
+            "La visita es histórica; no debe presentarse La Gazelle como alternativa operativa."
+        ),
+        16: (
+            "El proyecto Lésio-Louna, impulsado por el Estado congoleño y The Aspinall Foundation, rehabilita gorilas "
+            "huérfanos y desarrolla reintroducciones desde la década de 1990. Sus materiales describen varios lugares "
+            "diferentes —Iboubikro, Abio y Confluent— con vivero, lagos, sabana y navegación; no son una sola puerta ni "
+            "una garantía de ver gorilas en libertad. El pin coincide con la ficha de la reserva en Google Maps, pero la "
+            "web operativa disponible es antigua. Solo planear la visita si PPG confirma por escrito sitio, acceso, "
+            "actividad, tarifa y protocolo sanitario actuales."
+        ),
+        17: (
+            "Djambala es la capital del departamento de Plateaux y una base para leer el paisaje de arenas antiguas, "
+            "sabanas onduladas y estrechos bosques-galería de las mesetas Batéké. La ruta por Ngo, Djambala, Lékana y "
+            "Okoyo ofrece un corredor occidental hacia el norte, sujeto a verificación de calzada y combustible. El "
+            "Parque Nacional de Ogooué-Leketi, creado en 2018 con 350.000 ha y contiguo a Batéké en Gabón, protege la "
+            "transición de sabana y selva y las cabeceras del Ogooué y el Leketi. Es un enclave remoto distinto: la "
+            "fuente de WCS no confirma turismo abierto, por lo que no se promete como excursión desde Djambala."
+        ),
+        18: (
+            "Makoua está atravesada por la línea del Ecuador. Junto a la carretera, una esfera armilar señala de forma "
+            "visible el paso del paralelo cero y ofrece una parada breve con significado geográfico. La coordenada "
+            "coincide con el monumento en dos cartografías independientes, no con un centroide municipal. La antigua "
+            "torre de Makoua aporta una referencia urbana secundaria, mientras Owando, unos 80 km al sur, sigue siendo "
+            "la base de servicios importante de la RN2. Detenerse fuera de la calzada y no confundir ambas ciudades."
+        ),
+    },
 }
 
 
@@ -345,6 +616,48 @@ FICHA_REPLACEMENTS: dict[str, list[tuple[str, str]]] = {
         (
             '<tr ><td>Fotos pendientes de sustituir</td><td>Varios PDIs usan imágenes de referencia de otra localidad del país: sustituir por fotos propias o por archivos verificados de Wikimedia Commons</td></tr>',
             "",
+        ),
+    ],
+    "congo": [
+        (
+            "&lt;strong&gt;",
+            "<strong>",
+        ),
+        (
+            "&lt;/strong&gt;",
+            "</strong>",
+        ),
+        (
+            "Si se descarta con los coches, el ferrocarril Congo-Océan permite hacerlo en tren dejando los vehículos en Brazzaville.",
+            "No se ha confirmado un servicio de pasajeros utilizable; si se descarta el desvío con los coches, se renuncia al suroeste o se verifica en la estación una alternativa vigente, sin basar el plan en horarios antiguos.",
+        ),
+        (
+            "Ngaga (trekking) + bais de Lokoué y Moba + río Mambili",
+            "Ngaga (trekking) o Camp Imbalanga (bai), según la reserva cerrada",
+        ),
+        (
+            "las excursiones guiadas desde Camp Imbalanga al complejo de bais de Moba y otros senderos del parque llevan a plataformas y claros pantanosos donde salen al descubierto elefantes de bosque, búfalos, sitatungas y a veces gorilas. Es la alternativa a pie que SÍ se puede reservar sin operador de lujo, y la que más fauna da por hora de esfuerzo.",
+            "las salidas guiadas de Camp Imbalanga se concentran en su propio bai y en los senderos del sector oriental, con puntos de observación donde pueden aparecer elefantes de bosque, búfalos, sitatungas o gorilas. No se mezclan con los bais de Moba o Lokoué, que tienen otra localización y logística, y ninguna fauna está garantizada.",
+        ),
+        (
+            '<tr ><td>Desvío suroeste · decisión</td><td>Decidir si Pointe-Noire, Diosso y Conkouati entran en el calendario (~1.000 km y 4-6 días) o si se sustituyen por más días en Odzala. Valorar la opción de hacerlo en el tren Congo-Océan dejando los vehículos en Brazzaville.</td></tr>',
+            '<tr ><td>Desvío suroeste · decisión</td><td>Decidir si Pointe-Noire, Diosso y Conkouati entran en el calendario (~1.000 km y 4-6 días) o si se sustituyen por más días en Odzala. No contar con el tren: no se ha confirmado un servicio de pasajeros utilizable.</td></tr>',
+        ),
+        (
+            '<tr ><td>Lésio-Louna · visita sin reserva</td><td>Confirmar con la Fundación Aspinall las tasas, el horario y si admiten visita de un día sin reserva previa, para encajarlo en el corredor de subida.</td></tr>',
+            '<tr ><td>Lésio-Louna · visita actual</td><td>Exigir confirmación escrita y vigente de la Fundación Aspinall sobre acceso, reserva, tasas, horario y punto de encuentro. Sin respuesta, tratar la visita como no disponible.</td></tr>',
+        ),
+        (
+            '<tr ><td>Ferrocarril Congo-Océan</td><td>Confirmar si el tren «La Gazelle» Brazzaville-Pointe-Noire circula con regularidad en 2027, frecuencia y precio: sería la forma de ver el suroeste sin mover los vehículos.</td></tr>',
+            '<tr ><td>Ferrocarril Congo-Océan</td><td>No usarlo como alternativa planificada. Solo reconsiderarlo si CFCO confirma por escrito un servicio de pasajeros, fechas y condiciones vigentes.</td></tr>',
+        ),
+        (
+            '<tr ><td>Fotos pendientes de sustituir</td><td>Souanké/Sembé, Ouesso, Nouabalé-Ndoki, los bais de Odzala, Loufoulakari, Diosso, Conkouati, el CFCO y las mesetas Batéké usan imágenes de referencia de la especie o de la región, no del propio sitio: sustituir por fotos propias cuando las tengamos.</td></tr>',
+            "",
+        ),
+        (
+            "Última revisión de esta versión: 12 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Las tarifas de Odzala citadas son las públicas de 2025 y hay que revalidarlas para 2027.",
+            "Última revisión de esta versión: 14 de septiembre de 2026. La historia, los PDI, sus fotografías, enlaces y coordenadas se han auditado; esta ficha sigue siendo una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Las tarifas y condiciones operativas deben revalidarse para 2027.",
         ),
     ],
 }
@@ -594,6 +907,180 @@ PHOTOS: dict[str, dict[int, list[dict[str, str]]]] = {
             commons("Mussulo, Angola.jpg", "Juvenalia Brito · CC BY-SA 3.0", "Mussulo visto durante la travesía en barco"),
         ],
     },
+    "congo": {
+        1: [
+            commons("Sur les routes de la République du Congo. 01.jpg", "ArnoBOUJIKA · CC BY 4.0", "Entrada de Souanké en el corredor forestal del noroeste"),
+            commons("Sur les routes de la République du Congo. 02.jpg", "ArnoBOUJIKA · CC BY 4.0", "Carretera y paisaje urbano de Souanké"),
+            commons("Sur les routes de la République du Congo. 03.jpg", "ArnoBOUJIKA · CC BY 4.0", "Eje asfaltado fotografiado dentro de Souanké"),
+        ],
+        2: [
+            commons("Ouesso.jpg", "OUesso · CC BY-SA 4.0", "Vista de Ouesso al anochecer, complemento del puerto y el río Sangha"),
+        ],
+        3: [
+            commons("African elephant, Mbeli-Bai, Republic of Congo (18320426684).jpg", "Dirck Byler / USFWS · dominio público", "Elefante de bosque fotografiado en Mbeli Bai"),
+            commons("Gorilla tool use-Leah.jpg", "Thomas Breuer et al. · CC BY 2.5", "La gorila Leah usando una rama para comprobar la profundidad del agua en Mbeli Bai"),
+        ],
+        5: [
+            {
+                "img": "https://canadiangeographic.ca/wp-content/uploads/2026/07/KAMBA-Gorilla-Tracking-at-Ngaga-Andrew-Howard-1024x724.jpg",
+                "source": "https://canadiangeographic.ca/articles/the-good-life-a-walk-in-the-park-in-congo/",
+                "credit": "Andrew Howard / Kamba Africa · Canadian Geographic",
+                "caption": "Rastreo guiado de gorilas desde Ngaga Lodge",
+            },
+            {
+                "img": "https://canadiangeographic.ca/wp-content/uploads/2026/07/Kamba-Primates-ANDREW-HOWARD-Wildlife13-1024x705.jpg",
+                "source": "https://canadiangeographic.ca/articles/the-good-life-a-walk-in-the-park-in-congo/",
+                "credit": "Andrew Howard / Kamba Africa · Canadian Geographic",
+                "caption": "Gorila de llanura occidental observado durante el seguimiento de Ngaga",
+            },
+            {
+                "img": "https://visitodzala-kokoua.org/wp-content/uploads/sites/7/2024/05/KAMBA-Odzala-Ngaga-Lodge-image_-Scott-Ramsey.jpg",
+                "source": "https://visitodzala-kokoua.org/",
+                "credit": "Scott Ramsey / Kamba Africa · Visit Odzala",
+                "caption": "Zona común de Ngaga Lodge dentro del bosque",
+            },
+        ],
+        6: [
+            {
+                "img": "https://africageographic.com/wp-content/uploads/2024/04/Camp-Imbalanga-1.jpg",
+                "source": "https://africageographic.com/stories/odzala-kokoua-sojourn/",
+                "credit": "Brendan Taylor · Africa Geographic",
+                "caption": "Tiendas de Camp Imbalanga bajo el bosque de Odzala",
+            },
+            {
+                "img": "https://africageographic.com/wp-content/uploads/2024/04/Imbalanga-Bai-lookout-Brendan-Taylor-DJI_0178.jpg",
+                "source": "https://africageographic.com/stories/odzala-kokoua-sojourn/",
+                "credit": "Brendan Taylor · Africa Geographic",
+                "caption": "Mirador y claro inundado del bai de Imbalanga",
+            },
+            {
+                "img": "https://africageographic.com/wp-content/uploads/2024/04/western-lowland-gorilla-silverback-Camp-Imbalanga-30.jpg",
+                "source": "https://africageographic.com/stories/odzala-kokoua-sojourn/",
+                "credit": "Brendan Taylor · Africa Geographic",
+                "caption": "Gorila de llanura occidental fotografiado en Camp Imbalanga",
+            },
+        ],
+        8: [
+            {
+                "img": "https://3.bp.blogspot.com/-o8EMkLexwmA/WbfenoYFXDI/AAAAAAAABKU/GKYWr418oz8FvFp3FUZ4JazS6nN3eGdEgCLcBGAs/s1600/5.jpg",
+                "source": "https://congobrazzafrique.blogspot.com/2017/09/le-pont-du-djoue.html",
+                "credit": "Congo Brazzafrique",
+                "caption": "Puente sobre el Djoué y los rápidos rocosos",
+            },
+            {
+                "img": "https://1.bp.blogspot.com/-oytQDabJllU/WbfeazTiKnI/AAAAAAAABKQ/YmKAkHUQGIECZKTBap1LC2j1rLWUogqogCLcBGAs/s1600/3.jpg",
+                "source": "https://congobrazzafrique.blogspot.com/2017/09/le-pont-du-djoue.html",
+                "credit": "Congo Brazzafrique",
+                "caption": "Canal y saltos de agua en los rápidos del Djoué",
+            },
+            {
+                "img": "https://3.bp.blogspot.com/-C6PcA7N5hK8/Wbff3sS2CBI/AAAAAAAABK4/Os_OejPUkFMrUMhpoasAUwh21_ka6MuCACEwYBhgL/s1600/13.jpg",
+                "source": "https://congobrazzafrique.blogspot.com/2017/09/le-pont-du-djoue.html",
+                "credit": "Congo Brazzafrique",
+                "caption": "Tramo encajado del Djoué junto al acceso de los rápidos",
+            },
+        ],
+        9: [
+            commons("Miss Loufoulakari 01.jpg", "Simple fleur · CC0", "Caída y grandes losas de arenisca de Loufoulakari"),
+            commons("Miss Loufoulakari 02.jpg", "Simple fleur · CC0", "Rápidos superiores de las cataratas de Loufoulakari"),
+            commons("Miss Loufoulakari 09.jpg", "Simple fleur · CC0", "Vista frontal de uno de los saltos de Loufoulakari"),
+        ],
+        10: [
+            commons("Ecole de peinture de Poto-Poto Brazzaville 07.jpg", "Africany · CC0", "Entrada de la Escuela de Pintura de Poto-Poto"),
+            commons("Ecole de peinture de Poto-Poto Brazzaville 06.jpg", "Africany · CC0", "Galería y obras expuestas dentro de la escuela"),
+            commons("Ecole de peinture de Poto-Poto Brazzaville 02.jpg", "Africany · CC0", "Artista trabajando en la Escuela de Poto-Poto"),
+        ],
+        11: [
+            commons("Dolisie.jpg", "Jomako · CC BY-SA 3.0", "Vista urbana de Dolisie"),
+            commons("Gare de Dolisie.jpg", "Allweno · CC BY-SA 4.0", "Fachada de la estación ferroviaria de Dolisie"),
+            commons("Gare de Dolisie (arrière).jpg", "Allweno · CC BY-SA 4.0", "Andenes y parte posterior de la estación de Dolisie"),
+        ],
+        12: [
+            commons("Pointe-Noire downtown.jpg", "David Stanley · CC BY 2.0", "Centro urbano de Pointe-Noire"),
+            commons("Wikimédia République du Congo - Pointe Noire. 01.jpg", "ArnoBOUJIKA · CC BY 4.0", "Calle de Pointe-Noire; archivo geolocalizado en el centro"),
+            commons("Un après-midi sur la Côte sauvage.jpg", "Krissima POBA NGOUMA · CC BY-SA 4.0", "Côte Sauvage, la playa atlántica de Pointe-Noire"),
+        ],
+        13: [
+            commons("Guide du Mussée Ma Loango de Diosso.jpg", "Roly USD · CC0", "Guía ante el nuevo complejo del Museo Mâ Loango de Diosso"),
+            commons("Wikimedien de la république du congo.jpg", "Roly USD · CC0", "Visitantes en el nuevo Museo Mâ Loango"),
+            commons("Ma-Loango Regional Museum (19541380803).jpg", "David Stanley · CC BY 2.0", "Antiguo palacio real que albergó el museo desde 1982; no es el edificio actual"),
+        ],
+        14: [
+            {
+                "img": "https://noe.org/app/uploads/2025/05/PNCD_PIC_DJI_ARTHUR-24-2048x1536.jpeg",
+                "source": "https://noe.org/actions/gestion-du-parc-national-de-conkouati-douli/",
+                "credit": "Arthur · Noé",
+                "caption": "Vista aérea de la laguna, la costa y el bosque de Conkouati-Douli",
+            },
+            {
+                "img": "https://www.help-congo.org/thumbnail/eco-tourism/eco-tourisme.jpg?fit=crop&h=400&s=08cb10de852ff036d8de064f8af097b9&w=400",
+                "source": "https://www.help-congo.org/ecotourisme",
+                "credit": "HELP Congo",
+                "caption": "Playa del parque dentro del circuito de ecoturismo de HELP Congo",
+            },
+            {
+                "img": "https://www.help-congo.org/thumbnail/eco-tourism/jorda-grande-ile.jpg?h=600&s=c74fe553f1ec8411df7e148da864bf37&w=1080",
+                "source": "https://www.help-congo.org/ecotourisme",
+                "credit": "HELP Congo",
+                "caption": "Aproximación en piragua al proyecto de chimpancés en la laguna",
+            },
+        ],
+        15: [
+            commons("Brazzaville-Congo-Ocean Railway-1932.jpg", "Autor desconocido · dominio público", "Estación y tren del Congo-Océan en Brazzaville en 1932"),
+            commons("Travailleurs sur le chantier du chemin de fer Congo-Océan, dans la colonie française du Moyen-Congo, vers 1923.png", "Touring Club Italiano / Marka / UIG · dominio público", "Trabajadores del Congo-Océan hacia 1923"),
+            commons("Photographie de travailleurs forcés sur le chantier du chemin de fer Congo-Océan (1924-1925).jpg", "Autor desconocido · dominio público", "Trabajadores forzados durante la construcción, 1924–1925"),
+        ],
+        16: [
+            {
+                "img": "https://blog.aspinallfoundation.org/hs-fs/hubfs/2020A-160%20Congo%20Camera%20Trap%20Image%20-%20Makouas%20Group%20Jan%202021%20.jpeg?name=2020A-160+Congo+Camera+Trap+Image+-+Makouas+Group+Jan+2021+.jpeg&width=8367",
+                "source": "https://blog.aspinallfoundation.org/one-year-anniversary-of-our-big-cat-project-in-lesio-louna-reserve",
+                "credit": "The Aspinall Foundation",
+                "caption": "Grupo de Makoua registrado por cámara trampa en Lésio-Louna",
+            },
+            {
+                "img": "https://blog.aspinallfoundation.org/hs-fs/hubfs/2020A-160%20Congo%20Makoua%20Group%20Matt%20Bonnet.jpg?name=2020A-160+Congo+Makoua+Group+Matt+Bonnet.jpg&width=3477",
+                "source": "https://blog.aspinallfoundation.org/tracking-leopards-lions-in-l%C3%A9sio-louna-reserve-republic-of-congo",
+                "credit": "Matt Bonnet · The Aspinall Foundation",
+                "caption": "Seguimiento de gorilas reintroducidos del grupo de Makoua",
+            },
+            {
+                "img": "https://blog.aspinallfoundation.org/hubfs/STG-CA-680%20Silverback%20Djeke%20in%20Lesio-Louna%20reserve%20Credit%20The%20Aspinall%20Foundation.jpg",
+                "source": "https://blog.aspinallfoundation.org/the-benefits-of-smart-technology-on-our-conservation-programme-in-l%C3%A9sio-louna",
+                "credit": "The Aspinall Foundation",
+                "caption": "El espalda plateada Djeke dentro de la reserva de Lésio-Louna",
+            },
+        ],
+        17: [
+            {
+                "img": "https://4.bp.blogspot.com/-IZ93F57i_70/W_UW4QZpkMI/AAAAAAAAAUk/JbAurMdZSjYkfieb4wHY8VKVjg15miCtQCLcBGAs/s1600/Boulevard%2BDenis%2BSASSOU%2BNGUESSO%2Bde%2BDjambala.jpg",
+                "source": "https://cdpcongo.blogspot.com/2017/10/district-de-djambala.html",
+                "credit": "Chemin de Développement Personnel Congo",
+                "caption": "Boulevard principal de Djambala sobre la meseta",
+            },
+            {
+                "img": "https://2.bp.blogspot.com/-BVbO2XZkyDc/W-PooWeVSQI/AAAAAAAAAOI/8EPNpURngqIPfX8T7WwpY0BuzlYIqxVLQCEwYBhgL/s1600/Djambala.jpg",
+                "source": "https://cdpcongo.blogspot.com/2017/10/district-de-djambala.html",
+                "credit": "Chemin de Développement Personnel Congo",
+                "caption": "Edificio administrativo y rotonda de Djambala",
+            },
+            commons("Exploration axe P20 Ngo Djambala (2).jpg", "Vainqueur.2 · CC BY-SA 4.0", "Sabana y carretera P20 en el eje de Djambala"),
+        ],
+        18: [
+            {
+                "img": "https://pbs.twimg.com/media/D_BBxWbX4AANCKa.jpg",
+                "source": "https://x.com/Kikilawanda/status/1148490255550619648",
+                "credit": "Kikilawanda",
+                "caption": "Esfera armilar del Monumento del Ecuador en Makoua",
+            },
+            {
+                "img": "https://cdn.travelpal.ai/prod/places/-XeJAWu68rJ7jVBylj2X-HVXXtV/photos/google/webp/d319dab4f6301c5826522d18.webp",
+                "source": "https://www.travelpal.ai/place/equator-monument-2",
+                "credit": "Google / TravelPal",
+                "caption": "El Monumento del Ecuador y su entorno inmediato junto a la carretera",
+            },
+            commons("Makoua (Republic of the Congo) - Former bell tower.JPG", "Bsm15 · CC BY-SA 3.0", "Antigua torre de Makoua, referencia urbana secundaria"),
+        ],
+    },
 }
 
 
@@ -613,6 +1100,10 @@ REMOVE_LINKS: dict[str, set[str]] = {
         "https://mcta.gov.ao/ao/noticias/governadora-visita-ombala-mbalundo/",
         "https://minamb.gov.ao/web/noticias/serra-do-pindo-e-morro-do-moco-elevados-a-areas-de-conservacao-ambiental/",
     },
+    "congo": {
+        "https://upr-info.org/sites/default/files/country-document/2024-03/A_HRC_WG.45_COG_1_E.pdf",
+        "https://www.wcscongoblog.org/wp-content/uploads/2016/02/brochure-Guide-to-Nouabale-Ndoki.pdf",
+    },
 }
 
 
@@ -629,6 +1120,12 @@ REMOVE_PHOTOS: dict[str, set[str]] = {
     "angola": {
         "https://mcta.gov.ao/ao/noticias/governadora-visita-ombala-mbalundo/",
     },
+    "congo": {
+        "https://commons.wikimedia.org/wiki/File:Navigating%20through%20the%20Black%20Forest%2C%20Nouabal%C3%A9-Ndoki%20National%20Park.jpg",
+        "https://commons.wikimedia.org/wiki/File:Flooded%20rainforest%20in%20the%20Black%20Forest%2C%20Nouabal%C3%A9-Ndoki%20National%20Park.jpg",
+        "https://commons.wikimedia.org/wiki/File:Wikim%C3%A9dia_R%C3%A9publique_du_Congo_-_Pointe_Noire._02.jpg",
+        "https://commons.wikimedia.org/wiki/File:Travailleurs_sur_le_chantier_du_chemin_de_fer_Congo-Oc%C3%A9an,_dans_la_colonie_fran%C3%A7aise_du_Moyen-Congo,_vers_1923.png",
+    },
 }
 
 
@@ -639,7 +1136,7 @@ PHOTO_LEADS: dict[str, dict[int, str]] = {
     },
 }
 
-SYNC_PRIMARY_PHOTO = {"gabon"}
+SYNC_PRIMARY_PHOTO = {"gabon", "congo"}
 
 
 def apply(country: str) -> None:
