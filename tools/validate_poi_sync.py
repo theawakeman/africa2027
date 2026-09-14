@@ -33,7 +33,9 @@ def source_photos(poi: dict) -> list[dict]:
             "img": poi["img"],
             "credit": poi.get("credit", ""),
             "source": poi.get("source", ""),
-            "caption": poi.get("name", ""),
+            # Coincide con la normalización de build.py para el formato antiguo.
+            # El modal usa el nombre del PDI como pie solo en el navegador.
+            "caption": "",
         }]
     return []
 
@@ -42,6 +44,15 @@ def card_fragment(page: str, number: object) -> str:
     pattern = rf'<article class="poi-card" id="poi-{re.escape(str(number))}".*?</article>'
     match = re.search(pattern, page, re.DOTALL)
     return match.group(0) if match else ""
+
+
+def visible_text(fragment: str) -> str:
+    """Texto visible aproximado de un fragmento generado.
+
+    El postprocesador enlaza nombres de fuentes dentro de las descripciones;
+    retirar las etiquetas permite comprobar el contenido, no su marcado.
+    """
+    return html.unescape(re.sub(r"<[^>]+>", "", fragment))
 
 
 def compare_point(label: str, actual: dict, source: dict, photos: list[dict], errors: list[str]) -> None:
@@ -61,7 +72,12 @@ def compare_point(label: str, actual: dict, source: dict, photos: list[dict], er
         errors.append(f"{label}: la portada no es la primera foto")
 
 
-def validate_country(slug: str, global_by_ref: dict[str, dict]) -> tuple[int, list[str]]:
+def validate_country(
+    slug: str,
+    global_by_ref: dict[str, dict],
+    *,
+    require_detail: bool = True,
+) -> tuple[int, list[str]]:
     errors: list[str] = []
     source_path = POIS_DIR / f"{slug}.json"
     page_path = ROOT / "paises" / slug / "index.html"
@@ -81,10 +97,11 @@ def validate_country(slug: str, global_by_ref: dict[str, dict]) -> tuple[int, li
 
         if not photos:
             errors.append(f"{label}: sin fotografía")
-        if not links:
-            errors.append(f"{label}: sin enlace útil")
-        if not VISIT_KEYS.issubset(visit):
-            errors.append(f"{label}: faltan campos de decisión {sorted(VISIT_KEYS - set(visit))}")
+        if require_detail:
+            if not links:
+                errors.append(f"{label}: sin enlace útil")
+            if not VISIT_KEYS.issubset(visit):
+                errors.append(f"{label}: faltan campos de decisión {sorted(VISIT_KEYS - set(visit))}")
 
         local = country_by_ref.get(local_ref)
         global_point = global_by_ref.get(global_ref)
@@ -101,12 +118,15 @@ def validate_country(slug: str, global_by_ref: dict[str, dict]) -> tuple[int, li
         if not card:
             errors.append(f"{label}: tarjeta ausente")
             continue
-        escaped_desc = html.escape(str(poi.get("desc", "")), quote=False)
+        desc_match = re.search(r'<p class="poi-desc">(.*?)</p>', card, re.DOTALL)
         cover = photos[0]["img"] if photos else ""
-        if f'<p class="poi-desc">{escaped_desc}</p>' not in card:
+        if not desc_match or visible_text(desc_match.group(1)) != str(poi.get("desc", "")):
             errors.append(f"{label}: el resumen de la tarjeta difiere")
-        if cover and f'src="{html.escape(cover, quote=True)}"' not in card:
-            errors.append(f"{label}: la portada de la tarjeta difiere")
+        if cover:
+            image_match = re.search(r'<img[^>]+src="([^"]+)"', card)
+            card_cover = html.unescape(image_match.group(1)) if image_match else ""
+            if card_cover.removeprefix("../../") != cover:
+                errors.append(f"{label}: la portada de la tarjeta difiere")
 
     expected_refs = {f"#poi-{poi['n']}" for poi in pois}
     if set(country_by_ref) != expected_refs:
@@ -115,7 +135,11 @@ def validate_country(slug: str, global_by_ref: dict[str, dict]) -> tuple[int, li
 
 
 def main() -> None:
-    slugs = sys.argv[1:] or sorted(path.stem for path in POIS_DIR.glob("*.json"))
+    args = sys.argv[1:]
+    sync_only = "--sync-only" in args
+    slugs = [arg for arg in args if arg != "--sync-only"]
+    if not slugs:
+        slugs = sorted(path.stem for path in POIS_DIR.glob("*.json"))
     global_points = json.loads(GLOBAL_POINTS.read_text(encoding="utf-8"))
     global_by_ref: dict[str, dict] = {}
     duplicate_refs: set[str] = set()
@@ -130,7 +154,7 @@ def main() -> None:
     total = 0
     all_errors: list[str] = []
     for slug in slugs:
-        count, errors = validate_country(slug, global_by_ref)
+        count, errors = validate_country(slug, global_by_ref, require_detail=not sync_only)
         total += count
         all_errors.extend(errors)
         print(f"{slug}: {count} PDIs · {'OK' if not errors else f'{len(errors)} errores'}")

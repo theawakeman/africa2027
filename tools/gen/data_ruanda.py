@@ -199,7 +199,7 @@ HISTORIA_FUENTES = [
 ]
 
 SPEC = dict(
-    slug="ruanda", name="Ruanda", revision="12 sep 2026",
+    slug="ruanda", name="Ruanda", revision="15 sep 2026",
     sub="ALTERNATIVA — no está en la ruta fija · va unida a Uganda · gorilas a 1.500 USD · el país más limpio de África",
     chips=[
         ("ESTATUS", "ALTERNATIVA: solo si hay tiempo; va emparejada con Uganda"),

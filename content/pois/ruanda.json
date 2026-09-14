@@ -1,139 +1,403 @@
 [
   {
     "n": 1,
-    "name": "Musanze (Ruhengeri) y sus cuevas",
+    "name": "Cuevas de Musanze",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en la cueva",
     "time": "1–2 noches",
-    "lat": -1.499,
-    "lon": 29.635,
-    "desc": "Puerta de entrada a los volcanes y base logística del norte: combustible, bancos, mercado y alojamientos de todos los precios, a 1.850 m de altitud y con los cinco conos de los Virunga asomando por encima de los tejados. Su rareza propia son las CUEVAS DE MUSANZE, dos kilómetros de tubos de lava formados por las erupciones de los volcanes, con bóvedas de más de diez metros, colonias de murciélagos y claraboyas por donde entra el sol; se visitan con casco y linterna en un recorrido de una hora larga. Es también el sitio donde se duerme la víspera del trekking de gorilas, porque hay que estar en Kinigi a las 7 de la mañana.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -1.50368,
+    "lon": 29.61323,
+    "desc": "Túneles de lava visitables en las afueras de Musanze, formados por antiguas coladas de los Virunga. Es una actividad guiada con casco y luz, y una buena introducción geológica antes de los volcanes.",
+    "credit": "Joseph Lionceau · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musanze_Cave.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Musanze_Cave.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Añade una experiencia subterránea concreta a la base logística de Musanze.",
+      "see": "Galerías de lava, claraboyas naturales y paredes modeladas por las coladas; la fauna no debe molestarse.",
+      "access": "El pin marca la entrada real de Musanze Caves contrastada con cartografía abierta; Google Maps no devuelve un objeto nominal fiable en ese punto. Reservar con operador autorizado.",
+      "when": "Con plaza confirmada y calzado adherente; la lluvia puede volver húmedo el acceso.",
+      "skip": "No entrar por libre, sin casco o si el operador no confirma que la visita está abierta."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · cuevas de Musanze",
+        "url": "https://visitrwanda.com/interests/caving/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musanze_Cave.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Musanze_Cave.jpg",
+        "credit": "Joseph Lionceau · CC BY-SA 4.0",
+        "caption": "Galería real de lava en Musanze Caves."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musanze_cave.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Musanze_cave.jpg",
+        "credit": "Zamda12 · CC BY-SA 4.0",
+        "caption": "Interior de las cuevas de Musanze durante una visita."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musanze-Caves.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Musanze-Caves.jpg",
+        "credit": "Chretie17 · CC BY-SA 4.0",
+        "caption": "Boca y paredes de lava de Musanze Caves."
+      }
+    ]
   },
   {
     "n": 2,
-    "name": "Parque Nacional de los Volcanes (Kinigi)",
+    "name": "Volcanoes National Park · acceso de Kinigi",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "2–3 noches",
-    "lat": -1.4675,
-    "lon": 29.4925,
-    "desc": "160 km² que abarcan cinco de los ocho volcanes Virunga —Karisimbi, Bisoke, Muhabura, Gahinga y Sabyinyo— y la mitad ruandesa de la población mundial de gorila de montaña. Es el parque de Dian Fossey y el escenario de «Gorilas en la niebla». EL DATO QUE DECIDE: el permiso de trekking cuesta 1.500 USD POR PERSONA para no residentes, o sea 4.500 USD los tres viajeros por una hora con los gorilas — es el permiso más caro de África y casi el doble que el de Uganda. Tiene además el permiso de MONOS DORADOS, muchísimo más barato, y en septiembre celebra el Kwita Izina, la ceremonia nacional de bautizo de las crías nacidas ese año.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bisoke%20Crater%20Lake%20in%20Volcanoes%20National%20Park%2C%20Rwanda.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Bisoke%20Crater%20Lake%20in%20Volcanoes%20National%20Park%2C%20Rwanda.jpg",
+    "lat": -1.4445561,
+    "lon": 29.4967457,
+    "desc": "Bosque montano sobre los volcanes Virunga, principal base ruandesa para rastreos reglados de gorila de montaña y mono dorado. Cada actividad requiere reserva y permiso propios.",
+    "credit": "Charles J Sharp · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain_gorilla_(Gorilla_beringei_beringei)_female_with_baby.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_female_with_baby.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es uno de los grandes paisajes de conservación de primates del viaje.",
+      "see": "Bambú, bosque de montaña, volcanes y primates si el grupo asignado los localiza; nada se garantiza.",
+      "access": "El pin coincide con el objeto Volcanoes National Park de Google Maps. La oficina y hora de presentación exactas deben constar en la reserva.",
+      "when": "Dormir en Musanze o Kinigi la víspera y llegar con ropa de lluvia, polainas y botas.",
+      "skip": "No entrar sin permiso, no llevar al perro y no confundir el pin del parque con el punto de briefing."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · Volcanoes National Park",
+        "url": "https://visitrwanda.com/destinations/volcanoes-national-park/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain_gorilla_(Gorilla_beringei_beringei)_female_with_baby.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_female_with_baby.jpg",
+        "credit": "Charles J Sharp · CC BY-SA 4.0",
+        "caption": "Hembra y cría de gorila de montaña en Volcanoes National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain_gorilla_(Gorilla_beringei_beringei)_female_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_female_2.jpg",
+        "credit": "Charles J Sharp · CC BY-SA 4.0",
+        "caption": "Gorila de montaña fotografiado dentro del parque."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain_gorilla_from_Susa_Group_in_Karisimbi_thicket_of_Volcanoes_National_Park_in_Rwanda._Emmanuel_Kwizera.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_from_Susa_Group_in_Karisimbi_thicket_of_Volcanoes_National_Park_in_Rwanda._Emmanuel_Kwizera.jpg",
+        "credit": "Emmanuel Kwizera · CC BY-SA 4.0",
+        "caption": "Gorila del grupo Susa en la vegetación de Karisimbi."
+      }
+    ]
   },
   {
     "n": 3,
     "name": "Monte Bisoke · el lago del cráter",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "1 día",
-    "lat": -1.4581,
-    "lon": 29.4886,
-    "desc": "La mejor excursión a pie de Ruanda y la alternativa barata a los gorilas: subida de unas tres horas por barro y bambú hasta los 3.711 m, donde se abre un lago de cráter perfectamente circular de aguas verdes, con Ruanda a un lado y RD Congo al otro. No requiere técnica, sí buenas botas y bastones porque el descenso es un tobogán de barro. Se hace en el día desde Kinigi, con ranger obligatorio, y cuesta una fracción del permiso de gorilas.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volcanoes%20National%20Park%20Rwanda.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Volcanoes%20National%20Park%20Rwanda.jpg",
+    "lat": -1.4619444,
+    "lon": 29.4858333,
+    "desc": "Ascensión guiada al volcán Bisoke y a su lago de cráter, por bosque, bambú y terreno frecuentemente embarrado. La altitud y el desnivel la convierten en una jornada exigente.",
+    "credit": "Happy Gentille · CC0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bisoke_Crater_Lake_in_Volcanoes_National_Park,_Rwanda.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bisoke_Crater_Lake_in_Volcanoes_National_Park,_Rwanda.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece una cumbre volcánica muy visual sin depender de un avistamiento de fauna.",
+      "see": "Lago del cráter, bosque de los Virunga y, si se abre la niebla, vistas transfronterizas.",
+      "access": "El pin coincide con Mount Bisoke en Google Maps; el inicio operativo y el ranger se asignan al registrarse en el parque.",
+      "when": "Salir temprano con tiempo estable, agua, comida y protección de lluvia.",
+      "skip": "Descartarlo con tormenta, mala forma física, equipo insuficiente o sin ranger autorizado."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · senderos volcánicos",
+        "url": "https://visitrwanda.com/interests/hiking/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bisoke_Crater_Lake_in_Volcanoes_National_Park,_Rwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bisoke_Crater_Lake_in_Volcanoes_National_Park,_Rwanda.jpg",
+        "credit": "Happy Gentille · CC0",
+        "caption": "Lago del cráter de Bisoke en Volcanoes National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bisoke_Crater_View.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bisoke_Crater_View.jpg",
+        "credit": "Joseph Lionceau · CC BY-SA 4.0",
+        "caption": "Vista del borde y lago del cráter de Bisoke."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/On_the_top_of_Mount_Bisoke,_Rwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:On_the_top_of_Mount_Bisoke,_Rwanda.jpg",
+        "credit": "Alex Niragira · CC BY-SA 4.0",
+        "caption": "Excursionistas en la cumbre de Mount Bisoke."
+      }
+    ]
   },
   {
     "n": 4,
     "name": "Karisoke y la tumba de Dian Fossey",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "medio día",
-    "lat": -1.475,
-    "lon": 29.48,
-    "desc": "Entre el Karisimbi y el Bisoke, a unas dos horas de caminata desde la puerta del parque, están las ruinas del centro de investigación de Karisoke que Dian Fossey fundó en 1967 y el pequeño cementerio donde ella misma está enterrada, junto a Digit y al resto de gorilas asesinados por los furtivos. Fossey fue asesinada en 1985 en su cabaña y su trabajo es la razón por la que los gorilas de montaña siguen existiendo. Es una caminata sencilla, mucho más barata que el trekking de gorilas y con un peso emocional que la mayoría no espera. Coordenadas aproximadas, por confirmar.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -1.473268,
+    "lon": 29.484616,
+    "desc": "Cementerio de montaña donde descansan Dian Fossey y varios gorilas, junto al emplazamiento histórico de Karisoke. Se llega en una caminata guiada dentro del parque.",
+    "credit": "Fanny Schertzer · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Digit%27s_and_Dian_Fossey%27s_graves.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Digit%27s_and_Dian_Fossey%27s_graves.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite entender el coste humano y animal de la historia de conservación de los gorilas.",
+      "see": "Tumbas, restos del antiguo campamento y bosque entre Karisimbi y Bisoke, con interpretación del ranger.",
+      "access": "El pin coincide con el objeto Dian Fossey Cemetery en Google Maps. Permiso, guía y punto de inicio se confirman con el parque.",
+      "when": "Por la mañana y con equipo para barro y lluvia; reservar una jornada flexible.",
+      "skip": "No acceder por libre, no llevar mascota y no tratar el lugar como una simple localización fotográfica."
+    },
+    "links": [
+      {
+        "label": "Dian Fossey Gorilla Fund · campus y legado",
+        "url": "https://gorillafund.org/ellen-campus/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Digit%27s_and_Dian_Fossey%27s_graves.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Digit%27s_and_Dian_Fossey%27s_graves.jpg",
+        "credit": "Fanny Schertzer · CC BY 3.0",
+        "caption": "Tumbas de Dian Fossey y Digit en el antiguo Karisoke."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tombe_Dian_Fossey.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tombe_Dian_Fossey.jpg",
+        "credit": "Zinkiol · CC BY-SA 4.0",
+        "caption": "Tumba de Dian Fossey dentro del cementerio de montaña."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_and_Dian_Fossey%27s_graveyard.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gorilla_and_Dian_Fossey%27s_graveyard.jpg",
+        "credit": "Fanny Schertzer · CC BY 3.0",
+        "caption": "Cementerio de gorilas y de Dian Fossey."
+      }
+    ]
   },
   {
     "n": 5,
     "name": "Lagos gemelos Burera y Ruhondo",
     "cat": "Naturaleza",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento y barca",
     "time": "1 noche",
-    "lat": -1.4333,
-    "lon": 29.7667,
-    "desc": "Dos lagos alargados separados por una lengua de tierra, al este de Musanze, con los volcanes al fondo y las laderas cultivadas en terrazas hasta el borde del agua: es el paisaje que sale en todas las fotos de «el país de las mil colinas» y casi nadie se para. Se recorren por una pista de tierra de cornisa que es una de las conducciones más bonitas del país, hay canoas locales y algún alojamiento pequeño en la orilla. Fuera de recinto de parque: se puede estar con el perro.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -1.4801217,
+    "lon": 29.7390696,
+    "desc": "Lago Ruhondo, uno de los lagos gemelos al este de Musanze, ofrece agua, colinas cultivadas y los Virunga al fondo. La ficha se ancla en un punto real de embarque, no en el centro del lago.",
+    "credit": "Rogerirakoze · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Twin_lakes_burera_and_ruhondo_Rwanda.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Twin_lakes_burera_and_ruhondo_Rwanda.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una pausa paisajística accesible después de las actividades de montaña.",
+      "see": "Orilla de Ruhondo, islas y terrazas agrícolas; Burera requiere otro acceso.",
+      "access": "El pin coincide con Lake Ruhondo Boat Point en Google Maps. Confirmar barca, chaleco, estacionamiento y política del perro.",
+      "when": "Mañana despejada o final de la tarde, sin viento fuerte.",
+      "skip": "No embarcar sin chaleco ni asumir que cualquier pista de la orilla es pública."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · Musanze y lagos gemelos",
+        "url": "https://visitrwanda.com/destinations/musanze/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Twin_lakes_burera_and_ruhondo_Rwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Twin_lakes_burera_and_ruhondo_Rwanda.jpg",
+        "credit": "Rogerirakoze · CC BY-SA 4.0",
+        "caption": "Lagos gemelos Burera y Ruhondo con los Virunga al fondo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Ruhondo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Ruhondo.jpg",
+        "credit": "Joseph Lionceau · CC BY-SA 4.0",
+        "caption": "Orilla y colinas de Lake Ruhondo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Burera_lake.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Burera_lake.jpg",
+        "credit": "Ntwali Jay · CC BY-SA 4.0",
+        "caption": "Lake Burera, el otro lago gemelo del conjunto."
+      }
+    ]
   },
   {
     "n": 6,
     "name": "Gisenyi (Rubavu) y el lago Kivu",
     "cat": "Costa",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento",
     "time": "2 noches",
-    "lat": -1.7,
-    "lon": 29.25,
-    "desc": "La playa del interior de África: arena, palmeras y un paseo marítimo colonial a orillas del Kivu, octavo lago de África (2.700 km², 480 m de profundidad máxima), pegado a la frontera con RD Congo — Goma está literalmente al otro lado de la verja. Se puede nadar sin miedo: el Kivu no tiene cocodrilos, ni hipopótamos, ni bilharzia documentada, algo excepcional en un lago africano. Tiene fuentes termales en Nyamyumba y, a pocos kilómetros, la fábrica de cerveza Bralirwa. Es el punto de arranque del Congo Nile Trail.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20over%20Lake%20Kivu%20from%20Home%20St.%20Jean%20-%20Kibuye%20(Karongi)%20-%20Rwanda%20-%2001%20(8970024017).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:View%20over%20Lake%20Kivu%20from%20Home%20St.%20Jean%20-%20Kibuye%20(Karongi)%20-%20Rwanda%20-%2001%20(8970024017).jpg",
+    "lat": -1.7033608,
+    "lon": 29.2587778,
+    "desc": "Rubavu es la principal escala del lago Kivu al norte, con paseo costero, playa pública y servicios junto a la frontera congoleña. El pin lleva a la playa real, no a una vista de Karongi.",
+    "credit": "Adam Jones · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Scene_along_Shore_of_Lake_Kivu_-_Looking_toward_DR_Congo_Border_-_Rubavu-Gisenyi_-_Rwanda_-_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Scene_along_Shore_of_Lake_Kivu_-_Looking_toward_DR_Congo_Border_-_Rubavu-Gisenyi_-_Rwanda_-_01.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Combina descanso junto al agua, aprovisionamiento y salida del Congo Nile Trail.",
+      "see": "Bahía de Rubavu, paseo y horizonte de Goma; la situación fronteriza se evalúa aparte.",
+      "access": "El pin coincide con Rubavu Public Beach en Google Maps. Usar estacionamiento vigilado y comprobar avisos locales.",
+      "when": "Una o dos noches, preferiblemente sin desplazamientos nocturnos cerca de la frontera.",
+      "skip": "No cruzar a RD Congo ni nadar o navegar sin comprobación local de seguridad y condiciones del agua."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · Rubavu",
+        "url": "https://visitrwanda.com/destinations/rubavu/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Scene_along_Shore_of_Lake_Kivu_-_Looking_toward_DR_Congo_Border_-_Rubavu-Gisenyi_-_Rwanda_-_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Scene_along_Shore_of_Lake_Kivu_-_Looking_toward_DR_Congo_Border_-_Rubavu-Gisenyi_-_Rwanda_-_01.jpg",
+        "credit": "Adam Jones · CC BY-SA 3.0",
+        "caption": "Orilla del lago Kivu en Rubavu mirando hacia la frontera congoleña."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shore_of_Lake_Kivu_en_route_to_Rubona_-_Near_Rubavu-Gisenyi_-_Rwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shore_of_Lake_Kivu_en_route_to_Rubona_-_Near_Rubavu-Gisenyi_-_Rwanda.jpg",
+        "credit": "Adam Jones · CC BY-SA 3.0",
+        "caption": "Costa del lago Kivu cerca de Rubavu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Harbor_Scene_-_Rubona_-_Near_Rubavu-Gisenyi_-_Rwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Harbor_Scene_-_Rubona_-_Near_Rubavu-Gisenyi_-_Rwanda.jpg",
+        "credit": "Adam Jones · CC BY-SA 3.0",
+        "caption": "Escena portuaria en Rubona, cerca de Rubavu."
+      }
+    ]
   },
   {
     "n": 7,
-    "name": "Congo Nile Trail · la ruta de la orilla del Kivu",
+    "name": "Congo Nile Trail · tramo de Karongi",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con guía y alojamiento",
     "time": "3–5 días",
-    "lat": -1.9,
-    "lon": 29.34,
-    "desc": "LA GRAN RUTA DEL PAÍS: unos 227 km por la orilla oriental del lago Kivu, de Rubavu (Gisenyi) en el norte a Rusizi (Cyangugu) en el sur, pasando por Kinunu, Karongi (Kibuye) y Kibogora. Está pensada para hacerse a pie (unos 10 días) o en bicicleta de montaña (unos 5), pero buena parte del trazado es PISTA TRANSITABLE EN 4x4 y se puede recorrer en dos o tres jornadas de conducción lenta y espectacular, entre plantaciones de café y té, bahías, calas y aldeas de pescadores. Coordenadas del punto medio orientativo (Kinunu). La divisoria de aguas Congo-Nilo pasa por las crestas de arriba: de un lado el agua va al Atlántico, del otro al Mediterráneo.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -2.0616008,
+    "lon": 29.3483403,
+    "desc": "Ruta de senderismo y bicicleta que recorre las colinas de la orilla oriental del Kivu entre Rubavu y Rusizi. El pin representa el tramo de Gisovu–Karongi y no toda la travesía.",
+    "credit": "François Terrier · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Congo-Nile_trail_-_6956319035.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Congo-Nile_trail_-_6956319035.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la mejor forma de leer el paisaje rural del Kivu a ritmo lento.",
+      "see": "Crestas, plantaciones, aldeas y bahías; el firme y los servicios cambian por etapas.",
+      "access": "El pin coincide con Congo-Nile Trail Gisovu–Karongi en Google Maps. Elegir previamente un tramo y confirmar guía, alojamiento y traslado.",
+      "when": "En días relativamente secos y con horas de luz suficientes para terminar la etapa.",
+      "skip": "No asumir que todo el recorrido es transitable en coche ni improvisar atajos por propiedades privadas."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · Congo Nile Trail",
+        "url": "https://visitrwanda.com/interests/cycling/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Congo-Nile_trail_-_6956319035.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Congo-Nile_trail_-_6956319035.jpg",
+        "credit": "François Terrier · CC BY 2.0",
+        "caption": "Pista y paisaje rural del Congo Nile Trail."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Batwa_people_in_Rwanda_in_the_village_of_Kiguri_on_the_Congo_Nile_Trail_(3).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Batwa_people_in_Rwanda_in_the_village_of_Kiguri_on_the_Congo_Nile_Trail_(3).jpg",
+        "credit": "Hanay · CC BY-SA 3.0",
+        "caption": "Aldea de Kiguri en el Congo Nile Trail; fotografía documental acreditada."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Batwa_people_in_Rwanda_in_the_village_of_Kiguri_on_the_Congo_Nile_Trail_(2).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Batwa_people_in_Rwanda_in_the_village_of_Kiguri_on_the_Congo_Nile_Trail_(2).jpg",
+        "credit": "Hanay · CC BY-SA 3.0",
+        "caption": "Entorno de Kiguri en el recorrido del Congo Nile Trail."
+      }
+    ]
   },
   {
     "n": 8,
     "name": "Karongi (Kibuye) y las islas del Kivu",
     "cat": "Costa",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento y barca",
     "time": "1–2 noches",
-    "lat": -2.06,
-    "lon": 29.35,
-    "desc": "El punto medio del Congo Nile Trail y el rincón más bonito del lago: una península de penínsulas, con bahías recortadas, eucaliptos y agua tranquila. Desde el embarcadero salen barcas a la isla de Napoleón (llamada así por su forma de sombrero, con una colonia de murciélagos frugívoros en la cumbre) y a la isla de Amahoro. También hay un memorial del genocidio en la iglesia de San Pedro, donde murieron miles de personas en 1994. Buen sitio para parar con el perro: campings y hoteles junto al agua, y se puede nadar.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -2.0600136,
+    "lon": 29.3477473,
+    "desc": "Karongi, antigua Kibuye, ocupa una sucesión de penínsulas y bahías del lago Kivu. Es una base cómoda para navegar, descansar y dividir el corredor occidental.",
+    "credit": "Adam Jones · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shore_of_Lake_Kivu_-_Karongi-Kibuye_-_Western_Rwanda_-_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Shore_of_Lake_Kivu_-_Karongi-Kibuye_-_Western_Rwanda_-_01.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece el paisaje lacustre más recortado de Ruanda y una escala manejable.",
+      "see": "Bahías, islas y colinas desde la orilla o en barca autorizada; cada desembarco se acuerda aparte.",
+      "access": "El pin coincide con el objeto Kibuye de Google Maps junto al frente de agua. Confirmar embarcadero y aparcamiento con el alojamiento.",
+      "when": "Una o dos noches, con navegación de mañana si el tiempo lo permite.",
+      "skip": "No subir a una barca sin chalecos ni dejar al perro solo en el coche durante la excursión."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · lago Kivu y Karongi",
+        "url": "https://visitrwanda.com/destinations/lake-kivu/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shore_of_Lake_Kivu_-_Karongi-Kibuye_-_Western_Rwanda_-_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shore_of_Lake_Kivu_-_Karongi-Kibuye_-_Western_Rwanda_-_01.jpg",
+        "credit": "Adam Jones · CC BY-SA 3.0",
+        "caption": "Bahía y orilla de Karongi-Kibuye."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shore_of_Lake_Kivu_-_Karongi-Kibuye_-_Western_Rwanda_-_02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shore_of_Lake_Kivu_-_Karongi-Kibuye_-_Western_Rwanda_-_02.jpg",
+        "credit": "Adam Jones · CC BY-SA 3.0",
+        "caption": "Otra vista exacta del frente de agua de Karongi."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_over_Lake_Kivu_-_Outside_Kibuye_(Karongi)_-_Rwanda_(8970076941).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_over_Lake_Kivu_-_Outside_Kibuye_(Karongi)_-_Rwanda_(8970076941).jpg",
+        "credit": "Adam Jones · CC BY-SA 2.0",
+        "caption": "Lago Kivu visto desde las colinas de Karongi."
+      }
+    ]
   },
   {
     "n": 9,
@@ -142,167 +406,497 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -2.4833,
-    "lon": 28.9,
-    "desc": "Extremo suroeste del país, donde el lago Kivu se vacía en el río Rusizi y termina el Congo Nile Trail. Es el final logístico del oeste, con combustible y servicios, y la puerta de Nyungwe por el sur. Enfrente, al otro lado del puente, está Bukavu (RD Congo), que NO forma parte de ninguna variante de la ruta. El pantano de Rugezi y las plantaciones de té de Gisakura quedan de camino a la selva.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -2.4911606,
+    "lon": 28.8930143,
+    "desc": "Rusizi cierra el eje del lago Kivu junto al puente hacia Bukavu y sirve de base para el acceso meridional a Nyungwe. La frontera congoleña no forma parte de la ruta prevista.",
+    "credit": "Adam Jones · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_over_Rwandan_Shore_of_Lake_Kivu_-_With_DR_Congo-Bukavu_at_Rear_-_Cyangugu_(Rusizi)_-_Rwanda_(9008089727).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:View_over_Rwandan_Shore_of_Lake_Kivu_-_With_DR_Congo-Bukavu_at_Rear_-_Cyangugu_(Rusizi)_-_Rwanda_(9008089727).jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una escala logística útil entre el Kivu, Nyungwe y el sur de Ruanda.",
+      "see": "Salida del río Rusizi, puente fronterizo y frente urbano; no es una excursión a Bukavu.",
+      "access": "El pin coincide con el puente Ruzizi I en Google Maps. Mantenerse en el lado ruandés y comprobar el aviso vigente del MAEC.",
+      "when": "De día, para repostar y continuar con alojamiento confirmado.",
+      "skip": "No acercarse a pasos secundarios ni cruzar la frontera por curiosidad o con documentación incompleta."
+    },
+    "links": [
+      {
+        "label": "MAEC · recomendación de viaje para Ruanda",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Ruanda"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_over_Rwandan_Shore_of_Lake_Kivu_-_With_DR_Congo-Bukavu_at_Rear_-_Cyangugu_(Rusizi)_-_Rwanda_(9008089727).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_over_Rwandan_Shore_of_Lake_Kivu_-_With_DR_Congo-Bukavu_at_Rear_-_Cyangugu_(Rusizi)_-_Rwanda_(9008089727).jpg",
+        "credit": "Adam Jones · CC BY-SA 2.0",
+        "caption": "Orilla ruandesa en Rusizi con Bukavu al fondo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_over_Lake_Kivu_with_Overturned_Boats_-_Cyangugu_(Rusizi)_-_Rwanda_(9009284768).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_over_Lake_Kivu_with_Overturned_Boats_-_Cyangugu_(Rusizi)_-_Rwanda_(9009284768).jpg",
+        "credit": "Adam Jones · CC BY-SA 2.0",
+        "caption": "Lago Kivu y barcas en Cyangugu-Rusizi."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_of_Rwandan_Shore_of_Lake_Kivu_-_With_DR_Congo_at_Rear_-_Cyangugu_(Rusizi)_-_Rwanda_(9008173737).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Rwandan_Shore_of_Lake_Kivu_-_With_DR_Congo_at_Rear_-_Cyangugu_(Rusizi)_-_Rwanda_(9008173737).jpg",
+        "credit": "Adam Jones · CC BY-SA 2.0",
+        "caption": "Panorama del extremo sur del lago desde Rusizi."
+      }
+    ]
   },
   {
     "n": 10,
     "name": "Parque Nacional de Nyungwe · la pasarela del dosel",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "2–3 noches",
-    "lat": -2.49,
-    "lon": 29.2928,
-    "desc": "1.019 km² de selva de montaña primaria, una de las más antiguas de África y Patrimonio de la Humanidad desde 2023, gestionada por African Parks desde 2020. Tiene 13 especies de primates (una cuarta parte de todas las de África), incluidos chimpancés y bandas de colobos de Angola de varios cientos de individuos, más de 300 especies de aves con 30 endemismos del Rift Albertino y 1.068 especies de plantas. Su símbolo es la PASARELA SUSPENDIDA SOBRE EL DOSEL, la única de África oriental: unos 60 m de puente colgante a 50-70 m sobre el suelo del bosque, dentro del sendero de Igishigishigi entre helechos arborescentes. Hay además una red de más de 130 km de senderos y la cascada de Kamiranzovu.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -2.4786176,
+    "lon": 29.2002976,
+    "desc": "El sendero de Igishigishigi alcanza una pasarela suspendida sobre el bosque montano de Nyungwe. El pin se ha corregido al Uwinka Visitor Center, salida operativa de esta actividad.",
+    "credit": "Alex Niragira · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyungwe_Canopy_Walk.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nyungwe_Canopy_Walk.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite contemplar el dosel desde arriba en una ruta relativamente corta y bien definida.",
+      "see": "Bosque montano, helechos, aves y pasarela; primates y vistas despejadas no están garantizados.",
+      "access": "El pin coincide con Uwinka Visitor Center en Google Maps. Reservar guía y actividad; el parque asigna horario y sendero.",
+      "when": "Con lluvia moderada asumible y calzado de agarre; salir temprano.",
+      "skip": "No entrar con el perro, sin reserva o con tormenta y cierre comunicado por el parque."
+    },
+    "links": [
+      {
+        "label": "Visit Rwanda · pasarela del dosel de Nyungwe",
+        "url": "https://visitrwanda.com/interests/canopy-walkway/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyungwe_Canopy_Walk.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyungwe_Canopy_Walk.jpg",
+        "credit": "Alex Niragira · CC BY-SA 4.0",
+        "caption": "Pasarela suspendida sobre el bosque de Nyungwe."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyungwe_Inside_Canopy_Walk.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyungwe_Inside_Canopy_Walk.jpg",
+        "credit": "Alex Niragira · CC BY-SA 4.0",
+        "caption": "Visitantes dentro del recorrido del dosel de Nyungwe."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyungwe_canopy_sun_set.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyungwe_canopy_sun_set.jpg",
+        "credit": "BENAYOBI · CC BY-SA 4.0",
+        "caption": "Dosel del bosque de Nyungwe al final del día."
+      }
+    ]
   },
   {
     "n": 11,
     "name": "Huye (Butare) y el Museo Etnográfico Nacional",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en el museo",
     "time": "1 noche",
-    "lat": -2.5967,
-    "lon": 29.74,
-    "desc": "La capital intelectual del país, sede de la Universidad Nacional, y el mejor museo de Ruanda con diferencia: el Museo Etnográfico Nacional, regalo de Bélgica en 1989, con siete salas sobre geología, agricultura, ganadería, artesanía, vivienda, indumentaria y cultura, y reconstrucciones de casas tradicionales de paja. Es la parada que explica todo lo que se ve por la carretera. Alrededor hay talleres de cestería de imigongo y la catedral, la mayor del país.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -2.5887351,
+    "lon": 29.7452954,
+    "desc": "Museo Etnográfico de Huye con colecciones sobre tecnología, vivienda, música y formas de vida de Ruanda. Es la parada cultural más completa del corredor sur.",
+    "credit": "Dave Proffer · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Museum_of_Rwanda_-_Butare_-_Flickr_-_Dave_Proffer_(3).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Rwanda_-_Butare_-_Flickr_-_Dave_Proffer_(3).jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Aporta contexto social y material que el itinerario de parques no ofrece.",
+      "see": "Objetos, arquitectura, artesanía y exposición interpretativa; comprobar qué salas están abiertas.",
+      "access": "El pin coincide con Ethnographic Museum en Google Maps. Consultar horario y normas fotográficas en la entrada.",
+      "when": "Una mañana o tarde laborable, reservando al menos dos horas.",
+      "skip": "No ir sin verificar apertura ni contar con que el perro pueda entrar al edificio."
+    },
+    "links": [
+      {
+        "label": "Rwanda Cultural Heritage Academy · Museo Etnográfico",
+        "url": "https://www.rwandaheritage.gov.rw/en/museum-and-heritages-sites-management-division-1"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Museum_of_Rwanda_-_Butare_-_Flickr_-_Dave_Proffer_(3).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Rwanda_-_Butare_-_Flickr_-_Dave_Proffer_(3).jpg",
+        "credit": "Dave Proffer · CC BY 2.0",
+        "caption": "Edificio del Museo Etnográfico de Huye, antigua Butare."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/RwandaNationalMuseum.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:RwandaNationalMuseum.jpg",
+        "credit": "Amakuru · CC BY-SA 3.0",
+        "caption": "Fachada del museo nacional en Huye."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hutte_royale_reconstitu%C3%A9e_au_musee_national_de_Butare.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hutte_royale_reconstitu%C3%A9e_au_musee_national_de_Butare.JPG",
+        "credit": "Antoinetorrens · CC BY-SA 3.0",
+        "caption": "Vivienda tradicional reconstruida en el recinto del museo."
+      }
+    ]
   },
   {
     "n": 12,
     "name": "Nyanza · el Palacio del Rey (Rukari)",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en el museo",
     "time": "medio día",
-    "lat": -2.35,
-    "lon": 29.75,
-    "desc": "La capital histórica de la monarquía ruandesa. En la colina de Rukari se conserva reconstruido a tamaño real el palacio tradicional del mwami, una enorme cúpula de paja trenzada, y al lado el palacio de estilo colonial de los años treinta del rey Mutara III Rudahigwa. En los prados de detrás pastan las VACAS INYAMBO, la raza real de cuernos gigantescos en forma de lira, a las que sus cuidadores siguen cantando poemas de alabanza — una tradición viva de la corte que se puede ver en una demostración. Es el sitio para entender que Ruanda era un reino centralizado siglos antes de la colonización.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -2.3601536,
+    "lon": 29.7406071,
+    "desc": "Reconstrucción del recinto real en Nyanza, con vivienda tradicional y exposición sobre la monarquía ruandesa. La visita debe separar patrimonio documentado de escenificación contemporánea.",
+    "credit": "Guswen · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/King%27s_palace_in_Nyanza.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:King%27s_palace_in_Nyanza.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Explica la organización política y ceremonial previa al periodo colonial.",
+      "see": "Palacio tradicional reconstruido, residencia posterior y ganado inyambo cuando la gestión lo programa.",
+      "access": "El pin coincide con King’s Palace Museum en Google Maps. Confirmar horario y visita guiada.",
+      "when": "Combinarlo con Huye sin comprimir ambos museos en una visita superficial.",
+      "skip": "No entrar con mascota ni presentar la reconstrucción como un edificio original intacto."
+    },
+    "links": [
+      {
+        "label": "Rwanda Cultural Heritage Academy · King’s Palace",
+        "url": "https://www.rwandaheritage.gov.rw/en/museum-and-heritages-sites-management-division-1"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/King%27s_palace_in_Nyanza.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:King%27s_palace_in_Nyanza.jpg",
+        "credit": "Guswen · CC BY 3.0",
+        "caption": "Palacio tradicional reconstruido en Nyanza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rwanda_Nyanza_Mwami_Palace.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Rwanda_Nyanza_Mwami_Palace.jpg",
+        "credit": "Amakuru · CC BY-SA 3.0",
+        "caption": "Exterior del Mwami Palace en Nyanza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/King%27s_Palace_Museum_2022-1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:King%27s_Palace_Museum_2022-1.jpg",
+        "credit": "Yakov Fedorov · CC BY-SA 4.0",
+        "caption": "King's Palace Museum fotografiado en 2022."
+      }
+    ]
   },
   {
     "n": 13,
-    "name": "Kigali",
+    "name": "Kigali · Kandt House y base logística",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en el museo",
     "time": "2–3 noches",
-    "lat": -1.9536,
-    "lon": 30.0606,
-    "desc": "La capital más limpia, ordenada y segura de África, repartida sobre colinas y valles y sin un solo papel en el suelo; para un viaje overland es una parada de oro: talleres, recambios, veterinarios, hospitales de nivel, supermercados, embajadas y una escena de cafés y restaurantes inesperada. Merece la pena el Mercado de Kimironko, el barrio de Nyamirambo con su paseo guiado por mujeres del barrio, el Museo del Palacio Presidencial (con los restos del avión de Habyarimana cuyo derribo desencadenó el genocidio) y la vista desde el monte Kigali. Es también el nudo entre el norte de los volcanes, el este de Akagera y el sur de Nyungwe.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kigali%20city%20view.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Kigali%20city%20view.jpg",
+    "lat": -1.9466888,
+    "lon": 30.0532142,
+    "desc": "Antigua residencia de Richard Kandt convertida en museo sobre historia natural y la formación de Kigali. Funciona además como ancla concreta para la base logística de la capital.",
+    "credit": "Inezac · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_side_in_Richard_Kandt_museum.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Front_side_in_Richard_Kandt_museum.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Une el origen urbano colonial de Kigali con una visita breve y localizada.",
+      "see": "Casa, exposiciones históricas y sección de fauna; el contenido puede variar por salas.",
+      "access": "El pin coincide con Kandt House Museum en Google Maps. Aparcar dentro o usar transporte local en horas punta.",
+      "when": "Día laborable para combinar museo, talleres, bancos y trámites.",
+      "skip": "No ir sin confirmar apertura ni dedicar tiempo urbano innecesario de noche."
+    },
+    "links": [
+      {
+        "label": "Rwanda Cultural Heritage Academy · Kandt House",
+        "url": "https://www.rwandaheritage.gov.rw/en/museum-and-heritages-sites-management-division-1"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_side_in_Richard_Kandt_museum.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Front_side_in_Richard_Kandt_museum.jpg",
+        "credit": "Inezac · CC BY-SA 4.0",
+        "caption": "Fachada principal de Kandt House Museum."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_side_in_Richard_Kandt_museum_perspective_whole_view.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Front_side_in_Richard_Kandt_museum_perspective_whole_view.jpg",
+        "credit": "Inezac · CC BY-SA 4.0",
+        "caption": "Vista completa de la antigua residencia de Richard Kandt."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Reptiles_House_at_Kandt_House_Museum_in_Rwanda_(2).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Reptiles_House_at_Kandt_House_Museum_in_Rwanda_(2).jpg",
+        "credit": "Adygrafix250 · CC BY-SA 4.0",
+        "caption": "Sección de reptiles del Kandt House Museum."
+      }
+    ]
   },
   {
     "n": 14,
     "name": "Memorial del Genocidio de Kigali (Gisozi)",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en el memorial",
     "time": "medio día",
-    "lat": -1.9311,
-    "lon": 30.06,
-    "desc": "No es una atracción turística: es una tumba. Aquí están enterrados los restos de MÁS DE 250.000 PERSONAS asesinadas durante el genocidio contra los tutsis de 1994, en fosas comunes de cien mil cada una. Se inauguró el 7 de abril de 2004, en el décimo aniversario, y desde 2023 es Patrimonio de la Humanidad junto con otros tres memoriales. Dentro hay tres exposiciones permanentes: la del genocidio ruandés, la de otros genocidios del mundo y la SALA DE LOS NIÑOS, con fotografías, su comida favorita, su juego favorito y cómo murieron — es la parte que rompe a todo el mundo. Hay audioguía. Se entra en silencio, con ropa respetuosa, sin fotografías dentro de las exposiciones y sin prisa: hacen falta dos o tres horas. VISITA OBLIGATORIA para entender el país que se está atravesando, y NO es un sitio al que se lleve a un perro.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kigali.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Kigali.jpg",
+    "lat": -1.930769,
+    "lon": 30.0605135,
+    "desc": "Lugar de memoria y centro de documentación donde descansan víctimas del genocidio contra los tutsi de 1994. Exige tiempo, silencio y una visita respetuosa.",
+    "credit": "Brenney Nickson · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kigali_Genocide_Memorial_site.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kigali_Genocide_Memorial_site.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es esencial para comprender la historia contemporánea de Ruanda y sus consecuencias humanas.",
+      "see": "Jardines conmemorativos, exposición histórica y espacios de duelo; algunos contenidos son emocionalmente duros.",
+      "access": "El pin coincide con Kigali Genocide Memorial en Google Maps. Revisar las indicaciones oficiales y la reserva antes de acudir.",
+      "when": "Con al menos dos horas y sin encadenarlo a una agenda turística acelerada.",
+      "skip": "No entrar con mascota, no fotografiar donde esté restringido y no forzar la visita a quien no esté preparado."
+    },
+    "links": [
+      {
+        "label": "Kigali Genocide Memorial · preparar la visita",
+        "url": "https://kgm.rw/visit/know-before-you-go/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kigali_Genocide_Memorial_site.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kigali_Genocide_Memorial_site.jpg",
+        "credit": "Brenney Nickson · CC BY-SA 4.0",
+        "caption": "Jardines y edificio del Kigali Genocide Memorial."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grounds_of_Kigali_Genocide_Memorial_with_City_in_the_Distance_-_Kigali_-_Rwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Grounds_of_Kigali_Genocide_Memorial_with_City_in_the_Distance_-_Kigali_-_Rwanda.jpg",
+        "credit": "Adam Jones · CC BY-SA 3.0",
+        "caption": "Recinto del memorial con Kigali al fondo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kigali_Memorial_Centre_4.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kigali_Memorial_Centre_4.jpg",
+        "credit": "Fanny Schertzer · CC BY-SA 3.0",
+        "caption": "Espacio conmemorativo exterior en Gisozi."
+      }
+    ]
   },
   {
     "n": 15,
-    "name": "Memoriales de Nyamata y Ntarama",
+    "name": "Memorial de Nyamata",
     "cat": "Patrimonio UNESCO",
     "prio": "Media",
-    "dog": "prohibido",
+    "dog": "prohibido en el memorial",
     "time": "medio día",
-    "lat": -2.145,
-    "lon": 30.105,
-    "desc": "A unos 30 km al sur de Kigali, dos iglesias donde la gente se refugió en abril de 1994 creyendo que un templo sería sagrado. En Nyamata se encerraron unas 10.000 personas; los atacantes abrieron boquetes en los muros para tirar granadas dentro y después entraron con armas de fuego y machetes. Hoy hay 50.000 personas enterradas allí. Se conservan la ropa amontonada sobre los bancos, los documentos de identidad —con la mención étnica que los condenó— y el techo perforado. Patrimonio de la Humanidad desde 2023. Es una visita extremadamente dura y hay que decidirla con calma; quien la hace dice que es lo más importante que vio en África oriental. Coordenadas aproximadas, por confirmar.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -2.1490625,
+    "lon": 30.093676,
+    "desc": "Iglesia y recinto conmemorativo de Nyamata, parte del conjunto de memoriales del genocidio inscrito por UNESCO. Conserva el lugar como prueba y espacio de duelo.",
+    "credit": "Dave Proffer · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyamata_Genocide_Memorial_Church_-_Flickr_-_Dave_Proffer_(11).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nyamata_Genocide_Memorial_Church_-_Flickr_-_Dave_Proffer_(11).jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Aporta una escala local y material a una historia que no debe reducirse a cifras abstractas.",
+      "see": "Iglesia, objetos conservados y espacios funerarios según el recorrido autorizado.",
+      "access": "El pin coincide con Nyamata Genocide Memorial en Google Maps. Seguir al personal y respetar todas las restricciones.",
+      "when": "Con tiempo para la explicación y recuperación emocional posterior.",
+      "skip": "No acudir para obtener fotografías impactantes, no llevar mascota y no usar un tono frívolo."
+    },
+    "links": [
+      {
+        "label": "UNESCO · memoriales de Nyamata, Murambi, Gisozi y Bisesero",
+        "url": "https://whc.unesco.org/en/list/1586/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyamata_Genocide_Memorial_Church_-_Flickr_-_Dave_Proffer_(11).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyamata_Genocide_Memorial_Church_-_Flickr_-_Dave_Proffer_(11).jpg",
+        "credit": "Dave Proffer · CC BY 2.0",
+        "caption": "Exterior de la iglesia memorial de Nyamata."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyamata_Genocide_Herdenkingssite.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyamata_Genocide_Herdenkingssite.jpg",
+        "credit": "Ziqo · CC BY-SA 4.0",
+        "caption": "Recinto conmemorativo de Nyamata."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Delegates_Arrive_with_Genocide_Commemoration_Bouquets_-_Catholic_Church_Memorial_-_Nyamata_-_Rwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Delegates_Arrive_with_Genocide_Commemoration_Bouquets_-_Catholic_Church_Memorial_-_Nyamata_-_Rwanda.jpg",
+        "credit": "Adam Jones · CC BY-SA 3.0",
+        "caption": "Ofrendas conmemorativas a la entrada del memorial de Nyamata."
+      }
+    ]
   },
   {
     "n": 16,
     "name": "Lago Muhazi",
     "cat": "Naturaleza",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento y barca",
     "time": "1 noche",
-    "lat": -1.85,
-    "lon": 30.35,
-    "desc": "Lago largo y ramificado al este de Kigali, en la carretera de Akagera: un sitio de fin de semana de los kigalíes, con embarcaderos, restaurantes de tilapia a la brasa y alojamientos sencillos junto al agua. No tiene ningún «monumento», y por eso mismo es el lugar natural para romper el trayecto con el perro entre la capital y el parque, o para esperar mientras otros están dentro de Akagera.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -1.8416233,
+    "lon": 30.2279998,
+    "desc": "Lago alargado al este de Kigali, rodeado de colinas agrícolas y pequeños alojamientos. El pin se fija en Muhazi Marina Beach como acceso real y no en el centro del agua.",
+    "credit": "Kchorst · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Canoe_on_Lake_Muhazi,_Rwanda,_Africa.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Canoe_on_Lake_Muhazi,_Rwanda,_Africa.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una escapada lacustre sencilla antes de Akagera o después de la capital.",
+      "see": "Orilla, aves, barcas y colinas; el nivel de servicios depende del establecimiento.",
+      "access": "El pin coincide con Muhazi Marina Beach en Google Maps. Confirmar entrada, estacionamiento, comida y admisión del perro.",
+      "when": "Una tarde y una noche, evitando navegar con viento o tormenta.",
+      "skip": "No asumir acceso público a cualquier orilla ni embarcar sin chaleco y operador responsable."
+    },
+    "links": [
+      {
+        "label": "Lago Muhazi · localización y contexto",
+        "url": "https://en.wikipedia.org/wiki/Lake_Muhazi"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Canoe_on_Lake_Muhazi,_Rwanda,_Africa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Canoe_on_Lake_Muhazi,_Rwanda,_Africa.jpg",
+        "credit": "Kchorst · CC BY-SA 4.0",
+        "caption": "Canoa en Lake Muhazi."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Passenger_tour_boat_on_Lake_Muhazi,_Rwanda,_Africa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Passenger_tour_boat_on_Lake_Muhazi,_Rwanda,_Africa.jpg",
+        "credit": "Kchorst · CC BY-SA 4.0",
+        "caption": "Barca de paseo en Lake Muhazi."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Muhazi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Muhazi.jpg",
+        "credit": "Gilbert Sibomana · CC BY-SA 4.0",
+        "caption": "Orilla y colinas de Lake Muhazi."
+      }
+    ]
   },
   {
     "n": 17,
     "name": "Parque Nacional de Akagera",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "2–3 noches",
-    "lat": -1.6333,
-    "lon": 30.7833,
-    "desc": "LA HISTORIA DE RECUPERACIÓN MÁS ESPECTACULAR DE ÁFRICA. En 2010 este parque de 1.122 km² en la frontera con Tanzania estaba arrasado por la caza furtiva y el ganado; African Parks y el Rwanda Development Board firmaron una gestión conjunta de 20 años, levantaron 120 km de valla en el límite oeste y montaron unidades antifurtivos. Desde entonces han vuelto los LEONES (dos machos en julio de 2015; 72 individuos en 2025), el RINOCERONTE NEGRO (18 ejemplares en mayo de 2017) y el BLANCO (30 en 2021 y 70 más en junio de 2025, el mayor traslado de rinocerontes de la historia). Hoy tiene los cinco grandes, 78 jirafas masái y un paisaje de lagos, papiros y colinas que no se parece a ninguna sabana clásica. Los visitantes pasaron de 8.000 en 2010 a 67.661 en 2025 y el parque cubre ya el 92% de sus costes. Se puede recorrer con el vehículo propio.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -1.878734,
+    "lon": 30.703577,
+    "desc": "Parque de sabana, lagos y humedales en el este de Ruanda, gestionado con un sistema de puertas y reservas. La autoconducción es posible solo dentro de las rutas y horarios autorizados.",
+    "credit": "Louis Dewame · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parc_National_d%27Akagera.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Parc_National_d%27Akagera.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Añade un safari de sabana compacto a un país dominado por montañas y bosques.",
+      "see": "Lagos, llanuras, aves y grandes mamíferos; ninguna especie concreta está garantizada.",
+      "access": "El pin coincide con Akagera Reception en Google Maps. Registrar el vehículo y confirmar entrada, salida, guía y estado de pistas.",
+      "when": "Dos noches y salidas de primera hora; revisar la operación vigente en la web oficial.",
+      "skip": "No entrar con el perro, no salir de pista ni intentar cruzar el parque sin combustible y hora de salida confirmados."
+    },
+    "links": [
+      {
+        "label": "Akagera · acceso, actividades y autoconducción",
+        "url": "https://visitakagera.org/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parc_National_d%27Akagera.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Parc_National_d%27Akagera.jpg",
+        "credit": "Louis Dewame · CC BY 3.0",
+        "caption": "Lago y sabana dentro de Akagera National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paths_roads_in_Akagera_national_park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Paths_roads_in_Akagera_national_park.jpg",
+        "credit": "Rodrigue250 · CC BY-SA 4.0",
+        "caption": "Pistas de autoconducción en Akagera."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akagera_Night_Sky.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Akagera_Night_Sky.jpg",
+        "credit": "Dpiskho · CC BY-SA 4.0",
+        "caption": "Cielo nocturno sobre el paisaje de Akagera."
+      }
+    ]
   },
   {
     "n": 18,
     "name": "Parque Nacional de Gishwati-Mukura",
     "cat": "Naturaleza",
     "prio": "Media",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "1 día",
-    "lat": -1.8,
-    "lon": 29.35,
-    "desc": "El parque más joven de Ruanda (2016) y Reserva de la Biosfera de la UNESCO desde 2020: dos retazos de selva de montaña que estuvieron a punto de desaparecer —Gishwati se quedó en el 10% de su superficie original por la deforestación y el reasentamiento de refugiados— y que se están reconectando con un corredor de bosque. Hay una pequeña población de chimpancés, monos dorados y colobos, senderos guiados, una cascada y visitas a las plantaciones de té. Está justo entre Gisenyi y Karongi: cae de camino por el Congo Nile Trail y casi nadie lo visita.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -1.8164718,
+    "lon": 29.3509978,
+    "desc": "Bosque montano restaurado dentro de Gishwati–Mukura, con senderos guiados y primates en un paisaje que también muestra los efectos históricos de la deforestación. La visita se prepara con la gestión del parque.",
+    "credit": "Andr96 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gishwati_Natural_Forest_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Gishwati_Natural_Forest_01.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite entender restauración ecológica y conectividad forestal, no solo buscar fauna.",
+      "see": "Bosque, aves, primates si aparecen y bordes en regeneración.",
+      "access": "El pin coincide con el objeto Gishwati Forest de Google Maps. Confirmar acceso, guía y alojamiento antes de desviarse.",
+      "when": "Con tiempo seco relativo y una jornada reservada; el barro ralentiza mucho los senderos.",
+      "skip": "No entrar con mascota, sin autorización o esperando infraestructura equivalente a los parques más visitados."
+    },
+    "links": [
+      {
+        "label": "Gishwati-Mukura · guía práctica del parque",
+        "url": "https://www.cepf.net/resources/documents/guidebook-gishwati-mukura-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gishwati_Natural_Forest_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gishwati_Natural_Forest_01.jpg",
+        "credit": "Andr96 · CC BY-SA 4.0",
+        "caption": "Bosque natural de Gishwati."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gishwati_Natural_Forest_02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gishwati_Natural_Forest_02.jpg",
+        "credit": "Andr96 · CC BY-SA 4.0",
+        "caption": "Interior y vegetación de Gishwati."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gishwati_Forest_1986.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gishwati_Forest_1986.jpg",
+        "credit": "NASA/Jesse Allen · dominio público",
+        "caption": "Imagen satelital histórica de Gishwati en 1986, útil para entender la deforestación y restauración."
+      }
+    ]
   }
 ]

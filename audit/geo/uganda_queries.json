@@ -1,0 +1,426 @@
+{
+ "slug": "uganda",
+ "bbox": [
+  29.2,
+  -1.8,
+  35.4,
+  4.6
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Cataratas de Sipi",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 1.3344,
+   "lon": 34.39,
+   "desc": "Primera parada natural nada más entrar desde Kenia y una de las mejores sorpresas del país: tres saltos escalonados en la ladera noroeste del monte Elgon — Sipi (95 m), Ngasire (unos 85 m) y Simba (74",
+   "q": [
+    "Sipi Falls Uganda"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Monte Elgon · pico Wagagai y la caldera",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 1.1378,
+   "lon": 34.5603,
+   "desc": "Volcán apagado gigantesco en la frontera con Kenia, con una de las calderas intactas más grandes del mundo y el pico Wagagai (4.321 m) íntegramente en territorio ugandés. Es un trekking mucho menos ma",
+   "q": [
+    "Wagagai Peak Mount Elgon Uganda",
+    "Mount Elgon National Park Uganda"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Jinja y la fuente del Nilo",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 0.4233,
+   "lon": 33.2039,
+   "desc": "Aquí el Nilo Blanco sale del lago Victoria y empieza sus 6.700 km hasta el Mediterráneo: es literalmente el arranque del río que el viaje ya habrá cruzado o bordeará. Speke describió en 1862 unas cata",
+   "q": [
+    "Source of the Nile Jinja Uganda",
+    "Speke Monument Jinja"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Kampala",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 0.3476,
+   "lon": 32.5825,
+   "desc": "Capital repartida sobre siete colinas y la gran base logística del desvío: talleres, recambios, veterinarios de buen nivel, supermercados y bancos. Tiene además un patrimonio que casi nadie visita: la",
+   "q": [
+    "Uganda Museum Kampala"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Entebbe · jardines botánicos y la orilla del Victoria",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 0.05,
+   "lon": 32.46,
+   "desc": "Península sobre el lago Victoria a 34 km de Kampala, mucho más tranquila que la capital y mejor sitio para dormir con el perro. Los Jardines Botánicos Nacionales, trazados en 1898, bajan hasta la prop",
+   "q": [
+    "Entebbe Botanical Gardens Uganda"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Islas Ssese (lago Victoria)",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": -0.4333,
+   "lon": 32.25,
+   "desc": "Archipiélago de 84 islas en el noroeste del lago Victoria, con playas de arena, bosque y una calma total; se llega en ferry desde Entebbe (a Kalangala, en la isla de Bugala) o desde Bukakata, cerca de",
+   "q": [
+    "Kalangala Ssese Islands Uganda"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Santuario de rinocerontes de Ziwa",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 1.4856,
+   "lon": 32.0953,
+   "desc": "El único sitio de Uganda donde hay rinocerontes en libertad: el país los perdió por completo con la caza furtiva de los años setenta y ochenta, y en 2005 se reintrodujeron seis ejemplares de rinoceron",
+   "q": [
+    "Ziwa Rhino Sanctuary Uganda"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Cataratas Murchison · el Nilo estrangulado",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 2.2783,
+   "lon": 31.6856,
+   "desc": "El espectáculo hidráulico más brutal del viaje: todo el caudal del Nilo Victoria, un río de cientos de metros de ancho, se comprime en una grieta de MENOS DE 10 METROS y se despeña 43 m con un estruen",
+   "q": [
+    "Murchison Falls Uganda"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Parque Nacional del Valle de Kidepo",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 3.9,
+   "lon": 33.85,
+   "desc": "EL PARQUE MÁS REMOTO Y SALVAJE DE UGANDA, en el extremo noreste contra la frontera con Sudán del Sur: 1.442 km² de sabana entre montañas, con dos valles fluviales estacionales (Kidepo y Narus) y una s",
+   "q": [
+    "Apoka Kidepo Valley National Park Uganda"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Gulu y el norte",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 2.7747,
+   "lon": 32.299,
+   "desc": "Principal ciudad del norte y nudo logístico obligado del bucle a Kidepo: combustible fiable, talleres, bancos y hospitales. Fue el epicentro del conflicto del Ejército de Resistencia del Señor (LRA) d",
+   "q": [
+    "Fort Patiko Uganda",
+    "Gulu Uganda"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Fort Portal y los lagos de cráter de Ndali-Kasenda",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 0.671,
+   "lon": 30.275,
+   "desc": "Ciudad de altura al pie de los Rwenzori, capital del reino tradicional de Toro y una de las zonas más bonitas y menos visitadas del país: alrededor hay más de cincuenta lagos de cráter volcánico, verd",
+   "q": [
+    "Lake Nyabikere Fort Portal Uganda",
+    "Ndali Kasenda crater lakes Uganda"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Parque Nacional de Kibale · chimpancés",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 0.5,
+   "lon": 30.4,
+   "desc": "La mayor concentración de primates de África oriental: trece especies en un mismo bosque, incluidos varios grupos de chimpancés habituados a la presencia humana. El seguimiento de chimpancés dura una ",
+   "q": [
+    "Kanyanchu Visitor Centre Kibale Uganda"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Montes Rwenzori · las Montañas de la Luna",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 0.3858,
+   "lon": 29.8717,
+   "desc": "LA GRAN CAMINATA DEL DESVÍO y una rareza planetaria: glaciares permanentes prácticamente sobre el ecuador. Ptolomeo las llamó las Montañas de la Luna y las señaló como fuente del Nilo. El pico Margher",
+   "q": [
+    "Rwenzori Mountains National Park Nyakalengija Uganda"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Katwe · salinas y campo de cráteres",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -0.1333,
+   "lon": 29.8833,
+   "desc": "Al norte del canal de Kazinga se abre un campo volcánico de cráteres jóvenes, y en uno de ellos, el lago Katwe, se extrae sal a mano desde hace siglos en salinas de estanques familiares: los trabajado",
+   "q": [
+    "Katwe Salt Lake Uganda"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Parque Nacional Queen Elizabeth · canal de Kazinga",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -0.1372,
+   "lon": 30.0411,
+   "desc": "1.978 km² entre el lago George y el lago Edward, con 95 especies de mamíferos y más de 600 de aves — una de las cifras más altas de África para un solo parque. Su joya es el CANAL DE KAZINGA, un brazo",
+   "q": [
+    "Mweya Kazinga Channel Uganda"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Ishasha · los leones trepadores",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -0.6167,
+   "lon": 29.6667,
+   "desc": "Sector sur de Queen Elizabeth y una de las dos únicas poblaciones del mundo donde los leones suben habitualmente a los árboles: aquí se tumban en las ramas horizontales de las higueras sicómoro, con l",
+   "q": [
+    "Ishasha Sector Queen Elizabeth National Park Uganda"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Bosque Impenetrable de Bwindi (Buhoma)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -1.05,
+   "lon": 29.6167,
+   "desc": "EL MOTIVO DE TODO EL DESVÍO. Selva de montaña de 25.000 años de antigüedad, Patrimonio de la Humanidad, que alberga cerca de la mitad de los gorilas de montaña que quedan en el planeta. El seguimiento",
+   "q": [
+    "Buhoma Bwindi Visitor Centre Uganda"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Parque Nacional de los Gorilas de Mgahinga",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -1.3694,
+   "lon": 29.6403,
+   "desc": "El parque más pequeño de Uganda (33,9 km²) y el más espectacular de ver: la esquina ugandesa de los volcanes Virunga, con tres conos apagados — Muhabura (4.127 m), Gahinga y Sabyinyo — sobre los que s",
+   "q": [
+    "Ntebeko Visitor Centre Mgahinga Uganda"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Lago Bunyonyi",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -1.2833,
+   "lon": 29.9167,
+   "desc": "«El lugar de los muchos pajarillos»: un lago de 40 m de profundidad encajado entre colinas aterrazadas, con 29 islas y más de 200 especies de aves, a 7 km de Kabale y a 1.960 m de altitud. Es el sitio",
+   "q": [
+    "Lake Bunyonyi Uganda"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Parque Nacional del Lago Mburo",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -0.6278,
+   "lon": 30.9667,
+   "desc": "El parque pequeño (260 km²) que cae justo en la carretera principal Kampala–Mbarara, a 240 km de la capital: la parada perfecta para no hacer de un tirón el regreso desde el suroeste. Es el único siti",
+   "q": [
+    "Nshara Gate Lake Mburo National Park Uganda"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada — Malaba (con Kenia)",
+   "cat": "Frontera",
+   "lat": 0.6333,
+   "lon": 34.2667,
+   "desc": "Principal paso del Corredor Norte desde Kenia; puesto de ventanilla única (OSBP) con tráfico pesado de camiones y esperas variables. La eVisa ugandesa hay que llevarla YA IMPRESA.",
+   "q": [
+    "Malaba",
+    "Kenia"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Entrada alternativa — Busia (con Kenia)",
+   "cat": "Frontera",
+   "lat": 0.4667,
+   "lon": 34.0833,
+   "desc": "Alternativa a Malaba, también OSBP y bastante menos congestionada de camiones; suele ser más rápida para turismo. Enlaza igual de bien con Jinja.",
+   "q": [
+    "Busia",
+    "Kenia"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Salida — Cyanika (con Ruanda)",
+   "cat": "Frontera",
+   "lat": -1.2333,
+   "lon": 29.6333,
+   "desc": "Paso del extremo suroeste, entre Kisoro y Musanze (Ruanda): la salida lógica si se encadena Bwindi/Mgahinga con el Parque de los Volcanes. Puesto pequeño y rápido. HORARIO LIMITADO (no 24 h): confirma",
+   "q": [
+    "Cyanika",
+    "Ruanda"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Salida alternativa — Katuna/Gatuna (con Ruanda)",
+   "cat": "Frontera",
+   "lat": -1.2333,
+   "lon": 29.9833,
+   "desc": "Paso principal entre Kabale y Kigali, en la carretera troncal: más tráfico y trámite más formal que Cyanika, pero mejor asfalto. Estuvo cerrado por la crisis Ruanda-Uganda de 2019-2022 y volvió a abri",
+   "q": [
+    "Katuna",
+    "Gatuna",
+    "Ruanda"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Salida alternativa — Mutukula (con Tanzania)",
+   "cat": "Frontera",
+   "lat": -1.0,
+   "lon": 31.4,
+   "desc": "Si no se sigue a Ruanda, es la salida al sur hacia Bukoba y el lago Victoria tanzano; cae bien tras el Lago Mburo. Coordenadas aproximadas, por confirmar.",
+   "q": [
+    "Mutukula",
+    "Tanzania"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Embajada de España en Nairobi (competente para Uganda)",
+   "cat": "Consular",
+   "lat": -1.2977,
+   "lon": 36.8129,
+   "desc": "No hay embajada de España en Uganda. CBA Building, 3ª planta, Mara & Ragati Roads, Upper Hill, Nairobi (Kenia). Tel. +254 20 272 02 22/3/4/5; emergencia consular +254 733 63 11 44.",
+   "q": [
+    "Embassy of Spain Nairobi"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "International Hospital Kampala / Mulago National Referral Hospital",
+   "cat": "Hospital",
+   "lat": 0.3419,
+   "lon": 32.5764,
+   "desc": "Mulago es el hospital nacional de referencia; el International Hospital Kampala (IHK, privado) es la opción habitual para extranjeros. Para casos serios, la práctica regional es evacuación a Nairobi.",
+   "q": [
+    "International Hospital Kampala",
+    "Mulago National Referral Hospital Kampala"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Combustible · Kampala, Jinja, Gulu, Mbarara, Kasese, Kabale",
+   "cat": "Combustible",
+   "lat": 0.3476,
+   "lon": 32.5825,
+   "desc": "Estaciones formales (Shell/Vivo, TotalEnergies, Stabex, City Oil) en todas las ciudades del eje. Repostar a fondo en Gulu antes del bucle a Kidepo y en Kabale/Kisoro antes del tramo final a Bwindi.",
+   "q": [
+    "Kampala",
+    "Jinja",
+    "Gulu",
+    "Mbarara",
+    "Kasese"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Agua potable y de uso general · Kampala, Entebbe, Jinja, Fort Portal",
+   "cat": "Agua potable",
+   "lat": 0.05,
+   "lon": 32.46,
+   "desc": "Agua embotellada sin problema en todas las ciudades. Para el depósito de uso general, los campings de Jinja, Entebbe, Fort Portal, Bunyonyi y Buhoma permiten llenar con manguera; confirmar en recepció",
+   "q": [
+    "Kampala",
+    "Entebbe",
+    "Jinja",
+    "Fort Portal"
+   ]
+  }
+ ]
+}

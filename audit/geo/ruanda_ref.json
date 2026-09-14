@@ -1,0 +1,597 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Musanze Caves, main entrance",
+    "k": "natural",
+    "v": "cave_entrance",
+    "lat": -1.50368,
+    "lon": 29.61323,
+    "d": 2.5
+   },
+   {
+    "n": "Musanze Caves, second entrance",
+    "k": "natural",
+    "v": "cave_entrance",
+    "lat": -1.50084,
+    "lon": 29.61197,
+    "d": 2.6
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Volcanoes National Park Headquarters",
+    "k": "amenity",
+    "v": "ranger_station",
+    "lat": -1.43165,
+    "lon": 29.59528,
+    "d": 12.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Mount Bisoke",
+    "k": "natural",
+    "v": "volcano",
+    "lat": -1.4581,
+    "lon": 29.48532,
+    "d": 0.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Dian Fossey Grave",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -1.47327,
+    "lon": 29.48462,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Lakeside Restaurant & Beach Bar",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": -1.70837,
+    "lon": 29.26421,
+    "d": 1.8
+   },
+   {
+    "n": "Kivu Beach Pharmacy",
+    "k": "shop",
+    "v": "chemist",
+    "lat": -1.6965,
+    "lon": 29.26153,
+    "d": 1.3
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Congo-Nile Trail",
+    "k": "highway",
+    "v": "secondary",
+    "lat": -1.76451,
+    "lon": 29.29262,
+    "d": 16.0
+   },
+   {
+    "n": "Congo-Nile Hiking Trail",
+    "k": "highway",
+    "v": "residential",
+    "lat": -1.76919,
+    "lon": 29.29037,
+    "d": 15.6
+   },
+   {
+    "n": "Congo-Nile Hiking Trail",
+    "k": "highway",
+    "v": "track",
+    "lat": -1.76689,
+    "lon": 29.28515,
+    "d": 16.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Kibuye",
+    "k": "place",
+    "v": "town",
+    "lat": -2.06038,
+    "lon": 29.3486,
+    "d": 0.2
+   },
+   {
+    "n": "College Sainte Marie Kibuye",
+    "k": "amenity",
+    "v": "school",
+    "lat": -2.06138,
+    "lon": 29.34887,
+    "d": 0.2
+   },
+   {
+    "n": "Ku Kibuye Eco Lodge",
+    "k": "tourism",
+    "v": "motel",
+    "lat": -2.0553,
+    "lon": 29.35039,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Rwanda - Democratic Republic of the Congo Border",
+    "k": "office",
+    "v": "government",
+    "lat": -2.49136,
+    "lon": 28.89324,
+    "d": 1.2
+   },
+   {
+    "n": "Rwanda - Democratic Republic of the Congo Border",
+    "k": "office",
+    "v": "government",
+    "lat": -2.51671,
+    "lon": 28.86925,
+    "d": 5.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Ethnographic Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -2.58872,
+    "lon": 29.74514,
+    "d": 1.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "King's Palace Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -2.36022,
+    "lon": 29.73936,
+    "d": 1.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Kandt House Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -1.94663,
+    "lon": 30.05322,
+    "d": 1.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Nyanza Genocide Memorial",
+    "k": "historic",
+    "v": "memorial",
+    "lat": -2.00222,
+    "lon": 30.09258,
+    "d": 8.7
+   },
+   {
+    "n": "Kigali Genocide Memorial",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -1.93126,
+    "lon": 30.06015,
+    "d": 0.0
+   },
+   {
+    "n": "Rebero Genocide Memorial",
+    "k": "historic",
+    "v": "monument",
+    "lat": -1.99433,
+    "lon": 30.07223,
+    "d": 7.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Nyamata Church - Genocide Memorial",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": -2.14896,
+    "lon": 30.09376,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Lake Muhazi",
+    "k": "natural",
+    "v": "water",
+    "lat": -1.85366,
+    "lon": 30.40762,
+    "d": 6.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Cyanika",
+    "k": "place",
+    "v": "village",
+    "lat": -1.34325,
+    "lon": 29.74108,
+    "d": 17.1
+   },
+   {
+    "n": "Cyanika",
+    "k": "place",
+    "v": "county",
+    "lat": -1.33524,
+    "lon": 29.73611,
+    "d": 16.1
+   },
+   {
+    "n": "Cyanika A",
+    "k": "place",
+    "v": "village",
+    "lat": -1.33889,
+    "lon": 29.7399,
+    "d": 16.7
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Gatuna",
+    "k": "place",
+    "v": "town",
+    "lat": -1.4336,
+    "lon": 30.01511,
+    "d": 22.6
+   },
+   {
+    "n": "Gatuna Health Post",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -1.42717,
+    "lon": 30.01207,
+    "d": 21.8
+   },
+   {
+    "n": "Kigali-Gatuna Road",
+    "k": "highway",
+    "v": "trunk",
+    "lat": -1.62954,
+    "lon": 30.1031,
+    "d": 46.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Rusumo",
+    "k": "place",
+    "v": "village",
+    "lat": -2.38489,
+    "lon": 30.78334,
+    "d": 0.2
+   },
+   {
+    "n": "Rusumo",
+    "k": "place",
+    "v": "village",
+    "lat": -2.44888,
+    "lon": 30.80418,
+    "d": 7.7
+   },
+   {
+    "n": "Rusumo",
+    "k": "place",
+    "v": "village",
+    "lat": -2.54837,
+    "lon": 30.81048,
+    "d": 18.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Kagitumba",
+    "k": "place",
+    "v": "village",
+    "lat": -1.05579,
+    "lon": 30.4574,
+    "d": 2.7
+   },
+   {
+    "n": "École secondaire de Kagitumba",
+    "k": "amenity",
+    "v": "school",
+    "lat": -1.07574,
+    "lon": 30.44991,
+    "d": 5.1
+   },
+   {
+    "n": "Lycée de Kagitumba",
+    "k": "amenity",
+    "v": "school",
+    "lat": -1.09214,
+    "lon": 30.41483,
+    "d": 8.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "King Faisal Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -1.94342,
+    "lon": 30.09551,
+    "d": 4.0
+   },
+   {
+    "n": "king faisal hospital",
+    "k": "highway",
+    "v": "residential",
+    "lat": -1.97111,
+    "lon": 30.05562,
+    "d": 2.0
+   },
+   {
+    "n": "King Faisal Hospital",
+    "k": "building",
+    "v": "yes",
+    "lat": -1.94362,
+    "lon": 30.09539,
+    "d": 4.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Kigali",
+    "k": "place",
+    "v": "city",
+    "lat": -1.95344,
+    "lon": 30.11401,
+    "d": 5.9
+   },
+   {
+    "n": "Kigali",
+    "k": "building",
+    "v": "yes",
+    "lat": -1.95028,
+    "lon": 30.05606,
+    "d": 0.6
+   },
+   {
+    "n": "Kigali International Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -1.96836,
+    "lon": 30.13807,
+    "d": 8.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Kigali",
+    "k": "place",
+    "v": "city",
+    "lat": -1.95344,
+    "lon": 30.11401,
+    "d": 5.9
+   },
+   {
+    "n": "Kigali",
+    "k": "building",
+    "v": "yes",
+    "lat": -1.95028,
+    "lon": 30.05606,
+    "d": 0.6
+   },
+   {
+    "n": "Kigali International Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -1.96836,
+    "lon": 30.13807,
+    "d": 8.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]

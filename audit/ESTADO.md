@@ -13,7 +13,8 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 3 | Ghana, Togo, Benín, Nigeria | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
 | 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Cerrado: 92/92 | Cerrado: 92/92 | Cerrado: 92/92 con foto y enlace; 89 galerías | Pendiente |
 | 5 | Zambia, Tanzania, Kenia, Mozambique | Cerrado | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 con foto; 74 galerías | Pendiente |
-| 6+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| 6 | Uganda, Ruanda, Malaui | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con foto; 58 galerías | Pendiente |
+| 7+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
 
 ## Línea de corte de la nueva pasada PDI
 
@@ -21,9 +22,10 @@ La auditoría de profundidad editorial, enlaces útiles y fotografías múltiple
 empieza en el **grupo 4**. Los grupos 1–3 no deben interpretarse como revisados
 en esas tres columnas: se volverá a ellos en una pasada retroactiva.
 
-El detalle cuantitativo está en [`audit/pdi/grupo4.md`](pdi/grupo4.md) y
-[`audit/pdi/grupo5.md`](pdi/grupo5.md). Los grupos 4 y 5 ya cumplen el nuevo
-estándar en el contenido fuente. El grupo 6 es, por tanto, el primer grupo
+El detalle cuantitativo está en [`audit/pdi/grupo4.md`](pdi/grupo4.md),
+[`audit/pdi/grupo5.md`](pdi/grupo5.md) y
+[`audit/pdi/grupo6.md`](pdi/grupo6.md). Los grupos 4–6 ya cumplen el nuevo
+estándar en el contenido fuente. El grupo 7 es, por tanto, el primer grupo
 completamente intacto. Al terminar los bloques pendientes se volverá a los
 grupos 1–3 para aplicarles exactamente el mismo criterio ampliado.
 
@@ -45,5 +47,11 @@ grupos 1–3 para aplicarles exactamente el mismo criterio ampliado.
 
 - Mapa general: cerrado. Solo los corredores de bajada y subida y los PDIs están
   conectados de inicio; ramales, fronteras y servicios quedan apagados.
+- Tarjeta, globo del mapa y ficha ampliada usan el mismo objeto fuente: el globo
+  repite el resumen corto y la portada representativa de la tarjeta; «Ver ficha
+  ampliada» abre el modal sobre el mapa y al cerrarlo conserva centro, zoom y
+  capas. La validación global confirma esa sincronía en todos los PDIs que ya
+  tienen fotografía. Esuatini y Lesoto conservan, de forma explícita y sin
+  imágenes inventadas, los únicos huecos visuales pendientes para su bloque.
 - Agua para lavar/ducharse en el vehículo: auditoría específica pendiente para
   todos los países; no se dará por válido un grifo genérico sin acceso confirmado.

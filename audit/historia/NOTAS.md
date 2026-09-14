@@ -154,3 +154,24 @@
 - Freedom in the World 2025 ya incluye la elección de octubre de 2024 y parte de la violencia posterior; los hechos de 2025 se contrastan además con Amnesty International y la ficha del MAEC de 2026.
 - La población de unos 33 millones del Banco Mundial y la estimación de 34,96 millones del MAEC se conservan con su fuente y fecha, sin fingir una precisión censal común.
 - La UNESCO añadió en 2025 la parte mozambiqueña de un bien natural transfronterizo; por eso el país tiene actualmente dos bienes inscritos, no solo la isla de Mozambique.
+
+## uganda
+
+- La descarga directa de la ficha del MAEC devolvió 403, aunque el buscador permitió leer su ficha indexada; no se usó para cifras que no aparecieran en el extracto.
+- Freedom in the World 2025 evalúa principalmente 2024 y, por tanto, no incorpora la elección ugandesa de enero de 2026.
+- El 71,65 % electoral procede de la declaración oficial y fue reproducido por Associated Press; se conserva la impugnación opositora y el contexto del corte de internet.
+- El inicio de exportaciones de petróleo a finales de 2026 era todavía una previsión en la fuente del Banco Mundial consultada.
+
+## ruanda
+
+- La descarga directa de la ficha del MAEC devolvió 403, aunque el buscador permitió consultar extractos indexados; no se usó para datos ausentes de esos extractos.
+- Las categorías hutu, tutsi y twa existían antes del colonialismo, pero las administraciones alemana y belga las racializaron y endurecieron; se evita afirmar que fueron inventadas de cero.
+- La cifra aproximada de 800.000 asesinados se atribuye al USHMM; otras instituciones y el Gobierno ruandés emplean estimaciones diferentes.
+- Freedom in the World 2025 evalúa principalmente 2024; el nombramiento del primer ministro en 2025 se verificó por separado en la fuente oficial.
+
+## malaui
+
+- La descarga directa de la ficha del MAEC devolvió 403, aunque el buscador mostró extractos indexados; no se apoyan en ella cifras no visibles.
+- Freedom in the World 2025 describe sobre todo el año 2024 y clasifica Malaui como Partly Free, 65/100; la referencia separada a 2026 recoge la mejora posterior a Free, 68/100.
+- La población de 17,6 millones es el recuento censal de 2018; los 21,1 millones son una estimación del Banco Mundial para 2023 y no se mezclan.
+- Los porcentajes de la elección de 2025 se redondean conforme a Associated Press; la fuente oficial del Gobierno confirma el retorno al cargo y la fecha de toma de posesión.

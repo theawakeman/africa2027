@@ -1,0 +1,1000 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Cultural and Museum Centre Karonga",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -9.94194,
+    "lon": 33.92229,
+    "d": 1.5
+   },
+   {
+    "n": "Cultural and Museum Centre Karonga",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -9.94182,
+    "lon": 33.92256,
+    "d": 1.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Stonehouse Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -10.61167,
+    "lon": 34.11302,
+    "d": 0.5
+   },
+   {
+    "n": "Stonehouse Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -10.61159,
+    "lon": 34.11301,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Manchewe Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": -10.58662,
+    "lon": 34.11973,
+    "d": 3.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Mzuzu",
+    "k": "place",
+    "v": "city",
+    "lat": -11.46075,
+    "lon": 34.02264,
+    "d": 0.9
+   },
+   {
+    "n": "Mzuzu Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -11.44304,
+    "lon": 34.01193,
+    "d": 1.7
+   },
+   {
+    "n": "Mzuzu University",
+    "k": "amenity",
+    "v": "university",
+    "lat": -11.42153,
+    "lon": 33.99395,
+    "d": 4.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Port Jetty",
+    "k": "office",
+    "v": "yes",
+    "lat": -11.60735,
+    "lon": 34.30119,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Old Bandawe Mission,Thipura church",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": -11.88381,
+    "lon": 34.1621,
+    "d": 3.8
+   },
+   {
+    "n": "Old Bandawe Mission",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": -11.92138,
+    "lon": 34.17187,
+    "d": 8.0
+   },
+   {
+    "n": "Old Bandawe Mission Cemetery",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -11.92154,
+    "lon": 34.17519,
+    "d": 8.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Cathedral of St Peter",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": -12.06425,
+    "lon": 34.73811,
+    "d": 0.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Wildlife Reserve Gate",
+    "k": "office",
+    "v": "government",
+    "lat": -12.98727,
+    "lon": 34.17174,
+    "d": 20.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Livingstone Tree",
+    "k": "natural",
+    "v": "tree",
+    "lat": -12.93149,
+    "lon": 34.29802,
+    "d": 1.7
+   },
+   {
+    "n": "Mkungu Tree, under this tree Jumbe Salim Bin Abudala, the slave trader reside here for the sake of slave trade. see also Livingstone tree, approx. 200 meters from here.",
+    "k": "natural",
+    "v": "tree",
+    "lat": -12.93261,
+    "lon": 34.29697,
+    "d": 1.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Matundu Cottage Beach Resort",
+    "k": "leisure",
+    "v": "resort",
+    "lat": -13.81364,
+    "lon": 34.59203,
+    "d": 5.9
+   },
+   {
+    "n": "Matundu Cottage Beach Resort",
+    "k": "leisure",
+    "v": "resort",
+    "lat": -13.8139,
+    "lon": 34.59259,
+    "d": 5.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Kasungu National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -12.95506,
+    "lon": 33.18496,
+    "d": 8.9
+   },
+   {
+    "n": "Kasungu National Park Youth Camp",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -13.05012,
+    "lon": 33.149,
+    "d": 2.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Lilongwe Wildlife Center",
+    "k": "tourism",
+    "v": "zoo",
+    "lat": -13.97225,
+    "lon": 33.78389,
+    "d": 2.1
+   },
+   {
+    "n": "Lilongwe",
+    "k": "place",
+    "v": "city",
+    "lat": -13.98751,
+    "lon": 33.76814,
+    "d": 0.5
+   },
+   {
+    "n": "Lilongwe",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -14.04141,
+    "lon": 33.73537,
+    "d": 7.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Chongoni Rock Art",
+    "k": "historic",
+    "v": "archaeological_site",
+    "lat": -14.37844,
+    "lon": 34.17443,
+    "d": 14.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Kungoni Art Shop",
+    "k": "building",
+    "v": "commercial",
+    "lat": -14.28103,
+    "lon": 34.51003,
+    "d": 7.6
+   },
+   {
+    "n": "Mua",
+    "k": "place",
+    "v": "village",
+    "lat": -14.28366,
+    "lon": 34.51101,
+    "d": 7.8
+   },
+   {
+    "n": "Mua Livulezi Forest Reserve",
+    "k": "natural",
+    "v": "wood",
+    "lat": -14.33721,
+    "lon": 34.51226,
+    "d": 13.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Lake Malawi National Park Loop Trail",
+    "k": "highway",
+    "v": "path",
+    "lat": -14.04324,
+    "lon": 34.83637,
+    "d": 2.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "Liwonde National Park Main Entrance Gate",
+    "k": "building",
+    "v": "yes",
+    "lat": -15.03852,
+    "lon": 35.25422,
+    "d": 23.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Queen's View",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -15.3499,
+    "lon": 35.32946,
+    "d": 4.0
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-19",
+  "ph": [
+   {
+    "n": "Mandala House",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -15.79272,
+    "lon": 35.01151,
+    "d": 1.0
+   },
+   {
+    "n": "NBM National Bank Malawi (Top Mandala House)",
+    "k": "amenity",
+    "v": "bank",
+    "lat": -15.79257,
+    "lon": 35.00952,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "ph": [
+   {
+    "n": "Likhubula",
+    "k": "waterway",
+    "v": "river",
+    "lat": -16.00546,
+    "lon": 35.48571,
+    "d": 16.4
+   },
+   {
+    "n": "Likhubula",
+    "k": "waterway",
+    "v": "river",
+    "lat": -15.95399,
+    "lon": 35.4785,
+    "d": 16.6
+   },
+   {
+    "n": "likhubula",
+    "k": "waterway",
+    "v": "river",
+    "lat": -16.04541,
+    "lon": 35.49045,
+    "d": 17.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "ph": [
+   {
+    "n": "Satemwa Tea Estate",
+    "k": "landuse",
+    "v": "farmland",
+    "lat": -16.0702,
+    "lon": 35.10702,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Songwe River",
+    "k": "waterway",
+    "v": "river",
+    "lat": -9.61879,
+    "lon": 33.49724,
+    "d": 11.1
+   },
+   {
+    "n": "Songwe View Lodge",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -9.54422,
+    "lon": 33.73932,
+    "d": 20.8
+   },
+   {
+    "n": "Songwe Lookout",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -9.64392,
+    "lon": 33.53667,
+    "d": 12.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Chiponde",
+    "k": "place",
+    "v": "village",
+    "lat": -14.3708,
+    "lon": 35.60101,
+    "d": 9.5
+   },
+   {
+    "n": "Chiponde School",
+    "k": "amenity",
+    "v": "school",
+    "lat": -14.37189,
+    "lon": 35.60223,
+    "d": 9.3
+   },
+   {
+    "n": "Chiponde",
+    "k": "place",
+    "v": "town",
+    "lat": -12.09006,
+    "lon": 34.74237,
+    "d": 279.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Mwanza",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -15.6136,
+    "lon": 34.51466,
+    "d": 13.8
+   },
+   {
+    "n": "Mwanza",
+    "k": "place",
+    "v": "town",
+    "lat": -15.60922,
+    "lon": 34.52342,
+    "d": 14.8
+   },
+   {
+    "n": "Mwanza",
+    "k": "waterway",
+    "v": "river",
+    "lat": -15.85885,
+    "lon": 34.44368,
+    "d": 28.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Muloza",
+    "k": "waterway",
+    "v": "river",
+    "lat": -16.0466,
+    "lon": 35.79306,
+    "d": 6.2
+   },
+   {
+    "n": "Muloza",
+    "k": "waterway",
+    "v": "stream",
+    "lat": -16.01826,
+    "lon": 35.54443,
+    "d": 23.1
+   },
+   {
+    "n": "Muloza",
+    "k": "landuse",
+    "v": "commercial",
+    "lat": -16.07524,
+    "lon": 35.7261,
+    "d": 2.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Mchinji",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -13.78289,
+    "lon": 33.02047,
+    "d": 31.1
+   },
+   {
+    "n": "Mchinji",
+    "k": "place",
+    "v": "town",
+    "lat": -13.79717,
+    "lon": 32.8875,
+    "d": 17.0
+   },
+   {
+    "n": "Mchinji",
+    "k": "railway",
+    "v": "yard",
+    "lat": -13.78521,
+    "lon": 32.89475,
+    "d": 17.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Chitipa",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -9.97285,
+    "lon": 33.41202,
+    "d": 34.1
+   },
+   {
+    "n": "Chitipa",
+    "k": "place",
+    "v": "town",
+    "lat": -9.70261,
+    "lon": 33.27482,
+    "d": 0.6
+   },
+   {
+    "n": "Chitipa Inn",
+    "k": "tourism",
+    "v": "guest_house",
+    "lat": -9.69906,
+    "lon": 33.26065,
+    "d": 1.0
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q1044337",
+    "l": "distrito de Chitipa",
+    "t": "distrito de Malaui",
+    "lat": -9.7,
+    "lon": 33.275,
+    "d": 0.5
+   },
+   {
+    "id": "Q1074915",
+    "l": "Chitipa",
+    "t": "city in Malawi",
+    "lat": -9.70194,
+    "lon": 33.27,
+    "d": 0.2
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Kamuzu Central Hospital",
+    "k": "building",
+    "v": "hospital",
+    "lat": -13.9764,
+    "lon": 33.78168,
+    "d": 3.2
+   },
+   {
+    "n": "Kamuzu Central Hospital",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -13.97649,
+    "lon": 33.77983,
+    "d": 3.1
+   },
+   {
+    "n": "Kamuzu Central Hospital",
+    "k": "building",
+    "v": "hospital",
+    "lat": -13.97714,
+    "lon": 33.78455,
+    "d": 3.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Queen Elizabeth Central Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -15.80308,
+    "lon": 35.02178,
+    "d": 2.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Mzuzu Central Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -11.42947,
+    "lon": 33.99578,
+    "d": 3.8
+   },
+   {
+    "n": "Mzuzu Central Hospital",
+    "k": "building",
+    "v": "hospital",
+    "lat": -11.42814,
+    "lon": 33.99569,
+    "d": 3.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Karonga",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -10.08475,
+    "lon": 33.86619,
+    "d": 153.6
+   },
+   {
+    "n": "Karonga",
+    "k": "place",
+    "v": "town",
+    "lat": -9.93935,
+    "lon": 33.92714,
+    "d": 169.1
+   },
+   {
+    "n": "Karonga",
+    "k": "place",
+    "v": "village",
+    "lat": -16.52696,
+    "lon": 35.17483,
+    "d": 577.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Lilongwe",
+    "k": "place",
+    "v": "city",
+    "lat": -13.98751,
+    "lon": 33.76814,
+    "d": 0.5
+   },
+   {
+    "n": "Lilongwe",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -14.04141,
+    "lon": 33.73537,
+    "d": 7.4
+   },
+   {
+    "n": "Lilongwe",
+    "k": "waterway",
+    "v": "river",
+    "lat": -13.8919,
+    "lon": 34.06834,
+    "d": 34.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Blantyre",
+    "k": "place",
+    "v": "city",
+    "lat": -15.78625,
+    "lon": 35.00357,
+    "d": 0.2
+   },
+   {
+    "n": "Blantyre",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -15.68435,
+    "lon": 34.92278,
+    "d": 14.4
+   },
+   {
+    "n": "Blantyre",
+    "k": "railway",
+    "v": "station",
+    "lat": -15.78796,
+    "lon": 35.01596,
+    "d": 1.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "ph": [
+   {
+    "n": "Lilongwe",
+    "k": "place",
+    "v": "city",
+    "lat": -13.98751,
+    "lon": 33.76814,
+    "d": 0.5
+   },
+   {
+    "n": "Lilongwe",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -14.04141,
+    "lon": 33.73537,
+    "d": 7.4
+   },
+   {
+    "n": "Lilongwe",
+    "k": "waterway",
+    "v": "river",
+    "lat": -13.8919,
+    "lon": 34.06834,
+    "d": 34.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "ph": [
+   {
+    "n": "Nkhata Bay",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -11.60845,
+    "lon": 34.04157,
+    "d": 281.5
+   },
+   {
+    "n": "Nkhata Bay",
+    "k": "place",
+    "v": "town",
+    "lat": -11.60699,
+    "lon": 34.29839,
+    "d": 274.5
+   },
+   {
+    "n": "Nkhata Bay port",
+    "k": "natural",
+    "v": "bay",
+    "lat": -11.60656,
+    "lon": 34.30102,
+    "d": 274.5
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q1051505",
+    "l": "Distrito de Nkhata Bay",
+    "t": "distrito de Malaui",
+    "lat": -11.5,
+    "lon": 34.0,
+    "d": 294.4
+   },
+   {
+    "id": "Q1370650",
+    "l": "Nkhata Bay",
+    "t": "city in Malawi",
+    "lat": -11.6,
+    "lon": 34.3,
+    "d": 275.2
+   }
+  ]
+ }
+]

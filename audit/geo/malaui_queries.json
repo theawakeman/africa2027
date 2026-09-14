@@ -1,0 +1,554 @@
+{
+ "slug": "malaui",
+ "bbox": [
+  32.300000000000004,
+  -17.5,
+  36.3,
+  -9.0
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Karonga y el Centro Cultural y Museo",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -9.9333,
+   "lon": 33.9333,
+   "desc": "Primera ciudad al entrar desde Tanzania, a 478 m sobre la orilla noroeste del lago y a unos 45 km de la frontera de Songwe. Su Cultural & Museum Centre es la mejor parada cultural del norte: expone el",
+   "q": [
+    "Cultural Museum Centre Karonga Malawi"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Livingstonia y la carretera de las curvas de herradura",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -10.6083,
+   "lon": 34.1167,
+   "desc": "LA PARADA MÍTICA DEL NORTE. La misión escocesa se fundó en 1894 tras dos intentos fallidos —Cabo Maclear (1875) y Bandawe— abandonados por la malaria: solo funcionó al subirla a la meseta, por encima ",
+   "q": [
+    "Stone House Museum Livingstonia Malawi"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Cataratas de Manchewe",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -10.6167,
+   "lon": 34.1333,
+   "desc": "Justo antes de llegar a Livingstonia, el río se despeña por el escarpe en una caída larga y estrecha sobre la garganta, con la llanura del lago al fondo. Hay sendero hasta el mirador y una bajada cort",
+   "q": [
+    "Manchewe Falls Malawi"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Meseta de Nyika · Parque Nacional de Nyika",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -10.5667,
+   "lon": 33.8,
+   "desc": "EL PARQUE MÁS GRANDE DEL PAÍS (3.200 km², creado en 1966 y ampliado en 1978) y el paisaje más inesperado de África oriental: praderas de altura ondulando entre 2.000 y 2.600 m, sin árboles, con antílo",
+   "q": [
+    "Chelinda Camp Nyika National Park Malawi"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Mzuzu",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -11.4581,
+   "lon": 34.015,
+   "desc": "Capital del Norte y tercera ciudad del país (221.000 hab.), encajada en un paso de los montes Viphya sobre la M1. Es la plaza logística de todo el bloque norte: bancos, supermercados, talleres, hospit",
+   "q": [
+    "Mzuzu Malawi"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Nkhata Bay",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -11.6,
+   "lon": 34.3,
+   "desc": "El puerto principal de la orilla norte y el gran clásico del circuito overland de África oriental: una ensenada tropical de agua transparente entre cerros boscosos, con casas colgadas sobre la roca. E",
+   "q": [
+    "Nkhata Bay Jetty Malawi"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Chintheche y la costa de Bandawe",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -11.85,
+   "lon": 34.1667,
+   "desc": "El mejor tramo de playa abierta del lago: 40 km de arena blanca, baobabs y agua poco profunda entre Nkhata Bay y Dwangwa, con los campamentos que usan todos los camiones de expedición. Aquí estuvo la ",
+   "q": [
+    "Bandawe Mission Malawi",
+    "Chintheche Malawi"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Likoma y la catedral de San Pedro",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -12.0667,
+   "lon": 34.7333,
+   "desc": "UNA RAREZA GEOPOLÍTICA Y ARQUITECTÓNICA. Likoma (18 km², unos 10.000 habitantes) y la vecina Chizumulu son EXCLAVES DE MALAUI ENTERAMENTE RODEADOS DE AGUAS TERRITORIALES MOZAMBIQUEÑAS, a 7 km de Cobué",
+   "q": [
+    "St Peter's Cathedral Likoma Malawi"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Reserva de Nkhotakota (African Parks)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -12.9167,
+   "lon": 34.0,
+   "desc": "La reserva más antigua y más grande del país (1.800 km²), desde el escarpe a 1.638 m hasta la orilla del lago, con miombo, dambos, bosque de galería y gargantas de río. Fue el escenario de UNA DE LAS ",
+   "q": [
+    "Nkhotakota Wildlife Reserve main gate Malawi"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Nkhotakota, la capital histórica de la trata",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -12.9167,
+   "lon": 34.3,
+   "desc": "Uno de los asentamientos más antiguos y peculiares del lago: fue el cuartel general del jefe esclavista suajili Jumbe, punto de embarque de miles de personas esclavizadas que cruzaban el lago hacia Ki",
+   "q": [
+    "Livingstone Tree Nkhotakota Malawi"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Senga Bay y Salima",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": -13.7667,
+   "lon": 34.6167,
+   "desc": "La playa del lago más cercana a la capital (~105 km de Lilongüe), y por eso la más fácil de encajar aunque se recorte el viaje: arena, granito, pescadores y las islas Marelli/Nankoma a un paseo en bar",
+   "q": [
+    "Senga Bay Beach Malawi"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Parque Nacional de Kasungu",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -13.0333,
+   "lon": 33.1667,
+   "desc": "Segundo parque del país (2.316 km², creado en 1970), a ~175 km al norte de Lilongüe y pegado a la frontera zambiana, a unos 1.000 m: miombo abierto, dambos herbáceos y los ríos Dwangwa y Lingadzi con ",
+   "q": [
+    "Lifupa Kasungu National Park Malawi"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Lilongüe",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -13.9833,
+   "lon": 33.7681,
+   "desc": "Capital política desde 1975 (casi un millón de habitantes, a 1.050 m), dividida en Old Town —mercados, transporte, la vida real— y City Centre —ministerios, embajadas, hoteles—. Es la mejor plaza logí",
+   "q": [
+    "Lilongwe Wildlife Centre Malawi"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Arte rupestre de Chongoni (UNESCO) y Dedza",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -14.2933,
+   "lon": 34.2792,
+   "desc": "PATRIMONIO MUNDIAL DESDE 2006 Y EL CONJUNTO DE ARTE RUPESTRE MÁS DENSO DE ÁFRICA CENTRAL: 127 yacimientos en 126,4 km² de colinas graníticas boscosas, a unos 80 km al sureste de Lilongüe. Dos tradicio",
+   "q": [
+    "Chongoni Rock Art Chentcherere Malawi"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Mua · Centro Kungoni de Cultura y Arte",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -14.2167,
+   "lon": 34.5333,
+   "desc": "Misión católica en el escarpe entre Dedza y el lago que alberga el Chamare Museum, la mejor colección etnográfica del país: tres salas dedicadas a chewa, ngoni y yao, con centenares de máscaras GULE W",
+   "q": [
+    "Kungoni Centre Mua Malawi"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Cabo Maclear y el Parque Nacional del Lago Malaui (UNESCO)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -14.0206,
+   "lon": 34.8306,
+   "desc": "EL CORAZÓN DEL PAÍS Y EL MOTIVO POR EL QUE SE VIENE. Patrimonio Mundial desde 1984 y primer parque nacional de agua dulce del mundo creado para proteger peces: 94 km² en el extremo sur del lago, con 1",
+   "q": [
+    "Cape Maclear Lake Malawi National Park"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Parque Nacional de Liwonde (African Parks)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -14.8333,
+   "lon": 35.3167,
+   "desc": "548 km² a lo largo de 30 km del río Shire y la orilla del lago Malombe, gestionado por African Parks desde agosto de 2015 y convertido en la historia de recuperación más espectacular de África austral",
+   "q": [
+    "Liwonde National Park main gate Malawi"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Zomba y su meseta",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -15.3833,
+   "lon": 35.3167,
+   "desc": "Antigua capital colonial a los pies de una meseta de sienita granítica de 130 km² que culmina a 2.087 m, partida en dos por el valle de Domasi (Zomba al sur, Malosa al norte). Arriba: pinares, retazos",
+   "q": [
+    "Queen's View Zomba Plateau Malawi"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Blantyre",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -15.7861,
+   "lon": 35.0058,
+   "desc": "Capital comercial e industrial (800.000 hab., a 1.039 m), fundada por misioneros escoceses y bautizada con el pueblo natal de Livingstone. Es la mejor plaza de servicios del sur: talleres, recambios, ",
+   "q": [
+    "Mandala House Blantyre Malawi"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Monte Mulanje · Sapitwa 3.002 m (UNESCO 2025)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -15.9667,
+   "lon": 35.6333,
+   "desc": "UNA DE LAS GRANDES MONTAÑAS DE SENDERISMO DE ÁFRICA. Inselberg colosal formado por una intrusión magmática hace unos 130 millones de años, que se levanta de golpe sobre los cultivos de té a 65 km al e",
+   "q": [
+    "Likhubula Mount Mulanje Malawi"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Plantaciones de té de Thyolo y Mulanje",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -16.0667,
+   "lon": 35.1333,
+   "desc": "Malaui fue el primer país de África donde se cultivó té con éxito comercial, y las laderas de Thyolo y Mulanje siguen siendo un mar verde de setos recortados entre neblina, con casas coloniales de pla",
+   "q": [
+    "Satemwa Tea Estate Malawi"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "Reserva de Majete (African Parks)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -15.97,
+   "lon": 34.7597,
+   "desc": "700 km² en el bajo valle del Shire, junto a las cataratas de Kapachira y a poco más de una hora de Blantyre. En 2003 African Parks firmó aquí su PRIMER ACUERDO EN EL MUNDO, con una reserva que era «re",
+   "q": [
+    "Majete Wildlife Reserve main gate Malawi"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Songwe / Kasumulu (Tanzania)",
+   "cat": "Frontera",
+   "lat": -9.5333,
+   "lon": 33.55,
+   "desc": "El paso natural de entrada si Malaui se inserta viniendo de Tanzania: puente sobre el río Songwe, en la M1 al norte de Karonga, enfrentado a Kasumulu (Tanzania) y a una hora larga de Mbeya. Es el únic",
+   "q": [
+    "Songwe",
+    "Kasumulu",
+    "Tanzania"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Chiponde / Mandimba (Mozambique — Niassa)",
+   "cat": "Frontera",
+   "lat": -14.45,
+   "lon": 35.6333,
+   "desc": "SALIDA PREFERENTE de la variante corta: desde Mangochi hacia Mandimba y de ahí a Cuamba o Lichinga, es decir, directamente al Niassa mozambiqueño. Es el paso que permite hacer Malaui SIN renunciar al ",
+   "q": [
+    "Chiponde",
+    "Mandimba",
+    "Mozambique",
+    "Niassa"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Mwanza / Zóbuè (Mozambique — corredor de Tete)",
+   "cat": "Frontera",
+   "lat": -15.6136,
+   "lon": 34.3856,
+   "desc": "Salida del bucle completo, a ~110 km de Blantyre por asfalto: es el corredor de camiones de Tete y el mismo paso que la ficha de Mozambique ya identifica como plan B de entrada al país. Tráfico pesado",
+   "q": [
+    "Mwanza",
+    "Zóbuè",
+    "Mozambique",
+    "Tete"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Muloza / Milange (Mozambique — Zambezia)",
+   "cat": "Frontera",
+   "lat": -16.0833,
+   "lon": 35.75,
+   "desc": "Tercera salida posible, al pie de Mulanje, hacia Mocuba y Quelimane. Encaja muy bien si el último bloque es Mulanje y el té, pero deja fuera Majete. Menos transitada que Zóbuè. Coordenada aproximada: ",
+   "q": [
+    "Muloza",
+    "Milange",
+    "Mozambique",
+    "Zambezia"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Mchinji / Mwami (Zambia)",
+   "cat": "Frontera",
+   "lat": -13.7667,
+   "lon": 32.7333,
+   "desc": "El paso con Zambia, a ~110 km al oeste de Lilongüe, enfrentado a Chipata (Zambia) y a la puerta de South Luangwa. Solo relevante en la variante que entra o sale por Zambia; obliga a replantear el corr",
+   "q": [
+    "Mchinji",
+    "Mwami",
+    "Zambia"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Frontera · Chitipa / Kameme (Zambia, extremo norte)",
+   "cat": "Frontera",
+   "lat": -9.7,
+   "lon": 33.27,
+   "desc": "Cruce remoto del extremo noroeste, hacia Isoka (Zambia), que permitiría entrar a Malaui desde el norte de Zambia sin pasar por Tanzania. Pista, poco tráfico y muy poco documentado: POR CONFIRMAR que a",
+   "q": [
+    "Chitipa",
+    "Kameme",
+    "Zambia"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Consulado Honorario de España en Lilongwe",
+   "cat": "Consular",
+   "lat": -13.9626,
+   "lon": 33.7741,
+   "desc": "María Ángeles Soriano, Blantyre Street 279, Area 10, Lilongüe. Tel./WhatsApp (+265) 999 846 081. Depende de la Embajada de España en Harare (Zimbabue), que también cubre Zambia.",
+   "q": [
+    "Honorary Consulate of Spain Lilongwe"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Embajada de España en Harare (competente para Malaui)",
+   "cat": "Consular",
+   "lat": -17.8292,
+   "lon": 31.0522,
+   "desc": "16 Phillips Ave., Belgravia, P.O. Box 3300, Harare (Zimbabue). Tel. +263 (0)242 250740/1 · Emergencia consular: +263 (0)772 436 620. Referencia diplomática de Malaui y Zambia; para gestiones ordinaria",
+   "q": [
+    "Embassy of Spain Harare"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hospital Kamuzu Central, Lilongwe",
+   "cat": "Hospital",
+   "lat": -13.9553,
+   "lon": 33.7614,
+   "desc": "Hospital de referencia de la capital y del centro del país; para lo serio, la práctica regional es la evacuación a Sudáfrica.",
+   "q": [
+    "Kamuzu Central Hospital Lilongwe"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Queen Elizabeth Central Hospital, Blantyre",
+   "cat": "Hospital",
+   "lat": -15.7861,
+   "lon": 35.0058,
+   "desc": "Principal hospital de referencia nacional, en la capital comercial; mejor opción del sur, junto con las clínicas privadas de Blantyre y Limbe.",
+   "q": [
+    "Queen Elizabeth Central Hospital Blantyre"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Hospital de Mzuzu (norte)",
+   "cat": "Hospital",
+   "lat": -11.4581,
+   "lon": 34.015,
+   "desc": "Referencia sanitaria del bloque norte: Nyika, Livingstonia, Nkhata Bay y toda la costa hasta Karonga dependen de aquí.",
+   "q": [
+    "Mzuzu Central Hospital Malawi"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Karonga / Mzuzu / Rumphi (norte)",
+   "cat": "Combustible",
+   "lat": -11.4581,
+   "lon": 34.015,
+   "desc": "Las tres plazas del norte. Repostar a fondo en Mzuzu o Rumphi antes de subir a Nyika y antes del escarpe de Livingstonia: arriba no hay nada.",
+   "q": [
+    "Karonga",
+    "Mzuzu",
+    "Rumphi",
+    "Karonga / Mzuzu / Rumphi"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Lilongwe",
+   "cat": "Combustible",
+   "lat": -13.9833,
+   "lon": 33.7681,
+   "desc": "Mejor oferta y calidad del país junto con Blantyre (Puma, Total, Petroda). Punto de repostaje a fondo.",
+   "q": [
+    "Lilongwe"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Combustible · Blantyre / Zomba (sur)",
+   "cat": "Combustible",
+   "lat": -15.7861,
+   "lon": 35.0058,
+   "desc": "Plaza principal del sur; última oferta grande antes de Mulanje, Thyolo, Majete y las fronteras mozambiqueñas.",
+   "q": [
+    "Blantyre",
+    "Zomba",
+    "Blantyre / Zomba"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Agua potable y de uso general · Lilongwe, Blantyre, Mzuzu",
+   "cat": "Agua potable",
+   "lat": -13.9833,
+   "lon": 33.7681,
+   "desc": "Agua embotellada sin problema en supermercados de las tres ciudades; lodges y campings permiten llenar el depósito de uso general con manguera.",
+   "q": [
+    "Lilongwe",
+    "Blantyre",
+    "Mzuzu"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Agua · campings del lago (Cabo Maclear, Nkhata Bay, Chintheche, Senga Bay)",
+   "cat": "Agua potable",
+   "lat": -14.0206,
+   "lon": 34.8306,
+   "desc": "Todos los campings de la orilla tienen agua corriente y duchas; potabilizar antes de beber. NO usar agua del lago sin filtrar y tratar (bilharzia).",
+   "q": [
+    "Cabo Maclear",
+    "Nkhata Bay",
+    "Chintheche",
+    "Senga Bay",
+    "campings del lago"
+   ]
+  }
+ ]
+}

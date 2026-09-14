@@ -1,0 +1,1214 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Cataratas de Sipi",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 1.3344,
+  "lon": 34.39,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Sipi Falls - Ngasire",
+   "kind": "waterway=waterfall",
+   "lat": 1.33679,
+   "lon": 34.38526,
+   "d": 0.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sipi Falls - Ngasire",
+    "kind": "waterway=waterfall",
+    "lat": 1.33679,
+    "lon": 34.38526,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sipi Falls - Simba",
+    "kind": "waterway=waterfall",
+    "lat": 1.33715,
+    "lon": 34.38477,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sipi Falls - First Fall",
+    "kind": "waterway=waterfall",
+    "lat": 1.33811,
+    "lon": 34.37994,
+    "d": 1.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Monte Elgon · pico Wagagai y la caldera",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 1.1378,
+  "lon": 34.5603,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mount Elgon National Park",
+   "kind": "natural=wood",
+   "lat": 1.28523,
+   "lon": 34.5227,
+   "d": 16.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mount Elgon National Park",
+    "kind": "place=village",
+    "lat": 0.94615,
+    "lon": 34.42403,
+    "d": 26.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mount Elgon National Park",
+    "kind": "natural=wood",
+    "lat": 1.28523,
+    "lon": 34.5227,
+    "d": 16.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mount Elgon National Park - Buwabwala subcounty",
+    "kind": "boundary=administrative",
+    "lat": 0.974,
+    "lon": 34.43285,
+    "d": 23.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Jinja y la fuente del Nilo",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 0.4233,
+  "lon": 33.2039,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "SOURCE OF THE NILE",
+   "kind": "amenity=clinic",
+   "lat": 0.42093,
+   "lon": 33.1968,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "SOURCE OF THE NILE",
+    "kind": "amenity=clinic",
+    "lat": 0.42093,
+    "lon": 33.1968,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Source of the Nile",
+    "kind": "amenity=restaurant",
+    "lat": 0.42089,
+    "lon": 33.19658,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Source of the Nile Bridge",
+    "kind": "highway=trunk",
+    "lat": 0.43861,
+    "lon": 33.18823,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Kampala",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 0.3476,
+  "lon": 32.5825,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Uganda Museum",
+   "kind": "tourism=museum",
+   "lat": 0.33586,
+   "lon": 32.58258,
+   "d": 1.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Uganda Museum",
+    "kind": "tourism=museum",
+    "lat": 0.33586,
+    "lon": 32.58258,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "UGANDA POLICE MUSEUM",
+    "kind": "tourism=museum",
+    "lat": 0.3094,
+    "lon": 32.59141,
+    "d": 4.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "C.N KIKONYOGO MONEY MUSEUM",
+    "kind": "tourism=museum",
+    "lat": 0.31439,
+    "lon": 32.5806,
+    "d": 3.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Entebbe · jardines botánicos y la orilla del Victoria",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 0.05,
+  "lon": 32.46,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Entebbe Botanical Gardens",
+   "kind": "leisure=park",
+   "lat": 0.06307,
+   "lon": 32.47772,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Entebbe Botanical Gardens",
+    "kind": "leisure=park",
+    "lat": 0.06307,
+    "lon": 32.47772,
+    "d": 2.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Entebbe Botanical Gardens Nursery",
+    "kind": "shop=garden_centre",
+    "lat": 0.06448,
+    "lon": 32.47802,
+    "d": 2.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Islas Ssese (lago Victoria)",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -0.4333,
+  "lon": 32.25,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Ssese Islands Beach Hotel",
+   "kind": "tourism=hotel",
+   "lat": -0.32023,
+   "lon": 32.29096,
+   "d": 13.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ssese Islands Beach Hotel",
+    "kind": "tourism=hotel",
+    "lat": -0.32023,
+    "lon": 32.29096,
+    "d": 13.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Santuario de rinocerontes de Ziwa",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 1.4856,
+  "lon": 32.0953,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ziwa Rhino Sanctuary",
+   "kind": "information=guidepost",
+   "lat": 1.50784,
+   "lon": 32.09612,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ziwa Rhino Sanctuary",
+    "kind": "leisure=nature_reserve",
+    "lat": 1.44913,
+    "lon": 32.08634,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ziwa Rhino Sanctuary",
+    "kind": "information=guidepost",
+    "lat": 1.50784,
+    "lon": 32.09612,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ziwa Rhino Sanctuary Reception",
+    "kind": "information=office",
+    "lat": 1.44831,
+    "lon": 32.07778,
+    "d": 4.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Cataratas Murchison · el Nilo estrangulado",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 2.2783,
+  "lon": 31.6856,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Murchison Falls",
+   "kind": "information=board",
+   "lat": 2.27569,
+   "lon": 31.68462,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Murchison Falls National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 2.26472,
+    "lon": 31.89672,
+    "d": 23.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Murchison Falls National Park",
+    "kind": "boundary=national_park",
+    "lat": 2.26472,
+    "lon": 31.89672,
+    "d": 23.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Murchison Falls",
+    "kind": "information=board",
+    "lat": 2.27569,
+    "lon": 31.68462,
+    "d": 0.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Parque Nacional del Valle de Kidepo",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 3.9,
+  "lon": 33.85,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kidepo Valley National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": 3.92859,
+   "lon": 33.8642,
+   "d": 3.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kidepo Valley National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 3.92859,
+    "lon": 33.8642,
+    "d": 3.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Gulu y el norte",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 2.7747,
+  "lon": 32.299,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Fort Patiko",
+   "kind": "historic=fort",
+   "lat": 3.01569,
+   "lon": 32.318,
+   "d": 26.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Fort Patiko",
+    "kind": "historic=fort",
+    "lat": 3.01569,
+    "lon": 32.318,
+    "d": 26.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Baker's Fort Patiko",
+    "kind": "tourism=attraction",
+    "lat": 3.01555,
+    "lon": 32.31882,
+    "d": 26.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Fort Portal y los lagos de cráter de Ndali-Kasenda",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 0.671,
+  "lon": 30.275,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "crater lake",
+   "kind": "water=lake",
+   "lat": 0.69003,
+   "lon": 30.24972,
+   "d": 3.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Kaitabarago",
+    "kind": "water=lake",
+    "lat": 0.69388,
+    "lon": 30.26233,
+    "d": 2.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "crater lake",
+    "kind": "water=lake",
+    "lat": 0.69003,
+    "lon": 30.24972,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake view stp",
+    "kind": "tourism=viewpoint",
+    "lat": 0.68318,
+    "lon": 30.2336,
+    "d": 4.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Parque Nacional de Kibale · chimpancés",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 0.5,
+  "lon": 30.4,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Montes Rwenzori · las Montañas de la Luna",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 0.3858,
+  "lon": 29.8717,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Rwenzori Mountains National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": 0.42072,
+   "lon": 29.98696,
+   "d": 13.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Rwenzori Mountains National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 0.42072,
+    "lon": 29.98696,
+    "d": 13.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Rwenzori Mountains National Park - Kilembe Route entry point",
+    "kind": "information=board",
+    "lat": 0.23139,
+    "lon": 29.97991,
+    "d": 21.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Rwenzori Mountains National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": 0.25885,
+    "lon": 29.93778,
+    "d": 15.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Katwe · salinas y campo de cráteres",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -0.1333,
+  "lon": 29.8833,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Munyenyange",
+   "kind": "water=lake",
+   "lat": -0.1361,
+   "lon": 29.88575,
+   "d": 0.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Katwe Crater Lake",
+    "kind": "water=lake",
+    "lat": -0.12891,
+    "lon": 29.86638,
+    "d": 1.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Old Salt Factory",
+    "kind": "man_made=works",
+    "lat": -0.14539,
+    "lon": 29.88127,
+    "d": 1.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lake Munyenyange",
+    "kind": "water=lake",
+    "lat": -0.1361,
+    "lon": 29.88575,
+    "d": 0.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Parque Nacional Queen Elizabeth · canal de Kazinga",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -0.1372,
+  "lon": 30.0411,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Mweya Kazinga Channel Boat Tour",
+   "kind": "tourism=attraction",
+   "lat": -0.18708,
+   "lon": 29.90092,
+   "d": 16.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mweya Kazinga Channel Boat Tour",
+    "kind": "tourism=attraction",
+    "lat": -0.18708,
+    "lon": 29.90092,
+    "d": 16.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "UWA Kazinga Channel Boat Tour",
+    "kind": "tourism=attraction",
+    "lat": -0.18679,
+    "lon": 29.90071,
+    "d": 16.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Ishasha · los leones trepadores",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -0.6167,
+  "lon": 29.6667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Queen Elizabeth National Park",
+   "kind": "boundary=protected_area",
+   "lat": -0.24995,
+   "lon": 29.88861,
+   "d": 47.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Queen Elizabeth National Park",
+    "kind": "boundary=protected_area",
+    "lat": -0.24995,
+    "lon": 29.88861,
+    "d": 47.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Queen Elizabeth National Park",
+    "kind": "place=village",
+    "lat": -0.01967,
+    "lon": 29.73818,
+    "d": 66.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Queen Elizabeth National Park",
+    "kind": "place=locality",
+    "lat": 0.18286,
+    "lon": 30.2278,
+    "d": 108.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Bosque Impenetrable de Bwindi (Buhoma)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": -1.05,
+  "lon": 29.6167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bwindi- Buhoma Shopping Center",
+   "kind": "shop=houseware",
+   "lat": -0.96573,
+   "lon": 29.61425,
+   "d": 9.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bwindi Buhoma Orphan And Vulnerable Children Center",
+    "kind": "shop=furniture",
+    "lat": -0.98457,
+    "lon": 29.61615,
+    "d": 7.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bwindi- Buhoma Shopping Center",
+    "kind": "shop=houseware",
+    "lat": -0.96573,
+    "lon": 29.61425,
+    "d": 9.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bwindi Community Kindergarten And Daycare Center Latrine",
+    "kind": "amenity=toilets",
+    "lat": -0.96767,
+    "lon": 29.6168,
+    "d": 9.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Parque Nacional de los Gorilas de Mgahinga",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -1.3694,
+  "lon": 29.6403,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Lago Bunyonyi",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -1.2833,
+  "lon": 29.9167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Bunyonyi",
+   "kind": "amenity=restaurant",
+   "lat": -1.30095,
+   "lon": 29.93903,
+   "d": 3.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Bunyonyi",
+    "kind": "water=lake",
+    "lat": -1.31673,
+    "lon": 29.90546,
+    "d": 3.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Bunyonyi",
+    "kind": "amenity=restaurant",
+    "lat": -1.30095,
+    "lon": 29.93903,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Bunyonyi",
+    "kind": "tourism=viewpoint",
+    "lat": -1.25881,
+    "lon": 29.94337,
+    "d": 4.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Parque Nacional del Lago Mburo",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -0.6278,
+  "lon": 30.9667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Mburo National Park",
+   "kind": "boundary=national_park",
+   "lat": -0.61105,
+   "lon": 30.98121,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Mburo National Park",
+    "kind": "boundary=national_park",
+    "lat": -0.61105,
+    "lon": 30.98121,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Mburo National Park",
+    "kind": "place=village",
+    "lat": -0.60716,
+    "lon": 30.84806,
+    "d": 13.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Malaba (con Kenia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 0.6333,
+  "lon": 34.2667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Malaba",
+   "kind": "amenity=hospital",
+   "lat": 0.63271,
+   "lon": 34.2694,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Malaba",
+    "kind": "place=town",
+    "lat": 0.64073,
+    "lon": 34.26296,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Malaba",
+    "kind": "amenity=hospital",
+    "lat": 0.63271,
+    "lon": 34.2694,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Malaba",
+    "kind": "waterway=river",
+    "lat": 0.60555,
+    "lon": 34.17544,
+    "d": 10.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Entrada alternativa — Busia (con Kenia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 0.4667,
+  "lon": 34.0833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Busia",
+   "kind": "place=town",
+   "lat": 0.46435,
+   "lon": 34.11109,
+   "d": 3.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Busia",
+    "kind": "boundary=administrative",
+    "lat": 0.39171,
+    "lon": 34.01601,
+    "d": 11.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Busia",
+    "kind": "place=town",
+    "lat": 0.46435,
+    "lon": 34.11109,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Busia",
+    "kind": "boundary=administrative",
+    "lat": 0.3712,
+    "lon": 34.2648,
+    "d": 22.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida — Cyanika (con Ruanda)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -1.2333,
+  "lon": 29.6333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Cyanika",
+   "kind": "place=county",
+   "lat": -1.33524,
+   "lon": 29.73611,
+   "d": 16.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cyanika",
+    "kind": "place=village",
+    "lat": -1.34325,
+    "lon": 29.74108,
+    "d": 17.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cyanika",
+    "kind": "place=county",
+    "lat": -1.33524,
+    "lon": 29.73611,
+    "d": 16.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cyanika A",
+    "kind": "place=village",
+    "lat": -1.33889,
+    "lon": 29.7399,
+    "d": 16.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Salida alternativa — Katuna/Gatuna (con Ruanda)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -1.2333,
+  "lon": 29.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Katuna Vocational School",
+   "kind": "amenity=school",
+   "lat": -1.41954,
+   "lon": 29.99418,
+   "d": 20.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Katuna",
+    "kind": "place=town",
+    "lat": -1.42144,
+    "lon": 30.00985,
+    "d": 21.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Katuna-Border",
+    "kind": "place=village",
+    "lat": -1.42323,
+    "lon": 30.00904,
+    "d": 21.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Katuna Vocational School",
+    "kind": "amenity=school",
+    "lat": -1.41954,
+    "lon": 29.99418,
+    "d": 20.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Salida alternativa — Mutukula (con Tanzania)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -1.0,
+  "lon": 31.4,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mutukula",
+   "kind": "place=village",
+   "lat": -1.00068,
+   "lon": 31.41566,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mutukula",
+    "kind": "place=village",
+    "lat": -1.00068,
+    "lon": 31.41566,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mutukula",
+    "kind": "place=village",
+    "lat": -0.95806,
+    "lon": 31.39389,
+    "d": 4.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "MUTUKULA",
+    "kind": "amenity=hospital",
+    "lat": -0.98909,
+    "lon": 31.41957,
+    "d": 2.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Nairobi (competente para Uganda)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -1.2977,
+  "lon": 36.8129,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "International Hospital Kampala / Mulago National Referral Hospital",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 0.3419,
+  "lon": 32.5764,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "International Hospital Kampala",
+   "kind": "amenity=hospital",
+   "lat": 0.30511,
+   "lon": 32.61066,
+   "d": 5.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "International Hospital Kampala",
+    "kind": "amenity=hospital",
+    "lat": 0.30511,
+    "lon": 32.61066,
+    "d": 5.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Women's Hospital International and Fertility Centre",
+    "kind": "building=hospital",
+    "lat": 0.35064,
+    "lon": 32.59914,
+    "d": 2.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mobile Hospital International Mulago Medical Centre",
+    "kind": "amenity=hospital",
+    "lat": 0.34492,
+    "lon": 32.57289,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Kampala, Jinja, Gulu, Mbarara, Kasese, Kabale",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 0.3476,
+  "lon": 32.5825,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kampala",
+   "kind": "place=city",
+   "lat": 0.31771,
+   "lon": 32.58135,
+   "d": 3.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kampala",
+    "kind": "place=city",
+    "lat": 0.31771,
+    "lon": 32.58135,
+    "d": 3.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kampala",
+    "kind": "place=city",
+    "lat": 0.31771,
+    "lon": 32.58135,
+    "d": 3.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kampala",
+    "kind": "amenity=bureau_de_change",
+    "lat": 0.31583,
+    "lon": 32.57599,
+    "d": 3.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Agua potable y de uso general · Kampala, Entebbe, Jinja, Fort Portal",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 0.05,
+  "lon": 32.46,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kampala",
+   "kind": "information=sign",
+   "lat": 0.10483,
+   "lon": 32.51234,
+   "d": 8.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kampala",
+    "kind": "place=city",
+    "lat": 0.31771,
+    "lon": 32.58135,
+    "d": 32.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kampala",
+    "kind": "place=city",
+    "lat": 0.31771,
+    "lon": 32.58135,
+    "d": 32.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kampala",
+    "kind": "information=sign",
+    "lat": 0.10483,
+    "lon": 32.51234,
+    "d": 8.4,
+    "match": true
+   }
+  ]
+ }
+]

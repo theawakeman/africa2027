@@ -24,6 +24,43 @@ ROOT = Path(__file__).resolve().parents[1]
 API = "https://commons.wikimedia.org/w/api.php"
 
 SEARCH_QUERIES: dict[str, dict[int, str]] = {
+    "uganda": {
+        1: "Sipi Falls Uganda", 2: 'incategory:"Mount Elgon" Uganda',
+        3: "Source of the Nile Jinja Uganda", 4: 'incategory:"Kampala" Uganda',
+        5: "Entebbe Botanical Gardens Uganda", 6: "Ssese Islands Uganda",
+        7: "Ziwa Rhino Sanctuary Uganda", 8: "Murchison Falls Uganda",
+        9: 'incategory:"Kidepo Valley National Park"', 10: "Fort Patiko Uganda",
+        11: "Fort Portal crater lakes Uganda", 12: 'incategory:"Kibale National Park"',
+        13: 'incategory:"Rwenzori Mountains"', 14: "Lake Katwe salt Uganda",
+        15: "Kazinga Channel Uganda", 16: "Ishasha Uganda tree climbing lions",
+        17: 'incategory:"Bwindi Impenetrable National Park"',
+        18: 'incategory:"Mgahinga Gorilla National Park"',
+        19: 'incategory:"Lake Bunyonyi"', 20: 'incategory:"Lake Mburo National Park"',
+    },
+    "ruanda": {
+        1: "Musanze Caves Rwanda", 2: 'incategory:"Volcanoes National Park, Rwanda"',
+        3: "Mount Bisoke Rwanda crater lake", 4: "Karisoke Dian Fossey Rwanda",
+        5: "Lake Burera Lake Ruhondo Rwanda", 6: "Rubavu Gisenyi Lake Kivu Rwanda",
+        7: "Congo Nile Trail Rwanda", 8: "Karongi Kibuye Lake Kivu Rwanda",
+        9: "Rusizi Cyangugu Rwanda Lake Kivu", 10: 'incategory:"Nyungwe Forest"',
+        11: "Ethnographic Museum Huye Rwanda", 12: "King's Palace Museum Nyanza Rwanda",
+        13: 'incategory:"Kigali"', 14: "Kigali Genocide Memorial",
+        15: "Nyamata Genocide Memorial", 16: "Lake Muhazi Rwanda",
+        17: 'incategory:"Akagera National Park"', 18: "Gishwati Forest Rwanda",
+    },
+    "malaui": {
+        1: "Karonga Museum Malawi", 2: "Livingstonia Malawi Stone House",
+        3: "Manchewe Falls Malawi", 4: 'incategory:"Nyika National Park"',
+        5: "Mzuzu Malawi", 6: "Nkhata Bay Malawi",
+        7: "Bandawe Mission Malawi", 8: "Likoma Cathedral Malawi",
+        9: "Nkhotakota Wildlife Reserve Malawi", 10: "Livingstone Tree Nkhotakota Malawi",
+        11: "Senga Bay Malawi", 12: "Kasungu National Park Malawi",
+        13: "Lilongwe Malawi", 14: "Chongoni Rock Art Malawi",
+        15: "Kungoni Centre Mua Malawi", 16: "Cape Maclear Lake Malawi National Park",
+        17: "Liwonde National Park Malawi", 18: "Zomba Plateau Malawi",
+        19: "Blantyre Malawi Mandala House", 20: 'incategory:"Mount Mulanje"',
+        21: "Satemwa Tea Estate Malawi", 22: "Majete Wildlife Reserve Malawi",
+    },
     "zambia": {
         1: 'incategory:"Liuwa Plain National Park"',
         2: "Kuomboka Mongu",
@@ -133,16 +170,16 @@ def search(query: str, limit: int) -> list[dict[str, str]]:
         headers={"User-Agent": "Africa2027-content-audit/1.0"},
     )
     context = ssl.create_default_context(cafile=certifi.where())
-    for attempt in range(5):
+    for attempt in range(6):
         try:
             with urllib.request.urlopen(request, timeout=30, context=context) as response:
                 data = json.load(response)
             break
         except urllib.error.HTTPError as error:
-            if error.code != 429 or attempt == 4:
+            if error.code != 429 or attempt == 5:
                 raise
-            time.sleep(2 ** attempt)
-    time.sleep(0.8)
+            time.sleep(min(30, 4 * (attempt + 1)))
+    time.sleep(2.2)
     pages = sorted(
         data.get("query", {}).get("pages", {}).values(),
         key=lambda page: page.get("index", 10_000),
@@ -166,7 +203,7 @@ def search(query: str, limit: int) -> list[dict[str, str]]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("country", choices=("zambia", "tanzania", "kenia", "mozambique"))
+    parser.add_argument("country", choices=tuple(SEARCH_QUERIES))
     parser.add_argument("--number", type=int)
     parser.add_argument("--from", dest="first", type=int)
     parser.add_argument("--to", dest="last", type=int)

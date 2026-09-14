@@ -1,0 +1,1460 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Karonga y el Centro Cultural y Museo",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -9.9333,
+  "lon": 33.9333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cultural and Museum Centre Karonga",
+   "kind": "tourism=museum",
+   "lat": -9.94194,
+   "lon": 33.92229,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cultural and Museum Centre Karonga",
+    "kind": "tourism=museum",
+    "lat": -9.94194,
+    "lon": 33.92229,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cultural and Museum Centre Karonga",
+    "kind": "tourism=museum",
+    "lat": -9.94182,
+    "lon": 33.92256,
+    "d": 1.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Livingstonia y la carretera de las curvas de herradura",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -10.6083,
+  "lon": 34.1167,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Stonehouse Museum",
+   "kind": "tourism=museum",
+   "lat": -10.61167,
+   "lon": 34.11302,
+   "d": 0.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Stonehouse Museum",
+    "kind": "tourism=museum",
+    "lat": -10.61167,
+    "lon": 34.11302,
+    "d": 0.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Stonehouse Museum",
+    "kind": "tourism=museum",
+    "lat": -10.61159,
+    "lon": 34.11301,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Cataratas de Manchewe",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -10.6167,
+  "lon": 34.1333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Manchewe Falls",
+   "kind": "waterway=waterfall",
+   "lat": -10.58662,
+   "lon": 34.11973,
+   "d": 3.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Manchewe Falls",
+    "kind": "waterway=waterfall",
+    "lat": -10.58662,
+    "lon": 34.11973,
+    "d": 3.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Meseta de Nyika · Parque Nacional de Nyika",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -10.5667,
+  "lon": 33.8,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Mzuzu",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -11.4581,
+  "lon": 34.015,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mzuzu",
+   "kind": "place=city",
+   "lat": -11.46075,
+   "lon": 34.02264,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mzuzu",
+    "kind": "place=city",
+    "lat": -11.46075,
+    "lon": 34.02264,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mzuzu Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -11.44304,
+    "lon": 34.01193,
+    "d": 1.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mzuzu University",
+    "kind": "amenity=university",
+    "lat": -11.42153,
+    "lon": 33.99395,
+    "d": 4.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Nkhata Bay",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -11.6,
+  "lon": 34.3,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Port Jetty",
+   "kind": "office=yes",
+   "lat": -11.60735,
+   "lon": 34.30119,
+   "d": 0.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Port Jetty",
+    "kind": "office=yes",
+    "lat": -11.60735,
+    "lon": 34.30119,
+    "d": 0.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Chintheche y la costa de Bandawe",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -11.85,
+  "lon": 34.1667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Old Bandawe Mission,Thipura church",
+   "kind": "amenity=place_of_worship",
+   "lat": -11.88381,
+   "lon": 34.1621,
+   "d": 3.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Old Bandawe Mission,Thipura church",
+    "kind": "amenity=place_of_worship",
+    "lat": -11.88381,
+    "lon": 34.1621,
+    "d": 3.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Old Bandawe Mission",
+    "kind": "amenity=place_of_worship",
+    "lat": -11.92138,
+    "lon": 34.17187,
+    "d": 8.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Old Bandawe Mission Cemetery",
+    "kind": "tourism=attraction",
+    "lat": -11.92154,
+    "lon": 34.17519,
+    "d": 8.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Likoma y la catedral de San Pedro",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -12.0667,
+  "lon": 34.7333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cathedral of St Peter",
+   "kind": "amenity=place_of_worship",
+   "lat": -12.06425,
+   "lon": 34.73811,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cathedral of St Peter",
+    "kind": "amenity=place_of_worship",
+    "lat": -12.06425,
+    "lon": 34.73811,
+    "d": 0.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Reserva de Nkhotakota (African Parks)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -12.9167,
+  "lon": 34.0,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Wildlife Reserve Gate",
+   "kind": "office=government",
+   "lat": -12.98727,
+   "lon": 34.17174,
+   "d": 20.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Wildlife Reserve Gate",
+    "kind": "office=government",
+    "lat": -12.98727,
+    "lon": 34.17174,
+    "d": 20.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Nkhotakota, la capital histórica de la trata",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -12.9167,
+  "lon": 34.3,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Livingstone Tree",
+   "kind": "natural=tree",
+   "lat": -12.93149,
+   "lon": 34.29802,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Livingstone Tree",
+    "kind": "natural=tree",
+    "lat": -12.93149,
+    "lon": 34.29802,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mkungu Tree, under this tree Jumbe Salim Bin Abudala, the slave trader reside here for the sake of slave trade. see also Livingstone tree, approx. 200 meters from here.",
+    "kind": "natural=tree",
+    "lat": -12.93261,
+    "lon": 34.29697,
+    "d": 1.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Senga Bay y Salima",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -13.7667,
+  "lon": 34.6167,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Matundu Cottage Beach Resort",
+   "kind": "leisure=resort",
+   "lat": -13.81364,
+   "lon": 34.59203,
+   "d": 5.9,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Matundu Cottage Beach Resort",
+    "kind": "leisure=resort",
+    "lat": -13.81364,
+    "lon": 34.59203,
+    "d": 5.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Matundu Cottage Beach Resort",
+    "kind": "leisure=resort",
+    "lat": -13.8139,
+    "lon": 34.59259,
+    "d": 5.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Parque Nacional de Kasungu",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -13.0333,
+  "lon": 33.1667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kasungu National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -12.95506,
+   "lon": 33.18496,
+   "d": 8.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kasungu National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -12.95506,
+    "lon": 33.18496,
+    "d": 8.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasungu National Park Youth Camp",
+    "kind": "tourism=camp_site",
+    "lat": -13.05012,
+    "lon": 33.149,
+    "d": 2.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Lilongüe",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -13.9833,
+  "lon": 33.7681,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lilongwe",
+   "kind": "place=city",
+   "lat": -13.98751,
+   "lon": 33.76814,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lilongwe Wildlife Center",
+    "kind": "tourism=zoo",
+    "lat": -13.97225,
+    "lon": 33.78389,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "place=city",
+    "lat": -13.98751,
+    "lon": 33.76814,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "boundary=administrative",
+    "lat": -14.04141,
+    "lon": 33.73537,
+    "d": 7.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Arte rupestre de Chongoni (UNESCO) y Dedza",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -14.2933,
+  "lon": 34.2792,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Chongoni Rock Art",
+   "kind": "historic=archaeological_site",
+   "lat": -14.37844,
+   "lon": 34.17443,
+   "d": 14.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chongoni Rock Art",
+    "kind": "historic=archaeological_site",
+    "lat": -14.37844,
+    "lon": 34.17443,
+    "d": 14.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Mua · Centro Kungoni de Cultura y Arte",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -14.2167,
+  "lon": 34.5333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mua",
+   "kind": "place=village",
+   "lat": -14.28366,
+   "lon": 34.51101,
+   "d": 7.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kungoni Art Shop",
+    "kind": "building=commercial",
+    "lat": -14.28103,
+    "lon": 34.51003,
+    "d": 7.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mua",
+    "kind": "place=village",
+    "lat": -14.28366,
+    "lon": 34.51101,
+    "d": 7.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mua Livulezi Forest Reserve",
+    "kind": "natural=wood",
+    "lat": -14.33721,
+    "lon": 34.51226,
+    "d": 13.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Cabo Maclear y el Parque Nacional del Lago Malaui (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": -14.0206,
+  "lon": 34.8306,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Malawi National Park Loop Trail",
+   "kind": "highway=path",
+   "lat": -14.04324,
+   "lon": 34.83637,
+   "d": 2.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Malawi National Park Loop Trail",
+    "kind": "highway=path",
+    "lat": -14.04324,
+    "lon": 34.83637,
+    "d": 2.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Parque Nacional de Liwonde (African Parks)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -14.8333,
+  "lon": 35.3167,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Liwonde National Park Main Entrance Gate",
+   "kind": "building=yes",
+   "lat": -15.03852,
+   "lon": 35.25422,
+   "d": 23.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Liwonde National Park Main Entrance Gate",
+    "kind": "building=yes",
+    "lat": -15.03852,
+    "lon": 35.25422,
+    "d": 23.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Zomba y su meseta",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -15.3833,
+  "lon": 35.3167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Queen's View",
+   "kind": "tourism=viewpoint",
+   "lat": -15.3499,
+   "lon": 35.32946,
+   "d": 4.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Queen's View",
+    "kind": "tourism=viewpoint",
+    "lat": -15.3499,
+    "lon": 35.32946,
+    "d": 4.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Blantyre",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -15.7861,
+  "lon": 35.0058,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "NBM National Bank Malawi (Top Mandala House)",
+   "kind": "amenity=bank",
+   "lat": -15.79257,
+   "lon": 35.00952,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mandala House",
+    "kind": "tourism=museum",
+    "lat": -15.79272,
+    "lon": 35.01151,
+    "d": 1.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "NBM National Bank Malawi (Top Mandala House)",
+    "kind": "amenity=bank",
+    "lat": -15.79257,
+    "lon": 35.00952,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Monte Mulanje · Sapitwa 3.002 m (UNESCO 2025)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -15.9667,
+  "lon": 35.6333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Likhubula",
+   "kind": "waterway=river",
+   "lat": -16.00546,
+   "lon": 35.48571,
+   "d": 16.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Likhubula",
+    "kind": "waterway=river",
+    "lat": -16.00546,
+    "lon": 35.48571,
+    "d": 16.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Likhubula",
+    "kind": "waterway=river",
+    "lat": -15.95399,
+    "lon": 35.4785,
+    "d": 16.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "likhubula",
+    "kind": "waterway=river",
+    "lat": -16.04541,
+    "lon": 35.49045,
+    "d": 17.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Plantaciones de té de Thyolo y Mulanje",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -16.0667,
+  "lon": 35.1333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Satemwa Tea Estate",
+   "kind": "landuse=farmland",
+   "lat": -16.0702,
+   "lon": 35.10702,
+   "d": 2.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Satemwa Tea Estate",
+    "kind": "landuse=farmland",
+    "lat": -16.0702,
+    "lon": 35.10702,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Reserva de Majete (African Parks)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -15.97,
+  "lon": 34.7597,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Songwe / Kasumulu (Tanzania)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -9.5333,
+  "lon": 33.55,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Songwe River",
+   "kind": "waterway=river",
+   "lat": -9.61879,
+   "lon": 33.49724,
+   "d": 11.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Songwe River",
+    "kind": "waterway=river",
+    "lat": -9.61879,
+    "lon": 33.49724,
+    "d": 11.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Songwe View Lodge",
+    "kind": "tourism=hotel",
+    "lat": -9.54422,
+    "lon": 33.73932,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Songwe Lookout",
+    "kind": "tourism=viewpoint",
+    "lat": -9.64392,
+    "lon": 33.53667,
+    "d": 12.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Chiponde / Mandimba (Mozambique — Niassa)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -14.45,
+  "lon": 35.6333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Chiponde School",
+   "kind": "amenity=school",
+   "lat": -14.37189,
+   "lon": 35.60223,
+   "d": 9.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chiponde",
+    "kind": "place=village",
+    "lat": -14.3708,
+    "lon": 35.60101,
+    "d": 9.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chiponde School",
+    "kind": "amenity=school",
+    "lat": -14.37189,
+    "lon": 35.60223,
+    "d": 9.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chiponde",
+    "kind": "place=town",
+    "lat": -12.09006,
+    "lon": 34.74237,
+    "d": 279.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Mwanza / Zóbuè (Mozambique — corredor de Tete)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -15.6136,
+  "lon": 34.3856,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mwanza",
+   "kind": "boundary=administrative",
+   "lat": -15.6136,
+   "lon": 34.51466,
+   "d": 13.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mwanza",
+    "kind": "boundary=administrative",
+    "lat": -15.6136,
+    "lon": 34.51466,
+    "d": 13.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mwanza",
+    "kind": "place=town",
+    "lat": -15.60922,
+    "lon": 34.52342,
+    "d": 14.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mwanza",
+    "kind": "waterway=river",
+    "lat": -15.85885,
+    "lon": 34.44368,
+    "d": 28.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Muloza / Milange (Mozambique — Zambezia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -16.0833,
+  "lon": 35.75,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Muloza",
+   "kind": "landuse=commercial",
+   "lat": -16.07524,
+   "lon": 35.7261,
+   "d": 2.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Muloza",
+    "kind": "waterway=river",
+    "lat": -16.0466,
+    "lon": 35.79306,
+    "d": 6.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Muloza",
+    "kind": "waterway=stream",
+    "lat": -16.01826,
+    "lon": 35.54443,
+    "d": 23.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Muloza",
+    "kind": "landuse=commercial",
+    "lat": -16.07524,
+    "lon": 35.7261,
+    "d": 2.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Mchinji / Mwami (Zambia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -13.7667,
+  "lon": 32.7333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mchinji",
+   "kind": "place=town",
+   "lat": -13.79717,
+   "lon": 32.8875,
+   "d": 17.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mchinji",
+    "kind": "boundary=administrative",
+    "lat": -13.78289,
+    "lon": 33.02047,
+    "d": 31.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mchinji",
+    "kind": "place=town",
+    "lat": -13.79717,
+    "lon": 32.8875,
+    "d": 17.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mchinji",
+    "kind": "railway=yard",
+    "lat": -13.78521,
+    "lon": 32.89475,
+    "d": 17.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Frontera · Chitipa / Kameme (Zambia, extremo norte)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -9.7,
+  "lon": 33.27,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Chitipa",
+   "kind": "city in Malawi",
+   "lat": -9.70194,
+   "lon": 33.27,
+   "d": 0.2,
+   "match": true,
+   "id": "Q1074915"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chitipa",
+    "kind": "boundary=administrative",
+    "lat": -9.97285,
+    "lon": 33.41202,
+    "d": 34.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chitipa",
+    "kind": "place=town",
+    "lat": -9.70261,
+    "lon": 33.27482,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chitipa Inn",
+    "kind": "tourism=guest_house",
+    "lat": -9.69906,
+    "lon": 33.26065,
+    "d": 1.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "distrito de Chitipa",
+    "kind": "distrito de Malaui",
+    "lat": -9.7,
+    "lon": 33.275,
+    "d": 0.5,
+    "match": true,
+    "id": "Q1044337"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Consulado Honorario de España en Lilongwe",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -13.9626,
+  "lon": 33.7741,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Embajada de España en Harare (competente para Malaui)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -17.8292,
+  "lon": 31.0522,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hospital Kamuzu Central, Lilongwe",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -13.9553,
+  "lon": 33.7614,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kamuzu Central Hospital",
+   "kind": "highway=bus_stop",
+   "lat": -13.97649,
+   "lon": 33.77983,
+   "d": 3.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kamuzu Central Hospital",
+    "kind": "building=hospital",
+    "lat": -13.9764,
+    "lon": 33.78168,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kamuzu Central Hospital",
+    "kind": "highway=bus_stop",
+    "lat": -13.97649,
+    "lon": 33.77983,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kamuzu Central Hospital",
+    "kind": "building=hospital",
+    "lat": -13.97714,
+    "lon": 33.78455,
+    "d": 3.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Queen Elizabeth Central Hospital, Blantyre",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -15.7861,
+  "lon": 35.0058,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Queen Elizabeth Central Hospital",
+   "kind": "amenity=hospital",
+   "lat": -15.80308,
+   "lon": 35.02178,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Queen Elizabeth Central Hospital",
+    "kind": "amenity=hospital",
+    "lat": -15.80308,
+    "lon": 35.02178,
+    "d": 2.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Hospital de Mzuzu (norte)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -11.4581,
+  "lon": 34.015,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mzuzu Central Hospital",
+   "kind": "amenity=hospital",
+   "lat": -11.42947,
+   "lon": 33.99578,
+   "d": 3.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mzuzu Central Hospital",
+    "kind": "amenity=hospital",
+    "lat": -11.42947,
+    "lon": 33.99578,
+    "d": 3.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mzuzu Central Hospital",
+    "kind": "building=hospital",
+    "lat": -11.42814,
+    "lon": 33.99569,
+    "d": 3.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Karonga / Mzuzu / Rumphi (norte)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -11.4581,
+  "lon": 34.015,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Karonga",
+   "kind": "boundary=administrative",
+   "lat": -10.08475,
+   "lon": 33.86619,
+   "d": 153.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Karonga",
+    "kind": "boundary=administrative",
+    "lat": -10.08475,
+    "lon": 33.86619,
+    "d": 153.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karonga",
+    "kind": "place=town",
+    "lat": -9.93935,
+    "lon": 33.92714,
+    "d": 169.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karonga",
+    "kind": "place=village",
+    "lat": -16.52696,
+    "lon": 35.17483,
+    "d": 577.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Lilongwe",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -13.9833,
+  "lon": 33.7681,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lilongwe",
+   "kind": "place=city",
+   "lat": -13.98751,
+   "lon": 33.76814,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "place=city",
+    "lat": -13.98751,
+    "lon": 33.76814,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "boundary=administrative",
+    "lat": -14.04141,
+    "lon": 33.73537,
+    "d": 7.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "waterway=river",
+    "lat": -13.8919,
+    "lon": 34.06834,
+    "d": 34.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Blantyre / Zomba (sur)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -15.7861,
+  "lon": 35.0058,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Blantyre",
+   "kind": "place=city",
+   "lat": -15.78625,
+   "lon": 35.00357,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Blantyre",
+    "kind": "place=city",
+    "lat": -15.78625,
+    "lon": 35.00357,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Blantyre",
+    "kind": "boundary=administrative",
+    "lat": -15.68435,
+    "lon": 34.92278,
+    "d": 14.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Blantyre",
+    "kind": "railway=station",
+    "lat": -15.78796,
+    "lon": 35.01596,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Agua potable y de uso general · Lilongwe, Blantyre, Mzuzu",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -13.9833,
+  "lon": 33.7681,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lilongwe",
+   "kind": "place=city",
+   "lat": -13.98751,
+   "lon": 33.76814,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "place=city",
+    "lat": -13.98751,
+    "lon": 33.76814,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "boundary=administrative",
+    "lat": -14.04141,
+    "lon": 33.73537,
+    "d": 7.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lilongwe",
+    "kind": "waterway=river",
+    "lat": -13.8919,
+    "lon": 34.06834,
+    "d": 34.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Agua · campings del lago (Cabo Maclear, Nkhata Bay, Chintheche, Senga Bay)",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -14.0206,
+  "lon": 34.8306,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Nkhata Bay",
+   "kind": "place=town",
+   "lat": -11.60699,
+   "lon": 34.29839,
+   "d": 274.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nkhata Bay",
+    "kind": "boundary=administrative",
+    "lat": -11.60845,
+    "lon": 34.04157,
+    "d": 281.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nkhata Bay",
+    "kind": "place=town",
+    "lat": -11.60699,
+    "lon": 34.29839,
+    "d": 274.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nkhata Bay port",
+    "kind": "natural=bay",
+    "lat": -11.60656,
+    "lon": 34.30102,
+    "d": 274.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Distrito de Nkhata Bay",
+    "kind": "distrito de Malaui",
+    "lat": -11.5,
+    "lon": 34.0,
+    "d": 294.4,
+    "match": true,
+    "id": "Q1051505"
+   }
+  ]
+ }
+]

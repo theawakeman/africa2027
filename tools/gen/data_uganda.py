@@ -208,7 +208,7 @@ HISTORIA_FUENTES = [
 ]
 
 SPEC = dict(
-    slug="uganda", name="Uganda", revision="12 sep 2026",
+    slug="uganda", name="Uganda", revision="15 sep 2026",
     sub="ALTERNATIVA — no está en la ruta fija · desvío desde Kenia · gorilas de Bwindi · salida a Ruanda",
     chips=[
         ("ESTATUS", "ALTERNATIVA: solo si hay tiempo y si la eVisa sirve en frontera terrestre"),

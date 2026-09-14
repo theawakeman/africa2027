@@ -4,373 +4,1057 @@
     "name": "Karonga y el Centro Cultural y Museo",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en el museo",
     "time": "½–1 día",
-    "lat": -9.9333,
-    "lon": 33.9333,
-    "desc": "Primera ciudad al entrar desde Tanzania, a 478 m sobre la orilla noroeste del lago y a unos 45 km de la frontera de Songwe. Su Cultural & Museum Centre es la mejor parada cultural del norte: expone el MALAWISAURUS, dinosaurio saurópodo hallado en la zona, y la mandíbula de homínido de Malema (excavaciones del profesor Friedemann Schrenk, a 10 km de la ciudad), con una muestra titulada «From Dinosaurs to Democracy» que recorre toda la historia local. Karonga es además el sitio donde repostar y comprar antes de subir al escarpe. (Foto provisional: la costa del lago Malaui — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20malawi%20mozambico%20coast.jpg",
+    "lat": -9.941784,
+    "lon": 33.9225836,
+    "desc": "Museo de Karonga dedicado a los hallazgos paleontológicos y a la historia cultural del extremo norte de Malaui. Es una primera parada concreta tras la frontera de Songwe.",
+    "credit": "Michael Phoya · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Karonga_Museum,_Karonga,_northern_Malawi.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Karonga_Museum,_Karonga,_northern_Malawi.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Da contexto al paisaje y a la larga ocupación humana de la región antes de bajar por el lago.",
+      "see": "Fósiles, reconstrucciones y exposiciones de historia local; comprobar qué salas están abiertas.",
+      "access": "El pin coincide con Karonga Museum en Google Maps. Confirmar horario en la entrada y aparcar dentro del recinto.",
+      "when": "En horario diurno, combinado con combustible, efectivo y compras en Karonga.",
+      "skip": "No ir sin verificar apertura ni contar con acceso del perro al interior."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · Karonga y su museo",
+        "url": "https://visitmalawi.mw/karonga/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Karonga_Museum,_Karonga,_northern_Malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Karonga_Museum,_Karonga,_northern_Malawi.jpg",
+        "credit": "Michael Phoya · CC BY-SA 4.0",
+        "caption": "Edificio real del Karonga Museum."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Malawisaurus_04.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Malawisaurus_04.jpg",
+        "credit": "Alexander Leisser · CC BY-SA 4.0",
+        "caption": "Reconstrucción de Malawisaurus en el museo de Karonga."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Malawisaurus_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Malawisaurus_01.jpg",
+        "credit": "Alexander Leisser · CC BY-SA 4.0",
+        "caption": "Detalle de la exposición de Malawisaurus."
+      }
+    ]
   },
   {
     "n": 2,
     "name": "Livingstonia y la carretera de las curvas de herradura",
     "cat": "Cultura",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con museo y alojamiento",
     "time": "2 noches",
-    "lat": -10.6083,
-    "lon": 34.1167,
-    "desc": "LA PARADA MÍTICA DEL NORTE. La misión escocesa se fundó en 1894 tras dos intentos fallidos —Cabo Maclear (1875) y Bandawe— abandonados por la malaria: solo funcionó al subirla a la meseta, por encima de los mosquitos. Robert Laws la dirigió 52 años; se conserva la Stone House (su casa, hoy hotel con museo), la iglesia de vidrieras y el hospital David Gordon Memorial (1911). Pero lo que la hace imprescindible para este viaje es el ACCESO: la carretera S103/T305 sube desde Chitimba los ~15 km del escarpe en una sucesión de unas veinte curvas de herradura sin quitamiedos, con el lago abriéndose 900 m más abajo. Es el tramo 4x4 más famoso de Malaui. (Foto provisional: la meseta de Zomba, paisaje de altura equivalente — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zomba%20Plateau.jpg",
+    "lat": -10.6117056,
+    "lon": 34.1130061,
+    "desc": "Casa de piedra vinculada a la misión de Livingstonia, hoy museo sobre la comunidad, el asentamiento y su historia. El edificio es una visita distinta de la iglesia cercana.",
+    "credit": "Michael Phoya · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stone_House,_Livingstonia.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Stone_House,_Livingstonia.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite leer de forma tangible la historia misionera y educativa del altiplano.",
+      "see": "Stone House, objetos y documentación local; la iglesia y los miradores se visitan aparte.",
+      "access": "El pin coincide con Stone House Museum en Google Maps. Confirmar apertura, guía y estacionamiento local.",
+      "when": "Mañana fresca y con pista de subida comprobada.",
+      "skip": "No subir con lluvia fuerte o sin saber el estado de la carretera del escarpe."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · museos y Stone House",
+        "url": "https://visitmalawi.mw/museums-and-monuments/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stone_House,_Livingstonia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Stone_House,_Livingstonia.jpg",
+        "credit": "Michael Phoya · CC BY-SA 3.0",
+        "caption": "Stone House Museum en Livingstonia."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Livingstonia_Mission_Church,_Malawi_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Livingstonia_Mission_Church,_Malawi_01.jpg",
+        "credit": "Paul Shaffner · CC BY 2.0",
+        "caption": "Iglesia de la misión de Livingstonia, visita separada de Stone House."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Livingstonia_Mission_Church,_Malawi_02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Livingstonia_Mission_Church,_Malawi_02.jpg",
+        "credit": "Mara 1 · CC BY 2.0",
+        "caption": "Otra vista del conjunto misionero de Livingstonia."
+      }
+    ]
   },
   {
     "n": 3,
     "name": "Cataratas de Manchewe",
     "cat": "Naturaleza",
     "prio": "Media",
-    "dog": "permitido con correa",
+    "dog": "confirmar con guía local",
     "time": "½ día",
-    "lat": -10.6167,
-    "lon": 34.1333,
-    "desc": "Justo antes de llegar a Livingstonia, el río se despeña por el escarpe en una caída larga y estrecha sobre la garganta, con la llanura del lago al fondo. Hay sendero hasta el mirador y una bajada corta y resbaladiza hasta una cueva detrás de la cortina de agua, que la tradición local vincula a los escondites usados durante la trata de esclavos (relato local, no dato documentado). Sin vallas en los bordes: correa corta con el perro. Coordenada aproximada, verificar sobre el terreno. (Foto provisional: la meseta de Zomba — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zomba%20Plateau.jpg",
+    "lat": -10.5862618,
+    "lon": 34.1201458,
+    "desc": "Manchewe Falls cae desde el escarpe junto a Livingstonia y se alcanza mediante un sendero local. El terreno húmedo y los bordes exigen guía y prudencia.",
+    "credit": "Society of Malawi · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Manchewe_Falls,_Livingstonia._1998.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Manchewe_Falls,_Livingstonia._1998.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Combina una cascada alta, bosque y vistas del lago en una excursión corta.",
+      "see": "Salto, garganta y miradores naturales; el caudal cambia con la estación.",
+      "access": "El pin coincide con Manchewe Falls en Google Maps. Contratar guía local y acordar aparcamiento antes de caminar.",
+      "when": "Por la mañana y con suelo razonablemente seco.",
+      "skip": "No acercarse al borde con niebla o lluvia ni seguir atajos no autorizados."
+    },
+    "links": [
+      {
+        "label": "Malawi Tourism · Livingstonia y Manchewe",
+        "url": "https://www.malawitourism.com/regions/north-malawi/livingstonia-mission/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Manchewe_Falls,_Livingstonia._1998.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Manchewe_Falls,_Livingstonia._1998.jpg",
+        "credit": "Society of Malawi · CC BY 3.0",
+        "caption": "Manchewe Falls junto a Livingstonia en una imagen de 1998."
+      }
+    ]
   },
   {
     "n": 4,
-    "name": "Meseta de Nyika · Parque Nacional de Nyika",
+    "name": "Nyika National Park · Chelinda",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "3–4 días",
-    "lat": -10.5667,
-    "lon": 33.8,
-    "desc": "EL PARQUE MÁS GRANDE DEL PAÍS (3.200 km², creado en 1966 y ampliado en 1978) y el paisaje más inesperado de África oriental: praderas de altura ondulando entre 2.000 y 2.600 m, sin árboles, con antílopes (desde duikers hasta elands), cebras, más de 400 especies de aves —incluida la avutarda de Denham— y una de las densidades de leopardo más altas de África central. Más de 200 especies de orquídeas florecen con las lluvias. El propio nombre significa «de donde viene el agua». La meseta hace de frontera con Zambia. Se accede por una única pista de tierra que sube el escarpe suroeste desde el eje Rumphi-Katumbi hasta Chelinda, el campamento central, recientemente rehabilitado. Se recorre en 4x4, a pie y —cosa rarísima en un parque africano— también en bicicleta de montaña. (Foto provisional: la meseta de Zomba, otra pradera de altura malauí — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zomba%20Plateau.jpg",
+    "lat": -10.5880293,
+    "lon": 33.8115589,
+    "desc": "Meseta de pastizales y manchas de bosque montano, con Chelinda como base de acceso a Nyika. La lejanía, el frío nocturno y las pistas requieren planificación real.",
+    "credit": "Thomas Wagner · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyika_typical.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nyika_typical.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es uno de los paisajes de altura más singulares del África austral y muy diferente del lago.",
+      "see": "Colinas onduladas, pastizales, orquídeas en temporada y fauna dispersa sin garantía.",
+      "access": "El pin coincide con Chelinda Camp en Google Maps. Confirmar reserva, puerta, combustible y estado de la pista.",
+      "when": "Dos o tres noches y ropa de abrigo; la estación seca facilita el acceso.",
+      "skip": "No entrar con perro, sin autonomía o cuando la gestión no confirma que la pista es practicable."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · región norte y Nyika",
+        "url": "https://visitmalawi.mw/northern-region/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyika_typical.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyika_typical.jpg",
+        "credit": "Thomas Wagner · CC BY-SA 3.0",
+        "caption": "Pastizales ondulados característicos de Nyika Plateau."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Altopiano_nyika-malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Altopiano_nyika-malawi.jpg",
+        "credit": "Ludger Heide · CC BY-SA 2.0",
+        "caption": "Paisaje abierto de la meseta de Nyika."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyika_grassland.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nyika_grassland.jpg",
+        "credit": "Thomas Wagner · CC BY-SA 3.0",
+        "caption": "Pastizal de altura dentro de Nyika National Park."
+      }
+    ]
   },
   {
     "n": 5,
-    "name": "Mzuzu",
+    "name": "Mzuzu · base logística del norte",
     "cat": "Ciudad · servicios",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento",
     "time": "1 noche",
-    "lat": -11.4581,
-    "lon": 34.015,
-    "desc": "Capital del Norte y tercera ciudad del país (221.000 hab.), encajada en un paso de los montes Viphya sobre la M1. Es la plaza logística de todo el bloque norte: bancos, supermercados, talleres, hospital y combustible antes de meterse en Nyika, en Livingstonia o en la costa. De aquí arranca la M5 hacia Nkhata Bay, cruzando el mayor bosque plantado de África (Viphya/Chikangawa), un tramo de pinos y niebla que no parece África. (Foto provisional: Lilongüe — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe%2C%20Malawi.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lilongwe%2C%20Malawi.JPG",
+    "lat": -12.0115721,
+    "lon": 33.8644002,
+    "desc": "Mzuzu es la base de servicios del norte para combustible, talleres, compras y atención sanitaria. El pin se ancla en Mzuzu Central Hospital para evitar un punto urbano genérico.",
+    "credit": "Malawiana · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/MzuzuMalawi.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:MzuzuMalawi.JPG",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite resolver logística antes de Nyika, Nkhata Bay o el corredor central.",
+      "see": "Mercados y ciudad solo como complemento; el valor principal es operativo.",
+      "access": "El pin coincide con Mzuzu Central Hospital en Google Maps. Separar el estacionamiento de gestiones del acceso de urgencias.",
+      "when": "Día laborable y con lista de compras y reparaciones agrupada.",
+      "skip": "No prolongar la estancia urbana ni circular de noche sin necesidad."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · región norte y Mzuzu",
+        "url": "https://visitmalawi.mw/northern-region/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/MzuzuMalawi.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:MzuzuMalawi.JPG",
+        "credit": "Malawiana · dominio público",
+        "caption": "Vista urbana de Mzuzu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mzuzu,_Malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mzuzu,_Malawi.jpg",
+        "credit": "Le Grand Portage · CC BY 2.0",
+        "caption": "Calle y actividad diaria en Mzuzu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mzuzu_Market_5.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mzuzu_Market_5.jpg",
+        "credit": "Mike W · CC BY-SA 2.0",
+        "caption": "Mercado de Mzuzu, referencia de la escala de servicios."
+      }
+    ]
   },
   {
     "n": 6,
     "name": "Nkhata Bay",
     "cat": "Costa",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento y ferry",
     "time": "2–3 noches",
-    "lat": -11.6,
-    "lon": 34.3,
-    "desc": "El puerto principal de la orilla norte y el gran clásico del circuito overland de África oriental: una ensenada tropical de agua transparente entre cerros boscosos, con casas colgadas sobre la roca. Escala fija del vapor MV Ilala. Su escuela de buceo llegó a ser citada por The Daily Telegraph como el curso de submarinismo más barato del mundo: aquí se bucea en agua dulce entre cardúmenes de cíclidos mbuna de colores. Alojamientos junto al agua muy tolerantes con el perro. (Foto provisional: la costa del lago Malaui — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20malawi%20mozambico%20coast.jpg",
+    "lat": -11.6069181,
+    "lon": 34.3012235,
+    "desc": "Bahía portuaria rodeada de laderas verdes, principal base del lago en el norte. El pin marca el embarcadero de Nkhata Bay, referencia real para entender transportes y costa.",
+    "credit": "Avi Alpert · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nkhata_Bay_Lake_Malawi.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nkhata_Bay_Lake_Malawi.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece vida portuaria, descanso y conexión con Likoma sin inventar una playa genérica.",
+      "see": "Embarcadero, bahía y actividad local; horarios de barcos y servicios cambian.",
+      "access": "El pin coincide con Nkhata Bay Jetty en Google Maps. Confirmar billetes, carga, estacionamiento y alojamiento por separado.",
+      "when": "Una o dos noches con margen respecto al transporte lacustre.",
+      "skip": "No dejar el vehículo o al perro sin custodia ni confiar en horarios antiguos del ferry."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · región norte y Nkhata Bay",
+        "url": "https://visitmalawi.mw/northern-region/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nkhata_Bay_Lake_Malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nkhata_Bay_Lake_Malawi.jpg",
+        "credit": "Avi Alpert · CC BY-SA 2.0",
+        "caption": "Bahía y relieve costero de Nkhata Bay."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nkhata_Bay,_Malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nkhata_Bay,_Malawi.jpg",
+        "credit": "JackyR · CC BY-SA 3.0",
+        "caption": "Frente de agua real de Nkhata Bay."
+      }
+    ]
   },
   {
     "n": 7,
-    "name": "Chintheche y la costa de Bandawe",
+    "name": "Bandawe Mission y costa de Chintheche",
     "cat": "Costa",
     "prio": "Alta",
-    "dog": "permitido",
+    "dog": "confirmar con custodios locales",
     "time": "1–2 noches",
-    "lat": -11.85,
-    "lon": 34.1667,
-    "desc": "El mejor tramo de playa abierta del lago: 40 km de arena blanca, baobabs y agua poco profunda entre Nkhata Bay y Dwangwa, con los campamentos que usan todos los camiones de expedición. Aquí estuvo la segunda misión escocesa, Bandawe, abandonada como la primera por la malaria; queda el cementerio misionero junto a la playa, con lápidas de gente que murió a los veintipocos años. Es el sitio del país donde el perro está más cómodo: playa abierta, sombra y campings con parcela. (Foto provisional: la costa del lago Malaui — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20malawi%20mozambico%20coast.jpg",
+    "lat": -11.9211028,
+    "lon": 34.171823,
+    "desc": "Antigua misión de Bandawe junto a Chintheche, con iglesia, cementerio y memoria del traslado de Livingstonia. Es una visita histórica breve en la costa norte.",
+    "credit": "Autor desconocido · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Old_Mission_Station,_Bandawe,_Livingstonia%22,_Malawi,_ca.1910_(imp-cswc-GB-237-CSWC47-LS4-1-003).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:%22Old_Mission_Station,_Bandawe,_Livingstonia%22,_Malawi,_ca.1910_(imp-cswc-GB-237-CSWC47-LS4-1-003).jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Explica la primera implantación misionera junto al lago y las razones de su traslado.",
+      "see": "Iglesia, tumbas y entorno costero con interpretación local.",
+      "access": "El pin coincide con Old Bandawe Mission en Google Maps. Pedir permiso y guía antes de recorrer el recinto.",
+      "when": "De día, combinado con la etapa Nkhata Bay–Nkhotakota.",
+      "skip": "No entrar durante ceremonias ni fotografiar personas o tumbas sin consentimiento."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · Bandawe Mission",
+        "url": "https://visitmalawi.mw/northern-region/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Old_Mission_Station,_Bandawe,_Livingstonia%22,_Malawi,_ca.1910_(imp-cswc-GB-237-CSWC47-LS4-1-003).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:%22Old_Mission_Station,_Bandawe,_Livingstonia%22,_Malawi,_ca.1910_(imp-cswc-GB-237-CSWC47-LS4-1-003).jpg",
+        "credit": "Autor desconocido · dominio público",
+        "caption": "Documento histórico de la antigua misión de Bandawe hacia 1910."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bandawe_Shore,_Malawi,_(s.d.)_(imp-cswc-GB-237-CSWC47-LS5-1-023).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bandawe_Shore,_Malawi,_(s.d.)_(imp-cswc-GB-237-CSWC47-LS5-1-023).jpg",
+        "credit": "Autor desconocido · dominio público",
+        "caption": "Documento histórico de la costa de Bandawe."
+      }
+    ]
   },
   {
     "n": 8,
     "name": "Likoma y la catedral de San Pedro",
     "cat": "Cultura",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con iglesia y transporte",
     "time": "2–3 días (sin vehículo)",
-    "lat": -12.0667,
-    "lon": 34.7333,
-    "desc": "UNA RAREZA GEOPOLÍTICA Y ARQUITECTÓNICA. Likoma (18 km², unos 10.000 habitantes) y la vecina Chizumulu son EXCLAVES DE MALAUI ENTERAMENTE RODEADOS DE AGUAS TERRITORIALES MOZAMBIQUEÑAS, a 7 km de Cobué (Mozambique). En el pueblo de Mbamba se levanta la catedral anglicana de San Pedro, una de las iglesias más grandes de África —construida a escala de catedral inglesa en una isla sin carreteras, por la Universities' Mission to Central Africa—, con sillería de coro y vidrieras. Se llega en el MV Ilala (escala semanal) o en avioneta; el vehículo se queda en tierra, así que es una escapada de mochila de dos o tres días. (Foto provisional: el lago Malaui desde la costa mozambiqueña, las aguas que rodean Likoma — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20malawi%20mozambico%20coast.jpg",
+    "lat": -12.0642185,
+    "lon": 34.7381655,
+    "desc": "Catedral anglicana de gran escala construida en Likoma, isla malauí rodeada por aguas mozambiqueñas. Llegar exige coordinar barco o vuelo y alojamiento.",
+    "credit": "TravelingOtter · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Likoma_Island_Cathedral_-_Malawi.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Likoma_Island_Cathedral_-_Malawi.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el edificio religioso más singular del lago y justifica la compleja desviación a Likoma.",
+      "see": "Nave, vidrieras, piedra y vida insular; respetar los oficios.",
+      "access": "El pin coincide con St Peter’s Cathedral en Google Maps. Confirmar transporte, equipaje, alojamiento y custodia del vehículo continental.",
+      "when": "Con al menos dos noches y margen por cambios de navegación o vuelo.",
+      "skip": "No ir con calendario ajustado ni asumir que el perro o el coche pueden viajar en cualquier servicio."
+    },
+    "links": [
+      {
+        "label": "Malawi Tourism · Likoma Island",
+        "url": "https://www.malawitourism.com/regions/north-malawi/likoma-island/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Likoma_Island_Cathedral_-_Malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Likoma_Island_Cathedral_-_Malawi.jpg",
+        "credit": "TravelingOtter · CC BY-SA 2.0",
+        "caption": "Fachada de St Peter's Cathedral en Likoma."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Peters_Cathedral_Likoma_Island_2026.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Peters_Cathedral_Likoma_Island_2026.jpg",
+        "credit": "GJU Malawi · CC BY 4.0",
+        "caption": "Catedral de Likoma fotografiada en 2026."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/St_peters_church_likoma_island_malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:St_peters_church_likoma_island_malawi.jpg",
+        "credit": "Moongateclimber · CC BY-SA 3.0",
+        "caption": "Interior y escala de St Peter's Cathedral."
+      }
+    ]
   },
   {
     "n": 9,
-    "name": "Reserva de Nkhotakota (African Parks)",
+    "name": "Nkhotakota Wildlife Reserve",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en la reserva",
     "time": "2 días",
-    "lat": -12.9167,
-    "lon": 34.0,
-    "desc": "La reserva más antigua y más grande del país (1.800 km²), desde el escarpe a 1.638 m hasta la orilla del lago, con miombo, dambos, bosque de galería y gargantas de río. Fue el escenario de UNA DE LAS MAYORES TRASLOCACIONES DE ELEFANTES DE LA HISTORIA: entre 2016 y 2017 African Parks movió unos 500 elefantes desde Liwonde y Majete hasta aquí, después de que la población hubiera caído de 1.500 a menos de 100 por la caza furtiva. Hoy tiene más de 280 especies de aves y han reaparecido el antílope ruano y el ratel. Se visita desde el río Bua; alojamientos Tongole Wilderness y Bua River Lodge. (Foto provisional: elefantes en Liwonde, el parque de origen de los 500 trasladados aquí — pendiente de sustituir por una de este punto.)",
-    "credit": "Brian Dell · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20in%20Liwonde%20National%20Park.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Elephants%20in%20Liwonde%20National%20Park.JPG",
+    "lat": -12.8502645,
+    "lon": 34.1711193,
+    "desc": "Gran reserva de miombo restaurada por African Parks, con ríos, senderos y fauna reintroducida. La ficha se ancla en la puerta principal, no en el centro del área protegida.",
+    "credit": "Geoff Gallice · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_ggallice_-_Nkhotakota_Game_Reserve.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Nkhotakota_Game_Reserve.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite conocer una recuperación ecológica importante con menos tráfico que los parques del sur.",
+      "see": "Bosque de miombo, ríos, aves y mamíferos si aparecen; la densidad varía por sector.",
+      "access": "El pin coincide con Nkhotakota Main Gate en Google Maps. Confirmar actividades, alojamiento y estado de pista con African Parks.",
+      "when": "Dos noches y salidas guiadas de primera o última hora.",
+      "skip": "No entrar con mascota, sin reserva, combustible o instrucciones claras de salida."
+    },
+    "links": [
+      {
+        "label": "African Parks · Nkhotakota",
+        "url": "https://www.africanparks.org/the-parks/nkhotakota"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_ggallice_-_Nkhotakota_Game_Reserve.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Nkhotakota_Game_Reserve.jpg",
+        "credit": "Geoff Gallice · CC BY 2.0",
+        "caption": "Paisaje de miombo en Nkhotakota Wildlife Reserve."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nkhotakota_Wildlife_Reserve,_Malawi_(2498415131).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nkhotakota_Wildlife_Reserve,_Malawi_(2498415131).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Pista y vegetación dentro de la reserva de Nkhotakota."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nkhotakota_Wildlife_Reserve,_Malawi_(2499242426).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nkhotakota_Wildlife_Reserve,_Malawi_(2499242426).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Río y bosque en Nkhotakota Wildlife Reserve."
+      }
+    ]
   },
   {
     "n": 10,
-    "name": "Nkhotakota, la capital histórica de la trata",
+    "name": "Nkhotakota histórico · Livingstone Tree",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con custodios locales",
     "time": "½ día",
-    "lat": -12.9167,
-    "lon": 34.3,
-    "desc": "Uno de los asentamientos más antiguos y peculiares del lago: fue el cuartel general del jefe esclavista suajili Jumbe, punto de embarque de miles de personas esclavizadas que cruzaban el lago hacia Kilwa, y por eso mismo el lugar donde David Livingstone intentó en 1863 convencer al Jumbe de que abandonara la trata, bajo una higuera que aún se señala junto a la misión anglicana. Es la parada histórica que explica por qué existe todo lo demás: las misiones, Livingstonia, el protectorado. (Foto provisional: la costa del lago Malaui — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20malawi%20mozambico%20coast.jpg",
+    "lat": -12.9314917,
+    "lon": 34.298025,
+    "desc": "Monumento bajo un gran árbol asociado al encuentro de David Livingstone con Jumbe en Nkhotakota. Es una parada histórica breve cuyo relato debe leerse de forma crítica.",
+    "credit": "JackyR · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nkhotakota,_Malawi1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nkhotakota,_Malawi1.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Introduce las redes comerciales, el poder local y la presencia europea del siglo XIX.",
+      "see": "Árbol y placa conmemorativa; la interpretación disponible puede ser limitada.",
+      "access": "El pin coincide con Livingstone Tree en Google Maps, no con el objeto similar situado unos cientos de metros al norte.",
+      "when": "De día, dentro de una parada logística en Nkhotakota.",
+      "skip": "No convertir una tradición conmemorativa en prueba exacta sin explicar sus límites."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · museos y monumentos",
+        "url": "https://visitmalawi.mw/museums-and-monuments/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nkhotakota,_Malawi1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nkhotakota,_Malawi1.jpg",
+        "credit": "JackyR · CC BY-SA 3.0",
+        "caption": "Livingstone Tree y su monumento en Nkhotakota."
+      }
+    ]
   },
   {
     "n": 11,
     "name": "Senga Bay y Salima",
     "cat": "Costa",
     "prio": "Media",
-    "dog": "permitido",
+    "dog": "confirmar con alojamiento",
     "time": "1–2 noches",
-    "lat": -13.7667,
-    "lon": 34.6167,
-    "desc": "La playa del lago más cercana a la capital (~105 km de Lilongüe), y por eso la más fácil de encajar aunque se recorte el viaje: arena, granito, pescadores y las islas Marelli/Nankoma a un paseo en barca, con águilas pescadoras y cormoranes. Escala del MV Ilala. Buena oferta de campings con parcela para vehículo y perro. Punto natural para descansar antes o después del bloque de la capital. (Foto provisional: la costa del lago Malaui — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20malawi%20mozambico%20coast.jpg",
+    "lat": -13.7519505,
+    "lon": 34.6165033,
+    "desc": "Bahía de arena junto al lago Malaui y base de descanso cerca de Salima. El pin coincide con Senga Bay y no con una playa genérica de otra parte del lago.",
+    "credit": "Corenetic · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Senga_Bay_Fischerdorf.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Senga_Bay_Fischerdorf.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece una pausa sencilla junto al agua en el corredor central.",
+      "see": "Playa, barcas de pesca y amanecer; las condiciones del agua cambian.",
+      "access": "El pin coincide con Senga Bay en Google Maps. Elegir alojamiento con estacionamiento y admisión del perro confirmados.",
+      "when": "Una noche, evitando baño o navegación con oleaje y tormenta.",
+      "skip": "No beber agua del lago ni asumir que todas las playas son públicas o seguras para nadar."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · región central y Senga Bay",
+        "url": "https://visitmalawi.mw/central-region/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Senga_Bay_Fischerdorf.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Senga_Bay_Fischerdorf.jpg",
+        "credit": "Corenetic · CC BY-SA 4.0",
+        "caption": "Aldea de pescadores en Senga Bay."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Senga_Bay_Strand.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Senga_Bay_Strand.JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Playa real de Senga Bay."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Senga_Bay_sunrise.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Senga_Bay_sunrise.JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Amanecer sobre el lago en Senga Bay."
+      }
+    ]
   },
   {
     "n": 12,
     "name": "Parque Nacional de Kasungu",
     "cat": "Naturaleza",
     "prio": "Media",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "1–2 días",
-    "lat": -13.0333,
-    "lon": 33.1667,
-    "desc": "Segundo parque del país (2.316 km², creado en 1970), a ~175 km al norte de Lilongüe y pegado a la frontera zambiana, a unos 1.000 m: miombo abierto, dambos herbáceos y los ríos Dwangwa y Lingadzi con hipopótamos. Tiene elefantes (en julio de 2022 el IFAW trasladó aquí 263 más, una operación que generó un conflicto real con las comunidades vecinas por muertes y daños en cultivos, con demandas de compensación en curso), antílopes sable, kudús, cebras, búfalos, hienas, licaones y servales; es Unidad de Conservación del León desde 2005. Suele cerrar en marzo por las lluvias; mejor de junio a septiembre. Es un parque poco visitado, barato y sin multitudes. (Foto provisional: elefantes en Liwonde — pendiente de sustituir por una de este punto.)",
-    "credit": "Brian Dell · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20in%20Liwonde%20National%20Park.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Elephants%20in%20Liwonde%20National%20Park.JPG",
+    "lat": -12.9092303,
+    "lon": 33.1688883,
+    "desc": "Parque nacional de miombo y llanuras en torno al lago Lifupa, alejado de los grandes circuitos. La infraestructura y la presencia de fauna deben confirmarse antes de desviarse.",
+    "credit": "Thomas Wagner · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasungu_lifupa2.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kasungu_lifupa2.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Aporta un safari tranquilo y paisaje de bosque abierto en el centro del país.",
+      "see": "Lago Lifupa, miombo, aves y mamíferos dispersos; ningún avistamiento está garantizado.",
+      "access": "El pin coincide con Kasungu National Park en Google Maps, cerca de Lifupa. Confirmar puerta, alojamiento, guía y pistas.",
+      "when": "Con dos noches y durante una fase relativamente seca.",
+      "skip": "No entrar con perro, sin comunicación previa o si el estado de acceso no está claro."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · región central y Kasungu",
+        "url": "https://visitmalawi.mw/central-region/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasungu_lifupa2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kasungu_lifupa2.jpg",
+        "credit": "Thomas Wagner · CC BY-SA 3.0",
+        "caption": "Lago Lifupa dentro de Kasungu National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yawning_Hippo_in_Kasungu_National_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Yawning_Hippo_in_Kasungu_National_Park.jpg",
+        "credit": "Salix Oculus · CC BY-SA 4.0",
+        "caption": "Hipopótamo fotografiado en Kasungu; el avistamiento no se garantiza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasungu_miombo1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kasungu_miombo1.jpg",
+        "credit": "Thomas Wagner · CC BY-SA 3.0",
+        "caption": "Bosque de miombo característico de Kasungu."
+      }
+    ]
   },
   {
     "n": 13,
-    "name": "Lilongüe",
+    "name": "Lilongüe · Wildlife Centre y base logística",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en el centro",
     "time": "1–2 noches",
-    "lat": -13.9833,
-    "lon": 33.7681,
-    "desc": "Capital política desde 1975 (casi un millón de habitantes, a 1.050 m), dividida en Old Town —mercados, transporte, la vida real— y City Centre —ministerios, embajadas, hoteles—. Es la mejor plaza logística del país junto con Blantyre: talleres, recambios, neumáticos, supermercados grandes, bancos, y el Kamuzu Central Hospital como referencia sanitaria. Aquí se tramitan los permisos (perro, dron) y aquí está el Lilongwe Wildlife Centre, único santuario de fauna rescatada del país. A 110 km de la frontera zambiana de Mchinji.",
-    "credit": "NASA Astronauts · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe%2C%20Malawi.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lilongwe%2C%20Malawi.JPG",
+    "lat": -13.9720199,
+    "lon": 33.7835383,
+    "desc": "Bosque urbano protegido con senderos, pasarela, observatorio de aves y educación ambiental dentro de Lilongüe. El santuario de animales rescatados no está abierto a visitas: no es un zoológico.",
+    "credit": "Nesnad · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe_Wildlife_Centre_-_entrance_-_Jan_2018.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lilongwe_Wildlife_Centre_-_entrance_-_Jan_2018.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite caminar por el último gran espacio verde del centro y apoyar el trabajo de conservación.",
+      "see": "Senderos forestales, río, aves y monos salvajes; los recintos de rehabilitación no forman parte de la visita.",
+      "access": "El pin coincide con Lilongwe Wildlife Centre en Google Maps. La guía oficial prohíbe perros y detalla las normas del recinto.",
+      "when": "En horario diurno, combinado con talleres, compras y gestiones en la capital.",
+      "skip": "No entrar con mascota ni esperar contacto o una visita guiada a los animales rescatados."
+    },
+    "links": [
+      {
+        "label": "Lilongwe Wildlife Centre · guía oficial de visita",
+        "url": "https://lilongwewildlife.org/wp-content/uploads/2024/04/LWC-Visitor-Guide-1.pdf"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe_Wildlife_Centre_-_entrance_-_Jan_2018.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lilongwe_Wildlife_Centre_-_entrance_-_Jan_2018.jpg",
+        "credit": "Nesnad · CC BY 3.0",
+        "caption": "Entrada del Lilongwe Wildlife Centre."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe_Wildlife_Centre_-_inside_-_Jan_2018.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lilongwe_Wildlife_Centre_-_inside_-_Jan_2018.jpg",
+        "credit": "Nesnad · CC BY 3.0",
+        "caption": "Sendero dentro del Lilongwe Wildlife Centre."
+      }
+    ]
   },
   {
     "n": 14,
-    "name": "Arte rupestre de Chongoni (UNESCO) y Dedza",
+    "name": "Chongoni · arte rupestre en Chentcherere",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "permitido con correa",
+    "dog": "prohibido en el sitio protegido",
     "time": "1 día",
-    "lat": -14.2933,
-    "lon": 34.2792,
-    "desc": "PATRIMONIO MUNDIAL DESDE 2006 Y EL CONJUNTO DE ARTE RUPESTRE MÁS DENSO DE ÁFRICA CENTRAL: 127 yacimientos en 126,4 km² de colinas graníticas boscosas, a unos 80 km al sureste de Lilongüe. Dos tradiciones superpuestas: los cazadores-recolectores BaTwa, que pintaron en rojo, y los agricultores chewa, que pintaron en blanco, en un arte ligado a los ritos de iniciación femenina, a las ceremonias de lluvia y a los funerales, y todavía vivo en la sociedad secreta NYAU y sus máscaras gule wamkulu. Tres conjuntos están abiertos al público: Chentcherere (seis abrigos), Namzeze (geométricos rojos y pinturas blancas) y Mphunzi (figuras de animales). La base es Dedza (1.590 m, la ciudad más alta de Malaui, a 85 km de la capital por la M1), con su alfarería y su montaña de 2.198 m. (Foto provisional: la meseta de Zomba — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zomba%20Plateau.jpg",
+    "lat": -14.3173823,
+    "lon": 34.2698215,
+    "desc": "Abrigos rocosos de Chentcherere dentro del área UNESCO de Chongoni, con pinturas de tradiciones cazadoras y agrícolas. La lectura correcta requiere guía y respeto absoluto de los paneles.",
+    "credit": "Malawi · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongoni_rock_art.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Chongoni_rock_art.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el conjunto de arte rupestre más importante de Malaui y conserva tradiciones de larga duración.",
+      "see": "Paneles pintados, abrigos y paisaje granítico; la visibilidad depende de luz y conservación.",
+      "access": "El pin coincide con Chentcherere Rock Art en Google Maps. Acordar guía local y estado de la pista.",
+      "when": "Con luz oblicua, tiempo seco y varias horas sin prisa.",
+      "skip": "No tocar, mojar, calcar ni usar flash sobre las pinturas; no entrar con mascota."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Chongoni Rock-Art Area",
+        "url": "https://whc.unesco.org/en/list/476/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongoni_rock_art.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chongoni_rock_art.jpg",
+        "credit": "Malawi · dominio público",
+        "caption": "Panel de arte rupestre de Chongoni."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongoni_Rock-Art_Area-110132.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chongoni_Rock-Art_Area-110132.jpg",
+        "credit": "Lazare Eloundou Assomo · CC BY-SA 3.0 IGO",
+        "caption": "Abrigo y pinturas del área UNESCO de Chongoni."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chongoni_Rock-Art_Area-110134.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chongoni_Rock-Art_Area-110134.jpg",
+        "credit": "Lazare Eloundou Assomo · CC BY-SA 3.0 IGO",
+        "caption": "Detalle documentado de otro panel de Chongoni."
+      }
+    ]
   },
   {
     "n": 15,
-    "name": "Mua · Centro Kungoni de Cultura y Arte",
+    "name": "Mua · Kungoni Centre",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con el centro",
     "time": "½ día",
-    "lat": -14.2167,
-    "lon": 34.5333,
-    "desc": "Misión católica en el escarpe entre Dedza y el lago que alberga el Chamare Museum, la mejor colección etnográfica del país: tres salas dedicadas a chewa, ngoni y yao, con centenares de máscaras GULE WAMKULU (la danza de los espíritus, Patrimonio Inmaterial de la UNESCO) explicadas una a una, más un taller de talla en madera. Es la pieza que da sentido al arte rupestre de Chongoni y a la sociedad Nyau. Coordenada aproximada: verificar. (Foto provisional: Lilongüe — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe%2C%20Malawi.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lilongwe%2C%20Malawi.JPG",
+    "lat": -14.2813689,
+    "lon": 34.5094255,
+    "desc": "Kungoni Centre, en Mua Mission, reúne museo, tallas y conocimiento sobre culturas de Malaui. Es una visita cultural viva y no solo una tienda de artesanía.",
+    "credit": "Snickers-rocks · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Museum_rand.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Museum_rand.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece contexto profundo sobre máscaras, rituales, lengua y cambios sociales.",
+      "see": "Chamare Museum, talleres de talla y edificios de la misión según disponibilidad.",
+      "access": "El pin coincide con Kungoni Centre en Google Maps. Reservar museo o guía y confirmar la pista final.",
+      "when": "Con media jornada y preferiblemente cita previa.",
+      "skip": "No fotografiar ceremonias, objetos sensibles o personas sin autorización expresa."
+    },
+    "links": [
+      {
+        "label": "Kungoni Centre · museo y talleres de Mua",
+        "url": "http://www.kungoni.org/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Museum_rand.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Museum_rand.jpg",
+        "credit": "Snickers-rocks · CC BY-SA 3.0",
+        "caption": "Museo Chamare dentro del Kungoni Centre."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Carving_center_rand.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Carving_center_rand.jpg",
+        "credit": "Snickers-rocks · CC BY-SA 3.0",
+        "caption": "Taller de talla del Kungoni Centre en Mua."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavillions_bearbeitet_rand.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pavillions_bearbeitet_rand.jpg",
+        "credit": "Snickers-rocks · CC BY-SA 3.0",
+        "caption": "Pabellones del conjunto cultural de Kungoni."
+      }
+    ]
   },
   {
     "n": 16,
-    "name": "Cabo Maclear y el Parque Nacional del Lago Malaui (UNESCO)",
+    "name": "Cabo Maclear · Lake Malawi National Park",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en el parque",
     "time": "3–4 noches",
-    "lat": -14.0206,
-    "lon": 34.8306,
-    "desc": "EL CORAZÓN DEL PAÍS Y EL MOTIVO POR EL QUE SE VIENE. Patrimonio Mundial desde 1984 y primer parque nacional de agua dulce del mundo creado para proteger peces: 94 km² en el extremo sur del lago, con 13 islas (Mumbo, Domwe, Thumbi West y East, Otter, Zimbabwe…) y unas 700 especies de CÍCLIDOS, casi todas endémicas, muchas aún sin describir y algunas limitadas a una sola roca. Es un caso de radiación adaptativa comparado con los pinzones de Darwin, y hace del lago Malaui el lago con MÁS ESPECIES DE PECES DEL MUNDO. Chembe, en Cabo Maclear, es el mayor pueblo de pescadores dentro del parque y la base de todo: kayak a Domwe y Mumbo, snorkel en Otter Point sobre bancos de mbuna naranjas y azules, barcas al atardecer con águilas pescadoras. OJO: el baño en el lago implica riesgo real de bilharzia (ver la sección de salud).",
+    "lat": -14.0647224,
+    "lon": 34.8844867,
+    "desc": "Cabo Maclear es la base continental del Lake Malawi National Park, Patrimonio Mundial por su diversidad de peces y paisaje lacustre. El pin corresponde al objeto real del parque junto al pueblo.",
     "dog_note": "Chembe es un pueblo habitado dentro del parque y sus campings y lodges de playa aceptan perro sin problema: es una de las mejores bases caninas del viaje. Lo que NO se puede es entrar con él en las zonas de parque propiamente dichas ni subirlo a las excursiones en barca a las islas. Y no dejarle beber ni bañarse sin haber consultado antes lo de la bilharzia con el veterinario.",
     "credit": "Hans Hillewaert · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter%20Point%2C%20Cape%20Maclear%20(Malawi).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Otter%20Point%2C%20Cape%20Maclear%20(Malawi).jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter_Point,_Cape_Maclear_(Malawi).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Otter_Point,_Cape_Maclear_(Malawi).jpg",
     "icon": "patrimonio unesco",
-    "color": "marron"
+    "color": "marron",
+    "visit": {
+      "why": "Combina vida local, islas, senderos y ecosistema acuático en una parada central del viaje.",
+      "see": "Bahía, islas, aves y peces con operador responsable; la visibilidad y la fauna varían.",
+      "access": "El pin coincide con Lake Malawi National Park en Google Maps. Confirmar entrada, barca, chalecos y estacionamiento.",
+      "when": "Dos o tres noches con mañanas tranquilas y margen por viento.",
+      "skip": "No entrar en el parque con perro ni nadar o bucear sin evaluar riesgos sanitarios y meteorológicos locales."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Lake Malawi National Park",
+        "url": "https://whc.unesco.org/en/list/289/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter_Point,_Cape_Maclear_(Malawi).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Otter_Point,_Cape_Maclear_(Malawi).jpg",
+        "credit": "Hans Hillewaert · CC BY-SA 4.0",
+        "caption": "Otter Point en Cape Maclear, dentro de Lake Malawi National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dugouts_on_Lake_Malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dugouts_on_Lake_Malawi.jpg",
+        "credit": "Hans Hillewaert · CC BY-SA 4.0",
+        "caption": "Canoas en el lago Malaui junto a Cape Maclear."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dugout_canoe.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dugout_canoe.jpg",
+        "credit": "Hans Hillewaert · CC BY-SA 4.0",
+        "caption": "Canoa tradicional en el agua del parque nacional."
+      }
+    ]
   },
   {
     "n": 17,
-    "name": "Parque Nacional de Liwonde (African Parks)",
+    "name": "Liwonde National Park",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en el parque",
     "time": "2–3 días",
-    "lat": -14.8333,
-    "lon": 35.3167,
-    "desc": "548 km² a lo largo de 30 km del río Shire y la orilla del lago Malombe, gestionado por African Parks desde agosto de 2015 y convertido en la historia de recuperación más espectacular de África austral: rinocerontes negros (17 traídos de Sudáfrica en noviembre de 2019, sobre el núcleo del santuario vallado de 1993), los PRIMEROS GUEPARDOS SALVAJES DE MALAUI EN VEINTE AÑOS (siete en mayo de 2017, hoy 21) y leones reintroducidos a principios de 2018, con la primera cría nacida en 2020. Elefantes en cantidad, hipopótamos y cocodrilos a docenas y una de las mejores listas de aves de la región. Safaris en vehículo y —lo que lo hace distinto— en barca por el Shire. Alojamientos Mvuu, Kutengo y Chimwala.",
+    "lat": -15.0385611,
+    "lon": 35.2542643,
+    "desc": "Liwonde protege el río Shire, llanuras inundables y bosque, con safaris terrestres y navegación autorizada. El pin se ha corregido a la puerta principal de acceso.",
     "credit": "Brian Dell · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20in%20Liwonde%20National%20Park.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Elephants%20in%20Liwonde%20National%20Park.JPG",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Liwonde_Park_-_view_of_Shire_River.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Liwonde_Park_-_view_of_Shire_River.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el parque de fauna más fácil de integrar en el sur de Malaui y el río cambia la experiencia.",
+      "see": "Shire, aves, hipopótamos, elefantes y otros mamíferos si aparecen.",
+      "access": "El pin coincide con Liwonde National Park Main Entrance Gate en Google Maps. Reservar actividad y confirmar pistas con African Parks.",
+      "when": "Dos noches, con salida de madrugada y paseo fluvial si opera con seguridad.",
+      "skip": "No entrar con mascota, acercarse por libre al río ni dejarla en el coche durante un safari."
+    },
+    "links": [
+      {
+        "label": "African Parks · visita a Liwonde",
+        "url": "https://www.africanparks.org/the-parks/liwonde/park-revenue-generation"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Liwonde_Park_-_view_of_Shire_River.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Liwonde_Park_-_view_of_Shire_River.jpg",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Río Shire dentro de Liwonde National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants_in_Liwonde_National_Park_(cropped).JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Elephants_in_Liwonde_National_Park_(cropped).JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Elefantes fotografiados en Liwonde; el encuentro no se garantiza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Impala%27s_in_Liwonde_National_Park_Malawi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Impala%27s_in_Liwonde_National_Park_Malawi.jpg",
+        "credit": "Arnoldus9 · CC BY-SA 4.0",
+        "caption": "Impalas en el paisaje real de Liwonde."
+      }
+    ]
   },
   {
     "n": 18,
-    "name": "Zomba y su meseta",
+    "name": "Zomba Plateau · Queen’s View",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": -15.3833,
-    "lon": 35.3167,
-    "desc": "Antigua capital colonial a los pies de una meseta de sienita granítica de 130 km² que culmina a 2.087 m, partida en dos por el valle de Domasi (Zomba al sur, Malosa al norte). Arriba: pinares, retazos de bosque de niebla original, fresas y moras silvestres, el embalse de Mulunguzi (2000), miradores sobre todo el valle del Shire y la carretera panorámica de subida y bajada en sentido único, una de las conducciones más bonitas del país. La ciudad conserva el trazado colonial, el jardín botánico y el mercado. Es el mejor sitio del sur para dormir fresco.",
-    "credit": "Dr. Ferdinand Groeger · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zomba%20Plateau.jpg",
+    "lat": -15.350007,
+    "lon": 35.3292954,
+    "desc": "La meseta de Zomba se eleva sobre la antigua capital entre bosques, miradores y carreteras de montaña. El pin marca Queen’s View, un mirador real y accesible.",
+    "credit": "Rockwurm/Jjtkk · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba_Plateau_banner.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Zomba_Plateau_banner.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece un cambio de temperatura y amplias vistas sin exigir una expedición.",
+      "see": "Escarpe, llanura y bosque desde Queen’s View; otros senderos requieren tiempo adicional.",
+      "access": "El pin coincide con Queen’s View en Google Maps. Comprobar carretera, niebla y estacionamiento antes de subir.",
+      "when": "Primera hora o final de la tarde con cielo despejado.",
+      "skip": "No conducir con niebla cerrada ni acercarse a bordes o senderos mojados."
+    },
+    "links": [
+      {
+        "label": "Visit Malawi · región sur y meseta de Zomba",
+        "url": "https://visitmalawi.mw/southern-region/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba_Plateau_banner.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Zomba_Plateau_banner.jpg",
+        "credit": "Rockwurm/Jjtkk · CC BY-SA 3.0",
+        "caption": "Bosque y relieve de Zomba Plateau."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Zomba_plateau_from_north.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_of_Zomba_plateau_from_north.JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Meseta de Zomba vista desde el norte."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba_Plateau_seen_from_south.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Zomba_Plateau_seen_from_south.jpg",
+        "credit": "Felefuchs · CC BY-SA 3.0",
+        "caption": "Perfil de Zomba Plateau visto desde el sur."
+      }
+    ]
   },
   {
     "n": 19,
-    "name": "Blantyre",
+    "name": "Blantyre · Mandala House y base logística",
     "cat": "Ciudad · servicios",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con recinto y alojamiento",
     "time": "1–2 noches",
-    "lat": -15.7861,
-    "lon": 35.0058,
-    "desc": "Capital comercial e industrial (800.000 hab., a 1.039 m), fundada por misioneros escoceses y bautizada con el pueblo natal de Livingstone. Es la mejor plaza de servicios del sur: talleres, recambios, seguros y el Queen Elizabeth Central Hospital, principal hospital de referencia del país. Dos visitas que merecen la parada: la iglesia de St Michael and All Angels (1891), levantada por albañiles locales sin ningún conocimiento de arquitectura europea y con un resultado asombroso, y la Mandala House (1882), el edificio más antiguo de Malaui, hoy monumento nacional con biblioteca, galería y café. Rodeada de montes: Soche, Ndirande, Michiru y Chiradzulu. (Foto provisional: Lilongüe — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe%2C%20Malawi.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lilongwe%2C%20Malawi.JPG",
+    "lat": -15.7933029,
+    "lon": 35.0134321,
+    "desc": "Mandala House, uno de los edificios coloniales conservados más antiguos de Malaui, alberga espacios culturales en Blantyre. Sirve como visita concreta y ancla de la principal base comercial del sur.",
+    "credit": "Society of Malawi · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Mandala_house,_Malawi_oldest_standing_building,_Blantyre.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Mandala_house,_Malawi_oldest_standing_building,_Blantyre.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite combinar historia urbana con talleres, repuestos, bancos y gestiones.",
+      "see": "Casa, jardines y exposiciones o actividades vigentes; confirmar el uso actual antes de acudir.",
+      "access": "El pin coincide con Mandala House/Abrar Vanara en Google Maps. Usar estacionamiento vigilado y evitar horas punta.",
+      "when": "Día laborable, agrupando todas las necesidades logísticas.",
+      "skip": "No ir sin comprobar acceso actual ni moverse innecesariamente de noche."
+    },
+    "links": [
+      {
+        "label": "Society of Malawi · biblioteca y archivo en Mandala House",
+        "url": "https://societyofmalawi.wordpress.com/about/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Mandala_house,_Malawi_oldest_standing_building,_Blantyre.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Mandala_house,_Malawi_oldest_standing_building,_Blantyre.jpg",
+        "credit": "Society of Malawi · CC BY-SA 4.0",
+        "caption": "Mandala House en Blantyre."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandala,_from_Old_Mandala_House,_Blantyre..jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mandala,_from_Old_Mandala_House,_Blantyre..jpg",
+        "credit": "Society of Malawi · CC BY-SA 4.0",
+        "caption": "Vista desde el recinto de Old Mandala House."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandala_Manager%27s_House,_Blantyre.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mandala_Manager%27s_House,_Blantyre.jpg",
+        "credit": "Wandumi · CC BY-SA 3.0",
+        "caption": "Casa del gerente dentro del conjunto histórico de Mandala."
+      }
+    ]
   },
   {
     "n": 20,
-    "name": "Monte Mulanje · Sapitwa 3.002 m (UNESCO 2025)",
+    "name": "Mount Mulanje · acceso por Likhubula",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "prohibido en la reserva",
     "time": "3–5 días",
-    "lat": -15.9667,
-    "lon": 35.6333,
-    "desc": "UNA DE LAS GRANDES MONTAÑAS DE SENDERISMO DE ÁFRICA. Inselberg colosal formado por una intrusión magmática hace unos 130 millones de años, que se levanta de golpe sobre los cultivos de té a 65 km al este de Blantyre y culmina en SAPITWA (3.002 m), el punto más alto de Malaui y de toda África central-meridional al norte del Drakensberg. Arriba no hay pico sino una meseta ondulada de pradera a 1.800-2.200 m recortada por barrancos boscosos, con refugios de montaña repartidos (Chambe, Lichenya, Thuchila, Chinzama, Sombani, Minunu, Chisepo) que permiten travesías de varios días. La cara oeste del pico Chambe es LA ESCALADA EN ROCA MÁS LARGA DE ÁFRICA. Alberga el cedro de Mulanje (Widdringtonia whytei), árbol nacional, en peligro crítico por la tala ilegal pese a la plantación de 250.000 plantones al año. En 2025 fue inscrito como Patrimonio Mundial en la categoría de PAISAJE CULTURAL: la montaña es residencia de espíritus en la tradición local. (Foto provisional: la meseta de Zomba — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zomba%20Plateau.jpg",
+    "lat": -15.939627,
+    "lon": 35.4976271,
+    "desc": "Macizo granítico de gran relieve y paisaje cultural, con Likhubula como una de las puertas habituales para senderos y refugios. Las rutas cambian mucho en dificultad y duración.",
+    "credit": "David Davies · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Mulanje_(15669855526).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Mulanje_(15669855526).jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la gran etapa de montaña del sur y combina geología, bosque y cultura local.",
+      "see": "Paredes de granito, valles, cursos de agua y cumbres solo en itinerarios acordes al tiempo disponible.",
+      "access": "El pin coincide con Likhubula Forest Gate en Google Maps. Registrar ruta y contratar guía local competente.",
+      "when": "Con tiempo seco, salida temprana y plan de retorno o refugio definido.",
+      "skip": "No entrar con mascota, sin guía o con incendio, tormenta, crecida o niebla fuerte."
+    },
+    "links": [
+      {
+        "label": "UNESCO · paisaje cultural de Mount Mulanje",
+        "url": "https://whc.unesco.org/en/list/1201/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Mulanje_(15669855526).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Mulanje_(15669855526).jpg",
+        "credit": "David Davies · CC BY-SA 2.0",
+        "caption": "Paredes y vegetación de Mount Mulanje."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Mulanje_(15073633334).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Mulanje_(15073633334).jpg",
+        "credit": "David Davies · CC BY-SA 2.0",
+        "caption": "Macizo de Mulanje visto desde sus faldas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Mulanje_(15695175852).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Mulanje_(15695175852).jpg",
+        "credit": "David Davies · CC BY-SA 2.0",
+        "caption": "Sendero y relieve granítico en Mount Mulanje."
+      }
+    ]
   },
   {
     "n": 21,
-    "name": "Plantaciones de té de Thyolo y Mulanje",
+    "name": "Satemwa · plantaciones de té de Thyolo",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "requiere autorización escrita",
     "time": "½–1 día",
-    "lat": -16.0667,
-    "lon": 35.1333,
-    "desc": "Malaui fue el primer país de África donde se cultivó té con éxito comercial, y las laderas de Thyolo y Mulanje siguen siendo un mar verde de setos recortados entre neblina, con casas coloniales de plantación y fincas que ofrecen visita de fábrica, cata y alojamiento (la más conocida es Satemwa, en Thyolo, que también produce té blanco y de autor). Es el contrapunto amable al esfuerzo de Mulanje y una conducción preciosa entre Blantyre, Thyolo y Mulanje. (Foto provisional: la meseta de Zomba — pendiente de sustituir por una de este punto.)",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zomba%20Plateau.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zomba%20Plateau.jpg",
+    "lat": -16.0536289,
+    "lon": 35.1124764,
+    "desc": "Finca histórica de té y café en las colinas de Thyolo, con visitas organizadas sujetas a reserva. La fotografía de portada muestra plantaciones malauíes, no un paisaje de otro país.",
+    "credit": "Ferdinand Groeger · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Teeplantage_bei_Thyolo.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Teeplantage_bei_Thyolo.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite entender una actividad agrícola central del sur en una parada agradable entre Blantyre y Mulanje.",
+      "see": "Campos de té, proceso y degustación según el programa contratado.",
+      "access": "El pin coincide con Satemwa Tea & Coffee Estate en Google Maps. Reservar antes y seguir las zonas autorizadas.",
+      "when": "Mañana de día laborable, comprobando cosecha y disponibilidad de visita.",
+      "skip": "No entrar en áreas de trabajo, volar dron ni llevar al perro sin permiso escrito de la finca."
+    },
+    "links": [
+      {
+        "label": "Satemwa Tea Estate · visitas y finca",
+        "url": "https://www.satemwa.com/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Teeplantage_bei_Thyolo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Teeplantage_bei_Thyolo.jpg",
+        "credit": "Ferdinand Groeger · CC BY-SA 3.0",
+        "caption": "Plantación de té en Thyolo, el distrito de Satemwa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Malawi_Tea_Estate.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Malawi_Tea_Estate.jpg",
+        "credit": "Steve Evans · CC BY 2.0",
+        "caption": "Campos de té en una finca de Malaui."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tea_plantation_near_Mulanje.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tea_plantation_near_Mulanje.JPG",
+        "credit": "Papphase · dominio público",
+        "caption": "Plantación de té cerca de Mulanje y Thyolo."
+      }
+    ]
   },
   {
     "n": 22,
-    "name": "Reserva de Majete (African Parks)",
+    "name": "Majete Wildlife Reserve",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido en la reserva",
     "time": "2 días",
-    "lat": -15.97,
-    "lon": 34.7597,
-    "desc": "700 km² en el bajo valle del Shire, junto a las cataratas de Kapachira y a poco más de una hora de Blantyre. En 2003 African Parks firmó aquí su PRIMER ACUERDO EN EL MUNDO, con una reserva que era «reserva solo de nombre», vaciada por la caza furtiva; hoy tiene más de 12.000 animales y en agosto de 2012, con la reintroducción de los leones, se convirtió en la PRIMERA RESERVA DE BIG FIVE DE MALAUI (búfalo, elefante, leopardo, león y rinoceronte). Los visitantes pasaron de casi cero a unos 7.000 al año. Admite autoconducción por su red de pistas y tiene campamento propio (Thawale) además del lodge Mkulumadzi sobre el río. (Foto provisional: elefantes en Liwonde — pendiente de sustituir por una de este punto.)",
-    "credit": "Brian Dell · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20in%20Liwonde%20National%20Park.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Elephants%20in%20Liwonde%20National%20Park.JPG",
+    "lat": -15.9092875,
+    "lon": 34.7422031,
+    "desc": "Reserva restaurada en el bajo Shire, referente de recuperación de fauna y financiación mediante turismo. La visita se organiza por puertas, alojamientos y actividades autorizadas.",
+    "credit": "Stonyyy · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Majete_Wildlife_Reserve_Entrance.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Majete_Wildlife_Reserve_Entrance.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Cierra el circuito malauí con un proyecto de conservación consolidado y safari de paisaje seco.",
+      "see": "Bosque, río y grandes mamíferos si aparecen; los avistamientos nunca son seguros.",
+      "access": "El pin coincide con el objeto Majete Wildlife Reserve de Google Maps. Confirmar puerta de entrada, pista y reserva con African Parks.",
+      "when": "Dos noches y salidas de primera o última hora.",
+      "skip": "No entrar con mascota, sin combustible o sin saber qué puerta usar y a qué hora cierra."
+    },
+    "links": [
+      {
+        "label": "African Parks · Majete",
+        "url": "https://www.africanparks.org/the-parks/majete"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Majete_Wildlife_Reserve_Entrance.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Majete_Wildlife_Reserve_Entrance.jpg",
+        "credit": "Stonyyy · CC BY-SA 3.0",
+        "caption": "Entrada señalizada de Majete Wildlife Reserve."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Majete_wildlife_reserve.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Majete_wildlife_reserve.jpg",
+        "credit": "David Davies · CC BY-SA 2.0",
+        "caption": "Paisaje dentro de Majete Wildlife Reserve."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant_at_Majete_wildlife_reserve_(15073475793).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Elephant_at_Majete_wildlife_reserve_(15073475793).jpg",
+        "credit": "David Davies · CC BY-SA 2.0",
+        "caption": "Elefante fotografiado en Majete; el avistamiento no se garantiza."
+      }
+    ]
   }
 ]

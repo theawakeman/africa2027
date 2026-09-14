@@ -267,7 +267,7 @@ HISTORIA_FUENTES = [
 ]
 
 SPEC = dict(
-    slug="malaui", name="Malaui", revision="12 sep 2026",
+    slug="malaui", name="Malaui", revision="15 sep 2026",
     sub="ALTERNATIVA — no está en la ruta fija · bucle opcional entre Tanzania y Mozambique",
     chips=[
         ("ESTATUS", "ALTERNATIVA · NO está en la ruta fija — solo si sobra tiempo en el bucle sur/este"),
