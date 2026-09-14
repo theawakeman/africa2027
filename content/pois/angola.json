@@ -41,7 +41,13 @@
       "access": "Tráfico denso y aparcamiento difícil: reservar base con estacionamiento vigilado y agrupar las gestiones por zonas.",
       "when": "Entre semana para talleres y organismos; evitar desplazamientos innecesarios de noche.",
       "skip": "No se puede omitir como nodo logístico, pero sí reducir la visita urbana si no hay gestiones pendientes."
-    }
+    },
+    "links": [
+      {
+        "label": "Luanda · contexto urbano e historia",
+        "url": "https://en.wikipedia.org/wiki/Luanda"
+      }
+    ]
   },
   {
     "n": 2,
@@ -85,7 +91,13 @@
       "access": "El pin está en la entrada del mirador. Aparcar sin bloquear y caminar solo por las zonas consolidadas.",
       "when": "Primera o última hora, con luz lateral y sin lluvia fuerte.",
       "skip": "Omitirlo con niebla, aguacero o si los bordes están embarrados e inestables."
-    }
+    },
+    "links": [
+      {
+        "label": "Miradouro da Lua · descripción del enclave",
+        "url": "https://pt.wikipedia.org/wiki/Miradouro_da_Lua"
+      }
+    ]
   },
   {
     "n": 3,
@@ -129,7 +141,13 @@
       "access": "Llegar de día, confirmar dónde aparcar y contratar acompañamiento local si se quiere recorrer el conjunto.",
       "when": "Por la mañana o al final de la tarde; evitar tormentas y roca mojada.",
       "skip": "No improvisar vivac ni confiar en encontrar agua; si no se aclara el acceso, limitarse al mirador seguro."
-    }
+    },
+    "links": [
+      {
+        "label": "Pungo Andongo · monolitos e historia",
+        "url": "https://en.wikipedia.org/wiki/Black_Rocks_at_Pungo_Andongo"
+      }
+    ]
   },
   {
     "n": 4,
@@ -173,7 +191,13 @@
       "access": "El pin coincide con la ficha de las cataratas. Confirmar localmente si el sendero inferior está abierto y contratar guía para bajar.",
       "when": "Con buena visibilidad; tras lluvias hay más caudal pero también barro y roca resbaladiza.",
       "skip": "Renunciar al descenso si llueve, el sendero está degradado o no hay guía; nunca acercarse a bordes mojados con el perro suelto."
-    }
+    },
+    "links": [
+      {
+        "label": "Kalandula Falls · geografía y acceso",
+        "url": "https://en.wikipedia.org/wiki/Kalandula_Falls"
+      }
+    ]
   },
   {
     "n": 5,
@@ -235,7 +259,26 @@
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
-    "photos": [],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja_Matriz_de_Waku_Kungo_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Igreja_Matriz_de_Waku_Kungo_-_panoramio.jpg",
+        "credit": "Rogério Melo · CC BY 3.0",
+        "caption": "Iglesia principal de Waku Kungo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waku_Kungo,_Angola_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Waku_Kungo,_Angola_-_panoramio.jpg",
+        "credit": "Rogério Melo · CC BY 3.0",
+        "caption": "Paisaje urbano de Waku Kungo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waku_Kungo_-_panoramio_-_Rog%C3%A9rio_Melo_(3).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Waku_Kungo_-_panoramio_-_Rog%C3%A9rio_Melo_(3).jpg",
+        "credit": "Rogério Melo · CC BY 3.0",
+        "caption": "Otra vista de Waku Kungo"
+      }
+    ],
     "links": [
       {
         "label": "Referencia práctica del circuito de Waku Kungo",
@@ -259,7 +302,20 @@
     "icon": "cultura",
     "color": "morado",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://welcometoangola.co.ao/wp-content/uploads/2022/10/reino-bailundo-capa-1.jpg",
+        "source": "https://welcometoangola.co.ao/en/reino-do-bailundo/",
+        "credit": "Welcome to Angola",
+        "caption": "Autoridades tradicionales bajo el rótulo de Ombala yo Mbalundo"
+      }
+    ],
+    "links": [
+      {
+        "label": "Historia del Reino do Bailundo y visita a Ombala Mbalundu",
+        "url": "https://welcometoangola.co.ao/en/reino-do-bailundo/"
+      }
+    ]
   },
   {
     "n": 8,
@@ -331,7 +387,32 @@
     "icon": "ciudad · servicios",
     "color": "azul",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jardim_do_Palacio_do_Governador_Luena_Moxico.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Jardim_do_Palacio_do_Governador_Luena_Moxico.jpg",
+        "credit": "Pereira Santos Samuel · CC BY-SA 3.0",
+        "caption": "Jardín del palacio provincial en Luena"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_M%C3%A9dio_de_Administra%C3%A7%C3%A3o_e_Gest%C3%A3o.jpeg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Instituto_M%C3%A9dio_de_Administra%C3%A7%C3%A3o_e_Gest%C3%A3o.jpeg",
+        "credit": "Diego Passos Costa · CC BY-SA 3.0",
+        "caption": "Instituto de enseñanza de Luena"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Por_do_Sol_Imag_Luena_08_novembro_2011_1600x1200_388KB.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Por_do_Sol_Imag_Luena_08_novembro_2011_1600x1200_388KB.jpg",
+        "credit": "Diego Passos Costa · CC BY-SA 3.0",
+        "caption": "Atardecer urbano en Luena"
+      }
+    ],
+    "links": [
+      {
+        "label": "Luena · historia, servicios y transportes",
+        "url": "https://pt.wikipedia.org/wiki/Luena_(Angola)"
+      }
+    ]
   },
   {
     "n": 10,
@@ -397,7 +478,20 @@
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://medicareclub.ao/image/cache/catalog/guia/namibe/foz/foz%20rio%20cunene%20pedro%20carreno-1240x827.jpg",
+        "source": "https://medicareclub.ao/index.php?province_content_id=14&route=club%2Fguide%2Fattraction",
+        "credit": "Pedro Carreño · Medicare Club Angola",
+        "caption": "Desembocadura del río Cunene entre carrizos y dunas"
+      }
+    ],
+    "links": [
+      {
+        "label": "Foz do Cunene · ficha e imagen del enclave",
+        "url": "https://medicareclub.ao/index.php?province_content_id=14&route=club%2Fguide%2Fattraction"
+      }
+    ]
   },
   {
     "n": 12,
@@ -421,6 +515,24 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ilha%20dos%20Tigres%201466540%20960%20720.jpg",
         "credit": "juls26 · CC0",
         "caption": "Edificios abandonados del antiguo poblado de Baía dos Tigres"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilha_dos_Tigres_1466538_960_720.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ilha_dos_Tigres_1466538_960_720.jpg",
+        "credit": "juls26 · CC0",
+        "caption": "Antiguos depósitos de aceite de pescado junto a la bahía"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilha_dos_Tigres_1466534_960_720.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ilha_dos_Tigres_1466534_960_720.jpg",
+        "credit": "juls26 · CC0",
+        "caption": "Barracones abandonados del poblado pesquero"
+      }
+    ],
+    "links": [
+      {
+        "label": "Expedición 4x4 a Baía dos Tigres y Foz do Cunene",
+        "url": "https://kumakonda.com/ilha-da-baia-dos-tigres-angola/"
       }
     ]
   },
@@ -498,7 +610,13 @@
       "access": "El pin está corregido en la laguna; confirmar el último tramo y cualquier gestión comunitaria antes de entrar.",
       "when": "Tras recabar información reciente sobre lluvias y pista, con luz suficiente para salir si no se puede pernoctar.",
       "skip": "Omitirla si se busca únicamente una laguna con agua o si no hay confirmación de acceso; no venderla como oasis permanente."
-    }
+    },
+    "links": [
+      {
+        "label": "Lagoa do Arco · historia y estado estacional",
+        "url": "https://en.wikipedia.org/wiki/Lake_Arco"
+      }
+    ]
   },
   {
     "n": 15,
@@ -522,6 +640,24 @@
         "source": "https://commons.wikimedia.org/wiki/File:Marginal%20of%20Namibe.JPG",
         "credit": "Paulo César Santos · CC0",
         "caption": "Marginal de Moçâmedes"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibe_Waterfront_(19432713306).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibe_Waterfront_(19432713306).jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Avenida costera y bahía de Moçâmedes"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Governo_Provincial_do_Namibe_(19543179475)_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Governo_Provincial_do_Namibe_(19543179475)_(cropped).jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Edificio del gobierno provincial en Moçâmedes"
+      }
+    ],
+    "links": [
+      {
+        "label": "Moçâmedes · contexto urbano y costa",
+        "url": "https://en.wikipedia.org/wiki/Mo%C3%A7%C3%A2medes"
       }
     ]
   },
@@ -567,7 +703,13 @@
       "access": "Parar únicamente en apartaderos seguros, vigilar tráfico pesado y usar marcha corta en el descenso.",
       "when": "De día y con visibilidad; evitar niebla densa y lluvia fuerte.",
       "skip": "No detenerse si el apartadero está lleno o la visibilidad impide maniobrar con seguridad."
-    }
+    },
+    "links": [
+      {
+        "label": "Serra da Leba · carretera y puerto",
+        "url": "https://en.wikipedia.org/wiki/Serra_da_Leba"
+      }
+    ]
   },
   {
     "n": 17,
@@ -611,7 +753,13 @@
       "access": "El pin coincide con el mirador. El último tramo es sencillo, pero los cortados carecen de protección continua.",
       "when": "Con cielo despejado y viento moderado; luz de tarde si se puede regresar antes de oscuridad.",
       "skip": "No acercarse al borde con niebla, lluvia o viento fuerte; perro siempre con correa corta."
-    }
+    },
+    "links": [
+      {
+        "label": "Tundavala Gap · geología y mirador",
+        "url": "https://en.wikipedia.org/wiki/Tundavala_Gap"
+      }
+    ]
   },
   {
     "n": 18,
@@ -635,6 +783,24 @@
         "source": "https://commons.wikimedia.org/wiki/File:Praia%20Morena%20Benguela.jpg",
         "credit": "David Stanley · CC BY 2.0",
         "caption": "Praia Morena en Benguela"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja_Benguela,_Angola.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Igreja_Benguela,_Angola.jpg",
+        "credit": "F. H. Mira · CC BY-SA 2.0",
+        "caption": "Iglesia histórica de Benguela"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pa%C3%A7os_do_Concelho,_Benguela.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pa%C3%A7os_do_Concelho,_Benguela.jpg",
+        "credit": "F. H. Mira · CC BY-SA 2.0",
+        "caption": "Ayuntamiento de Benguela"
+      }
+    ],
+    "links": [
+      {
+        "label": "Benguela · historia y patrimonio urbano",
+        "url": "https://en.wikipedia.org/wiki/Benguela"
       }
     ]
   },
@@ -660,6 +826,24 @@
         "source": "https://commons.wikimedia.org/wiki/File:Lobito%20restinga2.jpg",
         "credit": "Robertoago · CC BY-SA 3.0",
         "caption": "Restinga y bahía de Lobito"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja_da_Arr%C3%A1bida_in_Lobito_-_Angola_2015.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Igreja_da_Arr%C3%A1bida_in_Lobito_-_Angola_2015.jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Iglesia da Arrábida en la Restinga de Lobito"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Restinga_Peninsula_(18996958243)_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Restinga_Peninsula_(18996958243)_(cropped).jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Restinga arenosa que protege la bahía de Lobito"
+      }
+    ],
+    "links": [
+      {
+        "label": "Lobito · bahía, restinga y ferrocarril",
+        "url": "https://en.wikipedia.org/wiki/Lobito"
       }
     ]
   },
@@ -685,6 +869,18 @@
         "source": "https://commons.wikimedia.org/wiki/File:Cabo%20Ledo%20beach%2C%20Angola%2002.jpg",
         "credit": "Felipe Miguel · CC BY-SA 2.0",
         "caption": "Playa y acantilados de Cabo Ledo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabo_Ledo_beach,_Angola_03.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Cabo_Ledo_beach,_Angola_03.jpg",
+        "credit": "Felipe Miguel · CC BY-SA 2.0",
+        "caption": "Otra vista de la ensenada de Cabo Ledo"
+      }
+    ],
+    "links": [
+      {
+        "label": "Cabo Ledo · playa, surf e historia",
+        "url": "https://pt.wikipedia.org/wiki/Cabo_Ledo"
       }
     ]
   },
@@ -710,6 +906,18 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kissama%20003.JPG",
         "credit": "B25es · CC BY-SA 4.0",
         "caption": "Paisaje del Parque Nacional de Kissama"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kissama_001.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kissama_001.JPG",
+        "credit": "Àngel Sàez i Pedrero · CC BY-SA 4.0",
+        "caption": "Paisaje de sabana en el Parque Nacional de Kissama"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/R%C3%ADo_Cuanza_en_Kissama.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Cuanza_en_Kissama.JPG",
+        "credit": "Àngel Sàez i Pedrero · CC BY-SA 4.0",
+        "caption": "Río Cuanza en el Parque Nacional de Kissama"
       }
     ],
     "links": [
@@ -741,6 +949,24 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mussulo%20Island%20banner%20view%20from%20taxi%20boat.jpg",
         "credit": "Juvenalia Brito · CC BY-SA 3.0",
         "caption": "Mussulo visto desde el barco-taxi"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mussulo_Island.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mussulo_Island.jpg",
+        "credit": "Juvenalia Brito · CC BY-SA 3.0",
+        "caption": "Playa y casas de la península de Mussulo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mussulo,_Angola.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mussulo,_Angola.jpg",
+        "credit": "Juvenalia Brito · CC BY-SA 3.0",
+        "caption": "Mussulo visto durante la travesía en barco"
+      }
+    ],
+    "links": [
+      {
+        "label": "Mussulo · península, bahía y accesos",
+        "url": "https://en.wikipedia.org/wiki/Mussulo"
       }
     ]
   }

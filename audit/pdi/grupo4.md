@@ -3,7 +3,21 @@
 Países: Camerún, Gabón, Congo, RD Congo y Angola. Revisión realizada el 14 de
 septiembre de 2026.
 
-## Alcance cerrado en este grupo
+## Reapertura por el nuevo estándar visual
+
+El 14 de septiembre de 2026 se reabrió el grupo porque el criterio inicial
+permitía dejar fichas sin foto cuando no aparecía una coincidencia libre en
+Commons. El nuevo criterio exige en cada PDI al menos una fotografía pertinente
+y un enlace informativo propio, además del pin. La corrección se publica país a
+país para que cada avance quede cerrado y recuperable.
+
+Angola ya ha superado esta segunda pasada: 22/22 PDIs con foto, 22/22 con enlace
+de interés y 19 carruseles. Se verificaron 54 archivos de Commons contra su API;
+las dos imágenes externas (Ombala Mbalundu y Foz do Cunene) responden desde la
+fuente enlazada y sus pies identifican exactamente qué muestran. También se
+probaron todos los enlaces: se retiraron cuatro URL con 404 real o encubierto.
+
+## Alcance de la primera pasada
 
 - Se revisaron las asignaciones fotográficas de los 92 PDIs. Cada ficha tiene
   ahora un campo `photos`, incluso cuando el resultado responsable es una lista
@@ -13,9 +27,9 @@ septiembre de 2026.
 - Se comprobaron 125 archivos contra la API de Wikimedia Commons: todos existen
   y conservan una página de origen trazable. No se reutiliza ningún archivo en
   dos PDIs diferentes del grupo.
-- Se eliminaron fotografías genéricas o correspondientes a otro lugar. No se
-  sustituyeron por relleno: seis PDIs prioritarios y treinta y cuatro secundarios
-  quedan sin foto cuando no se encontró una coincidencia suficientemente sólida.
+- Se eliminaron fotografías genéricas o correspondientes a otro lugar. Los
+  huecos que dejó esa primera pasada se están cerrando ahora mediante una búsqueda
+  más amplia y verificación individual de la fuente.
 - Los enlaces añadidos apuntan a la ficha concreta del parque, santuario,
   organismo o bien patrimonial; no se considera que una portada genérica resuelva
   la verificación operativa.
@@ -28,8 +42,8 @@ septiembre de 2026.
 | Gabón | 19 | 9/9 | 9 | 9 | 25 | 10 |
 | Congo | 18 | 8/8 | 4 | 4 | 11 | 14 |
 | RD Congo | 12 | 9/9 | 10 | 6 | 22 | 2 |
-| Angola | 22 | 11/11 | 18 | 10 | 35 | 4 |
-| **Total** | **92** | **48/48** | **52** | **40** | **125** | **40** |
+| Angola | 22 | 11/11 | 22 | 19 | 54 + 2 externas | 0 |
+| **Total provisional** | **92** | **48/48** | **56** | **49** | **144 + 2 externas** | **36** |
 
 ## Problema inicial y criterio aplicado
 
@@ -38,12 +52,12 @@ todos sus PDIs estaban dentro de algún grupo de duplicados; en Gabón la
 duplicación afectaba a 18 de 19 fichas, y en Congo a 13 de 18. RD Congo y Angola
 tenían menos duplicados, pero sí imágenes asignadas a lugares distintos del PDI.
 
-El resultado no se mide por llenar todas las tarjetas. Una foto solo se mantiene
-cuando el archivo identifica el lugar exacto por descripción, categoría o GPS.
-Las excepciones informativas se rotulan sin ambigüedad: Cangandala usa una foto
-de la palanca negra gigante tomada en Luando y un mapa de distribución;
-Tchitundu-Hulu usa una reproducción del motivo «Sol de Angola», no una vista del
-yacimiento.
+Todas las tarjetas deben quedar llenas, pero nunca a costa de falsear el lugar.
+Una foto solo se mantiene cuando el archivo o su fuente identifica el enclave o
+el contexto inmediato que el pie declara. Las excepciones informativas se
+rotulan sin ambigüedad: Cangandala usa una foto de la palanca negra gigante
+tomada en Luando y un mapa de distribución; Tchitundu-Hulu usa una reproducción
+del motivo «Sol de Angola», no una vista del yacimiento.
 
 ## Huecos deliberados en prioridad alta
 
@@ -66,10 +80,7 @@ propias.
   presenta como una concentración documentada, no como censo ni promesa de
   avistamiento.
 
-## Pendiente conocido
+## Pendiente de esta reapertura
 
-La ampliación equivalente de los PDIs de prioridad media y baja no forma parte
-del cierre editorial de este bloque: sus fotos sí se han auditado, pero todavía
-no todos tienen los cinco campos de decisión ni enlaces específicos. Esta deuda
-queda visible en `audit/ESTADO.md` y no debe confundirse con un grupo totalmente
-terminado bajo el nuevo estándar.
+Quedan por cerrar Camerún, Gabón, Congo y RD Congo. Hasta entonces este grupo no
+vuelve a marcarse como terminado bajo el nuevo estándar.

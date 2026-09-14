@@ -11,8 +11,9 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 1 | Marruecos, Sáhara Occidental, Mauritania, Senegal, Gambia | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
 | 2 | Guinea, Sierra Leona, Liberia, Costa de Marfil | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
 | 3 | Ghana, Togo, Benín, Nigeria | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
-| 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Prioridad alta cerrada; media/baja pendiente | Prioridad alta revisada; media/baja pendiente | Asignaciones cerradas; galerías solo con material verificable | Pendiente |
-| 5+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Reabierto: Angola cerrada; otros cuatro pendientes | Reabierto: Angola 22/22; otros cuatro pendientes | Reabierto: Angola 22/22 y 19 carruseles; otros cuatro pendientes | Pendiente |
+| 5 | Zambia, Tanzania, Kenia, Mozambique | En curso, aún no publicada | GPS verificado en Google Maps, aún no aplicado | Pendiente | Pendiente | Pendiente | Pendiente |
+| 6+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
 
 ## Línea de corte de la nueva pasada PDI
 
@@ -20,11 +21,12 @@ La auditoría de profundidad editorial, enlaces útiles y fotografías múltiple
 empieza en el **grupo 4**. Los grupos 1–3 no deben interpretarse como revisados
 en esas tres columnas: se volverá a ellos en una pasada retroactiva.
 
-El detalle cuantitativo y los huecos deliberados del punto de arranque están en
-[`audit/pdi/grupo4.md`](pdi/grupo4.md). El siguiente contenido todavía no
-modificado bajo este nuevo estándar es el **grupo 5**; dentro del grupo 4,
-también queda pendiente la ampliación de prioridad media/baja expresamente
-indicada en la tabla.
+El detalle cuantitativo de la reapertura está en
+[`audit/pdi/grupo4.md`](pdi/grupo4.md). La segunda pasada ha cerrado Angola y
+continúa con Camerún, Gabón, Congo y RD Congo. En el grupo 5 solo se ha preparado
+la historia y se han comprobado los pines en Google Maps; sus PDIs todavía no se
+han modificado bajo este nuevo estándar. El grupo 6 es, por tanto, el primer grupo
+completamente intacto.
 
 ## Criterio de cierre por PDI
 
@@ -32,8 +34,9 @@ indicada en la tabla.
   experiencia real, acceso, duración, mejor momento y motivo para descartarlo.
 - Los datos cambiantes quedan como «por confirmar» y no como hechos permanentes.
 - Los enlaces apuntan al lugar u organismo concreto, no a una portada genérica.
-- Cada foto identifica el PDI exacto o se marca claramente como referencia; una
-  imagen ajena no se usa para rellenar huecos.
+- Cada PDI tiene al menos una foto pertinente. La imagen identifica el enclave
+  exacto o su contexto inmediato declarado; una imagen ajena no se presenta como
+  si fuera el lugar.
 - Cuando existan archivos verificables, la ficha muestra una galería de varias
   vistas con autor, licencia y página de origen trazables.
 - El pin abre el objeto real en Google Maps o documenta expresamente que es un

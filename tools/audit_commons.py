@@ -2,6 +2,7 @@
 """Busca candidatos de fotografía en Commons sin modificar contenido.
 
 Uso: python3 tools/audit_commons.py "Mount Cameroon" "Lobe Falls Cameroon"
+     python3 tools/audit_commons.py --compact "Mount Cameroon" "Lobe Falls Cameroon"
      python3 tools/audit_commons.py --check-json content/pois/angola.json
 La salida conserva título, descripción, autor, licencia y GPS para que la
 selección sea humana; una coincidencia de buscador no se considera verificación.
@@ -32,15 +33,17 @@ def request_json(params):
         headers={"User-Agent": "Africa2027-photo-audit/1.0"},
     )
     context = ssl.create_default_context(cafile=certifi.where())
-    for attempt in range(4):
+    for attempt in range(6):
         try:
             with urllib.request.urlopen(request, timeout=30, context=context) as response:
                 payload = json.load(response)
             break
         except urllib.error.HTTPError as error:
-            if error.code != 429 or attempt == 3:
+            if error.code != 429 or attempt == 5:
                 raise
-            time.sleep(3 * (attempt + 1))
+            retry_after = error.headers.get("Retry-After")
+            delay = int(retry_after) if retry_after and retry_after.isdigit() else 8 * (attempt + 1)
+            time.sleep(delay)
     return payload
 
 
@@ -120,7 +123,7 @@ def check_json(path):
                 "latitude": value("GPSLatitude"),
                 "longitude": value("GPSLongitude"),
             })
-        time.sleep(1)
+        time.sleep(2)
     return results
 
 
@@ -132,9 +135,27 @@ def main():
             raise SystemExit("Uso: --check-json RUTA")
         print(json.dumps(check_json(sys.argv[2]), ensure_ascii=False, indent=2))
         return
-    for query in sys.argv[1:]:
-        print(json.dumps({"query": query, "candidates": search(query)}, ensure_ascii=False))
-        time.sleep(1)
+    compact = sys.argv[1] == "--compact"
+    queries = sys.argv[2:] if compact else sys.argv[1:]
+    if not queries:
+        raise SystemExit("Indica al menos una consulta")
+    for query in queries:
+        candidates = search(query)
+        if compact:
+            candidates = [
+                {
+                    "title": item["title"],
+                    "description": item["description"][:240],
+                    "artist": item["artist"],
+                    "license": item["license"],
+                    "latitude": item["latitude"],
+                    "longitude": item["longitude"],
+                    "source": item["source"],
+                }
+                for item in candidates
+            ]
+        print(json.dumps({"query": query, "candidates": candidates}, ensure_ascii=False))
+        time.sleep(2)
 
 
 if __name__ == "__main__":
