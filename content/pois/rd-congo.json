@@ -1,16 +1,16 @@
 [
   {
     "n": 1,
-    "name": "Kinshasa (Gombe y la orilla del río Congo)",
+    "name": "Kinshasa · base logística en Gombe",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": -4.3276,
-    "lon": 15.3136,
-    "desc": "Megaciudad de población estimada superior a 17 millones de habitantes, situada frente a Brazzaville al otro lado del río Congo. El barrio de la Gombe concentra la embajada de España, bancos, supermercados y buena parte de los talleres y recambios útiles para el corredor. Es la base principal para resolver problemas mecánicos o documentales antes de continuar hacia Angola. El tráfico es extremo y los tiempos cambian mucho: dejar margen amplio y evitar prometer una hora valle fija.",
+    "lat": -4.301578,
+    "lon": 15.3164745,
+    "desc": "Kinshasa se extiende frente a Brazzaville, al otro lado del Congo, y concentra en Gombe embajadas, bancos, supermercados y parte de los talleres y recambios más útiles del corredor occidental. Es la base principal para resolver ferry, documentación y averías antes de continuar hacia Angola. El pin ya no es un centroide urbano: coincide con Central Station Square, referencia pública real de Gombe. No implica hotel ni aparcamiento; el tráfico obliga a usar estacionamiento vigilado, rutas medidas y márgenes amplios, siempre con luz.",
     "credit": "EdwinAlden.1995 · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
@@ -36,12 +36,18 @@
       }
     ],
     "visit": {
-      "why": "Es la base obligada para documentación, reparaciones y el ferry, y permite experimentar la escala de una de las mayores ciudades de África.",
-      "see": "Gombe y el frente del Congo ofrecen contexto urbano; el interés no está en acumular monumentos sino en comprender el río y resolver logística.",
-      "access": "Moverse con conductor/contacto o rutas muy medidas, parking vigilado y grandes márgenes. No asumir una hora valle estable.",
-      "when": "Días laborables para trámites; desplazamientos solo de día.",
-      "skip": "Reducir la visita urbana si la seguridad o el tráfico empeoran; conservar las noches necesarias para ferry y gestiones."
-    }
+      "why": "Es la base imprescindible para el ferry, documentación, reparaciones y abastecimiento, y permite entender la escala de la capital frente a Brazzaville.",
+      "see": "Gombe, el frente del Congo y la vida urbana; el objetivo es combinar contexto de la ciudad con gestiones, no acumular monumentos.",
+      "access": "El pin se fija en Central Station Square, una referencia pública real de Gombe. No representa un hotel ni garantiza aparcamiento: contratar conductor o medir rutas, usar parking vigilado y dejar grandes márgenes.",
+      "when": "Días laborables para trámites y desplazamientos solo con luz; reservar al menos dos noches alrededor del ferry.",
+      "skip": "Reducir la visita urbana si empeoran la seguridad o el tráfico, pero conservar el tiempo de gestiones y nunca improvisar una base sin aparcamiento seguro."
+    },
+    "links": [
+      {
+        "label": "DRC Tourism · visitar Kinshasa",
+        "url": "https://drctourism.com/destinations/kinshasa"
+      }
+    ]
   },
   {
     "n": 2,
@@ -53,18 +59,30 @@
     "lat": -4.3103198,
     "lon": 15.3124651,
     "desc": "El Zando es el gran mercado central histórico de Kinshasa, pero a 14 de septiembre de 2026 sigue sin estar abierto al público tras una larga rehabilitación; las autoridades continúan preparando su reapertura. El pin marca la entrada real del complejo. No planificar aquí compras ni una visita interior hasta confirmar una reapertura efectiva con fuentes locales recientes. En los alrededores, llevar poco dinero visible, no fotografiar sin permiso y dejar al perro en el alojamiento.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20Market%2C%20Kinshasa%2C%20ZNTO.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Central%20Market%2C%20Kinshasa%2C%20ZNTO.jpg",
+    "credit": "THINK TANK / designboom · fuente editorial",
+    "img": "https://www.designboom.com/twitterimages/uploads/2026/01/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank-designboom-1200.jpg",
+    "source": "https://www.designboom.com/architecture/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank/",
     "icon": "cultura",
     "color": "morado",
     "dog_note": "",
     "photos": [
       {
+        "img": "https://www.designboom.com/twitterimages/uploads/2026/01/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank-designboom-1200.jpg",
+        "source": "https://www.designboom.com/architecture/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank/",
+        "credit": "THINK TANK / designboom · fuente editorial",
+        "caption": "Exterior rehabilitado del Marché Central; el mercado seguía cerrado al público en julio de 2026"
+      },
+      {
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20Market%2C%20Kinshasa%2C%20ZNTO.jpg?width=1200",
         "source": "https://commons.wikimedia.org/wiki/File:Central%20Market%2C%20Kinshasa%2C%20ZNTO.jpg",
         "credit": "Zaire National Tourism Office · dominio público",
         "caption": "Marché Central de Kinshasa antes de la rehabilitación"
+      },
+      {
+        "img": "https://static.designboom.com/wp-content/uploads/2026/01/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank-designboom-20.jpg",
+        "source": "https://www.designboom.com/architecture/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank/",
+        "credit": "THINK TANK / designboom · fuente editorial",
+        "caption": "Interior del mercado durante la rehabilitación; no acredita una reapertura efectiva"
       }
     ],
     "visit": {
@@ -91,20 +109,45 @@
     "lat": -4.3315072,
     "lon": 15.2190031,
     "desc": "En Kinsuka comienza el sistema de rápidos que vuelve innavegable este tramo del Congo hasta las proximidades de Matadi. Como el río no tiene un único pin visitable, la coordenada se ha fijado en Chez Tintin, un acceso y mirador real desde el que se observan los rápidos; no marca una roca dentro del cauce. Confirmar consumo o tasa de acceso y seguridad local. La corriente es letal y las rocas resbalan: perro siempre con correa corta y nadie debe acercarse al agua.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Congo%20River%20from%20Kinshasa%20in%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Congo%20River%20from%20Kinshasa%20in%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg",
+    "credit": "Reshlove · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Au_fleuve_Congo,_vers_kinsuka.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Au_fleuve_Congo,_vers_kinsuka.jpg",
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
-    "photos": [],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Au_fleuve_Congo,_vers_kinsuka.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Au_fleuve_Congo,_vers_kinsuka.jpg",
+        "credit": "Reshlove · CC BY-SA 4.0",
+        "caption": "Rápidos del Congo cerca de Kinsuka"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutes_Livingstone.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chutes_Livingstone.jpg",
+        "credit": "Vberger · dominio público",
+        "caption": "Inicio de los rápidos de Livingstone en Ngaliema"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fleuve_Congo_Kinshasa_1.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fleuve_Congo_Kinshasa_1.JPG",
+        "credit": "Serein · CC BY-SA 3.0",
+        "caption": "Orilla del Congo en los rápidos superiores; archivo geolocalizado en Kinshasa"
+      }
+    ],
     "visit": {
       "why": "Es la forma más accesible de ver la potencia del Congo cerca de Kinshasa sin organizar una expedición.",
       "see": "Rápidos y rocas desde un mirador comercial; no hay acceso seguro a la orilla del cauce.",
       "access": "El pin es Chez Tintin. Confirmar consumo/tasa y seguridad antes de salir; correa corta y distancia absoluta al agua.",
       "when": "De día y con visibilidad, evitando crecidas o lluvia.",
       "skip": "Descartar si el recinto no confirma apertura o si el acceso obliga a acercarse a rocas mojadas."
-    }
+    },
+    "links": [
+      {
+        "label": "Chez Tintin · acceso y vistas de los rápidos de Kinsuka",
+        "url": "https://www.petitfute.com/v46937-kinshasa/c1165-restaurants/c126-restauration-rapide-a-domicile/c135-sur-place-a-emporter/c140-sur-le-pouce/461108-chez-tintin.html"
+      }
+    ]
   },
   {
     "n": 4,
@@ -113,11 +156,11 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como no admitido",
     "time": "½ día",
-    "lat": -5.1349,
-    "lon": 15.0854,
-    "desc": "A unos 120 km de Kinshasa por la N1, junto a la misión de Kisantu, este jardín histórico fue creado en 1900 por el hermano Justin Gillet. Conserva avenidas de palmeras, estanques, bambú y colecciones de plantas tropicales. Está junto al corredor y puede funcionar como parada de descanso, pero deben confirmarse horario, entrada y política canina; que el perro vaya atado no implica que el recinto lo admita. En Inkisi hay mercado, combustible y alojamientos sencillos.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Entr%C3%A9e%20du%20jardin%20du%20p%C3%A8re%20Gillet%20%C3%A0%20Kisantu%2C%20Bas-Congo.JPG?width=900",
+    "lat": -5.1357358,
+    "lon": 15.0728806,
+    "desc": "Creado en 1900 por el hermano Justin Gillet junto a la misión de Kisantu, el jardín conserva avenidas de palmeras, estanques, bambú y colecciones de plantas tropicales. Es una pausa sombreada junto a la N1, no un gran desvío. El pin coincide ahora con la entrada real del Botanical Garden de Google Maps; el anterior quedaba unos 1,4 km al este y fuera del recinto. Confirmar horario, entrada y política canina: llevar correa no significa que el jardín admita perros.",
+    "credit": "Pandries · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Entr%C3%A9e%20du%20jardin%20du%20p%C3%A8re%20Gillet%20%C3%A0%20Kisantu%2C%20Bas-Congo.JPG?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e%20du%20jardin%20du%20p%C3%A8re%20Gillet%20%C3%A0%20Kisantu%2C%20Bas-Congo.JPG",
     "icon": "naturaleza",
     "color": "verde",
@@ -144,36 +187,67 @@
     ],
     "visit": {
       "why": "Rompe el largo eje N1 con sombra, colecciones botánicas y un jardín histórico que no exige un gran desvío.",
-      "see": "Avenidas de palmeras, bambú, grandes árboles y estanques; el valor está en caminar, no en una sola foto.",
-      "access": "Junto a la N1. Confirmar horario, entrada y admisión del perro; no interpretar una reseña antigua como política vigente.",
-      "when": "Primera hora o tarde para evitar calor.",
-      "skip": "Si no hay confirmación de apertura o política canina, usarlo solo como parada logística exterior."
-    }
+      "see": "Avenidas de palmeras, bambú, grandes árboles y estanques; el valor está en caminar por el recinto, no en una sola fotografía.",
+      "access": "El pin coincide con la entrada real del Jardín Botánico de Kisantu, no con el punto anterior 1,4 km al este. Confirmar horario, entrada y admisión del perro.",
+      "when": "Primera hora o final de la tarde para evitar el calor, dentro de la etapa de la N1.",
+      "skip": "Si no se confirman apertura o política canina, dejar el perro atendido fuera o usar Kisantu solo como parada logística."
+    },
+    "links": [
+      {
+        "label": "Jardín Botánico de Kisantu · visita y acceso",
+        "url": "https://www.petitfute.com/v46943-kisantu/c1173-visites-points-d-interet/c971-parc-jardin/1502727-jardin-botanique-de-kisantu.html"
+      }
+    ]
   },
   {
     "n": 5,
-    "name": "Cuevas de Mbanza-Ngungu (grottes de Thysville)",
+    "name": "Grutas de Mbanza-Ngungu · Finzolua (acceso por confirmar)",
     "cat": "Naturaleza",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "no confirmado — tratar como no admitido",
     "time": "½ día",
-    "lat": -5.2461,
-    "lon": 14.8637,
-    "desc": "Mbanza-Ngungu, la antigua Thysville colonial, se sitúa a unos 700 m de altitud y suele ofrecer temperaturas más suaves que Kinshasa o Matadi. Sus grutas kársticas albergan peces cavernícolas ciegos y despigmentados (Caecobarbus geertsii), una especie endémica y amenazada. El acceso turístico no debe darse por permanente: depende de guía local y del estado de escaleras, pasarelas e iluminación. Confirmar antes de desplazarse y no entrar en cavidades sin acompañamiento autorizado.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/All%C3%A9e%20au%20jardin%20du%20p%C3%A8re%20Gillet%20%C3%A0%20Kisantu.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:All%C3%A9e%20au%20jardin%20du%20p%C3%A8re%20Gillet%20%C3%A0%20Kisantu.JPG",
+    "lat": -5.286058,
+    "lon": 14.877018,
+    "desc": "Las grutas kársticas al sureste de Mbanza-Ngungu albergan fauna cavernícola endémica, incluido el pez ciego Caecobarbus geertsii. La fuente local de Kino Congo describe Finzolua como la única cavidad visitable y trata las demás como reservas científicas sensibles a la erosión y los desprendimientos. El pin se ha movido del centro de la ciudad al área de acceso publicada de Finzolua. Google Maps marca actualmente la ficha como cerrada permanentemente: no planear la entrada sin confirmación local reciente, guía, punto de encuentro y estado seguro de la cavidad.",
+    "credit": "Bomengo Ya RD-Congo · fuente editorial",
+    "img": "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/img-20200110-wa0015.jpg?w=744",
+    "source": "https://bomengoyardcongo.wordpress.com/2020/01/10/un-lieu-mysterieux-au-kongo-central-la-grotte-de-finzolua-ndombolozi/",
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
-    "photos": [],
+    "photos": [
+      {
+        "img": "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/img-20200110-wa0015.jpg?w=744",
+        "source": "https://bomengoyardcongo.wordpress.com/2020/01/10/un-lieu-mysterieux-au-kongo-central-la-grotte-de-finzolua-ndombolozi/",
+        "credit": "Bomengo Ya RD-Congo · fuente editorial",
+        "caption": "Entrada de la gruta de Finzolua-Ndombolozi"
+      },
+      {
+        "img": "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/25507816-1672453339487325-6953823764925004376-n-1.jpg",
+        "source": "https://bomengoyardcongo.wordpress.com/2020/01/10/un-lieu-mysterieux-au-kongo-central-la-grotte-de-finzolua-ndombolozi/",
+        "credit": "Bomengo Ya RD-Congo · fuente editorial",
+        "caption": "Visita local documentada dentro de la cavidad; no implica que siga abierta"
+      },
+      {
+        "img": "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/telechargement-192539266771314577733.jpg",
+        "source": "https://bomengoyardcongo.wordpress.com/2020/01/10/un-lieu-mysterieux-au-kongo-central-la-grotte-de-finzolua-ndombolozi/",
+        "credit": "Bomengo Ya RD-Congo · fuente editorial",
+        "caption": "Galería interior de Finzolua-Ndombolozi en la fuente local"
+      }
+    ],
     "visit": {
-      "why": "Añade una rareza biológica —peces cavernícolas endémicos— y clima de altura al corredor.",
-      "see": "Cuevas kársticas y, solo con guía, hábitat subterráneo; no tocar ni iluminar fauna sensible.",
-      "access": "La infraestructura es intermitente. Preguntar en Mbanza-Ngungu por guía, acceso y pasarelas antes de buscar la entrada.",
-      "when": "Con guía y terreno seguro; reservar medio día.",
-      "skip": "Descartar si no hay responsable local o si escaleras/pasarelas están dañadas."
-    }
+      "why": "Las cavidades kársticas y sus peces cavernícolas endémicos son singulares, pero solo justifican el desvío si existe una visita autorizada y segura.",
+      "see": "Finzolua es la cavidad que la fuente local describe como visitable; las demás grutas se tratan como reservas científicas, no como atracciones abiertas.",
+      "access": "El pin se ha trasladado del centro urbano al área de acceso publicada de Finzolua. Google Maps marca actualmente la ficha de las grutas como cerrada permanentemente: exigir confirmación local reciente, guía y punto de encuentro antes de salir.",
+      "when": "Solo con autorización, guía, frontal, calzado firme y terreno estable; reservar medio día y regresar con luz.",
+      "skip": "Descartar sin responsable local verificable, con lluvia, desprendimientos, pasarelas dañadas o cualquier duda sobre la entrada; el perro no debe acceder a la cavidad."
+    },
+    "links": [
+      {
+        "label": "Kino Congo · grutas de Finzolua y Mbanza-Ngungu",
+        "url": "https://kinocongo.com/blog/experience/les-grottes-de-mbanza-ngungu-finzolua-ndombolozi-37"
+      }
+    ]
   },
   {
     "n": 6,
@@ -182,11 +256,11 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -5.8167,
-    "lon": 13.4833,
-    "desc": "Gran puerto fluvial del país, encajado en las laderas de la garganta del Congo a unos 150 km del mar. El puente Maréchal, inaugurado en 1983 con cooperación japonesa, es una infraestructura clave de la ruta hacia Boma y Muanda. Matadi es además la última gran plaza de servicios antes de Angola: combustible, talleres, banco, hospital y alojamientos. Sus pendientes y el tráfico pesado complican la conducción; no fotografiar ni volar dron cerca del puente, puerto u otras instalaciones estratégicas.",
+    "lat": -5.8249588,
+    "lon": 13.4342982,
+    "desc": "Matadi es el gran puerto fluvial del corredor y la última base importante de combustible, talleres, banco y hospital antes de Angola. El puente colgante, inaugurado en 1983 con cooperación japonesa, salva la garganta del Congo en la ruta hacia Boma y Muanda. El pin coincide ahora con el puente real de Google Maps; el anterior quedaba unos 5,5 km al este. Las pendientes, los camiones y los controles exigen conducir de día y no detenerse, fotografiar ni volar dron donde esté prohibido.",
     "credit": "Χρίστος Ιμμανοελ · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Matadi%20Bridge%20DR%20Congo.jpg?width=900",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Matadi%20Bridge%20DR%20Congo.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Matadi%20Bridge%20DR%20Congo.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
@@ -212,12 +286,18 @@
       }
     ],
     "visit": {
-      "why": "Es una parada logística fuerte y el puente ofrece la mejor lectura visual del Congo encajado antes del Atlántico.",
-      "see": "Garganta, ciudad en ladera y gran puente colgante; el puerto no es zona de visita libre.",
-      "access": "Pendientes, camiones y controles. El pin corresponde al puente, pero no se debe parar ni fotografiar donde lo prohíban.",
-      "when": "Luz diurna; agrupar combustible, taller y hospital en una noche.",
-      "skip": "Si hay restricciones en el puente, conservar la vista desde un lugar autorizado y evitar cualquier discusión."
-    }
+      "why": "Matadi es la última gran base de servicios antes de Angola y el puente permite leer el Congo encajado en la garganta.",
+      "see": "Ciudad en ladera, río y gran puente colgante; el puerto y las infraestructuras estratégicas no son zonas de visita libre.",
+      "access": "El pin coincide ahora con el puente de Matadi, 5,5 km al oeste del punto anterior. No detenerse sobre el tablero ni fotografiar donde esté prohibido; buscar una vista autorizada.",
+      "when": "Con luz diurna; agrupar combustible, taller, banco y descanso en una noche.",
+      "skip": "Si los controles restringen la observación, limitarse a cruzar y conservar Matadi como escala logística sin discutir ni sacar el dron."
+    },
+    "links": [
+      {
+        "label": "JICA · construcción y mantenimiento del puente de Matadi",
+        "url": "https://www.jica.go.jp/overseas/drc/activities/project/05.html"
+      }
+    ]
   },
   {
     "n": 7,
@@ -226,11 +306,11 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "½–1 día",
-    "lat": -5.8511,
-    "lon": 13.0528,
-    "desc": "Boma fue capital del Estado Libre del Congo y después del Congo Belga entre 1886 y 1926, antes del traslado a Léopoldville. Conserva edificios coloniales, la antigua estación y un baobab hueco tradicionalmente asociado al paso de Henry Morton Stanley; los relatos de que sirvió como despacho o alojamiento deben entenderse como memoria local, no como hecho documental cerrado. Es una parada histórica importante del corredor, a unos 130 km de Matadi por la N1.",
+    "lat": -5.8594059,
+    "lon": 13.0559152,
+    "desc": "Boma fue capital del Estado Libre del Congo y del Congo Belga entre 1886 y 1926. Conserva la ribera, la catedral y edificios coloniales, además de un baobab hueco asociado por la tradición local al paso de Henry Morton Stanley. Los relatos sobre su uso como despacho o alojamiento no se presentan como hechos documentales cerrados. El pin coincide ahora con el Baobab de Stanley de Google Maps, casi un kilómetro al sur del punto anterior, y sirve como inicio concreto para una visita histórica corta.",
     "credit": "Χρίστος Ιμμανοελ · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boma%20DR%20Congo.jpg?width=900",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boma%20DR%20Congo.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Boma%20DR%20Congo.jpg",
     "icon": "cultura",
     "color": "morado",
@@ -256,12 +336,18 @@
       }
     ],
     "visit": {
-      "why": "Es la parada histórica principal de Kongo Central: antigua capital, urbanismo colonial y memoria local del baobab.",
-      "see": "Ribera, edificios, catedral y baobab; distinguir tradiciones locales de hechos documentados.",
-      "access": "Recorrido corto con guía/contacto local mejora mucho la lectura y evita entrar en edificios sin permiso.",
-      "when": "Medio día con luz; combinar con el tramo Matadi–Muanda.",
-      "skip": "Recortar a una parada panorámica si no se consigue guía o acceso a los edificios."
-    }
+      "why": "Es la parada histórica principal de Kongo Central: antigua capital, arquitectura colonial y memoria local asociada al baobab.",
+      "see": "Baobab de Stanley, ribera, catedral y edificios históricos; la tradición oral se distingue de los hechos documentados.",
+      "access": "El pin coincide con el Baobab de Stanley en Google Maps, casi 1 km al sur del punto anterior. Un contacto local mejora el recorrido y evita entrar en edificios sin permiso.",
+      "when": "Medio día con luz durante el tramo Matadi–Muanda.",
+      "skip": "Recortar a baobab y ribera si no se consigue guía o acceso; no presentar como hechos cerrados los relatos sobre el uso del árbol por Stanley."
+    },
+    "links": [
+      {
+        "label": "DRC Tourism · baobab de Stanley en Boma",
+        "url": "https://drctourism.com/destinations/stanleys-baobab-tree-boma"
+      }
+    ]
   },
   {
     "n": 8,
@@ -273,18 +359,30 @@
     "lat": -5.9476338,
     "lon": 12.3532564,
     "desc": "El corto litoral atlántico de RD Congo se concentra en el territorio de Muanda, al norte de la desembocadura. El Parque Marino de los Manglares, sitio Ramsar, protege manglares, humedales y fauna acuática; una visita requiere confirmar con el ICCN un acceso autorizado y, si procede, guía y piragua. El pin marca el parque real en Google Maps, no una playa o embarcadero concreto. No soltar al perro: hay fauna, poblaciones y actividad pesquera. Tampoco fotografiar ni usar dron cerca de instalaciones petroleras, portuarias o militares.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L'oc%C3%A9an%20atlantique%20vu%20de%20la%20plage%20de%20Muanda.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:L'oc%C3%A9an%20atlantique%20vu%20de%20la%20plage%20de%20Muanda.jpg",
+    "credit": "DRC Tourism · fuente editorial",
+    "img": "https://drctourism.com/assets/mangrove-marine-park-muanda-CCmWlCR2.webp",
+    "source": "https://drctourism.com/destinations/mangrove-marine-park-muanda",
     "icon": "costa",
     "color": "turquesa",
     "dog_note": "",
     "photos": [
       {
+        "img": "https://drctourism.com/assets/mangrove-marine-park-muanda-CCmWlCR2.webp",
+        "source": "https://drctourism.com/destinations/mangrove-marine-park-muanda",
+        "credit": "DRC Tourism · fuente editorial",
+        "caption": "Canal entre manglares del Parque Marino de Muanda"
+      },
+      {
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Village%20des%20p%C3%AAcheurs.jpg?width=1200",
         "source": "https://commons.wikimedia.org/wiki/File:Village%20des%20p%C3%AAcheurs.jpg",
         "credit": "François Longe · CC BY-SA 4.0",
         "caption": "Desembarco de pescadores dentro del Parque Marino de los Manglares"
+      },
+      {
+        "img": "https://images.squarespace-cdn.com/content/v1/62e2f54f8bc7735761c01679/4ad9d01c-5c2b-4a6a-b585-a454f8f61f03/Coucher-du-soleil-au-Parc-marrin-des-mangroves-a%CC%80-Muanda.jpg",
+        "source": "https://www.hermankambala.com/portfolio/aerial",
+        "credit": "Herman Kambala · portfolio del autor",
+        "caption": "Canal y embarcación al atardecer dentro del Parque Marino de los Manglares"
       }
     ],
     "visit": {
@@ -311,9 +409,9 @@
     "lat": -4.7776877,
     "lon": 14.9064301,
     "desc": "Gran salto del río Inkisi al que se llega por un desvío desde la N1. El pin se ha corregido a la ficha real de las cataratas en Google Maps: el anterior estaba desplazado unos 27 km. Hay oferta turística en el entorno, pero no se debe dar por garantizado el camping, el acceso a la poza ni el estado de la pista; confirmar directamente antes de salir de Kinshasa. Con lluvia el barro puede complicar el último tramo. Perro siempre atado y lejos del borde.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zongo%20Falls%201%20(chutes%20de%20Zongo)%20-%20panoramio.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zongo%20Falls%201%20(chutes%20de%20Zongo)%20-%20panoramio.jpg",
+    "credit": "Fabricewonga · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zongo%20Falls%206%20(chutes%20de%20Zongo)%20-%20panoramio.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Zongo%20Falls%206%20(chutes%20de%20Zongo)%20-%20panoramio.jpg",
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
@@ -343,7 +441,13 @@
       "access": "Desvío con último tramo sensible al barro. Confirmar entrada, pista y alojamiento directamente.",
       "when": "Con caudal pero sin lluvia fuerte; llegar con margen de luz.",
       "skip": "No bajar a zonas resbaladizas ni contar con dormir allí sin reserva confirmada."
-    }
+    },
+    "links": [
+      {
+        "label": "Kino Congo · visita y alojamiento en las cataratas de Zongo",
+        "url": "https://kinocongo.com/blog/experience/seli-safari-resort-zongo-11"
+      }
+    ]
   },
   {
     "n": 10,
@@ -355,9 +459,9 @@
     "lat": -4.4904949,
     "lon": 15.2681556,
     "desc": "A unos 25 km al sur del centro de Kinshasa, en las Petites Chutes de la Lukaya (Mont Ngafula), el único santuario del mundo dedicado al bonobo: un gran simio que solo existe en RD Congo, al sur del río Congo, y que es el pariente vivo más próximo al ser humano junto con el chimpancé. No es un parque nacional ni un zoo, sino un centro de rescate y rehabilitación de crías huérfanas del tráfico de carne de caza, fundado en 1994 por Claudine André, con un bosque de 30 ha donde los grupos viven semilibres. Abre al público en días concretos (habitualmente fines de semana y con horario limitado): confirmar por correo antes de ir. IMPORTANTE: los simios son susceptibles a enfermedades humanas y caninas — dar por hecho que el perro NO entra y que hay que planificar turnos o dejarlo en el alojamiento de Kinshasa.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonobo.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Bonobo.jpg",
+    "credit": "Christina Bergey · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonobo%20(Pan%20paniscus)%20at%20Lola%20Ya%20Bonobo%20-%201.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bonobo%20(Pan%20paniscus)%20at%20Lola%20Ya%20Bonobo%20-%201.JPG",
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
@@ -405,18 +509,30 @@
     "lat": -4.2571244,
     "lon": 15.6300955,
     "desc": "En el extremo oriental de la provincia de Kinshasa, cerca del río N'sele, este espacio privado combina sabana, galería fluvial y fauna reintroducida. El pin se ha trasladado a la entrada real de Nsele Valley Park; el anterior quedaba unos 13 km desplazado. Antes de ir, confirmar horario, tasa, acceso con vehículo propio y política canina. Al haber fauna, partir de que el perro no entra salvo autorización escrita y preparar un plan de turnos.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonobo%20at%20Nsele%20Valley%20Park%2C%20Kinshasa%2C%20DR%20Congo.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Bonobo%20at%20Nsele%20Valley%20Park%2C%20Kinshasa%2C%20DR%20Congo.jpg",
+    "credit": "Rahul Tilak · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parc_De_la_Valle_de_la_N%27Sele_Kinshasa_DRC.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Parc_De_la_Valle_de_la_N%27Sele_Kinshasa_DRC.jpg",
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
     "photos": [
       {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parc_De_la_Valle_de_la_N%27Sele_Kinshasa_DRC.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Parc_De_la_Valle_de_la_N%27Sele_Kinshasa_DRC.jpg",
+        "credit": "Rahul Tilak · CC BY-SA 4.0",
+        "caption": "Puerta 1 del Parc de la Vallée de la Nsele"
+      },
+      {
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonobo%20at%20Nsele%20Valley%20Park%2C%20Kinshasa%2C%20DR%20Congo.jpg?width=1200",
         "source": "https://commons.wikimedia.org/wiki/File:Bonobo%20at%20Nsele%20Valley%20Park%2C%20Kinshasa%2C%20DR%20Congo.jpg",
         "credit": "EdwinAlden.1995 · CC BY-SA 4.0",
         "caption": "Bonobo fotografiado en Nsele Valley Park"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nsele_Valley_Park,_Kinshasa,_DR_Congo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nsele_Valley_Park,_Kinshasa,_DR_Congo.jpg",
+        "credit": "EdwinAlden.1995 · CC BY-SA 4.0",
+        "caption": "Búfalo dentro de Nsele Valley Park"
       }
     ],
     "visit": {
@@ -425,7 +541,13 @@
       "access": "Pin de entrada corregido. Confirmar tasa, vehículo propio, actividades y admisión del perro por escrito.",
       "when": "Solo con reserva y de día.",
       "skip": "Descartarlo si la oferta no está clara o no hay plan externo para el perro."
-    }
+    },
+    "links": [
+      {
+        "label": "Kino Congo · Parc de la Vallée de la Nsele",
+        "url": "https://kinocongo.com/blog/experience/parc-de-la-vallee-de-la-nsele-14"
+      }
+    ]
   },
   {
     "n": 12,
@@ -437,18 +559,30 @@
     "lat": -4.3411766,
     "lon": 15.3139128,
     "desc": "La rumba congoleña está inscrita en la Lista Representativa del Patrimonio Cultural Inmaterial de la UNESCO desde 2021. El pin marca la Place des Artistes, junto al Rond-Point Victoire y el barrio de Matonge, un punto cultural reconocible; no promete que haya un concierto en esa coordenada. Consultar programación local reciente y acudir acompañado, con transporte conocido y aparcamiento vigilado. No fotografiar a personas sin permiso y dejar al perro en el alojamiento.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bakolo%20Music%20International%2C%20the%20oldest%20traditional%20congolese%20rumba%20music%20group%20during%20a%20rehearsal%20In%20Kinshasa.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Bakolo%20Music%20International%2C%20the%20oldest%20traditional%20congolese%20rumba%20music%20group%20during%20a%20rehearsal%20In%20Kinshasa.jpg",
+    "credit": "Audry243 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Place_des_artistes.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Place_des_artistes.jpg",
     "icon": "cultura",
     "color": "morado",
     "dog_note": "",
     "photos": [
       {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Place_des_artistes.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Place_des_artistes.jpg",
+        "credit": "Audry243 · CC BY-SA 4.0",
+        "caption": "Place des Artistes y su monumento, fotografiados en 2025"
+      },
+      {
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bakolo%20Music%20International%2C%20the%20oldest%20traditional%20congolese%20rumba%20music%20group%20during%20a%20rehearsal%20In%20Kinshasa.jpg?width=1200",
         "source": "https://commons.wikimedia.org/wiki/File:Bakolo%20Music%20International%2C%20the%20oldest%20traditional%20congolese%20rumba%20music%20group%20during%20a%20rehearsal%20In%20Kinshasa.jpg",
         "credit": "Jeanne Vu Van · CC BY-SA 4.0",
         "caption": "Ensayo de rumba de Bakolo Music International en Kinshasa"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Place_des_artistes_kinshasa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Place_des_artistes_kinshasa.jpg",
+        "credit": "Iyongi · CC0",
+        "caption": "Monumento de la Place des Artistes en 2015"
       }
     ],
     "visit": {

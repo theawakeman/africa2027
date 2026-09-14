@@ -43,6 +43,14 @@ Loufoulakari de Béla, la Escuela de Poto-Poto de los mercados, el museo nuevo d
 antiguo palacio y la memoria del Congo-Océan de un servicio de pasajeros que no
 se ha podido confirmar.
 
+RD Congo cierra la segunda pasada y, con ello, el grupo completo: 12/12 PDIs con
+ficha de decisión, 12/12 con enlace útil y 12/12 con carrusel de tres fotografías.
+Se validaron 29 archivos en la API de Commons y siete imágenes externas contra
+su URL de origen, sin duplicados entre fichas. La segunda comprobación manual de
+Google Maps corrigió además Gombe, Kisantu, Finzolua, el puente de Matadi y el
+baobab de Boma. Zando y las grutas se mantienen como visitas cerradas o por
+confirmar: disponer de fotografías no se interpreta como prueba de apertura.
+
 ## Alcance de la primera pasada
 
 - Se revisaron las asignaciones fotográficas de los 92 PDIs. Cada ficha tiene
@@ -67,9 +75,9 @@ se ha podido confirmar.
 | Camerún | 21 | 11/11 | 21 | 21 | 55 + 3 externas | 0 |
 | Gabón | 19 | 9/9 | 19 | 19 | 43 + 12 externas | 0 |
 | Congo | 18 | 8/8 | 18 | 18 | 35 + 19 externas | 0 |
-| RD Congo | 12 | 9/9 | 10 | 6 | 22 | 2 |
+| RD Congo | 12 | 9/9 | 12 | 12 | 29 + 7 externas | 0 |
 | Angola | 22 | 11/11 | 22 | 19 | 54 + 2 externas | 0 |
-| **Total provisional** | **92** | **48/48** | **90** | **83** | **209 + 36 externas** | **2** |
+| **Total** | **92** | **48/48** | **92** | **89** | **216 + 43 externas** | **0** |
 
 ## Problema inicial y criterio aplicado
 
@@ -85,13 +93,13 @@ rotulan sin ambigüedad: Cangandala usa una foto de la palanca negra gigante
 tomada en Luando y un mapa de distribución; Tchitundu-Hulu usa una reproducción
 del motivo «Sol de Angola», no una vista del yacimiento.
 
-## Hueco deliberado en prioridad alta
+## Cierre visual
 
-- **RD Congo:** rápidos de Kinsuka / Chez Tintin.
-
-Ese PDI mantiene la información de decisión, pero no muestra una imagen ajena
-como si fuera el lugar. Se cerrará en la siguiente unidad de trabajo con una
-fuente visual que identifique inequívocamente el enclave.
+No queda ningún hueco fotográfico en el grupo. Kinsuka se ha cerrado con tres
+archivos que Commons identifica como Kinsuka, Ngaliema o los rápidos superiores
+de Livingstone en Kinshasa; uno de ellos incluye coordenadas junto al PDI. Las
+grutas usan fotografías cuya fuente identifica Finzolua-Ndombolozi, y los pies
+advierten que una visita documentada no demuestra que el acceso siga abierto.
 
 ## Hallazgos de actualidad incorporados
 
@@ -103,7 +111,8 @@ fuente visual que identifique inequívocamente el enclave.
   presenta como una concentración documentada, no como censo ni promesa de
   avistamiento.
 
-## Pendiente de esta reapertura
+## Estado de esta reapertura
 
-Queda por cerrar RD Congo. Hasta entonces este grupo no vuelve a marcarse como
-terminado bajo el nuevo estándar.
+Grupo 4 cerrado bajo el nuevo estándar. La auditoría específica de agua de
+servicio permanece separada para no mezclar una fuente visual verificada con la
+confirmación operativa de un punto de recarga.

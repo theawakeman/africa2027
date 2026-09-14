@@ -116,6 +116,16 @@ LINKS: dict[str, dict[int, tuple[str, str]]] = {
         17: ("WCS · creación y patrimonio natural de Ogooué-Leketi", "https://congo.wcs.org/fr-fr/News/ID/25021/Creation-du-Parc-National-dOgoue-Leketi"),
         18: ("Monumento del Ecuador · ficha cartográfica y coordenadas", "https://virtualglobetrotting.com/map/equator-monument-2/"),
     },
+    "rd-congo": {
+        1: ("DRC Tourism · visitar Kinshasa", "https://drctourism.com/destinations/kinshasa"),
+        3: ("Chez Tintin · acceso y vistas de los rápidos de Kinsuka", "https://www.petitfute.com/v46937-kinshasa/c1165-restaurants/c126-restauration-rapide-a-domicile/c135-sur-place-a-emporter/c140-sur-le-pouce/461108-chez-tintin.html"),
+        4: ("Jardín Botánico de Kisantu · visita y acceso", "https://www.petitfute.com/v46943-kisantu/c1173-visites-points-d-interet/c971-parc-jardin/1502727-jardin-botanique-de-kisantu.html"),
+        5: ("Kino Congo · grutas de Finzolua y Mbanza-Ngungu", "https://kinocongo.com/blog/experience/les-grottes-de-mbanza-ngungu-finzolua-ndombolozi-37"),
+        6: ("JICA · construcción y mantenimiento del puente de Matadi", "https://www.jica.go.jp/overseas/drc/activities/project/05.html"),
+        7: ("DRC Tourism · baobab de Stanley en Boma", "https://drctourism.com/destinations/stanleys-baobab-tree-boma"),
+        9: ("Kino Congo · visita y alojamiento en las cataratas de Zongo", "https://kinocongo.com/blog/experience/seli-safari-resort-zongo-11"),
+        11: ("Kino Congo · Parc de la Vallée de la Nsele", "https://kinocongo.com/blog/experience/parc-de-la-vallee-de-la-nsele-14"),
+    },
 }
 
 
@@ -392,6 +402,43 @@ VISITS: dict[str, dict[int, dict[str, str]]] = {
             "skip": "No convertirlo en una noche adicional si se dispone de luz y autonomía para llegar a la escala planificada.",
         },
     },
+    "rd-congo": {
+        1: {
+            "why": "Es la base imprescindible para el ferry, documentación, reparaciones y abastecimiento, y permite entender la escala de la capital frente a Brazzaville.",
+            "see": "Gombe, el frente del Congo y la vida urbana; el objetivo es combinar contexto de la ciudad con gestiones, no acumular monumentos.",
+            "access": "El pin se fija en Central Station Square, una referencia pública real de Gombe. No representa un hotel ni garantiza aparcamiento: contratar conductor o medir rutas, usar parking vigilado y dejar grandes márgenes.",
+            "when": "Días laborables para trámites y desplazamientos solo con luz; reservar al menos dos noches alrededor del ferry.",
+            "skip": "Reducir la visita urbana si empeoran la seguridad o el tráfico, pero conservar el tiempo de gestiones y nunca improvisar una base sin aparcamiento seguro.",
+        },
+        4: {
+            "why": "Rompe el largo eje N1 con sombra, colecciones botánicas y un jardín histórico que no exige un gran desvío.",
+            "see": "Avenidas de palmeras, bambú, grandes árboles y estanques; el valor está en caminar por el recinto, no en una sola fotografía.",
+            "access": "El pin coincide con la entrada real del Jardín Botánico de Kisantu, no con el punto anterior 1,4 km al este. Confirmar horario, entrada y admisión del perro.",
+            "when": "Primera hora o final de la tarde para evitar el calor, dentro de la etapa de la N1.",
+            "skip": "Si no se confirman apertura o política canina, dejar el perro atendido fuera o usar Kisantu solo como parada logística.",
+        },
+        5: {
+            "why": "Las cavidades kársticas y sus peces cavernícolas endémicos son singulares, pero solo justifican el desvío si existe una visita autorizada y segura.",
+            "see": "Finzolua es la cavidad que la fuente local describe como visitable; las demás grutas se tratan como reservas científicas, no como atracciones abiertas.",
+            "access": "El pin se ha trasladado del centro urbano al área de acceso publicada de Finzolua. Google Maps marca actualmente la ficha de las grutas como cerrada permanentemente: exigir confirmación local reciente, guía y punto de encuentro antes de salir.",
+            "when": "Solo con autorización, guía, frontal, calzado firme y terreno estable; reservar medio día y regresar con luz.",
+            "skip": "Descartar sin responsable local verificable, con lluvia, desprendimientos, pasarelas dañadas o cualquier duda sobre la entrada; el perro no debe acceder a la cavidad.",
+        },
+        6: {
+            "why": "Matadi es la última gran base de servicios antes de Angola y el puente permite leer el Congo encajado en la garganta.",
+            "see": "Ciudad en ladera, río y gran puente colgante; el puerto y las infraestructuras estratégicas no son zonas de visita libre.",
+            "access": "El pin coincide ahora con el puente de Matadi, 5,5 km al oeste del punto anterior. No detenerse sobre el tablero ni fotografiar donde esté prohibido; buscar una vista autorizada.",
+            "when": "Con luz diurna; agrupar combustible, taller, banco y descanso en una noche.",
+            "skip": "Si los controles restringen la observación, limitarse a cruzar y conservar Matadi como escala logística sin discutir ni sacar el dron.",
+        },
+        7: {
+            "why": "Es la parada histórica principal de Kongo Central: antigua capital, arquitectura colonial y memoria local asociada al baobab.",
+            "see": "Baobab de Stanley, ribera, catedral y edificios históricos; la tradición oral se distingue de los hechos documentados.",
+            "access": "El pin coincide con el Baobab de Stanley en Google Maps, casi 1 km al sur del punto anterior. Un contacto local mejora el recorrido y evita entrar en edificios sin permiso.",
+            "when": "Medio día con luz durante el tramo Matadi–Muanda.",
+            "skip": "Recortar a baobab y ribera si no se consigue guía o acceso; no presentar como hechos cerrados los relatos sobre el uso del árbol por Stanley.",
+        },
+    },
 }
 
 
@@ -419,6 +466,13 @@ COORDS: dict[str, dict[int, tuple[float, float]]] = {
         13: (-4.62554, 11.85238),
         15: (-4.269353, 15.288332),
     },
+    "rd-congo": {
+        1: (-4.301578, 15.3164745),
+        4: (-5.1357358, 15.0728806),
+        5: (-5.286058, 14.877018),
+        6: (-5.8249588, 13.4342982),
+        7: (-5.8594059, 13.0559152),
+    },
 }
 
 
@@ -431,6 +485,17 @@ NAMES: dict[str, dict[int, str]] = {
         10: "Escuela de Pintura de Poto-Poto",
         13: "Nuevo Museo Mâ Loango de Diosso",
         15: "Estación de Brazzaville · memoria del Congo-Océan",
+    },
+    "rd-congo": {
+        1: "Kinshasa · base logística en Gombe",
+        5: "Grutas de Mbanza-Ngungu · Finzolua (acceso por confirmar)",
+    },
+}
+
+
+DOGS: dict[str, dict[int, str]] = {
+    "rd-congo": {
+        5: "no confirmado — tratar como no admitido",
     },
 }
 
@@ -600,6 +665,45 @@ DESCRIPTIONS: dict[str, dict[int, str]] = {
             "la base de servicios importante de la RN2. Detenerse fuera de la calzada y no confundir ambas ciudades."
         ),
     },
+    "rd-congo": {
+        1: (
+            "Kinshasa se extiende frente a Brazzaville, al otro lado del Congo, y concentra en Gombe embajadas, "
+            "bancos, supermercados y parte de los talleres y recambios más útiles del corredor occidental. Es "
+            "la base principal para resolver ferry, documentación y averías antes de continuar hacia Angola. El "
+            "pin ya no es un centroide urbano: coincide con Central Station Square, referencia pública real de "
+            "Gombe. No implica hotel ni aparcamiento; el tráfico obliga a usar estacionamiento vigilado, rutas "
+            "medidas y márgenes amplios, siempre con luz."
+        ),
+        4: (
+            "Creado en 1900 por el hermano Justin Gillet junto a la misión de Kisantu, el jardín conserva avenidas "
+            "de palmeras, estanques, bambú y colecciones de plantas tropicales. Es una pausa sombreada junto a la "
+            "N1, no un gran desvío. El pin coincide ahora con la entrada real del Botanical Garden de Google Maps; "
+            "el anterior quedaba unos 1,4 km al este y fuera del recinto. Confirmar horario, entrada y política "
+            "canina: llevar correa no significa que el jardín admita perros."
+        ),
+        5: (
+            "Las grutas kársticas al sureste de Mbanza-Ngungu albergan fauna cavernícola endémica, incluido el "
+            "pez ciego Caecobarbus geertsii. La fuente local de Kino Congo describe Finzolua como la única cavidad "
+            "visitable y trata las demás como reservas científicas sensibles a la erosión y los desprendimientos. "
+            "El pin se ha movido del centro de la ciudad al área de acceso publicada de Finzolua. Google Maps marca "
+            "actualmente la ficha como cerrada permanentemente: no planear la entrada sin confirmación local reciente, "
+            "guía, punto de encuentro y estado seguro de la cavidad."
+        ),
+        6: (
+            "Matadi es el gran puerto fluvial del corredor y la última base importante de combustible, talleres, "
+            "banco y hospital antes de Angola. El puente colgante, inaugurado en 1983 con cooperación japonesa, "
+            "salva la garganta del Congo en la ruta hacia Boma y Muanda. El pin coincide ahora con el puente real "
+            "de Google Maps; el anterior quedaba unos 5,5 km al este. Las pendientes, los camiones y los controles "
+            "exigen conducir de día y no detenerse, fotografiar ni volar dron donde esté prohibido."
+        ),
+        7: (
+            "Boma fue capital del Estado Libre del Congo y del Congo Belga entre 1886 y 1926. Conserva la ribera, "
+            "la catedral y edificios coloniales, además de un baobab hueco asociado por la tradición local al paso "
+            "de Henry Morton Stanley. Los relatos sobre su uso como despacho o alojamiento no se presentan como "
+            "hechos documentales cerrados. El pin coincide ahora con el Baobab de Stanley de Google Maps, casi un "
+            "kilómetro al sur del punto anterior, y sirve como inicio concreto para una visita histórica corta."
+        ),
+    },
 }
 
 
@@ -658,6 +762,36 @@ FICHA_REPLACEMENTS: dict[str, list[tuple[str, str]]] = {
         (
             "Última revisión de esta versión: 12 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Las tarifas de Odzala citadas son las públicas de 2025 y hay que revalidarlas para 2027.",
             "Última revisión de esta versión: 14 de septiembre de 2026. La historia, los PDI, sus fotografías, enlaces y coordenadas se han auditado; esta ficha sigue siendo una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Las tarifas y condiciones operativas deben revalidarse para 2027.",
+        ),
+    ],
+    "rd-congo": [
+        ("&lt;em&gt;", "<em>"),
+        ("&lt;/em&gt;", "</em>"),
+        ("&lt;strong&gt;", "<strong>"),
+        ("&lt;/strong&gt;", "</strong>"),
+        (
+            "Jardín Botánico de Kisantu: 225 ha recorribles a pie por avenidas de palmeras, estanques de nenúfares gigantes, bambusal y arboreto tropical. Es un paseo, no una excursión, pero es la mejor manera de estirar las piernas con sombra en todo el eje y funciona perfectamente con el perro atado.",
+            "Jardín Botánico de Kisantu: paseo sombreado por avenidas de palmeras, estanques, bambusal y arboreto tropical. La entrada real ya está fijada; confirmar horario y política canina, porque la correa no implica que el recinto admita perros.",
+        ),
+        (
+            "Costa de Muanda: caminata larga por la playa atlántica hasta la desembocadura del Congo, el único litoral del país. Sin sombra, mucho sol: agua de sobra y horario de primera o última hora. Es la excursión a pie más agradable del corredor y la única en la que el perro puede ir suelto.",
+            "Costa de Muanda: caminata por un tramo autorizado de la playa atlántica. Sin sombra, mucho sol y presencia de fauna, pesca y poblaciones: llevar agua, mantener al perro con correa y confirmar el tramo seguro y la política del alojamiento.",
+        ),
+        (
+            "Acceso a las grutas de Mbanza-Ngungu: pistas cortas desde la ciudad, dependientes de guía local; el estado del último tramo varía mucho de una temporada a otra — confirmar en el momento.",
+            "Acceso a las grutas de Mbanza-Ngungu: el pin ya está en el área publicada de Finzolua, no en la ciudad. Google Maps marca la ficha como cerrada permanentemente; solo desplazarse con confirmación local reciente, guía y punto de encuentro exacto.",
+        ),
+        (
+            "Grutas de Mbanza-Ngungu: recorrido subterráneo con guía local por las galerías kársticas donde viven los peces ciegos endémicos. Hace falta frontal propio y calzado que se pueda mojar; confirmar sobre el terreno si las escaleras y pasarelas están practicables.",
+            "Grutas de Mbanza-Ngungu: Finzolua solo se considera candidata si una fuente local confirma que ha reabierto y asigna guía. Las demás cavidades son reservas científicas; no entrar con lluvia, desprendimientos o infraestructura dudosa.",
+        ),
+        (
+            '<tr ><td>Fotos pendientes de sustituir</td><td>Las grutas de Mbanza-Ngungu, Lola ya Bonobo y los rápidos de Kinsuka usan imágenes de referencia de su región o de la especie, no del propio sitio: sustituir por fotos propias cuando las tengamos.</td></tr>',
+            "",
+        ),
+        (
+            "Última revisión de esta versión: 12 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Cubre EXCLUSIVAMENTE el corredor occidental de tránsito (Kinshasa, Kongo Central, Matadi, Boma, Muanda y la frontera de Lufu/Luvo); no cubre ni es aplicable en absoluto al este del país (Kivu Norte, Kivu Sur, Ituri), en conflicto armado activo y a más de 1.500 km de esta ruta.",
+            "Última revisión de esta versión: 14 de septiembre de 2026. La historia y los PDI del corredor occidental, incluidas fotografías, enlaces y coordenadas, se han auditado; el agua de servicio sigue una auditoría logística separada. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Cubre EXCLUSIVAMENTE Kinshasa, Kongo Central, Matadi, Boma, Muanda y Lufu/Luvo; no cubre el este del país.",
         ),
     ],
 }
@@ -1081,6 +1215,69 @@ PHOTOS: dict[str, dict[int, list[dict[str, str]]]] = {
             commons("Makoua (Republic of the Congo) - Former bell tower.JPG", "Bsm15 · CC BY-SA 3.0", "Antigua torre de Makoua, referencia urbana secundaria"),
         ],
     },
+    "rd-congo": {
+        2: [
+            {
+                "img": "https://www.designboom.com/twitterimages/uploads/2026/01/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank-designboom-1200.jpg",
+                "source": "https://www.designboom.com/architecture/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank/",
+                "credit": "THINK TANK / designboom · fuente editorial",
+                "caption": "Exterior rehabilitado del Marché Central; el mercado seguía cerrado al público en julio de 2026",
+            },
+            {
+                "img": "https://static.designboom.com/wp-content/uploads/2026/01/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank-designboom-20.jpg",
+                "source": "https://www.designboom.com/architecture/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank/",
+                "credit": "THINK TANK / designboom · fuente editorial",
+                "caption": "Interior del mercado durante la rehabilitación; no acredita una reapertura efectiva",
+            },
+        ],
+        3: [
+            commons("Au fleuve Congo, vers kinsuka.jpg", "Reshlove · CC BY-SA 4.0", "Rápidos del Congo cerca de Kinsuka"),
+            commons("Chutes Livingstone.jpg", "Vberger · dominio público", "Inicio de los rápidos de Livingstone en Ngaliema"),
+            commons("Fleuve Congo Kinshasa 1.JPG", "Serein · CC BY-SA 3.0", "Orilla del Congo en los rápidos superiores; archivo geolocalizado en Kinshasa"),
+        ],
+        5: [
+            {
+                "img": "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/img-20200110-wa0015.jpg?w=744",
+                "source": "https://bomengoyardcongo.wordpress.com/2020/01/10/un-lieu-mysterieux-au-kongo-central-la-grotte-de-finzolua-ndombolozi/",
+                "credit": "Bomengo Ya RD-Congo · fuente editorial",
+                "caption": "Entrada de la gruta de Finzolua-Ndombolozi",
+            },
+            {
+                "img": "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/25507816-1672453339487325-6953823764925004376-n-1.jpg",
+                "source": "https://bomengoyardcongo.wordpress.com/2020/01/10/un-lieu-mysterieux-au-kongo-central-la-grotte-de-finzolua-ndombolozi/",
+                "credit": "Bomengo Ya RD-Congo · fuente editorial",
+                "caption": "Visita local documentada dentro de la cavidad; no implica que siga abierta",
+            },
+            {
+                "img": "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/telechargement-192539266771314577733.jpg",
+                "source": "https://bomengoyardcongo.wordpress.com/2020/01/10/un-lieu-mysterieux-au-kongo-central-la-grotte-de-finzolua-ndombolozi/",
+                "credit": "Bomengo Ya RD-Congo · fuente editorial",
+                "caption": "Galería interior de Finzolua-Ndombolozi en la fuente local",
+            },
+        ],
+        8: [
+            {
+                "img": "https://drctourism.com/assets/mangrove-marine-park-muanda-CCmWlCR2.webp",
+                "source": "https://drctourism.com/destinations/mangrove-marine-park-muanda",
+                "credit": "DRC Tourism · fuente editorial",
+                "caption": "Canal entre manglares del Parque Marino de Muanda",
+            },
+            {
+                "img": "https://images.squarespace-cdn.com/content/v1/62e2f54f8bc7735761c01679/4ad9d01c-5c2b-4a6a-b585-a454f8f61f03/Coucher-du-soleil-au-Parc-marrin-des-mangroves-a%CC%80-Muanda.jpg",
+                "source": "https://www.hermankambala.com/portfolio/aerial",
+                "credit": "Herman Kambala · portfolio del autor",
+                "caption": "Canal y embarcación al atardecer dentro del Parque Marino de los Manglares",
+            },
+        ],
+        11: [
+            commons("Parc De la Valle de la N'Sele Kinshasa DRC.jpg", "Rahul Tilak · CC BY-SA 4.0", "Puerta 1 del Parc de la Vallée de la Nsele"),
+            commons("Nsele Valley Park, Kinshasa, DR Congo.jpg", "EdwinAlden.1995 · CC BY-SA 4.0", "Búfalo dentro de Nsele Valley Park"),
+        ],
+        12: [
+            commons("Place des artistes.jpg", "Audry243 · CC BY-SA 4.0", "Place des Artistes y su monumento, fotografiados en 2025"),
+            commons("Place des artistes kinshasa.jpg", "Iyongi · CC0", "Monumento de la Place des Artistes en 2015"),
+        ],
+    },
 }
 
 
@@ -1104,6 +1301,9 @@ REMOVE_LINKS: dict[str, set[str]] = {
         "https://upr-info.org/sites/default/files/country-document/2024-03/A_HRC_WG.45_COG_1_E.pdf",
         "https://www.wcscongoblog.org/wp-content/uploads/2016/02/brochure-Guide-to-Nouabale-Ndoki.pdf",
     },
+    "rd-congo": {
+        "https://kinocongo.com/blog/activites-3/jardin-botanique-de-kisantu-28",
+    },
 }
 
 
@@ -1126,6 +1326,10 @@ REMOVE_PHOTOS: dict[str, set[str]] = {
         "https://commons.wikimedia.org/wiki/File:Wikim%C3%A9dia_R%C3%A9publique_du_Congo_-_Pointe_Noire._02.jpg",
         "https://commons.wikimedia.org/wiki/File:Travailleurs_sur_le_chantier_du_chemin_de_fer_Congo-Oc%C3%A9an,_dans_la_colonie_fran%C3%A7aise_du_Moyen-Congo,_vers_1923.png",
     },
+    "rd-congo": {
+        "https://drctourism.com/destinations/mangrove-marine-park-muanda",
+        "https://commons.wikimedia.org/wiki/File:Fleuve_Congo_Kinshasa_1.JPG",
+    },
 }
 
 
@@ -1134,9 +1338,17 @@ PHOTO_LEADS: dict[str, dict[int, str]] = {
         13: "https://static1.evcdn.net/images/reduction/279557_w-1600_h-1200_q-70_m-crop.jpg",
         18: "https://img.rts.ch/articles/2023/image/u36r77-26153018.image?h=720&w=1280",
     },
+    "rd-congo": {
+        2: "https://www.designboom.com/twitterimages/uploads/2026/01/concrete-canopies-porous-brick-walls-central-market-redevelopment-kinshasa-congo-think-tank-designboom-1200.jpg",
+        3: "https://commons.wikimedia.org/wiki/Special:FilePath/Au%20fleuve%20Congo%2C%20vers%20kinsuka.jpg?width=1200",
+        5: "https://bomengoyardcongo.wordpress.com/wp-content/uploads/2020/01/img-20200110-wa0015.jpg?w=744",
+        8: "https://drctourism.com/assets/mangrove-marine-park-muanda-CCmWlCR2.webp",
+        11: "https://commons.wikimedia.org/wiki/Special:FilePath/Parc%20De%20la%20Valle%20de%20la%20N%27Sele%20Kinshasa%20DRC.jpg?width=1200",
+        12: "https://commons.wikimedia.org/wiki/Special:FilePath/Place%20des%20artistes.jpg?width=1200",
+    },
 }
 
-SYNC_PRIMARY_PHOTO = {"gabon", "congo"}
+SYNC_PRIMARY_PHOTO = {"gabon", "congo", "rd-congo"}
 
 
 def apply(country: str) -> None:
@@ -1171,6 +1383,9 @@ def apply(country: str) -> None:
 
     for number, name in NAMES.get(country, {}).items():
         by_number[number]["name"] = name
+
+    for number, dog in DOGS.get(country, {}).items():
+        by_number[number]["dog"] = dog
 
     for number, description in DESCRIPTIONS.get(country, {}).items():
         by_number[number]["desc"] = description
