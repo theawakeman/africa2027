@@ -95,6 +95,19 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .poi-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(290px,1fr)); gap:18px; margin-top:18px; }
 .poi-card { background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; font-family:"Archivo", "Helvetica Neue", Arial, sans-serif; }
 .poi-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
+.poi-carousel { position:relative; overflow:hidden; background:var(--surface); }
+.poi-carousel-track { display:flex; transition:transform .22s ease; }
+.poi-carousel figure { flex:0 0 100%; width:100%; margin:0; }
+.poi-carousel figcaption { display:none; }
+.poi-carousel button { position:absolute; top:50%; transform:translateY(-50%); z-index:2;
+  width:34px; height:34px; display:grid; place-items:center; padding:0; border:1px solid rgba(255,255,255,.45);
+  border-radius:99px; cursor:pointer; color:#fff; background:rgba(22,50,79,.76); box-shadow:0 2px 8px rgba(0,0,0,.22); }
+.poi-carousel button:hover, .poi-carousel button:focus-visible { background:var(--navy); }
+.poi-carousel button svg { width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round; }
+.poi-carousel .prev { left:8px; }
+.poi-carousel .next { right:8px; }
+.poi-carousel-count { position:absolute; right:8px; top:8px; z-index:2; padding:2px 7px;
+  border-radius:99px; color:#fff; background:rgba(22,50,79,.78); font:700 10.5px/1.5 "Archivo",sans-serif; }
 .poi-grid > .poi-card { cursor:pointer; }
 .poi-grid > .poi-card .poi-desc:not(.dognote) { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:5; overflow:hidden; }
 .poi-grid > .poi-card .poi-details { display:none; }
@@ -174,6 +187,9 @@ code a.fuente::after { opacity:.45; }
 dialog.poi-modal { border:none; border-radius:12px; padding:0; max-width:520px; width:calc(100vw - 32px); max-height:calc(100vh - 32px); overflow:auto; background:var(--surface); color:var(--ink); box-shadow:0 12px 50px rgba(0,0,0,.4); }
 dialog.poi-modal::backdrop { background:rgba(10,20,30,.55); }
 dialog.poi-modal .poi-card { border:none; border-radius:0; }
+dialog.poi-modal .poi-carousel figcaption { display:block; min-height:52px; padding:8px 42px 9px; border-top:1px solid var(--line); color:var(--ink-soft); font-size:12px; line-height:1.4; }
+dialog.poi-modal .poi-carousel button { top:calc((100% - 52px)/2); }
+dialog.poi-modal .poi-carousel-count { right:48px; }
 dialog.poi-modal .close { position:absolute; top:8px; right:8px; z-index:2; background:rgba(22,50,79,.75); color:#fff; border:none; border-radius:99px; width:32px; height:32px; font-size:17px; cursor:pointer; font-family:Archivo,sans-serif; }
 
 .srcs { columns:2; column-gap:34px; padding-left:18px; font-size:14.5px; font-family:"Archivo",sans-serif; }
