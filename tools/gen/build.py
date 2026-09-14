@@ -202,6 +202,46 @@ def poi_primary_img(p):
     photos = poi_photos(p)
     return photos[0]["img"] if photos else ""
 
+CAROUSEL_JS = r"""
+<script>
+(function(){
+  function move(carousel, step){
+    const slides = carousel.querySelectorAll('figure');
+    if (!slides.length) return;
+    let index = Number(carousel.dataset.index || 0);
+    index = (index + step + slides.length) % slides.length;
+    carousel.dataset.index = String(index);
+    carousel.querySelector('.poi-carousel-track').style.transform = 'translateX(-' + (index * 100) + '%)';
+    const count = carousel.querySelector('.poi-carousel-count');
+    if (count) count.textContent = (index + 1) + ' / ' + slides.length;
+    slides.forEach((slide, i) => slide.setAttribute('aria-hidden', i === index ? 'false' : 'true'));
+  }
+  document.addEventListener('click', function(event){
+    const button = event.target.closest('.poi-carousel button');
+    if (!button) return;
+    const carousel = button.closest('.poi-carousel');
+    move(carousel, button.classList.contains('next') ? 1 : -1);
+  });
+  document.addEventListener('keydown', function(event){
+    const carousel = event.target.closest && event.target.closest('.poi-carousel');
+    if (!carousel || (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight')) return;
+    event.preventDefault();
+    move(carousel, event.key === 'ArrowRight' ? 1 : -1);
+  });
+  let touchStart = null;
+  document.addEventListener('touchstart', function(event){
+    const carousel = event.target.closest && event.target.closest('.poi-carousel');
+    if (carousel && event.touches.length === 1) touchStart = {x:event.touches[0].clientX, carousel:carousel};
+  }, {passive:true});
+  document.addEventListener('touchend', function(event){
+    if (!touchStart || !event.changedTouches.length) return;
+    const dx = event.changedTouches[0].clientX - touchStart.x;
+    if (Math.abs(dx) > 45) move(touchStart.carousel, dx < 0 ? 1 : -1);
+    touchStart = null;
+  }, {passive:true});
+})();
+</script>"""
+
 def map_points(d, with_ficha=True):
     pts = []
     for p in d["pois"]:
@@ -359,19 +399,35 @@ def render_ficha(d):
     for p in d["pois"]:
         extra = f"<p class='poi-desc dognote'><strong>Perro:</strong> {esc(p['dog_note'])}</p>" if p.get("dog_note") else ""
         photos = poi_photos(p)
-        if photos:
+        if len(photos) == 1:
+            photo = photos[0]
+            src = str(photo.get("source", ""))
+            src_html = f'<a href="{attr(src)}" target="_blank" rel="noopener">fuente</a>' if src.startswith("http") else esc(src or "—")
+            caption = photo.get("caption") or p["name"]
+            img_html = f'<img src="{isrc(root, photo["img"])}" alt="{attr(caption)}" loading="lazy">'
+            credit_html = f'Foto: {esc(photo.get("credit", ""))} · {src_html} · {gmaps(p["lat"], p["lon"], "abrir ubicación")}'
+        elif len(photos) > 1:
             figures = ""
             for i, photo in enumerate(photos, start=1):
                 src = str(photo.get("source", ""))
-                caption = photo.get("caption") or (f"Vista {i}" if len(photos) > 1 else p["name"])
+                caption = photo.get("caption") or f"Vista {i}"
                 image = f'<img src="{isrc(root, photo["img"])}" alt="{attr(caption)}" loading="lazy">'
                 if src.startswith("http"):
                     image = f'<a href="{attr(src)}" target="_blank" rel="noopener" title="Abrir fuente de la fotografía">{image}</a>'
-                figures += f'<figure>{image}<figcaption>{esc(caption)} · {esc(photo.get("credit", ""))}</figcaption></figure>'
-            gallery_cls = "single" if len(photos) == 1 else "multi"
-            img_html = f'<div class="poi-gallery {gallery_cls}" aria-label="Galería de {attr(p["name"])}">{figures}</div>'
+                    src_html = f' · <a href="{attr(src)}" target="_blank" rel="noopener">fuente</a>'
+                else:
+                    src_html = ""
+                figures += f'<figure aria-hidden="{str(i != 1).lower()}">{image}<figcaption>{esc(caption)} · {esc(photo.get("credit", ""))}{src_html}</figcaption></figure>'
+            img_html = (f'<div class="poi-carousel" data-index="0" tabindex="0" '
+                        f'aria-label="Carrusel de {attr(p["name"])}">'
+                        f'<div class="poi-carousel-track">{figures}</div>'
+                        f'<button class="prev" type="button" aria-label="Fotografía anterior">‹</button>'
+                        f'<button class="next" type="button" aria-label="Fotografía siguiente">›</button>'
+                        f'<span class="poi-carousel-count" aria-live="polite">1 / {len(photos)}</span></div>')
+            credit_html = gmaps(p["lat"], p["lon"], "abrir ubicación exacta")
         else:
             img_html = '<div class="poi-noimg">Sin fotografía exacta verificada todavía</div>'
+            credit_html = gmaps(p["lat"], p["lon"], "abrir ubicación exacta")
         visit = p.get("visit") if isinstance(p.get("visit"), dict) else {}
         visit_labels = (("why", "Por qué ir"), ("see", "Qué se ve"), ("access", "Acceso real"),
                         ("when", "Cuándo"), ("skip", "Cuándo descartarlo"))
@@ -383,7 +439,6 @@ def render_ficha(d):
             if isinstance(link, dict) and str(link.get("url", "")).startswith("http"):
                 useful_links.append(f'<a href="{attr(link["url"])}" target="_blank" rel="noopener">{esc(link.get("label") or "información")}</a>')
         links_html = ('<div class="poi-links"><strong>Enlaces útiles:</strong> ' + " · ".join(useful_links) + '</div>') if useful_links else ""
-        location_html = gmaps(p["lat"], p["lon"], "abrir ubicación exacta")
         cards += f"""
 <article class="poi-card" id="poi-{p['n']}">
   {img_html}
@@ -395,7 +450,7 @@ def render_ficha(d):
     {visit_html}
     {extra}
     {links_html}
-    <div class="credit">{location_html}</div>
+    <div class="credit">{credit_html}</div>
   </div>
 </article>"""
     body.append(sec("fotos", "Fotografías de los puntos de interés",
@@ -426,6 +481,7 @@ def render_ficha(d):
     body.append(f'<footer>ÁFRICA 2027 · Ficha de país {esc(d["name"])} · Revisión {esc(d["revision"])} · versión {VERSION} · <a href="{root}">Portal</a> · <a href="{root}mapa/">Mapa general</a></footer></main>')
     body.append(MODAL_HTML)
     body.append(MODAL_JS)
+    body.append(CAROUSEL_JS)
     body.append(f'<script src="{root}assets/vendor/leaflet.js"></script>')
     body.append('<script>if (typeof L !== "undefined" && window.A27_FICHA) a27MapInit();'
                 'function a27MapInit(){ a27Map("fichamap", A27_FICHA); }</script>')
