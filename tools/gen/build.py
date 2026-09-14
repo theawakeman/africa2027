@@ -87,18 +87,138 @@ function a27CatStyle(p){
   if (p.type === 'servicio')  return {color:'#2B6CB0', label:'Servicios'};
   return {color:a27Color(p.color), label:'Puntos de interés'};
 }
+function a27Esc(value){
+  const chars = {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};
+  return String(value == null ? '' : value).replace(/[&<>"']/g, c => chars[c]);
+}
+function a27MapSrc(value, root){
+  const src = String(value || '');
+  return /^https?:\/\//.test(src) ? src : root + src;
+}
+function a27MapHref(value, root){
+  const href = String(value || '');
+  return href.startsWith('#') || /^https?:\/\//.test(href) ? href : root + href;
+}
+function a27PoiPhotos(p){
+  const photos = Array.isArray(p.photos) ? p.photos.filter(photo => photo && photo.img) : [];
+  if (photos.length) return photos;
+  return p.img ? [{img:p.img, credit:p.credit || '', source:p.source || '', caption:p.name || ''}] : [];
+}
+function a27DetailGallery(p, root){
+  const photos = a27PoiPhotos(p);
+  if (!photos.length) return '<div class="map-poi-noimg">Sin fotografía exacta verificada todavía</div>';
+  const slides = photos.map((photo, index) => {
+    const source = /^https?:\/\//.test(String(photo.source || ''))
+      ? ' · <a href="' + a27Esc(photo.source) + '" target="_blank" rel="noopener">fuente</a>' : '';
+    const caption = photo.caption || p.name || ('Vista ' + (index + 1));
+    return '<figure' + (index ? ' hidden' : '') + '><img src="' + a27Esc(a27MapSrc(photo.img, root)) +
+      '" alt="' + a27Esc(caption) + '"><figcaption>' + a27Esc(caption) +
+      (photo.credit ? ' · ' + a27Esc(photo.credit) : '') + source + '</figcaption></figure>';
+  }).join('');
+  const controls = photos.length > 1
+    ? '<button class="prev" data-map-move="-1" type="button" aria-label="Fotografía anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>' +
+      '<button class="next" data-map-move="1" type="button" aria-label="Fotografía siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>' +
+      '<span class="map-poi-gallery-count" aria-live="polite">1 / ' + photos.length + '</span>' : '';
+  return '<div class="map-poi-gallery" data-index="0" tabindex="0">' + slides + controls + '</div>';
+}
+function a27GalleryMove(gallery, step){
+  const slides = gallery.querySelectorAll('figure');
+  if (slides.length < 2) return;
+  let index = (Number(gallery.dataset.index || 0) + step + slides.length) % slides.length;
+  gallery.dataset.index = String(index);
+  slides.forEach((slide, i) => { slide.hidden = i !== index; });
+  const count = gallery.querySelector('.map-poi-gallery-count');
+  if (count) count.textContent = (index + 1) + ' / ' + slides.length;
+}
+function a27PoiDetail(p, root){
+  const labels = {why:'Por qué ir', see:'Qué se ve', access:'Acceso real', when:'Cuándo', skip:'Cuándo descartarlo'};
+  const visit = p.visit && typeof p.visit === 'object' ? p.visit : {};
+  const decision = Object.keys(labels).filter(key => visit[key]).map(key =>
+    '<div><dt>' + labels[key] + '</dt><dd>' + a27Esc(visit[key]) + '</dd></div>').join('');
+  const links = (Array.isArray(p.links) ? p.links : []).filter(link => link && /^https?:\/\//.test(String(link.url || '')))
+    .map(link => '<a href="' + a27Esc(link.url) + '" target="_blank" rel="noopener">' +
+      a27Esc(link.label || 'Información del lugar') + '</a>').join(' · ');
+  const ficha = p.ficha ? '<a class="btn ghost" href="' + a27Esc(a27MapHref(p.ficha, root)) + '">Abrir página del país</a>' : '';
+  return '<button class="map-poi-close" type="button" aria-label="Cerrar y volver al mapa">×</button>' +
+    a27DetailGallery(p, root) + '<div class="map-poi-body"><h2 id="a27-map-poi-title">' + a27Esc(p.name) + '</h2>' +
+    '<div class="poi-tags"><span class="prio">' + a27Esc(p.prio || '') + '</span><span class="cat">' +
+    a27Esc(p.cat || '') + '</span>' + (p.time ? '<span class="time">' + a27Esc(p.time) + '</span>' : '') + '</div>' +
+    (p.dog ? '<div><span class="st ' + a27Esc(p.dogcls || '') + '">perro: ' + a27Esc(p.dog) + '</span></div>' : '') +
+    '<p class="map-poi-description">' + a27Esc(p.desc || '') + '</p>' +
+    (decision ? '<dl class="poi-decision">' + decision + '</dl>' : '') +
+    (p.dog_note ? '<p class="dognote"><strong>Perro:</strong> ' + a27Esc(p.dog_note) + '</p>' : '') +
+    (links ? '<div class="poi-links"><strong>Enlaces útiles:</strong> ' + links + '</div>' : '') +
+    '<div class="map-poi-actions">' + ficha + '<a class="btn ghost" href="https://www.google.com/maps?q=' +
+    encodeURIComponent(p.lat + ',' + p.lon) + '" target="_blank" rel="noopener">Google Maps</a></div></div>';
+}
+function a27OpenPoi(p, root, map, marker){
+  let dialog = document.getElementById('a27-map-poi-dialog');
+  if (!dialog) {
+    dialog = document.createElement('dialog');
+    dialog.id = 'a27-map-poi-dialog';
+    dialog.className = 'map-poi-modal';
+    dialog.setAttribute('aria-labelledby', 'a27-map-poi-title');
+    dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+    document.body.appendChild(dialog);
+  }
+  const scrollX = window.scrollX;
+  const scrollY = window.scrollY;
+  dialog.innerHTML = '<article class="map-poi-sheet">' + a27PoiDetail(p, root) + '</article>';
+  dialog.querySelector('.map-poi-close').addEventListener('click', () => dialog.close());
+  dialog.querySelectorAll('[data-map-move]').forEach(button => button.addEventListener('click', event => {
+    event.preventDefault();
+    a27GalleryMove(button.closest('.map-poi-gallery'), Number(button.dataset.mapMove));
+  }));
+  const gallery = dialog.querySelector('.map-poi-gallery');
+  if (gallery) {
+    gallery.addEventListener('keydown', event => {
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+      event.preventDefault();
+      a27GalleryMove(gallery, event.key === 'ArrowRight' ? 1 : -1);
+    });
+    let touchX = null;
+    gallery.addEventListener('touchstart', event => { if (event.touches.length === 1) touchX = event.touches[0].clientX; }, {passive:true});
+    gallery.addEventListener('touchend', event => {
+      if (touchX == null || !event.changedTouches.length) return;
+      const dx = event.changedTouches[0].clientX - touchX;
+      if (Math.abs(dx) > 45) a27GalleryMove(gallery, dx < 0 ? 1 : -1);
+      touchX = null;
+    }, {passive:true});
+  }
+  dialog.addEventListener('close', () => {
+    window.scrollTo(scrollX, scrollY);
+    map.invalidateSize({pan:false});
+    if (marker && marker._path && marker._path.focus) marker._path.focus();
+  }, {once:true});
+  map.closePopup();
+  dialog.showModal();
+}
 function a27Popup(p, root){
   let h = '';
-  if (p.img) h += '<img src="'+(p.img.indexOf('http')===0?p.img:root+p.img)+'" alt="" style="width:100%;aspect-ratio:16/9;object-fit:cover">';
-  h += '<strong style="font-size:14px">'+p.name+'</strong><br>';
-  if (p.cat) h += '<span style="color:#1E7A8A;font-weight:700">'+(p.prio? p.prio+' · ':'')+p.cat+'</span><br>';
-  if (p.desc) h += '<span>'+p.desc+'</span><br>';
-  if (p.dog) h += '<span class="st '+p.dogcls+'">perro: '+p.dog+'</span><br>';
-  if (p.info) h += '<span>'+p.info+'</span><br>';
-  h += '<div style="margin-top:6px;display:flex;gap:10px;flex-wrap:wrap">';
-  if (p.ficha) h += '<a href="'+(p.ficha.indexOf('#')===0?p.ficha:root+p.ficha)+'">Ver en la ficha</a>';
+  if (p.img) h += '<img src="'+a27Esc(a27MapSrc(p.img, root))+'" alt="'+a27Esc(p.name || '')+'">';
+  h += '<strong class="a27-popup-title">'+a27Esc(p.name)+'</strong>';
+  if (p.cat) h += '<span class="a27-popup-meta">'+a27Esc((p.prio ? p.prio+' · ' : '')+p.cat)+'</span>';
+  if (p.desc) h += '<span class="a27-map-summary">'+a27Esc(p.desc)+'</span>';
+  if (p.dog) h += '<span class="st '+a27Esc(p.dogcls)+'">perro: '+a27Esc(p.dog)+'</span>';
+  if (p.info) h += '<span>'+a27Esc(p.info)+'</span>';
+  h += '<div class="a27-popup-actions">';
+  if (p.type === 'poi') h += '<button type="button" class="a27-popup-expand">Ver ficha ampliada</button>';
+  else if (p.ficha) h += '<a href="'+a27Esc(a27MapHref(p.ficha, root))+'">Ver en la ficha</a>';
   h += '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
   return h;
+}
+function a27StylePopup(popup){
+  if (!popup) return;
+  const theme = getComputedStyle(document.documentElement);
+  const value = name => theme.getPropertyValue(name).trim();
+  const wrapper = popup.querySelector('.leaflet-popup-content-wrapper');
+  const tip = popup.querySelector('.leaflet-popup-tip');
+  if (wrapper) {
+    wrapper.style.setProperty('background', value('--surface'), 'important');
+    wrapper.style.setProperty('color', value('--ink'), 'important');
+    wrapper.style.setProperty('border-color', value('--line'));
+  }
+  if (tip) tip.style.setProperty('background', value('--surface'), 'important');
 }
 // Leyenda de capas plegada en un icono: se abre y se cierra con un clic en el icono,
 // y también se cierra al tocar el mapa. No se despliega sola al pasar el ratón.
@@ -153,7 +273,13 @@ function a27Map(elId, cfg){
   (cfg.points || []).forEach(p => {
     const s = a27CatStyle(p);
     const mk = L.circleMarker([p.lat, p.lon], {radius: 8, color:'#fff', weight:2, fillColor:s.color, fillOpacity:.95});
-    mk.bindPopup(a27Popup(p, cfg.root), {maxWidth: 290});
+    mk.bindPopup(a27Popup(p, cfg.root), {maxWidth: 320});
+    mk.on('popupopen', function(){
+      const popup = mk.getPopup() && mk.getPopup().getElement();
+      a27StylePopup(popup);
+      const button = popup && popup.querySelector('.a27-popup-expand');
+      if (button) button.addEventListener('click', () => a27OpenPoi(p, cfg.root, map, mk), {once:true});
+    });
     mk.addTo(group(s.label));
   });
   Object.keys(groups).forEach(k => { if (groups[k] === null) delete groups[k]; });
@@ -248,8 +374,14 @@ def map_points(d, with_ficha=True):
     pts = []
     for p in d["pois"]:
         pts.append({"type":"poi","name":p["name"],"lat":round(p["lat"],5),"lon":round(p["lon"],5),
-                    "cat":p["cat"],"prio":p["prio"],"desc":p["desc"][:220],"img":poi_primary_img(p),
+                    "cat":p["cat"],"prio":p["prio"],"time":p.get("time", ""),
+                    # La tarjeta del país y el mapa comparten, sin recortes ni copias,
+                    # el mismo resumen y la misma primera fotografía verificada.
+                    "desc":p["desc"],"img":poi_primary_img(p),"photos":poi_photos(p),
                     "dog":p["dog"],"dogcls":dog_cls(p["dog"]),"color":color_key(p["color"]),
+                    "dog_note":p.get("dog_note", ""),
+                    "visit":p.get("visit", {}) if isinstance(p.get("visit"), dict) else {},
+                    "links":[link for link in p.get("links", []) if isinstance(link, dict)],
                     "ficha": f"paises/{d['slug']}/#poi-{p['n']}" if with_ficha else None})
     for lg in d["logistics"]:
         pts.append({"type":cat_type(lg["cat"]),"name":lg["name"],"lat":round(lg["lat"],5),"lon":round(lg["lon"],5),
@@ -689,7 +821,7 @@ def render_map_page(all_points, all_lines):
     body = f"""{nav}
 <main style="max-width:1400px">
 <h2 style="margin-top:18px">Mapa general del viaje</h2>
-<p>Por defecto se muestran solo el <strong>corredor de bajada</strong>, el <strong>corredor de subida</strong> y los <strong>puntos de interés</strong>. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua potable, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Toca cualquier punto para ver su información y abrir la ficha del país o Google Maps. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
+<p>Por defecto se muestran solo el <strong>corredor de bajada</strong>, el <strong>corredor de subida</strong> y los <strong>puntos de interés</strong>. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua potable, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
 <p class="callout" style="display:block"><strong>Agua y combustible:</strong> puntos verificados con fuentes propias, iOverlander y Tracks4Africa (comunidad overlander); revisar siempre comentarios recientes de esas plataformas antes de fiarse de un punto, porque una fuente o gasolinera puede cerrar o quedarse seca sin previo aviso. Objetivo de planificación: no dejar tramos de más de ~500 km sin una opción de combustible confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
 <p class="figcap">Corredores: turquesa = bajada (ida) · ámbar = subida (vuelta) · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
