@@ -188,11 +188,25 @@ def cat_type(cat):
     if "combustible" in c or "gasolinera" in c or "carburante" in c or "gasóleo" in c or "diésel" in c or "diesel" in c or "fuel" in c: return "combustible"
     return "servicio"
 
+def poi_photos(p):
+    """Fotografías verificadas del PDI, con compatibilidad para el formato antiguo."""
+    photos = p.get("photos")
+    if isinstance(photos, list):
+        return [x for x in photos if isinstance(x, dict) and x.get("img")]
+    if p.get("img"):
+        return [{"img": p["img"], "credit": p.get("credit", ""),
+                 "source": p.get("source", ""), "caption": ""}]
+    return []
+
+def poi_primary_img(p):
+    photos = poi_photos(p)
+    return photos[0]["img"] if photos else ""
+
 def map_points(d, with_ficha=True):
     pts = []
     for p in d["pois"]:
         pts.append({"type":"poi","name":p["name"],"lat":round(p["lat"],5),"lon":round(p["lon"],5),
-                    "cat":p["cat"],"prio":p["prio"],"desc":p["desc"][:220],"img":p["img"],
+                    "cat":p["cat"],"prio":p["prio"],"desc":p["desc"][:220],"img":poi_primary_img(p),
                     "dog":p["dog"],"dogcls":dog_cls(p["dog"]),"color":color_key(p["color"]),
                     "ficha": f"paises/{d['slug']}/#poi-{p['n']}" if with_ficha else None})
     for lg in d["logistics"]:
@@ -343,16 +357,33 @@ def render_ficha(d):
     # --- photo cards ---
     cards = ""
     for p in d["pois"]:
-        src = p["source"]
-        src_html = f'<a href="{attr(src)}" target="_blank" rel="noopener">fuente</a>' if src.startswith("http") else esc(src or "—")
         extra = f"<p class='poi-desc dognote'><strong>Perro:</strong> {esc(p['dog_note'])}</p>" if p.get("dog_note") else ""
-        # PDIs sin foto verificada: se omite la imagen en vez de dejar un hueco roto.
-        if p.get("img"):
-            img_html = f'<img src="{isrc(root, p["img"])}" alt="{attr(p["name"])}" loading="lazy">'
-            credit_html = f'Foto: {esc(p["credit"])} · {src_html} · {gmaps(p["lat"], p["lon"], "abrir ubicación")}'
+        photos = poi_photos(p)
+        if photos:
+            figures = ""
+            for i, photo in enumerate(photos, start=1):
+                src = str(photo.get("source", ""))
+                caption = photo.get("caption") or (f"Vista {i}" if len(photos) > 1 else p["name"])
+                image = f'<img src="{isrc(root, photo["img"])}" alt="{attr(caption)}" loading="lazy">'
+                if src.startswith("http"):
+                    image = f'<a href="{attr(src)}" target="_blank" rel="noopener" title="Abrir fuente de la fotografía">{image}</a>'
+                figures += f'<figure>{image}<figcaption>{esc(caption)} · {esc(photo.get("credit", ""))}</figcaption></figure>'
+            gallery_cls = "single" if len(photos) == 1 else "multi"
+            img_html = f'<div class="poi-gallery {gallery_cls}" aria-label="Galería de {attr(p["name"])}">{figures}</div>'
         else:
-            img_html = '<div class="poi-noimg">Sin fotografía verificada todavía</div>'
-            credit_html = gmaps(p["lat"], p["lon"], "abrir ubicación")
+            img_html = '<div class="poi-noimg">Sin fotografía exacta verificada todavía</div>'
+        visit = p.get("visit") if isinstance(p.get("visit"), dict) else {}
+        visit_labels = (("why", "Por qué ir"), ("see", "Qué se ve"), ("access", "Acceso real"),
+                        ("when", "Cuándo"), ("skip", "Cuándo descartarlo"))
+        visit_html = "".join(f'<div><dt>{label}</dt><dd>{esc(visit[key])}</dd></div>'
+                             for key, label in visit_labels if visit.get(key))
+        visit_html = f'<dl class="poi-decision">{visit_html}</dl>' if visit_html else ""
+        useful_links = []
+        for link in p.get("links", []):
+            if isinstance(link, dict) and str(link.get("url", "")).startswith("http"):
+                useful_links.append(f'<a href="{attr(link["url"])}" target="_blank" rel="noopener">{esc(link.get("label") or "información")}</a>')
+        links_html = ('<div class="poi-links"><strong>Enlaces útiles:</strong> ' + " · ".join(useful_links) + '</div>') if useful_links else ""
+        location_html = gmaps(p["lat"], p["lon"], "abrir ubicación exacta")
         cards += f"""
 <article class="poi-card" id="poi-{p['n']}">
   {img_html}
@@ -361,8 +392,10 @@ def render_ficha(d):
     <div class="poi-tags"><span class="prio">{esc(p['prio'])}</span><span class="cat">{esc(p['cat'])}</span><span class="time">{esc(p['time'])}</span></div>
     <div><span class="st {dog_cls(p['dog'])}">perro: {esc(p['dog'])}</span></div>
     <p class="poi-desc">{esc(p['desc'])}</p>
+    {visit_html}
     {extra}
-    <div class="credit">{credit_html}</div>
+    {links_html}
+    <div class="credit">{location_html}</div>
   </div>
 </article>"""
     body.append(sec("fotos", "Fotografías de los puntos de interés",
@@ -1131,7 +1164,7 @@ def category_label(p):
 def point_desc_html(p, base_url=SITE_URL):
     desc = p.get("desc") or p.get("info") or ""
     html = ""
-    img = p.get("img")
+    img = poi_primary_img(p)
     if img:
         img_url = img if str(img).startswith("http") else base_url + img
         html += f'<img src="{kml_escape(img_url)}" width="320"/><br/>'
@@ -1202,7 +1235,7 @@ def build_csv(points, base_url=SITE_URL):
     w = csv.writer(buf)
     w.writerow(["Nombre", "Descripcion", "Foto", "Ficha", "Google Maps", "Categoria", "Latitude", "Longitude"])
     for p in points:
-        img = p.get("img")
+        img = poi_primary_img(p)
         img_url = (img if str(img).startswith("http") else base_url + img) if img else ""
         ficha_url = f'{base_url}{p["ficha"]}' if p.get("ficha") else ""
         maps_url = f'https://www.google.com/maps?q={p["lat"]},{p["lon"]}'
@@ -1296,7 +1329,8 @@ def main():
             precache.append(rel)
             if rel.endswith("/index.html"):
                 precache.append(rel[: -len("index.html")])
-    ext_imgs = sorted({p["img"] for d in FULL.values() for p in d["pois"] if str(p["img"]).startswith("http")})
+    ext_imgs = sorted({photo["img"] for d in FULL.values() for p in d["pois"]
+                       for photo in poi_photos(p) if str(photo["img"]).startswith("http")})
     sw = ("const VERSION = 'a27-" + VERSION + "';\nconst PRECACHE = " + json.dumps(precache) + ";\nconst EXT = " + json.dumps(ext_imgs) + ";\n" + r"""
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => Promise.allSettled(

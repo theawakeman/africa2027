@@ -1,0 +1,1774 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Luanda",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -8.8383,
+  "lon": 13.2344,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Luanda",
+   "kind": "place=city",
+   "lat": -8.82727,
+   "lon": 13.24395,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Luanda",
+    "kind": "place=city",
+    "lat": -8.82727,
+    "lon": 13.24395,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luanda",
+    "kind": "boundary=administrative",
+    "lat": -9.51803,
+    "lon": 13.53568,
+    "d": 82.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Município de Luanda",
+    "kind": "boundary=administrative",
+    "lat": -8.83157,
+    "lon": 13.24797,
+    "d": 1.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Miradouro da Lua",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -9.1667,
+  "lon": 13.0333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Miradouro da Lua",
+   "kind": "natural=cliff",
+   "lat": -9.22152,
+   "lon": 13.08916,
+   "d": 8.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Miradouro da Lua",
+    "kind": "tourism=attraction",
+    "lat": -9.22117,
+    "lon": 13.08983,
+    "d": 8.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Miradouro da Lua",
+    "kind": "natural=cliff",
+    "lat": -9.22152,
+    "lon": 13.08916,
+    "d": 8.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Quarteirão Miradouro Da Lua- Bloco G",
+    "kind": "place=neighbourhood",
+    "lat": -9.00078,
+    "lon": 13.25793,
+    "d": 30.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Pedras Negras de Pungo Andongo",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -9.6625,
+  "lon": 15.5839,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Pedras Negras de Pungo Andongo",
+   "kind": "tourism=viewpoint",
+   "lat": -9.67223,
+   "lon": 15.59104,
+   "d": 1.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pedras Negras de Pungo Andongo",
+    "kind": "tourism=attraction",
+    "lat": -9.67629,
+    "lon": 15.62309,
+    "d": 4.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pedras Negras de Pungo Andongo",
+    "kind": "place=locality",
+    "lat": -9.66823,
+    "lon": 15.61612,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pedras Negras de Pungo Andongo",
+    "kind": "tourism=viewpoint",
+    "lat": -9.67223,
+    "lon": 15.59104,
+    "d": 1.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Cascadas de Kalandula (Calandula)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -9.0758,
+  "lon": 16.0033,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Calandula",
+   "kind": "place=town",
+   "lat": -9.08947,
+   "lon": 15.95709,
+   "d": 5.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Calandula",
+    "kind": "place=town",
+    "lat": -9.08947,
+    "lon": 15.95709,
+    "d": 5.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Quedas de Calandula",
+    "kind": "waterway=waterfall",
+    "lat": -9.07407,
+    "lon": 16.00032,
+    "d": 0.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kalandula",
+    "kind": "place=village",
+    "lat": -6.75,
+    "lon": 22.2,
+    "d": 729.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Parque Nacional de Cangandala · palanca negra gigante",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -9.9167,
+  "lon": 16.4,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Parque Nacional da Cangandala",
+   "kind": "boundary=national_park",
+   "lat": -9.82236,
+   "lon": 16.76499,
+   "d": 41.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parque Nacional da Cangandala",
+    "kind": "boundary=national_park",
+    "lat": -9.82236,
+    "lon": 16.76499,
+    "d": 41.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional do Quiçama",
+    "kind": "boundary=national_park",
+    "lat": -9.77695,
+    "lon": 13.60326,
+    "d": 306.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Rua Parque Nacional da Kameia",
+    "kind": "highway=tertiary",
+    "lat": -8.91531,
+    "lon": 13.19213,
+    "d": 369.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Waku Kungo (hipopótamos y plantaciones de café)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -11.35,
+  "lon": 15.1167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Waku Kungo",
+   "kind": "municipio de la provincia de Cuanza Sur en Angola",
+   "lat": -11.35833,
+   "lon": 15.11944,
+   "d": 1.0,
+   "match": true,
+   "id": "Q695397"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Aeroporto Waku Kungo",
+    "kind": "aeroway=aerodrome",
+    "lat": -11.42565,
+    "lon": 15.10444,
+    "d": 8.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kibala-Waku Kungo",
+    "kind": "highway=primary",
+    "lat": -11.33215,
+    "lon": 15.09919,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Waku Kungo",
+    "kind": "municipio de la provincia de Cuanza Sur en Angola",
+    "lat": -11.35833,
+    "lon": 15.11944,
+    "d": 1.0,
+    "match": true,
+    "id": "Q695397"
+   },
+   {
+    "src": "wd",
+    "name": "Waku-Kungo",
+    "kind": "ciudad de Angola",
+    "lat": -11.35833,
+    "lon": 15.11944,
+    "d": 1.0,
+    "match": true,
+    "id": "Q2944819"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Bailundo (reino del Bailundo)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -12.1833,
+  "lon": 15.8167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Bailundo-Huambo",
+   "kind": "highway=secondary",
+   "lat": -12.21309,
+   "lon": 15.83864,
+   "d": 4.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bailundo",
+    "kind": "place=town",
+    "lat": -12.19216,
+    "lon": 15.86092,
+    "d": 4.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bailundo",
+    "kind": "highway=secondary",
+    "lat": -12.48181,
+    "lon": 15.70346,
+    "d": 35.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bailundo-Huambo",
+    "kind": "highway=secondary",
+    "lat": -12.21309,
+    "lon": 15.83864,
+    "d": 4.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Morro do Moco · techo de Angola (2.620 m)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -12.4667,
+  "lon": 15.1667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Monte Morro de Moco",
+   "kind": "natural=peak",
+   "lat": -12.46287,
+   "lon": 15.17356,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Monte Morro de Moco",
+    "kind": "natural=peak",
+    "lat": -12.46287,
+    "lon": 15.17356,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serra do Moco",
+    "kind": "natural=ridge",
+    "lat": -12.47345,
+    "lon": 15.11478,
+    "d": 5.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Serra do Môco",
+    "kind": "natural=peak",
+    "lat": -12.45775,
+    "lon": 15.17172,
+    "d": 1.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Luena (Moxico)",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -11.7833,
+  "lon": 19.9167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Luena",
+   "kind": "place=city",
+   "lat": -11.77904,
+   "lon": 19.91227,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Luena",
+    "kind": "place=city",
+    "lat": -11.77904,
+    "lon": 19.91227,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luena",
+    "kind": "landuse=railway",
+    "lat": -11.7832,
+    "lon": 19.9096,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luena",
+    "kind": "railway=station",
+    "lat": -11.78308,
+    "lon": 19.90948,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Parque Nacional de Iona",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -16.7,
+  "lon": 12.3333,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Parque Nacional do Iona",
+   "kind": "leisure=nature_reserve",
+   "lat": -16.49529,
+   "lon": 12.34921,
+   "d": 22.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parque Nacional do Iona",
+    "kind": "leisure=nature_reserve",
+    "lat": -16.49529,
+    "lon": 12.34921,
+    "d": 22.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional do Iona",
+    "kind": "boundary=national_park",
+    "lat": -16.49529,
+    "lon": 12.34921,
+    "d": 22.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Entrada Parque Nacional do Iona",
+    "kind": "highway=unclassified",
+    "lat": -16.28717,
+    "lon": 12.55519,
+    "d": 51.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Foz do Cunene",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.3,
+  "lon": 11.6667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Foz do Rio Cunene",
+   "kind": "waterway=river",
+   "lat": -17.25874,
+   "lon": 11.77571,
+   "d": 12.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Foz do Cunene",
+    "kind": "place=hamlet",
+    "lat": -17.26929,
+    "lon": 11.79554,
+    "d": 14.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Foz do Rio Cunene",
+    "kind": "waterway=river",
+    "lat": -17.25874,
+    "lon": 11.77571,
+    "d": 12.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Espinheira-Foz do Rio Cunene",
+    "kind": "highway=secondary",
+    "lat": -17.2349,
+    "lon": 11.80598,
+    "d": 16.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Baía dos Tigres (avanzado, opcional)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -16.6167,
+  "lon": 11.7833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Estreito dos Tigres",
+   "kind": "natural=strait",
+   "lat": -16.63727,
+   "lon": 11.77524,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Baía dos Tigres",
+    "kind": "place=village",
+    "lat": -16.60094,
+    "lon": 11.7227,
+    "d": 6.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Baía dos Tigres - Limite da Baía",
+    "kind": "highway=tertiary",
+    "lat": -16.61818,
+    "lon": 11.72036,
+    "d": 6.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Estreito dos Tigres",
+    "kind": "natural=strait",
+    "lat": -16.63727,
+    "lon": 11.77524,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Tchitundu-Hulu · arte rupestre",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -15.9406,
+  "lon": 12.8793,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Estação Arqueológica do Chitundo-Hulu (Tchitundulo)",
+   "kind": "historic=archaeological_site",
+   "lat": -15.93902,
+   "lon": 12.87728,
+   "d": 0.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Estação Arqueológica do Chitundo-Hulu (Tchitundulo)",
+    "kind": "historic=archaeological_site",
+    "lat": -15.93902,
+    "lon": 12.87728,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Tchitundo-Hulu",
+    "kind": "archaeological sitein Angola",
+    "lat": -15.93806,
+    "lon": 12.87703,
+    "d": 0.4,
+    "match": false,
+    "id": "Q10378763"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Lagoa do Arco (Lake Arco)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -15.7661,
+  "lon": 12.0667,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Lagoa dos Arcos",
+   "kind": "water=lake",
+   "lat": -15.76999,
+   "lon": 12.06879,
+   "d": 0.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lagoa do Carvalhão",
+    "kind": "water=lake",
+    "lat": -15.7584,
+    "lon": 12.09777,
+    "d": 3.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lagoa dos Arcos",
+    "kind": "water=lake",
+    "lat": -15.76999,
+    "lon": 12.06879,
+    "d": 0.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lagoa Onguaia",
+    "kind": "water=lake",
+    "lat": -15.77182,
+    "lon": 12.04712,
+    "d": 2.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Namibe (Moçâmedes)",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -15.1961,
+  "lon": 12.1522,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Moçâmedes (Km 0)",
+   "kind": "railway=station",
+   "lat": -15.19135,
+   "lon": 12.14964,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Namibe",
+    "kind": "place=state",
+    "lat": -15.26693,
+    "lon": 12.70646,
+    "d": 60.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Moçâmedes",
+    "kind": "place=city",
+    "lat": -15.19506,
+    "lon": 12.14581,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Moçâmedes (Km 0)",
+    "kind": "railway=station",
+    "lat": -15.19135,
+    "lon": 12.14964,
+    "d": 0.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Serra da Leba",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -15.0711,
+  "lon": 13.2486,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Serra da Leba",
+   "kind": "natural=peak",
+   "lat": -15.06932,
+   "lon": 13.23717,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Serra da Leba",
+    "kind": "natural=peak",
+    "lat": -15.06932,
+    "lon": 13.23717,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serra Da Leba",
+    "kind": "highway=primary",
+    "lat": -15.07255,
+    "lon": 13.23681,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Escola de Condução Serra da Leba",
+    "kind": "office=educational_institution",
+    "lat": -8.83346,
+    "lon": 13.21773,
+    "d": 693.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Tundavala (Fenda da Tundavala)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -14.8177,
+  "lon": 13.3814,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Parque de Campismo da Tundavala",
+   "kind": "tourism=camp_site",
+   "lat": -14.8454,
+   "lon": 13.40451,
+   "d": 4.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tundavala Audiovisuais, Impressão e Publicidade",
+    "kind": "amenity=studio",
+    "lat": -14.91521,
+    "lon": 13.49538,
+    "d": 16.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Estádio Nacional da Tundavala",
+    "kind": "leisure=stadium",
+    "lat": -14.94858,
+    "lon": 13.53753,
+    "d": 22.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parque de Campismo da Tundavala",
+    "kind": "tourism=camp_site",
+    "lat": -14.8454,
+    "lon": 13.40451,
+    "d": 4.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Benguela",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -12.5783,
+  "lon": 13.4055,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Benguela",
+   "kind": "place=city",
+   "lat": -12.579,
+   "lon": 13.40371,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Benguela",
+    "kind": "place=city",
+    "lat": -12.579,
+    "lon": 13.40371,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Benguela",
+    "kind": "place=state",
+    "lat": -12.91047,
+    "lon": 14.03566,
+    "d": 77.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Benguela",
+    "kind": "railway=station",
+    "lat": -12.57717,
+    "lon": 13.41206,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Lobito",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -12.3644,
+  "lon": 13.5456,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lobito",
+   "kind": "place=city",
+   "lat": -12.35069,
+   "lon": 13.54643,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lobito",
+    "kind": "place=city",
+    "lat": -12.35069,
+    "lon": 13.54643,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lobito",
+    "kind": "railway=station",
+    "lat": -12.34867,
+    "lon": 13.54222,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lobito Velho",
+    "kind": "place=neighbourhood",
+    "lat": -12.35408,
+    "lon": 13.56498,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Cabo Ledo",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -9.6833,
+  "lon": 13.2167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cabo Ledo",
+   "kind": "natural=cape",
+   "lat": -9.67688,
+   "lon": 13.19575,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cabo Ledo",
+    "kind": "place=village",
+    "lat": -9.65567,
+    "lon": 13.23889,
+    "d": 3.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cabo Ledo",
+    "kind": "waterway=river",
+    "lat": -9.68752,
+    "lon": 13.25499,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cabo Ledo",
+    "kind": "natural=cape",
+    "lat": -9.67688,
+    "lon": 13.19575,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Parque Nacional de Kissama (Quiçama)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -9.75,
+  "lon": 13.583,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Parque nacional de Kissama",
+   "kind": "parque nacional de Angola",
+   "lat": -9.75,
+   "lon": 13.58333,
+   "d": 0.0,
+   "match": true,
+   "id": "Q3179197"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parque Nacional do Quiçama",
+    "kind": "boundary=national_park",
+    "lat": -9.77695,
+    "lon": 13.60326,
+    "d": 3.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque nacional de Kissama",
+    "kind": "parque nacional de Angola",
+    "lat": -9.75,
+    "lon": 13.58333,
+    "d": 0.0,
+    "match": true,
+    "id": "Q3179197"
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Mussulo",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -8.9833,
+  "lon": 13.1667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Rua Praia Mussulo",
+   "kind": "highway=residential",
+   "lat": -8.91649,
+   "lon": 13.18341,
+   "d": 7.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mussulo",
+    "kind": "natural=cape",
+    "lat": -8.98709,
+    "lon": 13.03489,
+    "d": 14.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Baía de Mussulo",
+    "kind": "natural=bay",
+    "lat": -8.98638,
+    "lon": 13.07248,
+    "d": 10.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Rua Praia Mussulo",
+    "kind": "highway=residential",
+    "lat": -8.91649,
+    "lon": 13.18341,
+    "d": 7.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -5.9167,
+  "lon": 13.9667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lufu",
+   "kind": "place=town",
+   "lat": -5.68011,
+   "lon": 13.91466,
+   "d": 26.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lufu",
+    "kind": "place=town",
+    "lat": -5.68011,
+    "lon": 13.91466,
+    "d": 26.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luvu",
+    "kind": "waterway=river",
+    "lat": -5.82709,
+    "lon": 14.00363,
+    "d": 10.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lufu",
+    "kind": "waterway=river",
+    "lat": -5.80377,
+    "lon": 13.46072,
+    "d": 57.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — Caripande (hacia Zambia, cerca de Cazombo)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -11.9,
+  "lon": 22.9,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Caripande",
+   "kind": "place=hamlet",
+   "lat": -12.99393,
+   "lon": 22.72849,
+   "d": 123.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Caripande",
+    "kind": "place=hamlet",
+    "lat": -12.99393,
+    "lon": 22.72849,
+    "d": 123.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Campande",
+    "kind": "place=hamlet",
+    "lat": -12.15191,
+    "lon": 19.69348,
+    "d": 349.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada subida — Santa Clara/Oshikango (desde Namibia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -17.35,
+  "lon": 15.75,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Santa Clara",
+   "kind": "place=village",
+   "lat": -17.38266,
+   "lon": 15.88874,
+   "d": 15.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Santa Clara",
+    "kind": "place=village",
+    "lat": -17.38266,
+    "lon": 15.88874,
+    "d": 15.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Banco BIC - Santa Clara",
+    "kind": "amenity=bank",
+    "lat": -17.38593,
+    "lon": 15.8885,
+    "d": 15.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Rua de Santa Clara A",
+    "kind": "highway=residential",
+    "lat": -8.80288,
+    "lon": 13.28219,
+    "d": 987.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Alternativa subida — Calueque/Ruacana (desde Namibia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -17.2825,
+  "lon": 14.5347,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Calueque",
+   "kind": "place=village",
+   "lat": -17.27864,
+   "lon": 14.53663,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Calueque",
+    "kind": "place=village",
+    "lat": -17.27864,
+    "lon": 14.53663,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Calueque",
+    "kind": "aeroway=aerodrome",
+    "lat": -17.2978,
+    "lon": 14.53468,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Calueque Hydropower Plant",
+    "kind": "landuse=industrial",
+    "lat": -17.27323,
+    "lon": 14.54401,
+    "d": 1.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Embajada de España en Luanda",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -8.8167,
+  "lon": 13.2333,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Embaixada de Espanha em Luanda",
+   "kind": "office=diplomatic",
+   "lat": -8.8324,
+   "lon": 13.22986,
+   "d": 1.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embaixada de Espanha em Luanda",
+    "kind": "office=diplomatic",
+    "lat": -8.8324,
+    "lon": 13.22986,
+    "d": 1.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embaixada da Suíça na República de Angola",
+    "kind": "office=diplomatic",
+    "lat": -8.83606,
+    "lon": 13.23441,
+    "d": 2.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embaixada do Japão em Angola",
+    "kind": "office=diplomatic",
+    "lat": -8.80932,
+    "lon": 13.25128,
+    "d": 2.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Hospital Américo Boavida — Luanda",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -8.8147,
+  "lon": 13.2302,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hospital Américo Boavida (HAB)",
+   "kind": "amenity=hospital",
+   "lat": -8.82377,
+   "lon": 13.2596,
+   "d": 3.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hospital Américo Boavida (HAB)",
+    "kind": "amenity=hospital",
+    "lat": -8.82377,
+    "lon": 13.2596,
+    "d": 3.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Hospital Central da Huíla — Lubango",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -14.9077,
+  "lon": 13.4925,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Igreja Fonte da Vida",
+   "kind": "amenity=place_of_worship",
+   "lat": -14.92324,
+   "lon": 13.47964,
+   "d": 2.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Igreja Fonte da Vida",
+    "kind": "amenity=place_of_worship",
+    "lat": -14.92324,
+    "lon": 13.47964,
+    "d": 2.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hospital Municipal da Quilemba",
+    "kind": "amenity=hospital",
+    "lat": -14.84503,
+    "lon": 13.57674,
+    "d": 11.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Luanda / Lobito",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -8.8383,
+  "lon": 13.2344,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Luanda",
+   "kind": "place=city",
+   "lat": -8.82727,
+   "lon": 13.24395,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Luanda",
+    "kind": "place=city",
+    "lat": -8.82727,
+    "lon": 13.24395,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luanda",
+    "kind": "boundary=administrative",
+    "lat": -9.51803,
+    "lon": 13.53568,
+    "d": 82.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Município de Luanda",
+    "kind": "boundary=administrative",
+    "lat": -8.83157,
+    "lon": 13.24797,
+    "d": 1.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · M'banza-Kongo / Uíge (eje norte)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -6.2667,
+  "lon": 14.25,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Zap - Mbanza Kongo",
+   "kind": "amenity=payment_centre",
+   "lat": -6.26747,
+   "lon": 14.24795,
+   "d": 0.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Zap - Mbanza Kongo",
+    "kind": "amenity=payment_centre",
+    "lat": -6.26747,
+    "lon": 14.24795,
+    "d": 0.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Museum dos Reis do Kongo",
+    "kind": "tourism=museum",
+    "lat": -6.26564,
+    "lon": 14.24688,
+    "d": 0.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Banza-Ngoyo",
+    "kind": "place=village",
+    "lat": -5.13222,
+    "lon": 14.51569,
+    "d": 129.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Malanje",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -9.5402,
+  "lon": 16.341,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Malanje",
+   "kind": "railway=station",
+   "lat": -9.54236,
+   "lon": 16.34801,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Malanje",
+    "kind": "place=city",
+    "lat": -9.5484,
+    "lon": 16.34753,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Malanje",
+    "kind": "place=state",
+    "lat": -9.53533,
+    "lon": 16.93643,
+    "d": 65.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Malanje",
+    "kind": "railway=station",
+    "lat": -9.54236,
+    "lon": 16.34801,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Huambo · base logística del altiplano",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -12.7761,
+  "lon": 15.7392,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Kuito (Bié)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -12.3833,
+  "lon": 16.9333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kuito",
+   "kind": "municipality of Angola",
+   "lat": -12.38333,
+   "lon": 16.93333,
+   "d": 0.0,
+   "match": true,
+   "id": "Q843980"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cuíto",
+    "kind": "place=city",
+    "lat": -12.38494,
+    "lon": 16.939,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Cuito",
+    "kind": "waterway=river",
+    "lat": -15.40107,
+    "lon": 19.17709,
+    "d": 413.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Residencial Solar do Kuito",
+    "kind": "tourism=hotel",
+    "lat": -12.38485,
+    "lon": 16.94438,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kuito",
+    "kind": "municipality of Angola",
+    "lat": -12.38333,
+    "lon": 16.93333,
+    "d": 0.0,
+    "match": true,
+    "id": "Q843980"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Benguela · servicios de costa",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -12.5783,
+  "lon": 13.4055,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Largo de António da Costa",
+   "kind": "highway=residential",
+   "lat": -12.34549,
+   "lon": 13.546,
+   "d": 30.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Largo de António da Costa",
+    "kind": "highway=residential",
+    "lat": -12.34549,
+    "lon": 13.546,
+    "d": 30.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Rua Eduardo Costa",
+    "kind": "highway=tertiary",
+    "lat": -12.7763,
+    "lon": 15.73541,
+    "d": 253.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Casa de Câmbio Costa Mundo",
+    "kind": "amenity=bureau_de_change",
+    "lat": -8.82204,
+    "lon": 13.24421,
+    "d": 418.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Tombwa · último servicio antes del desierto profundo",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -15.8,
+  "lon": 11.85,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Cazombo (extremo este, escaso)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -11.9,
+  "lon": 22.9,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cazombo",
+   "kind": "place=town",
+   "lat": -11.89819,
+   "lon": 22.9061,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cazombo",
+    "kind": "place=town",
+    "lat": -11.89819,
+    "lon": 22.9061,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aeroporto de Cazombo",
+    "kind": "aeroway=aerodrome",
+    "lat": -11.89328,
+    "lon": 22.91552,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Banco BIC - Agência Cazombo",
+    "kind": "amenity=bank",
+    "lat": -11.89674,
+    "lon": 22.91079,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Combustible · Namibe / Lubango (eje sur)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -15.1961,
+  "lon": 12.1522,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Namibe",
+   "kind": "place=state",
+   "lat": -15.26693,
+   "lon": 12.70646,
+   "d": 60.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Namibe",
+    "kind": "place=state",
+    "lat": -15.26693,
+    "lon": 12.70646,
+    "d": 60.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Moçâmedes",
+    "kind": "place=city",
+    "lat": -15.19506,
+    "lon": 12.14581,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Moçâmedes (Km 0)",
+    "kind": "railway=station",
+    "lat": -15.19135,
+    "lon": 12.14964,
+    "d": 0.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Agua potable y de uso general · Luanda",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -8.8383,
+  "lon": 13.2344,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Luanda",
+   "kind": "place=city",
+   "lat": -8.82727,
+   "lon": 13.24395,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Luanda",
+    "kind": "place=city",
+    "lat": -8.82727,
+    "lon": 13.24395,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luanda",
+    "kind": "boundary=administrative",
+    "lat": -9.51803,
+    "lon": 13.53568,
+    "d": 82.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Município de Luanda",
+    "kind": "boundary=administrative",
+    "lat": -8.83157,
+    "lon": 13.24797,
+    "d": 1.7,
+    "match": true
+   }
+  ]
+ }
+]

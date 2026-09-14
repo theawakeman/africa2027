@@ -1,0 +1,1627 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Souanké y Sembé · eje fronterizo del noroeste",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 2.0667,
+  "lon": 14.05,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Sembot",
+   "kind": "place=village",
+   "lat": 3.23452,
+   "lon": 14.9298,
+   "d": 162.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sembot",
+    "kind": "place=village",
+    "lat": 3.23452,
+    "lon": 14.9298,
+    "d": 162.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "solange coiffure mixte",
+    "kind": "shop=hairdresser",
+    "lat": 3.87757,
+    "lon": 11.47312,
+    "d": 349.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Solange Beauty",
+    "kind": "shop=beauty",
+    "lat": 3.8705,
+    "lon": 11.44501,
+    "d": 352.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Ouesso · capital de la Sangha",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 1.6167,
+  "lon": 16.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ouésso",
+   "kind": "place=city",
+   "lat": 1.6104,
+   "lon": 16.05093,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ouesso",
+    "kind": "place=village",
+    "lat": 3.42983,
+    "lon": 14.56461,
+    "d": 260.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouesso",
+    "kind": "place=village",
+    "lat": 3.96801,
+    "lon": 15.06749,
+    "d": 283.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouésso",
+    "kind": "place=city",
+    "lat": 1.6104,
+    "lon": 16.05093,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Parque Nacional de Nouabalé-Ndoki · bai de Mbeli (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 2.2,
+  "lon": 16.1833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Parc National Nouabalé-Ndoki",
+   "kind": "information=office",
+   "lat": 2.21165,
+   "lon": 16.19359,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National Nouabalé-Ndoki",
+    "kind": "information=office",
+    "lat": 2.21165,
+    "lon": 16.19359,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc national de Nouabalé Ndoki",
+    "kind": "boundary=national_park",
+    "lat": 2.53808,
+    "lon": 16.58081,
+    "d": 58.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc national de Nouabalé Ndoki",
+    "kind": "leisure=nature_reserve",
+    "lat": 2.53808,
+    "lon": 16.58081,
+    "d": 58.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Parque Nacional de Odzala-Kokoua (UNESCO) · LA PARADA ESTRELLA",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 0.8,
+  "lon": 14.9,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Parc national d'Odzala-Kokoua",
+   "kind": "leisure=nature_reserve",
+   "lat": 0.89303,
+   "lon": 14.92942,
+   "d": 10.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc national d'Odzala-Kokoua",
+    "kind": "leisure=nature_reserve",
+    "lat": 0.89303,
+    "lon": 14.92942,
+    "d": 10.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc national d'Odzala-Kokoua",
+    "kind": "boundary=national_park",
+    "lat": 0.89303,
+    "lon": 14.92942,
+    "d": 10.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Ngaga · trekking de gorilas de llanura occidental",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 0.4,
+  "lon": 14.1667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ngaga Camp",
+   "kind": "tourism=hotel",
+   "lat": 0.40456,
+   "lon": 14.60446,
+   "d": 48.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ngaga Camp",
+    "kind": "tourism=hotel",
+    "lat": 0.40456,
+    "lon": 14.60446,
+    "d": 48.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ngaba",
+    "kind": "boundary=administrative",
+    "lat": -4.38132,
+    "lon": 15.32181,
+    "d": 546.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Nganga",
+    "kind": "place=village",
+    "lat": 2.93723,
+    "lon": 12.26497,
+    "d": 352.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Bais de Odzala · Lokoué, Moba y Camp Imbalanga",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 0.6,
+  "lon": 14.8,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Odzala-Kokoua (African Parks)",
+   "kind": "landuse=commercial",
+   "lat": 0.75869,
+   "lon": 15.25728,
+   "d": 53.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Odzala-Kokoua (African Parks)",
+    "kind": "landuse=commercial",
+    "lat": 0.76013,
+    "lon": 15.25766,
+    "d": 53.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Odzala-Kokoua (African Parks)",
+    "kind": "landuse=commercial",
+    "lat": 0.75869,
+    "lon": 15.25728,
+    "d": 53.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Baie de Galiema",
+    "kind": "natural=bay",
+    "lat": -4.32199,
+    "lon": 15.25729,
+    "d": 549.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Brazzaville · Basílica de Santa Ana",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.2634,
+  "lon": 15.2429,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Brazzaville",
+   "kind": "place=municipality",
+   "lat": -4.26944,
+   "lon": 15.27123,
+   "d": 3.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=municipality",
+    "lat": -4.26944,
+    "lon": 15.27123,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=state",
+    "lat": -4.23072,
+    "lon": 15.30827,
+    "d": 8.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville Beach Hotel",
+    "kind": "tourism=hotel",
+    "lat": -4.30295,
+    "lon": 15.20853,
+    "d": 5.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Corniche de Brazzaville y rápidos del Congo",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -4.29,
+  "lon": 15.26,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Ministère de la Défense Nationale",
+   "kind": "office=government",
+   "lat": -4.28095,
+   "lon": 15.27271,
+   "d": 1.7,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ministère de la Défense Nationale",
+    "kind": "office=government",
+    "lat": -4.28095,
+    "lon": 15.27271,
+    "d": 1.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Route de la corniche",
+    "kind": "highway=residential",
+    "lat": 3.07289,
+    "lon": 18.51801,
+    "d": 895.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Route de la corniche",
+    "kind": "highway=unclassified",
+    "lat": 3.07788,
+    "lon": 18.51996,
+    "d": 895.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Cataratas de Loufoulakari",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -4.45,
+  "lon": 14.92,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Chutes de la Loufoulakari",
+   "kind": "waterway=waterfall",
+   "lat": -4.58279,
+   "lon": 14.98477,
+   "d": 16.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chutes de la Loufoulakari",
+    "kind": "waterway=waterfall",
+    "lat": -4.58279,
+    "lon": 14.98477,
+    "d": 16.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Chutes du Loufoulakari",
+    "kind": "tourism=attraction",
+    "lat": -4.58518,
+    "lon": 14.98344,
+    "d": 16.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Chutes du Loufoulakari",
+    "kind": "tourism=attraction",
+    "lat": -4.58294,
+    "lon": 14.98558,
+    "d": 16.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Mercados de Brazzaville · Poto-Poto y Total",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.27,
+  "lon": 15.275,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Brazzaville",
+   "kind": "place=municipality",
+   "lat": -4.26944,
+   "lon": 15.27123,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=municipality",
+    "lat": -4.26944,
+    "lon": 15.27123,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=state",
+    "lat": -4.23072,
+    "lon": 15.30827,
+    "d": 5.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "The Beach;Brazzaville-Kinshasa",
+    "kind": "amenity=ferry_terminal",
+    "lat": -4.27264,
+    "lon": 15.29378,
+    "d": 2.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Dolisie",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -4.2,
+  "lon": 12.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Aéroport Ngot Nzoungou de Dolisie",
+   "kind": "aeroway=aerodrome",
+   "lat": -4.20511,
+   "lon": 12.65893,
+   "d": 1.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dolisie",
+    "kind": "place=city",
+    "lat": -4.20054,
+    "lon": 12.67916,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dolisie",
+    "kind": "railway=station",
+    "lat": -4.1982,
+    "lon": 12.67613,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport Ngot Nzoungou de Dolisie",
+    "kind": "aeroway=aerodrome",
+    "lat": -4.20511,
+    "lon": 12.65893,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Pointe-Noire y la costa atlántica",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -4.7975,
+  "lon": 11.8481,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Pointe-Noire",
+   "kind": "place=city",
+   "lat": -4.79754,
+   "lon": 11.85033,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pointe-Noire",
+    "kind": "place=city",
+    "lat": -4.79754,
+    "lon": 11.85033,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pointe-Noire",
+    "kind": "place=state",
+    "lat": -4.82706,
+    "lon": 12.02606,
+    "d": 20.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pointe-Noire",
+    "kind": "railway=station",
+    "lat": -4.80139,
+    "lon": 11.84015,
+    "d": 1.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Pointe-Noire",
+    "kind": "ciudad en República del Congo",
+    "lat": -4.7975,
+    "lon": 11.85028,
+    "d": 0.2,
+    "match": true,
+    "id": "Q223920"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Garganta de Diosso y museo Ma Loango",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.6167,
+  "lon": 11.8833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Musée de Diosso",
+   "kind": "tourism=museum",
+   "lat": -4.6178,
+   "lon": 11.85845,
+   "d": 2.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Musee De Diosso",
+    "kind": "tourism=museum",
+    "lat": -4.62554,
+    "lon": 11.85238,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Musée de Diosso",
+    "kind": "tourism=museum",
+    "lat": -4.6178,
+    "lon": 11.85845,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Parque Nacional de Conkouati-Douli",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -3.9167,
+  "lon": 11.4167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Parc national de Conkouati-Douli",
+   "kind": "boundary=national_park",
+   "lat": -4.23813,
+   "lon": 11.17279,
+   "d": 44.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc national de Conkouati-Douli",
+    "kind": "boundary=national_park",
+    "lat": -4.23813,
+    "lon": 11.17279,
+    "d": 44.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Ferrocarril Congo-Océan (CFCO)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.2714,
+  "lon": 15.2833,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Gestrim Océan",
+   "kind": "office=company",
+   "lat": -4.2735,
+   "lon": 15.28552,
+   "d": 0.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gestrim Océan",
+    "kind": "office=company",
+    "lat": -4.2735,
+    "lon": 15.28552,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Agence OCÉAN DU NORD De Mazala",
+    "kind": "shop=travel_agency",
+    "lat": -4.22961,
+    "lon": 15.2598,
+    "d": 5.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Océan du Nord - Angola Libre",
+    "kind": "amenity=bus_station",
+    "lat": -4.29093,
+    "lon": 15.24086,
+    "d": 5.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Reserva de Lésio-Louna · gorilas reintroducidos",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -3.2333,
+  "lon": 15.4667,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "",
+   "kind": "tourism=attraction",
+   "lat": -3.12334,
+   "lon": 15.61459,
+   "d": 20.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "",
+    "kind": "tourism=attraction",
+    "lat": -3.12334,
+    "lon": 15.61459,
+    "d": 20.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Mesetas Batéké · Djambala y Lékana",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -2.5333,
+  "lon": 14.75,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Owando y Makoua · la línea del Ecuador",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 0.0036,
+  "lon": 15.6333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Owando",
+   "kind": "place=city",
+   "lat": -0.48336,
+   "lon": 15.89742,
+   "d": 61.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Owando",
+    "kind": "place=city",
+    "lat": -0.48336,
+    "lon": 15.89742,
+    "d": 61.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Owando",
+    "kind": "boundary=administrative",
+    "lat": -0.67197,
+    "lon": 15.93954,
+    "d": 82.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Owando",
+    "kind": "aeroway=aerodrome",
+    "lat": -0.51928,
+    "lon": 15.93259,
+    "d": 67.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Owando",
+    "kind": "ciudad congoleña",
+    "lat": -0.48333,
+    "lon": 15.8975,
+    "d": 61.6,
+    "match": true,
+    "id": "Q1201732"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Ntam / Souanké (desde Camerún)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 2.2,
+  "lon": 14.0,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Souanké",
+   "kind": "place in Sangha Region, Republic of the Congo",
+   "lat": 2.08333,
+   "lon": 14.13333,
+   "d": 19.7,
+   "match": true,
+   "id": "Q3491439"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ntam",
+    "kind": "place=village",
+    "lat": 2.17767,
+    "lon": 13.70375,
+    "d": 33.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ntam",
+    "kind": "place=village",
+    "lat": 3.19543,
+    "lon": 13.91372,
+    "d": 111.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ntam",
+    "kind": "place=village",
+    "lat": 3.42559,
+    "lon": 14.32093,
+    "d": 140.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Souanké",
+    "kind": "localidad de República del Congo",
+    "lat": 2.06083,
+    "lon": 14.13417,
+    "d": 21.5,
+    "match": true,
+    "id": "Q7564060"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — Beach de Brazzaville, ferry hacia Kinshasa",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -4.279,
+  "lon": 15.286,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Beach de Brazzaville",
+   "kind": "man_made=tower",
+   "lat": -4.2723,
+   "lon": 15.29382,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Beach de Brazzaville",
+    "kind": "man_made=tower",
+    "lat": -4.2723,
+    "lon": 15.29382,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "The Beach;Brazzaville-Kinshasa",
+    "kind": "amenity=ferry_terminal",
+    "lat": -4.27264,
+    "lon": 15.29378,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville Beach Hotel",
+    "kind": "tourism=hotel",
+    "lat": -4.30295,
+    "lon": 15.20853,
+    "d": 9.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada subida — Beach de Brazzaville, ferry desde Kinshasa",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -4.279,
+  "lon": 15.286,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Beach de Brazzaville",
+   "kind": "man_made=tower",
+   "lat": -4.2723,
+   "lon": 15.29382,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Beach de Brazzaville",
+    "kind": "man_made=tower",
+    "lat": -4.2723,
+    "lon": 15.29382,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "The Beach;Brazzaville-Kinshasa",
+    "kind": "amenity=ferry_terminal",
+    "lat": -4.27264,
+    "lon": 15.29378,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville Beach Hotel",
+    "kind": "tourism=hotel",
+    "lat": -4.30295,
+    "lon": 15.20853,
+    "d": 9.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Salida subida — Socambo / Moloundou (hacia Camerún)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 1.5833,
+  "lon": 16.0833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "S.O.C.A.M.B.O.",
+   "kind": "place=village",
+   "lat": 1.7058,
+   "lon": 16.11828,
+   "d": 14.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "S.O.C.A.M.B.O.",
+    "kind": "place=village",
+    "lat": 1.7058,
+    "lon": 16.11828,
+    "d": 14.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sombo",
+    "kind": "place=town",
+    "lat": 2.63531,
+    "lon": 17.18328,
+    "d": 169.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Socapco",
+    "kind": "shop=perfumery",
+    "lat": 3.87105,
+    "lon": 11.54462,
+    "d": 564.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Alternativa — Ndendé / Doussala (hacia Gabón, desde Dolisie)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -2.8333,
+  "lon": 10.9167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ndendé",
+   "kind": "place=town",
+   "lat": -2.39628,
+   "lon": 11.35808,
+   "d": 69.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ndendé",
+    "kind": "place=town",
+    "lat": -2.39628,
+    "lon": 11.35808,
+    "d": 69.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ndende",
+    "kind": "place=hamlet",
+    "lat": -2.98137,
+    "lon": 11.96082,
+    "d": 117.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "École Ndendé Niengo",
+    "kind": "amenity=school",
+    "lat": -4.77836,
+    "lon": 11.88069,
+    "d": 241.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -4.305,
+  "lon": 15.305,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Ambassade d'Espagne",
+   "kind": "office=diplomatic",
+   "lat": -4.30484,
+   "lon": 15.27828,
+   "d": 3.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ambassade d'Espagne",
+    "kind": "office=diplomatic",
+    "lat": -4.30678,
+    "lon": 15.2771,
+    "d": 3.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ambassade d'Espagne",
+    "kind": "office=diplomatic",
+    "lat": -4.30484,
+    "lon": 15.27828,
+    "d": 3.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Hôpital Général de Brazzaville (CHU)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -4.2694,
+  "lon": 15.2761,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Général de Djiri",
+   "kind": "amenity=hospital",
+   "lat": -4.19232,
+   "lon": 15.24986,
+   "d": 9.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Général de Djiri",
+    "kind": "amenity=hospital",
+    "lat": -4.19232,
+    "lon": 15.24986,
+    "d": 9.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hopital Général de Dolisie",
+    "kind": "amenity=hospital",
+    "lat": -4.18639,
+    "lon": 12.66927,
+    "d": 289.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Général Edith Lucie Bongo Ondimba",
+    "kind": "amenity=hospital",
+    "lat": -1.14063,
+    "lon": 15.97147,
+    "d": 356.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Hospitales de Pointe-Noire",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -4.7975,
+  "lon": 11.8481,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hôtel de Ville - Mairie de Pointe-Noire",
+   "kind": "amenity=townhall",
+   "lat": -4.7984,
+   "lon": 11.84632,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Aéroport International Agostinho-Neto",
+    "kind": "aeroway=aerodrome",
+    "lat": -4.81576,
+    "lon": 11.88663,
+    "d": 4.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hôtel de Ville - Mairie de Pointe-Noire",
+    "kind": "amenity=townhall",
+    "lat": -4.7984,
+    "lon": 11.84632,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gare de Pointe-Noire",
+    "kind": "building=station",
+    "lat": -4.80131,
+    "lon": 11.84017,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hôpital de base de Ouesso",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 1.6167,
+  "lon": 16.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital de base de Ouesso",
+   "kind": "amenity=hospital",
+   "lat": 1.61581,
+   "lon": 16.05932,
+   "d": 1.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital de base de Ouesso",
+    "kind": "amenity=hospital",
+    "lat": 1.61581,
+    "lon": 16.05932,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Ouesso",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 1.6167,
+  "lon": 16.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ouésso",
+   "kind": "place=city",
+   "lat": 1.6104,
+   "lon": 16.05093,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ouesso",
+    "kind": "place=village",
+    "lat": 3.42983,
+    "lon": 14.56461,
+    "d": 260.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouesso",
+    "kind": "place=village",
+    "lat": 3.96801,
+    "lon": 15.06749,
+    "d": 283.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouésso",
+    "kind": "place=city",
+    "lat": 1.6104,
+    "lon": 16.05093,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Etoumbi y Ewo (puerta de Odzala)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 0.0167,
+  "lon": 14.95,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Etoumbi",
+   "kind": "place=town",
+   "lat": 0.02088,
+   "lon": 14.89321,
+   "d": 6.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Etoumbi",
+    "kind": "place=town",
+    "lat": 0.02088,
+    "lon": 14.89321,
+    "d": 6.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Étoudi",
+    "kind": "boundary=administrative",
+    "lat": 3.91498,
+    "lon": 11.52528,
+    "d": 576.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Rue d'Etoumbi",
+    "kind": "highway=residential",
+    "lat": -4.77606,
+    "lon": 11.86675,
+    "d": 633.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Owando",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -0.4833,
+  "lon": 15.9,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Owando",
+   "kind": "place=city",
+   "lat": -0.48336,
+   "lon": 15.89742,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Owando",
+    "kind": "place=city",
+    "lat": -0.48336,
+    "lon": 15.89742,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Owando",
+    "kind": "boundary=administrative",
+    "lat": -0.67197,
+    "lon": 15.93954,
+    "d": 21.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Owando",
+    "kind": "aeroway=aerodrome",
+    "lat": -0.51928,
+    "lon": 15.93259,
+    "d": 5.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Brazzaville",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -4.2634,
+  "lon": 15.2429,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Brazzaville",
+   "kind": "place=municipality",
+   "lat": -4.26944,
+   "lon": 15.27123,
+   "d": 3.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=municipality",
+    "lat": -4.26944,
+    "lon": 15.27123,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=state",
+    "lat": -4.23072,
+    "lon": 15.30827,
+    "d": 8.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville Beach Hotel",
+    "kind": "tourism=hotel",
+    "lat": -4.30295,
+    "lon": 15.20853,
+    "d": 5.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Djambala y Okoyo (corredor de subida)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -2.5333,
+  "lon": 14.75,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Djambala",
+   "kind": "place=town",
+   "lat": -2.5401,
+   "lon": 14.75184,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Djambala",
+    "kind": "place=town",
+    "lat": -2.5401,
+    "lon": 14.75184,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djambala",
+    "kind": "boundary=administrative",
+    "lat": -2.34354,
+    "lon": 15.25329,
+    "d": 59.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djambala Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -2.51732,
+    "lon": 14.75428,
+    "d": 1.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Dolisie y Pointe-Noire (desvío suroeste)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -4.7975,
+  "lon": 11.8481,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Pointe-Noire",
+   "kind": "ciudad en República del Congo",
+   "lat": -4.7975,
+   "lon": 11.85028,
+   "d": 0.2,
+   "match": true,
+   "id": "Q223920"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dolisie",
+    "kind": "place=city",
+    "lat": -4.20054,
+    "lon": 12.67916,
+    "d": 113.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dolisie",
+    "kind": "railway=station",
+    "lat": -4.1982,
+    "lon": 12.67613,
+    "d": 113.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport Ngot Nzoungou de Dolisie",
+    "kind": "aeroway=aerodrome",
+    "lat": -4.20511,
+    "lon": 12.65893,
+    "d": 111.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Pointe-Noire",
+    "kind": "ciudad en República del Congo",
+    "lat": -4.7975,
+    "lon": 11.85028,
+    "d": 0.2,
+    "match": true,
+    "id": "Q223920"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Agua potable y de uso general · Brazzaville",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -4.2634,
+  "lon": 15.2429,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Brazzaville",
+   "kind": "place=municipality",
+   "lat": -4.26944,
+   "lon": 15.27123,
+   "d": 3.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=municipality",
+    "lat": -4.26944,
+    "lon": 15.27123,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville",
+    "kind": "place=state",
+    "lat": -4.23072,
+    "lon": 15.30827,
+    "d": 8.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brazzaville Beach Hotel",
+    "kind": "tourism=hotel",
+    "lat": -4.30295,
+    "lon": 15.20853,
+    "d": 5.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Brazzaville",
+    "kind": "capital de la República del Congo",
+    "lat": -4.26944,
+    "lon": 15.27111,
+    "d": 3.2,
+    "match": true,
+    "id": "Q3844"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Agua potable y de uso general · Ouesso y Owando",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 1.6167,
+  "lon": 16.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ouésso",
+   "kind": "place=city",
+   "lat": 1.6104,
+   "lon": 16.05093,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ouesso",
+    "kind": "place=village",
+    "lat": 3.42983,
+    "lon": 14.56461,
+    "d": 260.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouesso",
+    "kind": "place=village",
+    "lat": 3.96801,
+    "lon": 15.06749,
+    "d": 283.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouésso",
+    "kind": "place=city",
+    "lat": 1.6104,
+    "lon": 16.05093,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ouésso",
+    "kind": "ciudad en República de Congo",
+    "lat": 1.61056,
+    "lon": 16.05139,
+    "d": 0.7,
+    "match": true,
+    "id": "Q627885"
+   }
+  ]
+ }
+]

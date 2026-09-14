@@ -105,11 +105,11 @@ for _p in POIS:
     _p.setdefault("dog_note", "")
 
 LOGISTICS = [
-    ("Frontera · Entrada bajada — Ekok/Mfum (desde Nigeria)", "Frontera", 5.9400, 9.0650,
+    ("Frontera · Entrada bajada — Ekok/Mfum (desde Nigeria)", "Frontera", 5.8209726, 8.8391088,
      "Único paso terrestre asfaltado y con aduana plena entre Nigeria y Camerún en el sur. Cruce del río Cross (Mfum, Nigeria → Ekok, Camerún) y 70 km hasta Mamfe, en plena región Suroeste, zona de conflicto activo de la crisis anglófona. NUNCA cruzar en lunes (día de «ciudad muerta» semanal impuesto por los separatistas) ni en las fechas simbólicas del conflicto (1 de octubre, 11 de febrero, 20 de mayo). Horario diurno; posibles cierres súbitos. Es también la frontera de SALIDA de la subida."),
-    ("Frontera · Salida bajada — Ntam / Souanké (hacia Congo)", "Frontera", 2.3500, 13.9500,
+    ("Frontera · Salida bajada — Ntam / Souanké (hacia Congo)", "Frontera", 2.1720894, 13.6984289,
      "Puesto camerunés de Ntam sobre el río Ngoko/Dja, extremo de la carretera del corredor Ketta-Djoum (Sangmélima-Djoum-Mintom-Ntam), financiada por el Banco Africano de Desarrollo dentro del corredor Brazzaville-Yaundé. Al otro lado, Ntam-Congo y la carretera Ntam-Souanké-Sembé-Ouesso. Coordenada aproximada: CONFIRMAR la posición exacta del puesto, si el cruce del río es por puente terminado o por barcaza (bac), el horario y si la aduana camerunesa sella CPD aquí o hay que hacerlo en Yaundé/Sangmélima. Transporte público prácticamente inexistente en este eje."),
-    ("Frontera · Entrada subida — Socambo / Moloundou (desde Congo)", "Frontera", 2.0167, 15.1833,
+    ("Frontera · Entrada subida — Socambo / Moloundou (desde Congo)", "Frontera", 1.7062057, 16.1201673,
      "Paso fluvial sobre el río Ngoko frente a Ouesso: cruce en barcaza o piragua motorizada, sin puente. Alternativa deliberada al Ntam para que la subida recorra el sureste forestal en vez de repetir el corredor Ketta-Djoum. CRÍTICO POR CONFIRMAR: capacidad real de la barcaza para vehículos de 3 t, frecuencia, horario y si la aduana camerunesa de Moloundou está habilitada para sellar CPD de vehículo extranjero. Si no lo está, el plan B es reentrar por Ntam y llegar al sureste por Sangmélima-Abong-Mbang-Yokadouma."),
     ("Embajada de España en Yaundé", "Consular", 3.8944, 11.5139,
      "Bld. de l'U.R.S.S., Quartier Bastos, B.P. 877, Yaundé. Tel. +237 222 20 35 43 · Emergencia consular 24 h: +237 698 44 79 00 · emb.yaunde@maec.es."),
@@ -191,15 +191,15 @@ SOURCES = [
 ]
 
 # Bajada: Ekok -> Mamfe -> Kumba -> Limbe/Buea -> Duala -> Kribi/Lobé -> Campo Ma'an -> Ebolowa -> Sangmélima -> Djoum -> Mintom -> Ntam
-CORRIDOR = [(5.9400, 9.0650), (5.7500, 9.3167), (4.6667, 9.4167), (4.1537, 9.2920), (4.0186, 9.2054),
+CORRIDOR = [(5.8209726, 8.8391088), (5.7500, 9.3167), (4.6667, 9.4167), (4.1537, 9.2920), (4.0186, 9.2054),
             (4.0483, 9.7043), (3.8000, 10.1333), (2.9369, 9.9096), (2.8500, 9.8833), (2.3667, 10.1000),
-            (2.9000, 11.1500), (2.9333, 11.9833), (2.6667, 12.6667), (2.6833, 13.2333), (2.3500, 13.9500)]
+            (2.9000, 11.1500), (2.9333, 11.9833), (2.6667, 12.6667), (2.6833, 13.2333), (2.1720894, 13.6984289)]
 
 # Subida: Socambo/Moloundou -> Yokadouma -> Batouri -> Bertoua -> Yaundé -> Mefou -> Bafia -> Foumban -> Bafoussam -> Dschang -> Melong/Ekom-Nkam -> Nkongsamba -> Duala -> Kumba -> Mamfe -> Ekok
-CORRIDOR_ALT = [(2.0167, 15.1833), (2.0333, 15.2000), (2.3000, 15.6167), (3.5167, 15.0500), (4.4333, 14.3667),
+CORRIDOR_ALT = [(1.7062057, 16.1201673), (2.0333, 15.2000), (2.3000, 15.6167), (3.5167, 15.0500), (4.4333, 14.3667),
                 (4.5833, 13.6833), (3.6167, 11.6000), (3.8480, 11.5021), (4.7500, 11.2333), (5.7167, 10.9000),
                 (5.4737, 10.4179), (5.3667, 10.4167), (5.4500, 10.0500), (5.0833, 9.9167), (5.0167, 9.8333),
-                (4.9500, 9.9333), (4.0483, 9.7043), (4.6667, 9.4167), (5.7500, 9.3167), (5.9400, 9.0650)]
+                (4.9500, 9.9333), (4.0483, 9.7043), (4.6667, 9.4167), (5.7500, 9.3167), (5.8209726, 8.8391088)]
 
 CORRIDOR_LABEL = "Bajada"
 CORRIDOR_ALT_LABEL = "Subida"

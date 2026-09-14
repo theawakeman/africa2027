@@ -1,0 +1,1181 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Kinshasa (Gombe y la orilla del río Congo)",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -4.3276,
+  "lon": 15.3136,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kinshasa",
+   "kind": "province in Congo-Kinshasa",
+   "lat": -4.33167,
+   "lon": 15.31389,
+   "d": 0.5,
+   "match": true,
+   "id": "Q2994115"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "place=city",
+    "lat": -4.32171,
+    "lon": 15.31225,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "place=state",
+    "lat": -4.3197,
+    "lon": 15.34242,
+    "d": 3.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "boundary=administrative",
+    "lat": -4.32194,
+    "lon": 15.31185,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kinsasa",
+    "kind": "capital de la República Democrática del Congo",
+    "lat": -4.32194,
+    "lon": 15.31194,
+    "d": 0.7,
+    "match": false,
+    "id": "Q3838"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Marché Central de Kinshasa (Zando)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.3243,
+  "lon": 15.311,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Grand Marché de Kinshasa",
+   "kind": "amenity=marketplace",
+   "lat": -4.31029,
+   "lon": 15.31252,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Grand Marché de Kinshasa",
+    "kind": "amenity=marketplace",
+    "lat": -4.31029,
+    "lon": 15.31252,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre de Santé Marché Central",
+    "kind": "amenity=doctors",
+    "lat": -4.31006,
+    "lon": 15.31183,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Place du Marché Central",
+    "kind": "highway=tertiary",
+    "lat": -4.3071,
+    "lon": 15.30939,
+    "d": 1.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Rápidos de Kinsuka (Livingstone Falls)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -4.3806,
+  "lon": 15.2131,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kinsuka",
+   "kind": "place=suburb",
+   "lat": -4.33136,
+   "lon": 15.23355,
+   "d": 5.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kinsuka",
+    "kind": "place=suburb",
+    "lat": -4.33136,
+    "lon": 15.23355,
+    "d": 5.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Camp SNEL de Kinsuka",
+    "kind": "landuse=residential",
+    "lat": -4.34658,
+    "lon": 15.1963,
+    "d": 4.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Cimetière de Kinsuka",
+    "kind": "landuse=cemetery",
+    "lat": -4.35377,
+    "lon": 15.20591,
+    "d": 3.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Jardín Botánico de Kisantu",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -5.1349,
+  "lon": 15.0854,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Jardin Botanique de Kisantu",
+   "kind": "leisure=park",
+   "lat": -5.1378,
+   "lon": 15.07198,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Jardin Botanique de Kisantu",
+    "kind": "leisure=park",
+    "lat": -5.1378,
+    "lon": 15.07198,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Jardin botanique",
+    "kind": "tourism=attraction",
+    "lat": -5.14872,
+    "lon": 15.05692,
+    "d": 3.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "jardin botanique",
+    "kind": "tourism=theme_park",
+    "lat": -5.14855,
+    "lon": 15.05774,
+    "d": 3.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Cuevas de Mbanza-Ngungu (grottes de Thysville)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -5.2461,
+  "lon": 14.8637,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mbanza-Ngungu",
+   "kind": "place=city",
+   "lat": -5.25001,
+   "lon": 14.86666,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mbanza-Ngungu",
+    "kind": "place=city",
+    "lat": -5.25001,
+    "lon": 14.86666,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mbanza-Ngungu",
+    "kind": "boundary=administrative",
+    "lat": -5.3307,
+    "lon": 14.79942,
+    "d": 11.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mbanza-Ngungu",
+    "kind": "boundary=health",
+    "lat": -5.25613,
+    "lon": 14.78593,
+    "d": 8.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Matadi y el puente Maréchal sobre el río Congo",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -5.8167,
+  "lon": 13.4833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Matadi",
+   "kind": "boundary=administrative",
+   "lat": -5.7974,
+   "lon": 13.49482,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "place=city",
+    "lat": -5.82566,
+    "lon": 13.4609,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "boundary=administrative",
+    "lat": -5.7974,
+    "lon": 13.49482,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "boundary=health",
+    "lat": -5.82894,
+    "lon": 13.46082,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Boma · antigua capital colonial y el baobab de Stanley",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -5.8511,
+  "lon": 13.0528,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Boma",
+   "kind": "place=city",
+   "lat": -5.85,
+   "lon": 13.05,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Boma",
+    "kind": "place=city",
+    "lat": -5.85,
+    "lon": 13.05,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boma",
+    "kind": "boundary=health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boma",
+    "kind": "boundary=health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Muanda, la desembocadura del Congo y el Parque Marino de los Manglares",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -5.9269,
+  "lon": 12.3494,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Chutes de Zongo (río Inkisi)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -5.0167,
+  "lon": 14.8833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Zongo Falls",
+   "kind": "place=isolated_dwelling",
+   "lat": -4.77743,
+   "lon": 14.90629,
+   "d": 26.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Zongo Falls",
+    "kind": "place=isolated_dwelling",
+    "lat": -4.77743,
+    "lon": 14.90629,
+    "d": 26.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Lola ya Bonobo · santuario de bonobos",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -4.5333,
+  "lon": 15.3667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lola ya Bonobo",
+   "kind": "tourism=zoo",
+   "lat": -4.48945,
+   "lon": 15.26716,
+   "d": 12.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lola ya Bonobo",
+    "kind": "tourism=zoo",
+    "lat": -4.48945,
+    "lon": 15.26716,
+    "d": 12.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Valle del N'sele (Nsele Valley Park)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -4.3667,
+  "lon": 15.5833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Parc de la Vallée de la N’sele",
+   "kind": "leisure=nature_reserve",
+   "lat": -4.3135,
+   "lon": 15.72207,
+   "d": 16.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc de la Vallée de la N’sele",
+    "kind": "leisure=nature_reserve",
+    "lat": -4.3135,
+    "lon": 15.72207,
+    "d": 16.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Death Valley",
+    "kind": "natural=spring",
+    "lat": -1.25116,
+    "lon": 30.01453,
+    "d": 1639.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Rumba congoleña en directo (Kinshasa)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.335,
+  "lon": 15.286,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Beach Ngobila, ferry desde Brazzaville",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -4.2981,
+  "lon": 15.2989,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Plage Ngobila",
+   "kind": "amenity=ferry_terminal",
+   "lat": -4.29697,
+   "lon": 15.31965,
+   "d": 2.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Plage Ngobila",
+    "kind": "amenity=ferry_terminal",
+    "lat": -4.29697,
+    "lon": 15.31965,
+    "d": 2.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — Lufu/Luvo (hacia Angola)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -5.9167,
+  "lon": 13.9667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lufu",
+   "kind": "place=town",
+   "lat": -5.68011,
+   "lon": 13.91466,
+   "d": 26.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lufu",
+    "kind": "place=town",
+    "lat": -5.68011,
+    "lon": 13.91466,
+    "d": 26.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luvu",
+    "kind": "waterway=river",
+    "lat": -5.82709,
+    "lon": 14.00363,
+    "d": 10.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lufu",
+    "kind": "waterway=river",
+    "lat": -5.80377,
+    "lon": 13.46072,
+    "d": 57.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada subida — Luvo/Lufu (desde Angola)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -5.9167,
+  "lon": 13.9667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Luvo",
+   "kind": "place=village",
+   "lat": -5.85376,
+   "lon": 14.0852,
+   "d": 14.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Luvo",
+    "kind": "place=village",
+    "lat": -5.85376,
+    "lon": 14.0852,
+    "d": 14.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luvo",
+    "kind": "highway=living_street",
+    "lat": -6.12561,
+    "lon": 12.33687,
+    "d": 181.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luvo",
+    "kind": "waterway=river",
+    "lat": -10.52836,
+    "lon": 18.34412,
+    "d": 703.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Salida subida — Beach Ngobila, ferry hacia Brazzaville",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -4.2981,
+  "lon": 15.2989,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Plage Ngobila",
+   "kind": "amenity=ferry_terminal",
+   "lat": -4.29697,
+   "lon": 15.31965,
+   "d": 2.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Plage Ngobila",
+    "kind": "amenity=ferry_terminal",
+    "lat": -4.29697,
+    "lon": 15.31965,
+    "d": 2.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -4.305,
+  "lon": 15.305,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Ambassade d'Espagne",
+   "kind": "office=diplomatic",
+   "lat": -4.30484,
+   "lon": 15.27828,
+   "d": 3.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ambassade d'Espagne",
+    "kind": "office=diplomatic",
+    "lat": -4.30678,
+    "lon": 15.2771,
+    "d": 3.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ambassade d'Espagne",
+    "kind": "office=diplomatic",
+    "lat": -4.30484,
+    "lon": 15.27828,
+    "d": 3.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Hôpital Général de Référence de Kinshasa",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -4.325,
+  "lon": 15.3139,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Général de Référence de Kinshasa",
+   "kind": "amenity=mortuary",
+   "lat": -4.31003,
+   "lon": 15.3055,
+   "d": 1.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Général de Référence de Kinshasa",
+    "kind": "amenity=mortuary",
+    "lat": -4.31003,
+    "lon": 15.3055,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Provincial Général de Référence de Kinshasa",
+    "kind": "amenity=hospital",
+    "lat": -4.30858,
+    "lon": 15.30595,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Général de Référence de Kintambo",
+    "kind": "amenity=hospital",
+    "lat": -4.3346,
+    "lon": 15.27099,
+    "d": 4.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "IME Kimpese — Institut Médical Évangélique",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -5.5556,
+  "lon": 14.4386,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Morgue de l'IME Kimpese",
+   "kind": "building=service",
+   "lat": -5.55627,
+   "lon": 14.46409,
+   "d": 2.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Morgue de l'IME Kimpese",
+    "kind": "building=service",
+    "lat": -5.55627,
+    "lon": 14.46409,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Hôpital Général de Référence de Kinkanda — Matadi",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -5.82,
+  "lon": 13.47,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Provincial Général de Référence de Kinshasa",
+   "kind": "amenity=hospital",
+   "lat": -4.30858,
+   "lon": 15.30595,
+   "d": 263.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Provincial Général de Référence de Kinshasa",
+    "kind": "amenity=hospital",
+    "lat": -4.30858,
+    "lon": 15.30595,
+    "d": 263.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Général de RéférenceVirunga",
+    "kind": "amenity=hospital",
+    "lat": -1.66666,
+    "lon": 29.23247,
+    "d": 1808.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Général de RéférenceVirunga",
+    "kind": "amenity=hospital",
+    "lat": -1.66666,
+    "lon": 29.23247,
+    "d": 1808.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · Kinshasa",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -4.3276,
+  "lon": 15.3136,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kinshasa",
+   "kind": "place=city",
+   "lat": -4.32171,
+   "lon": 15.31225,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "place=city",
+    "lat": -4.32171,
+    "lon": 15.31225,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "place=state",
+    "lat": -4.3197,
+    "lon": 15.34242,
+    "d": 3.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "boundary=administrative",
+    "lat": -4.32194,
+    "lon": 15.31185,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Kisantu / Inkisi (N1)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -5.1349,
+  "lon": 15.0854,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kisantu",
+   "kind": "place=town",
+   "lat": -5.13674,
+   "lon": 15.05923,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kisantu",
+    "kind": "place=town",
+    "lat": -5.13674,
+    "lon": 15.05923,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kisantu",
+    "kind": "place=village",
+    "lat": -5.13492,
+    "lon": 15.05711,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kisantu",
+    "kind": "boundary=health",
+    "lat": -5.13027,
+    "lon": 15.15614,
+    "d": 7.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kisantu",
+    "kind": "town in the Democratic Republic of the Congo",
+    "lat": -5.134,
+    "lon": 15.0584,
+    "d": 3.0,
+    "match": true,
+    "id": "Q3140976"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Mbanza-Ngungu y Kimpese (N1)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -5.2461,
+  "lon": 14.8637,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mbanza-Ngungu",
+   "kind": "place=city",
+   "lat": -5.25001,
+   "lon": 14.86666,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mbanza-Ngungu",
+    "kind": "place=city",
+    "lat": -5.25001,
+    "lon": 14.86666,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mbanza-Ngungu",
+    "kind": "boundary=administrative",
+    "lat": -5.3307,
+    "lon": 14.79942,
+    "d": 11.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mbanza-Ngungu",
+    "kind": "boundary=health",
+    "lat": -5.25613,
+    "lon": 14.78593,
+    "d": 8.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Mbanza-Ngungu",
+    "kind": "locality in Kongo - Central in the Democratic Republic of Congo, located along the Matadi-Kinshasa railway line of which it is the main stage",
+    "lat": -5.25,
+    "lon": 14.86667,
+    "d": 0.5,
+    "match": true,
+    "id": "Q857577"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Matadi",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -5.8167,
+  "lon": 13.4833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Matadi",
+   "kind": "city in DR Congo",
+   "lat": -5.81667,
+   "lon": 13.48333,
+   "d": 0.0,
+   "match": true,
+   "id": "Q211073"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "place=city",
+    "lat": -5.82566,
+    "lon": 13.4609,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "boundary=administrative",
+    "lat": -5.7974,
+    "lon": 13.49482,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "boundary=health",
+    "lat": -5.82894,
+    "lon": 13.46082,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Matadi",
+    "kind": "city in DR Congo",
+    "lat": -5.81667,
+    "lon": 13.48333,
+    "d": 0.0,
+    "match": true,
+    "id": "Q211073"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Boma y Muanda",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -5.8511,
+  "lon": 13.0528,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Boma",
+   "kind": "place=city",
+   "lat": -5.85,
+   "lon": 13.05,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Boma",
+    "kind": "place=city",
+    "lat": -5.85,
+    "lon": 13.05,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boma",
+    "kind": "boundary=health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boma",
+    "kind": "boundary=health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Boma",
+    "kind": "city in Democratic Republic of the Congo",
+    "lat": -5.85,
+    "lon": 13.05,
+    "d": 0.3,
+    "match": true,
+    "id": "Q223917"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Agua potable y de uso general · Kinshasa",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -4.3276,
+  "lon": 15.3136,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Kinshasa",
+   "kind": "province in Congo-Kinshasa",
+   "lat": -4.33167,
+   "lon": 15.31389,
+   "d": 0.5,
+   "match": true,
+   "id": "Q2994115"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "place=city",
+    "lat": -4.32171,
+    "lon": 15.31225,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "place=state",
+    "lat": -4.3197,
+    "lon": 15.34242,
+    "d": 3.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kinshasa",
+    "kind": "boundary=administrative",
+    "lat": -4.32194,
+    "lon": 15.31185,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kinsasa",
+    "kind": "capital de la República Democrática del Congo",
+    "lat": -4.32194,
+    "lon": 15.31194,
+    "d": 0.7,
+    "match": false,
+    "id": "Q3838"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Agua potable y de uso general · Matadi y Mbanza-Ngungu",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -5.8167,
+  "lon": 13.4833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Matadi",
+   "kind": "boundary=administrative",
+   "lat": -5.7974,
+   "lon": 13.49482,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "place=city",
+    "lat": -5.82566,
+    "lon": 13.4609,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "boundary=administrative",
+    "lat": -5.7974,
+    "lon": 13.49482,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matadi",
+    "kind": "boundary=health",
+    "lat": -5.82894,
+    "lon": 13.46082,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ }
+]

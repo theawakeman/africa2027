@@ -119,11 +119,11 @@ for _p in POIS:
     _p.setdefault("dog_note", "")
 
 LOGISTICS = [
-    ("Frontera · Entrada — Eboro/Abang-Minko'o, cerca de Bitam (desde Camerún)", "Frontera", 2.0833, 11.4833,
+    ("Frontera · Entrada — Eboro/Abang-Minko'o, cerca de Bitam (desde Camerún)", "Frontera", 2.2902270, 11.4470384,
      "Zona de las tres fronteras Camerún-Gabón-Guinea Ecuatorial, al sur de Ambam y Kyé-Ossi. Carretera asfaltada desde Yaundé y fuera de las áreas de conflicto anglófonas camerunesas. AQUÍ ESTÁ EL PROBLEMA: es un puesto TERRESTRE, y el eVisa gabonés solo vale para llegadas aéreas al aeropuerto Léon Mba de Libreville. Sin visado consular previo, este paso no se cruza. Coordenada aproximada."),
-    ("Frontera · Salida — Doussala/Ndendé (hacia Congo-Brazzaville)", "Frontera", -2.8333, 10.9167,
+    ("Frontera · Salida — Doussala/Ndendé (hacia Congo-Brazzaville)", "Frontera", -2.6479099, 11.6328435,
      "Paso principal del suroeste hacia Dolisie (Congo). Asfalto en el lado gabonés; confirmar el estado de la pista del lado congoleño. La ficha de Congo ya lo recoge como alternativa informativa desde Dolisie."),
-    ("Frontera · Salida este — hacia Okoyo (Congo), por Léconi", "Frontera", -1.6500, 14.4000,
+    ("Frontera · Salida este — hacia Okoyo (Congo), por Léconi", "Frontera", -1.6159900, 14.3894365,
      "Salida oriental desde las mesetas Batéké hacia Okoyo, que está en el corredor de SUBIDA de la ficha de Congo (Djambala-Lékana-Okoyo). Encajaría muy bien sobre el papel, pero POR CONFIRMAR que el paso existe como puesto internacional habilitado y que admite vehículos particulares extranjeros. Coordenada aproximada."),
     ("Embajada de Gabón en Madrid (y consulados de Barcelona y Bilbao)", "Consular", 40.4168, -3.7038,
      "AQUÍ ES DONDE SE RESUELVE EL PROBLEMA DEL VISADO. Gabón mantiene embajada en Madrid y consulados en Barcelona y Bilbao: es la vía para obtener el visado tradicional en pasaporte que exige la entrada terrestre. Confirmar por teléfono tasas, plazos y documentación exigida a un viaje overland sin billete de avión. Coordenada: Madrid, referencia."),
@@ -191,14 +191,14 @@ SOURCES = [
 ]
 
 # Corredor oeste (el "clásico"): Camerún -> Bitam -> Oyem -> Libreville -> N1 sur -> Congo por Doussala
-CORRIDOR = [(2.0833, 11.4833), (1.5996, 11.5793), (0.7833, 11.5500), (0.4162, 9.4673),
+CORRIDOR = [(2.2902270, 11.4470384), (1.5996, 11.5793), (0.7833, 11.5500), (0.4162, 9.4673),
             (-0.1833, 10.7500), (-0.7000, 10.2333), (-1.8667, 11.0556), (-2.4000, 11.3667),
-            (-2.8333, 10.9167)]
+            (-2.6479099, 11.6328435)]
 
 # Corredor este (selva y mesetas): Camerún -> Oyem -> Makokou/Ivindo -> Lopé -> Lastourville -> Franceville -> Léconi -> Congo
-CORRIDOR_ALT = [(2.0833, 11.4833), (1.5996, 11.5793), (0.7833, 11.5500), (0.5667, 12.8667),
-                (0.2907, 12.5891), (-0.0833, 11.9333), (-0.2000, 11.5833), (-0.8167, 12.3667),
-                (-1.5667, 13.2000), (-1.6333, 13.5833), (-1.5833, 14.2333), (-1.6500, 14.4000)]
+CORRIDOR_ALT = [(2.2902270, 11.4470384), (1.5996, 11.5793), (0.7833, 11.5500), (0.5667, 12.8667),
+                (0.2904712, 12.5884394), (-0.0833, 11.9333), (-0.2000, 11.5833), (-0.8139885, 12.7519429),
+                (-1.5667, 13.2000), (-1.6333, 13.5833), (-1.6419515, 14.2882909), (-1.6159900, 14.3894365)]
 
 EXPERIENCIAS = [
     "Aviso previo de método: en esta revisión NO se pudo abrir iOverlander ni Tracks4Africa desde el entorno de trabajo (dominios bloqueados por el proxy). Lo que sigue recoge lo que aparece de forma coincidente en relatos publicados de viajeros por Gabón y África central, y debe reverificarse antes de depender de ello. Gabón es, además, uno de los países menos documentados del continente en el mundo overland: hay muy pocos relatos y casi ninguno reciente.",

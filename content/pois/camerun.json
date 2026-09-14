@@ -14,7 +14,8 @@
     "source": "https://commons.wikimedia.org/wiki/File:Limbe%20wildlife%20center.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 2,
@@ -25,13 +26,14 @@
     "time": "paso, sin parada",
     "lat": 4.6667,
     "lon": 9.4167,
-    "desc": "Kumba es la mayor ciudad del interior de la región Suroeste y el segundo punto caliente del tránsito de entrada. A 5 km al norte está el lago Barombi Mbo, un lago cratérico volcánico de unos 2,5 km de diámetro y más de 110 m de profundidad, famoso entre biólogos por sus peces cíclidos endémicos (uno de los mejores ejemplos mundiales de especiación en un lago cerrado). En condiciones normales sería una parada obligada; en el contexto actual de la crisis anglófona se documenta como PDI pero se atraviesa Kumba sin detenerse. Solo visitable si la situación cambia radicalmente antes de 2027.",
+    "desc": "Kumba es una ciudad importante del interior de la región Suroeste. A unos 5 km al norte está Barombi Mbo, lago cratérico volcánico de alrededor de 2,5 km de diámetro y más de 110 m de profundidad, conocido por sus peces cíclidos endémicos y su interés para estudiar la especiación en un lago aislado. La crisis anglófona hace que no deba programarse como visita con la información actual: mantenerlo como PDI documental y revaluar seguridad y acceso inmediatamente antes del viaje.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Limbe%20wildlife%20center.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 3,
@@ -42,13 +44,46 @@
     "time": "1–2 noches",
     "lat": 4.0186,
     "lon": 9.2054,
-    "desc": "Ciudad costera a los pies del monte Camerún, con playas de arena negra volcánica (Down Beach, Mile 6, Seme Beach) donde la lava llegó literalmente al mar, y el Limbe Wildlife Centre, santuario de gorilas, chimpancés, drills y mandriles rescatados del tráfico de carne de monte. Es la parte del Suroeste (departamento de Fako) menos afectada por el conflicto y la única pernocta razonable del tramo de entrada, pero sigue en región anglófona: verificar la situación local antes de quedarse.",
+    "desc": "Ciudad costera a los pies del monte Camerún, con playas de arena negra volcánica como Down Beach, Mile 6 y Seme Beach, además del Limbe Wildlife Centre, que rehabilita gorilas, chimpancés, drills y mandriles rescatados. Limbe sigue dentro de la región anglófona y no debe darse por segura por comparación con otras ciudades: verificar la situación local, el trayecto y el alojamiento el mismo día antes de quedarse.",
     "credit": "Ndiptambe · CC0",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Limbe%20wildlife%20center.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Seme%20beach%20limbe%20Cameroon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Seme%20beach%20limbe%20Cameroon.jpg",
+        "credit": "Blaizo 237 · CC BY-SA 4.0",
+        "caption": "Arena negra volcánica de Seme Beach"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/DOWN%20BEACH%20LIMBE%20CAMEROON.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:DOWN%20BEACH%20LIMBE%20CAMEROON.jpg",
+        "credit": "Blaizo 237 · CC BY-SA 4.0",
+        "caption": "Actividad pesquera y paseo de Down Beach"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20Wildlife%20Centre%20front%20view.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Limbe%20Wildlife%20Centre%20front%20view.jpg",
+        "credit": "Yeluma Ntali · CC BY-SA 4.0",
+        "caption": "Entrada del Limbe Wildlife Centre"
+      }
+    ],
+    "visit": {
+      "why": "Combina descanso costero de arena volcánica con un centro serio de rehabilitación de fauna; tiene sentido como primera noche segura tras el tránsito desde Nigeria.",
+      "see": "Down Beach y Seme Beach ofrecen dos ambientes distintos; el Wildlife Centre permite ver primates cameruneses rescatados, no animales de exhibición capturados para turismo.",
+      "access": "El centro publica apertura de 09:00 a 16:00, seis días por semana y cierre los lunes; revalidar horario y seguridad inmediatamente antes. Las playas se eligen según alojamiento, oleaje y actividad pesquera.",
+      "when": "Con luz de mañana para costa y dentro del horario del centro. Evitar cualquier cierre o deterioro de seguridad en Fako.",
+      "skip": "Descartarlo como pernocta si fuentes locales desaconsejan Limbe; el perro no debe darse por admitido en el Wildlife Centre."
+    },
+    "links": [
+      {
+        "label": "Visita oficial · Limbe Wildlife Centre",
+        "url": "https://limbewildlife.org/visit/"
+      }
+    ]
   },
   {
     "n": 4,
@@ -57,15 +92,48 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "2–3 días (trekking)",
-    "lat": 4.2033,
-    "lon": 9.1706,
-    "desc": "El techo del África occidental y uno de los volcanes más activos del continente (erupciones en 1999, 2000 y 2012), que se levanta desde el nivel del mar hasta 4.095 m en apenas 25 km horizontales: de selva a páramo alpino y campos de lava en una sola subida. Es LA gran excursión a pie del país. El trekking clásico son 2-3 días por la «Guinness Route» desde Buea (1.000 m) con refugios básicos (Hut 1, 2 y 3); la Course de l'Espoir / Race of Hope sube y baja en un solo día (unas 4 h 30 los ganadores). Guía obligatorio del Mount Cameroon Inter-Communal Ecotourism Organisation (MCIEO) en Buea. AVISO: Buea está en la región Suroeste — verificar seguridad y lockdowns antes de comprometer 3 días aquí.",
+    "lat": 4.2173993,
+    "lon": 9.1727477,
+    "desc": "El techo del África occidental y uno de los volcanes más activos del continente: registró erupciones importantes en 1999 y 2000 y una pequeña explosión reportada en 2012. Se levanta desde el nivel del mar hasta 4.095 m en apenas 25 km horizontales, atravesando selva, páramo alpino y campos de lava. El trekking clásico requiere 2-3 días por la «Guinness Route» desde Buea, con refugios básicos. Contratar guía local autorizado y comprobar la situación de seguridad y los posibles lockdowns antes de reservar: Buea está en la región Suroeste.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Limbe%20wildlife%20center.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Cameroon%2C%20Buea%20in%20the%20wee%20hours%20of%20a%20clear%20morning.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount%20Cameroon%2C%20Buea%20in%20the%20wee%20hours%20of%20a%20clear%20morning.jpg",
+        "credit": "JayManSnaps · CC BY-SA 4.0",
+        "caption": "El macizo visto desde Buea"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Cameroon%20on%20a%20sunny%20day%2005.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount%20Cameroon%20on%20a%20sunny%20day%2005.jpg",
+        "credit": "Adesolive · CC BY-SA 4.0",
+        "caption": "Laderas del monte Camerún"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Cameroon%20(ASTER).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount%20Cameroon%20(ASTER).jpg",
+        "credit": "NASA/METI/AIST/Japan Space Systems/U.S.–Japan ASTER · dominio público",
+        "caption": "Relieve volcánico en imagen ASTER"
+      }
+    ],
+    "visit": {
+      "why": "Es la gran ascensión física del país: casi 4.100 m desde una base muy próxima al mar, con cambios de vegetación y campos de lava.",
+      "see": "No es un mirador de coche: el valor está en recorrer el gradiente de selva, páramo y paisaje volcánico durante una travesía guiada.",
+      "access": "Salida habitual desde Buea por la Guinness Route, con guía y refugios básicos. Exige reservar 2–3 días y equipo para lluvia, frío y altura.",
+      "when": "Solo con parte meteorológico y de seguridad favorables; confirmar cierres locales antes de comprometer el trekking.",
+      "skip": "Descartarlo si el calendario no admite tres días, si hay cierres en el Suroeste o si algún viajero no está aclimatado/preparado."
+    },
+    "links": [
+      {
+        "label": "Smithsonian · ficha del volcán",
+        "url": "https://volcano.si.edu/volcano.cfm?vn=224010"
+      }
+    ]
   },
   {
     "n": 5,
@@ -76,13 +144,34 @@
     "time": "1–2 noches",
     "lat": 4.0483,
     "lon": 9.7043,
-    "desc": "Capital económica, mayor puerto de África central y la mejor plaza del país para talleres, recambios, neumáticos y soldadura, además de aeropuerto internacional. Es también el punto donde se sale de la región anglófona y se entra en el Camerún francófono: a partir de aquí el viaje baja mucho de tensión. Calor húmedo intenso y tráfico caótico; barrios de Bonanjo y Bonapriso para servicios y alojamiento con aparcamiento.",
+    "desc": "Capital económica y uno de los principales puertos de África central, además de aeropuerto internacional y gran plaza para talleres, recambios, neumáticos y soldadura. Es también el punto donde la ruta deja la región anglófona y entra en el Camerún francófono. Calor húmedo intenso y tráfico muy denso; buscar servicios y alojamiento con aparcamiento en Bonanjo o Bonapriso y no calcular los tiempos por distancia lineal.",
     "credit": "Mboupda Talla Roger · CC BY-SA 3.0",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Port%20autonome%20de%20Douala%201.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Port%20autonome%20de%20Douala%201.jpg",
+        "credit": "Mboupda Talla Roger · CC BY-SA 3.0",
+        "caption": "Puerto autónomo de Duala"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Douala.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Douala.JPG",
+        "credit": "Njeimosestimah · CC BY-SA 3.0",
+        "caption": "Paisaje urbano de Duala"
+      }
+    ],
+    "visit": {
+      "why": "Su valor para la expedición es logístico: talleres, neumáticos, soldadura, compras, conectividad y alojamiento con aparcamiento.",
+      "see": "Bonanjo conserva arquitectura administrativa y el frente del Wouri explica el carácter portuario, pero no compensa añadir días si no hay gestiones.",
+      "access": "Tráfico muy lento y humedad alta; agrupar todas las tareas y elegir base con parking antes de entrar.",
+      "when": "Entre semana y de día para talleres y recambios.",
+      "skip": "Si los vehículos no necesitan intervención, basta una noche de tránsito; no convertirla en parada turística por inercia."
+    }
   },
   {
     "n": 6,
@@ -93,13 +182,40 @@
     "time": "2 noches",
     "lat": 2.9369,
     "lon": 9.9096,
-    "desc": "La mejor playa de Camerún: arena blanca, cocoteros y un mar tranquilo, con la mejor oferta de pescado y marisco a la brasa de la costa (los «kilomètres» de chiringuitos al sur del pueblo). Puerto de aguas profundas al norte (Kribi Deep Sea Port). Es la parada de descanso natural del corredor de bajada antes de internarse en la selva del sureste, y uno de los pocos sitios del país completamente cómodos con el perro.",
+    "desc": "Principal destino costero del sur de Camerún, con playas de arena, cocoteros y numerosos puestos de pescado y marisco a la brasa al sur de la ciudad. Al norte queda el puerto de aguas profundas de Kribi. Es una parada de descanso práctica en el corredor de bajada antes de internarse en la selva del sureste; con perro, confirmar siempre la política del alojamiento y evitar playas concurridas o zonas de desembarco de pesca.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Kribi-Cameroon%20beach%20on%20a%20Sunny%20day.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The%20Kribi-Cameroon%20beach%20on%20a%20Sunny%20day.jpg",
+        "credit": "WaiKum · CC BY-SA 4.0",
+        "caption": "Playa de Kribi"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cameroon%20banner%20Kribi%20beach%20with%20boats.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Cameroon%20banner%20Kribi%20beach%20with%20boats.jpg",
+        "credit": "Jjtkk/Ymea · CC BY-SA 3.0",
+        "caption": "Barcas en la playa de Kribi"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plage%20de%20kribi%20(3).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Plage%20de%20kribi%20(3).jpg",
+        "credit": "Sid Mbog · CC BY-SA 4.0",
+        "caption": "Ambiente de baño en Kribi"
+      }
+    ],
+    "visit": {
+      "why": "Es la pausa costera más cómoda del tramo antes de entrar en el bosque del sureste, con playa, pescado y oferta de alojamiento.",
+      "see": "Playas urbanas y semiurbanas, barcas de pesca y costa de arena; las cataratas de la Lobé son un PDI separado.",
+      "access": "Elegir alojamiento con aparcamiento y confirmar el tramo de playa que admite perro. Evitar la zona operativa del puerto de aguas profundas.",
+      "when": "Mañana o última hora para playa; el estado del mar importa más que una estación teórica.",
+      "skip": "Reducir a una noche si se busca naturaleza remota: Kribi es descanso y servicios, no una playa aislada."
+    }
   },
   {
     "n": 7,
@@ -108,15 +224,48 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "½ día",
-    "lat": 2.85,
-    "lon": 9.8833,
-    "desc": "A 8 km al sur de Kribi, el río Lobé se descuelga en una cortina de saltos de unos 20 m que caen DIRECTAMENTE sobre el Atlántico: uno de los dos o tres únicos sitios del mundo (y el único de África) donde una catarata desemboca en el mar. Se puede caminar por las rocas hasta la base, bañarse en las pozas de agua dulce a pocos metros de la rompiente y subir en piragua río arriba hasta campamentos de pigmeos bagyeli. Está en la lista indicativa de la UNESCO. Acceso libre por la carretera de Campo, con tasa local y aparcamiento.",
+    "lat": 2.8816798,
+    "lon": 9.8975577,
+    "desc": "Al sur de Kribi, el río Lobé forma una sucesión de saltos de unos 20 m que llegan directamente al Atlántico. El paisaje cultural de las cataratas figura en la lista indicativa de la UNESCO por su valor natural y por la relación de las comunidades batanga, maabi y bagyeli con el río y el bosque. El pin marca las cataratas reales; para acercarse por las rocas o contratar una piragua, valorar caudal, oleaje y condiciones locales y acordar antes el precio.",
     "credit": "Blaizo 237 · CC BY-SA 4.0",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20lob%C3%A9%20kribi%20cameroon1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Les%20chutes%20de%20la%20lob%C3%A9%20kribi%20cameroon1.jpg",
+        "credit": "Blaizo 237 · CC BY-SA 4.0",
+        "caption": "Vista frontal de las cataratas"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lobe%20Waterfalls.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lobe%20Waterfalls.jpg",
+        "credit": "Fabdoull · CC BY-SA 4.0",
+        "caption": "Saltos con GPS del archivo junto a la desembocadura"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20chutes%20de%20la%20Lobe.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Les%20chutes%20de%20la%20Lobe.jpg",
+        "credit": "Ritzylaura · CC BY-SA 4.0",
+        "caption": "Vista amplia de las cataratas"
+      }
+    ],
+    "visit": {
+      "why": "La combinación visible de río, saltos y Atlántico es singular y la relación cultural con las comunidades ribereñas añade contexto a una visita corta.",
+      "see": "Una sucesión de caídas de hasta unos 20 m en el último tramo del Lobé, con vistas desde orilla y, si las condiciones lo permiten, desde piragua.",
+      "access": "El pin cae sobre las cataratas reales, unos 6 km al sur de Kribi. Acordar precio antes de subir a una piragua y no caminar sobre roca mojada sin evaluar caudal y oleaje.",
+      "when": "Luz lateral y caudal suficiente; con lluvia fuerte o mar adversa, limitarse a los puntos seguros de orilla.",
+      "skip": "No requiere una jornada completa. Descartar la piragua si no hay chaleco, el patrón no inspira confianza o el mar está cruzado."
+    },
+    "links": [
+      {
+        "label": "UNESCO · candidatura de las cataratas",
+        "url": "https://whc.unesco.org/en/tentativelists/6330/"
+      }
+    ]
   },
   {
     "n": 8,
@@ -133,7 +282,8 @@
     "source": "https://commons.wikimedia.org/wiki/File:Les%20chutes%20de%20la%20lobé%20kribi%20cameroon1.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 9,
@@ -150,7 +300,8 @@
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 10,
@@ -167,7 +318,44 @@
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dja%20Faunal%20Reserve-109435.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dja%20Faunal%20Reserve-109435.jpg",
+        "credit": "C. Hance/UNESCO · CC BY-SA 3.0 IGO",
+        "caption": "Bosque de la Reserva del Dja"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dja%20Faunal%20Reserve-109441.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dja%20Faunal%20Reserve-109441.jpg",
+        "credit": "C. Hance/UNESCO · CC BY-SA 3.0 IGO",
+        "caption": "Interior de la reserva"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dja%20Faunal%20Reserve-109439.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dja%20Faunal%20Reserve-109439.jpg",
+        "credit": "C. Hance/UNESCO · CC BY-SA 3.0 IGO",
+        "caption": "Paisaje protegido del Dja"
+      }
+    ],
+    "visit": {
+      "why": "Es un gran bloque de selva del Congo relativamente bien conservada y permite entender el ecosistema que domina el sureste del país.",
+      "see": "Selva primaria, río Dja y biodiversidad; los avistamientos de grandes mamíferos nunca están garantizados.",
+      "access": "Solo con permiso y guía de la autoridad. La reserva publica accesos por Somalomo, Lomié, Djoum y Meyomessala; para esta ruta interesa confirmar el sector de Djoum.",
+      "when": "Con pista practicable y visita cerrada por escrito; evitar improvisarla al llegar.",
+      "skip": "Descartarla si no hay respuesta del servicio de conservación o si el desvío compromete la frontera de Ntam."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Reserva del Dja",
+        "url": "https://whc.unesco.org/en/list/407"
+      },
+      {
+        "label": "Planificación de visita de la reserva",
+        "url": "https://www.dja.cm/anglais/visite.php"
+      }
+    ]
   },
   {
     "n": 11,
@@ -178,13 +366,14 @@
     "time": "1 noche",
     "lat": 2.6667,
     "lon": 12.6667,
-    "desc": "Pueblo de la selva del sur, a 120 km de Sangmélima, que da nombre al corredor internacional Ketta-Djoum (Camerún-Congo). Últimas garrafas, últimos víveres y última cobertura móvil fiable antes de Mintom y de la frontera de Ntam. Base sur para el flanco meridional de la reserva del Dja y punto donde conviene registrar el paso ante la gendarmería antes de afrontar el tramo final hacia el Congo.",
+    "desc": "Pueblo de la selva del sur, a unos 120 km de Sangmélima, que da nombre al corredor internacional Ketta-Djoum entre Camerún y Congo. Es el último núcleo razonable para buscar víveres, combustible de reventa y cobertura antes de Mintom y Ntam, pero ninguna de esas disponibilidades debe darse por garantizada. También sirve de base para el flanco meridional de la reserva del Dja; registrar el paso ante la gendarmería y confirmar el estado del corredor antes de continuar.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 12,
@@ -201,7 +390,34 @@
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaounde-BEAC.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Yaounde-BEAC.jpg",
+        "credit": "Albert Bergonzo · CC BY-SA 4.0",
+        "caption": "Centro urbano de Yaundé"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Views%20of%20Yaounde%20Cameroon%2003.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Views%20of%20Yaounde%20Cameroon%2003.jpg",
+        "credit": "Kateregga1 · CC BY-SA 4.0",
+        "caption": "Vista urbana de Yaundé"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Views%20of%20Yaounde%20Cameroon%2005.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Views%20of%20Yaounde%20Cameroon%2005.jpg",
+        "credit": "Kateregga1 · CC BY-SA 4.0",
+        "caption": "Yaundé; archivo geolocalizado en la ciudad"
+      }
+    ],
+    "visit": {
+      "why": "Es la mejor parada administrativa del país y añade museos, barrios en colinas y arquitectura urbana a un itinerario muy natural.",
+      "see": "Centro, Museo Nacional y paisaje de colinas; priorizar una selección corta en vez de intentar abarcar una ciudad extensa.",
+      "access": "Tráfico intenso: dejar el vehículo en parking vigilado y moverse con itinerario cerrado. No fotografiar edificios oficiales o controles.",
+      "when": "Día laborable para trámites; visitas culturales de mañana.",
+      "skip": "Si no hay gestiones, una noche puede bastar. No sacrificar tiempo de naturaleza por desplazamientos urbanos largos."
+    }
   },
   {
     "n": 13,
@@ -218,7 +434,8 @@
     "source": "https://commons.wikimedia.org/wiki/File:Port%20autonome%20de%20Douala%201.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 14,
@@ -235,7 +452,40 @@
     "source": "https://commons.wikimedia.org/wiki/File:Limbe%20wildlife%20center.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Buffle%20dans%20le%20Parc%20National%20de%20Lob%C3%A9k%C3%A9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Buffle%20dans%20le%20Parc%20National%20de%20Lob%C3%A9k%C3%A9.jpg",
+        "credit": "Ministère du Tourisme du Cameroun · CC BY-SA 3.0",
+        "caption": "Búfalos en Lobéké"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lob%C3%A9k%C3%A9%20buffalo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lob%C3%A9k%C3%A9%20buffalo.jpg",
+        "credit": "Amcaja · CC BY-SA 3.0",
+        "caption": "Búfalo de bosque en el parque"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/First%20mirador%20in%20Lob%C3%A9k%C3%A9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:First%20mirador%20in%20Lob%C3%A9k%C3%A9.jpg",
+        "credit": "Amcaja · CC BY-SA 3.0",
+        "caption": "Mirador de observación en Lobéké"
+      }
+    ],
+    "visit": {
+      "why": "Es la experiencia de selva más específica del corredor de subida: bais, búfalos de bosque y posibilidad de observar fauna desde miradores.",
+      "see": "Claros forestales y paisaje de selva; los gorilas y elefantes son posibles, no una promesa.",
+      "access": "Depende de que funcione el paso Socambo/Moloundou y de permisos, guía y campamento confirmados desde Mambélé. Las últimas pistas pueden quedar impracticables con lluvia.",
+      "when": "Estación más seca y reserva previa.",
+      "skip": "Descartarlo si Socambo no admite los vehículos, no hay permiso confirmado o el barro convierte el bucle en un riesgo para el calendario."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Sangha Trinational",
+        "url": "https://whc.unesco.org/en/list/1380"
+      }
+    ]
   },
   {
     "n": 15,
@@ -252,7 +502,8 @@
     "source": "https://commons.wikimedia.org/wiki/File:Port%20autonome%20de%20Douala%201.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 16,
@@ -263,13 +514,14 @@
     "time": "1 noche",
     "lat": 4.5833,
     "lon": 13.6833,
-    "desc": "Capital de la región del Este y primera ciudad grande al salir de la selva: combustible garantizado, bancos con cajeros, hospital regional, hoteles con aparcamiento y el reencuentro con el asfalto continuo hacia Yaundé. Es el punto donde termina el tramo verdaderamente remoto de la subida.",
+    "desc": "Capital de la región del Este y primera ciudad grande al salir de la selva, con estaciones donde buscar combustible formal, bancos con cajeros, hospital regional, talleres y hoteles con aparcamiento. Es el punto razonable para revisar vehículos y provisiones antes de continuar por asfalto hacia Yaundé; confirmar existencias y medios de pago en lugar de tratarlos como garantizados.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Port%20autonome%20de%20Douala%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Port%20autonome%20de%20Douala%201.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 17,
@@ -277,16 +529,49 @@
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
-    "time": "½–1 día",
+    "time": "cerrado hasta nuevo aviso; revalidar",
     "lat": 3.6167,
     "lon": 11.6,
-    "desc": "A unos 45 km al sur de Yaundé, dentro del Parque Nacional de Mefou, el santuario de Ape Action Africa acoge más de 300 primates rescatados del tráfico: gorilas de llanura occidental, chimpancés, mandriles, drills y varias especies de cercopitecos, en grandes recintos de selva. Es la forma más fiable y más ética de ver grandes simios en Camerún sin depender de la suerte en la selva profunda, y una visita de medio día desde la capital. ATENCIÓN: por riesgo de transmisión de enfermedades a los primates, los perros no entran en ningún caso.",
+    "desc": "A unos 45 km al sur de Yaundé, el santuario de Ape Action Africa en Mefou acoge más de 300 primates rescatados, entre ellos gorilas, chimpancés, mandriles, drills y cercopitecos, en grandes recintos forestales. Su finalidad es el rescate y la rehabilitación, no un safari de fauna libre. Por riesgo de transmisión de enfermedades, el perro no puede entrar. A 14 de septiembre de 2026, la página oficial indica que las visitas están suspendidas hasta nuevo aviso mientras trasladan primates dentro del santuario; no programar la parada hasta que se publique la reapertura.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Limbe%20wildlife%20center.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guenons%20in%20primate%20reserve%20Sanctuary%20Mefou.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Guenons%20in%20primate%20reserve%20Sanctuary%20Mefou.jpg",
+        "credit": "Fkamtoh · CC BY-SA 4.0",
+        "caption": "Guenones en el santuario de Mefou"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chimpanz%C3%A9%20in%20Primate%20Reserve%20sanctuary%20Mefou.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chimpanz%C3%A9%20in%20Primate%20Reserve%20sanctuary%20Mefou.jpg",
+        "credit": "Fkamtoh · CC BY-SA 4.0",
+        "caption": "Chimpancé en Mefou"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Femelle%20gorille%20dans%20la%20reserve%20de%20la%20Mefou.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Femelle%20gorille%20dans%20la%20reserve%20de%20la%20Mefou.jpg",
+        "credit": "Fkamtoh · CC BY-SA 4.0",
+        "caption": "Gorila en la reserva de Mefou"
+      }
+    ],
+    "visit": {
+      "why": "Permitía observar el trabajo de rescate de gorilas, chimpancés y monos en bosque cercano a Yaundé.",
+      "see": "Recintos forestales de rehabilitación, no un parque de fauna libre.",
+      "access": "La página oficial indica actualmente cierre a visitantes hasta nuevo aviso. El desvío final incluye 5–6 km sin asfaltar y puede cerrarse con lluvia fuerte.",
+      "when": "Solo después de que Ape Action Africa publique la reapertura y la confirme el mismo día.",
+      "skip": "Mientras siga cerrado, no ir. Incluso reabierto, confirmar plan para el perro fuera del santuario."
+    },
+    "links": [
+      {
+        "label": "Estado de visitas · Ape Action Africa",
+        "url": "https://www.apeactionafrica.org/visit-our-sanctuary"
+      }
+    ]
   },
   {
     "n": 18,
@@ -297,13 +582,40 @@
     "time": "1 día",
     "lat": 5.7167,
     "lon": 10.9,
-    "desc": "Capital histórica del reino bamún, una de las monarquías tradicionales vivas más importantes de África occidental y central, con una dinastía documentada desde el siglo XIV. El Palacio Real (1917, de ladrillo, inspirado en la arquitectura alemana) alberga el Museo del Sultanato, reinaugurado en 2023 en un espectacular edificio nuevo con forma de araña-serpiente-abeja (los emblemas dinásticos). Aquí el sultán Njoya inventó a comienzos del siglo XX la escritura bamum (a'ka-u-ku), un sistema propio que aún se enseña. El barrio de artesanos (Rue des Artisans) es el mejor de Camerún para bronce, latón y talla. En la lista indicativa de la UNESCO.",
+    "desc": "Capital histórica del reino bamún, con una dinastía documentada desde el siglo XIV. Junto al Palacio Real se encuentra el nuevo Museo de los Reyes Bamún, inaugurado el 13 de abril de 2024; su arquitectura retoma los emblemas dinásticos de la araña, la serpiente bicéfala y la abeja. El sultán Njoya desarrolló a comienzos del siglo XX la escritura bamum y fomentó las artes de la corte. Completar la visita con el barrio artesanal, preguntando horarios, permiso para fotografiar y precios antes de entrar.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bamun%20sultan%20palace.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bamun%20sultan%20palace.jpg",
+        "credit": "Wikimedia Commons · CC BY-SA 3.0",
+        "caption": "Palacio del sultán bamún"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CAM-Foumban-Palais%20royal-Entr%C3%A9e%20du%20mus%C3%A9e.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:CAM-Foumban-Palais%20royal-Entr%C3%A9e%20du%20mus%C3%A9e.jpg",
+        "credit": "WILLAV-FR · CC BY-SA 4.0",
+        "caption": "Entrada del museo del palacio"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Esplanade%20du%20mus%C3%A9e%20des%20Rois%20Bamoun..jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Esplanade%20du%20mus%C3%A9e%20des%20Rois%20Bamoun..jpg",
+        "credit": "Devane Ndonnang Nanga Zenas · CC BY-SA 4.0",
+        "caption": "Esplanada del nuevo Museo de los Reyes Bamún"
+      }
+    ],
+    "visit": {
+      "why": "Es la parada cultural más fuerte de Camerún: continuidad del reino bamún, palacio histórico, escritura creada por el sultán Njoya y un museo nuevo de arquitectura simbólica.",
+      "see": "Palacio, Museo de los Reyes Bamún y barrio artesanal; las colecciones y los espacios accesibles dependen de la visita del día.",
+      "access": "El pin marca el conjunto real. Confirmar horarios, entradas y permiso fotográfico; el palacio sigue ligado a una institución viva.",
+      "when": "Día completo o al menos medio día, evitando llegar al cierre.",
+      "skip": "Si solo hay tiempo para una parada cultural en las Praderas, conservar Foumban y recortar ciudades de servicio."
+    }
   },
   {
     "n": 19,
@@ -312,15 +624,16 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "½ día",
-    "lat": 5.3667,
-    "lon": 10.4167,
+    "lat": 5.3495646,
+    "lon": 10.409531,
     "desc": "La más célebre de las chefferies bamileké del país de las Praderas: un conjunto de casas-palacio de planta cuadrada con altísimos techos cónicos de paja y fachadas de postes tallados, alineadas tras una gran plaza ceremonial. Museo de la Chefferie con máscaras, tronos de perlas y trajes reales. Las chefferies bamileké del oeste están en la lista indicativa de la UNESCO. A 15 km de Bafoussam, gran plaza de servicios de la región Oeste.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 20,
@@ -331,29 +644,57 @@
     "time": "1 noche",
     "lat": 5.45,
     "lon": 10.05,
-    "desc": "Dschang, a 1.400 m en las montañas bamileké, es la ciudad de clima más agradable de Camerún (los alemanes y luego los franceses la usaron como estación de altura) y base del célebre «Centre Climatique». A 12 km, las cataratas de la Métché caen unos 60 m en un circo de selva; sitio de memoria de las guerras de independencia. Desde Dschang arranca la espectacular bajada del escarpe hacia Santchou y Melong, con más de 1.000 m de desnivel en pocos kilómetros.",
+    "desc": "Dschang, a unos 1.400 m en las montañas bamileké, fue utilizada como estación de altura durante los periodos alemán y francés y conserva el antiguo Centre Climatique. Las cataratas de la Métché, en las proximidades de Bafoussam, son además un lugar de memoria ligado a la represión de la lucha independentista. Desde Dschang comienza la fuerte bajada del escarpe hacia Santchou y Melong; no confundir el pin urbano con el acceso a las cataratas.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 21,
-    "name": "Cataratas de Ekom-Nkam y monte Manengouba",
+    "name": "Cataratas de Ekom-Nkam",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con precaución",
     "time": "1–2 días",
-    "lat": 5.0833,
-    "lon": 9.9167,
-    "desc": "Las cataratas de Ekom-Nkam, cerca de Melong, caen 80 m en un anfiteatro de selva primaria y son famosas por haber sido el escenario de la película «Greystoke: la leyenda de Tarzán» (1984); sendero escalonado hasta el mirador inferior y hasta la poza. A media hora, el monte Manengouba (2.411 m), un volcán con dos lagos de cráter gemelos —el «lago macho» y el «lago hembra»— en una caldera de pastos de altura a la que se sube en 4x4 por pista y luego a pie, con vistas sobre todo el valle del Mungo. Uno de los mejores sitios del país para caminar con el perro y acampar en alto, fuera de parque nacional.",
+    "lat": 5.0619617,
+    "lon": 10.0296593,
+    "desc": "Las cataratas de Ekom-Nkam, cerca de Melong, caen unos 80 m en un anfiteatro de vegetación tropical y fueron una localización de «Greystoke: la leyenda de Tarzán» (1984). El pin marca el acceso real a las cataratas, no el monte Manengouba: los lagos de cráter de Manengouba son otra excursión, por una pista distinta, que exige planificación separada. En Ekom-Nkam, confirmar el estado del sendero, la tasa local y si el perro puede bajar con seguridad antes de iniciar el descenso.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutes%20Ekom%20Nkam%20Melong%2004.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chutes%20Ekom%20Nkam%20Melong%2004.jpg",
+        "credit": "Junior Verges · CC BY-SA 4.0",
+        "caption": "Cataratas de Ekom-Nkam"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutes%20Ekom%20Nkam%20Melong%2008.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chutes%20Ekom%20Nkam%20Melong%2008.jpg",
+        "credit": "Junior Verges · CC BY-SA 4.0",
+        "caption": "Otra perspectiva del salto"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutes%20Ekom%20Nkam%20Melong%2001.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chutes%20Ekom%20Nkam%20Melong%2001.jpg",
+        "credit": "Junior Verges · CC BY-SA 4.0",
+        "caption": "Vista geolocalizada junto al pin corregido"
+      }
+    ],
+    "visit": {
+      "why": "Es una caída potente en un anfiteatro verde y un desvío natural desde el eje de Melong; visualmente supera a muchas paradas urbanas del oeste.",
+      "see": "Dos brazos principales según caudal, pared basáltica y varios ángulos desde senderos y miradores.",
+      "access": "El pin coincide con el recinto de las cataratas. Confirmar estado del acceso y guía local; suelo muy resbaladizo con lluvia.",
+      "when": "Con caudal, pero no durante tormenta o crecida que vuelva inseguro el borde.",
+      "skip": "Descartar el descenso si el terreno está saturado o no hay control local; la vista superior sigue siendo suficiente."
+    }
   }
 ]

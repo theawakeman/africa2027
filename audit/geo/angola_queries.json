@@ -1,0 +1,576 @@
+{
+ "slug": "angola",
+ "bbox": [
+  11.299999999999999,
+  -18.400000000000002,
+  24.400000000000002,
+  -4.0
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Luanda",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -8.8383,
+   "lon": 13.2344,
+   "desc": "Capital y mayor base logística del país: puerto, aeropuerto internacional, embajada de España, talleres y recambios de todo tipo. Marginal (paseo marítimo), Fortaleza de San Miguel y el Museo Nacional",
+   "q": [
+    "Luanda"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Miradouro da Lua",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -9.1667,
+   "lon": 13.0333,
+   "desc": "Paisaje erosionado de cañones y formaciones lunares sobre el Atlántico, a 40 km al sur de Luanda; mirador espectacular al atardecer y parada obligada nada más salir de la capital.",
+   "q": [
+    "Miradouro da Lua"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Pedras Negras de Pungo Andongo",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -9.6625,
+   "lon": 15.5839,
+   "desc": "Descomunales monolitos de roca negra que emergen de la sabana verde, visibles desde 50 km de distancia; lugar de leyenda de la reina Nzinga (huellas talladas en la roca) y ruinas de un fuerte portugué",
+   "q": [
+    "Pedras Negras de Pungo Andongo"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Cascadas de Kalandula (Calandula)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -9.0758,
+   "lon": 16.0033,
+   "desc": "Con 105 m de altura y 400 m de anchura, la segunda mayor catarata de África por caudal tras las Victoria Falls, sobre el río Lucala en la provincia de Malanje; a unos 360 km de Luanda. Se puede bajar ",
+   "q": [
+    "Cascadas de Kalandula",
+    "Cascata Kalandula",
+    "Cascadas de Kalandula (Calandula)"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Parque Nacional de Cangandala · palanca negra gigante",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -9.9167,
+   "lon": 16.4,
+   "desc": "El parque más pequeño de Angola (630 km², a unos 50 km al sur de la ciudad de Malanje) y el único lugar del mundo, junto con la vecina reserva de Luando, donde vive la PALANCA NEGRA GIGANTE: el símbol",
+   "q": [
+    "Parque Nacional de Cangandala",
+    "Parque Nacional dCangandala",
+    "Parque Nacional de Cangandala · palanca negra gigante"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Waku Kungo (hipopótamos y plantaciones de café)",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -11.35,
+   "lon": 15.1167,
+   "desc": "En el altiplano de Kwanza Sul, entre las antiguas grandes plantaciones de café coloniales hoy semiabandonadas, hay lagunas donde se pueden observar hipopótamos en libertad y sin entrar en ningún parqu",
+   "q": [
+    "Waku Kungo",
+    "Waku Kungo (hipopótamos y plantaciones de café)"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Bailundo (reino del Bailundo)",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -12.1833,
+   "lon": 15.8167,
+   "desc": "Antigua capital del reino de Bailundo, uno de los grandes reinos ovimbundu del altiplano y todavía hoy una monarquía tradicional viva: se puede solicitar audiencia con la autoridad tradicional (o soba",
+   "q": [
+    "Bailundo",
+    "Bailundo (reino del Bailundo)"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Morro do Moco · techo de Angola (2.620 m)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -12.4667,
+   "lon": 15.1667,
+   "desc": "El punto más alto de Angola, a 70 km al oeste de Huambo, con la aldea de Kanjonde al pie como punto de partida de la subida a pie. Conserva los últimos bosques afromontanos del país y es Área Importan",
+   "q": [
+    "Morro do Moco",
+    "Morro do Moco · techo de Angola (2.620 m)"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Luena (Moxico)",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -11.7833,
+   "lon": 19.9167,
+   "desc": "Capital de Moxico y última ciudad con servicios reales (combustible formal, taller, hospital, mercado) antes de los más de 400 km de pistas hacia Cazombo y la frontera de Zambia. Punto de no retorno l",
+   "q": [
+    "Luena",
+    "Luena (Moxico)"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Parque Nacional de Iona",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -16.7,
+   "lon": 12.3333,
+   "desc": "15.200 km² de desierto del Namib angoleño gestionados por African Parks: oryx, cebras, springbok, guepardo, leopardo, hiena parda y jirafas angoleñas reintroducidas en 2023-2024 tras desaparecer en la",
+   "q": [
+    "Parque Nacional de Iona",
+    "Parque Nacional dIona"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Foz do Cunene",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -17.3,
+   "lon": 11.6667,
+   "desc": "Desembocadura del río Cunene, frontera natural con Namibia, entre dunas y un paisaje casi lunar; aguas termales río arriba (extremar precaución, hay cocodrilos aguas abajo). Combinar con Iona en un mi",
+   "q": [
+    "Foz do Cunene"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Baía dos Tigres (avanzado, opcional)",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -16.6167,
+   "lon": 11.7833,
+   "desc": "Antigua península convertida en isla en 1962, con el pueblo pesquero abandonado tragado por la arena; el tramo mítico de duna-hasta-el-mar del sur de Angola. Se llega desde Tombwa cruzando el paso de ",
+   "q": [
+    "Baía dos Tigres",
+    "Baía dos Tigres (avanzado, opcional)"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Tchitundu-Hulu · arte rupestre",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -15.9406,
+   "lon": 12.8793,
+   "desc": "Conjunto de arte rupestre sobre varios inselbergs en plena semidesierto, a 37 km al suroeste de Virei y 150 km al sur de Moçâmedes: cuatro yacimientos repartidos en un kilómetro (Tchitundu-Hulu Mumule",
+   "q": [
+    "Tchitundu-Hulu",
+    "Tchitundu-Hulu · arte rupestre"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Lagoa do Arco (Lake Arco)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -15.7661,
+   "lon": 12.0667,
+   "desc": "Oasis de agua dulce en pleno desierto del Namibe, encajado entre dos grandes arcos de arenisca, con aves acuáticas, rapaces y tejedores. La aldea vecina de Njambasana ha montado un aparcamiento y un c",
+   "q": [
+    "Lagoa do Arco",
+    "Lagoa do Arco (Lake Arco)"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Namibe (Moçâmedes)",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -15.1961,
+   "lon": 12.1522,
+   "desc": "Ciudad y puerto donde el desierto del Namibe llega literalmente al Atlántico; arquitectura colonial portuguesa en la Marginal, base logística para el desierto, Tundavala, Serra da Leba, Lagoa do Arco,",
+   "q": [
+    "Namibe",
+    "Namibe (Moçâmedes)"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Serra da Leba",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -15.0711,
+   "lon": 13.2486,
+   "desc": "El puerto de montaña más fotografiado de Angola: la EN280 sube en herraduras cerradas desde la llanura costera (~720 m) hasta 1.845 m de altitud, enlazando Namibe con la meseta de Lubango. Asfaltado p",
+   "q": [
+    "Serra da Leba"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Tundavala (Fenda da Tundavala)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -14.8177,
+   "lon": 13.3814,
+   "desc": "Grieta de unos 800 m en el borde de la meseta de Humpata, a 18 km de Lubango, con un salto de más de 1.000 m hasta la llanura; una de las 7 Maravillas Naturales de Angola. Pista de tierra desde Lubang",
+   "q": [
+    "Tundavala",
+    "Tundavala (Fenda da Tundavala)"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Benguela",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -12.5783,
+   "lon": 13.4055,
+   "desc": "La ciudad colonial portuguesa mejor conservada de la costa angoleña, cabecera del histórico ferrocarril de Benguela que cruzaba el continente hasta el Congo; playas urbanas (Praia Morena, Coatinha) y ",
+   "q": [
+    "Benguela"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Lobito",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -12.3644,
+   "lon": 13.5456,
+   "desc": "Ciudad portuaria sobre una restinga arenosa entre el océano y la bahía, con arquitectura colonial portuguesa bien conservada (Igreja da Arrábida); gran plaza logística de la costa junto con Benguela, ",
+   "q": [
+    "Lobito"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Cabo Ledo",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": -9.6833,
+   "lon": 13.2167,
+   "desc": "Bahía de arena a unos 120 km al sur de Luanda, conocida por una de las olas izquierdas más largas de África y por sus acantilados rojos sobre la playa; camping y alojamientos sencillos junto a la aren",
+   "q": [
+    "Cabo Ledo",
+    "Cape Ledo"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Parque Nacional de Kissama (Quiçama)",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -9.75,
+   "lon": 13.583,
+   "desc": "A unos 70 km al sur de Luanda, el único parque nacional angoleño realmente operativo y el más accesible del país, repoblado tras la guerra con la 'Operación Arca de Noé' (elefantes y otras especies tr",
+   "q": [
+    "Parque Nacional de Kissama",
+    "Parque Nacional dKissama",
+    "Parque Nacional de Kissama (Quiçama)"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "Mussulo",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": -8.9833,
+   "lon": 13.1667,
+   "desc": "Larga lengua de arena frente a Luanda que encierra una laguna de agua tranquila, con restaurantes de pescado y playas a un lado y bahía mansa al otro; se llega en barco-taxi desde la capital. Última p",
+   "q": [
+    "Mussulo"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)",
+   "cat": "Frontera",
+   "lat": -5.9167,
+   "lon": 13.9667,
+   "desc": "Cruce del puente fronterizo con RD Congo; registro y sellado ~500 m dentro de Angola. Desvío opcional a M'banza-Kongo (Patrimonio Mundial UNESCO, antigua capital del Reino del Kongo) a poca distancia.",
+   "q": [
+    "Lufu",
+    "Luvo",
+    "RD Congo"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida bajada — Caripande (hacia Zambia, cerca de Cazombo)",
+   "cat": "Frontera",
+   "lat": -11.9,
+   "lon": 22.9,
+   "desc": "Paso remoto en el extremo este de Angola (provincia de Moxico), frente al puesto zambiano de Chavuma. Otros overlanders describen la oficina de inmigración angoleña como muy precaria (secuelas de la g",
+   "q": [
+    "Caripande",
+    "Zambia",
+    "Cazombo"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada subida — Santa Clara/Oshikango (desde Namibia)",
+   "cat": "Frontera",
+   "lat": -17.35,
+   "lon": 15.75,
+   "desc": "Paso principal y más transitado entre Angola y Namibia; carretera asfaltada en ambos lados, infraestructura de control moderna. Punto de entrada de la subida hacia Namibe, Serra da Leba y Tundavala.",
+   "q": [
+    "Santa Clara",
+    "Oshikango",
+    "Namibia"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Alternativa subida — Calueque/Ruacana (desde Namibia)",
+   "cat": "Frontera",
+   "lat": -17.2825,
+   "lon": 14.5347,
+   "desc": "Paso alternativo más al oeste, junto a la presa de Calueque sobre el río Cunene y el puesto namibio de Ruacana/Omahenene; pista sin asfaltar en el lado angoleño, más lenta que Santa Clara pero da acce",
+   "q": [
+    "Calueque",
+    "Ruacana",
+    "Namibia"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Embajada de España en Luanda",
+   "cat": "Consular",
+   "lat": -8.8167,
+   "lon": 13.2333,
+   "desc": "Rua Frederico Welwitsch 84, Torre Maculusso, 12º andar C, Postal 3061, Luanda. Tel. +244 222 391 166/187/188 · Emergencia consular: +244 929 900 900.",
+   "q": [
+    "Embajada de España en Luanda",
+    "Embassy of Spain Luanda",
+    "Spain Embassy Luanda"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Hospital Américo Boavida — Luanda",
+   "cat": "Hospital",
+   "lat": -8.8147,
+   "lon": 13.2302,
+   "desc": "Principal hospital de referencia de la capital. Coordenada urbana aproximada.",
+   "q": [
+    "Hospital Américo Boavida",
+    "Américo Boavida"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Hospital Central da Huíla — Lubango",
+   "cat": "Hospital",
+   "lat": -14.9077,
+   "lon": 13.4925,
+   "desc": "Referencia hospitalaria del tramo de Serra da Leba y Tundavala, en la subida entre Namibe y la costa.",
+   "q": [
+    "Hospital Central da Huíla",
+    "Central da Huíla"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Combustible · Luanda / Lobito",
+   "cat": "Combustible",
+   "lat": -8.8383,
+   "lon": 13.2344,
+   "desc": "Mejor oferta y calidad del país (Sonangol, Pumangol) en las dos grandes ciudades costeras; repostar a fondo en ambas.",
+   "q": [
+    "Luanda",
+    "Lobito",
+    "Luanda / Lobito"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Combustible · M'banza-Kongo / Uíge (eje norte)",
+   "cat": "Combustible",
+   "lat": -6.2667,
+   "lon": 14.25,
+   "desc": "Estaciones formales en el desvío norte antes de bajar a Luanda; confirmar disponibilidad, oferta más limitada que en la costa.",
+   "q": [
+    "M'banza-Kongo",
+    "Uíge",
+    "M'banza-Kongo / Uíge"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Malanje",
+   "cat": "Combustible",
+   "lat": -9.5402,
+   "lon": 16.341,
+   "desc": "Base del triángulo de Malanje (Pedras Negras, Kalandula, Cangandala): combustible formal, hospital provincial, hoteles y mercado. Última plaza grande antes del altiplano.",
+   "q": [
+    "Malanje"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Huambo · base logística del altiplano",
+   "cat": "Combustible",
+   "lat": -12.7761,
+   "lon": 15.7392,
+   "desc": "Segunda ciudad del país (la antigua Nova Lisboa), a 1.700 m: combustible, talleres, hospital provincial y hoteles. Punto de partida hacia el Morro do Moco (70 km al oeste, hasta la aldea de Kanjonde) ",
+   "q": [
+    "base logística del altiplano"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Kuito (Bié)",
+   "cat": "Combustible",
+   "lat": -12.3833,
+   "lon": 16.9333,
+   "desc": "Capital de Bié y única parada de servicios entre Huambo y Luena; repostar aquí aunque el depósito no esté bajo, porque el siguiente tramo son ~400 km de asfalto degradado.",
+   "q": [
+    "Kuito",
+    "Bié"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Benguela · servicios de costa",
+   "cat": "Combustible",
+   "lat": -12.5783,
+   "lon": 13.4055,
+   "desc": "Junto con Lobito (30 km), la gran plaza de servicios de la costa central en la subida: combustible, talleres, recambios, hospital y alojamiento.",
+   "q": [
+    "servicios de costa"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Tombwa · último servicio antes del desierto profundo",
+   "cat": "Combustible",
+   "lat": -15.8,
+   "lon": 11.85,
+   "desc": "Último pueblo con combustible (irregular) antes de Baía dos Tigres y del desvío a Virei/Tchitundu-Hulu; confirmar existencias y salir con garrafas llenas desde Namibe.",
+   "q": [
+    "último servicio antes del desierto profundo"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Combustible · Cazombo (extremo este, escaso)",
+   "cat": "Combustible",
+   "lat": -11.9,
+   "lon": 22.9,
+   "desc": "Oferta muy limitada e irregular; llegar con depósitos y garrafas de reserva llenas desde Luena, sobre todo si el cruce a Zambia se complica por barro.",
+   "q": [
+    "Cazombo"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Combustible · Namibe / Lubango (eje sur)",
+   "cat": "Combustible",
+   "lat": -15.1961,
+   "lon": 12.1522,
+   "desc": "Estaciones formales en ambas ciudades; repostar en Namibe antes de Baía dos Tigres/Iona (sin oferta) y de nuevo en Lubango tras Serra da Leba.",
+   "q": [
+    "Namibe",
+    "Lubango",
+    "Namibe / Lubango"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Agua potable y de uso general · Luanda",
+   "cat": "Agua potable",
+   "lat": -8.8383,
+   "lon": 13.2344,
+   "desc": "Agua embotellada sin problema en supermercados de la capital; estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito de uso general con manguera.",
+   "q": [
+    "Luanda"
+   ]
+  }
+ ]
+}

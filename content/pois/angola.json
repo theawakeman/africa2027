@@ -14,7 +14,34 @@
     "source": "https://commons.wikimedia.org/wiki/File:2009%20Luanda%20Angola%203818325721.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2009%20Luanda%20Angola%203818325721.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:2009%20Luanda%20Angola%203818325721.jpg",
+        "credit": "Chimpanz APe · CC BY 2.0",
+        "caption": "Vista urbana de Luanda"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Porto%20de%20Luanda%20-%20Angola%202015.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto%20de%20Luanda%20-%20Angola%202015.jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Puerto y frente marítimo de Luanda"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pr%C3%A9dio%20do%20Baleiz%C3%A3o%2C%20Luanda%20-%202019-06-28.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9dio%20do%20Baleiz%C3%A3o%2C%20Luanda%20-%202019-06-28.jpg",
+        "credit": "Edward Middleton · CC BY-SA 4.0",
+        "caption": "Arquitectura del centro de Luanda"
+      }
+    ],
+    "visit": {
+      "why": "Es la gran parada logística de Angola y el lugar razonable para resolver documentación, recambios, reparaciones y compras complejas.",
+      "see": "La Marginal, la Fortaleza de São Miguel y el tejido urbano permiten añadir contexto histórico sin convertir la escala de servicios en varios días de turismo.",
+      "access": "Tráfico denso y aparcamiento difícil: reservar base con estacionamiento vigilado y agrupar las gestiones por zonas.",
+      "when": "Entre semana para talleres y organismos; evitar desplazamientos innecesarios de noche.",
+      "skip": "No se puede omitir como nodo logístico, pero sí reducir la visita urbana si no hay gestiones pendientes."
+    }
   },
   {
     "n": 2,
@@ -23,15 +50,42 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "½ día",
-    "lat": -9.1667,
-    "lon": 13.0333,
-    "desc": "Paisaje erosionado de cañones y formaciones lunares sobre el Atlántico, a 40 km al sur de Luanda; mirador espectacular al atardecer y parada obligada nada más salir de la capital.",
+    "lat": -9.2211577,
+    "lon": 13.0897862,
+    "desc": "Paisaje de cárcavas y formaciones sedimentarias erosionadas frente al Atlántico, al sur de Luanda. El pin se ha fijado en la entrada real del mirador de Google Maps; el anterior quedaba varios kilómetros desplazado. Es una parada breve de carretera, especialmente fotogénica con luz lateral, pero conviene mantenerse en las zonas pisadas y lejos de bordes inestables.",
     "credit": "Paulo César Santos · CC0",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Miradouro%20da%20Lua%20(Angola).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Miradouro%20da%20Lua%20(Angola).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Miradouro%20da%20Lua%20(Angola).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Miradouro%20da%20Lua%20(Angola).jpg",
+        "credit": "Paulo César Santos · CC0",
+        "caption": "Cárcavas del Miradouro da Lua"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Miradouro%20da%20Lua%20-%202.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Miradouro%20da%20Lua%20-%202.jpg",
+        "credit": "Felipe Miguel · CC BY-SA 2.0",
+        "caption": "Formaciones erosionadas del mirador"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Miradouro%20da%20Lua%20-%204.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Miradouro%20da%20Lua%20-%204.jpg",
+        "credit": "Felipe Miguel · CC BY-SA 2.0",
+        "caption": "Perspectiva lateral del paisaje"
+      }
+    ],
+    "visit": {
+      "why": "Es un desvío corto desde la costa y ofrece un paisaje geológico muy distinto sin exigir una jornada completa.",
+      "see": "Cárcavas sedimentarias y vistas hacia el Atlántico; las tres fotografías muestran el lugar concreto, no un paisaje genérico de Angola.",
+      "access": "El pin está en la entrada del mirador. Aparcar sin bloquear y caminar solo por las zonas consolidadas.",
+      "when": "Primera o última hora, con luz lateral y sin lluvia fuerte.",
+      "skip": "Omitirlo con niebla, aguacero o si los bordes están embarrados e inestables."
+    }
   },
   {
     "n": 3,
@@ -42,13 +96,40 @@
     "time": "½–1 día",
     "lat": -9.6625,
     "lon": 15.5839,
-    "desc": "Descomunales monolitos de roca negra que emergen de la sabana verde, visibles desde 50 km de distancia; lugar de leyenda de la reina Nzinga (huellas talladas en la roca) y ruinas de un fuerte portugués del siglo XVII. Uno de los mejores vivac salvajes documentados por otros overlanders en Angola, junto a arroyos claros entre los bloques de granito. Hay rutas a pie cortas entre los monolitos.",
+    "desc": "Conjunto de grandes monolitos de roca que emerge de la sabana cerca de Pungo Andongo. La tradición local relaciona unas marcas de la roca con la reina Njinga, y en el entorno quedan vestigios de la presencia militar portuguesa. Hay recorridos cortos a pie entre las formaciones, pero ni la pernocta ni la disponibilidad de agua deben darse por supuestas: preguntar localmente por acceso, guía y lugar autorizado para aparcar.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pungo%20Andongo%2C%20Malange%2C%20Angola.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Pungo%20Andongo%2C%20Malange%2C%20Angola.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pungo%20Andongo%2C%20Malange%2C%20Angola.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pungo%20Andongo%2C%20Malange%2C%20Angola.JPG",
+        "credit": "Paulo César Santos · CC0",
+        "caption": "Monolitos de Pungo Andongo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pungo%20Andongo%2C%20Malange%2C%20Angola%2C%202008.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pungo%20Andongo%2C%20Malange%2C%20Angola%2C%202008.JPG",
+        "credit": "Paulo César Santos · CC0",
+        "caption": "Escala de las formaciones rocosas"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pungo%20Andongo%2C%20Malange%2C%20Angola2.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pungo%20Andongo%2C%20Malange%2C%20Angola2.JPG",
+        "credit": "Paulo César Santos · CC0",
+        "caption": "Paisaje de las Pedras Negras"
+      }
+    ],
+    "visit": {
+      "why": "Combina un paisaje geológico singular con memoria oral e historia política asociada a Njinga.",
+      "see": "Los monolitos y los recorridos a pie son el atractivo real; las huellas atribuidas a Njinga pertenecen a la tradición local, no a una prueba arqueológica.",
+      "access": "Llegar de día, confirmar dónde aparcar y contratar acompañamiento local si se quiere recorrer el conjunto.",
+      "when": "Por la mañana o al final de la tarde; evitar tormentas y roca mojada.",
+      "skip": "No improvisar vivac ni confiar en encontrar agua; si no se aclara el acceso, limitarse al mirador seguro."
+    }
   },
   {
     "n": 4,
@@ -57,15 +138,42 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "½–1 día",
-    "lat": -9.0758,
-    "lon": 16.0033,
-    "desc": "Con 105 m de altura y 400 m de anchura, la segunda mayor catarata de África por caudal tras las Victoria Falls, sobre el río Lucala en la provincia de Malanje; a unos 360 km de Luanda. Se puede bajar a pie hasta la base por un sendero empinado para ver el salto desde abajo, con arcoíris permanente en la niebla de agua.",
+    "lat": -9.0739269,
+    "lon": 16.0010612,
+    "desc": "Gran frente de cascadas del río Lucala, de unos 105 m de altura y hasta unos 400 m de anchura en la provincia de Malanje. El caudal y el aspecto cambian mucho entre estaciones. Hay miradores superiores y un sendero empinado hacia la base, cuyo estado debe confirmarse localmente; con lluvia, la roca y el barro hacen peligroso el descenso. El pin marca la ficha real de las cataratas en Google Maps.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola.JPG",
+        "credit": "Paulo César Santos · CC0",
+        "caption": "Frente principal de las cataratas de Kalandula"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola%20(2).JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kalandula%20waterfalls%20of%20the%20Lucala-River%20in%20Malange%2C%20Angola%20(2).JPG",
+        "credit": "Paulo César Santos · CC0",
+        "caption": "Caudal del río Lucala en Kalandula"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Quedas-Kalandula%2010%20queda%20LWS-2011-08%20QD32.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Quedas-Kalandula%2010%20queda%20LWS-2011-08%20QD32.jpg",
+        "credit": "L. Willms · CC BY-SA 3.0",
+        "caption": "Terrazas de la caída, en una fotografía geolocalizada"
+      }
+    ],
+    "visit": {
+      "why": "Es una de las grandes paradas naturales del itinerario y permite ver el río Lucala desde arriba o, si el terreno lo admite, desde la base.",
+      "see": "El frente completo cambia mucho con el caudal; el mirador superior ya justifica la visita.",
+      "access": "El pin coincide con la ficha de las cataratas. Confirmar localmente si el sendero inferior está abierto y contratar guía para bajar.",
+      "when": "Con buena visibilidad; tras lluvias hay más caudal pero también barro y roca resbaladiza.",
+      "skip": "Renunciar al descenso si llueve, el sendero está degradado o no hay guía; nunca acercarse a bordes mojados con el perro suelto."
+    }
   },
   {
     "n": 5,
@@ -74,49 +182,84 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "1 día",
-    "lat": -9.9167,
-    "lon": 16.4,
-    "desc": "El parque más pequeño de Angola (630 km², a unos 50 km al sur de la ciudad de Malanje) y el único lugar del mundo, junto con la vecina reserva de Luando, donde vive la PALANCA NEGRA GIGANTE: el símbolo nacional de Angola, un antílope en peligro crítico de cuernos inmensos que se creyó extinto tras la guerra civil. En 2026 se reunieron más de 200 ejemplares, un hito de conservación. Convive con pukú, sitatunga, búfalo, leopardo y león. Coordenada aproximada (el parque no publica una puerta oficial): confirmar acceso con el INBAC antes de ir. Foto: ejemplar de la especie, no del propio parque.",
+    "lat": -9.8802021,
+    "lon": 16.676292,
+    "desc": "Parque de unas 63.000 ha al sur de Malanje y hábitat esencial de la palanca negra gigante, símbolo nacional de Angola y antílope en peligro crítico que también ocupa la vecina reserva de Luando. En agosto de 2026 las autoridades informaron de una concentración de más de 200 ejemplares durante una operación de seguimiento; no equivale a un censo total ni garantiza su observación. El pin identifica el parque, no una puerta publicada: coordinar acceso y guía con el INBAC. Las fotografías identifican la subespecie y su distribución; el ejemplar vivo fue fotografiado en Luando, no dentro de Cangandala.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stavenn%20Hippotragus%20niger%20variani%2000.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Stavenn%20Hippotragus%20niger%20variani%2000.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20sable%20bull%20in%20Luando.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Giant%20sable%20bull%20in%20Luando.jpg",
+        "credit": "Fnardin · CC0",
+        "caption": "Macho de palanca negra gigante fotografiado en la reserva de Luando"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hippotragus%20niger%20variani%20distribution.svg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hippotragus%20niger%20variani%20distribution.svg",
+        "credit": "Oona Räisänen e IUCN · CC BY-SA 3.0",
+        "caption": "Distribución documentada de la subespecie en Angola"
+      }
+    ],
+    "visit": {
+      "why": "El interés es de conservación: conocer el hábitat de un antílope endémico y críticamente amenazado, no hacer un safari con avistamiento asegurado.",
+      "see": "Sabana y trabajo de conservación; incluso una visita autorizada puede terminar sin ver palancas.",
+      "access": "No hay una puerta turística verificada en el pin. Es imprescindible acordar por adelantado entrada, guía, horario y punto de encuentro con INBAC.",
+      "when": "Solo con confirmación operativa reciente y margen suficiente desde Malanje.",
+      "skip": "No ir basándose únicamente en el pin ni llevar el perro al área protegida; sin autorización escrita o contacto local, descartar."
+    },
+    "links": [
+      {
+        "label": "Ministerio de Ambiente · seguimiento de la palanca (agosto de 2026)",
+        "url": "https://minamb.gov.ao/web/noticias/o-triunfo-da-vida-mais-de-200-palancas-negras-gigantes-reunidas-em-cangandala-escrevem-pagina-dourada-na-historia-de-angola"
+      }
+    ]
   },
   {
     "n": 6,
-    "name": "Waku Kungo (hipopótamos y plantaciones de café)",
+    "name": "Waku Kungo · base para el río Kene",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "½–1 día",
     "lat": -11.35,
     "lon": 15.1167,
-    "desc": "En el altiplano de Kwanza Sul, entre las antiguas grandes plantaciones de café coloniales hoy semiabandonadas, hay lagunas donde se pueden observar hipopótamos en libertad y sin entrar en ningún parque nacional — lo que lo convierte en una de las mejores opciones de fauna salvaje compatible con llevar el perro en el vehículo. Parada natural a medio camino entre Malanje y el altiplano de Huambo.",
+    "desc": "Waku Kungo es una parada del altiplano de Kwanza Sul y posible base para buscar, con ayuda local, un sector del río Kene frecuentado por hipopótamos. La referencia publicada describe unos 30 km de pista sin señalizar y recomienda preguntar en la localidad; por eso el pin marca Waku Kungo, no un avistamiento garantizado. Los hipopótamos son extremadamente peligrosos: no bajar con el perro, permanecer lejos de la orilla y renunciar si no hay guía que conozca el punto y las condiciones del día.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waku%20Kungo%2C%20Angola%20-%20panoramio.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Waku%20Kungo%2C%20Angola%20-%20panoramio.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [],
+    "links": [
+      {
+        "label": "Referencia práctica del circuito de Waku Kungo",
+        "url": "https://www.vivreenangola.com/tourisme/en-province/circuit-le-plateau-de-waku-kungo/"
+      }
+    ]
   },
   {
     "n": 7,
-    "name": "Bailundo (reino del Bailundo)",
+    "name": "Ombala Mbalundu · reino del Bailundo",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "½ día",
-    "lat": -12.1833,
-    "lon": 15.8167,
-    "desc": "Antigua capital del reino de Bailundo, uno de los grandes reinos ovimbundu del altiplano y todavía hoy una monarquía tradicional viva: se puede solicitar audiencia con la autoridad tradicional (o soba) y asistir a ceremonias y danzas. Uno de los pocos lugares del viaje donde la parada es puramente cultural y no paisajística. Imagen de referencia del altiplano de la región, no del propio Bailundo.",
+    "lat": -12.1928155,
+    "lon": 15.8814625,
+    "desc": "Ombala Mbalundu es el sitio histórico y ceremonial ligado al reino de Bailundo, una institución tradicional ovimbundu del altiplano. El pin ya no marca el centro genérico de la ciudad, sino la ficha real del conjunto en Google Maps. La visita no da derecho a una audiencia ni a presenciar ceremonias: presentarse con respeto, solicitar permiso local y preguntar qué espacios y fotografías están permitidos.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Igreja%20Matriz%20de%20Waku%20Kungo%20-%20panoramio.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Igreja%20Matriz%20de%20Waku%20Kungo%20-%20panoramio.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 8,
@@ -127,13 +270,50 @@
     "time": "1–2 días",
     "lat": -12.4667,
     "lon": 15.1667,
-    "desc": "El punto más alto de Angola, a 70 km al oeste de Huambo, con la aldea de Kanjonde al pie como punto de partida de la subida a pie. Conserva los últimos bosques afromontanos del país y es Área Importante para las Aves: 233 especies, varias endémicas o amenazadas (francolín de Swierstra, chat de las cuevas de Angola, papamoscas pizarroso angoleño). Entre julio y septiembre florecen las proteas tras las quemas de la hierba. Sin estatus de protección ni infraestructura: guía local de Kanjonde imprescindible. LA gran excursión a pie de Angola.",
+    "desc": "El punto más alto de Angola, con 2.620 m, se alcanza a pie desde comunidades situadas al pie del macizo, habitualmente con apoyo local. Conserva fragmentos de bosque afromontano y especies de aves de distribución muy restringida. La Ley n.º 4/26, de 9 de abril de 2026, creó formalmente el Área de Conservación del Morro do Moco, de modo que ya no debe describirse como un enclave sin protección. La figura legal es nueva y no implica por sí sola senderos señalizados, rescate o infraestructura turística: acordar guía, ruta, aparcamiento y pernocta antes de desviarse.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Morro%20do%20Moco%2C%20Huambo%2C%20Angola.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Morro%20do%20Moco%2C%20Huambo%2C%20Angola.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Morro%20do%20Moco%2C%20Huambo%2C%20Angola.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Morro%20do%20Moco%2C%20Huambo%2C%20Angola.jpg",
+        "credit": "MagníficoRosário · CC BY-SA 4.0",
+        "caption": "Relieve del Morro do Moco"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Moco.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Moco.JPG",
+        "credit": "Benjamin Stauch · CC0",
+        "caption": "Vertientes del macizo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Huntley2019%20fig2.9-82.png?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Huntley2019%20fig2.9-82.png",
+        "credit": "B. J. Huntley · CC BY 4.0",
+        "caption": "Fragmentos de bosque afromontano del Morro do Moco"
+      }
+    ],
+    "visit": {
+      "why": "Es la ascensión al techo de Angola y una oportunidad de conocer los últimos fragmentos de bosque afromontano del país.",
+      "see": "La recompensa es el recorrido de montaña y el hábitat, no una infraestructura de cumbre ni un avistamiento garantizado de aves endémicas.",
+      "access": "La nueva protección legal no sustituye la logística local. Concertar guía y punto de partida, llevar navegación sin conexión y asumir una jornada larga.",
+      "when": "Con tiempo seco, visibilidad y salida temprana; comprobar incendios, quemas y restricciones del área de conservación.",
+      "skip": "Descartarlo sin guía, con tormenta, niebla cerrada o si no se puede dejar el vehículo y el perro de forma compatible con las normas locales."
+    },
+    "links": [
+      {
+        "label": "Ministerio de Ambiente · nueva área de conservación (2026)",
+        "url": "https://minamb.gov.ao/web/noticias/serra-do-pingano-e-morro-do-moco-elevadas-a-areas-de-conservacao."
+      },
+      {
+        "label": "Diário da República · Ley n.º 4/26",
+        "url": "https://c2a.portais.gov.ao/uploads/LEI_N_4_26_DE_9_DE_ABRIL_e268b17523.pdf"
+      }
+    ]
   },
   {
     "n": 9,
@@ -150,7 +330,8 @@
     "source": "https://commons.wikimedia.org/wiki/File:Luena%20Angola.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 10,
@@ -159,15 +340,46 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "1–2 días",
-    "lat": -16.7,
-    "lon": 12.3333,
-    "desc": "15.200 km² de desierto del Namib angoleño gestionados por African Parks: oryx, cebras, springbok, guepardo, leopardo, hiena parda y jirafas angoleñas reintroducidas en 2023-2024 tras desaparecer en la guerra civil; welwitschias milenarias (posiblemente de más de 2.000 años). Pistas de tierra y arena sin señalización fija — llevar GPX o guía local.",
+    "lat": -16.3629944,
+    "lon": 12.2547919,
+    "desc": "Gran parque del desierto del Namib angoleño gestionado por African Parks, con oryx, cebras, springbok, hiena parda y otros carnívoros. Las jirafas fueron reintroducidas en 2023 y 2024; el informe anual de 2024 contabilizaba 20. También protege welwitschias y paisajes desérticos remotos. El pin identifica el parque, no una puerta: pedir a African Parks la entrada, ruta, guía y normas vigentes, y no internarse con un simple punto de mapa.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Welwitschia%20in%20the%20Namibe%20desert.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Welwitschia%20in%20the%20Namibe%20desert.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Iona%20National%20Park%2C%20Angola%20(Copernicus%202025-08-02).png?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Iona%20National%20Park%2C%20Angola%20(Copernicus%202025-08-02).png",
+        "credit": "Unión Europea, Copernicus Sentinel · Attribution",
+        "caption": "Paisaje del Parque Nacional de Iona visto por Sentinel-2"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Huntley2019%20fig2.9-106.png?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Huntley2019%20fig2.9-106.png",
+        "credit": "B. J. Huntley · CC BY 4.0",
+        "caption": "Pastizales intermontanos del Parque Nacional de Iona"
+      }
+    ],
+    "visit": {
+      "why": "Es el gran paisaje desértico protegido de Angola: dunas, llanuras, montañas y fauna adaptada al Namib.",
+      "see": "El valor principal es el territorio remoto; oryx, cebras, jirafas u otros mamíferos son posibles, no garantizados.",
+      "access": "El pin solo identifica el parque. Contactar con African Parks para puerta operativa, itinerario, guía, combustible y normas; descargar navegación y llevar autonomía de recuperación y agua.",
+      "when": "Con reserva confirmada y previsión sin episodios extremos de calor o viento.",
+      "skip": "No entrar por una pista sugerida por el mapa ni viajar sin comunicación, autonomía y un plan explícito para el perro fuera del parque."
+    },
+    "links": [
+      {
+        "label": "African Parks · Parque Nacional de Iona",
+        "url": "https://www.africanparks.org/the-parks/iona"
+      },
+      {
+        "label": "Contacto oficial del parque",
+        "url": "https://www.africanparks.org/the-parks/iona/contact"
+      }
+    ]
   },
   {
     "n": 11,
@@ -176,32 +388,41 @@
     "prio": "Media",
     "dog": "permitido con precaución",
     "time": "1 noche",
-    "lat": -17.3,
-    "lon": 11.6667,
-    "desc": "Desembocadura del río Cunene, frontera natural con Namibia, entre dunas y un paisaje casi lunar; aguas termales río arriba (extremar precaución, hay cocodrilos aguas abajo). Combinar con Iona en un mismo bucle de 2-3 días desde Namibe. Imagen de referencia del entorno desértico costero de la provincia de Namibe — no es una foto exacta de la desembocadura.",
+    "lat": -17.262409,
+    "lon": 11.79755,
+    "desc": "Desembocadura del río Cunene, frontera natural con Namibia, entre dunas y un paisaje costero muy remoto. La ficha requiere una expedición desde el entorno de Iona, no una parada de carretera; confirmar con el parque si la ruta está abierta, qué guía y permisos hacen falta y dónde es seguro aproximarse al río. Hay cocodrilos en el sistema del Cunene: no caminar por la orilla ni bajar con el perro.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Angola%20Namibe%20Bentiaba%20OM%2020170710%20(19).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Angola%20Namibe%20Bentiaba%20OM%2020170710%20(19).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 12,
-    "name": "Baía dos Tigres (avanzado, opcional)",
+    "name": "Baía dos Tigres · antiguo poblado (avanzado)",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con precaución",
     "time": "2–3 días (expedición)",
-    "lat": -16.6167,
-    "lon": 11.7833,
-    "desc": "Antigua península convertida en isla en 1962, con el pueblo pesquero abandonado tragado por la arena; el tramo mítico de duna-hasta-el-mar del sur de Angola. Se llega desde Tombwa cruzando el paso de marea 'Doodsakker', navegable solo con marea baja y luna llena o nueva. Mínimo 2 vehículos 4x4, equipo de recuperación y planificación de mareas — es exactamente el tipo de expedición 4x4 que buscamos para el bloque sur, pero exige preparación experta o un guía local.",
+    "lat": -16.60094,
+    "lon": 11.7227,
+    "desc": "Antigua península convertida en isla en 1962, con un poblado pesquero abandonado entre arena y sal. El pin marca el antiguo asentamiento, no la ruta de acceso. La aproximación costera desde Tômbwa depende de marea, oleaje y estado cambiante de la arena; la fase lunar por sí sola no determina que sea transitable. Tratarlo como expedición: guía local experto, plan de mareas, al menos dos 4x4, recuperación, comunicaciones y agua de reserva. No improvisar ni intentar llegar a la isla sin logística autorizada.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilha%20dos%20Tigres%201466540%20960%20720.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Ilha%20dos%20Tigres%201466540%20960%20720.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilha%20dos%20Tigres%201466540%20960%20720.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ilha%20dos%20Tigres%201466540%20960%20720.jpg",
+        "credit": "juls26 · CC0",
+        "caption": "Edificios abandonados del antiguo poblado de Baía dos Tigres"
+      }
+    ]
   },
   {
     "n": 13,
@@ -210,15 +431,36 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "1 día",
-    "lat": -15.9406,
-    "lon": 12.8793,
-    "desc": "Conjunto de arte rupestre sobre varios inselbergs en plena semidesierto, a 37 km al suroeste de Virei y 150 km al sur de Moçâmedes: cuatro yacimientos repartidos en un kilómetro (Tchitundu-Hulu Mumule, Tchitundu-Hulu Mucai, Pedra das Zebras y Pedra da Lagoa) con grabados y pinturas en rojo y blanco, sobre todo geométricos (círculos concéntricos) pero también antílopes, serpientes y felinos. Datación discutida, entre el primer milenio a.C. y comienzos del primer milenio d.C. Candidato a Patrimonio Mundial de la UNESCO desde 2017. Acceso solo en 4x4 por pista. Imagen de referencia del desierto del Namibe, no del yacimiento.",
+    "lat": -15.9380923,
+    "lon": 12.8770116,
+    "desc": "Conjunto de arte rupestre sobre tres colinas graníticas del semidesierto, a unos 37 km al suroeste de Virei. La ficha de la Lista Indicativa de la UNESCO distingue Tchitundu-Hulu Mulume y Mucai y documenta grabados y pinturas, sobre todo motivos geométricos, además de figuras animales. Algunas representaciones se sitúan aproximadamente entre 2.000 y 2.600 años antes del presente, pero la cronología del conjunto no es uniforme. Angola lo incluyó en su Lista Indicativa en 2017. El acceso es por pista y la única imagen libre localizada es una reproducción del motivo llamado «Sol de Angola», no una vista del yacimiento.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Angola%20Namibe%20Bentiaba%20OM%2020170710%20(19).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Angola%20Namibe%20Bentiaba%20OM%2020170710%20(19).jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sun%20of%20Angola.svg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sun%20of%20Angola.svg",
+        "credit": "Gobierno de Angola · dominio público; vectorización en Wikimedia Commons",
+        "caption": "Reproducción del motivo rupestre «Sol de Angola»; no es una fotografía del yacimiento"
+      }
+    ],
+    "visit": {
+      "why": "Es el conjunto de arte rupestre más relevante de esta parte del itinerario y añade una lectura humana al paisaje del Namibe.",
+      "see": "Grabados y pinturas sobre granito; la ficha evita prometer una instalación museística o una datación única que las fuentes no sostienen.",
+      "access": "Llegar en 4x4 con guía local desde Virei, acordar permisos y no tocar, mojar ni remarcar los motivos.",
+      "when": "Con luz diurna suficiente para ida y regreso por pista; evitar calor extremo y lluvias.",
+      "skip": "Descartarlo sin guía o si el estado de la pista no permite regresar con margen. El perro debe quedar controlado y fuera de superficies con arte."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Lista Indicativa de Tchitundu-Hulu",
+        "url": "https://whc.unesco.org/en/tentativelists/6251/"
+      }
+    ]
   },
   {
     "n": 14,
@@ -227,15 +469,36 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "1 noche",
-    "lat": -15.7661,
-    "lon": 12.0667,
-    "desc": "Oasis de agua dulce en pleno desierto del Namibe, encajado entre dos grandes arcos de arenisca, con aves acuáticas, rapaces y tejedores. La aldea vecina de Njambasana ha montado un aparcamiento y un camping básico de gestión comunitaria donde se paga una tasa: una de las pocas pernoctas organizadas del desierto angoleño y, por ello, muy recomendable. Importante: la laguna se secó tras las malas lluvias de 2013-2014 y estuvo seca mucho tiempo — confirmar si tiene agua antes de desviarse.",
+    "lat": -15.7757309,
+    "lon": 12.0689717,
+    "desc": "Depresión en el desierto del Namibe, encajada entre arcos de arenisca, que puede acumular agua y atraer aves cuando las lluvias lo permiten. La laguna ha permanecido seca durante periodos largos, por lo que no debe venderse como oasis permanente. El pin marca la laguna real y corrige el desplazamiento anterior. Confirmar por información local reciente si hay agua, cómo está la pista y si continúa operativo algún espacio comunitario de aparcamiento o pernocta.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mini%20oasis%20in%20the%20namibe%20desert%2C%20Angola.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Mini%20oasis%20in%20the%20namibe%20desert%2C%20Angola.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Arko%20-%20Flinsone%20Valley.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake%20Arko%20-%20Flinsone%20Valley.jpg",
+        "credit": "Edward Middleton · CC BY-SA 4.0",
+        "caption": "Depresión y arcos de Lagoa do Arco"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Arko%20-%20Flinsone%20Valley%202.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake%20Arko%20-%20Flinsone%20Valley%202.jpg",
+        "credit": "Edward Middleton · CC BY-SA 4.0",
+        "caption": "El vaso de la laguna en el valle de Flinsone"
+      }
+    ],
+    "visit": {
+      "why": "Los arcos de arenisca justifican la parada incluso cuando la depresión está seca; verla con agua sería un extra estacional.",
+      "see": "Relieve erosionado y lecho de la laguna. Las fotos corresponden al lugar, pero no garantizan el estado que tendrá en 2027.",
+      "access": "El pin está corregido en la laguna; confirmar el último tramo y cualquier gestión comunitaria antes de entrar.",
+      "when": "Tras recabar información reciente sobre lluvias y pista, con luz suficiente para salir si no se puede pernoctar.",
+      "skip": "Omitirla si se busca únicamente una laguna con agua o si no hay confirmación de acceso; no venderla como oasis permanente."
+    }
   },
   {
     "n": 15,
@@ -244,15 +507,23 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -15.1961,
-    "lon": 12.1522,
+    "lat": -15.2003797,
+    "lon": 12.1435215,
     "desc": "Ciudad y puerto donde el desierto del Namibe llega literalmente al Atlántico; arquitectura colonial portuguesa en la Marginal, base logística para el desierto, Tundavala, Serra da Leba, Lagoa do Arco, Tchitundu-Hulu y la expedición avanzada a la Baía dos Tigres.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Marginal%20of%20Namibe.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Marginal%20of%20Namibe.JPG",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Marginal%20of%20Namibe.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Marginal%20of%20Namibe.JPG",
+        "credit": "Paulo César Santos · CC0",
+        "caption": "Marginal de Moçâmedes"
+      }
+    ]
   },
   {
     "n": 16,
@@ -263,13 +534,40 @@
     "time": "½ día",
     "lat": -15.0711,
     "lon": 13.2486,
-    "desc": "El puerto de montaña más fotografiado de Angola: la EN280 sube en herraduras cerradas desde la llanura costera (~720 m) hasta 1.845 m de altitud, enlazando Namibe con la meseta de Lubango. Asfaltado pero exigente; mirador junto a la carretera con vistas a todo el valle y posibilidad de caminar por el borde del escarpe.",
+    "desc": "Puerto de montaña de la EN280, reconocible por sus herraduras cerradas entre la llanura costera y la meseta de Lubango. La carretera está asfaltada, pero la pendiente, las curvas, la niebla y los vehículos lentos obligan a conducir con margen. El mirador permite comprender el trazado sin necesidad de acercarse al borde del escarpe.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra%20da%20Leba-Road.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Serra%20da%20Leba-Road.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra%20da%20Leba-Road.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Serra%20da%20Leba-Road.jpg",
+        "credit": "Valmir144 · CC BY-SA 4.0",
+        "caption": "Curvas de la carretera de Serra da Leba"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra%20da%20Leba%20Road%2C%20Angola.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Serra%20da%20Leba%20Road%2C%20Angola.jpg",
+        "credit": "King9912 · CC BY-SA 4.0",
+        "caption": "Vista geolocalizada de las herraduras"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lubango-Namibe%20landscape.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lubango-Namibe%20landscape.jpg",
+        "credit": "Erik Cleves Kristensen · CC BY 2.0",
+        "caption": "Escarpe entre Lubango y Namibe"
+      }
+    ],
+    "visit": {
+      "why": "Es a la vez una carretera útil del itinerario y un mirador claro sobre el desnivel entre costa y altiplano.",
+      "see": "El dibujo de las curvas y el escarpe; no hace falta convertir la parada en una caminata por bordes expuestos.",
+      "access": "Parar únicamente en apartaderos seguros, vigilar tráfico pesado y usar marcha corta en el descenso.",
+      "when": "De día y con visibilidad; evitar niebla densa y lluvia fuerte.",
+      "skip": "No detenerse si el apartadero está lleno o la visibilidad impide maniobrar con seguridad."
+    }
   },
   {
     "n": 17,
@@ -278,15 +576,42 @@
     "prio": "Alta",
     "dog": "permitido con correa corta",
     "time": "½–1 día",
-    "lat": -14.8177,
-    "lon": 13.3814,
-    "desc": "Grieta de unos 800 m en el borde de la meseta de Humpata, a 18 km de Lubango, con un salto de más de 1.000 m hasta la llanura; una de las 7 Maravillas Naturales de Angola. Pista de tierra desde Lubango y varios senderos por el borde del acantilado con vistas de 10.000 km² hacia Moçâmedes. El mirador está en el mismo borde: correa corta imprescindible.",
+    "lat": -14.8174618,
+    "lon": 13.3815304,
+    "desc": "Gran escarpe y grieta en el borde de la meseta de Humpata, cerca de Lubango, con vistas hacia las llanuras occidentales. El pin coincide con la ficha real de Tundavala en Google Maps. El acceso final y los senderos discurren junto a cortados sin protección; comprobar niebla y lluvia, mantener al perro con correa corta y no abandonar las zonas pisadas.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tundavala%20Gap.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Tundavala%20Gap.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tundavala%20Gap.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tundavala%20Gap.jpg",
+        "credit": "Tim Kubacki · CC BY 2.0",
+        "caption": "Fenda da Tundavala"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tundavala%20panorama.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tundavala%20panorama.jpg",
+        "credit": "SangeevP · CC BY-SA 4.0",
+        "caption": "Panorama geolocalizado desde Tundavala"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tundavala%20Gap%20sunset.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tundavala%20Gap%20sunset.jpg",
+        "credit": "Tim Kubacki · CC BY 2.0",
+        "caption": "El escarpe al atardecer"
+      }
+    ],
+    "visit": {
+      "why": "Es el mirador natural más directo desde Lubango y muestra con claridad el corte de la meseta hacia las llanuras occidentales.",
+      "see": "La grieta, el escarpe y el cambio de altitud; las fotografías corresponden al enclave exacto.",
+      "access": "El pin coincide con el mirador. El último tramo es sencillo, pero los cortados carecen de protección continua.",
+      "when": "Con cielo despejado y viento moderado; luz de tarde si se puede regresar antes de oscuridad.",
+      "skip": "No acercarse al borde con niebla, lluvia o viento fuerte; perro siempre con correa corta."
+    }
   },
   {
     "n": 18,
@@ -295,15 +620,23 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -12.5783,
-    "lon": 13.4055,
-    "desc": "La ciudad colonial portuguesa mejor conservada de la costa angoleña, cabecera del histórico ferrocarril de Benguela que cruzaba el continente hasta el Congo; playas urbanas (Praia Morena, Coatinha) y centro histórico paseable. Más tranquila y agradable que Lobito para pernoctar.",
+    "lat": -12.5781382,
+    "lon": 13.3992475,
+    "desc": "Ciudad costera con un conjunto apreciable de arquitectura de época portuguesa, vinculada históricamente al Ferrocarril de Benguela. Tiene playas urbanas como Praia Morena y un centro que puede recorrerse a pie. Es una base alternativa a Lobito para servicios y pernocta, sin dar por hecha una comparación subjetiva entre ambas ciudades.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Morena%20Benguela.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Praia%20Morena%20Benguela.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Praia%20Morena%20Benguela.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Praia%20Morena%20Benguela.jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Praia Morena en Benguela"
+      }
+    ]
   },
   {
     "n": 19,
@@ -320,7 +653,15 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lobito%20restinga2.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lobito%20restinga2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lobito%20restinga2.jpg",
+        "credit": "Robertoago · CC BY-SA 3.0",
+        "caption": "Restinga y bahía de Lobito"
+      }
+    ]
   },
   {
     "n": 20,
@@ -331,13 +672,21 @@
     "time": "1–2 noches",
     "lat": -9.6833,
     "lon": 13.2167,
-    "desc": "Bahía de arena a unos 120 km al sur de Luanda, conocida por una de las olas izquierdas más largas de África y por sus acantilados rojos sobre la playa; camping y alojamientos sencillos junto a la arena, ambiente relajado y perro sin problema. Buen sitio para descomprimir un par de días antes de afrontar Luanda y la frontera del norte.",
+    "desc": "Bahía de arena al sur de Luanda, conocida por el surf y por los acantilados rojizos sobre la playa. Hay alojamientos en el entorno, pero disponibilidad, acceso de vehículos, camping y admisión de perros deben confirmarse con un establecimiento concreto. Puede servir como parada antes de Luanda sin convertir reclamos promocionales sobre la longitud de la ola en datos geográficos.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabo%20Ledo%20beach%2C%20Angola%2002.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Cabo%20Ledo%20beach%2C%20Angola%2002.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabo%20Ledo%20beach%2C%20Angola%2002.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Cabo%20Ledo%20beach%2C%20Angola%2002.jpg",
+        "credit": "Felipe Miguel · CC BY-SA 2.0",
+        "caption": "Playa y acantilados de Cabo Ledo"
+      }
+    ]
   },
   {
     "n": 21,
@@ -348,13 +697,27 @@
     "time": "1 día",
     "lat": -9.75,
     "lon": 13.583,
-    "desc": "A unos 70 km al sur de Luanda, el único parque nacional angoleño realmente operativo y el más accesible del país, repoblado tras la guerra con la 'Operación Arca de Noé' (elefantes y otras especies traídos de Botsuana y Sudáfrica); baobabs, candelabros y sabana junto al río Kwanza. Reserva de la Biosfera UNESCO desde 2025.",
+    "desc": "Parque nacional al sur de Luanda, con sabana, baobabs y paisajes del bajo Kwanza. Tras la guerra recibió fauna trasladada desde Botsuana y Sudáfrica dentro de la llamada Operación Arca de Noé. En 2025 UNESCO designó la Reserva de la Biosfera Quiçama, un territorio más amplio que incluye el parque y ecosistemas costeros y fluviales; no son exactamente el mismo límite. Confirmar puerta, circuito abierto, tasas y política canina antes de ir.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kissama%20003.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Kissama%20003.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kissama%20003.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kissama%20003.JPG",
+        "credit": "B25es · CC BY-SA 4.0",
+        "caption": "Paisaje del Parque Nacional de Kissama"
+      }
+    ],
+    "links": [
+      {
+        "label": "UNESCO · Reserva de la Biosfera Quiçama",
+        "url": "https://www.unesco.org/en/mab/quicama"
+      }
+    ]
   },
   {
     "n": 22,
@@ -371,6 +734,14 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mussulo%20Island%20banner%20view%20from%20taxi%20boat.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mussulo%20Island%20banner%20view%20from%20taxi%20boat.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mussulo%20Island%20banner%20view%20from%20taxi%20boat.jpg",
+        "credit": "Juvenalia Brito · CC BY-SA 3.0",
+        "caption": "Mussulo visto desde el barco-taxi"
+      }
+    ]
   }
 ]

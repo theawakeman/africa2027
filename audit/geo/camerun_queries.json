@@ -1,0 +1,535 @@
+{
+ "slug": "camerun",
+ "bbox": [
+  8.1,
+  1.3,
+  16.5,
+  13.4
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Mamfe (paso obligado de entrada)",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 5.75,
+   "lon": 9.3167,
+   "desc": "Capital del departamento de Manyu, a 70 km del paso de Ekok/Mfum y primera población camerunesa de la ruta. Está en pleno corazón de la crisis anglófona: es nudo de la carretera Ekok-Bamenda y ha sufr",
+   "q": [
+    "Mamfe",
+    "Mamfe (paso obligado de entrada)"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Kumba y el lago cratérico de Barombi Mbo",
+   "cat": "Naturaleza",
+   "prio": "Baja",
+   "lat": 4.6667,
+   "lon": 9.4167,
+   "desc": "Kumba es la mayor ciudad del interior de la región Suroeste y el segundo punto caliente del tránsito de entrada. A 5 km al norte está el lago Barombi Mbo, un lago cratérico volcánico de unos 2,5 km de",
+   "q": [
+    "Kumba y el lago cratérico de Barombi Mbo",
+    "Kumba",
+    "el lago cratérico de Barombi Mbo"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Limbe · playas de arena negra y Wildlife Centre",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": 4.0186,
+   "lon": 9.2054,
+   "desc": "Ciudad costera a los pies del monte Camerún, con playas de arena negra volcánica (Down Beach, Mile 6, Seme Beach) donde la lava llegó literalmente al mar, y el Limbe Wildlife Centre, santuario de gori",
+   "q": [
+    "Limbe",
+    "Limbe · playas de arena negra y Wildlife Centre"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Monte Camerún (4.095 m) · «Mount Fako»",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 4.2033,
+   "lon": 9.1706,
+   "desc": "El techo del África occidental y uno de los volcanes más activos del continente (erupciones en 1999, 2000 y 2012), que se levanta desde el nivel del mar hasta 4.095 m en apenas 25 km horizontales: de ",
+   "q": [
+    "Monte Camerún",
+    "Mont Camerún",
+    "Monte Camerún (4.095 m) · «Mount Fako»"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Duala",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 4.0483,
+   "lon": 9.7043,
+   "desc": "Capital económica, mayor puerto de África central y la mejor plaza del país para talleres, recambios, neumáticos y soldadura, además de aeropuerto internacional. Es también el punto donde se sale de l",
+   "q": [
+    "Duala"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Kribi",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": 2.9369,
+   "lon": 9.9096,
+   "desc": "La mejor playa de Camerún: arena blanca, cocoteros y un mar tranquilo, con la mejor oferta de pescado y marisco a la brasa de la costa (los «kilomètres» de chiringuitos al sur del pueblo). Puerto de a",
+   "q": [
+    "Kribi"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Cataratas de la Lobé",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 2.85,
+   "lon": 9.8833,
+   "desc": "A 8 km al sur de Kribi, el río Lobé se descuelga en una cortina de saltos de unos 20 m que caen DIRECTAMENTE sobre el Atlántico: uno de los dos o tres únicos sitios del mundo (y el único de África) do",
+   "q": [
+    "Cataratas de la Lobé"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Parque Nacional de Campo Ma'an",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 2.3667,
+   "lon": 10.1,
+   "desc": "2.640 km² de selva atlántica costera en el extremo suroeste, entre el mar y la frontera de Guinea Ecuatorial, creado como compensación ambiental del oleoducto Chad-Camerún. Elefantes de bosque, gorila",
+   "q": [
+    "Parque Nacional de Campo Ma'an",
+    "Parc national Campo Ma'an"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Sangmélima",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 2.9333,
+   "lon": 11.9833,
+   "desc": "Capital del departamento de Dja-et-Lobo y ÚLTIMA plaza de servicios reales (combustible formal, taller, hospital, banco, mercado) antes de los 325 km del corredor Ketta-Djoum hacia la frontera del Con",
+   "q": [
+    "Sangmélima"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Reserva de Fauna del Dja (UNESCO)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 3,
+   "lon": 13,
+   "desc": "5.260 km² de selva tropical húmeda casi intacta, rodeada en el 90 % de su perímetro por el meandro del río Dja, Patrimonio Mundial de la UNESCO desde 1987 y Reserva de la Biosfera. Una de las mayores ",
+   "q": [
+    "Reserva de Fauna del Dja",
+    "Réserve Dja",
+    "Reserva de Fauna del Dja (UNESCO)"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Djoum · cabecera de la carretera Ketta-Djoum",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 2.6667,
+   "lon": 12.6667,
+   "desc": "Pueblo de la selva del sur, a 120 km de Sangmélima, que da nombre al corredor internacional Ketta-Djoum (Camerún-Congo). Últimas garrafas, últimos víveres y última cobertura móvil fiable antes de Mint",
+   "q": [
+    "Djoum",
+    "Djoum · cabecera de la carretera Ketta-Djoum"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Yaundé",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 3.848,
+   "lon": 11.5021,
+   "desc": "Capital política, asentada sobre siete colinas a 750 m de altitud, con un clima mucho más llevadero que Duala. Embajada de España, resto de embajadas del tramo centroafricano (Congo, RD Congo, Gabón),",
+   "q": [
+    "Yaundé"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Moloundou y el río Ngoko",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 2.0333,
+   "lon": 15.2,
+   "desc": "Último pueblo del extremo sureste de Camerún, sobre el río Ngoko, que aquí hace de frontera con el Congo. El puesto fronterizo de Socambo, unos kilómetros aguas abajo, es el paso fluvial hacia Ouesso:",
+   "q": [
+    "Moloundou y el río Ngoko",
+    "Moloundou",
+    "el río Ngoko"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Parque Nacional de Lobéké y los baka",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 2.3,
+   "lon": 15.6167,
+   "desc": "2.170 km² de selva del Congo en el extremo sureste, parte del Trinacional de la Sangha (Patrimonio Mundial de la UNESCO junto con Nouabalé-Ndoki en Congo y Dzanga-Sangha en la República Centroafricana",
+   "q": [
+    "Parque Nacional de Lobéké y los baka",
+    "Parc national Lobéké y los baka",
+    "Parque Nacional de Lobéké",
+    "los baka"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Yokadouma",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 3.5167,
+   "lon": 15.05,
+   "desc": "Capital del departamento de Boumba-et-Ngoko y única plaza con servicios (combustible formal irregular, taller elemental, hospital de distrito, misión católica) en los 500 km de selva entre Moloundou y",
+   "q": [
+    "Yokadouma"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Bertoua",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 4.5833,
+   "lon": 13.6833,
+   "desc": "Capital de la región del Este y primera ciudad grande al salir de la selva: combustible garantizado, bancos con cajeros, hospital regional, hoteles con aparcamiento y el reencuentro con el asfalto con",
+   "q": [
+    "Bertoua"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Mefou · santuario de primates (Ape Action Africa)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 3.6167,
+   "lon": 11.6,
+   "desc": "A unos 45 km al sur de Yaundé, dentro del Parque Nacional de Mefou, el santuario de Ape Action Africa acoge más de 300 primates rescatados del tráfico: gorilas de llanura occidental, chimpancés, mandr",
+   "q": [
+    "Mefou",
+    "Mefou · santuario de primates (Ape Action Africa)"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Foumban · palacio del sultán bamún",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 5.7167,
+   "lon": 10.9,
+   "desc": "Capital histórica del reino bamún, una de las monarquías tradicionales vivas más importantes de África occidental y central, con una dinastía documentada desde el siglo XIV. El Palacio Real (1917, de ",
+   "q": [
+    "Foumban",
+    "Foumban · palacio del sultán bamún"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Chefferie de Bandjoun (Bafoussam)",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 5.3667,
+   "lon": 10.4167,
+   "desc": "La más célebre de las chefferies bamileké del país de las Praderas: un conjunto de casas-palacio de planta cuadrada con altísimos techos cónicos de paja y fachadas de postes tallados, alineadas tras u",
+   "q": [
+    "Chefferie de Bandjoun",
+    "Chefferie de Bandjoun (Bafoussam)"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Dschang y las cataratas de la Métché",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 5.45,
+   "lon": 10.05,
+   "desc": "Dschang, a 1.400 m en las montañas bamileké, es la ciudad de clima más agradable de Camerún (los alemanes y luego los franceses la usaron como estación de altura) y base del célebre «Centre Climatique",
+   "q": [
+    "Dschang y las cataratas de la Métché",
+    "Dschang",
+    "las cataratas de la Métché"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Cataratas de Ekom-Nkam y monte Manengouba",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 5.0833,
+   "lon": 9.9167,
+   "desc": "Las cataratas de Ekom-Nkam, cerca de Melong, caen 80 m en un anfiteatro de selva primaria y son famosas por haber sido el escenario de la película «Greystoke: la leyenda de Tarzán» (1984); sendero esc",
+   "q": [
+    "Cataratas de Ekom-Nkam y monte Manengouba",
+    "Cataratas de Ekom-Nkam",
+    "monte Manengouba"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada bajada — Ekok/Mfum (desde Nigeria)",
+   "cat": "Frontera",
+   "lat": 5.94,
+   "lon": 9.065,
+   "desc": "Único paso terrestre asfaltado y con aduana plena entre Nigeria y Camerún en el sur. Cruce del río Cross (Mfum, Nigeria → Ekok, Camerún) y 70 km hasta Mamfe, en plena región Suroeste, zona de conflict",
+   "q": [
+    "Ekok",
+    "Mfum",
+    "Nigeria"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida bajada — Ntam / Souanké (hacia Congo)",
+   "cat": "Frontera",
+   "lat": 2.35,
+   "lon": 13.95,
+   "desc": "Puesto camerunés de Ntam sobre el río Ngoko/Dja, extremo de la carretera del corredor Ketta-Djoum (Sangmélima-Djoum-Mintom-Ntam), financiada por el Banco Africano de Desarrollo dentro del corredor Bra",
+   "q": [
+    "Ntam",
+    "Souanké",
+    "Congo"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada subida — Socambo / Moloundou (desde Congo)",
+   "cat": "Frontera",
+   "lat": 2.0167,
+   "lon": 15.1833,
+   "desc": "Paso fluvial sobre el río Ngoko frente a Ouesso: cruce en barcaza o piragua motorizada, sin puente. Alternativa deliberada al Ntam para que la subida recorra el sureste forestal en vez de repetir el c",
+   "q": [
+    "Socambo",
+    "Moloundou",
+    "Congo"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Embajada de España en Yaundé",
+   "cat": "Consular",
+   "lat": 3.8944,
+   "lon": 11.5139,
+   "desc": "Bld. de l'U.R.S.S., Quartier Bastos, B.P. 877, Yaundé. Tel. +237 222 20 35 43 · Emergencia consular 24 h: +237 698 44 79 00 · emb.yaunde@maec.es.",
+   "q": [
+    "Embajada de España en Yaundé",
+    "Embassy of Spain Yaundé",
+    "Spain Embassy Yaundé"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Hôpital Central de Yaundé",
+   "cat": "Hospital",
+   "lat": 3.872,
+   "lon": 11.518,
+   "desc": "Principal hospital de referencia de la capital y del país, junto con el Hôpital Général de Yaoundé. Coordenada urbana aproximada.",
+   "q": [
+    "Hôpital Central de Yaundé",
+    "Central de Yaundé"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Hôpital Laquintinie — Duala",
+   "cat": "Hospital",
+   "lat": 4.043,
+   "lon": 9.698,
+   "desc": "Gran hospital público de referencia de la capital económica; la alternativa privada habitual para extranjeros es la Polyclinique Bonanjo. Coordenada urbana aproximada.",
+   "q": [
+    "Hôpital Laquintinie",
+    "Laquintinie"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Hôpital Régional de Bertoua",
+   "cat": "Hospital",
+   "lat": 4.5833,
+   "lon": 13.6833,
+   "desc": "Única referencia hospitalaria seria del corredor de subida entre la frontera del Congo y Yaundé: unos 500 km de selva sin nada equivalente.",
+   "q": [
+    "Hôpital Régional de Bertoua",
+    "Régional de Bertoua"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Combustible · Duala / Yaundé",
+   "cat": "Combustible",
+   "lat": 4.0483,
+   "lon": 9.7043,
+   "desc": "Mejor oferta y calidad del país (Tradex, TotalEnergies, Oryx, Neptune) en las dos grandes ciudades; repostar a fondo en ambas y filtrar el gasóleo fuera de ellas.",
+   "q": [
+    "Duala",
+    "Yaundé",
+    "Duala / Yaundé"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Combustible · Kribi / Ebolowa / Sangmélima",
+   "cat": "Combustible",
+   "lat": 2.9333,
+   "lon": 11.9833,
+   "desc": "Estaciones formales en el eje sur. Sangmélima es la ÚLTIMA con garantía antes de los 325 km del corredor Ketta-Djoum: salir de aquí con depósitos y garrafas al 100 %.",
+   "q": [
+    "Kribi",
+    "Ebolowa",
+    "Sangmélima",
+    "Kribi / Ebolowa / Sangmélima"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Djoum y Mintom (escaso)",
+   "cat": "Combustible",
+   "lat": 2.6667,
+   "lon": 12.6667,
+   "desc": "Oferta irregular y a menudo en bidones a precio de reventa; no contar con ella para la planificación. Autonomía necesaria: Sangmélima → Ouesso (Congo), del orden de 600 km.",
+   "q": [
+    "Djoum",
+    "Mintom",
+    "Djoum y Mintom"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Yokadouma y Moloundou (muy escaso)",
+   "cat": "Combustible",
+   "lat": 3.5167,
+   "lon": 15.05,
+   "desc": "En el sureste forestal el combustible formal falla con frecuencia y se compra en bidones a los madereros. Planificar autonomía completa Bertoua → Moloundou (~500 km) en la subida, con margen extra por",
+   "q": [
+    "Yokadouma",
+    "Moloundou",
+    "Yokadouma y Moloundou"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Bafoussam / Nkongsamba (eje oeste)",
+   "cat": "Combustible",
+   "lat": 5.4737,
+   "lon": 10.4179,
+   "desc": "Estaciones formales y buena oferta en todo el eje Yaundé-Foumban-Bafoussam-Dschang-Nkongsamba-Duala de la subida; sin tramos comprometidos.",
+   "q": [
+    "Bafoussam",
+    "Nkongsamba",
+    "Bafoussam / Nkongsamba"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Agua potable y de uso general · Duala y Yaundé",
+   "cat": "Agua potable",
+   "lat": 4.0483,
+   "lon": 9.7043,
+   "desc": "Agua embotellada (Tangui, Supermont) sin problema en supermercados de las grandes ciudades; estaciones de servicio, hoteles y campamentos de Limbe, Kribi, Duala, Yaundé y Bafoussam permiten llenar el ",
+   "q": [
+    "Duala",
+    "Yaundé",
+    "Duala y Yaundé"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Agua · Sangmélima y Kribi (última recarga fiable del sur)",
+   "cat": "Agua potable",
+   "lat": 2.9369,
+   "lon": 9.9096,
+   "desc": "Kribi y Sangmélima son los últimos puntos con recarga cómoda antes del corredor Ketta-Djoum; en Djoum y Mintom el agua es de pozo o de río y hay que tratarla sin excepción.",
+   "q": [
+    "Sangmélima",
+    "Kribi",
+    "Sangmélima y Kribi"
+   ]
+  }
+ ]
+}

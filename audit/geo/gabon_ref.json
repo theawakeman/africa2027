@@ -1,0 +1,949 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Cocobeach",
+    "k": "place",
+    "v": "town",
+    "lat": 1.00557,
+    "lon": 9.58421,
+    "d": 3.1
+   },
+   {
+    "n": "Barcos a Cocobeach y Acalayong",
+    "k": "leisure",
+    "v": "slipway",
+    "lat": 1.08291,
+    "lon": 9.69339,
+    "d": 17.9
+   },
+   {
+    "n": "Barcos a Cocobeach y Acalayong",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": 1.08291,
+    "lon": 9.69339,
+    "d": 17.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Parc National des Monts de Cristal",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": 0.85078,
+    "lon": 10.20621,
+    "d": 41.5
+   },
+   {
+    "n": "Base vie des monts de cristal",
+    "k": "landuse",
+    "v": "residential",
+    "lat": 0.45318,
+    "lon": 10.27797,
+    "d": 8.1
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Parque Nacional de Monte Alén",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 115.1
+   },
+   {
+    "n": "Parque Nacional de Monte Alén",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 115.1
+   },
+   {
+    "n": "Parque Nacional de Los Altos de Nsork",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 1.20104,
+    "lon": 11.14797,
+    "d": 189.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Libreville",
+    "k": "place",
+    "v": "city",
+    "lat": 0.40865,
+    "lon": 9.44188,
+    "d": 2.9
+   },
+   {
+    "n": "Libreville",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 0.45258,
+    "lon": 9.45917,
+    "d": 4.1
+   },
+   {
+    "n": "Aéroport International Léon Mba",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": 0.46202,
+    "lon": 9.41131,
+    "d": 8.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Parc National de Pongara",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": 0.1433,
+    "lon": 9.70369,
+    "d": 68.8
+   },
+   {
+    "n": "Parc national de Pongara",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": 0.12453,
+    "lon": 9.53905,
+    "d": 57.7
+   },
+   {
+    "n": "Parc National de Pongara",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 0.1433,
+    "lon": 9.70369,
+    "d": 68.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Lope",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -0.06402,
+    "lon": 11.90517,
+    "d": 38.9
+   },
+   {
+    "n": "Parc national de la Lopé",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -0.57068,
+    "lon": 11.55605,
+    "d": 41.3
+   },
+   {
+    "n": "La Lopé",
+    "k": "place",
+    "v": "village",
+    "lat": -0.10675,
+    "lon": 11.61106,
+    "d": 10.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Transgabonaise",
+    "k": "highway",
+    "v": "trunk",
+    "lat": 0.40202,
+    "lon": 9.51187,
+    "d": 12.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Parque Nacional de Los Altos de Nsork",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 1.20104,
+    "lon": 11.14797,
+    "d": 189.5
+   },
+   {
+    "n": "Parque Nacional de Los Altos de Nsork",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": 1.20104,
+    "lon": 11.14797,
+    "d": 189.5
+   },
+   {
+    "n": "Parque Nacional de Monte Alén",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 304.4
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Makokou",
+    "k": "place",
+    "v": "city",
+    "lat": 0.56191,
+    "lon": 12.8525,
+    "d": 1.7
+   },
+   {
+    "n": "Aéroport de Makokou",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": 0.57962,
+    "lon": 12.89079,
+    "d": 3.0
+   },
+   {
+    "n": "",
+    "k": "amenity",
+    "v": "bus_station",
+    "lat": 0.55929,
+    "lon": 12.85561,
+    "d": 1.5
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q1002583",
+    "l": "Makokou",
+    "t": "city",
+    "lat": 0.56667,
+    "lon": 12.86667,
+    "d": 0.0
+   },
+   {
+    "id": "Q63385248",
+    "l": "Makokou Cathedral of Our Lady of Victories",
+    "t": "cathédrale catholique située à Makokou, au Gabon",
+    "lat": 0.56761,
+    "lon": 12.85043,
+    "d": 1.8
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Lastourville",
+    "k": "railway",
+    "v": "station",
+    "lat": -0.7936,
+    "lon": 12.77419,
+    "d": 45.4
+   },
+   {
+    "n": "Aéroport de Lastourville",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -0.82576,
+    "lon": 12.74697,
+    "d": 42.3
+   },
+   {
+    "n": "Lastoursville",
+    "k": "place",
+    "v": "city",
+    "lat": -0.81044,
+    "lon": 12.73038,
+    "d": 40.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Franceville",
+    "k": "place",
+    "v": "city",
+    "lat": -1.6344,
+    "lon": 13.58948,
+    "d": 0.7
+   },
+   {
+    "n": "Franceville",
+    "k": "railway",
+    "v": "station",
+    "lat": -1.64033,
+    "lon": 13.57239,
+    "d": 1.4
+   },
+   {
+    "n": "Aéroport international M'Vengue El Hadj Omar Bongo Ondimba",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -1.6558,
+    "lon": 13.43841,
+    "d": 16.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Lékoni",
+    "k": "place",
+    "v": "city",
+    "lat": -1.58465,
+    "lon": 14.26508,
+    "d": 3.5
+   },
+   {
+    "n": "Leconi",
+    "k": "place",
+    "v": "hamlet",
+    "lat": -1.63969,
+    "lon": 13.59499,
+    "d": 71.2
+   },
+   {
+    "n": "Parc de Léconi (main entrance)",
+    "k": "amenity",
+    "v": "ranger_station",
+    "lat": -1.42347,
+    "lon": 14.28082,
+    "d": 18.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Lambaréné",
+    "k": "place",
+    "v": "city",
+    "lat": -0.69426,
+    "lon": 10.22365,
+    "d": 1.2
+   },
+   {
+    "n": "Lambaréné",
+    "k": "historic",
+    "v": "city_gate",
+    "lat": -0.70125,
+    "lon": 10.24028,
+    "d": 0.8
+   },
+   {
+    "n": "Aéroport de Lambaréné",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -0.70455,
+    "lon": 10.24427,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Lagune Fernan Vaz",
+    "k": "water",
+    "v": "lagoon",
+    "lat": -1.61399,
+    "lon": 9.40953,
+    "d": 3.2
+   },
+   {
+    "n": "Mission Sainte-Anne du Fernan-Vaz",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": -1.6423,
+    "lon": 9.40104,
+    "d": 6.4
+   },
+   {
+    "n": "Projet Gorille Fernan-Vaz",
+    "k": "office",
+    "v": "ngo",
+    "lat": -1.65754,
+    "lon": 9.32558,
+    "d": 13.6
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Parc national de Loango",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -2.16667,
+    "lon": 9.56667,
+    "d": 24.2
+   },
+   {
+    "n": "Parc National de Loango",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -2.17072,
+    "lon": 9.61022,
+    "d": 25.4
+   },
+   {
+    "n": "Parc National de Loango",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -2.17072,
+    "lon": 9.61022,
+    "d": 25.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "Port-Gentil",
+    "k": "place",
+    "v": "city",
+    "lat": -0.7152,
+    "lon": 8.77879,
+    "d": 0.5
+   },
+   {
+    "n": "Aéroport international de Port-Gentil",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -0.71437,
+    "lon": 8.75318,
+    "d": 3.4
+   },
+   {
+    "n": "Stade de Port-Gentil",
+    "k": "leisure",
+    "v": "stadium",
+    "lat": -0.80509,
+    "lon": 8.80374,
+    "d": 10.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Parc National de Moukalaba-Doudou",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -2.54716,
+    "lon": 10.40858,
+    "d": 12.7
+   },
+   {
+    "n": "Parc National de Moukalaba-Doudou",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -2.54716,
+    "lon": 10.40858,
+    "d": 12.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "ph": [
+   {
+    "n": "Parc National de Mayumba",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -3.81114,
+    "lon": 10.94609,
+    "d": 54.8
+   },
+   {
+    "n": "Parque Nacional de Monte Alén",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 547.5
+   },
+   {
+    "n": "Parque Nacional de Monte Alén",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 547.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Eboro",
+    "k": "place",
+    "v": "village",
+    "lat": 2.28392,
+    "lon": 11.45132,
+    "d": 22.6
+   },
+   {
+    "n": "Pont d'Eboro",
+    "k": "highway",
+    "v": "trunk",
+    "lat": 2.29154,
+    "lon": 11.44667,
+    "d": 23.5
+   },
+   {
+    "n": "Pont d'Eboro",
+    "k": "highway",
+    "v": "trunk",
+    "lat": 2.29239,
+    "lon": 11.44656,
+    "d": 23.6
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Doussala",
+    "k": "place",
+    "v": "village",
+    "lat": -2.33733,
+    "lon": 10.59208,
+    "d": 65.9
+   },
+   {
+    "n": "Doussala",
+    "k": "place",
+    "v": "village",
+    "lat": -2.65769,
+    "lon": 11.58787,
+    "d": 77.1
+   },
+   {
+    "n": "Doussala",
+    "k": "place",
+    "v": "village",
+    "lat": -2.63313,
+    "lon": 11.63317,
+    "d": 82.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Okoyo",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -1.54165,
+    "lon": 14.76035,
+    "d": 41.8
+   },
+   {
+    "n": "Ikoy",
+    "k": "waterway",
+    "v": "river",
+    "lat": -0.96014,
+    "lon": 11.15852,
+    "d": 368.4
+   },
+   {
+    "n": "AVENUE DU QUARTIER OKOYO",
+    "k": "highway",
+    "v": "residential",
+    "lat": -0.86881,
+    "lon": 14.8222,
+    "d": 98.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Ambassade des États-Unis",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": 0.48394,
+    "lon": 9.39452,
+    "d": 4633.5
+   },
+   {
+    "n": "Ambassade de la République fédérale d'Allemagne",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": 0.38423,
+    "lon": 9.44546,
+    "d": 4645.6
+   },
+   {
+    "n": "Embassy of Nigeria",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": 0.42199,
+    "lon": 9.44267,
+    "d": 4641.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Ambassade d'Espagne",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": 0.38956,
+    "lon": 9.4433,
+    "d": 1.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Centre Hospitalier Universitaire de Libreville",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 0.3921,
+    "lon": 9.44826,
+    "d": 5.2
+   },
+   {
+    "n": "Centre Hospitalier Universitaire d'Angondjé",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 0.51742,
+    "lon": 9.4048,
+    "d": 10.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Libreville",
+    "k": "place",
+    "v": "city",
+    "lat": 0.40865,
+    "lon": 9.44188,
+    "d": 2.9
+   },
+   {
+    "n": "Libreville",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 0.45258,
+    "lon": 9.45917,
+    "d": 4.1
+   },
+   {
+    "n": "Aéroport International Léon Mba",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": 0.46202,
+    "lon": 9.41131,
+    "d": 8.0
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3825",
+    "l": "Libreville",
+    "t": "capital de Gabón y de la provincia de Estuaire",
+    "lat": 0.40778,
+    "lon": 9.44028,
+    "d": 3.1
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Lambaréné",
+    "k": "place",
+    "v": "city",
+    "lat": -0.69426,
+    "lon": 10.22365,
+    "d": 1.2
+   },
+   {
+    "n": "Lambaréné",
+    "k": "historic",
+    "v": "city_gate",
+    "lat": -0.70125,
+    "lon": 10.24028,
+    "d": 0.8
+   },
+   {
+    "n": "Aéroport de Lambaréné",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -0.70455,
+    "lon": 10.24427,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q874197",
+    "l": "Lambaréné",
+    "t": "ciudad de Gabón",
+    "lat": -0.68833,
+    "lon": 10.23194,
+    "d": 1.3
+   },
+   {
+    "id": "Q11824526",
+    "l": "Lambaréné Airport",
+    "t": "airport in Gabon",
+    "lat": -0.70444,
+    "lon": 10.2458,
+    "d": 1.5
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Makokou",
+    "k": "place",
+    "v": "city",
+    "lat": 0.56191,
+    "lon": 12.8525,
+    "d": 257.3
+   },
+   {
+    "n": "Aéroport de Makokou",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": 0.57962,
+    "lon": 12.89079,
+    "d": 257.8
+   },
+   {
+    "n": "",
+    "k": "amenity",
+    "v": "bus_station",
+    "lat": 0.55929,
+    "lon": 12.85561,
+    "d": 256.9
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q1002583",
+    "l": "Makokou",
+    "t": "city",
+    "lat": 0.56667,
+    "lon": 12.86667,
+    "d": 257.3
+   },
+   {
+    "id": "Q63385248",
+    "l": "Makokou Cathedral of Our Lady of Victories",
+    "t": "cathédrale catholique située à Makokou, au Gabon",
+    "lat": 0.56761,
+    "lon": 12.85043,
+    "d": 257.9
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Libreville",
+    "k": "place",
+    "v": "city",
+    "lat": 0.40865,
+    "lon": 9.44188,
+    "d": 2.9
+   },
+   {
+    "n": "Libreville",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 0.45258,
+    "lon": 9.45917,
+    "d": 4.1
+   },
+   {
+    "n": "Aéroport International Léon Mba",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": 0.46202,
+    "lon": 9.41131,
+    "d": 8.0
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3825",
+    "l": "Libreville",
+    "t": "capital de Gabón y de la provincia de Estuaire",
+    "lat": 0.40778,
+    "lon": 9.44028,
+    "d": 3.1
+   }
+  ]
+ }
+]

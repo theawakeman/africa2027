@@ -55,13 +55,11 @@ FUENTES = {
     "SANParks":           "https://www.sanparks.org/",
     "Peace Parks":        "https://www.peaceparks.org/",
     "OpenStreetMap":      "https://www.openstreetmap.org/",
-    "Wikimedia Commons":  "https://commons.wikimedia.org/",
     "Wikiloc":            "https://es.wikiloc.com/",
     "AllTrails":          "https://www.alltrails.com/",
     "Wikivoyage":         "https://es.wikivoyage.org/",
     "Lonely Planet":      "https://www.lonelyplanet.com/",
     "Caravanistan":       "https://caravanistan.com/",
-    "UNESCO":             "https://whc.unesco.org/es/list/",
     "Exteriores":         "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/"
                           "recomendaciones-de-viaje.aspx",
     "OMS":                "https://www.who.int/es",

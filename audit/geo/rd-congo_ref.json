@@ -1,0 +1,816 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Kinshasa",
+    "k": "place",
+    "v": "city",
+    "lat": -4.32171,
+    "lon": 15.31225,
+    "d": 0.7
+   },
+   {
+    "n": "Kinshasa",
+    "k": "place",
+    "v": "state",
+    "lat": -4.3197,
+    "lon": 15.34242,
+    "d": 3.3
+   },
+   {
+    "n": "Kinshasa",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -4.32194,
+    "lon": 15.31185,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3838",
+    "l": "Kinsasa",
+    "t": "capital de la República Democrática del Congo",
+    "lat": -4.32194,
+    "lon": 15.31194,
+    "d": 0.7
+   },
+   {
+    "id": "Q2994115",
+    "l": "Kinshasa",
+    "t": "province in Congo-Kinshasa",
+    "lat": -4.33167,
+    "lon": 15.31389,
+    "d": 0.5
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Grand Marché de Kinshasa",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": -4.31029,
+    "lon": 15.31252,
+    "d": 1.6
+   },
+   {
+    "n": "Centre de Santé Marché Central",
+    "k": "amenity",
+    "v": "doctors",
+    "lat": -4.31006,
+    "lon": 15.31183,
+    "d": 1.6
+   },
+   {
+    "n": "Place du Marché Central",
+    "k": "highway",
+    "v": "tertiary",
+    "lat": -4.3071,
+    "lon": 15.30939,
+    "d": 1.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Kinsuka",
+    "k": "place",
+    "v": "suburb",
+    "lat": -4.33136,
+    "lon": 15.23355,
+    "d": 5.9
+   },
+   {
+    "n": "Camp SNEL de Kinsuka",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -4.34658,
+    "lon": 15.1963,
+    "d": 4.2
+   },
+   {
+    "n": "Cimetière de Kinsuka",
+    "k": "landuse",
+    "v": "cemetery",
+    "lat": -4.35377,
+    "lon": 15.20591,
+    "d": 3.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Jardin Botanique de Kisantu",
+    "k": "leisure",
+    "v": "park",
+    "lat": -5.1378,
+    "lon": 15.07198,
+    "d": 1.5
+   },
+   {
+    "n": "Jardin botanique",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -5.14872,
+    "lon": 15.05692,
+    "d": 3.5
+   },
+   {
+    "n": "jardin botanique",
+    "k": "tourism",
+    "v": "theme_park",
+    "lat": -5.14855,
+    "lon": 15.05774,
+    "d": 3.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Mbanza-Ngungu",
+    "k": "place",
+    "v": "city",
+    "lat": -5.25001,
+    "lon": 14.86666,
+    "d": 0.5
+   },
+   {
+    "n": "Mbanza-Ngungu",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -5.3307,
+    "lon": 14.79942,
+    "d": 11.8
+   },
+   {
+    "n": "Mbanza-Ngungu",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.25613,
+    "lon": 14.78593,
+    "d": 8.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Matadi",
+    "k": "place",
+    "v": "city",
+    "lat": -5.82566,
+    "lon": 13.4609,
+    "d": 2.7
+   },
+   {
+    "n": "Matadi",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -5.7974,
+    "lon": 13.49482,
+    "d": 2.5
+   },
+   {
+    "n": "Matadi",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.82894,
+    "lon": 13.46082,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Boma",
+    "k": "place",
+    "v": "city",
+    "lat": -5.85,
+    "lon": 13.05,
+    "d": 0.3
+   },
+   {
+    "n": "Boma",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1
+   },
+   {
+    "n": "Boma",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-8",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Zongo Falls",
+    "k": "place",
+    "v": "isolated_dwelling",
+    "lat": -4.77743,
+    "lon": 14.90629,
+    "d": 26.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Lola ya Bonobo",
+    "k": "tourism",
+    "v": "zoo",
+    "lat": -4.48945,
+    "lon": 15.26716,
+    "d": 12.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Parc de la Vallée de la N’sele",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -4.3135,
+    "lon": 15.72207,
+    "d": 16.5
+   },
+   {
+    "n": "Death Valley",
+    "k": "natural",
+    "v": "spring",
+    "lat": -1.25116,
+    "lon": 30.01453,
+    "d": 1639.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Plage Ngobila",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": -4.29697,
+    "lon": 15.31965,
+    "d": 2.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Lufu",
+    "k": "place",
+    "v": "town",
+    "lat": -5.68011,
+    "lon": 13.91466,
+    "d": 26.9
+   },
+   {
+    "n": "Luvu",
+    "k": "waterway",
+    "v": "river",
+    "lat": -5.82709,
+    "lon": 14.00363,
+    "d": 10.8
+   },
+   {
+    "n": "Lufu",
+    "k": "waterway",
+    "v": "river",
+    "lat": -5.80377,
+    "lon": 13.46072,
+    "d": 57.4
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Luvo",
+    "k": "place",
+    "v": "village",
+    "lat": -5.85376,
+    "lon": 14.0852,
+    "d": 14.9
+   },
+   {
+    "n": "Luvo",
+    "k": "highway",
+    "v": "living_street",
+    "lat": -6.12561,
+    "lon": 12.33687,
+    "d": 181.7
+   },
+   {
+    "n": "Luvo",
+    "k": "waterway",
+    "v": "river",
+    "lat": -10.52836,
+    "lon": 18.34412,
+    "d": 703.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Plage Ngobila",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": -4.29697,
+    "lon": 15.31965,
+    "d": 2.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Ambassade d'Espagne",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -4.30678,
+    "lon": 15.2771,
+    "d": 3.1
+   },
+   {
+    "n": "Ambassade d'Espagne",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -4.30484,
+    "lon": 15.27828,
+    "d": 3.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Hôpital Général de Référence de Kinshasa",
+    "k": "amenity",
+    "v": "mortuary",
+    "lat": -4.31003,
+    "lon": 15.3055,
+    "d": 1.9
+   },
+   {
+    "n": "Hôpital Provincial Général de Référence de Kinshasa",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -4.30858,
+    "lon": 15.30595,
+    "d": 2.0
+   },
+   {
+    "n": "Hôpital Général de Référence de Kintambo",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -4.3346,
+    "lon": 15.27099,
+    "d": 4.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Morgue de l'IME Kimpese",
+    "k": "building",
+    "v": "service",
+    "lat": -5.55627,
+    "lon": 14.46409,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Hôpital Provincial Général de Référence de Kinshasa",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -4.30858,
+    "lon": 15.30595,
+    "d": 263.8
+   },
+   {
+    "n": "Hôpital Général de RéférenceVirunga",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -1.66666,
+    "lon": 29.23247,
+    "d": 1808.5
+   },
+   {
+    "n": "Hôpital Général de RéférenceVirunga",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -1.66666,
+    "lon": 29.23247,
+    "d": 1808.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Kinshasa",
+    "k": "place",
+    "v": "city",
+    "lat": -4.32171,
+    "lon": 15.31225,
+    "d": 0.7
+   },
+   {
+    "n": "Kinshasa",
+    "k": "place",
+    "v": "state",
+    "lat": -4.3197,
+    "lon": 15.34242,
+    "d": 3.3
+   },
+   {
+    "n": "Kinshasa",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -4.32194,
+    "lon": 15.31185,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Kisantu",
+    "k": "place",
+    "v": "town",
+    "lat": -5.13674,
+    "lon": 15.05923,
+    "d": 2.9
+   },
+   {
+    "n": "Kisantu",
+    "k": "place",
+    "v": "village",
+    "lat": -5.13492,
+    "lon": 15.05711,
+    "d": 3.1
+   },
+   {
+    "n": "Kisantu",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.13027,
+    "lon": 15.15614,
+    "d": 7.9
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3140976",
+    "l": "Kisantu",
+    "t": "town in the Democratic Republic of the Congo",
+    "lat": -5.134,
+    "lon": 15.0584,
+    "d": 3.0
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Mbanza-Ngungu",
+    "k": "place",
+    "v": "city",
+    "lat": -5.25001,
+    "lon": 14.86666,
+    "d": 0.5
+   },
+   {
+    "n": "Mbanza-Ngungu",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -5.3307,
+    "lon": 14.79942,
+    "d": 11.8
+   },
+   {
+    "n": "Mbanza-Ngungu",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.25613,
+    "lon": 14.78593,
+    "d": 8.7
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q857577",
+    "l": "Mbanza-Ngungu",
+    "t": "locality in Kongo - Central in the Democratic Republic of Congo, located along the Matadi-Kinshasa railway line of which it is the main stage",
+    "lat": -5.25,
+    "lon": 14.86667,
+    "d": 0.5
+   },
+   {
+    "id": "Q22459329",
+    "l": "Mbanza-Ngungu",
+    "t": "territory of the Democratic Republic of the Congo",
+    "lat": -5.25,
+    "lon": 14.86667,
+    "d": 0.5
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Matadi",
+    "k": "place",
+    "v": "city",
+    "lat": -5.82566,
+    "lon": 13.4609,
+    "d": 2.7
+   },
+   {
+    "n": "Matadi",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -5.7974,
+    "lon": 13.49482,
+    "d": 2.5
+   },
+   {
+    "n": "Matadi",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.82894,
+    "lon": 13.46082,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q211073",
+    "l": "Matadi",
+    "t": "city in DR Congo",
+    "lat": -5.81667,
+    "lon": 13.48333,
+    "d": 0.0
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Boma",
+    "k": "place",
+    "v": "city",
+    "lat": -5.85,
+    "lon": 13.05,
+    "d": 0.3
+   },
+   {
+    "n": "Boma",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1
+   },
+   {
+    "n": "Boma",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.81447,
+    "lon": 13.05047,
+    "d": 4.1
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q223917",
+    "l": "Boma",
+    "t": "city in Democratic Republic of the Congo",
+    "lat": -5.85,
+    "lon": 13.05,
+    "d": 0.3
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Kinshasa",
+    "k": "place",
+    "v": "city",
+    "lat": -4.32171,
+    "lon": 15.31225,
+    "d": 0.7
+   },
+   {
+    "n": "Kinshasa",
+    "k": "place",
+    "v": "state",
+    "lat": -4.3197,
+    "lon": 15.34242,
+    "d": 3.3
+   },
+   {
+    "n": "Kinshasa",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -4.32194,
+    "lon": 15.31185,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3838",
+    "l": "Kinsasa",
+    "t": "capital de la República Democrática del Congo",
+    "lat": -4.32194,
+    "lon": 15.31194,
+    "d": 0.7
+   },
+   {
+    "id": "Q2994115",
+    "l": "Kinshasa",
+    "t": "province in Congo-Kinshasa",
+    "lat": -4.33167,
+    "lon": 15.31389,
+    "d": 0.5
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "ph": [
+   {
+    "n": "Matadi",
+    "k": "place",
+    "v": "city",
+    "lat": -5.82566,
+    "lon": 13.4609,
+    "d": 2.7
+   },
+   {
+    "n": "Matadi",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -5.7974,
+    "lon": 13.49482,
+    "d": 2.5
+   },
+   {
+    "n": "Matadi",
+    "k": "boundary",
+    "v": "health",
+    "lat": -5.82894,
+    "lon": 13.46082,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]

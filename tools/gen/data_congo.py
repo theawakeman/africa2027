@@ -120,15 +120,15 @@ for _p in POIS:
     _p.setdefault("dog_note", "")
 
 LOGISTICS = [
-    ("Frontera · Entrada bajada — Ntam / Souanké (desde Camerún)", "Frontera", 2.2000, 14.0000,
+    ("Frontera · Entrada bajada — Ntam / Souanké (desde Camerún)", "Frontera", 2.1720894, 13.6984289,
      "Extremo congoleño del corredor Ketta-Djoum / Brazzaville-Yaundé. El lado CONGOLEÑO está confirmado: los 143 km Sembé-Souanké-Ntam se inauguraron asfaltados el 6 de marzo de 2020 y el conjunto de 312 km del lado congoleño está terminado; el que iba con retraso es el tramo camerunés (191 km). POR CONFIRMAR, y es crítico: coordenada exacta del puesto, si el cruce del río Ngoko/Dja es por puente terminado o por barcaza, horario de apertura, si la aduana congoleña sella el CPD aquí o hay que bajar a Ouesso, y si el paso admite vehículos particulares extranjeros o solo tráfico comercial. Coordenada aproximada."),
     ("Frontera · Salida bajada — Beach de Brazzaville, ferry hacia Kinshasa", "Frontera", -4.2790, 15.2860,
      "El cruce más notorio de África para overlanders. NO hay puente sobre el río Congo. Pasajeros en canot rapide (15-20 min, ~16.400 FCFA por persona según relatos de 2024-2025); vehículos en el bac/barcaza, con salidas limitadas y no diarias. Intervienen puerto, inmigración (DGM del lado RDC), aduanas de ambos países, higiene (fiebre amarilla) y policía. Presupuestar UN DÍA ENTERO por persona y 1-3 días adicionales para el despacho del vehículo en Kinshasa. Empezar a primera hora; hay quien recomienda cruzar en domingo, con menos aglomeración. Coordinar con la ficha de RD Congo, que documenta el trámite desde la otra orilla."),
     ("Frontera · Entrada subida — Beach de Brazzaville, ferry desde Kinshasa", "Frontera", -4.2790, 15.2860,
      "Mismo cruce en sentido inverso, ya de vuelta desde Angola/RD Congo. Segundo día entero de trámites. Aquí arranca el corredor de subida: Brazzaville → Ngo → Djambala → Lékana → Okoyo → Boundji → Owando → Makoua → Ouesso."),
-    ("Frontera · Salida subida — Socambo / Moloundou (hacia Camerún)", "Frontera", 1.5833, 16.0833,
+    ("Frontera · Salida subida — Socambo / Moloundou (hacia Camerún)", "Frontera", 1.7062057, 16.1201673,
      "Paso fluvial sobre el río Ngoko frente a Ouesso: barcaza o piragua motorizada, sin puente. Elegido para que la subida no repita el corredor Ketta-Djoum. CRÍTICO POR CONFIRMAR: capacidad real de la barcaza para vehículos de 3 t, frecuencia, horario, y si la aduana camerunesa de Moloundou sella CPD de vehículo extranjero. Plan B: salir de nuevo por Ntam/Souanké. Coordenada aproximada."),
-    ("Frontera · Alternativa — Ndendé / Doussala (hacia Gabón, desde Dolisie)", "Frontera", -2.8333, 10.9167,
+    ("Frontera · Alternativa — Ndendé / Doussala (hacia Gabón, desde Dolisie)", "Frontera", -2.6479099, 11.6328435,
      "Solo relevante si se hace el desvío suroeste y se decide salir hacia Gabón en vez de volver a Brazzaville. Gabón queda fuera de la ruta fija del proyecto (eVisa solo aéreo): tratar como informativo."),
     ("Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)", "Consular", -4.3050, 15.3050,
      "Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe), RD Congo. Tel. +243 813 300 061 / 817 008 770 · Emergencia consular: +243 819 500 289. NO hay embajada española en Congo-Brazzaville: la representación competente está justo al otro lado del río, lo que en la práctica significa que para cualquier gestión consular hay que cruzar el ferry."),
@@ -225,16 +225,16 @@ SOURCES = [
 
 # BAJADA: Ntam/Souanké -> Sembé -> Ouesso -> Makoua -> Obouya -> Ewo -> Etoumbi -> Mbomo/Odzala
 #         -> vuelta a Obouya -> Oyo -> Gamboma -> Brazzaville -> Beach (ferry)
-CORRIDOR = [(2.2000, 14.0000), (2.0667, 14.0500), (1.6500, 14.5833), (1.6167, 16.0500),
-            (0.0036, 15.6333), (-0.4833, 15.9000), (0.0167, 14.9500), (0.4000, 14.1667),
+CORRIDOR = [(2.1720894, 13.6984289), (2.0587378, 14.1320805), (1.6500, 14.5833), (1.6167, 16.0500),
+            (0.0004375, 15.6297342), (-0.4833, 15.9000), (0.0167, 14.9500), (0.3914422, 15.0455289),
             (0.6000, 14.8000), (0.0167, 14.9500), (-1.1500, 15.9833), (-1.8764, 15.8639),
             (-4.2634, 15.2429), (-4.2790, 15.2860)]
 
 # SUBIDA (tránsito rápido): Beach (ferry desde Kinshasa) -> Brazzaville -> Ngo/Lésio-Louna
 #         -> Djambala -> Lékana -> Okoyo -> Boundji -> Owando -> Makoua -> Ouesso -> Socambo
-CORRIDOR_ALT = [(-4.2790, 15.2860), (-4.2634, 15.2429), (-3.2333, 15.4667), (-2.5333, 14.7500),
+CORRIDOR_ALT = [(-4.2790, 15.2860), (-4.2634, 15.2429), (-3.2763777, 15.4771084), (-2.5398781, 14.7550108),
                 (-2.3167, 14.6000), (-1.4667, 15.0667), (-0.9500, 15.3667), (-0.4833, 15.9000),
-                (0.0036, 15.6333), (1.6167, 16.0500), (1.5833, 16.0833)]
+                (0.0004375, 15.6297342), (1.6167, 16.0500), (1.7062057, 16.1201673)]
 
 CORRIDOR_LABEL = "Bajada · expedición a los gorilas"
 CORRIDOR_ALT_LABEL = "Subida · tránsito rápido"

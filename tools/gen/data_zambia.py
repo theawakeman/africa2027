@@ -78,7 +78,7 @@ for _p in POIS:
     _p.setdefault("dog_note", "")
 
 LOGISTICS = [
-    ("Frontera · Entrada — Chavuma/Caripande (desde Angola)", "Frontera", -13.0833, 22.6833,
+    ("Frontera · Entrada — Chavuma/Caripande (desde Angola)", "Frontera", -12.9937161, 22.7285255,
      "Paso remoto del noroeste, frente al puesto angoleño de Caripande. Pistas de arena con charcos profundos en el lado angoleño; en el zambiano mejora hacia Zambezi town. Solo temporada seca (mayo-septiembre). Las cataratas de Chavuma, sobre el Zambeze, están junto al propio paso y merecen la parada. Confirmar horario (suele 07:00-18:00) y que el puesto emite visado en frontera."),
     ("Frontera · Salida — Nakonde/Tunduma (hacia Tanzania)", "Frontera", -9.3333, 32.7500,
      "El gran paso del corredor TANZAM, el más transitado del norte: mucho camión, colas y gestores informales. Puesto de ventanilla única. Llegar temprano y contar con varias horas; vigilar la documentación del vehículo en todo momento."),
@@ -144,7 +144,7 @@ SOURCES = [
 ]
 
 # Principal: frontera de Angola (NO) -> Barotseland -> Kafue -> Lusaka -> norte -> frontera de Tanzania (NE)
-CORRIDOR = [(-13.0833, 22.6833), (-14.5000, 22.4830), (-15.2667, 23.1333), (-14.1000, 25.8000),
+CORRIDOR = [(-12.9937161, 22.7285255), (-14.5000, 22.4830), (-15.2667, 23.1333), (-14.1000, 25.8000),
             (-15.4067, 28.3050), (-13.2333, 30.2333), (-12.5833, 30.2500), (-11.5000, 30.2500),
             (-11.8333, 31.4500), (-13.0833, 31.9500), (-11.8333, 31.4500), (-9.8000, 29.1000),
             (-9.5333, 29.3833), (-10.1167, 30.9333), (-8.7667, 31.1167), (-8.6000, 31.2333),

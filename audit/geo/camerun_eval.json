@@ -1,0 +1,1753 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Mamfe (paso obligado de entrada)",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 5.75,
+  "lon": 9.3167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mamfé",
+   "kind": "place=town",
+   "lat": 5.75277,
+   "lon": 9.31521,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mamfe District Hospital",
+    "kind": "amenity=hospital",
+    "lat": 5.73088,
+    "lon": 9.31113,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mamfé",
+    "kind": "place=town",
+    "lat": 5.75277,
+    "lon": 9.31521,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Mamfé",
+    "kind": "aeroway=aerodrome",
+    "lat": 5.70491,
+    "lon": 9.30637,
+    "d": 5.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Mamfé Central",
+    "kind": "commune of Cameroon",
+    "lat": 5.76667,
+    "lon": 9.28333,
+    "d": 4.1,
+    "match": true,
+    "id": "Q1888230"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Kumba y el lago cratérico de Barombi Mbo",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 4.6667,
+  "lon": 9.4167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kumba",
+   "kind": "place=city",
+   "lat": 4.63784,
+   "lon": 9.44094,
+   "d": 4.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kumba",
+    "kind": "place=city",
+    "lat": 4.63784,
+    "lon": 9.44094,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kumba I",
+    "kind": "boundary=administrative",
+    "lat": 4.54628,
+    "lon": 9.31959,
+    "d": 17.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kumba II",
+    "kind": "boundary=administrative",
+    "lat": 4.73173,
+    "lon": 9.45879,
+    "d": 8.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kumba",
+    "kind": "a city in the Southwest Region of Cameroon and the administrative capital of Meme Division, which is one of the largest and most economically significant cities in the Anglophone regions of Cameroon",
+    "lat": 4.63333,
+    "lon": 9.45,
+    "d": 5.2,
+    "match": true,
+    "id": "Q997047"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Limbe · playas de arena negra y Wildlife Centre",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 4.0186,
+  "lon": 9.2054,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Limbe River",
+   "kind": "waterway=river",
+   "lat": 4.02542,
+   "lon": 9.20523,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Limbe Botanical Gardens",
+    "kind": "leisure=garden",
+    "lat": 4.01273,
+    "lon": 9.1975,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Limbe River",
+    "kind": "waterway=river",
+    "lat": 4.02542,
+    "lon": 9.20523,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Limbe Wildlife Centre",
+    "kind": "tourism=zoo",
+    "lat": 4.01692,
+    "lon": 9.1974,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Limbe",
+    "kind": "ciudad de Camerún",
+    "lat": 4.01667,
+    "lon": 9.21667,
+    "d": 1.3,
+    "match": true,
+    "id": "Q819314"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Monte Camerún (4.095 m) · «Mount Fako»",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 4.2033,
+  "lon": 9.1706,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Mountain ministry",
+   "kind": "amenity=place_of_worship",
+   "lat": 4.08693,
+   "lon": 9.36265,
+   "d": 24.9,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Monkey Kombo",
+    "kind": "place=village",
+    "lat": 4.0538,
+    "lon": 9.38321,
+    "d": 28.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Monatélé",
+    "kind": "place=city",
+    "lat": 4.25891,
+    "lon": 11.20442,
+    "d": 225.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mountain ministry",
+    "kind": "amenity=place_of_worship",
+    "lat": 4.08693,
+    "lon": 9.36265,
+    "d": 24.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Duala",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 4.0483,
+  "lon": 9.7043,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Douala",
+   "kind": "place=city",
+   "lat": 4.04294,
+   "lon": 9.7062,
+   "d": 0.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Douala",
+    "kind": "place=city",
+    "lat": 4.04294,
+    "lon": 9.7062,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Communauté urbaine de Douala",
+    "kind": "boundary=administrative",
+    "lat": 4.0559,
+    "lon": 9.66703,
+    "d": 4.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Douala",
+    "kind": "place=village",
+    "lat": 3.74994,
+    "lon": 9.94882,
+    "d": 42.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Kribi",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 2.9369,
+  "lon": 9.9096,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kribi",
+   "kind": "place=city",
+   "lat": 2.94341,
+   "lon": 9.9127,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kribi",
+    "kind": "place=city",
+    "lat": 2.94341,
+    "lon": 9.9127,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kribi I",
+    "kind": "boundary=administrative",
+    "lat": 2.80173,
+    "lon": 9.90699,
+    "d": 15.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kribi II",
+    "kind": "boundary=administrative",
+    "lat": 3.01896,
+    "lon": 9.97785,
+    "d": 11.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Cataratas de la Lobé",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 2.85,
+  "lon": 9.8833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Chefferie de la lobe",
+   "kind": "office=government",
+   "lat": 2.88165,
+   "lon": 9.89182,
+   "d": 3.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chutes de la Lobé",
+    "kind": "waterway=waterfall",
+    "lat": 2.88286,
+    "lon": 9.8973,
+    "d": 4.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Chefferie de la lobe",
+    "kind": "office=government",
+    "lat": 2.88165,
+    "lon": 9.89182,
+    "d": 3.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "La lobe bar",
+    "kind": "amenity=bar",
+    "lat": 2.96209,
+    "lon": 9.92106,
+    "d": 13.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Parque Nacional de Campo Ma'an",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 2.3667,
+  "lon": 10.1,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Parque Nacional de Campo-Ma’an",
+   "kind": "parque nacional en Camerún",
+   "lat": 2.34529,
+   "lon": 9.99123,
+   "d": 12.3,
+   "match": true,
+   "id": "Q1031366"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National de Campo-Ma’an",
+    "kind": "boundary=national_park",
+    "lat": 2.4213,
+    "lon": 10.25081,
+    "d": 17.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National de Campo-Ma’an",
+    "kind": "leisure=nature_reserve",
+    "lat": 2.4213,
+    "lon": 10.25081,
+    "d": 17.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Conservation du Parc National de Campo-Ma'an",
+    "kind": "building=office",
+    "lat": 2.37791,
+    "lon": 9.84028,
+    "d": 28.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Parque Nacional de Campo-Ma’an",
+    "kind": "parque nacional en Camerún",
+    "lat": 2.34529,
+    "lon": 9.99123,
+    "d": 12.3,
+    "match": true,
+    "id": "Q1031366"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Sangmélima",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 2.9333,
+  "lon": 11.9833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "diócesis de Sangmélima",
+   "kind": "circunscripción eclesiástica de la Iglesia católica en Camerún",
+   "lat": 2.93056,
+   "lon": 11.981,
+   "d": 0.4,
+   "match": true,
+   "id": "Q876015"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sangmélima",
+    "kind": "place=city",
+    "lat": 2.93618,
+    "lon": 11.97565,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sangmélima-Mbalmayo",
+    "kind": "highway=trunk",
+    "lat": 3.24769,
+    "lon": 11.78634,
+    "d": 41.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital de Référence de Sangmélima",
+    "kind": "amenity=hospital",
+    "lat": 2.9532,
+    "lon": 12.00346,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Sangmelima",
+    "kind": "comuna camerunesa",
+    "lat": 2.93,
+    "lon": 11.98,
+    "d": 0.5,
+    "match": true,
+    "id": "Q2708780"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Reserva de Fauna del Dja (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 3,
+  "lon": 13,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Réserve de Faune du Dja",
+   "kind": "leisure=nature_reserve",
+   "lat": 3.13534,
+   "lon": 13.03614,
+   "d": 15.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Réserve de Faune du Dja",
+    "kind": "leisure=nature_reserve",
+    "lat": 3.13534,
+    "lon": 13.03614,
+    "d": 15.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Réserve de Faune du Dja",
+    "kind": "boundary=national_park",
+    "lat": 3.13534,
+    "lon": 13.03614,
+    "d": 15.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Zone tampon Nord de la réserve de faune du Dja",
+    "kind": "boundary=protected_area",
+    "lat": 3.33149,
+    "lon": 12.82503,
+    "d": 41.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Djoum · cabecera de la carretera Ketta-Djoum",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 2.6667,
+  "lon": 12.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Djoum",
+   "kind": "place=town",
+   "lat": 2.67227,
+   "lon": 12.67807,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Djoum",
+    "kind": "place=town",
+    "lat": 2.67227,
+    "lon": 12.67807,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djoum",
+    "kind": "place=village",
+    "lat": 2.27842,
+    "lon": 12.06391,
+    "d": 79.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djoum",
+    "kind": "place=village",
+    "lat": 4.01095,
+    "lon": 12.84035,
+    "d": 150.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Yaundé",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 3.848,
+  "lon": 11.5021,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Yaoundé",
+   "kind": "place=city",
+   "lat": 3.86899,
+   "lon": 11.52133,
+   "d": 3.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Yaoundé",
+    "kind": "place=city",
+    "lat": 3.86899,
+    "lon": 11.52133,
+    "d": 3.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Yaoundé I",
+    "kind": "boundary=administrative",
+    "lat": 3.91498,
+    "lon": 11.5195,
+    "d": 7.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Yaoundé V",
+    "kind": "boundary=administrative",
+    "lat": 3.89521,
+    "lon": 11.55262,
+    "d": 7.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Moloundou y el río Ngoko",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 2.0333,
+  "lon": 15.2,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Moloundou",
+   "kind": "place=city",
+   "lat": 2.0436,
+   "lon": 15.21657,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Moloundou",
+    "kind": "place=city",
+    "lat": 2.0436,
+    "lon": 15.21657,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Moloundou",
+    "kind": "place=village",
+    "lat": 4.02108,
+    "lon": 14.1034,
+    "d": 252.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mouloundou",
+    "kind": "place=village",
+    "lat": 2.05779,
+    "lon": 15.16163,
+    "d": 5.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Parque Nacional de Lobéké y los baka",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 2.3,
+  "lon": 15.6167,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Parc National de Lobéké",
+   "kind": "boundary=national_park",
+   "lat": 2.3042,
+   "lon": 15.86587,
+   "d": 27.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National de Lobéké",
+    "kind": "boundary=national_park",
+    "lat": 2.3042,
+    "lon": 15.86587,
+    "d": 27.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National de Lobéké",
+    "kind": "leisure=nature_reserve",
+    "lat": 2.3042,
+    "lon": 15.86587,
+    "d": 27.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Monte Alén",
+    "kind": "leisure=nature_reserve",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 617.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Yokadouma",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 3.5167,
+  "lon": 15.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Yokadouma",
+   "kind": "comuna en Camerún",
+   "lat": 3.51667,
+   "lon": 15.05,
+   "d": 0.0,
+   "match": true,
+   "id": "Q2708630"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Yokadouma",
+    "kind": "place=city",
+    "lat": 3.51528,
+    "lon": 15.05103,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Posté de contrôle forestier et de chasse de Yokadouma",
+    "kind": "building=office",
+    "lat": 3.51682,
+    "lon": 15.05064,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Total Yokadouma",
+    "kind": "amenity=fuel",
+    "lat": 3.51344,
+    "lon": 15.04917,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Yokadouma",
+    "kind": "comuna en Camerún",
+    "lat": 3.51667,
+    "lon": 15.05,
+    "d": 0.0,
+    "match": true,
+    "id": "Q2708630"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Bertoua",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 4.5833,
+  "lon": 13.6833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Bertoua",
+   "kind": "comuna de Camerún",
+   "lat": 4.58333,
+   "lon": 13.68333,
+   "d": 0.0,
+   "match": true,
+   "id": "Q657734"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bertoua",
+    "kind": "place=city",
+    "lat": 4.57762,
+    "lon": 13.68438,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bertoua I",
+    "kind": "boundary=administrative",
+    "lat": 4.52977,
+    "lon": 13.63144,
+    "d": 8.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bertoua II",
+    "kind": "boundary=administrative",
+    "lat": 4.55372,
+    "lon": 13.691,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Bertoua",
+    "kind": "comuna de Camerún",
+    "lat": 4.58333,
+    "lon": 13.68333,
+    "d": 0.0,
+    "match": true,
+    "id": "Q657734"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Mefou · santuario de primates (Ape Action Africa)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 3.6167,
+  "lon": 11.6,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mefou",
+   "kind": "waterway=river",
+   "lat": 3.63137,
+   "lon": 11.5657,
+   "d": 4.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mefou",
+    "kind": "waterway=river",
+    "lat": 3.63137,
+    "lon": 11.5657,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mefou",
+    "kind": "waterway=stream",
+    "lat": 3.66613,
+    "lon": 11.57301,
+    "d": 6.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Méfou",
+    "kind": "waterway=river",
+    "lat": 3.57917,
+    "lon": 11.58068,
+    "d": 4.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Foumban · palacio del sultán bamún",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 5.7167,
+  "lon": 10.9,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Foumban",
+   "kind": "place=city",
+   "lat": 5.72823,
+   "lon": 10.89716,
+   "d": 1.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Foumban",
+    "kind": "place=city",
+    "lat": 5.72823,
+    "lon": 10.89716,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Foumban-Banyo",
+    "kind": "highway=trunk",
+    "lat": 5.98749,
+    "lon": 11.26153,
+    "d": 50.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Foumban Nkounja (Koutaba)",
+    "kind": "aeroway=aerodrome",
+    "lat": 5.63752,
+    "lon": 10.75124,
+    "d": 18.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Chefferie de Bandjoun (Bafoussam)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 5.3667,
+  "lon": 10.4167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Chefferie Bandjoun",
+   "kind": "tourism=attraction",
+   "lat": 5.34972,
+   "lon": 10.4096,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chefferie de 3e de gré de Kamgo-Bandjoun",
+    "kind": "amenity=community_centre",
+    "lat": 5.3934,
+    "lon": 10.43864,
+    "d": 3.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chefferie Bandjoun",
+    "kind": "tourism=attraction",
+    "lat": 5.34972,
+    "lon": 10.4096,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chefferie de Badiembou-Medjo",
+    "kind": "office=government",
+    "lat": 5.4282,
+    "lon": 10.4483,
+    "d": 7.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Dschang y las cataratas de la Métché",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 5.45,
+  "lon": 10.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Dschang",
+   "kind": "place=city",
+   "lat": 5.44699,
+   "lon": 10.05331,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dschang",
+    "kind": "place=city",
+    "lat": 5.44699,
+    "lon": 10.05331,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre Climatique de Dschang",
+    "kind": "leisure=resort",
+    "lat": 5.44215,
+    "lon": 10.06745,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Foreke Dschang",
+    "kind": "place=village",
+    "lat": 5.43249,
+    "lon": 10.04372,
+    "d": 2.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Cataratas de Ekom-Nkam y monte Manengouba",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 5.0833,
+  "lon": 9.9167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Chutes d'Ekom Nkam",
+   "kind": "waterway=waterfall",
+   "lat": 5.06269,
+   "lon": 10.02952,
+   "d": 12.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chutes d'Ekom Nkam",
+    "kind": "waterway=waterfall",
+    "lat": 5.06269,
+    "lon": 10.02952,
+    "d": 12.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Ekok/Mfum (desde Nigeria)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 5.94,
+  "lon": 9.065,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ekok",
+   "kind": "place=village",
+   "lat": 5.80678,
+   "lon": 8.85418,
+   "d": 27.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ekok",
+    "kind": "place=village",
+    "lat": 5.80678,
+    "lon": 8.85418,
+    "d": 27.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ekok",
+    "kind": "place=village",
+    "lat": 4.64847,
+    "lon": 12.02255,
+    "d": 357.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ekok",
+    "kind": "place=village",
+    "lat": 3.24323,
+    "lon": 12.39133,
+    "d": 475.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — Ntam / Souanké (hacia Congo)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 2.35,
+  "lon": 13.95,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ntam",
+   "kind": "place=village",
+   "lat": 2.17767,
+   "lon": 13.70375,
+   "d": 33.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ntam",
+    "kind": "place=village",
+    "lat": 2.17767,
+    "lon": 13.70375,
+    "d": 33.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ntam",
+    "kind": "place=village",
+    "lat": 3.19543,
+    "lon": 13.91372,
+    "d": 94.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ntam",
+    "kind": "place=village",
+    "lat": 3.42559,
+    "lon": 14.32093,
+    "d": 126.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Souanké",
+    "kind": "localidad de República del Congo",
+    "lat": 2.06083,
+    "lon": 14.13417,
+    "d": 38.1,
+    "match": true,
+    "id": "Q7564060"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada subida — Socambo / Moloundou (desde Congo)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 2.0167,
+  "lon": 15.1833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "S.O.C.A.M.B.O.",
+   "kind": "place=village",
+   "lat": 1.7058,
+   "lon": 16.11828,
+   "d": 109.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "S.O.C.A.M.B.O.",
+    "kind": "place=village",
+    "lat": 1.7058,
+    "lon": 16.11828,
+    "d": 109.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sombo",
+    "kind": "place=village",
+    "lat": 3.88753,
+    "lon": 10.71065,
+    "d": 538.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Socapco",
+    "kind": "shop=perfumery",
+    "lat": 3.87105,
+    "lon": 11.54462,
+    "d": 453.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Embajada de España en Yaundé",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 3.8944,
+  "lon": 11.5139,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Ambassade d’Espagne",
+   "kind": "office=diplomatic",
+   "lat": 3.89443,
+   "lon": 11.51381,
+   "d": 0.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ambassade de la République fédérale d'Allemagne",
+    "kind": "office=diplomatic",
+    "lat": 3.88585,
+    "lon": 11.50912,
+    "d": 1.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ambassade d'Algérie",
+    "kind": "office=diplomatic",
+    "lat": 3.89939,
+    "lon": 11.50914,
+    "d": 0.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ambassade d’Espagne",
+    "kind": "office=diplomatic",
+    "lat": 3.89443,
+    "lon": 11.51381,
+    "d": 0.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Hôpital Central de Yaundé",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 3.872,
+  "lon": 11.518,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Hopital Central de Yaoundé",
+   "kind": "amenity=hospital",
+   "lat": 3.87129,
+   "lon": 11.51042,
+   "d": 0.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Général De Yaoundé",
+    "kind": "amenity=hospital",
+    "lat": 3.90692,
+    "lon": 11.54101,
+    "d": 4.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hopital Central de Yaoundé",
+    "kind": "amenity=hospital",
+    "lat": 3.87129,
+    "lon": 11.51042,
+    "d": 0.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Squaire entrée Hôpital central",
+    "kind": "leisure=garden",
+    "lat": 3.86934,
+    "lon": 11.51145,
+    "d": 0.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Hôpital Laquintinie — Duala",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 4.043,
+  "lon": 9.698,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Laquintinie",
+   "kind": "historic=monument",
+   "lat": 4.0482,
+   "lon": 9.7031,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Laquintinie",
+    "kind": "historic=monument",
+    "lat": 4.0482,
+    "lon": 9.7031,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital Laquintinie",
+    "kind": "amenity=hospital",
+    "lat": 4.04784,
+    "lon": 9.7031,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Hôpital Régional de Bertoua",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 4.5833,
+  "lon": 13.6833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hôpital Régional de Bertoua",
+   "kind": "amenity=hospital",
+   "lat": 4.57264,
+   "lon": 13.69797,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hôpital Régional de Bertoua",
+    "kind": "amenity=hospital",
+    "lat": 4.57264,
+    "lon": 13.69797,
+    "d": 2.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Duala / Yaundé",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 4.0483,
+  "lon": 9.7043,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Duala",
+   "kind": "ciudad más poblada de Camerún",
+   "lat": 4.05,
+   "lon": 9.7,
+   "d": 0.5,
+   "match": true,
+   "id": "Q132830"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Douala",
+    "kind": "place=city",
+    "lat": 4.04294,
+    "lon": 9.7062,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Communauté urbaine de Douala",
+    "kind": "boundary=administrative",
+    "lat": 4.0559,
+    "lon": 9.66703,
+    "d": 4.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Douala",
+    "kind": "place=village",
+    "lat": 3.74994,
+    "lon": 9.94882,
+    "d": 42.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Duala",
+    "kind": "ciudad más poblada de Camerún",
+    "lat": 4.05,
+    "lon": 9.7,
+    "d": 0.5,
+    "match": true,
+    "id": "Q132830"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · Kribi / Ebolowa / Sangmélima",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 2.9333,
+  "lon": 11.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kribi II",
+   "kind": "boundary=administrative",
+   "lat": 3.01896,
+   "lon": 9.97785,
+   "d": 222.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kribi",
+    "kind": "place=city",
+    "lat": 2.94341,
+    "lon": 9.9127,
+    "d": 229.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kribi I",
+    "kind": "boundary=administrative",
+    "lat": 2.80173,
+    "lon": 9.90699,
+    "d": 231.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kribi II",
+    "kind": "boundary=administrative",
+    "lat": 3.01896,
+    "lon": 9.97785,
+    "d": 222.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kribi",
+    "kind": "Cameroonian town",
+    "lat": 2.95,
+    "lon": 9.91667,
+    "d": 229.5,
+    "match": true,
+    "id": "Q997121"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Djoum y Mintom (escaso)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 2.6667,
+  "lon": 12.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Djoum",
+   "kind": "comuna camerunesa",
+   "lat": 2.66667,
+   "lon": 12.66667,
+   "d": 0.0,
+   "match": true,
+   "id": "Q3033077"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Djoum",
+    "kind": "place=town",
+    "lat": 2.67227,
+    "lon": 12.67807,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djoum",
+    "kind": "place=village",
+    "lat": 2.27842,
+    "lon": 12.06391,
+    "d": 79.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djoum",
+    "kind": "place=village",
+    "lat": 4.01095,
+    "lon": 12.84035,
+    "d": 150.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Djoum",
+    "kind": "comuna camerunesa",
+    "lat": 2.66667,
+    "lon": 12.66667,
+    "d": 0.0,
+    "match": true,
+    "id": "Q3033077"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Yokadouma y Moloundou (muy escaso)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 3.5167,
+  "lon": 15.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Posté de contrôle forestier et de chasse de Yokadouma",
+   "kind": "building=office",
+   "lat": 3.51682,
+   "lon": 15.05064,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Yokadouma",
+    "kind": "place=city",
+    "lat": 3.51528,
+    "lon": 15.05103,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Posté de contrôle forestier et de chasse de Yokadouma",
+    "kind": "building=office",
+    "lat": 3.51682,
+    "lon": 15.05064,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Total Yokadouma",
+    "kind": "amenity=fuel",
+    "lat": 3.51344,
+    "lon": 15.04917,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Bafoussam / Nkongsamba (eje oeste)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 5.4737,
+  "lon": 10.4179,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bafoussam",
+   "kind": "place=city",
+   "lat": 5.47588,
+   "lon": 10.42179,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bafoussam",
+    "kind": "place=city",
+    "lat": 5.47588,
+    "lon": 10.42179,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bafoussam I",
+    "kind": "boundary=administrative",
+    "lat": 5.49675,
+    "lon": 10.51853,
+    "d": 11.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bafoussam II",
+    "kind": "boundary=administrative",
+    "lat": 5.54505,
+    "lon": 10.44696,
+    "d": 8.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Agua potable y de uso general · Duala y Yaundé",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 4.0483,
+  "lon": 9.7043,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Douala",
+   "kind": "place=city",
+   "lat": 4.04294,
+   "lon": 9.7062,
+   "d": 0.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Douala",
+    "kind": "place=city",
+    "lat": 4.04294,
+    "lon": 9.7062,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Communauté urbaine de Douala",
+    "kind": "boundary=administrative",
+    "lat": 4.0559,
+    "lon": 9.66703,
+    "d": 4.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Douala",
+    "kind": "place=village",
+    "lat": 3.74994,
+    "lon": 9.94882,
+    "d": 42.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Agua · Sangmélima y Kribi (última recarga fiable del sur)",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 2.9369,
+  "lon": 9.9096,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Sangmélima-Mbalmayo",
+   "kind": "highway=trunk",
+   "lat": 3.24769,
+   "lon": 11.78634,
+   "d": 211.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sangmélima",
+    "kind": "place=city",
+    "lat": 2.93618,
+    "lon": 11.97565,
+    "d": 229.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sangmélima-Mbalmayo",
+    "kind": "highway=trunk",
+    "lat": 3.24769,
+    "lon": 11.78634,
+    "d": 211.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hôpital de Référence de Sangmélima",
+    "kind": "amenity=hospital",
+    "lat": 2.9532,
+    "lon": 12.00346,
+    "d": 232.5,
+    "match": true
+   }
+  ]
+ }
+]

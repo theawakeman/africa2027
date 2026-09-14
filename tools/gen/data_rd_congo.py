@@ -102,13 +102,13 @@ for _p in POIS:
     _p.setdefault("dog_note", "")
 
 LOGISTICS = [
-    ("Frontera · Entrada bajada — Beach Ngobila, ferry desde Brazzaville", "Frontera", -4.2981, 15.2989,
+    ("Frontera · Entrada bajada — Beach Ngobila, ferry desde Brazzaville", "Frontera", -4.2973574, 15.3195722,
      "Único cruce posible entre las dos capitales: NO existe puente sobre el río Congo (el proyecto de puente carretera-ferrocarril Brazzaville–Kinshasa está firmado pero no construido). Pasajeros en canot rapide (15-20 min); vehículos en el bac/barcaza, con salidas limitadas y no diarias. Intervienen DGM (inmigración), DGDA (aduana), OCC, higiene (fiebre amarilla), policía portuaria y municipal. Trámite descrito por todos los que lo han hecho como largo y muy propenso a «tasas» informales: presupuestar un día entero, empezar a primera hora de la mañana y llevar francos CFA, francos congoleños y dólares limpios."),
-    ("Frontera · Salida bajada — Lufu/Luvo (hacia Angola)", "Frontera", -5.9167, 13.9667,
+    ("Frontera · Salida bajada — Lufu/Luvo (hacia Angola)", "Frontera", -5.8431676, 14.0788529,
      "Desvío al sur desde el eje de la N1 a la altura de Songololo, ~30 km. Registro en inmigración de RD Congo, paso de un puente y trámite de entrada angoleño unos 500 m después. Proceso descrito como ágil y sin solicitudes de soborno por overlanders recientes — contraste notable con el ferry de Kinshasa. Confirmar horario (cierres al mediodía y por la tarde son habituales en la zona)."),
-    ("Frontera · Entrada subida — Luvo/Lufu (desde Angola)", "Frontera", -5.9167, 13.9667,
+    ("Frontera · Entrada subida — Luvo/Lufu (desde Angola)", "Frontera", -5.8431676, 14.0788529,
      "Mismo paso en sentido inverso al regreso desde Angola. Comprobar que el visado congoleño es de DOBLE ENTRADA o que se ha gestionado un segundo visado: es la decisión documental más importante de esta ficha."),
-    ("Frontera · Salida subida — Beach Ngobila, ferry hacia Brazzaville", "Frontera", -4.2981, 15.2989,
+    ("Frontera · Salida subida — Beach Ngobila, ferry hacia Brazzaville", "Frontera", -4.2973574, 15.3195722,
      "Cierre del corredor: mismo ferry, mismo circo administrativo, ahora en sentido Kinshasa→Brazzaville. Coordinar con la ficha de Congo-Brazzaville, que documenta el trámite desde la otra orilla."),
     ("Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)", "Consular", -4.3050, 15.3050,
      "Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe). Tel. +243 813 300 061 / 817 008 770 / 818 843 195 · Emergencia consular: +243 819 500 289. Avisar de la entrada y de las fechas previstas de las dos pasadas."),
@@ -207,16 +207,16 @@ SOURCES = [
 ]
 
 # BAJADA: ferry Beach Ngobila -> Kinshasa -> Kinsuka -> N1 (Kisantu, Mbanza-Ngungu, Kimpese) -> Matadi -> Songololo -> Lufu/Luvo
-CORRIDOR = [(-4.2981, 15.2989), (-4.3276, 15.3136), (-4.3806, 15.2131), (-5.1349, 15.0854),
+CORRIDOR = [(-4.2973574, 15.3195722), (-4.3276, 15.3136), (-4.3315072, 15.2190031), (-5.1349, 15.0854),
             (-5.2461, 14.8637), (-5.5556, 14.4386), (-5.8167, 13.4833), (-5.7000, 14.0500),
-            (-5.9167, 13.9667)]
+            (-5.8431676, 14.0788529)]
 
 # SUBIDA: Lufu/Luvo -> Songololo -> Matadi -> Boma -> Muanda/manglares -> Matadi -> Kimpese ->
 # Mbanza-Ngungu -> Chutes de Zongo -> Lola ya Bonobo -> Nsele -> Kinshasa -> ferry
-CORRIDOR_ALT = [(-5.9167, 13.9667), (-5.7000, 14.0500), (-5.8167, 13.4833), (-5.8511, 13.0528),
-                (-5.9833, 12.4500), (-5.9269, 12.3494), (-5.8511, 13.0528), (-5.8167, 13.4833),
-                (-5.5556, 14.4386), (-5.2461, 14.8637), (-5.0167, 14.8833), (-4.5333, 15.3667),
-                (-4.3667, 15.5833), (-4.3276, 15.3136), (-4.2981, 15.2989)]
+CORRIDOR_ALT = [(-5.8431676, 14.0788529), (-5.7000, 14.0500), (-5.8167, 13.4833), (-5.8511, 13.0528),
+                (-5.9833, 12.4500), (-5.9476338, 12.3532564), (-5.8511, 13.0528), (-5.8167, 13.4833),
+                (-5.5552303, 14.4618538), (-5.2461, 14.8637), (-4.7776877, 14.9064301), (-4.4904949, 15.2681556),
+                (-4.2571244, 15.6300955), (-4.3276, 15.3136), (-4.2973574, 15.3195722)]
 
 CORRIDOR_LABEL = "Bajada"
 CORRIDOR_ALT_LABEL = "Subida"

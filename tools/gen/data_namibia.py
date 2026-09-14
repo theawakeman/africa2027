@@ -123,7 +123,7 @@ LOGISTICS = [
      "Paso principal con Sudáfrica sobre el río Orange, en la N7/B1, OPERATIVO 24 HORAS. Es con diferencia el más transitado del sur: colas largas en vacaciones escolares sudafricanas y a final de año. Pagar el Cross-Border Charge (CBC) del vehículo en la oficina de la Road Fund Administration del propio puesto. Desde 2026 Sudáfrica exige declarar el vehículo extranjero en su sistema aduanero antes de cruzar: confirmar el trámite vigente (ver pendientes)."),
     ("Frontera · Salida principal — Oshikango/Santa Clara (hacia Angola)", "Frontera", -17.4000, 15.9000,
      "Paso más transitado hacia Angola, complejo moderno y carretera asfaltada en ambos lados, con horario largo (confirmar si sigue siendo 24 h). Mucho camión y mucho comercio transfronterizo. Coherente con la ficha de Angola, que lo documenta como entrada principal de la subida."),
-    ("Frontera · Salida alternativa — Ruacana/Calueque (hacia Angola)", "Frontera", -17.4167, 14.3667,
+    ("Frontera · Salida alternativa — Ruacana/Ruacaná (hacia Angola)", "Frontera", -17.3922600, 14.2233200,
      "El paso más occidental entre ambos países, junto a las cataratas de Ruacana y a la presa angoleña de Calueque. Pista sin asfaltar en el lado angoleño, horario más corto (aprox. 08:00-18:00, confirmar). Da acceso directo a Iona y al desierto del Namibe sin desvío, y encaja perfectamente si se sale del Kaokoland por Epupa. Confirmar antes que despacha vehículos extranjeros y no solo tráfico local."),
     ("Embajada de España en Windhoek", "Consular", -22.5667, 17.0833,
      "58 Simeon Shixungileni Street, Windhoek. Tel. +264 (0)61 22 30 66 · Emergencia consular 24h: +264 85 128 0571 · emb.windhoek@maec.es. Es la única representación española propia entre Sudáfrica y Angola."),
@@ -207,7 +207,7 @@ SOURCES = [
 CORRIDOR = [(-28.7500, 17.6167), (-27.5950, 17.6150), (-26.4667, 18.2333), (-26.5833, 18.1333),
             (-24.6333, 17.9667), (-23.6167, 17.4500), (-22.5609, 17.0658), (-20.5000, 17.2333),
             (-19.5833, 16.6167), (-19.1806, 15.9128), (-18.8000, 16.9167), (-17.9333, 15.9500),
-            (-17.4000, 15.9000)]
+            (-17.3872738, 15.8920619)]
 
 # VARIANTE COSTERA Y 4x4: Noordoewer -> Aus/Garub -> Lüderitz -> Sossusvlei -> Kuiseb -> Sandwich Harbour ->
 # Swakopmund -> Cape Cross -> Messum/Brandberg -> Skeleton Coast -> Twyfelfontein -> Palmwag -> Sesfontein ->
@@ -220,7 +220,7 @@ CORRIDOR_ALT = [(-28.7500, 17.6167), (-27.5950, 17.6150), (-26.6667, 16.2667), (
                 (-21.4000, 14.2333), (-21.1167, 14.5500), (-20.2833, 13.2167), (-19.9833, 13.0000),
                 (-20.5906, 14.3728), (-19.8833, 13.9500), (-19.1167, 13.6167), (-17.9333, 13.8333),
                 (-17.5333, 12.6500), (-17.2000, 12.5500), (-17.0011, 13.2453), (-17.3897, 14.2192),
-                (-17.4167, 14.3667)]
+                (-17.3922600, 14.2233200)]
 
 EXPERIENCIAS = [
     "Van Zyl's Pass, sentido único de verdad (blog de Tracks4Africa y foros 4x4 sudafricanos): todos los relatos coinciden en que se baja de este a oeste y NUNCA se sube —«la alternativa, subirlo, se considera demasiado peligrosa»— y en que hay restos de vehículos accidentados visibles en las laderas. Tracks4Africa habla de unos 15 km y de que se va buena parte del día; el copiloto va fuera guiando rueda a rueda y se camina cada tramo antes de pasarlo. Los que lo han hecho con vehículos largos avisan de que el problema es el ÁNGULO VENTRAL y el peralte inverso, no la tracción. Equipo citado una y otra vez: reductora, dos ruedas de repuesto, herramienta y repuestos de campo, walkie-talkies, gato de alta elevación, tablas de arena como rampa, correa de remolque y comunicador satelital (Garmin InReach). Y el consejo que más se repite: «no dejes que tu ego te haga hacer tonterías».",

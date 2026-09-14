@@ -1,0 +1,533 @@
+{
+ "slug": "congo",
+ "bbox": [
+  10.799999999999999,
+  -5.3999999999999995,
+  19.0,
+  4.1
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Souanké y Sembé · eje fronterizo del noroeste",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 2.0667,
+   "lon": 14.05,
+   "desc": "Las dos primeras poblaciones congoleñas tras cruzar desde Camerún por Ntam. La carretera Sembé–Souanké–Ntam (143 km) fue inaugurada asfaltada en marzo de 2020 por el propio presidente Sassou Nguesso, ",
+   "q": [
+    "Souanké y Sembé",
+    "Souanké",
+    "Sembé",
+    "Souanké y Sembé · eje fronterizo del noroeste"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Ouesso · capital de la Sangha",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 1.6167,
+   "lon": 16.05,
+   "desc": "La gran plaza logística de todo el norte forestal: aeropuerto, hospital de referencia, bancos, mercado, hoteles y las últimas estaciones de servicio formales antes de internarse hacia Odzala o hacia N",
+   "q": [
+    "Ouesso",
+    "Ouesso · capital de la Sangha"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Parque Nacional de Nouabalé-Ndoki · bai de Mbeli (UNESCO)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Media",
+   "lat": 2.2,
+   "lon": 16.1833,
+   "desc": "4.000 km² de selva primaria sin caminos ni aldeas en el extremo norte, parte del Trinacional de la Sangha (Patrimonio Mundial de la UNESCO junto con Lobéké en Camerún y Dzanga-Sangha en RCA) y una de ",
+   "q": [
+    "Parque Nacional de Nouabalé-Ndoki",
+    "Parc national Nouabalé-Ndoki",
+    "Parque Nacional de Nouabalé-Ndoki · bai de Mbeli (UNESCO)"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Parque Nacional de Odzala-Kokoua (UNESCO) · LA PARADA ESTRELLA",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 0.8,
+   "lon": 14.9,
+   "desc": "13.500 km² de selva ecuatorial en Cuvette-Ouest, protegida desde 1935, Reserva de la Biosfera desde 1977, gestionada por AFRICAN PARKS desde 2010 en nombre del Estado congoleño, abierta al turismo des",
+   "q": [
+    "Parque Nacional de Odzala-Kokoua",
+    "Parc national Odzala-Kokoua",
+    "Parque Nacional de Odzala-Kokoua (UNESCO) · LA PARADA ESTRELLA"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Ngaga · trekking de gorilas de llanura occidental",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 0.4,
+   "lon": 14.1667,
+   "desc": "El bosque de Ngaga, junto a Mbomo, en la periferia occidental de Odzala, es DONDE SE VEN LOS GORILAS: los únicos grupos de gorila de llanura occidental habituados y comercialmente visitables del parqu",
+   "q": [
+    "Ngaga",
+    "Ngaga · trekking de gorilas de llanura occidental"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Bais de Odzala · Lokoué, Moba y Camp Imbalanga",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 0.6,
+   "lon": 14.8,
+   "desc": "La otra mitad de Odzala, y la que SÍ se puede reservar sin pasar por un lodge de lujo: African Parks opera Camp Imbalanga, con tarifas públicas (2025: 400 $/persona y noche en régimen internacional, e",
+   "q": [
+    "Bais de Odzala",
+    "Bais de Odzala · Lokoué, Moba y Camp Imbalanga"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Brazzaville · Basílica de Santa Ana",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -4.2634,
+   "lon": 15.2429,
+   "desc": "Capital política y antigua capital de todo el África Ecuatorial Francesa, fundada por Pierre Savorgnan de Brazza en 1880 y capital simbólica de la Francia Libre durante la Segunda Guerra Mundial. Su h",
+   "q": [
+    "Brazzaville",
+    "Brazzaville · Basílica de Santa Ana"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Corniche de Brazzaville y rápidos del Congo",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -4.29,
+   "lon": 15.26,
+   "desc": "El paseo de la Corniche recorre la orilla del río Congo con Kinshasa enfrente y el Pool Malebo abierto aguas arriba; aguas abajo del centro empiezan los RÁPIDOS DEL CONGO (los rápidos de Livingstone),",
+   "q": [
+    "Corniche de Brazzaville y rápidos del Congo",
+    "Corniche de Brazzaville",
+    "rápidos del Congo"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Cataratas de Loufoulakari",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -4.45,
+   "lon": 14.92,
+   "desc": "A unos 75 km al suroeste de Brazzaville, en el departamento del Pool, el río Loufoulakari se despeña unos 30 m sobre grandes losas de arenisca justo antes de entregarse al río Congo: el paseo de un dí",
+   "q": [
+    "Cataratas de Loufoulakari"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Mercados de Brazzaville · Poto-Poto y Total",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -4.27,
+   "lon": 15.275,
+   "desc": "Poto-Poto es el barrio popular histórico de la capital y la cuna de la Escuela de Pintura de Poto-Poto, fundada en 1951 por Pierre Lods, el movimiento artístico más conocido del África central francóf",
+   "q": [
+    "Mercados de Brazzaville",
+    "Mercados de Brazzaville · Poto-Poto y Total"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Dolisie",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -4.2,
+   "lon": 12.6667,
+   "desc": "Tercera ciudad del país y nudo de la RN1 entre Brazzaville y Pointe-Noire, además de cabecera de la carretera hacia Gabón (Ndendé/Doussala) y estación del ferrocarril Congo-Océan. Talleres, combustibl",
+   "q": [
+    "Dolisie"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Pointe-Noire y la costa atlántica",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -4.7975,
+   "lon": 11.8481,
+   "desc": "Capital económica, mayor puerto del país y la mejor oferta de talleres, recambios, supermercados y sanidad privada de todo el Congo — mejor incluso que Brazzaville en repuestos de automoción, por el s",
+   "q": [
+    "Pointe-Noire y la costa atlántica",
+    "Pointe-Noire",
+    "la costa atlántica"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Garganta de Diosso y museo Ma Loango",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -4.6167,
+   "lon": 11.8833,
+   "desc": "A unos 25 km al norte de Pointe-Noire, el «gran cañón congoleño»: un anfiteatro de acantilados de arenisca roja y ocre erosionados sobre la vegetación tropical, con miradores al borde y senderos corto",
+   "q": [
+    "Garganta de Diosso y museo Ma Loango",
+    "Garganta de Diosso",
+    "museo Ma Loango"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Parque Nacional de Conkouati-Douli",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": -3.9167,
+   "lon": 11.4167,
+   "desc": "El parque más biodiverso del país y el único que junta océano, laguna, sabana y selva: playas de anidación de cinco especies de tortuga marina (laúd y olivácea entre ellas), manatíes africanos, delfin",
+   "q": [
+    "Parque Nacional de Conkouati-Douli",
+    "Parc national Conkouati-Douli"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Ferrocarril Congo-Océan (CFCO)",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -4.2714,
+   "lon": 15.2833,
+   "desc": "Los 510 km de vía entre Pointe-Noire y Brazzaville, construidos entre 1921 y 1934 para salvar los rápidos del Congo, son una de las obras más mortíferas de la historia colonial: se calcula que muriero",
+   "q": [
+    "Ferrocarril Congo-Océan",
+    "Ferrocarril Congo-Océan (CFCO)"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Reserva de Lésio-Louna · gorilas reintroducidos",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -3.2333,
+   "lon": 15.4667,
+   "desc": "A unas 3-4 horas al norte de Brazzaville por la RN2, en el borde de las mesetas Batéké y dentro del complejo de la reserva de la Léfini, la Fundación Aspinall gestiona desde los años noventa un santua",
+   "q": [
+    "Reserva de Lésio-Louna",
+    "Réserve Lésio-Louna",
+    "Reserva de Lésio-Louna · gorilas reintroducidos"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Mesetas Batéké · Djambala y Lékana",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -2.5333,
+   "lon": 14.75,
+   "desc": "El Congo que nadie espera: en vez de selva cerrada, 500 km de altiplano de arena blanca a 700-800 m, sabana herbácea, cañones de erosión y bosques-galería encajados, con un clima notablemente más fres",
+   "q": [
+    "Mesetas Batéké",
+    "Mesetas Batéké · Djambala y Lékana"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Owando y Makoua · la línea del Ecuador",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 0.0036,
+   "lon": 15.6333,
+   "desc": "Owando (antigua Fort-Rousset), capital de la Cuvette, es la única plaza con servicios reales entre Brazzaville y Ouesso: combustible, hospital, mercado y hoteles sencillos. Ochenta kilómetros al norte",
+   "q": [
+    "Owando y Makoua",
+    "Owando",
+    "Makoua",
+    "Owando y Makoua · la línea del Ecuador"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada bajada — Ntam / Souanké (desde Camerún)",
+   "cat": "Frontera",
+   "lat": 2.2,
+   "lon": 14.0,
+   "desc": "Extremo congoleño del corredor Ketta-Djoum / Brazzaville-Yaundé. El lado CONGOLEÑO está confirmado: los 143 km Sembé-Souanké-Ntam se inauguraron asfaltados el 6 de marzo de 2020 y el conjunto de 312 k",
+   "q": [
+    "Ntam",
+    "Souanké",
+    "Camerún"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida bajada — Beach de Brazzaville, ferry hacia Kinshasa",
+   "cat": "Frontera",
+   "lat": -4.279,
+   "lon": 15.286,
+   "desc": "El cruce más notorio de África para overlanders. NO hay puente sobre el río Congo. Pasajeros en canot rapide (15-20 min, ~16.400 FCFA por persona según relatos de 2024-2025); vehículos en el bac/barca",
+   "q": [
+    "Beach de Brazzaville",
+    "Kinshasa"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada subida — Beach de Brazzaville, ferry desde Kinshasa",
+   "cat": "Frontera",
+   "lat": -4.279,
+   "lon": 15.286,
+   "desc": "Mismo cruce en sentido inverso, ya de vuelta desde Angola/RD Congo. Segundo día entero de trámites. Aquí arranca el corredor de subida: Brazzaville → Ngo → Djambala → Lékana → Okoyo → Boundji → Owando",
+   "q": [
+    "Beach de Brazzaville",
+    "Kinshasa"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Salida subida — Socambo / Moloundou (hacia Camerún)",
+   "cat": "Frontera",
+   "lat": 1.5833,
+   "lon": 16.0833,
+   "desc": "Paso fluvial sobre el río Ngoko frente a Ouesso: barcaza o piragua motorizada, sin puente. Elegido para que la subida no repita el corredor Ketta-Djoum. CRÍTICO POR CONFIRMAR: capacidad real de la bar",
+   "q": [
+    "Socambo",
+    "Moloundou",
+    "Camerún"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Alternativa — Ndendé / Doussala (hacia Gabón, desde Dolisie)",
+   "cat": "Frontera",
+   "lat": -2.8333,
+   "lon": 10.9167,
+   "desc": "Solo relevante si se hace el desvío suroeste y se decide salir hacia Gabón en vez de volver a Brazzaville. Gabón queda fuera de la ruta fija del proyecto (eVisa solo aéreo): tratar como informativo.",
+   "q": [
+    "Ndendé",
+    "Doussala",
+    "Gabón",
+    "Dolisie"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)",
+   "cat": "Consular",
+   "lat": -4.305,
+   "lon": 15.305,
+   "desc": "Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe), RD Congo. Tel. +243 813 300 061 / 817 008 770 · Emergencia consular: +243 819 500 289. NO hay embajada española en Congo-Brazzaville: la representación co",
+   "q": [
+    "Embajada de España en Kinshasa",
+    "Embassy of Spain Kinshasa",
+    "Spain Embassy Kinshasa"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Hôpital Général de Brazzaville (CHU)",
+   "cat": "Hospital",
+   "lat": -4.2694,
+   "lon": 15.2761,
+   "desc": "Principal referencia hospitalaria del país junto con el Hôpital Central des Armées Pierre Mobengo. Coordenada urbana aproximada.",
+   "q": [
+    "Hôpital Général de Brazzaville",
+    "Général de Brazzaville"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Hospitales de Pointe-Noire",
+   "cat": "Hospital",
+   "lat": -4.7975,
+   "lon": 11.8481,
+   "desc": "Hôpital Général Adolphe Sicé y clínicas privadas ligadas al sector petrolero: la mejor sanidad privada del país, relevante solo si se hace el desvío suroeste.",
+   "q": [
+    "Hospitales de Pointe-Noire",
+    "es de Pointe-Noire"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hôpital de base de Ouesso",
+   "cat": "Hospital",
+   "lat": 1.6167,
+   "lon": 16.05,
+   "desc": "Única referencia sanitaria seria de todo el norte forestal, entre Odzala, Nouabalé-Ndoki y las dos fronteras cameruneses. A más de 800 km de Brazzaville.",
+   "q": [
+    "Hôpital de base de Ouesso",
+    "base de Ouesso"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Ouesso",
+   "cat": "Combustible",
+   "lat": 1.6167,
+   "lon": 16.05,
+   "desc": "Últimas estaciones formales del norte. Salir de aquí con depósitos y garrafas al 100 % antes de Odzala o de Nouabalé-Ndoki: dentro del bloque forestal el combustible es en bidones, caro y no garantiza",
+   "q": [
+    "Ouesso"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Etoumbi y Ewo (puerta de Odzala)",
+   "cat": "Combustible",
+   "lat": 0.0167,
+   "lon": 14.95,
+   "desc": "Último punto con oferta —irregular— antes de Mbomo y del parque. Etoumbi es además el pueblo-puerta del sector occidental de Odzala. Confirmar existencias; no planificar contando con ellas.",
+   "q": [
+    "Etoumbi",
+    "Ewo",
+    "Odzala",
+    "Etoumbi y Ewo"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Owando",
+   "cat": "Combustible",
+   "lat": -0.4833,
+   "lon": 15.9,
+   "desc": "Plaza intermedia obligada de la RN2 entre Brazzaville y Ouesso (~400 km a cada lado). Repostar aunque el depósito no esté bajo.",
+   "q": [
+    "Owando"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Brazzaville",
+   "cat": "Combustible",
+   "lat": -4.2634,
+   "lon": 15.2429,
+   "desc": "Mejor oferta y calidad del país (Total, X-Oil, Puma). Repostar a fondo antes del ferry: al otro lado, en Kinshasa, la calidad es más variable y el despacho puede retenernos días.",
+   "q": [
+    "Brazzaville"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Combustible · Djambala y Okoyo (corredor de subida)",
+   "cat": "Combustible",
+   "lat": -2.5333,
+   "lon": 14.75,
+   "desc": "Oferta escasa en el eje de las mesetas Batéké. Salir de Brazzaville con autonomía suficiente para llegar holgadamente a Owando.",
+   "q": [
+    "Djambala",
+    "Okoyo",
+    "Djambala y Okoyo"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Combustible · Dolisie y Pointe-Noire (desvío suroeste)",
+   "cat": "Combustible",
+   "lat": -4.7975,
+   "lon": 11.8481,
+   "desc": "Estaciones formales y la mejor calidad de gasóleo del país en Pointe-Noire, por el sector petrolero.",
+   "q": [
+    "Dolisie",
+    "Pointe-Noire",
+    "Dolisie y Pointe-Noire"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Agua potable y de uso general · Brazzaville",
+   "cat": "Agua potable",
+   "lat": -4.2634,
+   "lon": 15.2429,
+   "desc": "Agua embotellada sin problema en supermercados de la capital; hoteles y estaciones de servicio permiten llenar el depósito de uso general con manguera. Es el mejor punto de recarga completa antes de l",
+   "q": [
+    "Brazzaville"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Agua potable y de uso general · Ouesso y Owando",
+   "cat": "Agua potable",
+   "lat": 1.6167,
+   "lon": 16.05,
+   "desc": "Recarga posible en hoteles y misiones. A partir de aquí, hacia Odzala o hacia Nouabalé-Ndoki, el agua es de río o de pozo: filtrar y potabilizar sin excepción.",
+   "q": [
+    "Ouesso",
+    "Owando",
+    "Ouesso y Owando"
+   ]
+  }
+ ]
+}

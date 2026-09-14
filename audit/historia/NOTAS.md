@@ -95,3 +95,34 @@
 - Freedom in the World 2025 evalúa principalmente 2024. La puntuación 44/100 se presenta con ese año y no como medición posterior.
 - Las estimaciones de muertos de la guerra de Biafra varían ampliamente; el texto describe la mortalidad masiva y la hambruna sin escoger una cifra no consolidada.
 - Los porcentajes religiosos del MAEC se entienden como una división aproximada entre cristianismo e islam, con prácticas tradicionales superpuestas; no se fuerza una suma censal.
+
+## camerun
+
+- Freedom in the World 2025 evalúa principalmente 2024 y no los comicios presidenciales de octubre de 2025; por eso ambos datos se presentan separados.
+- Britannica no cargó en la sesión. La cronología histórica se ha contrastado con la ficha del MAEC de julio de 2026 y las fuentes institucionales citadas.
+- No se da una cifra de víctimas de la crisis anglófona: las fuentes usan periodos y categorías diferentes.
+
+## gabon
+
+- Freedom in the World 2025 evalúa la transición durante 2024 y no las elecciones ni las instituciones constituidas en 2025; su puntuación se presenta con esa limitación.
+- La ficha del MAEC de enero de 2026 contiene un error tipográfico al fechar la elección presidencial como 12 de abril de 2023; el resto de la ficha, la Presidencia y el Banco Mundial confirman que fue el 12 de abril de 2025.
+- Britannica no cargó en la sesión; no se han añadido cifras antiguas de trata esclavista ni de víctimas coloniales que no pudieran contrastarse.
+
+## congo
+
+- Freedom in the World 2025 evalúa hechos de 2024; la elección de marzo de 2026 se documenta separadamente con el resultado definitivo de la Corte Constitucional.
+- La ficha del MAEC presenta un reparto religioso que no separa protestantismo y sincretismo; se conserva como dato atribuido y se advierte su limitación.
+- Britannica no cargó en la sesión y se evita fijar una cifra de muertos en la construcción del ferrocarril Congo-Océan por las discrepancias entre fuentes.
+
+## rd-congo
+
+- Freedom in the World 2025 evalúa principalmente 2024; la situación del conflicto en 2026 se documenta separadamente con la página actualizada del Banco Mundial.
+- BBC y Britannica no cargaron en la sesión. La cronología se contrastó con Naciones Unidas, fuentes oficiales congoleñas y belgas y la ficha del MAEC.
+- Se eliminó la afirmación anterior de que las guerras del Congo fueron «el conflicto más letal desde la Segunda Guerra Mundial» y cualquier cifra total de muertos, porque las metodologías disponibles no son homogéneas.
+
+## angola
+
+- Freedom in the World 2025 evalúa principalmente acontecimientos de 2024; las protestas de 2025 y el calendario de 2027 proceden de la ficha del MAEC de agosto de 2026.
+- BBC y Britannica no cargaron en la sesión. La cronología se contrastó con el portal oficial del cincuentenario de Angola, Naciones Unidas y el MAEC.
+- El 90 % de cristianos que resume el MAEC no coincide aritméticamente con todas las categorías religiosas que cita del INE 2024; el texto conserva los porcentajes desglosados sin forzar un total.
+- El semba figura como candidatura en curso para 2026 en la página de la UNESCO consultada, no como elemento ya inscrito.

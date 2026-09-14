@@ -107,13 +107,13 @@ for _p in POIS:
     _p.setdefault("dog_note", "")
 
 LOGISTICS = [
-    ("Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)", "Frontera", -5.9167, 13.9667,
+    ("Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)", "Frontera", -5.8431676, 14.0788529,
      "Cruce del puente fronterizo con RD Congo; registro y sellado ~500 m dentro de Angola. Desvío opcional a M'banza-Kongo (Patrimonio Mundial UNESCO, antigua capital del Reino del Kongo) a poca distancia. También es la frontera de SALIDA en la subida, cerrando el corredor angoleño."),
-    ("Frontera · Salida bajada — Caripande (hacia Zambia, cerca de Cazombo)", "Frontera", -11.9000, 22.9000,
+    ("Frontera · Salida bajada — Caripande (hacia Zambia, cerca de Cazombo)", "Frontera", -12.9937161, 22.7285255,
      "Paso remoto en el extremo este de Angola (provincia de Moxico), frente al puesto zambiano de Chavuma. Otros overlanders describen la oficina de inmigración angoleña como muy precaria (secuelas de la guerra) y el trámite en portugués; más de 100 km de pistas de arena con charcos profundos entre Cazombo y la zona previa a la frontera, intransitables o muy lentos en temporada de lluvias (octubre-marzo). Cruzar solo en temporada seca (mayo-septiembre) y registrarse en la policía de Cazombo."),
-    ("Frontera · Entrada subida — Santa Clara/Oshikango (desde Namibia)", "Frontera", -17.3500, 15.7500,
+    ("Frontera · Entrada subida — Santa Clara/Oshikango (desde Namibia)", "Frontera", -17.3872738, 15.8920619,
      "Paso principal y más transitado entre Angola y Namibia; carretera asfaltada en ambos lados, infraestructura de control moderna. Punto de entrada de la subida hacia Namibe, Serra da Leba y Tundavala."),
-    ("Frontera · Alternativa subida — Calueque/Ruacana (desde Namibia)", "Frontera", -17.2825, 14.5347,
+    ("Frontera · Alternativa subida — Ruacana/Ruacaná (desde Namibia)", "Frontera", -17.3922600, 14.2233200,
      "Paso alternativo más al oeste, junto a la presa de Calueque sobre el río Cunene y el puesto namibio de Ruacana/Omahenene; pista sin asfaltar en el lado angoleño, más lenta que Santa Clara pero da acceso directo a las cataratas de Ruacana, Epupa (lado namibio) y al Parque Nacional de Iona sin desvío adicional."),
     ("Embajada de España en Luanda", "Consular", -8.8167, 13.2333,
      "Rua Frederico Welwitsch 84, Torre Maculusso, 12º andar C, Postal 3061, Luanda. Tel. +244 222 391 166/187/188 · Emergencia consular: +244 929 900 900."),
@@ -199,16 +199,16 @@ SOURCES = [
 ]
 
 # Bajada: frontera norte -> Luanda -> Malanje -> altiplano de Huambo -> Bié -> Moxico -> Zambia
-CORRIDOR = [(-5.9167, 13.9667), (-8.8383, 13.2344), (-9.1667, 13.0333), (-9.6625, 15.5839),
-            (-9.0758, 16.0033), (-9.5402, 16.3410), (-9.9167, 16.4000), (-11.3500, 15.1167),
-            (-12.1833, 15.8167), (-12.4667, 15.1667), (-12.7761, 15.7392), (-12.3833, 16.9333),
-            (-11.7833, 19.9167), (-11.9000, 22.9000)]
+CORRIDOR = [(-5.8431676, 14.0788529), (-8.8383, 13.2344), (-9.2211577, 13.0897862), (-9.6625, 15.5839),
+            (-9.0739269, 16.0010612), (-9.5402, 16.3410), (-9.8802021, 16.6762920), (-11.3500, 15.1167),
+            (-12.1928155, 15.8814625), (-12.4667, 15.1667), (-12.7739761, 15.7468535), (-12.3833, 16.9333),
+            (-11.7833, 19.9167), (-12.9937161, 22.7285255)]
 
 # Subida: frontera sur -> desierto del Namibe -> meseta de Lubango -> costa -> Luanda -> frontera norte
-CORRIDOR_ALT = [(-17.3500, 15.7500), (-16.7000, 12.3333), (-17.3000, 11.6667), (-16.6167, 11.7833),
-                (-15.9406, 12.8793), (-15.7661, 12.0667), (-15.1961, 12.1522), (-15.0711, 13.2486),
-                (-14.8177, 13.3814), (-12.5783, 13.4055), (-12.3644, 13.5456), (-9.6833, 13.2167),
-                (-9.7500, 13.5830), (-8.9833, 13.1667), (-8.8383, 13.2344), (-5.9167, 13.9667)]
+CORRIDOR_ALT = [(-17.3872738, 15.8920619), (-16.3629944, 12.2547919), (-17.2624090, 11.7975500), (-16.6009400, 11.7227000),
+                (-15.9380923, 12.8770116), (-15.7757309, 12.0689717), (-15.2003797, 12.1435215), (-15.0711, 13.2486),
+                (-14.8174618, 13.3815304), (-12.5781382, 13.3992475), (-12.3644, 13.5456), (-9.6833, 13.2167),
+                (-9.7500, 13.5830), (-8.9833, 13.1667), (-8.8383, 13.2344), (-5.8431676, 14.0788529)]
 
 EXPERIENCIAS = [
     "Expedición 2022 por el sur de Angola (Paul Godard, 4 semanas, 2 vehículos): entrada por Santa Clara con e-visa (120 $/persona, 80 $ pagando en moneda local); ruta real Ondjiva → Xangongo → Calueque → cataratas de Ruacana → Epupa → Parque de Iona → desembocadura del Cunene → Namibe → Serra da Leba → Lubango → Tundavala → Kalandula → Pedras Negras → Kissama → Luanda. La EN140 la describen como «la peor carretera asfaltada jamás vista», con baches de hasta 80 cm; acampada libre en casi todo el trayecto, avisando siempre al jefe del pueblo o los ancianos locales.",

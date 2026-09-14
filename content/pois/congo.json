@@ -1,20 +1,21 @@
 [
   {
     "n": 1,
-    "name": "Souanké y Sembé · eje fronterizo del noroeste",
+    "name": "Souanké · eje fronterizo del noroeste",
     "cat": "Ciudad · servicios",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": 2.0667,
-    "lon": 14.05,
-    "desc": "Las dos primeras poblaciones congoleñas tras cruzar desde Camerún por Ntam. La carretera Sembé–Souanké–Ntam (143 km) fue inaugurada asfaltada en marzo de 2020 por el propio presidente Sassou Nguesso, dentro del corredor internacional Brazzaville–Yaundé financiado por el Banco Africano de Desarrollo: es, sobre el papel, el mejor tramo de todo el acceso. Souanké es cabecera de distrito con gendarmería, mercado y combustible irregular (a menudo en bidones); Sembé, 100 km al este, es la siguiente plaza. Aquí es donde hay que hacer el trámite de entrada completo si el puesto de Ntam no lo cubre todo: confirmar dónde se sella realmente el pasaporte y el CPD. Imagen de referencia de una ciudad congoleña, no de Souanké.",
+    "lat": 2.0587378,
+    "lon": 14.1320805,
+    "desc": "Souanké es la primera cabecera de distrito relevante tras cruzar desde Camerún por Ntam; Sembé queda más al este y ya no se representa con el mismo pin. La carretera Sembé–Souanké–Ntam forma parte del corredor Brazzaville–Yaundé. En Souanké hay gendarmería, mercado y oferta irregular de combustible, pero hay que confirmar antes del viaje en qué oficina se completan el sello de pasaporte y los papeles del vehículo.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolisie.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Dolisie.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 2,
@@ -25,13 +26,34 @@
     "time": "1–2 noches",
     "lat": 1.6167,
     "lon": 16.05,
-    "desc": "La gran plaza logística de todo el norte forestal: aeropuerto, hospital de referencia, bancos, mercado, hoteles y las últimas estaciones de servicio formales antes de internarse hacia Odzala o hacia Nouabalé-Ndoki. Está sobre el río Sangha, afluente del Congo, y es el nudo donde confluyen la carretera del corredor camerunés (Ntam–Souanké–Sembé), la nacional 2 hacia Brazzaville y el paso fluvial de Socambo hacia Moloundou (Camerún), que es nuestra salida en la subida. Lo que no se consiga en Ouesso no se consigue hasta Owando (400 km al sur). Imagen de referencia del norte congoleño, no de Ouesso.",
+    "desc": "La gran plaza logística de todo el norte forestal: aeropuerto, hospital de referencia, bancos, mercado, hoteles y las últimas estaciones de servicio formales antes de internarse hacia Odzala o hacia Nouabalé-Ndoki. Está sobre el río Sangha, afluente del Congo, y es el nudo donde confluyen la carretera del corredor camerunés (Ntam–Souanké–Sembé), la nacional 2 hacia Brazzaville y el paso fluvial de Socambo hacia Moloundou (Camerún), que es nuestra salida en la subida. Lo que no se consiga en Ouesso no se consigue hasta Owando (400 km al sur).",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Makoua%20(Republic%20of%20the%20Congo)%20-%20Former%20bell%20tower.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Makoua%20(Republic%20of%20the%20Congo)%20-%20Former%20bell%20tower.JPG",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Port%20secondaire%20de%20Ouesso%2C%20au%20bord%20de%20la%20Rivi%C3%A8re%20Sangha.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Le%20Port%20secondaire%20de%20Ouesso%2C%20au%20bord%20de%20la%20Rivi%C3%A8re%20Sangha.jpg",
+        "credit": "Boussimanitou01 · CC BY-SA 4.0",
+        "caption": "Puerto secundario de Ouesso; archivo geolocalizado"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Frontiere%20R%20CONGO%20et%20CAMEROUN.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Frontiere%20R%20CONGO%20et%20CAMEROUN.jpg",
+        "credit": "Merylaurteli91 · CC0",
+        "caption": "Río Sangha en Ouesso"
+      }
+    ],
+    "visit": {
+      "why": "Es la última base completa antes de los parques del norte y el nudo de decisión entre Odzala, Nouabalé-Ndoki y el cruce fluvial hacia Camerún.",
+      "see": "Río Sangha y vida portuaria; su interés principal son combustible, compras, hospital, comunicaciones y coordinación.",
+      "access": "Entrar con una lista cerrada de tareas. Confirmar aquí transporte a parques y estado de Socambo antes de abandonar cobertura y servicios.",
+      "when": "Una o dos noches, en día laborable si hacen falta gestiones.",
+      "skip": "No usar días de naturaleza en turismo urbano; si todo está resuelto, basta una noche logística."
+    }
   },
   {
     "n": 3,
@@ -42,47 +64,124 @@
     "time": "3–5 días (expedición)",
     "lat": 2.2,
     "lon": 16.1833,
-    "desc": "4.000 km² de selva primaria sin caminos ni aldeas en el extremo norte, parte del Trinacional de la Sangha (Patrimonio Mundial de la UNESCO junto con Lobéké en Camerún y Dzanga-Sangha en RCA) y una de las selvas menos alteradas del planeta. La sede del parque está en Bomassa, a unas 3 horas en coche o 2 en barca desde Ouesso (Kabo queda a 1 hora). Sus joyas son los BAIS: Mbeli Bai, un claro pantanoso con plataforma de observación donde se estudian gorilas de llanura occidental desde 1995, y Wali Bai, más pequeño y a menos de una hora de Bomassa, con elefantes de bosque. Mondika es el sitio de gorilas habituados. Mejor época: enero–marzo (seca) y agosto para Mbeli. Visita solo con el equipo del parque (WCS), no por libre. Es un desvío grande: ~200 km de pista maderera desde Ouesso más logística fluvial. Imagen de referencia de un elefante de bosque, no del propio bai.",
+    "desc": "4.000 km² de selva primaria sin caminos ni aldeas en el extremo norte, parte del Trinacional de la Sangha (Patrimonio Mundial de la UNESCO junto con Lobéké en Camerún y Dzanga-Sangha en RCA) y una de las selvas menos alteradas del planeta. La sede del parque está en Bomassa, a unas 3 horas en coche o 2 en barca desde Ouesso (Kabo queda a 1 hora). Sus joyas son los BAIS: Mbeli Bai, un claro pantanoso con plataforma de observación donde se estudian gorilas de llanura occidental desde 1995, y Wali Bai, más pequeño y a menos de una hora de Bomassa, con elefantes de bosque. Mondika es el sitio de gorilas habituados. Mejor época: enero–marzo (seca) y agosto para Mbeli. Visita solo con el equipo del parque (WCS), no por libre. Es un desvío grande: ~200 km de pista maderera desde Ouesso más logística fluvial.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabon%20Loango%20National%20Park%20Elephant%20with%20offspring.jpeg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Gabon%20Loango%20National%20Park%20Elephant%20with%20offspring.jpeg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Loxodontacyclotis.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Loxodontacyclotis.jpg",
+        "credit": "Thomas Breuer · CC BY 2.5",
+        "caption": "Elefantes de bosque en Mbeli Bai"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Navigating%20through%20the%20Black%20Forest%2C%20Nouabal%C3%A9-Ndoki%20National%20Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Navigating%20through%20the%20Black%20Forest%2C%20Nouabal%C3%A9-Ndoki%20National%20Park.jpg",
+        "credit": "JosepMGracia · CC BY-SA 4.0",
+        "caption": "Navegación por el bosque inundado del parque"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flooded%20rainforest%20in%20the%20Black%20Forest%2C%20Nouabal%C3%A9-Ndoki%20National%20Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Flooded%20rainforest%20in%20the%20Black%20Forest%2C%20Nouabal%C3%A9-Ndoki%20National%20Park.jpg",
+        "credit": "JosepMGracia · CC BY-SA 4.0",
+        "caption": "Selva inundada de Nouabalé-Ndoki"
+      }
+    ],
+    "links": [
+      {
+        "label": "Visita oficial · Nouabalé-Ndoki",
+        "url": "https://ndoki.org/en-us/Visit/Park-info"
+      }
+    ]
   },
   {
     "n": 4,
-    "name": "Parque Nacional de Odzala-Kokoua (UNESCO) · LA PARADA ESTRELLA",
+    "name": "Parque Nacional de Odzala-Kokoua (UNESCO)",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
     "dog": "prohibido — riesgo sanitario para los simios",
     "time": "4–7 días",
     "lat": 0.8,
     "lon": 14.9,
-    "desc": "13.500 km² de selva ecuatorial en Cuvette-Ouest, protegida desde 1935, Reserva de la Biosfera desde 1977, gestionada por AFRICAN PARKS desde 2010 en nombre del Estado congoleño, abierta al turismo desde 2012 e inscrita en el Patrimonio Mundial de la UNESCO en 2023. Es el objetivo declarado de este tramo del viaje: una de las mejores densidades de GORILA DE LLANURA OCCIDENTAL del mundo (se citan hasta 12 gorilas/km² en las zonas de marantáceas), unos 100 mamíferos, ~440 aves y ~4.500 especies vegetales, con elefante de bosque, chimpancé, búfalo de bosque, bongo y una de las comunidades de primates más diversas de África. Su firma son los BAIS: claros pantanosos y salinas donde la fauna sale del bosque a descubierto. Acceso por tierra: nacional 2 hasta Obouya, después Ewo y Etoumbi, y desde Etoumbi al norte por Mbomo hasta las puertas del parque, todo asfalto hasta Etoumbi y pista forestal después.",
+    "desc": "Gran macizo de selva ecuatorial de Cuvette-Ouest, protegido desde 1935, Reserva de la Biosfera y Patrimonio Mundial de la UNESCO desde 2023. Alberga gorila de llanura occidental, elefante y búfalo de bosque, chimpancé y bongo; su paisaje característico incluye los bais, claros pantanosos y salinas donde la fauna sale del bosque. El pin es representativo de un parque inmenso, no una puerta. El acceso por tierra se coordina previamente con la administración u operador y pasa por Etoumbi y Mbomo; las condiciones del último tramo cambian con la lluvia.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20lowland%20gorilla%20(Gorilla%20gorilla%20gorilla).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Western%20lowland%20gorilla%20(Gorilla%20gorilla%20gorilla).jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Loxodonta%20cyclotis%2C%20Odzala-Kokoua%20National%20Park%2C%20Republic%20of%20the%20Congo%2053146541.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Loxodonta%20cyclotis%2C%20Odzala-Kokoua%20National%20Park%2C%20Republic%20of%20the%20Congo%2053146541.jpg",
+        "credit": "John P. Friel · CC BY 4.0",
+        "caption": "Elefante de bosque en Odzala; archivo geolocalizado"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Odzala-Kokoua%20NP%20banner.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Odzala-Kokoua%20NP%20banner.jpg",
+        "credit": "Matt Muir · CC BY 4.0",
+        "caption": "Paisaje y fauna de Odzala; archivo geolocalizado"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20Gorilles%20du%20Parc%20National%20d'odzala%20Kokoua.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Les%20Gorilles%20du%20Parc%20National%20d'odzala%20Kokoua.jpg",
+        "credit": "Ekassa · CC BY-SA 4.0",
+        "caption": "Gorilas en una salina de Odzala"
+      }
+    ],
+    "visit": {
+      "why": "Es la experiencia natural central del grupo: gran selva, bais y uno de los principales refugios de elefante de bosque y primates de África central.",
+      "see": "El parque es enorme: caminatas, barca, observatorios en bais y fauna posible. No existe una única vista ni avistamiento garantizado.",
+      "access": "El pin es representativo, no una puerta. African Parks coordina productos distintos desde el eje Etoumbi–Mbomo y también una puerta oriental próxima a Ouesso; elegir sector antes de trazar la ruta.",
+      "when": "Mínimo cuatro días para que la logística tenga sentido; confirmar lluvias, alojamiento y traslados.",
+      "skip": "Descartarlo si solo hay una o dos noches o si el operador no fija por escrito puerta, transporte y actividades."
+    },
+    "links": [
+      {
+        "label": "African Parks · visitar Odzala",
+        "url": "https://www.africanparks.org/experience-odzala-kokoua-national-park"
+      },
+      {
+        "label": "UNESCO · Odzala-Kokoua",
+        "url": "https://whc.unesco.org/en/list/692"
+      }
+    ]
   },
   {
     "n": 5,
-    "name": "Ngaga · trekking de gorilas de llanura occidental",
+    "name": "Ngaga Camp · trekking de gorilas de llanura occidental",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido — riesgo sanitario para los simios",
     "time": "2–4 días",
-    "lat": 0.4,
-    "lon": 14.1667,
-    "desc": "El bosque de Ngaga, junto a Mbomo, en la periferia occidental de Odzala, es DONDE SE VEN LOS GORILAS: los únicos grupos de gorila de llanura occidental habituados y comercialmente visitables del parque están aquí, en la concesión del lodge Ngaga (operador Kamba African Rainforest Experiences, antes Odzala Discovery Camps). Reglas de 2026: edad mínima 15 años, máximo 4 visitantes por grupo más guía y rastreador, mascarilla obligatoria, chequeo médico previo, 1 hora máxima de observación y caminatas de 1 a 8 km que pueden durar entre 2 y 7 horas por terreno irregular. Permiso adicional declarado en 750 $/persona, «disponible únicamente en el lodge de Ngaga»: el trekking NO se compra por libre en la puerta del parque. Coordenada aproximada (Mbomo): confirmar el punto exacto con el operador. Imagen de referencia de la especie.",
+    "lat": 0.3914422,
+    "lon": 15.0455289,
+    "desc": "Ngaga Camp es la base comercial conocida para el seguimiento de grupos habituados de gorila de llanura occidental en el entorno de Odzala. El pin corresponde a la ficha real del campamento en Google Maps, no a Mbomo ni a un centroide del parque. No se debe llegar esperando comprar un permiso en la puerta: solicitar por escrito al operador disponibilidad, precio, edad mínima, protocolo sanitario, transporte desde el corredor y condiciones de alojamiento vigentes en 2027.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lowland%20Gorilla%20(8973697544).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Lowland%20Gorilla%20(8973697544).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [],
+    "visit": {
+      "why": "Es la opción especializada para rastrear grupos habituados de gorila de llanura occidental, diferente de observar un bai.",
+      "see": "Seguimiento a pie con protocolo sanitario y cupos; el encuentro nunca se garantiza y no equivale a una visita libre al parque.",
+      "access": "Solo con reserva previa del operador de Ngaga. Pedir precio completo, traslados, edad mínima, condición física, mascarilla y política de cancelación.",
+      "when": "Reservar con mucha antelación y dejar margen por clima/actividad de los animales.",
+      "skip": "No ir esperando comprar permiso en la puerta. Descartar si el coste o el protocolo no están claros."
+    },
+    "links": [
+      {
+        "label": "Reserva oficial de Odzala",
+        "url": "https://visitodzala-kokoua.org/book-now/"
+      }
+    ]
   },
   {
     "n": 6,
@@ -93,13 +192,27 @@
     "time": "2–3 días",
     "lat": 0.6,
     "lon": 14.8,
-    "desc": "La otra mitad de Odzala, y la que SÍ se puede reservar sin pasar por un lodge de lujo: African Parks opera Camp Imbalanga, con tarifas públicas (2025: 400 $/persona y noche en régimen internacional, entrada 35 $/persona y noche, tasa de conservación 25 $ y tasa comunitaria 20 $), y ofrece caminatas guiadas (25 $), excursión al complejo de bais de MOBA con picnic (33 $) y navegación por los ríos Mambili y Lokoué (75 $, mínimo 2 personas). El bai de LOKOUÉ es el claro clásico del parque, donde se han censado gorilas saliendo al descubierto junto a elefantes de bosque, búfalos y sitatungas. OJO: la lista de actividades de Imbalanga NO incluye el trekking de gorilas — ese solo se hace desde Ngaga. Coordenada aproximada del sector Mboko/Lékoli: confirmar con African Parks. Imagen de referencia de un elefante de bosque.",
+    "desc": "Los bais de Odzala son claros de bosque frecuentados por elefantes, búfalos, sitatungas y, ocasionalmente, gorilas. Camp Imbalanga es la opción de ecoturismo gestionada por African Parks, pero actividades, tarifas y acceso deben consultarse directamente para las fechas del viaje. Esta coordenada representa un sector amplio del parque y no debe usarse como destino de navegación hasta que el operador entregue el punto de encuentro. El trekking de gorilas de Ngaga es un producto distinto.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabon%20Loango%20National%20Park%20Elephant%20with%20offspring.jpeg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Gabon%20Loango%20National%20Park%20Elephant%20with%20offspring.jpeg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [],
+    "visit": {
+      "why": "Los bais permiten observar durante tiempo prolongado cómo distintas especies usan un claro forestal; complementan, no duplican, el trekking de gorilas.",
+      "see": "Elefantes, búfalos y sitatungas son posibles desde observatorios. Lokoué, Moba e Imbalanga son sectores distintos.",
+      "access": "African Parks publica visitas de día desde la puerta oriental, a unas dos horas de Ouesso, con Imbalanga al alcance. Exigir el punto de encuentro; la coordenada actual sigue siendo de área.",
+      "when": "Con actividad confirmada y suficiente tiempo de observación, idealmente al amanecer o tarde según indique el parque.",
+      "skip": "No navegar a la coordenada de área. Descartar si no se confirma qué bai se visita y desde qué puerta."
+    },
+    "links": [
+      {
+        "label": "Visitas de día · puerta oriental",
+        "url": "https://visitodzala-kokoua.org/day-visitors/"
+      }
+    ]
   },
   {
     "n": 7,
@@ -108,32 +221,67 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2–3 noches",
-    "lat": -4.2634,
-    "lon": 15.2429,
-    "desc": "Capital política y antigua capital de todo el África Ecuatorial Francesa, fundada por Pierre Savorgnan de Brazza en 1880 y capital simbólica de la Francia Libre durante la Segunda Guerra Mundial. Su hito es la Basílica de Santa Ana del Congo (1949, del arquitecto Roger Erell), art déco tropical de tejas verdes y bóveda parabólica de ladrillo, uno de los edificios más singulares de África central. Brazzaville es además la única base real del país para trámites: embajadas, bancos, talleres, recambios, supermercados y el gestor del ferry. Está a solo 4 km de Kinshasa: son las dos capitales nacionales más próximas del mundo.",
+    "lat": -4.2685818,
+    "lon": 15.2842988,
+    "desc": "Capital política y antigua capital del África Ecuatorial Francesa, fundada por Pierre Savorgnan de Brazza en 1880 y vinculada a la Francia Libre durante la Segunda Guerra Mundial. Su hito es la Basílica de Santa Ana del Congo, obra de Roger Erell inaugurada en 1949, con tejas verdes y gran bóveda de ladrillo. El pin marca la basílica real. Brazzaville es además la base principal del país para embajadas, bancos, talleres, recambios, supermercados y la gestión del ferry a Kinshasa.",
     "credit": "Henri van der Noot · CC BY-SA 4.0",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazzaville%20-%20Basilique%20Sainte-Anne-du-Congo.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Brazzaville%20-%20Basilique%20Sainte-Anne-du-Congo.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Brazzaville%20-%20Basilique%20Sainte-Anne-du-Congo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Brazzaville%20-%20Basilique%20Sainte-Anne-du-Congo.jpg",
+        "credit": "Henri van der Noot · CC BY-SA 4.0",
+        "caption": "Exterior de la basílica"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique%20Sainte-anne.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique%20Sainte-anne.jpg",
+        "credit": "Kani Beat · CC BY-SA 4.0",
+        "caption": "Bóveda y tejas verdes de Santa Ana"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique%20-%20Cloche%20pour%20les%20architectes%20et%20les%20entreprises.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique%20-%20Cloche%20pour%20les%20architectes%20et%20les%20entreprises.jpg",
+        "credit": "Giovanni Di Iorio · CC BY-SA 3.0",
+        "caption": "Campana dedicada a arquitectos y constructores"
+      }
+    ],
+    "visit": {
+      "why": "Une el principal hito arquitectónico de la capital con la base logística y diplomática necesaria antes del ferry a Kinshasa.",
+      "see": "Basílica de Santa Ana, centro y frente del Congo; seleccionar pocas paradas y reservar el resto del tiempo a trámites.",
+      "access": "La basílica tiene pin exacto. Para el resto, aparcar en recinto vigilado y evitar fotografiar Beach, puerto o edificios sensibles.",
+      "when": "Días laborables para gestor, embajadas y ferry; basílica con luz de mañana o tarde.",
+      "skip": "No añadir jornadas urbanas si el ferry y los vehículos ya están resueltos."
+    }
   },
   {
     "n": 8,
-    "name": "Corniche de Brazzaville y rápidos del Congo",
+    "name": "Rápidos del Djoué · acceso desde Brazzaville",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con correa",
     "time": "½ día",
-    "lat": -4.29,
-    "lon": 15.26,
-    "desc": "El paseo de la Corniche recorre la orilla del río Congo con Kinshasa enfrente y el Pool Malebo abierto aguas arriba; aguas abajo del centro empiezan los RÁPIDOS DEL CONGO (los rápidos de Livingstone), donde el segundo río del mundo por caudal se estrella contra la barrera rocosa y deja de ser navegable durante 350 km, el motivo geográfico que explica el ferrocarril Congo-Océan y toda la historia colonial de la zona. Se ven bien desde los miradores de Bacongo y desde la desembocadura del Djoué. ADVERTENCIA SERIA: el río es frontera internacional y está vigilado; fotografiar hacia la orilla, hacia el puerto o hacia el Beach provoca requisa de cámara o detención. Nada de drones, y preguntar antes de sacar la cámara.",
+    "lat": -4.2921831,
+    "lon": 15.243871,
+    "desc": "En la desembocadura del Djoué, aguas abajo del Pool Malebo, comienza el sistema de rápidos que interrumpe la navegación del bajo Congo y explica la construcción del ferrocarril Congo-Océan. El pin marca el acceso de referencia a los Rapides du Djoué, no toda la Corniche. La ribera es una zona fronteriza y sensible: no fotografiar instalaciones, puerto, Beach ni fuerzas de seguridad y no usar dron; pedir permiso antes de sacar la cámara.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:A%20view%20of%20Congo%20River%20from%20Kinshasa%2C%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [],
+    "visit": {
+      "why": "Explica físicamente por qué el Congo deja de ser navegable bajo el Pool Malebo y añade un paisaje fluvial fuerte muy cerca de la capital.",
+      "see": "Rápidos y roca en la desembocadura del Djoué; no es una catarata acondicionada.",
+      "access": "Usar el pin de acceso, pedir orientación local y mantener distancia al agua. Es zona sensible: cámara discreta y nada de dron.",
+      "when": "De día y con visibilidad; el caudal cambia el aspecto y el riesgo.",
+      "skip": "Descartar si hay controles, restricciones locales o agua demasiado alta para aproximarse con seguridad."
+    }
   },
   {
     "n": 9,
@@ -142,15 +290,23 @@
     "prio": "Alta",
     "dog": "permitido con correa",
     "time": "1 día",
-    "lat": -4.45,
-    "lon": 14.92,
-    "desc": "A unos 75 km al suroeste de Brazzaville, en el departamento del Pool, el río Loufoulakari se despeña unos 30 m sobre grandes losas de arenisca justo antes de entregarse al río Congo: el paseo de un día clásico de la capital y, con diferencia, la mejor excursión a pie corta del corredor de bajada. Acceso desde Nganga Lingolo por la RN2 en dirección a Linzolo, pasando Mbanza Ndounga (km 53) y Kimpandzou (km 63); el último tramo es pista, mejor con 4x4 y evitable en plena temporada de lluvias. Sin infraestructura turística consolidada: no hay taquilla fija y suele haber jóvenes del pueblo que ofrecen guía por propina. Se puede bajar a las losas y hay sombra para comer. Coordenada aproximada: confirmar sobre el terreno. Imagen de referencia del río Congo.",
+    "lat": -4.5835602,
+    "lon": 14.9858929,
+    "desc": "En el departamento del Pool, el Loufoulakari cae sobre grandes losas de arenisca cerca de su confluencia con el río Congo. Google Maps etiqueta este mismo lugar como «Chutes de Béla»; el pin se ha fijado en esa ficha exacta para evitar el desplazamiento anterior. El último tramo es pista y no hay infraestructura turística consolidada: confirmar acceso y guía local, evitar días de lluvia fuerte y extremar la precaución sobre roca mojada.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Congo%20River%20from%20Kinshasa%20in%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Congo%20River%20from%20Kinshasa%20in%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [],
+    "visit": {
+      "why": "Es el desvío natural más potente desde Brazzaville si se quiere paisaje fuera de la ciudad sin comprometer varios días.",
+      "see": "Caídas escalonadas sobre losas de arenisca; Google Maps usa también el nombre Chutes de Béla.",
+      "access": "Último tramo por pista, sin infraestructura consolidada. Pin exacto de la ficha de Maps, guía/contacto local y autonomía.",
+      "when": "Evitar tormenta y roca mojada; dedicar una jornada con margen de pista.",
+      "skip": "No intentarlo con lluvia fuerte, tarde o sin confirmación del acceso del día."
+    }
   },
   {
     "n": 10,
@@ -161,13 +317,14 @@
     "time": "½ día",
     "lat": -4.27,
     "lon": 15.275,
-    "desc": "Poto-Poto es el barrio popular histórico de la capital y la cuna de la Escuela de Pintura de Poto-Poto, fundada en 1951 por Pierre Lods, el movimiento artístico más conocido del África central francófona: el taller-galería sigue abierto y se pueden ver pintores trabajando. A pocos minutos, el Marché Total de Bacongo y el Marché Plateau son el mejor sitio del viaje para abastecerse de fruta, pescado ahumado y telas, y para cambiar dinero antes del ferry. Ir sin cámara a la vista, con lo justo en los bolsillos y sin el perro: son mercados densísimos. Imagen de referencia de Brazzaville.",
+    "desc": "Poto-Poto es un barrio histórico de la capital y sede de la Escuela de Pintura de Poto-Poto, fundada en 1951 por Pierre Lods; el taller-galería permite conocer una corriente artística influyente de África central. El Marché Total de Bacongo y el Marché Plateau ofrecen fruta, pescado ahumado, telas y compras previas al ferry. Son espacios densos: entrar con discreción, guardar cámara y objetos de valor y no llevar al perro.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique%20Sainte-anne.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Basilique%20Sainte-anne.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 11,
@@ -184,7 +341,8 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dolisie.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 12,
@@ -195,30 +353,32 @@
     "time": "2 noches",
     "lat": -4.7975,
     "lon": 11.8481,
-    "desc": "Capital económica, mayor puerto del país y la mejor oferta de talleres, recambios, supermercados y sanidad privada de todo el Congo — mejor incluso que Brazzaville en repuestos de automoción, por el sector petrolero. Playas urbanas (Côte Sauvage, Pointe Indienne) y ambiente muy distinto al del interior. Está a ~510 km de Brazzaville por la RN1 asfaltada: el desvío completo son unos 1.000 km ida y vuelta, es decir 4-5 días. Solo tiene sentido si hay que reparar algo serio, si se quiere ver la costa y Conkouati, o si se valora la alternativa de Cabinda.",
+    "desc": "Capital económica y principal puerto del país, con talleres, recambios, supermercados y sanidad privada ligados en parte al sector petrolero. Las playas urbanas de Côte Sauvage y Pointe Indienne ofrecen un ambiente muy distinto al del interior. Está a unos 510 km de Brazzaville por la RN1 asfaltada: el desvío completo ronda 1.000 km ida y vuelta y exige varios días. Tiene sentido si hay una reparación seria, si se quiere enlazar la costa con Conkouati o si se valora la alternativa de Cabinda; confirmar antes qué taller dispone realmente del repuesto necesario.",
     "credit": "David Stanley · CC BY 2.0",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pointe-Noire%20downtown.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Pointe-Noire%20downtown.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 13,
-    "name": "Garganta de Diosso y museo Ma Loango",
+    "name": "Museo Ma-Loango · Diosso",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "permitido con correa",
     "time": "½ día",
-    "lat": -4.6167,
-    "lon": 11.8833,
-    "desc": "A unos 25 km al norte de Pointe-Noire, el «gran cañón congoleño»: un anfiteatro de acantilados de arenisca roja y ocre erosionados sobre la vegetación tropical, con miradores al borde y senderos cortos. En el mismo pueblo de Diosso está el Museo Ma Loango, instalado en el antiguo palacio del rey del Loango, con la memoria del reino Vili y de la trata atlántica; Diosso fue capital del reino de Loango. Correa corta en los miradores: el borde no está protegido. Imagen de referencia de la costa-laguna de la región, no de la garganta.",
+    "lat": -4.6302157,
+    "lon": 11.8349857,
+    "desc": "El Museo Ma-Loango ocupa el antiguo palacio real de Diosso y presenta la historia del reino de Loango, la cultura vili y la trata atlántica. El pin marca exactamente el museo. La conocida garganta de Diosso es una visita paisajística cercana pero separada y debe navegarse con su propio acceso local; sus bordes de arenisca no están protegidos. Confirmar horarios del museo y preguntar antes de fotografiar piezas o ceremonias.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mayumba%20remorqueur%20lagune.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Mayumba%20remorqueur%20lagune.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 14,
@@ -227,15 +387,16 @@
     "prio": "Media",
     "dog": "prohibido — fauna y chimpancés",
     "time": "2–3 días",
-    "lat": -3.9167,
-    "lon": 11.4167,
-    "desc": "El parque más biodiverso del país y el único que junta océano, laguna, sabana y selva: playas de anidación de cinco especies de tortuga marina (laúd y olivácea entre ellas), manatíes africanos, delfines y ballenas jorobadas frente a la costa, y en el interior elefantes de bosque, búfalos, leopardos, chimpancés y gorilas. Gestionado con Noé y con el proyecto HELP Congo de rehabilitación de chimpancés en las islas de la laguna Conkouati. Está a ~150 km al norte de Pointe-Noire por la RN5 hacia la frontera gabonesa; los accesos interiores son pista. Candidato a Patrimonio Mundial (lista indicativa de la UNESCO). Tarifas y alojamiento, a confirmar con la oficina de enlace de Pointe-Noire (info.pncd@noe.org). Imagen de referencia: elefantes de bosque en la playa del Parque Nacional de Loango (Gabón), el parque hermano justo al norte, del mismo ecosistema costero.",
+    "lat": -3.8855555,
+    "lon": 11.5033333,
+    "desc": "Parque costero con océano, lagunas, sabana y selva. Protege playas de anidación de tortugas marinas y hábitats de manatíes, cetáceos y mamíferos de bosque, aunque ningún avistamiento está garantizado. La gestión cuenta con la organización Noé y en la laguna trabaja el proyecto HELP Congo de rehabilitación de chimpancés. Está a unos 150 km al norte de Pointe-Noire por la RN5 hacia Gabón; los accesos interiores son por pista. Figura en la Lista Indicativa de la UNESCO. Confirmar tarifas, guía, sector abierto y alojamiento con la oficina de enlace de Pointe-Noire (info.pncd@noe.org).",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabon%20Loango%20National%20Park%20Elephant%20with%20offspring.jpeg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Gabon%20Loango%20National%20Park%20Elephant%20with%20offspring.jpeg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 15,
@@ -246,13 +407,14 @@
     "time": "½ día",
     "lat": -4.2714,
     "lon": 15.2833,
-    "desc": "Los 510 km de vía entre Pointe-Noire y Brazzaville, construidos entre 1921 y 1934 para salvar los rápidos del Congo, son una de las obras más mortíferas de la historia colonial: se calcula que murieron más de 17.000 trabajadores africanos reclutados a la fuerza, y el escándalo lo denunciaron en su día André Gide y Albert Londres. Hoy sigue operando el tren «La Gazelle» entre las dos ciudades, con tramos espectaculares por el macizo del Mayombe, viaductos y túneles. Interés histórico de primer orden y una alternativa a considerar para hacer el desvío a Pointe-Noire SIN mover los vehículos (dejándolos en Brazzaville) si el calendario aprieta. Confirmar frecuencia y estado del servicio: ha sufrido interrupciones largas. Imagen de referencia de Pointe-Noire, terminal atlántica de la línea.",
+    "desc": "Los 510 km de vía entre Pointe-Noire y Brazzaville, construidos entre 1921 y 1934 para salvar los rápidos del Congo, son una de las obras más mortíferas de la historia colonial: se calcula que murieron más de 17.000 trabajadores africanos reclutados a la fuerza, y el escándalo lo denunciaron en su día André Gide y Albert Londres. Hoy sigue operando el tren «La Gazelle» entre las dos ciudades, con tramos espectaculares por el macizo del Mayombe, viaductos y túneles. Interés histórico de primer orden y una alternativa a considerar para hacer el desvío a Pointe-Noire SIN mover los vehículos (dejándolos en Brazzaville) si el calendario aprieta. Confirmar frecuencia y estado del servicio: ha sufrido interrupciones largas.",
     "credit": "David Stanley · CC BY 2.0",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pointe-Noire%20downtown.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Pointe-Noire%20downtown.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 16,
@@ -261,48 +423,58 @@
     "prio": "Alta",
     "dog": "prohibido — riesgo sanitario para los simios",
     "time": "1–2 días",
-    "lat": -3.2333,
-    "lon": 15.4667,
-    "desc": "A unas 3-4 horas al norte de Brazzaville por la RN2, en el borde de las mesetas Batéké y dentro del complejo de la reserva de la Léfini, la Fundación Aspinall gestiona desde los años noventa un santuario donde se rehabilitan y liberan GORILAS DE LLANURA OCCIDENTAL huérfanos del tráfico. Paisaje insólito para el Congo: sabana ondulada, arena blanca y galerías de bosque a lo largo de los ríos Lésio y Louna. Es la opción de gorilas de la SUBIDA —mucho más corta y barata que Odzala— pero hay que entenderla por lo que es: animales reintroducidos en un programa de conservación, no un trekking en selva virgen. Acceso en 4x4 desde la RN2; confirmar tasas y si admiten visita sin reserva previa. Coordenada aproximada. Imagen de referencia de la especie.",
+    "lat": -3.2763777,
+    "lon": 15.4771084,
+    "desc": "En el borde de las mesetas Batéké y dentro del complejo de la reserva de la Léfini, el proyecto de Lésio-Louna rehabilita y reintroduce gorilas de llanura occidental. Es una experiencia de conservación con animales reintroducidos, no un avistamiento libre ni una alternativa equivalente a Odzala. El pin corresponde a la reserva en Google Maps; confirmar por escrito acceso, tasas, punto de encuentro y disponibilidad de visita antes de desviarse de la RN2.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20lowland%20gorilla%20(Gorilla%20gorilla%20gorilla).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Western%20lowland%20gorilla%20(Gorilla%20gorilla%20gorilla).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": [],
+    "visit": {
+      "why": "Permite entender un proyecto de rehabilitación y reintroducción de gorilas cerca del eje RN2, sin presentarlo como safari convencional.",
+      "see": "Trabajo de conservación y animales reintroducidos; la experiencia y los recintos disponibles dependen del programa.",
+      "access": "Confirmar por escrito punto de encuentro, horario y modalidad. El pin identifica la reserva, no garantiza una puerta abierta.",
+      "when": "Solo con cita confirmada y plan de cuidado del perro fuera.",
+      "skip": "Descartarlo si se busca fauna completamente libre o si no hay respuesta oficial previa."
+    }
   },
   {
     "n": 17,
-    "name": "Mesetas Batéké · Djambala y Lékana",
+    "name": "Djambala · puerta de las mesetas Batéké",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido",
     "time": "1–2 días",
-    "lat": -2.5333,
-    "lon": 14.75,
-    "desc": "El Congo que nadie espera: en vez de selva cerrada, 500 km de altiplano de arena blanca a 700-800 m, sabana herbácea, cañones de erosión y bosques-galería encajados, con un clima notablemente más fresco. Djambala es la capital departamental de Plateaux y Lékana el paso hacia Okoyo; la carretera Brazzaville–Ngo–Djambala–Lékana–Okoyo es la alternativa real a la RN2 para subir hacia el norte, y por eso es nuestro corredor de subida. Del otro lado de la frontera, en Gabón, el paisaje continúa en el Parque Nacional de los Plateaux Batéké; en el lado congoleño el nuevo Parque Nacional de Ogooué-Leketi (creado en 2018, ~3.500 km²) protege el mismo ecosistema y una población de gorilas y elefantes de bosque, aunque todavía sin turismo organizado: confirmar si en 2027 tiene acceso abierto. Imagen de referencia del río Congo, que bordea las mesetas.",
+    "lat": -2.5398781,
+    "lon": 14.7550108,
+    "desc": "El Congo que nadie espera: en vez de selva cerrada, 500 km de altiplano de arena blanca a 700-800 m, sabana herbácea, cañones de erosión y bosques-galería encajados, con un clima notablemente más fresco. Djambala es la capital departamental de Plateaux y Lékana el paso hacia Okoyo; la carretera Brazzaville–Ngo–Djambala–Lékana–Okoyo es la alternativa real a la RN2 para subir hacia el norte, y por eso es nuestro corredor de subida. Del otro lado de la frontera, en Gabón, el paisaje continúa en el Parque Nacional de los Plateaux Batéké; en el lado congoleño el nuevo Parque Nacional de Ogooué-Leketi (creado en 2018, ~3.500 km²) protege el mismo ecosistema y una población de gorilas y elefantes de bosque, aunque todavía sin turismo organizado: confirmar si en 2027 tiene acceso abierto.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Congo%20River%20from%20Kinshasa%20in%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Congo%20River%20from%20Kinshasa%20in%20Democratic%20Republic%20of%20the%20Congo%20(DRC).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   },
   {
     "n": 18,
-    "name": "Owando y Makoua · la línea del Ecuador",
+    "name": "Monumento del Ecuador · Makoua",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": 0.0036,
-    "lon": 15.6333,
-    "desc": "Owando (antigua Fort-Rousset), capital de la Cuvette, es la única plaza con servicios reales entre Brazzaville y Ouesso: combustible, hospital, mercado y hoteles sencillos. Ochenta kilómetros al norte, Makoua está justo sobre la LÍNEA DEL ECUADOR, con un monumento junto a la carretera donde se cruza el paralelo cero: la foto obligada del tramo y el punto en el que el viaje pasa oficialmente al hemisferio norte en la subida. Makoua conserva además el campanario de la antigua misión. Es también el desvío hacia Obouya, Ewo y Etoumbi, es decir, la puerta de Odzala desde el sur.",
+    "lat": 0.0004375,
+    "lon": 15.6297342,
+    "desc": "Makoua se encuentra sobre la línea del Ecuador y conserva un monumento junto a la carretera en el cruce del paralelo cero. El pin marca exactamente ese monumento y ya no mezcla en una sola coordenada la ciudad de Owando, situada unos 80 km al sur. Owando sigue siendo la principal plaza de servicios intermedia de la RN2, mientras Makoua da acceso a los desvíos hacia Obouya, Ewo y Etoumbi.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Makoua%20(Republic%20of%20the%20Congo)%20-%20Former%20bell%20tower.JPG?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Makoua%20(Republic%20of%20the%20Congo)%20-%20Former%20bell%20tower.JPG",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "photos": []
   }
 ]

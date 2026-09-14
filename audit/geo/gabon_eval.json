@@ -1,0 +1,1358 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Cocobeach y el estuario del Muni",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 0.9833,
+  "lon": 9.5667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cocobeach",
+   "kind": "place=town",
+   "lat": 1.00557,
+   "lon": 9.58421,
+   "d": 3.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cocobeach",
+    "kind": "place=town",
+    "lat": 1.00557,
+    "lon": 9.58421,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Barcos a Cocobeach y Acalayong",
+    "kind": "leisure=slipway",
+    "lat": 1.08291,
+    "lon": 9.69339,
+    "d": 17.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Barcos a Cocobeach y Acalayong",
+    "kind": "amenity=ferry_terminal",
+    "lat": 1.08291,
+    "lon": 9.69339,
+    "d": 17.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Monts de Cristal (Parque Nacional)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 0.5,
+  "lon": 10.3333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Base vie des monts de cristal",
+   "kind": "landuse=residential",
+   "lat": 0.45318,
+   "lon": 10.27797,
+   "d": 8.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National des Monts de Cristal",
+    "kind": "boundary=national_park",
+    "lat": 0.85078,
+    "lon": 10.20621,
+    "d": 41.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Base vie des monts de cristal",
+    "kind": "landuse=residential",
+    "lat": 0.45318,
+    "lon": 10.27797,
+    "d": 8.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Parque Nacional de Akanda",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 0.6167,
+  "lon": 9.55,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Parque Nacional de Monte Alén",
+   "kind": "leisure=nature_reserve",
+   "lat": 1.47869,
+   "lon": 10.12245,
+   "d": 115.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Monte Alén",
+    "kind": "leisure=nature_reserve",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 115.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Monte Alén",
+    "kind": "boundary=national_park",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 115.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Los Altos de Nsork",
+    "kind": "leisure=nature_reserve",
+    "lat": 1.20104,
+    "lon": 11.14797,
+    "d": 189.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Libreville",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 0.4162,
+  "lon": 9.4673,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Libreville",
+   "kind": "place=city",
+   "lat": 0.40865,
+   "lon": 9.44188,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Libreville",
+    "kind": "place=city",
+    "lat": 0.40865,
+    "lon": 9.44188,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Libreville",
+    "kind": "boundary=administrative",
+    "lat": 0.45258,
+    "lon": 9.45917,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport International Léon Mba",
+    "kind": "aeroway=aerodrome",
+    "lat": 0.46202,
+    "lon": 9.41131,
+    "d": 8.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Parque Nacional de Pongara y Pointe Denis",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -0.35,
+  "lon": 9.33,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Parc national de Pongara",
+   "kind": "tourism=attraction",
+   "lat": 0.12453,
+   "lon": 9.53905,
+   "d": 57.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National de Pongara",
+    "kind": "boundary=national_park",
+    "lat": 0.1433,
+    "lon": 9.70369,
+    "d": 68.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc national de Pongara",
+    "kind": "tourism=attraction",
+    "lat": 0.12453,
+    "lon": 9.53905,
+    "d": 57.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National de Pongara",
+    "kind": "leisure=nature_reserve",
+    "lat": 0.1433,
+    "lon": 9.70369,
+    "d": 68.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Parque Nacional de la Lopé (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": -0.2,
+  "lon": 11.5833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "La Lopé",
+   "kind": "place=village",
+   "lat": -0.10675,
+   "lon": 11.61106,
+   "d": 10.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lope",
+    "kind": "boundary=administrative",
+    "lat": -0.06402,
+    "lon": 11.90517,
+    "d": 38.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc national de la Lopé",
+    "kind": "boundary=national_park",
+    "lat": -0.57068,
+    "lon": 11.55605,
+    "d": 41.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "La Lopé",
+    "kind": "place=village",
+    "lat": -0.10675,
+    "lon": 11.61106,
+    "d": 10.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "El tren Transgabonés (Owendo → Franceville)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 0.29,
+  "lon": 9.5,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Transgabonaise",
+   "kind": "highway=trunk",
+   "lat": 0.40202,
+   "lon": 9.51187,
+   "d": 12.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Transgabonaise",
+    "kind": "highway=trunk",
+    "lat": 0.40202,
+    "lon": 9.51187,
+    "d": 12.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Parque Nacional de Ivindo (UNESCO) y las cataratas de Kongou",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 0.2907,
+  "lon": 12.5891,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Parque Nacional de Los Altos de Nsork",
+   "kind": "leisure=nature_reserve",
+   "lat": 1.20104,
+   "lon": 11.14797,
+   "d": 189.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Los Altos de Nsork",
+    "kind": "leisure=nature_reserve",
+    "lat": 1.20104,
+    "lon": 11.14797,
+    "d": 189.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Los Altos de Nsork",
+    "kind": "boundary=national_park",
+    "lat": 1.20104,
+    "lon": 11.14797,
+    "d": 189.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Monte Alén",
+    "kind": "leisure=nature_reserve",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 304.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Makokou",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 0.5667,
+  "lon": 12.8667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Makokou",
+   "kind": "city",
+   "lat": 0.56667,
+   "lon": 12.86667,
+   "d": 0.0,
+   "match": true,
+   "id": "Q1002583"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Makokou",
+    "kind": "place=city",
+    "lat": 0.56191,
+    "lon": 12.8525,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Makokou",
+    "kind": "aeroway=aerodrome",
+    "lat": 0.57962,
+    "lon": 12.89079,
+    "d": 3.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "",
+    "kind": "amenity=bus_station",
+    "lat": 0.55929,
+    "lon": 12.85561,
+    "d": 1.5,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Makokou",
+    "kind": "city",
+    "lat": 0.56667,
+    "lon": 12.86667,
+    "d": 0.0,
+    "match": true,
+    "id": "Q1002583"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Lastourville y sus grutas",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -0.8167,
+  "lon": 12.3667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Aéroport de Lastourville",
+   "kind": "aeroway=aerodrome",
+   "lat": -0.82576,
+   "lon": 12.74697,
+   "d": 42.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lastourville",
+    "kind": "railway=station",
+    "lat": -0.7936,
+    "lon": 12.77419,
+    "d": 45.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Lastourville",
+    "kind": "aeroway=aerodrome",
+    "lat": -0.82576,
+    "lon": 12.74697,
+    "d": 42.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lastoursville",
+    "kind": "place=city",
+    "lat": -0.81044,
+    "lon": 12.73038,
+    "d": 40.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Franceville",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -1.6333,
+  "lon": 13.5833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Franceville",
+   "kind": "place=city",
+   "lat": -1.6344,
+   "lon": 13.58948,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Franceville",
+    "kind": "place=city",
+    "lat": -1.6344,
+    "lon": 13.58948,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Franceville",
+    "kind": "railway=station",
+    "lat": -1.64033,
+    "lon": 13.57239,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport international M'Vengue El Hadj Omar Bongo Ondimba",
+    "kind": "aeroway=aerodrome",
+    "lat": -1.6558,
+    "lon": 13.43841,
+    "d": 16.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Léconi · los cañones rojos de las mesetas Batéké",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -1.5833,
+  "lon": 14.2333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Parc de Léconi (main entrance)",
+   "kind": "amenity=ranger_station",
+   "lat": -1.42347,
+   "lon": 14.28082,
+   "d": 18.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lékoni",
+    "kind": "place=city",
+    "lat": -1.58465,
+    "lon": 14.26508,
+    "d": 3.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Leconi",
+    "kind": "place=hamlet",
+    "lat": -1.63969,
+    "lon": 13.59499,
+    "d": 71.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc de Léconi (main entrance)",
+    "kind": "amenity=ranger_station",
+    "lat": -1.42347,
+    "lon": 14.28082,
+    "d": 18.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Parque Nacional de las Mesetas Batéké",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -2.2,
+  "lon": 13.9,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Lambaréné y el hospital de Albert Schweitzer",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -0.7,
+  "lon": 10.2333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lambaréné",
+   "kind": "historic=city_gate",
+   "lat": -0.70125,
+   "lon": 10.24028,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lambaréné",
+    "kind": "place=city",
+    "lat": -0.69426,
+    "lon": 10.22365,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lambaréné",
+    "kind": "historic=city_gate",
+    "lat": -0.70125,
+    "lon": 10.24028,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Lambaréné",
+    "kind": "aeroway=aerodrome",
+    "lat": -0.70455,
+    "lon": 10.24427,
+    "d": 1.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Laguna Fernan Vaz y la misión de Sainte-Anne",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -1.5925,
+  "lon": 9.4292,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lagune Fernan Vaz",
+   "kind": "water=lagoon",
+   "lat": -1.61399,
+   "lon": 9.40953,
+   "d": 3.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lagune Fernan Vaz",
+    "kind": "water=lagoon",
+    "lat": -1.61399,
+    "lon": 9.40953,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mission Sainte-Anne du Fernan-Vaz",
+    "kind": "amenity=place_of_worship",
+    "lat": -1.6423,
+    "lon": 9.40104,
+    "d": 6.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Projet Gorille Fernan-Vaz",
+    "kind": "office=ngo",
+    "lat": -1.65754,
+    "lon": 9.32558,
+    "d": 13.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Parque Nacional de Loango",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -1.95,
+  "lon": 9.55,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Parc national de Loango",
+   "kind": "tourism=attraction",
+   "lat": -2.16667,
+   "lon": 9.56667,
+   "d": 24.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc national de Loango",
+    "kind": "tourism=attraction",
+    "lat": -2.16667,
+    "lon": 9.56667,
+    "d": 24.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National de Loango",
+    "kind": "leisure=nature_reserve",
+    "lat": -2.17072,
+    "lon": 9.61022,
+    "d": 25.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National de Loango",
+    "kind": "boundary=national_park",
+    "lat": -2.17072,
+    "lon": 9.61022,
+    "d": 25.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Port-Gentil y el cabo Lopez",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -0.7167,
+  "lon": 8.7833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Port-Gentil",
+   "kind": "place=city",
+   "lat": -0.7152,
+   "lon": 8.77879,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Port-Gentil",
+    "kind": "place=city",
+    "lat": -0.7152,
+    "lon": 8.77879,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport international de Port-Gentil",
+    "kind": "aeroway=aerodrome",
+    "lat": -0.71437,
+    "lon": 8.75318,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Stade de Port-Gentil",
+    "kind": "leisure=stadium",
+    "lat": -0.80509,
+    "lon": 8.80374,
+    "d": 10.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Parque Nacional de Moukalaba-Doudou",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -2.4333,
+  "lon": 10.4167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Parc National de Moukalaba-Doudou",
+   "kind": "leisure=nature_reserve",
+   "lat": -2.54716,
+   "lon": 10.40858,
+   "d": 12.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National de Moukalaba-Doudou",
+    "kind": "leisure=nature_reserve",
+    "lat": -2.54716,
+    "lon": 10.40858,
+    "d": 12.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National de Moukalaba-Doudou",
+    "kind": "boundary=national_park",
+    "lat": -2.54716,
+    "lon": 10.40858,
+    "d": 12.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Parque Nacional de Mayumba y las tortugas laúd",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -3.4167,
+  "lon": 10.65,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Parc National de Mayumba",
+   "kind": "boundary=national_park",
+   "lat": -3.81114,
+   "lon": 10.94609,
+   "d": 54.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National de Mayumba",
+    "kind": "boundary=national_park",
+    "lat": -3.81114,
+    "lon": 10.94609,
+    "d": 54.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Monte Alén",
+    "kind": "leisure=nature_reserve",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 547.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional de Monte Alén",
+    "kind": "boundary=national_park",
+    "lat": 1.47869,
+    "lon": 10.12245,
+    "d": 547.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Eboro/Abang-Minko'o, cerca de Bitam (desde Camerún)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 2.0833,
+  "lon": 11.4833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Eboro",
+   "kind": "place=village",
+   "lat": 2.28392,
+   "lon": 11.45132,
+   "d": 22.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Eboro",
+    "kind": "place=village",
+    "lat": 2.28392,
+    "lon": 11.45132,
+    "d": 22.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pont d'Eboro",
+    "kind": "highway=trunk",
+    "lat": 2.29154,
+    "lon": 11.44667,
+    "d": 23.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pont d'Eboro",
+    "kind": "highway=trunk",
+    "lat": 2.29239,
+    "lon": 11.44656,
+    "d": 23.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida — Doussala/Ndendé (hacia Congo-Brazzaville)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -2.8333,
+  "lon": 10.9167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Doussala",
+   "kind": "place=village",
+   "lat": -2.33733,
+   "lon": 10.59208,
+   "d": 65.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Doussala",
+    "kind": "place=village",
+    "lat": -2.33733,
+    "lon": 10.59208,
+    "d": 65.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Doussala",
+    "kind": "place=village",
+    "lat": -2.65769,
+    "lon": 11.58787,
+    "d": 77.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Doussala",
+    "kind": "place=village",
+    "lat": -2.63313,
+    "lon": 11.63317,
+    "d": 82.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida este — hacia Okoyo (Congo), por Léconi",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -1.65,
+  "lon": 14.4,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Okoyo",
+   "kind": "boundary=administrative",
+   "lat": -1.54165,
+   "lon": 14.76035,
+   "d": 41.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Okoyo",
+    "kind": "boundary=administrative",
+    "lat": -1.54165,
+    "lon": 14.76035,
+    "d": 41.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ikoy",
+    "kind": "waterway=river",
+    "lat": -0.96014,
+    "lon": 11.15852,
+    "d": 368.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "AVENUE DU QUARTIER OKOYO",
+    "kind": "highway=residential",
+    "lat": -0.86881,
+    "lon": 14.8222,
+    "d": 98.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Embajada de Gabón en Madrid (y consulados de Barcelona y Bilbao)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 40.4168,
+  "lon": -3.7038,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Ambassade des États-Unis",
+   "kind": "office=diplomatic",
+   "lat": 0.48394,
+   "lon": 9.39452,
+   "d": 4633.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ambassade des États-Unis",
+    "kind": "office=diplomatic",
+    "lat": 0.48394,
+    "lon": 9.39452,
+    "d": 4633.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ambassade de la République fédérale d'Allemagne",
+    "kind": "office=diplomatic",
+    "lat": 0.38423,
+    "lon": 9.44546,
+    "d": 4645.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embassy of Nigeria",
+    "kind": "office=diplomatic",
+    "lat": 0.42199,
+    "lon": 9.44267,
+    "d": 4641.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Embajada de España en Libreville",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 0.3936,
+  "lon": 9.455,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Ambassade d'Espagne",
+   "kind": "office=diplomatic",
+   "lat": 0.38956,
+   "lon": 9.4433,
+   "d": 1.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ambassade d'Espagne",
+    "kind": "office=diplomatic",
+    "lat": 0.38956,
+    "lon": 9.4433,
+    "d": 1.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Centre Hospitalier Universitaire de Libreville",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 0.4247,
+  "lon": 9.4142,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Centre Hospitalier Universitaire de Libreville",
+   "kind": "amenity=hospital",
+   "lat": 0.3921,
+   "lon": 9.44826,
+   "d": 5.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Universitaire de Libreville",
+    "kind": "amenity=hospital",
+    "lat": 0.3921,
+    "lon": 9.44826,
+    "d": 5.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Universitaire d'Angondjé",
+    "kind": "amenity=hospital",
+    "lat": 0.51742,
+    "lon": 9.4048,
+    "d": 10.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "CIRMF · Franceville (referencia sanitaria del este)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -1.6333,
+  "lon": 13.5833,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Libreville",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 0.4162,
+  "lon": 9.4673,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Libreville",
+   "kind": "place=city",
+   "lat": 0.40865,
+   "lon": 9.44188,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Libreville",
+    "kind": "place=city",
+    "lat": 0.40865,
+    "lon": 9.44188,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Libreville",
+    "kind": "boundary=administrative",
+    "lat": 0.45258,
+    "lon": 9.45917,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport International Léon Mba",
+    "kind": "aeroway=aerodrome",
+    "lat": 0.46202,
+    "lon": 9.41131,
+    "d": 8.0,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Libreville",
+    "kind": "capital de Gabón y de la provincia de Estuaire",
+    "lat": 0.40778,
+    "lon": 9.44028,
+    "d": 3.1,
+    "match": true,
+    "id": "Q3825"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · Lambaréné / Mouila / Ndendé (eje sur, N1)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -0.7,
+  "lon": 10.2333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lambaréné",
+   "kind": "historic=city_gate",
+   "lat": -0.70125,
+   "lon": 10.24028,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lambaréné",
+    "kind": "place=city",
+    "lat": -0.69426,
+    "lon": 10.22365,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lambaréné",
+    "kind": "historic=city_gate",
+    "lat": -0.70125,
+    "lon": 10.24028,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Lambaréné",
+    "kind": "aeroway=aerodrome",
+    "lat": -0.70455,
+    "lon": 10.24427,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Lambaréné",
+    "kind": "ciudad de Gabón",
+    "lat": -0.68833,
+    "lon": 10.23194,
+    "d": 1.3,
+    "match": true,
+    "id": "Q874197"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Makokou / Franceville (eje este)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -1.6333,
+  "lon": 13.5833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Makokou",
+   "kind": "place=city",
+   "lat": 0.56191,
+   "lon": 12.8525,
+   "d": 257.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Makokou",
+    "kind": "place=city",
+    "lat": 0.56191,
+    "lon": 12.8525,
+    "d": 257.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport de Makokou",
+    "kind": "aeroway=aerodrome",
+    "lat": 0.57962,
+    "lon": 12.89079,
+    "d": 257.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "",
+    "kind": "amenity=bus_station",
+    "lat": 0.55929,
+    "lon": 12.85561,
+    "d": 256.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Makokou",
+    "kind": "city",
+    "lat": 0.56667,
+    "lon": 12.86667,
+    "d": 257.3,
+    "match": true,
+    "id": "Q1002583"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Agua potable y de uso general · Libreville",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 0.4162,
+  "lon": 9.4673,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Libreville",
+   "kind": "place=city",
+   "lat": 0.40865,
+   "lon": 9.44188,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Libreville",
+    "kind": "place=city",
+    "lat": 0.40865,
+    "lon": 9.44188,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Libreville",
+    "kind": "boundary=administrative",
+    "lat": 0.45258,
+    "lon": 9.45917,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aéroport International Léon Mba",
+    "kind": "aeroway=aerodrome",
+    "lat": 0.46202,
+    "lon": 9.41131,
+    "d": 8.0,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Libreville",
+    "kind": "capital de Gabón y de la provincia de Estuaire",
+    "lat": 0.40778,
+    "lon": 9.44028,
+    "d": 3.1,
+    "match": true,
+    "id": "Q3825"
+   }
+  ]
+ }
+]
