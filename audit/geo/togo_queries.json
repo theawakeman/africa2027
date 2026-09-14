@@ -1,0 +1,526 @@
+{
+ "slug": "togo",
+ "bbox": [
+  -0.5,
+  5.7,
+  2.1999999999999997,
+  11.5
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Lomé · Grand Marché y Catedral del Sagrado Corazón",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 6.1319,
+   "lon": 1.2228,
+   "desc": "Capital y única gran base logística del país: puerto, aeropuerto internacional, talleres, supermercados y bancos. El Grand Marché —dominado históricamente por las «Nana Benz», las comerciantes textile",
+   "q": [
+    "Grand Marché Lomé",
+    "Sacred Heart Cathedral Lomé"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Mercado de fetiches de Akodessewa (Marché des féticheurs)",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 6.145,
+   "lon": 1.283,
+   "desc": "El MAYOR MERCADO VUDÚ DEL MUNDO, en el barrio de Akodessewa, al este del centro de Lomé: un patio abierto donde se venden cráneos y cabezas de mono, pieles de leopardo, cocodrilos disecados, aves, pla",
+   "q": [
+    "Akodessewa Fetish Market Lomé"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Lomé alemán · Palais de Lomé y arquitectura colonial",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 6.13,
+   "lon": 1.215,
+   "desc": "Togo fue la «colonia modelo» del imperio alemán (1884-1914) y Lomé conserva de aquella etapa el antiguo Palacio de los Gobernadores —hoy Palais de Lomé, reabierto como centro cultural con jardín de 11",
+   "q": [
+    "Palais de Lomé"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Playas del este de Lomé (Baguida y Coco Beach)",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 6.175,
+   "lon": 1.33,
+   "desc": "La franja de cocoteros entre Lomé y Agbodrafo, con alojamientos y campings sencillos junto a la arena (Coco Beach, Baguida, Avépozo) donde el perro no suele ser problema y se puede aparcar el vehículo",
+   "q": [
+    "Baguida Beach Togo",
+    "Coco Beach Lomé"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Agbodrafo y el lago Togo (Maison des Esclaves de Wood Home)",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 6.2167,
+   "lon": 1.4333,
+   "desc": "Antigua Porto Seguro portuguesa, hoy embarcadero principal del lago Togo: laguna de agua dulce separada del Atlántico por un cordón de arena, sin corrientes, buena para deportes de vela. Conserva la M",
+   "q": [
+    "Maison des Esclaves Agbodrafo",
+    "Maison Wood Agbodrafo"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Togoville",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 6.2333,
+   "lon": 1.45,
+   "desc": "Al otro lado del lago: el pueblo donde el rey Mlapa III firmó en 1884 el tratado de protectorado con Gustav Nachtigal que dio nombre al país. Es uno de los grandes centros del vudú togolés y a la vez ",
+   "q": [
+    "Togoville"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Aného y Glidji",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 6.2333,
+   "lon": 1.6,
+   "desc": "Primera capital del Togo colonial (la Klein Popo alemana), con arquitectura afro-brasileña y afro-portuguesa levantada por los agudás —descendientes de esclavos retornados de Brasil— y varias casas co",
+   "q": [
+    "Aného y Glidji",
+    "Aného",
+    "Glidji"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Kara",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 9.5511,
+   "lon": 1.1861,
+   "desc": "Segunda capital administrativa del país, a 412 km de Lomé, y única base logística real del norte: combustible, talleres, hospital regional (CHU Kara), hoteles con aparcamiento y mercado. Ciudad natal ",
+   "q": [
+    "Kara"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Reserva de fauna de Sarakawa",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 9.63,
+   "lon": 1.17,
+   "desc": "1.500 ha valladas a unos 15 km al norte de Kara, con búfalos, bubales, cobos de Buffon, hipotragos y especies introducidas (cebras, avestruces). Según la web oficial de turismo togolesa es HOY EL PARQ",
+   "q": [
+    "Réserve de faune de Sarakawa Togo"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Koutammakou · el país de los batammariba (UNESCO) — CONDICIONADO A SEGURIDAD",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 10.067,
+   "lon": 1.133,
+   "desc": "2.718 km² de paisaje cultural vivo en la prefectura de Kéran, al noroeste de Kandé, Patrimonio Mundial desde 2004 y ampliado al lado beninés en 2023. Los batammariba («los que modelan bien la tierra»)",
+   "q": [
+    "Koutammakou Togo"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Falla de Aledjo y los tejedores de Bafilo",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 9.2333,
+   "lon": 1.1667,
+   "desc": "La FAILLE D'ALEDJO es el tajo abierto en la cadena de Aledjo para dejar pasar la carretera nacional N1: un corte vertical en la roca de decenas de metros por el que el asfalto se cuela entre dos pared",
+   "q": [
+    "Faille d'Aledjo Togo",
+    "Aledjo Togo"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Sokodé",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 8.9833,
+   "lon": 1.1333,
+   "desc": "Segunda ciudad del país por población y capital de la región Central, en pleno eje N1: combustible, mercado, hospital regional y hoteles con aparcamiento. Ciudad tem (kotokoli), mayoritariamente musul",
+   "q": [
+    "Sokodé"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Bassar · sitios de la metalurgia antigua del hierro",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": 9.283,
+   "lon": 0.8,
+   "desc": "En la lista indicativa de la UNESCO desde diciembre de 2021: un conjunto repartido por quince aldeas (Tabalé, Bandjéli, Nangbani…) con un centenar de hornos de reducción todavía en pie, escoriales de ",
+   "q": [
+    "Bassar",
+    "Bassar · sitios de la metalurgia antigua del hierro"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Parque Nacional de Fazao-Malfakassa",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 8.95,
+   "lon": 0.75,
+   "desc": "Con unos 1.920-2.000 km² es el mayor espacio protegido de Togo, a caballo entre las regiones Central y de Kara, sobre la cadena de Fazao-Malfakassa: bosque de galería, sabana arbolada y escarpes con m",
+   "q": [
+    "Parc national de Fazao-Malfakassa"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Cascada de Akloa (Badou)",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 7.5833,
+   "lon": 0.6,
+   "desc": "Salto de unos 35-60 m escondido en la selva del macizo del Litimé, la zona cacaotera y cafetera del suroeste, a unos 8 km de Badou. Se llega por un sendero de unos 45 minutos de subida entre plantacio",
+   "q": [
+    "Cascade d'Akloa Badou"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Kpalimé",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 6.9,
+   "lon": 0.6333,
+   "desc": "A 120 km al noroeste de Lomé, en plena montaña cafetera y cacaotera: la ciudad más agradable del país para pasar varios días, con clima fresco por altitud, catedral gótica alemana de 1913, un centro a",
+   "q": [
+    "Kpalimé"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Cascadas de Womé y Kpimé",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 6.9667,
+   "lon": 0.6333,
+   "desc": "Las dos cascadas clásicas de Kpalimé. WOMÉ, a 12 km al norte, es la más bonita y de acceso más natural: caminata corta desde la aldea, poza de baño, tasa comunitaria y guía local. KPIMÉ, de unos 35-50",
+   "q": [
+    "Cascade de Womé Togo",
+    "Cascade de Kpimé Togo"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Monte Klouto, Château Viale y el valle de los murciélagos",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 6.95,
+   "lon": 0.57,
+   "desc": "A 12 km de Kpalimé y 710 m de altitud, la meseta de Klouto conserva el bosque más denso de Togo, con más de 1.000 especies de mariposas catalogadas (los guías de Kpalimé organizan salidas específicas ",
+   "q": [
+    "Mont Kloto Togo",
+    "Château Viale Togo"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Monte Agou (Pic Baumann, 986 m) · techo de Togo",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 6.875,
+   "lon": 0.68,
+   "desc": "EL PUNTO MÁS ALTO DEL PAÍS (986 m según la cartografía oficial togolesa; algunas fuentes de altimetría dan 993 m) y LA gran excursión a pie de Togo. Una carretera estrecha y muy revirada sube casi has",
+   "q": [
+    "Mont Agou Togo",
+    "Pic Baumann Togo"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada bajada — Aflao/Kodjoviakopé (desde Ghana)",
+   "cat": "Frontera",
+   "lat": 6.1167,
+   "lon": 1.2,
+   "desc": "Paso urbano integrado en la conurbación Aflao-Lomé, el más transitado de todo el golfo de Guinea occidental; menos de 1 km entre ambos puestos y a 5 km del centro de Lomé. Horario aproximado 06:00-18:",
+   "q": [
+    "Aflao",
+    "Kodjoviakopé",
+    "Ghana"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida bajada — Hillacondji/Sanvee-Condji (hacia Benín)",
+   "cat": "Frontera",
+   "lat": 6.1667,
+   "lon": 1.6333,
+   "desc": "Puesto conjunto (yuxtapuesto) Togo-Benín a unos 21 km de Lomé, con los dos países tramitando en la misma instalación. Cruzar por la mañana: el tráfico comercial satura el mediodía.",
+   "q": [
+    "Hillacondji",
+    "Sanvee-Condji",
+    "Benín"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada subida — Ouaké (desde Benín, eje Djougou-Kara)",
+   "cat": "Frontera",
+   "lat": 9.6719,
+   "lon": 1.3637,
+   "desc": "Paso del eje Djougou-Kara, a 37 km de Djougou; según la evaluación logística del Logistics Cluster opera 24/7 salvo festivos nacionales de Benín, y exige seguro CEDEAO y laissez-passer del vehículo. E",
+   "q": [
+    "Ouaké",
+    "Benín",
+    "Djougou-Kara"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Alternativa subida — Tohoun/Azovè (desde Benín, eje central)",
+   "cat": "Frontera",
+   "lat": 7.0,
+   "lon": 1.6,
+   "desc": "Paso interior mucho más al sur, sobre el eje Notsé-Azovè, fuera por completo de cualquier zona de riesgo; alternativa si la situación del norte desaconseja entrar por Ouaké. Coordenada aproximada, por",
+   "q": [
+    "Tohoun",
+    "Azovè",
+    "Benín"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Salida subida — Wli/Kpalimé (hacia Ghana, región del Volta)",
+   "cat": "Frontera",
+   "lat": 7.12,
+   "lon": 0.59,
+   "desc": "Paso menor de montaña junto a las cataratas de Wli (Ghana), la ruta más corta entre Kpalimé y el Volta ghanés. Relato de viajeros con vehículo: el lado ghanés es lento y desorganizado (revisar persona",
+   "q": [
+    "Wli",
+    "Kpalimé",
+    "Ghana",
+    "Volta"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Frontera · Cinkassé (hacia Burkina Faso) — EXCLUIDA",
+   "cat": "Frontera",
+   "lat": 10.9833,
+   "lon": 0.2333,
+   "desc": "Puesto fronterizo integrado del corredor Lomé-Uagadugú, en el extremo norte del país. FUERA DEL ITINERARIO: está en plena región de las Savanes, bajo estado de emergencia, y el cruce a Burkina Faso es",
+   "q": [
+    "Cinkassé",
+    "Burkina Faso"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Embajada de España en Accra (acreditada también en Togo)",
+   "cat": "Consular",
+   "lat": 5.605,
+   "lon": -0.17,
+   "desc": "Drake Av. Extension, Airport Residential Area, P.M.B. KA 44, Accra (Ghana). +233 302 77 40 04/05. Togo no tiene embajada española propia; gestionar cualquier trámite con margen desde Accra o desde el ",
+   "q": [
+    "Embajada de España en Accra",
+    "Embassy of Spain Accra",
+    "Spain Embassy Accra"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "CHU Sylvanus Olympio — Lomé",
+   "cat": "Hospital",
+   "lat": 6.1256,
+   "lon": 1.2283,
+   "desc": "Principal hospital universitario y de referencia del país, en el corredor de bajada. Coordenada urbana aproximada.",
+   "q": [
+    "CHU Sylvanus Olympio"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "CHU Kara — Kara",
+   "cat": "Hospital",
+   "lat": 9.5511,
+   "lon": 1.1861,
+   "desc": "Referencia hospitalaria del norte y del corredor interior de subida; entre Kara y Lomé no hay nada equivalente. Coordenada urbana aproximada.",
+   "q": [
+    "CHU Kara"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Lomé",
+   "cat": "Combustible",
+   "lat": 6.1319,
+   "lon": 1.2228,
+   "desc": "Mejor oferta y calidad del país (Togo Oil, Total, CM Oil, Sanol); repostar aquí antes o después de cualquiera de las dos fronteras costeras.",
+   "q": [
+    "Lomé"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Aného / Hillacondji",
+   "cat": "Combustible",
+   "lat": 6.2333,
+   "lon": 1.6,
+   "desc": "Estaciones formales en Aného, última plaza con oferta amplia antes de cruzar a Benín en la bajada.",
+   "q": [
+    "Aného",
+    "Hillacondji",
+    "Aného / Hillacondji"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Kara",
+   "cat": "Combustible",
+   "lat": 9.5511,
+   "lon": 1.1861,
+   "desc": "Plaza de servicios del norte: combustible formal, talleres y recambios básicos. Llenar aquí antes de cualquier desvío a Koutammakou o Sarakawa.",
+   "q": [
+    "Kara"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Sokodé",
+   "cat": "Combustible",
+   "lat": 8.9833,
+   "lon": 1.1333,
+   "desc": "Parada intermedia obligada del eje N1 entre Kara y Atakpamé (~160 km hasta Atakpamé); estaciones formales y mercado.",
+   "q": [
+    "Sokodé"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Atakpamé · servicios del centro-sur",
+   "cat": "Combustible",
+   "lat": 7.5333,
+   "lon": 1.1333,
+   "desc": "Capital de la región de los Plateaux sobre la N1, con combustible, hospital regional y hoteles; punto donde el corredor de subida abandona la nacional para bajar por el Litimé hacia Badou y Kpalimé.",
+   "q": [
+    "Atakpamé Togo"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Combustible · Kpalimé",
+   "cat": "Combustible",
+   "lat": 6.9,
+   "lon": 0.6333,
+   "desc": "Última plaza con oferta razonable antes de la frontera de Wli y de las pistas de montaña de Klouto y Agou; la oferta en las aldeas de la sierra es nula.",
+   "q": [
+    "Kpalimé"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Agua potable y de uso general · Lomé",
+   "cat": "Agua potable",
+   "lat": 6.1319,
+   "lon": 1.2228,
+   "desc": "Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Lomé permiten llenar el depósito de uso general con manguera.",
+   "q": [
+    "Lomé"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Agua potable y de uso general · Kara y Kpalimé",
+   "cat": "Agua potable",
+   "lat": 9.5511,
+   "lon": 1.1861,
+   "desc": "Hoteles con aparcamiento en Kara y Kpalimé permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.",
+   "q": [
+    "Kara",
+    "Kpalimé",
+    "Kara y Kpalimé"
+   ]
+  }
+ ]
+}

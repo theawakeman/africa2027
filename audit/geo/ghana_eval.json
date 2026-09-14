@@ -1,0 +1,1827 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Nzulezu · poblado sobre pilotes",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 5.0167,
+  "lon": -2.6333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Nzulezo",
+   "kind": "place=village",
+   "lat": 5.021,
+   "lon": -2.59801,
+   "d": 3.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nzulezo",
+    "kind": "place=village",
+    "lat": 5.021,
+    "lon": -2.59801,
+    "d": 3.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nzulezo",
+    "kind": "waterway=boatyard",
+    "lat": 4.98875,
+    "lon": -2.59235,
+    "d": 5.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nzulezo Lodge",
+    "kind": "tourism=guest_house",
+    "lat": 5.09019,
+    "lon": -2.56807,
+    "d": 10.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Cape Three Points · el punto más al sur de Ghana",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 4.75,
+  "lon": -2.0833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cape Three Points",
+   "kind": "place=locality",
+   "lat": 4.73981,
+   "lon": -2.09171,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cape Three Points",
+    "kind": "place=locality",
+    "lat": 4.73981,
+    "lon": -2.09171,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cape Three Points",
+    "kind": "place=locality",
+    "lat": 4.73981,
+    "lon": -2.09171,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Escape 3 points",
+    "kind": "tourism=hotel",
+    "lat": 4.74966,
+    "lon": -2.07769,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Cabo de Tres Puntos",
+    "kind": "cape in Ghana",
+    "lat": 4.75009,
+    "lon": -2.08805,
+    "d": 0.5,
+    "match": false,
+    "id": "Q1261417"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Busua · playa y surf",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 4.799,
+  "lon": -1.937,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Busua Inn",
+   "kind": "tourism=hotel",
+   "lat": 4.80641,
+   "lon": -1.93883,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Busua",
+    "kind": "place=town",
+    "lat": 4.80666,
+    "lon": -1.93888,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Busua Beach",
+    "kind": "natural=beach",
+    "lat": 4.80885,
+    "lon": -1.93464,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Busua Inn",
+    "kind": "tourism=hotel",
+    "lat": 4.80641,
+    "lon": -1.93883,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Busua",
+    "kind": "human settlement",
+    "lat": 4.80789,
+    "lon": -1.93789,
+    "d": 1.0,
+    "match": true,
+    "id": "Q1017789"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Castillo de Elmina (São Jorge da Mina)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 5.0836,
+  "lon": -1.3508,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Saint George castle parking",
+   "kind": "amenity=parking",
+   "lat": 5.08276,
+   "lon": -1.34894,
+   "d": 0.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Saint George’s Castle",
+    "kind": "tourism=attraction",
+    "lat": 5.08274,
+    "lon": -1.34824,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Saint George castle parking",
+    "kind": "amenity=parking",
+    "lat": 5.08276,
+    "lon": -1.34894,
+    "d": 0.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Castillo de Cape Coast",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 5.1053,
+  "lon": -1.2466,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cape Coast Castle",
+   "kind": "historic=castle",
+   "lat": 5.10363,
+   "lon": -1.2411,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cape Coast Castle",
+    "kind": "historic=castle",
+    "lat": 5.10363,
+    "lon": -1.2411,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cape Coast castle parking",
+    "kind": "amenity=parking",
+    "lat": 5.10375,
+    "lon": -1.2416,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Castle Road",
+    "kind": "highway=residential",
+    "lat": 5.10495,
+    "lon": -1.24205,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Parque Nacional de Kakum · pasarela de dosel",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 5.35,
+  "lon": -1.3833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kakum National Park",
+   "kind": "information=office",
+   "lat": 5.34873,
+   "lon": -1.38353,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kakum National Park",
+    "kind": "information=office",
+    "lat": 5.34873,
+    "lon": -1.38353,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kakum National Park Canopy Walkway",
+    "kind": "tourism=attraction",
+    "lat": 5.35362,
+    "lon": -1.38344,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kakum National Park Parking",
+    "kind": "amenity=parking",
+    "lat": 5.34837,
+    "lon": -1.38333,
+    "d": 0.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Accra · Jamestown e Independence Square",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 5.5471,
+  "lon": -0.1942,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Accra",
+   "kind": "place=city",
+   "lat": 5.55711,
+   "lon": -0.20124,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "place=city",
+    "lat": 5.55711,
+    "lon": -0.20124,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "railway=station",
+    "lat": 5.54892,
+    "lon": -0.21102,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "highway=bus_stop",
+    "lat": 5.5524,
+    "lon": -0.21396,
+    "d": 2.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Mausoleo y parque memorial de Kwame Nkrumah",
+  "cat": "Cultura",
+  "clase": "area",
+  "lat": 5.5476,
+  "lon": -0.2048,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kwame Nkrumah Memorial Park",
+   "kind": "leisure=park",
+   "lat": 5.54474,
+   "lon": -0.20299,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kwame Nkrumah Memorial Park",
+    "kind": "leisure=park",
+    "lat": 5.54474,
+    "lon": -0.20299,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kwame Nkrumah Memorial Parking",
+    "kind": "amenity=parking",
+    "lat": 5.5438,
+    "lon": -0.20407,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Shai Hills Resource Reserve",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 5.9167,
+  "lon": -0.0667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Shai Hills Resource Reserve",
+   "kind": "leisure=nature_reserve",
+   "lat": 5.90558,
+   "lon": 0.0633,
+   "d": 14.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Shai Hills Resource Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": 5.90558,
+    "lon": 0.0633,
+    "d": 14.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Presa de Akosombo y lago Volta",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 6.2997,
+  "lon": 0.0589,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Akosombo Dam",
+   "kind": "waterway=dam",
+   "lat": 6.29984,
+   "lon": 0.05932,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Akosombo Dam",
+    "kind": "waterway=dam",
+    "lat": 6.29984,
+    "lon": 0.05932,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "VRA Akosombo Dam Visitor Center",
+    "kind": "building=yes",
+    "lat": 6.27487,
+    "lon": 0.05191,
+    "d": 2.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Ada Foah · desembocadura del Volta",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 5.7833,
+  "lon": 0.6333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ada Foah",
+   "kind": "place=town",
+   "lat": 5.78164,
+   "lon": 0.6332,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ada Foah",
+    "kind": "place=town",
+    "lat": 5.78164,
+    "lon": 0.6332,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ada Foah Post Office",
+    "kind": "amenity=post_office",
+    "lat": 5.78529,
+    "lon": 0.62751,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ada Foah Market",
+    "kind": "amenity=marketplace",
+    "lat": 5.78297,
+    "lon": 0.63667,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Santuario de monos de Tafi Atome",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 6.9333,
+  "lon": 0.45,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tafi Atome Wildlife Monkey Sanctuary",
+   "kind": "tourism=attraction",
+   "lat": 6.905,
+   "lon": 0.38699,
+   "d": 7.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tafi Atome Wildlife Monkey Sanctuary",
+    "kind": "tourism=attraction",
+    "lat": 6.905,
+    "lon": 0.38699,
+    "d": 7.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Amedzofe y el monte Gemi",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 6.8333,
+  "lon": 0.4333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mount Gemi",
+   "kind": "natural=peak",
+   "lat": 6.85466,
+   "lon": 0.43358,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mount Gemi",
+    "kind": "natural=peak",
+    "lat": 6.85466,
+    "lon": 0.43358,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Cataratas de Wli (Agumatsa)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 7.1167,
+  "lon": 0.5833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ghana Immigration Service - Wli Afegame Border Post",
+   "kind": "office=government",
+   "lat": 7.12021,
+   "lon": 0.5931,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Waterfall Lodge Wli-Afegame",
+    "kind": "tourism=guest_house",
+    "lat": 7.11552,
+    "lon": 0.58874,
+    "d": 0.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Wli Waterfall Inn",
+    "kind": "tourism=hostel",
+    "lat": 7.12204,
+    "lon": 0.58636,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ghana Immigration Service - Wli Afegame Border Post",
+    "kind": "office=government",
+    "lat": 7.12021,
+    "lon": 0.5931,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Monte Afadja (Afadjato) · techo de Ghana",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 7.0028,
+  "lon": 0.5231,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mount Afadja",
+   "kind": "natural=peak",
+   "lat": 7.02225,
+   "lon": 0.56195,
+   "d": 4.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mount Afadja",
+    "kind": "natural=peak",
+    "lat": 7.02225,
+    "lon": 0.56195,
+    "d": 4.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Cataratas de Boti y el baobab de tres cabezas",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 6.2,
+  "lon": -0.1833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Boti",
+   "kind": "place=village",
+   "lat": 6.19547,
+   "lon": -0.21974,
+   "d": 4.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Boti",
+    "kind": "place=village",
+    "lat": 6.19547,
+    "lon": -0.21974,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boti Waterfalls",
+    "kind": "waterway=waterfall",
+    "lat": 6.19291,
+    "lon": -0.2164,
+    "d": 3.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Boti Close",
+    "kind": "highway=residential",
+    "lat": 5.56821,
+    "lon": -0.26481,
+    "d": 70.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Kumasi · mercado Kejetia y palacio Manhyia",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 6.6885,
+  "lon": -1.6244,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kumasi Metropolitan Assembly",
+   "kind": "office=government",
+   "lat": 6.68653,
+   "lon": -1.62304,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kumasi",
+    "kind": "place=city",
+    "lat": 6.69856,
+    "lon": -1.62331,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kumasi Metropolitan District",
+    "kind": "boundary=administrative",
+    "lat": 6.69074,
+    "lon": -1.62199,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kumasi Metropolitan Assembly",
+    "kind": "office=government",
+    "lat": 6.68653,
+    "lon": -1.62304,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kumasi",
+    "kind": "Capital del Imperio Asante y Capital de la región de Ashanti, Ghana",
+    "lat": 6.7,
+    "lon": -1.625,
+    "d": 1.3,
+    "match": true,
+    "id": "Q182059"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Edificios tradicionales ashanti (UNESCO) · Besease y Ejisu",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 6.7167,
+  "lon": -1.4667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Besease Traditional Shrine",
+   "kind": "amenity=place_of_worship",
+   "lat": 6.72372,
+   "lon": -1.44962,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Besease Traditional Shrine",
+    "kind": "amenity=place_of_worship",
+    "lat": 6.72372,
+    "lon": -1.44962,
+    "d": 2.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Travesía del lago Volta · ferry Yeji–Makango",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 8.2167,
+  "lon": -0.65,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Parque Nacional de Mole · safari a pie entre elefantes",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 9.2667,
+  "lon": -1.85,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mole National Park Visitor Area",
+   "kind": "leisure=park",
+   "lat": 9.26131,
+   "lon": -1.85337,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mole National Park",
+    "kind": "boundary=national_park",
+    "lat": 9.6569,
+    "lon": -1.86735,
+    "d": 43.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mole National Park Visitor Area",
+    "kind": "leisure=park",
+    "lat": 9.26131,
+    "lon": -1.85337,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mole National Park Information Center",
+    "kind": "information=office",
+    "lat": 9.26043,
+    "lon": -1.85396,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Mezquita de barro de Larabanga",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 9.2167,
+  "lon": -1.85,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Larabanga Mosque",
+   "kind": "amenity=place_of_worship",
+   "lat": 9.22032,
+   "lon": -1.85994,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Larabanga Mosque",
+    "kind": "amenity=place_of_worship",
+    "lat": 9.22032,
+    "lon": -1.85994,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Cocodrilos sagrados de Paga",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 10.9833,
+  "lon": -1.1167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Paga Crocodile Pond",
+   "kind": "water=pond",
+   "lat": 10.98483,
+   "lon": -1.10894,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Paga Crocodile Pond",
+    "kind": "water=pond",
+    "lat": 10.98483,
+    "lon": -1.10894,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Paga Chief Crocodile Pond Information Center",
+    "kind": "information=office",
+    "lat": 10.98459,
+    "lon": -1.10792,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Elubo / Noé (desde Costa de Marfil)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 5.0333,
+  "lon": -2.8667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Elubo Health Center",
+   "kind": "amenity=clinic",
+   "lat": 5.28682,
+   "lon": -2.77133,
+   "d": 30.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Elubo",
+    "kind": "place=town",
+    "lat": 5.28894,
+    "lon": -2.77255,
+    "d": 30.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Elubo Health Center",
+    "kind": "amenity=clinic",
+    "lat": 5.28682,
+    "lon": -2.77133,
+    "d": 30.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Elubo Post Office",
+    "kind": "amenity=post_office",
+    "lat": 5.28905,
+    "lon": -2.77525,
+    "d": 30.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — Aflao (hacia Togo/Lomé)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.1167,
+  "lon": 1.2,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Aflao",
+   "kind": "place=town",
+   "lat": 6.11605,
+   "lon": 1.1914,
+   "d": 1.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Aflao",
+    "kind": "place=town",
+    "lat": 6.11605,
+    "lon": 1.1914,
+    "d": 1.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aflao-Gakli",
+    "kind": "place=suburb",
+    "lat": 6.17861,
+    "lon": 1.19913,
+    "d": 6.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aflao-Gakli",
+    "kind": "highway=residential",
+    "lat": 6.18221,
+    "lon": 1.20393,
+    "d": 7.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada subida — Akanu / Noepé (desde Togo, eje Ho-Kpalimé)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.55,
+  "lon": 0.6333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Akanu Old Road",
+   "kind": "highway=unclassified",
+   "lat": 6.24092,
+   "lon": 1.00481,
+   "d": 53.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Akanu",
+    "kind": "place=village",
+    "lat": 6.25261,
+    "lon": 1.02137,
+    "d": 54.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Akanu Old Road",
+    "kind": "highway=unclassified",
+    "lat": 6.24092,
+    "lon": 1.00481,
+    "d": 53.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Noepe-Akanu Joint Border Post",
+    "kind": "building=government_office",
+    "lat": 6.25817,
+    "lon": 1.02897,
+    "d": 54.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Noépé",
+    "kind": "Canton of Ave prefecture, maritime region of Togo",
+    "lat": 6.266,
+    "lon": 1.0413,
+    "d": 55.0,
+    "match": true,
+    "id": "Q118114127"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Salida subida — Sampa (hacia Bondoukou, Costa de Marfil)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 7.95,
+  "lon": -2.7,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Sampa",
+   "kind": "place in Bono Region, Ghana",
+   "lat": 7.95,
+   "lon": -2.7,
+   "d": 0.0,
+   "match": true,
+   "id": "Q2275354"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sampa",
+    "kind": "place=town",
+    "lat": 7.94717,
+    "lon": -2.69494,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sampa - Wenchi",
+    "kind": "highway=primary",
+    "lat": 7.94782,
+    "lon": -2.6976,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sampa - Berekum",
+    "kind": "highway=primary",
+    "lat": 7.87432,
+    "lon": -2.72734,
+    "d": 8.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Sampa",
+    "kind": "place in Bono Region, Ghana",
+    "lat": 7.95,
+    "lon": -2.7,
+    "d": 0.0,
+    "match": true,
+    "id": "Q2275354"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Embajada de España en Accra (acreditada también en Togo)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 5.605,
+  "lon": -0.17,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": 5.60683,
+   "lon": -0.17792,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": 5.60683,
+    "lon": -0.17792,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Embassy of Spain - Economic and Commercial Office",
+    "kind": "office=diplomatic",
+    "lat": 5.60994,
+    "lon": -0.17965,
+    "d": 1.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Korle Bu Teaching Hospital — Accra",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 5.5364,
+  "lon": -0.227,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Korle Bu Teaching Hospital",
+   "kind": "amenity=hospital",
+   "lat": 5.53832,
+   "lon": -0.22681,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Korle Bu Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": 5.53832,
+    "lon": -0.22681,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Radiotherapy Department Korle Bu Teaching Hospital",
+    "kind": "building=hospital",
+    "lat": 5.53798,
+    "lon": -0.22547,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pediatrics Department Korlebu Teaching Hospital",
+    "kind": "building=hospital",
+    "lat": 5.53682,
+    "lon": -0.22718,
+    "d": 0.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Komfo Anokye Teaching Hospital — Kumasi",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 6.698,
+  "lon": -1.63,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Komfo Anokye Teaching Hospital",
+   "kind": "amenity=hospital",
+   "lat": 6.69688,
+   "lon": -1.62998,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Komfo Anokye Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": 6.69688,
+    "lon": -1.62998,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Tamale Teaching Hospital — Tamale",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 9.4008,
+  "lon": -0.8393,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Tamale Teaching Hospital",
+   "kind": "amenity=hospital",
+   "lat": 9.3914,
+   "lon": -0.82458,
+   "d": 1.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tamale Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": 9.3914,
+    "lon": -0.82458,
+    "d": 1.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Sekondi-Takoradi · servicios de la costa oeste",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 4.8974,
+  "lon": -1.7604,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sekondi-Takoradi",
+   "kind": "place=city",
+   "lat": 4.92746,
+   "lon": -1.74902,
+   "d": 3.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sekondi-Takoradi",
+    "kind": "place=city",
+    "lat": 4.92746,
+    "lon": -1.74902,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sekondi-Takoradi Metropolitan Assembly",
+    "kind": "office=government",
+    "lat": 4.93968,
+    "lon": -1.71601,
+    "d": 6.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sekondi Takoradi Metropolitan District",
+    "kind": "boundary=administrative",
+    "lat": 4.96155,
+    "lon": -1.73293,
+    "d": 7.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Ho · base de la región Volta (subida)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 6.6,
+  "lon": 0.4667,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Ho Municipal Assembly",
+   "kind": "office=government",
+   "lat": 6.60845,
+   "lon": 0.47293,
+   "d": 1.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ho",
+    "kind": "place=city",
+    "lat": 6.61266,
+    "lon": 0.46889,
+    "d": 1.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ho Municipal Assembly",
+    "kind": "office=government",
+    "lat": 6.60845,
+    "lon": 0.47293,
+    "d": 1.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ho Municipal District",
+    "kind": "boundary=administrative",
+    "lat": 6.67721,
+    "lon": 0.53804,
+    "d": 11.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Tamale · base logística del norte",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 9.4008,
+  "lon": -0.8393,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tamale",
+   "kind": "place=city",
+   "lat": 9.4052,
+   "lon": -0.8424,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tamale",
+    "kind": "place=city",
+    "lat": 9.4052,
+    "lon": -0.8424,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "University for Development Studies - Tamale Campus",
+    "kind": "amenity=university",
+    "lat": 9.37377,
+    "lon": -0.88589,
+    "d": 5.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Tamale Metropolitan Assembly",
+    "kind": "office=government",
+    "lat": 9.40199,
+    "lon": -0.83666,
+    "d": 0.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Bolgatanga · extremo norte",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 10.7856,
+  "lon": -0.8514,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bolgatanga",
+   "kind": "place=city",
+   "lat": 10.7854,
+   "lon": -0.84873,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bolgatanga",
+    "kind": "place=city",
+    "lat": 10.7854,
+    "lon": -0.84873,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bolgatanga Municipal Assembly",
+    "kind": "office=government",
+    "lat": 10.79723,
+    "lon": -0.85764,
+    "d": 1.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bolgatanga Municipal District",
+    "kind": "boundary=administrative",
+    "lat": 10.74731,
+    "lon": -0.93499,
+    "d": 10.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Elubo (frontera)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 5.0333,
+  "lon": -2.8667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Elubo Health Center",
+   "kind": "amenity=clinic",
+   "lat": 5.28682,
+   "lon": -2.77133,
+   "d": 30.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Elubo",
+    "kind": "place=town",
+    "lat": 5.28894,
+    "lon": -2.77255,
+    "d": 30.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Elubo Health Center",
+    "kind": "amenity=clinic",
+    "lat": 5.28682,
+    "lon": -2.77133,
+    "d": 30.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Elubo Post Office",
+    "kind": "amenity=post_office",
+    "lat": 5.28905,
+    "lon": -2.77525,
+    "d": 30.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Cape Coast / Elmina",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 5.1053,
+  "lon": -1.2466,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cape Coast",
+   "kind": "place=city",
+   "lat": 5.10809,
+   "lon": -1.24171,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cape Coast",
+    "kind": "place=city",
+    "lat": 5.10809,
+    "lon": -1.24171,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cape Coast Castle",
+    "kind": "historic=castle",
+    "lat": 5.10363,
+    "lon": -1.2411,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cape Coast Sports Stadium",
+    "kind": "leisure=stadium",
+    "lat": 5.13586,
+    "lon": -1.28248,
+    "d": 5.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Accra",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 5.5471,
+  "lon": -0.1942,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Accra",
+   "kind": "place=city",
+   "lat": 5.55711,
+   "lon": -0.20124,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "place=city",
+    "lat": 5.55711,
+    "lon": -0.20124,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "railway=station",
+    "lat": 5.54892,
+    "lon": -0.21102,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "highway=bus_stop",
+    "lat": 5.5524,
+    "lon": -0.21396,
+    "d": 2.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Acra",
+    "kind": "capital de Ghana",
+    "lat": 5.55602,
+    "lon": -0.1969,
+    "d": 1.0,
+    "match": false,
+    "id": "Q3761"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Combustible · Kumasi",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 6.6885,
+  "lon": -1.6244,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kumasi Metropolitan Assembly",
+   "kind": "office=government",
+   "lat": 6.68653,
+   "lon": -1.62304,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kumasi",
+    "kind": "place=city",
+    "lat": 6.69856,
+    "lon": -1.62331,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kumasi Metropolitan District",
+    "kind": "boundary=administrative",
+    "lat": 6.69074,
+    "lon": -1.62199,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kumasi Metropolitan Assembly",
+    "kind": "office=government",
+    "lat": 6.68653,
+    "lon": -1.62304,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kumasi",
+    "kind": "Capital del Imperio Asante y Capital de la región de Ashanti, Ghana",
+    "lat": 6.7,
+    "lon": -1.625,
+    "d": 1.3,
+    "match": true,
+    "id": "Q182059"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Combustible · Damongo / Larabanga (puerta de Mole)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 9.0833,
+  "lon": -1.8167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Damongo",
+   "kind": "capital of Savannah Region, Ghana",
+   "lat": 9.08333,
+   "lon": -1.81667,
+   "d": 0.0,
+   "match": true,
+   "id": "Q1158732"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Damongo",
+    "kind": "place=town",
+    "lat": 9.08506,
+    "lon": -1.82008,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Damongo - Sawla Road",
+    "kind": "highway=trunk",
+    "lat": 9.0848,
+    "lon": -1.81662,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Damongo - Sawla Road",
+    "kind": "highway=residential",
+    "lat": 9.08841,
+    "lon": -1.81121,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Damongo",
+    "kind": "capital of Savannah Region, Ghana",
+    "lat": 9.08333,
+    "lon": -1.81667,
+    "d": 0.0,
+    "match": true,
+    "id": "Q1158732"
+   }
+  ]
+ },
+ {
+  "id": "log-17",
+  "type": "log",
+  "name": "Combustible · Wa y eje Bole-Sampa (salida a Costa de Marfil)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 9.1667,
+  "lon": -2.4833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Wa West District Assembly",
+   "kind": "office=government",
+   "lat": 9.82555,
+   "lon": -2.66912,
+   "d": 76.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Wa",
+    "kind": "place=city",
+    "lat": 10.06233,
+    "lon": -2.50543,
+    "d": 99.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "University of Business and Integrated Development Studies, Wa",
+    "kind": "amenity=university",
+    "lat": 9.98645,
+    "lon": -2.47877,
+    "d": 91.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Wa West District Assembly",
+    "kind": "office=government",
+    "lat": 9.82555,
+    "lon": -2.66912,
+    "d": 76.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-18",
+  "type": "log",
+  "name": "Agua potable · Accra, Kumasi, Cape Coast, Tamale",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 5.5471,
+  "lon": -0.1942,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Accra",
+   "kind": "place=city",
+   "lat": 5.55711,
+   "lon": -0.20124,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "place=city",
+    "lat": 5.55711,
+    "lon": -0.20124,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "railway=station",
+    "lat": 5.54892,
+    "lon": -0.21102,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Accra",
+    "kind": "highway=bus_stop",
+    "lat": 5.5524,
+    "lon": -0.21396,
+    "d": 2.3,
+    "match": true
+   }
+  ]
+ }
+]

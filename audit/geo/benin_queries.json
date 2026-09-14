@@ -1,0 +1,530 @@
+{
+ "slug": "benin",
+ "bbox": [
+  0.39999999999999997,
+  5.8,
+  4.2,
+  12.8
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Grand-Popo, la Bouche du Roy y las playas del Mono",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": 6.2833,
+   "lon": 1.8167,
+   "desc": "Primera parada nada más entrar desde Togo: antigua ciudad comercial afro-brasileña, hoy pueblo de playa tranquilo con casas coloniales en ruina y una franja de arena inmensa. A 15 km, la BOUCHE DU ROY",
+   "q": [
+    "Bouche du Roy Benin",
+    "Grand-Popo Benin"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Ouidah · Ruta de los Esclavos y Puerta del No Retorno",
+   "cat": "Patrimonio",
+   "prio": "Alta",
+   "lat": 6.3467,
+   "lon": 2.08,
+   "desc": "Los 3,5 km que separaban la plaza de subastas de la playa de embarque, jalonados hoy por monumentos: el Árbol del Olvido (donde se obligaba a los cautivos a dar vueltas para borrar su identidad), el Á",
+   "q": [
+    "Porte du Non Retour Ouidah"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Ouidah · Templo de las Pitones, basílica y fuerte portugués",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 6.3639,
+   "lon": 2.0856,
+   "desc": "El casco de Ouidah concentra el corazón religioso del vudú y su choque con el catolicismo: el TEMPLO DE LAS PITONES, donde se guardan pitones reales (Python regius) sagradas del culto a Dangbé y que s",
+   "q": [
+    "Temple des Pythons Ouidah",
+    "Musée d'Histoire de Ouidah"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Vodun Days · fiesta nacional del vudú (10 de enero, Ouidah)",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 6.345,
+   "lon": 2.08,
+   "desc": "⚠️ COMPROBAR CALENDARIO: el 10 de enero es fiesta nacional en Benín (Fête du Vodoun) desde el reconocimiento oficial de la religión en 1996, y desde 2024 el gobierno la ha convertido en el festival VO",
+   "q": [
+    "Vodun Days Ouidah"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Lago Ahémé y Possotomé",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 6.45,
+   "lon": 1.9833,
+   "desc": "Laguna de 78 km² tierra adentro desde Grand-Popo, con aldeas de pescadores en las dos orillas, dos bosques sagrados y numerosos templos vodun. POSSOTOMÉ, en la orilla este, fue el primer «pueblo ecoló",
+   "q": [
+    "Possotomè Benin",
+    "Lac Ahémé"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Route des Pêches y playas de Avlékété",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": 6.34,
+   "lon": 2.17,
+   "desc": "La franja de cocoteros entre Cotonú y Ouidah, recorrida por la ROUTE DES PÊCHES: un eje costero de unos 40 km, históricamente pista de arena entre el mar y la laguna, hoy en obras de asfaltado por tra",
+   "q": [
+    "Avlékété Benin",
+    "Route des Pêches Benin"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Embarcadero de Abomey-Calavi (acceso a Ganvié)",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 6.4478,
+   "lon": 2.3556,
+   "desc": "Punto logístico obligado: es de aquí de donde salen las piraguas —motorizadas o a pértiga— hacia Ganvié, a unos 30-45 minutos de travesía por el lago Nokoué. Hay aparcamiento vigilado, oficina de tari",
+   "q": [
+    "Embarcadère de Ganvié Abomey-Calavi"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Ganvié · la «Venecia de África»",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 6.4667,
+   "lon": 2.4167,
+   "desc": "Unas 3.000 viviendas sobre pilotes y más de 20.000 habitantes en medio del lago Nokoué: el mayor poblado lacustre de África. Lo fundó el pueblo TOFINU en los siglos XVII-XVIII huyendo de los cazadores",
+   "q": [
+    "Ganvié",
+    "Ganvié · la «Venecia de África»"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Cotonú · mercado de Dantokpa",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": 6.3703,
+   "lon": 2.3912,
+   "desc": "Capital económica y única gran base logística del país: puerto, aeropuerto internacional, talleres y recambios de todo tipo, supermercados, bancos y clínicas privadas. El MERCADO DE DANTOKPA, sobre la",
+   "q": [
+    "Marché Dantokpa Cotonou"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Porto-Novo",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 6.4969,
+   "lon": 2.6289,
+   "desc": "La capital oficial (aunque el gobierno está en Cotonú), a 35 km, sobre la laguna de Porto-Novo: mucho más tranquila y paseable que Cotonú, con arquitectura afro-brasileña de los agudás, la Gran Mezqui",
+   "q": [
+    "Porto-Novo"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Savè · Oké Shabè y los inselbergs de las Collines",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 8.0333,
+   "lon": 2.4833,
+   "desc": "Primera parada del corredor interior: Savè se levanta entre enormes domos de granito que emergen de la sabana. La colina de OKÉ SHABÈ figura en la lista indicativa de la UNESCO como uno de los «Sites ",
+   "q": [
+    "Oké Shabè Savè Benin",
+    "Savè Benin"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Dassa-Zoumè · las 41 colinas, la gruta de Arigbo y Savalou",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 7.75,
+   "lon": 2.1833,
+   "desc": "La «ciudad de las 41 colinas», a 209 km de Cotonú, encajada entre domos de granito que son a la vez alto lugar del vudú (todavía se hacen iniciaciones y ofrendas en ellos) y escondite histórico frente",
+   "q": [
+    "Grotte d'Arigbo Dassa-Zoumè",
+    "Dassa-Zoumè Benin"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Palacios Reales de Abomey (UNESCO)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": 7.1833,
+   "lon": 1.9833,
+   "desc": "Patrimonio Mundial desde 1985: el recinto de los doce palacios sucesivos de los reyes del REINO DE DAHOMEY (s. XVII-XIX), cada uno construido por un soberano dentro del mismo muro de tierra de 44 hect",
+   "q": [
+    "Palais Royaux d'Abomey"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Bassila y los montes Kouffé",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 9.0167,
+   "lon": 1.6667,
+   "desc": "Punto medio del corredor interior, en el departamento de la Donga: bosque clasificado de Bassila y la cadena de los MONTES KOUFFÉ, una de las últimas grandes manchas de bosque seco y galería del centr",
+   "q": [
+    "Monts Kouffé Benin",
+    "Bassila Benin"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Taneka-Koko y Taneka-Béri",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": 9.8667,
+   "lon": 1.5,
+   "desc": "A unos 20 km de Djougou, agarrados a la ladera de una colina, dos pueblos taneka de cabañas redondas de barro con techo cónico de paja rematado en una vasija invertida, cocinas exteriores y calles de ",
+   "q": [
+    "Taneka Koko Benin",
+    "Taneka Béri Benin"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Djougou",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": 9.7,
+   "lon": 1.6667,
+   "desc": "Capital de la Donga y última base logística real antes de salir a Togo por Ouaké (37 km): combustible, mercado —uno de los grandes mercados de tejidos y de ganado del interior—, hospital de zona y alo",
+   "q": [
+    "Djougou"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Parque Nacional de la Pendjari — FUERA DEL ITINERARIO 2027",
+   "cat": "Naturaleza",
+   "prio": "Baja",
+   "lat": 11.05,
+   "lon": 1.517,
+   "desc": "🚫 EL GRAN SACRIFICIO DE ESTA FICHA. 6.445 km² gestionados por AFRICAN PARKS desde 2017 y considerados el mejor parque de África occidental: unos 2.800 elefantes —la mayor población de la región—, búfa",
+   "q": [
+    "Parque Nacional de la Pendjari",
+    "Parc national la Pendjari"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Cascadas de Tanougou y la cordillera de la Atacora — FUERA DEL ITINERARIO 2027",
+   "cat": "Naturaleza",
+   "prio": "Baja",
+   "lat": 10.75,
+   "lon": 1.43,
+   "desc": "🚫 Lo otro que se pierde. Las CASCADAS DE TANOUGOU, a unos 25 km de Tanguiéta, caen en tres saltos escalonados sobre pozas de baño al pie de la cordillera de la ATACORA, la única cadena montañosa de ve",
+   "q": [
+    "Chutes de Tanougou Benin"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Parque Nacional W (UNESCO, transfronterizo) — FUERA DEL ITINERARIO 2027",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Baja",
+   "lat": 11.85,
+   "lon": 2.5,
+   "desc": "🚫 Patrimonio Mundial transfronterizo entre Benín, Níger y Burkina Faso, nombrado por el meandro en forma de W que dibuja el río Níger; junto con Arly y Pendjari forma el complejo WAP, el mayor ecosist",
+   "q": [
+    "Parc W Benin"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada bajada — Hillacondji/Sanvee-Condji (desde Togo)",
+   "cat": "Frontera",
+   "lat": 6.1667,
+   "lon": 1.6333,
+   "desc": "Puesto conjunto (yuxtapuesto) Togo-Benín, con los dos países tramitando en la misma instalación, a 85 km de Cotonú. Cruzar por la mañana: el tráfico comercial satura el mediodía.",
+   "q": [
+    "Hillacondji",
+    "Sanvee-Condji",
+    "Togo"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida bajada — Sèmè-Kraké (hacia Nigeria)",
+   "cat": "Frontera",
+   "lat": 6.3697,
+   "lon": 2.7275,
+   "desc": "El paso más transitado de toda África occidental, a 20 km de Cotonú y en la puerta de Lagos: congestión permanente, controles múltiples (inmigración, aduana, sanidad, policía) y presión constante de i",
+   "q": [
+    "Sèmè-Kraké",
+    "Nigeria"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada subida — Ilara/Kétou (desde Nigeria, eje interior)",
+   "cat": "Frontera",
+   "lat": 7.37,
+   "lon": 2.73,
+   "desc": "Paso interior mucho más tranquilo que Sèmè-Kraké, sobre el eje Ilara (Ogun, Nigeria) – Kétou. Kétou es además una de las capitales históricas yoruba y conserva la PUERTA AKABA IDÉNA, puerta fortificad",
+   "q": [
+    "Ilara",
+    "Kétou",
+    "Nigeria"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Alternativa subida — Igolo/Idiroko (desde Nigeria)",
+   "cat": "Frontera",
+   "lat": 6.65,
+   "lon": 2.77,
+   "desc": "Segundo paso más transitado con Nigeria, al norte de Porto-Novo; más ágil que Sèmè-Kraké pero todavía muy concurrido. Alternativa razonable si Ilara/Kétou no resulta viable. Coordenada aproximada, por",
+   "q": [
+    "Igolo",
+    "Idiroko",
+    "Nigeria"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Salida subida — Ouaké (hacia Togo, eje Djougou-Kara)",
+   "cat": "Frontera",
+   "lat": 9.6719,
+   "lon": 1.3637,
+   "desc": "A 37 km de Djougou. Según la evaluación logística del Logistics Cluster opera 24 h los 7 días de la semana salvo festivos nacionales de Benín, y exige seguro CEDEAO y laissez-passer del vehículo; sin ",
+   "q": [
+    "Ouaké",
+    "Togo",
+    "Djougou-Kara"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Frontera · Alternativa subida — Azovè/Tohoun (hacia Togo, eje central)",
+   "cat": "Frontera",
+   "lat": 6.9833,
+   "lon": 1.6667,
+   "desc": "Paso interior muy al sur, sobre el eje Azovè-Tohoun, completamente fuera de cualquier zona de riesgo. Es el PLAN B del corredor de subida si la situación del norte desaconseja subir hasta Djougou: obl",
+   "q": [
+    "Azovè",
+    "Tohoun",
+    "Togo"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Consulado General de España en Lagos (demarcación de Benín)",
+   "cat": "Consular",
+   "lat": 6.44,
+   "lon": 3.42,
+   "desc": "Benín depende consularmente de la representación española en Nigeria. Emergencia consular: +234 80 3360 1658. Hay además Consulado Honorario en Cotonú: +229 21 339 219 / 220 / 726. Confirmar teléfonos",
+   "q": [
+    "Consulado General de España en Lagos",
+    "Consulate of Spain Lagos",
+    "Spain Consulate Lagos"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "CNHU-HKM (Centre National Hospitalier Universitaire) — Cotonú",
+   "cat": "Hospital",
+   "lat": 6.3667,
+   "lon": 2.4333,
+   "desc": "Principal hospital universitario y de referencia del país; Cotonú tiene además varias clínicas privadas de nivel aceptable, las mejores del corredor. Coordenada urbana aproximada.",
+   "q": [
+    "CNHU-HKM"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hospital de zona · Dassa-Zoumè / Abomey",
+   "cat": "Hospital",
+   "lat": 7.1833,
+   "lon": 1.9833,
+   "desc": "Referencias sanitarias intermedias del corredor interior; entre Abomey y Djougou no hay nada de nivel. Coordenadas urbanas aproximadas.",
+   "q": [
+    "Hôpital de Zone Dassa-Zoumè",
+    "Centre Hospitalier Départemental Abomey"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Cotonú",
+   "cat": "Combustible",
+   "lat": 6.3703,
+   "lon": 2.3912,
+   "desc": "Mejor oferta y calidad del país (Total, Oryx, Petro Ivoire, MRS); repostar a fondo aquí antes de Sèmè-Kraké o antes de subir al interior. ATENCIÓN: buena parte del combustible que se vende en Benín es",
+   "q": [
+    "Cotonú"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Ouidah / Grand-Popo",
+   "cat": "Combustible",
+   "lat": 6.3628,
+   "lon": 2.0853,
+   "desc": "Estaciones formales en el eje costero entre Hillacondji y Cotonú, sin problema de suministro.",
+   "q": [
+    "Ouidah",
+    "Grand-Popo",
+    "Ouidah / Grand-Popo"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Bohicon (nudo de Abomey)",
+   "cat": "Combustible",
+   "lat": 7.1786,
+   "lon": 2.0667,
+   "desc": "Bohicon, a 9 km de Abomey, es el verdadero nudo de carreteras y de servicios del centro del país: combustible, talleres, mercado y la estación de ferrocarril. Repostar aquí, no en Abomey.",
+   "q": [
+    "Bohicon",
+    "Abomey"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Dassa-Zoumè y Savalou",
+   "cat": "Combustible",
+   "lat": 7.75,
+   "lon": 2.1833,
+   "desc": "Estaciones formales sobre la N2 y la N3; últimos puntos fiables antes del tramo Savalou-Bassila-Djougou.",
+   "q": [
+    "Dassa-Zoumè",
+    "Savalou",
+    "Dassa-Zoumè y Savalou"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Combustible · Djougou",
+   "cat": "Combustible",
+   "lat": 9.7,
+   "lon": 1.6667,
+   "desc": "Última plaza con combustible formal antes de salir a Togo por Ouaké. Llenar depósitos y garrafas aquí.",
+   "q": [
+    "Djougou"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Agua potable y de uso general · Cotonú",
+   "cat": "Agua potable",
+   "lat": 6.3703,
+   "lon": 2.3912,
+   "desc": "Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Cotonú y Ouidah permiten llenar el depósito de uso general con manguera.",
+   "q": [
+    "Cotonú"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Agua potable y de uso general · Possotomé (lago Ahémé)",
+   "cat": "Agua potable",
+   "lat": 6.45,
+   "lon": 1.9833,
+   "desc": "Albergue y camping comunitario de Eco-Bénin a orillas del lago, con agua corriente; además, fuentes de agua mineral explotadas desde 1952 en el propio pueblo.",
+   "q": [
+    "Possotomé",
+    "Ahémé"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Agua potable y de uso general · Dassa y Djougou",
+   "cat": "Agua potable",
+   "lat": 7.75,
+   "lon": 2.1833,
+   "desc": "Hoteles con aparcamiento en ambas ciudades permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.",
+   "q": [
+    "Dassa",
+    "Djougou",
+    "Dassa y Djougou"
+   ]
+  }
+ ]
+}

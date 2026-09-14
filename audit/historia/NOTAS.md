@@ -70,3 +70,28 @@
 - Franco CFA ligado al euro: dato de contexto general; la ficha del MAEC identifica la moneda (XOF) pero no se ha abierto una fuente que detalle la paridad fija. Conviene verificarlo antes de publicar.
 - Muertos de la primera guerra civil: el artículo de Wikipedia solo da unas 1.265 muertes para 2002-2004 y 750.000 desplazados entre 2002 y 2007, cifras que no cubren todo el conflicto. El texto cita únicamente los desplazados.
 - Las recomendaciones prácticas del final son normas generales de cortesía coherentes con el contexto verificado (mayoría musulmana en el norte, cristiana y animista en el sur, cultura del maquis); no se ha abierto la página de recomendaciones de viaje del MAEC.
+
+## ghana
+
+- Freedom in the World 2025 evalúa principalmente hechos de 2024; su 80/100 no debe presentarse como una evaluación completa del gobierno iniciado en enero de 2025.
+- La cifra parlamentaria de 183 escaños del NDC procede de la ficha MAEC de abril de 2026; Freedom House dejaba un escaño sin proclamar al cierre de 2024.
+- Se han omitido porcentajes exactos por grupo étnico y un PIB per cápita concreto porque las fuentes consultadas usan años y definiciones diferentes.
+
+## togo
+
+- El PDF del MAEC imprime la población como 9.721.608.799, cifra imposible; se usa la estimación del Banco Mundial de 8,6 millones para 2025.
+- Freedom in the World 2025 evalúa principalmente 2024 y no toda la aplicación institucional de mayo de 2025; la puntuación 41/100 se fecha expresamente.
+- Se han omitido cifras de víctimas de disturbios de 2005 y 2025 por discrepancias entre fuentes y por no ser necesarias para explicar el régimen.
+
+## benin
+
+- Freedom in the World 2025 evalúa 2024 y no incorpora las legislativas y presidenciales de 2026; la puntuación se fecha expresamente.
+- El resultado presidencial de 94,27 % y la participación de 63,57 % proceden de la decisión oficial de la Corte Constitucional, no de una estimación periodística.
+- Se evita afirmar que el norte sea una base concreta de un grupo armado; para la ruta basta el aviso oficial que desaconseja Pendjari, W y las zonas fronterizas.
+
+## nigeria
+
+- La fecha de las próximas elecciones que figura en el PDF del MAEC no se ha repetido: debe confirmarse en la Comisión Electoral nigeriana antes de publicarla como calendario definitivo.
+- Freedom in the World 2025 evalúa principalmente 2024. La puntuación 44/100 se presenta con ese año y no como medición posterior.
+- Las estimaciones de muertos de la guerra de Biafra varían ampliamente; el texto describe la mortalidad masiva y la hambruna sin escoger una cifra no consolidada.
+- Los porcentajes religiosos del MAEC se entienden como una división aproximada entre cristianismo e islam, con prácticas tradicionales superpuestas; no se fuerza una suma censal.

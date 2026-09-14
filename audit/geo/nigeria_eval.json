@@ -1,0 +1,1367 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Badagry · Ruta de los Esclavos y Punto de No Retorno",
+  "cat": "Cultura",
+  "clase": "area",
+  "lat": 6.415,
+  "lon": 2.8814,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "point of no return",
+   "kind": "amenity=ferry_terminal",
+   "lat": 6.40548,
+   "lon": 2.88463,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "point of no return",
+    "kind": "amenity=ferry_terminal",
+    "lat": 6.40548,
+    "lon": 2.88463,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Lagos · megaciudad, mercados y música",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 6.4541,
+  "lon": 3.3947,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lagos",
+   "kind": "place=city",
+   "lat": 6.45506,
+   "lon": 3.39418,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lagos",
+    "kind": "place=city",
+    "lat": 6.45506,
+    "lon": 3.39418,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lagos",
+    "kind": "place=state",
+    "lat": 6.5269,
+    "lon": 3.5774,
+    "d": 21.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lagos National Stadium",
+    "kind": "leisure=stadium",
+    "lat": 6.49714,
+    "lon": 3.36499,
+    "d": 5.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Lekki Conservation Centre",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 6.4432,
+  "lon": 3.6011,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lekki Conservation Center",
+   "kind": "leisure=park",
+   "lat": 6.43621,
+   "lon": 3.53558,
+   "d": 7.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lekki Conservation Center",
+    "kind": "leisure=park",
+    "lat": 6.43621,
+    "lon": 3.53558,
+    "d": 7.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lekki Conservation Center",
+    "kind": "highway=residential",
+    "lat": 6.44291,
+    "lon": 3.53516,
+    "d": 7.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lekki Conservation Center",
+    "kind": "highway=service",
+    "lat": 6.4423,
+    "lon": 3.53538,
+    "d": 7.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Benin City · Palacio del Oba, bronces y murallas",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 6.335,
+  "lon": 5.6037,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Oba Palace",
+   "kind": "building=public",
+   "lat": 6.332,
+   "lon": 5.6201,
+   "d": 1.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Oba Palace Road",
+    "kind": "highway=residential",
+    "lat": 6.33285,
+    "lon": 5.62095,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Oba Palace",
+    "kind": "building=public",
+    "lat": 6.332,
+    "lon": 5.6201,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Oba of Ogijo palace",
+    "kind": "building=yes",
+    "lat": 6.70365,
+    "lon": 3.51111,
+    "d": 234.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Cruce del Níger · puente de Asaba-Onitsha",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 6.1833,
+  "lon": 6.75,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "THIRD NIGER BRIDGE",
+   "kind": "highway=construction",
+   "lat": 6.15057,
+   "lon": 6.77353,
+   "d": 4.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Second Niger Bridge",
+    "kind": "highway=trunk",
+    "lat": 6.11948,
+    "lon": 6.7557,
+    "d": 7.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "THIRD NIGER BRIDGE",
+    "kind": "highway=construction",
+    "lat": 6.15057,
+    "lon": 6.77353,
+    "d": 4.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "NIGER BRIDGE",
+    "kind": "highway=trunk",
+    "lat": 6.13416,
+    "lon": 6.75952,
+    "d": 5.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Calabar",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 4.9589,
+  "lon": 8.3269,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Calabar",
+   "kind": "ciudad de Nigeria",
+   "lat": 4.95,
+   "lon": 8.325,
+   "d": 1.0,
+   "match": true,
+   "id": "Q844091"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Calabar",
+    "kind": "place=city",
+    "lat": 4.9796,
+    "lon": 8.33736,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Calabar",
+    "kind": "waterway=river",
+    "lat": 5.31228,
+    "lon": 8.30462,
+    "d": 39.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Calabar Municipal",
+    "kind": "boundary=administrative",
+    "lat": 5.01539,
+    "lon": 8.34666,
+    "d": 6.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Calabar",
+    "kind": "ciudad de Nigeria",
+    "lat": 4.95,
+    "lon": 8.325,
+    "d": 1.0,
+    "match": true,
+    "id": "Q844091"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Drill Ranch de Calabar (Pandrillus)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 4.97,
+  "lon": 8.34,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Parque Nacional de Cross River · división de Oban",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 5.35,
+  "lon": 8.65,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Cross River National Park - Oban Division",
+   "kind": "boundary=national_park",
+   "lat": 5.36113,
+   "lon": 8.47261,
+   "d": 19.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cross River National Park - Oban Division",
+    "kind": "boundary=national_park",
+    "lat": 5.36113,
+    "lon": 8.47261,
+    "d": 19.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cross River National Park - Oban Division",
+    "kind": "leisure=nature_reserve",
+    "lat": 5.36113,
+    "lon": 8.47261,
+    "d": 19.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Monolitos de Alok / Ikom",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 6.05,
+  "lon": 8.72,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Nigerian Telecommunication",
+   "kind": "amenity=public_building",
+   "lat": 6.43152,
+   "lon": 7.51398,
+   "d": 139.9,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nigerian Telecommunication",
+    "kind": "amenity=public_building",
+    "lat": 6.43152,
+    "lon": 7.51398,
+    "d": 139.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Nigerian Breweries Ltd",
+    "kind": "landuse=industrial",
+    "lat": 7.39843,
+    "lon": 3.96901,
+    "d": 545.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Alokura",
+    "kind": "place=village",
+    "lat": 7.23333,
+    "lon": 7.15,
+    "d": 217.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Cataratas de Agbokim",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 5.9069,
+  "lon": 8.9128,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Agbokim Waterfalls",
+   "kind": "waterway=waterfall",
+   "lat": 5.90691,
+   "lon": 8.91287,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Agbokim Waterfalls",
+    "kind": "waterway=waterfall",
+    "lat": 5.90691,
+    "lon": 8.91287,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Agbokim Waterfalls",
+    "kind": "natural=cliff",
+    "lat": 5.90691,
+    "lon": 8.91283,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Montaña de Afi · santuario de drills y gorilas de Cross River",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 6.2833,
+  "lon": 8.9667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Afi Mountain Wildlife Sanctuary",
+   "kind": "boundary=protected_area",
+   "lat": 6.33202,
+   "lon": 8.95917,
+   "d": 5.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Afi Mountain Wildlife Sanctuary",
+    "kind": "boundary=protected_area",
+    "lat": 6.33202,
+    "lon": 8.95917,
+    "d": 5.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Meseta de Obudu (Obudu Mountain Resort)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 6.37,
+  "lon": 9.37,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Obudu Mountain Resort",
+   "kind": "leisure=resort",
+   "lat": 6.38613,
+   "lon": 9.3747,
+   "d": 1.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Obudu Mountain Resort",
+    "kind": "leisure=resort",
+    "lat": 6.38613,
+    "lon": 9.3747,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Obudu Mountain Resort",
+    "kind": "tourism=hotel",
+    "lat": 6.40242,
+    "lon": 9.40314,
+    "d": 5.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Bosque Sagrado de Osun-Osogbo (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 7.7581,
+  "lon": 4.5586,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Osun-Osogbo Sacred Grove",
+   "kind": "place=locality",
+   "lat": 7.75511,
+   "lon": 4.55064,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Osun-Osogbo Sacred Grove",
+    "kind": "place=locality",
+    "lat": 7.75511,
+    "lon": 4.55064,
+    "d": 0.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Ibadan",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 7.3775,
+  "lon": 3.947,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ibadan North East",
+   "kind": "boundary=administrative",
+   "lat": 7.39391,
+   "lon": 3.92735,
+   "d": 2.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ibadan",
+    "kind": "railway=stop",
+    "lat": 7.55961,
+    "lon": 3.89638,
+    "d": 21.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ibadan",
+    "kind": "railway=stop",
+    "lat": 7.55953,
+    "lon": 3.89643,
+    "d": 21.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ibadan North East",
+    "kind": "boundary=administrative",
+    "lat": 7.39391,
+    "lon": 3.92735,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Abeokuta y la roca de Olumo",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 7.1517,
+  "lon": 3.3489,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Olumo Rock",
+   "kind": "natural=rock",
+   "lat": 7.1672,
+   "lon": 3.34258,
+   "d": 1.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Olumo Rock",
+    "kind": "natural=rock",
+    "lat": 7.1672,
+    "lon": 3.34258,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Olumo Rock Tourist Complex",
+    "kind": "tourism=attraction",
+    "lat": 7.16691,
+    "lon": 3.34203,
+    "d": 1.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Sèmè-Kraké (desde Benín)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.3697,
+  "lon": 2.7275,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Sèmè-Kraké",
+   "kind": "historic=boundary_stone",
+   "lat": 6.37962,
+   "lon": 2.70672,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sèmè-Kraké",
+    "kind": "historic=boundary_stone",
+    "lat": 6.37962,
+    "lon": 2.70672,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Commissariat de Sèmè Kraké",
+    "kind": "amenity=police",
+    "lat": 6.38089,
+    "lon": 2.70403,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Poste Avancé Brigarde Territorial de Sèmè Kraké",
+    "kind": "amenity=police",
+    "lat": 6.38009,
+    "lon": 2.70649,
+    "d": 2.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — Mfum/Ekok (hacia Camerún)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 5.945,
+  "lon": 9.06,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mfum",
+   "kind": "place=village",
+   "lat": 5.8362,
+   "lon": 8.8355,
+   "d": 27.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mfum",
+    "kind": "place=village",
+    "lat": 5.8362,
+    "lon": 8.8355,
+    "d": 27.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mfom",
+    "kind": "place=village",
+    "lat": 6.49743,
+    "lon": 8.55278,
+    "d": 83.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mfu",
+    "kind": "waterway=river",
+    "lat": 5.73406,
+    "lon": 10.77502,
+    "d": 191.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida subida — Idiroko / Igolo (hacia Benín)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.7333,
+  "lon": 2.8833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Idiroko",
+   "kind": "town in Ogun State, Nigeria",
+   "lat": 6.6363,
+   "lon": 2.7441,
+   "d": 18.8,
+   "match": true,
+   "id": "Q23926874"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Idiroko",
+    "kind": "place=village",
+    "lat": 6.63333,
+    "lon": 2.73333,
+    "d": 19.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Idiroko",
+    "kind": "place=village",
+    "lat": 7.4758,
+    "lon": 3.92528,
+    "d": 141.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Idiroko Estate",
+    "kind": "highway=residential",
+    "lat": 6.56312,
+    "lon": 3.36509,
+    "d": 56.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Idiroko",
+    "kind": "town in Ogun State, Nigeria",
+    "lat": 6.6363,
+    "lon": 2.7441,
+    "d": 18.8,
+    "match": true,
+    "id": "Q23926874"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Entrada subida — Mfum/Ekok (desde Camerún)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 5.945,
+  "lon": 9.06,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mfum",
+   "kind": "place=village",
+   "lat": 5.8362,
+   "lon": 8.8355,
+   "d": 27.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mfum",
+    "kind": "place=village",
+    "lat": 5.8362,
+    "lon": 8.8355,
+    "d": 27.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mfom",
+    "kind": "place=village",
+    "lat": 6.49743,
+    "lon": 8.55278,
+    "d": 83.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mfu",
+    "kind": "waterway=river",
+    "lat": 5.73406,
+    "lon": 10.77502,
+    "d": 191.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Consulado General de España en Lagos",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 6.4281,
+  "lon": 3.4219,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Consulate General of Spain in Lagos",
+   "kind": "office=diplomatic",
+   "lat": 6.43589,
+   "lon": 3.41738,
+   "d": 1.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Consulate General of Spain in Lagos",
+    "kind": "office=diplomatic",
+    "lat": 6.43589,
+    "lon": 3.41738,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Abuya",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 9.0579,
+  "lon": 7.4951,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": 9.07857,
+   "lon": 7.4974,
+   "d": 2.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": 9.07857,
+    "lon": 7.4974,
+    "d": 2.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Embassy of the Federal Republic of Germany in Abuja",
+    "kind": "office=diplomatic",
+    "lat": 9.09788,
+    "lon": 7.4821,
+    "d": 4.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Embassy of Japan",
+    "kind": "office=diplomatic",
+    "lat": 9.07877,
+    "lon": 7.49864,
+    "d": 2.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Lagos University Teaching Hospital (LUTH) — Lagos",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 6.5194,
+  "lon": 3.3486,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lagos University Teaching Hospital",
+   "kind": "amenity=hospital",
+   "lat": 6.51827,
+   "lon": 3.35655,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lagos University Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": 6.51827,
+    "lon": 3.35655,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lagos State University Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": 6.58966,
+    "lon": 3.3422,
+    "d": 7.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "University of Calabar Teaching Hospital (UCTH)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 4.955,
+  "lon": 8.34,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "University of Calabar Teaching Hospital",
+   "kind": "amenity=hospital",
+   "lat": 4.95372,
+   "lon": 8.35062,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "University of Calabar Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": 4.95372,
+    "lon": 8.35062,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "University College Hospital (UCH) — Ibadan",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 7.4,
+  "lon": 3.899,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "University College Hospital (UCH)",
+   "kind": "amenity=hospital",
+   "lat": 7.40283,
+   "lon": 3.90371,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "University College Hospital (UCH)",
+    "kind": "amenity=hospital",
+    "lat": 7.40283,
+    "lon": 3.90371,
+    "d": 0.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Stella Obasanjo / hospitales de Benin City",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 6.335,
+  "lon": 5.6037,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Mercado de repuestos de Ladipo — Lagos",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": 6.54,
+  "lon": 3.33,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ladipo Market",
+   "kind": "amenity=marketplace",
+   "lat": 6.54448,
+   "lon": 3.34121,
+   "d": 1.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ladipo Market",
+    "kind": "amenity=marketplace",
+    "lat": 6.54448,
+    "lon": 3.34121,
+    "d": 1.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Lagos",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 6.4541,
+  "lon": 3.3947,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lagos",
+   "kind": "place=city",
+   "lat": 6.45506,
+   "lon": 3.39418,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lagos",
+    "kind": "place=city",
+    "lat": 6.45506,
+    "lon": 3.39418,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lagos",
+    "kind": "place=state",
+    "lat": 6.5269,
+    "lon": 3.5774,
+    "d": 21.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lagos National Stadium",
+    "kind": "leisure=stadium",
+    "lat": 6.49714,
+    "lon": 3.36499,
+    "d": 5.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Benin City / Asaba / Calabar",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 6.335,
+  "lon": 5.6037,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Benin City",
+   "kind": "place=city",
+   "lat": 6.33306,
+   "lon": 5.62211,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Benin City",
+    "kind": "place=city",
+    "lat": 6.33306,
+    "lon": 5.62211,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Benin City Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": 6.31714,
+    "lon": 5.59965,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Benin City National Museum",
+    "kind": "leisure=outdoor_seating",
+    "lat": 6.33291,
+    "lon": 5.62212,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ciudad de Benín",
+    "kind": "ciudad nigeriana",
+    "lat": 6.3176,
+    "lon": 5.6145,
+    "d": 2.3,
+    "match": false,
+    "id": "Q320704"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Ikom (último antes de Camerún)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 5.9667,
+  "lon": 8.7,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ikom Stadium",
+   "kind": "leisure=stadium",
+   "lat": 5.96843,
+   "lon": 8.71992,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ikom",
+    "kind": "place=town",
+    "lat": 5.96277,
+    "lon": 8.72397,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ikom Stadium",
+    "kind": "leisure=stadium",
+    "lat": 5.96843,
+    "lon": 8.71992,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ikom Odom",
+    "kind": "place=village",
+    "lat": 5.00925,
+    "lon": 7.6807,
+    "d": 155.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ikom",
+    "kind": "área de gobierno local en Nigeria",
+    "lat": 6.08333,
+    "lon": 8.61667,
+    "d": 15.9,
+    "match": true,
+    "id": "Q5996091"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Ogoja / Abakaliki / Enugu (corredor de subida)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 6.3249,
+  "lon": 8.1137,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ogoja Road",
+   "kind": "highway=secondary",
+   "lat": 6.31541,
+   "lon": 8.1234,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ogoja",
+    "kind": "boundary=administrative",
+    "lat": 6.5278,
+    "lon": 8.68784,
+    "d": 67.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ogoja",
+    "kind": "place=town",
+    "lat": 6.65753,
+    "lon": 8.80185,
+    "d": 84.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ogoja Road",
+    "kind": "highway=secondary",
+    "lat": 6.31541,
+    "lon": 8.1234,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ogoja",
+    "kind": "área de gobierno local en Nigeria",
+    "lat": 6.5,
+    "lon": 8.66667,
+    "d": 64.1,
+    "match": true,
+    "id": "Q3509254"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Agua potable y de uso general · Lagos, Benin City, Calabar",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 6.4541,
+  "lon": 3.3947,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lagos",
+   "kind": "place=city",
+   "lat": 6.45506,
+   "lon": 3.39418,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lagos",
+    "kind": "place=city",
+    "lat": 6.45506,
+    "lon": 3.39418,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lagos",
+    "kind": "place=state",
+    "lat": 6.5269,
+    "lon": 3.5774,
+    "d": 21.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lagos National Stadium",
+    "kind": "leisure=stadium",
+    "lat": 6.49714,
+    "lon": 3.36499,
+    "d": 5.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Lagos",
+    "kind": "ciudad más poblada de Nigeria",
+    "lat": 6.45611,
+    "lon": 3.39361,
+    "d": 0.3,
+    "match": true,
+    "id": "Q8673"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Agua · Ikom y Obudu",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 5.9667,
+  "lon": 8.7,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ikom Stadium",
+   "kind": "leisure=stadium",
+   "lat": 5.96843,
+   "lon": 8.71992,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ikom",
+    "kind": "place=town",
+    "lat": 5.96277,
+    "lon": 8.72397,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ikom Stadium",
+    "kind": "leisure=stadium",
+    "lat": 5.96843,
+    "lon": 8.71992,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ikom Odom",
+    "kind": "place=village",
+    "lat": 5.00925,
+    "lon": 7.6807,
+    "d": 155.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ikom",
+    "kind": "área de gobierno local en Nigeria",
+    "lat": 6.08333,
+    "lon": 8.61667,
+    "d": 15.9,
+    "match": true,
+    "id": "Q5996091"
+   }
+  ]
+ }
+]

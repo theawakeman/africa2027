@@ -1,0 +1,1137 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Grand Marché",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": 6.12738,
+    "lon": 1.23349,
+    "d": 1.3
+   },
+   {
+    "n": "Grand Marché",
+    "k": "building",
+    "v": "yes",
+    "lat": 6.12604,
+    "lon": 1.22731,
+    "d": 0.8
+   },
+   {
+    "n": "Rue du Grand Marché",
+    "k": "highway",
+    "v": "tertiary",
+    "lat": 6.12513,
+    "lon": 1.22395,
+    "d": 0.8
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Marché des Féticheurs",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": 6.15767,
+    "lon": 1.26726,
+    "d": 2.2
+   },
+   {
+    "n": "",
+    "k": "tourism",
+    "v": "apartment",
+    "lat": 6.15769,
+    "lon": 1.26714,
+    "d": 2.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Palais de Lomé (Ancien Palais des Gouverneurs)",
+    "k": "leisure",
+    "v": "park",
+    "lat": 6.12036,
+    "lon": 1.21222,
+    "d": 1.1
+   },
+   {
+    "n": "Palais des congrès de Lomé",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": 6.13031,
+    "lon": 1.21737,
+    "d": 0.3
+   },
+   {
+    "n": "Palais de la Présidence",
+    "k": "office",
+    "v": "government",
+    "lat": 6.1201,
+    "lon": 1.21453,
+    "d": 1.1
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3361113",
+    "l": "Palacio de los Gobernadores (Togo)",
+    "t": "former official residence of the President of Togo; official residence of the First Minister since 1991",
+    "lat": 6.1204,
+    "lon": 1.2121,
+    "d": 1.1
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Bar FK Beach",
+    "k": "amenity",
+    "v": "pub",
+    "lat": 6.16145,
+    "lon": 1.32731,
+    "d": 1.5
+   },
+   {
+    "n": "Alors Beach Restaurant Bar",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": 6.16117,
+    "lon": 1.32744,
+    "d": 1.6
+   },
+   {
+    "n": "Coco Beach",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": 6.16635,
+    "lon": 1.34643,
+    "d": 2.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Maison des esclaves",
+    "k": "tourism",
+    "v": "museum",
+    "lat": 6.20382,
+    "lon": 1.47685,
+    "d": 5.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Togoville",
+    "k": "place",
+    "v": "town",
+    "lat": 6.23452,
+    "lon": 1.47993,
+    "d": 3.3
+   },
+   {
+    "n": "Togoville",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": 6.22919,
+    "lon": 1.48249,
+    "d": 3.6
+   },
+   {
+    "n": "",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": 6.23062,
+    "lon": 1.47743,
+    "d": 3.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Glidji",
+    "k": "place",
+    "v": "suburb",
+    "lat": 6.25118,
+    "lon": 1.60153,
+    "d": 2.0
+   },
+   {
+    "n": "Lycée d'Enseignement Technique et Professionnel d'Aného Glidji",
+    "k": "landuse",
+    "v": "education",
+    "lat": 6.25621,
+    "lon": 1.60694,
+    "d": 2.7
+   },
+   {
+    "n": "Cimetière des Allemand d'Aného",
+    "k": "landuse",
+    "v": "cemetery",
+    "lat": 6.23479,
+    "lon": 1.60851,
+    "d": 1.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Kara",
+    "k": "place",
+    "v": "city",
+    "lat": 9.54888,
+    "lon": 1.19775,
+    "d": 1.3
+   },
+   {
+    "n": "Kara",
+    "k": "waterway",
+    "v": "river",
+    "lat": 9.53889,
+    "lon": 1.18284,
+    "d": 1.4
+   },
+   {
+    "n": "Kara",
+    "k": "waterway",
+    "v": "river",
+    "lat": 9.54011,
+    "lon": 1.18516,
+    "d": 1.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Koutammakou Land",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 10.10831,
+    "lon": 1.09918,
+    "d": 5.9
+   },
+   {
+    "n": "Le Club du Koutammakou",
+    "k": "amenity",
+    "v": "pub",
+    "lat": 10.14918,
+    "lon": 1.07757,
+    "d": 11.0
+   },
+   {
+    "n": "Le Club du Koutammakou",
+    "k": "tourism",
+    "v": "hostel",
+    "lat": 10.14918,
+    "lon": 1.07757,
+    "d": 11.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Faille d'Alédjo",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": 9.27454,
+    "lon": 1.21771,
+    "d": 7.2
+   },
+   {
+    "n": "Faille d'Alédjo",
+    "k": "natural",
+    "v": "rock",
+    "lat": 9.27486,
+    "lon": 1.22141,
+    "d": 7.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Sokodé",
+    "k": "place",
+    "v": "city",
+    "lat": 8.98742,
+    "lon": 1.13579,
+    "d": 0.5
+   },
+   {
+    "n": "Sokodé",
+    "k": "place",
+    "v": "city",
+    "lat": 8.98343,
+    "lon": 1.14376,
+    "d": 1.1
+   },
+   {
+    "n": "Sokodé - Bowounda",
+    "k": "highway",
+    "v": "secondary",
+    "lat": 8.99476,
+    "lon": 1.16577,
+    "d": 3.8
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q845097",
+    "l": "Sokodé",
+    "t": "ciudad de Togo",
+    "lat": 8.98333,
+    "lon": 1.13333,
+    "d": 0.0
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Bassar",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 9.2502,
+    "lon": 0.7718,
+    "d": 4.8
+   },
+   {
+    "n": "Bassar",
+    "k": "place",
+    "v": "town",
+    "lat": 9.26204,
+    "lon": 0.77903,
+    "d": 3.3
+   },
+   {
+    "n": "Bassarekura",
+    "k": "place",
+    "v": "hamlet",
+    "lat": 8.55454,
+    "lon": 0.08055,
+    "d": 113.2
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3910159",
+    "l": "Bassar",
+    "t": "prefectura de la región de Kara, en Togo",
+    "lat": 9.25,
+    "lon": 0.78333,
+    "d": 4.1
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Parc National de Fazao-Malfakassa",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 8.76571,
+    "lon": 0.76086,
+    "d": 20.5
+   },
+   {
+    "n": "Piste du Parc National Fazao-Malfakassa",
+    "k": "highway",
+    "v": "track",
+    "lat": 8.74589,
+    "lon": 0.81264,
+    "d": 23.7
+   },
+   {
+    "n": "Piste du Parc National Fazao-Malfakassa",
+    "k": "highway",
+    "v": "residential",
+    "lat": 8.69498,
+    "lon": 0.77243,
+    "d": 28.5
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q144029",
+    "l": "Parque nacional de Fazao Malfakassa",
+    "t": "Parque nacional en el Togo",
+    "lat": 9.0,
+    "lon": 1.0,
+    "d": 28.0
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Kpalimé",
+    "k": "place",
+    "v": "city",
+    "lat": 6.91066,
+    "lon": 0.6324,
+    "d": 1.2
+   },
+   {
+    "n": "Kpalime",
+    "k": "landuse",
+    "v": "residential",
+    "lat": 6.91677,
+    "lon": 0.63508,
+    "d": 1.9
+   },
+   {
+    "n": "Kpalimé - Atakpamé",
+    "k": "highway",
+    "v": "primary",
+    "lat": 6.91172,
+    "lon": 0.63233,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "Cascade de Wome",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": 6.8583,
+    "lon": 0.55458,
+    "d": 14.9
+   },
+   {
+    "n": "Accès à la Cascade de Wome",
+    "k": "place",
+    "v": "isolated_dwelling",
+    "lat": 6.8581,
+    "lon": 0.55624,
+    "d": 14.8
+   },
+   {
+    "n": "Site de Cascade",
+    "k": "place",
+    "v": "locality",
+    "lat": 6.85885,
+    "lon": 0.55669,
+    "d": 14.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Mont Kloto",
+    "k": "natural",
+    "v": "peak",
+    "lat": 6.9532,
+    "lon": 0.56986,
+    "d": 0.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "ph": [
+   {
+    "n": "Mont Agou",
+    "k": "natural",
+    "v": "peak",
+    "lat": 6.87216,
+    "lon": 0.74818,
+    "d": 7.5
+   },
+   {
+    "n": "Mont Agou",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": 6.87204,
+    "lon": 0.74815,
+    "d": 7.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Aflao",
+    "k": "place",
+    "v": "town",
+    "lat": 6.11605,
+    "lon": 1.1914,
+    "d": 1.0
+   },
+   {
+    "n": "Aflao-Gakli",
+    "k": "place",
+    "v": "suburb",
+    "lat": 6.17861,
+    "lon": 1.19913,
+    "d": 6.9
+   },
+   {
+    "n": "Aflao-Gakli",
+    "k": "highway",
+    "v": "residential",
+    "lat": 6.18221,
+    "lon": 1.20393,
+    "d": 7.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Hilla-Condji",
+    "k": "place",
+    "v": "village",
+    "lat": 6.24001,
+    "lon": 1.63646,
+    "d": 8.2
+   },
+   {
+    "n": "École primaire publique de Hilla-Condji",
+    "k": "amenity",
+    "v": "school",
+    "lat": 6.2417,
+    "lon": 1.63473,
+    "d": 8.3
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Ouaké",
+    "k": "place",
+    "v": "town",
+    "lat": 9.66425,
+    "lon": 1.38593,
+    "d": 2.6
+   },
+   {
+    "n": "Point Relais Ouake",
+    "k": "shop",
+    "v": "department_store",
+    "lat": 9.66407,
+    "lon": 1.38671,
+    "d": 2.7
+   },
+   {
+    "n": "Office de Tourisme de Ouaké",
+    "k": "information",
+    "v": "office",
+    "lat": 9.67683,
+    "lon": 1.37661,
+    "d": 1.5
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q1125581",
+    "l": "Ouaké",
+    "t": "comuna beninesa",
+    "lat": 9.66167,
+    "lon": 1.38472,
+    "d": 2.6
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Tohoun",
+    "k": "place",
+    "v": "town",
+    "lat": 7.02262,
+    "lon": 1.6159,
+    "d": 3.1
+   },
+   {
+    "n": "Tohoundji",
+    "k": "place",
+    "v": "hamlet",
+    "lat": 6.769,
+    "lon": 1.95224,
+    "d": 46.6
+   },
+   {
+    "n": "Tohoundji",
+    "k": "place",
+    "v": "hamlet",
+    "lat": 6.69569,
+    "lon": 1.92855,
+    "d": 49.6
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3530396",
+    "l": "Tohoun",
+    "t": "ville du Togo",
+    "lat": 7.023,
+    "lon": 1.615,
+    "d": 3.0
+   },
+   {
+    "id": "Q119295995",
+    "l": "TOHOUN post office",
+    "t": "TOHOUN post office in the Plateaux region",
+    "lat": 7.02365,
+    "lon": 1.61662,
+    "d": 3.2
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Wli Afegame",
+    "k": "place",
+    "v": "village",
+    "lat": 7.11948,
+    "lon": 0.58812,
+    "d": 0.2
+   },
+   {
+    "n": "Wli Falls - Lower Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": 7.1058,
+    "lon": 0.60849,
+    "d": 2.6
+   },
+   {
+    "n": "Wli Likpe Road",
+    "k": "highway",
+    "v": "secondary",
+    "lat": 7.12076,
+    "lon": 0.58911,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Cinkassé",
+    "k": "place",
+    "v": "town",
+    "lat": 11.10107,
+    "lon": 0.01573,
+    "d": 27.1
+   },
+   {
+    "n": "Lomé - Cinkassé",
+    "k": "highway",
+    "v": "trunk",
+    "lat": 10.86383,
+    "lon": 0.21359,
+    "d": 13.5
+   },
+   {
+    "n": "Total Cinkassé 1",
+    "k": "landuse",
+    "v": "fuel",
+    "lat": 11.09679,
+    "lon": 0.02224,
+    "d": 26.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Christ Embassy Odumse",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": 5.85012,
+    "lon": -0.05201,
+    "d": 30.2
+   },
+   {
+    "n": "Christ Embassy",
+    "k": "building",
+    "v": "church",
+    "lat": 5.70388,
+    "lon": -0.02932,
+    "d": 19.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "CHU Sylvanus Olympio",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": 6.14308,
+    "lon": 1.20726,
+    "d": 3.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "CHU KARA",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 9.556,
+    "lon": 1.18292,
+    "d": 0.6
+   },
+   {
+    "n": "CHU Kara",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 9.55604,
+    "lon": 1.18292,
+    "d": 0.7
+   },
+   {
+    "n": "Agence INAM CHU",
+    "k": "office",
+    "v": "insurance",
+    "lat": 9.55681,
+    "lon": 1.18239,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Lomé",
+    "k": "place",
+    "v": "city",
+    "lat": 6.13042,
+    "lon": 1.21583,
+    "d": 0.8
+   },
+   {
+    "n": "Lomé",
+    "k": "railway",
+    "v": "station",
+    "lat": 6.13138,
+    "lon": 1.21964,
+    "d": 0.4
+   },
+   {
+    "n": "Lomé-2",
+    "k": "place",
+    "v": "suburb",
+    "lat": 6.1895,
+    "lon": 1.22514,
+    "d": 6.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Aného",
+    "k": "place",
+    "v": "town",
+    "lat": 6.22888,
+    "lon": 1.59381,
+    "d": 0.8
+   },
+   {
+    "n": "Péage Aneho",
+    "k": "highway",
+    "v": "service",
+    "lat": 6.22603,
+    "lon": 1.55944,
+    "d": 4.6
+   },
+   {
+    "n": "Aneho Psychiatric Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 6.24981,
+    "lon": 1.61546,
+    "d": 2.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Kara",
+    "k": "place",
+    "v": "city",
+    "lat": 9.54888,
+    "lon": 1.19775,
+    "d": 1.3
+   },
+   {
+    "n": "Kara",
+    "k": "waterway",
+    "v": "river",
+    "lat": 9.53889,
+    "lon": 1.18284,
+    "d": 1.4
+   },
+   {
+    "n": "Kara",
+    "k": "waterway",
+    "v": "river",
+    "lat": 9.54011,
+    "lon": 1.18516,
+    "d": 1.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Sokodé",
+    "k": "place",
+    "v": "city",
+    "lat": 8.98742,
+    "lon": 1.13579,
+    "d": 0.5
+   },
+   {
+    "n": "Sokodé",
+    "k": "place",
+    "v": "city",
+    "lat": 8.98343,
+    "lon": 1.14376,
+    "d": 1.1
+   },
+   {
+    "n": "Sokodé - Bowounda",
+    "k": "highway",
+    "v": "secondary",
+    "lat": 8.99476,
+    "lon": 1.16577,
+    "d": 3.8
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q845097",
+    "l": "Sokodé",
+    "t": "ciudad de Togo",
+    "lat": 8.98333,
+    "lon": 1.13333,
+    "d": 0.0
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Atakpamé",
+    "k": "place",
+    "v": "city",
+    "lat": 7.53206,
+    "lon": 1.12195,
+    "d": 1.3
+   },
+   {
+    "n": "Voie ferrée Agbonou-Atakpamé",
+    "k": "highway",
+    "v": "track",
+    "lat": 7.52877,
+    "lon": 1.1278,
+    "d": 0.8
+   },
+   {
+    "n": "Voie Ferrée Agbonou-Atakpamé",
+    "k": "highway",
+    "v": "track",
+    "lat": 7.51552,
+    "lon": 1.14407,
+    "d": 2.3
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-14",
+  "ph": [
+   {
+    "n": "Kpalimé",
+    "k": "place",
+    "v": "city",
+    "lat": 6.91066,
+    "lon": 0.6324,
+    "d": 1.2
+   },
+   {
+    "n": "Kpalime",
+    "k": "landuse",
+    "v": "residential",
+    "lat": 6.91677,
+    "lon": 0.63508,
+    "d": 1.9
+   },
+   {
+    "n": "Kpalimé - Atakpamé",
+    "k": "highway",
+    "v": "primary",
+    "lat": 6.91172,
+    "lon": 0.63233,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q995413",
+    "l": "Palimé",
+    "t": "human settlement in Togo",
+    "lat": 6.91,
+    "lon": 0.62806,
+    "d": 1.3
+   },
+   {
+    "id": "Q118111799",
+    "l": "Kpalimé",
+    "t": "canton of kloto prefecture, plateaux region in togo",
+    "lat": 6.9107,
+    "lon": 0.6324,
+    "d": 1.2
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "ph": [
+   {
+    "n": "Lomé",
+    "k": "place",
+    "v": "city",
+    "lat": 6.13042,
+    "lon": 1.21583,
+    "d": 0.8
+   },
+   {
+    "n": "Lomé",
+    "k": "railway",
+    "v": "station",
+    "lat": 6.13138,
+    "lon": 1.21964,
+    "d": 0.4
+   },
+   {
+    "n": "Lomé-2",
+    "k": "place",
+    "v": "suburb",
+    "lat": 6.1895,
+    "lon": 1.22514,
+    "d": 6.4
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3792",
+    "l": "Lomé",
+    "t": "capital de Togo",
+    "lat": 6.13,
+    "lon": 1.21583,
+    "d": 0.8
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "ph": [
+   {
+    "n": "Kara",
+    "k": "place",
+    "v": "city",
+    "lat": 9.54888,
+    "lon": 1.19775,
+    "d": 1.3
+   },
+   {
+    "n": "Kara",
+    "k": "waterway",
+    "v": "river",
+    "lat": 9.53889,
+    "lon": 1.18284,
+    "d": 1.4
+   },
+   {
+    "n": "Kara",
+    "k": "waterway",
+    "v": "river",
+    "lat": 9.54011,
+    "lon": 1.18516,
+    "d": 1.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]

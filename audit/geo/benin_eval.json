@@ -1,0 +1,1622 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Grand-Popo, la Bouche du Roy y las playas del Mono",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 6.2833,
+  "lon": 1.8167,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Bouche du Roi",
+   "kind": "tourism=attraction",
+   "lat": 6.29725,
+   "lon": 1.93095,
+   "d": 12.7,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bouche du Roi",
+    "kind": "tourism=attraction",
+    "lat": 6.29725,
+    "lon": 1.93095,
+    "d": 12.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Ouidah · Ruta de los Esclavos y Puerta del No Retorno",
+  "cat": "Patrimonio",
+  "clase": "area",
+  "lat": 6.3467,
+  "lon": 2.08,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Porte du Non-Retour",
+   "kind": "tourism=museum",
+   "lat": 6.32425,
+   "lon": 2.08958,
+   "d": 2.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Porte du Non-Retour",
+    "kind": "tourism=museum",
+    "lat": 6.32425,
+    "lon": 2.08958,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Porte du Non-Retour",
+    "kind": "tourism=museum",
+    "lat": 6.32295,
+    "lon": 2.08782,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Musée de la Porte du Non-Retour",
+    "kind": "tourism=museum",
+    "lat": 6.32256,
+    "lon": 2.08323,
+    "d": 2.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Ouidah · Templo de las Pitones, basílica y fuerte portugués",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 6.3639,
+  "lon": 2.0856,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Temple des Pythons",
+   "kind": "amenity=place_of_worship",
+   "lat": 6.35997,
+   "lon": 2.08504,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Temple des Pythons",
+    "kind": "amenity=place_of_worship",
+    "lat": 6.35997,
+    "lon": 2.08504,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Vodun Days · fiesta nacional del vudú (10 de enero, Ouidah)",
+  "cat": "Cultura",
+  "clase": "area",
+  "lat": 6.345,
+  "lon": 2.08,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Temple du vodoun-yaloui",
+   "kind": "amenity=place_of_worship",
+   "lat": 6.33946,
+   "lon": 2.08746,
+   "d": 1.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Temple du vodoun-yaloui",
+    "kind": "amenity=place_of_worship",
+    "lat": 6.33946,
+    "lon": 2.08746,
+    "d": 1.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Vodounnouhoué",
+    "kind": "place=hamlet",
+    "lat": 6.61192,
+    "lon": 1.95075,
+    "d": 32.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Lago Ahémé y Possotomé",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 6.45,
+  "lon": 1.9833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Possotomè",
+   "kind": "place=town",
+   "lat": 6.52166,
+   "lon": 1.96812,
+   "d": 8.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Possotomè",
+    "kind": "place=town",
+    "lat": 6.52166,
+    "lon": 1.96812,
+    "d": 8.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Source thermale de Possotomé",
+    "kind": "amenity=drinking_water",
+    "lat": 6.52391,
+    "lon": 1.9636,
+    "d": 8.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Union des Jeunes de l'Arrondissement de Possotomé (UJAP)",
+    "kind": "office=association",
+    "lat": 6.52209,
+    "lon": 1.96892,
+    "d": 8.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Route des Pêches y playas de Avlékété",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": 6.34,
+  "lon": 2.17,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Avlékété",
+   "kind": "place=town",
+   "lat": 6.34844,
+   "lon": 2.20401,
+   "d": 3.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Avlékété",
+    "kind": "place=town",
+    "lat": 6.34844,
+    "lon": 2.20401,
+    "d": 3.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Avlékété",
+    "kind": "amenity=ferry_terminal",
+    "lat": 6.35096,
+    "lon": 2.20639,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bureau d'arrondissement d'Avleketé",
+    "kind": "landuse=commercial",
+    "lat": 6.34066,
+    "lon": 2.20596,
+    "d": 4.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Embarcadero de Abomey-Calavi (acceso a Ganvié)",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 6.4478,
+  "lon": 2.3556,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Embarcadère pour Ganvié",
+   "kind": "amenity=parking",
+   "lat": 6.44764,
+   "lon": 2.36055,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embarcadère pour Ganvié",
+    "kind": "amenity=parking",
+    "lat": 6.44764,
+    "lon": 2.36055,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Embarcadère pour Ganvié",
+    "kind": "amenity=ferry_terminal",
+    "lat": 6.44756,
+    "lon": 2.36184,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Ganvié · la «Venecia de África»",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 6.4667,
+  "lon": 2.4167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ganvié 2",
+   "kind": "place=neighbourhood",
+   "lat": 6.47011,
+   "lon": 2.39453,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ganvié",
+    "kind": "place=town",
+    "lat": 6.46811,
+    "lon": 2.38997,
+    "d": 3.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ganvié 2",
+    "kind": "place=neighbourhood",
+    "lat": 6.47011,
+    "lon": 2.39453,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ganvié 1",
+    "kind": "place=neighbourhood",
+    "lat": 6.46882,
+    "lon": 2.38646,
+    "d": 3.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Cotonú · mercado de Dantokpa",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 6.3703,
+  "lon": 2.3912,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Marché Dantokpa",
+   "kind": "amenity=marketplace",
+   "lat": 6.37271,
+   "lon": 2.43351,
+   "d": 4.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Marché Dantokpa",
+    "kind": "amenity=marketplace",
+    "lat": 6.37271,
+    "lon": 2.43351,
+    "d": 4.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Marché  de ladji",
+    "kind": "amenity=marketplace",
+    "lat": 6.38884,
+    "lon": 2.43445,
+    "d": 5.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Porto-Novo",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 6.4969,
+  "lon": 2.6289,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Porto-Novo",
+   "kind": "place=city",
+   "lat": 6.49907,
+   "lon": 2.62534,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Porto-Novo",
+    "kind": "place=city",
+    "lat": 6.49907,
+    "lon": 2.62534,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Porto Novo",
+    "kind": "boundary=administrative",
+    "lat": 6.49352,
+    "lon": 2.62478,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Porto-Novo",
+    "kind": "railway=station",
+    "lat": 6.47858,
+    "lon": 2.62121,
+    "d": 2.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Savè · Oké Shabè y los inselbergs de las Collines",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 8.0333,
+  "lon": 2.4833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Oké-Owo-Aga",
+   "kind": "place=neighbourhood",
+   "lat": 8.05359,
+   "lon": 2.70904,
+   "d": 25.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Oké-Owo",
+    "kind": "place=village",
+    "lat": 8.05018,
+    "lon": 2.71093,
+    "d": 25.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Oké-Olou-Ossin",
+    "kind": "place=village",
+    "lat": 8.24117,
+    "lon": 2.6904,
+    "d": 32.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Oké-Owo-Aga",
+    "kind": "place=neighbourhood",
+    "lat": 8.05359,
+    "lon": 2.70904,
+    "d": 25.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Dassa-Zoumè · las 41 colinas, la gruta de Arigbo y Savalou",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 7.75,
+  "lon": 2.1833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Grotte marialede Dassa",
+   "kind": "amenity=place_of_worship",
+   "lat": 7.77384,
+   "lon": 2.18388,
+   "d": 2.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sanctuaire marial Notre Dame d'Arigbo",
+    "kind": "amenity=place_of_worship",
+    "lat": 7.7757,
+    "lon": 2.18572,
+    "d": 2.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Grotte marialede Dassa",
+    "kind": "amenity=place_of_worship",
+    "lat": 7.77384,
+    "lon": 2.18388,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arigbokoto",
+    "kind": "place=village",
+    "lat": 7.78418,
+    "lon": 2.10714,
+    "d": 9.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Palacios Reales de Abomey (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": 7.1833,
+  "lon": 1.9833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Palais royaux d'Abomey",
+   "kind": "historic=castle",
+   "lat": 7.18731,
+   "lon": 1.99358,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Palais royaux d'Abomey",
+    "kind": "historic=castle",
+    "lat": 7.18731,
+    "lon": 1.99358,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Bassila y los montes Kouffé",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 9.0167,
+  "lon": 1.6667,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Auto école monts forêt",
+   "kind": "amenity=driver_training",
+   "lat": 9.3419,
+   "lon": 2.60943,
+   "d": 109.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kouffo",
+    "kind": "place=state",
+    "lat": 7.13127,
+    "lon": 1.75674,
+    "d": 209.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Auto école monts forêt",
+    "kind": "amenity=driver_training",
+    "lat": 9.3419,
+    "lon": 2.60943,
+    "d": 109.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kpodji-Les-Monts",
+    "kind": "place=village",
+    "lat": 6.56704,
+    "lon": 2.36519,
+    "d": 283.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Taneka-Koko y Taneka-Béri",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": 9.8667,
+  "lon": 1.5,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Tanéka Béri",
+   "kind": "place=hamlet",
+   "lat": 9.8529,
+   "lon": 1.50731,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tanéka Béri",
+    "kind": "place=hamlet",
+    "lat": 9.8529,
+    "lon": 1.50731,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Koko",
+    "kind": "place=village",
+    "lat": 9.06755,
+    "lon": 2.36169,
+    "d": 129.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Koko",
+    "kind": "place=village",
+    "lat": 8.37889,
+    "lon": 1.84381,
+    "d": 169.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Djougou",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": 9.7,
+  "lon": 1.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Djougou",
+   "kind": "city in north west Benin",
+   "lat": 9.7,
+   "lon": 1.66667,
+   "d": 0.0,
+   "match": true,
+   "id": "Q868198"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Djougou",
+    "kind": "place=city",
+    "lat": 9.71067,
+    "lon": 1.66516,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djougou",
+    "kind": "boundary=administrative",
+    "lat": 9.70231,
+    "lon": 1.79835,
+    "d": 14.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djougou",
+    "kind": "amenity=place_of_worship",
+    "lat": 9.70726,
+    "lon": 1.66503,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Djougou",
+    "kind": "city in north west Benin",
+    "lat": 9.7,
+    "lon": 1.66667,
+    "d": 0.0,
+    "match": true,
+    "id": "Q868198"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Parque Nacional de la Pendjari — FUERA DEL ITINERARIO 2027",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 11.05,
+  "lon": 1.517,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Parc national de la Pendjari",
+   "kind": "natural=wood",
+   "lat": 11.22746,
+   "lon": 1.49466,
+   "d": 19.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc National de la Pendjari",
+    "kind": "boundary=national_park",
+    "lat": 11.23294,
+    "lon": 1.49239,
+    "d": 20.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc National de la Pendjari",
+    "kind": "leisure=nature_reserve",
+    "lat": 11.23294,
+    "lon": 1.49239,
+    "d": 20.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc national de la Pendjari",
+    "kind": "natural=wood",
+    "lat": 11.22746,
+    "lon": 1.49466,
+    "d": 19.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Cascadas de Tanougou y la cordillera de la Atacora — FUERA DEL ITINERARIO 2027",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 10.75,
+  "lon": 1.43,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tanougou",
+   "kind": "place=village",
+   "lat": 10.80995,
+   "lon": 1.4355,
+   "d": 6.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cascades de Tanougou",
+    "kind": "waterway=waterfall",
+    "lat": 10.80328,
+    "lon": 1.44252,
+    "d": 6.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Tanougou",
+    "kind": "place=village",
+    "lat": 10.80995,
+    "lon": 1.4355,
+    "d": 6.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chutes de Kota",
+    "kind": "waterway=waterfall",
+    "lat": 10.21117,
+    "lon": 1.447,
+    "d": 59.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Parque Nacional W (UNESCO, transfronterizo) — FUERA DEL ITINERARIO 2027",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": 11.85,
+  "lon": 2.5,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Parc W du Bénin",
+   "kind": "leisure=nature_reserve",
+   "lat": 11.86995,
+   "lon": 2.71553,
+   "d": 23.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parc W du Bénin",
+    "kind": "leisure=nature_reserve",
+    "lat": 11.86995,
+    "lon": 2.71553,
+    "d": 23.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc W du Bénin",
+    "kind": "boundary=national_park",
+    "lat": 11.86995,
+    "lon": 2.71553,
+    "d": 23.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parc W du Bénin: Zone tampon",
+    "kind": "leisure=nature_reserve",
+    "lat": 11.49754,
+    "lon": 2.65315,
+    "d": 42.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada bajada — Hillacondji/Sanvee-Condji (desde Togo)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.1667,
+  "lon": 1.6333,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Hilla-Condji",
+   "kind": "place=village",
+   "lat": 6.24001,
+   "lon": 1.63646,
+   "d": 8.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hilla-Condji",
+    "kind": "place=village",
+    "lat": 6.24001,
+    "lon": 1.63646,
+    "d": 8.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "École primaire publique de Hilla-Condji",
+    "kind": "amenity=school",
+    "lat": 6.2417,
+    "lon": 1.63473,
+    "d": 8.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida bajada — Sèmè-Kraké (hacia Nigeria)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.3697,
+  "lon": 2.7275,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Sèmè-Kraké",
+   "kind": "historic=boundary_stone",
+   "lat": 6.37962,
+   "lon": 2.70672,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sèmè-Kraké",
+    "kind": "historic=boundary_stone",
+    "lat": 6.37962,
+    "lon": 2.70672,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Commissariat de Sèmè Kraké",
+    "kind": "amenity=police",
+    "lat": 6.38089,
+    "lon": 2.70403,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Poste Avancé Brigarde Territorial de Sèmè Kraké",
+    "kind": "amenity=police",
+    "lat": 6.38009,
+    "lon": 2.70649,
+    "d": 2.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada subida — Ilara/Kétou (desde Nigeria, eje interior)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 7.37,
+  "lon": 2.73,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Illara",
+   "kind": "place=village",
+   "lat": 7.4141,
+   "lon": 2.74541,
+   "d": 5.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Illara",
+    "kind": "place=village",
+    "lat": 7.4141,
+    "lon": 2.74541,
+    "d": 5.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ilaro",
+    "kind": "place=town",
+    "lat": 6.88653,
+    "lon": 3.0205,
+    "d": 62.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ilera",
+    "kind": "place=village",
+    "lat": 6.49993,
+    "lon": 2.81641,
+    "d": 97.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Alternativa subida — Igolo/Idiroko (desde Nigeria)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.65,
+  "lon": 2.77,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Igolo",
+   "kind": "place=village",
+   "lat": 6.65026,
+   "lon": 2.73188,
+   "d": 4.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Igolo",
+    "kind": "place=village",
+    "lat": 6.65026,
+    "lon": 2.73188,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gare Sèmè-Igolo",
+    "kind": "amenity=bus_station",
+    "lat": 6.3659,
+    "lon": 2.43495,
+    "d": 48.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Isolo",
+    "kind": "place=suburb",
+    "lat": 6.52851,
+    "lon": 3.31878,
+    "d": 62.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Salida subida — Ouaké (hacia Togo, eje Djougou-Kara)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 9.6719,
+  "lon": 1.3637,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Office de Tourisme de Ouaké",
+   "kind": "information=office",
+   "lat": 9.67683,
+   "lon": 1.37661,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ouaké",
+    "kind": "place=town",
+    "lat": 9.66425,
+    "lon": 1.38593,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Point Relais Ouake",
+    "kind": "shop=department_store",
+    "lat": 9.66407,
+    "lon": 1.38671,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Office de Tourisme de Ouaké",
+    "kind": "information=office",
+    "lat": 9.67683,
+    "lon": 1.37661,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Ouaké",
+    "kind": "comuna beninesa",
+    "lat": 9.66167,
+    "lon": 1.38472,
+    "d": 2.6,
+    "match": true,
+    "id": "Q1125581"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Frontera · Alternativa subida — Azovè/Tohoun (hacia Togo, eje central)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 6.9833,
+  "lon": 1.6667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Azovè",
+   "kind": "arrondissement of Benin",
+   "lat": 6.95,
+   "lon": 1.7,
+   "d": 5.2,
+   "match": true,
+   "id": "Q3631577"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Azovè",
+    "kind": "place=village",
+    "lat": 6.94712,
+    "lon": 1.70381,
+    "d": 5.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Azovèssa",
+    "kind": "place=hamlet",
+    "lat": 6.65812,
+    "lon": 1.64887,
+    "d": 36.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Azôvègoudo",
+    "kind": "place=hamlet",
+    "lat": 6.68961,
+    "lon": 2.07058,
+    "d": 55.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Azovè",
+    "kind": "arrondissement of Benin",
+    "lat": 6.95,
+    "lon": 1.7,
+    "d": 5.2,
+    "match": true,
+    "id": "Q3631577"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Consulado General de España en Lagos (demarcación de Benín)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": 6.44,
+  "lon": 3.42,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Consulate General of Spain in Lagos",
+   "kind": "office=diplomatic",
+   "lat": 6.43589,
+   "lon": 3.41738,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Consulate General of Spain in Lagos",
+    "kind": "office=diplomatic",
+    "lat": 6.43589,
+    "lon": 3.41738,
+    "d": 0.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "CNHU-HKM (Centre National Hospitalier Universitaire) — Cotonú",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 6.3667,
+  "lon": 2.4333,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hospital de zona · Dassa-Zoumè / Abomey",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": 7.1833,
+  "lon": 1.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Centre Hospitalier Départemental du Mono (CHD MONO)",
+   "kind": "amenity=hospital",
+   "lat": 6.64426,
+   "lon": 1.71577,
+   "d": 66.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Départemental du Mono (CHD MONO)",
+    "kind": "amenity=hospital",
+    "lat": 6.64426,
+    "lon": 1.71577,
+    "d": 66.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centre Hospitalier Universitaire Départemental de l'Ouémé",
+    "kind": "amenity=hospital",
+    "lat": 6.47465,
+    "lon": 2.61356,
+    "d": 105.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "CHD Centre Hospitalier du Zou",
+    "kind": "amenity=hospital",
+    "lat": 7.18085,
+    "lon": 2.01792,
+    "d": 3.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Cotonú",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 6.3703,
+  "lon": 2.3912,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Cotonou",
+   "kind": "place=city",
+   "lat": 6.3677,
+   "lon": 2.42525,
+   "d": 3.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cotonou",
+    "kind": "place=city",
+    "lat": 6.3677,
+    "lon": 2.42525,
+    "d": 3.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Cotonou",
+    "kind": "railway=station",
+    "lat": 6.35579,
+    "lon": 2.43535,
+    "d": 5.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Ouidah / Grand-Popo",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 6.3628,
+  "lon": 2.0853,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ouidah",
+   "kind": "place=city",
+   "lat": 6.36661,
+   "lon": 2.08536,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ouidah",
+    "kind": "place=city",
+    "lat": 6.36661,
+    "lon": 2.08536,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouidah",
+    "kind": "boundary=administrative",
+    "lat": 6.38409,
+    "lon": 2.14895,
+    "d": 7.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ouidah",
+    "kind": "railway=station",
+    "lat": 6.35373,
+    "lon": 2.08631,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Bohicon (nudo de Abomey)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 7.1786,
+  "lon": 2.0667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bohicon",
+   "kind": "railway=station",
+   "lat": 7.17497,
+   "lon": 2.06704,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bohicon",
+    "kind": "place=city",
+    "lat": 7.18163,
+    "lon": 2.06957,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bohicon",
+    "kind": "railway=station",
+    "lat": 7.17497,
+    "lon": 2.06704,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bohicon I",
+    "kind": "place=neighbourhood",
+    "lat": 7.17743,
+    "lon": 2.07967,
+    "d": 1.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Dassa-Zoumè y Savalou",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 7.75,
+  "lon": 2.1833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Dassa-Zoumé",
+   "kind": "place=city",
+   "lat": 7.78154,
+   "lon": 2.18361,
+   "d": 3.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dassa-Zoumé",
+    "kind": "place=city",
+    "lat": 7.78154,
+    "lon": 2.18361,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Unité Villageoise de Santé USV de Erokoya (Zankoumandon), LEMA, Dassa Zoume",
+    "kind": "amenity=hospital",
+    "lat": 7.87844,
+    "lon": 2.2924,
+    "d": 18.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Camp Peulh Sebo, Erokoya(Zankoumandon),LEMA, Dassa Zoume, Collines",
+    "kind": "tourism=camp_site",
+    "lat": 7.88188,
+    "lon": 2.28853,
+    "d": 18.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Djougou",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": 9.7,
+  "lon": 1.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Djougou",
+   "kind": "city in north west Benin",
+   "lat": 9.7,
+   "lon": 1.66667,
+   "d": 0.0,
+   "match": true,
+   "id": "Q868198"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Djougou",
+    "kind": "place=city",
+    "lat": 9.71067,
+    "lon": 1.66516,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djougou",
+    "kind": "boundary=administrative",
+    "lat": 9.70231,
+    "lon": 1.79835,
+    "d": 14.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Djougou",
+    "kind": "amenity=place_of_worship",
+    "lat": 9.70726,
+    "lon": 1.66503,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Djougou",
+    "kind": "city in north west Benin",
+    "lat": 9.7,
+    "lon": 1.66667,
+    "d": 0.0,
+    "match": true,
+    "id": "Q868198"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Agua potable y de uso general · Cotonú",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 6.3703,
+  "lon": 2.3912,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Cotonú",
+   "kind": "sede de gobierno y ciudad más poblada de Benín",
+   "lat": 6.36667,
+   "lon": 2.41667,
+   "d": 2.8,
+   "match": true,
+   "id": "Q43595"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cotonou",
+    "kind": "place=city",
+    "lat": 6.3677,
+    "lon": 2.42525,
+    "d": 3.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Cotonou",
+    "kind": "railway=station",
+    "lat": 6.35579,
+    "lon": 2.43535,
+    "d": 5.1,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Cotonú",
+    "kind": "sede de gobierno y ciudad más poblada de Benín",
+    "lat": 6.36667,
+    "lon": 2.41667,
+    "d": 2.8,
+    "match": true,
+    "id": "Q43595"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Agua potable y de uso general · Possotomé (lago Ahémé)",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 6.45,
+  "lon": 1.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Possotomè",
+   "kind": "place=town",
+   "lat": 6.52166,
+   "lon": 1.96812,
+   "d": 8.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Possotomè",
+    "kind": "place=town",
+    "lat": 6.52166,
+    "lon": 1.96812,
+    "d": 8.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Possotome",
+    "kind": "office=government",
+    "lat": 6.20887,
+    "lon": 1.24443,
+    "d": 85.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Union des Jeunes de l'Arrondissement de Possotomé (UJAP)",
+    "kind": "office=association",
+    "lat": 6.52209,
+    "lon": 1.96892,
+    "d": 8.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Agua potable y de uso general · Dassa y Djougou",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": 7.75,
+  "lon": 2.1833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Dassa 1",
+   "kind": "place=neighbourhood",
+   "lat": 7.77422,
+   "lon": 2.19241,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dassa-Zoumé",
+    "kind": "place=city",
+    "lat": 7.78154,
+    "lon": 2.18361,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dassa 1",
+    "kind": "place=neighbourhood",
+    "lat": 7.77422,
+    "lon": 2.19241,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dassa 2",
+    "kind": "place=neighbourhood",
+    "lat": 7.78782,
+    "lon": 2.20521,
+    "d": 4.8,
+    "match": true
+   }
+  ]
+ }
+]

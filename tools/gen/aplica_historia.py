@@ -7,6 +7,7 @@ resto de la ficha. Las notas del redactor se guardan en audit/historia/NOTAS.md.
 Uso:  python3 aplica_historia.py <slug> [<slug> ...]
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -14,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 def main(slugs):
-    notas = []
+    notas = {}
     for slug in slugs:
         h = json.loads((ROOT / "audit" / "historia" / f"{slug}.json").read_text(encoding="utf-8"))
         fp = ROOT / "content" / "ficha" / f"{slug}.json"
@@ -27,11 +28,20 @@ def main(slugs):
         despues = len(json.dumps(d["historia_secciones"], ensure_ascii=False))
         print(f"{slug}: {len(d['historia_secciones'])} secciones, {len(d['historia_fuentes'])} fuentes ({antes} → {despues} car.)")
         if h.get("notas"):
-            notas.append(f"## {slug}\n\n" + "\n".join(f"- {n}" for n in h["notas"]))
+            notas[slug] = f"## {slug}\n\n" + "\n".join(f"- {n}" for n in h["notas"])
     if notas:
-        (ROOT / "audit" / "historia" / "NOTAS.md").write_text(
-            "# Notas de los redactores de historia (dudas y datos no verificados)\n\n" + "\n\n".join(notas) + "\n",
-            encoding="utf-8")
+        notas_fp = ROOT / "audit" / "historia" / "NOTAS.md"
+        cabecera = "# Notas de los redactores de historia (dudas y datos no verificados)\n\n"
+        texto = notas_fp.read_text(encoding="utf-8") if notas_fp.exists() else cabecera
+        if not texto.startswith("# "):
+            texto = cabecera + texto
+        for slug, bloque in notas.items():
+            patron = re.compile(rf"(?ms)^## {re.escape(slug)}\n\n.*?(?=^## |\Z)")
+            if patron.search(texto):
+                texto = patron.sub(bloque + "\n\n", texto)
+            else:
+                texto = texto.rstrip() + "\n\n" + bloque + "\n"
+        notas_fp.write_text(texto.rstrip() + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

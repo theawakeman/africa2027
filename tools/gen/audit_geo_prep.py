@@ -48,6 +48,84 @@ EXONIMOS = {"nuakchot": "Nouakchott", "nuadibú": "Nouadhibou", "nuadibu": "Noua
             "paso de tifoujar": "Tifoujar", "valle blanco": "Vallée Blanche Amogjar", "parque de diawling": "Parc national du Diawling",
             "puerto pesquero de nuakchot": "Port de pêche Nouakchott", "oasis de terjit": "Terjit"}
 
+# Consultas cartográficas revisadas a mano para nombres compuestos que el
+# generador no puede desambiguar sin perder el lugar concreto. Se mantienen
+# aquí, y no solo en los JSON de auditoría, para que las comprobaciones sean
+# reproducibles al regenerarlas.
+CONSULTAS_EXACTAS = {
+    "ghana": {
+        "poi-1": ["Nzulezo Ghana"],
+        "poi-4": ["Elmina Castle Ghana", "São Jorge da Mina"],
+        "poi-5": ["Cape Coast Castle Ghana"],
+        "poi-8": ["Kwame Nkrumah Memorial Park Accra"],
+        "poi-10": ["Akosombo Dam Ghana", "Lake Volta Akosombo"],
+        "poi-12": ["Tafi Atome Monkey Sanctuary"],
+        "poi-13": ["Mount Gemi Amedzofe", "Amedzofe Ghana"],
+        "poi-14": ["Wli Waterfalls Ghana", "Agumatsa Falls"],
+        "poi-15": ["Mount Afadja Ghana", "Afadjato"],
+        "poi-16": ["Boti Falls Ghana"],
+        "poi-18": ["Besease Traditional Shrine Ghana", "Asante Traditional Buildings Besease"],
+        "poi-19": ["Yeji ferry terminal Ghana", "Makango ferry terminal Ghana"],
+        "poi-21": ["Larabanga Mosque Ghana"],
+        "poi-22": ["Paga Crocodile Pond Ghana"],
+        "log-8": ["Sekondi-Takoradi Ghana"],
+        "log-9": ["Ho Ghana"],
+        "log-10": ["Tamale Ghana"],
+        "log-11": ["Bolgatanga Ghana"],
+        "log-17": ["Wa Ghana", "Bole Ghana", "Sampa Ghana"],
+    },
+    "togo": {
+        "poi-1": ["Grand Marché Lomé", "Sacred Heart Cathedral Lomé"],
+        "poi-2": ["Akodessewa Fetish Market Lomé"],
+        "poi-3": ["Palais de Lomé"],
+        "poi-4": ["Baguida Beach Togo", "Coco Beach Lomé"],
+        "poi-5": ["Maison des Esclaves Agbodrafo", "Maison Wood Agbodrafo"],
+        "poi-9": ["Réserve de faune de Sarakawa Togo"],
+        "poi-10": ["Koutammakou Togo"],
+        "poi-11": ["Faille d'Aledjo Togo", "Aledjo Togo"],
+        "poi-14": ["Parc national de Fazao-Malfakassa"],
+        "poi-15": ["Cascade d'Akloa Badou"],
+        "poi-17": ["Cascade de Womé Togo", "Cascade de Kpimé Togo"],
+        "poi-18": ["Mont Kloto Togo", "Château Viale Togo"],
+        "poi-19": ["Mont Agou Togo", "Pic Baumann Togo"],
+        "log-13": ["Atakpamé Togo"],
+    },
+    "benin": {
+        "poi-1": ["Bouche du Roy Benin", "Grand-Popo Benin"],
+        "poi-2": ["Porte du Non Retour Ouidah"],
+        "poi-3": ["Temple des Pythons Ouidah", "Musée d'Histoire de Ouidah"],
+        "poi-4": ["Vodun Days Ouidah"],
+        "poi-5": ["Possotomè Benin", "Lac Ahémé"],
+        "poi-6": ["Avlékété Benin", "Route des Pêches Benin"],
+        "poi-7": ["Embarcadère de Ganvié Abomey-Calavi"],
+        "poi-9": ["Marché Dantokpa Cotonou"],
+        "poi-11": ["Oké Shabè Savè Benin", "Savè Benin"],
+        "poi-12": ["Grotte d'Arigbo Dassa-Zoumè", "Dassa-Zoumè Benin"],
+        "poi-13": ["Palais Royaux d'Abomey"],
+        "poi-14": ["Monts Kouffé Benin", "Bassila Benin"],
+        "poi-15": ["Taneka Koko Benin", "Taneka Béri Benin"],
+        "poi-18": ["Chutes de Tanougou Benin"],
+        "poi-19": ["Parc W Benin"],
+        "log-8": ["Hôpital de Zone Dassa-Zoumè", "Centre Hospitalier Départemental Abomey"],
+    },
+    "nigeria": {
+        "poi-1": ["Badagry Point of No Return"],
+        "poi-3": ["Lekki Conservation Centre Lagos"],
+        "poi-4": ["Oba of Benin Palace"],
+        "poi-5": ["Onitsha Bridge Nigeria", "Niger Bridge Asaba"],
+        "poi-7": ["Pandrillus Drill Ranch Calabar"],
+        "poi-8": ["Cross River National Park Oban Division"],
+        "poi-9": ["Alok Monoliths Nigeria", "Ikom Monoliths"],
+        "poi-10": ["Agbokim Waterfalls Nigeria"],
+        "poi-11": ["Afi Mountain Wildlife Sanctuary"],
+        "poi-12": ["Obudu Mountain Resort Nigeria"],
+        "poi-13": ["Osun-Osogbo Sacred Grove"],
+        "poi-15": ["Olumo Rock Abeokuta"],
+        "log-9": ["Stella Obasanjo Hospital Benin City"],
+        "log-10": ["Ladipo Auto Spare Parts Market Lagos"],
+    },
+}
+
 
 def exonimo(nombre):
     n = nombre.strip()
@@ -185,6 +263,7 @@ def main(slugs):
                           "lat": lg["lat"], "lon": lg["lon"], "desc": lg.get("info", "")[:200]})
         for it in items:
             it["q"] = variantes(it, IDIOMA.get(slug, "en"))
+            it["q"] = CONSULTAS_EXACTAS.get(slug, {}).get(it["id"], it["q"])
         bb = BBOX.get(slug)
         bbox = [bb[2] - 0.3, bb[0] - 0.3, bb[3] + 0.3, bb[1] + 0.3] if bb else None  # minLon,minLat,maxLon,maxLat
         data = {"slug": slug, "bbox": bbox, "items": items}

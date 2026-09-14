@@ -1,0 +1,1118 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Bouche du Roi",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": 6.29725,
+    "lon": 1.93095,
+    "d": 12.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Porte du Non-Retour",
+    "k": "tourism",
+    "v": "museum",
+    "lat": 6.32425,
+    "lon": 2.08958,
+    "d": 2.7
+   },
+   {
+    "n": "Porte du Non-Retour",
+    "k": "tourism",
+    "v": "museum",
+    "lat": 6.32295,
+    "lon": 2.08782,
+    "d": 2.8
+   },
+   {
+    "n": "Musée de la Porte du Non-Retour",
+    "k": "tourism",
+    "v": "museum",
+    "lat": 6.32256,
+    "lon": 2.08323,
+    "d": 2.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Temple des Pythons",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": 6.35997,
+    "lon": 2.08504,
+    "d": 0.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Temple du vodoun-yaloui",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": 6.33946,
+    "lon": 2.08746,
+    "d": 1.0
+   },
+   {
+    "n": "Vodounnouhoué",
+    "k": "place",
+    "v": "hamlet",
+    "lat": 6.61192,
+    "lon": 1.95075,
+    "d": 32.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Possotomè",
+    "k": "place",
+    "v": "town",
+    "lat": 6.52166,
+    "lon": 1.96812,
+    "d": 8.1
+   },
+   {
+    "n": "Source thermale de Possotomé",
+    "k": "amenity",
+    "v": "drinking_water",
+    "lat": 6.52391,
+    "lon": 1.9636,
+    "d": 8.5
+   },
+   {
+    "n": "Union des Jeunes de l'Arrondissement de Possotomé (UJAP)",
+    "k": "office",
+    "v": "association",
+    "lat": 6.52209,
+    "lon": 1.96892,
+    "d": 8.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Avlékété",
+    "k": "place",
+    "v": "town",
+    "lat": 6.34844,
+    "lon": 2.20401,
+    "d": 3.9
+   },
+   {
+    "n": "Avlékété",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": 6.35096,
+    "lon": 2.20639,
+    "d": 4.2
+   },
+   {
+    "n": "Bureau d'arrondissement d'Avleketé",
+    "k": "landuse",
+    "v": "commercial",
+    "lat": 6.34066,
+    "lon": 2.20596,
+    "d": 4.0
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Embarcadère pour Ganvié",
+    "k": "amenity",
+    "v": "parking",
+    "lat": 6.44764,
+    "lon": 2.36055,
+    "d": 0.5
+   },
+   {
+    "n": "Embarcadère pour Ganvié",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": 6.44756,
+    "lon": 2.36184,
+    "d": 0.7
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Ganvié",
+    "k": "place",
+    "v": "town",
+    "lat": 6.46811,
+    "lon": 2.38997,
+    "d": 3.0
+   },
+   {
+    "n": "Ganvié 2",
+    "k": "place",
+    "v": "neighbourhood",
+    "lat": 6.47011,
+    "lon": 2.39453,
+    "d": 2.5
+   },
+   {
+    "n": "Ganvié 1",
+    "k": "place",
+    "v": "neighbourhood",
+    "lat": 6.46882,
+    "lon": 2.38646,
+    "d": 3.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Marché Dantokpa",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": 6.37271,
+    "lon": 2.43351,
+    "d": 4.7
+   },
+   {
+    "n": "Marché  de ladji",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": 6.38884,
+    "lon": 2.43445,
+    "d": 5.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Porto-Novo",
+    "k": "place",
+    "v": "city",
+    "lat": 6.49907,
+    "lon": 2.62534,
+    "d": 0.5
+   },
+   {
+    "n": "Porto Novo",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 6.49352,
+    "lon": 2.62478,
+    "d": 0.6
+   },
+   {
+    "n": "Porto-Novo",
+    "k": "railway",
+    "v": "station",
+    "lat": 6.47858,
+    "lon": 2.62121,
+    "d": 2.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Oké-Owo",
+    "k": "place",
+    "v": "village",
+    "lat": 8.05018,
+    "lon": 2.71093,
+    "d": 25.1
+   },
+   {
+    "n": "Oké-Olou-Ossin",
+    "k": "place",
+    "v": "village",
+    "lat": 8.24117,
+    "lon": 2.6904,
+    "d": 32.5
+   },
+   {
+    "n": "Oké-Owo-Aga",
+    "k": "place",
+    "v": "neighbourhood",
+    "lat": 8.05359,
+    "lon": 2.70904,
+    "d": 25.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Sanctuaire marial Notre Dame d'Arigbo",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": 7.7757,
+    "lon": 2.18572,
+    "d": 2.9
+   },
+   {
+    "n": "Grotte marialede Dassa",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": 7.77384,
+    "lon": 2.18388,
+    "d": 2.7
+   },
+   {
+    "n": "Arigbokoto",
+    "k": "place",
+    "v": "village",
+    "lat": 7.78418,
+    "lon": 2.10714,
+    "d": 9.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Palais royaux d'Abomey",
+    "k": "historic",
+    "v": "castle",
+    "lat": 7.18731,
+    "lon": 1.99358,
+    "d": 1.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Kouffo",
+    "k": "place",
+    "v": "state",
+    "lat": 7.13127,
+    "lon": 1.75674,
+    "d": 209.9
+   },
+   {
+    "n": "Auto école monts forêt",
+    "k": "amenity",
+    "v": "driver_training",
+    "lat": 9.3419,
+    "lon": 2.60943,
+    "d": 109.6
+   },
+   {
+    "n": "Kpodji-Les-Monts",
+    "k": "place",
+    "v": "village",
+    "lat": 6.56704,
+    "lon": 2.36519,
+    "d": 283.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Tanéka Béri",
+    "k": "place",
+    "v": "hamlet",
+    "lat": 9.8529,
+    "lon": 1.50731,
+    "d": 1.7
+   },
+   {
+    "n": "Koko",
+    "k": "place",
+    "v": "village",
+    "lat": 9.06755,
+    "lon": 2.36169,
+    "d": 129.7
+   },
+   {
+    "n": "Koko",
+    "k": "place",
+    "v": "village",
+    "lat": 8.37889,
+    "lon": 1.84381,
+    "d": 169.7
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Djougou",
+    "k": "place",
+    "v": "city",
+    "lat": 9.71067,
+    "lon": 1.66516,
+    "d": 1.2
+   },
+   {
+    "n": "Djougou",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 9.70231,
+    "lon": 1.79835,
+    "d": 14.4
+   },
+   {
+    "n": "Djougou",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": 9.70726,
+    "lon": 1.66503,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q868198",
+    "l": "Djougou",
+    "t": "city in north west Benin",
+    "lat": 9.7,
+    "lon": 1.66667,
+    "d": 0.0
+   },
+   {
+    "id": "Q3712278",
+    "l": "Djougou I",
+    "t": "arrondissement in Donga Department, Benin",
+    "lat": 9.7,
+    "lon": 1.66667,
+    "d": 0.0
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "Parc National de la Pendjari",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": 11.23294,
+    "lon": 1.49239,
+    "d": 20.5
+   },
+   {
+    "n": "Parc National de la Pendjari",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 11.23294,
+    "lon": 1.49239,
+    "d": 20.5
+   },
+   {
+    "n": "Parc national de la Pendjari",
+    "k": "natural",
+    "v": "wood",
+    "lat": 11.22746,
+    "lon": 1.49466,
+    "d": 19.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Cascades de Tanougou",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": 10.80328,
+    "lon": 1.44252,
+    "d": 6.1
+   },
+   {
+    "n": "Tanougou",
+    "k": "place",
+    "v": "village",
+    "lat": 10.80995,
+    "lon": 1.4355,
+    "d": 6.7
+   },
+   {
+    "n": "Chutes de Kota",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": 10.21117,
+    "lon": 1.447,
+    "d": 59.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "ph": [
+   {
+    "n": "Parc W du Bénin",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 11.86995,
+    "lon": 2.71553,
+    "d": 23.6
+   },
+   {
+    "n": "Parc W du Bénin",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": 11.86995,
+    "lon": 2.71553,
+    "d": 23.6
+   },
+   {
+    "n": "Parc W du Bénin: Zone tampon",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 11.49754,
+    "lon": 2.65315,
+    "d": 42.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Hilla-Condji",
+    "k": "place",
+    "v": "village",
+    "lat": 6.24001,
+    "lon": 1.63646,
+    "d": 8.2
+   },
+   {
+    "n": "École primaire publique de Hilla-Condji",
+    "k": "amenity",
+    "v": "school",
+    "lat": 6.2417,
+    "lon": 1.63473,
+    "d": 8.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Sèmè-Kraké",
+    "k": "historic",
+    "v": "boundary_stone",
+    "lat": 6.37962,
+    "lon": 2.70672,
+    "d": 2.5
+   },
+   {
+    "n": "Commissariat de Sèmè Kraké",
+    "k": "amenity",
+    "v": "police",
+    "lat": 6.38089,
+    "lon": 2.70403,
+    "d": 2.9
+   },
+   {
+    "n": "Poste Avancé Brigarde Territorial de Sèmè Kraké",
+    "k": "amenity",
+    "v": "police",
+    "lat": 6.38009,
+    "lon": 2.70649,
+    "d": 2.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Illara",
+    "k": "place",
+    "v": "village",
+    "lat": 7.4141,
+    "lon": 2.74541,
+    "d": 5.2
+   },
+   {
+    "n": "Ilaro",
+    "k": "place",
+    "v": "town",
+    "lat": 6.88653,
+    "lon": 3.0205,
+    "d": 62.6
+   },
+   {
+    "n": "Ilera",
+    "k": "place",
+    "v": "village",
+    "lat": 6.49993,
+    "lon": 2.81641,
+    "d": 97.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Igolo",
+    "k": "place",
+    "v": "village",
+    "lat": 6.65026,
+    "lon": 2.73188,
+    "d": 4.2
+   },
+   {
+    "n": "Gare Sèmè-Igolo",
+    "k": "amenity",
+    "v": "bus_station",
+    "lat": 6.3659,
+    "lon": 2.43495,
+    "d": 48.7
+   },
+   {
+    "n": "Isolo",
+    "k": "place",
+    "v": "suburb",
+    "lat": 6.52851,
+    "lon": 3.31878,
+    "d": 62.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Ouaké",
+    "k": "place",
+    "v": "town",
+    "lat": 9.66425,
+    "lon": 1.38593,
+    "d": 2.6
+   },
+   {
+    "n": "Point Relais Ouake",
+    "k": "shop",
+    "v": "department_store",
+    "lat": 9.66407,
+    "lon": 1.38671,
+    "d": 2.7
+   },
+   {
+    "n": "Office de Tourisme de Ouaké",
+    "k": "information",
+    "v": "office",
+    "lat": 9.67683,
+    "lon": 1.37661,
+    "d": 1.5
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q1125581",
+    "l": "Ouaké",
+    "t": "comuna beninesa",
+    "lat": 9.66167,
+    "lon": 1.38472,
+    "d": 2.6
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Azovè",
+    "k": "place",
+    "v": "village",
+    "lat": 6.94712,
+    "lon": 1.70381,
+    "d": 5.7
+   },
+   {
+    "n": "Azovèssa",
+    "k": "place",
+    "v": "hamlet",
+    "lat": 6.65812,
+    "lon": 1.64887,
+    "d": 36.2
+   },
+   {
+    "n": "Azôvègoudo",
+    "k": "place",
+    "v": "hamlet",
+    "lat": 6.68961,
+    "lon": 2.07058,
+    "d": 55.3
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3631577",
+    "l": "Azovè",
+    "t": "arrondissement of Benin",
+    "lat": 6.95,
+    "lon": 1.7,
+    "d": 5.2
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Consulate General of Spain in Lagos",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": 6.43589,
+    "lon": 3.41738,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Centre Hospitalier Départemental du Mono (CHD MONO)",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 6.64426,
+    "lon": 1.71577,
+    "d": 66.8
+   },
+   {
+    "n": "Centre Hospitalier Universitaire Départemental de l'Ouémé",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 6.47465,
+    "lon": 2.61356,
+    "d": 105.1
+   },
+   {
+    "n": "CHD Centre Hospitalier du Zou",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 7.18085,
+    "lon": 2.01792,
+    "d": 3.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Cotonou",
+    "k": "place",
+    "v": "city",
+    "lat": 6.3677,
+    "lon": 2.42525,
+    "d": 3.8
+   },
+   {
+    "n": "Cotonou",
+    "k": "railway",
+    "v": "station",
+    "lat": 6.35579,
+    "lon": 2.43535,
+    "d": 5.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Ouidah",
+    "k": "place",
+    "v": "city",
+    "lat": 6.36661,
+    "lon": 2.08536,
+    "d": 0.4
+   },
+   {
+    "n": "Ouidah",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 6.38409,
+    "lon": 2.14895,
+    "d": 7.4
+   },
+   {
+    "n": "Ouidah",
+    "k": "railway",
+    "v": "station",
+    "lat": 6.35373,
+    "lon": 2.08631,
+    "d": 1.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Bohicon",
+    "k": "place",
+    "v": "city",
+    "lat": 7.18163,
+    "lon": 2.06957,
+    "d": 0.5
+   },
+   {
+    "n": "Bohicon",
+    "k": "railway",
+    "v": "station",
+    "lat": 7.17497,
+    "lon": 2.06704,
+    "d": 0.4
+   },
+   {
+    "n": "Bohicon I",
+    "k": "place",
+    "v": "neighbourhood",
+    "lat": 7.17743,
+    "lon": 2.07967,
+    "d": 1.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Dassa-Zoumé",
+    "k": "place",
+    "v": "city",
+    "lat": 7.78154,
+    "lon": 2.18361,
+    "d": 3.5
+   },
+   {
+    "n": "Unité Villageoise de Santé USV de Erokoya (Zankoumandon), LEMA, Dassa Zoume",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": 7.87844,
+    "lon": 2.2924,
+    "d": 18.7
+   },
+   {
+    "n": "Camp Peulh Sebo, Erokoya(Zankoumandon),LEMA, Dassa Zoume, Collines",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": 7.88188,
+    "lon": 2.28853,
+    "d": 18.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Djougou",
+    "k": "place",
+    "v": "city",
+    "lat": 9.71067,
+    "lon": 1.66516,
+    "d": 1.2
+   },
+   {
+    "n": "Djougou",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 9.70231,
+    "lon": 1.79835,
+    "d": 14.4
+   },
+   {
+    "n": "Djougou",
+    "k": "amenity",
+    "v": "place_of_worship",
+    "lat": 9.70726,
+    "lon": 1.66503,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q868198",
+    "l": "Djougou",
+    "t": "city in north west Benin",
+    "lat": 9.7,
+    "lon": 1.66667,
+    "d": 0.0
+   },
+   {
+    "id": "Q3712278",
+    "l": "Djougou I",
+    "t": "arrondissement in Donga Department, Benin",
+    "lat": 9.7,
+    "lon": 1.66667,
+    "d": 0.0
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "ph": [
+   {
+    "n": "Cotonou",
+    "k": "place",
+    "v": "city",
+    "lat": 6.3677,
+    "lon": 2.42525,
+    "d": 3.8
+   },
+   {
+    "n": "Cotonou",
+    "k": "railway",
+    "v": "station",
+    "lat": 6.35579,
+    "lon": 2.43535,
+    "d": 5.1
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q43595",
+    "l": "Cotonú",
+    "t": "sede de gobierno y ciudad más poblada de Benín",
+    "lat": 6.36667,
+    "lon": 2.41667,
+    "d": 2.8
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "ph": [
+   {
+    "n": "Possotomè",
+    "k": "place",
+    "v": "town",
+    "lat": 6.52166,
+    "lon": 1.96812,
+    "d": 8.1
+   },
+   {
+    "n": "Possotome",
+    "k": "office",
+    "v": "government",
+    "lat": 6.20887,
+    "lon": 1.24443,
+    "d": 85.9
+   },
+   {
+    "n": "Union des Jeunes de l'Arrondissement de Possotomé (UJAP)",
+    "k": "office",
+    "v": "association",
+    "lat": 6.52209,
+    "lon": 1.96892,
+    "d": 8.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "ph": [
+   {
+    "n": "Dassa-Zoumé",
+    "k": "place",
+    "v": "city",
+    "lat": 7.78154,
+    "lon": 2.18361,
+    "d": 3.5
+   },
+   {
+    "n": "Dassa 1",
+    "k": "place",
+    "v": "neighbourhood",
+    "lat": 7.77422,
+    "lon": 2.19241,
+    "d": 2.9
+   },
+   {
+    "n": "Dassa 2",
+    "k": "place",
+    "v": "neighbourhood",
+    "lat": 7.78782,
+    "lon": 2.20521,
+    "d": 4.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]
