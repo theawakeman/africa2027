@@ -8,7 +8,11 @@ Fecha de revisión: 14 de septiembre de 2026. Se revisaron 21 PDI y 14 puntos lo
 |---|---:|---:|---|
 | Monte Camerún | 4.2033, 9.1706 | **4.2173993, 9.1727477** | ficha real de la montaña |
 | Cataratas de la Lobé | 2.8500, 9.8833 | **2.8816798, 9.8975577** | cataratas en Google Maps; coincide con la localización UNESCO |
+| Lago Barombi Mbo | 4.6667, 9.4167 | **4.6619533, 9.4033907** | objeto «Lake Barombi» en Google Maps; corrige 1,6 km |
+| Santuario de Mefou | 3.6167, 11.6000 | **3.6253619, 11.5812826** | ficha «Parc de la Méfou (Ape Action Africa)»; corrige 2,3 km |
+| Musée des Rois Bamoun | 5.7167, 10.9000 | **5.7325002, 10.9015616** | edificio real del museo junto al palacio; corrige 1,8 km |
 | Chefferie de Bandjoun | 5.3667, 10.4167 | **5.3495646, 10.4095310** | conjunto palaciego real |
+| Cataratas de la Métché | 5.4500, 10.0500 | **5.5324938, 10.3297126** | el PDI combinado señalaba Dschang; ahora marca la catarata real y corrige 32,3 km |
 | Cataratas de Ekom-Nkam | 5.0833, 9.9167 | **5.0619617, 10.0296593** | acceso real; deja de mezclar el monte Manengouba |
 | Ekok/Mfum | 5.9400, 9.0650 | **5.8209726, 8.8391088** | puesto fronterizo real; corrige más de 25 km |
 | PCUF de Ntam | 2.3500, 13.9500 | **2.1720894, 13.6984289** | control fronterizo identificado, no centro de Ntam |
@@ -24,6 +28,7 @@ Fecha de revisión: 14 de septiembre de 2026. Se revisaron 21 PDI y 14 puntos lo
 - Duala, Kribi y Dschang pierden superlativos subjetivos y promesas de comodidad o tiempos de circulación.
 - El nuevo Museo de los Reyes Bamún se fecha correctamente: fue inaugurado el 13 de abril de 2024, no en 2023.
 - Ekom-Nkam ya no afirma que el monte Manengouba esté «a media hora» ni usa el mismo pin para dos excursiones diferentes.
+- El PDI de la Métché deja de mezclar Dschang con una cascada situada junto a Bafoussam: nombre, relato y pin describen ahora el mismo lugar.
 - Djoum ya no promete cobertura móvil ni combustible fiable.
 - Ntam y Socambo separan dos hechos: la coordenada física está verificada, pero la admisión de un vehículo extranjero y el sellado del CPD siguen pendientes.
 - Los puntos combinados de combustible y agua se renombran según el lugar que realmente marca el pin.
@@ -32,10 +37,13 @@ Fecha de revisión: 14 de septiembre de 2026. Se revisaron 21 PDI y 14 puntos lo
 
 - [Google Maps · Monte Camerún](https://www.google.com/maps?q=4.2173993,9.1727477)
 - [Google Maps · cataratas de la Lobé](https://www.google.com/maps?q=2.8816798,9.8975577)
+- [Google Maps · lago Barombi Mbo](https://www.google.com/maps?q=4.6619533,9.4033907)
+- [Google Maps · santuario de Mefou](https://www.google.com/maps?q=3.6253619,11.5812826)
 - [Google Maps · frontera Mfum/Ekok](https://www.google.com/maps?q=5.8209726,8.8391088)
 - [UNESCO · paisaje cultural de las cataratas de la Lobé](https://whc.unesco.org/en/tentativelists/6330/)
 - [Google Maps · cataratas de Ekom-Nkam](https://www.google.com/maps?q=5.0619617,10.0296593)
 - [Google Maps · Museo de los Reyes Bamún](https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20des%20Rois%20Bamoun%20Foumban)
+- [Google Maps · cataratas de la Métché](https://www.google.com/maps?q=5.5324938,10.3297126)
 - [Oficina regional de turismo · agenda cultural 2024](https://tourismeouestcameroun.com/wp-content/uploads/2024/03/AGENDA-CULTUREL-ORTOC-1.pdf)
 - [Smithsonian Global Volcanism Program · Mount Cameroon](https://volcano.si.edu/volcano.cfm?vn=224010)
 

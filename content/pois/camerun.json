@@ -15,7 +15,33 @@
     "icon": "ciudad · servicios",
     "color": "azul",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/German_Bridge_(Cross_River,_Mamfe).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:German_Bridge_(Cross_River,_Mamfe).jpg",
+        "credit": "visulogik · CC BY 2.0",
+        "caption": "Antiguo puente alemán sobre el Cross River en Mamfe"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Afternoon_sun_in_Mamfe,_Cameroon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Afternoon_sun_in_Mamfe,_Cameroon.jpg",
+        "credit": "Hans Kylberg · CC BY 2.0",
+        "caption": "Vista urbana de Mamfe al final de la tarde"
+      }
+    ],
+    "links": [
+      {
+        "label": "Mamfe · contexto del paso y la ciudad",
+        "url": "https://en.wikipedia.org/wiki/Mamfe"
+      }
+    ],
+    "visit": {
+      "why": "No justifica un desvío turístico: se conserva porque es la primera parada administrativa y logística después de Mfum.",
+      "see": "El Cross River y el antiguo puente alemán son el interés local, pero la prioridad de esta etapa es resolver el paso y continuar.",
+      "access": "Está en el eje de entrada desde Ekok/Mfum. Circular solo de día y comprobar el estado de la carretera y de la seguridad antes de salir de la frontera.",
+      "when": "Parada breve, con luz y sin convocatoria de lockdown; combustible y efectivo deben resolverse donde aparezcan, no darse por seguros.",
+      "skip": "No pernoctar ni desviarse hacia Bamenda si continúa la crisis anglófona o hay alertas locales, cortes o actividad armada."
+    }
   },
   {
     "n": 2,
@@ -24,8 +50,8 @@
     "prio": "Baja",
     "dog": "no recomendado",
     "time": "paso, sin parada",
-    "lat": 4.6667,
-    "lon": 9.4167,
+    "lat": 4.6619533,
+    "lon": 9.4033907,
     "desc": "Kumba es una ciudad importante del interior de la región Suroeste. A unos 5 km al norte está Barombi Mbo, lago cratérico volcánico de alrededor de 2,5 km de diámetro y más de 110 m de profundidad, conocido por sus peces cíclidos endémicos y su interés para estudiar la especiación en un lago aislado. La crisis anglófona hace que no deba programarse como visita con la información actual: mantenerlo como PDI documental y revaluar seguridad y acceso inmediatamente antes del viaje.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900",
@@ -33,7 +59,39 @@
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lac_Barombi_Mbo_-_Barombi_Mbo_Crater_Lake_-_Region_du_Sud-ouest_-_Cameroun.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lac_Barombi_Mbo_-_Barombi_Mbo_Crater_Lake_-_Region_du_Sud-ouest_-_Cameroun.jpg",
+        "credit": "Eric Joel Mama Nke · CC BY-SA 4.0",
+        "caption": "Orilla del lago de cráter Barombi Mbo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lac_Barombi_Mbo_en_vue_a%C3%A9rienne_-_Barombi_crater_lake_-_Sud-Ouest_-_Cameroun.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lac_Barombi_Mbo_en_vue_a%C3%A9rienne_-_Barombi_crater_lake_-_Sud-Ouest_-_Cameroun.jpg",
+        "credit": "Eric Joel Mama Nke · CC BY-SA 4.0",
+        "caption": "Vista aérea del lago Barombi Mbo"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lac_Barombi_Mbo_en_vue_a%C3%A9rienne_saison_pluvieuse_-_Barombi_crater_lake_-_Sud-Ouest_-_Cameroun.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lac_Barombi_Mbo_en_vue_a%C3%A9rienne_saison_pluvieuse_-_Barombi_crater_lake_-_Sud-Ouest_-_Cameroun.jpg",
+        "credit": "Eric Joel Mama Nke · CC BY-SA 4.0",
+        "caption": "Barombi Mbo durante la estación lluviosa"
+      }
+    ],
+    "links": [
+      {
+        "label": "Lago Barombi Mbo · origen volcánico y biodiversidad",
+        "url": "https://en.wikipedia.org/wiki/Lake_Barombi_Mbo"
+      }
+    ],
+    "visit": {
+      "why": "Interesa por ser un lago de cráter aislado con peces cíclidos endémicos; solo compensa si Kumba y el acceso local son seguros.",
+      "see": "La lámina del lago dentro de la caldera boscosa y la vida de la comunidad barombi; no es un complejo turístico organizado.",
+      "access": "El pin se ha movido del punto genérico de Kumba al objeto real de Google Maps. Confirmar en Kumba la pista, el permiso local y el regreso con luz.",
+      "when": "Únicamente con una ventana de seguridad confirmada el mismo día y margen suficiente para entrar y salir antes de anochecer.",
+      "skip": "Descartarlo ante cualquier lockdown, control irregular o duda de seguridad: es documental, no una parada imprescindible de la ruta."
+    }
   },
   {
     "n": 3,
@@ -80,8 +138,8 @@
     },
     "links": [
       {
-        "label": "Visita oficial · Limbe Wildlife Centre",
-        "url": "https://limbewildlife.org/visit/"
+        "label": "Limbe Wildlife Centre · historia y especies",
+        "url": "https://fr.wikipedia.org/wiki/Limbe_Wildlife_Centre"
       }
     ]
   },
@@ -171,7 +229,13 @@
       "access": "Tráfico muy lento y humedad alta; agrupar todas las tareas y elegir base con parking antes de entrar.",
       "when": "Entre semana y de día para talleres y recambios.",
       "skip": "Si los vehículos no necesitan intervención, basta una noche de tránsito; no convertirla en parada turística por inercia."
-    }
+    },
+    "links": [
+      {
+        "label": "Duala · puerto, barrios e historia urbana",
+        "url": "https://en.wikipedia.org/wiki/Douala"
+      }
+    ]
   },
   {
     "n": 6,
@@ -215,7 +279,13 @@
       "access": "Elegir alojamiento con aparcamiento y confirmar el tramo de playa que admite perro. Evitar la zona operativa del puerto de aguas profundas.",
       "when": "Mañana o última hora para playa; el estado del mar importa más que una estación teórica.",
       "skip": "Reducir a una noche si se busca naturaleza remota: Kribi es descanso y servicios, no una playa aislada."
-    }
+    },
+    "links": [
+      {
+        "label": "Kribi · costa, puerto y visitas del entorno",
+        "url": "https://en.wikipedia.org/wiki/Kribi"
+      }
+    ]
   },
   {
     "n": 7,
@@ -283,7 +353,39 @@
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Peters_Duiker_(Cephalophus_callipygus)_from_behind,_Campo_Maan_National_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Peters_Duiker_(Cephalophus_callipygus)_from_behind,_Campo_Maan_National_Park.jpg",
+        "credit": "XKD · CC BY-SA 2.0",
+        "caption": "Duíquero de Peters fotografiado dentro de Campo Ma'an"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Habituation_des_Gorilles.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Habituation_des_Gorilles.jpg",
+        "credit": "Campo Ma'an National Park · CC BY-SA 4.0",
+        "caption": "Trabajo de habituación de gorilas en Campo Ma'an"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_de_l%27arbre.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l%27arbre.jpg",
+        "credit": "Campo Ma'an National Park · CC BY-SA 4.0",
+        "caption": "Musée de l'arbre dentro de Campo Ma'an"
+      }
+    ],
+    "links": [
+      {
+        "label": "Campo Ma'an · acceso, permisos e infraestructura",
+        "url": "https://en.wikivoyage.org/wiki/Campo_Ma%27an_National_Park"
+      }
+    ],
+    "visit": {
+      "why": "Aporta selva atlántica, primates y el proyecto de tortugas de Ebodjé, una experiencia diferente de los parques de sabana posteriores.",
+      "see": "Bosque cerrado y biodiversidad; los gorilas, elefantes y otros grandes mamíferos no son un avistamiento garantizado.",
+      "access": "El pin representa el área protegida, no una puerta. Hay que acordar por escrito con MINFOF el sector, el guía y el punto de encuentro antes de desviarse desde Kribi.",
+      "when": "Con permisos cerrados y pistas confirmadas practicables; reservar al menos una jornada completa y no improvisar al llegar.",
+      "skip": "Renunciar si no se obtiene respuesta del parque, si las pistas están anegadas o si el desvío compromete el corredor hacia Sangmélima."
+    }
   },
   {
     "n": 9,
@@ -301,7 +403,33 @@
     "icon": "ciudad · servicios",
     "color": "azul",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sangmelima_Cameroon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sangmelima_Cameroon.jpg",
+        "credit": "Suzana K · CC0",
+        "caption": "Calle de Sangmélima rodeada de vegetación"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Champ_de_past%C3%A8ques_Sangm%C3%A9lima.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Champ_de_past%C3%A8ques_Sangm%C3%A9lima.jpg",
+        "credit": "Nadnad30 · CC BY-SA 4.0",
+        "caption": "Campo de sandías en el entorno de Sangmélima"
+      }
+    ],
+    "links": [
+      {
+        "label": "Sangmélima · contexto urbano y servicios",
+        "url": "https://en.wikipedia.org/wiki/Sangm%C3%A9lima"
+      }
+    ],
+    "visit": {
+      "why": "Es una parada logística esencial, no una visita: la última ciudad con servicios amplios antes del corredor forestal hacia Congo.",
+      "see": "Mercado y vida urbana del sur; el valor real es reponer combustible, agua, comida y efectivo y revisar los dos vehículos.",
+      "access": "Está sobre el eje hacia Djoum. Llegar con luz, comprar antes del cierre y no depender de encontrar suministros después.",
+      "when": "Antes de abandonar la ciudad hay que salir con depósitos llenos y confirmar tanto la carretera como la frontera de Ntam.",
+      "skip": "No saltarse la recarga; lo descartable es la pernocta si se completa todo temprano y existe alojamiento seguro más adelante."
+    }
   },
   {
     "n": 10,
@@ -373,7 +501,33 @@
     "icon": "ciudad · servicios",
     "color": "azul",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://image.jimcdn.com/app/cms/image/transf/dimension%3Dorigxorig%3Aformat%3Djpg/path/s1084e755aa436055/image/i327fff11efaabe44/version/1604707031/image.jpg",
+        "source": "https://www.osidimbea.cm/collectivites/sud/djoum-commune/",
+        "credit": "Osidimbea",
+        "caption": "Hôtel de Ville de Djoum, identificado por la fuente municipal de Osidimbea"
+      },
+      {
+        "img": "https://journalmatila.info/wp-content/uploads/2025/10/de08b31e-47f5-423c-94da-993f70fce6f1-1024x768.jpeg",
+        "source": "https://journalmatila.info/decentralisation-en-marche-le-minddevel-georges-elanga-obam-ratisse-large-dans-le-sud/",
+        "credit": "Journal Matila",
+        "caption": "Edificio de la cité municipale de Djoum durante la visita ministerial de septiembre de 2025"
+      }
+    ],
+    "links": [
+      {
+        "label": "Comuna de Djoum · territorio y servicios",
+        "url": "https://www.osidimbea.cm/collectivites/sud/djoum-commune/"
+      }
+    ],
+    "visit": {
+      "why": "Marca la última comprobación logística y administrativa antes de Mintom y Ntam y da nombre al corredor internacional.",
+      "see": "Una pequeña ciudad forestal y su ayuntamiento; no se vende como atracción, sino como escala necesaria para tomar decisiones.",
+      "access": "Seguir el eje desde Sangmélima, registrar el paso si lo requiere la gendarmería y preguntar por carretera, combustible y frontera.",
+      "when": "Con luz suficiente para resolver gestiones y decidir si se continúa o se duerme en un lugar previamente comprobado.",
+      "skip": "No continuar hacia Ntam por inercia si no hay confirmación reciente del puesto, del estado de la pista o de autonomía suficiente."
+    }
   },
   {
     "n": 12,
@@ -417,7 +571,13 @@
       "access": "Tráfico intenso: dejar el vehículo en parking vigilado y moverse con itinerario cerrado. No fotografiar edificios oficiales o controles.",
       "when": "Día laborable para trámites; visitas culturales de mañana.",
       "skip": "Si no hay gestiones, una noche puede bastar. No sacrificar tiempo de naturaleza por desplazamientos urbanos largos."
-    }
+    },
+    "links": [
+      {
+        "label": "Yaundé · barrios, museos y contexto",
+        "url": "https://en.wikipedia.org/wiki/Yaound%C3%A9"
+      }
+    ]
   },
   {
     "n": 13,
@@ -435,7 +595,33 @@
     "icon": "ciudad · servicios",
     "color": "azul",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://image.jimcdn.com/app/cms/image/transf/none/path/s1084e755aa436055/image/ie21b20db8e5d57f8/version/1591490262/image.jpg",
+        "source": "https://www.osidimbea.cm/collectivites/est/moloundou-commune/",
+        "credit": "Osidimbea",
+        "caption": "Paisaje fluvial de la región de Moloundou"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Piste,_Est,_Cameroun.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Piste,_Est,_Cameroun.jpg",
+        "credit": "Théo Vansteenkeste · CC BY-SA 4.0",
+        "caption": "Pista forestal entre Yokadouma y Moloundou"
+      }
+    ],
+    "links": [
+      {
+        "label": "Comuna de Moloundou · río Ngoko, distancias y servicios",
+        "url": "https://www.osidimbea.cm/collectivites/est/moloundou-commune/"
+      }
+    ],
+    "visit": {
+      "why": "Es la cabecera camerunesa del cruce fluvial de Socambo y el arranque del tramo forestal hacia Lobéké y Yokadouma.",
+      "see": "El río Ngoko y la vida de una población de frontera; la experiencia principal es operativa, no una excursión preparada.",
+      "access": "El pin marca Moloundou. El embarcadero y el puesto de Socambo son otro punto y solo se usan si barcaza, inmigración y aduana confirman el vehículo.",
+      "when": "Llegar de día y con comunicación previa; dejar margen para demoras y no contar con una frecuencia fija de embarcaciones.",
+      "skip": "No intentar el cruce ni la pista con información antigua, de noche o sin combustible y autonomía para regresar."
+    }
   },
   {
     "n": 14,
@@ -503,7 +689,39 @@
     "icon": "ciudad · servicios",
     "color": "azul",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Route_de_Yokadouma.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Route_de_Yokadouma.jpg",
+        "credit": "Photokadaffi · CC BY-SA 4.0",
+        "caption": "Carretera sin asfaltar en Yokadouma"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grumier_dans_la_ville_de_Yokadouma.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Grumier_dans_la_ville_de_Yokadouma.jpg",
+        "credit": "Photokadaffi · CC BY-SA 4.0",
+        "caption": "Camión maderero dentro de Yokadouma"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caravane_de_boeufs_%C3%A0_Yokadouma.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Caravane_de_boeufs_%C3%A0_Yokadouma.jpg",
+        "credit": "Photokadaffi · CC BY-SA 4.0",
+        "caption": "Caravana de ganado en una calle de Yokadouma"
+      }
+    ],
+    "links": [
+      {
+        "label": "Yokadouma · eje forestal y contexto local",
+        "url": "https://en.wikipedia.org/wiki/Yokadouma"
+      }
+    ],
+    "visit": {
+      "why": "Es la única base logística razonable del gran tramo forestal entre Moloundou y Bertoua y el punto para gestionar Lobéké.",
+      "see": "Una ciudad marcada por la actividad maderera; sirve para comprender el territorio y preparar la pista, no por monumentos concretos.",
+      "access": "Se llega por la pista de concesiones desde Moloundou. Mantener distancia de los camiones y no conducir con polvo denso o sin luz.",
+      "when": "Con tiempo para buscar combustible, revisar neumáticos y bajos y recabar información local sobre el siguiente tramo.",
+      "skip": "No saltarse la revisión logística; sí descartar Lobéké si no hay permiso, guía o pista confirmada."
+    }
   },
   {
     "n": 16,
@@ -521,7 +739,39 @@
     "icon": "ciudad · servicios",
     "color": "azul",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotel_de_ville_de_Bertoua.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_de_Bertoua.jpg",
+        "credit": "Serieminou · CC BY-SA 4.0",
+        "caption": "Ayuntamiento de Bertoua"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plaque_Bertoua.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Plaque_Bertoua.jpg",
+        "credit": "Serieminou · CC BY-SA 4.0",
+        "caption": "Señal urbana de Bertoua"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Car_de_transport_%C3%A0_Bertoua.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Car_de_transport_%C3%A0_Bertoua.jpg",
+        "credit": "Photokadaffi · CC BY-SA 4.0",
+        "caption": "Autobús interurbano en Bertoua"
+      }
+    ],
+    "links": [
+      {
+        "label": "Bertoua · servicios y transportes del este",
+        "url": "https://en.wikipedia.org/wiki/Bertoua"
+      }
+    ],
+    "visit": {
+      "why": "Primera ciudad grande después de la selva y mejor lugar para recuperar autonomía, reparar y descansar antes de Yaundé.",
+      "see": "Centro regional y mercado; su valor para el viaje es disponer de talleres, hospital, bancos y alojamiento con aparcamiento.",
+      "access": "Entrada por el eje de Yokadouma y salida asfaltada hacia Yaundé. Evitar llegar de noche y escoger aparcamiento cerrado.",
+      "when": "Parar el tiempo necesario para revisar los dos vehículos después de la pista y reponer consumibles y efectivo.",
+      "skip": "Solo convertirla en paso rápido si ambos coches están bien y toda la logística quedó resuelta; no asumir existencias sin comprobar."
+    }
   },
   {
     "n": 17,
@@ -530,8 +780,8 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "cerrado hasta nuevo aviso; revalidar",
-    "lat": 3.6167,
-    "lon": 11.6,
+    "lat": 3.6253619,
+    "lon": 11.5812826,
     "desc": "A unos 45 km al sur de Yaundé, el santuario de Ape Action Africa en Mefou acoge más de 300 primates rescatados, entre ellos gorilas, chimpancés, mandriles, drills y cercopitecos, en grandes recintos forestales. Su finalidad es el rescate y la rehabilitación, no un safari de fauna libre. Por riesgo de transmisión de enfermedades, el perro no puede entrar. A 14 de septiembre de 2026, la página oficial indica que las visitas están suspendidas hasta nuevo aviso mientras trasladan primates dentro del santuario; no programar la parada hasta que se publique la reapertura.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Limbe%20wildlife%20center.jpg?width=900",
@@ -580,8 +830,8 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1 día",
-    "lat": 5.7167,
-    "lon": 10.9,
+    "lat": 5.7325002,
+    "lon": 10.9015616,
     "desc": "Capital histórica del reino bamún, con una dinastía documentada desde el siglo XIV. Junto al Palacio Real se encuentra el nuevo Museo de los Reyes Bamún, inaugurado el 13 de abril de 2024; su arquitectura retoma los emblemas dinásticos de la araña, la serpiente bicéfala y la abeja. El sultán Njoya desarrolló a comienzos del siglo XX la escritura bamum y fomentó las artes de la corte. Completar la visita con el barrio artesanal, preguntando horarios, permiso para fotografiar y precios antes de entrar.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900",
@@ -615,7 +865,13 @@
       "access": "El pin marca el conjunto real. Confirmar horarios, entradas y permiso fotográfico; el palacio sigue ligado a una institución viva.",
       "when": "Día completo o al menos medio día, evitando llegar al cierre.",
       "skip": "Si solo hay tiempo para una parada cultural en las Praderas, conservar Foumban y recortar ciudades de servicio."
-    }
+    },
+    "links": [
+      {
+        "label": "ORTOC · visita al Palacio de los Reyes Bamún",
+        "url": "https://tourismeouestcameroun.com/chefferie_musee/palais-des-rois-bamoun/"
+      }
+    ]
   },
   {
     "n": 19,
@@ -633,25 +889,89 @@
     "icon": "cultura",
     "color": "morado",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_hut_at_Bandjoun_palace.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:A_hut_at_Bandjoun_palace.jpg",
+        "credit": "Josephine Lifanje · CC BY-SA 4.0",
+        "caption": "Casa tradicional dentro del palacio de Bandjoun"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ChefferieBandjoun_fevrier1982.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ChefferieBandjoun_fevrier1982.jpg",
+        "credit": "Christian Muir · CC BY-SA 2.5",
+        "caption": "Chefferie de Bandjoun en 1982"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chefferie_de_Bandjoun_en_mars_1973.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chefferie_de_Bandjoun_en_mars_1973.jpg",
+        "credit": "Jean-Louis Heckly · CC BY-SA 4.0",
+        "caption": "Recinto de la chefferie de Bandjoun en 1973"
+      }
+    ],
+    "links": [
+      {
+        "label": "Chefferie de Bandjoun · recinto, museo e historia",
+        "url": "https://fr.wikipedia.org/wiki/Chefferie_de_Bandjoun"
+      }
+    ],
+    "visit": {
+      "why": "Permite ver arquitectura palaciega y arte bamileké en un recinto vivo, complementando el relato bamún de Foumban.",
+      "see": "Gran plaza ceremonial, casas de altos tejados cónicos y museo con objetos de autoridad y memoria de la chefferie.",
+      "access": "El pin corresponde al recinto real de la Chefferie de Bandjoun, no al centro de Bafoussam. Preguntar en la entrada por guía y fotografía.",
+      "when": "Con una o dos horas y respetando ceremonias, zonas privadas y las indicaciones del responsable del recinto.",
+      "skip": "Descartarla si hay ceremonia privada, no se autoriza la visita o el horario obliga a conducir de noche hacia la siguiente etapa."
+    }
   },
   {
     "n": 20,
-    "name": "Dschang y las cataratas de la Métché",
+    "name": "Cataratas de la Métché (desde Bafoussam)",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido",
     "time": "1 noche",
-    "lat": 5.45,
-    "lon": 10.05,
-    "desc": "Dschang, a unos 1.400 m en las montañas bamileké, fue utilizada como estación de altura durante los periodos alemán y francés y conserva el antiguo Centre Climatique. Las cataratas de la Métché, en las proximidades de Bafoussam, son además un lugar de memoria ligado a la represión de la lucha independentista. Desde Dschang comienza la fuerte bajada del escarpe hacia Santchou y Melong; no confundir el pin urbano con el acceso a las cataratas.",
+    "lat": 5.5324938,
+    "lon": 10.3297126,
+    "desc": "A la salida de Bafoussam, cerca del cruce de Bamougoum, la Métché cae unos 50 m. ORTOC la identifica a la vez como lugar de culto tradicional bamileké y como lugar de memoria: durante la guerra de independencia se utilizó para ejecutar a nacionalistas. El PDI ya no mezcla esta cascada con Dschang: el pin coincide con la ficha real de Chutes de la Métché en Google Maps. El descenso puede estar resbaladizo; preguntar antes de bajar, respetar las ofrendas y confirmar si el perro puede mantenerse con seguridad lejos del borde.",
     "credit": "Wikimedia Commons",
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yaoundé%201.jpg?width=900",
     "source": "https://commons.wikimedia.org/wiki/File:Yaoundé%201.jpg",
     "icon": "naturaleza",
     "color": "verde",
     "dog_note": "",
-    "photos": []
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutes_de_la_M%C3%A9tchi%C3%A9-2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chutes_de_la_M%C3%A9tchi%C3%A9-2.jpg",
+        "credit": "KLO.J · CC BY 2.0",
+        "caption": "Cascada de la Métché"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutes_de_la_M%C3%A9tch%C3%A9_-_1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chutes_de_la_M%C3%A9tch%C3%A9_-_1.jpg",
+        "credit": "Kondah · CC BY-SA 4.0",
+        "caption": "Caída principal de la Métché"
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_chutes_de_la_metch%C3%A9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Les_chutes_de_la_metch%C3%A9.jpg",
+        "credit": "Dilane Tayo · CC BY-SA 4.0",
+        "caption": "Vista del lugar sagrado de la Métché"
+      }
+    ],
+    "links": [
+      {
+        "label": "ORTOC · visita y memoria de la cascada de la Métché",
+        "url": "https://tourismeouestcameroun.com/nature_paysage/chute-de-la-metche/"
+      }
+    ],
+    "visit": {
+      "why": "No es solo un salto de agua de 50 m: ORTOC lo identifica como lugar de culto bamileké y memoria de ejecuciones durante la guerra de independencia.",
+      "see": "La caída junto a la N6, el barranco y las ofrendas del lugar sagrado; se visita con discreción y sin tocar ni fotografiar rituales sin permiso.",
+      "access": "El pin ahora coincide con Chutes de la Métché en Google Maps, cerca de Bafoussam. No vuelve a señalar el centro de Dschang, a decenas de kilómetros.",
+      "when": "Con luz y suelo suficientemente seguro para bajar; el acceso puede estar resbaladizo y hay que preguntar localmente antes de acercar al perro.",
+      "skip": "No bajar con lluvia fuerte, terreno inseguro, ceremonia en curso o si no puede mantenerse al perro controlado y lejos del borde."
+    }
   },
   {
     "n": 21,
@@ -695,6 +1015,12 @@
       "access": "El pin coincide con el recinto de las cataratas. Confirmar estado del acceso y guía local; suelo muy resbaladizo con lluvia.",
       "when": "Con caudal, pero no durante tormenta o crecida que vuelva inseguro el borde.",
       "skip": "Descartar el descenso si el terreno está saturado o no hay control local; la vista superior sigue siendo suficiente."
-    }
+    },
+    "links": [
+      {
+        "label": "ORTOC · acceso y visita a Ekom-Nkam",
+        "url": "https://tourismeouestcameroun.com/nature_paysage/ekom-nkam/"
+      }
+    ]
   }
 ]

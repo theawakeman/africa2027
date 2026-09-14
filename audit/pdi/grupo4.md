@@ -17,6 +17,15 @@ las dos imágenes externas (Ombala Mbalundu y Foz do Cunene) responden desde la
 fuente enlazada y sus pies identifican exactamente qué muestran. También se
 probaron todos los enlaces: se retiraron cuatro URL con 404 real o encubierto.
 
+Camerún también queda cerrado: 21/21 PDIs con ficha de decisión completa,
+21/21 con enlace útil y 21/21 con carrusel. Sus 58 fotografías tienen pie y
+crédito; 55 archivos de Commons fueron contrastados contra su API y las tres
+imágenes externas de Djoum y Moloundou responden desde sus páginas de origen.
+No se repite ningún archivo entre dos PDIs. La revisión visual sustituyó dos URL
+de Mindtrip que ya no entregaban imagen y corrigió cuatro pines adicionales en
+Google Maps; la Métché estaba desplazada 32,3 km porque el PDI mezclaba la
+cascada con Dschang.
+
 ## Alcance de la primera pasada
 
 - Se revisaron las asignaciones fotográficas de los 92 PDIs. Cada ficha tiene
@@ -38,12 +47,12 @@ probaron todos los enlaces: se retiraron cuatro URL con 404 real o encubierto.
 
 | País | PDIs | Prioridad alta con ficha de decisión | PDIs con foto | Galerías (2+ fotos) | Archivos verificados | Sin foto exacta |
 |---|---:|---:|---:|---:|---:|---:|
-| Camerún | 21 | 11/11 | 11 | 11 | 32 | 10 |
+| Camerún | 21 | 11/11 | 21 | 21 | 55 + 3 externas | 0 |
 | Gabón | 19 | 9/9 | 9 | 9 | 25 | 10 |
 | Congo | 18 | 8/8 | 4 | 4 | 11 | 14 |
 | RD Congo | 12 | 9/9 | 10 | 6 | 22 | 2 |
 | Angola | 22 | 11/11 | 22 | 19 | 54 + 2 externas | 0 |
-| **Total provisional** | **92** | **48/48** | **56** | **49** | **144 + 2 externas** | **36** |
+| **Total provisional** | **92** | **48/48** | **66** | **59** | **167 + 5 externas** | **26** |
 
 ## Problema inicial y criterio aplicado
 
@@ -82,5 +91,5 @@ propias.
 
 ## Pendiente de esta reapertura
 
-Quedan por cerrar Camerún, Gabón, Congo y RD Congo. Hasta entonces este grupo no
-vuelve a marcarse como terminado bajo el nuevo estándar.
+Quedan por cerrar Gabón, Congo y RD Congo. Hasta entonces este grupo no vuelve a
+marcarse como terminado bajo el nuevo estándar.
