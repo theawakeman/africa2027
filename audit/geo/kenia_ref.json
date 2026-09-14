@@ -1,0 +1,659 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Nairobi",
+    "k": "place",
+    "v": "city",
+    "lat": -1.289,
+    "lon": 36.81728,
+    "d": 0.3
+   },
+   {
+    "n": "Nairobi",
+    "k": "boundary",
+    "v": "yes",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2
+   },
+   {
+    "n": "Nairobi",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3870",
+    "l": "Nairobi",
+    "t": "capital y mayor ciudad de Kenia",
+    "lat": -1.28639,
+    "lon": 36.81722,
+    "d": 0.0
+   },
+   {
+    "id": "Q3335223",
+    "l": "Nairobi",
+    "t": "county in Kenya",
+    "lat": -1.28333,
+    "lon": 36.8167,
+    "d": 0.3
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Amboseli National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -2.64114,
+    "lon": 37.23623,
+    "d": 3.0
+   },
+   {
+    "n": "Amboseli UNESCO Biosphere Reserve",
+    "k": "information",
+    "v": "board",
+    "lat": -2.64616,
+    "lon": 37.24817,
+    "d": 1.6
+   },
+   {
+    "n": "Amboseli Nationalpark - Kimana Gate",
+    "k": "building",
+    "v": "yes",
+    "lat": -2.72,
+    "lon": 37.37956,
+    "d": 15.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Lake Nakuru",
+    "k": "water",
+    "v": "lake",
+    "lat": -0.36286,
+    "lon": 36.08869,
+    "d": 0.7
+   },
+   {
+    "n": "Lake Nakuru National Park",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -0.39248,
+    "lon": 36.0859,
+    "d": 2.9
+   },
+   {
+    "n": "Lake Nakuru National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -0.39248,
+    "lon": 36.0859,
+    "d": 2.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Lake Bogoria",
+    "k": "water",
+    "v": "lake",
+    "lat": 0.27104,
+    "lon": 36.10177,
+    "d": 3.1
+   },
+   {
+    "n": "Lake Bogoria National Reserve",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 0.25974,
+    "lon": 36.1057,
+    "d": 2.7
+   },
+   {
+    "n": "Lake Bogoria Lakeside Campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": 0.24732,
+    "lon": 36.0844,
+    "d": 0.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Nanyuki",
+    "k": "place",
+    "v": "town",
+    "lat": 0.01403,
+    "lon": 37.07463,
+    "d": 0.9
+   },
+   {
+    "n": "Nanyuki",
+    "k": "waterway",
+    "v": "river",
+    "lat": 0.07933,
+    "lon": 37.05116,
+    "d": 7.2
+   },
+   {
+    "n": "Nanyuki",
+    "k": "waterway",
+    "v": "river",
+    "lat": -0.03711,
+    "lon": 37.11198,
+    "d": 7.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Samburu National Reserve",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": 0.61557,
+    "lon": 37.53716,
+    "d": 1.8
+   },
+   {
+    "n": "Samburu National Reserve Main Gate",
+    "k": "tourism",
+    "v": "information",
+    "lat": 0.62889,
+    "lon": 37.63836,
+    "d": 12.1
+   },
+   {
+    "n": "Samburu Public Campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": 0.56585,
+    "lon": 37.5348,
+    "d": 3.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Adok El Bahar Hotel",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": 3.73899,
+    "lon": 34.81123,
+    "d": 386.1
+   },
+   {
+    "n": "Bhar El Naam Primary School",
+    "k": "amenity",
+    "v": "school",
+    "lat": 3.72919,
+    "lon": 34.84394,
+    "d": 382.3
+   },
+   {
+    "n": "El-shadai Studio",
+    "k": "shop",
+    "v": "electronics",
+    "lat": 3.76746,
+    "lon": 34.82492,
+    "d": 386.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Masai Mara National Reserve",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -1.48814,
+    "lon": 35.10541,
+    "d": 14.1
+   },
+   {
+    "n": "Masai Mara National Reserve - Talek Gate",
+    "k": "building",
+    "v": "yes",
+    "lat": -1.44318,
+    "lon": 35.20731,
+    "d": 22.5
+   },
+   {
+    "n": "National Reserve Masai Mara Sand River Gate",
+    "k": "building",
+    "v": "yes",
+    "lat": -1.65298,
+    "lon": 35.21614,
+    "d": 35.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Tsavo West National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -3.40836,
+    "lon": 37.95745,
+    "d": 41.2
+   },
+   {
+    "n": "Tsavo East National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -2.84203,
+    "lon": 38.81898,
+    "d": 88.5
+   },
+   {
+    "n": "Tsavo West National Park Mtito Entrance GateHouse",
+    "k": "building",
+    "v": "yes",
+    "lat": -2.69594,
+    "lon": 38.16491,
+    "d": 41.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Mombasa",
+    "k": "place",
+    "v": "city",
+    "lat": -4.05052,
+    "lon": 39.66717,
+    "d": 2.0
+   },
+   {
+    "n": "Mombasa",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -4.03863,
+    "lon": 39.64855,
+    "d": 4.4
+   },
+   {
+    "n": "Mombasa Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -4.06477,
+    "lon": 39.68082,
+    "d": 0.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Diani Beach",
+    "k": "place",
+    "v": "suburb",
+    "lat": -4.29058,
+    "lon": 39.58581,
+    "d": 1.6
+   },
+   {
+    "n": "Diani Beach",
+    "k": "natural",
+    "v": "beach",
+    "lat": -4.31249,
+    "lon": 39.57936,
+    "d": 4.1
+   },
+   {
+    "n": "Diani Beach shopping center",
+    "k": "landuse",
+    "v": "commercial",
+    "lat": -4.29919,
+    "lon": 39.58074,
+    "d": 2.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Lamu",
+    "k": "place",
+    "v": "town",
+    "lat": -2.2675,
+    "lon": 40.90104,
+    "d": 0.5
+   },
+   {
+    "n": "Lamu",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -2.06452,
+    "lon": 40.7281,
+    "d": 30.1
+   },
+   {
+    "n": "Lamu",
+    "k": "place",
+    "v": "island",
+    "lat": -2.28467,
+    "lon": 40.86403,
+    "d": 4.5
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q272799",
+    "l": "Lamu",
+    "t": "town on Lamu Island, Kenya",
+    "lat": -2.26861,
+    "lon": 40.90028,
+    "d": 0.4
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Namanga",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -2.54671,
+    "lon": 36.79744,
+    "d": 1.2
+   },
+   {
+    "n": "Namanga",
+    "k": "place",
+    "v": "town",
+    "lat": -2.54501,
+    "lon": 36.78698,
+    "d": 0.0
+   },
+   {
+    "n": "Namanga",
+    "k": "waterway",
+    "v": "river",
+    "lat": -2.54389,
+    "lon": 36.76639,
+    "d": 2.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Lunga-Lunga",
+    "k": "place",
+    "v": "village",
+    "lat": -4.552,
+    "lon": 39.12034,
+    "d": 0.8
+   },
+   {
+    "n": "Lunga Lunga",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -4.3534,
+    "lon": 38.96226,
+    "d": 28.5
+   },
+   {
+    "n": "Lunga-Lunga Police Station",
+    "k": "amenity",
+    "v": "police",
+    "lat": -4.55969,
+    "lon": 39.12702,
+    "d": 1.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Moyale",
+    "k": "place",
+    "v": "town",
+    "lat": 3.52419,
+    "lon": 39.05127,
+    "d": 0.5
+   },
+   {
+    "n": "Moyale",
+    "k": "place",
+    "v": "town",
+    "lat": 3.51591,
+    "lon": 39.05842,
+    "d": 0.8
+   },
+   {
+    "n": "Moyale",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": 3.86992,
+    "lon": 39.2075,
+    "d": 42.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Embassy of Spain in Kenya",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -1.29771,
+    "lon": 36.81303,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Aga Khan University Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -1.26179,
+    "lon": 36.82384,
+    "d": 1.8
+   },
+   {
+    "n": "Aga Khan University Hospital Parking",
+    "k": "amenity",
+    "v": "parking",
+    "lat": -1.26142,
+    "lon": 36.82483,
+    "d": 1.9
+   },
+   {
+    "n": "The Aga Khan University Hospital",
+    "k": "amenity",
+    "v": "clinic",
+    "lat": -1.28577,
+    "lon": 36.82201,
+    "d": 2.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Nairobi",
+    "k": "place",
+    "v": "city",
+    "lat": -1.289,
+    "lon": 36.81728,
+    "d": 0.3
+   },
+   {
+    "n": "Nairobi",
+    "k": "boundary",
+    "v": "yes",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2
+   },
+   {
+    "n": "Nairobi",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Nairobi",
+    "k": "place",
+    "v": "city",
+    "lat": -1.289,
+    "lon": 36.81728,
+    "d": 0.3
+   },
+   {
+    "n": "Nairobi",
+    "k": "boundary",
+    "v": "yes",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2
+   },
+   {
+    "n": "Nairobi",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,721 @@
+{
+ "slug": "tanzania",
+ "bbox": [
+  29.0,
+  -12.100000000000001,
+  40.8,
+  -0.6000000000000001
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Lago Ngozi · cráter de los Poroto",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -9.0081,
+   "lon": 33.5531,
+   "desc": "Lago de caldera a unos 30 km al sur de Mbeya, camino de Tukuyu, en los montes Poroto: 3,1 km² de agua verde encajada a 74 m de profundidad en un cráter de paredes forestadas, descrito como el segundo ",
+   "q": [
+    "Lago Ngozi",
+    "Lake Ngozi",
+    "Lago Ngozi · cráter de los Poroto"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Parque Nacional de Kitulo · el «Serengeti de las flores»",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -9.05,
+   "lon": 33.8333,
+   "desc": "412 km² de pradera de altura a unos 2.600 m entre los montes Kipengere, Poroto y Livingstone, que los vecinos llaman «Bustani ya Mungu» (el jardín de Dios) y los botánicos el Serengeti de las flores: ",
+   "q": [
+    "Parque Nacional de Kitulo",
+    "Kitulo National Park",
+    "Parque Nacional de Kitulo · el «Serengeti de las flores»"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Parque Nacional de Katavi (el oeste salvaje)",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -6.8833,
+   "lon": 31.1667,
+   "desc": "Tercer parque más grande del país y uno de los menos visitados de África: llanuras inundables del Katuma con concentraciones enormes de búfalo e hipopótamo en la estación seca, cuando los ríos se redu",
+   "q": [
+    "Parque Nacional de Katavi",
+    "Katavi National Park",
+    "Parque Nacional de Katavi (el oeste salvaje)"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Kigoma y Ujiji · «Dr. Livingstone, I presume?»",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -4.8769,
+   "lon": 29.6267,
+   "desc": "Puerto principal de Tanzania en el lago Tanganyika, con la estación término del ferrocarril central alemán y el histórico vapor MV Liemba (botado en 1913 como Graf von Götzen, desmontado y transportad",
+   "q": [
+    "Kigoma y Ujiji",
+    "Kigoma",
+    "Ujiji",
+    "Kigoma y Ujiji · «Dr. Livingstone, I presume?»"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Mahale Mountains y Gombe Stream · chimpancés",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -6.1,
+   "lon": 29.7667,
+   "desc": "Los dos parques de chimpancés del lago Tanganyika, accesibles SOLO EN BARCO (no hay carretera hasta las puertas). Mahale, sobre la ladera selvática que cae al lago, alberga el mayor grupo de chimpancé",
+   "q": [
+    "Mahale Mountains y Gombe Stream",
+    "Mahale Mountains",
+    "Gombe Stream",
+    "Mahale Mountains y Gombe Stream · chimpancés"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Parque Nacional de Ruaha (el mayor del país)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -7.6833,
+   "lon": 34.8167,
+   "desc": "Unos 20.000 km² (más de 30.000 con los humedales anexionados), el parque nacional más grande de Tanzania y de África oriental, en la transición entre la sabana de acacias del este y el bosque de miomb",
+   "q": [
+    "Parque Nacional de Ruaha",
+    "Ruaha National Park",
+    "Parque Nacional de Ruaha (el mayor del país)"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Udzungwa Mountains · cascadas de Sanje",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -7.8436,
+   "lon": 36.8833,
+   "desc": "El parque de senderismo de Tanzania: no hay pistas de safari, se recorre solo a pie. Parte del Arco Oriental, un archipiélago de bosques de montaña aislados con un nivel de endemismo comparable al de ",
+   "q": [
+    "Udzungwa Mountains",
+    "Udzungwa Mountains · cascadas de Sanje"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Isimila · yacimiento de la Edad de Piedra e Iringa",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -7.9167,
+   "lon": 35.6,
+   "desc": "A unos 20 km al suroeste de Iringa, una garganta de erosión donde hace unos 60.000-100.000 años hubo una laguna somera en cuyas orillas se acumularon miles de herramientas achelenses de piedra (hachas",
+   "q": [
+    "Isimila",
+    "Isimila · yacimiento de la Edad de Piedra e Iringa"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Parque Nacional de Tarangire · los baobabs",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -3.6833,
+   "lon": 35.9667,
+   "desc": "La puerta sur del circuito norte y el parque de los BAOBABS: bosques abiertos de estos árboles descomunales sobre el valle del río Tarangire, que en la estación seca (julio-octubre) concentra la mayor",
+   "q": [
+    "Parque Nacional de Tarangire",
+    "Tarangire National Park",
+    "Parque Nacional de Tarangire · los baobabs"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Parque Nacional del lago Manyara",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -3.5833,
+   "lon": 35.825,
+   "desc": "Franja estrecha de 330 km² entre el escarpe del Rift y un lago alcalino somero, al pie de la subida a Ngorongoro: bosque de acuíferos con manantiales, babuinos en bandadas enormes, los célebres LEONES",
+   "q": [
+    "Parque Nacional del lago Manyara",
+    "lago Manyara National Park"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Cráter del Ngorongoro",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -3.2,
+   "lon": 35.5,
+   "desc": "Caldera volcánica de 20 km de diámetro y 600 m de paredes, Patrimonio de la Humanidad y el recinto natural de fauna más denso de África: los «Big Five» en 260 km², con una de las poblaciones de rinoce",
+   "q": [
+    "Cráter del Ngorongoro"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Garganta de Olduvai (Oldupai)",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -2.9917,
+   "lon": 35.35,
+   "desc": "Barranco de 48 km dentro del Área de Conservación del Ngorongoro, en el camino entre el cráter y el Serengeti, que es probablemente el yacimiento paleoantropológico más importante del mundo: aquí Mary",
+   "q": [
+    "Garganta de Olduvai",
+    "Garganta de Olduvai (Oldupai)"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Parque Nacional del Serengeti",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -2.4333,
+   "lon": 34.8333,
+   "desc": "14.750 km² de llanura infinita interrumpida solo por los KOPJES, islas de granito donde se tumban los leones, y escenario de la GRAN MIGRACIÓN: unos 1,3 millones de ñus y cientos de miles de cebras y ",
+   "q": [
+    "Parque Nacional del Serengeti",
+    "Serengeti National Park"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Lago Natron y Engare Sero",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -2.45,
+   "lon": 36.0167,
+   "desc": "Lago de sosa de un rojo imposible al pie del Rift, el ÚNICO LUGAR DE CRÍA REGULAR DEL FLAMENCO ENANO de toda África oriental (el 75 % de la población mundial nace aquí), con temperaturas del agua de h",
+   "q": [
+    "Lago Natron y Engare Sero",
+    "Lake Natron y Engare Sero",
+    "Lago Natron",
+    "Engare Sero"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Ol Doinyo Lengai · la montaña de Dios (2.962 m)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -2.7642,
+   "lon": 35.9142,
+   "desc": "Volcán activo y sagrado para los masái, el ÚNICO DEL MUNDO que emite natrocarbonatita: una lava tan fría (500-600 °C) y fluida que de día parece barro negro y solo brilla de noche, y que al contacto c",
+   "q": [
+    "Ol Doinyo Lengai",
+    "Ol Doinyo Lengai · la montaña de Dios (2.962 m)"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Arusha y el monte Meru (4.562 m)",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -3.3869,
+   "lon": 36.683,
+   "desc": "Capital logística del norte y mejor plaza de servicios de todo el corredor interior: talleres y recambios de 4x4, neumáticos, supermercados grandes, clínicas privadas, tramitación de permisos de parqu",
+   "q": [
+    "Arusha y el monte Meru",
+    "Arusha",
+    "el monte Meru",
+    "Arusha y el monte Meru (4.562 m)"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Kilimanjaro (5.895 m) · decisión de presupuesto",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -3.0674,
+   "lon": 37.3556,
+   "desc": "El techo de África y la montaña aislada más alta del planeta, a 80 km al este de Arusha. Subirlo NO es una excursión, es una expedición cara y reglada: guía y porteadores obligatorios por ley, 5-10 dí",
+   "q": [
+    "Kilimanjaro",
+    "Kilimanjaro (5.895 m) · decisión de presupuesto"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Tanga y las cuevas de Amboni",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -5.0689,
+   "lon": 39.0989,
+   "desc": "Primera ciudad tras la frontera costera, a unos 60 km de Horohoro: puerto colonial alemán tranquilo, con el cementerio de guerra, la casa de Bagamoyo Road y un ritmo muy distinto al de Dar. A 8 km al ",
+   "q": [
+    "Tanga y las cuevas de Amboni",
+    "Tanga",
+    "las cuevas de Amboni"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Montes Usambara occidentales (Lushoto)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -4.7833,
+   "lon": 38.2833,
+   "desc": "Bloque de montaña del Arco Oriental que se eleva desde la sabana caliente hasta 2.000 m de bosque nuboso, con un clima fresco y niebla que los alemanes convirtieron en su sanatorio de altura. LA MEJOR",
+   "q": [
+    "Montes Usambara occidentales",
+    "Montes Usambara occidentales (Lushoto)"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Pangani y el Parque Nacional de Saadani",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": -5.4264,
+   "lon": 38.9803,
+   "desc": "Pueblo suajili somnoliento en la desembocadura del río Pangani, con casas omaníes desconchadas, el antiguo boma alemán y la historia dura de haber sido terminal de una de las rutas de caravanas de esc",
+   "q": [
+    "Pangani y el Parque Nacional de Saadani",
+    "Pangani",
+    "el Parque Nacional de Saadani"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Bagamoyo y las ruinas de Kaole",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -6.44,
+   "lon": 38.9,
+   "desc": "«Bwaga-moyo», deja aquí tu corazón: primera capital del África Oriental Alemana y el puerto donde terminaban las caravanas de esclavos y marfil del interior antes de embarcar hacia Zanzíbar. Conserva ",
+   "q": [
+    "Bagamoyo y las ruinas de Kaole",
+    "Bagamoyo",
+    "las ruinas de Kaole"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "Dar es Salaam",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -6.7924,
+   "lon": 39.2083,
+   "desc": "Mayor ciudad y puerto del país y la plaza logística clave del corredor costero: embajada de España, talleres y recambios de todo tipo, Muhimbili como hospital de referencia nacional, supermercados gra",
+   "q": [
+    "Dar es Salaam"
+   ]
+  },
+  {
+   "id": "poi-23",
+   "type": "poi",
+   "n": 23,
+   "name": "Zanzíbar · Stone Town (decisión con perro)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Media",
+   "lat": -6.1659,
+   "lon": 39.1917,
+   "desc": "Ciudad de piedra suajili-omaní, Patrimonio de la Humanidad: callejuelas imposibles, puertas de teca talladas, la Casa de las Maravillas, el mercado de esclavos sobre el que se construyó la catedral an",
+   "q": [
+    "Zanzíbar",
+    "Zanzíbar · Stone Town (decisión con perro)"
+   ]
+  },
+  {
+   "id": "poi-24",
+   "type": "poi",
+   "n": 24,
+   "name": "Parque Nacional de Nyerere (ex-Selous)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -7.75,
+   "lon": 37.9,
+   "desc": "30.893 km² segregados en 2019 de la antigua Reserva de Caza de Selous (que era, con 50.000 km², la mayor área protegida de África): hoy es EL PARQUE NACIONAL MÁS GRANDE DEL CONTINENTE. Lo define el rí",
+   "q": [
+    "Parque Nacional de Nyerere",
+    "Nyerere National Park",
+    "Parque Nacional de Nyerere (ex-Selous)"
+   ]
+  },
+  {
+   "id": "poi-25",
+   "type": "poi",
+   "n": 25,
+   "name": "Kilwa Kisiwani y Songo Mnara",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -8.9578,
+   "lon": 39.5206,
+   "desc": "La mayor ciudad suajili de su tiempo: desde el siglo XI al XVI, Kilwa controló el comercio del oro de Zimbabue hacia el Índico, acuñó su propia moneda y deslumbró a Ibn Battuta, que en el siglo XIV la",
+   "q": [
+    "Kilwa Kisiwani y Songo Mnara",
+    "Kilwa Kisiwani",
+    "Songo Mnara"
+   ]
+  },
+  {
+   "id": "poi-26",
+   "type": "poi",
+   "n": 26,
+   "name": "Mtwara, Lindi y la meseta makonde",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -10.2667,
+   "lon": 40.1833,
+   "desc": "El extremo sur del país y el último punto de Tanzania antes de Mozambique. Lindi y Mtwara son dos puertos tranquilos con arquitectura colonial alemana y portuguesa y playas casi vacías (Msimbati, en l",
+   "q": [
+    "Mtwara, Lindi y la meseta makonde",
+    "Mtwara, Lindi",
+    "la meseta makonde"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada interior — Tunduma/Nakonde (desde Zambia)",
+   "cat": "Frontera",
+   "lat": -9.3,
+   "lon": 32.7667,
+   "desc": "El gran paso del corredor TANZAM y el más transitado del sur: puesto de ventanilla única (OSBP), mucho camión, colas largas y gestores informales. Llegar temprano, contar con varias horas y no perder ",
+   "q": [
+    "Tunduma",
+    "Nakonde",
+    "Zambia"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida interior — Namanga (hacia Kenia)",
+   "cat": "Frontera",
+   "lat": -2.545,
+   "lon": 36.7867,
+   "desc": "Paso principal del corredor norte, junto al Parque de Amboseli, de alto tránsito turístico y bien equipado. Aviso: durante las protestas poselectorales de octubre-noviembre de 2025 este paso sufrió ci",
+   "q": [
+    "Namanga",
+    "Kenia"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada costa — Horohoro/Lunga Lunga (desde Kenia)",
+   "cat": "Frontera",
+   "lat": -4.6,
+   "lon": 39.1054,
+   "desc": "Paso COSTERO sobre la A14 Mombasa-Dar, distinto del de subida: puesto de ventanilla única moderno con funcionarios de los dos países en el mismo edificio, abierto 24 h, asfalto en buen estado en ambos",
+   "q": [
+    "Horohoro",
+    "Lunga Lunga",
+    "Kenia"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Salida costa (opción A) — Kilambo/Namoto, ferry del Rovuma",
+   "cat": "Frontera",
+   "lat": -10.4667,
+   "lon": 40.4167,
+   "desc": "ATENCIÓN, PUNTO CRÍTICO: NO es un puente, es un FERRY de barcaza sobre la desembocadura del río Rovuma, a unos 40 km de Mtwara, con capacidad para unos 6 vehículos 4x4. Horario del lado mozambiqueño 0",
+   "q": [
+    "Kilambo",
+    "Namoto",
+    "Rovuma"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Salida costa (opción B) — Mtambaswala/Negomano, puente de la Unidad",
+   "cat": "Frontera",
+   "lat": -11.4144,
+   "lon": 38.4942,
+   "desc": "El verdadero PUENTE DE LA UNIDAD sobre el Rovuma, inaugurado el 12 de mayo de 2010: 720 m, 18 vanos, dos carriles. Pero NO está junto a Mtwara: está unos 180 km al interior, en Mtambaswala (lado tanza",
+   "q": [
+    "Mtambaswala",
+    "Negomano",
+    "Unidad"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Embajada de España en Dar es Salaam",
+   "cat": "Consular",
+   "lat": -6.79,
+   "lon": 39.26,
+   "desc": "99 B Kinondoni Road, P.O. Box 842, Dar es Salaam. Tel. (+255) 022 266 60 18/19 · Emergencia consular 24h: (+255) 754 04 21 23 · emb.daressalaam@maec.es. Es la única representación española del país: r",
+   "q": [
+    "Embajada de España en Dar es Salaam",
+    "Embassy of Spain Dar es Salaam",
+    "Spain Embassy Dar es Salaam"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Muhimbili National Hospital, Dar es Salaam",
+   "cat": "Hospital",
+   "lat": -6.8083,
+   "lon": 39.2764,
+   "desc": "Principal hospital de referencia del país. Mejor opción sanitaria del corredor costero; para casos graves, la práctica regional es la evacuación a Nairobi o Sudáfrica.",
+   "q": [
+    "Muhimbili National Hospital, Dar es Salaam"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Clínicas privadas de Arusha",
+   "cat": "Hospital",
+   "lat": -3.3869,
+   "lon": 36.683,
+   "desc": "Referencia sanitaria del corredor interior y del circuito norte (hospital del Monte Meru y varias clínicas privadas). Lo más cercano a Ngorongoro, Serengeti, Natron y Kilimanjaro: a partir de aquí, ha",
+   "q": [
+    "Clínicas privadas de Arusha"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hospital de referencia · Mbeya",
+   "cat": "Hospital",
+   "lat": -8.9,
+   "lon": 33.45,
+   "desc": "Hospital zonal de referencia del sur, el primero tras entrar desde Zambia y el único serio antes de Iringa.",
+   "q": [
+    "Hospital de referencia",
+    "referencia"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Mbwa Wa Africa · clínica veterinaria y refugio (Usa River, Arusha)",
+   "cat": "Servicio",
+   "lat": -3.3667,
+   "lon": 36.85,
+   "desc": "Clínica veterinaria y refugio de animales en Usa River, a unos 25 km de Arusha camino de Moshi (P.O. Box 89; tel. refugio +255 626 515 750, clínica +255 627 593 149; lun-vie 9-17, sáb 9-14). LA refere",
+   "q": [
+    "Usa River",
+    "Arusha",
+    "clínica veterinaria y refugio"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Mbeya · base logística del sur",
+   "cat": "Combustible",
+   "lat": -8.9,
+   "lon": 33.45,
+   "desc": "Primera ciudad grande tras Tunduma (110 km) y base del altiplano del sur: combustible formal (TotalEnergies, Puma, Oryx), talleres, hospital, mercado. Punto de partida del lago Ngozi, de Kitulo y del ",
+   "q": [
+    "base logística del sur"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Sumbawanga / Mpanda (eje del oeste)",
+   "cat": "Combustible",
+   "lat": -7.9667,
+   "lon": 31.6167,
+   "desc": "Las dos únicas plazas con suministro fiable del corredor occidental hacia Katavi y Kigoma. Entre ellas y hasta Kigoma hay cientos de kilómetros de grava: salir con depósitos y garrafas llenos. Sitalik",
+   "q": [
+    "Sumbawanga",
+    "Mpanda",
+    "Sumbawanga / Mpanda"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Iringa",
+   "cat": "Combustible",
+   "lat": -7.77,
+   "lon": 35.69,
+   "desc": "Base logística del tramo sur a 1.600 m: combustible, talleres, recambios, hospital regional y buen mercado. Último suministro seguro antes de Ruaha (130 km de pista hasta Msembe) y punto de paso oblig",
+   "q": [
+    "Iringa"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Dodoma · capital administrativa y nudo central",
+   "cat": "Combustible",
+   "lat": -6.163,
+   "lon": 35.7516,
+   "desc": "Capital oficial del país desde 1973 (y sede del parlamento), en el centro geográfico: combustible, talleres, hospital y alojamiento. Nudo del corredor interior entre Iringa y Babati/Tarangire, con el ",
+   "q": [
+    "capital administrativa y nudo central"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Combustible · Arusha / Moshi",
+   "cat": "Combustible",
+   "lat": -3.3869,
+   "lon": 36.683,
+   "desc": "Mejor oferta y calidad del corredor interior, con todas las marcas. Repostar a fondo antes de Ngorongoro-Serengeti (dentro de los parques no hay suministro fiable) y antes del desvío al lago Natron, d",
+   "q": [
+    "Arusha",
+    "Moshi",
+    "Arusha / Moshi"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Combustible · Karatu (puerta del Ngorongoro)",
+   "cat": "Combustible",
+   "lat": -3.3333,
+   "lon": 35.6667,
+   "desc": "Última plaza con combustible, cajeros, supermercado y talleres antes de entrar al Área de Conservación del Ngorongoro y al Serengeti. Fundamental: el circuito Ngorongoro-Olduvai-Serengeti-Natron puede",
+   "q": [
+    "Karatu",
+    "Ngorongoro"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Combustible · Tanga / Dar es Salaam (eje de la costa)",
+   "cat": "Combustible",
+   "lat": -5.0689,
+   "lon": 39.0989,
+   "desc": "Corredor costero con estaciones formales en Tanga, Muheza, Korogwe, Bagamoyo y Dar es Salaam; sin gaps relevantes en el tramo norte de la costa.",
+   "q": [
+    "Tanga",
+    "Dar",
+    "Salaam",
+    "Tanga / Dar es Salaam"
+   ]
+  },
+  {
+   "id": "log-17",
+   "type": "log",
+   "n": 17,
+   "name": "Combustible · Kibiti / Kilwa Masoko / Lindi / Mtwara (sur de la costa)",
+   "cat": "Combustible",
+   "lat": -8.9333,
+   "lon": 39.5167,
+   "desc": "Eje sur de la costa por la T6 (recientemente mejorada): estaciones en Kibiti, Ikwiriri, Kilwa Masoko, Lindi y Mtwara. El gap real es el acceso a Nyerere/Mtemere (80-100 km de pista sin nada) y el desv",
+   "q": [
+    "Kibiti",
+    "Kilwa Masoko",
+    "Lindi",
+    "Mtwara",
+    "Kibiti / Kilwa Masoko / Lindi / Mtwara"
+   ]
+  },
+  {
+   "id": "log-18",
+   "type": "log",
+   "n": 18,
+   "name": "Agua potable y de uso general · Arusha, Dar es Salaam, Mbeya",
+   "cat": "Agua potable",
+   "lat": -3.3869,
+   "lon": 36.683,
+   "desc": "Agua embotellada sin problema en supermercados de las tres ciudades; campings, lodges y hoteles permiten llenar el depósito de uso general con manguera. Confirmar siempre en recepción.",
+   "q": [
+    "Arusha",
+    "Dar",
+    "Salaam",
+    "Mbeya"
+   ]
+  },
+  {
+   "id": "log-19",
+   "type": "log",
+   "n": 19,
+   "name": "Agua · campings de los parques del norte",
+   "cat": "Agua potable",
+   "lat": -3.2,
+   "lon": 35.5,
+   "desc": "Los campings públicos del Ngorongoro (Simba) y del Serengeti (Seronera) tienen agua corriente y aseos, pero el suministro es irregular y no potable sin tratar. Entrar al circuito con los depósitos lle",
+   "q": [
+    "campings de los parques del norte"
+   ]
+  },
+  {
+   "id": "log-20",
+   "type": "log",
+   "n": 20,
+   "name": "Agua · lago Natron y corredor del oeste",
+   "cat": "Agua potable",
+   "lat": -2.45,
+   "lon": 36.0167,
+   "desc": "Sin garantía ninguna: en Engare Sero el agua es escasa y el calor extremo (hay que contar 5-6 litros por persona y día), y en el eje Sumbawanga-Mpanda-Kigoma no hay recarga fiable fuera de las ciudade",
+   "q": [
+    "Natron",
+    "lago Natron y corredor del oeste"
+   ]
+  }
+ ]
+}

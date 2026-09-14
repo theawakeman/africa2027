@@ -1,0 +1,577 @@
+{
+ "slug": "mozambique",
+ "bbox": [
+  29.9,
+  -27.3,
+  41.199999999999996,
+  -10.1
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Lichinga y la meseta del Niassa",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -13.3128,
+   "lon": 35.2406,
+   "desc": "Primera plaza con servicios reales tras entrar por el Rovuma: capital de la provincia de Niassa, a 1.300 m sobre una meseta fresca de pinares y plantaciones, con combustible formal, bancos, mercado y ",
+   "q": [
+    "Lichinga y la meseta del Niassa",
+    "Lichinga",
+    "la meseta del Niassa"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Lago Niassa · Metangula, Cóbuè e islas",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -12.6892,
+   "lon": 34.8181,
+   "desc": "La orilla mozambiqueña del LAGO MALAUI (aquí Niassa), el tercer lago más grande de África y el de mayor diversidad de peces del planeta: cientos de especies de cíclidos endémicos en agua transparente,",
+   "q": [
+    "Lago Niassa",
+    "Lago Niassa · Metangula, Cóbuè e islas"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Reserva Especial de Niassa (EXCLUIDA por seguridad)",
+   "cat": "Referencia · conflicto",
+   "prio": "Descartada",
+   "lat": -12.1667,
+   "lon": 37.5,
+   "desc": "ZONA EXCLUIDA. Sobre el papel es la joya: 42.000 km² de miombo virgen a orillas del Lugenda y el Rovuma, uno de los espacios protegidos más grandes de África, con elefantes, licaones y una de las últi",
+   "q": [
+    "Reserva Especial de Niassa",
+    "Reserva Especial de Niassa (EXCLUIDA por seguridad)"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Cuamba y el ferrocarril de Nacala",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -14.8036,
+   "lon": 36.5372,
+   "desc": "Nudo ferroviario en mitad del interior, donde la línea de Nacala cruza hacia Malaui: uno de los pocos trenes de pasajeros que siguen funcionando en África austral pasa por aquí y sigue siendo la espin",
+   "q": [
+    "Cuamba y el ferrocarril de Nacala",
+    "Cuamba",
+    "el ferrocarril de Nacala"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Gurué, el monte Namuli y las plantaciones de té",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -15.4667,
+   "lon": 36.9833,
+   "desc": "El rincón verde y fresco que casi nadie asocia con Mozambique: laderas escalonadas de té a 1.000 m, cascadas, niebla y antiguas casas coloniales de las compañías tealeras. Encima se levanta el MONTE N",
+   "q": [
+    "Gurué, el monte Namuli y las plantaciones de té",
+    "Gurué, el monte Namuli",
+    "las plantaciones de té"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Nampula",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -15.1165,
+   "lon": 39.2666,
+   "desc": "Tercera ciudad del país y la gran plaza logística de todo el norte: talleres, neumáticos, recambios, supermercados, hospital central y bancos. Rodeada de inselbergs de granito espectaculares y con el ",
+   "q": [
+    "Nampula"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Ilha de Moçambique (Patrimonio de la Humanidad)",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -15.0347,
+   "lon": 40.7358,
+   "desc": "EL GRAN IMPRESCINDIBLE DEL NORTE. Una isla de coral de 3 km por 500 m, unida al continente por un puente de un solo carril de 3,8 km, que fue capital de todo el África Oriental Portuguesa durante casi",
+   "q": [
+    "Ilha de Moçambique",
+    "Ilha de Moçambique (Patrimonio de la Humanidad)"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Chocas-Mar, las Cabaceiras y la bahía de Mossuril",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -14.9667,
+   "lon": 40.6167,
+   "desc": "Justo enfrente de Ilha, al otro lado de la bahía, un rosario de playas de arena blanca y manglares al que se llega por PISTAS DE ARENA entre cocoteros: Chocas-Mar, Cabaceira Pequena y Cabaceira Grande",
+   "q": [
+    "Chocas-Mar, las Cabaceiras y la bahía de Mossuril",
+    "Chocas-Mar, las Cabaceiras",
+    "la bahía de Mossuril"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Pemba y el archipiélago de las Quirimbas (EXCLUIDOS)",
+   "cat": "Referencia · conflicto",
+   "prio": "Descartada",
+   "lat": -12.974,
+   "lon": 40.5178,
+   "desc": "ZONA EXCLUIDA. Pemba, la bahía natural más grande de África después de Sídney, la isla de Ibo con sus tres fuertes portugueses y el archipiélago de las Quirimbas serían, sin el conflicto, dos semanas ",
+   "q": [
+    "Pemba y el archipiélago de las Quirimbas",
+    "Pemba",
+    "el archipiélago de las Quirimbas",
+    "Pemba y el archipiélago de las Quirimbas (EXCLUIDOS)"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Quelimane",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -17.8786,
+   "lon": 36.8883,
+   "desc": "Puerto fluvial sobre el río dos Bons Sinais, la ciudad del cocotero y punto de partida histórico de la travesía de África de Livingstone. Arquitectura colonial deteriorada pero con carácter, catedral ",
+   "q": [
+    "Quelimane"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Caia y el puente del Zambeze",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -17.8286,
+   "lon": 35.3336,
+   "desc": "El punto donde la EN1 cruza el ZAMBEZE por el puente Armando Emílio Guebuza (2.376 m, inaugurado en 2009), que sustituyó a la barcaza que durante décadas partió el país en dos. Es el nudo que decide l",
+   "q": [
+    "Caia y el puente del Zambeze",
+    "Caia",
+    "el puente del Zambeze"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Tete, Cahora Bassa y el puente colgante",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -16.1564,
+   "lon": 33.5867,
+   "desc": "Corazón de la variante interior. Tete es la ciudad más calurosa de Mozambique (más de 45 °C en octubre) y su puente colgante sobre el Zambeze, de 1973, sigue siendo una imagen icónica del país. A 150 ",
+   "q": [
+    "Tete, Cahora Bassa y el puente colgante",
+    "Tete, Cahora Bassa",
+    "el puente colgante"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Parque Nacional de Gorongosa",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -18.9814,
+   "lon": 34.3517,
+   "desc": "EL PARQUE DE REFERENCIA MUNDIAL EN RESTAURACIÓN. La guerra civil borró el 90-95% de la fauna grande; desde 2004 el proyecto de restauración de Gorongosa la ha reconstruido hasta las decenas de miles d",
+   "q": [
+    "Parque Nacional de Gorongosa",
+    "Parque Nacional dGorongosa"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Monte Gorongosa y las cascadas de Murombodzi",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -18.4333,
+   "lon": 34.0667,
+   "desc": "LA MEJOR CAMINATA DEL CENTRO DEL PAÍS. El macizo de Gorongosa (1.863 m), incorporado al parque en 2010 precisamente porque su bosque de niebla es la fábrica de agua que alimenta el valle, se sube desd",
+   "q": [
+    "Monte Gorongosa y las cascadas de Murombodzi",
+    "Mount Gorongosa y las cascadas de Murombodzi",
+    "Monte Gorongosa",
+    "las cascadas de Murombodzi"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Beira",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -19.8437,
+   "lon": 34.8389,
+   "desc": "Segunda ciudad del país y cabecera del corredor de Beira hacia Zimbabue: el mejor sitio del centro para talleres, recambios, neumáticos y aprovisionamiento serio. La Sé da Beira y el Grande Hotel —un ",
+   "q": [
+    "Beira"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Chimoio, Manica y el arte rupestre de Chinhamapere",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -19.1164,
+   "lon": 33.4833,
+   "desc": "Última plaza grande antes de la frontera de Machipanda, en la meseta de Manica: clima fresco, buenos servicios y base para el bloque montañoso. A 70 km, el pueblo de Manica conserva el mirador de Penh",
+   "q": [
+    "Chimoio, Manica y el arte rupestre de Chinhamapere",
+    "Chimoio, Manica",
+    "el arte rupestre de Chinhamapere"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Reserva Nacional de Chimanimani y el monte Binga (2.436 m)",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -19.7647,
+   "lon": 33.0619,
+   "desc": "EL TECHO DE MOZAMBIQUE y la mejor travesía a pie del país. El monte Binga (2.436 m) corona la sierra de Chimanimani, en la frontera con Zimbabue: cuarcitas blancas, praderas de altura, bosque de galer",
+   "q": [
+    "Reserva Nacional de Chimanimani y el monte Binga",
+    "Reserva Nacional de Chimanimani",
+    "el monte Binga",
+    "Reserva Nacional de Chimanimani y el monte Binga (2.436 m)"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Inhassoro y la península de San Sebastián",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -21.5333,
+   "lon": 35.2,
+   "desc": "El acceso terrestre más salvaje del archipiélago. Desde Inhassoro sale la PISTA DE ARENA de la PENÍNSULA DE SAN SEBASTIÁN, un dedo de dunas y matorral costero de unos 60 km que apunta hacia Bazaruto y",
+   "q": [
+    "Inhassoro y la península de San Sebastián",
+    "Inhassoro",
+    "la península de San Sebastián"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Vilanculos y el archipiélago de Bazaruto",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -22.0027,
+   "lon": 35.3133,
+   "desc": "Parque nacional marino de cinco islas con DUNAS DE ARENA BLANCA DE 100 M cayendo al mar, arrecifes de coral, mantas y la última población viable de DUGONGO del océano Índico occidental. A las islas so",
+   "q": [
+    "Vilanculos y el archipiélago de Bazaruto",
+    "Vilanculos",
+    "el archipiélago de Bazaruto"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Tofo, Barra e Inhambane",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -23.8544,
+   "lon": 35.5453,
+   "desc": "LA CAPITAL MUNDIAL DEL TIBURÓN BALLENA Y LA MANTA GIGANTE. La bahía de Tofo tiene una de las agregaciones más constantes del planeta de ambas especies (la Marine Megafauna Foundation nació aquí), y en",
+   "q": [
+    "Tofo, Barra e Inhambane"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Maputo",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -25.9692,
+   "lon": 32.5732,
+   "desc": "Capital, embajada de España y la mayor base de servicios del país: talleres de 4x4, recambios, hospital central y clínicas privadas (Cruz Azul), supermercados grandes y consulados para el resto del bu",
+   "q": [
+    "Maputo"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "Ponta do Ouro, Ponta Malongane y el Parque Nacional de Maputo",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -26.8433,
+   "lon": 32.8917,
+   "desc": "EL EXTREMO SUR DE MOZAMBIQUE Y EL PARAÍSO 4x4 DEL PAÍS. Desde el puente de Katembe la carretera acaba y empieza el laberinto de PISTAS DE ARENA PROFUNDA entre dunas boscosas, lagos interiores (Sugi, S",
+   "q": [
+    "Ponta do Ouro, Ponta Malongane y el Parque Nacional de Maputo",
+    "Ponta do Ouro, Ponta Malongane",
+    "el Parque Nacional de Maputo"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada RECOMENDADA — Matchedje / Puente de la Unidad 2 (desde Tanzania)",
+   "cat": "Frontera",
+   "lat": -11.58,
+   "lon": 35.4295,
+   "desc": "SÍ ES UN PUENTE. Este puesto corresponde al PUENTE DE LA UNIDAD 2 (Unity Bridge 2 / Ponte da Unidade II) sobre el río Rovuma, entre Kivikoni (Tanzania) y Lupilichi-Segunda Congresso (Mozambique), en 1",
+   "q": [
+    "RECOMENDADA",
+    "Matchedje",
+    "Unidad",
+    "Tanzania"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Entrada DESCARTADA — Negomano/Mtambaswala (Puente de la Unidad 1)",
+   "cat": "Frontera",
+   "lat": -11.4193,
+   "lon": 38.4962,
+   "desc": "El Puente de la Unidad original: 720 m de longitud y 13,8 m de ancho, 18 vanos de hormigón pretensado y dos carriles, construido por China Geo-Engineering entre 2005 y 2010 por 35 millones de dólares,",
+   "q": [
+    "DESCARTADA",
+    "Negomano",
+    "Mtambaswala",
+    "Unidad"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Entrada DESCARTADA — Kilambo/Namoto (barcaza del Rovuma)",
+   "cat": "Frontera",
+   "lat": -10.47,
+   "lon": 40.44,
+   "desc": "NO ES UN PUENTE: es una barcaza para ~6 vehículos 4x4 (u 8 pequeños) en la desembocadura del Rovuma, a unos 40 km al sur de Mtwara. Depende de la marea (necesita ~3 m de agua) y a veces carga y zarpa ",
+   "q": [
+    "DESCARTADA",
+    "Kilambo",
+    "Namoto",
+    "Rovuma"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Entrada ALTERNATIVA — Zóbuè/Mwanza (desde Malaui)",
+   "cat": "Frontera",
+   "lat": -15.6136,
+   "lon": 34.3856,
+   "desc": "Plan B si la entrada por el Rovuma se descarta por completo: bajar por Malaui y entrar a Mozambique por el corredor de Tete. Carretera asfaltada, tráfico pesado de camiones. Obliga a añadir Malaui a l",
+   "q": [
+    "Zóbuè",
+    "Mwanza",
+    "Malaui"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Salida — Machipanda/Forbes (hacia Zimbabue)",
+   "cat": "Frontera",
+   "lat": -19.0059,
+   "lon": 32.7171,
+   "desc": "Salida prevista del país, a 95 km de Chimoio y a 8 km de Mutare (Zimbabue). Enlace económico principal entre Harare y el puerto de Beira: MUCHÍSIMO camión y atascos que llegan a bloquear la carretera.",
+   "q": [
+    "Machipanda",
+    "Forbes",
+    "Zimbabue"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Embajada de España en Maputo",
+   "cat": "Consular",
+   "lat": -25.97,
+   "lon": 32.585,
+   "desc": "Rua Damião de Góis, 347, Caixa Postal 1331, Maputo. Tel. (+258) 21 49 20 25/27/30 · Emergencia consular 24 h: (+258) 84 32 82 900. Es la única representación española del país: cualquier trámite mayor",
+   "q": [
+    "Embajada de España en Maputo",
+    "Embassy of Spain Maputo",
+    "Spain Embassy Maputo"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Hospital Central de Maputo",
+   "cat": "Hospital",
+   "lat": -25.9575,
+   "lon": 32.5789,
+   "desc": "Principal hospital de referencia del país. Para lo serio, la práctica regional es la evacuación a Sudáfrica (Nelspruit o Johannesburgo, a 5-6 h por carretera desde Maputo). Alternativa privada: Clínic",
+   "q": [
+    "Hospital Central de Maputo",
+    "Central de Maputo"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Hospital Central de Nampula",
+   "cat": "Hospital",
+   "lat": -15.1165,
+   "lon": 39.2666,
+   "desc": "Mejor referencia sanitaria de todo el norte y el centro-norte: lo más cercano a Ilha de Moçambique, Cuamba y Gurué. Entre Lichinga y Nampula solo hay hospitales rurales.",
+   "q": [
+    "Hospital Central de Nampula",
+    "Central de Nampula"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hospital Central da Beira",
+   "cat": "Hospital",
+   "lat": -19.8437,
+   "lon": 34.8389,
+   "desc": "Referencia del centro del país, la mejor opción entre Quelimane y Maputo; cubre Gorongosa, Chimoio y Chimanimani.",
+   "q": [
+    "Hospital Central da Beira",
+    "Central da Beira"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Lichinga (norte)",
+   "cat": "Combustible",
+   "lat": -13.3128,
+   "lon": 35.2406,
+   "desc": "Primer repostaje formal tras entrar por Matchedje, a 232 km de la frontera. Salir de Songea (Tanzania) con los depósitos y garrafas llenos: en ese tramo no hay garantía ninguna.",
+   "q": [
+    "Lichinga"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Cuamba y Nampula",
+   "cat": "Combustible",
+   "lat": -14.8036,
+   "lon": 36.5372,
+   "desc": "Cuamba es el único repostaje fiable entre Lichinga y Nampula (~350 km). Nampula concentra la mejor oferta y calidad del norte (Petromoc, Total, Puma).",
+   "q": [
+    "Cuamba",
+    "Nampula",
+    "Cuamba y Nampula"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Quelimane, Caia y Beira (centro)",
+   "cat": "Combustible",
+   "lat": -17.8286,
+   "lon": 35.3336,
+   "desc": "Caia, junto al puente del Zambeze, es el nudo: último repostaje fiable antes de Gorongosa o antes de la variante interior hacia Tete. Beira es la mejor plaza del centro.",
+   "q": [
+    "Quelimane",
+    "Caia",
+    "Beira"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Vilanculos, Inhambane y Maputo (sur)",
+   "cat": "Combustible",
+   "lat": -22.0027,
+   "lon": 35.3133,
+   "desc": "El sur está bien servido: la EN1 tiene estaciones con regularidad. Repostar a fondo en Vilanculos antes de subir al norte, donde la EN1 empeora mucho. Regla overlander local: repostar al llegar al 50%",
+   "q": [
+    "Vilanculos",
+    "Inhambane",
+    "Maputo"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Agua potable y de uso general · Nampula, Beira, Vilanculos y Maputo",
+   "cat": "Agua potable",
+   "lat": -19.8437,
+   "lon": 34.8389,
+   "desc": "Agua embotellada sin problema en supermercados de las cuatro. Campings, lodges y estaciones de servicio permiten llenar el depósito de uso general con manguera; confirmar en recepción.",
+   "q": [
+    "Nampula",
+    "Beira",
+    "Vilanculos",
+    "Maputo"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Agua · costa de Inhambane y Ponta do Ouro",
+   "cat": "Agua potable",
+   "lat": -23.8544,
+   "lon": 35.5453,
+   "desc": "Los campings de Tofo, Barra, Ponta do Ouro y Malongane tienen agua corriente y duchas; agua de pozo salobre en algunos, tratar antes de beber. Brotes de cólera recurrentes en el país: no beber agua no",
+   "q": [
+    "Inhambane",
+    "Ponta",
+    "Ouro",
+    "costa de Inhambane y Ponta do Ouro"
+   ]
+  }
+ ]
+}

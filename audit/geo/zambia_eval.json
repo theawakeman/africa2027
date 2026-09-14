@@ -1,0 +1,1153 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Parque Nacional de Liuwa Plain",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -14.5,
+  "lon": 22.483,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Liuwa Plain National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -14.53118,
+   "lon": 22.60597,
+   "d": 13.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Liuwa Plain National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -14.53118,
+    "lon": 22.60597,
+    "d": 13.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "African Parks - Liuwa Plain National Park Old Headquarters",
+    "kind": "office=yes",
+    "lat": -14.98809,
+    "lon": 22.68306,
+    "d": 58.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Mongu y la llanura del Barotse (Kuomboka)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -15.2667,
+  "lon": 23.1333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mongu",
+   "kind": "place=town",
+   "lat": -15.26688,
+   "lon": 23.13654,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mongu",
+    "kind": "place=town",
+    "lat": -15.26688,
+    "lon": 23.13654,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mongu Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -15.25474,
+    "lon": 23.16199,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mongu Harbour",
+    "kind": "natural=water",
+    "lat": -15.27375,
+    "lon": 23.11732,
+    "d": 1.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Parque Nacional de Kafue · llanuras de Busanga",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -14.1,
+  "lon": 25.8,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Lusaka National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -15.541,
+   "lon": 28.39795,
+   "d": 322.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lusaka National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -15.541,
+    "lon": 28.39795,
+    "d": 322.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lusaka National Park",
+    "kind": "boundary=national_park",
+    "lat": -15.541,
+    "lon": 28.39795,
+    "d": 322.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "National Park Road",
+    "kind": "highway=service",
+    "lat": -15.50977,
+    "lon": 28.43093,
+    "d": 323.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Lusaka",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -15.4067,
+  "lon": 28.305,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lusaka District",
+   "kind": "boundary=administrative",
+   "lat": -15.4263,
+   "lon": 28.31339,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lusaka",
+    "kind": "place=city",
+    "lat": -15.41634,
+    "lon": 28.28184,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lusaka",
+    "kind": "railway=station",
+    "lat": -15.41952,
+    "lon": 28.28394,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lusaka District",
+    "kind": "boundary=administrative",
+    "lat": -15.4263,
+    "lon": 28.31339,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Cataratas Victoria · lado zambiano (Mosi-oa-Tunya)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.9244,
+  "lon": 25.8572,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Victoria Falls Park Entrance & Ticket booth",
+   "kind": "shop=ticket",
+   "lat": -17.92832,
+   "lon": 25.86404,
+   "d": 0.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "AVANI Victoria Falls Resort",
+    "kind": "building=hotel",
+    "lat": -17.92446,
+    "lon": 25.86551,
+    "d": 0.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Victoria Falls Castle",
+    "kind": "tourism=guest_house",
+    "lat": -17.88432,
+    "lon": 25.86029,
+    "d": 4.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Victoria Falls Park Entrance & Ticket booth",
+    "kind": "shop=ticket",
+    "lat": -17.92832,
+    "lon": 25.86404,
+    "d": 0.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Garganta del Batoka y puente de Victoria Falls",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.9283,
+  "lon": 25.8575,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Devil's Cataract",
+   "kind": "natural=cliff",
+   "lat": -17.9229,
+   "lon": 25.84768,
+   "d": 1.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Devil's Cataract",
+    "kind": "natural=cliff",
+    "lat": -17.9229,
+    "lon": 25.84768,
+    "d": 1.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "casa de Lola victoria fall",
+    "kind": "tourism=guest_house",
+    "lat": -17.92843,
+    "lon": 25.81834,
+    "d": 4.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Victoria Falls Road",
+    "kind": "highway=primary",
+    "lat": -17.8032,
+    "lon": 25.24476,
+    "d": 66.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Parque Nacional de South Luangwa (Mfuwe)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -13.0833,
+  "lon": 31.95,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "South Luangwa National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -13.05164,
+   "lon": 31.54003,
+   "d": 44.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "South Luangwa National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -13.05164,
+    "lon": 31.54003,
+    "d": 44.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Parque Nacional de Kasanka · migración de murciélagos",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -12.5833,
+  "lon": 30.25,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kasanka National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -12.52919,
+   "lon": 30.22931,
+   "d": 6.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kasanka National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -12.52919,
+    "lon": 30.22931,
+    "d": 6.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Humedales de Bangweulu · el picozapato",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -11.5,
+  "lon": 30.25,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Bangweulu",
+   "kind": "water=lake",
+   "lat": -11.14741,
+   "lon": 29.78458,
+   "d": 64.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Bangweulu",
+    "kind": "water=lake",
+    "lat": -11.14741,
+    "lon": 29.78458,
+    "d": 64.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bangweulu Wetlands",
+    "kind": "natural=wetland",
+    "lat": -11.55006,
+    "lon": 30.07862,
+    "d": 19.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bangweulu Swamps",
+    "kind": "leisure=nature_reserve",
+    "lat": -11.44127,
+    "lon": 30.0443,
+    "d": 23.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Cataratas de Ntumbachushi",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -9.8,
+  "lon": 29.1,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ntumbachushi Falls",
+   "kind": "waterway=waterfall",
+   "lat": -9.85393,
+   "lon": 28.94439,
+   "d": 18.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ntumbachushi Falls",
+    "kind": "waterway=waterfall",
+    "lat": -9.85393,
+    "lon": 28.94439,
+    "d": 18.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Cataratas de Lumangwe y Kabwelume",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -9.5333,
+  "lon": 29.3833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lumangwe Falls",
+   "kind": "tourism=camp_site",
+   "lat": -9.54267,
+   "lon": 29.38791,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lumangwe Falls",
+    "kind": "tourism=camp_site",
+    "lat": -9.54267,
+    "lon": 29.38791,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Luma-Ngwe Road",
+    "kind": "highway=residential",
+    "lat": -15.38045,
+    "lon": 28.33214,
+    "d": 660.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Luangwa District",
+    "kind": "boundary=administrative",
+    "lat": -15.35843,
+    "lon": 30.06958,
+    "d": 652.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Cataratas de Chishimba",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -10.1167,
+  "lon": 30.9333,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Chisamba",
+   "kind": "waterway=river",
+   "lat": -10.82633,
+   "lon": 29.14266,
+   "d": 211.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chishimba Pub",
+    "kind": "amenity=pub",
+    "lat": -15.4046,
+    "lon": 28.35478,
+    "d": 651.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Ngoli De Lodge",
+    "kind": "tourism=hotel",
+    "lat": -17.86178,
+    "lon": 25.8547,
+    "d": 1020.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Chisamba",
+    "kind": "waterway=river",
+    "lat": -10.82633,
+    "lon": 29.14266,
+    "d": 211.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Lago Tanganyika y Mpulungu",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -8.7667,
+  "lon": 31.1167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mpulungu",
+   "kind": "place=town",
+   "lat": -8.76616,
+   "lon": 31.1196,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mpulungu",
+    "kind": "place=town",
+    "lat": -8.76616,
+    "lon": 31.1196,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mpulungu",
+    "kind": "amenity=ferry_terminal",
+    "lat": -8.76312,
+    "lon": 31.10546,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mpulungu District",
+    "kind": "boundary=administrative",
+    "lat": -8.98338,
+    "lon": 30.71703,
+    "d": 50.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Cataratas de Kalambo (235 m)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -8.6,
+  "lon": 31.2333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kalambo Falls",
+   "kind": "waterway=waterfall",
+   "lat": -8.59617,
+   "lon": 31.23965,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kalambo Falls",
+    "kind": "waterway=waterfall",
+    "lat": -8.59617,
+    "lon": 31.23965,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kalambo Crescent",
+    "kind": "highway=residential",
+    "lat": -12.80077,
+    "lon": 28.24901,
+    "d": 569.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kalambo Road",
+    "kind": "highway=primary",
+    "lat": -15.40906,
+    "lon": 28.27955,
+    "d": 822.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Chavuma/Caripande (desde Angola)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -12.9937161,
+  "lon": 22.7285255,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Chavuma",
+   "kind": "place=town",
+   "lat": -13.08153,
+   "lon": 22.69012,
+   "d": 10.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chavuma",
+    "kind": "place=town",
+    "lat": -13.08153,
+    "lon": 22.69012,
+    "d": 10.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chavuma District",
+    "kind": "boundary=administrative",
+    "lat": -13.31016,
+    "lon": 22.29026,
+    "d": 59.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chavuma Falls",
+    "kind": "waterway=waterfall",
+    "lat": -13.09568,
+    "lon": 22.68571,
+    "d": 12.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida — Nakonde/Tunduma (hacia Tanzania)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -9.3333,
+  "lon": 32.75,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nakonde",
+   "kind": "place=town",
+   "lat": -9.33145,
+   "lon": 32.75479,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nakonde",
+    "kind": "place=town",
+    "lat": -9.33145,
+    "lon": 32.75479,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nakonde",
+    "kind": "waterway=river",
+    "lat": -9.50793,
+    "lon": 32.7988,
+    "d": 20.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nakonde",
+    "kind": "railway=station",
+    "lat": -9.30943,
+    "lon": 32.75789,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Embajada de España en Harare (competente para Zambia)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -17.8216,
+  "lon": 31.0492,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": -17.80318,
+   "lon": 31.04404,
+   "d": 2.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": -17.80318,
+    "lon": 31.04404,
+    "d": 2.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "University Teaching Hospital, Lusaka",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -15.4067,
+  "lon": 28.305,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Bus Stop University Teaching Hospital",
+   "kind": "highway=bus_stop",
+   "lat": -15.43116,
+   "lon": 28.31241,
+   "d": 2.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "University Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": -15.43094,
+    "lon": 28.31401,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bus Stop University Teaching Hospital",
+    "kind": "highway=bus_stop",
+    "lat": -15.43116,
+    "lon": 28.31241,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Levy Mwanawasa University Teaching Hospital",
+    "kind": "amenity=hospital",
+    "lat": -15.38474,
+    "lon": 28.35393,
+    "d": 5.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Hospital general de Kasama (norte)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -10.2129,
+  "lon": 31.1808,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kasama General Hospital",
+   "kind": "amenity=hospital",
+   "lat": -10.212,
+   "lon": 31.18019,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kasama General Hospital",
+    "kind": "amenity=hospital",
+    "lat": -10.212,
+    "lon": 31.18019,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chinsali General Hospital",
+    "kind": "amenity=hospital",
+    "lat": -10.64954,
+    "lon": 32.12885,
+    "d": 114.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kawambwa General Hospital",
+    "kind": "amenity=hospital",
+    "lat": -9.79996,
+    "lon": 29.07419,
+    "d": 235.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Combustible · Mongu (oeste)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -15.2667,
+  "lon": 23.1333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mongu",
+   "kind": "place=town",
+   "lat": -15.26688,
+   "lon": 23.13654,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mongu",
+    "kind": "place=town",
+    "lat": -15.26688,
+    "lon": 23.13654,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mongu Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -15.25474,
+    "lon": 23.16199,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mongu Harbour",
+    "kind": "natural=water",
+    "lat": -15.27375,
+    "lon": 23.11732,
+    "d": 1.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Combustible · Lusaka",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -15.4067,
+  "lon": 28.305,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lusaka District",
+   "kind": "boundary=administrative",
+   "lat": -15.4263,
+   "lon": 28.31339,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lusaka",
+    "kind": "place=city",
+    "lat": -15.41634,
+    "lon": 28.28184,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lusaka",
+    "kind": "railway=station",
+    "lat": -15.41952,
+    "lon": 28.28394,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lusaka District",
+    "kind": "boundary=administrative",
+    "lat": -15.4263,
+    "lon": 28.31339,
+    "d": 2.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Lusaka",
+    "kind": "capital de Zambia",
+    "lat": -15.41667,
+    "lon": 28.28333,
+    "d": 2.6,
+    "match": true,
+    "id": "Q3881"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Serenje / Mpika (Great North Road)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -11.8333,
+  "lon": 31.45,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Serenje",
+   "kind": "place=town",
+   "lat": -13.23215,
+   "lon": 30.23707,
+   "d": 203.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Serenje",
+    "kind": "place=town",
+    "lat": -13.23215,
+    "lon": 30.23707,
+    "d": 203.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serenje",
+    "kind": "railway=station",
+    "lat": -13.2335,
+    "lon": 30.21607,
+    "d": 205.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serenje District",
+    "kind": "boundary=administrative",
+    "lat": -13.19024,
+    "lon": 30.17551,
+    "d": 204.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Serenje",
+    "kind": "human settlement in Zambia",
+    "lat": -13.23083,
+    "lon": 30.23389,
+    "d": 203.9,
+    "match": true,
+    "id": "Q2272373"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · Kasama / Mbala (norte)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -10.2129,
+  "lon": 31.1808,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kasama",
+   "kind": "place=city",
+   "lat": -10.20449,
+   "lon": 31.18772,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kasama",
+    "kind": "place=city",
+    "lat": -10.20449,
+    "lon": 31.18772,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasama",
+    "kind": "building=train_station",
+    "lat": -10.24334,
+    "lon": 31.20636,
+    "d": 4.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasama",
+    "kind": "railway=station",
+    "lat": -10.24346,
+    "lon": 31.20671,
+    "d": 4.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Kawambwa · provisiones del circuito de cascadas",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -9.7833,
+  "lon": 29.0833,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Agua potable y de uso general · Lusaka y Livingstone",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -15.4067,
+  "lon": 28.305,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lusaka District",
+   "kind": "boundary=administrative",
+   "lat": -15.4263,
+   "lon": 28.31339,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lusaka",
+    "kind": "place=city",
+    "lat": -15.41634,
+    "lon": 28.28184,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lusaka",
+    "kind": "railway=station",
+    "lat": -15.41952,
+    "lon": 28.28394,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lusaka District",
+    "kind": "boundary=administrative",
+    "lat": -15.4263,
+    "lon": 28.31339,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Agua · campings de cascadas (norte)",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -9.5333,
+  "lon": 29.3833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Bayamas Lodge - Camping",
+   "kind": "tourism=camp_site",
+   "lat": -11.84619,
+   "lon": 31.44589,
+   "d": 341.9,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bayamas Lodge - Camping",
+    "kind": "tourism=camp_site",
+    "lat": -11.84619,
+    "lon": 31.44589,
+    "d": 341.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Samala Camping",
+    "kind": "tourism=camp_site",
+    "lat": -11.61871,
+    "lon": 32.02625,
+    "d": 370.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Riverside Camping",
+    "kind": "tourism=camp_site",
+    "lat": -8.88046,
+    "lon": 34.09692,
+    "d": 522.4,
+    "match": false
+   }
+  ]
+ }
+]

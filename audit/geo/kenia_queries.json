@@ -1,0 +1,311 @@
+{
+ "slug": "kenia",
+ "bbox": [
+  33.6,
+  -5.0,
+  42.199999999999996,
+  5.3999999999999995
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Nairobi",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -1.2864,
+   "lon": 36.8172,
+   "desc": "Capital y mayor base logística del proyecto en el corredor de regreso: talleres especializados en vehículos de expedición, recambios, embajada de España y el único Parque Nacional del mundo pegado al ",
+   "q": [
+    "Nairobi"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Parque Nacional de Amboseli",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -2.6527,
+   "lon": 37.2606,
+   "desc": "Célebre por sus manadas de elefantes con el Kilimanjaro como telón de fondo; primer gran parque tras cruzar desde Tanzania por Namanga, con alojamientos justo a la entrada del parque.",
+   "q": [
+    "Parque Nacional de Amboseli",
+    "Amboseli National Park"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Lago Naivasha y monte Longonot",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -0.9144,
+   "lon": 36.4461,
+   "desc": "Primer gran alto del Valle del Rift saliendo de Nairobi: lago de agua dulce con hipopótamos y águilas pescadoras, alojamientos y campings en la orilla, y enfrente el cono perfecto del volcán Longonot,",
+   "q": [
+    "Lago Naivasha y monte Longonot",
+    "Lake Naivasha y monte Longonot",
+    "Lago Naivasha",
+    "monte Longonot"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Lago Nakuru · flamencos y rinocerontes",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -0.3667,
+   "lon": 36.0833,
+   "desc": "Lago alcalino del Rift famoso por sus bandadas masivas de flamencos (que fluctúan mucho según el nivel del agua) y por ser uno de los santuarios de rinoceronte blanco y negro más importantes de Kenia,",
+   "q": [
+    "Lago Nakuru",
+    "Lake Nakuru",
+    "Lago Nakuru · flamencos y rinocerontes"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Lago Bogoria · géiseres y aguas termales",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": 0.25,
+   "lon": 36.0833,
+   "desc": "Reserva gestionada por el condado (no por el KWS, así que es más barata y más flexible) con géiseres y fumarolas que brotan en la propia orilla del lago, además de una de las mayores concentraciones d",
+   "q": [
+    "Lago Bogoria",
+    "Lake Bogoria",
+    "Lago Bogoria · géiseres y aguas termales"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Nanyuki y el monte Kenia",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 0.0167,
+   "lon": 37.0667,
+   "desc": "Localidad justo sobre el ecuador geográfico a los pies del monte Kenia, segundo pico más alto de África (5.199 m) y una de las grandes caminatas del continente: el pico Lenana (4.985 m) es accesible s",
+   "q": [
+    "Nanyuki y el monte Kenia",
+    "Nanyuki",
+    "el monte Kenia"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Reserva Nacional de Samburu",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 0.6,
+   "lon": 37.5333,
+   "desc": "Al norte del ecuador, sobre el río Ewaso Ng'iro, es el mejor sitio del país para ver las llamadas «cinco especiales del norte», que no existen en los parques del sur: la cebra de Grevy, la jirafa reti",
+   "q": [
+    "Reserva Nacional de Samburu",
+    "Nacional de Samburu Reserve"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "El bucle del norte: Marsabit, Chalbi y el lago Turkana",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": 2.3167,
+   "lon": 37.9833,
+   "desc": "LA GRAN EXPEDICIÓN 4x4 DE KENIA, y la razón de llevar dos vehículos. Marsabit es un oasis de bosque de niebla con cráteres-lago (Lake Paradise) en pleno desierto; al oeste se abre el DESIERTO DE CHALB",
+   "q": [
+    "El bucle del norte: Marsabit, Chalbi y el lago Turkana",
+    "El bucle del norte: Marsabit, Chalbi",
+    "el lago Turkana"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Reserva Nacional Masái Mara",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -1.4061,
+   "lon": 35.0083,
+   "desc": "La continuación keniana del Serengeti y el escenario del cruce del río Mara durante la gran migración (aproximadamente de julio a octubre). No depende del KWS sino del condado de Narok, con tarifas pr",
+   "q": [
+    "Reserva Nacional Masái Mara",
+    "Nacional Masái Mara Reserve"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Parque Nacional de Tsavo Oeste",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -3.05,
+   "lon": 38.05,
+   "desc": "Junto con Tsavo Este forma uno de los mayores espacios protegidos del mundo. El Oeste es el más variado: los manantiales de Mzima, donde se ven hipopótamos y peces desde una cámara sumergida; las cola",
+   "q": [
+    "Parque Nacional de Tsavo Oeste",
+    "Tsavo Oeste National Park"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Mombasa y el Fuerte Jesús",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -4.0632,
+   "lon": 39.6797,
+   "desc": "La gran ciudad suajili de la costa, con casi mil años de historia como puerto del Índico. El Fuerte Jesús, construido por los portugueses en 1593 y disputado durante siglos con los omaníes, es Patrimo",
+   "q": [
+    "Mombasa y el Fuerte Jesús",
+    "Mombasa",
+    "el Fuerte Jesús"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Diani Beach · el punto más oriental del viaje",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -4.2769,
+   "lon": 39.5906,
+   "desc": "Arena blanca, agua turquesa y colobos rojos en los árboles de la playa: una de las mejores playas de África oriental y el LUGAR MÁS AL ESTE DE TODO EL VIAJE, el punto donde la ruta da la vuelta. Ambie",
+   "q": [
+    "Diani Beach",
+    "Diani Beach · el punto más oriental del viaje"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Lamu",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -2.2717,
+   "lon": 40.902,
+   "desc": "El casco histórico suajili mejor conservado de África oriental y Patrimonio de la Humanidad: una ciudad sin coches, de callejones estrechos, burros, dhows y puertas de madera tallada que son su seña d",
+   "q": [
+    "Lamu"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada — Namanga (desde Tanzania)",
+   "cat": "Frontera",
+   "lat": -2.545,
+   "lon": 36.7867,
+   "desc": "Paso principal del corredor norte, junto al Parque de Amboseli; puesto de alto tránsito turístico bien equipado. Alternativa: Taveta, más al sureste.",
+   "q": [
+    "Namanga",
+    "Tanzania"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida — Lunga Lunga/Horohoro (hacia Tanzania)",
+   "cat": "Frontera",
+   "lat": -4.5583,
+   "lon": 39.1167,
+   "desc": "Paso COSTERO al sur de Diani, distinto del de entrada: puesto de ventanilla única moderno y abierto 24 horas, que enlaza directamente con Tanga y el corredor costero tanzano. Es la salida del punto má",
+   "q": [
+    "Lunga Lunga",
+    "Horohoro",
+    "Tanzania"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Moyale · frontera con Etiopía (FUERA de la ruta)",
+   "cat": "Frontera",
+   "lat": 3.5228,
+   "lon": 39.0556,
+   "desc": "Se mantiene como referencia informativa: la ruta confirmada NO continúa hacia el Cuerno de África. Desde Kenia el viaje da la vuelta y regresa por Tanzania.",
+   "q": [
+    "Moyale",
+    "Etiopía"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Embajada de España en Nairobi",
+   "cat": "Consular",
+   "lat": -1.2977,
+   "lon": 36.8129,
+   "desc": "CBA Building, 3ª planta, Mara & Ragati Roads, Upper Hill, P.O. Box 45503-00100 Nairobi. Tel. +254 20 272 02 22/3/4/5 · Emergencia consular: +254 733 63 11 44.",
+   "q": [
+    "Embajada de España en Nairobi",
+    "Embassy of Spain Nairobi",
+    "Spain Embassy Nairobi"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Aga Khan University Hospital / Nairobi Hospital",
+   "cat": "Hospital",
+   "lat": -1.2667,
+   "lon": 36.8083,
+   "desc": "La mejor referencia sanitaria de todo el bucle sur y este: buen momento para revisiones médicas y para reponer botiquín antes de emprender el regreso.",
+   "q": [
+    "Aga Khan University Hospital / Nairobi Hospital"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Combustible · Nairobi / Nanyuki / Isiolo",
+   "cat": "Combustible",
+   "lat": -1.2864,
+   "lon": 36.8172,
+   "desc": "Estaciones formales (Shell, TotalEnergies, Rubis) en todo el eje central hasta Isiolo; a partir de Marsabit hay que repostar a fondo antes del bucle desértico de Chalbi y Turkana, donde solo hay combu",
+   "q": [
+    "Nairobi",
+    "Nanyuki",
+    "Isiolo",
+    "Nairobi / Nanyuki / Isiolo"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Agua potable y de uso general · Nairobi",
+   "cat": "Agua potable",
+   "lat": -1.2864,
+   "lon": 36.8172,
+   "desc": "Agua embotellada sin problema en supermercados de Nairobi; talleres y campings de Nanyuki e Isiolo permiten llenar el depósito de uso general con manguera. Para el bucle del norte, cargar a tope en Is",
+   "q": [
+    "Nairobi"
+   ]
+  }
+ ]
+}

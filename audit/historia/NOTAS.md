@@ -126,3 +126,31 @@
 - BBC y Britannica no cargaron en la sesión. La cronología se contrastó con el portal oficial del cincuentenario de Angola, Naciones Unidas y el MAEC.
 - El 90 % de cristianos que resume el MAEC no coincide aritméticamente con todas las categorías religiosas que cita del INE 2024; el texto conserva los porcentajes desglosados sin forzar un total.
 - El semba figura como candidatura en curso para 2026 en la página de la UNESCO consultada, no como elemento ya inscrito.
+
+## zambia
+
+- La ficha del MAEC es de enero de 2025; población, PIB por habitante, idiomas y religión se mantienen fechados y no se presentan como un censo de 2026.
+- El portal público de la ECZ consultado el 14 de septiembre de 2026 mostraba 0/226 circunscripciones y resultados pendientes, pese a etiquetarse como oficial; las cifras electorales se atribuyen por ello al comunicado de la Presidencia y no se presentan como extracción del portal.
+- Freedom in the World 2025 evalúa principalmente acontecimientos de 2024 y no incorpora la elección general de agosto de 2026.
+- La UNESCO distingue entre el bien inscrito Mosi-oa-Tunya/Victoria Falls y los sitios incluidos únicamente en la lista indicativa de 2026.
+
+## tanzania
+
+- La cifra del 97,66 % es el resultado proclamado por la INEC; el texto la acompaña de las exclusiones y abusos documentados y no la interpreta como prueba de una elección competitiva.
+- Freedom in the World 2025 evalúa principalmente 2024; la represión electoral de octubre de 2025 se documenta con fuentes posteriores de Human Rights Watch.
+- La ficha del MAEC ofrece estimaciones religiosas aproximadas, no resultados de un censo religioso reciente.
+- La UNESCO mantiene siete bienes inscritos. Nyerere National Park comparte origen territorial con la reserva de Selous y no se cuenta aquí como inscripción separada.
+
+## kenia
+
+- Las cifras electorales de 2022 proceden de la declaración oficial de la IEBC; la posterior impugnación fue desestimada por el Tribunal Supremo.
+- Freedom in the World 2025 evalúa principalmente los acontecimientos de 2024, incluidas las protestas contra el Finance Bill y la destitución del vicepresidente Gachagua.
+- La población de 47,56 millones corresponde al recuento censal de 2019; los 55,1 millones de la ficha del MAEC son una estimación para 2023 y se mantienen fechados.
+- La relación de ocho bienes inscritos y la distinción respecto a la lista indicativa se verificaron en la página vigente de la UNESCO.
+
+## mozambique
+
+- El 65,17 % de Chapo y el 24,19 % de Mondlane son resultados oficiales confirmados; se presentan junto a las impugnaciones y la represión documentada, no como validación independiente del proceso.
+- Freedom in the World 2025 ya incluye la elección de octubre de 2024 y parte de la violencia posterior; los hechos de 2025 se contrastan además con Amnesty International y la ficha del MAEC de 2026.
+- La población de unos 33 millones del Banco Mundial y la estimación de 34,96 millones del MAEC se conservan con su fuente y fecha, sin fingir una precisión censal común.
+- La UNESCO añadió en 2025 la parte mozambiqueña de un bien natural transfronterizo; por eso el país tiene actualmente dos bienes inscritos, no solo la isla de Mozambique.

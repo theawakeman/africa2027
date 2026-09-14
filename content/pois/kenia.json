@@ -1,20 +1,53 @@
 [
   {
     "n": 1,
-    "name": "Nairobi",
+    "name": "Nairobi · museo y base logística",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": -1.2864,
-    "lon": 36.8172,
-    "desc": "Capital y mayor base logística del proyecto en el corredor de regreso: talleres especializados en vehículos de expedición, recambios, embajada de España y el único Parque Nacional del mundo pegado al perfil de una gran ciudad.",
-    "credit": "Timothy A. Gonsalves · CC BY-SA (verificar términos de uso no comercial del autor)",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nairobi%20Skyline%20Savannah%20Kenya%20May19%20R1600687.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Nairobi%20Skyline%20Savannah%20Kenya%20May19%20R1600687.jpg",
+    "lat": -1.2739629,
+    "lon": 36.814425,
+    "desc": "Nairobi es la principal base de talleres, recambios, hospitales y trámites de Kenia. El pin se fija en el National Museum, una visita concreta para entender la historia natural y cultural del país sin convertir toda la ciudad en un único punto.",
+    "credit": "Ferfive · CC BY 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Visiting_Kenya_National_Museum_(95).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Visiting_Kenya_National_Museum_(95).jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "National Museums of Kenya · Nairobi National Museum",
+        "url": "https://museums.or.ke/nairobi-national-museum/"
+      }
+    ],
+    "visit": {
+      "why": "Es el mejor nodo del país para resolver mecánica y salud, y el museo da una introducción sólida a naturaleza, pueblos e historia de Kenia.",
+      "see": "Galerías sobre evolución humana, fauna, ciclos de vida e historia keniana; el jardín botánico forma parte del mismo complejo.",
+      "access": "El pin coincide con National Museum of Kenya en Google Maps. Planificar taller, hospital y alojamiento mediante sus direcciones propias, sin usar este pin como centro genérico.",
+      "when": "En día laborable para la logística; el museo publica apertura diaria, pero conviene revisar horarios y tarifas vigentes.",
+      "skip": "No omitir Nairobi como base si hay mantenimiento pendiente; sí reducir la visita urbana si la ciudad solo añade tráfico y todo está resuelto."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Visiting_Kenya_National_Museum_(95).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Visiting_Kenya_National_Museum_(95).jpg",
+        "credit": "Ferfive · CC BY 4.0",
+        "caption": "Nairobi National Museum, punto visitable y portada concreta de la escala en la capital."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/At_Nairobi_National_Museum_2025_176.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:At_Nairobi_National_Museum_2025_176.jpg",
+        "credit": "Mike Peel · CC BY-SA 4.0",
+        "caption": "Espacio del Nairobi National Museum fotografiado en 2025."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nairobi_National_Museum_03.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nairobi_National_Museum_03.JPG",
+        "credit": "Ruslik0 · CC BY-SA 4.0",
+        "caption": "Turkana Boy en el Nairobi National Museum, una de las piezas clave de sus galerías."
+      }
+    ]
   },
   {
     "n": 2,
@@ -23,32 +56,98 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "1–2 noches",
-    "lat": -2.6527,
-    "lon": 37.2606,
-    "desc": "Célebre por sus manadas de elefantes con el Kilimanjaro como telón de fondo; primer gran parque tras cruzar desde Tanzania por Namanga, con alojamientos justo a la entrada del parque.",
-    "credit": "Ninaras · CC BY 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amboseli%20National%20Park%20and%20Mt.%20Kilimanjaro.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Amboseli%20National%20Park%20and%20Mt.%20Kilimanjaro.jpg",
+    "lat": -2.7199846,
+    "lon": 37.3795592,
+    "desc": "Amboseli combina humedales, llanura abierta, elefantes y vistas al Kilimanjaro cuando el cielo lo permite. La ficha se ancla en Kimana Gate: ninguna especie ni la montaña despejada se dan por garantizadas.",
+    "credit": "Ninara · CC BY 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amboseli_National_Park_and_Mt._Kilimanjaro.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Amboseli_National_Park_and_Mt._Kilimanjaro.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Kenya Wildlife Service · Amboseli National Park",
+        "url": "https://kws.go.ke/park/amboseli-national-park/"
+      }
+    ],
+    "visit": {
+      "why": "La relación entre la llanura, los humedales y el perfil del Kilimanjaro crea uno de los paisajes más reconocibles de África oriental.",
+      "see": "Elefantes, aves de humedal y sabana; el Kilimanjaro puede quedar oculto por nubes y ninguna especie concreta se promete.",
+      "access": "El pin coincide con Amboseli National Park - Kimana Gate en Google Maps. Confirmar pago, vehículo, guía y cuidado del perro antes de llegar.",
+      "when": "Primera y última hora favorecen luz y fauna; la visibilidad de la montaña depende del tiempo, no del calendario de la ficha.",
+      "skip": "Descartarlo si el perro no queda resuelto o si solo hay tiempo para atravesar el parque con prisa."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amboseli_National_Park_and_Mt._Kilimanjaro.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Amboseli_National_Park_and_Mt._Kilimanjaro.jpg",
+        "credit": "Ninara · CC BY 4.0",
+        "caption": "Amboseli con el Kilimanjaro al fondo; esa visibilidad no está garantizada."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paisaje_en_el_parque_nacional_de_Amboseli,_Kenia,_2024-05-23,_DD_20-22_HDR.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Paisaje_en_el_parque_nacional_de_Amboseli,_Kenia,_2024-05-23,_DD_20-22_HDR.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Llanura y humedal del parque nacional de Amboseli."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_de_Amboseli_11.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Amboseli_11.jpg",
+        "credit": "ProtoplasmaKid · CC BY-SA 4.0",
+        "caption": "Entorno exterior de Kimana Gate, la puerta representada por el pin."
+      }
+    ]
   },
   {
     "n": 3,
-    "name": "Lago Naivasha y monte Longonot",
+    "name": "Monte Longonot y lago Naivasha",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": -0.9144,
-    "lon": 36.4461,
-    "desc": "Primer gran alto del Valle del Rift saliendo de Nairobi: lago de agua dulce con hipopótamos y águilas pescadoras, alojamientos y campings en la orilla, y enfrente el cono perfecto del volcán Longonot, que se sube a pie en unas 4-5 horas para rodear todo el cráter por el borde. Al lado está Hell's Gate, el único parque de Kenia que se recorre a pie y en bicicleta entre cebras y jirafas, porque no tiene grandes depredadores.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20of%20Lake%20Naivasha%20from%20Mt%20Longonot.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:A%20view%20of%20Lake%20Naivasha%20from%20Mt%20Longonot.jpg",
+    "lat": -0.88877,
+    "lon": 36.4748186,
+    "desc": "Longonot ofrece una ascensión volcánica exigente junto al lago Naivasha. El pin marca la sede y puerta real del parque; paseo en lago, Hell’s Gate y vuelta completa al cráter son planes distintos que necesitan tiempo propio.",
+    "credit": "Valerius Tygart · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/MtLongonot1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:MtLongonot1.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Kenya Wildlife Service · Mt Longonot National Park",
+        "url": "https://kws.go.ke/park/mt-longonot-national-park/"
+      }
+    ],
+    "visit": {
+      "why": "Permite subir a un volcán del Rift con vistas hacia Naivasha sin comprometer varios días de alta montaña.",
+      "see": "Cono, borde del cráter y vistas del valle; rodear toda la arista añade desnivel y exposición respecto a alcanzar el borde.",
+      "access": "El pin coincide con Mt Longonot National Park Headquarters & Gate en Google Maps. Registrar la entrada y empezar solo con agua, calzado y horas de luz suficientes.",
+      "when": "Muy temprano y con tiempo seco; el calor, el viento y el barro empeoran con rapidez la ruta del borde.",
+      "skip": "No mezclar en el mismo día ascensión completa, paseo por Naivasha y Hell’s Gate; escoger según energía y meteorología."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/MtLongonot1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:MtLongonot1.jpg",
+        "credit": "Valerius Tygart · CC BY-SA 3.0",
+        "caption": "Monte Longonot y su cono volcánico en el Rift keniano."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Longonot_in_Kenya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Longonot_in_Kenya.jpg",
+        "credit": "VickyOmondi · CC BY-SA 4.0",
+        "caption": "Cráter boscoso del monte Longonot visto desde el borde."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Longonot_crater.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Longonot_crater.jpg",
+        "credit": "Mekami · CC BY-SA 4.0",
+        "caption": "Vista del interior del cráter; rodear la arista exige más tiempo que llegar al borde."
+      }
+    ]
   },
   {
     "n": 4,
@@ -57,15 +156,52 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "1–2 noches",
-    "lat": -0.3667,
-    "lon": 36.0833,
-    "desc": "Lago alcalino del Rift famoso por sus bandadas masivas de flamencos (que fluctúan mucho según el nivel del agua) y por ser uno de los santuarios de rinoceronte blanco y negro más importantes de Kenia, con el añadido de los leones trepadores y las jirafas de Rothschild. Parque de categoría premium en la nueva tarifa del KWS: 90 USD por adulto y día.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%2C%20Lake%20Nakuru.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Flamingos%2C%20Lake%20Nakuru.jpg",
+    "lat": -0.4217169,
+    "lon": 36.1366145,
+    "desc": "Lago alcalino del Rift, santuario de rinocerontes y parte del bien UNESCO de los lagos kenianos. Los flamencos cambian mucho de número y ubicación; el pin conduce a Nderit Gate, no al centro del agua.",
+    "credit": "Ninara · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Nakuru_National_Park,_Kenya_-_51953178140.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Nakuru_National_Park,_Kenya_-_51953178140.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Kenya Wildlife Service · Lake Nakuru National Park",
+        "url": "https://kws.go.ke/park/lake-nakuru-national-park/"
+      },
+      {
+        "label": "UNESCO · sistema de lagos del Gran Rift",
+        "url": "https://whc.unesco.org/en/list/1060/"
+      }
+    ],
+    "visit": {
+      "why": "Combina el paisaje de un lago del Rift con conservación de rinoceronte y una visita manejable desde Nakuru.",
+      "see": "Orilla, aves, bosque y mamíferos; los grandes mantos de flamencos dependen del nivel y alimento del lago.",
+      "access": "El pin coincide con Nderit Gate Lake Nakuru National Park en Google Maps. Verificar qué puerta conviene según alojamiento y estado de pistas.",
+      "when": "Entrar a primera hora y reservar una jornada; lluvia y nivel alto pueden limitar algunas pistas cercanas a la orilla.",
+      "skip": "No entrar solo para reproducir una foto histórica de flamencos ni contar con rinocerontes visibles desde un punto concreto."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Nakuru_National_Park,_Kenya_-_51953178140.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Nakuru_National_Park,_Kenya_-_51953178140.jpg",
+        "credit": "Ninara · CC BY 2.0",
+        "caption": "Paisaje del lago Nakuru dentro del parque nacional."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Buffaloes_and_pelicans.Lake_Nakuru_National_Park.%D0%91%D1%83%D0%B9%D0%B2%D0%BE%D0%BB%D1%8B_%D0%B8_%D0%BF%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D1%8B_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Buffaloes_and_pelicans.Lake_Nakuru_National_Park.%D0%91%D1%83%D0%B9%D0%B2%D0%BE%D0%BB%D1%8B_%D0%B8_%D0%BF%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D1%8B_-_panoramio.jpg",
+        "credit": "Николай Максимович · CC BY 3.0",
+        "caption": "Búfalos y pelícanos en Lake Nakuru National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Nakuru_National_Park_(Kenya)_23.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Nakuru_National_Park_(Kenya)_23.jpg",
+        "credit": "Superchilum · CC BY-SA 4.0",
+        "caption": "Hábitat de lago y sabana dentro de Lake Nakuru National Park."
+      }
+    ]
   },
   {
     "n": 5,
@@ -74,32 +210,98 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": 0.25,
-    "lon": 36.0833,
-    "desc": "Reserva gestionada por el condado (no por el KWS, así que es más barata y más flexible) con géiseres y fumarolas que brotan en la propia orilla del lago, además de una de las mayores concentraciones de flamenco enano de África cuando las algas acompañan. El contraste de los chorros de vapor contra el agua rosa es de los paisajes más raros de Kenia.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20bogoria%20view.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20bogoria%20view.jpg",
+    "lat": 0.254246,
+    "lon": 36.083978,
+    "desc": "Bogoria reúne orilla alcalina, flamencos variables, surgencias calientes y géiseres. El pin está en un grupo real de chorros geotérmicos; hay que respetar las zonas habilitadas porque el agua y el terreno pueden quemar.",
+    "credit": "Arthur Buliva · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Bogoria_2011.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Bogoria_2011.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "UNESCO · lago Bogoria en el sistema del Gran Rift",
+        "url": "https://whc.unesco.org/en/list/1060/"
+      }
+    ],
+    "visit": {
+      "why": "Es uno de los paisajes geotérmicos más singulares de la ruta y forma parte del sistema de lagos reconocido por la UNESCO.",
+      "see": "Géiseres, surgencias, costa mineral y aves; la abundancia de flamencos cambia de un lago y temporada a otra.",
+      "access": "El pin coincide con Bogoria Hot Water Spouting Geysers en Google Maps. Seguir la pista autorizada y mantener distancia de costras y agua hirviendo.",
+      "when": "Con luz y pista seca; confirmar acceso con la reserva/condado porque lluvia y crecidas pueden cambiar la aproximación.",
+      "skip": "Descartarlo si la pista está cerrada o si no se puede mantener una distancia segura de las fuentes calientes."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Bogoria_2011.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Bogoria_2011.jpg",
+        "credit": "Arthur Buliva · CC BY-SA 3.0",
+        "caption": "Panorámica del delta de Loburu y las surgencias calientes de Bogoria."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/200812_kenya-107_(3213939312).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:200812_kenya-107_(3213939312).jpg",
+        "credit": "Franco Pecchio · CC BY 2.0",
+        "caption": "Géiser de la orilla de Bogoria, geolocalizado junto al sector termal."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Rainbirder_-_Born_of_Fire.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Born_of_Fire.jpg",
+        "credit": "Steve Garvie · CC BY-SA 2.0",
+        "caption": "Flamencos y paisaje volcánico en Lake Bogoria."
+      }
+    ]
   },
   {
     "n": 6,
-    "name": "Nanyuki y el monte Kenia",
+    "name": "Monte Kenia · acceso por Sirimon",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–4 noches",
-    "lat": 0.0167,
-    "lon": 37.0667,
-    "desc": "Localidad justo sobre el ecuador geográfico a los pies del monte Kenia, segundo pico más alto de África (5.199 m) y una de las grandes caminatas del continente: el pico Lenana (4.985 m) es accesible sin escalada técnica en 3-5 días por las rutas Sirimon, Chogoria o Naro Moru. Buena oferta de talleres y servicios, y puerta de las reservas privadas de Laikipia.",
-    "credit": "Martin Kithinji Mwirigi · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Mt.%20Kenya%20from%20the%20Nanyuki%20Town.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:View%20of%20Mt.%20Kenya%20from%20the%20Nanyuki%20Town.jpg",
+    "lat": 0.0055384,
+    "lon": 37.246993,
+    "desc": "El monte Kenia es el segundo macizo más alto de África y Patrimonio Mundial. El pin conduce a Sirimon Gate, acceso real a rutas de varios días; Nanyuki queda como base de servicios, no como sustituto de la montaña.",
+    "credit": "Nina R · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kenya_(31439581631).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_(31439581631).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "UNESCO · Mount Kenya National Park/Natural Forest",
+        "url": "https://whc.unesco.org/en/list/800/"
+      }
+    ],
+    "visit": {
+      "why": "Sirimon abre una ruta de alta montaña muy escénica y sitúa el viaje ante el segundo macizo más alto de África.",
+      "see": "Bosque montano, páramo afroalpino, valles glaciares y cumbres; Point Lenana no es la cima Batian.",
+      "access": "El pin coincide con Mt Kenya National Park Sirimon Gate en Google Maps. La travesía requiere guía/operador, pernoctas, pago y plan de altitud confirmados.",
+      "when": "Elegir ventana seca y varios días de aclimatación; comprobar previsión de montaña, no solo la de Nanyuki.",
+      "skip": "No convertir una expedición de varios días en excursión improvisada ni subir si el perro o la evacuación no están resueltos."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kenya_(31439581631).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Kenya_(31439581631).jpg",
+        "credit": "Nina R · CC BY 2.0",
+        "caption": "El macizo del monte Kenia, objetivo de las rutas que parten de sus puertas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenya_Wildlife_Service_page_banner.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kenya_Wildlife_Service_page_banner.jpg",
+        "credit": "Ronald Robert · CC BY-SA 4.0",
+        "caption": "Entrada a una ruta de ascenso del Mount Kenya National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Scaling_Mt._Kenya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Scaling_Mt._Kenya.jpg",
+        "credit": "Mara008 · CC BY-SA 4.0",
+        "caption": "Vista de alta montaña desde el entorno de Shipton's Camp."
+      }
+    ]
   },
   {
     "n": 7,
@@ -108,32 +310,98 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 noches",
-    "lat": 0.6,
-    "lon": 37.5333,
-    "desc": "Al norte del ecuador, sobre el río Ewaso Ng'iro, es el mejor sitio del país para ver las llamadas «cinco especiales del norte», que no existen en los parques del sur: la cebra de Grevy, la jirafa reticulada, el gerenuk (el antílope que se pone de pie para comer), el oryx beisa y el avestruz somalí. Paisaje árido de acacias y palmeras doum, gestionado por el condado.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Male%20Somali%20ostrich%20walking%20through%20Samburu%20National%20Reserve%20landscape%2C%20Kenya.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Male%20Somali%20ostrich%20walking%20through%20Samburu%20National%20Reserve%20landscape%2C%20Kenya.jpg",
+    "lat": 0.6288136,
+    "lon": 37.63912,
+    "desc": "Reserva árida junto al Ewaso Ng’iro, con fauna adaptada al norte y paisajes de acacias y palmeras doum. El pin está en una puerta real; las llamadas especies especiales son posibilidades, no una lista garantizada.",
+    "credit": "Daniel Case · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Acacia_tree_with_twisted_roots,_Samburu_National_Reserve,_Kenya.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Acacia_tree_with_twisted_roots,_Samburu_National_Reserve,_Kenya.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Condado de Samburu · reserva y atractivos",
+        "url": "https://www.samburu.go.ke/tourist-attraction-sites/"
+      }
+    ],
+    "visit": {
+      "why": "El Ewaso Ng’iro sostiene un ecosistema árido muy distinto de los parques del sur y aumenta la diversidad real de la ruta.",
+      "see": "Río, acacias, palmeras doum y fauna del norte como gerenuk, cebra de Grévy o jirafa reticulada, siempre sin garantía.",
+      "access": "El pin coincide con Samburu National Reserve Gate en Google Maps. Confirmar tasas del condado, pista, alojamiento y cuidado del perro.",
+      "when": "Con varias salidas al amanecer y atardecer; el estado del río y la sequía cambian mucho la experiencia.",
+      "skip": "Omitir si solo se dispone de unas horas o si la logística obliga a duplicar safaris similares sin descanso."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Acacia_tree_with_twisted_roots,_Samburu_National_Reserve,_Kenya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Acacia_tree_with_twisted_roots,_Samburu_National_Reserve,_Kenya.jpg",
+        "credit": "Daniel Case · CC BY-SA 4.0",
+        "caption": "Acacia y paisaje árido dentro de Samburu National Reserve."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Safari_vehicles_in_Samburu_National_Reserve,_Kenya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Safari_vehicles_in_Samburu_National_Reserve,_Kenya.jpg",
+        "credit": "Daniel Case · CC BY-SA 4.0",
+        "caption": "Vehículos de safari observando fauna en Samburu; muestra la experiencia real del parque."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/SUNSETS_OF_SAMBURU.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:SUNSETS_OF_SAMBURU.jpg",
+        "credit": "Tanishakagiri · CC BY-SA 4.0",
+        "caption": "Atardecer en Samburu National Reserve."
+      }
+    ]
   },
   {
     "n": 8,
-    "name": "El bucle del norte: Marsabit, Chalbi y el lago Turkana",
+    "name": "Marsabit · puerta del bucle del norte",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido en el parque de Marsabit",
     "time": "7–10 días",
-    "lat": 2.3167,
-    "lon": 37.9833,
-    "desc": "LA GRAN EXPEDICIÓN 4x4 DE KENIA, y la razón de llevar dos vehículos. Marsabit es un oasis de bosque de niebla con cráteres-lago (Lake Paradise) en pleno desierto; al oeste se abre el DESIERTO DE CHALBI, una llanura de sal y arena que es el único desierto verdadero del país; y más allá aparece el LAGO TURKANA, el «mar de jade», el lago desértico más grande del mundo, con la mayor densidad de cocodrilos del planeta y los yacimientos de homínidos de Koobi Fora. Pista rocosa durísima («como conducir por la luna», en palabras de un overlander que la hizo), gasóleo solo de bidón en Loiyangalani, y vuelta por Baragoi y Maralal.",
+    "lat": 2.179234,
+    "lon": 37.958126,
+    "desc": "Marsabit protege un oasis forestal volcánico con lagos de cráter en pleno norte árido. Es la decisión verificable antes de un bucle mucho mayor hacia Chalbi y Turkana, que requiere seguridad, combustible y pistas confirmadas por separado.",
     "credit": "Nagarjun · CC BY 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Buffalos%20at%20Marsabit%20National%20Park.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Buffalos%20at%20Marsabit%20National%20Park.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Paradise.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Paradise.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Kenya Wildlife Service · Marsabit National Park",
+        "url": "https://kws.go.ke/park/marsabit-national-park/"
+      }
+    ],
+    "visit": {
+      "why": "Marsabit es un oasis montano inesperado y un punto de decisión sensato antes de internarse en el norte más remoto.",
+      "see": "Bosque de niebla, cráteres y Lake Paradise; Chalbi y Turkana no están en este mismo pin ni en una excursión breve.",
+      "access": "El pin coincide con Marsabit National Park en Google Maps. KWS indica varias puertas: pedir al parque la entrada y pista operativas antes de salir de la A2.",
+      "when": "Con luz, depósito lleno y previsión seca; el bucle posterior solo tras contrastar seguridad, combustible y autonomía localmente.",
+      "skip": "No emprender Chalbi–Turkana por una descripción épica: descartarlo sin dos vehículos, comunicaciones y ruta reciente confirmada."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Paradise.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Paradise.jpg",
+        "credit": "Nagarjun · CC BY 2.0",
+        "caption": "Lake Paradise dentro de Marsabit National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_buffalo_grazes_at_Lake_Paradise.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Cape_buffalo_grazes_at_Lake_Paradise.jpg",
+        "credit": "Nagarjun · CC BY 2.0",
+        "caption": "Búfalo pastando junto a Lake Paradise en Marsabit."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Camels_at_Marsabit.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Camels_at_Marsabit.jpg",
+        "credit": "Tish Madesh · CC0",
+        "caption": "Camellos en Marsabit: representa el entorno árido del inicio del bucle, no una pista concreta del parque."
+      }
+    ]
   },
   {
     "n": 9,
@@ -142,15 +410,48 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "3 noches",
-    "lat": -1.4061,
-    "lon": 35.0083,
-    "desc": "La continuación keniana del Serengeti y el escenario del cruce del río Mara durante la gran migración (aproximadamente de julio a octubre). No depende del KWS sino del condado de Narok, con tarifas propias: 100 USD por persona y día de enero a junio, y 200 USD a partir de julio. Las conservancies privadas del contorno (Naboisho, Olare Motorogi, Mara North) son más caras pero permiten conducción nocturna y fuera de pista, algo prohibido en la reserva.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maasai%20Mara%20National%20Reserve%20Kenya.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Maasai%20Mara%20National%20Reserve%20Kenya.jpg",
+    "lat": -1.4432942,
+    "lon": 35.2080059,
+    "desc": "La reserva keniana comparte ecosistema con Serengeti y ofrece grandes llanuras y fauna durante todo el año. Los cruces migratorios son estacionales e imprevisibles; el pin conduce a Talek Gate, entrada operativa y no punto de avistamiento.",
+    "credit": "Byrdyak · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Masai_Mara_landscape.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Masai_Mara_landscape.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Condado de Narok · plan de gestión de Maasai Mara",
+        "url": "https://narok.go.ke/wp-content/uploads/2023/04/MNNR-Management-Plan-Final-February-2023-1_compressed.pdf"
+      }
+    ],
+    "visit": {
+      "why": "La escala de la sabana y la continuidad con Serengeti justifican varios días incluso fuera del paso migratorio.",
+      "see": "Llanuras, ríos y fauna de sabana; los cruces masivos suceden solo si animales, lluvias y ubicación coinciden.",
+      "access": "El pin coincide con Talek Gate - Maasai Mara en Google Maps. Confirmar tasas oficiales, reserva, sector y prohibiciones antes de entrar.",
+      "when": "Cualquier estación ofrece fauna distinta; julio–octubre es una referencia amplia, nunca una cita para un cruce.",
+      "skip": "No pagar una etapa exprés persiguiendo un cruce anunciado de segunda mano ni confundir reserva y conservancies privadas."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Masai_Mara_landscape.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Masai_Mara_landscape.jpg",
+        "credit": "Byrdyak · CC BY-SA 4.0",
+        "caption": "Sabana abierta y acacia en Maasai Mara."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wildebeest_herd_on_hillside,_Maasai_Mara,_Kenya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wildebeest_herd_on_hillside,_Maasai_Mara,_Kenya.jpg",
+        "credit": "Daniel Case · CC BY-SA 4.0",
+        "caption": "Manada de ñus en Maasai Mara; no implica un cruce de río garantizado."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant_in_Maasai_Mara_landscape,_Kenya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Elephant_in_Maasai_Mara_landscape,_Kenya.jpg",
+        "credit": "Daniel Case · CC BY-SA 4.0",
+        "caption": "Elefante en el paisaje de Maasai Mara."
+      }
+    ]
   },
   {
     "n": 10,
@@ -159,32 +460,98 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 noches",
-    "lat": -3.05,
-    "lon": 38.05,
-    "desc": "Junto con Tsavo Este forma uno de los mayores espacios protegidos del mundo. El Oeste es el más variado: los manantiales de Mzima, donde se ven hipopótamos y peces desde una cámara sumergida; las coladas de lava de Shetani; la colina de Chaimu; y los elefantes rojos, teñidos por el polvo de laterita. Categoría wilderness del KWS: 80 USD por adulto y día.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20the%20Tsavo%20River%20in%20Tsavo%20West%20National%20Park%20(edited).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:View%20of%20the%20Tsavo%20River%20in%20Tsavo%20West%20National%20Park%20(edited).jpg",
+    "lat": -2.6958985,
+    "lon": 38.165087,
+    "desc": "Tsavo West combina lava, colinas, sabana y Mzima Springs en un parque enorme. El pin se ha movido a Mtito Andei Gate para representar un acceso real; recorrer los atractivos interiores exige jornada, combustible y reserva.",
+    "credit": "Nina R · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsavo_West,_Kenya_(53343135540).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tsavo_West,_Kenya_(53343135540).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Kenya Wildlife Service · Tsavo West National Park",
+        "url": "https://kws.go.ke/park/tsavo-west-national-park/"
+      }
+    ],
+    "visit": {
+      "why": "Añade lava, relieve y manantiales a la sabana y ofrece un paisaje distinto del vecino Tsavo East.",
+      "see": "Mzima Springs, Shetani Lava Flow, colinas y fauna; los llamados elefantes rojos deben el tono al polvo y no son una especie distinta.",
+      "access": "El pin coincide con Tsavo West National Park - Mtito Andei Gate en Google Maps, corrigiendo el anterior punto desplazado dentro de la región.",
+      "when": "Reservar jornada completa y entrar temprano; comprobar agua, combustible, alojamiento y pistas con KWS.",
+      "skip": "No entrar sin tiempo para alcanzar y abandonar los puntos interiores dentro del horario de puerta."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsavo_West,_Kenya_(53343135540).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tsavo_West,_Kenya_(53343135540).jpg",
+        "credit": "Nina R · CC BY 2.0",
+        "caption": "Paisaje de Tsavo West National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsavo-West-Mzima-Kenia-134.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tsavo-West-Mzima-Kenia-134.jpg",
+        "credit": "HOWI · CC BY 2.5",
+        "caption": "Agua y vegetación de Mzima Springs dentro de Tsavo West."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mzima_Springs_Entrance.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mzima_Springs_Entrance.JPG",
+        "credit": "S201676 · CC BY-SA 4.0",
+        "caption": "Entrada señalizada al recorrido de Mzima Springs."
+      }
+    ]
   },
   {
     "n": 11,
-    "name": "Mombasa y el Fuerte Jesús",
+    "name": "Mombasa · Fuerte Jesús",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -4.0632,
-    "lon": 39.6797,
-    "desc": "La gran ciudad suajili de la costa, con casi mil años de historia como puerto del Índico. El Fuerte Jesús, construido por los portugueses en 1593 y disputado durante siglos con los omaníes, es Patrimonio de la Humanidad; alrededor, la ciudad vieja conserva callejones, balcones tallados y puertas suajilis. Gran plaza logística de la costa.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort%20jesus%20mombasa.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fort%20jesus%20mombasa.JPG",
+    "lat": -4.0626592,
+    "lon": 39.6797302,
+    "desc": "Fort Jesus, levantado por los portugueses entre 1593 y 1596, permite leer siglos de disputa y mezcla cultural del Índico. El pin está en el museo del fuerte; la ciudad vieja y la logística de Mombasa son capas adicionales.",
+    "credit": "Alex Wafula · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_jesus_mombasa.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Fort_jesus_mombasa.JPG",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "National Museums of Kenya · Fort Jesus Museum",
+        "url": "https://museums.or.ke/fort-jesus-museum/"
+      }
+    ],
+    "visit": {
+      "why": "Es la visita histórica más clara de Mombasa y conecta arquitectura militar con los intercambios del océano Índico.",
+      "see": "Murallas, bastiones, patios, piezas arqueológicas y vistas del puerto; la ciudad vieja continúa fuera del recinto.",
+      "access": "El pin coincide con Fort Jesus Museum en Google Maps. Dejar el vehículo en estacionamiento vigilado y recorrer el entorno a pie de día.",
+      "when": "A primera hora o al final de la tarde, comprobando horario y tarifa vigentes de National Museums of Kenya.",
+      "skip": "No cruzar el centro con vehículos grandes en hora punta ni dejar material visible dentro del coche."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_jesus_mombasa.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_jesus_mombasa.JPG",
+        "credit": "Alex Wafula · CC BY-SA 3.0",
+        "caption": "Exterior del Fuerte Jesús en Mombasa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Jesus,_Mombasa,_Kenya_-_Dec_31,_2022.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_Jesus,_Mombasa,_Kenya_-_Dec_31,_2022.jpg",
+        "credit": "Victor Ochieng · CC BY-SA 2.0",
+        "caption": "Murallas del Fuerte Jesús, fotografiadas desde su entorno inmediato."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Jesus,_2025_(47).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_Jesus,_2025_(47).jpg",
+        "credit": "Bahnfrend · CC BY-SA 4.0",
+        "caption": "Detalle del recinto de Fort Jesus en 2025."
+      }
+    ]
   },
   {
     "n": 12,
@@ -193,31 +560,101 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "3–4 noches",
-    "lat": -4.2769,
-    "lon": 39.5906,
-    "desc": "Arena blanca, agua turquesa y colobos rojos en los árboles de la playa: una de las mejores playas de África oriental y el LUGAR MÁS AL ESTE DE TODO EL VIAJE, el punto donde la ruta da la vuelta. Ambiente relajado, muchos alojamientos admiten perro y hay veterinarios cerca. El sitio natural para parar varios días, revisar los vehículos y celebrar el hito antes de empezar el regreso.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Diani%20Beach%2C%20Kenya%20-%2051984265786.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Diani%20Beach%2C%20Kenya%20-%2051984265786.jpg",
+    "lat": -4.2797626,
+    "lon": 39.5946958,
+    "desc": "Larga playa del Índico al sur de Mombasa y punto oriental de esta ruta. El pin coincide con el objeto Playa de Diani de Google Maps; baño, arrecife, mareas y alojamiento deben evaluarse sin prometer acceso para el perro.",
+    "credit": "Łukasz Ciesielski · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Diani_Beach_Sunrise_Kenya.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Diani_Beach_Sunrise_Kenya.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Diani Beach · localización y contexto",
+        "url": "https://en.wikipedia.org/wiki/Diani_Beach"
+      }
+    ],
+    "visit": {
+      "why": "Es una pausa costera larga y el hito oriental de la ruta, útil para descansar antes del regreso.",
+      "see": "Playa blanca, Índico y amanecer; arrecife, fauna marina y colobos requieren actividades o lugares específicos.",
+      "access": "El pin coincide con Playa de Diani en Google Maps. Elegir acceso público o alojamiento por dirección exacta y confirmar por escrito estacionamiento y reglas para perro.",
+      "when": "Según mareas y viento; reservar varios días solo después de comprobar obra, acceso y custodia del vehículo.",
+      "skip": "No asumir baño seguro, excursión marina ni admisión del perro por la descripción general de la playa."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Diani_Beach_Sunrise_Kenya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Diani_Beach_Sunrise_Kenya.jpg",
+        "credit": "Łukasz Ciesielski · CC BY-SA 3.0",
+        "caption": "Amanecer en Diani Beach, geolocalizado en la misma playa del pin."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Diani_Beach_-_December_2023.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Diani_Beach_-_December_2023.jpg",
+        "credit": "Tall Black · CC BY-SA 4.0",
+        "caption": "Tramo de la extensa playa de Diani en diciembre de 2023."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Diani_Beach_overlooking_the_Indian_Ocean.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Diani_Beach_overlooking_the_Indian_Ocean.jpg",
+        "credit": "JLukorito · CC BY-SA 4.0",
+        "caption": "Océano Índico visto desde Diani Beach."
+      }
+    ]
   },
   {
     "n": 13,
-    "name": "Lamu",
+    "name": "Lamu Old Town · cultura suajili",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "no recomendado",
     "time": "2–3 noches",
-    "lat": -2.2717,
-    "lon": 40.902,
-    "desc": "El casco histórico suajili mejor conservado de África oriental y Patrimonio de la Humanidad: una ciudad sin coches, de callejones estrechos, burros, dhows y puertas de madera tallada que son su seña de identidad. El problema es el acceso: queda muy al norte de la costa, se llega en barco desde el continente y la carretera de aproximación pasa cerca de la franja sensible del condado de Lamu. Valorar con la información de seguridad del momento.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamu%20Kenya-door.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lamu%20Kenya-door.jpg",
+    "lat": -2.2674413,
+    "lon": 40.9022797,
+    "desc": "Lamu conserva un tejido urbano suajili de coral y madera, vivo y sin tráfico rodado, inscrito por la UNESCO. El pin está en Lamu Museum; llegar exige dejar el coche en el continente y revisar la seguridad vigente del corredor.",
+    "credit": "Almaddy2022 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamu_Old_Town.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lamu_Old_Town.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "UNESCO · Lamu Old Town",
+        "url": "https://whc.unesco.org/en/list/1055/"
+      },
+      {
+        "label": "National Museums of Kenya · Lamu Museum",
+        "url": "https://museums.or.ke/lamu-museum/"
+      }
+    ],
+    "visit": {
+      "why": "Lamu ofrece el conjunto urbano suajili más íntegro de la ruta y un museo directamente ligado a esa cultura.",
+      "see": "Calles estrechas, casas de coral, puertas talladas, frente marítimo, dhows y colecciones del Lamu Museum.",
+      "access": "El pin coincide con Lamu Museum en Google Maps. El coche queda en el continente y el último tramo es en barco; resolver equipaje, perro y custodia antes de embarcar.",
+      "when": "Solo con luz y tras revisar avisos de seguridad actuales para el condado y la carretera de acceso.",
+      "skip": "Descartarlo si la seguridad, el traslado marítimo o el cuidado del vehículo y el perro no están claramente resueltos."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamu_Old_Town.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lamu_Old_Town.jpg",
+        "credit": "Almaddy2022 · CC BY-SA 4.0",
+        "caption": "Lamu Old Town, el conjunto urbano suajili de la ficha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamu_old_town_street.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lamu_old_town_street.jpg",
+        "credit": "Mzein04 · CC BY-SA 4.0",
+        "caption": "Calle comercial del casco histórico de Lamu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Usita_wa_Mui_Lamu_Old_Town.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Usita_wa_Mui_Lamu_Old_Town.jpg",
+        "credit": "Bukhit2022 · CC BY-SA 4.0",
+        "caption": "Usita wa Mui dentro de Lamu Old Town."
+      }
+    ]
   }
 ]

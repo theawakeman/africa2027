@@ -1,376 +1,1092 @@
 [
   {
     "n": 1,
-    "name": "Lichinga y la meseta del Niassa",
+    "name": "Lichinga · base de la meseta del Niassa",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento",
     "time": "1–2 noches",
-    "lat": -13.3128,
-    "lon": 35.2406,
-    "desc": "Primera plaza con servicios reales tras entrar por el Rovuma: capital de la provincia de Niassa, a 1.300 m sobre una meseta fresca de pinares y plantaciones, con combustible formal, bancos, mercado y hospital provincial. Está a 232 km del puesto de Matchedje, y entre medias NO hay nada: es el primer sitio donde repostar, reabastecer y recuperar cobertura. El clima de altura aquí es un alivio después del calor de la costa tanzana.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lichinga%20-%20Julius%20Nyerere%20street.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lichinga%20-%20Julius%20Nyerere%20street.JPG",
+    "lat": -13.3010424,
+    "lon": 35.24544,
+    "desc": "Capital provincial y primera base completa de servicios en la meseta del Niassa. El pin se ha fijado en la catedral de Lichinga, un lugar real y reconocible; la función principal de la etapa es repostar, comprar y revisar el coche.",
+    "credit": "Lichinga · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lichinga_-_Julius_Nyerere_street.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lichinga_-_Julius_Nyerere_street.JPG",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Lichinga · ciudad y localización",
+        "url": "https://en.wikipedia.org/wiki/Lichinga"
+      }
+    ],
+    "visit": {
+      "why": "Es la base fiable para combustible, compras, salud y mantenimiento antes de internarse por el poco poblado Niassa.",
+      "see": "La catedral, avenidas arboladas, mercado y ambiente de meseta; el valor principal sigue siendo logístico.",
+      "access": "El pin coincide con Saint Joseph Parish and Cathedral en Google Maps. Talleres, hospital y alojamiento deben abrirse por su dirección exacta, no por este pin.",
+      "when": "En día laborable, agrupando gestiones y dejando margen antes del siguiente tramo largo.",
+      "skip": "No salir de Lichinga sin depósitos llenos, efectivo y confirmación reciente de carretera y frontera."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lichinga_-_Julius_Nyerere_street.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lichinga_-_Julius_Nyerere_street.JPG",
+        "credit": "Lichinga · CC BY-SA 4.0",
+        "caption": "Avenida Julius Nyerere de Lichinga, ciudad base de la ficha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lichinga_-_Rains_approaching_01.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lichinga_-_Rains_approaching_01.JPG",
+        "credit": "Lichinga · CC BY-SA 4.0",
+        "caption": "Tormenta acercándose a Lichinga; muestra el clima de la meseta."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lichinga_-_Rains_over_the_bairro.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lichinga_-_Rains_over_the_bairro.JPG",
+        "credit": "Lichinga · CC BY-SA 4.0",
+        "caption": "Lluvia de verano sobre un barrio de Lichinga."
+      }
+    ]
   },
   {
     "n": 2,
-    "name": "Lago Niassa · Metangula, Cóbuè e islas",
+    "name": "Lago Niassa · Metangula",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "permitido",
+    "dog": "confirmar con alojamiento y barca",
     "time": "2–3 noches",
-    "lat": -12.6892,
-    "lon": 34.8181,
-    "desc": "La orilla mozambiqueña del LAGO MALAUI (aquí Niassa), el tercer lago más grande de África y el de mayor diversidad de peces del planeta: cientos de especies de cíclidos endémicos en agua transparente, sin bilharzia declarada en las zonas de corriente y con playas de arena entre calas rocosas. Metangula y Cóbuè son pueblos de pescadores con lodges sencillos y camping a pie de agua, y en la reserva de Manda Wilderness hay senderos y comunidades. Es la mejor pernocta del norte con el perro: no es parque nacional, es orilla abierta. Baño excelente, muy poca gente y precios bajos.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20malawi%20mozambico%20coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20malawi%20mozambico%20coast.jpg",
+    "lat": -12.6883253,
+    "lon": 34.8084523,
+    "desc": "Metangula abre la orilla mozambiqueña del enorme lago Niassa, con playas, pesca y cultura lacustre. El pin coincide con el muelle real; no se promete agua segura para el baño ni se extiende la ficha a Cóbuè o islas remotas.",
+    "credit": "USAID Africa Bureau · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Festa_em_Metangula_(5888508662).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Festa_em_Metangula_(5888508662).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Metangula · localidad del lago Niassa",
+        "url": "https://en.wikipedia.org/wiki/Metangula"
+      }
+    ],
+    "visit": {
+      "why": "Es el acceso más sencillo de la ruta a la costa mozambiqueña del lago Niassa y permite conocer una vida lacustre poco visitada.",
+      "see": "Muelle, playa, pesca artesanal y montañas al otro lado del lago; Cóbuè es otro desplazamiento.",
+      "access": "El pin coincide con Porto Cais Metangula en Google Maps. Preguntar en el muelle por barcas, chalecos, viento y regreso antes de embarcar.",
+      "when": "Con luz, poco viento y varios días de margen si se pretende navegar; comprobar salud y calidad del agua localmente.",
+      "skip": "No bañarse ni beber por una afirmación genérica de agua limpia y no navegar sin chaleco, patrón y previsión."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Festa_em_Metangula_(5888508662).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Festa_em_Metangula_(5888508662).jpg",
+        "credit": "USAID Africa Bureau · dominio público",
+        "caption": "Celebración en Metangula vinculada a la apertura de la reserva del lago Niassa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiuanga_(beach).JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chiuanga_(beach).JPG",
+        "credit": "Lichinga · CC BY-SA 4.0",
+        "caption": "Playa de Chiuanga, pocos kilómetros al norte de Metangula en la misma orilla del lago."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Messoumba_mission.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Messoumba_mission.JPG",
+        "credit": "Lichinga · CC BY-SA 4.0",
+        "caption": "Misión de Messoumba junto al lago, cerca de Metangula."
+      }
+    ]
   },
   {
     "n": 3,
-    "name": "Reserva Especial de Niassa (EXCLUIDA por seguridad)",
+    "name": "Reserva Especial de Niassa · excluida por seguridad",
     "cat": "Referencia · conflicto",
     "prio": "Descartada",
-    "dog": "irrelevante: no se entra",
+    "dog": "irrelevante: punto excluido",
     "time": "no se visita",
-    "lat": -12.1667,
-    "lon": 37.5,
-    "desc": "ZONA EXCLUIDA. Sobre el papel es la joya: 42.000 km² de miombo virgen a orillas del Lugenda y el Rovuma, uno de los espacios protegidos más grandes de África, con elefantes, licaones y una de las últimas poblaciones grandes de león del continente, y un potencial 4x4 enorme. En la práctica, el Departamento de Estado de EE. UU. la clasifica en NIVEL 4 «NO VIAJAR» por ataques yihadistas a campamentos de caza dentro de la propia reserva, y el FCDO británico desaconseja todo viaje a distritos vecinos de Niassa. Se marca en el mapa precisamente para que quede claro que NO se entra, y para no reinventarla como «desvío tentador» más adelante.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mozambique%20location%20map.svg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mozambique%20location%20map.svg",
+    "lat": -11.8804255,
+    "lon": 37.4681396,
+    "desc": "La mayor reserva de Mozambique queda fuera de esta ruta por la recomendación oficial de no viajar al este de Niassa. Se conserva solo como referencia cartográfica, sin proponer acceso ni visita.",
+    "credit": "DadzieTarua · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aldeia_de_Nahavara_do_bloco_L7_da_Reserva_Nacional_do_Niassa.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Aldeia_de_Nahavara_do_bloco_L7_da_Reserva_Nacional_do_Niassa.jpg",
     "icon": "referencia · conflicto",
     "color": "gris",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "ANAC · Reserva Especial de Niassa",
+        "url": "https://www.anac.gov.mz/en/parques/niassa/"
+      },
+      {
+        "label": "MAEC · recomendación de viaje vigente para Mozambique",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mozambique"
+      }
+    ],
+    "visit": {
+      "why": "Su escala ecológica es excepcional, pero la seguridad vigente pesa más que su interés turístico.",
+      "see": "Solo como referencia documental: miombo, río Lugenda, inselbergs y fauna de una reserva enorme.",
+      "access": "El pin coincide con el objeto Reserva Nacional Niassa de Google Maps, no con una puerta. La ficha no autoriza ni describe una entrada.",
+      "when": "No se visita mientras la recomendación oficial española desaconseje viajar al este de Niassa.",
+      "skip": "Descartada: no sustituir el aviso oficial por relatos de viajeros, operadores o un itinerario antiguo."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aldeia_de_Nahavara_do_bloco_L7_da_Reserva_Nacional_do_Niassa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Aldeia_de_Nahavara_do_bloco_L7_da_Reserva_Nacional_do_Niassa.jpg",
+        "credit": "DadzieTarua · CC BY-SA 4.0",
+        "caption": "Aldea de Nahavara en el bloque L7 de la Reserva de Niassa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leptopelis_broadleyi00.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Leptopelis_broadleyi00.jpg",
+        "credit": "Tomas Chipiri Buruwate · CC BY-SA 3.0",
+        "caption": "Leptopelis broadleyi fotografiado en la Reserva de Niassa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Miombo_in_Niassa_Plateau.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Miombo_in_Niassa_Plateau.JPG",
+        "credit": "Lichinga · CC BY-SA 4.0",
+        "caption": "Bosque de miombo de la meseta de Niassa; referencia regional, no fotografía del pin de la reserva."
+      }
+    ]
   },
   {
     "n": 4,
-    "name": "Cuamba y el ferrocarril de Nacala",
+    "name": "Cuamba · estación del corredor de Nacala",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento y estación",
     "time": "1 noche",
-    "lat": -14.8036,
-    "lon": 36.5372,
-    "desc": "Nudo ferroviario en mitad del interior, donde la línea de Nacala cruza hacia Malaui: uno de los pocos trenes de pasajeros que siguen funcionando en África austral pasa por aquí y sigue siendo la espina dorsal social de toda la región. Mercado grande, combustible y talleres básicos; es el punto de reabastecimiento obligado entre Lichinga y Nampula, un tramo de ~350 km sin nada. Los inselbergs de granito del entorno anuncian el paisaje de Nampula. Imagen: genérica de Mozambique — pendiente de sustituir por una foto de Cuamba.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mozambique%20126.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mozambique%20126.jpg",
+    "lat": -14.8033747,
+    "lon": 36.5352692,
+    "desc": "Cuamba es el nudo terrestre entre Niassa, Nampula y Malawi. El pin está en la estación ferroviaria real; la línea existe, pero ningún tren de pasajeros ni horario se da por operativo sin confirmación de CFM.",
+    "credit": "Jcornelius · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Esta%C3%A7%C3%A3o_de_caminhos_de_ferro_de_Cuamba.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_de_caminhos_de_ferro_de_Cuamba.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "CFM · línea ferroviaria Nacala–Cuamba",
+        "url": "https://www.cfm.co.mz/en/linha-nacala-cuamba/"
+      }
+    ],
+    "visit": {
+      "why": "Es un cruce real entre carretera y ferrocarril y una escala práctica entre Lichinga, Malawi y Nampula.",
+      "see": "La estación, el edificio municipal y la vida de un nudo ferroviario del corredor de Nacala.",
+      "access": "El pin coincide con Estação de Cuamba en Google Maps. CFM confirma la infraestructura, no un horario de pasajeros utilizable para este viaje.",
+      "when": "De día y en laborable si se necesita preguntar por trenes o resolver servicios.",
+      "skip": "No ajustar la ruta a un tren sin billete, frecuencia y fecha confirmados directamente por CFM."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Esta%C3%A7%C3%A3o_de_caminhos_de_ferro_de_Cuamba.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_de_caminhos_de_ferro_de_Cuamba.jpg",
+        "credit": "Jcornelius · CC BY-SA 4.0",
+        "caption": "Estación ferroviaria de Cuamba, el lugar exacto de la ficha y del pin."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Conselho_Municipal_de_Cuamba.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Conselho_Municipal_de_Cuamba.jpg",
+        "credit": "Jcornelius · CC BY-SA 4.0",
+        "caption": "Sede del consejo municipal de Cuamba."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuamba_Mozambique.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Cuamba_Mozambique.jpg",
+        "credit": "Global Photographer · CC BY-SA 3.0",
+        "caption": "Entorno habitado del norte de Cuamba en 2006."
+      }
+    ]
   },
   {
     "n": 5,
-    "name": "Gurué, el monte Namuli y las plantaciones de té",
+    "name": "Gurué y monte Namuli",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con guía y alojamiento",
     "time": "2–3 noches",
-    "lat": -15.4667,
-    "lon": 36.9833,
-    "desc": "El rincón verde y fresco que casi nadie asocia con Mozambique: laderas escalonadas de té a 1.000 m, cascadas, niebla y antiguas casas coloniales de las compañías tealeras. Encima se levanta el MONTE NAMULI (2.419 m), el segundo pico del país, un macizo de granito con bosque de niebla, endemismos propios (varias aves y anfibios que no existen en ningún otro sitio) y una subida de 2 días con guía local desde la aldea de Mucunha. Pistas de tierra hasta las plantaciones, 4x4 recomendado. Imagen: Gurué.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru%C3%A9%20Mo%C3%A7ambique.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Guru%C3%A9%20Mo%C3%A7ambique.jpg",
+    "lat": -15.4664268,
+    "lon": 36.9786871,
+    "desc": "Gurué combina plantaciones de té, cascadas y el macizo del Namuli, cuya cumbre alcanza 2.419 m. El pin representa la ciudad base: cualquier ascensión requiere acordar guía, permisos, ruta y meteorología localmente.",
+    "credit": "Armindo Pascoal Timóteo Culeco · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru%C3%A9_Mo%C3%A7ambique.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Guru%C3%A9_Mo%C3%A7ambique.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Monte Namuli · macizo y altitud",
+        "url": "https://en.wikipedia.org/wiki/Mount_Namuli"
+      }
+    ],
+    "visit": {
+      "why": "Es uno de los mejores paisajes de montaña de Mozambique y añade té, cascadas y cultura lomwe a la ruta.",
+      "see": "Plantaciones, laderas del Namuli y saltos de agua en el entorno de Gurué; la cumbre es una expedición aparte.",
+      "access": "El pin coincide con Gurué en Google Maps, la base real. El acceso a fincas y montaña se acuerda con guía y propietarios locales.",
+      "when": "Con dos noches y tiempo despejado; confirmar lluvia, sendero, permisos y pernocta antes de intentar el Namuli.",
+      "skip": "No salir hacia la montaña sin guía, punto de inicio y horas de regreso claros."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru%C3%A9_Mo%C3%A7ambique.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Guru%C3%A9_Mo%C3%A7ambique.jpg",
+        "credit": "Armindo Pascoal Timóteo Culeco · CC BY-SA 4.0",
+        "caption": "Paisaje de Gurué, base para las plantaciones y el Namuli."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Namuli_(10.3897-zse.92.9948)_Figure_2_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Namuli_(10.3897-zse.92.9948)_Figure_2_(cropped).jpg",
+        "credit": "Conradie et al. · CC BY 4.0",
+        "caption": "Macizo del monte Namuli visto desde el sur."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Road_between_Gurue_and_Mutuali_(3966868826).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Road_between_Gurue_and_Mutuali_(3966868826).jpg",
+        "credit": "Rosino · CC BY-SA 2.0",
+        "caption": "Carretera entre Gurué y Mutuali; muestra el paisaje regional, no el sendero de cumbre."
+      }
+    ]
   },
   {
     "n": 6,
-    "name": "Nampula",
+    "name": "Nampula · Museo Nacional de Etnología",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con museo y alojamiento",
     "time": "1–2 noches",
-    "lat": -15.1165,
-    "lon": 39.2666,
-    "desc": "Tercera ciudad del país y la gran plaza logística de todo el norte: talleres, neumáticos, recambios, supermercados, hospital central y bancos. Rodeada de inselbergs de granito espectaculares y con el Museo Nacional de Etnografía, el mejor del país para entender las culturas makua y makonde. Es el sitio donde revisar los vehículos antes del largo descenso hacia Quelimane y el Zambeze. Imagen: calle de Maputo — pendiente de sustituir por una de Nampula.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2010-10-18%2010-55-38%20Mozambique%20Maputo%20Chamanculo%20%E2%80%9DB%E2%80%9D.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:2010-10-18%2010-55-38%20Mozambique%20Maputo%20Chamanculo%20%E2%80%9DB%E2%80%9D.jpg",
+    "lat": -15.1181691,
+    "lon": 39.266363,
+    "desc": "El Museo Nacional de Etnología convierte Nampula en una parada cultural concreta, además de base de servicios del norte. El pin coincide con la entrada del museo, no con el centro genérico de la ciudad.",
+    "credit": "Joseolgon · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Museu_Nacional_de_Etnografia_de_Nampula.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Museu_Nacional_de_Etnografia_de_Nampula.JPG",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Museo Nacional de Etnología de Nampula",
+        "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_etnograf%C3%ADa_de_Nampula"
+      }
+    ],
+    "visit": {
+      "why": "El museo ofrece una colección nacional concreta y evita reducir Nampula a una mera parada de combustible.",
+      "see": "Objetos de vida cotidiana, música, pesca, caza y arte del norte de Mozambique, además del edificio y patio.",
+      "access": "El pin coincide con Museo nacional de etnografía Nampula en Google Maps. Aparcar donde indique el personal y confirmar entrada.",
+      "when": "En horario diurno y, preferiblemente, laborable; verificar apertura el mismo día.",
+      "skip": "Si está cerrado, usar Nampula como base logística sin sustituir el museo por una descripción genérica de la ciudad."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Museu_Nacional_de_Etnografia_de_Nampula.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Museu_Nacional_de_Etnografia_de_Nampula.JPG",
+        "credit": "Joseolgon · CC BY-SA 3.0",
+        "caption": "Exterior del Museo Nacional de Etnología de Nampula, punto exacto de la ficha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Museu_Nacional_de_Etnografia_Nampula_(1).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Museu_Nacional_de_Etnografia_Nampula_(1).jpg",
+        "credit": "Denilsson Antonio · CC BY-SA 4.0",
+        "caption": "Patio y edificio del Museo Nacional de Etnología."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Museu_Nacional_de_Etnografia_Nampula_(7).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Museu_Nacional_de_Etnografia_Nampula_(7).jpg",
+        "credit": "Denilsson Antonio · CC BY-SA 4.0",
+        "caption": "Pieza expuesta en el Museo Nacional de Etnología de Nampula."
+      }
+    ]
   },
   {
     "n": 7,
-    "name": "Ilha de Moçambique (Patrimonio de la Humanidad)",
+    "name": "Ilha de Moçambique · Fortaleza de São Sebastião",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con recintos y alojamiento",
     "time": "2–3 noches",
-    "lat": -15.0347,
-    "lon": 40.7358,
-    "desc": "EL GRAN IMPRESCINDIBLE DEL NORTE. Una isla de coral de 3 km por 500 m, unida al continente por un puente de un solo carril de 3,8 km, que fue capital de todo el África Oriental Portuguesa durante casi cuatro siglos. Patrimonio de la Humanidad desde 1991: la Fortaleza de São Sebastião (1558-1620), la capilla de Nossa Senhora do Baluarte (1522), la más antigua del hemisferio sur; la Cidade de Pedra e Cal de casonas swahili-portuguesas medio en ruinas y la Cidade de Macuti de casas de palma al otro extremo. Se recorre entera a pie en un día, no hace falta mover el coche. El puente es de un solo carril con paso alternado: comprobar antes limitaciones de peso y ancho con los vehículos cargados (por confirmar).",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Forte%20de%20S%C3%A3o%20Sebasti%C3%A3o%20-%20Igreja.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Forte%20de%20S%C3%A3o%20Sebasti%C3%A3o%20-%20Igreja.jpg",
+    "lat": -15.0288462,
+    "lon": 40.7435752,
+    "desc": "La fortaleza de São Sebastião y el tejido de piedra y macuti resumen siglos de intercambios del Índico. El pin está en la fortaleza real dentro del conjunto UNESCO; horarios y acceso interior deben comprobarse al llegar.",
+    "credit": "Stig Nygaard · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A3o_Sebasti%C3%A3o_Fortress_-_View.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Sebasti%C3%A3o_Fortress_-_View.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "UNESCO · Ilha de Moçambique",
+        "url": "https://whc.unesco.org/en/list/599/"
+      }
+    ],
+    "visit": {
+      "why": "Es la parada patrimonial más importante de Mozambique y muestra la superposición africana, suajili, árabe, india y portuguesa.",
+      "see": "Fortaleza, capilla de Nossa Senhora de Baluarte, ciudad de piedra y barrio de macuti.",
+      "access": "El pin coincide con Fortaleza de São Sebastião en Google Maps. La isla se recorre a pie; confirmar aparcamiento y alojamiento por separado.",
+      "when": "Al menos una noche para caminar con luz suave y sin convertir el conjunto UNESCO en una visita apresurada.",
+      "skip": "No dejar equipos visibles en el coche ni asumir que todos los edificios tienen horario o acceso estable."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A3o_Sebasti%C3%A3o_Fortress_-_View.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Sebasti%C3%A3o_Fortress_-_View.jpg",
+        "credit": "Stig Nygaard · CC BY 2.0",
+        "caption": "Fortaleza de São Sebastião vista desde el mar en Ilha de Moçambique."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fortaleza_de_S%C3%A3o_Sebasti%C3%A3o-01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fortaleza_de_S%C3%A3o_Sebasti%C3%A3o-01.jpg",
+        "credit": "F Mira · CC BY-SA 2.0",
+        "caption": "Murallas de la fortaleza de São Sebastião."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fortaleza_S%C3%A3o_Sebasti%C3%A3o_-_canh%C3%A3o.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fortaleza_S%C3%A3o_Sebasti%C3%A3o_-_canh%C3%A3o.jpg",
+        "credit": "F Mira · CC BY-SA 2.0",
+        "caption": "Cañón y arquitectura interior de la fortaleza."
+      }
+    ]
   },
   {
     "n": 8,
-    "name": "Chocas-Mar, las Cabaceiras y la bahía de Mossuril",
+    "name": "Chocas-Mar",
     "cat": "Costa",
     "prio": "Alta",
-    "dog": "permitido",
+    "dog": "confirmar con alojamiento",
     "time": "2 noches",
-    "lat": -14.9667,
-    "lon": 40.6167,
-    "desc": "Justo enfrente de Ilha, al otro lado de la bahía, un rosario de playas de arena blanca y manglares al que se llega por PISTAS DE ARENA entre cocoteros: Chocas-Mar, Cabaceira Pequena y Cabaceira Grande, con la iglesia portuguesa del siglo XVII más antigua del hemisferio sur y cisternas coloniales todavía en uso. Es el sitio evidente para acampar y dejar suelto al perro tras la disciplina de la isla: playa abierta, sin parque nacional de por medio y prácticamente sin turismo. Con marea baja se puede cruzar a pie parte de los bancos de arena; con marea alta, no. Acceso 4x4 real, arena blanda en los últimos kilómetros.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sand%20Rd%20(4x4%20requied)%2C%20Mozambique%20-%20panoramio%20(1).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Sand%20Rd%20(4x4%20requied)%2C%20Mozambique%20-%20panoramio%20(1).jpg",
+    "lat": -14.9428055,
+    "lon": 40.7325778,
+    "desc": "Chocas-Mar es una playa larga de la bahía de Mossuril, adecuada para descansar cerca de Ilha de Moçambique. El pin coincide con la playa y la ficha ya no mezcla Cabaceiras ni otros puntos dispersos.",
+    "credit": "Stig Nygaard · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocas-Mar_(2749568811).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Chocas-Mar_(2749568811).jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Chocas-Mar · playa y localización",
+        "url": "https://en.wikipedia.org/wiki/Chocas_Mar"
+      }
+    ],
+    "visit": {
+      "why": "Ofrece descanso de playa cerca de la isla sin añadir un desvío costero enorme.",
+      "see": "Arena clara, cocoteros y bahía de Mossuril; las mareas cambian mucho la anchura y aspecto de la playa.",
+      "access": "El pin coincide con el objeto Chocas-mar de Google Maps. Confirmar por dirección exacta el acceso y estacionamiento del alojamiento elegido.",
+      "when": "Con marea y viento revisados; dos noches solo si el alojamiento y el estado del acceso justifican la pausa.",
+      "skip": "No asumir baño seguro, excursiones ni admisión del perro sin confirmación local y escrita."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocas-Mar_(2749568811).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chocas-Mar_(2749568811).jpg",
+        "credit": "Stig Nygaard · CC BY 2.0",
+        "caption": "Playa de Chocas-Mar, el lugar exacto representado por la ficha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocas-Mar_(2749614775).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chocas-Mar_(2749614775).jpg",
+        "credit": "Stig Nygaard · CC BY 2.0",
+        "caption": "Segunda vista real de la playa de Chocas-Mar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocas-Mar_(2750396952).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chocas-Mar_(2750396952).jpg",
+        "credit": "Stig Nygaard · CC BY 2.0",
+        "caption": "Costa y vegetación en Chocas-Mar."
+      }
+    ]
   },
   {
     "n": 9,
-    "name": "Pemba y el archipiélago de las Quirimbas (EXCLUIDOS)",
+    "name": "Pemba y Quirimbas · excluidos por seguridad",
     "cat": "Referencia · conflicto",
     "prio": "Descartada",
-    "dog": "irrelevante: no se entra",
+    "dog": "irrelevante: punto excluido",
     "time": "no se visita",
-    "lat": -12.974,
-    "lon": 40.5178,
-    "desc": "ZONA EXCLUIDA. Pemba, la bahía natural más grande de África después de Sídney, la isla de Ibo con sus tres fuertes portugueses y el archipiélago de las Quirimbas serían, sin el conflicto, dos semanas completas de viaje. Toda la provincia de CABO DELGADO está clasificada en NIVEL 4 «NO VIAJAR» por el Departamento de Estado de EE. UU. desde el inicio de la insurgencia de ISIS-Mozambique en 2017, y los operadores de fronteras desaconsejan expresamente entrar por el norte. Se marca aquí para dejar constancia de la renuncia consciente y de dónde está el límite: al norte de Nampula NO se sube.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pemba%20port%20(8443551177).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Pemba%20port%20(8443551177).jpg",
+    "lat": -12.967498,
+    "lon": 40.4858989,
+    "desc": "Pemba y el corredor hacia las Quirimbas quedan excluidos por la recomendación oficial de no viajar a Cabo Delgado y de evitar la carretera Pemba–Nampula. El punto se mantiene desconectado solo como referencia.",
+    "credit": "Ton Rulkens · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pemba_port_(8443551177).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Pemba_port_(8443551177).jpg",
     "icon": "referencia · conflicto",
     "color": "gris",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "MAEC · recomendación de viaje vigente para Mozambique",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mozambique"
+      }
+    ],
+    "visit": {
+      "why": "Pemba y Quirimbas serían extraordinarios en otra situación, pero no justifican contradecir un aviso oficial de seguridad.",
+      "see": "Solo como referencia cartográfica: bahía de Pemba, Ibo y el archipiélago.",
+      "access": "El pin coincide con Harbor Pemba en Google Maps y no representa una ruta segura hacia Quirimbas.",
+      "when": "No se visita mientras el MAEC desaconseje viajar a Cabo Delgado y evitar la carretera Pemba–Nampula.",
+      "skip": "Descartada: no usar vuelos, escoltas u ofertas turísticas como prueba de seguridad para el convoy."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pemba_port_(8443551177).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pemba_port_(8443551177).jpg",
+        "credit": "Ton Rulkens · CC BY-SA 2.0",
+        "caption": "Puerto de Pemba; el PDI permanece excluido por seguridad."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pemba_-_port_development_(8443551123).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pemba_-_port_development_(8443551123).jpg",
+        "credit": "Ton Rulkens · CC BY-SA 2.0",
+        "caption": "Obras de desarrollo del puerto de Pemba."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pemba_bay_(3911471263).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pemba_bay_(3911471263).jpg",
+        "credit": "F Mira · CC BY-SA 2.0",
+        "caption": "Baobabs y bahía de Pemba, sin implicar acceso seguro a Quirimbas."
+      }
+    ]
   },
   {
     "n": 10,
-    "name": "Quelimane",
+    "name": "Quelimane · escala de Zambézia",
     "cat": "Ciudad · servicios",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento",
     "time": "1 noche",
-    "lat": -17.8786,
-    "lon": 36.8883,
-    "desc": "Puerto fluvial sobre el río dos Bons Sinais, la ciudad del cocotero y punto de partida histórico de la travesía de África de Livingstone. Arquitectura colonial deteriorada pero con carácter, catedral antigua, mercado enorme y una de las pocas plazas con servicios entre Nampula y Beira. A 30 km está Zalala, playa de arena larguísima bordeada de cocoteros y prácticamente vacía, buena para acampar y para el perro. Ciudad húmeda y calurosa: malaria alta todo el año.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tribunal%20Judicial%20da%20Prov%C3%ADncia%20de%20Zamb%C3%A9zia%2C%20Quelimane%2C%20Mo%C3%A7ambique.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Tribunal%20Judicial%20da%20Prov%C3%ADncia%20de%20Zamb%C3%A9zia%2C%20Quelimane%2C%20Mo%C3%A7ambique.jpg",
+    "lat": -17.875237,
+    "lon": 36.886984,
+    "desc": "Quelimane es una escala urbana y logística de Zambézia, más útil para descansar y abastecerse que como gran destino. El pin se ha anclado en la catedral, un punto real y central.",
+    "credit": "Jcornelius · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tribunal_Judicial_da_Prov%C3%ADncia_de_Zamb%C3%A9zia,_Quelimane,_Mo%C3%A7ambique.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tribunal_Judicial_da_Prov%C3%ADncia_de_Zamb%C3%A9zia,_Quelimane,_Mo%C3%A7ambique.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Quelimane · ciudad y contexto",
+        "url": "https://en.wikipedia.org/wiki/Quelimane"
+      }
+    ],
+    "visit": {
+      "why": "Permite cortar una etapa larga, reabastecerse y conocer una capital provincial ligada al delta del Zambeze.",
+      "see": "Catedral, calles centrales, mercados y huellas del antiguo puerto fluvial; no es una visita monumental de jornada completa.",
+      "access": "El pin coincide con Catedral da Sé en Google Maps. Taller, hotel y hospital deben comprobarse como destinos independientes.",
+      "when": "Llegar de día y aprovechar horario comercial para combustible, compras y reparaciones.",
+      "skip": "Reducir la visita urbana si no hay estacionamiento seguro, pero no saltar la revisión logística antes del Zambeze."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tribunal_Judicial_da_Prov%C3%ADncia_de_Zamb%C3%A9zia,_Quelimane,_Mo%C3%A7ambique.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tribunal_Judicial_da_Prov%C3%ADncia_de_Zamb%C3%A9zia,_Quelimane,_Mo%C3%A7ambique.jpg",
+        "credit": "Jcornelius · CC BY-SA 4.0",
+        "caption": "Tribunal provincial en el centro de Quelimane."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Quelimane.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Quelimane.jpg",
+        "credit": "Kevin Gabbert · CC BY-SA 4.0",
+        "caption": "Escena urbana de Quelimane."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/46_Moschee_von_Quelimane_Quelimane's_mosque_(36931587511).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:46_Moschee_von_Quelimane_Quelimane's_mosque_(36931587511).jpg",
+        "credit": "Cornelius Kibelka · CC BY-SA 2.0",
+        "caption": "Mezquita de Quelimane, otro hito concreto de la ciudad."
+      }
+    ]
   },
   {
     "n": 11,
-    "name": "Caia y el puente del Zambeze",
+    "name": "Puente Armando Emílio Guebuza · Caia",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido",
+    "dog": "no aplica: parada vial",
     "time": "½ día",
-    "lat": -17.8286,
-    "lon": 35.3336,
-    "desc": "El punto donde la EN1 cruza el ZAMBEZE por el puente Armando Emílio Guebuza (2.376 m, inaugurado en 2009), que sustituyó a la barcaza que durante décadas partió el país en dos. Es el nudo que decide la ruta: desde aquí se sigue al sur hacia Gorongosa y Beira, o se gira al oeste por la variante interior del Zambeze hacia Sena, Mutarara y Tete. Parada de camioneros con combustible, comida y poco más, pero estratégica: es el último repostaje fiable antes de cualquiera de los dos ramales. Imagen: la presa de Cahora Bassa, aguas arriba en el mismo Zambeze — pendiente de sustituir por una del puente de Caia.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cahorra%20bassa.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Cahorra%20bassa.jpg",
+    "lat": -17.80809,
+    "lon": 35.3976776,
+    "desc": "El puente Armando Emílio Guebuza cruza el Zambeze junto a Caia y sustituyó al antiguo transbordador de la carretera norte–sur. El pin está sobre el puente real; es una parada breve, no un destino de jornada.",
+    "credit": "Rasg · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponte_Armando_guebuza.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ponte_Armando_guebuza.JPG",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Puente Armando Emílio Guebuza · datos y localización",
+        "url": "https://en.wikipedia.org/wiki/Armando_Emilio_Guebuza_Bridge"
+      }
+    ],
+    "visit": {
+      "why": "Es el gran cruce vial del Zambeze y una pausa visual breve en el corredor norte–sur.",
+      "see": "El puente de 2,3 km, el cauce ancho y la escala del valle; las fotos históricas muestran también su construcción.",
+      "access": "El pin coincide con Ponte Armando Emílio Guebuza en Google Maps. Detenerse solo en un lugar autorizado fuera de la calzada.",
+      "when": "Cruzar con luz y nivel de combustible suficiente para continuar; no necesita una noche por sí solo.",
+      "skip": "No parar en carril, arcén estrecho o zona de control para obtener una fotografía."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponte_Armando_guebuza.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponte_Armando_guebuza.JPG",
+        "credit": "Rasg · dominio público",
+        "caption": "Puente Armando Emílio Guebuza ya terminado sobre el Zambeze."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponte_AEG.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponte_AEG.JPG",
+        "credit": "Luis Canhemba · dominio público",
+        "caption": "Vista lateral del puente junto a Caia."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caia_bridge_under_construction.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Caia_bridge_under_construction.JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Construcción del puente y antiguos transbordadores; imagen histórica."
+      }
+    ]
   },
   {
     "n": 12,
-    "name": "Tete, Cahora Bassa y el puente colgante",
+    "name": "Presa de Cahora Bassa · Songo",
     "cat": "Naturaleza",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con HCB",
     "time": "1–2 noches",
-    "lat": -16.1564,
-    "lon": 33.5867,
-    "desc": "Corazón de la variante interior. Tete es la ciudad más calurosa de Mozambique (más de 45 °C en octubre) y su puente colgante sobre el Zambeze, de 1973, sigue siendo una imagen icónica del país. A 150 km al oeste está la PRESA DE CAHORA BASSA, uno de los mayores embalses artificiales de África (2.700 km²), con la ciudad-modelo de Songo colgada sobre la garganta, visitas a la central hidroeléctrica y pesca de tigerfish. La garganta aguas abajo, entre paredes de roca, es el paisaje más espectacular del interior. Combustible fiable y buen enlace al corredor de Chimoio.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cahorra%20bassa.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Cahorra%20bassa.jpg",
+    "lat": -15.5858822,
+    "lon": 32.7047247,
+    "desc": "La presa de Cahora Bassa y su enorme embalse se visitan desde Songo, no desde la ciudad de Tete. El pin coincide con la presa real; acceso, controles y posibilidad de acercarse deben confirmarse con HCB.",
+    "credit": "Herbert Hönigsperger · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caborabassa01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Caborabassa01.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "HCB · presa de Cahora Bassa",
+        "url": "https://www.hcb.co.mz/"
+      }
+    ],
+    "visit": {
+      "why": "La presa y el embalse permiten comprender la escala energética del Zambeze y ofrecen un paisaje muy distinto del corredor costero.",
+      "see": "Muro de presa, garganta y embalse desde las zonas permitidas; Songo es la base operativa más cercana.",
+      "access": "El pin coincide con Cahora Bassa Dam en Google Maps, corrigiendo el antiguo punto situado en Tete. Contactar con HCB antes del desvío.",
+      "when": "Solo con confirmación previa de acceso y tiempo suficiente para ida y vuelta desde la ruta principal.",
+      "skip": "Omitir si HCB no confirma visita o si el desvío obliga a conducir de noche."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caborabassa01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Caborabassa01.jpg",
+        "credit": "Herbert Hönigsperger · CC BY-SA 4.0",
+        "caption": "Presa de Cahora Bassa, el punto exacto de esta ficha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caborabassa02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Caborabassa02.jpg",
+        "credit": "Herbert Hönigsperger · CC BY-SA 4.0",
+        "caption": "Segunda vista del muro y la garganta de Cahora Bassa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cahorra_bassa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Cahorra_bassa.jpg",
+        "credit": "Nic/Wikivoyage · dominio público",
+        "caption": "Embalse y presa de Cahora Bassa vistos desde el entorno de Songo."
+      }
+    ]
   },
   {
     "n": 13,
     "name": "Parque Nacional de Gorongosa",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido",
+    "dog": "prohibido por las normas del parque",
     "time": "2–3 noches",
-    "lat": -18.9814,
-    "lon": 34.3517,
-    "desc": "EL PARQUE DE REFERENCIA MUNDIAL EN RESTAURACIÓN. La guerra civil borró el 90-95% de la fauna grande; desde 2004 el proyecto de restauración de Gorongosa la ha reconstruido hasta las decenas de miles de animales, y hoy es el caso de estudio que se cita en todo el mundo. El valle del Rift con sus palmerales de borassus, los lagos estacionales de Urema, leones, elefantes, licaones reintroducidos y un programa científico y comunitario muy serio. OJO, DOS REGLAS DURAS: la AUTOCONDUCCIÓN ESTÁ PROHIBIDA (solo safaris guiados en vehículo abierto, saliendo de Chitengo o de Montebelo Lodge) y LAS MASCOTAS ESTÁN PROHIBIDAS salvo perros guía. Tasa de conservación 20 USD/adulto internacional y día, vehículos gratis; puertas 06:00-18:00. Camping propio en Chitengo, donde el perro sí puede quedarse con un cuidador.",
+    "lat": -19.0001985,
+    "lon": 34.2011797,
+    "desc": "Gorongosa combina llanura inundable, lago Urema y un proyecto de restauración ecológica de referencia. El pin conduce a la entrada real; las normas oficiales prohíben mascotas y la conducción por libre dentro del parque.",
     "credit": "Brian Dell · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorongosa%20Park%20Gate.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Gorongosa%20Park%20Gate.JPG",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorongosa_Park_Gate.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Gorongosa_Park_Gate.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Gorongosa · visita, tarifas y normas",
+        "url": "https://gorongosa.org/park-fees-and-rules/"
+      },
+      {
+        "label": "Gorongosa · actividades disponibles",
+        "url": "https://gorongosa.org/2024-activities/"
+      }
+    ],
+    "visit": {
+      "why": "La recuperación de fauna y ecosistemas convierte Gorongosa en uno de los proyectos de conservación más interesantes del viaje.",
+      "see": "Llanura, lago Urema, bosque y fauna variable; barco y canoa dependen del nivel del agua y disponibilidad.",
+      "access": "El pin coincide con Entrance Gate Gorongosa National Park en Google Maps. El parque exige actividades guiadas y sus reglas no admiten mascotas.",
+      "when": "Reservar varias noches y comprobar temporada, alojamiento, tasas y actividades en la web oficial.",
+      "skip": "Descartarlo si no existe una solución externa y segura para el perro o si se pretende entrar conduciendo por libre."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorongosa_Park_Gate.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gorongosa_Park_Gate.JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Entrada de Gorongosa, el lugar exacto al que conduce el pin."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorongosa_-_terrain.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gorongosa_-_terrain.JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Llanura y hábitat dentro de Gorongosa National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/African_Lion_-_Panthera_leo,_Gorongosa_National_Park,_Mozambique_(45650835935).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:African_Lion_-_Panthera_leo,_Gorongosa_National_Park,_Mozambique_(45650835935).jpg",
+        "credit": "Judy Gallagher · CC BY 2.0",
+        "caption": "León fotografiado en Gorongosa; no garantiza un avistamiento."
+      }
+    ]
   },
   {
     "n": 14,
-    "name": "Monte Gorongosa y las cascadas de Murombodzi",
+    "name": "Monte Gorongosa y cascadas",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido dentro del área del parque",
+    "dog": "prohibido en la excursión del parque",
     "time": "1–2 días",
-    "lat": -18.4333,
-    "lon": 34.0667,
-    "desc": "LA MEJOR CAMINATA DEL CENTRO DEL PAÍS. El macizo de Gorongosa (1.863 m), incorporado al parque en 2010 precisamente porque su bosque de niebla es la fábrica de agua que alimenta el valle, se sube desde la aldea de Sadjunjira. La ruta clásica llega a las CASCADAS DE MUROMBODZI, un salto de unos 80 m en plena selva de montaña, en unas 3-4 horas de ida entre plantaciones de café de sombra del proyecto comunitario. Guía obligatorio del parque. Es senderismo de verdad, no un mirador: subida constante, calor y humedad. Imagen: monte Gorongosa.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Gorongosa%2C%20Gorongosa%20National%20Park%2C%20Mozambique%20(46316615492).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mount%20Gorongosa%2C%20Gorongosa%20National%20Park%2C%20Mozambique%20(46316615492).jpg",
+    "lat": -18.4839048,
+    "lon": 34.0427363,
+    "desc": "El monte Gorongosa conserva bosque lluvioso, cascadas y el proyecto de café de sombra. La excursión oficial es estacional y guiada; el pin marca Morombodzi Falls, no una promesa de acceso independiente.",
+    "credit": "Judy Gallagher · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Gorongosa,_Gorongosa_National_Park,_Mozambique_(46316615492).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Gorongosa,_Gorongosa_National_Park,_Mozambique_(46316615492).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Gorongosa · excursión oficial al monte y sus cascadas",
+        "url": "https://gorongosa.org/2024-activities/"
+      }
+    ],
+    "visit": {
+      "why": "Añade bosque de montaña, agua y trabajo comunitario de restauración al safari de la llanura.",
+      "see": "Proyecto de café, bosque lluvioso, arroyos y una cascada del macizo; la ficha no asigna una altura no verificada.",
+      "access": "El pin coincide con Morombodzi Falls en Google Maps, pero la opción verificable es la excursión guiada oficial desde Gorongosa.",
+      "when": "La actividad publicada funciona de abril a septiembre y ocupa el día completo; reconfirmar antes de reservar.",
+      "skip": "No intentar acceso independiente, ni entrar con mascota, ni asumir que el pin equivale a una pista abierta."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Gorongosa,_Gorongosa_National_Park,_Mozambique_(46316615492).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Gorongosa,_Gorongosa_National_Park,_Mozambique_(46316615492).jpg",
+        "credit": "Judy Gallagher · CC BY 2.0",
+        "caption": "Monte Gorongosa, macizo al que corresponde la excursión oficial."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Gorongosa_with_lions_in_foreground,_Gorongosa_National_Park,_Mozambique_(32066269628).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Gorongosa_with_lions_in_foreground,_Gorongosa_National_Park,_Mozambique_(32066269628).jpg",
+        "credit": "Judy Gallagher · CC BY 2.0",
+        "caption": "Monte Gorongosa visto desde la llanura del parque."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra_de_Gorongosa_(4403936386).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Serra_de_Gorongosa_(4403936386).jpg",
+        "credit": "Ton Rulkens · CC BY-SA 2.0",
+        "caption": "Laderas de la sierra de Gorongosa; no se presenta como Morombodzi Falls."
+      }
+    ]
   },
   {
     "n": 15,
-    "name": "Beira",
+    "name": "Beira · estación y base logística",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento",
     "time": "1–2 noches",
-    "lat": -19.8437,
-    "lon": 34.8389,
-    "desc": "Segunda ciudad del país y cabecera del corredor de Beira hacia Zimbabue: el mejor sitio del centro para talleres, recambios, neumáticos y aprovisionamiento serio. La Sé da Beira y el Grande Hotel —un coloso art déco de 1954 abandonado y hoy habitado por cientos de familias— son dos de las imágenes más potentes de Mozambique. La ciudad fue arrasada por el CICLÓN IDAI en marzo de 2019 (el 90% de los edificios dañados) y se ha reconstruido: es el recordatorio físico de por qué la ventana de enero-marzo no vale para este viaje.",
-    "credit": "Rosino · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9%20da%20Beira.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:S%C3%A9%20da%20Beira.jpg",
+    "lat": -19.8248118,
+    "lon": 34.8384434,
+    "desc": "Beira es la principal base de servicios del centro y su estación modernista ofrece un hito concreto. El pin coincide con la estación real; playa, puerto y resto de la ciudad son visitas separadas.",
+    "credit": "Andrew Moore · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Beira_Railway_Station_(8660386520).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Beira_Railway_Station_(8660386520).jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Beira · ciudad y contexto",
+        "url": "https://en.wikipedia.org/wiki/Beira,_Mozambique"
+      }
+    ],
+    "visit": {
+      "why": "Es la base principal del centro para hospital, neumáticos, talleres y descanso; la estación aporta una visita arquitectónica concreta.",
+      "see": "La estación ferroviaria de 1966, su gran nave y el entorno urbano; el paseo marítimo es otra parada.",
+      "access": "El pin coincide con Beira Railroad Station en Google Maps. Resolver aparcamiento vigilado antes de moverse por la ciudad.",
+      "when": "En laborable y fuera de horas punta; dejar margen por lluvia intensa o calles inundadas.",
+      "skip": "No recorrer la ciudad con material visible ni depender de una sola gasolinera o taller sin confirmar."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Beira_Railway_Station_(8660386520).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Beira_Railway_Station_(8660386520).jpg",
+        "credit": "Andrew Moore · CC BY-SA 2.0",
+        "caption": "Estación ferroviaria de Beira, punto exacto de la ficha y del pin."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahnhof_in_Beira_(6207008226).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bahnhof_in_Beira_(6207008226).jpg",
+        "credit": "Christian Spannagel · CC BY-SA 2.0",
+        "caption": "Segunda vista del edificio de la estación de Beira."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahnhof_von_Beira_(24232349185).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bahnhof_von_Beira_(24232349185).jpg",
+        "credit": "Cornelius Kibelka · CC BY-SA 2.0",
+        "caption": "Fachada y gran cubierta de la estación ferroviaria de Beira."
+      }
+    ]
   },
   {
     "n": 16,
-    "name": "Chimoio, Manica y el arte rupestre de Chinhamapere",
+    "name": "Chinhamapere · arte rupestre de Vumba",
     "cat": "Cultura",
     "prio": "Media",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con custodios locales",
     "time": "1–2 noches",
-    "lat": -19.1164,
-    "lon": 33.4833,
-    "desc": "Última plaza grande antes de la frontera de Machipanda, en la meseta de Manica: clima fresco, buenos servicios y base para el bloque montañoso. A 70 km, el pueblo de Manica conserva el mirador de Penha Longa sobre la frontera, minas de oro artesanales visitables y, sobre todo, CHINHAMAPERE, un abrigo con pinturas rupestres san de miles de años que sigue siendo lugar sagrado activo: lo custodian mujeres médium de la comunidad, que acompañan la visita y hacen la ofrenda previa. Está en la lista indicativa de la UNESCO. Se sube andando 20-30 minutos. Imagen: la sierra de Chimanimani desde el lado zimbabuense, el mismo macizo que cierra la meseta de Manica — pendiente de sustituir por una de Chinhamapere.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chimanimani%20Zimbabwe1%20var.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chimanimani%20Zimbabwe1%20var.jpg",
+    "lat": -18.960482,
+    "lon": 32.8565223,
+    "desc": "Chinhamapere reúne pinturas rupestres de cazadores-recolectores y rituales shona vivos en un paisaje sagrado de Vumba. El pin coincide con el sitio de Google Maps; la visita debe acordarse con custodios locales.",
+    "credit": "World Heritage Site · autor no indicado",
+    "img": "https://fsn1.your-objectstorage.com/worldheritagesite/media/images/t5381.2e16d0ba.fill-800x600.jpg",
+    "source": "https://www.worldheritagesite.org/tentative/vumba-mountain-range/",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "UNESCO · paisaje cultural de Vumba y Chinhamapere",
+        "url": "https://whc.unesco.org/en/tentativelists/5381/"
+      }
+    ],
+    "visit": {
+      "why": "Es un lugar cultural singular porque une arte de cazadores-recolectores, bosque sagrado y rituales shona actuales.",
+      "see": "Figuras humanas, arqueros y escenas de trance dentro del paisaje de Vumba, siempre con interpretación local.",
+      "access": "El pin coincide con Chinamapere rock paintings en Google Maps. Es un sitio comunitario: acordar custodia, guía, permiso y estacionamiento en Manica.",
+      "when": "De día y con suelo seco; reservar margen para localizar al custodio sin presionar por entrar.",
+      "skip": "No tocar, mojar ni fotografiar pinturas si el custodio lo desaconseja; no entrar sin acompañamiento."
+    },
+    "photos": [
+      {
+        "img": "https://fsn1.your-objectstorage.com/worldheritagesite/media/images/t5381.2e16d0ba.fill-800x600.jpg",
+        "source": "https://www.worldheritagesite.org/tentative/vumba-mountain-range/",
+        "credit": "World Heritage Site · autor no indicado",
+        "caption": "Panel real de pinturas rupestres de Chinhamapere; no se añaden imágenes genéricas de otros yacimientos."
+      }
+    ]
   },
   {
     "n": 17,
-    "name": "Reserva Nacional de Chimanimani y el monte Binga (2.436 m)",
+    "name": "Parque Nacional de Chimanimani · monte Binga",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "prohibido dentro de la reserva",
+    "dog": "confirmar con ANAC",
     "time": "3–4 días",
-    "lat": -19.7647,
-    "lon": 33.0619,
-    "desc": "EL TECHO DE MOZAMBIQUE y la mejor travesía a pie del país. El monte Binga (2.436 m) corona la sierra de Chimanimani, en la frontera con Zimbabue: cuarcitas blancas, praderas de altura, bosque de galería y cascadas. Desde el lado mozambiqueño se accede por Sussundenga y Rotanda; los últimos 22 km hasta la aldea de Nbabawa son PISTA 4x4. La subida es de 2-3 días con campamento intermedio (Mosquito Camp) y desvío a las cascadas de Mubvumodzi; guía local obligatorio en la práctica (unos 450 MT/día) y tasas del parque muy bajas (~2.500 MT por dos personas y tres noches). PROHIBIDO hacer cumbre por libre en la temporada de lluvias (diciembre-marzo): los arroyos se convierten en ríos infranqueables.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Binga%20Mozambique.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mt%20Binga%20Mozambique.JPG",
+    "lat": -19.7949855,
+    "lon": 33.0893881,
+    "desc": "Chimanimani protege montañas de cuarcita, endemismos y el monte Binga, techo de Mozambique con unos 2.436 m. El pin representa el parque, pero una ascensión exige 4x4, guía, registro y varios días confirmados.",
+    "credit": "Axel Bohnstedt · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Binga_Mozambique.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mt_Binga_Mozambique.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "ANAC · Parque Nacional de Chimanimani",
+        "url": "https://www.anac.gov.mz/en/parques/chimanimani/"
+      }
+    ],
+    "visit": {
+      "why": "Es la gran etapa de alta montaña de Mozambique y protege paisajes, endemismos y patrimonio cultural poco alterados.",
+      "see": "Cuarcitas, gargantas, bosque, cascadas y el monte Binga; alcanzar la cumbre no está garantizado.",
+      "access": "El pin coincide con Chimanimani National Park en Google Maps. ANAC recomienda 4x4; confirmar puerta, guía, campamento y registro.",
+      "when": "Con varios días, previsión estable y ropa para frío; el parque publica visitas entre 07:30 y 16:30.",
+      "skip": "No subir sin ruta, guía, comunicaciones y meteorología confirmados, ni asumir que una jornada basta para Binga."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Binga_Mozambique.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt_Binga_Mozambique.JPG",
+        "credit": "Axel Bohnstedt · CC BY-SA 3.0",
+        "caption": "Cara norte del monte Binga en Mozambique."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chimanimani_landscape_8_(10246835653).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chimanimani_landscape_8_(10246835653).jpg",
+        "credit": "Ton Rulkens · CC BY-SA 2.0",
+        "caption": "Paisaje del sector mozambiqueño de Chimanimani en dirección al Binga."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tucker's_Falls,_Chimanimani,_Mozambique01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tucker's_Falls,_Chimanimani,_Mozambique01.jpg",
+        "credit": "Bart Wursten · CC BY-SA 4.0",
+        "caption": "Tucker's Falls dentro de las montañas de Chimanimani, Mozambique."
+      }
+    ]
   },
   {
     "n": 18,
-    "name": "Inhassoro y la península de San Sebastián",
+    "name": "Inhassoro · costa de Bazaruto",
     "cat": "Costa",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento y barca",
     "time": "2 noches",
-    "lat": -21.5333,
-    "lon": 35.2,
-    "desc": "El acceso terrestre más salvaje del archipiélago. Desde Inhassoro sale la PISTA DE ARENA de la PENÍNSULA DE SAN SEBASTIÁN, un dedo de dunas y matorral costero de unos 60 km que apunta hacia Bazaruto y que es una reserva privada de conservación con antílopes, y uno de los pocos sitios de Mozambique donde todavía queda arena profunda de verdad y ni un alma. Se hace con presión muy baja, en convoy y consultando marea y accesos en la barrera de entrada. Inhassoro es además el embarque más corto a la isla de Bazaruto.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sand%20Rd%20(4x4%20requied)%2C%20Mozambique%20-%20panoramio%20(1).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Sand%20Rd%20(4x4%20requied)%2C%20Mozambique%20-%20panoramio%20(1).jpg",
+    "lat": -21.5394174,
+    "lon": 35.1872321,
+    "desc": "Inhassoro es una base tranquila de playa y uno de los embarques hacia Bazaruto. El pin se ha fijado en la localidad real; la península de San Sebastián y las islas requieren traslados y permisos distintos.",
+    "credit": "FrogsLegs71 · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_trees_on_a_beach_in_Inhassoro_Mozambique.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_on_a_beach_in_Inhassoro_Mozambique.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Inhassoro · localidad y costa",
+        "url": "https://en.wikipedia.org/wiki/Inhassoro"
+      }
+    ],
+    "visit": {
+      "why": "Es una base costera menos intensa que Vilanculos y permite decidir con calma si compensa una salida a Bazaruto.",
+      "see": "Playa, palmeras, embarcaciones y vista hacia el archipiélago; la península de San Sebastián no está en este pin.",
+      "access": "El pin coincide con Inhassoro en Google Maps. Elegir alojamiento por dirección y contratar cualquier barco con operador identificable.",
+      "when": "Con mar y viento favorables; acordar por escrito precio, chalecos, combustible, horario y regreso.",
+      "skip": "No embarcar si faltan chalecos o parte meteorológico, ni asumir acceso libre a zonas protegidas."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_trees_on_a_beach_in_Inhassoro_Mozambique.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_on_a_beach_in_Inhassoro_Mozambique.jpg",
+        "credit": "FrogsLegs71 · CC BY-SA 3.0",
+        "caption": "Palmeras en una playa de Inhassoro."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Inhassoro_beach_and_palm_trees_in_Mozambique.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Inhassoro_beach_and_palm_trees_in_Mozambique.jpg",
+        "credit": "FrogsLegs71 · CC BY-SA 3.0",
+        "caption": "Otra vista exacta de la costa de Inhassoro."
+      }
+    ]
   },
   {
     "n": 19,
-    "name": "Vilanculos y el archipiélago de Bazaruto",
+    "name": "Vilanculos · acceso a Bazaruto",
     "cat": "Naturaleza",
     "prio": "Alta",
-    "dog": "no en las islas",
+    "dog": "confirmar con parque y operador",
     "time": "3 noches",
-    "lat": -22.0027,
-    "lon": 35.3133,
-    "desc": "Parque nacional marino de cinco islas con DUNAS DE ARENA BLANCA DE 100 M cayendo al mar, arrecifes de coral, mantas y la última población viable de DUGONGO del océano Índico occidental. A las islas solo se llega en barco (dhow tradicional o lancha) desde Vilanculos, que es la base logística: campings orientados a overlanders, combustible, mercado y talleres. El perro se queda en tierra: en el camping de Vilanculos sí, en el parque marino no. Vilanculos es también el punto donde la EN1 deja de ser buena hacia el norte, así que sirve de bisagra en los dos sentidos.",
-    "credit": "Copernicus Sentinel-2 (Unión Europea) · Attribution",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bazaruto%20Archipelago%20National%20Park%2C%20Mozambique.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Bazaruto%20Archipelago%20National%20Park%2C%20Mozambique.jpg",
+    "lat": -21.9996225,
+    "lon": 35.3186918,
+    "desc": "Vilanculos es la base con más servicios para contratar barco al Parque Nacional del Archipiélago de Bazaruto. El pin está en la localidad: las cinco islas, el dugongo y cualquier avistamiento no se confunden con una visita terrestre.",
+    "credit": "Tom Corser · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bazaruto_Island_Mozambique_from_air.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bazaruto_Island_Mozambique_from_air.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "ANAC · Parque Nacional del Archipiélago de Bazaruto",
+        "url": "https://www.anac.gov.mz/en/parques/bazaruto/"
+      }
+    ],
+    "visit": {
+      "why": "Es el punto terrestre más práctico para explorar el archipiélago protegido y sus paisajes de dunas, praderas marinas y arrecife.",
+      "see": "Islas, bancos de arena, aves y vida marina; dugongos, tortugas y delfines son posibilidades, nunca garantías.",
+      "access": "El pin coincide con Vilanculos en Google Maps. ANAC confirma que Bazaruto se alcanza por mar desde Vilanculos o Inhassoro.",
+      "when": "Reservar salida con operador autorizado y margen para cancelar por viento o mar.",
+      "skip": "No llevar el perro a las islas sin autorización expresa ni aceptar un barco sin seguridad y permiso claros."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bazaruto_Island_Mozambique_from_air.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bazaruto_Island_Mozambique_from_air.jpg",
+        "credit": "Tom Corser · CC BY-SA 3.0",
+        "caption": "Isla de Bazaruto vista desde el aire; muestra dunas, bajos y lagunas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Benguerra_Island_Mozambique_1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Benguerra_Island_Mozambique_1.jpg",
+        "credit": "FrogsLegs71 · CC BY-SA 3.0",
+        "caption": "Costa de Benguerra dentro del archipiélago de Bazaruto."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_east_towards_a_Bazaruto_Archipelago_island.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_east_towards_a_Bazaruto_Archipelago_island.JPG",
+        "credit": "Brian Dell · dominio público",
+        "caption": "Vista hacia una isla del archipiélago desde la costa continental."
+      }
+    ]
   },
   {
     "n": 20,
-    "name": "Tofo, Barra e Inhambane",
+    "name": "Tofo Beach · megafauna marina",
     "cat": "Costa",
     "prio": "Alta",
-    "dog": "permitido en las playas de Tofo y Barra",
+    "dog": "confirmar con alojamiento y operador",
     "time": "3–4 noches",
-    "lat": -23.8544,
-    "lon": 35.5453,
-    "desc": "LA CAPITAL MUNDIAL DEL TIBURÓN BALLENA Y LA MANTA GIGANTE. La bahía de Tofo tiene una de las agregaciones más constantes del planeta de ambas especies (la Marine Megafauna Foundation nació aquí), y entre junio y octubre pasan además las ballenas jorobadas. Enfrente, la PENÍNSULA DE BARRA se recorre por pista de arena profunda entre cocoteros hasta el faro, con campings a pie de playa que admiten perro. Inhambane, al fondo del estuario, es la ciudad colonial más bonita del sur: catedral del XVIII, mezquitas, dhows cruzando a Maxixe y mercado. Bloque obligado de varios días.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20Inhambane%20(3984583818).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Church%20Inhambane%20(3984583818).jpg",
+    "lat": -23.8568821,
+    "lon": 35.5480014,
+    "desc": "Tofo es una playa y base de buceo conocida por la posibilidad de ver mantas, tiburones ballena y ballenas según temporada. El pin coincide con Tofo Beach; no se garantizan avistamientos ni se mezclan Barra e Inhambane en la misma ficha.",
+    "credit": "Erik Cleves Kristensen · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Praia_do_Tofo_Moz_view_2008.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Praia_do_Tofo_Moz_view_2008.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Tofo · playa y localización",
+        "url": "https://en.wikipedia.org/wiki/Tofo"
+      }
+    ],
+    "visit": {
+      "why": "Tofo combina descanso y actividades marinas con una posibilidad real de observar grandes especies pelágicas.",
+      "see": "Playa, arrecife y, según estación y suerte, mantas, tiburón ballena o ballena jorobada.",
+      "access": "El pin coincide con Tofo Beach en Google Maps. Centro de buceo, embarque y alojamiento deben abrirse por sus direcciones propias.",
+      "when": "Elegir operador tras revisar parte del mar y temporada; dejar días de margen porque una salida puede cancelarse.",
+      "skip": "No reservar por promesas de avistamiento ni mezclar en un día Tofo, Barra e Inhambane como si fueran el mismo lugar."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Praia_do_Tofo_Moz_view_2008.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Praia_do_Tofo_Moz_view_2008.jpg",
+        "credit": "Erik Cleves Kristensen · CC BY 2.0",
+        "caption": "Vista de Tofo Beach, el lugar exacto de la ficha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tofo_Beach_from_Tofo_Scuba.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tofo_Beach_from_Tofo_Scuba.jpg",
+        "credit": "SALTACE · CC BY-SA 3.0",
+        "caption": "Tofo Beach vista desde el centro de buceo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Whale_shark_tofo_mozambique_2007.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Whale_shark_tofo_mozambique_2007.jpg",
+        "credit": "Jon Hanson · CC BY-SA 2.0",
+        "caption": "Tiburón ballena fotografiado en Tofo; el avistamiento nunca se garantiza."
+      }
+    ]
   },
   {
     "n": 21,
-    "name": "Maputo",
+    "name": "Maputo · estación y base logística",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
+    "dog": "confirmar con alojamiento",
     "time": "2–3 noches",
-    "lat": -25.9692,
-    "lon": 32.5732,
-    "desc": "Capital, embajada de España y la mayor base de servicios del país: talleres de 4x4, recambios, hospital central y clínicas privadas (Cruz Azul), supermercados grandes y consulados para el resto del bucle. Avenidas de acacias y jacarandás, la Casa de Ferro de Eiffel, la estación de ferrocarril de 1910 (una de las más bonitas del mundo), el mercado del Peixe y el Fortaleza. Desde 2018 el PUENTE DE KATEMBE, el colgante más largo de África (680 m de vano), abre el camino directo al sur hacia Ponta do Ouro sin barcaza.",
-    "credit": "F Mira from Lisbon, Portugal · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Avenida%20Samora%20Machel%20towards%20Maputo%20City%20Hall.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Avenida%20Samora%20Machel%20towards%20Maputo%20City%20Hall.jpg",
+    "lat": -25.9710715,
+    "lon": 32.5643617,
+    "desc": "Maputo es la gran base de talleres, recambios, hospitales y trámites antes de Sudáfrica. El pin se ha fijado en la estación ferroviaria, un hito visitable que evita usar un centro urbano arbitrario.",
+    "credit": "Jeremy Weate · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_train_station,_Maputo.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:The_train_station,_Maputo.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Estación Central de Maputo",
+        "url": "https://en.wikipedia.org/wiki/Maputo_Central_Railway_Station"
+      }
+    ],
+    "visit": {
+      "why": "Es el nodo imprescindible para mantenimiento, salud y trámites, con una estación ferroviaria excepcional como visita breve.",
+      "see": "Fachada, vestíbulo y andenes de la estación, además de la Baixa; museos y mercados requieren sus propios pines.",
+      "access": "El pin coincide con Maputo Railway Station en Google Maps. Reservar base con estacionamiento vigilado y agrupar gestiones por barrios.",
+      "when": "En días laborables, evitando horas punta y desplazamientos nocturnos innecesarios.",
+      "skip": "No usar la estación como dirección genérica de toda Maputo ni dejar objetos visibles en el vehículo."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_train_station,_Maputo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_train_station,_Maputo.jpg",
+        "credit": "Jeremy Weate · CC BY 2.0",
+        "caption": "Estación ferroviaria de Maputo, portada y pin exactos de la ficha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/MaputoStation.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:MaputoStation.jpg",
+        "credit": "Petr Berka · dominio público",
+        "caption": "Fachada de la estación ferroviaria de Maputo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maputo_Railway_Station_platform_view.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Maputo_Railway_Station_platform_view.jpg",
+        "credit": "Claus Wonnemann · CC BY-SA 4.0",
+        "caption": "Andenes y cubierta de la estación vistos desde la entrada."
+      }
+    ]
   },
   {
     "n": 22,
-    "name": "Ponta do Ouro, Ponta Malongane y el Parque Nacional de Maputo",
+    "name": "Ponta do Ouro · costa sur",
     "cat": "Costa",
     "prio": "Alta",
-    "dog": "permitido fuera del parque",
+    "dog": "permitido fuera del parque; prohibido dentro",
     "time": "3–4 noches",
-    "lat": -26.8433,
-    "lon": 32.8917,
-    "desc": "EL EXTREMO SUR DE MOZAMBIQUE Y EL PARAÍSO 4x4 DEL PAÍS. Desde el puente de Katembe la carretera acaba y empieza el laberinto de PISTAS DE ARENA PROFUNDA entre dunas boscosas, lagos interiores (Sugi, Sotiva, Piti) y las puntas sucesivas: Malongane, Mamoli, Dobela y Ponta do Ouro, a 10 km de la frontera sudafricana de Kosi Bay. Aquí está la población residente de DELFINES MULARES con la que se nada desde la playa, los mejores fondos de buceo del país (Pinnacles) y avistamiento de ballenas de junio a noviembre. El Parque Nacional de Maputo (antigua Reserva de Elefantes, gestionado con Peace Parks) protege el corredor de Futi con elefantes que vuelven a moverse hasta Sudáfrica: AQUÍ SÍ SE PERMITE LA AUTOCONDUCCIÓN, con campings propios en Xinguti (hipopótamos y cocodrilos) y Ponta Membene (bosque, lagos y playa). Puertas 06:00-17:00 de octubre a marzo y 07:00-16:00 de abril a septiembre; reservas en reservas@parquemaputo.gov.mz, +258 85 6000 900. Dentro del parque el perro NO entra, pero los campings de Ponta do Ouro y Malongane sí lo admiten.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponta%20do%20Ouro%20in%20the%20morning.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Ponta%20do%20Ouro%20in%20the%20morning.jpg",
+    "lat": -26.8402426,
+    "lon": 32.8878582,
+    "desc": "Ponta do Ouro ofrece playa, buceo y acceso inmediato desde Kosi Bay. El pin coincide con la playa real; el cercano Parque Nacional de Maputo es una visita distinta, solo en 4x4 y con normas propias.",
+    "credit": "Claus Wonnemann · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponta_Beach_Drive,_Ponta_do_Ouro,_Mozambique.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ponta_Beach_Drive,_Ponta_do_Ouro,_Mozambique.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Parque Nacional de Maputo · acceso a Ponta do Ouro",
+        "url": "https://parquemaputo.gov.mz/en/explore/how-to-get-there/"
+      }
+    ],
+    "visit": {
+      "why": "Es el cierre costero de Mozambique y una base clara para playa y buceo antes de cruzar Kosi Bay.",
+      "see": "Bahía, playa, arrecife y pueblo; el parque terrestre y Ponta Malongane son decisiones separadas.",
+      "access": "El pin coincide con Ponta do Ouro Beach en Google Maps. El parque cercano exige 4x4; dentro de sus límites no se admiten mascotas.",
+      "when": "Comprobar mareas, mar, frontera y alojamiento; el parque publica horarios distintos según temporada.",
+      "skip": "No conducir por la playa, no entrar al parque con el perro y no confundir la localidad con una entrada terrestre del parque."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponta_Beach_Drive,_Ponta_do_Ouro,_Mozambique.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponta_Beach_Drive,_Ponta_do_Ouro,_Mozambique.jpg",
+        "credit": "Claus Wonnemann · CC BY-SA 4.0",
+        "caption": "Ponta Beach Drive junto a Ponta do Ouro."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponta_do_Ouro_in_the_morning.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponta_do_Ouro_in_the_morning.jpg",
+        "credit": "Hein Waschefort · CC BY-SA 3.0",
+        "caption": "Ponta do Ouro por la mañana, con la playa y la bahía."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponta_do_Ouro,_Maputo,_Mo%C3%A7ambique_-_2010-04-02_-_34201114.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponta_do_Ouro,_Maputo,_Mo%C3%A7ambique_-_2010-04-02_-_34201114.jpg",
+        "credit": "Hendrik van den Berg · CC BY 3.0",
+        "caption": "Vista real de Ponta do Ouro en 2010."
+      }
+    ]
   }
 ]

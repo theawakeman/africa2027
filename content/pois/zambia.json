@@ -7,14 +7,47 @@
     "dog": "prohibido",
     "time": "2–3 días",
     "lat": -14.5,
-    "lon": 22.483,
-    "desc": "Llanura inmensa en el extremo oeste, gestionada por African Parks, que alberga la SEGUNDA MAYOR MIGRACIÓN DE ÑUS DE ÁFRICA (unos 45.000 animales) además de una célebre población de hienas y el regreso de los leones tras la guerra. Está a un paso de la frontera angoleña, así que encaja justo al entrar y no exige desviarse. Solo 4x4 y solo en temporada seca: en lluvias la llanura se inunda por completo. Imagen: vista satelital de la llanura del Barotse, el mismo sistema de inundación — pendiente de sustituir por una foto del parque.",
-    "credit": "NASA · Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NASA%20Barotse%20Floodplain%20compressed.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:NASA%20Barotse%20Floodplain%20compressed.JPG",
+    "lon": 22.5,
+    "desc": "Gran llanura inundable del oeste y uno de los safaris más remotos de Zambia, conocida por su migración estacional de ñus, hienas y recuperación de leones. El acceso se organiza desde Kalabo y exige 4x4, autonomía y comprobar el nivel del agua.",
+    "credit": "Simon Berry · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Safari_Liuwa_Sambia_-_8215581739_(cropped).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Safari_Liuwa_Sambia_-_8215581739_(cropped).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "African Parks · visita y acceso a Liuwa Plain",
+        "url": "https://www.africanparks.org/the-parks/liuwa-plain"
+      }
+    ],
+    "visit": {
+      "why": "Es un safari de llanura inundable casi sin tráfico y permite enlazar paisaje, fauna y cultura lozi nada más entrar desde Angola.",
+      "see": "Grandes horizontes, lagunas estacionales, ñus, cebras, hienas y aves; ningún depredador ni fase de la migración se garantiza.",
+      "access": "El pin coincide con el objeto Liuwa Plain National Park de Google Maps. La entrada operativa se prepara en Kalabo y normalmente implica pontón, registro y 4x4 alto; pedir al parque el itinerario vigente.",
+      "when": "La transición seca y el comienzo de lluvias ofrecen experiencias distintas. Confirmar inundación, campamentos y fechas de migración con African Parks antes de salir.",
+      "skip": "Descartarlo sin respuesta del parque, con pista o pontón dudosos, o si no se dispone de autonomía para regresar a Kalabo."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Safari_Liuwa_Sambia_-_8215581739_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Safari_Liuwa_Sambia_-_8215581739_(cropped).jpg",
+        "credit": "Simon Berry · CC BY-SA 2.0",
+        "caption": "Llanura y safari en Liuwa Plain; el archivo está geolocalizado dentro del parque."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Liuwa_Plain_National_Park_03_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Liuwa_Plain_National_Park_03_(cropped).jpg",
+        "credit": "S1m0nB3rry · CC BY-SA 2.0",
+        "caption": "Pista de tierra dentro de Liuwa Plain, una referencia útil del acceso real."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lady_Liuwa,_Liuwa_Plain_National_Park,_November_2012.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lady_Liuwa,_Liuwa_Plain_National_Park,_November_2012.jpg",
+        "credit": "Jonchwalker · CC BY-SA 3.0",
+        "caption": "Lady Liuwa descansando en el parque en noviembre de 2012; imagen histórica de su recuperación de leones."
+      }
+    ]
   },
   {
     "n": 2,
@@ -23,15 +56,48 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -15.2667,
-    "lon": 23.1333,
-    "desc": "Capital de Barotseland y corazón del reino lozi, todavía gobernado por el Litunga. Cada año, cuando sube la crecida del Zambeze, se celebra la KUOMBOKA: el traslado del rey desde el palacio de Lealui a tierras altas a bordo del Nalikwanda, una enorme barcaza negra y blanca remada por decenas de hombres. Es una de las grandes ceremonias vivas de África; la fecha depende de la crecida (suele caer entre marzo y abril). La llanura inundada, con su dique-carretera hasta el puerto, es un paisaje único.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nalikwanda.jpg?width=900",
+    "lat": -15.2727032,
+    "lon": 23.1195527,
+    "desc": "Mongu es la base del Barotse y su puerto abre la llanura inundable. Kuomboka es el traslado ceremonial del Litunga en la barcaza Nalikwanda; su fecha depende de la crecida y no debe darse por garantizada sin anuncio oficial.",
+    "credit": "Dietmar Hatzenbichler · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nalikwanda.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Nalikwanda.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · ceremonia Kuomboka",
+        "url": "https://www.zambia.travel/kuomboka.html"
+      }
+    ],
+    "visit": {
+      "why": "Permite entender el reino barotse y el uso anual de una llanura que transforma por completo la vida y las comunicaciones.",
+      "see": "El puerto, el dique hacia la llanura y, solo si coincide con la fecha anunciada, la procesión y la Nalikwanda de Kuomboka.",
+      "access": "El pin se ha movido del centro genérico de Mongu al objeto Mongu Harbour de Google Maps. Para Lealui o la ceremonia hay que acordar transporte y protocolo local.",
+      "when": "Visitar de día. La ceremonia suele ligarse a la crecida, pero la fecha cambia y solo vale el anuncio de la autoridad tradicional.",
+      "skip": "No añadir noches esperando Kuomboka sin confirmación; fuera del evento basta una escala corta por el puerto y la llanura."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nalikwanda.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nalikwanda.jpg",
+        "credit": "Dietmar Hatzenbichler · CC BY-SA 3.0",
+        "caption": "La barcaza real Nalikwanda durante la ceremonia Kuomboka en Barotseland."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_distant_view_Baroste_Flood_Plains_in_April_heading_towards_the_end_of_rain_season,_good_period_for_kuomboka_ceremony.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:A_distant_view_Baroste_Flood_Plains_in_April_heading_towards_the_end_of_rain_season,_good_period_for_kuomboka_ceremony.jpg",
+        "credit": "Wickyjax · CC BY-SA 4.0",
+        "caption": "Llanura del Barotse al final de las lluvias, el paisaje que condiciona Kuomboka."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NASA_Barotse_Floodplain_compressed.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:NASA_Barotse_Floodplain_compressed.JPG",
+        "credit": "NASA/GSFC · dominio público",
+        "caption": "Vista satelital de la llanura inundable del Barotse; sirve para entender su escala, no como vista desde Mongu."
+      }
+    ]
   },
   {
     "n": 3,
@@ -40,15 +106,48 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "3–4 días",
-    "lat": -14.1,
-    "lon": 25.8,
-    "desc": "El parque más grande de Zambia (22.400 km², como Gales) y uno de los más grandes de África, con las llanuras de Busanga en el norte como joya: praderas inundables con manadas de antílopes, leones trepadores de árboles y globos aerostáticos al amanecer. El acceso norte a Busanga es de pista de arena y vados, solo seco (julio-octubre); el sur, por el embalse de Itezhi-Tezhi, es más accesible.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Kafue%20River%2C%20Zambia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:The%20Kafue%20River%2C%20Zambia.jpg",
+    "lat": -14.3209622,
+    "lon": 25.9657788,
+    "desc": "El enorme Kafue ofrece un safari menos concurrido; las llanuras de Busanga son su sector norte más singular. El pin marca Busanga, no una puerta: el desvío solo compensa con alojamiento, pista y vados confirmados.",
+    "credit": "Timothy A. Gonsalves · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Male_Bush_Elephant_Head_Trunk_Up_Kafue_Jul23_A7R_05195.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_Bush_Elephant_Head_Trunk_Up_Kafue_Jul23_A7R_05195.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "African Parks · conservación y visita de Kafue",
+        "url": "https://www.africanparks.org/the-parks/kafue"
+      }
+    ],
+    "visit": {
+      "why": "Busanga ofrece un paisaje de llanura abierta muy distinto del valle del Luangwa y suele tener mucha menos presión de visitantes.",
+      "see": "Praderas estacionales, humedales y fauna de sabana; los globos y cualquier especie concreta dependen del operador y la temporada.",
+      "access": "El pin coincide con Busanga Plains en Google Maps, no con una puerta. Entrar solo con reserva que indique acceso, punto de encuentro, vados y combustible necesario.",
+      "when": "Normalmente en la estación seca, una vez abiertas las pistas del norte. Confirmar fechas con el alojamiento o African Parks.",
+      "skip": "Omitir si no hay reserva, si los vados no están abiertos o si el desvío obliga a atravesar el parque con margen insuficiente."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Male_Bush_Elephant_Head_Trunk_Up_Kafue_Jul23_A7R_05195.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Male_Bush_Elephant_Head_Trunk_Up_Kafue_Jul23_A7R_05195.jpg",
+        "credit": "Timothy A. Gonsalves · CC BY-SA 4.0",
+        "caption": "Elefante joven cruzando una pista en Kafue National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kafue_National_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kafue_National_Park.jpg",
+        "credit": "LittleT889 · CC BY-SA 4.0",
+        "caption": "Paisaje del Parque Nacional de Kafue; Busanga ocupa su remoto sector norte."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Main_Road_Kafue_National_Park_Zambia_Jul23_A7C_05400.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Main_Road_Kafue_National_Park_Zambia_Jul23_A7C_05400.jpg",
+        "credit": "Timothy A. Gonsalves · CC BY-SA 4.0",
+        "caption": "Pista principal al sur de una entrada de Kafue, indicativa de la conducción dentro del parque."
+      }
+    ]
   },
   {
     "n": 4,
@@ -59,13 +158,46 @@
     "time": "1–2 noches",
     "lat": -15.4067,
     "lon": 28.305,
-    "desc": "Capital y gran plaza logística del tramo: talleres, recambios de 4x4, neumáticos, supermercados grandes, hospital de referencia (University Teaching Hospital) y trámites. Es el punto donde conviene revisar los vehículos antes de encarar el norte remoto y el circuito de cascadas.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lusaka%2C%20Zambia%20CBD%20Kafue%20Roundabout.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lusaka%2C%20Zambia%20CBD%20Kafue%20Roundabout.jpg",
+    "desc": "Capital y principal base logística del país para talleres, neumáticos, recambios, supermercados, hospital y trámites. El interés turístico es secundario frente a la oportunidad de revisar bien los vehículos antes del norte remoto.",
+    "credit": "Lupali · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lusaka,_Zambia_CBD_Kafue_Roundabout.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lusaka,_Zambia_CBD_Kafue_Roundabout.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · Lusaka",
+        "url": "https://www.zambiatourism.com/towns/lusaka/"
+      }
+    ],
+    "visit": {
+      "why": "Es la mejor oportunidad del país para mantenimiento serio, recambios, compras grandes, atención médica y gestiones.",
+      "see": "Una capital extensa con mercados y museos, pero la ficha prioriza resolver la logística del viaje.",
+      "access": "El pin representa el centro de Lusaka. Elegir taller, hospital o alojamiento por su dirección concreta y evitar cruzar la ciudad de noche.",
+      "when": "En días laborables, agrupando reparaciones y trámites por zonas y reservando margen para piezas que no estén en stock.",
+      "skip": "No se debe saltar como nodo logístico; sí reducir la visita urbana si vehículos y provisiones ya están resueltos."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lusaka,_Zambia_CBD_Kafue_Roundabout.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lusaka,_Zambia_CBD_Kafue_Roundabout.jpg",
+        "credit": "Lupali · CC BY-SA 4.0",
+        "caption": "Rotonda de Kafue y perfil del centro de Lusaka."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lusaka_Aero_View_01.png?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lusaka_Aero_View_01.png",
+        "credit": "Icem4k · CC BY-SA 4.0",
+        "caption": "Vista aérea del tejido urbano de Lusaka."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lusaka_Aero_View_19.png?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lusaka_Aero_View_19.png",
+        "credit": "Icem4k · CC BY-SA 4.0",
+        "caption": "Vista aérea de Lusaka en torno al National Heroes Stadium."
+      }
+    ]
   },
   {
     "n": 5,
@@ -74,15 +206,48 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 noches",
-    "lat": -17.9244,
-    "lon": 25.8572,
-    "desc": "La vista zambiana de las cataratas, Patrimonio de la Humanidad, desde Livingstone: menos panorámica que la zimbabuense pero con acceso a la Knife Edge Bridge y, sobre todo, a DEVIL'S POOL, la piscina natural al borde mismo del salto, accesible solo en aguas bajas (aprox. agosto-enero) y solo desde este lado. OJO: la ruta global pasa por Zimbabue meses más tarde, donde se ve la panorámica — ver los pendientes antes de decidir el desvío.",
+    "lat": -17.92832,
+    "lon": 25.86404,
+    "desc": "El lado zambiano de Victoria Falls permite caminar frente a la cortina de agua y alcanzar Knife Edge Bridge. El aspecto cambia por completo con el caudal; Devil’s Pool solo se considera con operador autorizado y condiciones confirmadas.",
     "credit": "Matti Blume · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosi-oa-Tunya%2C%20Livingstone%20%2820260519-P1075699%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya%2C%20Livingstone%20%2820260519-P1075699%29.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosi-oa-Tunya,_Livingstone_(20260519-P1075699).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075699).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · Victoria Falls",
+        "url": "https://www.zambiatourism.com/destinations/waterfalls/victoria-falls/"
+      }
+    ],
+    "visit": {
+      "why": "La proximidad a la cortina de agua y Knife Edge Bridge ofrecen una experiencia diferente de la panorámica zimbabuense.",
+      "see": "Senderos húmedos, garganta, arcoíris y distintos tramos del salto según el caudal; Devil’s Pool es una actividad separada.",
+      "access": "El pin está en la entrada y taquilla del sector zambiano, no en mitad del río. Llevar protección para agua y dejar objetos sensibles en seco.",
+      "when": "Caudal alto para potencia y niebla; aguas más bajas para leer la geología. Confirmar horarios y actividades el mismo día.",
+      "skip": "No contratar actividades de borde o río fuera de un operador autorizado ni asumir que Devil’s Pool está abierta."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosi-oa-Tunya,_Livingstone_(20260519-P1075699).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075699).jpg",
+        "credit": "Matti Blume · CC BY-SA 4.0",
+        "caption": "Cataratas vistas desde el lado zambiano en mayo de 2026."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosi-oa-Tunya,_Livingstone_(20260519-P1075700).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075700).jpg",
+        "credit": "Matti Blume · CC BY-SA 4.0",
+        "caption": "Nube de agua de Mosi-oa-Tunya elevándose sobre la garganta del Batoka."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosi-oa-Tunya,_Livingstone_(20260519-P1075665).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075665).jpg",
+        "credit": "Matti Blume · CC BY-SA 4.0",
+        "caption": "Otra vista zambiana que muestra cómo la niebla puede ocultar parte del salto con caudal alto."
+      }
+    ]
   },
   {
     "n": 6,
@@ -91,15 +256,48 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "½–1 día",
-    "lat": -17.9283,
-    "lon": 25.8575,
-    "desc": "El puente de 1905 sobre la garganta, frontera con Zimbabue, y el cañón de basalto aguas abajo: uno de los mejores tramos de rafting de aguas bravas del mundo (rápidos de clase V, practicable en aguas bajas, aprox. agosto-enero) y de puenting desde el propio puente. Se puede caminar el puente sin trámite de frontera con un pase de visitante.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20falls%2C%20zambia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Victoria%20falls%2C%20zambia.jpg",
+    "lat": -17.9284388,
+    "lon": 25.857203,
+    "desc": "El puente histórico de 1905 cruza la garganta del Batoka entre Zambia y Zimbabue. Las vistas y el cañón justifican una parada breve; rafting, puenting o acceso peatonal dependen de operador, caudal y control fronterizo.",
+    "credit": "Adam Annfield · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria_Falls_Bridge,_Africa_092.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge,_Africa_092.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Victoria Falls Bridge · historia y características",
+        "url": "https://en.wikipedia.org/wiki/Victoria_Falls_Bridge"
+      }
+    ],
+    "visit": {
+      "why": "Condensa ingeniería histórica, frontera y la escala de la garganta en una parada corta compatible con Victoria Falls.",
+      "see": "El arco metálico, el ferrocarril y el cañón; el rafting y el puenting no forman parte de la simple visita al mirador.",
+      "access": "El pin coincide con el objeto Puente de las Cataratas Victoria en Google Maps. Preguntar en el control qué tramo puede recorrerse sin completar entrada al otro país.",
+      "when": "Con luz y sin tormenta; las actividades de río dependen del nivel del Zambeze y de la evaluación del operador.",
+      "skip": "Descartar las actividades si no hay condiciones escritas claras, equipo homologado o tiempo suficiente para trámites fronterizos."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria_Falls_Bridge,_Africa_092.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Victoria_Falls_Bridge,_Africa_092.jpg",
+        "credit": "Adam Annfield · CC BY 2.0",
+        "caption": "Vista aérea del puente, las cataratas y varias gargantas del Batoka."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Puente_de_las_cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_10.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Puente_de_las_cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_10.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Arco del puente de Victoria Falls sobre la frontera Zambia–Zimbabue."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_16-20_PAN.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_16-20_PAN.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Panorámica aérea que sitúa el puente respecto a la cortina y las gargantas."
+      }
+    ]
   },
   {
     "n": 7,
@@ -108,15 +306,48 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "3–4 días",
-    "lat": -13.0833,
-    "lon": 31.95,
-    "desc": "LA CUNA DEL SAFARI A PIE: aquí lo inventó Norman Carr en los años 50, y sigue siendo el mejor sitio de África para hacerlo. Una de las densidades de leopardo más altas del continente, manadas enormes de búfalo, y el valle del Luangwa con sus meandros y lagunas. Mfuwe es la puerta logística, con aeródromo, campamentos y lodges.",
+    "lat": -13.0992356,
+    "lon": 31.7860713,
+    "desc": "South Luangwa es un referente del safari a pie y de la observación de fauna en torno al río. La ficha se ancla en la puerta principal de Mfuwe, donde deben confirmarse tasas, guía, alojamiento y reglas para el vehículo.",
     "credit": "Timothy A. Gonsalves · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe%20Standing%20Lupande%20Zambia%20Jul23%20A7C%2006176.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Giraffe%20Standing%20Lupande%20Zambia%20Jul23%20A7C%2006176.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_Luangwa_River_Wide_Zambia_Jul23_A7C_05776.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunset_Luangwa_River_Wide_Zambia_Jul23_A7C_05776.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · South Luangwa",
+        "url": "https://www.zambiatourism.com/destinations/national-parks/south-luangwa-national-park/"
+      }
+    ],
+    "visit": {
+      "why": "El río concentra fauna y el parque mantiene una tradición especialmente fuerte de safaris a pie guiados.",
+      "see": "Bosque de ribera, lagunas, hipopótamos y mamíferos de sabana; leopardo y grandes concentraciones nunca se prometen.",
+      "access": "El pin se ha corregido 44 km hasta la Puerta Principal de Mfuwe en Google Maps. El perro no entra; cerrar antes un cuidado seguro fuera del parque.",
+      "when": "La seca facilita pistas y concentraciones junto al agua; reservar caminata, guía y alojamiento con antelación.",
+      "skip": "No entrar sin resolver el perro, tasas, combustible y pernocta, ni hacer un safari a pie con un guía no acreditado."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_Luangwa_River_Wide_Zambia_Jul23_A7C_05776.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunset_Luangwa_River_Wide_Zambia_Jul23_A7C_05776.jpg",
+        "credit": "Timothy A. Gonsalves · CC BY-SA 4.0",
+        "caption": "Atardecer sobre el río dentro de South Luangwa National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plaque_South_Luangwa_Park_Entrance_Mfuwe_Jul23_A7C_05933.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Plaque_South_Luangwa_Park_Entrance_Mfuwe_Jul23_A7C_05933.jpg",
+        "credit": "Timothy A. Gonsalves · CC BY-SA 4.0",
+        "caption": "Placa de la entrada de Mfuwe, el punto al que conduce el pin corregido."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/South_Luangwa_National_Park,_Zambia_(2509366176).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:South_Luangwa_National_Park,_Zambia_(2509366176).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Fauna y paisaje fotografiados dentro de South Luangwa National Park."
+      }
+    ]
   },
   {
     "n": 8,
@@ -125,15 +356,48 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 días",
-    "lat": -12.5833,
-    "lon": 30.25,
-    "desc": "Cada año, entre finales de octubre y diciembre, unos 10 MILLONES de murciélagos frugívoros de color pajizo se concentran en apenas una hectárea de bosque pantanoso de mushitu: es LA MAYOR MIGRACIÓN DE MAMÍFEROS DEL PLANETA, más grande en número que la de ñus del Serengeti. Al atardecer el cielo se llena durante casi una hora. Hay plataformas en los árboles para verlo. El parque es pequeño y se autofinancia; también tiene sitatungas y el raro antílope puku. Imagen: ejemplar de la especie (Eidolon helvum), no del propio parque.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Eidolon%20helvum%20fg01.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Eidolon%20helvum%20fg01.JPG",
+    "lat": -12.5464509,
+    "lon": 30.215519,
+    "desc": "Kasanka reúne lagos, bosque de mushitu y, aproximadamente entre finales de octubre y diciembre, millones de murciélagos frugívoros. La escala merece dos noches solo si las fechas, plataformas y alojamiento están confirmados.",
+    "credit": "Sybryn · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasanka_National_Park_Bat_feast.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kasanka_National_Park_Bat_feast.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Kasanka Trust · visita y migración de murciélagos",
+        "url": "https://kasanka.com/"
+      }
+    ],
+    "visit": {
+      "why": "La salida masiva de murciélagos al atardecer es un fenómeno estacional excepcional y el parque es manejable en dos días.",
+      "see": "Bosque de mushitu, lago Wasa, puku y, en la ventana correcta, el vuelo de millones de murciélagos.",
+      "access": "El pin coincide con Kasanka National Park en Google Maps. Reservar la zona de observación y recibir del parque la puerta y campamento exactos.",
+      "when": "Solo merece el viaje por los murciélagos con fechas actualizadas; para el resto del parque, la seca da pistas más sencillas.",
+      "skip": "Omitir el desvío si la migración aún no ha llegado, ya terminó o no quedan plazas de observación y alojamiento."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasanka_National_Park_Bat_feast.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kasanka_National_Park_Bat_feast.jpg",
+        "credit": "Sybryn · CC BY-SA 4.0",
+        "caption": "Salida de murciélagos en Kasanka durante la concentración de noviembre–diciembre."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasanka.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kasanka.jpg",
+        "credit": "Mehmet Karatay · CC BY-SA 4.0",
+        "caption": "Vista del paisaje de Kasanka National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasanka_NP_Wasa_Lake.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kasanka_NP_Wasa_Lake.jpg",
+        "credit": "Sybryn · CC BY-SA 4.0",
+        "caption": "Lago Wasa dentro de Kasanka, una de las zonas visitables fuera del espectáculo de murciélagos."
+      }
+    ]
   },
   {
     "n": 9,
@@ -142,15 +406,48 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2–3 días",
-    "lat": -11.5,
-    "lon": 30.25,
-    "desc": "Unos 10.000 km² de llanura inundable gestionados por African Parks junto a las comunidades locales, y uno de los pocos lugares del mundo donde se puede ver el PICOZAPATO (shoebill), el ave más extraña de África. Además, la mayor población mundial de lechwe negro (unos 50.000, endémico de aquí) y tsessebe. Mejor entre mayo y julio (agua bajando, picozapatos aún presentes; desde septiembre se vuelven muy difíciles). Acceso 4x4 de altura, 66 km de pista desde el desvío; salir con depósito lleno desde Serenje o Mpika. Tasa de 10 USD/adulto, horario 05:00-18:00. Imagen: ejemplar de la especie, no del propio humedal.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shoebill%20couple1.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Shoebill%20couple1.jpg",
+    "lat": -12.28981,
+    "lon": 30.6261307,
+    "desc": "Bangweulu combina humedales comunitarios, grandes grupos de lechwe negro y una de las mejores posibilidades de ver picozapato. El pin conduce a Nkondo, base real de visita; la ausencia de cobertura y las pistas exigen autonomía.",
+    "credit": "Mehmet Karatay · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bangweulu_Swamps.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bangweulu_Swamps.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "African Parks · cómo visitar Bangweulu",
+        "url": "https://www.africanparks.org/the-parks/bangweulu/visit-bangweulu"
+      }
+    ],
+    "visit": {
+      "why": "Es un humedal vivido por comunidades, no un parque cerrado, y reúne picozapato, lechwe negro y paisajes de agua muy abiertos.",
+      "see": "Llanura inundable, aldeas y pesca, grandes grupos de lechwe y búsqueda guiada de picozapato sin garantía de encuentro.",
+      "access": "El pin se ha movido 80 km al objeto Nkondo Tented Camp de Google Maps, base citada por African Parks. Seguir sus indicaciones y no navegar al centro geométrico del humedal.",
+      "when": "Febrero–abril ofrece más agua y aves; con el descenso del agua cambian el acceso y la distribución del picozapato.",
+      "skip": "No entrar sin guía o reserva, con combustible justo o si las lluvias convierten la pista en un riesgo para los dos vehículos."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bangweulu_Swamps.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bangweulu_Swamps.jpg",
+        "credit": "Mehmet Karatay · CC BY-SA 4.0",
+        "caption": "Humedales de Bangweulu vistos desde Shoebill Island en la estación seca."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shoebill_couple1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shoebill_couple1.jpg",
+        "credit": "frank wouters · CC BY 2.0",
+        "caption": "Pareja de picozapatos: muestra la especie buscada, no garantiza un avistamiento en Bangweulu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bangweulu_oli_2020136_lrg_Zambia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bangweulu_oli_2020136_lrg_Zambia.jpg",
+        "credit": "NASA Earth Observatory/USGS · dominio público",
+        "caption": "Imagen Landsat del lago y los humedales de Bangweulu en mayo de 2020."
+      }
+    ]
   },
   {
     "n": 10,
@@ -159,15 +456,48 @@
     "prio": "Media",
     "dog": "permitido",
     "time": "1 noche",
-    "lat": -9.8,
-    "lon": 29.1,
-    "desc": "A 18 km de Kawambwa, un salto en velo de novia al borde de la meseta norte, declarado monumento nacional, con senderos arriba y abajo del salto, pozas de agua cristalina para bañarse y zona de acampada con barbacoas. Una de las paradas mejor mantenidas del circuito de cascadas. Imagen: otra cascada del norte de Zambia — pendiente de sustituir por una de Ntumbachushi.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilambwe%20falls%20Northern%20Zambia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chilambwe%20falls%20Northern%20Zambia.jpg",
+    "lat": -9.8538149,
+    "lon": 28.9464855,
+    "desc": "Serie de rápidos, pozas y un salto principal de unos 30 m cerca de Kawambwa, con importancia ritual local. Es una parada de naturaleza sencilla, no un baño garantizado: preguntar por caudal, acceso y normas del lugar.",
+    "credit": "Revention24 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ntumbachushi_Falls_2011.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ntumbachushi_Falls_2011.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · Ntumbachushi Falls",
+        "url": "https://www.zambiatourism.com/destinations/waterfalls/ntumbachushi-falls/"
+      }
+    ],
+    "visit": {
+      "why": "Añade un salto accesible y de significado cultural al circuito norte sin exigir una expedición larga.",
+      "see": "Rápidos, pozas y el salto principal del Ng’ona; las tres fotografías muestran el lugar real desde arriba y abajo.",
+      "access": "El pin se ha corregido 18 km hasta Cataratas Ntumbachushi en Google Maps. Confirmar localmente la pista y el espacio de acampada.",
+      "when": "Con luz y caudal suficiente para que la parada compense, evitando aproximarse a rocas mojadas tras lluvias fuertes.",
+      "skip": "No bañarse por la simple presencia de pozas: preguntar por corriente, profundidad y normas rituales antes de entrar al agua."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ntumbachushi_Falls_2011.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ntumbachushi_Falls_2011.jpg",
+        "credit": "Revention24 · CC BY-SA 4.0",
+        "caption": "Vista frontal del salto principal de Ntumbachushi."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ntumbaschushi_Falls_lower_view.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ntumbaschushi_Falls_lower_view.jpg",
+        "credit": "Flacourtophile · CC BY-SA 4.0",
+        "caption": "Vista inferior de Ntumbachushi Falls."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rapids_above_Ntumbachushi_Falls.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Rapids_above_Ntumbachushi_Falls.jpg",
+        "credit": "Flacourtophile · CC BY-SA 4.0",
+        "caption": "Rápidos situados aguas arriba de las cataratas."
+      }
+    ]
   },
   {
     "n": 11,
@@ -176,15 +506,48 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "1–2 noches",
-    "lat": -9.5333,
-    "lon": 29.3833,
-    "desc": "Lumangwe es una cortina de 160 m de ancho sobre el río Kalungwishi que se conoce como «la pequeña Victoria Falls», y a solo 6 km está Kabwelume, de 150 m, con una sucesión de saltos y pozas que muchos viajeros consideran aún más bonita. Se llega por pista (4x4) desde Mporokoso; hay camping sencillo y limpio junto a Lumangwe por unos 15 USD por persona. Para los overlanders que hacen el circuito norte, estas dos son habitualmente lo mejor del viaje.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumangwe%20falls%20on%20the%20Kalungwishi%20river%20during%20the%20dry%20season(September-October).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lumangwe%20falls%20on%20the%20Kalungwishi%20river%20during%20the%20dry%20season(September-October).jpg",
+    "lat": -9.54267,
+    "lon": 29.38791,
+    "desc": "Lumangwe forma una gran cortina sobre el Kalungwishi y Kabwelume queda a pocos kilómetros por pista. Juntas son una de las mejores etapas del circuito norte, pero el estado del desvío y el camping debe comprobarse localmente.",
+    "credit": "Robert Shula Mutale · CC BY 2.5",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumangwe_falls_on_the_Kalungwishi_river_during_the_dry_season(September-October).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lumangwe_falls_on_the_Kalungwishi_river_during_the_dry_season(September-October).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · Lumangwe Falls",
+        "url": "https://www.zambiatourism.com/destinations/waterfalls/lumangwe-falls/"
+      }
+    ],
+    "visit": {
+      "why": "Lumangwe y Kabwelume forman la pareja de cataratas más contundente del circuito remoto del Kalungwishi.",
+      "see": "La cortina de Lumangwe, el bosque húmedo que genera y el segundo salto de Kabwelume por un acceso separado.",
+      "access": "El pin coincide con Lumangwe Falls. Kabwelume queda a unos 5 km en línea recta, pero la pista real y su cruce deben confirmarse allí.",
+      "when": "Con 4x4, luz y pistas secas; el caudal cambia mucho y el camping es básico, por lo que no se presupone agua tratada.",
+      "skip": "No intentar ambos saltos si la pista está embarrada, el vado no es claro o no queda margen para regresar con luz."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumangwe_falls_on_the_Kalungwishi_river_during_the_dry_season(September-October).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lumangwe_falls_on_the_Kalungwishi_river_during_the_dry_season(September-October).jpg",
+        "credit": "Robert Shula Mutale · CC BY 2.5",
+        "caption": "Lumangwe Falls durante la estación seca, en septiembre–octubre."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/LUMANGWE_FALLS,_MPOROKOSO,_ZAMBIA_02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:LUMANGWE_FALLS,_MPOROKOSO,_ZAMBIA_02.jpg",
+        "credit": "Chumat28 · CC BY-SA 4.0",
+        "caption": "La cortina de Lumangwe sobre el río Kalungwishi."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/KABWELUME_FALLS,_MPOROKOSO,_ZAMBIA_02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:KABWELUME_FALLS,_MPOROKOSO,_ZAMBIA_02.jpg",
+        "credit": "Chumat28 · CC BY-SA 4.0",
+        "caption": "Kabwelume Falls, el segundo salto incluido en esta ficha."
+      }
+    ]
   },
   {
     "n": 12,
@@ -193,15 +556,48 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -10.1167,
-    "lon": 30.9333,
-    "desc": "A media hora de Kasama, tres saltos sucesivos (Mutumuna, los rápidos de Kaela y Chishimba propiamente) unidos por senderos bien marcados y mantenidos, con camping en el recinto. Es además un LUGAR SAGRADO BEMBA: conviene informarse del protocolo y comportarse en consecuencia, no es solo un sitio bonito.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chisimba%20Falls.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chisimba%20Falls.JPG",
+    "lat": -10.1083493,
+    "lon": 30.9174984,
+    "desc": "Tres tramos sucesivos —Mutumuna, Kaela y Chishimba— unidos por senderos y miradores cerca de Kasama. Además de paisaje, es un lugar sagrado bemba: hay que respetar las indicaciones locales y no tratarlo como una piscina recreativa.",
+    "credit": "Emma Nawakwi · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chishimba_Falls_-_Zambia.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Chishimba_Falls_-_Zambia.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · Chishimba Falls",
+        "url": "https://www.zambiatourism.com/destinations/waterfalls/chisimba-falls/"
+      }
+    ],
+    "visit": {
+      "why": "Combina tres caídas cercanas, senderos sencillos y una dimensión espiritual bemba que da sentido al lugar.",
+      "see": "Mutumuna, los rápidos de Kaela, Chishimba y el bosque de ribera; cada tramo tiene un carácter distinto.",
+      "access": "El pin se ha ajustado al objeto Chishimba Falls de Google Maps; el anterior quedaba más de 1,8 km desplazado del recinto real.",
+      "when": "Llegar de día y preguntar por el estado de los senderos, el camping y cualquier restricción ceremonial.",
+      "skip": "No entrar en la cueva o tras la cortina con caudal fuerte ni ignorar las indicaciones de custodios y señalización."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chishimba_Falls_-_Zambia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chishimba_Falls_-_Zambia.jpg",
+        "credit": "Emma Nawakwi · CC BY-SA 4.0",
+        "caption": "Vista amplia de Chishimba Falls cerca de Kasama."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chisimba_Falls.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chisimba_Falls.JPG",
+        "credit": "Dkracht · CC BY-SA 3.0",
+        "caption": "El salto principal de Chishimba desde otro ángulo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mutumuna_falls_Northern_Zambia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mutumuna_falls_Northern_Zambia.jpg",
+        "credit": "Sheenasitwala · CC BY-SA 4.0",
+        "caption": "Mutumuna, el primer tramo del conjunto de tres caídas."
+      }
+    ]
   },
   {
     "n": 13,
@@ -210,31 +606,97 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2–3 noches",
-    "lat": -8.7667,
-    "lon": 31.1167,
-    "desc": "El lago más largo del mundo y el segundo más profundo, con agua transparente, cíclidos endémicos de colores y playas de arena en la orilla zambiana. Mpulungu es el único puerto del país y de aquí sale el histórico ferry MV Liemba hacia Tanzania. Buen sitio para parar varios días, nadar (con cuidado: hay cocodrilos en algunas zonas, preguntar siempre en el alojamiento) y descomprimir antes de la frontera.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Tanganyika.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20Tanganyika.jpg",
+    "lat": -8.7636704,
+    "lon": 31.1054087,
+    "desc": "Mpulungu es el puerto zambiano del Tanganyika y una base para playas y campamentos de la orilla sur. El pin marca el puerto real; el MV Liemba y cualquier travesía deben verificarse por separado, sin asumir calendario estable.",
+    "credit": "Sybryn · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Tanganyika_paradise_campsite.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Tanganyika_paradise_campsite.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · lago Tanganyika",
+        "url": "https://www.zambiatourism.com/destinations/lakes/lake-tanganyika/"
+      }
+    ],
+    "visit": {
+      "why": "Es la única gran pausa lacustre del país y permite ver la actividad portuaria que conecta el sur del Tanganyika.",
+      "see": "El puerto de Mpulungu y, en campamentos fuera de la ciudad, orillas claras, pesca artesanal y amaneceres sobre el lago.",
+      "access": "El pin se ha desplazado al objeto Mpulungu Harbour Corporation Ltd de Google Maps. Para playa o camping hay que navegar a la propiedad elegida, no al puerto industrial.",
+      "when": "Reservar dos noches solo con alojamiento de orilla confirmado; verificar viento, baño seguro y transporte antes de meterse al agua.",
+      "skip": "No contar con el MV Liemba sin billete y horario confirmados, ni nadar donde el alojamiento no descarte cocodrilos o corrientes."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Tanganyika_paradise_campsite.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Tanganyika_paradise_campsite.jpg",
+        "credit": "Sybryn · CC BY-SA 4.0",
+        "caption": "Campamento y orilla del lago Tanganyika en el norte de Zambia."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman_on_Lake_Tanganyika.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fisherman_on_Lake_Tanganyika.jpg",
+        "credit": "Worldtraveller · CC BY-SA 3.0",
+        "caption": "Pescador en la bahía de Mishemba, en la orilla zambiana del Tanganyika."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zambia_-Fishing_Lake_Tanganyika.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Zambia_-Fishing_Lake_Tanganyika.jpg",
+        "credit": "Thatlowdownwoman · CC BY-SA 4.0",
+        "caption": "Pesca artesanal en la orilla zambiana del lago."
+      }
+    ]
   },
   {
     "n": 14,
-    "name": "Cataratas de Kalambo (235 m)",
+    "name": "Cataratas de Kalambo (221 m)",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con correa",
     "time": "1 día",
-    "lat": -8.6,
-    "lon": 31.2333,
-    "desc": "Caída libre de 221-235 m sobre la frontera con Tanzania, la SEGUNDA CASCADA CONTINUA MÁS ALTA DE ÁFRICA, cayendo a una garganta boscosa sobre el valle del Tanganyika. Además es uno de los yacimientos arqueológicos más importantes del continente: se han datado restos de uso del fuego y herramientas de hace cientos de miles de años. Se llega a pie desde el lago (o en 4x4 por la meseta); sin vallas en el borde, correa corta y atención con el perro.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalambo%20Falls.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Kalambo%20Falls.jpg",
+    "lat": -8.5964195,
+    "lon": 31.2395497,
+    "desc": "El Kalambo cae unos 221 m junto a la frontera con Tanzania y comparte protagonismo con un yacimiento arqueológico excepcional. La aproximación final y el borde requieren prudencia; la visita debe hacerse con luz y pista confirmada.",
+    "credit": "Worldtraveller · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalambo_Falls.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kalambo_Falls.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "links": [
+      {
+        "label": "Zambia Tourism · Kalambo Falls",
+        "url": "https://www.zambiatourism.com/destinations/waterfalls/kalambo-falls/"
+      }
+    ],
+    "visit": {
+      "why": "Es una de las mayores caídas continuas del continente y un enclave arqueológico que ha cambiado la lectura de la tecnología humana temprana.",
+      "see": "El salto hacia la garganta, el río y el paisaje fronterizo; los restos arqueológicos no equivalen a un museo abierto permanente.",
+      "access": "El pin coincide con Kalambo Falls en Google Maps. Confirmar si se accede por la meseta o desde la orilla y no confiar en atajos del navegador.",
+      "when": "Con pista seca, luz y calzado firme; el volumen de agua varía y la niebla puede ocultar el fondo.",
+      "skip": "No acercarse al borde sin protección ni continuar por una pista no confirmada; con niebla densa la vista puede no justificar el desvío."
+    },
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalambo_Falls.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kalambo_Falls.jpg",
+        "credit": "Worldtraveller · CC BY-SA 3.0",
+        "caption": "La caída principal de Kalambo Falls desde el lado zambiano."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalambo_falls.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kalambo_falls.jpg",
+        "credit": "Kelvin Chidoti · CC BY-SA 4.0",
+        "caption": "Segunda vista del salto de Kalambo cerca de Mbala."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalambo_River_sunset.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kalambo_River_sunset.jpg",
+        "credit": "Charlotte E. T. Huyghe · CC BY 4.0",
+        "caption": "El río Kalambo al atardecer; completa la visita con el paisaje aguas abajo del salto."
+      }
+    ]
   }
 ]

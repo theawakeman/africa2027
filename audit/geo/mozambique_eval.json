@@ -1,0 +1,1677 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Lichinga y la meseta del Niassa",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -13.3128,
+  "lon": 35.2406,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lichinga",
+   "kind": "railway=station",
+   "lat": -13.31243,
+   "lon": 35.25184,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lichinga",
+    "kind": "place=city",
+    "lat": -13.29991,
+    "lon": 35.24586,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lichinga",
+    "kind": "railway=station",
+    "lat": -13.31243,
+    "lon": 35.25184,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lichinga Train Station",
+    "kind": "building=train_station",
+    "lat": -13.31255,
+    "lon": 35.25199,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Lago Niassa · Metangula, Cóbuè e islas",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -12.6892,
+  "lon": 34.8181,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Malawi / Lago Niassa",
+   "kind": "water=lake",
+   "lat": -11.96065,
+   "lon": 34.50156,
+   "d": 88.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Malawi / Lago Niassa",
+    "kind": "water=lake",
+    "lat": -11.96065,
+    "lon": 34.50156,
+    "d": 88.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lago",
+    "kind": "boundary=administrative",
+    "lat": -12.33669,
+    "lon": 34.93214,
+    "d": 41.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Governo Distrital do Lago",
+    "kind": "amenity=townhall",
+    "lat": -12.70083,
+    "lon": 34.80826,
+    "d": 1.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Reserva Especial de Niassa (EXCLUIDA por seguridad)",
+  "cat": "Referencia · conflicto",
+  "clase": "area",
+  "lat": -12.1667,
+  "lon": 37.5,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Reserva de Niassa HQ",
+   "kind": "building=yes",
+   "lat": -12.17058,
+   "lon": 37.54745,
+   "d": 5.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Reserva do Niassa",
+    "kind": "boundary=national_park",
+    "lat": -12.01144,
+    "lon": 37.37746,
+    "d": 21.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Reserva do Niassa",
+    "kind": "leisure=nature_reserve",
+    "lat": -12.01144,
+    "lon": 37.37746,
+    "d": 21.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Reserva de Niassa HQ",
+    "kind": "building=yes",
+    "lat": -12.17058,
+    "lon": 37.54745,
+    "d": 5.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Cuamba y el ferrocarril de Nacala",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -14.8036,
+  "lon": 36.5372,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cuamba",
+   "kind": "place=town",
+   "lat": -14.798,
+   "lon": 36.53987,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cuamba",
+    "kind": "boundary=administrative",
+    "lat": -14.74863,
+    "lon": 36.59746,
+    "d": 8.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cuamba",
+    "kind": "place=town",
+    "lat": -14.798,
+    "lon": 36.53987,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cuamba",
+    "kind": "boundary=administrative",
+    "lat": -14.60997,
+    "lon": 36.35542,
+    "d": 29.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Gurué, el monte Namuli y las plantaciones de té",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -15.4667,
+  "lon": 36.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Monte Namuli",
+   "kind": "natural=peak",
+   "lat": -15.35683,
+   "lon": 37.05979,
+   "d": 14.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Monte Namuli",
+    "kind": "natural=peak",
+    "lat": -15.35683,
+    "lon": 37.05979,
+    "d": 14.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Nampula",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -15.1165,
+  "lon": 39.2666,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Nampula",
+   "kind": "capital de la provincia de Nampula en Mozambique",
+   "lat": -15.11667,
+   "lon": 39.26667,
+   "d": 0.0,
+   "match": true,
+   "id": "Q323801"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nampula",
+    "kind": "place=city",
+    "lat": -15.11941,
+    "lon": 39.26159,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nampula",
+    "kind": "place=state",
+    "lat": -14.96697,
+    "lon": 39.27078,
+    "d": 16.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nampula",
+    "kind": "railway=station",
+    "lat": -15.11336,
+    "lon": 39.26626,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Provincia de Nampula",
+    "kind": "provincia de Mozambique",
+    "lat": -15.25,
+    "lon": 39.5,
+    "d": 29.1,
+    "match": true,
+    "id": "Q622794"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Ilha de Moçambique (Patrimonio de la Humanidad)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -15.0347,
+  "lon": 40.7358,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ilha de Moçambique",
+   "kind": "place=island",
+   "lat": -15.03776,
+   "lon": 40.73209,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ilha de Moçambique",
+    "kind": "place=island",
+    "lat": -15.03776,
+    "lon": 40.73209,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ilha de Moçambique",
+    "kind": "boundary=administrative",
+    "lat": -15.05441,
+    "lon": 40.62599,
+    "d": 12.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ilha de Mocambique",
+    "kind": "place=town",
+    "lat": -15.03935,
+    "lon": 40.73167,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Chocas-Mar, las Cabaceiras y la bahía de Mossuril",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -14.9667,
+  "lon": 40.6167,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Pemba y el archipiélago de las Quirimbas (EXCLUIDOS)",
+  "cat": "Referencia · conflicto",
+  "clase": "area",
+  "lat": -12.974,
+  "lon": 40.5178,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Pemba",
+   "kind": "place=city",
+   "lat": -12.97356,
+   "lon": 40.52151,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pemba",
+    "kind": "place=city",
+    "lat": -12.97356,
+    "lon": 40.52151,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pemba RTO",
+    "kind": "office=ngo",
+    "lat": -12.9626,
+    "lon": 40.51455,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pemba Mall",
+    "kind": "shop=mall",
+    "lat": -12.9854,
+    "lon": 40.54063,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Quelimane",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -17.8786,
+  "lon": 36.8883,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Quelimane",
+   "kind": "place=city",
+   "lat": -17.87751,
+   "lon": 36.89022,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Quelimane",
+    "kind": "place=city",
+    "lat": -17.87751,
+    "lon": 36.89022,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Quelimane",
+    "kind": "place=village",
+    "lat": -12.34324,
+    "lon": 40.1823,
+    "d": 709.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Quelimane",
+    "kind": "place=village",
+    "lat": -11.23264,
+    "lon": 40.27289,
+    "d": 823.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Caia y el puente del Zambeze",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -17.8286,
+  "lon": 35.3336,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Caia",
+   "kind": "place=town",
+   "lat": -17.82771,
+   "lon": 35.34065,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Caia",
+    "kind": "boundary=administrative",
+    "lat": -17.79819,
+    "lon": 35.08842,
+    "d": 26.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Caia",
+    "kind": "place=town",
+    "lat": -17.82771,
+    "lon": 35.34065,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Caia",
+    "kind": "railway=station",
+    "lat": -17.81944,
+    "lon": 35.33796,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Tete, Cahora Bassa y el puente colgante",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -16.1564,
+  "lon": 33.5867,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Cahora Bassa Dam",
+   "kind": "waterway=dam",
+   "lat": -15.58545,
+   "lon": 32.70454,
+   "d": 113.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cahora-Bassa",
+    "kind": "boundary=administrative",
+    "lat": -16.07966,
+    "lon": 32.44224,
+    "d": 122.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lago de Cahora Bassa",
+    "kind": "water=reservoir",
+    "lat": -15.73676,
+    "lon": 32.06916,
+    "d": 168.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cahora Bassa Dam",
+    "kind": "waterway=dam",
+    "lat": -15.58545,
+    "lon": 32.70454,
+    "d": 113.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Parque Nacional de Gorongosa",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -18.9814,
+  "lon": 34.3517,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Parque Nacional da Gorongosa",
+   "kind": "tourism=attraction",
+   "lat": -18.9417,
+   "lon": 34.39423,
+   "d": 6.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Parque Nacional da Gorongosa",
+    "kind": "tourism=attraction",
+    "lat": -18.9417,
+    "lon": 34.39423,
+    "d": 6.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parque Nacional da Gorongosa",
+    "kind": "boundary=protected_area",
+    "lat": -18.82695,
+    "lon": 34.46168,
+    "d": 20.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Monte Gorongosa y las cascadas de Murombodzi",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -18.4333,
+  "lon": 34.0667,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Beira",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -19.8437,
+  "lon": 34.8389,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Beira",
+   "kind": "place=city",
+   "lat": -19.83407,
+   "lon": 34.83581,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Beira",
+    "kind": "place=city",
+    "lat": -19.83407,
+    "lon": 34.83581,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Beira",
+    "kind": "railway=station",
+    "lat": -19.82455,
+    "lon": 34.83856,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pensão Matacuane",
+    "kind": "tourism=alpine_hut",
+    "lat": -19.83412,
+    "lon": 34.86585,
+    "d": 3.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Chimoio, Manica y el arte rupestre de Chinhamapere",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -19.1164,
+  "lon": 33.4833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Chimoio",
+   "kind": "place=city",
+   "lat": -19.14375,
+   "lon": 33.47801,
+   "d": 3.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chimoio",
+    "kind": "place=city",
+    "lat": -19.14375,
+    "lon": 33.47801,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aeroporto Chimoio",
+    "kind": "aeroway=aerodrome",
+    "lat": -19.15047,
+    "lon": 33.42909,
+    "d": 6.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Manica Shopping Centre",
+    "kind": "landuse=retail",
+    "lat": -19.11686,
+    "lon": 33.47956,
+    "d": 0.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Reserva Nacional de Chimanimani y el monte Binga (2.436 m)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -19.7647,
+  "lon": 33.0619,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Acampamento de Namurrua - Reserva Nacional do Gilé",
+   "kind": "office=government",
+   "lat": -16.30666,
+   "lon": 38.24204,
+   "d": 669.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Acampamento de Namurrua - Reserva Nacional do Gilé",
+    "kind": "office=government",
+    "lat": -16.30666,
+    "lon": 38.24204,
+    "d": 669.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Acampamento de Etaga - Reserva Nacional do Gilé",
+    "kind": "office=government",
+    "lat": -16.40533,
+    "lon": 38.52639,
+    "d": 687.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Reserva do Niassa",
+    "kind": "leisure=nature_reserve",
+    "lat": -12.01144,
+    "lon": 37.37746,
+    "d": 977.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Inhassoro y la península de San Sebastián",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -21.5333,
+  "lon": 35.2,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Inhassoro",
+   "kind": "place=town",
+   "lat": -21.53528,
+   "lon": 35.20419,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Inhassoro",
+    "kind": "boundary=administrative",
+    "lat": -21.71804,
+    "lon": 34.84269,
+    "d": 42.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Inhassoro",
+    "kind": "place=town",
+    "lat": -21.53528,
+    "lon": 35.20419,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Inhassoro",
+    "kind": "boundary=administrative",
+    "lat": -21.71804,
+    "lon": 34.84269,
+    "d": 42.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Vilanculos y el archipiélago de Bazaruto",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -22.0027,
+  "lon": 35.3133,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Vilanculos",
+   "kind": "district in Inhambane, Mozambique",
+   "lat": -22.0,
+   "lon": 35.31667,
+   "d": 0.5,
+   "match": true,
+   "id": "Q6316575"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Vilanculos",
+    "kind": "place=town",
+    "lat": -21.999,
+    "lon": 35.32048,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Vilanculos Camping",
+    "kind": "tourism=camp_site",
+    "lat": -21.99254,
+    "lon": 35.32444,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Vilanculos Beach Lodge",
+    "kind": "building=yes",
+    "lat": -21.96556,
+    "lon": 35.31154,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Vilanculos",
+    "kind": "district in Inhambane, Mozambique",
+    "lat": -22.0,
+    "lon": 35.31667,
+    "d": 0.5,
+    "match": true,
+    "id": "Q6316575"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Tofo, Barra e Inhambane",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -23.8544,
+  "lon": 35.5453,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Barraca da Lixeira",
+   "kind": "amenity=bar",
+   "lat": -23.86153,
+   "lon": 35.54497,
+   "d": 0.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tofo Earth lodge",
+    "kind": "tourism=hotel",
+    "lat": -23.82738,
+    "lon": 35.53404,
+    "d": 3.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Barraca da Lixeira",
+    "kind": "amenity=bar",
+    "lat": -23.86153,
+    "lon": 35.54497,
+    "d": 0.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Barraca da Lixeira",
+    "kind": "tourism=motel",
+    "lat": -23.86182,
+    "lon": 35.54513,
+    "d": 0.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Maputo",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -25.9692,
+  "lon": 32.5732,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Maputo",
+   "kind": "place=city",
+   "lat": -25.96621,
+   "lon": 32.56745,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Maputo",
+    "kind": "place=city",
+    "lat": -25.96621,
+    "lon": 32.56745,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maputo",
+    "kind": "place=state",
+    "lat": -25.54452,
+    "lon": 32.45788,
+    "d": 48.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maputo Central Railway Station",
+    "kind": "railway=station",
+    "lat": -25.97084,
+    "lon": 32.56416,
+    "d": 0.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Ponta do Ouro, Ponta Malongane y el Parque Nacional de Maputo",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -26.8433,
+  "lon": 32.8917,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ponta do Ouro",
+   "kind": "place=town",
+   "lat": -26.84051,
+   "lon": 32.88305,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ponta do Ouro",
+    "kind": "place=town",
+    "lat": -26.84051,
+    "lon": 32.88305,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aeroporto de Ponta do Ouro",
+    "kind": "aeroway=aerodrome",
+    "lat": -26.82855,
+    "lon": 32.83771,
+    "d": 5.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ponta do Ouro",
+    "kind": "highway=bus_stop",
+    "lat": -26.84088,
+    "lon": 32.86104,
+    "d": 3.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada RECOMENDADA — Matchedje / Puente de la Unidad 2 (desde Tanzania)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -11.58,
+  "lon": 35.4295,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Matchedje",
+   "kind": "place=village",
+   "lat": -11.59938,
+   "lon": 35.43996,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Matchedje",
+    "kind": "place=village",
+    "lat": -11.59938,
+    "lon": 35.43996,
+    "d": 2.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matchedje",
+    "kind": "boundary=administrative",
+    "lat": -11.72104,
+    "lon": 35.80567,
+    "d": 43.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matchedje",
+    "kind": "building=yes",
+    "lat": -25.77259,
+    "lon": 32.63605,
+    "d": 1605.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Entrada DESCARTADA — Negomano/Mtambaswala (Puente de la Unidad 1)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -11.4193,
+  "lon": 38.4962,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Negomano",
+   "kind": "place=village",
+   "lat": -11.42517,
+   "lon": 38.49103,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Negomano",
+    "kind": "boundary=administrative",
+    "lat": -11.52921,
+    "lon": 38.65944,
+    "d": 21.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Negomano",
+    "kind": "place=village",
+    "lat": -11.42517,
+    "lon": 38.49103,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centro de Saude de Negomano",
+    "kind": "amenity=clinic",
+    "lat": -11.66314,
+    "lon": 39.55359,
+    "d": 118.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada DESCARTADA — Kilambo/Namoto (barcaza del Rovuma)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -10.47,
+  "lon": 40.44,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kilambo Primary School",
+   "kind": "amenity=school",
+   "lat": -10.49546,
+   "lon": 40.34469,
+   "d": 10.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kilambo Primary School",
+    "kind": "amenity=school",
+    "lat": -10.49546,
+    "lon": 40.34469,
+    "d": 10.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Kilambo",
+    "kind": "amenity=school",
+    "lat": -10.49547,
+    "lon": 40.34473,
+    "d": 10.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Entrada ALTERNATIVA — Zóbuè/Mwanza (desde Malaui)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -15.6136,
+  "lon": 34.3856,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Zóbue",
+   "kind": "place=town",
+   "lat": -15.58967,
+   "lon": 34.43926,
+   "d": 6.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Zóbue",
+    "kind": "place=town",
+    "lat": -15.58967,
+    "lon": 34.43926,
+    "d": 6.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Estrada Zobue",
+    "kind": "highway=trunk",
+    "lat": -16.00469,
+    "lon": 33.96046,
+    "d": 62.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Paragem Zobue",
+    "kind": "highway=trunk",
+    "lat": -16.11582,
+    "lon": 33.74418,
+    "d": 88.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Salida — Machipanda/Forbes (hacia Zimbabue)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -19.0059,
+  "lon": 32.7171,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Centro de Saude de Machipanda",
+   "kind": "amenity=clinic",
+   "lat": -18.99571,
+   "lon": 32.72678,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Machipanda",
+    "kind": "place=town",
+    "lat": -18.99215,
+    "lon": 32.7325,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Machipanda",
+    "kind": "railway=station",
+    "lat": -18.99213,
+    "lon": 32.72827,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Centro de Saude de Machipanda",
+    "kind": "amenity=clinic",
+    "lat": -18.99571,
+    "lon": 32.72678,
+    "d": 1.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Maputo",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -25.97,
+  "lon": 32.585,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Embaixada da Espanha",
+   "kind": "office=diplomatic",
+   "lat": -25.95961,
+   "lon": 32.59905,
+   "d": 1.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embaixada da Espanha",
+    "kind": "office=diplomatic",
+    "lat": -25.95961,
+    "lon": 32.59905,
+    "d": 1.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Hospital Central de Maputo",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -25.9575,
+  "lon": 32.5789,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hospital Central de Maputo",
+   "kind": "amenity=hospital",
+   "lat": -25.96917,
+   "lon": 32.58872,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hospital Central de Maputo",
+    "kind": "amenity=hospital",
+    "lat": -25.96917,
+    "lon": 32.58872,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hospital Central",
+    "kind": "highway=bus_stop",
+    "lat": -25.97056,
+    "lon": 32.58792,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hospital dos CFM",
+    "kind": "building=office",
+    "lat": -25.97222,
+    "lon": 32.56573,
+    "d": 2.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Hospital Central de Nampula",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -15.1165,
+  "lon": 39.2666,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Central Hospital Nampula",
+   "kind": "amenity=hospital",
+   "lat": -15.12346,
+   "lon": 39.26128,
+   "d": 1.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Central Hospital Nampula",
+    "kind": "amenity=hospital",
+    "lat": -15.12346,
+    "lon": 39.26128,
+    "d": 1.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hospital Rural de Angoche",
+    "kind": "amenity=hospital",
+    "lat": -16.22889,
+    "lon": 39.90726,
+    "d": 141.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hospital Central da Beira",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -19.8437,
+  "lon": 34.8389,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hospital Central da Beira",
+   "kind": "amenity=hospital",
+   "lat": -19.84971,
+   "lon": 34.87397,
+   "d": 3.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hospital Central da Beira",
+    "kind": "amenity=hospital",
+    "lat": -19.84971,
+    "lon": 34.87397,
+    "d": 3.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Beira Central Hospital",
+    "kind": "amenity=hospital",
+    "lat": -19.85082,
+    "lon": 34.87402,
+    "d": 3.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Lichinga (norte)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -13.3128,
+  "lon": 35.2406,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lichinga",
+   "kind": "railway=station",
+   "lat": -13.31243,
+   "lon": 35.25184,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lichinga",
+    "kind": "place=city",
+    "lat": -13.29991,
+    "lon": 35.24586,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lichinga",
+    "kind": "railway=station",
+    "lat": -13.31243,
+    "lon": 35.25184,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lichinga Train Station",
+    "kind": "building=train_station",
+    "lat": -13.31255,
+    "lon": 35.25199,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Cuamba y Nampula",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -14.8036,
+  "lon": 36.5372,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cuamba",
+   "kind": "place=town",
+   "lat": -14.798,
+   "lon": 36.53987,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cuamba",
+    "kind": "boundary=administrative",
+    "lat": -14.74863,
+    "lon": 36.59746,
+    "d": 8.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cuamba",
+    "kind": "place=town",
+    "lat": -14.798,
+    "lon": 36.53987,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cuamba",
+    "kind": "boundary=administrative",
+    "lat": -14.60997,
+    "lon": 36.35542,
+    "d": 29.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Quelimane, Caia y Beira (centro)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -17.8286,
+  "lon": 35.3336,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Quelimane",
+   "kind": "place=city",
+   "lat": -17.87751,
+   "lon": 36.89022,
+   "d": 164.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Quelimane",
+    "kind": "place=city",
+    "lat": -17.87751,
+    "lon": 36.89022,
+    "d": 164.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Quelimane",
+    "kind": "place=village",
+    "lat": -12.34324,
+    "lon": 40.1823,
+    "d": 801.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Quelimane",
+    "kind": "place=village",
+    "lat": -11.23264,
+    "lon": 40.27289,
+    "d": 905.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Vilanculos, Inhambane y Maputo (sur)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -22.0027,
+  "lon": 35.3133,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Vilanculos",
+   "kind": "district in Inhambane, Mozambique",
+   "lat": -22.0,
+   "lon": 35.31667,
+   "d": 0.5,
+   "match": true,
+   "id": "Q6316575"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Vilanculos",
+    "kind": "place=town",
+    "lat": -21.999,
+    "lon": 35.32048,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Vilanculos Camping",
+    "kind": "tourism=camp_site",
+    "lat": -21.99254,
+    "lon": 35.32444,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Vilanculos Beach Lodge",
+    "kind": "building=yes",
+    "lat": -21.96556,
+    "lon": 35.31154,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Vilanculos",
+    "kind": "district in Inhambane, Mozambique",
+    "lat": -22.0,
+    "lon": 35.31667,
+    "d": 0.5,
+    "match": true,
+    "id": "Q6316575"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Agua potable y de uso general · Nampula, Beira, Vilanculos y Maputo",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -19.8437,
+  "lon": 34.8389,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Nampula",
+   "kind": "place=city",
+   "lat": -15.11941,
+   "lon": 39.26159,
+   "d": 704.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nampula",
+    "kind": "place=state",
+    "lat": -14.96697,
+    "lon": 39.27078,
+    "d": 717.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nampula",
+    "kind": "place=city",
+    "lat": -15.11941,
+    "lon": 39.26159,
+    "d": 704.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nampula",
+    "kind": "railway=station",
+    "lat": -15.11336,
+    "lon": 39.26626,
+    "d": 705.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Provincia de Nampula",
+    "kind": "provincia de Mozambique",
+    "lat": -15.25,
+    "lon": 39.5,
+    "d": 710.6,
+    "match": true,
+    "id": "Q622794"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Agua · costa de Inhambane y Ponta do Ouro",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -23.8544,
+  "lon": 35.5453,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Inhambane",
+   "kind": "aeroway=aerodrome",
+   "lat": -23.87669,
+   "lon": 35.40851,
+   "d": 14.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Inhambane",
+    "kind": "place=city",
+    "lat": -23.86596,
+    "lon": 35.38436,
+    "d": 16.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Inhambane",
+    "kind": "aeroway=aerodrome",
+    "lat": -23.87669,
+    "lon": 35.40851,
+    "d": 14.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Inhambane",
+    "kind": "place=state",
+    "lat": -22.77912,
+    "lon": 34.56617,
+    "d": 155.9,
+    "match": true
+   }
+  ]
+ }
+]

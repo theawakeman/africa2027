@@ -1,0 +1,1975 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Lago Ngozi · cráter de los Poroto",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -9.0081,
+  "lon": 33.5531,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Centro de Saude de Ngofi",
+   "kind": "amenity=clinic",
+   "lat": -12.01298,
+   "lon": 34.90158,
+   "d": 365.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Centro de Saude de Ngofi",
+    "kind": "amenity=clinic",
+    "lat": -12.01298,
+    "lon": 34.90158,
+    "d": 365.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Parque Nacional de Kitulo · el «Serengeti de las flores»",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -9.05,
+  "lon": 33.8333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kitulo National Park Entrance Gate",
+   "kind": "amenity=parking",
+   "lat": -9.02495,
+   "lon": 33.90524,
+   "d": 8.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kitulo National Park Entrance Gate",
+    "kind": "amenity=parking",
+    "lat": -9.02495,
+    "lon": 33.90524,
+    "d": 8.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kitulo National Park Entrance Gate",
+    "kind": "building=yes",
+    "lat": -9.02491,
+    "lon": 33.90542,
+    "d": 8.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kitulo National Park Headquarters",
+    "kind": "office=government",
+    "lat": -8.98643,
+    "lon": 33.93565,
+    "d": 13.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Parque Nacional de Katavi (el oeste salvaje)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -6.8833,
+  "lon": 31.1667,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Katavi National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -6.98504,
+   "lon": 31.29829,
+   "d": 18.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Katavi National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -6.98504,
+    "lon": 31.29829,
+    "d": 18.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "National Housing Appartments Ilembo",
+    "kind": "tourism=apartment",
+    "lat": -6.38056,
+    "lon": 31.07089,
+    "d": 56.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Kigoma y Ujiji · «Dr. Livingstone, I presume?»",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.8769,
+  "lon": 29.6267,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Shule ya Msingi Kigoma",
+   "kind": "amenity=school",
+   "lat": -4.87847,
+   "lon": 29.6318,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Ujiji",
+    "kind": "amenity=school",
+    "lat": -4.90896,
+    "lon": 29.67136,
+    "d": 6.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mviwata Wilaya ya Kigoma (Mtandao Wa Vikundi vya Wakulima Tanzania)",
+    "kind": "amenity=community_centre",
+    "lat": -4.89103,
+    "lon": 29.64746,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Kigoma",
+    "kind": "amenity=school",
+    "lat": -4.87847,
+    "lon": 29.6318,
+    "d": 0.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Mahale Mountains y Gombe Stream · chimpancés",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -6.1,
+  "lon": 29.7667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mahale Mountains National Park Headquarters",
+   "kind": "office=government",
+   "lat": -6.03483,
+   "lon": 29.74179,
+   "d": 7.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mahale Mountains National Park Headquarters",
+    "kind": "office=government",
+    "lat": -6.03483,
+    "lon": 29.74179,
+    "d": 7.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mahale Mountains National Park Headquarters",
+    "kind": "amenity=ranger_station",
+    "lat": -6.03483,
+    "lon": 29.74179,
+    "d": 7.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mahale Mountains National Park Harbor",
+    "kind": "leisure=marina",
+    "lat": -6.03505,
+    "lon": 29.74109,
+    "d": 7.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Parque Nacional de Ruaha (el mayor del país)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -7.6833,
+  "lon": 34.8167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ruaha National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -7.80165,
+   "lon": 34.37301,
+   "d": 50.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ruaha National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -7.80165,
+    "lon": 34.37301,
+    "d": 50.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Udzungwa Mountains · cascadas de Sanje",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -7.8436,
+  "lon": 36.8833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Udzungwa Mountains National Park Campsite",
+   "kind": "tourism=camp_site",
+   "lat": -8.10399,
+   "lon": 36.3252,
+   "d": 67.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Udzungwa Mountains National Park Campsite",
+    "kind": "tourism=camp_site",
+    "lat": -8.10399,
+    "lon": 36.3252,
+    "d": 67.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Isimila · yacimiento de la Edad de Piedra e Iringa",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -7.9167,
+  "lon": 35.6,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Isimila Stoneage Walk",
+   "kind": "highway=path",
+   "lat": -7.89715,
+   "lon": 35.6047,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Isimila Stoneage Walk",
+    "kind": "highway=path",
+    "lat": -7.89715,
+    "lon": 35.6047,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Isimila Stone Age Site",
+    "kind": "tourism=museum",
+    "lat": -7.89603,
+    "lon": 35.60342,
+    "d": 2.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Isimila African Garden",
+    "kind": "amenity=restaurant",
+    "lat": -7.8929,
+    "lon": 35.60394,
+    "d": 2.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Parque Nacional de Tarangire · los baobabs",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -3.6833,
+  "lon": 35.9667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tarangire National Park Headquarters",
+   "kind": "landuse=residential",
+   "lat": -3.74957,
+   "lon": 35.97105,
+   "d": 7.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tarangire National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -4.12485,
+    "lon": 36.08568,
+    "d": 50.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tarangire National Park Headquarters",
+    "kind": "landuse=residential",
+    "lat": -3.74957,
+    "lon": 35.97105,
+    "d": 7.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tarangire National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -4.17638,
+    "lon": 35.50408,
+    "d": 75.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Parque Nacional del lago Manyara",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -3.5833,
+  "lon": 35.825,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Manyara National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -3.58302,
+   "lon": 35.78124,
+   "d": 4.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Manyara National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -3.58302,
+    "lon": 35.78124,
+    "d": 4.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Manyara National Park",
+    "kind": "tourism=attraction",
+    "lat": -3.70536,
+    "lon": 35.73087,
+    "d": 17.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Manyara National Park - North Gate",
+    "kind": "tourism=attraction",
+    "lat": -3.3733,
+    "lon": 35.83635,
+    "d": 23.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Cráter del Ngorongoro",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -3.2,
+  "lon": 35.5,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "&Beyond Ngorongoro Crater Lodge",
+   "kind": "tourism=hotel",
+   "lat": -3.23945,
+   "lon": 35.49809,
+   "d": 4.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ngorongoro Crater",
+    "kind": "natural=ridge",
+    "lat": -3.17663,
+    "lon": 35.57881,
+    "d": 9.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "&Beyond Ngorongoro Crater Lodge",
+    "kind": "tourism=hotel",
+    "lat": -3.23945,
+    "lon": 35.49809,
+    "d": 4.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Crater View Point",
+    "kind": "highway=pedestrian",
+    "lat": -3.26438,
+    "lon": 35.57387,
+    "d": 10.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Garganta de Olduvai (Oldupai)",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -2.9917,
+  "lon": 35.35,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Oldupai butchery",
+   "kind": "shop=butcher",
+   "lat": -1.61497,
+   "lon": 35.39115,
+   "d": 153.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Oldupai butchery",
+    "kind": "shop=butcher",
+    "lat": -1.61497,
+    "lon": 35.39115,
+    "d": 153.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Oluvimu Road",
+    "kind": "highway=service",
+    "lat": -1.31449,
+    "lon": 36.82959,
+    "d": 248.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Parque Nacional del Serengeti",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": -2.4333,
+  "lon": 34.8333,
+  "veredicto": "AREA",
+  "ref": {
+   "src": "osm",
+   "name": "Serengeti National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -2.37129,
+   "lon": 34.69838,
+   "d": 16.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Serengeti National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -2.37129,
+    "lon": 34.69838,
+    "d": 16.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serengeti National Park",
+    "kind": "information=guidepost",
+    "lat": -1.6639,
+    "lon": 35.21786,
+    "d": 95.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Serengeti national park",
+    "kind": "shop=convenience",
+    "lat": -2.13707,
+    "lon": 33.87141,
+    "d": 111.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Lago Natron y Engare Sero",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -2.45,
+  "lon": 36.0167,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Shule ya Msingi Engaresero",
+   "kind": "amenity=school",
+   "lat": -2.6107,
+   "lon": 35.87801,
+   "d": 23.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Engaresero",
+    "kind": "amenity=school",
+    "lat": -2.6107,
+    "lon": 35.87801,
+    "d": 23.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Ol Doinyo Lengai · la montaña de Dios (2.962 m)",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -2.7642,
+  "lon": 35.9142,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ol Doinyo Lengai (highest point crater rim)",
+   "kind": "natural=peak",
+   "lat": -2.76051,
+   "lon": 35.91455,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ol Doinyo Lengai",
+    "kind": "natural=volcano",
+    "lat": -2.75955,
+    "lon": 35.91409,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ol Doinyo Lengai (highest point crater rim)",
+    "kind": "natural=peak",
+    "lat": -2.76051,
+    "lon": 35.91455,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ol Doinyo Lengai Hiking Path Rim Trail",
+    "kind": "highway=path",
+    "lat": -2.75937,
+    "lon": 35.9141,
+    "d": 0.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Arusha y el monte Meru (4.562 m)",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -3.3869,
+  "lon": 36.683,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Arusha",
+   "kind": "place=city",
+   "lat": -3.36968,
+   "lon": 36.68808,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "place=city",
+    "lat": -3.36968,
+    "lon": 36.68808,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "boundary=administrative",
+    "lat": -3.52387,
+    "lon": 36.80042,
+    "d": 20.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "place=state",
+    "lat": -2.71706,
+    "lon": 35.68125,
+    "d": 133.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Kilimanjaro (5.895 m) · decisión de presupuesto",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -3.0674,
+  "lon": 37.3556,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kilimanjaro",
+   "kind": "natural=massif",
+   "lat": -3.07865,
+   "lon": 37.41986,
+   "d": 7.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kilimanjaro",
+    "kind": "natural=massif",
+    "lat": -3.07865,
+    "lon": 37.41986,
+    "d": 7.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kilimanjaro",
+    "kind": "place=state",
+    "lat": -3.47628,
+    "lon": 37.38726,
+    "d": 45.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kilimanjaro",
+    "kind": "place=village",
+    "lat": -3.33769,
+    "lon": 37.32679,
+    "d": 30.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Tanga y las cuevas de Amboni",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -5.0689,
+  "lon": 39.0989,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tanga",
+   "kind": "place=city",
+   "lat": -5.0722,
+   "lon": 39.09935,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tanga",
+    "kind": "place=city",
+    "lat": -5.0722,
+    "lon": 39.09935,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tanga",
+    "kind": "place=state",
+    "lat": -5.20213,
+    "lon": 38.22755,
+    "d": 97.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tanga",
+    "kind": "railway=station",
+    "lat": -5.07441,
+    "lon": 39.09984,
+    "d": 0.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Montes Usambara occidentales (Lushoto)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -4.7833,
+  "lon": 38.2833,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Pangani y el Parque Nacional de Saadani",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -5.4264,
+  "lon": 38.9803,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Pangani",
+   "kind": "place=town",
+   "lat": -5.42438,
+   "lon": 38.97713,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pangani",
+    "kind": "place=town",
+    "lat": -5.42438,
+    "lon": 38.97713,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pangani",
+    "kind": "boundary=administrative",
+    "lat": -5.61795,
+    "lon": 38.82131,
+    "d": 27.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pangani",
+    "kind": "waterway=river",
+    "lat": -4.72686,
+    "lon": 38.01521,
+    "d": 132.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Bagamoyo y las ruinas de Kaole",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -6.44,
+  "lon": 38.9,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bagamoyo",
+   "kind": "place=town",
+   "lat": -6.44221,
+   "lon": 38.90622,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bagamoyo",
+    "kind": "place=town",
+    "lat": -6.44221,
+    "lon": 38.90622,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bagamoyo",
+    "kind": "boundary=administrative",
+    "lat": -6.44503,
+    "lon": 38.77469,
+    "d": 13.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bagamoyo",
+    "kind": "shop=carpet",
+    "lat": -6.76034,
+    "lon": 39.28069,
+    "d": 55.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Dar es Salaam",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -6.7924,
+  "lon": 39.2083,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Dar-es-Salaam War Cemetery",
+   "kind": "landuse=cemetery",
+   "lat": -6.77442,
+   "lon": 39.24429,
+   "d": 4.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dar es Salaam",
+    "kind": "place=city",
+    "lat": -6.81608,
+    "lon": 39.28036,
+    "d": 8.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dar es Salaam",
+    "kind": "railway=station",
+    "lat": -6.84641,
+    "lon": 39.24503,
+    "d": 7.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dar-es-Salaam War Cemetery",
+    "kind": "landuse=cemetery",
+    "lat": -6.77442,
+    "lon": 39.24429,
+    "d": 4.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-23",
+  "type": "poi",
+  "name": "Zanzíbar · Stone Town (decisión con perro)",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -6.1659,
+  "lon": 39.1917,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Zanzibar City مدينة زنجبار",
+   "kind": "place=city",
+   "lat": -6.16649,
+   "lon": 39.20743,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Zanzibar زنجبار",
+    "kind": "boundary=administrative",
+    "lat": -6.09997,
+    "lon": 39.32095,
+    "d": 16.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Zanzibar City مدينة زنجبار",
+    "kind": "place=city",
+    "lat": -6.16649,
+    "lon": 39.20743,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Unguja Mjini Magharibi",
+    "kind": "place=state",
+    "lat": -6.16539,
+    "lon": 39.2387,
+    "d": 5.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-24",
+  "type": "poi",
+  "name": "Parque Nacional de Nyerere (ex-Selous)",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -7.75,
+  "lon": 37.9,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Trans - National",
+   "kind": "amenity=bank",
+   "lat": -4.06537,
+   "lon": 39.67047,
+   "d": 454.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Trans - National",
+    "kind": "amenity=bank",
+    "lat": -4.06537,
+    "lon": 39.67047,
+    "d": 454.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "National housing",
+    "kind": "tourism=attraction",
+    "lat": -2.88124,
+    "lon": 32.29372,
+    "d": 823.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-25",
+  "type": "poi",
+  "name": "Kilwa Kisiwani y Songo Mnara",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -8.9578,
+  "lon": 39.5206,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Shule ya Msingi Songo Mnara",
+   "kind": "amenity=school",
+   "lat": -9.05472,
+   "lon": 39.59422,
+   "d": 13.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Songo Mnara",
+    "kind": "amenity=school",
+    "lat": -9.05472,
+    "lon": 39.59422,
+    "d": 13.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-26",
+  "type": "poi",
+  "name": "Mtwara, Lindi y la meseta makonde",
+  "cat": "Cultura",
+  "clase": "area",
+  "lat": -10.2667,
+  "lon": 40.1833,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Lindi Avenue",
+   "kind": "highway=residential",
+   "lat": -10.26169,
+   "lon": 40.16838,
+   "d": 1.7,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lindi Avenue",
+    "kind": "highway=residential",
+    "lat": -10.26169,
+    "lon": 40.16838,
+    "d": 1.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lindi Avenue",
+    "kind": "highway=path",
+    "lat": -10.31636,
+    "lon": 40.11905,
+    "d": 8.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Lindi Avenue",
+    "kind": "highway=unclassified",
+    "lat": -10.29925,
+    "lon": 40.12147,
+    "d": 7.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada interior — Tunduma/Nakonde (desde Zambia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -9.3,
+  "lon": 32.7667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Tunduma",
+   "kind": "place=city",
+   "lat": -9.31016,
+   "lon": 32.76752,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tunduma",
+    "kind": "place=city",
+    "lat": -9.31016,
+    "lon": 32.76752,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tunduma",
+    "kind": "boundary=administrative",
+    "lat": -9.31429,
+    "lon": 32.80655,
+    "d": 4.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tunduma",
+    "kind": "railway=station",
+    "lat": -9.31833,
+    "lon": 32.76776,
+    "d": 2.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida interior — Namanga (hacia Kenia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -2.545,
+  "lon": 36.7867,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Namanga",
+   "kind": "place=town",
+   "lat": -2.54501,
+   "lon": 36.78698,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Namanga",
+    "kind": "landuse=residential",
+    "lat": -2.54671,
+    "lon": 36.79744,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Namanga",
+    "kind": "place=town",
+    "lat": -2.54501,
+    "lon": 36.78698,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Namanga",
+    "kind": "waterway=river",
+    "lat": -2.54389,
+    "lon": 36.76639,
+    "d": 2.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Entrada costa — Horohoro/Lunga Lunga (desde Kenia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -4.6,
+  "lon": 39.1054,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Horohoro",
+   "kind": "place=village",
+   "lat": -4.60718,
+   "lon": 39.10281,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Horohoro",
+    "kind": "place=village",
+    "lat": -4.60718,
+    "lon": 39.10281,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Horohoro",
+    "kind": "amenity=school",
+    "lat": -4.62425,
+    "lon": 39.10007,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Salida costa (opción A) — Kilambo/Namoto, ferry del Rovuma",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -10.4667,
+  "lon": 40.4167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kilambo",
+   "kind": "place=village",
+   "lat": -7.76735,
+   "lon": 30.75919,
+   "d": 1101.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kilambo",
+    "kind": "place=village",
+    "lat": -0.73408,
+    "lon": 29.17866,
+    "d": 1647.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kilambo",
+    "kind": "place=village",
+    "lat": -7.76735,
+    "lon": 30.75919,
+    "d": 1101.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kilambo",
+    "kind": "place=village",
+    "lat": -6.98336,
+    "lon": 29.67322,
+    "d": 1242.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Salida costa (opción B) — Mtambaswala/Negomano, puente de la Unidad",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -11.4144,
+  "lon": 38.4942,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Shule ya Msingi Mtambalala",
+   "kind": "amenity=school",
+   "lat": -10.76065,
+   "lon": 37.00013,
+   "d": 178.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Mtambalala",
+    "kind": "amenity=school",
+    "lat": -10.76065,
+    "lon": 37.00013,
+    "d": 178.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Shule ya Msingi Mtambalala",
+    "kind": "amenity=school",
+    "lat": -5.80219,
+    "lon": 31.0738,
+    "d": 1026.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Dar es Salaam",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -6.79,
+  "lon": 39.26,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Cab De Gado Enterprises",
+   "kind": "shop=hardware",
+   "lat": -6.81688,
+   "lon": 39.27551,
+   "d": 3.4,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cab De Gado Enterprises",
+    "kind": "shop=hardware",
+    "lat": -6.81688,
+    "lon": 39.27551,
+    "d": 3.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Gab de gado enterprises",
+    "kind": "shop=hardware",
+    "lat": -6.81728,
+    "lon": 39.27619,
+    "d": 3.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Muhimbili National Hospital, Dar es Salaam",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -6.8083,
+  "lon": 39.2764,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Muhimbili National Hospital",
+   "kind": "building=hospital",
+   "lat": -6.80767,
+   "lon": 39.27196,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Muhimbili National Hospital",
+    "kind": "building=hospital",
+    "lat": -6.80767,
+    "lon": 39.27196,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Muhimbili National Hospital",
+    "kind": "building=hospital",
+    "lat": -6.80939,
+    "lon": 39.27226,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Muhimbili National Hospital",
+    "kind": "building=hospital",
+    "lat": -6.80929,
+    "lon": 39.27164,
+    "d": 0.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Clínicas privadas de Arusha",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -3.3869,
+  "lon": 36.683,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hospital de referencia · Mbeya",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -8.9,
+  "lon": 33.45,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Bulongwa Lutheran Hospital",
+   "kind": "amenity=hospital",
+   "lat": -9.32637,
+   "lon": 34.04006,
+   "d": 80.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bulongwa Lutheran Hospital",
+    "kind": "amenity=hospital",
+    "lat": -9.32637,
+    "lon": 34.04006,
+    "d": 80.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Nakonde District Hospital",
+    "kind": "amenity=hospital",
+    "lat": -9.35088,
+    "lon": 32.7037,
+    "d": 96.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Consolata Hospital Ikonda",
+    "kind": "building=yes",
+    "lat": -9.37024,
+    "lon": 34.23863,
+    "d": 101.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Mbwa Wa Africa · clínica veterinaria y refugio (Usa River, Arusha)",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -3.3667,
+  "lon": 36.85,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Usa River",
+   "kind": "place=town",
+   "lat": -3.3714,
+   "lon": 36.85822,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Usa River",
+    "kind": "place=town",
+    "lat": -3.3714,
+    "lon": 36.85822,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Usa River",
+    "kind": "waterway=river",
+    "lat": -3.36454,
+    "lon": 36.86323,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Usa River",
+    "kind": "waterway=river",
+    "lat": -3.50673,
+    "lon": 36.87664,
+    "d": 15.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Mbeya · base logística del sur",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -8.9,
+  "lon": 33.45,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Sumbawanga / Mpanda (eje del oeste)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -7.9667,
+  "lon": 31.6167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sumbawanga Urban",
+   "kind": "boundary=administrative",
+   "lat": -7.97786,
+   "lon": 31.62283,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sumbawanga",
+    "kind": "place=city",
+    "lat": -7.95239,
+    "lon": 31.62319,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sumbawanga Urban",
+    "kind": "boundary=administrative",
+    "lat": -7.97786,
+    "lon": 31.62283,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sumbawanga Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -7.94844,
+    "lon": 31.61108,
+    "d": 2.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Iringa",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -7.77,
+  "lon": 35.69,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Iringa",
+   "kind": "place=city",
+   "lat": -7.7789,
+   "lon": 35.69706,
+   "d": 1.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Iringa",
+    "kind": "place=city",
+    "lat": -7.7789,
+    "lon": 35.69706,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Iringa",
+    "kind": "place=state",
+    "lat": -7.77427,
+    "lon": 35.48263,
+    "d": 22.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Iringa",
+    "kind": "boundary=administrative",
+    "lat": -7.56621,
+    "lon": 35.07448,
+    "d": 71.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Dodoma · capital administrativa y nudo central",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -6.163,
+  "lon": 35.7516,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Combustible · Arusha / Moshi",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -3.3869,
+  "lon": 36.683,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Arusha",
+   "kind": "place=city",
+   "lat": -3.36968,
+   "lon": 36.68808,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "place=city",
+    "lat": -3.36968,
+    "lon": 36.68808,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "boundary=administrative",
+    "lat": -3.52387,
+    "lon": 36.80042,
+    "d": 20.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "place=state",
+    "lat": -2.71706,
+    "lon": 35.68125,
+    "d": 133.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Combustible · Karatu (puerta del Ngorongoro)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -3.3333,
+  "lon": 35.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Karatu",
+   "kind": "place=town",
+   "lat": -3.33866,
+   "lon": 35.67335,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Karatu",
+    "kind": "boundary=administrative",
+    "lat": -3.4902,
+    "lon": 35.56829,
+    "d": 20.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karatu",
+    "kind": "place=town",
+    "lat": -3.33866,
+    "lon": 35.67335,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karatu Ward",
+    "kind": "place=region",
+    "lat": -3.37484,
+    "lon": 35.68368,
+    "d": 5.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Cráter del Ngorongoro",
+    "kind": "inactive, intact and unfilled volcanic caldera",
+    "lat": -3.1776,
+    "lon": 35.5709,
+    "d": 20.3,
+    "match": true,
+    "id": "Q3002224"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Combustible · Tanga / Dar es Salaam (eje de la costa)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -5.0689,
+  "lon": 39.0989,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Tanga",
+   "kind": "ciudad portuaria en Tanzania",
+   "lat": -5.06667,
+   "lon": 39.1,
+   "d": 0.3,
+   "match": true,
+   "id": "Q152902"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tanga",
+    "kind": "place=city",
+    "lat": -5.0722,
+    "lon": 39.09935,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tanga",
+    "kind": "place=state",
+    "lat": -5.20213,
+    "lon": 38.22755,
+    "d": 97.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tanga",
+    "kind": "railway=station",
+    "lat": -5.07441,
+    "lon": 39.09984,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Tanga",
+    "kind": "ciudad portuaria en Tanzania",
+    "lat": -5.06667,
+    "lon": 39.1,
+    "d": 0.3,
+    "match": true,
+    "id": "Q152902"
+   }
+  ]
+ },
+ {
+  "id": "log-17",
+  "type": "log",
+  "name": "Combustible · Kibiti / Kilwa Masoko / Lindi / Mtwara (sur de la costa)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -8.9333,
+  "lon": 39.5167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kibiti",
+   "kind": "boundary=administrative",
+   "lat": -7.88371,
+   "lon": 39.20652,
+   "d": 121.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kibiti",
+    "kind": "boundary=administrative",
+    "lat": -7.88371,
+    "lon": 39.20652,
+    "d": 121.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kibiti",
+    "kind": "place=town",
+    "lat": -7.72143,
+    "lon": 38.93647,
+    "d": 149.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kibiti",
+    "kind": "highway=residential",
+    "lat": -6.80055,
+    "lon": 39.24642,
+    "d": 239.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kibiti",
+    "kind": "",
+    "lat": -7.72167,
+    "lon": 38.9375,
+    "d": 149.0,
+    "match": true,
+    "id": "Q35695687"
+   }
+  ]
+ },
+ {
+  "id": "log-18",
+  "type": "log",
+  "name": "Agua potable y de uso general · Arusha, Dar es Salaam, Mbeya",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -3.3869,
+  "lon": 36.683,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Arusha",
+   "kind": "place=city",
+   "lat": -3.36968,
+   "lon": 36.68808,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "place=city",
+    "lat": -3.36968,
+    "lon": 36.68808,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "boundary=administrative",
+    "lat": -3.52387,
+    "lon": 36.80042,
+    "d": 20.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Arusha",
+    "kind": "place=state",
+    "lat": -2.71706,
+    "lon": 35.68125,
+    "d": 133.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Arusha",
+    "kind": "ciudad del norte de Tanzania",
+    "lat": -3.36667,
+    "lon": 36.68333,
+    "d": 2.2,
+    "match": true,
+    "id": "Q4301"
+   }
+  ]
+ },
+ {
+  "id": "log-19",
+  "type": "log",
+  "name": "Agua · campings de los parques del norte",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -3.2,
+  "lon": 35.5,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-20",
+  "type": "log",
+  "name": "Agua · lago Natron y corredor del oeste",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -2.45,
+  "lon": 36.0167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Natron",
+   "kind": "water=lake",
+   "lat": -2.34802,
+   "lon": 36.02615,
+   "d": 11.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Natron Road",
+    "kind": "highway=secondary",
+    "lat": -2.54415,
+    "lon": 35.89053,
+    "d": 17.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Natron Halisi Camp",
+    "kind": "information=guidepost",
+    "lat": -2.60147,
+    "lon": 35.90751,
+    "d": 20.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Natron",
+    "kind": "water=lake",
+    "lat": -2.34802,
+    "lon": 36.02615,
+    "d": 11.4,
+    "match": true
+   }
+  ]
+ }
+]

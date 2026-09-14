@@ -1,0 +1,930 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Nairobi",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -1.2864,
+  "lon": 36.8172,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Nairobi",
+   "kind": "capital y mayor ciudad de Kenia",
+   "lat": -1.28639,
+   "lon": 36.81722,
+   "d": 0.0,
+   "match": true,
+   "id": "Q3870"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "place=city",
+    "lat": -1.289,
+    "lon": 36.81728,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "boundary=yes",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "boundary=administrative",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Nairobi",
+    "kind": "capital y mayor ciudad de Kenia",
+    "lat": -1.28639,
+    "lon": 36.81722,
+    "d": 0.0,
+    "match": true,
+    "id": "Q3870"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Parque Nacional de Amboseli",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -2.6527,
+  "lon": 37.2606,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Amboseli UNESCO Biosphere Reserve",
+   "kind": "information=board",
+   "lat": -2.64616,
+   "lon": 37.24817,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Amboseli National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -2.64114,
+    "lon": 37.23623,
+    "d": 3.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Amboseli UNESCO Biosphere Reserve",
+    "kind": "information=board",
+    "lat": -2.64616,
+    "lon": 37.24817,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Amboseli Nationalpark - Kimana Gate",
+    "kind": "building=yes",
+    "lat": -2.72,
+    "lon": 37.37956,
+    "d": 15.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Lago Naivasha y monte Longonot",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -0.9144,
+  "lon": 36.4461,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Lago Nakuru · flamencos y rinocerontes",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -0.3667,
+  "lon": 36.0833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Nakuru",
+   "kind": "water=lake",
+   "lat": -0.36286,
+   "lon": 36.08869,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Nakuru",
+    "kind": "water=lake",
+    "lat": -0.36286,
+    "lon": 36.08869,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Nakuru National Park",
+    "kind": "boundary=national_park",
+    "lat": -0.39248,
+    "lon": 36.0859,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Nakuru National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -0.39248,
+    "lon": 36.0859,
+    "d": 2.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Lago Bogoria · géiseres y aguas termales",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 0.25,
+  "lon": 36.0833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Bogoria Lakeside Campsite",
+   "kind": "tourism=camp_site",
+   "lat": 0.24732,
+   "lon": 36.0844,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Bogoria",
+    "kind": "water=lake",
+    "lat": 0.27104,
+    "lon": 36.10177,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Bogoria National Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": 0.25974,
+    "lon": 36.1057,
+    "d": 2.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lake Bogoria Lakeside Campsite",
+    "kind": "tourism=camp_site",
+    "lat": 0.24732,
+    "lon": 36.0844,
+    "d": 0.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Nanyuki y el monte Kenia",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": 0.0167,
+  "lon": 37.0667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nanyuki",
+   "kind": "place=town",
+   "lat": 0.01403,
+   "lon": 37.07463,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nanyuki",
+    "kind": "place=town",
+    "lat": 0.01403,
+    "lon": 37.07463,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nanyuki",
+    "kind": "waterway=river",
+    "lat": 0.07933,
+    "lon": 37.05116,
+    "d": 7.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nanyuki",
+    "kind": "waterway=river",
+    "lat": -0.03711,
+    "lon": 37.11198,
+    "d": 7.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Reserva Nacional de Samburu",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 0.6,
+  "lon": 37.5333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Samburu National Reserve",
+   "kind": "leisure=nature_reserve",
+   "lat": 0.61557,
+   "lon": 37.53716,
+   "d": 1.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Samburu National Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": 0.61557,
+    "lon": 37.53716,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Samburu National Reserve Main Gate",
+    "kind": "tourism=information",
+    "lat": 0.62889,
+    "lon": 37.63836,
+    "d": 12.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Samburu Public Campsite",
+    "kind": "tourism=camp_site",
+    "lat": 0.56585,
+    "lon": 37.5348,
+    "d": 3.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "El bucle del norte: Marsabit, Chalbi y el lago Turkana",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": 2.3167,
+  "lon": 37.9833,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Bhar El Naam Primary School",
+   "kind": "amenity=school",
+   "lat": 3.72919,
+   "lon": 34.84394,
+   "d": 382.3,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Adok El Bahar Hotel",
+    "kind": "amenity=restaurant",
+    "lat": 3.73899,
+    "lon": 34.81123,
+    "d": 386.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Bhar El Naam Primary School",
+    "kind": "amenity=school",
+    "lat": 3.72919,
+    "lon": 34.84394,
+    "d": 382.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "El-shadai Studio",
+    "kind": "shop=electronics",
+    "lat": 3.76746,
+    "lon": 34.82492,
+    "d": 386.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Reserva Nacional Masái Mara",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -1.4061,
+  "lon": 35.0083,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Masai Mara National Reserve",
+   "kind": "leisure=nature_reserve",
+   "lat": -1.48814,
+   "lon": 35.10541,
+   "d": 14.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Masai Mara National Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": -1.48814,
+    "lon": 35.10541,
+    "d": 14.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Masai Mara National Reserve - Talek Gate",
+    "kind": "building=yes",
+    "lat": -1.44318,
+    "lon": 35.20731,
+    "d": 22.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "National Reserve Masai Mara Sand River Gate",
+    "kind": "building=yes",
+    "lat": -1.65298,
+    "lon": 35.21614,
+    "d": 35.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Parque Nacional de Tsavo Oeste",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -3.05,
+  "lon": 38.05,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Tsavo West National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -3.40836,
+   "lon": 37.95745,
+   "d": 41.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tsavo West National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -3.40836,
+    "lon": 37.95745,
+    "d": 41.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Tsavo East National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -2.84203,
+    "lon": 38.81898,
+    "d": 88.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Tsavo West National Park Mtito Entrance GateHouse",
+    "kind": "building=yes",
+    "lat": -2.69594,
+    "lon": 38.16491,
+    "d": 41.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Mombasa y el Fuerte Jesús",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -4.0632,
+  "lon": 39.6797,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mombasa Hospital",
+   "kind": "amenity=hospital",
+   "lat": -4.06477,
+   "lon": 39.68082,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mombasa",
+    "kind": "place=city",
+    "lat": -4.05052,
+    "lon": 39.66717,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mombasa",
+    "kind": "boundary=administrative",
+    "lat": -4.03863,
+    "lon": 39.64855,
+    "d": 4.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mombasa Hospital",
+    "kind": "amenity=hospital",
+    "lat": -4.06477,
+    "lon": 39.68082,
+    "d": 0.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Diani Beach · el punto más oriental del viaje",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -4.2769,
+  "lon": 39.5906,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Diani Beach",
+   "kind": "place=suburb",
+   "lat": -4.29058,
+   "lon": 39.58581,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Diani Beach",
+    "kind": "place=suburb",
+    "lat": -4.29058,
+    "lon": 39.58581,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Diani Beach",
+    "kind": "natural=beach",
+    "lat": -4.31249,
+    "lon": 39.57936,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Diani Beach shopping center",
+    "kind": "landuse=commercial",
+    "lat": -4.29919,
+    "lon": 39.58074,
+    "d": 2.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Lamu",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -2.2717,
+  "lon": 40.902,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Lamu",
+   "kind": "town on Lamu Island, Kenya",
+   "lat": -2.26861,
+   "lon": 40.90028,
+   "d": 0.4,
+   "match": true,
+   "id": "Q272799"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lamu",
+    "kind": "place=town",
+    "lat": -2.2675,
+    "lon": 40.90104,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lamu",
+    "kind": "boundary=administrative",
+    "lat": -2.06452,
+    "lon": 40.7281,
+    "d": 30.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lamu",
+    "kind": "place=island",
+    "lat": -2.28467,
+    "lon": 40.86403,
+    "d": 4.5,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Lamu",
+    "kind": "town on Lamu Island, Kenya",
+    "lat": -2.26861,
+    "lon": 40.90028,
+    "d": 0.4,
+    "match": true,
+    "id": "Q272799"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Namanga (desde Tanzania)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -2.545,
+  "lon": 36.7867,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Namanga",
+   "kind": "place=town",
+   "lat": -2.54501,
+   "lon": 36.78698,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Namanga",
+    "kind": "landuse=residential",
+    "lat": -2.54671,
+    "lon": 36.79744,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Namanga",
+    "kind": "place=town",
+    "lat": -2.54501,
+    "lon": 36.78698,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Namanga",
+    "kind": "waterway=river",
+    "lat": -2.54389,
+    "lon": 36.76639,
+    "d": 2.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida — Lunga Lunga/Horohoro (hacia Tanzania)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -4.5583,
+  "lon": 39.1167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lunga-Lunga",
+   "kind": "place=village",
+   "lat": -4.552,
+   "lon": 39.12034,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lunga-Lunga",
+    "kind": "place=village",
+    "lat": -4.552,
+    "lon": 39.12034,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lunga Lunga",
+    "kind": "boundary=administrative",
+    "lat": -4.3534,
+    "lon": 38.96226,
+    "d": 28.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lunga-Lunga Police Station",
+    "kind": "amenity=police",
+    "lat": -4.55969,
+    "lon": 39.12702,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Moyale · frontera con Etiopía (FUERA de la ruta)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": 3.5228,
+  "lon": 39.0556,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Moyale",
+   "kind": "place=town",
+   "lat": 3.52419,
+   "lon": 39.05127,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Moyale",
+    "kind": "place=town",
+    "lat": 3.52419,
+    "lon": 39.05127,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Moyale",
+    "kind": "place=town",
+    "lat": 3.51591,
+    "lon": 39.05842,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Moyale",
+    "kind": "boundary=administrative",
+    "lat": 3.86992,
+    "lon": 39.2075,
+    "d": 42.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Embajada de España en Nairobi",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -1.2977,
+  "lon": 36.8129,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain in Kenya",
+   "kind": "office=diplomatic",
+   "lat": -1.29771,
+   "lon": 36.81303,
+   "d": 0.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain in Kenya",
+    "kind": "office=diplomatic",
+    "lat": -1.29771,
+    "lon": 36.81303,
+    "d": 0.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Aga Khan University Hospital / Nairobi Hospital",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -1.2667,
+  "lon": 36.8083,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Aga Khan University Hospital",
+   "kind": "amenity=hospital",
+   "lat": -1.26179,
+   "lon": 36.82384,
+   "d": 1.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Aga Khan University Hospital",
+    "kind": "amenity=hospital",
+    "lat": -1.26179,
+    "lon": 36.82384,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Aga Khan University Hospital Parking",
+    "kind": "amenity=parking",
+    "lat": -1.26142,
+    "lon": 36.82483,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "The Aga Khan University Hospital",
+    "kind": "amenity=clinic",
+    "lat": -1.28577,
+    "lon": 36.82201,
+    "d": 2.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Combustible · Nairobi / Nanyuki / Isiolo",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -1.2864,
+  "lon": 36.8172,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nairobi",
+   "kind": "place=city",
+   "lat": -1.289,
+   "lon": 36.81728,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "place=city",
+    "lat": -1.289,
+    "lon": 36.81728,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "boundary=yes",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "boundary=administrative",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Agua potable y de uso general · Nairobi",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -1.2864,
+  "lon": 36.8172,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nairobi",
+   "kind": "place=city",
+   "lat": -1.289,
+   "lon": 36.81728,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "place=city",
+    "lat": -1.289,
+    "lon": 36.81728,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "boundary=yes",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nairobi",
+    "kind": "boundary=administrative",
+    "lat": -1.3024,
+    "lon": 36.82885,
+    "d": 2.2,
+    "match": true
+   }
+  ]
+ }
+]

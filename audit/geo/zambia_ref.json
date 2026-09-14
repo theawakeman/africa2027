@@ -1,0 +1,811 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Liuwa Plain National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -14.53118,
+    "lon": 22.60597,
+    "d": 13.7
+   },
+   {
+    "n": "African Parks - Liuwa Plain National Park Old Headquarters",
+    "k": "office",
+    "v": "yes",
+    "lat": -14.98809,
+    "lon": 22.68306,
+    "d": 58.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Mongu",
+    "k": "place",
+    "v": "town",
+    "lat": -15.26688,
+    "lon": 23.13654,
+    "d": 0.3
+   },
+   {
+    "n": "Mongu Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -15.25474,
+    "lon": 23.16199,
+    "d": 3.4
+   },
+   {
+    "n": "Mongu Harbour",
+    "k": "natural",
+    "v": "water",
+    "lat": -15.27375,
+    "lon": 23.11732,
+    "d": 1.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Lusaka National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -15.541,
+    "lon": 28.39795,
+    "d": 322.0
+   },
+   {
+    "n": "Lusaka National Park",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -15.541,
+    "lon": 28.39795,
+    "d": 322.0
+   },
+   {
+    "n": "National Park Road",
+    "k": "highway",
+    "v": "service",
+    "lat": -15.50977,
+    "lon": 28.43093,
+    "d": 323.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Lusaka",
+    "k": "place",
+    "v": "city",
+    "lat": -15.41634,
+    "lon": 28.28184,
+    "d": 2.7
+   },
+   {
+    "n": "Lusaka",
+    "k": "railway",
+    "v": "station",
+    "lat": -15.41952,
+    "lon": 28.28394,
+    "d": 2.7
+   },
+   {
+    "n": "Lusaka District",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -15.4263,
+    "lon": 28.31339,
+    "d": 2.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "AVANI Victoria Falls Resort",
+    "k": "building",
+    "v": "hotel",
+    "lat": -17.92446,
+    "lon": 25.86551,
+    "d": 0.9
+   },
+   {
+    "n": "Victoria Falls Castle",
+    "k": "tourism",
+    "v": "guest_house",
+    "lat": -17.88432,
+    "lon": 25.86029,
+    "d": 4.5
+   },
+   {
+    "n": "Victoria Falls Park Entrance & Ticket booth",
+    "k": "shop",
+    "v": "ticket",
+    "lat": -17.92832,
+    "lon": 25.86404,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Devil's Cataract",
+    "k": "natural",
+    "v": "cliff",
+    "lat": -17.9229,
+    "lon": 25.84768,
+    "d": 1.2
+   },
+   {
+    "n": "casa de Lola victoria fall",
+    "k": "tourism",
+    "v": "guest_house",
+    "lat": -17.92843,
+    "lon": 25.81834,
+    "d": 4.1
+   },
+   {
+    "n": "Victoria Falls Road",
+    "k": "highway",
+    "v": "primary",
+    "lat": -17.8032,
+    "lon": 25.24476,
+    "d": 66.3
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "South Luangwa National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -13.05164,
+    "lon": 31.54003,
+    "d": 44.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Kasanka National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -12.52919,
+    "lon": 30.22931,
+    "d": 6.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Lake Bangweulu",
+    "k": "water",
+    "v": "lake",
+    "lat": -11.14741,
+    "lon": 29.78458,
+    "d": 64.1
+   },
+   {
+    "n": "Bangweulu Wetlands",
+    "k": "natural",
+    "v": "wetland",
+    "lat": -11.55006,
+    "lon": 30.07862,
+    "d": 19.5
+   },
+   {
+    "n": "Bangweulu Swamps",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -11.44127,
+    "lon": 30.0443,
+    "d": 23.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Ntumbachushi Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": -9.85393,
+    "lon": 28.94439,
+    "d": 18.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Lumangwe Falls",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -9.54267,
+    "lon": 29.38791,
+    "d": 1.2
+   },
+   {
+    "n": "Luma-Ngwe Road",
+    "k": "highway",
+    "v": "residential",
+    "lat": -15.38045,
+    "lon": 28.33214,
+    "d": 660.1
+   },
+   {
+    "n": "Luangwa District",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -15.35843,
+    "lon": 30.06958,
+    "d": 652.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Chishimba Pub",
+    "k": "amenity",
+    "v": "pub",
+    "lat": -15.4046,
+    "lon": 28.35478,
+    "d": 651.0
+   },
+   {
+    "n": "Ngoli De Lodge",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -17.86178,
+    "lon": 25.8547,
+    "d": 1020.5
+   },
+   {
+    "n": "Chisamba",
+    "k": "waterway",
+    "v": "river",
+    "lat": -10.82633,
+    "lon": 29.14266,
+    "d": 211.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Mpulungu",
+    "k": "place",
+    "v": "town",
+    "lat": -8.76616,
+    "lon": 31.1196,
+    "d": 0.3
+   },
+   {
+    "n": "Mpulungu",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": -8.76312,
+    "lon": 31.10546,
+    "d": 1.3
+   },
+   {
+    "n": "Mpulungu District",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -8.98338,
+    "lon": 30.71703,
+    "d": 50.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Kalambo Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": -8.59617,
+    "lon": 31.23965,
+    "d": 0.8
+   },
+   {
+    "n": "Kalambo Crescent",
+    "k": "highway",
+    "v": "residential",
+    "lat": -12.80077,
+    "lon": 28.24901,
+    "d": 569.6
+   },
+   {
+    "n": "Kalambo Road",
+    "k": "highway",
+    "v": "primary",
+    "lat": -15.40906,
+    "lon": 28.27955,
+    "d": 822.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Chavuma",
+    "k": "place",
+    "v": "town",
+    "lat": -13.08153,
+    "lon": 22.69012,
+    "d": 10.6
+   },
+   {
+    "n": "Chavuma District",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -13.31016,
+    "lon": 22.29026,
+    "d": 59.1
+   },
+   {
+    "n": "Chavuma Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": -13.09568,
+    "lon": 22.68571,
+    "d": 12.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Nakonde",
+    "k": "place",
+    "v": "town",
+    "lat": -9.33145,
+    "lon": 32.75479,
+    "d": 0.6
+   },
+   {
+    "n": "Nakonde",
+    "k": "waterway",
+    "v": "river",
+    "lat": -9.50793,
+    "lon": 32.7988,
+    "d": 20.1
+   },
+   {
+    "n": "Nakonde",
+    "k": "railway",
+    "v": "station",
+    "lat": -9.30943,
+    "lon": 32.75789,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Embassy of Spain",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -17.80318,
+    "lon": 31.04404,
+    "d": 2.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "University Teaching Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -15.43094,
+    "lon": 28.31401,
+    "d": 2.9
+   },
+   {
+    "n": "Bus Stop University Teaching Hospital",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -15.43116,
+    "lon": 28.31241,
+    "d": 2.8
+   },
+   {
+    "n": "Levy Mwanawasa University Teaching Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -15.38474,
+    "lon": 28.35393,
+    "d": 5.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Kasama General Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -10.212,
+    "lon": 31.18019,
+    "d": 0.1
+   },
+   {
+    "n": "Chinsali General Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -10.64954,
+    "lon": 32.12885,
+    "d": 114.5
+   },
+   {
+    "n": "Kawambwa General Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -9.79996,
+    "lon": 29.07419,
+    "d": 235.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Mongu",
+    "k": "place",
+    "v": "town",
+    "lat": -15.26688,
+    "lon": 23.13654,
+    "d": 0.3
+   },
+   {
+    "n": "Mongu Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -15.25474,
+    "lon": 23.16199,
+    "d": 3.4
+   },
+   {
+    "n": "Mongu Harbour",
+    "k": "natural",
+    "v": "water",
+    "lat": -15.27375,
+    "lon": 23.11732,
+    "d": 1.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Lusaka",
+    "k": "place",
+    "v": "city",
+    "lat": -15.41634,
+    "lon": 28.28184,
+    "d": 2.7
+   },
+   {
+    "n": "Lusaka",
+    "k": "railway",
+    "v": "station",
+    "lat": -15.41952,
+    "lon": 28.28394,
+    "d": 2.7
+   },
+   {
+    "n": "Lusaka District",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -15.4263,
+    "lon": 28.31339,
+    "d": 2.4
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q3881",
+    "l": "Lusaka",
+    "t": "capital de Zambia",
+    "lat": -15.41667,
+    "lon": 28.28333,
+    "d": 2.6
+   },
+   {
+    "id": "Q819998",
+    "l": "Provincia de Lusaka",
+    "t": "province of Zambia",
+    "lat": -15.41667,
+    "lon": 29.0,
+    "d": 74.5
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Serenje",
+    "k": "place",
+    "v": "town",
+    "lat": -13.23215,
+    "lon": 30.23707,
+    "d": 203.8
+   },
+   {
+    "n": "Serenje",
+    "k": "railway",
+    "v": "station",
+    "lat": -13.2335,
+    "lon": 30.21607,
+    "d": 205.4
+   },
+   {
+    "n": "Serenje District",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -13.19024,
+    "lon": 30.17551,
+    "d": 204.7
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q2272373",
+    "l": "Serenje",
+    "t": "human settlement in Zambia",
+    "lat": -13.23083,
+    "lon": 30.23389,
+    "d": 203.9
+   },
+   {
+    "id": "Q110420961",
+    "l": "Serenje",
+    "t": "weather station in Zambia",
+    "lat": -13.23333,
+    "lon": 30.21667,
+    "d": 205.3
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Kasama",
+    "k": "place",
+    "v": "city",
+    "lat": -10.20449,
+    "lon": 31.18772,
+    "d": 1.2
+   },
+   {
+    "n": "Kasama",
+    "k": "building",
+    "v": "train_station",
+    "lat": -10.24334,
+    "lon": 31.20636,
+    "d": 4.4
+   },
+   {
+    "n": "Kasama",
+    "k": "railway",
+    "v": "station",
+    "lat": -10.24346,
+    "lon": 31.20671,
+    "d": 4.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Lusaka",
+    "k": "place",
+    "v": "city",
+    "lat": -15.41634,
+    "lon": 28.28184,
+    "d": 2.7
+   },
+   {
+    "n": "Lusaka",
+    "k": "railway",
+    "v": "station",
+    "lat": -15.41952,
+    "lon": 28.28394,
+    "d": 2.7
+   },
+   {
+    "n": "Lusaka District",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -15.4263,
+    "lon": 28.31339,
+    "d": 2.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Bayamas Lodge - Camping",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -11.84619,
+    "lon": 31.44589,
+    "d": 341.9
+   },
+   {
+    "n": "Samala Camping",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -11.61871,
+    "lon": 32.02625,
+    "d": 370.4
+   },
+   {
+    "n": "Riverside Camping",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -8.88046,
+    "lon": 34.09692,
+    "d": 522.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]
