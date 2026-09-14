@@ -6,16 +6,23 @@ Fecha de revisión: 14 de septiembre de 2026. Se revisaron 19 PDI y 11 puntos lo
 
 | Punto | Antes | Ahora | Criterio |
 |---|---:|---:|---|
+| Cocobeach | 0.9833, 9.5667 | **0.9931336, 9.5770844** | ficha canónica de la localidad en Google Maps; corrige 1,6 km |
+| Monts de Cristal | 0.5000, 10.3333 | **0.7787808, 10.2151578** | ficha real del parque en Google Maps; corrige 33,7 km y no se presenta como puerta |
 | Parque Nacional de Akanda | 0.6167, 9.5500 | **0.5558790, 9.5006143** | ficha real del parque; no se presenta como embarcadero |
 | Pointe Denis / Pongara | -0.3500, 9.3300 | **0.3166669, 9.3666670** | localidad y acceso navegable; corrige unos 75 km |
 | Gare d'Owendo | 0.2900, 9.5000 | **0.3223475, 9.4979217** | terminal real del Transgabonés |
 | Cataratas de Kongou | 0.2907, 12.5891 | **0.2904712, 12.5884394** | ficha exacta del salto |
+| Makokou | 0.5667, 12.8667 | **0.5698292, 12.8617355** | ficha canónica de la localidad en Google Maps; corrige 0,7 km |
 | Grutas de Lastoursville | -0.8167, 12.3667 | **-0.8139885, 12.7519429** | cueva Pahon 1 calculada desde la coordenada UTM de UNESCO; corrige unos 43 km |
+| Franceville | -1.6333, 13.5833 | **-1.6227921, 13.6036914** | ficha canónica de la ciudad en Google Maps, junto a Poto-Poto; corrige 2,5 km |
 | Cirque de Léconi | -1.5833, 14.2333 | **-1.6419515, 14.2882909** | circo real en Google Maps |
 | Parque de las Mesetas Batéké | -2.2000, 13.9000 | **-2.1576098, 14.0072348** | ficha real del parque |
 | Mission Sainte-Anne | -1.5925, 9.4292 | **-1.6422315, 9.4010757** | iglesia real en la laguna Fernan Vaz |
 | Parque Nacional de Loango | -1.9500, 9.5500 | **-2.1538342, 9.5896043** | ficha real del parque |
 | Parque Nacional de Mayumba | -3.4167, 10.6500 | **-3.8194511, 11.0202729** | ficha real; corrige más de 60 km |
+| Hospital Albert Schweitzer, Lambaréné | -0.7000, 10.2333 | **-0.6769393, 10.2291301** | hospital real junto al conjunto histórico; corrige 2,6 km |
+| Port-Gentil | -0.7167, 8.7833 | **-0.7149503, 8.7843278** | ficha canónica de la ciudad; el cabo Lopez se declara como desplazamiento separado |
+| Parque Nacional de Moukalaba-Doudou | -2.4333, 10.4167 | **-2.4983347, 10.3497895** | ficha real del parque en Google Maps; corrige 10,4 km y no se presenta como entrada |
 | Eboro/Abang-Minko'o | 2.0833, 11.4833 | **2.2902270, 11.4470384** | puesto de control fronterizo |
 | Doussala | -2.8333, 10.9167 | **-2.6479099, 11.6328435** | localidad real, no puente inexistente |
 | Frontera oriental hacia Okoyo | -1.6500, 14.4000 | **-1.6159900, 14.3894365** | ficha «Frontière Gabon Congo»; operatividad pendiente |
@@ -31,6 +38,8 @@ Fecha de revisión: 14 de septiembre de 2026. Se revisaron 19 PDI y 11 puntos lo
 - Ivindo usa los datos del expediente IUCN: Kongou alcanza 56 m a lo largo de unos 2 km. Se retiran 3,2 km, 900 m³/s y el relato simplificado de que una protesta «paró» definitivamente una presa.
 - Lastoursville cambia una antigüedad humana inventada de 7.000 años por el registro arqueológico publicado y actualiza la candidatura a 2022.
 - Loango y Mayumba pierden rankings mundiales de cetáceos y tortugas no ligados a una fuente o censo.
+- Port-Gentil ya no afirma que el asfalto termine al salir de la ciudad: la carretera asfaltada de 93 km hasta Omboué existe, pero la continuidad Yombi–Mandji–Omboué seguía en obras desde septiembre de 2025 y no equivale a una conexión terminada con Libreville.
+- Las 19 fichas disponen de bloque de decisión, enlace concreto y carrusel. Se contrastaron 43 archivos de Wikimedia Commons y 12 fotografías externas; no se repite una imagen entre dos PDIs del grupo.
 - Doussala queda marcado como localidad del **futuro cruce**: en marzo de 2026 la obra Ndendé–Doussala iba al 27 % y el puente del Ngongo seguía dentro del proyecto.
 
 ## Fuentes de contraste
@@ -43,7 +52,11 @@ Fecha de revisión: 14 de septiembre de 2026. Se revisaron 19 PDI y 11 puntos lo
 - [Google Maps · Pointe Denis](https://www.google.com/maps?q=0.3166669,9.366667)
 - [Google Maps · cataratas de Kongou](https://www.google.com/maps?q=0.2904712,12.5884394)
 - [Google Maps · Parque Nacional de Loango](https://www.google.com/maps?q=-2.1538342,9.5896043)
+- [Google Maps · Monts de Cristal](https://www.google.com/maps?q=0.7787808,10.2151578)
+- [Google Maps · Hospital Albert Schweitzer](https://www.google.com/maps?q=-0.6769393,10.2291301)
+- [Google Maps · Moukalaba-Doudou](https://www.google.com/maps?q=-2.4983347,10.3497895)
+- [EBOMAF · inicio de las obras Yombi–Mandji–Omboué, septiembre de 2025](https://ebomaf.com/chantiers/lancement-des-travaux-de-bitumage-de-la-route-yombi-mandji-omboue)
 
 ## Pendiente deliberado
 
-Akanda, Batéké, Loango y Mayumba conservan pines de parque, no puertas inventadas; se necesita un punto de encuentro del operador antes de navegar. El paso oriental de Léconi/Okoyo existe como lugar cartográfico, pero no queda validado como aduana internacional. Doussala no es operativo a esta fecha. El agua se trata en la auditoría logística separada.
+Monts de Cristal, Akanda, Batéké, Loango, Moukalaba-Doudou y Mayumba conservan pines de parque, no puertas inventadas; se necesita un punto de encuentro del operador antes de navegar. El paso oriental de Léconi/Okoyo existe como lugar cartográfico, pero no queda validado como aduana internacional. Doussala no es operativo a esta fecha. El agua se trata en la auditoría logística separada.

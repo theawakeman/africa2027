@@ -26,6 +26,14 @@ de Mindtrip que ya no entregaban imagen y corrigió cuatro pines adicionales en
 Google Maps; la Métché estaba desplazada 32,3 km porque el PDI mezclaba la
 cascada con Dschang.
 
+Gabón queda igualmente cerrado: 19/19 PDIs con ficha de decisión completa,
+19/19 con enlace útil y 19/19 con carrusel. Se validaron 43 archivos en la API
+de Commons y 12 imágenes externas contra su URL final. La revisión visual cubrió
+Akanda, Makokou, Pahon, Batéké y Moukalaba-Doudou y confirmó que las imágenes y
+sus pies corresponden al lugar declarado. Se corrigieron siete pines adicionales;
+Monts de Cristal estaba desplazado 33,7 km y Moukalaba-Doudou 10,4 km respecto
+a las fichas actuales de Google Maps.
+
 ## Alcance de la primera pasada
 
 - Se revisaron las asignaciones fotográficas de los 92 PDIs. Cada ficha tiene
@@ -48,11 +56,11 @@ cascada con Dschang.
 | País | PDIs | Prioridad alta con ficha de decisión | PDIs con foto | Galerías (2+ fotos) | Archivos verificados | Sin foto exacta |
 |---|---:|---:|---:|---:|---:|---:|
 | Camerún | 21 | 11/11 | 21 | 21 | 55 + 3 externas | 0 |
-| Gabón | 19 | 9/9 | 9 | 9 | 25 | 10 |
+| Gabón | 19 | 9/9 | 19 | 19 | 43 + 12 externas | 0 |
 | Congo | 18 | 8/8 | 4 | 4 | 11 | 14 |
 | RD Congo | 12 | 9/9 | 10 | 6 | 22 | 2 |
 | Angola | 22 | 11/11 | 22 | 19 | 54 + 2 externas | 0 |
-| **Total provisional** | **92** | **48/48** | **66** | **59** | **167 + 5 externas** | **26** |
+| **Total provisional** | **92** | **48/48** | **76** | **69** | **185 + 17 externas** | **16** |
 
 ## Problema inicial y criterio aplicado
 
@@ -91,5 +99,5 @@ propias.
 
 ## Pendiente de esta reapertura
 
-Quedan por cerrar Gabón, Congo y RD Congo. Hasta entonces este grupo no vuelve a
+Quedan por cerrar Congo y RD Congo. Hasta entonces este grupo no vuelve a
 marcarse como terminado bajo el nuevo estándar.

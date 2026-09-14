@@ -39,6 +39,24 @@ def photo_marker(item: dict[str, str]) -> str:
 
 
 LINKS: dict[str, dict[int, tuple[str, str]]] = {
+    "gabon": {
+        1: ("Cocobeach · contexto de la ciudad fronteriza", "https://en.wikipedia.org/wiki/Cocobeach"),
+        2: ("Monts de Cristal · permisos y acceso por Kinguélé/Tchimbélé", "https://www.petitfute.com/v56184-parc-national-des-monts-de-cristal/c1173-visites-points-d-interet/c937-monuments/c967-ouvrage-d-art/342509-barrages-de-kinguele-et-tchimbele.html"),
+        3: ("ANPN · cartografía y sectores del Parque Nacional de Akanda", "https://www.biotope.fr/gabon/parc_akanda.html"),
+        4: ("Libreville · barrios, historia y transportes", "https://en.wikipedia.org/wiki/Libreville"),
+        5: ("Pointe Denis · acceso, travesía y alojamiento", "https://lapointedenis.com/"),
+        9: ("UNESCO · perfil actual de Makokou", "https://www.uil.unesco.org/en/learning-cities/makokou"),
+        10: ("UNESCO · Grutas de Lastoursville y coordenadas de Pahon 1", "https://whc.unesco.org/en/tentativelists/6587/"),
+        11: ("Franceville · historia, transportes y puntos del entorno", "https://en.wikipedia.org/wiki/Franceville"),
+        12: ("Léconi · servicios y visitas del entorno", "https://www.petitfute.com/v56232-leconi/"),
+        13: ("Mesetas Batéké · paisaje y preparación de la visita", "https://www.evaneos.fr/gabon/voyage/etape/17123-plateaux-bateke-national-park/"),
+        14: ("Fundación Albert Schweitzer · historia del hospital de Lambaréné", "https://www.albert-schweitzer.ch/stiftung-albert-schweitzer-werk/lambarene"),
+        15: ("Sainte-Anne du Fernan-Vaz · historia y visita", "https://gabon4you.com/multi_category_templ/eglise-de-la-mission-sainte-anne-du-fernanvaz-omboue/"),
+        16: ("Loango Tourism · actividades y logística de la visita", "https://www.loango-tourism.com/activities"),
+        17: ("Port-Gentil · transportes, ciudad y playas", "https://en.wikipedia.org/wiki/Port-Gentil"),
+        18: ("Moukalaba-Doudou · investigación y turismo de gorilas", "https://www.rts.ch/info/monde/14153099-au-gabon-la-recherche-sur-les-gorilles-est-financee-par-le-tourisme.html"),
+        19: ("WCS Gabón · tortugas marinas y temporada de seguimiento", "https://gabon.wcs.org/en-us/Wildlife/Marine-Turtles.aspx"),
+    },
     "camerun": {
         1: ("Mamfe · contexto del paso y la ciudad", "https://en.wikipedia.org/wiki/Mamfe"),
         2: ("Lago Barombi Mbo · origen volcánico y biodiversidad", "https://en.wikipedia.org/wiki/Lake_Barombi_Mbo"),
@@ -82,6 +100,78 @@ LINKS: dict[str, dict[int, tuple[str, str]]] = {
 
 
 VISITS: dict[str, dict[int, dict[str, str]]] = {
+    "gabon": {
+        1: {
+            "why": "Es una escala pequeña pero singular para entender el estuario del Muni y la vida de una frontera fluvial antes de bajar a Libreville.",
+            "see": "El mercado junto al agua, la orilla del estuario, el ayuntamiento y el memorial de la batalla de Cocobeach; no es un destino de playa equipado.",
+            "access": "El pin coincide con la ficha de Cocobeach en Google Maps. La posibilidad de cruzar a Cogo debe confirmarse con inmigración y transportista; no se presupone barcaza ni admisión del vehículo.",
+            "when": "Llegar con luz, dedicar unas horas y obtener información fronteriza antes de acercarse al embarcadero.",
+            "skip": "Omitir el desvío si la frontera fluvial no está confirmada, llueve con fuerza o la etapa hacia Libreville ya va justa de tiempo.",
+        },
+        2: {
+            "why": "Compensa por la extraordinaria diversidad botánica del bosque montano, muy distinta de los parques de sabana y costa del resto de Gabón.",
+            "see": "Relieve boscoso, arroyos, begonias, orquídeas y el paisaje de los embalses de Kinguélé y Tchimbélé; la fauna grande es posible, no una promesa.",
+            "access": "El pin es la ficha del parque en Google Maps, no una puerta. Para el sector Mbé hay que cerrar permiso del parque, autorización de SEEG si se entra en instalaciones y guía con punto de encuentro exacto.",
+            "when": "Con 4x4, permisos escritos y pista confirmada; la estación relativamente más seca ofrece mejor margen, pero el terreno sigue siendo húmedo.",
+            "skip": "No entrar sin guía y autorizaciones ni convertir el pin cartográfico en destino de navegación: el parque está dividido en dos bloques y carece de una entrada única.",
+        },
+        3: {
+            "why": "Es la visita de manglar y marisma más accesible desde Libreville y un buen enclave para aves migratorias si se organiza con la marea adecuada.",
+            "see": "Canales de manglar, llanuras de marea y aves costeras; tortugas y manatíes forman parte del ecosistema, pero no son avistamientos previsibles.",
+            "access": "El pin identifica el área protegida en Google Maps, no un embarcadero. Contratar barca y guía y acordar por escrito salida, regreso, punto de embarque y sector visitado.",
+            "when": "En una salida de media jornada ajustada a mareas, meteorología y permiso; llevar protección solar y contra lluvia.",
+            "skip": "Descartarlo sin operador confirmado, con mala mar o si no se puede dejar al perro de forma segura fuera del parque.",
+        },
+        9: {
+            "why": "No es una atracción principal, sino la base decisiva para saber si Ivindo y Kongou son realmente viables y abastecerse antes de la logística fluvial.",
+            "see": "Una capital provincial pequeña a orillas del Ivindo, su vida cotidiana y el punto de partida de expediciones hacia el parque.",
+            "access": "El pin coincide con la ficha de Makokou en Google Maps. Llegar con luz por la N4 y no salir al río sin guía, piragua, combustible y campamento confirmados.",
+            "when": "Reservar al menos una tarde laborable para provisiones y reuniones; la expedición a Kongou requiere días, no una excursión improvisada.",
+            "skip": "Si Ivindo no está reservado, usar Makokou solo como escala logística; no prometerse una visita a las cataratas desde la ciudad en el mismo día.",
+        },
+        10: {
+            "why": "Pahon permite ver un karst tropical con arqueología documentada, un tipo de patrimonio que no se repite en el resto de la ruta.",
+            "see": "Galerías, concreciones y huellas de ocupación humana dentro del conjunto de 43 cavidades inventariadas; la visita no es una cueva turística acondicionada.",
+            "access": "El pin procede de la coordenada publicada por UNESCO para Pahon 1. Aun así, hace falta guía local, permiso del terreno y confirmación de la aproximación; no seguir el navegador a ciegas.",
+            "when": "Con suelo razonablemente seco, iluminación propia, casco y margen suficiente para regresar con luz.",
+            "skip": "No entrar con lluvia fuerte, crecida, sin guía o si no se dispone de equipo básico de cueva; observar la boca no justifica asumir riesgos.",
+        },
+        11: {
+            "why": "Funciona como terminal del Transgabonés y base para Léconi y Batéké; en la propia ciudad el interés es más urbano e histórico que monumental.",
+            "see": "La estación, el mercado de Poto-Poto, el río Passa y el monumento a Savorgnan de Brazza; Oklo y las instalaciones científicas no son visitas públicas por defecto.",
+            "access": "El pin se ha ajustado a la ficha real de Franceville en Google Maps. La estación queda al oeste y debe tratarse como un desplazamiento separado.",
+            "when": "Parar para combustible, comida, efectivo y coordinación del sureste; verificar por separado el horario ferroviario y cualquier excursión.",
+            "skip": "No añadir noches solo por las referencias geológicas si no existe una visita autorizada; priorizar Léconi o Batéké con guía confirmado.",
+        },
+        13: {
+            "why": "Ofrece el paisaje de sabana y bosque-galería más característico del sureste y un programa de conservación de gorilas con larga trayectoria.",
+            "see": "Mesetas abiertas, valles arenosos, aves y primates; el león fotografiado en 2015 fue un hallazgo científico excepcional, no una expectativa de safari.",
+            "access": "El pin coincide con la ficha del parque en Google Maps, no con una puerta. Hay que acordar con parque u operador el sector, el guía y el punto de encuentro antes de salir de Franceville.",
+            "when": "Solo con permiso, guía y 4x4 confirmados; reservar una jornada completa como mínimo y comprobar pistas tras la lluvia.",
+            "skip": "Descartarlo sin contacto operativo o si se espera un safari clásico de alta densidad: la escala y la infraestructura son muy limitadas.",
+        },
+        15: {
+            "why": "La iglesia metálica de Sainte-Anne y su aislamiento en la laguna forman una visita histórica y paisajística que no se parece a ningún otro PDI del país.",
+            "see": "La nave de hierro de 1889, el interior de madera y bambú, el embarcadero y el entorno de la misión en Fernan Vaz.",
+            "access": "El pin coincide con la misión real, verificada también por la geolocalización de una fotografía. Se llega en barca desde Omboué y hay que pactar embarque y regreso.",
+            "when": "Con travesía reservada, tiempo estable y luz suficiente para visitar sin apresurar el regreso por la laguna.",
+            "skip": "No salir si el barquero o la meteorología no están confirmados; el Projet Gorille de Evengué es otra visita y requiere gestión propia.",
+        },
+        17: {
+            "why": "Aporta la cara petrolera y marítima de Gabón y permite llegar al cabo Lopez, el extremo occidental del país, con su faro corroído y largas playas.",
+            "see": "Centro urbano, actividad portuaria desde espacios permitidos y, en un desplazamiento aparte, la playa y el faro del cabo Lopez.",
+            "access": "El pin coincide con la ficha de Port-Gentil. Hay carretera asfaltada hasta Omboué, pero no debe asumirse una conexión terrestre terminada con Libreville; entre ambas ciudades siguen siendo normales el avión y el barco.",
+            "when": "Con transporte y alojamiento cerrados; ir al cabo de día, comprobar mareas y estado de la pista final y evitar fotografiar instalaciones sensibles.",
+            "skip": "No desviarse si la llegada o salida marítima/aérea no está confirmada, ni usar este PDI para forzar una continuidad por carretera que aún no sea operativa.",
+        },
+        18: {
+            "why": "Es una de las pocas opciones gabonesas de seguimiento de gorilas vinculada a décadas de investigación, en un mosaico de selva y sabana muy remoto.",
+            "see": "Rastreo a pie, bosque, sabana y aves; incluso con habituación, encontrar al grupo exige esfuerzo y el contacto visual nunca está garantizado.",
+            "access": "El pin es la ficha del parque en Google Maps, no Doussala ni una entrada. La experiencia debe contratarse antes con operador verificable, que fije traslado, guía, alojamiento y protocolo sanitario.",
+            "when": "Con varios días, buena forma física y reserva confirmada; revisar lluvia, pistas y reglas de distancia y salud inmediatamente antes.",
+            "skip": "No viajar por una oferta informal o sin condiciones escritas, y renunciar ante síntomas respiratorios, pista impracticable o falta de permiso.",
+        },
+    },
     "camerun": {
         1: {
             "why": "No justifica un desvío turístico: se conserva porque es la primera parada administrativa y logística después de Mfum.",
@@ -158,6 +248,15 @@ VISITS: dict[str, dict[int, dict[str, str]]] = {
 
 
 COORDS: dict[str, dict[int, tuple[float, float]]] = {
+    "gabon": {
+        1: (0.9931336, 9.5770844),
+        2: (0.7787808, 10.2151578),
+        9: (0.5698292, 12.8617355),
+        11: (-1.6227921, 13.6036914),
+        14: (-0.6769393, 10.2291301),
+        17: (-0.7149503, 8.7843278),
+        18: (-2.4983347, 10.3497895),
+    },
     "camerun": {
         2: (4.6619533, 9.4033907),
         17: (3.6253619, 11.5812826),
@@ -175,6 +274,51 @@ NAMES: dict[str, dict[int, str]] = {
 
 
 DESCRIPTIONS: dict[str, dict[int, str]] = {
+    "gabon": {
+        2: (
+            "Parque de unos 1.200 km² dividido en dos bloques, Mbé al sur y Mont Séni al norte, creado en 2002 "
+            "para proteger un bosque montano de excepcional diversidad vegetal. El sector Mbé reúne relieve "
+            "abrupto, arroyos y el entorno de Kinguélé y Tchimbélé. El pin coincide con la ficha del parque en "
+            "Google Maps, pero no es una puerta: permiso del parque, guía y autorización de SEEG para las "
+            "instalaciones hidroeléctricas deben cerrarse antes de salir de Libreville."
+        ),
+        13: (
+            "Parque de 2.034 km² creado en 2002, con sabana de altiplano, bosques-galería y valles arenosos. "
+            "Una cámara trampa documentó allí en 2015 un único león macho; el análisis genético lo relacionó "
+            "con poblaciones históricas de Gabón y Congo y con leones actuales del sur de África. El parque "
+            "también alberga un programa de reintroducción de gorila de llanura occidental. El pin coincide con "
+            "la ficha de Google Maps, no con una entrada; visita, guía y acceso deben confirmarse desde Franceville."
+        ),
+        14: (
+            "Ciudad dividida por el río Ogooué y escala natural de la N1. Albert Schweitzer fundó aquí en 1913 "
+            "su hospital y trabajó en Lambaréné hasta su muerte en 1965. El antiguo hospital conserva el museo, "
+            "el cementerio y edificios históricos, mientras el hospital moderno continúa la actividad sanitaria "
+            "en el entorno. El pin ya no marca el centro genérico de Lambaréné: coincide con el Hospital Albert "
+            "Schweitzer de Google Maps, junto al conjunto histórico. Confirmar el horario del museo por teléfono."
+        ),
+        15: (
+            "La misión de Sainte-Anne se alza en la laguna Fernan Vaz, con Omboué como base de acceso. Su iglesia "
+            "de 1889 tiene una singular estructura metálica prefabricada, atribuida por las fuentes históricas y "
+            "turísticas a los talleres de Gustave Eiffel, e interior de madera y bambú. El pin coincide con la "
+            "misión real y con una fotografía geolocalizada; la visita exige acordar la travesía en barca. El "
+            "santuario de gorilas de Evengué es otro enclave y no queda incluido automáticamente."
+        ),
+        17: (
+            "Segunda ciudad de Gabón y centro petrolero y maderero de la isla de Mandji. No existe una carretera "
+            "directa y terminada entre Libreville y Port-Gentil: el enlace habitual entre ambas sigue siendo por "
+            "avión o barco. Sí hay una carretera asfaltada de unos 93 km hacia Omboué; la continuidad Yombi–Mandji–"
+            "Omboué se encontraba en obras desde septiembre de 2025, por lo que debe verificarse antes de plantear "
+            "una ruta nacional. Al norte, el cabo Lopez es el extremo occidental de Gabón y conserva un faro "
+            "metálico muy degradado. El pin marca Port-Gentil; el cabo es un desplazamiento separado."
+        ),
+        18: (
+            "Gran parque del suroeste con mosaico de selva húmeda y sabana, gorilas de llanura occidental, "
+            "chimpancés, elefantes y aves. La investigación y habituación de gorilas en el sector de Doussala se "
+            "desarrolla desde hace décadas y ha dado lugar a visitas de seguimiento muy limitadas. Aun así, la "
+            "experiencia solo debe planearse con un operador verificable y reserva previa: el avistamiento nunca "
+            "está garantizado. El pin coincide con la ficha del parque en Google Maps, no con Doussala ni una puerta."
+        ),
+    },
     "camerun": {
         20: (
             "A la salida de Bafoussam, cerca del cruce de Bamougoum, la Métché cae unos 50 m. "
@@ -219,6 +363,118 @@ def replace_nested(value, replacements: list[tuple[str, str]]):
 
 
 PHOTOS: dict[str, dict[int, list[dict[str, str]]]] = {
+    "gabon": {
+        1: [
+            commons("Cocobeach, Gabon (46432500881).jpg", "David Stanley · CC BY 2.0", "Cocobeach y la orilla del estuario del Muni"),
+            commons("Cocobeach Market (46384653862).jpg", "David Stanley · CC BY 2.0", "Mercado de Cocobeach junto al agua"),
+            commons("Monuments aux Morts Bataille de Cocobeach septembre 1914.jpg", "EVIVI · CC BY-SA 3.0", "Memorial de la batalla de Cocobeach de 1914"),
+        ],
+        2: [
+            commons("Parc national des Monts de Cristal bannière.jpg", "Nitoni Noio · CC BY-SA 4.0", "Bosque montano del Parque Nacional de los Monts de Cristal"),
+            commons("Vue de Monts de Cristal.jpg", "Nitoni Noio · CC BY-SA 4.0", "Relieve cubierto de selva en los Monts de Cristal"),
+            commons("Kikandikila et mont-cristal.jpg", "Nitoni Noio · CC BY-SA 4.0", "Vista de los Monts de Cristal desde Kikandikila"),
+        ],
+        3: [
+            {
+                "img": "https://www.afd.fr/sites/default/files/styles/header_content/public/2022-06-03-04-48/mangrove.jpg.webp?itok=ViQ77v7A",
+                "source": "https://www.afd.fr/en/actualites/un-ocean-conference-promise-blue-carbon",
+                "credit": "Agence Française de Développement",
+                "caption": "Navegación en los manglares del Parque Nacional de Akanda",
+            },
+            {
+                "img": "https://4.bp.blogspot.com/-sYGLLtsumb8/WZnqXFrQ2NI/AAAAAAAATrc/eVMNVcxV-fED-qR3i2hXq4eejPKdPOlMQCLcBGAs/s1600/IMG_5631.JPG",
+                "source": "https://notreaventureaugabon.blogspot.com/2017/08/la-mangrove-du-parc-national-de-lakanda.html",
+                "credit": "Tristan · Notre aventure au Gabon",
+                "caption": "Raíces de manglar fotografiadas durante una salida por el río Ntsini en Akanda",
+            },
+            {
+                "img": "https://www.libreville-accueil-bal.org/medias/images/p1224445.jpg",
+                "source": "https://www.libreville-accueil-bal.org/pages/archives/nos-activites/natures/061218-pirogue-akanda.html",
+                "credit": "Libreville Accueil",
+                "caption": "Desembarco de una excursión en piragua dentro de los manglares de Akanda",
+            },
+        ],
+        9: [
+            {
+                "img": "https://www.uil.unesco.org/sites/default/files/structured_data/lc0001/2477320_Makokou%25252C%252520Gabon.jpg",
+                "source": "https://www.uil.unesco.org/en/learning-cities/makokou",
+                "credit": "UNESCO Institute for Lifelong Learning",
+                "caption": "Espacio urbano de Makokou en el perfil de la Red Mundial de Ciudades del Aprendizaje",
+            },
+            {
+                "img": "https://www.bdpmodwoam.org/wp-content/uploads/makokou-0580b1b9.jpg",
+                "source": "https://www.bdpmodwoam.org/articles/2014/03/01/le-lycee-alexandre-sambat-de-makokou-a-lepreuve-des-examens-blancs/",
+                "credit": "BDP Modwoam",
+                "caption": "Vista del entorno urbano y fluvial de Makokou",
+            },
+            {
+                "img": "https://static.wixstatic.com/media/ec9c0d_e2a43c4cb5c7428dba41ee8f1ce85888~mv2.webp/v1/fill/w_980,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ec9c0d_e2a43c4cb5c7428dba41ee8f1ce85888~mv2.webp",
+                "source": "https://www.gabon-voyage-afrique.online/trekking-parc-ivindo",
+                "credit": "Le Tourisme en Afrique",
+                "caption": "Salida de una expedición desde Makokou hacia el Parque Nacional de Ivindo",
+            },
+        ],
+        10: [
+            {
+                "img": "https://carnetsdevoyages.jeanlou.fr/Les_Grottes_du_GABON/Lastoursville_3_la_Grotte_de_PAHON_01/Photos_Lastourville_3_la_Grotte_de_PAHON_01/files/page95-1066-full.jpg",
+                "source": "https://carnetsdevoyages.jeanlou.fr/Les_Grottes_du_GABON/Lastoursville_3_la_Grotte_de_PAHON_01/Photos_Lastourville_3_la_Grotte_de_PAHON_01/files/page95-1066-full.html",
+                "credit": "Jean Louis Albert",
+                "caption": "Concreciones del techo de la cueva Pahon en Lastoursville",
+            },
+            {
+                "img": "https://www.echosciences-grenoble.fr/uploads/article/image/attachment/1005164068/xl_lastoursville.jpg",
+                "source": "https://www.echosciences-grenoble.fr/articles/suivez-en-direct-l-expedition-dans-les-grottes-de-lastoursville-au-gabon",
+                "credit": "Échosciences Grenoble",
+                "caption": "Expedición científica dentro del sistema de cuevas de Lastoursville",
+            },
+            {
+                "img": "https://paloc.fr/sites/paloc/files/styles/umr_social_sharing/public/2025-04/Grotte-de-Pahon-Gabon.png?itok=2ehyVpVY",
+                "source": "https://paloc.fr/fr/actualites/les-archives-de-pahon-10-000-ans-sous-le-guano-7129",
+                "credit": "UMR PALOC",
+                "caption": "Trabajo arqueológico en la cueva de Pahon, bajo los depósitos de guano",
+            },
+        ],
+        11: [
+            commons("Franceville Railway Station.jpg", "David Stanley · CC BY 2.0", "Estación del Transgabonés en Franceville"),
+            commons("Poto-Poto Market Area (32503052828).jpg", "David Stanley · CC BY 2.0", "Mercado de Poto-Poto junto al río Passa en Franceville"),
+            commons("Savorgnan de Brazza (46387342051).jpg", "David Stanley · CC BY 2.0", "Monumento a Savorgnan de Brazza en Franceville"),
+        ],
+        13: [
+            {
+                "img": "https://static1.evcdn.net/images/reduction/279557_w-1600_h-1200_q-70_m-crop.jpg",
+                "source": "https://www.evaneos.fr/gabon/voyage/etape/17123-plateaux-bateke-national-park/",
+                "credit": "Evaneos",
+                "caption": "Sabana ondulada y bosque del Parque Nacional de las Mesetas Batéké",
+            },
+            commons("Miopithecus ogouensis (Batéké Plateau National Park).jpg", "Tony King · CC BY 4.0", "Talapoín fotografiado dentro del Parque Nacional de las Mesetas Batéké"),
+            commons("Malimbus racheliae - Tony King - 468667118.jpeg", "Tony King · CC BY 4.0", "Malimbus de Rachel fotografiado junto al río Mpassa dentro del parque"),
+        ],
+        15: [
+            commons("Sainte Anne du Fernan-Vaz.jpg", "Jean Louis Albert · CC BY-SA 4.0", "Misión de Sainte-Anne y su embarcadero vistos desde la laguna"),
+            commons("Cap Lopez-La Mission Ste-Anne au Fernan Vaz.jpg", "Gabriel Gorce · dominio público", "Vista histórica de la misión Sainte-Anne du Fernan-Vaz"),
+            commons("Cathédrale des bambous.jpg", "Jean Louis Albert · CC BY-SA 4.0", "Interior de madera y bambú de la iglesia de Sainte-Anne"),
+        ],
+        17: [
+            commons("POG-From The Air.jpg", "Brian Ecton · dominio público", "Port-Gentil visto desde el aire"),
+            commons("Port-Gentil - Nation coat of arms of Gabon - 2009.jpg", "AchilleT · dominio público", "Monumento urbano en el centro de Port-Gentil"),
+            {
+                "img": "https://cdn.shopify.com/s/files/1/0631/2896/1206/files/PORT-DE-CAP-LOPEZ-2.jpg",
+                "source": "https://beauvoyage.com/blogs/magazine/gabon-5-raisons-de-partir-a-laventure-en-famille-par-la-fondatrice-de-micasaestucasa",
+                "credit": "Beau Voyage / MiCasaEsTuCasa",
+                "caption": "Faro metálico y playa del cabo Lopez, al norte de Port-Gentil",
+            },
+        ],
+        18: [
+            {
+                "img": "https://img.rts.ch/articles/2023/image/u36r77-26153018.image?h=720&w=1280",
+                "source": "https://www.rts.ch/info/monde/14153099-au-gabon-la-recherche-sur-les-gorilles-est-financee-par-le-tourisme.html",
+                "credit": "RTS",
+                "caption": "Seguimiento de gorilas en el bosque de Moukalaba-Doudou",
+            },
+            commons("Corythaeola christata Parc national Moukalaba-Doudou.jpg", "Wisi eu · CC0", "Turaco gigante fotografiado dentro de Moukalaba-Doudou"),
+            commons("Agelastes niger - markusgmeiner - 593966031.jpeg", "markusgmeiner · CC BY 4.0", "Pintada negra fotografiada dentro del Parque Nacional de Moukalaba-Doudou"),
+        ],
+    },
     "camerun": {
         1: [
             commons("German Bridge (Cross River, Mamfe).jpg", "visulogik · CC BY 2.0", "Antiguo puente alemán sobre el Cross River en Mamfe"),
@@ -342,6 +598,11 @@ PHOTOS: dict[str, dict[int, list[dict[str, str]]]] = {
 
 
 REMOVE_LINKS: dict[str, set[str]] = {
+    "gabon": {
+        "https://www.amazinggabon.com/en/plateaux-bateke-national-park/",
+        "https://gouvernement.ga/2026/06/08/tourisme-durable-marcelle-ibinga-itsitsa-en-mission-a-doussala-pour-valoriser-le-potentiel-du-parc-national-de-moukalaba-doudou/",
+        "https://triptogabon.com/parc-national-des-plateaux-betekes/",
+    },
     "camerun": {
         "https://limbewildlife.org/visit/",
         "https://limbewildlife.org/",
@@ -356,6 +617,12 @@ REMOVE_LINKS: dict[str, set[str]] = {
 
 
 REMOVE_PHOTOS: dict[str, set[str]] = {
+    "gabon": {
+        "https://www.amazinggabon.com/en/akanda-national-park/",
+        "https://www.amazinggabon.com/en/plateaux-bateke-national-park/",
+        "https://inivatourism.com/en/activities/excursion-doussala-moukalaba-doudou/",
+        "https://triptogabon.com/parc-national-des-plateaux-betekes/",
+    },
     "camerun": {
         "https://mindtrip.ai/location/djoum-south-region/djoum/lo-96LaqLCZ",
     },
@@ -363,6 +630,16 @@ REMOVE_PHOTOS: dict[str, set[str]] = {
         "https://mcta.gov.ao/ao/noticias/governadora-visita-ombala-mbalundo/",
     },
 }
+
+
+PHOTO_LEADS: dict[str, dict[int, str]] = {
+    "gabon": {
+        13: "https://static1.evcdn.net/images/reduction/279557_w-1600_h-1200_q-70_m-crop.jpg",
+        18: "https://img.rts.ch/articles/2023/image/u36r77-26153018.image?h=720&w=1280",
+    },
+}
+
+SYNC_PRIMARY_PHOTO = {"gabon"}
 
 
 def apply(country: str) -> None:
@@ -420,6 +697,21 @@ def apply(country: str) -> None:
             if marker not in existing_sources:
                 photos.append(photo)
                 existing_sources.add(marker)
+
+    for number, lead in PHOTO_LEADS.get(country, {}).items():
+        photos = by_number[number].get("photos", [])
+        lead_marker = canonical_source(lead)
+        photos.sort(key=lambda item: canonical_source(item.get("img", "")) != lead_marker)
+
+    if country in SYNC_PRIMARY_PHOTO:
+        for poi in pois:
+            photos = poi.get("photos", [])
+            if not photos:
+                continue
+            primary = photos[0]
+            poi["img"] = primary["img"]
+            poi["source"] = primary["source"]
+            poi["credit"] = primary["credit"]
 
     path.write_text(json.dumps(pois, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
