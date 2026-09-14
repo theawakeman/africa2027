@@ -125,23 +125,12 @@ ul.ticks li { margin:7px 0; padding-left:22px; position:relative; }
 ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:9px; height:9px; border-radius:2px; background:var(--sand); }
 
 .poi-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(290px,1fr)); gap:18px; margin-top:18px; }
-.poi-card { background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+.poi-card { background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; font-family:"Archivo", "Helvetica Neue", Arial, sans-serif; }
 .poi-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
-.poi-carousel { position:relative; overflow:hidden; background:var(--surface); }
-.poi-carousel-track { display:flex; transition:transform .22s ease; }
-.poi-carousel figure { flex:0 0 100%; width:100%; margin:0; }
-.poi-carousel figure a { display:block; }
-.poi-carousel figcaption { min-height:52px; padding:8px 42px 9px; border-top:1px solid var(--line);
-  color:var(--ink-soft); font-size:12px; line-height:1.4; font-family:"Archivo",sans-serif; }
-.poi-carousel button { position:absolute; top:calc((100% - 52px)/2); transform:translateY(-50%);
-  z-index:2; width:32px; height:32px; border:0; border-radius:99px; cursor:pointer;
-  color:#fff; background:rgba(22,50,79,.78); font:700 19px/1 "Archivo",sans-serif; }
-.poi-carousel button:hover { background:var(--navy); }
-.poi-carousel .prev { left:7px; }
-.poi-carousel .next { right:7px; }
-.poi-carousel-count { position:absolute; right:8px; top:8px; z-index:2; padding:2px 7px;
-  border-radius:99px; color:#fff; background:rgba(22,50,79,.78);
-  font:700 10.5px/1.5 "Archivo",sans-serif; }
+.poi-grid > .poi-card { cursor:pointer; }
+.poi-grid > .poi-card .poi-desc:not(.dognote) { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:5; overflow:hidden; }
+.poi-grid > .poi-card .poi-details { display:none; }
+.poi-details { display:grid; gap:7px; }
 .poi-decision { margin:2px 0 0; display:grid; gap:5px; }
 .poi-decision div { display:grid; grid-template-columns:minmax(92px,30%) 1fr; gap:8px;
   padding-top:5px; border-top:1px solid var(--line); }
@@ -214,7 +203,7 @@ code a.fuente::after { opacity:.45; }
 .a27-leyenda-x { background:none; border:none; cursor:pointer; font-size:19px; line-height:1; color:#5F6B72; padding:0 2px; }
 .a27-leyenda-x:hover { color:#16324F; }
 
-dialog.poi-modal { border:none; border-radius:12px; padding:0; max-width:520px; width:calc(100vw - 32px); background:var(--surface); color:var(--ink); box-shadow:0 12px 50px rgba(0,0,0,.4); }
+dialog.poi-modal { border:none; border-radius:12px; padding:0; max-width:520px; width:calc(100vw - 32px); max-height:calc(100vh - 32px); overflow:auto; background:var(--surface); color:var(--ink); box-shadow:0 12px 50px rgba(0,0,0,.4); }
 dialog.poi-modal::backdrop { background:rgba(10,20,30,.55); }
 dialog.poi-modal .poi-card { border:none; border-radius:0; }
 dialog.poi-modal .close { position:absolute; top:8px; right:8px; z-index:2; background:rgba(22,50,79,.75); color:#fff; border:none; border-radius:99px; width:32px; height:32px; font-size:17px; cursor:pointer; font-family:Archivo,sans-serif; }
@@ -282,8 +271,9 @@ MODAL_JS = """
       if (ev.target.closest('a')) return;
       openPoiCard(el.getAttribute('data-poi'));
     });
-    if (el.tagName === 'TR') { el.classList.add('rowlink'); el.setAttribute('tabindex','0');
-      el.addEventListener('keydown', e => { if (e.key === 'Enter') el.click(); }); }
+    el.setAttribute('tabindex','0');
+    el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); } });
+    if (el.tagName === 'TR') el.classList.add('rowlink');
   });
   dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
   // Enlaces directos tipo .../pais/#poi-12 (usados en el campo "Ficha" de My Maps):
