@@ -14,7 +14,7 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Cerrado: 93/93 | Cerrado: 93/93 | Cerrado: 93/93 con foto y enlace; 90 galerías | Cerrado: 11 puntos exactos; 4 pines genéricos retirados |
 | 5 | Zambia, Tanzania, Kenia, Mozambique | Cerrado | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 con foto; 74 galerías | Cerrado: 9 puntos exactos; 8 genéricos retirados |
 | 6 | Uganda, Ruanda, Malaui | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con foto; 58 galerías | Cerrado: 7 puntos exactos; 4 genéricos retirados |
-| 7 | Zimbabue, Botsuana, Sudáfrica | Cerrado | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 con foto; 44 galerías | Pendiente |
+| 7 | Zimbabue, Botsuana, Sudáfrica | Cerrado | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 con foto; 44 galerías | Cerrado: 10 puntos exactos; 6 genéricos retirados |
 | 8 | Esuatini, Lesoto | Cerrado | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 con foto; 36 galerías | Pendiente |
 | 9 | Namibia | Cerrado | Cerrado: 24/24 | Cerrado: 24/24 | Cerrado: 24/24 | Cerrado: 24/24 con galería; 72 fotos | Pendiente |
 
@@ -57,14 +57,15 @@ rehecho por Cabinda; la fase activa es la auditoría de agua de servicio por gru
   capas. La validación global confirma esa sincronía en todos los PDIs que ya
   tienen fotografía. En el grupo 8 los 36 PDIs comparten fuente, resumen y
   portada entre tarjeta, globo y modal, y todos disponen de galería.
-- Agua para lavar/ducharse en el vehículo: grupos 1–6 cerrados con 66 puntos
+- Agua para lavar/ducharse en el vehículo: grupos 1–7 cerrados con 76 puntos
   físicos, condiciones de acceso y descartes explícitos; expedientes en
   [`audit/agua/grupo1.md`](agua/grupo1.md) y
   [`audit/agua/grupo2.md`](agua/grupo2.md) y
   [`audit/agua/grupo3.md`](agua/grupo3.md),
   [`audit/agua/grupo4.md`](agua/grupo4.md),
-  [`audit/agua/grupo5.md`](agua/grupo5.md) y
-  [`audit/agua/grupo6.md`](agua/grupo6.md). Grupos 7–9 pendientes. No se da por
+  [`audit/agua/grupo5.md`](agua/grupo5.md),
+  [`audit/agua/grupo6.md`](agua/grupo6.md) y
+  [`audit/agua/grupo7.md`](agua/grupo7.md). Grupos 8–9 pendientes. No se da por
   válido un grifo genérico ni una instalación con duchas sin acceso documentado.
 - Corredor Congo–RD Congo: cerrado el replanteamiento de contenido y mapa.
   La ruta principal usa Pointe-Noire → Massabi → Cabinda → Yema → Muanda →

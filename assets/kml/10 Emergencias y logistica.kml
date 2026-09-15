@@ -2164,13 +2164,6 @@
     <Point><coordinates>21.2561,-28.4478,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · todo el país</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua del grifo potable de calidad europea en ciudades y en la inmensa mayoría de los pueblos; campings, estaciones de servicio y talleres permiten llenar el depósito de uso general sin restricción. Excepciones a tratar: algunos municipios pequeños del Karoo y del Eastern Cape con avisos puntuales de calidad, y los campamentos sin servicios del Richtersveld y del Kgalagadi, donde hay que entrar cargado.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>18.4241,-33.9249,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
     <name>Veterinarios, laboratorios y residencias caninas · Pretoria y Johannesburgo</name>
     <description><![CDATA[<b>Servicio</b><br/>La facultad de veterinaria de Onderstepoort (Universidad de Pretoria) y los laboratorios privados de Gauteng son EL MEJOR SITIO DE TODO EL VIAJE para poner al día la documentación del perro: titulación de rabia y panel de enfermedades por garrapatas y vectores. Residencias caninas profesionales abundantes en toda el área metropolitana.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.7479,28.2293">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
@@ -2190,6 +2183,34 @@
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>30.95,-24.35,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Country Park (Johannesburgo)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[PUNTOS DE AGUA; LLENADO CONDICIONADO] Camping para overlanders con agua central, fregadero y duchas solares. Maps indica mascotas; pactar litros, toma, coste y calidad.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.0578,27.88123">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.88123,-26.0578,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · African Overlanders (Ciudad del Cabo)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA PUBLICADA; BASE OVERLAND] Duchas calientes, cocina, electricidad y taller. Sin grifo de parcela ni llenado publicado; reservar y negociar cualquier carga.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.59028,18.5378">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>18.5378,-33.59028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Springbok Caravan Park</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[AGUA EN PARCELA; LLENADO CONDICIONADO] Stands con agua/electricidad y abluciones; perro bajo consulta. Acordar volumen, conexión, sequía, coste y tratamiento.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.67333,17.89899">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>17.89899,-29.67333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Twee Rivieren (Kgalagadi)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[DUCHA Y AGUA MUY MINERALIZADA; NO RECARGA PLANIFICADA] Camping con abluciones. Llevar agua de Upington y 10 l de emergencia; wilderness camps sin agua potable.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.47256,20.61218">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>20.61218,-26.47256,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada RECOMENDADA — Matchedje / Puente de la Unidad 2 (desde Tanzania)</name>
@@ -3067,27 +3088,6 @@
     <Point><coordinates>29.6833,-16.8167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · ciudades del eje</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Mutare, Masvingo, Bulawayo, Harare y Victoria Falls. Para el depósito de uso general (ducha, aseo, vajilla), los campings de overlanders de Victoria Falls, los lodges del borde de Matobo y los campings de Great Zimbabwe y Nyanga permiten llenar con manguera: confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>28.5833,-20.15,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Agua · campamentos de ZimParks</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Main Camp, Sinamatella, Robins (Hwange), Maleme y Sandy Spruit (Matobo), Nyamepi (Mana Pools) y los campamentos de Nyanga tienen agua corriente y aseos, pero el suministro es irregular y NO potable sin tratar. Entrar a cada parque al 100 % de depósitos.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.0,26.5">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>26.5,-19.0,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Agua · Gonarezhou, Chizarira y la variante norte</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Sin ninguna garantía: los campamentos de naturaleza de Gonarezhou y los siete de Chizarira no tienen agua tratada, y en Chizarira hay que entrarla toda. Filtro obligatorio y nunca beber del Runde, del Save ni del Zambeze sin tratar (bilharzia y cocodrilos en la orilla).<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.3,31.8833">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.8833,-21.3,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
     <name>Taller y recambios · Bulawayo</name>
     <description><![CDATA[<b>Servicio</b><br/>La mejor oferta de talleres, recambios, neumáticos y soldadura del sur del país, herencia de su pasado industrial y ferroviario. Parada técnica recomendada de los dos vehículos antes de Hwange y de la salida a Botsuana.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
@@ -3100,6 +3100,27 @@
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.0522,-17.8292,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Explorers Village (Victoria Falls)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA Y FREGADO; CAMIONES OVERLAND] Bahías para camiones y camper con duchas calientes/frías. No publica toma de llenado ni potabilidad; reservar y confirmar perro.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-17.92417,25.84106">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>25.84106,-17.92417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Big Cave Camp (Matobo)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA; PERRO NO ADMITIDO EN MAPS] Aseos con agua caliente y fregadero. No publica toma para el vehículo; no usar como recarga sin autorización.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.49637,28.43501">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.43501,-20.49637,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Antelope Park (Gweru)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[TOMA EN CAMPING; LLENADO CONDICIONADO] Publica grifos, duchas calientes y zona de lavado para overlanders. Acordar litros, conexión, coste, tratamiento y perro.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.50738,29.72028">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.72028,-19.50738,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Kazungula Road (desde Zimbabue)</name>
@@ -3193,18 +3214,25 @@
     <Point><coordinates>27.5167,-21.1667,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Kasane y Maun</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema; lodges y campings permiten llenar el depósito de uso general con manguera. Son los dos únicos sitios del norte donde dar por hecha la recarga.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.9833,23.4167">Google Maps</a>]]></description>
+    <name>Agua de servicio · BOGA Rest Camp (Maun)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[AGUA CORRIENTE Y DUCHA; LLENADO CONDICIONADO] Parcela servida con agua, electricidad, ducha caliente y fregadero. Pactar litros, toma, coste, calidad y perro.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.94196,23.50782">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>23.4167,-19.9833,0</coordinates></Point>
+    <Point><coordinates>23.50782,-19.94196,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua · sin recarga en CKGR, Makgadikgadi y Kubu</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Los campings del Kalahari Central y de las salinas NO TIENEN AGUA. Tracks4Africa recomienda 6 litros por persona y día más 2 litros por persona y día de reserva para 5 días extra. Salir con depósitos al 100% desde Ghanzi, Rakops o Maun.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.4167,23.75">Google Maps</a>]]></description>
+    <name>Agua de servicio · El-Fari Camp (Ghanzi)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[GRIFO EN PARCELA; LLENADO CONDICIONADO] Cada campsite publica toma y las abluciones, agua caliente/fría. Confirmar grandes volúmenes, potabilidad, coste y perro.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.35816,22.13544">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>23.75,-21.4167,0</coordinates></Point>
+    <Point><coordinates>22.13544,-21.35816,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Elephant Sands (Nata–Kasane)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA; AGUA RESTRINGIDA] Ducha caliente, pero el agua se bombea desde 14 km y se corta a las 22:00. No pedir recarga; recinto sin valla y perro sin confirmar.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.74904,26.07125">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>26.07125,-19.74904,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Chavuma/Caripande (desde Angola)</name>
