@@ -8,13 +8,46 @@
     "icon": "overland",
     "color": "ámbar",
     "time": "1 noche",
-    "lat": 21.23003,
-    "lon": -13.66437,
-    "desc": "Monolito y vivac; tramo remoto junto al eje ferroviario. Acceso solo con track reciente, autonomía y criterio local.",
+    "lat": 21.2241667,
+    "lon": -13.6638889,
+    "desc": "Ben Amera es un enorme inselberg aislado junto al corredor del tren minero. Su aislamiento y escala justifican el desvío, pero no hay servicios ni una carretera final convencional.",
     "dog_note": "",
     "credit": "Les3corbiers · CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ben_Amira_2006.jpg",
-    "img": "assets/img/mauritania/01.jpg"
+    "img": "assets/img/mauritania/01.jpg",
+    "visit": {
+      "why": "Es uno de los grandes paisajes minerales de Mauritania y un vivac memorable cuando se llega con guía y autonomía reales.",
+      "see": "La pared granítica, la llanura abierta, el paso del tren a distancia y los cambios de luz; Aïcha es una parada distinta cercana.",
+      "access": "El pin se ha ajustado a la ficha exacta de Ben Amera en Google Maps. Acceso 4x4 únicamente con track reciente, guía local, dos vehículos o plan de rescate y combustible de retorno.",
+      "when": "Llegar con luz, acampar solo en zona acordada y salir antes del calor; prever al menos una noche.",
+      "skip": "No intentarlo en solitario, con tormenta de arena, autonomía justa o sin confirmar el estado de la pista desde Choum."
+    },
+    "links": [
+      {
+        "label": "Información de Ben Amera",
+        "url": "https://en.wikipedia.org/wiki/Ben_Amera"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/01.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Ben_Amira_2006.jpg",
+        "credit": "Les3corbiers · CC BY-SA 3.0",
+        "caption": "Panorámica del monolito de Ben Amera en su llanura."
+      },
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn5Ir5lYGK2hsrKWYumFUuWlo_zzfRoytLUh-Ql07Ib79v3x6Hx1ttkeJ5s15fBIe2_CTYa4P7R8lavjjAlGc4iwjmpErXkamMHCN-aqpRLoiROLCj5Gbi1f-ze-4sdS7X1zeryug=w1200-h675-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Ben%20Amera%20Mauritania",
+        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+        "caption": "Escala del monolito en una fotografía de su ficha de Google Maps."
+      },
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6PejmC1hPJXPOd2FBbVNfBXe0rc7SYfOdbQkvAh07lliittRloJ7EvPL4cvQl6OrGUQmRCkoXxGygSkaB-UHPinUyNe1ZH9dvuqCkO6kes7v6_ENt9oj-BXu5WRkZMnix84o4nz6fyWnv=w1200-h675-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Ben%20Amera%20Mauritania",
+        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+        "caption": "Otra vista reciente del mismo macizo en Google Maps."
+      }
+    ]
   },
   {
     "n": 2,
@@ -27,11 +60,44 @@
     "time": "½ día",
     "lat": 21.29494,
     "lon": -13.69584,
-    "desc": "Monolito y conjunto escultórico tallado en 1999, a unos 8 km al noroeste de Ben Amera; visita combinada por pista.",
+    "desc": "Aïcha es el monolito vecino de Ben Amera y alberga esculturas realizadas durante un simposio internacional de 1999. El interés combina relieve natural y arte contemporáneo al aire libre.",
     "dog_note": "",
     "credit": "Embajada de Alemania en Nuakchot · crédito institucional",
     "source": "https://nouakchott.diplo.de/mr-de/2245892-2245892",
-    "img": "assets/img/mauritania/02.jpg"
+    "img": "assets/img/mauritania/02.jpg",
+    "visit": {
+      "why": "Aporta una visita diferente dentro del mismo bloque remoto y evita reducir la excursión a una única roca.",
+      "see": "El monolito, las esculturas talladas alrededor de su base y la relación visual con las formaciones menores.",
+      "access": "Google Maps no ofrece una ficha inequívoca; se conserva la coordenada cartográfica auditada y se accede únicamente como extensión guiada desde Ben Amera.",
+      "when": "Con luz baja y dentro del mismo día o vivac de Ben Amera.",
+      "skip": "No buscarlo mediante navegación automática aislada ni añadir el desvío si guía, pista o combustible no están resueltos."
+    },
+    "links": [
+      {
+        "label": "Embajada alemana · galería del Adrar",
+        "url": "https://nouakchott.diplo.de/mr-de/2245892-2245892"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/02.jpg",
+        "source": "https://nouakchott.diplo.de/mr-de/2245892-2245892",
+        "credit": "Embajada de Alemania en Nuakchot · crédito institucional",
+        "caption": "Monolito de Aïcha fotografiado por la embajada alemana."
+      },
+      {
+        "img": "https://nouakchott.diplo.de/resource/image/2245544/16x9/1180/664/c2d5b92068a21cb854189cb72c669567/60FB2187F6E29E68D767813E6B9EEFA0/ben-aicha-vorderseite.jpg",
+        "source": "https://nouakchott.diplo.de/mr-de/2245892-2245892",
+        "credit": "Embajada de Alemania en Nuakchot · crédito institucional",
+        "caption": "Frente del monolito de Aïcha en la galería institucional."
+      },
+      {
+        "img": "https://nouakchott.diplo.de/resource/image/2245548/16x9/1180/664/d05feaeddd96b83ecc8960e613da1229/93F996D53EEA1CB7D3B2038847CFD177/ben-aicha-rueckseite.jpg",
+        "source": "https://nouakchott.diplo.de/mr-de/2245892-2245892",
+        "credit": "Embajada de Alemania en Nuakchot · crédito institucional",
+        "caption": "Cara posterior de Aïcha y su entorno desértico."
+      }
+    ]
   },
   {
     "n": 3,
@@ -44,11 +110,44 @@
     "time": "1–2 días",
     "lat": 20.46343,
     "lon": -12.36648,
-    "desc": "Ksar histórico, mezquita y bibliotecas; base cultural del Adrar y punto de apoyo para el bucle oriental.",
+    "desc": "Chinguetti conserva una mezquita de piedra, barrios de adobe y bibliotecas familiares con manuscritos. Es patrimonio vivo y frágil, no una colección de fachadas abandonadas.",
     "dog_note": "",
     "credit": "Radosław Botev · CC BY 3.0 PL",
     "source": "https://commons.wikimedia.org/wiki/File:Chinguetti_Mosque.jpg",
-    "img": "assets/img/mauritania/03.jpg"
+    "img": "assets/img/mauritania/03.jpg",
+    "visit": {
+      "why": "Es la escala cultural central del Adrar y permite entender las antiguas rutas de peregrinación y saber islámico.",
+      "see": "Mezquita desde el exterior, callejones, dunas que alcanzan el borde urbano y una biblioteca visitada con permiso y guía.",
+      "access": "El pin conserva el núcleo histórico auditado. Aparcar fuera de las calles estrechas, contratar guía local y acordar antes el acceso y la contribución a cada biblioteca.",
+      "when": "Mañana y tarde, reservando al menos medio día y evitando el calor central.",
+      "skip": "Omitir interiores si no hay responsable presente; no manipular ni fotografiar manuscritos sin permiso expreso."
+    },
+    "links": [
+      {
+        "label": "UNESCO · antiguos ksour de Mauritania",
+        "url": "https://whc.unesco.org/en/list/750/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/03.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Chinguetti_Mosque.jpg",
+        "credit": "Radosław Botev · CC BY 3.0 PL",
+        "caption": "Mezquita histórica de Chinguetti."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinguetti_dunes.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chinguetti_dunes.jpg",
+        "credit": "Radosław Botev · CC BY 3.0 PL",
+        "caption": "Dunas del Sáhara en el borde de Chinguetti."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinguetti-Manuscrit_(1).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chinguetti-Manuscrit_(1).jpg",
+        "credit": "Ji-Elle · CC BY-SA 3.0",
+        "caption": "Manuscrito conservado en una biblioteca de Chinguetti."
+      }
+    ]
   },
   {
     "n": 4,
@@ -61,11 +160,44 @@
     "time": "1 día",
     "lat": 20.93373,
     "lon": -11.61737,
-    "desc": "Antiguo ksar y puerta de acceso al entorno de Richat; reservar margen para pista, guía y meteorología.",
+    "desc": "Ouadane conserva las ruinas escalonadas de un antiguo ksar caravanero y un núcleo habitado más reciente. Es también la base lógica para organizar Richat.",
     "dog_note": "",
     "credit": "www.Bildtankstelle.de · CC BY-SA 1.0",
     "source": "https://commons.wikimedia.org/wiki/File:Oudane_old_tower.jpg",
-    "img": "assets/img/mauritania/04.jpg"
+    "img": "assets/img/mauritania/04.jpg",
+    "visit": {
+      "why": "La lectura del asentamiento y su posición sobre el wadi justifican la visita incluso sin continuar hasta el Ojo del Sáhara.",
+      "see": "Minarete reconstruido, muros de piedra, callejones, oasis y pequeño museo local.",
+      "access": "El pin está en la ciudad antigua auditada. Llegar por el acceso habitual, aparcar antes del caserío y recorrer con guía; Richat exige otra navegación.",
+      "when": "Primera o última hora; dormir allí mejora la visita y la planificación del siguiente tramo.",
+      "skip": "No usar Ouadane como promesa de llegar a Richat si no hay guía, combustible y pista confirmados."
+    },
+    "links": [
+      {
+        "label": "UNESCO · antiguos ksour de Mauritania",
+        "url": "https://whc.unesco.org/en/list/750/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/04.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Oudane_old_tower.jpg",
+        "credit": "www.Bildtankstelle.de · CC BY-SA 1.0",
+        "caption": "Torre y ruinas de la ciudad antigua de Ouadane."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ouadane_1997_08.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ouadane_1997_08.jpg",
+        "credit": "LBM1948 · CC BY-SA 4.0",
+        "caption": "Ruinas del ksar y minarete de Ouadane."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/OuadaneMuseum2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:OuadaneMuseum2.jpg",
+        "credit": "Clemens Schmillen · CC BY-SA 4.0",
+        "caption": "Piezas líticas expuestas en el museo de Ouadane."
+      }
+    ]
   },
   {
     "n": 5,
@@ -78,11 +210,44 @@
     "time": "½ día",
     "lat": 20.25242,
     "lon": -13.0877,
-    "desc": "Palmeral y surgencia de agua; parada de descanso en el Adrar combinable con Tifoujar y Valle Blanco.",
+    "desc": "Terjit es un oasis encajado en un barranco del Adrar, con palmeras y surgencias que refrescan un corredor rocoso. El caudal y las condiciones de baño no deben darse por seguros.",
     "dog_note": "",
     "credit": "Ammar Hassan · CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Oasis_In_The_Desert_(15166702115).jpg",
-    "img": "assets/img/mauritania/05.jpg"
+    "img": "assets/img/mauritania/05.jpg",
+    "visit": {
+      "why": "Es una pausa de sombra y agua radicalmente distinta de los ksour y las pistas del altiplano.",
+      "see": "Palmeral, paredes del barranco, acequia y zona de descanso; respetar usos locales del agua.",
+      "access": "El pin coincide con el oasis auditado. Usar el acceso gestionado, pagar la tasa que corresponda y confirmar dónde se puede estacionar y bañarse.",
+      "when": "Mitad del día como descanso o mañana para caminar; una o dos horas suelen bastar.",
+      "skip": "Descartarlo tras lluvias fuertes, con acceso cerrado o si el lugar está saturado y no puede visitarse sin molestar."
+    },
+    "links": [
+      {
+        "label": "Información de Terjit",
+        "url": "https://en.wikipedia.org/wiki/Terjit"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/05.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Oasis_In_The_Desert_(15166702115).jpg",
+        "credit": "Ammar Hassan · CC BY 2.0",
+        "caption": "Palmeras y agua en el oasis de Terjit."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Oasis_de_Tergit_(02).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Oasis_de_Tergit_(02).jpg",
+        "credit": "Ji-Elle · CC BY-SA 3.0",
+        "caption": "Vista del palmeral encajado de Terjit."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Oasis_de_Tergit_(05).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Oasis_de_Tergit_(05).jpg",
+        "credit": "Ji-Elle · CC BY-SA 3.0",
+        "caption": "Zona de agua y sombra dentro del mismo oasis."
+      }
+    ]
   },
   {
     "n": 6,
@@ -95,11 +260,44 @@
     "time": "1–2 noches",
     "lat": 20.51819,
     "lon": -13.05439,
-    "desc": "Base principal para combustible, agua, talleres, provisiones, comunicaciones y contratación de guía.",
+    "desc": "Atar es la principal base de combustible, agua, talleres, mercado y contratación de guías del Adrar. Su valor para el viaje es logístico más que monumental.",
     "dog_note": "",
     "credit": "Ji-Elle · CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Atar_square.jpg",
-    "img": "assets/img/mauritania/06.jpg"
+    "img": "assets/img/mauritania/06.jpg",
+    "visit": {
+      "why": "Permite preparar con criterio Ben Amera, Chinguetti, Ouadane y las pistas del Adrar antes de quedar sin apoyo.",
+      "see": "Mercado, plaza, mezquita y vida urbana; no confundir una escala de servicios con una jornada turística completa.",
+      "access": "El pin conserva el centro de Atar auditado. Elegir taller y alojamiento con referencias, llenar depósitos y verificar permisos y tracks cara a cara.",
+      "when": "Día laborable y con margen para resolver averías; evitar llegadas nocturnas.",
+      "skip": "Reducirla a gestiones si no hay mercado activo o si el calor hace poco útil el paseo urbano."
+    },
+    "links": [
+      {
+        "label": "Información de Atar",
+        "url": "https://en.wikipedia.org/wiki/Atar,_Mauritania"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/06.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Atar_square.jpg",
+        "credit": "Ji-Elle · CC BY-SA 3.0",
+        "caption": "Plaza situada frente al mercado de Atar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atar_Market_(1).JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Atar_Market_(1).JPG",
+        "credit": "Ji-Elle · CC BY-SA 3.0",
+        "caption": "Entrada y actividad del mercado de Atar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atar_Market_(2).JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Atar_Market_(2).JPG",
+        "credit": "Ji-Elle · CC BY-SA 3.0",
+        "caption": "Otra vista del mismo mercado y su entorno urbano."
+      }
+    ]
   },
   {
     "n": 7,
@@ -112,11 +310,44 @@
     "time": "1–2 días",
     "lat": 21.11085,
     "lon": -11.39283,
-    "desc": "Ojo del Sáhara; bloque 4x4 remoto desde Ouadane que exige navegación, combustible y margen de retorno.",
+    "desc": "Guelb er Richat es una estructura geológica de anillos concéntricos de decenas de kilómetros. Desde tierra se perciben crestas y depresiones; la forma completa solo se entiende con mapa o imagen aérea.",
     "dog_note": "",
     "credit": "USGS/EROS/NASA Landsat · dominio público",
     "source": "https://commons.wikimedia.org/wiki/File:Richat_Structure_by_Landsat_7.jpg",
-    "img": "assets/img/mauritania/07.jpg"
+    "img": "assets/img/mauritania/07.jpg",
+    "visit": {
+      "why": "Convierte una travesía 4x4 exigente en una lectura geológica única, siempre que las expectativas visuales sean realistas.",
+      "see": "Anillos rocosos, brecha central, llanuras y cambios de relieve; no se ve un “ojo” perfecto desde un único mirador.",
+      "access": "El pin marca la zona central auditada. Salir desde Ouadane con guía, combustible de reserva, navegación redundante y margen para regresar por otra traza si cambia la arena.",
+      "when": "Dos días como bloque razonable desde Ouadane; conducir solo con luz y tiempo estable.",
+      "skip": "No intentarlo sin guía reciente, comunicaciones, autonomía o con previsión de arena y viento severos."
+    },
+    "links": [
+      {
+        "label": "NASA Earth Observatory · Richat",
+        "url": "https://earthobservatory.nasa.gov/images/92071/the-eye-of-the-sahara"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/07.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Richat_Structure_by_Landsat_7.jpg",
+        "credit": "USGS/EROS/NASA Landsat · dominio público",
+        "caption": "Estructura de Richat vista por el satélite Landsat 7."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/GUELB_RICHAT_Ombilic_(central_zone).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:GUELB_RICHAT_Ombilic_(central_zone).jpg",
+        "credit": "Michel Jébrak · CC BY-SA 4.0",
+        "caption": "Brecha geológica en la zona central de Richat."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/RichatStructure.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:RichatStructure.jpg",
+        "credit": "Clemens Schmillen · CC BY-SA 4.0",
+        "caption": "Relieve de Richat observado desde el terreno."
+      }
+    ]
   },
   {
     "n": 8,
@@ -129,11 +360,44 @@
     "time": "1–2 días",
     "lat": 19.87841,
     "lon": -16.30442,
-    "desc": "Parque costero y hábitat de aves migratorias; acceso sujeto a autorización, guía, pistas permitidas y reglas sobre el perro.",
+    "desc": "Iwik es uno de los accesos comunitarios al Banc d’Arguin, gran sistema de bajos, islas y marismas protegido por UNESCO. La visita depende de autorización, guía, marea y pistas permitidas.",
     "dog_note": "",
     "credit": "NASA Earth Observatory · dominio público",
     "source": "https://commons.wikimedia.org/wiki/File:Bancdarguin_oli_2019362.jpg",
-    "img": "assets/img/mauritania/08.jpg"
+    "img": "assets/img/mauritania/08.jpg",
+    "visit": {
+      "why": "Ofrece la mejor experiencia de costa y aves de Mauritania, pero solo si se organiza con el parque y la comunidad imraguen.",
+      "see": "Bancos intermareales, piraguas, poblado y concentraciones de aves según temporada; ninguna especie está garantizada.",
+      "access": "El pin identifica Iwik, no todo el parque. Contactar con el PNBA, entrar por la pista autorizada y confirmar alojamiento, combustible, perro y sectores abiertos.",
+      "when": "Al menos una noche y salida con marea adecuada; noviembre–marzo suele concentrar migratorias.",
+      "skip": "Descartarlo sin permiso, guía o autonomía, y nunca abrir una pista propia por dunas o planicies de marea."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Parc National du Banc d’Arguin",
+        "url": "https://whc.unesco.org/en/list/506/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/08.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bancdarguin_oli_2019362.jpg",
+        "credit": "NASA Earth Observatory · dominio público",
+        "caption": "Imagen satelital de bajos e islas del Banc d’Arguin."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Iwik._Village_du_Banc_d'Arguin_en_Mauritanie.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Iwik._Village_du_Banc_d'Arguin_en_Mauritanie.jpg",
+        "credit": "Wikimedia Commons · licencia en la fuente",
+        "caption": "Poblado de Iwik dentro del parque nacional."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Banc_d'Arguin_National_Park,_Mauritania_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Banc_d'Arguin_National_Park,_Mauritania_(cropped).jpg",
+        "credit": "Copernicus Sentinel‑2 · atribución Copernicus",
+        "caption": "Sistema costero del Banc d’Arguin visto por satélite."
+      }
+    ]
   },
   {
     "n": 9,
@@ -146,11 +410,44 @@
     "time": "2–3 h",
     "lat": 18.10338,
     "lon": -16.02594,
-    "desc": "Actividad portuaria y parada urbana; extremar discreción fotográfica y confirmar restricciones locales antes de usar dron.",
+    "desc": "El Port de Pêche de Nuakchot concentra el retorno de piraguas, descarga y venta directa sobre la playa. Es un lugar de trabajo intenso, no un decorado turístico.",
     "dog_note": "",
     "credit": "Hugues · CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Port_de_peche_Nouakchott.jpg",
-    "img": "assets/img/mauritania/09.jpg"
+    "img": "assets/img/mauritania/09.jpg",
+    "visit": {
+      "why": "Permite observar una de las actividades económicas y escenas cotidianas más potentes de la capital.",
+      "see": "Piraguas pintadas, equipos de descarga, mercado y humo de pescado; mirar sin bloquear recorridos ni invadir retratos.",
+      "access": "El pin corresponde al sector central del puerto pesquero auditado. Aparcar antes de la arena, llevar poco equipo y pedir permiso para primeros planos.",
+      "when": "Media tarde, cuando regresan embarcaciones; irse antes de anochecer.",
+      "skip": "Omitirlo si hay controles, tensión, mar muy fuerte o no se puede visitar con discreción y seguridad."
+    },
+    "links": [
+      {
+        "label": "Google Maps · Port de Pêche",
+        "url": "https://www.google.com/maps/search/?api=1&query=Port+de+Peche+Nouakchott"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/09.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Port_de_peche_Nouakchott.jpg",
+        "credit": "Hugues · CC BY-SA 2.0",
+        "caption": "Piraguas y actividad en el Port de Pêche de Nuakchot."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nouakchott_Beach_Portrait_(17638535788).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nouakchott_Beach_Portrait_(17638535788).jpg",
+        "credit": "Mark Fischer · CC BY-SA 2.0",
+        "caption": "Trabajador y embarcaciones en el mismo puerto pesquero."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Port_de_P%C3%AAche,_or_Fishermen's_Beach,_in_Nouakchott,_the_capital_city_of_Mauritania,_landing_the_catch_(1625).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Port_de_P%C3%AAche,_or_Fishermen's_Beach,_in_Nouakchott,_the_capital_city_of_Mauritania,_landing_the_catch_(1625).jpg",
+        "credit": "Michał Huniewicz · CC BY 2.0",
+        "caption": "Descarga de pescado desde una piragua en la orilla."
+      }
+    ]
   },
   {
     "n": 10,
@@ -163,11 +460,44 @@
     "time": "1 día",
     "lat": 16.39078,
     "lon": -16.35094,
-    "desc": "Humedales del delta y enlace natural con Diama: la casa del parque está 12 km después del puesto fronterizo de Diama y la entrada se paga por persona y noche; confirmar autorización, guía, estado de pista y admisión del perro.",
+    "desc": "Diawling protege humedales del delta del Senegal junto al paso de Diama. Sus cuencas y aves cambian con la gestión del agua y la estación.",
     "dog_note": "",
-    "credit": "Parc National du Diawling · kit de prensa oficial",
-    "source": "https://www.pnd.mr/espace-presse/",
-    "img": "assets/img/mauritania/10.jpg"
+    "credit": "Parc National du Diawling · fototeca oficial",
+    "source": "https://www.pnd.mr/espace-presse/kit-presse/",
+    "img": "assets/img/mauritania/10.jpg",
+    "visit": {
+      "why": "Combina una frontera terrestre útil con una visita de humedal mucho más tranquila que los grandes parques de fauna.",
+      "see": "Láminas de agua, diques, aves acuáticas, vegetación de delta y proyectos comunitarios; no se promete fauna concreta.",
+      "access": "El pin marca la casa del parque auditada, al sur de Diama. Confirmar apertura, tasa, guía, estado de la pista y admisión del perro antes de entrar.",
+      "when": "Mañana y estación con agua; reservar medio día además del tiempo fronterizo.",
+      "skip": "No entrar tras lluvias, con cierre comunicado o si la frontera ha consumido el margen de luz."
+    },
+    "links": [
+      {
+        "label": "Parc National du Diawling · visita",
+        "url": "https://www.pnd.mr/venir-au-pnd/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/10.jpg",
+        "source": "https://www.pnd.mr/espace-presse/kit-presse/",
+        "credit": "Parc National du Diawling · fototeca oficial",
+        "caption": "Humedal del Diawling en la fototeca oficial del parque."
+      },
+      {
+        "img": "https://www.pnd.mr/wp-content/uploads/2021/09/Cheyal-enHaut-R0157860-scaled.jpg",
+        "source": "https://www.pnd.mr/espace-presse/kit-presse/",
+        "credit": "Parc National du Diawling · fototeca oficial",
+        "caption": "Vista del humedal y sus canales en Diawling."
+      },
+      {
+        "img": "https://www.pnd.mr/wp-content/uploads/2022/04/Vue-ae%CC%81riennes-bassins-Diawling-8.jpg",
+        "source": "https://www.pnd.mr/espace-presse/kit-presse/",
+        "credit": "Parc National du Diawling · fototeca oficial",
+        "caption": "Vista aérea de las cuencas gestionadas del parque."
+      }
+    ]
   },
   {
     "n": 11,
@@ -180,11 +510,44 @@
     "time": "½ día",
     "lat": 20.09967,
     "lon": -13.19672,
-    "desc": "Descenso escénico y arenoso hacia Oued El Abiod; validar firme, trazado y sentido recomendado con información reciente.",
+    "desc": "Tifoujar es un paso arenoso que desciende del plateau hacia el Oued el Abiod. La dificultad cambia con acumulaciones, carga y sentido de marcha.",
     "dog_note": "",
     "credit": "Clemens Schmillen · CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:TifoujarPass.jpg",
-    "img": "assets/img/mauritania/11.jpg"
+    "img": "assets/img/mauritania/11.jpg",
+    "visit": {
+      "why": "Es uno de los tramos 4x4 más escénicos del Adrar y conecta de forma lógica con el Valle Blanco.",
+      "see": "Borde del plateau, garganta, rampa arenosa y vista sobre el valle; la conducción forma parte de la visita.",
+      "access": "El pin coincide con la cartografía del paso y su ficha geográfica. Validar el mismo día la línea, el sentido recomendado y los puntos de escape con un guía del Adrar.",
+      "when": "Primera parte del día, con temperatura baja y vehículos juntos.",
+      "skip": "Usar carretera alternativa si hay arena profunda, lluvia, vehículo pesado sin margen o información local contradictoria."
+    },
+    "links": [
+      {
+        "label": "Información del paso de Tifoujar",
+        "url": "https://en.wikipedia.org/wiki/Tifoujar_Pass"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/11.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:TifoujarPass.jpg",
+        "credit": "Clemens Schmillen · CC BY-SA 4.0",
+        "caption": "Vista general del paso de Tifoujar."
+      },
+      {
+        "img": "https://sd-6.archive-host.com/membres/images/53d373795aa1c7cc52ff5b386efe94a6771af673/Casatrotter-2018/IMG_2391.jpg",
+        "source": "https://casa-trotter.com/phpBB3/viewtopic.php?p=163004",
+        "credit": "Pepone50 / Casa Trotter · derechos en la fuente",
+        "caption": "Entrada norte del paso documentada en febrero de 2018."
+      },
+      {
+        "img": "https://sd-6.archive-host.com/membres/images/53d373795aa1c7cc52ff5b386efe94a6771af673/Casatrotter-2018/IMG_2396.jpg",
+        "source": "https://casa-trotter.com/phpBB3/viewtopic.php?p=163004",
+        "credit": "Pepone50 / Casa Trotter · derechos en la fuente",
+        "caption": "Tramo intermedio del descenso arenoso de Tifoujar."
+      }
+    ]
   },
   {
     "n": 12,
@@ -197,10 +560,43 @@
     "time": "½–1 día",
     "lat": 20.17762,
     "lon": -13.21507,
-    "desc": "Oued El Abiod; corredor natural entre Tifoujar y Terjit, sujeto a arena, agua y estado de la pista.",
+    "desc": "El Valle Blanco es el corredor arenoso del Oued el Abiod entre paredes oscuras del Adrar. Su nombre no implica arena siempre blanca y la traza varía con viento y agua.",
     "dog_note": "",
-    "credit": "Radosław Botev · CC BY 3.0 PL; imagen representativa del Adrar",
+    "credit": "Radosław Botev · CC BY 3.0 PL",
     "source": "https://commons.wikimedia.org/wiki/File:Sahara_desert_Adrar_Province_Mauritania.jpg",
-    "img": "assets/img/mauritania/12.jpg"
+    "img": "assets/img/mauritania/12.jpg",
+    "visit": {
+      "why": "Completa Tifoujar con una travesía paisajística sostenida, más interesante que tratar el paso como un mirador aislado.",
+      "see": "Cauce claro, gargantas, acacias, aldeas dispersas y rodadas de pista; mantener distancia y pedir permiso en núcleos habitados.",
+      "access": "El pin conserva el punto cartográfico auditado dentro del valle. Usar guía, track reciente, presiones adecuadas y navegación redundante.",
+      "when": "Día completo enlazado con Tifoujar o Terjit, sin entrar tarde en la garganta.",
+      "skip": "No recorrerlo tras lluvia, con arena blanda desconocida, un solo vehículo sin rescate o autonomía ajustada."
+    },
+    "links": [
+      {
+        "label": "Traza de referencia · Tifoujar y Valle Blanco",
+        "url": "https://www.wikiloc.com/offroading-trails/atar-pass-tifoujar-vale-blanche-adrar-18334421"
+      }
+    ],
+    "photos": [
+      {
+        "img": "assets/img/mauritania/12.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sahara_desert_Adrar_Province_Mauritania.jpg",
+        "credit": "Radosław Botev · CC BY 3.0 PL",
+        "caption": "Paisaje del Adrar usado como contexto de acceso al Valle Blanco."
+      },
+      {
+        "img": "https://www.nikon-fotografie.de/community/proxy.php?image=http%3A%2F%2Fwww.foto-kiboko.de%2Freise%2Fmauretanien2018%2Fbilder%2F5%2Fs570_ValleeBlanche_Einfahrt_5938.jpg&hash=7b4ead977e3e32f2aaddef3a2bd44ac5",
+        "source": "https://www.nikon-fotografie.de/community/threads/mauretanien-teil2-ab-in-die-w%C3%BCste.303302/page-2",
+        "credit": "Foto‑Kiboko / Nikon Fotografie · derechos en la fuente",
+        "caption": "Entrada a la garganta del Valle Blanco."
+      },
+      {
+        "img": "https://www.nikon-fotografie.de/community/proxy.php?image=http%3A%2F%2Fwww.foto-kiboko.de%2Freise%2Fmauretanien2018%2Fbilder%2F5%2Fs571_ValleeBlanche_6002.jpg&hash=d4eaa90cad968e1ef2ec2cab4616907c",
+        "source": "https://www.nikon-fotografie.de/community/threads/mauretanien-teil2-ab-in-die-w%C3%BCste.303302/page-2",
+        "credit": "Foto‑Kiboko / Nikon Fotografie · derechos en la fuente",
+        "caption": "Pista y fondo del Valle Blanco entre laderas oscuras."
+      }
+    ]
   }
 ]

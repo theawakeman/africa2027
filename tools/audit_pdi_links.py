@@ -62,7 +62,9 @@ def main() -> None:
         results = list(pool.map(probe, items))
     failures = 0
     for country, label, url, status, final in results:
-        blocked = status in {401, 403, 429}
+        # Ramsar y algunas webs con protección anti-bot responden 418 a este
+        # sondeo aunque la página pública exista en un navegador normal.
+        blocked = status in {401, 403, 418, 429}
         semantic_404 = "/404" in final.lower()
         ok = 200 <= status < 400 and not semantic_404
         failures += not ok
