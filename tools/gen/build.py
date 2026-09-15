@@ -1520,6 +1520,11 @@ def main():
             nuevo = enlazar_fuentes(html_text, profundas)
             n_enlaces += nuevo.count('class="fuente"')
             html_text = nuevo
+        # El HTML puede llegar por red mientras una versión anterior del PWA aún
+        # controla la pestaña. Versionar los recursos críticos impide mezclar el
+        # marcado nuevo del carrusel/mapa con CSS o JavaScript antiguos.
+        for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js"):
+            html_text = html_text.replace(asset + '"', asset + f'?v={VERSION}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(html_text, encoding="utf-8")
@@ -1539,9 +1544,10 @@ def main():
 
     # service worker: precache every site file
     precache = ["./"]
-    EXCLUDE_DIRS = {"tools", ".github", "content", ".git"}
+    EXCLUDE_DIRS = {"tools", ".github", "content", ".git", "tmp", "_to_delete", "_incoming", "audit"}
     for f in sorted(SITE.rglob("*")):
-        if f.is_file() and not EXCLUDE_DIRS.intersection(f.parts) and f.name != "sw.js":
+        if (f.is_file() and not EXCLUDE_DIRS.intersection(f.parts)
+                and not f.name.startswith(".") and f.name != "sw.js"):
             rel = "./" + f.relative_to(SITE).as_posix()
             precache.append(rel)
             if rel.endswith("/index.html"):
@@ -1550,9 +1556,11 @@ def main():
                        for photo in poi_photos(p) if str(photo["img"]).startswith("http")})
     sw = ("const VERSION = 'a27-" + VERSION + "';\nconst PRECACHE = " + json.dumps(precache) + ";\nconst EXT = " + json.dumps(ext_imgs) + ";\n" + r"""
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(VERSION).then(c => Promise.allSettled(
-    PRECACHE.map(u => c.add(u)).concat(EXT.map(u => fetch(u, {mode:'no-cors'}).then(r => c.put(u, r)).catch(()=>{})))
-  )));
+  // Activar en cuanto la carcasa local coherente esté lista. Las imágenes
+  // externas se cachean al usarlas y no bloquean una corrección de interfaz.
+  e.waitUntil(caches.open(VERSION)
+    .then(c => Promise.allSettled(PRECACHE.map(u => c.add(u))))
+    .then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== 'a27-tiles').map(k => caches.delete(k)))).then(() => self.clients.claim()));
@@ -1571,8 +1579,18 @@ self.addEventListener('fetch', e => {
       .catch(() => caches.match(req, {ignoreSearch: true}).then(m => m || caches.match('./index.html'))));
     return;
   }
+  // CSS y JavaScript deben corresponder siempre al HTML que acaba de llegar.
+  // Si no hay red, se conserva la copia offline de la misma versión.
+  if (url.origin === location.origin && (req.destination === 'style' || req.destination === 'script')) {
+    e.respondWith(fetch(req).then(res => {
+      const copy = res.clone();
+      caches.open(VERSION).then(c => c.put(req, copy));
+      return res;
+    }).catch(() => caches.match(req, {ignoreSearch: true})));
+    return;
+  }
   e.respondWith(caches.match(req, {ignoreSearch: true}).then(m => m || fetch(req).then(res => {
-    if (res.ok && (url.origin === location.origin || url.hostname.includes('gstatic') || url.hostname.includes('googleapis'))) {
+    if ((res.ok || res.type === 'opaque') && (url.origin === location.origin || req.destination === 'image' || url.hostname.includes('gstatic') || url.hostname.includes('googleapis'))) {
       const copy = res.clone(); caches.open(VERSION).then(c => c.put(req, copy));
     }
     return res;
