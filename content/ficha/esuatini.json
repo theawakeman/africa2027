@@ -154,11 +154,20 @@
       "info": "Red buena y fiable para el tamaño del país (Galp, Total, Puma, Engen), con precios habitualmente algo más baratos que en Sudáfrica. No hay ningún gap de autonomía relevante: Esuatini mide 200 km de norte a sur."
     },
     {
-      "name": "Agua potable y de uso general · Ezulwini, Mbabane, Manzini",
-      "cat": "Agua potable",
-      "lat": -26.4333,
-      "lon": 31.1667,
-      "info": "Agua embotellada en supermercados de todo el país. Mlilwane, Malolotja, Hlane, Maguga y Phophonyane son candidatos de recarga, no puntos confirmados: pedir por escrito acceso del vehículo, manguera o rosca, caudal, coste y uso permitido."
+      "name": "Agua de servicio · Mlilwane Rest Camp",
+      "cat": "Agua de servicio",
+      "lat": -26.4927635,
+      "lon": 31.1852261,
+      "info": "[TOMA EN CAMPING; LLENADO CONDICIONADO] Parte de las parcelas tiene agua y el resto, una toma cercana. Acordar litros, manguera, coste y calidad; reserva con fauna, no contar con el perro.",
+      "source": "https://biggameparks.org/img/cms/tabs/MLILWANE%20PRODUCT%20SHEET%20for%20Web.pdf"
+    },
+    {
+      "name": "Agua de servicio · Ndlovu Camp (Hlane)",
+      "cat": "Agua de servicio",
+      "lat": -26.2596472,
+      "lon": 31.8749574,
+      "info": "[SOLO DUCHA Y FREGADO; SIN GRIFO EN PARCELA] Abluciones con agua caliente y cocina de campers. La ficha oficial niega tomas en el camping: no planificar llenado; reserva con fauna.",
+      "source": "https://biggameparks.org/properties/hlane-royal-national-park"
     }
   ],
   "sources": [
@@ -225,6 +234,18 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África austral",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "Mlilwane · ficha oficial de camping y agua",
+      "https://biggameparks.org/img/cms/tabs/MLILWANE%20PRODUCT%20SHEET%20for%20Web.pdf"
+    ],
+    [
+      "Mlilwane · sitio oficial y acceso",
+      "https://biggameparks.org/properties/mlilwane-wildlife-sanctuary"
+    ],
+    [
+      "Hlane · Ndlovu Camp y sus servicios",
+      "https://biggameparks.org/properties/hlane-royal-national-park"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 12 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. ESUATINI ES UNA ALTERNATIVA: no está en la ruta fija, pero es el desvío más barato en tiempo de los cuatro porque se atraviesa de Sudáfrica a Mozambique sin deshacer camino. Fechas de las ceremonias reales, horarios de frontera y política de mascotas de las reservas hay que revalidarlos poco antes de entrar.",
@@ -250,7 +271,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Candidatos todavía pendientes de auditoría operativa para esta recarga:</p><ul class=\"ticks\"><li>Mbabane, Ezulwini, Manzini y las localidades del lowveld: agua embotellada sin problema en supermercados (cadenas sudafricanas).</li><li>Recarga del depósito de uso general: esos campings son candidatos pendientes; no contar con ellos hasta confirmar por escrito acceso del vehículo, conexión, caudal, coste y permiso para llenar.</li><li>Arroyos de montaña de Malolotja: no asumir potabilidad ni caudal; filtrar y potabilizar si la gestión autoriza la captación.</li><li>No usar agua de embalses ni ríos del lowveld sin tratar, por bilharzia.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Red buena y fiable para el tamaño del país: Mbabane, Ezulwini, Manzini, Piggs Peak, Simunye, Big Bend y Nhlangano tienen estaciones formales (Galp, Total, Puma, Engen).</li><li>Los precios suelen ser algo MÁS BARATOS que en Sudáfrica: merece la pena repostar a fondo dentro de Esuatini antes de salir.</li><li>No hay ningún gap de autonomía relevante: el país mide unos 200 km de norte a sur.</li><li>Antes de entrar en Hlane o en Malolotja, repostar: dentro de las reservas no hay surtidor.</li><li>Repostar a fondo antes de cruzar a MOZAMBIQUE por Lomahasha o Mhlumeni: el combustible es más caro y menos fiable al otro lado, sobre todo fuera de Maputo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Consultar también comentarios recientes en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: dos campamentos reales del corredor</h3><p>Se retira el marcador regional Ezulwini–Mbabane–Manzini. Mlilwane publica puntos de agua en parte del camping; Ndlovu acredita ducha y fregado, pero su propia ficha dice que no hay tomas en las parcelas.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Mlilwane Rest Camp · -26.492764, 31.185226</td><td><strong>Veinte parcelas con punto de agua y electricidad y otras diez con agua cercana, además de un bloque grande de abluciones.</strong> La fuente no publica potabilidad ni permiso para llenar depósitos. <a href=\"https://biggameparks.org/img/cms/tabs/MLILWANE%20PRODUCT%20SHEET%20for%20Web.pdf\" target=\"_blank\" rel=\"noopener\">ficha oficial</a> · <a href=\"https://www.google.com/maps?q=-26.4927635,31.1852261\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Primera opción para concertar una carga en el eje central. Reservar y confirmar dos 4x4, volumen, manguera, coste, calidad y acceso sin perro.</td></tr><tr><td>Ndlovu Camp, Hlane · -26.259647, 31.874957</td><td><strong>Camping con abluciones amplias, agua caliente por caldera de leña, cocina comunitaria y zona de fregado; sin electricidad ni puntos de agua en las parcelas.</strong> <a href=\"https://biggameparks.org/properties/hlane-royal-national-park\" target=\"_blank\" rel=\"noopener\">parque oficial</a> · <a href=\"https://www.google.com/maps?q=-26.2596472,31.8749574\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Parada de ducha y lavado durante una estancia reservada, no de llenado. Entrar al lowveld con los depósitos cargados y sin contar con el perro.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Mlilwane es el único punto del país auditado cuya fuente publica tomas en el camping. Sigue siendo una recarga condicionada: obtener permiso y litros antes de llegar.</li><li>Ndlovu resuelve ducha y fregado, pero la ficha oficial niega expresamente grifos en las parcelas. No pedir una carga que comprometa el suministro del parque.</li><li>Los dos puntos están dentro de reservas con fauna. Planificar la estancia del perro por separado y no dejarlo en el vehículo para usar las duchas.</li><li>Malolotja, Maguga, Phophonyane y KaMsholo quedan sin pin de agua: sus fuentes no acreditan a la vez toma accesible, volumen y permiso de llenado.</li><li>No captar de ríos, pozas o embalses del lowveld; hay riesgo biológico y la captación puede no estar permitida.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Red buena y fiable para el tamaño del país: Mbabane, Ezulwini, Manzini, Piggs Peak, Simunye, Big Bend y Nhlangano tienen estaciones formales (Galp, Total, Puma, Engen).</li><li>Los precios suelen ser algo MÁS BARATOS que en Sudáfrica: merece la pena repostar a fondo dentro de Esuatini antes de salir.</li><li>No hay ningún gap de autonomía relevante: el país mide unos 200 km de norte a sur.</li><li>Antes de entrar en Hlane o en Malolotja, repostar: dentro de las reservas no hay surtidor.</li><li>Repostar a fondo antes de cruzar a MOZAMBIQUE por Lomahasha o Mhlumeni: el combustible es más caro y menos fiable al otro lado, sobre todo fuera de Maputo.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Que un camping tenga ducha, fregadero o grifo no autoriza a cargar los depósitos. Antes de desviarse hay que confirmar fecha, litros, toma, precio, calidad, restricciones por sequía y acceso de los dos 4x4. Para beber y cocinar: agua sellada o tratamiento completo salvo confirmación sanitaria local vigente.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

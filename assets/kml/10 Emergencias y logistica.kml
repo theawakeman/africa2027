@@ -2920,11 +2920,25 @@
     <Point><coordinates>27.48,-29.31,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Maseru, Butha-Buthe, Semonkong</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en Maseru y en las cabeceras de distrito. No asumir potabilidad en arroyos de altura: hay ganado en las cuencas. Semonkong, Malealea y Ts'ehlanyane son candidatos de recarga, no puntos confirmados; verificar acceso, conexión, caudal, coste y permiso.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.31,27.48">Google Maps</a>]]></description>
+    <name>Agua de servicio · Molengoane Lodge (Nazareth)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA PUBLICADA; LLENADO CONDICIONADO] Camping seguro con duchas y electricidad; turismo oficial lo lista pet-friendly. Sin toma vehicular ni potabilidad publicadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.40403,27.78309">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>27.48,-29.31,0</coordinates></Point>
+    <Point><coordinates>27.78309,-29.40403,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Malealea Lodge</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[DUCHA Y FREGADO; GRIFO NO POTABLE] Dos bloques de abluciones y zona de lavado. El lodge dice que no se beba del grifo; pactar cualquier carga y tratar el agua.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.82801,27.59991">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>27.59991,-29.82801,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Semonkong Lodge</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA CALIENTE PUBLICADA] Camping para campervans con abluciones. No publica toma de llenado ni potabilidad; reservar y confirmar vehículos, perro y volumen.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.843,28.04345">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>28.04345,-29.843,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Ngwenya / Oshoek (con Sudáfrica, Mpumalanga)</name>
@@ -2983,11 +2997,18 @@
     <Point><coordinates>31.3667,-26.4833,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Ezulwini, Mbabane, Manzini</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de todo el país. Mlilwane, Malolotja, Hlane, Maguga y Phophonyane son candidatos de recarga, no puntos confirmados: pedir por escrito acceso del vehículo, manguera o rosca, caudal, coste y uso permitido.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4333,31.1667">Google Maps</a>]]></description>
+    <name>Agua de servicio · Mlilwane Rest Camp</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[TOMA EN CAMPING; LLENADO CONDICIONADO] Parte de las parcelas tiene agua y el resto, una toma cercana. Acordar litros, manguera, coste y calidad; reserva con fauna, no contar con el perro.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.49276,31.18523">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.1667,-26.4333,0</coordinates></Point>
+    <Point><coordinates>31.18523,-26.49276,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Ndlovu Camp (Hlane)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA Y FREGADO; SIN GRIFO EN PARCELA] Abluciones con agua caliente y cocina de campers. La ficha oficial niega tomas en el camping: no planificar llenado; reserva con fauna.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.25965,31.87496">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.87496,-26.25965,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · ENTRADA — Forbes/Machipanda (desde Mozambique)</name>
