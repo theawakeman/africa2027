@@ -475,7 +475,8 @@ def navbar(root, items, brand_suffix=""):
     return f'<nav class="nav"><a class="brand" href="{root}">ÁFRICA 2027</a>{suf}{links}</nav>'
 
 TOP_NAV = [("Mapa", "{root}mapa/"), ("Países", "{root}#paises"), ("El perro", "{root}perro/"),
-           ("CPD", "{root}cpd/"), ("Documentación", "{root}documentacion/")]
+           ("Visados", "{root}visados/"), ("CPD", "{root}cpd/"),
+           ("Documentación", "{root}documentacion/")]
 
 def top_nav(root, extra=""):
     items = [(t, u.format(root=root)) for t, u in TOP_NAV]
@@ -483,8 +484,12 @@ def top_nav(root, extra=""):
 
 # ---------------------------------------------------------------- full ficha
 def render_ficha(d):
+    from data_planificacion import (NOTAS as NOTAS_PLAN, SOURCE_FOLDER as PLAN_FOLDER,
+                                    SOURCE_NAME as PLAN_NAME, detalle as detalle_planificacion,
+                                    resumen as resumen_planificacion)
     root = "../../"
     slug = d["slug"]
+    grupo_plan = next((grupo for s, _, grupo, *_ in C if s == slug), "")
     sec_nav = [("Resumen", "#resumen")]
     if d.get("historia_resumen"):
         sec_nav.append(("Historia", "#historia"))
@@ -492,7 +497,8 @@ def render_ficha(d):
                ("Mapa", "#mapa"), ("PDIs", "#pois"),
                ("Fotos", "#fotos"), ("Emergencias", "#logistica"), ("Fronteras", "#fronteras"),
                ("Perro", "#perro"), ("Fuentes", "#fuentes")]
-    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Documentación", root + "documentacion/")] +
+    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
+                        ("Documentación", root + "documentacion/")] +
                  sec_nav, d["name"])
 
     chips = "".join(f'<div class="chip"><span class="chip-label">{esc(l)}</span><b>{v if str(v).startswith("<") else esc(v)}</b></div>'
@@ -514,7 +520,14 @@ def render_ficha(d):
 </header>
 <div class="chips">{chips}</div>"""
 
-    body = [hero, f'<main><p class="notice">{esc(d["notice"])} <a href="{MYMAPS}" target="_blank" rel="noopener">Abrir el My Maps África 2027</a></p>']
+    detalle_fechas = detalle_planificacion(slug)
+    plan_detalle = detalle_fechas or resumen_planificacion(slug, grupo_plan)
+    plan_nota = (f'<br><strong>Pendiente:</strong> {esc(NOTAS_PLAN[slug])}'
+                 if detalle_fechas and slug in NOTAS_PLAN else "")
+    plan_box = callout("warn" if slug in NOTAS_PLAN else "", "Calendario aproximado",
+        f'{esc(plan_detalle.rstrip("."))}.{plan_nota} <a href="{attr(PLAN_FOLDER)}" target="_blank" rel="noopener">'
+        f'Fuente: {esc(PLAN_NAME)}</a>.', raw=True)
+    body = [hero, f'<main><p class="notice">{esc(d["notice"])} <a href="{MYMAPS}" target="_blank" rel="noopener">Abrir el My Maps África 2027</a></p>', plan_box]
 
     n_sec = 0
     def sec(sid, title, inner):
@@ -659,8 +672,11 @@ def render_ficha(d):
 
 # ---------------------------------------------------------------- stub ficha
 def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota):
+    from data_planificacion import SOURCE_FOLDER as PLAN_FOLDER, SOURCE_NAME as PLAN_NAME
+    from data_planificacion import resumen as resumen_planificacion
     root = "../../"
-    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Documentación", root + "documentacion/"), ("Todos los países", root + "#paises")], name)
+    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
+                        ("Documentación", root + "documentacion/"), ("Todos los países", root + "#paises")], name)
     glabel = GROUP_LABELS[group]
     if group == "excluido":
         badge = '<span class="badge b-x">Excluido por protocolo</span>'
@@ -679,6 +695,8 @@ def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota
     rows = [(a, b) for a, b in rows if b and b != "—"]
     inner = (
         callout("warn", "Ficha borrador", f"Datos orientativos preparados el {TODAY} a partir de conocimiento general del corredor. TODO pendiente de verificación con fuentes oficiales antes de planificar; se revisará país por país.")
+        + callout("", "Calendario aproximado",
+                  f'{esc(resumen_planificacion(slug, group).rstrip("."))}. <a href="{attr(PLAN_FOLDER)}" target="_blank" rel="noopener">Fuente: {esc(PLAN_NAME)}</a>.', raw=True)
         + table(("Tema", "Estado orientativo"), rows)
         + callout("", "Trámites comunes", 'CPD, autorizaciones de los vehículos, seguro, perro y salud: ver <a href="../../documentacion/">Documentación general</a>.', raw=True)
     )
@@ -736,7 +754,8 @@ AUDIO_JS = """
 def render_historia(d):
     root = "../../../"
     slug = d["slug"]
-    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Documentación", root + "documentacion/"),
+    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
+                        ("Documentación", root + "documentacion/"),
                         ("← Ficha de " + d["name"], root + f"paises/{slug}/")], "Historia")
 
     secciones_html = ""
@@ -828,6 +847,7 @@ def render_portal(countries):
 <section id="accesos" style="margin-top:26px">
 <div class="cards">
   <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua de servicio y combustible. Toca un punto para ver su ficha.</span></div></a>
+  <a class="card" href="visados/"><div class="body"><h3>🛂 Visados</h3><span class="meta">Mapa y calendario para pasaporte español: sin visado, electrónico, presencial o en frontera, ajustado a los pasos terrestres de la ruta.</span></div></a>
   <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
   <a class="card" href="{MYMAPS}" target="_blank" rel="noopener"><div class="body"><h3>📍 My Maps (Google)</h3><span class="meta">Mapa maestro compartido del proyecto (requiere conexión).</span></div></a>
 </div>
@@ -843,7 +863,8 @@ def render_portal(countries):
 # ---------------------------------------------------------------- general map
 def render_map_page(all_points, all_lines):
     root = "../"
-    nav = navbar(root, [("Portal", root), ("Documentación", root + "documentacion/")], "Mapa general")
+    nav = navbar(root, [("Portal", root), ("Visados", root + "visados/"),
+                        ("Documentación", root + "documentacion/")], "Mapa general")
     cfg = {"center": [14.0, -5.0], "zoom": 4, "root": root, "points": all_points, "lines": all_lines,
            "defaultOn": MAPA_GENERAL_ON, "groupOrder": MAPA_GENERAL_ORDEN}
     body = f"""{nav}
@@ -870,7 +891,8 @@ def render_cpd():
     nombres = {slug: name for slug, name, *_ in C}
     grupos = {slug: group for slug, _, group, *_ in C}
 
-    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/")]
+    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
+            ("Documentación", root + "documentacion/")]
     nav = navbar(root, secs + [("Obligatorio", "#obligatorio"), ("Recomendable", "#recomendable"),
                                ("No necesario", "#no"), ("Coste", "#coste"), ("En disputa", "#disputa"),
                                ("Cómo se decide", "#decision"), ("Fuentes", "#fuentes")], "CPD")
@@ -1092,6 +1114,178 @@ def render_cpd():
                   f'<script src="{root}assets/js/cpdmap.js"></script>')
     return page(root, "El CPD país por país · África 2027", body, extra_head=extra_head)
 
+# ---------------------------------------------------------------- visados page
+def render_visados():
+    """Visados personales para pasaporte español, ajustados a la ruta terrestre."""
+    from data_planificacion import NOTAS as NOTAS_PLAN, SOURCE_FOLDER as PLAN_FOLDER, SOURCE_NAME as PLAN_NAME
+    from data_visados import AUDIT_DATE, NIVELES, SOURCE_SHEET, VISADOS
+    root = "../"
+    nombres = {slug: name for slug, name, *_ in C}
+    grupos = {slug: group for slug, _, group, *_ in C}
+    orden = {slug: pos for slug, _, _, pos, *_ in C}
+
+    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("El perro", root + "perro/"),
+            ("CPD", root + "cpd/"), ("Documentación", root + "documentacion/")]
+    nav = navbar(root, secs + [("Mapa de visados", "#mapa-visados"), ("Ruta principal", "#ruta"),
+                               ("Alternativas", "#alternativas"), ("Calendario", "#calendario"),
+                               ("Criterio", "#criterio")], "Visados")
+
+    hero = f"""<header class="hero small">
+  <div class="hero-txt">
+    <span class="kicker">Pasaporte ordinario español · auditoría de {esc(AUDIT_DATE)}</span>
+    <h1>Visados, país por país</h1>
+    <p>Qué hay que llevar aprobado antes de cada frontera, qué se obtiene al llegar y dónde un
+    eVisa <strong>no sirve para entrar por carretera</strong>. La clasificación sigue los pasos
+    terrestres reales del viaje, no una llegada genérica en avión.</p>
+  </div>
+</header>"""
+
+    principales = {s: v for s, v in VISADOS.items() if v["ruta"] == "principal"}
+    conteos = {nivel: sum(1 for v in principales.values() if v["nivel"] == nivel) for nivel in NIVELES}
+    conclusion = callout(
+        "warn", "La respuesta corta",
+        f'En los <strong>{len(principales)} territorios y países de la ruta principal</strong> hay '
+        f'<strong>{conteos["sin"]} sin visado</strong>, <strong>{conteos["electronico"]} con autorización '
+        f'electrónica previa</strong>, <strong>{conteos["presencial"]} con visado presencial previo</strong> '
+        f'y <strong>{conteos["frontera"]} que se resuelven al llegar</strong>.<br><br>'
+        'Lo que manda aquí es la <strong>entrada terrestre</strong>. Costa de Marfil, Sierra Leona, '
+        'Liberia, Gabón y Etiopía tienen procedimientos electrónicos asociados a aeropuertos que no '
+        'sustituyen el visado consular en carretera. En Togo, Nigeria y Camerún se conserva una alerta '
+        'para obtener confirmación escrita del puesto concreto.<br><br>'
+        '<span class="figcap">La hoja de Drive se usa como inventario de visados y la imagen de planificación '
+        'como fuente de fechas. Modalidad, condiciones y enlaces se contrastaron con el portal oficial del '
+        'país y las recomendaciones del Ministerio de Asuntos Exteriores de España.</span>', raw=True)
+
+    datos_mapa = {}
+    for slug, v in VISADOS.items():
+        color, etiqueta, _ = NIVELES[v["nivel"]]
+        datos_mapa[slug] = {
+            "n": nombres.get(slug, slug.replace("-", " ").title()),
+            "lvl": v["nivel"], "color": color, "lab": etiqueta,
+            "resumen": v["resumen"], "accion": v["accion"],
+            "pasos": v["pasos"], "entradas": v["entradas"], "coste": v["coste"],
+            "alerta": v["alerta"], "oficial": v["oficial"], "maec": v["maec"],
+            "ruta": v["ruta"],
+            "href": root + f"paises/{slug}/" if slug in grupos else "",
+        }
+    cfg = {"root": root, "data": datos_mapa}
+
+    leyenda = '<div class="cpdleg">' + "".join(
+        f'<span class="cpdkey"><i style="background:{color}"></i><b>{esc(etiqueta)}</b> — {esc(desc)}</span>'
+        for color, etiqueta, desc in NIVELES.values()
+    ) + ('<span class="cpdkey"><i style="background:#cfd8dc"></i><b>Sin auditar</b> — no aparecía '
+         'en la hoja de visados y no forma parte del itinerario.</span></div>')
+
+    mapa = (f'<section id="mapa-visados"><h2>Mapa de visados</h2>'
+            '<p>Color continuo: ruta principal. Color más claro y contorno discontinuo: alternativa, '
+            'país excluido, fuera de ruta o visita en avión. Toca un país para ver la decisión, los '
+            'pasos previstos y sus enlaces oficiales.</p>'
+            f'<div id="visamap" class="mapbox tall"></div>{leyenda}'
+            '<p class="figcap">Este mapa reproduce la lógica del mapa de la carpeta Visats, actualizada '
+            'para entradas terrestres con pasaporte español. Gris no significa «no necesita visado»: '
+            'significa «fuera del inventario auditado».</p></section>')
+
+    def _pais(slug):
+        nombre = nombres.get(slug, slug.replace("-", " ").title())
+        if slug in grupos:
+            return f'<a href="{root}paises/{attr(slug)}/">{esc(nombre)}</a>'
+        return esc(nombre)
+
+    def _estado(v):
+        color, etiqueta, _ = NIVELES[v["nivel"]]
+        return f'<span class="st" style="background:{color};color:#fff">{esc(etiqueta)}</span>'
+
+    def _fuentes(v):
+        links = []
+        if v["oficial"]:
+            links.append(f'<a href="{attr(v["oficial"])}" target="_blank" rel="noopener">portal oficial</a>')
+        if v["maec"]:
+            links.append(f'<a href="{attr(v["maec"])}" target="_blank" rel="noopener">MAEC</a>')
+        return " · ".join(links) or "—"
+
+    def _detalle(v):
+        texto = f'<strong>{esc(v["resumen"])}</strong><br>{esc(v["accion"])}'
+        if v["coste"]:
+            texto += f'<br><span class="figcap">{esc(v["coste"])}</span>'
+        if v["alerta"]:
+            texto += f'<br><span style="color:var(--amber)"><strong>Atención:</strong> {esc(v["alerta"])}</span>'
+        return texto
+
+    def _tabla(slugs, mostrar_ruta=False):
+        filas = []
+        for slug in sorted(slugs, key=lambda s: orden.get(s, 999)):
+            v = VISADOS[slug]
+            paso = esc(v["pasos"] or v["entradas"] or "—")
+            fila = [_pais(slug), _estado(v)]
+            if mostrar_ruta:
+                rutas = {"alternativa": "Alternativa", "excluido": "Excluido",
+                         "fuera": "Fuera de ruta", "vuelo": "Solo en avión"}
+                fila.append(rutas.get(v["ruta"], v["ruta"]))
+            fila += [paso, _detalle(v), _fuentes(v)]
+            filas.append(fila)
+        cab = ["País", "Modalidad"]
+        if mostrar_ruta:
+            cab.append("Papel")
+        cab += ["Paso previsto / entradas", "Qué hacer", "Fuentes"]
+        return table(cab, filas)
+
+    ruta = ('<section id="ruta"><h2>Ruta principal</h2>'
+            '<p>El orden sigue el corredor y el bucle del proyecto. Las fechas proceden de la planificación manuscrita y '
+            'sirven para decidir cuándo iniciar cada solicitud; no sustituyen la vigencia que conceda '
+            'finalmente cada visado.</p>' + _tabla(principales.keys()) + '</section>')
+
+    secundarios = [s for s, v in VISADOS.items() if v["ruta"] in ("alternativa", "vuelo")]
+    descartados = [s for s, v in VISADOS.items() if v["ruta"] in ("excluido", "fuera")]
+    alternativas = ('<section id="alternativas"><h2>Alternativas y países fuera de la ruta</h2>'
+        '<p>Se conservan porque estaban en la hoja o en el mapa, pero no se mezclan con la preparación '
+        'del corredor principal.</p><h3>Alternativas y visita en avión</h3>'
+        + _tabla(secundarios, mostrar_ruta=True)
+        + '<h3>Excluidos o fuera del itinerario</h3>' + _tabla(descartados, mostrar_ruta=True) + '</section>')
+
+    calendario_slugs = [s for s, v in principales.items()
+                        if v["nivel"] in ("electronico", "presencial")]
+    calendario = ('<section id="calendario"><h2>Calendario de solicitudes</h2>'
+        '<p>Estos son los trámites que no se pueden dejar para el mostrador fronterizo. Antes de pagar, '
+        'hay que cuadrar fecha de expedición, duración y número de entradas con ambos pasos previstos.</p>'
+        + table(["País", "Modalidad", "Pasos planificados", "Acción"], [
+            [_pais(s), _estado(VISADOS[s]), VISADOS[s]["pasos"] or "por cerrar", VISADOS[s]["accion"]]
+            for s in sorted(calendario_slugs, key=lambda x: orden.get(x, 999))
+        ])
+        + callout("warn", "Trámites que deben salir resueltos de Europa",
+            '<strong>Congo-Brazzaville, RD Congo y Costa de Marfil</strong> son presenciales en la ruta '
+            'principal. Solicitar modalidades que cubran la bajada y la subida, o presupuestar dos visados. '
+            'Si se reactivan Sierra Leona, Liberia o Gabón, también necesitan visado consular para entrar '
+            'por carretera.', raw=True)
+        + callout("warn", "Fecha que aún hay que cuadrar",
+            esc(NOTAS_PLAN["kenia"]), raw=True)
+        + '</section>')
+
+    criterio = ('<section id="criterio"><h2>Criterio y trazabilidad</h2>'
+        + bullets([
+            "De la hoja solo se han usado los datos de visados; las fechas proceden de Planificació Viatge.jpeg. Vacunas, perro y trámites del coche no entran en esta sección.",
+            "La categoría responde a la entrada turística con pasaporte ordinario español. Una eTA o un permiso electrónico obligatorio se pinta como electrónico aunque jurídicamente no se llame visado.",
+            "Si el procedimiento electrónico solo entrega el visado en un aeropuerto, para este viaje se clasifica como presencial.",
+            "Los costes son orientativos porque pueden variar por moneda, comisión, duración o número de entradas. El importe vigente es siempre el del portal oficial en el momento de pagar.",
+            "Revalidar cada país entre 30 y 60 días antes de la entrada y volver a comprobar el puesto terrestre 72 horas antes de cruzar.",
+        ])
+        + callout("", "Hoja de trabajo original",
+            f'<a href="{attr(SOURCE_SHEET)}" target="_blank" rel="noopener">Visats Africa en Google Sheets</a> '
+            f'(solo datos de visados) · <a href="{attr(PLAN_FOLDER)}" target="_blank" rel="noopener">'
+            f'{esc(PLAN_NAME)}</a> (fechas aproximadas). '
+            f'Revisión publicada: <strong>{esc(AUDIT_DATE)}</strong>.', raw=True)
+        + '</section>')
+
+    body = (nav + hero + '<main style="max-width:1200px">' + conclusion + mapa + ruta
+            + alternativas + calendario + criterio
+            + f'<footer>ÁFRICA 2027 · Visados · auditoría {esc(AUDIT_DATE)} · versión {VERSION}</footer></main>'
+            + f'<script>var A27_VISAS = {json.dumps(cfg, ensure_ascii=False)};</script>'
+            + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
+              '&& typeof a27VisaMap === "function") a27VisaMap("visamap", A27_VISAS); });</script>')
+    extra_head = (f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css">'
+                  f'<script src="{root}assets/vendor/leaflet.js"></script>'
+                  f'<script src="{root}assets/js/visamap.js"></script>')
+    return page(root, "Visados país por país · África 2027", body, extra_head=extra_head)
+
 # ---------------------------------------------------------------- perro page
 PERRO_MD = Path(__file__).parent / "docs" / "DOSSIER_PERRO.md"
 
@@ -1113,7 +1307,8 @@ def render_perro():
 
     # Índice lateral a partir de los encabezados de primer nivel
     tops = [(t, a) for t, a, lvl in md_headings(md, levels=(1,))]
-    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/")]
+    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
+            ("Documentación", root + "documentacion/")]
     def _short(t):
         t = re.sub(r"^\d+[.)]\s*", "", t.split("·")[0].strip())   # fuera el "1. "
         if len(t) <= 20:
@@ -1148,7 +1343,7 @@ def render_perro():
 # ---------------------------------------------------------------- docs page
 def render_docs():
     root = "../"
-    secs = [("Portal", root), ("Mapa", root + "mapa/")]
+    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/")]
     anchors = [("CPD", "#cpd"), ("Grenadier", "#grenadier"), ("Delica", "#delica"), ("Seguro", "#seguro"),
                ("Perro", "#perro"), ("Salud", "#salud"), ("Agua/Comb.", "#agua-combustible"),
                ("Drones", "#drones"), ("Starlink", "#starlink"),
@@ -1501,6 +1696,7 @@ def main():
     pages["documentacion/index.html"] = render_docs()
     pages["perro/index.html"] = render_perro()
     pages["cpd/index.html"] = render_cpd()
+    pages["visados/index.html"] = render_visados()
 
     name_by_slug = {slug: name for slug, name, *_ in C}
     countries_for_admin = [{"slug": slug, "name": name_by_slug.get(slug, slug)}
@@ -1525,7 +1721,8 @@ def main():
         # El HTML puede llegar por red mientras una versión anterior del PWA aún
         # controla la pestaña. Versionar los recursos críticos impide mezclar el
         # marcado nuevo del carrusel/mapa con CSS o JavaScript antiguos.
-        for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js"):
+        for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js",
+                      "assets/js/visamap.js"):
             html_text = html_text.replace(asset + '"', asset + f'?v={VERSION}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)

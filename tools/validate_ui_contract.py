@@ -18,6 +18,8 @@ css = (ROOT / "assets/css/site.css").read_text(encoding="utf-8")
 map_js = (ROOT / "assets/js/map.js").read_text(encoding="utf-8")
 map_html = (ROOT / "mapa/index.html").read_text(encoding="utf-8")
 sw = (ROOT / "sw.js").read_text(encoding="utf-8")
+visa_html = (ROOT / "visados/index.html").read_text(encoding="utf-8")
+visa_js = (ROOT / "assets/js/visamap.js").read_text(encoding="utf-8")
 
 # Contrato visual aprobado: tarjetas compactas, una sola vista del carrusel,
 # detalle oculto hasta abrir el modal y una única familia tipográfica de UI.
@@ -61,4 +63,27 @@ for page in carousel_pages:
     require("assets/css/site.css?v=" in html, f"CSS sin versión en {page.relative_to(ROOT)}")
     require('class="poi-carousel-track"' in html, f"carrusel incompleto en {page.relative_to(ROOT)}")
 
-print(f"UI OK: {len(carousel_pages)} países con fichas compactas; leyenda plegada; caché coherente")
+# La pestaña de visados reutiliza el lenguaje visual de CPD y conserva una
+# fuente única de fechas en todas las fichas.
+require('class="hero small"' in visa_html and 'class="cpdleg"' in visa_html,
+        "Visados debe conservar los componentes visuales de CPD")
+require("assets/css/site.css?v=" in visa_html, "falta versionar el CSS de Visados")
+require("assets/js/visamap.js?v=" in visa_html, "falta versionar el mapa de Visados")
+require("function a27VisaMap" in visa_js, "falta el mapa interactivo de Visados")
+visa_match = re.search(r'<script>var A27_VISAS = (\{.*?\});</script>', visa_html, re.S)
+require(visa_match, "no se encuentra la configuración del mapa de Visados")
+visa_config = json.loads(visa_match.group(1))
+require(visa_config["data"]["namibia"]["pasos"] == "5 jun",
+        "Namibia debe conservar la corrección a junio")
+require(visa_config["data"]["angola"]["pasos"] == "7 mar · 20 jun",
+        "la segunda entrada de Angola debe estar en junio")
+require(visa_config["data"]["tanzania"]["pasos"] == "16 abr" and
+        visa_config["data"]["mozambique"]["pasos"] == "24 abr",
+        "se han perdido las correcciones manuscritas del bucle oriental")
+for page in country_pages:
+    html = page.read_text(encoding="utf-8")
+    require('<div class="callout-title">Calendario aproximado</div>' in html,
+            f"falta el calendario común en {page.relative_to(ROOT)}")
+
+print(f"UI OK: {len(carousel_pages)} países con fichas compactas; leyenda plegada; "
+      f"visados y {len(country_pages)} calendarios coherentes; caché coherente")
