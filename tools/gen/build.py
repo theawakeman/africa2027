@@ -3,6 +3,8 @@
 import json
 import re
 import datetime
+import subprocess
+import sys
 from pathlib import Path
 
 from site_common import (SITE, MYMAPS, esc, attr, gmaps, page, table, callout,
@@ -1627,6 +1629,9 @@ self.addEventListener('fetch', e => {
     (kml_dir / "10 Emergencias y logistica.kml").write_text(build_kml("África 2027 · Emergencias y logística", services), encoding="utf-8")
     (kml_dir / "10 Emergencias y logistica.csv").write_text(build_csv(services), encoding="utf-8")
 
+    # La reconstrucción no se considera válida si altera el diseño aprobado
+    # de las fichas o el estado inicial de la leyenda del mapa.
+    subprocess.run([sys.executable, str(SITE / "tools/validate_ui_contract.py")], check=True)
     print("pages:", len(pages), "| precache:", len(precache), "| version:", VERSION)
 
 if __name__ == "__main__":

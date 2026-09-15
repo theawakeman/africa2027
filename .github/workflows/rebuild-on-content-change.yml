@@ -28,9 +28,6 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: "1"
 
-      - name: Validar diseño de fichas, carrusel y mapa
-        run: python3 tools/validate_ui_contract.py
-
       - name: Publicar los cambios
         run: |
           git config user.name "africa2027-bot"
