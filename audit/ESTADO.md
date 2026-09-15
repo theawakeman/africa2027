@@ -10,7 +10,7 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 |---|---|---|---|---|---|---|---|
 | 1 | Marruecos, Sáhara Occidental, Mauritania, Senegal, Gambia | Cerrado | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 con galería; 222 fotos | Pendiente |
 | 2 | Guinea, Sierra Leona, Liberia, Costa de Marfil | Cerrado | Cerrado: 42/42 | Cerrado: 42/42 | Cerrado: 42/42 | Cerrado: 42/42 con galería; 126 fotos | Pendiente |
-| 3 | Ghana, Togo, Benín, Nigeria | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
+| 3 | Ghana, Togo, Benín, Nigeria | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con galería; 180 fotos | Pendiente |
 | 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Cerrado: 92/92 | Cerrado: 92/92 | Cerrado: 92/92 con foto y enlace; 89 galerías | Pendiente |
 | 5 | Zambia, Tanzania, Kenia, Mozambique | Cerrado | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 con foto; 74 galerías | Pendiente |
 | 6 | Uganda, Ruanda, Malaui | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con foto; 58 galerías | Pendiente |
@@ -22,17 +22,16 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 
 La auditoría de profundidad editorial, enlaces útiles y fotografías múltiples
 empezó en el **grupo 4** y ya se ha aplicado de forma retroactiva a los
-**grupos 1–2**. El grupo 3 no debe interpretarse todavía como revisado en esas
-tres columnas.
+**grupos 1–3**. La pasada ampliada queda así cerrada para los nueve grupos.
 
 El detalle cuantitativo está en [`audit/pdi/grupo1.md`](pdi/grupo1.md),
-[`audit/pdi/grupo2.md`](pdi/grupo2.md),
+[`audit/pdi/grupo2.md`](pdi/grupo2.md), [`audit/pdi/grupo3.md`](pdi/grupo3.md),
 [`audit/pdi/grupo4.md`](pdi/grupo4.md),
 [`audit/pdi/grupo5.md`](pdi/grupo5.md), [`audit/pdi/grupo6.md`](pdi/grupo6.md),
 [`audit/pdi/grupo7.md`](pdi/grupo7.md), [`audit/pdi/grupo8.md`](pdi/grupo8.md) y
-[`audit/pdi/grupo9.md`](pdi/grupo9.md). Los grupos 4–9 ya cumplen el nuevo
-estándar en el contenido fuente. La siguiente fase continúa con el grupo 3 para
-aplicarle exactamente el mismo criterio ampliado.
+[`audit/pdi/grupo9.md`](pdi/grupo9.md). Los grupos 1–9 ya cumplen el nuevo
+estándar en el contenido fuente. La siguiente fase rehace el corredor
+Congo–RD Congo y toda la información operativa de las fichas de ambos países.
 
 ## Criterio de cierre por PDI
 
