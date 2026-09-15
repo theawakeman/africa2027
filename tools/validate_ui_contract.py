@@ -89,10 +89,24 @@ require(visa_config["data"]["angola"]["pasos"] == "7 mar · 20 jun",
 require(visa_config["data"]["tanzania"]["pasos"] == "16 abr" and
         visa_config["data"]["mozambique"]["pasos"] == "24 abr",
         "se han perdido las correcciones manuscritas del bucle oriental")
+expected_facts = ["FECHAS", "BAJADA", "SUBIDA", "VISADO", "CPD", "SEGURO", "SEGURIDAD",
+                  "PDIs", "4x4", "A PIE", "VACUNACIÓN", "DRONES", "STARLINK", "PELIGROS"]
+require('.chips.country-facts { grid-template-columns:repeat(7,minmax(0,1fr)); }' in css,
+        "la cabecera de país debe mantener siete columnas y dos filas en escritorio")
+require('@media (max-width:640px)' in css and
+        '.chips.country-facts { grid-template-columns:repeat(2,minmax(0,1fr)); }' in css,
+        "la cabecera de país debe pasar a dos columnas en móvil")
+require('-webkit-line-clamp:2' in css,
+        "los resúmenes de cabecera no pueden crecer más de dos líneas")
 for page in country_pages:
     html = page.read_text(encoding="utf-8")
-    require('<div class="callout-title">Calendario aproximado</div>' in html,
-            f"falta el calendario común en {page.relative_to(ROOT)}")
+    match = re.search(r'<div class="chips country-facts">(.*?)</div>\s*<main', html, re.S)
+    require(match, f"falta la cabecera uniforme en {page.relative_to(ROOT)}")
+    labels = re.findall(r'<span class="chip-label">([^<]+)</span>', match.group(1))
+    require(labels == expected_facts,
+            f"campos u orden incorrectos en {page.relative_to(ROOT)}: {labels}")
+    require('<div class="callout-title">Calendario aproximado</div>' not in html,
+            f"el calendario debe estar integrado en FECHAS en {page.relative_to(ROOT)}")
 
 print(f"UI OK: {len(carousel_pages)} países con fichas compactas; leyenda plegada; "
-      f"visados y {len(country_pages)} calendarios coherentes; caché coherente")
+      f"visados y {len(country_pages)} cabeceras uniformes; caché coherente")

@@ -55,6 +55,17 @@ a.coord { white-space:nowrap; font-family:"Archivo",sans-serif; font-variant-num
 .chip-label { display:block; font-size:10.5px; font-weight:700; letter-spacing:.14em; color:var(--teal); }
 .chip b { font-size:14px; font-weight:600; font-family:"Archivo",sans-serif; }
 .chip b .st { font-size:12px; }
+.chips.country-facts { grid-template-columns:repeat(7,minmax(0,1fr)); }
+.country-facts .chip { min-width:0; min-height:76px; padding:9px 8px; display:flex;
+  flex-direction:column; align-items:center; justify-content:center; }
+.country-facts .chip-label { margin-bottom:3px; }
+.country-facts .chip b { width:100%; line-height:1.3; display:-webkit-box; -webkit-box-orient:vertical;
+  -webkit-line-clamp:2; overflow:hidden; }
+@media (max-width:1100px) { .chips.country-facts { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+@media (max-width:640px) {
+  .chips.country-facts { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .country-facts .chip { min-height:72px; }
+}
 
 main { max-width:980px; margin:0 auto; padding:8px clamp(14px,4vw,32px) 60px; }
 .notice { text-align:center; font-style:italic; color:var(--ink-soft); font-size:14.5px; margin:18px auto 6px; max-width:680px; }

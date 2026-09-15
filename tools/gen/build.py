@@ -484,9 +484,7 @@ def top_nav(root, extra=""):
 
 # ---------------------------------------------------------------- full ficha
 def render_ficha(d):
-    from data_planificacion import (NOTAS as NOTAS_PLAN, SOURCE_FOLDER as PLAN_FOLDER,
-                                    SOURCE_NAME as PLAN_NAME, detalle as detalle_planificacion,
-                                    resumen as resumen_planificacion)
+    from data_cabeceras import construir as construir_cabecera
     root = "../../"
     slug = d["slug"]
     grupo_plan = next((grupo for s, _, grupo, *_ in C if s == slug), "")
@@ -501,8 +499,15 @@ def render_ficha(d):
                         ("Documentación", root + "documentacion/")] +
                  sec_nav, d["name"])
 
-    chips = "".join(f'<div class="chip"><span class="chip-label">{esc(l)}</span><b>{v if str(v).startswith("<") else esc(v)}</b></div>'
-                    for l, v in d["chips"])
+    fallback_row = next(((seguridad, frontera, visado, cpd, perro, nota)
+                         for s, _, _, _, seguridad, frontera, visado, cpd, perro, nota in C
+                         if s == slug), ("", "", "", "", "", ""))
+    fallback = dict(zip(("seguridad", "frontera", "visado", "cpd", "perro", "nota"), fallback_row))
+    facts = construir_cabecera(slug, grupo_plan, data=d, fallback=fallback)
+    chips = "".join(
+        f'<div class="chip" title="{attr(v)}"><span class="chip-label">{esc(l)}</span><b>{esc(v)}</b></div>'
+        for l, v in facts
+    )
 
     verif_badge = ('<span class="badge b-ok verif-badge">✓ Ficha verificada</span>' if d.get("verificado")
                    else '<span class="badge b-draft verif-badge">Ficha borrador — pendiente de verificar</span>')
@@ -518,16 +523,9 @@ def render_ficha(d):
     <p class="sub">{esc(d['sub'])}</p>
   </div>
 </header>
-<div class="chips">{chips}</div>"""
+<div class="chips country-facts">{chips}</div>"""
 
-    detalle_fechas = detalle_planificacion(slug)
-    plan_detalle = detalle_fechas or resumen_planificacion(slug, grupo_plan)
-    plan_nota = (f'<br><strong>Pendiente:</strong> {esc(NOTAS_PLAN[slug])}'
-                 if detalle_fechas and slug in NOTAS_PLAN else "")
-    plan_box = callout("warn" if slug in NOTAS_PLAN else "", "Calendario aproximado",
-        f'{esc(plan_detalle.rstrip("."))}.{plan_nota} <a href="{attr(PLAN_FOLDER)}" target="_blank" rel="noopener">'
-        f'Fuente: {esc(PLAN_NAME)}</a>.', raw=True)
-    body = [hero, f'<main><p class="notice">{esc(d["notice"])} <a href="{MYMAPS}" target="_blank" rel="noopener">Abrir el My Maps África 2027</a></p>', plan_box]
+    body = [hero, f'<main><p class="notice">{esc(d["notice"])} <a href="{MYMAPS}" target="_blank" rel="noopener">Abrir el My Maps África 2027</a></p>']
 
     n_sec = 0
     def sec(sid, title, inner):
@@ -672,8 +670,7 @@ def render_ficha(d):
 
 # ---------------------------------------------------------------- stub ficha
 def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota):
-    from data_planificacion import SOURCE_FOLDER as PLAN_FOLDER, SOURCE_NAME as PLAN_NAME
-    from data_planificacion import resumen as resumen_planificacion
+    from data_cabeceras import construir as construir_cabecera
     root = "../../"
     nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
                         ("Documentación", root + "documentacion/"), ("Todos los países", root + "#paises")], name)
@@ -684,19 +681,19 @@ def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota
         badge = '<span class="badge b-off">Fuera de la ruta prevista</span>'
     else:
         badge = '<span class="badge b-draft">Borrador · pendiente de revisión</span>'
-    chips = "".join(f'<div class="chip"><span class="chip-label">{l}</span><b>{v}</b></div>' for l, v in [
-        ("PAPEL EN LA RUTA", esc(glabel)),
-        ("SEGURIDAD", st_pill(seguridad if seguridad != "—" else "sin datos")),
-        ("CPD", st_pill(cpd if cpd and cpd != "—" else "sin datos")),
-    ])
+    fallback = {"seguridad": seguridad, "frontera": frontera, "visado": visado,
+                "cpd": cpd, "perro": perro, "nota": nota}
+    facts = construir_cabecera(slug, group, fallback=fallback)
+    chips = "".join(
+        f'<div class="chip" title="{attr(v)}"><span class="chip-label">{esc(l)}</span><b>{esc(v)}</b></div>'
+        for l, v in facts
+    )
     rows = [("Seguridad y conflicto", seguridad), ("Frontera terrestre", frontera),
             ("Visado (españoles)", visado), ("Vehículos / CPD", cpd),
             ("Perro", perro), ("Nota de ruta", nota)]
     rows = [(a, b) for a, b in rows if b and b != "—"]
     inner = (
         callout("warn", "Ficha borrador", f"Datos orientativos preparados el {TODAY} a partir de conocimiento general del corredor. TODO pendiente de verificación con fuentes oficiales antes de planificar; se revisará país por país.")
-        + callout("", "Calendario aproximado",
-                  f'{esc(resumen_planificacion(slug, group).rstrip("."))}. <a href="{attr(PLAN_FOLDER)}" target="_blank" rel="noopener">Fuente: {esc(PLAN_NAME)}</a>.', raw=True)
         + table(("Tema", "Estado orientativo"), rows)
         + callout("", "Trámites comunes", 'CPD, autorizaciones de los vehículos, seguro, perro y salud: ver <a href="../../documentacion/">Documentación general</a>.', raw=True)
     )
@@ -706,7 +703,7 @@ def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota
   <h1>{esc(name)}</h1>
   <p class="sub">{esc(glabel)}</p>
 </div></header>
-<div class="chips">{chips}</div>
+<div class="chips country-facts">{chips}</div>
 <main>
 <p style="margin-top:14px">{badge}</p>
 <section id="estado" style="margin-top:10px"><h2>Estado de planificación</h2>{inner}</section>
