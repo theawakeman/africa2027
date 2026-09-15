@@ -82,7 +82,7 @@ function a27CatStyle(p){
   if (p.type === 'hospital')  return {color:'#B43A3A', label:'Hospitales'};
   if (p.type === 'consular')  return {color:'#673AB7', label:'Consulados'};
   if (p.type === 'frontera')  return {color:'#5F6B72', label:'Fronteras'};
-  if (p.type === 'agua')      return {color:'#1E88C7', label:'Agua potable'};
+  if (p.type === 'agua')      return {color:'#1E88C7', label:'Agua de servicio'};
   if (p.type === 'combustible') return {color:'#B8560D', label:'Combustible'};
   if (p.type === 'servicio')  return {color:'#2B6CB0', label:'Servicios'};
   return {color:a27Color(p.color), label:'Puntos de interés'};
@@ -204,6 +204,7 @@ function a27Popup(p, root){
   h += '<div class="a27-popup-actions">';
   if (p.type === 'poi') h += '<button type="button" class="a27-popup-expand">Ver ficha ampliada</button>';
   else if (p.ficha) h += '<a href="'+a27Esc(a27MapHref(p.ficha, root))+'">Ver en la ficha</a>';
+  if (p.source) h += '<a href="'+a27Esc(p.source)+'" target="_blank" rel="noopener">Fuente del punto</a>';
   h += '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
   return h;
 }
@@ -384,9 +385,11 @@ def map_points(d, with_ficha=True):
                     "links":[link for link in p.get("links", []) if isinstance(link, dict)],
                     "ficha": f"paises/{d['slug']}/#poi-{p['n']}" if with_ficha else None})
     for lg in d["logistics"]:
-        pts.append({"type":cat_type(lg["cat"]),"name":lg["name"],"lat":round(lg["lat"],5),"lon":round(lg["lon"],5),
+        point_type = cat_type(lg["cat"])
+        pts.append({"type":point_type,"name":lg["name"],"lat":round(lg["lat"],5),"lon":round(lg["lon"],5),
                     "cat":lg["cat"],"info":lg["info"],
-                    "ficha": f"paises/{d['slug']}/#logistica" if with_ficha else None})
+                    "source":lg.get("source", ""),
+                    "ficha": f"paises/{d['slug']}/#{'agua-combustible' if point_type == 'agua' else 'logistica'}" if with_ficha else None})
     return pts
 
 def map_lines(d):
@@ -437,7 +440,7 @@ MAPA_GENERAL_CAPAS = {
 MAPA_GENERAL_ON = ["Corredor de bajada (ida)", "Corredor de subida (vuelta)", "Puntos de interés"]
 MAPA_GENERAL_ORDEN = ["Corredor de bajada (ida)", "Corredor de subida (vuelta)", "Puntos de interés",
                       "Variantes por país", "Ramales y alternativas", "Fronteras", "Hospitales",
-                      "Consulados", "Agua potable", "Combustible", "Servicios"]
+                      "Consulados", "Agua de servicio", "Combustible", "Servicios"]
 
 
 def map_lines_general(d):
@@ -818,7 +821,7 @@ def render_portal(countries):
 <main>
 <section id="accesos" style="margin-top:26px">
 <div class="cards">
-  <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua potable y combustible. Toca un punto para ver su ficha.</span></div></a>
+  <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua de servicio y combustible. Toca un punto para ver su ficha.</span></div></a>
   <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
   <a class="card" href="{MYMAPS}" target="_blank" rel="noopener"><div class="body"><h3>📍 My Maps (Google)</h3><span class="meta">Mapa maestro compartido del proyecto (requiere conexión).</span></div></a>
 </div>
@@ -840,8 +843,8 @@ def render_map_page(all_points, all_lines):
     body = f"""{nav}
 <main style="max-width:1400px">
 <h2 style="margin-top:18px">Mapa general del viaje</h2>
-<p>Por defecto se muestran solo el <strong>corredor de bajada</strong>, el <strong>corredor de subida</strong> y los <strong>puntos de interés</strong>. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua potable, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
-<p class="callout" style="display:block"><strong>Agua y combustible:</strong> puntos verificados con fuentes propias, iOverlander y Tracks4Africa (comunidad overlander); revisar siempre comentarios recientes de esas plataformas antes de fiarse de un punto, porque una fuente o gasolinera puede cerrar o quedarse seca sin previo aviso. Objetivo de planificación: no dejar tramos de más de ~500 km sin una opción de combustible confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
+<p>Por defecto se muestran solo el <strong>corredor de bajada</strong>, el <strong>corredor de subida</strong> y los <strong>puntos de interés</strong>. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
+<p class="callout" style="display:block"><strong>Agua y combustible:</strong> la capa de agua distingue recarga confirmada o publicada, acceso condicionado, solo ducha y puntos descartados. Agua de servicio no equivale a agua potable, y una instalación con duchas no autoriza por sí sola a llenar el depósito. Abrir cada pin y reconfirmar la fuente el mismo día. Para combustible, el objetivo es no dejar tramos de más de ~500 km sin una opción confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
 <p class="figcap">Corredores: turquesa = bajada (ida) · ámbar = subida (vuelta) · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
 <footer>ÁFRICA 2027 · versión {VERSION}</footer>
@@ -1242,10 +1245,10 @@ def render_docs():
         + "<p>Como vehículos de expedición autónomos (Grenadier y Delica) llevamos depósito propio de agua, y hay que distinguir dos necesidades que se resuelven de forma distinta:</p>"
         + bullets([
             "Agua de boca: la que se bebe y se cocina. Se trata siempre como no potable de origen y se pasa por el protocolo de potabilización del vehículo (filtro + purificación redundante — UV/químico) antes de consumirla, venga de donde venga.",
-            "Agua de uso general: ducha, aseo personal, vajilla y limpieza. No necesita el mismo nivel de tratamiento, pero sí depósito de capacidad suficiente y puntos de recarga fiables — surtidores de gasolinera, campings, hoteles, misiones, pozos y fuentes municipales — porque en tramos largos de pista puede no haber otra fuente en días.",
+            "Agua de servicio: ducha, aseo personal, vajilla y limpieza. Se considera no potable y va separada del agua de boca. Un grifo, ducha, hotel, camping o gasolinera solo cuenta como recarga cuando existe un punto físico identificable y está documentado el acceso; la presencia de agua en una instalación no autoriza a conectar una manguera.",
             "Capacidad de reserva objetivo: autonomía mínima de 3–4 días de uso general por vehículo entre recargas, ampliable en tramos identificados como secos (Sáhara Occidental, Mauritania interior, Sahel).",
-            "Cada ficha de país lista los puntos de recarga conocidos (surtidores, campings, misiones, pozos) en su sección «Agua y combustible», con la fuente y la fecha de verificación.",
-            "Registrar siempre en iOverlander/Tracks4Africa si un punto ya no funciona o si aparece uno nuevo, para mantener la ruta del grupo actualizada entre etapas.",
+            "Cada ficha clasifica los puntos como recarga confirmada/publicada, acceso condicionado, solo ducha o descartado. Los condicionados exigen llamada o permiso el mismo día; los descartados se conservan en el texto precisamente para no depender de ellos.",
+            "Llevar garrafas, manguera alimentaria, adaptadores, bomba y medios de filtración/desinfección. En una fuente comunitaria la población local tiene prioridad: no bloquear, no conectar sin permiso y pagar cuando corresponda.",
         ])
         + "<h3>Combustible: gasóleo y la regla de los 500 km</h3>"
         + bullets([
@@ -1255,7 +1258,7 @@ def render_docs():
             "Filtrar el gasóleo al repostar en surtidores dudosos (embudo con filtro/decantador) y llevar aditivo anti-agua/biocida de repuesto.",
             "Antes de cerrar cada tramo, contrastar los surtidores previstos en iOverlander y Tracks4Africa: ambas plataformas recogen comentarios recientes de otros overlanders sobre si un surtidor concreto tenía diésel, de qué calidad y a qué precio.",
         ])
-        + callout("", "Fuentes cruzadas del proyecto", 'Fuente de referencia para agua y combustible en todo el corredor: <a href="https://ioverlander.com/" target="_blank" rel="noopener">iOverlander</a> y <a href="https://tracks4africa.co.za/" target="_blank" rel="noopener">Tracks4Africa</a> — también útiles para comentarios recientes sobre fronteras. Revisar siempre la fecha del último comentario antes de confiar en un punto.', raw=True)
+        + callout("", "Verificación de agua y combustible", 'Cada punto se contrasta con la fuente más directa disponible —operador, registro o ficha geolocalizada— y con comentarios recientes cuando existen. <a href="https://ioverlander.com/" target="_blank" rel="noopener">iOverlander</a> y <a href="https://tracks4africa.co.za/" target="_blank" rel="noopener">Tracks4Africa</a> son apoyos, no una garantía: revisar fecha, condiciones y coordenadas antes de desviarse.', raw=True)
     )
     drones = bullets([
         "Regla general del viaje: ningún país africano del corredor permite volar «por defecto» — casi todos exigen registro o autorización previa, y varios prohíben la entrada del dron sin permiso de importación.",
@@ -1355,7 +1358,7 @@ def kml_style_for(p):
     return (f"icon-poi-{c}", _onion_badge(A27_COLOR_HEX.get(c, A27_COLOR_HEX["ambar"]), _POI_GLYPH))
 
 _CAT_LABELS = {"hospital": "Hospital", "consular": "Consulado", "frontera": "Frontera",
-               "agua": "Agua potable", "combustible": "Combustible", "servicio": "Servicio"}
+               "agua": "Agua de servicio", "combustible": "Combustible", "servicio": "Servicio"}
 _POI_COLOR_LABELS = {"verde": "Verde", "turquesa": "Turquesa", "marron": "Marrón",
                       "naranja": "Naranja", "morado": "Morado", "azul": "Azul",
                       "gris": "Gris", "ambar": "Ámbar"}

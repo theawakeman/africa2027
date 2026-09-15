@@ -8,7 +8,7 @@ function a27CatStyle(p){
   if (p.type === 'hospital')  return {color:'#B43A3A', label:'Hospitales'};
   if (p.type === 'consular')  return {color:'#673AB7', label:'Consulados'};
   if (p.type === 'frontera')  return {color:'#5F6B72', label:'Fronteras'};
-  if (p.type === 'agua')      return {color:'#1E88C7', label:'Agua potable'};
+  if (p.type === 'agua')      return {color:'#1E88C7', label:'Agua de servicio'};
   if (p.type === 'combustible') return {color:'#B8560D', label:'Combustible'};
   if (p.type === 'servicio')  return {color:'#2B6CB0', label:'Servicios'};
   return {color:a27Color(p.color), label:'Puntos de interés'};
@@ -130,6 +130,7 @@ function a27Popup(p, root){
   h += '<div class="a27-popup-actions">';
   if (p.type === 'poi') h += '<button type="button" class="a27-popup-expand">Ver ficha ampliada</button>';
   else if (p.ficha) h += '<a href="'+a27Esc(a27MapHref(p.ficha, root))+'">Ver en la ficha</a>';
+  if (p.source) h += '<a href="'+a27Esc(p.source)+'" target="_blank" rel="noopener">Fuente del punto</a>';
   h += '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
   return h;
 }

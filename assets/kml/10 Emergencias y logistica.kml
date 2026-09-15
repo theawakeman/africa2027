@@ -113,11 +113,32 @@
     <Point><coordinates>-12.174,12.5578,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Dakar, Saint-Louis, Tambacounda (supermercados y garrafas)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada disponible en las ciudades principales del itinerario; en el bloque del Ferlo y del Bassari, cargar reserva completa antes de salir de Kédougou o Ranérou.<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.7167,-17.4677">Google Maps</a>]]></description>
+    <name>Agua de servicio · Zebrabar (Saint-Louis)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] Duchas y camping verificados; pedir permiso explícito para llenar los depósitos. No asumir potabilidad.<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.8649,-16.512">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-17.4677,14.7167,0</coordinates></Point>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.512,15.8649,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Café Romantique (Rufisque)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] Agua corriente y duchas en recinto pequeño; precontactar, confirmar altura aproximada de 4 m, plaza y permiso de llenado.<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.7285,-17.2556">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-17.2556,14.7285,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · tuberías de Hamdallai Diapaldi (N7)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[PUNTO PÚBLICO REPORTADO] Tres tuberías con caudal, usadas por la comunidad. Prioridad absoluta a residentes: esperar turno, llenar con garrafas sin bloquear y tratar antes de beber.<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4457,-13.4317">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.4317,13.4457,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Oasis Oriental Club (Tambacounda)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] Alojamiento con agua, duchas y acceso camper publicados. Contactar para confirmar acceso de dos 4x4, precio y autorización de llenado.<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.7751,-13.6921">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.6921,13.7751,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada norte — puesto mauritano de Guerguerat</name>
@@ -239,11 +260,18 @@
     <Point><coordinates>-16.02292,18.11029,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · Nuadibú, Atar, Nuakchot (garrafas/supermercados)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en las tres ciudades principales; en el eje ferroviario y el bucle del Adrar (Ben Amera, Tifoujar, Richat) no hay fuente fiable — cargar reserva completa en Atar.<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.51819,-13.05439">Google Maps</a>]]></description>
+    <name>Agua de servicio · Africa Escale (Nuakchot)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] El recinto publica agua y duchas, pero hay reseñas recientes contradictorias sobre disponibilidad y estado. Contactar antes y pedir autorización para llenar; inspeccionar el agua.<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.1049,-15.9922">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-13.05439,20.51819,0</coordinates></Point>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.9922,18.1049,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Bab Sahara (Atar)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[RECARGA CONFIRMADA POR EL OPERADOR] 100 l por 100 MRU según su web, con duchas. Anclaje para el Adrar; reconfirmar tarifa y tratar antes de beber.<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.51923,-13.0619">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.0619,20.51923,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Puerto de Tánger Med (ferry Tarifa/Algeciras)</name>
@@ -316,11 +344,25 @@
     <Point><coordinates>-9.6,30.4,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable · supermercados y garrafas en todas las ciudades</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada disponible en todas las poblaciones del itinerario; grifo potable en riads y campings de las ciudades principales, no recomendable en el resto sin tratar. Punto representativo (Marrakech).<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.6,-8.0">Google Maps</a>]]></description>
+    <name>Agua de servicio · fuente de Taddart (N7)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[RECARGA CONFIRMADA] Fuente de carretera con llenados recientes de hasta 200 l; caudal a veces débil. No bloquear el uso local, llevar bomba/garrafas y tratar antes de beber. Verificar el mismo día en la fuente enlazada.<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.4556,-7.9804">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-8.0,31.6,0</coordinates></Point>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-7.9804,31.4556,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Camping Equinox (El Ouatia)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] Directorio actual declara agua y duchas, pero hay informes recientes de deterioro. Confirmar funcionamiento, acceso con ambos 4x4 y calidad antes de conectar; no asumir potabilidad.<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=28.49091,-11.33789">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.33789,28.49091,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Oued Ma Fatma</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[RECARGA DE PAGO DOCUMENTADA] Guía overlander registra 100 l por 20 MAD. Reconfirmar disponibilidad y precio; agua de servicio, no potable sin tratamiento.<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=28.205,-11.78283">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.78283,28.205,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Entrada (bajada) · Tarfaya → Tah: sin frontera internacional</name>
@@ -407,18 +449,25 @@
     <Point><coordinates>-11.6703,26.7394,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · El Aaiún y Dajla</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Las dos únicas ciudades con suministro garantizado del territorio. Agua embotellada en supermercados; recarga del depósito de uso general en estaciones de servicio (Afriquia, Shell) y en los campamentos de la laguna de Dajla. Fuera de estas dos ciudades no dar por hecho NINGÚN punto de agua. El Aaiún tiene planta desaladora.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.6845,-15.935">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-15.935,23.6845,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
     <name>Zona de exclusión · muro de arena (berma) y franja este</name>
     <description><![CDATA[<b>Servicio</b><br/>El muro marroquí recorre unos 2.700 km de sur a norte y está flanqueado por EL CAMPO DE MINAS CONTINUO MÁS LARGO DEL MUNDO, con minas colocadas en zigzag a un metro unas de otras y hasta tres filas en algunos tramos. Toda la franja este del territorio, y cualquier pista que se aleje del corredor asfaltado hacia el interior, queda EXCLUIDA SIN EXCEPCIÓN. Coordenada meramente indicativa de la zona a evitar, no un punto a visitar: cae en la franja al ESTE del muro, entre Mehaires y Tifariti, es decir dentro de la zona controlada por el Polisario y fuera de todo itinerario posible.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.0,-11.0">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-11.0,26.0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Camping Sahara Line (Bojador)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] Se documentan recargas de pago y duchas, pero también agua salobre, poca presión y servicio irregular. Confirmar el mismo día; usar solo como agua de servicio.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.13217,-14.49533">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.49533,26.13217,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Camping Moussafir (Dajla)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] El establecimiento publica agua y vaciado para 4x4/campers. Reservar y pedir autorización expresa para llenar ambos depósitos; no asumir potabilidad.<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.76417,-15.9075">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.9075,23.76417,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Sambaïlo / Koundara (desde Kalifourou, Senegal)</name>
@@ -534,16 +583,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Conakry, Labé, Kankan, Nzérékoré</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa disponible en todas las ciudades. Para el depósito de uso general: estaciones de servicio, hoteles y misiones católicas suelen permitir llenar con manguera. En el Fouta el agua de manantial es abundante pero hay que tratarla igualmente.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5092,-13.7122">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa disponible en todas las ciudades. Para el depósito de uso general: estaciones de servicio, hoteles y misiones católicas suelen permitir llenar con manguera. En el Fouta el agua de manantial es abundante pero hay que tratarla igualmente.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5092,-13.7122">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.7122,9.5092,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · Fouta Djallon (el castillo de agua de África occidental)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Paradoja útil: es la región con más agua de África occidental —de aquí nacen el Níger, el Senegal y el Gambia— y a la vez una donde el agua de superficie no es potable sin tratar. Manantiales y arroyos constantes en todo el altiplano: filtro mecánico más tratamiento químico o ebullición, siempre. En los campamentos de Doucki y Kambadaga el agua es de pozo o manantial.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.0833,-12.4">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Paradoja útil: es la región con más agua de África occidental —de aquí nacen el Níger, el Senegal y el Gambia— y a la vez una donde el agua de superficie no es potable sin tratar. Manantiales y arroyos constantes en todo el altiplano: filtro mecánico más tratamiento químico o ebullición, siempre. En los campamentos de Doucki y Kambadaga el agua es de pozo o manantial.<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.0833,-12.4">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-12.4,11.0833,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -632,16 +681,16 @@
   </Placemark>
   <Placemark>
     <name>Agua · Freetown y ciudades principales</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa en Freetown, Bo, Kenema y Makeni. Para el depósito de uso general (ducha, aseo, limpieza), estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca beber del grifo.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.484,-13.2299">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa en Freetown, Bo, Kenema y Makeni. Para el depósito de uso general (ducha, aseo, limpieza), estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca beber del grifo.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.484,-13.2299">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.2299,8.484,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · península de Freetown y montaña</name>
-    <description><![CDATA[<b>Agua potable</b><br/>En la península hay agua corriente en los alojamientos de River No. 2, Tokeh y Bureh, y arroyos de montaña abundantes — tratar siempre. En las Loma y en Outamba, el agua es de río o de pozo del pueblo: filtro mecánico más tratamiento químico o ebullición, sin excepción. Salir de Kabala con los depósitos llenos.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.323,-13.1866">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>En la península hay agua corriente en los alojamientos de River No. 2, Tokeh y Bureh, y arroyos de montaña abundantes — tratar siempre. En las Loma y en Outamba, el agua es de río o de pozo del pueblo: filtro mecánico más tratamiento químico o ebullición, sin excepción. Salir de Kabala con los depósitos llenos.<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.323,-13.1866">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.1866,8.323,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -723,16 +772,16 @@
   </Placemark>
   <Placemark>
     <name>Agua · Monrovia y ciudades del eje asfaltado</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de Monrovia y en las ciudades del eje Gbarnga-Ganta. Para el depósito de uso general, estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca beber del grifo.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3131,-10.8014">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de Monrovia y en las ciudades del eje Gbarnga-Ganta. Para el depósito de uso general, estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca beber del grifo.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3131,-10.8014">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-10.8014,6.3131,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · sureste y Sapo</name>
-    <description><![CDATA[<b>Agua potable</b><br/>En el sureste y en la aproximación a Sapo no hay ningún punto fiable: agua de río tratada con filtro mecánico más tratamiento químico o ebullición. Salir de Greenville con toda la reserva llena. El punto está anclado en la sede del Parque Nacional de Sapo, que es la referencia navegable de la zona. Paradoja: es el país más lluvioso de la región y a la vez uno de los más difíciles para conseguir agua potable fuera de la capital.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.35392,-8.81508">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>En el sureste y en la aproximación a Sapo no hay ningún punto fiable: agua de río tratada con filtro mecánico más tratamiento químico o ebullición. Salir de Greenville con toda la reserva llena. El punto está anclado en la sede del Parque Nacional de Sapo, que es la referencia navegable de la zona. Paradoja: es el país más lluvioso de la región y a la vez uno de los más difíciles para conseguir agua potable fuera de la capital.<br/><a href="https://theawakeman.github.io/africa2027/paises/liberia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.35392,-8.81508">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-8.81508,5.35392,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -835,9 +884,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Abiyán, Yamoussoukro, Bouaké, Man</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema de suministro en supermercados (Carrefour, Prosuma, Sococé) de Abiyán y en las capitales regionales. Para la recarga del depósito de uso general, las estaciones Total/Petro Ivoire y los hoteles con aparcamiento de estas cuatro ciudades permiten llenar con manguera; confirmar precio o donativo en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.325,-4.02">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema de suministro en supermercados (Carrefour, Prosuma, Sococé) de Abiyán y en las capitales regionales. Para la recarga del depósito de uso general, las estaciones Total/Petro Ivoire y los hoteles con aparcamiento de estas cuatro ciudades permiten llenar con manguera; confirmar precio o donativo en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/costa-de-marfil/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.325,-4.02">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-4.02,5.325,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -975,9 +1024,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable · Accra, Kumasi, Cape Coast, Tamale</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en sachet ('pure water') disponible absolutamente en todas partes y muy barata; sin problema de suministro en ningún punto del itinerario.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5471,-0.1942">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en sachet ('pure water') disponible absolutamente en todas partes y muy barata; sin problema de suministro en ningún punto del itinerario.<br/><a href="https://theawakeman.github.io/africa2027/paises/ghana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.5471,-0.1942">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-0.1942,5.5471,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1087,16 +1136,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Lomé</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Lomé permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1319,1.2228">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Lomé permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.1319,1.2228">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.2228,6.1319,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Kara y Kpalimé</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Hoteles con aparcamiento en Kara y Kpalimé permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5511,1.1861">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Hoteles con aparcamiento en Kara y Kpalimé permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.<br/><a href="https://theawakeman.github.io/africa2027/paises/togo/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.5511,1.1861">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.1861,9.5511,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1199,23 +1248,23 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Cotonú</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Cotonú y Ouidah permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3703,2.3912">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Cotonú y Ouidah permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.3703,2.3912">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>2.3912,6.3703,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Possotomé (lago Ahémé)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Albergue y camping comunitario de Eco-Bénin a orillas del lago, con agua corriente; además, fuentes de agua mineral explotadas desde 1952 en el propio pueblo.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.45,1.9833">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Albergue y camping comunitario de Eco-Bénin a orillas del lago, con agua corriente; además, fuentes de agua mineral explotadas desde 1952 en el propio pueblo.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.45,1.9833">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>1.9833,6.45,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Dassa y Djougou</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Hoteles con aparcamiento en ambas ciudades permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.75,2.1833">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Hoteles con aparcamiento en ambas ciudades permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada.<br/><a href="https://theawakeman.github.io/africa2027/paises/benin/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.75,2.1833">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>2.1833,7.75,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1325,16 +1374,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Lagos, Benin City, Calabar</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa («pure water») disponible en cualquier parte y a precio bajo. Para el depósito de uso general: estaciones de servicio grandes, hoteles con aparcamiento y el Marina Resort de Calabar permiten llenar con manguera; pedirlo en recepción y pagar la propina habitual.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4541,3.3947">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada y en bolsa («pure water») disponible en cualquier parte y a precio bajo. Para el depósito de uso general: estaciones de servicio grandes, hoteles con aparcamiento y el Marina Resort de Calabar permiten llenar con manguera; pedirlo en recepción y pagar la propina habitual.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.4541,3.3947">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>3.3947,6.4541,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · Ikom y Obudu</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Últimas recargas cómodas de cada corredor antes de los tramos de frontera. En el interior de Cross River el agua es de pozo o de perforación: tratarla siempre.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.9667,8.7">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Últimas recargas cómodas de cada corredor antes de los tramos de frontera. En el interior de Cross River el agua es de pozo o de perforación: tratarla siempre.<br/><a href="https://theawakeman.github.io/africa2027/paises/nigeria/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=5.9667,8.7">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>8.7,5.9667,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1423,16 +1472,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Duala y Yaundé</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada (Tangui, Supermont) sin problema en supermercados de las grandes ciudades; estaciones de servicio, hoteles y campamentos de Limbe, Kribi, Duala, Yaundé y Bafoussam permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.0483,9.7043">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada (Tangui, Supermont) sin problema en supermercados de las grandes ciudades; estaciones de servicio, hoteles y campamentos de Limbe, Kribi, Duala, Yaundé y Bafoussam permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.0483,9.7043">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.7043,4.0483,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua de uso general · Kribi (proveedor por confirmar)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>El pin representa Kribi, no un grifo concreto ni Sangmélima. Antes de contar con esta recarga hay que identificar un hotel, camping o estación que autorice llenar el depósito de ducha y limpieza. Cualquier agua de pozo o río debe filtrarse y desinfectarse; no se considera potable por defecto.<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.9369,9.9096">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>El pin representa Kribi, no un grifo concreto ni Sangmélima. Antes de contar con esta recarga hay que identificar un hotel, camping o estación que autorice llenar el depósito de ducha y limpieza. Cualquier agua de pozo o río debe filtrarse y desinfectarse; no se considera potable por defecto.<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.9369,9.9096">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.9096,2.9369,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1507,9 +1556,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Libreville</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Libreville, Lambaréné y Franceville permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4162,9.4673">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Libreville, Lambaréné y Franceville permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4162,9.4673">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.4673,0.4162,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1801,9 +1850,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Luanda</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.8383,13.2344">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.8383,13.2344">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.2344,-8.8383,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -1899,16 +1948,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Windhoek, Swakopmund, Walvis Bay</name>
-    <description><![CDATA[<b>Agua potable</b><br/>El abastecimiento urbano y los campings son candidatos de recarga, no puntos verificados. No contar con ellos hasta comprobar potabilidad o uso permitido, acceso del vehículo, conexión, caudal, coste y autorización para llenar.<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.5609,17.0658">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>El abastecimiento urbano y los campings son candidatos de recarga, no puntos verificados. No contar con ellos hasta comprobar potabilidad o uso permitido, acceso del vehículo, conexión, caudal, coste y autorización para llenar.<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-22.5609,17.0658">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>17.0658,-22.5609,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · campings de la NWR y del noroeste</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Etosha, Sesriem, Torra Bay, Terrace Bay, Opuwo y Sesfontein quedan como candidatos de recarga. No asumir disponibilidad, calidad ni permiso hasta la auditoría específica; entrar al Kaokoland con autonomía holgada.<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8833,13.95">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Etosha, Sesriem, Torra Bay, Terrace Bay, Opuwo y Sesfontein quedan como candidatos de recarga. No asumir disponibilidad, calidad ni permiso hasta la auditoría específica; entrar al Kaokoland con autonomía holgada.<br/><a href="https://theawakeman.github.io/africa2027/paises/namibia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8833,13.95">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.95,-19.8833,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2004,9 +2053,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable · todo el país</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua del grifo potable de calidad europea en ciudades y en la inmensa mayoría de los pueblos; campings, estaciones de servicio y talleres permiten llenar el depósito de uso general sin restricción. Excepciones a tratar: algunos municipios pequeños del Karoo y del Eastern Cape con avisos puntuales de calidad, y los campamentos sin servicios del Richtersveld y del Kgalagadi, donde hay que entrar cargado.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua del grifo potable de calidad europea en ciudades y en la inmensa mayoría de los pueblos; campings, estaciones de servicio y talleres permiten llenar el depósito de uso general sin restricción. Excepciones a tratar: algunos municipios pequeños del Karoo y del Eastern Cape con avisos puntuales de calidad, y los campamentos sin servicios del Richtersveld y del Kgalagadi, donde hay que entrar cargado.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudafrica/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-33.9249,18.4241">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>18.4241,-33.9249,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2123,16 +2172,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Nampula, Beira, Vilanculos y Maputo</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las cuatro. Campings, lodges y estaciones de servicio permiten llenar el depósito de uso general con manguera; confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8437,34.8389">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las cuatro. Campings, lodges y estaciones de servicio permiten llenar el depósito de uso general con manguera; confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.8437,34.8389">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>34.8389,-19.8437,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · costa de Inhambane y Ponta do Ouro</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Los campings de Tofo, Barra, Ponta do Ouro y Malongane tienen agua corriente y duchas; agua de pozo salobre en algunos, tratar antes de beber. Brotes de cólera recurrentes en el país: no beber agua no embotellada ni tratada, en ninguna provincia.<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-23.8544,35.5453">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Los campings de Tofo, Barra, Ponta do Ouro y Malongane tienen agua corriente y duchas; agua de pozo salobre en algunos, tratar antes de beber. Brotes de cólera recurrentes en el país: no beber agua no embotellada ni tratada, en ninguna provincia.<br/><a href="https://theawakeman.github.io/africa2027/paises/mozambique/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-23.8544,35.5453">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>35.5453,-23.8544,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2235,16 +2284,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Lilongwe, Blantyre, Mzuzu</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las tres ciudades; lodges y campings permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9833,33.7681">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las tres ciudades; lodges y campings permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-13.9833,33.7681">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>33.7681,-13.9833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · campings del lago (Cabo Maclear, Nkhata Bay, Chintheche, Senga Bay)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Todos los campings de la orilla tienen agua corriente y duchas; potabilizar antes de beber. NO usar agua del lago sin filtrar y tratar (bilharzia).<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.0206,34.8306">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Todos los campings de la orilla tienen agua corriente y duchas; potabilizar antes de beber. NO usar agua del lago sin filtrar y tratar (bilharzia).<br/><a href="https://theawakeman.github.io/africa2027/paises/malaui/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-14.0206,34.8306">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>34.8306,-14.0206,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2375,23 +2424,23 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Arusha, Dar es Salaam, Mbeya</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las tres ciudades; campings, lodges y hoteles permiten llenar el depósito de uso general con manguera. Confirmar siempre en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de las tres ciudades; campings, lodges y hoteles permiten llenar el depósito de uso general con manguera. Confirmar siempre en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.3869,36.683">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.683,-3.3869,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · campings de los parques del norte</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Los campings públicos del Ngorongoro (Simba) y del Serengeti (Seronera) tienen agua corriente y aseos, pero el suministro es irregular y no potable sin tratar. Entrar al circuito con los depósitos llenos al 100 % desde Karatu.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.2,35.5">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Los campings públicos del Ngorongoro (Simba) y del Serengeti (Seronera) tienen agua corriente y aseos, pero el suministro es irregular y no potable sin tratar. Entrar al circuito con los depósitos llenos al 100 % desde Karatu.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-3.2,35.5">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>35.5,-3.2,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · lago Natron y corredor del oeste</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Sin garantía ninguna: en Engare Sero el agua es escasa y el calor extremo (hay que contar 5-6 litros por persona y día), y en el eje Sumbawanga-Mpanda-Kigoma no hay recarga fiable fuera de las ciudades. Salir al 100 % y llevar filtro.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.45,36.0167">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Sin garantía ninguna: en Engare Sero el agua es escasa y el calor extremo (hay que contar 5-6 litros por persona y día), y en el eje Sumbawanga-Mpanda-Kigoma no hay recarga fiable fuera de las ciudades. Salir al 100 % y llevar filtro.<br/><a href="https://theawakeman.github.io/africa2027/paises/tanzania/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.45,36.0167">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.0167,-2.45,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2438,9 +2487,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Nairobi</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Nairobi; talleres y campings de Nanyuki e Isiolo permiten llenar el depósito de uso general con manguera. Para el bucle del norte, cargar a tope en Isiolo y de nuevo en Marsabit.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2864,36.8172">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Nairobi; talleres y campings de Nanyuki e Isiolo permiten llenar el depósito de uso general con manguera. Para el bucle del norte, cargar a tope en Isiolo y de nuevo en Marsabit.<br/><a href="https://theawakeman.github.io/africa2027/paises/kenia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.2864,36.8172">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>36.8172,-1.2864,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2480,9 +2529,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Adís Abeba</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles y lodges de Langano y Harar permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.025,38.7469">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles y lodges de Langano y Harar permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.025,38.7469">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>38.7469,9.025,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2550,9 +2599,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · El Cairo y Luxor</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada obligatoria para beber en todo el país (no beber del grifo); hoteles y campings de El Cairo, Luxor y Asuán permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.0444,31.2357">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada obligatoria para beber en todo el país (no beber del grifo); hoteles y campings de El Cairo, Luxor y Asuán permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.0444,31.2357">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.2357,30.0444,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2640,11 +2689,32 @@
     <Point><coordinates>-14.7667,13.5333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Kombos (Kotu / Kololi)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en toda la franja costera y en Serrekunda. Los hoteles de Kotu/Kololi permiten llenar el depósito de uso general con manguera; confirmar en recepción. El punto marca la zona de Kotu, en los Kombos. RÍO ARRIBA es otra historia: el siguiente sitio fiable para llenar es el Tendaba Camp (13,43895 / -15,80732), a unos 97 km al este, y a partir de Soma hay que garantizar la reserva completa antes de salir.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4526,-16.7069">Google Maps</a>]]></description>
+    <name>Agua de servicio · Camping Sukuta</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] Duchas, depósitos y lavado publicados. Contactar y pedir autorización expresa para llenar los vehículos; no asumir potabilidad.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4193,-16.7154">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-16.7069,13.4526,0</coordinates></Point>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.7154,13.4193,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Kachadulaa Beach</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[RECARGA PUBLICADA] Agua algo salada para llenar depósitos y manguera de ducha. Solo uso general, nunca circuito potable; acceso inferior para 4x4.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.3413,-16.8117">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.8117,13.3413,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Tendaba Camp</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[CONDICIONAL] Duchas y agua disponibles, pero el llenado no está garantizado y las condiciones varían. Llamar antes y pedir cantidad/precio.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.4392,-15.8091">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.8091,13.4392,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Triple K Hotel</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[RESPALDO CONDICIONAL] Punto nuevo con agua, duchas y acceso asfaltado, todavía sin historial suficiente. Confirmar apertura y permiso de llenado.<br/><a href="https://theawakeman.github.io/africa2027/paises/gambia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.2909,-14.2067">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.2067,13.2909,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Caledonspoort (con Sudáfrica, Free State)</name>
@@ -2704,9 +2774,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Maseru, Butha-Buthe, Semonkong</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en Maseru y en las cabeceras de distrito. No asumir potabilidad en arroyos de altura: hay ganado en las cuencas. Semonkong, Malealea y Ts'ehlanyane son candidatos de recarga, no puntos confirmados; verificar acceso, conexión, caudal, coste y permiso.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.31,27.48">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en Maseru y en las cabeceras de distrito. No asumir potabilidad en arroyos de altura: hay ganado en las cuencas. Semonkong, Malealea y Ts'ehlanyane son candidatos de recarga, no puntos confirmados; verificar acceso, conexión, caudal, coste y permiso.<br/><a href="https://theawakeman.github.io/africa2027/paises/lesoto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-29.31,27.48">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>27.48,-29.31,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2767,9 +2837,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Ezulwini, Mbabane, Manzini</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de todo el país. Mlilwane, Malolotja, Hlane, Maguga y Phophonyane son candidatos de recarga, no puntos confirmados: pedir por escrito acceso del vehículo, manguera o rosca, caudal, coste y uso permitido.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4333,31.1667">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en supermercados de todo el país. Mlilwane, Malolotja, Hlane, Maguga y Phophonyane son candidatos de recarga, no puntos confirmados: pedir por escrito acceso del vehículo, manguera o rosca, caudal, coste y uso permitido.<br/><a href="https://theawakeman.github.io/africa2027/paises/esuatini/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-26.4333,31.1667">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.1667,-26.4333,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2872,23 +2942,23 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · ciudades del eje</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Mutare, Masvingo, Bulawayo, Harare y Victoria Falls. Para el depósito de uso general (ducha, aseo, vajilla), los campings de overlanders de Victoria Falls, los lodges del borde de Matobo y los campings de Great Zimbabwe y Nyanga permiten llenar con manguera: confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de Mutare, Masvingo, Bulawayo, Harare y Victoria Falls. Para el depósito de uso general (ducha, aseo, vajilla), los campings de overlanders de Victoria Falls, los lodges del borde de Matobo y los campings de Great Zimbabwe y Nyanga permiten llenar con manguera: confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-20.15,28.5833">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>28.5833,-20.15,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · campamentos de ZimParks</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Main Camp, Sinamatella, Robins (Hwange), Maleme y Sandy Spruit (Matobo), Nyamepi (Mana Pools) y los campamentos de Nyanga tienen agua corriente y aseos, pero el suministro es irregular y NO potable sin tratar. Entrar a cada parque al 100 % de depósitos.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.0,26.5">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Main Camp, Sinamatella, Robins (Hwange), Maleme y Sandy Spruit (Matobo), Nyamepi (Mana Pools) y los campamentos de Nyanga tienen agua corriente y aseos, pero el suministro es irregular y NO potable sin tratar. Entrar a cada parque al 100 % de depósitos.<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.0,26.5">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>26.5,-19.0,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · Gonarezhou, Chizarira y la variante norte</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Sin ninguna garantía: los campamentos de naturaleza de Gonarezhou y los siete de Chizarira no tienen agua tratada, y en Chizarira hay que entrarla toda. Filtro obligatorio y nunca beber del Runde, del Save ni del Zambeze sin tratar (bilharzia y cocodrilos en la orilla).<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.3,31.8833">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Sin ninguna garantía: los campamentos de naturaleza de Gonarezhou y los siete de Chizarira no tienen agua tratada, y en Chizarira hay que entrarla toda. Filtro obligatorio y nunca beber del Runde, del Save ni del Zambeze sin tratar (bilharzia y cocodrilos en la orilla).<br/><a href="https://theawakeman.github.io/africa2027/paises/zimbabue/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.3,31.8833">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>31.8833,-21.3,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -2998,16 +3068,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Kasane y Maun</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema; lodges y campings permiten llenar el depósito de uso general con manguera. Son los dos únicos sitios del norte donde dar por hecha la recarga.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.9833,23.4167">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema; lodges y campings permiten llenar el depósito de uso general con manguera. Son los dos únicos sitios del norte donde dar por hecha la recarga.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-19.9833,23.4167">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>23.4167,-19.9833,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · sin recarga en CKGR, Makgadikgadi y Kubu</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Los campings del Kalahari Central y de las salinas NO TIENEN AGUA. Tracks4Africa recomienda 6 litros por persona y día más 2 litros por persona y día de reserva para 5 días extra. Salir con depósitos al 100% desde Ghanzi, Rakops o Maun.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.4167,23.75">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Los campings del Kalahari Central y de las salinas NO TIENEN AGUA. Tracks4Africa recomienda 6 litros por persona y día más 2 litros por persona y día de reserva para 5 días extra. Salir con depósitos al 100% desde Ghanzi, Rakops o Maun.<br/><a href="https://theawakeman.github.io/africa2027/paises/botsuana/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.4167,23.75">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>23.75,-21.4167,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -3082,16 +3152,16 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Lusaka y Livingstone</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en ambas; lodges y campings permiten llenar el depósito de uso general con manguera. En el valle del Luangwa y el norte rural, confirmar potabilidad antes de beber.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.4067,28.305">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en ambas; lodges y campings permiten llenar el depósito de uso general con manguera. En el valle del Luangwa y el norte rural, confirmar potabilidad antes de beber.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-15.4067,28.305">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>28.305,-15.4067,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Agua · campings de cascadas (norte)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Lumangwe, Ntumbachushi y Chishimba tienen camping con aseos y agua corriente; tratarla antes de beber. Las pozas son de agua cristalina pero no potable sin filtrar.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.5333,29.3833">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Lumangwe, Ntumbachushi y Chishimba tienen camping con aseos y agua corriente; tratarla antes de beber. Las pozas son de agua cristalina pero no potable sin filtrar.<br/><a href="https://theawakeman.github.io/africa2027/paises/zambia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.5333,29.3833">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>29.3833,-9.5333,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -3152,9 +3222,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Kampala, Entebbe, Jinja, Fort Portal</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en todas las ciudades. Para el depósito de uso general, los campings de Jinja, Entebbe, Fort Portal, Bunyonyi y Buhoma permiten llenar con manguera; confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.05,32.46">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en todas las ciudades. Para el depósito de uso general, los campings de Jinja, Entebbe, Fort Portal, Bunyonyi y Buhoma permiten llenar con manguera; confirmar en recepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/uganda/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.05,32.46">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>32.46,0.05,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -3208,9 +3278,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Kigali, Musanze, Gisenyi, Karongi</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en todas las ciudades. Para el depósito de uso general, los campings y lodges del Kivu (Gisenyi, Kinunu, Karongi) permiten llenar con manguera. El lago Kivu es de los pocos grandes lagos africanos sin bilharzia documentada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9536,30.0606">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada en todas las ciudades. Para el depósito de uso general, los campings y lodges del Kivu (Gisenyi, Kinunu, Karongi) permiten llenar con manguera. El lago Kivu es de los pocos grandes lagos africanos sin bilharzia documentada.<br/><a href="https://theawakeman.github.io/africa2027/paises/ruanda/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-1.9536,30.0606">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>30.0606,-1.9536,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -3250,9 +3320,9 @@
   </Placemark>
   <Placemark>
     <name>Agua potable y de uso general · Yibuti ciudad</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles permiten llenar el depósito de uso general con manguera. Fuera de la capital (Lac Assal, Lac Abbé), llevar reserva completa: no hay puntos fiables en el desierto de Afar.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.5721,43.1456">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles permiten llenar el depósito de uso general con manguera. Fuera de la capital (Lac Assal, Lac Abbé), llevar reserva completa: no hay puntos fiables en el desierto de Afar.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.5721,43.1456">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>43.1456,11.5721,0</coordinates></Point>
   </Placemark>
   <Placemark>

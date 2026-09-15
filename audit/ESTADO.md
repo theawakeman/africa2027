@@ -8,7 +8,7 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 
 | Grupo | Países | Historia | GPS/PDIs | Profundidad PDI | Enlaces concretos | Fotografías exactas/galerías | Agua de servicio |
 |---|---|---|---|---|---|---|---|
-| 1 | Marruecos, Sáhara Occidental, Mauritania, Senegal, Gambia | Cerrado | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 con galería; 222 fotos | Pendiente |
+| 1 | Marruecos, Sáhara Occidental, Mauritania, Senegal, Gambia | Cerrado | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 con galería; 222 fotos | Cerrado: 15 puntos exactos; 5 genéricos retirados |
 | 2 | Guinea, Sierra Leona, Liberia, Costa de Marfil | Cerrado | Cerrado: 42/42 | Cerrado: 42/42 | Cerrado: 42/42 | Cerrado: 42/42 con galería; 126 fotos | Pendiente |
 | 3 | Ghana, Togo, Benín, Nigeria | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con galería; 180 fotos | Pendiente |
 | 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Cerrado: 93/93 | Cerrado: 93/93 | Cerrado: 93/93 con foto y enlace; 90 galerías | Parcial: corredor Congo–Cabinda–RDC revisado |
@@ -30,8 +30,8 @@ El detalle cuantitativo está en [`audit/pdi/grupo1.md`](pdi/grupo1.md),
 [`audit/pdi/grupo5.md`](pdi/grupo5.md), [`audit/pdi/grupo6.md`](pdi/grupo6.md),
 [`audit/pdi/grupo7.md`](pdi/grupo7.md), [`audit/pdi/grupo8.md`](pdi/grupo8.md) y
 [`audit/pdi/grupo9.md`](pdi/grupo9.md). Los grupos 1–9 ya cumplen el nuevo
-estándar en el contenido fuente. La siguiente fase rehace el corredor
-Congo–RD Congo y toda la información operativa de las fichas de ambos países.
+estándar en el contenido fuente. El corredor Congo–RD Congo también ha quedado
+rehecho por Cabinda; la fase activa es la auditoría de agua de servicio por grupos.
 
 ## Criterio de cierre por PDI
 
@@ -57,8 +57,10 @@ Congo–RD Congo y toda la información operativa de las fichas de ambos países
   capas. La validación global confirma esa sincronía en todos los PDIs que ya
   tienen fotografía. En el grupo 8 los 36 PDIs comparten fuente, resumen y
   portada entre tarjeta, globo y modal, y todos disponen de galería.
-- Agua para lavar/ducharse en el vehículo: auditoría específica pendiente para
-  todos los países; no se dará por válido un grifo genérico sin acceso confirmado.
+- Agua para lavar/ducharse en el vehículo: grupo 1 cerrado con 15 puntos exactos,
+  condiciones de acceso y descartes explícitos; expediente en
+  [`audit/agua/grupo1.md`](agua/grupo1.md). Grupos 2–9 pendientes. No se da por
+  válido un grifo genérico ni una instalación con duchas sin acceso documentado.
 - Corredor Congo–RD Congo: cerrado el replanteamiento de contenido y mapa.
   La ruta principal usa Pointe-Noire → Massabi → Cabinda → Yema → Muanda →
   Boma → Matadi → Lufu en bajada y el mismo eje en subida. El ferry

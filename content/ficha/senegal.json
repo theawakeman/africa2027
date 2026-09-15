@@ -247,11 +247,36 @@
       "info": "Estaciones formales limitadas; repostar a fondo antes de Bandafassi, Iwol y Dindéfelo."
     },
     {
-      "name": "Agua potable · Dakar, Saint-Louis, Tambacounda (supermercados y garrafas)",
-      "cat": "Agua potable",
-      "lat": 14.7167,
-      "lon": -17.4677,
-      "info": "Agua embotellada disponible en las ciudades principales del itinerario; en el bloque del Ferlo y del Bassari, cargar reserva completa antes de salir de Kédougou o Ranérou."
+      "name": "Agua de servicio · Zebrabar (Saint-Louis)",
+      "cat": "Agua de servicio",
+      "lat": 15.8649,
+      "lon": -16.512,
+      "info": "[CONDICIONAL] Duchas y camping verificados; pedir permiso explícito para llenar los depósitos. No asumir potabilidad.",
+      "source": "https://en.zebrabar.net/"
+    },
+    {
+      "name": "Agua de servicio · Café Romantique (Rufisque)",
+      "cat": "Agua de servicio",
+      "lat": 14.7285,
+      "lon": -17.2556,
+      "info": "[CONDICIONAL] Agua corriente y duchas en recinto pequeño; precontactar, confirmar altura aproximada de 4 m, plaza y permiso de llenado.",
+      "source": "https://park4night.com/en/place/674597"
+    },
+    {
+      "name": "Agua de servicio · tuberías de Hamdallai Diapaldi (N7)",
+      "cat": "Agua de servicio",
+      "lat": 13.4457,
+      "lon": -13.4317,
+      "info": "[PUNTO PÚBLICO REPORTADO] Tres tuberías con caudal, usadas por la comunidad. Prioridad absoluta a residentes: esperar turno, llenar con garrafas sin bloquear y tratar antes de beber.",
+      "source": "https://park4night.com/en/place/568817"
+    },
+    {
+      "name": "Agua de servicio · Oasis Oriental Club (Tambacounda)",
+      "cat": "Agua de servicio",
+      "lat": 13.7751,
+      "lon": -13.6921,
+      "info": "[CONDICIONAL] Alojamiento con agua, duchas y acceso camper publicados. Contactar para confirmar acceso de dos 4x4, precio y autorización de llenado.",
+      "source": "https://park4night.com/en/place/112064"
     }
   ],
   "sources": [
@@ -342,6 +367,26 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "Zebrabar · servicios oficiales",
+      "https://en.zebrabar.net/"
+    ],
+    [
+      "park4night · Zebrabar Saint-Louis",
+      "https://park4night.com/en/place/50392"
+    ],
+    [
+      "park4night · Café Romantique Rufisque",
+      "https://park4night.com/en/place/674597"
+    ],
+    [
+      "park4night · agua pública Hamdallai Diapaldi",
+      "https://park4night.com/en/place/568817"
+    ],
+    [
+      "park4night · Oasis Oriental Club Tambacounda",
+      "https://park4night.com/en/place/112064"
     ]
   ],
   "sources_note": "Consulta realizada el 8 de septiembre de 2026. Las fuentes cambian; el enlace y la fecha forman parte del dato operativo.",
@@ -367,7 +412,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar también el depósito de uso general (ducha, aseo, vajilla, limpieza), no solo el agua potable de beber.</p><ul class=\"ticks\"><li>Dakar, Saint-Louis y Tambacounda: agua embotellada en supermercados y tiendas sin ningún problema de suministro.</li><li>Recarga de depósito de uso general: estaciones de servicio Total/Shell/Elton de Dakar, Saint-Louis, Tambacounda y Kédougou y los campings de la Petite Côte y Saint-Louis (Zebrabar, Camping de la Langue de Barbarie) aceptan llenar bidones/depósito con manguera; confirmar precio en recepción.</li><li>Bloque del Ferlo y del país Bassari (Kédougou, Bandafassi, Iwol, Dindéfelo): cargar reserva completa (mínimo 20-30 l por vehículo, beber y uso general) antes de salir de Tambacounda o Kédougou; sin garantía fiable en pistas y aldeas.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje principal: Diama → Saint-Louis (~40 km) → Dakar (~270 km) → Tambacounda (~440 km) → Kédougou (~220 km), todos con estaciones formales.</li><li>Bloque del Ferlo (Linguère-Ranérou-Katané, opcional): oferta escasa e informal; repostar a fondo en Dakar o Saint-Louis antes de entrar y no confiar en encontrar gasóleo de calidad por el camino.</li><li>Kédougou es la última plaza con estaciones formales antes de Bandafassi, Iwol, Dindéfelo y la frontera de Guinea: salir siempre con el depósito lleno.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: cobertura real del eje norte–este</h3><p>Se eliminan las promesas genéricas de las redes de gasolineras. Estos son puntos físicos concretos; salvo la tubería de Hamdallai, el llenado del depósito debe acordarse con el establecimiento.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Zebrabar, Saint-Louis · 15.864900, -16.512000</td><td><strong>Duchas y camping confirmados; llenado condicionado.</strong> Web oficial y ficha reciente acreditan servicios de agua, no una manguera libre al depósito. <a href=\"https://en.zebrabar.net/\" target=\"_blank\" rel=\"noopener\">web oficial</a> · <a href=\"https://park4night.com/en/place/50392\" target=\"_blank\" rel=\"noopener\">ficha reciente</a></td><td>Reservar y pedir permiso para llenar ambos vehículos. Tratar antes de beber.</td></tr><tr><td>Café Romantique, Rufisque · 14.728500, -17.255600</td><td><strong>Agua corriente y duchas, acceso condicionado.</strong> Recinto pequeño, vallado, con altura máxima aproximada de 4 m. <a href=\"https://park4night.com/en/place/674597\" target=\"_blank\" rel=\"noopener\">ficha 2026</a></td><td>Precontactar: confirmar altura de los coches, plaza y autorización de llenado.</td></tr><tr><td>Hamdallai Diapaldi, N7 · 13.445700, -13.431700</td><td><strong>Tres tuberías públicas con caudal reportado.</strong> Los comentarios describen uso comunitario para agua y lavado. <a href=\"https://park4night.com/en/place/568817\" target=\"_blank\" rel=\"noopener\">ubicación y comentarios</a></td><td>Usar garrafas, esperar turno y no bloquear ni reducir el suministro de la población. Tratar para consumo.</td></tr><tr><td>Hôtel Oasis Oriental Club, Tambacounda · 13.775100, -13.692100</td><td><strong>Agua y duchas publicadas; llenado condicionado.</strong> Alojamiento activo con acceso camper. <a href=\"https://park4night.com/en/place/112064\" target=\"_blank\" rel=\"noopener\">ficha reciente</a></td><td>Confirmar acceso y precio; apoyo antes/después del eje oriental, no garantía sin llamada.</td></tr></tbody></table></div><h3>Descartes que evitan una falsa seguridad</h3><ul class=\"ticks\"><li>El antiguo grifo de Rufisque (14.710600, -17.434300) figura sin agua: no se incorpora al mapa.</li><li>Wassadou tiene duchas, pero reseñas recientes niegan el llenado de depósito; tampoco es un anclaje.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gap de 500 km en el eje principal: Diama → Saint-Louis (~40 km) → Dakar (~270 km) → Tambacounda (~440 km) → Kédougou (~220 km), todos con estaciones formales.</li><li>Bloque del Ferlo (Linguère-Ranérou-Katané, opcional): oferta escasa e informal; repostar a fondo en Dakar o Saint-Louis antes de entrar y no confiar en encontrar gasóleo de calidad por el camino.</li><li>Kédougou es la última plaza con estaciones formales antes de Bandafassi, Iwol, Dindéfelo y la frontera de Guinea: salir siempre con el depósito lleno.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

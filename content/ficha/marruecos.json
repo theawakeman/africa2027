@@ -244,11 +244,28 @@
       "info": "Sin problema de autonomía en Marruecos: estaciones cada pocos kilómetros en el eje Tánger–Agadir–Tarfaya, todas con gasóleo de calidad estándar europea. Punto representativo (Agadir); repostar siempre por debajo de medio depósito antes de Guelmim."
     },
     {
-      "name": "Agua potable · supermercados y garrafas en todas las ciudades",
-      "cat": "Agua potable",
-      "lat": 31.6,
-      "lon": -8.0,
-      "info": "Agua embotellada disponible en todas las poblaciones del itinerario; grifo potable en riads y campings de las ciudades principales, no recomendable en el resto sin tratar. Punto representativo (Marrakech)."
+      "name": "Agua de servicio · fuente de Taddart (N7)",
+      "cat": "Agua de servicio",
+      "lat": 31.4556,
+      "lon": -7.9804,
+      "info": "[RECARGA CONFIRMADA] Fuente de carretera con llenados recientes de hasta 200 l; caudal a veces débil. No bloquear el uso local, llevar bomba/garrafas y tratar antes de beber. Verificar el mismo día en la fuente enlazada.",
+      "source": "https://www.park4night.com/es/place/561107"
+    },
+    {
+      "name": "Agua de servicio · Camping Equinox (El Ouatia)",
+      "cat": "Agua de servicio",
+      "lat": 28.49091,
+      "lon": -11.337891,
+      "info": "[CONDICIONAL] Directorio actual declara agua y duchas, pero hay informes recientes de deterioro. Confirmar funcionamiento, acceso con ambos 4x4 y calidad antes de conectar; no asumir potabilidad.",
+      "source": "https://www.campercontact.com/fr/maroc/guelmim-oued-noun/el-ouatia/30150/camping-equinox-tan-tan"
+    },
+    {
+      "name": "Agua de servicio · Oued Ma Fatma",
+      "cat": "Agua de servicio",
+      "lat": 28.205,
+      "lon": -11.782833,
+      "info": "[RECARGA DE PAGO DOCUMENTADA] Guía overlander registra 100 l por 20 MAD. Reconfirmar disponibilidad y precio; agua de servicio, no potable sin tratamiento.",
+      "source": "https://saharawander.com/campings_maroc.pdf"
     }
   ],
   "sources": [
@@ -299,6 +316,22 @@
     [
       "Comisión Europea · animales de compañía",
       "https://europa.eu/youreurope/citizens/travel/carry/pets-and-other-animals/index_es.htm"
+    ],
+    [
+      "park4night · fuente de Taddart N7",
+      "https://www.park4night.com/es/place/561107"
+    ],
+    [
+      "Campercontact · Camping Equinox Tan-Tan",
+      "https://www.campercontact.com/fr/maroc/guelmim-oued-noun/el-ouatia/30150/camping-equinox-tan-tan"
+    ],
+    [
+      "Sahara Wander · guía de campings y recargas de Marruecos",
+      "https://saharawander.com/campings_maroc.pdf"
+    ],
+    [
+      "Camping Esprit Nature · servicios oficiales",
+      "https://espritnature-essaouira.com/"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
@@ -324,7 +357,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Agua embotellada disponible en cualquier población, incluidas las pequeñas del extremo sur (Tan-Tan, Tarfaya).</li><li>Grifo potable fiable en riads, campings y hoteles de las ciudades principales; no confiar en el grifo en zonas rurales sin tratar o hervir.</li><li>Llevar 20-30 l de reserva en los vehículos igualmente, como colchón antes de entrar en el Sáhara Occidental.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gaps de 500 km en Marruecos: red densa Afriquia/Shell/Total/Winxo en todo el eje Tánger–Agadir–Tarfaya, con gasóleo de calidad estándar homologada europea.</li><li>Repostar siempre en Guelmim o Tan-Tan antes de Tarfaya: última zona con oferta amplia y competencia de precios antes del tramo del Sáhara Occidental.</li><li>Evitar combustible de garrafa/informal fuera de estaciones oficiales: en Marruecos no hace falta, a diferencia de tramos más al sur.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: puntos concretos</h3><p>El eje atlántico tiene varias opciones, pero no se da por cierta ninguna recarga genérica en hoteles, riads o gasolineras. Los anclajes del itinerario son estos:</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Taddart, N7 · 31.455600, -7.980400</td><td><strong>Recarga confirmada recientemente.</strong> Fuente de carretera con informes de llenados de 200 l; el caudal puede ser débil. <a href=\"https://www.park4night.com/es/place/561107\" target=\"_blank\" rel=\"noopener\">ficha y comentarios</a></td><td>Parar solo si no se bloquea el acceso local; usar bomba/garrafas si no hay presión. Tratarla antes de beber.</td></tr><tr><td>Camping Equinox, El Ouatia · 28.490910, -11.337891</td><td><strong>Recarga y duchas declaradas; estado variable.</strong> El directorio marca agua incluida, pero una reseña de 2026 avisa de instalaciones degradadas. <a href=\"https://www.campercontact.com/fr/maroc/guelmim-oued-noun/el-ouatia/30150/camping-equinox-tan-tan\" target=\"_blank\" rel=\"noopener\">fuente</a></td><td>Llamar antes o inspeccionar el grifo; alternativa, Oued Ma Fatma. No asumir potabilidad.</td></tr><tr><td>Oued Ma Fatma · 28.205000, -11.782833</td><td><strong>Recarga de pago documentada.</strong> La guía de campings registra 100 l por 20 MAD. <a href=\"https://saharawander.com/campings_maroc.pdf\" target=\"_blank\" rel=\"noopener\">guía y coordenadas</a></td><td>Usarlo como último respaldo medido antes de continuar al sur; reconfirmar precio y disponibilidad.</td></tr><tr><td>Esprit Nature, Essaouira · 31.554307, -9.628866</td><td><strong>Duchas y zona de lavado, no llenado acreditado.</strong> La web oficial publica duchas calientes y prohíbe lavar vehículos. <a href=\"https://espritnature-essaouira.com/\" target=\"_blank\" rel=\"noopener\">web oficial</a> · <a href=\"https://www.espritnature-essaouira.com/_media/hiver-en-plaquette-verso-2025-2026.pdf\" target=\"_blank\" rel=\"noopener\">servicios y normas</a></td><td>Válido para ducha; el depósito solo si lo autoriza expresamente el establecimiento.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Salir de Tan-Tan/El Ouatia con los depósitos completos y mantener una reserva separada para beber.</li><li>Antes de Tarfaya, comprobar Equinox y conservar Oued Ma Fatma como respaldo; no existe ya en el mapa el antiguo pin representativo de Marrakech.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin riesgo de gaps de 500 km en Marruecos: red densa Afriquia/Shell/Total/Winxo en todo el eje Tánger–Agadir–Tarfaya, con gasóleo de calidad estándar homologada europea.</li><li>Repostar siempre en Guelmim o Tan-Tan antes de Tarfaya: última zona con oferta amplia y competencia de precios antes del tramo del Sáhara Occidental.</li><li>Evitar combustible de garrafa/informal fuera de estaciones oficiales: en Marruecos no hace falta, a diferencia de tramos más al sur.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

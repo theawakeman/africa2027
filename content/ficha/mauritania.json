@@ -261,11 +261,20 @@
       "info": "Mejor oferta y calidad del país; repostar aquí antes del tramo final hacia Diawling/Diama o Rosso."
     },
     {
-      "name": "Agua potable · Nuadibú, Atar, Nuakchot (garrafas/supermercados)",
-      "cat": "Agua potable",
-      "lat": 20.51819,
-      "lon": -13.05439,
-      "info": "Agua embotellada en las tres ciudades principales; en el eje ferroviario y el bucle del Adrar (Ben Amera, Tifoujar, Richat) no hay fuente fiable — cargar reserva completa en Atar."
+      "name": "Agua de servicio · Africa Escale (Nuakchot)",
+      "cat": "Agua de servicio",
+      "lat": 18.1049,
+      "lon": -15.9922,
+      "info": "[CONDICIONAL] El recinto publica agua y duchas, pero hay reseñas recientes contradictorias sobre disponibilidad y estado. Contactar antes y pedir autorización para llenar; inspeccionar el agua.",
+      "source": "https://park4night.com/en/place/398533"
+    },
+    {
+      "name": "Agua de servicio · Bab Sahara (Atar)",
+      "cat": "Agua de servicio",
+      "lat": 20.51923,
+      "lon": -13.0619,
+      "info": "[RECARGA CONFIRMADA POR EL OPERADOR] 100 l por 100 MRU según su web, con duchas. Anclaje para el Adrar; reconfirmar tarifa y tratar antes de beber.",
+      "source": "https://bab-sahara.com/"
     }
   ],
   "sources": [
@@ -340,6 +349,18 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "Bab Sahara Atar · agua y coordenadas oficiales",
+      "https://bab-sahara.com/"
+    ],
+    [
+      "park4night · Africa Escale, Nuakchot",
+      "https://park4night.com/en/place/398533"
+    ],
+    [
+      "park4night · Camping Baie du Lévrier, Nuadibú",
+      "https://park4night.com/en/place/70265"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 6 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
@@ -365,7 +386,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<div class=\"callout warn\"><div class=\"callout-title\">Bloque del Adrar y eje ferroviario sin combustible garantizado</div><p>Fuera de Nuadibú, Atar y Nuakchot no hay red formal fiable: el combustible en pista suele venderse en bidón, a hasta el cuádruple del precio oficial. Salir de Atar con el depósito lleno antes de Tifoujar, Chinguetti, Ouadane y Richat.</p></div><h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar también el depósito de uso general (ducha, aseo, vajilla, limpieza), no solo el agua potable de beber.</p><ul class=\"ticks\"><li>Nuadibú, Atar y Nuakchot: agua embotellada en supermercados y garrafas sin problema.</li><li>Recarga de depósito de uso general: estaciones de servicio de Nuadibú, Atar y Nuakchot aceptan llenar bidones/depósito con manguera; en Atar es el último punto fiable antes del bucle del Adrar, llenar a tope allí.</li><li>Eje ferroviario (Choum, Ben Amera, Aïcha) y bucle del Adrar (Tifoujar, Valle Blanco, Chinguetti, Ouadane, Richat): sin fuente fiable — cargar reserva completa (mínimo 30-40 l por vehículo, beber y uso general) en Atar antes de salir.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Guerguerat → Nuadibú (~4 h de pista/carretera): repostar al llegar a Nuadibú, primera plaza con oferta amplia.</li><li>Nuadibú → Atar (~460 km) vía el eje ferroviario: sin estaciones formales fiables en el trayecto; salir con el depósito lleno y margen de reserva.</li><li>Atar es el punto de no retorno para combustible de calidad: desde aquí, Tifoujar, Chinguetti, Ouadane y Richat dependen de bidón informal a precio muy superior — planificar el consumo total del bucle antes de salir.</li><li>Atar → Nuakchot (~450 km): tramo con más estaciones intermedias (Chami), aunque puede haber roturas de suministro puntuales.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: un punto fuerte y dos apoyos condicionados</h3><p>Nuadibú, Atar y Nuakchot ya no aparecen como si la mera presencia de comercios garantizara recarga. En Mauritania hay que concertar el acceso y conservar margen para que una negativa no inmovilice la ruta.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Camping Baie du Lévrier, Nuadibú · 20.915500, -17.050200</td><td><strong>Solo ducha; recarga descartada.</strong> La ficha reciente mantiene duchas, pero los informes indican que no llenan depósitos. <a href=\"https://park4night.com/en/place/70265\" target=\"_blank\" rel=\"noopener\">fuente</a></td><td>No contar con agua para el vehículo. Llegar desde Dajla con reserva y concertar otra opción privada si se permanece en la ciudad.</td></tr><tr><td>Africa Escale, Nuakchot · 18.104900, -15.992200</td><td><strong>Agua y duchas, acceso condicionado.</strong> La ficha está activa, pero las reseñas recientes discrepan sobre caudal y limpieza. <a href=\"https://park4night.com/en/place/398533\" target=\"_blank\" rel=\"noopener\">comentarios</a></td><td>Contactar antes, inspeccionar y pedir permiso para llenar; alternativa, comprar/transportar garrafas.</td></tr><tr><td>Bab Sahara, Atar · 20.519230, -13.061900</td><td><strong>Recarga confirmada por el establecimiento.</strong> Su web ofrece agua limpia: 100 l por 100 MRU, además de duchas. <a href=\"https://bab-sahara.com/\" target=\"_blank\" rel=\"noopener\">web oficial</a></td><td>Anclaje principal del bucle del Adrar. Reconfirmar tarifa; tratar para consumo aunque el operador la describa como potable.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Dajla → Nuadibú: entrar con reserva completa; Baie du Lévrier no cuenta como recarga.</li><li>Nuakchot es apoyo condicionado; Bab Sahara es el anclaje documentado antes de las pistas del Adrar.</li><li>No consumir agua de pozo sin filtración y desinfección redundante.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Guerguerat → Nuadibú (~4 h de pista/carretera): repostar al llegar a Nuadibú, primera plaza con oferta amplia.</li><li>Nuadibú → Atar (~460 km) vía el eje ferroviario: sin estaciones formales fiables en el trayecto; salir con el depósito lleno y margen de reserva.</li><li>Atar es el punto de no retorno para combustible de calidad: desde aquí, Tifoujar, Chinguetti, Ouadane y Richat dependen de bidón informal a precio muy superior — planificar el consumo total del bucle antes de salir.</li><li>Atar → Nuakchot (~450 km): tramo con más estaciones intermedias (Chami), aunque puede haber roturas de suministro puntuales.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

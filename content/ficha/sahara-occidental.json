@@ -258,18 +258,27 @@
       "info": "Eje interior de ~240 km con oferta escasa: repostar a fondo en El Aaiún y contar con que entre medias puede no haber nada fiable. POR CONFIRMAR sobre el terreno antes de tomar el desvío de Smara."
     },
     {
-      "name": "Agua potable y de uso general · El Aaiún y Dajla",
-      "cat": "Agua potable",
-      "lat": 23.6845,
-      "lon": -15.935,
-      "info": "Las dos únicas ciudades con suministro garantizado del territorio. Agua embotellada en supermercados; recarga del depósito de uso general en estaciones de servicio (Afriquia, Shell) y en los campamentos de la laguna de Dajla. Fuera de estas dos ciudades no dar por hecho NINGÚN punto de agua. El Aaiún tiene planta desaladora."
-    },
-    {
       "name": "Zona de exclusión · muro de arena (berma) y franja este",
       "cat": "Servicio",
       "lat": 26.0,
       "lon": -11.0,
       "info": "El muro marroquí recorre unos 2.700 km de sur a norte y está flanqueado por EL CAMPO DE MINAS CONTINUO MÁS LARGO DEL MUNDO, con minas colocadas en zigzag a un metro unas de otras y hasta tres filas en algunos tramos. Toda la franja este del territorio, y cualquier pista que se aleje del corredor asfaltado hacia el interior, queda EXCLUIDA SIN EXCEPCIÓN. Coordenada meramente indicativa de la zona a evitar, no un punto a visitar: cae en la franja al ESTE del muro, entre Mehaires y Tifariti, es decir dentro de la zona controlada por el Polisario y fuera de todo itinerario posible."
+    },
+    {
+      "name": "Agua de servicio · Camping Sahara Line (Bojador)",
+      "cat": "Agua de servicio",
+      "lat": 26.132167,
+      "lon": -14.495333,
+      "info": "[CONDICIONAL] Se documentan recargas de pago y duchas, pero también agua salobre, poca presión y servicio irregular. Confirmar el mismo día; usar solo como agua de servicio.",
+      "source": "https://park4night.com/fr/place/12064"
+    },
+    {
+      "name": "Agua de servicio · Camping Moussafir (Dajla)",
+      "cat": "Agua de servicio",
+      "lat": 23.764167,
+      "lon": -15.9075,
+      "info": "[CONDICIONAL] El establecimiento publica agua y vaciado para 4x4/campers. Reservar y pedir autorización expresa para llenar ambos depósitos; no asumir potabilidad.",
+      "source": "https://www.morocco-guide.com/accommodation/campsites/camping-moussafir-dakhla/"
     }
   ],
   "sources": [
@@ -372,6 +381,18 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "park4night · Camping Sahara Line, Bojador",
+      "https://park4night.com/fr/place/12064"
+    ],
+    [
+      "Morocco Guide · Camping Moussafir, Dajla",
+      "https://www.morocco-guide.com/accommodation/campsites/camping-moussafir-dakhla/"
+    ],
+    [
+      "Ministerio de Turismo de Marruecos · registro de alojamientos",
+      "https://mtaess.gov.ma/fr/annuaires/annuaire-des-etablissements-dhebergements-touristique/"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 12 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada, una guía de navegación ni una toma de posición sobre el estatus del territorio, que Naciones Unidas considera no autónomo y pendiente de resolución. Los topónimos se dan en la forma que corresponde a cada contexto y no implican reconocimiento de soberanía.",
@@ -397,7 +418,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<div class=\"callout warn\"><div class=\"callout-title\">Tramo sin garantía de combustible cada 500 km</div><p>Dos tramos críticos, y los mismos en las dos pasadas: BOJADOR → CRUCE DE DAJLA son ~290 km sin absolutamente nada entre medias, y DAJLA → BIR GANDOUZ son ~250 km, el tramo más largo sin combustible garantizado de todo el bloque Marruecos/Sáhara Occidental. Salir lleno de Bojador y de Dajla y llevar bidón de reserva. Agua potable prácticamente inexistente fuera de El Aaiún y Dajla: cargar TODA la reserva en esas dos ciudades. Ventaja compensatoria: el gasóleo está subvencionado y es notablemente más barato que en el resto de Marruecos, así que conviene entrar al territorio con poco y repostar ya dentro.</p></div><h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>El Aaiún y Dajla son los ÚNICOS dos puntos con suministro garantizado de todo el territorio: agua embotellada en supermercados y planta desaladora en El Aaiún. Fuera de ellas, no dar por hecho ningún punto en 1.100 km.</li><li>Cargar la reserva completa de los dos vehículos (mínimo 20-30 l de agua de boca por vehículo) en cada una de las dos ciudades, en las dos pasadas.</li><li>Recarga del depósito de uso general (ducha, aseo, vajilla, limpieza): estaciones de servicio Afriquia/Shell de El Aaiún y Dajla y los campamentos de la laguna de Dajla (tipo Point Dakhla, La Sarga) permiten llenar con manguera. Entre Bojador y Bir Gandouz no contar con nada.</li><li>No beber del grifo. El agua desalada de El Aaiún es potable pero de sabor desagradable: filtrarla o usarla solo para el depósito de uso general.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>El Aaiún → Laayoune Plage (20 km) → Lemsid (80 km) → Bojador (80 km): tramo bien cubierto. Repostar en cada parada aunque no haga falta, porque lo que viene después no perdona.</li><li>Bojador → cruce de Dajla (290 km): el tramo intermedio más largo del corredor. No hay nada fiable entre medias salvo viento. Salir de Bojador con el depósito lleno.</li><li>Dajla → Bir Gandouz (~250 km) → Guerguerat (~80 km): tramo crítico final. Hay estaciones antiguas cerca de El Argoub o Tchika que pueden estar vacías: no confiar en ellas como plan principal. Bidón de reserva lleno.</li><li>Desvío interior El Aaiún → Smara (~240 km, corredor de subida): oferta escasa. Repostar a fondo en El Aaiún y POR CONFIRMAR sobre el terreno si hay algo fiable en el trayecto antes de comprometer la etapa.</li><li>COMBUSTIBLE SUBVENCIONADO: el gasóleo del territorio es notablemente más barato que en el resto de Marruecos por la política de subvención de la administración. Estrategia: entrar desde Tarfaya con el depósito lo más bajo que permita la prudencia y repostar ya dentro; en la subida, aprovechar para llenar todo antes de volver a Marruecos. Confirmar el diferencial de precio al pasar, que cambia con las políticas de subvención.</li><li>Calidad: estándar marroquí en toda la red (Afriquia, Ziz, Shell, Total). Sin alternativa de mejor calidad en este tramo; filtro de gasóleo de repuesto a bordo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: dos anclajes, no una garantía urbana</h3><p>Se elimina la afirmación de que El Aaiún y Dajla tienen suministro «garantizado» para vehículos. La desalación o una red urbana no implican acceso a una manguera.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Camping Sahara Line, Bojador · 26.132167, -14.495333</td><td><strong>Recarga de pago con reservas.</strong> Reseñas de 2026 describen 100 l y duchas; también agua algo salobre, baja presión y servicio irregular. <a href=\"https://park4night.com/fr/place/12064\" target=\"_blank\" rel=\"noopener\">ficha reciente</a></td><td>Confirmar ese día; agua de servicio solamente. Llevar bomba y no llenar el circuito potable.</td></tr><tr><td>Camping Moussafir, Dajla · 23.764167, -15.907500</td><td><strong>Agua y vaciado publicados.</strong> El directorio del establecimiento enumera agua, vaciado, electricidad y acceso 4x4. <a href=\"https://www.morocco-guide.com/accommodation/campsites/camping-moussafir-dakhla/\" target=\"_blank\" rel=\"noopener\">directorio y coordenadas</a></td><td>Reservar/llamar y pedir expresamente llenado de depósito; tratar antes de beber.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Intentar Bojador y completar obligatoriamente en Dajla.</li><li>Salir de Dajla con autonomía de varios días hasta Nuadibú: no hay punto de recarga confirmado en Guerguerat ni se deben usar como garantía las estaciones de la N1.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>El Aaiún → Laayoune Plage (20 km) → Lemsid (80 km) → Bojador (80 km): tramo bien cubierto. Repostar en cada parada aunque no haga falta, porque lo que viene después no perdona.</li><li>Bojador → cruce de Dajla (290 km): el tramo intermedio más largo del corredor. No hay nada fiable entre medias salvo viento. Salir de Bojador con el depósito lleno.</li><li>Dajla → Bir Gandouz (~250 km) → Guerguerat (~80 km): tramo crítico final. Hay estaciones antiguas cerca de El Argoub o Tchika que pueden estar vacías: no confiar en ellas como plan principal. Bidón de reserva lleno.</li><li>Desvío interior El Aaiún → Smara (~240 km, corredor de subida): oferta escasa. Repostar a fondo en El Aaiún y POR CONFIRMAR sobre el terreno si hay algo fiable en el trayecto antes de comprometer la etapa.</li><li>COMBUSTIBLE SUBVENCIONADO: el gasóleo del territorio es notablemente más barato que en el resto de Marruecos por la política de subvención de la administración. Estrategia: entrar desde Tarfaya con el depósito lo más bajo que permita la prudencia y repostar ya dentro; en la subida, aprovechar para llenar todo antes de volver a Marruecos. Confirmar el diferencial de precio al pasar, que cambia con las políticas de subvención.</li><li>Calidad: estándar marroquí en toda la red (Afriquia, Ziz, Shell, Total). Sin alternativa de mejor calidad en este tramo; filtro de gasóleo de repuesto a bordo.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
