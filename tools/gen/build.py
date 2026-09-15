@@ -490,9 +490,10 @@ def render_ficha(d):
     grupo_plan = next((grupo for s, _, grupo, *_ in C if s == slug), "")
     sec_nav = [("Resumen", "#resumen")]
     if d.get("historia_resumen"):
-        sec_nav.append(("Historia", "#historia"))
-    sec_nav += [("Ruta", "#ruta"), ("Agua/Comb.", "#agua-combustible"),
-               ("Mapa", "#mapa"), ("PDIs", "#pois"),
+        sec_nav += [("Historia", "#historia"), ("Mapa", "#mapa"), ("Ruta", "#ruta")]
+    else:
+        sec_nav += [("Ruta", "#ruta"), ("Mapa", "#mapa")]
+    sec_nav += [("Agua/Comb.", "#agua-combustible"), ("PDIs", "#pois"),
                ("Fotos", "#fotos"), ("Emergencias", "#logistica"), ("Fronteras", "#fronteras"),
                ("Perro", "#perro"), ("Fuentes", "#fuentes")]
     nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
@@ -533,9 +534,6 @@ def render_ficha(d):
         n_sec += 1
         return f'<section id="{sid}"><h2>{n_sec} · {esc(title)}</h2>{inner}</section>'
 
-    for sid, title, inner in d["custom_sections"]:
-        body.append(sec(sid, title, inner))
-
     # --- interactive map section ---
     cfg = {"center": d["center"], "zoom": d["zoom"], "root": root,
            "points": map_points(d, with_ficha=False), "lines": map_lines(d)}
@@ -552,7 +550,19 @@ def render_ficha(d):
         f'<p class="figcap">Activa o desactiva los corredores y ramales desde la leyenda. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'
         f'<script>var A27_FICHA = {json.dumps(cfg, ensure_ascii=False)};</script>'
     )
-    body.append(sec("mapa", "Mapa del corredor", map_html))
+    # El mapa ocupa siempre el punto 3. En las fichas con historia queda justo
+    # debajo de ella; en la única ficha sin historia, después de sus dos
+    # primeros apartados. El contenido y comportamiento del mapa no cambian.
+    map_inserted = False
+    has_history = any(sid == "historia" for sid, _title, _inner in d["custom_sections"])
+    for sid, title, inner in d["custom_sections"]:
+        body.append(sec(sid, title, inner))
+        insert_here = sid == "historia" if has_history else n_sec == 2
+        if insert_here:
+            body.append(sec("mapa", "Mapa del corredor", map_html))
+            map_inserted = True
+    if not map_inserted:
+        body.append(sec("mapa", "Mapa del corredor", map_html))
 
     # --- POI table ---
     poi_rows, row_attrs = [], []

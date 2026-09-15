@@ -107,6 +107,13 @@ for page in country_pages:
             f"campos u orden incorrectos en {page.relative_to(ROOT)}: {labels}")
     require('<div class="callout-title">Calendario aproximado</div>' not in html,
             f"el calendario debe estar integrado en FECHAS en {page.relative_to(ROOT)}")
+    if 'id="fichamap"' in html:
+        section_ids = re.findall(r'<section id="([^"]+)"><h2>', html)
+        require(section_ids.index("mapa") == 2,
+                f"el mapa debe ser la sección 3 en {page.relative_to(ROOT)}: {section_ids[:4]}")
+        if "historia" in section_ids:
+            require(section_ids[:3] == ["resumen", "historia", "mapa"],
+                    f"el mapa debe quedar justo después de Historia en {page.relative_to(ROOT)}")
 
 print(f"UI OK: {len(carousel_pages)} países con fichas compactas; leyenda plegada; "
       f"visados y {len(country_pages)} cabeceras uniformes; caché coherente")
