@@ -1,0 +1,964 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Fish River Canyon Viewpoint",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -27.58914,
+    "lon": 17.61441,
+    "d": 0.0
+   },
+   {
+    "n": "Sunset Viewpoint",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -27.60375,
+    "lon": 17.60904,
+    "d": 1.7
+   },
+   {
+    "n": "Hiker's Viewpoint",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -27.57779,
+    "lon": 17.6061,
+    "d": 1.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Quivertree Forest Rest Camp",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -26.48131,
+    "lon": 18.23782,
+    "d": 0.0
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Garub Wild Horses",
+    "k": "natural",
+    "v": "waterhole",
+    "lat": -26.59411,
+    "lon": 16.07582,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Kolmanskop",
+    "k": "place",
+    "v": "locality",
+    "lat": -26.7019,
+    "lon": 15.23185,
+    "d": 0.0
+   },
+   {
+    "n": "Kolmanskop",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -22.62199,
+    "lon": 17.09821,
+    "d": 491.3
+   },
+   {
+    "n": "Kolmannskuppe",
+    "k": "railway",
+    "v": "station",
+    "lat": -26.69575,
+    "lon": 15.24019,
+    "d": 1.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Dune 40",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -24.72699,
+    "lon": 15.52903,
+    "d": 5.7
+   },
+   {
+    "n": "Dune 40",
+    "k": "amenity",
+    "v": "parking",
+    "lat": -24.71154,
+    "lon": 15.52723,
+    "d": 5.8
+   },
+   {
+    "n": "Daddy Dune",
+    "k": "amenity",
+    "v": "parking",
+    "lat": -24.74765,
+    "lon": 15.29066,
+    "d": 18.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Dead Vlei",
+    "k": "natural",
+    "v": "wetland",
+    "lat": -24.76299,
+    "lon": 15.2944,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Kuiseb",
+    "k": "waterway",
+    "v": "river",
+    "lat": -23.24053,
+    "lon": 15.819,
+    "d": 8.4
+   },
+   {
+    "n": "Fish River Viewpoint & Sunset Spot",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -27.50806,
+    "lon": 17.56699,
+    "d": 501.0
+   },
+   {
+    "n": "Fish River Canyon Viewpoint",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -27.58914,
+    "lon": 17.61441,
+    "d": 511.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Lagoon Promenade",
+    "k": "highway",
+    "v": "pedestrian",
+    "lat": -22.96315,
+    "lon": 14.48647,
+    "d": 1.4
+   },
+   {
+    "n": "Flamingo Lagoon",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -22.97068,
+    "lon": 14.47777,
+    "d": 0.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Sandwich Harbour",
+    "k": "natural",
+    "v": "bay",
+    "lat": -23.39092,
+    "lon": 14.47467,
+    "d": 4.5
+   },
+   {
+    "n": "Sandwich Harbour",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -23.3719,
+    "lon": 14.49597,
+    "d": 1.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Jetty",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -22.68072,
+    "lon": 14.52038,
+    "d": 0.1
+   },
+   {
+    "n": "The Jetty Information",
+    "k": "tourism",
+    "v": "information",
+    "lat": -22.68063,
+    "lon": 14.52223,
+    "d": 0.3
+   },
+   {
+    "n": "Jetty 1905",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": -22.68069,
+    "lon": 14.51935,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Spitzkoppe Campsite & Restcamp",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -21.83873,
+    "lon": 15.20142,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Cape Cross Seal Reserve",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -21.76336,
+    "lon": 13.96457,
+    "d": 1.6
+   },
+   {
+    "n": "Cape Cross Seal Reserve",
+    "k": "leisure",
+    "v": "protected_area",
+    "lat": -21.77127,
+    "lon": 13.95634,
+    "d": 0.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Messum Crater",
+    "k": "natural",
+    "v": "volcano",
+    "lat": -21.41071,
+    "lon": 14.20312,
+    "d": 1.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Brandberg White Lady Lodge Airstrip",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -21.02622,
+    "lon": 14.67727,
+    "d": 9.5
+   },
+   {
+    "n": "Brandberg White Lady Lodge",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -21.02207,
+    "lon": 14.68286,
+    "d": 10.1
+   },
+   {
+    "n": "Brandberg White Lady Lodge Airstrip",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -21.02622,
+    "lon": 14.67727,
+    "d": 9.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Olifantsrus Visitor's Centre",
+    "k": "information",
+    "v": "office",
+    "lat": -18.97118,
+    "lon": 14.86133,
+    "d": 187.2
+   },
+   {
+    "n": "Dhaureb Visitor Center",
+    "k": "building",
+    "v": "yes",
+    "lat": -21.09346,
+    "lon": 14.6759,
+    "d": 64.2
+   },
+   {
+    "n": "Windhoek Tourism Visitor Information Office",
+    "k": "information",
+    "v": "office",
+    "lat": -22.57135,
+    "lon": 17.08546,
+    "d": 356.7
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "Camping Palmwag Lodge",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -19.88683,
+    "lon": 13.93742,
+    "d": 0.1
+   },
+   {
+    "n": "Palmwag Lodge",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -19.88568,
+    "lon": 13.93691,
+    "d": 0.1
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Skeleton Coast Gate",
+    "k": "office",
+    "v": "government",
+    "lat": -20.32695,
+    "lon": 13.61193,
+    "d": 94.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "ph": [
+   {
+    "n": "Okaukuejo Waterhole",
+    "k": "natural",
+    "v": "waterhole",
+    "lat": -19.18074,
+    "lon": 15.91624,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "ph": [
+   {
+    "n": "Van Zyl's Pass",
+    "k": "mountain_pass",
+    "v": "yes",
+    "lat": -17.63916,
+    "lon": 12.70818,
+    "d": 1.1
+   },
+   {
+    "n": "Van Zyl's Pass Campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -17.64138,
+    "lon": 12.75199,
+    "d": 5.6
+   },
+   {
+    "n": "Van Zyls Pass",
+    "k": "highway",
+    "v": "track",
+    "lat": -17.63688,
+    "lon": 12.71151,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "ph": [
+   {
+    "n": "Epupa falls Viewpoint campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -17.0014,
+    "lon": 13.24047,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "ph": [],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-23",
+  "ph": [
+   {
+    "n": "Independence Memorial Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -22.56872,
+    "lon": 17.088,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "poi-24",
+  "ph": [
+   {
+    "n": "Waterberg Camp Reception",
+    "k": "tourism",
+    "v": "yes",
+    "lat": -20.51634,
+    "lon": 17.24532,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Noordoewer",
+    "k": "place",
+    "v": "village",
+    "lat": -28.72197,
+    "lon": 17.61798,
+    "d": 3.1
+   },
+   {
+    "n": "Noordoewer/Vioolsdrif Joint Irrigation Scheme",
+    "k": "waterway",
+    "v": "canal",
+    "lat": -28.75023,
+    "lon": 17.6143,
+    "d": 0.2
+   },
+   {
+    "n": "Noordoewer/Vioolsdrif Joint Irrigation Scheme",
+    "k": "waterway",
+    "v": "canal",
+    "lat": -28.75818,
+    "lon": 17.62047,
+    "d": 1.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Oshikango",
+    "k": "place",
+    "v": "suburb",
+    "lat": -17.39919,
+    "lon": 15.89408,
+    "d": 1.3
+   },
+   {
+    "n": "Oshikango",
+    "k": "railway",
+    "v": "station",
+    "lat": -17.39684,
+    "lon": 15.87918,
+    "d": 1.7
+   },
+   {
+    "n": "Oshikango",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -17.39605,
+    "lon": 15.89034,
+    "d": 1.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Ruacana",
+    "k": "place",
+    "v": "town",
+    "lat": -17.43908,
+    "lon": 14.36252,
+    "d": 15.7
+   },
+   {
+    "n": "Ruacana Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": -17.39314,
+    "lon": 14.21813,
+    "d": 0.6
+   },
+   {
+    "n": "Ruacana hydropower plant",
+    "k": "landuse",
+    "v": "industrial",
+    "lat": -17.39809,
+    "lon": 14.22192,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Embassy of Spain",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -22.56954,
+    "lon": 17.08019,
+    "d": 0.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Lady Pohamba Private Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -22.62188,
+    "lon": 17.09484,
+    "d": 5.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Oficina Kunene",
+    "k": "shop",
+    "v": "car_repair",
+    "lat": -17.06758,
+    "lon": 15.70988,
+    "d": 628.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Kalahari Meat Deli",
+    "k": "shop",
+    "v": "butcher",
+    "lat": -19.97705,
+    "lon": 23.43041,
+    "d": 969.4
+   },
+   {
+    "n": "Delarey Meat",
+    "k": "shop",
+    "v": "butcher",
+    "lat": -20.11036,
+    "lon": 16.15468,
+    "d": 331.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Windhoek",
+    "k": "place",
+    "v": "city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 262.0
+   },
+   {
+    "n": "Windhoek",
+    "k": "place",
+    "v": "city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 262.0
+   },
+   {
+    "n": "Windhoek",
+    "k": "railway",
+    "v": "station",
+    "lat": -22.55948,
+    "lon": 17.08125,
+    "d": 262.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Solitaire",
+    "k": "place",
+    "v": "hamlet",
+    "lat": -23.89365,
+    "lon": 16.00632,
+    "d": 3.1
+   },
+   {
+    "n": "Solitaire Mountain Lodge",
+    "k": "highway",
+    "v": "unclassified",
+    "lat": -23.87725,
+    "lon": 16.03187,
+    "d": 3.4
+   },
+   {
+    "n": "Solitaire Mountain Lodge",
+    "k": "highway",
+    "v": "service",
+    "lat": -23.86719,
+    "lon": 16.05877,
+    "d": 6.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Keetmanshoop",
+    "k": "place",
+    "v": "town",
+    "lat": -26.57909,
+    "lon": 18.13419,
+    "d": 0.5
+   },
+   {
+    "n": "Keetmanshoop",
+    "k": "place",
+    "v": "town",
+    "lat": -26.57909,
+    "lon": 18.13419,
+    "d": 0.5
+   },
+   {
+    "n": "Keetmanshoop",
+    "k": "railway",
+    "v": "station",
+    "lat": -26.57391,
+    "lon": 18.13576,
+    "d": 1.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Palmwag",
+    "k": "place",
+    "v": "locality",
+    "lat": -19.88436,
+    "lon": 13.94799,
+    "d": 0.2
+   },
+   {
+    "n": "Palmwag",
+    "k": "natural",
+    "v": "spring",
+    "lat": -19.88707,
+    "lon": 13.93602,
+    "d": 1.5
+   },
+   {
+    "n": "Palmwag Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -19.87358,
+    "lon": 13.94397,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Terrace Bay",
+    "k": "natural",
+    "v": "bay",
+    "lat": -19.98772,
+    "lon": 13.03254,
+    "d": 3.4
+   },
+   {
+    "n": "Terrace Bay Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -19.97141,
+    "lon": 13.02505,
+    "d": 2.9
+   },
+   {
+    "n": "Terrace Bay Reception",
+    "k": "information",
+    "v": "office",
+    "lat": -19.9921,
+    "lon": 13.03752,
+    "d": 4.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Windhoek",
+    "k": "place",
+    "v": "city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 2.2
+   },
+   {
+    "n": "Windhoek",
+    "k": "place",
+    "v": "city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 2.2
+   },
+   {
+    "n": "Windhoek",
+    "k": "railway",
+    "v": "station",
+    "lat": -22.55948,
+    "lon": 17.08125,
+    "d": 1.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "ph": [],
+  "wd": [
+   {
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ }
+]

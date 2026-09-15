@@ -1,0 +1,1451 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Fish River Canyon · mirador principal",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -27.5891682,
+  "lon": 17.6145749,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Fish River Canyon Viewpoint",
+   "kind": "tourism=viewpoint",
+   "lat": -27.58914,
+   "lon": 17.61441,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Fish River Canyon Viewpoint",
+    "kind": "tourism=viewpoint",
+    "lat": -27.58914,
+    "lon": 17.61441,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sunset Viewpoint",
+    "kind": "tourism=viewpoint",
+    "lat": -27.60375,
+    "lon": 17.60904,
+    "d": 1.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hiker's Viewpoint",
+    "kind": "tourism=viewpoint",
+    "lat": -27.57779,
+    "lon": 17.6061,
+    "d": 1.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Quiver Tree Forest y Giant's Playground",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -26.4814114,
+  "lon": 18.2375665,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Quivertree Forest Rest Camp",
+   "kind": "tourism=hotel",
+   "lat": -26.48131,
+   "lon": 18.23782,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Quivertree Forest Rest Camp",
+    "kind": "tourism=hotel",
+    "lat": -26.48131,
+    "lon": 18.23782,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Garub · caballos del desierto",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -26.5947881,
+  "lon": 16.0757057,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Garub Wild Horses",
+   "kind": "natural=waterhole",
+   "lat": -26.59411,
+   "lon": 16.07582,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Garub Wild Horses",
+    "kind": "natural=waterhole",
+    "lat": -26.59411,
+    "lon": 16.07582,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Lüderitz · waterfront y memoria portuaria",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -26.6477353,
+  "lon": 15.1518021,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Kolmanskop · entrada del poblado minero",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -26.7016875,
+  "lon": 15.2320625,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kolmanskop",
+   "kind": "place=locality",
+   "lat": -26.7019,
+   "lon": 15.23185,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kolmanskop",
+    "kind": "place=locality",
+    "lat": -26.7019,
+    "lon": 15.23185,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kolmanskop",
+    "kind": "highway=bus_stop",
+    "lat": -22.62199,
+    "lon": 17.09821,
+    "d": 491.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kolmannskuppe",
+    "kind": "railway=station",
+    "lat": -26.69575,
+    "lon": 15.24019,
+    "d": 1.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Dune 45 · Sossusvlei",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -24.7277568,
+  "lon": 15.4725668,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Dune 40",
+   "kind": "tourism=viewpoint",
+   "lat": -24.72699,
+   "lon": 15.52903,
+   "d": 5.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dune 40",
+    "kind": "tourism=viewpoint",
+    "lat": -24.72699,
+    "lon": 15.52903,
+    "d": 5.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Dune 40",
+    "kind": "amenity=parking",
+    "lat": -24.71154,
+    "lon": 15.52723,
+    "d": 5.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Daddy Dune",
+    "kind": "amenity=parking",
+    "lat": -24.74765,
+    "lon": 15.29066,
+    "d": 18.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Deadvlei",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -24.7592732,
+  "lon": 15.2923894,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Dead Vlei",
+   "kind": "natural=wetland",
+   "lat": -24.76299,
+   "lon": 15.2944,
+   "d": 0.5,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Dead Vlei",
+    "kind": "natural=wetland",
+    "lat": -24.76299,
+    "lon": 15.2944,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Kuiseb River Viewpoint",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -23.3030703,
+  "lon": 15.7736518,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kuiseb",
+   "kind": "waterway=river",
+   "lat": -23.24053,
+   "lon": 15.819,
+   "d": 8.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kuiseb",
+    "kind": "waterway=river",
+    "lat": -23.24053,
+    "lon": 15.819,
+    "d": 8.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Fish River Viewpoint & Sunset Spot",
+    "kind": "tourism=viewpoint",
+    "lat": -27.50806,
+    "lon": 17.56699,
+    "d": 501.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Fish River Canyon Viewpoint",
+    "kind": "tourism=viewpoint",
+    "lat": -27.58914,
+    "lon": 17.61441,
+    "d": 511.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Walvis Bay · Flamingo Lagoon",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -22.9733978,
+  "lon": 14.4785799,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lagoon Promenade",
+   "kind": "highway=pedestrian",
+   "lat": -22.96315,
+   "lon": 14.48647,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lagoon Promenade",
+    "kind": "highway=pedestrian",
+    "lat": -22.96315,
+    "lon": 14.48647,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Flamingo Lagoon",
+    "kind": "tourism=attraction",
+    "lat": -22.97068,
+    "lon": 14.47777,
+    "d": 0.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Sandwich Harbour",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -23.3571081,
+  "lon": 14.498654,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sandwich Harbour",
+   "kind": "tourism=attraction",
+   "lat": -23.3719,
+   "lon": 14.49597,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sandwich Harbour",
+    "kind": "natural=bay",
+    "lat": -23.39092,
+    "lon": 14.47467,
+    "d": 4.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sandwich Harbour",
+    "kind": "tourism=attraction",
+    "lat": -23.3719,
+    "lon": 14.49597,
+    "d": 1.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Swakopmund · Jetty Pier",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -22.6806338,
+  "lon": 14.5191099,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Jetty",
+   "kind": "tourism=attraction",
+   "lat": -22.68072,
+   "lon": 14.52038,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Jetty",
+    "kind": "tourism=attraction",
+    "lat": -22.68072,
+    "lon": 14.52038,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "The Jetty Information",
+    "kind": "tourism=information",
+    "lat": -22.68063,
+    "lon": 14.52223,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Jetty 1905",
+    "kind": "amenity=restaurant",
+    "lat": -22.68069,
+    "lon": 14.51935,
+    "d": 0.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Spitzkoppe · Community Restcamp",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -21.8395132,
+  "lon": 15.2015866,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Spitzkoppe Campsite & Restcamp",
+   "kind": "tourism=camp_site",
+   "lat": -21.83873,
+   "lon": 15.20142,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Spitzkoppe Campsite & Restcamp",
+    "kind": "tourism=camp_site",
+    "lat": -21.83873,
+    "lon": 15.20142,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Cape Cross Seal Reserve",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -21.7716993,
+  "lon": 13.9524077,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cape Cross Seal Reserve",
+   "kind": "leisure=protected_area",
+   "lat": -21.77127,
+   "lon": 13.95634,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cape Cross Seal Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": -21.76336,
+    "lon": 13.96457,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cape Cross Seal Reserve",
+    "kind": "leisure=protected_area",
+    "lat": -21.77127,
+    "lon": 13.95634,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Messum Crater",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -21.4112059,
+  "lon": 14.2163411,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Messum Crater",
+   "kind": "natural=volcano",
+   "lat": -21.41071,
+   "lon": 14.20312,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Messum Crater",
+    "kind": "natural=volcano",
+    "lat": -21.41071,
+    "lon": 14.20312,
+    "d": 1.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Brandberg · White Lady",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -21.1106969,
+  "lon": 14.6625695,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Brandberg White Lady Lodge Airstrip",
+   "kind": "aeroway=aerodrome",
+   "lat": -21.02622,
+   "lon": 14.67727,
+   "d": 9.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Brandberg White Lady Lodge Airstrip",
+    "kind": "aeroway=aerodrome",
+    "lat": -21.02622,
+    "lon": 14.67727,
+    "d": 9.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brandberg White Lady Lodge",
+    "kind": "tourism=hotel",
+    "lat": -21.02207,
+    "lon": 14.68286,
+    "d": 10.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Brandberg White Lady Lodge Airstrip",
+    "kind": "aeroway=aerodrome",
+    "lat": -21.02622,
+    "lon": 14.67727,
+    "d": 9.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Twyfelfontein · centro de visitantes",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -20.5904535,
+  "lon": 14.3720279,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Dhaureb Visitor Center",
+   "kind": "building=yes",
+   "lat": -21.09346,
+   "lon": 14.6759,
+   "d": 64.2,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Olifantsrus Visitor's Centre",
+    "kind": "information=office",
+    "lat": -18.97118,
+    "lon": 14.86133,
+    "d": 187.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Dhaureb Visitor Center",
+    "kind": "building=yes",
+    "lat": -21.09346,
+    "lon": 14.6759,
+    "d": 64.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Windhoek Tourism Visitor Information Office",
+    "kind": "information=office",
+    "lat": -22.57135,
+    "lon": 17.08546,
+    "d": 356.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Palmwag · lodge y concesión",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -19.8863142,
+  "lon": 13.9365328,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Camping Palmwag Lodge",
+   "kind": "tourism=camp_site",
+   "lat": -19.88683,
+   "lon": 13.93742,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Camping Palmwag Lodge",
+    "kind": "tourism=camp_site",
+    "lat": -19.88683,
+    "lon": 13.93742,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Palmwag Lodge",
+    "kind": "tourism=hotel",
+    "lat": -19.88568,
+    "lon": 13.93691,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Skeleton Coast · Ugab Gate",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -21.1727036,
+  "lon": 13.6696429,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Skeleton Coast Gate",
+   "kind": "office=government",
+   "lat": -20.32695,
+   "lon": 13.61193,
+   "d": 94.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Skeleton Coast Gate",
+    "kind": "office=government",
+    "lat": -20.32695,
+    "lon": 13.61193,
+    "d": 94.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Etosha · charca de Okaukuejo",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -19.1809447,
+  "lon": 15.9163519,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Okaukuejo Waterhole",
+   "kind": "natural=waterhole",
+   "lat": -19.18074,
+   "lon": 15.91624,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Okaukuejo Waterhole",
+    "kind": "natural=waterhole",
+    "lat": -19.18074,
+    "lon": 15.91624,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Van Zyl's Pass",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.6333333,
+  "lon": 12.7,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Van Zyl's Pass",
+   "kind": "mountain_pass=yes",
+   "lat": -17.63916,
+   "lon": 12.70818,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Van Zyl's Pass",
+    "kind": "mountain_pass=yes",
+    "lat": -17.63916,
+    "lon": 12.70818,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Van Zyl's Pass Campsite",
+    "kind": "tourism=camp_site",
+    "lat": -17.64138,
+    "lon": 12.75199,
+    "d": 5.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Van Zyls Pass",
+    "kind": "highway=track",
+    "lat": -17.63688,
+    "lon": 12.71151,
+    "d": 1.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Epupa Falls · mirador",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.0018086,
+  "lon": 13.2408032,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Epupa falls Viewpoint campsite",
+   "kind": "tourism=camp_site",
+   "lat": -17.0014,
+   "lon": 13.24047,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Epupa falls Viewpoint campsite",
+    "kind": "tourism=camp_site",
+    "lat": -17.0014,
+    "lon": 13.24047,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Ruacana Falls · mirador",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.3941201,
+  "lon": 14.2194575,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-23",
+  "type": "poi",
+  "name": "Windhoek · Independence Memorial Museum",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -22.5688266,
+  "lon": 17.0879955,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Independence Memorial Museum",
+   "kind": "tourism=museum",
+   "lat": -22.56872,
+   "lon": 17.088,
+   "d": 0.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Independence Memorial Museum",
+    "kind": "tourism=museum",
+    "lat": -22.56872,
+    "lon": 17.088,
+    "d": 0.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-24",
+  "type": "poi",
+  "name": "Waterberg · recepción de NWR",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -20.5163693,
+  "lon": 17.2452939,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Waterberg Camp Reception",
+   "kind": "tourism=yes",
+   "lat": -20.51634,
+   "lon": 17.24532,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Waterberg Camp Reception",
+    "kind": "tourism=yes",
+    "lat": -20.51634,
+    "lon": 17.24532,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Noordoewer/Vioolsdrif (desde Sudáfrica)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -28.75,
+  "lon": 17.6167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Noordoewer/Vioolsdrif Joint Irrigation Scheme",
+   "kind": "waterway=canal",
+   "lat": -28.75023,
+   "lon": 17.6143,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Noordoewer",
+    "kind": "place=village",
+    "lat": -28.72197,
+    "lon": 17.61798,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Noordoewer/Vioolsdrif Joint Irrigation Scheme",
+    "kind": "waterway=canal",
+    "lat": -28.75023,
+    "lon": 17.6143,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Noordoewer/Vioolsdrif Joint Irrigation Scheme",
+    "kind": "waterway=canal",
+    "lat": -28.75818,
+    "lon": 17.62047,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida principal — Oshikango/Santa Clara (hacia Angola)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -17.3872738,
+  "lon": 15.8920619,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Oshikango",
+   "kind": "highway=bus_stop",
+   "lat": -17.39605,
+   "lon": 15.89034,
+   "d": 1.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Oshikango",
+    "kind": "place=suburb",
+    "lat": -17.39919,
+    "lon": 15.89408,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Oshikango",
+    "kind": "railway=station",
+    "lat": -17.39684,
+    "lon": 15.87918,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Oshikango",
+    "kind": "highway=bus_stop",
+    "lat": -17.39605,
+    "lon": 15.89034,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida alternativa — Ruacana/Ruacaná (hacia Angola)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -17.39226,
+  "lon": 14.22332,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ruacana Falls",
+   "kind": "waterway=waterfall",
+   "lat": -17.39314,
+   "lon": 14.21813,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ruacana",
+    "kind": "place=town",
+    "lat": -17.43908,
+    "lon": 14.36252,
+    "d": 15.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ruacana Falls",
+    "kind": "waterway=waterfall",
+    "lat": -17.39314,
+    "lon": 14.21813,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ruacana hydropower plant",
+    "kind": "landuse=industrial",
+    "lat": -17.39809,
+    "lon": 14.22192,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Embajada de España en Windhoek",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -22.5667,
+  "lon": 17.0833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": -22.56954,
+   "lon": 17.08019,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": -22.56954,
+    "lon": 17.08019,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Windhoek Central Hospital / Lady Pohamba Private Hospital",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -22.575,
+  "lon": 17.0833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lady Pohamba Private Hospital",
+   "kind": "amenity=hospital",
+   "lat": -22.62188,
+   "lon": 17.09484,
+   "d": 5.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lady Pohamba Private Hospital",
+    "kind": "amenity=hospital",
+    "lat": -22.62188,
+    "lon": 17.09484,
+    "d": 5.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Cottage Medi-Clinic Swakopmund",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -22.6783,
+  "lon": 14.5267,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Oficina central de Namibia Wildlife Resorts (NWR), Windhoek",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -22.57,
+  "lon": 17.085,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Oficina Kunene",
+   "kind": "shop=car_repair",
+   "lat": -17.06758,
+   "lon": 15.70988,
+   "d": 628.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Oficina Kunene",
+    "kind": "shop=car_repair",
+    "lat": -17.06758,
+    "lon": 15.70988,
+    "d": 628.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Oficina del MEFT en Swakopmund",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -22.68,
+  "lon": 14.53,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Delarey Meat",
+   "kind": "shop=butcher",
+   "lat": -20.11036,
+   "lon": 16.15468,
+   "d": 331.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kalahari Meat Deli",
+    "kind": "shop=butcher",
+    "lat": -19.97705,
+    "lon": 23.43041,
+    "d": 969.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Delarey Meat",
+    "kind": "shop=butcher",
+    "lat": -20.11036,
+    "lon": 16.15468,
+    "d": 331.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · Windhoek / Swakopmund / Walvis Bay",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -22.6783,
+  "lon": 14.5267,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Windhoek",
+   "kind": "place=city",
+   "lat": -22.57761,
+   "lon": 17.07727,
+   "d": 262.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Windhoek",
+    "kind": "place=city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 262.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Windhoek",
+    "kind": "place=city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 262.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Windhoek",
+    "kind": "railway=station",
+    "lat": -22.55948,
+    "lon": 17.08125,
+    "d": 262.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Solitaire (eje a Sossusvlei)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -23.8667,
+  "lon": 16.0,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Solitaire",
+   "kind": "place=hamlet",
+   "lat": -23.89365,
+   "lon": 16.00632,
+   "d": 3.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Solitaire",
+    "kind": "place=hamlet",
+    "lat": -23.89365,
+    "lon": 16.00632,
+    "d": 3.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Solitaire Mountain Lodge",
+    "kind": "highway=unclassified",
+    "lat": -23.87725,
+    "lon": 16.03187,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Solitaire Mountain Lodge",
+    "kind": "highway=service",
+    "lat": -23.86719,
+    "lon": 16.05877,
+    "d": 6.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Keetmanshoop / Aus / Lüderitz (sur)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -26.5833,
+  "lon": 18.1333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Keetmanshoop",
+   "kind": "place=town",
+   "lat": -26.57909,
+   "lon": 18.13419,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Keetmanshoop",
+    "kind": "place=town",
+    "lat": -26.57909,
+    "lon": 18.13419,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Keetmanshoop",
+    "kind": "place=town",
+    "lat": -26.57909,
+    "lon": 18.13419,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Keetmanshoop",
+    "kind": "railway=station",
+    "lat": -26.57391,
+    "lon": 18.13576,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Palmwag / Sesfontein / Opuwo (noroeste)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -19.8833,
+  "lon": 13.95,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Palmwag",
+   "kind": "place=locality",
+   "lat": -19.88436,
+   "lon": 13.94799,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Palmwag",
+    "kind": "place=locality",
+    "lat": -19.88436,
+    "lon": 13.94799,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Palmwag",
+    "kind": "natural=spring",
+    "lat": -19.88707,
+    "lon": 13.93602,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Palmwag Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -19.87358,
+    "lon": 13.94397,
+    "d": 1.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Terrace Bay y Mile 108 (Skeleton Coast)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -19.9833,
+  "lon": 13.0,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Terrace Bay Airport",
+   "kind": "aeroway=aerodrome",
+   "lat": -19.97141,
+   "lon": 13.02505,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Terrace Bay",
+    "kind": "natural=bay",
+    "lat": -19.98772,
+    "lon": 13.03254,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Terrace Bay Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -19.97141,
+    "lon": 13.02505,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Terrace Bay Reception",
+    "kind": "information=office",
+    "lat": -19.9921,
+    "lon": 13.03752,
+    "d": 4.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Agua potable y de uso general · Windhoek, Swakopmund, Walvis Bay",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -22.5609,
+  "lon": 17.0658,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Windhoek",
+   "kind": "railway=station",
+   "lat": -22.55948,
+   "lon": 17.08125,
+   "d": 1.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Windhoek",
+    "kind": "place=city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Windhoek",
+    "kind": "place=city",
+    "lat": -22.57761,
+    "lon": 17.07727,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Windhoek",
+    "kind": "railway=station",
+    "lat": -22.55948,
+    "lon": 17.08125,
+    "d": 1.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Agua · campings de la NWR y del noroeste",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -19.8833,
+  "lon": 13.95,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ }
+]

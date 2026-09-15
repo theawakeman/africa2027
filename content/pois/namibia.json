@@ -1,105 +1,303 @@
 [
   {
     "n": 1,
-    "name": "Cañón del río Fish y Ai-Ais",
+    "name": "Fish River Canyon · mirador principal",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "1–2 días",
-    "lat": -27.595,
-    "lon": 17.615,
-    "desc": "El segundo cañón más grande del mundo tras el Gran Cañón: 160 km de largo, hasta 27 km de ancho y 550 m de profundidad, excavado por el río Fish en un paisaje de roca desnuda. El Main Viewpoint y el Hell's Bend son accesibles en coche por pista de grava desde Hobas. Desde aquí sale la TRAVESÍA A PIE DEL CAÑÓN (85 km, 4-5 días, solo del 1 de mayo al 15 de septiembre, mínimo 3 personas y certificado médico): una de las grandes caminatas de África. Termina en las aguas termales de Ai-Ais, donde hay resort, camping y piscinas termales. Todo el conjunto es parque nacional (/Ai-/Ais-Richtersveld transfronterizo con Sudáfrica): el perro no entra.",
+    "lat": -27.5891682,
+    "lon": 17.6145749,
+    "desc": "El mirador principal abre la vista sobre las curvas encajadas del Fish River Canyon. Hobas es la base de acceso; la travesía de varios días es otra actividad y exige reserva.",
     "credit": "Thomas Schoch · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish%20River%20Canyon%20Namibia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fish%20River%20Canyon%20Namibia.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_River_Canyon_Namibia.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish_River_Canyon_Namibia.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite entender la escala del cañón sin comprometerse con la exigente travesía integral.",
+      "see": "Paredes estratificadas, el cauce en el fondo y varios miradores enlazados por pista; Ai-Ais queda en otro acceso.",
+      "access": "El pin coincide con Fish River Canyon Viewpoint en Google Maps. Entrar por Hobas, pagar el parque y respetar cierres y barreras.",
+      "when": "Primera o última hora, con visibilidad limpia; reservar aparte cualquier caminata larga.",
+      "skip": "Omitir la caminata con cierre estacional, calor fuerte, falta de reserva o sin resolver el perro fuera del parque."
+    },
+    "links": [
+      {
+        "label": "NWR · Hobas Lodge y acceso al cañón",
+        "url": "https://www.nwr.com.na/resorts/hobas-lodge/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_River_Canyon_Namibia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fish_River_Canyon_Namibia.jpg",
+        "credit": "Thomas Schoch · CC BY-SA 3.0",
+        "caption": "Vista del Fish River Canyon desde el borde superior."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Fischfluss-Canyon_18.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibia_Fischfluss-Canyon_18.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "Meandros y paredes estratificadas del propio cañón."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Fish_River_Canyon_top-down-view.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibia_Fish_River_Canyon_top-down-view.jpg",
+        "credit": "Ralf Junghanns · CC BY-SA 3.0",
+        "caption": "Vista vertical hacia el cauce del Fish River."
+      }
+    ]
   },
   {
     "n": 2,
-    "name": "Bosque de kokerbooms y Giant's Playground (Keetmanshoop)",
+    "name": "Quiver Tree Forest y Giant's Playground",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "½ día",
-    "lat": -26.4667,
-    "lon": 18.2333,
-    "desc": "A 14 km de Keetmanshoop, en la granja privada Gariganus, unos 250 ejemplares de kokerboom (Aloidendron dichotomum, el «árbol carcaj» que los san usaban para hacer aljabas) forman un bosque declarado monumento nacional; al lado, el Giant's Playground es un caos de bloques de dolerita apilados como si los hubiera dejado un gigante. Al ser FINCA PRIVADA y no parque nacional, es de los pocos sitios espectaculares del sur donde el perro puede bajar del coche — confirmar con la granja. Atardecer imprescindible.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiver-Tree-Forest-2015.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Quiver-Tree-Forest-2015.JPG",
+    "lat": -26.4814114,
+    "lon": 18.2375665,
+    "desc": "En la granja Gariganus se visitan un bosque de kokerbooms y, a pocos kilómetros, los bloques de dolerita de Giant's Playground. La recepción del rest camp es el acceso comprobable.",
+    "credit": "Falcodigiada · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiver_Tree_Forest_Namibia.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Quiver_Tree_Forest_Namibia.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Reúne botánica, geología y fotografía en una parada manejable cerca de Keetmanshoop.",
+      "see": "Aloidendron dichotomum entre roca oscura y el corto recorrido por los bloques apilados de Giant's Playground.",
+      "access": "El pin coincide con Quivertree Forest Rest Camp. Pagar la visita en recepción y confirmar horario, senderos y mascotas.",
+      "when": "Atardecer para los árboles; luz diurna suficiente para recorrer los bloques con seguridad.",
+      "skip": "No entrar fuera de horario ni caminar sobre roca mojada; descartar si la propiedad no autoriza al perro."
+    },
+    "links": [
+      {
+        "label": "Quivertree Forest Rest Camp · visita oficial",
+        "url": "https://quivertreeforest.com/about"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiver_Tree_Forest_Namibia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Quiver_Tree_Forest_Namibia.jpg",
+        "credit": "Falcodigiada · CC BY-SA 4.0",
+        "caption": "Kokerbooms del bosque cercano a Keetmanshoop."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiver_Tree_Forest_(2006)_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Quiver_Tree_Forest_(2006)_01.jpg",
+        "credit": "LBM1948 · CC BY-SA 4.0",
+        "caption": "Llanura de Gariganus cubierta por kokerbooms."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/RK_1910_R0010725_Pano_Giants_Playground.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:RK_1910_R0010725_Pano_Giants_Playground.jpg",
+        "credit": "Reinhard Kraasch · CC BY-SA 4.0",
+        "caption": "Bloques de dolerita de Giant's Playground, la segunda visita del recinto."
+      }
+    ]
   },
   {
     "n": 3,
-    "name": "Caballos salvajes de Garub (Aus)",
+    "name": "Garub · caballos del desierto",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "½ día",
-    "lat": -26.6333,
-    "lon": 16.0167,
-    "desc": "A 20 km al oeste de Aus, junto a la B4, un abrevadero artificial con hide de observación permite ver la ÚNICA POBLACIÓN DE CABALLOS SALVAJES DEL DESIERTO DEL MUNDO: entre 90 y 150 animales, descendientes probablemente de caballos militares alemanes y sudafricanos sueltos durante la Primera Guerra Mundial y de una yeguada de cría cerca de Kubub. FAUNA LIBRE QUE SE VE SIN ENTRAR EN NINGÚN PARQUE, desde un hide al borde de la carretera: es exactamente el tipo de sitio que buscamos por el perro. Gratis y abierto siempre.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Desert%20Horses%20close%20to%20Aus%20-%20Namibia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Desert%20Horses%20close%20to%20Aus%20-%20Namibia.jpg",
+    "lat": -26.5947881,
+    "lon": 16.0757057,
+    "desc": "El observatorio de Garub permite buscar la pequeña población de caballos ferales adaptada al borde oriental del Namib. Su origen combina varias hipótesis y los avistamientos no están garantizados.",
+    "credit": "Bgabel · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NA-garub-wildpferde-1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:NA-garub-wildpferde-1.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es un encuentro singular entre historia ferroviaria, adaptación animal y paisaje desértico.",
+      "see": "Caballos y, a veces, órix en torno al abrevadero; también quedan restos ferroviarios de Garub.",
+      "access": "El pin coincide con Garub Desert Horses en Google Maps. Observar desde el hide y no alimentar ni aproximarse al rebaño.",
+      "when": "Mañana o última hora; prever que puede no aparecer ningún caballo.",
+      "skip": "Omitirlo con calor central, mala visibilidad o si el plan depende de un avistamiento asegurado."
+    },
+    "links": [
+      {
+        "label": "MEFT · plan de gestión de los caballos de Garub",
+        "url": "https://www.meft.gov.na/files/files/Horses%20of%20the%20Namib%20Management%20Plan.pdf"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NA-garub-wildpferde-1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:NA-garub-wildpferde-1.jpg",
+        "credit": "Bgabel · CC BY-SA 3.0",
+        "caption": "Caballos ferales fotografiados en Garub."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Desert_Horses_close_to_Aus_-_Namibia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Desert_Horses_close_to_Aus_-_Namibia.jpg",
+        "credit": "Raymond June · CC BY 2.0",
+        "caption": "Caballos junto a la antigua estación ferroviaria de Garub."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wild_Horses_and_Gemsbok_(18706192823).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wild_Horses_and_Gemsbok_(18706192823).jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Caballos y órix comparten el abrevadero de Garub."
+      }
+    ]
   },
   {
     "n": 4,
-    "name": "Lüderitz",
+    "name": "Lüderitz · waterfront y memoria portuaria",
     "cat": "Ciudad · servicios",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -26.6481,
-    "lon": 15.1594,
-    "desc": "Puerto alemán de 1883 encajado entre el océano y el desierto, con arquitectura Jugendstil (la Felsenkirche, la Goerke Haus) que parece trasplantada del Báltico. Punta final de una carretera de 120 km entre dunas móviles que el viento cruza de arena constantemente. Desde aquí salen las excursiones a la península de Lüderitz (Diaz Point, con su cruz padrão y colonia de lobos marinos) y a Halifax Island, con PINGÜINOS DEL CABO. Toda la zona al sur es el Sperrgebiet (zona prohibida de diamantes): no se entra sin permiso.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%BCderitz%20B%C3%B6dikerhaus.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:L%C3%BCderitz%20B%C3%B6dikerhaus.jpg",
+    "lat": -26.6477353,
+    "lon": 15.1518021,
+    "desc": "El waterfront es una ancla precisa para recorrer el puerto de Lüderitz y visitar el Namibia Maritime Museum. La arquitectura, Shark Island y la historia colonial requieren una lectura crítica.",
+    "credit": "Zairon · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%BCderitz_Waterfront_3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:L%C3%BCderitz_Waterfront_3.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Aporta contexto portuario y servicios antes de Kolmanskop y de los tramos remotos de la costa.",
+      "see": "Bahía, antiguo edificio industrial, museo marítimo y fachadas históricas; los lugares de memoria no son decorado turístico.",
+      "access": "El pin coincide con Lüderitz Waterfront Development Company. Aparcar en zona autorizada y comprobar el horario del museo.",
+      "when": "Horario diurno, dejando margen para caminar y para el viento costero.",
+      "skip": "Reducirlo a escala logística si el museo está cerrado; no sustituye la visita guiada a Kolmanskop."
+    },
+    "links": [
+      {
+        "label": "Lüderitz Waterfront Development Company",
+        "url": "https://luderitzwaterfront.com.na/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%BCderitz_Waterfront_3.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:L%C3%BCderitz_Waterfront_3.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "Waterfront y puerto de Lüderitz."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NA-luederitz-waterfront-2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:NA-luederitz-waterfront-2.jpg",
+        "credit": "Balou46 · CC BY-SA 4.0",
+        "caption": "Bahía e instalaciones portuarias de Lüderitz."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%BCderitz_Shark_Island_auf_die_Waterfront_1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:L%C3%BCderitz_Shark_Island_auf_die_Waterfront_1.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "El waterfront visto desde Shark Island."
+      }
+    ]
   },
   {
     "n": 5,
-    "name": "Kolmanskop · el pueblo tragado por la arena",
+    "name": "Kolmanskop · entrada del poblado minero",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "½ día",
-    "lat": -26.7044,
-    "lon": 15.23,
-    "desc": "A 10 km de Lüderitz, el pueblo minero de diamantes más rico de África en 1910 —con casino, bolera, hospital con el primer aparato de rayos X del hemisferio sur y tranvía— fue abandonado en 1956 y el Namib se lo ha ido comiendo: hoy las dunas entran por las ventanas y llenan los salones hasta la altura del pecho. Está dentro del Sperrgebiet y se visita con PERMISO (se compra en Lüderitz o en la puerta); permiso de fotografía especial para entrar al amanecer, que es cuando la luz hace el trabajo. Recinto controlado, sin acceso para el perro.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolmanskop%20hospital%2C%20L%C3%BCderitz%20%28Namibia%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Kolmanskop%20hospital%2C%20L%C3%BCderitz%20%28Namibia%29.jpg",
+    "lat": -26.7016875,
+    "lon": 15.2320625,
+    "desc": "Kolmanskop conserva edificios del antiguo enclave diamantífero invadidos por arena. El permiso se obtiene en la entrada y la visita guiada ayuda a separar historia laboral, segregación y estética de ruina.",
+    "credit": "Sara&Joachim · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolmanskop,_Namibia-1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kolmanskop,_Namibia-1.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es uno de los testimonios más legibles del auge y abandono de la minería colonial del sur.",
+      "see": "Hospital, casino, viviendas y habitaciones colmatadas; solo se entra en edificios autorizados.",
+      "access": "El pin coincide con Kolmanskop Entrance en Google Maps. Consultar horario, permiso ordinario o fotográfico y condiciones del operador.",
+      "when": "Primera visita guiada del día o permiso fotográfico reservado.",
+      "skip": "No entrar sin permiso, fuera de horario ni en estancias cerradas por estabilidad o conservación."
+    },
+    "links": [
+      {
+        "label": "Kolmanskuppe · horarios, permisos y visitas",
+        "url": "https://kolmanskuppe.com/tours-prices/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolmanskop,_Namibia-1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kolmanskop,_Namibia-1.jpg",
+        "credit": "Sara&Joachim · CC BY-SA 2.0",
+        "caption": "Arena acumulada dentro de una vivienda de Kolmanskop."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolmanskop_hospital,_L%C3%BCderitz_(Namibia).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kolmanskop_hospital,_L%C3%BCderitz_(Namibia).jpg",
+        "credit": "Olga Ernst · CC BY-SA 4.0",
+        "caption": "Antiguo hospital del poblado minero."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolmanskop,_Namibia_(3147328441).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kolmanskop,_Namibia_(3147328441).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Interior abandonado en el recinto de Kolmanskop."
+      }
+    ]
   },
   {
     "n": 6,
-    "name": "Sossusvlei y Dune 45",
+    "name": "Dune 45 · Sossusvlei",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 días",
-    "lat": -24.7272,
-    "lon": 15.3436,
-    "desc": "Las dunas de arena más altas y fotografiadas del planeta, en el mar de arena del Namib (Patrimonio UNESCO): Big Daddy pasa de los 320 m y Dune 45, a 45 km de la puerta de Sesriem, es la que todo el mundo sube al amanecer. Los primeros 60 km desde Sesriem son asfalto; los últimos 5 km hasta el aparcamiento son ARENA SUELTA Y BLANDA, solo 4x4 con presión rebajada (o el shuttle del parque). Quien duerme dentro de la puerta de Sesriem entra una hora antes que el resto y coge el amanecer en la duna. Parque nacional: perro prohibido.",
-    "credit": "Giles Laurent · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/006%20Dune%2045%20in%20Sossusvlei%20at%20sunrise%20Photo%20by%20Giles%20Laurent.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:006%20Dune%2045%20in%20Sossusvlei%20at%20sunrise%20Photo%20by%20Giles%20Laurent.jpg",
+    "lat": -24.7277568,
+    "lon": 15.4725668,
+    "desc": "Dune 45 es la duna señalizada junto a la carretera de Sossusvlei. Se puede contemplar desde el aparcamiento o subir por la cresta, sin presentarla como un récord mundial.",
+    "credit": "Diego Delso · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Duna_45,_Sossusvlei,_Namibia,_2018-08-06,_DD_009.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Duna_45,_Sossusvlei,_Namibia,_2018-08-06,_DD_009.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece una lectura clara de la forma y el color de las dunas con acceso mucho más sencillo que las pistas finales.",
+      "see": "Cresta, cara de deslizamiento y mar de dunas; el nombre procede de su posición aproximada en la ruta.",
+      "access": "El pin coincide con Dune 45 en Google Maps. Entrar por Sesriem, respetar horario del parque y aparcar fuera de la calzada.",
+      "when": "Amanecer o primera hora, antes del calor y del tráfico.",
+      "skip": "No subir con calor fuerte, viento de arena o si el parque no admite el plan previsto para el perro."
+    },
+    "links": [
+      {
+        "label": "MEFT · Namib-Naukluft Park",
+        "url": "https://meft.gov.na/national-parks/namib-naukluft-park/224/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Duna_45,_Sossusvlei,_Namibia,_2018-08-06,_DD_009.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Duna_45,_Sossusvlei,_Namibia,_2018-08-06,_DD_009.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Dune 45 y su cresta accesible desde el aparcamiento."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dune_45_Panorama.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dune_45_Panorama.jpg",
+        "credit": "Daniel Kraft · CC BY-SA 3.0",
+        "caption": "Panorámica de Dune 45 y las dunas vecinas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg",
+        "credit": "Giles Laurent · CC BY-SA 4.0",
+        "caption": "Dune 45 al amanecer."
+      }
+    ]
   },
   {
     "n": 7,
@@ -108,117 +306,348 @@
     "prio": "Alta",
     "dog": "prohibido",
     "time": "½ día",
-    "lat": -24.7592,
-    "lon": 15.2925,
-    "desc": "La imagen más reconocible de Namibia: una antigua salina de arcilla blanca agrietada, rodeada por dunas naranjas de 300 m, con los esqueletos negros de acacias muertas hace unos 700 años que el clima seco ha momificado sin dejarlas pudrirse. Se llega andando 1,1 km desde el aparcamiento 4x4 de Sossusvlei, por arena blanda y sin sombra: ir con la primera luz y agua de sobra. Dentro del parque nacional del Namib-Naukluft; perro prohibido.",
+    "lat": -24.7592732,
+    "lon": 15.2923894,
+    "desc": "Deadvlei es una cubeta clara con antiguos troncos de camelthorn, aislada del flujo del Tsauchab por las dunas. El último tramo combina arena profunda y caminata.",
     "credit": "Diego Delso · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead%20Vlei%2C%20Sossusvlei%2C%20Namibia%2C%202018-08-06%2C%20DD%20018-033%20PAN.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Dead%20Vlei%2C%20Sossusvlei%2C%20Namibia%2C%202018-08-06%2C%20DD%20018-033%20PAN.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_101-104_PAN.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_101-104_PAN.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "El contraste entre arcilla blanca, troncos oscuros y dunas rojas es distinto de la visita a Dune 45.",
+      "see": "La cubeta, los árboles conservados por la aridez y el borde de Big Daddy; no tocar ni trepar los troncos.",
+      "access": "El pin coincide con Deadvlei. Confirmar en Sesriem el traslado vigente: NWR anunció en 2024 que su shuttle salía desde el campsite.",
+      "when": "Muy temprano, con agua suficiente y regreso antes del calor.",
+      "skip": "Descartarlo sin transporte autorizado, con tormenta de arena o sin una solución real para el perro."
+    },
+    "links": [
+      {
+        "label": "NWR · traslado vigente hacia Deadvlei",
+        "url": "https://www.nwr.com.na/nwr-announcement-on-shuttle-service-update-in-the-sossusvlei-area/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_101-104_PAN.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_101-104_PAN.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Panorámica de Deadvlei con los antiguos camelthorn."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_086.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dead_Vlei,_Sossusvlei,_Namibia,_2018-08-06,_DD_086.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Tronco conservado por la aridez en la cubeta clara."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/054e_Dead_camel_thorn_tree_in_Deadvlei_Photo_by_Giles_Laurent.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:054e_Dead_camel_thorn_tree_in_Deadvlei_Photo_by_Giles_Laurent.jpg",
+        "credit": "Giles Laurent · CC BY-SA 4.0",
+        "caption": "Camelthorn ennegrecido ante las dunas de Deadvlei."
+      }
+    ]
   },
   {
     "n": 8,
-    "name": "Cañón del Kuiseb y Welwitschia Drive (Namib-Naukluft)",
+    "name": "Kuiseb River Viewpoint",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 día",
-    "lat": -23.4333,
-    "lon": 15.65,
-    "desc": "La C14 entre Solitaire y Walvis Bay cruza los pasos de Gaub y Kuiseb, dos gargantas de esquisto plegado con miradores sobre el lecho seco del río Kuiseb, la frontera natural que detiene el avance del mar de dunas hacia el norte. Aquí se escondieron dos geólogos alemanes fugados en 1940, historia contada en «El hombre que cavó su tumba en el desierto». Cerca de Swakopmund, el Welwitschia Drive (permiso de la NWR) lleva al «Big Welwitschia», una planta de unos 1.500 AÑOS DE EDAD, y a la superficie lunar del valle del Swakop. Permiso de zona de parque: confirmar el estado del perro tramo a tramo.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia%20Kuiseb-Canyon%2005.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Namibia%20Kuiseb-Canyon%2005.jpg",
+    "lat": -23.3030703,
+    "lon": 15.7736518,
+    "desc": "Este mirador se asoma al valle encajado del Kuiseb desde la pista C14. La antigua ficha mezclaba aquí Welwitschia Drive, que es otro recorrido y requiere su propio permiso.",
+    "credit": "Zairon · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Kuiseb-Canyon_11.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Namibia_Kuiseb-Canyon_11.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Rompe el largo tramo entre Solitaire y Walvis Bay y muestra la frontera natural entre grava y campos de dunas.",
+      "see": "Cauce efímero, paredes oscuras y carretera de paso; no es un centro de visitantes ni la entrada a Welwitschia Drive.",
+      "access": "El pin coincide con Kuiseb River Viewpoint en Google Maps. Parar solo fuera de la calzada y permanecer en suelo consolidado.",
+      "when": "Luz lateral y tiempo estable; visita breve de carretera.",
+      "skip": "No parar con polvo denso, niebla, tráfico o sin espacio seguro para sacar completamente el vehículo."
+    },
+    "links": [
+      {
+        "label": "MEFT · Namib-Naukluft y valle del Kuiseb",
+        "url": "https://meft.gov.na/national-parks/namib-naukluft-park/224/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Kuiseb-Canyon_11.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibia_Kuiseb-Canyon_11.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "Valle del Kuiseb desde la carretera del Namib-Naukluft."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Kuiseb-Canyon_09.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibia_Kuiseb-Canyon_09.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "Paredes y cauce efímero del Kuiseb."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Kuiseb-Canyon_08.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibia_Kuiseb-Canyon_08.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "Otro ángulo del cañón; no es Welwitschia Drive."
+      }
+    ]
   },
   {
     "n": 9,
-    "name": "Walvis Bay · laguna y flamencos",
+    "name": "Walvis Bay · Flamingo Lagoon",
     "cat": "Costa",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -22.9575,
-    "lon": 14.49,
-    "desc": "La laguna de Walvis Bay es un humedal RAMSAR y uno de los sitios de aves costeras más importantes del sur de África: hasta 100.000 aves, con decenas de miles de FLAMENCOS ENANOS Y COMUNES que se ven desde el propio paseo marítimo, sin trámite ni parque de por medio. También pelícanos y chacales de lomo negro en la orilla. El puerto es la mejor plaza técnica de la costa (grúas, soldadura, neumáticos) y de aquí salen los kayaks a la colonia de lobos marinos de Pelican Point. Paseo público: el perro puede ir con correa.",
-    "credit": "Diego Delso · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamenco%20com%C3%BAn%20%28Phoenicopterus%20roseus%29%2C%20Walvis%20Bay%2C%20Namibia%2C%202018-08-05%2C%20DD%2029.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Flamenco%20com%C3%BAn%20%28Phoenicopterus%20roseus%29%2C%20Walvis%20Bay%2C%20Namibia%2C%202018-08-05%2C%20DD%2029.jpg",
+    "lat": -22.9733978,
+    "lon": 14.4785799,
+    "desc": "Flamingo Lagoon fija un punto concreto del paseo de Walvis Bay desde el que observar el humedal Ramsar. La cantidad y posición de las aves cambian con marea y estación.",
+    "credit": "David Stanley · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Greater_Flamingos_(19186336580).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Greater_Flamingos_(19186336580).jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite observar aves costeras sin excursión en barco y entender el valor ecológico de la bahía.",
+      "see": "Flamencos mayores y menores, limícolas y bancos intermareales; nunca se promete una concentración concreta.",
+      "access": "El pin coincide con Flamingo Lagoon en Google Maps. Usar el paseo, mantener distancia y no entrar en el fango.",
+      "when": "Dos horas alrededor de bajamar suelen exponer más zona de alimentación; comprobar la tabla local.",
+      "skip": "Omitirlo con niebla cerrada o perturbación; perro siempre atado y lejos de las aves."
+    },
+    "links": [
+      {
+        "label": "Ramsar · humedales de importancia internacional de Namibia",
+        "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Namibia.pdf"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Greater_Flamingos_(19186336580).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Greater_Flamingos_(19186336580).jpg",
+        "credit": "David Stanley · CC BY 2.0",
+        "caption": "Flamencos en los bancos de Lagoon Promenade, Walvis Bay."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flying_flamingo_at_Walvis_bay_lagoon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Flying_flamingo_at_Walvis_bay_lagoon.jpg",
+        "credit": "Ndatipo1998 · CC BY-SA 4.0",
+        "caption": "Flamenco en vuelo sobre la laguna de Walvis Bay."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Laagon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Laagon.jpg",
+        "credit": "Nhinda · CC BY-SA 4.0",
+        "caption": "Vista amplia del humedal urbano de Walvis Bay."
+      }
+    ]
   },
   {
     "n": 10,
-    "name": "Sandwich Harbour · las dunas que caen al mar",
+    "name": "Sandwich Harbour",
     "cat": "Costa",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "1 día",
-    "lat": -23.3833,
-    "lon": 14.4667,
-    "desc": "A 55 km al sur de Walvis Bay, el punto donde las dunas de 100 m del Namib SE DERRUMBAN DIRECTAMENTE SOBRE EL ATLÁNTICO: la imagen más buscada del país y uno de los tramos 4x4 más célebres de África. Se llega por playa, y el paso solo está abierto unas pocas horas alrededor de la BAJAMAR — con marea alta el agua llega al pie de la duna y no hay salida. Cuando la playa no pasa, la alternativa es el «dune route» por encima, arena blanda y pendientes fuertes. Zona de parque nacional (Namib-Naukluft): permiso obligatorio del MEFT/NWR en Swakopmund y perro prohibido. Ver la sección 4x4. Imagen: el Namib encontrándose con el Atlántico — el mismo fenómeno, pendiente de sustituir por una foto del propio Sandwich Harbour.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namib%20desert%20meets%20Atlantic%20ocean.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Namib%20desert%20meets%20Atlantic%20ocean.jpg",
+    "lat": -23.3571081,
+    "lon": 14.498654,
+    "desc": "Sandwich Harbour combina laguna, playa y dunas costeras dentro de Namib-Naukluft. El acceso motorizado exige permiso previo y depende de marea, arena y ruta autorizada.",
+    "credit": "LBM1948 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandwich_Harbour_(2006)_24.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandwich_Harbour_(2006)_24.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el encuentro más directo entre el mar de arena del Namib y el Atlántico.",
+      "see": "Laguna, aves y laderas que alcanzan la costa; las fotos corresponden al propio humedal.",
+      "access": "El pin coincide con Sandwich Harbour en Google Maps. MEFT exige permiso previo; contratar guía si no se domina arena y mareas.",
+      "when": "Solo con ventana de marea y previsión estable confirmadas el mismo día.",
+      "skip": "No entrar con marea subiendo, sin permiso, en solitario, sin compresor o sin un plan externo para el perro."
+    },
+    "links": [
+      {
+        "label": "MEFT · permisos para Sandwich Harbour",
+        "url": "https://www.meft.gov.na/frequently-asked-questions/what-are-the-entry-permit-requirements-for-the-various-parks-in-namibia-/136/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandwich_Harbour_(2006)_24.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sandwich_Harbour_(2006)_24.jpg",
+        "credit": "LBM1948 · CC BY-SA 4.0",
+        "caption": "Dunas y playa en Sandwich Harbour."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandwich_Harbour_(2006)_06.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sandwich_Harbour_(2006)_06.jpg",
+        "credit": "LBM1948 · CC BY-SA 4.0",
+        "caption": "Laguna y dunas del propio humedal."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandwich_Harbour_(2006)_21.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sandwich_Harbour_(2006)_21.jpg",
+        "credit": "LBM1948 · CC BY-SA 4.0",
+        "caption": "Pelícanos sobre la laguna de Sandwich Harbour."
+      }
+    ]
   },
   {
     "n": 11,
-    "name": "Swakopmund",
+    "name": "Swakopmund · Jetty Pier",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2–3 noches",
-    "lat": -22.6783,
-    "lon": 14.5267,
-    "desc": "La ciudad alemana en el desierto: paseo marítimo, Jetty de 1905, panaderías con Apfelstrudel y niebla del Atlántico casi todas las mañanas. Es la MEJOR PLAZA LOGÍSTICA de todo el oeste namibio después de Windhoek (talleres 4x4, recambios, neumáticos, supermercados grandes, veterinarios, lavandería) y el sitio donde se compran los permisos del Namib-Naukluft y de la Skeleton Coast. Base natural para Sandwich Harbour, Cape Cross y las dunas de Dorob. Ciudad pet-friendly por costumbre; confirmar alojamiento.",
-    "credit": "Daniel Kraft · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Swakopmund%20panorama%20from%20mole%2020190522.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Swakopmund%20panorama%20from%20mole%2020190522.jpg",
+    "lat": -22.6806338,
+    "lon": 14.5191099,
+    "desc": "La Jetty Pier es el hito costero elegido para una ficha que antes marcaba la ciudad entera. Swakopmund sigue siendo la gran base de talleres, permisos y descanso del litoral.",
+    "credit": "Diego Delso · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jetty,_Swakopmund,_Namibia,_2018-08-04,_DD_68-70_HDR.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Jetty,_Swakopmund,_Namibia,_2018-08-04,_DD_68-70_HDR.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Combina un paseo corto por historia portuaria con servicios difíciles de encontrar en los tramos siguientes.",
+      "see": "Pasarela sobre el Atlántico, frente marítimo y arquitectura urbana; el restaurante no es imprescindible para visitar el muelle.",
+      "access": "El pin coincide con Jetty Pier - End of Pier en Google Maps. Aparcar en zona urbana y confirmar cierres por oleaje o mantenimiento.",
+      "when": "Atardecer si el viento y la niebla permiten buena visibilidad.",
+      "skip": "Omitir el muelle con cierre, oleaje fuerte o falta de luz; conservar la escala logística si hace falta."
+    },
+    "links": [
+      {
+        "label": "Swakopmund · historia y visita de la Jetty",
+        "url": "https://www.swakopmundnamibia.com/jetty-in-swakopmund/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jetty,_Swakopmund,_Namibia,_2018-08-04,_DD_68-70_HDR.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Jetty,_Swakopmund,_Namibia,_2018-08-04,_DD_68-70_HDR.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Jetty Pier de Swakopmund vista desde la playa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Swakopmund_Jetty_HDR.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Swakopmund_Jetty_HDR.jpg",
+        "credit": "Daniel Kraft · CC BY-SA 3.0",
+        "caption": "Pasarela de la Jetty orientada hacia el Atlántico."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mole,_Jetty_and_Lighthouse_Swakopmund,_Namibia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mole,_Jetty_and_Lighthouse_Swakopmund,_Namibia.jpg",
+        "credit": "Olga Ernst · CC BY-SA 4.0",
+        "caption": "Mole, Jetty y faro en el frente marítimo."
+      }
+    ]
   },
   {
     "n": 12,
-    "name": "Spitzkoppe",
+    "name": "Spitzkoppe · Community Restcamp",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -21.8272,
-    "lon": 15.1944,
-    "desc": "El «Matterhorn de Namibia»: un inselberg de granito rojo de 1.728 m que emerge 700 m sobre la llanura, con 120 millones de años y formas redondeadas por la erosión. El Rock Arch es el arco natural más fotografiado del país, y hay pinturas rupestres san (Bushman's Paradise) accesibles con guía local. La reserva la gestiona la COMUNIDAD LOCAL, no el Estado: hay camping repartido entre los bolos de granito, con hogueras y un cielo nocturno excepcional, y aquí SÍ se puede entrar con el perro (confirmar en la puerta). Uno de los mejores vivacs de toda la ruta.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitzkoppe%20Namibia5.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Spitzkoppe%20Namibia5.jpg",
+    "lat": -21.8395132,
+    "lon": 15.2015866,
+    "desc": "El rest camp comunitario es la puerta operativa al paisaje de granito de Spitzkoppe, sus arcos y algunos abrigos con arte rupestre. Los campamentos interiores son rústicos y dispersos.",
+    "credit": "Daniel Kraft · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitzkoppe_Rock_Arch_Panorama_with_even_sky.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Spitzkoppe_Rock_Arch_Panorama_with_even_sky.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite caminar, acampar entre inselbergs y contribuir a una operación ligada a la comunidad local.",
+      "see": "Arco de roca, vistas del macizo, senderos y arte rupestre solo donde el gestor autorice.",
+      "access": "El pin coincide con Spitzkoppe Community Restcamp. Pagar acceso en recepción y confirmar guía, camping y mascotas.",
+      "when": "Tarde y amanecer; reservar noche para evitar una visita apresurada.",
+      "skip": "No escalar sin equipo ni guía, caminar sobre roca mojada o asumir agua y electricidad en la parcela."
+    },
+    "links": [
+      {
+        "label": "Spitzkoppe Rest Camp · web del gestor",
+        "url": "https://spitzkoppe.com/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitzkoppe_Rock_Arch_Panorama_with_even_sky.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Spitzkoppe_Rock_Arch_Panorama_with_even_sky.jpg",
+        "credit": "Daniel Kraft · CC BY-SA 3.0",
+        "caption": "Arco de roca con Spitzkoppe al fondo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitzkoppe_Rock_Arch_Viewpoint.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Spitzkoppe_Rock_Arch_Viewpoint.jpg",
+        "credit": "Daniel Kraft · CC BY-SA 3.0",
+        "caption": "Vista del macizo desde Rock Arch."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitzkoppe,_Namibia,_2018-08-04,_DD_14-22_PAN.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Spitzkoppe,_Namibia,_2018-08-04,_DD_14-22_PAN.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Panorámica del paisaje granítico de Spitzkoppe."
+      }
+    ]
   },
   {
     "n": 13,
-    "name": "Cape Cross · colonia de lobos marinos",
+    "name": "Cape Cross Seal Reserve",
     "cat": "Costa",
     "prio": "Media",
     "dog": "prohibido",
     "time": "½ día",
-    "lat": -21.7714,
-    "lon": 13.9503,
-    "desc": "Entre 80.000 y 200.000 lobos marinos de El Cabo según la época, la mayor colonia reproductora del mundo de la especie, sobre una punta de roca a 120 km al norte de Swakopmund. El ruido y sobre todo el OLOR son parte de la experiencia y no se olvidan. Aquí desembarcó el portugués Diogo Cão en 1486 y plantó un padrão de piedra; hay réplicas en el sitio. Reserva de focas del MEFT con tasa de entrada, horario limitado y PERRO PROHIBIDO (además de inviable: 200.000 focas).",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Fur%20Seals%20Cape%20Cross.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Cape%20Fur%20Seals%20Cape%20Cross.jpg",
+    "lat": -21.7716993,
+    "lon": 13.9524077,
+    "desc": "La pasarela de Cape Cross atraviesa una gran colonia reproductora de lobos marinos del Cabo y conduce a réplicas del padrão portugués. Es un espacio protegido, no una playa libre.",
+    "credit": "Josep M. Gracia · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_-_Large_Cape_fur_seal_colony_at_Cape_Cross,_Namibia,_2007.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:CC_-_Large_Cape_fur_seal_colony_at_Cape_Cross,_Namibia,_2007.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Reúne observación de fauna, historia de navegación y memoria de una costa explotada durante siglos.",
+      "see": "Colonia, chacales ocasionales, pasarela interpretativa y monumentos; el número de animales varía por temporada.",
+      "access": "El pin coincide con Cape Cross Seal Reserve. Entrar por la puerta de la C34 y permanecer en la pasarela, como exige MEFT.",
+      "when": "Mañana, con ropa para viento, frío, olor intenso y salpicaduras.",
+      "skip": "No entrar con perro, salirse de la pasarela ni acercarse a crías; omitirlo si el parque está cerrado."
+    },
+    "links": [
+      {
+        "label": "MEFT · Cape Cross Seal Reserve",
+        "url": "https://meft.gov.na/national-parks/cape-cross-seal-reserve/214/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_-_Large_Cape_fur_seal_colony_at_Cape_Cross,_Namibia,_2007.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:CC_-_Large_Cape_fur_seal_colony_at_Cape_Cross,_Namibia,_2007.jpg",
+        "credit": "Josep M. Gracia · CC BY-SA 4.0",
+        "caption": "Vista general de la colonia de Cape Cross."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_-_Visitors_observing_the_Cape_fur_seal_colony_at_Cape_Cross,_Namibia,_2007.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:CC_-_Visitors_observing_the_Cape_fur_seal_colony_at_Cape_Cross,_Namibia,_2007.jpg",
+        "credit": "Josep M. Gracia · CC BY-SA 4.0",
+        "caption": "Pasarela de observación dentro de la reserva."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CC_-_Black-backed_jackal_among_Cape_fur_seals_at_Cape_Cross,_Namibia,_2007.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:CC_-_Black-backed_jackal_among_Cape_fur_seals_at_Cape_Cross,_Namibia,_2007.jpg",
+        "credit": "Josep M. Gracia · CC BY-SA 4.0",
+        "caption": "Chacal de lomo negro entre lobos marinos del Cabo."
+      }
+    ]
   },
   {
     "n": 14,
@@ -227,184 +656,547 @@
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 día",
-    "lat": -21.4,
-    "lon": 14.2333,
-    "desc": "Un cráter de colapso volcánico de 22 km de diámetro en medio de la llanura de grava más silenciosa de Namibia, resto de un complejo ígneo de 132 millones de años relacionado con la apertura del Atlántico. NO HAY PISTA OFICIAL NI SEÑALIZACIÓN: se entra siguiendo huellas por el lecho del Messum, en zona de welwitschias y líquenes que tardan siglos en recuperarse de una rodada. Es uno de los sitios más remotos y menos visitados del país — soledad absoluta, sin cobertura. Terreno comunal/concesión: el perro puede ir, pero hay que llevar todo el agua. Imagen: llanura del Namib, no del propio cráter.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namib%20desert%20meets%20Atlantic%20ocean.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Namib%20desert%20meets%20Atlantic%20ocean.jpg",
+    "lat": -21.4112059,
+    "lon": 14.2163411,
+    "desc": "Messum es una gran estructura volcánica erosionada del interior costero. El pin representa el objeto cartográfico, no una recepción: no hay carretera señalizada ni servicios en el cráter.",
+    "credit": "Hans Stieglitz · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Messum_Crater-02.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Inside_Messum_Crater-02.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Aporta geología, aislamiento y un paisaje real muy distinto de la foto genérica que antes compartía con Sandwich Harbour.",
+      "see": "Anillo montañoso erosionado, afloramientos volcánicos y planicie interior; las tres fotos son del propio Messum.",
+      "access": "El pin coincide con Messum Crater en Google Maps. Obtener permiso, llevar track fiable y entrar solo con 4x4 autónomo y otro vehículo.",
+      "when": "Jornada completa con luz, tiempo seco y margen de combustible y agua.",
+      "skip": "Descartarlo sin permiso, track, convoy, satélite o autonomía; no crear nuevas roderas sobre la costra."
+    },
+    "links": [
+      {
+        "label": "Travel Namibia · Messum Crater y permiso",
+        "url": "https://travelnam.com/crater-with-a-difference-messum-crater/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Messum_Crater-02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_Messum_Crater-02.jpg",
+        "credit": "Hans Stieglitz · CC BY-SA 3.0",
+        "caption": "Planicie y relieve interior de Messum Crater."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Messum_Crater-01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_Messum_Crater-01.jpg",
+        "credit": "Hans Stieglitz · CC BY-SA 3.0",
+        "caption": "Afloramientos dentro de la estructura volcánica."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Krajina_v_oblasti_Messum_Crater_-_panoramio_(4).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Krajina_v_oblasti_Messum_Crater_-_panoramio_(4).jpg",
+        "credit": "Martin Cígler · CC BY-SA 3.0",
+        "caption": "Paisaje del área de Messum Crater."
+      }
+    ]
   },
   {
     "n": 15,
-    "name": "Brandberg · la Dama Blanca",
+    "name": "Brandberg · White Lady",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1 día",
-    "lat": -21.1167,
-    "lon": 14.55,
-    "desc": "El macizo del Brandberg culmina en el Königstein (2.573 m), el PUNTO MÁS ALTO DE NAMIBIA. En el Tsisab Ravine, a 45 minutos a pie desde el aparcamiento y con guía local obligatorio, está la «Dama Blanca», la pintura rupestre más famosa de África austral (unos 2.000 años; en realidad sería un chamán masculino, la lectura victoriana se equivocó). Monumento nacional gestionado con guías de la comunidad damara, NO parque nacional: el perro puede quedarse en el aparcamiento con uno de los viajeros, y en el camping de Uis/Brandberg White Lady Lodge suele aceptarse.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wei%C3%9Fe%20Dame%20Brandberg.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fe%20Dame%20Brandberg.JPG",
+    "lat": -21.1106969,
+    "lon": 14.6625695,
+    "desc": "White Lady es un panel de arte rupestre en el abrigo Maack, dentro de la garganta Tsisab del Brandberg. Se alcanza a pie con guía oficial; el nombre histórico no describe con certeza la figura.",
+    "credit": "Jola Sik · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Brandberg_white_lady-namibia_-_panoramio.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandberg_white_lady-namibia_-_panoramio.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "La caminata permite ver el arte en su paisaje y corregir interpretaciones coloniales que lo atribuían a culturas mediterráneas.",
+      "see": "Figura central, órices y otras siluetas del panel; está prohibido tocar, mojar o alterar la pintura.",
+      "access": "El pin coincide con La Dama de Blanco en Google Maps y marca el panel, no el aparcamiento. Registrarse en la entrada y seguir al guía.",
+      "when": "Primera hora, antes del calor; prever al menos 45–60 minutos de marcha por sentido según ritmo.",
+      "skip": "No ir con calor extremo, movilidad insuficiente, sin guía o si no se ha confirmado la custodia del perro."
+    },
+    "links": [
+      {
+        "label": "National Heritage Council · White Lady",
+        "url": "https://www.travel.na/download/Heritage_Sites_April_2024_25.pdf"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Brandberg_white_lady-namibia_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Brandberg_white_lady-namibia_-_panoramio.jpg",
+        "credit": "Jola Sik · CC BY 3.0",
+        "caption": "Panel conocido como White Lady en el Brandberg."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wei%C3%9Fe_Dame_Brandberg.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fe_Dame_Brandberg.JPG",
+        "credit": "Harald Süpfle · CC BY-SA 2.5",
+        "caption": "Detalle de la figura y del conjunto pintado."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/DSC06188_Namibia_L4_White_Lady_Brandberg_(49568783511).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:DSC06188_Namibia_L4_White_Lady_Brandberg_(49568783511).jpg",
+        "credit": "Heribert Bechen · CC BY-SA 2.0",
+        "caption": "Abrigo y entorno inmediato de la visita White Lady."
+      }
+    ]
   },
   {
     "n": 16,
-    "name": "Twyfelfontein (Patrimonio UNESCO)",
+    "name": "Twyfelfontein · centro de visitantes",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "½–1 día",
-    "lat": -20.5906,
-    "lon": 14.3728,
-    "desc": "Primer Patrimonio de la Humanidad de Namibia (2007): más de 2.000 GRABADOS RUPESTRES san sobre arenisca roja —rinocerontes, jirafas, huellas de animales y el célebre «león-hombre» con cola acabada en mano— con entre 2.000 y 6.000 años de antigüedad, en un lugar que fue punto de agua y santuario chamánico. Visita guiada obligatoria a pie por dos circuitos. Cerca están los Órganos de Órgano (basaltos columnares), la Montaña Quemada y el Bosque Petrificado con troncos de 280 millones de años. Sitio cerrado con guía: perro no.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock%20engraving%20in%20Twyfelfontein.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Rock%20engraving%20in%20Twyfelfontein.jpg",
+    "lat": -20.5904535,
+    "lon": 14.3720279,
+    "desc": "El centro de visitantes organiza recorridos guiados por los petroglifos de Twyfelfontein o /Ui-//aes, inscritos por UNESCO. Las imágenes documentan prácticas rituales y económicas de cazadores-recolectores.",
+    "credit": "Jean & Nathalie · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Twyfelfontein_Rock_Engraving,_Namibia.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Twyfelfontein_Rock_Engraving,_Namibia.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece una de las lecturas más completas de arte rupestre del viaje con gestión e interpretación local.",
+      "see": "Grabados de jirafas, rinocerontes, huellas y otros animales sobre arenisca; cada circuito muestra paneles diferentes.",
+      "access": "El pin coincide con Twyfelfontein Visitors Centre. Pagar en recepción, usar guía y caminar solo por la ruta asignada.",
+      "when": "Primera hora o última visita disponible, con calzado firme y agua.",
+      "skip": "No entrar sin guía, tocar los paneles o improvisar atajos; confirmar la política de mascotas antes de llegar."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Twyfelfontein o /Ui-//aes",
+        "url": "https://whc.unesco.org/en/list/1255"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Twyfelfontein_Rock_Engraving,_Namibia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Twyfelfontein_Rock_Engraving,_Namibia.jpg",
+        "credit": "Jean & Nathalie · CC BY 2.0",
+        "caption": "Grabado rupestre en Twyfelfontein."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe,_Twyfelfontein.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Giraffe,_Twyfelfontein.jpg",
+        "credit": "Schnobby · CC BY-SA 3.0",
+        "caption": "Jirafa grabada sobre arenisca en /Ui-//aes."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Animal_Rock_Engravings_by_Bushmen_(23908707618).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Animal_Rock_Engravings_by_Bushmen_(23908707618).jpg",
+        "credit": "Sonse · CC BY 2.0",
+        "caption": "Conjunto de figuras animales en el sitio UNESCO."
+      }
+    ]
   },
   {
     "n": 17,
-    "name": "Damaraland · Palmwag y los elefantes del desierto",
+    "name": "Palmwag · lodge y concesión",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2–3 días",
-    "lat": -19.8833,
-    "lon": 13.95,
-    "desc": "LA CLAVE DEL VIAJE CON EL PERRO: aquí hay fauna grande de verdad —elefantes del desierto que caminan 70 km al día entre lechos secos, la mayor población de RINOCERONTE NEGRO EN LIBERTAD FUERA DE UN PARQUE del planeta, jirafas, leones del desierto— y NO es un parque nacional, sino un mosaico de CONCESIONES COMUNALES (Torra, Palmwag, ≠Khoadi-//Hôas, Sesfontein) gestionadas por las propias comunidades damara y herero. Los ríos Huab, Aba-Huab y Hoanib son los lechos donde se buscan los elefantes. Cada concesión pone sus normas: hay campings comunales que aceptan perro y otros que no, y el Save the Rhino Trust exige guía para el rinoceronte. Confirmar sitio por sitio. Imagen: rinoceronte negro en Namibia, no necesariamente del propio Damaraland.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitzmaulnashorn%20in%20Namibia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Spitzmaulnashorn%20in%20Namibia.jpg",
+    "lat": -19.8863142,
+    "lon": 13.9365328,
+    "desc": "Palmwag Lodge es la base verificable junto a una extensa concesión comunal de paisaje árido y fauna libre. Ver elefantes o rinocerontes requiere actividad autorizada y nunca está garantizado.",
+    "credit": "Graf-flugplatz · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/020525081Namibia.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:020525081Namibia.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite comprender cómo turismo, concesiones y conservancies financian parte del seguimiento de fauna del noroeste.",
+      "see": "Valle del Uniab, palmeras, geología rojiza y fauna si aparece; la ficha no promete rastrear animales por libre.",
+      "access": "El pin coincide con Palmwag Lodge en Google Maps. Comprar el permiso correspondiente y contratar guía para zonas restringidas.",
+      "when": "Dos noches si se reserva actividad; evitar las horas de más calor.",
+      "skip": "Omitir salidas sin permiso o guía y no contar con recarga de agua o aceptación del perro sin confirmación escrita."
+    },
+    "links": [
+      {
+        "label": "Palmwag Lodge · alojamiento y actividades del gestor",
+        "url": "https://gondwana-collection.com/accommodation/palmwag-lodge"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/020525081Namibia.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:020525081Namibia.JPG",
+        "credit": "Graf-flugplatz · CC BY-SA 3.0",
+        "caption": "Cauce del Uniab en Palmwag."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palmwag_Sunset_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Palmwag_Sunset_-_panoramio.jpg",
+        "credit": "eftejo · CC BY 3.0",
+        "caption": "Atardecer en el paisaje de Palmwag."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemsbok,_Palmwag,_Namibia_(3927374692).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gemsbok,_Palmwag,_Namibia_(3927374692).jpg",
+        "credit": "Frank Vassen · CC BY 2.0",
+        "caption": "Órix fotografiado en Palmwag; la fauna nunca está garantizada."
+      }
+    ]
   },
   {
     "n": 18,
-    "name": "Skeleton Coast · de Ugab a Terrace Bay",
+    "name": "Skeleton Coast · Ugab Gate",
     "cat": "Costa",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "1–2 días",
-    "lat": -20.2833,
-    "lon": 13.2167,
-    "desc": "«La tierra que Dios hizo con rabia», la llamaban los san: 500 km de costa de niebla, corriente fría de Benguela, esqueletos de ballena y PECIOS oxidándose en la arena. El tramo abierto al público va de la puerta de Ugabmund (con su portón de calaveras) a Terrace Bay, pasando por Torra Bay; se entra con PERMISO DE TRÁNSITO y horarios estrictos de puerta. Al norte de Terrace Bay empieza la zona restringida (Skeleton Coast Wilderness), solo con permiso especial de Windhoek o con operador. Pesca de orilla legendaria. Parque nacional: perro prohibido en todo el recinto.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shipwreck-skeleton-coast.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Shipwreck-skeleton-coast.jpg",
+    "lat": -21.1727036,
+    "lon": 13.6696429,
+    "desc": "Ugab Gate es la entrada sur concreta a Skeleton Coast Park. Desde aquí comienza un largo corredor de grava, niebla y litoral desértico; gran parte del norte permanece restringida.",
+    "credit": "Daniel Kraft · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Skeleton_Coast_Dunes.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Skeleton_Coast_Dunes.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Convierte una idea difusa de la costa en una decisión real de acceso, horario, combustible y pernocta.",
+      "see": "Puerta, paisaje de dunas bajas, costa y restos dispersos; no todos los pecios famosos están en el tramo público.",
+      "access": "El pin coincide con Ugab Gate en Google Maps. Confirmar en MEFT la ruta permitida, horario, reserva y puerta de salida.",
+      "when": "Entrar temprano y con combustible suficiente para completar el itinerario autorizado con luz.",
+      "skip": "No entrar tarde, sin reserva cuando sea exigida, con perro, cobertura insuficiente o esperando un safari convencional."
+    },
+    "links": [
+      {
+        "label": "MEFT · Skeleton Coast Park",
+        "url": "https://meft.gov.na/national-parks/skeleton-coast-park/227/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Skeleton_Coast_Dunes.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Skeleton_Coast_Dunes.jpg",
+        "credit": "Daniel Kraft · CC BY-SA 3.0",
+        "caption": "Dunas y vegetación dispersa dentro de Skeleton Coast Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namib_Skeleton_Coast_Park,_Namibia_(3046182890).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namib_Skeleton_Coast_Park,_Namibia_(3046182890).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Paisaje costero del parque al que da acceso Ugab Gate."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Skeleton_Coast,_Namibia_(17105818219).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Skeleton_Coast,_Namibia_(17105818219).jpg",
+        "credit": "Domenico Convertini · CC BY-SA 2.0",
+        "caption": "Litoral desértico dentro de Skeleton Coast Park."
+      }
+    ]
   },
   {
     "n": 19,
-    "name": "Parque Nacional de Etosha",
+    "name": "Etosha · charca de Okaukuejo",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "3 días",
-    "lat": -19.1806,
-    "lon": 15.9128,
-    "desc": "Una de las mejores reservas de fauna de África y probablemente la más fácil de recorrer en vehículo propio: una cuenca salina de 5.000 km² tan blanca que se ve desde el espacio, rodeada de más de 50 abrevaderos donde en la estación seca se concentran elefantes, leones, rinocerontes negros y blancos, y el raro impala de cara negra. Los abrevaderos ILUMINADOS de Okaukuejo, Halali y Namutoni permiten ver rinocerontes de noche desde una silla. Autoconducción, pistas de grava en buen estado, 4x4 no imprescindible. PERRO PROHIBIDO SIN EXCEPCIÓN: ver el plan B en la matriz canina.",
-    "credit": "Olga Ernst · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20at%20waterhole%2C%20Etosha%20National%20Park%2C%20Namibia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Elephants%20at%20waterhole%2C%20Etosha%20National%20Park%2C%20Namibia.jpg",
+    "lat": -19.1809447,
+    "lon": 15.9163519,
+    "desc": "La charca iluminada de Okaukuejo es un punto concreto y observable de Etosha, junto al resort. La presencia de elefantes, rinocerontes y otros animales cambia por hora y estación.",
+    "credit": "Hka1987 · CC0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterhole_Okaukuejo_Camp_in_Etosha_National_Park.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Waterhole_Okaukuejo_Camp_in_Etosha_National_Park.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite observar fauna desde un recinto estable incluso después de cerrar las carreteras del parque.",
+      "see": "Charca, torre y fauna de paso; conviene alternarla con recorridos diurnos autorizados dentro de Etosha.",
+      "access": "El pin coincide con Okaukuejo Waterhole. Reservar alojamiento o acceso, respetar puertas y resolver el perro fuera del parque.",
+      "when": "Estación seca y franjas de amanecer, atardecer y noche, sin garantía de especies.",
+      "skip": "Descartarlo sin reserva o custodia canina real; nunca salir del vehículo fuera de las zonas autorizadas."
+    },
+    "links": [
+      {
+        "label": "NWR · Okaukuejo Waterhole",
+        "url": "https://www.nwr.com.na/okaukuejo-waterhole-live-streaming-now-available-on-dstv/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterhole_Okaukuejo_Camp_in_Etosha_National_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Waterhole_Okaukuejo_Camp_in_Etosha_National_Park.jpg",
+        "credit": "Hka1987 · CC0",
+        "caption": "Charca de Okaukuejo al amanecer."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Oryx_at_the_Okaukuejo_Waterhole,_Etosha_National_Park,_Namibia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Oryx_at_the_Okaukuejo_Waterhole,_Etosha_National_Park,_Namibia.jpg",
+        "credit": "Christoph Strässler · CC BY-SA 2.0",
+        "caption": "Órix en la charca de Okaukuejo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe_at_the_Okaukuejo_Waterhole,_Etosha_National_Park,_Namibia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Giraffe_at_the_Okaukuejo_Waterhole,_Etosha_National_Park,_Namibia.jpg",
+        "credit": "Christoph Strässler · CC BY-SA 2.0",
+        "caption": "Jirafa observada desde el recinto de la charca."
+      }
+    ]
   },
   {
     "n": 20,
-    "name": "Kaokoland · Van Zyl's Pass y el Marienfluss",
+    "name": "Van Zyl's Pass",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "4–6 días",
-    "lat": -17.5333,
-    "lon": 12.65,
-    "desc": "El último gran territorio salvaje del país y el hogar de los HIMBA, que siguen viviendo del ganado y cubriéndose de otjize (ocre y grasa). Van Zyl's Pass es uno de los pasos 4x4 más duros de África: unos 15 km de bajada por bloques de roca y peralte inverso, media jornada de conducción, SENTIDO ÚNICO DE ESTE A OESTE (de Van Zyl's Camp hacia el Marienfluss, nunca al revés), sin rescate posible y con dos vehículos como mínimo recomendado — que es exactamente lo que llevamos. Abajo se abre el Marienfluss, un valle de hierba dorada entre montañas hasta el Cunene, con los «círculos de hadas» y silencio absoluto. Terreno comunal, no parque: el perro puede ir, pero hay leopardo, hiena y calor extremo. Imagen: mujer himba del Kunene, no del propio paso.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Himba%20woman%20%28Namibia%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Himba%20woman%20%28Namibia%29.jpg",
+    "lat": -17.6333333,
+    "lon": 12.7,
+    "desc": "Van Zyl's Pass es una pista rocosa remota del Kaokoveld que desciende hacia el Marienfluss. La ficha ya no presenta como norma legal un sentido único que las fuentes oficiales consultadas no publican.",
+    "credit": "Hans Stieglitz · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Zyl%C2%B4s_Pass.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Van_Zyl%C2%B4s_Pass.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es un reto técnico genuino y un mirador sobre un paisaje casi sin infraestructuras.",
+      "see": "Escalones de roca, laderas y vegetación adaptada; una sola foto muestra la pista porque no se rellenó con imágenes de otros lugares.",
+      "access": "El pin coincide con Van Zyl's Pass en Google Maps. Confirmar sentido recomendado y estado localmente, ir en convoy y reconocer a pie cada obstáculo.",
+      "when": "Solo con varios días secos, luz completa, conductores expertos y comunicación satelital.",
+      "skip": "Descartarlo sin reductora, protección, rescate, autonomía o alternativa; no usarlo para aprender conducción 4x4."
+    },
+    "links": [
+      {
+        "label": "Visit Namibia · Arid Eden y Kaokoland",
+        "url": "https://visitnamibia.com.na/arid-eden-route-2/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Zyl%C2%B4s_Pass.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Van_Zyl%C2%B4s_Pass.jpg",
+        "credit": "Hans Stieglitz · CC BY-SA 3.0",
+        "caption": "Vehículo descendiendo un escalón de roca en Van Zyl's Pass."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Commiphora_multijuga_2463.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Commiphora_multijuga_2463.jpg",
+        "credit": "SAplants · CC BY-SA 4.0",
+        "caption": "Commiphora en la ladera del propio Van Zyl's Pass."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sterculia_africana_2469.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sterculia_africana_2469.jpg",
+        "credit": "SAplants · CC BY-SA 4.0",
+        "caption": "Vegetación adaptada fotografiada en el paso."
+      }
+    ]
   },
   {
     "n": 21,
-    "name": "Cataratas de Epupa",
+    "name": "Epupa Falls · mirador",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": -17.0011,
-    "lon": 13.2453,
-    "desc": "El Cunene, frontera con Angola, se rompe en una serie de saltos de hasta 37 m repartidos en 1,5 km de ancho entre baobabs y palmeras makalani; el nombre significa «espuma» en herero. Es el oasis del Kaokoland: campings con sombra a pie de río, poblados himba alrededor y un mirador sobre el cañón para el atardecer. OJO: hay COCODRILOS en el Cunene — no dejar al perro suelto cerca del agua bajo ningún concepto. Se llega por una pista dura desde Opuwo (~180 km, 4-5 h) o bajando del Marienfluss por la orilla del Cunene.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Epupa%20Falls%20%28detail%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Epupa%20Falls%20%28detail%29.jpg",
+    "lat": -17.0018086,
+    "lon": 13.2408032,
+    "desc": "Epupa es una sucesión de saltos del Kunene entre palmeras makalani, en la frontera con Angola. El mirador evita confundir la cascada con cualquiera de los campings ribereños.",
+    "credit": "Dr. Thomas Wagner · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Epupa_Falls_2.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Epupa_Falls_2.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Combina un paisaje fluvial inesperado con una parada larga después de las pistas del Kaokoland.",
+      "see": "Canales, caídas, palmeras y garganta; el caudal varía mucho y el río alberga cocodrilos.",
+      "access": "El pin coincide con Epupa Falls Viewpoint. Preguntar por senderos, guía y límites de propiedad antes de caminar.",
+      "when": "Mañana o atardecer, con dos noches para descansar y explorar sin prisa.",
+      "skip": "No bañarse ni acercar el perro a la orilla; evitar bordes mojados, crecidas y senderos no autorizados."
+    },
+    "links": [
+      {
+        "label": "Visit Namibia · ruta del noroeste y Epupa",
+        "url": "https://visitnamibia.com.na/arid-eden-route-2/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Epupa_Falls_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Epupa_Falls_2.jpg",
+        "credit": "Dr. Thomas Wagner · CC BY-SA 3.0",
+        "caption": "Canales y saltos de Epupa en el Kunene."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Epupa_falls_1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Epupa_falls_1.jpg",
+        "credit": "Hans Hillewaert · CC BY-SA 3.0",
+        "caption": "Caída principal de Epupa Falls."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Epupafaelle3.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Epupafaelle3.JPG",
+        "credit": "Harald Bungsche · CC BY-SA 2.5",
+        "caption": "Garganta aguas abajo de la cascada."
+      }
+    ]
   },
   {
     "n": 22,
-    "name": "Cataratas de Ruacana",
+    "name": "Ruacana Falls · mirador",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "½ día",
-    "lat": -17.3897,
-    "lon": 14.2192,
-    "desc": "Salto de 120 m y 700 m de ancho sobre el Cunene, justo en la frontera con Angola y a un paso del puesto fronterizo de Ruacana/Calueque. Es una de las mayores cascadas de África POR CAUDAL POTENCIAL, pero el agua la regula la central hidroeléctrica de Ruacana y la presa angoleña de Calueque: en seco puede quedar reducida a un hilo, y en crecida (febrero-abril) es espectacular. Merece la pena consultar el caudal antes de desviarse. Mirador libre y accesible con el perro. Imagen: cataratas de Epupa, aguas abajo en el mismo río Cunene — pendiente de sustituir por una de Ruacana.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Epupa%20Falls%20%28detail%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Epupa%20Falls%20%28detail%29.jpg",
+    "lat": -17.3941201,
+    "lon": 14.2194575,
+    "desc": "Ruacana Falls depende del caudal liberado en un río regulado por infraestructura hidroeléctrica. El mirador queda junto al complejo fronterizo y puede requerir identificarse ante los agentes.",
+    "credit": "Rubend nazario · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Ruacana_Falls.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Namibia_Ruacana_Falls.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Cuando lleva agua ofrece otra lectura del Kunene y, aun seca, ayuda a entender la presa y la frontera.",
+      "see": "Salto rocoso y garganta; no se promete una cortina de agua permanente ni se reutilizan fotos de Epupa.",
+      "access": "El pin coincide con Viewpoint to Ruacana Falls. Visit Namibia indica avisar en el puesto fronterizo antes de ir al aparcamiento.",
+      "when": "Tras confirmar caudal, horario y acceso; mejor con luz lateral.",
+      "skip": "Omitirlo si frontera o seguridad niegan el paso, si no hay caudal y no interesa la infraestructura, o con roca mojada."
+    },
+    "links": [
+      {
+        "label": "Visit Namibia · Roof of Namibia y Ruacana",
+        "url": "https://visitnamibia.com.na/roof-of-namibia/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_Ruacana_Falls.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibia_Ruacana_Falls.jpg",
+        "credit": "Rubend nazario · dominio público",
+        "caption": "Ruacana Falls con caudal visible desde el lado namibio."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruacana_Falls_at_High_Water_from_distance_in_03-2011_by_Tom_Jakobi.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ruacana_Falls_at_High_Water_from_distance_in_03-2011_by_Tom_Jakobi.JPG",
+        "credit": "Tom Jakobi / ImperatoM · CC BY-SA 3.0",
+        "caption": "Vista distante de Ruacana durante una crecida de 2011."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruacana.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ruacana.jpg",
+        "credit": "Dr. Thomas Wagner · CC BY-SA 3.0",
+        "caption": "Garganta y saltos de Ruacana vistos desde Namibia."
+      }
+    ]
   },
   {
     "n": 23,
-    "name": "Windhoek",
+    "name": "Windhoek · Independence Memorial Museum",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2–3 noches",
-    "lat": -22.5609,
-    "lon": 17.0658,
-    "desc": "Capital a 1.700 m de altitud, tranquila y sorprendentemente europea: la Christuskirche de 1907, la Alte Feste, el Independence Memorial Museum y el mercado de Katutura. Es LA gran plaza logística del país —concesionarios oficiales, recambios 4x4, neumáticos, embajada de España, Windhoek Central Hospital, veterinarios y residencias caninas de verdad, clave para los días de Etosha— además de la oficina central de Namibia Wildlife Resorts donde se reservan campings y se piden los permisos especiales. Agua del grifo potable.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Christ%20Church%20in%20Windhoek%2C%20Namibia.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Christ%20Church%20in%20Windhoek%2C%20Namibia.jpg",
+    "lat": -22.5688266,
+    "lon": 17.0879955,
+    "desc": "El Independence Memorial Museum recorre represión colonial, guerra de liberación y camino a la independencia. Es la ancla cultural de Windhoek; la ciudad sigue siendo la principal base logística.",
+    "credit": "Zairon · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Windhuk_Christuskirche_%26_Independence_Memorial_Museum_3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Windhuk_Christuskirche_%26_Independence_Memorial_Museum_3.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Da contexto histórico nacional antes de visitar Waterberg, Lüderitz o los antiguos enclaves coloniales.",
+      "see": "Tres galerías, vistas urbanas y el conjunto cercano de Christuskirche y Alte Feste.",
+      "access": "El pin coincide con Independence Museum en Google Maps. Consultar el horario oficial y separar la visita de las gestiones urbanas.",
+      "when": "Entre semana por la mañana, dejando margen para la exposición completa.",
+      "skip": "Omitirlo si está cerrado; no sustituir sus contenidos por una panorámica superficial de la ciudad."
+    },
+    "links": [
+      {
+        "label": "Windhoek City Council · Independence Memorial Museum",
+        "url": "https://www.windhoekcc.org.na/independence-memorial-museum/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Windhuk_Christuskirche_%26_Independence_Memorial_Museum_3.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Windhuk_Christuskirche_%26_Independence_Memorial_Museum_3.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "Independence Memorial Museum y Christuskirche."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Unabh%C3%A4ngigkeits-Gedenkmuseum_Windhoek,_Luftaufnahme_(2017).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Unabh%C3%A4ngigkeits-Gedenkmuseum_Windhoek,_Luftaufnahme_(2017).jpg",
+        "credit": "Olga Ernst & Hp.Baumeler · CC BY-SA 4.0",
+        "caption": "Vista aérea del museo en el centro de Windhoek."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Windhuk_Independence_Memorial_Museum_Blick_auf_den_Tintenpalast_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Windhuk_Independence_Memorial_Museum_Blick_auf_den_Tintenpalast_2.jpg",
+        "credit": "Zairon · CC BY-SA 4.0",
+        "caption": "Parlamento visto desde el Independence Memorial Museum."
+      }
+    ]
   },
   {
     "n": 24,
-    "name": "Meseta del Waterberg",
+    "name": "Waterberg · recepción de NWR",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "prohibido",
     "time": "1–2 días",
-    "lat": -20.5,
-    "lon": 17.2333,
-    "desc": "Una mesa de arenisca roja de 50 km de largo que se levanta 200 m sobre la sabana, con un ecosistema aislado arriba usado como SANTUARIO DE ESPECIES AMENAZADAS (rinoceronte blanco y negro, sable, roan) y una de las mejores zonas de aves rapaces del país, incluido el único criadero namibio de buitre del Cabo. Es además el campo de batalla de Waterberg (1904), donde el ejército alemán empujó a los herero al desierto de Omaheke: hay cementerio militar alemán y memorial herero. Parque nacional: perro no. Senderos guiados y un circuito de varios días arriba.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterberg%20cliff%20face.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Waterberg%20cliff%20face.jpg",
+    "lat": -20.5163693,
+    "lon": 17.2452939,
+    "desc": "La recepción de NWR es la base real para los senderos y actividades del Waterberg Plateau Park. El macizo también conserva la memoria de la batalla de 1904 y la persecución posterior.",
+    "credit": "Domenico Convertini · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterberg_Plateau_National_Park,_Namibia_(16579001653).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Waterberg_Plateau_National_Park,_Namibia_(16579001653).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Combina caminata, geología, conservación y una historia inseparable del genocidio ovaherero y nama.",
+      "see": "Escarpe de arenisca, senderos cortos, cementerio y fauna en recorridos autorizados sobre la meseta.",
+      "access": "El pin coincide con Waterberg Camp - NWR (Reception). Registrar la entrada y reservar por separado drives o travesías.",
+      "when": "Mañana fresca; dedicar una noche si se combina historia y senderismo.",
+      "skip": "No entrar con perro, caminar fuera de ruta, ni hacer senderos largos con calor, incendio o sin reserva."
+    },
+    "links": [
+      {
+        "label": "NWR · Waterberg Resort",
+        "url": "https://www.nwr.com.na/resorts/waterberg-resort/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterberg_Plateau_National_Park,_Namibia_(16579001653).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Waterberg_Plateau_National_Park,_Namibia_(16579001653).jpg",
+        "credit": "Domenico Convertini · CC BY-SA 2.0",
+        "caption": "Escarpe de arenisca en Waterberg Plateau Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterberg,_Namibia_Luftaufnahme_von_Osten.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Waterberg,_Namibia_Luftaufnahme_von_Osten.jpg",
+        "credit": "jthetzel · CC BY 2.0",
+        "caption": "Vista aérea del Waterberg desde el este."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterberg_Fels.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Waterberg_Fels.jpg",
+        "credit": "Ikiwaner · GFDL 1.2",
+        "caption": "Afloramiento de arenisca del Waterberg."
+      }
+    ]
   }
 ]

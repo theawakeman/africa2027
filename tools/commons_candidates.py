@@ -24,6 +24,32 @@ ROOT = Path(__file__).resolve().parents[1]
 API = "https://commons.wikimedia.org/w/api.php"
 
 SEARCH_QUERIES: dict[str, dict[int, str]] = {
+    "namibia": {
+        1: 'incategory:"Fish River Canyon" Namibia',
+        2: 'incategory:"Quiver Tree Forest" Namibia',
+        3: "Garub desert horses Namibia",
+        4: 'incategory:"Lüderitz" waterfront',
+        5: 'incategory:"Kolmanskop"',
+        6: 'incategory:"Dune 45"',
+        7: 'incategory:"Deadvlei"',
+        8: "Kuiseb Canyon Namibia",
+        9: 'incategory:"Walvis Bay Lagoon"',
+        10: 'incategory:"Sandwich Harbour"',
+        11: 'incategory:"Swakopmund" jetty',
+        12: 'incategory:"Spitzkoppe"',
+        13: 'incategory:"Cape Cross" fur seals',
+        14: "Messum Crater Namibia",
+        15: 'incategory:"White Lady rock painting" Namibia',
+        16: 'incategory:"Twyfelfontein"',
+        17: "Palmwag Namibia",
+        18: 'incategory:"Skeleton Coast National Park"',
+        19: "Okaukuejo waterhole Etosha",
+        20: "Van Zyl's Pass Namibia",
+        21: 'incategory:"Epupa Falls"',
+        22: "Ruacana Falls Namibia",
+        23: 'incategory:"Independence Memorial Museum, Namibia"',
+        24: 'incategory:"Waterberg Plateau Park" Namibia',
+    },
     "zimbabue": {
         1: "Christmas Pass Mutare Zimbabwe", 2: "Vumba Botanical Garden Zimbabwe",
         3: "Mount Nyangani Zimbabwe", 4: "Mtarazi Falls Zimbabwe",

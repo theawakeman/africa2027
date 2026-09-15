@@ -53,6 +53,32 @@ EXONIMOS = {"nuakchot": "Nouakchott", "nuadibú": "Nouadhibou", "nuadibu": "Noua
 # aquí, y no solo en los JSON de auditoría, para que las comprobaciones sean
 # reproducibles al regenerarlas.
 CONSULTAS_EXACTAS = {
+    "namibia": {
+        "poi-1": ["Fish River Canyon Viewpoint Namibia"],
+        "poi-2": ["Quivertree Forest Rest Camp Namibia"],
+        "poi-3": ["Garub Desert Horses Namibia"],
+        "poi-4": ["Lüderitz Waterfront Development Company"],
+        "poi-5": ["Kolmanskop Entrance Namibia"],
+        "poi-6": ["Dune 45 Sossusvlei Namibia"],
+        "poi-7": ["Deadvlei Namibia"],
+        "poi-8": ["Kuiseb River Viewpoint Namibia"],
+        "poi-9": ["Lagoon Promenade Walvis Bay Namibia"],
+        "poi-10": ["Sandwich Harbour Namibia"],
+        "poi-11": ["Jetty Pier Swakopmund Namibia"],
+        "poi-12": ["Spitzkoppe Community Restcamp Namibia"],
+        "poi-13": ["Cape Cross Seal Reserve Namibia"],
+        "poi-14": ["Messum Crater Namibia"],
+        "poi-15": ["White Lady Brandberg Namibia"],
+        "poi-16": ["Twyfelfontein Visitors Centre Namibia"],
+        "poi-17": ["Palmwag Lodge Namibia"],
+        "poi-18": ["Ugab Gate Skeleton Coast Namibia"],
+        "poi-19": ["Okaukuejo Waterhole Etosha Namibia"],
+        "poi-20": ["Van Zyl's Pass Namibia"],
+        "poi-21": ["Epupa Falls Viewpoint Namibia"],
+        "poi-22": ["Viewpoint to Ruacana Falls Namibia"],
+        "poi-23": ["Independence Museum Windhoek Namibia"],
+        "poi-24": ["Waterberg Camp NWR Reception Namibia"],
+    },
     "ghana": {
         "poi-1": ["Nzulezo Ghana"],
         "poi-4": ["Elmina Castle Ghana", "São Jorge da Mina"],

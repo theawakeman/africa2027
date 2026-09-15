@@ -1,0 +1,570 @@
+{
+ "slug": "namibia",
+ "bbox": [
+  11.399999999999999,
+  -29.3,
+  25.6,
+  -16.599999999999998
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Fish River Canyon · mirador principal",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -27.5891682,
+   "lon": 17.6145749,
+   "desc": "El mirador principal abre la vista sobre las curvas encajadas del Fish River Canyon. Hobas es la base de acceso; la travesía de varios días es otra actividad y exige reserva.",
+   "q": [
+    "Fish River Canyon Viewpoint Namibia"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Quiver Tree Forest y Giant's Playground",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -26.4814114,
+   "lon": 18.2375665,
+   "desc": "En la granja Gariganus se visitan un bosque de kokerbooms y, a pocos kilómetros, los bloques de dolerita de Giant's Playground. La recepción del rest camp es el acceso comprobable.",
+   "q": [
+    "Quivertree Forest Rest Camp Namibia"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Garub · caballos del desierto",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -26.5947881,
+   "lon": 16.0757057,
+   "desc": "El observatorio de Garub permite buscar la pequeña población de caballos ferales adaptada al borde oriental del Namib. Su origen combina varias hipótesis y los avistamientos no están garantizados.",
+   "q": [
+    "Garub Desert Horses Namibia"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Lüderitz · waterfront y memoria portuaria",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -26.6477353,
+   "lon": 15.1518021,
+   "desc": "El waterfront es una ancla precisa para recorrer el puerto de Lüderitz y visitar el Namibia Maritime Museum. La arquitectura, Shark Island y la historia colonial requieren una lectura crítica.",
+   "q": [
+    "Lüderitz Waterfront Development Company"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Kolmanskop · entrada del poblado minero",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -26.7016875,
+   "lon": 15.2320625,
+   "desc": "Kolmanskop conserva edificios del antiguo enclave diamantífero invadidos por arena. El permiso se obtiene en la entrada y la visita guiada ayuda a separar historia laboral, segregación y estética de r",
+   "q": [
+    "Kolmanskop Entrance Namibia"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Dune 45 · Sossusvlei",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -24.7277568,
+   "lon": 15.4725668,
+   "desc": "Dune 45 es la duna señalizada junto a la carretera de Sossusvlei. Se puede contemplar desde el aparcamiento o subir por la cresta, sin presentarla como un récord mundial.",
+   "q": [
+    "Dune 45 Sossusvlei Namibia"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Deadvlei",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -24.7592732,
+   "lon": 15.2923894,
+   "desc": "Deadvlei es una cubeta clara con antiguos troncos de camelthorn, aislada del flujo del Tsauchab por las dunas. El último tramo combina arena profunda y caminata.",
+   "q": [
+    "Deadvlei Namibia"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Kuiseb River Viewpoint",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -23.3030703,
+   "lon": 15.7736518,
+   "desc": "Este mirador se asoma al valle encajado del Kuiseb desde la pista C14. La antigua ficha mezclaba aquí Welwitschia Drive, que es otro recorrido y requiere su propio permiso.",
+   "q": [
+    "Kuiseb River Viewpoint Namibia"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Walvis Bay · Flamingo Lagoon",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -22.9733978,
+   "lon": 14.4785799,
+   "desc": "Flamingo Lagoon fija un punto concreto del paseo de Walvis Bay desde el que observar el humedal Ramsar. La cantidad y posición de las aves cambian con marea y estación.",
+   "q": [
+    "Lagoon Promenade Walvis Bay Namibia"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Sandwich Harbour",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -23.3571081,
+   "lon": 14.498654,
+   "desc": "Sandwich Harbour combina laguna, playa y dunas costeras dentro de Namib-Naukluft. El acceso motorizado exige permiso previo y depende de marea, arena y ruta autorizada.",
+   "q": [
+    "Sandwich Harbour Namibia"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Swakopmund · Jetty Pier",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -22.6806338,
+   "lon": 14.5191099,
+   "desc": "La Jetty Pier es el hito costero elegido para una ficha que antes marcaba la ciudad entera. Swakopmund sigue siendo la gran base de talleres, permisos y descanso del litoral.",
+   "q": [
+    "Jetty Pier Swakopmund Namibia"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Spitzkoppe · Community Restcamp",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -21.8395132,
+   "lon": 15.2015866,
+   "desc": "El rest camp comunitario es la puerta operativa al paisaje de granito de Spitzkoppe, sus arcos y algunos abrigos con arte rupestre. Los campamentos interiores son rústicos y dispersos.",
+   "q": [
+    "Spitzkoppe Community Restcamp Namibia"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Cape Cross Seal Reserve",
+   "cat": "Costa",
+   "prio": "Media",
+   "lat": -21.7716993,
+   "lon": 13.9524077,
+   "desc": "La pasarela de Cape Cross atraviesa una gran colonia reproductora de lobos marinos del Cabo y conduce a réplicas del padrão portugués. Es un espacio protegido, no una playa libre.",
+   "q": [
+    "Cape Cross Seal Reserve Namibia"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Messum Crater",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -21.4112059,
+   "lon": 14.2163411,
+   "desc": "Messum es una gran estructura volcánica erosionada del interior costero. El pin representa el objeto cartográfico, no una recepción: no hay carretera señalizada ni servicios en el cráter.",
+   "q": [
+    "Messum Crater Namibia"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Brandberg · White Lady",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -21.1106969,
+   "lon": 14.6625695,
+   "desc": "White Lady es un panel de arte rupestre en el abrigo Maack, dentro de la garganta Tsisab del Brandberg. Se alcanza a pie con guía oficial; el nombre histórico no describe con certeza la figura.",
+   "q": [
+    "White Lady Brandberg Namibia"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Twyfelfontein · centro de visitantes",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -20.5904535,
+   "lon": 14.3720279,
+   "desc": "El centro de visitantes organiza recorridos guiados por los petroglifos de Twyfelfontein o /Ui-//aes, inscritos por UNESCO. Las imágenes documentan prácticas rituales y económicas de cazadores-recolec",
+   "q": [
+    "Twyfelfontein Visitors Centre Namibia"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Palmwag · lodge y concesión",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -19.8863142,
+   "lon": 13.9365328,
+   "desc": "Palmwag Lodge es la base verificable junto a una extensa concesión comunal de paisaje árido y fauna libre. Ver elefantes o rinocerontes requiere actividad autorizada y nunca está garantizado.",
+   "q": [
+    "Palmwag Lodge Namibia"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Skeleton Coast · Ugab Gate",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -21.1727036,
+   "lon": 13.6696429,
+   "desc": "Ugab Gate es la entrada sur concreta a Skeleton Coast Park. Desde aquí comienza un largo corredor de grava, niebla y litoral desértico; gran parte del norte permanece restringida.",
+   "q": [
+    "Ugab Gate Skeleton Coast Namibia"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Etosha · charca de Okaukuejo",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -19.1809447,
+   "lon": 15.9163519,
+   "desc": "La charca iluminada de Okaukuejo es un punto concreto y observable de Etosha, junto al resort. La presencia de elefantes, rinocerontes y otros animales cambia por hora y estación.",
+   "q": [
+    "Okaukuejo Waterhole Etosha Namibia"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Van Zyl's Pass",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -17.6333333,
+   "lon": 12.7,
+   "desc": "Van Zyl's Pass es una pista rocosa remota del Kaokoveld que desciende hacia el Marienfluss. La ficha ya no presenta como norma legal un sentido único que las fuentes oficiales consultadas no publican.",
+   "q": [
+    "Van Zyl's Pass Namibia"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Epupa Falls · mirador",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -17.0018086,
+   "lon": 13.2408032,
+   "desc": "Epupa es una sucesión de saltos del Kunene entre palmeras makalani, en la frontera con Angola. El mirador evita confundir la cascada con cualquiera de los campings ribereños.",
+   "q": [
+    "Epupa Falls Viewpoint Namibia"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "Ruacana Falls · mirador",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -17.3941201,
+   "lon": 14.2194575,
+   "desc": "Ruacana Falls depende del caudal liberado en un río regulado por infraestructura hidroeléctrica. El mirador queda junto al complejo fronterizo y puede requerir identificarse ante los agentes.",
+   "q": [
+    "Viewpoint to Ruacana Falls Namibia"
+   ]
+  },
+  {
+   "id": "poi-23",
+   "type": "poi",
+   "n": 23,
+   "name": "Windhoek · Independence Memorial Museum",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -22.5688266,
+   "lon": 17.0879955,
+   "desc": "El Independence Memorial Museum recorre represión colonial, guerra de liberación y camino a la independencia. Es la ancla cultural de Windhoek; la ciudad sigue siendo la principal base logística.",
+   "q": [
+    "Independence Museum Windhoek Namibia"
+   ]
+  },
+  {
+   "id": "poi-24",
+   "type": "poi",
+   "n": 24,
+   "name": "Waterberg · recepción de NWR",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -20.5163693,
+   "lon": 17.2452939,
+   "desc": "La recepción de NWR es la base real para los senderos y actividades del Waterberg Plateau Park. El macizo también conserva la memoria de la batalla de 1904 y la persecución posterior.",
+   "q": [
+    "Waterberg Camp NWR Reception Namibia"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada — Noordoewer/Vioolsdrif (desde Sudáfrica)",
+   "cat": "Frontera",
+   "lat": -28.75,
+   "lon": 17.6167,
+   "desc": "Paso principal con Sudáfrica sobre el río Orange, en la N7/B1, OPERATIVO 24 HORAS. Es con diferencia el más transitado del sur: colas largas en vacaciones escolares sudafricanas y a final de año. Paga",
+   "q": [
+    "Noordoewer",
+    "Vioolsdrif",
+    "Sudáfrica"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida principal — Oshikango/Santa Clara (hacia Angola)",
+   "cat": "Frontera",
+   "lat": -17.3872738,
+   "lon": 15.8920619,
+   "desc": "Paso más transitado hacia Angola, complejo moderno y carretera asfaltada en ambos lados, con horario largo (confirmar si sigue siendo 24 h). Mucho camión y mucho comercio transfronterizo. Coherente co",
+   "q": [
+    "Oshikango",
+    "Santa Clara",
+    "Angola"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Salida alternativa — Ruacana/Ruacaná (hacia Angola)",
+   "cat": "Frontera",
+   "lat": -17.39226,
+   "lon": 14.22332,
+   "desc": "Puesto de Ruacana/Ruacaná, distinto de Omahenene y de la presa de Calueque. El pin marca el control fronterizo real. Es la alternativa occidental si se sale del Kaokoland por Epupa; confirmar horario,",
+   "q": [
+    "Ruacana",
+    "Ruacaná",
+    "Angola"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Embajada de España en Windhoek",
+   "cat": "Consular",
+   "lat": -22.5667,
+   "lon": 17.0833,
+   "desc": "58 Simeon Shixungileni Street, Windhoek. Tel. +264 (0)61 22 30 66 · Emergencia consular 24h: +264 85 128 0571 · emb.windhoek@maec.es. Es la única representación española propia entre Sudáfrica y Angol",
+   "q": [
+    "Embajada de España en Windhoek",
+    "Embassy of Spain Windhoek",
+    "Spain Embassy Windhoek"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Windhoek Central Hospital / Lady Pohamba Private Hospital",
+   "cat": "Hospital",
+   "lat": -22.575,
+   "lon": 17.0833,
+   "desc": "Windhoek Central, Lady Pohamba y Roman Catholic Hospital son referencias urbanas que deben confirmarse con el seguro antes de una derivación. Coordenada urbana aproximada.",
+   "q": [
+    "Windhoek Central Hospital / Lady Pohamba Private Hospital"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Cottage Medi-Clinic Swakopmund",
+   "cat": "Hospital",
+   "lat": -22.6783,
+   "lon": 14.5267,
+   "desc": "Clínica privada de Swakopmund; confirmar especialidad, admisión y cobertura con el seguro antes de acudir. Coordenada urbana aproximada.",
+   "q": [
+    "Cottage Medi-Clinic Swakopmund"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Oficina central de Namibia Wildlife Resorts (NWR), Windhoek",
+   "cat": "Servicio",
+   "lat": -22.57,
+   "lon": 17.085,
+   "desc": "NWR gestiona reservas de sus alojamientos y campings. Los permisos de parques y de zonas especiales corresponden al MEFT, que advierte expresamente que NWR no los expide. Los campings de Sesriem y Eto",
+   "q": [
+    "Oficina",
+    "Namibia Wildlife Resorts",
+    "Windhoek",
+    "Oficina central de Namibia Wildlife Resorts"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Oficina del MEFT en Swakopmund",
+   "cat": "Servicio",
+   "lat": -22.68,
+   "lon": 14.53,
+   "desc": "Punto donde se compran los permisos del Namib-Naukluft (incluido Sandwich Harbour y el Welwitschia Drive) y donde se confirma el estado de las pistas de la costa antes de salir.",
+   "q": [
+    "Oficina del MEFT",
+    "Swakopmund",
+    "Oficina del MEFT en Swakopmund"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Combustible · Windhoek / Swakopmund / Walvis Bay",
+   "cat": "Combustible",
+   "lat": -22.6783,
+   "lon": 14.5267,
+   "desc": "Mejor oferta y calidad del país (Engen, Puma, Total, Shell); diésel fiable. Repostar a fondo en las tres antes de los tramos largos del desierto y del noroeste.",
+   "q": [
+    "Windhoek",
+    "Swakopmund",
+    "Walvis Bay",
+    "Windhoek / Swakopmund / Walvis Bay"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Solitaire (eje a Sossusvlei)",
+   "cat": "Combustible",
+   "lat": -23.8667,
+   "lon": 16.0,
+   "desc": "Un surtidor, una panadería famosa por su tarta de manzana y coches oxidados en el jardín: el punto de repostaje formal del eje hacia Sossusvlei y un clásico de la ruta namibia. No depender de encontra",
+   "q": [
+    "Solitaire",
+    "Sossusvlei"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Keetmanshoop / Aus / Lüderitz (sur)",
+   "cat": "Combustible",
+   "lat": -26.5833,
+   "lon": 18.1333,
+   "desc": "Oferta fiable en el eje sur. Aus y Lüderitz son las últimas antes del desvío a la costa del Sperrgebiet.",
+   "q": [
+    "Keetmanshoop",
+    "Aus",
+    "Lüderitz",
+    "Keetmanshoop / Aus / Lüderitz"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Palmwag / Sesfontein / Opuwo (noroeste)",
+   "cat": "Combustible",
+   "lat": -19.8833,
+   "lon": 13.95,
+   "desc": "Opuwo es la principal base de banco, supermercado y taller antes de las pistas del Kaokoland. Palmwag y Sesfontein son candidatos de combustible, pero hay que confirmar existencias y entrar con autono",
+   "q": [
+    "Palmwag",
+    "Sesfontein",
+    "Opuwo",
+    "Palmwag / Sesfontein / Opuwo"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Terrace Bay y Mile 108 (Skeleton Coast)",
+   "cat": "Combustible",
+   "lat": -19.9833,
+   "lon": 13.0,
+   "desc": "Terrace Bay tiene surtidor pero reservado en la práctica a huéspedes del resort; Mile 108, en la costa al sur del parque, es el otro punto. No planificar el tramo contando con ninguno de los dos: entr",
+   "q": [
+    "Terrace Bay",
+    "Mile",
+    "Skeleton Coast",
+    "Terrace Bay y Mile 108"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Agua potable y de uso general · Windhoek, Swakopmund, Walvis Bay",
+   "cat": "Agua potable",
+   "lat": -22.5609,
+   "lon": 17.0658,
+   "desc": "El abastecimiento urbano y los campings son candidatos de recarga, no puntos verificados. No contar con ellos hasta comprobar potabilidad o uso permitido, acceso del vehículo, conexión, caudal, coste ",
+   "q": [
+    "Windhoek",
+    "Swakopmund",
+    "Walvis Bay"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Agua · campings de la NWR y del noroeste",
+   "cat": "Agua potable",
+   "lat": -19.8833,
+   "lon": 13.95,
+   "desc": "Etosha, Sesriem, Torra Bay, Terrace Bay, Opuwo y Sesfontein quedan como candidatos de recarga. No asumir disponibilidad, calidad ni permiso hasta la auditoría específica; entrar al Kaokoland con auton",
+   "q": [
+    "campings de la NWR y del noroeste"
+   ]
+  }
+ ]
+}

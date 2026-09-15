@@ -1,149 +1,134 @@
-# -*- coding: utf-8 -*-
-"""Consulta Photon y Wikidata para una auditoría GPS preparada.
+#!/usr/bin/env python3
+"""Consulta Photon y Wikidata y guarda las referencias de una auditoría GPS.
 
-Es la versión reproducible por línea de comandos del flujo histórico de
-``audit_geo_js.py``. Conserva el mismo esquema de salida para que
-``audit_geo_eval.py`` pueda evaluar los resultados sin cambios.
-
-Uso: python3 tools/gen/audit_geo_fetch.py <slug> [<slug> ...]
+Uso: python3 tools/gen/audit_geo_fetch.py <slug>
 """
+from __future__ import annotations
+
 import json
 import math
-import subprocess
+import ssl
 import sys
 import time
 import urllib.parse
+import urllib.request
 from pathlib import Path
+
+import certifi
 
 
 ROOT = Path(__file__).resolve().parents[2]
 GEO = ROOT / "audit" / "geo"
-UA = "Africa2027-coordinate-audit/1.0 (travel research; contact via project owner)"
-WD_LANGS = ("es", "fr", "en", "pt")
+CONTEXT = ssl.create_default_context(cafile=certifi.where())
+AGENT = "Africa2027-geo-audit/1.0 (route planning data verification)"
 
 
-def km(a, b, c, d):
-    r = math.pi / 180
-    x, y = (c - a) * r, (d - b) * r
-    h = math.sin(x / 2) ** 2 + math.cos(a * r) * math.cos(c * r) * math.sin(y / 2) ** 2
+def request(url: str) -> dict:
+    req = urllib.request.Request(url, headers={"User-Agent": AGENT})
+    with urllib.request.urlopen(req, timeout=30, context=CONTEXT) as response:
+        return json.load(response)
+
+
+def km(a: float, b: float, c: float, d: float) -> float:
+    rad = math.pi / 180
+    x, y = (c - a) * rad, (d - b) * rad
+    h = math.sin(x / 2) ** 2 + math.cos(a * rad) * math.cos(c * rad) * math.sin(y / 2) ** 2
     return 6371 * 2 * math.asin(math.sqrt(h))
 
 
-def get_json(url, attempts=3):
-    last = None
-    for attempt in range(attempts):
-        try:
-            raw = subprocess.check_output(
-                ["curl", "-sS", "-L", "--max-time", "20", "-A", UA, url],
-                text=True,
-                timeout=25,
-            )
-            return json.loads(raw)
-        except Exception as exc:
-            last = exc
-            time.sleep(0.5 * (attempt + 1))
-    raise last
-
-
-def in_box(lat, lon, bbox):
-    return not bbox or bbox[0] <= lon <= bbox[2] and bbox[1] <= lat <= bbox[3]
-
-
-def photon(query, item, bbox):
-    params = {"q": query, "limit": 6, "lat": item["lat"], "lon": item["lon"]}
-    if bbox:
-        params["bbox"] = ",".join(str(round(x, 2)) for x in bbox)
-    url = "https://photon.komoot.io/api/?" + urllib.parse.urlencode(params)
-    data = get_json(url)
+def photon(query: str, item: dict, bbox: list[float]) -> list[dict]:
+    params = urllib.parse.urlencode({
+        "q": query,
+        "limit": 6,
+        "lat": item["lat"],
+        "lon": item["lon"],
+        "bbox": ",".join(str(x) for x in bbox),
+    })
+    data = request("https://photon.komoot.io/api/?" + params)
     out = []
     for feature in data.get("features", []):
-        lat = round(float(feature["geometry"]["coordinates"][1]), 5)
-        lon = round(float(feature["geometry"]["coordinates"][0]), 5)
-        if not in_box(lat, lon, bbox):
+        lon, lat = feature["geometry"]["coordinates"]
+        if not (bbox[0] <= lon <= bbox[2] and bbox[1] <= lat <= bbox[3]):
             continue
         props = feature.get("properties", {})
         out.append({
             "n": props.get("name", ""),
             "k": props.get("osm_key"),
             "v": props.get("osm_value"),
-            "lat": lat,
-            "lon": lon,
+            "lat": round(lat, 5),
+            "lon": round(lon, 5),
             "d": round(km(item["lat"], item["lon"], lat, lon), 1),
         })
-    return out
+    return out[:3]
 
 
-def wikidata(query, item, bbox):
+def wikidata(query: str, item: dict, bbox: list[float]) -> list[dict]:
     ids = []
-    for language in WD_LANGS:
-        params = {
+    for language in ("es", "fr", "en", "pt"):
+        params = urllib.parse.urlencode({
             "action": "wbsearchentities", "search": query, "language": language,
             "format": "json", "limit": 4, "origin": "*",
-        }
-        data = get_json("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(params))
+        })
+        data = request("https://www.wikidata.org/w/api.php?" + params)
         ids.extend(row["id"] for row in data.get("search", []))
-        ids = list(dict.fromkeys(ids))
         if len(ids) >= 4:
             break
-    ids = ids[:6]
+    ids = list(dict.fromkeys(ids))[:6]
     if not ids:
         return []
-    params = {
+    params = urllib.parse.urlencode({
         "action": "wbgetentities", "ids": "|".join(ids),
         "props": "claims|labels|descriptions", "languages": "es|en|fr",
         "format": "json", "origin": "*",
-    }
-    data = get_json("https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode(params))
+    })
+    data = request("https://www.wikidata.org/w/api.php?" + params)
     out = []
     for entity in data.get("entities", {}).values():
         claims = entity.get("claims", {}).get("P625", [])
-        if not claims:
+        coords = [row.get("mainsnak", {}).get("datavalue", {}).get("value") for row in claims]
+        coords = [row for row in coords if row]
+        if not coords:
             continue
-        value = claims[0].get("mainsnak", {}).get("datavalue", {}).get("value")
-        if not value:
+        lat, lon = coords[0]["latitude"], coords[0]["longitude"]
+        if not (bbox[0] <= lon <= bbox[2] and bbox[1] <= lat <= bbox[3]):
             continue
-        lat, lon = round(float(value["latitude"]), 5), round(float(value["longitude"]), 5)
-        if not in_box(lat, lon, bbox):
-            continue
-        labels, descriptions = entity.get("labels", {}), entity.get("descriptions", {})
+        labels = entity.get("labels", {})
+        descriptions = entity.get("descriptions", {})
         label = next((labels.get(lang, {}).get("value") for lang in ("es", "en", "fr") if labels.get(lang)), entity["id"])
         desc = next((descriptions.get(lang, {}).get("value") for lang in ("es", "en", "fr") if descriptions.get(lang)), "")
         out.append({
             "id": entity["id"], "l": label, "t": desc,
-            "lat": lat, "lon": lon,
+            "lat": round(lat, 5), "lon": round(lon, 5),
             "d": round(km(item["lat"], item["lon"], lat, lon), 1),
         })
-    return out
+    return out[:2]
 
 
-def fetch_slug(slug):
-    prepared = json.loads((GEO / f"{slug}_queries.json").read_text(encoding="utf-8"))
-    bbox = prepared.get("bbox")
-    output = []
-    for number, item in enumerate(prepared["items"], 1):
-        ph, wd = [], []
+def main(slug: str) -> None:
+    data = json.loads((GEO / f"{slug}_queries.json").read_text(encoding="utf-8"))
+    rows = []
+    for item in data["items"]:
+        row = {"id": item["id"], "ph": [], "wd": []}
         for query in item["q"]:
             try:
-                ph = photon(query, item, bbox)
-            except Exception as exc:
-                ph = [{"err": str(exc)}]
-            if ph and "err" not in ph[0]:
+                row["ph"] = photon(query, item, data["bbox"])
+            except Exception as error:
+                row["ph"] = [{"err": f"{type(error).__name__}: {error}"}]
+            if row["ph"] and "err" not in row["ph"][0]:
                 break
         for query in item["q"][:2]:
             try:
-                wd = wikidata(query, item, bbox)
-            except Exception as exc:
-                wd = [{"err": str(exc)}]
-            if wd and "err" not in wd[0]:
+                row["wd"] = wikidata(query, item, data["bbox"])
+            except Exception as error:
+                row["wd"] = [{"err": f"{type(error).__name__}: {error}"}]
+            if row["wd"] and "err" not in row["wd"][0]:
                 break
-        output.append({"id": item["id"], "ph": ph[:3], "wd": wd[:2]})
-        print(f"{slug} {number}/{len(prepared['items'])} {item['id']}", flush=True)
-        time.sleep(0.15)
-    path = GEO / f"{slug}_ref.json"
-    path.write_text(json.dumps(output, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"{slug}: {len(output)} referencias -> {path}")
+        rows.append(row)
+        time.sleep(0.1)
+    target = GEO / f"{slug}_ref.json"
+    target.write_text(json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{slug}: {len(rows)} referencias -> {target}")
 
 
 if __name__ == "__main__":
-    for requested_slug in sys.argv[1:]:
-        fetch_slug(requested_slug)
+    main(sys.argv[1])

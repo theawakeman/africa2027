@@ -16,7 +16,7 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 6 | Uganda, Ruanda, Malaui | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con foto; 58 galerías | Pendiente |
 | 7 | Zimbabue, Botsuana, Sudáfrica | Cerrado | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 con foto; 44 galerías | Pendiente |
 | 8 | Esuatini, Lesoto | Cerrado | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 con foto; 36 galerías | Pendiente |
-| 9+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| 9 | Namibia | Cerrado | Cerrado: 24/24 | Cerrado: 24/24 | Cerrado: 24/24 | Cerrado: 24/24 con galería; 72 fotos | Pendiente |
 
 ## Línea de corte de la nueva pasada PDI
 
@@ -26,11 +26,10 @@ en esas tres columnas: se volverá a ellos en una pasada retroactiva.
 
 El detalle cuantitativo está en [`audit/pdi/grupo4.md`](pdi/grupo4.md),
 [`audit/pdi/grupo5.md`](pdi/grupo5.md), [`audit/pdi/grupo6.md`](pdi/grupo6.md),
-[`audit/pdi/grupo7.md`](pdi/grupo7.md) y [`audit/pdi/grupo8.md`](pdi/grupo8.md).
-Los grupos 4–8 ya cumplen el nuevo estándar en el contenido fuente. El grupo 9
-es, por tanto, el primer grupo completamente intacto. Al terminar los bloques
-pendientes se volverá a los grupos 1–3 para aplicarles exactamente el mismo
-criterio ampliado.
+[`audit/pdi/grupo7.md`](pdi/grupo7.md), [`audit/pdi/grupo8.md`](pdi/grupo8.md) y
+[`audit/pdi/grupo9.md`](pdi/grupo9.md). Los grupos 4–9 ya cumplen el nuevo
+estándar en el contenido fuente. La siguiente fase vuelve a los grupos 1–3 para
+aplicarles exactamente el mismo criterio ampliado.
 
 ## Criterio de cierre por PDI
 
@@ -58,3 +57,10 @@ criterio ampliado.
   portada entre tarjeta, globo y modal, y todos disponen de galería.
 - Agua para lavar/ducharse en el vehículo: auditoría específica pendiente para
   todos los países; no se dará por válido un grifo genérico sin acceso confirmado.
+- Corredor Congo–RD Congo: después de cerrar la pasada retroactiva de los grupos
+  1–3, sustituir el eje principal por Pointe-Noire → Cabinda → RD Congo en
+  bajada y subida, sin ferry. Brazzaville/Kinshasa se conservará solo como
+  alternativa secundaria. La tarea incluye mapa, corredores y la revisión
+  integral de las fichas de Congo y RD Congo, además de su coherencia con
+  Cabinda/Angola: fronteras, visados, vehículos, tiempos, costes y riesgos se
+  volverán a contrastar antes de publicar el cambio.
