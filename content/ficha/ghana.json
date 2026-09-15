@@ -228,11 +228,44 @@
       "info": "Oferta escasa e irregular en todo el eje Bole-Wenchi-Sampa: salir con depósitos y garrafas llenos de Tamale o Kumasi. POR CONFIRMAR sobre el terreno. Coordenada aproximada (Bole)."
     },
     {
-      "name": "Agua potable · Accra, Kumasi, Cape Coast, Tamale",
-      "cat": "Agua potable",
-      "lat": 5.5471,
-      "lon": -0.1942,
-      "info": "Agua embotellada y en sachet ('pure water') disponible absolutamente en todas partes y muy barata; sin problema de suministro en ningún punto del itinerario."
+      "name": "Agua de servicio · Organic Beach Resort (Elonyi)",
+      "cat": "Agua de servicio",
+      "lat": 4.9809,
+      "lon": -2.5628,
+      "info": "[AGUA Y DUCHA; DEPÓSITO CONDICIONAL] Camping activo con reseñas de 2026. El agua y la ducha son para clientes; acordar litros y método porque no consta llenado con manguera.",
+      "source": "https://park4night.com/en/place/473944"
+    },
+    {
+      "name": "Agua de servicio · grifo Benab Oil (Akumadan)",
+      "cat": "Agua de servicio",
+      "lat": 7.3927,
+      "lon": -1.9417,
+      "info": "[RECARGA DE DEPÓSITO PUBLICADA; NO POTABLE] Grifo tras la estación, frente a la mezquita. Punto de 2025 sin reseñas: comprobar funcionamiento y no bloquear.",
+      "source": "https://park4night.com/fr/place/601110"
+    },
+    {
+      "name": "Agua de servicio · grifos Benab Oil (Kintampo)",
+      "cat": "Agua de servicio",
+      "lat": 8.0771,
+      "lon": -1.7143,
+      "info": "[RECARGA DE DEPÓSITO PUBLICADA; NO POTABLE] Grifos de autoservicio a la derecha de la mezquita. Punto de 2025 sin reseñas: verificar antes de depender de él.",
+      "source": "https://park4night.com/en/place/601859"
+    },
+    {
+      "name": "Agua de servicio · grifo de gasolinera (Sawla)",
+      "cat": "Agua de servicio",
+      "lat": 9.2695,
+      "lon": -2.4084,
+      "info": "[RECARGA DE DEPÓSITO PUBLICADA] Grifo en la pared de la estación; boquilla no estándar. Punto de 2025 sin reseñas: llevar adaptadores y no asumir potabilidad.",
+      "source": "https://park4night.com/en/place/603058"
+    },
+    {
+      "name": "Agua de servicio · Wli Water Heights Hotel",
+      "cat": "Agua de servicio",
+      "lat": 7.1218,
+      "lon": 0.5868,
+      "info": "[AGUA Y DUCHAS; DEPÓSITO CONDICIONAL] Camping para vehículos con agua y sanitarios publicados. Ficha de 2025 sin reseñas: reservar y acordar litros, toma y acceso de los dos 4x4.",
+      "source": "https://park4night.com/en/place/625574"
     }
   ],
   "sources": [
@@ -407,6 +440,26 @@
     [
       "Tracks4Africa · cartografía, puntos overland y blog de viajeros por África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "park4night · Organic Beach Resort",
+      "https://park4night.com/en/place/473944"
+    ],
+    [
+      "park4night · grifo Benab Oil de Akumadan",
+      "https://park4night.com/fr/place/601110"
+    ],
+    [
+      "park4night · grifos Benab Oil de Kintampo",
+      "https://park4night.com/en/place/601859"
+    ],
+    [
+      "park4night · grifo de gasolinera de Sawla",
+      "https://park4night.com/en/place/603058"
+    ],
+    [
+      "park4night · Wli Water Heights Hotel",
+      "https://park4night.com/en/place/625574"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 15 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
@@ -432,7 +485,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Agua de boca: embotellada y en sachet («pure water», bolsitas de 500 ml muy baratas) disponible en absolutamente todo el itinerario, incluidos Larabanga y los pueblos del norte. Éste es de los países más fáciles de la ruta en este apartado.</li><li>Recarga del depósito de uso general (ducha, aseo, vajilla, limpieza): estaciones de servicio GOIL/TotalEnergies/Shell de Accra, Kumasi, Takoradi, Cape Coast y Tamale, y los guesthouses y alojamientos de playa (Busua, Ada Foah) y del escarpe de Mole permiten llenar con manguera; confirmar en recepción.</li><li>No beber del grifo en ningún punto del país. Filtrar o potabilizar el agua de recarga si se va a usar para cocinar.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada: sin ningún riesgo de gap de 500 km. Elubo → Takoradi (~120 km) → Cape Coast (~65 km) → Accra (~165 km) → Akosombo (~100 km) → Ada Foah (~110 km) → Aflao (~90 km), todo con estaciones formales de buena calidad (GOIL, TotalEnergies, Shell/Vivo, Star Oil).</li><li>Subida, tramo sur: Akanu → Ho (~50 km) → Hohoe (~70 km) → Koforidua (~200 km) → Kumasi (~150 km), con oferta formal en todos los núcleos; en los pueblos de montaña del Volta (Liati Wote, Amedzofe) no hay, así que repostar en Ho y Hohoe.</li><li>Subida, tramo norte: repostar A FONDO en Kumasi y de nuevo en Tamale. Tamale → Damongo/Larabanga (~150 km) con oferta formal pero irregular en Larabanga: llegar lleno y con garrafa de reserva.</li><li>Eje Bole-Wenchi-Sampa (salida final): el tramo con menos oferta de todo el itinerario ghanés. Salir con depósitos y garrafas llenos desde Tamale o Kumasi. POR CONFIRMAR sobre el terreno.</li><li>Ghana usa cedis, no francos CFA: es el primer país del tramo occidental fuera de la zona CFA. Hay cajeros operativos justo después de Elubo. No cargar cedis de más antes de salir hacia Togo, que vuelve al CFA.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: tres recargas publicadas y dos apoyos de higiene</h3><p>Se elimina el pin urbano de Accra y la promesa genérica atribuida a cadenas de gasolineras y alojamientos. Cada punto siguiente corresponde a una instalación física:</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Organic Beach Resort, Elonyi · 4.980900, -2.562800</td><td><strong>Agua y ducha para clientes; depósito condicionado.</strong> El camping acepta vehículos y publica agua, aseo y ducha. Cuatro reseñas, dos de 2026, mantienen activo el lugar, pero ninguna promete manguera o depósito completo. <a href=\"https://park4night.com/en/place/473944\" target=\"_blank\" rel=\"noopener\">ficha, reseñas y GPS</a></td><td>Buen apoyo al entrar desde Costa de Marfil. Consumir o pagar la estancia y acordar litros y método antes de sacar la manguera.</td></tr><tr><td>Grifo Benab Oil, Akumadan · 7.392700, -1.941700</td><td><strong>Recarga de depósito publicada; agua no potable.</strong> Grifo en la parte trasera de la estación, frente a la pequeña mezquita. Punto creado en junio de 2025 y todavía sin reseñas. <a href=\"https://park4night.com/fr/place/601110\" target=\"_blank\" rel=\"noopener\">ficha y coordenadas</a></td><td>Usarlo solo como agua de servicio, comprobar que funciona y no bloquear la estación. Tratar si entra en el circuito de cocina.</td></tr><tr><td>Grifos Benab Oil, Kintampo · 8.077100, -1.714300</td><td><strong>Recarga de depósito publicada; agua no potable.</strong> Grifos a la derecha de la mezquita, descritos como autoservicio y aptos para el depósito del vehículo. Sin reseñas. <a href=\"https://park4night.com/en/place/601859\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>Anclaje del eje Kumasi–Tamale. Confirmar operatividad y reservar Akumadan como alternativa, no como garantía simultánea.</td></tr><tr><td>Grifo de gasolinera, Sawla · 9.269500, -2.408400</td><td><strong>Recarga de depósito publicada.</strong> Grifo en la pared de la estación; el autor avisa de que la boquilla no es estándar. Punto de junio de 2025 sin historial de reseñas. <a href=\"https://park4night.com/en/place/603058\" target=\"_blank\" rel=\"noopener\">ficha y coordenadas</a></td><td>Llevar adaptador universal y garrafa. No asumir potabilidad ni disponibilidad hasta comprobar el grifo in situ.</td></tr><tr><td>Wli Water Heights Hotel, Likpe Bakwa · 7.121800, 0.586800</td><td><strong>Agua y ducha para huéspedes; depósito condicionado.</strong> Camping para vehículos con agua, aseos y duchas señalados, próximo a Wli. Ficha de agosto de 2025 sin reseñas. <a href=\"https://park4night.com/en/place/625574\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>Reservar con Marta y preguntar si los dos 4x4 entran, cuántos litros pueden suministrar y desde qué toma.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>El corredor interior dispone de tres puntos que publican llenado de depósito, pero los tres son recientes y sin reseñas: comprobar uno antes de consumir la reserva del anterior.</li><li>Accra, Cape Coast, Kumasi y Tamale quedan sin pin: comprar agua sellada es fácil, pero no se ha acreditado una toma vehicular exacta.</li><li>Organic Beach y Wli resuelven ducha y posible agua por acuerdo; no sustituyen una recarga confirmada.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada: sin ningún riesgo de gap de 500 km. Elubo → Takoradi (~120 km) → Cape Coast (~65 km) → Accra (~165 km) → Akosombo (~100 km) → Ada Foah (~110 km) → Aflao (~90 km), todo con estaciones formales de buena calidad (GOIL, TotalEnergies, Shell/Vivo, Star Oil).</li><li>Subida, tramo sur: Akanu → Ho (~50 km) → Hohoe (~70 km) → Koforidua (~200 km) → Kumasi (~150 km), con oferta formal en todos los núcleos; en los pueblos de montaña del Volta (Liati Wote, Amedzofe) no hay, así que repostar en Ho y Hohoe.</li><li>Subida, tramo norte: repostar A FONDO en Kumasi y de nuevo en Tamale. Tamale → Damongo/Larabanga (~150 km) con oferta formal pero irregular en Larabanga: llegar lleno y con garrafa de reserva.</li><li>Eje Bole-Wenchi-Sampa (salida final): el tramo con menos oferta de todo el itinerario ghanés. Salir con depósitos y garrafas llenos desde Tamale o Kumasi. POR CONFIRMAR sobre el terreno.</li><li>Ghana usa cedis, no francos CFA: es el primer país del tramo occidental fuera de la zona CFA. Hay cajeros operativos justo después de Elubo. No cargar cedis de más antes de salir hacia Togo, que vuelve al CFA.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

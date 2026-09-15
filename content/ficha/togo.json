@@ -203,18 +203,28 @@
       "info": "Última plaza con oferta razonable antes de la frontera de Wli y de las pistas de montaña de Klouto y Agou; la oferta en las aldeas de la sierra es nula."
     },
     {
-      "name": "Agua potable y de uso general · Lomé",
-      "cat": "Agua potable",
-      "lat": 6.1319,
-      "lon": 1.2228,
-      "info": "Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Lomé permiten llenar el depósito de uso general con manguera."
+      "name": "Agua de servicio · Coco Beach Chez Antoine",
+      "cat": "Agua de servicio",
+      "lat": 6.1666,
+      "lon": 1.3465,
+      "info": "[AGUA Y DUCHAS; DEPÓSITO CONDICIONAL] Camping para vehículos con servicios publicados. Punto de 2025 sin reseñas: llamar y acordar litros; el icono de agua no prueba llenado libre.",
+      "source": "https://park4night.com/en/place/605423"
     },
     {
-      "name": "Agua potable y de uso general · Kara y Kpalimé",
-      "cat": "Agua potable",
-      "lat": 9.5511,
-      "lon": 1.1861,
-      "info": "Hoteles con aparcamiento en Kara y Kpalimé permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada."
+      "name": "Agua de servicio · GoldenEye (Kpélé Élé)",
+      "cat": "Agua de servicio",
+      "lat": 7.2454,
+      "lon": 0.7669,
+      "info": "[AGUA Y DUCHAS; DEPÓSITO CONDICIONAL] Camping para vehículos con agua y sanitarios indicados. Ficha de 2025 sin reseñas: confirmar litros, toma y acceso antes de desviarse.",
+      "source": "https://park4night.com/fr/place/625580"
+    },
+    {
+      "name": "Agua de servicio · grifo TotalEnergies (Mango)",
+      "cat": "Agua de servicio",
+      "lat": 10.3387,
+      "lon": 0.4693,
+      "info": "[RECARGA DE DEPÓSITO PUBLICADA] Grifo al fondo de la estación de la N1. Punto de 2025 sin reseñas: comprobar servicio, pedir permiso y tratar el agua.",
+      "source": "https://park4night.com/en/place/605265"
     }
   ],
   "sources": [
@@ -329,6 +339,18 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "park4night · Coco Beach Chez Antoine",
+      "https://park4night.com/en/place/605423"
+    ],
+    [
+      "park4night · GoldenEye, Kpélé Élé",
+      "https://park4night.com/fr/place/625580"
+    ],
+    [
+      "park4night · grifo TotalEnergies de Mango",
+      "https://park4night.com/en/place/605265"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 15 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. La situación de seguridad del norte de Togo es dinámica: revalidarla obligatoriamente antes de cada entrada.",
@@ -354,7 +376,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Lomé, Aného, Kara, Sokodé, Atakpamé y Kpalimé: agua embotellada en supermercados y tiendas sin problema de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): estaciones de servicio de Lomé y los hoteles con aparcamiento de Kara, Sokodé y Kpalimé permiten llenar el depósito con manguera; confirmar en recepción.</li><li>En las aldeas del corredor interior (Bassar, Fazao, Nadoba, Badou) no contar con recarga: salir con el depósito lleno desde Kara, Sokodé o Kpalimé según el tramo.</li><li>Nunca beber de la red pública ni de pozos sin tratar en ningún punto del país.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada: sin ningún riesgo de gap — Aflao → Lomé (~5 km) → Baguida (~12 km) → Agbodrafo (~33 km) → Aného (~15 km) → Hillacondji (~7 km), todos con estaciones formales. Repostar a fondo en Lomé, que es donde mejor está el combustible.</li><li>Subida: tampoco hay gap de 500 km en el eje N1 — Ouaké/Kara (~90 km) → Bafilo/Aledjo (~45 km) → Sokodé (~55 km) → Atakpamé (~160 km) → Badou (~90 km) → Kpalimé (~90 km) → frontera de Wli (~40 km). El tramo más largo sin servicios reales es Sokodé-Atakpamé.</li><li>Los desvíos SÍ exigen autonomía propia: Bassar y las aldeas de los hornos, el bucle de Fazao-Malfakassa y la subida a Koutammakou no tienen oferta fiable. Salir con el depósito lleno desde Sokodé o Kara y llevar garrafas.</li><li>Calidad irregular fuera de las ciudades: evitar el combustible callejero en botellas («boutique de bidons»), muy extendido en Togo y de calidad impredecible.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: una recarga y dos apoyos condicionados</h3><p>Se retiran los pines genéricos de Lomé, Kara y Kpalimé y el permiso supuesto en hoteles y gasolineras. Los tres puntos aceptados identifican el recinto y el alcance real:</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Coco Beach Chez Antoine, Lomé · 6.166600, 1.346500</td><td><strong>Agua y duchas para clientes; depósito condicionado.</strong> Camping de playa para vehículos con agua, aseos y duchas señalados. Creado en julio de 2025, sin reseñas. <a href=\"https://park4night.com/en/place/605423\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>Llamar antes, confirmar firme para los dos coches y negociar una cantidad concreta. No interpretar el icono de agua como llenado libre.</td></tr><tr><td>GoldenEye, Kpélé Élé · 7.245400, 0.766900</td><td><strong>Agua y duchas para huéspedes; depósito condicionado.</strong> Camping de vehículos junto al recinto, con agua, aseos y ducha indicados. Ficha de agosto de 2025 sin reseñas. <a href=\"https://park4night.com/fr/place/625580\" target=\"_blank\" rel=\"noopener\">ficha y coordenadas</a></td><td>Útil antes del corredor occidental. Confirmar acceso, litros, toma y tratamiento; no llegar con el depósito agotado.</td></tr><tr><td>Grifo TotalEnergies, Mango · 10.338700, 0.469300</td><td><strong>Recarga de depósito publicada.</strong> Grifo al fondo de la estación de la N1, descrito expresamente como apto para llenar el vehículo. Punto de julio de 2025 sin reseñas. <a href=\"https://park4night.com/en/place/605265\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>Es la única recarga explícita del grupo togolés: verificar que sigue operativa, pedir permiso en caja y tratar el agua.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>En bajada, Coco Beach solo debe contarse como ducha y recarga negociada; entrar desde Ghana con margen.</li><li>En subida, completar en Mango antes de desviarse a Koutammakou; GoldenEye es respaldo condicionado para el oeste.</li><li>Kara, Sokodé, Atakpamé, Badou y Kpalimé quedan sin pin porque no se localizó una toma vehicular exacta que justifique la antigua promesa.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada: sin ningún riesgo de gap — Aflao → Lomé (~5 km) → Baguida (~12 km) → Agbodrafo (~33 km) → Aného (~15 km) → Hillacondji (~7 km), todos con estaciones formales. Repostar a fondo en Lomé, que es donde mejor está el combustible.</li><li>Subida: tampoco hay gap de 500 km en el eje N1 — Ouaké/Kara (~90 km) → Bafilo/Aledjo (~45 km) → Sokodé (~55 km) → Atakpamé (~160 km) → Badou (~90 km) → Kpalimé (~90 km) → frontera de Wli (~40 km). El tramo más largo sin servicios reales es Sokodé-Atakpamé.</li><li>Los desvíos SÍ exigen autonomía propia: Bassar y las aldeas de los hornos, el bucle de Fazao-Malfakassa y la subida a Koutammakou no tienen oferta fiable. Salir con el depósito lleno desde Sokodé o Kara y llevar garrafas.</li><li>Calidad irregular fuera de las ciudades: evitar el combustible callejero en botellas («boutique de bidons»), muy extendido en Togo y de calidad impredecible.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

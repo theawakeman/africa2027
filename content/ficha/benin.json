@@ -204,25 +204,28 @@
       "info": "Última plaza con combustible formal antes de salir a Togo por Ouaké. Llenar depósitos y garrafas aquí."
     },
     {
-      "name": "Agua potable y de uso general · Cotonú",
-      "cat": "Agua potable",
-      "lat": 6.3703,
-      "lon": 2.3912,
-      "info": "Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Cotonú y Ouidah permiten llenar el depósito de uso general con manguera."
+      "name": "Agua de servicio · Hôtel Awalé Plage (Grand-Popo)",
+      "cat": "Agua de servicio",
+      "lat": 6.2696,
+      "lon": 1.7876,
+      "info": "[AGUA, DUCHAS Y LAVADO; DEPÓSITO CONDICIONAL] Camping de hotel con reseña de marzo de 2026. Usar la zona firme; pedir al guardia litros y toma concreta.",
+      "source": "https://park4night.com/fr/place/612332"
     },
     {
-      "name": "Agua potable y de uso general · Possotomé (lago Ahémé)",
-      "cat": "Agua potable",
-      "lat": 6.45,
-      "lon": 1.9833,
-      "info": "Albergue y camping comunitario de Eco-Bénin a orillas del lago, con agua corriente; además, fuentes de agua mineral explotadas desde 1952 en el propio pueblo."
+      "name": "Agua de servicio · Domaine de la Palmeraie (Ouidah)",
+      "cat": "Agua de servicio",
+      "lat": 6.3453,
+      "lon": 2.0887,
+      "info": "[AGUA Y DUCHAS; DEPÓSITO CONDICIONAL] Dos plazas en recinto cerrado con servicios publicados. Ficha de 2025 sin reseñas: reservar y confirmar acceso, litros y caudal.",
+      "source": "https://park4night.com/fr/place/610713"
     },
     {
-      "name": "Agua potable y de uso general · Dassa y Djougou",
-      "cat": "Agua potable",
-      "lat": 7.75,
-      "lon": 2.1833,
-      "info": "Hoteles con aparcamiento en ambas ciudades permiten normalmente la recarga del depósito de uso general; confirmar en recepción. Agua de boca siempre embotellada o tratada."
+      "name": "Agua de servicio · Auberge Chez Monique (Abomey)",
+      "cat": "Agua de servicio",
+      "lat": 7.1977,
+      "lon": 1.9804,
+      "info": "[AGUA, DUCHA Y LAVADO; DEPÓSITO CONDICIONAL] Patio para cuatro vehículos y bungalow sanitario. La fuente no promete llenado: acordarlo aparte y tratar el agua.",
+      "source": "https://park4night.com/fr/place/608956"
     }
   ],
   "sources": [
@@ -333,6 +336,18 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "park4night · Hôtel Awalé Plage",
+      "https://park4night.com/fr/place/612332"
+    ],
+    [
+      "park4night · Domaine de la Palmeraie",
+      "https://park4night.com/fr/place/610713"
+    ],
+    [
+      "park4night · Auberge Chez Monique",
+      "https://park4night.com/fr/place/608956"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 15 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. La situación de seguridad del norte de Benín es dinámica y ha empeorado de forma sostenida desde 2021: revalidarla obligatoriamente antes de cada entrada.",
@@ -358,7 +373,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Cotonú, Ouidah, Porto-Novo, Abomey/Bohicon, Dassa y Djougou: agua embotellada en supermercados y tiendas sin problema de suministro.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): estaciones de servicio de Cotonú y hoteles con aparcamiento de Ouidah, Bohicon, Dassa y Djougou permiten llenar el depósito con manguera; confirmar en recepción.</li><li>Possotomé (lago Ahémé): albergue y camping comunitario de Eco-Bénin con agua corriente, y fuentes de agua mineral explotadas desde 1952 en el propio pueblo — el mejor punto de recarga del corredor costero.</li><li>Nunca beber de la red pública ni de pozos sin tratar en ningún punto del país.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada: sin ningún riesgo de gap — Hillacondji → Grand-Popo (~10 km) → Possotomé (~45 km) → Ouidah (~50 km) → Cotonú (~40 km) → Porto-Novo (~35 km) → Sèmè-Kraké (~30 km), todos con estaciones formales. Repostar a fondo en Cotonú.</li><li>Subida: tampoco hay gap de 500 km — Ilara/Kétou → Savè (~140 km) → Dassa (~50 km) → Bohicon/Abomey (~70 km) → Savalou (~90 km) → Bassila (~130 km) → Djougou (~80 km) → Ouaké (~37 km). Los tramos más largos sin nada son Kétou-Savè y Savalou-Bassila.</li><li>Los desvíos SÍ exigen autonomía propia: montes Kouffé, pistas de las Collines y Bouche du Roy no tienen oferta fiable. Salir con el depósito lleno desde Bohicon, Dassa o Djougou según el tramo.</li><li>NO usar el combustible «kpayo» de garrafa que se vende al borde de la carretera en todo el país: es contrabando nigeriano, barato y de calidad impredecible, con frecuencia adulterado. Solo estaciones de marca (Total, Oryx, MRS, Petro Ivoire).</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: tres alojamientos concretos, ninguna recarga libre</h3><p>Se eliminan los pines de Cotonú, Possotomé y Dassa/Djougou y la afirmación de que hoteles o estaciones permiten manguera por sistema. Los apoyos documentados son para clientes:</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Hôtel Awalé Plage, Grand-Popo · 6.269600, 1.787600</td><td><strong>Agua, duchas y lavandería señaladas; depósito condicionado.</strong> Camping en el recinto del hotel con una reseña positiva de marzo de 2026. El acceso a playa es arenoso y solo 4x4; el área interior está sombreada y cerrada. <a href=\"https://park4night.com/fr/place/612332\" target=\"_blank\" rel=\"noopener\">ficha, reseña y GPS</a></td><td>Quedarse en la zona firme y pedir al guardia una toma y volumen concretos. No confundir los servicios del hotel con una estación camper.</td></tr><tr><td>Domaine de la Palmeraie, Ouidah · 6.345300, 2.088700</td><td><strong>Agua y ducha para huéspedes; depósito condicionado.</strong> Dos plazas para vehículos en recinto cerrado, sombreado y vigilado; agua, aseos y ducha constan en la ficha de julio de 2025, sin reseñas. <a href=\"https://park4night.com/fr/place/610713\" target=\"_blank\" rel=\"noopener\">ficha y coordenadas</a></td><td>Reservar porque solo hay dos plazas. Preguntar por litros, caudal y acceso de cada coche; no depender de una llegada improvisada.</td></tr><tr><td>Auberge Chez Monique, Abomey · 7.197700, 1.980400</td><td><strong>Agua, ducha y lavado para clientes; depósito condicionado.</strong> Patio cerrado con cuatro plazas, bungalow con ducha y aseo y posibilidad de lavar. Ficha de julio de 2025 sin reseñas. <a href=\"https://park4night.com/fr/place/608956\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>Buen apoyo interior para higiene y lavandería. Acordar por separado cualquier llenado del depósito y tratar el agua.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Los tres puntos requieren estancia o autorización; ninguno acredita manguera o depósito completo.</li><li>Possotomé deja de presentarse como «mejor recarga»: una fuente mineral o agua corriente del alojamiento no demuestra acceso del coche a una toma.</li><li>Cotonú, Porto-Novo, Dassa y Djougou quedan sin pin de agua. Concertar el volumen antes de los desvíos y mantener reserva redundante.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada: sin ningún riesgo de gap — Hillacondji → Grand-Popo (~10 km) → Possotomé (~45 km) → Ouidah (~50 km) → Cotonú (~40 km) → Porto-Novo (~35 km) → Sèmè-Kraké (~30 km), todos con estaciones formales. Repostar a fondo en Cotonú.</li><li>Subida: tampoco hay gap de 500 km — Ilara/Kétou → Savè (~140 km) → Dassa (~50 km) → Bohicon/Abomey (~70 km) → Savalou (~90 km) → Bassila (~130 km) → Djougou (~80 km) → Ouaké (~37 km). Los tramos más largos sin nada son Kétou-Savè y Savalou-Bassila.</li><li>Los desvíos SÍ exigen autonomía propia: montes Kouffé, pistas de las Collines y Bouche du Roy no tienen oferta fiable. Salir con el depósito lleno desde Bohicon, Dassa o Djougou según el tramo.</li><li>NO usar el combustible «kpayo» de garrafa que se vende al borde de la carretera en todo el país: es contrabando nigeriano, barato y de calidad impredecible, con frecuencia adulterado. Solo estaciones de marca (Total, Oryx, MRS, Petro Ivoire).</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
