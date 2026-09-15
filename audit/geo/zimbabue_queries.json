@@ -1,0 +1,590 @@
+{
+ "slug": "zimbabue",
+ "bbox": [
+  24.9,
+  -22.8,
+  33.4,
+  -15.299999999999999
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Christmas Pass · mirador de Mutare",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -18.9508857,
+   "lon": 32.6472909,
+   "desc": "El paso montañoso que abre la vista sobre Mutare es una parada breve y una buena lectura del cambio de paisaje al entrar desde Mozambique.",
+   "q": [
+    "Christmas Pass Mutare Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Vumba Botanical Garden",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -19.1189518,
+   "lon": 32.7829751,
+   "desc": "Jardín botánico de montaña en los Bvumba, con bosque húmedo, grandes árboles y notable avifauna. No representa todos los montes ni da acceso automático a fincas privadas.",
+   "q": [
+    "Vumba Botanical Garden Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Monte Nyangani · cumbre",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -18.2955556,
+   "lon": 32.8419444,
+   "desc": "La cumbre más alta de Zimbabue es una caminata de montaña dentro de Nyanga National Park. El pin marca la cima, no el aparcamiento ni una ruta de conducción.",
+   "q": [
+    "Mount Nyangani summit Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Mtarazi Falls · mirador",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -18.4862536,
+   "lon": 32.79376,
+   "desc": "Mirador sobre Mtarazi Falls y el valle de Honde, dentro del área de Nyanga. La altura y el vacío exigen permanecer en estructuras y senderos autorizados.",
+   "q": [
+    "Mtarazi Falls Viewpoint Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Ziwa Site Museum y terrazas",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -18.1447587,
+   "lon": 32.6355953,
+   "desc": "Ziwa conserva recintos, muros, terrazas y estructuras excavadas que explican el paisaje agrícola histórico de Nyanga. Es un sitio arqueológico, no una reconstrucción completa.",
+   "q": [
+    "Ziwa Site Museum Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Chimanimani · oficina del parque",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -19.8050464,
+   "lon": 32.8704041,
+   "desc": "La oficina del parque en Chimanimani es el ancla operativa para registrar rutas de varios días por montañas remotas. No se presenta el pin como refugio ni como cumbre.",
+   "q": [
+    "Chimanimani National Park Office Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Great Zimbabwe National Monument",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -20.2714635,
+   "lon": 30.9327465,
+   "desc": "Capital medieval de piedra seca y principal conjunto arqueológico del país, con complejo de la colina, Gran Recinto y ruinas del valle.",
+   "q": [
+    "Great Zimbabwe National Monument"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Lake Mutirikwi Recreational Park",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -20.1968115,
+   "lon": 30.9993953,
+   "desc": "Área recreativa en la orilla de Lake Mutirikwi, separada de la ciudad de Masvingo y del monumento de Great Zimbabwe. Sirve como pausa lacustre y base de descanso.",
+   "q": [
+    "Lake Mutirikwi Recreational Park Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Chilojo Cliffs · Gonarezhou",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -21.4435821,
+   "lon": 32.0852065,
+   "desc": "Muralla de arenisca roja sobre el río Runde, dentro de Gonarezhou. La ficha se ancla en el mirador real de Chilojo, no en el centro del parque.",
+   "q": [
+    "Chilojo Cliffs Gonarezhou Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Natural History Museum · Bulawayo",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -20.1557888,
+   "lon": 28.59648,
+   "desc": "Museo de historia natural de Bulawayo con colecciones zoológicas, geológicas y arqueológicas; convierte la parada urbana en una visita concreta.",
+   "q": [
+    "Natural History Museum of Zimbabwe Bulawayo"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Matobo Hills · World’s View",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -20.4937625,
+   "lon": 28.5137344,
+   "desc": "World’s View ocupa una cumbre sagrada de Matobo y contiene la tumba de Cecil Rhodes, figura colonial controvertida. El paisaje y la memoria viva requieren una lectura crítica y respetuosa.",
+   "q": [
+    "World's View Matobo Zimbabwe",
+    "Grave of Cecil Rhodes Matobo"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Khami World Heritage Site",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Media",
+   "lat": -20.1428081,
+   "lon": 28.4232472,
+   "desc": "Khami conserva plataformas aterrazadas y muros decorados de piedra seca posteriores al auge de Great Zimbabwe. Suele requerir menos tiempo y recibe menos visitantes.",
+   "q": [
+    "Khami World Heritage Site Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Hwange National Park · Main Camp",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -18.7307301,
+   "lon": 26.951897,
+   "desc": "Main Camp es la puerta práctica al sector oriental de Hwange y a sus circuitos de pozas. La ficha no promete cifras de fauna ni avistamientos concretos.",
+   "q": [
+    "Hwange Main Camp Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Victoria Falls · entrada principal",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -17.9248762,
+   "lon": 25.847138,
+   "desc": "La entrada principal del lado zimbabuense da acceso al sendero de miradores del bosque lluvioso frente a Victoria Falls. Caudal y spray cambian mucho según la estación.",
+   "q": [
+    "Victoria Falls Main Entrance Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Victoria Falls Bridge",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -17.9284388,
+   "lon": 25.857203,
+   "desc": "Puente histórico y fronterizo sobre la segunda garganta, con vistas al Batoka y al spray de las cataratas. Cruzarlo implica controles internacionales, aunque se visite solo el puente.",
+   "q": [
+    "Victoria Falls Bridge Zimbabwe Zambia"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Zambezi National Park",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -17.9782777,
+   "lon": 25.7101789,
+   "desc": "Parque ribereño aguas arriba de Victoria Falls, útil para un safari corto desde la ciudad. El pin marca el objeto del parque; puerta y actividad se confirman al reservar.",
+   "q": [
+    "Zambezi National Park Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "National Gallery of Zimbabwe · Harare",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -17.8249306,
+   "lon": 31.0490431,
+   "desc": "Galería nacional de Harare con arte moderno y contemporáneo de Zimbabue y la región. Es una visita cultural concreta dentro de una escala principalmente logística.",
+   "q": [
+    "National Gallery of Zimbabwe Harare"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Domboshawa · roca y pinturas",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -17.6105758,
+   "lon": 31.1733842,
+   "desc": "Afloramiento granítico visitable cerca de Harare con vistas y pinturas rupestres en abrigo. Sustituye la mezcla anterior con Epworth: esta ficha trata solo Domboshawa.",
+   "q": [
+    "Domboshawa Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Chinhoyi Caves · Sleeping Pool",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -17.3563676,
+   "lon": 30.1299654,
+   "desc": "Sistema de cavidades con el intenso azul del Sleeping Pool, accesible por escaleras dentro de un parque recreativo. Profundidad y buceo no deben tratarse como actividad casual.",
+   "q": [
+    "Sleeping Pool Chinhoyi Caves Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Mana Pools · base de Nyamepi",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -15.7196224,
+   "lon": 29.3697596,
+   "desc": "Nyamepi es la base principal de la llanura aluvial de Mana Pools. El pin se ha fijado en un campsite operativo y no en un punto genérico del parque.",
+   "q": [
+    "Nyamepi campsite Mana Pools Zimbabwe"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Kariba Dam",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -16.5221068,
+   "lon": 28.7616692,
+   "desc": "La presa de Kariba cruza el Zambeze y explica el enorme embalse compartido por Zimbabue y Zambia. Es infraestructura crítica y el acceso puede cambiar.",
+   "q": [
+    "Kariba Dam Zimbabwe Zambia"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "Chizarira · Mucheni Gorge Viewpoint",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -17.6460745,
+   "lon": 27.8769037,
+   "desc": "Mucheni Gorge Viewpoint permite leer la gran escarpa de Chizarira desde un punto concreto. El aislamiento del parque es parte del atractivo y del riesgo logístico.",
+   "q": [
+    "Mucheni Gorge Viewpoint Chizarira Zimbabwe"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · ENTRADA — Forbes/Machipanda (desde Mozambique)",
+   "cat": "Frontera",
+   "lat": -19.0053,
+   "lon": 32.7125,
+   "desc": "Nuestra entrada, a 8 km de Mutare sobre la carretera de Beira: el gran corredor económico Harare-Beira, con muchísimo camión pesado y congestión habitual. Las fuentes de referencia siguen publicando h",
+   "q": [
+    "Forbes",
+    "Machipanda",
+    "Mozambique"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · SALIDA — Kazungula carretera (hacia Botsuana)",
+   "cat": "Frontera",
+   "lat": -17.795,
+   "lon": 25.26,
+   "desc": "Nuestra salida elegida, a unos 70 km de la ciudad de Victoria Falls: horario 06:00-20:00, desemboca directamente en Kasane (Botsuana), a las puertas de Chobe. OJO con la confusión de nombres: el PUENT",
+   "q": [
+    "Kazungula",
+    "Botsuana"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · SALIDA alternativa — Plumtree/Ramokgwebana (hacia Botsuana)",
+   "cat": "Frontera",
+   "lat": -20.4833,
+   "lon": 27.7833,
+   "desc": "La otra opción, descartada como principal: 10,2 km al suroeste de Plumtree sobre la A7, horario 06:00-22:00 todos los días incluidos festivos, y deja en Francistown. Tasas documentadas por Tracks4Afri",
+   "q": [
+    "Plumtree",
+    "Ramokgwebana",
+    "Botsuana"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Beitbridge (hacia Sudáfrica) — NO la usamos",
+   "cat": "Frontera",
+   "lat": -22.2167,
+   "lon": 30.0,
+   "desc": "El paso más transitado de la región y, según las guías de autoconducción, el más lento: dos o tres horas en hora punta. NO está en nuestro trazado —de Zimbabue salimos a Botsuana—, pero queda document",
+   "q": [
+    "Beitbridge",
+    "Sudáfrica"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Chirundu y la coronación de la presa de Kariba (hacia Zambia) — no la usamos",
+   "cat": "Frontera",
+   "lat": -16.0333,
+   "lon": 28.85,
+   "desc": "Dos pasos hacia Zambia en la variante norte que NO usamos porque Zambia se visitó meses antes: Chirundu (ventanilla única, mucho camión) y el paso peatonal y de vehículos sobre la coronación de la pre",
+   "q": [
+    "Chirundu",
+    "Kariba",
+    "Zambia"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Embajada de España en Harare",
+   "cat": "Consular",
+   "lat": -17.81,
+   "lon": 31.05,
+   "desc": "16 Phillips Ave., Belgravia, P.O. Box 3300, Harare. Tel. +263 (0)242 250740/1 · Emergencia consular: +263 (0)772 436 620 · emb.harare@maec.es. Competente también para Zambia y Malaui. Única representa",
+   "q": [
+    "Embajada de España en Harare",
+    "Embassy of Spain Harare",
+    "Spain Embassy Harare"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Hospitales privados de Harare (Avenues, Baines Avenue)",
+   "cat": "Hospital",
+   "lat": -17.82,
+   "lon": 31.045,
+   "desc": "Referencia sanitaria nacional y la mejor del país; relevante sobre todo para la variante norte (Mana Pools, Kariba). Para casos graves, la práctica regional es la evacuación a Sudáfrica.",
+   "q": [
+    "Hospitales privados de Harare",
+    "es privados de Harare"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Mater Dei Hospital, Bulawayo",
+   "cat": "Hospital",
+   "lat": -20.15,
+   "lon": 28.5833,
+   "desc": "Hospital privado de referencia del sur y el más cercano a Matobo, Khami, Hwange y Gran Zimbabue. Es el centro serio del eje principal.",
+   "q": [
+    "Mater Dei Hospital, Bulawayo"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Hospital provincial de Mutare",
+   "cat": "Hospital",
+   "lat": -18.9707,
+   "lon": 32.6709,
+   "desc": "Primer hospital al entrar desde Mozambique y la referencia de las Eastern Highlands (Bvumba, Nyanga, Chimanimani). Para un accidente de montaña en el Nyangani o en Chimanimani, el rescate es terrestre",
+   "q": [
+    "Hospital provincial de Mutare",
+    "provincial de Mutare"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Clínica privada de Victoria Falls",
+   "cat": "Hospital",
+   "lat": -17.93,
+   "lon": 25.83,
+   "desc": "Clínica orientada al turismo de aventura en la zona de las cataratas, con experiencia en traumatología de actividades. Último recurso sanitario antes de Botsuana.",
+   "q": [
+    "Clínica privada de Victoria Falls"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Mutare, Masvingo, Bulawayo, Harare, Victoria Falls",
+   "cat": "Combustible",
+   "lat": -20.15,
+   "lon": 28.5833,
+   "desc": "Estaciones formales de marca (Puma, Total, Zuva, Engen) en todas las ciudades del eje. Desde que la venta se hace en dólares, el suministro es CONSISTENTE y han desaparecido las colas y el racionamien",
+   "q": [
+    "Mutare",
+    "Masvingo",
+    "Bulawayo",
+    "Harare",
+    "Victoria Falls"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Chiredzi (puerta de Gonarezhou)",
+   "cat": "Combustible",
+   "lat": -21.05,
+   "lon": 31.6667,
+   "desc": "Último suministro antes de Gonarezhou: dentro del parque no hay nada y los accesos a Chipinda Pools y a Chilojo son arena. Entrar con depósitos y garrafas llenos y con autonomía para todo el circuito.",
+   "q": [
+    "Chiredzi",
+    "Gonarezhou"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Hwange Main Camp y Dete",
+   "cat": "Combustible",
+   "lat": -18.6167,
+   "lon": 26.85,
+   "desc": "Main Camp de Hwange tiene combustible y tienda, pero no es fiable al 100 %: repostar en Hwange pueblo, en Dete o en Victoria Falls y tratar el del parque como un extra. Los enlaces a Sinamatella y Rob",
+   "q": [
+    "Hwange Main Camp",
+    "Dete",
+    "Hwange Main Camp y Dete"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Combustible · Karoi, Makuti y Kariba (variante norte)",
+   "cat": "Combustible",
+   "lat": -16.8167,
+   "lon": 29.6833,
+   "desc": "Eje de la variante norte: Chinhoyi, Karoi, Makuti y Kariba tienen estaciones. Después de Makuti y del puesto de Marongora no hay NADA hasta salir de Mana Pools, y el tramo Kariba-Binga-Chizarira-Hwang",
+   "q": [
+    "Karoi",
+    "Makuti",
+    "Kariba"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Agua potable y de uso general · ciudades del eje",
+   "cat": "Agua potable",
+   "lat": -20.15,
+   "lon": 28.5833,
+   "desc": "Agua embotellada sin problema en supermercados de Mutare, Masvingo, Bulawayo, Harare y Victoria Falls. Para el depósito de uso general (ducha, aseo, vajilla), los campings de overlanders de Victoria F",
+   "q": [
+    "ciudades del eje"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Agua · campamentos de ZimParks",
+   "cat": "Agua potable",
+   "lat": -19.0,
+   "lon": 26.5,
+   "desc": "Main Camp, Sinamatella, Robins (Hwange), Maleme y Sandy Spruit (Matobo), Nyamepi (Mana Pools) y los campamentos de Nyanga tienen agua corriente y aseos, pero el suministro es irregular y NO potable si",
+   "q": [
+    "ZimParks",
+    "campamentos de ZimParks"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Agua · Gonarezhou, Chizarira y la variante norte",
+   "cat": "Agua potable",
+   "lat": -21.3,
+   "lon": 31.8833,
+   "desc": "Sin ninguna garantía: los campamentos de naturaleza de Gonarezhou y los siete de Chizarira no tienen agua tratada, y en Chizarira hay que entrarla toda. Filtro obligatorio y nunca beber del Runde, del",
+   "q": [
+    "Gonarezhou",
+    "Chizarira"
+   ]
+  },
+  {
+   "id": "log-17",
+   "type": "log",
+   "n": 17,
+   "name": "Taller y recambios · Bulawayo",
+   "cat": "Servicio",
+   "lat": -20.15,
+   "lon": 28.5833,
+   "desc": "La mejor oferta de talleres, recambios, neumáticos y soldadura del sur del país, herencia de su pasado industrial y ferroviario. Parada técnica recomendada de los dos vehículos antes de Hwange y de la",
+   "q": [
+    "Bulawayo"
+   ]
+  },
+  {
+   "id": "log-18",
+   "type": "log",
+   "n": 18,
+   "name": "Reservas de ZimParks · Harare (sede central)",
+   "cat": "Servicio",
+   "lat": -17.8292,
+   "lon": 31.0522,
+   "desc": "Mana Pools, Matusadona y las parcelas exclusivas NO tienen reserva online: se gestionan por correo (info@zimparks.org.zw) o por teléfono, y se confirman por escrito. Hacerlo con semanas de antelación ",
+   "q": [
+    "Harare"
+   ]
+  }
+ ]
+}

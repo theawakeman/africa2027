@@ -1,0 +1,517 @@
+{
+ "slug": "botsuana",
+ "bbox": [
+  19.599999999999998,
+  -27.3,
+  29.7,
+  -17.4
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Kazungula Bridge",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -17.790437,
+   "lon": 25.2627612,
+   "desc": "El puente carretero y ferroviario sobre el Zambeze enlaza Botsuana y Zambia. El pin marca el puente real, no el centro de Kasane ni un supuesto punto cuádruple visitable.",
+   "q": [
+    "Kazungula Bridge Botswana Zambia"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Chobe Riverfront · Sedudu Gate",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -17.8439677,
+   "lon": 25.1434398,
+   "desc": "Sedudu Gate es la entrada concreta al Riverfront de Chobe, uno de los circuitos de fauna más accesibles del país. Un crucero por el río es una actividad diferente.",
+   "q": [
+    "Sedudu Gate Chobe Botswana"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Savuti · campamento",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -18.5649269,
+   "lon": 24.0643615,
+   "desc": "Savuti es el sector seco y remoto de Chobe articulado alrededor de su canal y su campamento. La arena profunda cambia mucho con la estación.",
+   "q": [
+    "Savuti Camp Botswana"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Linyanti · campsite",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -18.295555,
+   "lon": 23.907756,
+   "desc": "Linyanti Campsite es una pequeña base remota junto al río, en el extremo occidental de Chobe. No debe confundirse con alojamientos privados de la concesión.",
+   "q": [
+    "Linyanti Campsite Botswana"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Khwai · North Gate",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -19.1726216,
+   "lon": 23.7523124,
+   "desc": "North Gate es el acceso a Moremi desde Khwai y un punto operativo mucho más útil que un pin genérico en la reserva.",
+   "q": [
+    "North Gate Khwai Moremi Botswana"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "Moremi · Xakanaxa",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -19.1827346,
+   "lon": 23.4113791,
+   "desc": "Xakanaxa es el nodo de campamento y embarcaderos de Moremi donde se encuentran canales permanentes y tierra seca.",
+   "q": [
+    "Xakanaxa Camp Moremi Botswana"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Mboma Island · salida de excursiones",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -19.1945609,
+   "lon": 23.2715508,
+   "desc": "Mboma Island Expeditions es un punto concreto de salida para recorridos acuáticos desde Moremi. La ficha no presenta toda la isla como acceso libre.",
+   "q": [
+    "Mboma Island Expeditions Botswana"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "Maun · Nhabe Museum",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -19.9788375,
+   "lon": 23.4287228,
+   "desc": "Nhabe Museum ocupa un edificio histórico de Maun y explica culturas y paisaje del noroeste. Convierte la parada logística en una visita breve y concreta.",
+   "q": [
+    "Nhabe Museum Maun Botswana"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Okavango · estación de mokoro Boro 2",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -19.846652,
+   "lon": 23.402295,
+   "desc": "Boro 2 es una estación comunitaria de salida en mokoro al sur de Maun. No es un mirador libre ni una coordenada genérica del delta.",
+   "q": [
+    "Boro 2 Mokoro Polers Station Botswana"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Shakawe · Panhandle del Okavango",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -18.3673364,
+   "lon": 21.8389726,
+   "desc": "Shakawe es la base urbana del Panhandle, la sección estrecha y permanente del Okavango. El interés está en el río, no en el centro de la población.",
+   "q": [
+    "Shakawe Botswana"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Tsodilo Hills · museo y oficina",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -18.7585797,
+   "lon": 21.737152,
+   "desc": "El museo de Tsodilo es el punto correcto para registrarse antes de recorrer colinas sagradas con miles de pinturas rupestres.",
+   "q": [
+    "Tsodilo Hills Museum Botswana"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Gcwihaba Caves",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -20.0230082,
+   "lon": 21.3551783,
+   "desc": "Gcwihaba es un sistema de cuevas remoto en el Kalahari. Su acceso y visita requieren preparación; el pin marca el objeto real en Google Maps.",
+   "q": [
+    "Gcwihaba Caves Botswana"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "D’Kar · Kuru Art Project",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -21.5198275,
+   "lon": 21.9447633,
+   "desc": "Kuru Art Project en D’Kar trabaja con artistas san contemporáneos. Es un estudio y proyecto cultural real, no una aldea presentada como espectáculo.",
+   "q": [
+    "Kuru Art Project D'Kar Botswana"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "CKGR · Deception Valley",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -21.4393011,
+   "lon": 23.8138552,
+   "desc": "Deception Valley es un sector remoto del Central Kalahari Game Reserve. El pin marca el valle en Google Maps, no una puerta ni un campamento garantizado.",
+   "q": [
+    "Deception Valley Central Kalahari Botswana"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Baines Baobabs",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -20.1121417,
+   "lon": 24.7691109,
+   "desc": "Los siete baobabs de Baines forman un hito histórico y paisajístico junto a Kudiakam Pan, dentro de Nxai Pan National Park.",
+   "q": [
+    "Baines Baobabs Botswana"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Makgadikgadi · acceso de Khumaga",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -20.4554677,
+   "lon": 24.5164678,
+   "desc": "Khumaga es el acceso occidental de Makgadikgadi Pans National Park junto al Boteti; el cruce puede depender de puente o transbordador operativo.",
+   "q": [
+    "Khumaga Camp Makgadikgadi Botswana"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Kubu Island · Lekhubu",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -20.893,
+   "lon": 25.819,
+   "desc": "Lekhubu o Kubu Island es un afloramiento granítico con baobabs en medio de Sowa Pan, gestionado por un fideicomiso comunitario.",
+   "q": [
+    "Kubu Island Lekhubu Botswana"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Nata Bird Sanctuary",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -20.3358281,
+   "lon": 26.2540675,
+   "desc": "Santuario comunitario junto a Nata con acceso a las orillas de Sua Pan. Las concentraciones de aves dependen del agua y la estación.",
+   "q": [
+    "Nata Bird Sanctuary Botswana"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Khama Rhino Sanctuary · entrada",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -22.23444,
+   "lon": 26.72008,
+   "desc": "Reserva comunitaria cercada cerca de Serowe centrada en la conservación del rinoceronte. La entrada real sustituye el pin urbano anterior.",
+   "q": [
+    "Khama Rhino Sanctuary entrance Botswana"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Northern Tuli · acceso de Pont Drift",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -22.2140642,
+   "lon": 29.1383946,
+   "desc": "Pont Drift es el paso del Limpopo que da acceso al Northern Tuli. El cruce puede ser vado o transporte alternativo según el nivel del río.",
+   "q": [
+    "Pont Drift Border Post Botswana"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Three Dikgosi Monument · Gaborone",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -24.6449002,
+   "lon": 25.9073942,
+   "desc": "Monumento de Gaborone dedicado a Khama III, Sebele I y Bathoen I, los tres dikgosi que viajaron a Gran Bretaña en 1895.",
+   "q": [
+    "Three Dikgosi Monument Gaborone Botswana"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada — Kazungula Road (desde Zimbabue)",
+   "cat": "Frontera",
+   "lat": -17.7892,
+   "lon": 25.2633,
+   "desc": "Horario 06:00-20:00. Puesto moderno junto al punto cuádruple; se llega desde Victoria Falls (Zimbabue) por 70 km de asfalto. Es la entrada elegida: deja el Parque de Chobe a 15 minutos y permite bajar",
+   "q": [
+    "Kazungula Road",
+    "Zimbabue"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida — Martin's Drift / Groblersbrug (hacia Sudáfrica)",
+   "cat": "Frontera",
+   "lat": -22.6167,
+   "lon": 28.0333,
+   "desc": "Horario 06:00-22:00, sobre el Limpopo. Salida del eje principal: encaja después del Tuli Block y deja en la provincia sudafricana de Limpopo. Mucho camión de carga; llegar fuera de las horas punta. Po",
+   "q": [
+    "Martin's Drift",
+    "Groblersbrug",
+    "Sudáfrica"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Salida alternativa — Tlokweng Gate / Kopfontein",
+   "cat": "Frontera",
+   "lat": -24.6667,
+   "lon": 25.9833,
+   "desc": "Horario 06:00-00:00, a 15 km de Gaborone. Salida de la variante oeste (Kalahari Central → Gaborone). Pioneer Gate/Skilpadshek (06:00-00:00), 60 km al suroeste, es la opción si se va directo hacia Joha",
+   "q": [
+    "Tlokweng Gate",
+    "Kopfontein"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Embajada de España en Windhoek (competente para Botsuana)",
+   "cat": "Consular",
+   "lat": -22.57,
+   "lon": 17.0836,
+   "desc": "58 Simeon Shixungileni Street, Windhoek (Namibia). Tel. +264 (0)61 22 30 66. No hay representación española en Botsuana: cualquier trámite consular mayor pasa por Windhoek — ver ficha de Namibia para ",
+   "q": [
+    "Embajada de España en Windhoek",
+    "Embassy of Spain Windhoek",
+    "Spain Embassy Windhoek"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Letsholathebe II Memorial Hospital, Maun",
+   "cat": "Hospital",
+   "lat": -19.995,
+   "lon": 23.42,
+   "desc": "Hospital de referencia del noroeste y de toda la zona del Okavango. Para casos serios, la práctica regional es la evacuación aérea a Gaborone o a Sudáfrica — imprescindible llevar seguro con cobertura",
+   "q": [
+    "Letsholathebe II Memorial Hospital, Maun"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Princess Marina Hospital, Gaborone",
+   "cat": "Hospital",
+   "lat": -24.65,
+   "lon": 25.9167,
+   "desc": "Principal hospital público del país, en la capital; hay además clínicas privadas (Bokamoso, Gaborone Private Hospital) con mejor equipamiento para extranjeros.",
+   "q": [
+    "Princess Marina Hospital, Gaborone"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Oficina DWNP · Maun (reservas de parques)",
+   "cat": "Servicio",
+   "lat": -19.9833,
+   "lon": 23.4167,
+   "desc": "Department of Wildlife and National Parks: confirmación y pago de reservas de camping en Moremi, Chobe, Makgadikgadi, Nxai y CKGR. Tel. +267 3180774, dwnp@gov.bw. Las reservas se hacen con MESES de an",
+   "q": [
+    "Maun"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Departamento de Servicios Veterinarios (Gaborone)",
+   "cat": "Servicio",
+   "lat": -24.6583,
+   "lon": 25.9122,
+   "desc": "Autoridad competente del permiso de importación del perro y de los cordones sanitarios de fiebre aftosa. Permisos: DVSpermits@gov.bw, tel. +267 368 9513 / 368 9510 (07:30-12:45 y 13:45-16:30, L-V); ce",
+   "q": [
+    "Departamento de Servicios Veterinarios",
+    "Gaborone"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Combustible · Kasane",
+   "cat": "Combustible",
+   "lat": -17.8167,
+   "lon": 25.15,
+   "desc": "Primera estación fiable al entrar. Repostar a fondo aquí: entre Kasane y Maun por dentro de los parques (Savuti-Khwai-Moremi) NO HAY COMBUSTIBLE en unos 400 km de arena, que consumen muchísimo más que",
+   "q": [
+    "Kasane"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Combustible · Maun",
+   "cat": "Combustible",
+   "lat": -19.9833,
+   "lon": 23.4167,
+   "desc": "La mejor oferta del norte, con varias marcas y gasóleo fiable. Punto de repostaje a fondo antes del Delta, de la variante oeste (Tsodilo/Gcwihaba) y de las salinas.",
+   "q": [
+    "Maun"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Combustible · Nata, Gweta y Rakops (eje de las salinas)",
+   "cat": "Combustible",
+   "lat": -20.2167,
+   "lon": 26.1833,
+   "desc": "Nata es el nudo del noreste y el más seguro; Gweta y Rakops tienen surtidor pero con roturas de stock frecuentes. Último repostaje real antes de Kubu Island y antes de entrar a CKGR por Matswere.",
+   "q": [
+    "Nata",
+    "Gweta",
+    "Rakops"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible · Ghanzi y Letlhakane",
+   "cat": "Combustible",
+   "lat": -21.7,
+   "lon": 21.65,
+   "desc": "Ghanzi es el único suministro fiable del oeste, antes de Xade y del Kalahari Central. Letlhakane (junto a Orapa) es el del sureste de las salinas y la salida natural de Kubu Island hacia el sur.",
+   "q": [
+    "Ghanzi",
+    "Letlhakane",
+    "Ghanzi y Letlhakane"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · Francistown, Palapye y Gaborone",
+   "cat": "Combustible",
+   "lat": -21.1667,
+   "lon": 27.5167,
+   "desc": "Eje asfaltado A1 del este: oferta abundante y sin problemas, con talleres y recambios en Francistown y Gaborone.",
+   "q": [
+    "Francistown",
+    "Palapye",
+    "Gaborone"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Agua potable y de uso general · Kasane y Maun",
+   "cat": "Agua potable",
+   "lat": -19.9833,
+   "lon": 23.4167,
+   "desc": "Agua embotellada sin problema; lodges y campings permiten llenar el depósito de uso general con manguera. Son los dos únicos sitios del norte donde dar por hecha la recarga.",
+   "q": [
+    "Kasane",
+    "Maun",
+    "Kasane y Maun"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Agua · sin recarga en CKGR, Makgadikgadi y Kubu",
+   "cat": "Agua potable",
+   "lat": -21.4167,
+   "lon": 23.75,
+   "desc": "Los campings del Kalahari Central y de las salinas NO TIENEN AGUA. Tracks4Africa recomienda 6 litros por persona y día más 2 litros por persona y día de reserva para 5 días extra. Salir con depósitos ",
+   "q": [
+    "Makgadikgadi",
+    "Kubu",
+    "sin recarga en CKGR"
+   ]
+  }
+ ]
+}

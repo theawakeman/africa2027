@@ -1,0 +1,1746 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Apartheid Museum · Johannesburgo",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -26.2378709,
+  "lon": 28.0083713,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Apartheid Museum",
+   "kind": "tourism=museum",
+   "lat": -26.23754,
+   "lon": 28.00847,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Apartheid Museum",
+    "kind": "tourism=museum",
+    "lat": -26.23754,
+    "lon": 28.00847,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Apartheid Museum",
+    "kind": "amenity=parking",
+    "lat": -26.23672,
+    "lon": 28.00894,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "CitySightseeing - Stop 7 - Apartheid Museum/Theme Park",
+    "kind": "highway=bus_stop",
+    "lat": -26.23667,
+    "lon": 28.00981,
+    "d": 0.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Mandela House · Soweto",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -26.2385326,
+  "lon": 27.9088071,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mandela House",
+   "kind": "tourism=museum",
+   "lat": -26.2385,
+   "lon": 27.9088,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mandela Street",
+    "kind": "highway=residential",
+    "lat": -26.24724,
+    "lon": 27.82099,
+    "d": 8.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mandela House",
+    "kind": "tourism=museum",
+    "lat": -26.2385,
+    "lon": 27.9088,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mandela Sisulu Clinic",
+    "kind": "amenity=clinic",
+    "lat": -26.23525,
+    "lon": 27.90607,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Cuna de la Humanidad · Maropeng",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -25.9671341,
+  "lon": 27.6625094,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Visitor Centre",
+   "kind": "building=yes",
+   "lat": -25.89112,
+   "lon": 27.68677,
+   "d": 8.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Visitor Centre",
+    "kind": "building=yes",
+    "lat": -25.89112,
+    "lon": 27.68677,
+    "d": 8.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Visitor Centre",
+    "kind": "information=office",
+    "lat": -26.48228,
+    "lon": 28.21157,
+    "d": 79.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Necsa Visitor Centre",
+    "kind": "information=office",
+    "lat": -25.79936,
+    "lon": 27.91465,
+    "d": 31.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Three Rondavels View Point",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -24.5721968,
+  "lon": 30.7988405,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Three Rondavels Viewpoint",
+   "kind": "tourism=viewpoint",
+   "lat": -24.57375,
+   "lon": 30.79891,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Three Rondavels Viewpoint",
+    "kind": "tourism=viewpoint",
+    "lat": -24.57375,
+    "lon": 30.79891,
+    "d": 0.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Kruger · Phabeni Gate",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -25.0243125,
+  "lon": 31.2401875,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Phabeni gate parking",
+   "kind": "amenity=parking",
+   "lat": -25.02501,
+   "lon": 31.24143,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Phabeni Gate",
+    "kind": "building=yes",
+    "lat": -25.02507,
+    "lon": 31.24193,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Phabeni gate parking",
+    "kind": "amenity=parking",
+    "lat": -25.02501,
+    "lon": 31.24143,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sleepover Phabeni Gate",
+    "kind": "tourism=motel",
+    "lat": -25.02048,
+    "lon": 31.22057,
+    "d": 2.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "iSimangaliso · Bhangazi Gate",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -28.35661,
+  "lon": 32.42023,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bhangazi Gate",
+   "kind": "place=locality",
+   "lat": -28.35661,
+   "lon": 32.42023,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bhangazi Gate",
+    "kind": "place=locality",
+    "lat": -28.35661,
+    "lon": 32.42023,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Hluhluwe-iMfolozi · Memorial Gate",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -28.0687693,
+  "lon": 32.141288,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Memorial Gate",
+   "kind": "place=locality",
+   "lat": -28.06857,
+   "lon": 32.1413,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cengeni Gate (Hluhluwe-Imfolozi Park)",
+    "kind": "information=office",
+    "lat": -28.3419,
+    "lon": 31.70558,
+    "d": 52.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Hluhluwe-Imfolozi Game Reserve",
+    "kind": "information=office",
+    "lat": -28.25059,
+    "lon": 31.98994,
+    "d": 25.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Memorial Gate",
+    "kind": "place=locality",
+    "lat": -28.06857,
+    "lon": 32.1413,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "KwaMuhle Museum · Durban",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -29.8527722,
+  "lon": 31.0241951,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Kwa Muhle museum",
+   "kind": "tourism=attraction",
+   "lat": -29.85286,
+   "lon": 31.02387,
+   "d": 0.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "NMR Museum",
+    "kind": "landuse=military",
+    "lat": -29.82878,
+    "lon": 31.03335,
+    "d": 2.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Kwa Muhle museum",
+    "kind": "tourism=attraction",
+    "lat": -29.85286,
+    "lon": 31.02387,
+    "d": 0.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Old Court House Museum",
+    "kind": "tourism=museum",
+    "lat": -29.85835,
+    "lon": 31.02757,
+    "d": 0.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Drakensberg · Sentinel Car Park",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -28.727442,
+  "lon": 28.890891,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sentinel Car Park",
+   "kind": "amenity=parking",
+   "lat": -28.72711,
+   "lon": 28.89096,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sentinel Car Park",
+    "kind": "amenity=parking",
+    "lat": -28.72711,
+    "lon": 28.89096,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Drakensberg Street",
+    "kind": "highway=residential",
+    "lat": -33.86111,
+    "lon": 25.47024,
+    "d": 656.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sentinel Park",
+    "kind": "leisure=park",
+    "lat": -34.06192,
+    "lon": 18.62774,
+    "d": 1139.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Golden Gate · Glen Reenen",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -28.5062938,
+  "lon": 28.6187756,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Glen Reenen Rest Camp",
+   "kind": "tourism=camp_site",
+   "lat": -28.50626,
+   "lon": 28.6187,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Glen Reenen Rest Camp",
+    "kind": "tourism=camp_site",
+    "lat": -28.50626,
+    "lon": 28.6187,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Sani Pass",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -29.5879785,
+  "lon": 29.2921966,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sani Pass",
+   "kind": "highway=primary",
+   "lat": -29.58708,
+   "lon": 29.29112,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sani Pass",
+    "kind": "mountain_pass=yes",
+    "lat": -29.5852,
+    "lon": 29.28702,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sani Pass",
+    "kind": "highway=primary",
+    "lat": -29.58708,
+    "lon": 29.29112,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sani Pass Hotel",
+    "kind": "place=village",
+    "lat": -29.65657,
+    "lon": 29.44547,
+    "d": 16.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Hole-in-the-Wall",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -32.0412282,
+  "lon": 29.1092604,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hole-in-the-Wall",
+   "kind": "place=island",
+   "lat": -32.04126,
+   "lon": 29.10906,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hole in the Wall",
+    "kind": "place=village",
+    "lat": -32.03139,
+    "lon": 29.11389,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hole-in-the-Wall",
+    "kind": "place=island",
+    "lat": -32.04126,
+    "lon": 29.10906,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hole in the Wall Hotel",
+    "kind": "landuse=retail",
+    "lat": -32.03276,
+    "lon": 29.10992,
+    "d": 0.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Tsitsikamma · Storms River Mouth",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -34.0231825,
+  "lon": 23.8960121,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Storms River Mouth Rest Camp - Camping Site",
+   "kind": "tourism=camp_site",
+   "lat": -34.0236,
+   "lon": 23.88975,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Storms River Mouth Rest Camp",
+    "kind": "place=hamlet",
+    "lat": -34.02212,
+    "lon": 23.88591,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Storms River Mouth Rest Camp - Camping Site",
+    "kind": "tourism=camp_site",
+    "lat": -34.0236,
+    "lon": 23.88975,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Storms River Mouth Rest Camp - Camping Site",
+    "kind": "tourism=camp_site",
+    "lat": -34.02159,
+    "lon": 23.88328,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Cango Caves",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -33.3922296,
+  "lon": 22.2143879,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cango Caves",
+   "kind": "natural=cave_entrance",
+   "lat": -33.39228,
+   "lon": 22.21438,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cango Caves",
+    "kind": "natural=cave_entrance",
+    "lat": -33.39228,
+    "lon": 22.21438,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cango Caves",
+    "kind": "shop=ticket",
+    "lat": -33.39259,
+    "lon": 22.21482,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cango Caves Zipline",
+    "kind": "tourism=attraction",
+    "lat": -33.39345,
+    "lon": 22.21392,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Cabo Agulhas · extremo austral",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -34.8332012,
+  "lon": 19.999978,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "The southernmost tip of Africa and the dividing point between the Atlantic and Indian Oceans.",
+   "kind": "tourism=viewpoint",
+   "lat": -34.833,
+   "lon": 19.99994,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "The southernmost tip of Africa and the dividing point between the Atlantic and Indian Oceans.",
+    "kind": "tourism=viewpoint",
+    "lat": -34.833,
+    "lon": 19.99994,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Hermanus · Old Harbour Museum",
+  "cat": "Costa",
+  "clase": "area",
+  "lat": -34.4204565,
+  "lon": 19.2437189,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Old Harbour Museum",
+   "kind": "tourism=museum",
+   "lat": -34.42016,
+   "lon": 19.24381,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Old Harbour Museum",
+    "kind": "tourism=museum",
+    "lat": -34.42016,
+    "lon": 19.24381,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Table Mountain · estación inferior",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -33.9483352,
+  "lon": 18.4029463,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Table Mountain Cableway",
+   "kind": "highway=bus_stop",
+   "lat": -33.94767,
+   "lon": 18.40236,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Table Mountain Cableway",
+    "kind": "highway=bus_stop",
+    "lat": -33.94767,
+    "lon": 18.40236,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Table Mountain Cableway",
+    "kind": "aerialway=cable_car",
+    "lat": -33.9529,
+    "lon": 18.40302,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Table Mountain Aerial Cableway",
+    "kind": "information=office",
+    "lat": -33.94611,
+    "lon": 18.40064,
+    "d": 0.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Cape of Good Hope",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -34.3568425,
+  "lon": 18.4739882,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cape of Good Hope",
+   "kind": "historic=memorial",
+   "lat": -34.35715,
+   "lon": 18.47396,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cape of Good Hope",
+    "kind": "natural=cape",
+    "lat": -34.35811,
+    "lon": 18.47193,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Cape of Good Hope",
+    "kind": "historic=memorial",
+    "lat": -34.35715,
+    "lon": 18.47396,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Royal Observatory, Cape of Good Hope",
+    "kind": "amenity=research_institute",
+    "lat": -33.93459,
+    "lon": 18.47753,
+    "d": 47.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Robben Island · Nelson Mandela Gateway",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -33.9064912,
+  "lon": 18.4224036,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nelson Mandela Gateway to Robben Island",
+   "kind": "amenity=ferry_terminal",
+   "lat": -33.90645,
+   "lon": 18.42252,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nelson Mandela Gateway to Robben Island",
+    "kind": "amenity=ferry_terminal",
+    "lat": -33.90645,
+    "lon": 18.42252,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Stellenbosch Village Museum",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -33.9374344,
+  "lon": 18.8631788,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Village Museum",
+   "kind": "tourism=museum",
+   "lat": -33.93737,
+   "lon": 18.86318,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Village Museum",
+    "kind": "tourism=museum",
+    "lat": -33.93737,
+    "lon": 18.86318,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Cederberg · Algeria Campsite",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -32.3745153,
+  "lon": 19.0623478,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Algeria",
+   "kind": "place=village",
+   "lat": -32.37358,
+   "lon": 19.05733,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cederberg Oasis Campsite",
+    "kind": "tourism=camp_site",
+    "lat": -32.55149,
+    "lon": 19.36151,
+    "d": 34.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Algeria",
+    "kind": "place=village",
+    "lat": -32.37358,
+    "lon": 19.05733,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Crystal Pools Campsite",
+    "kind": "tourism=camp_site",
+    "lat": -32.35076,
+    "lon": 19.13267,
+    "d": 7.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "SALT · observatorio de Sutherland",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -32.3757643,
+  "lon": 20.8108407,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Southern African Large Telescope (SALT)",
+   "kind": "building=yes",
+   "lat": -32.3759,
+   "lon": 20.81075,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Southern African Large Telescope (SALT)",
+    "kind": "building=yes",
+    "lat": -32.3759,
+    "lon": 20.81075,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-23",
+  "type": "poi",
+  "name": "Kgalagadi · Twee Rivieren",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -26.4725589,
+  "lon": 20.6121781,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Twee Rivieren Rest Camp",
+   "kind": "place=village",
+   "lat": -26.47227,
+   "lon": 20.61192,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Twee Rivieren Rest Camp",
+    "kind": "place=village",
+    "lat": -26.47227,
+    "lon": 20.61192,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Twee Rivieren Campsite (South Africa)",
+    "kind": "tourism=camp_site",
+    "lat": -26.47389,
+    "lon": 20.61271,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Twee Rivieren",
+    "kind": "amenity=restaurant",
+    "lat": -26.47314,
+    "lon": 20.61166,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-24",
+  "type": "poi",
+  "name": "Augrabies Falls",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -28.5912782,
+  "lon": 20.3400825,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Augrabies Falls",
+   "kind": "waterway=waterfall",
+   "lat": -28.59157,
+   "lon": 20.34065,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Augrabies Falls",
+    "kind": "waterway=waterfall",
+    "lat": -28.59157,
+    "lon": 20.34065,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Augrabies Falls National Park",
+    "kind": "boundary=national_park",
+    "lat": -28.51752,
+    "lon": 20.06918,
+    "d": 27.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Augrabies Falls National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -28.51752,
+    "lon": 20.06918,
+    "d": 27.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-25",
+  "type": "poi",
+  "name": "Namaqua · Skilpad Rest Camp",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -30.1632648,
+  "lon": 17.7780609,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Roof of Namaqualand",
+   "kind": "tourism=viewpoint",
+   "lat": -30.16404,
+   "lon": 17.78559,
+   "d": 0.7,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Roof of Namaqualand",
+    "kind": "tourism=viewpoint",
+    "lat": -30.16404,
+    "lon": 17.78559,
+    "d": 0.7,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Namaqua Fig",
+    "kind": "tourism=attraction",
+    "lat": -28.59423,
+    "lon": 20.32784,
+    "d": 302.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-26",
+  "type": "poi",
+  "name": "Richtersveld · Sendelingsdrift",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -28.1252047,
+  "lon": 16.891217,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sendelingsdrift",
+   "kind": "highway=track",
+   "lat": -28.12489,
+   "lon": 16.89668,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sendelingsdrift",
+    "kind": "highway=track",
+    "lat": -28.12489,
+    "lon": 16.89668,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Richtersveld Nasionale Park",
+    "kind": "tourism=camp_site",
+    "lat": -28.12273,
+    "lon": 16.89213,
+    "d": 0.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Martin's Drift / Groblersbrug (desde Botsuana)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -22.6167,
+  "lon": 28.0333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Martin's Drift",
+   "kind": "place=hamlet",
+   "lat": -22.99547,
+   "lon": 27.93323,
+   "d": 43.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Martin's Drift",
+    "kind": "place=hamlet",
+    "lat": -22.99547,
+    "lon": 27.93323,
+    "d": 43.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida — Vioolsdrif / Noordoewer (hacia Namibia)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -28.7583,
+  "lon": 17.6167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Vioolsdrif Siphon",
+   "kind": "waterway=canal",
+   "lat": -28.76669,
+   "lon": 17.62655,
+   "d": 1.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Vioolsdrif",
+    "kind": "place=village",
+    "lat": -28.77079,
+    "lon": 17.62558,
+    "d": 1.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Vioolsdrif Siphon",
+    "kind": "waterway=canal",
+    "lat": -28.76669,
+    "lon": 17.62655,
+    "d": 1.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Vioolsdrif Mast",
+    "kind": "highway=track",
+    "lat": -28.77998,
+    "lon": 17.64469,
+    "d": 3.6,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Vioolsdrif",
+    "kind": "town in South Africa",
+    "lat": -28.775,
+    "lon": 17.625,
+    "d": 2.0,
+    "match": true,
+    "id": "Q1013975"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Alternativa — Sendelingsdrift (pontón al Richtersveld namibio)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -28.125,
+  "lon": 16.885,
+  "veredicto": "OK",
+  "ref": {
+   "src": "wd",
+   "name": "Sendelingsdrift",
+   "kind": "border post between Namibia and South Africa",
+   "lat": -28.12222,
+   "lon": 16.88883,
+   "d": 0.5,
+   "match": true,
+   "id": "Q13036020"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sendelingsdrift",
+    "kind": "highway=track",
+    "lat": -28.12489,
+    "lon": 16.89668,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sendelingsdrif",
+    "kind": "place=village",
+    "lat": -28.12475,
+    "lon": 16.89435,
+    "d": 0.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Sendelingsdrift",
+    "kind": "border post between Namibia and South Africa",
+    "lat": -28.12222,
+    "lon": 16.88883,
+    "d": 0.5,
+    "match": true,
+    "id": "Q13036020"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Alternativa este — Lebombo (hacia Mozambique)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -25.4667,
+  "lon": 31.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lebombo Lodge",
+   "kind": "landuse=residential",
+   "lat": -24.45197,
+   "lon": 31.9785,
+   "d": 112.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lebombo",
+    "kind": "highway=residential",
+    "lat": -25.78262,
+    "lon": 28.26597,
+    "d": 374.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lebombo Lodge",
+    "kind": "place=village",
+    "lat": -24.451,
+    "lon": 31.97768,
+    "d": 112.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lebombo Lodge",
+    "kind": "landuse=residential",
+    "lat": -24.45197,
+    "lon": 31.9785,
+    "d": 112.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Alternativa — Sani Pass (hacia Lesoto)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -29.5872,
+  "lon": 29.2878,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sani Pass",
+   "kind": "mountain_pass=yes",
+   "lat": -29.5852,
+   "lon": 29.28702,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sani Pass",
+    "kind": "mountain_pass=yes",
+    "lat": -29.5852,
+    "lon": 29.28702,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sani Pass",
+    "kind": "highway=primary",
+    "lat": -29.58464,
+    "lon": 29.28616,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sani Pass Hotel",
+    "kind": "place=village",
+    "lat": -29.65657,
+    "lon": 29.44547,
+    "d": 17.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Pretoria",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -25.755,
+  "lon": 28.2378,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": -25.77022,
+   "lon": 28.25087,
+   "d": 2.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": -25.77022,
+    "lon": 28.25087,
+    "d": 2.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Consulado General de España en Ciudad del Cabo",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Groote Schuur Hospital — Ciudad del Cabo",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -33.9403,
+  "lon": 18.4644,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "New Groote Schuur Hospital",
+   "kind": "building=hospital",
+   "lat": -33.94138,
+   "lon": 18.46375,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Groote Schuur Hospital",
+    "kind": "amenity=hospital",
+    "lat": -33.94117,
+    "lon": 18.46262,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Groote Schuur Hospital - Maternity Centre",
+    "kind": "building=hospital",
+    "lat": -33.94248,
+    "lon": 18.46117,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "New Groote Schuur Hospital",
+    "kind": "building=hospital",
+    "lat": -33.94138,
+    "lon": 18.46375,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Charlotte Maxeke / Milpark / Netcare Sunninghill — Johannesburgo",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -26.1833,
+  "lon": 28.05,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Talleres 4x4 de expedición · Gauteng (Johannesburgo-Pretoria)",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -26.05,
+  "lon": 28.0,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Gauteng",
+   "kind": "place=state",
+   "lat": -25.93634,
+   "lon": 28.08131,
+   "d": 15.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gauteng",
+    "kind": "place=state",
+    "lat": -25.93634,
+    "lon": 28.08131,
+    "d": 15.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gauteng Division of the High Court",
+    "kind": "building=yes",
+    "lat": -25.7446,
+    "lon": 28.18742,
+    "d": 38.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Gauteng Oil & Cake Mills",
+    "kind": "landuse=industrial",
+    "lat": -26.22629,
+    "lon": 27.98302,
+    "d": 19.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Talleres 4x4 y recambios · Ciudad del Cabo",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Cabanas Del Sol",
+   "kind": "landuse=residential",
+   "lat": -30.09159,
+   "lon": 30.86217,
+   "d": 1246.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cabanas Del Sol",
+    "kind": "landuse=residential",
+    "lat": -30.09159,
+    "lon": 30.86217,
+    "d": 1246.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Cabine de Bilhetica dea 1a Rotunda da Katembe",
+    "kind": "building=yes",
+    "lat": -26.00619,
+    "lon": 32.55854,
+    "d": 1618.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible y provisiones · eje N1/N2/N3 y ciudades",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -29.8587,
+  "lon": 31.0218,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · eje oeste (Upington, Springbok, Steinkopf)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -28.4478,
+  "lon": 21.2561,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Upington",
+   "kind": "place=city",
+   "lat": -28.45632,
+   "lon": 21.24187,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Upington",
+    "kind": "place=city",
+    "lat": -28.45632,
+    "lon": 21.24187,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Upington",
+    "kind": "railway=station",
+    "lat": -28.45286,
+    "lon": 21.23949,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Upington Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -28.4025,
+    "lon": 21.25833,
+    "d": 5.0,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Upington",
+    "kind": "town in South Africa",
+    "lat": -28.45722,
+    "lon": 21.2425,
+    "d": 1.7,
+    "match": true,
+    "id": "Q575780"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Agua potable · todo el país",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Paisley Precast Walling (Pty) Ltd.",
+   "kind": "building=industrial",
+   "lat": -26.097,
+   "lon": 28.34622,
+   "d": 1291.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Paisley Precast Walling (Pty) Ltd.",
+    "kind": "building=industrial",
+    "lat": -26.097,
+    "lon": 28.34622,
+    "d": 1291.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Veterinarios, laboratorios y residencias caninas · Pretoria y Johannesburgo",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -25.7479,
+  "lon": 28.2293,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Pretoria",
+   "kind": "railway=stop",
+   "lat": -25.76028,
+   "lon": 28.19068,
+   "d": 4.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pretoria",
+    "kind": "place=city",
+    "lat": -25.74593,
+    "lon": 28.18791,
+    "d": 4.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pretoria",
+    "kind": "railway=stop",
+    "lat": -25.76028,
+    "lon": 28.19068,
+    "d": 4.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pretoria",
+    "kind": "railway=stop",
+    "lat": -25.75958,
+    "lon": 28.19038,
+    "d": 4.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Veterinarios y residencias caninas · Ciudad del Cabo y Winelands",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Cabanas Del Sol",
+   "kind": "landuse=residential",
+   "lat": -30.09159,
+   "lon": 30.86217,
+   "d": 1246.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cabanas Del Sol",
+    "kind": "landuse=residential",
+    "lat": -30.09159,
+    "lon": 30.86217,
+    "d": 1246.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Cabine de Bilhetica dea 1a Rotunda da Katembe",
+    "kind": "building=yes",
+    "lat": -26.00619,
+    "lon": 32.55854,
+    "d": 1618.9,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Residencias caninas · puertas de Kruger (Hoedspruit, Hazyview, White River, Nelspruit)",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -24.35,
+  "lon": 30.95,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kruger to Canyons Biosphere Reserve",
+   "kind": "leisure=nature_reserve",
+   "lat": -24.19344,
+   "lon": 30.73091,
+   "d": 28.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kruger National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -23.93578,
+    "lon": 31.50837,
+    "d": 73.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kruger to Canyons Biosphere Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": -24.19344,
+    "lon": 30.73091,
+    "d": 28.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kruger Boundary Road",
+    "kind": "highway=unclassified",
+    "lat": -24.11022,
+    "lon": 31.39905,
+    "d": 52.8,
+    "match": true
+   }
+  ]
+ }
+]

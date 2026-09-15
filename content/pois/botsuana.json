@@ -1,359 +1,926 @@
 [
   {
     "n": 1,
-    "name": "Kasane y el punto cuádruple de Kazungula",
+    "name": "Kazungula Bridge",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -17.8167,
-    "lon": 25.15,
-    "desc": "Puerta norte del país y base logística del tramo: combustible fiable, supermercados, talleres, cajeros y la oficina del DWNP donde se confirman reservas de camping. A 12 km está Kazungula, el ÚNICO PUNTO DEL MUNDO DONDE SE TOCAN CUATRO PAÍSES (Botsuana, Zambia, Zimbabue y Namibia), con el puente de 2021 sobre el Zambeze. Desde Kasane salen los cruceros por el río Chobe al atardecer: es la mejor fauna del viaje que se ve SIN entrar en el parque, y por tanto la mejor opción para los días en que uno de los tres se quede con el perro.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/SUNSET%20OVER%20THE%20CHOBE%20RIVER.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:SUNSET%20OVER%20THE%20CHOBE%20RIVER.jpg",
+    "lat": -17.790437,
+    "lon": 25.2627612,
+    "desc": "El puente carretero y ferroviario sobre el Zambeze enlaza Botsuana y Zambia. El pin marca el puente real, no el centro de Kasane ni un supuesto punto cuádruple visitable.",
+    "credit": "Gribeco · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazungula_Bridge.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kazungula_Bridge.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una obra fronteriza clave de la ruta y permite entender la singular geografía de Kazungula.",
+      "see": "El gran arco sobre el río y la actividad fronteriza; las cuatro fronteras no convergen en un monumento accesible.",
+      "access": "El pin coincide con Kazungula Bridge. Cruzarlo exige completar inmigración, aduana y trámites de vehículo.",
+      "when": "A primera hora, dejando margen para colas y comprobaciones.",
+      "skip": "No parar ni caminar por zonas aduaneras salvo indicación expresa."
+    },
+    "links": [
+      {
+        "label": "African Development Bank · Kazungula Bridge",
+        "url": "https://www.afdb.org/en/projects-and-operations/p-z1-db0-031"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazungula_Bridge.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kazungula_Bridge.jpg",
+        "credit": "Gribeco · CC BY-SA 4.0",
+        "caption": "Kazungula Bridge terminado sobre el Zambeze."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_new_bridge_at_Kazangula.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_new_bridge_at_Kazangula.jpg",
+        "credit": "JonGT · CC BY-SA 4.0",
+        "caption": "Vista lateral del puente internacional de Kazungula."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_future_connection.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_future_connection.jpg",
+        "credit": "Tracy Anne Brooks · CC BY-SA 4.0",
+        "caption": "El puente durante su construcción; documenta la obra, no su estado actual."
+      }
+    ]
   },
   {
     "n": 2,
-    "name": "Chobe Riverfront (Serondela e Ihaha)",
+    "name": "Chobe Riverfront · Sedudu Gate",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2–3 días",
-    "lat": -17.83,
-    "lon": 24.9,
-    "desc": "La franja de llanura aluvial entre Kasane y Ngoma concentra en la estación seca UNA DE LAS MAYORES DENSIDADES DE ELEFANTE DEL PLANETA: el parque entero ronda los 50.000 ejemplares, elefantes del Kalahari de marfil quebradizo y colmillos cortos. A media tarde bajan a beber por centenares. La pista que va por la orilla (Serondela, Ihaha) es de arena profunda y hay tramos que se inundan; el camino de arriba, «el de transferencia», es el alternativo cuando el de abajo está impracticable. Camping público de Ihaha dentro del parque.",
-    "credit": "Bernard Gagnon · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20in%20Chobe%20National%20Park%2001.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Elephants%20in%20Chobe%20National%20Park%2001.jpg",
+    "lat": -17.8439677,
+    "lon": 25.1434398,
+    "desc": "Sedudu Gate es la entrada concreta al Riverfront de Chobe, uno de los circuitos de fauna más accesibles del país. Un crucero por el río es una actividad diferente.",
+    "credit": "Joachim Huber · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chobe_Riverfront,_Botswana_(2611398068).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Chobe_Riverfront,_Botswana_(2611398068).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Concentra paisaje fluvial y buenas posibilidades de observar fauna en una jornada bien planificada.",
+      "see": "Río, llanuras y fauna silvestre sin garantía de especie ni distancia.",
+      "access": "El pin coincide con Sedudu Gate. Confirmar permiso, reserva, horario y normas del vehículo antes de entrar.",
+      "when": "Amanecer o tarde; dedicar medio día como mínimo.",
+      "skip": "No entrar con mascota ni confiar en que el coche pueda sustituir un cuidado seguro."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Chobe",
+        "url": "https://www.botswanatourism.co.bw/explore/chobe-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chobe_Riverfront,_Botswana_(2611398068).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chobe_Riverfront,_Botswana_(2611398068).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Riverfront de Chobe desde el sector de Sedudu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chobe_Riverfront,_Botswana_(2633821123).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chobe_Riverfront,_Botswana_(2633821123).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Ribera y fauna de Chobe; el encuentro no se garantiza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chobe_Riverfront,_Botswana_(2634631410).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chobe_Riverfront,_Botswana_(2634631410).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Paisaje fluvial dentro de Chobe National Park."
+      }
+    ]
   },
   {
     "n": 3,
-    "name": "Savuti (Savute Marsh) y el canal fantasma",
+    "name": "Savuti · campamento",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 días",
-    "lat": -18.5667,
-    "lon": 24.0667,
-    "desc": "El corazón salvaje de Chobe y uno de los lugares más extraños de África: el canal de Savuti se seca y vuelve a correr por ciclos de décadas, sin que nadie sepa del todo por qué, y con él aparece o desaparece la marisma. Aquí se filmaron los documentales de los LEONES QUE CAZAN ELEFANTES JÓVENES y de la guerra entre leones y hienas. Las colinas de Gubatsaa guardan además pinturas rupestres. El acceso desde el norte es la célebre pista de arena de Savuti, entre las más profundas de Botsuana.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Baobab%20in%20Savuti%20-%20Botswana%20-%20panoramio.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Baobab%20in%20Savuti%20-%20Botswana%20-%20panoramio.jpg",
+    "lat": -18.5649269,
+    "lon": 24.0643615,
+    "desc": "Savuti es el sector seco y remoto de Chobe articulado alrededor de su canal y su campamento. La arena profunda cambia mucho con la estación.",
+    "credit": "Richardk85 · CC0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion-savuti-botswana-april-2025.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lion-savuti-botswana-april-2025.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece una experiencia de sabana muy distinta del Riverfront y justifica varias noches.",
+      "see": "Canal, marismas estacionales, baobabs y fauna posible; ningún avistamiento está garantizado.",
+      "access": "El pin coincide con Savuti Camp. Reserva obligatoria, 4x4, dos vehículos, combustible y presiones ajustables.",
+      "when": "Dos o más noches en periodo transitable y llegando con luz.",
+      "skip": "Descartarlo sin reserva, autonomía, recuperación o información reciente de la pista."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Chobe y Savuti",
+        "url": "https://www.botswanatourism.co.bw/explore/chobe-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion-savuti-botswana-april-2025.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lion-savuti-botswana-april-2025.jpg",
+        "credit": "Richardk85 · CC0",
+        "caption": "León fotografiado en Savuti en 2025; no garantiza un avistamiento."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Savuti_Channel_-_Botswana_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Savuti_Channel_-_Botswana_-_panoramio.jpg",
+        "credit": "Diego Cue · CC BY-SA 3.0",
+        "caption": "Canal de Savuti dentro del sector del PDI."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Baobab_in_Savuti_-_Botswana_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Baobab_in_Savuti_-_Botswana_-_panoramio.jpg",
+        "credit": "Diego Cue · CC BY-SA 3.0",
+        "caption": "Baobab en el paisaje de Savuti."
+      }
+    ]
   },
   {
     "n": 4,
-    "name": "Pantano de Linyanti y el río Kwando",
+    "name": "Linyanti · campsite",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "prohibido",
     "time": "1–2 noches",
-    "lat": -18.2833,
-    "lon": 23.95,
-    "desc": "El extremo noroeste de Chobe, sobre el río Kwando/Linyanti, frente a la Franja de Caprivi namibia: papiro, lagunas y bosque ribereño, con perro salvaje africano, sitatunga y elefante. Es la parte MENOS VISITADA del parque —el camping público de Linyanti tiene solo unas pocas parcelas— y la pista desde Savuti son unos 40 km de arena pesada. Imagen: el sistema fluvial Chobe-Linyanti, no el pantano en sí.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chobe%20River%20banner.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chobe%20River%20banner.jpg",
+    "lat": -18.295555,
+    "lon": 23.907756,
+    "desc": "Linyanti Campsite es una pequeña base remota junto al río, en el extremo occidental de Chobe. No debe confundirse con alojamientos privados de la concesión.",
+    "credit": "Dicklyon · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_from_Linyanti_River.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Namibia_from_Linyanti_River.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Interesa por la ribera tranquila y el aislamiento, no como escala rápida.",
+      "see": "Bosque de ribera, agua y fauna posible desde una zona de acampada muy limitada.",
+      "access": "El pin coincide con Linyanti Campsite 1. Confirmar reserva y ruta de acceso exacta con DWNP.",
+      "when": "Con al menos dos noches y llegada diurna.",
+      "skip": "No asumir agua, combustible, cobertura ni disponibilidad de parcela."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Chobe y Linyanti",
+        "url": "https://www.botswanatourism.co.bw/explore/chobe-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namibia_from_Linyanti_River.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Namibia_from_Linyanti_River.jpg",
+        "credit": "Dicklyon · CC BY-SA 4.0",
+        "caption": "Río Linyanti visto desde la orilla de Botsuana hacia Namibia."
+      }
+    ]
   },
   {
     "n": 5,
-    "name": "Khwai y el vado del río Khwai",
+    "name": "Khwai · North Gate",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 días",
-    "lat": -19.15,
-    "lon": 23.7833,
-    "desc": "La concesión comunitaria de Khwai (NG18/19), entre Moremi y Chobe, es uno de los mejores sitios de Botsuana para fauna y el único donde se permiten safaris nocturnos y a pie fuera del parque, porque no es parque nacional sino tierra comunal. Aquí está EL VADO DEL RÍO KHWAI, el cruce con agua más famoso del país: un paso de fondo de arena con agua que según el año y el mes va de 40 cm a casi un metro, con hipopótamos y cocodrilos en las pozas de al lado. Hay un puente de troncos alternativo, pero el vado es el rito de paso.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Okavango%20delta%20-%20Botswana%20-%20panoramio%20%283%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Okavango%20delta%20-%20Botswana%20-%20panoramio%20%283%29.jpg",
+    "lat": -19.1726216,
+    "lon": 23.7523124,
+    "desc": "North Gate es el acceso a Moremi desde Khwai y un punto operativo mucho más útil que un pin genérico en la reserva.",
+    "credit": "Mothusi Sekhomba · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_trees_at_Khwai,_Botswana_in_summer_03.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_at_Khwai,_Botswana_in_summer_03.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite enlazar Khwai con los circuitos de Moremi sin retroceder a Maun.",
+      "see": "Bosque, llanuras y pasos de agua; los cruces y la fauna dependen de la estación.",
+      "access": "El pin coincide con North Gate. Llevar reserva, combustible, 4x4 y estado actualizado de puentes y vados.",
+      "when": "Llegada temprana y siempre con margen de luz.",
+      "skip": "No cruzar agua sin reconocer profundidad ni entrar con mascota."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Moremi",
+        "url": "https://www.botswanatourism.co.bw/explore/moremi-game-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_trees_at_Khwai,_Botswana_in_summer_03.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_at_Khwai,_Botswana_in_summer_03.jpg",
+        "credit": "Mothusi Sekhomba · CC BY-SA 4.0",
+        "caption": "Palmeras y llanura del río Khwai."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_trees_at_Khwai,_Botswana_in_summer_06.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_at_Khwai,_Botswana_in_summer_06.jpg",
+        "credit": "Mothusi Sekhomba · CC BY-SA 4.0",
+        "caption": "Paisaje del sector Khwai junto a North Gate."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_trees_at_Khwai,_Botswana_in_summer_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Palm_trees_at_Khwai,_Botswana_in_summer_01.jpg",
+        "credit": "Mothusi Sekhomba · CC BY-SA 4.0",
+        "caption": "Vegetación del corredor de Khwai."
+      }
+    ]
   },
   {
     "n": 6,
-    "name": "Reserva de Moremi · Xakanaxa y los puentes de troncos",
+    "name": "Moremi · Xakanaxa",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "3 días",
-    "lat": -19.1833,
-    "lon": 23.4,
-    "desc": "La primera reserva de África creada por decisión de una comunidad local (los batawana, en 1963) y el único acceso por carretera al Delta del Okavango. La laguna de Xakanaxa es una de las mayores colonias de aves acuáticas nidificantes del continente. El tramo entre South Gate, Third Bridge y Xakanaxa se hace sobre PUENTES DE TRONCOS construidos a mano sobre los canales —First, Second, Third y Fourth Bridge—, estrechos, resbaladizos y célebres entre los overlanders; Third Bridge da nombre al camping más buscado del país.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lechwe%20in%20Moremi%20Game%20Reserve%20-%20Botswana%20-%20panoramio.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lechwe%20in%20Moremi%20Game%20Reserve%20-%20Botswana%20-%20panoramio.jpg",
+    "lat": -19.1827346,
+    "lon": 23.4113791,
+    "desc": "Xakanaxa es el nodo de campamento y embarcaderos de Moremi donde se encuentran canales permanentes y tierra seca.",
+    "credit": "Hp.Baumeler · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Okavangodelta_Xakanaxa.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Okavangodelta_Xakanaxa.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una base excelente para combinar conducción de safari y salida en barca reservada.",
+      "see": "Lagunas, canales y fauna posible; Third Bridge es otro sector y puede requerir ruta distinta.",
+      "access": "El pin coincide con Xakanaxa Camp. Confirmar parcela, embarcadero, operador y pista de llegada.",
+      "when": "Dos o tres noches, con actividades a primera y última hora.",
+      "skip": "No depender de disponibilidad espontánea ni improvisar cruces inundados."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Moremi",
+        "url": "https://www.botswanatourism.co.bw/explore/moremi-game-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Okavangodelta_Xakanaxa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Okavangodelta_Xakanaxa.jpg",
+        "credit": "Hp.Baumeler · CC BY-SA 4.0",
+        "caption": "Canales y vegetación de Xakanaxa, el lugar exacto de la ficha."
+      }
+    ]
   },
   {
     "n": 7,
-    "name": "Mboma Island y la lengua de arena",
+    "name": "Mboma Island · salida de excursiones",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "prohibido",
     "time": "½–1 día",
-    "lat": -19.2667,
-    "lon": 23.3333,
-    "desc": "Bucle de unos 25 km al oeste de Third Bridge por una isla de arena blanca dentro del Delta: palmeras de marfil, praderas abiertas con cebra y antílope, y el embarcadero de mokoro de Mboma. Es ARENA PURÍSIMA, de las que obligan a bajar presión y a no parar en cuesta; se conduce en primera larga y sin levantar el pie. Un clásico de la conducción en el Okavango y un buen sitio para probar los dos vehículos antes del Kalahari.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Equus%20quagga%20in%20Moremi%20Game%20Reserve%2C%20Botswana%2C%20-12%20Nov.%202011%20a.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Equus%20quagga%20in%20Moremi%20Game%20Reserve%2C%20Botswana%2C%20-12%20Nov.%202011%20a.jpg",
+    "lat": -19.1945609,
+    "lon": 23.2715508,
+    "desc": "Mboma Island Expeditions es un punto concreto de salida para recorridos acuáticos desde Moremi. La ficha no presenta toda la isla como acceso libre.",
+    "credit": "Diego Cue · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Equus_quagga_in_Moremi_Game_Reserve,_Botswana,_-12_Nov._2011_a.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Equus_quagga_in_Moremi_Game_Reserve,_Botswana,_-12_Nov._2011_a.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Añade una lectura silenciosa de canales y humedales que no se obtiene desde el coche.",
+      "see": "Mokoro o barca según nivel, operador y reserva; fauna posible sin garantía.",
+      "access": "El pin coincide con Mboma Island Expeditions. Reservar directamente y acordar llegada, aparcamiento y equipaje.",
+      "when": "Mañana, con viento y nivel de agua adecuados.",
+      "skip": "No presentarse sin reserva ni llevar mascota a la actividad."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Moremi",
+        "url": "https://www.botswanatourism.co.bw/explore/moremi-game-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Equus_quagga_in_Moremi_Game_Reserve,_Botswana,_-12_Nov._2011_a.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Equus_quagga_in_Moremi_Game_Reserve,_Botswana,_-12_Nov._2011_a.jpg",
+        "credit": "Diego Cue · CC BY-SA 3.0",
+        "caption": "Fauna de Moremi como contexto; la foto no muestra el embarcadero de Mboma."
+      }
+    ]
   },
   {
     "n": 8,
-    "name": "Maun",
+    "name": "Maun · Nhabe Museum",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": -19.9833,
-    "lon": 23.4167,
-    "desc": "La capital del safari de Botsuana y la plaza logística decisiva de esta ficha: talleres 4x4 de verdad, neumáticos, soldadura, recambios, supermercados grandes, bancos, la oficina regional del DWNP y el Letsholathebe II Memorial Hospital. Es también DONDE HAY VETERINARIOS Y RESIDENCIAS CANINAS, es decir, el sitio donde realista y honestamente habrá que dejar al perro durante el bloque de parques. Aquí se contratan los vuelos en avioneta sobre el Delta y las salidas en mokoro.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maun%20Botswana2.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Maun%20Botswana2.jpg",
+    "lat": -19.9788375,
+    "lon": 23.4287228,
+    "desc": "Nhabe Museum ocupa un edificio histórico de Maun y explica culturas y paisaje del noroeste. Convierte la parada logística en una visita breve y concreta.",
+    "credit": "Pavel Špindler · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maun_-_Botswana_-_panoramio.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Maun_-_Botswana_-_panoramio.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Da contexto humano al delta antes o después de los safaris.",
+      "see": "Colecciones y exposiciones locales; su disponibilidad puede variar.",
+      "access": "El pin coincide con Nhabe Museum. Confirmar apertura y estacionar dentro o en zona vigilada.",
+      "when": "En horario diurno, combinado con compras y combustible.",
+      "skip": "Omitirlo si está cerrado; no contar con acceso del perro al interior."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Maun",
+        "url": "https://botswanatourism.co.bw/index.php/explore/maun"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maun_-_Botswana_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Maun_-_Botswana_-_panoramio.jpg",
+        "credit": "Pavel Špindler · CC BY 3.0",
+        "caption": "Tejido urbano de Maun, donde se encuentra Nhabe Museum."
+      }
+    ]
   },
   {
     "n": 9,
-    "name": "Delta del Okavango (Patrimonio de la Humanidad)",
+    "name": "Okavango · estación de mokoro Boro 2",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2–3 días",
-    "lat": -19.2833,
-    "lon": 22.9,
-    "desc": "El mayor delta interior del mundo y sitio UNESCO nº 1000 de la lista (inscrito en 2014): un abanico de 15.000 km² donde el río Okavango, en lugar de llegar al mar, se desangra en el Kalahari y se evapora. La crecida llega desde Angola con SEIS MESES DE RETRASO, de modo que el Delta está más lleno en pleno invierno seco (junio-agosto) que en la época de lluvias. Solo se entra por tierra a su borde oriental (Moremi); el interior se ve en avioneta desde Maun o en mokoro, la piragua tradicional que se empuja con pértiga.",
-    "credit": "Joachim Huber · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Okavango%20Delta%2C%20Botswana.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Okavango%20Delta%2C%20Botswana.jpg",
+    "lat": -19.846652,
+    "lon": 23.402295,
+    "desc": "Boro 2 es una estación comunitaria de salida en mokoro al sur de Maun. No es un mirador libre ni una coordenada genérica del delta.",
+    "credit": "Ilka Nghinamupika · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mokoro_In_the_Kavango_Delta_Botswana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mokoro_In_the_Kavango_Delta_Botswana.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece una primera experiencia de canales con guías locales sin internarse varios días.",
+      "see": "Mokoro, juncos y canales; recorrido y duración dependen del nivel del agua.",
+      "access": "El pin coincide con Boro 2 Mokoro Polers Station. Acordar operador, traslado, chaleco y custodia del vehículo.",
+      "when": "Primera hora, evitando calor y viento.",
+      "skip": "No ir sin confirmación de agua suficiente ni dejar al perro sin cuidador verificado."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Okavango Delta",
+        "url": "https://whc.unesco.org/en/list/1432/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mokoro_In_the_Kavango_Delta_Botswana.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mokoro_In_the_Kavango_Delta_Botswana.jpg",
+        "credit": "Ilka Nghinamupika · CC BY-SA 4.0",
+        "caption": "Mokoro en los canales del delta; el punto de salida de la ficha es Boro 2."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana_2026_12.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Botswana_2026_12.jpg",
+        "credit": "Hp.Baumeler · CC BY-SA 4.0",
+        "caption": "Mokoro y vegetación acuática del Okavango."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana_2026_13.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Botswana_2026_13.jpg",
+        "credit": "Hp.Baumeler · CC BY-SA 4.0",
+        "caption": "Canal del delta visto desde una embarcación tradicional."
+      }
+    ]
   },
   {
     "n": 10,
-    "name": "Panhandle del Okavango · Shakawe y Mohembo",
+    "name": "Shakawe · Panhandle del Okavango",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -18.3667,
-    "lon": 21.8333,
-    "desc": "El «mango de la sartén»: los 100 km en que el Okavango entra en Botsuana encajonado entre fallas antes de abrirse en abanico. Río ancho, papiro, acantilados de arena y una de las MEJORES ZONAS DE AVES DEL PAÍS (picozapato ocasional, abejarucos carmín nidificando en las orillas entre agosto y noviembre, bucerótidos, halcón pescador). Es zona de pesca del pez tigre. Los lodges con camping de la orilla (Drotsky's Cabins, Shakawe River Lodge) no son parque nacional: aquí el perro sí puede estar, previa confirmación con cada alojamiento.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Okavango%20delta%20-%20Botswana%20-%20panoramio.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Okavango%20delta%20-%20Botswana%20-%20panoramio.jpg",
+    "lat": -18.3673364,
+    "lon": 21.8389726,
+    "desc": "Shakawe es la base urbana del Panhandle, la sección estrecha y permanente del Okavango. El interés está en el río, no en el centro de la población.",
+    "credit": "Hp.Baumeler · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakawe_(2019),_Version_A.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Shakawe_(2019),_Version_A.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite descansar, reabastecer y organizar una salida fluvial antes de Tsodilo.",
+      "see": "Canal principal, papiros y aves; pesca y navegación solo con operador.",
+      "access": "El pin marca Shakawe como ancla urbana. Elegir alojamiento con embarcadero y estacionamiento confirmado.",
+      "when": "Una noche o dos, con salida al amanecer o tarde.",
+      "skip": "No usar el pin urbano como embarcadero ni asumir agua apta para consumo."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Okavango",
+        "url": "https://www.botswanatourism.co.bw/explore/okavango-delta"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakawe_(2019),_Version_A.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shakawe_(2019),_Version_A.jpg",
+        "credit": "Hp.Baumeler · CC BY-SA 4.0",
+        "caption": "Canal principal del Okavango en Shakawe."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakawe_(2019),_Version_B.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shakawe_(2019),_Version_B.jpg",
+        "credit": "Hp.Baumeler · CC BY-SA 4.0",
+        "caption": "Ribera de Shakawe en el Panhandle."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakawe_(2019),_Version_C.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shakawe_(2019),_Version_C.jpg",
+        "credit": "Hp.Baumeler · CC BY-SA 4.0",
+        "caption": "Paisaje fluvial del propio Shakawe."
+      }
+    ]
   },
   {
     "n": 11,
-    "name": "Colinas de Tsodilo · «el Louvre del desierto»",
+    "name": "Tsodilo Hills · museo y oficina",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 días",
-    "lat": -18.75,
-    "lon": 21.7333,
-    "desc": "Cuatro cuarcitas que emergen solas de la arena del Kalahari con MÁS DE 4.500 PINTURAS RUPESTRES en unos 500 yacimientos, algunas de hace milenios: rinocerontes, ballenas, elands, escenas de danza. Patrimonio de la Humanidad desde 2001 y lugar sagrado para los san (que lo consideran el sitio donde se creó la vida) y los hambukushu. Las cuatro colinas son el Hombre (1.400 m), la Mujer, el Niño y un cuarto cerro sin nombre. Hay museo pequeño, camping gestionado con duchas y guías locales para los senderos; el panel de Laurens van der Post está junto al camping. A 40 km de Shakawe por pista de tierra bien allanada. NO es parque nacional: el perro puede acompañar, con correa y respeto absoluto al carácter sagrado del sitio.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsodilo%20Hills%20rock%20paintings4.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Tsodilo%20Hills%20rock%20paintings4.jpg",
+    "lat": -18.7585797,
+    "lon": 21.737152,
+    "desc": "El museo de Tsodilo es el punto correcto para registrarse antes de recorrer colinas sagradas con miles de pinturas rupestres.",
+    "credit": "Joachim Huber · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsodilo_Hills_rock_paintings4.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tsodilo_Hills_rock_paintings4.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es uno de los conjuntos de arte rupestre más importantes del continente y exige interpretación local.",
+      "see": "Museo, senderos guiados y paneles de arte; las colinas no son un parque temático ni un recorrido libre.",
+      "access": "El pin coincide con Tsodilo Hills Museum. Registrarse, contratar guía y preguntar por camping y agua.",
+      "when": "Mañana fresca; reservar media jornada o más.",
+      "skip": "No tocar pinturas, abandonar senderos ni fotografiar donde la comunidad lo restrinja."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Tsodilo",
+        "url": "https://whc.unesco.org/en/list/1021/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsodilo_Hills_rock_paintings4.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tsodilo_Hills_rock_paintings4.jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Panel de arte rupestre de Tsodilo Hills."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Animals_Rock_Art_Tsodilo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Animals_Rock_Art_Tsodilo.jpg",
+        "credit": "Oliver Vass · CC BY-SA 3.0",
+        "caption": "Figuras animales pintadas en Tsodilo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Geometric_Shapes_Tsodilo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Geometric_Shapes_Tsodilo.jpg",
+        "credit": "Oliver Vass · CC BY-SA 3.0",
+        "caption": "Motivos geométricos del conjunto rupestre de Tsodilo."
+      }
+    ]
   },
   {
     "n": 12,
-    "name": "Cuevas de Gcwihaba (Drotsky's Caverns)",
+    "name": "Gcwihaba Caves",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 día",
-    "lat": -20.0167,
-    "lon": 21.35,
-    "desc": "Un sistema de galerías de dolomita bajo una colina perdida en el Kalahari noroccidental, con estalactitas, coladas y colonias de murciélagos, descubierto para el mundo por el granjero Martinus Drotsky en 1934 y muy anterior en el conocimiento de los san. Está en la LISTA INDICATIVA DE LA UNESCO junto con las dunas de Koanaka. No hay luz ni pasamanos: se entra con frontal, casco y guía local. Lo que lo convierte en un objetivo 4x4 es el acceso: unos 118 km de arena profunda desde el asfalto de la A35, sin infraestructura ninguna. Imagen: paisaje del Kalahari, no de la cueva — pendiente de sustituir.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalahari%20PICT0036.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Kalahari%20PICT0036.JPG",
+    "lat": -20.0230082,
+    "lon": 21.3551783,
+    "desc": "Gcwihaba es un sistema de cuevas remoto en el Kalahari. Su acceso y visita requieren preparación; el pin marca el objeto real en Google Maps.",
+    "credit": "Monticelli, Cardoso et al. · CC BY 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Niambia_botswanaensis_(10.3897-subtbiol.40.72499)_Figure_4.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Niambia_botswanaensis_(10.3897-subtbiol.40.72499)_Figure_4.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Interesa por sus salas, espeleotemas y aislamiento, muy distintos del delta.",
+      "see": "Cavidades y fauna cavernícola; el recorrido depende de guía y condiciones.",
+      "access": "Confirmar por adelantado oficina, guía, pista, combustible, agua y lugar de acampada.",
+      "when": "Solo con reserva y varios días de margen en tiempo seco.",
+      "skip": "Descartarlo sin contacto confirmado, equipo, dos vehículos o navegación fiable."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Gcwihaba Caves",
+        "url": "https://botswanatourism.co.bw/explore/gcwihaba-caves-and-aha-hills"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Niambia_botswanaensis_(10.3897-subtbiol.40.72499)_Figure_4.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Niambia_botswanaensis_(10.3897-subtbiol.40.72499)_Figure_4.jpg",
+        "credit": "Monticelli, Cardoso et al. · CC BY 4.0",
+        "caption": "Fotografías científicas tomadas en Gcwihaba Caves; muestran roca y cavidades reales."
+      }
+    ]
   },
   {
     "n": 13,
-    "name": "Ghanzi y D'Kar · el país san",
+    "name": "D’Kar · Kuru Art Project",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -21.7,
-    "lon": 21.65,
-    "desc": "Capital ganadera del oeste, sobre el corredor Trans-Kalahari, y punto de reabastecimiento obligado antes de la travesía del Kalahari Central por la puerta de Xade. A 35 km al norte, la aldea de D'Kar acoge el Kuru Art Project y el museo comunitario san: pintura contemporánea naro, artesanía y recorridos guiados por rastreadores que explican el uso de las plantas del desierto. Es la forma menos turística y más honesta de acercarse a la cultura san en Botsuana. Imagen: san en el Kalahari botsuano.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bosquimanos-Grassland%20Bushmen%20Lodge%2C%20Botswana%2003.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Bosquimanos-Grassland%20Bushmen%20Lodge%2C%20Botswana%2003.jpg",
+    "lat": -21.5198275,
+    "lon": 21.9447633,
+    "desc": "Kuru Art Project en D’Kar trabaja con artistas san contemporáneos. Es un estudio y proyecto cultural real, no una aldea presentada como espectáculo.",
+    "credit": "Kuru Art Project · fuente oficial enlazada",
+    "img": "https://kuruart.com/wp-content/uploads/2023/10/32EE3397-7737-42AD-9598-729A8B951873.png",
+    "source": "https://kuruart.com/about-us/",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite conocer voces actuales del Kalahari y comprar obra con trazabilidad.",
+      "see": "Estudio, grabados, pinturas y tienda según actividad del día.",
+      "access": "El pin coincide con Kuru Art Project. Concertar visita; el proyecto indica D’Kar, a unos 35 km de Ghanzi.",
+      "when": "Día laborable con cita o apertura confirmada.",
+      "skip": "No fotografiar personas u obras sin permiso ni esperar demostraciones preparadas."
+    },
+    "links": [
+      {
+        "label": "Kuru Art Project · visita y contacto",
+        "url": "https://kuruart.com/contact-us/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://kuruart.com/wp-content/uploads/2023/10/32EE3397-7737-42AD-9598-729A8B951873.png",
+        "source": "https://kuruart.com/about-us/",
+        "credit": "Kuru Art Project · fuente oficial enlazada",
+        "caption": "Obra y actividad de Kuru Art Project en D’Kar."
+      },
+      {
+        "img": "https://stwetuproduction.blob.core.windows.net/azure-blob-resources-wetu-production/Resources/293841%2F2.jpeg",
+        "source": "https://portfoliocollection.com/activities/botswana/hainaveld-and-ghanzi-farms/kuru-art-project-visit-to-kuru-art-studio-tour-and-craft-and-coffee-shops/",
+        "credit": "Kuru Art Project / Portfolio Collection · fuente enlazada",
+        "caption": "Mural del proyecto artístico de D’Kar; consultar la fuente antes de reutilizar."
+      }
+    ]
   },
   {
     "n": 14,
-    "name": "Kalahari Central (CKGR) · Deception Valley",
+    "name": "CKGR · Deception Valley",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "4–5 días",
-    "lat": -21.4167,
-    "lon": 23.75,
-    "desc": "52.800 km² —como Dinamarca— de la SEGUNDA RESERVA DE FAUNA MÁS GRANDE DEL MUNDO, creada en 1961 para proteger el territorio de los san g//ana y g/wi. Deception Valley es el cauce fósil donde Mark y Delia Owens vivieron siete años y escribieron «Cry of the Kalahari»: praderas amarillas, springbok, oryx y los famosos LEONES DE MELENA NEGRA del Kalahari. Después de las lluvias (enero-abril) la hierba verde atrae manadas grandes y es cuando mejor está, justo cuando las pistas son peores. Autonomía total: sin agua, sin combustible, sin cobertura y con campings reservados con meses —a veces un año— de antelación.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalahari%20PICT0036.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Kalahari%20PICT0036.JPG",
+    "lat": -21.4393011,
+    "lon": 23.8138552,
+    "desc": "Deception Valley es un sector remoto del Central Kalahari Game Reserve. El pin marca el valle en Google Maps, no una puerta ni un campamento garantizado.",
+    "credit": "Winfried Bruenken · CC BY-SA 2.5",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalahari_PICT0036.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kalahari_PICT0036.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece horizontes inmensos y una experiencia de autosuficiencia genuina en el Kalahari.",
+      "see": "Pans, pastizal y fauna estacional; las distancias entre servicios son enormes.",
+      "access": "Reservar campsite y confirmar puerta, ruta y pistas; llevar combustible, agua, comida y comunicaciones de sobra.",
+      "when": "Varios días, idealmente con dos vehículos y llegada diurna.",
+      "skip": "No entrar con mascota, un solo margen de combustible o información antigua de la pista."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Central Kalahari",
+        "url": "https://www.botswanatourism.co.bw/explore/central-kalahari-game-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalahari_PICT0036.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kalahari_PICT0036.JPG",
+        "credit": "Winfried Bruenken · CC BY-SA 2.5",
+        "caption": "Paisaje del Kalahari Central como contexto; no identifica un campsite de Deception Valley."
+      }
+    ]
   },
   {
     "n": 15,
-    "name": "Nxai Pan y los baobabs de Baines",
+    "name": "Baines Baobabs",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2 días",
-    "lat": -20.0,
-    "lon": 24.7833,
-    "desc": "Salina fósil cubierta de hierba al norte de la A3, con una de las pocas migraciones de cebra que quedan en el país (llegan con las lluvias, diciembre-abril) y buena densidad de guepardo y león. Su joya son los BAOBABS DE BAINES: un grupo de siete árboles enormes al borde de la salina de Kudiakam que el pintor y explorador Thomas Baines retrató en 1862, y que hoy siguen casi idénticos a su cuadro — comparar el lienzo con el árbol es una de las experiencias más raras que ofrece África. Acceso por 37 km de arena desde la puerta, y el último tramo hasta los baobabs es arena profunda y salina.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nxai%20Pan%20National%20Park%20%2848593261341%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Nxai%20Pan%20National%20Park%20%2848593261341%29.jpg",
+    "lat": -20.1121417,
+    "lon": 24.7691109,
+    "desc": "Los siete baobabs de Baines forman un hito histórico y paisajístico junto a Kudiakam Pan, dentro de Nxai Pan National Park.",
+    "credit": "Fabio Achilli · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Baines_Baobabs,_Nxai_Pan_(48591925422).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591925422).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es uno de los lugares más fotogénicos de las salinas y conserva una comparación excepcional con la pintura de 1862.",
+      "see": "Baobabs y borde de la salina; el estado del pan cambia por completo con la lluvia.",
+      "access": "El pin coincide con Baines Baobabs. Confirmar reserva, acceso 4x4 y condición de la pista.",
+      "when": "Luz de mañana o tarde y temporada transitable.",
+      "skip": "No cruzar una salina húmeda ni entrar con mascota."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Nxai Pan",
+        "url": "https://www.botswanatourism.co.bw/explore/nxai-pan-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Baines_Baobabs,_Nxai_Pan_(48591925422).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591925422).jpg",
+        "credit": "Fabio Achilli · CC BY 2.0",
+        "caption": "Conjunto de Baines Baobabs junto a Kudiakam Pan."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Baines_Baobabs,_Nxai_Pan_(48591815006).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591815006).jpg",
+        "credit": "Fabio Achilli · CC BY 2.0",
+        "caption": "Baobabs vistos desde el borde de la salina."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Baines_Baobabs,_Nxai_Pan_(48591783816).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Baines_Baobabs,_Nxai_Pan_(48591783816).jpg",
+        "credit": "Fabio Achilli · CC BY 2.0",
+        "caption": "Escala del afloramiento y sus baobabs."
+      }
+    ]
   },
   {
     "n": 16,
-    "name": "Parque Nacional de Makgadikgadi Pans y el río Boteti",
+    "name": "Makgadikgadi · acceso de Khumaga",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2–3 días",
-    "lat": -20.4667,
-    "lon": 24.5167,
-    "desc": "El borde occidental del sistema de salinas, donde el río Boteti —el brazo que escapa del Delta del Okavango— marca el límite del parque y concentra en la seca la SEGUNDA MIGRACIÓN DE CEBRA MÁS LARGA DE ÁFRICA: unos 25.000 animales entre las salinas y el Boteti, con el récord conocido de recorrido migratorio de cebra del continente. Camping público de Khumaga junto al río, con el ferry de cuerda para los que vienen del pueblo. Al este, la pradera se convierte en costra blanca y el horizonte deja de tener referencias.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Makgadikgadi%20Basin%20-%20Botswana%20-%20panoramio.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Makgadikgadi%20Basin%20-%20Botswana%20-%20panoramio.jpg",
+    "lat": -20.4554677,
+    "lon": 24.5164678,
+    "desc": "Khumaga es el acceso occidental de Makgadikgadi Pans National Park junto al Boteti; el cruce puede depender de puente o transbordador operativo.",
+    "credit": "EinfachFrankfurt · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Auto-_und_Personenf%C3%A4hre_%C3%BCber_den_Boteti.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Auto-_und_Personenf%C3%A4hre_%C3%BCber_den_Boteti.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Da acceso a una ribera con fauna y a paisajes distintos de la salina abierta.",
+      "see": "Río Boteti, escarpa y fauna posible; el ferry no debe darse por garantizado.",
+      "access": "El pin coincide con Khumaga Camp. Confirmar con DWNP la vía de acceso y reservar camping.",
+      "when": "Dos noches y llegada con luz.",
+      "skip": "No entrar con mascota ni depender de un transbordador sin confirmación reciente."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Makgadikgadi",
+        "url": "https://www.botswanatourism.co.bw/explore/makgadikgadi-pans-game-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Auto-_und_Personenf%C3%A4hre_%C3%BCber_den_Boteti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Auto-_und_Personenf%C3%A4hre_%C3%BCber_den_Boteti.jpg",
+        "credit": "EinfachFrankfurt · CC BY-SA 4.0",
+        "caption": "Transbordador del Boteti; confirmar si sigue siendo la modalidad operativa de cruce."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Makgadikgadi_Basin_-_Botswana_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Makgadikgadi_Basin_-_Botswana_-_panoramio.jpg",
+        "credit": "Diego Cue · CC BY-SA 3.0",
+        "caption": "Paisaje de Makgadikgadi como contexto del sector Khumaga."
+      }
+    ]
   },
   {
     "n": 17,
-    "name": "Kubu Island (Lekhubu) y sus baobabs",
+    "name": "Kubu Island · Lekhubu",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -20.8931,
-    "lon": 25.825,
-    "desc": "EL PUNTO MÁS EXTRAÑO Y MÁS BONITO DE BOTSUANA: un islote de granito de un kilómetro, coronado de baobabs retorcidos y rodeado por un mar blanco de sal absolutamente plano hasta el horizonte, en el borde suroeste de Sua Pan. Fue una isla de verdad, en el gigantesco lago Makgadikgadi; la playa de guijarros redondeados y las capas de excremento fosilizado de aves marinas lo demuestran. Hay un muro de piedra semicircular de origen incierto y es MONUMENTO NACIONAL y sitio sagrado. Lo gestiona el Gaing-O Community Trust, del pueblo de Mmatshumo: 13 parcelas de acampada con letrina seca y nada más. Cielo nocturno sin rival.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/KubuIsland%2002.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:KubuIsland%2002.jpg",
+    "lat": -20.893,
+    "lon": 25.819,
+    "desc": "Lekhubu o Kubu Island es un afloramiento granítico con baobabs en medio de Sowa Pan, gestionado por un fideicomiso comunitario.",
+    "credit": "Hein Waschefort · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boababs_at_Kubu.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Boababs_at_Kubu.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la experiencia paisajística más singular de las salinas cuando el acceso es seguro.",
+      "see": "Baobabs, roca y horizonte blanco; no es una isla rodeada de agua en la estación seca.",
+      "access": "El pin coincide con Kubu Island. Reservar y obtener ruta y estado del pan del gestor comunitario.",
+      "when": "Solo en condiciones secas verificadas, con dos vehículos y navegación.",
+      "skip": "No cruzar el pan con humedad ni circular fuera de trazas autorizadas."
+    },
+    "links": [
+      {
+        "label": "Gaing O Community Trust · Lekhubu",
+        "url": "https://www.kubuisland.com/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boababs_at_Kubu.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Boababs_at_Kubu.jpg",
+        "credit": "Hein Waschefort · CC BY-SA 3.0",
+        "caption": "Baobabs sobre la roca de Kubu Island."
+      }
+    ]
   },
   {
     "n": 18,
-    "name": "Santuario de aves de Nata y el norte de Sua Pan",
+    "name": "Nata Bird Sanctuary",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -20.3333,
-    "lon": 26.1667,
-    "desc": "230 km² en el delta del río Nata, en el extremo norte de Sua Pan, gestionados desde 1993 por cuatro comunidades locales que sacaron su ganado voluntariamente: fue el PRIMER PROYECTO DE CONSERVACIÓN COMUNITARIA DE BOTSUANA. Cuando el pan tiene agua (enero-abril, con suerte hasta junio) se llena de DECENAS DE MILES DE FLAMENCOS enanos y comunes y de pelícanos; en seco queda la costra blanca y el mirador sobre la nada. Camping propio, y al ser reserva comunitaria y no parque nacional es un candidato realista para entrar con el perro (confirmar con el trust).",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nata%20Bird%20Sanctuary%2C%20Botswana%20%282652909967%29.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Nata%20Bird%20Sanctuary%2C%20Botswana%20%282652909967%29.jpg",
+    "lat": -20.3358281,
+    "lon": 26.2540675,
+    "desc": "Santuario comunitario junto a Nata con acceso a las orillas de Sua Pan. Las concentraciones de aves dependen del agua y la estación.",
+    "credit": "Joachim Huber · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nata_Bird_Sanctuary,_Botswana_(2652921427).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nata_Bird_Sanctuary,_Botswana_(2652921427).jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la forma más sencilla de aproximarse a las salinas y su avifauna sin una travesía remota.",
+      "see": "Miradores, salina y aves variables; no se prometen flamencos.",
+      "access": "El pin coincide con Nata Bird Sanctuary. Consultar estado de pistas y observaciones recientes al entrar.",
+      "when": "Amanecer o tarde, especialmente tras periodos con agua.",
+      "skip": "Omitirlo si el acceso está anegado o si se espera una especie concreta como garantía."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Nata Bird Sanctuary",
+        "url": "https://www.botswanatourism.co.bw/explore/nxai-pan-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nata_Bird_Sanctuary,_Botswana_(2652921427).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nata_Bird_Sanctuary,_Botswana_(2652921427).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Orilla y aves en Nata Bird Sanctuary."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nata_Bird_Sanctuary,_Botswana_(2652907113).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nata_Bird_Sanctuary,_Botswana_(2652907113).jpg",
+        "credit": "Joachim Huber · CC BY-SA 2.0",
+        "caption": "Paisaje de Sua Pan desde el santuario."
+      }
+    ]
   },
   {
     "n": 19,
-    "name": "Khama Rhino Sanctuary y Serowe",
+    "name": "Khama Rhino Sanctuary · entrada",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "1–2 noches",
-    "lat": -22.2167,
-    "lon": 26.6333,
-    "desc": "Santuario comunitario de 8.585 ha creado en 1992 por el pueblo de Serowe sobre el antiguo abrevadero de Serwe: es HOY LA MEJOR OPCIÓN DE VER RINOCERONTE BLANCO Y NEGRO en Botsuana y el sitio donde el país reconstruyó su población tras la caza furtiva. Se recorre en vehículo propio por pistas de arena, tiene camping con agua y piscina, y está a 25 km de Serowe, capital tradicional bangwato y sede del Khama III Memorial Museum (la historia de los tres jefes que viajaron a Londres en 1895 y de Seretse Khama, primer presidente). Al no ser parque nacional sino fideicomiso comunitario, la política de mascotas hay que preguntarla directamente — pero al haber rinocerontes, esperar un no. Imagen: rinoceronte blanco, no del propio santuario.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Rhino%20Image%20002.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:White%20Rhino%20Image%20002.jpg",
+    "lat": -22.23444,
+    "lon": 26.72008,
+    "desc": "Reserva comunitaria cercada cerca de Serowe centrada en la conservación del rinoceronte. La entrada real sustituye el pin urbano anterior.",
+    "credit": "Diego Delso · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rinoceronte_blanco_(Ceratotherium_simum),_Santuario_de_Rinocerontes_Khama,_Botsuana,_2018-08-02,_DD_06.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Rinoceronte_blanco_(Ceratotherium_simum),_Santuario_de_Rinocerontes_Khama,_Botsuana,_2018-08-02,_DD_06.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece una escala de fauna manejable entre Makgadikgadi y el sureste.",
+      "see": "Circuitos de conducción y rinocerontes posibles sin garantía de encuentro.",
+      "access": "El pin coincide con la entrada de Khama Rhino Sanctuary. Reservar alojamiento y confirmar reglas del vehículo.",
+      "when": "Una o dos noches, con circuitos a primera o última hora.",
+      "skip": "No entrar con mascota ni abandonar las rutas permitidas."
+    },
+    "links": [
+      {
+        "label": "Khama Rhino Sanctuary",
+        "url": "https://www.khamarhinosanctuary.org.bw/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rinoceronte_blanco_(Ceratotherium_simum),_Santuario_de_Rinocerontes_Khama,_Botsuana,_2018-08-02,_DD_06.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Rinoceronte_blanco_(Ceratotherium_simum),_Santuario_de_Rinocerontes_Khama,_Botsuana,_2018-08-02,_DD_06.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Rinoceronte blanco fotografiado en Khama Rhino Sanctuary."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rinoceronte_blanco_(Ceratotherium_simum),_Santuario_de_Rinocerontes_Khama,_Botsuana,_2018-08-02,_DD_10.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Rinoceronte_blanco_(Ceratotherium_simum),_Santuario_de_Rinocerontes_Khama,_Botsuana,_2018-08-02,_DD_10.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Otro encuentro dentro del santuario; no se garantiza repetirlo."
+      }
+    ]
   },
   {
     "n": 20,
-    "name": "Tuli Block y la reserva de Northern Tuli",
+    "name": "Northern Tuli · acceso de Pont Drift",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "prohibido",
     "time": "2 días",
-    "lat": -22.2,
-    "lon": 29.0333,
-    "desc": "La franja de fincas privadas a lo largo del Limpopo, en el extremo oriental del país, y en su punto más al este la Northern Tuli Game Reserve: 71.000 ha de TIERRA PRIVADA CONSERVADA —una de las mayores de África—, con paisaje de arenisca roja, koppies, bosques de mashatu y la mayor población de elefantes en tierra privada del continente. Es también territorio del leopardo y de una gran colonia de aves rapaces. Encaja perfectamente como última parada antes de salir a Sudáfrica por Martin's Drift o Pont Drift. Imagen: cebras en Botsuana, no del propio Tuli — pendiente de sustituir.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zebra%20Botswana%20edit02.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Zebra%20Botswana%20edit02.jpg",
+    "lat": -22.2140642,
+    "lon": 29.1383946,
+    "desc": "Pont Drift es el paso del Limpopo que da acceso al Northern Tuli. El cruce puede ser vado o transporte alternativo según el nivel del río.",
+    "credit": "Stefanie · CC BY 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions_Tuli_Block_Botswana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lions_Tuli_Block_Botswana.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite enlazar un paisaje rocoso e histórico con la frontera sudafricana.",
+      "see": "Río Limpopo, paisaje del Tuli y restos históricos; las reservas privadas exigen reserva.",
+      "access": "El pin coincide con Pont Drift Border Post. Confirmar apertura, modalidad de cruce y admisión del vehículo.",
+      "when": "De día y con margen suficiente para ambos puestos.",
+      "skip": "No intentar vadear con caudal ni asumir que este paso admite todo vehículo o mascota."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Northern Tuli",
+        "url": "https://botswanatourism.co.bw/explore/northern-tuli-game-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions_Tuli_Block_Botswana.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lions_Tuli_Block_Botswana.jpg",
+        "credit": "Stefanie · CC BY 3.0",
+        "caption": "Leones fotografiados en Tuli Block; el avistamiento no se garantiza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Tuli_foundations.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_Tuli_foundations.jpg",
+        "credit": "Todinirunganga · CC BY-SA 4.0",
+        "caption": "Restos de Fort Tuli dentro del paisaje histórico de la zona."
+      }
+    ]
   },
   {
     "n": 21,
-    "name": "Gaborone",
+    "name": "Three Dikgosi Monument · Gaborone",
     "cat": "Ciudad · servicios",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -24.6583,
-    "lon": 25.9122,
-    "desc": "Capital del país y única gran plaza del sur: aquí están la sede central del DWNP (donde se pagan y confirman reservas de parques), la Civil Aviation Authority y el Departamento de Servicios Veterinarios —los tres trámites que condicionan esta ficha—, además de talleres, concesionarios y el mejor abastecimiento antes de Sudáfrica. Solo tiene sentido pasar por aquí si se elige la variante oeste con salida por Tlokweng o Pioneer Gate. A 15 km, la reserva de Mokolodi ofrece fauna ligera sin meterse en un parque nacional.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Botswana%2C%20Gaborone%20Central%20Business%20District.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Botswana%2C%20Gaborone%20Central%20Business%20District.jpg",
+    "lat": -24.6449002,
+    "lon": 25.9073942,
+    "desc": "Monumento de Gaborone dedicado a Khama III, Sebele I y Bathoen I, los tres dikgosi que viajaron a Gran Bretaña en 1895.",
+    "credit": "CivArmy · CC BY 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Three_Dikgosi_Monument,_Gaborone,_Botswana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Three_Dikgosi_Monument,_Gaborone,_Botswana.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Resume un episodio decisivo de la formación territorial del país en una visita urbana breve.",
+      "see": "Tres figuras de bronce y paneles; el distrito gubernamental aporta contexto contemporáneo.",
+      "access": "El pin coincide con Three Dikgosi Monument. Llegar de día y estacionar en zona formal.",
+      "when": "Una hora, combinada con gestiones en Gaborone.",
+      "skip": "No convertirlo en sustituto de Tsodilo o D’Kar; es una lectura política distinta."
+    },
+    "links": [
+      {
+        "label": "Botswana Tourism · Gaborone",
+        "url": "https://www.botswanatourism.co.bw/explore/gaborone"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Three_Dikgosi_Monument,_Gaborone,_Botswana.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Three_Dikgosi_Monument,_Gaborone,_Botswana.jpg",
+        "credit": "CivArmy · CC BY 4.0",
+        "caption": "Las tres figuras de bronce del Three Dikgosi Monument."
+      }
+    ]
   }
 ]

@@ -1,0 +1,1031 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Christmas Pass",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -18.94614,
+    "lon": 32.63443,
+    "d": 1.5
+   },
+   {
+    "n": "Christmas Pass",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -18.93595,
+    "lon": 32.62432,
+    "d": 2.9
+   },
+   {
+    "n": "Zimbabwe College of Forestry",
+    "k": "amenity",
+    "v": "college",
+    "lat": -18.93469,
+    "lon": 32.62799,
+    "d": 2.7
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Vumba Botanical Garden",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -19.11513,
+    "lon": 32.78138,
+    "d": 0.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Mount Nyangani",
+    "k": "natural",
+    "v": "peak",
+    "lat": -18.30137,
+    "lon": 32.84191,
+    "d": 0.6
+   },
+   {
+    "n": "Track to Mount Inyangani Summit",
+    "k": "highway",
+    "v": "path",
+    "lat": -18.28849,
+    "lon": 32.83923,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Pungwe Falls Viewpoint",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -18.426,
+    "lon": 32.78231,
+    "d": 6.8
+   },
+   {
+    "n": "Viewpoint Access Road",
+    "k": "highway",
+    "v": "service",
+    "lat": -17.98453,
+    "lon": 25.83231,
+    "d": 737.3
+   },
+   {
+    "n": "The Elephant Camp Victoria Falls",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -17.97399,
+    "lon": 25.84767,
+    "d": 735.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Chimanimani National Park",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -19.83621,
+    "lon": 33.01224,
+    "d": 15.2
+   },
+   {
+    "n": "Chimanimani National Park, The Corner, campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -19.70169,
+    "lon": 32.96107,
+    "d": 14.9
+   },
+   {
+    "n": "Zimparks office - Chimanimani Park, The Corner",
+    "k": "amenity",
+    "v": "police",
+    "lat": -19.69564,
+    "lon": 32.9548,
+    "d": 15.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Great Zimbabwe",
+    "k": "historic",
+    "v": "archaeological_site",
+    "lat": -20.27094,
+    "lon": 30.9332,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Lake Macilwane Recreational Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -17.91914,
+    "lon": 30.81909,
+    "d": 254.0
+   },
+   {
+    "n": "Access Road to Lake Macilwane Recreational Park (South Bank Game Park)",
+    "k": "highway",
+    "v": "track",
+    "lat": -17.88732,
+    "lon": 30.7616,
+    "d": 258.0
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "chilojo cliffs",
+    "k": "natural",
+    "v": "cliff",
+    "lat": -21.44938,
+    "lon": 32.08209,
+    "d": 0.7
+   },
+   {
+    "n": "Chilojo Cliffs Viewpoint West",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -21.44972,
+    "lon": 32.09773,
+    "d": 1.5
+   },
+   {
+    "n": "Chilojo Cliffs Viewpoint East",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -21.4172,
+    "lon": 32.17365,
+    "d": 9.6
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "The Natural History Museum of Zimbabwe",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -20.15579,
+    "lon": 28.59642,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Worlds View Campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -20.50227,
+    "lon": 28.42654,
+    "d": 9.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Khami Ruins (World Heritage Site)",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -20.14424,
+    "lon": 28.42327,
+    "d": 0.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Hwange Main Camp",
+    "k": "place",
+    "v": "village",
+    "lat": -18.73206,
+    "lon": 26.95539,
+    "d": 0.4
+   },
+   {
+    "n": "Hwange Main Camp Airfield (CLOSED)",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -18.7248,
+    "lon": 26.95625,
+    "d": 0.8
+   },
+   {
+    "n": "Hwange Main Camp Road",
+    "k": "highway",
+    "v": "tertiary",
+    "lat": -18.6184,
+    "lon": 27.00562,
+    "d": 13.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Chamabonda Entrance Gate",
+    "k": "building",
+    "v": "yes",
+    "lat": -17.96924,
+    "lon": 25.80808,
+    "d": 6.4
+   },
+   {
+    "n": "Victoria Falls River Lodge Main Area",
+    "k": "building",
+    "v": "yes",
+    "lat": -17.87286,
+    "lon": 25.79006,
+    "d": 8.4
+   },
+   {
+    "n": "Main Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": -17.92392,
+    "lon": 25.85183,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Victoria Falls Bridge",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -17.92672,
+    "lon": 25.86203,
+    "d": 0.5
+   },
+   {
+    "n": "Victoria Falls Bridge",
+    "k": "man_made",
+    "v": "bridge",
+    "lat": -17.92829,
+    "lon": 25.85715,
+    "d": 0.0
+   },
+   {
+    "n": "Victoria Falls Bridge Visitor Centre",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -17.92959,
+    "lon": 25.85768,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Zambezi National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -17.92761,
+    "lon": 25.68091,
+    "d": 6.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "National Gallery of Zimbabwe",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -17.8249,
+    "lon": 31.04896,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Domboshawa",
+    "k": "place",
+    "v": "village",
+    "lat": -17.6201,
+    "lon": 31.15113,
+    "d": 2.6
+   },
+   {
+    "n": "Domboshawa",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -17.60823,
+    "lon": 31.16885,
+    "d": 0.5
+   },
+   {
+    "n": "Domboshawa Road",
+    "k": "highway",
+    "v": "secondary",
+    "lat": -17.60256,
+    "lon": 31.16487,
+    "d": 1.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "ph": [
+   {
+    "n": "Mana Pools Clinic",
+    "k": "amenity",
+    "v": "clinic",
+    "lat": -15.72126,
+    "lon": 29.36201,
+    "d": 0.8
+   },
+   {
+    "n": "Mana Pools Workshop",
+    "k": "building",
+    "v": "yes",
+    "lat": -15.72237,
+    "lon": 29.36248,
+    "d": 0.8
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-21",
+  "ph": [
+   {
+    "n": "Kariba Dam",
+    "k": "waterway",
+    "v": "dam",
+    "lat": -16.52144,
+    "lon": 28.76146,
+    "d": 0.1
+   },
+   {
+    "n": "Kariba Dam Wall view point",
+    "k": "amenity",
+    "v": "parking",
+    "lat": -16.5227,
+    "lon": 28.76426,
+    "d": 0.3
+   },
+   {
+    "n": "Dam wall viewpoint & curios",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -16.52316,
+    "lon": 28.76665,
+    "d": 0.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-22",
+  "ph": [
+   {
+    "n": "Mucheni Gorge",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -17.65351,
+    "lon": 27.87592,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Forbes Border Post",
+    "k": "building",
+    "v": "yes",
+    "lat": -19.0053,
+    "lon": 32.71244,
+    "d": 0.0
+   },
+   {
+    "n": "Forbes",
+    "k": "building",
+    "v": "yes",
+    "lat": -17.87091,
+    "lon": 31.14224,
+    "d": 208.2
+   },
+   {
+    "n": "Forbes Road",
+    "k": "highway",
+    "v": "residential",
+    "lat": -17.9239,
+    "lon": 31.01157,
+    "d": 216.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Kazungula",
+    "k": "place",
+    "v": "town",
+    "lat": -17.78779,
+    "lon": 25.27602,
+    "d": 1.9
+   },
+   {
+    "n": "Kazungula",
+    "k": "place",
+    "v": "village",
+    "lat": -17.80529,
+    "lon": 25.23567,
+    "d": 2.8
+   },
+   {
+    "n": "Kazungula Bridge",
+    "k": "man_made",
+    "v": "bridge",
+    "lat": -17.79102,
+    "lon": 25.26245,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Plumtree",
+    "k": "place",
+    "v": "town",
+    "lat": -20.48807,
+    "lon": 27.8056,
+    "d": 2.4
+   },
+   {
+    "n": "Plumtree",
+    "k": "railway",
+    "v": "station",
+    "lat": -20.48902,
+    "lon": 27.80768,
+    "d": 2.6
+   },
+   {
+    "n": "Plumtree Airport (CLOSED)",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -20.4864,
+    "lon": 27.78982,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Beitbridge",
+    "k": "place",
+    "v": "town",
+    "lat": -22.19862,
+    "lon": 29.99175,
+    "d": 2.2
+   },
+   {
+    "n": "Beitbridge",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -21.81297,
+    "lon": 29.94154,
+    "d": 45.3
+   },
+   {
+    "n": "Beitbridge",
+    "k": "railway",
+    "v": "station",
+    "lat": -22.19056,
+    "lon": 30.01361,
+    "d": 3.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Chirundu",
+    "k": "place",
+    "v": "town",
+    "lat": -16.03198,
+    "lon": 28.85148,
+    "d": 0.2
+   },
+   {
+    "n": "Chirundu",
+    "k": "place",
+    "v": "village",
+    "lat": -16.04813,
+    "lon": 28.86298,
+    "d": 2.2
+   },
+   {
+    "n": "Chirundu",
+    "k": "leisure",
+    "v": "pitch",
+    "lat": -16.04386,
+    "lon": 28.86379,
+    "d": 1.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Embassy of Spain",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -17.80318,
+    "lon": 31.04404,
+    "d": 1.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [],
+  "wd": []
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Mater Dei Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -20.18209,
+    "lon": 28.59709,
+    "d": 3.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Mutare Provincial Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -18.9643,
+    "lon": 32.66294,
+    "d": 1.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Mutare",
+    "k": "place",
+    "v": "city",
+    "lat": -18.97466,
+    "lon": 32.67047,
+    "d": 447.7
+   },
+   {
+    "n": "Mutare",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -19.24886,
+    "lon": 32.43775,
+    "d": 415.8
+   },
+   {
+    "n": "Mutare",
+    "k": "railway",
+    "v": "station",
+    "lat": -18.98408,
+    "lon": 32.66331,
+    "d": 446.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Chiredzi",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -21.41646,
+    "lon": 31.82334,
+    "d": 43.9
+   },
+   {
+    "n": "Chiredzi",
+    "k": "place",
+    "v": "town",
+    "lat": -21.04529,
+    "lon": 31.66888,
+    "d": 0.6
+   },
+   {
+    "n": "Chiredzi",
+    "k": "waterway",
+    "v": "river",
+    "lat": -20.97822,
+    "lon": 31.68966,
+    "d": 8.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Hwange Main Camp",
+    "k": "place",
+    "v": "village",
+    "lat": -18.73206,
+    "lon": 26.95539,
+    "d": 17.0
+   },
+   {
+    "n": "Hwange Main Camp Road",
+    "k": "highway",
+    "v": "tertiary",
+    "lat": -18.6184,
+    "lon": 27.00562,
+    "d": 16.4
+   },
+   {
+    "n": "Hwange Main Camp Airfield (CLOSED)",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -18.7248,
+    "lon": 26.95625,
+    "d": 16.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Karoi",
+    "k": "place",
+    "v": "town",
+    "lat": -16.81904,
+    "lon": 29.68369,
+    "d": 0.3
+   },
+   {
+    "n": "Karoi Dam",
+    "k": "water",
+    "v": "reservoir",
+    "lat": -16.82451,
+    "lon": 29.69974,
+    "d": 2.0
+   },
+   {
+    "n": "Karoi River",
+    "k": "waterway",
+    "v": "river",
+    "lat": -16.9257,
+    "lon": 29.77611,
+    "d": 15.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "ph": [
+   {
+    "n": "ZimParks",
+    "k": "shop",
+    "v": "travel_agency",
+    "lat": -20.16416,
+    "lon": 28.57896,
+    "d": 253.4
+   },
+   {
+    "n": "Zimparks Kazuma Pan National Park HQ",
+    "k": "office",
+    "v": "government",
+    "lat": -18.29324,
+    "lon": 25.6961,
+    "d": 115.5
+   },
+   {
+    "n": "Zimparks Staff Accommodation",
+    "k": "tourism",
+    "v": "guest_house",
+    "lat": -17.3546,
+    "lon": 30.13144,
+    "d": 425.0
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-16",
+  "ph": [
+   {
+    "n": "Gonarezhou National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -21.68149,
+    "lon": 31.83465,
+    "d": 42.7
+   },
+   {
+    "n": "Parque Transfronteiriço Gonarezhou",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -21.85735,
+    "lon": 32.15833,
+    "d": 68.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-17",
+  "ph": [
+   {
+    "n": "Bulawayo",
+    "k": "place",
+    "v": "city",
+    "lat": -20.15606,
+    "lon": 28.58871,
+    "d": 0.9
+   },
+   {
+    "n": "Bulawayo",
+    "k": "place",
+    "v": "state",
+    "lat": -20.10539,
+    "lon": 28.54269,
+    "d": 6.5
+   },
+   {
+    "n": "Bulawayo",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -20.11111,
+    "lon": 28.53568,
+    "d": 6.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-18",
+  "ph": [
+   {
+    "n": "Harare",
+    "k": "place",
+    "v": "city",
+    "lat": -17.83177,
+    "lon": 31.04569,
+    "d": 0.7
+   },
+   {
+    "n": "Harare",
+    "k": "place",
+    "v": "state",
+    "lat": -17.8567,
+    "lon": 31.06016,
+    "d": 3.2
+   },
+   {
+    "n": "Harare",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -17.85385,
+    "lon": 31.05703,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]

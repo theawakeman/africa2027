@@ -14,7 +14,8 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Cerrado: 92/92 | Cerrado: 92/92 | Cerrado: 92/92 con foto y enlace; 89 galerías | Pendiente |
 | 5 | Zambia, Tanzania, Kenia, Mozambique | Cerrado | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 con foto; 74 galerías | Pendiente |
 | 6 | Uganda, Ruanda, Malaui | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con foto; 58 galerías | Pendiente |
-| 7+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| 7 | Zimbabue, Botsuana, Sudáfrica | Cerrado | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 con foto; 44 galerías | Pendiente |
+| 8+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
 
 ## Línea de corte de la nueva pasada PDI
 
@@ -23,9 +24,9 @@ empieza en el **grupo 4**. Los grupos 1–3 no deben interpretarse como revisado
 en esas tres columnas: se volverá a ellos en una pasada retroactiva.
 
 El detalle cuantitativo está en [`audit/pdi/grupo4.md`](pdi/grupo4.md),
-[`audit/pdi/grupo5.md`](pdi/grupo5.md) y
-[`audit/pdi/grupo6.md`](pdi/grupo6.md). Los grupos 4–6 ya cumplen el nuevo
-estándar en el contenido fuente. El grupo 7 es, por tanto, el primer grupo
+[`audit/pdi/grupo5.md`](pdi/grupo5.md), [`audit/pdi/grupo6.md`](pdi/grupo6.md)
+y [`audit/pdi/grupo7.md`](pdi/grupo7.md). Los grupos 4–7 ya cumplen el nuevo
+estándar en el contenido fuente. El grupo 8 es, por tanto, el primer grupo
 completamente intacto. Al terminar los bloques pendientes se volverá a los
 grupos 1–3 para aplicarles exactamente el mismo criterio ampliado.
 

@@ -1,0 +1,1026 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Kazungula Bridge",
+    "k": "man_made",
+    "v": "bridge",
+    "lat": -17.79102,
+    "lon": 25.26245,
+    "d": 0.1
+   },
+   {
+    "n": "Kazungula Bridge",
+    "k": "amenity",
+    "v": "weighbridge",
+    "lat": -17.76985,
+    "lon": 25.28679,
+    "d": 3.4
+   },
+   {
+    "n": "Kazungula Bridge Project Office",
+    "k": "building",
+    "v": "office",
+    "lat": -17.79646,
+    "lon": 25.26027,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Sedudu Gate- Chobe River Front",
+    "k": "leisure",
+    "v": "park",
+    "lat": -17.8433,
+    "lon": 25.14339,
+    "d": 0.1
+   },
+   {
+    "n": "Sedudu Gate - Chobe National Park",
+    "k": "building",
+    "v": "yes",
+    "lat": -17.84335,
+    "lon": 25.14343,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Savuti Elephant Camp",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -18.56996,
+    "lon": 24.0549,
+    "d": 1.1
+   },
+   {
+    "n": "Camp Savuti",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -18.56552,
+    "lon": 24.06319,
+    "d": 0.1
+   },
+   {
+    "n": "Savuti Bush Camp",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -18.59672,
+    "lon": 23.67404,
+    "d": 41.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Linyanti Campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -18.29548,
+    "lon": 23.90868,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "South gate - Khwai",
+    "k": "highway",
+    "v": "track",
+    "lat": -19.37669,
+    "lon": 23.66368,
+    "d": 24.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "S.Gate - Xakanaxa",
+    "k": "highway",
+    "v": "track",
+    "lat": -19.42162,
+    "lon": 23.6461,
+    "d": 36.2
+   },
+   {
+    "n": "Xakanaxa Camp",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -19.18093,
+    "lon": 23.40985,
+    "d": 0.3
+   },
+   {
+    "n": "Xakanaxa Camp Site",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -19.18258,
+    "lon": 23.41541,
+    "d": 0.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Mboma Island",
+    "k": "place",
+    "v": "island",
+    "lat": -19.21101,
+    "lon": 23.30786,
+    "d": 4.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Nhabe Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -19.97884,
+    "lon": 23.42876,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Mokoro Station",
+    "k": "amenity",
+    "v": "boat_storage",
+    "lat": -19.84644,
+    "lon": 23.40251,
+    "d": 0.0
+   },
+   {
+    "n": "Daunara OKMCT Mokoro Station",
+    "k": "leisure",
+    "v": "slipway",
+    "lat": -19.74852,
+    "lon": 23.47629,
+    "d": 13.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Shakawe",
+    "k": "place",
+    "v": "town",
+    "lat": -18.36328,
+    "lon": 21.83985,
+    "d": 0.5
+   },
+   {
+    "n": "BDF--Botswana Defense Force",
+    "k": "landuse",
+    "v": "military",
+    "lat": -18.36278,
+    "lon": 21.84889,
+    "d": 1.2
+   },
+   {
+    "n": "Shakawe Cultural Library",
+    "k": "amenity",
+    "v": "library",
+    "lat": -18.35406,
+    "lon": 21.83835,
+    "d": 1.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Tsodilo Hills World Heritage Site",
+    "k": "boundary",
+    "v": "protected_area",
+    "lat": -18.74312,
+    "lon": 21.73882,
+    "d": 1.7
+   },
+   {
+    "n": "Tsodilo Hills Airstrip",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -18.78048,
+    "lon": 21.74236,
+    "d": 2.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Gcwihaba Caves",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -20.02184,
+    "lon": 21.3551,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Kuru Language Project",
+    "k": "building",
+    "v": "yes",
+    "lat": -21.518,
+    "lon": 21.94199,
+    "d": 0.4
+   },
+   {
+    "n": "Kuru Art",
+    "k": "shop",
+    "v": "gift",
+    "lat": -21.5198,
+    "lon": 21.94479,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Baines Baobabs",
+    "k": "historic",
+    "v": "monument",
+    "lat": -20.11223,
+    "lon": 24.76899,
+    "d": 0.0
+   },
+   {
+    "n": "Baines Baobabs",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -20.11286,
+    "lon": 24.77006,
+    "d": 0.1
+   },
+   {
+    "n": "Baines Baobabs (Campsite 1)",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -20.11801,
+    "lon": 24.76467,
+    "d": 0.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Makgadikgadi Adventure Camp",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -20.76269,
+    "lon": 25.73843,
+    "d": 131.7
+   },
+   {
+    "n": "Boteti River Camp",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -20.46922,
+    "lon": 24.51497,
+    "d": 1.5
+   },
+   {
+    "n": "Khumaga Campground",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -20.45474,
+    "lon": 24.51634,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "Lekhubu Island",
+    "k": "place",
+    "v": "island",
+    "lat": -20.8936,
+    "lon": 25.81124,
+    "d": 0.8
+   },
+   {
+    "n": "Kubu island",
+    "k": "natural",
+    "v": "peak",
+    "lat": -20.88956,
+    "lon": 25.82959,
+    "d": 1.2
+   },
+   {
+    "n": "Kubu Island Ring Track",
+    "k": "highway",
+    "v": "track",
+    "lat": -20.89087,
+    "lon": 25.82357,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Nata Bird Sanctuary",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -20.31735,
+    "lon": 26.25219,
+    "d": 2.1
+   },
+   {
+    "n": "Nata Bird Sanctuary",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -20.31735,
+    "lon": 26.25219,
+    "d": 2.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "ph": [
+   {
+    "n": "Khama Rhino Sanctuary",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -22.22767,
+    "lon": 26.68344,
+    "d": 3.8
+   },
+   {
+    "n": "Khama Rhino Sanctuary",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -22.22767,
+    "lon": 26.68344,
+    "d": 3.8
+   },
+   {
+    "n": "Khama Rhino Sanctuary",
+    "k": "office",
+    "v": "government",
+    "lat": -22.23444,
+    "lon": 26.71998,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "ph": [
+   {
+    "n": "Pont Drift Border Post",
+    "k": "office",
+    "v": "government",
+    "lat": -22.21696,
+    "lon": 29.13972,
+    "d": 0.3
+   },
+   {
+    "n": "Pont Drift Border",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -22.21744,
+    "lon": 29.14061,
+    "d": 0.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "ph": [
+   {
+    "n": "Three Dikgosi Monument",
+    "k": "historic",
+    "v": "monument",
+    "lat": -24.64489,
+    "lon": 25.90738,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Kazungula Road",
+    "k": "highway",
+    "v": "trunk",
+    "lat": -17.79267,
+    "lon": 25.19148,
+    "d": 7.6
+   },
+   {
+    "n": "Kazungula Road Boarder",
+    "k": "building",
+    "v": "yes",
+    "lat": -17.81513,
+    "lon": 25.26187,
+    "d": 2.9
+   },
+   {
+    "n": "Kazungula Market",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": -17.79061,
+    "lon": 25.26886,
+    "d": 0.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Martin's Drift",
+    "k": "place",
+    "v": "hamlet",
+    "lat": -22.99547,
+    "lon": 27.93323,
+    "d": 43.3
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q915544",
+    "l": "Q915544",
+    "t": "localité du Botswana",
+    "lat": -22.99797,
+    "lon": 27.9337,
+    "d": 43.6
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Border Gate Mall",
+    "k": "shop",
+    "v": "supermarket",
+    "lat": -24.66391,
+    "lon": 25.98208,
+    "d": 0.3
+   },
+   {
+    "n": "Boarder Gate Mall",
+    "k": "shop",
+    "v": "mall",
+    "lat": -24.66383,
+    "lon": 25.98231,
+    "d": 0.3
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q916693",
+    "l": "Tlokweng Gate",
+    "t": "Botswana",
+    "lat": -24.66667,
+    "lon": 25.96667,
+    "d": 1.7
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Embassy of Spain",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -25.77022,
+    "lon": 28.25087,
+    "d": 1186.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Letsholathebe II Memorial Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -19.98572,
+    "lon": 23.46263,
+    "d": 4.6
+   },
+   {
+    "n": "Letsholathebe II Memorial Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -19.9873,
+    "lon": 23.46335,
+    "d": 4.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Princess Marina Referral Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -24.65672,
+    "lon": 25.9247,
+    "d": 1.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [
+   {
+    "n": "Maun",
+    "k": "place",
+    "v": "city",
+    "lat": -19.9861,
+    "lon": 23.42244,
+    "d": 0.7
+   },
+   {
+    "n": "Maun Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -19.97141,
+    "lon": 23.4322,
+    "d": 2.1
+   },
+   {
+    "n": "Maun Road Court",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -19.96542,
+    "lon": 23.45384,
+    "d": 4.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Department of Meteorological Services",
+    "k": "office",
+    "v": "government",
+    "lat": -24.66467,
+    "lon": 25.94253,
+    "d": 3.1
+   },
+   {
+    "n": "Department of Correctional Services",
+    "k": "office",
+    "v": "government",
+    "lat": -26.20905,
+    "lon": 28.04428,
+    "d": 274.9
+   },
+   {
+    "n": "Department of Library Services",
+    "k": "shop",
+    "v": "books",
+    "lat": -25.75496,
+    "lon": 28.23033,
+    "d": 263.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Kasane",
+    "k": "place",
+    "v": "town",
+    "lat": -17.79924,
+    "lon": 25.15655,
+    "d": 2.1
+   },
+   {
+    "n": "Kasane Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -17.83046,
+    "lon": 25.16437,
+    "d": 2.2
+   },
+   {
+    "n": "Kasane Dam",
+    "k": "water",
+    "v": "reservoir",
+    "lat": -17.81021,
+    "lon": 25.15109,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Maun",
+    "k": "place",
+    "v": "city",
+    "lat": -19.9861,
+    "lon": 23.42244,
+    "d": 0.7
+   },
+   {
+    "n": "Maun Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -19.97141,
+    "lon": 23.4322,
+    "d": 2.1
+   },
+   {
+    "n": "Maun Road Court",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -19.96542,
+    "lon": 23.45384,
+    "d": 4.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Nata",
+    "k": "place",
+    "v": "town",
+    "lat": -20.21067,
+    "lon": 26.18048,
+    "d": 0.7
+   },
+   {
+    "n": "Nata",
+    "k": "waterway",
+    "v": "stream",
+    "lat": -19.84334,
+    "lon": 26.81844,
+    "d": 78.3
+   },
+   {
+    "n": "Nata Bird Sanctuary",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -20.31735,
+    "lon": 26.25219,
+    "d": 13.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [
+   {
+    "n": "Ghanzi",
+    "k": "place",
+    "v": "city",
+    "lat": -21.69681,
+    "lon": 21.64571,
+    "d": 0.6
+   },
+   {
+    "n": "Ghanzi Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -21.69292,
+    "lon": 21.65772,
+    "d": 1.1
+   },
+   {
+    "n": "Ghanzi Bus Terminal",
+    "k": "building",
+    "v": "yes",
+    "lat": -21.69569,
+    "lon": 21.64937,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Francistown",
+    "k": "place",
+    "v": "city",
+    "lat": -21.16636,
+    "lon": 27.50251,
+    "d": 1.5
+   },
+   {
+    "n": "Francistown",
+    "k": "railway",
+    "v": "station",
+    "lat": -21.16505,
+    "lon": 27.50851,
+    "d": 0.9
+   },
+   {
+    "n": "Francistown Post Office",
+    "k": "amenity",
+    "v": "post_office",
+    "lat": -21.1648,
+    "lon": 27.51029,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q165422",
+    "l": "Francistown",
+    "t": "ciudad en Botsuana",
+    "lat": -21.17361,
+    "lon": 27.5125,
+    "d": 0.9
+   },
+   {
+    "id": "Q859765",
+    "l": "Francistown Stadium",
+    "t": "stadium",
+    "lat": -21.1515,
+    "lon": 27.47874,
+    "d": 4.3
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Kasane",
+    "k": "place",
+    "v": "town",
+    "lat": -17.79924,
+    "lon": 25.15655,
+    "d": 304.1
+   },
+   {
+    "n": "Kasane",
+    "k": "highway",
+    "v": "tertiary",
+    "lat": -24.61105,
+    "lon": 25.93467,
+    "d": 576.1
+   },
+   {
+    "n": "Kasane Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -17.83046,
+    "lon": 25.16437,
+    "d": 301.8
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q170715",
+    "l": "Kasane",
+    "t": "town in Botswana",
+    "lat": -17.79833,
+    "lon": 25.15361,
+    "d": 304.0
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "ph": [
+   {
+    "n": "Makgadikgadi Pans National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -20.51076,
+    "lon": 24.8106,
+    "d": 149.2
+   },
+   {
+    "n": "Makgadikgadi Lodge",
+    "k": "tourism",
+    "v": "guest_house",
+    "lat": -20.54755,
+    "lon": 26.07883,
+    "d": 260.4
+   },
+   {
+    "n": "Makgadikgadi Adventure Camp",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -20.76269,
+    "lon": 25.73843,
+    "d": 218.7
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q649771",
+    "l": "Lago Makgadikgadi",
+    "t": "former lake (paleolake) in Botswana",
+    "lat": -20.71667,
+    "lon": 24.95083,
+    "d": 146.9
+   },
+   {
+    "id": "Q533041",
+    "l": "Salares de Makgadikgadi",
+    "t": "salt pan landscape in Botswana",
+    "lat": -20.71667,
+    "lon": 24.95083,
+    "d": 146.9
+   }
+  ]
+ }
+]

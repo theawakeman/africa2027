@@ -1,0 +1,619 @@
+{
+ "slug": "sudafrica",
+ "bbox": [
+  16.099999999999998,
+  -35.3,
+  33.3,
+  -21.8
+ ],
+ "items": [
+  {
+   "id": "poi-1",
+   "type": "poi",
+   "n": 1,
+   "name": "Apartheid Museum · Johannesburgo",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -26.2378709,
+   "lon": 28.0083713,
+   "desc": "Museo de Johannesburgo que recorre la institucionalización, resistencia y fin del apartheid. Requiere tiempo y puede resultar emocionalmente intenso.",
+   "q": [
+    "Apartheid Museum Johannesburg South Africa"
+   ]
+  },
+  {
+   "id": "poi-2",
+   "type": "poi",
+   "n": 2,
+   "name": "Mandela House · Soweto",
+   "cat": "Cultura",
+   "prio": "Alta",
+   "lat": -26.2385326,
+   "lon": 27.9088071,
+   "desc": "La casa de Vilakazi Street donde vivió Nelson Mandela es hoy un museo pequeño dentro de un barrio vivo, no una síntesis completa de Soweto.",
+   "q": [
+    "Mandela House Soweto South Africa"
+   ]
+  },
+  {
+   "id": "poi-3",
+   "type": "poi",
+   "n": 3,
+   "name": "Cuna de la Humanidad · Maropeng",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -25.9671341,
+   "lon": 27.6625094,
+   "desc": "Maropeng es el centro de visitantes de la Cuna de la Humanidad y explica la evolución humana; las cuevas de Sterkfontein son un sitio separado.",
+   "q": [
+    "Maropeng Visitor Centre South Africa"
+   ]
+  },
+  {
+   "id": "poi-4",
+   "type": "poi",
+   "n": 4,
+   "name": "Three Rondavels View Point",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -24.5721968,
+   "lon": 30.7988405,
+   "desc": "Mirador de Three Rondavels sobre el Blyde River Canyon y el embalse. El pin se ha movido desde un punto genérico a la plataforma real.",
+   "q": [
+    "Three Rondavels View Point South Africa"
+   ]
+  },
+  {
+   "id": "poi-5",
+   "type": "poi",
+   "n": 5,
+   "name": "Kruger · Phabeni Gate",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -25.0243125,
+   "lon": 31.2401875,
+   "desc": "Phabeni Gate es una puerta occidental de Kruger próxima a Hazyview. La ficha se ancla en la barrera real, no en el centro del parque.",
+   "q": [
+    "Phabeni Gate Kruger South Africa"
+   ]
+  },
+  {
+   "id": "poi-6",
+   "type": "poi",
+   "n": 6,
+   "name": "iSimangaliso · Bhangazi Gate",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -28.35661,
+   "lon": 32.42023,
+   "desc": "Bhangazi Gate es el acceso físico a la sección oriental de iSimangaliso. Google Maps no ofrece un objeto nominal fiable: el pin documenta la barrera cartografiada.",
+   "q": [
+    "Bhangazi Gate iSimangaliso South Africa"
+   ]
+  },
+  {
+   "id": "poi-7",
+   "type": "poi",
+   "n": 7,
+   "name": "Hluhluwe-iMfolozi · Memorial Gate",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -28.0687693,
+   "lon": 32.141288,
+   "desc": "Memorial Gate es la puerta norte de Hluhluwe-iMfolozi, no un pin general sobre la reserva. Da acceso a circuitos de colinas y sabana.",
+   "q": [
+    "Memorial Gate Hluhluwe South Africa"
+   ]
+  },
+  {
+   "id": "poi-8",
+   "type": "poi",
+   "n": 8,
+   "name": "KwaMuhle Museum · Durban",
+   "cat": "Ciudad · servicios",
+   "prio": "Media",
+   "lat": -29.8527722,
+   "lon": 31.0241951,
+   "desc": "KwaMuhle Museum ocupa una antigua oficina de administración nativa y explica segregación, trabajo y vida urbana en Durban.",
+   "q": [
+    "KwaMuhle Museum Durban South Africa"
+   ]
+  },
+  {
+   "id": "poi-9",
+   "type": "poi",
+   "n": 9,
+   "name": "Drakensberg · Sentinel Car Park",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -28.727442,
+   "lon": 28.890891,
+   "desc": "Sentinel Car Park es el inicio habitual de la exigente ruta al Amphitheatre por las Chain Ladders. El pin marca el aparcamiento, no la cima.",
+   "q": [
+    "Sentinel Car Park Drakensberg South Africa"
+   ]
+  },
+  {
+   "id": "poi-10",
+   "type": "poi",
+   "n": 10,
+   "name": "Golden Gate · Glen Reenen",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -28.5062938,
+   "lon": 28.6187756,
+   "desc": "Glen Reenen es el campamento y base real de Golden Gate Highlands, entre paredones de arenisca. Sustituye un pin paisajístico impreciso.",
+   "q": [
+    "Glen Reenen Rest Camp South Africa"
+   ]
+  },
+  {
+   "id": "poi-11",
+   "type": "poi",
+   "n": 11,
+   "name": "Sani Pass",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -29.5879785,
+   "lon": 29.2921966,
+   "desc": "Sani Pass es una pista de alta montaña y frontera con Lesoto. El pin marca el paso, no el control sudafricano ni un permiso de cruce.",
+   "q": [
+    "Sani Pass South Africa Lesotho"
+   ]
+  },
+  {
+   "id": "poi-12",
+   "type": "poi",
+   "n": 12,
+   "name": "Hole-in-the-Wall",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -32.0412282,
+   "lon": 29.1092604,
+   "desc": "Arco natural separado de la costa cerca del poblado Hole-in-the-Wall. La aproximación por la Wild Coast requiere tiempo y criterio local.",
+   "q": [
+    "Hole in the Wall Eastern Cape South Africa"
+   ]
+  },
+  {
+   "id": "poi-13",
+   "type": "poi",
+   "n": 13,
+   "name": "Tsitsikamma · Storms River Mouth",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -34.0231825,
+   "lon": 23.8960121,
+   "desc": "Storms River Mouth Rest Camp es la base costera de Tsitsikamma y el acceso a pasarelas y al inicio del Otter Trail.",
+   "q": [
+    "Storms River Mouth Rest Camp South Africa"
+   ]
+  },
+  {
+   "id": "poi-14",
+   "type": "poi",
+   "n": 14,
+   "name": "Cango Caves",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -33.3922296,
+   "lon": 22.2143879,
+   "desc": "Complejo de cuevas calizas cerca de Oudtshoorn con recorridos oficiales de distinta dificultad. La ruta Adventure exige movilidad real.",
+   "q": [
+    "Cango Caves South Africa"
+   ]
+  },
+  {
+   "id": "poi-15",
+   "type": "poi",
+   "n": 15,
+   "name": "Cabo Agulhas · extremo austral",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -34.8332012,
+   "lon": 19.999978,
+   "desc": "El monumento del extremo austral marca la latitud donde se encuentran convencionalmente Atlántico e Índico. No es el punto más meridional de todo el continente por cada roca aislada.",
+   "q": [
+    "Southernmost Tip of Africa Cape Agulhas"
+   ]
+  },
+  {
+   "id": "poi-16",
+   "type": "poi",
+   "n": 16,
+   "name": "Hermanus · Old Harbour Museum",
+   "cat": "Costa",
+   "prio": "Alta",
+   "lat": -34.4204565,
+   "lon": 19.2437189,
+   "desc": "Old Harbour Museum conserva el antiguo puerto pesquero de Hermanus, sus cobertizos y embarcaciones. El avistamiento de ballenas es estacional y nunca seguro.",
+   "q": [
+    "Old Harbour Museum Hermanus South Africa"
+   ]
+  },
+  {
+   "id": "poi-17",
+   "type": "poi",
+   "n": 17,
+   "name": "Table Mountain · estación inferior",
+   "cat": "Ciudad · servicios",
+   "prio": "Alta",
+   "lat": -33.9483352,
+   "lon": 18.4029463,
+   "desc": "La estación inferior del teleférico es el punto operativo para subir a Table Mountain. La montaña puede cerrar por viento incluso con cielo despejado.",
+   "q": [
+    "Table Mountain Cableway Lower Station South Africa"
+   ]
+  },
+  {
+   "id": "poi-18",
+   "type": "poi",
+   "n": 18,
+   "name": "Cape of Good Hope",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -34.3568425,
+   "lon": 18.4739882,
+   "desc": "El cartel de Cape of Good Hope se encuentra en la costa del parque de Table Mountain. Cape Point y su faro son otra parada del mismo sector.",
+   "q": [
+    "Cape of Good Hope South Africa"
+   ]
+  },
+  {
+   "id": "poi-19",
+   "type": "poi",
+   "n": 19,
+   "name": "Robben Island · Nelson Mandela Gateway",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -33.9064912,
+   "lon": 18.4224036,
+   "desc": "Nelson Mandela Gateway en el V&A Waterfront es el punto de salida de los ferris oficiales a Robben Island, no la isla ni la prisión.",
+   "q": [
+    "Nelson Mandela Gateway Robben Island Cape Town"
+   ]
+  },
+  {
+   "id": "poi-20",
+   "type": "poi",
+   "n": 20,
+   "name": "Stellenbosch Village Museum",
+   "cat": "Cultura",
+   "prio": "Media",
+   "lat": -33.9374344,
+   "lon": 18.8631788,
+   "desc": "Village Museum reúne cuatro casas históricas amuebladas que explican distintos periodos de Stellenbosch. No representa por sí solo toda la historia de la región.",
+   "q": [
+    "Stellenbosch Village Museum South Africa"
+   ]
+  },
+  {
+   "id": "poi-21",
+   "type": "poi",
+   "n": 21,
+   "name": "Cederberg · Algeria Campsite",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -32.3745153,
+   "lon": 19.0623478,
+   "desc": "Algeria Campsite es una base de CapeNature en Cederberg. Google Maps la señala temporalmente cerrada: no debe presentarse como alojamiento disponible.",
+   "q": [
+    "Algeria Campsite Cederberg South Africa"
+   ]
+  },
+  {
+   "id": "poi-22",
+   "type": "poi",
+   "n": 22,
+   "name": "SALT · observatorio de Sutherland",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -32.3757643,
+   "lon": 20.8108407,
+   "desc": "SALT es el gran telescopio óptico del observatorio de Sutherland. La visita pública se realiza mediante tours programados y no equivale a una sesión de observación científica.",
+   "q": [
+    "Southern African Large Telescope Sutherland"
+   ]
+  },
+  {
+   "id": "poi-23",
+   "type": "poi",
+   "n": 23,
+   "name": "Kgalagadi · Twee Rivieren",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -26.4725589,
+   "lon": 20.6121781,
+   "desc": "Twee Rivieren es la puerta y campamento principal del Kgalagadi, junto a la frontera con Botsuana. No es un pin genérico sobre las dunas.",
+   "q": [
+    "Twee Rivieren Rest Camp Kgalagadi South Africa"
+   ]
+  },
+  {
+   "id": "poi-24",
+   "type": "poi",
+   "n": 24,
+   "name": "Augrabies Falls",
+   "cat": "Naturaleza",
+   "prio": "Media",
+   "lat": -28.5912782,
+   "lon": 20.3400825,
+   "desc": "El mirador de Augrabies Falls muestra al Orange River encajonado en granito. Caudal, ruido y aspecto cambian mucho con la estación.",
+   "q": [
+    "Augrabies Falls South Africa"
+   ]
+  },
+  {
+   "id": "poi-25",
+   "type": "poi",
+   "n": 25,
+   "name": "Namaqua · Skilpad Rest Camp",
+   "cat": "Naturaleza",
+   "prio": "Alta",
+   "lat": -30.1632648,
+   "lon": 17.7780609,
+   "desc": "Skilpad Rest Camp es la base del sector de flores de Namaqua. La floración depende de lluvia, temperatura, sol y viento: no tiene fecha garantizada.",
+   "q": [
+    "Skilpad Rest Camp Namaqua South Africa"
+   ]
+  },
+  {
+   "id": "poi-26",
+   "type": "poi",
+   "n": 26,
+   "name": "Richtersveld · Sendelingsdrift",
+   "cat": "Patrimonio UNESCO",
+   "prio": "Alta",
+   "lat": -28.1252047,
+   "lon": 16.891217,
+   "desc": "Sendelingsdrift es la recepción y acceso del Richtersveld junto al Orange. El transbordador internacional a Namibia puede no operar.",
+   "q": [
+    "Sendelingsdrift Richtersveld South Africa"
+   ]
+  },
+  {
+   "id": "log-0",
+   "type": "log",
+   "n": 0,
+   "name": "Frontera · Entrada — Martin's Drift / Groblersbrug (desde Botsuana)",
+   "cat": "Frontera",
+   "lat": -22.6167,
+   "lon": 28.0333,
+   "desc": "HORARIO 06:00-22:00, sobre el río Limpopo, en la N11 hacia Mokopane. Es la salida que ya elige la ficha de Botsuana después del Tuli Block. Mucho camión de carga: evitar las horas punta de media mañan",
+   "q": [
+    "Martin's Drift",
+    "Groblersbrug",
+    "Botsuana"
+   ]
+  },
+  {
+   "id": "log-1",
+   "type": "log",
+   "n": 1,
+   "name": "Frontera · Salida — Vioolsdrif / Noordoewer (hacia Namibia)",
+   "cat": "Frontera",
+   "lat": -28.7583,
+   "lon": 17.6167,
+   "desc": "OPERATIVO 24 HORAS, sobre el río Orange, en la N7. Es el paso principal del suroeste africano y el que la ficha de Namibia documenta como entrada. Colas largas en vacaciones escolares sudafricanas y a",
+   "q": [
+    "Vioolsdrif",
+    "Noordoewer",
+    "Namibia"
+   ]
+  },
+  {
+   "id": "log-2",
+   "type": "log",
+   "n": 2,
+   "name": "Frontera · Alternativa — Sendelingsdrift (pontón al Richtersveld namibio)",
+   "cat": "Frontera",
+   "lat": -28.125,
+   "lon": 16.885,
+   "desc": "Pontón sobre el río Orange dentro del parque transfronterizo, con horario corto y sujeto al nivel del agua y al peso del vehículo. Permite pasar del Richtersveld sudafricano al namibio sin dar la vuel",
+   "q": [
+    "Sendelingsdrift",
+    "Richtersveld"
+   ]
+  },
+  {
+   "id": "log-3",
+   "type": "log",
+   "n": 3,
+   "name": "Frontera · Alternativa este — Lebombo (hacia Mozambique)",
+   "cat": "Frontera",
+   "lat": -25.4667,
+   "lon": 31.9833,
+   "desc": "Paso principal hacia Mozambique junto a Komatipoort y la puerta de Crocodile Bridge de Kruger. NO se usa en esta ruta (Mozambique queda antes en el bucle), se documenta como salida de emergencia del c",
+   "q": [
+    "Lebombo",
+    "Mozambique"
+   ]
+  },
+  {
+   "id": "log-4",
+   "type": "log",
+   "n": 4,
+   "name": "Frontera · Alternativa — Sani Pass (hacia Lesoto)",
+   "cat": "Frontera",
+   "lat": -29.5872,
+   "lon": 29.2878,
+   "desc": "Puesto fronterizo de montaña a 2.876 m, SOLO 4X4, con ambos controles cerrando a las 18:00 y cierre por nieve sin aviso. Entrar en Lesoto con el perro exige su propio permiso veterinario: valorar subi",
+   "q": [
+    "Sani Pass",
+    "Lesoto"
+   ]
+  },
+  {
+   "id": "log-5",
+   "type": "log",
+   "n": 5,
+   "name": "Embajada de España en Pretoria",
+   "cat": "Consular",
+   "lat": -25.755,
+   "lon": 28.2378,
+   "desc": "Lord Charles Complex, 337 Brooklyn Road, Brooklyn, Pretoria 0181. Tel. +27 12 460 0123 · Emergencia consular (Gauteng y norte): +27 (0)76 114 61 51. Es la representación española de referencia para to",
+   "q": [
+    "Embajada de España en Pretoria",
+    "Embassy of Spain Pretoria",
+    "Spain Embassy Pretoria"
+   ]
+  },
+  {
+   "id": "log-6",
+   "type": "log",
+   "n": 6,
+   "name": "Consulado General de España en Ciudad del Cabo",
+   "cat": "Consular",
+   "lat": -33.9249,
+   "lon": 18.4241,
+   "desc": "Atención durante los meses de sesión parlamentaria. Emergencia consular (Western Cape, Eastern Cape, KwaZulu-Natal, Northern Cape): +27 76 114 61 52.",
+   "q": [
+    "Consulado General de España en Ciudad del Cabo",
+    "Consulate of Spain Ciudad del Cabo",
+    "Spain Consulate Ciudad del Cabo"
+   ]
+  },
+  {
+   "id": "log-7",
+   "type": "log",
+   "n": 7,
+   "name": "Groote Schuur Hospital — Ciudad del Cabo",
+   "cat": "Hospital",
+   "lat": -33.9403,
+   "lon": 18.4644,
+   "desc": "Hospital universitario de referencia (aquí se hizo el primer trasplante de corazón del mundo en 1967). Junto con los privados del grupo Mediclinic y Netcare, es la mejor sanidad de todo el corredor af",
+   "q": [
+    "Groote Schuur Hospital"
+   ]
+  },
+  {
+   "id": "log-8",
+   "type": "log",
+   "n": 8,
+   "name": "Charlotte Maxeke / Milpark / Netcare Sunninghill — Johannesburgo",
+   "cat": "Hospital",
+   "lat": -26.1833,
+   "lon": 28.05,
+   "desc": "Gauteng concentra la mejor medicina privada del continente (Netcare Milpark es el centro de trauma de referencia de África austral). Para cualquier problema serio del equipo, resolverlo aquí o en Ciud",
+   "q": [
+    "Charlotte Maxeke / Milpark / Netcare Sunninghill"
+   ]
+  },
+  {
+   "id": "log-9",
+   "type": "log",
+   "n": 9,
+   "name": "Talleres 4x4 de expedición · Gauteng (Johannesburgo-Pretoria)",
+   "cat": "Servicio",
+   "lat": -26.05,
+   "lon": 28.0,
+   "desc": "Mayor concentración de preparadores 4x4 de África: ejes de Kyalami, Midrand, Centurion, Strijdom Park (Randburg) y Wynberg. Suspensiones, protecciones, depósitos auxiliares, snorkels, sistemas eléctri",
+   "q": [
+    "Gauteng",
+    "Johannesburgo-Pretoria"
+   ]
+  },
+  {
+   "id": "log-10",
+   "type": "log",
+   "n": 10,
+   "name": "Talleres 4x4 y recambios · Ciudad del Cabo",
+   "cat": "Servicio",
+   "lat": -33.9249,
+   "lon": 18.4241,
+   "desc": "Segunda plaza del país, con comunidad overland activa (foros de 4x4community.co.za) y cadenas nacionales de accesorios 4x4, neumáticos y baterías. Es el ÚLTIMO SITIO SERIO antes de la subida por el oe",
+   "q": [
+    "Ciudad del Cabo"
+   ]
+  },
+  {
+   "id": "log-11",
+   "type": "log",
+   "n": 11,
+   "name": "Combustible y provisiones · eje N1/N2/N3 y ciudades",
+   "cat": "Combustible",
+   "lat": -29.8587,
+   "lon": 31.0218,
+   "desc": "Red de estaciones de servicio de primer nivel (Engen, Shell, Sasol, BP, Total, Astron) con tienda, cajero y aseos, y áreas de servicio cada 100-150 km en las autovías. Estaciones ATENDIDAS: no es auto",
+   "q": [
+    "eje N1/N2/N3 y ciudades"
+   ]
+  },
+  {
+   "id": "log-12",
+   "type": "log",
+   "n": 12,
+   "name": "Combustible · eje oeste (Upington, Springbok, Steinkopf)",
+   "cat": "Combustible",
+   "lat": -28.4478,
+   "lon": 21.2561,
+   "desc": "Puntos clave de la subida. Upington es la última plaza grande antes de Kgalagadi y del Richtersveld; Springbok, la última antes de Namaqualand y del Richtersveld; Steinkopf y Vioolsdrif, las últimas a",
+   "q": [
+    "Upington",
+    "Springbok",
+    "Steinkopf",
+    "eje oeste"
+   ]
+  },
+  {
+   "id": "log-13",
+   "type": "log",
+   "n": 13,
+   "name": "Agua potable · todo el país",
+   "cat": "Agua potable",
+   "lat": -33.9249,
+   "lon": 18.4241,
+   "desc": "Agua del grifo potable de calidad europea en ciudades y en la inmensa mayoría de los pueblos; campings, estaciones de servicio y talleres permiten llenar el depósito de uso general sin restricción. Ex",
+   "q": [
+    "todo el país"
+   ]
+  },
+  {
+   "id": "log-14",
+   "type": "log",
+   "n": 14,
+   "name": "Veterinarios, laboratorios y residencias caninas · Pretoria y Johannesburgo",
+   "cat": "Servicio",
+   "lat": -25.7479,
+   "lon": 28.2293,
+   "desc": "La facultad de veterinaria de Onderstepoort (Universidad de Pretoria) y los laboratorios privados de Gauteng son EL MEJOR SITIO DE TODO EL VIAJE para poner al día la documentación del perro: titulació",
+   "q": [
+    "Pretoria",
+    "Johannesburgo",
+    "Pretoria y Johannesburgo"
+   ]
+  },
+  {
+   "id": "log-15",
+   "type": "log",
+   "n": 15,
+   "name": "Veterinarios y residencias caninas · Ciudad del Cabo y Winelands",
+   "cat": "Servicio",
+   "lat": -33.9249,
+   "lon": 18.4241,
+   "desc": "Segunda plaza para el perro: clínicas de nivel europeo, laboratorios, y residencias caninas y de acogida familiar («pet sitting») abundantes en la península y en Somerset West. Reservar los días de Ro",
+   "q": [
+    "Ciudad del Cabo",
+    "Winelands",
+    "Ciudad del Cabo y Winelands"
+   ]
+  },
+  {
+   "id": "log-16",
+   "type": "log",
+   "n": 16,
+   "name": "Residencias caninas · puertas de Kruger (Hoedspruit, Hazyview, White River, Nelspruit)",
+   "cat": "Servicio",
+   "lat": -24.35,
+   "lon": 30.95,
+   "desc": "Los pueblos de las puertas de Kruger tienen residencias y guarderías caninas pensadas precisamente para quien entra al parque varios días. Es la solución operativa del tramo este. Confirmar por teléfo",
+   "q": [
+    "Kruger",
+    "Hoedspruit",
+    "Hazyview",
+    "White River",
+    "Nelspruit"
+   ]
+  }
+ ]
+}

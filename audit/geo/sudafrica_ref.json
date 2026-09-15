@@ -1,0 +1,1176 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Apartheid Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -26.23754,
+    "lon": 28.00847,
+    "d": 0.0
+   },
+   {
+    "n": "Apartheid Museum",
+    "k": "amenity",
+    "v": "parking",
+    "lat": -26.23672,
+    "lon": 28.00894,
+    "d": 0.1
+   },
+   {
+    "n": "CitySightseeing - Stop 7 - Apartheid Museum/Theme Park",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -26.23667,
+    "lon": 28.00981,
+    "d": 0.2
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Mandela Street",
+    "k": "highway",
+    "v": "residential",
+    "lat": -26.24724,
+    "lon": 27.82099,
+    "d": 8.8
+   },
+   {
+    "n": "Mandela House",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -26.2385,
+    "lon": 27.9088,
+    "d": 0.0
+   },
+   {
+    "n": "Mandela Sisulu Clinic",
+    "k": "amenity",
+    "v": "clinic",
+    "lat": -26.23525,
+    "lon": 27.90607,
+    "d": 0.5
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Visitor Centre",
+    "k": "building",
+    "v": "yes",
+    "lat": -25.89112,
+    "lon": 27.68677,
+    "d": 8.8
+   },
+   {
+    "n": "Visitor Centre",
+    "k": "information",
+    "v": "office",
+    "lat": -26.48228,
+    "lon": 28.21157,
+    "d": 79.3
+   },
+   {
+    "n": "Necsa Visitor Centre",
+    "k": "information",
+    "v": "office",
+    "lat": -25.79936,
+    "lon": 27.91465,
+    "d": 31.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Three Rondavels Viewpoint",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -24.57375,
+    "lon": 30.79891,
+    "d": 0.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Phabeni Gate",
+    "k": "building",
+    "v": "yes",
+    "lat": -25.02507,
+    "lon": 31.24193,
+    "d": 0.2
+   },
+   {
+    "n": "Phabeni gate parking",
+    "k": "amenity",
+    "v": "parking",
+    "lat": -25.02501,
+    "lon": 31.24143,
+    "d": 0.1
+   },
+   {
+    "n": "Sleepover Phabeni Gate",
+    "k": "tourism",
+    "v": "motel",
+    "lat": -25.02048,
+    "lon": 31.22057,
+    "d": 2.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Bhangazi Gate",
+    "k": "place",
+    "v": "locality",
+    "lat": -28.35661,
+    "lon": 32.42023,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Cengeni Gate (Hluhluwe-Imfolozi Park)",
+    "k": "information",
+    "v": "office",
+    "lat": -28.3419,
+    "lon": 31.70558,
+    "d": 52.4
+   },
+   {
+    "n": "Hluhluwe-Imfolozi Game Reserve",
+    "k": "information",
+    "v": "office",
+    "lat": -28.25059,
+    "lon": 31.98994,
+    "d": 25.1
+   },
+   {
+    "n": "Memorial Gate",
+    "k": "place",
+    "v": "locality",
+    "lat": -28.06857,
+    "lon": 32.1413,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "NMR Museum",
+    "k": "landuse",
+    "v": "military",
+    "lat": -29.82878,
+    "lon": 31.03335,
+    "d": 2.8
+   },
+   {
+    "n": "Kwa Muhle museum",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -29.85286,
+    "lon": 31.02387,
+    "d": 0.0
+   },
+   {
+    "n": "Old Court House Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -29.85835,
+    "lon": 31.02757,
+    "d": 0.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Sentinel Car Park",
+    "k": "amenity",
+    "v": "parking",
+    "lat": -28.72711,
+    "lon": 28.89096,
+    "d": 0.0
+   },
+   {
+    "n": "Drakensberg Street",
+    "k": "highway",
+    "v": "residential",
+    "lat": -33.86111,
+    "lon": 25.47024,
+    "d": 656.8
+   },
+   {
+    "n": "Sentinel Park",
+    "k": "leisure",
+    "v": "park",
+    "lat": -34.06192,
+    "lon": 18.62774,
+    "d": 1139.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [
+   {
+    "n": "Glen Reenen Rest Camp",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -28.50626,
+    "lon": 28.6187,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Sani Pass",
+    "k": "mountain_pass",
+    "v": "yes",
+    "lat": -29.5852,
+    "lon": 29.28702,
+    "d": 0.6
+   },
+   {
+    "n": "Sani Pass",
+    "k": "highway",
+    "v": "primary",
+    "lat": -29.58708,
+    "lon": 29.29112,
+    "d": 0.1
+   },
+   {
+    "n": "Sani Pass Hotel",
+    "k": "place",
+    "v": "village",
+    "lat": -29.65657,
+    "lon": 29.44547,
+    "d": 16.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Hole in the Wall",
+    "k": "place",
+    "v": "village",
+    "lat": -32.03139,
+    "lon": 29.11389,
+    "d": 1.2
+   },
+   {
+    "n": "Hole-in-the-Wall",
+    "k": "place",
+    "v": "island",
+    "lat": -32.04126,
+    "lon": 29.10906,
+    "d": 0.0
+   },
+   {
+    "n": "Hole in the Wall Hotel",
+    "k": "landuse",
+    "v": "retail",
+    "lat": -32.03276,
+    "lon": 29.10992,
+    "d": 0.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Storms River Mouth Rest Camp",
+    "k": "place",
+    "v": "hamlet",
+    "lat": -34.02212,
+    "lon": 23.88591,
+    "d": 0.9
+   },
+   {
+    "n": "Storms River Mouth Rest Camp - Camping Site",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -34.0236,
+    "lon": 23.88975,
+    "d": 0.6
+   },
+   {
+    "n": "Storms River Mouth Rest Camp - Camping Site",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -34.02159,
+    "lon": 23.88328,
+    "d": 1.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Cango Caves",
+    "k": "natural",
+    "v": "cave_entrance",
+    "lat": -33.39228,
+    "lon": 22.21438,
+    "d": 0.0
+   },
+   {
+    "n": "Cango Caves",
+    "k": "shop",
+    "v": "ticket",
+    "lat": -33.39259,
+    "lon": 22.21482,
+    "d": 0.1
+   },
+   {
+    "n": "Cango Caves Zipline",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -33.39345,
+    "lon": 22.21392,
+    "d": 0.1
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "The southernmost tip of Africa and the dividing point between the Atlantic and Indian Oceans.",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -34.833,
+    "lon": 19.99994,
+    "d": 0.0
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Old Harbour Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -34.42016,
+    "lon": 19.24381,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "ph": [
+   {
+    "n": "Table Mountain Cableway",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -33.94767,
+    "lon": 18.40236,
+    "d": 0.1
+   },
+   {
+    "n": "Table Mountain Cableway",
+    "k": "aerialway",
+    "v": "cable_car",
+    "lat": -33.9529,
+    "lon": 18.40302,
+    "d": 0.5
+   },
+   {
+    "n": "Table Mountain Aerial Cableway",
+    "k": "information",
+    "v": "office",
+    "lat": -33.94611,
+    "lon": 18.40064,
+    "d": 0.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "ph": [
+   {
+    "n": "Cape of Good Hope",
+    "k": "natural",
+    "v": "cape",
+    "lat": -34.35811,
+    "lon": 18.47193,
+    "d": 0.2
+   },
+   {
+    "n": "Cape of Good Hope",
+    "k": "historic",
+    "v": "memorial",
+    "lat": -34.35715,
+    "lon": 18.47396,
+    "d": 0.0
+   },
+   {
+    "n": "Royal Observatory, Cape of Good Hope",
+    "k": "amenity",
+    "v": "research_institute",
+    "lat": -33.93459,
+    "lon": 18.47753,
+    "d": 47.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "ph": [
+   {
+    "n": "Nelson Mandela Gateway to Robben Island",
+    "k": "amenity",
+    "v": "ferry_terminal",
+    "lat": -33.90645,
+    "lon": 18.42252,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "ph": [
+   {
+    "n": "Village Museum",
+    "k": "tourism",
+    "v": "museum",
+    "lat": -33.93737,
+    "lon": 18.86318,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "ph": [
+   {
+    "n": "Cederberg Oasis Campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -32.55149,
+    "lon": 19.36151,
+    "d": 34.3
+   },
+   {
+    "n": "Algeria",
+    "k": "place",
+    "v": "village",
+    "lat": -32.37358,
+    "lon": 19.05733,
+    "d": 0.5
+   },
+   {
+    "n": "Crystal Pools Campsite",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -32.35076,
+    "lon": 19.13267,
+    "d": 7.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "ph": [
+   {
+    "n": "Southern African Large Telescope (SALT)",
+    "k": "building",
+    "v": "yes",
+    "lat": -32.3759,
+    "lon": 20.81075,
+    "d": 0.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-23",
+  "ph": [
+   {
+    "n": "Twee Rivieren Rest Camp",
+    "k": "place",
+    "v": "village",
+    "lat": -26.47227,
+    "lon": 20.61192,
+    "d": 0.0
+   },
+   {
+    "n": "Twee Rivieren Campsite (South Africa)",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -26.47389,
+    "lon": 20.61271,
+    "d": 0.2
+   },
+   {
+    "n": "Twee Rivieren",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": -26.47314,
+    "lon": 20.61166,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-24",
+  "ph": [
+   {
+    "n": "Augrabies Falls",
+    "k": "waterway",
+    "v": "waterfall",
+    "lat": -28.59157,
+    "lon": 20.34065,
+    "d": 0.1
+   },
+   {
+    "n": "Augrabies Falls National Park",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -28.51752,
+    "lon": 20.06918,
+    "d": 27.7
+   },
+   {
+    "n": "Augrabies Falls National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -28.51752,
+    "lon": 20.06918,
+    "d": 27.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-25",
+  "ph": [
+   {
+    "n": "Roof of Namaqualand",
+    "k": "tourism",
+    "v": "viewpoint",
+    "lat": -30.16404,
+    "lon": 17.78559,
+    "d": 0.7
+   },
+   {
+    "n": "Namaqua Fig",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -28.59423,
+    "lon": 20.32784,
+    "d": 302.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-26",
+  "ph": [
+   {
+    "n": "Sendelingsdrift",
+    "k": "highway",
+    "v": "track",
+    "lat": -28.12489,
+    "lon": 16.89668,
+    "d": 0.5
+   },
+   {
+    "n": "Richtersveld Nasionale Park",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -28.12273,
+    "lon": 16.89213,
+    "d": 0.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Martin's Drift",
+    "k": "place",
+    "v": "hamlet",
+    "lat": -22.99547,
+    "lon": 27.93323,
+    "d": 43.3
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Vioolsdrif",
+    "k": "place",
+    "v": "village",
+    "lat": -28.77079,
+    "lon": 17.62558,
+    "d": 1.6
+   },
+   {
+    "n": "Vioolsdrif Siphon",
+    "k": "waterway",
+    "v": "canal",
+    "lat": -28.76669,
+    "lon": 17.62655,
+    "d": 1.3
+   },
+   {
+    "n": "Vioolsdrif Mast",
+    "k": "highway",
+    "v": "track",
+    "lat": -28.77998,
+    "lon": 17.64469,
+    "d": 3.6
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q1013975",
+    "l": "Vioolsdrif",
+    "t": "town in South Africa",
+    "lat": -28.775,
+    "lon": 17.625,
+    "d": 2.0
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Sendelingsdrift",
+    "k": "highway",
+    "v": "track",
+    "lat": -28.12489,
+    "lon": 16.89668,
+    "d": 1.1
+   },
+   {
+    "n": "Sendelingsdrif",
+    "k": "place",
+    "v": "village",
+    "lat": -28.12475,
+    "lon": 16.89435,
+    "d": 0.9
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q13036020",
+    "l": "Sendelingsdrift",
+    "t": "border post between Namibia and South Africa",
+    "lat": -28.12222,
+    "lon": 16.88883,
+    "d": 0.5
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Lebombo",
+    "k": "highway",
+    "v": "residential",
+    "lat": -25.78262,
+    "lon": 28.26597,
+    "d": 374.3
+   },
+   {
+    "n": "Lebombo Lodge",
+    "k": "place",
+    "v": "village",
+    "lat": -24.451,
+    "lon": 31.97768,
+    "d": 112.9
+   },
+   {
+    "n": "Lebombo Lodge",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -24.45197,
+    "lon": 31.9785,
+    "d": 112.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Sani Pass",
+    "k": "mountain_pass",
+    "v": "yes",
+    "lat": -29.5852,
+    "lon": 29.28702,
+    "d": 0.2
+   },
+   {
+    "n": "Sani Pass",
+    "k": "highway",
+    "v": "primary",
+    "lat": -29.58464,
+    "lon": 29.28616,
+    "d": 0.3
+   },
+   {
+    "n": "Sani Pass Hotel",
+    "k": "place",
+    "v": "village",
+    "lat": -29.65657,
+    "lon": 29.44547,
+    "d": 17.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [
+   {
+    "n": "Embassy of Spain",
+    "k": "office",
+    "v": "diplomatic",
+    "lat": -25.77022,
+    "lon": 28.25087,
+    "d": 2.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Groote Schuur Hospital",
+    "k": "amenity",
+    "v": "hospital",
+    "lat": -33.94117,
+    "lon": 18.46262,
+    "d": 0.2
+   },
+   {
+    "n": "Groote Schuur Hospital - Maternity Centre",
+    "k": "building",
+    "v": "hospital",
+    "lat": -33.94248,
+    "lon": 18.46117,
+    "d": 0.4
+   },
+   {
+    "n": "New Groote Schuur Hospital",
+    "k": "building",
+    "v": "hospital",
+    "lat": -33.94138,
+    "lon": 18.46375,
+    "d": 0.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "ph": [
+   {
+    "n": "Gauteng",
+    "k": "place",
+    "v": "state",
+    "lat": -25.93634,
+    "lon": 28.08131,
+    "d": 15.0
+   },
+   {
+    "n": "Gauteng Division of the High Court",
+    "k": "building",
+    "v": "yes",
+    "lat": -25.7446,
+    "lon": 28.18742,
+    "d": 38.8
+   },
+   {
+    "n": "Gauteng Oil & Cake Mills",
+    "k": "landuse",
+    "v": "industrial",
+    "lat": -26.22629,
+    "lon": 27.98302,
+    "d": 19.7
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "ph": [
+   {
+    "n": "Cabanas Del Sol",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -30.09159,
+    "lon": 30.86217,
+    "d": 1246.8
+   },
+   {
+    "n": "Cabine de Bilhetica dea 1a Rotunda da Katembe",
+    "k": "building",
+    "v": "yes",
+    "lat": -26.00619,
+    "lon": 32.55854,
+    "d": 1618.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "ph": [],
+  "wd": []
+ },
+ {
+  "id": "log-12",
+  "ph": [
+   {
+    "n": "Upington",
+    "k": "place",
+    "v": "city",
+    "lat": -28.45632,
+    "lon": 21.24187,
+    "d": 1.7
+   },
+   {
+    "n": "Upington",
+    "k": "railway",
+    "v": "station",
+    "lat": -28.45286,
+    "lon": 21.23949,
+    "d": 1.7
+   },
+   {
+    "n": "Upington Airport",
+    "k": "aeroway",
+    "v": "aerodrome",
+    "lat": -28.4025,
+    "lon": 21.25833,
+    "d": 5.0
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q575780",
+    "l": "Upington",
+    "t": "town in South Africa",
+    "lat": -28.45722,
+    "lon": 21.2425,
+    "d": 1.7
+   },
+   {
+    "id": "Q7898322",
+    "l": "Upington Railway Station",
+    "t": "railway station in South Africa",
+    "lat": -28.4532,
+    "lon": 21.24,
+    "d": 1.7
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "ph": [
+   {
+    "n": "Paisley Precast Walling (Pty) Ltd.",
+    "k": "building",
+    "v": "industrial",
+    "lat": -26.097,
+    "lon": 28.34622,
+    "d": 1291.1
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "log-14",
+  "ph": [
+   {
+    "n": "Pretoria",
+    "k": "place",
+    "v": "city",
+    "lat": -25.74593,
+    "lon": 28.18791,
+    "d": 4.2
+   },
+   {
+    "n": "Pretoria",
+    "k": "railway",
+    "v": "stop",
+    "lat": -25.76028,
+    "lon": 28.19068,
+    "d": 4.1
+   },
+   {
+    "n": "Pretoria",
+    "k": "railway",
+    "v": "stop",
+    "lat": -25.75958,
+    "lon": 28.19038,
+    "d": 4.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-15",
+  "ph": [
+   {
+    "n": "Cabanas Del Sol",
+    "k": "landuse",
+    "v": "residential",
+    "lat": -30.09159,
+    "lon": 30.86217,
+    "d": 1246.8
+   },
+   {
+    "n": "Cabine de Bilhetica dea 1a Rotunda da Katembe",
+    "k": "building",
+    "v": "yes",
+    "lat": -26.00619,
+    "lon": 32.55854,
+    "d": 1618.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "ph": [
+   {
+    "n": "Kruger National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -23.93578,
+    "lon": 31.50837,
+    "d": 73.0
+   },
+   {
+    "n": "Kruger to Canyons Biosphere Reserve",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -24.19344,
+    "lon": 30.73091,
+    "d": 28.2
+   },
+   {
+    "n": "Kruger Boundary Road",
+    "k": "highway",
+    "v": "unclassified",
+    "lat": -24.11022,
+    "lon": 31.39905,
+    "d": 52.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1512 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Kazungula Bridge",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -17.790437,
+  "lon": 25.2627612,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kazungula Bridge",
+   "kind": "man_made=bridge",
+   "lat": -17.79102,
+   "lon": 25.26245,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kazungula Bridge",
+    "kind": "man_made=bridge",
+    "lat": -17.79102,
+    "lon": 25.26245,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kazungula Bridge",
+    "kind": "amenity=weighbridge",
+    "lat": -17.76985,
+    "lon": 25.28679,
+    "d": 3.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kazungula Bridge Project Office",
+    "kind": "building=office",
+    "lat": -17.79646,
+    "lon": 25.26027,
+    "d": 0.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Chobe Riverfront · Sedudu Gate",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.8439677,
+  "lon": 25.1434398,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sedudu Gate- Chobe River Front",
+   "kind": "leisure=park",
+   "lat": -17.8433,
+   "lon": 25.14339,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sedudu Gate- Chobe River Front",
+    "kind": "leisure=park",
+    "lat": -17.8433,
+    "lon": 25.14339,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sedudu Gate - Chobe National Park",
+    "kind": "building=yes",
+    "lat": -17.84335,
+    "lon": 25.14343,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Savuti · campamento",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -18.5649269,
+  "lon": 24.0643615,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Camp Savuti",
+   "kind": "tourism=camp_site",
+   "lat": -18.56552,
+   "lon": 24.06319,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Savuti Elephant Camp",
+    "kind": "tourism=hotel",
+    "lat": -18.56996,
+    "lon": 24.0549,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Camp Savuti",
+    "kind": "tourism=camp_site",
+    "lat": -18.56552,
+    "lon": 24.06319,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Savuti Bush Camp",
+    "kind": "tourism=camp_site",
+    "lat": -18.59672,
+    "lon": 23.67404,
+    "d": 41.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Linyanti · campsite",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -18.295555,
+  "lon": 23.907756,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Linyanti Campsite",
+   "kind": "tourism=camp_site",
+   "lat": -18.29548,
+   "lon": 23.90868,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Linyanti Campsite",
+    "kind": "tourism=camp_site",
+    "lat": -18.29548,
+    "lon": 23.90868,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Khwai · North Gate",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -19.1726216,
+  "lon": 23.7523124,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "South gate - Khwai",
+   "kind": "highway=track",
+   "lat": -19.37669,
+   "lon": 23.66368,
+   "d": 24.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "South gate - Khwai",
+    "kind": "highway=track",
+    "lat": -19.37669,
+    "lon": 23.66368,
+    "d": 24.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Moremi · Xakanaxa",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -19.1827346,
+  "lon": 23.4113791,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Xakanaxa Camp",
+   "kind": "tourism=hotel",
+   "lat": -19.18093,
+   "lon": 23.40985,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "S.Gate - Xakanaxa",
+    "kind": "highway=track",
+    "lat": -19.42162,
+    "lon": 23.6461,
+    "d": 36.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Xakanaxa Camp",
+    "kind": "tourism=hotel",
+    "lat": -19.18093,
+    "lon": 23.40985,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Xakanaxa Camp Site",
+    "kind": "tourism=camp_site",
+    "lat": -19.18258,
+    "lon": 23.41541,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Mboma Island · salida de excursiones",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -19.1945609,
+  "lon": 23.2715508,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mboma Island",
+   "kind": "place=island",
+   "lat": -19.21101,
+   "lon": 23.30786,
+   "d": 4.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mboma Island",
+    "kind": "place=island",
+    "lat": -19.21101,
+    "lon": 23.30786,
+    "d": 4.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Maun · Nhabe Museum",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -19.9788375,
+  "lon": 23.4287228,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nhabe Museum",
+   "kind": "tourism=museum",
+   "lat": -19.97884,
+   "lon": 23.42876,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nhabe Museum",
+    "kind": "tourism=museum",
+    "lat": -19.97884,
+    "lon": 23.42876,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Okavango · estación de mokoro Boro 2",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -19.846652,
+  "lon": 23.402295,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mokoro Station",
+   "kind": "amenity=boat_storage",
+   "lat": -19.84644,
+   "lon": 23.40251,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mokoro Station",
+    "kind": "amenity=boat_storage",
+    "lat": -19.84644,
+    "lon": 23.40251,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Daunara OKMCT Mokoro Station",
+    "kind": "leisure=slipway",
+    "lat": -19.74852,
+    "lon": 23.47629,
+    "d": 13.4,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Shakawe · Panhandle del Okavango",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -18.3673364,
+  "lon": 21.8389726,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Shakawe",
+   "kind": "place=town",
+   "lat": -18.36328,
+   "lon": 21.83985,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Shakawe",
+    "kind": "place=town",
+    "lat": -18.36328,
+    "lon": 21.83985,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "BDF--Botswana Defense Force",
+    "kind": "landuse=military",
+    "lat": -18.36278,
+    "lon": 21.84889,
+    "d": 1.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Shakawe Cultural Library",
+    "kind": "amenity=library",
+    "lat": -18.35406,
+    "lon": 21.83835,
+    "d": 1.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Tsodilo Hills · museo y oficina",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -18.7585797,
+  "lon": 21.737152,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Tsodilo Hills World Heritage Site",
+   "kind": "boundary=protected_area",
+   "lat": -18.74312,
+   "lon": 21.73882,
+   "d": 1.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tsodilo Hills World Heritage Site",
+    "kind": "boundary=protected_area",
+    "lat": -18.74312,
+    "lon": 21.73882,
+    "d": 1.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tsodilo Hills Airstrip",
+    "kind": "aeroway=aerodrome",
+    "lat": -18.78048,
+    "lon": 21.74236,
+    "d": 2.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Gcwihaba Caves",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -20.0230082,
+  "lon": 21.3551783,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Gcwihaba Caves",
+   "kind": "tourism=attraction",
+   "lat": -20.02184,
+   "lon": 21.3551,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gcwihaba Caves",
+    "kind": "tourism=attraction",
+    "lat": -20.02184,
+    "lon": 21.3551,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "D’Kar · Kuru Art Project",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -21.5198275,
+  "lon": 21.9447633,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kuru Art",
+   "kind": "shop=gift",
+   "lat": -21.5198,
+   "lon": 21.94479,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kuru Language Project",
+    "kind": "building=yes",
+    "lat": -21.518,
+    "lon": 21.94199,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kuru Art",
+    "kind": "shop=gift",
+    "lat": -21.5198,
+    "lon": 21.94479,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "CKGR · Deception Valley",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -21.4393011,
+  "lon": 23.8138552,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Baines Baobabs",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -20.1121417,
+  "lon": 24.7691109,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Baines Baobabs",
+   "kind": "historic=monument",
+   "lat": -20.11223,
+   "lon": 24.76899,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Baines Baobabs",
+    "kind": "historic=monument",
+    "lat": -20.11223,
+    "lon": 24.76899,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Baines Baobabs",
+    "kind": "tourism=viewpoint",
+    "lat": -20.11286,
+    "lon": 24.77006,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Baines Baobabs (Campsite 1)",
+    "kind": "tourism=camp_site",
+    "lat": -20.11801,
+    "lon": 24.76467,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Makgadikgadi · acceso de Khumaga",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -20.4554677,
+  "lon": 24.5164678,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Makgadikgadi Adventure Camp",
+   "kind": "tourism=camp_site",
+   "lat": -20.76269,
+   "lon": 25.73843,
+   "d": 131.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Makgadikgadi Adventure Camp",
+    "kind": "tourism=camp_site",
+    "lat": -20.76269,
+    "lon": 25.73843,
+    "d": 131.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Boteti River Camp",
+    "kind": "tourism=camp_site",
+    "lat": -20.46922,
+    "lon": 24.51497,
+    "d": 1.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Khumaga Campground",
+    "kind": "tourism=camp_site",
+    "lat": -20.45474,
+    "lon": 24.51634,
+    "d": 0.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Kubu Island · Lekhubu",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -20.893,
+  "lon": 25.819,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lekhubu Island",
+   "kind": "place=island",
+   "lat": -20.8936,
+   "lon": 25.81124,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lekhubu Island",
+    "kind": "place=island",
+    "lat": -20.8936,
+    "lon": 25.81124,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kubu island",
+    "kind": "natural=peak",
+    "lat": -20.88956,
+    "lon": 25.82959,
+    "d": 1.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kubu Island Ring Track",
+    "kind": "highway=track",
+    "lat": -20.89087,
+    "lon": 25.82357,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Nata Bird Sanctuary",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -20.3358281,
+  "lon": 26.2540675,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nata Bird Sanctuary",
+   "kind": "boundary=national_park",
+   "lat": -20.31735,
+   "lon": 26.25219,
+   "d": 2.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nata Bird Sanctuary",
+    "kind": "boundary=national_park",
+    "lat": -20.31735,
+    "lon": 26.25219,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nata Bird Sanctuary",
+    "kind": "leisure=nature_reserve",
+    "lat": -20.31735,
+    "lon": 26.25219,
+    "d": 2.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Khama Rhino Sanctuary · entrada",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -22.23444,
+  "lon": 26.72008,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Khama Rhino Sanctuary",
+   "kind": "office=government",
+   "lat": -22.23444,
+   "lon": 26.71998,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Khama Rhino Sanctuary",
+    "kind": "leisure=nature_reserve",
+    "lat": -22.22767,
+    "lon": 26.68344,
+    "d": 3.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Khama Rhino Sanctuary",
+    "kind": "boundary=national_park",
+    "lat": -22.22767,
+    "lon": 26.68344,
+    "d": 3.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Khama Rhino Sanctuary",
+    "kind": "office=government",
+    "lat": -22.23444,
+    "lon": 26.71998,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Northern Tuli · acceso de Pont Drift",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -22.2140642,
+  "lon": 29.1383946,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Pont Drift Border Post",
+   "kind": "office=government",
+   "lat": -22.21696,
+   "lon": 29.13972,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pont Drift Border Post",
+    "kind": "office=government",
+    "lat": -22.21696,
+    "lon": 29.13972,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Pont Drift Border",
+    "kind": "landuse=residential",
+    "lat": -22.21744,
+    "lon": 29.14061,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Three Dikgosi Monument · Gaborone",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -24.6449002,
+  "lon": 25.9073942,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Three Dikgosi Monument",
+   "kind": "historic=monument",
+   "lat": -24.64489,
+   "lon": 25.90738,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Three Dikgosi Monument",
+    "kind": "historic=monument",
+    "lat": -24.64489,
+    "lon": 25.90738,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Entrada — Kazungula Road (desde Zimbabue)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -17.7892,
+  "lon": 25.2633,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kazungula Road Boarder",
+   "kind": "building=yes",
+   "lat": -17.81513,
+   "lon": 25.26187,
+   "d": 2.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kazungula Road",
+    "kind": "highway=trunk",
+    "lat": -17.79267,
+    "lon": 25.19148,
+    "d": 7.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kazungula Road Boarder",
+    "kind": "building=yes",
+    "lat": -17.81513,
+    "lon": 25.26187,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kazungula Market",
+    "kind": "amenity=marketplace",
+    "lat": -17.79061,
+    "lon": 25.26886,
+    "d": 0.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Salida — Martin's Drift / Groblersbrug (hacia Sudáfrica)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -22.6167,
+  "lon": 28.0333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Martin's Drift",
+   "kind": "place=hamlet",
+   "lat": -22.99547,
+   "lon": 27.93323,
+   "d": 43.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Martin's Drift",
+    "kind": "place=hamlet",
+    "lat": -22.99547,
+    "lon": 27.93323,
+    "d": 43.3,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Q915544",
+    "kind": "localité du Botswana",
+    "lat": -22.99797,
+    "lon": 27.9337,
+    "d": 43.6,
+    "match": false,
+    "id": "Q915544"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Salida alternativa — Tlokweng Gate / Kopfontein",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -24.6667,
+  "lon": 25.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Tlokweng Gate",
+   "kind": "Botswana",
+   "lat": -24.66667,
+   "lon": 25.96667,
+   "d": 1.7,
+   "match": true,
+   "id": "Q916693"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Border Gate Mall",
+    "kind": "shop=supermarket",
+    "lat": -24.66391,
+    "lon": 25.98208,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Boarder Gate Mall",
+    "kind": "shop=mall",
+    "lat": -24.66383,
+    "lon": 25.98231,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Tlokweng Gate",
+    "kind": "Botswana",
+    "lat": -24.66667,
+    "lon": 25.96667,
+    "d": 1.7,
+    "match": true,
+    "id": "Q916693"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Embajada de España en Windhoek (competente para Botsuana)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -22.57,
+  "lon": 17.0836,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": -25.77022,
+   "lon": 28.25087,
+   "d": 1186.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": -25.77022,
+    "lon": 28.25087,
+    "d": 1186.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Letsholathebe II Memorial Hospital, Maun",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -19.995,
+  "lon": 23.42,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Letsholathebe II Memorial Hospital",
+   "kind": "amenity=hospital",
+   "lat": -19.98572,
+   "lon": 23.46263,
+   "d": 4.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Letsholathebe II Memorial Hospital",
+    "kind": "amenity=hospital",
+    "lat": -19.98572,
+    "lon": 23.46263,
+    "d": 4.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Letsholathebe II Memorial Hospital",
+    "kind": "amenity=hospital",
+    "lat": -19.9873,
+    "lon": 23.46335,
+    "d": 4.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Princess Marina Hospital, Gaborone",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -24.65,
+  "lon": 25.9167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Princess Marina Referral Hospital",
+   "kind": "amenity=hospital",
+   "lat": -24.65672,
+   "lon": 25.9247,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Princess Marina Referral Hospital",
+    "kind": "amenity=hospital",
+    "lat": -24.65672,
+    "lon": 25.9247,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Oficina DWNP · Maun (reservas de parques)",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -19.9833,
+  "lon": 23.4167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Maun",
+   "kind": "place=city",
+   "lat": -19.9861,
+   "lon": 23.42244,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Maun",
+    "kind": "place=city",
+    "lat": -19.9861,
+    "lon": 23.42244,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maun Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -19.97141,
+    "lon": 23.4322,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maun Road Court",
+    "kind": "landuse=residential",
+    "lat": -19.96542,
+    "lon": 23.45384,
+    "d": 4.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Departamento de Servicios Veterinarios (Gaborone)",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -24.6583,
+  "lon": 25.9122,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Department of Meteorological Services",
+   "kind": "office=government",
+   "lat": -24.66467,
+   "lon": 25.94253,
+   "d": 3.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Department of Meteorological Services",
+    "kind": "office=government",
+    "lat": -24.66467,
+    "lon": 25.94253,
+    "d": 3.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Department of Correctional Services",
+    "kind": "office=government",
+    "lat": -26.20905,
+    "lon": 28.04428,
+    "d": 274.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Department of Library Services",
+    "kind": "shop=books",
+    "lat": -25.75496,
+    "lon": 28.23033,
+    "d": 263.2,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Combustible · Kasane",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -17.8167,
+  "lon": 25.15,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kasane Dam",
+   "kind": "water=reservoir",
+   "lat": -17.81021,
+   "lon": 25.15109,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kasane",
+    "kind": "place=town",
+    "lat": -17.79924,
+    "lon": 25.15655,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasane Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -17.83046,
+    "lon": 25.16437,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasane Dam",
+    "kind": "water=reservoir",
+    "lat": -17.81021,
+    "lon": 25.15109,
+    "d": 0.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Combustible · Maun",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -19.9833,
+  "lon": 23.4167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Maun",
+   "kind": "place=city",
+   "lat": -19.9861,
+   "lon": 23.42244,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Maun",
+    "kind": "place=city",
+    "lat": -19.9861,
+    "lon": 23.42244,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maun Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -19.97141,
+    "lon": 23.4322,
+    "d": 2.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maun Road Court",
+    "kind": "landuse=residential",
+    "lat": -19.96542,
+    "lon": 23.45384,
+    "d": 4.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Nata, Gweta y Rakops (eje de las salinas)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -20.2167,
+  "lon": 26.1833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Nata",
+   "kind": "place=town",
+   "lat": -20.21067,
+   "lon": 26.18048,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nata",
+    "kind": "place=town",
+    "lat": -20.21067,
+    "lon": 26.18048,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nata",
+    "kind": "waterway=stream",
+    "lat": -19.84334,
+    "lon": 26.81844,
+    "d": 78.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nata Bird Sanctuary",
+    "kind": "boundary=national_park",
+    "lat": -20.31735,
+    "lon": 26.25219,
+    "d": 13.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Ghanzi y Letlhakane",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -21.7,
+  "lon": 21.65,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ghanzi Bus Terminal",
+   "kind": "building=yes",
+   "lat": -21.69569,
+   "lon": 21.64937,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ghanzi",
+    "kind": "place=city",
+    "lat": -21.69681,
+    "lon": 21.64571,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ghanzi Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -21.69292,
+    "lon": 21.65772,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ghanzi Bus Terminal",
+    "kind": "building=yes",
+    "lat": -21.69569,
+    "lon": 21.64937,
+    "d": 0.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Francistown, Palapye y Gaborone",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -21.1667,
+  "lon": 27.5167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Francistown Post Office",
+   "kind": "amenity=post_office",
+   "lat": -21.1648,
+   "lon": 27.51029,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Francistown",
+    "kind": "place=city",
+    "lat": -21.16636,
+    "lon": 27.50251,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Francistown",
+    "kind": "railway=station",
+    "lat": -21.16505,
+    "lon": 27.50851,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Francistown Post Office",
+    "kind": "amenity=post_office",
+    "lat": -21.1648,
+    "lon": 27.51029,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Francistown",
+    "kind": "ciudad en Botsuana",
+    "lat": -21.17361,
+    "lon": 27.5125,
+    "d": 0.9,
+    "match": true,
+    "id": "Q165422"
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Agua potable y de uso general · Kasane y Maun",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -19.9833,
+  "lon": 23.4167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Kasane Airport",
+   "kind": "aeroway=aerodrome",
+   "lat": -17.83046,
+   "lon": 25.16437,
+   "d": 301.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kasane",
+    "kind": "place=town",
+    "lat": -17.79924,
+    "lon": 25.15655,
+    "d": 304.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasane",
+    "kind": "highway=tertiary",
+    "lat": -24.61105,
+    "lon": 25.93467,
+    "d": 576.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kasane Airport",
+    "kind": "aeroway=aerodrome",
+    "lat": -17.83046,
+    "lon": 25.16437,
+    "d": 301.8,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Kasane",
+    "kind": "town in Botswana",
+    "lat": -17.79833,
+    "lon": 25.15361,
+    "d": 304.0,
+    "match": true,
+    "id": "Q170715"
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Agua · sin recarga en CKGR, Makgadikgadi y Kubu",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -21.4167,
+  "lon": 23.75,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Lago Makgadikgadi",
+   "kind": "former lake (paleolake) in Botswana",
+   "lat": -20.71667,
+   "lon": 24.95083,
+   "d": 146.9,
+   "match": true,
+   "id": "Q649771"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Makgadikgadi Pans National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -20.51076,
+    "lon": 24.8106,
+    "d": 149.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Makgadikgadi Lodge",
+    "kind": "tourism=guest_house",
+    "lat": -20.54755,
+    "lon": 26.07883,
+    "d": 260.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Makgadikgadi Adventure Camp",
+    "kind": "tourism=camp_site",
+    "lat": -20.76269,
+    "lon": 25.73843,
+    "d": 218.7,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Lago Makgadikgadi",
+    "kind": "former lake (paleolake) in Botswana",
+    "lat": -20.71667,
+    "lon": 24.95083,
+    "d": 146.9,
+    "match": true,
+    "id": "Q649771"
+   }
+  ]
+ }
+]

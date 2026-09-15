@@ -1,0 +1,1556 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Christmas Pass · mirador de Mutare",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -18.9508857,
+  "lon": 32.6472909,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Christmas Pass",
+   "kind": "tourism=viewpoint",
+   "lat": -18.94614,
+   "lon": 32.63443,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Christmas Pass",
+    "kind": "tourism=viewpoint",
+    "lat": -18.94614,
+    "lon": 32.63443,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Christmas Pass",
+    "kind": "tourism=hotel",
+    "lat": -18.93595,
+    "lon": 32.62432,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Zimbabwe College of Forestry",
+    "kind": "amenity=college",
+    "lat": -18.93469,
+    "lon": 32.62799,
+    "d": 2.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Vumba Botanical Garden",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -19.1189518,
+  "lon": 32.7829751,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Vumba Botanical Garden",
+   "kind": "tourism=attraction",
+   "lat": -19.11513,
+   "lon": 32.78138,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Vumba Botanical Garden",
+    "kind": "tourism=attraction",
+    "lat": -19.11513,
+    "lon": 32.78138,
+    "d": 0.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Monte Nyangani · cumbre",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -18.2955556,
+  "lon": 32.8419444,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mount Nyangani",
+   "kind": "natural=peak",
+   "lat": -18.30137,
+   "lon": 32.84191,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mount Nyangani",
+    "kind": "natural=peak",
+    "lat": -18.30137,
+    "lon": 32.84191,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Track to Mount Inyangani Summit",
+    "kind": "highway=path",
+    "lat": -18.28849,
+    "lon": 32.83923,
+    "d": 0.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Mtarazi Falls · mirador",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -18.4862536,
+  "lon": 32.79376,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Pungwe Falls Viewpoint",
+   "kind": "tourism=viewpoint",
+   "lat": -18.426,
+   "lon": 32.78231,
+   "d": 6.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Pungwe Falls Viewpoint",
+    "kind": "tourism=viewpoint",
+    "lat": -18.426,
+    "lon": 32.78231,
+    "d": 6.8,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Viewpoint Access Road",
+    "kind": "highway=service",
+    "lat": -17.98453,
+    "lon": 25.83231,
+    "d": 737.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "The Elephant Camp Victoria Falls",
+    "kind": "tourism=hotel",
+    "lat": -17.97399,
+    "lon": 25.84767,
+    "d": 735.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Ziwa Site Museum y terrazas",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -18.1447587,
+  "lon": 32.6355953,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Chimanimani · oficina del parque",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -19.8050464,
+  "lon": 32.8704041,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Zimparks office - Chimanimani Park, The Corner",
+   "kind": "amenity=police",
+   "lat": -19.69564,
+   "lon": 32.9548,
+   "d": 15.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chimanimani National Park",
+    "kind": "boundary=national_park",
+    "lat": -19.83621,
+    "lon": 33.01224,
+    "d": 15.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chimanimani National Park, The Corner, campsite",
+    "kind": "tourism=camp_site",
+    "lat": -19.70169,
+    "lon": 32.96107,
+    "d": 14.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Zimparks office - Chimanimani Park, The Corner",
+    "kind": "amenity=police",
+    "lat": -19.69564,
+    "lon": 32.9548,
+    "d": 15.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Great Zimbabwe National Monument",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": -20.2714635,
+  "lon": 30.9327465,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Great Zimbabwe",
+   "kind": "historic=archaeological_site",
+   "lat": -20.27094,
+   "lon": 30.9332,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Great Zimbabwe",
+    "kind": "historic=archaeological_site",
+    "lat": -20.27094,
+    "lon": 30.9332,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Lake Mutirikwi Recreational Park",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -20.1968115,
+  "lon": 30.9993953,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Lake Macilwane Recreational Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -17.91914,
+   "lon": 30.81909,
+   "d": 254.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lake Macilwane Recreational Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -17.91914,
+    "lon": 30.81909,
+    "d": 254.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Access Road to Lake Macilwane Recreational Park (South Bank Game Park)",
+    "kind": "highway=track",
+    "lat": -17.88732,
+    "lon": 30.7616,
+    "d": 258.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Chilojo Cliffs · Gonarezhou",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -21.4435821,
+  "lon": 32.0852065,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "chilojo cliffs",
+   "kind": "natural=cliff",
+   "lat": -21.44938,
+   "lon": 32.08209,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "chilojo cliffs",
+    "kind": "natural=cliff",
+    "lat": -21.44938,
+    "lon": 32.08209,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chilojo Cliffs Viewpoint West",
+    "kind": "tourism=viewpoint",
+    "lat": -21.44972,
+    "lon": 32.09773,
+    "d": 1.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Chilojo Cliffs Viewpoint East",
+    "kind": "tourism=viewpoint",
+    "lat": -21.4172,
+    "lon": 32.17365,
+    "d": 9.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Natural History Museum · Bulawayo",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -20.1557888,
+  "lon": 28.59648,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "The Natural History Museum of Zimbabwe",
+   "kind": "tourism=museum",
+   "lat": -20.15579,
+   "lon": 28.59642,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "The Natural History Museum of Zimbabwe",
+    "kind": "tourism=museum",
+    "lat": -20.15579,
+    "lon": 28.59642,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Matobo Hills · World’s View",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -20.4937625,
+  "lon": 28.5137344,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Worlds View Campsite",
+   "kind": "tourism=camp_site",
+   "lat": -20.50227,
+   "lon": 28.42654,
+   "d": 9.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Worlds View Campsite",
+    "kind": "tourism=camp_site",
+    "lat": -20.50227,
+    "lon": 28.42654,
+    "d": 9.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Khami World Heritage Site",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -20.1428081,
+  "lon": 28.4232472,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Khami Ruins (World Heritage Site)",
+   "kind": "tourism=attraction",
+   "lat": -20.14424,
+   "lon": 28.42327,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Khami Ruins (World Heritage Site)",
+    "kind": "tourism=attraction",
+    "lat": -20.14424,
+    "lon": 28.42327,
+    "d": 0.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Hwange National Park · Main Camp",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -18.7307301,
+  "lon": 26.951897,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hwange Main Camp",
+   "kind": "place=village",
+   "lat": -18.73206,
+   "lon": 26.95539,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hwange Main Camp",
+    "kind": "place=village",
+    "lat": -18.73206,
+    "lon": 26.95539,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hwange Main Camp Airfield (CLOSED)",
+    "kind": "aeroway=aerodrome",
+    "lat": -18.7248,
+    "lon": 26.95625,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hwange Main Camp Road",
+    "kind": "highway=tertiary",
+    "lat": -18.6184,
+    "lon": 27.00562,
+    "d": 13.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Victoria Falls · entrada principal",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -17.9248762,
+  "lon": 25.847138,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Main Falls",
+   "kind": "waterway=waterfall",
+   "lat": -17.92392,
+   "lon": 25.85183,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chamabonda Entrance Gate",
+    "kind": "building=yes",
+    "lat": -17.96924,
+    "lon": 25.80808,
+    "d": 6.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Victoria Falls River Lodge Main Area",
+    "kind": "building=yes",
+    "lat": -17.87286,
+    "lon": 25.79006,
+    "d": 8.4,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Main Falls",
+    "kind": "waterway=waterfall",
+    "lat": -17.92392,
+    "lon": 25.85183,
+    "d": 0.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Victoria Falls Bridge",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -17.9284388,
+  "lon": 25.857203,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Victoria Falls Bridge",
+   "kind": "man_made=bridge",
+   "lat": -17.92829,
+   "lon": 25.85715,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Victoria Falls Bridge",
+    "kind": "tourism=viewpoint",
+    "lat": -17.92672,
+    "lon": 25.86203,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Victoria Falls Bridge",
+    "kind": "man_made=bridge",
+    "lat": -17.92829,
+    "lon": 25.85715,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Victoria Falls Bridge Visitor Centre",
+    "kind": "tourism=museum",
+    "lat": -17.92959,
+    "lon": 25.85768,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Zambezi National Park",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -17.9782777,
+  "lon": 25.7101789,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Zambezi National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -17.92761,
+   "lon": 25.68091,
+   "d": 6.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Zambezi National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -17.92761,
+    "lon": 25.68091,
+    "d": 6.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "National Gallery of Zimbabwe · Harare",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -17.8249306,
+  "lon": 31.0490431,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "National Gallery of Zimbabwe",
+   "kind": "tourism=museum",
+   "lat": -17.8249,
+   "lon": 31.04896,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "National Gallery of Zimbabwe",
+    "kind": "tourism=museum",
+    "lat": -17.8249,
+    "lon": 31.04896,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Domboshawa · roca y pinturas",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -17.6105758,
+  "lon": 31.1733842,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Domboshawa",
+   "kind": "tourism=attraction",
+   "lat": -17.60823,
+   "lon": 31.16885,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Domboshawa",
+    "kind": "place=village",
+    "lat": -17.6201,
+    "lon": 31.15113,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Domboshawa",
+    "kind": "tourism=attraction",
+    "lat": -17.60823,
+    "lon": 31.16885,
+    "d": 0.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Domboshawa Road",
+    "kind": "highway=secondary",
+    "lat": -17.60256,
+    "lon": 31.16487,
+    "d": 1.3,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Chinhoyi Caves · Sleeping Pool",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.3563676,
+  "lon": 30.1299654,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Mana Pools · base de Nyamepi",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -15.7196224,
+  "lon": 29.3697596,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mana Pools Clinic",
+   "kind": "amenity=clinic",
+   "lat": -15.72126,
+   "lon": 29.36201,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mana Pools Clinic",
+    "kind": "amenity=clinic",
+    "lat": -15.72126,
+    "lon": 29.36201,
+    "d": 0.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mana Pools Workshop",
+    "kind": "building=yes",
+    "lat": -15.72237,
+    "lon": 29.36248,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-21",
+  "type": "poi",
+  "name": "Kariba Dam",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -16.5221068,
+  "lon": 28.7616692,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kariba Dam",
+   "kind": "waterway=dam",
+   "lat": -16.52144,
+   "lon": 28.76146,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kariba Dam",
+    "kind": "waterway=dam",
+    "lat": -16.52144,
+    "lon": 28.76146,
+    "d": 0.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kariba Dam Wall view point",
+    "kind": "amenity=parking",
+    "lat": -16.5227,
+    "lon": 28.76426,
+    "d": 0.3,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Dam wall viewpoint & curios",
+    "kind": "tourism=viewpoint",
+    "lat": -16.52316,
+    "lon": 28.76665,
+    "d": 0.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-22",
+  "type": "poi",
+  "name": "Chizarira · Mucheni Gorge Viewpoint",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -17.6460745,
+  "lon": 27.8769037,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mucheni Gorge",
+   "kind": "tourism=camp_site",
+   "lat": -17.65351,
+   "lon": 27.87592,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mucheni Gorge",
+    "kind": "tourism=camp_site",
+    "lat": -17.65351,
+    "lon": 27.87592,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · ENTRADA — Forbes/Machipanda (desde Mozambique)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -19.0053,
+  "lon": 32.7125,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Forbes Border Post",
+   "kind": "building=yes",
+   "lat": -19.0053,
+   "lon": 32.71244,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Forbes Border Post",
+    "kind": "building=yes",
+    "lat": -19.0053,
+    "lon": 32.71244,
+    "d": 0.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Forbes",
+    "kind": "building=yes",
+    "lat": -17.87091,
+    "lon": 31.14224,
+    "d": 208.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Forbes Road",
+    "kind": "highway=residential",
+    "lat": -17.9239,
+    "lon": 31.01157,
+    "d": 216.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · SALIDA — Kazungula carretera (hacia Botsuana)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -17.795,
+  "lon": 25.26,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Kazungula Bridge",
+   "kind": "man_made=bridge",
+   "lat": -17.79102,
+   "lon": 25.26245,
+   "d": 0.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Kazungula",
+    "kind": "place=town",
+    "lat": -17.78779,
+    "lon": 25.27602,
+    "d": 1.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kazungula",
+    "kind": "place=village",
+    "lat": -17.80529,
+    "lon": 25.23567,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Kazungula Bridge",
+    "kind": "man_made=bridge",
+    "lat": -17.79102,
+    "lon": 25.26245,
+    "d": 0.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · SALIDA alternativa — Plumtree/Ramokgwebana (hacia Botsuana)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -20.4833,
+  "lon": 27.7833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Plumtree Airport (CLOSED)",
+   "kind": "aeroway=aerodrome",
+   "lat": -20.4864,
+   "lon": 27.78982,
+   "d": 0.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Plumtree",
+    "kind": "place=town",
+    "lat": -20.48807,
+    "lon": 27.8056,
+    "d": 2.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Plumtree",
+    "kind": "railway=station",
+    "lat": -20.48902,
+    "lon": 27.80768,
+    "d": 2.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Plumtree Airport (CLOSED)",
+    "kind": "aeroway=aerodrome",
+    "lat": -20.4864,
+    "lon": 27.78982,
+    "d": 0.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Beitbridge (hacia Sudáfrica) — NO la usamos",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -22.2167,
+  "lon": 30.0,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Beitbridge",
+   "kind": "place=town",
+   "lat": -22.19862,
+   "lon": 29.99175,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Beitbridge",
+    "kind": "place=town",
+    "lat": -22.19862,
+    "lon": 29.99175,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Beitbridge",
+    "kind": "boundary=administrative",
+    "lat": -21.81297,
+    "lon": 29.94154,
+    "d": 45.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Beitbridge",
+    "kind": "railway=station",
+    "lat": -22.19056,
+    "lon": 30.01361,
+    "d": 3.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Chirundu y la coronación de la presa de Kariba (hacia Zambia) — no la usamos",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -16.0333,
+  "lon": 28.85,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Chirundu",
+   "kind": "place=town",
+   "lat": -16.03198,
+   "lon": 28.85148,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chirundu",
+    "kind": "place=town",
+    "lat": -16.03198,
+    "lon": 28.85148,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chirundu",
+    "kind": "place=village",
+    "lat": -16.04813,
+    "lon": 28.86298,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chirundu",
+    "kind": "leisure=pitch",
+    "lat": -16.04386,
+    "lon": 28.86379,
+    "d": 1.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Harare",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -17.81,
+  "lon": 31.05,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Embassy of Spain",
+   "kind": "office=diplomatic",
+   "lat": -17.80318,
+   "lon": 31.04404,
+   "d": 1.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Embassy of Spain",
+    "kind": "office=diplomatic",
+    "lat": -17.80318,
+    "lon": 31.04404,
+    "d": 1.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Hospitales privados de Harare (Avenues, Baines Avenue)",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -17.82,
+  "lon": 31.045,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Mater Dei Hospital, Bulawayo",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -20.15,
+  "lon": 28.5833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mater Dei Hospital",
+   "kind": "amenity=hospital",
+   "lat": -20.18209,
+   "lon": 28.59709,
+   "d": 3.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mater Dei Hospital",
+    "kind": "amenity=hospital",
+    "lat": -20.18209,
+    "lon": 28.59709,
+    "d": 3.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Hospital provincial de Mutare",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -18.9707,
+  "lon": 32.6709,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mutare Provincial Hospital",
+   "kind": "amenity=hospital",
+   "lat": -18.9643,
+   "lon": 32.66294,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mutare Provincial Hospital",
+    "kind": "amenity=hospital",
+    "lat": -18.9643,
+    "lon": 32.66294,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-9",
+  "type": "log",
+  "name": "Clínica privada de Victoria Falls",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -17.93,
+  "lon": 25.83,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-10",
+  "type": "log",
+  "name": "Combustible · Mutare, Masvingo, Bulawayo, Harare, Victoria Falls",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -20.15,
+  "lon": 28.5833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mutare",
+   "kind": "boundary=administrative",
+   "lat": -19.24886,
+   "lon": 32.43775,
+   "d": 415.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mutare",
+    "kind": "place=city",
+    "lat": -18.97466,
+    "lon": 32.67047,
+    "d": 447.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mutare",
+    "kind": "boundary=administrative",
+    "lat": -19.24886,
+    "lon": 32.43775,
+    "d": 415.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mutare",
+    "kind": "railway=station",
+    "lat": -18.98408,
+    "lon": 32.66331,
+    "d": 446.7,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-11",
+  "type": "log",
+  "name": "Combustible · Chiredzi (puerta de Gonarezhou)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -21.05,
+  "lon": 31.6667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Chiredzi",
+   "kind": "place=town",
+   "lat": -21.04529,
+   "lon": 31.66888,
+   "d": 0.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Chiredzi",
+    "kind": "boundary=administrative",
+    "lat": -21.41646,
+    "lon": 31.82334,
+    "d": 43.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chiredzi",
+    "kind": "place=town",
+    "lat": -21.04529,
+    "lon": 31.66888,
+    "d": 0.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Chiredzi",
+    "kind": "waterway=river",
+    "lat": -20.97822,
+    "lon": 31.68966,
+    "d": 8.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-12",
+  "type": "log",
+  "name": "Combustible · Hwange Main Camp y Dete",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -18.6167,
+  "lon": 26.85,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Hwange Main Camp Road",
+   "kind": "highway=tertiary",
+   "lat": -18.6184,
+   "lon": 27.00562,
+   "d": 16.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hwange Main Camp",
+    "kind": "place=village",
+    "lat": -18.73206,
+    "lon": 26.95539,
+    "d": 17.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hwange Main Camp Road",
+    "kind": "highway=tertiary",
+    "lat": -18.6184,
+    "lon": 27.00562,
+    "d": 16.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hwange Main Camp Airfield (CLOSED)",
+    "kind": "aeroway=aerodrome",
+    "lat": -18.7248,
+    "lon": 26.95625,
+    "d": 16.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-13",
+  "type": "log",
+  "name": "Combustible · Karoi, Makuti y Kariba (variante norte)",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -16.8167,
+  "lon": 29.6833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Karoi",
+   "kind": "place=town",
+   "lat": -16.81904,
+   "lon": 29.68369,
+   "d": 0.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Karoi",
+    "kind": "place=town",
+    "lat": -16.81904,
+    "lon": 29.68369,
+    "d": 0.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karoi Dam",
+    "kind": "water=reservoir",
+    "lat": -16.82451,
+    "lon": 29.69974,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Karoi River",
+    "kind": "waterway=river",
+    "lat": -16.9257,
+    "lon": 29.77611,
+    "d": 15.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-14",
+  "type": "log",
+  "name": "Agua potable y de uso general · ciudades del eje",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -20.15,
+  "lon": 28.5833,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-15",
+  "type": "log",
+  "name": "Agua · campamentos de ZimParks",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -19.0,
+  "lon": 26.5,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Zimparks Kazuma Pan National Park HQ",
+   "kind": "office=government",
+   "lat": -18.29324,
+   "lon": 25.6961,
+   "d": 115.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "ZimParks",
+    "kind": "shop=travel_agency",
+    "lat": -20.16416,
+    "lon": 28.57896,
+    "d": 253.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Zimparks Kazuma Pan National Park HQ",
+    "kind": "office=government",
+    "lat": -18.29324,
+    "lon": 25.6961,
+    "d": 115.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Zimparks Staff Accommodation",
+    "kind": "tourism=guest_house",
+    "lat": -17.3546,
+    "lon": 30.13144,
+    "d": 425.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-16",
+  "type": "log",
+  "name": "Agua · Gonarezhou, Chizarira y la variante norte",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -21.3,
+  "lon": 31.8833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Gonarezhou National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -21.68149,
+   "lon": 31.83465,
+   "d": 42.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Gonarezhou National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -21.68149,
+    "lon": 31.83465,
+    "d": 42.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Parque Transfronteiriço Gonarezhou",
+    "kind": "leisure=nature_reserve",
+    "lat": -21.85735,
+    "lon": 32.15833,
+    "d": 68.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-17",
+  "type": "log",
+  "name": "Taller y recambios · Bulawayo",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -20.15,
+  "lon": 28.5833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Bulawayo",
+   "kind": "place=city",
+   "lat": -20.15606,
+   "lon": 28.58871,
+   "d": 0.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Bulawayo",
+    "kind": "place=city",
+    "lat": -20.15606,
+    "lon": 28.58871,
+    "d": 0.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bulawayo",
+    "kind": "place=state",
+    "lat": -20.10539,
+    "lon": 28.54269,
+    "d": 6.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Bulawayo",
+    "kind": "boundary=administrative",
+    "lat": -20.11111,
+    "lon": 28.53568,
+    "d": 6.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-18",
+  "type": "log",
+  "name": "Reservas de ZimParks · Harare (sede central)",
+  "cat": "Servicio",
+  "clase": "ciudad",
+  "lat": -17.8292,
+  "lon": 31.0522,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Harare",
+   "kind": "place=city",
+   "lat": -17.83177,
+   "lon": 31.04569,
+   "d": 0.7,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Harare",
+    "kind": "place=city",
+    "lat": -17.83177,
+    "lon": 31.04569,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Harare",
+    "kind": "place=state",
+    "lat": -17.8567,
+    "lon": 31.06016,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Harare",
+    "kind": "boundary=administrative",
+    "lat": -17.85385,
+    "lon": 31.05703,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ }
+]
