@@ -180,18 +180,20 @@
       "info": "Panaderías y tiendas de alimentación: el único reabastecimiento real entre las cascadas de Lumangwe, Kabwelume y Ntumbachushi."
     },
     {
-      "name": "Agua potable y de uso general · Lusaka y Livingstone",
-      "cat": "Agua potable",
-      "lat": -15.4067,
-      "lon": 28.305,
-      "info": "Agua embotellada sin problema en ambas; lodges y campings permiten llenar el depósito de uso general con manguera. En el valle del Luangwa y el norte rural, confirmar potabilidad antes de beber."
+      "name": "Agua de servicio · The Moorings Campsite (Monze)",
+      "cat": "Agua de servicio",
+      "lat": -16.1942291,
+      "lon": 27.543504,
+      "info": "[TOMA EN PARCELA; VOLUMEN CONDICIONADO] La ficha oficial publica un punto de agua en cada emplazamiento y duchas calientes. Reservar y acordar litros, manguera y precio; no presupone potabilidad.",
+      "source": "https://www.zambiatourism.com/listing/the-moorings-campsite/"
     },
     {
-      "name": "Agua · campings de cascadas (norte)",
-      "cat": "Agua potable",
-      "lat": -9.5333,
-      "lon": 29.3833,
-      "info": "Lumangwe, Ntumbachushi y Chishimba tienen camping con aseos y agua corriente; tratarla antes de beber. Las pozas son de agua cristalina pero no potable sin filtrar."
+      "name": "Agua de servicio · Rapid 14 Logistical Base",
+      "cat": "Agua de servicio",
+      "lat": -17.9765356,
+      "lon": 25.8865676,
+      "info": "[DUCHA CALIENTE Y AGUA; SIN LLENADO] Camping verificado en 2026 y apto para vehículos grandes. Confirmar apertura; el agua del camping no autoriza el depósito.",
+      "source": "https://ioverlander.com/places/54877-rapid-14-campsite-and-lodge"
     }
   ],
   "sources": [
@@ -278,6 +280,18 @@
     [
       "UNESCO · Mosi-oa-Tunya / Victoria Falls, Patrimonio de la Humanidad",
       "https://whc.unesco.org/en/list/509/"
+    ],
+    [
+      "Zambia Tourism · The Moorings Campsite",
+      "https://www.zambiatourism.com/listing/the-moorings-campsite/"
+    ],
+    [
+      "iOverlander · Rapid 14 Campsite",
+      "https://ioverlander.com/places/54877-rapid-14-campsite-and-lodge"
+    ],
+    [
+      "iOverlander · Ngonye Falls Community Campsite (descarte)",
+      "https://ioverlander.com/places/7160-ngonye-falls-community-campsite"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 11 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
@@ -303,7 +317,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Lusaka, Livingstone, Mongu y Kasama: agua embotellada sin problema.</li><li>Recarga de depósito de uso general: lodges y campings de las cascadas del norte, Mpulungu, Mfuwe y las ciudades permiten llenar con manguera; confirmar en recepción.</li><li>Oeste (Barotseland) y tramo de Bangweulu: sin garantía — salir con los depósitos al 100%.</li><li>Filtrar y tratar siempre el agua de pozas y ríos, por muy cristalina que parezca (bilharzia).</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Plazas fiables: Mongu (oeste), Lusaka, Serenje, Mpika, Kasama, Mbala y Livingstone si se hace el desvío sur.</li><li>Dos tramos sin garantía: frontera de Chavuma → Mongu (~350 km de pista) y Serenje/Mpika → Bangweulu/Kasanka → circuito de cascadas. Llevar garrafas llenas en ambos.</li><li>El circuito de cascadas (Mporokoso, Kawambwa) tiene oferta irregular: repostar en Kasama o Mansa antes de entrar.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: una parcela con toma y una ducha actual</h3><p>Se retiran Lusaka, Livingstone y el circuito de cascadas como supuestos puntos de manguera. Solo se conservan dos instalaciones identificables y con alcance limitado.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>The Moorings Campsite, Monze · -16.194229, 27.543504</td><td><strong>Toma de agua en cada parcela.</strong> Zambia Tourism publica que cada emplazamiento dispone de su propio punto de agua y electricidad, además de duchas calientes. No publica caudal, rosca ni potabilidad. <a href=\"https://www.zambiatourism.com/listing/the-moorings-campsite/\" target=\"_blank\" rel=\"noopener\">ficha oficial</a> · <a href=\"https://www.google.com/maps?q=-16.1942291,27.543504\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Primera opción para una recarga planificada del corredor sur. Reservar parcela y acordar por escrito el volumen y si aceptan manguera o trasvase por garrafas.</td></tr><tr><td>Rapid 14 Logistical Base, Livingstone · -17.976536, 25.886568</td><td><strong>Ducha caliente y agua de camping; llenado no acreditado.</strong> iOverlander lo marca verificado en 2026, con agua, ducha caliente y acceso para vehículos grandes; la disponibilidad puede ser estacional. El pin se ha movido del punto colaborativo a la ficha real de Google Maps. <a href=\"https://ioverlander.com/places/54877-rapid-14-campsite-and-lodge\" target=\"_blank\" rel=\"noopener\">ficha y verificación</a> · <a href=\"https://www.google.com/maps?q=-17.9765356,25.8865676\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Llamar antes y usarlo para higiene durante la estancia. No contar con llenar el depósito hasta obtener permiso, litros y toma concretos.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>El oeste entre Caripande, Chavuma y Mongu y el circuito septentrional de cascadas quedan sin recarga exacta: entrar con autonomía y negociar una toma privada antes de abandonar una base grande.</li><li>Ngonye Falls Community Campsite tiene agua y ducha en una verificación reciente, pero prohíbe perros y su pin no coincide con el establecimiento que devuelve Google Maps; se documenta como descarte y no se publica un marcador dudoso.</li><li>No llenar desde el Zambeze, pozas o cascadas como operación ordinaria. El agua de parcela sigue requiriendo tratamiento si entra en el circuito de cocina.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Plazas fiables: Mongu (oeste), Lusaka, Serenje, Mpika, Kasama, Mbala y Livingstone si se hace el desvío sur.</li><li>Dos tramos sin garantía: frontera de Chavuma → Mongu (~350 km de pista) y Serenje/Mpika → Bangweulu/Kasanka → circuito de cascadas. Llevar garrafas llenas en ambos.</li><li>El circuito de cascadas (Mporokoso, Kawambwa) tiene oferta irregular: repostar en Kasama o Mansa antes de entrar.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> El icono de agua de un camping tampoco autoriza a llenar los depósitos. Antes de desviarse hay que confirmar fecha, litros, toma, precio y acceso de los dos 4x4. Para beber y cocinar: agua sellada o tratamiento completo. Llevar garrafas, manguera, adaptadores, bomba y prefiltro.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

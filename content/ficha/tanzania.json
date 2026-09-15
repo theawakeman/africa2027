@@ -248,25 +248,20 @@
       "info": "Eje sur de la costa por la T6 (recientemente mejorada): estaciones en Kibiti, Ikwiriri, Kilwa Masoko, Lindi y Mtwara. El gap real es el acceso a Nyerere/Mtemere (80-100 km de pista sin nada) y el desvío de Masasi hacia el puente de la Unidad."
     },
     {
-      "name": "Agua potable y de uso general · Arusha, Dar es Salaam, Mbeya",
-      "cat": "Agua potable",
-      "lat": -3.3869,
-      "lon": 36.683,
-      "info": "Agua embotellada sin problema en supermercados de las tres ciudades; campings, lodges y hoteles permiten llenar el depósito de uso general con manguera. Confirmar siempre en recepción."
+      "name": "Agua de servicio · The Old Farm House (Kisolanza)",
+      "cat": "Agua de servicio",
+      "lat": -8.14695,
+      "lon": 35.4122167,
+      "info": "[AGUA EN CAMPING; LLENADO CONDICIONADO] Web oficial actual: acceso para vehículo/camión overland, agua fresca y duchas calientes. Acordar litros y toma; no consta potabilidad.",
+      "source": "https://www.kisolanza.com/"
     },
     {
-      "name": "Agua · campings de los parques del norte",
-      "cat": "Agua potable",
-      "lat": -3.2,
-      "lon": 35.5,
-      "info": "Los campings públicos del Ngorongoro (Simba) y del Serengeti (Seronera) tienen agua corriente y aseos, pero el suministro es irregular y no potable sin tratar. Entrar al circuito con los depósitos llenos al 100 % desde Karatu."
-    },
-    {
-      "name": "Agua · lago Natron y corredor del oeste",
-      "cat": "Agua potable",
-      "lat": -2.45,
-      "lon": 36.0167,
-      "info": "Sin garantía ninguna: en Engare Sero el agua es escasa y el calor extremo (hay que contar 5-6 litros por persona y día), y en el eje Sumbawanga-Mpanda-Kigoma no hay recarga fiable fuera de las ciudades. Salir al 100 % y llevar filtro."
+      "name": "Agua de servicio · Ndanindani Lodge & Campsite",
+      "cat": "Agua de servicio",
+      "lat": -3.5659236,
+      "lon": 36.1098127,
+      "info": "[SOLO DUCHA DE CAMPISTA] Camping 2026 orientado a overlanders, con duchas calientes y parking seguro. No publica llenado; confirmar cualquier volumen antes de ir.",
+      "source": "https://www.ndanindani.com/accommodation"
     }
   ],
   "sources": [
@@ -469,6 +464,18 @@
     [
       "iOverlander · puntos de combustible, agua, camping y fronteras verificados por la comunidad",
       "https://ioverlander.com/"
+    ],
+    [
+      "The Old Farm House Kisolanza · sitio oficial",
+      "https://www.kisolanza.com/"
+    ],
+    [
+      "Ndanindani Lodge & Campsite · alojamiento oficial",
+      "https://www.ndanindani.com/accommodation"
+    ],
+    [
+      "iOverlander · Seronera public campsite (evidencia antigua)",
+      "https://ioverlander.com/places/7093-np-serenera-public-campsite"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 11 de septiembre de 2026. Ficha reescrita por completo: la versión anterior describía una entrada desde Malaui y solo 4 PDIs, y ya no corresponde a la ruta confirmada. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
@@ -494,7 +501,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Arusha, Dar es Salaam, Mbeya, Iringa, Dodoma y Tanga: agua embotellada sin problema en supermercados.</li><li>Recarga de depósito de uso general: campings de overlanders de Karatu y Arusha, lodges de la costa, campings de Kilwa y Pangani y hoteles de las ciudades permiten llenar con manguera; confirmar en recepción.</li><li>Campings públicos del Ngorongoro (Simba) y del Serengeti (Seronera): tienen agua corriente y aseos, pero el suministro es irregular y no potable sin tratar. Entrar al circuito norte con los depósitos al 100 % desde Karatu.</li><li>Lago Natron: agua escasa y calor extremo — 5-6 litros por persona y día, y el perro aparte. Salir lleno de Mto wa Mbu o Longido.</li><li>Bucle del oeste (Sumbawanga-Mpanda-Katavi-Kigoma): sin recarga fiable fuera de las ciudades. Filtro y depósitos llenos.</li><li>Filtrar y tratar siempre el agua de ríos y pozas, por clara que parezca (bilharzia en el Tanganyika y en los remansos del Rufiji, el Ruaha y el Pangani).</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Corredor interior, sin gaps graves en el eje principal: Tunduma → Mbeya (~110 km) → Makambako → Iringa (~320 km) → Dodoma (~270 km) → Babati → Arusha, todos con estaciones formales (TotalEnergies, Puma, Oryx). Karatu es el último suministro de confianza antes del circuito Ngorongoro-Serengeti.</li><li>Tramos sin garantía del interior: los 130 km de pista Iringa-Ruaha y las pistas internas del parque; el desvío al lago Natron (desde Mto wa Mbu o Longido no hay nada hasta Engare Sero); y el circuito Ngorongoro-Olduvai-Serengeti-Klein's Gate-Natron, que puede sumar 600-800 km sin una estación fiable. Entrar con depósitos y garrafas llenos.</li><li>Bucle del oeste: Sumbawanga y Mpanda son las únicas plazas fiables entre Mbeya y Kigoma. Sitalike, a la puerta de Katavi, no garantiza nada. Autonomía completa obligatoria.</li><li>Corredor costero: estaciones formales en Tanga, Muheza, Korogwe, Bagamoyo, Dar es Salaam, Kibiti, Ikwiriri, Kilwa Masoko, Lindi y Mtwara. El único gap real es el acceso a Nyerere/Mtemere (80-100 km de pista sin suministro) y los desvíos de la meseta makonde y de Masasi al puente de la Unidad.</li><li>Calidad: aceptable en las estaciones de marca de las ciudades, irregular en el oeste y en los pueblos de pista. Llevar embudo con filtro como en Angola.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: dos campings concretos, sin promesas urbanas</h3><p>Arusha, Dar es Salaam, Mbeya, los parques del norte y el lago Natron dejan de ser pines de agua. Kisolanza ofrece agua fresca en un camping de vehículos; Ndanindani resuelve ducha. En ambos, el depósito exige permiso.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>The Old Farm House, Kisolanza · -8.146950, 35.412217</td><td><strong>Agua fresca y duchas calientes en camping para vehículos.</strong> La web oficial actual publica parcelas amplias para vehículo privado y camión overland, aseos, duchas calientes y fresh water. No ofrece conexión de manguera ni certifica potabilidad. <a href=\"https://www.kisolanza.com/\" target=\"_blank\" rel=\"noopener\">camping oficial</a> · <a href=\"https://www.google.com/maps?q=-8.14695,35.4122167\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Apoyo principal entre Mbeya e Iringa. Reservar y preguntar si el agua puede trasvasarse al vehículo, en qué volumen y con qué adaptador.</td></tr><tr><td>Ndanindani Lodge & Campsite, Naitolia · -3.565924, 36.109813</td><td><strong>Duchas calientes y parking seguro para overlanders.</strong> La web 2026 publica parcelas niveladas, abluciones compartidas, duchas calientes y vigilancia. El establecimiento trabaja con agua de lluvia y no anuncia llenado de depósitos. <a href=\"https://www.ndanindani.com/accommodation\" target=\"_blank\" rel=\"noopener\">servicios oficiales</a> · <a href=\"https://www.google.com/maps?q=-3.5659236,36.1098127\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Usarlo para higiene y pernocta reservada. Cualquier litro para el coche se consulta antes; no presionar un sistema de agua recogida en una zona seca.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Kisolanza es el único apoyo del grupo con agua actual publicada y acceso de vehículos; sigue siendo llenado condicionado, no grifo público.</li><li>Seronera y Simba no se usan como recarga: la evidencia localizada es antigua y describe suministro irregular. Entrar a Ngorongoro–Serengeti con reserva cerrada mediante una cita privada en Karatu o Arusha.</li><li>Para Natron y el bucle occidental, resolver el volumen antes del desvío y conservar margen de retorno. No captar de lagos, ríos o manantiales sin tratamiento completo.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Corredor interior, sin gaps graves en el eje principal: Tunduma → Mbeya (~110 km) → Makambako → Iringa (~320 km) → Dodoma (~270 km) → Babati → Arusha, todos con estaciones formales (TotalEnergies, Puma, Oryx). Karatu es el último suministro de confianza antes del circuito Ngorongoro-Serengeti.</li><li>Tramos sin garantía del interior: los 130 km de pista Iringa-Ruaha y las pistas internas del parque; el desvío al lago Natron (desde Mto wa Mbu o Longido no hay nada hasta Engare Sero); y el circuito Ngorongoro-Olduvai-Serengeti-Klein's Gate-Natron, que puede sumar 600-800 km sin una estación fiable. Entrar con depósitos y garrafas llenos.</li><li>Bucle del oeste: Sumbawanga y Mpanda son las únicas plazas fiables entre Mbeya y Kigoma. Sitalike, a la puerta de Katavi, no garantiza nada. Autonomía completa obligatoria.</li><li>Corredor costero: estaciones formales en Tanga, Muheza, Korogwe, Bagamoyo, Dar es Salaam, Kibiti, Ikwiriri, Kilwa Masoko, Lindi y Mtwara. El único gap real es el acceso a Nyerere/Mtemere (80-100 km de pista sin suministro) y los desvíos de la meseta makonde y de Masasi al puente de la Unidad.</li><li>Calidad: aceptable en las estaciones de marca de las ciudades, irregular en el oeste y en los pueblos de pista. Llevar embudo con filtro como en Angola.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> El icono de agua de un camping tampoco autoriza a llenar los depósitos. Antes de desviarse hay que confirmar fecha, litros, toma, precio y acceso de los dos 4x4. Para beber y cocinar: agua sellada o tratamiento completo. Llevar garrafas, manguera, adaptadores, bomba y prefiltro.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
