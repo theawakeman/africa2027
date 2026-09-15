@@ -845,9 +845,11 @@ def render_portal(countries):
 </div>
 <main>
 <section id="accesos" style="margin-top:26px">
-<div class="cards">
+<div class="cards portal-access">
   <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua de servicio y combustible. Toca un punto para ver su ficha.</span></div></a>
   <a class="card" href="visados/"><div class="body"><h3>🛂 Visados</h3><span class="meta">Mapa y calendario para pasaporte español: sin visado, electrónico, presencial o en frontera, ajustado a los pasos terrestres de la ruta.</span></div></a>
+  <a class="card" href="cpd/"><div class="body"><h3>🚙 CPD</h3><span class="meta">Mapa y auditoría país por país sobre la exigencia del Carnet de Passage para los dos vehículos.</span></div></a>
+  <a class="card" href="perro/"><div class="body"><h3>🐕 El perro</h3><span class="meta">Requisitos sanitarios, documentación, fronteras, riesgos y preparación para viajar con el perro.</span></div></a>
   <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
   <a class="card" href="{MYMAPS}" target="_blank" rel="noopener"><div class="body"><h3>📍 My Maps (Google)</h3><span class="meta">Mapa maestro compartido del proyecto (requiere conexión).</span></div></a>
 </div>

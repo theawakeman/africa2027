@@ -285,6 +285,8 @@ dialog.map-poi-modal::backdrop { background:rgba(10,20,30,.62); }
 @media (max-width:640px) { .srcs { columns:1; } }
 
 .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:14px; }
+.cards.portal-access { grid-auto-rows:1fr; }
+.portal-access .card { height:100%; }
 .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; overflow:hidden; text-decoration:none; color:var(--ink); display:flex; flex-direction:column; }
 a.card { transition:transform .15s ease; } a.card:hover { transform:translateY(-2px); }
 .card img { width:100%; aspect-ratio:16/8.5; object-fit:cover; display:block; }

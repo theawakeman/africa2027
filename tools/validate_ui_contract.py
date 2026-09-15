@@ -17,6 +17,7 @@ def require(condition, message):
 css = (ROOT / "assets/css/site.css").read_text(encoding="utf-8")
 map_js = (ROOT / "assets/js/map.js").read_text(encoding="utf-8")
 map_html = (ROOT / "mapa/index.html").read_text(encoding="utf-8")
+portal_html = (ROOT / "index.html").read_text(encoding="utf-8")
 sw = (ROOT / "sw.js").read_text(encoding="utf-8")
 visa_html = (ROOT / "visados/index.html").read_text(encoding="utf-8")
 visa_js = (ROOT / "assets/js/visamap.js").read_text(encoding="utf-8")
@@ -73,6 +74,11 @@ require('.cpdkey { display:flex;' in css and 'color:var(--ink-soft)' in css and
 require("assets/css/site.css?v=" in visa_html, "falta versionar el CSS de Visados")
 require("assets/js/visamap.js?v=" in visa_html, "falta versionar el mapa de Visados")
 require("function a27VisaMap" in visa_js, "falta el mapa interactivo de Visados")
+require('class="cards portal-access"' in portal_html and
+        all(f'href="{path}/"' in portal_html for path in ("mapa", "visados", "cpd", "perro", "documentacion")),
+        "el portal debe conservar los accesos directos a Mapa, Visados, CPD, El perro y Documentación")
+require('.cards.portal-access { grid-auto-rows:1fr; }' in css,
+        "los seis accesos principales deben tener la misma altura")
 visa_match = re.search(r'<script>var A27_VISAS = (\{.*?\});</script>', visa_html, re.S)
 require(visa_match, "no se encuentra la configuración del mapa de Visados")
 visa_config = json.loads(visa_match.group(1))
