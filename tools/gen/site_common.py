@@ -12,7 +12,7 @@ MYMAPS = "https://www.google.com/maps/d/edit?hl=es&mid=1brUmvoMOalT61Od_OwLFWtfj
 # sustituye a la calculada por data_<pais>.py; las claves ausentes del JSON
 # se dejan tal cual las produjo el módulo Python del país.
 FICHA_FIELDS = [
-    "hero_img", "hero_credit", "chips", "verificado",
+    "hero_img", "hero_credit", "chips", "verificado", "revision",
     "historia_resumen", "historia_secciones", "historia_fuentes",
     "logistics", "sources", "sources_note",
     "emergency", "matrix_note", "notice",

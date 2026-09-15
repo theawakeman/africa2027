@@ -6,32 +6,48 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "1–2 días",
-    "lat": 7.5406,
-    "lon": -8.4581,
-    "desc": "La cadena del Nimba se levanta sobre la triple frontera de Costa de Marfil, Guinea y Liberia y culmina en el monte Richard-Molard (1.752 m), techo de los dos primeros países. Es Patrimonio Mundial de la UNESCO desde 1981-1982 (bien transfronterizo Guinea/Costa de Marfil) y Reserva de la Biosfera: praderas de altura sobre selva densa, con endemismos célebres como el sapo vivíparo del Nimba (Nimbaphrynoides occidentalis, que pare crías vivas — único entre los anfibios) y micromamíferos exclusivos de la sierra. La parte marfileña (~5.000 ha) es RESERVA INTEGRAL: el acceso está restringido y no es un parque de visita libre. Hay que gestionar el permiso con la OIPR (Office Ivoirien des Parcs et Réserves) y guía local desde Danané o Biankouma. Está también en la Lista del Patrimonio Mundial en Peligro por la presión minera del lado guineano. Coordenada del punto culminante; el acceso marfileño se hace desde el noroeste de Danané. CONFIRMAR acceso y permiso antes de desviarse.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont%20Nimba%20landscape.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mont%20Nimba%20landscape.jpg",
+    "lat": 7.5819758,
+    "lon": -8.4183833,
+    "desc": "La reserva estricta del monte Nimba ocupa el macizo fronterizo compartido con Guinea. Su régimen de protección exige permisos y guía; el pin identifica el área, no una entrada libre.",
+    "credit": "Jojoy99 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A9serve_naturelle_int%C3%A9grale_du_mont_Nimba.webp?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9serve_naturelle_int%C3%A9grale_du_mont_Nimba.webp",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
-  },
-  {
-    "n": 2,
-    "name": "Man · la ciudad de las dieciocho montañas",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2–3 noches",
-    "lat": 7.4125,
-    "lon": -7.5539,
-    "desc": "Capital de la región de Tonkpi y del oeste forestal marfileño, encajada en un anfiteatro de cumbres que le ha dado el apodo de «la ciudad de las 18 montañas». Clima notablemente más fresco que la costa (está a ~340 m, rodeada de cerros de 900-1.200 m), combustible, bancos, hospital regional, mercado grande y la mejor oferta de alojamiento del oeste. Es la base natural de todo el bloque de montaña: Dent de Man, mont Tonkoui, la Cascade, los puentes de lianas y los pueblos dan y toura. Punto de partida y de regreso de casi todas las excursiones a pie del país.",
-    "credit": "Zenman/Letsgoforward · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dent%20de%20Man%20montagne.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Dent%20de%20Man%20montagne.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el gran paisaje montano del oeste marfileño y un sitio UNESCO de biodiversidad excepcional.",
+      "see": "La reserva estricta del monte Nimba ocupa el macizo fronterizo compartido con Guinea. Su régimen de protección exige permisos y guía; el pin identifica el área, no una entrada libre.",
+      "access": "El pin se ajusta a la ficha marfileña de la Reserva Natural Integral del Monte Nimba en Google Maps. Coordinar puerta, autorización y guía con OIPR antes de acercarse.",
+      "when": "Estación seca y varios días de margen desde Man o Danané.",
+      "skip": "Omitir sin permiso, con restricciones fronterizas o mineras, o si no se puede dejar al perro fuera de la reserva."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Reserva Natural Integral del Monte Nimba",
+        "url": "https://whc.unesco.org/en/list/155/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A9serve_naturelle_int%C3%A9grale_du_mont_Nimba.webp?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9serve_naturelle_int%C3%A9grale_du_mont_Nimba.webp",
+        "credit": "Jojoy99 · CC BY-SA 4.0",
+        "caption": "Laderas forestales de la reserva del monte Nimba."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Nimba_Strict_Nature_Reserve-108448.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Nimba_Strict_Nature_Reserve-108448.jpg",
+        "credit": "Guy Debonnet · CC BY-SA 3.0 IGO",
+        "caption": "Relieve y mosaico vegetal del macizo protegido."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musoke_Deo_MDK-MUSO_45_THE_CANOPY_FORMED_BY_BAMBOO_TREES_ON_MOUNT-NIMBA_TRASBOUNDARY_PROTECTED_AREA_IN_IVORY_COAST.png?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Musoke_Deo_MDK-MUSO_45_THE_CANOPY_FORMED_BY_BAMBOO_TREES_ON_MOUNT-NIMBA_TRASBOUNDARY_PROTECTED_AREA_IN_IVORY_COAST.png",
+        "credit": "MDK-MUSO · CC BY-SA 4.0",
+        "caption": "Dosel de bambú en el sector marfileño del Nimba."
+      }
+    ]
   },
   {
     "n": 3,
@@ -42,30 +58,46 @@
     "time": "½–1 día",
     "lat": 7.45635,
     "lon": -7.54433,
-    "desc": "El diente de roca que domina Man y símbolo de toda la región: una cumbre puntiaguda de unos 881 m que se sube a pie en una jornada corta (unas 2-3 h de subida) por sendero de selva y bloques, con vistas de 360º sobre el mar de montañas del Tonkpi. Es LA excursión clásica del oeste marfileño. No hay señalización fiable ni control de acceso formal: se sube con guía local contratado en Man, que además evita problemas con los bosques sagrados de los alrededores. OpenStreetMap sitúa al pie de la cumbre los pueblos de Glongouin, Zogoualé y Bantégouen, del lado de la carretera de Zagoué; el pueblo de Zadepleu que a veces se cita como punto de salida está en realidad junto a la Cascade de Man, 8 km al suroeste. Tramo final expuesto y resbaladizo en lluvias. Coordenada corregida sobre el nodo natural=peak «La Dent de Man» de OpenStreetMap (881 m), a 5 km al noreste del centro de Man.",
-    "credit": "Zenman/Letsgoforward · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dent%20de%20Man%20montagne.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Dent%20de%20Man%20montagne.jpg",
+    "desc": "La Dent de Man es la cumbre rocosa que domina la ciudad y se asciende por senderos desde aldeas del pie. No debe confundirse con la Cascade de Man, situada en Zadepleu.",
+    "credit": "Milequem Diarassouba · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Dent_de_Man_mountain.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Dent_de_Man_mountain.jpg",
     "icon": "naturaleza · montaña",
     "color": "verde",
-    "dog_note": ""
-  },
-  {
-    "n": 4,
-    "name": "Mont Tonkoui (1.189 m)",
-    "cat": "Naturaleza · montaña",
-    "prio": "Alta",
-    "dog": "permitido con correa",
-    "time": "½ día",
-    "lat": 7.45409,
-    "lon": -7.63705,
-    "desc": "La segunda cumbre más alta de Costa de Marfil, a unos 11 km en línea recta al noroeste de Man (una veintena por la pista). En OpenStreetMap y en parte de la cartografía aparece como MONT TONKPI (y «Mont Tounkui»): es la misma montaña con otro nombre, no dos cumbres distintas, y es la que da nombre a la región del Tonkpi. Tiene la particularidad de que una pista de tierra sube casi hasta la cima (antigua estación climática y repetidores), lo que la convierte en el mejor mirador del país accesible en 4x4: en los días claros se ven las montañas de Guinea y de Liberia y el mar de selva hasta el horizonte. Amanecer frecuentemente por encima de un mar de nubes. La pista es de tierra roja, con cárcavas y tramos lavados en temporada de lluvias — es una de las subidas 4x4 más divertidas del corredor de bajada. También se puede subir a pie desde la carretera de Biankouma. Coordenada corregida sobre el nodo natural=peak «Mont Tonkoui» de OpenStreetMap (1.189 m, alt_name «Mont Tonkpi»).",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dent%20de%20Man%20montagne.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Dent%20de%20Man%20montagne.jpg",
-    "icon": "naturaleza · montaña",
-    "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la caminata emblemática de Man y ofrece una vista completa del anfiteatro montañoso.",
+      "see": "La Dent de Man es la cumbre rocosa que domina la ciudad y se asciende por senderos desde aldeas del pie. No debe confundirse con la Cascade de Man, situada en Zadepleu.",
+      "access": "Google Maps no devuelve una ficha inequívoca; se conserva la cumbre OSM auditada. Contratar guía en Man y confirmar el inicio en Glongouin, Zogoualé o Bantégouen.",
+      "when": "Amanecer o primera mañana de estación seca; reservar medio día.",
+      "skip": "Descartarla con tormenta, roca mojada, niebla densa o sin guía; no asumir que el perro supere trepadas o bloques."
+    },
+    "links": [
+      {
+        "label": "Google Maps · Dent de Man",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dent%20de%20Man%20C%C3%B4te%20d%27Ivoire"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Dent_de_Man_mountain.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Dent_de_Man_mountain.jpg",
+        "credit": "Milequem Diarassouba · CC BY-SA 4.0",
+        "caption": "Perfil reconocible de la Dent de Man."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dent_de_Man_montagne.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dent_de_Man_montagne.jpg",
+        "credit": "Zenman/Letsgoforward · CC BY-SA 3.0",
+        "caption": "La cumbre vista desde el entorno urbano."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dent_de_Man_23-08-2024.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dent_de_Man_23-08-2024.jpg",
+        "credit": "BeraDigle · CC0",
+        "caption": "Vista hacia Man desde la propia montaña."
+      }
+    ]
   },
   {
     "n": 5,
@@ -75,14 +107,47 @@
     "dog": "permitido con correa",
     "time": "½ día",
     "lat": 7.41205,
-    "lon": -7.58638,
-    "desc": "A unos 4 km al oeste del centro de Man, junto a la aldea de Zadepleu y al bosque sagrado de Gbêpleu, un salto de agua encajado en un bosque de bambúes gigantes que forma un túnel vegetal sobre el sendero de acceso — la imagen más reproducida de la región después de la Dent de Man. Paseo corto y fácil desde el aparcamiento, con tasa de entrada local y guías del pueblo. El caudal depende mucho de la estación: espectacular entre junio y octubre, reducido a un hilo en pleno enero-febrero. Pozas donde se puede uno mojar los pies; bañarse depende del caudal y del criterio del guía. Coordenada corregida sobre el nodo waterway=waterfall «Les Cascades Naturelles de Man» de OpenStreetMap.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20cascades%20de%20Man.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Les%20cascades%20de%20Man.jpg",
+    "lon": -7.5849645,
+    "desc": "La Cascade de Man cae dentro de un bosque de bambú cerca de Zadepleu. Es una visita corta y distinta de la subida a la Dent de Man.",
+    "credit": "Sahi Tia · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_cascades_de_Man.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Les_cascades_de_Man.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrece el acceso natural más sencillo del bloque de Man y funciona incluso sin dedicar un día entero a montaña.",
+      "see": "La Cascade de Man cae dentro de un bosque de bambú cerca de Zadepleu. Es una visita corta y distinta de la subida a la Dent de Man.",
+      "access": "El pin se ajusta a Man's Waterfalls en Google Maps. Usar la entrada señalizada, pagar al custodio si corresponde y permanecer en el sendero.",
+      "when": "Mañana, con caudal moderado y antes de la mayor afluencia.",
+      "skip": "Omitir con crecida, tormenta o sendero cerrado; no subir por roca húmeda fuera del recorrido."
+    },
+    "links": [
+      {
+        "label": "Google Maps · Cascade de Man",
+        "url": "https://www.google.com/maps/search/?api=1&query=Cascade%20de%20Man%20C%C3%B4te%20d%27Ivoire"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_cascades_de_Man.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Les_cascades_de_Man.jpg",
+        "credit": "Sahi Tia · CC BY-SA 4.0",
+        "caption": "Cascada de Man rodeada de vegetación."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_chutes_d'eau_de_la_Cascade_de_Man_dans_la_r%C3%A9gion_du_Tonkpi_02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Les_chutes_d'eau_de_la_Cascade_de_Man_dans_la_r%C3%A9gion_du_Tonkpi_02.jpg",
+        "credit": "Yasield · CC0",
+        "caption": "Caída principal cerca de Zadepleu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CASCADE_DE_MAN_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:CASCADE_DE_MAN_2.jpg",
+        "credit": "Petrus yh · CC BY 4.0",
+        "caption": "Poza y pared rocosa de la Cascade de Man."
+      }
+    ]
   },
   {
     "n": 6,
@@ -93,30 +158,46 @@
     "time": "½ día",
     "lat": 7.07981,
     "lon": -8.11069,
-    "desc": "Los puentes de lianas del país dan son pasarelas colgantes tejidas enteramente con lianas vivas sobre los ríos de la selva, sin un solo clavo, mantenidas y renovadas por especialistas rituales de cada aldea; la tradición dice que se «hacen crecer» de noche y su construcción está rodeada de secreto iniciático. El único que está cartografiado —y el que marca ahora este punto— es el del par de aldeas LIEUPLEU / VATOUO, en la subprefectura de Séileu, departamento de DANANÉ: no está a 20-40 km de Man, sino a unos 21 km al sur de Danané y a unos 72 km al suroeste de Man. OpenStreetMap lo tiene marcado dos veces en el mismo sitio, como «Pont de Lianes» (atracción turística) y como «Natural bridge Liana» (mirador), a 0,5 km de Vatouo y 1,7 km de Lieupleu; la pista de acceso que baja desde Lieupleu lleva también el nombre «Pont de Lianes». Se citan puentes en otras aldeas dan de la región (Gouéssesso, Gbangbégouiné, Niahoin), pero no están cartografiados y no se han podido verificar. Es patrimonio vivo, no un decorado: se paga una tasa a la aldea, se pide permiso al jefe y conviene ir con guía. Cruzarlo es parte de la visita. Confirmar en Danané o en Man cuál de los puentes está en mejor estado en el momento del paso.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont%20de%20lianes%20de%20Lieupleu.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Pont%20de%20lianes%20de%20Lieupleu.jpg",
+    "desc": "El puente de lianas de Lieupleu/Vatouo es una pasarela ritual mantenida por comunidades dan cerca de la frontera liberiana. La visita necesita permiso local y no es una infraestructura vial.",
+    "credit": "Drorita · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont_de_lianes_de_Lieupleu.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Pont_de_lianes_de_Lieupleu.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
-  },
-  {
-    "n": 7,
-    "name": "Cascadas de Gbêtitapéa (Daloa)",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con correa",
-    "time": "½ día",
-    "lat": 6.79001,
-    "lon": -6.45093,
-    "desc": "NO VERIFICADO: la cascada en sí no aparece en OpenStreetMap ni en la Wikipedia francesa de Daloa, y no se ha podido confirmar en ninguna fuente abierta. Lo que sí está cartografiado —y es lo que marca ahora el punto— es la ALDEA DE GBÊTITAPÉA, a unos 11 km al sur del centro de Daloa y 2,5 km al este del aeródromo; no es un barrio del centro. Según fuentes locales el río se despeña allí en una serie de saltos y marmitas de granito rodeados de vegetación. Tratarlo como parada de oportunidad a mitad de camino entre Man y Yamoussoukro, no como objetivo: preguntar en Daloa por el acceso antes de desviarse. Daloa es además la tercera ciudad del país y capital del cacao: combustible, talleres, bancos y hospital regional.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Cascade%20de%20Man%201990.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:La%20Cascade%20de%20Man%201990.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una obra de ingeniería vegetal viva y una experiencia cultural difícil de encontrar en otro tramo de la ruta.",
+      "see": "El puente de lianas de Lieupleu/Vatouo es una pasarela ritual mantenida por comunidades dan cerca de la frontera liberiana. La visita necesita permiso local y no es una infraestructura vial.",
+      "access": "Google Maps no ofrece ficha inequívoca; se conserva el nodo exacto del puente auditado en OSM, a 21 km al sur de Danané. Llegar con guía local y preguntar antes de cruzar o fotografiar.",
+      "when": "Estación seca y de día, dejando margen para la pista desde Danané.",
+      "skip": "Omitir tras lluvias, si la comunidad no autoriza, si el puente está en reparación o si la pista obliga a regresar de noche."
+    },
+    "links": [
+      {
+        "label": "Turismo del oeste marfileño · puentes de lianas",
+        "url": "https://baobab-gourmantche.over-blog.com/2016/09/le-pont-de-lianes-de-lieupleu.html"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont_de_lianes_de_Lieupleu.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pont_de_lianes_de_Lieupleu.jpg",
+        "credit": "Drorita · CC BY-SA 4.0",
+        "caption": "Puente de lianas de Lieupleu sobre el río Cavally, fotografiado en 2018."
+      },
+      {
+        "img": "https://img.over-blog-kiwi.com/0/84/17/29/20160928/ob_851292_16-09-177-lieupleu-cavally.jpg",
+        "source": "https://baobab-gourmantche.over-blog.com/2016/09/le-pont-de-lianes-de-lieupleu.html",
+        "credit": "Le Baobab Gourmantché · derechos en la fuente",
+        "caption": "Vista completa del puente de Lieupleu y del caudal del Cavally."
+      },
+      {
+        "img": "https://img.over-blog-kiwi.com/0/84/17/29/20160928/ob_33412c_16-09-184-lieupleu-cavally.jpg",
+        "source": "https://baobab-gourmantche.over-blog.com/2016/09/le-pont-de-lianes-de-lieupleu.html",
+        "credit": "Le Baobab Gourmantché · derechos en la fuente",
+        "caption": "Entramado de lianas y paso sobre el Cavally en Lieupleu."
+      }
+    ]
   },
   {
     "n": 8,
@@ -125,15 +206,48 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1 día",
-    "lat": 6.8094,
-    "lon": -5.2966,
-    "desc": "La iglesia más grande del mundo, plantada en medio de la sabana de la aldea natal de Félix Houphouët-Boigny, que hizo de ella la capital política del país. Inaugurada en 1990 y consagrada por Juan Pablo II, es una réplica ampliada de San Pedro del Vaticano: unos 30.000 m² de superficie total y una cúpula que, con su cruz, supera los 158 m — más alta que la de San Pedro, aunque la nave sea menor. Cabe de pie una multitud inmensa bajo 7.000 m² de vidrieras francesas; el conjunto costó una fortuna en un país de renta media y sigue siendo objeto de polémica. Visita guiada (subida a la cúpula incluida en algunas modalidades), vestimenta correcta obligatoria. En la misma ciudad: el palacio presidencial con su lago de cocodrilos, la Fondation Houphouët-Boigny y avenidas de seis carriles vacías que son una experiencia en sí misma. El perro no entra en la basílica: se queda con un miembro del grupo en los jardines o en el vehículo a la sombra.",
+    "lat": 6.8148643,
+    "lon": -5.2930753,
+    "desc": "La Basílica de Nuestra Señora de la Paz domina Yamoussoukro con su gran cúpula y columnata. Tiene visita interior reglada y sigue siendo lugar de culto.",
     "credit": "Didierwiki · CC0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique%20notre%20Dame%20de%20la%20Paix%20de%20Yamoussoukro%20(2).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Basilique%20notre%20Dame%20de%20la%20Paix%20de%20Yamoussoukro%20(2).jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_9.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_9.jpg",
     "icon": "patrimonio",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el edificio contemporáneo más monumental del itinerario y permite leer la ambición política de Houphouët-Boigny.",
+      "see": "La Basílica de Nuestra Señora de la Paz domina Yamoussoukro con su gran cúpula y columnata. Tiene visita interior reglada y sigue siendo lugar de culto.",
+      "access": "El pin se corrige a la ficha exacta de la basílica en Google Maps. Confirmar horario y normas de vestimenta; aparcar en el recinto indicado.",
+      "when": "Mañana, fuera de celebraciones multitudinarias; prever dos horas.",
+      "skip": "Omitir el interior durante oficio, cierre o si no se aceptan las normas; el perro queda fuera."
+    },
+    "links": [
+      {
+        "label": "Sitio oficial de la Basílica de Yamoussoukro",
+        "url": "https://basilique-notredamedelapaix.com/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_9.jpg",
+        "credit": "Didierwiki · CC0",
+        "caption": "Vista frontal y cúpula de la basílica."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_19.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_19.jpg",
+        "credit": "Didierwiki · CC0",
+        "caption": "Columnata y escala del edificio."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_16.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique_notre_Dame_de_la_Paix_de_Yamoussoukro_16.jpg",
+        "credit": "Didierwiki · CC0",
+        "caption": "Perspectiva elevada del conjunto basilical."
+      }
+    ]
   },
   {
     "n": 9,
@@ -142,32 +256,48 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "2–3 días",
-    "lat": 5.75,
-    "lon": -7.35,
-    "desc": "Unos 5.400 km² del último gran bloque de selva primaria de África occidental, Patrimonio Mundial de la UNESCO desde 1982 y Reserva de la Biosfera. Aquí vive la población de chimpancés occidentales mejor estudiada del mundo: los chimpancés de Taï usan más de 25 herramientas distintas y, sobre todo, rompen nueces con yunques y martillos de piedra y madera — una cultura material transmitida entre generaciones, documentada desde los años 70 por el Taï Chimpanzee Project. Además: hipopótamo pigmeo, cefalofo de Jentink, colobo rojo, mono de Diana, elefante de bosque y más de 230 especies de aves. Se visita a pie con guía obligatorio del ecoturismo de Taï/OIPR; los dos accesos son la ciudad de Taï (oeste, cerca del río Cavally y la frontera de Liberia) y sobre todo Djouroutou (sur), donde está el grupo de chimpancés habituado a la presencia humana y desde donde sale también la subida al mont Niénokoué (396 m), un inselberg con vista sobre el dosel. Reserva previa imprescindible, número de visitantes limitado y protocolo sanitario estricto (distancia y mascarilla, por el riesgo de contagiar enfermedades respiratorias a los chimpancés).",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ta%C3%AF%20National%20Park%20(24148248710).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Ta%C3%AF%20National%20Park%20(24148248710).jpg",
+    "lat": 5.69,
+    "lon": -6.9394444,
+    "desc": "Taï protege el mayor bloque de selva primaria del país y poblaciones estudiadas de chimpancé occidental. Las visitas se organizan desde bases concretas; el pin del parque no es una recepción.",
+    "credit": "yakovlev.alexey · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ta%C3%AF_National_Park_(24148248710)_(cropped).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ta%C3%AF_National_Park_(24148248710)_(cropped).jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
-  },
-  {
-    "n": 10,
-    "name": "Mont Niénokoué (396 m) · mirador sobre la selva de Taï",
-    "cat": "Naturaleza · montaña",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "½–1 día",
-    "lat": 5.4333,
-    "lon": -7.1833,
-    "desc": "Inselberg de granito que emerge del mar de selva en el sur del Parque Nacional de Taï, accesible desde el campamento ecoturístico de Djouroutou. La subida a pie con guía atraviesa selva cerrada y termina en una plataforma rocosa desde la que se domina el dosel de la selva primaria hasta el horizonte, sin una sola construcción a la vista: probablemente el mirador más impresionante del corredor de bajada. Media jornada larga, calor y humedad extremos, sanguijuelas en temporada húmeda. Coordenada aproximada.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/For%C3%AAt%20du%20banco%20(%20C%C3%B4te%20d'Ivoire%20).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:For%C3%AAt%20du%20banco%20(%20C%C3%B4te%20d'Ivoire%20).jpg",
-    "icon": "naturaleza · montaña",
-    "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la experiencia de selva más importante de Costa de Marfil y un sitio UNESCO de primer nivel.",
+      "see": "Taï protege el mayor bloque de selva primaria del país y poblaciones estudiadas de chimpancé occidental. Las visitas se organizan desde bases concretas; el pin del parque no es una recepción.",
+      "access": "El pin se ajusta a la ficha del parque en Google Maps. Reservar con OIPR o un operador reconocido y obtener por escrito puerta, guía, alojamiento y reglas del área.",
+      "when": "Estación relativamente seca, varios días y salidas de amanecer.",
+      "skip": "Omitir sin permiso o guía, con pista inundada o si se esperan chimpancés garantizados; el perro no entra."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Parque Nacional de Taï",
+        "url": "https://whc.unesco.org/en/list/195/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ta%C3%AF_National_Park_(24148248710)_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ta%C3%AF_National_Park_(24148248710)_(cropped).jpg",
+        "credit": "yakovlev.alexey · CC BY-SA 2.0",
+        "caption": "Dosel y vegetación del Parque Nacional de Taï."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parc_national_de_Ta%C3%AF.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Parc_national_de_Ta%C3%AF.jpg",
+        "credit": "Jojoy99 · CC BY-SA 4.0",
+        "caption": "Paisaje forestal identificado del parque."
+      },
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlnunrxNn7RTl09Qxfm7I9bQiDPowcXx1dRlEQ42q6TetDCOufSWyyd8e7DWgT9yX5ROaJuSx09XX12MPPhUn-7L1deUuESk4HqttmEUIyIZGVNnO0kJ0_4Dr8zAC2Um2VtV9xAA22oeygU=w1200-h675-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Parc%20national%20de%20Ta%C3%AF%20C%C3%B4te%20d%27Ivoire",
+        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+        "caption": "Fotografía aportada a la ficha exacta del Parque Nacional de Taï."
+      }
+    ]
   },
   {
     "n": 11,
@@ -176,32 +306,48 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "2 noches",
-    "lat": 4.95,
-    "lon": -6.0833,
-    "desc": "Antiguo puesto comercial francés en la desembocadura del río Sassandra, con casas coloniales desconchadas sobre el acantilado, un puerto pesquero muy vivo y, justo al este, la mejor tanda de playas del país fuera del circuito de Abiyán: Poly Plage, Batelebré, Drewin y Niega, largos arenales de cocoteros con campamentos sencillos y pocas construcciones. Más al oeste, entre San-Pédro y la frontera de Liberia, está Grand-Bérébi, la playa que un overlander que ha recorrido África entera (The Road Chose Me) describe sin matices como «las mejores playas que he visto en mi vida, mejores que Australia, mejores que Costa Rica»; allí y en Sassandra hay campamentos (Chez JoJo, Chez Jules) que dejan aparcar y dormir directamente sobre la arena. Se puede subir en piragua por el río y por la laguna. Es la parada de descanso natural tras el bloque de selva de Taï y uno de los sitios más cómodos del viaje para el perro. Atención a las corrientes de resaca en toda esta costa: bañarse solo donde lo hagan los locales.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fleuve%20Sassandra%20%C3%A0%20Soubr%C3%A9.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fleuve%20Sassandra%20%C3%A0%20Soubr%C3%A9.JPG",
+    "lat": 4.9521085,
+    "lon": -6.0808884,
+    "desc": "Sassandra conserva el antiguo wharf, el puente Weygand y edificios históricos alrededor de una bahía pesquera. Es una escala costera con elementos concretos, no solo una playa genérica.",
+    "credit": "Bound8 · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sassandra1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sassandra1.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
-  },
-  {
-    "n": 12,
-    "name": "Grand-Lahou y el Parque Nacional de Azagny",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido (parque)",
-    "time": "1 día",
-    "lat": 5.1333,
-    "lon": -5.0167,
-    "desc": "Grand-Lahou es la aldea del cordón litoral donde el río Bandama se encuentra con el Atlántico, con las ruinas del viejo Grand-Lahou colonial siendo literalmente devoradas por el mar (uno de los casos de erosión costera más citados de África occidental). Enfrente, al otro lado de la laguna, el Parque Nacional de Azagny protege ~190 km² de manglar, pantanos y sabana costera con elefante de bosque, búfalo enano, manatí africano y una gran población de aves acuáticas; se recorre en piragua con guías de la OIPR desde Grand-Lahou o Irobo. Es la última parada tranquila antes de meterse en Abiyán. Como parque nacional, tratar la entrada del perro como prohibida: el pueblo y las playas de Grand-Lahou sí son compatibles.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/For%C3%AAt%20du%20banco%20(%20C%C3%B4te%20d'Ivoire%20).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:For%C3%AAt%20du%20banco%20(%20C%C3%B4te%20d'Ivoire%20).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Combina patrimonio portuario, actividad actual y costa en un lugar compacto.",
+      "see": "Sassandra conserva el antiguo wharf, el puente Weygand y edificios históricos alrededor de una bahía pesquera. Es una escala costera con elementos concretos, no solo una playa genérica.",
+      "access": "El pin se corrige a Old Sassandra wharf en Google Maps. Recorrer de día, preguntar antes de entrar en estructuras y mantener distancia de ruinas y oleaje.",
+      "when": "Mañana para el puerto o tarde para el frente marítimo; prever medio día.",
+      "skip": "Omitir con temporal, acceso al wharf cerrado o si la carretera obliga a terminar la etapa de noche."
+    },
+    "links": [
+      {
+        "label": "Información de Sassandra",
+        "url": "https://fr.wikipedia.org/wiki/Sassandra"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sassandra1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sassandra1.jpg",
+        "credit": "Bound8 · CC BY-SA 3.0",
+        "caption": "Antiguo wharf de Sassandra sobre el Atlántico."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pont_Weygand_de_Sassandra_06_2026.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pont_Weygand_de_Sassandra_06_2026.jpg",
+        "credit": "Asunachibi · CC BY-SA 4.0",
+        "caption": "Puente Weygand de Sassandra en 2026."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A2timents_historiques_%C3%A0_Sassandra_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A2timents_historiques_%C3%A0_Sassandra_01.jpg",
+        "credit": "Slick linda · CC BY-SA 4.0",
+        "caption": "Ruinas de un edificio histórico de Sassandra."
+      }
+    ]
   },
   {
     "n": 13,
@@ -210,15 +356,48 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2–3 noches",
-    "lat": 5.325,
-    "lon": -4.02,
-    "desc": "Capital económica y mayor base logística de todo el golfo de Guinea occidental: puerto, aeropuerto internacional, Embajada de España, talleres y recambios 4x4 de referencia regional, veterinarios de nivel europeo y residencias caninas (el mejor punto de respiro del perro en África occidental según el dosier canino del proyecto). Le Plateau es el distrito de negocios de los rascacielos que le valieron el apodo de «la Manhattan de la laguna»: la catedral de San Pablo —una vela de hormigón sostenida por la silueta de un personaje gigante—, la Tour F, la pirámide de Rinaldo Olivieri y el puente Charles-de-Gaulle. Enfrente, al otro lado de la laguna Ébrié, Treichville y su gran mercado, Cocody con las embajadas, y el barrio-pueblo de Blockhauss donde se cruza en barco-taxi (los «bateaux-bus» amarillos, la mejor forma de ver la ciudad). Dentro del propio término municipal está el Parque Nacional del Banco, 30 km² de selva primaria rodeada de ciudad. Tráfico denso y caótico: aparcamiento vigilado imprescindible.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plateau%20abidjan.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Plateau%20abidjan.jpg",
+    "lat": 5.3325471,
+    "lon": -4.023869,
+    "desc": "Le Plateau concentra la silueta moderna, la catedral, la gran mezquita y buena parte de las gestiones de Abiyán. La ciudad es ante todo una base logística y debe recorrerse por zonas.",
+    "credit": "RyansWorld · CC BY-SA 3.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plateau_2010,_Abidjan.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Plateau_2010,_Abidjan.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite resolver trámites y entender la metrópoli lagunar sin convertir toda Abiyán en una visita interminable.",
+      "see": "Le Plateau concentra la silueta moderna, la catedral, la gran mezquita y buena parte de las gestiones de Abiyán. La ciudad es ante todo una base logística y debe recorrerse por zonas.",
+      "access": "El pin se ajusta al barrio Plateau de Google Maps. Elegir alojamiento con aparcamiento vigilado, usar conductor local si conviene y agrupar visitas para evitar cruzar puentes repetidamente.",
+      "when": "Días laborables para gestiones; primera hora o final de tarde para vistas.",
+      "skip": "Reducir la visita con tráfico extremo, protestas o falta de estacionamiento seguro."
+    },
+    "links": [
+      {
+        "label": "Côte d'Ivoire Tourisme · Abiyán",
+        "url": "https://www.tourismecotedivoire.ci/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plateau_2010,_Abidjan.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Plateau_2010,_Abidjan.jpg",
+        "credit": "RyansWorld · CC BY-SA 3.0",
+        "caption": "Silueta diurna de Le Plateau."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plateau_Abidjan_de_nuit.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Plateau_Abidjan_de_nuit.jpg",
+        "credit": "abdallahh · CC BY 2.0",
+        "caption": "Torres de Le Plateau iluminadas de noche."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/WikiConvFr23_%C3%A0_Abidjan_en_Cote_d'Ivoire_vue_panoramique_de_la_ville_du_Plateau_depuis_Grand_Hotel.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:WikiConvFr23_%C3%A0_Abidjan_en_Cote_d'Ivoire_vue_panoramique_de_la_ville_du_Plateau_depuis_Grand_Hotel.jpg",
+        "credit": "Adoscam · CC0",
+        "caption": "Panorama del distrito desde el Grand Hôtel."
+      }
+    ]
   },
   {
     "n": 14,
@@ -229,13 +408,46 @@
     "time": "1–2 días",
     "lat": 5.1961,
     "lon": -3.7389,
-    "desc": "Primera capital de la Costa de Marfil colonial (1893-1896) y Patrimonio Mundial de la UNESCO desde 2012 como «ciudad histórica colonial». El Quartier France, encajado entre el mar y la laguna, conserva una trama urbana completa de finales del XIX y principios del XX —palacio del gobernador, aduana, oficina de correos, casas de comercio, tribunal— en una decadencia elegante de muros desconchados y buganvillas, con el Museo Nacional del Traje instalado en el antiguo palacio. Al lado, el barrio N'zima de los pescadores, la playa y una fila de maquis y talleres de artesanía. A solo 40 km de Abiyán: es la escapada de fin de semana de la capital, y de las mejores paradas del viaje con el perro, que aquí no plantea ningún problema. Ojo con la resaca del mar, muy fuerte.",
-    "credit": "Adoscam · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/WikiConvFr23%20Visite%20B%C3%A2timents%20sites%20historiques%20de%20Grand-Bassam%20(boblioth%C3%A8que%20municicpale%20de%20Grand-Bassam%20)%2002.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:WikiConvFr23%20Visite%20B%C3%A2timents%20sites%20historiques%20de%20Grand-Bassam%20(boblioth%C3%A8que%20municicpale%20de%20Grand-Bassam%20)%2002.jpg",
+    "desc": "El Quartier France de Grand-Bassam conserva edificios administrativos y viviendas de la primera capital colonial. El valor está en caminar el conjunto y entender su relación con laguna, comercio y segregación urbana.",
+    "credit": "Yamen · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Historic_town_of_Grand-Bassam_24092023_080.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Historic_town_of_Grand-Bassam_24092023_080.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el mejor paisaje urbano histórico del país y Patrimonio Mundial desde 2012.",
+      "see": "El Quartier France de Grand-Bassam conserva edificios administrativos y viviendas de la primera capital colonial. El valor está en caminar el conjunto y entender su relación con laguna, comercio y segregación urbana.",
+      "access": "Google Maps no devuelve una ficha única del barrio; se conserva el ancla auditada dentro del conjunto UNESCO. Aparcar y recorrer a pie de día, sin entrar en edificios cerrados o inestables.",
+      "when": "Mañana o última tarde; medio día permite combinar museo y calles.",
+      "skip": "Omitir interiores cerrados, zonas dañadas o la playa con oleaje peligroso; el barrio sigue habitado."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Ciudad histórica de Grand-Bassam",
+        "url": "https://whc.unesco.org/en/list/1322/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Historic_town_of_Grand-Bassam_24092023_080.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Historic_town_of_Grand-Bassam_24092023_080.jpg",
+        "credit": "Yamen · CC BY-SA 4.0",
+        "caption": "Edificio del conjunto histórico de Grand-Bassam."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Historic_town_of_Grand-Bassam_24092023_012.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Historic_town_of_Grand-Bassam_24092023_012.jpg",
+        "credit": "Yamen · CC BY-SA 4.0",
+        "caption": "Calle y arquitectura del Quartier France."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Historic_town_of_Grand-Bassam_24092023_002.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Historic_town_of_Grand-Bassam_24092023_002.jpg",
+        "credit": "Yamen · CC BY-SA 4.0",
+        "caption": "Otra fachada conservada dentro del bien UNESCO."
+      }
+    ]
   },
   {
     "n": 15,
@@ -244,32 +456,98 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "2 noches",
-    "lat": 5.13508,
-    "lon": -3.29166,
-    "desc": "La última playa antes de Ghana y la más conocida del país: una lengua de arena entre el Atlántico y la laguna Aby, con cocoteros, campamentos, piraguas y el estuario de la Bassin d'Assinie. Assouindé, con sus propios campamentos, queda 20 km al OESTE —viniendo de Grand-Bassam—, no al este; hacia el este siguen el cordón litoral y la bocana de la laguna hasta la frontera. Es el sitio donde se rodó «Les Bronzés» y donde Abiyán se va el fin de semana, así que en sábado se llena: entre semana está prácticamente vacío. Kitesurf y paddle en la laguna, pesca en el mar, playa larguísima para el perro. Buena pernocta final del corredor de bajada, a unos 60 km del paso de Noé. Coordenada corregida sobre el nodo place=town «Assinie-Mafia» de OpenStreetMap: el punto anterior caía 19 km al oeste, delante de Assouindé.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand-Bassam-Plage.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Grand-Bassam-Plage.jpg",
+    "lat": 5.1398055,
+    "lon": -3.3237824,
+    "desc": "Assinie-Mafia ocupa un cordón estrecho entre océano y laguna, con manglar, embarcaciones y alojamientos dispersos. El PDI marca el pueblo; cada playa o embarcadero se elige después.",
+    "credit": "Singoloua225 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Assinie_,_Par_Nabil_ZORKOT.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Assinie_,_Par_Nabil_ZORKOT.jpg",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la última gran pausa costera antes de Ghana y combina agua dulce, laguna y Atlántico.",
+      "see": "Assinie-Mafia ocupa un cordón estrecho entre océano y laguna, con manglar, embarcaciones y alojamientos dispersos. El PDI marca el pueblo; cada playa o embarcadero se elige después.",
+      "access": "El pin se ajusta a Assinie-Mafia en Google Maps, corrigiendo la antigua referencia de Assouindé. Reservar alojamiento con estacionamiento y pactar cualquier cruce en piragua con chalecos.",
+      "when": "Entre semana, estación seca y con marea y mar consultados.",
+      "skip": "Omitir con oleaje fuerte, tormenta, alojamiento no confirmado o embarcación insegura."
+    },
+    "links": [
+      {
+        "label": "Côte d'Ivoire Tourisme · litoral",
+        "url": "https://www.visitcotedivoire.com/decouvrez/le-carnet-d-assinie"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Assinie_,_Par_Nabil_ZORKOT.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Assinie_,_Par_Nabil_ZORKOT.jpg",
+        "credit": "Singoloua225 · CC BY-SA 4.0",
+        "caption": "Cordón litoral y agua en Assinie."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/La_mangrove_d'Assinie.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:La_mangrove_d'Assinie.jpg",
+        "credit": "Pol fourier · CC BY 4.0",
+        "caption": "Manglar de la laguna de Assinie-Mafia."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Assinie_en_2025_04.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Assinie_en_2025_04.jpg",
+        "credit": "Dadrik · CC BY-SA 4.0",
+        "caption": "Paisaje de Assinie documentado en diciembre de 2025."
+      }
+    ]
   },
   {
     "n": 16,
-    "name": "Bondoukou y las mezquitas de estilo sudanés",
+    "name": "Mezquita UNESCO de Sorobango · Bondoukou",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": 8.0402,
-    "lon": -2.8,
-    "desc": "Capital del Zanzan y una de las ciudades más antiguas del país: fue etapa mayor de las rutas caravaneras dyula entre el Sahel y el bosque, y conserva una notable concentración de mezquitas de adobe de estilo sudanés. OJO CON UN MATIZ QUE CIRCULA MAL: el bien «Mezquitas de estilo sudanés del norte de Costa de Marfil» fue INSCRITO en la Lista del Patrimonio Mundial en 2021 —ya no es candidato—, pero sus ocho mezquitas están en Tengréla, Kouto, Sorobango, Samatiguila, Nambira, Kong (dos) y Kaouara: BONDOUKOU NO forma parte del bien inscrito. La del conjunto que queda más a mano es la de SOROBANGO (8,17479 / -2,70921), a unos 18 km al noreste de Bondoukou y en su mismo departamento. Barrios koulango, dyula y abron, mercado importante y el palacio del rey del Gyaman. Primera plaza de servicios de la subida tras entrar desde Ghana por Soko/Sampa: combustible, banco, hospital.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20in%20Korhogo%20ap%20001.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mosque%20in%20Korhogo%20ap%20001.jpg",
+    "lat": 8.1737936,
+    "lon": -2.7089936,
+    "desc": "La mezquita de Sorobango, a 18 km de Bondoukou, es una de las ocho mezquitas sudanesas inscritas por UNESCO en 2021. Bondoukou sirve de base; el pin debe caer en el edificio, no en la ciudad.",
+    "credit": "AZIMIE · CC0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9e_sacr%C3%A9e_de_Sorobango.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_sacr%C3%A9e_de_Sorobango.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Convierte la etapa oriental en una visita patrimonial precisa y muestra arquitectura de tierra todavía vinculada a su comunidad.",
+      "see": "La mezquita de Sorobango, a 18 km de Bondoukou, es una de las ocho mezquitas sudanesas inscritas por UNESCO en 2021. Bondoukou sirve de base; el pin debe caer en el edificio, no en la ciudad.",
+      "access": "El pin se corrige a Grande Mosquée de Sorobango en Google Maps. Pedir permiso local antes de entrar o fotografiar y asumir que el interior puede no estar abierto a visitantes.",
+      "when": "Mañana, fuera de la oración del viernes y con tiempo seco.",
+      "skip": "Omitir si la comunidad no autoriza, durante culto o si la pista está impracticable; el perro queda fuera del recinto."
+    },
+    "links": [
+      {
+        "label": "UNESCO · mezquitas sudanesas del norte marfileño",
+        "url": "https://whc.unesco.org/en/list/1648/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9e_sacr%C3%A9e_de_Sorobango.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_sacr%C3%A9e_de_Sorobango.jpg",
+        "credit": "AZIMIE · CC0",
+        "caption": "Fachada actual de la mezquita de Sorobango."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pg168_Mosqu%C3%A9e_de_Sorobango.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pg168_Mosqu%C3%A9e_de_Sorobango.jpg",
+        "credit": "dominio público · autor en la fuente",
+        "caption": "Documento histórico de la mezquita de Sorobango."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9e_de_Sorobango-1892_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_de_Sorobango-1892_(cropped).jpg",
+        "credit": "Édouard Riou · dominio público",
+        "caption": "Grabado de la mezquita publicado en 1892."
+      }
+    ]
   },
   {
     "n": 17,
@@ -280,97 +558,95 @@
     "time": "2–3 días",
     "lat": 8.65506,
     "lon": -3.78235,
-    "desc": "Con unos 11.500 km² es el mayor parque nacional de África occidental y uno de los mayores del continente, Patrimonio Mundial de la UNESCO desde 1983 y Reserva de la Biosfera: un gradiente completo desde la sabana sudanesa del norte hasta el bosque denso húmedo del sur, atravesado por el río Comoé. Elefante, búfalo, hipopótamo, cobo de Buffon, hipotrago, babuino, chimpancé (población de sabana, rara) y más de 500 especies de aves. Salió de la Lista del Patrimonio en Peligro en 2017 tras una recuperación notable. PERO: los avisos de viaje occidentales vigentes en 2026 desaconsejan todo viaje al Parque Nacional de la Comoé y al norte de los distritos de Zanzan y Savanes por el riesgo de atentado y secuestro procedente del Sahel; el norte del parque toca la frontera de Burkina Faso, donde se produjeron los ataques de Kafolo (2020 y 2021). Si se entra, solo por la puerta SUR de Kakpin y con acompañamiento de la OIPR, y NUNCA por Kafolo ni por el flanco norte. Es un PDI condicional: la decisión se toma con el aviso de Exteriores en la mano 72 h antes. El punto ya NO marca el centro del parque sino KAKPIN (subprefectura del departamento de Nassian, región del Bounkani), la aldea-puerta del flanco SUR y la única coherente con el aviso de seguridad: desde ahí la estación de investigación ecológica de la Comoé queda 11-13 km al norte, ya dentro del parque. Kafolo, el otro acceso que citan las guías, está a más de 100 km al noroeste y pegado a Burkina: descartado. Gansé, 15 km al oeste de Kakpin, sería la alternativa del mismo flanco sur.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fleuve%20Como%C3%A9%20du%20Parc%20National%20de%20la%20Como%C3%A9%20(Nord-Est%20de%20la%20C%C3%B4te%20d'Ivoire).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fleuve%20Como%C3%A9%20du%20Parc%20National%20de%20la%20Como%C3%A9%20(Nord-Est%20de%20la%20C%C3%B4te%20d'Ivoire).jpg",
+    "desc": "Comoé es un parque inmenso de sabana y bosque de galería, pero la situación de seguridad del noreste puede invalidar la visita. Kakpin se conserva como referencia sur, no como promesa de acceso.",
+    "credit": "ETF89 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Comoe_savannah.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Comoe_savannah.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
-  },
-  {
-    "n": 18,
-    "name": "Bouaké",
-    "cat": "Ciudad · servicios",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 7.6906,
-    "lon": -5.03,
-    "desc": "Segunda ciudad del país y capital del centro, en pleno país baulé. Fue la capital de facto de la zona rebelde durante la partición del país entre 2002 y 2011, y hoy es un gran nudo de carreteras y ferrocarril (línea Abiyán–Uagadugú) plenamente reintegrado. Gran mercado textil, catedral de Sainte-Thérèse, estadio de la Paz y la mejor oferta de servicios entre Abiyán y el norte: combustible, talleres, recambios, hospital universitario, bancos y supermercados. Nudo logístico central de la subida.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stade%20de%20la%20Paix%20de%20Bouak%C3%A9.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Stade%20de%20la%20Paix%20de%20Bouak%C3%A9.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
-  },
-  {
-    "n": 19,
-    "name": "Katiola · la alfarería mangoro",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 8.1333,
-    "lon": -5.1,
-    "desc": "A 50 km al norte de Bouaké, Katiola es la capital de la cerámica marfileña: las mujeres mangoro (subgrupo de los tagbana) modelan a mano, sin torno, grandes canaris de agua, braseros y jarras que se venden en todo el país, y la cooperativa de alfareras recibe visitas y hace demostraciones del proceso completo, desde la extracción de la arcilla hasta la cocción a cielo abierto. Parada corta y muy rentable en el eje Bouaké–Korhogo, justo en la transición del bosque a la sabana. Confirmar horario de la cooperativa al llegar.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tenue%20traditionnelle%20des%20S%C3%A9noufo.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Tenue%20traditionnelle%20des%20S%C3%A9noufo.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Solo merece el desvío si OIPR confirma una operación segura y guiada; el paisaje y el río son excepcionales.",
+      "see": "Comoé es un parque inmenso de sabana y bosque de galería, pero la situación de seguridad del noreste puede invalidar la visita. Kakpin se conserva como referencia sur, no como promesa de acceso.",
+      "access": "La ficha de Google Maps usa un centroide inútil a 9,-3.5; se mantiene Kakpin, puerta sur auditada, y se exige confirmar acceso con OIPR. Nunca improvisar entrada por Kafolo.",
+      "when": "Únicamente en estación seca, de día y con confirmación reciente del gestor y de seguridad.",
+      "skip": "Descartarlo ante cualquier duda de seguridad, sin guía, con cierre o con pistas mojadas; el perro no entra."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Parque Nacional de la Comoé",
+        "url": "https://whc.unesco.org/en/list/227/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Comoe_savannah.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Comoe_savannah.jpg",
+        "credit": "ETF89 · CC BY-SA 4.0",
+        "caption": "Sabana del Parque Nacional de la Comoé."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Comoe_river.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Comoe_river.jpg",
+        "credit": "ETF89 · CC BY-SA 4.0",
+        "caption": "Río Comoé y bosque de galería dentro del parque."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kob_de_Buffon,_m%C3%A2les,_Kobus_kob_(Erxleben,1777)_du_Parc_National_de_la_Como%C3%A9_(Nord-Est_de_la_C%C3%B4te_d'Ivoire).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kob_de_Buffon,_m%C3%A2les,_Kobus_kob_(Erxleben,1777)_du_Parc_National_de_la_Como%C3%A9_(Nord-Est_de_la_C%C3%B4te_d'Ivoire).jpg",
+        "credit": "Saxette · CC BY-SA 4.0",
+        "caption": "Kobs de Buffon fotografiados en el parque."
+      }
+    ]
   },
   {
     "n": 20,
-    "name": "Korhogo y el país senufo",
+    "name": "Korhogo · museo y artesanía senufo",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": 9.4578,
-    "lon": -5.6294,
-    "desc": "Capital del norte y del pueblo senufo, la gran parada cultural de la subida. Aquí están: los TEJIDOS DE KORHOGO, telas de algodón cubiertas de animales estilizados, máscaras y figuras rituales, que se hacen sobre todo en la aldea de tejedores de WARANIÉNÉ, a 5 km al suroeste (allí los hombres tejen bandas estrechas de algodón en telares de pedales bajo los árboles, las bandas se cosen entre sí formando el paño y después los pintores dibujan a mano, con un pincel de cuchillo y un barro fermentado que fija el pigmento, los motivos del imaginario senufo; se ve el proceso completo y se compra en el taller, mucho mejor y más barato que en Abiyán); el mercado y el barrio de los artesanos (escultores de máscaras, forjadores, tejedores de cestas); los BOSQUES SAGRADOS (sinzanga) del poro, la sociedad iniciática senufo, que se visitan solo con autorización y guía —hay uno accesible en Korhogo, con las esculturas y los tambores del poro—, y las danzas de máscaras (boloye, la danza de la pantera de los niños iniciados). A 10 km, el mont Korhogo ofrece una subida corta con vista sobre la sabana. AVISO: Korhogo está en el distrito de Savanes y a unos 100-120 km de la frontera de Mali; los avisos occidentales desaconsejan todo viaje al norte de Savanes y a menos de 40 km de las fronteras de Mali y Burkina. La ciudad en sí no está expresamente excluida en la redacción actual, pero es el PDI de la ficha que más hay que revalidar antes de ir.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20in%20Korhogo%20ap%20001.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mosque%20in%20Korhogo%20ap%20001.jpg",
+    "lat": 9.4559375,
+    "lon": -5.6273125,
+    "desc": "Korhogo es la principal base senufo para conocer tejido, talla, manteca de karité y patrimonio regional. La visita se centra en el museo y talleres acordados, no en espectáculos improvisados.",
+    "credit": "Gwendoline Créno · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_sisterhood_preparing_shea_butter_in_Korhogo,_Ivory_Coast.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:The_sisterhood_preparing_shea_butter_in_Korhogo,_Ivory_Coast.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
-  },
-  {
-    "n": 21,
-    "name": "Séguéla",
-    "cat": "Ciudad · servicios",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "1 noche",
-    "lat": 7.9611,
-    "lon": -6.6731,
-    "desc": "Capital del Worodougou, en el centro-oeste, y tradicionalmente la ciudad de los diamantes aluviales marfileños (los yacimientos de Séguéla y Tortiya estuvieron bajo embargo internacional del Proceso de Kimberley entre 2005 y 2014 por su papel en la financiación del conflicto). Es la última plaza de servicios de tamaño medio —combustible formal, taller, hospital, banco, mercado— antes del tramo final de la subida hacia Touba, Biankouma y la frontera de Guinea por Sipilou. Punto de no retorno logístico del corredor de subida.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stade%20de%20la%20Paix%20de%20Bouak%C3%A9.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Stade%20de%20la%20Paix%20de%20Bouak%C3%A9.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
-  },
-  {
-    "n": 22,
-    "name": "Biankouma y la pista de Sipilou",
-    "cat": "Naturaleza · montaña",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "1 noche",
-    "lat": 7.7333,
-    "lon": -7.6167,
-    "desc": "Biankouma es la otra capital de montaña del oeste, al norte de Man, en pleno macizo del Tonkpi y rodeada de aldeas toura y dan con arquitectura tradicional de adobe y techo cónico de paja (los pueblos de Gouessesso y Sémien son los más citados). Desde aquí sale la carretera del norte hacia Sipilou y la frontera guineana, y también un acceso alternativo al mont Tonkoui por su vertiente septentrional. Es la última pernocta marfileña de la subida antes de entrar de nuevo en Guinea por un paso distinto al de la bajada. Combustible limitado: repostar a fondo en Séguéla o en Man.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont%20Nimba%20landscape.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mont%20Nimba%20landscape.jpg",
-    "icon": "naturaleza · montaña",
-    "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la escala cultural más rica del norte y permite comprar artesanía directamente a quienes la producen.",
+      "see": "Korhogo es la principal base senufo para conocer tejido, talla, manteca de karité y patrimonio regional. La visita se centra en el museo y talleres acordados, no en espectáculos improvisados.",
+      "access": "El pin se corrige al Musée Régional Péléforo Gbon Coulibaly de Korhogo en Google Maps. Confirmar apertura y pedir en el museo o Turismo un taller visitable con consentimiento.",
+      "when": "Mañana de día laborable; reservar medio día o una noche.",
+      "skip": "Omitir talleres si no hay acuerdo previo o si se presiona para fotografiar rituales; reducir a escala logística con museo cerrado."
+    },
+    "links": [
+      {
+        "label": "Côte d'Ivoire Tourisme · Korhogo",
+        "url": "https://www.visitcotedivoire.com/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_sisterhood_preparing_shea_butter_in_Korhogo,_Ivory_Coast.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_sisterhood_preparing_shea_butter_in_Korhogo,_Ivory_Coast.jpg",
+        "credit": "Gwendoline Créno · CC BY-SA 4.0",
+        "caption": "Trabajo colectivo de manteca de karité en Korhogo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/COLLECTIE_TROPENMUSEUM_Een_houtsnijder_bezig_met_het_vervaardigen_van_een_sculptuur_met_op_de_achtergrond_twee_beelden_TMnr_20012842.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Een_houtsnijder_bezig_met_het_vervaardigen_van_een_sculptuur_met_op_de_achtergrond_twee_beelden_TMnr_20012842.jpg",
+        "credit": "Tropenmuseum/SNV · CC BY-SA 3.0",
+        "caption": "Tallador trabajando una escultura en Korhogo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9gende_de_statue_devant_le_Mus%C3%A9e_R%C3%A9gional_de_Korhogo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:L%C3%A9gende_de_statue_devant_le_Mus%C3%A9e_R%C3%A9gional_de_Korhogo.jpg",
+        "credit": "Aristidek5maya · CC BY-SA 4.0",
+        "caption": "Elemento interpretativo ante el Museo Regional de Korhogo."
+      }
+    ]
   }
 ]

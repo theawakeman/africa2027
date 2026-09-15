@@ -9,7 +9,7 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | Grupo | Países | Historia | GPS/PDIs | Profundidad PDI | Enlaces concretos | Fotografías exactas/galerías | Agua de servicio |
 |---|---|---|---|---|---|---|---|
 | 1 | Marruecos, Sáhara Occidental, Mauritania, Senegal, Gambia | Cerrado | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 | Cerrado: 74/74 con galería; 222 fotos | Pendiente |
-| 2 | Guinea, Sierra Leona, Liberia, Costa de Marfil | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
+| 2 | Guinea, Sierra Leona, Liberia, Costa de Marfil | Cerrado | Cerrado: 42/42 | Cerrado: 42/42 | Cerrado: 42/42 | Cerrado: 42/42 con galería; 126 fotos | Pendiente |
 | 3 | Ghana, Togo, Benín, Nigeria | Cerrado | Cerrado | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente de nueva pasada | Pendiente |
 | 4 | Camerún, Gabón, Congo, RD Congo, Angola | Cerrado | Cerrado | Cerrado: 92/92 | Cerrado: 92/92 | Cerrado: 92/92 con foto y enlace; 89 galerías | Pendiente |
 | 5 | Zambia, Tanzania, Kenia, Mozambique | Cerrado | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 con foto; 74 galerías | Pendiente |
@@ -21,16 +21,18 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 ## Línea de corte de la nueva pasada PDI
 
 La auditoría de profundidad editorial, enlaces útiles y fotografías múltiples
-empezó en el **grupo 4** y ya se ha aplicado de forma retroactiva al **grupo 1**.
-Los grupos 2–3 no deben interpretarse como revisados en esas tres columnas.
+empezó en el **grupo 4** y ya se ha aplicado de forma retroactiva a los
+**grupos 1–2**. El grupo 3 no debe interpretarse todavía como revisado en esas
+tres columnas.
 
 El detalle cuantitativo está en [`audit/pdi/grupo1.md`](pdi/grupo1.md),
+[`audit/pdi/grupo2.md`](pdi/grupo2.md),
 [`audit/pdi/grupo4.md`](pdi/grupo4.md),
 [`audit/pdi/grupo5.md`](pdi/grupo5.md), [`audit/pdi/grupo6.md`](pdi/grupo6.md),
 [`audit/pdi/grupo7.md`](pdi/grupo7.md), [`audit/pdi/grupo8.md`](pdi/grupo8.md) y
 [`audit/pdi/grupo9.md`](pdi/grupo9.md). Los grupos 4–9 ya cumplen el nuevo
-estándar en el contenido fuente. La siguiente fase continúa con los grupos 2–3
-para aplicarles exactamente el mismo criterio ampliado.
+estándar en el contenido fuente. La siguiente fase continúa con el grupo 3 para
+aplicarle exactamente el mismo criterio ampliado.
 
 ## Criterio de cierre por PDI
 

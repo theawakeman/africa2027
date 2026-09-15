@@ -1,39 +1,5 @@
 [
   {
-    "n": 1,
-    "name": "Koundara y el Parque Nacional del Badiar",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "½–1 día",
-    "lat": 12.4833,
-    "lon": -13.3,
-    "desc": "Primera población guineana tras el paso de Sambaïlo y capital de la prefectura del extremo noroeste. A pocos kilómetros al norte está el Parque Nacional del Badiar, unas 38.000 hectáreas de sabana arbolada y bosque de galería que son la continuación directa del Parque Nacional de Niokolo-Koba (Senegal) al otro lado de la frontera: juntos forman el complejo transfronterizo Niokolo-Badiar. Hay antílopes, facóqueros, babuinos, hipopótamos en los ríos y una avifauna muy rica, aunque la presión de caza y pastoreo ha sido intensa y la gestión es débil. POR CONFIRMAR sobre el terreno: si el parque tiene personal, tasas y pistas practicables en 2027, o si es un parque solo sobre el papel. Koundara tiene combustible, mercado y alojamiento elemental: es donde se hace la primera noche del país si la frontera se ha comido la tarde.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
-  },
-  {
-    "n": 2,
-    "name": "Labé · capital del Fouta Djallon",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 11.3167,
-    "lon": -12.2833,
-    "desc": "Segunda o tercera ciudad del país y capital indiscutible de la Guinea Media: a 1.000 m de altitud, con clima fresco, el mayor mercado del altiplano —donde se ve la sociedad fulani del Fouta en estado puro, con sus tejidos índigo, su ganado y su artesanía de cuero— y la mejor base logística entre Conakry y la frontera senegalesa. Aquí hay combustible formal, talleres, banco con cajero, hospital regional y hoteles con aparcamiento. Detalle muy relevante para nosotros: Labé alberga el Laboratorio Regional Veterinario, uno de los pocos servicios veterinarios oficiales del interior del país y el recurso más cercano si hay que resolver algo con el perro fuera de Conakry. Es el nudo de los dos corredores: se pasa por aquí en la bajada y en la subida.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
-  },
-  {
     "n": 3,
     "name": "Monte Loura y la Dama de Mali (1.515 m)",
     "cat": "Naturaleza",
@@ -42,13 +8,46 @@
     "time": "1–2 días",
     "lat": 12.11208,
     "lon": -12.25949,
-    "desc": "El techo del Fouta Djallon: 1.515 m, el punto culminante del macizo —no de toda África occidental, donde hay cumbres más altas, el Nimba entre ellas—, sobre el borde norte del altiplano, junto al pueblo de Mali, a unos 88 km en línea recta al norte de Labé (unos 120 km de carretera). Su seña de identidad es «la Dame de Mali» (Fouta Djallon la llama «la Dama»), un perfil rocoso de decenas de metros, tallado por la erosión eólica y no por la mano humana, que asoma sobre el vacío hacia los 1.500 m y reproduce con una nitidez casi inquietante un rostro de mujer mirando al horizonte; algo más abajo hay una segunda formación, «le Sage de Mali». Desde el borde de la meseta se domina la llanura senegalesa: es una de las vistas grandes de África occidental. El pueblo de Mali está a 1.400 m y es el sitio más fresco de Guinea —se duerme con manta y en diciembre-enero puede haber escarcha—. Subida a pie cómoda desde el pueblo, con guía local; excursión perfectamente compatible con el perro al estar fuera de espacio protegido. La carretera Labé-Mali es de las más espectaculares y peor asfaltadas del país.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
+    "desc": "La Dama de Mali es un perfil rocoso natural bajo la cumbre del monte Loura, en el extremo norte del Fouta Djallon. La visita exige guía local y una jornada de montaña.",
+    "credit": "Fatoumata D · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Dame_du_Mali_du_Mont_Loura.png?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:La_Dame_du_Mali_du_Mont_Loura.png",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la formación geológica más reconocible del Fouta y una buena lectura del relieve del altiplano.",
+      "see": "La Dama de Mali es un perfil rocoso natural bajo la cumbre del monte Loura, en el extremo norte del Fouta Djallon. La visita exige guía local y una jornada de montaña.",
+      "access": "El pin conserva la cumbre cartográfica contrastada con OSM; la ficha genérica «Monte Loura» de Google Maps aparece desplazada y no se usa. Contratar guía en Mali-ville y confirmar pista y punto de inicio.",
+      "when": "Estación seca, salida al amanecer y día completo con agua propia.",
+      "skip": "Descartarlo con niebla, tormenta, pista mojada, guía no confirmado o poca autonomía; no prometer acceso del perro en pasos expuestos."
+    },
+    "links": [
+      {
+        "label": "Información del monte Loura",
+        "url": "https://fr.wikipedia.org/wiki/Mont_Loura"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Dame_du_Mali_du_Mont_Loura.png?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Dame_du_Mali_du_Mont_Loura.png",
+        "credit": "Fatoumata D · CC BY-SA 4.0",
+        "caption": "Perfil de la Dama de Mali en el monte Loura."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dame_de_Maali,_Mount_Loura.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dame_de_Maali,_Mount_Loura.jpg",
+        "credit": "Hcaudill · CC BY 2.5",
+        "caption": "Formación rocosa vista desde otra vertiente del Loura."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dame_de_Mali_2022.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dame_de_Mali_2022.jpg",
+        "credit": "Aboubacarkhoraa · CC BY-SA 4.0",
+        "caption": "Escala del farallón y la Dama de Mali en 2022."
+      }
+    ]
   },
   {
     "n": 4,
@@ -57,15 +56,48 @@
     "prio": "Alta",
     "dog": "permitido",
     "time": "½ día",
-    "lat": 11.0562,
-    "lon": -12.45404,
-    "desc": "LA COORDENADA ES LA CASCADA, no la ciudad: Pita (11,05646 / -12,39505, 973 m) es el centro del Fouta Djallon central y la base para las dos grandes cascadas de la región. Las chutes de Kinkon están en el distrito de Sintaly, a 6,4 km en línea recta del centro de Pita (unos 15 km por carretera), sobre el río Kokoulo: una caída de unos 80 m según las fuentes locales, en un cañón de arenisca, con un lago de embalse, una presa y una central hidroeléctrica aguas arriba que condicionan el caudal (si la presa retiene agua, la cascada se queda en nada: preguntar en Pita antes de ir). El entorno del cañón es magnífico, con paredes verticales de arenisca roja y bosque de galería en el fondo. Acceso por pista corta desde la carretera principal Labé-Mamou, practicable con 4x4 todo el año. Al ser zona de central eléctrica, no fotografiar las instalaciones ni volar el dron.",
+    "lat": 11.0558088,
+    "lon": -12.454538,
+    "desc": "Kinkon es una gran cascada del Kokoulo junto a Pita, aguas abajo de una presa. El acceso final requiere comprobar localmente la pista y mantenerse lejos del borde.",
     "credit": "Sayd224 · CC BY 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute%20de%20Kinkon.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chute%20de%20Kinkon.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_Kinkon.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Chute_de_Kinkon.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite ver una de las caídas más potentes del Fouta sin convertir Pita en una simple escala logística.",
+      "see": "Kinkon es una gran cascada del Kokoulo junto a Pita, aguas abajo de una presa. El acceso final requiere comprobar localmente la pista y mantenerse lejos del borde.",
+      "access": "El pin se ha ajustado a la ficha exacta Chutes de Kinkon de Google Maps. Llegar con guía local, aparcar antes del firme dudoso y acercarse solo por senderos pisados.",
+      "when": "Tras las lluvias ofrece más caudal, pero solo con firme estable; mañana o tarde sin tormenta.",
+      "skip": "Omitir con crecida, barro, lluvia activa o si nadie local confirma el acceso seguro; no bañarse bajo la descarga."
+    },
+    "links": [
+      {
+        "label": "Ficha de Chutes de Kinkon en Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Chutes%20de%20Kinkon%20Guinea"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_Kinkon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chute_de_Kinkon.jpg",
+        "credit": "Sayd224 · CC BY 4.0",
+        "caption": "Caída principal de Kinkon en la Guinea Media."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute_d'eau_de_kinkon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chute_d'eau_de_kinkon.jpg",
+        "credit": "Sayd224 · CC BY 4.0",
+        "caption": "Otra vista de la cascada de Kinkon."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_kinkon.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chute_de_kinkon.jpg",
+        "credit": "Saidriame081 · CC BY-SA 4.0",
+        "caption": "Cortina de agua y pared rocosa del salto."
+      }
+    ]
   },
   {
     "n": 5,
@@ -76,47 +108,46 @@
     "time": "½–1 día",
     "lat": 10.99718,
     "lon": -12.49317,
-    "desc": "La otra gran cascada de Pita y, para muchos viajeros, la mejor de Guinea: una sucesión de tres saltos escalonados sobre el mismo río Kokoulo, encajados en un cañón de arenisca, con pozas profundas y verdes donde se puede nadar. En plena estación húmeda el caudal es imponente; en seca se reduce, pero se puede bajar al cauce y recorrerlo. Está en el distrito de Bourouwal-Tappé, a 12,6 km en línea recta del centro de Pita (unos 16 km por carretera según la fuente local, y bastante más de recorrido real), por una pista de tierra con baches y vados, transitable en 4x4 salvo en lluvias fuertes. A 200 m de la cascada hay un célebre pont de lianes —puente de lianas tradicional— y 600 m al sur un mirador cartografiado (Kambadaga Falls View). No hay entrada formal ni instalaciones: se paga una propina al pueblo y se baja a pie por el sendero. Excelente sitio para acampar con permiso del jefe del pueblo, y apto para el perro con correa en los tramos de roca mojada.",
-    "credit": "Sayd224 · CC BY 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute%20de%20Kinkon.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chute%20de%20Kinkon.jpg",
+    "desc": "Kambadaga encadena varios saltos del Kokoulo dentro de un cañón verde cerca de Pita. El atractivo real es el conjunto de cascadas y miradores, no una poza garantizada para bañarse.",
+    "credit": "Flucco · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wasserf%C3%A4lle_Kambadaga_256.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Wasserf%C3%A4lle_Kambadaga_256.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
-  },
-  {
-    "n": 6,
-    "name": "Doucki · el «Gran Cañón de Guinea»",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con precaución",
-    "time": "3–4 días",
-    "lat": 10.9853,
-    "lon": -12.59924,
-    "desc": "El sitio de senderismo más famoso de África occidental entre mochileros, y probablemente el mejor del viaje entre Marruecos y Camerún. Un pueblo pequeño de la subprefectura de Pita, en el borde del altiplano a 23,6 km en línea recta del centro de Pita, donde la meseta de arenisca se rompe en un sistema de cañones de varios cientos de metros de caída que baja hacia la llanura. Todo gira alrededor de Hassan Bah, el guía y anfitrión que lleva décadas abriendo y bautizando rutas: «Grand Canyon» (4 km, fácil), «Indiana Jones World» (5 km), «Hyena's Rock» (8 km), «Vultures Rock» (9 km), «The Caves» (8 km), «Bob Marley Stage» (14 km), «Wet & Wild» (13 km), «Chutes & Ladders» (~20 km, duro) y la «Valley Hike» (10-16 km, dura). Alojamiento en su campamento de cabañas sencillas con baño compartido; la fórmula habitual es todo incluido (cama, tres comidas, guía) por unos 50 USD al día por persona, sin tasas de entrada. Mínimo recomendado por quienes han ido: TRES noches. Acceso desde Pita: 2-3 horas por pista con baches. Mejor época: febrero-marzo. El perro puede acompañar en las rutas fáciles —es terreno comunitario, no parque— pero no en las de escalada por grietas y cuerdas: confirmarlo con Hassan.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
-  },
-  {
-    "n": 7,
-    "name": "Dalaba · la estación de altura colonial",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "1 noche",
-    "lat": 10.6833,
-    "lon": -12.25,
-    "desc": "A 1.200 m, en el corazón del Fouta, Dalaba fue la estación climática de la administración colonial francesa: el sitio donde los funcionarios subían a escapar del calor de Conakry, con jardines, huertas de fresas y hortalizas de clima templado que todavía se cultivan. Conserva el Chalet de Dalaba (la residencia del gobernador, de madera), los jardines de Chevalier, el antiguo sanatorio y —la joya— la Case à Palabres, una casa de asamblea tradicional fulani de planta circular cuyo interior está enteramente cubierto de esteras trenzadas y paneles de madera tallada y policromada por artesanos locales en los años cincuenta. Es uno de los mejores ejemplos vivos de arquitectura fulani del país. Clima fresco, buen mercado y la parada natural entre Pita y Mamou.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el sistema de cascadas más variado del bloque de Pita y justifica medio día con guía.",
+      "see": "Kambadaga encadena varios saltos del Kokoulo dentro de un cañón verde cerca de Pita. El atractivo real es el conjunto de cascadas y miradores, no una poza garantizada para bañarse.",
+      "access": "El pin coincide con el nodo cartográfico de la cascada; Google Maps no ofrece una ficha inequívoca. Confirmar la pista en Pita, entrar acompañado y no cruzar el puente de lianas sin permiso y revisión local.",
+      "when": "Final de lluvias o comienzo de la seca, con luz de mañana y terreno asentado.",
+      "skip": "Descartarlo con barro profundo, tormenta, caudal violento o guía improvisado; evitar bordes y roca mojada."
+    },
+    "links": [
+      {
+        "label": "Información local de Pita y Kambadaga",
+        "url": "https://fr.wikipedia.org/wiki/Pita_(Guin%C3%A9e)"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wasserf%C3%A4lle_Kambadaga_256.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wasserf%C3%A4lle_Kambadaga_256.jpg",
+        "credit": "Flucco · CC BY-SA 4.0",
+        "caption": "Vista amplia de los saltos escalonados de Kambadaga."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kambadaga_Pita.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kambadaga_Pita.jpg",
+        "credit": "M Saidou · CC BY-SA 4.0",
+        "caption": "Uno de los niveles de la cascada cerca de Pita."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutte_de_kambadaga.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chutte_de_kambadaga.jpg",
+        "credit": "M Saidou · CC BY-SA 4.0",
+        "caption": "Agua y vegetación del cañón de Kambadaga."
+      }
+    ]
   },
   {
     "n": 8,
@@ -125,32 +156,98 @@
     "prio": "Alta",
     "dog": "permitido con precaución",
     "time": "½ día",
-    "lat": 10.81622,
-    "lon": -12.18594,
-    "desc": "A 16 km en línea recta al nornoreste de Dalaba, en el distrito de Kaala y 7 km al sur del pueblo de Ditinn, la cascada más fotogénica de Guinea: un chorro único que se descuelga en caída libre desde un labio de arenisca de unos 70-80 m según las fuentes locales, sobre un circo de paredes verticales y vegetación colgante, con una poza al pie. Se puede ver desde el mirador superior o bajar al fondo del circo por el valle, que es la aproximación que recomiendan los guías locales y la que permite entender la escala del sitio. Acceso por pista desde Ditinn; propina al pueblo, sin infraestructura turística. Caudal muy dependiente de la estación: espectacular de julio a noviembre, hilo de agua en marzo-abril. Con el perro, correa en el borde del circo.",
-    "credit": "Sayd224 · CC BY 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute%20de%20Kinkon.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chute%20de%20Kinkon.jpg",
+    "lat": 10.8164008,
+    "lon": -12.1859401,
+    "desc": "Ditinn cae en un salto alto y estrecho desde la meseta del Fouta a una cubeta forestal. La excursión combina pista rural y descenso a pie con guía.",
+    "credit": "Maarten van der Bent · CC BY-SA 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_Ditinn_%C3%A0_Dalaba.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Chute_de_Ditinn_%C3%A0_Dalaba.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "La gran caída vertical y la vista del valle la hacen distinta de Kinkon y Kambadaga.",
+      "see": "Ditinn cae en un salto alto y estrecho desde la meseta del Fouta a una cubeta forestal. La excursión combina pista rural y descenso a pie con guía.",
+      "access": "El pin se ajusta a la ficha exacta Chutes de Ditinn de Google Maps. Acordar guía y vehículo en Dalaba o Ditinn y no asumir que el último tramo sea conducible.",
+      "when": "Con caudal visible y firme seguro, preferentemente por la mañana; reservar el día completo.",
+      "skip": "Omitir con lluvia fuerte, barrancos resbaladizos, crecida o sin retorno pactado; no acampar en la zona inundable."
+    },
+    "links": [
+      {
+        "label": "Relato de acceso a la chute de Ditinn",
+        "url": "https://www.foutadecouverte.com/2018/09/au-fouta-djalon-la-chute-de-ditinn-relie-terre-et-ciel.html"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_Ditinn_%C3%A0_Dalaba.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Chute_de_Ditinn_%C3%A0_Dalaba.jpg",
+        "credit": "Maarten van der Bent · CC BY-SA 2.0",
+        "caption": "Caída completa de Ditinn dentro del circo rocoso."
+      },
+      {
+        "img": "https://img.over-blog-kiwi.com/0/95/90/05/20180903/ob_413152_p1080586.JPG",
+        "source": "https://www.foutadecouverte.com/2018/09/au-fouta-djalon-la-chute-de-ditinn-relie-terre-et-ciel.html",
+        "credit": "Fouta Découverte · derechos en la fuente",
+        "caption": "Vista frontal documentada de la chute de Ditinn."
+      },
+      {
+        "img": "https://img.over-blog-kiwi.com/0/95/90/05/20180903/ob_c44605_p1080856.JPG",
+        "source": "https://www.foutadecouverte.com/2018/09/au-fouta-djalon-la-chute-de-ditinn-relie-terre-et-ciel.html",
+        "credit": "Fouta Découverte · derechos en la fuente",
+        "caption": "Mirador superior y profundidad del salto de Ditinn."
+      }
+    ]
   },
   {
     "n": 9,
-    "name": "Kindia · el Velo de la Novia y el monte Gangan",
+    "name": "Voile de la Mariée de Kindia",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con precaución",
     "time": "1 noche",
-    "lat": 10.05,
-    "lon": -12.8542,
-    "desc": "Cuarta ciudad del país, a 135 km de Conakry sobre la vieja línea del ferrocarril colonial, y la puerta del Fouta desde la costa. A pocos kilómetros está el Voile de la Mariée (el «Velo de la Novia»), una cascada de unos 70 m que se abre en abanico sobre una pared de granito —de ahí el nombre— con un área recreativa, bungalows y pozas para bañarse al pie; es la excursión clásica de fin de semana de los conakrianos y, por tanto, el sitio del país con más facilidad de acceso. Detrás se levanta el monte Gangan (1.117 m), un macizo de granito con paredes que atrae a escaladores y con rutas de subida a pie desde la carretera. Kindia tiene además el antiguo Institut Pasteur de Kindia (Pastoria), centro histórico de primatología donde se investigó con chimpancés desde los años veinte. Buena parada con el perro: agua, sombra y sendero.",
-    "credit": "Alpha hmd · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg",
+    "lat": 9.9816544,
+    "lon": -12.7938486,
+    "desc": "El Voile de la Mariée es una cascada de varios hilos en Bendougou, cerca de Kindia. Se visita como excursión corta y no representa toda la ciudad ni el monte Gangan.",
+    "credit": "M keita1321 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Voile_de_la_mari%C3%A9_kindia_s%C3%A9gu%C3%A9ya.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Voile_de_la_mari%C3%A9_kindia_s%C3%A9gu%C3%A9ya.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una parada accesible y visual entre el Fouta y Conakry, con un objeto claro que valorar.",
+      "see": "El Voile de la Mariée es una cascada de varios hilos en Bendougou, cerca de Kindia. Se visita como excursión corta y no representa toda la ciudad ni el monte Gangan.",
+      "access": "El pin se mueve desde el centro genérico de Kindia a la ficha exacta La voile de la mariée Kindia de Google Maps. Confirmar horario y estado del acceso al llegar.",
+      "when": "Temporada con agua, primera hora o final de tarde; una o dos horas.",
+      "skip": "Omitir en estiaje extremo, con recinto cerrado o si el desvío obliga a conducir de noche."
+    },
+    "links": [
+      {
+        "label": "Ficha del Voile de la Mariée en Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20voile%20de%20la%20mari%C3%A9e%20Kindia"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Voile_de_la_mari%C3%A9_kindia_s%C3%A9gu%C3%A9ya.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Voile_de_la_mari%C3%A9_kindia_s%C3%A9gu%C3%A9ya.jpg",
+        "credit": "M keita1321 · CC BY-SA 4.0",
+        "caption": "Cascada y vegetación del Voile de la Mariée de Kindia."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Voile_de_la_mari%C3%A9_kindia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Voile_de_la_mari%C3%A9_kindia.jpg",
+        "credit": "M keita1321 · CC BY-SA 4.0",
+        "caption": "Hilos de agua sobre la pared rocosa del lugar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Voile_de_la_Mari%C3%A9_kindia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Voile_de_la_Mari%C3%A9_kindia.jpg",
+        "credit": "M keita1321 · CC BY-SA 4.0",
+        "caption": "Otra perspectiva del salto de Bendougou."
+      }
+    ]
   },
   {
     "n": 10,
@@ -159,15 +256,48 @@
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2–3 noches",
-    "lat": 9.5092,
-    "lon": -13.7122,
-    "desc": "Capital en una península estrecha de unos 35 km que se adentra en el Atlántico, con el centro administrativo y el puerto en la punta (Kaloum) y la ciudad real extendiéndose kilómetros hacia el interior. Es la única base logística de talla nacional: puerto, aeropuerto internacional, embajada de España, embajadas de Costa de Marfil y del resto del bloque (imprescindibles para los visados siguientes), bancos, supermercados, talleres y el Hôpital National Donka. Para ver: el Museo Nacional, la Gran Mezquita Fayçal (una de las mayores del África subsahariana), el mercado de Madina —un laberinto enorme— y el Palacio del Pueblo. Y la música: Conakry es una de las capitales musicales de África occidental, cuna del Bembeya Jazz National y de toda la escuela de orquestas nacionales de los años sesenta y setenta. Nudo compartido: se pasa por aquí en la bajada, y es donde se resuelven los trámites del bloque siguiente.",
+    "lat": 9.5090945,
+    "lon": -13.7119312,
+    "desc": "Conakry es la base nacional para documentación, salud, talleres y abastecimiento. La visita urbana se concentra en Kaloum y debe planificarse por tráfico y estacionamiento.",
     "credit": "Alpha hmd · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Un_aper%C3%A7u_de_la_ville_de_conakry.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Un_aper%C3%A7u_de_la_ville_de_conakry.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el único nodo capaz de resolver gestiones complejas antes de continuar hacia Sierra Leona o el interior.",
+      "see": "Conakry es la base nacional para documentación, salud, talleres y abastecimiento. La visita urbana se concentra en Kaloum y debe planificarse por tráfico y estacionamiento.",
+      "access": "El pin se ajusta a la ficha de ciudad de Google Maps porque el PDI describe una base urbana. Elegir alojamiento con aparcamiento vigilado y agrupar trámites por barrio.",
+      "when": "Días laborables para organismos y talleres; desplazamientos de día y fuera de horas punta.",
+      "skip": "Reducir el turismo urbano si no hay estacionamiento seguro o si una gestión obliga a cruzar repetidamente la península."
+    },
+    "links": [
+      {
+        "label": "Información práctica de Conakry",
+        "url": "https://en.wikipedia.org/wiki/Conakry"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Un_aper%C3%A7u_de_la_ville_de_conakry.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Un_aper%C3%A7u_de_la_ville_de_conakry.jpg",
+        "credit": "Alpha hmd · CC BY-SA 4.0",
+        "caption": "Vista urbana reconocible de Conakry."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2013_Conakry_Guinea_14418728438.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:2013_Conakry_Guinea_14418728438.jpg",
+        "credit": "Maarten van der Bent · CC BY-SA 2.0",
+        "caption": "Conakry vista desde el frente marítimo en 2013."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A%C3%A9roport_international_de_Conakry_Gbessia_vu_de_l'ext%C3%A9rieur.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:A%C3%A9roport_international_de_Conakry_Gbessia_vu_de_l'ext%C3%A9rieur.jpg",
+        "credit": "Fawaz.tairou · CC BY-SA 4.0",
+        "caption": "Exterior del aeropuerto de Conakry-Gbessia como referencia logística."
+      }
+    ]
   },
   {
     "n": 11,
@@ -176,83 +306,148 @@
     "prio": "Media",
     "dog": "no confirmado",
     "time": "1 día",
-    "lat": 9.45,
-    "lon": -13.83,
-    "desc": "Archipiélago a unos 20 minutos de lancha del puerto de Conakry: tres islas principales —Tamara (Factory), Room y Kassa— con playas de arena, cocoteros y agua tranquila, que fueron enclave británico hasta 1904 (cuando se cedieron a Francia) y antes puesto de la trata. Room es la más visitada, con restaurantes de playa y alojamientos sencillos; Kassa tiene explotación de bauxita en una parte y playas en la otra; Tamara conserva la antigua prisión colonial. Es la escapada de fin de semana de Conakry y la única costa realmente agradable del itinerario guineano. PERRO: por confirmar con el operador de la lancha — es una decisión del patrón, no una norma, y depende de si se contrata una piragua entera o se va en la lancha colectiva. Alternativa si no se puede: dejar al perro en el alojamiento de Conakry por turnos.",
-    "credit": "Cnes - Spot Image · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Los%20island%20SPOT%201386.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Los%20island%20SPOT%201386.jpg",
+    "lat": 9.4769,
+    "lon": -13.7855,
+    "desc": "Las Îles de Los forman un archipiélago frente a Conakry con playas, roca y aldeas insulares. La experiencia depende por completo de una lancha y un regreso fiables.",
+    "credit": "A Look at My Guinea · derechos en la fuente",
+    "img": "https://3.bp.blogspot.com/-N8osfZFk0M0/Vim64JkqwBI/AAAAAAAAABg/ucUyDCw8vXs/s1600/GUIILESDELOS.jpg",
+    "source": "https://alookatmyguinea.blogspot.com/2015/10/things-to-do-and-to-see.html",
     "icon": "costa",
     "color": "turquesa",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Ofrecen una pausa costera muy distinta de la capital sin una larga etapa por carretera.",
+      "see": "Las Îles de Los forman un archipiélago frente a Conakry con playas, roca y aldeas insulares. La experiencia depende por completo de una lancha y un regreso fiables.",
+      "access": "El pin se ajusta a la ficha Islas de Los de Google Maps y representa el archipiélago, no un muelle. Pactar isla, embarque, chalecos, precio y regreso antes de salir.",
+      "when": "Estación seca, mar tranquilo y salida temprana con margen de luz.",
+      "skip": "Descartarlas con oleaje, tormenta, barco sin chalecos o retorno incierto; confirmar expresamente si aceptan perro."
+    },
+    "links": [
+      {
+        "label": "Información de las Îles de Los",
+        "url": "https://en.wikipedia.org/wiki/%C3%8Eles_de_Los"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://3.bp.blogspot.com/-N8osfZFk0M0/Vim64JkqwBI/AAAAAAAAABg/ucUyDCw8vXs/s1600/GUIILESDELOS.jpg",
+        "source": "https://alookatmyguinea.blogspot.com/2015/10/things-to-do-and-to-see.html",
+        "credit": "A Look at My Guinea · derechos en la fuente",
+        "caption": "Cala rocosa y vegetación de las Îles de Los."
+      },
+      {
+        "img": "https://travel2unlimited.com/wp-content/uploads/2022/11/322242597_554706179852643_560747414307576947_n_10160702493543701-495x400.jpg",
+        "source": "https://travel2unlimited.com/guinea-kassa-island-le-bamana-beach/",
+        "credit": "Travel2Unlimited · derechos en la fuente",
+        "caption": "Arena, oleaje y rocas rojizas de Le Bamana Beach, en la isla Kassa."
+      },
+      {
+        "img": "https://travel2unlimited.com/wp-content/uploads/2022/11/322368240_458954896440368_332198352448384027_n_10160702495483701-495x400.jpg",
+        "source": "https://travel2unlimited.com/guinea-kassa-island-le-bamana-beach/",
+        "credit": "Travel2Unlimited · derechos en la fuente",
+        "caption": "Rocas rojizas y arena de Le Bamana Beach, isla Kassa."
+      }
+    ]
   },
   {
     "n": 12,
-    "name": "Boké y la costa de Boffa (variante costera)",
+    "name": "Museo regional de Boké",
     "cat": "Cultura",
     "prio": "Baja",
     "dog": "permitido",
     "time": "½–1 día",
-    "lat": 10.9333,
-    "lon": -14.3,
-    "desc": "VARIANTE OPCIONAL, fuera de los dos corredores principales: la carretera de la costa norte (N3) desde Conakry hacia Boffa y Boké. Boké conserva el Fortin de Boké, puesto colonial francés de 1878 junto al río Nunez, hoy museo regional con colecciones etnográficas y la celda donde estuvo preso el almamy Samory Touré; es una de las piezas de patrimonio colonial mejor conservadas del país. Por el camino, las playas de Bel Air y de Cap Verga (Boffa), largas, vacías y con arena firme. Es también la región de la bauxita: Boké es el centro minero más grande de Guinea y el tráfico de camiones y el polvo rojo marcan la carretera. ATENCIÓN: esta variante se acerca a la frontera de Guinea-Bisáu, que el protocolo del proyecto excluye sin excepción — se puede recorrer la costa, pero no se cruza ni se roza la frontera.",
+    "lat": 10.9333162,
+    "lon": -14.2959859,
+    "desc": "El antiguo fuerte de Boké alberga el museo regional junto al río Nunez. Es una visita histórica concreta dentro de una variante costera que debe decidirse aparte.",
     "credit": "Aboubacarkhoraa · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e%20de%20Bok%C3%A9.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e%20de%20Bok%C3%A9.jpg",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_de_Bok%C3%A9.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Bok%C3%A9.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
-  },
-  {
-    "n": 13,
-    "name": "Faranah y el nacimiento del río Níger",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1–2 días",
-    "lat": 10.0333,
-    "lon": -10.75,
-    "desc": "Faranah es la ciudad del alto Níger —ciudad natal de Sékou Touré, con su mezquita monumental y un trazado de avenidas desproporcionado para su tamaño— y la base para el sitio geográfico más simbólico de toda África occidental: el nacimiento del río Níger, en las estribaciones de los montes Loma, cerca de la frontera con Sierra Leona. El tercer río más largo de África, que recorre 4.200 km describiendo un arco gigantesco por Malí y Níger hasta desembocar en Nigeria, arranca aquí como un manantial que se puede cruzar de un paso. El lugar es un claro de bosque con un pequeño monumento y un santuario local; se llega por pista desde Faranah y se termina a pie con guía del pueblo, que cobra propina. Coordenada del manantial aproximada: confirmar en Faranah. Que el Fouta Djallon y sus estribaciones den origen al Níger, al Senegal y al Gambia es lo que le vale a Guinea el apodo de «castillo de agua de África occidental».",
-    "credit": "Alpha hmd · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Da contexto a la trata, el comercio fluvial y la ocupación colonial del norte de Guinea.",
+      "see": "El antiguo fuerte de Boké alberga el museo regional junto al río Nunez. Es una visita histórica concreta dentro de una variante costera que debe decidirse aparte.",
+      "access": "El pin se corrige a la ficha exacta Musée de Boke de Google Maps. Confirmar apertura antes de desviar la ruta y no confundirlo con una visita genérica a Boffa.",
+      "when": "Día laborable y por la mañana; una o dos horas de visita.",
+      "skip": "Omitir con museo cerrado o si la variante costera compromete la etapa principal."
+    },
+    "links": [
+      {
+        "label": "Ficha del Musée de Boké en Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20de%20Boke%20Guinea"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_de_Bok%C3%A9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Bok%C3%A9.jpg",
+        "credit": "Aboubacarkhoraa · CC BY-SA 4.0",
+        "caption": "Edificio del museo regional de Boké."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Canon_mus%C3%A9e_de_Bok%C3%A9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Canon_mus%C3%A9e_de_Bok%C3%A9.jpg",
+        "credit": "Aboubacarkhoraa · CC BY-SA 4.0",
+        "caption": "Cañón histórico expuesto en el museo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tableau_du_mus%C3%A9e_de_Bok%C3%A9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tableau_du_mus%C3%A9e_de_Bok%C3%A9.jpg",
+        "credit": "Aboubacarkhoraa · CC BY-SA 4.0",
+        "caption": "Pieza interpretativa dentro del museo de Boké."
+      }
+    ]
   },
   {
     "n": 14,
-    "name": "Bosque de Ziama (Macenta) · Reserva de la Biosfera",
+    "name": "Sérédou · acceso al macizo de Ziama",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "1–2 días",
-    "lat": 8.37447,
-    "lon": -9.28304,
-    "desc": "LA COORDENADA ES SÉRÉDOU, el pueblo de acceso, no el centro del macizo (que queda unos 15 km al suroeste). Unas 116.000 hectáreas (1.162 km²) de selva tropical húmeda de tierras bajas en la prefectura de Macenta, bosque clasificado desde 1932, la mayor masa forestal que queda en Guinea y Reserva de la Biosfera de la UNESCO desde 1980. Es un fragmento del bloque forestal de los Bosques Guineanos de África Occidental —uno de los focos mundiales de biodiversidad— con más de 1.300 especies de plantas y 287 de aves catalogadas (Área Importante para las Aves de BirdLife), chimpancés, búfalos enanos, cefalofines, pangolines y una avifauna excepcional; se le atribuye además la última población de elefantes de bosque del país, muy reducida, pero eso no lo he podido confirmar en fuente oficial reciente. La base es Sérédou (8,37447 / -9,28304, 553 m), subprefectura a unos 28 km al sureste de Macenta y antigua estación de investigación de la quina en plena selva. El acceso es por pista desde la carretera Macenta-Nzérékoré y la visita es caminata de bosque cerrado con guía comunitario: no hay safari ni observatorios, y ver un elefante es prácticamente imposible, pero el bosque primario en sí es lo que se viene a ver. POR CONFIRMAR: gestión, tasas y guías — depende del Centre Forestier de Nzérékoré. La zona forestal es también la región donde surgió el brote de ébola de 2013-2016: ver la sección de salud.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
+    "lat": 8.371919,
+    "lon": -9.2868745,
+    "desc": "Sérédou es la base navegable para el macizo forestal de Ziama, no el centro de la reserva. Cualquier entrada al bosque requiere autorización y guía local confirmados.",
+    "credit": "Yakoo1986 · CC BY-SA 4.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_of_Ziama_Massif.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Landscape_of_Ziama_Massif.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
-  },
-  {
-    "n": 15,
-    "name": "Nzérékoré y la Guinea forestal",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 7.7561,
-    "lon": -8.8179,
-    "desc": "Tercera ciudad de Guinea y capital de la Guinée Forestière, un mundo completamente distinto al resto del país: selva húmeda en lugar de sabana, 1.800 mm de lluvia al año, y los pueblos kpelle, kissi, toma y guerzé en lugar de fulanis y malinkés — con sus máscaras y sus sociedades iniciáticas de bosque, que son una de las tradiciones vivas más potentes de África occidental. Nzérékoré es un gran mercado regional y un centro de orfebrería de plata, y funciona como el nudo logístico del sureste: combustible, banco, hospital regional, hoteles y el último sitio con servicios antes de la frontera de Costa de Marfil. Es la base tanto de la visita a los montes Nimba como del enlace hacia Lola. Ciudad activa, caótica y cordial.",
-    "credit": "Alpha hmd · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite valorar uno de los principales remanentes de selva guineana sin fingir una puerta turística inexistente.",
+      "see": "Sérédou es la base navegable para el macizo forestal de Ziama, no el centro de la reserva. Cualquier entrada al bosque requiere autorización y guía local confirmados.",
+      "access": "El pin se ajusta a la ficha de Sérédou en Google Maps. Contactar con la administración o un guía acreditado antes de llegar; la coordenada no autoriza a internarse por pistas forestales.",
+      "when": "Estación relativamente seca y con reserva previa; prever un día completo.",
+      "skip": "Omitir sin permiso, guía o información reciente del firme; el perro no debe entrar en el área protegida."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Reserva de la Biosfera del macizo de Ziama",
+        "url": "https://www.unesco.org/en/mab/massif-du-ziama"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_of_Ziama_Massif.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Landscape_of_Ziama_Massif.jpg",
+        "credit": "Yakoo1986 · CC BY-SA 4.0",
+        "caption": "Relieve forestal del macizo de Ziama."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lowland_rainforest_of_Ziama_Massif.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lowland_rainforest_of_Ziama_Massif.jpg",
+        "credit": "Yakoo1986 · CC BY-SA 4.0",
+        "caption": "Selva húmeda de tierras bajas dentro de Ziama."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Montane_rainforest_near_to_S%C3%A9r%C3%A9dou_(Ziama).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Montane_rainforest_near_to_S%C3%A9r%C3%A9dou_(Ziama).jpg",
+        "credit": "Yakoo1986 · CC BY-SA 4.0",
+        "caption": "Bosque montano cerca de la base de Sérédou."
+      }
+    ]
   },
   {
     "n": 16,
@@ -261,82 +456,47 @@
     "prio": "Alta",
     "dog": "no confirmado — tratar como prohibido",
     "time": "1–2 días",
-    "lat": 7.6032,
-    "lon": -8.391,
-    "desc": "Reserva Natural Integral del Monte Nimba, Patrimonio Mundial de la UNESCO desde 1981 (y en la Lista del Patrimonio Mundial en Peligro desde 1992 por la presión minera): 17.632 hectáreas repartidas entre Guinea (12.540 ha) y Costa de Marfil (5.000 ha), en la cadena que hace de triple frontera con Liberia. Es una isla de praderas de altura sobre un mar de selva, con más de 317 especies de vertebrados —107 de ellas mamíferos— y más de 2.500 de invertebrados, muchas endémicas. Dos rarezas mundiales: el sapo vivíparo del Nimba (Nimbaphrynoides occidentalis), el único anfibio del mundo que pare crías vivas completamente formadas en lugar de poner huevos, y una población de chimpancés que usa piedras como herramientas. La visita se organiza desde Lola o Nzérékoré con guía obligatorio; es reserva integral, lo que significa que el acceso está restringido y hay zonas vedadas. PERRO: descartado, es reserva natural integral con grandes simios. Confirmar permisos con el Centre de Gestion de l'Environnement du Nimba-Simandou (CEGENS) antes de subir.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
+    "lat": 7.6378125,
+    "lon": -8.4184375,
+    "desc": "La Reserva Natural Integral del Monte Nimba protege el macizo fronterizo de mayor biodiversidad del país. El pin identifica el espacio protegido; el acceso efectivo se confirma con su administración.",
+    "credit": "Guy Debonnet · CC BY-SA 3.0 IGO",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Nimba_Strict_Nature_Reserve-108453.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Nimba_Strict_Nature_Reserve-108453.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
-  },
-  {
-    "n": 17,
-    "name": "Kankan · capital de la Alta Guinea",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 10.3853,
-    "lon": -9.3057,
-    "desc": "Segunda ciudad del país por población y capital histórica del mundo malinké guineano, a orillas del río Milo, afluente del Níger. Es el gran centro del islam en Guinea —la Gran Mezquita de Kankan es uno de los santuarios más venerados del país— y una ciudad de erudición coránica desde el siglo XVIII. Universidad Julius Nyerere, mercado enorme, y la mejor plaza de servicios de todo el corredor de subida entre Nzérékoré y Labé: combustible formal, banco, hospital regional y hoteles con patio. Es también el corazón de la cultura griot mandinga, de donde salen los grandes intérpretes de kora y balafón. El calor es seco y fuerte (sabana, no selva): otro mundo respecto al Fouta.",
-    "credit": "Alpha hmd · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Un%20aper%C3%A7u%20de%20la%20ville%20de%20conakry.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
-  },
-  {
-    "n": 18,
-    "name": "Kouroussa · puerta del Parque Nacional del Alto Níger",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "1–2 días",
-    "lat": 10.65,
-    "lon": -9.88333,
-    "desc": "Kouroussa es la ciudad del Níger propiamente dicho: aquí el río, que nació como un manantial cerca de Faranah, ya es navegable, y desde este punto arrancaban históricamente los vapores fluviales hacia Bamako. Es la ciudad natal del escritor Camara Laye, autor de «El niño africano». LA COORDENADA ES KOUROUSSA, el pueblo de acceso: el parque empieza unos 50 km al suroeste y no tiene puerta cartografiada. El Parque Nacional del Alto Níger, creado por decreto en enero de 1997, tiene un noyau central de 554 km² (55.400 ha) en torno al bosque de la Mafou —una de las últimas masas de bosque seco guineano intactas de África occidental— dentro de un conjunto mucho mayor (unos 12.470 km² entre los sectores Mafou y Kouya según el plan de gestión), repartido entre las prefecturas de Kouroussa, Faranah, Dabola y Kankan. Es Reserva de la Biosfera y sitio Ramsar desde 2002. Fauna: hipopótamos (el propio parque vende como reclamo el «concierto» nocturno en el campamento de Débésankinyé), chimpancés, cobos, antílopes acuáticos y potamoqueros gigantes; el elefante se extinguió aquí. La antena administrativa está en Somoria, y los accesos documentados por el parque son Sérékoroba, Sidakoro y Bakaria, con campamentos ribereños (Wodonkobila, Bakoning, Tambo, Wassa, Yohaya). Es el espacio protegido más grande de Guinea y también uno de los peor dotados: POR CONFIRMAR si hay guardas, pistas y campamento operativos. Se accede desde Kouroussa o desde Faranah.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
-  },
-  {
-    "n": 19,
-    "name": "Cataratas del Tinkisso (Dabola)",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con precaución",
-    "time": "½ día",
-    "lat": 10.7291,
-    "lon": -11.17002,
-    "desc": "Dabola está en la bisagra entre la sabana de la Alta Guinea y el pie oriental del Fouta Djallon, y es la parada natural del corredor de subida entre Kouroussa y Tougué. LA COORDENADA ES LA CASCADA, no la ciudad: las cataratas del Tinkisso están 6,3 km al oeste de Dabola (10,75 / -11,1167), sobre el río del mismo nombre —el principal afluente de cabecera del Níger, que nace en el Fouta—. Son una cortina ancha y escalonada de unos 70 m de anchura y 45 m de caída, con un embalse y una pequeña central hidroeléctrica histórica que lleva décadas alimentando la ciudad, pozas para bañarse y un entorno de bosque de galería. Menos espectacular que las cascadas del Fouta central pero mucho más solitaria, y la única parada de agua del corredor de subida. Dabola tiene combustible y mercado.",
-    "credit": "Sayd224 · CC BY 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chute%20de%20Kinkon.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Chute%20de%20Kinkon.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
-  },
-  {
-    "n": 20,
-    "name": "Tougué y el Fouta oriental",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "1 noche",
-    "lat": 11.4333,
-    "lon": -11.6667,
-    "desc": "La prefectura menos visitada del Fouta Djallon y la más difícil de alcanzar: el flanco oriental del altiplano, donde la meseta cae hacia la cuenca del Tinkisso en una sucesión de escarpes, gargantas y pueblos fulani prácticamente sin tráfico. La pista Dabola-Tougué-Labé es el tramo 4x4 más exigente y más solitario de todo el corredor guineano, y la razón principal para elegir este corredor de subida en vez de repetir el eje Mamou-Labé: cientos de kilómetros de paisaje de altiplano sin un solo viajero. Tougué tiene mercado, alojamiento elemental y combustible incierto —llegar con autonomía—. Es también una de las zonas de mayor concentración de «tapades», los huertos cercados de las casas fulani que son el sistema agrícola característico del Fouta. POR CONFIRMAR el estado de la pista y si es practicable fuera de la estación seca.",
-    "credit": "Maarten van der Bent · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fouta%20Djallon%20(14604722652).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Fouta%20Djallon%20(14604722652).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el paisaje natural más excepcional del sureste y un sitio UNESCO amenazado que exige visita responsable.",
+      "see": "La Reserva Natural Integral del Monte Nimba protege el macizo fronterizo de mayor biodiversidad del país. El pin identifica el espacio protegido; el acceso efectivo se confirma con su administración.",
+      "access": "El pin se ajusta a la ficha de la reserva en Google Maps, no a una recepción. Organizar permiso, guía y puerta concreta desde Lola o la base que indique el gestor.",
+      "when": "Estación seca, varios días disponibles y condiciones acordadas antes de salir.",
+      "skip": "Omitir sin autorización escrita, con actividad minera o fronteriza conflictiva, o si no se garantiza que el perro quede fuera del área estricta."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Reserva Natural Integral del Monte Nimba",
+        "url": "https://whc.unesco.org/en/list/155/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Nimba_Strict_Nature_Reserve-108453.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Nimba_Strict_Nature_Reserve-108453.jpg",
+        "credit": "Guy Debonnet · CC BY-SA 3.0 IGO",
+        "caption": "Relieve montañoso de la Reserva Natural Integral del Monte Nimba."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Nimba_Strict_Nature_Reserve-123989.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Nimba_Strict_Nature_Reserve-123989.jpg",
+        "credit": "Guy Debonnet · CC BY-SA 3.0 IGO",
+        "caption": "Bosque y laderas del macizo protegido."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nimba_montanegrassland.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nimba_montanegrassland.jpg",
+        "credit": "Yakoo1986 · CC BY-SA 4.0",
+        "caption": "Pastizal montano característico del Nimba guineano."
+      }
+    ]
   }
 ]
