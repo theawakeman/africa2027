@@ -131,8 +131,12 @@ def _enlaza_texto(texto, usados, idx=None, pos=0):
             return nombre
         usados.add(nombre)
         base = FUENTES[nombre]
-        destino = _mejor(idx, _host(base), pos + m.start()) or base
-        return _a(destino, nombre)
+        # Un nombre suelto (por ejemplo, «consultar iOverlander») alude a la
+        # plataforma, no al enlace profundo que casualmente quede más cerca en
+        # otra sección de la ficha. Los puntos concretos ya llevan su ancla
+        # explícita. Reutilizar aquí esa URL podía enviar una consulta general
+        # sobre combustible o mascotas a la ficha de un camping concreto.
+        return _a(base, nombre)
     texto = RE_FUENTES.sub(_fuente, texto)
 
     return texto

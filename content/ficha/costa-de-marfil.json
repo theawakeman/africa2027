@@ -240,18 +240,35 @@
       "info": "Última estación formal fiable antes de Touba, Biankouma y la frontera de Sipilou. Salir de aquí con depósitos y garrafas llenos: el tramo final de la subida tiene oferta escasa e irregular."
     },
     {
-      "name": "Agua potable y de uso general · Abiyán, Yamoussoukro, Bouaké, Man",
-      "cat": "Agua potable",
-      "lat": 5.325,
-      "lon": -4.02,
-      "info": "Agua embotellada sin problema de suministro en supermercados (Carrefour, Prosuma, Sococé) de Abiyán y en las capitales regionales. Para la recarga del depósito de uso general, las estaciones Total/Petro Ivoire y los hoteles con aparcamiento de estas cuatro ciudades permiten llenar con manguera; confirmar precio o donativo en recepción."
-    },
-    {
       "name": "Base canina · Abiyán (veterinarios y residencias)",
       "cat": "Consular",
       "lat": 5.345,
       "lon": -3.99,
       "info": "Abiyán concentra clínicas veterinarias de nivel europeo y residencias caninas — según el dosier canino del proyecto, el mejor punto de respiro del perro en toda África occidental. Es también donde hay que dejarlo si se entra en el Parque Nacional de Taï o en el de la Comoé. Coordenada aproximada de la zona de Cocody/Deux-Plateaux."
+    },
+    {
+      "name": "Agua de servicio · Anunu Eco Surf Camp",
+      "cat": "Agua de servicio",
+      "lat": 4.9182,
+      "lon": -6.1441,
+      "info": "[TOMA PARA GARRAFAS; DEPÓSITO CONDICIONAL] Camping con grifo y ducha artesanal publicados. No hay reseñas que acrediten volumen o manguera: llamar, pedir litros y tratar para consumo.",
+      "source": "https://park4night.com/fr/place/473078"
+    },
+    {
+      "name": "Agua de servicio · Chez Raymond et Perico (Lateko)",
+      "cat": "Agua de servicio",
+      "lat": 4.9066,
+      "lon": -6.1647,
+      "info": "[SOLO DUCHA DE CUBO] Camping activo con reseña de diciembre de 2025. Ducha y WC funcionan con cubo; no consta llenado del vehículo. Llegar con reserva.",
+      "source": "https://park4night.com/fr/place/394571"
+    },
+    {
+      "name": "Agua de servicio · Green Land / 4x4 Garage CI (Yaou)",
+      "cat": "Agua de servicio",
+      "lat": 5.1763,
+      "lon": -3.6191,
+      "info": "[SOLO DUCHA; SIN AGUA CORRIENTE] El vigilante transporta agua para ducha y baño. No es una recarga. Contactar previamente con 4x4 Garage CI en Abiyán.",
+      "source": "https://park4night.com/fr/place/474289"
     }
   ],
   "sources": [
@@ -402,6 +419,22 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "park4night · Anunu Eco Surf Camp",
+      "https://park4night.com/fr/place/473078"
+    ],
+    [
+      "park4night · Chez Raymond et Perico, Lateko",
+      "https://park4night.com/fr/place/394571"
+    ],
+    [
+      "park4night · Green Land / 4x4 Garage CI",
+      "https://park4night.com/fr/place/474289"
+    ],
+    [
+      "park4night · Hotel Excellence, Danané (descartado)",
+      "https://park4night.com/fr/place/165257"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 15 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación.",
@@ -427,7 +460,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Agua embotellada abundante y barata en supermercados y estaciones de servicio de Abiyán, Yamoussoukro, Bouaké, Daloa, Man y Korhogo: es el tramo con mejor suministro desde Marruecos.</li><li>Recarga del depósito de uso general (ducha, aseo, vajilla, limpieza): estaciones Total / Petro Ivoire / Ola Energy y hoteles con aparcamiento de esas mismas ciudades permiten llenar con manguera; confirmar precio o donativo en recepción.</li><li>Bloque forestal de Taï y tramo Séguéla–Sipilou: salir con los depósitos llenos al 100 %; en el interior del bloque forestal no hay suministro fiable ni embotellado garantizado.</li><li>No rellenar de la red fuera de las capitales regionales sin filtrar y potabilizar.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada, sin gap de 500 km: Danané/Man (tras la frontera) → Daloa ~180 km → Yamoussoukro ~150 km → Soubré ~230 km → San-Pédro ~200 km → Sassandra ~110 km → Abiyán ~360 km, todos con estaciones formales (Total, Petro Ivoire, Ola Energy, Vivo). El único tramo delicado es el interior del bloque de Taï: entrar con depósitos y garrafas llenos desde Soubré o San-Pédro.</li><li>Subida: Bondoukou → Bouaké ~330 km → Katiola ~50 km → Korhogo ~230 km → Séguéla ~330 km, todos con estación formal. El tramo final Séguéla → Touba → Biankouma → Sipilou (~380 km) es el que tiene la oferta más escasa e irregular: llenar a fondo en Séguéla y llevar garrafas.</li><li>Calidad del gasóleo razonable en la red formal de las grandes ciudades; desconfiar del combustible informal en garrafas del oeste forestal y del norte. Llevar embudo con filtro.</li><li>Abiyán tiene la mejor calidad y el mejor precio del país: repostar a fondo allí en las dos pasadas.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: apoyos costeros de alcance limitado</h3><p>Se elimina el pin genérico de Abiyán y la afirmación de que cadenas enteras de gasolineras y hoteles permiten llenar con manguera. Los puntos exactos localizados sirven sobre todo para ducha y garrafas:</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Anunu Eco Surf Camp, Vodiéko · 4.918200, -6.144100</td><td><strong>Grifo y ducha; llenado condicionado.</strong> El camping publica un grifo, ducha artesanal, aseo, acceso 4x4 y apertura anual; no tiene reseñas que confirmen volumen o manguera. <a href=\"https://park4night.com/fr/place/473078\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>Llamar antes y pedir litros. Aceptarlo como toma para garrafas; no como depósito completo hasta confirmación local.</td></tr><tr><td>Chez Raymond et Perico, Lateko · 4.906600, -6.164700</td><td><strong>Solo ducha de cubo.</strong> Dos reseñas, una de diciembre de 2025, mantienen activo el camping; la descripción especifica ducha y WC con cubo. <a href=\"https://park4night.com/fr/place/394571\" target=\"_blank\" rel=\"noopener\">ficha y comentarios</a></td><td>Útil para higiene y una noche costera. El llenado del vehículo no está acreditado: llegar con reserva.</td></tr><tr><td>Green Land / 4x4 Garage CI, Yaou · 5.176300, -3.619100</td><td><strong>Solo agua transportada para ducha.</strong> La ficha declara expresamente que no hay agua corriente y que el vigilante lleva agua para ducha y baño. <a href=\"https://park4night.com/fr/place/474289\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>No usarlo como recarga. Es un apoyo de higiene al este de Abiyán y debe contactarse a través del taller antes de ir.</td></tr></tbody></table></div><h3>Descartes y plan de tramo</h3><ul class=\"ticks\"><li>Hotel Excellence de Danané no se incorpora: su ficha de 2019 no aporta una confirmación reciente de llenado.</li><li>Anunu es la única toma física publicada, pero el volumen sigue condicionado. Lateko y Green Land son solo ducha.</li><li>Para Abiyán, Yamoussoukro, Bouaké, Man o Korhogo: comprar agua sellada para beber y concertar una recarga privada antes de entrar en los bloques de Taï o Séguéla–Sipilou; ninguna ciudad se representa ya mediante un pin ficticio.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Bajada, sin gap de 500 km: Danané/Man (tras la frontera) → Daloa ~180 km → Yamoussoukro ~150 km → Soubré ~230 km → San-Pédro ~200 km → Sassandra ~110 km → Abiyán ~360 km, todos con estaciones formales (Total, Petro Ivoire, Ola Energy, Vivo). El único tramo delicado es el interior del bloque de Taï: entrar con depósitos y garrafas llenos desde Soubré o San-Pédro.</li><li>Subida: Bondoukou → Bouaké ~330 km → Katiola ~50 km → Korhogo ~230 km → Séguéla ~330 km, todos con estación formal. El tramo final Séguéla → Touba → Biankouma → Sipilou (~380 km) es el que tiene la oferta más escasa e irregular: llenar a fondo en Séguéla y llevar garrafas.</li><li>Calidad del gasóleo razonable en la red formal de las grandes ciudades; desconfiar del combustible informal en garrafas del oeste forestal y del norte. Llevar embudo con filtro.</li><li>Abiyán tiene la mejor calidad y el mejor precio del país: repostar a fondo allí en las dos pasadas.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

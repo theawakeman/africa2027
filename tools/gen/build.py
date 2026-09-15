@@ -530,6 +530,10 @@ def render_ficha(d):
         if p["type"] == "poi":
             n = next(x["n"] for x in d["pois"] if x["name"] == p["name"])
             p["ficha"] = f"#poi-{n}"
+        elif p["type"] == "agua":
+            p["ficha"] = "#agua-combustible"
+        else:
+            p["ficha"] = "#logistica"
     map_html = (
         f'<div id="fichamap" class="mapbox"></div>'
         f'<p class="figcap">Activa o desactiva los corredores y ramales desde la leyenda. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'

@@ -258,18 +258,28 @@
       "info": "Kankan y Dabola tienen estaciones formales. AVISO: a partir de Dabola, la pista Tougué-Labé del corredor de subida no tiene garantía de combustible — salir de Dabola con depósitos y garrafas llenos (~350 km hasta Labé, pero con consumo de pista)."
     },
     {
-      "name": "Agua potable y de uso general · Conakry, Labé, Kankan, Nzérékoré",
-      "cat": "Agua potable",
-      "lat": 9.5092,
-      "lon": -13.7122,
-      "info": "Agua embotellada y en bolsa disponible en todas las ciudades. Para el depósito de uso general: estaciones de servicio, hoteles y misiones católicas suelen permitir llenar con manguera. En el Fouta el agua de manantial es abundante pero hay que tratarla igualmente."
+      "name": "Agua de servicio · Woro Ladia (Conakry)",
+      "cat": "Agua de servicio",
+      "lat": 9.6004,
+      "lon": -13.64997,
+      "info": "[SOLO DUCHA] Agua no potable y duchas calientes verificadas; patio para dos 4x4, no grandes. El llenado del depósito no está acreditado: reservar y pedir permiso expreso.",
+      "source": "https://ioverlander.com/places/267424-woro-laida"
     },
     {
-      "name": "Agua · Fouta Djallon (el castillo de agua de África occidental)",
-      "cat": "Agua potable",
-      "lat": 11.0833,
-      "lon": -12.4,
-      "info": "Paradoja útil: es la región con más agua de África occidental —de aquí nacen el Níger, el Senegal y el Gambia— y a la vez una donde el agua de superficie no es potable sin tratar. Manantiales y arroyos constantes en todo el altiplano: filtro mecánico más tratamiento químico o ebullición, siempre. En los campamentos de Doucki y Kambadaga el agua es de pozo o manantial."
+      "name": "Agua de servicio · Tinka Eco Village (Dalaba)",
+      "cat": "Agua de servicio",
+      "lat": 10.6912,
+      "lon": -12.2516,
+      "info": "[TOMA REPORTADA EN 2026] Viajeros alojados pudieron tomar agua y lavar ropa; aparcamiento amplio. Pedir cantidad y punto de toma, tratar para consumo y recordar que la ficha indica que no admite mascotas.",
+      "source": "https://park4night.com/de/place/672219"
+    },
+    {
+      "name": "Agua de servicio · grifo N5 (Téguéréya)",
+      "cat": "Agua de servicio",
+      "lat": 10.6118,
+      "lon": -12.1911,
+      "info": "[RECARGA DE DEPÓSITO PUBLICADA] Grifo gratuito junto a gasolinera; agua expresamente no potable. Punto nuevo sin historial: comprobar funcionamiento y llenar sin obstaculizar.",
+      "source": "https://park4night.com/en/place/582309"
     }
   ],
   "sources": [
@@ -384,6 +394,22 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "iOverlander · Woro Ladia, Conakry",
+      "https://ioverlander.com/places/267424-woro-laida"
+    ],
+    [
+      "park4night · Tinka Eco Village, Dalaba",
+      "https://park4night.com/de/place/672219"
+    ],
+    [
+      "Tinka Eco Village · web oficial",
+      "https://tinkaecovillage.com/"
+    ],
+    [
+      "park4night · grifo N5 de Téguéréya",
+      "https://park4night.com/en/place/582309"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 15 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Novedad de esta revisión: el «agujero negro» documental del perro en Guinea que señalaba el dosier del proyecto queda PARCIALMENTE CERRADO — se han identificado el marco legal (Ley L/2018/026/AN), la autoridad competente (DNSV) y los requisitos prácticos (microchip, rabia <12 meses, certificado internacional en 72 h), y no se ha encontrado ninguna fuente oficial que prohíba la entrada terrestre. Lo que sigue abierto es la práctica de ventanilla en Sambaïlo y en N'Zo, para la que no existe ni un solo testimonio localizado.",
@@ -409,7 +435,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Conakry, Labé, Kankan, Nzérékoré y todas las capitales regionales: agua embotellada y en bolsa en supermercados y tiendas. Para el depósito de uso general, estaciones de servicio, hoteles y misiones católicas suelen permitir llenar con manguera.</li><li>Fouta Djallon: es el «castillo de agua de África occidental» —de aquí nacen el Níger, el Senegal y el Gambia— y hay manantiales y arroyos constantes en todo el altiplano. Pero el agua de superficie NO es potable sin tratar: filtro mecánico más tratamiento químico o ebullición, siempre.</li><li>Doucki y Kambadaga: agua de pozo o de manantial en los campamentos. En Doucki, el campamento de Hassan la proporciona; tratarla igualmente para beber.</li><li>Corredor de subida (Kankan, Kouroussa, Dabola, Tougué): la Alta Guinea es sabana seca y el agua es más escasa que en el Fouta. Llenar depósitos a fondo en Kankan y en Dabola antes de la pista de Tougué.</li><li>En zona rural, confirmar con la comunidad antes de usar un pozo compartido: en el Fouta el agua es un bien gestionado colectivamente y no se toma sin preguntar.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Eje central (Conakry → Kindia → Mamou → Dalaba → Pita → Labé → Koundara): la mejor cobertura del país, con estaciones formales en todas las ciudades. Sin ningún hueco comprometido.</li><li>AVISO — bajada: el tramo Mamou → Faranah → Kissidougou → Macenta → Nzérékoré (~650 km) tiene estaciones formales en las capitales pero con roturas de suministro puntuales, especialmente en Macenta. Salir de Mamou con garrafas llenas y repostar en cuanto haya oportunidad, sin esperar a estar bajo.</li><li>AVISO — subida: a partir de Dabola, la pista Tougué-Labé (~350 km) no tiene garantía de combustible. Salir de Dabola con depósitos y garrafas al 100 %, contando además con el mayor consumo en pista.</li><li>Repostar a fondo en Conakry, que tiene la mejor oferta y calidad del país (Total, Vivo, Petroguinée), y otra vez en Labé y en Kankan, que son las mejores plazas del interior.</li><li>Evitar el combustible de garrafa informal salvo necesidad: calidad imprevisible. Filtro de embudo obligatorio fuera de Conakry.</li><li>Confirmar puntos recientes en iOverlander antes de cada tramo: la red formal es limitada y algunas estaciones rurales pueden estar secas durante días.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: tres puntos físicos, no ciudades enteras</h3><p>Se retiran los pines representativos de Conakry y del Fouta Djallon y la promesa genérica de manguera en hoteles, misiones o gasolineras. Los apoyos aceptados son estos:</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Woro Ladia, Conakry · 9.600400, -13.649970</td><td><strong>Solo ducha; llenado no acreditado.</strong> La ficha reciente confirma agua no potable, duchas calientes y espacio para dos 4x4, pero no para vehículos grandes. <a href=\"https://ioverlander.com/places/267424-woro-laida\" target=\"_blank\" rel=\"noopener\">ficha y coordenadas</a></td><td>Reservar y usar como base de ducha. El depósito solo con autorización expresa; no bloquear el patio con los dos coches.</td></tr><tr><td>Tinka Eco Village, Dalaba · 10.691200, -12.251600</td><td><strong>Toma de agua reportada en abril de 2026.</strong> Un viajero pudo tomar agua y lavar ropa; también constan duchas, aparcamiento amplio y vaciado de negras, pero no de grises. <a href=\"https://park4night.com/de/place/672219\" target=\"_blank\" rel=\"noopener\">ficha reciente</a> · <a href=\"https://tinkaecovillage.com/\" target=\"_blank\" rel=\"noopener\">web del establecimiento</a></td><td>Anclaje del Fouta: consumir en el restaurante, pedir cantidad y punto de toma y tratar el agua de bebida. No admite mascotas según la ficha camper.</td></tr><tr><td>Grifo junto a la N5, Téguéréya · 10.611800, -12.191100</td><td><strong>Recarga de depósito publicada.</strong> Grifo gratuito junto a una gasolinera, descrito expresamente como no potable y apto para depósitos; todavía no tiene historial de reseñas. <a href=\"https://park4night.com/en/place/582309\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a></td><td>Verificar que sigue operativo, no obstaculizar la estación y usar solo para servicio. Tinka queda a unos kilómetros como respaldo.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Conakry aporta ducha, no una recarga garantizada; llegar a Dalaba con margen.</li><li>Tinka y Téguéréya forman el par operativo del Fouta: comprobar ambos antes de continuar a Sierra Leona.</li><li>Kankan, Nzérékoré y la pista de Tougué quedan sin pin: no se encontró una toma pública actual y exacta que justifique prometerla.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Eje central (Conakry → Kindia → Mamou → Dalaba → Pita → Labé → Koundara): la mejor cobertura del país, con estaciones formales en todas las ciudades. Sin ningún hueco comprometido.</li><li>AVISO — bajada: el tramo Mamou → Faranah → Kissidougou → Macenta → Nzérékoré (~650 km) tiene estaciones formales en las capitales pero con roturas de suministro puntuales, especialmente en Macenta. Salir de Mamou con garrafas llenas y repostar en cuanto haya oportunidad, sin esperar a estar bajo.</li><li>AVISO — subida: a partir de Dabola, la pista Tougué-Labé (~350 km) no tiene garantía de combustible. Salir de Dabola con depósitos y garrafas al 100 %, contando además con el mayor consumo en pista.</li><li>Repostar a fondo en Conakry, que tiene la mejor oferta y calidad del país (Total, Vivo, Petroguinée), y otra vez en Labé y en Kankan, que son las mejores plazas del interior.</li><li>Evitar el combustible de garrafa informal salvo necesidad: calidad imprevisible. Filtro de embudo obligatorio fuera de Conakry.</li><li>Confirmar puntos recientes en iOverlander antes de cada tramo: la red formal es limitada y algunas estaciones rurales pueden estar secas durante días.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

@@ -246,18 +246,20 @@
       "info": "Puntos de venta elementales y a veces en garrafa. NO dar por hecho el suministro: salir de Makeni con depósitos y garrafas llenos para cubrir Kabala, la aproximación a las Loma, Kamakwie y Outamba-Kilimi y la vuelta (~500-600 km de ida y vuelta con consumo de pista)."
     },
     {
-      "name": "Agua · Freetown y ciudades principales",
-      "cat": "Agua potable",
-      "lat": 8.484,
-      "lon": -13.2299,
-      "info": "Agua embotellada y en bolsa en Freetown, Bo, Kenema y Makeni. Para el depósito de uso general (ducha, aseo, limpieza), estaciones de servicio, hoteles y misiones permiten llenar con manguera. Nunca beber del grifo."
+      "name": "Agua de servicio · Bureh Beach Surf Club",
+      "cat": "Agua de servicio",
+      "lat": 8.2072,
+      "lon": -13.1557,
+      "info": "[SOLO DUCHA BÁSICA] Aseos y ducha documentados; la fuente no ofrece toma ni llenado de depósito. Llegar con reserva y usarlo únicamente para higiene durante la parada.",
+      "source": "https://park4night.com/en/place/97969"
     },
     {
-      "name": "Agua · península de Freetown y montaña",
-      "cat": "Agua potable",
-      "lat": 8.323,
-      "lon": -13.1866,
-      "info": "En la península hay agua corriente en los alojamientos de River No. 2, Tokeh y Bureh, y arroyos de montaña abundantes — tratar siempre. En las Loma y en Outamba, el agua es de río o de pozo del pueblo: filtro mecánico más tratamiento químico o ebullición, sin excepción. Salir de Kabala con los depósitos llenos."
+      "name": "Agua de servicio · campamento de Tiwai Island",
+      "cat": "Agua de servicio",
+      "lat": 7.55415,
+      "lon": -11.3553667,
+      "info": "[AGUA PARA HUÉSPEDES; NO PARA EL VEHÍCULO] Web oficial: acceso a agua, baños y agua purificada gratis. El 4x4 queda en tierra firme y el tramo final es en barca; no es una recarga del depósito.",
+      "source": "https://www.tiwaiisland.org/visit/accommodation-and-food/"
     }
   ],
   "sources": [
@@ -360,6 +362,22 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "park4night · Bureh Beach Surf Club",
+      "https://park4night.com/en/place/97969"
+    ],
+    [
+      "Ministerio de Turismo · Bureh Beach",
+      "https://tourismsierraleone.com/attractions/bureh-beach/"
+    ],
+    [
+      "Tiwai Island · alojamiento, agua y contacto",
+      "https://www.tiwaiisland.org/visit/accommodation-and-food/"
+    ],
+    [
+      "SALWACO · cobertura del operador público",
+      "https://salwaco.gov.sl/about-salwaco/"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 15 de septiembre de 2026. Esta ficha documenta una ALTERNATIVA, no un tramo de la ruta fija: Sierra Leona solo se visita si sobran días en el corredor de subida. Es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Correcciones importantes de esta revisión: (1) el Cotton Tree de Freetown se derrumbó el 24 de mayo de 2023 y la versión anterior de esta ficha lo describía como si siguiera en pie; (2) el complejo Gola-Tiwai fue inscrito como Patrimonio Mundial de la UNESCO en 2025, el primero del país; (3) Sierra Leona expide visado a la llegada en la frontera terrestre de Gbalamuya, gratuito para la UE — lo contrario del caso liberiano; (4) la salida hacia Liberia que figuraba en la versión anterior queda eliminada del plan, porque Liberia está excluida de la ruta. Sigue abierto, y es el mayor riesgo del bucle, el agujero documental sobre la entrada del perro.",
@@ -385,7 +403,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Freetown, Bo, Kenema y Makeni: agua embotellada y en bolsa en supermercados y tiendas. Para el depósito de uso general (ducha, aseo, limpieza), estaciones de servicio, hoteles y misiones permiten llenar con manguera.</li><li>Península de Freetown (River No. 2, Tokeh, Bureh, Kent): agua corriente en los alojamientos y arroyos de montaña abundantes que bajan del parque nacional. River No. 2 tiene además el río de agua dulce en la propia playa, ideal para lavar el equipo y al perro después del baño. Tratar siempre el agua de arroyo.</li><li>Sureste (Gola, Tiwai, Sulima): agua de río o de pozo del pueblo, sin excepción. Filtro mecánico más tratamiento químico o ebullición. En Tiwai la proporciona el campamento; tratarla igualmente. Salir de Kenema con los depósitos llenos.</li><li>Bloque de montaña (Kabala, Loma, Outamba): agua de pozo y de río. Es la zona más seca del país y la de menos infraestructura: llenar a fondo en Makeni y de nuevo en Kabala antes de subir a Sinekoro o de bajar a Kamakwie.</li><li>En zona rural, preguntar en el pueblo antes de usar un pozo comunitario. Nunca beber del grifo en ningún punto del país.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin ningún hueco de 500 km en el bucle: la red formal cubre Freetown, Bo, Kenema y Makeni, y los tres ejes asfaltados (Gbalamuya-Freetown, Freetown-Bo-Kenema, Freetown-Makeni-Kabala) tienen estaciones suficientes.</li><li>Repostar a fondo en Freetown, que tiene la mejor oferta y calidad del país, antes de bajar a la península y antes de salir hacia el sureste.</li><li>Bo es el último repostaje seguro antes de Tiwai, Gola y Sulima: bajar con el depósito lleno y garrafas, porque en Potoru y en Zimmi el suministro es informal.</li><li>AVISO — bloque de montaña: Makeni es el último repostaje seguro. Kabala y Kamakwie tienen puntos de venta elementales y a veces en garrafa, sin garantía. Salir de Makeni con depósitos y garrafas al 100 % para cubrir Kabala + aproximación a Bintumani + Kamakwie + Outamba + vuelta (~500-600 km con consumo de pista).</li><li>Filtro de embudo obligatorio fuera de Freetown y de las capitales: la calidad del gasóleo en garrafa es imprevisible.</li><li>Confirmar puntos recientes en iOverlander antes de cada tramo rural; las estaciones del interior pueden estar secas durante días.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: cobertura escasa y sin falsas recargas</h3><p>No se ha encontrado una recarga pública de depósito, actual y geolocalizada, que cubra el país. Se eliminan los dos pines genéricos y se conservan únicamente dos instalaciones útiles para higiene y agua de huéspedes.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Bureh Beach Surf Club · 8.207200, -13.155700</td><td><strong>Solo ducha básica.</strong> La ficha del camping registra aseos y una reseña que confirma ducha, pero no enumera toma de agua ni recarga de depósito. <a href=\"https://park4night.com/en/place/97969\" target=\"_blank\" rel=\"noopener\">ficha y GPS</a> · <a href=\"https://tourismsierraleone.com/attractions/bureh-beach/\" target=\"_blank\" rel=\"noopener\">lugar oficial</a></td><td>Útil para ducharse durante la parada costera. Llegar con agua propia y no pedir más alcance al punto del que acredita la fuente.</td></tr><tr><td>Campamento de Tiwai Island · 7.554150, -11.355367</td><td><strong>Agua y baños para huéspedes.</strong> La web oficial ofrece acceso a agua, baños y agua purificada gratuita para huéspedes; el acceso final es en barca y el vehículo queda fuera de la isla. <a href=\"https://www.tiwaiisland.org/visit/accommodation-and-food/\" target=\"_blank\" rel=\"noopener\">servicios y contacto</a></td><td>Sirve para higiene y consumo durante la estancia, no para acercar el 4x4 ni llenar su depósito. Reservar y entrar al desvío con autonomía completa.</td></tr><tr><td>Red urbana de SALWACO · sin pin</td><td><strong>No equivale a acceso overlander.</strong> La empresa pública gestiona suministro entubado en ciudades como Bo, Kenema y Makeni, pero no publica tomas para vehículos. <a href=\"https://salwaco.gov.sl/about-salwaco/\" target=\"_blank\" rel=\"noopener\">operador público</a></td><td>Concertar por escrito con un alojamiento vallado una cantidad concreta; no marcar el centro de una ciudad como si fuera un grifo.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Completar en Dalaba/Téguéréya antes de entrar y llevar autonomía suficiente para atravesar Sierra Leona si falla una cita privada.</li><li>Para Freetown, Bo, Kenema, Makeni o Kabala: reservar alojamiento 24–48 h antes y pedir por escrito acceso del coche, litros, recipiente/manguera y precio.</li><li>Outamba obtiene agua del río y no se acepta como recarga ordinaria; Tiwai tampoco repone el vehículo.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Sin ningún hueco de 500 km en el bucle: la red formal cubre Freetown, Bo, Kenema y Makeni, y los tres ejes asfaltados (Gbalamuya-Freetown, Freetown-Bo-Kenema, Freetown-Makeni-Kabala) tienen estaciones suficientes.</li><li>Repostar a fondo en Freetown, que tiene la mejor oferta y calidad del país, antes de bajar a la península y antes de salir hacia el sureste.</li><li>Bo es el último repostaje seguro antes de Tiwai, Gola y Sulima: bajar con el depósito lleno y garrafas, porque en Potoru y en Zimmi el suministro es informal.</li><li>AVISO — bloque de montaña: Makeni es el último repostaje seguro. Kabala y Kamakwie tienen puntos de venta elementales y a veces en garrafa, sin garantía. Salir de Makeni con depósitos y garrafas al 100 % para cubrir Kabala + aproximación a Bintumani + Kamakwie + Outamba + vuelta (~500-600 km con consumo de pista).</li><li>Filtro de embudo obligatorio fuera de Freetown y de las capitales: la calidad del gasóleo en garrafa es imprevisible.</li><li>Confirmar puntos recientes en iOverlander antes de cada tramo rural; las estaciones del interior pueden estar secas durante días.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una instalación con duchas no autoriza por sí sola a llenar el depósito: pedir permiso, confirmar caudal y precio el mismo día y llevar garrafa, manguera, adaptadores y bomba.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
