@@ -28,7 +28,7 @@
     ],
     [
       "AGUA",
-      "Cabinda ciudad es recarga pactada; no se promete grifo público"
+      "Cabinda, Luanda y Kalandula: duchas exactas; ningún llenado público confirmado"
     ],
     [
       "RIESGO CABINDA",
@@ -154,7 +154,7 @@
       "cat": "Servicios",
       "lat": -5.5576435,
       "lon": 12.1919468,
-      "info": "Referencia urbana, no surtidor ni grifo. Único punto lógico para alojamiento vigilado, combustible y recarga pactada de agua entre Massabi y Yema."
+      "info": "Referencia urbana, no grifo. Executive Paraíso tiene pin propio para ducha, parking y seguridad; no publica llenado de depósito. Entrar desde Pointe-Noire con el agua resuelta."
     },
     {
       "name": "Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)",
@@ -269,11 +269,28 @@
       "info": "Estaciones formales en ambas ciudades; repostar en Namibe antes de Baía dos Tigres/Iona (sin oferta) y de nuevo en Lubango tras Serra da Leba."
     },
     {
-      "name": "Agua potable y de uso general · Luanda",
-      "cat": "Agua potable",
-      "lat": -8.8383,
-      "lon": 13.2344,
-      "info": "Agua embotellada sin problema en supermercados de la capital; estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito de uso general con manguera."
+      "name": "Agua de servicio · Executive Paraíso Hotel (Cabinda)",
+      "cat": "Agua de servicio",
+      "lat": -5.5542279,
+      "lon": 12.1918382,
+      "info": "[SOLO DUCHA DE HUÉSPED] Hotel real con parking gratuito y seguridad 24 h. No consta toma vehicular: reservar y pactar aparte cualquier volumen.",
+      "source": "https://www.ephotel.co.ao/"
+    },
+    {
+      "name": "Agua de servicio · Luanda's Naval Club",
+      "cat": "Agua de servicio",
+      "lat": -8.7989,
+      "lon": 13.2249,
+      "info": "[SOLO DUCHA; PRE-RESERVA] Punto para overlanders creado y reseñado en abril de 2026. Aseos y duchas publicados; no consta llenado del depósito.",
+      "source": "https://park4night.com/en/place/670798"
+    },
+    {
+      "name": "Agua de servicio · Pousada Calandula",
+      "cat": "Agua de servicio",
+      "lat": -9.0782573,
+      "lon": 16.0018423,
+      "info": "[SOLO DUCHA DE CAMPISTA] Camping de hotel con reseña de agosto de 2025, aseos y duchas. No publica toma para el vehículo; acordar cualquier litro extra.",
+      "source": "https://park4night.com/en/place/615872"
     }
   ],
   "sources": [
@@ -308,6 +325,18 @@
     [
       "ACGT · obras de la carretera Muanda–Yema",
       "https://acgt.cd/2025/09/29/kongo-central-la-premiere-ministre-lance-les-travaux-de-la-route-moanda-yema/"
+    ],
+    [
+      "Executive Paraíso Hotel Cabinda · sitio oficial",
+      "https://www.ephotel.co.ao/"
+    ],
+    [
+      "park4night · Luanda's Naval Club",
+      "https://park4night.com/en/place/670798"
+    ],
+    [
+      "park4night · Pousada Calandula",
+      "https://park4night.com/en/place/615872"
     ]
   ],
   "sources_note": "Cabinda se incorpora con una advertencia explícita: la existencia de los pasos y una ruta realizada por otros viajeros no equivale a seguridad garantizada.",
@@ -318,7 +347,7 @@
     [
       "resumen",
       "Resumen operativo",
-      "<p>La ficha incorpora ahora la provincia separada de <strong>Cabinda</strong> como pieza del corredor principal. En la bajada se entra desde Massabi, se pasa por Cabinda ciudad y se sale por Yema hacia Muanda. Después de Kongo Central se entra en Angola continental por Luvo/Lufu. La subida repite los dos pasos en sentido inverso.</p><div class=\"callout warn\"><div class=\"callout-title\">Ventaja y coste</div><p>Este trazado evita el ferry Brazzaville–Kinshasa, pero multiplica las entradas angoleñas y atraviesa una provincia con advertencia de seguridad reforzada. No se presenta como ruta fácil ni barata hasta recibir confirmación local.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Consecuencia</th></tr></thead><tbody><tr><td>Entradas Angola</td><td>Cabinda y continente en bajada, continente y Cabinda en subida: cuatro eventos fronterizos.</td></tr><tr><td>Exención</td><td>Pasaporte español: hasta 30 días por entrada y 90 días acumulados al año, según norma oficial.</td></tr><tr><td>Vehículo</td><td>La tasa oficial de referencia se aplica al turismo ligero al entrar; presupuestar cada evento hasta aclaración escrita.</td></tr><tr><td>Cabinda</td><td>Solo de día, alojamiento vigilado y sin excursiones remotas.</td></tr><tr><td>Agua</td><td>Recarga completa pactada en Cabinda ciudad; dos días de reserva.</td></tr></tbody></table></div>"
+      "<p>La ficha incorpora ahora la provincia separada de <strong>Cabinda</strong> como pieza del corredor principal. En la bajada se entra desde Massabi, se pasa por Cabinda ciudad y se sale por Yema hacia Muanda. Después de Kongo Central se entra en Angola continental por Luvo/Lufu. La subida repite los dos pasos en sentido inverso.</p><div class=\"callout warn\"><div class=\"callout-title\">Ventaja y coste</div><p>Este trazado evita el ferry Brazzaville–Kinshasa, pero multiplica las entradas angoleñas y atraviesa una provincia con advertencia de seguridad reforzada. No se presenta como ruta fácil ni barata hasta recibir confirmación local.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Consecuencia</th></tr></thead><tbody><tr><td>Entradas Angola</td><td>Cabinda y continente en bajada, continente y Cabinda en subida: cuatro eventos fronterizos.</td></tr><tr><td>Exención</td><td>Pasaporte español: hasta 30 días por entrada y 90 días acumulados al año, según norma oficial.</td></tr><tr><td>Vehículo</td><td>La tasa oficial de referencia se aplica al turismo ligero al entrar; presupuestar cada evento hasta aclaración escrita.</td></tr><tr><td>Cabinda</td><td>Solo de día, alojamiento vigilado y sin excursiones remotas.</td></tr><tr><td>Agua</td><td>Entrar desde Pointe-Noire con el depósito lleno; Cabinda solo tiene ducha exacta y dos días de reserva.</td></tr></tbody></table></div>"
     ],
     [
       "historia",
@@ -333,7 +362,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Recarga para ducha y lavado</h3><div class=\"callout warn\"><div class=\"callout-title\">Cabinda no tiene un grifo público verificado</div><p>El marcador de la ciudad es una zona de búsqueda. Hay que cerrar alojamiento o taller con patio, manguera, vigilancia y permiso de llenado; la disponibilidad urbana no equivale a acceso público.</p></div><ul class=\"ticks\"><li>Bajada: llegar desde Pointe-Noire con los depósitos llenos; completar en Cabinda ciudad solo si el establecimiento lo confirma y salir a Yema con reserva de dos días.</li><li>Subida: recargar primero en Muanda y usar Cabinda ciudad como respaldo antes de Massabi.</li><li>En Angola continental, mantener la estrategia ya auditada: recarga pactada en alojamientos y talleres, nunca en un punto genérico del mapa.</li><li>Agua potable siempre separada y sellada. Para agua de red o pozo destinada a ducha/lavado, prefiltro; para beber, tratamiento completo.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Llenar en Pointe-Noire antes de Massabi y en Cabinda ciudad antes de Yema; no depender de los puestos fronterizos.</li><li>Llenar en Muanda antes de la subida por Yema. Conservar margen para regresar si el paso cierra.</li><li>Presupuestar combustible y tasas por separado: un pago fronterizo no incluye seguro, combustible ni gestor.</li></ul>"
+      "<h3>Agua de servicio: tres duchas concretas, ninguna recarga pública actual</h3><p>Se elimina el pin genérico de Luanda y la promesa de manguera en hoteles y gasolineras. Cabinda, Luanda y Kalandula quedan ancladas a instalaciones reales con el alcance claramente limitado.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Executive Paraíso Hotel, Cabinda · -5.554228, 12.191838</td><td><strong>Habitación, parking gratuito y seguridad 24 h; llenado no acreditado.</strong> La web oficial mantiene activos alojamiento, piscina, lavandería, parking y seguridad; Google Maps tiene centenares de reseñas en este punto. <a href=\"https://www.ephotel.co.ao/\" target=\"_blank\" rel=\"noopener\">hotel oficial</a> · <a href=\"https://www.google.com/maps?q=-5.5542279,12.1918382\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Base concreta para ducha y noche vigilada entre Massabi y Yema. Solicitar por escrito cualquier llenado; la piscina y el agua del hotel no autorizan una manguera.</td></tr><tr><td>Luanda's Naval Club · -8.798900, 13.224900</td><td><strong>Duchas para overlanders; sin toma de depósito.</strong> Punto creado y reseñado en abril de 2026: admite hasta diez vehículos, aseos, duchas y wifi. La misma reseña exige ya pre-reserva. <a href=\"https://park4night.com/en/place/670798\" target=\"_blank\" rel=\"noopener\">ficha y reseña</a> · <a href=\"https://www.google.com/maps?q=-8.7989,13.2249\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Apoyo principal de higiene en Luanda. Reservar antes de entrar en la ciudad; no solicitar llenado como si formara parte del estacionamiento.</td></tr><tr><td>Pousada Calandula · -9.078257, 16.001842</td><td><strong>Camping de hotel con ducha; sin agua de depósito publicada.</strong> La ficha de julio de 2025 y una reseña de agosto confirman camping en césped, aseos y duchas. <a href=\"https://park4night.com/en/place/615872\" target=\"_blank\" rel=\"noopener\">ficha y reseña</a> · <a href=\"https://www.google.com/maps?q=-9.0782573,16.0018423\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Útil en el triángulo de Malanje para ducha y pernocta. Confirmar precio, acceso y cualquier litro extra; no captar de las cascadas o piscinas naturales.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Cabinda: entrar desde los grifos del sur de Pointe-Noire con el depósito lleno. Executive Paraíso es ducha y base vigilada, no recarga confirmada.</li><li>Luanda: el Naval Club resuelve higiene previa reserva. Una antigua ficha de GIRASSOL decía haber llenado 100 l, pero llevaba más de cuatro años sin verificar y su GPS no coincide con la estación GIRASSOL de Google Maps; se descarta.</li><li>En el resto de Angola no se asigna agua a ciudades enteras. Reservar por teléfono con hoteles o talleres y conservar autonomía reforzada para Iona, Moxico y Caripande.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Llenar en Pointe-Noire antes de Massabi y en Cabinda ciudad antes de Yema; no depender de los puestos fronterizos.</li><li>Llenar en Muanda antes de la subida por Yema. Conservar margen para regresar si el paso cierra.</li><li>Presupuestar combustible y tasas por separado: un pago fronterizo no incluye seguro, combustible ni gestor.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una habitación con ducha no autoriza a llenar el depósito: hay que pactar por escrito litros, toma, precio y acceso de los dos 4x4. Llevar garrafa, manguera, adaptadores, bomba y prefiltro.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
@@ -365,7 +394,7 @@
     [
       "gpx",
       "Validación y decisiones",
-      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Cierre pendiente</th><th>Evidencia exigida</th></tr></thead><tbody><tr><td>Seguridad Cabinda</td><td>MAEC/FCDO actualizados, seguro que no excluya la provincia y contacto local del día.</td></tr><tr><td>Tasas</td><td>Confirmar vigencia 2027 y si el pase de 30 días se reutiliza tras salir y volver a entrar.</td></tr><tr><td>Importación temporal</td><td>Documento exacto en Massabi, Yema y Luvo; CPD sellado o permiso alternativo.</td></tr><tr><td>Agua</td><td>Alojamiento/taller concreto en Cabinda con permiso de manguera y fecha.</td></tr><tr><td>Carreteras</td><td>RN4 desde Pointe-Noire y Muanda–Yema tras la última lluvia.</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de no salida</div><p>Si falta cualquiera de las tres piezas —seguridad, paso abierto o carretera transitable— el convoy no abandona la última base urbana.</p></div>"
+      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Cierre pendiente</th><th>Evidencia exigida</th></tr></thead><tbody><tr><td>Seguridad Cabinda</td><td>MAEC/FCDO actualizados, seguro que no excluya la provincia y contacto local del día.</td></tr><tr><td>Tasas</td><td>Confirmar vigencia 2027 y si el pase de 30 días se reutiliza tras salir y volver a entrar.</td></tr><tr><td>Importación temporal</td><td>Documento exacto en Massabi, Yema y Luvo; CPD sellado o permiso alternativo.</td></tr><tr><td>Agua</td><td>Confirmar Executive Paraíso para ducha y noche; no contar con llenado salvo autorización escrita con litros y fecha.</td></tr><tr><td>Carreteras</td><td>RN4 desde Pointe-Noire y Muanda–Yema tras la última lluvia.</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de no salida</div><p>Si falta cualquiera de las tres piezas —seguridad, paso abierto o carretera transitable— el convoy no abandona la última base urbana.</p></div>"
     ],
     [
       "experiencias",

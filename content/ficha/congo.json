@@ -28,7 +28,7 @@
     ],
     [
       "AGUA",
-      "Sin grifos públicos verificados: recarga pactada en bases urbanas"
+      "Un punto de recarga publicado al sur de Pointe-Noire; el resto requiere cita"
     ],
     [
       "RIESGO",
@@ -148,21 +148,45 @@
       "cat": "Servicios",
       "lat": -4.7975,
       "lon": 11.8481,
-      "info": "Referencia del centro urbano, no una gasolinera, taller, hospital ni grifo concretos. Aquí debe cerrarse una base vigilada que confirme por escrito estacionamiento, reparación si hace falta y recarga de agua de servicio antes de Massabi."
+      "info": "Referencia urbana, no instalación. La recarga publicada está en el pin de tres grifos al sur de la ciudad; Palm Beach es solo apoyo de ducha. Resolver aquí taller, efectivo y víveres antes de Massabi."
     },
     {
       "name": "Ouesso · zona urbana de servicios",
       "cat": "Servicios",
       "lat": 1.6167,
       "lon": 16.05,
-      "info": "Referencia urbana, no instalación concreta. Reponer combustible, comida y agua mediante un hotel o misión que lo confirme antes de entrar en el bloque forestal."
+      "info": "Referencia urbana, no grifo. No se ha localizado una toma vehicular actual en Ouesso: entrar en el bloque forestal con autonomía o suministro pactado con el operador."
     },
     {
       "name": "Brazzaville · zona urbana de servicios",
       "cat": "Servicios",
       "lat": -4.2634,
       "lon": 15.2429,
-      "info": "Referencia de área logística, no grifo público. Concertar alojamiento con patio, combustible formal y permiso explícito para recargar el depósito de ducha y lavado."
+      "info": "Referencia del ramal secundario, no punto de agua. El Tennis Club tiene pin propio, agua y duchas publicadas, pero prohíbe perros y no convierte el ferry de Kinshasa en ruta principal."
+    },
+    {
+      "name": "Agua de servicio · tres grifos al sur de Pointe-Noire",
+      "cat": "Agua de servicio",
+      "lat": -4.91333,
+      "lon": 11.94123,
+      "info": "[RECARGA DE DEPÓSITO PUBLICADA] Tres grifos verificados en febrero de 2026. El consumo local no acredita potabilidad: pedir permiso, comprobar caudal y tratar si se usa para cocinar.",
+      "source": "https://ioverlander.com/places/c1901a0b-e464-4bc4-86e8-9e42360a8429"
+    },
+    {
+      "name": "Agua de servicio · Hotel Palm Beach (Pointe-Noire)",
+      "cat": "Agua de servicio",
+      "lat": -4.8027895,
+      "lon": 11.8391682,
+      "info": "[SOLO DUCHA DE HUÉSPED] Hotel activo con baño privado, parking y recepción 24 h. No consta toma para el vehículo; negociar cualquier volumen por separado.",
+      "source": "https://www.booking.com/hotel/cg/palm-beach.html"
+    },
+    {
+      "name": "Agua de servicio · Tennis Club (Brazzaville; alternativa)",
+      "cat": "Agua de servicio",
+      "lat": -4.2691974,
+      "lon": 15.2522223,
+      "info": "[ALTERNATIVA SECUNDARIA; AGUA Y DUCHA] Acepta vehículos grandes y tiene reseña de abril de 2026, pero prohíbe perros. Acordar litros; no implica llenado libre.",
+      "source": "https://park4night.com/en/place/609359"
     }
   ],
   "sources": [
@@ -193,6 +217,18 @@
     [
       "FCDO · aviso de viaje de Angola/Cabinda",
       "https://www.gov.uk/foreign-travel-advice/angola"
+    ],
+    [
+      "iOverlander · tres grifos al sur de Pointe-Noire",
+      "https://ioverlander.com/places/c1901a0b-e464-4bc4-86e8-9e42360a8429"
+    ],
+    [
+      "Booking · Hotel Palm Beach",
+      "https://www.booking.com/hotel/cg/palm-beach.html"
+    ],
+    [
+      "park4night · Tennis Club de Brazzaville",
+      "https://park4night.com/en/place/609359"
     ]
   ],
   "sources_note": "Prioridad a organismos oficiales. Los relatos de carretera solo se usan como evidencia secundaria del firme y los tiempos; las tasas de pasajeros nunca se convierten en tasas del vehículo.",
@@ -203,7 +239,7 @@
     [
       "resumen",
       "Resumen operativo",
-      "<p>El país conserva su gran parada en <strong>Odzala-Kokoua</strong>, pero cambia la salida al sur. Después de Brazzaville, la bajada continúa por la RN1 hacia Dolisie y Pointe-Noire y enlaza con la RN4 hasta <strong>Tchiamba-Nzassi/Massabi</strong>. Desde allí se atraviesa Cabinda por carretera hasta Yema y se entra en RD Congo por Muanda. En la subida se repite este eje en sentido inverso. El ferry Brazzaville–Kinshasa queda documentado como alternativa, no como itinerario previsto.</p><div class=\"callout ok\"><div class=\"callout-title\">Qué está demostrado</div><p>Massabi es un puesto terrestre activo con los organismos fronterizos necesarios y tráfico documentado. Lo que no está publicado es un tarifario completo para dos vehículos particulares extranjeros: cualquier cifra de transporte colectivo se excluye del presupuesto del coche.</p></div><div class=\"callout warn\"><div class=\"callout-title\">Condición de seguridad</div><p>Evitar el ferry reduce un problema logístico y económico, pero obliga a atravesar Cabinda. La ruta solo se ejecuta si los avisos consulares, el seguro y un contacto local confirman el corredor Massabi–Cabinda–Yema; de lo contrario se activa el plan secundario.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Decisión vigente</th></tr></thead><tbody><tr><td>Salida y entrada sur</td><td>Massabi por carretera, en ambos sentidos.</td></tr><tr><td>Ferry</td><td>Alternativa secundaria, capa apagada por defecto.</td></tr><tr><td>RN4</td><td>Asfalto existente, pero con degradación severa publicada en 2025; calcular con margen y luz.</td></tr><tr><td>Visado</td><td>Sello físico tramitado mediante París; pedir una solución que cubra dos entradas.</td></tr><tr><td>Agua</td><td>Nada se presenta como grifo confirmado: recarga acordada en Pointe-Noire, Brazzaville u Ouesso.</td></tr></tbody></table></div>"
+      "<p>El país conserva su gran parada en <strong>Odzala-Kokoua</strong>, pero cambia la salida al sur. Después de Brazzaville, la bajada continúa por la RN1 hacia Dolisie y Pointe-Noire y enlaza con la RN4 hasta <strong>Tchiamba-Nzassi/Massabi</strong>. Desde allí se atraviesa Cabinda por carretera hasta Yema y se entra en RD Congo por Muanda. En la subida se repite este eje en sentido inverso. El ferry Brazzaville–Kinshasa queda documentado como alternativa, no como itinerario previsto.</p><div class=\"callout ok\"><div class=\"callout-title\">Qué está demostrado</div><p>Massabi es un puesto terrestre activo con los organismos fronterizos necesarios y tráfico documentado. Lo que no está publicado es un tarifario completo para dos vehículos particulares extranjeros: cualquier cifra de transporte colectivo se excluye del presupuesto del coche.</p></div><div class=\"callout warn\"><div class=\"callout-title\">Condición de seguridad</div><p>Evitar el ferry reduce un problema logístico y económico, pero obliga a atravesar Cabinda. La ruta solo se ejecuta si los avisos consulares, el seguro y un contacto local confirman el corredor Massabi–Cabinda–Yema; de lo contrario se activa el plan secundario.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Decisión vigente</th></tr></thead><tbody><tr><td>Salida y entrada sur</td><td>Massabi por carretera, en ambos sentidos.</td></tr><tr><td>Ferry</td><td>Alternativa secundaria, capa apagada por defecto.</td></tr><tr><td>RN4</td><td>Asfalto existente, pero con degradación severa publicada en 2025; calcular con margen y luz.</td></tr><tr><td>Visado</td><td>Sello físico tramitado mediante París; pedir una solución que cubra dos entradas.</td></tr><tr><td>Agua</td><td>Recarga publicada en tres grifos al sur de Pointe-Noire; Brazzaville solo aporta una ducha secundaria y Ouesso no tiene toma exacta.</td></tr></tbody></table></div>"
     ],
     [
       "historia",
@@ -218,7 +254,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Recarga para ducha y lavado</h3><div class=\"callout warn\"><div class=\"callout-title\">Sin puntos públicos verificados</div><p>No se ha identificado un grifo público mantenido y accesible a un vehículo en el corredor. Los marcadores del mapa son zonas de servicio, nunca promesas de agua.</p></div><ul class=\"ticks\"><li>Pointe-Noire: cerrar un hotel, campamento o taller con patio que autorice manguera y confirme presión/calidad. Es la recarga completa obligatoria antes de Massabi.</li><li>Brazzaville, Ouesso y Owando: misma estrategia; pedir permiso, confirmar que el agua no es salobre y usar filtro de sedimentos al llenar.</li><li>Odzala y pistas forestales: solo usar agua facilitada por el campamento u operador. Si procede de pozo o río, filtrar y desinfectar; no llenar a ciegas.</li><li>Mantener separada el agua potable: garrafas selladas para beber y cocinar; el depósito de servicio no se declara potable por haber salido de una manguera.</li><li>Entrar en Cabinda con depósito de servicio lleno y reserva mínima de dos días por posibles demoras en dos fronteras consecutivas.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Llenar en Pointe-Noire y no depender de encontrar combustible inmediatamente en Massabi.</li><li>En el norte, repostar formalmente en Ouesso y cada capital de departamento; para Odzala, obedecer la autonomía exigida por el operador.</li><li>Cualquier combustible de bidón se filtra; no se promete disponibilidad por la presencia de un núcleo urbano en el mapa.</li></ul>"
+      "<h3>Agua de servicio: una recarga publicada y dos duchas</h3><p>La ruta principal obtiene por fin un punto físico antes de Massabi. Pointe-Noire, Ouesso y Brazzaville dejan de funcionar como promesas urbanas: solo cuentan las instalaciones siguientes.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Tres grifos al sur de Pointe-Noire · -4.913330, 11.941230</td><td><strong>Recarga de depósito publicada.</strong> iOverlander describe tres grifos, uso local del agua y una verificación de febrero de 2026. El testimonio no equivale a análisis de potabilidad. <a href=\"https://ioverlander.com/places/c1901a0b-e464-4bc4-86e8-9e42360a8429\" target=\"_blank\" rel=\"noopener\">ficha y última verificación</a> · <a href=\"https://www.google.com/maps?q=-4.91333,11.94123\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Punto principal de servicio antes de Massabi. Comprobar caudal, pedir permiso local, llenar por garrafas si no entra la manguera y tratar el agua si alcanza el circuito de cocina.</td></tr><tr><td>Hotel Palm Beach, Pointe-Noire · -4.802790, 11.839168</td><td><strong>Ducha de habitación y parking; llenado no acreditado.</strong> La oferta 2026 publica baño privado, parking gratuito y recepción 24 h. Es un respaldo de higiene, no un área camper. <a href=\"https://www.booking.com/hotel/cg/palm-beach.html\" target=\"_blank\" rel=\"noopener\">servicios actuales</a> · <a href=\"https://www.google.com/maps?q=-4.8027895,11.8391682\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Reservar y confirmar acceso de ambos 4x4. Solo negociar agua si fallan los grifos del sur; no asumir manguera por existir piscina o jardín.</td></tr><tr><td>Tennis Club, Brazzaville · -4.269197, 15.252222</td><td><strong>Agua y duchas en la alternativa secundaria.</strong> La ficha de 2025 admite vehículos grandes, marca agua y duchas y tiene reseña de abril de 2026. Prohíbe perros. <a href=\"https://park4night.com/en/place/609359\" target=\"_blank\" rel=\"noopener\">ficha y reseña</a> · <a href=\"https://www.google.com/maps?q=-4.2691974,15.2522223\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Solo para el ramal secundario Brazzaville–Kinshasa y únicamente si resuelven el perro. Acordar litros; el icono de agua no demuestra llenado libre.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Bajada: completar en los grifos al sur de Pointe-Noire antes de Massabi; Cabinda no ofrece después una recarga vehicular confirmada.</li><li>Subida: entrar desde Cabinda con margen y comprobar los mismos grifos antes de consumir la reserva. Palm Beach solo resuelve ducha.</li><li>Ouesso, Owando y el eje de Odzala siguen sin toma exacta. La expedición forestal requiere autonomía o un suministro pactado con el operador.</li><li>El Tennis Club no convierte Brazzaville en el corredor principal: queda documentado exclusivamente para el ramal secundario del ferry.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Llenar en Pointe-Noire y no depender de encontrar combustible inmediatamente en Massabi.</li><li>En el norte, repostar formalmente en Ouesso y cada capital de departamento; para Odzala, obedecer la autonomía exigida por el operador.</li><li>Cualquier combustible de bidón se filtra; no se promete disponibilidad por la presencia de un núcleo urbano en el mapa.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una habitación con ducha no autoriza a llenar el depósito: hay que pactar por escrito litros, toma, precio y acceso de los dos 4x4. Llevar garrafa, manguera, adaptadores, bomba y prefiltro.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
@@ -250,7 +286,7 @@
     [
       "gpx",
       "Validación y decisiones",
-      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Cierre pendiente</th><th>Evidencia exigida</th></tr></thead><tbody><tr><td>Massabi</td><td>Confirmación de apertura, horarios, turismos extranjeros, CPD/importación y tasas con recibo.</td></tr><tr><td>RN4</td><td>Estado de los últimos kilómetros comunicado desde Pointe-Noire en las 24–48 h previas.</td></tr><tr><td>Visado</td><td>Documento físico con dos entradas y fechas compatibles.</td></tr><tr><td>Cabinda</td><td>Seguro válido + aviso consular revisado + contacto local que confirme Massabi–Yema.</td></tr><tr><td>Agua</td><td>Nombre de establecimiento, persona que autoriza y fecha; si falta, el punto sigue como no verificado.</td></tr><tr><td>Socambo</td><td>Barcaza, capacidad, aduana y horario; Ntam queda como plan B de salida norte.</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Regla</div><p>Ningún comentario antiguo de un viajero sustituye la validación oficial y local de 2027.</p></div>"
+      "<div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Cierre pendiente</th><th>Evidencia exigida</th></tr></thead><tbody><tr><td>Massabi</td><td>Confirmación de apertura, horarios, turismos extranjeros, CPD/importación y tasas con recibo.</td></tr><tr><td>RN4</td><td>Estado de los últimos kilómetros comunicado desde Pointe-Noire en las 24–48 h previas.</td></tr><tr><td>Visado</td><td>Documento físico con dos entradas y fechas compatibles.</td></tr><tr><td>Cabinda</td><td>Seguro válido + aviso consular revisado + contacto local que confirme Massabi–Yema.</td></tr><tr><td>Agua</td><td>Comprobar los tres grifos al sur de Pointe-Noire; para cualquier alternativa, exigir nombre, persona que autoriza, litros y fecha.</td></tr><tr><td>Socambo</td><td>Barcaza, capacidad, aduana y horario; Ntam queda como plan B de salida norte.</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Regla</div><p>Ningún comentario antiguo de un viajero sustituye la validación oficial y local de 2027.</p></div>"
     ],
     [
       "experiencias",

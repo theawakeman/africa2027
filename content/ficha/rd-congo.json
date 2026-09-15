@@ -28,7 +28,7 @@
     ],
     [
       "AGUA",
-      "Muanda, Boma y Matadi: recarga pactada, ningún grifo público supuesto"
+      "Muanda: dos apoyos exactos; llenado solo con permiso escrito"
     ],
     [
       "RIESGO",
@@ -162,21 +162,37 @@
       "cat": "Servicios",
       "lat": -5.9282219,
       "lon": 12.378028,
-      "info": "Referencia urbana, no un surtidor, taller o grifo. Concertar base vigilada, combustible y recarga de agua de servicio antes de Yema."
+      "info": "Referencia urbana, no grifo. Résidence Walter y Atlantic View tienen pines propios: ambos resuelven ducha; solo Walter garantiza agua y cualquier llenado exige permiso escrito."
     },
     {
       "name": "Boma · zona urbana de servicios",
       "cat": "Servicios",
       "lat": -5.8594059,
       "lon": 13.0559152,
-      "info": "Referencia urbana. Parada histórica y posible respaldo de alojamiento, combustible y agua solo tras confirmación concreta."
+      "info": "Referencia urbana e histórica. No se ha verificado una toma accesible al vehículo; usarla para combustible o alojamiento solo tras confirmar el establecimiento concreto."
     },
     {
       "name": "Matadi · zona urbana de servicios",
       "cat": "Servicios",
       "lat": -5.8249588,
       "lon": 13.4342982,
-      "info": "Referencia del eje junto al puente, no una instalación de agua. Principal base de talleres, banco, hospital y suministro del tránsito por Kongo Central."
+      "info": "Referencia del eje junto al puente, no instalación de agua. Es la principal base de talleres, banco y hospital del tránsito por Kongo Central; el llenado requiere cita privada identificada."
+    },
+    {
+      "name": "Agua de servicio · Résidence Walter (Muanda)",
+      "cat": "Agua de servicio",
+      "lat": -5.9385726,
+      "lon": 12.3613384,
+      "info": "[AGUA GARANTIZADA Y DUCHA; DEPÓSITO CONDICIONAL] Alojamiento con agua y parking seguro publicados. Reservar y acordar por escrito litros, toma y acceso de los dos 4x4.",
+      "source": "https://www.residence-walter.ch/index.html"
+    },
+    {
+      "name": "Agua de servicio · Hotel Atlantic View (Muanda)",
+      "cat": "Agua de servicio",
+      "lat": -5.9331942,
+      "lon": 12.3421481,
+      "info": "[SOLO DUCHA DE HUÉSPED] Hotel activo con ducha y parking privado en 2026. No consta toma para el vehículo; cualquier llenado requiere acuerdo separado.",
+      "source": "https://www.booking.com/hotel/cd/atlantic-view-muanda.html"
     }
   ],
   "sources": [
@@ -211,6 +227,14 @@
     [
       "FCDO · aviso de viaje de Angola/Cabinda",
       "https://www.gov.uk/foreign-travel-advice/angola"
+    ],
+    [
+      "Résidence Walter · sitio oficial",
+      "https://www.residence-walter.ch/index.html"
+    ],
+    [
+      "Booking · Hotel Atlantic View Muanda",
+      "https://www.booking.com/hotel/cd/atlantic-view-muanda.html"
     ]
   ],
   "sources_note": "La ficha distingue puesto activo, carretera transitable y corredor seguro: ninguna de esas tres condiciones prueba automáticamente las otras dos.",
@@ -236,7 +260,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Recarga para ducha y lavado</h3><div class=\"callout warn\"><div class=\"callout-title\">No hay grifos públicos confirmados</div><p>Los pines de Muanda, Boma y Matadi son zonas logísticas. Solo se convierten en punto de recarga cuando un establecimiento concreto autoriza el llenado y confirma que hay agua ese día.</p></div><ul class=\"ticks\"><li>Muanda: recarga completa antes de Yema en ambos sentidos. Buscar hotel o misión con patio, manguera y vigilancia; registrar nombre y contacto.</li><li>Matadi: principal respaldo del eje. Llenar a través de alojamiento o taller de confianza, usando prefiltro si el agua tiene sedimento.</li><li>Boma: respaldo, no garantía. Preguntar antes y no bloquear el viaje esperando una fuente que solo figura en reseñas antiguas.</li><li>Separar agua potable sellada del depósito de servicio. Ningún agua de red o pozo se bebe sin tratamiento completo.</li><li>Transportar reserva de dos días desde Cabinda/Muanda para absorber cierres de Yema, averías o barro.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Llenar en Muanda y Matadi en estaciones formales; repostar de nuevo antes de Lufu aunque la distancia sea corta.</li><li>No usar el centroide de una ciudad como prueba de surtidor abierto. Confirmar estación y disponibilidad el mismo día.</li><li>Billetes pequeños, filtro para trasvase y autonomía suficiente para volver a la última ciudad si una frontera cierra.</li></ul>"
+      "<h3>Agua de servicio: dos apoyos concretos en Muanda</h3><p>Se sustituyen los centros urbanos de Muanda, Boma y Matadi por dos establecimientos reales. Ambos resuelven ducha; ninguno publica llenado de depósito con manguera.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Résidence Walter, Muanda · -5.938573, 12.361338</td><td><strong>Agua garantizada, baño y parking seguro; depósito condicionado.</strong> La web oficial garantiza agua y electricidad y publica aparcamiento privado seguro. Google Maps mantiene reseñas recientes en el lugar exacto. <a href=\"https://www.residence-walter.ch/index.html\" target=\"_blank\" rel=\"noopener\">web oficial</a> · <a href=\"https://www.google.com/maps?q=-5.9385726,12.3613384\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Primera llamada para el cruce de Yema: reservar y pedir por escrito litros, toma y acceso de los dos 4x4. La garantía de agua del alojamiento no incluye el depósito.</td></tr><tr><td>Hotel Atlantic View, Muanda · -5.933194, 12.342148</td><td><strong>Ducha y parking privado; depósito no acreditado.</strong> La oferta vigente en 2026 publica baño con ducha y aparcamiento privado gratuito; Google Maps sitúa el hotel en Avenue de la Mission. <a href=\"https://www.booking.com/hotel/cd/atlantic-view-muanda.html\" target=\"_blank\" rel=\"noopener\">servicios actuales</a> · <a href=\"https://www.google.com/maps?q=-5.9331942,12.3421481\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Respaldo de Résidence Walter para higiene o estancia. Consultar llenado como petición separada; sin confirmación, salir hacia Yema con el agua ya resuelta.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Bajada: desde Yema, cerrar en Muanda la ducha y la posible recarga antes de continuar a Boma–Matadi–Lufu. Ninguno de los dos hoteles es un grifo público.</li><li>Subida: Muanda es la última oportunidad negociada antes de Cabinda; obtener respuesta escrita y salir con dos días de reserva.</li><li>Boma y Matadi quedan sin pin de agua. Sus hoteles y talleres son opciones a contactar, no servicios confirmados.</li><li>No utilizar el Congo, estuarios o fuentes sin control como suministro ordinario. El riesgo microbiológico y el sedimento exigen tratamiento completo.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Llenar en Muanda y Matadi en estaciones formales; repostar de nuevo antes de Lufu aunque la distancia sea corta.</li><li>No usar el centroide de una ciudad como prueba de surtidor abierto. Confirmar estación y disponibilidad el mismo día.</li><li>Billetes pequeños, filtro para trasvase y autonomía suficiente para volver a la última ciudad si una frontera cierra.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una habitación con ducha no autoriza a llenar el depósito: hay que pactar por escrito litros, toma, precio y acceso de los dos 4x4. Llevar garrafa, manguera, adaptadores, bomba y prefiltro.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

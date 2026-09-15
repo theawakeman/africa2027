@@ -190,18 +190,12 @@
       "info": "Estaciones formales y buena oferta en todo el eje Yaundé-Foumban-Bafoussam-Dschang-Nkongsamba-Duala de la subida; sin tramos comprometidos."
     },
     {
-      "name": "Agua potable y de uso general · Duala y Yaundé",
-      "cat": "Agua potable",
-      "lat": 4.0483,
-      "lon": 9.7043,
-      "info": "Agua embotellada (Tangui, Supermont) sin problema en supermercados de las grandes ciudades; estaciones de servicio, hoteles y campamentos de Limbe, Kribi, Duala, Yaundé y Bafoussam permiten llenar el depósito de uso general con manguera."
-    },
-    {
-      "name": "Agua de uso general · Kribi (proveedor por confirmar)",
-      "cat": "Agua potable",
-      "lat": 2.9369,
-      "lon": 9.9096,
-      "info": "El pin representa Kribi, no un grifo concreto ni Sangmélima. Antes de contar con esta recarga hay que identificar un hotel, camping o estación que autorice llenar el depósito de ducha y limpieza. Cualquier agua de pozo o río debe filtrarse y desinfectarse; no se considera potable por defecto."
+      "name": "Agua de servicio · Méhéba Les Vagues Bleues (Kribi)",
+      "cat": "Agua de servicio",
+      "lat": 2.8360192,
+      "lon": 9.8854993,
+      "info": "[DUCHA CONDICIONADA; SIN LLENADO] La ficha de 2024 sugiere una ducha exterior, pero no tiene reseñas ni acredita toma para el vehículo. Contactar antes y no depender de ella.",
+      "source": "https://park4night.com/es/place/490765"
     }
   ],
   "sources": [
@@ -320,6 +314,14 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "park4night · Méhéba Les Vagues Bleues",
+      "https://park4night.com/es/place/490765"
+    ],
+    [
+      "Mount Cameroon National Park · acceso y tarifas",
+      "https://mtcameroonnationalpark.org/visit-the-park/"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 12 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. Las dos decisiones críticas —el tránsito por la región Suroeste y el paso de Ntam hacia el Congo— deben revalidarse activamente antes del viaje, con información local y no solo con avisos internacionales.",
@@ -345,7 +347,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Duala, Yaundé, Bafoussam y Bertoua: agua embotellada (Tangui, Supermont) sin problema en supermercados; estaciones de servicio y hoteles permiten llenar el depósito de uso general con manguera.</li><li>Limbe y Kribi: alojamientos de playa con manguera y agua corriente; es donde conviene dejar los depósitos al 100 % antes del interior.</li><li>Sangmélima: última recarga fiable antes del corredor Ketta-Djoum. En Djoum, Mintom y Ntam el agua es de pozo o de río — tratar sin excepción.</li><li>Sureste forestal (Moloundou, Mambélé, Yokadouma): agua de pozo o de río. Filtro mecánico más tratamiento químico o ebullición, siempre. La humedad ambiental es altísima pero el agua potable es escasa.</li><li>En temporada de lluvias la recogida de agua de lluvia con lona es una opción real y rápida en el sureste, pero filtrar igualmente.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Eje costero y central (Ekok → Limbe → Duala → Kribi → Ebolowa → Sangmélima): estaciones formales suficientes (Tradex, TotalEnergies, Oryx, Neptune) y sin ningún gap de 500 km. Repostar a fondo en Duala, que es la mejor calidad del país.</li><li>AVISO — bajada: a partir de Sangmélima no hay garantía. Djoum y Mintom tienen oferta irregular, a menudo en bidones, y Ntam no tiene nada. Planificar autonomía real de Sangmélima a Ouesso (Congo), del orden de 600 km, con garrafas llenas.</li><li>AVISO — subida: entre Moloundou y Bertoua (~500 km) el combustible formal falla con frecuencia y se compra a los madereros en bidón. Entrar en Camerún con los depósitos llenos desde Ouesso y llevar garrafas para todo el tramo.</li><li>Repostar en Nigeria (Calabar/Ikom) antes de Ekok: en Mamfe la oferta puede estar interrumpida por la situación de seguridad y no se debe depender de encontrar combustible dentro de la zona de conflicto.</li><li>Filtro de embudo obligatorio fuera de Duala y Yaundé; el gasóleo de bidón del sureste puede traer agua y sedimentos.</li><li>Eje oeste de la subida (Bertoua → Yaundé → Foumban → Bafoussam → Dschang → Nkongsamba → Duala): estaciones formales en todas las ciudades, sin tramos comprometidos.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: una ducha localizada, ninguna recarga acreditada</h3><p>Se eliminan los pines urbanos de Duala/Yaundé y Kribi y la afirmación de que hoteles, campamentos y gasolineras permiten llenar con manguera. No se ha localizado una toma vehicular actual que sostenga esa promesa.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Méhéba Les Vagues Bleues, Kribi · 2.836019, 9.885499</td><td><strong>Ducha exterior sugerida; llenado no acreditado.</strong> La ficha de abril de 2024 describe una ducha de jardín en el alojamiento, pero no tiene reseñas en la plataforma ni promete agua para el depósito. El establecimiento sí coincide con Google Maps. <a href=\"https://park4night.com/es/place/490765\" target=\"_blank\" rel=\"noopener\">ficha original</a> · <a href=\"https://www.google.com/maps?q=2.8360192,9.8854993\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Contactar antes y usarlo solo para higiene si el alojamiento lo autoriza. No llegar a Kribi contando con una manguera o un volumen determinado.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Resolver el depósito mediante una cita privada antes de abandonar Duala/Yaundé y conservar margen hasta Congo; ninguna ciudad es un punto de agua.</li><li>La web oficial del Monte Camerún anuncia una ducha para quien acampa dentro del producto de trekking, pero también indica que el parque solo es accesible a pie y que los vehículos no pueden entrar. Por eso no se convierte su oficina de Buea en un falso punto camper.</li><li>No planificar captación rutinaria en ríos, pozos o lluvia del sureste. Si una emergencia obliga a usarla, sedimentar, filtrar y desinfectar.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Eje costero y central (Ekok → Limbe → Duala → Kribi → Ebolowa → Sangmélima): estaciones formales suficientes (Tradex, TotalEnergies, Oryx, Neptune) y sin ningún gap de 500 km. Repostar a fondo en Duala, que es la mejor calidad del país.</li><li>AVISO — bajada: a partir de Sangmélima no hay garantía. Djoum y Mintom tienen oferta irregular, a menudo en bidones, y Ntam no tiene nada. Planificar autonomía real de Sangmélima a Ouesso (Congo), del orden de 600 km, con garrafas llenas.</li><li>AVISO — subida: entre Moloundou y Bertoua (~500 km) el combustible formal falla con frecuencia y se compra a los madereros en bidón. Entrar en Camerún con los depósitos llenos desde Ouesso y llevar garrafas para todo el tramo.</li><li>Repostar en Nigeria (Calabar/Ikom) antes de Ekok: en Mamfe la oferta puede estar interrumpida por la situación de seguridad y no se debe depender de encontrar combustible dentro de la zona de conflicto.</li><li>Filtro de embudo obligatorio fuera de Duala y Yaundé; el gasóleo de bidón del sureste puede traer agua y sedimentos.</li><li>Eje oeste de la subida (Bertoua → Yaundé → Foumban → Bafoussam → Dschang → Nkongsamba → Duala): estaciones formales en todas las ciudades, sin tramos comprometidos.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una habitación con ducha no autoriza a llenar el depósito: hay que pactar por escrito litros, toma, precio y acceso de los dos 4x4. Llevar garrafa, manguera, adaptadores, bomba y prefiltro.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

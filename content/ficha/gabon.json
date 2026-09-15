@@ -180,11 +180,20 @@
       "info": "Las dos plazas del interior. Entre Makokou e Ivindo, y en las mesetas Batéké, no hay suministro: entrar con garrafas llenas."
     },
     {
-      "name": "Agua potable y de uso general · Libreville",
-      "cat": "Agua potable",
-      "lat": 0.4162,
-      "lon": 9.4673,
-      "info": "Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Libreville, Lambaréné y Franceville permiten llenar el depósito de uso general con manguera."
+      "name": "Agua de servicio · Hotel Hibiscus Blvd Triomphal",
+      "cat": "Agua de servicio",
+      "lat": 0.4163639,
+      "lon": 9.4495445,
+      "info": "[SOLO DUCHA DE HUÉSPED] Hotel activo con baño o ducha y aparcamiento privado publicados. No consta toma ni llenado del vehículo; cualquier volumen se acuerda aparte.",
+      "source": "https://www.booking.com/hotel/ga/hibiscus-blvd-triomphal.html"
+    },
+    {
+      "name": "Agua de servicio · Lopé Hotel",
+      "cat": "Agua de servicio",
+      "lat": -0.0991344,
+      "lon": 11.5957689,
+      "info": "[SOLO HIGIENE DE HUÉSPED] Hotel del parque con web y temporada 2026 activas. No consta toma para vehículos: reservar, confirmar aparcamiento y no pedir llenado como servicio incluido.",
+      "source": "https://www.lopehotel.com/fr"
     }
   ],
   "sources": [
@@ -295,6 +304,14 @@
     [
       "Tracks4Africa · cartografía y puntos overland de África",
       "https://tracks4africa.co.za/"
+    ],
+    [
+      "Booking · Hotel Hibiscus Blvd Triomphal",
+      "https://www.booking.com/hotel/ga/hibiscus-blvd-triomphal.html"
+    ],
+    [
+      "Lopé Hotel · sitio oficial",
+      "https://www.lopehotel.com/fr"
     ]
   ],
   "sources_note": "Última revisión de esta versión: 12 de septiembre de 2026. Ficha de un país EXCLUIDO de la ruta fija, mantenida como documentación. No es una autorización de entrada ni una guía de navegación.",
@@ -320,7 +337,7 @@
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Libreville y Lambaréné: agua embotellada sin problema en supermercados.</li><li>Recarga del depósito de uso general (ducha, aseo, limpieza): estaciones de servicio y hoteles de Libreville, Lambaréné, Mouila y Franceville permiten llenar con manguera; confirmar en recepción.</li><li>Este forestal y mesetas Batéké: sin garantía de suministro tratado. Salir con los depósitos al 100% y con capacidad de filtrado.</li><li>Nunca beber de ríos ni lagunas sin filtrar y tratar.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Eje oeste (N1), sin hueco relevante: Bitam → Oyem (~100 km) → Mitzic (~90 km) → Libreville (~350 km) → Lambaréné (~250 km) → Mouila (~180 km) → Ndendé (~70 km) → Doussala (~50 km), con estaciones formales en cada núcleo.</li><li>Eje este, mucho más delicado: entre Makokou y el Ivindo, y en las mesetas Batéké, no hay suministro. Repostar a fondo en Makokou y en Franceville y llevar garrafas.</li><li>Repostar siempre a fondo en Libreville: mejor oferta y mejor calidad del país (Total, Petro Gabon).</li><li>Mayumba es la última plaza formal antes de la frontera congoleña en el corredor oeste: confirmar disponibilidad real antes de contar con ella.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua de servicio: dos duchas de alojamiento, ninguna toma vehicular</h3><p>Se retira el pin genérico de Libreville y la promesa de manguera en hoteles y estaciones. Los dos apoyos siguientes son lugares reales y actuales, pero solo resuelven higiene mediante estancia.</p><div class=\"tblwrap\"><table><thead><tr><th>Punto exacto</th><th>Qué está acreditado</th><th>Decisión operativa</th></tr></thead><tbody><tr><td>Hotel Hibiscus Blvd Triomphal, Libreville · 0.416364, 9.449545</td><td><strong>Ducha de habitación y aparcamiento privado; depósito no acreditado.</strong> La oferta vigente en 2026 publica baño o ducha y aparcamiento privado gratuito. Tiene centenares de reseñas, pero no ofrece servicio camper. <a href=\"https://www.booking.com/hotel/ga/hibiscus-blvd-triomphal.html\" target=\"_blank\" rel=\"noopener\">servicios actuales</a> · <a href=\"https://www.google.com/maps?q=0.4163639,9.4495445\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Opción urbana para ducha con habitación pagada. Consultar por separado si aceptan los dos coches y un llenado limitado; sin respuesta afirmativa, el depósito no se toca.</td></tr><tr><td>Lopé Hotel, parque de la Lopé · -0.099134, 11.595769</td><td><strong>Alojamiento operativo; solo higiene de huésped.</strong> La web oficial de 2026 anuncia apertura de temporada el 1 de junio y reservas directas. Google Maps sitúa el hotel real junto al Ogooué; no consta toma para vehículos. <a href=\"https://www.lopehotel.com/fr\" target=\"_blank\" rel=\"noopener\">hotel oficial</a> · <a href=\"https://www.google.com/maps?q=-0.0991344,11.5957689\" target=\"_blank\" rel=\"noopener\">GPS comprobado</a></td><td>Reservar la estancia y preguntar por estacionamiento antes de desviarse. No asociar el río, la piscina ni el baño de la habitación con agua disponible para el depósito.</td></tr></tbody></table></div><h3>Plan de tramo</h3><ul class=\"ticks\"><li>Libreville y Lopé solo resuelven ducha; entrar en Gabón con autonomía de agua de servicio y una cita concreta si se necesita llenar.</li><li>Lambaréné, Mouila, Makokou y Franceville quedan sin pin: se puede comprar agua sellada, pero no se ha verificado una toma accesible al vehículo.</li><li>No captar de los ríos Ogooué, Ivindo ni lagunas como operación ordinaria. Las expediciones a parques deben suministrar su propia agua o la del operador.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Eje oeste (N1), sin hueco relevante: Bitam → Oyem (~100 km) → Mitzic (~90 km) → Libreville (~350 km) → Lambaréné (~250 km) → Mouila (~180 km) → Ndendé (~70 km) → Doussala (~50 km), con estaciones formales en cada núcleo.</li><li>Eje este, mucho más delicado: entre Makokou y el Ivindo, y en las mesetas Batéké, no hay suministro. Repostar a fondo en Makokou y en Franceville y llevar garrafas.</li><li>Repostar siempre a fondo en Libreville: mejor oferta y mejor calidad del país (Total, Petro Gabon).</li><li>Mayumba es la última plaza formal antes de la frontera congoleña en el corredor oeste: confirmar disponibilidad real antes de contar con ella.</li></ul><div class=\"callout warn\"><div class=\"callout-title\">Regla operativa</div><p><strong>Agua de servicio no significa agua potable.</strong> Para beber y cocinar, usar agua sellada o aplicar el tratamiento completo del vehículo. Una habitación con ducha no autoriza a llenar el depósito: hay que pactar por escrito litros, toma, precio y acceso de los dos 4x4. Llevar garrafa, manguera, adaptadores, bomba y prefiltro.</p></div><div class=\"callout\"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estados, reservas, higiene del depósito y protocolo de potabilización: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [

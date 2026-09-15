@@ -1534,18 +1534,11 @@
     <Point><coordinates>10.4179,5.4737,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Duala y Yaundé</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada (Tangui, Supermont) sin problema en supermercados de las grandes ciudades; estaciones de servicio, hoteles y campamentos de Limbe, Kribi, Duala, Yaundé y Bafoussam permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.0483,9.7043">Google Maps</a>]]></description>
+    <name>Agua de servicio · Méhéba Les Vagues Bleues (Kribi)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[DUCHA CONDICIONADA; SIN LLENADO] La ficha de 2024 sugiere una ducha exterior, pero no tiene reseñas ni acredita toma para el vehículo. Contactar antes y no depender de ella.<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.83602,9.8855">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>9.7043,4.0483,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Agua de uso general · Kribi (proveedor por confirmar)</name>
-    <description><![CDATA[<b>Agua potable</b><br/>El pin representa Kribi, no un grifo concreto ni Sangmélima. Antes de contar con esta recarga hay que identificar un hotel, camping o estación que autorice llenar el depósito de ducha y limpieza. Cualquier agua de pozo o río debe filtrarse y desinfectarse; no se considera potable por defecto.<br/><a href="https://theawakeman.github.io/africa2027/paises/camerun/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.9369,9.9096">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>9.9096,2.9369,0</coordinates></Point>
+    <Point><coordinates>9.8855,2.83602,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Eboro/Abang-Minko'o, cerca de Bitam (desde Camerún)</name>
@@ -1618,11 +1611,18 @@
     <Point><coordinates>13.5833,-1.6333,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Libreville</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados; estaciones de servicio y hoteles de Libreville, Lambaréné y Franceville permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.4162,9.4673">Google Maps</a>]]></description>
+    <name>Agua de servicio · Hotel Hibiscus Blvd Triomphal</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA DE HUÉSPED] Hotel activo con baño o ducha y aparcamiento privado publicados. No consta toma ni llenado del vehículo; cualquier volumen se acuerda aparte.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.41636,9.44954">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>9.4673,0.4162,0</coordinates></Point>
+    <Point><coordinates>9.44954,0.41636,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Lopé Hotel</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO HIGIENE DE HUÉSPED] Hotel del parque con web y temporada 2026 activas. No consta toma para vehículos: reservar, confirmar aparcamiento y no pedir llenado como servicio incluido.<br/><a href="https://theawakeman.github.io/africa2027/paises/gabon/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.09913,11.59577">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.59577,-0.09913,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Ntam / Souanké (desde Camerún)</name>
@@ -1668,24 +1668,45 @@
   </Placemark>
   <Placemark>
     <name>Pointe-Noire · zona urbana de servicios</name>
-    <description><![CDATA[<b>Servicios</b><br/>Referencia del centro urbano, no una gasolinera, taller, hospital ni grifo concretos. Aquí debe cerrarse una base vigilada que confirme por escrito estacionamiento, reparación si hace falta y recarga de agua de servicio antes de Massabi.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no instalación. La recarga publicada está en el pin de tres grifos al sur de la ciudad; Palm Beach es solo apoyo de ducha. Resolver aquí taller, efectivo y víveres antes de Massabi.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>11.8481,-4.7975,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Ouesso · zona urbana de servicios</name>
-    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no instalación concreta. Reponer combustible, comida y agua mediante un hotel o misión que lo confirme antes de entrar en el bloque forestal.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no grifo. No se ha localizado una toma vehicular actual en Ouesso: entrar en el bloque forestal con autonomía o suministro pactado con el operador.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>16.05,1.6167,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Brazzaville · zona urbana de servicios</name>
-    <description><![CDATA[<b>Servicios</b><br/>Referencia de área logística, no grifo público. Concertar alojamiento con patio, combustible formal y permiso explícito para recargar el depósito de ducha y lavado.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2634,15.2429">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia del ramal secundario, no punto de agua. El Tennis Club tiene pin propio, agua y duchas publicadas, pero prohíbe perros y no convierte el ferry de Kinshasa en ruta principal.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2634,15.2429">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.2429,-4.2634,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · tres grifos al sur de Pointe-Noire</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[RECARGA DE DEPÓSITO PUBLICADA] Tres grifos verificados en febrero de 2026. El consumo local no acredita potabilidad: pedir permiso, comprobar caudal y tratar si se usa para cocinar.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.91333,11.94123">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.94123,-4.91333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Hotel Palm Beach (Pointe-Noire)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA DE HUÉSPED] Hotel activo con baño privado, parking y recepción 24 h. No consta toma para el vehículo; negociar cualquier volumen por separado.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.80279,11.83917">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.83917,-4.80279,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Tennis Club (Brazzaville; alternativa)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[ALTERNATIVA SECUNDARIA; AGUA Y DUCHA] Acepta vehículos grandes y tiene reseña de abril de 2026, pero prohíbe perros. Acordar litros; no implica llenado libre.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2692,15.25222">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>15.25222,-4.2692,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera principal · Yema (entrada bajada desde Cabinda)</name>
@@ -1745,24 +1766,38 @@
   </Placemark>
   <Placemark>
     <name>Muanda · zona urbana de servicios</name>
-    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no un surtidor, taller o grifo. Concertar base vigilada, combustible y recarga de agua de servicio antes de Yema.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.92822,12.37803">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no grifo. Résidence Walter y Atlantic View tienen pines propios: ambos resuelven ducha; solo Walter garantiza agua y cualquier llenado exige permiso escrito.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.92822,12.37803">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>12.37803,-5.92822,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Boma · zona urbana de servicios</name>
-    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana. Parada histórica y posible respaldo de alojamiento, combustible y agua solo tras confirmación concreta.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.85941,13.05592">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana e histórica. No se ha verificado una toma accesible al vehículo; usarla para combustible o alojamiento solo tras confirmar el establecimiento concreto.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.85941,13.05592">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.05592,-5.85941,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Matadi · zona urbana de servicios</name>
-    <description><![CDATA[<b>Servicios</b><br/>Referencia del eje junto al puente, no una instalación de agua. Principal base de talleres, banco, hospital y suministro del tránsito por Kongo Central.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.82496,13.4343">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia del eje junto al puente, no instalación de agua. Es la principal base de talleres, banco y hospital del tránsito por Kongo Central; el llenado requiere cita privada identificada.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.82496,13.4343">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.4343,-5.82496,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Résidence Walter (Muanda)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[AGUA GARANTIZADA Y DUCHA; DEPÓSITO CONDICIONAL] Alojamiento con agua y parking seguro publicados. Reservar y acordar por escrito litros, toma y acceso de los dos 4x4.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.93857,12.36134">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.36134,-5.93857,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Hotel Atlantic View (Muanda)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA DE HUÉSPED] Hotel activo con ducha y parking privado en 2026. No consta toma para el vehículo; cualquier llenado requiere acuerdo separado.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.93319,12.34215">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.34215,-5.93319,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera principal · Massabi (entrada bajada a Cabinda)</name>
@@ -1794,7 +1829,7 @@
   </Placemark>
   <Placemark>
     <name>Cabinda ciudad · zona urbana de servicios</name>
-    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no surtidor ni grifo. Único punto lógico para alojamiento vigilado, combustible y recarga pactada de agua entre Massabi y Yema.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.55764,12.19195">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no grifo. Executive Paraíso tiene pin propio para ducha, parking y seguridad; no publica llenado de depósito. Entrar desde Pointe-Noire con el agua resuelta.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.55764,12.19195">Google Maps</a>]]></description>
     <styleUrl>#icon-servicio</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>12.19195,-5.55764,0</coordinates></Point>
@@ -1912,11 +1947,25 @@
     <Point><coordinates>12.14352,-15.20038,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Luanda</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; estaciones de servicio y hoteles de Luanda y Lobito permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.8383,13.2344">Google Maps</a>]]></description>
+    <name>Agua de servicio · Executive Paraíso Hotel (Cabinda)</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA DE HUÉSPED] Hotel real con parking gratuito y seguridad 24 h. No consta toma vehicular: reservar y pactar aparte cualquier volumen.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.55423,12.19184">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>13.2344,-8.8383,0</coordinates></Point>
+    <Point><coordinates>12.19184,-5.55423,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Luanda's Naval Club</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA; PRE-RESERVA] Punto para overlanders creado y reseñado en abril de 2026. Aseos y duchas publicados; no consta llenado del depósito.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-8.7989,13.2249">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.2249,-8.7989,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de servicio · Pousada Calandula</name>
+    <description><![CDATA[<b>Agua de servicio</b><br/>[SOLO DUCHA DE CAMPISTA] Camping de hotel con reseña de agosto de 2025, aseos y duchas. No publica toma para el vehículo; acordar cualquier litro extra.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-9.07826,16.00184">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>16.00184,-9.07826,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Noordoewer/Vioolsdrif (desde Sudáfrica)</name>
