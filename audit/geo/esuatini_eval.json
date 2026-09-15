@@ -1,0 +1,943 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Ngwenya · la mina más antigua del mundo",
+  "cat": "Patrimonio UNESCO",
+  "clase": "punto",
+  "lat": -26.2017,
+  "lon": 31.0339,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Lion Cave",
+   "kind": "historic=archaeological_site",
+   "lat": -26.19231,
+   "lon": 31.03063,
+   "d": 1.1,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lion Cave",
+    "kind": "historic=archaeological_site",
+    "lat": -26.19231,
+    "lon": 31.03063,
+    "d": 1.1,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Fábrica de vidrio de Ngwenya",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -26.2,
+  "lon": 31.0333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Ngwenya Glass",
+   "kind": "amenity=restaurant",
+   "lat": -26.22201,
+   "lon": 31.03136,
+   "d": 2.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ngwenya Glass",
+    "kind": "amenity=restaurant",
+    "lat": -26.22201,
+    "lon": 31.03136,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ngwenya Glass",
+    "kind": "craft=glaziery",
+    "lat": -26.22215,
+    "lon": 31.03141,
+    "d": 2.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ngwenya Glass",
+    "kind": "tourism=attraction",
+    "lat": -26.22223,
+    "lon": 31.03146,
+    "d": 2.5,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Reserva Natural de Malolotja",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -26.1333,
+  "lon": 31.1167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Malolotja Nature Reserve",
+   "kind": "leisure=nature_reserve",
+   "lat": -26.09331,
+   "lon": 31.09505,
+   "d": 4.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Malolotja Nature Reserve",
+    "kind": "leisure=nature_reserve",
+    "lat": -26.09331,
+    "lon": 31.09505,
+    "d": 4.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Reception Mlawula Nature Reserve",
+    "kind": "tourism=information",
+    "lat": -26.18025,
+    "lon": 31.99827,
+    "d": 88.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Malolotja Canopy Tour · la tirolina del cañón",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -26.135,
+  "lon": 31.12,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Malolotja Canopy Tour",
+   "kind": "tourism=attraction",
+   "lat": -26.11319,
+   "lon": 31.11094,
+   "d": 2.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Malolotja Canopy Tour",
+    "kind": "tourism=attraction",
+    "lat": -26.11319,
+    "lon": 31.11094,
+    "d": 2.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Presa de Maguga y el valle del Komati",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -26.0333,
+  "lon": 31.2167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Maguga Dam",
+   "kind": "waterway=dam",
+   "lat": -26.07933,
+   "lon": 31.25904,
+   "d": 6.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Maguga Dam",
+    "kind": "waterway=dam",
+    "lat": -26.07933,
+    "lon": 31.25904,
+    "d": 6.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maguga Dam Road",
+    "kind": "highway=primary",
+    "lat": -26.13177,
+    "lon": 31.23048,
+    "d": 11.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Arte rupestre de Nsangwini",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -26.0,
+  "lon": 31.2,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Nsangwini Rock Art",
+   "kind": "historic=archaeological_site",
+   "lat": -26.06963,
+   "lon": 31.29266,
+   "d": 12.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Nsangwini Rock Art",
+    "kind": "historic=archaeological_site",
+    "lat": -26.06963,
+    "lon": 31.29266,
+    "d": 12.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Nsangwini Rock Art Reception",
+    "kind": "building=yes",
+    "lat": -26.0671,
+    "lon": 31.29541,
+    "d": 12.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Cascadas de Phophonyane",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -25.95,
+  "lon": 31.2,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Phophonyane Falls Ecolodge",
+   "kind": "tourism=hotel",
+   "lat": -25.89852,
+   "lon": 31.29416,
+   "d": 11.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Phophonyane Falls Ecolodge",
+    "kind": "amenity=restaurant",
+    "lat": -25.8983,
+    "lon": 31.29473,
+    "d": 11.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Phophonyane Falls Ecolodge",
+    "kind": "tourism=hotel",
+    "lat": -25.89852,
+    "lon": 31.29416,
+    "d": 11.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Mbabane",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -26.3167,
+  "lon": 31.1333,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Swazi Plaza",
+   "kind": "shop=mall",
+   "lat": -26.32783,
+   "lon": 31.14187,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Swazi Plaza",
+    "kind": "shop=mall",
+    "lat": -26.32783,
+    "lon": 31.14187,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Plaza Tandoori",
+    "kind": "amenity=restaurant",
+    "lat": -26.32834,
+    "lon": 31.14204,
+    "d": 1.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Sibebe · el monolito de granito",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -26.2833,
+  "lon": 31.1667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Sibebe Rock",
+   "kind": "tourism=attraction",
+   "lat": -26.2636,
+   "lon": 31.16932,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sibebe Rock",
+    "kind": "tourism=attraction",
+    "lat": -26.2636,
+    "lon": 31.16932,
+    "d": 2.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Valle de Ezulwini",
+  "cat": "Cultura",
+  "clase": "area",
+  "lat": -26.4333,
+  "lon": 31.1667,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Mantenga · poblado cultural suazi y las cascadas",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -26.45,
+  "lon": 31.1833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Cultural Village Entrance",
+   "kind": "building=yes",
+   "lat": -26.44391,
+   "lon": 31.17427,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Cultural Village Entrance",
+    "kind": "building=yes",
+    "lat": -26.44391,
+    "lon": 31.17427,
+    "d": 1.1,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Swazi Cultural Village",
+    "kind": "tourism=attraction",
+    "lat": -26.44666,
+    "lon": 31.16304,
+    "d": 2.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Santuario de Vida Silvestre de Mlilwane",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -26.4691,
+  "lon": 31.1619,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mlilwane Wildlife Sanctuary",
+   "kind": "tourism=hotel",
+   "lat": -26.49131,
+   "lon": 31.18527,
+   "d": 3.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mlilwane Wildlife Sanctuary",
+    "kind": "leisure=nature_reserve",
+    "lat": -26.43534,
+    "lon": 31.1341,
+    "d": 4.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mlilwane Wildlife Sanctuary",
+    "kind": "tourism=camp_site",
+    "lat": -26.49356,
+    "lon": 31.1848,
+    "d": 3.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mlilwane Wildlife Sanctuary",
+    "kind": "tourism=hotel",
+    "lat": -26.49131,
+    "lon": 31.18527,
+    "d": 3.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Manzini",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -26.4833,
+  "lon": 31.3667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Manzini Market",
+   "kind": "amenity=marketplace",
+   "lat": -26.49926,
+   "lon": 31.37607,
+   "d": 2.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Manzini Market",
+    "kind": "amenity=marketplace",
+    "lat": -26.49926,
+    "lon": 31.37607,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Manzini Market",
+    "kind": "amenity=marketplace",
+    "lat": -26.49899,
+    "lon": 31.37595,
+    "d": 2.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Locavore Market",
+    "kind": "shop=greengrocer",
+    "lat": -26.5477,
+    "lon": 31.31995,
+    "d": 8.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Reserva de Mkhaya · el rinoceronte negro",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -26.625,
+  "lon": 31.7375,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mkhaya Pick-up Point",
+   "kind": "highway=bus_stop",
+   "lat": -26.68381,
+   "lon": 31.74678,
+   "d": 6.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mkhaya Pick-up Point",
+    "kind": "highway=bus_stop",
+    "lat": -26.68381,
+    "lon": 31.74678,
+    "d": 6.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Parque Nacional Real de Hlane",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -26.25,
+  "lon": 31.8833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Hlane Royal National Park",
+   "kind": "leisure=nature_reserve",
+   "lat": -26.26125,
+   "lon": 31.89596,
+   "d": 1.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Hlane Royal National Park",
+    "kind": "leisure=nature_reserve",
+    "lat": -26.26125,
+    "lon": 31.89596,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Hlane Royal National Park",
+    "kind": "boundary=national_park",
+    "lat": -26.26125,
+    "lon": 31.89596,
+    "d": 1.8,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Lubombo y el Shewula Mountain Camp",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -26.1333,
+  "lon": 31.95,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Shewula Mountaincamp",
+   "kind": "tourism=chalet",
+   "lat": -26.14159,
+   "lon": 32.03977,
+   "d": 9.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Shewula Mountaincamp",
+    "kind": "tourism=chalet",
+    "lat": -26.14159,
+    "lon": 32.03977,
+    "d": 9.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Ngwenya / Oshoek (con Sudáfrica, Mpumalanga)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -26.2,
+  "lon": 31.0167,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ngwenya Mine",
+   "kind": "landuse=quarry",
+   "lat": -26.19987,
+   "lon": 31.03039,
+   "d": 1.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ngwenya Mine",
+    "kind": "landuse=quarry",
+    "lat": -26.19987,
+    "lon": 31.03039,
+    "d": 1.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ngwenya Mine Road",
+    "kind": "highway=unclassified",
+    "lat": -26.21213,
+    "lon": 31.02859,
+    "d": 1.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ngwenya Glass",
+    "kind": "amenity=restaurant",
+    "lat": -26.22201,
+    "lon": 31.03136,
+    "d": 2.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Matsamo / Jeppe's Reef (con Sudáfrica, Mpumalanga)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -25.7167,
+  "lon": 31.3167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Matsamo Border Post",
+   "kind": "amenity=police",
+   "lat": -25.75053,
+   "lon": 31.46592,
+   "d": 15.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Matsamo Cultural Village",
+    "kind": "tourism=attraction",
+    "lat": -25.75004,
+    "lon": 31.46787,
+    "d": 15.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Matsamo Border Post",
+    "kind": "amenity=police",
+    "lat": -25.75053,
+    "lon": 31.46592,
+    "d": 15.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "PEP",
+    "kind": "shop=clothes",
+    "lat": -25.67788,
+    "lon": 31.51133,
+    "d": 20.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Lavumisa / Golela (con Sudáfrica, KwaZulu-Natal)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -27.3167,
+  "lon": 31.9167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Lavumisa Roundabout",
+   "kind": "landuse=grass",
+   "lat": -27.30842,
+   "lon": 31.88793,
+   "d": 3.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lavumisa",
+    "kind": "place=village",
+    "lat": -27.31092,
+    "lon": 31.88457,
+    "d": 3.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lavumisa Roundabout",
+    "kind": "landuse=grass",
+    "lat": -27.30842,
+    "lon": 31.88793,
+    "d": 3.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Lavumisa Roundabout",
+    "kind": "highway=trunk",
+    "lat": -27.30838,
+    "lon": 31.88793,
+    "d": 3.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Lomahasha / Namaacha (con Mozambique)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -25.9833,
+  "lon": 31.9833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Lomahasha",
+   "kind": "place=town",
+   "lat": -25.99007,
+   "lon": 31.99653,
+   "d": 1.5,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Lomahasha",
+    "kind": "place=town",
+    "lat": -25.99007,
+    "lon": 31.99653,
+    "d": 1.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Inkhundla Lomahasha",
+    "kind": "boundary=administrative",
+    "lat": -26.07193,
+    "lon": 32.008,
+    "d": 10.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Mhlumeni / Goba (con Mozambique)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -26.2333,
+  "lon": 31.9833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "wd",
+   "name": "Mhlumeni",
+   "kind": "",
+   "lat": -26.25,
+   "lon": 32.1,
+   "d": 11.8,
+   "match": true,
+   "id": "Q15253288"
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mhlume",
+    "kind": "place=village",
+    "lat": -26.04754,
+    "lon": 31.8156,
+    "d": 26.6,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mhlabeni",
+    "kind": "place=hamlet",
+    "lat": -27.07309,
+    "lon": 31.86203,
+    "d": 94.2,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Mhlumi",
+    "kind": "natural=peak",
+    "lat": -25.57945,
+    "lon": 31.62752,
+    "d": 80.9,
+    "match": false
+   },
+   {
+    "src": "wd",
+    "name": "Mhlumeni",
+    "kind": "",
+    "lat": -26.25,
+    "lon": 32.1,
+    "d": 11.8,
+    "match": true,
+    "id": "Q15253288"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Maputo (también embajada en Esuatini)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -25.9667,
+  "lon": 32.5833,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Mbabane Government Hospital / clínicas privadas de Ezulwini",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -26.3167,
+  "lon": 31.1333,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Mbabane, Ezulwini, Manzini, Piggs Peak, Simunye, Big Bend",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -26.4833,
+  "lon": 31.3667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mbabane Street",
+   "kind": "highway=residential",
+   "lat": -26.47753,
+   "lon": 31.30783,
+   "d": 5.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mbabane",
+    "kind": "place=city",
+    "lat": -26.32575,
+    "lon": 31.14466,
+    "d": 28.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mbabane",
+    "kind": "amenity=fire_station",
+    "lat": -26.32968,
+    "lon": 31.14116,
+    "d": 28.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mbabane Street",
+    "kind": "highway=residential",
+    "lat": -26.47753,
+    "lon": 31.30783,
+    "d": 5.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Agua potable y de uso general · Ezulwini, Mbabane, Manzini",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -26.4333,
+  "lon": 31.1667,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Ezulwini - The Gables",
+   "kind": "highway=bus_stop",
+   "lat": -26.44045,
+   "lon": 31.18774,
+   "d": 2.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Ezulwini",
+    "kind": "place=town",
+    "lat": -26.40182,
+    "lon": 31.17832,
+    "d": 3.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ezulwini - The Gables",
+    "kind": "highway=bus_stop",
+    "lat": -26.44045,
+    "lon": 31.18774,
+    "d": 2.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Ezulwini - Lugogo Sun Hotel",
+    "kind": "highway=bus_stop",
+    "lat": -26.40935,
+    "lon": 31.17391,
+    "d": 2.8,
+    "match": true
+   }
+  ]
+ }
+]

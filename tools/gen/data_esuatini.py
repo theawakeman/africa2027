@@ -188,7 +188,7 @@ HISTORIA_FUENTES = [
 ]
 
 SPEC = dict(
-    slug="esuatini", name="Esuatini", revision="12 sep 2026",
+    slug="esuatini", name="Esuatini", revision="15 sep 2026",
     sub="ALTERNATIVA — no está en la ruta fija · ENCLAVE entre Sudáfrica y Mozambique: desvío corto entre ambos",
     chips=[
         ("ESTATUS", "ALTERNATIVA — pero es el desvío MÁS BARATO en tiempo de los cuatro"),

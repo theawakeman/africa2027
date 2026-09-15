@@ -1,0 +1,614 @@
+[
+ {
+  "id": "poi-1",
+  "ph": [
+   {
+    "n": "Lion Cave",
+    "k": "historic",
+    "v": "archaeological_site",
+    "lat": -26.19231,
+    "lon": 31.03063,
+    "d": 1.1
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-2",
+  "ph": [
+   {
+    "n": "Ngwenya Glass",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": -26.22201,
+    "lon": 31.03136,
+    "d": 2.5
+   },
+   {
+    "n": "Ngwenya Glass",
+    "k": "craft",
+    "v": "glaziery",
+    "lat": -26.22215,
+    "lon": 31.03141,
+    "d": 2.5
+   },
+   {
+    "n": "Ngwenya Glass",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -26.22223,
+    "lon": 31.03146,
+    "d": 2.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-3",
+  "ph": [
+   {
+    "n": "Malolotja Nature Reserve",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -26.09331,
+    "lon": 31.09505,
+    "d": 4.9
+   },
+   {
+    "n": "Reception Mlawula Nature Reserve",
+    "k": "tourism",
+    "v": "information",
+    "lat": -26.18025,
+    "lon": 31.99827,
+    "d": 88.1
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-4",
+  "ph": [
+   {
+    "n": "Malolotja Canopy Tour",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -26.11319,
+    "lon": 31.11094,
+    "d": 2.6
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-5",
+  "ph": [
+   {
+    "n": "Maguga Dam",
+    "k": "waterway",
+    "v": "dam",
+    "lat": -26.07933,
+    "lon": 31.25904,
+    "d": 6.6
+   },
+   {
+    "n": "Maguga Dam Road",
+    "k": "highway",
+    "v": "primary",
+    "lat": -26.13177,
+    "lon": 31.23048,
+    "d": 11.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "ph": [
+   {
+    "n": "Nsangwini Rock Art",
+    "k": "historic",
+    "v": "archaeological_site",
+    "lat": -26.06963,
+    "lon": 31.29266,
+    "d": 12.1
+   },
+   {
+    "n": "Nsangwini Rock Art Reception",
+    "k": "building",
+    "v": "yes",
+    "lat": -26.0671,
+    "lon": 31.29541,
+    "d": 12.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "ph": [
+   {
+    "n": "Phophonyane Falls Ecolodge",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": -25.8983,
+    "lon": 31.29473,
+    "d": 11.1
+   },
+   {
+    "n": "Phophonyane Falls Ecolodge",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -25.89852,
+    "lon": 31.29416,
+    "d": 11.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "ph": [
+   {
+    "n": "Swazi Plaza",
+    "k": "shop",
+    "v": "mall",
+    "lat": -26.32783,
+    "lon": 31.14187,
+    "d": 1.5
+   },
+   {
+    "n": "Plaza Tandoori",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": -26.32834,
+    "lon": 31.14204,
+    "d": 1.6
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "ph": [
+   {
+    "n": "Sibebe Rock",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -26.2636,
+    "lon": 31.16932,
+    "d": 2.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-10",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "ph": [
+   {
+    "n": "Cultural Village Entrance",
+    "k": "building",
+    "v": "yes",
+    "lat": -26.44391,
+    "lon": 31.17427,
+    "d": 1.1
+   },
+   {
+    "n": "Swazi Cultural Village",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -26.44666,
+    "lon": 31.16304,
+    "d": 2.1
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "ph": [
+   {
+    "n": "Mlilwane Wildlife Sanctuary",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -26.43534,
+    "lon": 31.1341,
+    "d": 4.7
+   },
+   {
+    "n": "Mlilwane Wildlife Sanctuary",
+    "k": "tourism",
+    "v": "camp_site",
+    "lat": -26.49356,
+    "lon": 31.1848,
+    "d": 3.5
+   },
+   {
+    "n": "Mlilwane Wildlife Sanctuary",
+    "k": "tourism",
+    "v": "hotel",
+    "lat": -26.49131,
+    "lon": 31.18527,
+    "d": 3.4
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-13",
+  "ph": [
+   {
+    "n": "Manzini Market",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": -26.49926,
+    "lon": 31.37607,
+    "d": 2.0
+   },
+   {
+    "n": "Manzini Market",
+    "k": "amenity",
+    "v": "marketplace",
+    "lat": -26.49899,
+    "lon": 31.37595,
+    "d": 2.0
+   },
+   {
+    "n": "Locavore Market",
+    "k": "shop",
+    "v": "greengrocer",
+    "lat": -26.5477,
+    "lon": 31.31995,
+    "d": 8.5
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-14",
+  "ph": [
+   {
+    "n": "Mkhaya Pick-up Point",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -26.68381,
+    "lon": 31.74678,
+    "d": 6.6
+   }
+  ],
+  "wd": []
+ },
+ {
+  "id": "poi-15",
+  "ph": [
+   {
+    "n": "Hlane Royal National Park",
+    "k": "leisure",
+    "v": "nature_reserve",
+    "lat": -26.26125,
+    "lon": 31.89596,
+    "d": 1.8
+   },
+   {
+    "n": "Hlane Royal National Park",
+    "k": "boundary",
+    "v": "national_park",
+    "lat": -26.26125,
+    "lon": 31.89596,
+    "d": 1.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "ph": [
+   {
+    "n": "Shewula Mountaincamp",
+    "k": "tourism",
+    "v": "chalet",
+    "lat": -26.14159,
+    "lon": 32.03977,
+    "d": 9.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "ph": [
+   {
+    "n": "Ngwenya Mine",
+    "k": "landuse",
+    "v": "quarry",
+    "lat": -26.19987,
+    "lon": 31.03039,
+    "d": 1.4
+   },
+   {
+    "n": "Ngwenya Mine Road",
+    "k": "highway",
+    "v": "unclassified",
+    "lat": -26.21213,
+    "lon": 31.02859,
+    "d": 1.8
+   },
+   {
+    "n": "Ngwenya Glass",
+    "k": "amenity",
+    "v": "restaurant",
+    "lat": -26.22201,
+    "lon": 31.03136,
+    "d": 2.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "ph": [
+   {
+    "n": "Matsamo Cultural Village",
+    "k": "tourism",
+    "v": "attraction",
+    "lat": -25.75004,
+    "lon": 31.46787,
+    "d": 15.6
+   },
+   {
+    "n": "Matsamo Border Post",
+    "k": "amenity",
+    "v": "police",
+    "lat": -25.75053,
+    "lon": 31.46592,
+    "d": 15.4
+   },
+   {
+    "n": "PEP",
+    "k": "shop",
+    "v": "clothes",
+    "lat": -25.67788,
+    "lon": 31.51133,
+    "d": 20.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "ph": [
+   {
+    "n": "Lavumisa",
+    "k": "place",
+    "v": "village",
+    "lat": -27.31092,
+    "lon": 31.88457,
+    "d": 3.2
+   },
+   {
+    "n": "Lavumisa Roundabout",
+    "k": "landuse",
+    "v": "grass",
+    "lat": -27.30842,
+    "lon": 31.88793,
+    "d": 3.0
+   },
+   {
+    "n": "Lavumisa Roundabout",
+    "k": "highway",
+    "v": "trunk",
+    "lat": -27.30838,
+    "lon": 31.88793,
+    "d": 3.0
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "ph": [
+   {
+    "n": "Lomahasha",
+    "k": "place",
+    "v": "town",
+    "lat": -25.99007,
+    "lon": 31.99653,
+    "d": 1.5
+   },
+   {
+    "n": "Inkhundla Lomahasha",
+    "k": "boundary",
+    "v": "administrative",
+    "lat": -26.07193,
+    "lon": 32.008,
+    "d": 10.2
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "ph": [
+   {
+    "n": "Mhlume",
+    "k": "place",
+    "v": "village",
+    "lat": -26.04754,
+    "lon": 31.8156,
+    "d": 26.6
+   },
+   {
+    "n": "Mhlabeni",
+    "k": "place",
+    "v": "hamlet",
+    "lat": -27.07309,
+    "lon": 31.86203,
+    "d": 94.2
+   },
+   {
+    "n": "Mhlumi",
+    "k": "natural",
+    "v": "peak",
+    "lat": -25.57945,
+    "lon": 31.62752,
+    "d": 80.9
+   }
+  ],
+  "wd": [
+   {
+    "id": "Q15253288",
+    "l": "Mhlumeni",
+    "t": "",
+    "lat": -26.25,
+    "lon": 32.1,
+    "d": 11.8
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-6",
+  "ph": [],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "ph": [
+   {
+    "n": "Mbabane",
+    "k": "place",
+    "v": "city",
+    "lat": -26.32575,
+    "lon": 31.14466,
+    "d": 28.2
+   },
+   {
+    "n": "Mbabane",
+    "k": "amenity",
+    "v": "fire_station",
+    "lat": -26.32968,
+    "lon": 31.14116,
+    "d": 28.2
+   },
+   {
+    "n": "Mbabane Street",
+    "k": "highway",
+    "v": "residential",
+    "lat": -26.47753,
+    "lon": 31.30783,
+    "d": 5.9
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "ph": [
+   {
+    "n": "Ezulwini",
+    "k": "place",
+    "v": "town",
+    "lat": -26.40182,
+    "lon": 31.17832,
+    "d": 3.7
+   },
+   {
+    "n": "Ezulwini - The Gables",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -26.44045,
+    "lon": 31.18774,
+    "d": 2.2
+   },
+   {
+    "n": "Ezulwini - Lugogo Sun Hotel",
+    "k": "highway",
+    "v": "bus_stop",
+    "lat": -26.40935,
+    "lon": 31.17391,
+    "d": 2.8
+   }
+  ],
+  "wd": [
+   {
+    "err": "Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ }
+]

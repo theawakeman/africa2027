@@ -1,342 +1,936 @@
 [
   {
     "n": 1,
-    "name": "Butha-Buthe y la puerta norte",
+    "name": "Butha-Buthe Mountain",
     "cat": "Ciudad · servicios",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -28.7667,
-    "lon": 28.25,
-    "desc": "Primera ciudad tras el paso fronterizo de Caledonspoort y el arranque de la travesía del norte. Aquí se reposta, se compra y se decide: por un lado sube la A1 hacia los pasos de Moteng y Tlaeeng, por otro se entra a Ts'ehlanyane. El nombre significa «lugar de acostarse» y es donde Moshoeshoe I tuvo su primer asentamiento antes de mudarse a Thaba-Bosiu. Última gasolinera fiable antes de 100 km de montaña.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -28.7690886,
+    "lon": 28.2861149,
+    "desc": "Butha-Buthe Mountain fue uno de los primeros asentamientos fortificados de Moshoeshoe antes de Thaba Bosiu. El pin marca la montaña histórica, no el centro de la ciudad.",
+    "credit": "Google Maps · autor visible en la ficha",
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRmrYUwHD3G76RfSh4FNwnSh_vpJfH2A2w0gglXa_JpqzIcL8YG0d3OObJDgLmcRDRNI9S3bLIwyc-i5JWYhpGjcRxSPe36qib22Jp-fTY0TdCbadV3Gt_sycenhunvTqSktVU=w1200-h800-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Butha-Buthe+Mountain+Lesotho",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Da contexto territorial al nacimiento del reino basotho y encaja al entrar por Caledonspoort.",
+      "see": "Meseta y paisaje norteño; los restos y accesos se comprenden mejor con acompañamiento local.",
+      "access": "El pin coincide con Butha Buthe Mountain en Google Maps. Preguntar localmente por acceso y guía; no abrir pista por cuenta propia.",
+      "when": "Mañana despejada, antes de internarse hacia Liphofung o Ts’ehlanyane.",
+      "skip": "Omitir la subida si no hay acceso claro, guía o lugar seguro para dejar el vehículo."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · ruta histórica de Moshoeshoe",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/king-moshoeshoe-historical-route"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRmrYUwHD3G76RfSh4FNwnSh_vpJfH2A2w0gglXa_JpqzIcL8YG0d3OObJDgLmcRDRNI9S3bLIwyc-i5JWYhpGjcRxSPe36qib22Jp-fTY0TdCbadV3Gt_sycenhunvTqSktVU=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Butha-Buthe+Mountain+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Butha-Buthe Mountain en la ficha exacta de Google Maps."
+      },
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlw7fgbsiM7nZtacV4tmyxQ_aiGeGarUUKbRuZ1G8zjO-gU8CuL40kq_lk8zZmDuDRSduee4iMjHs9G1OAl0EusFMFr02p323IxQbJ1SrdV_QJ7N3a1Eeenpwc46B2hgnnKEpArZw=w900-h1200-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Butha-Buthe+Mountain+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Otra vista tomada en el mismo PDI histórico."
+      }
+    ]
   },
   {
     "n": 2,
-    "name": "Parque Nacional de Ts'ehlanyane",
+    "name": "Ts’ehlanyane · Maliba Lodge y parque",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "por confirmar",
     "time": "2 noches",
-    "lat": -28.917,
-    "lon": 28.583,
-    "desc": "El mejor parque de Lesoto y uno de los grandes secretos de África austral: 5.600 hectáreas de naturaleza agreste al pie del paso de Holomo, entre los 1.940 y los 3.112 m, con uno de los poquísimos bosques autóctonos que le quedan al país. Lo llaman así por el BAMBÚ DE MONTAÑA (che-che), del que este parque es probablemente el refugio más importante de toda la cordillera Maloti-Drakensberg. Más de 220 especies de flores, fynbos de montaña que no existe en ningún otro sitio, 24 especies de caza y más de 60 de aves. De aquí sale el sendero de 39 km hasta la reserva de Bokong. A 45 minutos de asfalto desde la frontera de Caledonspoort: es la entrada más cómoda al país. Coordenadas aproximadas, por confirmar.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -28.9141875,
+    "lon": 28.4364375,
+    "desc": "Parque de montaña con bosque autóctono, cascadas y senderos en el norte de Lesoto. El pin se ha trasladado a Maliba Lodge, base operativa dentro del parque, porque la ficha genérica de Google aparecía fuera de lugar.",
+    "credit": "kevincure · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/T%C5%A1ehlanyane_National_Park.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:T%C5%A1ehlanyane_National_Park.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el acceso más sencillo a un paisaje boscoso muy escaso en el resto del país.",
+      "see": "Valle del Holomo, bosque, flora subalpina y rutas a pie o a caballo; cada sendero requiere tiempo propio.",
+      "access": "El pin coincide con Maliba Lodge en Google Maps. La fuente oficial indica un acceso final de grava: reservar y confirmar estado.",
+      "when": "Dos noches si se quiere caminar; mañana estable para las rutas largas.",
+      "skip": "Descartarlo con crecida, nieve fuerte, acceso cortado o sin confirmación de la política de mascotas."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Ts’ehlanyane",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/tsehlanyane-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/T%C5%A1ehlanyane_National_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:T%C5%A1ehlanyane_National_Park.jpg",
+        "credit": "kevincure · CC BY 2.0",
+        "caption": "Paisaje de Ts’ehlanyane National Park."
+      },
+      {
+        "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/Lesotho-1911-0363_original2.jpg",
+        "source": "https://www.visitlesotho.org.ls/place-to-visit/tsehlanyane-national-park",
+        "credit": "Visit Lesotho · sitio oficial",
+        "caption": "Senderos y vegetación del parque según la galería oficial."
+      },
+      {
+        "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/Lesotho-1911-0373_original2.jpg",
+        "source": "https://www.visitlesotho.org.ls/place-to-visit/tsehlanyane-national-park",
+        "credit": "Visit Lesotho · sitio oficial",
+        "caption": "Otra vista del parque y de su entorno de montaña."
+      }
+    ]
   },
   {
     "n": 3,
-    "name": "Liphofung · cuevas y arte rupestre",
+    "name": "Liphofung Cave y centro de visitantes",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "por confirmar",
     "time": "medio día",
-    "lat": -28.867,
-    "lon": 28.533,
-    "desc": "Abrigo de arenisca en la subida hacia Oxbow, con pinturas rupestres san y un pequeño centro cultural basotho. Su nombre significa «lugar del eland» y aquí se refugió Moshoeshoe I en sus desplazamientos. Es la parada corta perfecta entre Butha-Buthe y los pasos altos: media hora de visita guiada que explica de golpe las dos capas de historia del país, la de los san cazadores-recolectores y la de los basotho de Moshoeshoe. Coordenadas aproximadas, por confirmar.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -28.7529054,
+    "lon": 28.4956766,
+    "desc": "Pequeña reserva alrededor de un gran abrigo de arenisca con arte san y memoria asociada a Moshoeshoe. El centro de visitantes ofrece alojamiento básico.",
+    "credit": "Visit Lesotho · sitio oficial",
+    "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/IMG_0802-copy.jpg",
+    "source": "https://www.visitlesotho.org.ls/place-to-visit/liphoofung-nature-reserve",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Reúne en una visita corta las dos capas históricas clave del norte: poblaciones san y formación basotho.",
+      "see": "Pinturas, abrigo rocoso, interpretación y construcciones del centro; no todas las marcas son igual de visibles.",
+      "access": "El pin coincide con Liphofung Cave Chalets y centro. Sendero con tramos empinados; confirmar guía y apertura.",
+      "when": "Parada diurna entre Butha-Buthe y Moteng, con roca seca.",
+      "skip": "No tocar las pinturas ni acceder si el centro está cerrado o el sendero resulta inseguro."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Liphofung",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/liphoofung-nature-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/IMG_0802-copy.jpg",
+        "source": "https://www.visitlesotho.org.ls/place-to-visit/liphoofung-nature-reserve",
+        "credit": "Visit Lesotho · sitio oficial",
+        "caption": "Gran abrigo de arenisca de Liphofung."
+      },
+      {
+        "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/Lesotho-1911-0610_original.jpg",
+        "source": "https://www.visitlesotho.org.ls/place-to-visit/liphoofung-nature-reserve",
+        "credit": "Visit Lesotho · sitio oficial",
+        "caption": "Detalle de las pinturas rupestres del abrigo."
+      },
+      {
+        "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/Lesotho-1911-0615_original.jpg",
+        "source": "https://www.visitlesotho.org.ls/place-to-visit/liphoofung-nature-reserve",
+        "credit": "Visit Lesotho · sitio oficial",
+        "caption": "Construcciones del centro cultural de Liphofung."
+      }
+    ]
   },
   {
     "n": 4,
-    "name": "Paso de Moteng y Oxbow",
+    "name": "Moteng Pass",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "medio día",
-    "lat": -28.7333,
-    "lon": 28.6833,
-    "desc": "La primera gran subida de la A1: el paso de Moteng (2.820 m) trepa en horquillas cerradísimas con pendientes que castigan a los camiones y vistas que se abren de golpe sobre los valles del norte. Arriba aparece Oxbow, un puñado de casas junto al río Malibamatso en un anfiteatro de montañas donde nieva de verdad en invierno. Está asfaltado, pero es asfalto de montaña seria: hielo negro de mayo a septiembre, niebla y cero quitamiedos en algunos tramos.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -28.755833,
+    "lon": 28.600278,
+    "desc": "Puerto asfaltado de curvas cerradas en la A1, sobre el valle de Moteng. Es un punto de conducción y paisaje, no una atracción con recinto.",
+    "credit": "Jaco van Tonder · CC BY 2.5",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Moteng_pass.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Moteng_pass.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la primera gran subida del corredor norte y muestra de golpe la escala de las Maloti.",
+      "see": "Horquillas, laderas y vistas hacia el valle; Oxbow es una parada separada.",
+      "access": "El pin coincide con Moteng Pass en Google Maps. Parar solo fuera de la calzada y bajar con freno motor.",
+      "when": "Con luz, visibilidad y firme seco; comprobar hielo o nieve en invierno.",
+      "skip": "No detenerse con niebla, viento severo, hielo o sin un apartadero completamente seguro."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · ruta de las Highlands",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/highlands-ski-route"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Moteng_pass.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Moteng_pass.jpg",
+        "credit": "Jaco van Tonder · CC BY 2.5",
+        "caption": "Horquillas y relieve de Moteng Pass."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Moteng_Pass_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Moteng_Pass_-_panoramio.jpg",
+        "credit": "tadpolefarm · CC BY-SA 3.0",
+        "caption": "Vista desde el propio paso de Moteng."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Moteng_Pass_2809_meter.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Moteng_Pass_2809_meter.jpg",
+        "credit": "Willem.erasmus · CC BY-SA 4.0",
+        "caption": "Cartel y carretera en Moteng Pass."
+      }
+    ]
   },
   {
     "n": 5,
-    "name": "Afriski (paso de Mahlasela) · esquiar en África",
+    "name": "Afriski Mountain Resort",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "por confirmar",
     "time": "1–2 noches",
-    "lat": -28.8228,
-    "lon": 28.7281,
-    "desc": "SÍ, SE PUEDE ESQUIAR EN ÁFRICA. Afriski está a unos 3.050 m en el paso de Mahlasela (3.222 m), es una de las dos únicas estaciones de esquí del África subsahariana y la única de Lesoto: una pista de 1 km con 305 m de desnivel, del 2.917 al 3.222, cañones de nieve y temporada de JUNIO A AGOSTO, que es exactamente cuando el viaje estará en el sur. Fuera de temporada funciona como base de montaña para trail running, bici y senderismo. Aunque no se esquíe, el sitio es un hito absurdo y memorable: nieve, telesquí y bandera de Lesoto a 3.000 m en pleno trópico.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -28.8203625,
+    "lon": 28.7272528,
+    "desc": "Complejo de montaña de gran altitud con esquí estacional y actividades de verano. La nieve y la apertura de pistas dependen del tiempo y de la operación del resort.",
+    "credit": "Jacovt · CC BY 2.5",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/AfriSki.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:AfriSki.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es una rareza regional y una base cómoda para experimentar el altiplano sin autonomía total.",
+      "see": "Pista, remontes y paisaje de las Maloti; fuera de invierno predominan bici, senderismo y otras actividades.",
+      "access": "El pin coincide con Afriski en Google Maps. Comprobar carretera, alojamiento, temporada y equipos directamente con el resort.",
+      "when": "Invierno para esquiar solo con apertura confirmada; verano para montaña.",
+      "skip": "Omitirlo si se busca nieve sin parte operativo, o si el acceso exige asumir hielo sin equipo adecuado."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Afriski",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/afriski-mountain-resort"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/AfriSki.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:AfriSki.jpg",
+        "credit": "Jacovt · CC BY 2.5",
+        "caption": "Pista e instalaciones de Afriski."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Afriski_in_Summer,_bring_on_the_winter_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Afriski_in_Summer,_bring_on_the_winter_-_panoramio.jpg",
+        "credit": "Graham Maclachlan · CC BY-SA 3.0",
+        "caption": "Afriski fuera de la temporada de nieve."
+      }
+    ]
   },
   {
     "n": 6,
-    "name": "Paso de Tlaeeng · la carretera asfaltada más alta de África austral",
+    "name": "Tlaeeng Pass",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "medio día",
-    "lat": -28.87,
-    "lon": 28.76,
-    "desc": "Poco después de Afriski, la A1 corona el paso de Tlaeeng a unos 3.275 m: es la CARRETERA ASFALTADA MÁS ALTA DE ÁFRICA AUSTRAL y uno de los puntos de carretera más altos de todo el continente. No hay nada arriba salvo el cartel, el viento y una panorámica de 360 grados sobre las Maloti peladas; en invierno se cubre de nieve y se cierra. Para un viaje que ha atravesado el Sáhara y el ecuador, cruzar aquí a más de 3.200 m con los dos vehículos es uno de los hitos del recorrido. Altitud y coordenadas aproximadas, por confirmar sobre el terreno.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -28.9431975,
+    "lon": 28.8285369,
+    "desc": "Tlaeeng es un puerto del altiplano de más de 3.200 m. Es un hito de carretera expuesto al viento, la niebla y la nieve, no un mirador equipado.",
+    "credit": "Google Maps · autor visible en la ficha",
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlWFFYwpzT9jUF9_jyOFBU0GjEsLj7-n1HMMFe-w88I9xc7DfqiBJ3kV9jlw0LheCGui5P4kHP28-sbm5-qOqgUZqReOzrGk8MkK2od5G8tC9rhg-eYot-pjZ1TQ6UHPtwA8ERJonfmB6BI=w1200-h800-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Tlaeeng+Pass+Lesotho",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Marca uno de los momentos más altos de toda la conducción del viaje sin exigir un desvío.",
+      "see": "Cartel del puerto, carretera y panorámica de pastizales alpinos.",
+      "access": "El pin coincide con Tlaeeng Pass en Google Maps. Confirmar el estado del acceso y la ruta localmente: la información publicada sobre firme y trazado no es uniforme.",
+      "when": "Solo de día y con previsión estable; llevar abrigo incluso con sol.",
+      "skip": "No cruzarlo con cierre, hielo, tormenta eléctrica o visibilidad insuficiente."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · mapa de pasos del altiplano",
+        "url": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/05/1703-Output-5.2-National-Tourism-Master-Plan-compressed-copy.pdf"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlWFFYwpzT9jUF9_jyOFBU0GjEsLj7-n1HMMFe-w88I9xc7DfqiBJ3kV9jlw0LheCGui5P4kHP28-sbm5-qOqgUZqReOzrGk8MkK2od5G8tC9rhg-eYot-pjZ1TQ6UHPtwA8ERJonfmB6BI=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Tlaeeng+Pass+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Cartel y paisaje del Tlaeeng Pass."
+      },
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrQmkWLimbDhXrgCa45S8StZD05E37x4QsedGqqCqdlevQv86vfxusN7mMKw_p55t-g_iKupq7EBm-rk6vYQVCxCUcKo9Gya0TKSK9DCVLphkoPMGyzXa_DL5gWEtJse6L0fucAjQ4FJ8=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Tlaeeng+Pass+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Carretera de gran altitud fotografiada en el mismo paso."
+      }
+    ]
   },
   {
     "n": 7,
-    "name": "Mokhotlong",
+    "name": "Mokhotlong · base del altiplano",
     "cat": "Ciudad · servicios",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -29.29,
-    "lon": 29.07,
-    "desc": "La ciudad más aislada del país y última base antes del Sani Pass: combustible (no siempre garantizado), tienda, y poco más. Es territorio de pastores a caballo con manta basotho y gorro mokorotlo, y el sitio donde se ve cómo se vive de verdad a 2.400 m. Desde aquí arranca el tramo que hace mítica la travesía: la pista hacia el Sani, y el acceso al Thabana Ntlenyana. Repostar aquí es obligatorio, y conviene llevar garrafa.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -29.2875557,
+    "lon": 29.0605389,
+    "desc": "Mokhotlong es la base urbana del extremo oriental: combustible, provisiones y consulta de la carretera antes de Sani o Thabana Ntlenyana. La disponibilidad concreta puede variar.",
+    "credit": "HAF932 · CC0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mokhotlong_par_la_route.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mokhotlong_par_la_route.jpg",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el último punto razonable para reorganizar combustible, comida y meteorología antes de rutas remotas.",
+      "see": "Vida del altiplano y servicios básicos; no se presenta como ciudad monumental.",
+      "access": "El pin coincide con Mokhotlong en Google Maps. Repostar cuando haya suministro y verificar el siguiente tramo localmente.",
+      "when": "Horario comercial y llegada con luz.",
+      "skip": "No salir hacia una ruta remota con depósitos o reservas de agua insuficientes."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · ruta 4x4 por Mokhotlong",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/mountain-biking-4x4-route"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mokhotlong_par_la_route.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mokhotlong_par_la_route.jpg",
+        "credit": "HAF932 · CC0",
+        "caption": "Mokhotlong visto desde la carretera del altiplano."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mokhotlong-Centre-and-Airport-2009.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mokhotlong-Centre-and-Airport-2009.jpg",
+        "credit": "Bjørn Christian Tørrissen · CC BY-SA 3.0",
+        "caption": "Centro urbano y aeródromo de Mokhotlong en 2009."
+      }
+    ]
   },
   {
     "n": 8,
-    "name": "Thabana Ntlenyana · el techo de África austral",
+    "name": "Thabana Ntlenyana · cumbre",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "por confirmar",
     "time": "1 día",
-    "lat": -29.467,
-    "lon": 29.267,
-    "desc": "3.482 m: el pico más alto de África al sur del Kilimanjaro, y se sube ANDANDO, sin material técnico. Está en la cresta de Mohlesi, justo al norte del Sani Pass, y se ataca desde Sani Top o desde la carretera de Mokhotlong en una caminata larga de un día por pradera de altura, sin sendero marcado y con el viento como único obstáculo serio. No hay cumbre más fácil de alcanzar con un techo tan alto en todo el continente. Niebla frecuente: brújula y GPS obligatorios, y ropa de abrigo de verdad aunque sea verano.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -29.467958,
+    "lon": 29.2690909,
+    "desc": "La cumbre de 3.482 m es el punto más alto de Lesoto y de África austral. La ruta es remota, poco marcada y muy expuesta aunque no requiera escalada técnica normal.",
+    "credit": "Pereng051 · CC0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sehlohlolong_sa_Thabana_Ntlenyana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sehlohlolong_sa_Thabana_Ntlenyana.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Aporta una jornada de alta montaña auténtica desde el entorno de Sani Top.",
+      "see": "Pastizal alpino, cresta y mojón de cumbre; la vista desaparece rápidamente con niebla.",
+      "access": "El pin coincide con la cumbre en Google Maps, no con un aparcamiento. Contratar guía y acordar inicio, ruta y retorno.",
+      "when": "Salida muy temprana con previsión estable y ropa para frío severo.",
+      "skip": "No intentarlo con niebla, tormenta, nieve, inicio tardío o sin navegación y guía fiables."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Thabana Ntlenyana",
+        "url": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/05/LTDC-Investment-Opportunities.pdf"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sehlohlolong_sa_Thabana_Ntlenyana.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sehlohlolong_sa_Thabana_Ntlenyana.jpg",
+        "credit": "Pereng051 · CC0",
+        "caption": "Cumbre de Thabana Ntlenyana."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Almost_at_the_top_of_Thabana_Ntlenyana.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Almost_at_the_top_of_Thabana_Ntlenyana.jpg",
+        "credit": "TwinMosia · CC BY-SA 4.0",
+        "caption": "Tramo final de ascenso hacia la cumbre."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Thabana_Ntlenyana_from_Giants_Ridge.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Thabana_Ntlenyana_from_Giants_Ridge.jpg",
+        "credit": "Ghaznavid · CC BY-SA 4.0",
+        "caption": "Thabana Ntlenyana visto desde Giants Ridge."
+      }
+    ]
   },
   {
     "n": 9,
-    "name": "Sani Pass · el acceso 4x4 mítico",
+    "name": "Sani Pass",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -29.5881,
-    "lon": 29.2927,
-    "desc": "EL TRAMO 4x4 MÁS FAMOSO DE ÁFRICA AUSTRAL. La pista sube 1.332 m —de 1.544 a 2.876 m— por la pared del Drakensberg en una sucesión de horquillas de grava con RAMPAS DE HASTA EL 33% (1:3). Sudáfrica solo permite subirlo en 4x4; el puesto fronterizo está arriba del todo, en la cima, lo que significa que todo el paso está técnicamente en territorio sudafricano y solo se entra en Lesoto al coronar. Los dos puestos abren de 6:00 a 18:00 y NO SE PUEDE CRUZAR FUERA DE ESE HORARIO. Se ha ido asfaltando por fases desde el lado sudafricano (los primeros 14 km en 2012, y una segunda fase casi terminada en 2021), pero el tramo final sigue siendo grava, y el paso ha costado vidas: por el camino se ven restos de vehículos que no lo consiguieron.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lesotho%20-%20South%20Africa%20Border%20-%20Sani%20Pass.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lesotho%20-%20South%20Africa%20Border%20-%20Sani%20Pass.jpg",
+    "lat": -29.5879785,
+    "lon": 29.2921966,
+    "desc": "Paso fronterizo espectacular entre Lesoto y KwaZulu-Natal, con fuertes horquillas en el escarpe. El firme y los requisitos del tramo cambian con las obras y deben verificarse antes del viaje.",
+    "credit": "Vaiz Ha · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sani_Pass_heading_into_Lesotho.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sani_Pass_heading_into_Lesotho.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es uno de los grandes hitos de conducción de África austral y una entrada directa al altiplano.",
+      "see": "Escarpe, curvas y puestos fronterizos; el pin marca la parte alta, no el control sudafricano inferior.",
+      "access": "El pin coincide con Sani Pass y se sincroniza con la ficha de Sudáfrica. Confirmar horario, estado y requisito 4x4 con las autoridades.",
+      "when": "Subir o bajar con varias horas de luz y tiempo estable.",
+      "skip": "No entrar con frontera cerrada, hielo, lluvia fuerte, niebla o vehículo que no cumpla la exigencia vigente."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Sani Pass y altiplano",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/sani-top-thabana-ntlenyana"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sani_Pass_heading_into_Lesotho.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sani_Pass_heading_into_Lesotho.jpg",
+        "credit": "Vaiz Ha · CC BY 2.0",
+        "caption": "Horquillas de Sani Pass en dirección a Lesoto."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanipass_Grenzposten_Lesotho.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sanipass_Grenzposten_Lesotho.jpg",
+        "credit": "Pechristener · CC BY-SA 4.0",
+        "caption": "Puesto fronterizo de Lesoto en la parte alta del paso."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lesotho_Border_Post_at_Sani_Pass.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lesotho_Border_Post_at_Sani_Pass.jpg",
+        "credit": "Vaiz Ha · CC BY 2.0",
+        "caption": "Entrada a Lesoto en Sani Pass."
+      }
+    ]
   },
   {
     "n": 10,
-    "name": "Sani Top · el pub más alto de África",
+    "name": "Sani Top · lodge y escarpe",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1 noche",
-    "lat": -29.5836,
-    "lon": 29.2879,
-    "desc": "Justo al coronar el Sani Pass, a 2.874 m, está el Sani Mountain Lodge y su bar, que se anuncia como EL PUB MÁS ALTO DE ÁFRICA: chimenea encendida, cerveza Maluti y un ventanal sobre el precipicio por el que se acaba de subir. Es el premio clásico de la travesía y una de las pocas «instituciones» del overland africano que está a la altura de su fama. Hay alojamiento y sitio para acampar, y desde aquí salen las caminatas al Thabana Ntlenyana y por el borde del escarpe. Dormir arriba tiene además una ventaja práctica: se evita la carrera contra el cierre de la frontera a las 18:00. Coordenadas aproximadas, por confirmar.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sani%20Pass%20Lesotho%202.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Sani%20Pass%20Lesotho%202.jpg",
+    "lat": -29.5846507,
+    "lon": 29.2882526,
+    "desc": "Alojamiento junto al borde superior del Sani, con vistas inmediatas del escarpe. Su bar se promociona como el más alto de África; se presenta como reclamo del operador, no como récord independiente.",
+    "credit": "Google Maps · autor visible en la ficha",
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQz7R1VzOvcHJ-tdexAilmsWpYH15KHzHCu6bKUpz_Obta4nGXY7K6f6IfINqExj-OF_Fo1xyQ4GzmbVW5qDe7o8e2Kqc41KZq_fCI1fC_YF_THB3FsQzUztnxzCxJy8jS8wi6xgoa2Ek=w1200-h800-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Sani+Mountain+Escape+Lesotho",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite dormir arriba, caminar por el borde y evitar una travesía apresurada de la frontera.",
+      "see": "Edificios del lodge, bar y vistas hacia Sudáfrica; Thabana Ntlenyana requiere otra jornada.",
+      "access": "El pin coincide con Sani Mountain Escape en Google Maps. Reservar y confirmar el nombre comercial y servicios vigentes.",
+      "when": "Atardecer y noche despejada, con abrigo serio.",
+      "skip": "Descartarlo si no hay reserva o si la carretera/frontera impiden llegar con luz."
+    },
+    "links": [
+      {
+        "label": "Sani Mountain Escape · sitio del alojamiento",
+        "url": "https://sanimountain.co.za/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQz7R1VzOvcHJ-tdexAilmsWpYH15KHzHCu6bKUpz_Obta4nGXY7K6f6IfINqExj-OF_Fo1xyQ4GzmbVW5qDe7o8e2Kqc41KZq_fCI1fC_YF_THB3FsQzUztnxzCxJy8jS8wi6xgoa2Ek=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Sani+Mountain+Escape+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Edificio del alojamiento en la ficha exacta de Sani Mountain Escape."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_down_into_South_Africa_from_top_of_Sani_Pass_in_Lesotho.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_down_into_South_Africa_from_top_of_Sani_Pass_in_Lesotho.jpg",
+        "credit": "Michael Denne · CC BY-SA 2.0",
+        "caption": "Vista del escarpe desde Sani Top."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sani_Pass_Lesotho.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sani_Pass_Lesotho.jpg",
+        "credit": "Martin Schärli · CC BY-SA 3.0",
+        "caption": "Paisaje inmediato de Sani Top y el paso."
+      }
+    ]
   },
   {
     "n": 11,
-    "name": "Presa de Katse",
+    "name": "Katse Dam Information Centre",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -29.337,
-    "lon": 28.5061,
-    "desc": "La obra que explica la economía del país: una presa de arco de hormigón de 185 m de altura y 710 m de coronación sobre el río Malibamatso, la SEGUNDA MÁS ALTA DE ÁFRICA y la de mayor altitud del continente (1.993 m). Forma parte del Lesotho Highlands Water Project, que vende agua a Sudáfrica —unos 30 m³ por segundo— a cambio de unos 35 millones de dólares anuales más royalties. Terminada en 1996, costó 8.000 millones de dólares. Se visita con guía por dentro del muro, hay centro de visitantes y un jardín botánico de plantas alpinas rescatadas antes de la inundación, y el embalse serpentea entre montañas peladas creando una de las conducciones más espectaculares del país.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lesotho%20-%20South%20Africa%20Border%20-%20Sani%20Pass.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lesotho%20-%20South%20Africa%20Border%20-%20Sani%20Pass.jpg",
+    "lat": -29.344091,
+    "lon": 28.5065405,
+    "desc": "Centro de información para conocer Katse Dam y la primera fase del Lesotho Highlands Water Project. Las visitas técnicas dependen de autorización y horario.",
+    "credit": "Christian Wörtz · CC BY-SA 2.5",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Katse_Dam,Lesotho,Africa.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Katse_Dam,Lesotho,Africa.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "La presa explica una parte central de la ingeniería, el agua y la economía contemporánea del país.",
+      "see": "Muro de arco, embalse e interpretación del sistema; el jardín botánico es una visita separada cercana.",
+      "access": "El pin coincide con Katse Dam Information Center. Concertar el tour con LHDA y seguir restricciones de seguridad y fotografía.",
+      "when": "Horario laboral y día de visibilidad razonable.",
+      "skip": "No acceder a instalaciones cerradas ni usar dron; omitir el tour si LHDA no lo confirma."
+    },
+    "links": [
+      {
+        "label": "LHDA · turismo en Katse",
+        "url": "https://www.lhda.org.ls/home/tourism"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Katse_Dam,Lesotho,Africa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Katse_Dam,Lesotho,Africa.jpg",
+        "credit": "Christian Wörtz · CC BY-SA 2.5",
+        "caption": "Vista general de Katse Dam."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Katse_Dam_-_2017_(36467442231).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Katse_Dam_-_2017_(36467442231).jpg",
+        "credit": "Stuart Bassil · CC BY 2.0",
+        "caption": "Muro y embalse de Katse en 2017."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Katse_dam_intake_tower.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Katse_dam_intake_tower.jpg",
+        "credit": "Beest · CC BY-SA 2.5",
+        "caption": "Torre de toma del sistema de Katse."
+      }
+    ]
   },
   {
     "n": 12,
-    "name": "Paso de Mafika Lisiu y reserva de Bokong",
+    "name": "Bokong Nature Reserve · visitantes",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "por confirmar",
     "time": "medio día",
-    "lat": -29.25,
-    "lon": 28.35,
-    "desc": "La subida a Katse desde Pitseng corona el paso de MAFIKA LISIU a unos 3.090 m, otro de los grandes puertos asfaltados del país, con un mirador en lo alto sobre un mar de crestas. Justo arriba está la Reserva Natural de Bokong, el centro de visitantes más alto de África austral, colgado sobre el barranco del Lepaqoa, cuya cascada SE CONGELA EN INVIERNO formando una columna de hielo de decenas de metros. Desde aquí sale el sendero de 39 km hasta Ts'ehlanyane. Altitud y coordenadas aproximadas, por confirmar.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Katse%20Dam%2CLesotho%2CAfrica.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Katse%20Dam%2CLesotho%2CAfrica.jpg",
+    "lat": -29.0714444,
+    "lon": 28.4255278,
+    "desc": "Centro de visitantes de una reserva alpina junto a la A25, con vista al valle del Lepaqoa y sendero hacia la cascada. El salto puede helarse en invierno, pero no se garantiza.",
+    "credit": "Visit Lesotho · sitio oficial",
+    "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/Lesotho-1911-0454_original.jpg",
+    "source": "https://www.visitlesotho.org.ls/place-to-visit/bookong-nature-reserve",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la parada natural del camino de Katse y ofrece una caminata corta de gran altitud.",
+      "see": "Pastizal alpino, valle y Lepaqoa Falls; las aves y el hielo dependen de estación y suerte.",
+      "access": "El pin usa las coordenadas oficiales publicadas por Visit Lesotho: S29°04’17.2 E28°25’31.9.",
+      "when": "Mañana estable; en invierno confirmar hielo y estado de la A25.",
+      "skip": "No caminar con tormenta, niebla cerrada o si el centro desaconseja la ruta."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Bokong",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/bookong-nature-reserve"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/Lesotho-1911-0454_original.jpg",
+        "source": "https://www.visitlesotho.org.ls/place-to-visit/bookong-nature-reserve",
+        "credit": "Visit Lesotho · sitio oficial",
+        "caption": "Valle observado desde el entorno de Bokong Nature Reserve."
+      },
+      {
+        "img": "https://www.visitlesotho.org.ls/wp-content/uploads/2025/04/Lesotho-1911-0467_original.jpg",
+        "source": "https://www.visitlesotho.org.ls/place-to-visit/bookong-nature-reserve",
+        "credit": "Visit Lesotho · sitio oficial",
+        "caption": "Lepaqoa Falls y el borde rocoso de Bokong."
+      }
+    ]
   },
   {
     "n": 13,
-    "name": "Presa de Mohale y su carretera",
+    "name": "Mohale Dam · lodge y visitas",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "medio día",
-    "lat": -29.467,
-    "lon": 28.083,
-    "desc": "La segunda presa del Lesotho Highlands Water Project, de escollera y unos 145 m, conectada con Katse por un túnel de trasvase de 32 km. Lo interesante para el viaje no es la presa sino LA CARRETERA: la A3 de Maseru a Mohale es una obra de ingeniería que trepa y se descuelga por cornisas con vistas continuas, y es la forma más bonita de entrar al interior montañoso desde la capital. Hay mirador, centro de información y alojamiento junto al embalse. Coordenadas aproximadas, por confirmar.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -29.478542,
+    "lon": 28.0613873,
+    "desc": "Mohale Lodge sirve como ancla verificable para organizar la visita al embalse y la presa. El muro y las instalaciones de LHDA no están en este mismo pin.",
+    "credit": "David Love · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohaledam.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mohaledam.jpg",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "La carretera de acceso y el sistema de trasvase complementan Katse con menos afluencia.",
+      "see": "Embalse, paisaje de montaña y, si LHDA lo autoriza, instalaciones de la presa.",
+      "access": "El pin coincide con Mohale Lodge. Concertar cualquier visita técnica con LHDA; no seguir un pin genérico hasta infraestructura cerrada.",
+      "when": "Llegada diurna y tiempo estable para la carretera.",
+      "skip": "Omitir la visita técnica si no está confirmada y no volar dron sobre la infraestructura."
+    },
+    "links": [
+      {
+        "label": "LHDA · turismo en Mohale",
+        "url": "https://www.lhda.org.ls/home/tourism"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohaledam.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mohaledam.jpg",
+        "credit": "David Love · dominio público",
+        "caption": "Embalse y muro de Mohale Dam."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohale_Dam_2008.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mohale_Dam_2008.jpg",
+        "credit": "Egbert · CC BY-SA 2.0",
+        "caption": "Mohale Dam fotografiada en 2008."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohale_Dam_904478270.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mohale_Dam_904478270.jpg",
+        "credit": "Bruce Paulmac · CC BY-SA 3.0",
+        "caption": "Paisaje del embalse de Mohale."
+      }
+    ]
   },
   {
     "n": 14,
-    "name": "Maseru",
+    "name": "Maseru · Basotho Hat y servicios",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": -29.31,
-    "lon": 27.48,
-    "desc": "La capital, pegada al río Caledon y a la frontera del Maseru Bridge, es la única base logística de verdad del país: bancos, supermercados sudafricanos, talleres, hospitales y las oficinas donde se tramitan permisos. No es una ciudad monumental, pero tiene el mercado de artesanía basotho, la catedral y el Basotho Hat, y es el sitio para repostar, comprar y resolver papeleo antes de meterse en la montaña. Todo lo que falta aquí se compra al otro lado del puente, en Ladybrand (Sudáfrica), a 20 km.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maseru%2C%20Lesotho.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Maseru%2C%20Lesotho.jpg",
+    "lat": -29.3130504,
+    "lon": 27.4784482,
+    "desc": "Basotho Hat es una referencia urbana reconocible de Maseru y un punto concreto para artesanía. La capital sigue siendo ante todo la gran base logística del país.",
+    "credit": "Google Maps · autor visible en la ficha",
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRutO1CXFz-9QZAbZMl9TXD6u7hPau_5Jvmvah7Dsjq_xL9CLIIE_GTfimYCSPeSRDsjmKajEhs5ZPH8GXmFK0bNBRhGdl-1UlePaguMfri-uaJ6NvKOpxAvfvjaXSEVuZ8cCQ=w1200-h800-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Basotho+Hat+Maseru+Lesotho",
     "icon": "ciudad · servicios",
     "color": "azul",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Permite combinar una parada cultural breve con banco, mercado, hospital, taller y abastecimiento.",
+      "see": "Edificio inspirado en el mokorotlo y artesanía; otros monumentos urbanos quedan fuera de esta ficha.",
+      "access": "El pin coincide con Basotho Hat en Google Maps. Aparcar vigilado y agrupar todas las gestiones por zonas.",
+      "when": "Horario comercial entre semana.",
+      "skip": "Acortar la visita si no hay gestiones; no dejar equipaje visible ni circular innecesariamente de noche."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Maseru",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/maseru"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRutO1CXFz-9QZAbZMl9TXD6u7hPau_5Jvmvah7Dsjq_xL9CLIIE_GTfimYCSPeSRDsjmKajEhs5ZPH8GXmFK0bNBRhGdl-1UlePaguMfri-uaJ6NvKOpxAvfvjaXSEVuZ8cCQ=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Basotho+Hat+Maseru+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Edificio Basotho Hat en Maseru."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/KingswayMaseru.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:KingswayMaseru.jpg",
+        "credit": "Michael Denne · CC BY-SA 2.0",
+        "caption": "Kingsway, eje urbano central de Maseru."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maseru_Town.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Maseru_Town.jpg",
+        "credit": "Lschefa · CC BY-SA 4.0",
+        "caption": "Vista del centro de Maseru."
+      }
+    ]
   },
   {
     "n": 15,
-    "name": "Thaba-Bosiu · la montaña fortaleza de Moshoeshoe",
+    "name": "Thaba Bosiu Cultural Village",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "medio día",
-    "lat": -29.3503,
-    "lon": 27.6714,
-    "desc": "LA CUNA DE LA NACIÓN BASOTHO, a 24 km de Maseru. En julio de 1824 Moshoeshoe I, huyendo de las guerras del Mfecane, subió con su gente a esta meseta de arenisca de 2 km² y 1.804 m rodeada de cortados verticales, con ocho manantiales dentro y solo seis pasos de acceso — el principal, el de Khubelu. La llamó «montaña de la noche» porque llegaron de noche. Desde aquí resistió los asedios de los ndebele, los bóeres y los británicos, y aquí nació Lesoto como estado, razón por la que es el único país del sur de África que nunca fue absorbido por Sudáfrica. Moshoeshoe I y Moshoeshoe II están enterrados arriba. Se sube a pie con guía desde el centro de información; hay aldea cultural y alojamiento en rondavel al pie.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -29.3463224,
+    "lon": 27.6638307,
+    "desc": "Aldea cultural al pie de Thaba Bosiu, la meseta fortificada asociada a Moshoeshoe I y a la formación de la nación basotho. La visita a la cima es una actividad distinta.",
+    "credit": "Marduk · CC0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/685_Thaba_Bosiu.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:685_Thaba_Bosiu.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el lugar esencial para comprender la historia política de Lesoto con contexto local.",
+      "see": "Reconstrucción cultural, centro interpretativo y silueta de la montaña; tumbas y restos están arriba.",
+      "access": "El pin coincide con Thaba Bosiu Cultural Village. Contratar guía si se sube y respetar los lugares de memoria.",
+      "when": "Mañana fresca, reservando media jornada si se incluye la cima.",
+      "skip": "No reducirlo a una foto del poblado ni subir con tormenta o sin tiempo suficiente."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Thaba Bosiu",
+        "url": "https://whc.unesco.org/en/tentativelists/6920/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/685_Thaba_Bosiu.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:685_Thaba_Bosiu.jpg",
+        "credit": "Marduk · CC0",
+        "caption": "Meseta de Thaba Bosiu y su entorno."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Thaba_Bosiu_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Thaba_Bosiu_-_panoramio.jpg",
+        "credit": "Graham Maclachlan · CC BY-SA 3.0",
+        "caption": "Vista lateral de la montaña fortaleza."
+      }
+    ]
   },
   {
     "n": 16,
-    "name": "Morija · museo y huellas de dinosaurio",
+    "name": "Morija Museum & Archives",
     "cat": "Cultura",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "medio día",
-    "lat": -29.6333,
-    "lon": 27.5,
-    "desc": "El pueblo de la primera misión evangélica francesa (1833), que trajo la imprenta y fijó por escrito el sesotho: aquí está el Museo y Archivos de Morija, el mejor museo del país, con paleontología, etnografía e historia basotho, y la imprenta más antigua de Lesoto. En las lajas de arenisca de los alrededores hay HUELLAS DE DINOSAURIO perfectamente visibles, y a media hora a pie se llega a la colina de Makhoarane con vistas sobre todo el valle. En septiembre u octubre celebra el festival de artes de Morija, el evento cultural más importante del país.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -29.6263228,
+    "lon": 27.5088085,
+    "desc": "Museo y archivo en la misión histórica de Morija, con colecciones sobre historia, cultura y paleontología de Lesoto. Las huellas de dinosaurio del entorno requieren indicaciones aparte.",
+    "credit": "Niall McNulty · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Morija_Museum_and_Archives_in_Morija,_Lesotho.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Morija_Museum_and_Archives_in_Morija,_Lesotho.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la institución más útil del país para ordenar el relato histórico antes de recorrer sus lugares.",
+      "see": "Exposiciones, documentos y edificios de la misión; confirmar con el museo cualquier paseo exterior.",
+      "access": "El pin coincide con Morija Museum & Archives. Revisar horario y solicitar guía para sitios cercanos.",
+      "when": "Mañana o primera tarde en día de apertura.",
+      "skip": "Descartarlo si está cerrado; no buscar huellas por fincas o laderas sin permiso."
+    },
+    "links": [
+      {
+        "label": "Morija Museum & Archives",
+        "url": "https://morijamuseum.org/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Morija_Museum_and_Archives_in_Morija,_Lesotho.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Morija_Museum_and_Archives_in_Morija,_Lesotho.jpg",
+        "credit": "Niall McNulty · CC BY 2.0",
+        "caption": "Edificio del Morija Museum & Archives."
+      },
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmiZBovtuMxV1bVyLwMHoRoJ0o9GRxG23JR8E2Bv5GsqgYz-bdO1wf5jXVYT3npzt063MxitZ2wgG-TK23sHStoYh5K4BB6ndZSCRvydITPIvjjvgQcN9P3bSqsR6J3BoUhNgMhhQ=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Morija+Museum+and+Archives+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Otra vista del museo en su ficha exacta de Google Maps."
+      }
+    ]
   },
   {
     "n": 17,
-    "name": "Malealea",
+    "name": "Malealea Lodge y rutas a caballo",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "por confirmar",
     "time": "2 noches",
-    "lat": -29.85,
-    "lon": 27.6167,
-    "desc": "Una vieja tienda comercial de 1905 convertida en lodge en un valle de montaña, y el sitio donde la mayoría de los viajeros descubre el LESOTO A CABALLO: los ponis basotho, pequeños, duros y criados para estas laderas, son aquí el medio de transporte normal, y se hacen salidas de un día o de varios con guías del pueblo, durmiendo en aldeas. También hay senderos a pie a cascadas, pinturas rupestres y la garganta de Ribaneng. El acceso se hace por el «Gates of Paradise Pass», donde una placa dice: «Vas ahora a entrar en la Puerta del Paraíso». Coordenadas aproximadas, por confirmar.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -29.8280062,
+    "lon": 27.599906,
+    "desc": "Lodge comunitario que organiza rutas a caballo y a pie por aldeas y gargantas. El poni basotho es aquí un medio de movilidad local, no solo una atracción escénica.",
+    "credit": "Tjeerd Wiersma · CC BY 2.0",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Malealea.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Malealea.jpg",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es la base más consolidada para una experiencia rural de uno o varios días con guías locales.",
+      "see": "Valle, rutas, vida comunitaria y Gates of Paradise; cada excursión tiene dificultad y duración propias.",
+      "access": "El pin coincide con Malealea Lodge. Reservar alojamiento y actividad y comunicar experiencia ecuestre real.",
+      "when": "Dos noches como mínimo para no convertirlo en una parada superficial.",
+      "skip": "Omitir rutas largas con tormenta, crecida, lesión o sin plan confirmado para el perro."
+    },
+    "links": [
+      {
+        "label": "Malealea Lodge · actividades y reserva",
+        "url": "https://malealealodge.com/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Malealea.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Malealea.jpg",
+        "credit": "Tjeerd Wiersma · CC BY 2.0",
+        "caption": "Paisaje rural de Malealea."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise_at_Malealea,_Lesotho.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Malealea,_Lesotho.jpg",
+        "credit": "Di.Malealea · CC BY 2.0",
+        "caption": "Amanecer en Malealea."
+      }
+    ]
   },
   {
     "n": 18,
-    "name": "Semonkong y la cascada de Maletsunyane",
+    "name": "Maletsunyane Falls",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "2 noches",
-    "lat": -29.8686,
-    "lon": 28.0517,
-    "desc": "EL SALTO Y EL RÉCORD. La cascada de Maletsunyane cae 192 M DE UN SOLO CHORRO en un anfiteatro de basalto, y la nube de agua pulverizada que levanta da nombre al pueblo: Semonkong, «el lugar del humo». Desde el borde, el Semonkong Lodge opera el DESCENSO EN RÁPEL COMERCIAL MÁS LARGO DEL MUNDO según el Guinness: 204 m de cuerda, más altos que la propia cascada. Aunque no se haga, el pueblo es el mejor sitio del país para ver la vida basotho real: los jinetes bajan al mercado envueltos en mantas y con el poni cargado, y en invierno todo se cubre de nieve. Hay ruta a caballo hasta la base del salto y senderos a otras dos cascadas.",
-    "credit": "Wikimedia Commons",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lesotho%20maletsunyane%20falls.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lesotho%20maletsunyane%20falls.jpg",
+    "lat": -29.8701526,
+    "lon": 28.0535076,
+    "desc": "Maletsunyane cae en un único gran salto cerca de Semonkong y es el principal paisaje de cascada del país. El rápel comercial es una actividad del operador, no parte automática de la visita.",
+    "credit": "BagelBelt · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maletsunyanefalls.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Maletsunyanefalls.JPG",
     "icon": "naturaleza",
     "color": "verde",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "El anfiteatro basáltico y el acceso a pie justifican el desvío incluso sin realizar actividades de aventura.",
+      "see": "Cascada, garganta y miradores; caudal, spray y visibilidad cambian con la estación.",
+      "access": "El pin coincide con Maletsunyane Falls en Google Maps. Contratar guía para rutas a la base o actividades técnicas.",
+      "when": "Mañana o última hora con luz lateral y sin tormenta.",
+      "skip": "No acercarse al borde con niebla, viento, roca mojada o fuera de senderos reconocidos."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Maletsunyane Falls",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/maletsunyane-falls"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maletsunyanefalls.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Maletsunyanefalls.JPG",
+        "credit": "BagelBelt · dominio público",
+        "caption": "Caída completa de Maletsunyane Falls."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lesotho_maletsunyane_falls.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lesotho_maletsunyane_falls.jpg",
+        "credit": "Tim Sandell · CC BY-SA 3.0",
+        "caption": "Cascada y garganta de Maletsunyane."
+      }
+    ]
   },
   {
     "n": 19,
-    "name": "Quthing (Moyeni) · las huellas de dinosaurio",
+    "name": "Masitise Cave House and Museum",
     "cat": "Cultura",
     "prio": "Alta",
     "dog": "permitido con condiciones",
     "time": "medio día",
-    "lat": -30.4001,
-    "lon": 27.7002,
-    "desc": "La ciudad más meridional del país, a 1.500 m sobre el río Senqu (el Orange en su cabecera) y junto a la frontera del Tele Bridge con el Cabo Oriental. A la entrada, y prácticamente al borde de la carretera, hay un yacimiento de HUELLAS DE DINOSAURIO del Jurásico Inferior grabadas en la arenisca, de las más accesibles de África: se ven las pisadas de tres dedos sin necesidad de caminar nada. Cerca está la Masitise Cave House, una casa misionera de 1866 CONSTRUIDA DENTRO DE UN ABRIGO DE ROCA, hoy pequeño museo, y hay arte rupestre san por toda la comarca. Quthing fue fundada en 1877, abandonada en la Guerra de los Fusiles de 1880 y reconstruida después.",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -30.4050444,
+    "lon": 27.643283,
+    "desc": "Casa misionera construida bajo un abrigo de roca en 1866–67 y convertida en pequeño museo. Sustituye al antiguo pin genérico de Quthing y muestra el PDI concreto descrito.",
+    "credit": "Google Maps · autor visible en la ficha",
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlN-GGPbAovp23w_SgXSE-WA98OY6h_mGsHScbUfMSX9Irt-yNRmxe8x_CG2k70f2YvHbpRb4CW-VNfpXSWXxeP0AvINUa1rAZnqEi69MSdlevq6Q9rSaRtv_Mhhda8FW0zYzyb5A=w1200-h800-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Masitise+Cave+House+and+Museum+Lesotho",
     "icon": "cultura",
     "color": "morado",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Combina arquitectura singular, historia baphuthi y misionera y una visita manejable en el sur del país.",
+      "see": "Estancias bajo la roca y colección local; las huellas y pinturas del distrito no están todas en el museo.",
+      "access": "El pin coincide con Masitise Cave House and Museum. Seguir las indicaciones hacia el recinto de la iglesia y confirmar apertura.",
+      "when": "Horario diurno, preferiblemente con aviso previo.",
+      "skip": "Omitirlo si está cerrado; no presentar como parte del museo ningún yacimiento no visitado."
+    },
+    "links": [
+      {
+        "label": "Travel Lesotho · Masitise Cave House",
+        "url": "https://www.travellesotho.com/places-to-visit/masitise-cave-house/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlN-GGPbAovp23w_SgXSE-WA98OY6h_mGsHScbUfMSX9Irt-yNRmxe8x_CG2k70f2YvHbpRb4CW-VNfpXSWXxeP0AvINUa1rAZnqEi69MSdlevq6Q9rSaRtv_Mhhda8FW0zYzyb5A=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Masitise+Cave+House+and+Museum+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Fachada de Masitise Cave House bajo el abrigo rocoso."
+      },
+      {
+        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWln0GjeJ7RDQSZPiHl-YSnAwIMqZjB9CeK1euE9RjlIOkQvu7aLbPyXdyO8R98Ti5SZx3J8QXOkXoSd2eSgWHmMsBlypslpgdBh78yhXdOMwrTqnp4aDPi0LVqeolvdLXmzFtu-=w1200-h800-k-no",
+        "source": "https://www.google.com/maps/search/?api=1&query=Masitise+Cave+House+and+Museum+Lesotho",
+        "credit": "Google Maps · autor visible en la ficha",
+        "caption": "Interior y colección del mismo museo de Masitise."
+      }
+    ]
   },
   {
     "n": 20,
-    "name": "Parque Nacional de Sehlabathebe",
+    "name": "Sehlabathebe National Park",
     "cat": "Patrimonio UNESCO",
     "prio": "Alta",
     "dog": "prohibido",
     "time": "2–3 noches",
-    "lat": -29.8989,
-    "lon": 29.1211,
-    "desc": "El rincón más salvaje y remoto de Lesoto: 69,5 km² a una altitud media de 2.400 m, en el extremo sureste contra el escarpe del Drakensberg, dentro del bien Patrimonio de la Humanidad de MALOTI-DRAKENSBERG que Lesoto comparte con Sudáfrica. Es un paisaje surrealista de praderas de altura, formaciones de arenisca erosionadas en arcos y setas, lagunas y cascadas, con 65 YACIMIENTOS DE ARTE RUPESTRE SAN identificados y el pez endémico amenazado maluti redfin. Casi no hay nadie: fauna escasa y esquiva (rhebok, chacales, quizá algún íbice), pero silencio absoluto. El acceso es por pista dura desde Qacha's Nek o Sehonghong, y desde el parque se puede bajar a pie a Sudáfrica por el paso de Bushman's Nek (solo peatonal).",
-    "credit": "Sin fotografía verificada en esta revisión (ver pendientes)",
-    "img": "",
-    "source": "",
+    "lat": -29.9035304,
+    "lon": 29.1107486,
+    "desc": "Parque remoto de pradera, humedales y formaciones de arenisca integrado en el sitio Maloti-Drakensberg. La ficha de Google marca el parque, no garantiza la posición de la recepción.",
+    "credit": "Luke N. Vargas Dontexpect · dominio público",
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sehlabathebe_National_Park.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sehlabathebe_National_Park.jpg",
     "icon": "patrimonio unesco",
     "color": "marron",
-    "dog_note": ""
+    "dog_note": "",
+    "visit": {
+      "why": "Es el paisaje protegido más aislado de Lesoto y combina geología, arte rupestre y silencio.",
+      "see": "Arcos y formas de arenisca, lagunas y rutas; el arte rupestre requiere guía y máximo cuidado.",
+      "access": "El pin coincide con Sehlabathebe National Park en Google Maps. Confirmar por escrito puerta, lodge, pista y combustible antes de salir.",
+      "when": "Dos o tres noches con ventana seca y vehículo preparado.",
+      "skip": "No entrar con pista cortada, tormenta, combustible justo, mascota prohibida o sin confirmación del alojamiento."
+    },
+    "links": [
+      {
+        "label": "Visit Lesotho · Sehlabathebe",
+        "url": "https://www.visitlesotho.org.ls/place-to-visit/sehlabathebe-national-park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sehlabathebe_National_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sehlabathebe_National_Park.jpg",
+        "credit": "Luke N. Vargas Dontexpect · dominio público",
+        "caption": "Formaciones de arenisca en Sehlabathebe National Park."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Early_Morning_view_from_Sehlabathebe_House_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Early_Morning_view_from_Sehlabathebe_House_-_panoramio.jpg",
+        "credit": "Graham Maclachlan · CC BY-SA 3.0",
+        "caption": "Vista matinal desde Sehlabathebe House dentro del parque."
+      }
+    ]
   }
 ]

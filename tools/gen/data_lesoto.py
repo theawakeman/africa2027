@@ -204,8 +204,8 @@ HISTORIA_FUENTES = [
 ]
 
 SPEC = dict(
-    slug="lesoto", name="Lesoto", revision="12 sep 2026",
-    sub="ALTERNATIVA — pero la más fácil de encajar: ENCLAVE dentro de Sudáfrica · el mejor 4x4 del bloque sur después de Namibia",
+    slug="lesoto", name="Lesoto", revision="15 sep 2026",
+    sub="ALTERNATIVA — enclave dentro de Sudáfrica · corredor 4x4 de alta montaña",
     chips=[
         ("ESTATUS", "ALTERNATIVA — no está en la ruta fija, pero cabe entera dentro del corredor sudafricano"),
         ("COSTE DEL DESVÍO", "+900 km y +8-11 días (travesía completa norte-sur)"),

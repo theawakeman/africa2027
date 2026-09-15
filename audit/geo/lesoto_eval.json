@@ -1,0 +1,999 @@
+[
+ {
+  "id": "poi-1",
+  "type": "poi",
+  "name": "Butha-Buthe y la puerta norte",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -28.7667,
+  "lon": 28.25,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Black Mountain Pass Trail",
+   "kind": "highway=path",
+   "lat": -28.75405,
+   "lon": 28.69693,
+   "d": 43.6,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Black Mountain Pass Trail",
+    "kind": "highway=path",
+    "lat": -28.75405,
+    "lon": 28.69693,
+    "d": 43.6,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-2",
+  "type": "poi",
+  "name": "Parque Nacional de Ts'ehlanyane",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -28.917,
+  "lon": 28.583,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-3",
+  "type": "poi",
+  "name": "Liphofung · cuevas y arte rupestre",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -28.867,
+  "lon": 28.533,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-4",
+  "type": "poi",
+  "name": "Paso de Moteng y Oxbow",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -28.7333,
+  "lon": 28.6833,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Moteng Pass",
+   "kind": "mountain_pass=yes",
+   "lat": -28.75529,
+   "lon": 28.60121,
+   "d": 8.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Moteng Pass",
+    "kind": "mountain_pass=yes",
+    "lat": -28.75529,
+    "lon": 28.60121,
+    "d": 8.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-5",
+  "type": "poi",
+  "name": "Afriski (paso de Mahlasela) · esquiar en África",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -28.8228,
+  "lon": 28.7281,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Afri-Ski Resort",
+   "kind": "tourism=hotel",
+   "lat": -28.82284,
+   "lon": 28.72783,
+   "d": 0.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Afri-Ski Resort",
+    "kind": "leisure=sports_centre",
+    "lat": -28.82272,
+    "lon": 28.72746,
+    "d": 0.1,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Afri-Ski Resort Road",
+    "kind": "highway=unclassified",
+    "lat": -28.82708,
+    "lon": 28.72923,
+    "d": 0.5,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Afri-Ski Resort",
+    "kind": "tourism=hotel",
+    "lat": -28.82284,
+    "lon": 28.72783,
+    "d": 0.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-6",
+  "type": "poi",
+  "name": "Paso de Tlaeeng · la carretera asfaltada más alta de África austral",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -28.87,
+  "lon": 28.76,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Tlaeeng",
+   "kind": "waterway=stream",
+   "lat": -28.94492,
+   "lon": 28.84919,
+   "d": 12.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tlaeeng",
+    "kind": "waterway=stream",
+    "lat": -28.94492,
+    "lon": 28.84919,
+    "d": 12.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tlaeeng",
+    "kind": "waterway=stream",
+    "lat": -28.94028,
+    "lon": 28.88316,
+    "d": 14.3,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tlaeng Pass",
+    "kind": "mountain_pass=yes",
+    "lat": -28.94287,
+    "lon": 28.82846,
+    "d": 10.5,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-7",
+  "type": "poi",
+  "name": "Mokhotlong",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -29.29,
+  "lon": 29.07,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Mokhotlong District Council",
+   "kind": "amenity=townhall",
+   "lat": -29.28992,
+   "lon": 29.06994,
+   "d": 0.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mokhotlong",
+    "kind": "place=state",
+    "lat": -29.21907,
+    "lon": 29.03514,
+    "d": 8.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mokhotlong",
+    "kind": "place=town",
+    "lat": -29.28942,
+    "lon": 29.06317,
+    "d": 0.7,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Mokhotlong District Council",
+    "kind": "amenity=townhall",
+    "lat": -29.28992,
+    "lon": 29.06994,
+    "d": 0.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-8",
+  "type": "poi",
+  "name": "Thabana Ntlenyana · el techo de África austral",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -29.467,
+  "lon": 29.267,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Thabana Ntlenyana",
+   "kind": "natural=peak",
+   "lat": -29.46817,
+   "lon": 29.26917,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Thabana-Ntlenyana",
+    "kind": "natural=peak",
+    "lat": -29.47043,
+    "lon": 28.54543,
+    "d": 69.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Thabana Ntlenyana",
+    "kind": "natural=peak",
+    "lat": -29.46817,
+    "lon": 29.26917,
+    "d": 0.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-9",
+  "type": "poi",
+  "name": "Sani Pass · el acceso 4x4 mítico",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -29.5881,
+  "lon": 29.2927,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-10",
+  "type": "poi",
+  "name": "Sani Top · el pub más alto de África",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -29.5836,
+  "lon": 29.2879,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Clan Lodge",
+   "kind": "tourism=hotel",
+   "lat": -29.54941,
+   "lon": 28.61772,
+   "d": 64.9,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Clan Lodge",
+    "kind": "tourism=hotel",
+    "lat": -29.54941,
+    "lon": 28.61772,
+    "d": 64.9,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Maluti Mountain Breweries",
+    "kind": "building=warehouse",
+    "lat": -28.91096,
+    "lon": 27.92792,
+    "d": 151.7,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-11",
+  "type": "poi",
+  "name": "Presa de Katse",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -29.337,
+  "lon": 28.5061,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "LHDA Information Center",
+   "kind": "tourism=museum",
+   "lat": -29.34403,
+   "lon": 28.50661,
+   "d": 0.8,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "LHDA Information Center",
+    "kind": "tourism=museum",
+    "lat": -29.34403,
+    "lon": 28.50661,
+    "d": 0.8,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "poi-12",
+  "type": "poi",
+  "name": "Paso de Mafika Lisiu y reserva de Bokong",
+  "cat": "Naturaleza",
+  "clase": "area",
+  "lat": -29.25,
+  "lon": 28.35,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "poi-13",
+  "type": "poi",
+  "name": "Presa de Mohale y su carretera",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -29.467,
+  "lon": 28.083,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Mohale Dam Operations Centre",
+   "kind": "building=commercial",
+   "lat": -29.46187,
+   "lon": 28.10617,
+   "d": 2.3,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Mohale Dam Operations Centre",
+    "kind": "building=commercial",
+    "lat": -29.46187,
+    "lon": 28.10617,
+    "d": 2.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-14",
+  "type": "poi",
+  "name": "Maseru",
+  "cat": "Ciudad · servicios",
+  "clase": "ciudad",
+  "lat": -29.31,
+  "lon": 27.48,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Basotho Hat",
+   "kind": "shop=gift",
+   "lat": -29.31301,
+   "lon": 27.47842,
+   "d": 0.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Basotho Hat",
+    "kind": "shop=gift",
+    "lat": -29.31301,
+    "lon": 27.47842,
+    "d": 0.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-15",
+  "type": "poi",
+  "name": "Thaba-Bosiu · la montaña fortaleza de Moshoeshoe",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -29.3503,
+  "lon": 27.6714,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Thaba-Bosiu Cultural Village",
+   "kind": "tourism=attraction",
+   "lat": -29.34548,
+   "lon": 27.66098,
+   "d": 1.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Thaba-Bosiu Cultural Village",
+    "kind": "tourism=attraction",
+    "lat": -29.34548,
+    "lon": 27.66098,
+    "d": 1.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-16",
+  "type": "poi",
+  "name": "Morija · museo y huellas de dinosaurio",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -29.6333,
+  "lon": 27.5,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Morija Museum & Archives",
+   "kind": "tourism=museum",
+   "lat": -29.62631,
+   "lon": 27.50885,
+   "d": 1.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Morija Museum & Archives",
+    "kind": "tourism=museum",
+    "lat": -29.62631,
+    "lon": 27.50885,
+    "d": 1.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-17",
+  "type": "poi",
+  "name": "Malealea",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -29.85,
+  "lon": 27.6167,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Malealea Lodge",
+   "kind": "tourism=camp_site",
+   "lat": -29.82824,
+   "lon": 27.60152,
+   "d": 2.8,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Malealea Lodge",
+    "kind": "tourism=camp_site",
+    "lat": -29.82824,
+    "lon": 27.60152,
+    "d": 2.8,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Malealea Lodge",
+    "kind": "amenity=restaurant",
+    "lat": -29.82857,
+    "lon": 27.59952,
+    "d": 2.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Malealea Lodge",
+    "kind": "tourism=hostel",
+    "lat": -29.82796,
+    "lon": 27.60031,
+    "d": 2.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-18",
+  "type": "poi",
+  "name": "Semonkong y la cascada de Maletsunyane",
+  "cat": "Naturaleza",
+  "clase": "punto",
+  "lat": -29.8686,
+  "lon": 28.0517,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Maletsunyane Falls",
+   "kind": "waterway=waterfall",
+   "lat": -29.86824,
+   "lon": 28.05127,
+   "d": 0.1,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Maletsunyane Falls",
+    "kind": "waterway=waterfall",
+    "lat": -29.86824,
+    "lon": 28.05127,
+    "d": 0.1,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-19",
+  "type": "poi",
+  "name": "Quthing (Moyeni) · las huellas de dinosaurio",
+  "cat": "Cultura",
+  "clase": "punto",
+  "lat": -30.4001,
+  "lon": 27.7002,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Masitise Cave House",
+   "kind": "tourism=attraction",
+   "lat": -30.40549,
+   "lon": 27.64224,
+   "d": 5.6,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Masitise Cave House",
+    "kind": "tourism=attraction",
+    "lat": -30.40549,
+    "lon": 27.64224,
+    "d": 5.6,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "poi-20",
+  "type": "poi",
+  "name": "Parque Nacional de Sehlabathebe",
+  "cat": "Patrimonio UNESCO",
+  "clase": "area",
+  "lat": -29.8989,
+  "lon": 29.1211,
+  "veredicto": "OK?",
+  "ref": {
+   "src": "osm",
+   "name": "Sehlaba Thebe National Park Lodge",
+   "kind": "tourism=guest_house",
+   "lat": -29.87783,
+   "lon": 29.07494,
+   "d": 5.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sehlaba Thebe National Park Lodge",
+    "kind": "tourism=guest_house",
+    "lat": -29.87783,
+    "lon": 29.07494,
+    "d": 5.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Sehlaba Thebe National Park Lodge",
+    "kind": "leisure=resort",
+    "lat": -29.87783,
+    "lon": 29.07494,
+    "d": 5.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-0",
+  "type": "log",
+  "name": "Frontera · Caledonspoort (con Sudáfrica, Free State)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -28.6833,
+  "lon": 28.3667,
+  "veredicto": "DUDOSO",
+  "ref": {
+   "src": "osm",
+   "name": "Caledon's Poort Bridge",
+   "kind": "bridge=yes",
+   "lat": -28.69454,
+   "lon": 28.23395,
+   "d": 13.0,
+   "match": false
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Caledon's Poort Bridge",
+    "kind": "bridge=yes",
+    "lat": -28.69454,
+    "lon": 28.23395,
+    "d": 13.0,
+    "match": false
+   },
+   {
+    "src": "osm",
+    "name": "Caledon's Poort Bridge",
+    "kind": "bridge=yes",
+    "lat": -28.69495,
+    "lon": 28.2338,
+    "d": 13.0,
+    "match": false
+   }
+  ]
+ },
+ {
+  "id": "log-1",
+  "type": "log",
+  "name": "Frontera · Maseru Bridge (con Sudáfrica, Free State)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -29.3167,
+  "lon": 27.4667,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Maseru Bridge",
+   "kind": "highway=trunk",
+   "lat": -29.29777,
+   "lon": 27.45427,
+   "d": 2.4,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Maseru Bridge",
+    "kind": "highway=trunk",
+    "lat": -29.29777,
+    "lon": 27.45427,
+    "d": 2.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maseru Bridge",
+    "kind": "highway=trunk",
+    "lat": -29.29805,
+    "lon": 27.45471,
+    "d": 2.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maseru Bridge",
+    "kind": "bridge=yes",
+    "lat": -29.29777,
+    "lon": 27.45427,
+    "d": 2.4,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-2",
+  "type": "log",
+  "name": "Frontera · Sani Pass (con Sudáfrica, KwaZulu-Natal)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -29.5836,
+  "lon": 29.2879,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Sani Pass",
+   "kind": "mountain_pass=yes",
+   "lat": -29.5852,
+   "lon": 29.28702,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Sani Pass",
+    "kind": "mountain_pass=yes",
+    "lat": -29.5852,
+    "lon": 29.28702,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sani Pass",
+    "kind": "highway=primary",
+    "lat": -29.58464,
+    "lon": 29.28616,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Sani Pass Hotel",
+    "kind": "place=village",
+    "lat": -29.65657,
+    "lon": 29.44547,
+    "d": 17.3,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-3",
+  "type": "log",
+  "name": "Frontera · Qacha's Nek (con Sudáfrica, Cabo Oriental)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -30.1167,
+  "lon": 28.6833,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Verganoeg (Qacha's Nek)",
+   "kind": "place=suburb",
+   "lat": -30.11767,
+   "lon": 28.68109,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Qacha's Nek",
+    "kind": "place=town",
+    "lat": -30.11333,
+    "lon": 28.6811,
+    "d": 0.4,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Qacha's Nek",
+    "kind": "place=state",
+    "lat": -29.96565,
+    "lon": 28.73806,
+    "d": 17.6,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Verganoeg (Qacha's Nek)",
+    "kind": "place=suburb",
+    "lat": -30.11767,
+    "lon": 28.68109,
+    "d": 0.2,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-4",
+  "type": "log",
+  "name": "Frontera · Tele Bridge (con Sudáfrica, Cabo Oriental)",
+  "cat": "Frontera",
+  "clase": "punto",
+  "lat": -30.4333,
+  "lon": 27.7333,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Tele Bridge",
+   "kind": "bridge=yes",
+   "lat": -30.43173,
+   "lon": 27.56716,
+   "d": 15.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Tele Bridge",
+    "kind": "bridge=yes",
+    "lat": -30.43173,
+    "lon": 27.56716,
+    "d": 15.9,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Tele Bridge",
+    "kind": "bridge=yes",
+    "lat": -30.43206,
+    "lon": 27.56744,
+    "d": 15.9,
+    "match": true
+   },
+   {
+    "src": "wd",
+    "name": "Puente de Telle",
+    "kind": "puente y puesto de control fronterizo en la frontera entre Lesoto y Sudáfrica",
+    "lat": -30.4303,
+    "lon": 27.5658,
+    "d": 16.1,
+    "match": false,
+    "id": "Q14245569"
+   }
+  ]
+ },
+ {
+  "id": "log-5",
+  "type": "log",
+  "name": "Embajada de España en Pretoria (competente para Lesoto)",
+  "cat": "Consular",
+  "clase": "punto",
+  "lat": -25.75,
+  "lon": 28.2333,
+  "veredicto": "SIN_REF",
+  "ref": null,
+  "cands": []
+ },
+ {
+  "id": "log-6",
+  "type": "log",
+  "name": "Queen 'Mamohato Memorial Hospital, Maseru",
+  "cat": "Hospital",
+  "clase": "punto",
+  "lat": -29.31,
+  "lon": 27.48,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Queen Mamohato Memorial Hospital (QMMH)",
+   "kind": "amenity=hospital",
+   "lat": -29.34309,
+   "lon": 27.52877,
+   "d": 6.0,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Queen Mamohato Memorial Hospital (QMMH)",
+    "kind": "amenity=hospital",
+    "lat": -29.34309,
+    "lon": 27.52877,
+    "d": 6.0,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-7",
+  "type": "log",
+  "name": "Combustible · Butha-Buthe, Maseru, Mokhotlong, Thaba-Tseka, Semonkong, Quthing",
+  "cat": "Combustible",
+  "clase": "ciudad",
+  "lat": -29.31,
+  "lon": 27.48,
+  "veredicto": "DESPLAZADO",
+  "ref": {
+   "src": "osm",
+   "name": "Butha Buthe Industrial Park",
+   "kind": "landuse=industrial",
+   "lat": -28.76923,
+   "lon": 28.24797,
+   "d": 95.9,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Butha-Buthe",
+    "kind": "place=state",
+    "lat": -28.80295,
+    "lon": 28.56384,
+    "d": 119.5,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Butha-Buthe",
+    "kind": "place=town",
+    "lat": -28.76711,
+    "lon": 28.25025,
+    "d": 96.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Butha Buthe Industrial Park",
+    "kind": "landuse=industrial",
+    "lat": -28.76923,
+    "lon": 28.24797,
+    "d": 95.9,
+    "match": true
+   }
+  ]
+ },
+ {
+  "id": "log-8",
+  "type": "log",
+  "name": "Agua potable y de uso general · Maseru, Butha-Buthe, Semonkong",
+  "cat": "Agua potable",
+  "clase": "ciudad",
+  "lat": -29.31,
+  "lon": 27.48,
+  "veredicto": "OK",
+  "ref": {
+   "src": "osm",
+   "name": "Maseru",
+   "kind": "place=city",
+   "lat": -29.31005,
+   "lon": 27.47822,
+   "d": 0.2,
+   "match": true
+  },
+  "cands": [
+   {
+    "src": "osm",
+    "name": "Maseru",
+    "kind": "place=city",
+    "lat": -29.31005,
+    "lon": 27.47822,
+    "d": 0.2,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maseru",
+    "kind": "place=state",
+    "lat": -29.58169,
+    "lon": 27.82432,
+    "d": 45.0,
+    "match": true
+   },
+   {
+    "src": "osm",
+    "name": "Maseru",
+    "kind": "railway=station",
+    "lat": -29.29778,
+    "lon": 27.47045,
+    "d": 1.6,
+    "match": true
+   }
+  ]
+ }
+]

@@ -15,7 +15,8 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 5 | Zambia, Tanzania, Kenia, Mozambique | Cerrado | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 | Cerrado: 75/75 con foto; 74 galerías | Pendiente |
 | 6 | Uganda, Ruanda, Malaui | Cerrado | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 | Cerrado: 60/60 con foto; 58 galerías | Pendiente |
 | 7 | Zimbabue, Botsuana, Sudáfrica | Cerrado | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 con foto; 44 galerías | Pendiente |
-| 8+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| 8 | Esuatini, Lesoto | Cerrado | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 con foto; 36 galerías | Pendiente |
+| 9+ | Resto del itinerario | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
 
 ## Línea de corte de la nueva pasada PDI
 
@@ -24,11 +25,12 @@ empieza en el **grupo 4**. Los grupos 1–3 no deben interpretarse como revisado
 en esas tres columnas: se volverá a ellos en una pasada retroactiva.
 
 El detalle cuantitativo está en [`audit/pdi/grupo4.md`](pdi/grupo4.md),
-[`audit/pdi/grupo5.md`](pdi/grupo5.md), [`audit/pdi/grupo6.md`](pdi/grupo6.md)
-y [`audit/pdi/grupo7.md`](pdi/grupo7.md). Los grupos 4–7 ya cumplen el nuevo
-estándar en el contenido fuente. El grupo 8 es, por tanto, el primer grupo
-completamente intacto. Al terminar los bloques pendientes se volverá a los
-grupos 1–3 para aplicarles exactamente el mismo criterio ampliado.
+[`audit/pdi/grupo5.md`](pdi/grupo5.md), [`audit/pdi/grupo6.md`](pdi/grupo6.md),
+[`audit/pdi/grupo7.md`](pdi/grupo7.md) y [`audit/pdi/grupo8.md`](pdi/grupo8.md).
+Los grupos 4–8 ya cumplen el nuevo estándar en el contenido fuente. El grupo 9
+es, por tanto, el primer grupo completamente intacto. Al terminar los bloques
+pendientes se volverá a los grupos 1–3 para aplicarles exactamente el mismo
+criterio ampliado.
 
 ## Criterio de cierre por PDI
 
@@ -52,7 +54,7 @@ grupos 1–3 para aplicarles exactamente el mismo criterio ampliado.
   repite el resumen corto y la portada representativa de la tarjeta; «Ver ficha
   ampliada» abre el modal sobre el mapa y al cerrarlo conserva centro, zoom y
   capas. La validación global confirma esa sincronía en todos los PDIs que ya
-  tienen fotografía. Esuatini y Lesoto conservan, de forma explícita y sin
-  imágenes inventadas, los únicos huecos visuales pendientes para su bloque.
+  tienen fotografía. En el grupo 8 los 36 PDIs comparten fuente, resumen y
+  portada entre tarjeta, globo y modal, y todos disponen de galería.
 - Agua para lavar/ducharse en el vehículo: auditoría específica pendiente para
   todos los países; no se dará por válido un grifo genérico sin acceso confirmado.
