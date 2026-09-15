@@ -161,11 +161,11 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .hero.small .hero-txt p strong { color:#fff; }
 /* Leyenda del mapa del CPD */
 .cpdleg { display:flex; flex-wrap:wrap; gap:8px 18px; margin:12px 0 4px; }
-.cpdkey { display:flex; align-items:flex-start; gap:7px; font-size:13px; color:#3d4a50;
+.cpdkey { display:flex; align-items:flex-start; gap:7px; font-size:13px; color:var(--ink-soft);
   max-width:330px; line-height:1.35; }
 .cpdkey i { flex:0 0 auto; width:14px; height:14px; border-radius:3px; margin-top:2px;
   border:1px solid rgba(0,0,0,.12); }
-.cpdkey b { color:#16242b; white-space:nowrap; }
+.cpdkey b { color:var(--ink); white-space:nowrap; }
 .cpdkey span { display:block; }
 /* Referencias internas §N: saltan a su sección y dicen cuál al pasar el ratón */
 a.sec { color:#0F5F6E; font-weight:600; text-decoration:none; white-space:nowrap;

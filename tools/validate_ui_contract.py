@@ -67,6 +67,9 @@ for page in carousel_pages:
 # fuente única de fechas en todas las fichas.
 require('class="hero small"' in visa_html and 'class="cpdleg"' in visa_html,
         "Visados debe conservar los componentes visuales de CPD")
+require('.cpdkey { display:flex;' in css and 'color:var(--ink-soft)' in css and
+        '.cpdkey b { color:var(--ink)' in css,
+        "la leyenda de visados y CPD debe ser legible también en modo oscuro")
 require("assets/css/site.css?v=" in visa_html, "falta versionar el CSS de Visados")
 require("assets/js/visamap.js?v=" in visa_html, "falta versionar el mapa de Visados")
 require("function a27VisaMap" in visa_js, "falta el mapa interactivo de Visados")
