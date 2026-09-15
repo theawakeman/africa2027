@@ -30,6 +30,7 @@ def make_ficha(spec):
     d["logistics"] = [{"name": n, "cat": c, "lat": la, "lon": lo, "info": i} for n, c, la, lo, i in s["logistics"]]
     d["corridor"] = s.get("corridor", [])
     d["corridor_alt"] = s.get("corridor_alt", [])
+    d["extra_corridors"] = s.get("extra_corridors", [])
     d["corridor_label"] = s.get("corridor_label", "Corredor")
     d["corridor_alt_label"] = s.get("corridor_alt_label", "Corredor (alternativo)")
 

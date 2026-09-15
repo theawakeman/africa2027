@@ -221,6 +221,16 @@ EXPERIENCIAS = [
 CORRIDOR_LABEL = "Bajada"
 CORRIDOR_ALT_LABEL = "Subida"
 
+# Cabinda es un tramo angoleño separado por territorio de la RDC. Se representa
+# como dos segmentos principales independientes para no dibujar una falsa línea
+# directa entre Yema y Lufu a través de Kongo Central.
+EXTRA_CORRIDORS = [
+    dict(label="Bajada · tránsito terrestre por Cabinda", role="bajada", color="#1E7A8A", dash=False,
+         pts=[(-4.98944, 12.05712), (-5.5576435, 12.1919468), (-5.74183, 12.29559)]),
+    dict(label="Subida · tránsito terrestre por Cabinda", role="subida", color="#C47F17", dash=True,
+         pts=[(-5.74183, 12.29559), (-5.5576435, 12.1919468), (-4.98944, 12.05712)]),
+]
+
 HISTORIA_RESUMEN = ("Angola, heredera del gran reino de Ndongo y del reino de Kongo, sufrió casi cinco siglos de presencia colonial portuguesa centrada en la trata de esclavos hacia Brasil, y tras una independencia tardía en 1975 se sumió de inmediato en una guerra civil de 27 años "
                      "(1975-2002) que fue uno de los grandes escenarios de la Guerra Fría en África, con Cuba y la URSS apoyando al gobierno marxista y Sudáfrica y Estados Unidos a la guerrilla de UNITA; la paz de 2002 dio paso a un boom petrolero que ha transformado Luanda en una de las ciudades más caras del mundo.")
 
@@ -243,7 +253,7 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="angola", name="Angola", revision="11 sep 2026",
-    sub="Corredor doble bajada/subida · documentación · seguridad · logística",
+    sub="Corredor doble · tránsito terrestre por Cabinda · Angola continental · documentación y seguridad",
     chips=[
         ("BAJADA", "Lufu/Luvo → Malanje → altiplano de Huambo → Moxico → Caripande (Zambia) · ~2.600 km"),
         ("SUBIDA", "Santa Clara → Iona/Namibe → Leba/Tundavala → Benguela → Kissama → Luanda → Lufu/Luvo · ~2.400 km"),
@@ -257,6 +267,7 @@ SPEC = dict(
     center=[-12.0, 15.5], zoom=5,
     notice="Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
+    extra_corridors=EXTRA_CORRIDORS,
     corridor_label=CORRIDOR_LABEL, corridor_alt_label=CORRIDOR_ALT_LABEL,
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
     resumen_intro=("Angola se recorre DOS VECES en direcciones distintas: en la <strong>bajada</strong>, tras RD Congo, un eje corto por Luanda y un desvío interior a las cascadas de Kalandula y Pedras Negras antes de internarse hacia el este remoto de Moxico y cruzar a Zambia por Caripande/Cazombo; "

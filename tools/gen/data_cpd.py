@@ -90,17 +90,20 @@ CPD = {
                 "Con carnet: TVAP + CPD y sin discusión. Sin carnet: nadie ha documentado que lo concedan."),
     "camerun": ("no", "PROBABLE", "Passavant (corto en frontera, definitivo en Banyo)", "~15 USD (2023)",
                 "Una sola fuente de campo (2023)."),
-    "congo": ("no", "PROBABLE", "TIP / laissez-passer", "~16 USD (2023)", "Una sola fuente de campo (2023)."),
-    "rd-congo": ("no", "PROBABLE", "TIP", "~15 USD (2023)",
-                 "El problema del tramo no es aduanero: entre Brazzaville y Kinshasa existe una barcaza "
-                 "pública que lleva vehículos, pero las agencias no la recomiendan por seguridad y el "
-                 "servicio especializado parte de ~4.000 € por vehículo con 1-3 días de espera. El único "
-                 "precedente con vehículos localizado (2017) evitó la RDC entrando en Angola por Cabinda."),
-    "angola": ("no", "CONFIRMADO", "TIP en frontera", "~10 USD (2023)",
-               "Aquí el CPD puede ESTORBAR. Un comentario en el blog de Tracks4Africa (2014) afirma que "
-               "«el carnet no se acepta en Angola», y Pistenkuh (2022) cuenta que a ellos les sellaron "
-               "mal el carnet al salir de Angola hacia Namibia. Un carnet mal sellado es justo lo que "
-               "hace perder el aval."),
+    "congo": ("no", "PROBABLE", "TIP / laissez-passer por confirmar en Massabi", "Sin tarifa pública localizada",
+              "La ruta principal ya no usa el ferry: sale y entra por Tchiamba-Nzassi/Massabi. El puesto "
+              "está operativo y tiene aduana, pero no se ha localizado el procedimiento ni el coste oficial "
+              "para un turismo extranjero. Llevar el CPD y pedir confirmación escrita antes del paso."),
+    "rd-congo": ("no", "PROBABLE", "TIP / laissez-passer por confirmar en Yema y Lufu", "Sin tarifa pública localizada",
+                 "La ruta principal cruza Kongo Central por Yema–Muanda–Matadi–Lufu, dos veces y sin ferry. "
+                 "Cada entrada puede exigir seguro y documento temporal nuevos. Kinshasa y la barcaza quedan "
+                 "solo como contingencia secundaria."),
+    "angola": ("no", "PROBABLE", "Importación temporal por confirmar en cada entrada",
+               "43.236,78 AOA por entrada de turismo ligero (aviso oficial, julio de 2025)",
+               "La referencia oficial suma pase fronterizo y autorización de transporte turístico. El viaje "
+               "genera hasta cuatro entradas angoleñas entre Cabinda y el territorio continental: presupuestar "
+               "cada una hasta que ANTT confirme por escrito si el pase de 30 días puede reutilizarse. Llevar "
+               "el CPD, pero no permitir un sellado incorrecto ni asumir que sustituye el trámite local."),
     # ------------------------------------------------------------------ bucle
     "zambia": ("no", "CONFIRMADO", "Sin TIP: paquete de tasas en frontera", "~60-100 USD (datos 2014-2019)",
                "Carbon tax (se paga en kwachas según cilindrada: 150-275 ZMW en 2017-2019, unos 6-11 "

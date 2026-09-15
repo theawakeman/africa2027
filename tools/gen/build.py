@@ -395,6 +395,15 @@ def map_lines(d):
         lines.append({"label":d.get("corridor_label","Corredor"),"color":"#1E7A8A","pts":[[round(a,5),round(b,5)] for a,b in d["corridor"]]})
     if d.get("corridor_alt"):
         lines.append({"label":d.get("corridor_alt_label","Corredor (alternativo)"),"color":"#C47F17","dash":True,"pts":[[round(a,5),round(b,5)] for a,b in d["corridor_alt"]]})
+    for extra in d.get("extra_corridors", []):
+        if not isinstance(extra, dict) or not extra.get("pts"):
+            continue
+        lines.append({
+            "label": extra.get("label", "Ramal"),
+            "color": extra.get("color", "#5F6B72"),
+            "dash": bool(extra.get("dash", True)),
+            "pts": [[round(a, 5), round(b, 5)] for a, b in extra["pts"]],
+        })
     return lines
 
 
@@ -442,6 +451,16 @@ def map_lines_general(d):
         lines.append({"label": label, "color": color, "dash": dash,
                       "title": f"{d['name']} · {d.get(key + '_label', 'Corredor')}",
                       "pts": [[round(a, 5), round(b, 5)] for a, b in d[key]]})
+    for extra in d.get("extra_corridors", []):
+        if not isinstance(extra, dict) or not extra.get("pts"):
+            continue
+        role = extra.get("role", "alternativa")
+        if role not in MAPA_GENERAL_CAPAS:
+            role = "alternativa"
+        label, color, dash = MAPA_GENERAL_CAPAS[role]
+        lines.append({"label": label, "color": color, "dash": dash,
+                      "title": f"{d['name']} · {extra.get('label', 'Ramal')}",
+                      "pts": [[round(a, 5), round(b, 5)] for a, b in extra["pts"]]})
     return lines
 
 # ---------------------------------------------------------------- nav helper
@@ -510,7 +529,7 @@ def render_ficha(d):
             p["ficha"] = f"#poi-{n}"
     map_html = (
         f'<div id="fichamap" class="mapbox"></div>'
-        f'<p class="figcap">Línea turquesa: corredor base · línea ámbar discontinua: variante. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'
+        f'<p class="figcap">Activa o desactiva los corredores y ramales desde la leyenda. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'
         f'<script>var A27_FICHA = {json.dumps(cfg, ensure_ascii=False)};</script>'
     )
     body.append(sec("mapa", "Mapa del corredor", map_html))

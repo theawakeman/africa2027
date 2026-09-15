@@ -469,7 +469,7 @@ PetTravel afirma que los perros entran *"vía Aeropuerto Internacional Murtala M
 
 **Entrada terrestre:** **[SIN CONFIRMAR]** en ambos. **Agujero negro documental**, también en fuentes de campo: el único precedente localizado con perros (The Pack Track, 2017) cruzó Gabón y Congo por tierra sin contar qué papeles le pidieron, y **evitó la RDC** entrando en Angola por Cabinda.
 
-Complicación adicional: entre Brazzaville y Kinshasa el cruce es **fluvial** (ferry sobre el río Congo), lo que puede implicar **procedimiento de puerto** y no de frontera terrestre — con requisitos potencialmente distintos y más formales.
+La ruta principal ya no usa el ferry Brazzaville–Kinshasa: cruza por tierra en **Massabi → Cabinda → Yema**, atraviesa Kongo Central hasta **Lufu/Luvo** y repite el eje a la subida. El ferry queda como contingencia secundaria. Para el perro esto no elimina el problema documental: Congo y RD Congo reciben dos entradas cada uno, y Angola puede registrar cuatro entradas entre Cabinda y el territorio continental.
 
 **Papeles:** **[SIN CONFIRMAR]**. Congo: el portal del ministerio está en mantenimiento y la página de la Direction Générale de l'Élevage devuelve 404. RD Congo: el portal del MINASA tiene contacto pero ningún trámite; el control en frontera lo ejerce el **Service de la Quarantaine Animale et Végétale (SQAV)** (decreto 05/161 de 2005, sin contacto propio), y la Direction des Services Vétérinaires depende probablemente del **Ministère de la Pêche et Élevage**, no del MINASA. Fuente comercial (Anivetvoyage) para la RDC: certificado <10 días, rabia >1 mes y <1 año, microchip.
 
@@ -494,7 +494,7 @@ Complicación adicional: entre Brazzaville y Kinshasa el cruce es **fluvial** (f
 
 **Entrada terrestre:** ✅ Probable. **[PROBABLE]**
 **Papeles:** **[CONFIRMADO]** por el certificado oficial bilateral de la DGAV portuguesa (2023): **licença zoo-sanitária previa** (*"a solicitar pelos interessados"*; el emisor es el **Instituto dos Serviços de Veterinária (ISV)**, autoridad competente), **microchip**, vacuna antirrábica administrada **más de 72 h antes** del embarque, examen clínico acreditado por veterinario clínico, certificado **válido 10 días** y —dato que faltaba— **titulación antirrábica ≥0,5 UI/ml en laboratorio autorizado OIE**, con sangre extraída ≥30 días después de la vacuna. Llevar el resultado original vinculado al microchip. Documentación **en portugués**. Es un modelo Portugal→Angola: confirmar en CEXGAN si España usa el mismo. PetTravel lo contradice en todo (sin permiso, 14 días, sin titulación, «air cargo»): se conserva la oficial. Ninguna página angoleña describe el trámite.
-Se cruza **dos veces**: contar con **dos permisos**.
+Angola puede registrar **cuatro entradas** en el itinerario revisado (Cabinda y territorio continental en ambos sentidos): confirmar si la licença zoo-sanitaria cubre varias entradas dentro de su vigencia o si hacen falta hasta cuatro permisos. No presupuestar solo dos sin respuesta escrita.
 
 ---
 

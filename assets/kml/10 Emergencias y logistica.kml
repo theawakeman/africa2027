@@ -1514,227 +1514,178 @@
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Ntam / Souanké (desde Camerún)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto de control fronterizo de Ntam en el corredor Brazzaville–Yaundé. El pin coincide con el Poste de Contrôle Unique Frontalier identificado, no con Souanké ni con el centro de Ntam. Confirmar con ambos países horario, inmigración, aduana, sellado del CPD y admisión de vehículos extranjeros antes de usarlo.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.17209,13.69843">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Pin del Poste de Contrôle Unique Frontalier. Confirmar admisión de turismos extranjeros, inmigración y sellado aduanero antes de usar el corredor.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=2.17209,13.69843">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.69843,2.17209,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida bajada — Beach de Brazzaville, ferry hacia Kinshasa</name>
-    <description><![CDATA[<b>Frontera</b><br/>El cruce más notorio de África para overlanders. NO hay puente sobre el río Congo. Pasajeros en canot rapide (15-20 min, ~16.400 FCFA por persona según relatos de 2024-2025); vehículos en el bac/barcaza, con salidas limitadas y no diarias. Intervienen puerto, inmigración (DGM del lado RDC), aduanas de ambos países, higiene (fiebre amarilla) y policía. Presupuestar UN DÍA ENTERO por persona y 1-3 días adicionales para el despacho del vehículo en Kinshasa. Empezar a primera hora; hay quien recomienda cruzar en domingo, con menos aglomeración. Coordinar con la ficha de RD Congo, que documenta el trámite desde la otra orilla.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.279,15.286">Google Maps</a>]]></description>
+    <name>Frontera principal · Tchiamba-Nzassi / Massabi (hacia Cabinda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto terrestre real en la RN4. UniCongo documenta presencia de policía, gendarmería, inteligencia, aduanas y ARTF, y movimiento de viajeros en 2024. La referencia SADC indica 08:00–17:00; confirmar horario, importación temporal y coste para vehículo particular 72 h antes.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.98944,12.05712">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.286,-4.279,0</coordinates></Point>
+    <Point><coordinates>12.05712,-4.98944,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada subida — Beach de Brazzaville, ferry desde Kinshasa</name>
-    <description><![CDATA[<b>Frontera</b><br/>Mismo cruce en sentido inverso, ya de vuelta desde Angola/RD Congo. Segundo día entero de trámites. Aquí arranca el corredor de subida: Brazzaville → Ngo → Djambala → Lékana → Okoyo → Boundji → Owando → Makoua → Ouesso.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.279,15.286">Google Maps</a>]]></description>
+    <name>Frontera principal · Massabi / Tchiamba-Nzassi (entrada subida)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Mismo puesto terrestre de regreso desde Cabinda. El visado congoleño debe cubrir esta segunda entrada; no presentarse confiando en una entrada anterior ya consumida.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.98944,12.05712">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.05712,-4.98944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Alternativa secundaria · Beach de Brazzaville / ferry a Kinshasa</name>
+    <description><![CDATA[<b>Frontera</b><br/>Cruce fluvial conservado solo como plan alternativo. No es ruta principal por coste, esperas, despacho separado del vehículo y ausencia de puente. No reservar ni acercarse sin gestor y presupuesto escrito.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.279,15.286">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.286,-4.279,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Salida subida — Socambo / Moloundou (hacia Camerún)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Paso fluvial sobre el río Ngoko frente a Ouesso: barcaza o piragua motorizada, sin puente. Elegido para que la subida no repita el corredor Ketta-Djoum. CRÍTICO POR CONFIRMAR: capacidad real de la barcaza para vehículos de 3 t, frecuencia, horario, y si la aduana camerunesa de Moloundou sella CPD de vehículo extranjero. Plan B: salir de nuevo por Ntam/Souanké. Coordenada aproximada.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.70621,16.12017">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Frontera</b><br/>Paso fluvial todavía condicionado a confirmar barcaza para vehículos, aduana y horario. Plan B: salir otra vez por Ntam/Souanké.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.70621,16.12017">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>16.12017,1.70621,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Doussala · futuro cruce hacia Gabón (no operativo)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Punto informativo en la localidad de Doussala. La carretera y el puente fronterizo del Ngongo seguían en construcción en 2026, por lo que no se considera un cruce operativo. No utilizarlo sin confirmación oficial de final de obra, apertura de aduanas e inmigración y admisión de vehículos extranjeros.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.64791,11.63284">Google Maps</a>]]></description>
-    <styleUrl>#icon-frontera</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>11.63284,-2.64791,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)</name>
-    <description><![CDATA[<b>Consular</b><br/>Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe), RD Congo. Tel. +243 813 300 061 / 817 008 770 · Emergencia consular: +243 819 500 289. NO hay embajada española en Congo-Brazzaville: la representación competente está justo al otro lado del río, lo que en la práctica significa que para cualquier gestión consular hay que cruzar el ferry.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.30662,15.27696">Google Maps</a>]]></description>
-    <styleUrl>#icon-consular</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.27696,-4.30662,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Hôpital Général de Brazzaville (CHU)</name>
-    <description><![CDATA[<b>Hospital</b><br/>Centro hospitalario universitario de referencia en Brazzaville, junto con el Hôpital Central des Armées Pierre Mobengo. El pin marca el complejo real; confirmar admisión y cobertura del seguro.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.26497,15.26915">Google Maps</a>]]></description>
+    <name>CHU de Brazzaville</name>
+    <description><![CDATA[<b>Hospital</b><br/>El pin marca el complejo hospitalario real. Referencia nacional; confirmar admisión y cobertura del seguro antes del viaje.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.26497,15.26915">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.26915,-4.26497,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Hospitales de Pointe-Noire</name>
-    <description><![CDATA[<b>Hospital</b><br/>Hôpital Général Adolphe Sicé y clínicas privadas ligadas al sector petrolero: la mejor sanidad privada del país, relevante solo si se hace el desvío suroeste.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
-    <styleUrl>#icon-hospital</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <name>Pointe-Noire · zona urbana de servicios</name>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia del centro urbano, no una gasolinera, taller, hospital ni grifo concretos. Aquí debe cerrarse una base vigilada que confirme por escrito estacionamiento, reparación si hace falta y recarga de agua de servicio antes de Massabi.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>11.8481,-4.7975,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Hôpital de base de Ouesso</name>
-    <description><![CDATA[<b>Hospital</b><br/>Única referencia sanitaria seria de todo el norte forestal, entre Odzala, Nouabalé-Ndoki y las dos fronteras cameruneses. A más de 800 km de Brazzaville.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
-    <styleUrl>#icon-hospital</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <name>Ouesso · zona urbana de servicios</name>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no instalación concreta. Reponer combustible, comida y agua mediante un hotel o misión que lo confirme antes de entrar en el bloque forestal.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>16.05,1.6167,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Ouesso</name>
-    <description><![CDATA[<b>Combustible</b><br/>Últimas estaciones formales del norte. Salir de aquí con depósitos y garrafas al 100 % antes de Odzala o de Nouabalé-Ndoki: dentro del bloque forestal el combustible es en bidones, caro y no garantizado.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>16.05,1.6167,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Combustible · Etoumbi (puerta de Odzala)</name>
-    <description><![CDATA[<b>Combustible</b><br/>Último punto con oferta —irregular— antes de Mbomo y del parque. Etoumbi es además el pueblo-puerta del sector occidental de Odzala. Confirmar existencias; no planificar contando con ellas.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=0.0167,14.95">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>14.95,0.0167,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Combustible · Owando</name>
-    <description><![CDATA[<b>Combustible</b><br/>Plaza intermedia obligada de la RN2 entre Brazzaville y Ouesso (~400 km a cada lado). Repostar aunque el depósito no esté bajo.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-0.4833,15.9">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.9,-0.4833,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Combustible · Brazzaville</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Total, X-Oil, Puma). Repostar a fondo antes del ferry: al otro lado, en Kinshasa, la calidad es más variable y el despacho puede retenernos días.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2634,15.2429">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <name>Brazzaville · zona urbana de servicios</name>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia de área logística, no grifo público. Concertar alojamiento con patio, combustible formal y permiso explícito para recargar el depósito de ducha y lavado.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2634,15.2429">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.2429,-4.2634,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Djambala y Okoyo (corredor de subida)</name>
-    <description><![CDATA[<b>Combustible</b><br/>Oferta escasa en el eje de las mesetas Batéké. Salir de Brazzaville con autonomía suficiente para llegar holgadamente a Owando.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-2.5333,14.75">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>14.75,-2.5333,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Combustible · Dolisie y Pointe-Noire (desvío suroeste)</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales y la mejor calidad de gasóleo del país en Pointe-Noire, por el sector petrolero.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.7975,11.8481">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>11.8481,-4.7975,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Agua potable y de uso general · Brazzaville</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles y estaciones de servicio permiten llenar el depósito de uso general con manguera. Es el mejor punto de recarga completa antes de la travesía norte.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.2634,15.2429">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.2429,-4.2634,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Agua potable y de uso general · Ouesso y Owando</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Recarga posible en hoteles y misiones. A partir de aquí, hacia Odzala o hacia Nouabalé-Ndoki, el agua es de río o de pozo: filtrar y potabilizar sin excepción.<br/><a href="https://theawakeman.github.io/africa2027/paises/congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=1.6167,16.05">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>16.05,1.6167,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Beach Ngobila · terminal migratoria desde Brazzaville</name>
-    <description><![CDATA[<b>Frontera</b><br/>Único cruce posible entre las dos capitales: NO existe puente sobre el río Congo (el proyecto de puente carretera-ferrocarril Brazzaville–Kinshasa está firmado pero no construido). Pasajeros en canot rapide (15-20 min); vehículos en el bac/barcaza, con salidas limitadas y no diarias. Intervienen DGM (inmigración), DGDA (aduana), OCC, higiene (fiebre amarilla), policía portuaria y municipal. Trámite descrito por todos los que lo han hecho como largo y muy propenso a «tasas» informales: presupuestar un día entero, empezar a primera hora de la mañana y llevar francos CFA, francos congoleños y dólares limpios.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.29736,15.31957">Google Maps</a>]]></description>
+    <name>Frontera principal · Yema (entrada bajada desde Cabinda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Pin de la frontera de Yema, no del centro de Muanda. ACP documenta su puesto sanitario y ANTT la actividad transfronteriza en 2026. Referencia horaria SADC 08:00–17:00; confirmar 72 h, especialmente tras lluvias.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.74183,12.29559">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.31957,-4.29736,0</coordinates></Point>
+    <Point><coordinates>12.29559,-5.74183,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida bajada — puesto de Lufu (hacia Angola)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Desvío al sur desde el eje de la N1 a la altura de Songololo, ~30 km. Registro en inmigración de RD Congo, paso de un puente y trámite de entrada angoleño unos 500 m después. Proceso descrito como ágil y sin solicitudes de soborno por overlanders recientes — contraste notable con el ferry de Kinshasa. Confirmar horario (cierres al mediodía y por la tarde son habituales en la zona).<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.84317,14.07885">Google Maps</a>]]></description>
+    <name>Frontera principal · Lufu (salida bajada hacia Luvo, Angola)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto terrestre real al sur de Songololo. Confirmar horario, salida de la importación temporal congoleña y nueva entrada del vehículo en Angola continental.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.84317,14.07885">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>14.07885,-5.84317,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada subida — Luvo/Lufu (desde Angola)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Mismo paso en sentido inverso al regreso desde Angola. Comprobar que el visado congoleño es de DOBLE ENTRADA o que se ha gestionado un segundo visado: es la decisión documental más importante de esta ficha.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.84317,14.07885">Google Maps</a>]]></description>
+    <name>Frontera principal · Lufu (entrada subida desde Luvo, Angola)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Segundo ingreso en RD Congo. Requiere visado válido, seguro local y documento temporal del vehículo de nueva entrada.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.84317,14.07885">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>14.07885,-5.84317,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Beach Ngobila · terminal migratoria hacia Brazzaville</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cierre del corredor: mismo ferry, mismo circo administrativo, ahora en sentido Kinshasa→Brazzaville. Coordinar con la ficha de Congo-Brazzaville, que documenta el trámite desde la otra orilla.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.29736,15.31957">Google Maps</a>]]></description>
+    <name>Frontera principal · Yema (salida subida hacia Cabinda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Salida hacia Cabinda por la carretera Muanda–Yema. Comprobar puentes, lluvia y permiso de entrada angoleño antes de dejar Muanda.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.74183,12.29559">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.29559,-5.74183,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Alternativa secundaria · Beach Ngobila / ferry a Brazzaville</name>
+    <description><![CDATA[<b>Frontera</b><br/>Cruce fluvial mantenido como contingencia. No forma parte del corredor previsto; vehículo y pasajeros se tramitan por separado y no existe puente.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.29736,15.31957">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.31957,-4.29736,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Kinshasa (acreditada también en Congo-Brazzaville)</name>
-    <description><![CDATA[<b>Consular</b><br/>Bd. Colonel Tshatshi nº 37, Kinshasa (Gombe). Tel. +243 813 300 061 / 817 008 770 / 818 843 195 · Emergencia consular: +243 819 500 289. Avisar de la entrada y de las fechas previstas de las dos pasadas.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.30662,15.27696">Google Maps</a>]]></description>
+    <name>Embajada de España en Kinshasa</name>
+    <description><![CDATA[<b>Consular</b><br/>Bd. Colonel Tshatshi 37, Gombe. Emergencia consular +243 819 500 289. Está fuera del corredor principal: el contacto se realiza a distancia salvo emergencia que justifique el ramal a Kinshasa.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.30662,15.27696">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>15.27696,-4.30662,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>CHU Renaissance · Kinshasa</name>
-    <description><![CDATA[<b>Hospital</b><br/>Nombre actual en Google Maps del antiguo Hôpital Général de Référence/Mama Yemo. El pin marca el complejo real. Para viajeros también se usan clínicas privadas de Gombe o Ngaliema: confirmar cuál acepta el seguro antes de necesitarla.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.30898,15.30618">Google Maps</a>]]></description>
-    <styleUrl>#icon-hospital</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.30618,-4.30898,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>IME Kimpese — Institut Médical Évangélique</name>
-    <description><![CDATA[<b>Hospital</b><br/>Hospital histórico de referencia del corredor, en Kimpese, sobre la N1 entre Mbanza-Ngungu y Matadi. El pin marca el complejo real; confirmar admisión, capacidad y cobertura del seguro.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.55523,14.46185">Google Maps</a>]]></description>
-    <styleUrl>#icon-hospital</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>14.46185,-5.55523,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>Hôpital Général de Référence de Kinkanda — Matadi</name>
-    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria de Matadi y del tramo final antes de Angola. El pin marca el complejo real en Kinkanda; confirmar admisión y cobertura del seguro.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8359,13.44589">Google Maps</a>]]></description>
+    <name>Hôpital de Kinkanda · Matadi</name>
+    <description><![CDATA[<b>Hospital</b><br/>Pin del hospital real de Kinkanda. Referencia sanitaria del eje, con capacidad limitada frente a una evacuación internacional.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8359,13.44589">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>13.44589,-5.8359,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Kinshasa</name>
-    <description><![CDATA[<b>Combustible</b><br/>Mejor oferta y calidad del país (Engen, TotalEnergies, SEP Congo); repostar a fondo antes de salir a la N1. Llevar embudo con filtro: la calidad del gasóleo fuera de las grandes estaciones es irregular.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.3276,15.3136">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.3136,-4.3276,0</coordinates></Point>
+    <name>IME Kimpese</name>
+    <description><![CDATA[<b>Hospital</b><br/>Referencia hospitalaria del corredor N1 al este de Songololo. El pin coincide con el recinto; confirmar atención y seguro.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.55523,14.46185">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>14.46185,-5.55523,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Kisantu / Inkisi (N1)</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales sobre la N1 a ~120 km de Kinshasa, junto al jardín botánico; primera parada natural del corredor.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.1349,15.0854">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.0854,-5.1349,0</coordinates></Point>
+    <name>Muanda · zona urbana de servicios</name>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no un surtidor, taller o grifo. Concertar base vigilada, combustible y recarga de agua de servicio antes de Yema.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.92822,12.37803">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.37803,-5.92822,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Mbanza-Ngungu y Kimpese (N1)</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones sobre la N1 en el tramo medio; suficiente para no llegar nunca a un hueco de 500 km entre Kinshasa y Matadi.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.2461,14.8637">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>14.8637,-5.2461,0</coordinates></Point>
+    <name>Boma · zona urbana de servicios</name>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana. Parada histórica y posible respaldo de alojamiento, combustible y agua solo tras confirmación concreta.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.85941,13.05592">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.05592,-5.85941,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Matadi</name>
-    <description><![CDATA[<b>Combustible</b><br/>Última plaza con oferta formal amplia antes de Lufu/Luvo; repostar a fondo aquí en la bajada. En la subida, repostar aquí también antes del desvío a Boma y Muanda.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8167,13.4833">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>13.4833,-5.8167,0</coordinates></Point>
+    <name>Matadi · zona urbana de servicios</name>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia del eje junto al puente, no una instalación de agua. Principal base de talleres, banco, hospital y suministro del tránsito por Kongo Central.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.82496,13.4343">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.4343,-5.82496,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Boma y Muanda</name>
-    <description><![CDATA[<b>Combustible</b><br/>Ambas tienen estaciones formales (Boma es puerto y Muanda es zona petrolera), pero con existencias menos garantizadas que Matadi: salir de Matadi con depósito lleno para el bucle costero de ida y vuelta (~480 km).<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8511,13.0528">Google Maps</a>]]></description>
-    <styleUrl>#icon-combustible</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>13.0528,-5.8511,0</coordinates></Point>
+    <name>Frontera principal · Massabi (entrada bajada a Cabinda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Posto Fiscal de Massabi. Entrada desde Congo-Brazzaville; actividad fronteriza confirmada por ANTT en 2026. Referencia horaria 08:00–17:00, a reconfirmar 72 h.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.98944,12.05712">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.05712,-4.98944,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Kinshasa</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en los supermercados de la Gombe. Para el depósito de uso general (ducha, aseo, limpieza), hoteles y estaciones de servicio de Kinshasa permiten llenar con manguera; pedirlo en recepción. NO beber agua de red sin potabilizar: hay brotes recurrentes de cólera en la ciudad.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.3276,15.3136">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>15.3136,-4.3276,0</coordinates></Point>
+    <name>Frontera principal · Yema (salida bajada a RD Congo)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto real al sur de Cabinda. Comprobar carretera, horario y cierre de importación temporal antes de salir de Angola.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.74183,12.29559">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.29559,-5.74183,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Matadi y Mbanza-Ngungu</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Hoteles con aparcamiento en ambas ciudades permiten recargar el depósito de uso general; Mbanza-Ngungu, más fresca y tranquila, es el mejor sitio del corredor para hacerlo con calma.<br/><a href="https://theawakeman.github.io/africa2027/paises/rd-congo/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.8167,13.4833">Google Maps</a>]]></description>
-    <styleUrl>#icon-agua</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua potable</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>13.4833,-5.8167,0</coordinates></Point>
+    <name>Frontera principal · Yema (entrada subida a Cabinda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Nueva entrada angoleña desde RD Congo. Presupuestar tasa de entrada del vehículo y no circular hacia Cabinda ciudad sin confirmación de seguridad.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.74183,12.29559">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.29559,-5.74183,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera principal · Massabi (salida subida a Congo-Brazzaville)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Salida terrestre hacia Pointe-Noire. Confirmar apertura y RN4 antes de dejar Cabinda ciudad.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-4.98944,12.05712">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.05712,-4.98944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cabinda ciudad · zona urbana de servicios</name>
+    <description><![CDATA[<b>Servicios</b><br/>Referencia urbana, no surtidor ni grifo. Único punto lógico para alojamiento vigilado, combustible y recarga pactada de agua entre Massabi y Yema.<br/><a href="https://theawakeman.github.io/africa2027/paises/angola/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-5.55764,12.19195">Google Maps</a>]]></description>
+    <styleUrl>#icon-servicio</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>12.19195,-5.55764,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Lufu/Luvo (desde RD Congo)</name>

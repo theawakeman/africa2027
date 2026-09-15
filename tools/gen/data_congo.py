@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""República del Congo (Congo-Brazzaville) — ficha completa, corredor doble (12 sep 2026).
+"""República del Congo (Congo-Brazzaville) — ficha completa, corredor doble (15 sep 2026).
 
 BAJADA · «expedición a los gorilas»: Ntam/Souanké (desde Camerún) → Sembé → Ouesso →
 Odzala-Kokoua (gorilas de llanura occidental y bais) → Etoumbi → Oyo → Brazzaville →
-ferry a Kinshasa. Desvío opcional al suroeste (Dolisie, Pointe-Noire, Diosso, Conkouati).
+Dolisie → Pointe-Noire → Tchiamba-Nzassi/Massabi, por tierra hacia Cabinda.
 
-SUBIDA · «tránsito rápido»: ferry desde Kinshasa → Brazzaville → mesetas Batéké
+SUBIDA · «tránsito rápido»: Massabi → Pointe-Noire → Brazzaville → mesetas Batéké
 (Léfini/Lésio-Louna, Djambala, Lékana) → Okoyo → Boundji → Owando → Makoua → Ouesso →
 Socambo (barcaza sobre el Ngoko) hacia Moloundou (Camerún). SIN parada de gorilas.
 """
@@ -224,20 +224,29 @@ SOURCES = [
 ]
 
 # BAJADA: Ntam/Souanké -> Sembé -> Ouesso -> Makoua -> Obouya -> Ewo -> Etoumbi -> Mbomo/Odzala
-#         -> vuelta a Obouya -> Oyo -> Gamboma -> Brazzaville -> Beach (ferry)
+#         -> vuelta a Obouya -> Oyo -> Gamboma -> Brazzaville -> Dolisie -> Pointe-Noire -> Massabi/Cabinda.
 CORRIDOR = [(2.1720894, 13.6984289), (2.0587378, 14.1320805), (1.6500, 14.5833), (1.6167, 16.0500),
             (0.0004375, 15.6297342), (-0.4833, 15.9000), (0.0167, 14.9500), (0.3914422, 15.0455289),
             (0.6000, 14.8000), (0.0167, 14.9500), (-1.1500, 15.9833), (-1.8764, 15.8639),
-            (-4.2634, 15.2429), (-4.2790, 15.2860)]
+            (-4.2634, 15.2429), (-4.2000, 12.6667), (-4.7975, 11.8481), (-4.98944, 12.05712)]
 
-# SUBIDA (tránsito rápido): Beach (ferry desde Kinshasa) -> Brazzaville -> Ngo/Lésio-Louna
-#         -> Djambala -> Lékana -> Okoyo -> Boundji -> Owando -> Makoua -> Ouesso -> Socambo
-CORRIDOR_ALT = [(-4.2790, 15.2860), (-4.2634, 15.2429), (-3.2763777, 15.4771084), (-2.5398781, 14.7550108),
+# SUBIDA: Massabi/Cabinda -> Pointe-Noire -> Dolisie -> Brazzaville -> Ngo/Lésio-Louna
+#         -> Djambala -> Lékana -> Okoyo -> Boundji -> Owando -> Makoua -> Ouesso -> Socambo.
+CORRIDOR_ALT = [(-4.98944, 12.05712), (-4.7975, 11.8481), (-4.2000, 12.6667), (-4.2634, 15.2429),
+                (-3.2763777, 15.4771084), (-2.5398781, 14.7550108),
                 (-2.3167, 14.6000), (-1.4667, 15.0667), (-0.9500, 15.3667), (-0.4833, 15.9000),
                 (0.0004375, 15.6297342), (1.6167, 16.0500), (1.7062057, 16.1201673)]
 
 CORRIDOR_LABEL = "Bajada · expedición a los gorilas"
-CORRIDOR_ALT_LABEL = "Subida · tránsito rápido"
+CORRIDOR_ALT_LABEL = "Subida · regreso por Cabinda"
+
+# Se conserva la salida fluvial de Brazzaville como referencia, pero nunca como
+# corredor principal: en el mapa general queda dentro de la capa apagada de alternativas.
+EXTRA_CORRIDORS = [
+    dict(label="Alternativa secundaria · ferry Brazzaville–Kinshasa", role="alternativa",
+         color="#9AA5AB", dash=True,
+         pts=[(-4.2634, 15.2429), (-4.2790, 15.2860)]),
+]
 
 EXPERIENCIAS_INTRO = ("Relatos y datos reales de otros viajeros y de operadores sobre el Congo, para contrastar con la "
                       "planificación oficial de esta ficha. El Congo-Brazzaville es de los países peor documentados de "
@@ -281,7 +290,7 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="congo", name="Congo (Brazzaville)", revision="12 sep 2026",
-    sub="Corredor doble · la expedición a los gorilas de Odzala · el ferry del río Congo",
+    sub="Corredor doble · gorilas de Odzala · salida terrestre por Pointe-Noire y Massabi",
     chips=[
         ("BAJADA", "Ntam/Souanké → Ouesso → ODZALA (gorilas) → Etoumbi → Brazzaville → ferry · ~1.600 km"),
         ("SUBIDA", "Ferry → Brazzaville → mesetas Batéké → Owando → Ouesso → Socambo · ~1.100 km, sin gorilas"),
@@ -298,6 +307,7 @@ SPEC = dict(
     hero_credit="Gorila de llanura occidental, la especie de Odzala-Kokoua · Wikimedia Commons",
     notice="Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes del paso de Ntam y del ferry de Brazzaville.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
+    extra_corridors=EXTRA_CORRIDORS,
     corridor_label=CORRIDOR_LABEL, corridor_alt_label=CORRIDOR_ALT_LABEL,
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
     resumen_intro=("El Congo-Brazzaville no es un país de tránsito para este viaje: es <strong>LA parada del tramo centroafricano</strong>. "

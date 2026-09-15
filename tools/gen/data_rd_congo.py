@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-"""RD Congo — corredor doble de tránsito por el extremo OESTE del país (12 sep 2026).
+"""RD Congo — corredor doble terrestre por Kongo Central (15 sep 2026).
 
-Se cruza DOS VECES por el mismo eje corto: ferry Brazzaville–Kinshasa → N1 → Matadi →
-Lufu/Luvo (Angola) en la bajada, y el mismo eje en sentido contrario en la subida, con
-desvío a Boma, la costa atlántica de Muanda y las chutes de Zongo.
+Se cruza DOS VECES por el mismo eje corto: Yema → Muanda → Boma → Matadi →
+Lufu/Luvo (Angola) en la bajada, y el mismo eje en sentido contrario en la subida.
+Kinshasa y el ferry de Brazzaville se conservan como alternativa secundaria.
 
 IMPORTANTE: el conflicto armado activo de RD Congo está en el ESTE (Kivu Norte y Sur, Ituri).
 Goma y Bukavu cayeron ante el M23/AFC en enero-febrero de 2025 y la situación sigue siendo muy
 volátil. Ese frente está a MÁS DE 1.500 km del corredor de esta ficha, que discurre íntegramente
-por la provincia de Kongo Central y Kinshasa, en el extremo occidental del país. Esta ficha NO
+por la provincia de Kongo Central, en el extremo occidental del país. Esta ficha NO
 cubre el este bajo ninguna circunstancia y el itinerario no se acerca en ningún momento.
 """
 from data_common import make_ficha
@@ -17,7 +17,8 @@ import re as _re
 W = "https://commons.wikimedia.org/wiki/Special:FilePath/"
 
 POIS = [
-    # ===================== BAJADA: ferry → Kinshasa → N1 → Matadi → Lufu/Luvo =====================
+    # PDIs 1–5 pertenecen al ramal secundario de Kinshasa/N1; el corredor
+    # principal actual entra por Yema y comienza turísticamente en Muanda/Boma.
     dict(n=1, name="Kinshasa (Gombe y la orilla del río Congo)", cat="Ciudad · servicios", prio="Alta",
          dog="permitido con condiciones", time="2 noches",
          lat=-4.3276, lon=15.3136,
@@ -54,7 +55,7 @@ POIS = [
          desc="Puerto principal del país, encaramado en las laderas empinadísimas de la garganta del Congo a 148 km del mar: por aquí entra casi toda la importación de RD Congo y de aquí sale la caravana de camiones que colapsa la N1. Su puente Maréchal (inaugurado en 1983, construido por Japón, 722 m de vano central) fue durante décadas el mayor puente colgante de África y sigue siendo el único cruce fijo del río Congo en todo el país. Es también la última plaza de servicios seria antes de Angola: combustible, talleres, banco, hospital y hoteles con aparcamiento. Ojo con las cuestas: calles de pendiente brutal, incómodas con vehículo pesado. El puente es infraestructura estratégica — nada de fotos ni de drones.",
          credit="Χρίστος Ιμμανοελ · CC BY-SA 4.0",
          source=W + "Matadi%20Bridge%20DR%20Congo.jpg?width=900"),
-    # ===================== SUBIDA: Lufu/Luvo → Matadi → Boma → Muanda → Zongo → Kinshasa =====================
+    # PDIs 6–8 quedan en el eje principal; 9–12 vuelven al ramal secundario.
     dict(n=7, name="Boma · antigua capital colonial y el baobab de Stanley", cat="Cultura", prio="Alta",
          dog="permitido con condiciones", time="½–1 día",
          lat=-5.8511, lon=13.0528,
@@ -206,20 +207,25 @@ SOURCES = [
     ("Mzungu Expeditions · expedición a RD Congo 2027 (itinerario de operador, referencia de tramos)", "https://www.mzunguexpeditions.com/congo_mbandaka_2027_en"),
 ]
 
-# BAJADA: ferry Beach Ngobila -> Kinshasa -> Kinsuka -> N1 (Kisantu, Mbanza-Ngungu, Kimpese) -> Matadi -> Songololo -> Lufu/Luvo
-CORRIDOR = [(-4.2973574, 15.3195722), (-4.3276, 15.3136), (-4.3315072, 15.2190031), (-5.1349, 15.0854),
-            (-5.2461, 14.8637), (-5.5556, 14.4386), (-5.8167, 13.4833), (-5.7000, 14.0500),
-            (-5.8431676, 14.0788529)]
+# BAJADA principal: Yema (desde Cabinda) -> Muanda -> Boma -> Matadi -> Songololo -> Lufu/Luvo (Angola continental).
+CORRIDOR = [(-5.74183, 12.29559), (-5.92822, 12.37803), (-5.8594059, 13.0559152),
+            (-5.8249588, 13.4342982), (-5.7000, 14.0500), (-5.8431676, 14.0788529)]
 
-# SUBIDA: Lufu/Luvo -> Songololo -> Matadi -> Boma -> Muanda/manglares -> Matadi -> Kimpese ->
-# Mbanza-Ngungu -> Chutes de Zongo -> Lola ya Bonobo -> Nsele -> Kinshasa -> ferry
-CORRIDOR_ALT = [(-5.8431676, 14.0788529), (-5.7000, 14.0500), (-5.8167, 13.4833), (-5.8511, 13.0528),
-                (-5.9833, 12.4500), (-5.9476338, 12.3532564), (-5.8511, 13.0528), (-5.8167, 13.4833),
-                (-5.5552303, 14.4618538), (-5.2461, 14.8637), (-4.7776877, 14.9064301), (-4.4904949, 15.2681556),
-                (-4.2571244, 15.6300955), (-4.3276, 15.3136), (-4.2973574, 15.3195722)]
+# SUBIDA principal: el mismo corredor terrestre en sentido inverso; Cabinda se cruza después de Yema.
+CORRIDOR_ALT = [(-5.8431676, 14.0788529), (-5.7000, 14.0500), (-5.8249588, 13.4342982),
+                (-5.8594059, 13.0559152), (-5.92822, 12.37803), (-5.74183, 12.29559)]
 
 CORRIDOR_LABEL = "Bajada"
 CORRIDOR_ALT_LABEL = "Subida"
+
+# La antigua ruta del ferry se mantiene documentada y conectada con Matadi, pero
+# queda en la capa de alternativas del mapa general, apagada por defecto.
+EXTRA_CORRIDORS = [
+    dict(label="Alternativa secundaria · Kinshasa y ferry", role="alternativa",
+         color="#9AA5AB", dash=True,
+         pts=[(-4.2973574, 15.3195722), (-4.301578, 15.3164745), (-5.1357358, 15.0728806),
+              (-5.286058, 14.877018), (-5.5556, 14.4386), (-5.8249588, 13.4342982)]),
+]
 
 EXPERIENCIAS = [
     "El ferry de Kinshasa es el cruce con peor fama de todo el viaje: quienes lo han hecho lo describen sin rodeos como «uno de los pasos fronterizos más corruptos que existen». El trayecto físico en canot rapide dura unos 15 minutos y el billete de pasajero ronda los 12.400 FCFA desde Brazzaville, pero el papeleo ocupa el día entero: hay varios puestos sucesivos donde hay que enseñar documentos, rellenar formularios y pagar «tasas» de cuantía variable. El consejo unánime es empezar a primera hora de la mañana, cruzar en fin de semana si se puede (hay menos aglomeración), llevar francos CFA, francos congoleños y dólares en billetes limpios y pequeños, tener a mano el certificado internacional de vacunación, y contratar a un gestor («fixer») que conozca el circuito. (Fuente: WhirledAway.)",
@@ -256,8 +262,8 @@ HISTORIA_FUENTES = [
 ]
 
 SPEC = dict(
-    slug="rd-congo", name="RD Congo (corredor oeste)", revision="12 sep 2026",
-    sub="Corredor doble por el extremo occidental · ferry de Kinshasa · N1 a Matadi · documentación · seguridad",
+    slug="rd-congo", name="RD Congo · Kongo Central", revision="15 sep 2026",
+    sub="Corredor terrestre Yema–Muanda–Boma–Matadi–Lufu · ferry de Kinshasa como alternativa",
     chips=[
         ("BAJADA", "Ferry Brazzaville–Kinshasa → N1 (Kisantu, Mbanza-Ngungu) → Matadi → Lufu/Luvo · ~445 km"),
         ("SUBIDA", "Luvo/Lufu → Matadi → Boma → Muanda (Atlántico) → Zongo → Kinshasa → ferry · ~940 km"),
@@ -271,6 +277,7 @@ SPEC = dict(
     center=[-5.1, 14.0], zoom=7,
     notice="Documento de planificación. Esta ficha cubre EXCLUSIVAMENTE el corredor occidental Kinshasa–Matadi–Muanda–Lufu, en la provincia de Kongo Central: el conflicto armado activo de RD Congo está en el ESTE del país (Kivu Norte y Sur, Ituri), a más de 1.500 km de esta ruta y sin conexión razonable por carretera. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
+    extra_corridors=EXTRA_CORRIDORS,
     corridor_label=CORRIDOR_LABEL, corridor_alt_label=CORRIDOR_ALT_LABEL,
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
     resumen_intro=("RD Congo se cruza <strong>dos veces por el mismo corredor corto del oeste</strong>, porque no existe otra opción: la provincia de Kongo Central es una franja de unos 350 km entre Kinshasa y el mar, "
