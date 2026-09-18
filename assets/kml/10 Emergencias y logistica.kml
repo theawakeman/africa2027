@@ -3563,4 +3563,67 @@
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>47.42,-21.255,0</coordinates></Point>
   </Placemark>
+  <Placemark>
+    <name>Puerto de La Goulette (Túnez) — terminal de pasajeros de los ferries de Italia y Francia</name>
+    <description><![CDATA[<b>Frontera</b><br/>Llegada de GNV, Grimaldi, CTN y Corsica Linea. Policía + aduana + inspección del vehículo: 1–2,5 h (relatos 2023–2025). Llevar el QR de Smart Traveller impreso, pasaporte, permiso de circulación y Carta Verde. El pin marca «Port la Goulette passagers».<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.80952,10.30161">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.30161,36.80952,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto de Zarzis — CTN desde Marsella (verano)</name>
+    <description><![CDATA[<b>Frontera</b><br/>CTN Marsella–Zarzis 1/semana, 38 h, temporada hasta fin de septiembre 2026.<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.48521,11.11633">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.11633,33.48521,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ras Jedir (Ras Ajdir) — frontera con Libia (NO usar)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Abierto en 2026 con cierres recurrentes; extranjeros necesitan permisos especiales; Ben Guerdane desaconsejada por el MAEC. Solo referencia.<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.1477,11.55851">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.55851,33.1477,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dehiba — frontera con Libia (Wazzin) (NO usar)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Zona militarizada al sur de El Borma y Dehiba, desaconsejada por el FCDO. El pin marca el pueblo de Dehiba; el puesto de Wazzin queda unos 4 km al este. Solo referencia.<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.01345,10.6957">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.6957,32.01345,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Túnez</name>
+    <description><![CDATA[<b>Consular</b><br/>24, Avenue Dr. Ernest Conseil, Cité Jardins, 1002 Tunis. Tel. +216 71 782 217 · emergencia consular +216 98 346 803 · emb.tunez@maec.es.<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.82519,10.18119">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.18119,36.82519,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Polyclinique Les Berges du Lac (Túnez)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Rue du Lac de Constance, Les Berges du Lac, Túnez. Tel. +216 71 960 000. Privado, cirugía, cardiología, TAC.<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.83201,10.23065">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.23065,36.83201,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Clinique Les Oliviers (Susa)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Boulevard du 14 Janvier, 4051 Sousse. Tel. +216 73 242 711 / 73 242 709. Privada, desde 1976, atención 24 h. Google Maps la recoge como «Sanatorium Zayatin» (Zayatin = Oliviers).<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.85524,10.61536">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.61536,35.85524,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible · Station Agil de Douz — último llenado antes de Ksar Ghilane</name>
+    <description><![CDATA[<b>Combustible</b><br/>Gasóleo a 2,21 TND/l (~0,66 €) fijado por el Estado (sep. 2026). Red Agil/Total/Ola. Douz es la «puerta del Sáhara»: 80 km sin poblaciones hasta Ksar Ghilane. Pago en efectivo.<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.47484,9.02299">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.02299,33.47484,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de uso general · Camping Club Desert (Douz)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Llenado de depósitos con manguera en el camping de referencia de los overlanders (también en Les Jasmins de Nabeul y Les Beaux Rêves de Tozeur). Agua de red SONEDE salina: no para beber. Otros puntos por confirmar sobre el terreno.<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.45323,9.02547">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.02547,33.45323,0</coordinates></Point>
+  </Placemark>
 </Document></kml>

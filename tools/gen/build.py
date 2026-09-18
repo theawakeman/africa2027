@@ -44,7 +44,7 @@ for _slug in ["marruecos", "sahara-occidental", "guinea", "sierra-leona", "liber
               "ghana", "togo", "benin", "nigeria", "camerun", "gabon", "congo", "rd-congo", "angola",
               "namibia", "sudafrica", "mozambique", "malaui", "tanzania", "kenia", "etiopia", "sudan", "egipto",
               "gambia", "lesoto", "esuatini", "zimbabue", "botsuana", "zambia", "uganda", "ruanda", "yibuti",
-              "madagascar"]:
+              "madagascar", "tunez"]:
     try:
         _m = importlib.import_module("data_" + _slug.replace("-", "_"))
         FULL[_slug] = _m.get_data()
@@ -1820,6 +1820,7 @@ self.addEventListener('fetch', e => {
         "08 Etiopia-Egipto": ["etiopia", "sudan", "egipto"],
         "09 Alternativas": ["gambia", "lesoto", "esuatini", "zimbabue", "botsuana",
                              "zambia", "uganda", "ruanda", "yibuti"],
+        "11 Fuera de ruta": ["tunez"],
     }
     for lname, slugs in layer_groups.items():
         pts = []

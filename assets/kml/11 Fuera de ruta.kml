@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 11 Fuera de ruta</name>
+  <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
+  <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Placemark>
+    <name>Túnez · medina (UNESCO) y mezquita Zitouna</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Minaret_of_Mosque_Zitouna.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Casco histórico fundado en 698 en torno a la mezquita Zitouna, con unos 700 MONUMENTOS (palacios, madrasas, mausoleos, fuentes) en 270 hectáreas; Patrimonio de la Humanidad desde 1979. Bajo almohades y hafsíes (siglos XII–XVI) Túnez fue una de las ciudades más ricas del mundo islámico, y la medina conserva esa trama intacta entre Bab el Bhar y la Kasbah. La entrada con dos 4x4 es inviable: hay que aparcar fuera (zona de la avenida Bourguiba o parkings de la Kasbah) y entrar a pie.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.79702,10.17137">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.17137,36.79702,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Museo Nacional del Bardo · mosaicos romanos</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/BAR_-_Main_interior_gallery_of_the_Bardo_National_Museum,_Tunis,_2018.jpg?width=1200" width="320"/><br/><b>Alta · Cultura</b><br/>Instalado en un palacio hafsí del siglo XV en las afueras de Túnez y abierto el 7 de mayo de 1888, reúne UNA DE LAS MAYORES COLECCIONES DE MOSAICOS ROMANOS DEL MUNDO, procedentes de Cartago, Dougga, El Jem o Sousse, más piezas púnicas y el tesoro del pecio de Mahdia. El 18 de marzo de 2015 sufrió un atentado con 24 muertos; hoy la seguridad en la entrada es estricta. Cierra los lunes; horario aproximado 9:00–17:00 (invierno 9:30–16:30).<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.80935,10.13421">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.13421,36.80935,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cartago · Byrsa y termas de Antonino (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/01996_Ruins_of_Antonine_Baths_at_Carthage.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Yacimiento disperso por el barrio residencial de Cartago, Patrimonio de la Humanidad desde 1979: restos fenicio-púnicos, romanos, paleocristianos y árabes. Las termas de Antonino (145–162 d. C.) fueron las MAYORES TERMAS ROMANAS DE ÁFRICA, más de 200 × 100 m y 35 000 m², y la colina de Byrsa (unos 50 m sobre el mar) fue la ciudadela púnica que cayó ante Roma en 146 a. C. Los puertos púnicos, el tofet y el teatro completan el circuito; se hace en coche entre recintos.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.85423,10.33497">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.33497,36.85423,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sidi Bou Said · pueblo azul y blanco (UNESCO 2026)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sidi_Bou_Said,_Tunisia,_19_March_2018_DSC_8004.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Pueblo encaramado a un promontorio sobre el golfo de Túnez, nacido en torno a la tumba del sufí Abu Said al-Baji (muerto en 1231). El azul y blanco lo impuso el barón Rodolphe d'Erlanger en los años 1920 y el conjunto fue INSCRITO EN LA LISTA DEL PATRIMONIO MUNDIAL EN 2026. Café des Nattes, palacio Ennejma Ezzahra y mirador sobre el puerto deportivo. Aparcar arriba en el parking de pago y subir a pie: la calle principal es peatonal y muy concurrida los fines de semana.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.87385,10.33912">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.33912,36.87385,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bizerta y cabo Angela · punto más septentrional de África</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cap_Angela_Bizerte.jpg?width=1200" width="320"/><br/><b>Alta · Costa</b><br/>Bizerta, 65 km al norte de Túnez, conserva un puerto viejo de casas blancas y barcas de colores, una kasbah del siglo XVII y el fuerte español de 1573; los franceses no la abandonaron hasta el 15 de octubre de 1963. A 15 km al oeste, el cabo Angela (Ras Ben Sakka) es desde 2014 el PUNTO MÁS SEPTENTRIONAL DEL CONTINENTE AFRICANO, señalado por un monumento con el mapa de África. Los últimos centenares de metros son pista arenosa: 4x4 o 20 minutos a pie.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=37.34694,9.74226">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.74226,37.34694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque nacional de Ichkeul · lago y aves (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ichkeul_Lake_03.jpg?width=1200" width="320"/><br/><b>Media · Naturaleza</b><br/>Último gran lago de agua dulce de una cadena que recorría el norte de África, Patrimonio de la Humanidad natural desde 1980 (12 600 ha) y reserva de la biosfera desde 1977. En invierno acoge MÁS DE 300 000 PATOS, GANSOS Y FOCHAS, y en los años 1996–2006 estuvo en la lista del patrimonio en peligro por las presas. El monte Ichkeul (510 m) se sube en hora y media desde el ecomuseo de la entrada. Los lodazales del borde no admiten vehículos.<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=37.13831,9.69261">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.69261,37.13831,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bulla Regia · villas subterráneas romanas</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bulla_regia_archaeological_site.jpg?width=1200" width="320"/><br/><b>Alta · Cultura</b><br/>Ciudad númida y romana al pie del Jebel Rebia, cerca de Jendouba: sede real de Masinisa en 156 a. C. y ciudad libre por Julio César en 46 a. C. Es única por sus VILLAS CON PLANTA SUBTERRÁNEA, excavadas para huir del calor en torno a un atrio de dos alturas, con mosaicos in situ (Casa de Anfitrite, de la Caza, del Pescador) de los mejor conservados del norte de África. Llevar linterna y evitar el mediodía de verano: abajo está fresco, arriba no.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.55697,8.75412">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.75412,36.55697,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dougga · ciudad romana (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dougga_Capitol.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Capital de un reino libio-púnico antes de Roma y hoy LA CIUDAD ROMANA PEQUEÑA MEJOR CONSERVADA DEL NORTE DE ÁFRICA, Patrimonio de la Humanidad desde 1997: 75 hectáreas en lo alto de un cerro con el Capitolio (166–167 d. C.), un teatro para 3 500 espectadores, el mausoleo libio-púnico del siglo II a. C., termas, letrinas y calles enteras. Se pasea sin barreras entre trigales, así que hay que reservar tres horas y calzado con suela. Cafetería y aseos en la entrada.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.42457,9.22114">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.22114,36.42457,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kerkuane · ciudad púnica (UNESCO) y cabo Bon</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kerkouane,_Tunesien_Januar_2015_03.JPG?width=1200" width="320"/><br/><b>Media · Patrimonio UNESCO</b><br/>Ciudad fenicio-púnica en la punta del cabo Bon, abandonada hacia 250 a. C. durante la primera guerra púnica y nunca reconstruida por Roma: es EL ÚNICO EJEMPLO CONSERVADO DE URBANISMO PÚNICO, con calles, casas de planta normalizada, bañeras y mosaicos de mortero rosado; Patrimonio de la Humanidad desde 1985 (necrópolis en 1986). A 12 km, Kelibia tiene un fuerte bizantino sobre el puerto; más al norte, las canteras púnicas de El Haouaria. Buen final de viaje por la costa antes de volver a Túnez.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.94623,11.09946">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.09946,36.94623,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kairuán · Gran Mezquita y aljibes aglabíes (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_Minaret_of_the_Great_Mosque_Okba_of_Kairouan,_Tunisia.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Ciudad fundada por Uqba ibn Nafi en 670 y considerada la CUARTA CIUDAD SANTA DEL ISLAM; Patrimonio de la Humanidad desde 1988. La Gran Mezquita, reconstruida en 836 por los aglabíes, ocupa más de 9 000 m² con más de 500 columnas reutilizadas y un alminar de 31,5 m; los no musulmanes ven el patio y las galerías, no la sala de oración. Fuera de las murallas, los aljibes aglabíes (860–862): el mayor tiene 128 m de diámetro y 57 000 m³. Horario matinal: la mezquita cierra a las 14:00 y los viernes a las 12:00.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.68108,10.10423">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.10423,35.68108,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Jem · anfiteatro romano (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Amphith%C3%A9%C3%A2tre_d%E2%80%99El_Jem_vue_aerienne_(2023)_1.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Levantado hacia 238 d. C. en la antigua Thysdrus, es EL MAYOR ANFITEATRO DEL NORTE DE ÁFRICA: 148 × 122 m, 36 m de alto y unos 35 000 espectadores, construido en sillería sin cimientos y con los sótanos y el podio intactos; Patrimonio de la Humanidad desde 1979. Se citan como mayores solo el Coliseo y Capua. Surge de golpe entre las casas bajas del pueblo, en plena llanura de olivos. El museo, a 1 km, guarda mosaicos y tres villas; en verano acoge el festival de música sinfónica.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.29642,10.70697">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.70697,35.29642,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Susa · medina y ribat (UNESCO) y Monastir</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Medina_of_Sousse-130323.jpg?width=1200" width="320"/><br/><b>Media · Patrimonio UNESCO</b><br/>Puerto militar y comercial de los aglabíes (800–909), Patrimonio de la Humanidad desde 1988 por su medina amurallada con kasbah, Gran Mezquita y ribat. El ribat, del siglo VIII y reformado en 821, es EL MÁS ANTIGUO Y MEJOR CONSERVADO DE TÚNEZ: un cuadrado de 38 m con torre-faro de 35 m y la sala de oración más antigua del norte de África; guarda además la inscripción islámica monumental más antigua del país. A 20 km, Monastir repite el modelo con su ribat (escenario de La vida de Brian) y el mausoleo de Bourguiba. Susa es ciudad de playa masificada: interesa solo por la medina.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.82767,10.63879">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.63879,35.82767,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sbeitla · Sufetula y sus tres templos</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sbeitla_Temples_of_the_Gods.jpg?width=1200" width="320"/><br/><b>Media · Cultura</b><br/>Sufetula conserva LOS TEMPLOS DE FORO MEJOR CONSERVADOS DE TÚNEZ: tres santuarios gemelos a Júpiter, Juno y Minerva tras el arco de Antonino Pío, más seis iglesias bizantinas con baptisterios, termas, teatro y anfiteatro. En 647 los campos ante la ciudad vieron la derrota del patricio Gregorio ante los árabes, inicio de la conquista musulmana del norte de África. Aviso: está en la gobernación de Kasserine, para la que el Foreign Office británico desaconseja todo viaje no esencial; comprobar avisos antes de desviarse.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.24159,9.1181">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.1181,35.24159,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Djerba · Ghriba, Houmt Souk y Guellala (UNESCO 2023)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/El_Ghriba_Synagogue,_Djerba.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Isla de 514 km² unida al continente por una calzada de origen romano (El Kantara) y por el ferry de Ajim; Patrimonio de la Humanidad desde 2023 por su POBLAMIENTO DISPERSO EN MENZELS Y MEZQUITAS-REFUGIO del siglo IX (7 componentes). La sinagoga de la Ghriba, en Erriadh, pasa por la más antigua de África (edificio del siglo XIX sobre una tradición del 586 a. C.) y reúne la peregrinación de Lag BaOmer; sufrió atentados en 2002 y 2023, de ahí los controles. Houmt Souk tiene fondouks y el fuerte Borj Ghazi Mustapha (1432); Guellala, alfarería y museo.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.81401,10.85928">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.85928,33.81401,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ksour de Tataouine · Ksar Ouled Soltane y Chenini</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ksar_Ouled_Soltane_Vue_3.jpg?width=1200" width="320"/><br/><b>Alta · Cultura</b><br/>Tataouine, que dio nombre al planeta Tatooine, es la base de los graneros fortificados bereberes del Dahar. Ksar Ouled Soltane, 20 km al sur, apila sus ghorfas en cuatro pisos en torno a dos patios y sirvió de BARRIO DE ESCLAVOS DE MOS ESPA en La amenaza fantasma. Chenini, a media hora al oeste, es un pueblo troglodita del siglo XII colgado de una cresta, con la mezquita blanca de los Siete Durmientes y unos 500 habitantes. Todo asfaltado; Douiret y Guermessa completan el circuito.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.78841,10.51476">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.51476,32.78841,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Matmata · casas trogloditas</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B4tel,_Sidi_Driss,_Star_Wars,_mars_2022,_DSC_2269.jpg?width=1200" width="320"/><br/><b>Media · Cultura</b><br/>Pueblo bereber a 600 m de altitud, 40 km al suroeste de Gabès, donde las casas se excavan en torno a un gran pozo con las habitaciones abiertas en las paredes. El hotel Sidi Driss fue en 1976 LA CASA DE LA FAMILIA LARS en Star Wars: Una nueva esperanza y sigue sirviendo comidas en el patio del decorado. Es parada obligada de excursiones y de vendedores insistentes; la carretera Matmata–Tamezret–Douz y la pista por Toujane son mejores que el pueblo en sí.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.54275,9.96734">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.96734,33.54275,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Douz y el Gran Erg Oriental · puerta del Sáhara</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Erg_Oriental(js)9.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Oasis de más de 500 000 palmeras conocido como la PUERTA DEL SÁHARA: al sur del arco de entrada empiezan las dunas del Gran Erg Oriental. Base de las pistas hacia Ksar Ghilane, Tembaïne y el parque nacional de Jebil (150 000 ha, el mayor del país, a 80 km), y sede del Festival Internacional del Sáhara en noviembre-diciembre. El Desert Club es el camping de referencia de los overlanders, con lavadora y punto de encuentro para formar convoyes. De febrero a abril el viento borra las huellas en horas.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.45323,9.02547">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.02547,33.45323,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ksar Ghilane · oasis, fuente termal y fortín de Tisavar</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ksar-Ghilane_Sun_-_Jan_2023.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Oasis en el límite oriental del Gran Erg Oriental, 80 km al sur de Douz, alimentado por una FUENTE TERMAL A 35 °C en la que se baña todo el mundo al pie de las dunas. A 4 km, sobre un cerro, quedan los muros del fortín romano de Tisavar (época de Cómodo, 180–192), puesto del limes tripolitanus, y una estela recuerda el paso de la columna Leclerc en 1943. Hoy llega asfalto desde Douz y Matmata; la gracia para dos 4x4 es entrar o salir por la pista del erg.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.9811,9.6397">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.6397,32.9811,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chott el Jerid y Tozeur · medina de Ouled el-Hadef</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chott_el_jerid.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>EL MAYOR SALAR DEL SÁHARA, más de 7 000 km² (5 000 según otras fuentes), cruzado por una calzada recta de una hora entre Kebili y Tozeur con miradores, espejismos en verano y, tras lluvias de invierno, una lámina de agua que convierte el chott en espejo. Bajo la costra hay salmuera: cada año se hunde algún coche, así que no salir del asfalto. En la orilla de Nefta queda la casa de los Lars y al norte de Tozeur el decorado de Mos Espa. Tozeur tiene un palmeral con cientos de miles de palmeras y la medina de ladrillo de Ouled el-Hadef.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.9101,8.52435">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.52435,33.9101,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Oasis de montaña · Chebika, Tamerza y Midès</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Oasis,_Chebika,_Tunisia,_oct_2010_-_panoramio.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Tres oasis colgados del Jebel el Negueb, a 60–70 km de Tozeur y pegados a Argelia, abandonados tras las INUNDACIONES DE 1969 (22 días de lluvia, más de 400 muertos en el país): los pueblos viejos de adobe siguen en pie junto a los nuevos. Chebika (el puesto romano Ad Speculum) tiene cascada y palmeral; Tamerza, cascadas y un cañón; Midès, un cañón de 30–40 m de paredes donde se rodaron El paciente inglés y En busca del arca perdida. Aviso: Canadá y el Reino Unido los sitúan en la franja fronteriza argelina que aconsejan evitar o recorrer con gran prudencia.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=34.32314,7.94093">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>7.94093,34.32314,0</coordinates></Point>
+  </Placemark>
+</Document></kml>

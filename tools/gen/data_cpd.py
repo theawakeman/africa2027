@@ -183,6 +183,11 @@ CPD = {
                "(Overlanding Association), con relatos aislados de entrada desde Sudán con TIP. No "
                "aparece en la lista del RACE, que es genérica y antigua. Se incluye como referencia "
                "porque es lo que explica la fama del carnet."),
+    "tunez": ("no", "PROBABLE", "Admisión temporal anotada en el pasaporte + registro previo Smart Traveller (QR)", "Gratis · 3 meses (tasa de 30 TND citada en 2023, por confirmar)",
+              "FUERA DE LA RUTA (solo viaje aparte en ferry). Ningún relato de 2023–2026 usó CPD: la aduana "
+              "de La Goulette anota el vehículo en el pasaporte del conductor y desde junio de 2025 exige "
+              "registro previo en douane.gov.tn con código QR. Confirmación oficial pendiente (la web de la "
+              "aduana no se pudo abrir); el Touring Club de Tunisie es el emisor local del carnet."),
     "libia": ("obligatorio", "SIN CONFIRMAR", "Sin fuente actual", "—",
               "FUERA DE LA RUTA. Figura en la lista del RACE, pero ninguna fuente actual lo confirma; "
               "la única guía con datos (2012) hablaba de una tasa en frontera para quien entra sin "
@@ -195,7 +200,7 @@ NIVELES = {
     "no":           ("#3C9A5F", "No necesario", "Se resuelve en la frontera con un permiso temporal."),
 }
 
-FUERA_DE_RUTA = {"egipto", "libia"}
+FUERA_DE_RUTA = {"egipto", "libia", "tunez"}
 
 COSTE_CPD = [
     ("Emisión del carnet (10 o 25 hojas)", "~230 €"),

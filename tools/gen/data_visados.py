@@ -255,6 +255,12 @@ VISADOS = {
         coste="10 € de gastos hasta 15 días; 35 € hasta 30 días según MAEC.",
         alerta="Solo es una escapada en avión; no existe enlace terrestre con los vehículos.",
         oficial="https://evisamada.gov.mg/", maec=_maec("Madagascar")),
+    "tunez": visa(
+        "sin", "Exención turística de hasta 90 días para pasaporte español.",
+        "Pasaporte con 3 meses de validez (llevar 6); el DNI no sirve. Por vía marítima pueden pedir dirección en Túnez y billete de vuelta.",
+        ruta="fuera", entradas="solo en un viaje aparte en ferry",
+        alerta="Fuera de la ruta 2027: sin conexión terrestre (Marruecos–Argelia cerrada desde 1994; Libia inviable). El vehículo se anota en el pasaporte del conductor.",
+        maec=_maec("Túnez")),
     "burkina-faso": visa(
         "electronico", "Visado obligatorio; eVisa prioritario y sin visado en frontera.",
         "Tramitar online e imprimirlo; completar además la ficha de viaje dentro de las 72 h previas.", ruta="fuera",

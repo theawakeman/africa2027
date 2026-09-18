@@ -59,6 +59,7 @@ RUTAS = {
     "sudan": ("Excluido por conflicto", "No aplica"),
     "egipto": ("Fuera de la ruta prevista", "No aplica"),
     "yibuti": ("Fuera de la ruta prevista", "No aplica"),
+    "tunez": ("Fuera de ruta · ferry desde Italia/Francia", "No aplica"),
 }
 
 
@@ -81,6 +82,7 @@ ACTIVIDADES = {
     "esuatini": ("Pistas de Malolotja", "Sibebe · Malolotja · Mlilwane"),
     "lesoto": ("Sani Pass", "Sani Top y montaña"),
     "madagascar": ("Sin los vehículos", "Rutas locales por auditar"),
+    "tunez": ("Erg de Douz · Ksar Ghilane · sur con guía", "Cañón de Midès · cabo Angela · Ichkeul"),
 }
 
 
@@ -101,6 +103,7 @@ SEGUROS = {
     "camerun": "Carte Rose CEMAC",
     "gabon": "Carte Rose CEMAC",
     "congo": "Carte Rose CEMAC · confirmar",
+    "tunez": "Carta Verde española válida (TN) · solo terceros",
 }
 
 
@@ -133,6 +136,7 @@ PELIGROS = {
     "sudan": "Guerra civil activa",
     "etiopia": "Tigray, Amhara y Oromía",
     "egipto": "Sinaí norte excluido",
+    "tunez": "Fronteras con Argelia y Libia vetadas",
 }
 
 

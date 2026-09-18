@@ -1,6 +1,6 @@
 # Estado de la auditoría integral
 
-Última actualización: 15 de septiembre de 2026.
+Última actualización: 18 de septiembre de 2026.
 
 Este archivo separa las capas de revisión para que «país revisado» no oculte
 trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
@@ -17,6 +17,20 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 7 | Zimbabue, Botsuana, Sudáfrica | Cerrado | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 | Cerrado: 69/69 con foto; 44 galerías | Cerrado: 10 puntos exactos; 6 genéricos retirados |
 | 8 | Esuatini, Lesoto | Cerrado | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 | Cerrado: 36/36 con foto; 36 galerías | Cerrado: 5 puntos exactos; 2 genéricos retirados |
 | 9 | Namibia | Cerrado | Cerrado: 24/24 | Cerrado: 24/24 | Cerrado: 24/24 | Cerrado: 24/24 con galería; 72 fotos | Cerrado: 6 puntos exactos; 2 genéricos retirados |
+| 10 (piloto) | Túnez | Hecho, por validar | Hecho: 20/20 en Google Maps | Hecho: 20/20 | Hecho: 20/20 | Hecho: 20/20 con galería; 60 fotos | No auditada (solo campings documentados) |
+
+## Países fuera del itinerario (grupos «Alternativas», «Avión», «Excluidos», «Fuera de ruta»)
+
+Túnez es el piloto del formato para los 23 países sin ficha completa o con
+ficha corta. Método: 15–20 PDIs por país (decisión del propietario, 18-09-2026)
+con pin comprobado en Google Maps, galería de Commons con autor y licencia,
+ficha de decisión y enlaces concretos; historia de siete secciones con fuentes;
+cabecera uniforme (entradas en `data_cabeceras`, `data_visados` y `data_cpd`).
+Alta en el CMS con `tools/gen/exporta_contenido.py <slug>`. Pendientes tras la
+validación del piloto: Madagascar, Sudán, Egipto, Etiopía y Yibuti (ampliar) y
+Mali, Guinea-Bisáu, Argelia, Libia, Burkina Faso, Níger, Chad, RCA, Sudán del
+Sur, Somalia, Eritrea, Guinea Ecuatorial, Santo Tomé, Cabo Verde, Comoras,
+Seychelles, Mauricio y Burundi (nuevos). Expediente: [`audit/pdi/tunez.md`](pdi/tunez.md).
 
 ## Línea de corte de la nueva pasada PDI
 
