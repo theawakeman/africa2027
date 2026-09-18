@@ -33,6 +33,10 @@ FILA = {
     "Esuatini": "esuatini", "Lesoto": "lesoto", "UE / España": "ue",
     # Fuera de la ruta prevista: fichas informativas (viaje aparte)
     "Túnez": "tunez",
+    "Madagascar": "madagascar",
+    "Mali": "mali",
+    "Guinea-Bisáu": "guinea-bisau",
+    "Sudán": "sudan",
 }
 
 # Búsqueda tolerante: «COSTA DE MARFIL» y «Costa de Marfil» son el mismo país.

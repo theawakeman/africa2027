@@ -1,158 +1,1149 @@
 # -*- coding: utf-8 -*-
-"""Sudán — ficha de decisión (9 sep 2026): país NO viable para tránsito mientras dure la guerra civil."""
+"""Sudán — ficha completa (18 sep 2026): EXCLUIDO POR PROTOCOLO.
+
+Sudán está EXCLUIDO POR PROTOCOLO: guerra civil desde abril de 2023 entre las Fuerzas Armadas y las RSF, con fronteras terrestres no fiables y solo el aeropuerto de Port Sudán operativo; el MAEC desaconseja viajar bajo cualquier circunstancia. Además la ruta 2027 termina en Kenia y no sube hacia el Cuerno de África, así que Sudán queda fuera incluso sin guerra. La app ya tiene una ficha corta (4 PDIs, historia breve) que hay que sustituir por la ficha completa. La ficha es INFORMATIVA: PDIs, historia y trámites redactados con el estado de guerra actual explícito en cada punto (qué zonas están bajo control de quién según fuentes fechadas: ONU/OCHA, Crisis Group, ACLED, prensa).
+
+Método: PDIs con pin comprobado uno a uno en Google Maps, tres fotografías de Wikimedia Commons por PDI (autor y licencia leídos de la API), fichas de decisión y enlaces concretos; historia de siete secciones con fuentes abiertas en la sesión; secciones operativas con fuente y fecha, y «por confirmar» donde no hay fuente. Expediente: audit/historia/sudan.json y audit/pdi/sudan.md.
+"""
 from data_common import make_ficha
-import re as _re
 
 W = "https://commons.wikimedia.org/wiki/Special:FilePath/"
 
 POIS = [
-    dict(n=1, name="Jartum (referencia — NO visitar)", cat="Referencia · conflicto", prio="No planificable", dog="no aplicable", time="—",
-         lat=15.5007, lon=32.5599,
-         desc="Capital y escenario principal de los combates entre el Ejército sudanés (SAF) y las Fuerzas de Apoyo Rápido (RSF) desde abril de 2023; incluida aquí únicamente como referencia geográfica del conflicto, sin ninguna intención de visita mientras dure la guerra.",
-         credit="NASA (ISS-64) · dominio público", source=W + "ISS-64%20Khartoum%2C%20Sudan.jpg?width=900"),
-    dict(n=2, name="Wadi Halfa (referencia — cruce histórico a Egipto)", cat="Referencia · conflicto", prio="No planificable", dog="no aplicable", time="—",
-         lat=21.8000, lon=31.3500,
-         desc="Localidad junto al lago Nasser que históricamente conectaba Sudán con Egipto por ferry; en teoría fuera de las zonas de combate más intensas, pero la fiabilidad general del país durante el conflicto hace que el proyecto no la considere una opción de tránsito real a día de hoy.",
-         credit="David Stanley from Nanaimo, Canada · CC BY 2.0", source=W + "Traditional%20House%20in%20Wadi%20Halfa%2C%20Sudan.jpg?width=900"),
+    dict(
+        n=1, name="Jartum · confluencia de los dos Nilos (Mogran) y Museo Nacional", cat="Ciudad · servicios", prio="Alta",
+        dog="no recomendado", time="1–2 noches",
+        lat=15.6059211, lon=32.5083907,  # Google Maps: Museo nacional de Sudán (Nile St)
+        desc="Jartum nace donde el Nilo Azul, llegado de Etiopía, se une al Nilo Blanco en el Mogran, y durante años fue la puerta lógica de cualquier ruta por Sudán. En Nile Avenue, junto a la confluencia, está el Museo Nacional (1971), que guardaba los templos de Buhen y Semna rescatados del lago Nasser, los frescos de Faras y la estatua de Taharqa. Las RSF lo OCUPARON DEL 02-06-2023 A 03-2025 y su dirección denuncia que hasta el 90 % de los fondos fue saqueado o destruido; en 07-2026 se anunció una reapertura simbólica. La ciudad está bajo control del ejército desde el 26-03-2025, pero sigue recibiendo ataques de drones.",
+        dog_note="Museo cerrado a perros; zona urbana con restos de combates, escombros y explosivos sin detonar; el perro se queda en el coche o en el alojamiento.",
+        visit={
+            "why": "Es el punto de partida histórico de todo viaje por el Nilo sudanés y el museo era la mejor colección de arte nubio del mundo fuera de Egipto.",
+            "see": "El Mogran (la línea de dos aguas de color distinto), el edificio del museo con sus templos egipcios trasladados y, si hay exposición, lo poco que quedó tras el saqueo; el Blue Nile Sailing Club era el campamento clásico de overlanders.",
+            "access": "Ciudad recuperada por las FAS el 26-03-2025 con «widespread destruction» (Wikipedia); el gobierno volvió a Jartum el 11-01-2026 y el aeropuerto reabrió a vuelos domésticos el 01-02-2026, con cierres puntuales por drones (05-2026). MAEC: ninguna zona, «en especial la capital, Jartum», puede considerarse segura; fronteras terrestres cerradas a extranjeros. El pin marca el museo en Nile Avenue, en el barrio de al-Mogran; horarios y entrada por confirmar tras la reapertura.",
+            "when": "Noviembre–febrero (30–35 °C de día); evitar junio–septiembre (más de 45 °C y lluvias).",
+            "skip": "Descartar mientras el MAEC desaconseje el viaje bajo cualquier circunstancia y las fronteras terrestres sigan cerradas a extranjeros.",
+        },
+        links=[
+            {"label": "Wikipedia · National Museum of Sudan", "url": "https://en.wikipedia.org/wiki/Sudan_National_Museum"},
+            {"label": "MAEC · Recomendaciones de viaje Sudán", "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sud%C3%A1n"},
+            {"label": "Wikipedia · Khartoum", "url": "https://en.wikipedia.org/wiki/Khartoum"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_National_Museum_(8625532907).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Sudan_National_Museum_(8625532907).jpg",
+                "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+                "caption": "Fachada del Museo Nacional de Sudán, en la avenida del Nilo.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Archer_King,_National_Museum_of_Sudan,_Khartoum,_Sudan,_North-East_Africa.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:The_Archer_King,_National_Museum_of_Sudan,_Khartoum,_Sudan,_North-East_Africa.jpg",
+                "credit": "Sue Fleckney · CC BY-SA 2.0",
+                "caption": "El «rey arquero», sala meroítica del Museo Nacional.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Confluence_of_Nile_(Khartoum)_001_(cropped).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Confluence_of_Nile_(Khartoum)_001_(cropped).jpg",
+                "credit": "Petr Adam Dohnálek · CC BY-SA 3.0",
+                "caption": "Confluencia del Nilo Blanco y el Azul desde la isla de Tuti.",
+            },
+        ],
+    ),
+    dict(
+        n=2, name="Omdurmán · tumba del Mahdi, zoco y derviches de Hamed al-Nil", cat="Cultura", prio="Alta",
+        dog="prohibido", time="medio día",
+        lat=15.6395246, lon=32.4885378,  # Google Maps: Tumba de El Mahdi (Omdurmán)
+        desc="Omdurmán, en la orilla oeste del Nilo, fue la capital del Estado mahdista y conserva la tumba de cúpula plateada de Muhammad Ahmad, el Mahdi: acabada en 1885, dinamitada por Kitchener tras la batalla de 1898 y RECONSTRUIDA EN 1947. Enfrente, la Casa del Califa es museo, y el zoco es el mayor de Sudán. Los viernes al atardecer, en la tumba del jeque Hamed al-Nil, los derviches de su tariqa cantan y giran entre tambores. Las RSF ocuparon Omdurmán entre 04-2023 y 05-2025 y del museo desaparecieron espadas de Osman Digna.",
+        dog_note="Recintos religiosos (tumba, mezquita, ceremonia sufí) y museo: el perro no entra; el zoco es un laberinto abarrotado.",
+        visit={
+            "why": "La ceremonia sufí del viernes era la imagen más repetida de Sudán y la tumba del Mahdi resume la historia del país en un solo edificio.",
+            "see": "Tumba del Mahdi (abre los viernes), museo Casa del Califa (cerrado los viernes), zoco y, a la puesta de sol del viernes, la 'nuba' de los derviches en el cementerio de Hamed al-Nil.",
+            "access": "Barrio urbano; antes de la guerra se llegaba en taxi o coche propio y se aparcaba en la calle. Ocupación RSF de Omdurmán 04-2023 → 05-2025; el 12-08-2026 hubo drones kamikaze sobre Omdurmán y Jartum (Security Council Report). El pin marca la tumba del Mahdi; la de Hamed al-Nil está en el cementerio del mismo nombre, coordenadas por confirmar.",
+            "when": "Viernes, una o dos horas antes del ocaso para la ceremonia de los derviches; la tumba del Mahdi solo abre los viernes.",
+            "skip": "Sin sentido mientras siga el estado de guerra y el MAEC desaconseje el viaje; como derviches y tumba coinciden en viernes, si no se cae en viernes se pierde lo esencial.",
+        },
+        links=[
+            {"label": "Wikipedia · The Mahdi's tomb", "url": "https://en.wikipedia.org/wiki/The_Mahdi%27s_tomb"},
+            {"label": "Wikipedia · Omdurman", "url": "https://en.wikipedia.org/wiki/Omdurman"},
+            {"label": "Travel Aficionados · derviches, tumba y zoco", "url": "https://www.travelaficionados.com/omdurman-dancing-dervishes-the-mahdis-tomb-and-a-large-souk/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_The_Mahdi_(8626640228).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Tomb_of_The_Mahdi_(8626640228).jpg",
+                "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+                "caption": "Tumba del Mahdi en Omdurmán.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Omdurman_Market.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Omdurman_Market.JPG",
+                "credit": "عاصم الرشيد التوم · CC BY-SA 3.0",
+                "caption": "Mercado de Omdurmán.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Omdurman_Bridge.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Omdurman_Bridge.jpg",
+                "credit": "Hind Mekki ElMardi · CC BY-SA 4.0",
+                "caption": "Puente del Nilo Blanco entre Omdurmán y Jartum.",
+            },
+        ],
+    ),
+    dict(
+        n=3, name="Garganta de Sabaloka · la sexta catarata del Nilo", cat="Naturaleza", prio="Media",
+        dog="permitido con condiciones", time="medio día",
+        lat=16.2768999, lon=32.6051351,  # Google Maps: Sabloka Nature Reserve (sexta catarata)
+        desc="Unos 50–80 km al norte de Jartum el Nilo se estrecha y atraviesa el plutón de Sabaloka, un anillo de rocas ígneas que forma la SEXTA CATARATA, la última antes de Egipto contando desde el sur. No es una cascada sino rápidos entre paredes de granito y roca oscura que se ven bien solo desde el agua: los pescadores locales alquilan barcas de unos 45 minutos y hay chiringuitos de pescado frito. Se llega por pistas de tierra mal señalizadas que se convierten en barro con las lluvias. Era la excursión de fin de semana de los jartumíes.",
+        dog_note="Espacio abierto y aldeas de pescadores; con correa, y ojo con el agua (corrientes, no se recomienda el baño ni a personas).",
+        visit={
+            "why": "Es el único tramo del Nilo cerca de Jartum con paisaje de cañón y la última catarata natural que queda al alcance de un turismo de día.",
+            "see": "La garganta desde una barca, los rápidos, las aldeas de pescadores y los restos arqueológicos del Jebel Sabaloka (prehistoria y Meroe) estudiados por misiones checas.",
+            "access": "Pistas de tierra y grava desde la carretera Jartum–Shendi (orilla este) o desde la oeste; reseñas hablan de 2–4 horas y de un «laberinto» donde conviene guía local; intransitable en lluvias. Aparcamiento improvisado junto a los merenderos. El pin marca la sección de la catarata según Wikipedia; el embarcadero exacto está por confirmar. Zona bajo control FAS (estado de Jartum/Nilo), pero el MAEC desaconseja todo el país.",
+            "when": "Estación seca, noviembre–marzo, a primera hora para evitar el calor; los festivos locales llenan la orilla de picnics.",
+            "skip": "Descartar si ha llovido (pista de barro) o si no hay tiempo para la barca: sin ella la garganta apenas se ve.",
+        },
+        links=[
+            {"label": "Wikipedia · Cataracts of the Nile", "url": "https://en.wikipedia.org/wiki/Cataracts_of_the_Nile"},
+            {"label": "Tripadvisor · Al Sabalouga (Sabaloka Gorge)", "url": "https://www.tripadvisor.com/Attraction_Review-g293835-d1773080-Reviews-Al_Sabalouga_Sabaloka_Gorge-Khartoum_Khartoum_State.html"},
+            {"label": "ITC Sudan · el Nilo y sus cataratas", "url": "https://www.italtoursudan.com/luogo/the-nile-river-and-its-cataracts/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alsabloga.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Alsabloga.jpg",
+                "credit": "Arwa51o · CC BY-SA 4.0",
+                "caption": "Barca en el Nilo en Sabaloka (sexta catarata).",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%B3%D8%A8%D9%84%D9%88%D9%82%D8%A9_%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%A8%D9%84%D9%88%D9%82%D8%A9_%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86.jpg",
+                "credit": "Arwa25 · CC BY-SA 4.0",
+                "caption": "La garganta de Sabaloka.",
+            },
+        ],
+    ),
+    dict(
+        n=4, name="Pirámides de Meroe (UNESCO)", cat="Patrimonio UNESCO", prio="Alta",
+        dog="permitido con condiciones", time="1 noche",
+        lat=16.9346674, lon=33.7513648,  # Google Maps: Necrópolis sur de Meroë (pin de Google junto a la taquilla)
+        desc="A unos 200 km al noreste de Jartum, junto a la aldea de Bagrawiya, se alzan las necrópolis reales de Meroe, capital del reino de Kush desde hacia 590 a. C. hasta 350 d. C.: MÁS DE 140 PIRÁMIDES de arenisca en tres cementerios, estrechas y empinadas (unos 72°), de 6 a 30 m. En 1834 el cazatesoros Giuseppe Ferlini decapitó unas cuarenta con explosivos. Patrimonio Mundial desde 2011 con Naqa y Musawwarat. Desde 2023 el sitio está «largely abandoned», con guardas pero sin misiones ni turistas, y la arena y la sal avanzan sobre las inscripciones.",
+        dog_note="Sitio arqueológico abierto en el desierto; con correa, lejos de los monumentos y de los camelleros; sin sombra ni agua.",
+        visit={
+            "why": "Es la imagen de Sudán: un campo de pirámides sin apenas visitantes, a pie de carretera, con las dunas comiéndose las tumbas.",
+            "see": "Cementerio norte (41 pirámides, el más fotogénico), cementerio sur, capillas funerarias con relieves, y al otro lado de la carretera la ciudad real de Meroe y el templo de Amón.",
+            "access": "Junto a la carretera asfaltada Jartum–Atbara; se aparca en el desierto junto a la taquilla, donde antes de la guerra se pagaba 10–30 USD según nacionalidad (Afro Heritage Atlas, 04-2026, datos preguerra) o unas 100–270 SDG regateando (Against the Compass). Estado del Nilo bajo control FAS, pero sin turismo desde 2023; el pin marca el cementerio norte.",
+            "when": "Amanecer o última hora de la tarde, noviembre–febrero; evitar junio–septiembre (más de 45 °C).",
+            "skip": "Descartar mientras dure la guerra; si algún día es viable, no ir al mediodía en verano.",
+        },
+        links=[
+            {"label": "UNESCO · Archaeological Sites of the Island of Meroe", "url": "https://whc.unesco.org/en/list/1336/"},
+            {"label": "Wikipedia · Pyramids of Meroë", "url": "https://en.wikipedia.org/wiki/Pyramids_of_Mero%C3%AB"},
+            {"label": "Afro Heritage Atlas · guía práctica pirámides nubias", "url": "https://afroatlas.org/guides/nubian-pyramids-meroe-visitor-guide/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Meroe_Pyramids_-_33110830438.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Meroe_Pyramids_-_33110830438.jpg",
+                "credit": "Laurent de Walick · CC BY 2.0",
+                "caption": "Pirámides del cementerio norte de Meroe.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_Meroe_Pyramids_30sep2005_2.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Sudan_Meroe_Pyramids_30sep2005_2.jpg",
+                "credit": "Fabrizio Demartis · CC BY-SA 2.0",
+                "caption": "Pirámides de Meroe con el desierto de fondo.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Natakamani_pyramid.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Natakamani_pyramid.jpg",
+                "credit": "Lassi at Hungarian Wikipedia · CC BY-SA 3.0",
+                "caption": "Pirámide de Natakamani, Meroe.",
+            },
+        ],
+    ),
+    dict(
+        n=5, name="Naqa y Musawwarat es-Sufra · templos del reino de Kush (UNESCO)", cat="Patrimonio UNESCO", prio="Alta",
+        dog="permitido con condiciones", time="1 noche",
+        lat=16.2687842, lon=33.2764221,  # Google Maps: Naga: Templo de Amón
+        desc="A unos 50 km al este del Nilo, en pleno desierto de la 'isla de Meroe', están los dos grandes centros religiosos kushitas: Naqa, con el Templo del León de Apedemak (Natakamani y Amanitore pisando prisioneros), el Quiosco Romano de capiteles corintios y un templo de Amón de 100 m; y Musawwarat es-Sufra, 20 km al norte, con el Gran Recinto de 45.000 m² lleno de ELEFANTES ESCULPIDOS y un Templo del León (c. 230 a. C.) reconstruido por la Universidad Humboldt en 1960–70. Patrimonio Mundial 2011. El 14-01-2024 el ejército bombardeó ambos sitios tras una incursión de las RSF.",
+        dog_note="Desierto abierto y ruinas sin vallar; con correa y agua propia; hay ganado y camellos de los nómadas en los pozos.",
+        visit={
+            "why": "Son los templos mejor conservados de Kush y los únicos donde se ve a los reyes negros de Meroe representados a tamaño monumental, con un dios de tres cabezas.",
+            "see": "En Naqa el Templo del León y el Quiosco Romano; en Musawwarat el laberinto de patios, rampas y columnas del Gran Recinto y el Templo del León con sus relieves.",
+            "access": "Solo 4x4: pistas de arena desde la carretera Jartum–Shendi (Naqa ~170 km de Jartum) y desde Shendi (antes de la guerra, 4x4 con conductor ~400 SDG desde Shendi o 100–150 USD desde Jartum). Sin servicios; se aparca junto a las ruinas. El pin marca Naqa; Musawwarat está en 16.41583/33.32361. Bombardeos e incursiones documentados en 01-2024; hoy sin turismo.",
+            "when": "Noviembre–febrero, empezando al amanecer para enlazar los dos sitios y Meroe en un día largo.",
+            "skip": "Descartar sin 4x4 y sin GPS con la pista cargada; y por supuesto mientras siga la guerra.",
+        },
+        links=[
+            {"label": "UNESCO · Archaeological Sites of the Island of Meroe", "url": "https://whc.unesco.org/en/list/1336/"},
+            {"label": "Wikipedia · Naqa", "url": "https://en.wikipedia.org/wiki/Naqa"},
+            {"label": "Wikipedia · Musawwarat es-Sufra", "url": "https://en.wikipedia.org/wiki/Musawwarat_es-Sufra"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Naqa_Apedamak_temple.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Naqa_Apedamak_temple.jpg",
+                "credit": "User:LassiHU · CC BY-SA 4.0",
+                "caption": "Quiosco romano y templo de Apedemak en Naqa.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NaqaLionTempleApedemak3heads4arms.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:NaqaLionTempleApedemak3heads4arms.jpg",
+                "credit": "Clemens Schmillen · CC BY-SA 4.0",
+                "caption": "Apedemak de tres cabezas en el templo del León de Naqa.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musawwarat_es-Sufra_2018_01.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Musawwarat_es-Sufra_2018_01.jpg",
+                "credit": "Vaido Otsar · CC BY-SA 4.0",
+                "caption": "Gran Recinto de Musawwarat es-Sufra.",
+            },
+        ],
+    ),
+    dict(
+        n=6, name="Atbara · confluencia del Atbara y el Nilo", cat="Ciudad · servicios", prio="Media",
+        dog="permitido con condiciones", time="medio día",
+        lat=17.7121079, lon=34.0006614,  # Google Maps: Atbara
+        desc="Atbara es la 'ciudad del ferrocarril': nació con la línea Wadi Halfa–Jartum y aquí se unen las vías que vienen del norte, de Port Sudán y de Karima. Está en la confluencia del río Atbara, el último afluente del Nilo, que llega cargado de limo etíope solo en verano. El 8 de abril de 1898 Kitchener venció aquí a los mahdistas antes de Omdurmán. Es también la ciudad de la cementera y la cabecera de la carretera que cruza el Bayuda hacia Karima. En 08-2026 sufrió ATAQUES DE DRONES de las RSF; en 2024 se incautó aquí un almacén de piezas robadas del Museo Nacional.",
+        dog_note="Ciudad de paso; paseo por la ribera con correa; nada que visitar bajo techo.",
+        visit={
+            "why": "Es el cruce logístico del norte: gasolina, talleres, mercado y el punto donde se decide entre seguir por el Nilo o cortar por el Bayuda.",
+            "see": "La confluencia de los dos ríos (agua oscura del Atbara en crecida frente al Nilo), la estación y los talleres ferroviarios, y el bullicio de una ciudad obrera.",
+            "access": "Carretera asfaltada desde Jartum (por Shendi y Meroe) y desde Port Sudán; aparcamiento en calle o en hotel. Zona FAS (estado del Nilo); el 12-08-2026 drones kamikaze RSF atacaron Atbara (Security Council Report). El pin marca el centro de la ciudad; el mirador de la confluencia está por confirmar.",
+            "when": "Final del verano (agosto–septiembre) es cuando el Atbara baja lleno; el resto del año puede ser un cauce casi seco.",
+            "skip": "Es parada de servicios, no de turismo: descartar si no hace falta repostar ni pernoctar.",
+        },
+        links=[
+            {"label": "Wikipedia · Atbara", "url": "https://en.wikipedia.org/wiki/Atbara"},
+            {"label": "Security Council Report · Sudan, septiembre 2026", "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-09/sudan-41.php"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atbara_Nile_river.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Atbara_Nile_river.jpg",
+                "credit": "Hosam sudan · CC0",
+                "caption": "Confluencia del Atbara con el Nilo.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%85%D8%AD%D8%B7%D8%A9_%D8%A7%D9%84%D8%B3%D9%83%D8%A9_%D8%AD%D8%AF%D9%8A%D8%AF_%D8%B9%D8%B7%D8%A8%D8%B1%D8%A9.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D8%B7%D8%A9_%D8%A7%D9%84%D8%B3%D9%83%D8%A9_%D8%AD%D8%AF%D9%8A%D8%AF_%D8%B9%D8%B7%D8%A8%D8%B1%D8%A9.jpg",
+                "credit": "Maram ali ahmed · CC BY-SA 4.0",
+                "caption": "Estación de ferrocarril de Atbara.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atbara,british_house.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Atbara,british_house.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Casas del barrio británico de Atbara.",
+            },
+        ],
+    ),
+    dict(
+        n=7, name="Karima y Jebel Barkal · la montaña sagrada de Amón (UNESCO)", cat="Patrimonio UNESCO", prio="Alta",
+        dog="permitido con condiciones", time="1–2 noches",
+        lat=18.5351815, lon=31.8305576,  # Google Maps: Templo de Amón de Gebel Barkal (Karima)
+        desc="Jebel Barkal es una mesa de arenisca de 104 m que los egipcios de Tutmosis III (c. 1450 a. C.) tomaron por morada de Amón y a cuyo pie creció Napata, capital de los 'faraones negros' de la dinastía XXV. Al pie hay el templo de Amón, el templo de Mut excavado en la roca y un grupo de pirámides meroíticas; el pináculo de la montaña recuerda a una cobra real. Es el núcleo del sitio UNESCO «Gebel Barkal y los sitios de la región napatea» (2003), con Kurru, Nuri, Sanam y Zuma. Karima, a 400 km de Jartum, es la base: el Nubian Rest House está al pie del monte. Los locales siguen considerando sagrados los grandes templos.",
+        dog_note="Exterior abierto (subida a la mesa, pirámides); no entrar con él en los templos ni en la zona excavada del templo de Mut.",
+        visit={
+            "why": "Subir la mesa al atardecer y ver desde arriba las pirámides, el Nilo y el desierto es el mejor cuarto de hora de Sudán.",
+            "see": "Templo de Amón, templo de Mut en la roca, pirámides al pie, el pináculo, y el pequeño museo de Karima; la ciudad y el palmeral.",
+            "access": "Asfalto desde Jartum (~400 km) y desde Dongola y Atbara; se aparca en el arenal al pie de la mesa, junto a los templos. Horario y entrada por confirmar (preguerra). Estado del Norte bajo FAS pero con drones RSF sobre Merowe (aeropuerto y presa, 13-11-2025) y Al-Dabbah (15-07-2026). El pin marca la mesa; la taquilla está por confirmar.",
+            "when": "Última hora de la tarde para subir y ver el ocaso; noviembre–febrero.",
+            "skip": "Descartar mientras el MAEC desaconseje el viaje; con calor extremo, no subir a mediodía.",
+        },
+        links=[
+            {"label": "UNESCO · Gebel Barkal and the Sites of the Napatan Region", "url": "https://whc.unesco.org/en/list/1073/"},
+            {"label": "Wikipedia · Jebel Barkal", "url": "https://en.wikipedia.org/wiki/Jebel_Barkal"},
+            {"label": "Wikipedia · Karima", "url": "https://en.wikipedia.org/wiki/Karima,_Sudan"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jebel_Barkal_%2B_Amun_Temple.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Jebel_Barkal_%2B_Amun_Temple.jpg",
+                "credit": "Maurice Chédel · Public domain",
+                "caption": "Templo de Amón al pie del Jebel Barkal, Karima.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gebel_Barkal.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Gebel_Barkal.jpg",
+                "credit": "LassiHU · CC BY-SA 4.0",
+                "caption": "El Jebel Barkal, la montaña sagrada de Napata.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amun_Tempel_Barkal_SW.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Amun_Tempel_Barkal_SW.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Templo de Amón desde el suroeste.",
+            },
+        ],
+    ),
+    dict(
+        n=8, name="Pirámides de Nuri y necrópolis de El-Kurru", cat="Patrimonio UNESCO", prio="Alta",
+        dog="permitido con condiciones", time="medio día",
+        lat=18.5636222, lon=31.9162803,  # Google Maps: Pirámides de Nuri
+        desc="Los reyes de Napata se enterraron en dos necrópolis a ambos lados de Karima. En Nuri, en la orilla opuesta, la PIRÁMIDE DE TAHARQA (c. 670 a. C., 51,75 m de lado y 40–50 m de alto) es la mayor de Sudán y arranca una serie de más de 20 pirámides en pie, quizá 80 en su día, hasta Nastasen (c. 310 a. C.). En El-Kurru, 15 km al sur de Karima, están las tumbas de Piye, Shabaka y Tantamani (c. 860–650 a. C.): la de Tantamani y la de la reina Qalhata conservan pinturas murales y de techo. Ambas forman parte del sitio UNESCO de 2003.",
+        dog_note="Necrópolis al aire libre; con correa; las cámaras pintadas de El-Kurru son subterráneas y se visitan sin perro.",
+        visit={
+            "why": "Aquí yacen los faraones de la dinastía XXV que gobernaron Egipto; en El-Kurru se baja a tumbas pintadas que casi nadie ha visto.",
+            "see": "En Nuri el campo de pirámides erosionadas con la de Taharqa al frente; en El-Kurru la escalera a las cámaras pintadas de Tantamani y Qalhata y el bosque petrificado cercano (por confirmar).",
+            "access": "Nuri: a ~10 km del Jebel Barkal por la orilla opuesta (antes ferry desde Karima y pista sin asfaltar; hoy hay puente en Merowe, por confirmar); El-Kurru: ~15 km al sur de Karima, las cámaras pueden exigir guardián con llave. Sin instalaciones; se aparca en el arenal. El pin marca Nuri; El-Kurru está en 18.41/31.77139. Zona FAS con drones sobre Merowe (11-2025).",
+            "when": "Primera hora de la mañana, noviembre–febrero; las cámaras de El-Kurru se ven mejor con linterna propia.",
+            "skip": "Descartar si el guardián de El-Kurru no aparece y no hay tiempo: sin bajar a las tumbas queda poco que ver.",
+        },
+        links=[
+            {"label": "Wikipedia · Nuri", "url": "https://en.wikipedia.org/wiki/Nuri"},
+            {"label": "Wikipedia · El-Kurru", "url": "https://en.wikipedia.org/wiki/El-Kurru"},
+            {"label": "UNESCO · Gebel Barkal and the Sites of the Napatan Region", "url": "https://whc.unesco.org/en/list/1073/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuri_Pyramids.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Nuri_Pyramids.jpg",
+                "credit": "Laurent de Walick · CC BY 2.0",
+                "caption": "Pirámides de Nuri.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Southern_view_of_the_Nuri_pyramids_in_1821_(top)_and_in_2020_(bottom).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Southern_view_of_the_Nuri_pyramids_in_1821_(top)_and_in_2020_(bottom).jpg",
+                "credit": "Frédéric Cailliaud (1826) / Bruce Allardice (2020) · CC BY-SA 2.0",
+                "caption": "Nuri en 1821 (Cailliaud) y en 2020.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Kurru,main_pyramid.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Al-Kurru,main_pyramid.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Pirámide K.1 de El-Kurru, al sur del Jebel Barkal.",
+            },
+        ],
+    ),
+    dict(
+        n=9, name="Antigua Dongola · capital cristiana de Makuria", cat="Cultura", prio="Media",
+        dog="permitido con condiciones", time="medio día",
+        lat=18.2247166, lon=30.7456107,  # Google Maps: Vieja Dongola: Salón del Trono
+        desc="En la orilla este del Nilo, unos 80 km aguas arriba de la actual Dongola, están las ruinas de la capital del reino cristiano de Makuria (siglos VI–XIV). Destaca la Sala del Trono, un edificio defensivo del siglo IX de 28×18×12 m que en 1317 se convirtió en MEZQUITA y funcionó como tal hasta 1969; alrededor, la Iglesia de las Columnas de Granito (finales del s. VII), la iglesia cruciforme, el monasterio de Kom H con pinturas de los siglos XI–XIII y un cementerio islámico de qubbas del siglo XVII. Misiones polacas excavan desde 1964.",
+        dog_note="Ruinas al aire libre en el desierto; con correa y sin entrar en la Sala del Trono ni en el monasterio con pinturas.",
+        visit={
+            "why": "Es el testimonio más completo de la Nubia cristiana medieval y el lugar donde una iglesia-palacio se hizo mezquita sin dejar de ser el edificio más alto del Nilo.",
+            "see": "La Sala del Trono/mezquita, las columnas de granito de la iglesia, el monasterio con pinturas (si el guardián abre), las qubbas cónicas de barro y la vista sobre el Nilo.",
+            "access": "Junto a la carretera de la orilla este entre Dongola y Karima (asfalto; desvío corto por pista). Sin taquilla fija ni horario conocidos; guardián local. Se aparca junto a la Sala del Trono. Zona FAS (estado del Norte). El pin marca la ciudadela.",
+            "when": "Mañana temprano o atardecer, noviembre–febrero, cuando la luz rasante dibuja las qubbas.",
+            "skip": "Descartar si se va justo de tiempo entre Karima y Kerma: es una parada de una o dos horas, no un destino.",
+        },
+        links=[
+            {"label": "Wikipedia · Old Dongola", "url": "https://en.wikipedia.org/wiki/Old_Dongola"},
+            {"label": "Wikipedia · Dongola", "url": "https://en.wikipedia.org/wiki/Dongola"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dobgola_Kingdom_of_Makuria,_Throne_hall_(33985988324).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Old_Dobgola_Kingdom_of_Makuria,_Throne_hall_(33985988324).jpg",
+                "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+                "caption": "Salón del Trono de la antigua Dongola (reino de Makuria).",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dongola_(34665801522).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Old_Dongola_(34665801522).jpg",
+                "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+                "caption": "Ruinas de la antigua Dongola.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dongola_graveyard_(34829443985).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Old_Dongola_graveyard_(34829443985).jpg",
+                "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+                "caption": "Cementerio de qubbas de la antigua Dongola.",
+            },
+        ],
+    ),
+    dict(
+        n=10, name="Kerma · las deffufas y el Museo de Kerma", cat="Cultura", prio="Alta",
+        dog="permitido con condiciones", time="1 noche",
+        lat=19.600813, lon=30.4104342,  # Google Maps: Kerma: Deffufa Occidental
+        desc="Kerma fue la primera gran ciudad del África negra: capital de un reino nubio entre c. 2500 y 1500 a. C. que rivalizó con Egipto. Su símbolo es la DEFFUFA OCCIDENTAL, un templo de adobe de 50×25 m y 18 m de altura, aún en pie; la Deffufa Oriental, 2 km al este, es una capilla funeraria entre unos 30.000 túmulos. El museo (19-01-2008), fruto de la misión suiza de Charles Bonnet, exhibe las siete estatuas de granito negro de los faraones de la dinastía XXV (Taharqa, Tanwetamani, Anlamani, Aspelta…) halladas rotas en Dukki Gel en 2003. Horario preguerra: 10–19 h, cerrado lunes; sitio 10 USD.",
+        dog_note="Yacimiento al aire libre (deffufas) con correa; el museo no admite perros.",
+        visit={
+            "why": "Ver de cerca las estatuas de los faraones negros y subir a un edificio de barro de 3.500 años es la parada más sorprendente del Nilo sudanés.",
+            "see": "Deffufa Occidental y ciudad antigua, museo con las estatuas y maquetas, Deffufa Oriental y la necrópolis, y a pocos km Tombos con su tercera catarata.",
+            "access": "Asfalto casi completo desde Jartum y desde Dongola (Kerma está a ~50 km al norte de Dongola); el museo, de arquitectura nubia, está junto a la deffufa con aparcamiento. Datos de kerma.ch (preguerra): 10–19 h, cerrado lunes y fiestas, donativo museo, 10 USD el yacimiento. Zona FAS. El pin marca el museo/deffufa.",
+            "when": "Mañana temprano, entre semana (cierra lunes); noviembre–febrero.",
+            "skip": "Descartar en lunes o si no se puede pernoctar en la zona: Kerma merece calma y hay aldeas nubias alrededor.",
+        },
+        links=[
+            {"label": "Kerma.ch · Museo de Kerma (misión suizo-sudanesa)", "url": "https://kerma.ch/en/museum/"},
+            {"label": "Wikipedia · Kerma", "url": "https://en.wikipedia.org/wiki/Kerma"},
+            {"label": "Wikipedia · Kerma Museum", "url": "https://en.wikipedia.org/wiki/Kerma_Museum"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Western_Deffufa_-_Kerma.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Western_Deffufa_-_Kerma.jpg",
+                "credit": "walter callens · CC BY 2.0",
+                "caption": "La Deffufa occidental de Kerma.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerma_Site_Museum_(8650054421).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Kerma_Site_Museum_(8650054421).jpg",
+                "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+                "caption": "Museo del yacimiento de Kerma, junto a la Deffufa.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerma_NNE.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Kerma_NNE.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Yacimiento de Kerma junto a la Deffufa occidental.",
+            },
+        ],
+    ),
+    dict(
+        n=11, name="Isla de Sai y templo de Soleb", cat="Cultura", prio="Media",
+        dog="por confirmar", time="1 noche",
+        lat=20.4362991, lon=30.3338858,  # Google Maps: Templo de Soleb
+        desc="Entre la segunda y la tercera catarata, en el país de los nubios mahas, están dos sitios que se visitan en barca. Soleb es el TEMPLO MÁS MERIDIONAL DE AMENOFIS III (s. XIV a. C.), en arenisca, dedicado a Amón-Ra y al propio faraón deificado con cuernos de carnero; de aquí salieron los leones de Prudhoe del British Museum, y allí siguen columnas con las listas de pueblos prisioneros. La isla de Sai (12 × 5,5 km), frente a Abri, superpone una ciudad egipcia del Reino Nuevo, iglesias de Makuria y un fuerte otomano del s. XVI construido con bloques inscritos. Sin turismo desde 2023.",
+        dog_note="Ambos se visitan en barca de pescadores desde la orilla este; que el barquero acepte al perro es negociable pero no está documentado.",
+        visit={
+            "why": "Es el Egipto faraónico más al sur y el más solitario: un templo de Amenofis III sin nadie, al que se llega en barca de pescador.",
+            "see": "En Soleb las columnas con jeroglíficos y los carneros esculpidos; en Sai el fuerte otomano sobre la ciudad egipcia, la iglesia de cuatro columnas y miles de fragmentos con jeroglíficos por el suelo.",
+            "access": "Soleb: desde Abri unos 50 km hasta Wawa (asfalto de la orilla este) y barca de pescador para cruzar; taquilla con entrada simbólica (~60 SDG preguerra). Sai: barca alquilada desde Abri o Amara (los ferris no siempre operan). Aparcamiento en la orilla, junto al embarcadero de Wawa. El pin marca el templo de Soleb (20°26′N 30°20′E); Sai está en 20.7083/30.325. Zona FAS (estado del Norte).",
+            "when": "Última hora de la tarde en Soleb (luz sobre las columnas), noviembre–febrero; con el Nilo bajo (marzo) se ven las terrazas de cultivo de Sai.",
+            "skip": "Descartar si no se está dispuesto a regatear la barca (hasta hora y media según un viajero) o si el viento de cara hace lento el regreso.",
+        },
+        links=[
+            {"label": "Wikipedia · Soleb", "url": "https://en.wikipedia.org/wiki/Soleb"},
+            {"label": "Wikipedia · Sai (island)", "url": "https://en.wikipedia.org/wiki/Sai_(island)"},
+            {"label": "Travel Adventures · Soleb (relato de visita)", "url": "https://www.traveladventures.org/continents/africa/soleb.html"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Soleb_Temple_(2)_(34385481131).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Soleb_Temple_(2)_(34385481131).jpg",
+                "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+                "caption": "Templo de Amenhotep III en Soleb.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Soleb1.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Soleb1.jpg",
+                "credit": "Clemens Schmillen · CC BY-SA 4.0",
+                "caption": "Vista general del templo de Soleb.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ottoman_fort,_Sai_Island,_Sudan_(24846849815).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ottoman_fort,_Sai_Island,_Sudan_(24846849815).jpg",
+                "credit": "Valerian Guillot · CC BY 2.0",
+                "caption": "Fuerte otomano de la isla de Sai.",
+            },
+        ],
+    ),
+    dict(
+        n=12, name="Wadi Halfa y la segunda catarata sumergida", cat="Ciudad · servicios", prio="Media",
+        dog="permitido con condiciones", time="1 noche",
+        lat=21.8073752, lon=31.3162741,  # Google Maps: Wadi Halfa Port (embarcadero del lago Nubia)
+        desc="Wadi Halfa es la puerta norte de Sudán, a orillas del lago Nubia (la cola sudanesa del lago Nasser) y a pocos km de Egipto. La ciudad antigua fue DESTRUIDA POR LA CRECIDA DE 1964 tras la presa de Asuán y unas 52.000 personas fueron reasentadas; bajo el agua quedaron la segunda catarata, 10 km al sur, y la fortaleza egipcia de Buhen, cuyo templo se salvó trasladándolo a Jartum. Es fin de línea del ferrocarril, embarcadero del ferry a Asuán y punto de trámite de los pasos terrestres de Argeen (abierto en 2014, 24 h, todo tipo de vehículos) y Qustul/Ashkeit. Desde 2023 los pasos viven una crisis humanitaria de refugiados.",
+        dog_note="Pueblo fronterizo y orilla del lago; con correa; los trámites de frontera y ferry son largos y el perro necesitará sombra en el coche.",
+        visit={
+            "why": "Solo por necesidad: es donde se entra o sale de Sudán por Egipto y donde se hacen aduana, registro y seguro.",
+            "see": "La orilla del lago con los cerros que fueron islas, el mercado, los restos de la Halfa vieja bajo el agua y, en la memoria, la segunda catarata y Buhen.",
+            "access": "Asfalto desde Dongola (394 km, gasolineras y cafeterías escasas). Paso de Argeen a 56 km, al oeste del lago; el ferry Abu Simbel–Wadi Halfa cruzaba por la mañana (no en viernes). En 2026 el paso sigue abierto pero con colas, cierres imprevisibles y casi sin infraestructura (FCDO, Border Crossing Hub); el MAEC dice que las fronteras terrestres están cerradas a extranjeros. El pin marca la ciudad; el embarcadero exacto está por confirmar.",
+            "when": "Llegar de mañana para no dormir en la frontera; noviembre–febrero.",
+            "skip": "Descartar por completo mientras el paso Egipto–Sudán esté cerrado a extranjeros o saturado por refugiados.",
+        },
+        links=[
+            {"label": "Wikipedia · Wadi Halfa", "url": "https://en.wikipedia.org/wiki/Wadi_Halfa"},
+            {"label": "Border Crossing Hub · Argeen/Arqin", "url": "https://bordercrossinghub.com/argeen-arqin-border-crossing/"},
+            {"label": "FCDO · Sudan regional risks (frontera con Egipto)", "url": "https://www.gov.uk/foreign-travel-advice/sudan/regional-risks"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubian_lake_Wadi_H.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Nubian_lake_Wadi_H.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "El lago Nubia en Wadi Halfa.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aswan_to_Wadi_Halfa_Ferry_(8650087097).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Aswan_to_Wadi_Halfa_Ferry_(8650087097).jpg",
+                "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+                "caption": "El ferry Asuán–Wadi Halfa.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/WadiHalfa,aq-lake.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:WadiHalfa,aq-lake.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Wadi Halfa desde la colina.",
+            },
+        ],
+    ),
+    dict(
+        n=13, name="Port Sudán · arrecifes de Sanganeb y bahía de Dungonab (UNESCO)", cat="Costa", prio="Alta",
+        dog="no recomendado", time="1–2 noches",
+        lat=19.6019681, lon=37.2075817,  # Google Maps: Puerto Sudán (ciudad; los barcos de buceo salen del puerto)
+        desc="Port Sudán, fundada por los británicos entre 1905 y 1909 para sustituir a Suakin, es el único puerto del país y fue la SEDE DEL GOBIERNO DE 04-2023 A 01-2026. Frente a la costa está el mejor buceo del mar Rojo: el atolón de Sanganeb, 25 km mar adentro, único de su tipo en el mar Rojo, con faro británico de 50 m, tiburones martillo y barracudas; y 125 km al norte la bahía de Dungonab e isla Mukkawar, con dugongos y mantas. Ambos forman el sitio UNESCO de 2016. Cerca están el pecio del Umbria (1940) y el Conshelf II de Cousteau (1963) en Sha'ab Rumi. Desde 05-2025 la ciudad sufre ataques de drones.",
+        dog_note="Parque marino visitado en barco de buceo (varios días a bordo): el perro no puede ir; en la ciudad se queda en el hotel.",
+        visit={
+            "why": "Es el buceo con más tiburones y menos barcos del mar Rojo, y la única ventana de entrada aérea al país durante la guerra.",
+            "see": "Desde el faro de Sanganeb el arrecife entero; bajo el agua, martillos, grises y barracudas; el Umbria tumbado a 38 m con sus camiones; los mangles y dugongos de Dungonab.",
+            "access": "Los arrecifes se visitan en barcos-hotel de buceo que zarpan de Port Sudán (también desde Port Ghalib, Egipto); no hay acceso por tierra a Sanganeb, y Dungonab exige pista costera hacia el norte (~130 km). Aeropuerto internacional operativo pero con drones RSF el 4–5 de mayo de 2025 (base Osman Digna, depósitos de combustible). El pin marca el puerto; Sanganeb (~30 km NE) y Dungonab (21.0/37.183) sin pin propio.",
+            "when": "Octubre–julio para bucear; martillos febrero–julio, mantas agosto–noviembre; mejor visibilidad febrero–mayo.",
+            "skip": "Descartar si no se bucea: la ciudad en sí ofrece poco y el mar solo se ve desde un barco.",
+        },
+        links=[
+            {"label": "UNESCO · Sanganeb Marine NP and Dungonab Bay–Mukkawar Island MNP", "url": "https://whc.unesco.org/en/list/262/"},
+            {"label": "Wikipedia · Port Sudan", "url": "https://en.wikipedia.org/wiki/Port_Sudan"},
+            {"label": "Dive The World · dive sites Sudan", "url": "https://www.dive-the-world.com/diving-sites-sudan.php"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/PortSudan_center_harbour.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:PortSudan_center_harbour.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Port Sudán, del centro hacia el puerto.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Portsudan_sea.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Portsudan_sea.jpg",
+                "credit": "Hello worldwide · CC BY-SA 4.0",
+                "caption": "La costa de Port Sudán (Wiki Loves Africa).",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_Port_Sudan_Harbor_USAID.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Sudan_Port_Sudan_Harbor_USAID.jpg",
+                "credit": "USAID · Public domain",
+                "caption": "Puerto de Port Sudán.",
+            },
+        ],
+    ),
+    dict(
+        n=14, name="Suakin · la ciudad de coral en ruinas", cat="Cultura", prio="Alta",
+        dog="permitido con condiciones", time="medio día",
+        lat=19.1053213, lon=37.3289687,  # Google Maps: Old Suakin Gate (East Sudan Gate)
+        desc="Unos 50 km al sur de Port Sudán, Suakin fue durante siglos el puerto otomano del Sudán y la salida de los peregrinos hacia La Meca: una isla redonda unida a tierra por un dique, con casas y mezquitas de BLOQUES DE CORAL que, sin revoco, se han ido desmoronando hasta parecer una ciudad bombardeada. El jedive Ismail la recibió en 1865 y levantó casas, molinos y una iglesia copta; Port Sudán la arruinó desde 1909. Turquía obtuvo en 2018 un arriendo de 99 años y restauró 2017–2019 el palacio del gobernador, la aduana y las mezquitas Hanafi y Shafai; en 2026 se restaura una mezquita-mausoleo sufí con UNESCO y British Council.",
+        dog_note="Isla de ruinas al aire libre; con correa por los escombros de coral; no en las mezquitas restauradas.",
+        visit={
+            "why": "No hay otro lugar así en el mar Rojo: una ciudad entera de coral en ruinas, con el puerto de los ferris a Yeda al lado.",
+            "see": "La puerta del dique, las mezquitas Hanafi y Shafai restauradas, la aduana y el palacio del gobernador, las manzanas de ruinas y la laguna con el mercante varado.",
+            "access": "Asfalto Port Sudán–Suakin (~50 km); se aparca en la ciudad continental (El-Geyf) antes del dique y se entra a pie; horario y entrada por confirmar. Estado del Mar Rojo bajo FAS, con drones sobre Port Sudán (05-2025). Ferris diarios Suakin–Yeda (Tarco, ~200 pasajeros). El pin marca la isla.",
+            "when": "Última hora de la tarde, con luz rasante sobre el coral; noviembre–marzo (verano húmedo y muy caluroso).",
+            "skip": "Descartar si se pretende ver interiores: casi todo son muros vacíos y las obras de restauración cierran zonas.",
+        },
+        links=[
+            {"label": "Wikipedia · Suakin", "url": "https://en.wikipedia.org/wiki/Suakin"},
+            {"label": "Arab News · Suakin, sueños de reactivar el turismo (01-02-2026)", "url": "https://www.arabnews.com/node/2631337/middle-east"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Sawakin_city.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Old_Sawakin_city.jpg",
+                "credit": "Mazinco93 · CC BY-SA 4.0",
+                "caption": "Ciudad vieja de Suakin y su mezquita.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%AD%D9%86%D9%81%D9%8A.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%AD%D9%86%D9%81%D9%8A.jpg",
+                "credit": "Ahmed Bushra87 · Public domain",
+                "caption": "Mezquita hanafí de la isla de Suakin (época otomana).",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Suakin,Kitcheners_gate.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Suakin,Kitcheners_gate.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Puerta de Kitchener, en la parte continental de Suakin.",
+            },
+        ],
+    ),
+    dict(
+        n=15, name="Kassala · montes Taka y jardines del Gash", cat="Naturaleza", prio="Media",
+        dog="permitido con condiciones", time="1 noche",
+        lat=15.4136485, lon=36.427314,  # Google Maps: Taka Mountains Nature Preserve (Toteil, Kassala)
+        desc="Kassala, a orillas del río Gash y a un paso de Eritrea, tiene de fondo los MONTES TAKA, unas cúpulas de granito lisas que parecen brotar de la llanura y que se escalan sin sendero en una hora desde los cafés de Totil. A sus pies, la mezquita Khatmiyya (1840), sede de la orden sufí del mismo nombre, con la tumba de Hassan al-Mirghani, y alrededor los huertos de frutales regados por el Gash. Es ciudad beja, beni amer y rashaida, con zoco de látigos y quesos de cabra. Bajo control del ejército; drones RSF atacaron el aeropuerto el 03-05-2025.",
+        dog_note="Subida por bloques de granito sin sendero, apta para un perro ágil con correa; no entrar en la mezquita Khatmiyya ni en los cafés de Totil.",
+        visit={
+            "why": "Por el paisaje de granito más extraño de Sudán y por el ambiente de frontera con Eritrea, que se ve desde la cumbre.",
+            "see": "Subida a Totil con vistas a Eritrea, mezquita Khatmiyya en ruinas parciales y aún en uso, huertos del Gash, zoco y cafés con jabana.",
+            "access": "Asfalto desde Jartum por Wad Madani y Gedaref (unos 600 km; 11 h en autobús). Puerta de los cafés de Totil en 15.428978/36.426288 y mezquita Khatmiyya en 15.431833/36.421828 (blog 2022); taxi ida y vuelta ~200 SDG en 2019. Aparcamiento en explanada junto a los cafés. Zona FAS; FCDO: frontera con Eritrea cerrada. El pin marca la ciudad.",
+            "when": "Amanecer o atardecer (más de 40 °C a mediodía), noviembre–febrero.",
+            "skip": "Descartar si el ejército restringe la zona fronteriza o si el calor impide la subida: sin ella Kassala es solo un zoco.",
+        },
+        links=[
+            {"label": "Wikipedia · Kassala", "url": "https://en.wikipedia.org/wiki/Kassala"},
+            {"label": "Quit and Go Travel · cómo subir los montes Taka", "url": "https://www.quitandgotravel.com/2022/08/30/how-to-visit-kassala-and-hike-the-taka-mountains-2/"},
+            {"label": "Tripadvisor · Taka Mountains", "url": "https://www.tripadvisor.com/Attraction_Review-g1753709-d8766411-Reviews-Taka_Mountains-Kassala_Kassala_State.html"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kathmiyah_Mosque_and_Taka_Mountains_in_Kassala,_Sudan.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Kathmiyah_Mosque_and_Taka_Mountains_in_Kassala,_Sudan.jpg",
+                "credit": "Fabian Lambeck · CC BY-SA 4.0",
+                "caption": "Mezquita Khatmiyya y los montes Taka, Kassala.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Taka_Mountains_from_Toteil_001.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Taka_Mountains_from_Toteil_001.jpg",
+                "credit": "Petr Adam Dohnálek · CC BY-SA 3.0 cz",
+                "caption": "Los montes Taka desde Toteil.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kassala_onion_Totil.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Kassala_onion_Totil.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Domos graníticos de Taka y campos de cebolla.",
+            },
+        ],
+    ),
+    dict(
+        n=16, name="Parque nacional de Dinder", cat="Naturaleza", prio="Media",
+        dog="prohibido", time="1–2 noches",
+        lat=12.8181591, lon=35.3905046,  # Google Maps: Parque nacional Dinder
+        desc="A unos 400 km al sureste de Jartum, pegado a la frontera etíope y al parque de Alatash, Dinder es el parque más antiguo de Sudán (1935) y uno de los mayores: unos 10.000 km² de sabana, bosque de ribera y 'mayas', las lagunas de meandro donde se concentra la fauna en la seca. Es Reserva de la Biosfera (1979) y sitio Ramsar (2005). Quedan leones, leopardos, guepardos, tiang, antílopes ruanos, búfalos y más de 160 aves; elefante y rinoceronte se extinguieron. Se visita de noviembre a abril con carta de la Administración de Fauna en Jartum, permiso en el pueblo de Dinder (93 km) y GUARDA ARMADO obligatorio; base en el campamento de Galegu.",
+        dog_note="Parque con leones, leopardos, guepardos y búfalos, guarda obligatorio y cobras escupidoras en el campamento: el perro no entra.",
+        visit={
+            "why": "Es el único safari real de Sudán y una de las pocas sabanas del Sahel con leones aún viables.",
+            "see": "Las mayas con búfalos, tiang y aves acuáticas al amanecer, bosques de acacia y palma dum, huellas de león y, con suerte, el propio león.",
+            "access": "Jartum–Sennar por asfalto, luego pueblo de Dinder y 4 horas de pista (barro negro impracticable en lluvias) hasta la puerta; solo 4x4. Papeleo preguerra: carta de Wildlife Administration en Jartum (2+ días), permiso en Dinder, tasas por persona, vehículo, cámara, guarda y alojamiento en SDG; llegar antes de las 17 h. El pin marca el parque; la puerta exacta está por confirmar. Estado de Sennar bajo FAS, frontera etíope con drones (09-2026).",
+            "when": "Diciembre–marzo, temporada seca; salidas de 8 a 12 h y de 16:30 h al ocaso.",
+            "skip": "Descartar de mayo a octubre (cerrado o intransitable) y con perro a bordo: no entra.",
+        },
+        links=[
+            {"label": "Wikipedia · Dinder National Park", "url": "https://en.wikipedia.org/wiki/Dinder_National_Park"},
+            {"label": "Andariya · visita al parque de Dinder (2016)", "url": "https://andariya.com/post/Visiting-the-Dindir-National-Park"},
+            {"label": "Wikipedia · Dinder (pueblo)", "url": "https://en.wikipedia.org/wiki/Dinder,_Sudan"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg",
+                "credit": "محسن الفكي · CC BY-SA 3.0",
+                "caption": "Puente sobre el río Dinder.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ISS009-E-22999_-_View_of_Sudan.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:ISS009-E-22999_-_View_of_Sudan.jpg",
+                "credit": "NASA (ISS Expedition 9) · Public domain",
+                "caption": "El sureste de Sudán desde la ISS (imagen de contexto, no del parque).",
+            },
+        ],
+    ),
+    dict(
+        n=17, name="Desierto de Bayuda · la pista Karima–Atbara", cat="Naturaleza", prio="Alta",
+        dog="permitido con condiciones", time="1 noche",
+        lat=18.441782, lon=31.931542,  # Google Maps: Restos del monasterio de Al Ghazali (Wadi Abu Dom, entrada oeste de la Bayuda)
+        desc="El Bayuda es el desierto de unos 100.000 km² que llena el gran meandro del Nilo entre Omdurmán, Korti y Atbara. El Wadi Abu Dom, de 150 km, lo parte en dos: al este el CAMPO VOLCÁNICO DE BAYUDA, con conos y cráteres negros; al oeste llanuras de arena ocre. Por él pasaron durante siglos las caravanas de los bisharin y en 1885 la expedición de socorro a Gordon, cuyos fuertes y tumbas siguen ahí; en el wadi está el monasterio cristiano de Ghazali (s. VII–XIII). Hoy una carretera asfaltada de 262 km une Merowe/Karima con Atbara en medio día, con cafeterías, un puesto de policía con agua y una gasolinera en el cruce.",
+        dog_note="Desierto abierto, ideal para acampada libre con el perro; calor extremo y tormentas de arena; agua propia para él.",
+        visit={
+            "why": "Es el atajo lógico entre las dos zonas de pirámides y el mejor lugar de Sudán para acampar en silencio bajo un cielo sin luces.",
+            "see": "Acacias, dunas, mesetas negras y cráteres del campo volcánico, pozos con camellos de los bisharin, el monasterio de Ghazali y los restos de 1885.",
+            "access": "Asfalto Karima–Atbara (262 km); el interior (volcanes, Wadi Abu Dom, Ghazali) es pista de arena solo para 4x4 con GPS, agua y dos coches. Antes de la guerra los overlanders lo cruzaban sin permiso; hoy es zona FAS entre Merowe y Atbara, ambas atacadas por drones (11-2025 y 08-2026). El pin marca el centro del desierto según Wikipedia (18 N 33 E), no un punto navegable.",
+            "when": "Noviembre–febrero; nunca en verano (34–46 °C y tormentas de arena) ni de noche sin haber montado el campamento con luz.",
+            "skip": "Descartar el interior con un solo vehículo o sin GPS; la carretera se hace en cualquier caso.",
+        },
+        links=[
+            {"label": "Wikipedia · Bayuda Desert", "url": "https://en.wikipedia.org/wiki/Bayuda_Desert"},
+            {"label": "Wikipedia · Monastery in Ghazali", "url": "https://en.wikipedia.org/wiki/Monastery_in_Ghazali"},
+            {"label": "Nomades x Nomades · cruces del Bayuda y del desierto nubio", "url": "https://nomadesxnomades.com/practical-information-for-sudans-nubian-and-bayuda-deserts-road-crossings"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BayudaDesert.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:BayudaDesert.jpg",
+                "credit": "Clemens Schmillen · CC BY-SA 4.0",
+                "caption": "Desierto de Bayuda.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BayudaDesertWell.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:BayudaDesertWell.jpg",
+                "credit": "Clemens Schmillen · CC BY-SA 4.0",
+                "caption": "Pozo en el desierto de Bayuda.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayuda_Vulkanfeld.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Bayuda_Vulkanfeld.jpg",
+                "credit": "NASA (Space Shuttle) · Public domain",
+                "caption": "Campo volcánico de Bayuda desde el transbordador espacial (NASA).",
+            },
+        ],
+    ),
+    dict(
+        n=18, name="Wad Madani y el Gezira · el algodón y el Nilo Azul", cat="Ciudad · servicios", prio="Media",
+        dog="permitido con condiciones", time="medio día",
+        lat=14.393082, lon=33.5392081,  # Google Maps: Wad Madani
+        desc="Wad Madani, a unos 140–190 km al sureste de Jartum en la orilla oeste del Nilo Azul, es la capital del Gezira, la 'isla' entre los dos Nilos que el Gezira Scheme convirtió desde 1925, con la presa de Sennar, en UNA DE LAS MAYORES ZONAS DE REGADÍO DEL MUNDO: unos 8.800 km² y 4.300 km de canales dedicados sobre todo al algodón de fibra larga. Es ciudad de mercado y de paso hacia Sennar, Dinder, Gedaref y Kassala. Las RSF la tomaron el 18-12-2023 y el ejército la recuperó el 11-01-2025; la región sigue entre las de mayor necesidad humanitaria según OCHA.",
+        dog_note="Ciudad y paseo de ribera; con correa; nada bajo techo que visitar.",
+        visit={
+            "why": "Es la puerta del Sudán agrícola y del sur del país, y la mejor parada de servicios entre Jartum y Kassala o Dinder.",
+            "see": "La ribera del Nilo Azul, los canales y algodonales del Gezira desde la carretera, el mercado y, en Sennar, la presa de 1925.",
+            "access": "Autovía asfaltada desde Jartum; aparcamiento en calle o en hotel. Zona FAS desde 01-2025 tras un año de ocupación RSF, con daños y desplazados; OCHA cuenta a Aj Jazirah entre los estados con mayor necesidad. El pin marca la ciudad.",
+            "when": "Noviembre–febrero; la cosecha de algodón va de diciembre a marzo (por confirmar).",
+            "skip": "Solo parada de servicios: descartar si no hay que repostar ni dormir.",
+        },
+        links=[
+            {"label": "Wikipedia · Wad Madani", "url": "https://en.wikipedia.org/wiki/Wad_Madani"},
+            {"label": "Wikipedia · Gezira Scheme", "url": "https://en.wikipedia.org/wiki/Gezira_Scheme"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wad_Medani_Blue_Nile.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Wad_Medani_Blue_Nile.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Barcas turísticas en el Nilo Azul, Wad Madani.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B4%D8%A7%D8%B1%D8%B9_%D8%A7%D9%84%D9%86%D9%8A%D9%84_%22%D9%88%D8%AF_%D9%85%D8%AF%D9%86%D9%8A%22_%D9%84%D9%8A%D9%84%D8%A7.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:%D8%B4%D8%A7%D8%B1%D8%B9_%D8%A7%D9%84%D9%86%D9%8A%D9%84_%22%D9%88%D8%AF_%D9%85%D8%AF%D9%86%D9%8A%22_%D9%84%D9%8A%D9%84%D8%A7.jpg",
+                "credit": "Obada992 · CC BY-SA 4.0",
+                "caption": "La avenida del Nilo de Wad Madani de noche.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wad_Medani_cotton_market.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Wad_Medani_cotton_market.jpg",
+                "credit": "Bertramz · CC BY 3.0",
+                "caption": "Algodón en el mercado de Wad Madani.",
+            },
+        ],
+    ),
 ]
 
-_CAT_COLOR = {"referencia · conflicto": "gris"}
+_CAT_COLOR = {"naturaleza": "verde", "ciudad · servicios": "azul", "cultura": "morado",
+              "patrimonio unesco": "marron", "costa": "turquesa"}
 for _p in POIS:
-    _url = _p.pop("source"); _p["img"] = _url
-    _m = _re.search(r"Special:FilePath/([^?]+)", _url)
-    _p["source"] = "https://commons.wikimedia.org/wiki/File:" + (_m.group(1) if _m else "")
-    _p["icon"] = _p["cat"].lower(); _p["color"] = _CAT_COLOR.get(_p["cat"].lower(), "gris")
-    _p.setdefault("dog_note", "")
+    # La portada de la tarjeta, el globo del mapa y el modal es siempre la primera foto de la galería.
+    _p["img"] = _p["photos"][0]["img"]
+    _p["source"] = _p["photos"][0]["source"]
+    _p["credit"] = _p["photos"][0]["credit"]
+    _p["icon"] = _p["cat"].lower(); _p["color"] = _CAT_COLOR.get(_p["cat"].lower(), "ambar")
 
 LOGISTICS = [
-    ("Frontera · Metema/Gallabat (con Etiopía) — NO USAR", "Frontera", 12.9667, 36.2000,
-     "Sin fiabilidad operativa mientras dure el conflicto; no forma parte de ninguna variante de la ruta del proyecto."),
-    ("Frontera · Qustul/Wadi Halfa (con Egipto) — NO USAR", "Frontera", 21.9333, 31.3333,
-     "Cruce histórico hacia Egipto por el lago Nasser; descartado como opción de tránsito mientras persista la guerra civil."),
-    ("Embajada de España en Jartum (sin actividad operativa recomendada)", "Consular", 15.5900, 32.5300,
-     "La representación diplomática española en Sudán queda fuera de cualquier plan de contingencia de este proyecto mientras dure el conflicto; en caso de necesidad, contactar con el Ministerio de Asuntos Exteriores en España (+34 91 379 17 00, línea de emergencia consular)."),
+    ("Aeropuerto de Port Sudán (PZU)", "Frontera", 19.4344033, 37.2383915,  # Google Maps: Port Sudan International Airport
+     "Principal puerta de entrada desde 2023; EgyptAir, Ethiopian, Turkish, Qatar; atacado por drones el 6-05-2025. Pin comprobado en Google Maps («Port Sudan International Airport»)."),
+    ("Aeropuerto Internacional de Jartum (KRT)", "Frontera", 15.5925715, 32.5497399,  # Google Maps: Aeropuerto Internacional de Jartum
+     "Cerrado abril 2023–marzo 2025; internacionales desde 28-04-2026; ataque con dron 4-05-2026. Pin comprobado en Google Maps («Aeropuerto Internacional de Jartum»)."),
+    ("Paso de Argeen / Arqin (Egipto)", "Frontera", 21.9963913, 31.1514548,  # Google Maps: Argeen Border Crossing station - North Sudan side
+     "Corredor de refugiados 24 h con esperas de 12–48 h; cerrado a extranjeros según MAEC (2025). Pin comprobado en Google Maps («Argeen Border Crossing station - North Sudan side»)."),
+    ("Wadi Halfa (paso Ashkeet / ferry lago Nasser)", "Frontera", 21.7991419, 31.3713164,  # Google Maps: Wadi Halfa
+     "21°47′N 31°22′E. Ciudad de entrada histórica; convoy humanitario egipcio por Ashkit el 2-01-2026; registro de extranjería se hacía aquí. Pin comprobado en Google Maps («Wadi Halfa»)."),
+    ("Paso de Gallabat–Metema (Etiopía)", "Frontera", 12.9613496, 36.1484303,  # Google Maps: Gallabat
+     "Reabierto 21-10-2024 tras la toma de Metema por Fano; solo comercio y refugiados. Pin comprobado en Google Maps («Gallabat»)."),
+    ("Embajada de España en Jartum — sede provisional en El Cairo", "Consular", 30.0623764, 31.2225602,  # Google Maps: Embajada de España en El Cairo (41 Ismail Mohammed, Zamalek)
+     "41 Ismail Mohamed St., Zamalek, El Cairo (GPS 30°3′43″N 31°13′20″E, web MAEC). Tel. Embajada El Cairo +20 2 2735 5813; emergencia consular El Cairo +20 122 318 3783; correo Sudán emb.jartum@maec.es / visa.sudan@maec.es. Pin comprobado en Google Maps («Embajada de España en El Cairo (41 Ismail Mohammed, Zamalek)»)."),
+    ("Embajada de España en Jartum (sede cerrada)", "Consular", 15.6063636, 32.5704099,  # Google Maps: Embassy of Spain (Jartum, Burri)
+     "Ctra. Feria Internacional (Sharia' Al-Maraad), Edif. 1, Bloque 7/A, Burri El Daraisa, Jartum. Tel. +249 183 76 36 39; emergencia +249 912 36 33 77. CERRADA al público desde abril 2023. Pin comprobado en Google Maps («Embassy of Spain (Jartum, Burri)»)."),
+    ("Royal Care International Hospital (Jartum)", "Hospital", 15.5995137, 32.5710233,  # Google Maps: Royal Care International Hospital
+     "Citado por MAEC (+249 156 550 150); «probablemente no operativo». Pin comprobado en Google Maps («Royal Care International Hospital»)."),
+    ("Bashair Teaching Hospital (Jartum sur, apoyo MSF)", "Hospital", 15.4892006, 32.5524279,  # Google Maps: Bashair University Hospital
+     "Hospital apoyado por MSF durante la guerra (msf.org). Pin comprobado en Google Maps («Bashair University Hospital»)."),
+    ("Combustible — eje Kosti/Rabak (Nilo Blanco)", "Combustible", 13.1332037, 32.6410763,  # Google Maps: Kosti (ciudad; sin gasolinera concreta como objeto)
+     "Gasolina a 38.805 SDG/galón el 13-09-2026, colas de hasta 12 h (Dabanga). Pin comprobado en Google Maps («Kosti (ciudad; sin gasolinera concreta como objeto)»)."),
+    ("Agua — Wadi Halfa (Nilo/lago Nubia)", "Agua potable", 21.7991419, 31.3713164,  # Google Maps: Wadi Halfa
+     "Única fuente de agua del norte; clima hiperárido (0,5 mm/año). Filtrar siempre; cólera activo en el país. Pin comprobado en Google Maps («Wadi Halfa»)."),
 ]
 
-DRONE_CALLOUT = ("danger", "No aplicable — país excluido de la ruta",
-                  "Cualquier consideración sobre drones en Sudán queda anulada por el estado de guerra civil activa: no se contempla ningún vuelo, tránsito ni presencia del equipo de expedición en el país mientras dure el conflicto.")
+DRONE_CALLOUT = ("danger", "Drones: prohibidos para extranjeros y letales en la práctica",
+                 "Sudán vive una guerra de drones: las RSF lanzaron ataques simultáneos el 12-08-2026 sobre El Obeid, Atbara, Omdurmán y Jartum, y las SAF operan el «Safrouq» de 600 km de alcance. La Sudan Civil Aviation Authority (scaa.gov.sd) no tiene reglamento de drones publicado, pero drone-laws.com (ene. 2026) indica que «los vuelos de drones de visitantes extranjeros no están permitidos». MAEC prohíbe fotografiar infraestructuras estratégicas. Un dron de consumo en un checkpoint supone confiscación y detención por espionaje. No entrar con dron.")
 
-STARLINK_CALLOUT = ("danger", "No aplicable — país excluido de la ruta",
-                     "Sudán figura entre los países africanos sin fecha prevista de licencia para Starlink, pero esto es irrelevante para el proyecto: no se planifica ninguna presencia en el país mientras dure la guerra civil.")
+STARLINK_CALLOUT = ("danger", "Starlink: prohibido por el Gobierno desde el 31 de enero de 2024",
+                    "El Gobierno de Sudán prohibió la posesión y el uso de Starlink el 31-01-2024; el servicio no tiene licencia y entra de contrabando por EAU–Chad, Libia, Sudán del Sur y Eritrea. Funciona en zonas RSF (Darfur, Kordofán, Gezira) y en cafés informales a 2–3 USD/h; las RSF cobran 500 USD/año por antena y las montan en sus vehículos para guiar drones. Una antena en un 4x4 extranjero se leería como equipo militar. Mapa oficial de starlink.com: no se pudo consultar en esta sesión.")
 
 DOG_MATRIX = [
-    ("Todo el país", "no aplicable", "Sudán queda excluido de cualquier variante de la ruta; no aplica matriz canina real."),
+    ("Entrada por aeropuerto (Port Sudán/Jartum)", "por confirmar", "Sin fuente oficial; PetTravel indica solo Jartum. Plan B: no viajar con el perro a Sudán."),
+    ("Entrada terrestre (Argeen/Ashkeet desde Egipto)", "prohibido", "Fronteras cerradas a extranjeros (MAEC); solo refugiados y ayuda. Plan B: ninguno."),
+    ("Ciudades bajo SAF (Port Sudán, Jartum)", "no recomendado", "Drones, cortes de agua y luz, sin veterinarios localizados. Plan B: dejar al perro en Egipto con cuidador."),
+    ("Darfur/Kordofán (zonas RSF o disputadas)", "prohibido", "Combates activos y cólera. Plan B: ninguno."),
+    ("Desierto nubio y yacimientos (Meroe, Karima)", "no recomendado", "Calor >45 °C de mayo a septiembre; sin agua fuera del Nilo. Plan B: solo en ventana nov.–feb. si algún día es viable."),
+    ("Regreso a la UE tras Sudán", "permitido con condiciones", "Titulación antirrábica anotada antes de salir de España; entrada por Punto de Entrada de Viajeros (MAPA)."),
 ]
 
 SOURCES = [
-    ("Wikipedia · Sudanese civil war (2023–present), estado actualizado 2026", "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"),
-    ("Sudans Post · mapa de control territorial del conflicto (junio 2026)", "https://www.sudanspost.com/territorial-control-map-sudan-conflict-as-of-june-21-2026/"),
-    ("armedconflicts.org · Sudan Civil War, seguimiento en vivo 2026", "https://armedconflicts.org/sudan-civil-war.html"),
-    ("Overlanding Association · Shipping around Ethiopia (alternativas marítimas al corredor de Sudán)", "https://overlandingassociation.org/overland-wiki/shipping-around-ethiopia/"),
-    ("Ministerio de Asuntos Exteriores de España · recomendaciones de viaje Sudán", "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/DetalleRecomendacion.aspx?pais=SUDAN"),
+    ("MAEC · Recomendaciones de viaje Sudán (rev. 28-02-2025, consultado 18-09-2026)", "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sud%C3%A1n"),
+    ("MAEC · Ficha País Sudán (enero 2026)", "https://www.exteriores.gob.es/Documents/FichasPais/SUDAN_FICHA%20PAIS.pdf"),
+    ("MAEC · Embajada de España en Sudán (aviso de cierre temporal, contacto)", "https://www.exteriores.gob.es/Embajadas/jartum/es/Paginas/index.aspx"),
+    ("MAEC · Embajada de España en El Cairo: horario, localización y contacto", "https://www.exteriores.gob.es/Embajadas/elcairo/es/Embajada/Paginas/Horario,-localizaci%C3%B3n-y-contacto.aspx"),
+    ("FCDO · Sudan travel advice (11-05-2026)", "https://www.gov.uk/foreign-travel-advice/sudan"),
+    ("FCDO · Sudan safety and security (2026)", "https://www.gov.uk/foreign-travel-advice/sudan/safety-and-security"),
+    ("FCDO · Sudan entry requirements (2026)", "https://www.gov.uk/foreign-travel-advice/sudan/entry-requirements"),
+    ("Gobierno de Canadá · Sudan travel advice (09-09-2026)", "https://travel.gc.ca/destinations/sudan"),
+    ("Wikipedia · Sudanese civil war (2023–present)", "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"),
+    ("Wikipedia · 2026 in Sudan", "https://en.wikipedia.org/wiki/2026_in_Sudan"),
+    ("Security Council Report · Sudan, September 2026 Monthly Forecast", "https://www.securitycouncilreport.org/monthly-forecast/2026-09/sudan-41.php"),
+    ("ACLED · Fighting moves to Kordofan as Sudan's east–west divide solidifies (11-12-2025)", "https://acleddata.com/report/fighting-moves-kordofan-sudans-east-west-divide-solidifies"),
+    ("Al Jazeera · Sudan's army renewing military effort to retake Kordofan, Darfur (12-01-2026)", "https://www.aljazeera.com/news/2026/1/12/the-sudanese-army-is-renewing-a-military-effort-to-retake-kordofan-darfur"),
+    ("Wikipedia · Egypt–Sudan border", "https://en.wikipedia.org/wiki/Egypt%E2%80%93Sudan_border"),
+    ("Sahara Overland · Egypt (ene. 2026)", "https://sahara-overland.com/egypt-2/"),
+    ("Border Crossing Hub · Argeen & Arqin border crossing (act. sept. 2026)", "https://bordercrossinghub.com/argeen-arqin-border-crossing/"),
+    ("Border Crossing Hub · Border crossings between Eritrea and Sudan", "https://bordercrossinghub.com/border-crossings-between-eritrea-and-sudan/"),
+    ("allAfrica/SUNA · Humanitarian aid convoy from Egyptian Red Crescent arrives at Ashkit crossing (04-01-2026)", "https://allafrica.com/stories/202601050364.html"),
+    ("Dabanga · Refugees from Sudan face dire conditions at Egypt's Argeen crossing (27-04-2023)", "https://www.dabangasudan.org/en/all-news/article/refugees-from-sudan-face-dire-conditions-at-egypts-argeen-crossing"),
+    ("Al Jazeera · Stuck in limbo: frustration and despair on the Sudan-Egypt border (27-06-2023)", "https://www.aljazeera.com/news/longform/2023/6/27/stuck-in-limbo-frustration-and-despair-on-the-sudan-egypt-border"),
+    ("ACAPS · Sudan: Northern State pre-crisis and current situation (25-08-2023)", "https://www.acaps.org/fileadmin/Data_Product/Main_media/20230829_ACAPS_thematic_report_Sudan_Northern_State_pre-crisis_and_current_situation.pdf"),
+    ("Wikipedia · Wadi Halfa", "https://en.wikipedia.org/wiki/Wadi_Halfa"),
+    ("Wikipedia · Metema (paso Gallabat–Metema)", "https://en.wikipedia.org/wiki/Metema"),
+    ("Wikipedia · Port Sudan New International Airport", "https://en.wikipedia.org/wiki/Port_Sudan_New_International_Airport"),
+    ("Wikipedia · Khartoum International Airport", "https://en.wikipedia.org/wiki/Khartoum_International_Airport"),
+    ("Darfur24 · Chad border crossing reopens after detainees released (29-07-2026)", "https://darfur24.com/en/2026/07/29/chad-border-crossing-reopens-after-detainees-released/"),
+    ("UN News · Sudan: UN welcomes extension of vital aid corridor (29-06-2026)", "https://news.un.org/en/story/2026/06/1167836"),
+    ("Dabanga · Sudanese-Eritrean border closed in Kassala (ene. 2018)", "https://www.dabangasudan.org/en/all-news/article/sudanese-eritrean-border-closed-in-kassala-rsf-troops-deployed"),
+    ("carnetdepassage.org · Sudan", "https://www.carnetdepassage.org/country/sudan"),
+    ("COMESA Yellow Card · National Bureau of Sudan (Sheikan Insurance)", "https://comesayellowcard.com/national-bureau/sd"),
+    ("OFESAUTO · Carta Verde", "https://www.ofesauto.es/carta-verde/"),
+    ("drone-laws.com · Sudan drone laws (act. 21-01-2026)", "https://drone-laws.com/drone-laws-in-sudan/"),
+    ("UAV Coach · Drone laws in Sudan (dic. 2022)", "https://uavcoach.com/drone-laws-in-sudan/"),
+    ("Geeska · Starlink on the ruins of Sudan's networks (05-02-2026)", "https://www.geeska.com/en/starlink-ruins-sudans-networks"),
+    ("TravelHealthPro (NaTHNaC) · Sudan (act. 01-10-2025)", "https://travelhealthpro.org.uk/country/212/sudan"),
+    ("MSF · Sudan (actividades 2025–2026)", "https://www.msf.org/sudan"),
+    ("Dabanga · Fuel prices rise as shortages deepen across Sudan (13-09-2026)", "https://www.dabangasudan.org/en/all-news/article/fuel-prices-rise-as-shortages-deepen-across-sudan"),
+    ("GlobalPetrolPrices · Sudan gasoline prices (11-05-2026)", "https://www.globalpetrolprices.com/Sudan/gasoline_prices/"),
+    ("GlobalPetrolPrices · Sudan diesel prices (09-02-2026)", "https://www.globalpetrolprices.com/Sudan/diesel_prices/"),
+    ("EUR-Lex · Reg. de Ejecución (UE) 2026/636, listas de terceros países (20-03-2026)", "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202600636"),
+    ("EUR-Lex · Reg. Delegado (UE) 2026/131 (20-01-2026, aplicable 28-03-2026)", "https://eur-lex.europa.eu/eli/reg_del/2026/131/oj"),
+    ("MAPA · Desplazamiento de animales de compañía", "https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/"),
+    ("PetTravel.com · Sudan pet import requirements (no oficial)", "https://www.pettravel.com/information/pet-passports/sudan-pet-import-requirements/"),
+    ("Against the Compass · How to cross the Egypt-Sudan border overland (2018, act. 23-07-2026)", "https://againstthecompass.com/en/egypt-sudan-border-overland/"),
+    ("Against the Compass · Is Sudan safe for tourism? (2017, act. 24-07-2026)", "https://againstthecompass.com/en/safe-travel-sudan/"),
+    ("Ron Perrier · Sudan – The Trip (dic. 2022)", "https://www.ronperrier.net/2021/04/02/sudan-the-trip/"),
+    ("Big World Small Pockets · The ideal Sudan travel itinerary (2018, act. 2022)", "https://www.bigworldsmallpockets.com/sudan-travel-itinerary/"),
+    ("One Step 4 Ward · Taking the ferry from Sudan to Egypt (2010, act. 2020)", "https://onestep4ward.com/taking-the-ferry-from-sudan-to-egypt/"),
+    ("Tom's Bike Trip · Cycling from Aswan to Wadi Halfa (viaje 2009)", "https://tomsbiketrip.com/from-the-cutting-room-floor-4-cycling-from-aswan-egypt-to-wadi-halfa-sudan-video/"),
+    ("Wikipedia · National Museum of Sudan", "https://en.wikipedia.org/wiki/Sudan_National_Museum"),
+    ("Wikipedia · Khartoum", "https://en.wikipedia.org/wiki/Khartoum"),
+    ("Wikipedia · The Mahdi's tomb", "https://en.wikipedia.org/wiki/The_Mahdi%27s_tomb"),
+    ("Wikipedia · Omdurman", "https://en.wikipedia.org/wiki/Omdurman"),
+    ("Travel Aficionados · derviches, tumba y zoco", "https://www.travelaficionados.com/omdurman-dancing-dervishes-the-mahdis-tomb-and-a-large-souk/"),
+    ("Wikipedia · Cataracts of the Nile", "https://en.wikipedia.org/wiki/Cataracts_of_the_Nile"),
+    ("Tripadvisor · Al Sabalouga (Sabaloka Gorge)", "https://www.tripadvisor.com/Attraction_Review-g293835-d1773080-Reviews-Al_Sabalouga_Sabaloka_Gorge-Khartoum_Khartoum_State.html"),
+    ("ITC Sudan · el Nilo y sus cataratas", "https://www.italtoursudan.com/luogo/the-nile-river-and-its-cataracts/"),
+    ("UNESCO · Archaeological Sites of the Island of Meroe", "https://whc.unesco.org/en/list/1336/"),
+    ("Wikipedia · Pyramids of Meroë", "https://en.wikipedia.org/wiki/Pyramids_of_Mero%C3%AB"),
+    ("Afro Heritage Atlas · guía práctica pirámides nubias", "https://afroatlas.org/guides/nubian-pyramids-meroe-visitor-guide/"),
+    ("Wikipedia · Naqa", "https://en.wikipedia.org/wiki/Naqa"),
+    ("Wikipedia · Musawwarat es-Sufra", "https://en.wikipedia.org/wiki/Musawwarat_es-Sufra"),
+    ("Wikipedia · Atbara", "https://en.wikipedia.org/wiki/Atbara"),
+    ("UNESCO · Gebel Barkal and the Sites of the Napatan Region", "https://whc.unesco.org/en/list/1073/"),
+    ("Wikipedia · Jebel Barkal", "https://en.wikipedia.org/wiki/Jebel_Barkal"),
+    ("Wikipedia · Karima", "https://en.wikipedia.org/wiki/Karima,_Sudan"),
+    ("Wikipedia · Nuri", "https://en.wikipedia.org/wiki/Nuri"),
+    ("Wikipedia · El-Kurru", "https://en.wikipedia.org/wiki/El-Kurru"),
+    ("Wikipedia · Old Dongola", "https://en.wikipedia.org/wiki/Old_Dongola"),
+    ("Wikipedia · Dongola", "https://en.wikipedia.org/wiki/Dongola"),
+    ("Kerma.ch · Museo de Kerma (misión suizo-sudanesa)", "https://kerma.ch/en/museum/"),
+    ("Wikipedia · Kerma", "https://en.wikipedia.org/wiki/Kerma"),
+    ("Wikipedia · Kerma Museum", "https://en.wikipedia.org/wiki/Kerma_Museum"),
+    ("Wikipedia · Soleb", "https://en.wikipedia.org/wiki/Soleb"),
+    ("Wikipedia · Sai (island)", "https://en.wikipedia.org/wiki/Sai_(island)"),
+    ("Travel Adventures · Soleb (relato de visita)", "https://www.traveladventures.org/continents/africa/soleb.html"),
+    ("FCDO · Sudan regional risks (frontera con Egipto)", "https://www.gov.uk/foreign-travel-advice/sudan/regional-risks"),
+    ("UNESCO · Sanganeb Marine NP and Dungonab Bay–Mukkawar Island MNP", "https://whc.unesco.org/en/list/262/"),
+    ("Wikipedia · Port Sudan", "https://en.wikipedia.org/wiki/Port_Sudan"),
+    ("Dive The World · dive sites Sudan", "https://www.dive-the-world.com/diving-sites-sudan.php"),
+    ("Wikipedia · Suakin", "https://en.wikipedia.org/wiki/Suakin"),
+    ("Arab News · Suakin, sueños de reactivar el turismo (01-02-2026)", "https://www.arabnews.com/node/2631337/middle-east"),
+    ("Wikipedia · Kassala", "https://en.wikipedia.org/wiki/Kassala"),
+    ("Quit and Go Travel · cómo subir los montes Taka", "https://www.quitandgotravel.com/2022/08/30/how-to-visit-kassala-and-hike-the-taka-mountains-2/"),
+    ("Tripadvisor · Taka Mountains", "https://www.tripadvisor.com/Attraction_Review-g1753709-d8766411-Reviews-Taka_Mountains-Kassala_Kassala_State.html"),
+    ("Wikipedia · Dinder National Park", "https://en.wikipedia.org/wiki/Dinder_National_Park"),
+    ("Andariya · visita al parque de Dinder (2016)", "https://andariya.com/post/Visiting-the-Dindir-National-Park"),
+    ("Wikipedia · Dinder (pueblo)", "https://en.wikipedia.org/wiki/Dinder,_Sudan"),
+    ("Wikipedia · Bayuda Desert", "https://en.wikipedia.org/wiki/Bayuda_Desert"),
+    ("Wikipedia · Monastery in Ghazali", "https://en.wikipedia.org/wiki/Monastery_in_Ghazali"),
+    ("Nomades x Nomades · cruces del Bayuda y del desierto nubio", "https://nomadesxnomades.com/practical-information-for-sudans-nubian-and-bayuda-deserts-road-crossings"),
+    ("Wikipedia · Wad Madani", "https://en.wikipedia.org/wiki/Wad_Madani"),
+    ("Wikipedia · Gezira Scheme", "https://en.wikipedia.org/wiki/Gezira_Scheme"),
 ]
 
-CORRIDOR = []
+# Bucle del Nilo: Wadi Halfa → Nubia → Karima → Bayuda → Meroe → Jartum → Gezira → Dinder
+CORRIDOR = [
+    (21.80738, 31.31627),
+    (20.78581, 30.33669),
+    (20.4363, 30.33389),
+    (19.60081, 30.41043),
+    (19.16983, 30.47489),
+    (18.22472, 30.74561),
+    (18.53518, 31.83056),
+    (17.71211, 34.00066),
+    (16.93467, 33.75136),
+    (16.69028, 33.43083),
+    (16.2769, 32.60514),
+    (15.60592, 32.50839),
+    (14.39308, 33.53921),
+    (13.55, 33.583),
+    (13.26667, 34.14167),
+]
 
-HISTORIA_RESUMEN = ("Sudán fue cuna de reinos nubios milenarios con más pirámides que Egipto y cruce de caminos entre el mundo árabe y el África subsahariana; su independencia en 1956 abrió décadas de golpes militares y guerras civiles "
-                     "que culminaron en la partición de 2011 (nace Sudán del Sur) y, desde abril de 2023, en una nueva guerra civil entre el Ejército y las Fuerzas de Apoyo Rápido que hace inviable cualquier tránsito por el país.")
+# Ramal oriental: Jartum → Wad Madani → Kassala → Suakin → Port Sudán → Dungonab
+CORRIDOR_ALT = [
+    (15.60592, 32.50839),
+    (14.39308, 33.53921),
+    (15.41365, 36.42731),
+    (19.10532, 37.32897),
+    (19.60197, 37.20758),
+    (21.0, 37.183),
+]
+
+HISTORIA_RESUMEN = "Sudán es el puente entre el mundo árabe y el África subsahariana: el Nilo lo recorre de sur a norte y a sus orillas florecieron Kerma, Kush y Meroe antes del islam y de la conquista egipcia y británica del siglo XIX. Independiente desde 1956, ha pasado más años en guerra que en paz: dos guerras civiles con el sur, la matanza de Darfur y, desde el 15 de abril de 2023, una guerra entre el ejército y las Fuerzas de Apoyo Rápido que ha generado la mayor crisis de desplazados del planeta. En septiembre de 2026 el país está partido en dos, con un Gobierno militar en Port Sudán y otro paralelo en Nyala, y el MAEC desaconseja viajar bajo cualquier circunstancia. La ruta 2027 no lo incluye."
 
 HISTORIA_SECCIONES = [
-    ("Nubia: más pirámides que Egipto",
-     "Mucho antes de la llegada del islam, el valle del Nilo sudanés albergó los reinos nubios de Kerma, Napata y Meroe, que llegaron a gobernar el propio Egipto como la XXV dinastía faraónica (siglo VIII-VII a.C.). "
-     "Meroe, cerca de la actual Jartum, reúne hoy más de 200 pirámides —más que todo Egipto—, un patrimonio arqueológico de primer orden que la guerra actual mantiene fuera del alcance de cualquier visitante."),
-    ("Islamización, dominio turco-egipcio y el Mahdi",
-     "El islam se extendió por el norte de Sudán desde el siglo VII, y el país pasó a integrarse en la órbita otomano-egipcia en el siglo XIX. En 1881, el líder religioso Muhammad Ahmad se proclamó Mahdi (\"el guiado\") "
-     "y lideró una revuelta que expulsó temporalmente a egipcios y británicos, estableciendo un Estado islámico independiente hasta que una expedición angloegipcia lo reconquistó en 1898, inaugurando el condominio anglo-egipcio de Sudán."),
-    ("Independencia, guerras civiles y la partición de 2011",
-     "Sudán se independizó en 1956, pero desde el mismo momento de la independencia el sur, de mayoría cristiana y animista, se sintió marginado por el norte árabe-musulmán, desencadenando dos guerras civiles sucesivas (1955-1972 y 1983-2005) "
-     "entre las más largas y mortíferas de África. Un referéndum pactado en el acuerdo de paz de 2005 llevó a la independencia de Sudán del Sur en 2011, aunque el propio Sudán siguió sufriendo el conflicto de Darfur, "
-     "activo desde 2003 y marcado por acusaciones de genocidio contra las milicias yanyauid, antecesoras directas de las actuales Fuerzas de Apoyo Rápido."),
-    ("Situación actual: la guerra civil de 2023",
-     "Tras la caída del dictador Omar al-Bashir en 2019 y una frágil transición hacia un gobierno civil, la rivalidad entre el Ejército sudanés y las Fuerzas de Apoyo Rápido (la milicia paramilitar heredera de los yanyauid) estalló en una guerra abierta en abril de 2023. "
-     "El conflicto ha provocado la mayor crisis de desplazamiento del mundo, con hambruna declarada en varias zonas, y sigue sin resolución a mediados de 2026 — el motivo por el que este proyecto excluye Sudán por completo y busca una alternativa marítima vía Yibuti para conectar Etiopía con Egipto."),
+    ("Orígenes y reinos anteriores a la colonización",
+     "<p>El valle del Nilo sudanés es una de las cunas más antiguas de la civilización africana. Entre aproximadamente 2500 y 1500 a. C. la cultura de <strong>Kerma</strong> levantó en la Alta Nubia una sociedad compleja, rival de Egipto. De ella nació el reino de <strong>Kush</strong>: hacia 750 a. C. el rey Kashta conquistó el Alto Egipto y sus sucesores gobernaron como la dinastía XXV, los llamados «faraones negros». Cuando Egipto saqueó Napata, hacia 590 a. C., la corte se trasladó a <strong>Meroe</strong>, donde se construyeron las pirámides que hoy son Patrimonio Mundial. El reino cayó hacia el año 350, cuando el rey Ezana de Aksum destruyó la ciudad.</p><p>En el siglo VI los tres reinos nubios —Nobatia, Makuria y Alodia— se convirtieron al cristianismo. Rechazaron las invasiones árabes de 641 a 652 y firmaron el <em>baqt</em>, un pacto que reconocía la independencia de Makuria y mantuvo viva la Nubia cristiana durante siglos. La islamización llegó después: en 1504 los funj fundaron el sultanato de Sennar y en el siglo XVII la dinastía keira de los fur consolidó el sultanato de Darfur, que sobrevivió como Estado independiente hasta bien entrado el siglo XX. Gebel Barkal y la región napatea, inscritos en 2003, y la isla de Meroe, en 2011, son hoy los dos sitios culturales de la UNESCO en el país.</p>"),
+    ("Colonización",
+     "<p>Sudán tuvo dos colonizadores sucesivos. Entre 1820 y 1821 Mehmet Alí, virrey otomano de Egipto, conquistó el norte en busca de oro y esclavos y creó una burocracia centralizada en Jartum: fue la <strong>Turkiyya</strong>. En 1877 el británico Charles Gordon fue nombrado gobernador con el encargo de acabar con el lucrativo comercio de esclavos, pero en 1881 Muhammad Ahmad se proclamó <strong>Mahdi</strong> y encabezó un levantamiento que tomó Jartum el 26 de enero de 1885, con Gordon entre los muertos. Nació así un Estado teocrático, la Mahdiyya, que duró hasta que el ejército anglo-egipcio de Kitchener aplastó a los mahdistas en Omdurmán el 2 de septiembre de 1898.</p><p>En 1899 Sudán quedó bajo un <strong>condominio anglo-egipcio</strong> en el que el Reino Unido se reservó las atribuciones reales; ese mismo año Francia renunció a sus pretensiones tras el incidente de Fashoda. Los británicos fundaron en 1902 el Gordon Memorial College para formar una élite a su manera, introdujeron el cultivo extensivo de algodón y ampliaron el ferrocarril y las comunicaciones. Pero en la década de 1920 las ordenanzas de «distritos cerrados» separaron la administración del norte árabe y musulmán de la del sur, una fractura que marcaría todo el siglo siguiente. En 1953 Egipto, el Reino Unido y los representantes sudaneses acordaron el autogobierno.</p>"),
+    ("Independencia y construcción del Estado",
+     "<p>Sudán se independizó el <strong>1 de enero de 1956</strong>, pero la guerra le llevaba ventaja: el 18 de agosto de 1955 un motín en Torit, en el sur, había abierto la primera guerra civil, alimentada por el incumplimiento de las promesas de un sistema federal; según la Wikipedia en español, costó en torno a millón y medio de muertos. La democracia parlamentaria duró poco: en 1958 el general Ibrahim Abbud dio el primer golpe de Estado, las protestas de octubre de 1964 forzaron la salida de los militares y el 25 de mayo de 1969 Yaafar Nimeiri volvió a tomar el poder y abolió el Parlamento.</p><p>Nimeiri firmó en 1972 el Acuerdo de Adís Abeba, que puso fin al conflicto del sur con una región autónoma, y en 1983 lo dinamitó él mismo al imponer la ley islámica en todo el país y abolir esa autonomía: comenzó la segunda guerra civil, que duraría hasta 2005. Un golpe lo derrocó el 6 de abril de 1985 tras protestas masivas. El 30 de junio de 1989 el general <strong>Omar al Bashir</strong> encabezó un nuevo golpe, con el islamista Hasan al Turabi como ideólogo, e instauró un régimen que sometió la música, la prensa y la vida pública, empujó al exilio a artistas como Mohammed Wardi y aisló al país: Estados Unidos impuso un embargo en 1997.</p>"),
+    ("Historia reciente (2000–2026)",
+     "<p>En 2003 estalló la guerra de <strong>Darfur</strong>, donde las milicias yanyauid atacaron a la población no árabe; en 2009 la Corte Penal Internacional ordenó detener a Bashir. El 9 de enero de 2005 el Acuerdo General de Paz cerró la guerra con el sur; el 9 de julio de 2011 nació Sudán del Sur, llevándose casi todo el petróleo. Las protestas iniciadas en diciembre de 2018 acabaron con Bashir el <strong>11 de abril de 2019</strong>; el 3 de junio la represión de la acampada de Jartum mató a 128 civiles, y el Gobierno de transición de Abdalla Hamdok duró hasta el golpe del 25 de octubre de 2021 del general Abdelfatah al Burhan.</p><p>El 15 de abril de 2023 la disputa sobre la integración de las Fuerzas de Apoyo Rápido (RSF) en el ejército —diez años pedían las RSF, dos exigía el ejército— degeneró en guerra abierta. Las RSF tomaron casi todo Darfur, Kordofán y Gezira en 2023; el ejército recuperó Jartum en marzo de 2025. El 7 de enero de 2025 Estados Unidos determinó que las RSF habían cometido genocidio. En agosto de 2025 las RSF proclamaron un Gobierno paralelo en Nyala y el 26 de octubre tomaron El Fasher tras un largo asedio, con una masacre de civiles. En 2026 el frente se ha desplazado a Kordofán y al Nilo Azul.</p>"),
+    ("Política y gobierno en 2026",
+     "<p>A fecha de septiembre de 2026, según la ficha del MAEC (enero de 2026), Sudán es una república «de facto gobernada por una junta militar» desde el golpe del 25 de octubre de 2021. El jefe de Estado es el general <strong>Abdelfatah al Burhan</strong>, presidente del Consejo de Soberanía desde el 12 de abril de 2019, y el primer ministro, <strong>Kamil Idris</strong>, fue nombrado por el consejo el 31 de mayo de 2025. Las últimas elecciones, en 2015, las ganó Bashir con el 94 por ciento; no hay otras previstas. Freedom House 2025 lo clasifica como <strong>«Not Free»</strong> con <strong>2 puntos sobre 100</strong>: una dictadura militar en guerra. Reporteros Sin Fronteras lo sitúa 161 de 180 en 2026 y Transparencia Internacional le da 14 sobre 100 en 2025.</p><p>Según Crisis Group (13 de abril de 2026), el ejército controla Jartum, el corredor del Nilo y el este, incluido Port Sudán; las RSF dominan Darfur, con un Gobierno paralelo en Nyala presidido por Hemedti que nadie reconoce; el frente está en Kordofán. Emiratos apoya a las RSF, y Egipto y Arabia Saudí al ejército; el 3 de septiembre de 2026 la ONU denunció dos mil contratistas colombianos con las RSF. España mantiene relaciones desde 1964, con la embajada en El Cairo desde 2023; la ficha no detalla la relación con la UE y desaconseja viajar bajo cualquier circunstancia.</p>"),
+    ("Economía y recursos",
+     "<p>La economía era ya frágil antes de la guerra y hoy está devastada. El MAEC da un PIB per cápita de unos 2.200 dólares en 2023, aunque la estimación recogida por Wikipedia para 2025 baja a poco más de 600 dólares nominales; el Banco Mundial calcula una contracción del 29 por ciento en 2023 y del 14 por ciento en 2024, y estima que el 59 por ciento de la población vive en pobreza extrema en 2025. La moneda es la <strong>libra sudanesa</strong>, que cotizaba a unas 644 por euro en abril de 2025, con una inflación superior al 70 por ciento.</p><p>La riqueza histórica fue el petróleo, perdido en su mayor parte con la secesión de 2011. Hoy la principal exportación es el <strong>oro</strong> —el 48 por ciento del total en 2021, según el MAEC—, seguido del ganado, vendido sobre todo a Arabia Saudí, y del sésamo, del que Sudán es tercer productor mundial. La goma arábiga financia a ambos bandos de la guerra. La agricultura aporta el 40 por ciento del PIB y emplea a la gran mayoría de la población, mientras la industria apenas llega al 3 por ciento. La deuda externa rondaba los 60.000 millones de dólares a comienzos de 2022, un 160 por ciento del PIB. La presa de Merowe, de 2008, es la gran obra hidroeléctrica del país.</p>"),
+    ("Sociedad: idiomas, religión y cultura",
+     "<p>Sudán tenía unos 50 millones de habitantes en 2024 (MAEC). Los idiomas oficiales son el <strong>árabe y el inglés</strong> (Constitución de 2005), que conviven con unas 400 lenguas, como el nubio, el beja, el fur y las nuba. Por carretera uno se entiende en árabe; el inglés sirve con gente formada. El 97 por ciento es musulmán, casi todo suní y con fuerte peso sufí; hay minorías cristianas, sobre todo coptas. Los árabes sudaneses rondan el 70 por ciento, junto a beja, nuba, fur, nubios y zaghawa.</p><p>La música popular nació con la <em>haqiba</em> de los años veinte y culminó en Mohammed Wardi; las cofradías celebran el <em>zikr</em> con cantos y danza. En la mesa mandan el <em>ful</em>, el <em>kisra</em> —pan fermentado tipo injera—, la <em>asida</em> con <em>mullah</em>, el té con leche, el café de <em>jebena</em> y el <em>karkadé</em>. Se celebran los dos Eid, el Mawlid y el 1 de enero, día de la independencia. El tercer sitio UNESCO es marino: Sanganeb y Dungonab, en el mar Rojo, de 2016. Para quien viaje algún día: ropa que cubra hombros y rodillas, permiso para fotografiar personas y nunca puentes ni cuarteles; el alcohol está prohibido desde 1983 y solo se tolera a no musulmanes desde 2019; en 2027 el ramadán empieza hacia el 8 de febrero y de día no se come ni bebe en público.</p>"),
 ]
 
 HISTORIA_FUENTES = [
-    ("BBC News · Sudan country profile", "https://www.bbc.com/news/world-africa-14094995"),
-    ("Encyclopaedia Britannica · Sudan, History", "https://www.britannica.com/place/Sudan/History"),
-    ("UNESCO · Sitios arqueológicos de la isla de Meroe, Patrimonio de la Humanidad", "https://whc.unesco.org/en/list/1336/"),
-    ("Wikipedia · Sudanese civil war (2023–present)", "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"),
+    ("MAEC España · Ficha País Sudán (PDF) · enero 2026", "https://www.exteriores.gob.es/Documents/FichasPais/SUDAN_FICHA%20PAIS.pdf"),
+    ("Freedom House · Sudan: Freedom in the World 2025", "https://freedomhouse.org/country/sudan/freedom-world/2025"),
+    ("Britannica · Sudan · History", "https://www.britannica.com/place/Sudan/History"),
+    ("Britannica · Sudan (página principal)", "https://www.britannica.com/place/Sudan"),
+    ("Wikipedia (en) · History of Sudan", "https://en.wikipedia.org/wiki/History_of_Sudan"),
+    ("Wikipedia (es) · Historia de Sudán", "https://es.wikipedia.org/wiki/Historia_de_Sud%C3%A1n"),
+    ("Wikipedia (es) · Sudán", "https://es.wikipedia.org/wiki/Sud%C3%A1n"),
+    ("Wikipedia (en) · Sudan", "https://en.wikipedia.org/wiki/Sudan"),
+    ("Wikipedia (en) · Sudanese civil war (2023–present)", "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"),
+    ("Wikipedia (en) · Kamil Idris", "https://en.wikipedia.org/wiki/Kamil_Idris"),
+    ("Wikipedia (en) · Omar al-Bashir", "https://en.wikipedia.org/wiki/Omar_al-Bashir"),
+    ("Wikipedia (en) · 2015 Sudanese general election", "https://en.wikipedia.org/wiki/2015_Sudanese_general_election"),
+    ("Wikipedia (en) · Economy of Sudan", "https://en.wikipedia.org/wiki/Economy_of_Sudan"),
+    ("Wikipedia (en) · Sudanese cuisine", "https://en.wikipedia.org/wiki/Sudanese_cuisine"),
+    ("Wikipedia (en) · Music of Sudan", "https://en.wikipedia.org/wiki/Music_of_Sudan"),
+    ("Wikipedia (en) · Culture of Sudan", "https://en.wikipedia.org/wiki/Culture_of_Sudan"),
+    ("UNESCO World Heritage Centre · Sudan (States Parties)", "https://whc.unesco.org/en/statesparties/sd"),
+    ("Crisis Group · Divided Sudan, Elusive Peace · 13 abril 2026", "https://www.crisisgroup.org/brf/africa/sudan-egypt-saudi-arabia-united-arab-emirates-united-states/b211-divided-sudan-elusive-peace"),
+    ("ACLED · Fighting moves to Kordofan as Sudan's east–west divide solidifies · 11 diciembre 2025", "https://acleddata.com/report/fighting-moves-kordofan-sudans-east-west-divide-solidifies"),
+    ("Security Council Report · Sudan, September 2026 Monthly Forecast", "https://www.securitycouncilreport.org/monthly-forecast/2026-09/sudan-41.php"),
+    ("OHCHR · Sudan: External support networks are fuelling conflict · 3 septiembre 2026", "https://www.ohchr.org/en/press-releases/2026/09/sudan-external-support-networks-are-fuelling-conflict-and-civilian-harm-un"),
+    ("Al Jazeera · Has the army turned the page on control of western Sudan? · 10 agosto 2026", "https://www.aljazeera.com/news/2026/8/10/has-the-sudanese-army-turned-the-page-on-control-of-western-sudan"),
+    ("UN News · Sudan crisis: UNHCR launches $1.6 billion appeal · 17 febrero 2026", "https://news.un.org/en/story/2026/02/1166979"),
+    ("USA for UNHCR · Sudan Conflict · junio 2026", "https://www.unrefugees.org/emergencies/sudan/"),
+    ("Banco Mundial · Sudan Overview · mayo 2026", "https://www.worldbank.org/en/country/sudan/overview"),
+    ("HRW · World Report 2026 · Sudan", "https://www.hrw.org/world-report/2026/country-chapters/sudan"),
+    ("Reporteros Sin Fronteras · Sudan · Índice 2026", "https://rsf.org/en/country/sudan"),
+    ("Transparencia Internacional · Sudan · CPI 2025", "https://www.transparency.org/en/countries/sudan"),
 ]
 
 SPEC = dict(
-    slug="sudan", name="Sudán", revision="9 sep 2026",
-    sub="PUNTO CRÍTICO DEL CORREDOR DE REGRESO · país excluido mientras dure la guerra civil",
+    slug="sudan", name="Sudán", revision="18 sep 2026",
+    sub="EXCLUIDO POR PROTOCOLO — guerra civil SAF/RSF desde abril de 2023 · ficha informativa (Nubia, Meroe, mar Rojo)",
     chips=[
-        ("ESTADO", "GUERRA CIVIL ACTIVA desde abril de 2023 — sin alto el fuego"),
-        ("RUTA", "país EXCLUIDO de toda variante mientras dure el conflicto"),
-        ("ALTERNATIVA ADOPTADA", "Etiopía → Yibuti → envío marítimo (RoRo/contenedor) → Egipto o Europa"),
-        ("REVISIÓN", "revalidar el estado del conflicto 30–60 días antes del tramo final"),
+        ("ESTATUS", "EXCLUIDO POR PROTOCOLO. Guerra civil SAF–RSF desde el 15 de abril de 2023…"),
+        ("CÓMO LLEGAR", "Solo en avión: Port Sudán (PZU: EgyptAir, Ethiopian, Turkish, Qatar) y, desde el 28-04-2026…"),
+        ("VISADO", "OBLIGATORIO y previo, en la Embajada de Sudán en Madrid (Av. Miraflores 63)…"),
+        ("VEHÍCULO", "CPD aceptado (Sudanese Automobile and Touring Club, Jartum, +249 183 403 402)…"),
+        ("SEGURIDAD", "Guerra civil activa · MAEC: no viajar en ningún caso"),
+        ("SEGURO", "Sin Carta Verde · COMESA Yellow Card teórica"),
+        ("SALUD", "FA recomendada (FCDO: exigida) · malaria · cólera"),
+        ("DRONES", "Prohibidos a extranjeros · país en guerra de drones"),
+        ("STARLINK", "Prohibido desde 31-01-2024 · solo contrabando"),
+        ("4x4", "Sin cruces de overlanders desde 2023 · CPD aceptado"),
+        ("A PIE", "No: riesgo de detención y secuestro en todo el país"),
+        ("PERRO", "Sin fuente oficial nacional abierta; datos de terceros: certificado veterinario en 10 días…"),
+        ("MONEDA", "Libra sudanesa (SDG), no convertible; 1 EUR ≈ 644 SDG oficial (abr…"),
+        ("VENTANA", "Desierto hiperárido en el norte (Wadi Halfa: 0,5 mm/año, 4.300 h de sol…"),
     ],
-    center=[15.5, 32.5], zoom=5,
-    notice="Esta ficha documenta una DECISIÓN DE RUTA, no un itinerario: Sudán queda excluido de cualquier variante del viaje mientras persista la guerra civil. Revisar el estado del conflicto antes de cualquier replanteamiento.",
-    pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR,
+    center=[17.31, 33.83], zoom=5,
+    notice="Documento de planificación de un país EXCLUIDO POR PROTOCOLO: no forma parte de la ruta 2027. La ficha se mantiene completa por si en el futuro cambia la situación o se plantea un viaje aparte. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
+    pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
+    corridor_label="Bucle del Nilo: Wadi Halfa → Nubia → Karima → Bayuda → Meroe → Jartum → Gezira → Dinder",
+    corridor_alt_label="Ramal oriental: Jartum → Wad Madani → Kassala → Suakin → Port Sudán → Dungonab",
+    hero_img="https://commons.wikimedia.org/wiki/Special:FilePath/Meroe_Pyramids_-_33110830438.jpg?width=1200",
+    hero_credit="Pirámides de Meroe (UNESCO) · Laurent de Walick · CC BY 2.0",
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
-    decision=("Sudán vive desde abril de 2023 una guerra civil entre el Ejército sudanés (SAF) y las Fuerzas de Apoyo Rápido (RSF) que, a mediados de 2026, sigue sin alto el fuego: ambos bandos han descartado oficialmente una salida negociada. "
-              "El SAF recuperó el control de Jartum en 2025, pero las RSF mantienen el dominio de gran parte de Darfur y Kordofán, con combates activos en curso (por ejemplo, en torno a El Fasher). El resultado humanitario es catastrófico: "
-              "unos 14 millones de personas desplazadas, 4,5 millones de ellas como refugiadas fuera del país, inseguridad alimentaria severa y hambruna en amplias zonas. Ninguna frontera de Sudán es fiable ni planificable en este contexto. "
-              "Decisión del proyecto: Sudán queda completamente excluido de cualquier variante de la ruta —ni tránsito, ni pernocta, ni frontera— mientras dure el conflicto. La alternativa adoptada para conectar Etiopía con Egipto es "
-              "desviar la ruta por el este: salir de Etiopía hacia Yibuti por Galafi y, desde el puerto de Yibuti, contratar un envío marítimo (RoRo o contenedor) del vehículo hacia Egipto —vía Arabia Saudí en tránsito— o directamente hacia Europa, "
-              "con la tripulación viajando por separado en avión. Esta decisión debe revisarse activamente 30-60 días antes del tramo final del viaje: solo si el conflicto se resolviera con garantías sólidas y sostenidas en el tiempo cabría "
-              "reevaluar el corredor terrestre clásico Etiopía-Sudán-Egipto; mientras tanto, la ruta de referencia del proyecto es la marítima vía Yibuti — ver las fichas de Etiopía, Yibuti y Egipto."),
+    decision="Sudán queda fuera de la expedición 2027 por dos razones que se suman. La primera es de protocolo: el MAEC «desaconseja el viaje a Sudán bajo cualquier circunstancia», la Embajada de España en Jartum está cerrada desde abril de 2023 (opera desde El Cairo) y el país sigue partido en dos bloques —SAF en Jartum, el norte, el este y el centro; RSF en Darfur y el oeste de Kordofán— con drones atacando ciudades, aeropuertos y depósitos de combustible hasta septiembre de 2026. La segunda es de ruta: la vuelta 2027 termina en Kenia y no sube por el Cuerno de África ni por el corredor Nilo–Egipto, así que Sudán no entraría ni con paz. Si algún día vuelve a ser viable, la forma clásica sería entrar desde Asuán por Argeen o Qustul/Ashkeet con CPD, recorrer la Nubia (Wadi Halfa–Dongola–Karima–Meroe–Jartum) y salir por Gallabat–Metema hacia Etiopía o por Port Sudán en barco: unos 2.000 km y 10–14 días. Coste orientativo hoy: visado (150 USD en Asuán según relato de 2023; tarifa en Madrid por confirmar) + registro (~10 USD) y permisos de viaje por estado + combustible a ~0,55–0,60 €/l (2026) con racionamiento y colas de 12 horas. Lo que habría que decidir antes: que el MAEC retire el «bajo cualquier circunstancia», que Argeen o Ashkeet vuelvan a admitir extranjeros con vehículo propio, y que el seguro de viaje y el CPD (RACE) cubran el país.",
     facts=[
-        ("Estado", "Guerra civil activa desde abril de 2023, sin alto el fuego a la fecha de esta revisión (sep. 2026)."),
-        ("Ruta", "País EXCLUIDO por completo de cualquier variante de la ruta mientras dure el conflicto."),
-        ("Fronteras", "Ninguna frontera de Sudán se considera fiable ni planificable en este contexto."),
-        ("Alternativa adoptada", "Etiopía → Galafi → Yibuti → envío marítimo RoRo/contenedor → Egipto o Europa."),
-        ("Revisión", "Revalidar el estado del conflicto 30-60 días antes del tramo final; solo una resolución sólida y sostenida justificaría reconsiderar el corredor terrestre."),
+        ("Estatus", "EXCLUIDO POR PROTOCOLO. Guerra civil SAF–RSF desde el 15 de abril de 2023; MAEC: viaje desaconsejado bajo cualquier circunstancia (rev. 28-02-2025); FCDO 11-05-2026 y Canadá 09-09-2026: no viajar."),
+        ("Cómo llegar", "Solo en avión: Port Sudán (PZU: EgyptAir, Ethiopian, Turkish, Qatar) y, desde el 28-04-2026, Jartum internacional; ambos atacados con drones en 2025–2026. Pasos terrestres cerrados a extranjeros según MAEC; Argeen/Ashkeet solo refugiados y ayuda."),
+        ("Visado", "OBLIGATORIO y previo, en la Embajada de Sudán en Madrid (Av. Miraflores 63); 5 semanas (MAEC) a 2 meses (Canadá); registro policial en 3 días; permiso de viaje para salir del estado del Mar Rojo."),
+        ("Vehículo/aduana", "CPD aceptado (Sudanese Automobile and Touring Club, Jartum, +249 183 403 402); en la práctica no hay cruces de overlanders documentados desde 2023. Se conduce por la derecha; permiso internacional válido 3 meses."),
+        ("Seguro", "Carta Verde OFESAUTO NO cubre Sudán; sin Carte Brune ni CEMAC. COMESA Yellow Card: Sudán tiene oficina nacional (Sheikan Insurance, Jartum) → válida en teoría. Seguro de viaje: casi ninguna póliza cubre viajar contra recomendación oficial."),
+        ("Moneda", "Libra sudanesa (SDG), no convertible; 1 EUR ≈ 644 SDG oficial (abr. 2025, MAEC), ~1.050 SDG/EUR en paralelo (GlobalPetrolPrices, 2026); mínimo histórico junio 2026. Sin tarjetas extranjeras: solo efectivo USD/EUR, máx. 3.000 € sin declarar."),
+        ("Perro", "Sin fuente oficial nacional abierta; datos de terceros: certificado veterinario en 10 días, rabia 30 días–12 meses, sin permiso previo, sin razas prohibidas. Vuelta a la UE: Sudán NO está en el Reg. (UE) 2026/636 → titulación antirrábica anotada antes de salir."),
+        ("Drones", "PROHIBIDOS para visitantes extranjeros (drone-laws.com, ene. 2026; autoridad SCAA sin reglamento publicado) y de facto en un país en guerra de drones. Fotografía de infraestructuras penada. Confiscación y detención probables."),
+        ("Starlink", "PROHIBIDO por el Gobierno desde el 31-01-2024; funciona de forma ilegal (kits de contrabando a ~2.500 USD) sobre todo en zonas RSF. Operadores Zain, MTN y Sudani con cortes prolongados."),
+        ("Seguridad", "Combates activos en Kordofán, Darfur y Nilo Azul; drones RSF sobre Jartum, Omdurmán, Atbara y El Obeid el 12-08-2026. Alto riesgo de detención, secuestro y desaparición forzada (FCDO)."),
+        ("Clima", "Desierto hiperárido en el norte (Wadi Halfa: 0,5 mm/año, 4.300 h de sol, >45 °C mayo–sept.); lluvias julio–sept. en el sur y Darfur; ventana histórica de viaje nov.–feb."),
+        ("Sanidad", "Sistema sanitario colapsado; cólera (≈99.700 casos y 2.470 muertes desde julio 2024) y dengue; malaria en todo el país incl. Jartum. Fiebre amarilla: no exigida por RSI (TravelHealthPro) pero FCDO dice que la piden; llevar certificado."),
     ],
     alerts=[
-        "Guerra civil activa en todo el país: no planificar ningún tránsito, pernocta ni cruce fronterizo por Sudán bajo ninguna circunstancia mientras dure el conflicto.",
-        "Ninguna de las dos fronteras relevantes para este proyecto (Metema/Gallabat con Etiopía, Qustul/Wadi Halfa con Egipto) se considera operativa ni fiable.",
-        "La alternativa marítima vía Yibuti implica separar temporalmente vehículo y tripulación: el vehículo viaja por barco y las personas por avión — planificar esta logística con antelación suficiente.",
+        "El MAEC desaconseja viajar a Sudán «bajo cualquier circunstancia»; no hay asistencia consular sobre el terreno: la Embajada en Jartum «ha cerrado temporalmente su servicio al público» y opera desde El Cairo.",
+        "Fronteras terrestres cerradas a extranjeros según MAEC (feb. 2025); Sahara Overland (ene. 2026): «con Libia cerrada y la guerra de Sudán, para overlanders que bajan Egipto es un callejón sin salida».",
+        "Ataques con drones sobre aeropuertos: Port Sudán (6-05-2025, depósito de combustible) y Jartum (4-05-2026); Canadá (sept. 2026): pueden cerrar sin aviso.",
+        "País dividido: SAF controla Jartum (recuperada 26-03-2025), el norte, el este y el centro; RSF controla casi todo Darfur (El Fasher cayó el 26-10-2025, más de 1.300 civiles muertos en la primera semana) con gobierno paralelo en Nyala.",
+        "Frente de Kordofán activo: El Obeid bajo ataques de drones semanales (junio–agosto 2026); Dilling y Kadugli liberadas en enero–febrero 2026 pero inseguras.",
+        "Nilo Azul: en agosto de 2026 RSF y SPLM-N retomaron Kurmuk y Geisan, junto a la frontera etíope; el conflicto se regionaliza (Security Council Report).",
+        "Alto riesgo de detención arbitraria, secuestro y desaparición forzada de extranjeros (FCDO); los checkpoints revisan los móviles buscando fotos (caso Adré, julio 2026).",
+        "Registro obligatorio en Extranjería (Interior) en 3 días y permiso de viaje para salir del estado del Mar Rojo o de Jartum; sin él no se puede circular.",
+        "Sello israelí en el pasaporte = denegación automática de entrada. Alcohol prohibido; homosexualidad castigada con cadena perpetua o muerte.",
+        "Cólera y dengue epidémicos; hospitales de Jartum dañados o cerrados; Port Sudán sin medios adecuados: cualquier urgencia grave exige evacuación al extranjero.",
     ],
-    ruta_intro="No existe ruta terrestre planificada por Sudán. Esta ficha documenta la decisión de excluir el país y la alternativa marítima adoptada para seguir conectando el corredor de regreso.",
+    ruta_intro="Itinerario de referencia que enlaza los 18 puntos de interés por las carreteras principales, calculado sobre 250 km/día. No es una ruta aprobada del proyecto: sirve para dimensionar un posible viaje aparte y para saber qué hay en cada tramo.",
+    route_headers=("Etapa", "Recorrido", "Distancia y días aprox."),
     route_rows=[
-        ("Decisión", "Sudán completo", "EXCLUIDO — ver decisión de ruta"),
-        ("Alternativa", "Adís Abeba/Etiopía → Galafi → Yibuti", "Salida terrestre hacia el puerto de embarque"),
-        ("Alternativa", "Puerto de Yibuti → mar → Egipto/Europa", "RoRo o contenedor; tripulación por avión"),
+        ("1 · Wadi Halfa → Abri / Sai", "Frontera de Argeen, lago Nubia, desierto nubio, Abri y barca a Sai", "~190 km · 1 día"),
+        ("2 · Abri → Soleb → Kerma", "Wawa y barca a Soleb, tercera catarata en Tombos, deffufas y museo", "~170 km · 1 día"),
+        ("3 · Kerma → Dongola → Antigua Dongola", "Palmerales nubios, Dongola, ruinas de Makuria en la orilla este", "~140 km · 1 día"),
+        ("4 · Antigua Dongola → Karima", "Carretera del Nilo hasta Jebel Barkal; subida al atardecer", "~190 km · 1 día"),
+        ("5 · Karima · Nuri y El-Kurru", "Día de necrópolis a ambos lados de Karima", "~60 km · 1 día"),
+        ("6 · Karima → Bayuda → Atbara", "Asfalto de 262 km por el Bayuda; noche de acampada libre en el desierto", "~262 km · 1 día"),
+        ("7 · Atbara → Meroe", "Confluencia del Atbara, pirámides de Bagrawiya, noche junto a las pirámides", "~110 km · 1 día"),
+        ("8 · Meroe → Musawwarat → Naqa → Shendi", "Pistas de arena a los templos de Kush; noche en Shendi", "~150 km · 1 día"),
+        ("9 · Shendi → Sabaloka → Jartum", "Sexta catarata en barca y entrada a la capital", "~200 km · 1 día"),
+        ("10 · Jartum y Omdurmán", "Museo Nacional, Mogran, tumba del Mahdi, zoco y derviches (viernes)", "~40 km · 1–2 días"),
+        ("11 · Jartum → Wad Madani → Sennar → Dinder", "Gezira, presa de Sennar y pueblo de Dinder para los permisos", "~330 km · 1–2 días"),
+        ("12 · Dinder NP", "Pista de 4 h hasta Galegu; safari con guarda", "~110 km · 1–2 días"),
+        ("13 · Dinder → Gedaref → Kassala", "Sabana agrícola, Gedaref, montes Taka al atardecer", "~450 km · 2 días"),
+        ("14 · Kassala → Suakin → Port Sudán", "Carretera por Haiya, isla de coral de Suakin y buceo en Sanganeb", "~550 km · 2–3 días"),
     ],
-    offroad=[],
-    acampada=[],
+    offroad=[
+        "Todo este apartado es PREGUERRA e informativo: el MAEC (28-02-2025, vigente 09-2026) desaconseja viajar a Sudán bajo cualquier circunstancia y dice que las fronteras terrestres están cerradas a extranjeros; Canadá (09-09-2026) añade que «all overland travel [is] extremely hazardous» y el FCDO (05-2026) que los viajes por carretera solo deben hacerse «if strictly necessary», con «demands for money at checkpoints».",
+        "Ejes principales: la carretera asfaltada Wadi Halfa–Dongola (394 km, con gasolineras y cafeterías escasas y tramos «quite dry» hasta Delgo), Dongola–cruce del Bayuda (187 km, control policial en el km 374) y la travesía del Bayuda Merowe/Karima–Atbara (262 km, cafeterías, agua en el puesto de policía del km 89, gasolina y policía en el cruce), según Nomades x Nomades; Tracks4Africa habla de «well-maintained Chinese-built asphalt highways» con radares.",
+        "Pistas 4x4 reales: los templos de Naqa y Musawwarat es-Sufra están a 25–50 km al este del Nilo por arena, «deep desert location requiring 4x4» (Against the Compass); el interior del Bayuda (campo volcánico, Wadi Abu Dom, monasterio de Ghazali) es pista de arena sin señalizar, y Nuri se alcanzaba por ferry y pista sin asfaltar (Afro Heritage Atlas).",
+        "Sabaloka se alcanza por pistas de barro y grava mal señalizadas («it looks like a maze»), intransitables en lluvias; se recomienda guía local (Tripadvisor).",
+        "Dinder NP: 4 horas de pista desde el pueblo de Dinder hasta la puerta, solo de noviembre a abril; carta de la Administración de Fauna en Jartum, permiso en Dinder y GUARDA OBLIGATORIO en el coche (Andariya 2016).",
+        "Permisos: antes de la guerra el registro de extranjeros era obligatorio (~40 USD/persona, Tracks4Africa; ~540 SDG, Against the Compass); el permiso de viaje y el de fotografía habían dejado de exigirse según viajeros de 2019–2022, aunque Afro Heritage Atlas sigue citando el permiso de fotos del Museo Nacional. Hoy todo esto está suspendido de hecho.",
+        "Zonas vetadas hoy: todo Darfur y Kordofán occidental (RSF, gobierno paralelo en Nyala; El Fasher cayó el 26/27-10-2025), frente de Kordofán (El Obeid, Kadugli, Dilling) y Nilo Azul (Kurmuk, en manos RSF/SPLM-N desde 08-2026); fronteras con Chad y Eritrea cerradas (FCDO); el triángulo de Hala'ib y Bir Tawil son las únicas zonas donde el FCDO no desaconseja 'todo viaje' sino 'todo viaje no esencial'.",
+    ],
+    senderismo=[
+        "Jebel Barkal (Karima): subida de 15–20 minutos a la mesa de 104 m por la ladera de arena, al atardecer, con las pirámides y el Nilo a los pies (Wikipedia; Big World Small Pockets).",
+        "Montes Taka (Kassala): una hora de trepada por bloques de granito sin sendero desde los cafés de Totil (puerta en 15.428978/36.426288), 40 minutos de bajada por la cara oeste; vistas a Eritrea; solo al amanecer o al ocaso (Quit and Go Travel; Tripadvisor).",
+        "Pirámides de Meroe: paseo de 2–3 km entre los cementerios norte y sur y la ciudad real, con la duna al fondo; sin sombra ni agua (Afro Heritage Atlas).",
+        "Isla de Sai: caminata de medio día entre el fuerte otomano, la ciudad egipcia y la iglesia de cuatro columnas, «you can walk on history» (Travel Adventures).",
+        "Sabaloka: sendero de orilla junto a la garganta y paseo por los pescaderos; la garganta entera solo se ve en barca de 45 minutos (Tripadvisor).",
+        "Wadi Abu Dom y Ghazali (Bayuda): paseo por el lecho del wadi entre las ruinas del monasterio (s. VII–XIII) y sus iglesias de ladrillo (Wikipedia Monastery in Ghazali).",
+        "Antigua Dongola: circuito a pie de 1,5 km entre la ciudadela, la Sala del Trono, la iglesia de columnas de granito, el monasterio de Kom H y las qubbas (Wikipedia Old Dongola).",
+        "Dinder NP: solo se camina con guarda armado en torno a Galegu y las mayas; cobras escupidoras y escorpiones de noche (Andariya).",
+    ],
+    acampada=[
+        "No hay campings formales en Sudán; la referencia de overlanders en Jartum era el Blue Nile Sailing Club, donde se acampaba en el aparcamiento con agua poco fiable (Tracks4Africa; ficha en iOverlander no consultable por límite de sesión).",
+        "Acampada libre junto a las pirámides de Meroe, en el arenal detrás del cementerio norte: práctica habitual de overlanders, con 46 °C registrados en verano (Tracks4Africa); alternativa de pago, el Meroe Camp de tiendas permanentes de ITC (~120 USD/noche en 2018, Big World Small Pockets).",
+        "Karima: Nubian Rest House al pie del Jebel Barkal (ITC), y acampada libre en el arenal entre la mesa y las pirámides.",
+        "Bayuda: acampada libre en cualquier punto retirado del asfalto Karima–Atbara; sin agua salvo el puesto de policía del km 89 y los pozos de los nómadas (Nomades x Nomades; Wilder Magazine).",
+        "Desierto nubio Dongola–Wadi Halfa: acampada libre en el desierto; llenar agua en las tinajas de los pueblos y filtrarla (Nomades x Nomades).",
+        "Dinder NP: campamento de Galegu, con tasas por persona, vehículo y alojamiento en SDG; llegar antes de las 17 h o dormir en la puerta (Andariya).",
+        "Sudán tenía fama de hospitalidad nubia sin acoso comercial (Tracks4Africa), pero hoy todo es teórico: desde 04-2023 no hay turismo, y las ciudades del Nilo albergan cientos de miles de desplazados (Al-Dabbah, ~60.000; Sudan Tribune 07-2026).",
+    ],
     visado=[
-        "No aplicable: no se planifica ninguna entrada a Sudán mientras dure el conflicto.",
+        "ESPAÑOLES: VISADO OBLIGATORIO y previo. Embajada de Sudán en Madrid, Av. Miraflores 63 (MAEC). Plazo: 5 semanas (MAEC) a 2 meses (Canadá). Sin eVisa ni visado a la llegada.",
+        "Coste: por confirmar en Madrid (no publicado en fuentes abiertas). Referencia: 150 USD en el consulado de Asuán en 2023, visado manuscrito en 4–5 h (comentario en Against the Compass); ese consulado ya no aparece como opción en Sahara Overland (ene. 2026).",
+        "Pasaporte con 6 meses de validez mínima. Sello o visado israelí = entrada denegada.",
+        "Registro en el Departamento de Extranjería (Ministerio del Interior) en 3 DÍAS desde la llegada, con multa si no se hace; en 2022 costaba 5.000 SDG (~10 USD) y se hacía en Wadi Halfa.",
+        "Permiso de viaje: obligatorio para salir del estado del Mar Rojo (FCDO) y para viajar fuera de Jartum, pedido con una semana de antelación al Ministerio de Exteriores (Canadá).",
+        "Validez en frontera terrestre: hoy irrelevante; MAEC afirma que las fronteras terrestres están cerradas a extranjeros y Argeen/Ashkeet operan solo para refugiados y ayuda humanitaria.",
     ],
     fronteras_rows=[
-        ("Entrada (no usar)", "Metema/Gallabat (Etiopía)", "Sin fiabilidad operativa — excluida de la ruta."),
-        ("Salida (no usar)", "Qustul/Wadi Halfa (Egipto)", "Cruce histórico por el lago Nasser — descartado mientras dure el conflicto."),
+        ("Aeropuerto principal", "Port Sudán New International (PZU)", "OPERATIVO: EgyptAir, Ethiopian, Turkish, SalamAir, Qatar (desde 2-07-2026), Sudan Airways; dron RSF el 6-05-2025 incendió el depósito de combustible y suspendió vuelos. Canadá 09-09-2026: puede cerrar sin aviso. Fuente: Wikipedia PZU."),
+        ("Aeropuerto", "Jartum Internacional (KRT)", "Cerrado 15-04-2023 → 25-03-2025; domésticos desde 22-10-2025, internacionales desde 28-04-2026 (Kuwait Airways); ataque con dron el 4-05-2026. Fuente: Wikipedia KRT."),
+        ("Puerto", "Port Sudán (mar Rojo)", "Único puerto comercial del país y sede del Gobierno hasta el 11-01-2026 (vuelta a Jartum). Embarque RoRo de vehículos turísticos desde Jeddah/Suez: POR CONFIRMAR (sin datos desde 2023)."),
+        ("Paso terrestre Egipto", "Argeen / Arqin (22.502, 31.428 según Border Crossing Hub; ~30 km al oeste de Wadi Halfa)", "Lado sudanés bajo SAF (Estado del Norte). Abierto 24 h como corredor de refugiados con esperas de 12–48 h; «no es una ruta turística», solo autobuses y vehículos licenciados (Border Crossing Hub, sept. 2026). MAEC: cerrado a extranjeros. Sin cruces de overlanders desde 2023."),
+        ("Paso terrestre Egipto", "Ashkeet (Ashkit) – Qustul / ferry del lago Nasser", "Lado sudanés SAF. El 2-01-2026 entró por Ashkit un convoy de 12 camiones de la Media Luna Roja egipcia recibido por el cónsul egipcio en Wadi Halfa (allAfrica/SUNA): operativo para ayuda. Ferry Asuán–Wadi Halfa y barcaza Abu Simbel–Qustul: sin confirmación de servicio en 2026. POR CONFIRMAR."),
+        ("Paso terrestre Etiopía", "Gallabat–Metema (12°58′N 36°12′E)", "Lado sudanés SAF (Gedaref). Cerrado del 1-09 al 21-10-2024 por la toma de Metema por Fano; reabierto (Wikipedia). Agosto 2026: combates en Kurmuk/Geisan (Nilo Azul) con ofensiva RSF/SPLM-N «desde Etiopía» (SCR); Sudán retiró a su embajador en Adís el 5-05-2026. Solo comercio/refugiados."),
+        ("Paso terrestre Chad", "Adré (Darfur Occidental)", "Lado sudanés bajo RSF. Corredor humanitario autorizado hasta el 30-09-2026 (ONU, 29-06-2026); Chad lo cerró el 28-07-2026 por la detención de dos chadianos y reabrió el 29-07 (Darfur24). Chad cerró la frontera de Wadi Fira el 23-02-2026. No apto para turistas."),
+        ("Paso terrestre Eritrea", "Kassala–Tesseney", "Lado sudanés SAF. «Efectivamente cerrado» y «cruzar es imposible e inseguro» (Border Crossing Hub, 2026); cierres recurrentes desde 2018 (Dabanga). POR CONFIRMAR con fuente oficial."),
+        ("Paso terrestre Sudán del Sur", "Renk / Joda (Nilo Blanco)", "Corredor de retornados y refugiados hacia Sudán del Sur (UNHCR); sin datos de cruce de vehículos extranjeros. El informe UNHCR de marzo 2026 no se pudo abrir. POR CONFIRMAR."),
+        ("Zonas disputadas", "Triángulo de Halaib y Bir Tawil", "Halaib bajo control de facto egipcio desde 1992; FCDO: desaconseja todo viaje salvo el esencial. No hay paso abierto por la costa (Shalateen–Halaib) para extranjeros."),
     ],
     vehiculos=[
-        "No aplicable dentro de Sudán: ningún trámite de CPD, seguro o importación temporal se gestiona para este país mientras dure la exclusión de ruta.",
-        "La logística de vehículo relevante es la del envío marítimo desde Yibuti — ver la ficha de Yibuti y de Egipto para los trámites de origen y destino.",
+        "CPD: Sudán aparece en carnetdepassage.org como país que ACEPTA el carnet; club garante: Sudanese Automobile and Touring Club, Almuhajir Building, Moh. Nageeb Road, Jartum (+249 183 403 402). Sin confirmación de que la aduana de Argeen/Ashkeet procese vehículos turísticos desde 2023.",
+        "Sin CPD: históricamente admisión temporal con fianza y fixer en Wadi Halfa; Sahara Overland (ene. 2026) tacha todo el procedimiento y deja el carnet como «puede seguir siendo necesario».",
+        "Se conduce por la DERECHA (MAEC/Canadá). Permiso internacional de conducir válido 3 meses (MAEC); recomendado por Canadá.",
+        "Seguro de RC: Carta Verde OFESAUTO no cubre Sudán; sin Carte Brune ni CEMAC. COMESA Yellow Card: oficina nacional Sheikan Insurance & Reinsurance, Jartum (+249 18 378 1656, info@shiekanins.sd) → en teoría válida si se compra en Kenia/Etiopía; emisión real en 2026 por confirmar.",
+        "Checkpoints militares constantes; MAEC: «robos probables», no conducir de noche; extorsión en controles (FCDO); registran móviles y cámaras.",
+        "Combustible con racionamiento, colas de hasta 12 h y mercado negro (Dabanga, 13-09-2026): autonomía ≥1.000 km si algún día se hiciera.",
+        "Ferrocarril no operativo (MAEC). La carretera Cairo–Ciudad del Cabo (Wadi Halfa–Dongola–Jartum) estaba asfaltada desde 2009–2012 (Tom Allen); estado 2026 por confirmar.",
+        "Fotografía de puentes, aeropuertos, militares y refinerías penada; permiso fotográfico necesario (Canadá). Vehículos con muchas antenas o equipos = sospecha.",
     ],
     drones_callout=DRONE_CALLOUT,
-    drones=["No aplicable — país excluido de la ruta."],
-    starlink_callout=STARLINK_CALLOUT,
-    starlink=["No aplicable — país excluido de la ruta."],
-    perro_intro=["No aplicable — país excluido de la ruta."],
-    dog_matrix=DOG_MATRIX,
-    salud=["No aplicable — país excluido de la ruta; ver la ficha de Etiopía y de Egipto para la cobertura sanitaria del tramo real del proyecto."],
-    seguridad_intro="Sudán es, junto con Mali, Libia y Somalia, uno de los países que este proyecto excluye por completo del itinerario por conflicto armado activo.",
-    seguridad=[
-        "No planificar ningún tránsito, pernocta ni cruce fronterizo por Sudán mientras dure la guerra civil.",
-        "Monitorizar la evolución del conflicto de forma periódica durante toda la planificación del viaje, no solo en la revisión final de 30-60 días.",
-        "Ante cualquier duda sobre si el conflicto se ha resuelto lo suficiente como para reconsiderar el corredor terrestre, tratar la pregunta como abierta y mantener por defecto la alternativa marítima vía Yibuti.",
+    drones=[
+        "Autoridad: Sudan Civil Aviation Authority (SCAA), scaa.gov.sd, +249 183 772 360; sin normativa nacional publicada (UAV Coach, dic. 2022: «no hemos encontrado leyes de drones para Sudán»). Web oficial no abierta en esta sesión.",
+        "drone-laws.com (act. 21-01-2026): «los vuelos de drones de visitantes extranjeros no están permitidos en Sudán»; se remite a ICAO (<150 m, 8 km de aeropuertos, línea de vista).",
+        "MAEC: prohibido fotografiar instalaciones militares, puentes, aeropuertos y petroleras; Canadá: permiso fotográfico obligatorio. Un dron es agravante.",
+        "Contexto bélico: ACLED cuenta +47 % de ataques con drones en 2025; los checkpoints de ambos bandos revisan móviles (dos chadianos detenidos en Adré en julio de 2026 por fotos de posiciones).",
+        "Recomendación de la guía: ni desmontado ni precintado; simplemente no llevar dron a Sudán.",
     ],
-    agua=["No aplicable — país excluido de la ruta."],
-    combustible=["No aplicable — país excluido de la ruta."],
+    starlink_callout=STARLINK_CALLOUT,
+    starlink=[
+        "Prohibición oficial: 31-01-2024, posesión y uso punibles (Geeska, 05-02-2026).",
+        "Uso real: kits de contrabando a ~2.500 USD (5× el precio oficial), montados en vehículos RSF y usados para guiar drones (Military Africa, abril 2024; Geeska).",
+        "Operadores móviles: Sudani, Zain y MTN; sus sedes en Jartum fueron atacadas en febrero de 2024 y 30 millones de personas quedaron sin red un mes; Wad Madani estuvo un año sin internet (hasta enero de 2025).",
+        "SIM turística: exige pasaporte y registro; sin datos de venta a extranjeros en Port Sudán en 2026. Por confirmar.",
+        "Mapa de disponibilidad de starlink.com: la página no devolvió contenido en esta sesión; por confirmar visualmente.",
+    ],
+    perro_intro=[
+        "No se ha podido abrir ninguna página OFICIAL sudanesa (Ministerio de Recursos Animales / Servicios Veterinarios); los requisitos disponibles son de intermediarios (PetTravel.com) y NO están verificados con un país en guerra.",
+        "Según PetTravel.com: microchip ISO recomendado (no obligatorio), vacuna antirrábica entre 30 días y 12 meses antes, certificado sanitario de veterinario oficial (o refrendado) en los 10 días previos, sin permiso de importación, sin lista de razas prohibidas, entrada solo por el aeropuerto de Jartum.",
+        "La rabia está presente en animales domésticos en Sudán (TravelHealthPro, 2025): vacunación del perro imprescindible y evitar perros callejeros.",
+        "Vuelta a la UE: Sudán NO figura en el Reg. de Ejecución (UE) 2026/636 (en África solo Mauricio, Santa Elena y Ascensión) → régimen de país no listado del Reg. Delegado (UE) 2026/131 (aplicable desde 28-03-2026): titulación de anticuerpos antirrábicos ANOTADA en el pasaporte europeo antes de salir de la UE (vía A) y entrada por Punto de Entrada de Viajeros (MAPA).",
+        "Sin datos de veterinarios operativos: el sistema sanitario humano está colapsado y no hay clínicas veterinarias de referencia localizadas; por confirmar.",
+        "Riesgos: calor extremo (>45 °C de mayo a septiembre), agua no segura, leishmaniasis y garrapatas, rechazo cultural al perro en espacios cerrados; evacuación veterinaria imposible.",
+        "Fuera de la ruta 2027: nada de esto se aplica salvo como referencia histórica.",
+    ],
+    dog_matrix=DOG_MATRIX,
+    salud=[
+        "Fiebre amarilla: TravelHealthPro (act. 01-10-2025) dice que NO hay exigencia de certificado bajo el RSI; FCDO afirma que se pide certificado para entrar; MAEC: no obligatoria pero recomendada fuera de Port Sudán/Jartum. LLEVAR EL CERTIFICADO.",
+        "Malaria en TODO el país incluida Jartum; profilaxis (atovacuona/proguanil, doxiciclina o mefloquina) recomendada a la mayoría de viajeros (TravelHealthPro, Canadá).",
+        "Cólera: ≈99.700 casos sospechosos y 2.470 muertes desde julio de 2024 (TravelHealthPro); MSF trató 40.800 casos en 2025; nuevo brote en Kordofán Occidental en junio de 2026 (838 casos, 117 muertes; ONU). Vacuna oral recomendable.",
+        "Dengue: 13.735 casos y 22 muertes a sept. 2025. Rabia presente en animales domésticos. Recomendadas hepatitis A y B, tifoidea, tétanos, polio, meningococo ACWY, rabia.",
+        "Hospitales: MAEC lista Royal Care International (+249 156 550 150) y Dar Alelaj (+249 18 352 2616) en Jartum, «probablemente no operativos»; MSF apoya Bashair Teaching Hospital y el Turkish Hospital en Jartum. Port Sudán «carece de medios adecuados» (MAEC). Pago por adelantado y en efectivo.",
+        "Agua: solo embotellada o tratada; la OMS (junio 2026) vincula el cólera a «agua insegura y saneamiento destruido».",
+        "Cualquier urgencia grave implica evacuación aérea desde Port Sudán a El Cairo, Adís Abeba o Yeda: se necesita seguro con evacuación que cubra viajar contra recomendación oficial (casi inexistente).",
+    ],
+    seguridad_intro="Sudán vive desde abril de 2023 una guerra abierta entre las Fuerzas Armadas (SAF) y las Fuerzas de Apoyo Rápido (RSF): entre 150.000 y 400.000 muertos, 8,8 millones de desplazados y 3,5 millones de refugiados. En 2026 el mapa se ha consolidado en dos bloques: SAF en Jartum, el norte, el este y el centro; RSF en Darfur (El Fasher cayó en octubre de 2025) y el oeste de Kordofán, con gobierno paralelo en Nyala. Los drones alcanzan cualquier ciudad, incluida Port Sudán. El MAEC desaconseja el viaje bajo cualquier circunstancia y no hay embajada española en el país.",
+    seguridad=[
+        "MAEC (rev. 28-02-2025): TODO el país es zona de alto riesgo; se desaconseja el viaje bajo cualquier circunstancia. FCDO (11-05-2026): desaconseja todo viaje. Canadá (09-09-2026): evitar todo viaje.",
+        "Control territorial (ACLED 11-12-2025; Al Jazeera 12-01-2026; SCR sept. 2026): SAF controla Jartum, Gezira, Sennar, Nilo Blanco, Estado del Norte, Mar Rojo, Kassala y Gedaref; RSF controla Darfur y el oeste de Kordofán; El Obeid, Bara, Kadugli y Dilling son frentes activos.",
+        "Drones: ataques RSF simultáneos el 12-08-2026 sobre El Obeid, Atbara, Omdurmán y Jartum con «decenas de civiles muertos» (SCR); Port Sudán atacada en mayo de 2025; aeropuerto de Jartum el 4-05-2026.",
+        "Nilo Azul: en agosto de 2026 RSF y SPLM-N retomaron Kurmuk y Geisan junto a la frontera etíope, con ofensiva «lanzada desde Etiopía» según el Gobierno (SCR).",
+        "Detención, secuestro y desaparición forzada: «alto riesgo» en todo Sudán (FCDO); extranjeros y personal de organismos internacionales han sido objetivo (Canadá).",
+        "Delincuencia violenta generalizada en Jartum desde 2023: saqueos, robos, extorsión en checkpoints (FCDO). El toque de queda y el estado de emergencia de Jartum se levantaron el 28-08-2026.",
+        "Terrorismo: atentados indiscriminados posibles en hoteles, transportes y lugares de culto (FCDO).",
+        "Zonas fronterizas con Eritrea, Etiopía, Libia y Egipto: actividad militante transfronteriza y territorios disputados (Canadá); Chad cerró la frontera de Wadi Fira el 23-02-2026 por choques con milicias.",
+        "Ley islámica estricta: alcohol prohibido, homosexualidad castigada con cadena perpetua o muerte; fotografía sin permiso perseguida. Hemedti (RSF) fue condenado a muerte en rebeldía el 13-07-2026.",
+    ],
+    agua=[
+        "Sin datos de overlanders desde 2023. Históricamente los depósitos se llenaban en gasolineras y casas del Nilo (Wadi Halfa, Dongola, Karima) con agua de pozo o del río, siempre filtrada.",
+        "La OMS (junio 2026) vincula el cólera a «agua insegura y saneamiento destruido»: cualquier agua de red o de cisterna debe considerarse contaminada.",
+        "Infraestructura hídrica atacada: drones RSF sobre plantas de agua y eléctricas de El Obeid (SCR, sept. 2026); el Estado del Norte sufre cortes de luz y agua pese a la presa de Merowe (ACAPS, ago. 2023).",
+        "Wadi Halfa: en 2023 los refugiados denunciaban falta de agua y electricidad en los refugios (Al Jazeera); agua embotellada disponible a precio en alza; precios 2026 por confirmar.",
+        "Norte nubio hiperárido (0,5 mm/año), sin agua superficial fuera del Nilo; autonomía mínima 100 l por vehículo si algún día se hiciera.",
+    ],
+    combustible=[
+        "Gasolina 95: 630 SDG/l ≈ 0,70 USD ≈ 0,60 €/l (GlobalPetrolPrices, 11-05-2026, cambio paralelo). Diésel: 590 SDG/l ≈ 0,66 USD ≈ 0,55 €/l (GlobalPetrolPrices, 09-02-2026).",
+        "Precio en surtidor estatal (Nilo Blanco, sept. 2026): 38.805 SDG/galón de gasolina (~8.500 SDG/l), con subida prevista de 5.000–6.000 SDG/galón por el ajuste del dólar aduanero (Dabanga, 13-09-2026). La diferencia con GlobalPetrolPrices refleja la caída de la libra y el precio paralelo.",
+        "Escasez «casi mensual», colas de hasta 12 horas y mercado negro (Dabanga, sept. 2026); los propietarios retienen stock antes de cada subida.",
+        "Depósitos atacados: el dron RSF del 6-05-2025 incendió el depósito de combustible de Port Sudán; El Obeid sufre ataques a instalaciones de combustible y eléctricas (2026).",
+        "Calidad: sin datos 2026; todo se importa por Port Sudán; diésel apto para Euro 6 y AdBlue: por confirmar (asumir que no hay).",
+        "Red: gasolineras en el eje Wadi Halfa–Dongola–Jartum–Port Sudán (zona SAF); en Darfur/Kordofán el combustible lo controlan las RSF.",
+    ],
+    experiencias_intro="No existe ningún relato de overlanders con vehículo propio en Sudán desde el estallido de la guerra en abril de 2023; los últimos viajes independientes publicados son de 2018–2022 (en autobús) y se citan con su fecha como referencia histórica, junto a testimonios 2023–2026 de refugiados, ONG y prensa sobre los pasos y el estado del país.",
+    experiencias=[
+        "Sahara Overland, enero de 2026 (Chris Scott): la página de Egipto tacha íntegramente el apartado de cruce a Sudán (visado en Asuán, Argeen, ferry de Qustul) y sentencia que «con Libia cerrada a extranjeros y la guerra de Sudán, para overlanders que bajan Egipto es un callejón sin salida»; nadie ha reportado el paso «en años» y el carnet queda como «puede seguir siendo necesario».",
+        "Against the Compass (guía de 2018, comentarios hasta 2025, act. julio 2026): un viajero de 2023 obtuvo el visado en el consulado sudanés de Asuán por 150 USD en 4–5 horas, manuscrito y con la nota «registrarse en 3 días»; el autobús Asuán–Wadi Halfa por Argeen costaba 250 EGP y el trayecto total 11 horas; un comentario de agosto de 2025 solo menciona ya «la guerra en Sudán».",
+        "Ron Perrier, diciembre de 2022 (ronperrier.net): último viaje independiente publicado antes de la guerra: Wadi Halfa–Karima–Meroe–Jartum en autobús (7–27 USD por trayecto), registro en Wadi Halfa por 5.000 SDG, acampada libre algunas noches; avisa de que «Argeen puede eternizarse: hasta 14 horas solo para cruzar».",
+        "Big World Small Pockets, 2018 (act. 2022): itinerario Jartum–Meroe–Atbara–Karima–Kerma–Abri–Wadi Halfa en minibús, con permiso de viaje y registro en Jartum; hoteles de 30 a 500 SDG; el autobús de frontera hacia Egipto se reservaba la noche anterior y salía a las 7:00. Describe un país «muy seguro» y «el más amable de África» que ya no existe.",
+        "One Step 4 Ward, 2010 (act. 2020): el ferry semanal Wadi Halfa–Asuán salía los miércoles a las 16:00 y tardaba 24 h (1.ª clase 152 SDG ≈ 50 USD); a la vuelta, autobús Asuán–Wadi Halfa por 14 USD. Referencia de cómo era el único paso overland Egipto–Sudán hasta que abrieron las carreteras.",
+        "Tom Allen, 2009 (tomsbiketrip.com): cruzó en el ferry del lago Nasser con visado obtenido en El Cairo; señala que desde entonces la carretera al sur de Wadi Halfa se asfaltó por completo, «convirtiendo el norte de Sudán en uno de los tramos más fáciles del este de África».",
+        "Al Jazeera, junio de 2023: miles de sudaneses atrapados en Wadi Halfa tras exigir Egipto visado a todos; consulado egipcio casi sin personal, sobornos de ~1.000 USD por visado, refugios sin agua ni luz y dos de tres operadores móviles caídos. Así quedó la ciudad de entrada de los overlanders.",
+        "ACAPS, agosto de 2023: 362.000 desplazados en el Estado del Norte, 120.000 esperando entrar en Egipto por Argeen y Ashkeet; SAF controla el estado; cortes de luz y agua pese a la presa de Merowe y precios de comida +12 % en un mes.",
+        "Darfur24, 29 de julio de 2026: en Adré las RSF detuvieron a dos chadianos tras encontrar en sus móviles fotos de posiciones militares; Chad cerró el paso hasta que fueron liberados y reabrió al día siguiente para camiones, ayuda y viajeros. Muestra cómo se registra el teléfono en cada checkpoint.",
+        "Dabanga, 13 de septiembre de 2026: en Kosti y Rabak la gasolina se paga a 38.805 SDG el galón y las colas duran hasta 12 horas; los surtidores retienen combustible antes de cada subida y el mercado negro cubre la diferencia. Es el dato más reciente de combustible en carretera.",
+    ],
     pendientes=[
-        ("Estado del conflicto", "Revisar 30-60 días antes del tramo final si hay alto el fuego sólido y sostenido"),
-        ("Envío marítimo", "Confirmar la decisión definitiva (Egipto directo vía Arabia Saudí, o directamente a Europa) según la ficha de Yibuti"),
-        ("Contingencia", "Mantener siempre la alternativa marítima como plan por defecto salvo resolución clara y verificada del conflicto"),
+        ("Estado real de Argeen/Ashkeet para extranjeros con vehículo propio", "Confirmación escrita de la Embajada de Sudán en Madrid o relato de overlander fechado en 2026 en iOverlander/Overland Bound."),
+        ("Ferry del lago Nasser Asuán–Wadi Halfa y barcaza Abu Simbel–Qustul", "Horario y operador confirmados (Nile River Valley Transport Corp.) o testimonio 2026."),
+        ("Tarifa y plazo del visado en la Embajada de Sudán en Madrid", "Consulta a la Embajada (Av. Miraflores 63; embassypages devolvió 403) con respuesta fechada."),
+        ("COMESA Yellow Card válida en Sudán en 2026", "Confirmación de Sheikan Insurance (+249 18 378 1656) o de la secretaría COMESA de que la tarjeta se honra en checkpoints SAF."),
+        ("CPD en frontera: aduana operativa en Wadi Halfa/Argeen", "Confirmación del Sudanese Automobile and Touring Club (+249 183 403 402) o del RACE."),
+        ("Normativa de drones de la SCAA", "Abrir scaa.gov.sd o circular de embajada que cite la prohibición a extranjeros."),
+        ("Requisitos oficiales de entrada del perro", "Formulario del Ministerio de Recursos Animales o respuesta de la Embajada de Sudán en Madrid / visa.sudan@maec.es."),
+        ("Mapa Starlink y SIM turística", "Captura del mapa de starlink.com para Sudán y precio de SIM Zain/Sudani para extranjeros en Port Sudán."),
+        ("Hospital de referencia operativo en Port Sudán", "Nombre, dirección y teléfono verificados por MAEC, OMS o MSF en 2026."),
+        ("Estado de Kassala–Tesseney y Renk–Joda", "Fuente ONU/OCHA/UNHCR 2026 con estado del paso (el PDF UNHCR de marzo 2026 no se pudo leer)."),
+        ("Embajada de España: teléfono de la sede provisional en El Cairo para asuntos de Sudán", "Confirmar en exteriores.gob.es/Embajadas/jartum si los teléfonos +249 siguen activos o remiten a +20 2 2735 5813."),
+        ("Precio del agua embotellada y estado de la carretera Wadi Halfa–Jartum en 2026", "Relato de viajero o informe OCHA/Logistics Cluster fechado en 2026."),
     ],
     sources=SOURCES,
-    sources_note="Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha documenta una decisión de exclusión de ruta, no un itinerario de viaje; revisar el estado del conflicto antes de cualquier replanteamiento.",
-    emergency="Sin representación operativa recomendada en el país durante el conflicto. Ministerio de Asuntos Exteriores de España, línea de emergencia consular: +34 91 379 17 00.",
+    sources_note="Ficha revisada el 18 de septiembre de 2026 con las fuentes abiertas ese día; el MAEC no actualiza su recomendación desde febrero de 2025 y la situación militar cambia por semanas. Es una herramienta de planificación, no una autorización: Sudán está excluido de la ruta 2027 y ningún dato de esta ficha sustituye a la recomendación oficial vigente en el momento de viajar.",
+    emergency="Emergencia consular española: Unidad de Emergencia Consular (Madrid) +34 910 001 249, unidaddecrisis@maec.es; Embajada en Jartum (cerrada, emergencia +249 912 36 33 77, emb.jartum@maec.es) con sede provisional en la Embajada en El Cairo (+20 2 2735 5813, emergencia +20 122 318 3783). Sudán: policía 999, bomberos 998 (MAEC; Canadá indica 777), ambulancia Jartum +249 183 432 500 (MAEC; Canadá indica 333). Hospital Royal Care Jartum +249 156 550 150. Los servicios sudaneses pueden no responder por el conflicto.",
 )
 
 

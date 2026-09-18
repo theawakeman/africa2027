@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>África 2027 · 08 Etiopia-Egipto</name>
   <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
+  <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
-  <Style id="icon-poi-gris"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,666666,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-verde"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2E7D32,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Valle del Omo (Turmi y mercados del sur)</name>
@@ -34,18 +35,130 @@
     <Point><coordinates>42.1258,9.3125,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Jartum (referencia — NO visitar)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/ISS-64%20Khartoum%2C%20Sudan.jpg?width=900" width="320"/><br/><b>No planificable · Referencia · conflicto</b><br/>Capital y escenario principal de los combates entre el Ejército sudanés (SAF) y las Fuerzas de Apoyo Rápido (RSF) desde abril de 2023; incluida aquí únicamente como referencia geográfica del conflicto, sin ninguna intención de visita mientras dure la guerra.<br/><b>Perro:</b> no aplicable<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.5007,32.5599">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-gris</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Gris</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>32.5599,15.5007,0</coordinates></Point>
+    <name>Jartum · confluencia de los dos Nilos (Mogran) y Museo Nacional</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_National_Museum_(8625532907).jpg?width=1200" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Jartum nace donde el Nilo Azul, llegado de Etiopía, se une al Nilo Blanco en el Mogran, y durante años fue la puerta lógica de cualquier ruta por Sudán. En Nile Avenue, junto a la confluencia, está el Museo Nacional (1971), que guardaba los templos de Buhen y Semna rescatados del lago Nasser, los frescos de Faras y la estatua de Taharqa. Las RSF lo OCUPARON DEL 02-06-2023 A 03-2025 y su dirección denuncia que hasta el 90 % de los fondos fue saqueado o destruido; en 07-2026 se anunció una reapertura simbólica. La ciudad está bajo control del ejército desde el 26-03-2025, pero sigue recibiendo ataques de drones.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.60592,32.50839">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.50839,15.60592,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Wadi Halfa (referencia — cruce histórico a Egipto)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Traditional%20House%20in%20Wadi%20Halfa%2C%20Sudan.jpg?width=900" width="320"/><br/><b>No planificable · Referencia · conflicto</b><br/>Localidad junto al lago Nasser que históricamente conectaba Sudán con Egipto por ferry; en teoría fuera de las zonas de combate más intensas, pero la fiabilidad general del país durante el conflicto hace que el proyecto no la considere una opción de tránsito real a día de hoy.<br/><b>Perro:</b> no aplicable<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.8,31.35">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-gris</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Gris</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.35,21.8,0</coordinates></Point>
+    <name>Omdurmán · tumba del Mahdi, zoco y derviches de Hamed al-Nil</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_The_Mahdi_(8626640228).jpg?width=1200" width="320"/><br/><b>Alta · Cultura</b><br/>Omdurmán, en la orilla oeste del Nilo, fue la capital del Estado mahdista y conserva la tumba de cúpula plateada de Muhammad Ahmad, el Mahdi: acabada en 1885, dinamitada por Kitchener tras la batalla de 1898 y RECONSTRUIDA EN 1947. Enfrente, la Casa del Califa es museo, y el zoco es el mayor de Sudán. Los viernes al atardecer, en la tumba del jeque Hamed al-Nil, los derviches de su tariqa cantan y giran entre tambores. Las RSF ocuparon Omdurmán entre 04-2023 y 05-2025 y del museo desaparecieron espadas de Osman Digna.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.63952,32.48854">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.48854,15.63952,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Garganta de Sabaloka · la sexta catarata del Nilo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Alsabloga.jpg?width=1200" width="320"/><br/><b>Media · Naturaleza</b><br/>Unos 50–80 km al norte de Jartum el Nilo se estrecha y atraviesa el plutón de Sabaloka, un anillo de rocas ígneas que forma la SEXTA CATARATA, la última antes de Egipto contando desde el sur. No es una cascada sino rápidos entre paredes de granito y roca oscura que se ven bien solo desde el agua: los pescadores locales alquilan barcas de unos 45 minutos y hay chiringuitos de pescado frito. Se llega por pistas de tierra mal señalizadas que se convierten en barro con las lluvias. Era la excursión de fin de semana de los jartumíes.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.2769,32.60514">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.60514,16.2769,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pirámides de Meroe (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Meroe_Pyramids_-_33110830438.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>A unos 200 km al noreste de Jartum, junto a la aldea de Bagrawiya, se alzan las necrópolis reales de Meroe, capital del reino de Kush desde hacia 590 a. C. hasta 350 d. C.: MÁS DE 140 PIRÁMIDES de arenisca en tres cementerios, estrechas y empinadas (unos 72°), de 6 a 30 m. En 1834 el cazatesoros Giuseppe Ferlini decapitó unas cuarenta con explosivos. Patrimonio Mundial desde 2011 con Naqa y Musawwarat. Desde 2023 el sitio está «largely abandoned», con guardas pero sin misiones ni turistas, y la arena y la sal avanzan sobre las inscripciones.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.93467,33.75136">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.75136,16.93467,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Naqa y Musawwarat es-Sufra · templos del reino de Kush (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Naqa_Apedamak_temple.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>A unos 50 km al este del Nilo, en pleno desierto de la 'isla de Meroe', están los dos grandes centros religiosos kushitas: Naqa, con el Templo del León de Apedemak (Natakamani y Amanitore pisando prisioneros), el Quiosco Romano de capiteles corintios y un templo de Amón de 100 m; y Musawwarat es-Sufra, 20 km al norte, con el Gran Recinto de 45.000 m² lleno de ELEFANTES ESCULPIDOS y un Templo del León (c. 230 a. C.) reconstruido por la Universidad Humboldt en 1960–70. Patrimonio Mundial 2011. El 14-01-2024 el ejército bombardeó ambos sitios tras una incursión de las RSF.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.26878,33.27642">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.27642,16.26878,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Atbara · confluencia del Atbara y el Nilo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Atbara_Nile_river.jpg?width=1200" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Atbara es la 'ciudad del ferrocarril': nació con la línea Wadi Halfa–Jartum y aquí se unen las vías que vienen del norte, de Port Sudán y de Karima. Está en la confluencia del río Atbara, el último afluente del Nilo, que llega cargado de limo etíope solo en verano. El 8 de abril de 1898 Kitchener venció aquí a los mahdistas antes de Omdurmán. Es también la ciudad de la cementera y la cabecera de la carretera que cruza el Bayuda hacia Karima. En 08-2026 sufrió ATAQUES DE DRONES de las RSF; en 2024 se incautó aquí un almacén de piezas robadas del Museo Nacional.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=17.71211,34.00066">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>34.00066,17.71211,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Karima y Jebel Barkal · la montaña sagrada de Amón (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jebel_Barkal_%2B_Amun_Temple.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Jebel Barkal es una mesa de arenisca de 104 m que los egipcios de Tutmosis III (c. 1450 a. C.) tomaron por morada de Amón y a cuyo pie creció Napata, capital de los 'faraones negros' de la dinastía XXV. Al pie hay el templo de Amón, el templo de Mut excavado en la roca y un grupo de pirámides meroíticas; el pináculo de la montaña recuerda a una cobra real. Es el núcleo del sitio UNESCO «Gebel Barkal y los sitios de la región napatea» (2003), con Kurru, Nuri, Sanam y Zuma. Karima, a 400 km de Jartum, es la base: el Nubian Rest House está al pie del monte. Los locales siguen considerando sagrados los grandes templos.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.53518,31.83056">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.83056,18.53518,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pirámides de Nuri y necrópolis de El-Kurru</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nuri_Pyramids.jpg?width=1200" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Los reyes de Napata se enterraron en dos necrópolis a ambos lados de Karima. En Nuri, en la orilla opuesta, la PIRÁMIDE DE TAHARQA (c. 670 a. C., 51,75 m de lado y 40–50 m de alto) es la mayor de Sudán y arranca una serie de más de 20 pirámides en pie, quizá 80 en su día, hasta Nastasen (c. 310 a. C.). En El-Kurru, 15 km al sur de Karima, están las tumbas de Piye, Shabaka y Tantamani (c. 860–650 a. C.): la de Tantamani y la de la reina Qalhata conservan pinturas murales y de techo. Ambas forman parte del sitio UNESCO de 2003.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.56362,31.91628">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.91628,18.56362,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Antigua Dongola · capital cristiana de Makuria</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dobgola_Kingdom_of_Makuria,_Throne_hall_(33985988324).jpg?width=1200" width="320"/><br/><b>Media · Cultura</b><br/>En la orilla este del Nilo, unos 80 km aguas arriba de la actual Dongola, están las ruinas de la capital del reino cristiano de Makuria (siglos VI–XIV). Destaca la Sala del Trono, un edificio defensivo del siglo IX de 28×18×12 m que en 1317 se convirtió en MEZQUITA y funcionó como tal hasta 1969; alrededor, la Iglesia de las Columnas de Granito (finales del s. VII), la iglesia cruciforme, el monasterio de Kom H con pinturas de los siglos XI–XIII y un cementerio islámico de qubbas del siglo XVII. Misiones polacas excavan desde 1964.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.22472,30.74561">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.74561,18.22472,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kerma · las deffufas y el Museo de Kerma</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Western_Deffufa_-_Kerma.jpg?width=1200" width="320"/><br/><b>Alta · Cultura</b><br/>Kerma fue la primera gran ciudad del África negra: capital de un reino nubio entre c. 2500 y 1500 a. C. que rivalizó con Egipto. Su símbolo es la DEFFUFA OCCIDENTAL, un templo de adobe de 50×25 m y 18 m de altura, aún en pie; la Deffufa Oriental, 2 km al este, es una capilla funeraria entre unos 30.000 túmulos. El museo (19-01-2008), fruto de la misión suiza de Charles Bonnet, exhibe las siete estatuas de granito negro de los faraones de la dinastía XXV (Taharqa, Tanwetamani, Anlamani, Aspelta…) halladas rotas en Dukki Gel en 2003. Horario preguerra: 10–19 h, cerrado lunes; sitio 10 USD.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.60081,30.41043">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.41043,19.60081,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Isla de Sai y templo de Soleb</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Soleb_Temple_(2)_(34385481131).jpg?width=1200" width="320"/><br/><b>Media · Cultura</b><br/>Entre la segunda y la tercera catarata, en el país de los nubios mahas, están dos sitios que se visitan en barca. Soleb es el TEMPLO MÁS MERIDIONAL DE AMENOFIS III (s. XIV a. C.), en arenisca, dedicado a Amón-Ra y al propio faraón deificado con cuernos de carnero; de aquí salieron los leones de Prudhoe del British Museum, y allí siguen columnas con las listas de pueblos prisioneros. La isla de Sai (12 × 5,5 km), frente a Abri, superpone una ciudad egipcia del Reino Nuevo, iglesias de Makuria y un fuerte otomano del s. XVI construido con bloques inscritos. Sin turismo desde 2023.<br/><b>Perro:</b> por confirmar<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.4363,30.33389">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>30.33389,20.4363,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wadi Halfa y la segunda catarata sumergida</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nubian_lake_Wadi_H.jpg?width=1200" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Wadi Halfa es la puerta norte de Sudán, a orillas del lago Nubia (la cola sudanesa del lago Nasser) y a pocos km de Egipto. La ciudad antigua fue DESTRUIDA POR LA CRECIDA DE 1964 tras la presa de Asuán y unas 52.000 personas fueron reasentadas; bajo el agua quedaron la segunda catarata, 10 km al sur, y la fortaleza egipcia de Buhen, cuyo templo se salvó trasladándolo a Jartum. Es fin de línea del ferrocarril, embarcadero del ferry a Asuán y punto de trámite de los pasos terrestres de Argeen (abierto en 2014, 24 h, todo tipo de vehículos) y Qustul/Ashkeit. Desde 2023 los pasos viven una crisis humanitaria de refugiados.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.80738,31.31627">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.31627,21.80738,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Port Sudán · arrecifes de Sanganeb y bahía de Dungonab (UNESCO)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/PortSudan_center_harbour.jpg?width=1200" width="320"/><br/><b>Alta · Costa</b><br/>Port Sudán, fundada por los británicos entre 1905 y 1909 para sustituir a Suakin, es el único puerto del país y fue la SEDE DEL GOBIERNO DE 04-2023 A 01-2026. Frente a la costa está el mejor buceo del mar Rojo: el atolón de Sanganeb, 25 km mar adentro, único de su tipo en el mar Rojo, con faro británico de 50 m, tiburones martillo y barracudas; y 125 km al norte la bahía de Dungonab e isla Mukkawar, con dugongos y mantas. Ambos forman el sitio UNESCO de 2016. Cerca están el pecio del Umbria (1940) y el Conshelf II de Cousteau (1963) en Sha'ab Rumi. Desde 05-2025 la ciudad sufre ataques de drones.<br/><b>Perro:</b> no recomendado<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.60197,37.20758">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>37.20758,19.60197,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Suakin · la ciudad de coral en ruinas</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Old_Sawakin_city.jpg?width=1200" width="320"/><br/><b>Alta · Cultura</b><br/>Unos 50 km al sur de Port Sudán, Suakin fue durante siglos el puerto otomano del Sudán y la salida de los peregrinos hacia La Meca: una isla redonda unida a tierra por un dique, con casas y mezquitas de BLOQUES DE CORAL que, sin revoco, se han ido desmoronando hasta parecer una ciudad bombardeada. El jedive Ismail la recibió en 1865 y levantó casas, molinos y una iglesia copta; Port Sudán la arruinó desde 1909. Turquía obtuvo en 2018 un arriendo de 99 años y restauró 2017–2019 el palacio del gobernador, la aduana y las mezquitas Hanafi y Shafai; en 2026 se restaura una mezquita-mausoleo sufí con UNESCO y British Council.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.10532,37.32897">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>37.32897,19.10532,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kassala · montes Taka y jardines del Gash</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kathmiyah_Mosque_and_Taka_Mountains_in_Kassala,_Sudan.jpg?width=1200" width="320"/><br/><b>Media · Naturaleza</b><br/>Kassala, a orillas del río Gash y a un paso de Eritrea, tiene de fondo los MONTES TAKA, unas cúpulas de granito lisas que parecen brotar de la llanura y que se escalan sin sendero en una hora desde los cafés de Totil. A sus pies, la mezquita Khatmiyya (1840), sede de la orden sufí del mismo nombre, con la tumba de Hassan al-Mirghani, y alrededor los huertos de frutales regados por el Gash. Es ciudad beja, beni amer y rashaida, con zoco de látigos y quesos de cabra. Bajo control del ejército; drones RSF atacaron el aeropuerto el 03-05-2025.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.41365,36.42731">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.42731,15.41365,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque nacional de Dinder</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg?width=1200" width="320"/><br/><b>Media · Naturaleza</b><br/>A unos 400 km al sureste de Jartum, pegado a la frontera etíope y al parque de Alatash, Dinder es el parque más antiguo de Sudán (1935) y uno de los mayores: unos 10.000 km² de sabana, bosque de ribera y 'mayas', las lagunas de meandro donde se concentra la fauna en la seca. Es Reserva de la Biosfera (1979) y sitio Ramsar (2005). Quedan leones, leopardos, guepardos, tiang, antílopes ruanos, búfalos y más de 160 aves; elefante y rinoceronte se extinguieron. Se visita de noviembre a abril con carta de la Administración de Fauna en Jartum, permiso en el pueblo de Dinder (93 km) y GUARDA ARMADO obligatorio; base en el campamento de Galegu.<br/><b>Perro:</b> prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.81816,35.3905">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>35.3905,12.81816,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Desierto de Bayuda · la pista Karima–Atbara</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/BayudaDesert.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>El Bayuda es el desierto de unos 100.000 km² que llena el gran meandro del Nilo entre Omdurmán, Korti y Atbara. El Wadi Abu Dom, de 150 km, lo parte en dos: al este el CAMPO VOLCÁNICO DE BAYUDA, con conos y cráteres negros; al oeste llanuras de arena ocre. Por él pasaron durante siglos las caravanas de los bisharin y en 1885 la expedición de socorro a Gordon, cuyos fuertes y tumbas siguen ahí; en el wadi está el monasterio cristiano de Ghazali (s. VII–XIII). Hoy una carretera asfaltada de 262 km une Merowe/Karima con Atbara en medio día, con cafeterías, un puesto de policía con agua y una gasolinera en el cruce.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.44178,31.93154">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.93154,18.44178,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wad Madani y el Gezira · el algodón y el Nilo Azul</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wad_Medani_Blue_Nile.jpg?width=1200" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Wad Madani, a unos 140–190 km al sureste de Jartum en la orilla oeste del Nilo Azul, es la capital del Gezira, la 'isla' entre los dos Nilos que el Gezira Scheme convirtió desde 1925, con la presa de Sennar, en UNA DE LAS MAYORES ZONAS DE REGADÍO DEL MUNDO: unos 8.800 km² y 4.300 km de canales dedicados sobre todo al algodón de fibra larga. Es ciudad de mercado y de paso hacia Sennar, Dinder, Gedaref y Kassala. Las RSF la tomaron el 18-12-2023 y el ejército la recuperó el 11-01-2025; la región sigue entre las de mayor necesidad humanitaria según OCHA.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.39308,33.53921">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>33.53921,14.39308,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Alejandría</name>

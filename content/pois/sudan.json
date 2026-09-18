@@ -1,36 +1,1018 @@
 [
   {
     "n": 1,
-    "name": "Jartum (referencia — NO visitar)",
-    "cat": "Referencia · conflicto",
-    "prio": "No planificable",
-    "dog": "no aplicable",
-    "time": "—",
-    "lat": 15.5007,
-    "lon": 32.5599,
-    "desc": "Capital y escenario principal de los combates entre el Ejército sudanés (SAF) y las Fuerzas de Apoyo Rápido (RSF) desde abril de 2023; incluida aquí únicamente como referencia geográfica del conflicto, sin ninguna intención de visita mientras dure la guerra.",
-    "credit": "NASA (ISS-64) · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ISS-64%20Khartoum%2C%20Sudan.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:ISS-64%20Khartoum%2C%20Sudan.jpg",
-    "icon": "referencia · conflicto",
-    "color": "gris",
-    "dog_note": ""
+    "name": "Jartum · confluencia de los dos Nilos (Mogran) y Museo Nacional",
+    "cat": "Ciudad · servicios",
+    "prio": "Alta",
+    "dog": "no recomendado",
+    "time": "1–2 noches",
+    "lat": 15.6059211,
+    "lon": 32.5083907,
+    "desc": "Jartum nace donde el Nilo Azul, llegado de Etiopía, se une al Nilo Blanco en el Mogran, y durante años fue la puerta lógica de cualquier ruta por Sudán. En Nile Avenue, junto a la confluencia, está el Museo Nacional (1971), que guardaba los templos de Buhen y Semna rescatados del lago Nasser, los frescos de Faras y la estatua de Taharqa. Las RSF lo OCUPARON DEL 02-06-2023 A 03-2025 y su dirección denuncia que hasta el 90 % de los fondos fue saqueado o destruido; en 07-2026 se anunció una reapertura simbólica. La ciudad está bajo control del ejército desde el 26-03-2025, pero sigue recibiendo ataques de drones.",
+    "dog_note": "Museo cerrado a perros; zona urbana con restos de combates, escombros y explosivos sin detonar; el perro se queda en el coche o en el alojamiento.",
+    "visit": {
+      "why": "Es el punto de partida histórico de todo viaje por el Nilo sudanés y el museo era la mejor colección de arte nubio del mundo fuera de Egipto.",
+      "see": "El Mogran (la línea de dos aguas de color distinto), el edificio del museo con sus templos egipcios trasladados y, si hay exposición, lo poco que quedó tras el saqueo; el Blue Nile Sailing Club era el campamento clásico de overlanders.",
+      "access": "Ciudad recuperada por las FAS el 26-03-2025 con «widespread destruction» (Wikipedia); el gobierno volvió a Jartum el 11-01-2026 y el aeropuerto reabrió a vuelos domésticos el 01-02-2026, con cierres puntuales por drones (05-2026). MAEC: ninguna zona, «en especial la capital, Jartum», puede considerarse segura; fronteras terrestres cerradas a extranjeros. El pin marca el museo en Nile Avenue, en el barrio de al-Mogran; horarios y entrada por confirmar tras la reapertura.",
+      "when": "Noviembre–febrero (30–35 °C de día); evitar junio–septiembre (más de 45 °C y lluvias).",
+      "skip": "Descartar mientras el MAEC desaconseje el viaje bajo cualquier circunstancia y las fronteras terrestres sigan cerradas a extranjeros."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · National Museum of Sudan",
+        "url": "https://en.wikipedia.org/wiki/Sudan_National_Museum"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Sudán",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sud%C3%A1n"
+      },
+      {
+        "label": "Wikipedia · Khartoum",
+        "url": "https://en.wikipedia.org/wiki/Khartoum"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_National_Museum_(8625532907).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sudan_National_Museum_(8625532907).jpg",
+        "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+        "caption": "Fachada del Museo Nacional de Sudán, en la avenida del Nilo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Archer_King,_National_Museum_of_Sudan,_Khartoum,_Sudan,_North-East_Africa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Archer_King,_National_Museum_of_Sudan,_Khartoum,_Sudan,_North-East_Africa.jpg",
+        "credit": "Sue Fleckney · CC BY-SA 2.0",
+        "caption": "El «rey arquero», sala meroítica del Museo Nacional."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Confluence_of_Nile_(Khartoum)_001_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Confluence_of_Nile_(Khartoum)_001_(cropped).jpg",
+        "credit": "Petr Adam Dohnálek · CC BY-SA 3.0",
+        "caption": "Confluencia del Nilo Blanco y el Azul desde la isla de Tuti."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_National_Museum_(8625532907).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sudan_National_Museum_(8625532907).jpg",
+    "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
   },
   {
     "n": 2,
-    "name": "Wadi Halfa (referencia — cruce histórico a Egipto)",
-    "cat": "Referencia · conflicto",
-    "prio": "No planificable",
-    "dog": "no aplicable",
-    "time": "—",
-    "lat": 21.8,
-    "lon": 31.35,
-    "desc": "Localidad junto al lago Nasser que históricamente conectaba Sudán con Egipto por ferry; en teoría fuera de las zonas de combate más intensas, pero la fiabilidad general del país durante el conflicto hace que el proyecto no la considere una opción de tránsito real a día de hoy.",
+    "name": "Omdurmán · tumba del Mahdi, zoco y derviches de Hamed al-Nil",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 15.6395246,
+    "lon": 32.4885378,
+    "desc": "Omdurmán, en la orilla oeste del Nilo, fue la capital del Estado mahdista y conserva la tumba de cúpula plateada de Muhammad Ahmad, el Mahdi: acabada en 1885, dinamitada por Kitchener tras la batalla de 1898 y RECONSTRUIDA EN 1947. Enfrente, la Casa del Califa es museo, y el zoco es el mayor de Sudán. Los viernes al atardecer, en la tumba del jeque Hamed al-Nil, los derviches de su tariqa cantan y giran entre tambores. Las RSF ocuparon Omdurmán entre 04-2023 y 05-2025 y del museo desaparecieron espadas de Osman Digna.",
+    "dog_note": "Recintos religiosos (tumba, mezquita, ceremonia sufí) y museo: el perro no entra; el zoco es un laberinto abarrotado.",
+    "visit": {
+      "why": "La ceremonia sufí del viernes era la imagen más repetida de Sudán y la tumba del Mahdi resume la historia del país en un solo edificio.",
+      "see": "Tumba del Mahdi (abre los viernes), museo Casa del Califa (cerrado los viernes), zoco y, a la puesta de sol del viernes, la 'nuba' de los derviches en el cementerio de Hamed al-Nil.",
+      "access": "Barrio urbano; antes de la guerra se llegaba en taxi o coche propio y se aparcaba en la calle. Ocupación RSF de Omdurmán 04-2023 → 05-2025; el 12-08-2026 hubo drones kamikaze sobre Omdurmán y Jartum (Security Council Report). El pin marca la tumba del Mahdi; la de Hamed al-Nil está en el cementerio del mismo nombre, coordenadas por confirmar.",
+      "when": "Viernes, una o dos horas antes del ocaso para la ceremonia de los derviches; la tumba del Mahdi solo abre los viernes.",
+      "skip": "Sin sentido mientras siga el estado de guerra y el MAEC desaconseje el viaje; como derviches y tumba coinciden en viernes, si no se cae en viernes se pierde lo esencial."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · The Mahdi's tomb",
+        "url": "https://en.wikipedia.org/wiki/The_Mahdi%27s_tomb"
+      },
+      {
+        "label": "Wikipedia · Omdurman",
+        "url": "https://en.wikipedia.org/wiki/Omdurman"
+      },
+      {
+        "label": "Travel Aficionados · derviches, tumba y zoco",
+        "url": "https://www.travelaficionados.com/omdurman-dancing-dervishes-the-mahdis-tomb-and-a-large-souk/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_The_Mahdi_(8626640228).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tomb_of_The_Mahdi_(8626640228).jpg",
+        "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+        "caption": "Tumba del Mahdi en Omdurmán."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Omdurman_Market.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Omdurman_Market.JPG",
+        "credit": "عاصم الرشيد التوم · CC BY-SA 3.0",
+        "caption": "Mercado de Omdurmán."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Omdurman_Bridge.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Omdurman_Bridge.jpg",
+        "credit": "Hind Mekki ElMardi · CC BY-SA 4.0",
+        "caption": "Puente del Nilo Blanco entre Omdurmán y Jartum."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_The_Mahdi_(8626640228).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tomb_of_The_Mahdi_(8626640228).jpg",
     "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Traditional%20House%20in%20Wadi%20Halfa%2C%20Sudan.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Traditional%20House%20in%20Wadi%20Halfa%2C%20Sudan.jpg",
-    "icon": "referencia · conflicto",
-    "color": "gris",
-    "dog_note": ""
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 3,
+    "name": "Garganta de Sabaloka · la sexta catarata del Nilo",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 16.2768999,
+    "lon": 32.6051351,
+    "desc": "Unos 50–80 km al norte de Jartum el Nilo se estrecha y atraviesa el plutón de Sabaloka, un anillo de rocas ígneas que forma la SEXTA CATARATA, la última antes de Egipto contando desde el sur. No es una cascada sino rápidos entre paredes de granito y roca oscura que se ven bien solo desde el agua: los pescadores locales alquilan barcas de unos 45 minutos y hay chiringuitos de pescado frito. Se llega por pistas de tierra mal señalizadas que se convierten en barro con las lluvias. Era la excursión de fin de semana de los jartumíes.",
+    "dog_note": "Espacio abierto y aldeas de pescadores; con correa, y ojo con el agua (corrientes, no se recomienda el baño ni a personas).",
+    "visit": {
+      "why": "Es el único tramo del Nilo cerca de Jartum con paisaje de cañón y la última catarata natural que queda al alcance de un turismo de día.",
+      "see": "La garganta desde una barca, los rápidos, las aldeas de pescadores y los restos arqueológicos del Jebel Sabaloka (prehistoria y Meroe) estudiados por misiones checas.",
+      "access": "Pistas de tierra y grava desde la carretera Jartum–Shendi (orilla este) o desde la oeste; reseñas hablan de 2–4 horas y de un «laberinto» donde conviene guía local; intransitable en lluvias. Aparcamiento improvisado junto a los merenderos. El pin marca la sección de la catarata según Wikipedia; el embarcadero exacto está por confirmar. Zona bajo control FAS (estado de Jartum/Nilo), pero el MAEC desaconseja todo el país.",
+      "when": "Estación seca, noviembre–marzo, a primera hora para evitar el calor; los festivos locales llenan la orilla de picnics.",
+      "skip": "Descartar si ha llovido (pista de barro) o si no hay tiempo para la barca: sin ella la garganta apenas se ve."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Cataracts of the Nile",
+        "url": "https://en.wikipedia.org/wiki/Cataracts_of_the_Nile"
+      },
+      {
+        "label": "Tripadvisor · Al Sabalouga (Sabaloka Gorge)",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g293835-d1773080-Reviews-Al_Sabalouga_Sabaloka_Gorge-Khartoum_Khartoum_State.html"
+      },
+      {
+        "label": "ITC Sudan · el Nilo y sus cataratas",
+        "url": "https://www.italtoursudan.com/luogo/the-nile-river-and-its-cataracts/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alsabloga.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Alsabloga.jpg",
+        "credit": "Arwa51o · CC BY-SA 4.0",
+        "caption": "Barca en el Nilo en Sabaloka (sexta catarata)."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%B3%D8%A8%D9%84%D9%88%D9%82%D8%A9_%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B3%D8%A8%D9%84%D9%88%D9%82%D8%A9_%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86.jpg",
+        "credit": "Arwa25 · CC BY-SA 4.0",
+        "caption": "La garganta de Sabaloka."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alsabloga.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Alsabloga.jpg",
+    "credit": "Arwa51o · CC BY-SA 4.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 4,
+    "name": "Pirámides de Meroe (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 16.9346674,
+    "lon": 33.7513648,
+    "desc": "A unos 200 km al noreste de Jartum, junto a la aldea de Bagrawiya, se alzan las necrópolis reales de Meroe, capital del reino de Kush desde hacia 590 a. C. hasta 350 d. C.: MÁS DE 140 PIRÁMIDES de arenisca en tres cementerios, estrechas y empinadas (unos 72°), de 6 a 30 m. En 1834 el cazatesoros Giuseppe Ferlini decapitó unas cuarenta con explosivos. Patrimonio Mundial desde 2011 con Naqa y Musawwarat. Desde 2023 el sitio está «largely abandoned», con guardas pero sin misiones ni turistas, y la arena y la sal avanzan sobre las inscripciones.",
+    "dog_note": "Sitio arqueológico abierto en el desierto; con correa, lejos de los monumentos y de los camelleros; sin sombra ni agua.",
+    "visit": {
+      "why": "Es la imagen de Sudán: un campo de pirámides sin apenas visitantes, a pie de carretera, con las dunas comiéndose las tumbas.",
+      "see": "Cementerio norte (41 pirámides, el más fotogénico), cementerio sur, capillas funerarias con relieves, y al otro lado de la carretera la ciudad real de Meroe y el templo de Amón.",
+      "access": "Junto a la carretera asfaltada Jartum–Atbara; se aparca en el desierto junto a la taquilla, donde antes de la guerra se pagaba 10–30 USD según nacionalidad (Afro Heritage Atlas, 04-2026, datos preguerra) o unas 100–270 SDG regateando (Against the Compass). Estado del Nilo bajo control FAS, pero sin turismo desde 2023; el pin marca el cementerio norte.",
+      "when": "Amanecer o última hora de la tarde, noviembre–febrero; evitar junio–septiembre (más de 45 °C).",
+      "skip": "Descartar mientras dure la guerra; si algún día es viable, no ir al mediodía en verano."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Archaeological Sites of the Island of Meroe",
+        "url": "https://whc.unesco.org/en/list/1336/"
+      },
+      {
+        "label": "Wikipedia · Pyramids of Meroë",
+        "url": "https://en.wikipedia.org/wiki/Pyramids_of_Mero%C3%AB"
+      },
+      {
+        "label": "Afro Heritage Atlas · guía práctica pirámides nubias",
+        "url": "https://afroatlas.org/guides/nubian-pyramids-meroe-visitor-guide/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Meroe_Pyramids_-_33110830438.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Meroe_Pyramids_-_33110830438.jpg",
+        "credit": "Laurent de Walick · CC BY 2.0",
+        "caption": "Pirámides del cementerio norte de Meroe."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_Meroe_Pyramids_30sep2005_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sudan_Meroe_Pyramids_30sep2005_2.jpg",
+        "credit": "Fabrizio Demartis · CC BY-SA 2.0",
+        "caption": "Pirámides de Meroe con el desierto de fondo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Natakamani_pyramid.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Natakamani_pyramid.jpg",
+        "credit": "Lassi at Hungarian Wikipedia · CC BY-SA 3.0",
+        "caption": "Pirámide de Natakamani, Meroe."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Meroe_Pyramids_-_33110830438.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Meroe_Pyramids_-_33110830438.jpg",
+    "credit": "Laurent de Walick · CC BY 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 5,
+    "name": "Naqa y Musawwarat es-Sufra · templos del reino de Kush (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 16.2687842,
+    "lon": 33.2764221,
+    "desc": "A unos 50 km al este del Nilo, en pleno desierto de la 'isla de Meroe', están los dos grandes centros religiosos kushitas: Naqa, con el Templo del León de Apedemak (Natakamani y Amanitore pisando prisioneros), el Quiosco Romano de capiteles corintios y un templo de Amón de 100 m; y Musawwarat es-Sufra, 20 km al norte, con el Gran Recinto de 45.000 m² lleno de ELEFANTES ESCULPIDOS y un Templo del León (c. 230 a. C.) reconstruido por la Universidad Humboldt en 1960–70. Patrimonio Mundial 2011. El 14-01-2024 el ejército bombardeó ambos sitios tras una incursión de las RSF.",
+    "dog_note": "Desierto abierto y ruinas sin vallar; con correa y agua propia; hay ganado y camellos de los nómadas en los pozos.",
+    "visit": {
+      "why": "Son los templos mejor conservados de Kush y los únicos donde se ve a los reyes negros de Meroe representados a tamaño monumental, con un dios de tres cabezas.",
+      "see": "En Naqa el Templo del León y el Quiosco Romano; en Musawwarat el laberinto de patios, rampas y columnas del Gran Recinto y el Templo del León con sus relieves.",
+      "access": "Solo 4x4: pistas de arena desde la carretera Jartum–Shendi (Naqa ~170 km de Jartum) y desde Shendi (antes de la guerra, 4x4 con conductor ~400 SDG desde Shendi o 100–150 USD desde Jartum). Sin servicios; se aparca junto a las ruinas. El pin marca Naqa; Musawwarat está en 16.41583/33.32361. Bombardeos e incursiones documentados en 01-2024; hoy sin turismo.",
+      "when": "Noviembre–febrero, empezando al amanecer para enlazar los dos sitios y Meroe en un día largo.",
+      "skip": "Descartar sin 4x4 y sin GPS con la pista cargada; y por supuesto mientras siga la guerra."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Archaeological Sites of the Island of Meroe",
+        "url": "https://whc.unesco.org/en/list/1336/"
+      },
+      {
+        "label": "Wikipedia · Naqa",
+        "url": "https://en.wikipedia.org/wiki/Naqa"
+      },
+      {
+        "label": "Wikipedia · Musawwarat es-Sufra",
+        "url": "https://en.wikipedia.org/wiki/Musawwarat_es-Sufra"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Naqa_Apedamak_temple.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Naqa_Apedamak_temple.jpg",
+        "credit": "User:LassiHU · CC BY-SA 4.0",
+        "caption": "Quiosco romano y templo de Apedemak en Naqa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NaqaLionTempleApedemak3heads4arms.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:NaqaLionTempleApedemak3heads4arms.jpg",
+        "credit": "Clemens Schmillen · CC BY-SA 4.0",
+        "caption": "Apedemak de tres cabezas en el templo del León de Naqa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musawwarat_es-Sufra_2018_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Musawwarat_es-Sufra_2018_01.jpg",
+        "credit": "Vaido Otsar · CC BY-SA 4.0",
+        "caption": "Gran Recinto de Musawwarat es-Sufra."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Naqa_Apedamak_temple.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Naqa_Apedamak_temple.jpg",
+    "credit": "User:LassiHU · CC BY-SA 4.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 6,
+    "name": "Atbara · confluencia del Atbara y el Nilo",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 17.7121079,
+    "lon": 34.0006614,
+    "desc": "Atbara es la 'ciudad del ferrocarril': nació con la línea Wadi Halfa–Jartum y aquí se unen las vías que vienen del norte, de Port Sudán y de Karima. Está en la confluencia del río Atbara, el último afluente del Nilo, que llega cargado de limo etíope solo en verano. El 8 de abril de 1898 Kitchener venció aquí a los mahdistas antes de Omdurmán. Es también la ciudad de la cementera y la cabecera de la carretera que cruza el Bayuda hacia Karima. En 08-2026 sufrió ATAQUES DE DRONES de las RSF; en 2024 se incautó aquí un almacén de piezas robadas del Museo Nacional.",
+    "dog_note": "Ciudad de paso; paseo por la ribera con correa; nada que visitar bajo techo.",
+    "visit": {
+      "why": "Es el cruce logístico del norte: gasolina, talleres, mercado y el punto donde se decide entre seguir por el Nilo o cortar por el Bayuda.",
+      "see": "La confluencia de los dos ríos (agua oscura del Atbara en crecida frente al Nilo), la estación y los talleres ferroviarios, y el bullicio de una ciudad obrera.",
+      "access": "Carretera asfaltada desde Jartum (por Shendi y Meroe) y desde Port Sudán; aparcamiento en calle o en hotel. Zona FAS (estado del Nilo); el 12-08-2026 drones kamikaze RSF atacaron Atbara (Security Council Report). El pin marca el centro de la ciudad; el mirador de la confluencia está por confirmar.",
+      "when": "Final del verano (agosto–septiembre) es cuando el Atbara baja lleno; el resto del año puede ser un cauce casi seco.",
+      "skip": "Es parada de servicios, no de turismo: descartar si no hace falta repostar ni pernoctar."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Atbara",
+        "url": "https://en.wikipedia.org/wiki/Atbara"
+      },
+      {
+        "label": "Security Council Report · Sudan, septiembre 2026",
+        "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-09/sudan-41.php"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atbara_Nile_river.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Atbara_Nile_river.jpg",
+        "credit": "Hosam sudan · CC0",
+        "caption": "Confluencia del Atbara con el Nilo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%85%D8%AD%D8%B7%D8%A9_%D8%A7%D9%84%D8%B3%D9%83%D8%A9_%D8%AD%D8%AF%D9%8A%D8%AF_%D8%B9%D8%B7%D8%A8%D8%B1%D8%A9.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%AD%D8%B7%D8%A9_%D8%A7%D9%84%D8%B3%D9%83%D8%A9_%D8%AD%D8%AF%D9%8A%D8%AF_%D8%B9%D8%B7%D8%A8%D8%B1%D8%A9.jpg",
+        "credit": "Maram ali ahmed · CC BY-SA 4.0",
+        "caption": "Estación de ferrocarril de Atbara."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atbara,british_house.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Atbara,british_house.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Casas del barrio británico de Atbara."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atbara_Nile_river.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Atbara_Nile_river.jpg",
+    "credit": "Hosam sudan · CC0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
+  },
+  {
+    "n": 7,
+    "name": "Karima y Jebel Barkal · la montaña sagrada de Amón (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "1–2 noches",
+    "lat": 18.5351815,
+    "lon": 31.8305576,
+    "desc": "Jebel Barkal es una mesa de arenisca de 104 m que los egipcios de Tutmosis III (c. 1450 a. C.) tomaron por morada de Amón y a cuyo pie creció Napata, capital de los 'faraones negros' de la dinastía XXV. Al pie hay el templo de Amón, el templo de Mut excavado en la roca y un grupo de pirámides meroíticas; el pináculo de la montaña recuerda a una cobra real. Es el núcleo del sitio UNESCO «Gebel Barkal y los sitios de la región napatea» (2003), con Kurru, Nuri, Sanam y Zuma. Karima, a 400 km de Jartum, es la base: el Nubian Rest House está al pie del monte. Los locales siguen considerando sagrados los grandes templos.",
+    "dog_note": "Exterior abierto (subida a la mesa, pirámides); no entrar con él en los templos ni en la zona excavada del templo de Mut.",
+    "visit": {
+      "why": "Subir la mesa al atardecer y ver desde arriba las pirámides, el Nilo y el desierto es el mejor cuarto de hora de Sudán.",
+      "see": "Templo de Amón, templo de Mut en la roca, pirámides al pie, el pináculo, y el pequeño museo de Karima; la ciudad y el palmeral.",
+      "access": "Asfalto desde Jartum (~400 km) y desde Dongola y Atbara; se aparca en el arenal al pie de la mesa, junto a los templos. Horario y entrada por confirmar (preguerra). Estado del Norte bajo FAS pero con drones RSF sobre Merowe (aeropuerto y presa, 13-11-2025) y Al-Dabbah (15-07-2026). El pin marca la mesa; la taquilla está por confirmar.",
+      "when": "Última hora de la tarde para subir y ver el ocaso; noviembre–febrero.",
+      "skip": "Descartar mientras el MAEC desaconseje el viaje; con calor extremo, no subir a mediodía."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Gebel Barkal and the Sites of the Napatan Region",
+        "url": "https://whc.unesco.org/en/list/1073/"
+      },
+      {
+        "label": "Wikipedia · Jebel Barkal",
+        "url": "https://en.wikipedia.org/wiki/Jebel_Barkal"
+      },
+      {
+        "label": "Wikipedia · Karima",
+        "url": "https://en.wikipedia.org/wiki/Karima,_Sudan"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jebel_Barkal_%2B_Amun_Temple.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Jebel_Barkal_%2B_Amun_Temple.jpg",
+        "credit": "Maurice Chédel · Public domain",
+        "caption": "Templo de Amón al pie del Jebel Barkal, Karima."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gebel_Barkal.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gebel_Barkal.jpg",
+        "credit": "LassiHU · CC BY-SA 4.0",
+        "caption": "El Jebel Barkal, la montaña sagrada de Napata."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amun_Tempel_Barkal_SW.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Amun_Tempel_Barkal_SW.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Templo de Amón desde el suroeste."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jebel_Barkal_%2B_Amun_Temple.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Jebel_Barkal_%2B_Amun_Temple.jpg",
+    "credit": "Maurice Chédel · Public domain",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 8,
+    "name": "Pirámides de Nuri y necrópolis de El-Kurru",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 18.5636222,
+    "lon": 31.9162803,
+    "desc": "Los reyes de Napata se enterraron en dos necrópolis a ambos lados de Karima. En Nuri, en la orilla opuesta, la PIRÁMIDE DE TAHARQA (c. 670 a. C., 51,75 m de lado y 40–50 m de alto) es la mayor de Sudán y arranca una serie de más de 20 pirámides en pie, quizá 80 en su día, hasta Nastasen (c. 310 a. C.). En El-Kurru, 15 km al sur de Karima, están las tumbas de Piye, Shabaka y Tantamani (c. 860–650 a. C.): la de Tantamani y la de la reina Qalhata conservan pinturas murales y de techo. Ambas forman parte del sitio UNESCO de 2003.",
+    "dog_note": "Necrópolis al aire libre; con correa; las cámaras pintadas de El-Kurru son subterráneas y se visitan sin perro.",
+    "visit": {
+      "why": "Aquí yacen los faraones de la dinastía XXV que gobernaron Egipto; en El-Kurru se baja a tumbas pintadas que casi nadie ha visto.",
+      "see": "En Nuri el campo de pirámides erosionadas con la de Taharqa al frente; en El-Kurru la escalera a las cámaras pintadas de Tantamani y Qalhata y el bosque petrificado cercano (por confirmar).",
+      "access": "Nuri: a ~10 km del Jebel Barkal por la orilla opuesta (antes ferry desde Karima y pista sin asfaltar; hoy hay puente en Merowe, por confirmar); El-Kurru: ~15 km al sur de Karima, las cámaras pueden exigir guardián con llave. Sin instalaciones; se aparca en el arenal. El pin marca Nuri; El-Kurru está en 18.41/31.77139. Zona FAS con drones sobre Merowe (11-2025).",
+      "when": "Primera hora de la mañana, noviembre–febrero; las cámaras de El-Kurru se ven mejor con linterna propia.",
+      "skip": "Descartar si el guardián de El-Kurru no aparece y no hay tiempo: sin bajar a las tumbas queda poco que ver."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Nuri",
+        "url": "https://en.wikipedia.org/wiki/Nuri"
+      },
+      {
+        "label": "Wikipedia · El-Kurru",
+        "url": "https://en.wikipedia.org/wiki/El-Kurru"
+      },
+      {
+        "label": "UNESCO · Gebel Barkal and the Sites of the Napatan Region",
+        "url": "https://whc.unesco.org/en/list/1073/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuri_Pyramids.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nuri_Pyramids.jpg",
+        "credit": "Laurent de Walick · CC BY 2.0",
+        "caption": "Pirámides de Nuri."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Southern_view_of_the_Nuri_pyramids_in_1821_(top)_and_in_2020_(bottom).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Southern_view_of_the_Nuri_pyramids_in_1821_(top)_and_in_2020_(bottom).jpg",
+        "credit": "Frédéric Cailliaud (1826) / Bruce Allardice (2020) · CC BY-SA 2.0",
+        "caption": "Nuri en 1821 (Cailliaud) y en 2020."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Kurru,main_pyramid.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Al-Kurru,main_pyramid.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Pirámide K.1 de El-Kurru, al sur del Jebel Barkal."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuri_Pyramids.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nuri_Pyramids.jpg",
+    "credit": "Laurent de Walick · CC BY 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 9,
+    "name": "Antigua Dongola · capital cristiana de Makuria",
+    "cat": "Cultura",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 18.2247166,
+    "lon": 30.7456107,
+    "desc": "En la orilla este del Nilo, unos 80 km aguas arriba de la actual Dongola, están las ruinas de la capital del reino cristiano de Makuria (siglos VI–XIV). Destaca la Sala del Trono, un edificio defensivo del siglo IX de 28×18×12 m que en 1317 se convirtió en MEZQUITA y funcionó como tal hasta 1969; alrededor, la Iglesia de las Columnas de Granito (finales del s. VII), la iglesia cruciforme, el monasterio de Kom H con pinturas de los siglos XI–XIII y un cementerio islámico de qubbas del siglo XVII. Misiones polacas excavan desde 1964.",
+    "dog_note": "Ruinas al aire libre en el desierto; con correa y sin entrar en la Sala del Trono ni en el monasterio con pinturas.",
+    "visit": {
+      "why": "Es el testimonio más completo de la Nubia cristiana medieval y el lugar donde una iglesia-palacio se hizo mezquita sin dejar de ser el edificio más alto del Nilo.",
+      "see": "La Sala del Trono/mezquita, las columnas de granito de la iglesia, el monasterio con pinturas (si el guardián abre), las qubbas cónicas de barro y la vista sobre el Nilo.",
+      "access": "Junto a la carretera de la orilla este entre Dongola y Karima (asfalto; desvío corto por pista). Sin taquilla fija ni horario conocidos; guardián local. Se aparca junto a la Sala del Trono. Zona FAS (estado del Norte). El pin marca la ciudadela.",
+      "when": "Mañana temprano o atardecer, noviembre–febrero, cuando la luz rasante dibuja las qubbas.",
+      "skip": "Descartar si se va justo de tiempo entre Karima y Kerma: es una parada de una o dos horas, no un destino."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Old Dongola",
+        "url": "https://en.wikipedia.org/wiki/Old_Dongola"
+      },
+      {
+        "label": "Wikipedia · Dongola",
+        "url": "https://en.wikipedia.org/wiki/Dongola"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dobgola_Kingdom_of_Makuria,_Throne_hall_(33985988324).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Dobgola_Kingdom_of_Makuria,_Throne_hall_(33985988324).jpg",
+        "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+        "caption": "Salón del Trono de la antigua Dongola (reino de Makuria)."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dongola_(34665801522).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Dongola_(34665801522).jpg",
+        "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+        "caption": "Ruinas de la antigua Dongola."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dongola_graveyard_(34829443985).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Dongola_graveyard_(34829443985).jpg",
+        "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+        "caption": "Cementerio de qubbas de la antigua Dongola."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Dobgola_Kingdom_of_Makuria,_Throne_hall_(33985988324).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Dobgola_Kingdom_of_Makuria,_Throne_hall_(33985988324).jpg",
+    "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 10,
+    "name": "Kerma · las deffufas y el Museo de Kerma",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 19.600813,
+    "lon": 30.4104342,
+    "desc": "Kerma fue la primera gran ciudad del África negra: capital de un reino nubio entre c. 2500 y 1500 a. C. que rivalizó con Egipto. Su símbolo es la DEFFUFA OCCIDENTAL, un templo de adobe de 50×25 m y 18 m de altura, aún en pie; la Deffufa Oriental, 2 km al este, es una capilla funeraria entre unos 30.000 túmulos. El museo (19-01-2008), fruto de la misión suiza de Charles Bonnet, exhibe las siete estatuas de granito negro de los faraones de la dinastía XXV (Taharqa, Tanwetamani, Anlamani, Aspelta…) halladas rotas en Dukki Gel en 2003. Horario preguerra: 10–19 h, cerrado lunes; sitio 10 USD.",
+    "dog_note": "Yacimiento al aire libre (deffufas) con correa; el museo no admite perros.",
+    "visit": {
+      "why": "Ver de cerca las estatuas de los faraones negros y subir a un edificio de barro de 3.500 años es la parada más sorprendente del Nilo sudanés.",
+      "see": "Deffufa Occidental y ciudad antigua, museo con las estatuas y maquetas, Deffufa Oriental y la necrópolis, y a pocos km Tombos con su tercera catarata.",
+      "access": "Asfalto casi completo desde Jartum y desde Dongola (Kerma está a ~50 km al norte de Dongola); el museo, de arquitectura nubia, está junto a la deffufa con aparcamiento. Datos de kerma.ch (preguerra): 10–19 h, cerrado lunes y fiestas, donativo museo, 10 USD el yacimiento. Zona FAS. El pin marca el museo/deffufa.",
+      "when": "Mañana temprano, entre semana (cierra lunes); noviembre–febrero.",
+      "skip": "Descartar en lunes o si no se puede pernoctar en la zona: Kerma merece calma y hay aldeas nubias alrededor."
+    },
+    "links": [
+      {
+        "label": "Kerma.ch · Museo de Kerma (misión suizo-sudanesa)",
+        "url": "https://kerma.ch/en/museum/"
+      },
+      {
+        "label": "Wikipedia · Kerma",
+        "url": "https://en.wikipedia.org/wiki/Kerma"
+      },
+      {
+        "label": "Wikipedia · Kerma Museum",
+        "url": "https://en.wikipedia.org/wiki/Kerma_Museum"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Western_Deffufa_-_Kerma.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Western_Deffufa_-_Kerma.jpg",
+        "credit": "walter callens · CC BY 2.0",
+        "caption": "La Deffufa occidental de Kerma."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerma_Site_Museum_(8650054421).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kerma_Site_Museum_(8650054421).jpg",
+        "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+        "caption": "Museo del yacimiento de Kerma, junto a la Deffufa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerma_NNE.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kerma_NNE.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Yacimiento de Kerma junto a la Deffufa occidental."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Western_Deffufa_-_Kerma.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Western_Deffufa_-_Kerma.jpg",
+    "credit": "walter callens · CC BY 2.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 11,
+    "name": "Isla de Sai y templo de Soleb",
+    "cat": "Cultura",
+    "prio": "Media",
+    "dog": "por confirmar",
+    "time": "1 noche",
+    "lat": 20.4362991,
+    "lon": 30.3338858,
+    "desc": "Entre la segunda y la tercera catarata, en el país de los nubios mahas, están dos sitios que se visitan en barca. Soleb es el TEMPLO MÁS MERIDIONAL DE AMENOFIS III (s. XIV a. C.), en arenisca, dedicado a Amón-Ra y al propio faraón deificado con cuernos de carnero; de aquí salieron los leones de Prudhoe del British Museum, y allí siguen columnas con las listas de pueblos prisioneros. La isla de Sai (12 × 5,5 km), frente a Abri, superpone una ciudad egipcia del Reino Nuevo, iglesias de Makuria y un fuerte otomano del s. XVI construido con bloques inscritos. Sin turismo desde 2023.",
+    "dog_note": "Ambos se visitan en barca de pescadores desde la orilla este; que el barquero acepte al perro es negociable pero no está documentado.",
+    "visit": {
+      "why": "Es el Egipto faraónico más al sur y el más solitario: un templo de Amenofis III sin nadie, al que se llega en barca de pescador.",
+      "see": "En Soleb las columnas con jeroglíficos y los carneros esculpidos; en Sai el fuerte otomano sobre la ciudad egipcia, la iglesia de cuatro columnas y miles de fragmentos con jeroglíficos por el suelo.",
+      "access": "Soleb: desde Abri unos 50 km hasta Wawa (asfalto de la orilla este) y barca de pescador para cruzar; taquilla con entrada simbólica (~60 SDG preguerra). Sai: barca alquilada desde Abri o Amara (los ferris no siempre operan). Aparcamiento en la orilla, junto al embarcadero de Wawa. El pin marca el templo de Soleb (20°26′N 30°20′E); Sai está en 20.7083/30.325. Zona FAS (estado del Norte).",
+      "when": "Última hora de la tarde en Soleb (luz sobre las columnas), noviembre–febrero; con el Nilo bajo (marzo) se ven las terrazas de cultivo de Sai.",
+      "skip": "Descartar si no se está dispuesto a regatear la barca (hasta hora y media según un viajero) o si el viento de cara hace lento el regreso."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Soleb",
+        "url": "https://en.wikipedia.org/wiki/Soleb"
+      },
+      {
+        "label": "Wikipedia · Sai (island)",
+        "url": "https://en.wikipedia.org/wiki/Sai_(island)"
+      },
+      {
+        "label": "Travel Adventures · Soleb (relato de visita)",
+        "url": "https://www.traveladventures.org/continents/africa/soleb.html"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Soleb_Temple_(2)_(34385481131).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Soleb_Temple_(2)_(34385481131).jpg",
+        "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+        "caption": "Templo de Amenhotep III en Soleb."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Soleb1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Soleb1.jpg",
+        "credit": "Clemens Schmillen · CC BY-SA 4.0",
+        "caption": "Vista general del templo de Soleb."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ottoman_fort,_Sai_Island,_Sudan_(24846849815).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ottoman_fort,_Sai_Island,_Sudan_(24846849815).jpg",
+        "credit": "Valerian Guillot · CC BY 2.0",
+        "caption": "Fuerte otomano de la isla de Sai."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Soleb_Temple_(2)_(34385481131).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Soleb_Temple_(2)_(34385481131).jpg",
+    "credit": "Hans Birger Nilsen · CC BY-SA 2.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 12,
+    "name": "Wadi Halfa y la segunda catarata sumergida",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 21.8073752,
+    "lon": 31.3162741,
+    "desc": "Wadi Halfa es la puerta norte de Sudán, a orillas del lago Nubia (la cola sudanesa del lago Nasser) y a pocos km de Egipto. La ciudad antigua fue DESTRUIDA POR LA CRECIDA DE 1964 tras la presa de Asuán y unas 52.000 personas fueron reasentadas; bajo el agua quedaron la segunda catarata, 10 km al sur, y la fortaleza egipcia de Buhen, cuyo templo se salvó trasladándolo a Jartum. Es fin de línea del ferrocarril, embarcadero del ferry a Asuán y punto de trámite de los pasos terrestres de Argeen (abierto en 2014, 24 h, todo tipo de vehículos) y Qustul/Ashkeit. Desde 2023 los pasos viven una crisis humanitaria de refugiados.",
+    "dog_note": "Pueblo fronterizo y orilla del lago; con correa; los trámites de frontera y ferry son largos y el perro necesitará sombra en el coche.",
+    "visit": {
+      "why": "Solo por necesidad: es donde se entra o sale de Sudán por Egipto y donde se hacen aduana, registro y seguro.",
+      "see": "La orilla del lago con los cerros que fueron islas, el mercado, los restos de la Halfa vieja bajo el agua y, en la memoria, la segunda catarata y Buhen.",
+      "access": "Asfalto desde Dongola (394 km, gasolineras y cafeterías escasas). Paso de Argeen a 56 km, al oeste del lago; el ferry Abu Simbel–Wadi Halfa cruzaba por la mañana (no en viernes). En 2026 el paso sigue abierto pero con colas, cierres imprevisibles y casi sin infraestructura (FCDO, Border Crossing Hub); el MAEC dice que las fronteras terrestres están cerradas a extranjeros. El pin marca la ciudad; el embarcadero exacto está por confirmar.",
+      "when": "Llegar de mañana para no dormir en la frontera; noviembre–febrero.",
+      "skip": "Descartar por completo mientras el paso Egipto–Sudán esté cerrado a extranjeros o saturado por refugiados."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Wadi Halfa",
+        "url": "https://en.wikipedia.org/wiki/Wadi_Halfa"
+      },
+      {
+        "label": "Border Crossing Hub · Argeen/Arqin",
+        "url": "https://bordercrossinghub.com/argeen-arqin-border-crossing/"
+      },
+      {
+        "label": "FCDO · Sudan regional risks (frontera con Egipto)",
+        "url": "https://www.gov.uk/foreign-travel-advice/sudan/regional-risks"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubian_lake_Wadi_H.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Nubian_lake_Wadi_H.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "El lago Nubia en Wadi Halfa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aswan_to_Wadi_Halfa_Ferry_(8650087097).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Aswan_to_Wadi_Halfa_Ferry_(8650087097).jpg",
+        "credit": "David Stanley from Nanaimo, Canada · CC BY 2.0",
+        "caption": "El ferry Asuán–Wadi Halfa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/WadiHalfa,aq-lake.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:WadiHalfa,aq-lake.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Wadi Halfa desde la colina."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nubian_lake_Wadi_H.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nubian_lake_Wadi_H.jpg",
+    "credit": "Bertramz · CC BY 3.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
+  },
+  {
+    "n": 13,
+    "name": "Port Sudán · arrecifes de Sanganeb y bahía de Dungonab (UNESCO)",
+    "cat": "Costa",
+    "prio": "Alta",
+    "dog": "no recomendado",
+    "time": "1–2 noches",
+    "lat": 19.6019681,
+    "lon": 37.2075817,
+    "desc": "Port Sudán, fundada por los británicos entre 1905 y 1909 para sustituir a Suakin, es el único puerto del país y fue la SEDE DEL GOBIERNO DE 04-2023 A 01-2026. Frente a la costa está el mejor buceo del mar Rojo: el atolón de Sanganeb, 25 km mar adentro, único de su tipo en el mar Rojo, con faro británico de 50 m, tiburones martillo y barracudas; y 125 km al norte la bahía de Dungonab e isla Mukkawar, con dugongos y mantas. Ambos forman el sitio UNESCO de 2016. Cerca están el pecio del Umbria (1940) y el Conshelf II de Cousteau (1963) en Sha'ab Rumi. Desde 05-2025 la ciudad sufre ataques de drones.",
+    "dog_note": "Parque marino visitado en barco de buceo (varios días a bordo): el perro no puede ir; en la ciudad se queda en el hotel.",
+    "visit": {
+      "why": "Es el buceo con más tiburones y menos barcos del mar Rojo, y la única ventana de entrada aérea al país durante la guerra.",
+      "see": "Desde el faro de Sanganeb el arrecife entero; bajo el agua, martillos, grises y barracudas; el Umbria tumbado a 38 m con sus camiones; los mangles y dugongos de Dungonab.",
+      "access": "Los arrecifes se visitan en barcos-hotel de buceo que zarpan de Port Sudán (también desde Port Ghalib, Egipto); no hay acceso por tierra a Sanganeb, y Dungonab exige pista costera hacia el norte (~130 km). Aeropuerto internacional operativo pero con drones RSF el 4–5 de mayo de 2025 (base Osman Digna, depósitos de combustible). El pin marca el puerto; Sanganeb (~30 km NE) y Dungonab (21.0/37.183) sin pin propio.",
+      "when": "Octubre–julio para bucear; martillos febrero–julio, mantas agosto–noviembre; mejor visibilidad febrero–mayo.",
+      "skip": "Descartar si no se bucea: la ciudad en sí ofrece poco y el mar solo se ve desde un barco."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Sanganeb Marine NP and Dungonab Bay–Mukkawar Island MNP",
+        "url": "https://whc.unesco.org/en/list/262/"
+      },
+      {
+        "label": "Wikipedia · Port Sudan",
+        "url": "https://en.wikipedia.org/wiki/Port_Sudan"
+      },
+      {
+        "label": "Dive The World · dive sites Sudan",
+        "url": "https://www.dive-the-world.com/diving-sites-sudan.php"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/PortSudan_center_harbour.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:PortSudan_center_harbour.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Port Sudán, del centro hacia el puerto."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Portsudan_sea.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Portsudan_sea.jpg",
+        "credit": "Hello worldwide · CC BY-SA 4.0",
+        "caption": "La costa de Port Sudán (Wiki Loves Africa)."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudan_Port_Sudan_Harbor_USAID.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sudan_Port_Sudan_Harbor_USAID.jpg",
+        "credit": "USAID · Public domain",
+        "caption": "Puerto de Port Sudán."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/PortSudan_center_harbour.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:PortSudan_center_harbour.jpg",
+    "credit": "Bertramz · CC BY 3.0",
+    "icon": "costa",
+    "color": "turquesa"
+  },
+  {
+    "n": 14,
+    "name": "Suakin · la ciudad de coral en ruinas",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 19.1053213,
+    "lon": 37.3289687,
+    "desc": "Unos 50 km al sur de Port Sudán, Suakin fue durante siglos el puerto otomano del Sudán y la salida de los peregrinos hacia La Meca: una isla redonda unida a tierra por un dique, con casas y mezquitas de BLOQUES DE CORAL que, sin revoco, se han ido desmoronando hasta parecer una ciudad bombardeada. El jedive Ismail la recibió en 1865 y levantó casas, molinos y una iglesia copta; Port Sudán la arruinó desde 1909. Turquía obtuvo en 2018 un arriendo de 99 años y restauró 2017–2019 el palacio del gobernador, la aduana y las mezquitas Hanafi y Shafai; en 2026 se restaura una mezquita-mausoleo sufí con UNESCO y British Council.",
+    "dog_note": "Isla de ruinas al aire libre; con correa por los escombros de coral; no en las mezquitas restauradas.",
+    "visit": {
+      "why": "No hay otro lugar así en el mar Rojo: una ciudad entera de coral en ruinas, con el puerto de los ferris a Yeda al lado.",
+      "see": "La puerta del dique, las mezquitas Hanafi y Shafai restauradas, la aduana y el palacio del gobernador, las manzanas de ruinas y la laguna con el mercante varado.",
+      "access": "Asfalto Port Sudán–Suakin (~50 km); se aparca en la ciudad continental (El-Geyf) antes del dique y se entra a pie; horario y entrada por confirmar. Estado del Mar Rojo bajo FAS, con drones sobre Port Sudán (05-2025). Ferris diarios Suakin–Yeda (Tarco, ~200 pasajeros). El pin marca la isla.",
+      "when": "Última hora de la tarde, con luz rasante sobre el coral; noviembre–marzo (verano húmedo y muy caluroso).",
+      "skip": "Descartar si se pretende ver interiores: casi todo son muros vacíos y las obras de restauración cierran zonas."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Suakin",
+        "url": "https://en.wikipedia.org/wiki/Suakin"
+      },
+      {
+        "label": "Arab News · Suakin, sueños de reactivar el turismo (01-02-2026)",
+        "url": "https://www.arabnews.com/node/2631337/middle-east"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Sawakin_city.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Sawakin_city.jpg",
+        "credit": "Mazinco93 · CC BY-SA 4.0",
+        "caption": "Ciudad vieja de Suakin y su mezquita."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%AD%D9%86%D9%81%D9%8A.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%AD%D9%86%D9%81%D9%8A.jpg",
+        "credit": "Ahmed Bushra87 · Public domain",
+        "caption": "Mezquita hanafí de la isla de Suakin (época otomana)."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Suakin,Kitcheners_gate.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Suakin,Kitcheners_gate.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Puerta de Kitchener, en la parte continental de Suakin."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Sawakin_city.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Sawakin_city.jpg",
+    "credit": "Mazinco93 · CC BY-SA 4.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 15,
+    "name": "Kassala · montes Taka y jardines del Gash",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 15.4136485,
+    "lon": 36.427314,
+    "desc": "Kassala, a orillas del río Gash y a un paso de Eritrea, tiene de fondo los MONTES TAKA, unas cúpulas de granito lisas que parecen brotar de la llanura y que se escalan sin sendero en una hora desde los cafés de Totil. A sus pies, la mezquita Khatmiyya (1840), sede de la orden sufí del mismo nombre, con la tumba de Hassan al-Mirghani, y alrededor los huertos de frutales regados por el Gash. Es ciudad beja, beni amer y rashaida, con zoco de látigos y quesos de cabra. Bajo control del ejército; drones RSF atacaron el aeropuerto el 03-05-2025.",
+    "dog_note": "Subida por bloques de granito sin sendero, apta para un perro ágil con correa; no entrar en la mezquita Khatmiyya ni en los cafés de Totil.",
+    "visit": {
+      "why": "Por el paisaje de granito más extraño de Sudán y por el ambiente de frontera con Eritrea, que se ve desde la cumbre.",
+      "see": "Subida a Totil con vistas a Eritrea, mezquita Khatmiyya en ruinas parciales y aún en uso, huertos del Gash, zoco y cafés con jabana.",
+      "access": "Asfalto desde Jartum por Wad Madani y Gedaref (unos 600 km; 11 h en autobús). Puerta de los cafés de Totil en 15.428978/36.426288 y mezquita Khatmiyya en 15.431833/36.421828 (blog 2022); taxi ida y vuelta ~200 SDG en 2019. Aparcamiento en explanada junto a los cafés. Zona FAS; FCDO: frontera con Eritrea cerrada. El pin marca la ciudad.",
+      "when": "Amanecer o atardecer (más de 40 °C a mediodía), noviembre–febrero.",
+      "skip": "Descartar si el ejército restringe la zona fronteriza o si el calor impide la subida: sin ella Kassala es solo un zoco."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Kassala",
+        "url": "https://en.wikipedia.org/wiki/Kassala"
+      },
+      {
+        "label": "Quit and Go Travel · cómo subir los montes Taka",
+        "url": "https://www.quitandgotravel.com/2022/08/30/how-to-visit-kassala-and-hike-the-taka-mountains-2/"
+      },
+      {
+        "label": "Tripadvisor · Taka Mountains",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g1753709-d8766411-Reviews-Taka_Mountains-Kassala_Kassala_State.html"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kathmiyah_Mosque_and_Taka_Mountains_in_Kassala,_Sudan.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kathmiyah_Mosque_and_Taka_Mountains_in_Kassala,_Sudan.jpg",
+        "credit": "Fabian Lambeck · CC BY-SA 4.0",
+        "caption": "Mezquita Khatmiyya y los montes Taka, Kassala."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Taka_Mountains_from_Toteil_001.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Taka_Mountains_from_Toteil_001.jpg",
+        "credit": "Petr Adam Dohnálek · CC BY-SA 3.0 cz",
+        "caption": "Los montes Taka desde Toteil."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kassala_onion_Totil.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kassala_onion_Totil.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Domos graníticos de Taka y campos de cebolla."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kathmiyah_Mosque_and_Taka_Mountains_in_Kassala,_Sudan.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kathmiyah_Mosque_and_Taka_Mountains_in_Kassala,_Sudan.jpg",
+    "credit": "Fabian Lambeck · CC BY-SA 4.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 16,
+    "name": "Parque nacional de Dinder",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 12.8181591,
+    "lon": 35.3905046,
+    "desc": "A unos 400 km al sureste de Jartum, pegado a la frontera etíope y al parque de Alatash, Dinder es el parque más antiguo de Sudán (1935) y uno de los mayores: unos 10.000 km² de sabana, bosque de ribera y 'mayas', las lagunas de meandro donde se concentra la fauna en la seca. Es Reserva de la Biosfera (1979) y sitio Ramsar (2005). Quedan leones, leopardos, guepardos, tiang, antílopes ruanos, búfalos y más de 160 aves; elefante y rinoceronte se extinguieron. Se visita de noviembre a abril con carta de la Administración de Fauna en Jartum, permiso en el pueblo de Dinder (93 km) y GUARDA ARMADO obligatorio; base en el campamento de Galegu.",
+    "dog_note": "Parque con leones, leopardos, guepardos y búfalos, guarda obligatorio y cobras escupidoras en el campamento: el perro no entra.",
+    "visit": {
+      "why": "Es el único safari real de Sudán y una de las pocas sabanas del Sahel con leones aún viables.",
+      "see": "Las mayas con búfalos, tiang y aves acuáticas al amanecer, bosques de acacia y palma dum, huellas de león y, con suerte, el propio león.",
+      "access": "Jartum–Sennar por asfalto, luego pueblo de Dinder y 4 horas de pista (barro negro impracticable en lluvias) hasta la puerta; solo 4x4. Papeleo preguerra: carta de Wildlife Administration en Jartum (2+ días), permiso en Dinder, tasas por persona, vehículo, cámara, guarda y alojamiento en SDG; llegar antes de las 17 h. El pin marca el parque; la puerta exacta está por confirmar. Estado de Sennar bajo FAS, frontera etíope con drones (09-2026).",
+      "when": "Diciembre–marzo, temporada seca; salidas de 8 a 12 h y de 16:30 h al ocaso.",
+      "skip": "Descartar de mayo a octubre (cerrado o intransitable) y con perro a bordo: no entra."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Dinder National Park",
+        "url": "https://en.wikipedia.org/wiki/Dinder_National_Park"
+      },
+      {
+        "label": "Andariya · visita al parque de Dinder (2016)",
+        "url": "https://andariya.com/post/Visiting-the-Dindir-National-Park"
+      },
+      {
+        "label": "Wikipedia · Dinder (pueblo)",
+        "url": "https://en.wikipedia.org/wiki/Dinder,_Sudan"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg",
+        "credit": "محسن الفكي · CC BY-SA 3.0",
+        "caption": "Puente sobre el río Dinder."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ISS009-E-22999_-_View_of_Sudan.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ISS009-E-22999_-_View_of_Sudan.jpg",
+        "credit": "NASA (ISS Expedition 9) · Public domain",
+        "caption": "El sureste de Sudán desde la ISS (imagen de contexto, no del parque)."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%AF%D9%86%D8%AF%D8%B1.jpg",
+    "credit": "محسن الفكي · CC BY-SA 3.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 17,
+    "name": "Desierto de Bayuda · la pista Karima–Atbara",
+    "cat": "Naturaleza",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 18.441782,
+    "lon": 31.931542,
+    "desc": "El Bayuda es el desierto de unos 100.000 km² que llena el gran meandro del Nilo entre Omdurmán, Korti y Atbara. El Wadi Abu Dom, de 150 km, lo parte en dos: al este el CAMPO VOLCÁNICO DE BAYUDA, con conos y cráteres negros; al oeste llanuras de arena ocre. Por él pasaron durante siglos las caravanas de los bisharin y en 1885 la expedición de socorro a Gordon, cuyos fuertes y tumbas siguen ahí; en el wadi está el monasterio cristiano de Ghazali (s. VII–XIII). Hoy una carretera asfaltada de 262 km une Merowe/Karima con Atbara en medio día, con cafeterías, un puesto de policía con agua y una gasolinera en el cruce.",
+    "dog_note": "Desierto abierto, ideal para acampada libre con el perro; calor extremo y tormentas de arena; agua propia para él.",
+    "visit": {
+      "why": "Es el atajo lógico entre las dos zonas de pirámides y el mejor lugar de Sudán para acampar en silencio bajo un cielo sin luces.",
+      "see": "Acacias, dunas, mesetas negras y cráteres del campo volcánico, pozos con camellos de los bisharin, el monasterio de Ghazali y los restos de 1885.",
+      "access": "Asfalto Karima–Atbara (262 km); el interior (volcanes, Wadi Abu Dom, Ghazali) es pista de arena solo para 4x4 con GPS, agua y dos coches. Antes de la guerra los overlanders lo cruzaban sin permiso; hoy es zona FAS entre Merowe y Atbara, ambas atacadas por drones (11-2025 y 08-2026). El pin marca el centro del desierto según Wikipedia (18 N 33 E), no un punto navegable.",
+      "when": "Noviembre–febrero; nunca en verano (34–46 °C y tormentas de arena) ni de noche sin haber montado el campamento con luz.",
+      "skip": "Descartar el interior con un solo vehículo o sin GPS; la carretera se hace en cualquier caso."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Bayuda Desert",
+        "url": "https://en.wikipedia.org/wiki/Bayuda_Desert"
+      },
+      {
+        "label": "Wikipedia · Monastery in Ghazali",
+        "url": "https://en.wikipedia.org/wiki/Monastery_in_Ghazali"
+      },
+      {
+        "label": "Nomades x Nomades · cruces del Bayuda y del desierto nubio",
+        "url": "https://nomadesxnomades.com/practical-information-for-sudans-nubian-and-bayuda-deserts-road-crossings"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BayudaDesert.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:BayudaDesert.jpg",
+        "credit": "Clemens Schmillen · CC BY-SA 4.0",
+        "caption": "Desierto de Bayuda."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BayudaDesertWell.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:BayudaDesertWell.jpg",
+        "credit": "Clemens Schmillen · CC BY-SA 4.0",
+        "caption": "Pozo en el desierto de Bayuda."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayuda_Vulkanfeld.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bayuda_Vulkanfeld.jpg",
+        "credit": "NASA (Space Shuttle) · Public domain",
+        "caption": "Campo volcánico de Bayuda desde el transbordador espacial (NASA)."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BayudaDesert.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:BayudaDesert.jpg",
+    "credit": "Clemens Schmillen · CC BY-SA 4.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 18,
+    "name": "Wad Madani y el Gezira · el algodón y el Nilo Azul",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 14.393082,
+    "lon": 33.5392081,
+    "desc": "Wad Madani, a unos 140–190 km al sureste de Jartum en la orilla oeste del Nilo Azul, es la capital del Gezira, la 'isla' entre los dos Nilos que el Gezira Scheme convirtió desde 1925, con la presa de Sennar, en UNA DE LAS MAYORES ZONAS DE REGADÍO DEL MUNDO: unos 8.800 km² y 4.300 km de canales dedicados sobre todo al algodón de fibra larga. Es ciudad de mercado y de paso hacia Sennar, Dinder, Gedaref y Kassala. Las RSF la tomaron el 18-12-2023 y el ejército la recuperó el 11-01-2025; la región sigue entre las de mayor necesidad humanitaria según OCHA.",
+    "dog_note": "Ciudad y paseo de ribera; con correa; nada bajo techo que visitar.",
+    "visit": {
+      "why": "Es la puerta del Sudán agrícola y del sur del país, y la mejor parada de servicios entre Jartum y Kassala o Dinder.",
+      "see": "La ribera del Nilo Azul, los canales y algodonales del Gezira desde la carretera, el mercado y, en Sennar, la presa de 1925.",
+      "access": "Autovía asfaltada desde Jartum; aparcamiento en calle o en hotel. Zona FAS desde 01-2025 tras un año de ocupación RSF, con daños y desplazados; OCHA cuenta a Aj Jazirah entre los estados con mayor necesidad. El pin marca la ciudad.",
+      "when": "Noviembre–febrero; la cosecha de algodón va de diciembre a marzo (por confirmar).",
+      "skip": "Solo parada de servicios: descartar si no hay que repostar ni dormir."
+    },
+    "links": [
+      {
+        "label": "Wikipedia · Wad Madani",
+        "url": "https://en.wikipedia.org/wiki/Wad_Madani"
+      },
+      {
+        "label": "Wikipedia · Gezira Scheme",
+        "url": "https://en.wikipedia.org/wiki/Gezira_Scheme"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wad_Medani_Blue_Nile.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wad_Medani_Blue_Nile.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Barcas turísticas en el Nilo Azul, Wad Madani."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B4%D8%A7%D8%B1%D8%B9_%D8%A7%D9%84%D9%86%D9%8A%D9%84_%22%D9%88%D8%AF_%D9%85%D8%AF%D9%86%D9%8A%22_%D9%84%D9%8A%D9%84%D8%A7.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:%D8%B4%D8%A7%D8%B1%D8%B9_%D8%A7%D9%84%D9%86%D9%8A%D9%84_%22%D9%88%D8%AF_%D9%85%D8%AF%D9%86%D9%8A%22_%D9%84%D9%8A%D9%84%D8%A7.jpg",
+        "credit": "Obada992 · CC BY-SA 4.0",
+        "caption": "La avenida del Nilo de Wad Madani de noche."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wad_Medani_cotton_market.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wad_Medani_cotton_market.jpg",
+        "credit": "Bertramz · CC BY 3.0",
+        "caption": "Algodón en el mercado de Wad Madani."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wad_Medani_Blue_Nile.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Wad_Medani_Blue_Nile.jpg",
+    "credit": "Bertramz · CC BY 3.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
   }
 ]

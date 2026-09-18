@@ -2710,25 +2710,81 @@
     <Point><coordinates>38.7469,9.025,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Metema/Gallabat (con Etiopía) — NO USAR</name>
-    <description><![CDATA[<b>Frontera</b><br/>Sin fiabilidad operativa mientras dure el conflicto; no forma parte de ninguna variante de la ruta del proyecto.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.9667,36.2">Google Maps</a>]]></description>
+    <name>Aeropuerto de Port Sudán (PZU)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Principal puerta de entrada desde 2023; EgyptAir, Ethiopian, Turkish, Qatar; atacado por drones el 6-05-2025. Pin comprobado en Google Maps («Port Sudan International Airport»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.4344,37.23839">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>36.2,12.9667,0</coordinates></Point>
+    <Point><coordinates>37.23839,19.4344,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Qustul/Wadi Halfa (con Egipto) — NO USAR</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce histórico hacia Egipto por el lago Nasser; descartado como opción de tránsito mientras persista la guerra civil.<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.9333,31.3333">Google Maps</a>]]></description>
+    <name>Aeropuerto Internacional de Jartum (KRT)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Cerrado abril 2023–marzo 2025; internacionales desde 28-04-2026; ataque con dron 4-05-2026. Pin comprobado en Google Maps («Aeropuerto Internacional de Jartum»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.59257,32.54974">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.3333,21.9333,0</coordinates></Point>
+    <Point><coordinates>32.54974,15.59257,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en Jartum (sin actividad operativa recomendada)</name>
-    <description><![CDATA[<b>Consular</b><br/>La representación diplomática española en Sudán queda fuera de cualquier plan de contingencia de este proyecto mientras dure el conflicto; en caso de necesidad, contactar con el Ministerio de Asuntos Exteriores en España (+34 91 379 17 00, línea de emergencia consular).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.59,32.53">Google Maps</a>]]></description>
+    <name>Paso de Argeen / Arqin (Egipto)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Corredor de refugiados 24 h con esperas de 12–48 h; cerrado a extranjeros según MAEC (2025). Pin comprobado en Google Maps («Argeen Border Crossing station - North Sudan side»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.99639,31.15145">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.15145,21.99639,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Wadi Halfa (paso Ashkeet / ferry lago Nasser)</name>
+    <description><![CDATA[<b>Frontera</b><br/>21°47′N 31°22′E. Ciudad de entrada histórica; convoy humanitario egipcio por Ashkit el 2-01-2026; registro de extranjería se hacía aquí. Pin comprobado en Google Maps («Wadi Halfa»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.79914,31.37132">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.37132,21.79914,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso de Gallabat–Metema (Etiopía)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Reabierto 21-10-2024 tras la toma de Metema por Fano; solo comercio y refugiados. Pin comprobado en Google Maps («Gallabat»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.96135,36.14843">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.14843,12.96135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Jartum — sede provisional en El Cairo</name>
+    <description><![CDATA[<b>Consular</b><br/>41 Ismail Mohamed St., Zamalek, El Cairo (GPS 30°3′43″N 31°13′20″E, web MAEC). Tel. Embajada El Cairo +20 2 2735 5813; emergencia consular El Cairo +20 122 318 3783; correo Sudán emb.jartum@maec.es / visa.sudan@maec.es. Pin comprobado en Google Maps («Embajada de España en El Cairo (41 Ismail Mohammed, Zamalek)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.06238,31.22256">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>32.53,15.59,0</coordinates></Point>
+    <Point><coordinates>31.22256,30.06238,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Jartum (sede cerrada)</name>
+    <description><![CDATA[<b>Consular</b><br/>Ctra. Feria Internacional (Sharia' Al-Maraad), Edif. 1, Bloque 7/A, Burri El Daraisa, Jartum. Tel. +249 183 76 36 39; emergencia +249 912 36 33 77. CERRADA al público desde abril 2023. Pin comprobado en Google Maps («Embassy of Spain (Jartum, Burri)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.60636,32.57041">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.57041,15.60636,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Royal Care International Hospital (Jartum)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Citado por MAEC (+249 156 550 150); «probablemente no operativo». Pin comprobado en Google Maps («Royal Care International Hospital»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.59951,32.57102">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.57102,15.59951,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bashair Teaching Hospital (Jartum sur, apoyo MSF)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital apoyado por MSF durante la guerra (msf.org). Pin comprobado en Google Maps («Bashair University Hospital»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.4892,32.55243">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.55243,15.4892,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible — eje Kosti/Rabak (Nilo Blanco)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Gasolina a 38.805 SDG/galón el 13-09-2026, colas de hasta 12 h (Dabanga). Pin comprobado en Google Maps («Kosti (ciudad; sin gasolinera concreta como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.1332,32.64108">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>32.64108,13.1332,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua — Wadi Halfa (Nilo/lago Nubia)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Única fuente de agua del norte; clima hiperárido (0,5 mm/año). Filtrar siempre; cólera activo en el país. Pin comprobado en Google Maps («Wadi Halfa»).<br/><a href="https://theawakeman.github.io/africa2027/paises/sudan/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.79914,31.37132">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.37132,21.79914,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Puerto · Entrada — Alejandría (RoRo/contenedor desde Yibuti vía Arabia Saudí)</name>
@@ -3543,25 +3599,60 @@
     <Point><coordinates>43.1456,11.5721,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Aeropuerto Internacional Ivato (Antananarivo)</name>
-    <description><![CDATA[<b>Consular</b><br/>Único aeropuerto internacional relevante para esta escapada; vuelos domésticos de Air Madagascar/Tsaradia hacia Morondava, Nosy Be y otros puntos.<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.7969,47.4788">Google Maps</a>]]></description>
+    <name>Aeropuerto Internacional de Ivato (TNR)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único punto de entrada previsto; visado a la llegada (efectivo o tarjeta); control sanitario; oficinas de Yas/Orange/Airtel para SIM. Pin comprobado en Google Maps («Aeropuerto Internacional Ivato»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.79946,47.4754">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.4754,-18.79946,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto de Toamasina (Tamatave)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Principal puerto de carga internacional; sin ferry de pasajeros con vehículo. Pin comprobado en Google Maps («Puerto de Toamasina»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.1567,49.425">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>49.425,-18.1567,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Pretoria (competente para Madagascar)</name>
+    <description><![CDATA[<b>Consular</b><br/>Lord Charles Complex, 337 Brooklyn Road, Brooklyn, Pretoria 0181. Tel +27 12 460 0123; emergencia consular +27 76 114 6151 (web embajada) / 6152 (MAEC); emb.pretoria.nac@maec.es. Pin comprobado en Google Maps («Embassy of Spain»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-25.77025,28.25078">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>47.4788,-18.7969,0</coordinates></Point>
+    <Point><coordinates>28.25078,-25.77025,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Hôpital Joseph Ravoahangy Andrianavalona (HJRA), Antananarivo</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país, en la capital; fuera de Antananarivo la atención médica es muy limitada — seguro de evacuación fuertemente recomendado.<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.91,47.525">Google Maps</a>]]></description>
+    <name>Consulado Honorario de España en Antananarivo</name>
+    <description><![CDATA[<b>Consular</b><br/>Hasnaine Yavar, BP 1330 Ankadimbahoaka, Antananarivo 101. Tel +261 34 02 06 363 / +261 20 22 222 31; 24 h +261 32 11 060 74; ch.espagne@consulat.mg. Pin comprobado en Google Maps («Consulat D'Espagne»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.94738,47.52411">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.52411,-18.94738,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital Joseph Ravoahangy Andrianavalona (HJRA)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital público de referencia en Antananarivo (Ampefiloha). Tel +261 33 11 890 58 (MAEC). Pin comprobado en Google Maps («Joseph Ravoahangy Andrianavalona Hospital»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.91935,47.519">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>47.525,-18.91,0</coordinates></Point>
+    <Point><coordinates>47.519,-18.91935,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Centre ValBio, cerca de Ranomafana</name>
-    <description><![CDATA[<b>Servicio</b><br/>Centro de investigación con presencia médica básica ligada al parque; no sustituye una evacuación a Antananarivo en caso serio.<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-21.255,47.42">Google Maps</a>]]></description>
-    <styleUrl>#icon-servicio</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>47.42,-21.255,0</coordinates></Point>
+    <name>Policlinique d'Ilafy</name>
+    <description><![CDATA[<b>Hospital</b><br/>Clínica privada citada por el MAEC. Tel +261 20 22 425 66. Pin comprobado en Google Maps («Polyclinique d'Ilafy»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.85502,47.54995">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.54995,-18.85502,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gasolineras de Antananarivo (ejes RN7/RN4/RN2)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Diésel ~4.670 MGA/l (ene-2026). Repostar al salir de cada pueblo; huecos críticos en el oeste. Pin comprobado en Google Maps («Jovena Madagascar (Andraharo)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.87889,47.5091">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.5091,-18.87889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua embotellada (supermercados de Antananarivo)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Grifo no potable; comprar garrafas en supermercado antes de salir de la capital. Pin comprobado en Google Maps («Super U Analakely»).<br/><a href="https://theawakeman.github.io/africa2027/paises/madagascar/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=-18.90541,47.5243">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>47.5243,-18.90541,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Puerto de La Goulette (Túnez) — terminal de pasajeros de los ferries de Italia y Francia</name>
@@ -3625,5 +3716,159 @@
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>9.02547,33.45323,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional Modibo Keita – Bamako-Sénou (BKO)</name>
+    <description><![CDATA[<b>Frontera</b><br/>15 km al sur de Bamako. Air France, Corsair, RAM, Turkish, Tunisair, Ethiopian. Atacado por el JNIM el 17-09-2024 y el 25-04-2026. Pin comprobado en Google Maps («Aeropuerto Internacional de Bamako-Sénou»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.54139,-7.94621">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-7.94621,12.54139,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso Diboli (ML) – Kidira (SN)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto sobre el río Falémé, N1 Kayes–Bamako. Corredor del combustible bloqueado por el JNIM desde 09-2025. NO USAR. Pin comprobado en Google Maps («Diboli»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.45716,-12.19995">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.19995,14.45716,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso Kourémalé (ML/GN)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Frontera Guinea–Mali en la carretera Siguiri–Bamako; la única que el MAEC no marca de riesgo muy elevado. Controles móviles del JNIM en Naréna (04-2026). NO USAR. Pin comprobado en Google Maps («Kouremale»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.95274,-8.78254">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.78254,11.95274,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso Gogui (ML) – Mauritania</name>
+    <description><![CDATA[<b>Frontera</b><br/>Región de Kayes, carretera Nioro du Sahel–Ayoun el Atrous. Zona fronteriza desaconsejada por el MAEC. NO USAR. Pin comprobado en Google Maps («Gogui»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.68609,-9.32997">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.32997,15.68609,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso Zégoua (ML) – Pogo (CI)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Región de Sikasso, corredor Abiyán–Bamako. Emboscadas a cisternas en 2025. NO USAR. Pin comprobado en Google Maps («Zégoua»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.48517,-5.65105">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-5.65105,10.48517,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso Hérémakono (ML) – Koloko (BF)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Carretera Sikasso–Bobo-Dioulasso; frontera de riesgo muy elevado. NO USAR. Pin comprobado en Google Maps («Koloko (Burkina Faso)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.08103,-5.31236">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-5.31236,11.08103,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso Labbezanga (ML) – Níger</name>
+    <description><![CDATA[<b>Frontera</b><br/>Región de Gao, río Níger. Zona de guerra. Cerrado a efectos prácticos. Pin comprobado en Google Maps («Labbezanga»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.96848,0.70222">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.70222,14.96848,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Bamako</name>
+    <description><![CDATA[<b>Consular</b><br/>ACI 2000, en face de l'École de Maintien de la Paix, BP E-3230, Bamako. Tel. +223 44 98 24 30 (Ficha País y web; las Recomendaciones citan +223 20 70 73 50). Emergencia consular 24 h +223 73 31 23 24. emb.bamako@maec.es. Pin comprobado en Google Maps («Embajada de España (Bamako)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.62789,-8.01987">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.01987,12.62789,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Clinique Pasteur (privada)</name>
+    <description><![CDATA[<b>Hospital</b><br/>ACI 2000 Hamdallaye, Avenue du Mali. Tel. +223 20 29 10 10; secretariat@cliniquepasteurmali.com. Hospital privado pluridisciplinar, más de 20 años. Pin comprobado en Google Maps («Clinique Pasteur»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.63286,-8.02037">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.02037,12.63286,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>CHU du Point G (público)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital universitario público de referencia, colina del Point G. Medios limitados; pago en efectivo. Pin comprobado en Google Maps («Centre Hospitalier Universitaire du Point G»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.6727,-7.99668">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-7.99668,12.6727,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible en Bamako (estaciones con racionamiento)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Precio oficial 12-2025: diésel 725 XOF/l, gasolina 775 XOF/l; mercado negro ~2.000 XOF/l (03-2026). Racionamiento nacional desde 22-01-2026; colas largas. Pin comprobado en Google Maps («Station TOTAL, RN6 Bamako»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.59719,-7.93769">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-7.93769,12.59719,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua: The Sleeping Camel (campamento overlander, estado 2026 por confirmar)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Hotel-camping histórico de overlanders en Bamako, con duchas y agua (relatos 2016-17). No verificado en 2026; coordenadas = centro de Bamako. Pin comprobado en Google Maps («The Sleeping Camel»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.6226,-7.98627">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-7.98627,12.6226,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo Mpack–São Domingos (Djegue)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Principal paso con Senegal (Casamance). Cierra 12:30–13:30 y desde 18:00 (MAEC). Visado NO fiable aquí. Pin comprobado en Google Maps («São Domingos (el puesto de Djegue no figura como objeto; Mpak en el lado senegalés)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.4101,-16.19632">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.19632,12.4101,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Pirada (Senegal, Kolda)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto con visado a la llegada según Wikipedia; estado 2025-26 por confirmar. Pin comprobado en Google Maps («Pirada»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.66153,-14.14951">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.14951,12.66153,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo Buruntuma–Kandika (Guinea)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Pista muy mala a ambos lados; salida fácil sin tasas (2019). Pin comprobado en Google Maps («Buruntuma»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.45362,-13.69749">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.69749,12.45362,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional Osvaldo Vieira (OXB)</name>
+    <description><![CDATA[<b>Frontera</b><br/>TAP Lisboa, Royal Air Maroc, Air Senegal, Air Côte d'Ivoire, ASKY. Visado a la llegada teórico. Pin comprobado en Google Maps («Aeropuerto Internacional Osvaldo Vieira»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.88887,-15.65115">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.65115,11.88887,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto Pidjiguiti / Porto Cais – ferry Consulmar a Bijagós</name>
+    <description><![CDATA[<b>Frontera</b><br/>Embarque del ferry a Bubaque/Enxudé; oficina Consulmar en Av. 3 de Agosto 40, tel. +245 969 02 55 55. Pin comprobado en Google Maps («Porto de Bissau»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.85982,-15.57674">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.57674,11.85982,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Bissau</name>
+    <description><![CDATA[<b>Consular</b><br/>Praça dos Heróis Nacionais s/n. Tel. +245 966 72 22 46 (embajada), +245 966 87 51 52 (consular), EMERGENCIA +245 966 001 010. bissau-em@maec.es. L–V 9:00–14:00. Pin comprobado en Google Maps («Presidential Palace, Bissau (Praça dos Heróis Nacionais; la embajada no figura como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.86387,-15.58491">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.58491,11.86387,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hospital Nacional Simão Mendes</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital nacional de referencia (&gt;500 camas en 2018); medios muy limitados; para lo grave, evacuación a Dakar. Pin comprobado en Google Maps («Hospital Nacional Simão Mendes»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.86407,-15.58005">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.58005,11.86407,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hospital de Cumura</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital misionero citado por el MAEC como referencia; coordenadas aproximadas (Cumura, sector de Prábis): verificar. Pin comprobado en Google Maps («Hospital de Cumura»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.85136,-15.63714">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.63714,11.85136,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gasolineras de Bissau (eje Av. 14 de Novembro / Bissalanca)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Diésel ~700 XOF/l (mar-2026). Llenar en Bissau antes de salir a pista; también en Bafatá y Gabú. Punto orientativo, verificar en Maps. Pin comprobado en Google Maps («Petromar (Avenida Amílcar Cabral)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.85824,-15.58025">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.58025,11.85824,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua: hoteles y lodges de Bissau</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Agua corriente no potable; llenar depósitos de ducha en hotel y beber embotellada/filtrada. Punto orientativo, sin fuente concreta. Pin comprobado en Google Maps («Hotel CEIBA (Avenida Francisco Mendes)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea-bisau/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.85926,-15.59046">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.59046,11.85926,0</coordinates></Point>
   </Placemark>
 </Document></kml>

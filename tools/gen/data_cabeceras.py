@@ -56,10 +56,12 @@ RUTAS = {
     "lesoto": ("Opcional: entrada desde Sudáfrica", "Regreso a Sudáfrica"),
     "madagascar": ("Solo en avión", "No aplica"),
     "etiopia": ("Fuera de la ruta prevista", "No aplica"),
-    "sudan": ("Excluido por conflicto", "No aplica"),
+    "sudan": ("Excluido · conflicto activo", "No aplica"),
     "egipto": ("Fuera de la ruta prevista", "No aplica"),
     "yibuti": ("Fuera de la ruta prevista", "No aplica"),
     "tunez": ("Fuera de ruta · ferry desde Italia/Francia", "No aplica"),
+    "mali": ("Excluido · conflicto activo", "No aplica"),
+    "guinea-bisau": ("Excluido · junta militar", "No aplica"),
 }
 
 
@@ -83,6 +85,9 @@ ACTIVIDADES = {
     "lesoto": ("Sani Pass", "Sani Top y montaña"),
     "madagascar": ("Sin los vehículos", "Rutas locales por auditar"),
     "tunez": ("Erg de Douz · Ksar Ghilane · sur con guía", "Cañón de Midès · cabo Angela · Ichkeul"),
+    "mali": ("Solo en avión: nadie cruza Mali con vehículo propio", "Bamako y Siby con guía, si algún día se levanta el veto"),
+    "guinea-bisau": ("Asfalto roto · pistas · lluvias jun–oct intransitables", "Bissau de día sí · Bijagós solo sin coche"),
+    "sudan": ("Sin cruces de overlanders desde 2023 · CPD aceptado", "No: riesgo de detención y secuestro en todo el país"),
 }
 
 
@@ -104,6 +109,10 @@ SEGUROS = {
     "gabon": "Carte Rose CEMAC",
     "congo": "Carte Rose CEMAC · confirmar",
     "tunez": "Carta Verde española válida (TN) · solo terceros",
+    "madagascar": "Sin Carta Verde · seguro incluido en alquiler con chófer",
+    "mali": "Carta Verde no válida · Carte Brune por confirmar",
+    "guinea-bisau": "Carte Brune CEDEAO obligatoria · Carta Verde no vale",
+    "sudan": "Carta Verde no válida · seguro viaje no cubre",
 }
 
 
@@ -133,10 +142,13 @@ PELIGROS = {
     "zimbabue": "Controles y efectivo",
     "uganda": "Tsetsé en Bwindi/QENP",
     "ruanda": "Bolsas de plástico prohibidas",
-    "sudan": "Guerra civil activa",
+    "sudan": "Guerra civil · drones · secuestro",
     "etiopia": "Tigray, Amhara y Oromía",
     "egipto": "Sinaí norte excluido",
     "tunez": "Fronteras con Argelia y Libia vetadas",
+    "madagascar": "Dahalo · asaltos · noche",
+    "mali": "Terrorismo, secuestro, minas",
+    "guinea-bisau": "Golpe 2025 · minas · carreteras",
 }
 
 

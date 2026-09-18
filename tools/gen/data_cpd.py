@@ -176,7 +176,8 @@ CPD = {
                "Peaje por peso (~R30 en 2026). Seguro y permiso sin fuente reciente."),
     "esuatini": ("no", "PROBABLE", "TIP en frontera + road tax", "~3-6 €", "Road tax de R50 a la entrada (AA 2020; Drive SA 2026)."),
     "gabon": ("no", "PROBABLE", "TIP (se tramita en Bitam, no en la frontera)", "Gratis (2023)", "Una sola fuente de campo (2023)."),
-    "madagascar": ("no", "CONFIRMADO", "No aplica", "—", "No se lleva el vehículo: el tramo es en avión."),
+    "madagascar": ("no", "SIN CONFIRMAR", "No aplica: 4x4 de alquiler con conductor; los propios se quedan en el continente", "0 €",
+              "carnetdepassage.org (AIT/FIA) confirma que no hay club emisor en Madagascar y no dice si la aduana acepta el CPD. Como no existe ferry de pasajeros con vehículo (Rough Guides) y a Toamasina solo llega carga, el vehículo propio no entra en el plan. Si algún día se embarcara, la admisión temporal se gestionaría con un transitario de Toamasina; ningún relato overland 2019–2026 abierto en esta sesión describe ese trámite."),
     # ------------------------------------------------- fuera de la ruta, de referencia
     "egipto": ("obligatorio", "CONFIRMADO", "No hay alternativa fiable", "Depósito de hasta el 200 % del valor del vehículo + matrícula temporal",
                "FUERA DE LA RUTA. Es el caso claro de África: carnet FIA o carnet local obligatorio "
@@ -188,6 +189,12 @@ CPD = {
               "de La Goulette anota el vehículo en el pasaporte del conductor y desde junio de 2025 exige "
               "registro previo en douane.gov.tn con código QR. Confirmación oficial pendiente (la web de la "
               "aduana no se pudo abrir); el Touring Club de Tunisie es el emisor local del carnet."),
+    "mali": ("no", "PROBABLE", "Pase de aduana temporal (laissez-passer/passavant) en frontera; permiso internacional de conducir obligatorio", "Por confirmar (sin relatos con vehículo desde 2017)",
+              "carnetdepassage.org no marca el CPD como obligatorio en Mali y señala que no hay club emisor AIT/FIA en el país. Los últimos relatos con vehículo propio (Oasis Overland 2016, Land Cruiser y Jeep 2017) no mencionan exigencia de carnet. El MAEC exige permiso internacional y seguro. Todo es teórico: FCDO (07-2026) pide no entrar ni salir por carretera."),
+    "guinea-bisau": ("recomendable", "PROBABLE", "Passavant aduanero de 2 semanas (2.500 XOF, prorrogable en Bissau)", "0 XOF con CPD; 2.500 XOF passavant (dato de 2016)",
+              "carnetdepassage.org no lista requisito ni club emisor; Horizons Unlimited lo pone en la tabla «se puede usar». Relatos con vehículo propio (WikiOverland y The Road Chose Me, 2016) pagaron passavant de 2 semanas por 2.500 XOF sin CPD; Overlandbirds (2019) salió por Buruntuma con CPD y personal confuso. Sin testimonio 2025-26: PROBABLE que el CPD del RACE se acepte pero que la aduana prefiera su passavant."),
+    "sudan": ("recomendable", "PROBABLE", "Admisión temporal con fianza y fixer en Wadi Halfa (histórico, sin datos desde 2023)", "Incluido en el CPD del RACE si se lista Sudán; fianza local por confirmar",
+              "carnetdepassage.org lista Sudán como país que acepta el CPD, con el Sudanese Automobile and Touring Club de Jartum como club garante (+249 183 403 402). Sahara Overland (enero 2026) marca el carnet como «puede seguir siendo necesario» y tacha todo el procedimiento de cruce por la guerra. No existe ningún cruce documentado con vehículo extranjero desde abril de 2023, así que el nivel real es PROBABLE y el país queda excluido."),
     "libia": ("obligatorio", "SIN CONFIRMAR", "Sin fuente actual", "—",
               "FUERA DE LA RUTA. Figura en la lista del RACE, pero ninguna fuente actual lo confirma; "
               "la única guía con datos (2012) hablaba de una tasa en frontera para quien entra sin "
@@ -200,7 +207,7 @@ NIVELES = {
     "no":           ("#3C9A5F", "No necesario", "Se resuelve en la frontera con un permiso temporal."),
 }
 
-FUERA_DE_RUTA = {"egipto", "libia", "tunez"}
+FUERA_DE_RUTA = {"egipto", "libia", "tunez", "sudan", "guinea-bisau", "mali", "madagascar"}
 
 COSTE_CPD = [
     ("Emisión del carnet (10 o 25 hojas)", "~230 €"),

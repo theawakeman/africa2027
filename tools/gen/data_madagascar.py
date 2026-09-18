@@ -1,220 +1,1229 @@
 # -*- coding: utf-8 -*-
-"""Madagascar — ficha aparte (revisión 11 sep 2026).
+"""Madagascar — ficha completa (18 sep 2026): SOLO ALCANZABLE EN AVIÓN.
 
-A diferencia del resto de fichas, Madagascar NO forma parte de la ruta 4x4
-overland: es una isla sin conexión terrestre ni ferry de pasajero+vehículo
-viable. Esta ficha existe para planificar una POSIBLE escapada en avión
-durante el bloque sur/este del viaje, dejando los vehículos en el
-continente. Por eso no hay corredor 4x4, CPD ni fronteras terrestres: se
-adapta la misma plantilla de ficha a un viaje en avión + coche de alquiler o
-conductor-guía local (habitual en Madagascar por el estado de las pistas).
+Madagascar está en el grupo «Solo alcanzable en avión»: no hay ferry de pasajeros con vehículo entre el continente y la isla (solo carga comercial), así que los dos 4x4 se quedarían en el continente (Tanzania, Mozambique o Sudáfrica) y se llegaría en avión desde Nairobi, Dar es Salaam, Johannesburgo o Addis Abeba durante el bucle sur/este (abril–junio de 2027). La ficha sirve para planificar esa escapada aparte: recorrido en 4x4 de alquiler con conductor (obligatorio en la práctica en Madagascar) o en transporte local, y qué hacer con el perro mientras tanto (se queda con un cuidador en el continente o viaja en avión con trámite aparte).
+
+Método: PDIs con pin comprobado uno a uno en Google Maps, tres fotografías de Wikimedia Commons por PDI (autor y licencia leídos de la API), fichas de decisión y enlaces concretos; historia de siete secciones con fuentes abiertas en la sesión; secciones operativas con fuente y fecha, y «por confirmar» donde no hay fuente. Expediente: audit/historia/madagascar.json y audit/pdi/madagascar.md.
 """
 from data_common import make_ficha
 
+W = "https://commons.wikimedia.org/wiki/Special:FilePath/"
+
 POIS = [
-    {"n": 1, "name": "Parque Nacional de Andasibe-Mantadia", "cat": "Selva y lémures", "prio": "Imprescindible",
-     "dog": "no aplica (viaje en avión sin el perro)", "color": "verde", "time": "1 día",
-     "lat": -18.9333, "lon": 48.4167,
-     "desc": "El parque más visitado de Madagascar, a un par de horas de Antananarivo. Selva primaria y el canto inconfundible del indri, el lémur más grande, oíble a varios kilómetros.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Indri_indri_by_Frank_Vassen.jpg?width=900",
-     "credit": "Frank Vassen · Wikimedia Commons (CC BY 2.0)",
-     "source": "https://commons.wikimedia.org/wiki/File:Indri_indri_by_Frank_Vassen.jpg",
-     "icon": "lémur / selva"},
-    {"n": 2, "name": "Antsirabe", "cat": "Ciudad colonial de altura", "prio": "Recomendable",
-     "dog": "no aplica", "color": "marron", "time": "1 día",
-     "lat": -19.8667, "lon": 47.0333,
-     "desc": "Ciudad colonial de tierras altas, talleres artesanos y el lago-cráter de Tritriva cerca. Punto de paso natural entre Antananarivo y el oeste.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Isalo_National_Park_01.jpg?width=900",
-     "credit": "foto genérica de referencia — sustituir por una específica de Antsirabe cuando se verifique",
-     "source": "https://commons.wikimedia.org/wiki/Category:Antsirabe",
-     "icon": "ciudad / altura"},
-    {"n": 3, "name": "Avenida de los Baobabs (Morondava)", "cat": "Paisaje icónico", "prio": "Imprescindible",
-     "dog": "no aplica", "color": "naranja", "time": "media tarde (atardecer)",
-     "lat": -20.2500, "lon": 44.4167,
-     "desc": "Fila de baobabs Adansonia grandidieri de varios siglos, la imagen más reconocible de Madagascar. Se visita al atardecer; cerca, la Reserva de Kirindy para fauna nocturna.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/All%C3%A9e_des_Baobabs_near_Morondava,_Madagascar.jpg?width=900",
-     "credit": "Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_des_Baobabs_near_Morondava,_Madagascar.jpg",
-     "icon": "árbol / paisaje"},
-    {"n": 4, "name": "Parque Nacional Tsingy de Bemaraha", "cat": "Patrimonio UNESCO", "prio": "Imprescindible",
-     "dog": "no aplica", "color": "gris", "time": "2 días",
-     "lat": -18.9000, "lon": 44.7667,
-     "desc": "Patrimonio de la Humanidad UNESCO: formaciones kársticas afiladas ('tsingy') recorridas con vía ferrata, puentes colgantes y escaleras. Pista dura desde Morondava, con vados y transbordador; requiere guía local obligatorio.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsingy_de_Bemaraha_National_Park,_Madagascar.jpg?width=900",
-     "credit": "Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Tsingy_de_Bemaraha_National_Park,_Madagascar.jpg",
-     "icon": "roca / patrimonio"},
-    {"n": 5, "name": "Parque Nacional de Ranomafana", "cat": "Selva tropical y lémures", "prio": "Muy recomendable",
-     "dog": "no aplica", "color": "verde", "time": "1 día",
-     "lat": -21.2500, "lon": 47.4167,
-     "desc": "Selva tropical de montaña en las tierras altas del centro-sur, con el lémur de bambú dorado (especie muy amenazada) y varias especies de sifaka. Buena combinación con Isalo si se sigue hacia el sur.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Milne-Edwards%27_sifaka_(Propithecus_edwardsi)_in_the_Ranomafana_National_Park,_Madagascar_(15881806706).jpg?width=900",
-     "credit": "Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Milne-Edwards%27_sifaka_(Propithecus_edwardsi)_in_the_Ranomafana_National_Park,_Madagascar_(15881806706).jpg",
-     "icon": "lémur / selva"},
-    {"n": 6, "name": "Parque Nacional de Isalo", "cat": "Cañones y formaciones rocosas", "prio": "Muy recomendable",
-     "dog": "no aplica", "color": "naranja", "time": "1-2 días",
-     "lat": -22.5667, "lon": 45.3667,
-     "desc": "Paisaje de cañones, piscinas naturales y formaciones rocosas de aire jurásico. Senderismo con guía obligatorio desde la oficina del parque en Ranohira; hábitat de fosas y aves endémicas.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Isalo_National_Park_01.jpg?width=900",
-     "credit": "Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Isalo_National_Park_01.jpg",
-     "icon": "cañón / senderismo"},
-    {"n": 7, "name": "Nosy Be", "cat": "Playa y buceo", "prio": "Recomendable",
-     "dog": "no aplica", "color": "turquesa", "time": "2-3 días",
-     "lat": -13.3167, "lon": 48.2667,
-     "desc": "La isla-balneario más conocida del norte: playas de arena blanca, buceo y snorkel, y salidas a islotes cercanos. Se llega en vuelo doméstico desde Antananarivo.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nosy_Be_beach_(3186856441).jpg?width=900",
-     "credit": "Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Nosy_Be_beach_(3186856441).jpg",
-     "icon": "playa / buceo"},
-    {"n": 8, "name": "Nosy Boraha / Île Sainte-Marie", "cat": "Isla histórica y ballenas", "prio": "Opcional",
-     "dog": "no aplica", "color": "morado", "time": "2 días",
-     "lat": -16.9333, "lon": 49.8500,
-     "desc": "Antiguo refugio de piratas del Índico, con un cementerio pirata histórico; playas tranquilas y, de junio a septiembre, paso de ballenas jorobadas frente a la costa.",
-     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sainte_marie_Madagascar_pirate_cemetery_2.JPG?width=900",
-     "credit": "Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Sainte_marie_Madagascar_pirate_cemetery_2.JPG",
-     "icon": "isla / historia"},
+    dict(
+        n=1, name="Antananarivo · Haute-Ville y palacio del Rova (Manjakamiadana)", cat="Cultura", prio="Alta",
+        dog="prohibido", time="1 noche",
+        lat=-18.9237141, lon=47.5320673,  # Google Maps: Rova
+        desc="Recinto real de los soberanos merina sobre la colina más alta de la capital, con el palacio de la reina (Manjakamiadana, 1839-1840), la Tranovola, la casa Besakana y las tumbas reales. Un incendio lo destruyó el 6 de noviembre de 1995 justo antes de su inscripción prevista en la UNESCO; la RESTAURACIÓN SE COMPLETÓ A FINALES DE 2025, así que en 2027 debería visitarse restaurado. Buen mirador sobre la Haute-Ville de casas de ladrillo y escaleras. Ir con guía local y de día; Tana concentra la mayor parte de los robos a turistas.",
+        dog_note="Recinto real y tumbas: nada de perros; en Madagascar el perro se habría quedado en el continente o en un cuidador de Tana.",
+        visit={
+            "why": "Es el corazón histórico del reino merina y el mejor mirador de la ciudad; combina en una mañana con las callejuelas y el mercado de la Haute-Ville.",
+            "see": "Palacio de la reina restaurado, Tranovola, capilla Manampisoa, nueve tumbas reales y vistas sobre el lago Anosy y los barrios altos.",
+            "access": "Se sube en coche por Andohalo hasta la puerta del recinto; aparcamiento de calle vigilado, sin problema para dos vehículos. Entrada de pago con guía: según el foro de Tripadvisor (posts de ~2023) abre todos los días menos el martes y cobra 40.000 Ar a extranjeros (10.000 a locales); horario y tarifa tras la reapertura de finales de 2025 por confirmar. El pin marca el propio palacio Manjakamiadana.",
+            "when": "Primera hora de la mañana, con luz lateral y antes del calor; cualquier época del año.",
+            "skip": "Descartar si el día es de manifestaciones o disturbios en la capital (episodios en sept-oct 2025): la Haute-Ville se cierra rápido.",
+        },
+        links=[
+            {"label": "Rova of Antananarivo (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Rova_of_Antananarivo"},
+            {"label": "Antananarivo (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Antananarivo"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Reconstructed_Rova_Antananarivo_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Reconstructed_Rova_Antananarivo_Madagascar.jpg",
+                "credit": "Hery Zo Rakotondramanana · CC BY-SA 2.0",
+                "caption": "Palacio de Manjakamiadana reconstruido, en lo alto del Rova de Antananarivo.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rova_of_Antananarivo,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Rova_of_Antananarivo,_Madagascar.jpg",
+                "credit": "EnfesDino · CC BY-SA 4.0",
+                "caption": "El Rova visto desde la ciudad.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Haute_ville_-_Antananarivo.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Haute_ville_-_Antananarivo.jpg",
+                "credit": "Randmimin · CC BY-SA 4.0",
+                "caption": "Calles de la Haute-Ville de Antananarivo.",
+            },
+        ],
+    ),
+    dict(
+        n=2, name="Colina real de Ambohimanga (UNESCO)", cat="Patrimonio UNESCO", prio="Alta",
+        dog="prohibido", time="medio día",
+        lat=-18.7604641, lon=47.5623138,  # Google Maps: Castillo de Ambohimanga
+        desc="Ciudad real amurallada y lugar sagrado de los merina a 24 km al noreste de Tana, ÚNICO SITIO CULTURAL DE MADAGASCAR EN LA LISTA UNESCO (2001). Aquí Andrianampoinimerina unificó Imerina hacia 1793 y fijó la capital espiritual del reino; se conservan fosos, murallas con 14 puertas cerradas por discos de piedra y el palacio Mahandrihono con su pilar central de palisandro de 10 m. Entrada 10.000 Ar para extranjeros (dato de Wikipedia, por actualizar); prohibido fotografiar dentro de los edificios.",
+        dog_note="Lugar sagrado y de peregrinación con tumbas reales; no entran animales.",
+        visit={
+            "why": "Es lo que el Rova de Tana perdió en el incendio de 1995: el monumento precolonial merina mejor conservado y todavía en uso ritual.",
+            "see": "Puerta con disco de piedra, palacio Mahandrihono, pabellón de la reina, piscinas reales, tumbas y vistas sobre las colinas de Imerina.",
+            "access": "24 km por la RN3 y desvío asfaltado; aparcamiento al pie de la colina, cabe cualquier vehículo. Gestiona la OSCAR; guías multilingües en taquilla. El pin marca la entrada del recinto real (Rova), no el pueblo de Ambohimanga.",
+            "when": "Mañana; evitar fines de semana y días de ceremonia si se busca tranquilidad.",
+            "skip": "No descartar salvo cierre por rito real o disturbios en la capital.",
+        },
+        links=[
+            {"label": "UNESCO · Royal Hill of Ambohimanga (950)", "url": "https://whc.unesco.org/en/list/950/"},
+            {"label": "Ambohimanga (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Royal_Hill_of_Ambohimanga"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Madagascar_Rova_of_Ambohimanga_Nanjakana_compound.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Madagascar_Rova_of_Ambohimanga_Nanjakana_compound.jpg",
+                "credit": "Lemurbaby · CC BY-SA 3.0",
+                "caption": "Recinto de Nanjakana en el Rova de Ambohimanga.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ambohimanga_14.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ambohimanga_14.jpg",
+                "credit": "Olivier Lejade · CC BY-SA 2.0",
+                "caption": "Palacio de Ambohimanga.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Madagascar_Rova_ambohimanga_royal_tombs.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Madagascar_Rova_ambohimanga_royal_tombs.JPG",
+                "credit": "Lemurbaby · CC BY-SA 3.0",
+                "caption": "Tumbas reales de Ambohimanga.",
+            },
+        ],
+    ),
+    dict(
+        n=3, name="Parque nacional de Andasibe-Mantadia · el indri", cat="Naturaleza", prio="Alta",
+        dog="prohibido", time="1–2 noches",
+        lat=-18.9388387, lon=48.4337638,  # Google Maps: Reserva Analamazaotra (entrada de Andasibe)
+        desc="Selva de montaña a unos 150 km al este de Tana (unas 3 h por la RN2 asfaltada), el parque más fácil de visitar desde la capital. Su estrella es el INDRI, EL LÉMUR MÁS GRANDE, cuyo canto se oye a kilómetros al amanecer en la reserva de Analamazaotra (Périnet); Mantadia, más lejos y en pista, es selva primaria con diademas y lémures rufos. Llueve unos 210 días al año (1.700 mm): impermeable y botas siempre. Guía local obligatorio en ambos sectores.",
+        dog_note="Parque nacional gestionado por Madagascar National Parks: no se admiten animales domésticos.",
+        visit={
+            "why": "Ver y oír al indri es una de las experiencias animales del país, y está a un salto de la capital.",
+            "see": "Indris, sifakas diadema, lémures marrones, camaleones y ranas en Analamazaotra; paseo nocturno por la pista de Vakona o la reserva comunitaria de Mitsinjo.",
+            "access": "RN2 asfaltada, 140 km desde Tana; la oficina de Analamazaotra está junto a la carretera con aparcamiento amplio y camping «Indri» (5 refugios, cocina, ducha). Circuitos oficiales Indri 1 y 2 (2 h), Anivokely (2 h) y Aventure (4 h); Mantadia es un parque aparte más al norte, por pista. Tarifas en el documento oficial de parcs-madagascar.com; tel. +261 38 09 402 65. El pin marca el centro de acogida de Analamazaotra.",
+            "when": "Amanecer, cuando cantan los indris; época más seca de mayo a octubre, aunque llueve todo el año.",
+            "skip": "Solo si el tiempo disponible en Madagascar es tan corto que no cabe un desvío de dos días desde Tana.",
+        },
+        links=[
+            {"label": "Andasibe-Mantadia (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Andasibe-Mantadia_National_Park"},
+            {"label": "Madagascar National Parks · Analamazaotra", "url": "https://parcs-madagascar.com/en/parc/analamazaotra-2/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Indri,_Andasibe_02.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Indri,_Andasibe_02.JPG",
+                "credit": "Heinonlein · CC BY-SA 4.0",
+                "caption": "Indri en el bosque de Andasibe.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Andasibe-Mantadia_National_Park_2013_26.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Andasibe-Mantadia_National_Park_2013_26.jpg",
+                "credit": "Smiley.toerist · CC BY-SA 4.0",
+                "caption": "Vista desde las cumbres del parque de Andasibe-Mantadia.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Indri,_Andasibe_01.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Indri,_Andasibe_01.JPG",
+                "credit": "Heinonlein · CC BY-SA 4.0",
+                "caption": "Indri, el lémur más grande, en Andasibe.",
+            },
+        ],
+    ),
+    dict(
+        n=4, name="Parque nacional de Ranomafana (UNESCO Bosques del Atsinanana)", cat="Patrimonio UNESCO", prio="Alta",
+        dog="prohibido", time="1–2 noches",
+        lat=-21.2550511, lon=47.4563761,  # Google Maps: Madagascar National Parks Office - Ranomafana Park
+        desc="Selva húmeda de montaña (416 km², 800-1.200 m) a 65 km al noreste de Fianarantsoa, creada en 1991 tras el DESCUBRIMIENTO DEL LÉMUR DORADO DEL BAMBÚ por Patricia Wright, y parte del bien UNESCO Bosques del Atsinanana (2007), que estuvo en la lista de peligro de 2010 a 2025. Alberga 14 especies de lémures (8 diurnos, 6 nocturnos), y el pueblo tiene aguas termales. Siete senderos de 10 a 20 km; guía obligatorio; lluvia y sanguijuelas casi garantizadas.",
+        dog_note="Parque nacional; no se admiten perros.",
+        visit={
+            "why": "El parque de referencia de la selva del este y una cuna de la primatología moderna, con lémures difíciles de ver en otro sitio.",
+            "see": "Lémures dorados y grandes del bambú, sifaka de Milne-Edwards, lémur rufo blanco y negro, camaleones y paseo nocturno en la carretera junto al parque.",
+            "access": "Desde Fianarantsoa (67 km) por la RN7 hasta Alakamisy-Ambohimaha, RN45 a Vohiparara y RN25 hasta el puesto de acogida de Ambodiamontana, en la carretera, con aparcamiento. Tasa comunitaria de 5.000 Ar más entrada y guía (tarifas en parcs-madagascar.com); campings de Vatoharanana y Ambodiamontana; unos 15 hoteles en Ranomafana. El pin marca la entrada del parque en la carretera.",
+            "when": "Primera hora y paseo nocturno; abril-noviembre para menos lluvia, aunque llueve todo el año.",
+            "skip": "Descartar si ya se ha hecho Andasibe y el tiempo es corto; el sur de la RN7 rinde más por día.",
+        },
+        links=[
+            {"label": "UNESCO · Rainforests of the Atsinanana (1257)", "url": "https://whc.unesco.org/en/list/1257/"},
+            {"label": "Ranomafana NP (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ranomafana_National_Park"},
+            {"label": "Madagascar National Parks · Ranomafana", "url": "https://parcs-madagascar.com/en/parc/ranomafana-2/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Namorona_River_in_Ranomafana_National_Park_2013_1.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Namorona_River_in_Ranomafana_National_Park_2013_1.jpg",
+                "credit": "Smiley.toerist · CC BY-SA 4.0",
+                "caption": "Río Namorona a su paso por el parque de Ranomafana.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Satanic_leaf-tailed_gecko_(Uroplatus_phantasticus)_Ranomafana_4.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Satanic_leaf-tailed_gecko_(Uroplatus_phantasticus)_Ranomafana_4.jpg",
+                "credit": "Charles J. Sharp · CC BY-SA 4.0",
+                "caption": "Gecko de cola de hoja en Ranomafana.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Crossley's_dwarf_lemur_(Cheirogaleus_crossleyi)_Ranomafana.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Crossley's_dwarf_lemur_(Cheirogaleus_crossleyi)_Ranomafana.jpg",
+                "credit": "Charles J. Sharp · CC BY-SA 4.0",
+                "caption": "Lémur enano de Crossley, Ranomafana.",
+            },
+        ],
+    ),
+    dict(
+        n=5, name="Fianarantsoa · ciudad alta y tren FCE a Manakara", cat="Ciudad · servicios", prio="Media",
+        dog="por confirmar", time="1 noche (2–3 noches si se hace el tren)",
+        lat=-21.4477562, lon=47.0901918,  # Google Maps: Gare de Fianarantsoa (FCE)
+        desc="Capital betsileo (fundada en 1830, 1.200 m) con una ciudad alta de casas de ladrillo y templos del XIX: la iglesia Antranobiriky (1859), la catedral (1871-1890) y la Trinité Masombahoaka (1885). De la estación de la ciudad baja (1935) sale el TREN FCE A MANAKARA: 162,8 km, 48 túneles y 65 puentes, entre 12 y 18 horas, con salidas hacia las 7 h unos días por semana y cortes frecuentes en época de lluvias (dic-mar). Buena base de servicios y talleres antes de Ranomafana y Ambalavao.",
+        dog_note="Pasear por la ciudad alta no plantea problema; subir un perro al tren FCE no está regulado en ninguna fuente abierta.",
+        visit={
+            "why": "Es la ciudad histórica mejor conservada del país y la puerta del único viaje en tren turístico de Madagascar.",
+            "see": "Callejuelas empedradas de Tanana Ambony, catedral, vistas sobre la ciudad baja; el tren baja por la escarpa oriental cruzando pueblos de plátanos y café.",
+            "access": "RN7 asfaltada; aparcamiento en hoteles del centro. Si se hace el tren hay que dejar el 4x4 en Fianarantsoa y volver por carretera desde Manakara (unas 5-6 h) o repetir el tren. Horarios y tarifas del FCE cambian a menudo: confirmar en la estación días antes. El pin marca la estación FCE.",
+            "when": "Ciudad alta al atardecer; tren en estación seca (mayo-octubre) y con asiento de 1.ª reservado.",
+            "skip": "Descartar el tren si no se dispone de 2-3 días extra o si hay averías/cortes; la ciudad sola vale una tarde.",
+        },
+        links=[
+            {"label": "Fianarantsoa (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Fianarantsoa"},
+            {"label": "FCE railway (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Fianarantsoa-C%C3%B4te_Est_railway"},
+            {"label": "Nomadays · viajar en tren en Madagascar", "url": "https://www.madagascartravel.com/guide-madagascar/attraction/travelling-by-train-in-madagascar"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ville_Haute_Fianarantsoa.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ville_Haute_Fianarantsoa.jpg",
+                "credit": "Bienvenue Fidèle · CC BY-SA 4.0",
+                "caption": "Ciudad alta de Fianarantsoa.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fianarantsoa_03.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Fianarantsoa_03.JPG",
+                "credit": "Bernard Gagnon · CC BY-SA 3.0",
+                "caption": "Estación de tren de Fianarantsoa, cabecera de la línea FCE.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Train-Fianarantsoa-Manakara-2006.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Train-Fianarantsoa-Manakara-2006.JPG",
+                "credit": "Benoît Prieur · CC0",
+                "caption": "Tren de la línea Fianarantsoa–Manakara.",
+            },
+        ],
+    ),
+    dict(
+        n=6, name="Ambalavao · papel antaimoro y reserva comunitaria de Anja (lémures de cola anillada)", cat="Naturaleza", prio="Alta",
+        dog="no recomendado", time="medio día",
+        lat=-21.8509645, lon=46.8419219,  # Google Maps: Anja Community Reserve
+        desc="Ambalavao, al pie de los grandes domos graníticos del sur betsileo, es conocida por su GRAN MERCADO DE CEBÚES DE LOS MIÉRCOLES y por el taller de papel antaimoro, hecho con corteza de avoha y flores prensadas. A 13 km al sur, la reserva comunitaria de Anja (30 ha, creada en 2001 por la asociación Anja Miray) es el LUGAR MÁS SEGURO PARA VER LÉMURES DE COLA ANILLADA: unos 300 ejemplares habituados entre bloques de granito y tumbas betsileo. Circuitos de 1-2 h o hasta 6 h con guía obligatorio.",
+        dog_note="Anja es reserva comunitaria con lémures habituados; un perro los espantaría y los guías no lo aceptarían. En el taller de papel no hay problema.",
+        visit={
+            "why": "Éxito garantizado con los maki catta a cinco minutos de la RN7, y un ejemplo modélico de conservación comunitaria.",
+            "see": "Grupos de lémures de cola anillada, camaleones, cuevas-tumba betsileo, vistas de los «Tres Hermanos» graníticos; el taller de papel en el centro de Ambalavao.",
+            "access": "La reserva está en la RN7, 13 km al sur de Ambalavao, con aparcamiento junto a la taquilla. Entrada de pago más guía (tarifas por confirmar in situ). El pin marca la entrada de Anja.",
+            "when": "Mañana temprano o última hora, cuando los lémures toman el sol; el gran mercado de cebúes de Ambalavao es los miércoles (MadaMagazine; Wikipedia habla de dos días por semana).",
+            "skip": "No descartar: está en ruta y ocupa dos horas.",
+        },
+        links=[
+            {"label": "Anja Community Reserve (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Anja_Community_Reserve"},
+            {"label": "Ambalavao (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ambalavao"},
+            {"label": "MadaMagazine · Ambalavao", "url": "https://www.madamagazine.com/en/ambalavao/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ring-tailed_lemur_(Lemur_catta)_in_tree.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ring-tailed_lemur_(Lemur_catta)_in_tree.jpg",
+                "credit": "Charles J. Sharp · CC BY-SA 4.0",
+                "caption": "Lémur de cola anillada en la reserva comunitaria de Anja.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ring-Tailed_Lemur,_Anja_Reserve_(3953826302).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ring-Tailed_Lemur,_Anja_Reserve_(3953826302).jpg",
+                "credit": "Antony Stanley · CC BY-SA 2.0",
+                "caption": "Lémur de cola anillada, reserva de Anja.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ambalavao_02.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ambalavao_02.JPG",
+                "credit": "Heinonlein · CC BY-SA 4.0",
+                "caption": "Ambalavao.",
+            },
+        ],
+    ),
+    dict(
+        n=7, name="Parque nacional de Andringitra · Pic Boby (2.658 m)", cat="Naturaleza", prio="Media",
+        dog="prohibido", time="2–3 noches",
+        lat=-22.1213007, lon=46.9173921,  # Google Maps: Namoly Centre (acceso a Andringitra)
+        desc="Macizo granítico del sur betsileo (31.160 ha, reserva desde 1927 y parque desde 1999, UNESCO Atsinanana 2007) con el PIC BOBY O IMARIVOLANITRA, 2.658 M, SEGUNDA CUMBRE DE MADAGASCAR. Aquí se registró la temperatura mínima del país, -8 °C, y algunos años nieva. El trek clásico a la cima son 2 días y 28 km desde Namoly, con cinco campamentos equipados; el valle de Tsaranoro, al oeste, es la alternativa de escalada y lodges. Pista de acceso de 47 km desde Ambalavao, solo 4x4 y muy mala de noviembre a marzo.",
+        dog_note="Parque nacional; además el trekking exige porteadores y campamentos oficiales.",
+        visit={
+            "why": "El mejor trekking de altura del país, con paisaje de granito, praderas y lémures de cola anillada en roca.",
+            "see": "Amanecer desde la cumbre, cascadas de Riambavy y Riandahy, palmeras y plantas de altura, valle de Tsaranoro con su pared de 800 m.",
+            "access": "Entradas de Namoly (47 km de Ambalavao) y Morarano (60 km), ambas por pista con recepción del parque; aparcamiento junto a la oficina. Guía y porteadores obligatorios; tarifas oficiales en parcs-madagascar.com. El pin marca el acceso de Namoly.",
+            "when": "Abril-septiembre (seco y frío; noches bajo cero en altura); evitar noviembre-marzo por la pista y las tormentas.",
+            "skip": "Descartar si no hay 3 días completos ni ganas de dormir en tienda a 2.000 m; Anja e Isalo cubren el paisaje de granito sin esfuerzo.",
+        },
+        links=[
+            {"label": "Madagascar National Parks · Andringitra", "url": "https://parcs-madagascar.com/en/parc/andringitra/"},
+            {"label": "Andringitra NP (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Andringitra_National_Park"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Andringitra,_Madagascar_by_Effervescing_Elephant-09.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Andringitra,_Madagascar_by_Effervescing_Elephant-09.jpg",
+                "credit": "Chris · CC BY-SA 2.0",
+                "caption": "Parque nacional de Andringitra.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pic_Boby_(1).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Pic_Boby_(1).jpg",
+                "credit": "Chris · CC BY-SA 2.0",
+                "caption": "Pic Boby, cumbre del macizo de Andringitra.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Andringitra,_Madagascar_by_Effervescing_Elephant-07.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Andringitra,_Madagascar_by_Effervescing_Elephant-07.jpg",
+                "credit": "Chris · CC BY-SA 2.0",
+                "caption": "Sendero de subida al Pic Boby.",
+            },
+        ],
+    ),
+    dict(
+        n=8, name="Parque nacional del Isalo · cañones y piscinas naturales", cat="Naturaleza", prio="Alta",
+        dog="prohibido", time="1–2 noches",
+        lat=-22.5564887, lon=45.4133743,  # Google Maps: Madagascar National Park Office - Isalo National Park
+        desc="Macizo de arenisca del Triásico-Jurásico (815 km², parque desde 1962) erosionado en cañones, mesetas y agujas junto a la RN7 en Ranohira: el paisaje «western» de Madagascar. Circuitos con guía obligatorio a la Piscine Naturelle, la Cascade des Nymphes y el Canyon des Makis, con lémures de cola anillada y sifakas de Verreaux; es el PARQUE MÁS VISITADO DEL PAÍS (32.714 visitantes ya en 2011). Calor fuerte a mediodía y ninguna sombra en las mesetas; agua y gorro. El FCDO señala asaltos en la zona de Ilakaka (zafiros), justo al oeste.",
+        dog_note="Parque nacional; guía obligatorio y senderos con lémures habituados.",
+        visit={
+            "why": "El contraste de piedra roja, palmeras y pozas de agua fría es único en la ruta sur, y los circuitos son asequibles para todos.",
+            "see": "Piscine Naturelle y Piscine Noire/Bleue, Canyon des Makis y des Rats, Fenêtre de l'Isalo al atardecer, tumbas bara en las paredes.",
+            "access": "Oficina del parque en Ranohira, sobre la RN7 (701 km de Tana, 250 km / ~5 h de Toliara), 3 km al este del parque, con aparcamiento; los circuitos empiezan en pistas de tierra (el guía va en el coche). Circuitos a pie, en vehículo, a caballo y vía ferrata; campings de Namaza (33 plazas, a 700 m del aparcamiento), Piscine Naturelle (40 plazas, agua y duchas) y Zahavola. Abierto todo el año; tarifas oficiales en parcs-madagascar.com. El pin marca la oficina de Ranohira.",
+            "when": "Salir al amanecer; abril-octubre; la Fenêtre al ponerse el sol.",
+            "skip": "Solo si se va justo de tiempo hacia Toliara; en ese caso hacer un circuito corto de medio día.",
+        },
+        links=[
+            {"label": "Isalo NP (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Isalo_National_Park"},
+            {"label": "Madagascar National Parks · Isalo", "url": "https://parcs-madagascar.com/en/parc/isalo-2/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Isalo_National_Park_04.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Isalo_National_Park_04.jpg",
+                "credit": "Bernard Gagnon · CC BY-SA 3.0",
+                "caption": "Macizo del Isalo.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Isalo_-_Namaza_-_piscine_naturelle.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Isalo_-_Namaza_-_piscine_naturelle.jpg",
+                "credit": "Hardscarf · CC BY-SA 3.0",
+                "caption": "Piscina natural del circuito de Namaza, Isalo.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Isalo_National_Park_01.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Isalo_National_Park_01.jpg",
+                "credit": "Bernard Gagnon · CC BY-SA 3.0",
+                "caption": "Parque nacional del Isalo.",
+            },
+        ],
+    ),
+    dict(
+        n=9, name="Toliara (Tuléar) e Ifaty · reserva de Reniala (baobabs) y arrecife", cat="Costa", prio="Media",
+        dog="permitido con condiciones", time="1–2 noches",
+        lat=-23.1227631, lon=43.6205046,  # Google Maps: Reniala Reserve
+        desc="Toliara, final de la RN7 junto al trópico de Capricornio, es la «ciudad del sol» (menos de 400 mm de lluvia al año) y base de servicios del suroeste; su arboreto de Antsokay (1980, 52 ha, 920 especies) merece una hora. A 30 km al norte por la RN9, asfaltada desde 2016, Ifaty-Mangily tiene lagunas de arrecife, buceo y la reserva privada de Reniala (60 ha de bosque espinoso, abierta en 2001) con BAOBABS ADANSONIA RUBROSTIPA, uno de ellos, «la tetera», de unos 1.500 años y más de 10 m de perímetro. Entrada 15.000-30.000 Ar según circuito. Canadá y FCDO citan asaltos en la playa de la Batterie de Toliara.",
+        dog_note="En playa y lodges de Ifaty un perro con correa suele aceptarse (preguntar en cada hotel); en la reserva de Reniala, no (centro de rescate de lémures).",
+        visit={
+            "why": "Primer contacto con el bosque espinoso y el mar del Canal de Mozambique, con hoteles cómodos tras la RN7.",
+            "see": "Baobabs botella y didiereáceas de Reniala, centro de rescate de lémures, laguna y arrecife de Ranobe, arboreto de Antsokay en Toliara.",
+            "access": "RN9 asfaltada, 20 min desde Toliara; la reserva está en Mangily con aparcamiento en la entrada. Horario 7:30-17:30 (lluvias) u 8:00-18:00 (seco). El pin marca la entrada de Reniala; Toliara centro queda 30 km al sur.",
+            "when": "Mañana temprano antes del calor; ballenas jorobadas posibles frente a Ifaty en agosto.",
+            "skip": "Descartar Toliara ciudad si solo se busca playa: dormir directamente en Ifaty o cruzar a Anakao.",
+        },
+        links=[
+            {"label": "MadaMagazine · Reniala", "url": "https://www.madamagazine.com/en/reservat-reniala/"},
+            {"label": "Toliara (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Toliara"},
+            {"label": "Ifaty (Wikivoyage)", "url": "https://en.wikivoyage.org/wiki/Ifaty"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ifaty_beach_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ifaty_beach_Madagascar.jpg",
+                "credit": "Bernard Gagnon · CC BY-SA 3.0",
+                "caption": "Playa de Mangily, junto a Ifaty.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_Ifaty_II.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Beach_Ifaty_II.jpg",
+                "credit": "Smiley.toerist · CC BY-SA 3.0",
+                "caption": "Playa de Ifaty.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_Ifaty_tree.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Beach_Ifaty_tree.jpg",
+                "credit": "Smiley.toerist · CC BY-SA 3.0",
+                "caption": "Orilla de Ifaty.",
+            },
+        ],
+    ),
+    dict(
+        n=10, name="Anakao y Nosy Ve · playas del sur y ballenas", cat="Costa", prio="Media",
+        dog="no recomendado", time="1–2 noches",
+        lat=-23.6642615, lon=43.6482659,  # Google Maps: Anakao
+        desc="Pueblo de pescadores vezo 35 km al sur de Toliara, sin carretera practicable: se llega en lancha rápida desde el puerto de Mahavatse (Toliara) en 1 h —salida 9:30, vuelta 7:30, 60.000 Ar por trayecto según Transfert Anakao— y el 4x4 se queda en Toliara. Playa de arena blanca, piraguas de vela y dunas; enfrente, a 3,5-5 km, la isla plana de NOSY VE, LA COLONIA DE RABIJUNCOS DE COLA ROJA MÁS AUSTRAL DEL MUNDO QUE CRÍA TODO EL AÑO, sagrada para los vezo (sacrificios de cebú), sin sombra ni pernocta, entrada 2.000 Ar. Ballenas jorobadas de paso frente a la costa entre junio y septiembre.",
+        dog_note="Se llega en lancha rápida desde Toliara (los patrones no suelen aceptar animales) y Nosy Ve es isla sagrada vezo con colonia de aves; mejor sin perro.",
+        visit={
+            "why": "El fin de la ruta sur convertido en descanso de playa auténtica, con esnórquel y aves marinas a un paso.",
+            "see": "Rabijuncos en Nosy Ve, arrecife y piraguas vezo, dunas y tumbas de Anakao, puestas de sol sobre el Canal de Mozambique.",
+            "access": "Lancha de Transfert Anakao u otros operadores desde Mahavatse (Toliara), 1 h, salidas de mañana por el viento de la tarde; coche aparcado en hotel de Toliara. Nosy Ve en piragua vezo desde la playa (2.000 Ar de entrada). El pin marca el pueblo de Anakao; el embarcadero de salida está en Mahavatse, Toliara.",
+            "when": "Estación seca (mayo-octubre); ballenas julio-septiembre; mar más tranquilo por la mañana.",
+            "skip": "Descartar si el mar está fuerte o si la situación de seguridad del suroeste se complica (Canadá y FCDO piden precaución en Toliara y su costa).",
+        },
+        links=[
+            {"label": "Anakao (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Anakao"},
+            {"label": "Madacamp · Nosy Ve", "url": "https://www.madacamp.com/Nosy_Ve"},
+            {"label": "Madacamp · Transfert Anakao", "url": "https://www.madacamp.com/Transfert_Anakao"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Anakao_departure_point_for_Nosy_Ve.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Anakao_departure_point_for_Nosy_Ve.jpg",
+                "credit": "sussexbirder · CC BY 2.0",
+                "caption": "Anakao, punto de salida de las piraguas hacia Nosy Ve.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L'altra_facia_de_la_luna,_Anakao,_Madagascar_(25990787371).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:L'altra_facia_de_la_luna,_Anakao,_Madagascar_(25990787371).jpg",
+                "credit": "krishna naudin · CC BY-SA 2.0",
+                "caption": "Playa de Anakao.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dimorphic_egret_(Egretta_dimorpha)_white_morph.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Dimorphic_egret_(Egretta_dimorpha)_white_morph.jpg",
+                "credit": "Charles J. Sharp · CC BY-SA 4.0",
+                "caption": "Garceta dimorfa en Nosy Ve.",
+            },
+        ],
+    ),
+    dict(
+        n=11, name="Morondava · avenida de los baobabs", cat="Naturaleza", prio="Alta",
+        dog="permitido con condiciones", time="1 noche",
+        lat=-20.2504811, lon=44.419695,  # Google Maps: Avenida de los Baobabs
+        desc="Tramo de 260 m de la RN8 de tierra, unos 20 km al norte de Morondava, flanqueado por 20-25 baobabs Adansonia grandidieri de unos 30 m (unos 45-50 en el entorno), la imagen más reproducida de Madagascar. Es MONUMENTO NATURAL PROTEGIDO DESDE JULIO DE 2015 (protección temporal desde 2007). A 7 km al noroeste, los «baobabs amoureux», dos Adansonia za entrelazados. Al atardecer se llena de coches y vendedores; ir también al amanecer, cuando no hay nadie. Morondava tiene aeropuerto con vuelos regulares, útil para saltarse los 2 días de carretera desde Tana.",
+        dog_note="Es una pista pública entre campos; con correa y respetando a los vendedores locales no hay impedimento (si el perro viaja a Madagascar, lo que exige permiso de importación).",
+        visit={
+            "why": "Es la postal del país y la puerta de la costa oeste sakalava; al alba, con niebla baja, es otro lugar.",
+            "see": "La avenida a contraluz, los baobabs amoureux, los charcos con nenúfares, las carretas de cebú de vuelta del campo.",
+            "access": "RN8 sin asfaltar desde Morondava (30-40 min); área de aparcamiento y taquilla comunitaria junto a la avenida; cabe cualquier vehículo en seco. El pin marca el tramo de la avenida.",
+            "when": "Amanecer y atardecer; mayo-octubre (en lluvias la pista se inunda).",
+            "skip": "No descartar si se está en Morondava; sí descartar el viaje solo por la avenida si no se va a combinar con Kirindy o el Tsingy.",
+        },
+        links=[
+            {"label": "Avenue of the Baobabs (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Avenue_of_the_Baobabs"},
+            {"label": "Morondava (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Morondava"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/All%C3%A9e_des_baobabs_Morondava_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_des_baobabs_Morondava_Madagascar.jpg",
+                "credit": "Cactus0625 · CC BY-SA 4.0",
+                "caption": "Avenida de los baobabs, cerca de Morondava.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset,_Allee_des_Baobabs,_Madagascar_(27610142306).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Sunset,_Allee_des_Baobabs,_Madagascar_(27610142306).jpg",
+                "credit": "Rod Waddington · CC BY-SA 2.0",
+                "caption": "Atardecer en la avenida de los baobabs.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Avenue_of_the_Baobabs,_central_axis.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Avenue_of_the_Baobabs,_central_axis.jpg",
+                "credit": "NP023 · CC BY-SA 4.0",
+                "caption": "Eje central de la avenida de los baobabs.",
+            },
+        ],
+    ),
+    dict(
+        n=12, name="Bosque de Kirindy · fosa y lémures nocturnos", cat="Naturaleza", prio="Alta",
+        dog="prohibido", time="1 noche",
+        lat=-20.057431, lon=44.6275562,  # Google Maps: Kirindy Forest (reserva privada)
+        desc="Bosque seco caducifolio de 125 km² a unas 2 h (50-60 km) al noreste de Morondava, en la pista hacia el Tsingy. Es EL MEJOR LUGAR DEL MUNDO PARA VER LA FOSA, el mayor depredador de la isla, y hogar de nueve especies de lémures, entre ellas el lémur ratón de Madame Berthe, EL PRIMATE MÁS PEQUEÑO DEL MUNDO, y de la rata saltadora gigante. Los paseos nocturnos con guía (unas 2 h) son la razón de dormir en el Kirindy Ecolodge, básico. Entrada 50.000 Ar más guía 50.000-70.000 Ar (2025). Calor y polvo en seco; las fosas se ven sobre todo en OCTUBRE-NOVIEMBRE, su celo.",
+        dog_note="Reserva forestal con fosas (depredador) y lémures; ningún animal doméstico.",
+        visit={
+            "why": "Fauna que no se ve en ningún otro parque y una parada natural entre la avenida de los baobabs y el Tsingy.",
+            "see": "Fosa (con suerte), sifaka de Verreaux, lémures nocturnos (ratón, enano), rata saltadora, boas y camaleones; bosque de baobabs.",
+            "access": "Unas 2 h al norte de Morondava por la RN8 de tierra y desvío por pista arenosa (4x4 en lluvias); aparcamiento en el ecolodge/sede de la reserva, que es privada. Guía obligatorio; accesible todo el año pero diciembre-marzo es húmedo y muy caluroso. El pin marca el ecolodge y sede de la reserva.",
+            "when": "Paseo nocturno tras la cena y otro al amanecer; mayo-noviembre (el bosque pierde la hoja y se ve mejor), octubre-noviembre para la fosa.",
+            "skip": "Descartar si no se pernocta: de día, con calor, el bosque parece vacío.",
+        },
+        links=[
+            {"label": "Kirindy Forest (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Kirindy_Forest"},
+            {"label": "TravellerThomas · guía de Kirindy", "url": "https://www.travellerthomas.com/madagascar/madagascar-national-parks/guide-to-kirindy-forest"},
+            {"label": "SafariBookings · Kirindy", "url": "https://www.safaribookings.com/kirindy"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fossa_02.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Fossa_02.JPG",
+                "credit": "Heinonlein · CC BY-SA 4.0",
+                "caption": "Fosa en el bosque de Kirindy.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirindy,_Morondava,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Kirindy,_Morondava,_Madagascar.jpg",
+                "credit": "Cactus0625 · CC BY-SA 4.0",
+                "caption": "Bosque seco de Kirindy.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Red-tailed_Sportive_Lemur,_Kirindy,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Red-tailed_Sportive_Lemur,_Kirindy,_Madagascar.jpg",
+                "credit": "Frank Vassen · CC BY 2.0",
+                "caption": "Lémur saltador de cola roja, Kirindy.",
+            },
+        ],
+    ),
+    dict(
+        n=13, name="Tsingy de Bemaraha (UNESCO)", cat="Patrimonio UNESCO", prio="Alta",
+        dog="prohibido", time="2 noches",
+        lat=-19.1448464, lon=44.7958366,  # Google Maps: Tsingy de Bemaraha National Park Ticket Office
+        desc="Meseta kárstica de 723 km² (parque desde 1997) esculpida en agujas de caliza —tsingy, «donde no se puede andar descalzo»— de hasta 100 m, PATRIMONIO DE LA HUMANIDAD DESDE 1990 y ampliado en 2023 como «Bosques secos del Andrefana». Se visita desde Bekopaka: el Petit Tsingy en unas 3 h y el Grand Tsingy con VÍA FERRATA, arneses y puentes colgantes (buena forma física). Llegar es la aventura: unos 200 km de pista desde Morondava (8-10 h) con dos barcazas, Tsiribihina y Manambolo (esta solo hasta las 18 h). El parque cierra en lluvias: abierto de mayo a noviembre.",
+        dog_note="Parque nacional con vías ferratas y puentes colgantes; imposible e inadmisible con perro.",
+        visit={
+            "why": "El paisaje más extraño de Madagascar y una de las cimas de cualquier viaje africano; el esfuerzo de la pista es parte del premio.",
+            "see": "Bosque de agujas del Grand Tsingy desde los miradores, puentes colgantes, cuevas, garganta del Manambolo en piragua, sifakas de Decken y lémures rufos rojos.",
+            "access": "Morondava → Belo sur Tsiribihina (barcaza, ~1 h) → Bekopaka (barcaza del Manambolo); oficina del parque y aparcamiento en Bekopaka, con guía obligatorio y arnés para el Grand Tsingy, al que se llega por pista desde el pueblo (distancia por confirmar). Tarifas oficiales en parcs-madagascar.com; el 50 % de la entrada va a la población local. El pin marca la oficina del parque en Bekopaka.",
+            "when": "Mayo-noviembre, mejor junio-octubre; salir al Grand Tsingy al amanecer, hace más de 35 °C a mediodía.",
+            "skip": "Descartar de diciembre a abril (cerrado, pistas inundadas) y si alguien del grupo sufre vértigo o no puede trepar con arnés.",
+        },
+        links=[
+            {"label": "UNESCO · Andrefana Dry Forests / Tsingy de Bemaraha (494)", "url": "https://whc.unesco.org/en/list/494/"},
+            {"label": "Madagascar National Parks · Tsingy de Bemaraha", "url": "https://parcs-madagascar.com/en/parc/tsingy-de-bemaraha/"},
+            {"label": "MadaMagazine · Tsingy de Bemaraha", "url": "https://www.madamagazine.com/en/deutsch-tsingy-de-bemaraha/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Tsingy_08.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Grand_Tsingy_08.JPG",
+                "credit": "Heinonlein · CC BY-SA 4.0",
+                "caption": "Grand Tsingy de Bemaraha.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsingy_de_Bemaraha,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Tsingy_de_Bemaraha,_Madagascar.jpg",
+                "credit": "Cactus0625 · CC BY-SA 4.0",
+                "caption": "Agujas calcáreas del Tsingy de Bemaraha.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Tsingy_12.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Grand_Tsingy_12.JPG",
+                "credit": "Heinonlein · CC BY-SA 4.0",
+                "caption": "Pasarelas del Grand Tsingy.",
+            },
+        ],
+    ),
+    dict(
+        n=14, name="Nosy Be · Lokobe y Nosy Tanikely", cat="Costa", prio="Alta",
+        dog="prohibido", time="2–3 noches",
+        lat=-13.407764, lon=48.2808016,  # Google Maps: Port de Nosy Be
+        desc="La isla turística de Madagascar (320 km², 109.465 hab.), con aeropuerto internacional en Fascene y los únicos resorts grandes del país; base para dos parques: Lokobe (15 km², reserva desde 1927, parque nacional en 2011), selva de baja altitud con LÉMURES NEGROS a la que se llega en piragua desde Ambatozavavy o por la nueva entrada de Ambanoro, y NOSY TANIKELY, «el acuario natural» (parque marino desde el 6-9-2011, 341 ha, 8,5 km al sur), con faro de 1908, tortugas y rayas a metros de la orilla. Seco y visitable de junio a septiembre; Canadá y FCDO avisan de robos incluso de día en playas aisladas.",
+        dog_note="Lokobe y Tanikely son parques nacionales (terrestre y marino); en la isla en general el perro dependería de cada hotel.",
+        visit={
+            "why": "Descanso de mar con esnórquel de primera y un parque de lémures a media hora: el cierre lógico del norte.",
+            "see": "Lémures negros, lémures deportivos y camaleones en Lokobe; tortugas, corales y peces en Tanikely; puesta de sol desde el Mont Passot; mercado de Hell-Ville.",
+            "access": "Se llega en avión (Fascene) o en lancha rápida desde Ankify (30 min a Hell-Ville; 9 h por carretera desde Diego) con salidas cuando se llenan; en la isla se alquila coche o se contrata taxi. Lokobe: oficina del parque en Marodoka a 7 km / 20 min del puerto, con circuitos Kindro (1 h), Mitsinjo (2 h), Ramy (4 h), Mahery (5-6 h) y Lakana en piragua (solo mañanas), y camping de 8 refugios. Tanikely: barco desde Hell-Ville o los hoteles; el parque exige RESERVA EN LÍNEA y llevar el ticket; entrada (importe 2026 por confirmar) con faro y museo; prohibido pescar, tocar animales y bucear de noche. El pin marca el puerto de Hell-Ville, punto de salida de barcos y llegada del ferry.",
+            "when": "Junio-septiembre (seco); Tanikely a primera hora, antes de que lleguen los barcos de excursión.",
+            "skip": "Descartar si el objetivo es naturaleza salvaje y no playa: Lokobe y Tanikely se hacen en un día desde Ankify sin dormir en resorts.",
+        },
+        links=[
+            {"label": "Office du Tourisme de Nosy Be · Nosy Tanikely", "url": "https://nosybe-tourisme.com/en/discover/the-neighbouring-islands/nosy-tanikely/"},
+            {"label": "Nosy Tanikely NP (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Nosy_Tanikely_National_Park"},
+            {"label": "Madagascar National Parks · Lokobe", "url": "https://parcs-madagascar.com/en/parc/lokobe-2/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ville_de_Nosy_Be_Hell_ville,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ville_de_Nosy_Be_Hell_ville,_Madagascar.jpg",
+                "credit": "Anai171 · CC BY-SA 4.0",
+                "caption": "Hell-Ville (Andoany), capital de Nosy Be.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ville_de_Nosy_Be_Hell_ville.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ville_de_Nosy_Be_Hell_ville.jpg",
+                "credit": "Anai171 · CC BY-SA 4.0",
+                "caption": "Frente marítimo de Hell-Ville.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1brido_(Macropharyngodon_bipartitus),_Nosy_Tanikely,_Madagascar,_2025-09-19,_DD_123.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:L%C3%A1brido_(Macropharyngodon_bipartitus),_Nosy_Tanikely,_Madagascar,_2025-09-19,_DD_123.jpg",
+                "credit": "Diego Delso · CC BY-SA 4.0",
+                "caption": "Fondo marino de Nosy Tanikely.",
+            },
+        ],
+    ),
+    dict(
+        n=15, name="Antsiranana (Diego Suárez) · bahía, Ramena y Mar de Esmeralda", cat="Costa", prio="Alta",
+        dog="permitido con condiciones", time="2 noches",
+        lat=-12.2494307, lon=49.3414343,  # Google Maps: Plage de Ramena
+        desc="Ciudad-puerto del extremo norte (129.320 hab.) sobre una de las mayores bahías de aguas profundas del Índico, colonia naval francesa desde 1885 y escenario en 1942 de la Operación Ironclad, con ataque de minisubmarinos japoneses. A 18 km por la RN59b asfaltada, la playa de Ramena es el embarcadero hacia el MAR DE ESMERALDA, laguna turquesa al otro lado de la bocana (1 h en piragua de vela, unos 60.000 Ar el día con comida), y hacia el Pain de Sucre. Base para Montaña de Ámbar y Ankarana; de junio a septiembre sopla el varatraza, viento del este que hace de la bahía un destino de kitesurf.",
+        dog_note="Ciudad y playa de Ramena sin restricciones formales; en la excursión en barco al Mar de Esmeralda depende del patrón.",
+        visit={
+            "why": "Es la única ciudad del norte con servicios, aeropuerto y ambiente, y la laguna del Mar de Esmeralda justifica un día entero.",
+            "see": "Mar de Esmeralda en barca de vela, Pain de Sucre en medio de la bahía, playa de Ramena, Baie des Sakalava (kite), casas coloniales de la rue Colbert, Montagne des Français (con guía oficial según FCDO).",
+            "access": "RN6 asfaltada desde el sur (el tramo Ambondramamy-Ambanja es lento, 30 km/h en tramos según roadtripafrica) o vuelo a Arrachart; Ramena por la RN59b con aparcamiento en la playa y hoteles. Barcas al Mar de Esmeralda se contratan en Ramena. El pin marca la playa de Ramena.",
+            "when": "Mañana para la laguna (1 h de barca desde Ramena); junio-septiembre es la mejor época según MadaMagazine, con el varatraza soplando por las tardes.",
+            "skip": "Descartar el Mar de Esmeralda con viento fuerte o marejada; la ciudad sola es una tarde.",
+        },
+        links=[
+            {"label": "Antsiranana (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Antsiranana"},
+            {"label": "Ramena (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ramena"},
+            {"label": "MadaMagazine · Mar de Esmeralda", "url": "https://www.madamagazine.com/en/das-smaragdmeer/"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_panoramique_de_Diego-Suarez_du_haut_des_Montagnes_des_Fran%C3%A7ais_(44543).jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Vue_panoramique_de_Diego-Suarez_du_haut_des_Montagnes_des_Fran%C3%A7ais_(44543).jpg",
+                "credit": "IrmaA2 · CC BY-SA 3.0",
+                "caption": "Bahía de Diego Suárez desde la Montagne des Français.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/La_plage_Ramena_Antsiranana_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:La_plage_Ramena_Antsiranana_Madagascar.jpg",
+                "credit": "Chirocca77 · CC0",
+                "caption": "Playa de Ramena.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramena_Beach_Antsiranana_Madagascar_-_panoramio.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ramena_Beach_Antsiranana_Madagascar_-_panoramio.jpg",
+                "credit": "Hiroki Ogawa · CC BY 3.0",
+                "caption": "Ramena, a 18 km de Antsiranana.",
+            },
+        ],
+    ),
+    dict(
+        n=16, name="Parque nacional de la Montaña de Ámbar", cat="Naturaleza", prio="Media",
+        dog="prohibido", time="medio día – 1 noche",
+        lat=-12.6166667, lon=49.15,  # Google Maps: Parque nacional de la Montaña de Ámbar
+        desc="Macizo volcánico aislado que se levanta sobre la sabana del norte (18.200 ha de parque más reserva especial), PRIMER PARQUE NACIONAL DE MADAGASCAR (28-10-1958), a solo 37 km de Antsiranana vía Joffreville (34 km asfaltados + 3 km de pista). Recibe 3.585 mm de lluvia frente a los 1.000 mm de la ciudad, de ahí su selva con cascadas —la Grande Cascade de Antomboka, de 80 m, y la cascada sagrada— y cinco lagos de cráter. Su camaleón hoja Brookesia tuberculata es UNO DE LOS REPTILES MÁS PEQUEÑOS DEL MUNDO; ocho especies de lémures. Fresco y húmedo: chubasquero.",
+        dog_note="Parque nacional; no se admiten animales.",
+        visit={
+            "why": "Es el respiro verde y fresco del norte seco, con senderos fáciles bien señalizados y camping oficial.",
+            "see": "Cascada sagrada y Grande Cascade, lago Mahasarika, lémures coronados y de Sanford, camaleones diminutos, mirador sobre la bahía; circuito largo al Cratère du Renard con vista al Canal de Mozambique.",
+            "access": "Taxi-brousse o coche desde Diego a Joffreville (45 min) y 3 km de pista hasta la entrada con centro de visitantes, aparcamiento y camping. Guía obligatorio; tarifas oficiales en parcs-madagascar.com. Abierto todo el año. El pin marca la entrada del parque encima de Joffreville.",
+            "when": "Mañana (aves y lémures activos); abril-noviembre, aunque puede llover cualquier día.",
+            "skip": "Descartar si ya se ha hecho Andasibe o Ranomafana y se va corto de tiempo: Ankarana es más singular.",
+        },
+        links=[
+            {"label": "Madagascar National Parks · Montagne d'Ambre", "url": "https://parcs-madagascar.com/en/parc/montagne-dambre-2/"},
+            {"label": "Montagne d'Ambre NP (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Montagne_d%27Ambre_National_Park"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterfall_Montagne_d_Ambre_MS5563.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Waterfall_Montagne_d_Ambre_MS5563.jpg",
+                "credit": "Marco Schmidt · CC BY-SA 3.0",
+                "caption": "Cascada en el parque de la Montaña de Ámbar.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amber_Mountain_chameleon_(Calumma_amber)_male_Montagne_d'Ambre_2.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Amber_Mountain_chameleon_(Calumma_amber)_male_Montagne_d'Ambre_2.jpg",
+                "credit": "Charles J. Sharp · CC BY-SA 4.0",
+                "caption": "Camaleón endémico de la Montaña de Ámbar.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_sacr%C3%A9_de_la_montagne_d'ambre.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Cascade_sacr%C3%A9_de_la_montagne_d'ambre.jpg",
+                "credit": "Mevsoa · CC BY-SA 4.0",
+                "caption": "Cascada sagrada de la Montaña de Ámbar.",
+            },
+        ],
+    ),
+    dict(
+        n=17, name="Reserva especial de Ankarana · tsingy y cuevas", cat="Naturaleza", prio="Alta",
+        dog="prohibido", time="1–2 noches",
+        lat=-12.8955434, lon=49.1423666,  # Google Maps: Reserva especial de Ankarana
+        desc="Meseta de caliza jurásica (182 km², reserva desde el 20-2-1956) a 108 km al suroeste de Antsiranana, con tsingy, cañones y UNOS 100 KM DE GALERÍAS SUBTERRÁNEAS CARTOGRAFIADAS —la cueva de Andrafiabe suma más de 8 km— por las que corren ríos que desaparecen en la «Perte des Rivières». Refugio de lémures coronados y de Sanford, y de colonias de murciélagos en la Grotte des Chauves-Souris. Es el tsingy fácil: entrada de Mahamasina sobre la RN6 asfaltada, con camping equipado y circuitos de 2 a 9 horas. Guía obligatorio; frontal para las cuevas.",
+        dog_note="Reserva de Madagascar National Parks; sin animales.",
+        visit={
+            "why": "Tsingy, cuevas y lémures en un mismo día y sin las 10 h de pista del Bemaraha; ideal si el oeste queda fuera del plan.",
+            "see": "Tsingy Rary y Tsingy Meva con puente colgante, Grotte des Chauves-Souris, Perte des Rivières, Lac Vert, lémures coronados al atardecer en el campamento.",
+            "access": "Oficina de Mahamasina en la RN6, 30 km al norte de Ambilobe, con aparcamiento y 15 plazas de camping cubiertas; entrada oeste de Andrafiabe solo julio-noviembre y en 4x4. Tarifas en la recepción / parcs-madagascar.com. El pin marca la oficina de Mahamasina.",
+            "when": "Abril-noviembre; zona oeste solo julio-noviembre; empezar al amanecer por el calor de la caliza.",
+            "skip": "Descartar el sector oeste sin 4x4 propio y sin dos días; el este se hace de camino entre Diego y Nosy Be.",
+        },
+        links=[
+            {"label": "Madagascar National Parks · Ankarana", "url": "https://parcs-madagascar.com/en/parc/ankarana/"},
+            {"label": "Ankarana Special Reserve (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ankarana_Special_Reserve"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ankarana_Reserve_tsingy_at_sunset_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ankarana_Reserve_tsingy_at_sunset_Madagascar.jpg",
+                "credit": "Lemurbaby · CC BY-SA 4.0",
+                "caption": "Tsingy de Ankarana al atardecer.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsingy_Ankarana_Madagascar_16-07-2004.JPG?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Tsingy_Ankarana_Madagascar_16-07-2004.JPG",
+                "credit": "Stooof (Wikimedia Commons) · CC BY 2.5",
+                "caption": "Los grandes tsingy de Ankarana.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Tsingy_-_Ankarana_National_Park.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Big_Tsingy_-_Ankarana_National_Park.jpg",
+                "credit": "Leonora Enking · CC BY-SA 2.0",
+                "caption": "Big Tsingy, Ankarana.",
+            },
+        ],
+    ),
+    dict(
+        n=18, name="Isla de Sainte-Marie (Nosy Boraha) · ballenas jorobadas y cementerio de piratas", cat="Costa", prio="Alta",
+        dog="no recomendado", time="2–3 noches",
+        lat=-17.0118552, lon=49.8478264,  # Google Maps: Cementerio de los piratas, Ambodifotatra
+        desc="Isla alargada de la costa este (60 km por menos de 10, 222 km², unos 30.000 hab.) que entre 1691 y 1719 fue GUARIDA DE PIRATAS COMO KIDD, LEVASSEUR O EVERY, con base en la Île aux Forbans de la bahía de Ambodifotatra; el cementerio de piratas, con lápidas ilegibles bajo las palmeras, es la visita obligada. De junio a septiembre las BALLENAS JOROBADAS llegan del Antártico a la bahía de Tintingue para aparearse y criar, con máximo en julio-septiembre y el Festival des Baleines en julio; está prohibido meterse al agua con ellas. Aeropuerto internacional desde 2015; lanchas desde Soanierana Ivongo y Mahambo, con mar a menudo duro.",
+        dog_note="Se llega en avión o en lancha desde Soanierana Ivongo; las salidas de avistamiento de ballenas no admiten animales. Canadá cita agresiones en la isla.",
+        visit={
+            "why": "Ballenas a pocos metros de la barca y la historia pirata más tangible del Índico, en una isla tranquila de bicicletas y playas.",
+            "see": "Salidas de avistamiento de ballenas, cementerio de piratas, Île aux Forbans, Île aux Nattes en piragua, iglesia de Ambodifotatra.",
+            "access": "Avión desde Tana o lancha desde Soanierana Ivongo (RN5 asfaltada desde Toamasina hasta allí; 4x4 aparcado en tierra). En la isla, moto, bici o quad; el cementerio está a la salida sur de Ambodifotatra con aparcamiento y taquilla. El pin marca el cementerio de piratas.",
+            "when": "Julio-septiembre para las ballenas; el resto del año la isla es lluviosa y con ciclones de enero a marzo.",
+            "skip": "Descartar fuera de la temporada de ballenas si el presupuesto de vuelos internos es ajustado.",
+        },
+        links=[
+            {"label": "Nosy Boraha (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Nosy_Boraha"},
+            {"label": "Soanierana Ivongo (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Soanierana_Ivongo"},
+            {"label": "TravelLocal · ballenas en Madagascar", "url": "https://www.travellocal.com/en/articles/whale-watching-madagascar-ile-sainte-marie"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pirogues_de_l'%C3%AEle_aux_Nattes,_Sainte-Marie,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Pirogues_de_l'%C3%AEle_aux_Nattes,_Sainte-Marie,_Madagascar.jpg",
+                "credit": "Anai171 · CC BY-SA 4.0",
+                "caption": "Piraguas en la Île aux Nattes, Sainte-Marie.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ambodifototra_pirate_cemetery_200608_hat.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Ambodifototra_pirate_cemetery_200608_hat.jpg",
+                "credit": "Michipanero · CC BY 3.0",
+                "caption": "Cementerio de los piratas de Ambodifotatra.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%AAcheur_dans_le_lagon_de_Coco_Bay,_au_nord_de_Sainte-Marie,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:P%C3%AAcheur_dans_le_lagon_de_Coco_Bay,_au_nord_de_Sainte-Marie,_Madagascar.jpg",
+                "credit": "Anai171 · CC BY-SA 4.0",
+                "caption": "Laguna de Coco Bay, norte de Sainte-Marie.",
+            },
+        ],
+    ),
+    dict(
+        n=19, name="Parque nacional de Masoala y Nosy Mangabe (Maroantsetra)", cat="Patrimonio UNESCO", prio="Media",
+        dog="prohibido", time="3–4 noches",
+        lat=-15.4393825, lon=49.7481203,  # Google Maps: Madagascar National Parks Office - Masoala park
+        desc="EL MAYOR ESPACIO PROTEGIDO DE MADAGASCAR (2.400 km², parque desde 1997, UNESCO Atsinanana 2007): la selva de la península de Masoala llega hasta el mar con tres reservas marinas y el lémur rufo rojo, endémico de aquí. Se entra solo en barca (unas 3 h) desde Maroantsetra; en la misma bahía, a 2 km y 45 min, la isla-reserva de NOSY MANGABE (1965) es uno de los mejores sitios del mundo para ver el AYE-AYE nocturno, con campamento y grabados de marinos holandeses del s. XVI. Maroantsetra se alcanza en avión (lunes desde Tana, cancelable) o por la RN5: 400 km, 2-5 días de barro y 13 ríos.",
+        dog_note="Parque nacional y reserva especial de acceso en barca; sin animales.",
+        visit={
+            "why": "La selva primaria más grande y remota del país, con aye-aye, ballenas en la bahía de Antongil y playas vacías: para quien quiera un final de expedición.",
+            "see": "Lémur rufo rojo, aye-aye y ranas en Nosy Mangabe, esnórquel en Tampolo, cascadas y bosque de palmeras, ballenas jorobadas en la bahía de Antongil (julio-principios de octubre, con menos barcos que en Sainte-Marie).",
+            "access": "Oficina y taquilla del parque a 1 km del centro de Maroantsetra; lanchas contratadas allí o vía lodges de Tampolo. Camping en sitios designados y en Nosy Mangabe. Guía obligatorio. Sin 4x4: el vehículo alquilado no llega por la RN5 salvo expedición. El pin marca la oficina del parque en Maroantsetra.",
+            "when": "Septiembre-diciembre (menos lluvia); evitar enero-marzo por ciclones; lluvia posible cualquier día.",
+            "skip": "Descartar si el presupuesto y los días son ajustados: exige vuelo interno, barcas y 4 días mínimo, con posibilidad de quedarse atrapado por cancelaciones.",
+        },
+        links=[
+            {"label": "Madagascar National Parks · Masoala", "url": "https://parcs-madagascar.com/en/parc/masoala/"},
+            {"label": "Masoala NP (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Masoala_National_Park"},
+            {"label": "Nosy Mangabe (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Nosy_Mangabe"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Masoala_village.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Masoala_village.jpg",
+                "credit": "Mendel264 · CC0",
+                "caption": "Aldea de Masoala, junto al parque nacional.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Uroplatus_fimbriatus_Nosy_Mangabe_Tag.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Uroplatus_fimbriatus_Nosy_Mangabe_Tag.jpg",
+                "credit": "Leyo · CC BY-SA 3.0 ch",
+                "caption": "Gecko de cola de hoja gigante en Nosy Mangabe.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Brown_Mouse_Lemur,_Nosy_Mangabe,_Madagascar.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Brown_Mouse_Lemur,_Nosy_Mangabe,_Madagascar.jpg",
+                "credit": "Frank Vassen · CC BY 2.0",
+                "caption": "Lémur ratón en Nosy Mangabe.",
+            },
+        ],
+    ),
+    dict(
+        n=20, name="Antsirabe · ciudad termal y lagos Tritriva y Andraikiba", cat="Ciudad · servicios", prio="Media",
+        dog="permitido con condiciones", time="1 noche",
+        lat=-19.928924, lon=46.9245193,  # Google Maps: Lake Tritriva
+        desc="Ciudad de las tierras altas a 1.500 m (265.018 hab.), fundada en 1872 por el misionero noruego T.G. Rosaas como lugar de reposo; los baños termales abrieron en 1917 y el Hôtel des Thermes en 1922. Es la capital del pousse-pousse (5.600 censados en 2006) y de los talleres de cuernos de cebú y piedras. A 15 km por la RN34, el LAGO TRITRIVA, EL MÁS PROFUNDO DE MADAGASCAR (160 m), llena un cráter cerrado por paredes de gneis a 1.950 m; es fady bañarse. El Andraikiba, a 7 km, es otro cráter con paseo y barcas. Noches frías: la ciudad está más alta que Tana.",
+        dog_note="Ciudad y miradores de los lagos sin restricción formal; en Tritriva rige el fady (no bañarse) y conviene llevarlo atado por el ganado.",
+        visit={
+            "why": "Parada lógica de la RN7 con hoteles cómodos, ambiente colonial y dos lagos de cráter en una mañana.",
+            "see": "Hôtel des Thermes y la avenida de la Independencia, catedral, mercado, talleres artesanos; miradores del Tritriva y paseo por el borde del cráter; ribera del Andraikiba.",
+            "access": "RN7 asfaltada desde Tana; Tritriva por la RN34 y pista de tierra final con aparcamiento en el mirador y entrada comunal más guía local (tarifas por confirmar). El pin marca el lago Tritriva.",
+            "when": "Mañana despejada para los lagos; todo el año (junio-agosto muy frío).",
+            "skip": "Descartar los lagos con niebla o lluvia intensa; la ciudad es parada de servicios en cualquier caso.",
+        },
+        links=[
+            {"label": "Antsirabe (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Antsirabe"},
+            {"label": "Lake Tritriva (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Lake_Tritriva"},
+        ],
+        photos=[
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Tritriva_01.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Lake_Tritriva_01.jpg",
+                "credit": "Bernard Gagnon · CC BY-SA 3.0",
+                "caption": "Lago de cráter Tritriva, cerca de Antsirabe.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lac_Tritriva_3.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:Lac_Tritriva_3.jpg",
+                "credit": "HoneyGaLe · CC BY-SA 3.0",
+                "caption": "Lago Tritriva.",
+            },
+            {
+                "img": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B4tel_des_Thermes_Antsirabe_II.jpg?width=1200",
+                "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_des_Thermes_Antsirabe_II.jpg",
+                "credit": "Smiley.toerist · CC BY-SA 3.0",
+                "caption": "Hôtel des Thermes de Antsirabe.",
+            },
+        ],
+    ),
 ]
+
+_CAT_COLOR = {"naturaleza": "verde", "ciudad · servicios": "azul", "cultura": "morado",
+              "patrimonio unesco": "marron", "costa": "turquesa"}
+for _p in POIS:
+    # La portada de la tarjeta, el globo del mapa y el modal es siempre la primera foto de la galería.
+    _p["img"] = _p["photos"][0]["img"]
+    _p["source"] = _p["photos"][0]["source"]
+    _p["credit"] = _p["photos"][0]["credit"]
+    _p["icon"] = _p["cat"].lower(); _p["color"] = _CAT_COLOR.get(_p["cat"].lower(), "ambar")
 
 LOGISTICS = [
-    ("Aeropuerto Internacional Ivato (Antananarivo)", "Consular", -18.7969, 47.4788,
-     "Único aeropuerto internacional relevante para esta escapada; vuelos domésticos de Air Madagascar/Tsaradia hacia Morondava, Nosy Be y otros puntos."),
-    ("Hôpital Joseph Ravoahangy Andrianavalona (HJRA), Antananarivo", "Hospital", -18.9100, 47.5250,
-     "Principal hospital de referencia del país, en la capital; fuera de Antananarivo la atención médica es muy limitada — seguro de evacuación fuertemente recomendado."),
-    ("Centre ValBio, cerca de Ranomafana", "Servicio", -21.2550, 47.4200,
-     "Centro de investigación con presencia médica básica ligada al parque; no sustituye una evacuación a Antananarivo en caso serio."),
+    ("Aeropuerto Internacional de Ivato (TNR)", "Frontera", -18.7994591, 47.4754027,  # Google Maps: Aeropuerto Internacional Ivato
+     "Único punto de entrada previsto; visado a la llegada (efectivo o tarjeta); control sanitario; oficinas de Yas/Orange/Airtel para SIM. Pin comprobado en Google Maps («Aeropuerto Internacional Ivato»)."),
+    ("Puerto de Toamasina (Tamatave)", "Frontera", -18.1566992, 49.4250011,  # Google Maps: Puerto de Toamasina
+     "Principal puerto de carga internacional; sin ferry de pasajeros con vehículo. Pin comprobado en Google Maps («Puerto de Toamasina»)."),
+    ("Embajada de España en Pretoria (competente para Madagascar)", "Consular", -25.7702496, 28.2507774,  # Google Maps: Embassy of Spain
+     "Lord Charles Complex, 337 Brooklyn Road, Brooklyn, Pretoria 0181. Tel +27 12 460 0123; emergencia consular +27 76 114 6151 (web embajada) / 6152 (MAEC); emb.pretoria.nac@maec.es. Pin comprobado en Google Maps («Embassy of Spain»)."),
+    ("Consulado Honorario de España en Antananarivo", "Consular", -18.9473846, 47.5241091,  # Google Maps: Consulat D'Espagne
+     "Hasnaine Yavar, BP 1330 Ankadimbahoaka, Antananarivo 101. Tel +261 34 02 06 363 / +261 20 22 222 31; 24 h +261 32 11 060 74; ch.espagne@consulat.mg. Pin comprobado en Google Maps («Consulat D'Espagne»)."),
+    ("Hôpital Joseph Ravoahangy Andrianavalona (HJRA)", "Hospital", -18.9193465, 47.5189956,  # Google Maps: Joseph Ravoahangy Andrianavalona Hospital
+     "Hospital público de referencia en Antananarivo (Ampefiloha). Tel +261 33 11 890 58 (MAEC). Pin comprobado en Google Maps («Joseph Ravoahangy Andrianavalona Hospital»)."),
+    ("Policlinique d'Ilafy", "Hospital", -18.8550173, 47.5499481,  # Google Maps: Polyclinique d'Ilafy
+     "Clínica privada citada por el MAEC. Tel +261 20 22 425 66. Pin comprobado en Google Maps («Polyclinique d'Ilafy»)."),
+    ("Gasolineras de Antananarivo (ejes RN7/RN4/RN2)", "Combustible", -18.8788911, 47.5090952,  # Google Maps: Jovena Madagascar (Andraharo)
+     "Diésel ~4.670 MGA/l (ene-2026). Repostar al salir de cada pueblo; huecos críticos en el oeste. Pin comprobado en Google Maps («Jovena Madagascar (Andraharo)»)."),
+    ("Agua embotellada (supermercados de Antananarivo)", "Agua potable", -18.9054119, 47.5243017,  # Google Maps: Super U Analakely
+     "Grifo no potable; comprar garrafas en supermercado antes de salir de la capital. Pin comprobado en Google Maps («Super U Analakely»)."),
 ]
 
-FACTS = [
-    ("Duración", "Escapada aparte de la ruta 4x4: 8-12 días si se combinan baobabs/Tsingy con Andasibe y/o el sur (Ranomafana-Isalo); menos si solo se hace un circuito"),
-    ("Vehículo", "Los 4x4 de expedición se quedan en el continente; en Madagascar se alquila coche con conductor-guía o 4x4 de alquiler local — las pistas son duras y la señalización escasa"),
-    ("Perro", "Se recomienda dejarlo con un cuidador de confianza en el continente durante esta escapada; llevarlo en avión exigiría permiso de importación y jaula homologada IATA, un trámite aparte que no compensa para un viaje corto"),
-    ("Vuelos internos", "Varios destinos (Morondava, Nosy Be) se conectan mejor en vuelo doméstico que por carretera — las distancias por pista son largas y lentas"),
-    ("Salud", "Malaria en todo el país salvo Antananarivo, con resistencia a cloroquina; fiebre amarilla si se llega desde país con riesgo; peste transmitida por pulgas presente en algunas zonas — profilaxis y repelente imprescindibles"),
-    ("Drones", "Registro obligatorio ante la autoridad de aviación civil (ACM) antes de volar uno, salvo modelos muy pequeños sin sensores"),
-]
+DRONE_CALLOUT = ("warn", "Registro previo en la ACM o no vuela",
+                 "La Aviation Civile de Madagascar (ACM) exige registrar el dron ANTES de llegar (correo a drone@acm.mg con pasaporte, factura, manual, fotos de dron y mando con número de serie y formulario) y obtener autorización para cada operación; solo quedan exentos los juguetes de menos de 900 g y alcance inferior a 100 m. Usar un dron sin registro es infracción administrativa o penal (WAU Madagascar, jun-2025; drone-traveller, ago-2026). Los parques nacionales piden además permiso propio. Trámite de semanas: si no se hace con antelación, el dron se queda en el continente.")
 
-ALERTS = [
-    "Es una escapada EN AVIÓN, separada de la ruta 4x4 — no lleva los vehículos de expedición.",
-    "Las pistas hacia Tsingy de Bemaraha y Morondava son duras y lentas incluso en 4x4 de alquiler; mejor con conductor-guía local que las conoce.",
-    "Malaria en todo el país excepto la capital: profilaxis, repelente y mosquitera son obligatorios, no opcionales.",
-    "El perro se queda en el continente con un cuidador — no está pensado para venir en esta escapada.",
-]
+STARLINK_CALLOUT = ("", "Starlink operativo desde 2024; basta una SIM local",
+                    "Starlink lanzó el servicio comercial en Madagascar el 27 de junio de 2024 con licencia de la ARTEC: cuota 226.000 MGA/mes (~50 USD) y kit 1,12 M MGA (Ecofin, jun-2024). En mayo de 2026 SpaceX y Airtel tramitaban el Direct-to-Cell tras pruebas con éxito en Sadabe en marzo de 2026 (Space in Africa). Para una escapada de dos semanas sin vehículo propio el terminal se queda en los 4x4; una SIM Yas u Orange comprada en Ivato con pasaporte cubre la RN7 y las ciudades.")
 
-ROUTE = [
-    ("1", "Vuelo a Antananarivo (Ivato)", "Llegada, cambio de moneda, organizar coche/guía", "Confirmar eVisa impreso o en el móvil"),
-    ("2", "Antananarivo → Andasibe-Mantadia", "Selva y el canto del indri", "Reservar guía del parque con antelación"),
-    ("3", "Andasibe → Antananarivo → vuelo o carretera a Morondava", "Traslado hacia el oeste", "Valorar vuelo doméstico para ahorrar 1-2 días de pista"),
-    ("4", "Morondava · Avenida de los Baobabs", "Atardecer entre baobabs; Kirindy si hay tiempo", "Repostar a fondo antes de continuar"),
-    ("5-6", "Tsingy de Bemaraha", "Vía ferrata y formaciones kársticas con guía obligatorio", "Pista con vados y transbordador; salir con margen"),
-    ("7", "Regreso a Morondava / Antananarivo", "Cierre del bloque oeste", "Vuelo doméstico recomendado de vuelta"),
-    ("8-9", "Ranomafana", "Selva de montaña, lémur de bambú dorado", "Combinar con Isalo si el calendario lo permite"),
-    ("10-11", "Isalo", "Cañones, piscinas naturales, senderismo con guía", "Oficina del parque en Ranohira"),
-    ("12", "Vuelo de regreso al continente", "Cierre de la escapada", "Recoger al perro y retomar la ruta 4x4"),
-]
-
-VISADO = [
-    "eVisa de turista obligatorio, trámite online en evisamada.gov.mg antes de volar (también existe visa on arrival como alternativa, más lenta); válido hasta 60 días de estancia única.",
-    "Llevar el eVisa impreso o guardado en el móvil para el control policial a la llegada a Ivato.",
-]
-
-FRONTERAS_ROWS = [
-    ("Entrada única", "Aeropuerto Internacional Ivato (Antananarivo)", "eVisa tramitado con antelación; sin conexión terrestre ni ferry de pasajero+vehículo con el continente"),
-]
-
-VEHICULOS = [
-    "No aplica CPD ni matrícula temporal: los 4x4 de expedición no viajan a Madagascar.",
-    "In situ: alquiler de 4x4 con o sin conductor-guía — muy recomendable con conductor por el estado de las pistas y la señalización.",
-]
-
-DRONES_CALLOUT = ("warn", "Registro obligatorio", "Todo dron debe registrarse ante la Autoridad de Aviación Civil (ACM) antes de volar, salvo modelos muy pequeños sin sensores; el procedimiento actual es por email a drone@acm.mg mientras se implanta una plataforma online.")
-DRONES = [
-    "Iniciar el registro con semanas de antelación: pasaporte, factura de compra, manual, fotos de los números de serie del dron y del mando.",
-    "Sin restricciones publicadas por parque de forma centralizada — confirmar en cada oficina de parque (Isalo, Tsingy, Andasibe) antes de volar.",
-]
-
-STARLINK_CALLOUT = ("", "Estado por confirmar", "No se ha verificado la disponibilidad ni cobertura real de Starlink Roam en Madagascar para esta ficha — comprobar antes del viaje si es imprescindible mantener conexión en zonas remotas como Tsingy.")
-STARLINK = [
-    "Cobertura móvil razonable en ciudades y parques principales; débil o nula en pistas remotas hacia Tsingy de Bemaraha.",
-]
-
-PERRO_INTRO = [
-    "Esta escapada está pensada SIN el perro: se queda con un cuidador de confianza en el continente durante los días que dure Madagascar.",
-    "Si en algún momento se quisiera llevarlo, haría falta permiso de importación de animales, certificado veterinario internacional y jaula homologada IATA para el vuelo — un trámite propio que no compensa para una escapada corta.",
-]
-
-SALUD = [
-    "Malaria en todo el país excepto Antananarivo, con resistencia a cloroquina — profilaxis específica indicada por Sanidad Exterior.",
-    "Fiebre amarilla: certificado exigible si se llega desde país con riesgo de transmisión.",
-    "Peste transmitida por pulgas presente en algunas zonas rurales; dengue, chikungunya y fiebre del Valle del Rift también descritos — repelente y ropa larga, sobre todo en temporada de lluvias (noviembre-abril).",
-    "Vacunas recomendadas: fiebre tifoidea, hepatitis A, rabia (riesgo moderado) y las de calendario habituales.",
-]
-
-SEGURIDAD_INTRO = "Madagascar es en general un destino turístico estable, con precaución normal en ciudades grandes (carteristas, robos oportunistas) y atención al estado de las pistas más que a la seguridad personal."
-SEGURIDAD = [
-    "Antananarivo: cuidado habitual con carteristas y robos oportunistas, sobre todo de noche.",
-    "Pistas remotas (Tsingy, sur): salir con margen de luz, agua y combustible; la asistencia en carretera es escasa.",
-    "Contratar guía local obligatorio en los parques (Isalo, Tsingy, Andasibe) — no es solo recomendable, es la norma del país.",
-]
-
-PENDIENTES = [
-    ("Duración real", "Decidir si esta escapada compensa dentro del calendario del bloque sur/este, y cuántos días dedicarle"),
-    ("Cuidado del perro", "Cerrar con quién se queda el perro en el continente durante estos días"),
-    ("Starlink/cobertura", "Confirmar si hace falta conexión garantizada en las pistas remotas"),
-    ("Circuito definitivo", "Elegir entre el bloque oeste (baobabs + Tsingy), el bloque centro-sur (Ranomafana + Isalo) o ambos si el tiempo lo permite"),
+DOG_MATRIX = [
+    ("Entrada en avión (Ivato)", "permitido con condiciones", "Permiso DSV previo + certificado oficial ≤15 días; si no llega a tiempo, cuidador en el continente."),
+    ("Parques nacionales (Madagascar National Parks)", "por confirmar", "Normativa de mascotas no localizada; asumir prohibido y dejar al perro en el alojamiento."),
+    ("Alojamientos y 4x4 de alquiler", "por confirmar", "Preguntar a la agencia antes de contratar; muchos hoteles no admiten perros."),
+    ("Zonas rurales sur/oeste", "no recomendado", "Rabia endémica, perros callejeros y peste; correa y vigilancia."),
+    ("Vuelo interno (Madagascar Airlines)", "permitido con condiciones", "Bodega ≤32 kg solo según capacidad del avión; reservar con medidas de la jaula."),
+    ("Vuelta a la UE desde Madagascar", "permitido con condiciones", "Titulación previa anotada en el pasaporte UE; si se revacuna en Madagascar, certificado oficial DSV (válido 10 días)."),
 ]
 
 SOURCES = [
-    ("Road Trip Africa · Madagascar self-drive itineraries", "https://www.roadtripafrica.com/madagascar/itinerary/"),
-    ("Road Trip Africa · The Baobab Route (14 días)", "https://www.roadtripafrica.com/madagascar/itinerary/the-baobab-route/"),
-    ("Adventure Life · Madagascar Highlights", "https://www.adventure-life.com/africa/articles/madagascar-highlights"),
-    ("SafariFind · Madagascar Visa for Spanish Citizens 2026", "https://www.safarifind.uk/blog/madagascar-visa-for-spanish-citizens-in-2026-requirements"),
-    ("Portal oficial eVisa Madagascar", "https://evisamada.gov.mg"),
-    ("Passport Health · Madagascar health risks & vaccines", "https://www.passporthealthusa.com/destination-advice/madagascar/"),
-    ("CDC · Madagascar Traveler View", "https://wwwnc.cdc.gov/travel/destinations/traveler/none/madagascar"),
-    ("WAU Madagascar · New Drone Regulations", "https://waumadagascar.com/blog/new-drone-regulations-in-madagascar-what-travelers-and-operators-need-to-know"),
-    ("Wikivoyage · Ranomafana / Isalo / Tsingy de Bemaraha", "https://en.wikivoyage.org/wiki/Madagascar"),
-    ("MAEC España · Embajada en Pretoria, también competente en Madagascar", "https://www.exteriores.gob.es/Embajadas/pretoria/es/Embajada/tambien-somos-tu-embajada-en/Paginas/Madagascar.aspx"),
+    ("MAEC · Recomendaciones de viaje Madagascar (18-may-2026)", "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Madagascar"),
+    ("MAEC · Ficha País Madagascar (jun-2026)", "https://www.exteriores.gob.es/Documents/FichasPais/MADAGASCAR_FICHA%20PAIS.pdf"),
+    ("MAEC · Embajada de España en Pretoria (2026)", "https://www.exteriores.gob.es/Embajadas/pretoria/es/Paginas/index.aspx"),
+    ("FCDO · Madagascar travel advice, portada (9-sep-2026)", "https://www.gov.uk/foreign-travel-advice/madagascar"),
+    ("FCDO · Madagascar safety and security (sep-2026)", "https://www.gov.uk/foreign-travel-advice/madagascar/safety-and-security"),
+    ("FCDO · Madagascar regional risks (sep-2026)", "https://www.gov.uk/foreign-travel-advice/madagascar/regional-risks"),
+    ("FCDO · Madagascar entry requirements (sep-2026)", "https://www.gov.uk/foreign-travel-advice/madagascar/entry-requirements"),
+    ("FCDO · Madagascar health (sep-2026)", "https://www.gov.uk/foreign-travel-advice/madagascar/health"),
+    ("Gobierno de Canadá · Travel advice Madagascar (9-sep-2026)", "https://travel.gc.ca/destinations/madagascar"),
+    ("TravelHealthPro/NaTHNaC · Madagascar (jun-2026)", "https://travelhealthpro.org.uk/country/134/madagascar"),
+    ("Wikipedia · Visa policy of Madagascar (2026)", "https://en.wikipedia.org/wiki/Visa_policy_of_Madagascar"),
+    ("VisasNews · Madagascar triples its 15-day e-Visa fee (16-feb-2026)", "https://visasnews.com/en/madagascar-triples-its-15-day-e-visa-fee/"),
+    ("Hilary Bradt · Madagascar updates chapters 1–6 (2024–2025)", "https://hilarybradt.com/madagascar-updates/chapters-1-to-6/"),
+    ("Rough Guides · Getting to Madagascar", "https://www.roughguides.com/madagascar/getting-there/"),
+    ("Wikipedia · Transport in Madagascar", "https://en.wikipedia.org/wiki/Transport_in_Madagascar"),
+    ("Wikipedia · Ivato International Airport", "https://en.wikipedia.org/wiki/Ivato_International_Airport"),
+    ("Wikipedia · Toamasina", "https://en.wikipedia.org/wiki/Toamasina"),
+    ("Wikipedia · Antananarivo", "https://en.wikipedia.org/wiki/Antananarivo"),
+    ("Wikipedia · Michael Randrianirina (2026)", "https://en.wikipedia.org/wiki/Michael_Randrianirina"),
+    ("AIT/FIA carnetdepassage.org · Madagascar", "https://www.carnetdepassage.org/country/madagascar"),
+    ("Wikipedia · Green card system (miembros; Madagascar no participa)", "https://en.wikipedia.org/wiki/Green_card_system"),
+    ("OFESAUTO · Carta Verde", "https://www.ofesauto.es/carta-verde/"),
+    ("Roadtrip Africa · Car rental in Madagascar", "https://www.roadtripafrica.com/madagascar/car-rental/"),
+    ("Roadtrip Africa · Car rental with driver", "https://www.roadtripafrica.com/madagascar/practical-info/car-rental-with-driver/"),
+    ("Roadtrip Africa · Driving in Madagascar", "https://www.roadtripafrica.com/madagascar/practical-info/driving-in-madagascar"),
+    ("Malagasy Tours · 4x4 rental (105 €/día)", "https://malagasy-tours.com/4x4-rental/"),
+    ("Lonely Dream Tours · Car hire Madagascar (60–70 €/día)", "https://www.lonelydream-toursmadagascar.com/en/car-hire-madagascar.html"),
+    ("AllAfrica/L'Express · Dégradation des routes RN7 (18-dic-2025)", "https://fr.allafrica.com/stories/202512180590.html"),
+    ("voyage-madagascar.org · Les routes nationales à Madagascar (jul-2025)", "https://voyage-madagascar.org/routes-nationales-a-madagascar/"),
+    ("Moov.mg · Aviation civile: nouvelles réglementations drones (25-mar-2024)", "https://moov.mg/article/82780-aviation-civile-de-nouvelles-reglementations-pour-lusage-des-drones"),
+    ("WAU Madagascar · New drone regulations (17-jun-2025)", "https://waumadagascar.com/blog/new-drone-regulations-in-madagascar-what-travelers-and-operators-need-to-know"),
+    ("Drone-Traveller · Drone laws Madagascar (7-ago-2026)", "https://drone-traveller.com/drone-laws-madagascar/"),
+    ("Ecofin Agency · Starlink launches commercial operations in Madagascar (28-jun-2024)", "https://www.ecofinagency.com/telecom/2806-45682-starlink-launches-commercial-operations-in-madagascar"),
+    ("Space in Africa · Madagascar set to launch Starlink Direct-to-Cell (19-may-2026)", "https://spaceinafrica.com/2026/05/19/madagascar-set-to-launch-starlink-direct-to-cell-services/"),
+    ("Mind of a Hitchhiker · SIM card in Madagascar (30-abr-2025)", "https://mindofahitchhiker.com/getting-a-sim-card-in-madagascar-orange-telma-and-airtel/"),
+    ("GlobalPetrolPrices · Madagascar (12-ene-2026)", "https://www.globalpetrolprices.com/Madagascar/"),
+    ("GlobalPetrolPrices · Madagascar diesel prices (12-ene-2026)", "https://www.globalpetrolprices.com/Madagascar/diesel_prices/"),
+    ("PIC Commerce · Direction des Services Vétérinaires (DSV)", "https://www.pic.commerce.mg/fr/direction-des-services-veterinaires-dsv"),
+    ("PetTravel · Madagascar pet import requirements (15-feb-2026)", "https://www.pettravel.com/information/pet-passports/madagascar-pet-import-requirements/comment-page-1/"),
+    ("Anivetvoyage · Madagascar (25-mar-2024)", "https://anivetvoyage.com/pays/madagascar/"),
+    ("Vetcare Madagascar · Import-export", "https://www.vetcare.mg/info-utiles/import-export"),
+    ("Madagascar Airlines · Voyager avec des animaux de compagnie", "https://madagascarairlines.com/informations/voyageurs-a-particularites/voyager-avec-des-animaux-de-compagnie"),
+    ("Ethiopian Airlines · Travelling with pets (tarifas jun-2025)", "https://www.ethiopianairlines.com/us/information/special-needs/travelling-with-pets"),
+    ("Kenya Airways · Pet carriage (solo carga)", "https://www.kenya-airways.com/en-th/plan/baggage-information/pet-carriage/"),
+    ("EUR-Lex · Reg. de Ejecución (UE) 2026/636, lista de terceros países (20-mar-2026)", "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202600636"),
+    ("EUR-Lex · Reg. Delegado (UE) 2026/131, desplazamientos no comerciales (20-ene-2026)", "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202600131"),
+    ("MAPA · Preguntas frecuentes viajar con perros, gatos y hurones", "https://www.mapa.gob.es/es/ganaderia/preguntas-frecuentes/preguntas-mascotas"),
+    ("MAPA · Desplazamiento de animales de compañía", "https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/"),
+    ("roadto197 · Trip report Madagascar (1-sep-2024)", "https://www.roadto197.com/2024/09/01/trip-report-madagascar/"),
+    ("The Pilot Who Explores · 2-week Madagascar road trip, all costs (2022)", "https://thepilotwhoexplores.com/the-most-epic-2-week-madagascar-road-trip-itinerary-all-costs-included/"),
+    ("Beyond the Bucket List · 3-week self-drive itinerary (may-2025)", "https://beyondthebucketlist.co/madagascar-road-trip-ultimate-3-week-itinerary/"),
+    ("Beyond the Bucket List · Budget-friendly 11 days on the RN7 (jun-2025, act. ago-2026)", "https://beyondthebucketlist.co/budget-friendly-madagascar-road-trip/"),
+    ("The Travelling Sloth · Madagascar budget breakdown (oct-2025)", "https://www.thetravellingsloth.com/budget-breakdown-how-much-madagascar-travel-cost/"),
+    ("Inditravel · Madagascar road trip 2: Tsingy and west coast (6-dic-2025)", "https://www.inditravel.org/en/madagascar-road-trip-2-tsingy-and-4x4-adventure-along-the-west-coast/"),
+    ("Inception Travelers · 1-month south-west Madagascar itinerary (ago–sep-2025)", "https://www.inceptiontravelers.com/madagascar/1-month-south-west-madagascar-itinerary-tsingy-baobabs-and-nosy-be"),
+    ("My Motorcycle World · Madagascar by motorcycle", "https://mymotorcycle.world/madagascar-by-motorcycle/"),
+    ("Rova of Antananarivo (Wikipedia)", "https://en.wikipedia.org/wiki/Rova_of_Antananarivo"),
+    ("UNESCO · Royal Hill of Ambohimanga (950)", "https://whc.unesco.org/en/list/950/"),
+    ("Ambohimanga (Wikipedia)", "https://en.wikipedia.org/wiki/Royal_Hill_of_Ambohimanga"),
+    ("Andasibe-Mantadia (Wikipedia)", "https://en.wikipedia.org/wiki/Andasibe-Mantadia_National_Park"),
+    ("Madagascar National Parks · Analamazaotra", "https://parcs-madagascar.com/en/parc/analamazaotra-2/"),
+    ("UNESCO · Rainforests of the Atsinanana (1257)", "https://whc.unesco.org/en/list/1257/"),
+    ("Ranomafana NP (Wikipedia)", "https://en.wikipedia.org/wiki/Ranomafana_National_Park"),
+    ("Madagascar National Parks · Ranomafana", "https://parcs-madagascar.com/en/parc/ranomafana-2/"),
+    ("Fianarantsoa (Wikipedia)", "https://en.wikipedia.org/wiki/Fianarantsoa"),
+    ("FCE railway (Wikipedia)", "https://en.wikipedia.org/wiki/Fianarantsoa-C%C3%B4te_Est_railway"),
+    ("Nomadays · viajar en tren en Madagascar", "https://www.madagascartravel.com/guide-madagascar/attraction/travelling-by-train-in-madagascar"),
+    ("Anja Community Reserve (Wikipedia)", "https://en.wikipedia.org/wiki/Anja_Community_Reserve"),
+    ("Ambalavao (Wikipedia)", "https://en.wikipedia.org/wiki/Ambalavao"),
+    ("MadaMagazine · Ambalavao", "https://www.madamagazine.com/en/ambalavao/"),
+    ("Madagascar National Parks · Andringitra", "https://parcs-madagascar.com/en/parc/andringitra/"),
+    ("Andringitra NP (Wikipedia)", "https://en.wikipedia.org/wiki/Andringitra_National_Park"),
+    ("Isalo NP (Wikipedia)", "https://en.wikipedia.org/wiki/Isalo_National_Park"),
+    ("Madagascar National Parks · Isalo", "https://parcs-madagascar.com/en/parc/isalo-2/"),
+    ("MadaMagazine · Reniala", "https://www.madamagazine.com/en/reservat-reniala/"),
+    ("Toliara (Wikipedia)", "https://en.wikipedia.org/wiki/Toliara"),
+    ("Ifaty (Wikivoyage)", "https://en.wikivoyage.org/wiki/Ifaty"),
+    ("Anakao (Wikipedia)", "https://en.wikipedia.org/wiki/Anakao"),
+    ("Madacamp · Nosy Ve", "https://www.madacamp.com/Nosy_Ve"),
+    ("Madacamp · Transfert Anakao", "https://www.madacamp.com/Transfert_Anakao"),
+    ("Avenue of the Baobabs (Wikipedia)", "https://en.wikipedia.org/wiki/Avenue_of_the_Baobabs"),
+    ("Morondava (Wikipedia)", "https://en.wikipedia.org/wiki/Morondava"),
+    ("Kirindy Forest (Wikipedia)", "https://en.wikipedia.org/wiki/Kirindy_Forest"),
+    ("TravellerThomas · guía de Kirindy", "https://www.travellerthomas.com/madagascar/madagascar-national-parks/guide-to-kirindy-forest"),
+    ("SafariBookings · Kirindy", "https://www.safaribookings.com/kirindy"),
+    ("UNESCO · Andrefana Dry Forests / Tsingy de Bemaraha (494)", "https://whc.unesco.org/en/list/494/"),
+    ("Madagascar National Parks · Tsingy de Bemaraha", "https://parcs-madagascar.com/en/parc/tsingy-de-bemaraha/"),
+    ("MadaMagazine · Tsingy de Bemaraha", "https://www.madamagazine.com/en/deutsch-tsingy-de-bemaraha/"),
+    ("Office du Tourisme de Nosy Be · Nosy Tanikely", "https://nosybe-tourisme.com/en/discover/the-neighbouring-islands/nosy-tanikely/"),
+    ("Nosy Tanikely NP (Wikipedia)", "https://en.wikipedia.org/wiki/Nosy_Tanikely_National_Park"),
+    ("Madagascar National Parks · Lokobe", "https://parcs-madagascar.com/en/parc/lokobe-2/"),
+    ("Antsiranana (Wikipedia)", "https://en.wikipedia.org/wiki/Antsiranana"),
+    ("Ramena (Wikipedia)", "https://en.wikipedia.org/wiki/Ramena"),
+    ("MadaMagazine · Mar de Esmeralda", "https://www.madamagazine.com/en/das-smaragdmeer/"),
+    ("Madagascar National Parks · Montagne d'Ambre", "https://parcs-madagascar.com/en/parc/montagne-dambre-2/"),
+    ("Montagne d'Ambre NP (Wikipedia)", "https://en.wikipedia.org/wiki/Montagne_d%27Ambre_National_Park"),
+    ("Madagascar National Parks · Ankarana", "https://parcs-madagascar.com/en/parc/ankarana/"),
+    ("Ankarana Special Reserve (Wikipedia)", "https://en.wikipedia.org/wiki/Ankarana_Special_Reserve"),
+    ("Nosy Boraha (Wikipedia)", "https://en.wikipedia.org/wiki/Nosy_Boraha"),
+    ("Soanierana Ivongo (Wikipedia)", "https://en.wikipedia.org/wiki/Soanierana_Ivongo"),
+    ("TravelLocal · ballenas en Madagascar", "https://www.travellocal.com/en/articles/whale-watching-madagascar-ile-sainte-marie"),
+    ("Madagascar National Parks · Masoala", "https://parcs-madagascar.com/en/parc/masoala/"),
+    ("Masoala NP (Wikipedia)", "https://en.wikipedia.org/wiki/Masoala_National_Park"),
+    ("Nosy Mangabe (Wikipedia)", "https://en.wikipedia.org/wiki/Nosy_Mangabe"),
+    ("Antsirabe (Wikipedia)", "https://en.wikipedia.org/wiki/Antsirabe"),
+    ("Lake Tritriva (Wikipedia)", "https://en.wikipedia.org/wiki/Lake_Tritriva"),
+]
+
+# Bucle sur RN2/RN7: Tana – Andasibe – Ambohimanga – Antsirabe – Fianarantsoa – Ranomafana – Ambalavao – Isalo – Toliara/Ifaty
+CORRIDOR = [
+    (-18.92371, 47.53207),
+    (-18.94694, 48.23028),
+    (-18.93884, 48.43376),
+    (-18.94694, 48.23028),
+    (-18.92371, 47.53207),
+    (-18.76046, 47.56231),
+    (-19.92892, 46.92452),
+    (-20.51667, 47.25),
+    (-21.44776, 47.09019),
+    (-21.25505, 47.45638),
+    (-21.44776, 47.09019),
+    (-21.85096, 46.84192),
+    (-22.40361, 46.12583),
+    (-22.55649, 45.41337),
+    (-23.35, 43.667),
+    (-23.12276, 43.6205),
+]
+
+# Bucle oeste RN34/RN8: Antsirabe – Miandrivazo – Morondava – baobabs – Kirindy – Belo sur Tsiribihina – Bekopaka (Tsingy)
+CORRIDOR_ALT = [
+    (-19.92892, 46.92452),
+    (-19.55556, 45.45083),
+    (-20.25048, 44.41969),
+    (-20.817, 44.15),
+    (-19.7, 44.55),
+    (-19.14485, 44.79584),
+]
+
+HISTORIA_RESUMEN = "Madagascar es una isla-continente poblada por navegantes austronesios que después se mezclaron con africanos y árabes; por eso el malgache se parece más a las lenguas de Borneo que a las del continente vecino. El reino Merina de las tierras altas estuvo a punto de unificar la isla antes de que Francia la conquistara en 1895–1896, y la independencia de 1960 abrió una historia republicana marcada por golpes y crisis: 1972, 1975, 2009 y, la más reciente, el levantamiento juvenil y militar de octubre de 2025 que derribó a Andry Rajoelina. A fecha de septiembre de 2026 gobierna una transición encabezada por el coronel Michael Randrianirina, con referéndum y elecciones anunciados para 2027, en uno de los países más pobres del mundo."
+
+HISTORIA_SECCIONES = [
+    ("Orígenes y reinos anteriores a la colonización",
+     "<p>Según Britannica, la población de Madagascar «no está emparentada principalmente con los pueblos africanos, sino con los de Indonesia». Las fechas del poblamiento siguen en debate: Britannica sitúa la llegada de los primeros colonos hacia el año 700 y la Wikipedia en español la data entre los siglos II y V, con la migración austronesia como corriente dominante. Hacia el año 1000 se sumaron comerciantes árabes y, en el siglo XVI, los portugueses ya describían ciudades del norte conectadas con las redes afroárabes del Índico.</p><p>En la Edad Media se perfilaron los grandes grupos —Sakalava, Betsimisaraka, Merina— y sus jefaturas se convirtieron en reinos gracias al comercio. El más decisivo fue Imerina, en la meseta central, fundado hacia 1540; Andrianjaka fijó la capital en Antananarivo hacia 1610. Tras un periodo de fragmentación, Andrianampoinimerina reunificó Imerina en 1787 y proclamó que «el mar es la frontera de mi arrozal». Su hijo Radama I (1810–1828) extendió la autoridad merina por buena parte de la isla, firmó tratados con Gran Bretaña contra la trata de esclavos y acogió a los misioneros que fijaron el malgache en alfabeto latino en 1823. Ranavalona I (1828–1861) cerró el país a Occidente y persiguió a los cristianos; después, el primer ministro Rainilaiarivony gobernó de hecho durante tres décadas.</p>"),
+    ("Colonización",
+     "<p>Francia se impuso en dos guerras. La primera guerra franco-hova (1883–1885) terminó con la cesión de Antsiranana y un protectorado que Madagascar nunca aceptó del todo; la segunda, en 1895, acabó con la toma de Antananarivo. En 1896 París anexionó formalmente la isla y abolió la esclavitud, y en 1897 depuso a la última reina, Ranavalona III, que murió en el exilio. El general Joseph Gallieni, gobernador hasta 1905, sometió la rebelión de los Menalamba y organizó la administración colonial.</p><p>El balance colonial es contradictorio. La Wikipedia en inglés resume que la administración francesa «construyó infraestructuras al tiempo que aplicaba políticas de trabajo forzado», y que la modernización llegó acompañada de explotación. Las tensiones estallaron el 29 de marzo de 1947 en la insurrección nacionalista, reprimida con una dureza cuya cifra de muertos malgaches se estima «entre 11.000 y 80.000». Tras la represión, Francia fue cediendo: la Loi-cadre de 1956 trajo el sufragio universal y más autonomía local, y el 14 de octubre de 1958 Madagascar se convirtió en república autónoma dentro de la Comunidad Francesa. Quedaron el francés como lengua de la administración, los cultivos de exportación como el café y la vainilla, y una élite dividida entre el vínculo con París y la «malgachización».</p>"),
+    ("Independencia y construcción del Estado",
+     "<p>La independencia llegó el 26 de junio de 1960, hoy fiesta nacional, con Philibert Tsiranana como primer presidente y una Primera República muy ligada a Francia. En 1972 una oleada de protestas populares forzó su dimisión y abrió un periodo de gobiernos militares. El 15 de junio de 1975 el capitán de fragata Didier Ratsiraka tomó el poder y fundó la República Democrática de Madagascar, de orientación socialista, que nacionalizó sectores enteros y se alejó de Occidente durante más de quince años.</p><p>El agotamiento de ese modelo se hizo visible en las protestas de 1991–1992, que obligaron a adoptar una Constitución democrática en 1992 y dieron paso a la Tercera República. Albert Zafy ganó las elecciones multipartidistas de 1993, pero fue destituido por el Parlamento y Ratsiraka volvió a la presidencia en 1997 por las urnas. El siglo se cerró con un Estado formalmente pluralista pero con instituciones frágiles y una economía que, según el MAEC, dejó a Madagascar entre los países con menor índice de desarrollo humano del planeta. España había establecido relaciones diplomáticas con la joven república el 25 de marzo de 1966, aunque sin embajada residente en la isla.</p>"),
+    ("Historia reciente (2000–2026)",
+     "<p>Las elecciones de 2001–2002, muy disputadas, dieron la presidencia al empresario Marc Ravalomanana. En enero de 2009 comenzaron protestas masivas lideradas por el alcalde de Antananarivo, Andry Rajoelina, y el 16 de marzo el ejército tomó el palacio presidencial y le entregó el poder. Siguieron cuatro años de transición y la Constitución de la Cuarta República, del 11 de diciembre de 2010. Las elecciones del 20 de diciembre de 2013 las ganó Hery Rajaonarimampianina; Rajoelina volvió por las urnas en 2018 y fue reelegido en noviembre de 2023 con el 59 por ciento de los votos y la participación más baja de la historia del país, un 46 por ciento.</p><p>El final llegó desde la calle. El 25 de septiembre de 2025, los cortes de agua y electricidad en la capital y la corrupción sacaron a la calle al movimiento juvenil «Gen Z Madagascar». La Oficina de Derechos Humanos de la ONU contabilizó 22 muertos y un centenar de heridos. El 11 de octubre la unidad de élite CAPSAT, mandada por el coronel Michael Randrianirina, se puso del lado de los manifestantes; Rajoelina huyó del país, la Asamblea Nacional lo destituyó el 14 de octubre y la Corte Constitucional declaró vacante la presidencia. Randrianirina juró el cargo el 17 de octubre de 2025.</p>"),
+    ("Política y gobierno en 2026",
+     "<p>A fecha de septiembre de 2026, según la Ficha País del MAEC (junio de 2026), el jefe de Estado es el coronel Michael Randrianirina, investido el 17 de octubre de 2025, y el primer ministro es Mamitiana Rajaonarison, nombrado en marzo de 2026. Formalmente sigue siendo una república semipresidencialista, pero la Unión Africana lo calificó de cambio inconstitucional de gobierno y suspendió al país el 15 de octubre de 2025. Freedom House clasificaba a Madagascar en 2025 como «Partly Free» con 55 sobre 100; en 2026, ya con el golpe, mantiene el estatus pero baja a 50 sobre 100, con el proceso electoral puntuado a cero. En la práctica es un régimen militar de transición con promesa de retorno civil: la hoja de ruta prevé una Constitución de Quinta República, y la CENI anunció en mayo de 2026 el referéndum para junio y las presidenciales para octubre de 2027. Randrianirina ha dicho que no piensa presentarse.</p><p>Reporteros Sin Fronteras sitúa al país en el puesto 103 de 180 en 2026. Freedom House señala corrupción persistente y «anarquía y pobreza» en el sur. Según el MAEC, la UE es el principal socio comercial e inversor, con 459 millones de euros para 2021–2027; la embajada española reside en Pretoria y hay un consulado honorario en Antananarivo.</p>"),
+    ("Economía y recursos",
+     "<p>Madagascar es uno de los países más pobres del mundo. Según el MAEC, el PIB de 2025 rondó los 19.600 millones de dólares y el PIB por habitante apenas 620 dólares; el Banco Mundial (julio de 2026) estima la pobreza en un 66,5 por ciento en 2025. La moneda es el ariary malgache; en marzo de 2025 un euro valía unos 4.900 ariary. Los servicios aportan casi la mitad del PIB, pero la agricultura emplea a la gran mayoría de la población, sobre todo en el arroz.</p><p>Las exportaciones de 2025 sumaron unos 2.500 millones de dólares frente a 5.200 millones de importaciones, un déficit crónico. Encabezan la lista el níquel y el cobalto de la mina de Ambatovy, las especias —el país produce en torno al 80 por ciento de la vainilla mundial, además de clavo y café—, las prendas de vestir de las zonas francas que exportan a Estados Unidos y a la UE, y la ilmenita que Rio Tinto extrae cerca de Fort Dauphin. China es el primer socio comercial y la UE el mayor inversor; el país depende además de la ayuda multilateral, con una cartera del Banco Mundial de 3.500 millones de dólares. Los ciclones Gezani y Fytia de febrero de 2026 recuerdan que el crecimiento, del 3 al 4 por ciento anual, se lo lleva a menudo el clima.</p>"),
+    ("Sociedad: idiomas, religión y cultura",
+     "<p>Madagascar tenía unos 31 millones de habitantes en 2024. Las lenguas oficiales son el malgache, de raíz austronesia y hablado en toda la isla, y el francés. Solo un 26 por ciento hablaba francés en 2022; por carretera domina el malgache y el inglés es casi inexistente, así que un conductor-guía que traduzca resulta imprescindible. Según el MAEC, el 84,7 por ciento de la población es cristiana, un 4,7 por ciento sigue religiones tradicionales y un 3,1 por ciento es musulmana. Hay unos dieciocho grupos: Merina y Betsileo en las tierras altas, Betsimisaraka, Sakalava y Antandroy en las costas.</p><p>Los ancestros y los tabúes, «fady», ordenan la vida cotidiana; en las tierras altas la «famadihana» reúne a la familia para envolver de nuevo a los difuntos en sudarios de seda. El «hira gasy» mezcla música, danza y oratoria, el «salegy» anima las fiestas costeras y la «valiha» es el instrumento nacional. Se come arroz, «vary», con un guiso, «laoka»; la fiesta nacional es el 26 de junio. La UNESCO protege la colina real de Ambohimanga, los bosques secos de Andrefana y las selvas del Atsinanana. Pregunte antes de fotografiar personas o tumbas, respete los fady que le indiquen y vista con discreción; el alcohol es habitual, y el ramadán, que en 2027 empieza en torno al 8 de febrero, apenas afecta al viajero salvo en comunidades musulmanas.</p>"),
+]
+
+HISTORIA_FUENTES = [
+    ("MAEC España · Ficha País Madagascar (PDF) · junio 2026", "https://www.exteriores.gob.es/Documents/FichasPais/MADAGASCAR_FICHA%20PAIS.pdf"),
+    ("Freedom House · Madagascar: Freedom in the World 2025", "https://freedomhouse.org/country/madagascar/freedom-world/2025"),
+    ("Freedom House · Madagascar: Freedom in the World 2026", "https://freedomhouse.org/country/madagascar/freedom-world/2026"),
+    ("Britannica · Madagascar · History", "https://www.britannica.com/place/Madagascar/History"),
+    ("Britannica · Madagascar (página principal)", "https://www.britannica.com/place/Madagascar"),
+    ("Wikipedia (en) · History of Madagascar", "https://en.wikipedia.org/wiki/History_of_Madagascar"),
+    ("Wikipedia (es) · Historia de Madagascar", "https://es.wikipedia.org/wiki/Historia_de_Madagascar"),
+    ("Wikipedia (en) · Kingdom of Imerina", "https://en.wikipedia.org/wiki/Kingdom_of_Imerina"),
+    ("Wikipedia (en) · French Madagascar", "https://en.wikipedia.org/wiki/French_Madagascar"),
+    ("Wikipedia (en) · 2025 Malagasy protests", "https://en.wikipedia.org/wiki/2025_Malagasy_protests"),
+    ("Wikipedia (en) · 2025 Malagasy coup d'état", "https://en.wikipedia.org/wiki/2025_Malagasy_coup_d%27%C3%A9tat"),
+    ("Wikipedia (en) · Michael Randrianirina", "https://en.wikipedia.org/wiki/Michael_Randrianirina"),
+    ("Wikipedia (en) · 2027 Malagasy presidential election", "https://en.wikipedia.org/wiki/2027_Malagasy_presidential_election"),
+    ("Wikipedia (en) · Madagascar", "https://en.wikipedia.org/wiki/Madagascar"),
+    ("Wikipedia (es) · Madagascar", "https://es.wikipedia.org/wiki/Madagascar"),
+    ("Wikipedia (en) · Economy of Madagascar", "https://en.wikipedia.org/wiki/Economy_of_Madagascar"),
+    ("Wikipedia (en) · Culture of Madagascar", "https://en.wikipedia.org/wiki/Culture_of_Madagascar"),
+    ("Wikipedia (fr) · Langues à Madagascar", "https://fr.wikipedia.org/wiki/Langues_%C3%A0_Madagascar"),
+    ("UNESCO World Heritage Centre · Madagascar (Estado parte)", "https://whc.unesco.org/en/statesparties/mg"),
+    ("Banco Mundial · Madagascar Overview · 1 julio 2026", "https://www.worldbank.org/en/country/madagascar/overview"),
+    ("Reporteros Sin Fronteras · Madagascar (Índice 2026)", "https://rsf.org/en/country/madagascar"),
+    ("ISS Africa · The Madagascar upheaval: coup, revolution or 'coupvolution'?", "https://issafrica.org/iss-today/the-madagascar-upheaval-coup-revolution-or-coupvolution"),
+    ("Africanews · Madagascar presidential election scheduled for October 2027 · 11 mayo 2026", "https://www.africanews.com/2026/05/11/madagascar-presidential-election-scheduled-for-october-2027/"),
 ]
 
 SPEC = dict(
-    slug="madagascar", name="Madagascar", revision="11 sep 2026",
-    sub="Escapada en avión (fuera de la ruta 4x4) · sin vehículos · sin perro",
-    hero_img="https://commons.wikimedia.org/wiki/Special:FilePath/All%C3%A9e_des_Baobabs_near_Morondava,_Madagascar.jpg?width=1200",
-    hero_credit="Avenida de los Baobabs, Morondava · Wikimedia Commons",
+    slug="madagascar", name="Madagascar", revision="18 sep 2026",
+    sub="SOLO ALCANZABLE EN AVIÓN — sin ferry con vehículo desde el continente · lémures, tsingy, baobabs y la RN7 en 4x4 con conductor",
     chips=[
-        ("MODALIDAD", "Vuelo, sin los 4x4"),
-        ("RITMO", "8-12 días si se hace"),
-        ("PERRO", "se queda en el continente"),
-        ("VISADO", "eVisa obligatorio"),
-        ("ESTADO", "Ficha exploratoria — por confirmar si se hace"),
+        ("ESTATUS", "Fuera de ruta rodada · solo alcanzable en avión; los dos 4x4 se quedan en el continente."),
+        ("CÓMO LLEGAR", "Avión a Antananarivo-Ivato (TNR) con Kenya Airways, Ethiopian, Airlink o Air Mauritius…"),
+        ("VISADO", "Españoles: exención hasta 15 días con tasa (10 € MAEC / 30 € desde feb-2026 según prensa)…"),
+        ("VEHÍCULO", "No aplica: 4x4 de alquiler con conductor. CPD sin club emisor en Madagascar…"),
+        ("SEGURIDAD", "Precaución MAEC · dahalo sur/oeste · nunca de noche"),
+        ("SEGURO", "Sin Carta Verde ni Yellow Card · seguro en el alquiler"),
+        ("SALUD", "FA solo si procede de riesgo · malaria alta · peste"),
+        ("DRONES", "Registro previo ACM (drone@acm.mg) · sin él, infracción"),
+        ("STARLINK", "Activo desde jun-2024 · Roam por confirmar · SIM Yas"),
+        ("4x4", "Alquiler con conductor 60–105 €/día sin combustible"),
+        ("A PIE", "Parques con guía obligatorio · ciudades solo de día"),
+        ("PERRO", "Entrada con permiso previo de la DSV (≥10 días antes, 30.000 MGA), microchip, rabia 30 días–12 meses…"),
+        ("MONEDA", "Ariary (MGA); 1 € ≈ 4.900–5.000 MGA (MAEC, 2026). Efectivo…"),
+        ("VENTANA", "Ciclones nov–abr; lluvias dic–abr cortan pistas secundarias…"),
     ],
-    center=[-19.5, 46.5], zoom=6,
-    notice="Ficha de una posible escapada EN AVIÓN durante el bloque sur/este del viaje — no forma parte de la ruta 4x4 ni lleva los vehículos de expedición.",
-    verificado=False,
-    pois=POIS,
-    logistics=LOGISTICS,
-    corridor=[],
-    facts=FACTS,
-    alerts=ALERTS,
-    decision="Escapada opcional, a decidir según el calendario del bloque sur/este. Si se hace, deja los dos 4x4 aparcados en el continente (por ejemplo en Tanzania o Kenia) y se vuela desde ahí o desde Sudáfrica.",
-    ruta_intro="Itinerario modular: el bloque oeste (baobabs + Tsingy) es el más icónico y compacto; el bloque centro-sur (Ranomafana + Isalo) añade selva y cañones si hay más días.",
-    route_rows=ROUTE, route_headers=("Día", "Tramo", "Objetivo", "Condición"),
-    visado=VISADO,
-    fronteras_rows=FRONTERAS_ROWS,
-    vehiculos=VEHICULOS,
-    drones_callout=DRONES_CALLOUT, drones=DRONES,
-    starlink_callout=STARLINK_CALLOUT, starlink=STARLINK,
-    perro_intro=PERRO_INTRO,
-    salud=SALUD,
-    seguridad_intro=SEGURIDAD_INTRO, seguridad=SEGURIDAD,
-    pendientes=PENDIENTES,
+    center=[-17.96, 46.73], zoom=5,
+    notice="Documento de planificación de un país SOLO ALCANZABLE EN AVIÓN: no forma parte de la ruta 2027. La ficha se mantiene completa por si en el futuro cambia la situación o se plantea un viaje aparte. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
+    pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
+    corridor_label="Bucle sur RN2/RN7: Tana – Andasibe – Ambohimanga – Antsirabe – Fianarantsoa – Ranomafana – Ambalavao – Isalo – Toliara/Ifaty",
+    corridor_alt_label="Bucle oeste RN34/RN8: Antsirabe – Miandrivazo – Morondava – baobabs – Kirindy – Belo sur Tsiribihina – Bekopaka (Tsingy)",
+    hero_img="https://commons.wikimedia.org/wiki/Special:FilePath/All%C3%A9e_des_baobabs_Morondava_Madagascar.jpg?width=1200",
+    hero_credit="Morondava · Cactus0625 · CC BY-SA 4.0",
+    historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
+    decision="Madagascar queda fuera del itinerario rodado por una razón física: no existe ningún ferry de pasajeros con vehículo entre África continental (Sudáfrica, Mozambique, Tanzania) o las Comoras y la isla; Rough Guides lo dice literalmente y al puerto de Toamasina solo llega carga comercial (contenedor/RoRo). Embarcar el Grenadier y el Delica para dos semanas no compensa ni en dinero ni en tiempo, y además no hay club emisor de CPD en Madagascar y su aceptación en aduana está POR CONFIRMAR. La forma realista es una escapada aparte durante el bucle sur/este (abril–junio de 2027): dejar los 4x4 en aparcamiento vigilado en Tanzania, Mozambique o Sudáfrica, volar a Antananarivo-Ivato con Kenya Airways (Nairobi), Ethiopian (Addis Abeba), Airlink (Johannesburgo) o Air Mauritius, y recorrer la isla en 4x4 de alquiler con conductor (Land Cruiser con chófer, sus gastos y seguro entre 60 y 105 €/día sin combustible según las agencias consultadas en 2025-2026; autoconducción posible con Roadtrip Africa desde ~140 €/día). Coste orientativo para tres personas y 12–14 días: vuelos regionales, visado (10–35 €), 4x4 con conductor (~1.000–1.500 €), combustible (~1 €/l, 400–500 € en un circuito RN7+oeste), parques con guía obligatorio y alojamiento; los relatos de 2022–2025 sitúan el total en 1.300–2.500 € por persona. Queda por decidir qué hacer con el perro: cuidador en el continente (recomendado) o vuelo con permiso previo de la DSV malgache y titulación antirrábica anotada en el pasaporte UE ANTES de salir de España.",
+    facts=[
+        ("Estatus", "Fuera de ruta rodada · solo alcanzable en avión; los dos 4x4 se quedan en el continente."),
+        ("Cómo llegar", "Avión a Antananarivo-Ivato (TNR) con Kenya Airways, Ethiopian, Airlink o Air Mauritius; SIN ferry de pasajeros con vehículo (Rough Guides). Dar es Salaam sin vuelo directo en Wikipedia."),
+        ("Visado", "Españoles: exención hasta 15 días con tasa (10 € MAEC / 30 € desde feb-2026 según prensa); visado a la llegada o eVisa 30 días 35 €, 60 días 40 €, 90 días 50 €."),
+        ("Vehículo/aduana", "No aplica: 4x4 de alquiler con conductor. CPD sin club emisor en Madagascar; aceptación en aduana POR CONFIRMAR."),
+        ("Seguro", "Carta Verde y COMESA Yellow Card NO válidas (Madagascar no participa); el seguro va en el alquiler. Seguro de viaje con evacuación médica imprescindible."),
+        ("Moneda", "Ariary (MGA); 1 € ≈ 4.900–5.000 MGA (MAEC, 2026). Efectivo; tarjeta solo en hoteles y grandes superficies; cajeros limitados a 200.000–800.000 MGA por operación."),
+        ("Perro", "Entrada con permiso previo de la DSV (≥10 días antes, 30.000 MGA), microchip, rabia 30 días–12 meses, certificado oficial ≤15 días. Vuelta a la UE: país NO listado → titulación antes de salir."),
+        ("Drones", "Registro previo obligatorio en la ACM (drone@acm.mg) salvo juguetes <900 g y <100 m; uso sin registro es infracción."),
+        ("Starlink", "Servicio comercial desde el 27-jun-2024 (licencia ARTEC); Direct-to-Cell con Airtel en pruebas 2026. SIM local Yas/Orange/Airtel en Ivato."),
+        ("Seguridad", "MAEC «viajar con precaución» (may-2026); transición militar desde oct-2025; dahalo y asaltos en RN7 sur, RN13 y oeste; NUNCA de noche."),
+        ("Clima", "Ciclones nov–abr; lluvias dic–abr cortan pistas secundarias; abril–junio de 2027 abre la estación seca en sur y oeste."),
+        ("Sanidad", "Malaria ALTA en todo el país; peste sep–abr; mpox clado Ib 2025-26; hospitales solo para lo rutinario, evacuación a Mauricio/Sudáfrica/Reunión."),
+    ],
+    alerts=[
+        "NO HAY FERRY DE PASAJEROS CON VEHÍCULO desde el continente ni desde las Comoras (Rough Guides): los dos 4x4 se quedan aparcados y vigilados en tierra firme.",
+        "Transición militar desde el 17-oct-2025 (coronel Michael Randrianirina, elecciones prometidas en 18–24 meses, Unión Africana suspendió al país): evitar mítines y concentraciones; posibles cortes de carretera.",
+        "Sur y oeste con «dahalo» (bandas armadas de cuatreros): FCDO cita ataques a convoyes en la RN7 sur, triángulo Ihosy–Toliara–Fort Dauphin, Belo-sur-Tsiribihina–Toliara y Besalampy–Morombe; Canadá añade RN13.",
+        "NO CONDUCIR DE NOCHE en ningún caso (MAEC, FCDO, Canadá): anochece a las 18 h, vehículos sin luces, ganado, asaltos.",
+        "Taxi-brousse desaconsejado por Canadá (accidentes y robos): la escapada se hace en 4x4 con conductor; convoy de dos vehículos en el oeste.",
+        "Malaria de riesgo ALTO en todo el país (TravelHealthPro): profilaxis para los tres; peste estacional sep–abr; mpox clado Ib con 2.000 casos dic-2025–jun-2026.",
+        "Requisito Ebola vigente (FCDO, 9-sep-2026): declaración sanitaria y control a la llegada; denegación de entrada si se ha estado en país afectado en los 21 días previos.",
+        "Divisas: MAEC advierte de multas del 25–75 % del exceso no declarado; los umbrales difieren según fuente (1.000 € MAEC / 7.500 € FCDO / 10.000 € Canadá) → declarar siempre y confirmar en Ivato.",
+        "Perro: Madagascar NO está en la lista UE (Reg. 2026/636) → sin titulación antirrábica anotada en el pasaporte antes de salir, la vuelta a la UE exige 3 meses de espera.",
+        "Drones: sin registro previo en la ACM el uso es infracción administrativa o penal; parques nacionales exigen además su propio permiso; trámite de semanas.",
+    ],
+    ruta_intro="Itinerario de referencia que enlaza los 20 puntos de interés por las carreteras principales, calculado sobre 250 km/día. No es una ruta aprobada del proyecto: sirve para dimensionar un posible viaje aparte y para saber qué hay en cada tramo.",
+    route_headers=("Etapa", "Recorrido", "Distancia y días aprox."),
+    route_rows=[
+        ("1 · Tana → Andasibe", "RN2 asfaltada; noche en Andasibe, indris al amanecer", "~150 km · 2 días"),
+        ("2 · Andasibe → Tana → Ambohimanga → Antsirabe", "Vuelta por la RN2, colina real (24 km NE) y RN7 sur", "~330 km · 2 días"),
+        ("3 · Antsirabe → Tritriva → Ambositra → Fianarantsoa", "Lagos de cráter, talleres zafimaniry, ciudad alta", "~250 km · 1–2 días"),
+        ("4 · Fianarantsoa ↔ Ranomafana", "RN45/RN25; selva y lémures del bambú, noche en Ranomafana", "~130 km i/v · 2 días"),
+        ("5 · Fianarantsoa → Ambalavao → Anja → Namoly (Andringitra)", "Papel antaimoro, maki catta; pista 4x4 de 47 km; trek Pic Boby 2 días", "~110 km · 3 días"),
+        ("6 · Namoly → Ihosy → Ranohira (Isalo)", "Vuelta a la RN7; circuitos del Isalo; vigilancia en Ihosy–Ilakaka", "~250 km · 2 días"),
+        ("7 · Ranohira → Toliara → Ifaty", "Final de la RN7, arboreto, RN9 asfaltada, Reniala y arrecife", "~280 km · 2 días"),
+        ("8 · Toliara ↔ Anakao (lancha) y Nosy Ve", "Coche aparcado en Toliara; rabijuncos, playa, ballenas en temporada", "~35 km lancha · 2 días"),
+        ("9 · Toliara → Antsirabe → Miandrivazo → Morondava", "Regreso por la RN7 y bajada por la RN34; alternativa: vuelo Toliara/Tana–Morondava", "~1.100 km · 4 días (o vuelo)"),
+        ("10 · Morondava → Kirindy → Belo → Bekopaka", "Avenida de baobabs, noche en Kirindy, dos barcazas; solo mayo–noviembre", "~200 km · 2 días"),
+        ("11 · Tsingy de Bemaraha y vuelta a Morondava", "Grand y Petit Tsingy; regreso con baobabs al atardecer", "~200 km · 3 días"),
+        ("12 · Vuelo Morondava/Tana → Diego Suárez · Ramena y Montaña de Ámbar", "RN59b y Joffreville; Mar de Esmeralda en barca", "~120 km · 3 días"),
+        ("13 · Diego → Ankarana → Ambanja/Ankify → Nosy Be", "RN6 asfaltada, camping en Mahamasina, lancha desde Ankify; Lokobe y Tanikely", "~260 km · 4 días"),
+        ("14 · Vuelo → Sainte-Marie (y opcional Maroantsetra/Masoala)", "Ballenas jul–sep, cementerio pirata; Masoala exige 4 días más y barca", "sin coche · 3–7 días"),
+    ],
+    offroad=[
+        "Madagascar se recorre en 4x4 de alquiler con conductor: no es obligatorio por ley (roadtripafrica confirma que un extranjero puede conducir con permiso internacional y que el chófer-guía cuesta unos 30 €/día), pero casi todas las agencias entregan el coche con conductor y es lo que recomiendan FCDO, Canadá y MAEC dado el estado de las vías y los asaltos. Nunca se circula de noche: anochece hacia las 18 h y los tres avisos de viaje lo prohíben de facto.",
+        "Pista Morondava – Belo sur Tsiribihina – Bekopaka (RN8, ~200 km): 8-10 h de arena y tierra con dos barcazas (Tsiribihina, ≥1 h de espera; Manambolo, solo hasta las 18 h). Es la pista 4x4 emblemática del país; el parque y la pista CIERRAN de mediados de diciembre a abril-mayo. Sin guía obligatorio para conducirla, pero las agencias solo la venden con chófer; el FCDO pide vigilancia en el corredor Belo sur Tsiribihina – Toliara.",
+        "RN34/RN35 Antsirabe – Miandrivazo – Morondava: la salida al oeste; en octubre de 2023 el puente de la RN35 cerca de Malaimbandy estaba roto y había que desviarse (roadtripafrica), con lo que Tana–Morondava se hace en 2 días (18 h de conducción según Dadamanga). Confirmar el estado del puente en 2027.",
+        "Pista de Namoly (47 km desde Ambalavao) y Morarano (60 km) a Andringitra: solo 4x4, prácticamente impracticable de noviembre a marzo según Madagascar National Parks; la variante de Tsaranoro va por el valle occidental.",
+        "RN6 hacia el norte: el tramo Ambondramamy – Ambanja se conduce a 30 km/h y ocupa 2 días; desde Ambanja hasta Diego la carretera mejora y el acceso a Ankarana (Mahamasina) y a la Montaña de Ámbre (Joffreville + 3 km de pista) es sencillo. El sector oeste de Ankarana (Andrafiabe) solo se abre de julio a noviembre y en 4x4.",
+        "RN5 Toamasina – Maroantsetra (~400 km): 2-5 días de barro con 13 ríos y barcazas, la pista más dura del este; el parque nacional de Masoala la describe así y aconseja el avión o el ferry semanal desde Tamatave. Solo con expedición organizada.",
+        "Zonas con aviso: RN7 (Ihosy – Ilakaka – Ranohira) y RN13 con asaltos de bandas armadas (dahalo); distrito de Ankazobe al norte de Tana; triángulo Ihosy – Toliara – Fort Dauphin «tenso»; RN35 y RN1 entre Besalampy y Morombe (Maintirano) desaconsejadas por el FCDO. Ninguna de ellas está formalmente prohibida, pero se cruzan de día, en convoy y con chófer local que conozca la situación.",
+    ],
+    senderismo=[
+        "Andasibe · circuito Indri (2-3 h) en Analamazaotra al amanecer y paseo nocturno de 1 h por la pista junto a la reserva comunitaria de Mitsinjo; Mantadia, medio día en selva primaria con guía.",
+        "Ranomafana · uno de los siete senderos oficiales (10-20 km; la mayoría de visitantes hace un circuito de 3-4 h) más el paseo nocturno en la carretera del parque.",
+        "Anja · circuito corto de 1-2 h entre bloques de granito y lémures de cola anillada, o el largo (hasta 6 h) que sube a la cima con vistas a los Tres Hermanos.",
+        "Andringitra · Pic Boby (Imarivolanitra) en 2 días / 28 km ida y vuelta desde Namoly, con noche en campamento a unos 2.000 m; alternativas Diavolana (8 km, 10 h) o Asaramanitra (6 km, 4 h). Frío bajo cero en altura de junio a agosto.",
+        "Isalo · Piscine Naturelle y Cascade des Nymphes (medio día), Canyon des Makis (3-4 h) o la travesía de 2-3 días con campamentos; siempre con guía y agua en abundancia.",
+        "Tsingy de Bemaraha · Petit Tsingy (circuito de unas 3 h, exigente) y Grand Tsingy con vía ferrata, arnés y puentes colgantes (circuitos oficiales Andamozavaky 4 h, Ranotsara 4-6 h, Broadway 6 h); piragua por la garganta del Manambolo (1,5 h).",
+        "Montaña de Ámbar · Meva (1 h, cascada de Antakarana), Mahasarika (3 h, cascada y lago verde) o Cratère du Renard (8 h, 12 km, vistas al Canal de Mozambique).",
+        "Ankarana · 13 circuitos de 2 a 9 h desde Mahamasina: Tsingy Meva/Rary con puente colgante, Grotte des Chauves-Souris y Perte des Rivières; frontal obligatorio en las cuevas.",
+    ],
+    acampada=[
+        "Los parques de Madagascar National Parks tienen campamentos oficiales junto a la oficina o en el interior: Andringitra (5 campamentos equipados con cocina, aseos y duchas), Ankarana-Mahamasina (15 refugios para tienda, agua, duchas) y Andrafiabe (9 parcelas), Montaña de Ámbar (camping junto al centro de visitantes), Tsingy de Bemaraha (Ankidroadroa, para circuitos de varios días), Masoala (sitios designados) y Nosy Mangabe (campamento con baño y cocina). Se paga con la entrada y se reserva in situ.",
+        "En los parques se acampa en tienda de suelo: el vehículo se queda en la entrada y un porteador sube el material (roadtripafrica). Ranomafana admite camping cerca de la entrada; Isalo tiene campamentos en los circuitos largos.",
+        "Fuera de los parques, la acampada libre es tolerada si se pide permiso en el pueblo más cercano y se acampa a la vista de un hotel o aldea por seguridad (roadtripafrica, «Camping in Madagascar»); en la costa oeste y el norte apenas hay campings de hotel. Los avisos de viaje (FCDO, Canadá) desaconsejan los lugares aislados y las playas solitarias, de modo que acampar libre en zona de dahalo (sur, RN7 Ihosy–Ilakaka) no es sensato.",
+        "Bekopaka tiene camping económico al otro lado del río Manambolo y hoteles «excelentes para el nivel malgache» pero caros (MadaMagazine); Kirindy ofrece campamento básico y ecolodge dentro del bosque; Reniala (Ifaty) tiene una auberge de 15 plazas en el bosque.",
+        "Los 4x4 con conductor se alquilan con tienda de techo (20 €/día), tienda iglú (5 €/persona) y nevera (10 €/día) según roadtripafrica; las agencias con base en Tana y Antsirabe son las que ofrecen este material.",
+        "iOverlander tiene pocos puntos en Madagascar en comparación con el continente (la mayoría concentrados en la RN7 y Morondava); no se ha podido abrir la app desde esta sesión, así que conviene revisarla antes de salir. Tracks4Africa no cubre la isla con el detalle de África austral.",
+        "Alternativa realista: los hoteles y lodges son baratos (roadtripafrica) y en la mayoría de etapas compensa dormir bajo techo y reservar la tienda para los parques de trekking (Andringitra, Tsingy, Ankarana).",
+    ],
+    visado=[
+        "Españoles: EXENCIÓN hasta 15 días pagando tasa a la llegada: 10 € según MAEC (18-may-2026), pero 30 € desde el 16-feb-2026 según VisasNews y Wikipedia → POR CONFIRMAR el importe vigente.",
+        "Visado turístico A LA LLEGADA en Ivato: 30 días 35 €/37 USD, 60 días 40 €/45 USD, 90 días 50 €/55 USD (FCDO, Hilary Bradt ago-2024); pago en efectivo EUR/USD/MGA y desde oct-2024 también con tarjeta.",
+        "eVisa previa en el portal oficial (evisamada-mg.com según VisasNews; evisa.gov.mg no abrió en esta sesión): mismas tarifas; solicitar 1–2 semanas antes.",
+        "Pasaporte con 6 meses de validez y 2 páginas en blanco (FCDO, Canadá); billete de salida obligatorio (MAEC).",
+        "Prórroga hasta 90 días en total; sobrepasar la estancia se castiga con detención o expulsión (FCDO).",
+        "No hay frontera terrestre: el visado se usa solo en aeropuerto (Ivato; también Nosy Be).",
+    ],
+    fronteras_rows=[
+        ("Aeropuerto principal", "Antananarivo-Ivato (TNR)", "Abierto; único punto de entrada previsto; visado a la llegada; control sanitario Ebola (FCDO, 9-sep-2026); animales solo por aquí (PetTravel, feb-2026). Vuelos Kenya Airways, Ethiopian, Airlink, Air Mauritius (Wikipedia)."),
+        ("Aeropuerto secundario", "Nosy Be-Fascene (NOS)", "Internacional (Reunión, Italia); visado a la llegada según Wikipedia (Visa policy); sin uso previsto."),
+        ("Puerto de carga", "Toamasina (Tamatave)", "Principal puerto de contenedores; SOLO CARGA, sin pasajeros (Wikipedia Transport in Madagascar; Rough Guides)."),
+        ("Puerto de carga", "Mahajanga (Majunga)", "Enlace marítimo con Comoras ocasional; ningún ferry de pasajeros con vehículo confirmado (Rough Guides: no hay ferries desde Comoras)."),
+        ("Frontera terrestre", "Ninguna", "Madagascar es isla: no aplica."),
+    ],
+    vehiculos=[
+        "Los 4x4 propios NO viajan: «no hay ferries de pasajeros a Madagascar desde Sudáfrica, Mozambique o Tanzania, ni desde Comoras y Mauricio» (Rough Guides). Solo carga comercial a Toamasina.",
+        "Alquiler de 4x4 CON CONDUCTOR es el estándar: Land Cruiser con chófer, sus gastos y seguro 105 €/día (Malagasy Tours) o 60–70 €/día (Lonely Dream Tours), combustible aparte; relatos 2022–2024 citan 55 USD/día más dietas del conductor.",
+        "Autoconducción posible con Roadtrip Africa (Nissan Navara/NP300, equipo de camping, rastreador, asistencia 24 h; conductor opcional +30 €/día): ~140 €/día en 2025 (The Travelling Sloth); manual, franquicia desde 1.500 €.",
+        "Se conduce por la DERECHA. Carné internacional exigido por las agencias (Roadtrip Africa) y válido 3 meses (Canadá); FCDO pide IDP más carné nacional.",
+        "RN7 Antananarivo–Toliara (956 km): asfalto MUY degradado en 2025 (Tana–Antsirabe hasta 8 h, AllAfrica 18-dic-2025); tramo Toliara–Analamisampy renovado (Bradt, may-2025).",
+        "RN4 Tana–Mahajanga: 8–12 h, incendios de sabana; RN6 Ambondromamy–Diego: obras de urgencia; RN5 Toamasina–Maroantsetra: pista mal mantenida; RN2 Tana–Toamasina 5–9 h con camiones (voyage-madagascar.org, jul-2025).",
+        "Oeste (Morondava–Tsingy, Manja–Morombe): pista pura, barro, vados y ferris manuales (20 y 6,5 USD por trayecto); guía «pisteur» 25 €/día y convoy de dos coches (relatos 2025).",
+        "Temporada de lluvias dic–abr cierra pistas secundarias (FCDO); abril–junio de 2027 es buen momento. CPD: sin club emisor AIT/FIA en Madagascar (carnetdepassage.org); admisión temporal POR CONFIRMAR y no necesaria para esta escapada.",
+    ],
+    drones_callout=DRONE_CALLOUT,
+    drones=[
+        "Autoridad: Aviation Civile de Madagascar (ACM); reglamento RAM 10 000 anunciado en marzo de 2024 con aplicación desde febrero de 2025 (Moov.mg).",
+        "Registro por correo a drone@acm.mg: copia de pasaporte, prueba de propiedad, manual, fotos de dron y mando con número de serie, teléfono y formulario; plataforma en línea y tasas anunciadas pero no confirmadas (WAU Madagascar, jun-2025).",
+        "Exentos solo drones-juguete de <900 g al despegue y alcance <100 m; el resto necesita registro, formación de telepiloto y autorización por operación (plan de vuelo, visto bueno de Defensa y autoridad local, seguro).",
+        "Cada permiso cubre operaciones concretas, no toda la estancia; plazo «de semanas a meses» (drone-traveller, ago-2026); parques nacionales con permiso adicional.",
+        "MAEC, FCDO y Canadá no mencionan drones ni confiscaciones; sin testimonios de confiscación en Ivato abiertos en esta sesión → por confirmar.",
+    ],
+    starlink_callout=STARLINK_CALLOUT,
+    starlink=[
+        "Servicio comercial activo desde el 27-jun-2024; regulador ARTEC (Ecofin Agency, jun-2024).",
+        "Precio local de lanzamiento: 226.000 MGA/mes y kit 1,12 M MGA; itinerancia (Roam) de un terminal europeo POR CONFIRMAR (starlink.com/map no cargó el mapa en esta sesión).",
+        "Direct-to-Cell Starlink–Airtel: pruebas en marzo de 2026 y autorizaciones en trámite (Space in Africa, 19-may-2026).",
+        "SIM local con pasaporte físico: Yas (ex-Telma) SIM 1.000 MGA + 4 GB 25.000 MGA, mejor 4G en carretera; Orange SIM 3.000 MGA + 4,5 GB 30.000 MGA; Airtel 6,5 GB; oficinas de los tres en Ivato (Mind of a Hitchhiker, abr-2025). Un viajero pagó 113.000 MGA por 22,5 GB en 2025.",
+        "Penetración de internet del 17 % (2022): fuera de las ciudades y la RN7 no contar con datos móviles.",
+    ],
+    perro_intro=[
+        "Autoridad: Direction des Services Vétérinaires (DSV) del Ministère de l'Agriculture et de l'Élevage (MINAE), rue Farafaty, Ampandrianomby, Antananarivo. Su web (minae.gov.mg) NO abrió en esta sesión; contacto vía PIC Commerce (034 05 812 04) y Anivetvoyage (dsv.sif.info@gmail.com, +261 20 22 665 36).",
+        "Entrada: permiso de importación previo de la DSV (solicitud escrita ≥10 días antes, 30.000 MGA por animal), microchip ISO, vacuna antirrábica entre 30 días y 12 meses, certificado sanitario oficial ≤15 días refrendado por veterinario oficial (PetTravel, feb-2026; Anivetvoyage, mar-2024). Solo por Ivato.",
+        "Sin cuarentena si todo está en regla; si no, cuarentena, devolución o sacrificio a costa del dueño. Sin lista oficial de razas prohibidas (PetTravel); Madagascar Airlines rechaza pitbull y mastines sin pedigrí.",
+        "Vuelta a la UE: Madagascar NO figura en el Reg. de Ejecución (UE) 2026/636 (en el Índico solo Mauricio) → Reg. Delegado (UE) 2026/131, art. 14: titulación ≥0,5 UI/ml ≥30 días tras la vacuna y 3 meses de espera; art. 20: si la titulación consta en el pasaporte UE ANTES de salir de la Unión, los 3 meses no aplican (vía A). MAPA (FAQ mascotas) lo confirma.",
+        "Aerolíneas: Ethiopian admite perros de 8–45 kg en bodega (370–500 USD internacional, no braquicéfalos); Kenya Airways SOLO como carga (KQ Cargo), sin AVIH ni cabina; Madagascar Airlines cabina ≤7 kg (80.000 MGA) y bodega ≤32 kg (190.000 MGA). Airlink POR CONFIRMAR.",
+        "Rabia endémica y riesgo alto; perros callejeros; peste sep–abr. Veterinario privado en Antananarivo: Vetcare (+261 32 03 409 55, vetcare@vetcare.mg).",
+        "Recomendación: el perro se queda con cuidador en el continente; el vuelo solo compensa si la escapada supera 3–4 semanas y el permiso DSV llega a tiempo.",
+    ],
+    dog_matrix=DOG_MATRIX,
+    salud=[
+        "Fiebre amarilla: sin riesgo en Madagascar, pero certificado OBLIGATORIO si se llega desde país con riesgo o tras tránsito >12 h (TravelHealthPro, MAEC): con Kenia/Etiopía en el itinerario, llevar el certificado.",
+        "Malaria: riesgo ALTO en todo el país; profilaxis con atovacuona/proguanil, doxiciclina o mefloquina (TravelHealthPro, jun-2026).",
+        "Vacunas recomendadas: hepatitis A, tifoidea, rabia (viaje rural), tétanos-difteria-polio, hepatitis B; MAEC añade tuberculosis.",
+        "Peste: ciclo anual de brotes septiembre–abril (MAEC); mpox clado Ib 2.000 casos y 7 muertes dic-2025–jun-2026; polio cVDPV1 (may-2026); dengue y chikungunya (TravelHealthPro).",
+        "Agua del grifo NO potable; esquistosomiasis en agua dulce (no bañarse en ríos/lagos). Dos viajeros de 2024 sufrieron intoxicación y disentería en la RN7 (roadto197).",
+        "Hospitales de Antananarivo (HJRA +261 33 11 890 58; HJRB Befelatanana +261 20 222 2384; Policlinique d'Ilafy +261 20 22 425 66; Institut Pasteur +261 20 22 412 72) solo para lo rutinario; cirugía compleja se evacúa a Mauricio, Sudáfrica o Reunión (FCDO). Pago en efectivo por adelantado (Canadá).",
+        "Requisito Ebola (FCDO, sep-2026): declaración sanitaria y control a la llegada; denegación de entrada si se ha estado en país afectado en 21 días.",
+    ],
+    seguridad_intro="El MAEC recomienda «viajar con precaución» (18-may-2026) y FCDO/Canadá «alto grado de cautela» (9-sep-2026). Tras las protestas de septiembre–octubre de 2025, con saqueos y muertos, y la toma militar del 14-oct-2025 gobierna una transición de dos años; la calle está calmada pero hay mítines y cortes. El riesgo real para el viajero es la delincuencia: atracos y carjacking en ciudades, bandas «dahalo» en el sur y el oeste, y asaltos a vehículos en carreteras nacionales de noche. Con conductor local, viaje diurno y agencia reconocida, la RN7 y el oeste son viables.",
+    seguridad=[
+        "Política: transición militar desde el 17-oct-2025; evitar manifestaciones y mítines; cortes de carretera por enfrentamientos entre fuerzas de seguridad y comunidades (FCDO).",
+        "Delincuencia urbana: carteristas y tirones en Antananarivo; robos con violencia incluso de día en playas aisladas; no caminar de noche; transporte del hotel (FCDO, Canadá).",
+        "Carreteras: asaltos armados sobre todo de noche; FCDO recomienda convoyes y operadores reconocidos; Canadá cita ataques en RN13 y RN7 Fianarantsoa–Toliara; MAEC pide puertas y ventanillas bloqueadas en ciudad.",
+        "Dahalo (cuatreros armados): distrito de Ankazobe (RN4), Betroka, norte de Fort Dauphin, Ilakaka junto a Isalo, oeste entre Belo-sur-Tsiribihina y Toliara y Besalampy–Morombe (FCDO).",
+        "Secuestros por rescate ocasionales contra personas percibidas como ricas (FCDO, MAEC): no anunciar itinerario ni exhibir equipo.",
+        "Río Tsiribihina: robos armados a pasajeros; ferries locales sobrecargados; evitar navegación nocturna (FCDO, MAEC).",
+        "Canadá desaconseja ir solo a Sainte Marie, Ihosy, Pic Saint Louis (Tôlanaro), Toliara (Batterie Beach), Nosy Be, Ankify, Ambanja, Anosy e Isalo: bandas armadas en playas y parques.",
+        "Prohibido vestir camuflaje o ropa militar; llevar el pasaporte siempre encima (Canadá). Controles policiales en la RN7 frecuentes pero amables con turistas (relatos 2024-2025).",
+        "Terrorismo: sin historial reciente, no descartable (FCDO). Ciclones nov–abr en la costa (Gezani golpeó Toamasina en feb-2026).",
+    ],
+    agua=[
+        "Agua del grifo NO potable en todo el país (FCDO, Canadá): beber embotellada o filtrada/hervida.",
+        "Sin vehículo propio no hay depósitos que llenar: el agua la gestiona el conductor/agencia y los alojamientos; comprar garrafas en supermercado en Antananarivo antes de salir.",
+        "Esquistosomiasis presente: no bañarse ni lavar en ríos y lagos de agua dulce (TravelHealthPro).",
+        "Filtro portátil y pastillas para el oeste (Manja–Morombe) y el sur: los relatos de 2025 citan aldeas como único punto de agua entre Morondava y Toliara.",
+        "Crisis de agua y electricidad en Antananarivo fue el detonante de las protestas de sep-2025 (Bradt): cortes de suministro posibles en la capital.",
+    ],
+    combustible=[
+        "Precio (GlobalPetrolPrices, 12-ene-2026): diésel 4.670 MGA/l (≈1,03 USD), gasolina 95 4.970 MGA/l (≈1,09 USD); pico de 5.170 MGA en mayo de 2025.",
+        "Con alquiler con conductor el combustible va APARTE en todas las agencias consultadas: un circuito de 4.000 km (RN7 + oeste + este) costó ~1,75 M MGA (~415 USD) en 2022 (The Pilot Who Explores).",
+        "Red: gasolineras en capitales de provincia y ejes RN7/RN4/RN2; «repostar siempre al salir de un pueblo» (Roadtrip Africa); huecos críticos en el oeste → llenar en Ifaty y Morondava antes de Tsingy/Manja (relatos 2025).",
+        "Calidad y racionamiento: sin datos de escasez en 2026 abiertos en esta sesión → por confirmar con la agencia.",
+    ],
+    experiencias_intro="Los relatos overland recientes (2022–2025) son de viajeros en 4x4 alquilado con conductor o en autoconducción con Roadtrip Africa; no se han encontrado en esta sesión relatos de vehículos propios embarcados a la isla.",
+    experiencias=[
+        "RN7 de sur a norte en 4x4 con conductor (roadto197, agosto 2024): vuelo Tana–Toliara y dos semanas subiendo por Zombitse, Isalo, Tsaranoro, Ranomafana y Andasibe. La RN7 «en estado terrible», un bache tras otro; el primer conductor averió el coche y el sustituto apenas hablaba inglés; la puerta se soltó dos veces. Cajeros de 200.000 MGA con 10.000 de comisión; ambos viajeros con intoxicación y disentería tratadas en Antsirabe.",
+        "Circuito de 4.000 km con conductor (The Pilot Who Explores, 2022): Tana–Antsirabe–Morondava–Tsingy–Ifaty–Isalo–Ranomafana–Manakara en 14 días por 55 USD/día de 4x4 más dietas del chófer y 415 USD de combustible; total 2.636 USD para dos. «El 95 % del camino al Tsingy es pista, y mala»; convoy en los tramos remotos; salir al alba para llegar de día; cajeros limitados a 800.000 MGA.",
+        "Autoconducción de 22 días con Roadtrip Africa (Beyond the Bucket List, mayo 2025): Nissan Navara manual con tienda y rastreador; RN7 asfaltada pero llena de baches, RN9 Ifaty–Manja impecable y Manja–Morondava 100 % pista con vados y barro «de medio metro» hacia el Tsingy; dos ferris (20 y 6,5 USD). Recomiendan pisteur en el oeste, dos conductores y repostar en Ifaty y Morondava.",
+        "25 días de autoconducción en pareja (The Travelling Sloth, 2025): 4x4 a 140 €/día más pisteur a 25 €/día en las pistas de arena Salary–Belo-sur-Mer; visado a la llegada 74 USD; SIM de 22,5 GB por 113.000 MGA con Orange; presupuesto total ~6.000 € para dos. «Nos sentimos muy seguros, uno de los lugares más tranquilos que hemos visitado en África»; negociar alojamiento en persona.",
+        "Convoy de tres 4x4 por la costa oeste (Inditravel, noviembre 2025): Morondava–Tsingy–Belo-sur-Mer–Manja–Morombe–Toliara con conductores locales; ferry manual en el Mangoky arrastrado a cuerda por dieciséis jóvenes, pontones con motor agrícola chino, un coche atascado en arena fina dentro de un pueblo. OsmAnd imprescindible por las pistas cruzadas; mínimo dos vehículos en zona remota.",
+        "34 días con conductor anglófono de Tsiky Tour (Inception Travelers, agosto–septiembre 2025): Andasibe, descenso en piragua del Tsiribihina con dos vivacs, Tsingy, Morondava, Belo-sur-Mer, Andavadoaka, Ifaty, Isalo, Ranomafana y vuelo a Nosy Be; ~12.000 € para dos con vuelos. «Las distancias parecen cortas en el mapa, pero el viaje lleva tiempo»; efectivo imprescindible fuera de las capitales; logística compleja siempre vía operador.",
+        "RN7 en 11 días acampando con 4x4 de Roadtrip Africa (Beyond the Bucket List, junio 2025, actualizado ago-2026): Andasibe–Antsirabe–Ranomafana–Anja–Andringitra–Isalo–Ifaty; camping a 2,5–10 USD la noche frente a 30–50 USD de hotel; el tramo final «más baches que asfalto»; una avería de otra pareja resuelta el mismo día gracias al rastreador de la agencia. Evitar dic–mar por ciclones.",
+        "Sur en moto de alquiler (My Motorcycle World, sin fecha, ~2023): Pacific 200 cc de Rando Raid en Antsirabe hasta Toliara por la RN7 y pistas laterales; asfalto «plagado de baches peligrosos»; controles policiales regulares y amables, «basta con reducir la velocidad», parado dos veces cerca de Toliara sin problema; sin exigirle carné internacional. Planificar hotel a hotel para asegurar el equipaje.",
+        "Actualizaciones de la guía Bradt (Hilary Bradt, 2024–2025): visado de 90 días restituido en ago-2024 a 50 €; pago con tarjeta en Ivato desde oct-2024; RN5A Ambilobe–Vohemar asfaltada; RN7 Toliara–Analamisampy y RN13 Ambovombe–Fort Dauphin en rehabilitación (may-2025); en sep-2025 el FCDO desaconsejó todo viaje no esencial por los disturbios y toques de queda por los cortes de luz y agua.",
+    ],
+    pendientes=[
+        ("Tasa de exención 15 días", "Confirmar en evisamada-mg.com o con el consulado honorario si son 10 € (MAEC) o 30 € (desde 16-feb-2026 según prensa)."),
+        ("Portal eVisa oficial", "Abrir evisa.gov.mg / evisamada-mg.com y anotar el dominio operativo, plazos y si admite pasaporte español."),
+        ("Umbral de declaración de divisas", "Confirmar en aduana malgache: 1.000 € (MAEC) vs 7.500 € (FCDO) vs 10.000 € (Canadá)."),
+        ("Página oficial DSV", "Abrir minae.gov.mg/direction-des-services-veterinaires-dsv, verificar email/teléfono y pedir el formulario de permiso de importación."),
+        ("Airlink perro en bodega JNB–TNR", "Consultar política de mascotas, precio y si hay que ir por carga."),
+        ("Aceptación del CPD en aduana malgache", "Preguntar a RACE/carnetdepassage.org o a un transitario de Toamasina; solo si algún día se embarca un vehículo."),
+        ("Starlink Roam en Madagascar", "Comprobar en starlink.com/map si un terminal europeo funciona en itinerancia."),
+        ("Estado RN7 y pistas del oeste en abril–junio 2027", "Preguntar a la agencia de alquiler 1 mes antes; consultar madagascar-tribune.com y allAfrica."),
+        ("Custodia de los 4x4 y del perro en el continente", "Elegir aparcamiento vigilado y cuidador (Dar es Salaam/Nairobi/Johannesburgo) y coste por semana."),
+        ("Confiscación de drones en Ivato", "Buscar testimonios 2025-2026 en foros; si hay dudas, dejar el dron en el continente."),
+        ("Mascotas en parques nacionales", "Consultar a Madagascar National Parks (parcs-madagascar.com)."),
+        ("Requisito Ebola en 2027", "Revisar FCDO/MAEC un mes antes: qué países cuentan como afectados y si sigue el control de 21 días."),
+    ],
     sources=SOURCES,
-    sources_note="Ficha exploratoria de una escapada opcional en avión — consulta realizada el 11 de septiembre de 2026; verificar visado, salud y estado de pistas antes de decidir si se hace.",
-    emergency="Policía 117 · Bomberos 118 · Gendarmería 119 (cobertura y respuesta muy variables fuera de Antananarivo). España no tiene embajada en Madagascar: hay un Consulado Honorario en Antananarivo (+261 20 22 222 31 · ch.espagne@consulat.mg), bajo la Embajada de España en Pretoria (Sudáfrica), que es quien tiene la competencia plena.",
-    matrix_note="Coordenadas de referencia general (parques y ciudades), no verificadas punto a punto como en las fichas de la ruta 4x4 — esta es una ficha exploratoria.",
+    sources_note="Revisión del 18 de septiembre de 2026 con las fuentes abiertas en esta sesión (MAEC 18-may-2026, FCDO y Canadá 9-sep-2026). Es una herramienta de planificación, no una autorización: visados, tasas, requisito Ebola y trámites veterinarios deben confirmarse con las autoridades antes de viajar.",
+    emergency="Emergencia consular: Consulado Honorario de España en Antananarivo +261 32 11 060 74 (24 h, ch.espagne@consulat.mg) y Embajada en Pretoria +27 76 114 6152 (MAEC). Policía 17 / 117 (móvil), gendarmería 19 / 119, bomberos 18 / 118, urgencias médicas y ambulancia 124 (MAEC, 18-may-2026). Institut Pasteur +261 20 22 412 72; HJRA +261 33 11 890 58.",
 )
 
 

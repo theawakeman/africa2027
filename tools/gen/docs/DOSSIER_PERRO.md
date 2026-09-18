@@ -250,6 +250,10 @@ Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si s
 | País | Entrada terrestre | Permiso | Dificultad | Nota | Quién lo emite | Correo | Certificado sanitario |
 |---|---|---|---|---|---|---|---|
 | **Túnez** | ⛴️ Solo en ferry (La Goulette) · sin conexión terrestre con la ruta | ❌ No previo (Aduana) | 🟢 | **[CONFIRMADO]** Certificado sanitario oficial del país de origen + libreta + rabia en vigor; razas prohibidas Pit-bull, Rottweiler, Tosa, Mastiff/Boerboel. Vuelta a la UE: vía A (§4). | [Direction Générale des Services Vétérinaires](https://www.douane.gov.tn/animaux-de-compagnie/) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| **Madagascar** | ✈️ Solo en avión (Ivato) · sin ferry con vehículo | ✅ Sí, previo (DSV, ≥10 días, 30.000 MGA) | 🟡 | **[PROBABLE]** Microchip, rabia 30 días–12 meses y certificado oficial ≤15 días; sin cuarentena si todo está en regla. Vuelta a la UE: vía A (§4). | [Direction des Services Vétérinaires](https://www.minae.gov.mg/direction-des-services-veterinaires-dsv/) ❓ | `dsv.sif.info@gmail.com` | ✅ Sí · **15 días** |
+| **Mali** | ✈️ Solo en avión (Bamako-Sénou) · el FCDO desaconseja entrar por carretera | ❓ Por confirmar (DNSV) | 🟡 | **[PROBABLE]** Microchip, rabia en vigor y certificado sanitario oficial ≤72 h (Anivetvoyage 2022); sin web oficial maliense. Vuelta a la UE: vía A (§4). | Direction Nationale des Services Vétérinaires | — *sin correo publicado* | ✅ Sí · **3 días** |
+| **Guinea-Bisáu** | 🚗 Por tierra desde Casamance (Mpack–São Domingos) · país excluido por la junta militar | ❓ Por confirmar (Direcção Geral da Pecuária) | 🟡 | **[PROBABLE]** MAEC: identificación, rabia en vigor y certificado internacional de salud de menos de una semana; sin web oficial veterinaria. Vuelta a la UE: vía A (§4). | Ministério da Agricultura e Desenvolvimento… | `geral@gov.gw` | ✅ Sí · **7 días** |
+| **Sudán** | ✈️ Solo en avión (Port Sudán / Jartum) · pasos terrestres cerrados · guerra civil | ❌ No previo (PetTravel, sin fuente oficial) | 🟡 | **[PROBABLE]** Microchip, rabia 30 días–12 meses y certificado sanitario ≤10 días (PetTravel); ninguna web oficial sudanesa abierta. Vuelta a la UE: vía A (§4). | Ministerio de Recursos Animales | — *sin correo publicado* | ✅ Sí · **10 días** |
 
 ---
 
@@ -763,6 +767,81 @@ Evidencia:
 **Otra fuente:** [woah.org](https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm) · [mapa.gob.es](https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones)  
 
 > FUERA DE LA RUTA 2027 (solo viaje aparte en ferry a La Goulette).
+
+## 3.25 MADAGASCAR 🟡 — *solo alcanzable en avión*
+
+**Entrada:** Avión a Antananarivo-Ivato (TNR) con Kenya Airways, Ethiopian, Airlink o Air Mauritius; SIN ferry de pasajeros con vehículo (Rough Guides). Dar es Salaam sin vuelo directo en Wikipedia.
+**Papeles:** Entrada con permiso previo de la DSV (≥10 días antes, 30.000 MGA), microchip, rabia 30 días–12 meses, certificado oficial ≤15 días. Vuelta a la UE: país NO listado → titulación antes de salir.
+
+- Autoridad: Direction des Services Vétérinaires (DSV) del Ministère de l'Agriculture et de l'Élevage (MINAE), rue Farafaty, Ampandrianomby, Antananarivo. Su web (minae.gov.mg) NO abrió en esta sesión; contacto vía PIC Commerce (034 05 812 04) y Anivetvoyage (dsv.sif.info@gmail.com, +261 20 22 665 36).
+- Entrada: permiso de importación previo de la DSV (solicitud escrita ≥10 días antes, 30.000 MGA por animal), microchip ISO, vacuna antirrábica entre 30 días y 12 meses, certificado sanitario oficial ≤15 días refrendado por veterinario oficial (PetTravel, feb-2026; Anivetvoyage, mar-2024). Solo por Ivato.
+- Sin cuarentena si todo está en regla; si no, cuarentena, devolución o sacrificio a costa del dueño. Sin lista oficial de razas prohibidas (PetTravel); Madagascar Airlines rechaza pitbull y mastines sin pedigrí.
+- Vuelta a la UE: Madagascar NO figura en el Reg. de Ejecución (UE) 2026/636 (en el Índico solo Mauricio) → Reg. Delegado (UE) 2026/131, art. 14: titulación ≥0,5 UI/ml ≥30 días tras la vacuna y 3 meses de espera; art. 20: si la titulación consta en el pasaporte UE ANTES de salir de la Unión, los 3 meses no aplican (vía A). MAPA (FAQ mascotas) lo confirma.
+- Aerolíneas: Ethiopian admite perros de 8–45 kg en bodega (370–500 USD internacional, no braquicéfalos); Kenya Airways SOLO como carga (KQ Cargo), sin AVIH ni cabina; Madagascar Airlines cabina ≤7 kg (80.000 MGA) y bodega ≤32 kg (190.000 MGA). Airlink POR CONFIRMAR.
+
+---
+
+**Dónde se pide.** Direction des Services Vétérinaires (DSV) — Ministère de l'Agriculture et de l'Élevage (MINAE) — [página del trámite](https://www.minae.gov.mg/direction-des-services-veterinaires-dsv/) ❓ *no se ha podido abrir para comprobarla*  
+**Escribir a:** `dsv.sif.info@gmail.com`  
+**Teléfono:** +261 20 22 665 36 / +261 34 05 812 04  
+**Certificado sanitario:** ✅ Sí · 15 días · lo emite: Veterinario oficial (Sanidad Exterior/MAPA en España) o certificado privado refrendado por veterinario oficial  
+**Otra fuente:** [pic.commerce.mg](https://www.pic.commerce.mg/fr/direction-des-services-veterinaires-dsv) · [pettravel.com](https://www.pettravel.com/information/pet-passports/madagascar-pet-import-requirements/comment-page-1/)  
+
+## 3.26 MALI 🟡 — *excluido por protocolo*
+
+**Entrada:** Solo en avión a Bamako-Sénou (BKO): Air France y Corsair desde París, Royal Air Maroc vía Casablanca, Turkish vía Estambul, Tunisair, Ethiopian. Por tierra, el FCDO pide no intentar entrar ni salir por carretera. La ruta 2027 no toca ninguna frontera maliense.
+**Papeles:** Entrada: microchip, vacuna antirrábica y certificado sanitario oficial de menos de 72 h (Anivetvoyage 2022); autoridad: Direction Nationale des Services Vétérinaires (DNSV), sin web oficial localizable. Vuelta a la UE: Mali NO está en la lista del Reg. (UE) 2026/636 → titulación antirrábica anotada en el pasaporte ANTES de salir de España (vía A, Reg. Delegado 2026/131).
+
+- Entrada (fuente secundaria Anivetvoyage, actualizada 02-11-2022): microchip, pasaporte, vacuna antirrábica en vigor y certificado sanitario internacional emitido por veterinario OFICIAL menos de 72 h antes de la llegada. No hay página oficial maliense accesible que lo confirme.
+- Autoridad: Direction Nationale des Services Vétérinaires (DNSV), Ministère de l'Élevage et de la Pêche. La web ministerial ma.gouv.ml es una plantilla vacía (teléfono 00223000000, dirección de ejemplo en Australia); la DNSV emite las autorizaciones de importación de animales (FAO 2013). Permiso previo para perros: por confirmar.
+- Razas prohibidas: ninguna fuente localizada; por confirmar. Cuarentena: no se menciona en ninguna fuente.
+- Vuelta a la UE: Mali NO figura en los anexos del Reg. de Ejecución (UE) 2026/636 (ningún país de África continental lo hace; solo Mauricio, Santa Elena y Ascensión). Aplica la vía A del Reg. Delegado (UE) 2026/131, art. 20(b): titulación de anticuerpos antirrábicos (≥0,5 UI/ml, ≥30 días tras la vacuna) hecha en la UE ANTES de salir y anotada en el pasaporte; así no aplica la espera de 3 meses. Sin ella, el perro no vuelve.
+- Rabia: presente en animales domésticos; tratamiento post-exposición «de acceso limitado» (TravelHealthPro). Mali es país de rabia «no favorable» (Anivetvoyage). Perros callejeros frecuentes; llevar la vacuna del perro al día y considerar su preexposición.
+
+---
+
+**Dónde se pide.** Direction Nationale des Services Vétérinaires (DNSV) — Ministère de l'Élevage et de la Pêche, Bamako — *sin página localizada*  
+**Certificado sanitario:** ✅ Sí · 3 días · lo emite: Veterinario oficial (en España: Servicios Veterinarios Oficiales / certificado sanitario internacional), según Anivetvoyage 2022; no confirmado por fuente maliense.  
+**Otra fuente:** [anivetvoyage.com](https://www.anivetvoyage.com/formalites-pays/m/289-mali.html) · [faolex.fao.org](https://faolex.fao.org/docs/pdf/Mli190553.pdf)  
+
+## 3.27 GUINEA-BISÁU 🟡 — *excluido por protocolo*
+
+**Entrada:** Por tierra desde Casamance (Ziguinchor–Mpack–São Domingos, principal paso), desde Tambacounda/Vélingara por Pirada, o desde Guinea por Buruntuma–Kandika. Avión: aeropuerto Osvaldo Vieira (OXB) con TAP Lisboa, Royal Air Maroc, Air Senegal, ASKY.
+**Papeles:** MAEC: identificación, vacuna antirrábica y certificado internacional de salud de MENOS DE UNA SEMANA. Sin web oficial veterinaria localizada. Vuelta a la UE: país NO listado → titulación antirrábica anotada en el pasaporte antes de salir.
+
+- ENTRADA (MAEC, 19-3-2026): el animal debe ir identificado, vacunado contra la rabia y con certificado internacional de buena salud de NO MÁS DE UNA SEMANA de antigüedad. No hay más detalle oficial.
+- No se localizó página oficial de los servicios veterinarios de Guinea-Bisáu (Ministério da Agricultura e Desenvolvimento Rural / Direcção Geral da Pecuária); el portal bissaugov.com solo da un correo genérico (geral@gov.gw). Permiso previo de importación y razas prohibidas: POR CONFIRMAR.
+- Certificado práctico: pasaporte UE + certificado oficial de exportación español emitido por el veterinario oficial (Sanidad Exterior/CCAA) en los 7 días previos; en Senegal, hacer uno nuevo con un veterinario en Ziguinchor si el de España ha caducado.
+- RABIA: TravelHealthPro considera la rabia «un riesgo» con casos en animales domésticos; perros callejeros abundantes en Bissau y aldeas. Vacuna del perro al día y evitar contacto.
+- VUELTA A LA UE: Guinea-Bisáu NO figura en la lista del Reg. de Ejecución (UE) 2026/636 (ningún país de África continental lo está) → titulación de anticuerpos antirrábicos ≥0,5 UI/ml en laboratorio autorizado, muestra ≥30 días tras la vacuna, hecha en la UE ANTES de salir y anotada en el pasaporte (vía A), lo que exime de la espera de 3 meses (MAPA, 12-8-2026; Reg. Delegado (UE) 2026/131).
+
+---
+
+**Dónde se pide.** Ministério da Agricultura e Desenvolvimento Rural – Direcção Geral da Pecuária (servicios veterinarios oficiales) — *sin página localizada*  
+**Escribir a:** `geral@gov.gw` (correo genérico del portal del Gobierno; no del servicio veterinario)  
+**Certificado sanitario:** ✅ Sí · 7 días · lo emite: Veterinario oficial español (certificado internacional de buena salud, según MAEC); endoso local no documentado  
+**Otra fuente:** [exteriores.gob.es](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Guinea%20Bissau) · [bissaugov.com](https://bissaugov.com/ministerios)  
+
+> El MAEC (19-3-2026) es la única fuente oficial abierta: identificación, vacuna antirrábica y certificado internacional de salud de menos de una semana.
+
+## 3.28 SUDÁN 🟡 — *excluido por protocolo*
+
+**Entrada:** Solo en avión: Port Sudán (PZU: EgyptAir, Ethiopian, Turkish, Qatar) y, desde el 28-04-2026, Jartum internacional; ambos atacados con drones en 2025–2026. Pasos terrestres cerrados a extranjeros según MAEC; Argeen/Ashkeet solo refugiados y ayuda.
+**Papeles:** Sin fuente oficial nacional abierta; datos de terceros: certificado veterinario en 10 días, rabia 30 días–12 meses, sin permiso previo, sin razas prohibidas. Vuelta a la UE: Sudán NO está en el Reg. (UE) 2026/636 → titulación antirrábica anotada antes de salir.
+
+- No se ha podido abrir ninguna página OFICIAL sudanesa (Ministerio de Recursos Animales / Servicios Veterinarios); los requisitos disponibles son de intermediarios (PetTravel.com) y NO están verificados con un país en guerra.
+- Según PetTravel.com: microchip ISO recomendado (no obligatorio), vacuna antirrábica entre 30 días y 12 meses antes, certificado sanitario de veterinario oficial (o refrendado) en los 10 días previos, sin permiso de importación, sin lista de razas prohibidas, entrada solo por el aeropuerto de Jartum.
+- La rabia está presente en animales domésticos en Sudán (TravelHealthPro, 2025): vacunación del perro imprescindible y evitar perros callejeros.
+- Vuelta a la UE: Sudán NO figura en el Reg. de Ejecución (UE) 2026/636 (en África solo Mauricio, Santa Elena y Ascensión) → régimen de país no listado del Reg. Delegado (UE) 2026/131 (aplicable desde 28-03-2026): titulación de anticuerpos antirrábicos ANOTADA en el pasaporte europeo antes de salir de la UE (vía A) y entrada por Punto de Entrada de Viajeros (MAPA).
+- Sin datos de veterinarios operativos: el sistema sanitario humano está colapsado y no hay clínicas veterinarias de referencia localizadas; por confirmar.
+
+---
+
+**Dónde se pide.** Ministerio de Recursos Animales (Ministry of Animal Resources) — Servicios Veterinarios / Cuarentena, Sudán — *sin página localizada*  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial o privado con refrendo oficial del país de origen (dato de PetTravel.com, no oficial)  
+**Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/sudan-pet-import-requirements/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202600636)  
+
+> No se ha localizado ni abierto ninguna web oficial del organismo veterinario sudanés; las búsquedas devuelven referencias a Sudán del Sur o fichas de terceros.
 
 # 4. La vuelta a la UE
 
