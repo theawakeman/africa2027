@@ -1,70 +1,1146 @@
 [
   {
     "n": 1,
-    "name": "Alejandría",
-    "cat": "Ciudad · servicios",
+    "name": "El Cairo · Museo Egipcio de Tahrir y el Gran Museo Egipcio (GEM)",
+    "cat": "Cultura",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2 noches",
-    "lat": 31.2001,
-    "lon": 29.9187,
-    "desc": "Puerto mediterráneo y punto de llegada previsto por mar (RoRo/contenedor desde Yibuti) o de salida hacia Europa; ciudad helenística de Alejandro Magno y la Biblioteca, hoy con buena oferta de talleres y agentes de aduanas para vehículos de expedición.",
-    "credit": "Mmelouk · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandria%20eastern%20harbor.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Alexandria%20eastern%20harbor.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 29.9931986,
+    "lon": 31.1244409,
+    "desc": "Dos museos que hay que entender como uno solo: el GEM, inaugurado el 1 DE NOVIEMBRE DE 2025 junto a la meseta de Giza, con 81.000 m² de exposición y los 5.398 objetos de la tumba de Tutankamón reunidos por primera vez; y el viejo Museo Egipcio de Tahrir, abierto en 1902, que conserva el resto de una colección de unas 170.000 piezas. El GEM es moderno, con aparcamiento propio; Tahrir es un edificio decimonónico en pleno centro, sin sitio para aparcar dos 4x4.",
+    "dog_note": "Ambos museos son recintos cerrados con control de acceso: no admiten perros. Hay que dejarlo en alojamiento con sombra.",
+    "visit": {
+      "why": "Es la mejor introducción posible al resto del país: sin haber visto el ajuar de Tutankamón, los templos del Nilo se quedan en piedra desnuda.",
+      "see": "En el GEM, la gran escalinata con colosos, las dos salas de Tutankamón y la máscara de oro; en Tahrir, las momias reales que no se han movido, el tesoro de Tanis y las salas del Imperio Antiguo.",
+      "access": "El GEM está en la carretera Cairo–Alejandría del desierto, a pie de asfalto y con aparcamiento grande: es el punto lógico para dejar los dos coches. Tahrir abre de 9:00 a 17:00 (16:00 en Ramadán) y cobra 550 EGP al extranjero (275 estudiantes) según la web oficial del ministerio; conviene llegar en taxi o metro y no meter los vehículos en el centro. El pin marca la explanada de acceso del GEM en la plaza de El-Remaya.",
+      "when": "A primera hora de la mañana, nada más abrir. En invierno (noviembre–marzo) el tráfico de El Cairo es igual de malo pero el calor no castiga.",
+      "skip": "Si solo se dispone de un día en El Cairo, se elige el GEM y se descarta Tahrir."
+    },
+    "links": [
+      {
+        "label": "Museo Egipcio de El Cairo · ministerio egipcio (horarios y tarifas)",
+        "url": "https://egymonuments.gov.eg/en/museums/egyptian-museum"
+      },
+      {
+        "label": "Gran Museo Egipcio · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Grand_Egyptian_Museum"
+      },
+      {
+        "label": "Museo Egipcio de Tahrir · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_Museum"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Egyptian_Museum_2025.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Egyptian_Museum_2025.jpg",
+        "credit": "Amr F.Nagy · Public domain",
+        "caption": "El Gran Museo Egipcio (GEM), inaugurado junto a la meseta de Giza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Facade_of_the_Egyptian_Museum,_Tahrir_Square,_Cairo,_Egypt1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Facade_of_the_Egyptian_Museum,_Tahrir_Square,_Cairo,_Egypt1.jpg",
+        "credit": "Diego Delso · CC BY-SA 3.0",
+        "caption": "Fachada del Museo Egipcio de Tahrir."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Egyptian_Museum_2025_(70046).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Egyptian_Museum_2025_(70046).jpg",
+        "credit": "Amr F.Nagy · Public domain",
+        "caption": "Interior del Gran Museo Egipcio."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Egyptian_Museum_2025.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Grand_Egyptian_Museum_2025.jpg",
+    "credit": "Amr F.Nagy · Public domain",
+    "icon": "cultura",
+    "color": "morado"
   },
   {
     "n": 2,
-    "name": "Giza (pirámides y la Esfinge)",
-    "cat": "Cultura",
+    "name": "Giza · pirámides y la Esfinge (UNESCO)",
+    "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "no recomendado",
-    "time": "1–2 noches",
-    "lat": 29.9792,
-    "lon": 31.1342,
-    "desc": "El conjunto monumental más famoso del planeta, a las puertas de El Cairo; visita imprescindible y muy transitada, con aparcamiento vigilado para vehículos grandes en el propio recinto.",
-    "credit": "Kallerna · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sphinx%20and%20the%20Great%20Pyramid%20of%20Giza%20panorama.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Sphinx%20and%20the%20Great%20Pyramid%20of%20Giza%20panorama.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": ""
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 29.9772962,
+    "lon": 31.1324955,
+    "desc": "La Gran Pirámide de Keops se levantó hacia 2580–2560 a. C. y es la ÚNICA de las siete maravillas del mundo antiguo que sigue en pie. Junto a ella, las de Kefrén y Micerinos, los templos del valle y la Gran Esfinge, cuya cabeza los egiptólogos atribuyen a Kefrén. El conjunto forma, con Saqqara, Dahshur y Menfis, un único bien UNESCO inscrito en 1979. Advertencia: el acoso comercial de camelleros y guías falsos en la explanada es constante y agresivo.",
+    "dog_note": "Recinto arqueológico vallado con taquilla y control: no se permite entrar con perro, y el calor sobre la arena lo desaconseja de todos modos.",
+    "visit": {
+      "why": "Es el monumento más reconocible del planeta y está a veinte minutos del Gran Museo Egipcio: no se pasa de largo.",
+      "see": "Las tres pirámides, la Esfinge desde el templo del valle, el mirador panorámico del sur y, con billete aparte, el interior de la Gran Pirámide.",
+      "access": "Asfalto hasta la puerta; el acceso principal está en la plaza de El-Remaya y hay una segunda puerta junto a la Esfinge, en Nazlet el-Samman. El ministerio da horario 8:00–16:00 y 700 EGP de entrada general al extranjero (350 estudiantes), más 25 EGP por coche; el interior de las pirámides se paga aparte. El pin marca la meseta; para conducir hay que buscar la puerta de El-Remaya, que es donde se puede dejar los dos 4x4.",
+      "when": "Al abrir, a las 8:00, antes de que lleguen los autocares; los meses de noviembre a marzo son los razonables.",
+      "skip": "Si se viaja en pleno verano y solo se puede ir a mediodía, mejor cambiarlo por Dahshur, mucho más tranquilo."
+    },
+    "links": [
+      {
+        "label": "Meseta de Giza · ministerio egipcio (horarios y tarifas)",
+        "url": "https://egymonuments.gov.eg/en/archaeological-sites/giza-plateau"
+      },
+      {
+        "label": "UNESCO · Menfis y su necrópolis (lista 86)",
+        "url": "https://whc.unesco.org/en/list/86"
+      },
+      {
+        "label": "Complejo de Giza · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/All_Gizah_Pyramids.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+        "credit": "Ricardo Liberato · CC BY-SA 2.0",
+        "caption": "Las tres pirámides de Giza en una sola vista."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Sphinx_(%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_(%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84).jpg",
+        "credit": "Petar Milošević · CC BY-SA 4.0",
+        "caption": "La Gran Esfinge de Giza."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giza_pyramid_complex_-_360.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Giza_pyramid_complex_-_360.jpg",
+        "credit": "kallerna · CC BY-SA 3.0",
+        "caption": "Panorámica del complejo piramidal."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/All_Gizah_Pyramids.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+    "credit": "Ricardo Liberato · CC BY-SA 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
   },
   {
     "n": 3,
-    "name": "Luxor (Valle de los Reyes y Karnak)",
-    "cat": "Cultura",
+    "name": "Saqqara y Dahshur · la pirámide escalonada y la Acodada (UNESCO)",
+    "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "no recomendado",
-    "time": "2 noches",
-    "lat": 25.6872,
-    "lon": 32.6396,
-    "desc": "El mayor museo al aire libre del mundo: el templo de Karnak, el Valle de los Reyes y los Colosos de Memnón, en la orilla del Nilo a medio camino entre El Cairo y Asuán.",
-    "credit": "Wouter Hagens · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Luxor%20Valley%20of%20the%20Kings%20D.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Luxor%20Valley%20of%20the%20Kings%20D.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": ""
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 29.8712634,
+    "lon": 31.216775,
+    "desc": "La pirámide escalonada de Zoser, obra de Imhotep, es EL EDIFICIO DE PIEDRA COMPLETO MÁS ANTIGUO que se conoce. A quince kilómetros al sur, Dahshur guarda las dos pirámides de Snefru: la Acodada, primer intento fallido de cara lisa, y la Roja, de 104 metros y 43 grados, que sí salió bien. Ambas se visitan por dentro y casi sin colas. Advertencia: el asfalto hasta Dahshur es estrecho y con badenes sin señalizar; no se conduce de noche.",
+    "dog_note": "Zonas arqueológicas valladas con taquilla; además hay perros asilvestrados en los aparcamientos que pueden dar problemas.",
+    "visit": {
+      "why": "Es la secuencia completa de cómo se inventó la pirámide, en dos paradas y en el mismo día, con una décima parte de la gente que hay en Giza.",
+      "see": "El complejo funerario de Zoser y el museo de Imhotep, el Serapeum de los toros Apis y, en Dahshur, el interior de la pirámide Roja y la silueta de la Acodada.",
+      "access": "Asfalto desde la carretera de Abusir; explanada de tierra amplia para aparcar dos 4x4 en ambos sitios. El ministerio da horario 8:00–16:00 y 600 EGP al extranjero por el recinto de Saqqara (300 estudiantes), o 1.400 EGP el billete que incluye el museo de Imhotep y las tumbas de los nobles; 25 EGP por coche. El pin marca la taquilla de Saqqara.",
+      "when": "Por la mañana temprano, y Dahshur a media tarde con la luz baja.",
+      "skip": "Si ya se ha entrado en la Gran Pirámide y el presupuesto aprieta, Dahshur puede verse solo desde fuera."
+    },
+    "links": [
+      {
+        "label": "Saqqara · ministerio egipcio (horarios y tarifas)",
+        "url": "https://egymonuments.gov.eg/en/archaeological-sites/saqqara"
+      },
+      {
+        "label": "UNESCO · Menfis y su necrópolis (lista 86)",
+        "url": "https://whc.unesco.org/en/list/86"
+      },
+      {
+        "label": "Dahshur · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Dahshur"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Saqqara_pyramid_ver_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+        "credit": "Charles J. Sharp · CC BY-SA 3.0",
+        "caption": "La pirámide escalonada de Zoser, en Saqqara."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bent_Pyramid_of_Snofru.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bent_Pyramid_of_Snofru.jpg",
+        "credit": "Darer101 · CC BY-SA 4.0",
+        "caption": "La pirámide Acodada de Seneferu, en Dahshur."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Saqqara,_Pyramid_of_Djoser_3,_Ancient_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Saqqara,_Pyramid_of_Djoser_3,_Ancient_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "El recinto de Zoser desde el sur."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Saqqara_pyramid_ver_2.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg",
+    "credit": "Charles J. Sharp · CC BY-SA 3.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
   },
   {
     "n": 4,
-    "name": "Asuán y el lago Nasser",
-    "cat": "Naturaleza",
+    "name": "Menfis · la capital del Imperio Antiguo (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 29.8494676,
+    "lon": 31.2543246,
+    "desc": "De la capital del Imperio Antiguo, en pie ya en tiempos de Iry-Hor —dos generaciones antes de Narmer—, quedan un palmeral y un museo al aire libre. Lo que justifica la parada son dos piezas: el coloso tumbado de Ramsés II, de unos diez metros de caliza con restos de policromía, hallado en 1820 junto a la puerta sur del templo de Ptah, y la esfinge de alabastro de la XVIII dinastía, una de las mejores conservadas todavía en su emplazamiento original. Se ve en una hora larga.",
+    "dog_note": "Museo al aire libre vallado con taquilla; no admite animales.",
+    "visit": {
+      "why": "Cierra el circuito Giza–Saqqara–Dahshur y pone nombre a la ciudad que mandaba sobre todas esas pirámides.",
+      "see": "El coloso de Ramsés II bajo su cubierta, la esfinge de alabastro y un patio con estatuas, sarcófagos y fragmentos del templo de Ptah.",
+      "access": "Asfalto desde Saqqara, unos 4 km por carretera rural entre palmeras; aparcamiento de tierra con sitio de sobra para dos 4x4. Horario y tarifa por confirmar en la web del ministerio, que no tiene página propia para Mit Rahina. El pin marca el recinto del museo al aire libre de Mit Rahina.",
+      "when": "Al terminar Saqqara, a media mañana; en verano el patio no tiene sombra.",
+      "skip": "Si el día ya se ha ido en Saqqara y Dahshur, se sacrifica sin remordimiento: es la visita más floja de las cuatro."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Menfis y su necrópolis (lista 86)",
+        "url": "https://whc.unesco.org/en/list/86"
+      },
+      {
+        "label": "Menfis · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Memphis,_Egypt"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruins_at_Mit_Rahina.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ruins_at_Mit_Rahina.jpg",
+        "credit": "Darer101 · CC BY-SA 4.0",
+        "caption": "Ruinas de Menfis en Mit Rahina."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis,_Pharaoh_Rameses_II,_Ancient_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Memphis,_Pharaoh_Rameses_II,_Ancient_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "El coloso de Ramsés II tumbado en el museo al aire libre."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Colossus_Of_Ramesses_(235168871).jpeg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Colossus_Of_Ramesses_(235168871).jpeg",
+        "credit": "Ahnaf Saber · CC BY 3.0",
+        "caption": "Detalle del coloso de Ramsés II."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruins_at_Mit_Rahina.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ruins_at_Mit_Rahina.jpg",
+    "credit": "Darer101 · CC BY-SA 4.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 5,
+    "name": "El Cairo islámico · ciudadela de Saladino, Ibn Tulun y Jan el-Jalili (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1 noche",
+    "lat": 30.0287457,
+    "lon": 31.2597144,
+    "desc": "El Cairo histórico, UNESCO desde 1979, son 523 hectáreas de trazado medieval intacto. La ciudadela la empezó Saladino en 1176 sobre un espolón del Mokattam y la remató Mehmet Alí con su mezquita otomana (1830–1848). Abajo, la mezquita de Ibn Tulun (876–879) es uno de los mejores ejemplos de arquitectura islámica temprana, con 26.318 m² y minarete de escalera exterior en espiral. Jan el-Jalili, fundado entre 1382 y 1389, es el bazar. Advertencia: conducir por el casco antiguo es inviable.",
+    "dog_note": "Mezquitas en uso y recinto militar parcialmente activo: el perro no entra en ninguno de los tres sitios.",
+    "visit": {
+      "why": "Es la otra mitad de Egipto, la que casi nadie visita, y la ciudad islámica mejor conservada del mundo árabe.",
+      "see": "La mezquita de Mehmet Alí y las vistas desde la ciudadela, el patio y el minarete de Ibn Tulun, la casa-museo Gayer-Anderson y la calle al-Muizz de noche.",
+      "access": "La ciudadela tiene aparcamiento propio y es el único de los tres sitios al que se llega en coche sin sufrir; Ibn Tulun y Jan el-Jalili se hacen en taxi o a pie. Horarios y tarifas de la ciudadela por confirmar: la web del ministerio no tiene página activa para ella. El pin marca la mezquita de al-Nasir Muhammad, dentro del recinto de la ciudadela.",
+      "when": "Ciudadela a media mañana; al-Muizz y Jan el-Jalili después de la puesta de sol, cuando se ilumina.",
+      "skip": "Si se viaja en Ramadán y en horas de ayuno, las mezquitas cierran a los visitantes a mediodía."
+    },
+    "links": [
+      {
+        "label": "UNESCO · El Cairo histórico (lista 89)",
+        "url": "https://whc.unesco.org/en/list/89"
+      },
+      {
+        "label": "Mezquita de Ibn Tulun · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Mosque_of_Ibn_Tulun"
+      },
+      {
+        "label": "Ciudadela de El Cairo · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Citadel_of_Cairo"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_%D9%82%D9%84%D8%B9%D8%A9_%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A_%D9%88%D9%85%D8%B3%D8%AC%D8%AF_%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%D9%8A_-_Cairo_-_Egypt_-_17_04_2010_(4).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_%D9%82%D9%84%D8%B9%D8%A9_%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A_%D9%88%D9%85%D8%B3%D8%AC%D8%AF_%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%D9%8A_-_Cairo_-_Egypt_-_17_04_2010_(4).jpg",
+        "credit": "Ahmed Al.Badawy · CC BY-SA 2.0",
+        "caption": "La ciudadela de Saladino y la mezquita de Muhammad Ali."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Muhammad_Ali_Mosque,_Citadel,_Cairo,_Egypt3.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_Mosque,_Citadel,_Cairo,_Egypt3.jpg",
+        "credit": "Diego Delso · CC BY-SA 3.0",
+        "caption": "Interior de la mezquita de alabastro."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Scenes_from_Cairo_Citadel_(25986).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Scenes_from_Cairo_Citadel_(25986).jpg",
+        "credit": "Amr F.Nagy · CC BY-SA 4.0",
+        "caption": "El Cairo desde la ciudadela."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_%D9%82%D9%84%D8%B9%D8%A9_%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A_%D9%88%D9%85%D8%B3%D8%AC%D8%AF_%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%D9%8A_-_Cairo_-_Egypt_-_17_04_2010_(4).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_HuTect_ShOts_-_Citadel_of_Salah_El.Din_and_Masjid_Muhammad_Ali_%D9%82%D9%84%D8%B9%D8%A9_%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A_%D9%88%D9%85%D8%B3%D8%AC%D8%AF_%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%D9%8A_-_Cairo_-_Egypt_-_17_04_2010_(4).jpg",
+    "credit": "Ahmed Al.Badawy · CC BY-SA 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 6,
+    "name": "El Cairo copto · Ben Ezra, la Iglesia Colgante y el Viejo Cairo",
+    "cat": "Cultura",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 30.0052389,
+    "lon": 31.2301689,
+    "desc": "Un barrio amurallado dentro de la fortaleza romana de Babilonia donde conviven en doscientos metros la Iglesia Colgante —llamada así porque su nave descansa sobre una puerta romana y se sube por veintinueve escalones—, la iglesia de Abu Serga, el Museo Copto y la sinagoga de Ben Ezra. En la geniza de esta última aparecieron en el siglo XIX unos 400.000 documentos, hoy en su mayoría en Cambridge. Advertencia: control de seguridad a la entrada y prohibición de fotografiar dentro de algunos templos.",
+    "dog_note": "Iglesias y sinagoga en culto, con arcos detectores a la entrada del recinto: no se admite el perro.",
+    "visit": {
+      "why": "Es el Egipto cristiano y judío en un mismo recinto, y el contrapunto exacto al Cairo islámico del día anterior.",
+      "see": "La Iglesia Colgante, la geniza vacía de Ben Ezra, la cripta de Abu Serga y los tejidos y códices del Museo Copto.",
+      "access": "Se llega bien en metro (línea 1, estación Mar Girgis) y muy mal en coche: las calles del recinto son peatonales. Horarios y tarifas del Museo Copto por confirmar. El pin marca el recinto del Viejo Cairo copto; los vehículos se dejan en el aparcamiento de la avenida Mar Girgis.",
+      "when": "A primera hora, antes de que lleguen los grupos; los domingos hay misa y el acceso turístico se restringe.",
+      "skip": "Con un solo día en El Cairo, se prioriza el GEM y la ciudadela."
+    },
+    "links": [
+      {
+        "label": "El Cairo copto · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Coptic_Cairo"
+      },
+      {
+        "label": "Iglesia Colgante · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Hanging_Church"
+      },
+      {
+        "label": "Sinagoga de Ben Ezra · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Ben_Ezra_Synagogue"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanging_Church,_Old_Cairo,_Egypt3.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hanging_Church,_Old_Cairo,_Egypt3.jpg",
+        "credit": "Diego Delso · CC BY-SA 3.0",
+        "caption": "La Iglesia Colgante del Cairo copto."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Hanging_Church,_Old_Cairo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Hanging_Church,_Old_Cairo.jpg",
+        "credit": "Keith Reyd · CC BY-SA 4.0",
+        "caption": "Fachada de la Iglesia Colgante."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben_Ezra_Synagogue-1.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ben_Ezra_Synagogue-1.jpg",
+        "credit": "Faris knight · CC BY-SA 3.0",
+        "caption": "La sinagoga Ben Ezra."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanging_Church,_Old_Cairo,_Egypt3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanging_Church,_Old_Cairo,_Egypt3.jpg",
+    "credit": "Diego Delso · CC BY-SA 3.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 7,
+    "name": "Alejandría · Bibliotheca Alexandrina, Qaitbay y Kom el-Shoqafa",
+    "cat": "Ciudad · servicios",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 31.2089032,
+    "lon": 29.9091587,
+    "desc": "Fundada por Alejandro Magno en 331 a. C., Alejandría es la ciudad mediterránea de Egipto y el mejor sitio para reponerse antes o después del desierto. La Bibliotheca Alexandrina, inaugurada el 16 de octubre de 2002 y proyectada por Snøhetta, tiene capacidad para OCHO MILLONES DE LIBROS bajo una cubierta de vidrio inclinada de 160 metros de diámetro. El fuerte de Qaitbay (1477–1479) se levanta sobre las ruinas del faro. Las catacumbas de Kom el-Shoqafa se descubrieron en 1900 cuando un burro cayó por el pozo.",
+    "dog_note": "Biblioteca, fuerte y catacumbas son recintos cerrados con taquilla; el perro se queda en el vehículo o en el alojamiento.",
+    "visit": {
+      "why": "Es la única gran ciudad costera de la ruta, con puerto, mercado de pescado y una escala urbana muy distinta a la de El Cairo.",
+      "see": "La sala de lectura de la biblioteca, la Corniche hasta Qaitbay al atardecer y los tres niveles excavados en roca de Kom el-Shoqafa, con su mezcla de arte egipcio, griego y romano.",
+      "access": "Autopista del Delta o del desierto desde El Cairo, ambas de peaje y en buen estado. Aparcar en la Corniche es difícil: conviene alojamiento con garaje y moverse en taxi. Horarios y tarifas de los tres sitios por confirmar. El pin marca la explanada de la Bibliotheca Alexandrina.",
+      "when": "Primavera y otoño; en verano la ciudad se llena de veraneantes egipcios y no hay una cama libre.",
+      "skip": "Si el objetivo es el Alto Egipto y el tiempo es justo, Alejandría es lo primero que cae."
+    },
+    "links": [
+      {
+        "label": "Bibliotheca Alexandrina · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Bibliotheca_Alexandrina"
+      },
+      {
+        "label": "Catacumbas de Kom el-Shoqafa · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Catacombs_of_Kom_El_Shoqafa"
+      },
+      {
+        "label": "Ciudadela de Qaitbay · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Citadel_of_Qaitbay"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Egypt,_Alexandria,_Bibliotheca_Alexandrina_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Egypt,_Alexandria,_Bibliotheca_Alexandrina_2.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "La Bibliotheca Alexandrina."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Citadel_of_Qaitbay_014.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Citadel_of_Qaitbay_014.JPG",
+        "credit": "لا روسا · CC BY-SA 3.0",
+        "caption": "El fuerte de Qaitbay, sobre los cimientos del Faro."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibliotiqa_Alexandria_9_edited.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bibliotiqa_Alexandria_9_edited.jpg",
+        "credit": "Mona Abo-Abda / Rado · CC BY-SA 4.0",
+        "caption": "Sala de lectura de la Biblioteca de Alejandría."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Egypt,_Alexandria,_Bibliotheca_Alexandrina_2.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Egypt,_Alexandria,_Bibliotheca_Alexandrina_2.jpg",
+    "credit": "Vyacheslav Argenberg · CC BY 4.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
+  },
+  {
+    "n": 8,
+    "name": "El Alamein · los cementerios de la batalla del desierto",
+    "cat": "Cultura",
     "prio": "Media",
     "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 30.8372144,
+    "lon": 28.9467165,
+    "desc": "A 106 kilómetros al oeste de Alejandría, en la carretera de la costa, están los tres cementerios de la batalla que frenó a Rommel: el del Commonwealth, mantenido por la Commonwealth War Graves Commission sobre terreno cedido a perpetuidad por Egipto; el osario alemán de Tel el-Eisa, con forma de fortaleza medieval; y el italiano, con unas 5.200 tumbas. Hay también un cementerio griego y un museo militar. Advertencia: el desierto de alrededor sigue minado en zonas amplias; NO SE SALE DEL ASFALTO.",
+    "dog_note": "Los cementerios son recintos abiertos al aire libre: el perro puede acompañar atado y fuera del césped, pero no entra en el museo militar.",
+    "visit": {
+      "why": "Es la parada obligada entre Alejandría y Marsa Matruh y la única huella europea reciente de la costa egipcia.",
+      "see": "Las filas del cementerio del Commonwealth con el memorial sudafricano, la torre-osario alemana sobre el mar y las vitrinas de uniformes y cañones del museo.",
+      "access": "Carretera costera asfaltada y en buen estado; aparcamiento amplio y sombra escasa en los tres recintos. Horarios y tarifas del museo por confirmar. Zona clasificada por el MAEC como de riesgo medio solo en la franja fronteriza con Libia, que queda mucho más al oeste. El pin marca el núcleo de El Alamein; hay que buscar cada cementerio por separado.",
+      "when": "Mañana temprano; en verano el sol sobre la grava blanca es insoportable.",
+      "skip": "Si no se va a seguir hacia Siwa y no interesa la Segunda Guerra Mundial, no compensa el desvío."
+    },
+    "links": [
+      {
+        "label": "El Alamein · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/El_Alamein"
+      },
+      {
+        "label": "Recomendaciones de viaje a Egipto · MAEC",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=egipto"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ElAlameinCommonwealthWarCemetery.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ElAlameinCommonwealthWarCemetery.jpg",
+        "credit": "Ian Rose · CC BY 2.5",
+        "caption": "Cementerio militar de la Commonwealth en El Alamein."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/El_Alamein_-_Graves_at_the_Commonwealth_Cemetery.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:El_Alamein_-_Graves_at_the_Commonwealth_Cemetery.jpg",
+        "credit": "Peter Astbury · CC BY 3.0",
+        "caption": "Las tumbas del cementerio de la Commonwealth."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/El_Alamein_Deutsches_Kriegsgraeberdenkmal.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:El_Alamein_Deutsches_Kriegsgraeberdenkmal.jpg",
+        "credit": "Dominik Knippel · CC BY-SA 3.0",
+        "caption": "El osario alemán de El Alamein."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ElAlameinCommonwealthWarCemetery.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:ElAlameinCommonwealthWarCemetery.jpg",
+    "credit": "Ian Rose · CC BY 2.5",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 9,
+    "name": "Oasis de Siwa · Shali, el oráculo de Amón y el Gran Mar de Arena",
+    "cat": "Naturaleza",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": 24.0889,
-    "lon": 32.8998,
-    "desc": "Ciudad más al sur del eje turístico del Nilo, con feluccas tradicionales y la Presa Alta; referencia histórica del cruce hacia Sudán por Wadi Halfa, hoy sin uso mientras dure el conflicto sudanés.",
-    "credit": "Przemyslaw \"Blueshade\" Idzkiewicz · CC BY-SA 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aswan%2C%20Elephantine%2C%20felucca%2C%20Egypt%2C%20Oct%202004.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Aswan%2C%20Elephantine%2C%20felucca%2C%20Egypt%2C%20Oct%202004.jpg",
+    "lat": 29.2012851,
+    "lon": 25.5188851,
+    "desc": "A 560 kilómetros de El Cairo y a solo 50 de la frontera libia, Siwa es un oasis bereber de unas doscientas fuentes naturales, 19 METROS POR DEBAJO DEL NIVEL DEL MAR, entre la depresión de Qattara y el Gran Mar de Arena. La fortaleza de Shali, de kershif —barro y sal— y troncos de palmera, se deshizo con las lluvias de 1926 y hoy se ilumina de noche. En Aghurmi están las ruinas del oráculo de Amón que consultó Alejandro Magno. Advertencia: el MAEC clasifica el desierto Oeste como riesgo medio si se viaja por cuenta propia.",
+    "dog_note": "Oasis abierto y muchos alojamientos ecológicos lo aceptan; no entra en el recinto del oráculo ni en las tumbas, y hay que vigilar el calor y los perros locales.",
+    "visit": {
+      "why": "Es el oasis más aislado y más bonito de Egipto, con lengua y cultura propias, y la puerta al Gran Mar de Arena.",
+      "see": "El laberinto de Shali al atardecer, el templo del oráculo en Aghurmi, el baño de Cleopatra, el lago salado y las dunas del borde del erg.",
+      "access": "Asfalto desde Marsa Matruh (unas tres horas) y pista/asfalto hacia Bahariya; controles militares frecuentes con registro de pasaportes y matrículas. Para adentrarse en el Gran Mar de Arena hace falta guía local autorizado y, en la práctica, permiso; la zona fronteriza con Libia queda vetada. El pin marca la fortaleza de Shali, en el centro del pueblo.",
+      "when": "De octubre a abril. En verano se pasa de 45 °C y el agua de las fuentes es lo único soportable.",
+      "skip": "Si no se puede dedicar al menos dos noches, el desvío de 600 km ida y vuelta no compensa."
+    },
+    "links": [
+      {
+        "label": "Oasis de Siwa · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Siwa_Oasis"
+      },
+      {
+        "label": "Recomendaciones de viaje a Egipto · MAEC",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=egipto"
+      },
+      {
+        "label": "Egipto · Sahara Overland (situación y permisos del desierto occidental)",
+        "url": "https://sahara-overland.com/egypt-2/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shali_(Historic_Center_of_Siwa)_02.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Shali_(Historic_Center_of_Siwa)_02.JPG",
+        "credit": "Michael Hermann · CC BY-SA 4.0",
+        "caption": "La fortaleza de barro de Shali, en Siwa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Siwa_Oasis,_Cleopatra's_Bath,_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_Cleopatra's_Bath,_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "El baño de Cleopatra, en el oasis de Siwa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Siwa_Oasis,_Sahara_Desert,_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_Sahara_Desert,_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "El oasis de Siwa y el Gran Mar de Arena."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shali_(Historic_Center_of_Siwa)_02.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Shali_(Historic_Center_of_Siwa)_02.JPG",
+    "credit": "Michael Hermann · CC BY-SA 4.0",
     "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "color": "verde"
+  },
+  {
+    "n": 10,
+    "name": "Bahariya y el Desierto Blanco · Sahara el-Beyda y el Desierto Negro",
+    "cat": "Naturaleza",
+    "prio": "Alta",
+    "dog": "permitido con condiciones",
+    "time": "1–2 noches",
+    "lat": 27.2829637,
+    "lon": 28.2010031,
+    "desc": "Parque nacional desde 2002 y 300 km² de formaciones de creta blanca modeladas por el viento en champiñones de piedra, a 45 kilómetros al norte de Farafra. Se llega desde el oasis de Bahariya, a unos 370 kilómetros de El Cairo por asfalto, cruzando antes el Desierto Negro de conos volcánicos y los cristales de barita de la Montaña de Cristal. En Bahariya está el Valle de las Momias Doradas, necrópolis grecorromana hallada en 1995. Advertencia: LA ACAMPADA SE HACE SIEMPRE CON GUÍA LOCAL; es la norma de facto y la exigen los controles.",
+    "dog_note": "Parque nacional sin grandes depredadores y con acampada tolerada: el perro puede ir si va atado en el campamento, con agua de sobra y protegido del frío nocturno.",
+    "visit": {
+      "why": "Es el paisaje más raro de Egipto y el único sitio del país donde una noche de acampada en el desierto está normalizada y es legal en la práctica.",
+      "see": "Los monolitos blancos al amanecer, el contraste con el basalto del Desierto Negro, la Montaña de Cristal y las dunas de Agabat.",
+      "access": "Asfalto El Cairo–Bahariya–Farafra en buen estado; la entrada al parque es por pista de arena blanda que exige reductoras y desinflar. Hay que contratar guía en Bahariya y pagar la tasa del parque —importe por confirmar—, y se pasan varios controles militares. El pin marca el centro del parque; el desvío de la pista sale de la carretera Bahariya–Farafra.",
+      "when": "Noviembre a febrero: de día 20–25 °C y de noche cerca de cero. Se necesita saco de verdad.",
+      "skip": "Si no se puede dormir allí, la visita de paso no merece los 740 km de ida y vuelta desde El Cairo."
+    },
+    "links": [
+      {
+        "label": "Parque Nacional del Desierto Blanco · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/White_Desert_National_Park"
+      },
+      {
+        "label": "Oasis de Bahariya · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Bahariya_Oasis"
+      },
+      {
+        "label": "Farafra y el Sahara el-Beyda · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Farafra,_Egypt"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/White_Desert,_Rock_formations_in_desert_landscape,_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:White_Desert,_Rock_formations_in_desert_landscape,_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "Las formaciones de creta del Desierto Blanco."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/White_Desert,_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:White_Desert,_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "Rocas esculpidas por el viento en el Sahara el-Beyda."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_Desert,_Egypt_11.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Desert,_Egypt_11.jpg",
+        "credit": "Viktor Lazić · CC BY-SA 4.0",
+        "caption": "El Desierto Negro, entre Bahariya y Farafra."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/White_Desert,_Rock_formations_in_desert_landscape,_Egypt.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Desert,_Rock_formations_in_desert_landscape,_Egypt.jpg",
+    "credit": "Vyacheslav Argenberg · CC BY 4.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 11,
+    "name": "Fayum · lago Qarun, Wadi el-Rayan y Wadi al-Hitan (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "1 noche",
+    "lat": 29.2675411,
+    "lon": 30.0225123,
+    "desc": "A un centenar de kilómetros al suroeste de El Cairo, la depresión del Fayum reúne tres cosas distintas: el lago Qarun, 43 metros bajo el nivel del mar y resto hipersalino del antiguo lago Moeris; las cascadas de Wadi el-Rayan, las mayores de Egipto y humedal Ramsar desde 2012; y Wadi al-Hitan, UNESCO desde 2005, donde se han documentado unos 1.500 esqueletos de vertebrados marinos de HACE 40 MILLONES DE AÑOS, arqueocetos con patas traseras residuales. Advertencia: la pista final a Wadi al-Hitan es arena sin balizar y exige 4x4.",
+    "dog_note": "Wadi al-Hitan es reserva paleontológica con pasarelas y fósiles a ras de suelo; el perro molesta y no está previsto. En el lago Qarun, al aire libre, no hay problema si va atado.",
+    "visit": {
+      "why": "Es el mejor yacimiento del mundo para ver cómo la ballena dejó de ser un animal terrestre, y está a un día de El Cairo.",
+      "see": "El circuito de pasarelas entre esqueletos de Basilosaurus, las cascadas y los lagos de Wadi el-Rayan y las barcas y palomares del lago Qarun.",
+      "access": "Asfalto hasta Wadi el-Rayan y luego unos kilómetros de pista de arena no balizada hasta Wadi al-Hitan, con refugios y un pequeño campamento en el sitio; conviene entrar con los dos vehículos y no ir solo. Tasa de entrada y horario por confirmar. El pin marca el yacimiento de Wadi al-Hitan; el lago Qarun está unos 40 km al norte.",
+      "when": "De noviembre a marzo, y en la primera hora de la tarde, cuando la luz rasante marca los esqueletos.",
+      "skip": "Si no se lleva 4x4 con reductoras o si sopla el jamsín, se descarta la pista y se ve solo Wadi el-Rayan."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Wadi Al-Hitan, valle de las Ballenas (lista 1186)",
+        "url": "https://whc.unesco.org/en/list/1186"
+      },
+      {
+        "label": "Wadi al-Hitan · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Wadi_al-Hitan"
+      },
+      {
+        "label": "Wadi El Rayan · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Wadi_El_Rayan"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wadi_Hitan_(Whale_Valley)_Panorama.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wadi_Hitan_(Whale_Valley)_Panorama.jpg",
+        "credit": "Tom Horton · CC BY-SA 2.0",
+        "caption": "Panorámica de Wadi al-Hitan, el valle de las ballenas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dorudon_atrox_fossil_at_Wadi_El-Hitan,_Egypt,_March_2008.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dorudon_atrox_fossil_at_Wadi_El-Hitan,_Egypt,_March_2008.jpg",
+        "credit": "Christoph Rohner · CC BY-SA 3.0",
+        "caption": "Esqueleto de Dorudon atrox in situ."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Moeris_031.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Moeris_031.JPG",
+        "credit": "لا روسا · CC BY-SA 3.0",
+        "caption": "El lago Qarun, en el Fayum."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wadi_Hitan_(Whale_Valley)_Panorama.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Wadi_Hitan_(Whale_Valley)_Panorama.jpg",
+    "credit": "Tom Horton · CC BY-SA 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 12,
+    "name": "Abidos · el templo de Seti I y la lista real",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 26.183444,
+    "lon": 31.9226391,
+    "desc": "El templo funerario de Seti I, de la XIX dinastía, mide unos 76 por 110 metros y está casi completo: es el mejor conjunto de relieves en bajorrelieve de Egipto, con la policromía original en muchas capillas. En un pasillo lateral está la LISTA REAL DE ABIDOS, con los cartuchos de casi todos los faraones desde Menes hasta Ramsés I. Detrás, el Osireion imita una tumba del Valle de los Reyes. Advertencia: queda 160 km al norte de Luxor y el tramo se hace con escolta policial en algunos días.",
+    "dog_note": "Recinto vallado con taquilla y vigilancia turística reforzada: no se admiten animales.",
+    "visit": {
+      "why": "Los relieves de Seti I son, en calidad de talla, lo mejor que se conserva del arte egipcio; nada en Luxor los iguala.",
+      "see": "Las siete capillas del santuario, la galería de la lista real, la sala hipóstila con color y el Osireion inundado.",
+      "access": "Asfalto desde El-Balyana, en la carretera del valle; explanada de tierra con espacio para dos 4x4. Horario y tarifa por confirmar: la web del ministerio no tiene página activa para Abidos. En el Egipto Medio el tráfico turístico se controla en puestos de policía y a veces se impone convoy. El pin marca el templo de Seti I.",
+      "when": "A primera hora; a mediodía los grupos llegados desde Luxor lo llenan durante dos horas.",
+      "skip": "Si se sube desde Asuán con el tiempo justo, se puede dejar Abidos y quedarse con Dendera."
+    },
+    "links": [
+      {
+        "label": "Abidos · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Abydos,_Egypt"
+      },
+      {
+        "label": "Recomendaciones de viaje a Egipto · MAEC",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=egipto"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_Seti_I,_Abydos,_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Seti_I,_Abydos,_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "El templo de Seti I en Abidos."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_Seti_I,_Interior,_Abydos,_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Seti_I,_Interior,_Abydos,_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "Interior del templo de Seti I."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_Seti_I,_Egyptian_hieroglyphs,_Abydos,_Egypt.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Seti_I,_Egyptian_hieroglyphs,_Abydos,_Egypt.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "Relieves policromados del templo."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_Seti_I,_Abydos,_Egypt.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Seti_I,_Abydos,_Egypt.jpg",
+    "credit": "Vyacheslav Argenberg · CC BY 4.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 13,
+    "name": "Dendera · el templo de Hathor y su techo astronómico",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 26.1419375,
+    "lon": 32.6702031,
+    "desc": "El templo de Hathor se empezó en el 54 a. C. con Ptolomeo Auletes y la sala hipóstila se terminó ya en época romana, bajo Tiberio. Lo que lo hace único es el techo: la limpieza terminada en 2021 devolvió los AZULES Y OCRES ORIGINALES de las bóvedas astronómicas, con Nut tragándose el sol. El zodíaco circular que estaba allí se arrancó en 1820 y está en el Louvre; lo que se ve es una copia. Advertencia: está 60 km al norte de Luxor y suele hacerse como excursión de medio día.",
+    "dog_note": "Recinto vallado con taquilla; además la visita es en gran parte en interiores estrechos y en escaleras.",
+    "visit": {
+      "why": "Es el techo policromado mejor conservado de Egipto y, tras la restauración, uno de los espectáculos de color más impresionantes del país.",
+      "see": "La sala hipóstila con capiteles hathóricos, las criptas subterráneas, la escalera al tejado y la capilla de Osiris con el zodíaco.",
+      "access": "Asfalto desde Qena, a 5 km al norte, cruzando el Nilo; aparcamiento grande de tierra. Horario y tarifa por confirmar: la web del ministerio no tiene página activa para Dendera. El pin marca el recinto del templo, en la orilla oeste frente a Qena.",
+      "when": "Al abrir, cuando el sol todavía entra en diagonal por la hipóstila; también se combina con Abidos en el mismo día.",
+      "skip": "Con menos de tres días en Luxor, se descarta antes que el Valle de los Reyes o Karnak."
+    },
+    "links": [
+      {
+        "label": "Complejo templario de Dendera · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Dendera_Temple_complex"
+      },
+      {
+        "label": "Dendera · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Dendera"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendera_Temple.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dendera_Temple.jpg",
+        "credit": "Bernard Gagnon · CC BY-SA 3.0",
+        "caption": "El templo de Hathor en Dendera."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_Hathor_at_Dendera_(2).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Hathor_at_Dendera_(2).jpg",
+        "credit": "Hamerani · CC BY-SA 4.0",
+        "caption": "Fachada del templo de Hathor."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hypostyle_hall_of_the_temple_of_Hathor_at_Dendera.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hypostyle_hall_of_the_temple_of_Hathor_at_Dendera.jpg",
+        "credit": "Hamerani · CC BY-SA 4.0",
+        "caption": "La sala hipóstila con el techo astronómico."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendera_Temple.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Dendera_Temple.jpg",
+    "credit": "Bernard Gagnon · CC BY-SA 3.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 14,
+    "name": "Luxor · Karnak y el templo de Luxor (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 25.7188346,
+    "lon": 32.6572703,
+    "desc": "Karnak se levantó entre el 1970 a. C. y la época ptolemaica y su sala hipóstila tiene 134 COLUMNAS en 5.000 m², doce de ellas de 21 metros y más de tres de diámetro, con arquitrabes estimados en 70 toneladas. El templo de Luxor, de hacia 1400 a. C. y obra de Amenofis III, está en pleno centro urbano y los une una avenida de esfinges de 2,7 kilómetros. Ambos forman parte de «Tebas y su necrópolis», UNESCO desde 1979. Advertencia: son dos visitas de tres horas cada una, no una tarde.",
+    "dog_note": "Los dos templos son recintos cerrados de pago; no se admiten perros y las calesas de caballos de la zona lo complican aún más.",
+    "visit": {
+      "why": "Es el recinto religioso más grande que construyó la Antigüedad y el punto de referencia obligado de todo el Alto Egipto.",
+      "see": "La sala hipóstila, el lago sagrado y los obeliscos de Hatshepsut en Karnak; en Luxor, el patio de Amenofis III y la avenida de esfinges iluminada.",
+      "access": "Asfalto urbano; Karnak tiene aparcamiento propio grande, el templo de Luxor no —se deja el coche en la Corniche—. El ministerio da horario 6:00–17:00 y 600 EGP al extranjero por Karnak, museo al aire libre incluido (300 estudiantes). El pin marca la entrada de visitantes de Karnak.",
+      "when": "Karnak al abrir, a las seis; el templo de Luxor al anochecer, que es cuando se ilumina.",
+      "skip": "Nada justifica saltárselos si se llega a Luxor."
+    },
+    "links": [
+      {
+        "label": "Karnak · ministerio egipcio (horarios y tarifas)",
+        "url": "https://egymonuments.gov.eg/en/archaeological-sites/karnak"
+      },
+      {
+        "label": "UNESCO · Tebas antigua y su necrópolis (lista 87)",
+        "url": "https://whc.unesco.org/en/list/87"
+      },
+      {
+        "label": "Templo de Luxor · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Luxor_Temple"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_144.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_144.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "La sala hipóstila de Karnak."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Luxor,_Egypt,_Karnak.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Luxor,_Egypt,_Karnak.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "Columnas del recinto de Amón en Karnak."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_de_Luxor,_Luxor,_Egipto,_2022-04-01,_DD_40.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Luxor,_Luxor,_Egipto,_2022-04-01,_DD_40.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "El templo de Luxor de noche."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_144.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Karnak,_Luxor,_Egipto,_2022-04-03,_DD_144.jpg",
+    "credit": "Diego Delso · CC BY-SA 4.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 15,
+    "name": "Valle de los Reyes, Deir el-Bahari y los Colosos de Memnón (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1 noche",
+    "lat": 25.7401643,
+    "lon": 32.601411,
+    "desc": "La orilla oeste de Luxor en un día: el Valle de los Reyes, con 65 tumbas y cámaras conocidas, entre ellas la KV62 de Tutankamón que Howard Carter abrió EL 4 DE NOVIEMBRE DE 1922, la única tumba real hallada casi intacta; el templo de Hatshepsut en Deir el-Bahari, con tres terrazas de 30 metros de desnivel; y los dos colosos de Amenofis III, de 18 metros, que «cantaban» al alba hasta el año 196. Advertencia: la KV62 y la tumba de Ay se pagan aparte.",
+    "dog_note": "Tumbas subterráneas sin ventilación y recinto de pago: el perro no entra, y dejarlo en el coche a 40 °C no es opción.",
+    "visit": {
+      "why": "Es la mayor concentración de tumbas reales decoradas del mundo y el complemento inevitable de Karnak.",
+      "see": "Las tumbas de Ramsés VI y Seti I, la KV62, las terrazas de Deir el-Bahari con los relieves del país de Punt y los colosos a pie de carretera.",
+      "access": "Puente de Luxor y asfalto por toda la orilla oeste; aparcamiento de tierra amplio en el centro de visitantes. El ministerio da horario 6:00–17:00 y 750 EGP al extranjero por el Valle de los Reyes (375 estudiantes). El pin marca el centro de visitantes, desde donde sale el trenecito a las tumbas.",
+      "when": "Al abrir. A partir de las diez el calor dentro de las tumbas es asfixiante todo el año.",
+      "skip": "Con menos de medio día no se hace: se cambia por Deir el-Bahari y los colosos solamente."
+    },
+    "links": [
+      {
+        "label": "Valle de los Reyes · ministerio egipcio (horarios y tarifas)",
+        "url": "https://egymonuments.gov.eg/en/archaeological-sites/valley-of-the-kings"
+      },
+      {
+        "label": "UNESCO · Tebas antigua y su necrópolis (lista 87)",
+        "url": "https://whc.unesco.org/en/list/87"
+      },
+      {
+        "label": "Deir el-Bahari · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Deir_el-Bahari"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Thebes,_Luxor,_Egypt,_Valley_of_the_Kings_from_above.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Valley_of_the_Kings_from_above.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "El Valle de los Reyes desde arriba."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_funerario_de_Hatshepsut,_Luxor,_Egipto,_2022-04-03,_DD_13.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_funerario_de_Hatshepsut,_Luxor,_Egipto,_2022-04-03,_DD_13.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "El templo de Hatshepsut en Deir el-Bahari al amanecer."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Thebes,_Luxor,_Egypt,_Panoramic_view_of_the_Valley_of_the_Kings.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Panoramic_view_of_the_Valley_of_the_Kings.jpg",
+        "credit": "Vyacheslav Argenberg · CC BY 4.0",
+        "caption": "Panorámica del valle y las tumbas."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Thebes,_Luxor,_Egypt,_Valley_of_the_Kings_from_above.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Thebes,_Luxor,_Egypt,_Valley_of_the_Kings_from_above.jpg",
+    "credit": "Vyacheslav Argenberg · CC BY 4.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 16,
+    "name": "Edfu y Kom Ombo · los templos ptolemaicos del Nilo",
+    "cat": "Cultura",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 24.9777271,
+    "lon": 32.8726224,
+    "desc": "El templo de Horus de Edfu se empezó EL 23 DE AGOSTO DEL 237 a. C. con Ptolomeo III y se acabó en el 57 a. C. con Ptolomeo XII: 36 metros de alto, 79 de largo y 137 de ancho, y es el santuario mejor conservado de Egipto, con techos, puertas y el naos en su sitio. Sesenta kilómetros al sur, Kom Ombo es un templo doble y simétrico (180–47 a. C.) dedicado a Sobek y a Haroeris, con un museo donde se exponen algunas de las trescientas momias de cocodrilo halladas en la zona. Advertencia: los dos se llenan cuando atracan los cruceros.",
+    "dog_note": "Ambos templos son recintos de pago con control; el de Edfu, además, está rodeado de calesas y caballos.",
+    "visit": {
+      "why": "Son las dos paradas lógicas entre Luxor y Asuán y explican cómo era un templo egipcio completo, con su techo y sus puertas.",
+      "see": "El pilono y los halcones de granito de Edfu, la casa del nacimiento y, en Kom Ombo, la simetría del doble santuario y los cocodrilos momificados.",
+      "access": "Carretera del valle asfaltada y en buen estado; ambos templos tienen aparcamiento de tierra junto a la taquilla. Horarios y tarifas por confirmar: la web del ministerio no tiene páginas activas para Edfu ni Kom Ombo. El pin marca el núcleo de Edfu —la Wikipedia no da coordenadas propias del templo—; el de Kom Ombo está a orillas del Nilo, al norte del pueblo.",
+      "when": "Media tarde, cuando los cruceros ya han zarpado; Kom Ombo es muy fotogénico al atardecer.",
+      "skip": "Si se va justo de tiempo hasta Abu Simbel, basta con uno de los dos: Edfu."
+    },
+    "links": [
+      {
+        "label": "Templo de Edfu · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Temple_of_Edfu"
+      },
+      {
+        "label": "Templo de Kom Ombo · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Temple_of_Kom_Ombo"
+      },
+      {
+        "label": "Kom Ombo · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Kom_Ombo"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Edfu_Temple_R04.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Edfu_Temple_R04.jpg",
+        "credit": "Marc Ryckaert · CC BY-SA 4.0",
+        "caption": "El templo de Horus en Edfu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/02010_05831_Edfu_Temple.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:02010_05831_Edfu_Temple.jpg",
+        "credit": "Silar · CC BY-SA 4.0",
+        "caption": "El pilono de Edfu."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kom_Ombo_20.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Kom_Ombo_20.jpg",
+        "credit": "Olaf Tausch · CC BY 3.0",
+        "caption": "El templo doble de Kom Ombo sobre el Nilo."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Edfu_Temple_R04.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Edfu_Temple_R04.jpg",
+    "credit": "Marc Ryckaert · CC BY-SA 4.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 17,
+    "name": "Asuán · Filae, la presa alta, Elefantina y las canteras",
+    "cat": "Ciudad · servicios",
+    "prio": "Alta",
+    "dog": "no recomendado",
+    "time": "1–2 noches",
+    "lat": 24.01266,
+    "lon": 32.8775404,
+    "desc": "Asuán es la última ciudad con servicios antes de Nubia y una de las MÁS SECAS DEL MUNDO: menos de un milímetro de lluvia al año. El santuario de Isis de Filae se desmontó en 95 monumentos y 40.000 piezas y se reconstruyó entre 1977 y 1980 en la isla de Agilkia, 12,40 metros más alto. La presa alta, de 111 metros y 3.830 de longitud, embalsa el lago Nasser: 5.250 km² y 500 kilómetros de largo. En las canteras sigue tumbado el obelisco inacabado de 41,75 metros y 1.090 toneladas.",
+    "dog_note": "Filae y Elefantina se visitan en barca y son recintos de pago; la presa es infraestructura estratégica con control militar. Solo las canteras, al aire libre, admitirían el perro atado.",
+    "visit": {
+      "why": "Es el nudo logístico del sur —talleres, gasolina, bancos— y reúne cuatro visitas de primer orden en un radio de quince kilómetros.",
+      "see": "Filae al atardecer desde la barca, el nilómetro y el museo de Elefantina, el obelisco inacabado agrietado en su lecho de granito y la vista del lago desde la presa.",
+      "access": "Asfalto hasta todo; a Filae se va en barca desde el embarcadero de Marina, al sur del dique antiguo. El ministerio da horario 7:00–16:00 y 550 EGP al extranjero por Filae (275 estudiantes), más 200 EGP el panorama. La presa se cruza en coche con control de documentación y prohibición de fotografiar instalaciones. El pin marca la isla de Filae; se conduce hasta el embarcadero.",
+      "when": "De noviembre a marzo; Filae a última hora de la tarde, las canteras a primera de la mañana.",
+      "skip": "Si se llega desde Sudán con los trámites del vehículo a medias, Elefantina y las canteras pueden esperar."
+    },
+    "links": [
+      {
+        "label": "Filae · ministerio egipcio (horarios y tarifas)",
+        "url": "https://egymonuments.gov.eg/en/archaeological-sites/philae"
+      },
+      {
+        "label": "UNESCO · Monumentos de Nubia de Abu Simbel a Filae (lista 88)",
+        "url": "https://whc.unesco.org/en/list/88"
+      },
+      {
+        "label": "Obelisco inacabado · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Unfinished_obelisk"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Philae_Temple_R05.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Philae_Temple_R05.jpg",
+        "credit": "Marc Ryckaert · CC BY 3.0",
+        "caption": "El templo de Isis en Filae, hoy en la isla de Agilkia."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Philae_Temple_R01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Philae_Temple_R01.jpg",
+        "credit": "Marc Ryckaert · CC BY 3.0",
+        "caption": "El quiosco de Trajano, en Filae."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aswan_Nile_R23.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Aswan_Nile_R23.jpg",
+        "credit": "Marc Ryckaert (MJJR) · CC BY 3.0",
+        "caption": "El Nilo a su paso por Asuán."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Philae_Temple_R05.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Philae_Temple_R05.jpg",
+    "credit": "Marc Ryckaert · CC BY 3.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
+  },
+  {
+    "n": 18,
+    "name": "Abu Simbel · los templos rescatados del lago Nasser (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1 noche",
+    "lat": 22.3372319,
+    "lon": 31.625799,
+    "desc": "Ramsés II empezó los dos templos hacia 1264 a. C. y tardó veinte años; los cuatro colosos sedentes miden 20 metros. Entre 1964 y 1968 la UNESCO los cortó en bloques y los subió 65 metros y 208 metros tierra adentro para salvarlos del lago Nasser; la inauguración fue el 22 de septiembre de 1968. EL 22 DE FEBRERO Y EL 22 DE OCTUBRE el sol entra hasta el santuario e ilumina las estatuas del fondo. Advertencia: esos dos días la entrada sube a 1.200 EGP y el sitio se colapsa.",
+    "dog_note": "Recinto de pago con control militar de acceso; además el trayecto desde Asuán no permite dejar al animal solo en el coche.",
+    "visit": {
+      "why": "Es la fachada más impresionante de Egipto y, a la vez, el mayor rescate arqueológico de la historia.",
+      "see": "Los cuatro colosos de Ramsés, la sala de los pilares osiríacos, el santuario con las cuatro estatuas y el pequeño templo de Nefertari.",
+      "access": "Unos 300 km por carretera desde Asuán, asfalto bueno y desierto sin nada en medio: hay que salir con depósitos llenos y agua. Históricamente se circulaba en convoy con salida a hora fija; hoy la norma varía según la situación y conviene preguntar en Asuán el día antes. El ministerio da horario 6:00–17:00 y 750 EGP al extranjero (375 estudiantes), 1.200 EGP los días del fenómeno solar; coche 25 EGP. El pin marca los templos.",
+      "when": "Al amanecer, antes de que lleguen los autobuses y los vuelos de Asuán; noviembre a marzo.",
+      "skip": "Si se llega en pleno verano sin aire acondicionado fiable en los dos vehículos, no es un trayecto que hacer a la ligera."
+    },
+    "links": [
+      {
+        "label": "Abu Simbel · ministerio egipcio (horarios y tarifas)",
+        "url": "https://egymonuments.gov.eg/en/archaeological-sites/abu-simbel"
+      },
+      {
+        "label": "UNESCO · Monumentos de Nubia de Abu Simbel a Filae (lista 88)",
+        "url": "https://whc.unesco.org/en/list/88"
+      },
+      {
+        "label": "Templos de Abu Simbel · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Abu_Simbel_temples"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_26-28_HDR.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_26-28_HDR.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "El santuario del templo de Ramsés II en Abu Simbel."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_de_Nefertari,_Abu_Simbel,_Egipto,_2022-04-02,_DD_153.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Nefertari,_Abu_Simbel,_Egipto,_2022-04-02,_DD_153.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "El templo menor, dedicado a Nefertari."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_03.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_03.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Los colosos de la fachada, trasladados piedra a piedra."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_26-28_HDR.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_26-28_HDR.jpg",
+    "credit": "Diego Delso · CC BY-SA 4.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 19,
+    "name": "Mar Rojo · arrecifes de Marsa Alam, Hurgada y el Parque Nacional de Ras Mohamed",
+    "cat": "Costa",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "1–2 noches",
+    "lat": 27.7937578,
+    "lon": 34.1780397,
+    "desc": "Ras Mohamed, reserva desde 1983, ocupa 480 km² —345 de mar— en la punta del Sinaí, a 12 kilómetros de Sharm el-Sheij, con más de 220 especies de coral, MÁS DE MIL DE PECES y un manglar. En la costa continental, Hurgada vive del buceo desde las islas Gifún y Marsa Alam, 274 kilómetros al sur, da acceso al parque de Wadi el-Gemal (7.450 km², creado en 2003), con el mayor manglar del mar Rojo y dugongos. Advertencia: el norte del Sinaí está desaconsejado por el MAEC y exige autorización previa; esto NO afecta a Ras Mohamed, que está en el extremo sur.",
+    "dog_note": "Los parques marinos no prevén animales y las playas de resort los prohíben; en los campamentos de beduinos del sur de Marsa Alam sí se tolera, atado.",
+    "visit": {
+      "why": "Es el mejor buceo accesible por carretera de todo el viaje y el sitio donde reponer fuerzas después del valle del Nilo.",
+      "see": "El arrecife de Shark Observatory y el naufragio del Yolanda en Ras Mohamed; los pecios de las Gifún en Hurgada; dugongos y tortugas en Wadi el-Gemal.",
+      "access": "Asfalto en toda la costa; la carretera Edfu–Marsa Alam cruza el desierto oriental con controles. Ras Mohamed tiene puerta con taquilla y pistas internas de tierra firme, buenas para los dos 4x4; tasas por confirmar. El MAEC (15 de julio de 2026) clasifica Sharm el-Sheij como zona de bajo riesgo y recomienda llegar preferentemente en avión, pero el acceso por carretera desde Suez es habitual. El pin marca la entrada del parque.",
+      "when": "De marzo a mayo y de septiembre a noviembre: agua a 24–27 °C y sin la multitud del invierno europeo.",
+      "skip": "Si no se bucea ni se hace snorkel, la costa del mar Rojo es un rodeo de varios días sin recompensa."
+    },
+    "links": [
+      {
+        "label": "Parque Nacional de Ras Mohamed · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Ras_Muhammad_National_Park"
+      },
+      {
+        "label": "Parque Nacional de Wadi el-Gemal · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Wadi_El_Gemal_National_Park"
+      },
+      {
+        "label": "Recomendaciones de viaje a Egipto · MAEC",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=egipto"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Coral_(Favia_favus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_12.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Coral_(Favia_favus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_12.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Coral Favia favus en el parque nacional de Ras Mohamed."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pez_%C3%A1ngel_real_(Pygoplites_diacanthus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-26,_DD_155.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Pez_%C3%A1ngel_real_(Pygoplites_diacanthus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-26,_DD_155.jpg",
+        "credit": "Diego Delso · CC BY-SA 4.0",
+        "caption": "Pez ángel real en Ras Mohamed."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hawksbill_turtle_at_Elphinstone_Reef,_Red_Sea,_Egypt_(35150034493).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hawksbill_turtle_at_Elphinstone_Reef,_Red_Sea,_Egypt_(35150034493).jpg",
+        "credit": "Derek Keats · CC BY 2.0",
+        "caption": "Tortuga carey en el arrecife de Elphinstone (Marsa Alam)."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Coral_(Favia_favus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_12.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Coral_(Favia_favus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-27,_DD_12.jpg",
+    "credit": "Diego Delso · CC BY-SA 4.0",
+    "icon": "costa",
+    "color": "turquesa"
+  },
+  {
+    "n": 20,
+    "name": "Santa Catalina y el monte Sinaí · el monasterio (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 28.5558352,
+    "lon": 33.9764207,
+    "desc": "Justiniano lo mandó construir entre 548 y 565 al pie del monte Horeb y sigue siendo EL MONASTERIO CRISTIANO MÁS ANTIGUO EN USO PARA SU FUNCIÓN ORIGINAL. Su biblioteca, reabierta en 2017, es la más antigua del mundo en funcionamiento continuo según el Guinness y guarda la segunda mayor colección de códices tempranos; de allí salió el Códice Sinaítico en 1859. El monte Sinaí (2.285 m) se sube en unas dos horas y media por la ruta de camellos o por los 3.750 escalones del arrepentimiento. Advertencia: LA SUBIDA ES OBLIGATORIA CON GUÍA.",
+    "dog_note": "Monasterio ortodoxo en funcionamiento y ascensión obligatoria con guía beduino: el perro no entra en el recinto ni se admite en la subida nocturna.",
+    "visit": {
+      "why": "Es un lugar sagrado para las tres religiones del Libro y la única alta montaña caminable del viaje, con un amanecer que justifica la noche en vela.",
+      "see": "La basílica de la Transfiguración y sus iconos, la zarza ardiente tras su muro, la biblioteca y, arriba, la capilla de la cima y el circo de granito rojo.",
+      "access": "Asfalto desde Dahab y Nuweiba —el pueblo de Santa Catalina está a 1.586 m y a 120 km de Nuweiba— con varios controles militares; aparcamiento grande junto al monasterio. Horarios y normas de visita del monasterio por confirmar: su web oficial devolvió error. El norte del Sinaí está desaconsejado por el MAEC y requiere autorización previa; Santa Catalina está en el sur, fuera de esa zona. El pin marca el monasterio.",
+      "when": "Salida a medianoche para estar en la cima al amanecer; de octubre a mayo, con ropa de abrigo de verdad (hiela).",
+      "skip": "Si se llega con perro y sin nadie que lo cuide abajo, no hay forma de hacer ni el monasterio ni la cima."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Zona de Santa Catalina (lista 954)",
+        "url": "https://whc.unesco.org/en/list/954"
+      },
+      {
+        "label": "Monasterio de Santa Catalina · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Saint_Catherine%27s_Monastery"
+      },
+      {
+        "label": "Monte Sinaí · Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Mount_Sinai"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Katharinenkloster_Sinai_BW_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Katharinenkloster_Sinai_BW_2.jpg",
+        "credit": "Berthold Werner · CC BY-SA 3.0",
+        "caption": "El monasterio de Santa Catalina, al pie del Sinaí."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_full_view_of_Saint_Catherine's_Monastery.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:A_full_view_of_Saint_Catherine's_Monastery.jpg",
+        "credit": "Ondřej Havelka · CC BY 4.0",
+        "caption": "Vista completa del monasterio."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Sinai_BW_4.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Sinai_BW_4.jpg",
+        "credit": "Berthold Werner · CC BY-SA 3.0",
+        "caption": "La subida al monte Sinaí."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Katharinenkloster_Sinai_BW_2.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Katharinenkloster_Sinai_BW_2.jpg",
+    "credit": "Berthold Werner · CC BY-SA 3.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
   }
 ]

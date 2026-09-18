@@ -22,6 +22,9 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 10 | Mali | Hecho, por validar | Hecho: 17/18 en Google Maps (Boucle du Baoulé sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 17 galerías; 49 fotos | No auditada (Sleeping Camel documentado) |
 | 10 | Guinea-Bisáu | Hecho, por validar | Hecho: 17/17 en Google Maps | Hecho: 17/17 | Hecho: 17/17 | Hecho: 17/17 con foto; 15 galerías; 45 fotos (3 PDIs sin foto del lugar exacto) | No auditada (hoteles de Bissau) |
 | 10 | Sudán | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con galería; 52 fotos | No auditada (Wadi Halfa documentado) |
+| 10 | Egipto | Hecho, por validar | Hecho: 20/20 en Google Maps | Hecho: 20/20 | Hecho: 20/20 | Hecho: 20/20 con galería; 60 fotos | No auditada (Asuán documentado) |
+| 10 | Etiopía | Hecho, por validar | Hecho: 20/20 en Google Maps | Hecho: 20/20 | Hecho: 20/20 | Hecho: 20/20 con galería; 59 fotos | No auditada (Wim's Holland House) |
+| 10 | Yibuti | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 16 galerías; 45 fotos (Commons muy pobre) | No auditada (capital documentada) |
 
 ## Países fuera del itinerario (grupos «Alternativas», «Avión», «Excluidos», «Fuera de ruta»)
 
@@ -32,13 +35,16 @@ ficha de decisión y enlaces concretos; historia de siete secciones con fuentes;
 cabecera uniforme (entradas en `data_cabeceras`, `data_visados` y `data_cpd`).
 Alta en el CMS con `tools/gen/exporta_contenido.py <slug>`. Cada ficha alimenta
 además el bloque del perro (`data_perro_contactos`, dosier §2.4 y §3.x).
-Hechos (19-09-2026): Túnez (piloto validado), Madagascar, Mali, Guinea-Bisáu y
-Sudán — expedientes en [`audit/pdi/tunez.md`](pdi/tunez.md),
+Hechos (19-09-2026): Túnez (piloto validado), Madagascar, Mali, Guinea-Bisáu,
+Sudán, Egipto, Etiopía y Yibuti — expedientes en [`audit/pdi/tunez.md`](pdi/tunez.md),
 [`madagascar.md`](pdi/madagascar.md), [`mali.md`](pdi/mali.md),
-[`guinea-bisau.md`](pdi/guinea-bisau.md) y [`sudan.md`](pdi/sudan.md).
-Pendientes: Egipto, Etiopía y Yibuti (ampliar) y Argelia, Libia, Burkina Faso,
-Níger, Chad, RCA, Sudán del Sur, Somalia, Eritrea, Guinea Ecuatorial, Santo
-Tomé, Cabo Verde, Comoras, Seychelles, Mauricio y Burundi (nuevos).
+[`guinea-bisau.md`](pdi/guinea-bisau.md), [`sudan.md`](pdi/sudan.md),
+[`egipto.md`](pdi/egipto.md), [`etiopia.md`](pdi/etiopia.md) y
+[`yibuti.md`](pdi/yibuti.md). Egipto, Etiopía y Yibuti tenían ficha corta (3–4
+PDIs sin fotos ni enlaces) y se han sustituido por la ficha completa.
+Pendientes: Argelia, Libia, Burkina Faso, Níger, Chad, RCA, Sudán del Sur,
+Somalia, Eritrea, Guinea Ecuatorial, Santo Tomé, Cabo Verde, Comoras,
+Seychelles, Mauricio y Burundi (nuevos).
 
 ## Línea de corte de la nueva pasada PDI
 

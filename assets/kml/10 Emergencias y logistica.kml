@@ -2668,46 +2668,102 @@
     <Point><coordinates>36.72123,2.75633,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Moyale (desde Kenia)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Carretera A2 asfaltada; el vehículo NO se admite con CPD (ver alerta de vehículos) — gestionar el patrocinio de un operador turístico etíope con antelación.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.53,39.05">Google Maps</a>]]></description>
+    <name>Aeropuerto Internacional de Adís Abeba–Bole (ADD)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Entrada aérea principal y único punto donde el eVisa es indiscutiblemente válido. Hub de Ethiopian Airlines, dos terminales y unos 69 puestos de estacionamiento; 2.334 m de altitud. Aquí se exige el certificado de fiebre amarilla y aquí se producen las confiscaciones de drones. Pin comprobado en Google Maps («Aeropuerto internacional de Bole Adís Abeba (ADD)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.98379,38.79631">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>39.05,3.53,0</coordinates></Point>
+    <Point><coordinates>38.79631,8.98379,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Salida — Galafi (hacia Yibuti)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto principal del corredor comercial Adís Abeba-Yibuti (el mismo que usa el ferrocarril de mercancías); bien transitado y equipado.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.4667,41.9333">Google Maps</a>]]></description>
+    <name>Paso fronterizo de Moyale (Kenia–Etiopía)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puesto principal de la carretera Nairobi–Adís Abeba y primer puesto fronterizo de ventanilla única (OSBP) de Etiopía, en servicio desde junio de 2021. Altitud 1.090 m. El MAEC desaconseja la zona fronteriza con Kenia y no garantiza la emisión de visado aquí. Pin comprobado en Google Maps («Moyale»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.53597,39.05152">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>41.9333,11.4667,0</coordinates></Point>
+    <Point><coordinates>39.05152,3.53597,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Omorate (ruta del lago Turkana)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Población del bajo Omo a 395 m, alternativa a Moyale por la orilla este del lago Turkana. Dan Grec entró por aquí con vehículo propio en 2020 y recibió un permiso de importación temporal de 60 días. Ruta mucho más dura, aislada y sin servicios; el MAEC desaconseja absolutamente los estados del sur. Pin comprobado en Google Maps («Omorate»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=4.80258,36.054">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.054,4.80258,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Metema–Gallabat (Sudán)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Cruce comercial con Sudán, a 685 m. Cerrado por Sudán el 1 de septiembre de 2024 tras la toma de Metema por Fano y reabierto tras la recaptura del 21 de octubre de 2024. El MAEC da la frontera sudanesa por cerrada y Metema está en Amhara, región desaconsejada absolutamente. Pin comprobado en Google Maps («Metema»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.95446,36.15726">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.15726,12.95446,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Galafi (Yibuti)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso oficial de entrada desde Yibuti por la Carretera Nacional 1, con carretera asfaltada hasta Yibuti ciudad desde 1975. Clima árido, hasta 41 °C en junio. Está en la zona de Afar, parcialmente desaconsejada por el MAEC. Estado para turistas con vehículo propio POR CONFIRMAR. Pin comprobado en Google Maps («Galafi»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.71687,41.83761">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>41.83761,11.71687,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Togochale / Tog Wajaale (Somalilandia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Principal paso de mercancías entre Somalilandia y Etiopía por el corredor del puerto de Berbera, con aduana e inmigración somalilandesas. Está en la región Somali, desaconsejada absolutamente por el MAEC; el FCDO veta además de 30 a 100 km de frontera. NO utilizable. Pin comprobado en Google Maps («Wajale (Tog Wajaale / Togochale)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.60301,43.34154">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>43.34154,9.60301,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Humera (frontera con Eritrea y Sudán)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Última población etíope al sur de la frontera con Eritrea y Sudán, puerta estratégica hacia Sudán. Bombardeada y vaciada durante la guerra de Tigray desde noviembre de 2020, con violencia étnica documentada y control administrativo en disputa. NO utilizable. Pin comprobado en Google Maps («Humera»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.28666,36.60963">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>36.60963,14.28666,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Adís Abeba</name>
-    <description><![CDATA[<b>Consular</b><br/>Haile Melekot Street, Gullele Subcity, Woreda 01, House Nº 036, P.O. Box 2312, Addis Abeba. Tel. +251 111222542 · Emergencia consular 24h: +251 911 219 403 · emb.addisabeba.consu@maec.es. También acreditada en Yibuti y Seychelles.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.028,38.76">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>Haile Melekot Street, Gullele Subcity, Woreda 01, House Nº 036, P.O. Box 2312. Tel. +251 929 136 159; consular +251 929 136 161; fax +251 11 122 25 42; emb.addisabeba@maec.es. Horario de lunes a viernes de 8:30 a 12:30. Emergencia consular 24 h: +251 911 219 403. COORDENADAS APROXIMADAS (Gullele): verificar con la dirección postal. Pin comprobado en Google Maps («Embassy of Spain (Adís Abeba)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.0621,38.76032">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>38.76,9.028,0</coordinates></Point>
+    <Point><coordinates>38.76032,9.0621,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Black Lion Hospital, Adís Abeba</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; mejor opción sanitaria del tramo junto con clínicas privadas de la capital.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.035,38.75">Google Maps</a>]]></description>
+    <name>Nordic Medical Centre (Adís Abeba)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Clínica privada de referencia para extranjeros: Bole Sub City, Kebele 01, House No. 1244. Urgencias 24 horas; consulta de lunes a viernes de 8:30 a 17:30 y sábados de 8:30 a 12:30. Tel. 8901 y +251 929 105 653; reception@nordicmedicalcentre.com. COORDENADAS APROXIMADAS (Bole): verificar con la dirección postal. Pin comprobado en Google Maps («Nordic Medical Centre (Bole)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.98441,38.77806">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>38.75,9.035,0</coordinates></Point>
+    <Point><coordinates>38.77806,8.98441,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Adís Abeba / eje Moyale-Harar</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (NOC, Total) en las ciudades principales del eje sur-Adís Abeba-Harar; repostar a fondo en cada ciudad antes de tramos rurales largos.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.025,38.7469">Google Maps</a>]]></description>
+    <name>Black Lion (Tikur Anbessa) Specialized Hospital</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital universitario público de tercer nivel de la Universidad de Adís Abeba, 700 camas y 15 hectáreas, fundado en 1964. Es el mayor centro especializado del país, pero el MAEC advierte de que los servicios hospitalarios etíopes son muy insuficientes: para cualquier cosa grave, repatriación medicalizada. Pin comprobado en Google Maps («Tikur Anbessa Specialised Hospital (Black Lion)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.02008,38.75025">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>38.75025,9.02008,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Repostaje y depósitos en Adís Abeba (centro)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Adís Abeba, 2.355 m, es donde hay más estaciones y donde primero llega el suministro, pero también donde se han visto colas de dos kilómetros y esperas de ocho horas en abril de 2026. Gasolina 132,18 ETB/l (9-3-2026) y diésel 116,49 ETB/l (9-2-2026), al alza. Estación concreta POR CONFIRMAR. Pin comprobado en Google Maps («Meskel Square (Adís Abeba; sin gasolinera concreta como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.01057,38.7611">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>38.7469,9.025,0</coordinates></Point>
+    <Point><coordinates>38.7611,9.01057,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Adís Abeba</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles y lodges de Langano y Harar permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.025,38.7469">Google Maps</a>]]></description>
+    <name>Repostaje en Moyale (entrada desde Kenia)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Primera opción de repostaje al entrar desde Kenia, en la carretera Nairobi–Adís. En marzo de 2018 Goanna Tracks pagaba 18 birr/litro aquí y 16 más al norte, y avisaba de que sin electricidad en el lado etíope no había ni banco ni surtidor. Disponibilidad 2026 POR CONFIRMAR. Pin comprobado en Google Maps («Moyale»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=3.53597,39.05152">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>39.05152,3.53597,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Llenado de depósitos en Adís Abeba</name>
+    <description><![CDATA[<b>Agua potable</b><br/>La red urbana de la capital es la más fiable del país (98,64 % de viviendas con acceso a agua potable según el censo de 2007). Es el punto lógico para llenar depósitos de ducha y lavado en hoteles con jardín o campings. Agua de boca solo embotellada o tratada; filtrar y clorar siempre por los brotes de cólera. Pin comprobado en Google Maps («Wim's Holland House (Adís Abeba)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.00981,38.75531">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>38.7469,9.025,0</coordinates></Point>
+    <Point><coordinates>38.75531,9.00981,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Llenado de depósitos en Hawassa (valle del Rift)</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Hawassa, 1.708 m y 273 km al sur de Adís por la carretera de Moyale, es la parada natural del corredor del Rift y capital regional de Sidama. NO llenar del lago Hawassa: hay esquistosomiasis en las aguas dulces del Rift. Punto concreto y potabilidad POR CONFIRMAR sobre el terreno. Pin comprobado en Google Maps («Awasa (Hawassa)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/etiopia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.04773,38.49578">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>38.49578,7.04773,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Aeropuerto de Port Sudán (PZU)</name>
@@ -2787,53 +2843,88 @@
     <Point><coordinates>31.37132,21.79914,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Puerto · Entrada — Alejandría (RoRo/contenedor desde Yibuti vía Arabia Saudí)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Punto de entrada previsto del proyecto dado el bloqueo del corredor de Sudán; gestionar el desembarco con un agente de aduanas egipcio (Automobile and Touring Club Egypt / EGA) antes de la llegada del barco.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.2001,29.9187">Google Maps</a>]]></description>
+    <name>Paso fronterizo de Qustul / Ashkeit (Sudán-Egipto)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso terrestre al este del Nilo, abierto 24 h. Trámite de jornada completa con seis ventanillas del lado egipcio y ferry final a Abu Simbel (último a las 16:00-16:30). Unos 162 USD entrando en Egipto con dos personas y un 4x4. Desde 2023 funciona afectado por la guerra de Sudán: colas enormes y cierres imprevisibles. Pin comprobado en Google Maps («ميناء ارقين البري-مصر (lado egipcio de Qustul/Argeen)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=22.00258,31.15188">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>29.9187,31.2001,0</coordinates></Point>
+    <Point><coordinates>31.15188,22.00258,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Qustul/Wadi Halfa (con Sudán) — sin uso mientras dure el conflicto</name>
-    <description><![CDATA[<b>Frontera</b><br/>Cruce histórico por el lago Nasser; descartado como vía de entrada real mientras persista la guerra civil de Sudán.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=22.2,31.6">Google Maps</a>]]></description>
+    <name>Paso fronterizo de Argeen / Arqin (Sudán-Egipto)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso terrestre al oeste del Nilo, abierto en 2017 y operativo 24 h con 1.900-2.100 cruces diarios. En septiembre de 2026 funciona como corredor humanitario por la guerra de Sudán: esperas de 12 a 48 horas. Combustible a más de 100 km del lado egipcio. Desaconsejado a extranjeros. Pin comprobado en Google Maps («Argeen Border Crossing station - North Sudan side»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.99639,31.15145">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.6,22.2,0</coordinates></Point>
+    <Point><coordinates>31.15145,21.99639,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Puerto · Salida hacia Europa — Alejandría (Grimaldi, Neptune Lines)</name>
-    <description><![CDATA[<b>Frontera</b><br/>RoRo hacia Grecia/Chipre/Italia; la tripulación vuela por separado, el vehículo no puede viajar con personas a bordo del ferry de carga.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.2001,29.9187">Google Maps</a>]]></description>
+    <name>Paso fronterizo de Taba (Egipto-Israel)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Uno de los pasos más transitados de Egipto, abierto. Permite visitar la costa de Aqaba sin visado hasta 14 días. Ojo: entra en el Sinaí, y para pasar al Egipto continental hace falta permiso; los 4x4 y las motos tienen el acceso al Sinaí restringido. Pin comprobado en Google Maps («Taba»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.49248,34.8969">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>29.9187,31.2001,0</coordinates></Point>
+    <Point><coordinates>34.8969,29.49248,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Embajada de España en El Cairo</name>
-    <description><![CDATA[<b>Consular</b><br/>41, Ismail Mohamed St., Zamalek, El Cairo. Tel. (0020) 227356437 · Emergencia consular 24h: (0020) 1223183783.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.0596,31.2233">Google Maps</a>]]></description>
+    <name>Paso fronterizo de El Salloum (Egipto-Libia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Localidad costera de la gobernación de Matruh, a unos 8 km de la frontera libia. Sahara Overland lo da por cerrado a extranjeros en enero de 2026. El FCDO desaconseja todo viaje a 20 km de la frontera, salvo la propia localidad, donde desaconseja el viaje no esencial. Pin comprobado en Google Maps («Gateway Salloum»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.57367,25.08663">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>25.08663,31.57367,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto de Alejandría</name>
+    <description><![CDATA[<b>Frontera</b><br/>Principal puerto de Egipto, con terminal ro-ro y de pasajeros; mueve más del 75% del comercio exterior del país. Es la vía razonable para embarcar los coches desde Europa. Requiere igualmente CPD, matrícula y carné egipcios y agente portuario; costes por confirmar. Pin comprobado en Google Maps («Puerto de Alejandría»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.17578,29.8622">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.8622,31.17578,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional de El Cairo (CAI)</name>
+    <description><![CDATA[<b>Frontera</b><br/>En Heliópolis, a unos 15 km del centro de negocios de El Cairo. Visado a la llegada por 30 USD (30 días, una entrada). Único punto citado por PetTravel para la entrada del perro por vía aérea, en cabina, bodega o carga, con transportín IATA. Pin comprobado en Google Maps («Aeropuerto Internacional de El Cairo»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.11603,31.41717">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.41717,30.11603,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en El Cairo (Zamalek)</name>
+    <description><![CDATA[<b>Consular</b><br/>41, Ismail Mohamed st., Zamalek, El Cairo. Centralita +20 2 2735 6437 / +20 2 2735 5813 / +20 2 2735 3622; emb.elcairo@maec.es. Emergencia consular 24 h: +20 122 318 3783 (solo emergencias graves). Asume también la demarcación de Alejandría desde 2021. Pin comprobado en Google Maps («Embajada de España en El Cairo (41 Ismail Mohammed, Zamalek)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.06238,31.22256">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.2233,30.0596,0</coordinates></Point>
+    <Point><coordinates>31.22256,30.06238,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Kasr Al Ainy Hospital, El Cairo</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario de referencia de la capital; buena red de clínicas privadas también en El Cairo y Alejandría.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.03,31.23">Google Maps</a>]]></description>
+    <name>Consulado General de España en Alejandría (SUPRIMIDO)</name>
+    <description><![CDATA[<b>Consular</b><br/>NO EXISTE. El Real Decreto 60/2021, de 2 de febrero, suprimió la oficina consular de Alejandría; sus nueve provincias pasaron a la Sección Consular de la Embajada en El Cairo. Se mantiene como punto informativo para evitar que nadie lo busque. Pin comprobado en Google Maps («Alejandría (el Consulado General fue suprimido en 2021; sin objeto que anclar)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.20009,29.91874">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>29.91874,31.20009,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cleopatra Hospital (Heliópolis, El Cairo)</name>
+    <description><![CDATA[<b>Hospital</b><br/>39 Cleopatra St., plaza Salah Eldin, Heliópolis, El Cairo. Hotline 19668. Urgencias abiertas 24 horas todos los días, dos salas de urgencias, 182 camas y más de 40 especialidades. Hospital insignia del Cleopatra Hospitals Group. Pin comprobado en Google Maps («مستشفى كليوباترا - مصر الجديدة (Cleopatra Hospital, Heliópolis)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.09307,31.32982">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.23,30.03,0</coordinates></Point>
+    <Point><coordinates>31.32982,30.09307,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · El Cairo / Luxor / Asuán</name>
-    <description><![CDATA[<b>Combustible</b><br/>Estaciones formales (TotalEnergies, Mobil, estatales) en todo el eje turístico del Nilo; sin gap relevante de 500 km en el itinerario previsto.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.0444,31.2357">Google Maps</a>]]></description>
+    <name>As-Salam International Hospital (Maadi, El Cairo)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Corniche El Nil, Corniche El Maadi, El Cairo, junto al Alfa Scan Center. Hospital privado terciario del grupo Alameda, con más de 30 especialidades y departamento de relaciones internacionales para extranjeros (asistencia médica, visados y hotel). Pin comprobado en Google Maps («As-Salam International Hospital Maadi Branch»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.98435,31.23019">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>31.23019,29.98435,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Abu Simbel — último repostaje antes de Sudán</name>
+    <description><![CDATA[<b>Combustible</b><br/>Última población con servicios antes de los pasos de Qustul y Argeen: desde el lado egipcio de Argeen hay más de 100 km sin combustible. Precios oficiales congelados desde marzo de 2026: gasóleo 20,50 EGP/l, gasolina 95 a 24,00 EGP/l. Salir con el depósito lleno y bidones. Asuán queda a unos 300 km por carretera. Pin comprobado en Google Maps («Abu Simbel (sin gasolinera como objeto en Google Maps; coordenada del pueblo)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=22.33694,31.62556">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.2357,30.0444,0</coordinates></Point>
+    <Point><coordinates>31.62556,22.33694,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · El Cairo y Luxor</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada obligatoria para beber en todo el país (no beber del grifo); hoteles y campings de El Cairo, Luxor y Asuán permiten llenar el depósito de uso general con manguera.<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.0444,31.2357">Google Maps</a>]]></description>
+    <name>Asuán — llenado de depósitos y avituallamiento</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Última ciudad grande antes del sur: agua de red para ducha y lavado, agua embotellada para beber (la del grifo no es potable) y estaciones de servicio fiables. Calor extremo, con máximas medias de 46 °C entre junio y agosto. No bañarse ni bañar al perro en el Nilo por la esquistosomiasis. Pin comprobado en Google Maps («Asuán»).<br/><a href="https://theawakeman.github.io/africa2027/paises/egipto/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=24.08894,32.89983">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>31.2357,30.0444,0</coordinates></Point>
+    <Point><coordinates>32.89983,24.08894,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada — Séléti / Giboro (desde la Casamance, eje Ziguinchor-Brikama)</name>
@@ -3557,46 +3648,95 @@
     <Point><coordinates>29.08096,-2.35338,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Frontera · Entrada — Galafi (desde Etiopía)</name>
-    <description><![CDATA[<b>Frontera</b><br/>Puesto principal del corredor comercial Adís Abeba-Yibuti; bien transitado y equipado, comparte trazado con el ferrocarril de mercancías.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.4667,41.9333">Google Maps</a>]]></description>
+    <name>Paso fronterizo de Galafi (Etiopía → Yibuti)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso terrestre principal desde Etiopía, en la RN-1, a 218 km de la capital y a 161 m de altitud. Es donde los overlanders obtienen el permiso temporal de importación del vehículo (10 días documentados). Tráfico intensísimo de camiones y carretera en mal estado. Pin comprobado en Google Maps («Galafi»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.71687,41.83761">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>41.9333,11.4667,0</coordinates></Point>
+    <Point><coordinates>41.83761,11.71687,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Puerto de Doraleh / Puerto de Yibuti — envío marítimo del vehículo</name>
-    <description><![CDATA[<b>Frontera</b><br/>Punto de embarque del vehículo hacia Egipto (vía Arabia Saudí en tránsito) o directamente hacia Europa en RoRo/contenedor; gestionar con un agente de envíos con semanas de antelación — ver la decisión de ruta de la ficha de Sudán.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.5928,43.0794">Google Maps</a>]]></description>
+    <name>Paso fronterizo de Loyada (Yibuti → Somalilandia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único paso oficial hacia Somalilandia, a 25 km de Yibuti ciudad, sobre una colina que domina la costa del golfo de Adén. Cierres periódicos por motivos políticos; reabierto en 2002. El MAEC desaconseja la zona fronteriza con Somalia (Somalilandia). Pin comprobado en Google Maps («Loyada»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.46157,43.25009">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>43.0794,11.5928,0</coordinates></Point>
+    <Point><coordinates>43.25009,11.46157,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ali Sabieh / paso de Dewele (Etiopía → Yibuti)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Segunda ciudad del país (44.782 hab. en 2024), a 98 km de la capital, 756 m de altitud y 10 km de la frontera etíope; el paso de Dewele está a 18 km. Por aquí cruza el ferrocarril Adís Abeba-Yibuti y se hace el control fronterizo ferroviario. Pin comprobado en Google Maps («Dewele (lado etíope del paso de Ali Sabieh)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.03318,42.63162">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>42.63162,11.03318,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional de Yibuti-Ambouli (JIB/HDAM)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único aeropuerto internacional del país, a 6 km del centro y 15 m de altitud, con una sola pista (09/27). Uso civil y militar compartido: Camp Lemonnier estadounidense, base aérea francesa BA 188, base japonesa e italiana; el tráfico militar supone en torno al 75% de las operaciones. Visado a la llegada discrecional. PROHIBIDO FOTOGRAFIAR. Pin comprobado en Google Maps («Aeropuerto Internacional Yibuti-Ambouli»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.55205,43.14968">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>43.14968,11.55205,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto de Yibuti</name>
+    <description><![CDATA[<b>Frontera</b><br/>Entrada marítima principal y salida al mar de Etiopía, que supone en torno al 70% de la carga; unos 2.500 buques al año. Terminal de contenedores desde febrero de 1985 y ampliación en Doraleh. PROHIBIDO FOTOGRAFIAR. Pin comprobado en Google Maps («Puerto de Yibuti (sin objeto en Google Maps; coordenada de la fuente)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.6053,43.1392">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>43.1392,11.6053,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embarcadero del ferry Yibuti–Tadjoura–Obock (Port de l'Escale)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Port de l'Escale, Route de Venise, al final del muelle que sale del palacio presidencial. Travesía del golfo de Tadjoura de unas 2 horas; ADMITE VEHÍCULOS, con hasta 1 hora de espera para asegurar plaza (reseña de viajero, mayo de 2019). Horarios y tarifas actuales por confirmar. Pin comprobado en Google Maps («Port de l'Escale (sin objeto en Google Maps; coordenada de la fuente)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.5951,43.1481">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>43.1481,11.5951,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Embajada de España en Adís Abeba (competente para Yibuti)</name>
-    <description><![CDATA[<b>Consular</b><br/>Haile Melekot Street, Gullele Subcity, Addis Abeba (Etiopía). Tel. +251 111222542 · Emergencia consular 24h: +251 911 219 403. Yibuti no tiene embajada española propia; gestiones ordinarias por esta vía.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.028,38.76">Google Maps</a>]]></description>
+    <description><![CDATA[<b>Consular</b><br/>España NO tiene embajada residente en Yibuti: la competencia es de la Embajada en Adís Abeba, que en su web declara «También somos tu Embajada en Seychelles y Yibuti». Dirección: Botswana Street, Addis Abeba, P.O. Box 2312. Tel. +251 929 136 159 y +251 111 230 083. emb.addisabeba@maec.es. EMERGENCIA CONSULAR 24 h: +251 911 219 403. Pin comprobado en Google Maps («Embassy of Spain (Adís Abeba, competente para Yibuti)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.0621,38.76032">Google Maps</a>]]></description>
     <styleUrl>#icon-consular</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>38.76,9.028,0</coordinates></Point>
+    <Point><coordinates>38.76032,9.0621,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Hôpital Général Peltier, Yibuti ciudad</name>
-    <description><![CDATA[<b>Hospital</b><br/>Principal hospital de referencia del país; capacidad limitada — seguro con evacuación médica real imprescindible.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.585,43.145">Google Maps</a>]]></description>
+    <name>Viceconsulado Honorario de España en Yibuti</name>
+    <description><![CDATA[<b>Consular</b><br/>Vicecónsul honoraria: Josefina Llorente Martín. Teléfonos publicados por el MAEC: +253 77 84 49 50 (recomendaciones de viaje) y +253 21 35 63 53 (ficha país). DIRECCIÓN EXACTA NO PUBLICADA: por confirmar con la embajada en Adís Abeba. Pin comprobado en Google Maps («Yibuti ciudad (el viceconsulado honorario no publica dirección ni figura en Google Maps)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.58859,43.14536">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>43.14536,11.58859,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital Général Peltier (Yibuti ciudad)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital público del país y referencia de la lista de centros médicos de la embajada británica. BP 2123, Yibuti. Tel. +253 21 35 27 12, fax 21 35 30 14. El MAEC califica los servicios médicos del país de «muy deficientes». Pin comprobado en Google Maps («Hopital Peltier»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.6083,43.15319">Google Maps</a>]]></description>
     <styleUrl>#icon-hospital</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>43.145,11.585,0</coordinates></Point>
+    <Point><coordinates>43.15319,11.6083,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Combustible · Yibuti ciudad</name>
-    <description><![CDATA[<b>Combustible</b><br/>Única concentración fiable de estaciones formales del país; repostar a fondo aquí antes de cualquier excursión a Lac Assal o Lac Abbé, sin garantía de suministro en el resto del territorio.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.5721,43.1456">Google Maps</a>]]></description>
+    <name>Hôpital Militaire Bouffard y Clinique Affi (Yibuti ciudad)</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital militar francés Bouffard (BP 85024, tel. +253 21 35 13 51), referencia habitual para europeos en urgencias graves; el acceso de civiles queda a criterio militar, por confirmar. Alternativa privada: Clinique Affi (BP 6193, tel. +253 21 34 44 97). Datos de la lista de la embajada británica de septiembre de 2015: reconfirmar teléfonos. Pin comprobado en Google Maps («Hopital Bouffard»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.58748,43.15279">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>43.15279,11.58748,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Repostaje en Yibuti ciudad antes del circuito interior</name>
+    <description><![CDATA[<b>Combustible</b><br/>La red de estaciones se concentra en la capital y en el eje de la RN-1 hacia Galafi. Canadá avisa de que las gasolineras son escasas y están muy separadas. Gasolina en torno a 310 DJF/litro (1,50 €) a 18 de septiembre de 2026. Salir con depósito lleno y bidones para el triángulo Lac Assal – Grand Bara – Lac Abbé. Pago en efectivo, en francos. Pin comprobado en Google Maps («Total Station (Yibuti ciudad)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.55977,43.15226">Google Maps</a>]]></description>
     <styleUrl>#icon-combustible</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>43.1456,11.5721,0</coordinates></Point>
+    <Point><coordinates>43.15226,11.55977,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Agua potable y de uso general · Yibuti ciudad</name>
-    <description><![CDATA[<b>Agua potable</b><br/>Agua embotellada sin problema en supermercados de la capital; hoteles permiten llenar el depósito de uso general con manguera. Fuera de la capital (Lac Assal, Lac Abbé), llevar reserva completa: no hay puntos fiables en el desierto de Afar.<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.5721,43.1456">Google Maps</a>]]></description>
+    <name>Dikhil: último repostaje antes de Galafi y del Lac Abbé</name>
+    <description><![CDATA[<b>Combustible</b><br/>Capital de la región de Dikhil (27.378 hab. en 2024, 507 m de altitud), a 122 km al suroeste de la capital por la RN-1 y 12 km de la frontera etíope, al este del Lac Abbé. Última población de entidad antes de Galafi y del desierto: última oportunidad razonable de repostar y comprar agua. Servicios concretos POR CONFIRMAR. Pin comprobado en Google Maps («Dikhil»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.10543,42.37047">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>42.37047,11.10543,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Carga de agua en Yibuti ciudad</name>
+    <description><![CDATA[<b>Agua potable</b><br/>El agua del grifo NO es potable (riesgo de cólera según el MAEC), pero la red de la capital sirve para llenar depósitos de ducha y lavado. Para beber, embotellada o filtrada: botella de 1,5 l en torno a 100 DJF (0,49 €) a 18 de septiembre de 2026. Es el único punto fiable de carga del país: fuera de la capital la red es escasa y el agua salobre. Pin comprobado en Google Maps («Yibuti (ciudad)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/yibuti/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.58859,43.14536">Google Maps</a>]]></description>
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>43.1456,11.5721,0</coordinates></Point>
+    <Point><coordinates>43.14536,11.58859,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Aeropuerto Internacional de Ivato (TNR)</name>

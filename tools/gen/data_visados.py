@@ -225,9 +225,10 @@ VISADOS = {
 
     # Países de la hoja que ya no forman parte de la ruta confirmada.
     "etiopia": visa(
-        "presencial", "El eVisa turístico no resuelve una entrada terrestre.",
-        "Para entrar por tierra, obtener antes el visado en la embajada competente por residencia.", ruta="fuera",
-        alerta="Etiopía no concede visados en ninguna frontera terrestre; MAEC remite a la Embajada de Etiopía en París.",
+        "electronico", "eVisa obligatorio y previo para españoles, de entrada única y pensado para el aeropuerto de Bole.",
+        "Tramitar el eVisa en evisa.gov.et con al menos una semana de margen y llevarlo impreso junto al certificado de fiebre amarilla.",
+        ruta="fuera", entradas="Entrada única; para varias entradas, varios visados", coste="82 USD (30 días) / 102 USD (90 días), a reconfirmar en la web oficial",
+        alerta="El MAEC afirma que NO se conceden visados en fronteras terrestres: llegar a Moyale sin visado emitido es arriesgarse al rechazo.",
         oficial="https://www.evisa.gov.et/", maec=_maec("Etiopía")),
     "sudan": visa(
         "no_viable", "Visado obligatorio previo en la Embajada de Sudán en Madrid (5 semanas–2 meses), pero el país está excluido por guerra y el MAEC desaconseja viajar bajo cualquier circunstancia.",
@@ -236,21 +237,22 @@ VISADOS = {
         alerta="Sello israelí en el pasaporte = entrada denegada; permiso de viaje para salir del estado del Mar Rojo o de Jartum.",
         oficial="", maec=_maec("Sudán")),
     "egipto": visa(
-        "frontera", "Visado disponible en aeropuerto, puerto o cruce terrestre.",
-        "Puede obtenerse al llegar; llevar efectivo y confirmar el paso concreto.", ruta="fuera",
-        coste="30 USD, 30 días y una entrada según MAEC.",
-        alerta="Fuera de la ruta confirmada y sin conexión terrestre viable a través de Sudán.",
-        oficial="https://visa2egypt.gov.eg/", maec=_maec("Egipto")),
+        "frontera", "Los españoles necesitan visado y lo obtienen a la llegada en aeropuerto, puerto o paso terrestre por 30 USD.",
+        "Llevar 30 USD en efectivo en billetes nuevos, o sacar la eVisa en visa2egypt.gov.eg antes de salir.",
+        ruta="fuera", entradas="30 días, una entrada", coste="30 USD (25 USD la exención limitada al Sinaí)",
+        alerta="Pasaporte con seis meses de validez y hay que conservar el sello de entrada: lo piden al salir.",
+        oficial="https://visa2egypt.gov.eg", maec=_maec("Egipto")),
     "somalia": visa(
         "no_viable", "Visado obligatorio, disponible también al llegar, pero el viaje no es viable.",
         "Excluir por completo de la ruta.", ruta="fuera",
         alerta="MAEC desaconseja el viaje bajo cualquier circunstancia y advierte de amenaza terrorista y secuestro muy altas.",
         maec=_maec("Somalia")),
     "yibuti": visa(
-        "electronico", "Visado obligatorio; eVisa oficial para corta duración o tránsito.",
-        "Solicitar el eVisa y confirmar por escrito que el paso terrestre previsto lo acepta.", ruta="fuera",
-        alerta="MAEC solo identifica expresamente el visado a la llegada en el aeropuerto; la validez terrestre debe confirmarse.",
-        oficial="https://www.evisa.dj/", maec=_maec("Yibuti")),
+        "electronico", "Visado obligatorio para españoles: eVisa oficial en evisa.gouv.dj, o visado en la embajada de Yibuti en París o en Adís Abeba.",
+        "Solicitar el eVisa con semanas de antelación y, si se entra por tierra con vehículo, pedir además visado físico en el pasaporte en la embajada de Yibuti en Adís Abeba.",
+        ruta="fuera", entradas="Una entrada, hasta 90 días", coste="12 USD tránsito (1-14 días) y 23 USD estancia corta (15-90 días); el MAEC cifra el coste en 50-80 €",
+        alerta="La validez del eVisa en las fronteras terrestres NO está confirmada: hay fuentes contradictorias y una agencia local niega que exista visado a la llegada en los pasos con Etiopía.",
+        oficial="https://www.evisa.gouv.dj/", maec=_maec("Yibuti")),
     "madagascar": visa(
         "frontera", "Españoles: exención 15 días con tasa o visado a la llegada/eVisa de 30, 60 o 90 días.",
         "Pagar en Ivato (efectivo EUR/USD o tarjeta) o tramitar eVisa 1–2 semanas antes.",

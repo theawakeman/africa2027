@@ -37,6 +37,9 @@ FILA = {
     "Mali": "mali",
     "Guinea-Bisáu": "guinea-bisau",
     "Sudán": "sudan",
+    "Egipto": "egipto",
+    "Etiopía": "etiopia",
+    "Yibuti": "yibuti",
 }
 
 # Búsqueda tolerante: «COSTA DE MARFIL» y «Costa de Marfil» son el mismo país.

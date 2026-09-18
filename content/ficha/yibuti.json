@@ -1,187 +1,631 @@
 {
-  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jetty%20of%20the%20Port%20of%20Djibouti.jpg?width=900",
-  "hero_credit": "Yibuti ciudad y el puerto · Uvceto · CC BY-SA 4.0",
+  "hero_img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Assal_1-Djibouti.jpg?width=1200",
+  "hero_credit": "Lac Assal · Fishercd · Public domain",
   "chips": [
     [
-      "ENTRADA",
-      "Galafi (desde Etiopía)"
+      "ESTATUS",
+      "FUERA DE RUTA. La vuelta de 2027 termina en Kenia; esta ficha es informativa…"
     ],
     [
-      "SALIDA",
-      "Puerto de Yibuti/Doraleh — envío marítimo del vehículo"
+      "CÓMO LLEGAR",
+      "Por tierra desde Etiopía (Galafi, Dewele/Ali Sabieh, Balho) o desde Somalilandia (Loyada)…"
     ],
     [
-      "SEGURIDAD",
-      "estable · precaución normal"
+      "VISADO",
+      "OBLIGATORIO para españoles. eVisa en evisa.gouv.dj (12 USD tránsito de 1-14 días…"
     ],
     [
       "VEHÍCULO",
-      "CPD recomendado; trámite clave: el envío marítimo, no el CPD"
+      "CPD NO OBLIGATORIO (probable): AIT/FIA no tiene emisor en Yibuti…"
     ],
     [
-      "COMUNICACIONES",
-      "Starlink sin fecha prevista"
+      "SEGURIDAD",
+      "Precaución · vetadas fronteras Eritrea y Somalilandia"
     ],
     [
-      "ROL EN LA RUTA",
-      "puerto de salida hacia Egipto/Europa por el bloqueo de Sudán"
+      "SEGURO",
+      "Carta Verde NO vale · COMESA Yellow Card"
+    ],
+    [
+      "SALUD",
+      "Fiebre amarilla obligatoria · malaria todo el año"
+    ],
+    [
+      "DRONES",
+      "No entrar con dron: se requisa (MAEC)"
+    ],
+    [
+      "STARLINK",
+      "No disponible · regulación estancada (2026)"
+    ],
+    [
+      "4x4",
+      "Imprescindible · convoy de dos · nunca de noche"
+    ],
+    [
+      "A PIE",
+      "Solo en la capital y de día · nada fuera del asfalto"
+    ],
+    [
+      "PERRO",
+      "SIN REQUISITOS PUBLICADOS por Yibuti. La web del ministerio competente (maepe-rh.dj) existe pero no publica…"
+    ],
+    [
+      "MONEDA",
+      "Franco yibutiano (DJF), fijado al dólar. 1 EUR = 206,3 DJF (MAEC, diciembre de 2025)…"
+    ],
+    [
+      "VENTANA",
+      "Semidesértico: 30 °C en enero y 45 °C en julio (Ficha País del MAEC)…"
     ]
   ],
-  "historia_resumen": "Yibuti debe su existencia a su posición en la boca del mar Rojo: puesto comercial afar y somalí convertido en colonia francesa en 1896 precisamente para controlar esa ruta marítima, obtuvo la independencia en 1977 y hoy vive de esa misma posición estratégica —puerto, base logística internacional y, para este viaje, la salida marítima que sustituye al bloqueado corredor de Sudán.",
+  "verificado": false,
+  "revision": "18 sep 2026",
+  "historia_resumen": "Yibuti es un país diminuto —unos 23.200 kilómetros cuadrados y poco más de un millón de habitantes— encajado entre Etiopía, Eritrea y Somalia, frente al estrecho de Bab el-Mandeb. Su historia es la de un cruce de caminos: sultanatos afares y somalíes islamizados desde muy pronto, una colonia francesa nacida en 1862 para servir de puerto y de cabeza del ferrocarril a Adís Abeba, y una independencia tardía, en 1977. Desde entonces lo gobiernan dos hombres de la misma familia, y desde 1999 Ismail Omar Guelleh. Hoy vive del puerto por el que respira Etiopía y del alquiler de bases militares a cuatro potencias. Es estable, caro y, según Freedom House, no libre.",
   "historia_secciones": [
     [
-      "Pueblos afar e issa en la boca del mar Rojo",
-      "Antes de la colonización, la actual Yibuti era territorio de pastores nómadas afar (relacionados con los pueblos de las tierras altas etíopes) y de clanes somalíes issa, organizados en sultanatos y jefaturas tradicionales que controlaban las rutas de caravanas de sal y ganado entre el interior africano y el mar Rojo."
+      "Orígenes y reinos anteriores a la colonización",
+      "<p>El rincón del Cuerno de África que hoy ocupa Yibuti aparece en los textos egipcios como parte del <em>país de Punt</em>, la tierra de la mirra y el incienso citada desde el tercer milenio antes de nuestra era, y más tarde quedó dentro del radio de influencia del reino de Aksum. La verdadera bisagra fue el islam: la proximidad de la península arábiga hizo que las poblaciones somalíes y afares de esta costa figuren entre las primeras del continente en abrazarlo, muy poco después de la hégira.</p><p>De esa islamización nacieron los estados medievales que organizaron el territorio. El sultanato de Ifat, fundado en 1285 por la dinastía Walashma con centro en Zeila, fue derrotado por el emperador etíope Amda Seyon I en 1332; su heredero, el sultanato de Adal, llegó a controlar buena parte de lo que hoy son Yibuti, Somalilandia, Eritrea y zonas de Etiopía. Más cerca en el tiempo, los sultanatos de Tadjoura y de Obock dominaban los puertos y las rutas de caravanas que subían la sal del lago Assal —a 155 metros bajo el nivel del mar, el punto más bajo de África— hasta el altiplano etíope, y la cambiaban por sorgo, café y marfil. Esas caravanas de camellos siguen siendo la imagen del lago.</p>"
     ],
     [
-      "La Costa Francesa de los Somalíes",
-      "Francia estableció un protectorado en 1862 sobre Obock y fundó la ciudad de Yibuti en 1888, atraída por su bahía natural profunda, justo enfrente de la colonia británica de Adén, en la orilla arábiga. En 1896 el territorio se formalizó como colonia de la Costa Francesa de los Somalíes, y en 1917 el ferrocarril Yibuti-Adís Abeba convirtió al puerto en la salida marítima natural de la Etiopía interior, sin costa propia — el mismo papel que cumple hoy para este proyecto."
+      "Colonización",
+      "<p>Francia llegó por el mar y por el comercio. En 1862 compró a los sultanes locales el fondeadero de Obock, y entre 1883 y 1887 firmó una serie de tratados con jefes afares y somalíes que ampliaron su protectorado. En 1894 Léonce Lagarde estableció una administración permanente y bautizó el conjunto como <em>Côte française des Somalis</em>, la Costa Francesa de los Somalíes; en 1896 la capital se trasladó de Obock a la ciudad de Yibuti, fundada sobre un buen abrigo natural.</p><p>La razón de ser de la colonia fue el ferrocarril. Las obras de la línea franco-etíope empezaron en 1897, el primer servicio comercial se abrió en 1901 y el tren alcanzó Adís Abeba en junio de 1917: desde entonces Yibuti es la salida al mar del interior etíope, y eso explica casi todo lo demás. La Segunda Guerra Mundial dejó al territorio del lado de Vichy; en junio de 1940 las tropas italianas ocuparon cerca de un tercio de la colonia, los británicos la bloquearon y hacia 1942 unos cuatro mil soldados británicos entraron en la ciudad, mientras un batallón local participaba en 1944 en la liberación de París.</p><p>Francia dejó la lengua, el trazado urbano, el código administrativo y una frontera que separa a afares y somalíes issas de sus parientes de Etiopía y Somalia.</p>"
     ],
     [
-      "Independencia en 1977",
-      "Tras dos referendos (1958 y 1967) en los que la población optó por seguir vinculada a Francia, Yibuti alcanzó finalmente la independencia en 1977, bajo el liderazgo de Hassan Gouled Aptidon, en un delicado equilibrio político entre las comunidades afar e issa que marcó las décadas siguientes, incluida una guerra civil interna entre 1991 y 1994."
+      "Independencia y construcción del Estado",
+      "<p>La descolonización fue lenta y disputada. En el referéndum de 1958 el territorio votó seguir vinculado a Francia, con un voto somalí mayoritariamente contrario y denuncias de manipulación. El de 19 de marzo de 1967 repitió el resultado, también empañado por el fraude y por la expulsión de unos diez mil somalíes; a continuación la colonia pasó a llamarse Territorio Francés de los Afares y los Issas, un nombre que reconocía por fin a los dos pueblos del país. La consulta del 8 de mayo de 1977 dio un 98,8% a favor de la separación y el 27 de junio de 1977 Yibuti fue independiente, ingresando ese mismo año en Naciones Unidas.</p><p>El primer presidente, Hassan Gouled Aptidon, convirtió el país en un Estado de partido único en 1981 al declarar su Agrupación Popular para el Progreso (RPP) única formación legal. La Constitución vigente data del 4 de septiembre de 1992, muy inspirada en el sistema francés aunque con algunos elementos de la sharía. Entre 1991 y 1994 el Estado libró una guerra civil contra el FRUD, guerrilla predominantemente afar, que firmó un acuerdo de paz en diciembre de 1994. En 1999 Gouled se retiró a los 83 años y le sucedió su sobrino Ismail Omar Guelleh; el acuerdo definitivo que cerró el conflicto se selló el 12 de mayo de 2001.</p>"
     ],
     [
-      "Situación actual: la geografía como destino",
-      "Yibuti ha convertido su posición geográfica en su principal activo económico: alberga bases militares de Francia, Estados Unidos, China y Japón —una concentración única en el mundo— y su puerto, ampliado en las últimas décadas, es la salida marítima de facto de Etiopía y un nodo clave del comercio del mar Rojo. Para este proyecto, esa misma infraestructura portuaria es la que permite sortear el bloqueo del corredor de Sudán y enviar el vehículo hacia Egipto o Europa por mar."
+      "Historia reciente (2000–2026)",
+      "<p>El siglo XXI convirtió la posición de Yibuti en su principal industria. Estados Unidos arrendó en 2002 el antiguo cuartel francés de Camp Lemonnier —contrato renovado en 2014 por veinte años y unos 63 millones de dólares anuales—, Francia firmó en 2011 un tratado de cooperación de defensa en vigor desde 2014, Japón abrió aquí su única base permanente en el exterior y China inauguró en 2017 su primera instalación militar en el extranjero. España despliega aquí el destacamento Orión y participa en la operación Atalanta de la Unión Europea contra la piratería.</p><p>En paralelo llegaron las grandes obras: el ferrocarril eléctrico de vía estándar entre Adís Abeba y Yibuti, de 759 kilómetros y unos 4.500 millones de dólares financiados sobre todo por el Eximbank chino, se inauguró en 2016 y 2017 y arrancó el servicio comercial el 1 de enero de 2018, con terminal en Nagad, junto al aeropuerto de la capital; también se construyó el puerto de Tadjoura. La política interior se fue cerrando: una enmienda constitucional de 2010 suprimió el límite de mandatos y Guelleh fue reelegido en 2005, 2011, 2016 y 2021. En agosto de 2021 hubo choques entre afares e issas en varios barrios de la capital. Una reforma constitucional de noviembre de 2025 eliminó el límite de edad de 75 años y permitió que Guelleh, de 78, volviera a presentarse en abril de 2026.</p>"
+    ],
+    [
+      "Política y gobierno en 2026",
+      "<p>Yibuti es formalmente una república presidencialista, con una Asamblea Nacional unicameral de 65 diputados elegidos cada cinco años. A fecha de septiembre de 2026, según la ficha país del Ministerio de Asuntos Exteriores de España (mayo de 2026), el jefe del Estado es Ismail Omar Guelleh, en el poder desde 1999, cuando sucedió a su tío; las últimas presidenciales se celebraron el 10 de abril de 2026 y las ganó con el 97,81% de los votos. El primer ministro es Abdoulkader Kamil Mohamed, nombrado en marzo de 2013. La misma fuente describe el sistema como de partido único dominante, con oposición en el Parlamento solo desde 2013.</p><p>En la práctica se trata de un régimen autoritario con formas electorales. Freedom House, en <em>Freedom in the World 2025</em>, clasifica al país como <strong>«Not Free»</strong> con 24 puntos sobre 100 —5 sobre 40 en derechos políticos y 19 sobre 60 en libertades civiles— y señala que la actuación de la oposición está severamente limitada y que los periodistas críticos son acosados o detenidos. Reporteros Sin Fronteras sitúa a Yibuti en el puesto 167 de 180 en 2026 y afirma que no hay ningún medio independiente radicado en el país. El Exterior español desaconseja las franjas fronterizas con Eritrea y Somalia por la presencia de minas sin desactivar. España no tiene embajada residente y se relaciona con el país desde Adís Abeba.</p>"
+    ],
+    [
+      "Economía y recursos",
+      "<p>Yibuti no vive de lo que produce, sino de por dónde pasa. Los servicios —puerto, logística, zona franca, telecomunicaciones y banca— suponían en torno al 85% del PIB en 2023, frente a un 14% de industria y apenas un 1% de agricultura. El Banco Mundial cifra el PIB en unos 4.600 millones de dólares y el PIB per cápita entre 3.900 y 4.250 dólares según la serie consultada. La moneda es el franco yibutiano, muy estable: un euro equivalía a 206,3 francos en diciembre de 2025.</p><p>La clave es Etiopía, que perdió su salida al mar con la independencia de Eritrea en 1993 y canaliza por aquí su comercio exterior: es el destino del 58,42% de las exportaciones yibutianas, por delante de China (15,82%) y Estados Unidos (7,04%), mientras los principales proveedores son China, Arabia Saudí, Emiratos Árabes Unidos y Francia. A ello se suman el alquiler de las bases militares extranjeras, que pagan decenas de millones de dólares al año, la sal del lago Assal y un turismo pequeño pero singular, centrado en el buceo y en los tiburones ballena que se concentran en el golfo de Tadjoura entre noviembre y febrero. Los puntos débiles son crónicos: paro del 26,2% en 2023, deuda externa en torno al 64% del PIB en 2024 y una fuerte exposición a las crisis del mar Rojo.</p>"
+    ],
+    [
+      "Sociedad: idiomas, religión y cultura",
+      "<p>Viven en Yibuti algo menos de 1,2 millones de personas, y cerca de 976.000 en la propia capital: es casi un país-ciudad. Las fuentes consultadas describen dos grandes grupos de población, los somalíes —en torno al 60%— y los afares, alrededor del 35%. Las lenguas oficiales son el francés y el árabe, mientras el somalí y el afar tienen rango de lenguas nacionales y son las de la calle; en carretera y en cualquier gestión oficial el francés es lo que funciona. El islam suní es la religión del Estado y agrupa a cerca del 95% de la población. La esperanza de vida ronda los 66 años.</p><p>La cocina mezcla influencias somalíes, afares, yemeníes, francesas e indias: el <em>lahoh</em> del desayuno, los guisos con arroz, el <em>fah-fah</em> de carne y las <em>sambusas</em>. El khat, que llega a diario desde Etiopía, marca el ritmo de las tardes. La fiesta nacional es el 27 de junio. Yibuti es Estado parte de la Convención del Patrimonio Mundial desde 2007, pero no tiene ningún bien inscrito: solo una lista indicativa de diez sitios.</p><p>Para quien viaja, tres cautelas. Conviene vestir con discreción. Está prohibido fotografiar edificios públicos, bases militares y residencias de autoridades, y no se fotografía a nadie sin permiso. El ramadán de 2027 empieza en torno al 8 de febrero y durante el día se come y se bebe con discreción.</p>"
     ]
   ],
   "historia_fuentes": [
     [
-      "BBC News · Djibouti country profile",
-      "https://www.bbc.com/news/world-africa-13232162"
+      "Ficha País Yibuti (Ministerio de Asuntos Exteriores, UE y Cooperación de España · PDF · mayo de 2026)",
+      "https://www.exteriores.gob.es/Documents/FichasPais/YIBUTI_FICHA%20PAIS.pdf"
     ],
     [
-      "Encyclopaedia Britannica · Djibouti, History",
-      "https://www.britannica.com/place/Djibouti/History"
+      "Recomendaciones de viaje: Yibuti (Ministerio de Asuntos Exteriores de España · consultado en septiembre de 2026)",
+      "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti"
     ],
     [
-      "Overlanding Association · Shipping around Ethiopia",
-      "https://overlandingassociation.org/overland-wiki/shipping-around-ethiopia/"
+      "Djibouti: Freedom in the World 2025 (Freedom House · 2025)",
+      "https://freedomhouse.org/country/djibouti/freedom-world/2025"
+    ],
+    [
+      "Djibouti (Reporteros Sin Fronteras · Índice Mundial de Libertad de Prensa · 2026)",
+      "https://rsf.org/en/country/djibouti"
+    ],
+    [
+      "History of Djibouti (Wikipedia en inglés · consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/History_of_Djibouti"
+    ],
+    [
+      "Djibouti (Wikipedia en inglés · consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Djibouti"
+    ],
+    [
+      "Yibuti (Wikipedia en español · consultado en septiembre de 2026)",
+      "https://es.wikipedia.org/wiki/Yibuti"
+    ],
+    [
+      "Djibouti (Wikipedia en francés · consultado en septiembre de 2026)",
+      "https://fr.wikipedia.org/wiki/Djibouti"
+    ],
+    [
+      "Djibouti - States Parties (UNESCO · Centro del Patrimonio Mundial · consultado en septiembre de 2026)",
+      "https://whc.unesco.org/en/statesparties/dj"
+    ],
+    [
+      "Djibouti - Datos del Banco Mundial (Banco Mundial · World Development Indicators · 2025)",
+      "https://data.worldbank.org/country/djibouti"
+    ],
+    [
+      "Addis Ababa-Djibouti Railway (Wikipedia en inglés · consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Addis_Ababa%E2%80%93Djibouti_Railway"
+    ],
+    [
+      "Ethio-Djibouti Railways (Wikipedia en inglés · consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Ethio-Djibouti_Railways"
+    ],
+    [
+      "Lake Assal, Djibouti (Wikipedia en inglés · consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)"
+    ],
+    [
+      "Gulf of Tadjoura (Wikipedia en inglés · consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Gulf_of_Tadjoura"
+    ],
+    [
+      "Understanding whale sharks: from Djibouti to the Red Sea (Oceanographic Magazine · consultado en septiembre de 2026)",
+      "https://oceanographicmagazine.com/features/whale-sharks-djibouti/"
+    ],
+    [
+      "Djiboutian cuisine (Wikipedia en inglés · consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Djiboutian_cuisine"
+    ],
+    [
+      "Djibouti (Encyclopaedia Britannica · consultado en septiembre de 2026)",
+      "https://www.britannica.com/place/Djibouti"
     ]
   ],
   "logistics": [
     {
-      "name": "Frontera · Entrada — Galafi (desde Etiopía)",
+      "name": "Paso fronterizo de Galafi (Etiopía → Yibuti)",
       "cat": "Frontera",
-      "lat": 11.4667,
-      "lon": 41.9333,
-      "info": "Puesto principal del corredor comercial Adís Abeba-Yibuti; bien transitado y equipado, comparte trazado con el ferrocarril de mercancías."
+      "lat": 11.7168693,
+      "lon": 41.8376077,
+      "info": "Paso terrestre principal desde Etiopía, en la RN-1, a 218 km de la capital y a 161 m de altitud. Es donde los overlanders obtienen el permiso temporal de importación del vehículo (10 días documentados). Tráfico intensísimo de camiones y carretera en mal estado. Pin comprobado en Google Maps («Galafi»)."
     },
     {
-      "name": "Puerto de Doraleh / Puerto de Yibuti — envío marítimo del vehículo",
+      "name": "Paso fronterizo de Loyada (Yibuti → Somalilandia)",
       "cat": "Frontera",
-      "lat": 11.5928,
-      "lon": 43.0794,
-      "info": "Punto de embarque del vehículo hacia Egipto (vía Arabia Saudí en tránsito) o directamente hacia Europa en RoRo/contenedor; gestionar con un agente de envíos con semanas de antelación — ver la decisión de ruta de la ficha de Sudán."
+      "lat": 11.4615657,
+      "lon": 43.2500923,
+      "info": "Único paso oficial hacia Somalilandia, a 25 km de Yibuti ciudad, sobre una colina que domina la costa del golfo de Adén. Cierres periódicos por motivos políticos; reabierto en 2002. El MAEC desaconseja la zona fronteriza con Somalia (Somalilandia). Pin comprobado en Google Maps («Loyada»)."
+    },
+    {
+      "name": "Ali Sabieh / paso de Dewele (Etiopía → Yibuti)",
+      "cat": "Frontera",
+      "lat": 11.0331799,
+      "lon": 42.6316246,
+      "info": "Segunda ciudad del país (44.782 hab. en 2024), a 98 km de la capital, 756 m de altitud y 10 km de la frontera etíope; el paso de Dewele está a 18 km. Por aquí cruza el ferrocarril Adís Abeba-Yibuti y se hace el control fronterizo ferroviario. Pin comprobado en Google Maps («Dewele (lado etíope del paso de Ali Sabieh)»)."
+    },
+    {
+      "name": "Aeropuerto Internacional de Yibuti-Ambouli (JIB/HDAM)",
+      "cat": "Frontera",
+      "lat": 11.5520514,
+      "lon": 43.14968,
+      "info": "Único aeropuerto internacional del país, a 6 km del centro y 15 m de altitud, con una sola pista (09/27). Uso civil y militar compartido: Camp Lemonnier estadounidense, base aérea francesa BA 188, base japonesa e italiana; el tráfico militar supone en torno al 75% de las operaciones. Visado a la llegada discrecional. PROHIBIDO FOTOGRAFIAR. Pin comprobado en Google Maps («Aeropuerto Internacional Yibuti-Ambouli»)."
+    },
+    {
+      "name": "Puerto de Yibuti",
+      "cat": "Frontera",
+      "lat": 11.6053,
+      "lon": 43.1392,
+      "info": "Entrada marítima principal y salida al mar de Etiopía, que supone en torno al 70% de la carga; unos 2.500 buques al año. Terminal de contenedores desde febrero de 1985 y ampliación en Doraleh. PROHIBIDO FOTOGRAFIAR. Pin comprobado en Google Maps («Puerto de Yibuti (sin objeto en Google Maps; coordenada de la fuente)»)."
+    },
+    {
+      "name": "Embarcadero del ferry Yibuti–Tadjoura–Obock (Port de l'Escale)",
+      "cat": "Frontera",
+      "lat": 11.5951,
+      "lon": 43.1481,
+      "info": "Port de l'Escale, Route de Venise, al final del muelle que sale del palacio presidencial. Travesía del golfo de Tadjoura de unas 2 horas; ADMITE VEHÍCULOS, con hasta 1 hora de espera para asegurar plaza (reseña de viajero, mayo de 2019). Horarios y tarifas actuales por confirmar. Pin comprobado en Google Maps («Port de l'Escale (sin objeto en Google Maps; coordenada de la fuente)»)."
     },
     {
       "name": "Embajada de España en Adís Abeba (competente para Yibuti)",
       "cat": "Consular",
-      "lat": 9.028,
-      "lon": 38.76,
-      "info": "Haile Melekot Street, Gullele Subcity, Addis Abeba (Etiopía). Tel. +251 111222542 · Emergencia consular 24h: +251 911 219 403. Yibuti no tiene embajada española propia; gestiones ordinarias por esta vía."
+      "lat": 9.0620982,
+      "lon": 38.7603164,
+      "info": "España NO tiene embajada residente en Yibuti: la competencia es de la Embajada en Adís Abeba, que en su web declara «También somos tu Embajada en Seychelles y Yibuti». Dirección: Botswana Street, Addis Abeba, P.O. Box 2312. Tel. +251 929 136 159 y +251 111 230 083. emb.addisabeba@maec.es. EMERGENCIA CONSULAR 24 h: +251 911 219 403. Pin comprobado en Google Maps («Embassy of Spain (Adís Abeba, competente para Yibuti)»)."
     },
     {
-      "name": "Hôpital Général Peltier, Yibuti ciudad",
+      "name": "Viceconsulado Honorario de España en Yibuti",
+      "cat": "Consular",
+      "lat": 11.5885948,
+      "lon": 43.1453647,
+      "info": "Vicecónsul honoraria: Josefina Llorente Martín. Teléfonos publicados por el MAEC: +253 77 84 49 50 (recomendaciones de viaje) y +253 21 35 63 53 (ficha país). DIRECCIÓN EXACTA NO PUBLICADA: por confirmar con la embajada en Adís Abeba. Pin comprobado en Google Maps («Yibuti ciudad (el viceconsulado honorario no publica dirección ni figura en Google Maps)»)."
+    },
+    {
+      "name": "Hôpital Général Peltier (Yibuti ciudad)",
       "cat": "Hospital",
-      "lat": 11.585,
-      "lon": 43.145,
-      "info": "Principal hospital de referencia del país; capacidad limitada — seguro con evacuación médica real imprescindible."
+      "lat": 11.6083024,
+      "lon": 43.1531881,
+      "info": "Principal hospital público del país y referencia de la lista de centros médicos de la embajada británica. BP 2123, Yibuti. Tel. +253 21 35 27 12, fax 21 35 30 14. El MAEC califica los servicios médicos del país de «muy deficientes». Pin comprobado en Google Maps («Hopital Peltier»)."
     },
     {
-      "name": "Combustible · Yibuti ciudad",
+      "name": "Hôpital Militaire Bouffard y Clinique Affi (Yibuti ciudad)",
+      "cat": "Hospital",
+      "lat": 11.5874786,
+      "lon": 43.1527932,
+      "info": "Hospital militar francés Bouffard (BP 85024, tel. +253 21 35 13 51), referencia habitual para europeos en urgencias graves; el acceso de civiles queda a criterio militar, por confirmar. Alternativa privada: Clinique Affi (BP 6193, tel. +253 21 34 44 97). Datos de la lista de la embajada británica de septiembre de 2015: reconfirmar teléfonos. Pin comprobado en Google Maps («Hopital Bouffard»)."
+    },
+    {
+      "name": "Repostaje en Yibuti ciudad antes del circuito interior",
       "cat": "Combustible",
-      "lat": 11.5721,
-      "lon": 43.1456,
-      "info": "Única concentración fiable de estaciones formales del país; repostar a fondo aquí antes de cualquier excursión a Lac Assal o Lac Abbé, sin garantía de suministro en el resto del territorio."
+      "lat": 11.5597724,
+      "lon": 43.1522574,
+      "info": "La red de estaciones se concentra en la capital y en el eje de la RN-1 hacia Galafi. Canadá avisa de que las gasolineras son escasas y están muy separadas. Gasolina en torno a 310 DJF/litro (1,50 €) a 18 de septiembre de 2026. Salir con depósito lleno y bidones para el triángulo Lac Assal – Grand Bara – Lac Abbé. Pago en efectivo, en francos. Pin comprobado en Google Maps («Total Station (Yibuti ciudad)»)."
     },
     {
-      "name": "Agua potable y de uso general · Yibuti ciudad",
+      "name": "Dikhil: último repostaje antes de Galafi y del Lac Abbé",
+      "cat": "Combustible",
+      "lat": 11.1054336,
+      "lon": 42.3704744,
+      "info": "Capital de la región de Dikhil (27.378 hab. en 2024, 507 m de altitud), a 122 km al suroeste de la capital por la RN-1 y 12 km de la frontera etíope, al este del Lac Abbé. Última población de entidad antes de Galafi y del desierto: última oportunidad razonable de repostar y comprar agua. Servicios concretos POR CONFIRMAR. Pin comprobado en Google Maps («Dikhil»)."
+    },
+    {
+      "name": "Carga de agua en Yibuti ciudad",
       "cat": "Agua potable",
-      "lat": 11.5721,
-      "lon": 43.1456,
-      "info": "Agua embotellada sin problema en supermercados de la capital; hoteles permiten llenar el depósito de uso general con manguera. Fuera de la capital (Lac Assal, Lac Abbé), llevar reserva completa: no hay puntos fiables en el desierto de Afar."
+      "lat": 11.5885948,
+      "lon": 43.1453647,
+      "info": "El agua del grifo NO es potable (riesgo de cólera según el MAEC), pero la red de la capital sirve para llenar depósitos de ducha y lavado. Para beber, embotellada o filtrada: botella de 1,5 l en torno a 100 DJF (0,49 €) a 18 de septiembre de 2026. Es el único punto fiable de carga del país: fuera de la capital la red es escasa y el agua salobre. Pin comprobado en Google Maps («Yibuti (ciudad)»)."
     }
   ],
   "sources": [
     [
-      "Overlanding Association · Shipping around Ethiopia (envío marítimo desde Yibuti)",
-      "https://overlandingassociation.org/overland-wiki/shipping-around-ethiopia/"
+      "MAEC · Recomendaciones de viaje: Yibuti (Ministerio de Asuntos Exteriores, UE y Cooperación; actualizado el 6 de mayo de 2026)",
+      "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti"
     ],
     [
-      "Embajada de España en Adís Abeba · contacto (competente para Yibuti)",
-      "https://www.exteriores.gob.es/Embajadas/addisabeba/es/Embajada/Paginas/Contacto.aspx"
+      "MAEC · Ficha País Yibuti (PDF, Oficina de Información Diplomática; datos de 2024-2025)",
+      "https://www.exteriores.gob.es/Documents/FichasPais/YIBUTI_FICHA%20PAIS.pdf"
     ],
     [
-      "tech.africa · Starlink en África, estado por país 2026",
+      "Embajada de España en Adís Abeba (MAEC) — «También somos tu Embajada en Seychelles y Yibuti»",
+      "https://www.exteriores.gob.es/Embajadas/addisabeba/es/Embajada/Paginas/index.aspx"
+    ],
+    [
+      "FCDO · Djibouti travel advice — Safety and security (Gobierno del Reino Unido, 2026)",
+      "https://www.gov.uk/foreign-travel-advice/djibouti/safety-and-security"
+    ],
+    [
+      "FCDO · Djibouti travel advice — Entry requirements (Gobierno del Reino Unido, 2026)",
+      "https://www.gov.uk/foreign-travel-advice/djibouti/entry-requirements"
+    ],
+    [
+      "FCDO · Djibouti travel advice — Warnings and insurance (Gobierno del Reino Unido; actualizado el 27 de julio de 2026)",
+      "https://www.gov.uk/foreign-travel-advice/djibouti/warnings-and-insurance"
+    ],
+    [
+      "Gobierno de Canadá · Djibouti travel advice and advisories (2026)",
+      "https://travel.gc.ca/destinations/djibouti"
+    ],
+    [
+      "TravelHealthPro · Djibouti (National Travel Health Network and Centre, Reino Unido, 2026)",
+      "https://travelhealthpro.org.uk/country/65/djibouti"
+    ],
+    [
+      "Portail officiel eVisa de la République de Djibouti (sitio oficial; contenido dinámico, no legible por WebFetch)",
+      "https://www.evisa.gouv.dj/"
+    ],
+    [
+      "Wikipedia · Visa policy of Djibouti (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Visa_policy_of_Djibouti"
+    ],
+    [
+      "Wikipedia · Djibouti (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Djibouti"
+    ],
+    [
+      "Wikipedia · Djibouti–Ethiopia border (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Djibouti%E2%80%93Ethiopia_border"
+    ],
+    [
+      "Wikipedia · Galafi (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Galafi"
+    ],
+    [
+      "Wikipedia · Loyada (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Loyada"
+    ],
+    [
+      "Wikipedia · Ali Sabieh (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Ali_Sabieh"
+    ],
+    [
+      "Wikipedia · Dikhil (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Dikhil"
+    ],
+    [
+      "Wikipedia · Djibouti–Ambouli International Airport (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Djibouti%E2%80%93Ambouli_International_Airport"
+    ],
+    [
+      "Wikipedia · Port of Djibouti (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Port_of_Djibouti"
+    ],
+    [
+      "Wikipedia · Addis Ababa–Djibouti Railway (consultado en septiembre de 2026)",
+      "https://en.wikipedia.org/wiki/Addis_Ababa%E2%80%93Djibouti_Railway"
+    ],
+    [
+      "carnetdepassage.org · Djibouti (AIT/FIA; consultado en septiembre de 2026)",
+      "https://www.carnetdepassage.org/country/djibouti"
+    ],
+    [
+      "Horizons Unlimited · Carnet de Passages en Douanes, list of countries (actualización de 2023)",
+      "https://www.horizonsunlimited.com/node/2399"
+    ],
+    [
+      "COMESA Yellow Card · Yellow Card Overview (países emisores y aceptantes, incluido Yibuti)",
+      "https://comesayellowcard.com/yellow-card-overview"
+    ],
+    [
+      "The Road Chose Me · «Into Djibouti», Dan Grec (entrada por Galafi con vehículo propio, permiso temporal de 10 días)",
+      "https://theroadchoseme.com/into-djibouti"
+    ],
+    [
+      "Tripadvisor · Foro de Yibuti, «Can I enter Djibouti by land with eVisa?» (2022-2024)",
+      "https://www.tripadvisor.com/ShowTopic-g293787-i10051-k14687786-Can_i_enter_Djibouti_by_land_with_eVisa-Djibouti.html"
+    ],
+    [
+      "Travel2Djibouti · How to Enter Djibouti: Visa and Borders, Air, Land and Sea Guide",
+      "https://www.travel2djibouti.com/how-to-entry-djibouti-guide/"
+    ],
+    [
+      "Travel2Djibouti · Whale Shark Season in Djibouti: Best Time to Visit",
+      "https://www.travel2djibouti.com/whale-shark-season-in-djibouti/"
+    ],
+    [
+      "Wandersmiles · Trekking the Salt Plains of Lake Assal, Djibouti",
+      "https://www.wandersmiles.com/trekking-salt-plains-lake-assal-djibouti/"
+    ],
+    [
+      "Wandersmiles · Swimming with Whale Sharks in Djibouti",
+      "https://www.wandersmiles.com/swimming-whale-sharks-djibouti/"
+    ],
+    [
+      "Monsoon Diaries · «Take a Chance… on Lake Abbe» (15 de mayo de 2023)",
+      "https://monsoondiaries.com/2023/05/15/abbe/"
+    ],
+    [
+      "Madventure · Horn of Africa Overland, 39 días (edición de 24 de julio a 1 de septiembre de 2024)",
+      "https://madventure.co.uk/horn-of-africa-overland/"
+    ],
+    [
+      "Petit Futé · Ferry Tadjourah-Obock, Djibouti (reseña de viajero de mayo de 2019)",
+      "https://www.petitfute.com/v51482-djibouti/c1173-visites-points-d-interet/c1157-visites-guidees/c986-sur-l-eau/384445-ferry-tadjourah-obock.html"
+    ],
+    [
+      "Drone Laws · Djibouti (actualizado el 14 de enero de 2026; autoridad ACAM, +253 340 151)",
+      "https://drone-laws.com/drone-laws-in-djibouti/"
+    ],
+    [
+      "Tech.africa · Starlink in Africa: countries, prices and speeds (2026)",
       "https://tech.africa/starlink-africa/"
     ],
     [
-      "PetTravel.com · requisitos de importación de mascotas a Yibuti",
-      "https://www.petholidayclub.com/pet-travel-guide/djibouti/"
+      "Mappr · Mapped: Where Starlink Is Available Around the World (10 de mayo de 2026)",
+      "https://www.mappr.co/starlink-availability-by-country/"
     ],
     [
-      "iOverlander · puntos de combustible y agua verificados por la comunidad",
-      "https://ioverlander.com/"
+      "Traveltomtom · Prepaid SIM Card & eSIM for Djibouti (Djibouti Telecom en monopolio; guía de agosto de 2021)",
+      "https://www.traveltomtom.net/destinations/africa/djibouti/sim-card-djibouti"
+    ],
+    [
+      "Ministère de l'Agriculture, de l'Eau, de la Pêche, de l'Élevage et des Ressources Halieutiques de la République de Djibouti (portal oficial; sin apartado de importación de animales)",
+      "https://www.maepe-rh.dj/"
+    ],
+    [
+      "USDA APHIS · Export Live Animals to Djibouti (servicio veterinario oficial de EE. UU., 2026)",
+      "https://www.aphis.usda.gov/live-animal-export/export-live-animals-djibouti"
+    ],
+    [
+      "EUR-Lex · Reglamento de Ejecución (UE) 2026/636, listas de terceros países para desplazamientos sin ánimo comercial de animales de compañía (aplicable desde el 22 de abril de 2026)",
+      "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636&qid=1776938175276"
+    ],
+    [
+      "EUR-Lex · Reglamento Delegado (UE) 2026/131, de 20 de enero de 2026, por el que se completa el Reglamento (UE) 2016/429 en requisitos zoosanitarios para desplazamientos sin fines comerciales de animales de compañía (aplicable desde el 28 de marzo de 2026)",
+      "https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A32026R0131"
+    ],
+    [
+      "MAPA · Viajar con la mascota: perros, gatos y hurones (Ministerio de Agricultura, Pesca y Alimentación; plazos de titulación antirrábica y PEV)",
+      "https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones"
+    ],
+    [
+      "Embajada británica en Yibuti · List of Medical Facilities/Practitioners in Djibouti (PDF, septiembre de 2015)",
+      "https://assets.publishing.service.gov.uk/media/5a7f588d40f0b62305b86953/Djibouti_-_List_of_Medical_Facilities_September_2015.pdf"
+    ],
+    [
+      "HikersBay · Precios en Yibuti, junio-septiembre de 2026 (combustible y agua embotellada; dato de 18 de septiembre de 2026)",
+      "https://hikersbay.com/prices/djibouti/p/djibouti?lang=fr"
+    ],
+    [
+      "Djibouti City (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Djibouti_City"
+    ],
+    [
+      "Mezquita Hamoudi (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Hamoudi_Mosque"
+    ],
+    [
+      "Guía oficial · Agence Nationale du Tourisme de Djibouti",
+      "https://guide.visitdjibouti.dj/"
+    ],
+    [
+      "Lake Assal (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)"
+    ],
+    [
+      "Lago Assal (Wikipedia ES)",
+      "https://es.wikipedia.org/wiki/Lago_Assal"
+    ],
+    [
+      "Lista indicativa UNESCO · Yibuti",
+      "https://whc.unesco.org/en/statesparties/dj"
+    ],
+    [
+      "Lake Abbe (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Lake_Abbe"
+    ],
+    [
+      "Crónica de viaje · Atlas & Boots",
+      "https://www.atlasandboots.com/travel-blog/lac-abbe-in-djibouti/"
+    ],
+    [
+      "Gulf of Tadjoura (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Gulf_of_Tadjoura"
+    ],
+    [
+      "Dolphin Excursions Djibouti · temporada de tiburón ballena",
+      "https://www.divedjibouti.com/whalesharks"
+    ],
+    [
+      "Ghoubbet-el-Kharab (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Ghoubbet-el-Kharab"
+    ],
+    [
+      "Tadjoura (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Tadjoura"
+    ],
+    [
+      "RN-9 (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/National_Highway_9_(Djibouti)"
+    ],
+    [
+      "Tadjoura · Wikitravel",
+      "https://wikitravel.org/en/Tadjoura"
+    ],
+    [
+      "Obock (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Obock"
+    ],
+    [
+      "US Travel Advisory · Djibouti",
+      "https://travel.state.gov/en/international-travel/travel-advisories/djibouti.html"
+    ],
+    [
+      "Day Forest National Park (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Day_Forest_National_Park"
+    ],
+    [
+      "Randa (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Randa,_Djibouti"
+    ],
+    [
+      "Bankouale (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Bankouale"
+    ],
+    [
+      "Goda Mountains · Walkopedia",
+      "https://www.walkopedia.net/best-world-walks/Djibouti/Goda-Mountains"
+    ],
+    [
+      "Moucha Island (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Moucha_Island"
+    ],
+    [
+      "Maskali Islands (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Maskali_Islands"
+    ],
+    [
+      "Seven Brothers Islands (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Seven_Brothers_Islands"
+    ],
+    [
+      "UNESCO · 26 nuevas reservas de biosfera (2025)",
+      "https://www.unesco.org/en/articles/26-new-biosphere-reserves-unescos-continues-unprecedented-expansion-its-global-network"
+    ],
+    [
+      "Ardoukoba (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Ardoukoba"
+    ],
+    [
+      "La plage de Khor Ambado · guía oficial de turismo",
+      "https://guide.visitdjibouti.dj/la-plage-de-khor-ambado/"
+    ],
+    [
+      "Hôtel Village Les Sables Blancs (Tadjoura)",
+      "https://www.sables-blancs-djibouti.com/"
+    ],
+    [
+      "Grand Bara (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Grand_Bara"
+    ],
+    [
+      "RN-1 (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/National_Highway_1_(Djibouti)"
+    ],
+    [
+      "Ali Sabieh Mountain (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Ali_Sabieh_Mountain"
+    ],
+    [
+      "RN-5 (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/National_Highway_5_(Djibouti)"
+    ],
+    [
+      "Foreign military bases in Djibouti (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Foreign_military_bases_in_Djibouti"
+    ],
+    [
+      "Camp Lemonnier (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Camp_Lemonnier"
+    ],
+    [
+      "Nagad railway station (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Nagad_railway_station"
+    ],
+    [
+      "Holhol y su viaducto de 1900 (Wikipedia EN)",
+      "https://en.wikipedia.org/wiki/Holhol"
     ]
   ],
-  "sources_note": "Última revisión de esta versión: 9 de septiembre de 2026. Esta ficha es una herramienta de planificación, no una autorización de entrada ni una guía de navegación. La logística del envío marítimo debe cerrarse con antelación suficiente.",
-  "emergency": "Emergencia consular española (vía Embajada en Adís Abeba, 24h): +251 911 219 403.",
+  "sources_note": "Revisión cerrada el 18 de septiembre de 2026 con las páginas efectivamente abiertas en esa fecha: las recomendaciones de viaje del MAEC llevaban fecha de 6 de mayo de 2026 y las del FCDO de 27 de julio de 2026. Esto es una herramienta de planificación, no una autorización ni un documento oficial: los requisitos de visado, aduana y sanidad animal cambian sin aviso y deben confirmarse con la embajada de Yibuti y con la aduana yibutiana antes de salir. Todo lo marcado «por confirmar» no se ha podido verificar con fuente abierta en esta revisión y no debe darse por bueno.",
+  "emergency": "EMERGENCIA CONSULAR 24 h (Embajada de España en Adís Abeba, competente para Yibuti): +251 911 219 403. Embajada: +251 929 136 159 y +251 111 230 083, emb.addisabeba@maec.es. Viceconsulado Honorario en Yibuti (Josefina Llorente Martín): +253 77 84 49 50 y +253 21 35 63 53. Emergencias locales según el MAEC: policía 19, bomberos y ambulancia 18, comisaría central +253 21 35 38 91. Hôpital Général Peltier: +253 21 35 27 12.",
   "matrix_note": "Puntos preparados para My Maps; importar desde los KML por capas y respetar los nombres exactos.",
-  "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y confirmar la reserva del envío marítimo con antelación suficiente.",
+  "notice": "Documento de planificación de un país FUERA DE LA RUTA PREVISTA: no forma parte de la ruta 2027. La ficha se mantiene completa por si en el futuro cambia la situación o se plantea un viaje aparte. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
   "custom_sections": [
     [
       "resumen",
       "Resumen operativo",
-      "<div class=\"callout \"><div class=\"callout-title\">Decisión de ruta</div><p>Yibuti es la pieza clave de la alternativa marítima que este proyecto adopta ante el bloqueo del corredor terrestre de Sudán (ver la ficha de Sudán): en lugar de continuar hacia el norte por tierra, el vehículo se embarca en el puerto de Yibuti (o en el vecino Doraleh) en un envío RoRo o en contenedor con destino a Egipto —en tránsito por Arabia Saudí— o directamente a Europa, mientras la tripulación vuela por separado. Esta decisión convierte a Yibuti, un país pequeño y a menudo solo de paso, en una etapa logística central del regreso: conviene reservar el envío marítimo con varias semanas de antelación a través de un agente de carga especializado en vehículos, y aprovechar la estancia para visitar el Lac Assal y el Lac Abbé, dos de los paisajes más singulares de todo el itinerario.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Ventana prevista</td><td>Puerto de embarque del vehículo tras la decisión de excluir el corredor de Sudán.</td></tr><tr ><td>Entrada</td><td>Galafi desde Etiopía, por el corredor comercial Adís Abeba-Yibuti.</td></tr><tr ><td>Salida</td><td>Puerto de Yibuti/Doraleh, por mar, no por una frontera terrestre.</td></tr><tr ><td>Seguridad</td><td>País estable, con fuerte presencia militar internacional por su posición estratégica en el mar Rojo.</td></tr><tr ><td>Vehículo</td><td>CPD recomendado como respaldo documental, pero el trámite determinante es la reserva del envío marítimo con un agente de carga.</td></tr><tr ><td>Comunicaciones</td><td>Starlink sin fecha prevista de licencia; SIM local imprescindible.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>Envío marítimo:</strong> reservarlo con varias semanas de antelación; los espacios en RoRo/contenedor hacia Egipto o Europa pueden agotarse o retrasarse.</li><li><strong>Lac Assal y Lac Abbé:</strong> temperaturas extremas del desierto de Afar — llevar agua de sobra, salir temprano y evitar el mediodía.</li><li><strong>Dron:</strong> no volar cerca del puerto, la ciudad de Yibuti o instalaciones militares sin autorización previa por escrito.</li></ul>"
+      "<div class=\"callout \"><div class=\"callout-title\">Decisión de ruta</div><p>Yibuti queda fuera de la ruta de 2027 por geografía, no por seguridad: la vuelta termina en Kenia y no sube al Cuerno de África, de modo que incluirlo obligaría a atravesar Etiopía entera de ida y vuelta —más de 4.000 km extra— para un país de 23.200 km² que se recorre en cinco o seis días. Hecho aparte sí es viable y bastante clásico: se entra desde Etiopía por Galafi o por Dewele/Ali Sabieh con el vehículo propio y un permiso temporal de aduana, o se vuela a Yibuti-Ambouli y se alquila un 4x4. El MAEC recomienda viajar con precaución y abstenerse de hacerlo por determinadas zonas —frontera con Eritrea, frontera con Somalia (Somalilandia), estrecho de Bab el-Mandeb—, pero la capital y el eje Lac Assal–Grand Bara–Lac Abbé son practicables. El factor que manda es el calor: de junio a septiembre se pasa de 45 °C y no hay PDI de interior que lo aguante; la ventana real es de noviembre a febrero, que además coincide con la temporada de tiburón ballena en el golfo de Tadjoura. Coste orientativo para tres personas y dos coches, dos semanas desde Adís Abeba: 2.500–3.500 € (visados, combustible caro, alojamiento con aire acondicionado, excursiones). Habría que decidir tres cosas antes de comprometerse: si el eVisa se acepta en frontera terrestre (no está confirmado), qué se hace con el perro —Yibuti no publica requisitos de entrada y la vuelta a la UE exige titulación antirrábica hecha con meses de antelación— y asumir que el dron se queda en casa.</p></div><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Estado de trabajo</th></tr></thead><tbody><tr ><td>Estatus</td><td>FUERA DE RUTA. La vuelta de 2027 termina en Kenia; esta ficha es informativa, para un viaje aparte desde Etiopía.</td></tr><tr ><td>Cómo llegar</td><td>Por tierra desde Etiopía (Galafi, Dewele/Ali Sabieh, Balho) o desde Somalilandia (Loyada); en avión a Yibuti-Ambouli (JIB); en tren Adís Abeba–Nagad desde el 1 de enero de 2018.</td></tr><tr ><td>Visado</td><td>OBLIGATORIO para españoles. eVisa en evisa.gouv.dj (12 USD tránsito de 1-14 días; 23 USD estancia de 15-90 días) o embajada de Yibuti en París o Adís Abeba. El MAEC cifra el coste en 50-80 €.</td></tr><tr ><td>Vehículo/aduana</td><td>CPD NO OBLIGATORIO (probable): AIT/FIA no tiene emisor en Yibuti. Lo documentado es un permiso temporal de importación emitido en la propia frontera, con 10 días de validez en el caso registrado.</td></tr><tr ><td>Seguro</td><td>La Carta Verde europea NO cubre. Yibuti emite y acepta la COMESA Yellow Card, que cubre daños a terceros y urgencias médicas y admite matrículas extranjeras o temporales.</td></tr><tr ><td>Moneda</td><td>Franco yibutiano (DJF), fijado al dólar. 1 EUR = 206,3 DJF (MAEC, diciembre de 2025). País caro y de efectivo: fuera de la capital rechazan las tarjetas.</td></tr><tr ><td>Perro</td><td>SIN REQUISITOS PUBLICADOS por Yibuti. La web del ministerio competente (maepe-rh.dj) existe pero no publica trámite. Vuelta a la UE por vía A: titulación antirrábica hecha en la UE con 3 meses de antelación.</td></tr><tr ><td>Drones</td><td>DE FACTO PROHIBIDOS. El MAEC recomienda «encarecidamente» no entrar con un dron de recreo porque puede ser requisado. Prohibido además fotografiar puertos, aeropuertos, puentes, edificios públicos e instalaciones militares.</td></tr><tr ><td>Starlink</td><td>NO DISPONIBLE. Yibuti figura como «planificado, sin fecha»; la aprobación regulatoria está estancada en todo el Cuerno de África (mayo de 2026). Alternativa: SIM de Djibouti Telecom, en monopolio.</td></tr><tr ><td>Seguridad</td><td>MAEC: viajar con precaución y abstenerse por determinadas zonas. FCDO desaconseja TODO viaje a la frontera con Eritrea (27 de julio de 2026). Minas sin desactivar en Tadjoura y Obock.</td></tr><tr ><td>Clima</td><td>Semidesértico: 30 °C en enero y 45 °C en julio (Ficha País del MAEC). De junio a septiembre el interior es inviable. Ventana de viaje: noviembre-febrero.</td></tr><tr ><td>Sanidad</td><td>Fiebre amarilla exigida por el MAEC para mayores de 1 año. Malaria en todo el país. Cólera periódico. Servicios médicos «muy deficientes» y concentrados en la capital; seguro con repatriación aérea medicalizada.</td></tr></tbody></table></div><h3>Alertas que condicionan la visita</h3><ul class=\"ticks\"><li><strong>CALOR EXTREMO de junio a septiembre:</strong> por encima de 45 °C a la sombra y noches que no bajan de 38 °C. Cualquier PDI de interior (Lac Assal, Lac Abbé, Grand Bara) es inviable en esos meses; la ventana razonable es de noviembre a febrero.</li><li><strong>FRONTERA CON ERITREA:</strong> el FCDO desaconseja TODO viaje a la zona (actualización de 27 de julio de 2026) y Canadá pide evitar los 10 km próximos. El MAEC añade la frontera con Somalia (Somalilandia) y el archipiélago de las Sept-Frères.</li><li>MINAS SIN DESACTIVAR confirmadas por el MAEC en las regiones de Tadjoura y Obock. Canadá amplía la advertencia a munición sin explotar en las zonas fronterizas con Somalia y Etiopía y pide no abandonar el asfalto en Obock, Tadjoura y Ali Sabieh.</li><li>FOTOGRAFÍA RESTRINGIDA. El FCDO señala que está prohibido fotografiar puertos, edificios públicos, aeropuertos, instalaciones militares y puentes, con confiscación del equipo y posible detención. Con cinco ejércitos extranjeros en un país pequeño, la restricción afecta a media capital.</li><li><strong>DRONES:</strong> el MAEC recomienda «encarecidamente no venir al territorio de Yibuti en posesión de un dron de recreo ya que puede ser requisado». No hay procedimiento de autorización publicado, así que no hay forma de legalizarlo desde España.</li><li>VISADO ANTES DE LLEGAR. El MAEC recomienda obtenerlo antes del viaje; el visado en aeropuerto es discrecional y para estancias cortas, y una agencia local afirma que no existe visado a la llegada en las fronteras terrestres con Etiopía. Estancia irregular: 40.000 FDJ de multa pasados 30 días, 80.000 FDJ pasados 90, o 3-6 meses de prisión y 5 años de prohibición de entrada.</li><li>FIEBRE AMARILLA obligatoria para mayores de 1 año según el MAEC. Hay además malaria en todo el país durante todo el año, cólera periódico y circulación de poliovirus derivado de vacuna, por lo que puede exigirse acreditación de vacunación antipoliomielítica al SALIR del país.</li><li>AMENAZA TERRORISTA moderadamente alta por la presencia de Al Shabaab, que ha amenazado a Yibuti por su participación en operaciones de la Unión Africana. Sin atentados desde 2014, pero con vigilancia en lugares frecuentados por occidentales.</li><li>CARRETERAS MALAS Y TRÁFICO PESADO. El corredor Etiopía-puerto de Yibuti canaliza en torno al 95% del comercio exterior de la zona IGAD y mueve miles de camiones al día; un overlander describe la RN-1 como «la carretera asfaltada más rota y destruida que he visto nunca en África». El MAEC pide 4x4 y convoy de dos vehículos, y nadie circula de noche.</li><li>SIN STARLINK Y SIN COBERTURA FIABLE FUERA DE LA CAPITAL. Djibouti Telecom mantiene el monopolio y hay que contar con estar incomunicado en el Lac Abbé, el Grand Bara y el norte de Obock.</li><li>PAÍS CARO Y DE EFECTIVO. La gasolina ronda 1,50 €/litro (310 DJF) y una botella de 1,5 l de agua unos 100 DJF (HikersBay, 18 de septiembre de 2026). El MAEC avisa de que fuera de la capital rechazan las tarjetas.</li></ul>"
     ],
     [
       "historia",
       "Historia y contexto",
-      "<p>Yibuti debe su existencia a su posición en la boca del mar Rojo: puesto comercial afar y somalí convertido en colonia francesa en 1896 precisamente para controlar esa ruta marítima, obtuvo la independencia en 1977 y hoy vive de esa misma posición estratégica —puerto, base logística internacional y, para este viaje, la salida marítima que sustituye al bloqueado corredor de Sudán.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Yibuti →</a></p></div>"
+      "<p>Yibuti es un país diminuto —unos 23.200 kilómetros cuadrados y poco más de un millón de habitantes— encajado entre Etiopía, Eritrea y Somalia, frente al estrecho de Bab el-Mandeb. Su historia es la de un cruce de caminos: sultanatos afares y somalíes islamizados desde muy pronto, una colonia francesa nacida en 1862 para servir de puerto y de cabeza del ferrocarril a Adís Abeba, y una independencia tardía, en 1977. Desde entonces lo gobiernan dos hombres de la misma familia, y desde 1999 Ismail Omar Guelleh. Hoy vive del puerto por el que respira Etiopía y del alquiler de bases militares a cuatro potencias. Es estable, caro y, según Freedom House, no libre.</p><div class=\"callout \"><div class=\"callout-title\">Historia completa · con audio</div><p>Orígenes, colonización, independencia y situación actual, con fuentes y <strong>audio tipo podcast</strong> narrado por el propio dispositivo para escuchar mientras se conduce: <a href=\"historia/\">leer y escuchar la historia de Yibuti →</a></p></div>"
     ],
     [
       "ruta",
       "Ruta propuesta",
-      "<p>Entrada por Galafi, base logística y de gestión del envío marítimo en la capital, y dos excursiones de paisaje volcánico (Lac Assal, Lac Abbé) antes de embarcar el vehículo hacia Egipto o Europa.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Bloque</th><th>Contenido</th><th>Condición</th></tr></thead><tbody><tr ><td>Entrada y logística</td><td>Galafi → Yibuti ciudad</td><td>Gestión del envío marítimo con agente de carga</td></tr><tr ><td>Paisaje volcánico</td><td>Yibuti ciudad → Lac Assal</td><td>Excursión de un día; punto más bajo de África</td></tr><tr ><td>Paisaje geotérmico</td><td>Yibuti ciudad → Lac Abbé</td><td>1-2 noches; chimeneas calizas junto a la frontera etíope</td></tr><tr ><td>Embarque</td><td>Yibuti ciudad → Puerto de Doraleh</td><td>Embarque del vehículo; tripulación vuela por separado</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>Pistas de tierra y arena hacia Lac Assal y, especialmente, Lac Abbé (recomendable con guía local o 4x4 de apoyo); el resto del eje (Galafi-Yibuti ciudad) es carretera asfaltada.</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>Yibuti ciudad: hoteles con aparcamiento vigilado; base recomendada mientras se gestiona el envío marítimo.</li><li>Lac Abbé: campamentos rústicos junto al lago, gestionados por comunidades afar; sin infraestructura moderna.</li></ul>"
+      "<p>Itinerario de referencia que enlaza los 18 puntos de interés por las carreteras principales, calculado sobre 250 km/día. No es una ruta aprobada del proyecto: sirve para dimensionar un posible viaje aparte y para saber qué hay en cada tramo.</p><div class=\"tblwrap\"><table class=\"num\"><thead><tr><th>Etapa</th><th>Recorrido</th><th>Distancia y días aprox.</th></tr></thead><tbody><tr ><td>1 · Llegada y capital</td><td>Yibuti ciudad: plaza Mahmoud Harbi, mercado central, barrio europeo, Nagad</td><td>~40 km · 2 días</td></tr><tr ><td>2 · Frontera sur</td><td>Yibuti ciudad → Loyada → Yibuti ciudad</td><td>~50 km · 1 día</td></tr><tr ><td>3 · Ferrocarril y montañas rojas</td><td>Yibuti ciudad → Holhol → Ali Sabieh (RN-5)</td><td>~100 km · 1 día</td></tr><tr ><td>4 · El llano</td><td>Ali Sabieh → Grand Bara → Dikhil (RN-1)</td><td>~130 km · 1 día</td></tr><tr ><td>5 · Pista del Abbé</td><td>Dikhil → Lac Abbé (pista) y noche en campamento</td><td>~110 km · 1 día</td></tr><tr ><td>6 · Vuelta al asfalto</td><td>Lac Abbé → Dikhil → Arta (RN-1)</td><td>~190 km · 1 día</td></tr><tr ><td>7 · Tiburón ballena</td><td>Arta y plage d'Arta: salida de snorkel en el golfo de Tadjoura</td><td>~30 km · 1 día</td></tr><tr ><td>8 · Rift y sal</td><td>Arta → Ghoubbet → Ardoukôba → Lac Assal (RN-9)</td><td>~90 km · 1 día</td></tr><tr ><td>9 · Al norte del golfo</td><td>Lac Assal → Tadjoura → Plage des Sables Blancs (RN-9)</td><td>~120 km · 1 día</td></tr><tr ><td>10 · Macizo de Goda</td><td>Tadjoura → Randa → Forêt du Day → Bankoualé (RN-11 + pista)</td><td>~70 km · 2 días</td></tr><tr ><td>11 · El norte</td><td>Bankoualé → Tadjoura → Obock (RN-14)</td><td>~100 km · 1 día</td></tr><tr ><td>12 · Bab el-Mandeb</td><td>Obock → Khor Angar → Ras Siyyan / Sept Frères (según avisos de seguridad)</td><td>~150 km · 2 días</td></tr><tr ><td>13 · Regreso</td><td>Obock → Tadjoura → Yibuti ciudad (RN-14 + RN-9, o ferry)</td><td>~190 km · 1 día</td></tr><tr ><td>14 · Playa y salida</td><td>Khor Ambado y cierre en la capital</td><td>~50 km · 1 día</td></tr></tbody></table></div><h3>Rutas y pistas 4x4 destacadas</h3><ul class=\"ticks\"><li>La pista de Dikhil al Lac Abbé es la ruta 4x4 de referencia del país: arena, grava y lecho seco, sin señalización, y las fuentes coinciden en que «la única forma práctica de visitar el Lac Abbé es en 4x4 desde Yibuti ciudad», normalmente con conductor-guía local (https://www.atlasandboots.com/travel-blog/lac-abbe-in-djibouti/).</li><li>Solo el 12 % de las carreteras del país está asfaltado, de modo que fuera de la RN-1, la RN-5, la RN-9, la RN-11 y la RN-14 casi todo es pista (https://en.wikipedia.org/wiki/Grand_Bara).</li><li>La travesía del Grand Bara se hace por la carretera de 40 km abierta en 1981; salirse a campo través por el lecho de arcilla es tentador pero peligroso tras las lluvias de julio y septiembre, cuando el llano se encharca (https://en.wikipedia.org/wiki/Grand_Bara).</li><li>El desvío al cono y las coladas del Ardoukôba, entre el Ghoubbet y el Lac Assal, es una pista corta sobre lava de 1978: roca cortante, buena distancia al suelo y neumáticos reforzados (https://en.wikipedia.org/wiki/Ardoukoba).</li><li>La subida de Randa a la Forêt du Day y a Bankoualé es pista de montaña con rampas y piedra suelta; Randa está a 927 m y el bosque a más de 950 m, a unos 16 km (https://en.wikipedia.org/wiki/Randa,_Djibouti, https://en.wikipedia.org/wiki/Day_Forest_National_Park).</li><li>Los grabados de Abourma, en el macizo de Makarrassou (N 11,905050 · E 42,481649), se alcanzan por pista larga desde Tadjoura y exigen guía local y una caminata final de hora y media; están en la lista indicativa de la UNESCO desde 2015 (https://whc.unesco.org/en/tentativelists/5957/, https://www.christravelblog.com/djibouti-the-best-1-week-djibouti-roadtrip-itinerary-in-a-4x4/).</li><li>ZONAS VETADAS: el MAEC desaconseja la franja fronteriza con Eritrea y con Somalia por grupos terroristas y MINAS SIN DESACTIVAR, sitúa los distritos de Tadjoura y Obock en riesgo por minas confirmadas y desaconseja el archipiélago de las Sept Frères; Estados Unidos añade que hay minas sin señalizar en la frontera eritrea y que conviene «no salir del asfalto» allí (https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti, https://travel.state.gov/en/international-travel/travel-advisories/djibouti.html).</li><li>Ningún organismo publica un sistema de permisos de circulación 4x4 para turistas que se haya podido verificar; lo que sí es seguro es que el puerto de Doraleh, el aeropuerto y los perímetros de las bases militares son zona restringida y fotografiarlos acarrea multa, confiscación, detención o expulsión (https://travel.state.gov/en/international-travel/travel-advisories/djibouti.html).</li></ul><h3>Excursiones a pie</h3><ul class=\"ticks\"><li>Subida a la montaña del emblema nacional de Ali Sabieh (801 m) desde el pueblo: la vía más sencilla es a pie y la cima domina la ciudad y los montes Arrei (https://en.wikipedia.org/wiki/Ali_Sabieh_Mountain).</li><li>Recorrido entre las chimeneas del Lac Abbé al amanecer: caminata corta y llana entre agujas de caliza de hasta 50 m y fuentes termales, siempre con guía del campamento por el suelo caliente (https://en.wikipedia.org/wiki/Lake_Abbe).</li><li>Vuelta por el campo de lava del Ardoukôba y sus grietas del Rift: terreno cortante, media jornada como mucho y nunca a mediodía (https://en.wikipedia.org/wiki/Ardoukoba).</li><li>Travesías por el macizo de Goda entre Randa, Bankoualé y la Forêt du Day: valles cultivados, manantiales y el único bosque del país; Walkopedia recoge estas rutas como la principal caminata de Yibuti (https://www.walkopedia.net/best-world-walks/Djibouti/Goda-Mountains).</li><li>Sendero de aves en la Forêt du Day: recorrido por la mancha de enebro de 900 hectáreas buscando el francolín de Yibuti y las otras dos aves exclusivas del parque (https://en.wikipedia.org/wiki/Day_Forest_National_Park).</li><li>Caminata final a los grabados rupestres de Abourma: unos noventa minutos de aproximación por terreno pelado desde donde queda el 4x4, con guía local (https://www.christravelblog.com/djibouti-the-best-1-week-djibouti-roadtrip-itinerary-in-a-4x4/).</li><li>Paseo por la orilla de sal del Lac Assal hasta el agua: quince o veinte minutos de costra sobre el punto más bajo de África, con calzado cerrado (https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)).</li><li>Recorrido a pie por el casco encalado de Tadjoura entre sus mezquitas y el puerto, y por el trazado colonial de la capital entre la plaza Mahmoud Harbi y el mercado central (https://wikitravel.org/en/Tadjoura, https://en.wikipedia.org/wiki/Djibouti_City).</li></ul><h3>Acampada y pernocta</h3><ul class=\"ticks\"><li>No existe una red de campings formales: fuera de la capital el alojamiento habitual son «campements» y «auberges» muy básicos, según la crónica en 4x4 de una vuelta de nueve días por el país (https://www.christravelblog.com/djibouti-the-best-1-week-djibouti-roadtrip-itinerary-in-a-4x4/).</li><li>Lac Abbé: se duerme en campamentos afar de cabañas junto al lago, incluidos en los paquetes de dos días de los operadores locales; es la pernocta obligada si se quiere el amanecer entre chimeneas (https://www.atlasandboots.com/travel-blog/lac-abbe-in-djibouti/).</li><li>Tadjoura: el Hôtel Village Les Sables Blancs, sobre la playa de arena blanca, es la opción de bungalós más citada de la orilla norte (https://www.sables-blancs-djibouti.com/).</li><li>Macizo de Goda: Randa y Bankoualé concentran los campamentos de montaña y son la única pernocta fresca del país, por altitud (927 m en Randa) (https://en.wikipedia.org/wiki/Randa,_Djibouti).</li><li>Khor Ambado: la playa admite pasar el día y hay algo de sombra, pero el MAEC avisa de robos frecuentes al atardecer, así que NO es sitio para dormir en los vehículos (https://guide.visitdjibouti.dj/la-plage-de-khor-ambado/, https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti).</li><li>Acampada libre: en un país donde el territorio está salpicado de bases militares y zonas restringidas, plantar tienda sin permiso del jefe de la aldea o del campamento es mala idea; conviene preguntar siempre en el poblado más cercano.</li><li>Zonas donde no acampar bajo ningún concepto: franja fronteriza con Eritrea y con Somalia (minas sin desactivar), entorno del puerto de Doraleh, aeropuerto y perímetros militares (https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti, https://travel.state.gov/en/international-travel/travel-advisories/djibouti.html).</li><li>No he podido consultar iOverlander ni Tracks4Africa para Yibuti en esta ronda: las entradas concretas de acampada de overlanders quedan POR CONFIRMAR y habría que revisarlas antes de publicar la ficha.</li></ul>"
     ],
     [
       "agua-combustible",
       "Agua y combustible",
-      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>Yibuti ciudad: agua embotellada sin problema en supermercados.</li><li>Recarga de depósito de uso general (ducha, aseo, limpieza): hoteles de Yibuti ciudad permiten llenar el depósito con manguera. Antes de Lac Assal o Lac Abbé, cargar el depósito a tope: no hay puntos fiables en el desierto de Afar.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Yibuti ciudad concentra la única oferta fiable de combustible del país; repostar a fondo aquí antes de cualquier excursión.</li><li>Sin garantía de suministro entre Yibuti ciudad y Lac Assal (~120 km) o Lac Abbé (~150 km): llevar reserva en jerricán para el trayecto de ida y vuelta.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
+      "<h3>Agua: recarga de depósitos (beber, ducha, aseo y limpieza)</h3><p>No solo agua de boca: como vehículos de expedición autónomos necesitamos recargar el depósito de agua de uso general (ducha, aseo, vajilla, limpieza) además del agua potable de beber. Puntos verificados o de referencia para esta recarga:</p><ul class=\"ticks\"><li>EL AGUA DEL GRIFO NO ES POTABLE. El MAEC y TravelHealthPro coinciden en exigir higiene estricta con agua y alimentos por el riesgo de cólera, presente de forma periódica. Para beber: embotellada o filtro con purificación química o UV.</li><li>PARA LLENAR DEPÓSITOS de ducha y lavado, el agua de red de Yibuti ciudad sirve: la capital se abastece por bombeo y desalación para la población y las bases militares extranjeras, y la disponibilidad en la ciudad es razonable. Fuera de la capital la red es escasa y el agua, salobre.</li><li>El interior es desierto real. Entre la capital, el Lac Assal, el Grand Bara y el Lac Abbé no hay puntos de agua fiables, y una visita al Lac Abbé son unas 9 horas de conducción desde la capital. Hay que salir con los depósitos llenos y con reserva de emergencia: mínimo 5 litros por persona y día con margen de 48 horas, más lo del perro.</li><li>Con más de 45 °C el consumo se dispara: contar tres litros de bebida por persona y día como mínimo. El agua almacenada en bidones al sol se calienta hasta ser imbebible; depósitos a la sombra y bajo el vehículo.</li><li>El agua embotellada es cara y no siempre hay stock fuera de la capital: una botella de 1,5 litros ronda los 100 DJF (unos 0,49 €) según HikersBay a 18 de septiembre de 2026. Cargar en Yibuti ciudad para todo el circuito.</li><li>El perro bebe lo mismo que los viajeros: embotellada o filtrada, nunca de charcas ni de los pozos salobres del entorno del Lac Abbé.</li></ul><h3>Combustible</h3><ul class=\"ticks\"><li>Yibuti no produce hidrocarburos y todo el combustible es importado. Referencia de precio: en torno a 310 DJF por litro de gasolina, unos 1,50 €, según la base de precios de HikersBay actualizada a 18 de septiembre de 2026. Precio del gasóleo POR CONFIRMAR: GlobalPetrolPrices, la fuente habitual, devolvió error en esta revisión.</li><li>La red de estaciones se concentra en la capital y en el eje de la RN-1 hacia Galafi, que es la ruta de los camiones etíopes. El aviso oficial de Canadá advierte de que «las gasolineras son escasas y están muy separadas entre sí»: repostar siempre que se pueda y no bajar de medio depósito.</li><li>En el tramo etíope de aproximación existe mercado negro de combustible a precios parecidos a los oficiales, según el relato de un overlander; dentro de Yibuti conviene atenerse a estaciones de marca por la calidad del gasóleo.</li><li>Dikhil, a 122 km de la capital por la RN-1, es la última población de entidad antes de Galafi y el punto de partida hacia el Lac Abbé: última oportunidad razonable de repostar y comprar agua antes del desierto.</li><li>El Delica y el Grenadier deben salir de la capital con depósito lleno y bidones extra para el circuito Lac Assal – Grand Bara – Lac Abbé: no hay servicio en ese triángulo.</li><li>Se paga en efectivo y en francos yibutianos; el MAEC avisa de que las tarjetas se rechazan fuera de la capital. Filtros de combustible y de aire de repuesto: el polvo del corredor de camiones y la arena del interior los matan rápido.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes cruzadas</div><p>Puntos y comentarios recientes verificados también en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a> y <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a>; revisar la fecha del último comentario antes de confiar en un punto.</p></div><div class=\"callout \"><div class=\"callout-title\">Criterio común del proyecto</div><p>Estrategia general de depósitos, potabilización y calidad de gasóleo: ver <a href=\"../../documentacion/#agua-combustible\">Documentación general · agua y combustible</a>.</p></div>"
     ]
   ],
   "custom_sections_post": [
     [
       "fronteras",
       "Visado, fronteras y vehículos",
-      "<h3>Visado</h3><ul class=\"ticks\"><li>e-Visa disponible para ciudadanos españoles, tramitar online con antelación.</li><li>Certificado internacional de fiebre amarilla exigido si se procede de zona endémica (aplica viniendo de Etiopía).</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Entrada</td><td>Galafi (Etiopía)</td><td>Corredor comercial principal Adís Abeba-Yibuti; puesto bien equipado.</td></tr><tr ><td>Salida</td><td>Puerto de Yibuti/Doraleh</td><td>Embarque marítimo del vehículo, no cruce fronterizo terrestre.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD recomendado como respaldo documental durante la estancia en el país, aunque el trámite decisivo es la reserva del envío marítimo.</li><li>Contratar el envío (RoRo o contenedor) con un agente de carga especializado en vehículos con varias semanas de antelación; confirmar puerto de destino (Alejandría) y tránsito por Arabia Saudí si aplica.</li><li>Seguro de terceros local obligatorio durante la estancia en Yibuti.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
+      "<h3>Visado</h3><ul class=\"ticks\"><li>OBLIGATORIO para españoles, sin exención. Pasaporte con validez mínima de 6 meses y justificante de alojamiento y de billete de salida.</li><li>Vías: eVisa en el portal oficial www.evisa.gouv.dj (tránsito de 1-14 días, 12 USD; estancia corta de 15-90 días, 23 USD, según la ficha de política de visados), embajada de Yibuti en París (+33 1 47 27 49 22) o en Adís Abeba, y visado en el aeropuerto de Ambouli, discrecional y solo para estancias cortas. El MAEC cifra el coste en 50-80 €.</li><li>FRONTERA TERRESTRE: POR CONFIRMAR, y es el punto que hay que cerrar antes de comprar nada. La ficha de política de visados recoge que el titular de eVisa puede entrar «por el aeropuerto internacional de Ambouli o por cualquier otro paso fronterizo», pero una agencia local sostiene que el visado a la llegada no existe en las fronteras terrestres con Etiopía y hay viajeros a los que la propia embajada negó la validez del eVisa por tierra y les emitió visado en el pasaporte.</li><li>Con vehículo propio, lo prudente es el visado físico en el pasaporte emitido por la embajada de Yibuti en Adís Abeba: un overlander lo obtuvo allí el mismo día por 90 USD. Cuesta más que el eVisa, pero no deja margen de discusión en Galafi.</li><li>Estancia irregular: multa de 40.000 FDJ pasados 30 días y de 80.000 FDJ pasados 90; en su defecto, de 3 a 6 meses de prisión y 5 años de prohibición de entrada.</li><li>Periodistas y cualquier trabajo de reportaje: se exige acreditación previa de las autoridades yibutianas. Grabar sin ella, en un país con cinco bases militares extranjeras, es buscarse un problema serio.</li></ul><h3>Fronteras de la ruta</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Función</th><th>Paso</th><th>Comprobación operativa</th></tr></thead><tbody><tr ><td>Paso terrestre principal desde Etiopía</td><td>Galafi (11°43′01″N 41°50′12″E, RN-1, 218 km de la capital)</td><td>ABIERTO. Es el paso más usado y el único bien documentado por overlanders: aquí se emite el permiso temporal de importación del vehículo. Carretera en mal estado y tráfico continuo de camiones. Etiopía y Yibuti han acordado una hoja de ruta para convertirlo en puesto fronterizo de parada única; estado de las obras por confirmar. Fuente: Wikipedia y The Road Chose Me.</td></tr><tr ><td>Paso terrestre sur desde Etiopía</td><td>Dewele (Etiopía) / Ali Sabieh (Yibuti), a 18 km de Ali Sabieh y 98 km de la capital</td><td>ABIERTO. Mejor asfaltado que Galafi según las guías locales, y es por donde cruza el ferrocarril Adís Abeba-Yibuti con su propio control fronterizo. Horarios y práctica con vehículo extranjero POR CONFIRMAR. Fuente: Travel2Djibouti y Wikipedia.</td></tr><tr ><td>Paso terrestre norte desde Etiopía</td><td>Balho (abierto el 20 de septiembre de 2020)</td><td>ABIERTO sobre el papel, el más reciente de los tres pasos oficiales con Etiopía. Está en la zona montañosa del norte, cerca del área que el FCDO desaconseja por la frontera eritrea. Uso turístico y trámite de vehículo POR CONFIRMAR. Fuente: Wikipedia.</td></tr><tr ><td>Paso terrestre a Somalilandia</td><td>Loyada (11°28′00″N 43°14′45″E, 25 km de la capital)</td><td>ABIERTO pero DESACONSEJADO. Único paso oficial hacia Somalilandia; ha sufrido cierres periódicos por motivos políticos y fue reabierto en 2002. El MAEC desaconseja la zona fronteriza con Somalia (Somalilandia). Fuente: Wikipedia y MAEC.</td></tr><tr ><td>Frontera con Eritrea</td><td>Frontera Yibuti-Eritrea (norte, región de Obock)</td><td>NO UTILIZABLE. El FCDO desaconseja TODO viaje a esa frontera (27 de julio de 2026) y Canadá pide evitar los 10 km próximos por tensiones regionales. Fuente: FCDO y Gobierno de Canadá.</td></tr><tr ><td>Aeropuerto internacional</td><td>Yibuti-Ambouli (JIB/HDAM), 11°32′47″N 43°09′33″E, 6 km del centro</td><td>OPERATIVO. Único aeropuerto internacional del país. Uso civil y militar compartido (Camp Lemonnier estadounidense, base aérea francesa BA 188, base japonesa, italiana y fuerza aérea yibutiana); el tráfico militar supone en torno al 75% de las operaciones. Visado a la llegada discrecional. PROHIBIDO FOTOGRAFIAR. Fuente: Wikipedia.</td></tr><tr ><td>Puerto</td><td>Puerto de Yibuti (11°36′19″N 43°08′21″E) y terminal de Doraleh</td><td>OPERATIVO. Entrada marítima principal y salida al mar de Etiopía, que supone en torno al 70% de la carga; unos 2.500 buques al año. PROHIBIDO FOTOGRAFIAR. Envío de vehículo en contenedor: posible en teoría, sin documentación abierta localizada en esta revisión.</td></tr><tr ><td>Ferry interior del golfo</td><td>Yibuti ciudad (Port de l'Escale, Route de Venise) – Tadjoura – Obock</td><td>OPERATIVO al menos hasta 2019, según reseña de viajero en Petit Futé: unas 2 horas de travesía, ADMITE VEHÍCULOS con hasta 1 hora de espera para asegurar plaza, embarque al final del muelle que sale del palacio presidencial. Horarios y tarifas actuales POR CONFIRMAR.</td></tr><tr ><td>Tren</td><td>Ferrocarril Adís Abeba (Sebeta) – Nagad (Yibuti), operativo desde el 1 de enero de 2018</td><td>OPERATIVO pero marginal. Terminal de pasajeros en Nagad, junto al aeropuerto de la capital; el control fronterizo se hace entre Dewele y Ali Sabieh. En 2019 movió solo 84.073 viajeros. No consta transporte de vehículos particulares. Fuente: Wikipedia.</td></tr></tbody></table></div><h3>Vehículos</h3><ul class=\"ticks\"><li>CPD NO CONFIRMADO COMO OBLIGATORIO. carnetdepassage.org (AIT/FIA) indica que no existe ninguna organización emisora de CPD en Yibuti, y el país no figura en las listas de países que exigen carnet de Horizons Unlimited (revisión de 2023). Llevarlo si ya se tiene por otros países de la ruta no estorba, pero no parece imprescindible.</li><li>Lo que sí está documentado es un permiso temporal de importación emitido en la propia frontera: en Galafi, un overlander con vehículo extranjero y sin carnet obtuvo un «Temporary Import Permit» válido 10 días tras consulta del aduanero con su superior. Diez días son pocos para un recorrido tranquilo con dos coches: hay que preguntar en la aduana central de la capital por la prórroga nada más llegar.</li><li>SEGURO: la Carta Verde europea no cubre Yibuti. El país es emisor y aceptante de la COMESA Yellow Card, que cubre lesiones y muerte de terceros, daños materiales y gastos médicos de urgencia, y puede emitirse para vehículos con matrícula extranjera o temporal. Si se llega desde Etiopía —también miembro—, lo lógico es contratarla allí; si no, seguro local en frontera.</li><li>Permiso internacional de conducir EXIGIDO según el aviso oficial de Canadá. Se conduce POR LA DERECHA, herencia francesa, y el francés es lengua oficial: funciona mucho mejor que el inglés en ventanilla de aduana.</li><li>Documentación a llevar: permiso de circulación, ficha técnica, seguro y, si el conductor no es el titular del vehículo, autorización notarial traducida al francés. Con dos coches y tres viajeros, conviene que cada vehículo tenga su carpeta completa.</li><li>Carreteras: la RN-1 entre la capital y Galafi soporta el tráfico de camiones etíopes y está destrozada por tramos. El MAEC pide 4x4 y desplazarse en convoy de dos vehículos, que es exactamente la configuración del proyecto. No se circula de noche: sin iluminación, sin arcenes, conducción imprudente y controles con alambrada difíciles de ver.</li><li>Fuera del asfalto, minas y munición sin explotar en Obock, Tadjoura y Ali Sabieh: en esas regiones no se sale de la carretera. La pista al Lac Abbé es de arena, arcilla y sal y exige 4x4 real; la bajada al Lac Assal es asfalto con pendiente fuerte y frenos calientes.</li><li>Mantenimiento: con 45 °C y polvo permanente hay que entrar con filtros de aire y de combustible de repuesto, revisar refrigeración y llevar neumáticos en buen estado. No hay taller de referencia para un Ineos Grenadier ni para un Delica; la reparación fiable más cercana es Adís Abeba.</li></ul><div class=\"callout \"><div class=\"callout-title\">Trámites comunes</div><p>CPD, autorización del Grenadier, Delica y seguros: ver <a href=\"../../documentacion/\">Documentación general</a>.</p></div>"
     ],
     [
       "drones",
       "Drones",
-      "<div class=\"callout warn\"><div class=\"callout-title\">Autorización previa obligatoria dado el contexto militar y portuario</div><p>Yibuti alberga varias bases militares extranjeras (Francia, EE. UU., China, Japón) y un puerto estratégico de primer orden, lo que hace muy sensible cualquier vuelo de dron cerca de estas instalaciones. Norma del proyecto: tramitar autorización previa ante la autoridad de aviación civil y no volar en ningún caso cerca del puerto, de la ciudad de Yibuti o de instalaciones militares.</p></div><ul class=\"ticks\"><li>Tramitar autorización previa ante la autoridad de aviación civil de Yibuti antes de volar.</li><li>No volar en ningún caso cerca del puerto, la ciudad de Yibuti o instalaciones militares (varias bases extranjeras en el país).</li></ul>"
+      "<div class=\"callout danger\"><div class=\"callout-title\">El dron se queda en casa</div><p>El MAEC lo dice sin rodeos: «Se recomienda encarecidamente no venir al territorio de Yibuti en posesión de un dron de recreo ya que puede ser requisado». No hay normativa civil publicada —la Direction de l'Aviation Civile et de la Météorologie no ha emitido reglas de uso— pero sí hay cinco ejércitos extranjeros, un aeropuerto civil y militar compartido y una prohibición general de fotografiar puertos, aeropuertos, puentes, edificios públicos e instalaciones militares. Volar aquí es pedir la confiscación del equipo y, potencialmente, una detención. No compensa.</p></div><ul class=\"ticks\"><li>MAEC: recomienda «encarecidamente» no entrar en Yibuti con un dron de recreo porque puede ser requisado. Es la única mención oficial española y no describe procedimiento alguno de autorización.</li><li>No hay reglamento civil de drones publicado: la referencia sectorial (drone-laws.com, actualización de 14 de enero de 2026) afirma que «las operaciones con drones no están reguladas en Yibuti» y remite a la Direction de l'Aviation Civile et de la Météorologie (ACAM), teléfono +253 340 151.</li><li>El vacío normativo no es permisivo. El aeropuerto de Ambouli es civil y militar a la vez, con el 75% de operaciones militares, y cualquier vuelo en la capital cae dentro de espacio sensible.</li><li>El FCDO prohíbe fotografiar puertos, edificios públicos, aeropuertos, instalaciones militares y puentes, con confiscación del equipo y posible detención. Esa prohibición cubre por sí sola buena parte de los sitios donde se querría volar.</li><li>Si aun así se quisiera intentar, el único camino es escribir a ACAM con mucha antelación y viajar con la respuesta impresa. Sin autorización en papel, la opción realista es declarar el dron en aduana y aceptar que quede depositado hasta la salida (procedimiento no confirmado).</li></ul>"
     ],
     [
       "starlink",
       "Starlink",
-      "<div class=\"callout warn\"><div class=\"callout-title\">Sin fecha prevista de licencia a mediados de 2026</div><p>Yibuti figura entre los países africanos sin fecha prevista de aprobación de licencia para Starlink a mediados de 2026. Tratar como no disponible y llevar SIM local (Djibouti Telecom) como conectividad principal.</p></div><ul class=\"ticks\"><li>Sin fecha prevista de licencia a mediados de 2026: tratar como no disponible.</li><li>SIM local (Djibouti Telecom) como conectividad principal, con cobertura limitada fuera de la capital.</li></ul>"
+      "<div class=\"callout warn\"><div class=\"callout-title\">Starlink no funciona en Yibuti</div><p>Yibuti no está entre los mercados activos de Starlink: figura como «planificado, sin fecha comprometida», y el análisis mundial de mayo de 2026 sitúa a todo el Cuerno de África —Yibuti, Etiopía, Eritrea, Sudán— en el grupo de países donde la aprobación regulatoria está estancada. Somalia es la única excepción de la zona, con servicio activo. Encender un terminal sin licencia en un país con cinco bases militares extranjeras y un operador estatal en monopolio no compensa: hay que planificar el viaje asumiendo conexión solo por SIM local y solo en la capital y los ejes principales.</p></div><ul class=\"ticks\"><li>NO DISPONIBLE a fecha de 2026. Yibuti aparece como «planificado, sin fecha» en el seguimiento de cobertura africana de Starlink, sin precio ni calendario.</li><li>El análisis de disponibilidad mundial de 10 de mayo de 2026 agrupa a Yibuti con Etiopía, Eritrea y Sudán como países del Cuerno de África «donde la aprobación regulatoria se ha estancado»: no está en los 166 mercados activos, ni en los 42 lanzamientos anunciados para 2026, ni en la lista de prohibiciones expresas.</li><li>Alternativa real: SIM local. Djibouti Telecom es empresa pública y «el único proveedor de internet móvil del país». La tarjeta prepago Evatis cuesta unos 1.000 DJF con 500 DJF de saldo, y hay paquetes de datos del tipo 5 GB por 3 días por 500 DJF. Se registra con pasaporte y se compra en tienda —por ejemplo en el Bawadi Mall, junto al puerto—, no en el aeropuerto (guía de 2021: confirmar precios actuales).</li><li>Cobertura decente en la capital y el eje de la RN-1; nula o testimonial en el Lac Abbé, el Grand Bara y el norte de Obock. Para esos tramos, comunicación por satélite propia (mensajería tipo Garmin InReach) es la única forma real de pedir ayuda.</li><li>Si se entra con terminal Starlink desde Etiopía, lo prudente es declararlo o llevarlo desmontado y sin usar: es equipo de comunicaciones por satélite en un país con presencia militar extranjera masiva y sensibilidad alta.</li></ul>"
     ],
     [
       "perro",
       "Perro y salud",
-      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>Certificado veterinario internacional reciente y vacuna antirrábica en vigor, exigibles en frontera.</li><li>No recomendado en las excursiones a Lac Assal y Lac Abbé por el calor extremo; dejar en el vehículo con sombra en Yibuti ciudad o con cuidador.</li></ul><div class=\"callout \"><div class=\"callout-title\">Todo lo del perro, en su propia sección</div><p>Entrada país por país, permisos, plazos, salud en ruta y la vuelta a la UE, con el nivel de confianza y la fuente de cada dato: <a href=\"../../perro/\">ver la sección El perro →</a>. Requisitos comunes (microchip, pasaporte UE, rabia y titulación serológica) en <a href=\"../../documentacion/#perro\">Documentación general</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Lac Assal y Lac Abbé</td><td><span class=\"st st-amber\">no recomendado</span></td><td>Calor extremo del desierto de Afar (uno de los lugares más calurosos del planeta) incompatible con llevar mascota en excursión; dejar en el vehículo con sombra en Yibuti ciudad o con cuidador.</td></tr><tr ><td>Yibuti ciudad</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Correa y sombra; calor húmedo intenso todo el año, extremar precauciones al mediodía.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>Calor extremo todo el año, especialmente en el interior desértico (Lac Assal, Lac Abbé): hidratación reforzada y evitar esfuerzo físico al mediodía.</li><li>Malaria presente en algunas zonas: profilaxis a valorar con Sanidad Exterior.</li><li>Hôpital Général Peltier (Yibuti ciudad) como única referencia sanitaria seria del país; seguro con evacuación médica real imprescindible.</li></ul>"
+      "<h3>Entrada del perro</h3><ul class=\"ticks\"><li>NO HAY REQUISITOS PUBLICADOS POR YIBUTI. La web del ministerio competente —Ministère de l'Agriculture, de l'Eau, de la Pêche, de l'Élevage et des Ressources Halieutiques, maepe-rh.dj— existe y abre, pero es un portal institucional genérico sin apartado de importación de animales de compañía. El servicio veterinario oficial estadounidense (APHIS) declara expresamente que los requisitos para perros y gatos hacia Yibuti «no son conocidos» y remite al importador a pedir un permiso de importación al ministerio. Hay que dar por hecho que hace falta permiso previo y gestionarlo con semanas de antelación.</li><li>Lo mínimo exigible en cualquier escenario, y lo que hay que llevar sí o sí: microchip ISO, vacuna antirrábica vigente con al menos 21 días desde la primovacunación, certificado veterinario internacional REDACTADO EN FRANCÉS y firmado por veterinario oficial en los días previos a la entrada, y desparasitación interna y externa documentada.</li><li>RAZAS PROHIBIDAS: no consta lista publicada por Yibuti. POR CONFIRMAR. Conviene contar con que un perro de tipo molosoide puede generar fricción en frontera aunque no exista norma escrita.</li><li>VUELTA A LA UE: Yibuti NO figura en ninguno de los anexos del Reglamento de Ejecución (UE) 2026/636, aplicable desde el 22 de abril de 2026, y ningún país africano continental está en esas listas. Se aplica por tanto la vía A, con plazos que hay que respetar al día según el MAPA: microchip, vacuna antirrábica a partir de las 12 semanas de edad, extracción de sangre para la valoración serológica AL MENOS 30 DÍAS DESPUÉS de la vacunación, resultado igual o superior a 0,5 UI/ml en laboratorio autorizado, y 90 DÍAS DE ESPERA desde la fecha de extracción antes de entrar en la UE.</li><li>La titulación se hace en España ANTES de salir y se anota en el pasaporte europeo del animal: si está hecha y vigente, la vuelta desde Yibuti no exige repetirla, solo el certificado zoosanitario firmado por veterinario oficial y la declaración según los modelos del Reglamento de Ejecución (UE) 2026/705. La entrada debe hacerse por un Punto de Entrada de Viajeros (PEV) autorizado, con control documental y de identidad.</li><li>VETERINARIOS: no se ha localizado en fuente abierta ninguna clínica veterinaria de referencia en Yibuti ciudad. Existe una comunidad expatriada amplia —militar francesa, estadounidense, japonesa e italiana— que sostiene servicios veterinarios privados, pero hay que identificarlos y confirmarlos antes de salir. POR CONFIRMAR.</li><li>RIESGOS PARA EL ANIMAL: el calor es el principal. Con 45 °C en verano y asfalto que quema, el perro no puede bajar del coche entre las 10 y las 18 h ni siquiera en la ventana buena. Añadir rabia presente en la fauna y los murciélagos, garrapatas, y agua no potable: el perro bebe embotellada o filtrada, igual que los viajeros. En el Lac Assal, además, la costra salina corta las almohadillas —un viajero advierte de que el suelo «te destroza los pies»—, así que botines o, mejor, dejarlo en el vehículo con el clima en marcha y turnarse entre los tres.</li></ul><div class=\"callout \"><div class=\"callout-title\">Todo lo del perro, en su propia sección</div><p>Entrada país por país, permisos, plazos, salud en ruta y la vuelta a la UE, con el nivel de confianza y la fuente de cada dato: <a href=\"../../perro/\">ver la sección El perro →</a>. Requisitos comunes (microchip, pasaporte UE, rabia y titulación serológica) en <a href=\"../../documentacion/#perro\">Documentación general</a>.</p></div><h3>Matriz canina por zona</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Zona</th><th>Estado</th><th>Plan B obligatorio</th></tr></thead><tbody><tr ><td>Entrada al país desde Etiopía (Galafi, Dewele)</td><td><span class=\"st st-green\">por confirmar</span></td><td>Gestionar el permiso de importación por escrito con el ministerio yibutiano (maepe-rh.dj) antes de salir de España y llevar copia impresa en francés. Si no hay respuesta, plantear el viaje sin perro o dejarlo en custodia en Adís Abeba.</td></tr><tr ><td>Yibuti ciudad, hoteles y comercios</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>País musulmán: el perro no entra en restaurantes ni comercios y su presencia incomoda. Reservar alojamiento con aparcamiento a la sombra y confirmar por escrito que aceptan animal antes de llegar.</td></tr><tr ><td>Lac Assal, Grand Bara y Lac Abbé de junio a septiembre</td><td><span class=\"st st-amber\">no recomendado</span></td><td>Por encima de 45 °C: inviable para el animal, y el relato de una visita al Lac Abbé habla de 9 horas de conducción con 42 °C. Reprogramar a noviembre-febrero; si aun así se va, recorrido solo al amanecer y al anochecer y perro en el vehículo con motor y aire acondicionado en marcha.</td></tr><tr ><td>Zonas minadas de Obock y Tadjoura</td><td><span class=\"st st-red\">prohibido</span></td><td>Perro siempre atado y nunca fuera del asfalto: el MAEC confirma minas sin desactivar y Canadá añade munición sin explotar. Sustituir por tramos transitados de la costa de Tadjoura.</td></tr><tr ><td>Excursión de tiburón ballena y barcos del golfo</td><td><span class=\"st st-green\">por confirmar</span></td><td>Ningún operador publica política de animales. Dejar al perro en el alojamiento con aire acondicionado y turnos entre los tres viajeros; en ningún caso en el coche parado.</td></tr><tr ><td>Regreso a la UE (por avión o por Etiopía)</td><td><span class=\"st st-amber\">permitido con condiciones</span></td><td>Solo si la titulación antirrábica se hizo en la UE antes de salir, con 30 días tras la vacuna y 90 días de espera, y está anotada en el pasaporte. Sin ella, la reentrada no es posible sin regularización y habría que resolverla desde un país listado en el Reglamento 2026/636.</td></tr></tbody></table></div><h3>Salud humana</h3><ul class=\"ticks\"><li>FIEBRE AMARILLA: el MAEC la da como obligatoria para mayores de 1 año. TravelHealthPro matiza que el certificado se exige a quien llega de países con riesgo de transmisión y que Yibuti no es endémico. Con África por delante en cualquier ruta que llegue hasta aquí, se viaja vacunado y con el certificado encima.</li><li>MALARIA en todo el país y durante todo el año, con transmisión alta según TravelHealthPro: profilaxis con atovacuona/proguanil, doxiciclina o mefloquina según criterio médico, más repelente y mosquitera. Circulan además dengue y chikungunya, de picadura diurna, así que la protección es de 24 horas.</li><li>Vacunas recomendadas: hepatitis A y B, fiebre tifoidea, meningitis, tétanos al día y RABIA si hay exposición a animales, que es exactamente el caso viajando con perro. Se ha detectado poliovirus derivado de vacuna: puede exigirse acreditación de vacunación antipoliomielítica al salir del país.</li><li>CÓLERA: el MAEC señala que «en Yibuti se registran periódicamente casos de cólera». Agua embotellada o filtrada siempre, nada de hielo, nada de crudos fuera de sitios de confianza e higiene estricta de manos.</li><li>SERVICIOS MÉDICOS «muy deficientes y centralizados principalmente en la capital» (MAEC). Las tres referencias de la lista de la embajada británica son el Hôpital Général Peltier (+253 21 35 27 12), el Hôpital Militaire Bouffard (+253 21 35 13 51) y la Clinique Affi (+253 21 34 44 97), todas en Yibuti ciudad. Fuera de la capital no hay nada equiparable.</li><li>SEGURO DE VIAJE con cobertura completa y repatriación aérea medicalizada: el MAEC lo exige expresamente. Sin él, una urgencia grave en el interior no tiene solución realista.</li><li>GOLPE DE CALOR: es el riesgo sanitario real del viaje. Con más de 45 °C de junio a septiembre y visitas que implican 9 horas de conducción por desierto, contar tres litros de agua por persona y día como mínimo, sales, y ningún esfuerzo entre las 11 y las 17 h.</li></ul>"
     ],
     [
       "seguridad",
       "Seguridad y comunicaciones",
-      "<p>Yibuti es un país pequeño y estable, con fuerte presencia militar internacional que en la práctica refuerza la seguridad general del entorno urbano y portuario.</p><ul class=\"ticks\"><li>Precaución normal de viaje en Yibuti ciudad; sin alertas de seguridad activas relevantes para este proyecto.</li><li>Evitar fotografiar instalaciones militares o portuarias sin autorización explícita.</li><li>En las excursiones a Lac Assal y Lac Abbé, salir siempre con depósito de combustible y agua completos y, si es posible, con guía o vehículo de apoyo.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
+      "<p>Yibuti no es un país en conflicto, pero está rodeado de ellos y vive de alquilar su territorio a cinco ejércitos extranjeros. El MAEC recomienda viajar con precaución y abstenerse de hacerlo por determinadas zonas: fronteras con Eritrea y con Somalia (Somalilandia), el archipiélago de las Sept-Frères y la navegación por Bab el-Mandeb y el golfo de Adén. La amenaza terrorista de Al Shabaab se considera moderadamente alta aunque no haya atentados desde 2014. Dentro de esas líneas rojas, la capital y el eje Lac Assal-Lac Abbé son practicables con sentido común y sin conducir de noche.</p><ul class=\"ticks\"><li>ZONAS A EVITAR (MAEC): franjas fronterizas con Eritrea y con Somalia/Somalilandia, por presencia limitada de las fuerzas del orden y de grupos terroristas, y el archipiélago de las Sept-Frères. El FCDO desaconseja TODO viaje a la frontera con Eritrea (27 de julio de 2026) y Canadá pide evitar los 10 km próximos.</li><li>MINAS SIN DESACTIVAR confirmadas por el MAEC en Tadjoura y Obock. Canadá amplía la advertencia a munición sin explotar en las zonas fronterizas con Somalia y Etiopía y pide no abandonar las carreteras asfaltadas en Obock, Tadjoura y Ali Sabieh. Regla operativa: en esas tres regiones no se sale del asfalto, ni para pernoctar.</li><li>TERRORISMO: Al Shabaab ha amenazado a Yibuti por su participación en operaciones de paz de la Unión Africana. Objetivos potenciales según el FCDO: nudos de transporte, hoteles, restaurantes, zonas comerciales y actos religiosos o deportivos. Prudencia en los locales frecuentados por occidentales.</li><li>DELINCUENCIA: robos y atracos nocturnos en la capital y robos en vehículos aparcados. El MAEC pide no exhibir objetos de valor y desaconseja las playas de Doraleh y Khor Ambado después del atardecer; Canadá añade no visitar playas aisladas a última hora de la tarde. Cámaras y pasaportes, ocultos.</li><li>FOTOGRAFÍA: prohibida sobre puertos, edificios públicos, aeropuertos, instalaciones militares y puentes, con confiscación del equipo y posible detención. Con bases de Francia, Estados Unidos (Camp Lemonnier), China, Japón e Italia, más el Destacamento Orión español, conviene no sacar la cámara cerca de nada que parezca militar ni preguntar por ello.</li><li>NO CONDUCIR DE NOCHE. Carreteras sin iluminación ni mantenimiento, conducción imprudente, muchos conductores bajo los efectos del khat y controles policiales con alambrada difíciles de ver. El MAEC recomienda 4x4 y convoy de dos vehículos, que es la configuración del proyecto.</li><li>MANIFESTACIONES: el MAEC advierte de lanzamientos de piedras contra vehículos de occidentales durante las protestas. Evitar concentraciones y salir de la zona sin discutir.</li><li>DROGAS Y KHAT: la posesión de drogas se castiga con 1 a 20 años de prisión. El khat es legal y de consumo masivo en Yibuti pero es ilegal en España: no se puede llevar de vuelta. El alcohol está permitido, aunque el FCDO avisa de que la embriaguez pública puede acarrear hasta 2 años de prisión. Durante el Ramadán, no comer, beber, fumar ni poner música alta en público de día.</li><li>LGTBI: no hay prohibición expresa, pero el MAEC recomienda discreción y Canadá señala que las conductas entre personas del mismo sexo pueden perseguirse por leyes de moralidad.</li><li>PIRATERÍA: riesgo significativo en el golfo de Adén y el estrecho de Bab el-Mandeb, que el MAEC desaconseja navegar. No afecta a un viaje terrestre, pero descarta cualquier travesía en embarcación pequeña hacia Yemen o Somalia.</li></ul><div class=\"callout \"><div class=\"callout-title\">Protocolo común</div><p>Conducción, controles y escalado: <a href=\"../../documentacion/#seguridad\">Documentación general · seguridad</a>.</p></div>"
     ],
     [
       "gpx",
       "Validación y decisiones",
-      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Envío marítimo</td><td>Reservar el RoRo/contenedor con un agente de carga con varias semanas de antelación</td></tr><tr ><td>CPD</td><td>Confirmar si se mantiene como respaldo documental durante la estancia</td></tr><tr ><td>Dron</td><td>Tramitar autorización previa si se quiere volar fuera de zonas sensibles</td></tr><tr ><td>Excursiones</td><td>Confirmar guía o vehículo de apoyo para Lac Abbé</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+      "<h3>Decisiones pendientes</h3><div class=\"tblwrap\"><table class=\"\"><thead><tr><th>Tema</th><th>Criterio de cierre</th></tr></thead><tbody><tr ><td>Validez del eVisa en frontera terrestre</td><td>Respuesta por escrito de la embajada de Yibuti en París o en Adís Abeba confirmando si el eVisa se acepta en Galafi, Dewele y Loyada. Cerrar con el correo archivado y fechado.</td></tr><tr ><td>Duración, coste y prórroga del permiso temporal de importación del vehículo</td><td>Confirmar con la Direction Générale des Douanes yibutiana el plazo estándar, las tasas y el procedimiento de prórroga en la capital. El único dato disponible son 10 días de un relato anterior a 2020.</td></tr><tr ><td>Obligatoriedad real del CPD</td><td>Consulta al RACE o a la aduana yibutiana. Cerrar cuando exista confirmación escrita de que se admite la entrada sin carnet mediante permiso temporal.</td></tr><tr ><td>Seguro obligatorio de vehículo y precio</td><td>Confirmar si la COMESA Yellow Card contratada en Etiopía se acepta en la frontera yibutiana o si obligan a seguro local, y a qué precio. Cerrar con factura o respuesta de aseguradora.</td></tr><tr ><td>Requisitos de entrada del perro y razas prohibidas</td><td>Respuesta escrita del Ministère de l'Agriculture (maepe-rh.dj) con el permiso de importación, los plazos del certificado veterinario y la lista de razas. Cerrar cuando exista documento oficial en francés.</td></tr><tr ><td>Clínica veterinaria de referencia en Yibuti ciudad</td><td>Localizar al menos una clínica con nombre, dirección y teléfono verificados por llamada o correo. Hoy no hay ninguna.</td></tr><tr ><td>Precio del gasóleo en 2026</td><td>Dato datado en DJF por litro de fuente solvente (GlobalPetrolPrices o prensa local yibutiana). Solo se tiene el precio de gasolina de HikersBay, 310 DJF a 18 de septiembre de 2026.</td></tr><tr ><td>Ferry del golfo de Tadjoura: horarios, tarifas y plaza para vehículo</td><td>Confirmar con la autoridad portuaria o el operador. El dato disponible (2 horas, admite coches, hasta 1 hora de espera) es una reseña de viajero de mayo de 2019.</td></tr><tr ><td>Estado del paso de Balho y del proyecto de parada única en Galafi</td><td>Noticia o comunicado de 2026 sobre apertura a extranjeros y sobre las obras del One-Stop Border Post. Cerrar con fuente datada.</td></tr><tr ><td>Dirección exacta del Viceconsulado Honorario de España en Yibuti ciudad</td><td>Ficha del viceconsulado en exteriores.gob.es o confirmación de la embajada en Adís Abeba. Se tienen dos teléfonos distintos (+253 77 84 49 50 y +253 21 35 63 53) y ninguna dirección postal.</td></tr><tr ><td>Procedimiento de autorización de drones ante ACAM</td><td>Respuesta escrita de la Direction de l'Aviation Civile et de la Météorologie (+253 340 151). Mientras no exista, el dron no viaja.</td></tr><tr ><td>Camping y pernocta con vehículo en Lac Assal y Lac Abbé</td><td>Confirmar si hay campamento organizado, pernocta tolerada y en qué condiciones de seguridad. Cerrar con iOverlander o testimonio posterior a 2023; solo consta el Lake Abbe Camp de cabañas afar.</td></tr></tbody></table></div><div class=\"callout warn\"><div class=\"callout-title\">Punto de control</div><p>Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada, y de nuevo 72 h antes de cada frontera.</p></div>"
+    ],
+    [
+      "experiencias",
+      "Experiencias de otros overlanders",
+      "<p>Yibuti recibe pocos overlanders y casi todos los relatos son de paso, camino de Etiopía o de Somalilandia; el material con vehículo propio es escaso y en buena medida anterior a 2020. Estos son los relatos y guías que aportan datos concretos y utilizables.</p><ul class=\"ticks\"><li>Entrada por Galafi sin carnet, con permiso temporal de 10 días: Dan Grec, en «The Road Chose Me» (vuelta a África en Jeep), cruzó de Etiopía a Yibuti por Galafi. En la aduana le pusieron pegas por no llevar carnet de passages, pero tras consultar con su superior le emitieron un Temporary Import Permit de 10 días. El visado lo había sacado en la embajada de Yibuti en Adís Abeba por 90 USD, entregado el mismo día. Es el testimonio que sostiene que el CPD no es imprescindible aquí.</li><li><strong>La peor carretera asfaltada de África:</strong> en el mismo relato, Grec describe la RN-1 como «la carretera asfaltada más rota y destruida que he visto nunca en África», con 60 millas en cinco horas, polvo permanente de más de dos mil camiones diarios y más de 38 °C incluso después de la puesta de sol. La frontera acababa de reabrirse tras unas protestas. Dimensiona bien lo que cuesta cada kilómetro en este país.</li><li><strong>El eVisa por tierra, sin respuesta clara:</strong> en el foro de Yibuti de Tripadvisor (hilo «Can I enter Djibouti by land with eVisa?», consultas de 2022-2024) un viajero cuenta que la embajada le advirtió de que el eVisa no valdría en un cruce terrestre y le emitió visado en el pasaporte, mientras otro afirma lo contrario citando horarios de los puestos, y un tercero optó por entrar en tren para no arriesgarse. Refleja exactamente la incertidumbre que hay que resolver antes de salir.</li><li>Tres pasos desde Etiopía y visado por adelantado: la guía de la agencia local Travel2Djibouti describe Galafi como el paso más usado pero con carretera sin asfaltar y llena de baches, y Dawale (Dewele) y Balho como mejor asfaltados; y afirma que «el visado debe obtenerse por adelantado en una embajada o consulado de Yibuti para los viajeros que llegan de Etiopía» porque el visado a la llegada no existe en las fronteras terrestres con Etiopía.</li><li>Nueve horas de coche y 42 °C para llegar al Lac Abbé: el relato de Monsoon Diaries (mayo de 2023) describe la aproximación desde la capital como «nueve horas agotadoras de conducción bajo un sol opresivo de más de 40 °C», en convoy de ocho 4x4, cruzando los llanos de arcilla del Petit y el Grand Bara. El campamento son cabañas afar con catre y mosquitera, duchas destartaladas, nubes de insectos y hienas rondando de noche. Aun así, concluye que las chimeneas de caliza humeantes al amanecer compensan.</li><li><strong>La sal del Lac Assal destroza el calzado:</strong> Wandersmiles documenta la visita al lago —155 m bajo el nivel del mar, el punto más bajo de África, en uno de los lugares más calurosos del planeta— y da un consejo muy concreto: llevar calzado grueso para bajar al lago si no se quieren acabar los pies hechos trizas. El agua permite flotar pero no hay que tragarla, y la mejor época es de noviembre a enero. Aplicable directo al perro: ahí no pisa.</li><li>Temporada de tiburón ballena de octubre-noviembre a febrero: Travel2Djibouti sitúa la temporada entre noviembre y febrero, con diciembre y enero como meses punta, y localiza los avistamientos en Ras Korali, la playa de Arta y el golfo de Tadjoura, con salidas a primera hora de la mañana por el estado del mar. Wandersmiles amplía la ventana a octubre-febrero y habla de unas 4 horas de barco con equipo de snorkel, sin apnea profunda. Coincide con la única ventana climática viable del país.</li><li><strong>El ferry del golfo admite coches:</strong> la ficha de Petit Futé sobre el ferry Tadjoura-Obock sitúa el embarque en el Port de l'Escale, Route de Venise, al final del muelle que sale del palacio presidencial, y recoge la reseña de un viajero de mayo de 2019: unas dos horas de travesía, ruidoso, con tienda a bordo, y hasta una hora de espera para asegurar plaza si se viaja con vehículo. Es la alternativa a rodear el golfo por carretera.</li><li>Yibuti como etapa de tres días en los tours del Cuerno: el operador británico Madventure vende un «Horn of Africa Overland» de 39 días (edición del 24 de julio al 1 de septiembre de 2024, 2.240 £ más 1.000 USD de caja local) en el que Yibuti ocupa tres o cuatro días entre Somalilandia y Etiopía, entrando desde Harar y cubriendo la capital, el Lac Assal y el Lac Abbé. Sirve de referencia de tiempos y de coste, y confirma que el país se ve en poco más de tres días. Llamativo que lo programen en pleno verano.</li><li><strong>Gasolineras escasas y nada de noche:</strong> el aviso oficial de Canadá resume la parte práctica de conducir aquí —carreteras en mal estado y mal iluminadas, «no viajar después del anochecer», controles policiales con alambrada difíciles de ver, y estaciones de servicio escasas y muy separadas— y añade que se exige permiso internacional de conducir y que el país funciona en efectivo. Es la lista de comprobación mínima antes de salir de la capital.</li></ul><div class=\"callout \"><div class=\"callout-title\">Fuentes de estas experiencias</div><p>Relatos y comentarios reales de otros overlanders recogidos en <a href=\"https://ioverlander.com/\" target=\"_blank\" rel=\"noopener\">iOverlander</a>, <a href=\"https://tracks4africa.co.za/\" target=\"_blank\" rel=\"noopener\">Tracks4Africa</a> y blogs/foros públicos de viajeros — no son información oficial: contrastar siempre la fecha del comentario antes de confiar en un dato de frontera, pista o parque.</p></div>"
     ]
   ]
 }

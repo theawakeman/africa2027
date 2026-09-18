@@ -179,11 +179,8 @@ CPD = {
     "madagascar": ("no", "SIN CONFIRMAR", "No aplica: 4x4 de alquiler con conductor; los propios se quedan en el continente", "0 €",
               "carnetdepassage.org (AIT/FIA) confirma que no hay club emisor en Madagascar y no dice si la aduana acepta el CPD. Como no existe ferry de pasajeros con vehículo (Rough Guides) y a Toamasina solo llega carga, el vehículo propio no entra en el plan. Si algún día se embarcara, la admisión temporal se gestionaría con un transitario de Toamasina; ningún relato overland 2019–2026 abierto en esta sesión describe ese trámite."),
     # ------------------------------------------------- fuera de la ruta, de referencia
-    "egipto": ("obligatorio", "CONFIRMADO", "No hay alternativa fiable", "Depósito de hasta el 200 % del valor del vehículo + matrícula temporal",
-               "FUERA DE LA RUTA. Es el caso claro de África: carnet FIA o carnet local obligatorio "
-               "(Overlanding Association), con relatos aislados de entrada desde Sudán con TIP. No "
-               "aparece en la lista del RACE, que es genérica y antigua. Se incluye como referencia "
-               "porque es lo que explica la fama del carnet."),
+    "egipto": ("obligatorio", "CONFIRMADO", "CPD local emitido en frontera por el club automovilístico egipcio (200-500 USD más depósito)", "200-500 USD el local; el europeo, con depósito de hasta el 200% del valor del vehículo",
+              "Egipto es uno de los pocos países de África que sigue exigiendo el Carnet de Passages, según la Overlanding Association. El emisor egipcio es el Automobile et Touring Club d'Egypte (10 rue Kasr el Nil, El Cairo, +202 257 43 355), con validez de un año renovable, según carnetdepassage.org. Dan Grec documentó en abril de 2019 la emisión de un carnet local en la propia frontera por 500 USD. Además del carnet hacen falta matrícula egipcia temporal, permiso de conducir egipcio y seguro de terceros local, y a la salida un certificado de tráfico sin multas para poder cancelarlo."),
     "tunez": ("no", "PROBABLE", "Admisión temporal anotada en el pasaporte + registro previo Smart Traveller (QR)", "Gratis · 3 meses (tasa de 30 TND citada en 2023, por confirmar)",
               "FUERA DE LA RUTA (solo viaje aparte en ferry). Ningún relato de 2023–2026 usó CPD: la aduana "
               "de La Goulette anota el vehículo en el pasaporte del conductor y desde junio de 2025 exige "
@@ -195,6 +192,10 @@ CPD = {
               "carnetdepassage.org no lista requisito ni club emisor; Horizons Unlimited lo pone en la tabla «se puede usar». Relatos con vehículo propio (WikiOverland y The Road Chose Me, 2016) pagaron passavant de 2 semanas por 2.500 XOF sin CPD; Overlandbirds (2019) salió por Buruntuma con CPD y personal confuso. Sin testimonio 2025-26: PROBABLE que el CPD del RACE se acepte pero que la aduana prefiera su passavant."),
     "sudan": ("recomendable", "PROBABLE", "Admisión temporal con fianza y fixer en Wadi Halfa (histórico, sin datos desde 2023)", "Incluido en el CPD del RACE si se lista Sudán; fianza local por confirmar",
               "carnetdepassage.org lista Sudán como país que acepta el CPD, con el Sudanese Automobile and Touring Club de Jartum como club garante (+249 183 403 402). Sahara Overland (enero 2026) marca el carnet como «puede seguir siendo necesario» y tacha todo el procedimiento de cruce por la guerra. No existe ningún cruce documentado con vehículo extranjero desde abril de 2023, así que el nivel real es PROBABLE y el país queda excluido."),
+    "etiopia": ("recomendable", "SIN CONFIRMAR", "Depósito en aduana o despacho a través de agencia local", "Sin dato oficial; los relatos hablan de depósitos altos",
+              "La AIT/FIA no tiene organización emisora de CPD en Etiopía, según carnetdepassage.org. El hilo «Entering Ethiopia with a car» de Overland Bound (agosto de 2023) afirma que el país dejó de aceptar carnet de passages y TIP a finales de 2022 y que el tránsito pasó a exigir depósitos elevados en aduana o la intervención de una agencia. Antes de ese cambio el procedimiento era el clásico: Goanna Tracks (marzo de 2018) y Bosman's Big Adventure describen el sellado del carnet en la aduana de Moyale con cotejo de todos los números de chasis y motor, y Dan Grec obtuvo en 2020 por Omorate un permiso de importación temporal de 60 días (Tread Magazine). No se ha localizado confirmación de la Ethiopian Customs Commission: llevar el CPD por si sigue sirviendo y contar con un despachante local."),
+    "yibuti": ("no", "PROBABLE", "Permiso temporal de importación emitido en frontera (10 días documentados en Galafi)", "Sin coste documentado; tasas de frontera por confirmar",
+              "carnetdepassage.org (AIT/FIA) confirma que no existe ninguna organización emisora de CPD en Yibuti, y el país no figura en la lista de países que exigen carnet de Horizons Unlimited (revisión de 2023). El testimonio operativo más claro es el de Dan Grec (The Road Chose Me): cruzó por Galafi sin carnet y la aduana, tras dudar y consultar con el superior, le emitió un Temporary Import Permit válido 10 días. Ese plazo es corto para un circuito tranquilo y no se ha localizado el procedimiento oficial de prórroga, que hay que preguntar en la aduana central de la capital. Llevar carnet no estorba si ya se tiene por otros países de la ruta, pero no parece imprescindible."),
     "libia": ("obligatorio", "SIN CONFIRMAR", "Sin fuente actual", "—",
               "FUERA DE LA RUTA. Figura en la lista del RACE, pero ninguna fuente actual lo confirma; "
               "la única guía con datos (2012) hablaba de una tasa en frontera para quien entra sin "
@@ -207,7 +208,7 @@ NIVELES = {
     "no":           ("#3C9A5F", "No necesario", "Se resuelve en la frontera con un permiso temporal."),
 }
 
-FUERA_DE_RUTA = {"egipto", "libia", "tunez", "sudan", "guinea-bisau", "mali", "madagascar"}
+FUERA_DE_RUTA = {"egipto", "libia", "tunez", "yibuti", "etiopia", "sudan", "guinea-bisau", "mali", "madagascar"}
 
 COSTE_CPD = [
     ("Emisión del carnet (10 o 25 hojas)", "~230 €"),

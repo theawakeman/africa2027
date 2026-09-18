@@ -254,6 +254,9 @@ Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si s
 | **Mali** | ✈️ Solo en avión (Bamako-Sénou) · el FCDO desaconseja entrar por carretera | ❓ Por confirmar (DNSV) | 🟡 | **[PROBABLE]** Microchip, rabia en vigor y certificado sanitario oficial ≤72 h (Anivetvoyage 2022); sin web oficial maliense. Vuelta a la UE: vía A (§4). | Direction Nationale des Services Vétérinaires | — *sin correo publicado* | ✅ Sí · **3 días** |
 | **Guinea-Bisáu** | 🚗 Por tierra desde Casamance (Mpack–São Domingos) · país excluido por la junta militar | ❓ Por confirmar (Direcção Geral da Pecuária) | 🟡 | **[PROBABLE]** MAEC: identificación, rabia en vigor y certificado internacional de salud de menos de una semana; sin web oficial veterinaria. Vuelta a la UE: vía A (§4). | Ministério da Agricultura e Desenvolvimento… | `geral@gov.gw` | ✅ Sí · **7 días** |
 | **Sudán** | ✈️ Solo en avión (Port Sudán / Jartum) · pasos terrestres cerrados · guerra civil | ❌ No previo (PetTravel, sin fuente oficial) | 🟡 | **[PROBABLE]** Microchip, rabia 30 días–12 meses y certificado sanitario ≤10 días (PetTravel); ninguna web oficial sudanesa abierta. Vuelta a la UE: vía A (§4). | Ministerio de Recursos Animales | — *sin correo publicado* | ✅ Sí · **10 días** |
+| **Egipto** | 🚗 Desde Sudán por Argeen o Qustul (corredor humanitario, 12–48 h de espera) | ❌ No previo (GOVS) | 🟡 | **[PROBABLE]** Microchip, rabia en vigor y certificado sanitario oficial; la web egipcia (govs.gov.eg) no publica los requisitos. Vuelta a la UE: vía A (§4). | [General Organization for Veterinary Services](https://www.govs.gov.eg/) ⚠️ |  | ✅ Sí · **14 días** |
+| **Etiopía** | ✈️ Bole (ADD) o por tierra desde Yibuti; el resto de fronteras, desaconsejadas por el MAEC | ✅ Sí, previo (Min. de Agricultura) | 🟡 | **[PROBABLE]** Permiso previo del Ministerio de Agricultura (solo fuente secundaria), microchip y rabia en vigor. Vuelta a la UE: vía A (§4). | [Ministerio de Agricultura de la RDFE](https://www.moa.gov.et/) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| **Yibuti** | 🚗 Por tierra desde Etiopía (Galafi, Dewele) o desde Somalilandia (Loyada) | ❓ Sin requisitos publicados | 🟡 | **[POR CONFIRMAR]** Yibuti no publica ningún requisito para perros; el ministerio (maepe-rh.dj) abre pero es genérico. Vuelta a la UE: vía A (§4). | [Ministère de l'Agriculture](https://www.maepe-rh.dj/) ⚠️ |  | sin confirmar |
 
 ---
 
@@ -842,6 +845,61 @@ Evidencia:
 **Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/sudan-pet-import-requirements/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202600636)  
 
 > No se ha localizado ni abierto ninguna web oficial del organismo veterinario sudanés; las búsquedas devuelven referencias a Sudán del Sur o fichas de terceros.
+
+## 3.29 EGIPTO 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Desde Sudán por Argeen/Arqin o Qustul-Ashkeit (corredor humanitario por la guerra); puertos de Alejandría, Safaga y Nuweiba; Taba desde Israel. Libia, cerrada a extranjeros.
+**Papeles:** Entrada con microchip, rabia y certificado veterinario oficial de 14 días. La vuelta a la UE exige TITULACIÓN ANTIRRÁBICA: Egipto no está en las listas del Reglamento (UE) 2026/636.
+
+- Entrada: microchip ISO de 15 dígitos, vacuna antirrábica administrada no antes de 30 días ni después de 11 meses de la entrada, y certificado veterinario oficial emitido en los 14 días previos y visado por la autoridad veterinaria del país de origen (PetTravel, fuente no oficial).
+- Se exigen además tratamientos antiparasitarios interno y externo por veterinario colegiado y vacunación de moquillo, hepatitis, parvovirus y parainfluenza. No consta permiso previo de importación.
+- No hay lista publicada de razas prohibidas, pero tampoco una fuente egipcia oficial que lo desmienta: POR CONFIRMAR con la General Organization for Veterinary Services (GOVS).
+- VUELTA A LA UE: Egipto NO figura en las listas del Reglamento de Ejecución (UE) 2026/636 —el único país africano listado es Mauricio—, así que aplica el régimen completo del Reglamento Delegado (UE) 2026/131: TITULACIÓN DE ANTICUERPOS ANTIRRÁBICOS.
+- Vía A, la que sirve: hacer la titulación en España ANTES de salir, con extracción al menos 30 días después de la vacunación y en laboratorio autorizado por la UE, y anotarla en el pasaporte del perro. Así el plazo de tres meses ya está cumplido al volver.
+
+---
+
+**Dónde se pide.** General Organization for Veterinary Services (GOVS), Ministerio de Agricultura y Bonificación de Tierras de Egipto — [portada del organismo](https://www.govs.gov.eg/) ⚠️ *no se ha localizado la página del trámite*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** ✅ Sí · 14 días · lo emite: Veterinario colegiado del país de origen, con visado (endoso) de la autoridad veterinaria oficial; en España, los Servicios Veterinarios de Sanidad Exterior del MAPA  
+**Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/egypt-pet-import-requirements/) · [fsis.usda.gov](https://www.fsis.usda.gov/inspection/import-export/import-export-library/egypt)  
+
+## 3.30 ETIOPÍA 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Avión a Adís Abeba–Bole (ADD, 8,978 N / 38,799 E) o por tierra desde Kenia por Moyale. MAEC desaconseja todas las fronteras terrestres.
+**Papeles:** Permiso previo de importación del Ministerio de Agricultura, microchip ISO y rabia entre 30 días y 12 meses antes (PetTravel). Vuelta a la UE: Etiopía NO está en el Anexo II del Reg. (UE) 2026/636 → titulación antirrábica obligatoria.
+
+- ENTRADA: se exige permiso previo de importación del Ministerio de Agricultura, microchip ISO 11784/11785 de 15 dígitos y vacuna antirrábica administrada entre 30 días y 12 meses antes de la llegada, más certificado veterinario del país de origen (PetTravel). No se ha podido abrir una página oficial etíope que lo confirme.
+- PetTravel añade que desde países considerados de alto riesgo se pide además titulación de anticuerpos antirrábicos, realizada al menos 30 días después de la vacunación. El plazo de validez en días del certificado veterinario no está publicado: POR CONFIRMAR.
+- RAZAS PROHIBIDAS: Etiopía no publica lista de razas vetadas, según PetTravel; la responsabilidad por la conducta del animal recae en el propietario. Sin lista oficial localizada, se da por confirmado solo a nivel de fuente secundaria.
+- VUELTA A LA UE: Etiopía NO figura en el Anexo II del Reglamento de Ejecución (UE) 2026/636 —ningún país africano continental está en esa lista; la única excepción africana es Mauricio, insular—. Eso obliga a la vía larga.
+- Vía A en la práctica: titulación de anticuerpos antirrábicos ≥ 0,5 UI/ml en laboratorio autorizado por la UE, con muestra tomada al menos 30 días después de la vacunación, y entrada en España solo 90 DÍAS DESPUÉS de la extracción, más certificado zoosanitario firmado por veterinario oficial etíope y entrada por un Punto de Entrada de Viajeros autorizado (MAPA).
+
+---
+
+**Dónde se pide.** Ministerio de Agricultura de la RDFE (FDRE Ministry of Agriculture) — servicios veterinarios y sanidad animal; la Ethiopian Agricultural Authority ejerce funciones de autoridad competente — [portada del organismo](https://www.moa.gov.et/) ⚠️ *no se ha localizado la página del trámite*  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario colegiado del país de origen, con endoso recomendado de la autoridad competente (en España, Servicios Veterinarios Oficiales); permiso previo de importación emitido por el Ministerio de Agricultura etíope  
+**Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/ethiopia-pet-import-requirements/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
+
+## 3.31 YIBUTI 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Por tierra desde Etiopía (Galafi, Dewele/Ali Sabieh, Balho) o desde Somalilandia (Loyada); en avión a Yibuti-Ambouli (JIB); en tren Adís Abeba–Nagad desde el 1 de enero de 2018.
+**Papeles:** SIN REQUISITOS PUBLICADOS por Yibuti. La web del ministerio competente (maepe-rh.dj) existe pero no publica trámite. Vuelta a la UE por vía A: titulación antirrábica hecha en la UE con 3 meses de antelación.
+
+- NO HAY REQUISITOS PUBLICADOS POR YIBUTI. La web del ministerio competente —Ministère de l'Agriculture, de l'Eau, de la Pêche, de l'Élevage et des Ressources Halieutiques, maepe-rh.dj— existe y abre, pero es un portal institucional genérico sin apartado de importación de animales de compañía. El servicio veterinario oficial estadounidense (APHIS) declara expresamente que los requisitos para perros y gatos hacia Yibuti «no son conocidos» y remite al importador a pedir un permiso de importación al ministerio. Hay que dar por hecho que hace falta permiso previo y gestionarlo con semanas de antelación.
+- Lo mínimo exigible en cualquier escenario, y lo que hay que llevar sí o sí: microchip ISO, vacuna antirrábica vigente con al menos 21 días desde la primovacunación, certificado veterinario internacional REDACTADO EN FRANCÉS y firmado por veterinario oficial en los días previos a la entrada, y desparasitación interna y externa documentada.
+- RAZAS PROHIBIDAS: no consta lista publicada por Yibuti. POR CONFIRMAR. Conviene contar con que un perro de tipo molosoide puede generar fricción en frontera aunque no exista norma escrita.
+- VUELTA A LA UE: Yibuti NO figura en ninguno de los anexos del Reglamento de Ejecución (UE) 2026/636, aplicable desde el 22 de abril de 2026, y ningún país africano continental está en esas listas. Se aplica por tanto la vía A, con plazos que hay que respetar al día según el MAPA: microchip, vacuna antirrábica a partir de las 12 semanas de edad, extracción de sangre para la valoración serológica AL MENOS 30 DÍAS DESPUÉS de la vacunación, resultado igual o superior a 0,5 UI/ml en laboratorio autorizado, y 90 DÍAS DE ESPERA desde la fecha de extracción antes de entrar en la UE.
+- La titulación se hace en España ANTES de salir y se anota en el pasaporte europeo del animal: si está hecha y vigente, la vuelta desde Yibuti no exige repetirla, solo el certificado zoosanitario firmado por veterinario oficial y la declaración según los modelos del Reglamento de Ejecución (UE) 2026/705. La entrada debe hacerse por un Punto de Entrada de Viajeros (PEV) autorizado, con control documental y de identidad.
+
+---
+
+**Dónde se pide.** Ministère de l'Agriculture, de l'Eau, de la Pêche, de l'Élevage et des Ressources Halieutiques de la République de Djibouti (MAEPE-RH) — autoridad competente citada por el servicio veterinario oficial estadounidense — [portada del organismo](https://www.maepe-rh.dj/) ⚠️ *no se ha localizado la página del trámite*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** sin confirmar · lo emite: por confirmar; en la práctica, certificado veterinario internacional en francés firmado por veterinario oficial del país de salida  
+**Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/live-animal-export/export-live-animals-djibouti) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636&qid=1776938175276)  
 
 # 4. La vuelta a la UE
 

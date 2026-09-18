@@ -1,70 +1,1132 @@
 [
   {
     "n": 1,
-    "name": "Valle del Omo (Turmi y mercados del sur)",
-    "cat": "Cultura",
+    "name": "Adís Abeba · Museo Nacional (Lucy), Merkato y catedral de la Trinidad",
+    "cat": "Ciudad · servicios",
     "prio": "Alta",
     "dog": "no recomendado",
-    "time": "2 noches",
-    "lat": 4.95,
-    "lon": 36.4833,
-    "desc": "Mosaico de pueblos (hamer, mursi, karo, dassanech) con mercados semanales tradicionales; visitar siempre con guía local, con respeto y consentimiento explícito antes de fotografiar a las personas, evitando cualquier trato del encuentro como espectáculo.",
-    "credit": "Josep M. Gracia · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Market%20scene%20in%20Turmi%2C%20Ethiopia%2C%202011.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Market%20scene%20in%20Turmi%2C%20Ethiopia%2C%202011.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": ""
+    "time": "1–2 noches",
+    "lat": 9.0382429,
+    "lon": 38.7617736,
+    "desc": "Capital a 2.355 m y sede de la Unión Africana, es el punto de entrada logístico del país: talleres, repuestos, embajadas y cambio. El Museo Nacional guarda a Lucy (Dinkinesh), el Australopithecus afarensis de 3,2 millones de años, y a Selam, de 3,3 millones. La catedral de la Trinidad es el templo ortodoxo de mayor rango de la ciudad y alberga las tumbas de Haile Selassie y de Sylvia Pankhurst. El Merkato, enorme mercado abierto, exige vigilancia extrema con carteristas y NO es sitio para dejar los coches cargados.",
+    "dog_note": "El Museo Nacional y la catedral de la Trinidad son recinto cerrado y religioso; el Merkato es una aglomeración inviable con perro. Sirve como base logística, no como visita canina.",
+    "visit": {
+      "why": "Es la única ciudad del país con servicios de verdad para dos 4x4 y el mejor museo para entender por qué Etiopía es la cuna de los homínidos.",
+      "see": "Lucy y Selam en el Museo Nacional, la cripta imperial de la catedral de la Trinidad, el Merkato y el mirador de Entoto sobre la ciudad.",
+      "access": "Asfalto y ring road en buen estado; el tráfico y los minibuses son el verdadero peligro. Aparcamiento vigilado solo en hoteles y en el propio recinto del museo: reserva alojamiento con patio cerrado para los dos vehículos. Entrada al museo simbólica (pocos birr, importe POR CONFIRMAR en taquilla). El pin marca la entrada del Museo Nacional, en la zona universitaria.",
+      "when": "Todo el año; el clima de altura es templado. Museo por la mañana, Merkato entre semana y nunca al caer la tarde.",
+      "skip": "Descártalo como visita si viajas con el perro sin poder dejarlo alojado, o durante estados de emergencia con restricciones de circulación."
+    },
+    "links": [
+      {
+        "label": "Museo Nacional de Etiopía (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ethiopia"
+      },
+      {
+        "label": "Catedral de la Trinidad (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral,_Addis_Ababa"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethiopian_National_Museum_in_Addis_Ababa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ethiopian_National_Museum_in_Addis_Ababa.jpg",
+        "credit": "Ninaras · CC BY 4.0",
+        "caption": "El Museo Nacional de Etiopía, donde se expone Lucy."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/National_museum_of_Ethiopia_New_facility.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:National_museum_of_Ethiopia_New_facility.JPG",
+        "credit": "Richard van Alphen · Public domain",
+        "caption": "El edificio nuevo del museo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Addis_Ababa_City_view.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Addis_Ababa_City_view.jpg",
+        "credit": "Ninaras · CC BY-SA 4.0",
+        "caption": "Adís Abeba desde las alturas."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethiopian_National_Museum_in_Addis_Ababa.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ethiopian_National_Museum_in_Addis_Ababa.jpg",
+    "credit": "Ninaras · CC BY 4.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
   },
   {
     "n": 2,
-    "name": "Addis Abeba",
-    "cat": "Ciudad · servicios",
+    "name": "Lalibela · las once iglesias excavadas en la roca (UNESCO)",
+    "cat": "Patrimonio UNESCO",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2 noches",
-    "lat": 9.025,
-    "lon": 38.7469,
-    "desc": "Capital y mayor base de servicios, talleres y recambios del tramo; sede de la embajada de España (que también cubre Yibuti y Seychelles) y punto de decisión sobre cómo continuar el viaje dado el bloqueo del corredor de Sudán.",
-    "credit": "ምቅ37382 · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Addis%20abeba%20meskele%20square.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Addis%20abeba%20meskele%20square.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 12.0331956,
+    "lon": 39.0433851,
+    "desc": "Once iglesias medievales talladas hacia abajo en la toba volcánica, no construidas: el rey Lalibela quiso levantar en el siglo XII una «nueva Jerusalén» cuando las conquistas musulmanas cortaron la peregrinación a Tierra Santa. Biete Medhani Alem está considerada la MAYOR IGLESIA MONOLÍTICA DEL MUNDO y Bete Giyorgis, en cruz griega, es la imagen del país. Siguen en culto: hay que descalzarse y respetar oficios. Advertencia seria: el MAEC desaconseja los desplazamientos a Amhara y cita Lalibela por su nombre.",
+    "dog_note": "Recinto religioso ortodoxo en uso y lugar de peregrinación; los perros no entran en los patios ni en las iglesias.",
+    "visit": {
+      "why": "Es el monumento más extraordinario de África oriental y el único sitio del país que justifica por sí solo un viaje.",
+      "see": "Los cuatro grupos de iglesias (norte, este, oeste y las exteriores como Asheton Maryam y Yemrehana Krestos), túneles, trincheras y sacerdotes con cruces procesionales.",
+      "access": "Asfalto desde Woldiya y desde Gashena, con tramos de montaña y baches; el pueblo está a ~2.500 m. Aparcamiento amplio junto a la taquilla y en los hoteles del alto. Entrada única válida varios días (importe POR CONFIRMAR: ha subido repetidamente). SEGURIDAD: Amhara es zona de la insurgencia Fano, con estados de emergencia intermitentes y cortes de carretera; el MAEC (26-05-2026) y el FCDO (29-05-2026) desaconsejan viajar a la región. El pin marca la taquilla del conjunto rupestre.",
+      "when": "Octubre a marzo, seco. Genna (Navidad ortodoxa, 7 de enero) llena el pueblo de peregrinos: espectacular e imposible de alojar.",
+      "skip": "Descártalo mientras Amhara siga desaconsejada o haya estado de emergencia: no hay forma de garantizar el acceso por carretera."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Rock-Hewn Churches, Lalibela (nº 18)",
+        "url": "https://whc.unesco.org/en/list/18/"
+      },
+      {
+        "label": "Lalibela (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lalibela"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bete_Giyorgis_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bete_Giyorgis_01.jpg",
+        "credit": "Bernard Gagnon · CC BY-SA 3.0",
+        "caption": "Bete Giyorgis, la iglesia de San Jorge, excavada en cruz."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethiopia_-_sunset_at_Church_of_Saint_George,_Lalibela_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ethiopia_-_sunset_at_Church_of_Saint_George,_Lalibela_01.jpg",
+        "credit": "Thomas Fuhrmann · CC BY-SA 4.0",
+        "caption": "Atardecer sobre Bete Giyorgis."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lalibela,_san_giorgio,_esterno_24.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lalibela,_san_giorgio,_esterno_24.jpg",
+        "credit": "Sailko · CC BY 3.0",
+        "caption": "El foso excavado alrededor de la iglesia."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bete_Giyorgis_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bete_Giyorgis_01.jpg",
+    "credit": "Bernard Gagnon · CC BY-SA 3.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
   },
   {
     "n": 3,
-    "name": "Lago Langano",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
+    "name": "Axum · las estelas y Santa María de Sion (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
     "time": "1 noche",
-    "lat": 7.5833,
-    "lon": 38.75,
-    "desc": "Lago del Valle del Rift apto para el baño (a diferencia de la mayoría de lagos etíopes), con lodges y campings de descanso a un día de Addis Abeba; buena parada de transición hacia el sur o el este.",
-    "credit": "Nina R from Africa · CC BY 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Langano%2C%20Ethiopia%20(51101653388).jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lake%20Langano%2C%20Ethiopia%20(51101653388).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "lat": 14.1320767,
+    "lon": 38.7193644,
+    "desc": "Capital del reino de Aksum, «el estado más poderoso entre el Imperio Romano de Oriente y Persia» según la UNESCO. Quedan obeliscos monolíticos, tumbas reales y ruinas de palacios de los siglos I a XIII. La GRAN ESTELA, de 33 m, se partió al levantarla y sigue tumbada; la mayor en pie supera los 23 m y está tallada como un edificio de nueve plantas. En Santa María de Sion, reconstruida por Fasilides en 1665, la tradición sitúa el Arca de la Alianza. Está en Tigray: región desaconsejada.",
+    "dog_note": "Campo de estelas y recinto eclesiástico en culto; la capilla del Arca tiene prohibido el acceso incluso a las mujeres, con más razón a los animales.",
+    "visit": {
+      "why": "Es el yacimiento fundacional de la identidad etíope y el mayor conjunto de estelas monolíticas del continente.",
+      "see": "El campo de estelas norte, la tumba del rey Kaleb, la piscina de la reina de Saba, el museo y el recinto de Santa María de Sion con la capilla del Arca.",
+      "access": "Asfalto desde Shire y desde Adwa; la carretera Debark–Limalimo–Shire es de montaña y estuvo muy dañada durante la guerra (ESTADO POR CONFIRMAR). Aparcamiento junto al campo de estelas y en los hoteles del centro. SEGURIDAD: Tigray tras el acuerdo de Pretoria (noviembre de 2022) sigue con tensión política interna —en marzo de 2025 una facción del TPLF tomó oficinas en Mekelle— y el MAEC (26-05-2026) desaconseja los desplazamientos a la región. El pin marca el campo de estelas norte, junto a la taquilla.",
+      "when": "Octubre a marzo. Las fiestas marianas de noviembre llenan la ciudad.",
+      "skip": "Descártalo mientras Tigray siga desaconsejada, la frontera con Eritrea cerrada y sin confirmar el estado de los accesos por carretera."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Aksum (nº 15)",
+        "url": "https://whc.unesco.org/en/list/15/"
+      },
+      {
+        "label": "Axum (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Axum"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Axum_asv2018-01_img40_Stelae_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ET_Axum_asv2018-01_img40_Stelae_Park.jpg",
+        "credit": "A.Savin · FAL",
+        "caption": "El parque de estelas norte de Axum."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stelae,_Aksum,_Ethiopia_(7158408756).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Stelae,_Aksum,_Ethiopia_(7158408756).jpg",
+        "credit": "Rod Waddington · CC BY-SA 2.0",
+        "caption": "La Gran Estela caída, el mayor monolito jamás tallado."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Facade_of_Axumite_House_-_Main_Stelae_Field_-_Axum_(Aksum)_-_Ethiopia_(8701131121).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Facade_of_Axumite_House_-_Main_Stelae_Field_-_Axum_(Aksum)_-_Ethiopia_(8701131121).jpg",
+        "credit": "Adam Jones · CC BY-SA 2.0",
+        "caption": "Fachada axumita tallada en una estela."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Axum_asv2018-01_img40_Stelae_Park.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:ET_Axum_asv2018-01_img40_Stelae_Park.jpg",
+    "credit": "A.Savin · FAL",
+    "icon": "patrimonio unesco",
+    "color": "marron"
   },
   {
     "n": 4,
-    "name": "Harar (ciudad amurallada, Jugol)",
+    "name": "Gondar · Fasil Ghebbi y los baños de Fasilides (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1 noche",
+    "lat": 12.6080067,
+    "lon": 37.4696345,
+    "desc": "Fasilides rompió en 1645 la tradición de la corte itinerante y fijó capital en Gondar. El recinto real reúne palacios, tres iglesias, biblioteca, sala de banquetes y baños dentro de una muralla de 900 m con doce puertas, sobre 70.000 m². La mezcla es insólita: influencias hindúes y árabes transformadas por el barroco que trajeron los jesuitas. Los baños de Fasilides, a las afueras, se llenan una vez al año para el TIMKAT (Epifanía, 19 de enero) y se convierten en una piscina bautismal multitudinaria. Amhara está desaconsejada por el MAEC.",
+    "dog_note": "Recinto monumental cerrado con taquilla y con iglesias en uso; no admite animales.",
+    "visit": {
+      "why": "Es el único conjunto palaciego «de castillos» de África subsahariana y explica dos siglos de arquitectura etíope.",
+      "see": "El castillo de Fasilides, el palacio de Iyasu, la muralla de doce puertas, la iglesia de Debre Berhan Selassie con su techo de ángeles y los baños.",
+      "access": "Asfalto desde Bahir Dar (~180 km) y desde Debark. Aparcamiento delante de la puerta principal del recinto, suficiente para dos 4x4; los baños tienen su propio acceso a ~2 km. Entrada conjunta recinto + baños (importe POR CONFIRMAR). SEGURIDAD: región Amhara, escenario del conflicto con las milicias Fano desde agosto de 2023; MAEC (26-05-2026) y FCDO (29-05-2026) desaconsejan viajar allí. El pin marca la puerta de entrada al recinto real.",
+      "when": "Octubre a marzo. El 19 de enero (Timkat) es el día grande de los baños.",
+      "skip": "Descártalo mientras Amhara siga desaconsejada o haya estado de emergencia regional."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Fasil Ghebbi, Gondar Region (nº 19)",
+        "url": "https://whc.unesco.org/en/list/19/"
+      },
+      {
+        "label": "Fasil Ghebbi (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Fasil_Ghebbi"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Gondar_asv2018-02_img18_Fasil_Ghebbi.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ET_Gondar_asv2018-02_img18_Fasil_Ghebbi.jpg",
+        "credit": "A.Savin · FAL",
+        "caption": "El recinto real de Fasil Ghebbi, en Gondar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fasil_Ghebbi_(6821473537).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fasil_Ghebbi_(6821473537).jpg",
+        "credit": "Martijn Munneke · CC BY 2.0",
+        "caption": "El castillo de Fasilides."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Ruins_at_Gondar,_Ethiopia_-_Mentewabs_Castle_(2414832141).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Ruins_at_Gondar,_Ethiopia_-_Mentewabs_Castle_(2414832141).jpg",
+        "credit": "A. Davey · CC BY 2.0",
+        "caption": "El castillo de Mentewab."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Gondar_asv2018-02_img18_Fasil_Ghebbi.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:ET_Gondar_asv2018-02_img18_Fasil_Ghebbi.jpg",
+    "credit": "A.Savin · FAL",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 5,
+    "name": "Lago Tana · monasterios de las islas y salida del Nilo Azul",
     "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 11.6039306,
+    "lon": 37.3946262,
+    "desc": "El mayor lago de Etiopía, 3.200 km² a 1.788 m, y una de las fuentes del Nilo Azul, que sale por Bahir Dar. En sus islas y penínsulas sobreviven monasterios ortodoxos de los siglos XIV-XVII —Ura Kidane Mehret, Azwa Maryam, Narga Selassie, Kebran Gabriel, Tana Qirqos, Daga Estifanos— con murales y tesoros de manuscritos. Se visitan en barca desde Bahir Dar en medio día o una jornada. Ojo: ALGUNOS MONASTERIOS NO ADMITEN MUJERES, conviene decidir el itinerario con eso delante. Región Amhara, desaconsejada por el MAEC.",
+    "dog_note": "Los monasterios son recintos religiosos en clausura parcial (algunos vetados a mujeres) y se llega en barca compartida: el perro se queda en Bahir Dar.",
+    "visit": {
+      "why": "Reúne pintura mural etíope viva, hipopótamos y la salida del Nilo Azul en una misma jornada de barca.",
+      "see": "Murales de Ura Kidane Mehret en la península de Zege, Narga Selassie en Dek, hipopótamos en la desembocadura y las barcas de papiro (tankwa).",
+      "access": "Bahir Dar está en asfalto desde Adís Abeba (~578 km) y desde Gondar. Los embarcaderos están en el paseo del lago y en los hoteles de la orilla; aparcamiento en el recinto del hotel, aceptable para dos 4x4. Precio de la lancha por grupo, se negocia en el muelle (importe POR CONFIRMAR). SEGURIDAD: Amhara desaconsejada por MAEC (26-05-2026) y FCDO (29-05-2026). El pin marca el embarcadero del Tana Hotel, en Bahir Dar.",
+      "when": "Octubre a marzo. Salida a primera hora: el lago se encrespa por la tarde.",
+      "skip": "Descártalo si solo dispones de medio día o si Amhara sigue cerrada de hecho por el conflicto."
+    },
+    "links": [
+      {
+        "label": "Lago Tana (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lake_Tana"
+      },
+      {
+        "label": "Bahir Dar (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Bahir_Dar"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Debre_Mariam_Monastery_on_Lake_Tana_Ethiopia_(1).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Debre_Mariam_Monastery_on_Lake_Tana_Ethiopia_(1).jpg",
+        "credit": "Radosław Botev · CC BY 3.0 pl",
+        "caption": "El monasterio de Debre Mariam, en el lago Tana."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Amhara_asv2018-02_img068_Lake_Tana_at_Bahir_Dar.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ET_Amhara_asv2018-02_img068_Lake_Tana_at_Bahir_Dar.jpg",
+        "credit": "A.Savin · FAL",
+        "caption": "Hipopótamos en el Tana, cerca de Bahir Dar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/16_lago_Tana_Etiopia.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:16_lago_Tana_Etiopia.JPG",
+        "credit": "Cooperazione · CC BY-SA 4.0",
+        "caption": "El lago Tana, nacimiento del Nilo Azul."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Debre_Mariam_Monastery_on_Lake_Tana_Ethiopia_(1).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Debre_Mariam_Monastery_on_Lake_Tana_Ethiopia_(1).jpg",
+    "credit": "Radosław Botev · CC BY 3.0 pl",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 6,
+    "name": "Cataratas del Nilo Azul · Tis Issat",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "medio día",
+    "lat": 11.4905589,
+    "lon": 37.588051,
+    "desc": "Tis Abay, «el gran humo» en amárico, cae 42 m sobre el Nilo Azul a unos 30 km aguas abajo de Bahir Dar. Fue el salto más célebre de Etiopía, pero desde 2003 UNA CENTRAL HIDROELÉCTRICA DESVÍA BUENA PARTE DEL CAUDAL y fuera de la estación de lluvias el espectáculo queda muy rebajado. La visita es un circuito a pie de dos a tres horas con puente portugués del siglo XVII y puente colgante. Merece la parada solo entre julio y septiembre, o si ya estás en Bahir Dar.",
+    "dog_note": "Sendero largo con puente colgante, mucha gente y guías locales; no hay prohibición documentada, pero el manejo con perro es incómodo.",
+    "visit": {
+      "why": "Es la caída histórica del Nilo Azul y un paseo agradable por campos y aldeas si coincides con aguas altas.",
+      "see": "El salto de 42 m, la garganta, el puente portugués sobre el Abbay y el mirador de la orilla opuesta.",
+      "access": "~30 km de Bahir Dar por carretera asfaltada hasta el pueblo de Tis Abay y luego pista corta; aparcamiento de tierra junto a la taquilla, holgado para dos 4x4. Entrada y guía local obligatorios (importes POR CONFIRMAR). Región Amhara: MAEC (26-05-2026) desaconseja los desplazamientos a la región. El pin marca la taquilla del pueblo de Tis Abay.",
+      "when": "Julio a septiembre, con las lluvias y el caudal alto. Primera hora de la mañana por la luz.",
+      "skip": "Descártalo en estación seca: con la central en marcha el salto se queda en un hilo."
+    },
+    "links": [
+      {
+        "label": "Cataratas del Nilo Azul (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Blue_Nile_Falls"
+      },
+      {
+        "label": "Lago Tana (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lake_Tana"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Bahir_Dar_asv2018-02_img17_Tis_Issat.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ET_Bahir_Dar_asv2018-02_img17_Tis_Issat.jpg",
+        "credit": "A.Savin · FAL",
+        "caption": "Las cataratas del Nilo Azul en Tis Issat."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Nile_Falls-03,_by_CT_Snow.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Blue_Nile_Falls-03,_by_CT_Snow.jpg",
+        "credit": "CT Snow · CC BY 2.0",
+        "caption": "El salto visto desde el mirador."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Nile_Falls,_Ethiopia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Blue_Nile_Falls,_Ethiopia.jpg",
+        "credit": "Barrowbob · CC BY-SA 4.0",
+        "caption": "El Nilo Azul tras la caída."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Bahir_Dar_asv2018-02_img17_Tis_Issat.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:ET_Bahir_Dar_asv2018-02_img17_Tis_Issat.jpg",
+    "credit": "A.Savin · FAL",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 7,
+    "name": "Montes Simien · parque nacional, gelada e ibex walia (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "2–3 noches",
+    "lat": 13.2027138,
+    "lon": 37.8876477,
+    "desc": "Uno de los paisajes de montaña más espectaculares de África: 412 km² de picos, valles y precipicios que caen unos 1.500 m, con el RAS DASHEN (~4.550 m), techo de Etiopía. Aquí viven el ibex walia, que no existe en ningún otro sitio, tropas enormes de gelada y el rarísimo lobo etíope. Fue Patrimonio en Peligro entre 1996 y 2017. Se entra por Debark, a 2.850 m, donde están la sede del parque y los guías y scouts obligatorios. Región Amhara: desaconsejada por el MAEC.",
+    "dog_note": "Parque nacional con lobo etíope, leopardo y fauna endémica muy sensible; los perros domésticos son además vector de rabia y moquillo para el lobo etíope.",
+    "visit": {
+      "why": "Es el mejor trekking de altura del continente y la única opción de ver ibex walia en libertad.",
+      "see": "Escarpe de Geech, cascada de Jinbar, tropas de gelada a pocos metros, ibex en Chennek y el Bwahit.",
+      "access": "Asfalto hasta Debark; dentro del parque, pista de tierra apta para 4x4 hasta Sankaber y Chennek, con tramos expuestos y barro en lluvias. Aparcamiento en los campamentos y en la sede del parque. Entrada por persona y día, más scout armado obligatorio y guía (importes POR CONFIRMAR en la oficina de Debark). SEGURIDAD: Amhara desaconsejada por MAEC (26-05-2026) y FCDO (29-05-2026). El pin marca la sede del parque en Debark, donde se pagan permisos.",
+      "when": "Octubre a marzo, seco y despejado; las noches bajan de cero por encima de 3.500 m.",
+      "skip": "Descártalo si no puedes dedicarle al menos dos noches dentro del parque o si la región está cerrada por el conflicto."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Simien National Park (nº 9)",
+        "url": "https://whc.unesco.org/en/list/9/"
+      },
+      {
+        "label": "Simien Mountains National Park (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Simien_Mountains_National_Park"
+      },
+      {
+        "label": "Debark (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Debarq"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Simien_Mountains_National_Park_in_Ethiopia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Simien_Mountains_National_Park_in_Ethiopia.jpg",
+        "credit": "Barrowbob · CC BY-SA 4.0",
+        "caption": "El escarpe del parque nacional de Simien."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Southern_gelada_(Theropithecus_gelada_obscura)_female_with_baby.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Southern_gelada_(Theropithecus_gelada_obscura)_female_with_baby.jpg",
+        "credit": "Charles J. Sharp · CC BY-SA 4.0",
+        "caption": "Gelada hembra con cría, endémica de estas montañas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Simien_Mountains,_Ethiopia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Simien_Mountains,_Ethiopia.jpg",
+        "credit": "Barrowbob · CC BY-SA 4.0",
+        "caption": "Las cumbres del Simien."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Simien_Mountains_National_Park_in_Ethiopia.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Simien_Mountains_National_Park_in_Ethiopia.jpg",
+    "credit": "Barrowbob · CC BY-SA 4.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 8,
+    "name": "Gheralta · iglesias rupestres de Tigray y Abuna Yemata Guh",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 13.9152875,
+    "lon": 39.3452969,
+    "desc": "El macizo de Gheralta, en Tigray, concentra la mayor agrupación de iglesias excavadas en la roca de Etiopía: unas 35. La más famosa, Abuna Yemata Guh, está a 2.580 m, unos 200 m sobre el llano, y se alcanza TREPANDO SIN CUERDA por agarres tallados en la arenisca, cruzando un puente natural con caída de unos 250 m a ambos lados y una pasarela de madera. Dentro, frescos del siglo XV en muy buen estado. No es apta para quien tenga vértigo. Tigray está desaconsejada por el MAEC.",
+    "dog_note": "Se accede trepando por roca con pasos expuestos y se entra en iglesia en culto: imposible e improcedente con perro.",
+    "visit": {
+      "why": "Ninguna otra iglesia del mundo se gana así, y los frescos del XV están casi intactos por el aislamiento.",
+      "see": "Frescos y dípticos con texto en ge'ez, la cornisa de acceso, y desde arriba toda la llanura de Hawzen con las agujas de arenisca.",
+      "access": "Asfalto hasta Hawzen y Megab; el último tramo hasta el pie de la pared es pista de tierra, bien para 4x4, con aparcamiento informal en el pueblo de Megab. Guía y «escaladores» locales obligatorios, más entrada de la iglesia (importes POR CONFIRMAR). Subida de ~45 min a pie más la trepada. SEGURIDAD: Tigray desaconsejada por MAEC (26-05-2026) y FCDO (29-05-2026); muchas iglesias sufrieron saqueos durante la guerra de 2020-2022 (ESTADO POR CONFIRMAR). El pin marca la iglesia; se conduce hasta Megab.",
+      "when": "Octubre a marzo, y a primera hora: la roca se pone al rojo al mediodía.",
+      "skip": "Descártalo con vértigo, con lluvia (la arenisca resbala) o mientras Tigray siga desaconsejada."
+    },
+    "links": [
+      {
+        "label": "Abuna Yemata Guh (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Abuna_Yemata_Guh"
+      },
+      {
+        "label": "Mekelle, capital de Tigray (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Mekelle"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abuna_Yemata_Guh_Mural_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Abuna_Yemata_Guh_Mural_2.jpg",
+        "credit": "Mark Fischer · CC BY-SA 2.0",
+        "caption": "Murales del siglo XV en Abuna Yemata Guh."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gheralta_Mountains,_Tigray,_Ethiopia_2013_-_panoramio.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gheralta_Mountains,_Tigray,_Ethiopia_2013_-_panoramio.jpg",
+        "credit": "MarcD. · CC BY-SA 3.0",
+        "caption": "Los pitones de arenisca del Gheralta."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Houses_in_Gheralta_Massif.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Houses_in_Gheralta_Massif.jpg",
+        "credit": "Bernard Gagnon · CC BY-SA 3.0",
+        "caption": "Casas al pie del macizo."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abuna_Yemata_Guh_Mural_2.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Abuna_Yemata_Guh_Mural_2.jpg",
+    "credit": "Mark Fischer · CC BY-SA 2.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 9,
+    "name": "Harar · Jugol, la ciudad amurallada y el hombre de las hienas (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "no recomendado",
+    "time": "1–2 noches",
+    "lat": 9.3124367,
+    "lon": 42.121843,
+    "desc": "Ciudad santa del islam —para muchos la cuarta— amurallada entre los siglos XIII y XVI, con cinco puertas históricas y, según la UNESCO, 82 MEZQUITAS, TRES DE ELLAS DEL SIGLO X, y 102 santuarios en apenas 48 hectáreas. Las casas harari, de interiores policromados, son lo más singular del conjunto. Cada noche, desde los años sesenta, los «hombres de las hienas» dan de comer carne cruda a hienas salvajes junto a las murallas. Está en la región Harari, no citada por el MAEC, pero se llega cruzando Oromía, sí desaconsejada.",
+    "dog_note": "Ciudad santa musulmana con mezquitas y santuarios vetados a los perros, callejones densos y, de noche, HIENAS MANCHADAS SUELTAS en las puertas: peligro real para el animal.",
+    "visit": {
+      "why": "Es el laberinto urbano más vivo de África oriental y el único sitio donde el hombre convive de forma ritual con las hienas.",
+      "see": "Jugol y sus cinco puertas, el mercado, la casa de Arthur Rimbaud, las casas harari tradicionales y el ritual nocturno de las hienas.",
+      "access": "Asfalto desde Dire Dawa (~50 km, puerto de montaña) y desde Adís Abeba por Awash. Los coches NO entran en Jugol: se aparca extramuros, junto a la puerta de Shoa/Duke's Memorial. Entrada a museos y casas por separado; propina fija al hombre de las hienas (importes POR CONFIRMAR). SEGURIDAD: región Harari, no nombrada por el MAEC (26-05-2026), pero rodeada por Oromía —desaconsejada— y cerca de la región Somali, también desaconsejada. El pin marca la puerta de Shoa, donde se aparca.",
+      "when": "Todo el año; a 1.885 m el clima es benigno. El ritual de las hienas es al anochecer.",
+      "skip": "Descártalo si vas con el perro y no tienes alojamiento con patio cerrado: las hienas entran a la ciudad."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Harar Jugol (nº 1189)",
+        "url": "https://whc.unesco.org/en/list/1189/"
+      },
+      {
+        "label": "Harar (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Harar"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Harar,_Ethiopia_-_52016435319.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Harar,_Ethiopia_-_52016435319.jpg",
+        "credit": "Ninara31 · CC BY 2.0",
+        "caption": "Casa tradicional de Jugol, la ciudad amurallada de Harar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Hyena_Man_of_Harar.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Hyena_Man_of_Harar.jpg",
+        "credit": "Gusjer · CC BY 2.0",
+        "caption": "El hombre de las hienas de Harar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Harar,_Ethiopia_1956.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Harar,_Ethiopia_1956.JPG",
+        "credit": "Bair175 · CC BY-SA 3.0",
+        "caption": "Harar en 1956."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Harar,_Ethiopia_-_52016435319.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Harar,_Ethiopia_-_52016435319.jpg",
+    "credit": "Ninara31 · CC BY 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 10,
+    "name": "Depresión del Danakil · Dallol y el volcán Erta Ale",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "3–4 noches",
+    "lat": 13.6069149,
+    "lon": 40.6616942,
+    "desc": "El sitio habitado MÁS CALUROSO DE LA TIERRA: en Dallol, a 130 m bajo el nivel del mar, se midió una media anual de 35 °C entre 1960 y 1966. Sus campos hidrotermales de sales amarillas, verdes y naranjas no se parecen a nada. A un día de pista al sur, el Erta Ale (613 m) mantiene el lago de lava más antiguo conocido, activo al menos desde 1906. Es zona de riesgo alto: cinco turistas murieron en un ataque en enero de 2012 y otro fue tiroteado en diciembre de 2017. Solo con escolta.",
+    "dog_note": "Calor extremo, sal, ácido y gases sulfurosos; además exige escolta militar y noches al raso. Inviable para un animal.",
+    "visit": {
+      "why": "Es el paisaje geotérmico más extremo del planeta y uno de los pocos lagos de lava permanentes que existen.",
+      "see": "Las terrazas y fumarolas de Dallol, el lago salado de Afdera/Karum con las caravanas de sal, y el cráter del Erta Ale de noche.",
+      "access": "Asfalto hasta Berahile o Abala y después pistas de sal, lava y arena que exigen 4x4 alto y convoy; el último tramo al Erta Ale se remata a pie de noche. Acceso SOLO en excursión organizada desde Mekelle con permisos, guía afar y ESCOLTA MILITAR OBLIGATORIA. El MAEC (26-05-2026) exige desplazarse en Afar «acompañado de fuerzas de seguridad y de expertos locales», y el FCDO (29-05-2026) desaconseja todo viaje a la región. El pin marca el volcán; se accede por Berahile.",
+      "when": "Noviembre a enero, cuando el calor es menos brutal. Nunca de abril a septiembre.",
+      "skip": "Descártalo si viajas con vehículo propio sin convoy, con el perro, o mientras Afar siga en nivel de todo viaje desaconsejado."
+    },
+    "links": [
+      {
+        "label": "Erta Ale (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Erta_Ale"
+      },
+      {
+        "label": "Dallol (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Dallol,_Ethiopia"
+      },
+      {
+        "label": "FCDO · Ethiopia safety and security",
+        "url": "https://www.gov.uk/foreign-travel-advice/ethiopia/safety-and-security"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Erta_Ale.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Erta_Ale.jpg",
+        "credit": "filippo_jean · CC BY-SA 2.0",
+        "caption": "El volcán Erta Ale, en el Danakil."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Erta-ale_lac-de-lave_2001.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Erta-ale_lac-de-lave_2001.jpg",
+        "credit": "Hervé Sthioul · CC BY 2.5",
+        "caption": "El lago de lava del Erta Ale."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ET_Afar_asv2018-01_img48_Dallol.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:ET_Afar_asv2018-01_img48_Dallol.jpg",
+        "credit": "A.Savin · FAL",
+        "caption": "Las sales de colores de Dallol."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Erta_Ale.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Erta_Ale.jpg",
+    "credit": "filippo_jean · CC BY-SA 2.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 11,
+    "name": "Valle del Omo · Jinka, Turmi y los mercados del sur (UNESCO)",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "no recomendado",
+    "time": "3–4 noches",
+    "lat": 5.7959219,
+    "lon": 36.5733318,
+    "desc": "El bajo valle del Omo está inscrito por la UNESCO desde 1980 por sus yacimientos de homínidos junto al lago Turkana, pero lo que trae a los viajeros son los pueblos: hamer, mursi, karo, dassanech, bana. Jinka, a 1.490 m, es la base y tiene el museo de investigación del sur del Omo; Turmi, a 925 m, es el pueblo hamer principal, con mercado los lunes y el SALTO DEL TORO como rito de paso. Cuidado con el turismo de fotografía de pago: acuerda el precio antes y respeta las negativas.",
+    "dog_note": "Poblados habitados, ganado por todas partes y visitas con guía: el perro estorba y genera conflicto con los perros locales.",
+    "visit": {
+      "why": "Es la región de diversidad cultural más densa de África y un yacimiento clave de la evolución humana.",
+      "see": "El museo de Jinka, el mercado de Turmi los lunes, el mercado de Dimeka, los poblados mursi de Mago y las aldeas karo sobre el Omo.",
+      "access": "Asfalto hasta Jinka y hasta Turmi; a partir de ahí, pistas de tierra y arena hacia Omorate, Kangaten y los poblados, con vados que se cortan en lluvias. Aparcamiento en los lodges y campings de Turmi y Jinka, amplio. Entrada al parque de Mago y guía/scout obligatorios (importes POR CONFIRMAR). SEGURIDAD: región de Etiopía del Sur; el MAEC (26-05-2026) desaconseja los estados centrales y meridionales y todo punto fronterizo con Kenia y Sudán del Sur. El pin marca el museo de Jinka, base de la zona.",
+      "when": "Junio a septiembre y diciembre a febrero (evita las lluvias largas de marzo a mayo). Mercados a primera hora.",
+      "skip": "Descártalo si vas con prisa: menos de tres días convierte la visita en un safari fotográfico incómodo."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Lower Valley of the Omo (nº 17)",
+        "url": "https://whc.unesco.org/en/list/17/"
+      },
+      {
+        "label": "Jinka (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Jinka"
+      },
+      {
+        "label": "Turmi (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Turmi"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise,_Omo_Valley,_Ethiopia_(21413550896).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunrise,_Omo_Valley,_Ethiopia_(21413550896).jpg",
+        "credit": "Rod Waddington · CC BY-SA 2.0",
+        "caption": "Amanecer en el valle del Omo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamar_community_gathering,_Ethiopia,_2011.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hamar_community_gathering,_Ethiopia,_2011.jpg",
+        "credit": "Josep M. Gracia · CC BY-SA 4.0",
+        "caption": "Reunión de una comunidad hamer."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Etiopia_-_omo_river_valley_DSC_2835_(43).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Etiopia_-_omo_river_valley_DSC_2835_(43).jpg",
+        "credit": "Gianfranco Gori · CC BY-SA 3.0",
+        "caption": "Gente y paisaje del bajo Omo."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise,_Omo_Valley,_Ethiopia_(21413550896).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunrise,_Omo_Valley,_Ethiopia_(21413550896).jpg",
+    "credit": "Rod Waddington · CC BY-SA 2.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 12,
+    "name": "Montes Bale · lobo etíope y la meseta de Sanetti (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "2–3 noches",
+    "lat": 6.8858193,
+    "lon": 39.734338,
+    "desc": "215.000 hectáreas inscritas por la UNESCO en 2023 con «las mayores tasas de endemismo animal de cualquier hábitat terrestre del mundo». La meseta de Sanetti, por encima de 3.000 m, es el mayor afroalpino de África y la cruza LA CARRETERA MÁS ALTA DEL CONTINENTE, que pasa junto al Tullu Dimtu (4.385 m). Es el mejor sitio del planeta para ver el lobo etíope, y al sur baja al bosque húmedo de Harenna. Cinco ríos nacen aquí y abastecen a millones de personas. Sede en Dinsho.",
+    "dog_note": "El lobo etíope está en peligro crítico y la rabia y el moquillo transmitidos por perros domésticos son su principal amenaza: entrar con perro es directamente irresponsable.",
+    "visit": {
+      "why": "Se conduce de los 2.400 m a los 4.000 m en una mañana y es la mayor probabilidad del mundo de ver lobo etíope.",
+      "see": "Lobos etíopes y nyalas de montaña en Sanetti y en el valle del Web, lagos glaciares, lobelias gigantes y el bosque de Harenna con sus colmenas.",
+      "access": "Asfalto hasta Dinsho y Goba; la travesía Goba–Sanetti–Rira–Dolo Mena está asfaltada a tramos y con baches severos, apta para los dos 4x4 pero lenta. Aparcamiento en la sede de Dinsho y en los campamentos. Entrada por persona y vehículo, más scout (importes POR CONFIRMAR). SEGURIDAD: región de Oromía, desaconsejada por el MAEC (26-05-2026) y por el FCDO (29-05-2026) por la actividad del OLA. El pin marca la sede del parque en Dinsho.",
+      "when": "Octubre a marzo. Cruza Sanetti a primera hora: la niebla y el granizo llegan por la tarde.",
+      "skip": "Descártalo si no puedes subir a Sanetti (el lobo apenas se ve por debajo de 3.000 m) o si Oromía está cerrada por operaciones."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Bale Mountains National Park (nº 111)",
+        "url": "https://whc.unesco.org/en/list/111/"
+      },
+      {
+        "label": "Bale Mountains National Park (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Bale_Mountains_National_Park"
+      },
+      {
+        "label": "MAEC · Recomendaciones de viaje Etiopía",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Etiop%C3%ADa"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bale_mountains.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bale_mountains.jpg",
+        "credit": "AGoetzke · CC BY-SA 2.0",
+        "caption": "La meseta de Sanetti, en los montes Bale."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethiopian_wolf_(Canis_simensis_citernii)_2.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ethiopian_wolf_(Canis_simensis_citernii)_2.jpg",
+        "credit": "Charles J. Sharp · CC BY-SA 4.0",
+        "caption": "Lobo etíope, el cánido más amenazado del mundo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bale_Mtns,_Ethiopia_(16810718520).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bale_Mtns,_Ethiopia_(16810718520).jpg",
+        "credit": "Rod Waddington · CC BY-SA 2.0",
+        "caption": "Páramo afroalpino del Bale."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bale_mountains.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bale_mountains.jpg",
+    "credit": "AGoetzke · CC BY-SA 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 13,
+    "name": "Lagos del Rift · Langano, Abiata-Shala y Ziway",
+    "cat": "Naturaleza",
     "prio": "Media",
     "dog": "permitido con condiciones",
     "time": "1–2 noches",
-    "lat": 9.3125,
-    "lon": 42.1258,
-    "desc": "Cuarta ciudad santa del islam y casco histórico amurallado (Jugol, UNESCO), con más de 80 mezquitas en un laberinto de callejones; última gran referencia cultural antes de virar hacia la frontera de Galafi con Yibuti.",
-    "credit": "Bikoadem · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20City%20(Jugal)%20Jamia%20Mosque%20inside%20Jugol%201.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Old%20City%20(Jugal)%20Jamia%20Mosque%20inside%20Jugol%201.jpg",
+    "lat": 7.5931358,
+    "lon": 38.6907762,
+    "desc": "Tres lagos a un par de horas de la capital por la carretera de Moyale. Langano, 230 km² a 1.585 m, es marrón por su carga mineral y es el ÚNICO LAGO DEL RIFT ETÍOPE LIBRE DE BILHARZIA, así que se puede nadar; su orilla oeste concentra los resorts y campings. Abiata-Shala protege 887 km² con dos lagos alcalinos separados por tres kilómetros de cerros, flamencos comunes y enanos y fuentes termales, aunque el parque está muy degradado por el carboneo y el pastoreo. Ziway (Batu) tiene islas con monasterios e hipopótamos.",
+    "dog_note": "En los resorts de la orilla de Langano suele admitirse con correa; dentro del parque de Abiata-Shala, NO (fauna y aves). Hay cocodrilos e hipopótamos en Ziway: nunca suelto en la orilla.",
+    "visit": {
+      "why": "Es la parada de descanso natural del corredor sur, con baño seguro y una avifauna excepcional.",
+      "see": "Flamencos y pelícanos en Abiata, las fuentes termales de Shala, el baño en Langano y el monasterio de Tullu Gudo en Ziway.",
+      "access": "Todo sobre la carretera asfaltada Adís Abeba–Hawassa; los desvíos a las orillas son pistas de tierra cortas aptas para cualquier 4x4. Aparcamiento amplio en los resorts de Langano, con acampada. Entrada de parque en Abiata-Shala (importe POR CONFIRMAR). SEGURIDAD: región de Oromía, desaconsejada por el MAEC (26-05-2026); la carretera principal es transitada pero ha sufrido cortes por el OLA. El pin marca un resort de la orilla oeste de Langano (ANCLA POR CONFIRMAR sobre el terreno).",
+      "when": "Todo el año; mejor entre octubre y marzo. Los flamencos dependen del nivel del agua.",
+      "skip": "Descártalo si buscas fauna grande: aquí ya casi no queda, es un sitio de agua y aves."
+    },
+    "links": [
+      {
+        "label": "Lago Langano (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lake_Langano"
+      },
+      {
+        "label": "Parque nacional de Abijatta-Shalla (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Abijatta-Shalla_National_Park"
+      },
+      {
+        "label": "Lago Ziway / Batu (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Lake_Ziway"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Southwestern_shore_of_Lake_Langano,_Ethiopia,_2004-10-29.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Southwestern_shore_of_Lake_Langano,_Ethiopia,_2004-10-29.jpg",
+        "credit": "Sakari A. Maaranen · CC BY 3.0",
+        "caption": "La orilla suroeste del lago Langano."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakes_Shalla,_Abijatta_and_Langano,_January_2017.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lakes_Shalla,_Abijatta_and_Langano,_January_2017.jpg",
+        "credit": "Mjr74 · CC BY 4.0",
+        "caption": "Shalla, Abiata y Langano desde el aire."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingoes_on_Lake_Abiyatta.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Flamingoes_on_Lake_Abiyatta.jpg",
+        "credit": "Seifu Kidane · CC BY 3.0",
+        "caption": "Flamencos enanos en el lago Abiata."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Southwestern_shore_of_Lake_Langano,_Ethiopia,_2004-10-29.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Southwestern_shore_of_Lake_Langano,_Ethiopia,_2004-10-29.jpg",
+    "credit": "Sakari A. Maaranen · CC BY 3.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 14,
+    "name": "Parque nacional de Awash · el valle y las fuentes termales de Filwoha",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "1 noche",
+    "lat": 9.0833333,
+    "lon": 40.0,
+    "desc": "850 km² de sabana de acacias a unos 900 m, a 225 km de Adís Abeba y partido en dos por LA CARRETERA A DIRE DAWA, que separa las llanuras de Illala Saha de la garganta del Kudu. Tiene las cataratas del Awash, el volcán dormido Fentale (2.007 m) y, en el alto valle del Kudu, las fuentes termales de Filwoha entre palmerales. Se cuentan más de 81 mamíferos, 43 reptiles y 453 aves, pero elefantes, rinocerontes, cebras y búfalos FUERON EXTIRPADOS por la caza y la presión humana.",
+    "dog_note": "Parque nacional con leones, leopardos, guepardos e hipopótamos; los perros no entran.",
+    "visit": {
+      "why": "Es el único parque de sabana que se cruza sin desviarse camino de Harar, y las termas de Filwoha son un baño memorable.",
+      "see": "Las cataratas del Awash, órix, kudú y babuinos en Illala Saha, el cráter del Fentale y las pozas azules de Filwoha.",
+      "access": "Se entra desde la carretera asfaltada Adís Abeba–Dire Dawa; dentro, pistas de tierra y grava aptas para 4x4, con el ramal a Filwoha (~30 km) exigente y arenoso. Aparcamiento en la puerta y en el lodge de las cataratas. Entrada por persona y vehículo, más scout para Fentale (importes POR CONFIRMAR). SEGURIDAD: el parque queda entre Oromía y Afar, ambas desaconsejadas por el MAEC (26-05-2026); la carretera es un corredor de camiones a Yibuti, con accidentes frecuentes. El pin marca la puerta principal, sobre la carretera.",
+      "when": "Octubre a febrero. Fauna a primera hora y al atardecer; a mediodía hace un calor brutal.",
+      "skip": "Descártalo si vienes de parques de África austral u oriental: la densidad de fauna es baja."
+    },
+    "links": [
+      {
+        "label": "Parque nacional de Awash (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Awash_National_Park"
+      },
+      {
+        "label": "UNESCO · Lower Valley of the Awash (nº 10)",
+        "url": "https://whc.unesco.org/en/list/10/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Awash_National_Park,_Ethiopia_(50778515198).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Awash_National_Park,_Ethiopia_(50778515198).jpg",
+        "credit": "Nina R · CC BY 2.0",
+        "caption": "Sabana del parque nacional de Awash."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parc_national_d'Awash-Ethiopie-Chutes_d'eau_(2).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Parc_national_d'Awash-Ethiopie-Chutes_d'eau_(2).jpg",
+        "credit": "Ji-Elle · CC BY-SA 3.0",
+        "caption": "Las cataratas del río Awash."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Awash_National_Park,_Ethiopia_(50072291633).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Awash_National_Park,_Ethiopia_(50072291633).jpg",
+        "credit": "Nina R · CC BY 2.0",
+        "caption": "El valle del Awash."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Awash_National_Park,_Ethiopia_(50778515198).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Awash_National_Park,_Ethiopia_(50778515198).jpg",
+    "credit": "Nina R · CC BY 2.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 15,
+    "name": "Konso · paisaje cultural de terrazas y waga (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "medio día",
+    "lat": 5.3309278,
+    "lon": 37.426805,
+    "desc": "23.000 hectáreas de bancales de piedra seca levantados durante más de cuatrocientos años sobre laderas áridas: algunos muros alcanzan los 8 m. Los poblados, encaramados a los cerros, se rodean de UNO A SEIS ANILLOS CONCÉNTRICOS DE MURALLA de bloques de basalto, con plazas comunales (mora) dentro. La firma de Konso son las waga, estatuas de madera que recuerdan a un difunto que mató a un enemigo o a una fiera, y las daga-hela, piedras generacionales. Fue el primer «paisaje cultural» reconocido en Etiopía, en 2011.",
+    "dog_note": "Poblados habitados con recintos amurallados, ganado y bosques sagrados; sin prohibición formal, pero no es lugar para un perro suelto.",
+    "visit": {
+      "why": "Es una lección viva de ingeniería agrícola en secano y el único paisaje cultural inscrito del país.",
+      "see": "Los bancales de piedra, los poblados amurallados de Mecheke o Gamole, las plazas mora, las waga y el museo de Konso.",
+      "access": "Sobre la carretera asfaltada Arba Minch–Jinka/Yabelo; los accesos a los poblados son pistas cortas de tierra, correctas para 4x4 en seco. Aparcamiento en la entrada de cada poblado y en el museo. Guía local prácticamente obligatorio, más entrada al poblado (importes POR CONFIRMAR). SEGURIDAD: Región de Etiopía del Sur, dentro de los estados meridionales que el MAEC (26-05-2026) desaconseja. El pin marca la zona de Karat-Konso, base del paisaje cultural.",
+      "when": "Todo el año; mejor de octubre a febrero. Media mañana, con los bancales de lado.",
+      "skip": "Descártalo si vas justo de tiempo camino del Omo: es una parada corta y muy dependiente de tener buen guía."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Konso Cultural Landscape (nº 1333)",
+        "url": "https://whc.unesco.org/en/list/1333/"
+      },
+      {
+        "label": "Paisaje cultural de Konso (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Konso_Cultural_Landscape"
+      },
+      {
+        "label": "Pueblo konso (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Konso_people"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wagas_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Wagas_01.jpg",
+        "credit": "Bernard Gagnon · CC BY-SA 3.0",
+        "caption": "Waga, los postes funerarios tallados de Konso."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Street_in_a_Konso_village,_Ethiopia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Street_in_a_Konso_village,_Ethiopia.jpg",
+        "credit": "JosepMGracia · CC BY-SA 4.0",
+        "caption": "Calle de una aldea tradicional konso."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Marketplace_in_the_Ethiopian_town_of_Konso.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Marketplace_in_the_Ethiopian_town_of_Konso.jpg",
+        "credit": "Ondřej Havelka · CC BY 4.0",
+        "caption": "El mercado de Konso."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wagas_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Wagas_01.jpg",
+    "credit": "Bernard Gagnon · CC BY-SA 3.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 16,
+    "name": "Arba Minch · lagos Chamo y Abaya y el parque de Nechisar",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 5.9335499,
+    "lon": 37.681228,
+    "desc": "Arba Minch significa «cuarenta manantiales» y debe el nombre a las más de cuarenta fuentes que alimentan un bosque freático al pie del Rift. Entre el lago Abaya, rojizo por el hierro, y el Chamo se extiende el istmo llamado EL PUENTE DE DIOS, dentro del parque nacional de Nechisar: 1.030 km² de llanura de hierba blanca con cebras, hipopótamos y leopardos. En la orilla noroeste del Chamo está el «mercado de cocodrilos», con cientos de cocodrilos del Nilo. El parque nunca llegó a declararse formalmente desde 1974.",
+    "dog_note": "Parque nacional con leopardo e hiena manchada y orillas con cientos de cocodrilos del Nilo; los perros no entran y en la orilla serían presa.",
+    "visit": {
+      "why": "Es el mejor mirador del Rift etíope y una salida en barca con cocodrilos enormes a metros del casco.",
+      "see": "El Puente de Dios desde el mirador de Arba Minch, cebras en la llanura de Nechisar, el mercado de cocodrilos e hipopótamos en el Chamo.",
+      "access": "Asfalto hasta Arba Minch desde Hawassa y desde Konso. Dentro de Nechisar, pistas duras de tierra y roca: la bajada al istmo es exigente y se pasa mejor con dos vehículos por seguridad. Puerta del parque en el lado este de Sikela, el barrio bajo. Entrada por persona y vehículo, más scout y barca aparte (importes POR CONFIRMAR). SEGURIDAD: Región de Etiopía del Sur, dentro de los estados meridionales desaconsejados por el MAEC (26-05-2026). El pin marca la puerta principal del parque.",
+      "when": "Octubre a febrero. La barca al mercado de cocodrilos, a media mañana.",
+      "skip": "Descártalo en plena estación de lluvias: las pistas de Nechisar se vuelven intransitables."
+    },
+    "links": [
+      {
+        "label": "Parque nacional de Nechisar (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Nechisar_National_Park"
+      },
+      {
+        "label": "Arba Minch (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Arba_Minch"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Chamo_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Chamo_01.jpg",
+        "credit": "Bernard Gagnon · CC BY-SA 3.0",
+        "caption": "El lago Chamo desde Arba Minch."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Crocodylus_niloticus_in_Lake_Chamo_02.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Crocodylus_niloticus_in_Lake_Chamo_02.jpg",
+        "credit": "Bernard Gagnon · CC BY-SA 3.0",
+        "caption": "Cocodrilo del Nilo en la orilla del Chamo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hillside_neighbourhood_in_Arba_Minch,_Ethiopia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hillside_neighbourhood_in_Arba_Minch,_Ethiopia.jpg",
+        "credit": "JosepMGracia · CC BY-SA 4.0",
+        "caption": "Arba Minch, en la ladera sobre los dos lagos."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Chamo_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Chamo_01.jpg",
+    "credit": "Bernard Gagnon · CC BY-SA 3.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 17,
+    "name": "Jimma y Kaffa · la cuna del café y los bosques de arábica",
+    "cat": "Cultura",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "1–2 noches",
+    "lat": 7.6976219,
+    "lon": 36.8684596,
+    "desc": "Jimma, a 1.780 m, es la mayor ciudad del suroeste de Oromía y conserva el palacio del rey Abba Jifar I, superviviente del reino de Jimma. Al oeste queda Kaffa, cuyos antepasados kafficho fueron, según la tradición, los primeros en cultivar el cafeto; de ahí viene la palabra «café». La Reserva de Biosfera de Kafa, designada por la UNESCO en 2010, protege 760.144 hectáreas en torno a Bonga y es LA CUNA DEL ARÁBICA SILVESTRE, con cerca de 5.000 variedades salvajes. Es la Etiopía verde y húmeda, muy distinta del norte: barro en lluvias y etapas lentas.",
+    "dog_note": "El palacio de Abba Jifar es recinto con taquilla; en los bosques y fincas cafeteras, con correa y previa consulta.",
+    "visit": {
+      "why": "Cierra el círculo del café: el bosque de arábica silvestre está aquí, no en una plantación.",
+      "see": "El palacio de Abba Jifar, el mercado de Jimma, los bosques de la Reserva de Biosfera de Kafa en torno a Bonga, el Museo Nacional del Café y las ceremonias de café en cualquier casa.",
+      "access": "Asfalto desde Adís Abeba (Bonga está a ~460 km de la capital) y de Jimma a Bonga; el ramal a los bosques de Kaffa es pista de tierra roja, muy resbaladiza con lluvia y con vados. Aparcamiento en el recinto del palacio, en los hoteles y en el centro de información de la reserva, junto al museo del café. SEGURIDAD: Jimma está en Oromía, desaconsejada por el MAEC (26-05-2026); Bonga y la reserva están en la Región de los Pueblos del Suroeste de Etiopía, dentro de los estados que el mismo aviso desaconseja. El pin marca el palacio de Abba Jifar, a las afueras de Jimma.",
+      "when": "Octubre a febrero. La cosecha de café va de octubre a diciembre.",
+      "skip": "Descártalo si vas justo de días: es un desvío de dos jornadas largas fuera del circuito clásico."
+    },
+    "links": [
+      {
+        "label": "UNESCO MAB · Reserva de Biosfera de Kafa",
+        "url": "https://www.unesco.org/en/mab/kafa"
+      },
+      {
+        "label": "Jimma (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Jimma"
+      },
+      {
+        "label": "Bonga (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Bonga"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimma,_Ethiopia_(16842619942).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Jimma,_Ethiopia_(16842619942).jpg",
+        "credit": "Rod Waddington · CC BY-SA 2.0",
+        "caption": "Jimma, capital del país del café."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_start_of_your_morning_coffee_(5984450578).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_start_of_your_morning_coffee_(5984450578).jpg",
+        "credit": "DFID (Reino Unido) · CC BY 2.0",
+        "caption": "Recolección de café arábica en Etiopía."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Farmers_farming,Jimma_,Ethiopia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Farmers_farming,Jimma_,Ethiopia.jpg",
+        "credit": "Mintsnot · CC BY-SA 4.0",
+        "caption": "Campos de labor en la región de Jimma."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimma,_Ethiopia_(16842619942).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimma,_Ethiopia_(16842619942).jpg",
+    "credit": "Rod Waddington · CC BY-SA 2.0",
     "icon": "cultura",
-    "color": "morado",
-    "dog_note": ""
+    "color": "morado"
+  },
+  {
+    "n": 18,
+    "name": "Cuevas de Sof Omar · el río Web bajo la caliza",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "medio día",
+    "lat": 6.9050116,
+    "lon": 40.8374849,
+    "desc": "El río Web, que baja de los montes Bale (4.300 m), se mete bajo la caliza y excava 15,1 KM DE GALERÍAS, el mayor sistema de cuevas de Etiopía. El recorrido turístico atraviesa salas con columnas y arcadas naturales y obliga a vadear el río en varios puntos. Es lugar sagrado: debe el nombre a Sof Omar, santo musulmán que vivió en la zona, y lleva siglos siendo centro religioso tanto para el islam como para la fe tradicional oromo. Está en la lista indicativa de la UNESCO desde 2011.",
+    "dog_note": "Cueva sagrada para el islam y para la religión tradicional oromo, con vadeo del río en el interior; no es sitio para un perro.",
+    "visit": {
+      "why": "Es la gran cueva fluvial de África oriental y un lugar de culto compartido por dos religiones.",
+      "see": "La cámara de las Columnas, los arcos de caliza esculpidos por el agua y la salida del Web al otro lado del macizo.",
+      "access": "Desde Robe/Goba, ~120 km de carretera y pista de tierra hacia el este (ESTADO DE LA PISTA POR CONFIRMAR); zona baja y calurosa. Aparcamiento de tierra junto al pueblo, suficiente para dos 4x4. Guía local obligatorio, linterna frontal propia y calzado que se pueda mojar. SEGURIDAD: zona Bale Este, región de Oromía, desaconsejada por el MAEC (26-05-2026). El pin marca la entrada de las cuevas.",
+      "when": "Estación seca, de noviembre a febrero: con el río crecido el recorrido interior se cierra.",
+      "skip": "Descártalo con lluvias recientes o si no llevas al menos una jornada de margen: es un desvío largo desde Bale."
+    },
+    "links": [
+      {
+        "label": "Cuevas de Sof Omar (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Sof_Omar_Caves"
+      },
+      {
+        "label": "Bale Mountains National Park (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Bale_Mountains_National_Park"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Underground_River,_Sof_Omer_Cave,_Ethiopia_(11562528124).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Underground_River,_Sof_Omer_Cave,_Ethiopia_(11562528124).jpg",
+        "credit": "Rod Waddington · CC BY-SA 2.0",
+        "caption": "El río Web bajo la caliza, en Sof Omar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Holuca,_Sof_Omar_Caves.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Holuca,_Sof_Omar_Caves.jpg",
+        "credit": "Dave Catlin · CC BY-SA 2.5",
+        "caption": "La surgencia de Holuca, en las cuevas de Sof Omar."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Underground_River,_Sof_Omer_Cave,_Ethiopia_(11562528124).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Underground_River,_Sof_Omer_Cave,_Ethiopia_(11562528124).jpg",
+    "credit": "Rod Waddington · CC BY-SA 2.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 19,
+    "name": "Tiya · el campo de estelas grabadas (UNESCO)",
+    "cat": "Patrimonio UNESCO",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "medio día",
+    "lat": 8.4312668,
+    "lon": 38.6105738,
+    "desc": "Un prado vallado con 36 monumentos, de los que 32 SON ESTELAS TALLADAS con espadas, discos y signos vegetales que nadie sabe leer. Es el más importante de los cerca de 160 yacimientos de este tipo catalogados en la región de Soddo, al sur de Adís Abeba, y pertenece a una civilización etíope cuya cronología sigue sin fijarse. Visita de treinta o cuarenta minutos, perfecta como parada camino del sur. Está en la zona Gurage, en los estados centrales que el MAEC desaconseja.",
+    "dog_note": "Recinto vallado y pequeño con guarda; sin prohibición documentada, pero mejor dejarlo en el coche a la sombra: la visita dura media hora.",
+    "visit": {
+      "why": "Es el testimonio megalítico mejor conservado del país y queda justo sobre la carretera del sur.",
+      "see": "Las 32 estelas grabadas en fila, el pequeño centro de interpretación y la explicación del guarda sobre los símbolos de espadas.",
+      "access": "A unos 85 km de Adís Abeba por la carretera asfaltada de Butajira; el último kilómetro es pista de tierra. Aparcamiento de tierra junto a la valla, de sobra para dos 4x4. Entrada simbólica cobrada por el guarda (importe POR CONFIRMAR). SEGURIDAD: zona Gurage, en los estados centrales desaconsejados por el MAEC (26-05-2026). El pin marca el recinto vallado del campo de estelas.",
+      "when": "Todo el año; la luz rasante de la mañana o la tarde marca mejor los relieves.",
+      "skip": "Descártalo si vas a ver Axum: allí las estelas son de otra escala y esto se queda pequeño."
+    },
+    "links": [
+      {
+        "label": "UNESCO · Tiya (nº 12)",
+        "url": "https://whc.unesco.org/en/list/12/"
+      },
+      {
+        "label": "Tiya (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Tiya"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiya_Stelae_Field,_ca._1300_(8)_(28842370870).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tiya_Stelae_Field,_ca._1300_(8)_(28842370870).jpg",
+        "credit": "Richard Mortel · CC BY 2.0",
+        "caption": "El campo de estelas grabadas de Tiya."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiya_vue_d'ensemble.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tiya_vue_d'ensemble.JPG",
+        "credit": "Julien Demade · CC BY-SA 3.0",
+        "caption": "Vista de conjunto de las estelas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiya_archaeological_site.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tiya_archaeological_site.jpg",
+        "credit": "AsfawSeyoum · CC BY-SA 4.0",
+        "caption": "Detalle de los grabados de espadas."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiya_Stelae_Field,_ca._1300_(8)_(28842370870).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiya_Stelae_Field,_ca._1300_(8)_(28842370870).jpg",
+    "credit": "Richard Mortel · CC BY 2.0",
+    "icon": "patrimonio unesco",
+    "color": "marron"
+  },
+  {
+    "n": 20,
+    "name": "Dire Dawa y el ferrocarril a Yibuti · la estación y el mercado de Kefira",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "no recomendado",
+    "time": "1 noche",
+    "lat": 9.6048717,
+    "lon": 41.8585081,
+    "desc": "Dire Dawa nació como estación del ferrocarril franco-etíope a Yibuti y sigue siendo, con Adís Abeba, UNA DE LAS DOS ÚNICAS CIUDADES AUTÓNOMAS del país, condición que tiene desde 2004. El río Dechatu la parte en dos: al noroeste, la trama ortogonal que trazaron los ingenieros del ferrocarril; al sureste, Kezira, el barrio del mercado donde se instalaron comerciantes somalíes y árabes. La vieja estación está a unos 10 km del centro; la terminal del nuevo ferrocarril chino, en la ciudad. Buena parada técnica antes de Harar.",
+    "dog_note": "Mercado muy concurrido y calor fuerte; ninguna prohibición formal, pero es una parada urbana y logística, no una visita con perro.",
+    "visit": {
+      "why": "Es la única ciudad ferroviaria colonial del Cuerno y la mejor base de servicios antes de subir a Harar.",
+      "see": "La estación histórica, la trama europea de Kezira/Megala, el mercado de Kefira y los acantilados que cierran la ciudad.",
+      "access": "Asfalto desde Adís Abeba por Awash (corredor de camiones hacia Yibuti) y desde Harar (~50 km de puerto). Hoteles con patio cerrado para dos 4x4. SEGURIDAD: ciudad autónoma, no citada nominalmente por el MAEC (26-05-2026), pero rodeada por Oromía y muy cerca de la región Somali, ambas desaconsejadas; además la ruta hacia el este roza la frontera con Somalia, desaconsejada expresamente. El pin marca la estación histórica del ferrocarril.",
+      "when": "Noviembre a febrero: a 1.276 m y en una hondonada, el resto del año hace mucho calor.",
+      "skip": "Descártalo como visita cultural: es parada logística, y si vas escaso de tiempo se cambia por una noche más en Harar."
+    },
+    "links": [
+      {
+        "label": "Dire Dawa (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Dire_Dawa"
+      },
+      {
+        "label": "Harar (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Harar"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Landing_at_Dire_Dawa.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Landing_at_Dire_Dawa.jpg",
+        "credit": "Qchasserieau · CC BY-SA 4.0",
+        "caption": "Dire Dawa desde el aire."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/MosqueDireDawa.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:MosqueDireDawa.JPG",
+        "credit": "Arne Hückelheim · CC BY-SA 3.0",
+        "caption": "La gran mezquita Jumaa de Dire Dawa."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Djibouti_-_Ethiopia_Railway_Station,_Dire_Dawa,_Ethiopia.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Djibouti_-_Ethiopia_Railway_Station,_Dire_Dawa,_Ethiopia.jpg",
+        "credit": "A. Davey · CC BY 2.0",
+        "caption": "La estación del ferrocarril franco-etíope en Dire Dawa."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Landing_at_Dire_Dawa.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Landing_at_Dire_Dawa.jpg",
+    "credit": "Qchasserieau · CC BY-SA 4.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
   }
 ]

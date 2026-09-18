@@ -1,53 +1,988 @@
 [
   {
     "n": 1,
-    "name": "Yibuti ciudad y el puerto",
+    "name": "Yibuti ciudad · plaza Mahmoud Harbi, mercado central y barrio europeo",
     "cat": "Ciudad · servicios",
     "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2 noches",
-    "lat": 11.5721,
-    "lon": 43.1456,
-    "desc": "Capital y único gran centro urbano del país, con el puerto de Doraleh y el histórico muelle colonial como referencia logística clave del proyecto: aquí se gestiona el envío marítimo del vehículo hacia Egipto o Europa dado el bloqueo del corredor de Sudán.",
-    "credit": "Uvceto · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jetty%20of%20the%20Port%20of%20Djibouti.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Jetty%20of%20the%20Port%20of%20Djibouti.jpg",
+    "dog": "no recomendado",
+    "time": "1–2 noches",
+    "lat": 11.5922966,
+    "lon": 43.1460261,
+    "desc": "La capital concentra 776.966 habitantes, el 73 % del país según el censo de 2024. El corazón es la plaza Mahmoud Harbi, presidida por la mezquita Hamoudi (hacia 1906, estilo abasí, unos 1.000 fieles), con el mercado central al lado y, al norte, el trazado colonial francés del barrio europeo fundado en 1888. El conjunto urbano histórico figura en la lista indicativa de la UNESCO desde 2015. PROHIBIDO FOTOGRAFIAR edificios públicos, puerto y personal militar.",
+    "dog_note": "Mercado abarrotado, calor de asfalto y perros callejeros; el recinto de la mezquita Hamoudi está vetado a los animales.",
+    "visit": {
+      "why": "Es el único sitio del país con bancos, talleres, repuestos y gasolina fiable, y el contraste entre el damero colonial y el barrio africano se recorre a pie en una mañana.",
+      "see": "Mezquita Hamoudi y plaza Mahmoud Harbi, mercado central (Marché Central) con especias y khat, arcadas del barrio europeo y el frente portuario.",
+      "access": "Todas las carreteras nacionales convergen aquí; asfalto en buen estado en el casco. El pin marca la mezquita Hamoudi, junto a la plaza; aparcar dos 4x4 en el centro es difícil, es mejor dejarlos en el hotel y caminar. El MAEC clasifica la capital como riesgo medio por amenaza terrorista y desaconseja las playas de Doraleh y Khor Ambado al atardecer por robos.",
+      "when": "Noviembre–marzo. De junio a septiembre el calor es extremo (más de 45 °C en el interior, por encima de 40 °C habituales en la ciudad); a diario, primera hora de la mañana.",
+      "skip": "Si solo se busca paisaje: la ciudad es cara y la parte monumental se agota en medio día."
+    },
+    "links": [
+      {
+        "label": "Djibouti City (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Djibouti_City"
+      },
+      {
+        "label": "Mezquita Hamoudi (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Hamoudi_Mosque"
+      },
+      {
+        "label": "Guía oficial · Agence Nationale du Tourisme de Djibouti",
+        "url": "https://guide.visitdjibouti.dj/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Djibouti,_Djibouti_ville.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Djibouti,_Djibouti_ville.jpg",
+        "credit": "Clovis conchou · CC BY-SA 4.0",
+        "caption": "Yibuti ciudad."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Place_Menelik_in_Djibouti_city_(25058480721).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Place_Menelik_in_Djibouti_city_(25058480721).jpg",
+        "credit": "Francisco Anzola · CC BY 2.0",
+        "caption": "La plaza Menelik, en el barrio europeo."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamoudi_mosque_(24856003400).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Hamoudi_mosque_(24856003400).jpg",
+        "credit": "Francisco Anzola · CC BY 2.0",
+        "caption": "La mezquita Hamoudi, junto al mercado central."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Djibouti,_Djibouti_ville.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Djibouti,_Djibouti_ville.jpg",
+    "credit": "Clovis conchou · CC BY-SA 4.0",
     "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": ""
+    "color": "azul"
   },
   {
     "n": 2,
-    "name": "Lac Assal",
+    "name": "Lac Assal · el punto más bajo de África y sus salinas",
     "cat": "Naturaleza",
     "prio": "Alta",
     "dog": "no recomendado",
-    "time": "1 día (excursión)",
-    "lat": 11.66,
-    "lon": 42.41,
-    "desc": "El punto más bajo de África (155 m bajo el nivel del mar) y uno de los lagos más salados del planeta, en pleno desierto volcánico de Afar; paisaje lunar de costras de sal blanca sobre aguas turquesa.",
-    "credit": "Charles Fred (flickr) · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/DjiboutiLacAssal.jpg?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:DjiboutiLacAssal.jpg",
+    "time": "medio día",
+    "lat": 11.6611633,
+    "lon": 42.4135036,
+    "desc": "Lago de cráter a 155 metros BAJO EL NIVEL DEL MAR: el punto más bajo de África y el tercero más bajo del planeta. Ocupa unos 54 km² de salmuera con 300 g/L de sal, la segunda masa de agua más salina de la Tierra tras el Don Juan Pond, muy por encima del mar Muerto. La orilla es una costra blanca deslumbrante donde todavía se carga sal para las caravanas hacia Etiopía. Llevar calzado cerrado: la costra corta y el agua abrasa cualquier rozadura.",
+    "dog_note": "Sal cáustica y costras cortantes en las almohadillas, sin sombra y agua imbebible; el perro se queda en el vehículo con aire o no se baja.",
+    "visit": {
+      "why": "Es el gran icono geológico del país y uno de los paisajes más extremos accesibles en coche del continente.",
+      "see": "Banda de sal blanca, aguas turquesa sobre fondo negro de basalto, montones de sal y vendedores de geodas de sal en el mirador de la orilla sur.",
+      "access": "Carretera asfaltada desde la capital, unos 120 km al oeste por la RN-9; el descenso final al lago es una pista corta apta para 4x4 y hay explanada de sobra para dos vehículos. Sin taquilla ni horario conocidos; suele haber vendedores y, a veces, un gesto de propina. El pin marca la cubeta del lago; el acceso rodado habitual es el mirador de la orilla sureste.",
+      "when": "Noviembre–marzo, y dentro del día antes de las 10:00. De junio a septiembre el calor es extremo (más de 45 °C) y el lago, sin una sombra, resulta peligroso.",
+      "skip": "Si se viaja en verano o a mediodía de cualquier época: el golpe de calor es un riesgo real."
+    },
+    "links": [
+      {
+        "label": "Lake Assal (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)"
+      },
+      {
+        "label": "Lago Assal (Wikipedia ES)",
+        "url": "https://es.wikipedia.org/wiki/Lago_Assal"
+      },
+      {
+        "label": "Lista indicativa UNESCO · Yibuti",
+        "url": "https://whc.unesco.org/en/statesparties/dj"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Assal_1-Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Assal_1-Djibouti.jpg",
+        "credit": "Fishercd · Public domain",
+        "caption": "El lago Assal, a 155 m bajo el nivel del mar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Assal_Lake,_2024.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Assal_Lake,_2024.jpg",
+        "credit": "Mheidegger · CC BY 4.0",
+        "caption": "Las salinas del Assal."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Assal_NASA.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Assal_NASA.jpg",
+        "credit": "NASA · Public domain",
+        "caption": "El Assal desde satélite (NASA)."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Assal_1-Djibouti.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Assal_1-Djibouti.jpg",
+    "credit": "Fishercd · Public domain",
     "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "color": "verde"
   },
   {
     "n": 3,
-    "name": "Lac Abbé",
+    "name": "Lac Abbé · las chimeneas de caliza y los flamencos",
+    "cat": "Naturaleza",
+    "prio": "Alta",
+    "dog": "no recomendado",
+    "time": "1 noche",
+    "lat": 11.1986833,
+    "lon": 41.7805477,
+    "desc": "Lago salado en la frontera con Etiopía, a 243 m de altitud, con un bosque de CHIMENEAS DE CALIZA DE HASTA 50 METROS por las que sale vapor al amanecer. El paisaje, formado por la actividad geotérmica del triángulo de Afar, sirvió de decorado a «El planeta de los simios». Acoge flamencos comunes en sus orillas. Es una de las zonas más inaccesibles del planeta: solo se llega en 4x4 por pista desde Dikhil, y conviene guía y depósito lleno.",
+    "dog_note": "Fumarolas, suelo con costra caliente y fuentes termales; además hay hienas por la noche en el campamento.",
+    "visit": {
+      "why": "Amanecer entre chimeneas humeantes, sin infraestructura ni vallas: la imagen más reconocible de Yibuti.",
+      "see": "Campo de chimeneas, fuentes termales, salinas y bandadas de flamencos; por la noche, cielo limpio y hienas alrededor del campamento.",
+      "access": "Asfalto por la RN-1 hasta Dikhil (122 km desde la capital, unas 3 h) y después pista de arena y grava hacia el suroeste; el lago está a unos 140 km de la capital en línea recta y solo es practicable en 4x4. No hay taquilla ni horario: se duerme en campamentos afar básicos tipo Asboley, con tarifa a negociar. Hay puestos de control; llevar pasaporte y eVisa impresos por la cercanía de la frontera etíope.",
+      "when": "Noviembre–enero, llegando la tarde anterior para ver el amanecer. De junio a septiembre el calor es extremo (más de 45 °C) y la zona es inviable; el propio Wikipedia da 30–40 °C de media estival.",
+      "skip": "Si no se puede pernoctar: ir y volver en el día se come 8–10 horas de pista y se pierde la luz buena."
+    },
+    "links": [
+      {
+        "label": "Lake Abbe (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Lake_Abbe"
+      },
+      {
+        "label": "Lista indicativa UNESCO · Yibuti (Lac Abbeh)",
+        "url": "https://whc.unesco.org/en/statesparties/dj"
+      },
+      {
+        "label": "Crónica de viaje · Atlas & Boots",
+        "url": "https://www.atlasandboots.com/travel-blog/lac-abbe-in-djibouti/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbe-4-wiki.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Abbe-4-wiki.jpg",
+        "credit": "jbcombes · CC BY-SA 3.0",
+        "caption": "Las chimeneas de caliza del lago Abbé al amanecer."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbe-8.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Abbe-8.jpg",
+        "credit": "Jbcombes · CC BY-SA 3.0",
+        "caption": "Orillas del lago Abbé."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fumerolle_(Lac_Abbe).JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Fumerolle_(Lac_Abbe).JPG",
+        "credit": "Cjulien21 · CC BY-SA 3.0",
+        "caption": "Fumarola en el Abbé."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbe-4-wiki.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Abbe-4-wiki.jpg",
+    "credit": "jbcombes · CC BY-SA 3.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 4,
+    "name": "Golfo de Tadjoura · tiburón ballena en Arta y el Ghoubbet",
+    "cat": "Costa",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 11.5838023,
+    "lon": 42.8232643,
+    "desc": "Brazo de mar de unos 1.920 km² que parte el país en dos y recibe el 40 % de los turistas extranjeros. Entre NOVIEMBRE Y ENERO se concentran juveniles de tiburón ballena frente a la playa de Arta y Ras Eiro, y hay salidas regulares de snorkel de 45–60 minutos. En su fondo de saco, el Ghoubbet-el-Kharab (21 km por 11 km, 205 m de profundidad media) marca la unión de las placas africana y arábiga. Corrientes fuertes en el estrecho: nunca nadar por libre allí.",
+    "dog_note": "Las salidas de snorkel con tiburón ballena van en barca pequeña y los operadores no admiten animales.",
+    "visit": {
+      "why": "Nadar con tiburón ballena a 40 km de la capital y ver de cerca el punto donde se separan dos continentes.",
+      "see": "Juveniles de tiburón ballena, delfines, el arrecife de Ras Eiro y «The Crack»; acantilados negros sobre el Ghoubbet.",
+      "access": "Arta está a 41 km de la capital por asfalto; el embarque para el snorkel es en la playa, bajo el pueblo, por pista corta con espacio para aparcar. Los operadores de la capital programan salidas viernes y sábados en temporada, en torno a 110 USD el snorkel y 160 USD la inmersión. El pin marca el centro del golfo; el punto navegable es la plage d'Arta. Aguas de Bab el-Mandeb y golfo de Adén: el MAEC las desaconseja por piratería.",
+      "when": "Noviembre–enero para el tiburón ballena; salidas a primera hora. De junio a septiembre, calor extremo (más de 45 °C en el interior) y sin avistamientos.",
+      "skip": "Fuera de la ventana de noviembre a enero la excursión pierde su motivo principal."
+    },
+    "links": [
+      {
+        "label": "Gulf of Tadjoura (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Gulf_of_Tadjoura"
+      },
+      {
+        "label": "Dolphin Excursions Djibouti · temporada de tiburón ballena",
+        "url": "https://www.divedjibouti.com/whalesharks"
+      },
+      {
+        "label": "Ghoubbet-el-Kharab (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Ghoubbet-el-Kharab"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulf_of_Tadjoura_NASA.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Gulf_of_Tadjoura_NASA.jpg",
+        "credit": "NASA · Public domain",
+        "caption": "El golfo de Tadjoura visto desde satélite (NASA); imagen de contexto, no del tiburón ballena."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulf_of_Tadjoura_NASA.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Gulf_of_Tadjoura_NASA.jpg",
+    "credit": "NASA · Public domain",
+    "icon": "costa",
+    "color": "turquesa"
+  },
+  {
+    "n": 5,
+    "name": "Tadjoura · la ciudad blanca de las siete mezquitas",
+    "cat": "Cultura",
+    "prio": "Alta",
+    "dog": "no recomendado",
+    "time": "1 noche",
+    "lat": 11.7873808,
+    "lon": 42.8810929,
+    "desc": "Uno de los asentamientos más antiguos del país y tercera ciudad de Yibuti con 18.808 habitantes (censo de 2024). Se la conoce como la ciudad blanca de las SIETE MEZQUITAS por sus casas encaladas sobre la orilla norte del golfo. Fue puerto alternativo a Zeila en el siglo XIX y punto de salida de las caravanas hacia Etiopía; Arthur Rimbaud vivió aquí en los años 1880 traficando con armas. El distrito tiene minas sin desactivar confirmadas: no salir de pistas marcadas.",
+    "dog_note": "Ciudad muy religiosa con siete mezquitas activas: el perro no entra en ningún recinto y llama la atención en las calles.",
+    "visit": {
+      "why": "La estampa encalada frente al golfo y el peso histórico de un puerto caravanero que aún funciona.",
+      "see": "Mezquitas blancas del casco antiguo, el puerto nuevo (90 millones de dólares), el mercado y la playa de arena al este.",
+      "access": "Asfalto: RN-9 desde la capital, 123 km, segunda carretera más larga del país; también ferry desde Yibuti ciudad, unas 2,5 h para 130 km. La RN-14 sigue 61 km hacia Obock. Aparcamiento fácil junto al puerto. El pin marca el centro urbano; el objeto navegable es el puerto.",
+      "when": "Noviembre–marzo; al atardecer, con el encalado a contraluz. Junio–septiembre, calor extremo (más de 45 °C en el interior del macizo vecino).",
+      "skip": "Si el tiempo es corto y ya se va a subir a Randa y la Forêt du Day, Tadjoura puede quedarse en parada de paso."
+    },
+    "links": [
+      {
+        "label": "Tadjoura (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Tadjoura"
+      },
+      {
+        "label": "RN-9 (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/National_Highway_9_(Djibouti)"
+      },
+      {
+        "label": "Tadjoura · Wikitravel",
+        "url": "https://wikitravel.org/en/Tadjoura"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tagore.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tagore.jpg",
+        "credit": "Driss · CC BY-SA 2.0 de",
+        "caption": "Tadjoura, la ciudad blanca, desde el mar."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tadjoura_in_1887.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Tadjoura_in_1887.jpg",
+        "credit": "Skilla1st · Public domain",
+        "caption": "Tadjoura en 1887."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tagore.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tagore.jpg",
+    "credit": "Driss · CC BY-SA 2.0 de",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 6,
+    "name": "Obock · el primer establecimiento francés del Cuerno",
+    "cat": "Cultura",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 11.9647465,
+    "lon": 43.2884071,
+    "desc": "Puerto en la orilla norte, donde el golfo de Tadjoura se abre al de Adén. Aquí nació la colonia francesa: el TRATADO CON LOS SULTANES AFAR SE FIRMÓ EL 11 DE MARZO DE 1862 y en 1884 Léonce Lagarde la convirtió en asentamiento real, antes de que la capital se trasladara a Yibuti en 1894. Quedan 20.152 habitantes, ruinas coloniales, un faro y playas desiertas. Es distrito con minas confirmadas y a menos de 20 km de la franja fronteriza con Eritrea que EE. UU. recomienda evitar.",
+    "dog_note": "Pueblo abierto y playas vacías, pero con calor tremendo: solo con sombra, agua y paseos de amanecer o noche.",
+    "visit": {
+      "why": "El origen de la presencia francesa en el Cuerno, con un abandono fotogénico y playas sin nadie.",
+      "see": "Restos del puesto colonial y del cementerio, el faro, el mercado afar y los manglares de Godoria y Khor Angar al norte.",
+      "access": "RN-14 asfaltada desde Tadjoura, 61 km; también ferry desde la capital, unos 237 km por mar en torno a 3 h. Aparcar es libre. El pin marca el núcleo urbano. AVISO: MAEC sitúa el distrito en riesgo medio por minas y Estados Unidos desaconseja acercarse a menos de 16 km de la frontera eritrea.",
+      "when": "Noviembre–marzo. De junio a septiembre el calor es extremo (más de 45 °C tierra adentro) y no hay refugio.",
+      "skip": "Si no se va a subir a los manglares del norte ni a las Sept Frères, Obock no justifica por sí sola el rodeo."
+    },
+    "links": [
+      {
+        "label": "Obock (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Obock"
+      },
+      {
+        "label": "Recomendaciones de viaje MAEC · Yibuti",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti"
+      },
+      {
+        "label": "US Travel Advisory · Djibouti",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/djibouti.html"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obock_ferry.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Obock_ferry.jpg",
+        "credit": "Charles Roffey · CC BY-SA 3.0",
+        "caption": "El ferry de Yibuti llegando a Obock."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obock(r%C3%A9s_Lagarde).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Obock(r%C3%A9s_Lagarde).jpg",
+        "credit": "Postal, Yibuti h. 1920-1930 · Public domain",
+        "caption": "Obock hacia 1920-1930."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obock_ferry.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Obock_ferry.jpg",
+    "credit": "Charles Roffey · CC BY-SA 3.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 7,
+    "name": "Forêt du Day · el bosque de enebros del macizo de Goda (Parque Nacional)",
+    "cat": "Naturaleza",
+    "prio": "Alta",
+    "dog": "prohibido",
+    "time": "1 noche",
+    "lat": 11.7541978,
+    "lon": 42.6880552,
+    "desc": "Parque nacional creado en 1939 en el macizo de Goda, el mayor bosque de Yibuti: unas 900 hectáreas de enebro africano (Juniperus procera) por encima de los 950 metros, con ejemplares de hasta 20 m. Aquí viven tres aves que no existen en ningún otro sitio, entre ellas el francolín de Yibuti. Es también la zona más lluviosa del país, con unos 500 mm anuales. Aviso: SE HA PERDIDO EL 88 % DEL BOSQUE EN DOS SIGLOS y el enebro está muriendo en pie.",
+    "dog_note": "Parque nacional con aves endémicas amenazadas: el perro queda fuera del recinto forestal.",
+    "visit": {
+      "why": "Es la única mancha de bosque del país y 20 grados menos de sensación térmica que la costa.",
+      "see": "Enebros secos y vivos, acebuches y bojes, terrazas agrícolas, francolín de Yibuti y buitres sobre el macizo.",
+      "access": "Asfalto RN-9 hasta Tadjoura y luego RN-11 a Randa (32 km al sur de Randa queda Tadjoura); desde Randa, a unos 16 km, pista de montaña con rampas fuertes que exige 4x4 y reductora. Explanadas para aparcar cerca del mirador. No consta taquilla ni horario oficial; los operadores locales ponen guía. El pin marca el corazón del parque.",
+      "when": "Noviembre–marzo, con mañana temprana para las aves. De junio a septiembre el interior pasa de 45 °C, aunque la altura suaviza algo (Randa: 34,7 °C de media de tarde en junio).",
+      "skip": "Con lluvia fuerte o barro: la pista de subida se vuelve resbaladiza y sin escapatoria."
+    },
+    "links": [
+      {
+        "label": "Day Forest National Park (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Day_Forest_National_Park"
+      },
+      {
+        "label": "Randa (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Randa,_Djibouti"
+      },
+      {
+        "label": "Lista indicativa UNESCO · Yibuti (Parc National de la forêt du Day)",
+        "url": "https://whc.unesco.org/en/statesparties/dj"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Day_Forest_National_Park_banner.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Day_Forest_National_Park_banner.jpg",
+        "credit": "Singlab · CC BY-SA 3.0",
+        "caption": "El bosque de Day, en el macizo del Goda."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Juniperus_procera_Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Juniperus_procera_Djibouti.jpg",
+        "credit": "Plantsman · CC BY 4.0",
+        "caption": "Juniperus procera, el enebro africano del Day."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Airolaf_near_the_Day_Forest_National_Park.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Airolaf_near_the_Day_Forest_National_Park.jpg",
+        "credit": "Skilla1st · CC BY-SA 4.0",
+        "caption": "Airolaf, junto al parque."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Day_Forest_National_Park_banner.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Day_Forest_National_Park_banner.jpg",
+    "credit": "Singlab · CC BY-SA 3.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 8,
+    "name": "Bankoualé y los oasis del Goda · palmeras y senderismo",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 11.8333333,
+    "lon": 42.6666667,
+    "desc": "Aldea a 640 metros en la vertiente del macizo de Goda, con huertos en terrazas regados por manantiales y el palmeral que da nombre a la palmera de Bankoualé (Livistona carinensis), una de las palmeras más raras del mundo. Es la base natural para caminar por los oasis y subir a la Forêt du Day. Aviso: los alojamientos son campamentos muy básicos y no hay ni gasolina ni cobertura fiable; se sube con todo resuelto desde Tadjoura.",
+    "dog_note": "Aldea agrícola con huertos y ganado: el perro debe ir atado y no entrar en las parcelas ni en las balsas de riego.",
+    "visit": {
+      "why": "Es el único paisaje verde y habitado del país, y el punto de partida de las mejores caminatas de Yibuti.",
+      "see": "Terrazas de hortalizas, acequias, palmeras Livistona, gargantas de la vertiente sur del Goda y aldeas afar de piedra.",
+      "access": "Desde Randa por pista de montaña de tierra y piedra suelta, estrecha, con tramos de un solo vehículo: 4x4 obligatorio y mejor no cruzarse en horas punta. Aparcamiento improvisado a la entrada de la aldea. No hay entrada ni horario; se paga guía local de palabra. El pin marca el núcleo de Bankoualé.",
+      "when": "Noviembre–marzo, caminando de amanecer. De junio a septiembre el interior supera los 45 °C; Bankoualé llega a 37 °C de media estival y no compensa.",
+      "skip": "Si el grupo no piensa caminar: el interés está en los senderos, no en el pueblo."
+    },
+    "links": [
+      {
+        "label": "Bankouale (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Bankouale"
+      },
+      {
+        "label": "Goda Mountains · Walkopedia",
+        "url": "https://www.walkopedia.net/best-world-walks/Djibouti/Goda-Mountains"
+      },
+      {
+        "label": "Randa (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Randa,_Djibouti"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bankouale_2015_Village_Entrance.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bankouale_2015_Village_Entrance.jpg",
+        "credit": "Albert Backer · CC BY-SA 4.0",
+        "caption": "Entrada del pueblo de Bankoualé."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bankouale_2015_Mango_Trees.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bankouale_2015_Mango_Trees.jpg",
+        "credit": "Albert Backer · CC BY-SA 4.0",
+        "caption": "Huertos de mango regados por acequias."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Valley_in_the_Goda_Mountains.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Valley_in_the_Goda_Mountains.jpg",
+        "credit": "Skilla1st · CC BY-SA 4.0",
+        "caption": "Un valle del macizo del Goda."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bankouale_2015_Village_Entrance.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bankouale_2015_Village_Entrance.jpg",
+    "credit": "Albert Backer · CC BY-SA 4.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 9,
+    "name": "Islas Musha y Maskali · el arrecife frente a la capital",
+    "cat": "Costa",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 11.7222978,
+    "lon": 43.1904547,
+    "desc": "Isla coralina de unos 4 km² a 15 km de la capital, rodeada de los islotes Maskali y de un arrecife continuo: es la salida de snorkel más sencilla del país y se hace en medio día desde el puerto pesquero. Apenas viven 20 personas de forma permanente. Reino Unido la controló entre 1840 y 1887 antes de cederla a Francia. Ambos grupos figuran en la lista indicativa de la UNESCO desde 2015. No hay agua dulce ni sombra: llevarlo todo desde tierra.",
+    "dog_note": "Se llega solo en barca de excursión y las islas son zona de anidamiento: los operadores no aceptan animales.",
+    "visit": {
+      "why": "Arrecife sano y aguas someras a un cuarto de hora de la capital, sin necesidad de organizar una expedición.",
+      "see": "Corales, peces de arrecife, playas de arena blanca y, a veces, tortugas; el islote de Maskali al sureste.",
+      "access": "Se contrata la barca en el puerto pesquero de Yibuti ciudad o a través de los centros de buceo; los 4x4 quedan aparcados en la capital. Las salidas de un día son habituales y no hay taquilla de isla. El pin marca Moucha; el objeto navegable en tierra es el puerto pesquero de la capital.",
+      "when": "Noviembre–marzo, con mar más plano por la mañana. De junio a septiembre el calor es extremo (más de 45 °C en el interior; julio ronda los 40 °C en la isla).",
+      "skip": "Con viento fuerte de mar: la travesía se vuelve incómoda y la visibilidad cae."
+    },
+    "links": [
+      {
+        "label": "Moucha Island (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Moucha_Island"
+      },
+      {
+        "label": "Maskali Islands (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Maskali_Islands"
+      },
+      {
+        "label": "Lista indicativa UNESCO · Yibuti (Îles Moucha et Maskali)",
+        "url": "https://whc.unesco.org/en/statesparties/dj"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plage_de_l'%C3%AEle_Moucha_avec_des_groupes_d'oiseaux_marins_le_long_de_la_mer_%C3%A9meraude,_Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Plage_de_l'%C3%AEle_Moucha_avec_des_groupes_d'oiseaux_marins_le_long_de_la_mer_%C3%A9meraude,_Djibouti.jpg",
+        "credit": "Anai171 · CC BY-SA 4.0",
+        "caption": "Playa de la isla Moucha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Groupe_d'oiseaux_marins_sur_la_plage_de_l'%C3%AEle_Moucha,_Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Groupe_d'oiseaux_marins_sur_la_plage_de_l'%C3%AEle_Moucha,_Djibouti.jpg",
+        "credit": "Anai171 · CC BY-SA 4.0",
+        "caption": "Aves marinas en la orilla de Moucha."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Drome_ard%C3%A9ole_(Dromas_ardeola)_ou_Pluvier_crabier_sur_la_plage_de_l'%C3%AEle_Moucha,_Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Drome_ard%C3%A9ole_(Dromas_ardeola)_ou_Pluvier_crabier_sur_la_plage_de_l'%C3%AEle_Moucha,_Djibouti.jpg",
+        "credit": "Anai171 · CC BY-SA 4.0",
+        "caption": "Dromas ardeola, el pluvial cangrejero, en Moucha."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plage_de_l'%C3%AEle_Moucha_avec_des_groupes_d'oiseaux_marins_le_long_de_la_mer_%C3%A9meraude,_Djibouti.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Plage_de_l'%C3%AEle_Moucha_avec_des_groupes_d'oiseaux_marins_le_long_de_la_mer_%C3%A9meraude,_Djibouti.jpg",
+    "credit": "Anai171 · CC BY-SA 4.0",
+    "icon": "costa",
+    "color": "turquesa"
+  },
+  {
+    "n": 10,
+    "name": "Archipiélago de las Sept Frères · buceo en Bab el-Mandeb (Reserva de Biosfera UNESCO)",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "1–2 noches",
+    "lat": 12.4674188,
+    "lon": 43.3173933,
+    "desc": "Seis islas volcánicas frente a la península de Ras Siyyan, en pleno estrecho de Bab el-Mandeb; el «séptimo hermano» no es una isla, sino el cono volcánico del extremo norte de Ras Siyyan. Es uno de los fondos más ricos del mar Rojo y, desde 2025, forma parte de la primera RESERVA DE BIOSFERA DE LA UNESCO del país. Aviso serio: el MAEC desaconseja expresamente el archipiélago por su proximidad a fronteras peligrosas, y las aguas de Bab el-Mandeb por piratería.",
+    "dog_note": "Solo se llega en barco de varios días y son colonias de cría de charranes: acceso vetado a animales.",
+    "visit": {
+      "why": "Buceo de corriente en un estrecho por el que pasa el tráfico mundial, con arrecifes casi vírgenes.",
+      "see": "Seis islas —Oeste (62 m), Doble (46 m), Baja (17 m), Grande (114 m), Este (83 m) y Sur (47 m)—, arrecifes y colonias de charranes.",
+      "access": "Solo por mar, en crucero de buceo desde la capital o en barca desde Khor Angar/Obock; la isla Oeste queda a unos 4,5 km de Ras Siyyan. El pin de conducción es Ras Siyyan, final de pista al norte de Obock. ESTADO: zona desaconsejada por MAEC (fronteras peligrosas y piratería) y a menos de 16 km de la franja fronteriza eritrea que EE. UU. recomienda evitar. Comprobar el aviso vigente antes de contratar.",
+      "when": "Noviembre–marzo por mar y temperatura. En julio la media ronda los 39 °C y de junio a septiembre el interior pasa de 45 °C.",
+      "skip": "Descartarlo mientras sigan vigentes los avisos de piratería y frontera; no es un destino para improvisar."
+    },
+    "links": [
+      {
+        "label": "Seven Brothers Islands (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Seven_Brothers_Islands"
+      },
+      {
+        "label": "Recomendaciones de viaje MAEC · Yibuti",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti"
+      },
+      {
+        "label": "UNESCO · 26 nuevas reservas de biosfera (2025)",
+        "url": "https://www.unesco.org/en/articles/26-new-biosphere-reserves-unescos-continues-unprecedented-expansion-its-global-network"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Seven_Brothers_Islands.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Seven_Brothers_Islands.jpg",
+        "credit": "Skilla1st · CC BY-SA 3.0",
+        "caption": "El archipiélago de las Sept Frères."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Seven_Brothers_(islands).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Seven_Brothers_(islands).jpg",
+        "credit": "Skilla1st · CC BY-SA 3.0",
+        "caption": "Las islas de las Siete Hermanas."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bab-el-Mandeb_Seen_From_Midchannel_(cropped).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Bab-el-Mandeb_Seen_From_Midchannel_(cropped).jpg",
+        "credit": "Richard Weil · CC0",
+        "caption": "El estrecho de Bab el-Mandeb desde el canal."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Seven_Brothers_Islands.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Seven_Brothers_Islands.jpg",
+    "credit": "Skilla1st · CC BY-SA 3.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 11,
+    "name": "Ardoukôba · el volcán de 1978 y la falla del Rift",
     "cat": "Naturaleza",
     "prio": "Media",
     "dog": "no recomendado",
-    "time": "1–2 noches",
-    "lat": 11.1667,
-    "lon": 41.8,
-    "desc": "Paisaje geotérmico de chimeneas de piedra caliza humeantes en la frontera con Etiopía, escenario de ciencia ficción y de la vida pastoral afar; acceso por pista, mejor con guía local.",
-    "credit": "Rolf Cosar · CC BY 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lac%20Abbe-01.JPG?width=900",
-    "source": "https://commons.wikimedia.org/wiki/File:Lac%20Abbe-01.JPG",
+    "time": "medio día",
+    "lat": 11.6105556,
+    "lon": 42.4758333,
+    "desc": "Volcán de fisura de 298 metros nacido en la ERUPCIÓN DEL 7 AL 14 DE NOVIEMBRE DE 1978, tras 3.000 años de reposo: doce millones de metros cúbicos de basalto fluido que corrieron hacia el Lac Assal y el Ghoubbet. La fisura sigue la dirección del Rift entre el bloque de Danakil y la depresión de Afar, y se camina por grietas abiertas donde África se está partiendo. La lava es cristal negro: botas rígidas y guantes, nada de chanclas.",
+    "dog_note": "Lava cortante y roca negra que quema las almohadillas; no hay sombra ni agua en todo el campo de lava.",
+    "visit": {
+      "why": "Ver y pisar una falla tectónica activa que se abrió en vida de cualquier viajero adulto.",
+      "see": "Cono de escorias, coladas negras de 1978, grietas del Rift y vistas al Ghoubbet y al Lac Assal desde el borde.",
+      "access": "Está entre el Ghoubbet y el Lac Assal, junto a la RN-9 asfaltada; se deja el asfalto y se entra por pista corta de lava, dura pero practicable con 4x4 y buena distancia al suelo. Explanada sin problema para dos vehículos, sin taquilla ni horario. El pin marca el cono; el desvío no está señalizado, conviene track o guía.",
+      "when": "Noviembre–marzo, de amanecer. De junio a septiembre el calor es extremo (más de 45 °C) y la roca negra multiplica la sensación térmica.",
+      "skip": "A mediodía o en verano: el campo de lava es un horno sin salida rápida."
+    },
+    "links": [
+      {
+        "label": "Ardoukoba (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Ardoukoba"
+      },
+      {
+        "label": "Ghoubbet-el-Kharab (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Ghoubbet-el-Kharab"
+      },
+      {
+        "label": "Lake Assal (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Lake_Assal_(Djibouti)"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardoukoba_Crater_Dec_2015.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ardoukoba_Crater_Dec_2015.jpg",
+        "credit": "Albert Backer · CC BY-SA 4.0",
+        "caption": "El cráter del Ardoukôba, nacido en 1978."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardoukoba.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ardoukoba.jpg",
+        "credit": "Rolfcosar · CC BY-SA 3.0",
+        "caption": "Las coladas del Ardoukôba."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardoukoba.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ardoukoba.JPG",
+        "credit": "Autor desconocido · Public domain",
+        "caption": "El volcán sobre la falla del Rift."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardoukoba_Crater_Dec_2015.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ardoukoba_Crater_Dec_2015.jpg",
+    "credit": "Albert Backer · CC BY-SA 4.0",
     "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": ""
+    "color": "verde"
+  },
+  {
+    "n": 12,
+    "name": "Khor Ambado y la Plage des Sables Blancs · las playas del golfo",
+    "cat": "Costa",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 11.5928279,
+    "lon": 43.0196983,
+    "desc": "Khor Ambado es la cala a la que escapa la capital: unos 20 kilómetros al oeste, se llega POR PISTA Y EN 4x4, cruzándose con nómadas y sus rebaños, y ofrece algo de sombra y buen snorkel. En la otra orilla del golfo, la Plage des Sables Blancs de Tadjoura es la playa de arena blanca del país, con un hotel-village a pie de agua. Aviso del MAEC: robos frecuentes en Doraleh y Khor Ambado al atardecer; no dejar nada en los vehículos ni quedarse de noche.",
+    "dog_note": "Playas sin vigilancia ni chiringuito: el perro puede bajar, pero con sombra propia y sin dejarlo suelto entre los pescadores.",
+    "visit": {
+      "why": "Baño y snorkel sin salir del área metropolitana, y un cambio de ritmo entre dos etapas largas de pista.",
+      "see": "Cala de grava y arena con arrecife bajo, acantilados bajos, pescadores y la silueta de la capital a lo lejos.",
+      "access": "Pista de tierra desde la carretera de Doraleh, unos 20 km desde la capital; conviene 4x4 y llegar con luz. Aparcamiento libre sobre la playa, holgado para dos vehículos. Sin entrada ni horario. El pin marca la cala de Khor Ambado; la Plage des Sables Blancs está en la orilla norte, cerca de Tadjoura, y su coordenada exacta queda por confirmar.",
+      "when": "Noviembre–marzo, por la mañana. De junio a septiembre el calor es extremo (más de 45 °C tierra adentro) y el agua pasa de 32 °C.",
+      "skip": "Al atardecer y de noche: el MAEC señala robos frecuentes justo en esta playa."
+    },
+    "links": [
+      {
+        "label": "La plage de Khor Ambado · guía oficial de turismo",
+        "url": "https://guide.visitdjibouti.dj/la-plage-de-khor-ambado/"
+      },
+      {
+        "label": "Recomendaciones de viaje MAEC · Yibuti",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti"
+      },
+      {
+        "label": "Hôtel Village Les Sables Blancs (Tadjoura)",
+        "url": "https://www.sables-blancs-djibouti.com/"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Khor_Ambado_beach,_Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Khor_Ambado_beach,_Djibouti.jpg",
+        "credit": "Nkm08pv7 · CC BY-SA 4.0",
+        "caption": "La playa de Khor Ambado, también llamada Plage des Sables Blancs."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Khor_Ambado_beach,_Djibouti.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Khor_Ambado_beach,_Djibouti.jpg",
+    "credit": "Nkm08pv7 · CC BY-SA 4.0",
+    "icon": "costa",
+    "color": "turquesa"
+  },
+  {
+    "n": 13,
+    "name": "Grand Bara · el desierto llano y la carretera a Ali Sabieh",
+    "cat": "Naturaleza",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "medio día",
+    "lat": 11.2346815,
+    "lon": 42.6099723,
+    "desc": "Antiguo fondo de lago convertido en una llanura de arena y arcilla de 103 km², tan plana y dura que la carretera que la cruza —40 kilómetros abiertos en 1981— parece una pista de aterrizaje. Es el escenario de la carrera anual GRAND BARA 15K. En julio y septiembre se inunda a tramos y brota hierba efímera. Advertencia: aunque tienta salirse a campo través, el llano es zona de maniobras militares y la orientación engaña; mejor no alejarse de la traza.",
+    "dog_note": "Llanura abierta sin depredadores grandes, pero sin una sombra: solo parada corta y con el perro atado junto al vehículo.",
+    "visit": {
+      "why": "Es la conducción más limpia del país y la transición visual entre el Yibuti volcánico y el sedimentario.",
+      "see": "Horizonte sin obstáculos, espejismos, dromedarios y campamentos afar dispersos; al fondo, las montañas rojas del sur.",
+      "access": "Asfalto: la RN-1 sale de la capital y la carretera del Grand Bara la cruza de norte a sur hacia Ali Sabieh y Dikhil. Parar en el arcén es sencillo y hay sitio de sobra para dos 4x4. Sin entrada ni horario. El pin marca el centro de la llanura; conviene fijar el punto de parada por GPS porque no hay referencias.",
+      "when": "Noviembre–marzo, con luz rasante de mañana o tarde. De junio a septiembre el calor es extremo (más de 45 °C) y sin sombra alguna.",
+      "skip": "Tras lluvias fuertes: la arcilla se encharca y el llano se vuelve trampa."
+    },
+    "links": [
+      {
+        "label": "Grand Bara (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Grand_Bara"
+      },
+      {
+        "label": "RN-1 (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/National_Highway_1_(Djibouti)"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/GrandBaraDesert.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:GrandBaraDesert.JPG",
+        "credit": "Skilla1st · CC BY-SA 3.0",
+        "caption": "El llano del Grand Bara."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_U.S._Air_Force_HC-130J_Combat_King_II_assigned_to_the_81st_Expeditionary_Rescue_Squadron_lands_on_an_unprepared_landing_zone_at_Grand_Bara,_Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:A_U.S._Air_Force_HC-130J_Combat_King_II_assigned_to_the_81st_Expeditionary_Rescue_Squadron_lands_on_an_unprepared_landing_zone_at_Grand_Bara,_Djibouti.jpg",
+        "credit": "Tech. Sgt. Dhruv Gopinath · Public domain",
+        "caption": "El Grand Bara se usa como pista de aterrizaje improvisada."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/GrandBaraDesert.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:GrandBaraDesert.JPG",
+    "credit": "Skilla1st · CC BY-SA 3.0",
+    "icon": "naturaleza",
+    "color": "verde"
+  },
+  {
+    "n": 14,
+    "name": "Ali Sabieh · la ciudad de las montañas rojas y el ferrocarril",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 11.1542936,
+    "lon": 42.7069057,
+    "desc": "Segunda ciudad del país con 44.782 habitantes (censo de 2024), encajada a 756 metros entre cerros de arenisca rojiza y a solo 10 kilómetros de Etiopía. EL TREN LLEGÓ EL 14 DE JULIO DE 1900 y la vieja estación sigue en pie aunque la línea métrica está abandonada; la nueva línea eléctrica a Adís Abeba pasa cerca desde 2016. Sobre el pueblo, la montaña con el emblema nacional tallado. Zona fronteriza: llevar pasaporte y eVisa a mano en los controles.",
+    "dog_note": "Ciudad tranquila y más fresca por la altura; atado en el centro y fuera del mercado.",
+    "visit": {
+      "why": "Es la única ciudad de montaña del sur, con el contraste de la arenisca roja y dos generaciones de ferrocarril.",
+      "see": "Estación histórica de 1900, montaña del emblema nacional (801 m) sobre la ciudad, mercado somalí y los montes Arrei.",
+      "access": "Asfalto: RN-5 desde Balbala, 85 km, pasando por Holhol, Danan y Ali Adde; también RN-1 y desvío. Aparcamiento fácil. La estación histórica se visita de palabra, sin taquilla ni horario. El pin marca la ciudad; el objeto navegable es la estación.",
+      "when": "Noviembre–marzo; las mínimas invernales bajan a 15–16 °C y se agradecen. De junio a septiembre el interior supera los 45 °C (aquí 32–37 °C de media de máximas).",
+      "skip": "Si no interesa el ferrocarril ni se va a subir a la montaña del emblema, es solo una parada de repostaje."
+    },
+    "links": [
+      {
+        "label": "Ali Sabieh (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Ali_Sabieh"
+      },
+      {
+        "label": "Ali Sabieh Mountain (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Ali_Sabieh_Mountain"
+      },
+      {
+        "label": "RN-5 (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/National_Highway_5_(Djibouti)"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Ali_Sabieh.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_of_Ali_Sabieh.JPG",
+        "credit": "Skilla1st · CC BY-SA 4.0",
+        "caption": "Ali Sabieh en 2015."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Arrei_Mountains_see_from_Ali_Sabieh.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Arrei_Mountains_see_from_Ali_Sabieh.JPG",
+        "credit": "Skilla1st · CC BY-SA 4.0",
+        "caption": "Los montes Arrei desde Ali Sabieh."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Sabieh.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Ali_Sabieh.jpg",
+        "credit": "SupaDane · Public domain",
+        "caption": "Ali Sabieh desde una loma al sur."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Ali_Sabieh.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Ali_Sabieh.JPG",
+    "credit": "Skilla1st · CC BY-SA 4.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
+  },
+  {
+    "n": 15,
+    "name": "Dikhil y el Petit Bara · la puerta del Lac Abbé",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "permitido con condiciones",
+    "time": "1 noche",
+    "lat": 11.1054336,
+    "lon": 42.3704744,
+    "desc": "Cabecera del suroeste, 27.378 habitantes (censo de 2024) sobre un espolón de los montes Okarre a 507 metros. Es LA ÚLTIMA GASOLINERA Y EL ÚLTIMO MERCADO antes del Lac Abbé, a 122 kilómetros de la capital por la RN-1 (unas 3 h en autobús). El Petit Bara se extiende al este, gemelo pequeño del Grand Bara. Los propios yibutianos suben aquí en verano por el clima; aun así, en julio las mínimas nocturnas rondan los 28 °C.",
+    "dog_note": "Pueblo de paso sin restricciones conocidas; atado y a la sombra, y nunca suelto en el llano del Petit Bara.",
+    "visit": {
+      "why": "Parada obligada de logística y avituallamiento antes de la pista del Lac Abbé, con un llano fósil al lado.",
+      "see": "Mercado de Dikhil, meseta de los Okarre, llanura del Petit Bara y caravanas de sal camino de Etiopía.",
+      "access": "RN-1 asfaltada desde la capital, 122 km; desde aquí arranca la pista hacia el Lac Abbé. Aparcamiento libre en el pueblo. A 12 km de la frontera etíope: habrá control de documentación. El pin marca el centro de Dikhil.",
+      "when": "Noviembre–marzo. De junio a septiembre el interior supera los 45 °C; incluso aquí, con el «clima sano» que le atribuyen, las noches de verano no bajan de 28 °C.",
+      "skip": "Si no se va al Lac Abbé: el pueblo en sí no justifica el desvío."
+    },
+    "links": [
+      {
+        "label": "Dikhil (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Dikhil"
+      },
+      {
+        "label": "RN-1 (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/National_Highway_1_(Djibouti)"
+      },
+      {
+        "label": "Grand Bara (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Grand_Bara"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Porte_de_Dikhil.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Porte_de_Dikhil.JPG",
+        "credit": "Cjulien21 · CC BY-SA 3.0",
+        "caption": "La puerta de entrada de Dikhil."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dikhil_2015.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Dikhil_2015.jpg",
+        "credit": "Albert Backer · CC BY-SA 4.0",
+        "caption": "Dikhil, sobre la RN1."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_approaching_Dikhil,_Djibouti_from_RN1_-_Mapillary_(382278977102494).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:View_approaching_Dikhil,_Djibouti_from_RN1_-_Mapillary_(382278977102494).jpg",
+        "credit": "muda @ Mapillary · CC BY-SA 4.0",
+        "caption": "Llegada a Dikhil por la RN1."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Porte_de_Dikhil.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Porte_de_Dikhil.JPG",
+    "credit": "Cjulien21 · CC BY-SA 3.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
+  },
+  {
+    "n": 16,
+    "name": "Puerto de Doraleh y las bases militares · el Yibuti geoestratégico",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "prohibido",
+    "time": "medio día",
+    "lat": 11.5938528,
+    "lon": 43.1056507,
+    "desc": "Cinco potencias tienen base militar en este país de 23.200 km²: Francia desde 1957 (BA 188), Estados Unidos en Camp Lemonnier desde 2001, Japón desde 2011 —su única base en el extranjero—, Italia desde 2013 y China desde 2017, junto al puerto de Doraleh. Los alquileres suman unos 300 millones de dólares al año, en torno al 10 % del PIB. Por el puerto pasa el 70 % de la carga con destino u origen en Etiopía. PROHIBIDO FOTOGRAFIAR puerto, aeropuerto y cualquier instalación militar.",
+    "dog_note": "Zona portuaria y militar de acceso restringido: ni personas ni animales entran sin autorización.",
+    "visit": {
+      "why": "Entender de un vistazo por qué existe Yibuti como Estado: es el peaje del estrecho de Bab el-Mandeb.",
+      "see": "Terminal de contenedores de Doraleh, tráfico de portacontenedores, convoyes militares y el perímetro de Camp Lemonnier junto al aeropuerto de Ambouli.",
+      "access": "Doraleh queda 5 km al oeste de la ciudad, por asfalto. NO se entra: el recinto portuario y las bases son zona restringida y no hay visita turística. Se ve desde la carretera costera y desde la RN-1. El pin marca el puerto de Yibuti, con Doraleh justo al oeste. No sacar la cámara ni el móvil cerca de garitas o convoyes: hay multas, confiscación, detención y expulsión.",
+      "when": "Todo el año, de paso; de junio a septiembre el calor es extremo (más de 45 °C en el interior) y no hay motivo para demorarse.",
+      "skip": "Descartarlo si el grupo no puede resistirse a fotografiar: el riesgo legal no compensa."
+    },
+    "links": [
+      {
+        "label": "Foreign military bases in Djibouti (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Foreign_military_bases_in_Djibouti"
+      },
+      {
+        "label": "Port of Djibouti (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Port_of_Djibouti"
+      },
+      {
+        "label": "Camp Lemonnier (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Camp_Lemonnier"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_container_terminal_at_the_Port_of_Djibouti.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_container_terminal_at_the_Port_of_Djibouti.jpg",
+        "credit": "Skilla1st · CC BY-SA 4.0",
+        "caption": "La terminal de contenedores del puerto de Yibuti."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Djibouti_Port.JPG?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Djibouti_Port.JPG",
+        "credit": "CharlesFred · CC BY-SA 3.0",
+        "caption": "Barca de pesca frente a los contenedores."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/May_18_-_180510-N-FD185-8029_(42187958511).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:May_18_-_180510-N-FD185-8029_(42187958511).jpg",
+        "credit": "U.S. Naval Forces Europe-Africa · Public domain",
+        "caption": "La terminal de Doraleh."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_container_terminal_at_the_Port_of_Djibouti.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:The_container_terminal_at_the_Port_of_Djibouti.jpg",
+    "credit": "Skilla1st · CC BY-SA 4.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
+  },
+  {
+    "n": 17,
+    "name": "Ferrocarril Adís Abeba–Yibuti · la estación de Nagad",
+    "cat": "Cultura",
+    "prio": "Media",
+    "dog": "por confirmar",
+    "time": "medio día",
+    "lat": 11.5235251,
+    "lon": 43.1282094,
+    "desc": "La estación de Nagad, junto al aeropuerto de Ambouli, es la cabecera yibutiana del primer FERROCARRIL ELECTRIFICADO TRANSFRONTERIZO DE ÁFRICA: 759 kilómetros hasta Adís Abeba, 93 de ellos en Yibuti, con catenaria de 25 kV y trenes de pasajeros a 120 km/h. Se inauguró el 5 de octubre de 2016 en Etiopía y el 10 de enero de 2017 en Yibuti, con explotación comercial desde 2018. Sustituyó a la vieja línea métrica de 1900. La regularidad del servicio de pasajeros ha sido irregular: confirmar horarios en taquilla.",
+    "dog_note": "No consta la política de la compañía sobre animales a bordo; hay que preguntar en la estación.",
+    "visit": {
+      "why": "Es la infraestructura que explica el país y una alternativa real para dejar los coches y cruzar a Etiopía en tren.",
+      "see": "Andenes y locomotoras eléctricas de Nagad, el tramo diésel hacia Doraleh y, en el sur, el viaducto de 1900 en Holhol (29 m de alto y 45 de largo).",
+      "access": "Asfalto hasta Nagad, al sur de la capital y junto al aeropuerto. Hay aparcamiento. Horarios y billetes solo en taquilla; el servicio de pasajeros ha sufrido interrupciones. El pin marca la estación de Nagad. OJO: fotografiar estaciones y trenes cerca de zona militar puede interpretarse mal; es zona de aeropuerto.",
+      "when": "Todo el año; noviembre–marzo para cualquier plan combinado. De junio a septiembre el interior pasa de 45 °C y el trayecto a Etiopía se hace duro.",
+      "skip": "Si no se va a montar en el tren: la estación en sí tiene poco que ver."
+    },
+    "links": [
+      {
+        "label": "Addis Ababa–Djibouti Railway (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Addis_Ababa%E2%80%93Djibouti_Railway"
+      },
+      {
+        "label": "Nagad railway station (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Nagad_railway_station"
+      },
+      {
+        "label": "Holhol y su viaducto de 1900 (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Holhol"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A9publique_de_Djibouti_-_gare_ferroviaire_de_Djibouti_(M%C3%A9diHAL_617651).jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9publique_de_Djibouti_-_gare_ferroviaire_de_Djibouti_(M%C3%A9diHAL_617651).jpg",
+        "credit": "Stéphane Pouyllau · CC BY-SA 4.0",
+        "caption": "La vieja estación del ferrocarril franco-etíope en Yibuti."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Addis_Ababa%E2%80%93Djibouti_Railway,_near_Dasbiyo.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Addis_Ababa%E2%80%93Djibouti_Railway,_near_Dasbiyo.jpg",
+        "credit": "Skilla1st · CC BY-SA 4.0",
+        "caption": "La línea nueva Adís Abeba–Yibuti cerca de Dasbiyo."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A9publique_de_Djibouti_-_gare_ferroviaire_de_Djibouti_(M%C3%A9diHAL_617651).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9publique_de_Djibouti_-_gare_ferroviaire_de_Djibouti_(M%C3%A9diHAL_617651).jpg",
+    "credit": "Stéphane Pouyllau · CC BY-SA 4.0",
+    "icon": "cultura",
+    "color": "morado"
+  },
+  {
+    "n": 18,
+    "name": "Loyada · la frontera con Somalilandia",
+    "cat": "Ciudad · servicios",
+    "prio": "Media",
+    "dog": "por confirmar",
+    "time": "medio día",
+    "lat": 11.4615657,
+    "lon": 43.2500923,
+    "desc": "Aldea costera a 25 kilómetros de la capital y ÚNICO PASO FRONTERIZO OFICIAL entre Yibuti y Somalilandia. Su nombre viene del afar «abrevadero blanco». Aquí terminó en 1976 el secuestro del autobús escolar francés: 31 niños retenidos, dos muertos y cinco heridos en el asalto del día siguiente. La frontera se ha cerrado por motivos políticos en varias ocasiones desde 1999 y volvió a abrir en 2002. El eVisa yibutiano sirve para entrada terrestre, pero conviene llevarlo impreso.",
+    "dog_note": "No hay información sobre el trámite de un animal en este paso; conviene consultar antes con los servicios veterinarios de ambos lados.",
+    "visit": {
+      "why": "Es el punto de salida hacia Somalilandia y un buen sitio para entender la geografía de clanes de la región.",
+      "see": "Puesto fronterizo, palmerales y playa; poco más: son 1.367 habitantes.",
+      "access": "Asfalto desde la capital, 25 km. Trámite lento y con control minucioso; se necesita eVisa (tránsito 12 USD de 1 a 14 días, corta estancia 23 USD de 15 a 90 días) tramitado en evisa.gouv.dj, válido también en fronteras terrestres; el visado a la llegada solo se contempla para pasaportes diplomáticos, oficiales y de servicio. El pin marca la localidad; el objeto navegable es el puesto fronterizo. Prohibido fotografiar el paso.",
+      "when": "Noviembre–marzo y a primera hora, cuando el puesto está menos saturado. De junio a septiembre el calor es extremo (más de 45 °C en el interior; aquí, 36 °C de media en julio).",
+      "skip": "Si no se va a cruzar a Somalilandia, no hay razón para acercarse a un puesto fronterizo."
+    },
+    "links": [
+      {
+        "label": "Loyada (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Loyada"
+      },
+      {
+        "label": "Política de visados de Yibuti (Wikipedia EN)",
+        "url": "https://en.wikipedia.org/wiki/Visa_policy_of_Djibouti"
+      },
+      {
+        "label": "Recomendaciones de viaje MAEC · Yibuti",
+        "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Yibuti"
+      }
+    ],
+    "photos": [
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/19760203_PV_P32-PHOTO_01.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:19760203_PV_P32-PHOTO_01.jpg",
+        "credit": "Paulu Francescu · CC BY-SA 4.0",
+        "caption": "Vista aérea de la frontera de Loyada en 1976."
+      },
+      {
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Djibouti_entry_stamp.jpg?width=1200",
+        "source": "https://commons.wikimedia.org/wiki/File:Djibouti_entry_stamp.jpg",
+        "credit": "Ayaanle · CC BY-SA 4.0",
+        "caption": "Sello de entrada por el paso de Loyada."
+      }
+    ],
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/19760203_PV_P32-PHOTO_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:19760203_PV_P32-PHOTO_01.jpg",
+    "credit": "Paulu Francescu · CC BY-SA 4.0",
+    "icon": "ciudad · servicios",
+    "color": "azul"
   }
 ]

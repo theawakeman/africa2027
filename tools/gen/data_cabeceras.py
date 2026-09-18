@@ -55,10 +55,10 @@ RUTAS = {
     "esuatini": ("Opcional: Sudáfrica → Esuatini", "Esuatini → Mozambique"),
     "lesoto": ("Opcional: entrada desde Sudáfrica", "Regreso a Sudáfrica"),
     "madagascar": ("Solo en avión", "No aplica"),
-    "etiopia": ("Fuera de la ruta prevista", "No aplica"),
+    "etiopia": ("Fuera de ruta · no se sube al Cuerno", "No aplica"),
     "sudan": ("Excluido · conflicto activo", "No aplica"),
-    "egipto": ("Fuera de la ruta prevista", "No aplica"),
-    "yibuti": ("Fuera de la ruta prevista", "No aplica"),
+    "egipto": ("Fuera de ruta · viaje aparte", "No aplica"),
+    "yibuti": ("Fuera de ruta · viaje aparte", "No aplica"),
     "tunez": ("Fuera de ruta · ferry desde Italia/Francia", "No aplica"),
     "mali": ("Excluido · conflicto activo", "No aplica"),
     "guinea-bisau": ("Excluido · junta militar", "No aplica"),
@@ -88,6 +88,9 @@ ACTIVIDADES = {
     "mali": ("Solo en avión: nadie cruza Mali con vehículo propio", "Bamako y Siby con guía, si algún día se levanta el veto"),
     "guinea-bisau": ("Asfalto roto · pistas · lluvias jun–oct intransitables", "Bissau de día sí · Bijagós solo sin coche"),
     "sudan": ("Sin cruces de overlanders desde 2023 · CPD aceptado", "No: riesgo de detención y secuestro en todo el país"),
+    "egipto": ("CPD obligatorio + matrícula y carné egipcios", "Valle del Nilo sí; desierto y norte del Sinaí, no"),
+    "etiopia": ("Imprescindible fuera del asfalto · 250 km/día, irreal", "Solo de día y en la capital; nunca solo de noche"),
+    "yibuti": ("Imprescindible · convoy de dos · nunca de noche", "Solo en la capital y de día · nada fuera del asfalto"),
 }
 
 
@@ -113,6 +116,9 @@ SEGUROS = {
     "mali": "Carta Verde no válida · Carte Brune por confirmar",
     "guinea-bisau": "Carte Brune CEDEAO obligatoria · Carta Verde no vale",
     "sudan": "Carta Verde no válida · seguro viaje no cubre",
+    "egipto": "Carta Verde y Yellow Card NO valen · local",
+    "etiopia": "Sin Carta Verde · Yellow Card COMESA obligatoria",
+    "yibuti": "Carta Verde no vale · COMESA Yellow Card",
 }
 
 
@@ -143,12 +149,13 @@ PELIGROS = {
     "uganda": "Tsetsé en Bwindi/QENP",
     "ruanda": "Bolsas de plástico prohibidas",
     "sudan": "Guerra civil · drones · secuestro",
-    "etiopia": "Tigray, Amhara y Oromía",
-    "egipto": "Sinaí norte excluido",
+    "etiopia": "Conflicto armado en 7 regiones",
+    "egipto": "Norte del Sinaí desaconsejado",
     "tunez": "Fronteras con Argelia y Libia vetadas",
     "madagascar": "Dahalo · asaltos · noche",
     "mali": "Terrorismo, secuestro, minas",
     "guinea-bisau": "Golpe 2025 · minas · carreteras",
+    "yibuti": "Calor 45 °C · minas · fronteras",
 }
 
 
