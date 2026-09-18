@@ -797,6 +797,36 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
                                    'https://www.fao.org/fao-who-codexalimentarius/about-codex/members/detail/en/c/15642/',
                                    'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm'],
                        'auditado': '2026-09-12'},
+ 'tunez': {'organismo': "Direction Générale des Services Vétérinaires (DGSV), Ministère de "
+                     "l'Agriculture, des Ressources Hydrauliques et de la Pêche · control en frontera "
+                     "por la Douane Tunisienne",
+           'url': 'https://www.douane.gov.tn/animaux-de-compagnie/',
+           'url_generica': False,
+           'url_verificada': True,
+           'email': None,
+           'tel': None,
+           'cert': True,
+           'cert_dias': None,
+           'cert_quien': 'Veterinario oficial del pais de origen (certificado sanitario veterinario '
+                         'original + libreta/pasaporte del animal); en Espana, certificado CEXGAN por el '
+                         'veterinario colegiado (modelo para Tunez: por confirmar en el buscador de '
+                         'animales de compania del MAPA)',
+           'nota': 'FUERA DE LA RUTA 2027 (solo viaje aparte en ferry a La Goulette). Pagina oficial de '
+                   'la Aduana abierta y leida el 18-09-2026: certificado sanitario veterinario original '
+                   'de los servicios oficiales del pais de origen + libreta sanitaria + vacuna '
+                   'antirrabica en vigor; razas prohibidas Pit-bull, Rottweiler, Tosa y Mastiff/Boerboel '
+                   '(cartel de la DGSV). Sin permiso previo de importacion ni plazo de validez del '
+                   'certificado publicados: no se inventan. Ningun relato de ferry 2021-2025 vio '
+                   'control veterinario en el puerto; llevar los papeles igualmente. Direccion de la DGSV '
+                   'segun WOAH: 30 avenue Alain Savary, 1002 Tunis; telefono y correo no publicados en '
+                   'fuente abierta. Vuelta a la UE: Tunez no esta en la lista de 2026 (Reg. 2026/636): '
+                   'via A con pasaporte si la titulacion consta antes de salir.',
+           'fuentes': ['https://www.douane.gov.tn/animaux-de-compagnie/',
+                       'https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm',
+                       'https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones',
+                       'https://anivetvoyage.com/pays/tunisie/',
+                       'https://www.pettravel.com/immigration/Tunisia.cfm'],
+           'auditado': '2026-09-18'},
  'ue': {'organismo': 'Comisión Europea, DG SANTE — movimiento no comercial desde terceros países',
         'url': 'https://food.ec.europa.eu/animals/movement-pets/eu-legislation/non-commercial-movement-non-eu-countries_en',
         'url_generica': False,

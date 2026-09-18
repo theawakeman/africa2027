@@ -243,6 +243,14 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 | **Esuatini** | ✅ **Sí** (testimonio directo) | SACU | 🟢 | Cruce terrestre con perro documentado. | [Department of Veterinary and Livestock…](https://www.gov.sz/index.php/ministries-departments/ministry-of-agriculture/veterinary-a-livestock) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | **Lesoto** | ✅ Probable | SACU | 🟢 | | [Department of Livestock Services - Imports…](https://lesotho.eregulations.org/procedure/160?l=en) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 
+## 2.4 Fuera de la ruta prevista (fichas informativas)
+
+Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si se plantea un viaje aparte. Mismo criterio de etiquetas que el resto del dosier.
+
+| País | Entrada terrestre | Permiso | Dificultad | Nota | Quién lo emite | Correo | Certificado sanitario |
+|---|---|---|---|---|---|---|---|
+| **Túnez** | ⛴️ Solo en ferry (La Goulette) · sin conexión terrestre con la ruta | ❌ No previo (Aduana) | 🟢 | **[CONFIRMADO]** Certificado sanitario oficial del país de origen + libreta + rabia en vigor; razas prohibidas Pit-bull, Rottweiler, Tosa, Mastiff/Boerboel. Vuelta a la UE: vía A (§4). | [Direction Générale des Services Vétérinaires](https://www.douane.gov.tn/animaux-de-compagnie/) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+
 ---
 
 # 3. Fichas por país
@@ -736,6 +744,25 @@ Evidencia:
 | **Sierra Leona** | **[SIN CONFIRMAR]** — ninguna fuente nacional; solo el modelo británico (certificado 7 días). |
 
 ---
+
+## 3.24 TÚNEZ 🟢 — *fuera de la ruta: solo viaje aparte en ferry*
+
+**Entrada:** ⛴️ Solo por mar (ferry a La Goulette desde Génova, Civitavecchia, Salerno, Palermo o Marsella; CTN a Zarzis en verano). No hay conexión terrestre con la ruta 2027: Marruecos–Argelia cerrada desde 1994, Libia inviable.
+**Papeles:** **[CONFIRMADO]** — portal oficial de la Douane Tunisienne (leído el 18/09/2026): *"Les animaux de compagnie doivent être accompagnés de l'original du certificat sanitaire vétérinaire délivré par les services vétérinaires officiels du pays d'origine ainsi que le livret sanitaire de l'animal; l'animal doit avoir été vacciné contre la rage."*
+- Sin permiso previo de importación publicado; sin plazo de validez del certificado publicado (las webs comerciales dicen 10–12 días: **[SIN CONFIRMAR]**).
+- **Razas prohibidas** (cartel de la DGSV): Pit-bull, Rottweiler, Tosa, Mastiff/Boerboel y sus cruces.
+- Titulación antirrábica: Túnez no la exige para entrar; hace falta para **volver a la UE** por la vía A (§4), anotada en el pasaporte antes de salir.
+- Testimonios de ferry (Weltbummlerei 2021, myatlas 2025, Abseits der Strasse 2025): nadie pidió los papeles del perro en el puerto. Llevarlos igualmente.
+
+**Con el perro dentro:** yacimientos, museos y mezquitas sin perro por regla general (sin norma escrita); playas, oasis, ksour y desierto con correa; hoteles y restaurantes poco perrunos; rabia presente en callejeros (TravelHealthPro 2026); solo de octubre a abril por el calor.
+
+---
+
+**Dónde se pide.** Direction Générale des Services Vétérinaires (DGSV), Ministère de l'Agriculture, des Ressources Hydrauliques et de la Pêche · control en frontera por la Douane Tunisienne — [página del trámite](https://www.douane.gov.tn/animaux-de-compagnie/)  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial del pais de origen (certificado sanitario veterinario original + libreta/pasaporte del animal); en Espana, certificado CEXGAN por el veterinario colegiado (modelo para Tunez: por confirmar en el buscador de animales de compania del MAPA)  
+**Otra fuente:** [woah.org](https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm) · [mapa.gob.es](https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones)  
+
+> FUERA DE LA RUTA 2027 (solo viaje aparte en ferry a La Goulette).
 
 # 4. La vuelta a la UE
 

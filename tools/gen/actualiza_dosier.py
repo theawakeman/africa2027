@@ -31,6 +31,8 @@ FILA = {
     "Gambia": "gambia", "Sierra Leona": "sierra-leona", "Liberia": "liberia",
     "Gabón": "gabon", "Malaui": "malaui", "Uganda": "uganda", "Ruanda": "ruanda",
     "Esuatini": "esuatini", "Lesoto": "lesoto", "UE / España": "ue",
+    # Fuera de la ruta prevista: fichas informativas (viaje aparte)
+    "Túnez": "tunez",
 }
 
 # Búsqueda tolerante: «COSTA DE MARFIL» y «Costa de Marfil» son el mismo país.
@@ -250,7 +252,7 @@ def main():
             return m.group(0)
         return f"## {titulo}\n{cuerpo.rstrip()}\n{bloques}\n"
 
-    md = re.sub(r"^## (3\.\d+ [^\n]+)\n(.*?)(?=^## |\Z)", inserta, md, flags=re.M | re.S)
+    md = re.sub(r"^## (3\.\d+ [^\n]+)\n(.*?)(?=^#{1,2} |\Z)", inserta, md, flags=re.M | re.S)
 
     DOSIER.write_text(md, encoding="utf-8")
     print("dosier actualizado")
