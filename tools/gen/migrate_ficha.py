@@ -21,7 +21,7 @@ import importlib
 for _slug in ["marruecos", "sahara-occidental", "guinea", "sierra-leona", "liberia", "costa-de-marfil",
               "ghana", "togo", "benin", "nigeria", "camerun", "gabon", "congo", "rd-congo", "angola",
               "namibia", "sudafrica", "mozambique", "malaui", "tanzania", "kenia", "etiopia", "sudan", "egipto",
-              "gambia", "lesoto", "esuatini", "zimbabue", "botsuana", "zambia", "uganda", "ruanda", "yibuti", "madagascar", "tunez", "mali", "guinea-bisau", "argelia", "libia", "burkina-faso", "niger", "chad", "rca", "sudan-del-sur", "eritrea"]:
+              "gambia", "lesoto", "esuatini", "zimbabue", "botsuana", "zambia", "uganda", "ruanda", "yibuti", "madagascar", "tunez", "mali", "guinea-bisau", "argelia", "libia", "burkina-faso", "niger", "chad", "rca", "sudan-del-sur", "eritrea", "somalia", "guinea-ecuatorial", "cabo-verde", "santo-tome"]:
     try:
         _m = importlib.import_module("data_" + _slug.replace("-", "_"))
         FULL[_slug] = _m.get_data()

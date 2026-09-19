@@ -129,10 +129,11 @@ VISADOS = {
         alerta="La mera solicitud no basta. El QR permite la expedición en frontera, pero hay que confirmar por escrito los puestos exactos de la ruta.",
         oficial="https://www.evisacam.cm/ords/dl_portal/r/public_portal/home", maec=_maec("Camerún")),
     "guinea-ecuatorial": visa(
-        "no_viable", "Visado obligatorio y fronteras terrestres continentales cerradas por tiempo indeterminado.",
-        "No incorporarlo a la ruta; solo reevaluar con reapertura oficial y visado emitido en España.", ruta="fuera",
-        alerta="MAEC fecha el cierre terrestre desde el 15 de diciembre de 2025; la vía aérea no sirve al viaje con vehículos.",
-        maec=_maec("Guinea Ecuatorial")),
+        "electronico", "Visado obligatorio para españoles, sin ninguna exención en vigor, con eVisa previa de 105 € para estancias de menos de 90 días.",
+        "Solicitar el eVisa en equatorialguinea-evisa.com con pasaporte de seis meses de validez y certificado de fiebre amarilla, contando unas 72 horas de tramitación; si el portal falla, tramitarlo en la Embajada de Guinea Ecuatorial.",
+        ruta="fuera", entradas="Una entrada, hasta 90 días", coste="105 € (estancias inferiores a 90 días)",
+        alerta="El visado no garantiza el paso por frontera terrestre: el MAEC desaconseja el acceso terrestre a los no CEMAC y los pasos cierran sin preaviso desde el 15-XII-2025.",
+        oficial="https://equatorialguinea-evisa.com/", maec=_maec("Guinea Ecuatorial")),
     "gabon": visa(
         "presencial", "Para entrar por carretera se necesita visado consular previo.",
         "Tramitarlo en la Embajada de Gabón antes de salir de Europa.", entradas="solo si se reactiva la alternativa", ruta="alternativa",
@@ -243,10 +244,11 @@ VISADOS = {
         alerta="Pasaporte con seis meses de validez y hay que conservar el sello de entrada: lo piden al salir.",
         oficial="https://visa2egypt.gov.eg", maec=_maec("Egipto")),
     "somalia": visa(
-        "no_viable", "Visado obligatorio, disponible también al llegar, pero el viaje no es viable.",
-        "Excluir por completo de la ruta.", ruta="fuera",
-        alerta="MAEC desaconseja el viaje bajo cualquier circunstancia y advierte de amenaza terrorista y secuestro muy altas.",
-        maec=_maec("Somalia")),
+        "no_viable", "Hay visado, pero el país no es utilizable: el MAEC desaconseja el viaje bajo cualquier circunstancia y Somalia, Somalilandia y Puntlandia emiten permisos distintos que no se reconocen entre sí.",
+        "No se tramita nada: Somalia está excluida de la ruta de 2027.",
+        ruta="fuera", entradas="Una entrada, 1 mes", coste="60 USD en efectivo (visado somalí, una entrada, un mes) · Somalilandia 30 GBP–100 USD según dónde se emita",
+        alerta="Desde el 10 de noviembre de 2025 Somalilandia declara NO válidos los visados emitidos por Somalia; además, el sistema electrónico somalí sufrió una filtración de más de 35.000 registros.",
+        oficial="https://etas.gov.so/", maec=_maec("Somalia")),
     "yibuti": visa(
         "electronico", "Visado obligatorio para españoles: eVisa oficial en evisa.gouv.dj, o visado en la embajada de Yibuti en París o en Adís Abeba.",
         "Solicitar el eVisa con semanas de antelación y, si se entra por tierra con vehículo, pedir además visado físico en el pasaporte en la embajada de Yibuti en Adís Abeba.",
@@ -307,6 +309,18 @@ VISADOS = {
         ruta="fuera", entradas="Una entrada; 30 días la vía aeropuerto, 90 días según relatos de la vía embajada (por confirmar)", coste="Vía embajada: por confirmar. Visado a la llegada con carta de invitación: unos 70 USD en efectivo, más unos 50 USD de gestión del operador.",
         alerta="Se concede con cuentagotas y solo da acceso a Asmara: para salir más de 25 km de la capital hace falta además el permiso de viaje interior del Ministerio de Turismo.",
         oficial="", maec=_maec("Eritrea")),
+    "cabo-verde": visa(
+        "sin", "Españoles SIN VISADO hasta 30 días desde el 1 de enero de 2019, pero con pre-registro EASE y tasa TSA obligatorios.",
+        "Registrarse en ease.gov.cv al menos 5 días antes del vuelo y pagar allí la Taxa de Segurança Aeroportuária.",
+        ruta="fuera", entradas="Estancias de hasta 30 días; prórroga ante la DEF", coste="3.400 CVE (~31 €) online; 6.800 CVE (~62 €) si se paga en el aeropuerto",
+        alerta="Llegar sin el pre-registro EASE hecho cuesta el doble en tasa de regularización y puede retrasar el paso por la DEF.",
+        oficial="https://www.ease.gov.cv/", maec=_maec("Cabo Verde")),
+    "santo-tome": visa(
+        "sin", "Los españoles entran SIN VISADO hasta 15 días con pasaporte de validez mínima de 6 meses.",
+        "Llevar pasaporte con 6 meses de validez y 25 € en efectivo por persona para la tasa de turismo; para más de 15 días, tramitar la eVisa antes de volar.",
+        ruta="fuera", entradas="Exención de 15 días · eVisa para estancias mayores", coste="0 € el visado · 25 € de tasa de turismo por persona (10 € si se entra por Príncipe)",
+        alerta="La exención es de SOLO 15 DÍAS, una de las más cortas de África: pasarse un día ya exige visado previo.",
+        oficial="https://turismo.gov.st/pt/taxa-de-turismo", maec=_maec("Santo Tomé y Príncipe")),
     "burkina-faso": visa(
         "no_viable", "El visado existe y se tramita en línea, pero el país está excluido por protocolo y lo desaconsejan MAEC, FCDO y Canadá.",
         "No tramitar: el tramo se sustituye por el norte de Ghana y Costa de Marfil; si algún día se reabriera, solicitar el eVisa en visaburkina.bf y la fiche de voyage en las 72 h previas.",

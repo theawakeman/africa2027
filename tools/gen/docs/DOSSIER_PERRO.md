@@ -265,6 +265,10 @@ Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si s
 | **República Centroafricana** | ✈️ Avión a Bangui M'Poko (BGF); por tierra, el eje Duala–Garoua-Boulaï/Béloko–Bangui | ❓ Por confirmar (Min. de Agricultura y Desarrollo Rural) | 🟡 | **[PROBABLE]** Microchip, rabia de más de 2 semanas y menos de 6 meses y certificado sanitario internacional ≤72 h; dato de fuente veterinaria secundaria, sin web nacional verificada. Vuelta a la UE solo por vía A. | Ministère de l'Agriculture et du… | — *sin correo publicado* | ✅ Sí · **3 días** |
 | **Sudán del Sur** | ✈️ Avión a Yuba (JUB); por tierra, solo el corredor Uganda–Nimule tiene tráfico civil normal | ❓ Por confirmar (Ministry of Livestock and Fisheries) | 🟡 | **[PROBABLE]** Rabia entre 30 días y 12 meses antes y certificado veterinario ≤10 días refrendado por veterinario oficial; entrada de mascotas por el aeropuerto de Yuba (PetTravel). Vuelta a la UE solo por vía A. | Ministry of Livestock and Fisheries | — *sin correo publicado* | ✅ Sí · **10 días** |
 | **Eritrea** | ✈️ Solo en avión a Asmara (ASM) · fronteras terrestres cerradas | ❓ Sin normativa publicada | 🔴 | **[SIN CONFIRMAR]** Ninguna norma eritrea de importación localizable en fuente oficial. Con acceso solo aéreo y fronteras cerradas, el perro NO entra en el plan. | Ministerio de Agricultura de Eritrea —… |  | sin confirmar |
+| **Somalia** | ✈️ Avión a Mogadiscio (MGQ) con escolta armada, o a Hargeisa (HGA) · por tierra solo Tog Wajaale desde Etiopía, con visado somalilandés previo | ❓ Sin normativa publicada | 🔴 | **[SIN CONFIRMAR]** Ninguna norma somalí de importación localizable; el único organismo con web es el Ministry of Livestock, Forestry and Range, genérico. Los visados de Somalia, Somalilandia y Puntlandia NO son intercambiables. Con el viaje desaconsejado bajo cualquier circunstancia, el perro NO entra en el plan. | [Ministry of Livestock](https://molfr.gov.so/contact-us/) ⚠️ | `Info@molfr.gov.so` | sin confirmar |
+| **Guinea Ecuatorial** | ✈️ Avión a Malabo (SSG) o Bata (BSG) · fronteras terrestres del Río Muni CERRADAS desde el 15-12-2025 | ❓ Por confirmar (servicios veterinarios) | 🟡 | **[PROBABLE]** Microchip ISO, rabia en vigor y certificado sanitario CEXGAN modelo ASE-3505 (validez 10 días), solo por el aeropuerto de Malabo; sin web oficial del organismo veterinario. Visado obligatorio para españoles (eVisa, ~105 €). Vuelta a la UE solo por vía A. | Ministerio de Agricultura |  | ✅ Sí · **10 días** |
+| **Cabo Verde** | ✈️ Solo en avión (RAI, SID, BVC, VXE) · insular, sin ro-ro ni ferry de coches desde el continente | ❓ Por confirmar (DGASP) | 🟡 | **[PROBABLE]** Microchip, rabia no antes de los 3 meses, serología ≥0,5 UI/ml a los 30 días y certificado válido 10 días, según el modelo de la DGAV portuguesa; sin página oficial caboverdiana localizada. Prerregistro EASE y TSA obligatorios. Vuelta a la UE solo por vía A. | Direção Geral da Agricultura |  | ✅ Sí · **10 días** |
+| **Santo Tomé y Príncipe** | ✈️ Solo en avión a São Tomé (TMS) · insular, sin travesía regular que admita vehículos | ❓ Por confirmar | 🟡 | **[POR CONFIRMAR]** No hay web nacional accesible con los requisitos de entrada de animales; `stp.gov.st` abre pero su sección de ministerios no carga. Exención de visado de solo 15 días y tasa de turismo a la llegada. Vuelta a la UE solo por vía A. | [Gobierno de Santo Tomé y Príncipe —…](https://stp.gov.st/ministerios) ⚠️ | `geral@gpm.gov.st` | sin confirmar |
 
 ---
 
@@ -1059,6 +1063,82 @@ Evidencia:
 **Otra fuente:** [travelhealthpro.org.uk](https://travelhealthpro.org.uk/countries/eritrea) · [mapa.gob.es](https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones)  
 
 > No se ha localizado ninguna página oficial nacional eritrea de servicios veterinarios ni portal de trámites de importación de animales de compañía:
+
+## 3.40 SOMALIA 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** En la práctica solo en avión: Aden Adde (Mogadiscio) o Egal (Hargeisa). Por tierra, únicamente Tog Wajaale desde Etiopía.
+**Papeles:** Sin trámite oficial publicado. Vuelta a la UE: Somalia NO figura en el Reglamento (UE) 2026/636 → titulación antirrábica previa obligatoria.
+
+- NO EXISTE una página oficial somalí de requisitos de importación de animales de compañía localizable en esta sesión. Todo lo referido a la entrada del perro está POR CONFIRMAR.
+- El organismo nacional competente es el Ministry of Livestock, Forestry and Range (molfr.gov.so), con un Department of Animal Health and Public Veterinary Services en el distrito de Warta Nabada de Mogadiscio, pero no publica trámites para mascotas.
+- Somalilandia tiene su propio Ministry of Livestock and Rural Development (molfd.govsomaliland.org) y sus certificados no serían válidos en Somalia federal, igual que ocurre con los visados.
+- VUELTA A LA UE: Somalia NO figura en las listas del Reglamento de Ejecución (UE) 2026/636, aplicable desde el 22 de abril de 2026. Ningún país africano continental está en ellas; solo aparecen Ascensión y Santa Elena.
+- Por tanto se aplica la vía A del Reglamento Delegado (UE) 2026/131: microchip, primovacunación antirrábica al menos 21 días antes y TITULACIÓN DE ANTICUERPOS (≥0,5 UI/ml) en laboratorio autorizado, con extracción al menos 30 días después de la vacuna y 90 días de espera antes de entrar en la UE.
+
+---
+
+**Dónde se pide.** Ministry of Livestock, Forestry and Range (Federal Government of Somalia) — Department of Animal Health and Public Veterinary Services — [portada del organismo](https://molfr.gov.so/contact-us/) ⚠️ *no se ha localizado la página del trámite*  
+**Escribir a:** `Info@molfr.gov.so`  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** sin confirmar · lo emite: por confirmar  
+**Otra fuente:** [en.wikipedia.org](https://en.wikipedia.org/wiki/Ministry_of_Livestock_(Somaliland)) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
+
+## 3.41 GUINEA ECUATORIAL 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** En la práctica solo por aire o mar: aeropuertos de Malabo (SSG, isla de Bioko) y Bata (BSG, continente), y ferry Malabo–Bata. Bioko y Annobón no tienen acceso por carretera.
+**Papeles:** Microchip ISO, rabia en vigor y certificado veterinario oficial (CEXGAN, modelo ASE-3505, válido 10 días). Entrada de animales por el aeropuerto de Malabo.
+
+- ENTRADA: microchip ISO 11784/11785 implantado antes de la vacunación, vacuna antirrábica en vigor —entre 30 días y 12 meses antes de la entrada según PetTravel, con un mínimo de 21 días desde la primovacunación en la práctica CEXGAN— y certificado veterinario oficial del país de origen.
+- CERTIFICADO: desde España se tramita por CEXGAN con el modelo ASE-3505 específico de Guinea Ecuatorial, o bien certificado genérico CEXGAN más CVS, o pasaporte europeo legalizado por veterinario acreditado. Examen clínico como máximo 10 días antes y desparasitación entre 10 y 30 días antes; el certificado CADUCA A LOS 10 DÍAS de emitirse.
+- PERMISO PREVIO: PetTravel indica que los perros y gatos que viajan con su dueño NO necesitan permiso de importación, y que no habrá cuarentena si se cumplen los requisitos. Sin confirmación por fuente oficial ecuatoguineana.
+- PUNTO DE ENTRADA: los animales de compañía deben entrar por el Aeropuerto Internacional de Malabo. No hay constancia de puesto de inspección fronteriza terrestre habilitado para animales.
+- RAZAS PROHIBIDAS: Guinea Ecuatorial no publica lista oficial de razas prohibidas (PetTravel). No se ha localizado ninguna norma al respecto.
+
+---
+
+**Dónde se pide.** Ministerio de Agricultura, Ganadería, Bosques y Medio Ambiente de la República de Guinea Ecuatorial — servicios veterinarios oficiales. El certificado español CEXGAN designa como receptor al «ICA (Instituto Guinea Ecuatorial Agropecuario)». — *sin página localizada*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial de los servicios veterinarios del país de origen. Desde España, certificado tramitado por CEXGAN con el modelo ASE-3505 específico de Guinea Ecuatorial y visado por el Servicio de Sanidad Animal de la comunidad autónoma.  
+**Otra fuente:** [handervet.com](https://handervet.com/certificados/viajar-perro-gato-guinea-ecuatorial-cexgan/) · [pettravel.com](https://www.pettravel.com/information/pet-passports/equatorial-guinea-pet-import-requirements/)  
+
+## 3.42 CABO VERDE 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Vuelo a Sal (SID), Praia (RAI), Boa Vista (BVC) o São Vicente/Mindelo (VXE) desde Lisboa, Madrid, Las Palmas y varias ciudades europeas. Entre islas, CV Interilhas, Nôs Ferry y vuelos domésticos; el salto Mindelo–Porto Novo cuesta 1.500 CVE (unos 13,60 €) por pasajero no residente.
+**Papeles:** Entrada con certificado veterinario oficial, microchip, rabia y serología ≥0,5 UI/ml; certificado válido 10 días. VUELTA A LA UE: Cabo Verde NO está en el anexo II del Reg. (UE) 2026/636, así que hace falta titulación antirrábica previa anotada en el pasaporte.
+
+- ENTRADA: certificado veterinario oficial del país de origen según modelo OIE/WOAH, con identificación del animal, vacunación antirrábica y desparasitación interna y externa documentadas. El modelo que usa Portugal para exportar a Cabo Verde (DGAV, MOD 970-DGV-01-2012) exige MICROCHIP obligatorio vinculado a la vacuna y a la titulación.
+- RABIA Y SEROLOGÍA: la vacuna antirrábica no puede administrarse antes de los 3 meses de edad, y hace falta análisis serológico en laboratorio autorizado por la OIE realizado AL MENOS 30 DÍAS después de la vacunación, con título ≥0,5 UI/ml. El certificado sanitario tiene una validez de solo 10 DÍAS, así que hay que cuadrarlo con la fecha exacta del vuelo.
+- AUTORIZACIÓN PREVIA: las representaciones caboverdianas exigen enviar la documentación al consulado o embajada para obtener un «atestado de que o animal pode viajar para Cabo Verde» (la Embajada de Cabo Verde en Brasil lo cobra a 15,71 USD). Si el trámite es equivalente en la Embajada de Cabo Verde en Madrid está POR CONFIRMAR.
+- RAZAS PROHIBIDAS: no se ha localizado ninguna lista de razas prohibidas o restringidas de Cabo Verde en fuente oficial. POR CONFIRMAR con la DGASP o con la Embajada de Cabo Verde en Madrid.
+- VUELTA A LA UE: Cabo Verde NO figura en el anexo II del Reglamento de Ejecución (UE) 2026/636 (aplicable desde el 22 de abril de 2026), que sí lista 52 países. Eso obliga a la vía de país no listado: TITULACIÓN ANTIRRÁBICA en laboratorio autorizado por la UE con muestra tomada al menos 30 días después de la vacunación, anotada en el pasaporte europeo ANTES DE SALIR de España, y entrada por un punto de entrada de viajeros autorizado.
+
+---
+
+**Dónde se pide.** Direção Geral da Agricultura, Silvicultura e Pecuária (DGASP) — Ministério da Agricultura e Ambiente de Cabo Verde — *sin página localizada*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial del país de origen (en España, Servicios Veterinarios Oficiales del MAPA / comunidad autónoma), sobre modelo OIE/WOAH; visado previo por la representación consular de Cabo Verde  
+**Otra fuente:** [dgav.pt](https://www.dgav.pt/wp-content/uploads/2021/04/CERTIFICACAO-SANITARIA-CABO-VERDE-CAES-E-GATOS.pdf) · [embcv.org.br](http://www.embcv.org.br/portal/viagem-com-animais/)  
+
+## 3.43 SANTO TOMÉ Y PRÍNCIPE 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** SOLO EN AVIÓN. São Tomé (TMS): TAP (Lisboa, Accra), STP Airways (Lisboa), TAAG (Luanda), ASKY (Libreville, Lomé), Afrijet (Libreville). A Príncipe (PCP), avioneta de 20–70 plazas o el barco Olivia C.
+**Papeles:** Entrada: requisitos nacionales NO publicados en ninguna web oficial accesible (por confirmar). Vuelta a la UE: el país NO figura en el Reg. de Ejecución (UE) 2026/636 → TITULACIÓN ANTIRRÁBICA ≥0,5 UI/ml, mejor hecha en España y anotada en el pasaporte antes de salir.
+
+- ENTRADA: NO existe —o no es accesible— ninguna página oficial santotomense que publique los requisitos de importación de animales de compañía. Ni el MAEC, ni el FCDO, ni Canadá mencionan mascotas en sus fichas del país. Lo lógico (microchip ISO, rabia en vigor puesta ≥21–30 días antes, certificado veterinario internacional reciente) es DEDUCCIÓN, no fuente. POR CONFIRMAR.
+- PERMISO PREVIO DE IMPORTACIÓN: no se puede confirmar ni descartar. La vía práctica para cerrarlo es el Consulado Honorario de España en Santo Tomé o la Embajada en Libreville, competente para el país.
+- RAZAS PROHIBIDAS: sin fuente. No consta lista de razas vetadas ni normativa de perros potencialmente peligrosos.
+- VUELO: al ser destino solo aéreo, el perro viaja en cabina si no supera 8 kg con transportín flexible de 45x30x23 cm, o en bodega hasta 45 kg con transportín rígido IATA; TAP cobra desde 150 € por trayecto en intercontinental y no admite razas braquicéfalas en bodega (flytap.com). Reservar con mucha antelación: las plazas de bodega se limitan en temporada alta africana (junio–septiembre, diciembre–enero, marzo).
+- VUELTA A LA UE: el país NO figura en los Anexos I ni II del Reg. de Ejecución (UE) 2026/636 (aplicable desde el 22 de abril de 2026; de los territorios insulares africanos y atlánticos solo están Mauricio, Santa Elena y Ascensión). Rige por tanto la vía de país NO listado: titulación de anticuerpos ≥0,5 UI/ml en laboratorio aprobado por la UE.
+
+---
+
+**Dónde se pide.** Gobierno de Santo Tomé y Príncipe — ministerio competente en agricultura y desarrollo rural (servicios veterinarios / Direcção de Pecuária). Vía practicable: Consulado Honorario de España en Santo Tomé y Embajada de España en Libreville. — [portada del organismo](https://stp.gov.st/ministerios) ⚠️ *no se ha localizado la página del trámite*  
+**Escribir a:** `geral@gpm.gov.st` (contacto general del Gobierno, no de los servicios veterinarios)  
+**Teléfono:** +239 224 21 50 (centralita del Gobierno); Consulado Honorario de España: +239 997 80 22 y +34 601 41 12 84  
+**Certificado sanitario:** sin confirmar · lo emite: Por confirmar. Presumiblemente veterinario oficial del país de origen; en España, certificado tramitado por CEXGAN del MAPA.  
+**Otra fuente:** [stp.gov.st](https://stp.gov.st/ministerios_detail?id=usz5fq60yyepysg5dz680aja) · [exteriores.gob.es](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Santo%20Tom%C3%A9%20y%20Pr%C3%ADncipe)  
 
 # 4. La vuelta a la UE
 

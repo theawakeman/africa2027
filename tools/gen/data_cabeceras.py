@@ -70,6 +70,10 @@ RUTAS = {
     "rca": ("Excluido · conflicto activo", "No aplica"),
     "sudan-del-sur": ("Excluido · conflicto activo", "No aplica"),
     "eritrea": ("Fuera de ruta · solo en avión", "No aplica"),
+    "somalia": ("Excluido · conflicto activo", "No aplica"),
+    "guinea-ecuatorial": ("Fuera de ruta · solo en avión", "No aplica"),
+    "cabo-verde": ("Fuera de ruta · solo en avión", "No aplica"),
+    "santo-tome": ("Fuera de ruta · solo en avión", "No aplica"),
 }
 
 
@@ -107,6 +111,10 @@ ACTIVIDADES = {
     "rca": ("Corredor único Béloko–Bangui · IED en el noroeste", "Descartado · secuestro frecuente fuera de Bangui"),
     "sudan-del-sur": ("Obligatorio fuera de Yuba · permiso y minas", "Descartado · asaltos armados día y noche"),
     "eritrea": ("Inviable: fronteras cerradas · coche con conductor", "Prohibido moverse entre ciudades a pie"),
+    "somalia": ("Solo con escolta armada privada", "Descartado fuera de recinto fortificado"),
+    "guinea-ecuatorial": ("Inviable: Bioko es isla y el continente está cerrado", "Solo de día · pasaporte y visado siempre encima"),
+    "cabo-verde": ("Solo alquiler local · sin ro-ro desde el continente", "Santo Antão y Fogo: el mejor senderismo insular"),
+    "santo-tome": ("Solo para el sur, Praia Jalé y el Obô", "Capital y roças sin problema · de noche, no"),
 }
 
 
@@ -143,6 +151,10 @@ SEGUROS = {
     "rca": "Sin cobertura española · Carte Rose CEMAC",
     "sudan-del-sur": "Ninguna póliza cubre el país: no hay cobertura",
     "eritrea": "Carta Verde no vale · seguro local por confirmar",
+    "somalia": "Sin cobertura estándar · evacuación obligatoria",
+    "guinea-ecuatorial": "Carta Verde no vale · Carte Rose CEMAC s/confirmar",
+    "cabo-verde": "Carta Verde no vale · póliza local",
+    "santo-tome": "Carta Verde no vale · repatriación obligatoria",
 }
 
 
@@ -188,6 +200,10 @@ PELIGROS = {
     "rca": "Guerra civil · secuestro · IED",
     "sudan-del-sur": "Conflicto armado y secuestros",
     "eritrea": "Minas y control militar",
+    "somalia": "Terrorismo y secuestro: extremo",
+    "guinea-ecuatorial": "Retenes y detención por fotos",
+    "cabo-verde": "Delincuencia urbana en Praia",
+    "santo-tome": "Malaria alta · sanidad básica",
 }
 
 

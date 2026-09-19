@@ -33,6 +33,10 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 10 | República Centroafricana | Hecho, por validar | Hecho: 17/18 (Dzanga-Sangha sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 12 galerías; 36 fotos | No auditada (Bangui documentada) |
 | 10 | Sudán del Sur | Hecho, por validar | Hecho: 17/18 (el Sudd sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 8 galerías; 28 fotos (Commons muy pobre) | No auditada (Yuba documentada) |
 | 10 | Eritrea | Hecho, por validar | Hecho: 16/18 (Dahlak y Adulis sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 13 galerías; 38 fotos | No auditada (Asmara documentada) |
+| 10 | Somalia | Hecho, por validar | Hecho: 17/18 (Las Geel sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 18 galerías; 51 fotos | No auditada (Hargeisa documentada) |
+| 10 | Guinea Ecuatorial | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 14 galerías; 44 fotos (Commons muy pobre) | No auditada (Malabo documentada) |
+| 10 | Santo Tomé y Príncipe | Hecho, por validar | Hecho: 17/18 (Boca do Inferno sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 17 galerías; 50 fotos | No auditada (São Tomé documentada) |
+| 10 | Cabo Verde | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con galería; 52 fotos | No auditada (Praia documentada) |
 
 ## Países fuera del itinerario (grupos «Alternativas», «Avión», «Excluidos», «Fuera de ruta»)
 
@@ -63,8 +67,18 @@ Ounianga) a través de agencia acreditada con permisos y escolta.
 Desde esta tanda, `tools/validate_gps.py` comprueba de forma automática que cada
 coordenada cae dentro del país, que no hay latitud y longitud intercambiadas y
 que no se apilan dos PDIs distintos en el mismo pin.
-Pendientes: Somalia, Guinea Ecuatorial, Santo Tomé, Cabo Verde, Comoras,
-Seychelles, Mauricio y Burundi (nuevos).
+Añadidos también el 19-09-2026: Somalia, Guinea Ecuatorial, Santo Tomé y
+Príncipe y Cabo Verde (expedientes en [`somalia.md`](pdi/somalia.md),
+[`guinea-ecuatorial.md`](pdi/guinea-ecuatorial.md),
+[`santo-tome.md`](pdi/santo-tome.md) y [`cabo-verde.md`](pdi/cabo-verde.md)).
+Tres correcciones de contexto de esta tanda: Santo Tomé y Príncipe tiene desde
+julio de 2026 su primer bien del Patrimonio Mundial (las roças, ref. 1750, con
+seis componentes) y todo el país es Reserva de la Biosfera; Guinea Ecuatorial
+NO exime de visado a los españoles y tiene las fronteras terrestres del Río
+Muni cerradas desde el 15-12-2025, con la capital trasladada a Ciudad de la Paz
+por decreto de enero de 2026; y Las Geel, en Somalilandia, NO es Patrimonio de
+la Humanidad ni figura en la lista indicativa.
+Pendientes: Comoras, Seychelles, Mauricio y Burundi (nuevos).
 Aviso para Mauricio: es el único país africano listado en el Reg. (UE)
 2026/636, así que su ficha del perro NO sigue la vía A del resto.
 
