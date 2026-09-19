@@ -1324,7 +1324,10 @@ def render_perro():
             return t
         cut = t[:20].rsplit(" ", 1)[0]                              # cortar por palabra
         return (cut or t[:20]) + "…"
-    nav = navbar(root, secs + [(_short(t), "#" + a) for t, a in tops[:8]], "El perro")
+    nav = navbar(root, secs + [("Mapa del perro", "#mapa-perro"), ("Simple", "#perro-verde"),
+                               ("Con permiso", "#perro-ambar"), ("Mal documentado", "#perro-naranja"),
+                               ("No viable", "#perro-rojo")]
+                 + [(_short(t), "#" + a) for t, a in tops[:6]], "El perro")
 
     hero = f"""<header class="hero small">
   <div class="hero-txt">
@@ -1344,10 +1347,154 @@ def render_perro():
         "Las particularidades concretas de cada país (permisos, parques donde no entra, alojamiento y "
         "plan B) están además en el apartado del perro de su propia ficha.", raw=True)
 
+    # --- mapa de países por dificultad, leído del propio dosier
+    from perro_niveles import niveles as perro_niveles, NIVELES as PERRO_NIVELES
+    from data_perro_contactos import CONTACTOS
+    from data_cpd import FUERA_DE_RUTA
+
+    nombres = {slug: name for slug, name, *_ in C}
+    grupos = {slug: group for slug, _, group, *_ in C}
+    niv = perro_niveles(md)
+
+    def _corta(s, n):
+        s = (s or "").strip()
+        return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
+
+    datos_mapa = {}
+    for slug, d in niv.items():
+        if slug not in grupos:
+            continue                      # la UE no es un país del mapa de África
+        color, lab, _desc = PERRO_NIVELES[d["nivel"]]
+        c = CONTACTOS.get(slug, {})
+        dias = c.get("cert_dias")
+        datos_mapa[slug] = {
+            "n": nombres.get(slug, d["nombre"]),
+            "color": color, "lab": lab,
+            "ruta": slug not in FUERA_DE_RUTA,
+            "org": esc(_corta(c.get("organismo"), 70)),
+            "cert": (f"sí, validez {dias} días" if dias else ("sí, validez sin publicar" if c.get("cert") else "")),
+            "nota": esc(_corta(d.get("nota"), 190)),
+            "href": root + f"paises/{slug}/",
+        }
+    # Los estados insulares no tienen contorno en africa.geo.json: se dibujan
+    # como punto, en el centro de sus propios PDIs, para que no desaparezcan.
+    contornos = set()
+    _geo = Path("assets/js/africa.geo.json")
+    if _geo.exists():
+        contornos = {f["properties"]["slug"] for f in json.loads(_geo.read_text())["features"]}
+
+    def _centro(slug):
+        f = Path("content/pois") / f"{slug}.json"
+        if not f.exists():
+            return None
+        pts = [(p["lat"], p["lon"]) for p in json.loads(f.read_text())
+               if isinstance(p.get("lat"), (int, float)) and isinstance(p.get("lon"), (int, float))]
+        if not pts:
+            return None
+        lats = sorted(x for x, _ in pts); lons = sorted(y for _, y in pts)
+        return lats[len(lats) // 2], lons[len(lons) // 2]
+
+    puntos, _islas = [], []
+    for slug in list(datos_mapa):
+        if contornos and slug not in contornos:
+            c = _centro(slug)
+            if c:
+                d = dict(datos_mapa.pop(slug))
+                d["lat"], d["lon"] = c
+                puntos.append(d)
+                _islas.append(slug)
+
+    cfg = {"root": root, "data": datos_mapa, "puntos": puntos}
+
+    sin_ficha = sorted(nombres[s] for s in grupos if s not in niv)
+    leyenda_mapa = '<div class="cpdleg">' + "".join(
+        f'<span class="cpdkey"><i style="background:{c}"></i><b>{lab}</b> — {desc}</span>'
+        for c, lab, desc in PERRO_NIVELES.values()
+    ) + ('<span class="cpdkey"><i style="background:#cfd8dc"></i><b>Sin ficha</b> — '
+         'países que el dosier todavía no clasifica.</span></div>')
+
+    cuenta = {k: sum(1 for d in list(datos_mapa.values()) + puntos
+                     if d["lab"] == PERRO_NIVELES[k][1]) for k in PERRO_NIVELES}
+    total_clasificados = len(datos_mapa) + len(puntos)
+    resumen = callout("warn", "La respuesta corta",
+        f"<p>De los <strong>{total_clasificados} países</strong> que el dosier clasifica, "
+        f"<strong>{cuenta['verde']}</strong> se cruzan con el certificado y poco más, "
+        f"<strong>{cuenta['ambar']}</strong> piden permiso previo o imponen condiciones, "
+        f"<strong>{cuenta['naranja']}</strong> no publican <em>ninguna</em> fuente oficial —ahí se viaja "
+        f"con lo que dicen webs comerciales— y <strong>{cuenta['rojo']}</strong> son inviables o muy duros.</p>"
+        "<p>El color es el mismo semáforo de las tablas del capítulo 2, leído directamente de ellas: el mapa "
+        "no puede desmentir a la tabla. Para los países que se cruzan dos veces manda la entrada de ida, "
+        "que es la que decide si el perro empieza el viaje.</p>"
+        + (f"<p class=\"figcap\">Sin clasificar todavía: {esc(', '.join(sin_ficha))}.</p>" if sin_ficha else ""),
+        raw=True)
+
+    mapa = (f'<section id="mapa-perro"><h2>El perro, país por país</h2>{resumen}'
+            f'<div id="perromap" class="mapbox"></div>{leyenda_mapa}'
+            '<p class="figcap">Toca cualquier país para ver quién emite el permiso, la validez del '
+            'certificado sanitario y la nota clave. Los países rayados no están en la ruta prevista: '
+            'su ficha es informativa. Los cinco estados insulares —Cabo Verde, Santo Tomé y Príncipe, '
+            'Comoras, Seychelles y Mauricio— salen como punto porque el fichero de contornos de la app '
+            'no los trae.</p></section>')
+
+    # --- tablas por nivel
+    ETAPA = {"ida": "Ida", "vuelta": "Vuelta", "alternativa": "Alternativa", "fuera": "Fuera de ruta"}
+
+    def tabla(nivel):
+        filas = []
+        for slug in sorted(set(datos_mapa) | set(_islas), key=lambda s: nombres.get(s, s)):
+            d = niv[slug]
+            if d["nivel"] != nivel:
+                continue
+            c = CONTACTOS.get(slug, {})
+            dias = c.get("cert_dias")
+            cert = (f"<strong>{dias} días</strong>" if dias else
+                    ("sí, validez sin publicar" if c.get("cert") else "—"))
+            etapas = " · ".join(ETAPA[e] for e in ("ida", "vuelta", "alternativa", "fuera")
+                                if e in d["etapas"])
+            org = esc(_corta(c.get("organismo"), 60)) or "—"
+            if c.get("url"):
+                org = f'<a href="{esc(c["url"])}" rel="noopener">{org}</a>'
+                if c.get("url_generica"):
+                    org += " <em>(portada genérica)</em>"
+                elif not c.get("url_verificada"):
+                    org += " <em>(no abre desde aquí)</em>"
+            filas.append([f'<strong><a href="{root}paises/{slug}/">{esc(nombres.get(slug, slug))}</a></strong>',
+                          etapas, org, cert, esc(_corta(d.get("nota"), 210)) or "—"])
+        return table(["País", "Etapa", "Quién lo emite", "Certificado", "Nota clave"], filas)
+
+    bloques = ""
+    for nivel, titulo, intro in [
+        ("verde", "Verde — trámite simple",
+         "La entrada está documentada y no hace falta permiso previo: se cruza con el certificado "
+         "sanitario en regla. Son los países donde el perro no condiciona la etapa."),
+        ("ambar", "Ámbar — con permiso o condiciones",
+         "Se entra, pero hay que pedir permiso antes, respetar un plazo corto de certificado o cumplir "
+         "requisitos añadidos. Es el grupo más numeroso y el que marca el calendario: casi todos los "
+         "permisos se piden desde el país anterior."),
+        ("naranja", "Naranja — mal documentado",
+         "Ninguna fuente oficial del país dice qué hace falta. Lo que hay son webs comerciales, "
+         "embajadas o el silencio. Se puede viajar, pero no se puede planificar: hay que escribir y "
+         "conseguir respuesta por escrito antes de comprometer la etapa."),
+        ("rojo", "Rojo — no viable o muy duro",
+         "Cuarentena obligatoria, prohibición, o países a los que el perro directamente no va. Aquí la "
+         "decisión no es de papeleo: es de ruta."),
+    ]:
+        if not any(d["nivel"] == nivel for s, d in niv.items() if s in datos_mapa):
+            continue
+        bloques += (f'<section id="perro-{nivel}"><h2>{titulo}</h2><p>{intro}</p>'
+                    + tabla(nivel) + '</section>')
+
     from enlaza_secciones import indice, enlazar_secciones
     cuerpo = enlazar_secciones(md_to_html(md, base_level=2), indice(md))
-    body = nav + hero + "<main>" + leyenda + cuerpo + "</main>"
-    return page(root, "El perro · África 2027", body)
+    body = (nav + hero + '<main style="max-width:1200px">' + leyenda + mapa + bloques + cuerpo
+            + "</main>"
+            + f'<script>var A27_PERRO = {json.dumps(cfg, ensure_ascii=False)};</script>'
+            + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
+              '&& typeof a27PerroMap === "function") a27PerroMap("perromap", A27_PERRO); });</script>')
+    extra_head = (f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css">'
+                  f'<script src="{root}assets/vendor/leaflet.js"></script>'
+                  f'<script src="{root}assets/js/perromap.js"></script>')
+    return page(root, "El perro · África 2027", body, extra_head=extra_head)
 
 # ---------------------------------------------------------------- docs page
 def render_docs():
