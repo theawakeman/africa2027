@@ -44,6 +44,10 @@ FILA = {
     "Libia": "libia",
     "Burkina Faso": "burkina-faso",
     "Níger": "niger",
+    "Chad": "chad",
+    "República Centroafricana": "rca",
+    "Sudán del Sur": "sudan-del-sur",
+    "Eritrea": "eritrea",
 }
 
 # Búsqueda tolerante: «COSTA DE MARFIL» y «Costa de Marfil» son el mismo país.

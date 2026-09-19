@@ -66,6 +66,10 @@ RUTAS = {
     "libia": ("Excluido · conflicto activo", "No aplica"),
     "burkina-faso": ("Excluido · conflicto activo", "No aplica"),
     "niger": ("Excluido · conflicto activo", "No aplica"),
+    "chad": ("Excluido · conflicto activo", "No aplica"),
+    "rca": ("Excluido · conflicto activo", "No aplica"),
+    "sudan-del-sur": ("Excluido · conflicto activo", "No aplica"),
+    "eritrea": ("Fuera de ruta · solo en avión", "No aplica"),
 }
 
 
@@ -99,6 +103,10 @@ ACTIVIDADES = {
     "libia": ("Sin entrada documentada con vehículo propio desde 2012", "Imposible: guía y policía turística obligatorios"),
     "burkina-faso": ("Diésel 675 XOF/l (feb-2026) · minas en los ejes", "Solo casco urbano y de día · nunca interurbano"),
     "niger": ("Inviable: escolta militar obligatoria fuera de Niamey", "No: el MAEC desaconseja caminar por Niamey"),
+    "chad": ("Autorización del Interior para salir de Yamena", "Desaconsejado andar por Yamena, incluso de día"),
+    "rca": ("Corredor único Béloko–Bangui · IED en el noroeste", "Descartado · secuestro frecuente fuera de Bangui"),
+    "sudan-del-sur": ("Obligatorio fuera de Yuba · permiso y minas", "Descartado · asaltos armados día y noche"),
+    "eritrea": ("Inviable: fronteras cerradas · coche con conductor", "Prohibido moverse entre ciudades a pie"),
 }
 
 
@@ -131,6 +139,10 @@ SEGUROS = {
     "libia": "Sin Carta Verde · seguro local sin confirmar",
     "burkina-faso": "Carta Verde NO cubre · Carte Brune CEDEAO",
     "niger": "Sin cobertura: MAEC desaconseja absolutamente",
+    "chad": "Carta Verde no cubre · Carte Rose CEMAC",
+    "rca": "Sin cobertura española · Carte Rose CEMAC",
+    "sudan-del-sur": "Ninguna póliza cubre el país: no hay cobertura",
+    "eritrea": "Carta Verde no vale · seguro local por confirmar",
 }
 
 
@@ -172,6 +184,10 @@ PELIGROS = {
     "libia": "Milicias, minas y secuestros",
     "burkina-faso": "Terrorismo y secuestro: todo BF",
     "niger": "Terrorismo y secuestro: máximo",
+    "chad": "Secuestro en todo el país",
+    "rca": "Guerra civil · secuestro · IED",
+    "sudan-del-sur": "Conflicto armado y secuestros",
+    "eritrea": "Minas y control militar",
 }
 
 

@@ -283,6 +283,30 @@ VISADOS = {
         ruta="fuera", entradas="Presencial en Bruselas · pasaporte 6 meses", coste="por confirmar",
         alerta="NO se expiden visados en aeropuertos ni en fronteras terrestres (MAEC): sin visado previo no se entra.",
         oficial="", maec=_maec("Níger")),
+    "chad": visa(
+        "electronico", "Visado obligatorio para españoles y, desde el 11 de mayo de 2026, SOLO en línea en evisa.td.",
+        "Solicitar el e-visa en evisa.td con al menos 7 días de antelación, con pasaporte de 6 meses de validez y certificado de fiebre amarilla.",
+        ruta="fuera", entradas="Turismo 30 días una entrada o 90 días multientrada (oferta de agencia; modalidades del e-visa por confirmar)", coste="Tasa oficial por confirmar · referencia de agencia: 134 € turismo 30 días, 164 € turismo 90 días multientrada (action-visas, 9/9/2026)",
+        alerta="No hay visado en frontera y los visados no tramitados en línea son inválidos desde el 21 de mayo de 2026; además hay registro policial obligatorio al llegar (48-72 h según la fuente).",
+        oficial="https://evisa.td/", maec=_maec("Chad")),
+    "rca": visa(
+        "no_viable", "Visado obligatorio y previo en la Embajada de la RCA en París, sobre un país que el MAEC pide abandonar.",
+        "No se tramita: el país queda excluido por protocolo y no se solicita visado.",
+        ruta="fuera", entradas="Una entrada, previa en París", coste="50 € orientativos según la web de Dzanga-Sangha; tarifa oficial por confirmar",
+        alerta="El «visa volant» a la llegada solo lo gestionan operadores locales con carta de invitación y contratación de tour.",
+        oficial="", maec=_maec("República Centroafricana")),
+    "sudan-del-sur": visa(
+        "no_viable", "Visado obligatorio por eVisa o embajada, pero el país está excluido por protocolo: el MAEC desaconseja el viaje bajo cualquier circunstancia.",
+        "No tramitar. Si algún día se rebajara el aviso, eVisa en evisa.gov.ss o solicitud en la Embajada de Sudán del Sur en París, acreditada ante España.",
+        ruta="fuera", entradas="Entrada única o múltiple según el tipo de eVisa", coste="100 USD para pasaportes europeos (tarifario consular sursudanés)",
+        alerta="NO hay visado a la llegada: EE. UU. y Canadá lo niegan expresamente. Además, salir de Yuba exige un «alien travel permit» aparte.",
+        oficial="https://www.evisa.gov.ss/", maec=_maec("Sudán del Sur")),
+    "eritrea": visa(
+        "presencial", "Visado obligatorio y previo en misión eritrea, que no existe en España: el embajador reside en París y Bruselas también figura como acreditada.",
+        "Solicitarlo con dos o tres meses de antelación en París o Bruselas, o contratar un operador eritreo que gestione la carta de invitación para el visado a la llegada, y no comprar vuelo hasta tenerlo.",
+        ruta="fuera", entradas="Una entrada; 30 días la vía aeropuerto, 90 días según relatos de la vía embajada (por confirmar)", coste="Vía embajada: por confirmar. Visado a la llegada con carta de invitación: unos 70 USD en efectivo, más unos 50 USD de gestión del operador.",
+        alerta="Se concede con cuentagotas y solo da acceso a Asmara: para salir más de 25 km de la capital hace falta además el permiso de viaje interior del Ministerio de Turismo.",
+        oficial="", maec=_maec("Eritrea")),
     "burkina-faso": visa(
         "no_viable", "El visado existe y se tramita en línea, pero el país está excluido por protocolo y lo desaconsejan MAEC, FCDO y Canadá.",
         "No tramitar: el tramo se sustituye por el norte de Ghana y Costa de Marfil; si algún día se reabriera, solicitar el eVisa en visaburkina.bf y la fiche de voyage en las 72 h previas.",

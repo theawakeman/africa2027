@@ -261,6 +261,10 @@ Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si s
 | **Libia** | ✈️ Solo en avión y con tour cerrado (agencia autorizada y escolta) · Ras Jedir es el único paso terrestre viable | ❓ Sin fuente oficial | 🔴 | **[SIN CONFIRMAR]** No existe web del servicio veterinario libio ni vía documentada para entrar con perro y vehículo propio. Vuelta a la UE: vía A (§4). | Sin identificar. No hemos localizado en… | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | **Burkina Faso** | 🚗 Por tierra desde Costa de Marfil, Mali, Togo, Benín o Ghana · país excluido por protocolo | ❓ Por confirmar | 🟡 | **[PROBABLE]** service-public.gov.bf solo publica una ficha genérica de importación de animales, sin detalle para perros. Vuelta a la UE: vía A (§4). | [Servicios veterinarios del Ministère de…](https://www.service-public.gov.bf/thematiques/secteur-de-lelevage/demande-dautorisation-dimportation-des-animaux-des-produits-animaux-et-des-produits-dorigine-animale) | — *sin correo publicado* | sin confirmar |
 | **Níger** | ✈️ Avión a Niamey · por tierra solo Nigeria reabierta; escolta militar obligatoria fuera de la capital | ❓ Por confirmar (DNSV) | 🟡 | **[PROBABLE]** Ningún portal veterinario nigerino accesible; requisitos de fuente secundaria. Vuelta a la UE: vía A (§4). | Ministère de l'Agriculture et de l'Élevage… |  | ✅ Sí · **10 días** |
+| **Chad** | ✈️ Avión a Yamena-Hassan Djamous (NDJ); por tierra, solo el puente Kousséri–Yamena desde Camerún | ❓ Por confirmar (Dir. de Servicios Veterinarios) | 🟡 | **[PROBABLE]** Microchip, pasaporte, rabia en vigor y certificado sanitario internacional ≤72 h; sin web oficial del servicio veterinario chadiano. Vuelta a la UE solo por vía A (titulación en la UE antes de salir). | Ministère de l'Élevage et des Productions… |  | ✅ Sí · **3 días** |
+| **República Centroafricana** | ✈️ Avión a Bangui M'Poko (BGF); por tierra, el eje Duala–Garoua-Boulaï/Béloko–Bangui | ❓ Por confirmar (Min. de Agricultura y Desarrollo Rural) | 🟡 | **[PROBABLE]** Microchip, rabia de más de 2 semanas y menos de 6 meses y certificado sanitario internacional ≤72 h; dato de fuente veterinaria secundaria, sin web nacional verificada. Vuelta a la UE solo por vía A. | Ministère de l'Agriculture et du… | — *sin correo publicado* | ✅ Sí · **3 días** |
+| **Sudán del Sur** | ✈️ Avión a Yuba (JUB); por tierra, solo el corredor Uganda–Nimule tiene tráfico civil normal | ❓ Por confirmar (Ministry of Livestock and Fisheries) | 🟡 | **[PROBABLE]** Rabia entre 30 días y 12 meses antes y certificado veterinario ≤10 días refrendado por veterinario oficial; entrada de mascotas por el aeropuerto de Yuba (PetTravel). Vuelta a la UE solo por vía A. | Ministry of Livestock and Fisheries | — *sin correo publicado* | ✅ Sí · **10 días** |
+| **Eritrea** | ✈️ Solo en avión a Asmara (ASM) · fronteras terrestres cerradas | ❓ Sin normativa publicada | 🔴 | **[SIN CONFIRMAR]** Ninguna norma eritrea de importación localizable en fuente oficial. Con acceso solo aéreo y fronteras cerradas, el perro NO entra en el plan. | Ministerio de Agricultura de Eritrea —… |  | sin confirmar |
 
 ---
 
@@ -978,6 +982,83 @@ Evidencia:
 **Teléfono:** por confirmar  
 **Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial / veterinario habilitado del país de origen, certificado sanitario internacional  
 **Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/niger/) · [travelhealthpro.org.uk](https://travelhealthpro.org.uk/country/164/niger)  
+
+## 3.36 CHAD 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** En avión a Yamena-Hassan Djamous (NDJ), único aeropuerto internacional, con París, Estambul, Adís Abeba, El Cairo, Duala, Abuya y Niamey. Por tierra, el paso realista es el puente Kousséri-Yamena desde Camerún.
+**Papeles:** Entrada con microchip, pasaporte, rabia en vigor y certificado sanitario internacional de menos de 72 horas. NO hay página oficial del servicio veterinario chadiano verificada. Para volver a la UE hace falta titulación antirrábica previa.
+
+- ENTRADA: los requisitos que se han podido documentar son microchip y pasaporte, vacuna antirrábica en vigor y certificado sanitario internacional emitido por veterinario con MENOS DE 72 HORAS antes de la llegada, visado por veterinario oficial (anivetvoyage.com). NO es una fuente oficial chadiana.
+- NO SE HA LOCALIZADO la web institucional del servicio veterinario chadiano. El organismo existe y está identificado —Ministère de l'Élevage et des Productions Animales, según el portal del proyecto PRAPS-2 Tchad— pero no publica en abierto los requisitos de importación de animales de compañía. Este punto está SIN CONFIRMAR con fuente oficial chadiana.
+- RAZAS PROHIBIDAS: no se ha encontrado ninguna lista de razas restringidas en Chad. POR CONFIRMAR.
+- VUELTA A LA UE: Chad NO figura en el anexo II del Reglamento de Ejecución (UE) 2026/636 (aplicable desde el 22 de abril de 2026); los únicos africanos de la lista son Mauricio y Santa Elena. Por tanto es país NO LISTADO.
+- Eso obliga a la VÍA A: titulación de anticuerpos antirrábicos (≥0,5 UI/ml) en laboratorio aprobado por la UE, con muestra tomada al menos 30 días después de la vacunación, anotada en el pasaporte ANTES DE SALIR de la UE. Hecha así, no hay que esperar 3 meses ni repetirla mientras la revacunación no se interrumpa.
+
+---
+
+**Dónde se pide.** Ministère de l'Élevage et des Productions Animales du Tchad — Direction des Services Vétérinaires — *sin página localizada*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** ✅ Sí · 3 días · lo emite: Veterinario colegiado con visado del veterinario oficial (Servicios Veterinarios Oficiales de la comunidad autónoma, vía CEXGAN) — según anivetvoyage.com, no confirmado por fuente chadiana  
+**Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/tchad/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
+
+## 3.37 REPÚBLICA CENTROAFRICANA 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** En avión a Bangui M'Poko (BGF): Ethiopian, ASKY, Royal Air Maroc, RwandAir, AfriJet. Por tierra, el eje real es Duala–Garoua-Boulaï/Béloko–Bangui, por donde pasa el 80 % de las importaciones. Al suroeste turístico (Bayanga), chárter de 50 min desde Bangui, 500 km de pista, o barco por el río Sangha desde Congo y Camerún.
+**Papeles:** Entrada con microchip, vacuna antirrábica de más de 2 semanas y menos de 6 meses y certificado sanitario internacional de menos de 72 horas. No hay página oficial nacional verificada; dato de fuente veterinaria secundaria.
+
+- ENTRADA: los requisitos localizados son microchip, vacuna antirrábica administrada hace más de 2 semanas y menos de 6 meses, resto de vacunas al día y certificado sanitario internacional emitido por veterinario con menos de 72 HORAS de antelación a la llegada, acreditando que el animal está libre de parásitos.
+- ATENCIÓN A LA FUENTE: estos requisitos proceden de una base de datos veterinaria francesa de referencia (Anivetvoyage), no de una página oficial del Gobierno centroafricano. No se ha localizado el portal del servicio veterinario nacional. Tratar como ORIENTATIVO y confirmar antes de mover al animal.
+- RAZAS PROHIBIDAS: no se ha localizado ninguna lista de razas prohibidas ni restringidas en la República Centroafricana. Ausencia de dato, no ausencia de norma.
+- VUELTA A LA UE: COMPROBADO. La República Centroafricana NO figura en ninguno de los anexos del Reglamento de Ejecución (UE) 2026/636, de 20 de marzo de 2026. En las listas no hay ningún país africano continental: los únicos territorios africanos son Santa Elena y Ascensión, ambos insulares. La RCA no es la excepción insular. Se aplica la vía de país NO LISTADO.
+- Eso significa TITULACIÓN DE ANTICUERPOS ANTIRRÁBICOS (valoración serológica) hecha en laboratorio autorizado por la UE y ANOTADA EN EL PASAPORTE ANTES DE SALIR de España, más el periodo de espera reglamentario. La fuente veterinaria consultada lo confirma: la titulación no es obligatoria para entrar en el país, pero sí para volver.
+
+---
+
+**Dónde se pide.** Ministère de l'Agriculture et du Développement Rural / Servicios veterinarios de la República Centroafricana (denominación exacta por confirmar) — *sin página localizada*  
+**Certificado sanitario:** ✅ Sí · 3 días · lo emite: Veterinario colegiado, con certificado sanitario internacional; convalidación por la autoridad veterinaria oficial del país de origen por confirmar  
+**Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/republique-centrafricaine/) · [boe.es](https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-80458)  
+
+> No se ha localizado en esta sesión ninguna página oficial del servicio veterinario nacional de la República Centroafricana ni portal de trámites del Ministerio de Agricultura accesible.
+
+## 3.38 SUDÁN DEL SUR 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** En la práctica, en avión a Yuba (JUB) desde Nairobi, Adís Abeba, El Cairo o Dubái. Por tierra, solo el corredor Uganda–Nimule tiene tráfico civil normal.
+**Papeles:** Rabia entre 30 días y 12 meses antes, certificado veterinario emitido dentro de los 10 días previos y refrendado por veterinario oficial; entrada de mascotas por el aeropuerto de Yuba (PetTravel). Sin web oficial nacional localizada.
+
+- NO se ha localizado ninguna página oficial nacional del servicio veterinario de Sudán del Sur que publique los requisitos de entrada de animales de compañía. Lo que sigue procede de PetTravel.com, una fuente comercial, no gubernamental: tratar como orientativo y confirmar por vía consular antes de cualquier movimiento.
+- Requisitos recogidos por PetTravel: vacuna antirrábica administrada entre 30 días y 12 meses antes de la entrada (no se aceptan vacunas plurianuales salvo que se hayan puesto dentro de los 12 meses previos); certificado veterinario cumplimentado por veterinario colegiado dentro de los 10 días anteriores a la entrada y emitido o refrendado por un veterinario oficial del país de origen.
+- Microchip ISO 11784 de 15 dígitos: recomendado, no obligatorio según esa misma fuente. Para la expedición es obligatorio de facto, porque el regreso a la UE lo exige.
+- Permiso de importación previo: PetTravel afirma que NO se exige para mascotas que entran acompañadas de su dueño. Razas prohibidas: Sudán del Sur no publica lista. Cuarentena: se exime si se cumple todo; si no, cuarentena, devolución o eutanasia a costa del propietario.
+- TODAS las mascotas deben entrar por el Aeropuerto Internacional de Yuba según PetTravel. No hay ninguna fuente que describa la entrada de un perro por el paso terrestre de Nimule: para la expedición, que viaja por carretera, esto es un bloqueo en sí mismo.
+
+---
+
+**Dónde se pide.** Ministry of Livestock and Fisheries (servicios veterinarios) / Embajada de Sudán del Sur en París, acreditada ante España — *sin página localizada*  
+**Teléfono:** +33 1 4563 7273  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario colegiado del país de origen, emitido o refrendado por un veterinario oficial (en España, servicios veterinarios oficiales de la comunidad autónoma / MAPA)  
+**Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/south-sudan-pet-import-requirements/) · [exteriores.gob.es](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sud%C3%A1n%20del%20Sur)  
+
+## 3.39 ERITREA 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** SOLO EN AVIÓN, al Aeropuerto Internacional de Asmara (ASM). Vuelan EgyptAir (El Cairo), Turkish (Estambul), flydubai (Dubái), flynas (Yeda) y Tarco (Port Sudan); Etihad anuncia Abu Dabi desde noviembre de 2026.
+**Papeles:** Sin normativa nacional de importación localizable en fuente oficial. Con las fronteras cerradas y acceso solo aéreo, el perro NO entra en el plan.
+
+- EL PERRO NO VIENE. Con las fronteras terrestres cerradas y entrada solo aérea, meter al perro en Eritrea exigiría vuelo en bodega desde El Cairo, Estambul o Dubái: desproporcionado para un país que está fuera de ruta y donde ni siquiera se puede circular sin permiso.
+- NO SE HA LOCALIZADO NORMATIVA NACIONAL de importación de animales de compañía. El Ministerio de Agricultura eritreo y sus servicios veterinarios no tienen portal de trámites accesible en esta sesión: requisitos POR CONFIRMAR.
+- Tampoco consta lista de razas prohibidas ni exigencia publicada de permiso previo de importación. Ausencia de fuente no es ausencia de requisito: sin requisitos por escrito de la embajada eritrea, el perro no se mueve.
+- RABIA PRESENTE en animales domésticos según TravelHealthPro: cualquier mordedura o lametón sobre herida obliga a buscar profilaxis posexposición inmediata, que en Eritrea puede no estar disponible y obligaría a evacuar.
+- VUELTA A LA UE: Eritrea NO figura en las listas del Reglamento de Ejecución (UE) 2026/636 —cuyos anexos no incluyen ningún país africano continental, solo Ascensión, Mauricio, Santa Elena y Malvinas—, así que se aplica el régimen de tercer país no listado del Reglamento Delegado (UE) 2026/131: microchip, vacuna antirrábica completa al menos 21 días antes y TITULACIÓN DE ANTICUERPOS ANTIRRÁBICOS con resultado igual o superior a 0,5 UI/ml en laboratorio autorizado.
+
+---
+
+**Dónde se pide.** Ministerio de Agricultura de Eritrea — Departamento de Servicios Veterinarios / Regulatory Services (Asmara) — *sin página localizada*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** sin confirmar · lo emite: por confirmar; previsiblemente veterinario oficial del país de origen con legalización consular, pero ninguna fuente abierta en esta sesión lo acredita  
+**Otra fuente:** [travelhealthpro.org.uk](https://travelhealthpro.org.uk/countries/eritrea) · [mapa.gob.es](https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones)  
+
+> No se ha localizado ninguna página oficial nacional eritrea de servicios veterinarios ni portal de trámites de importación de animales de compañía:
 
 # 4. La vuelta a la UE
 

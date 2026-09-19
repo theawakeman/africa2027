@@ -29,6 +29,10 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 10 | Libia | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 15 galerías; 44 fotos | No auditada (Trípoli documentado) |
 | 10 | Burkina Faso | Hecho, por validar | Hecho: 17/18 (Tagbaladougou sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 16 galerías; 43 fotos | No auditada (Uagadugú documentado) |
 | 10 | Níger | Hecho, por validar | Hecho: 16/18 (Ténéré y Bilma sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 17 galerías; 49 fotos | No auditada (Niamey documentado) |
+| 10 | Chad | Hecho, por validar | Hecho: 17/18 (Manda sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 14 galerías; 41 fotos | No auditada (Yamena documentada) |
+| 10 | República Centroafricana | Hecho, por validar | Hecho: 17/18 (Dzanga-Sangha sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 12 galerías; 36 fotos | No auditada (Bangui documentada) |
+| 10 | Sudán del Sur | Hecho, por validar | Hecho: 17/18 (el Sudd sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 8 galerías; 28 fotos (Commons muy pobre) | No auditada (Yuba documentada) |
+| 10 | Eritrea | Hecho, por validar | Hecho: 16/18 (Dahlak y Adulis sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 13 galerías; 38 fotos | No auditada (Asmara documentada) |
 
 ## Países fuera del itinerario (grupos «Alternativas», «Avión», «Excluidos», «Fuera de ruta»)
 
@@ -48,9 +52,19 @@ Sudán, Egipto, Etiopía y Yibuti — expedientes en [`audit/pdi/tunez.md`](pdi/
 PDIs sin fotos ni enlaces) y se han sustituido por la ficha completa.
 Añadidos el 19-09-2026: Argelia, Libia, Burkina Faso y Níger (expedientes en
 [`argelia.md`](pdi/argelia.md), [`libia.md`](pdi/libia.md),
-[`burkina-faso.md`](pdi/burkina-faso.md) y [`niger.md`](pdi/niger.md)).
-Pendientes: Chad, RCA, Sudán del Sur, Somalia, Eritrea, Guinea Ecuatorial,
-Santo Tomé, Cabo Verde, Comoras, Seychelles, Mauricio y Burundi (nuevos).
+[`burkina-faso.md`](pdi/burkina-faso.md) y [`niger.md`](pdi/niger.md)), y
+después Chad, República Centroafricana, Sudán del Sur y Eritrea (expedientes en
+[`chad.md`](pdi/chad.md), [`rca.md`](pdi/rca.md),
+[`sudan-del-sur.md`](pdi/sudan-del-sur.md) y [`eritrea.md`](pdi/eritrea.md)).
+Dos correcciones de contexto salidas de esta tanda: Sudán del Sur **sí** tiene
+sitio del Patrimonio Mundial desde 2026 (Boma-Badingilo, ref. 1808, inscrito y
+a la vez en peligro) y Chad **sí** tiene una vía legal al norte (Enedi, Tibesti,
+Ounianga) a través de agencia acreditada con permisos y escolta.
+Desde esta tanda, `tools/validate_gps.py` comprueba de forma automática que cada
+coordenada cae dentro del país, que no hay latitud y longitud intercambiadas y
+que no se apilan dos PDIs distintos en el mismo pin.
+Pendientes: Somalia, Guinea Ecuatorial, Santo Tomé, Cabo Verde, Comoras,
+Seychelles, Mauricio y Burundi (nuevos).
 Aviso para Mauricio: es el único país africano listado en el Reg. (UE)
 2026/636, así que su ficha del perro NO sigue la vía A del resto.
 
