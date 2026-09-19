@@ -3,6 +3,7 @@
   <Schema name="A27" id="a27schema"><SimpleField name="categoria" type="string"></SimpleField></Schema>
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-poi-gris"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,666666,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-marron"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,8B5A2B,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-naranja"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,D97B29,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
@@ -135,6 +136,55 @@
     <Point><coordinates>-17.43815,14.66353,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Reserva de Fauna del Ferlo Norte</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Younoufere_3846.jpg?width=1600" width="320"/><br/><b>Opcional · Reserva de fauna</b><br/>Gran reserva saheliana de estepa y sabana de acacias. Interesa por el ecosistema, la avifauna y la sensación de aislamiento; no esperar una densidad de fauna comparable a Niokolo-Koba.<br/><b>Perro:</b> requiere autorización escrita<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.5,-14">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14,15.5,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Enclos de Katané — fauna saharosaheliana</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Younoufere_3844.jpg?width=1600" width="320"/><br/><b>Opcional · Área de fauna</b><br/>Recinto de aclimatación y reintroducción dentro de Ferlo Norte, conocido por sus oryx, gacelas y tortugas sulcata. El acceso es remoto y debe coordinarse con el conservador o los ecoguardas desde Ranérou.<br/><b>Perro:</b> requiere autorización escrita<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.47,-14.1">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.1,15.47,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ranérou — puerta del Ferlo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ranerou_Ferlo_arrondissement.png?width=1600" width="320"/><br/><b>Opcional · Base logística</b><br/>Base práctica para combustible, agua, información de pistas y contacto con los responsables de Ferlo Norte y Sur. Buen punto para conocer la vida pastoril peul sin convertir la visita en un safari convencional.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=15.29543,-13.95791">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.95791,15.29543,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reserva de Fauna del Ferlo Sur</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/TambacoundaCows.jpg?width=1600" width="320"/><br/><b>Opcional · Reserva de fauna</b><br/>Sector protegido de sabana saheliana al sur de Ranérou. Aporta paisaje remoto y continuidad ecológica hacia el Senegal oriental; la fauna suele ser más dispersa que en Ferlo Norte.<br/><b>Perro:</b> requiere autorización escrita<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-22">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.9167,-13.9167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.9167,14.9167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pista 4x4 Ranérou–Tambacounda — travesía del Ferlo</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tambacounda_airport_002.jpg?width=1600" width="320"/><br/><b>Opcional · Pista 4x4</b><br/>Travesía overland de unos 230 km por sabana y pistas a veces arenosas. El trazado puede resultar poco evidente, con servicios escasos; descargar una traza contrastada, comprobar el estado local y salir con autonomía de agua y combustible.<br/><b>Perro:</b> pendiente de confirmación oficial si atraviesa núcleos protegidos<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-23">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.35,-13.8">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-gris</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Gris</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.8,14.35,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Koundara y el Parque Nacional del Badiar</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pista_fra_Koundara_e_Kor%C3%A8._Guinea.jpg?width=1600" width="320"/><br/><b>Media · Naturaleza</b><br/>Primera población guineana tras el paso de Sambaïlo y capital de la prefectura del extremo noroeste. A pocos kilómetros al norte está el Parque Nacional del Badiar, unas 38.000 hectáreas de sabana arbolada y bosque de galería que son la continuación directa del Parque Nacional de Niokolo-Koba (Senegal) al otro lado de la frontera: juntos forman el complejo transfronterizo Niokolo-Badiar. Hay antílopes, facóqueros, babuinos, hipopótamos en los ríos y una avifauna muy rica, aunque la presión de caza y pastoreo ha sido intensa y la gestión es débil. POR CONFIRMAR sobre el terreno: si el parque tiene personal, tasas y pistas practicables en 2027, o si es un parque solo sobre el papel. Koundara tiene combustible, mercado y alojamiento elemental: es donde se hace la primera noche del país si la frontera se ha comido la tarde.<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.4894,-13.30676">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.30676,12.4894,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Labé · capital del Fouta Djallon</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mosquee_de_Labe.jpg?width=1600" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Segunda o tercera ciudad del país y capital indiscutible de la Guinea Media: a 1.000 m de altitud, con clima fresco, el mayor mercado del altiplano —donde se ve la sociedad fulani del Fouta en estado puro, con sus tejidos índigo, su ganado y su artesanía de cuero— y la mejor base logística entre Conakry y la frontera senegalesa. Aquí hay combustible formal, talleres, banco con cajero, hospital regional y hoteles con aparcamiento. Detalle muy relevante para nosotros: Labé alberga el Laboratorio Regional Veterinario, uno de los pocos servicios veterinarios oficiales del interior del país y el recurso más cercano si hay que resolver algo con el perro fuera de Conakry. Es el nudo de los dos corredores: se pasa por aquí en la bajada y en la subida.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.3232,-12.28913">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.28913,11.3232,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Monte Loura y la Dama de Mali (1.515 m)</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/La_Dame_du_Mali_du_Mont_Loura.png?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>La Dama de Mali es un perfil rocoso natural bajo la cumbre del monte Loura, en el extremo norte del Fouta Djallon. La visita exige guía local y una jornada de montaña.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.11208,-12.25949">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
@@ -142,11 +192,11 @@
     <Point><coordinates>-12.25949,12.11208,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Cataratas de Kinkon (Pita)</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_Kinkon.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Kinkon es una gran cascada del Kokoulo junto a Pita, aguas abajo de una presa. El acceso final requiere comprobar localmente la pista y mantenerse lejos del borde.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.05581,-12.45454">Google Maps</a>]]></description>
+    <name>Pita y las cataratas de Kinkon</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Panorama_du_centre_urbain_de_pita_02.jpg?width=1600" width="320"/><br/><b>Alta · Naturaleza</b><br/>Pita es el centro del Fouta Djallon central y la base para las dos grandes cascadas de la región. Las chutes de Kinkon están a unos 12 km, sobre el río Kokoulo: una caída de unos 80 m en un cañón de arenisca, con una central hidroeléctrica en la parte alta que condiciona el caudal (si la presa retiene agua, la cascada se queda en nada: preguntar en Pita antes de ir). El entorno del cañón es magnífico, con paredes verticales de arenisca roja y bosque de galería en el fondo. Acceso por pista corta desde la carretera principal Labé-Mamou, practicable con 4x4 todo el año. Al ser zona de central eléctrica, no fotografiar las instalaciones ni volar el dron.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.05828,-12.39481">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-12.45454,11.05581,0</coordinates></Point>
+    <Point><coordinates>-12.39481,11.05828,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Cataratas de Kambadaga</name>
@@ -156,6 +206,20 @@
     <Point><coordinates>-12.49317,10.99718,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Doucki · el «Gran Cañón de Guinea»</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sunrise_in_Guinea.jpg?width=1600" width="320"/><br/><b>Alta · Naturaleza</b><br/>El sitio de senderismo más famoso de África occidental entre mochileros, y probablemente el mejor del viaje entre Marruecos y Camerún. Un pueblo de unos 500 habitantes en el borde del altiplano, donde la meseta de arenisca se rompe en un sistema de cañones de varios cientos de metros de caída que baja hacia la llanura. Todo gira alrededor de Hassan Bah, el guía y anfitrión que lleva décadas abriendo y bautizando rutas: «Grand Canyon» (4 km, fácil), «Indiana Jones World» (5 km), «Hyena's Rock» (8 km), «Vultures Rock» (9 km), «The Caves» (8 km), «Bob Marley Stage» (14 km), «Wet &amp; Wild» (13 km), «Chutes &amp; Ladders» (~20 km, duro) y la «Valley Hike» (10-16 km, dura). Alojamiento en su campamento de cabañas sencillas con baño compartido; la fórmula habitual es todo incluido (cama, tres comidas, guía) por unos 50 USD al día por persona, sin tasas de entrada. Mínimo recomendado por quienes han ido: TRES noches. Acceso desde Pita: 2-3 horas por pista con baches. Mejor época: febrero-marzo. El perro puede acompañar en las rutas fáciles —es terreno comunitario, no parque— pero no en las de escalada por grietas y cuerdas: confirmarlo con Hassan.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.98214,-12.60318">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.60318,10.98214,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dalaba · la estación de altura colonial</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dalaba_Market_street.jpg?width=1600" width="320"/><br/><b>Media · Cultura</b><br/>A 1.200 m, en el corazón del Fouta, Dalaba fue la estación climática de la administración colonial francesa: el sitio donde los funcionarios subían a escapar del calor de Conakry, con jardines, huertas de fresas y hortalizas de clima templado que todavía se cultivan. Conserva el Chalet de Dalaba (la residencia del gobernador, de madera), los jardines de Chevalier, el antiguo sanatorio y —la joya— la Case à Palabres, una casa de asamblea tradicional fulani de planta circular cuyo interior está enteramente cubierto de esteras trenzadas y paneles de madera tallada y policromada por artesanos locales en los años cincuenta. Es uno de los mejores ejemplos vivos de arquitectura fulani del país. Clima fresco, buen mercado y la parada natural entre Pita y Mamou.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.68638,-12.25096">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.25096,10.68638,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Cataratas de Ditinn</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_Ditinn_%C3%A0_Dalaba.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Ditinn cae en un salto alto y estrecho desde la meseta del Fouta a una cubeta forestal. La excursión combina pista rural y descenso a pie con guía.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.8164,-12.18594">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
@@ -163,11 +227,11 @@
     <Point><coordinates>-12.18594,10.8164,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Voile de la Mariée de Kindia</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Voile_de_la_mari%C3%A9_kindia_s%C3%A9gu%C3%A9ya.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>El Voile de la Mariée es una cascada de varios hilos en Bendougou, cerca de Kindia. Se visita como excursión corta y no representa toda la ciudad ni el monte Gangan.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.98165,-12.79385">Google Maps</a>]]></description>
+    <name>Kindia · el Velo de la Novia y el monte Gangan</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/207-March%C3%A9_de_Kindia_%28Guin%C3%A9e%29.jpg?width=1600" width="320"/><br/><b>Alta · Naturaleza</b><br/>Cuarta ciudad del país, a 135 km de Conakry sobre la vieja línea del ferrocarril colonial, y la puerta del Fouta desde la costa. A pocos kilómetros está el Voile de la Mariée (el «Velo de la Novia»), una cascada de unos 70 m que se abre en abanico sobre una pared de granito —de ahí el nombre— con un área recreativa, bungalows y pozas para bañarse al pie; es la excursión clásica de fin de semana de los conakrianos y, por tanto, el sitio del país con más facilidad de acceso. Detrás se levanta el monte Gangan (1.117 m), un macizo de granito con paredes que atrae a escaladores y con rutas de subida a pie desde la carretera. Kindia tiene además el antiguo Institut Pasteur de Kindia (Pastoria), centro histórico de primatología donde se investigó con chimpancés desde los años veinte. Buena parada con el perro: agua, sombra y sendero.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.04067,-12.86299">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-12.79385,9.98165,0</coordinates></Point>
+    <Point><coordinates>-12.86299,10.04067,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Conakry</name>
@@ -184,18 +248,32 @@
     <Point><coordinates>-13.7855,9.4769,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Museo regional de Boké</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_de_Bok%C3%A9.jpg?width=1200" width="320"/><br/><b>Baja · Cultura</b><br/>El antiguo fuerte de Boké alberga el museo regional junto al río Nunez. Es una visita histórica concreta dentro de una variante costera que debe decidirse aparte.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.93332,-14.29599">Google Maps</a>]]></description>
+    <name>Boké y la costa de Boffa (variante costera)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_de_Bok%C3%A9.jpg?width=1600" width="320"/><br/><b>Baja · Cultura</b><br/>VARIANTE OPCIONAL, fuera de los dos corredores principales: la carretera de la costa norte (N3) desde Conakry hacia Boffa y Boké. Boké conserva el Fortin de Boké, puesto colonial francés de 1878 junto al río Nunez, hoy museo regional con colecciones etnográficas y la celda donde estuvo preso el almamy Samory Touré; es una de las piezas de patrimonio colonial mejor conservadas del país. Por el camino, las playas de Bel Air y de Cap Verga (Boffa), largas, vacías y con arena firme. Es también la región de la bauxita: Boké es el centro minero más grande de Guinea y el tráfico de camiones y el polvo rojo marcan la carretera. ATENCIÓN: esta variante se acerca a la frontera de Guinea-Bisáu, que el protocolo del proyecto excluye sin excepción — se puede recorrer la costa, pero no se cruza ni se roza la frontera.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.9407,-14.2803">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-morado</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-14.29599,10.93332,0</coordinates></Point>
+    <Point><coordinates>-14.2803,10.9407,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>Sérédou · acceso al macizo de Ziama</name>
-    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_of_Ziama_Massif.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Sérédou es la base navegable para el macizo forestal de Ziama, no el centro de la reserva. Cualquier entrada al bosque requiere autorización y guía local confirmados.<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.37192,-9.28687">Google Maps</a>]]></description>
+    <name>Faranah y el nacimiento del río Níger</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kindia-Le_roi_de_Farana_en_hamac_%28Guin%C3%A9e%29.jpg?width=1600" width="320"/><br/><b>Alta · Naturaleza</b><br/>Faranah es la ciudad del alto Níger —ciudad natal de Sékou Touré, con su mezquita monumental y un trazado de avenidas desproporcionado para su tamaño— y la base para el sitio geográfico más simbólico de toda África occidental: el nacimiento del río Níger, en las estribaciones de los montes Loma, cerca de la frontera con Sierra Leona. El tercer río más largo de África, que recorre 4.200 km describiendo un arco gigantesco por Malí y Níger hasta desembocar en Nigeria, arranca aquí como un manantial que se puede cruzar de un paso. El lugar es un claro de bosque con un pequeño monumento y un santuario local; se llega por pista desde Faranah y se termina a pie con guía del pueblo, que cobra propina. Coordenada del manantial aproximada: confirmar en Faranah. Que el Fouta Djallon y sus estribaciones den origen al Níger, al Senegal y al Gambia es lo que le vale a Guinea el apodo de «castillo de agua de África occidental».<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.2587,-10.80001">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-verde</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
-    <Point><coordinates>-9.28687,8.37192,0</coordinates></Point>
+    <Point><coordinates>-10.80001,10.2587,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bosque de Ziama (Macenta) · Reserva de la Biosfera</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Odontobatrachus_natator_female%2C_Ziama_Forest%2C_Guinea.jpg?width=1600" width="320"/><br/><b>Alta · Naturaleza</b><br/>Unas 116.000 hectáreas de selva tropical húmeda de tierras bajas en la prefectura de Macenta, la mayor masa forestal que queda en Guinea y Reserva de la Biosfera de la UNESCO desde 1980. Es un fragmento del bloque forestal de Alto Guinea —uno de los 34 focos mundiales de biodiversidad— con elefantes de bosque (la última población de Guinea, muy reducida), chimpancés, búfalos enanos, cefalofines, pangolines y una avifauna excepcional. La base es Sérédou, antigua estación de investigación de la quina en plena selva. El acceso es por pista desde la carretera Macenta-Nzérékoré y la visita es caminata de bosque cerrado con guía comunitario: no hay safari ni observatorios, y ver un elefante es prácticamente imposible, pero el bosque primario en sí es lo que se viene a ver. POR CONFIRMAR: gestión, tasas y guías — depende del Centre Forestier de Nzérékoré. La zona forestal es también la región donde surgió el brote de ébola de 2013-2016: ver la sección de salud.<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.4,-9.3167">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.3167,8.4,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nzérékoré y la Guinea forestal</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nz%C3%A9r%C3%A9kor%C3%A9_%2814582247666%29.jpg?width=1600" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Tercera ciudad de Guinea y capital de la Guinée Forestière, un mundo completamente distinto al resto del país: selva húmeda en lugar de sabana, 1.800 mm de lluvia al año, y los pueblos kpelle, kissi, toma y guerzé en lugar de fulanis y malinkés — con sus máscaras y sus sociedades iniciáticas de bosque, que son una de las tradiciones vivas más potentes de África occidental. Nzérékoré es un gran mercado regional y un centro de orfebrería de plata, y funciona como el nudo logístico del sureste: combustible, banco, hospital regional, hoteles y el último sitio con servicios antes de la frontera de Costa de Marfil. Es la base tanto de la visita a los montes Nimba como del enlace hacia Lola. Ciudad activa, caótica y cordial.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.74784,-8.82525">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.82525,7.74784,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Montes Nimba (UNESCO) · la triple frontera</name>
@@ -203,6 +281,69 @@
     <styleUrl>#icon-poi-ambar</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-8.41844,7.63781,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kankan · capital de la Alta Guinea</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Teinturi%C3%A8res_de_Kankan_%28Guin%C3%A9e%29.jpg?width=1600" width="320"/><br/><b>Alta · Ciudad · servicios</b><br/>Segunda ciudad del país por población y capital histórica del mundo malinké guineano, a orillas del río Milo, afluente del Níger. Es el gran centro del islam en Guinea —la Gran Mezquita de Kankan es uno de los santuarios más venerados del país— y una ciudad de erudición coránica desde el siglo XVIII. Universidad Julius Nyerere, mercado enorme, y la mejor plaza de servicios de todo el corredor de subida entre Nzérékoré y Labé: combustible formal, banco, hospital regional y hoteles con patio. Es también el corazón de la cultura griot mandinga, de donde salen los grandes intérpretes de kora y balafón. El calor es seco y fuerte (sabana, no selva): otro mundo respecto al Fouta.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.38279,-9.31183">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.31183,10.38279,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kouroussa y el Parque Nacional del Alto Níger</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Le_Niger_%C3%A0_Kouroussa_%28Guin%C3%A9e%29_%281%29.jpg?width=1600" width="320"/><br/><b>Media · Naturaleza</b><br/>Kouroussa es la ciudad del Níger propiamente dicho: aquí el río, que nació como un manantial cerca de Faranah, ya es navegable, y desde este punto arrancaban históricamente los vapores fluviales hacia Bamako. Es la ciudad natal del escritor Camara Laye, autor de «El niño africano». Al oeste se extiende el Parque Nacional del Alto Níger, unas 120.000 hectáreas de bosque seco y sabana en torno al bosque de Mafou —una de las últimas masas de bosque seco guineano intactas de África occidental— con hipopótamos, chimpancés de sabana, antílopes roanos y una avifauna notable, y núcleo de una Reserva de la Biosfera. Es el espacio protegido más grande de Guinea y también uno de los peor dotados: POR CONFIRMAR si hay guardas, pistas y campamento operativos. Se accede desde Kouroussa o desde Faranah.<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.64892,-9.88506">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.88506,10.64892,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dabola y las cataratas del Tinkisso</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Champ_d%27agricole_de_diaw%C3%A9ya.jpg?width=1600" width="320"/><br/><b>Media · Naturaleza</b><br/>Dabola está en la bisagra entre la sabana de la Alta Guinea y el pie oriental del Fouta Djallon, y es la parada natural del corredor de subida entre Kouroussa y Tougué. A pocos kilómetros están las cataratas del Tinkisso, sobre el río del mismo nombre —el principal afluente de cabecera del Níger, que nace en el Fouta—: una cortina ancha y escalonada, con una pequeña central hidroeléctrica histórica que lleva décadas alimentando la ciudad, pozas para bañarse y un entorno de bosque de galería. Menos espectacular que las cascadas del Fouta central pero mucho más solitaria, y la única parada de agua del corredor de subida. Dabola tiene combustible y mercado.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-19">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.73064,-11.10892">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.10892,10.73064,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tougué y el Fouta oriental</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Centre_de_formation_et_autonomisation_des_femmes.jpg?width=1600" width="320"/><br/><b>Media · Naturaleza</b><br/>La prefectura menos visitada del Fouta Djallon y la más difícil de alcanzar: el flanco oriental del altiplano, donde la meseta cae hacia la cuenca del Tinkisso en una sucesión de escarpes, gargantas y pueblos fulani prácticamente sin tráfico. La pista Dabola-Tougué-Labé es el tramo 4x4 más exigente y más solitario de todo el corredor guineano, y la razón principal para elegir este corredor de subida en vez de repetir el eje Mamou-Labé: cientos de kilómetros de paisaje de altiplano sin un solo viajero. Tougué tiene mercado, alojamiento elemental y combustible incierto —llegar con autonomía—. Es también una de las zonas de mayor concentración de «tapades», los huertos cercados de las casas fulani que son el sistema agrícola característico del Fouta. POR CONFIRMAR el estado de la pista y si es practicable fuera de la estación seca.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-20">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.4333,-11.6667">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.6667,11.4333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cataratas de Kinkon (Pita)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chute_de_Kinkon.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Kinkon es una gran cascada del Kokoulo junto a Pita, aguas abajo de una presa. El acceso final requiere comprobar localmente la pista y mantenerse lejos del borde.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-21">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.05581,-12.45454">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.45454,11.05581,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Voile de la Mariée de Kindia</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Voile_de_la_mari%C3%A9_kindia_s%C3%A9gu%C3%A9ya.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>El Voile de la Mariée es una cascada de varios hilos en Bendougou, cerca de Kindia. Se visita como excursión corta y no representa toda la ciudad ni el monte Gangan.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-22">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.98165,-12.79385">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.79385,9.98165,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Museo regional de Boké</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e_de_Bok%C3%A9.jpg?width=1200" width="320"/><br/><b>Baja · Cultura</b><br/>El antiguo fuerte de Boké alberga el museo regional junto al río Nunez. Es una visita histórica concreta dentro de una variante costera que debe decidirse aparte.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-23">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.93332,-14.29599">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-14.29599,10.93332,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sérédou · acceso al macizo de Ziama</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Landscape_of_Ziama_Massif.jpg?width=1200" width="320"/><br/><b>Alta · Naturaleza</b><br/>Sérédou es la base navegable para el macizo forestal de Ziama, no el centro de la reserva. Cualquier entrada al bosque requiere autorización y guía local confirmados.<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/guinea/#poi-24">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.37192,-9.28687">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-9.28687,8.37192,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gbalamuya / Kambia · la puerta de entrada</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kambia_-_Perilla_Francesco_-_1928.jpg?width=1600" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Gbalamuya es el puesto fronterizo principal del país, justo enfrente del guineano de Pamelap, en la carretera Conakry-Freetown: es el paso que usa prácticamente todo el tráfico regional y el único documentado con garantías. A 15 km está Kambia, capital de distrito, primera población con mercado, combustible, cambio de moneda y alojamiento elemental. Aquí es donde se resuelve la entrada: control de inmigración (el visado a la llegada se expide en este puesto, ver la sección de visado), aduana del vehículo, seguro Brown Card de la CEDEAO y el certificado de fiebre amarilla, que se comprueba. La web oficial de turismo avisa de que el cruce puede llevar varias horas por colas y trámites, y recomienda cruzar siempre de día. Coordenada del puesto aproximada: confirmar sobre el terreno.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.12617,-12.91765">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.91765,9.12617,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Freetown · la ciudad de los libertos</name>
@@ -226,11 +367,25 @@
     <Point><coordinates>-13.2072,8.41692,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Parque Nacional de la Península Occidental (Sugar Loaf, Guma)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/River_No._2_Beach_%28Sierra_Leone%29.jpg?width=1600" width="320"/><br/><b>Alta · Naturaleza</b><br/>18.337 hectáreas de selva semidecidua de dosel cerrado colgadas sobre Freetown y sus playas: reserva forestal desde 1916, parque nacional desde 2012 y sitio en la lista indicativa de la UNESCO. Es el bosque cerrado más occidental del país, área importante para las aves según BirdLife, con tres especies de duiker, y la razón de que la península tenga ese perfil de montaña verde cayendo directamente al mar. Dentro está Tacugama, y desde sus faldas arrancan las subidas al Sugar Loaf (unos 760 m, la cumbre que domina Freetown) y al Picket Hill, además del embalse de Guma, que abastece la capital. Es la mejor excursión a pie del país fuera de las Loma y, al ser un parque sin grandes depredadores, la más compatible con el perro — con correa, mucha agua y evitando las horas centrales, porque la humedad es brutal. El parque sufre una presión de deforestación urbana muy seria por el crecimiento de Freetown: parte de los límites están en discusión.<br/><b>Perro:</b> permitido con precaución<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.32908,-13.15097">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-verde</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Verde</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.15097,8.32908,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>River No. 2 Beach</name>
     <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/River_No._2_Beach_(Sierra_Leone).jpg?width=1200" width="320"/><br/><b>Alta · Costa</b><br/>River No. 2 combina una playa clara con la desembocadura de un río y gestión comunitaria. Es fácil de alcanzar desde Freetown, pero el baño depende de mar, corrientes y marea.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.3335,-13.20378">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-turquesa</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-13.20378,8.3335,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tokeh Beach</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tokeh_Beach.jpg?width=1600" width="320"/><br/><b>Media · Costa</b><br/>Cinco kilómetros de arena al sur de River No. 2, con montaña al fondo y el pueblo de pescadores en un extremo. Fue la playa de moda de Sierra Leona antes de la guerra —hubo aquí un complejo hotelero francés que la guerra arrasó— y ha vuelto a la vida con un par de resorts y varios chiringuitos. Es más larga, más abierta y con más oleaje que River No. 2, y por tanto mejor para caminar kilómetros y peor para bañarse con niños. La carretera de la península la conecta con Freetown por asfalto. Buena alternativa si River No. 2 está lleno un fin de semana. Coordenada aproximada — confirmar sobre el terreno.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.31401,-13.19621">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.19621,8.31401,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Bureh Beach · la playa del surf</name>
@@ -254,6 +409,20 @@
     <Point><coordinates>-13.04037,8.56986,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Bo · la segunda ciudad</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bo_Sierra_Leone_c_1944_%283134619932%29.jpg?width=1600" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Segunda ciudad del país (unos 230.000 habitantes), capital del Protectorado entre 1930 y la independencia de 1961, y el centro financiero, educativo y comercial de todo el sur. Es el nudo obligado entre Freetown, Kenema y el norte: aquí se reposta a fondo, se saca dinero y se compran provisiones antes de bajar a Tiwai y a Gola, porque más al sureste la red formal se acaba. Universidad de Njala, el Bo Government Secondary School de 1906 —la escuela de la élite del protectorado—, un mercado grande y el estadio. Ciudad sin monumentos, muy útil, con la mezcla mende-krio-fula que define el sur. La vieja estación del ferrocarril, cerrado en 1974, todavía marca el trazado urbano.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.95518,-11.74099">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.74099,7.95518,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kenema y el país de los diamantes</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kenema_clock_tower.jpg?width=1600" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Tercera ciudad del país, en un paso natural de las colinas de Kambui a 173 m, y la capital administrativa del diamante aluvial de Sierra Leona: aquí está la Government Diamond Office, creada en 1959, donde se valoran, licencian y certifican las piedras de toda la Provincia Oriental. Es la ciudad que explica la expresión «diamantes de sangre»: los yacimientos aluviales de este rincón financiaron la guerra civil y fueron el detonante del Proceso de Kimberley. Se puede ver el mercado del diamante y los talleres de talla, pero no se compran piedras a particulares bajo ningún concepto. Segundo dato, muy relevante para la salud del viaje: el Hospital Gubernamental de Kenema tiene una de las pocas unidades del mundo dedicadas a la fiebre de Lassa, endémica en esta región, y fue aquí donde el 25 de mayo de 2014 se diagnosticó el primer caso de ébola del país. Base logística para Gola y para las colinas de Kambui.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.86321,-11.19572">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.19572,7.86321,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Parque Nacional de Gola Rainforest (UNESCO 2025)</name>
     <description><![CDATA[<img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAb4Xql1XivdDNWziMXqVTQhVTtIaHvtEpG_UmyYPNJOw6-pp-BrFkGD5Rs0OrXNRr0Z-gxi63rHKw8phZTmqWFSjXcwNh_qntighWd50ih21zhm09NbBjzsAyJhV84suNFzcIwg=w1200-h675-k-no" width="320"/><br/><b>Alta · Patrimonio UNESCO</b><br/>Gola Rainforest forma con Tiwai el primer sitio Patrimonio Mundial de Sierra Leona, inscrito en 2025. La selva se visita solo con coordinación previa y acceso indicado por el parque.<br/><b>Perro:</b> no confirmado — tratar como prohibido<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.66634,-10.84153">Google Maps</a>]]></description>
     <styleUrl>#icon-poi-ambar</styleUrl>
@@ -266,6 +435,34 @@
     <styleUrl>#icon-poi-ambar</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-11.35537,7.55415,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sulima y la desembocadura del Moa</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sierra_Leone_1970_-_sunset.jpg?width=1600" width="320"/><br/><b>Baja · Costa</b><br/>El extremo suroriental del país, donde el río Moa —el mismo que rodea Tiwai— desemboca en el Atlántico, casi en la frontera de Liberia. Sulima fue puesto comercial en el siglo XIX y acogió después a mucha población desplazada por la guerra liberiana; hoy es un pueblo de pescadores con una playa larguísima, absolutamente vacía, y un estuario enorme. Está en las listas de proyectos de desarrollo turístico del país y también en las de un posible puerto de mineral de hierro, así que puede cambiar. Es el punto más remoto y menos visitado de todo el bucle: se llega por la pista desde Zimmi, que conviene confirmar antes de meterse. Con el perro, es la playa más libre del país — nadie a quien molestar en kilómetros.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=6.96985,-11.57455">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.57455,6.96985,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Islas Turtle (archipiélago sherbro)</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sherbro_Island_-_panoramio.jpg?width=1600" width="320"/><br/><b>Media · Naturaleza · costa</b><br/>Ocho islas de arena blanca repartidas sobre 13 km de bajíos, al oeste de la isla de Sherbro, en el distrito de Bonthe: Yele, Bakie, Bumpetuk, Chepo, Hoong, Mut, Nyangei y Sei. Siete están habitadas por sherbros que viven de la pesca y del coco, con una cultura propia intacta: las tardes se pasan cantando canciones tradicionales de valentía y de amor, y la isla de Hoong está reservada a los hombres iniciados como parte de sus ritos de paso — no se pisa. Es el rincón más remoto y más difícil de alcanzar de Sierra Leona: se llega en barca desde Freetown (unas tres horas) o desde Shenge/Bonthe, con transporte irregular y estándares de seguridad que conviene mirar de cerca antes de embarcar. Hay una amenaza real de fondo: la subida del nivel del mar, que según las estimaciones citadas podría sumergirlas hacia 2040. VISITA OPCIONAL Y CARA EN TIEMPO: solo tiene sentido con varios días de margen. Coordenada aproximada del archipiélago — confirmar.<br/><b>Perro:</b> no confirmado<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=7.62711,-13.01267">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-turquesa</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Turquesa</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.01267,7.62711,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Makeni · capital del norte</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Makeni_Wusum.JPG?width=1600" width="320"/><br/><b>Media · Ciudad · servicios</b><br/>Quinta ciudad del país (unos 85.000 habitantes en el censo de 2021) y centro económico de la Provincia del Norte, a unos 175 km de Freetown por la carretera principal asfaltada. Es la última plaza con servicios completos antes de subir a Kabala y a las montañas: combustible formal, bancos, mercado grande, la Universidad de Makeni —la mayor privada del país— y el Holy Spirit Hospital, el mayor hospital privado del norte, que es la referencia sanitaria realista de todo el tramo de montaña. Ciudad temne, ordenada y tranquila. Nota de salud: la zona es endémica de fiebre amarilla y de malaria.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=8.87197,-12.03756">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-azul</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Azul</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.03756,8.87197,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Kabala y la colina de Gbawuria</name>
+    <description><![CDATA[<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mother_and_child_-_Kabala%2C_Sierra_Leone_%28West_Africa%29.jpg?width=1600" width="320"/><br/><b>Media · Cultura</b><br/>Capital del distrito de Koinadugu, a unos 320 km de Freetown, rodeada de montañas y con el aire más seco y fresco del país: es la base obligada de todo el bloque de montaña. Al oeste del pueblo se levanta la colina de Gbawuria, donde cada 1 de enero sube media Sierra Leona a celebrar el año nuevo — una de las tradiciones populares más singulares del país, y una subida a pie corta y bonita cualquier otro día del año. Kabala es kuranko, fula, mandinga, yalunka y limba a la vez, con hospital gubernamental, mercado y alojamiento elemental. AVISO OPERATIVO: no hay electricidad de red, solo generadores, y el último tramo de acceso incluye unos 40 km de pista sin asfaltar desde la carretera principal — confirmar el estado actual, porque la red asfaltada del país ha avanzado en los últimos años.<br/><b>Perro:</b> permitido<br/><a href="https://theawakeman.github.io/africa2027/paises/sierra-leona/#poi-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=9.58441,-11.55891">Google Maps</a>]]></description>
+    <styleUrl>#icon-poi-morado</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Morado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.55891,9.58441,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Monte Bintumani (1.945 m) y las montañas Loma</name>

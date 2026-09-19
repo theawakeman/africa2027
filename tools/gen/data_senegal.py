@@ -74,18 +74,30 @@ ROUTE = [
     ("2", "Saint-Louis + Guet Ndar", "Patrimonio e inmersión local", "A pie; aparcamiento vigilado"),
     ("3", "Djoudj", "Piragua y observación de aves", "Perro prohibido; visita solo con cuidado resuelto"),
     ("4", "Langue de Barbarie", "Estuario, dunas y aves", "Autorización escrita para el perro o rotación"),
-    ("5", "Saint-Louis → Lac Rose", "Traslado costero y parada paisajística", "Llegar con luz"),
-    ("6–7", "Dakar + Gorée", "Gorée; uno o dos museos; reabastecimiento", "Vehículos vigilados; evitar sobrecargar la ciudad"),
-    ("8", "Dakar → Joal-Fadiouth", "Isla de conchas y cultura local", "Confirmar acceso del perro"),
-    ("9–10", "Toubacouta + Delta del Saloum", "Piragua, manglar, islas y aves", "Alojamiento con aparcamiento y cuidado canino acordados"),
-    ("11–13", "Bloque Ferlo (opcional)", "Linguère–Ranérou–Katané–Tambacounda", "Solo con autorización, track reciente, autonomía y salida temprana"),
-    ("14", "Tambacounda", "Revisión de vehículos, combustible y provisiones", "Confirmar pistas y seguridad oriental"),
-    ("15–16", "Niokolo-Koba", "Parque con guía", "Perro prohibido; exige cuidado verificado o rotación"),
-    ("17", "Kédougou", "Base, guía, salud y mantenimiento", "Resolver siguientes excursiones antes de salir"),
-    ("18", "Bandafassi + Iwol", "Paisaje cultural y caminata", "Acuerdo previo con guía y comunidad"),
-    ("19", "Dindéfelo", "Cascada y bosque", "Menos agua en estación seca; confirmar perro"),
-    ("20", "Ethiolo / Salémata", "Cultura bassari", "Opcional si el ritmo o el calor aprietan"),
-    ("21", "Kalifourou → Sambaïlo → Koundara", "Salida a Guinea", "Solo corredor oficial; no conducir de noche"),
+    ("5", "Saint-Louis → Linguère → Ranérou", "Entrada al Ferlo por el interior", "Salir con depósitos llenos; última gasolinera fiable en Linguère"),
+    ("6", "Ferlo Norte y enclos de Katané", "Fauna saharosaheliana reintroducida", "Autorización escrita previa; sin ella no se entra"),
+    ("7", "Ferlo Sur", "Pastoreo peul y sabana seca", "Track reciente y contacto con los responsables de la reserva"),
+    ("8", "Pista Ranérou → Tambacounda", "Travesía 4x4 del Ferlo", "Salida al amanecer, autonomía completa de agua y combustible, dos vehículos juntos"),
+    ("9", "Tambacounda", "Revisión de vehículos, combustible y provisiones", "Confirmar pistas y seguridad oriental"),
+    ("10–11", "Niokolo-Koba", "Parque con guía", "Perro prohibido; exige cuidado verificado o rotación"),
+    ("12", "Kédougou", "Base, guía, salud y mantenimiento", "Resolver las siguientes excursiones antes de salir"),
+    ("13", "Bandafassi + Iwol", "Paisaje cultural y caminata", "Acuerdo previo con guía y comunidad"),
+    ("14", "Dindéfelo", "Cascada y bosque", "Menos agua en estación seca; confirmar perro"),
+    ("15", "Ethiolo / Salémata", "Cultura bassari", "Opcional si el ritmo o el calor aprietan"),
+    ("16", "Kalifourou → Sambaïlo → Koundara", "Salida a Guinea", "Solo corredor oficial; no conducir de noche"),
+]
+
+# A la vuelta el país se recorre por otro sitio: no es la misma tabla al revés.
+ROUTE_SUBIDA = [
+    ("1", "Entrada por la Casamance", "Reentrada en Senegal por el suroeste", "Confirmar el paso y la seguridad de la Casamance inmediatamente antes"),
+    ("2", "Casamance → Karang–Amdalai", "Salida hacia Gambia", "Paso pequeño y lento; llegar con luz"),
+    ("3–8", "Gambia", "País completo, de sur a norte", "Ver la ficha de Gambia: eje corto costero o variante del río arriba"),
+    ("9", "Karang → Toubacouta", "Vuelta a Senegal por el norte de Gambia", "Dos fronteras en un día; no encadenar con visita"),
+    ("10–11", "Toubacouta y el delta del Saloum", "Piragua, manglar, islas y aves", "Alojamiento con aparcamiento y cuidado canino acordados"),
+    ("12", "Joal-Fadiouth", "Isla de conchas y cultura local", "Confirmar acceso del perro"),
+    ("13–14", "Dakar + Gorée", "Gorée; uno o dos museos; reabastecimiento", "Vehículos vigilados; evitar sobrecargar la ciudad"),
+    ("15", "Lac Rose", "Lago Retba y paisaje de dunas", "Llegar con luz"),
+    ("16", "Lac Rose → Saint-Louis → Diama", "Subida costera y salida a Mauritania", "Repostar antes de Diama; confirmar horario de la presa"),
 ]
 
 SOURCES = [
@@ -124,13 +136,21 @@ DOG_MATRIX = [
     ("Ferlo Norte/Sur y Katané", "requiere autorización escrita", "Sin residencia verificada; rotación es el respaldo real"),
 ]
 
-CORRIDOR = ["Saint-Louis – isla histórica", "Parque Nacional de Djoudj", "Parque Nacional de la Langue de Barbarie",
-            "Lac Rose – lago Retba", "Isla de Gorée", "Joal-Fadiouth – isla de conchas",
-            "Toubacouta – base del delta del Saloum", "Parque Nacional de Niokolo-Koba",
-            "Kédougou – base del Senegal oriental", "Bandafassi – puerta del País Bassari",
-            "Cascada de Dindéfelo", "Ethiolo – cultura bassari"]
-FERLO = ["Toubacouta – base del delta del Saloum", "Ranérou — puerta del Ferlo",
-         "Pista 4x4 Ranérou–Tambacounda — travesía del Ferlo", "Parque Nacional de Niokolo-Koba"]
+# Senegal se cruza DOS VECES y por sitios distintos, por decisión del dueño del
+# proyecto (12-09-2026): la bajada va por el interior y el este —el Ferlo— y la
+# subida entra por el suroeste, cruza Gambia y sube por Dakar y el lago Retba.
+CORRIDOR_BAJADA = ["Saint-Louis – isla histórica", "Parque Nacional de Djoudj",
+                   "Parque Nacional de la Langue de Barbarie",
+                   "Reserva de Fauna del Ferlo Norte", "Enclos de Katané — fauna saharosaheliana",
+                   "Ranérou — puerta del Ferlo", "Reserva de Fauna del Ferlo Sur",
+                   "Pista 4x4 Ranérou–Tambacounda — travesía del Ferlo",
+                   "Parque Nacional de Niokolo-Koba", "Kédougou – base del Senegal oriental",
+                   "Bandafassi – puerta del País Bassari", "Iwol – aldea bedik",
+                   "Cascada de Dindéfelo", "Ethiolo – cultura bassari"]
+CORRIDOR_SUBIDA = ["Toubacouta – base del delta del Saloum", "Delta del Saloum",
+                   "Joal-Fadiouth – isla de conchas", "Isla de Gorée",
+                   "Museo de las Civilizaciones Negras", "Monumento del Renacimiento Africano",
+                   "Lac Rose – lago Retba", "Saint-Louis – isla histórica"]
 
 
 def get_data(root="../../"):
@@ -148,8 +168,13 @@ def get_data(root="../../"):
             "img": f"assets/img/senegal/{n:02d}.jpg",
         })
     logistics = [{"name": n, "cat": c, "lat": la, "lon": lo, "info": i} for n, c, la, lo, i in LOGISTICS]
-    corridor = [(kml[n]["lat"], kml[n]["lon"]) for n in CORRIDOR] + [(12.92415, -13.63848), (12.58241, -13.37191)]
-    ferlo = [(kml[n]["lat"], kml[n]["lon"]) for n in FERLO]
+    # Bajada: entrada por Diama, norte, Ferlo, este y salida a Guinea por Kalifourou.
+    corridor = [(16.21667, -16.40000)] + [(kml[n]["lat"], kml[n]["lon"]) for n in CORRIDOR_BAJADA] \
+        + [(12.92415, -13.63848), (12.58241, -13.37191)]
+    # Subida: se entra por la Casamance, se cruza Gambia (su propia ficha) y se
+    # vuelve a Senegal por Karang–Amdalai camino de Dakar, el lago Retba y Diama.
+    subida = [(12.55830, -16.27190), (13.59169, -16.42208)] \
+        + [(kml[n]["lat"], kml[n]["lon"]) for n in CORRIDOR_SUBIDA] + [(16.21667, -16.40000)]
 
     d = {
         "slug": "senegal", "name": "Senegal", "revision": "8 sep 2026", "estado": "completa",
@@ -157,8 +182,8 @@ def get_data(root="../../"):
         "hero_img": "assets/img/senegal/01.jpg",
         "hero_credit": "Delta del Saloum · Unión Europea, Copernicus Sentinel-2",
         "chips": [
-            ("CORREDOR", "Diama → Kalifourou"),
-            ("RITMO", "17–21 días"),
+            ("CORREDOR", "Bajada Diama → Kalifourou · subida Casamance → Diama"),
+            ("RITMO", "16 días bajando + 16 subiendo"),
             ("SEGURIDAD", st_pill("precaución en este y Casamance")),
             ("FRONTERA TERRESTRE", st_pill("abierta · verificar antes")),
             ("CPD", st_pill("recomendado")),
@@ -166,7 +191,9 @@ def get_data(root="../../"):
         ],
         "center": [14.4, -14.7], "zoom": 7,
         "pois": pois, "logistics": logistics,
-        "corridor": corridor, "corridor_alt": ferlo,
+        "corridor": corridor, "corridor_alt": subida,
+        "corridor_label": "BAJADA · Diama · Saint-Louis · Ferlo · Niokolo-Koba · Kédougou · Kalifourou",
+        "corridor_alt_label": "SUBIDA · Casamance · Gambia · Saloum · Dakar · lago Retba · Diama",
         "notice": "Documento operativo sujeto a revalidación final en diciembre de 2026 y en cada frontera.",
     }
     d["historia_resumen"] = HISTORIA_RESUMEN
@@ -182,8 +209,8 @@ def get_data(root="../../"):
 
     # -------- custom section HTML --------
     facts = [
-        ("Duración", "17–18 días sin Ferlo; 20–21 días con el bloque Ferlo"),
-        ("Perfil", "Naturaleza, cultura local y pocas ciudades; Dakar concentrado en 1–2 días"),
+        ("Duración", "16 días en la bajada (con el Ferlo) y 16 en la subida, Gambia incluida"),
+        ("Perfil", "Bajada de interior y pista; subida de costa, delta y ciudad. Dakar solo se ve a la vuelta"),
         ("Acampada", "Libre solo con validación local; en ciudades, fronteras y áreas protegidas usar recinto vigilado"),
         ("Conducción", "Evitar totalmente la noche; limitar jornadas largas y entrar en destino con luz"),
         ("Perro", "Restricción principal: autorización escrita en áreas protegidas y prohibición en Djoudj/Niokolo-Koba"),
@@ -192,7 +219,7 @@ def get_data(root="../../"):
         ("Comunicaciones", "Starlink autorizado y disponible en 2026; mantener SIM local y mensajería satelital"),
     ]
     resumen = (
-        callout("", "Decisión de ruta", "Entrada por Diama desde Mauritania. Salida base por Kalifourou–Boundou Fourdou–Sambaïlo hacia Koundara (Guinea). Mali y Guinea-Bissau quedan fuera. GAMBIA SÍ forma parte de la ruta, pero solo en la SUBIDA: a la vuelta se baja por el suroeste de Senegal (Casamance), se cruza Gambia y se sube hacia Dakar y el lago Retba.")
+        callout("", "Decisión de ruta", "<strong>Senegal se cruza dos veces y por sitios distintos.</strong> A la BAJADA se entra por Diama y se va por el interior: Saint-Louis y el bajo Senegal, el bloque del <strong>Ferlo</strong> —Ferlo Norte, Katané, Ranérou, Ferlo Sur y la pista a Tambacounda—, Niokolo-Koba, Kédougou y el País Bassari, y salida por Kalifourou–Boundou Fourdou–Sambaïlo hacia Koundara (Guinea). A la SUBIDA no se repite nada de eso: se entra por el suroeste, por la <strong>Casamance</strong>, se cruza <strong>Gambia</strong> entera de sur a norte y se vuelve a Senegal por Karang–Amdalai para hacer el delta del Saloum, Joal-Fadiouth, Dakar y Gorée, el lago Retba y la costa hasta Diama. Mali y Guinea-Bisáu quedan fuera.", raw=True)
         + table(("Tema", "Decisión operativa"), facts)
         + "<h3>Alertas que condicionan la visita</h3>"
         + bullets([
@@ -205,9 +232,16 @@ def get_data(root="../../"):
     )
 
     ruta = (
-        "<p>Itinerario pensado para enero–febrero de 2027, estación seca. El Ferlo añade aislamiento y pista, pero no es imprescindible para la continuidad del viaje.</p>"
+        "<p>Itinerario pensado para enero–febrero de 2027, estación seca. <strong>Senegal no se recorre dos veces igual:</strong> "
+        "a la bajada se va por el interior y el este —el Ferlo— y a la subida por el suroeste, Gambia y la costa. "
+        "Las dos tablas son recorridos distintos, no la misma lista al revés.</p>"
+        + "<h3>Bajada · Diama → Kalifourou</h3>"
         + table(("Día", "Tramo / base", "Objetivo", "Condición"), ROUTE, cls="num")
-        + callout("warn", "Criterio de recorte", "Si se pierde tiempo en frontera, mecánica o cuidado del perro, recortar primero Ferlo, luego uno de los museos de Dakar y finalmente Ethiolo. Mantener Djoudj, Saint-Louis, Gorée, Saloum, Niokolo-Koba y el País Bassari si las restricciones caninas están resueltas.")
+        + "<h3>Subida · Casamance → Gambia → Diama</h3>"
+        + "<p>Los días 3 a 8 se recorren dentro de Gambia y están detallados en su propia ficha; aquí solo se "
+        "marca el hueco que ocupan en el calendario.</p>"
+        + table(("Día", "Tramo / base", "Objetivo", "Condición"), ROUTE_SUBIDA, cls="num")
+        + callout("warn", "Criterio de recorte", "El Ferlo ya no es el primer descarte: es el eje de la bajada. Si se pierde tiempo en frontera, mecánica o cuidado del perro, recortar primero Ethiolo y Salémata, después uno de los museos de Dakar en la subida, y solo en último extremo el Ferlo Sur, que es el tramo con menos servicios y más pista.")
         + "<h3>Acampada y pernocta</h3>"
         + bullets([
             "Priorizar campamento discreto y con consentimiento local, lejos de carreteras, puestos de control, fronteras, playas urbanas y núcleos de fauna.",

@@ -1,552 +1,884 @@
 [
-  {
-    "n": 1,
-    "name": "El Aaiún · catedral de San Francisco de Asís",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1 noche",
-    "lat": 27.163056,
-    "lon": -13.205556,
-    "desc": "La catedral de San Francisco de Asís es la referencia arquitectónica más clara del antiguo El Aaiún español y sigue destinada al culto. La ciudad es, ante todo, la última base completa antes del largo corredor hacia Dajla.",
-    "credit": "Bjørn Christian Tørrissen · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune_Cathedral_2011.jpg?width=1200",
-    "source": "https://commons.wikimedia.org/wiki/File:Laayoune_Cathedral_2011.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite sumar una visita histórica breve a una parada logística imprescindible.",
-      "see": "La nave de hormigón, sus vidrieras y el barrio central; el resto de El Aaiún se recorre como ciudad actual, no como museo colonial.",
-      "access": "El pin se ha fijado en la ficha exacta de la catedral, no en el centro urbano. Fotografiar con discreción y confirmar el acceso interior.",
-      "when": "De día y fuera de celebraciones; una hora basta si no se hacen gestiones en la ciudad.",
-      "skip": "Reducirla a servicios si la iglesia está cerrada o la etapa hacia el sur obliga a salir pronto."
-    },
-    "links": [
-      {
-        "label": "Visit Laayoune · ciudad y patrimonio",
-        "url": "https://visitlaayoune.ma/laayoune/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune_Cathedral_2011.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Laayoune_Cathedral_2011.jpg",
-        "credit": "Bjørn Christian Tørrissen · CC BY-SA 3.0",
-        "caption": "Fachada de la catedral de San Francisco de Asís en El Aaiún."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spanish_cathedral_laayoune.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Spanish_cathedral_laayoune.jpg",
-        "credit": "Alexander Leisser · CC BY-SA 4.0",
-        "caption": "Volumen exterior y torres de la catedral."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Francis_of_Assisi_Cathedral,_El_Aaiun,_Western_Sahara.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Saint_Francis_of_Assisi_Cathedral,_El_Aaiun,_Western_Sahara.jpg",
-        "credit": "Burrocanario · CC BY-SA 3.0",
-        "caption": "La catedral y su entorno urbano inmediato."
-      }
-    ]
+ {
+  "n": 1,
+  "name": "El Aaiún (Laayoune) · la mayor ciudad del territorio",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1 noche",
+  "lat": 27.1500384,
+  "lon": -13.1990758,
+  "desc": "262.000 habitantes y, de largo, la mayor ciudad del Sáhara Occidental: la fundó el capitán español Antonio de Oro en 1938 como puesto militar y explotó con el descubrimiento de los fosfatos de Bu Craa en los años cuarenta. Del periodo español quedan la CATEDRAL DE SAN FRANCISCO DE ASÍS, todavía en culto y con párroco, el trazado del barrio antiguo con sus cúpulas blancas y algún edificio de la administración; de la etapa marroquí, la enorme Plaza del Mechouar y la avenida de la Marcha Verde. Es sede de la MINURSO, la misión de la ONU para el referéndum, cuyos todoterrenos blancos se ven por la ciudad, y desde 2019 varios países han abierto consulados aquí. Para nosotros es lo que importa de verdad: última base con hospital de referencia, talleres, bancos, supermercado y combustible barato antes de 1.000 km de nada. Clima suavizado por la corriente de Canarias: media anual de unos 21 °C.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune_%D9%84%D8%B9%D9%8A%D9%88%D9%86_-_panoramio.jpg?width=1600",
+    "credit": "habib kaki · CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Laayoune_%D9%84%D8%B9%D9%8A%D9%88%D9%86_-_panoramio.jpg",
+    "caption": "El Aaiún."
+   }
+  ],
+  "links": [
+   {
+    "label": "Laayoune — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Laayoune"
+   },
+   {
+    "label": "FCDO — Western Sahara, regional risks (minas y zonas del Muro)",
+    "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/regional-risks"
+   }
+  ],
+  "visit": {
+   "why": "Es el único sitio del Sáhara Occidental donde se puede resolver de verdad todo lo que un viaje overland acumula: talleres, neumáticos, bancos, hospital, supermercados grandes, hoteles con parking y gasolineras con surtidor de garantía. A partir de aquí y hasta Nuadibú no vuelve a haber nada de este tamaño, así que funciona como cabecera logística del corredor atlántico.",
+   "see": "Una ciudad administrativa de 262.000 habitantes con dos capas superpuestas: el casco español de los años 40-60 —casas encaladas, cúpulas, la catedral de San Francisco de Asís todavía en uso— y el Marruecos posterior a 1975, con avenidas anchas, banderas y la Place du Mechouar. Al borde de la ciudad, el cauce del Saguia el-Hamra y su palmeral, que es la razón por la que el capitán Antonio de Oro la plantó aquí en 1938.",
+   "access": "Llegada trivial: la N1 asfaltada y en buen estado entra directamente en la ciudad. Lo que no es trivial son los controles de gendarmería a la entrada y salida —conviene llevar copias de la fiche de renseignements con matrículas, pasaportes y destino, se piden varias veces al día—. Aeropuerto Hassan I con vuelos a Canarias y Casablanca si hay que evacuar a alguien o traer una pieza. Con perro, ningún problema en la ciudad, pero hay que elegir hotel con patio o parking propio: muchos alojamientos del centro no admiten animales.",
+   "when": "Media jornada basta para papeleo, compra y una vuelta por el casco español; si hay que hacer mecánica, cuéntese un día entero y duérmase aquí. Mejor moverse a primera hora o al caer la tarde: en verano se pasa de 40 °C con facilidad y hay registros de 47 °C.",
+   "skip": "Si los dos coches van finos y la despensa está hecha, El Aaiún no pide parada turística: es una capital administrativa, no una ciudad monumental. Quien vaya justo de días puede reducirla a repostar, cajero y seguir hacia el sur."
   },
-  {
-    "n": 2,
-    "name": "Laayoune Plage y Foum el Oued · la desembocadura del Saguía",
-    "cat": "Costa",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "½ día",
-    "lat": 27.11,
-    "lon": -13.42,
-    "desc": "Foum el Oued es la playa de El Aaiún en la desembocadura de la Saguía el‑Hamra: arena abierta, pesca y viento atlántico. Es una salida concreta desde la ciudad, no una imagen genérica del territorio.",
-    "credit": "Wikimedia Commons · licencia en la fuente",
+  "_restaurado": true
+ },
+ {
+  "n": 2,
+  "name": "Laayoune Plage y Foum el Oued · la desembocadura del Saguía",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "½ día",
+  "lat": 27.11,
+  "lon": -13.42,
+  "desc": "Foum el Oued es la playa de El Aaiún en la desembocadura de la Saguía el‑Hamra: arena abierta, pesca y viento atlántico. Es una salida concreta desde la ciudad, no una imagen genérica del territorio.",
+  "credit": "Wikimedia Commons · licencia en la fuente",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B4%D8%A7%D8%B7%D8%A6_%D9%81%D9%85_%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D8%8C_%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:%D8%B4%D8%A7%D8%B7%D8%A6_%D9%81%D9%85_%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D8%8C_%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece una primera lectura directa del contraste entre hamada, estuario y Atlántico sin comprometer una jornada.",
+   "see": "Playa, desembocadura, actividad pesquera y luz baja sobre el litoral; no se promete baño tranquilo por oleaje y viento.",
+   "access": "El pin identifica Foum el Oued junto a la playa. Mantenerse en accesos usados y no entrar con el vehículo en arena húmeda.",
+   "when": "Final de tarde o mañana con viento moderado; consultar marea y visibilidad.",
+   "skip": "Omitirla con temporal, arena en suspensión o si el desvío obliga a conducir el corredor nocturno."
+  },
+  "links": [
+   {
+    "label": "Visit Laayoune · Foum el Oued",
+    "url": "https://visitlaayoune.ma/laayoune/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B4%D8%A7%D8%B7%D8%A6_%D9%81%D9%85_%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D8%8C_%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:%D8%B4%D8%A7%D8%B7%D8%A6_%D9%81%D9%85_%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D8%8C_%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece una primera lectura directa del contraste entre hamada, estuario y Atlántico sin comprometer una jornada.",
-      "see": "Playa, desembocadura, actividad pesquera y luz baja sobre el litoral; no se promete baño tranquilo por oleaje y viento.",
-      "access": "El pin identifica Foum el Oued junto a la playa. Mantenerse en accesos usados y no entrar con el vehículo en arena húmeda.",
-      "when": "Final de tarde o mañana con viento moderado; consultar marea y visibilidad.",
-      "skip": "Omitirla con temporal, arena en suspensión o si el desvío obliga a conducir el corredor nocturno."
-    },
-    "links": [
-      {
-        "label": "Visit Laayoune · Foum el Oued",
-        "url": "https://visitlaayoune.ma/laayoune/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B4%D8%A7%D8%B7%D8%A6_%D9%81%D9%85_%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D8%8C_%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:%D8%B4%D8%A7%D8%B7%D8%A6_%D9%81%D9%85_%D8%A7%D9%84%D9%88%D8%A7%D8%AF%D8%8C_%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86.jpg",
-        "credit": "Wikimedia Commons · licencia en la fuente",
-        "caption": "Playa de Foum el Oued, junto a El Aaiún."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWltvQ6u6k9rw0-zCTQpJCArC4XvS4hmtl3a-HPl9sfbF1YZPw8LdPvZGiFkubARHtKUDLorko4L7dMkaI7PnDsyayJKKtv_bmSJ9ARY3A13MY8Mye26_TgAYcpjI7yS2k8g5mGqRg=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Foum%20el%20Oued%20Beach%20Laayoune",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Orilla y oleaje en la ficha de Foum el Oued de Google Maps."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%81%D9%86%D8%AF%D9%82_%D8%A7%D9%84%DA%AF%D8%AC%D9%8A%D8%B1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:%D9%81%D9%86%D8%AF%D9%82_%D8%A7%D9%84%DA%AF%D8%AC%D9%8A%D8%B1.jpg",
-        "credit": "Zaineb Hachami · CC BY-SA 4.0",
-        "caption": "Entorno costero de Foum el Oued visto desde el asentamiento."
-      }
-    ]
+    "credit": "Wikimedia Commons · licencia en la fuente",
+    "caption": "Playa de Foum el Oued, junto a El Aaiún."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWltvQ6u6k9rw0-zCTQpJCArC4XvS4hmtl3a-HPl9sfbF1YZPw8LdPvZGiFkubARHtKUDLorko4L7dMkaI7PnDsyayJKKtv_bmSJ9ARY3A13MY8Mye26_TgAYcpjI7yS2k8g5mGqRg=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Foum%20el%20Oued%20Beach%20Laayoune",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Orilla y oleaje en la ficha de Foum el Oued de Google Maps."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%81%D9%86%D8%AF%D9%82_%D8%A7%D9%84%DA%AF%D8%AC%D9%8A%D8%B1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:%D9%81%D9%86%D8%AF%D9%82_%D8%A7%D9%84%DA%AF%D8%AC%D9%8A%D8%B1.jpg",
+    "credit": "Zaineb Hachami · CC BY-SA 4.0",
+    "caption": "Entorno costero de Foum el Oued visto desde el asentamiento."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Bu Craa · la cinta transportadora más larga del mundo",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1–2 h (desde la carretera)",
+  "lat": 26.3576,
+  "lon": -12.84435,
+  "desc": "La explotación de Bu Craa transporta fosfato hasta la costa mediante una cinta de casi cien kilómetros, visible desde el corredor y desde satélite. Es infraestructura industrial sensible, no una visita a la mina.",
+  "credit": "NASA/USGS · dominio público",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bou_Craa_mine.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Bou_Craa_mine.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "La escala lineal de la cinta sobre la hamada explica de forma muy visual la economía del territorio.",
+   "see": "La cinta y su franja clara sobre el desierto, observadas únicamente desde espacio público y a distancia.",
+   "access": "El pin marca un cruce visible desde carretera auditado previamente, no una entrada. No abandonar el asfalto, usar dron ni fotografiar controles, personal o instalaciones.",
+   "when": "Solo de día y si puede hacerse sin detenerse en un punto vigilado o inseguro.",
+   "skip": "Pasar sin parar si hay señalización, presencia militar, indicación local o cualquier duda sobre la legalidad de fotografiar."
   },
-  {
-    "n": 3,
-    "name": "Bu Craa · la cinta transportadora más larga del mundo",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "1–2 h (desde la carretera)",
-    "lat": 26.3576,
-    "lon": -12.84435,
-    "desc": "La explotación de Bu Craa transporta fosfato hasta la costa mediante una cinta de casi cien kilómetros, visible desde el corredor y desde satélite. Es infraestructura industrial sensible, no una visita a la mina.",
-    "credit": "NASA/USGS · dominio público",
+  "links": [
+   {
+    "label": "NASA Earth Observatory · cinta de Bu Craa",
+    "url": "https://earthobservatory.nasa.gov/images/150869/worlds-longest-conveyor-belt-system"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bou_Craa_mine.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Bou_Craa_mine.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "La escala lineal de la cinta sobre la hamada explica de forma muy visual la economía del territorio.",
-      "see": "La cinta y su franja clara sobre el desierto, observadas únicamente desde espacio público y a distancia.",
-      "access": "El pin marca un cruce visible desde carretera auditado previamente, no una entrada. No abandonar el asfalto, usar dron ni fotografiar controles, personal o instalaciones.",
-      "when": "Solo de día y si puede hacerse sin detenerse en un punto vigilado o inseguro.",
-      "skip": "Pasar sin parar si hay señalización, presencia militar, indicación local o cualquier duda sobre la legalidad de fotografiar."
-    },
-    "links": [
-      {
-        "label": "NASA Earth Observatory · cinta de Bu Craa",
-        "url": "https://earthobservatory.nasa.gov/images/150869/worlds-longest-conveyor-belt-system"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bou_Craa_mine.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Bou_Craa_mine.jpg",
-        "credit": "NASA/USGS · dominio público",
-        "caption": "Vista satelital de la mina de Bu Craa y su entorno."
-      },
-      {
-        "img": "https://worldkings.org/Userfiles/Upload/images/bou2.jpg",
-        "source": "https://worldkings.org/news/africa-records-institute/worldkings-worldkings-news-africa-records-institute-afri-bou-craa-conveyor-belt-system-the-world-s-longest-conveyor-belt-system",
-        "credit": "Worldkings · derechos y autor en la fuente",
-        "caption": "Tramo de la cinta transportadora atravesando la hamada."
-      },
-      {
-        "img": "https://www.moroccoworldnews.com/wp-content/uploads/2017/05/World%E2%80%99s-Longest-Conveyor-Belt-in-South-Morocco.png",
-        "source": "https://www.moroccoworldnews.com/2017/05/98768/worlds-longest-conveyor-belt-is-in-south-morocco-phosphate/",
-        "credit": "Morocco World News · derechos en la fuente",
-        "caption": "Perspectiva de la instalación lineal sobre el desierto."
-      }
-    ]
+    "credit": "NASA/USGS · dominio público",
+    "caption": "Vista satelital de la mina de Bu Craa y su entorno."
+   },
+   {
+    "img": "https://worldkings.org/Userfiles/Upload/images/bou2.jpg",
+    "source": "https://worldkings.org/news/africa-records-institute/worldkings-worldkings-news-africa-records-institute-afri-bou-craa-conveyor-belt-system-the-world-s-longest-conveyor-belt-system",
+    "credit": "Worldkings · derechos y autor en la fuente",
+    "caption": "Tramo de la cinta transportadora atravesando la hamada."
+   },
+   {
+    "img": "https://www.moroccoworldnews.com/wp-content/uploads/2017/05/World%E2%80%99s-Longest-Conveyor-Belt-in-South-Morocco.png",
+    "source": "https://www.moroccoworldnews.com/2017/05/98768/worlds-longest-conveyor-belt-is-in-south-morocco-phosphate/",
+    "credit": "Morocco World News · derechos en la fuente",
+    "caption": "Perspectiva de la instalación lineal sobre el desierto."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Lemsid · la etapa intermedia",
+  "cat": "Ciudad · servicios",
+  "prio": "Baja",
+  "dog": "permitido",
+  "time": "parada técnica",
+  "lat": 26.5412534,
+  "lon": -13.8404655,
+  "desc": "Un puñado de edificios, una estación de servicio y un café a unos 100 km al sur de El Aaiún, en mitad de la nada. No hay nada que ver y es exactamente por eso por lo que está en esta ficha: en el corredor Laayoune-Dakhla los puntos de referencia son las gasolineras, y Lemsid es la primera después de Laayoune Plage y antes de Bojador. Repostar aquí aunque el depósito vaya por la mitad es la norma del tramo. Alrededor empieza el paisaje de HAMADA — llanura pedregosa sin una sola duna — que domina el interior del territorio y que explica por qué esto no es el Sáhara de postal sino algo mucho más austero. Imagen de referencia del territorio, no de la propia Lemsid.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Road_to_Laayoune_Port.jpg?width=1600",
+    "credit": "YoTuT · CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Road_to_Laayoune_Port.jpg",
+    "caption": "La N1 hacia El Aaiún, el eje que pasa por Lemsid. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Lemseid — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Lemseid"
+   },
+   {
+    "label": "Laayoune — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Laayoune"
+   }
+  ],
+  "visit": {
+   "why": "Porque en un tramo de 350 km entre El Aaiún y Bojador con nada a los lados, un punto fijo donde parar, repostar y beber algo caliente vale más que cualquier monumento. Sirve para partir la etapa, cambiar de conductor y comprobar presiones antes del tirón largo.",
+   "see": "Literalmente: una gasolinera, un café-restaurante de carretera con tajine y té, un puñado de casas bajas y camiones aparcados. El municipio apenas pasa del millar de habitantes repartidos en 32 km². El interés es el paisaje alrededor: hammada plana, viento del norte y la línea de la N1 perdiéndose.",
+   "access": "Sobre la N1 asfaltada, unos 100 km al sur de El Aaiún; el pin corresponde al área de servicio junto a la carretera, no a un edificio concreto. No hace falta 4x4 para nada aquí. El surtidor no siempre tiene gasóleo de la calidad mejor, así que conviene llegar con depósito suficiente para no depender de él. Espacio de sobra para bajar al perro con correa entre los camiones.",
+   "when": "Veinte o treinta minutos, los que dure un té. A media mañana si se salió temprano de El Aaiún, o al mediodía para esquivar las horas de calor fuerte.",
+   "skip": "Si se sale de El Aaiún con los depósitos llenos y la idea es dormir en Bojador, no hay ninguna razón para detenerse más allá de estirar las piernas. Tampoco es sitio para pernoctar habiendo Bojador a poco más de dos horas."
   },
-  {
-    "n": 5,
-    "name": "Cabo Bojador · faro",
-    "cat": "Costa",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "½ día",
-    "lat": 26.127083,
-    "lon": -14.499378,
-    "desc": "El faro de cabo Bojador señala el promontorio que durante siglos condicionó la navegación europea por esta costa. La parada combina esa historia marítima con una localidad pesquera del corredor.",
+  "_restaurado": true
+ },
+ {
+  "n": 5,
+  "name": "Bojador (Boujdour) · el cabo que nadie se atrevía a doblar",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "½ día",
+  "lat": 26.1252493,
+  "lon": -14.4847347,
+  "desc": "Durante siglos, el CABO BOJADOR fue el fin del mundo conocido para la navegación europea: las corrientes, la niebla y la leyenda del «mar tenebroso» del que no se volvía hicieron que ningún barco lo doblara hasta que Gil Eanes, enviado por el infante Enrique el Navegante, lo consiguió en 1434 — y con ello se abrió la ruta atlántica hacia el sur y, en última instancia, todo lo que vino después. Hoy es un pueblo de pescadores crecido alrededor de su faro, con un puerto artesanal muy activo (más de 1.700 barcas tradicionales censadas) y lonja. Merece la parada por lo que significa más que por lo que se ve: es el punto histórico de todo nuestro corredor atlántico. Es también la ÚLTIMA localidad con oferta amplia antes de los 290 km más vacíos del tramo. Imagen de referencia de la costa del territorio, no del propio cabo.",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faro_en_Cabo_Bojador.jpg?width=1600",
     "credit": "Rui Ornelas · CC BY 2.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faro_en_Cabo_Bojador.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Faro_en_Cabo_Bojador.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una referencia histórica tangible y una pausa razonable entre El Aaiún y Dajla.",
-      "see": "Faro, acantilado bajo y actividad portuaria desde zonas públicas; el interés está en el lugar real, no en una vista urbana genérica.",
-      "access": "El pin se ha movido al faro geolocalizado, no al centro de Boujdour. No entrar en recintos cerrados ni fotografiar instalaciones sensibles.",
-      "when": "De día, enlazándolo con combustible y provisiones; reservar menos de dos horas.",
-      "skip": "Usarlo solo como parada logística si el acceso al faro está restringido o hay viento y polvo intensos."
-    },
-    "links": [
-      {
-        "label": "Historia del faro de Boujdour",
-        "url": "https://en.wikipedia.org/wiki/Boujdour_Lighthouse"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faro_en_Cabo_Bojador.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Faro_en_Cabo_Bojador.jpg",
-        "credit": "Rui Ornelas · CC BY 2.0",
-        "caption": "El faro de cabo Bojador en su emplazamiento real."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm4V9AKiYNuiflm0pj-uDBhVAgMV3jnarvTgFh70Hyf1tP4FWN3ZCuP19WfMUoI1TeM5iYvP30iFXoQy8W7Rs0GHxM98q8eDmMK3y_HqvbTx7xbKWeNzUs14s7Zmkwij_W6VJBzvmFM1p1k=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Faro%20de%20Bojador%20Boujdour%20Morocco",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Faro y costa en la ficha exacta de Google Maps."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl7KRumYl9dz2kULrzjNU90E0XqeJf-d0gNzfMZmN_N8JQOs9GERx3ZDg99oH4BM6_FhHTquakIkAa6T4H_Wd0fkkG5tKH2oOVVQ7G8mQqMAxYS3c1Ad993b1bbfbKemgfLVeH1=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Faro%20de%20Bojador%20Boujdour%20Morocco",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Otra vista comprobada del faro de cabo Bojador."
-      }
-    ]
+    "caption": "El faro del cabo Bojador."
+   }
+  ],
+  "links": [
+   {
+    "label": "Cape Bojador — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Cape_Bojador"
+   },
+   {
+    "label": "Boujdour — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Boujdour"
+   }
+  ],
+  "visit": {
+   "why": "Es el punto con más carga histórica de toda la costa: el cabo que durante siglos marcó el límite de lo navegable para Europa, hasta que Gil Eanes lo dobló en 1434 tras fracasar el año anterior. Estar en la punta y ver por qué daba miedo —bajíos, rompientes constantes, viento del nordeste— explica media historia de los descubrimientos mejor que cualquier libro.",
+   "see": "El faro sobre el cabo, alrededor del cual creció el pueblo, y un mar que rompe en blanco permanentemente sobre fondos de apenas un par de metros; los propios derroteros británicos seguían advirtiendo en 2004 de que las cartas náuticas de la zona son inexactas. El pueblo, de unos 42.600 habitantes, es de pesca: puerto con su dique, barcas azules, lonja, hospital regional y hoteles sencillos. Buen sitio para comer pescado.",
+   "access": "Desvío corto y asfaltado desde la N1; el casco y el puerto son accesibles con cualquier coche. La zona del faro es instalación en activo y no siempre se puede acceder al pie: hay que contar con verlo desde fuera y con presencia militar y de gendarmería en el entorno portuario, donde es mejor no sacar la cámara sin preguntar. Fuera del asfalto, la norma general del territorio: no salirse de pistas marcadas y no tocar objetos metálicos o de plástico abandonados. El perro, sin problema por el pueblo y el paseo marítimo, con correa.",
+   "when": "Dos o tres horas dan para el cabo, el puerto y comer; con noche incluida, mejor a última hora de la tarde, que es cuando el viento afloja algo y la luz sobre las rompientes compensa. Todo el año es viable; en verano el calor es más llevadero aquí que tierra adentro por la corriente de Canarias.",
+   "skip": "Si se viaja con prisa y el interés es el desierto y no la historia naval, el desvío añade tiempo para ver un pueblo pesquero corriente. Y si sopla el nordeste fuerte con arena en suspensión, el cabo se ve mal y no merece el rodeo."
   },
-  {
-    "n": 6,
-    "name": "La Duna Blanca (White Dune) y el brazo de la laguna",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "½ día",
-    "lat": 23.80284,
-    "lon": -15.73619,
-    "desc": "La Duna Blanca cae sobre un brazo somero de la laguna de Dajla y cambia mucho con la marea. El acceso final puede incluir arena o agua y no debe improvisarse con el vehículo cargado.",
-    "credit": "Houssain Tork · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 6,
+  "name": "La Duna Blanca (White Dune) y el brazo de la laguna",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "½ día",
+  "lat": 23.80284,
+  "lon": -15.73619,
+  "desc": "La Duna Blanca cae sobre un brazo somero de la laguna de Dajla y cambia mucho con la marea. El acceso final puede incluir arena o agua y no debe improvisarse con el vehículo cargado.",
+  "credit": "Houssain Tork · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9sert_de_Dakhla_(dunes_blanches).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:D%C3%A9sert_de_Dakhla_(dunes_blanches).jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el paisaje más reconocible del entorno de Dajla y permite entender la relación entre duna, laguna y marea.",
+   "see": "La duna clara, el banco de arena y la laguna; las fotografías de marea alta y baja muestran experiencias distintas.",
+   "access": "El pin conserva el acceso continental auditado, no la cima. Confirmar pista y marea con un operador local y detener el vehículo antes de terreno dudoso.",
+   "when": "Marea favorable, luz lateral y viento moderado; salir con margen para regresar de día.",
+   "skip": "Descartarla si no hay trazado confirmado, la marea corta el acceso o el viento reduce la visibilidad."
+  },
+  "links": [
+   {
+    "label": "Visit Dakhla · Duna Blanca",
+    "url": "https://visitdakhla.ma/es/la-dune-blanche-es/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9sert_de_Dakhla_(dunes_blanches).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:D%C3%A9sert_de_Dakhla_(dunes_blanches).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el paisaje más reconocible del entorno de Dajla y permite entender la relación entre duna, laguna y marea.",
-      "see": "La duna clara, el banco de arena y la laguna; las fotografías de marea alta y baja muestran experiencias distintas.",
-      "access": "El pin conserva el acceso continental auditado, no la cima. Confirmar pista y marea con un operador local y detener el vehículo antes de terreno dudoso.",
-      "when": "Marea favorable, luz lateral y viento moderado; salir con margen para regresar de día.",
-      "skip": "Descartarla si no hay trazado confirmado, la marea corta el acceso o el viento reduce la visibilidad."
-    },
-    "links": [
-      {
-        "label": "Visit Dakhla · Duna Blanca",
-        "url": "https://visitdakhla.ma/es/la-dune-blanche-es/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9sert_de_Dakhla_(dunes_blanches).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:D%C3%A9sert_de_Dakhla_(dunes_blanches).jpg",
-        "credit": "Houssain Tork · CC BY-SA 4.0",
-        "caption": "La Duna Blanca junto a la laguna de Dajla."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWml1XGbRq6xpGSkANz75WEELhPfgdabMa9d_BofjiEffFVv3ajk6KH6M1mbyZpvxXB95oF8FWzCLykryy-YLvsLvd5mHCClIoF6QU2AEWYPYbYjnrSPzK-zp54dcKiqBzgMuUN_ow=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=White%20Dune%20Dakhla",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Perfil de la duna en la ficha de White Dune de Google Maps."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSNzT5P5Qw9ZhMXZqTU-_ucNmX1BSOK7V4aa_Hb-ajXqGIJevBaDL-bkZ4ShXDeuzNmgGqnLiHg2gSo92SqebTeqd_CthBmLvimke0rCJLQ2qX4nZjz4DIwNpCEPYq_l0FBKeg7Q=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=White%20Dune%20Dakhla",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Agua somera y arena en otra vista del mismo lugar."
-      }
-    ]
-  },
-  {
-    "n": 7,
-    "name": "Laguna de Dajla (Dakhla Bay) · Ramsar y flamencos",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 días",
-    "lat": 23.69,
-    "lon": -15.95,
-    "desc": "La bahía de Dajla es una laguna atlántica somera protegida como sitio Ramsar, con aves migratorias, cultivos de ostras y deportes de viento. La fauna y el color del agua varían con estación y marea.",
+    "credit": "Houssain Tork · CC BY-SA 4.0",
+    "caption": "La Duna Blanca junto a la laguna de Dajla."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWml1XGbRq6xpGSkANz75WEELhPfgdabMa9d_BofjiEffFVv3ajk6KH6M1mbyZpvxXB95oF8FWzCLykryy-YLvsLvd5mHCClIoF6QU2AEWYPYbYjnrSPzK-zp54dcKiqBzgMuUN_ow=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=White%20Dune%20Dakhla",
     "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Perfil de la duna en la ficha de White Dune de Google Maps."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSNzT5P5Qw9ZhMXZqTU-_ucNmX1BSOK7V4aa_Hb-ajXqGIJevBaDL-bkZ4ShXDeuzNmgGqnLiHg2gSo92SqebTeqd_CthBmLvimke0rCJLQ2qX4nZjz4DIwNpCEPYq_l0FBKeg7Q=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=White%20Dune%20Dakhla",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Agua somera y arena en otra vista del mismo lugar."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "name": "Laguna de Dajla (Dakhla Bay) · Ramsar y flamencos",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 días",
+  "lat": 23.69,
+  "lon": -15.95,
+  "desc": "La bahía de Dajla es una laguna atlántica somera protegida como sitio Ramsar, con aves migratorias, cultivos de ostras y deportes de viento. La fauna y el color del agua varían con estación y marea.",
+  "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+  "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnSLgqgmLM2ooedQEsAhA3AmfW72VYc9svx1M1lUXHGdXxH7OcleXwMgj45EcbtbN4_Xt_ALTt6_noqs27OsP6F5kjsOt-599eTwMlIntA1taVBeW2nAwTcuv07R2sxkfZAUCH0=w1200-h675-k-no",
+  "source": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Bay%20lagoon",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Reúne el paisaje natural que define Dajla y permite combinar observación de aves con una parada activa.",
+   "see": "Orillas de laguna, limícolas, flamencos cuando están presentes, bateas y velas; no se garantiza ninguna especie concreta.",
+   "access": "El pin es un punto de observación accesible de la península, no el centro geométrico del humedal. Mantener distancia de aves y usar accesos consolidados.",
+   "when": "Mañana con marea útil para aves o tarde con viento para deportes; dedicar al menos medio día.",
+   "skip": "Evitar sectores sensibles, viento extremo o actividades sin operador; no entrar con el coche en saladar o barro."
+  },
+  "links": [
+   {
+    "label": "Ramsar · Baie de Dakhla",
+    "url": "https://rsis.ramsar.org/ris/1470"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnSLgqgmLM2ooedQEsAhA3AmfW72VYc9svx1M1lUXHGdXxH7OcleXwMgj45EcbtbN4_Xt_ALTt6_noqs27OsP6F5kjsOt-599eTwMlIntA1taVBeW2nAwTcuv07R2sxkfZAUCH0=w1200-h675-k-no",
     "source": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Bay%20lagoon",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Reúne el paisaje natural que define Dajla y permite combinar observación de aves con una parada activa.",
-      "see": "Orillas de laguna, limícolas, flamencos cuando están presentes, bateas y velas; no se garantiza ninguna especie concreta.",
-      "access": "El pin es un punto de observación accesible de la península, no el centro geométrico del humedal. Mantener distancia de aves y usar accesos consolidados.",
-      "when": "Mañana con marea útil para aves o tarde con viento para deportes; dedicar al menos medio día.",
-      "skip": "Evitar sectores sensibles, viento extremo o actividades sin operador; no entrar con el coche en saladar o barro."
-    },
-    "links": [
-      {
-        "label": "Ramsar · Baie de Dakhla",
-        "url": "https://rsis.ramsar.org/ris/1470"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnSLgqgmLM2ooedQEsAhA3AmfW72VYc9svx1M1lUXHGdXxH7OcleXwMgj45EcbtbN4_Xt_ALTt6_noqs27OsP6F5kjsOt-599eTwMlIntA1taVBeW2nAwTcuv07R2sxkfZAUCH0=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Bay%20lagoon",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Vista abierta de la bahía de Dajla desde la península."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwPoh2G9X7FLXqi3lwvqUFZDp457nulF2qws0vjzI2FR7Uo-agana9oXxD_GO2OaHq4DfPuTOO2Y_260nzofVsmAdOLANAA-L1q9E0L8r3CKr6zALAiQXm8Q6sbuc7HhtUu_0=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Bay%20lagoon",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Agua somera y orilla de la laguna en Google Maps."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2cJnpkN42KOVg-hhd40IkpNPDqPYrWWniln5vlBWAwhqkMHNlHSM6vIgg5WCC5IoMmCRTEhYcONMuxRkvTgmRLwXmLwYNx8oQ-MzSmBGz6Sqho3mIffMVnzgYk7GZzM1IDv4Z=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Bay%20lagoon",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Otra perspectiva del mismo sistema de bahía y desierto."
-      }
-    ]
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Vista abierta de la bahía de Dajla desde la península."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwPoh2G9X7FLXqi3lwvqUFZDp457nulF2qws0vjzI2FR7Uo-agana9oXxD_GO2OaHq4DfPuTOO2Y_260nzofVsmAdOLANAA-L1q9E0L8r3CKr6zALAiQXm8Q6sbuc7HhtUu_0=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Bay%20lagoon",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Agua somera y orilla de la laguna en Google Maps."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2cJnpkN42KOVg-hhd40IkpNPDqPYrWWniln5vlBWAwhqkMHNlHSM6vIgg5WCC5IoMmCRTEhYcONMuxRkvTgmRLwXmLwYNx8oQ-MzSmBGz6Sqho3mIffMVnzgYk7GZzM1IDv4Z=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Bay%20lagoon",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Otra perspectiva del mismo sistema de bahía y desierto."
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "name": "Dajla (Dakhla) · la antigua Villa Cisneros",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "2–3 noches",
+  "lat": 23.7167,
+  "lon": -15.95,
+  "desc": "Dajla ocupa una península entre océano y laguna y funciona como gran base de descanso, talleres y provisiones antes de Mauritania. Conserva algunas huellas de la antigua Villa Cisneros, pero es una ciudad actual.",
+  "credit": "YoTuT · CC BY 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla,_Western_Sahara_(4).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Dakhla,_Western_Sahara_(4).jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la parada logística más completa del territorio y una base útil para explorar la laguna sin cargar cada visita en una sola jornada.",
+   "see": "Paseo urbano, mercado, costa de la bahía e iglesia histórica; White Dune, PK25 e Imlili son excursiones separadas.",
+   "access": "El pin queda en el centro útil de Dajla. Elegir alojamiento con estacionamiento y agrupar combustible, agua y mantenimiento antes de Guerguerat.",
+   "when": "Dos noches si se hacen excursiones; resolver talleres y trámites en días laborables.",
+   "skip": "Reducirla a una noche si no se practican deportes ni se visitan los alrededores."
   },
-  {
-    "n": 8,
-    "name": "Dajla (Dakhla) · la antigua Villa Cisneros",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "2–3 noches",
-    "lat": 23.7167,
-    "lon": -15.95,
-    "desc": "Dajla ocupa una península entre océano y laguna y funciona como gran base de descanso, talleres y provisiones antes de Mauritania. Conserva algunas huellas de la antigua Villa Cisneros, pero es una ciudad actual.",
-    "credit": "YoTuT · CC BY 2.0",
+  "links": [
+   {
+    "label": "Información de Dajla",
+    "url": "https://en.wikipedia.org/wiki/Dakhla,_Western_Sahara"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla,_Western_Sahara_(4).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Dakhla,_Western_Sahara_(4).jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la parada logística más completa del territorio y una base útil para explorar la laguna sin cargar cada visita en una sola jornada.",
-      "see": "Paseo urbano, mercado, costa de la bahía e iglesia histórica; White Dune, PK25 e Imlili son excursiones separadas.",
-      "access": "El pin queda en el centro útil de Dajla. Elegir alojamiento con estacionamiento y agrupar combustible, agua y mantenimiento antes de Guerguerat.",
-      "when": "Dos noches si se hacen excursiones; resolver talleres y trámites en días laborables.",
-      "skip": "Reducirla a una noche si no se practican deportes ni se visitan los alrededores."
-    },
-    "links": [
-      {
-        "label": "Información de Dajla",
-        "url": "https://en.wikipedia.org/wiki/Dakhla,_Western_Sahara"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla,_Western_Sahara_(4).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Dakhla,_Western_Sahara_(4).jpg",
-        "credit": "YoTuT · CC BY 2.0",
-        "caption": "Vista urbana geolocalizada de Dajla junto a la laguna."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_Across_Dakhla.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:View_Across_Dakhla.jpg",
-        "credit": "David Stanley · CC BY 2.0",
-        "caption": "Tejido urbano de Dajla visto hacia el sur."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Air_port.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Air_port.jpg",
-        "credit": "Vispec · dominio público",
-        "caption": "Vista histórica del núcleo urbano de Dajla."
-      }
-    ]
+    "credit": "YoTuT · CC BY 2.0",
+    "caption": "Vista urbana geolocalizada de Dajla junto a la laguna."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_Across_Dakhla.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:View_Across_Dakhla.jpg",
+    "credit": "David Stanley · CC BY 2.0",
+    "caption": "Tejido urbano de Dajla visto hacia el sur."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Air_port.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Air_port.jpg",
+    "credit": "Vispec · dominio público",
+    "caption": "Vista histórica del núcleo urbano de Dajla."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Kitesurf, surf y los spots del Atlántico de Dajla",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1–3 días",
+  "lat": 23.7221111,
+  "lon": -15.9347384,
+  "desc": "El punto fuerte deportivo de todo el corredor atlántico. En la LAGUNA, agua plana y viento térmico del norte prácticamente garantizado de marzo a octubre (y muy frecuente el resto del año): es un sitio de aprendizaje excepcional, con escuelas en cadena a lo largo de la orilla y campamentos que alquilan material por días. En el lado del OCÉANO, al oeste de la península, hay olas de verdad: el spot de Foum Labouir, junto al faro, es el más conocido, con una derecha larga que funciona con el swell del noroeste, y hacia el norte aparecen varios picos de acceso por pista. No hace falta traer material: se alquila todo. Es, con diferencia, el mejor sitio de la ruta para meter dos o tres días de parada activa, y encaja mejor en la SUBIDA, cuando ya no hay prisa. Imagen de referencia de la zona de Dajla, no de un spot concreto.",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitesurf-Dakhla-Morocco_%281%29.JPG?width=1600",
+    "credit": "Nomadz · CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kitesurf-Dakhla-Morocco_%281%29.JPG",
+    "caption": "Kitesurf en la laguna de Dajla."
+   }
+  ],
+  "links": [
+   {
+    "label": "Dakhla, Western Sahara — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Dakhla,_Western_Sahara"
+   },
+   {
+    "label": "ION CLUB Dakhla Lassarga — spots, viento y temporada",
+    "url": "https://www.ion-club.net/dakhla-lassarga/"
+   }
+  ],
+  "visit": {
+   "why": "Es la parada deportiva y de descanso del corredor: 40 km de laguna de agua plana y poco profunda con viento del norte-nordeste casi diario —los centros hablan de más de 300 días de viento al año— y, al otro lado de la lengua de arena, un océano con izquierdas y derechas largas. Después de semanas de pista y control policial, tres días aquí reconstruyen a cualquiera.",
+   "see": "La laguna con las velas de kite y wing, la Duna Blanca cayendo directamente sobre el agua, la Isla del Dragón con su arcilla, los campamentos de tablas alineados en la orilla de Lassarga y, en el lado oceánico, una playa larga con una ola que puede correrse casi un kilómetro en los días buenos.",
+   "access": "Todo el corredor es asfalto: se sale de la N1 por la carretera de la península y los campamentos están a 15-25 minutos en coche del pueblo de Dajla y del aeropuerto. El pin marca una zona de la laguna, no un spot concreto: hay varios repartidos a lo largo de la orilla y conviene elegir campamento antes de bajar. Para llegar a la Duna Blanca o a los spots menos accesibles sí hace falta 4x4 por pista de arena o ir en downwind; la Isla del Dragón se alcanza en barca. Los campamentos son privados y casi todos aceptan perro en la parcela exterior si va atado, pero conviene confirmarlo al reservar y tener en cuenta que la laguna tiene mareas fuertes y mucha erizo y concha en el fondo.",
+   "when": "Mínimo dos o tres días para que el viento entre; lo suyo es una semana. Agua plana y viento térmico bastante fiable de abril a octubre; de noviembre a marzo hay más olas en el lado océano y algo menos de garantía de viento. El viento entra a media mañana y aprieta por la tarde.",
+   "skip": "Si nadie del grupo navega, la laguna se agota en una foto: no es un mirador, es un campo de juego. Tampoco tiene sentido planificarla en pleno invierno esperando agua plana con viento asegurado. Y con perro, un día entero en el campamento con 30 nudos y arena volando no es agradable para el animal."
   },
-  {
-    "n": 9,
-    "name": "PK25 · kitesurf en la laguna de Dajla",
-    "cat": "Costa",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1–3 días",
-    "lat": 23.900119,
-    "lon": -15.786858,
-    "desc": "PK25 concentra campamentos y escuelas en una orilla ventosa y de agua plana de la laguna de Dajla. Es una base concreta para kitesurf; las olas oceánicas están en otros spots.",
-    "credit": "Tbo47 · CC0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plage_PK25_Dakhla.jpg?width=1200",
-    "source": "https://commons.wikimedia.org/wiki/File:Plage_PK25_Dakhla.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite decidir una parada deportiva con servicios y acceso reconocible, sin confundir toda la bahía con un único punto.",
-      "see": "Kitesurf en agua plana, escuelas, campamentos y la perspectiva longitudinal de la laguna.",
-      "access": "El pin se ha ajustado a la playa PK25 geolocalizada. Reservar la escuela o el campamento y no circular fuera de los accesos indicados.",
-      "when": "Varios días si se quiere aprender; confirmar viento, nivel, rescate y material antes de pagar.",
-      "skip": "Omitirlo si no se hará actividad o si el viento, la seguridad acuática o el alojamiento no están confirmados."
-    },
-    "links": [
-      {
-        "label": "Google Maps · playa PK25",
-        "url": "https://www.google.com/maps/search/?api=1&query=Plage+PK25+Dakhla"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plage_PK25_Dakhla.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Plage_PK25_Dakhla.jpg",
-        "credit": "Tbo47 · CC0",
-        "caption": "Playa PK25 y orilla de la laguna de Dajla."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:FortecolorWestsaharaIII-36.jpg",
-        "credit": "Trincerone · CC BY-SA 4.0",
-        "caption": "Kitesurf en la laguna de Dajla."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitesurf-Dakhla-Morocco_(5).JPG?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Kitesurf-Dakhla-Morocco_(5).JPG",
-        "credit": "Nomadz · CC BY-SA 3.0",
-        "caption": "Cometa y navegante en el sector de kitesurf de Dajla."
-      }
-    ]
-  },
-  {
-    "n": 11,
-    "name": "Guerguerat · el paso y la tierra de nadie",
-    "cat": "Frontera",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "4–6 h",
-    "lat": 21.4268293,
-    "lon": -16.9598412,
-    "desc": "Guerguerat es el paso terrestre del corredor atlántico entre el territorio y Mauritania. La visita no es turística: exige tiempo, papeles ordenados y obedecer las indicaciones de ambos controles.",
+  "_restaurado": true
+ },
+ {
+  "n": 10,
+  "name": "Bir Gandouz · la última parada antes de la frontera",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "parada técnica / 1 noche",
+  "lat": 22.0547374,
+  "lon": -16.7500025,
+  "desc": "Pueblo de carretera a unos 80 km de Guerguerat y último punto con estación de servicio fiable, café, algún alojamiento muy básico y cobertura razonable antes del paso a Mauritania. Mucha gente pernocta aquí para cruzar la frontera a primera hora de la mañana, que es exactamente lo que conviene hacer: el lado mauritano cierra por la tarde y los trámites pueden alargarse horas. El tramo Dajla–Bir Gandouz (~250 km) es el más largo sin repostaje garantizado de todo el bloque Marruecos/Sáhara: salir de Dajla con el depósito lleno y, si se puede, un bidón de reserva. Imagen de referencia del sur del territorio, no del propio Bir Gandouz.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat_border_crossing.jpg?width=1600",
     "credit": "5lab · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guerguerat_border_crossing.jpg",
+    "caption": "El paso de Guerguerat, al sur de Bir Gandouz. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Bir Gandouz — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Bir_Gandouz"
+   },
+   {
+    "label": "Guerguerat — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Guerguerat"
+   },
+   {
+    "label": "FCDO — Western Sahara, regional risks",
+    "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/regional-risks"
+   }
+  ],
+  "visit": {
+   "why": "Es el último sitio civilizado antes de Guerguerat: el punto donde se llena depósito y bidones, se cambian los últimos dirhams, se come caliente y se duerme si no da tiempo a cruzar en el día. Cruzar la frontera con los depósitos justos o de noche es el error clásico de este tramo.",
+   "see": "Un pueblo de carretera de unos 4.600 habitantes que es cabecera de la provincia de Aousserd: estación de servicio, cafés, talleres improvisados, un puesto militar marroquí y camiones esperando turno para el paso. Nada más, y no hace falta más.",
+   "access": "Sobre la N1 asfaltada; el paso a Mauritania queda al oeste, en Guerguerat, a unos 80 km. El sello de salida lleva históricamente el nombre de Bir Gandouz aunque el control físico esté en Guerguerat. Atención: el puesto fronterizo no trabaja 24 h de forma fiable y el tramo de tierra de nadie entre aduanas es pista suelta; conviene llegar a la frontera por la mañana. Fuera del asfalto rige la advertencia general del territorio —zonas minadas a ambos lados del Muro y objetos sin explotar—, así que aquí no se acampa campo a través.",
+   "when": "De una a tres horas: repostar, comer y ordenar la documentación de los dos coches y del perro (certificado veterinario y vacuna de la rabia en regla, que en el lado mauritano lo pueden pedir). Si se llega después de media tarde, mejor dormir aquí y cruzar al amanecer.",
+   "skip": "No merece parada turística de ningún tipo: si se llega con depósitos llenos, papeles listos y quedan horas de luz, lo lógico es seguir directamente a la frontera."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 11,
+  "name": "Guerguerat · el paso y la tierra de nadie",
+  "cat": "Frontera",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "4–6 h",
+  "lat": 21.4268293,
+  "lon": -16.9598412,
+  "desc": "Guerguerat es el paso terrestre del corredor atlántico entre el territorio y Mauritania. La visita no es turística: exige tiempo, papeles ordenados y obedecer las indicaciones de ambos controles.",
+  "credit": "5lab · CC BY-SA 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat_border_crossing.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Guerguerat_border_crossing.jpg",
+  "icon": "frontera",
+  "color": "gris",
+  "dog_note": "",
+  "visit": {
+   "why": "Su valor para el viaje es exclusivamente operativo y evita que una frontera compleja quede escondida como un punto genérico.",
+   "see": "Puestos fronterizos y tramo intermedio únicamente desde el vehículo; no convertir restos, controles o personal en motivos fotográficos.",
+   "access": "El pin coincide con la ficha de Google Maps del cruce. Llegar temprano, no usar dron, no salir de la traza y rechazar intermediarios no solicitados.",
+   "when": "Primera hora y con jornada completa disponible; horarios y procedimiento deben reconfirmarse inmediatamente antes del cruce.",
+   "skip": "No iniciar el paso con cierre próximo, documentación incompleta, tensión local o indicación oficial adversa."
+  },
+  "links": [
+   {
+    "label": "Información de Guerguerat",
+    "url": "https://en.wikipedia.org/wiki/Guerguerat"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat_border_crossing.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Guerguerat_border_crossing.jpg",
-    "icon": "frontera",
-    "color": "gris",
-    "dog_note": "",
-    "visit": {
-      "why": "Su valor para el viaje es exclusivamente operativo y evita que una frontera compleja quede escondida como un punto genérico.",
-      "see": "Puestos fronterizos y tramo intermedio únicamente desde el vehículo; no convertir restos, controles o personal en motivos fotográficos.",
-      "access": "El pin coincide con la ficha de Google Maps del cruce. Llegar temprano, no usar dron, no salir de la traza y rechazar intermediarios no solicitados.",
-      "when": "Primera hora y con jornada completa disponible; horarios y procedimiento deben reconfirmarse inmediatamente antes del cruce.",
-      "skip": "No iniciar el paso con cierre próximo, documentación incompleta, tensión local o indicación oficial adversa."
-    },
-    "links": [
-      {
-        "label": "Información de Guerguerat",
-        "url": "https://en.wikipedia.org/wiki/Guerguerat"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Guerguerat_border_crossing.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Guerguerat_border_crossing.jpg",
-        "credit": "5lab · CC BY-SA 2.0",
-        "caption": "Zona del paso fronterizo de Guerguerat."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Marrok-Mauret-Grenze_20221025_150405.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Marrok-Mauret-Grenze_20221025_150405.jpg",
-        "credit": "Zenwort · CC BY-SA 4.0",
-        "caption": "Control del corredor Marruecos–Mauritania en 2022."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mauret-Marokk-Grenze_Blick-nach-Marok_20221029_153645.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mauret-Marokk-Grenze_Blick-nach-Marok_20221029_153645.jpg",
-        "credit": "Zenwort · CC BY-SA 4.0",
-        "caption": "Vista hacia el lado norte del mismo cruce fronterizo."
-      }
-    ]
+    "credit": "5lab · CC BY-SA 2.0",
+    "caption": "Zona del paso fronterizo de Guerguerat."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Marrok-Mauret-Grenze_20221025_150405.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Marrok-Mauret-Grenze_20221025_150405.jpg",
+    "credit": "Zenwort · CC BY-SA 4.0",
+    "caption": "Control del corredor Marruecos–Mauritania en 2022."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mauret-Marokk-Grenze_Blick-nach-Marok_20221029_153645.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mauret-Marokk-Grenze_Blick-nach-Marok_20221029_153645.jpg",
+    "credit": "Zenwort · CC BY-SA 4.0",
+    "caption": "Vista hacia el lado norte del mismo cruce fronterizo."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Bahía de Cintra (Golfo de Cintra)",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no aplicable (solo mirador desde la N1)",
+  "time": "1–2 h",
+  "lat": 22.9410812,
+  "lon": -16.191866,
+  "desc": "Una enorme bahía en forma de media luna a unos 120 km al sur de Dajla, de aguas muy someras —10 m de media en la parte central— y 29 millas náuticas de anchura, casi deshabitada salvo por asentamientos de pescadores dispersos. Es una zona de extraordinario valor natural: invernada de limícolas del Paleártico occidental y aves oceánicas, delfines mulares y jorobados, rorcuales, tortugas marinas que desovan en sus playas, y hábitat potencial de FOCA MONJE DEL MEDITERRÁNEO, aunque la colonia grande está más al sur, en Cabo Blanco. Marruecos llegó a estudiar declarar un parque nacional que abarcara Cintra y la bahía de Dajla. AVISO SERIO: la zona está descrita como muy remota, batida por tormentas de arena en primavera y AFECTADA POR MINAS en el entorno de Cabo Barbas, y no es apta para turismo. Para nosotros es un alto en la N1 y una mirada desde el asfalto: NO se baja a la bahía, NO se sale de la carretera.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ISS006-E-19176_-_View_of_Western_Sahara.jpg?width=1600",
+    "credit": "NASA Earth Science and Remote Sensing Unit · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:ISS006-E-19176_-_View_of_Western_Sahara.jpg",
+    "caption": "La costa sahariana desde la Estación Espacial Internacional. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Cintra Bay — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Cintra_Bay"
+   },
+   {
+    "label": "FCDO — Western Sahara, regional risks (minas y munición sin explotar)",
+    "url": "https://www.gov.uk/foreign-travel-advice/western-sahara/regional-risks"
+   }
+  ],
+  "visit": {
+   "why": "Es el gran vacío de la costa: una media luna de 29 millas náuticas entre Punta del Pescador y la bahía de Lagouira, con apenas 10 m de profundidad media en el centro, casi deshabitada y con una historia densa —debe el nombre a Gonçalo de Sintra, el navegante portugués que murió allí en una razia fallida en el siglo XV, y de ella tomó nombre el Tratado de Angra de Cintra que cerró la guerra de Ifni en 1958—. Fue caladero ballenero en el XIX.",
+   "see": "Desde los altos de la N1 y algún mirador improvisado sobre el acantilado, una enorme bahía de agua muy somera y color pálido, restos de campamentos de pesca y poco más. Biológicamente es un punto caliente —sardina, cetáceos, tortugas y foca monje del Mediterráneo—, pero la fauna no se ve desde la carretera: es cuestión de suerte y prismáticos.",
+   "access": "Está a unos 120 km al sur de Dajla, junto a la N1. El pin es una referencia de zona, no un acceso: no hay un mirador señalizado ni una bajada habilitada, y los caminos que bajan a la orilla son pistas de pescadores que exigen 4x4, neumáticos desinflados y criterio. La bahía es además una de las zonas donde la recomendación oficial de no salirse de las carreteras principales por riesgo de minas y munición sin explotar debe tomarse en serio; el poblado de Puntillas de las Raimas estaba prácticamente abandonado ya en 2012. Sin fuente abierta que describa un acceso turístico regulado.",
+   "when": "Una parada de una hora larga desde arriba, o media jornada si se baja con 4x4 y guía local. Mejor con luz baja de tarde y con viento flojo: con arena en suspensión no se ve la otra orilla.",
+   "skip": "Si no se va a bajar, la bahía se resuelve en una foto desde la carretera y no justifica desviar el día. Y no es sitio para improvisar un vivac campo a través con el perro suelto: arena suelta, cero asistencia y el aviso de minas hacen que el coste de un error sea desproporcionado."
   },
-  {
-    "n": 13,
-    "name": "Sebja de Imlili · los peces del desierto",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 23.27681,
-    "lon": -15.91526,
-    "desc": "La sebja de Imlili contiene pozas salobres aisladas con peces adaptados a condiciones extremas. Es un entorno frágil y remoto; no debe visitarse sin guía local y pista confirmada.",
-    "credit": "Dakhla Vibes Adventures · CC BY 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 13,
+  "name": "Sebja de Imlili · los peces del desierto",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 23.27681,
+  "lon": -15.91526,
+  "desc": "La sebja de Imlili contiene pozas salobres aisladas con peces adaptados a condiciones extremas. Es un entorno frágil y remoto; no debe visitarse sin guía local y pista confirmada.",
+  "credit": "Dakhla Vibes Adventures · CC BY 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Vibes_%E2%80%94_Adventures_(10).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Vibes_%E2%80%94_Adventures_(10).jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una rareza ecológica real y distinta de las visitas costeras, siempre que se trate como hábitat protegido y no como piscina.",
+   "see": "Depresión salina, pozas y peces observados sin tocarlos, alimentarlos ni entrar en el agua.",
+   "access": "El pin conserva el mirador auditado sobre las pozas. Contratar guía en Dajla, seguir la traza acordada y no improvisar fuera de pista.",
+   "when": "Mañana, con autonomía y regreso de día; evitar las horas de máximo calor.",
+   "skip": "Descartarla sin guía, track reciente, comunicaciones o si cualquier autoridad desaconseja el desvío."
+  },
+  "links": [
+   {
+    "label": "Visit Dakhla · Sebkha d’Imlili",
+    "url": "https://visitdakhla.ma/en/la-sebkha-dimlili/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Vibes_%E2%80%94_Adventures_(10).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Vibes_%E2%80%94_Adventures_(10).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una rareza ecológica real y distinta de las visitas costeras, siempre que se trate como hábitat protegido y no como piscina.",
-      "see": "Depresión salina, pozas y peces observados sin tocarlos, alimentarlos ni entrar en el agua.",
-      "access": "El pin conserva el mirador auditado sobre las pozas. Contratar guía en Dajla, seguir la traza acordada y no improvisar fuera de pista.",
-      "when": "Mañana, con autonomía y regreso de día; evitar las horas de máximo calor.",
-      "skip": "Descartarla sin guía, track reciente, comunicaciones o si cualquier autoridad desaconseja el desvío."
-    },
-    "links": [
-      {
-        "label": "Visit Dakhla · Sebkha d’Imlili",
-        "url": "https://visitdakhla.ma/en/la-sebkha-dimlili/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Vibes_%E2%80%94_Adventures_(10).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Vibes_%E2%80%94_Adventures_(10).jpg",
-        "credit": "Dakhla Vibes Adventures · CC BY 4.0",
-        "caption": "Pozas someras de la sebja de Imlili."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Vibes_%E2%80%94_Adventures_(11).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Vibes_%E2%80%94_Adventures_(11).jpg",
-        "credit": "Dakhla Vibes Adventures · CC BY 4.0",
-        "caption": "Vista aérea de la depresión y sus pozas."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Vibes_%E2%80%94_Adventures_(24).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Vibes_%E2%80%94_Adventures_(24).jpg",
-        "credit": "Dakhla Vibes Adventures · CC BY 4.0",
-        "caption": "Peces observados en una de las pozas de Imlili."
-      }
-    ]
+    "credit": "Dakhla Vibes Adventures · CC BY 4.0",
+    "caption": "Pozas someras de la sebja de Imlili."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Vibes_%E2%80%94_Adventures_(11).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Vibes_%E2%80%94_Adventures_(11).jpg",
+    "credit": "Dakhla Vibes Adventures · CC BY 4.0",
+    "caption": "Vista aérea de la depresión y sus pozas."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla_Vibes_%E2%80%94_Adventures_(24).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Dakhla_Vibes_%E2%80%94_Adventures_(24).jpg",
+    "credit": "Dakhla Vibes Adventures · CC BY 4.0",
+    "caption": "Peces observados en una de las pozas de Imlili."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Fuentes termales de Asmaa",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "prohibido en las pozas",
+  "time": "½ día",
+  "lat": 23.8995482,
+  "lon": -15.7110744,
+  "desc": "Manantiales de agua termal a unos 38 °C en pleno desierto, al norte de Dajla y cerca de la carretera de acceso a la península. Es un balneario muy modesto —piscinas de obra, vestuarios básicos, separación de horarios o espacios para hombres y mujeres— frecuentado sobre todo por los propios habitantes de Dajla, y no un spa: el interés está en el contraste absurdo de meterse en agua caliente rodeado de hamada y viento atlántico, y en que es uno de los poquísimos sitios del territorio donde se ve vida local no relacionada con la pesca o el turismo deportivo. Media jornada desde Dajla y encaja bien en la subida, cuando hay tiempo. Perro fuera de las pozas por respeto y por normativa local previsible. COORDENADA APROXIMADA. Imagen de referencia del territorio, no de las propias fuentes.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dakhla%2C_Western_Sahara.jpg?width=1600",
+    "credit": "YoTuT · CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dakhla%2C_Western_Sahara.jpg",
+    "caption": "La península de Dajla, cerca de las fuentes de Asmaa. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Le Reporter Express — «Asmaa de Dakhla: une source thermale dans le Sahara marocain»",
+    "url": "https://lereporterexpress.ma/2022/10/21/asmaa-dakhla-source-thermale-sahara-marocain-connue-international/"
+   },
+   {
+    "label": "Petit Futé — La Source d'Asmaa (Dakhla)",
+    "url": "https://www.petitfute.co.uk/v46199-dakhla/c1173-visites-points-d-interet/1695721-la-source-d-asmaa.html"
+   },
+   {
+    "label": "Dakhla, Western Sahara — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Dakhla,_Western_Sahara"
+   }
+  ],
+  "visit": {
+   "why": "Agua termal a unos 38 °C brotando en mitad de la hammada, a poco más de media hora de Dajla: es la ducha caliente más surrealista del viaje y, después de días de arena, el mejor remedio para espaldas y rodillas. El agua es sulfurosa, procede de un pozo de unos 700 m de profundidad y tiene fama local de ir bien para piel y articulaciones.",
+   "see": "Un balneario mínimo: un pozo, un par de construcciones de obra con aspecto de abandonadas, un grifo o tubo grueso del que sale el agua caliente a presión y alguien que la dirige hacia el bañista. Huele fuerte a azufre —huevo podrido, sin eufemismos— y el agua no es potable. Es una experiencia, no un spa.",
+   "access": "Unos 36-38 km al norte de Dajla, cerca de la carretera de acceso a la península. El último tramo es pista de desierto sin señalizar y las fuentes describen que sin alguien que conozca el sitio es fácil no encontrarlo: conviene ir con guía local o siguiendo a alguien del campamento, y con 4x4. El pin es aproximado sobre la zona del manantial, no un edificio. Precio simbólico, del orden de 15 dírhams por persona según guías publicadas, y sin horarios fijos publicados. Aviso importante: no hay vestuarios ni separación real para mujeres —la prensa marroquí lo señala explícitamente—, así que hay que ir con el bañador puesto. El perro puede acompañar al aire libre con correa, pero el agua sulfurosa a 38 °C no es para él.",
+   "when": "Una hora o dos, como excursión desde Dajla, combinada con la Duna Blanca. Mejor por la mañana temprano o a última hora: con el sol alto el contraste entre el agua caliente y el aire seco es agotador. Todo el año.",
+   "skip": "Si alguien tiene heridas abiertas, problemas de piel activos o simplemente no soporta el olor a azufre, cae solo. Y si el grupo no tiene guía ni ganas de pista, no vale la pena buscarlo a ciegas: no es un monumento, es un chorro de agua caliente en el desierto."
   },
-  {
-    "n": 15,
-    "name": "Smara y la zawiya de Ma al-Aynayn",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "1 noche",
-    "lat": 26.7394,
-    "lon": -11.6703,
-    "desc": "Smara nació como centro caravanero y religioso vinculado al jeque Ma al‑Aynayn. La zawiya y la mezquita conservan la referencia histórica principal de una ciudad interior muy distinta del corredor costero.",
-    "credit": "Bertramz · CC BY-SA 3.0",
+  "_restaurado": true
+ },
+ {
+  "n": 15,
+  "name": "Smara y la zawiya de Ma al-Aynayn",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 26.7394,
+  "lon": -11.6703,
+  "desc": "Smara nació como centro caravanero y religioso vinculado al jeque Ma al‑Aynayn. La zawiya y la mezquita conservan la referencia histórica principal de una ciudad interior muy distinta del corredor costero.",
+  "credit": "Bertramz · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Smara,old-mosque1.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Smara,old-mosque1.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el único gran desvío cultural hacia el interior en este bloque y añade historia saharaui anterior a la actual red costera.",
+   "see": "Zawiya, mezquita y restos del conjunto histórico desde espacios autorizados; no presentar tradiciones locales como hechos arqueológicos probados.",
+   "access": "El pin queda en el conjunto de la zawiya contrastado con Google Maps. Mantenerse en carretera asfaltada y pedir permiso antes de fotografiar personas o culto.",
+   "when": "De día, con una noche de margen si se hace el desvío desde El Aaiún.",
+   "skip": "No desviarse con información de seguridad dudosa, tiempo insuficiente o intención de abandonar el asfalto hacia el este."
+  },
+  "links": [
+   {
+    "label": "Historia de la zawiya de Ma al‑Aynayn",
+    "url": "https://fr.wikipedia.org/wiki/Zawyya_du_Cheikh_Maelainine"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Smara,old-mosque1.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Smara,old-mosque1.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el único gran desvío cultural hacia el interior en este bloque y añade historia saharaui anterior a la actual red costera.",
-      "see": "Zawiya, mezquita y restos del conjunto histórico desde espacios autorizados; no presentar tradiciones locales como hechos arqueológicos probados.",
-      "access": "El pin queda en el conjunto de la zawiya contrastado con Google Maps. Mantenerse en carretera asfaltada y pedir permiso antes de fotografiar personas o culto.",
-      "when": "De día, con una noche de margen si se hace el desvío desde El Aaiún.",
-      "skip": "No desviarse con información de seguridad dudosa, tiempo insuficiente o intención de abandonar el asfalto hacia el este."
-    },
-    "links": [
-      {
-        "label": "Historia de la zawiya de Ma al‑Aynayn",
-        "url": "https://fr.wikipedia.org/wiki/Zawyya_du_Cheikh_Maelainine"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Smara,old-mosque1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Smara,old-mosque1.jpg",
-        "credit": "Bertramz · CC BY-SA 3.0",
-        "caption": "Mezquita histórica del conjunto de Smara."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMtcIs-XzBSZjhMvjDmpubqZtk6WZtKO19NYZK2NYLvd3WgunkjCFA7MfFD0rySA_HcTa0-bzMOXyqegMu_ny4D_jgf5RoD6h-7Ea_egu6atfk9xHWRe7F4CGi0g2mai5jCFsRfA=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Zawiya%20Ma%20El%20Ainin%20Smara",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Exterior de la zawiya en su ficha de Google Maps."
-      },
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlT2CXQfNq0mrT-Bbvoq7jRiRIv78CouZmtuOOMb-OqI99wTOOzQWrSeBNCdLdtS3G2GhnMpuBgEULJNxvIX7EgbeAOfCAQj6o_Z-3Slk_DDML6TJ233k6JawLybzU7ilbNwvI8Ew=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Zawiya%20Ma%20El%20Ainin%20Smara",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Otra vista comprobada del recinto histórico de Smara."
-      }
-    ]
-  }
+    "credit": "Bertramz · CC BY-SA 3.0",
+    "caption": "Mezquita histórica del conjunto de Smara."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMtcIs-XzBSZjhMvjDmpubqZtk6WZtKO19NYZK2NYLvd3WgunkjCFA7MfFD0rySA_HcTa0-bzMOXyqegMu_ny4D_jgf5RoD6h-7Ea_egu6atfk9xHWRe7F4CGi0g2mai5jCFsRfA=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Zawiya%20Ma%20El%20Ainin%20Smara",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Exterior de la zawiya en su ficha de Google Maps."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlT2CXQfNq0mrT-Bbvoq7jRiRIv78CouZmtuOOMb-OqI99wTOOzQWrSeBNCdLdtS3G2GhnMpuBgEULJNxvIX7EgbeAOfCAQj6o_Z-3Slk_DDML6TJ233k6JawLybzU7ilbNwvI8Ew=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Zawiya%20Ma%20El%20Ainin%20Smara",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Otra vista comprobada del recinto histórico de Smara."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Cabo Blanco y La Güera · la foca monje (NO accesible desde aquí)",
+  "cat": "Naturaleza",
+  "prio": "Baja",
+  "dog": "no aplicable",
+  "time": "no visitable en este tramo",
+  "lat": 21.0169087,
+  "lon": -17.0421324,
+  "desc": "Respuesta honesta a una pregunta que siempre sale: SÍ, la mayor colonia superviviente de FOCA MONJE DEL MEDITERRÁNEO del mundo —unos 270-300 ejemplares, la única que conserva estructura de colonia tras la mortandad de 1997 que mató a más de 200 animales en dos meses— está en la Côte des Phoques de Cabo Blanco, en la parte del cabo que corresponde al Sáhara Occidental. Pero NO se visita desde este corredor. Cabo Blanco está en la península de Ras Nuadibú, que la frontera parte en dos: el acceso real es por el lado MAURITANO, desde Nuadibú, ya pasada la frontera de Guerguerat, y la colonia está en una reserva estricta cuyo acceso está restringido precisamente para protegerla, con un plan de recuperación financiado por España. Al oeste está LA GÜERA, pueblo fantasma español fundado en 1920 por Francisco Bens, hoy sepultado por la arena y bajo control mauritano de facto. Planificar cualquier intento de ver focas en la ficha de MAURITANIA, no en ésta, y con operador autorizado. Imagen de referencia del sur del territorio.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ships_graveyard%2C_Nouadhibou%2C_Mauritania-1.jpg?width=1600",
+    "credit": "Sebastián Losada · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ships_graveyard%2C_Nouadhibou%2C_Mauritania-1.jpg",
+    "caption": "El cementerio de barcos de Nuadibú, junto a Cabo Blanco. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Cabo Blanco IMMA — Marine Mammal Protected Areas Task Force",
+    "url": "https://www.marinemammalhabitat.org/factsheets/cabo-blanco/"
+   },
+   {
+    "label": "IUCN SOS — Protection of the Mediterranean monk seal colony of the Cap Blanc peninsula",
+    "url": "https://www.saveourspecies.org/projects/marine-aquatic-mammals/protection-mediterranean-monk-seal-monachus-monachus-colony-cap"
+   },
+   {
+    "label": "La Güera — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/La_G%C3%BCera"
+   }
+  ],
+  "visit": {
+   "why": "Porque la pregunta sale siempre y merece respuesta clara: sí, en la península de Cabo Blanco está la mayor colonia superviviente de foca monje del Mediterráneo del planeta —del orden de 250 a 350 ejemplares según el recuento, cerca de la mitad de la especie y la única que conserva estructura colonial—, y no, no se visita desde el lado del Sáhara Occidental. Saberlo evita planificar un desvío imposible.",
+   "see": "Nada, desde aquí. Las focas paren y descansan en tres cuevas de la costa occidental de la península, dentro de la reserva marino-costera «Costa de las Focas», en el lado mauritano y con vigilancia permanente precisamente para que nadie las moleste. La Güera, el antiguo pueblo español fundado por Francisco Bens en 1920, es hoy una localidad fantasma medio enterrada en arena, controlada de facto por un puesto militar mauritano pese a no ser territorio mauritano.",
+   "access": "No hay acceso turístico. La península de Ras Nouadhibou se alcanza por el lado mauritano —La Güera está a unos 15 km al oeste de Nuadibú— y el área de las cuevas es reserva de acceso restringido; el conjunto forma además un IMMA de 19.333 km² reconocido internacionalmente. Desde el corredor del Sáhara Occidental, el único paso terrestre es Guerguerat, y de ahí se entra a Mauritania, no a la punta del cabo. Con perro, sobra decirlo: una colonia de pinnípedos en reserva de cría no admite animales de compañía en ningún escenario.",
+   "when": "Como información de contexto, cinco minutos de conversación en la sobremesa. Si alguien quiere realmente ver foca monje, eso se organiza desde Nuadibú, en otro viaje y con permisos, no como desvío de esta ruta.",
+   "skip": "Cae entero del itinerario: es un punto informativo. Intentar acercarse por cuenta propia a la zona de las cuevas sería, además de ilegal en la práctica, dañino para la única colonia estructurada que le queda a la especie."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 17,
+  "name": "El Aaiún · catedral de San Francisco de Asís",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1 noche",
+  "lat": 27.163056,
+  "lon": -13.205556,
+  "desc": "La catedral de San Francisco de Asís es la referencia arquitectónica más clara del antiguo El Aaiún español y sigue destinada al culto. La ciudad es, ante todo, la última base completa antes del largo corredor hacia Dajla.",
+  "credit": "Bjørn Christian Tørrissen · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune_Cathedral_2011.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Laayoune_Cathedral_2011.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite sumar una visita histórica breve a una parada logística imprescindible.",
+   "see": "La nave de hormigón, sus vidrieras y el barrio central; el resto de El Aaiún se recorre como ciudad actual, no como museo colonial.",
+   "access": "El pin se ha fijado en la ficha exacta de la catedral, no en el centro urbano. Fotografiar con discreción y confirmar el acceso interior.",
+   "when": "De día y fuera de celebraciones; una hora basta si no se hacen gestiones en la ciudad.",
+   "skip": "Reducirla a servicios si la iglesia está cerrada o la etapa hacia el sur obliga a salir pronto."
+  },
+  "links": [
+   {
+    "label": "Visit Laayoune · ciudad y patrimonio",
+    "url": "https://visitlaayoune.ma/laayoune/"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Laayoune_Cathedral_2011.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Laayoune_Cathedral_2011.jpg",
+    "credit": "Bjørn Christian Tørrissen · CC BY-SA 3.0",
+    "caption": "Fachada de la catedral de San Francisco de Asís en El Aaiún."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Spanish_cathedral_laayoune.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Spanish_cathedral_laayoune.jpg",
+    "credit": "Alexander Leisser · CC BY-SA 4.0",
+    "caption": "Volumen exterior y torres de la catedral."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Francis_of_Assisi_Cathedral,_El_Aaiun,_Western_Sahara.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint_Francis_of_Assisi_Cathedral,_El_Aaiun,_Western_Sahara.jpg",
+    "credit": "Burrocanario · CC BY-SA 3.0",
+    "caption": "La catedral y su entorno urbano inmediato."
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "name": "Cabo Bojador · faro",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "½ día",
+  "lat": 26.127083,
+  "lon": -14.499378,
+  "desc": "El faro de cabo Bojador señala el promontorio que durante siglos condicionó la navegación europea por esta costa. La parada combina esa historia marítima con una localidad pesquera del corredor.",
+  "credit": "Rui Ornelas · CC BY 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faro_en_Cabo_Bojador.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Faro_en_Cabo_Bojador.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una referencia histórica tangible y una pausa razonable entre El Aaiún y Dajla.",
+   "see": "Faro, acantilado bajo y actividad portuaria desde zonas públicas; el interés está en el lugar real, no en una vista urbana genérica.",
+   "access": "El pin se ha movido al faro geolocalizado, no al centro de Boujdour. No entrar en recintos cerrados ni fotografiar instalaciones sensibles.",
+   "when": "De día, enlazándolo con combustible y provisiones; reservar menos de dos horas.",
+   "skip": "Usarlo solo como parada logística si el acceso al faro está restringido o hay viento y polvo intensos."
+  },
+  "links": [
+   {
+    "label": "Historia del faro de Boujdour",
+    "url": "https://en.wikipedia.org/wiki/Boujdour_Lighthouse"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faro_en_Cabo_Bojador.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Faro_en_Cabo_Bojador.jpg",
+    "credit": "Rui Ornelas · CC BY 2.0",
+    "caption": "El faro de cabo Bojador en su emplazamiento real."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm4V9AKiYNuiflm0pj-uDBhVAgMV3jnarvTgFh70Hyf1tP4FWN3ZCuP19WfMUoI1TeM5iYvP30iFXoQy8W7Rs0GHxM98q8eDmMK3y_HqvbTx7xbKWeNzUs14s7Zmkwij_W6VJBzvmFM1p1k=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Faro%20de%20Bojador%20Boujdour%20Morocco",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Faro y costa en la ficha exacta de Google Maps."
+   },
+   {
+    "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl7KRumYl9dz2kULrzjNU90E0XqeJf-d0gNzfMZmN_N8JQOs9GERx3ZDg99oH4BM6_FhHTquakIkAa6T4H_Wd0fkkG5tKH2oOVVQ7G8mQqMAxYS3c1Ad993b1bbfbKemgfLVeH1=w1200-h675-k-no",
+    "source": "https://www.google.com/maps/search/?api=1&query=Faro%20de%20Bojador%20Boujdour%20Morocco",
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Otra vista comprobada del faro de cabo Bojador."
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "name": "PK25 · kitesurf en la laguna de Dajla",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1–3 días",
+  "lat": 23.900119,
+  "lon": -15.786858,
+  "desc": "PK25 concentra campamentos y escuelas en una orilla ventosa y de agua plana de la laguna de Dajla. Es una base concreta para kitesurf; las olas oceánicas están en otros spots.",
+  "credit": "Tbo47 · CC0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plage_PK25_Dakhla.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Plage_PK25_Dakhla.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite decidir una parada deportiva con servicios y acceso reconocible, sin confundir toda la bahía con un único punto.",
+   "see": "Kitesurf en agua plana, escuelas, campamentos y la perspectiva longitudinal de la laguna.",
+   "access": "El pin se ha ajustado a la playa PK25 geolocalizada. Reservar la escuela o el campamento y no circular fuera de los accesos indicados.",
+   "when": "Varios días si se quiere aprender; confirmar viento, nivel, rescate y material antes de pagar.",
+   "skip": "Omitirlo si no se hará actividad o si el viento, la seguridad acuática o el alojamiento no están confirmados."
+  },
+  "links": [
+   {
+    "label": "Google Maps · playa PK25",
+    "url": "https://www.google.com/maps/search/?api=1&query=Plage+PK25+Dakhla"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plage_PK25_Dakhla.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Plage_PK25_Dakhla.jpg",
+    "credit": "Tbo47 · CC0",
+    "caption": "Playa PK25 y orilla de la laguna de Dajla."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/FortecolorWestsaharaIII-36.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:FortecolorWestsaharaIII-36.jpg",
+    "credit": "Trincerone · CC BY-SA 4.0",
+    "caption": "Kitesurf en la laguna de Dajla."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitesurf-Dakhla-Morocco_(5).JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kitesurf-Dakhla-Morocco_(5).JPG",
+    "credit": "Nomadz · CC BY-SA 3.0",
+    "caption": "Cometa y navegante en el sector de kitesurf de Dajla."
+   }
+  ]
+ }
 ]

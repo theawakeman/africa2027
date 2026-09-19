@@ -1,1052 +1,1136 @@
 [
-  {
-    "n": 1,
-    "name": "Nzulezu · poblado sobre pilotes",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 5.0208275,
-    "lon": -2.597921,
-    "desc": "Nzulezu es una aldea sobre pilotes en el lago Tadane. La visita depende de una canoa oficial desde Beyin y muestra un asentamiento vivo, no un decorado.",
-    "credit": "Pambelle12 · CC BY-SA 4.0",
+ {
+  "n": 1,
+  "name": "Nzulezu · poblado sobre pilotes",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 5.0208275,
+  "lon": -2.597921,
+  "desc": "Nzulezu es una aldea sobre pilotes en el lago Tadane. La visita depende de una canoa oficial desde Beyin y muestra un asentamiento vivo, no un decorado.",
+  "credit": "Pambelle12 · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nzulezo,_Ghana.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Nzulezo,_Ghana.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es uno de los paisajes culturales más singulares de Ghana y permite entender la vida ligada al humedal.",
+   "see": "Nzulezu es una aldea sobre pilotes en el lago Tadane. La visita depende de una canoa oficial desde Beyin y muestra un asentamiento vivo, no un decorado.",
+   "access": "El pin cae en Nzulezu, no en el embarcadero. Comprar la visita en el centro de Beyin, confirmar nivel del agua, chalecos, precio y permiso para perro antes de embarcar.",
+   "when": "Primera hora y estación con canal navegable; reservar entre tres y cuatro horas.",
+   "skip": "Omitir con tormenta, canoa sin chalecos, retorno incierto o rechazo del perro; pedir permiso antes de fotografiar residentes."
+  },
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Nzulezu",
+    "url": "https://visitghana.com/attractions/nzulezu-stilt-village/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nzulezo,_Ghana.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Nzulezo,_Ghana.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es uno de los paisajes culturales más singulares de Ghana y permite entender la vida ligada al humedal.",
-      "see": "Nzulezu es una aldea sobre pilotes en el lago Tadane. La visita depende de una canoa oficial desde Beyin y muestra un asentamiento vivo, no un decorado.",
-      "access": "El pin cae en Nzulezu, no en el embarcadero. Comprar la visita en el centro de Beyin, confirmar nivel del agua, chalecos, precio y permiso para perro antes de embarcar.",
-      "when": "Primera hora y estación con canal navegable; reservar entre tres y cuatro horas.",
-      "skip": "Omitir con tormenta, canoa sin chalecos, retorno incierto o rechazo del perro; pedir permiso antes de fotografiar residentes."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Nzulezu",
-        "url": "https://visitghana.com/attractions/nzulezu-stilt-village/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nzulezo,_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Nzulezo,_Ghana.jpg",
-        "credit": "Pambelle12 · CC BY-SA 4.0",
-        "caption": "Viviendas y pasarela de madera de Nzulezu."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nzulenzu_Village_in_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Nzulenzu_Village_in_Ghana.jpg",
-        "credit": "Enock Manoba · CC BY-SA 4.0",
-        "caption": "Canoa junto al asentamiento lacustre."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nzulezo_village_5.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Nzulezo_village_5.jpg",
-        "credit": "KwesiRaul · CC BY-SA 4.0",
-        "caption": "Casas sobre pilotes vistas desde el agua."
-      }
-    ]
+    "credit": "Pambelle12 · CC BY-SA 4.0",
+    "caption": "Viviendas y pasarela de madera de Nzulezu."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nzulenzu_Village_in_Ghana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nzulenzu_Village_in_Ghana.jpg",
+    "credit": "Enock Manoba · CC BY-SA 4.0",
+    "caption": "Canoa junto al asentamiento lacustre."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nzulezo_village_5.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nzulezo_village_5.jpg",
+    "credit": "KwesiRaul · CC BY-SA 4.0",
+    "caption": "Casas sobre pilotes vistas desde el agua."
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "name": "Cape Three Points · el punto más al sur de Ghana",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1 noche",
+  "lat": 4.7430556,
+  "lon": -2.0902778,
+  "desc": "Cape Three Points combina el extremo meridional de Ghana con un faro histórico y costa selvática. La pista final y la visita al faro deben confirmarse localmente.",
+  "credit": "Friedmut Abel · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Three_Points_Lighthouse_1875.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Cape_Three_Points_Lighthouse_1875.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece una costa remota y un hito geográfico muy distinto de las playas urbanizadas.",
+   "see": "Cape Three Points combina el extremo meridional de Ghana con un faro histórico y costa selvática. La pista final y la visita al faro deben confirmarse localmente.",
+   "access": "El pin marca el faro. Preguntar en el pueblo por pista, aparcamiento y acceso; no asumir que el interior o la linterna estén abiertos.",
+   "when": "Estación seca, llegada de día y margen para regresar antes del anochecer.",
+   "skip": "Descartarlo con pista embarrada, oleaje fuerte, faro cerrado si ese es el objetivo o poca autonomía."
   },
-  {
-    "n": 2,
-    "name": "Cape Three Points · el punto más al sur de Ghana",
-    "cat": "Costa",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "1 noche",
-    "lat": 4.7430556,
-    "lon": -2.0902778,
-    "desc": "Cape Three Points combina el extremo meridional de Ghana con un faro histórico y costa selvática. La pista final y la visita al faro deben confirmarse localmente.",
-    "credit": "Friedmut Abel · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · región occidental",
+    "url": "https://visitghana.com/western-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Three_Points_Lighthouse_1875.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Cape_Three_Points_Lighthouse_1875.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece una costa remota y un hito geográfico muy distinto de las playas urbanizadas.",
-      "see": "Cape Three Points combina el extremo meridional de Ghana con un faro histórico y costa selvática. La pista final y la visita al faro deben confirmarse localmente.",
-      "access": "El pin marca el faro. Preguntar en el pueblo por pista, aparcamiento y acceso; no asumir que el interior o la linterna estén abiertos.",
-      "when": "Estación seca, llegada de día y margen para regresar antes del anochecer.",
-      "skip": "Descartarlo con pista embarrada, oleaje fuerte, faro cerrado si ese es el objetivo o poca autonomía."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · región occidental",
-        "url": "https://visitghana.com/western-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Three_Points_Lighthouse_1875.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cape_Three_Points_Lighthouse_1875.jpg",
-        "credit": "Friedmut Abel · CC BY-SA 4.0",
-        "caption": "Faro de Cape Three Points."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/DSC01739_(15318781703).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:DSC01739_(15318781703).jpg",
-        "credit": "Tini Maier · CC BY 2.0",
-        "caption": "Costa y vegetación de Cape Three Points."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/DSC01774_(15938288632).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:DSC01774_(15938288632).jpg",
-        "credit": "Tini Maier · CC BY 2.0",
-        "caption": "Playa del cabo vista desde el sendero."
-      }
-    ]
+    "credit": "Friedmut Abel · CC BY-SA 4.0",
+    "caption": "Faro de Cape Three Points."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/DSC01739_(15318781703).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:DSC01739_(15318781703).jpg",
+    "credit": "Tini Maier · CC BY 2.0",
+    "caption": "Costa y vegetación de Cape Three Points."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/DSC01774_(15938288632).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:DSC01774_(15938288632).jpg",
+    "credit": "Tini Maier · CC BY 2.0",
+    "caption": "Playa del cabo vista desde el sendero."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Busua · playa y surf",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1–2 noches",
+  "lat": 4.799,
+  "lon": -1.937,
+  "desc": "Busua es una bahía pesquera y de surf con arena amplia y servicios sencillos. Funciona como descanso entre Cape Three Points y los castillos de la costa.",
+  "credit": "aripeskoe2 · CC BY 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Busua_Beach_Western_Region.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Busua_Beach_Western_Region.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una de las mejores bases costeras del oeste sin exigir una excursión organizada.",
+   "see": "Busua es una bahía pesquera y de surf con arena amplia y servicios sencillos. Funciona como descanso entre Cape Three Points y los castillos de la costa.",
+   "access": "El pin está en la playa de Busua. Elegir alojamiento con aparcamiento, preguntar por corrientes y no dejar el vehículo aislado en la arena.",
+   "when": "Entre semana, mañana o última tarde; una noche permite disfrutarla sin prisas.",
+   "skip": "Omitir el baño con bandera, corriente fuerte o sin vigilancia; reducir a parada breve con mal tiempo."
   },
-  {
-    "n": 3,
-    "name": "Busua · playa y surf",
-    "cat": "Costa",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1–2 noches",
-    "lat": 4.799,
-    "lon": -1.937,
-    "desc": "Busua es una bahía pesquera y de surf con arena amplia y servicios sencillos. Funciona como descanso entre Cape Three Points y los castillos de la costa.",
-    "credit": "aripeskoe2 · CC BY 2.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · playas del oeste",
+    "url": "https://visitghana.com/western-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Busua_Beach_Western_Region.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Busua_Beach_Western_Region.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una de las mejores bases costeras del oeste sin exigir una excursión organizada.",
-      "see": "Busua es una bahía pesquera y de surf con arena amplia y servicios sencillos. Funciona como descanso entre Cape Three Points y los castillos de la costa.",
-      "access": "El pin está en la playa de Busua. Elegir alojamiento con aparcamiento, preguntar por corrientes y no dejar el vehículo aislado en la arena.",
-      "when": "Entre semana, mañana o última tarde; una noche permite disfrutarla sin prisas.",
-      "skip": "Omitir el baño con bandera, corriente fuerte o sin vigilancia; reducir a parada breve con mal tiempo."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · playas del oeste",
-        "url": "https://visitghana.com/western-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Busua_Beach_Western_Region.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Busua_Beach_Western_Region.jpg",
-        "credit": "aripeskoe2 · CC BY 2.0",
-        "caption": "Bahía y pueblo pesquero de Busua."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Busua_Beach_on_rainy_day_04.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Busua_Beach_on_rainy_day_04.jpg",
-        "credit": "Tom Lubbe · CC BY-SA 3.0",
-        "caption": "Busua en un día de lluvia."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alaska_Beach_Resort_-_Busua_-_Ghana_(4734840567).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Alaska_Beach_Resort_-_Busua_-_Ghana_(4734840567).jpg",
-        "credit": "Adam Jones · CC BY-SA 2.0",
-        "caption": "Arena y palmeras de la costa de Busua."
-      }
-    ]
+    "credit": "aripeskoe2 · CC BY 2.0",
+    "caption": "Bahía y pueblo pesquero de Busua."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Busua_Beach_on_rainy_day_04.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Busua_Beach_on_rainy_day_04.jpg",
+    "credit": "Tom Lubbe · CC BY-SA 3.0",
+    "caption": "Busua en un día de lluvia."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Alaska_Beach_Resort_-_Busua_-_Ghana_(4734840567).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Alaska_Beach_Resort_-_Busua_-_Ghana_(4734840567).jpg",
+    "credit": "Adam Jones · CC BY-SA 2.0",
+    "caption": "Arena y palmeras de la costa de Busua."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Castillo de Elmina (São Jorge da Mina)",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 5.0836,
+  "lon": -1.3508,
+  "desc": "El castillo de Elmina, fundado por Portugal en 1482, fue centro del comercio de oro y después de la trata atlántica. La visita guiada recorre patios y mazmorras.",
+  "credit": "Damien Halleux Radermecker · CC BY-SA 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elmina_Castle_-_Ghana.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_-_Ghana.jpg",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una pieza esencial para comprender la costa atlántica y el sistema de fuertes europeo-africanos.",
+   "see": "El castillo de Elmina, fundado por Portugal en 1482, fue centro del comercio de oro y después de la trata atlántica. La visita guiada recorre patios y mazmorras.",
+   "access": "El pin coincide con la entrada del castillo. Usar estacionamiento formal, comprobar horario y reservar guía; el perro no entra en interiores.",
+   "when": "A primera hora, antes de calor y grupos; dos o tres horas con el puerto.",
+   "skip": "No reducirlo a una foto exterior si se busca contexto; omitir interiores si no se resuelve el cuidado seguro del perro."
   },
-  {
-    "n": 4,
-    "name": "Castillo de Elmina (São Jorge da Mina)",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 5.0836,
-    "lon": -1.3508,
-    "desc": "El castillo de Elmina, fundado por Portugal en 1482, fue centro del comercio de oro y después de la trata atlántica. La visita guiada recorre patios y mazmorras.",
-    "credit": "Damien Halleux Radermecker · CC BY-SA 2.0",
+  "links": [
+   {
+    "label": "UNESCO · fuertes y castillos de Ghana",
+    "url": "https://whc.unesco.org/en/list/34/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elmina_Castle_-_Ghana.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_-_Ghana.jpg",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una pieza esencial para comprender la costa atlántica y el sistema de fuertes europeo-africanos.",
-      "see": "El castillo de Elmina, fundado por Portugal en 1482, fue centro del comercio de oro y después de la trata atlántica. La visita guiada recorre patios y mazmorras.",
-      "access": "El pin coincide con la entrada del castillo. Usar estacionamiento formal, comprobar horario y reservar guía; el perro no entra en interiores.",
-      "when": "A primera hora, antes de calor y grupos; dos o tres horas con el puerto.",
-      "skip": "No reducirlo a una foto exterior si se busca contexto; omitir interiores si no se resuelve el cuidado seguro del perro."
-    },
-    "links": [
-      {
-        "label": "UNESCO · fuertes y castillos de Ghana",
-        "url": "https://whc.unesco.org/en/list/34/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elmina_Castle_-_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_-_Ghana.jpg",
-        "credit": "Damien Halleux Radermecker · CC BY-SA 2.0",
-        "caption": "Castillo de Elmina junto al puerto."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elmina_Castle_Ramparts_(3587901478).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_Ramparts_(3587901478).jpg",
-        "credit": "Francisco Anzola · CC BY 2.0",
-        "caption": "Rampas y patios interiores del castillo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle,_Elmina_(P1100192).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Castle,_Elmina_(P1100192).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Murallas blancas de São Jorge da Mina."
-      }
-    ]
-  },
-  {
-    "n": 5,
-    "name": "Castillo de Cape Coast",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 5.1053,
-    "lon": -1.2466,
-    "desc": "Cape Coast Castle fue sede británica en la Costa del Oro y uno de los principales lugares de embarque de personas esclavizadas. Conserva mazmorras y museo.",
+    "credit": "Damien Halleux Radermecker · CC BY-SA 2.0",
+    "caption": "Castillo de Elmina junto al puerto."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Elmina_Castle_Ramparts_(3587901478).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Elmina_Castle_Ramparts_(3587901478).jpg",
+    "credit": "Francisco Anzola · CC BY 2.0",
+    "caption": "Rampas y patios interiores del castillo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle,_Elmina_(P1100192).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Castle,_Elmina_(P1100192).jpg",
     "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Murallas blancas de São Jorge da Mina."
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "name": "Castillo de Cape Coast",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 5.1053,
+  "lon": -1.2466,
+  "desc": "Cape Coast Castle fue sede británica en la Costa del Oro y uno de los principales lugares de embarque de personas esclavizadas. Conserva mazmorras y museo.",
+  "credit": "Matti Blume · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle,_Cape_Coast_(P1100223).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "La museografía y la visita guiada complementan Elmina sin repetir exactamente su historia.",
+   "see": "Cape Coast Castle fue sede británica en la Costa del Oro y uno de los principales lugares de embarque de personas esclavizadas. Conserva mazmorras y museo.",
+   "access": "El pin cae en la entrada del castillo. Confirmar horario, aparcar en zona autorizada y prever custodia del perro fuera del monumento.",
+   "when": "Primera hora o final de tarde; dos horas como mínimo.",
+   "skip": "Omitir si no se puede hacer la visita con respeto o resolver al perro; evitar horas punta si ya se visitó Elmina el mismo día."
+  },
+  "links": [
+   {
+    "label": "UNESCO · fuertes y castillos de Ghana",
+    "url": "https://whc.unesco.org/en/list/34/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle,_Cape_Coast_(P1100223).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "La museografía y la visita guiada complementan Elmina sin repetir exactamente su historia.",
-      "see": "Cape Coast Castle fue sede británica en la Costa del Oro y uno de los principales lugares de embarque de personas esclavizadas. Conserva mazmorras y museo.",
-      "access": "El pin cae en la entrada del castillo. Confirmar horario, aparcar en zona autorizada y prever custodia del perro fuera del monumento.",
-      "when": "Primera hora o final de tarde; dos horas como mínimo.",
-      "skip": "Omitir si no se puede hacer la visita con respeto o resolver al perro; evitar horas punta si ya se visitó Elmina el mismo día."
-    },
-    "links": [
-      {
-        "label": "UNESCO · fuertes y castillos de Ghana",
-        "url": "https://whc.unesco.org/en/list/34/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle,_Cape_Coast_(P1100223).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100223).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Fachada marítima de Cape Coast Castle."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle,_Cape_Coast_(P1100221).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100221).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Patio interior del castillo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_of_Cape_Coast_Castle.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Entrance_of_Cape_Coast_Castle.jpg",
-        "credit": "Afus199620 · CC0",
-        "caption": "Entrada pública de Cape Coast Castle."
-      }
-    ]
-  },
-  {
-    "n": 6,
-    "name": "Parque Nacional de Kakum · pasarela de dosel",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "prohibido",
-    "time": "½ día",
-    "lat": 5.3500604,
-    "lon": -1.3819499,
-    "desc": "Kakum protege bosque tropical y ofrece una pasarela elevada entre las copas. La experiencia es turística y guiada; no garantiza fauna visible.",
     "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Fachada marítima de Cape Coast Castle."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle,_Cape_Coast_(P1100221).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Castle,_Cape_Coast_(P1100221).jpg",
+    "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Patio interior del castillo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_of_Cape_Coast_Castle.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Entrance_of_Cape_Coast_Castle.jpg",
+    "credit": "Afus199620 · CC0",
+    "caption": "Entrada pública de Cape Coast Castle."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Parque Nacional de Kakum · pasarela de dosel",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "prohibido",
+  "time": "½ día",
+  "lat": 5.3500604,
+  "lon": -1.3819499,
+  "desc": "Kakum protege bosque tropical y ofrece una pasarela elevada entre las copas. La experiencia es turística y guiada; no garantiza fauna visible.",
+  "credit": "Matti Blume · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakum_National_Park,_Jukwa_(P1100159-Pano).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Kakum_National_Park,_Jukwa_(P1100159-Pano).jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite leer el dosel desde arriba y rompe con la sucesión de visitas históricas de la costa.",
+   "see": "Kakum protege bosque tropical y ofrece una pasarela elevada entre las copas. La experiencia es turística y guiada; no garantiza fauna visible.",
+   "access": "El pin coincide con el centro de visitantes. Llegar temprano, confirmar apertura de la pasarela y dejar al perro fuera del parque con cuidado seguro.",
+   "when": "Al abrir, en día seco y con poca gente; medio día.",
+   "skip": "Omitir con tormenta, viento fuerte, vértigo incapacitante o sin solución para el perro."
+  },
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Kakum",
+    "url": "https://visitghana.com/attractions/kakum-national-park/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakum_National_Park,_Jukwa_(P1100159-Pano).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Kakum_National_Park,_Jukwa_(P1100159-Pano).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite leer el dosel desde arriba y rompe con la sucesión de visitas históricas de la costa.",
-      "see": "Kakum protege bosque tropical y ofrece una pasarela elevada entre las copas. La experiencia es turística y guiada; no garantiza fauna visible.",
-      "access": "El pin coincide con el centro de visitantes. Llegar temprano, confirmar apertura de la pasarela y dejar al perro fuera del parque con cuidado seguro.",
-      "when": "Al abrir, en día seco y con poca gente; medio día.",
-      "skip": "Omitir con tormenta, viento fuerte, vértigo incapacitante o sin solución para el perro."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Kakum",
-        "url": "https://visitghana.com/attractions/kakum-national-park/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakum_National_Park,_Jukwa_(P1100159-Pano).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Kakum_National_Park,_Jukwa_(P1100159-Pano).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Pasarela de dosel en Kakum."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rocky_terrace.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Rocky_terrace.jpg",
-        "credit": "Kobebigs · CC BY-SA 4.0",
-        "caption": "Sendero y vegetación del parque."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/KakumNationalPark_forestPath3.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:KakumNationalPark_forestPath3.jpg",
-        "credit": "Kobina ebo · CC BY-SA 3.0",
-        "caption": "Camino dentro del bosque de Kakum."
-      }
-    ]
+    "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Pasarela de dosel en Kakum."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rocky_terrace.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Rocky_terrace.jpg",
+    "credit": "Kobebigs · CC BY-SA 4.0",
+    "caption": "Sendero y vegetación del parque."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/KakumNationalPark_forestPath3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:KakumNationalPark_forestPath3.jpg",
+    "credit": "Kobina ebo · CC BY-SA 3.0",
+    "caption": "Camino dentro del bosque de Kakum."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "name": "Accra · Jamestown e Independence Square",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2 noches",
+  "lat": 5.5471,
+  "lon": -0.1942,
+  "desc": "Accra concentra Jamestown, Independence Square, museos, talleres y gestiones. Es una base urbana para recorrer por zonas, no un PDI de una sola puerta.",
+  "credit": "Gereon K. · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamestown_Lighthouse_20170122.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Jamestown_Lighthouse_20170122.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Aúna historia ga, memoria de la independencia y todos los servicios complejos del país.",
+   "see": "Accra concentra Jamestown, Independence Square, museos, talleres y gestiones. Es una base urbana para recorrer por zonas, no un PDI de una sola puerta.",
+   "access": "El pin se mantiene como ancla urbana. Reservar alojamiento con aparcamiento, moverse de día y comprobar accesos concretos; no fotografiar instalaciones oficiales sin permiso.",
+   "when": "Días laborables para gestiones y primera hora para Jamestown; una o dos noches.",
+   "skip": "Reducir visitas con tráfico extremo, actos oficiales o falta de estacionamiento seguro."
   },
-  {
-    "n": 7,
-    "name": "Accra · Jamestown e Independence Square",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2 noches",
-    "lat": 5.5471,
-    "lon": -0.1942,
-    "desc": "Accra concentra Jamestown, Independence Square, museos, talleres y gestiones. Es una base urbana para recorrer por zonas, no un PDI de una sola puerta.",
-    "credit": "Gereon K. · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Greater Accra",
+    "url": "https://visitghana.com/greater-accra-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamestown_Lighthouse_20170122.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Jamestown_Lighthouse_20170122.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Aúna historia ga, memoria de la independencia y todos los servicios complejos del país.",
-      "see": "Accra concentra Jamestown, Independence Square, museos, talleres y gestiones. Es una base urbana para recorrer por zonas, no un PDI de una sola puerta.",
-      "access": "El pin se mantiene como ancla urbana. Reservar alojamiento con aparcamiento, moverse de día y comprobar accesos concretos; no fotografiar instalaciones oficiales sin permiso.",
-      "when": "Días laborables para gestiones y primera hora para Jamestown; una o dos noches.",
-      "skip": "Reducir visitas con tráfico extremo, actos oficiales o falta de estacionamiento seguro."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Greater Accra",
-        "url": "https://visitghana.com/greater-accra-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamestown_Lighthouse_20170122.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Jamestown_Lighthouse_20170122.jpg",
-        "credit": "Gereon K. · CC BY-SA 4.0",
-        "caption": "Faro de Jamestown en Accra."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamestown_View_from_Lighthouse_2011_B003.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Jamestown_View_from_Lighthouse_2011_B003.jpg",
-        "credit": "Mike Norton · CC BY 2.0",
-        "caption": "Jamestown visto desde el faro."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamestown_Lighthouse,_Accra_(P1100267).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Jamestown_Lighthouse,_Accra_(P1100267).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Faro y tejido urbano de Jamestown."
-      }
-    ]
+    "credit": "Gereon K. · CC BY-SA 4.0",
+    "caption": "Faro de Jamestown en Accra."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamestown_View_from_Lighthouse_2011_B003.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamestown_View_from_Lighthouse_2011_B003.jpg",
+    "credit": "Mike Norton · CC BY 2.0",
+    "caption": "Jamestown visto desde el faro."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamestown_Lighthouse,_Accra_(P1100267).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamestown_Lighthouse,_Accra_(P1100267).jpg",
+    "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Faro y tejido urbano de Jamestown."
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "name": "Mausoleo y parque memorial de Kwame Nkrumah",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 5.5476,
+  "lon": -0.2048,
+  "desc": "El parque memorial de Kwame Nkrumah reúne el mausoleo, una exposición y el lugar de la proclamación de independencia. Es la visita histórica más clara de Accra.",
+  "credit": "Fquasie · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kwame_Nkrumah_Memorial_Park_%26_Mausoleum.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Memorial_Park_%26_Mausoleum.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Explica el nacimiento de Ghana, el panafricanismo y las contradicciones del gobierno de Nkrumah.",
+   "see": "El parque memorial de Kwame Nkrumah reúne el mausoleo, una exposición y el lugar de la proclamación de independencia. Es la visita histórica más clara de Accra.",
+   "access": "El pin coincide con la entrada del parque renovado. Consultar horario y norma de acceso con perro; prever custodia para el museo interior.",
+   "when": "Mañana de día laborable; entre una y dos horas.",
+   "skip": "Omitir interiores si está cerrado o no hay cuidado del perro, pero no sustituir la visita por una foto exterior sin contexto."
   },
-  {
-    "n": 8,
-    "name": "Mausoleo y parque memorial de Kwame Nkrumah",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 5.5476,
-    "lon": -0.2048,
-    "desc": "El parque memorial de Kwame Nkrumah reúne el mausoleo, una exposición y el lugar de la proclamación de independencia. Es la visita histórica más clara de Accra.",
-    "credit": "Fquasie · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · memorial de Nkrumah",
+    "url": "https://visitghana.com/kwame-nkrumah-memorial-park/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kwame_Nkrumah_Memorial_Park_%26_Mausoleum.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Memorial_Park_%26_Mausoleum.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Explica el nacimiento de Ghana, el panafricanismo y las contradicciones del gobierno de Nkrumah.",
-      "see": "El parque memorial de Kwame Nkrumah reúne el mausoleo, una exposición y el lugar de la proclamación de independencia. Es la visita histórica más clara de Accra.",
-      "access": "El pin coincide con la entrada del parque renovado. Consultar horario y norma de acceso con perro; prever custodia para el museo interior.",
-      "when": "Mañana de día laborable; entre una y dos horas.",
-      "skip": "Omitir interiores si está cerrado o no hay cuidado del perro, pero no sustituir la visita por una foto exterior sin contexto."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · memorial de Nkrumah",
-        "url": "https://visitghana.com/kwame-nkrumah-memorial-park/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kwame_Nkrumah_Memorial_Park_%26_Mausoleum.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Memorial_Park_%26_Mausoleum.jpg",
-        "credit": "Fquasie · CC BY-SA 4.0",
-        "caption": "Mausoleo de Kwame Nkrumah."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/OSAGYEFO_DR._KWAME_NKRUMAH_Grave_at_Kwame_Nkrumah_mausoleum.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:OSAGYEFO_DR._KWAME_NKRUMAH_Grave_at_Kwame_Nkrumah_mausoleum.jpg",
-        "credit": "Maame1Yaa · CC BY 4.0",
-        "caption": "Sepultura dentro del memorial."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kwame_Nkrumah_Monument_at_the_Kwame_Nkrumah_Mausoleum_and_Memorial_Park,_Accra_01.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Monument_at_the_Kwame_Nkrumah_Mausoleum_and_Memorial_Park,_Accra_01.jpg",
-        "credit": "Nkansahrexford · CC BY-SA 4.0",
-        "caption": "Monumento a Nkrumah en el parque."
-      }
-    ]
+    "credit": "Fquasie · CC BY-SA 4.0",
+    "caption": "Mausoleo de Kwame Nkrumah."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/OSAGYEFO_DR._KWAME_NKRUMAH_Grave_at_Kwame_Nkrumah_mausoleum.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:OSAGYEFO_DR._KWAME_NKRUMAH_Grave_at_Kwame_Nkrumah_mausoleum.jpg",
+    "credit": "Maame1Yaa · CC BY 4.0",
+    "caption": "Sepultura dentro del memorial."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kwame_Nkrumah_Monument_at_the_Kwame_Nkrumah_Mausoleum_and_Memorial_Park,_Accra_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Monument_at_the_Kwame_Nkrumah_Mausoleum_and_Memorial_Park,_Accra_01.jpg",
+    "credit": "Nkansahrexford · CC BY-SA 4.0",
+    "caption": "Monumento a Nkrumah en el parque."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Shai Hills Resource Reserve",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "½–1 día",
+  "lat": 5.9167,
+  "lon": -0.0667,
+  "desc": "Shai Hills combina sabana, afloramientos rocosos y patrimonio shai cerca de Accra. Los recorridos se hacen con el personal de la reserva.",
+  "credit": "Matti Blume · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Hills,_Shai-Osudoku_(P1100035).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Shai_Hills,_Shai-Osudoku_(P1100035).jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la salida natural más accesible desde la capital y ofrece paisaje y fauna sin llegar a Mole.",
+   "see": "Shai Hills combina sabana, afloramientos rocosos y patrimonio shai cerca de Accra. Los recorridos se hacen con el personal de la reserva.",
+   "access": "El pin marca la reserva; entrar por la puerta operativa que confirme el gestor. Contratar guía y dejar al perro fuera del área protegida.",
+   "when": "Al amanecer o última tarde, en día seco; de dos horas a medio día.",
+   "skip": "Omitir con calor extremo, incendio, cierre o sin custodia segura para el perro."
   },
-  {
-    "n": 9,
-    "name": "Shai Hills Resource Reserve",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "½–1 día",
-    "lat": 5.9167,
-    "lon": -0.0667,
-    "desc": "Shai Hills combina sabana, afloramientos rocosos y patrimonio shai cerca de Accra. Los recorridos se hacen con el personal de la reserva.",
-    "credit": "Matti Blume · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Shai Hills",
+    "url": "https://visitghana.com/greater-accra-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Hills,_Shai-Osudoku_(P1100035).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Shai_Hills,_Shai-Osudoku_(P1100035).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la salida natural más accesible desde la capital y ofrece paisaje y fauna sin llegar a Mole.",
-      "see": "Shai Hills combina sabana, afloramientos rocosos y patrimonio shai cerca de Accra. Los recorridos se hacen con el personal de la reserva.",
-      "access": "El pin marca la reserva; entrar por la puerta operativa que confirme el gestor. Contratar guía y dejar al perro fuera del área protegida.",
-      "when": "Al amanecer o última tarde, en día seco; de dos horas a medio día.",
-      "skip": "Omitir con calor extremo, incendio, cierre o sin custodia segura para el perro."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Shai Hills",
-        "url": "https://visitghana.com/greater-accra-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Hills,_Shai-Osudoku_(P1100035).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Shai_Hills,_Shai-Osudoku_(P1100035).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Sabana y roca en Shai Hills."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Hills,_Shai-Osudoku_(P1100078).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Shai_Hills,_Shai-Osudoku_(P1100078).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Afloramiento rocoso de la reserva."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Hills,_Shai-Osudoku_(P1100104).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Shai_Hills,_Shai-Osudoku_(P1100104).jpg",
-        "credit": "Matti Blume · CC BY-SA 4.0",
-        "caption": "Fauna visible en el paisaje de Shai Hills."
-      }
-    ]
+    "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Sabana y roca en Shai Hills."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Hills,_Shai-Osudoku_(P1100078).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Shai_Hills,_Shai-Osudoku_(P1100078).jpg",
+    "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Afloramiento rocoso de la reserva."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Hills,_Shai-Osudoku_(P1100104).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Shai_Hills,_Shai-Osudoku_(P1100104).jpg",
+    "credit": "Matti Blume · CC BY-SA 4.0",
+    "caption": "Fauna visible en el paisaje de Shai Hills."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Presa de Akosombo y lago Volta",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 6.2997,
+  "lon": 0.0589,
+  "desc": "La presa de Akosombo contiene el lago Volta y es una pieza decisiva de la industrialización de Ghana. La visita debe hacerse desde un mirador o tour autorizado.",
+  "credit": "Stig Nygaard · CC BY 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akosombo_dam.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Akosombo_dam.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Ayuda a entender energía, aluminio, desplazamientos humanos y la escala artificial del lago Volta.",
+   "see": "La presa de Akosombo contiene el lago Volta y es una pieza decisiva de la industrialización de Ghana. La visita debe hacerse desde un mirador o tour autorizado.",
+   "access": "El pin corresponde a la presa. No detenerse ni fotografiar desde zonas de seguridad; solicitar visita autorizada o usar el mirador indicado localmente.",
+   "when": "Día laborable y con confirmación previa; una o dos horas.",
+   "skip": "Omitir si no hay acceso autorizado, controles reforzados o el desvío compromete la etapa."
   },
-  {
-    "n": 10,
-    "name": "Presa de Akosombo y lago Volta",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1 noche",
-    "lat": 6.2997,
-    "lon": 0.0589,
-    "desc": "La presa de Akosombo contiene el lago Volta y es una pieza decisiva de la industrialización de Ghana. La visita debe hacerse desde un mirador o tour autorizado.",
-    "credit": "Stig Nygaard · CC BY 2.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Eastern Region",
+    "url": "https://visitghana.com/eastern-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akosombo_dam.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Akosombo_dam.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Ayuda a entender energía, aluminio, desplazamientos humanos y la escala artificial del lago Volta.",
-      "see": "La presa de Akosombo contiene el lago Volta y es una pieza decisiva de la industrialización de Ghana. La visita debe hacerse desde un mirador o tour autorizado.",
-      "access": "El pin corresponde a la presa. No detenerse ni fotografiar desde zonas de seguridad; solicitar visita autorizada o usar el mirador indicado localmente.",
-      "when": "Día laborable y con confirmación previa; una o dos horas.",
-      "skip": "Omitir si no hay acceso autorizado, controles reforzados o el desvío compromete la etapa."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Eastern Region",
-        "url": "https://visitghana.com/eastern-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akosombo_dam.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Akosombo_dam.jpg",
-        "credit": "Stig Nygaard · CC BY 2.0",
-        "caption": "Presa de Akosombo y lago Volta."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akosombo_dam_ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Akosombo_dam_ghana.jpg",
-        "credit": "Edward Kamau · CC BY-SA 3.0",
-        "caption": "Estructura de la presa desde aguas abajo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akosombo_Dam_from_the_Volta_Hotel.JPG?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Akosombo_Dam_from_the_Volta_Hotel.JPG",
-        "credit": "SandisterTei · CC BY-SA 3.0",
-        "caption": "Vista autorizada de Akosombo desde Volta Hotel."
-      }
-    ]
+    "credit": "Stig Nygaard · CC BY 2.0",
+    "caption": "Presa de Akosombo y lago Volta."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akosombo_dam_ghana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Akosombo_dam_ghana.jpg",
+    "credit": "Edward Kamau · CC BY-SA 3.0",
+    "caption": "Estructura de la presa desde aguas abajo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akosombo_Dam_from_the_Volta_Hotel.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Akosombo_Dam_from_the_Volta_Hotel.JPG",
+    "credit": "SandisterTei · CC BY-SA 3.0",
+    "caption": "Vista autorizada de Akosombo desde Volta Hotel."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Ada Foah · desembocadura del Volta",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1–2 noches",
+  "lat": 5.7833,
+  "lon": 0.6333,
+  "desc": "Ada Foah ocupa la desembocadura del Volta entre estuario, islas arenosas y Atlántico. La experiencia depende de marea, mar y barca contratada.",
+  "credit": "Philip Nalangan · CC BY 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_2.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_2.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el mejor paisaje de estuario de la costa oriental y una pausa antes de Togo.",
+   "see": "Ada Foah ocupa la desembocadura del Volta entre estuario, islas arenosas y Atlántico. La experiencia depende de marea, mar y barca contratada.",
+   "access": "El pin se mantiene en Ada Foah, no en un embarcadero concreto. Pactar punto, chalecos, ruta y regreso; preguntar por corrientes antes de bañarse.",
+   "when": "Mañana, mar tranquilo y luz suficiente para regresar; medio día o una noche.",
+   "skip": "Descartarlo con oleaje, tormenta, barco sin chalecos o alojamiento sin aparcamiento seguro."
   },
-  {
-    "n": 11,
-    "name": "Ada Foah · desembocadura del Volta",
-    "cat": "Costa",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1–2 noches",
-    "lat": 5.7833,
-    "lon": 0.6333,
-    "desc": "Ada Foah ocupa la desembocadura del Volta entre estuario, islas arenosas y Atlántico. La experiencia depende de marea, mar y barca contratada.",
-    "credit": "Philip Nalangan · CC BY 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Ada Foah",
+    "url": "https://visitghana.com/ada-foah-tourism/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_2.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_2.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el mejor paisaje de estuario de la costa oriental y una pausa antes de Togo.",
-      "see": "Ada Foah ocupa la desembocadura del Volta entre estuario, islas arenosas y Atlántico. La experiencia depende de marea, mar y barca contratada.",
-      "access": "El pin se mantiene en Ada Foah, no en un embarcadero concreto. Pactar punto, chalecos, ruta y regreso; preguntar por corrientes antes de bañarse.",
-      "when": "Mañana, mar tranquilo y luz suficiente para regresar; medio día o una noche.",
-      "skip": "Descartarlo con oleaje, tormenta, barco sin chalecos o alojamiento sin aparcamiento seguro."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Ada Foah",
-        "url": "https://visitghana.com/ada-foah-tourism/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_2.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_2.jpg",
-        "credit": "Philip Nalangan · CC BY 4.0",
-        "caption": "Arena y oleaje en Ada Foah."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_1.jpg",
-        "credit": "Philip Nalangan · CC BY 4.0",
-        "caption": "Litoral de Ada Foah."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Resort_close_to_Volta_Estuary.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ada_Resort_close_to_Volta_Estuary.jpg",
-        "credit": "Rberchie · CC BY-SA 4.0",
-        "caption": "Paisaje junto al estuario del Volta."
-      }
-    ]
+    "credit": "Philip Nalangan · CC BY 4.0",
+    "caption": "Arena y oleaje en Ada Foah."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_1.jpg",
+    "credit": "Philip Nalangan · CC BY 4.0",
+    "caption": "Litoral de Ada Foah."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Resort_close_to_Volta_Estuary.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ada_Resort_close_to_Volta_Estuary.jpg",
+    "credit": "Rberchie · CC BY-SA 4.0",
+    "caption": "Paisaje junto al estuario del Volta."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Santuario de monos de Tafi Atome",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "prohibido en el bosque sagrado",
+  "time": "½ día",
+  "lat": 6.9333,
+  "lon": 0.45,
+  "desc": "Tafi Atome es un santuario comunitario donde monos mona viven alrededor del bosque sagrado. La visita debe ser guiada y sin alimentar por cuenta propia.",
+  "credit": "Treysam · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_monkey_on_top_of_a_tree_at_the_Tafi_Atome_Monkey_Sanctuary_in_the_Volta_Region_of_Ghana.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:A_monkey_on_top_of_a_tree_at_the_Tafi_Atome_Monkey_Sanctuary_in_the_Volta_Region_of_Ghana.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Conecta conservación comunitaria, tradición local y observación cercana de primates.",
+   "see": "Tafi Atome es un santuario comunitario donde monos mona viven alrededor del bosque sagrado. La visita debe ser guiada y sin alimentar por cuenta propia.",
+   "access": "El pin coincide con el santuario. Confirmar horario y guía; el perro no debe entrar ni acercarse a los monos.",
+   "when": "Primera hora, cuando hay actividad y menos calor; una o dos horas.",
+   "skip": "Omitir sin custodia para el perro, con guía que fomente contacto inseguro o si el recinto está cerrado."
   },
-  {
-    "n": 12,
-    "name": "Santuario de monos de Tafi Atome",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "prohibido en el bosque sagrado",
-    "time": "½ día",
-    "lat": 6.9333,
-    "lon": 0.45,
-    "desc": "Tafi Atome es un santuario comunitario donde monos mona viven alrededor del bosque sagrado. La visita debe ser guiada y sin alimentar por cuenta propia.",
-    "credit": "Treysam · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Volta Region",
+    "url": "https://visitghana.com/volta-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_monkey_on_top_of_a_tree_at_the_Tafi_Atome_Monkey_Sanctuary_in_the_Volta_Region_of_Ghana.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:A_monkey_on_top_of_a_tree_at_the_Tafi_Atome_Monkey_Sanctuary_in_the_Volta_Region_of_Ghana.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Conecta conservación comunitaria, tradición local y observación cercana de primates.",
-      "see": "Tafi Atome es un santuario comunitario donde monos mona viven alrededor del bosque sagrado. La visita debe ser guiada y sin alimentar por cuenta propia.",
-      "access": "El pin coincide con el santuario. Confirmar horario y guía; el perro no debe entrar ni acercarse a los monos.",
-      "when": "Primera hora, cuando hay actividad y menos calor; una o dos horas.",
-      "skip": "Omitir sin custodia para el perro, con guía que fomente contacto inseguro o si el recinto está cerrado."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Volta Region",
-        "url": "https://visitghana.com/volta-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_monkey_on_top_of_a_tree_at_the_Tafi_Atome_Monkey_Sanctuary_in_the_Volta_Region_of_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:A_monkey_on_top_of_a_tree_at_the_Tafi_Atome_Monkey_Sanctuary_in_the_Volta_Region_of_Ghana.jpg",
-        "credit": "Treysam · CC BY-SA 4.0",
-        "caption": "Mono mona en Tafi Atome."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tafi_Atome_Monkey_Sanctuary_6.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Tafi_Atome_Monkey_Sanctuary_6.jpg",
-        "credit": "Selorm18 · CC BY-SA 3.0",
-        "caption": "Bosque del santuario comunitario."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_at_tafi_atome_monkey_sanctuary.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_tafi_atome_monkey_sanctuary.jpg",
-        "credit": "Jones Anlimah · CC BY-SA 4.0",
-        "caption": "Atardecer en Tafi Atome."
-      }
-    ]
+    "credit": "Treysam · CC BY-SA 4.0",
+    "caption": "Mono mona en Tafi Atome."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tafi_Atome_Monkey_Sanctuary_6.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tafi_Atome_Monkey_Sanctuary_6.jpg",
+    "credit": "Selorm18 · CC BY-SA 3.0",
+    "caption": "Bosque del santuario comunitario."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset_at_tafi_atome_monkey_sanctuary.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_tafi_atome_monkey_sanctuary.jpg",
+    "credit": "Jones Anlimah · CC BY-SA 4.0",
+    "caption": "Atardecer en Tafi Atome."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "name": "Amedzofe y el monte Gemi",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con correa",
+  "time": "½–1 día",
+  "lat": 6.8566777,
+  "lon": 0.4335728,
+  "desc": "Amedzofe es una localidad de montaña al pie del Gemi, con vistas del altiplano y una subida corta hasta la cruz de la cumbre.",
+  "credit": "Williams Penuku · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amedzofe_village_Ghana.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Amedzofe_village_Ghana.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece clima fresco, paisaje habitado y una caminata más breve que Afadja.",
+   "see": "Amedzofe es una localidad de montaña al pie del Gemi, con vistas del altiplano y una subida corta hasta la cruz de la cumbre.",
+   "access": "El pin se corrige a la referencia del monte Gemi. Preguntar en el pueblo por guía, sendero y aparcamiento; no seguir atajos entre cultivos.",
+   "when": "Amanecer o última tarde despejada; de dos a tres horas.",
+   "skip": "Omitir con niebla, tormenta, roca mojada o si no se confirma el acceso final."
   },
-  {
-    "n": 13,
-    "name": "Amedzofe y el monte Gemi",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con correa",
-    "time": "½–1 día",
-    "lat": 6.8566777,
-    "lon": 0.4335728,
-    "desc": "Amedzofe es una localidad de montaña al pie del Gemi, con vistas del altiplano y una subida corta hasta la cruz de la cumbre.",
-    "credit": "Williams Penuku · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Amedzofe",
+    "url": "https://visitghana.com/amedzofe-village/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amedzofe_village_Ghana.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Amedzofe_village_Ghana.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece clima fresco, paisaje habitado y una caminata más breve que Afadja.",
-      "see": "Amedzofe es una localidad de montaña al pie del Gemi, con vistas del altiplano y una subida corta hasta la cruz de la cumbre.",
-      "access": "El pin se corrige a la referencia del monte Gemi. Preguntar en el pueblo por guía, sendero y aparcamiento; no seguir atajos entre cultivos.",
-      "when": "Amanecer o última tarde despejada; de dos a tres horas.",
-      "skip": "Omitir con niebla, tormenta, roca mojada o si no se confirma el acceso final."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Amedzofe",
-        "url": "https://visitghana.com/amedzofe-village/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amedzofe_village_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Amedzofe_village_Ghana.jpg",
-        "credit": "Williams Penuku · CC BY-SA 4.0",
-        "caption": "Amedzofe en el relieve de Volta."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amedzofe_Town_Facing_the_mountain_Gemi.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Amedzofe_Town_Facing_the_mountain_Gemi.jpg",
-        "credit": "Amuzujoe · CC BY-SA 4.0",
-        "caption": "El pueblo frente al monte Gemi."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemi_Mountain_(German_Evangelical_Mission)_at_Amedzofe_in_the_Volta_Region_of_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Gemi_Mountain_(German_Evangelical_Mission)_at_Amedzofe_in_the_Volta_Region_of_Ghana.jpg",
-        "credit": "Amuzujoe · CC BY-SA 4.0",
-        "caption": "Cruz y cumbre del monte Gemi."
-      }
-    ]
+    "credit": "Williams Penuku · CC BY-SA 4.0",
+    "caption": "Amedzofe en el relieve de Volta."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Amedzofe_Town_Facing_the_mountain_Gemi.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Amedzofe_Town_Facing_the_mountain_Gemi.jpg",
+    "credit": "Amuzujoe · CC BY-SA 4.0",
+    "caption": "El pueblo frente al monte Gemi."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemi_Mountain_(German_Evangelical_Mission)_at_Amedzofe_in_the_Volta_Region_of_Ghana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Gemi_Mountain_(German_Evangelical_Mission)_at_Amedzofe_in_the_Volta_Region_of_Ghana.jpg",
+    "credit": "Amuzujoe · CC BY-SA 4.0",
+    "caption": "Cruz y cumbre del monte Gemi."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Cataratas de Wli (Agumatsa)",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1 día",
+  "lat": 7.1167,
+  "lon": 0.5833,
+  "desc": "Wli es la cascada más alta de Ghana por caída total, en el borde de la cordillera de Togo. El sendero inferior es la opción razonable; el circuito superior es exigente.",
+  "credit": "Cornelius Agordome · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wli_Agumatse_Waterfall_aerial_view.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Wli_Agumatse_Waterfall_aerial_view.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "La gran pared y el bosque lleno de murciélagos frugívoros justifican el desvío incluso sin hacer la ruta larga.",
+   "see": "Wli es la cascada más alta de Ghana por caída total, en el borde de la cordillera de Togo. El sendero inferior es la opción razonable; el circuito superior es exigente.",
+   "access": "El pin cae en Wli Agumatsa Falls. Registrarse en el centro, contratar guía cuando sea obligatorio y confirmar la política del perro.",
+   "when": "Mañana y firme seco; dos horas para la inferior o medio día largo para la superior.",
+   "skip": "Omitir la ruta alta con lluvia, calor fuerte o forma insuficiente; no entrar bajo la caída con crecida."
   },
-  {
-    "n": 14,
-    "name": "Cataratas de Wli (Agumatsa)",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1 día",
-    "lat": 7.1167,
-    "lon": 0.5833,
-    "desc": "Wli es la cascada más alta de Ghana por caída total, en el borde de la cordillera de Togo. El sendero inferior es la opción razonable; el circuito superior es exigente.",
-    "credit": "Cornelius Agordome · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Volta Region",
+    "url": "https://visitghana.com/volta-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wli_Agumatse_Waterfall_aerial_view.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Wli_Agumatse_Waterfall_aerial_view.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "La gran pared y el bosque lleno de murciélagos frugívoros justifican el desvío incluso sin hacer la ruta larga.",
-      "see": "Wli es la cascada más alta de Ghana por caída total, en el borde de la cordillera de Togo. El sendero inferior es la opción razonable; el circuito superior es exigente.",
-      "access": "El pin cae en Wli Agumatsa Falls. Registrarse en el centro, contratar guía cuando sea obligatorio y confirmar la política del perro.",
-      "when": "Mañana y firme seco; dos horas para la inferior o medio día largo para la superior.",
-      "skip": "Omitir la ruta alta con lluvia, calor fuerte o forma insuficiente; no entrar bajo la caída con crecida."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Volta Region",
-        "url": "https://visitghana.com/volta-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wli_Agumatse_Waterfall_aerial_view.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Wli_Agumatse_Waterfall_aerial_view.jpg",
-        "credit": "Cornelius Agordome · CC BY-SA 4.0",
-        "caption": "Caída completa de Wli desde el aire."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wli_Agumatse_Waterfall_(Close_view).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Wli_Agumatse_Waterfall_(Close_view).jpg",
-        "credit": "Cornelius Agordome · CC BY-SA 4.0",
-        "caption": "Vista cercana de Wli Agumatsa."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wli_waterfall_hike.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Wli_waterfall_hike.jpg",
-        "credit": "Stig Nygaard · CC BY 2.0",
-        "caption": "Sendero de acceso a la cascada."
-      }
-    ]
+    "credit": "Cornelius Agordome · CC BY-SA 4.0",
+    "caption": "Caída completa de Wli desde el aire."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wli_Agumatse_Waterfall_(Close_view).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Wli_Agumatse_Waterfall_(Close_view).jpg",
+    "credit": "Cornelius Agordome · CC BY-SA 4.0",
+    "caption": "Vista cercana de Wli Agumatsa."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wli_waterfall_hike.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Wli_waterfall_hike.jpg",
+    "credit": "Stig Nygaard · CC BY 2.0",
+    "caption": "Sendero de acceso a la cascada."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "name": "Monte Afadja (Afadjato) · techo de Ghana",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con correa",
+  "time": "½ día",
+  "lat": 7.0221919,
+  "lon": 0.561868,
+  "desc": "Afadja es una subida corta pero muy empinada desde Liati Wote, con vistas de la cordillera fronteriza. No es un paseo pese a su distancia reducida.",
+  "credit": "Ace Shogun · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Afadja(Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Mount_Afadja(Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D).jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la ascensión emblemática de Ghana y permite comparar el relieve con Gemi y Wli.",
+   "see": "Afadja es una subida corta pero muy empinada desde Liati Wote, con vistas de la cordillera fronteriza. No es un paseo pese a su distancia reducida.",
+   "access": "El pin coincide con la referencia de Afadjato. Registrarse en Liati Wote, tomar guía local y dejar claro el punto de inicio y retorno.",
+   "when": "Salida muy temprana y terreno seco; reservar de tres a cuatro horas.",
+   "skip": "Omitir con tormenta, barro, calor extremo o rodillas comprometidas; llevar agua y no contar con fuentes en ruta."
   },
-  {
-    "n": 15,
-    "name": "Monte Afadja (Afadjato) · techo de Ghana",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con correa",
-    "time": "½ día",
-    "lat": 7.0221919,
-    "lon": 0.561868,
-    "desc": "Afadja es una subida corta pero muy empinada desde Liati Wote, con vistas de la cordillera fronteriza. No es un paseo pese a su distancia reducida.",
-    "credit": "Ace Shogun · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Volta Region",
+    "url": "https://visitghana.com/volta-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Afadja(Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Mount_Afadja(Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la ascensión emblemática de Ghana y permite comparar el relieve con Gemi y Wli.",
-      "see": "Afadja es una subida corta pero muy empinada desde Liati Wote, con vistas de la cordillera fronteriza. No es un paseo pese a su distancia reducida.",
-      "access": "El pin coincide con la referencia de Afadjato. Registrarse en Liati Wote, tomar guía local y dejar claro el punto de inicio y retorno.",
-      "when": "Salida muy temprana y terreno seco; reservar de tres a cuatro horas.",
-      "skip": "Omitir con tormenta, barro, calor extremo o rodillas comprometidas; llevar agua y no contar con fuentes en ruta."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Volta Region",
-        "url": "https://visitghana.com/volta-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Afadja(Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mount_Afadja(Mt_Afadjato_or_%E2%80%9CAvedzeto.%E2%80%9D).jpg",
-        "credit": "Ace Shogun · CC BY-SA 4.0",
-        "caption": "Relieve del monte Afadja."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Afadja_Signboard_01.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mount_Afadja_Signboard_01.jpg",
-        "credit": "Amuzujoe · CC BY-SA 4.0",
-        "caption": "Señal del acceso a Afadja."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Beautiful_Landscape_view_on_the_Afadjato_Mountain_with_vegetation1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Landscape_view_on_the_Afadjato_Mountain_with_vegetation1.jpg",
-        "credit": "Treysam · CC BY-SA 4.0",
-        "caption": "Vista de la montaña y su vegetación."
-      }
-    ]
+    "credit": "Ace Shogun · CC BY-SA 4.0",
+    "caption": "Relieve del monte Afadja."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Afadja_Signboard_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Afadja_Signboard_01.jpg",
+    "credit": "Amuzujoe · CC BY-SA 4.0",
+    "caption": "Señal del acceso a Afadja."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Beautiful_Landscape_view_on_the_Afadjato_Mountain_with_vegetation1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Landscape_view_on_the_Afadjato_Mountain_with_vegetation1.jpg",
+    "credit": "Treysam · CC BY-SA 4.0",
+    "caption": "Vista de la montaña y su vegetación."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Cataratas de Boti y el baobab de tres cabezas",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.1937608,
+  "lon": -0.2186041,
+  "desc": "En la región Oriental, cerca de Koforidua: un salto doble de unos 30 m al que se baja por 250 escalones de piedra entre selva, con la peculiaridad de que los dos chorros («macho» y «hembra») solo se juntan en plena temporada de lluvias, lo que la tradición local llama su apareamiento. En el mismo circuito guiado están el Umbrella Rock (una seta de roca sobre la que caben veinte personas y desde la que se domina todo el valle) y el «baobab de tres cabezas», a unos 30 minutos a pie. La caminata completa entre los tres puntos es de unas 2-3 horas. Mejor en junio-julio o septiembre-octubre. Imagen de referencia de una cascada de Ghana, no de la propia Boti.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boti_Falls_and_environs_06.jpg?width=1600",
+    "credit": "Nkansahrexford · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boti_Falls_and_environs_06.jpg",
+    "caption": "Las cataratas de Boti."
+   }
+  ],
+  "links": [
+   {
+    "label": "Boti Falls — Visit Ghana (Ghana Tourism Authority)",
+    "url": "https://visitghana.com/boti-falls-2/"
+   },
+   {
+    "label": "Boti Falls — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Boti_Falls"
+   }
+  ],
+  "visit": {
+   "why": "Es el respiro verde más accesible del corredor Accra–Koforidua: a 17 km al noreste de Koforidua, media hora de asfalto desde la capital regional y poco más de hora y media desde Accra, sin salirse de la ruta hacia el este del país. Vale como parada de media mañana para estirar las piernas y bañarse antes de seguir hacia el Volta, no como destino en sí.",
+   "see": "Un salto doble de unos 30 m sobre el río Ponpon, con los dos chorros que la tradición local llama «macho» (el grande) y «hembra» (el pequeño) cayendo en paralelo sobre una misma poza en la que se puede nadar; cuando el caudal sube ambos se juntan y levantan un arcoíris que los vecinos leen como el apareamiento de los dos. Ojo con el nombre de la ficha: el árbol singular del conjunto no es un baobab, sino una palmera de tres cabezas, que junto con la Umbrella Rock (una roca en forma de paraguas) forma el paquete de tres visitas que se vende en taquilla.",
+   "access": "Carretera asfaltada desde Koforidua, sin necesidad de 4x4; el pin cae sobre el recinto de las cataratas, que está cercado y con taquilla. Desde el aparcamiento se baja al pie del salto por 250 escalones de hormigón, y la Umbrella Rock queda a unos 45 minutos de caminata desde allí. La web oficial de turismo de Ghana no publica ni horario ni tarifa (sólo teléfonos de contacto); la referencia más concreta que hemos encontrado habla de unos 100 GHS de entrada con guía incluido, así que conviene tomarlo como orden de magnitud y no como precio en firme. No es parque nacional ni reserva de fauna (el río nace aguas arriba, en la reserva forestal de Huhunya) y ninguna fuente abierta publica norma sobre perros: lo previsible es que nadie ponga pegas dentro del recinto, pero los 250 escalones y la subida a la roca no son terreno para el perro, así que hay que contar con turnarse.",
+   "when": "Dos o tres horas bastan para bajar, bañarse y subir; si se añade la Umbrella Rock, medio día. El momento es la estación de lluvias, de junio a agosto, cuando los dos chorros van llenos y se funden: es un salto estacional, y fuera de esa ventana el espectáculo se reduce mucho. Mejor a primera hora, antes de que lleguen las excursiones.",
+   "skip": "En plena estación seca (de diciembre a marzo) el agua baja a un hilo y no compensa ni el desvío ni la bajada de escalones. También cae del itinerario en fin de semana o festivo, cuando se llena de grupos venidos de Accra, y cualquier día en que haya prisa por llegar al lago Volta o a la frontera de Togo: es una parada de placer, no un hito."
   },
-  {
-    "n": 16,
-    "name": "Cataratas de Boti y la palmera de tres cabezas",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 6.1937608,
-    "lon": -0.2186041,
-    "desc": "Boti forma un doble salto en el bosque de Yilo Krobo; en temporada seca puede perder mucho caudal. El recinto incluye escalones y otros hitos turísticos.",
-    "credit": "Ananyaelixir · CC BY-SA 3.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BOTI_FALLS_at_its_best.jpg?width=1200",
-    "source": "https://commons.wikimedia.org/wiki/File:BOTI_FALLS_at_its_best.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una cascada accesible desde Accra y Akosombo, especialmente atractiva con caudal medio.",
-      "see": "Boti forma un doble salto en el bosque de Yilo Krobo; en temporada seca puede perder mucho caudal. El recinto incluye escalones y otros hitos turísticos.",
-      "access": "El pin coincide con Boti Falls. Confirmar caudal, horario y estado de escaleras; no asumir que el baño sea seguro.",
-      "when": "Tras lluvias moderadas y a primera hora; de dos a tres horas.",
-      "skip": "Omitir en estiaje extremo, con tormenta, escalones resbaladizos o aforo alto."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Boti Falls",
-        "url": "https://visitghana.com/attractions/boti-falls/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BOTI_FALLS_at_its_best.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:BOTI_FALLS_at_its_best.jpg",
-        "credit": "Ananyaelixir · CC BY-SA 3.0",
-        "caption": "Los dos saltos de Boti con caudal."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boti_Falls_and_environs_04.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Boti_Falls_and_environs_04.jpg",
-        "credit": "Nkansahrexford · CC BY-SA 4.0",
-        "caption": "Entorno forestal de Boti Falls."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boti_Water_Falls.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Boti_Water_Falls.jpg",
-        "credit": "Brans Wyte GH · CC BY-SA 4.0",
-        "caption": "Vista frontal de la cascada."
-      }
-    ]
+  "_restaurado": true
+ },
+ {
+  "n": 17,
+  "name": "Kumasi · mercado Kejetia y palacio Manhyia",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2 noches",
+  "lat": 6.6885,
+  "lon": -1.6244,
+  "desc": "Kumasi es la capital cultural asante: Manhyia aporta contexto histórico y Kejetia muestra la intensidad comercial actual. Conviene dividir la visita por zonas.",
+  "credit": "Nkansahrexford · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Manhyia_Palace_Museum.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Manhyia_Palace_Museum.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el lugar principal para comprender el poder asante vivo, no solo su pasado colonial.",
+   "see": "Kumasi es la capital cultural asante: Manhyia aporta contexto histórico y Kejetia muestra la intensidad comercial actual. Conviene dividir la visita por zonas.",
+   "access": "El pin se mantiene como ancla urbana. Priorizar Manhyia con horario confirmado; visitar Kejetia con guía, sin joyas visibles y sin dejar el coche en la calle.",
+   "when": "Día laborable, museo por la mañana y mercado con luz; una noche como mínimo.",
+   "skip": "Reducir el mercado con aglomeración, protesta o estacionamiento inseguro; no fotografiar personas sin permiso."
   },
-  {
-    "n": 17,
-    "name": "Kumasi · mercado Kejetia y palacio Manhyia",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2 noches",
-    "lat": 6.6885,
-    "lon": -1.6244,
-    "desc": "Kumasi es la capital cultural asante: Manhyia aporta contexto histórico y Kejetia muestra la intensidad comercial actual. Conviene dividir la visita por zonas.",
-    "credit": "Nkansahrexford · CC BY-SA 3.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Manhyia Palace Museum",
+    "url": "https://visitghana.com/manhyia-palace-museum-2/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Manhyia_Palace_Museum.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Manhyia_Palace_Museum.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el lugar principal para comprender el poder asante vivo, no solo su pasado colonial.",
-      "see": "Kumasi es la capital cultural asante: Manhyia aporta contexto histórico y Kejetia muestra la intensidad comercial actual. Conviene dividir la visita por zonas.",
-      "access": "El pin se mantiene como ancla urbana. Priorizar Manhyia con horario confirmado; visitar Kejetia con guía, sin joyas visibles y sin dejar el coche en la calle.",
-      "when": "Día laborable, museo por la mañana y mercado con luz; una noche como mínimo.",
-      "skip": "Reducir el mercado con aglomeración, protesta o estacionamiento inseguro; no fotografiar personas sin permiso."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Manhyia Palace Museum",
-        "url": "https://visitghana.com/manhyia-palace-museum-2/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Manhyia_Palace_Museum.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Manhyia_Palace_Museum.jpg",
-        "credit": "Nkansahrexford · CC BY-SA 3.0",
-        "caption": "Edificio del museo del palacio Manhyia."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Modern_market_hall_of_Kejetia_market.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Modern_market_hall_of_Kejetia_market.jpg",
-        "credit": "Afus199620 · CC0",
-        "caption": "Gran nave moderna del mercado de Kejetia."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Market_Women_-_Kejetia_Market_-_Kumasi_-_Ghana_(4755543337).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Market_Women_-_Kejetia_Market_-_Kumasi_-_Ghana_(4755543337).jpg",
-        "credit": "Adam Jones · CC BY-SA 2.0",
-        "caption": "Actividad comercial en Kejetia."
-      }
-    ]
+    "credit": "Nkansahrexford · CC BY-SA 3.0",
+    "caption": "Edificio del museo del palacio Manhyia."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Modern_market_hall_of_Kejetia_market.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Modern_market_hall_of_Kejetia_market.jpg",
+    "credit": "Afus199620 · CC0",
+    "caption": "Gran nave moderna del mercado de Kejetia."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Market_Women_-_Kejetia_Market_-_Kumasi_-_Ghana_(4755543337).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Market_Women_-_Kejetia_Market_-_Kumasi_-_Ghana_(4755543337).jpg",
+    "credit": "Adam Jones · CC BY-SA 2.0",
+    "caption": "Actividad comercial en Kejetia."
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "name": "Edificios tradicionales ashanti (UNESCO) · Besease y Ejisu",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.7237494,
+  "lon": -1.4496035,
+  "desc": "El santuario de Besease es uno de los edificios tradicionales asante inscritos por UNESCO. Su arquitectura de tierra y madera exige visita comunitaria respetuosa.",
+  "credit": "Sucram Yef · CC BY 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Besease_Traditional_Shrine_(Ejisu,_Ghana_2019).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Besease_Traditional_Shrine_(Ejisu,_Ghana_2019).jpg",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el complemento material de Manhyia y uno de los pocos santuarios tradicionales conservados cerca de Kumasi.",
+   "see": "El santuario de Besease es uno de los edificios tradicionales asante inscritos por UNESCO. Su arquitectura de tierra y madera exige visita comunitaria respetuosa.",
+   "access": "El pin coincide con Besease Traditional Shrine. Buscar al custodio, acordar visita y no entrar ni fotografiar rituales sin permiso.",
+   "when": "Mañana de día laborable y tiempo seco; alrededor de una hora.",
+   "skip": "Omitir si no aparece el custodio, hay ceremonia privada o la comunidad pide no entrar; el perro queda fuera."
   },
-  {
-    "n": 18,
-    "name": "Edificios tradicionales ashanti (UNESCO) · Besease y Ejisu",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 6.7237494,
-    "lon": -1.4496035,
-    "desc": "El santuario de Besease es uno de los edificios tradicionales asante inscritos por UNESCO. Su arquitectura de tierra y madera exige visita comunitaria respetuosa.",
-    "credit": "Sucram Yef · CC BY 2.0",
+  "links": [
+   {
+    "label": "UNESCO · edificios tradicionales asante",
+    "url": "https://whc.unesco.org/en/list/35/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Besease_Traditional_Shrine_(Ejisu,_Ghana_2019).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Besease_Traditional_Shrine_(Ejisu,_Ghana_2019).jpg",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el complemento material de Manhyia y uno de los pocos santuarios tradicionales conservados cerca de Kumasi.",
-      "see": "El santuario de Besease es uno de los edificios tradicionales asante inscritos por UNESCO. Su arquitectura de tierra y madera exige visita comunitaria respetuosa.",
-      "access": "El pin coincide con Besease Traditional Shrine. Buscar al custodio, acordar visita y no entrar ni fotografiar rituales sin permiso.",
-      "when": "Mañana de día laborable y tiempo seco; alrededor de una hora.",
-      "skip": "Omitir si no aparece el custodio, hay ceremonia privada o la comunidad pide no entrar; el perro queda fuera."
-    },
-    "links": [
-      {
-        "label": "UNESCO · edificios tradicionales asante",
-        "url": "https://whc.unesco.org/en/list/35/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Besease_Traditional_Shrine_(Ejisu,_Ghana_2019).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Besease_Traditional_Shrine_(Ejisu,_Ghana_2019).jpg",
-        "credit": "Sucram Yef · CC BY 2.0",
-        "caption": "Santuario tradicional de Besease."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ejisu_Bebease_Shrine_1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ejisu_Bebease_Shrine_1.jpg",
-        "credit": "Joy Agyepong · CC BY-SA 4.0",
-        "caption": "Patio y decoración del santuario."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Besease_Shrine_(5).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Besease_Shrine_(5).jpg",
-        "credit": "Noahalorwu · CC BY-SA 4.0",
-        "caption": "Arquitectura de tierra y madera de Besease."
-      }
-    ]
+    "credit": "Sucram Yef · CC BY 2.0",
+    "caption": "Santuario tradicional de Besease."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ejisu_Bebease_Shrine_1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ejisu_Bebease_Shrine_1.jpg",
+    "credit": "Joy Agyepong · CC BY-SA 4.0",
+    "caption": "Patio y decoración del santuario."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Besease_Shrine_(5).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Besease_Shrine_(5).jpg",
+    "credit": "Noahalorwu · CC BY-SA 4.0",
+    "caption": "Arquitectura de tierra y madera de Besease."
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "name": "Travesía del lago Volta · ferry Yeji–Makango",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½–1 día",
+  "lat": 8.2335603,
+  "lon": -0.6456909,
+  "desc": "El cruce clásico del lago Volta para quien sube de Kumasi al norte sin rodearlo: un pontón-ferry lleva vehículos entre Yeji (orilla sur, región Bono East) y Makango (orilla norte, región Savannah), ahorrando el largo rodeo por Tamale vía Kintampo. Es una travesía corta pero muy vistosa, entre canoas de pesca y pueblos de reasentados; el horario depende del nivel del agua y de la demanda, y hay además el ferry de pasajeros de larga distancia Akosombo-Yeji, que recorre de punta a punta el mayor lago artificial del mundo en una travesía nocturna de un día entero. CONFIRMAR antes de contar con él: los servicios se han interrumpido en varios periodos y el plan B es el rodeo por Kintampo y Tamale. Imagen de referencia del río Volta, no del propio ferry.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferry_Lake_Volta.jpg?width=1600",
+    "credit": "Hugues · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferry_Lake_Volta.jpg",
+    "caption": "Ferry en el lago Volta."
+   }
+  ],
+  "links": [
+   {
+    "label": "Volta Lake Transport Ltd. — operador oficial del ferry",
+    "url": "https://www.vltcgh.com/"
+   },
+   {
+    "label": "Yeji, Ghana — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Yeji,_Ghana"
+   },
+   {
+    "label": "Lake Volta — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Lake_Volta"
+   }
+  ],
+  "visit": {
+   "why": "Es el atajo que ahorra el rodeo occidental por Kintampo–Buipe–Tamale cuando se sube de Kumasi al norte, y de paso convierte un día de carretera en una travesía por el mayor embalse artificial del mundo por superficie: 8.502 km² y unos 520 km de Akosombo a Yapei. Para dos 4x4 que no llevan prisa es una de esas etapas en las que el transporte es el viaje.",
+   "see": "El embarcadero de Yeji en plena faena: camiones, furgonetas, motos y fardos de mercado maniobrando para entrar en un pontón plano, y después una travesía de lago abierto con troncos muertos asomando del agua —el bosque que quedó sumergido al cerrar la presa— y canoas de pesca. En la orilla norte, Makango ya es el país gonja: más seco, más sahel, otro Ghana.",
+   "access": "El pin corresponde al embarcadero de Yeji, capital del distrito de Pru East (región de Bono East), a orillas del lago; la otra cabecera es Makango, en la orilla norte. El servicio lo opera Volta Lake Transport Ltd., con sede en Akosombo, que declara Yeji entre sus puntos operativos y publica un horario de operación de ferry de lunes a domingo, de 05:30 a 18:00, pero no publica ni frecuencia ni tarifa por vehículo: las salidas dependen de la carga y de los días de mercado, así que hay que preguntar en el muelle y estar dispuesto a esperar. Se accede por la carretera Kumasi–Atebubu–Yeji, asfaltada pero con historial de fallos puntuales (en agosto de 2023 cedió un lado del puente sobre el río Nyomo, en Nyomoase, y durante un tiempo sólo pasaban vehículos ligeros y motos), así que conviene confirmar el estado del tramo antes de comprometer el día. No hace falta 4x4 salvo por las rampas de tierra del embarque, que con lluvia se ponen resbaladizas. No es parque ni reserva; nadie publica norma sobre animales a bordo y lo previsible es que el perro suba sin problema, mejor en cubierta y con sombra.",
+   "when": "Reservar medio día entero, no dos horas: la travesía en sí es corta comparada con la espera. Cruzar por la mañana, para no jugársela con el cierre de las 18:00 y para tener margen de dormir en Makango o Salaga si se cae una salida. En días de mercado el tráfico se dispara y el pontón encadena idas y vueltas.",
+   "skip": "Con el calendario apretado, o con una frontera de Burkina o Togo que cierra a hora fija, el rodeo asfaltado por Kintampo, Buipe y Tamale es más largo pero previsible y evita quedarse atrapado en una cola de camiones. También conviene descartarlo si el nivel del lago o el estado del embarcadero obligan a rampas embarradas con los 4x4 cargados, y si se llega a Yeji a media tarde: plantarse allí a las cinco es casi garantía de dormir en el pueblo."
   },
-  {
-    "n": 20,
-    "name": "Parque Nacional de Mole · safari a pie entre elefantes",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "prohibido",
-    "time": "2 noches",
-    "lat": 9.26227,
-    "lon": -1.85339,
-    "desc": "Mole es la principal reserva de sabana de Ghana, con safaris guiados y observación frecuente de elefantes. La fauna nunca está garantizada.",
-    "credit": "Lalambala · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 20,
+  "name": "Parque Nacional de Mole · safari a pie entre elefantes",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "prohibido",
+  "time": "2 noches",
+  "lat": 9.26227,
+  "lon": -1.85339,
+  "desc": "Mole es la principal reserva de sabana de Ghana, con safaris guiados y observación frecuente de elefantes. La fauna nunca está garantizada.",
+  "credit": "Lalambala · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mole_Ghana_2.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Mole_Ghana_2.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el PDI de naturaleza más completo del país y justifica el largo desvío al norte.",
+   "see": "Mole es la principal reserva de sabana de Ghana, con safaris guiados y observación frecuente de elefantes. La fauna nunca está garantizada.",
+   "access": "El pin se ajusta al área de visitantes y oficina, no al centroide del parque. Reservar alojamiento y safari; el perro no entra en vehículos ni senderos del parque.",
+   "when": "Estación seca, safari al amanecer y al menos dos noches por la distancia.",
+   "skip": "Omitir sin reserva, con alerta regional o sin custodia fiable para el perro; no bajar del vehículo fuera de indicación del guía."
+  },
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Mole National Park",
+    "url": "https://visitghana.com/mole-national-park/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mole_Ghana_2.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Mole_Ghana_2.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el PDI de naturaleza más completo del país y justifica el largo desvío al norte.",
-      "see": "Mole es la principal reserva de sabana de Ghana, con safaris guiados y observación frecuente de elefantes. La fauna nunca está garantizada.",
-      "access": "El pin se ajusta al área de visitantes y oficina, no al centroide del parque. Reservar alojamiento y safari; el perro no entra en vehículos ni senderos del parque.",
-      "when": "Estación seca, safari al amanecer y al menos dos noches por la distancia.",
-      "skip": "Omitir sin reserva, con alerta regional o sin custodia fiable para el perro; no bajar del vehículo fuera de indicación del guía."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Mole National Park",
-        "url": "https://visitghana.com/mole-national-park/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mole_Ghana_2.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mole_Ghana_2.jpg",
-        "credit": "Lalambala · CC BY-SA 4.0",
-        "caption": "Elefantes en una charca de Mole."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mole_National_Park_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mole_National_Park_Ghana.jpg",
-        "credit": "Stig Nygaard · CC BY 2.0",
-        "caption": "Sabana y elefante en Mole."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rich_Fauna_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Rich_Fauna_Ghana.jpg",
-        "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
-        "caption": "Fauna observada dentro del parque."
-      }
-    ]
+    "credit": "Lalambala · CC BY-SA 4.0",
+    "caption": "Elefantes en una charca de Mole."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mole_National_Park_Ghana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mole_National_Park_Ghana.jpg",
+    "credit": "Stig Nygaard · CC BY 2.0",
+    "caption": "Sabana y elefante en Mole."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rich_Fauna_Ghana.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Rich_Fauna_Ghana.jpg",
+    "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
+    "caption": "Fauna observada dentro del parque."
+   }
+  ]
+ },
+ {
+  "n": 21,
+  "name": "Mezquita de barro de Larabanga",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 9.2203489,
+  "lon": -1.8599614,
+  "desc": "La mezquita de Larabanga es un edificio de tierra de tradición sudanesa, mantenido por la comunidad junto a Mole. El interior no es una atracción abierta sin más.",
+  "credit": "Sathyan Velumani · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larabanga_Mosque_Ghana.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_Ghana.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Añade patrimonio islámico y arquitectura viva a una etapa dominada por la fauna.",
+   "see": "La mezquita de Larabanga es un edificio de tierra de tradición sudanesa, mantenido por la comunidad junto a Mole. El interior no es una atracción abierta sin más.",
+   "access": "El pin coincide con la mezquita. Buscar guía o custodio, acordar donación y pedir permiso para fotografiar; visitantes no musulmanes pueden quedar fuera.",
+   "when": "Mañana o tarde, fuera de la oración del viernes.",
+   "skip": "Omitir durante culto o si no hay consentimiento; perro siempre fuera del recinto."
   },
-  {
-    "n": 21,
-    "name": "Mezquita de barro de Larabanga",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 9.2203489,
-    "lon": -1.8599614,
-    "desc": "La mezquita de Larabanga es un edificio de tierra de tradición sudanesa, mantenido por la comunidad junto a Mole. El interior no es una atracción abierta sin más.",
-    "credit": "Sathyan Velumani · CC BY-SA 3.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · mezquita de Larabanga",
+    "url": "https://visitghana.com/larabanga-mosque/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larabanga_Mosque_Ghana.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_Ghana.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Añade patrimonio islámico y arquitectura viva a una etapa dominada por la fauna.",
-      "see": "La mezquita de Larabanga es un edificio de tierra de tradición sudanesa, mantenido por la comunidad junto a Mole. El interior no es una atracción abierta sin más.",
-      "access": "El pin coincide con la mezquita. Buscar guía o custodio, acordar donación y pedir permiso para fotografiar; visitantes no musulmanes pueden quedar fuera.",
-      "when": "Mañana o tarde, fuera de la oración del viernes.",
-      "skip": "Omitir durante culto o si no hay consentimiento; perro siempre fuera del recinto."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · mezquita de Larabanga",
-        "url": "https://visitghana.com/larabanga-mosque/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larabanga_Mosque_Ghana.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_Ghana.jpg",
-        "credit": "Sathyan Velumani · CC BY-SA 3.0",
-        "caption": "Fachada de tierra de la mezquita de Larabanga."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larabanga_Mosque_Best_View.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_Best_View.jpg",
-        "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
-        "caption": "Contrafuertes y torres de Larabanga."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larabanga_Mosque_0.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_0.jpg",
-        "credit": "Amuzujoe · CC BY-SA 4.0",
-        "caption": "Vista lateral del edificio mantenido por la comunidad."
-      }
-    ]
+    "credit": "Sathyan Velumani · CC BY-SA 3.0",
+    "caption": "Fachada de tierra de la mezquita de Larabanga."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larabanga_Mosque_Best_View.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_Best_View.jpg",
+    "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
+    "caption": "Contrafuertes y torres de Larabanga."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Larabanga_Mosque_0.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_0.jpg",
+    "credit": "Amuzujoe · CC BY-SA 4.0",
+    "caption": "Vista lateral del edificio mantenido por la comunidad."
+   }
+  ]
+ },
+ {
+  "n": 22,
+  "name": "Cocodrilos sagrados de Paga",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "prohibido en la charca",
+  "time": "½ día",
+  "lat": 10.9854035,
+  "lon": -1.109224,
+  "desc": "El estanque sagrado de Paga alberga cocodrilos del Nilo habituados a la presencia humana. La visita es cultural, pero los animales siguen siendo salvajes.",
+  "credit": "Knowledge and philosophy · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paga_crocodile_pond_Julu_2024.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Paga_crocodile_pond_Julu_2024.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una tradición comunitaria singular en la frontera con Burkina Faso, no un zoológico convencional.",
+   "see": "El estanque sagrado de Paga alberga cocodrilos del Nilo habituados a la presencia humana. La visita es cultural, pero los animales siguen siendo salvajes.",
+   "access": "El pin coincide con Paga Crocodile Pond. Entrar solo con guía autorizado, mantener distancia y rechazar poses o contacto que parezcan inseguros; dejar al perro lejos.",
+   "when": "De día, con calor moderado y situación de seguridad del extremo norte confirmada.",
+   "skip": "Omitir con alerta regional, guía informal, presión para tocar al animal o sin custodia para el perro."
   },
-  {
-    "n": 22,
-    "name": "Cocodrilos sagrados de Paga",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "prohibido en la charca",
-    "time": "½ día",
-    "lat": 10.9854035,
-    "lon": -1.109224,
-    "desc": "El estanque sagrado de Paga alberga cocodrilos del Nilo habituados a la presencia humana. La visita es cultural, pero los animales siguen siendo salvajes.",
-    "credit": "Knowledge and philosophy · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Upper East Region",
+    "url": "https://visitghana.com/upper-east-region/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paga_crocodile_pond_Julu_2024.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Paga_crocodile_pond_Julu_2024.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una tradición comunitaria singular en la frontera con Burkina Faso, no un zoológico convencional.",
-      "see": "El estanque sagrado de Paga alberga cocodrilos del Nilo habituados a la presencia humana. La visita es cultural, pero los animales siguen siendo salvajes.",
-      "access": "El pin coincide con Paga Crocodile Pond. Entrar solo con guía autorizado, mantener distancia y rechazar poses o contacto que parezcan inseguros; dejar al perro lejos.",
-      "when": "De día, con calor moderado y situación de seguridad del extremo norte confirmada.",
-      "skip": "Omitir con alerta regional, guía informal, presión para tocar al animal o sin custodia para el perro."
-    },
-    "links": [
-      {
-        "label": "Ghana Tourism Authority · Upper East Region",
-        "url": "https://visitghana.com/upper-east-region/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paga_crocodile_pond_Julu_2024.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Paga_crocodile_pond_Julu_2024.jpg",
-        "credit": "Knowledge and philosophy · CC BY-SA 4.0",
-        "caption": "Cocodrilo en el estanque sagrado de Paga."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Friendly_Paga_Crocodile_I.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Friendly_Paga_Crocodile_I.jpg",
-        "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
-        "caption": "Encuentro guiado documentado en Paga; no imitar sin control."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paga_Crocodile_Pond_3.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Paga_Crocodile_Pond_3.jpg",
-        "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
-        "caption": "Orilla del estanque y uno de sus cocodrilos."
-      }
-    ]
-  }
+    "credit": "Knowledge and philosophy · CC BY-SA 4.0",
+    "caption": "Cocodrilo en el estanque sagrado de Paga."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Friendly_Paga_Crocodile_I.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Friendly_Paga_Crocodile_I.jpg",
+    "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
+    "caption": "Encuentro guiado documentado en Paga; no imitar sin control."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paga_Crocodile_Pond_3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Paga_Crocodile_Pond_3.jpg",
+    "credit": "Dieu-Donné Gameli · CC BY-SA 3.0",
+    "caption": "Orilla del estanque y uno de sus cocodrilos."
+   }
+  ]
+ },
+ {
+  "n": 23,
+  "name": "Cataratas de Boti y la palmera de tres cabezas",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.1937608,
+  "lon": -0.2186041,
+  "desc": "Boti forma un doble salto en el bosque de Yilo Krobo; en temporada seca puede perder mucho caudal. El recinto incluye escalones y otros hitos turísticos.",
+  "credit": "Ananyaelixir · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BOTI_FALLS_at_its_best.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:BOTI_FALLS_at_its_best.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una cascada accesible desde Accra y Akosombo, especialmente atractiva con caudal medio.",
+   "see": "Boti forma un doble salto en el bosque de Yilo Krobo; en temporada seca puede perder mucho caudal. El recinto incluye escalones y otros hitos turísticos.",
+   "access": "El pin coincide con Boti Falls. Confirmar caudal, horario y estado de escaleras; no asumir que el baño sea seguro.",
+   "when": "Tras lluvias moderadas y a primera hora; de dos a tres horas.",
+   "skip": "Omitir en estiaje extremo, con tormenta, escalones resbaladizos o aforo alto."
+  },
+  "links": [
+   {
+    "label": "Ghana Tourism Authority · Boti Falls",
+    "url": "https://visitghana.com/attractions/boti-falls/"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BOTI_FALLS_at_its_best.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:BOTI_FALLS_at_its_best.jpg",
+    "credit": "Ananyaelixir · CC BY-SA 3.0",
+    "caption": "Los dos saltos de Boti con caudal."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boti_Falls_and_environs_04.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Boti_Falls_and_environs_04.jpg",
+    "credit": "Nkansahrexford · CC BY-SA 4.0",
+    "caption": "Entorno forestal de Boti Falls."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boti_Water_Falls.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Boti_Water_Falls.jpg",
+    "credit": "Brans Wyte GH · CC BY-SA 4.0",
+    "caption": "Vista frontal de la cascada."
+   }
+  ]
+ }
 ]

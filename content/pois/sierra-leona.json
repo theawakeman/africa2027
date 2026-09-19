@@ -1,552 +1,944 @@
 [
-  {
-    "n": 2,
-    "name": "Freetown · la ciudad de los libertos",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2–3 noches",
-    "lat": 8.4870803,
-    "lon": -13.2354918,
-    "desc": "Freetown es la gran base logística del país y una ciudad construida entre puerto, colinas y barrios costeros. El histórico Cotton Tree cayó en 2023: sus fotos son memoria, no una promesa de visita.",
-    "credit": "David Hond · CC BY 2.0",
+ {
+  "n": 1,
+  "name": "Gbalamuya / Kambia · la puerta de entrada",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 9.1261664,
+  "lon": -12.9176518,
+  "desc": "Gbalamuya es el puesto fronterizo principal del país, justo enfrente del guineano de Pamelap, en la carretera Conakry-Freetown: es el paso que usa prácticamente todo el tráfico regional y el único documentado con garantías. A 15 km está Kambia, capital de distrito, primera población con mercado, combustible, cambio de moneda y alojamiento elemental. Aquí es donde se resuelve la entrada: control de inmigración (el visado a la llegada se expide en este puesto, ver la sección de visado), aduana del vehículo, seguro Brown Card de la CEDEAO y el certificado de fiebre amarilla, que se comprueba. La web oficial de turismo avisa de que el cruce puede llevar varias horas por colas y trámites, y recomienda cruzar siempre de día. Coordenada del puesto aproximada: confirmar sobre el terreno.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kambia_-_Perilla_Francesco_-_1928.jpg?width=1600",
+    "credit": "Francesco Perilla · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Kambia_-_Perilla_Francesco_-_1928.jpg",
+    "caption": "Kambia en 1928. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Gbalamuya (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Gbalamuya"
+   },
+   {
+    "label": "Entrar a Sierra Leona por tierra – Visit Sierra Leone",
+    "url": "https://www.visitsierraleone.org/getting-to-sierra-leone-by-land/"
+   },
+   {
+    "label": "FCDO – Sierra Leone, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es el punto por el que el convoy entra o sale del país en el eje Conakry-Freetown, y el trámite que define el día entero: no es una parada, es una gestión. Kambia, unos 55 km al sureste, es el primer sitio con banco, combustible y dónde dormir si el paso se alarga.",
+   "see": "Un puesto de aduanas de la NRA en el lado sierraleonés y el guineano de Pamelap justo enfrente, con explanada de camiones, cambistas y mercado susu. Es una frontera de trabajo, no de paisaje: se mira poco y se despacha rápido.",
+   "access": "Carretera principal asfaltada Conakry-Freetown; VSL Travel la da como la ruta terrestre más usada y calcula 6-8 horas de Conakry a Freetown. Ninguna fuente oficial publica horario del paso: el FCDO britanico avisa de que las fronteras con Guinea y Liberia pueden cerrarse sin previo aviso y de que hay múltiples controles. El pin corresponde a la localidad de Gbalamuya (a unos 56 km de Kambia y 210 de Freetown), no a la barrera exacta. Visado sacado con antelación, nunca confiando en la frontera. Para el perro no hay requisito publicado por Sierra Leona en fuente abierta: llevar certificado veterinario internacional y antirrábica en vigor y contar con que el papel se pide antes en el lado guineano que aquí.",
+   "when": "Cruzar a primera hora y con margen: puede resolverse en dos horas o comerse media jornada. Nunca de tarde, porque el FCDO desaconseja expresamente conducir de noche en el país.",
+   "skip": "Aquí nadie para por gusto. Si el paso se atasca o cierra, la decisión sensata es retroceder a dormir a Kambia y volver al día siguiente, no esperar en la explanada."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 2,
+  "name": "Freetown · la ciudad de los libertos",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2–3 noches",
+  "lat": 8.4870803,
+  "lon": -13.2354918,
+  "desc": "Freetown es la gran base logística del país y una ciudad construida entre puerto, colinas y barrios costeros. El histórico Cotton Tree cayó en 2023: sus fotos son memoria, no una promesa de visita.",
+  "credit": "David Hond · CC BY 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Freetown-aerialview.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Freetown-aerialview.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Concentra servicios, patrimonio krio y los operadores necesarios para islas, playas y reservas.",
+   "see": "Freetown es la gran base logística del país y una ciudad construida entre puerto, colinas y barrios costeros. El histórico Cotton Tree cayó en 2023: sus fotos son memoria, no una promesa de visita.",
+   "access": "El pin se ajusta a la ficha de Freetown en Google Maps porque describe el nodo urbano. Reservar estacionamiento vigilado y planear cada salida por el tráfico de la península.",
+   "when": "Días laborables para gestiones; recorridos urbanos de mañana y antes del anochecer.",
+   "skip": "Reducir la visita si las lluvias, atascos o falta de aparcamiento seguro impiden moverse con margen."
+  },
+  "links": [
+   {
+    "label": "Ministerio de Turismo · historia de Sierra Leona",
+    "url": "https://tourismsierraleone.com/where-to-go/freetown/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Freetown-aerialview.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Freetown-aerialview.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Concentra servicios, patrimonio krio y los operadores necesarios para islas, playas y reservas.",
-      "see": "Freetown es la gran base logística del país y una ciudad construida entre puerto, colinas y barrios costeros. El histórico Cotton Tree cayó en 2023: sus fotos son memoria, no una promesa de visita.",
-      "access": "El pin se ajusta a la ficha de Freetown en Google Maps porque describe el nodo urbano. Reservar estacionamiento vigilado y planear cada salida por el tráfico de la península.",
-      "when": "Días laborables para gestiones; recorridos urbanos de mañana y antes del anochecer.",
-      "skip": "Reducir la visita si las lluvias, atascos o falta de aparcamiento seguro impiden moverse con margen."
-    },
-    "links": [
-      {
-        "label": "Ministerio de Turismo · historia de Sierra Leona",
-        "url": "https://tourismsierraleone.com/where-to-go/freetown/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Freetown-aerialview.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Freetown-aerialview.jpg",
-        "credit": "David Hond · CC BY 2.0",
-        "caption": "Freetown y su gran estuario vistos desde el aire."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton_Tree_(Sierra_Leone).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cotton_Tree_(Sierra_Leone).jpg",
-        "credit": "Christian Trede · CC BY-SA 2.0 DE",
-        "caption": "El Cotton Tree antes de su caída en mayo de 2023."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aberdeen,_Freetown,_Sierra_Leone_-_panoramio.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Aberdeen,_Freetown,_Sierra_Leone_-_panoramio.jpg",
-        "credit": "Ghassan Mroue · CC BY-SA 3.0",
-        "caption": "Costa y tejido urbano de Aberdeen, Freetown."
-      }
-    ]
+    "credit": "David Hond · CC BY 2.0",
+    "caption": "Freetown y su gran estuario vistos desde el aire."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton_Tree_(Sierra_Leone).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cotton_Tree_(Sierra_Leone).jpg",
+    "credit": "Christian Trede · CC BY-SA 2.0 DE",
+    "caption": "El Cotton Tree antes de su caída en mayo de 2023."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aberdeen,_Freetown,_Sierra_Leone_-_panoramio.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Aberdeen,_Freetown,_Sierra_Leone_-_panoramio.jpg",
+    "credit": "Ghassan Mroue · CC BY-SA 3.0",
+    "caption": "Costa y tejido urbano de Aberdeen, Freetown."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Museo Nacional del Ferrocarril (Cline Town, Freetown)",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "pendiente de confirmación",
+  "time": "1–2 h",
+  "lat": 8.4893757,
+  "lon": -13.208807,
+  "desc": "El museo ferroviario de Cline Town conserva locomotoras y coches del antiguo Sierra Leone Government Railway. Es una colección visitable con horario y contacto publicados.",
+  "credit": "Davidbstanley · dominio público",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Freetown_Railway_Museum.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Freetown_Railway_Museum.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Cuenta de forma tangible cómo funcionó el transporte interior antes del cierre de la red en 1974.",
+   "see": "El museo ferroviario de Cline Town conserva locomotoras y coches del antiguo Sierra Leone Government Railway. Es una colección visitable con horario y contacto publicados.",
+   "access": "El pin se corrige a National Railway Museum en Google Maps. Abre de lunes a viernes 09:30–16:30 y sábados con cita; llamar antes según la web oficial.",
+   "when": "Mañana de día laborable, reservando entre una y dos horas.",
+   "skip": "Omitir si el museo no confirma apertura o si no hay estacionamiento seguro en Cline Town."
   },
-  {
-    "n": 3,
-    "name": "Museo Nacional del Ferrocarril (Cline Town, Freetown)",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "pendiente de confirmación",
-    "time": "1–2 h",
-    "lat": 8.4893757,
-    "lon": -13.208807,
-    "desc": "El museo ferroviario de Cline Town conserva locomotoras y coches del antiguo Sierra Leone Government Railway. Es una colección visitable con horario y contacto publicados.",
-    "credit": "Davidbstanley · dominio público",
+  "links": [
+   {
+    "label": "Museo ferroviario · horarios y contacto",
+    "url": "https://www.sierraleonerailwaymuseum.org/visit-us"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Freetown_Railway_Museum.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Freetown_Railway_Museum.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Cuenta de forma tangible cómo funcionó el transporte interior antes del cierre de la red en 1974.",
-      "see": "El museo ferroviario de Cline Town conserva locomotoras y coches del antiguo Sierra Leone Government Railway. Es una colección visitable con horario y contacto publicados.",
-      "access": "El pin se corrige a National Railway Museum en Google Maps. Abre de lunes a viernes 09:30–16:30 y sábados con cita; llamar antes según la web oficial.",
-      "when": "Mañana de día laborable, reservando entre una y dos horas.",
-      "skip": "Omitir si el museo no confirma apertura o si no hay estacionamiento seguro en Cline Town."
-    },
-    "links": [
-      {
-        "label": "Museo ferroviario · horarios y contacto",
-        "url": "https://www.sierraleonerailwaymuseum.org/visit-us"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Freetown_Railway_Museum.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Freetown_Railway_Museum.jpg",
-        "credit": "Davidbstanley · dominio público",
-        "caption": "Material ferroviario preservado en el museo de Freetown."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hunslet_2-6-2_loco_in_Sierra_Leone.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Hunslet_2-6-2_loco_in_Sierra_Leone.jpg",
-        "credit": "Davidbstanley · CC BY-SA 3.0",
-        "caption": "Locomotora Hunslet número 81 de la colección."
-      },
-      {
-        "img": "https://www.radiomuseum.org/museum/wal/national-railway-museum-of-sierra-leone-freetown/images/wal_freetown_gallery4.jpg",
-        "source": "https://www.radiomuseum.org/museum/wal/national-railway-museum-of-sierra-leone-freetown/",
-        "credit": "Radiomuseum.org · derechos en la fuente",
-        "caption": "Locomotora Beyer-Garratt n.º 73 conservada dentro del museo de Freetown."
-      }
-    ]
+    "credit": "Davidbstanley · dominio público",
+    "caption": "Material ferroviario preservado en el museo de Freetown."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hunslet_2-6-2_loco_in_Sierra_Leone.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Hunslet_2-6-2_loco_in_Sierra_Leone.jpg",
+    "credit": "Davidbstanley · CC BY-SA 3.0",
+    "caption": "Locomotora Hunslet número 81 de la colección."
+   },
+   {
+    "img": "https://www.radiomuseum.org/museum/wal/national-railway-museum-of-sierra-leone-freetown/images/wal_freetown_gallery4.jpg",
+    "source": "https://www.radiomuseum.org/museum/wal/national-railway-museum-of-sierra-leone-freetown/",
+    "credit": "Radiomuseum.org · derechos en la fuente",
+    "caption": "Locomotora Beyer-Garratt n.º 73 conservada dentro del museo de Freetown."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Santuario de chimpancés de Tacugama",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "½ día",
+  "lat": 8.4169179,
+  "lon": -13.2072019,
+  "desc": "Tacugama rescata y rehabilita chimpancés dentro del bosque de la península. Las visitas y eco-lodges se reservan directamente y pueden suspenderse por conservación o seguridad.",
+  "credit": "Big World Small Pockets · derechos en la fuente",
+  "img": "https://www.bigworldsmallpockets.com/wp-content/uploads/2023/03/Sierra-Leone-Tacugama-Sanctuary-Male-Chimp.jpg",
+  "source": "https://www.bigworldsmallpockets.com/tacugama-chimpanzee-sanctuary/",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la mejor experiencia educativa sobre el chimpancé occidental cerca de Freetown y financia conservación real.",
+   "see": "Tacugama rescata y rehabilita chimpancés dentro del bosque de la península. Las visitas y eco-lodges se reservan directamente y pueden suspenderse por conservación o seguridad.",
+   "access": "El pin se corrige a la ficha exacta del santuario en Google Maps. Reservar por la web o WhatsApp oficial y confirmar el estado de la pista; no presentarse sin cita.",
+   "when": "Tour de mañana reservado; estación seca facilita el acceso por carretera.",
+   "skip": "Omitir sin confirmación escrita, durante un cierre del santuario o si no se puede dejar al perro fuera de la visita."
   },
-  {
-    "n": 4,
-    "name": "Santuario de chimpancés de Tacugama",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "½ día",
-    "lat": 8.4169179,
-    "lon": -13.2072019,
-    "desc": "Tacugama rescata y rehabilita chimpancés dentro del bosque de la península. Las visitas y eco-lodges se reservan directamente y pueden suspenderse por conservación o seguridad.",
-    "credit": "Big World Small Pockets · derechos en la fuente",
+  "links": [
+   {
+    "label": "Tacugama · visitas y reservas",
+    "url": "https://www.tacugama.com/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://www.bigworldsmallpockets.com/wp-content/uploads/2023/03/Sierra-Leone-Tacugama-Sanctuary-Male-Chimp.jpg",
     "source": "https://www.bigworldsmallpockets.com/tacugama-chimpanzee-sanctuary/",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la mejor experiencia educativa sobre el chimpancé occidental cerca de Freetown y financia conservación real.",
-      "see": "Tacugama rescata y rehabilita chimpancés dentro del bosque de la península. Las visitas y eco-lodges se reservan directamente y pueden suspenderse por conservación o seguridad.",
-      "access": "El pin se corrige a la ficha exacta del santuario en Google Maps. Reservar por la web o WhatsApp oficial y confirmar el estado de la pista; no presentarse sin cita.",
-      "when": "Tour de mañana reservado; estación seca facilita el acceso por carretera.",
-      "skip": "Omitir sin confirmación escrita, durante un cierre del santuario o si no se puede dejar al perro fuera de la visita."
-    },
-    "links": [
-      {
-        "label": "Tacugama · visitas y reservas",
-        "url": "https://www.tacugama.com/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://www.bigworldsmallpockets.com/wp-content/uploads/2023/03/Sierra-Leone-Tacugama-Sanctuary-Male-Chimp.jpg",
-        "source": "https://www.bigworldsmallpockets.com/tacugama-chimpanzee-sanctuary/",
-        "credit": "Big World Small Pockets · derechos en la fuente",
-        "caption": "Chimpancés rescatados dentro de un recinto forestal de Tacugama."
-      },
-      {
-        "img": "https://www.africaoutlookmag.com/media/2024/12/SierraLeone-Hannemann1-jpg.webp",
-        "source": "https://www.africaoutlookmag.com/economy/the-national-tourist-board-of-sierra-leone",
-        "credit": "Africa Outlook · derechos en la fuente",
-        "caption": "Entrada identificable del santuario de Tacugama."
-      },
-      {
-        "img": "https://patintheworld.com/wp-content/uploads/2023/08/pxl_20230813_133752275.jpg",
-        "source": "https://patintheworld.com/2025/11/02/tacugama-chimpanzee-sanctuary/",
-        "credit": "Pat in the World · derechos en la fuente",
-        "caption": "Cartel del santuario entre la vegetación."
-      }
-    ]
-  },
-  {
-    "n": 6,
-    "name": "River No. 2 Beach",
-    "cat": "Costa",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1–2 días",
-    "lat": 8.3334978,
-    "lon": -13.2037767,
-    "desc": "River No. 2 combina una playa clara con la desembocadura de un río y gestión comunitaria. Es fácil de alcanzar desde Freetown, pero el baño depende de mar, corrientes y marea.",
+    "credit": "Big World Small Pockets · derechos en la fuente",
+    "caption": "Chimpancés rescatados dentro de un recinto forestal de Tacugama."
+   },
+   {
+    "img": "https://www.africaoutlookmag.com/media/2024/12/SierraLeone-Hannemann1-jpg.webp",
+    "source": "https://www.africaoutlookmag.com/economy/the-national-tourist-board-of-sierra-leone",
+    "credit": "Africa Outlook · derechos en la fuente",
+    "caption": "Entrada identificable del santuario de Tacugama."
+   },
+   {
+    "img": "https://patintheworld.com/wp-content/uploads/2023/08/pxl_20230813_133752275.jpg",
+    "source": "https://patintheworld.com/2025/11/02/tacugama-chimpanzee-sanctuary/",
+    "credit": "Pat in the World · derechos en la fuente",
+    "caption": "Cartel del santuario entre la vegetación."
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "name": "Parque Nacional de la Península Occidental (Sugar Loaf, Guma)",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con precaución",
+  "time": "1 día",
+  "lat": 8.3290795,
+  "lon": -13.1509672,
+  "desc": "18.337 hectáreas de selva semidecidua de dosel cerrado colgadas sobre Freetown y sus playas: reserva forestal desde 1916, parque nacional desde 2012 y sitio en la lista indicativa de la UNESCO. Es el bosque cerrado más occidental del país, área importante para las aves según BirdLife, con tres especies de duiker, y la razón de que la península tenga ese perfil de montaña verde cayendo directamente al mar. Dentro está Tacugama, y desde sus faldas arrancan las subidas al Sugar Loaf (unos 760 m, la cumbre que domina Freetown) y al Picket Hill, además del embalse de Guma, que abastece la capital. Es la mejor excursión a pie del país fuera de las Loma y, al ser un parque sin grandes depredadores, la más compatible con el perro — con correa, mucha agua y evitando las horas centrales, porque la humedad es brutal. El parque sufre una presión de deforestación urbana muy seria por el crecimiento de Freetown: parte de los límites están en discusión.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/River_No._2_Beach_%28Sierra_Leone%29.jpg?width=1600",
     "credit": "Christian Trede · Attribution",
+    "source": "https://commons.wikimedia.org/wiki/File:River_No._2_Beach_%28Sierra_Leone%29.jpg",
+    "caption": "River No. 2, en la península de Freetown."
+   }
+  ],
+  "links": [
+   {
+    "label": "Western Area Peninsula National Park (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Western_Area_Peninsula_National_Park"
+   },
+   {
+    "label": "UNESCO – lista indicativa, Western Area Peninsula National Park",
+    "url": "https://whc.unesco.org/en/tentativelists/5741/"
+   },
+   {
+    "label": "Tacugama Chimpanzee Sanctuary – visitas y horarios",
+    "url": "https://www.tacugama.com/tour/"
+   }
+  ],
+  "visit": {
+   "why": "Es el único sitio donde se duerme en una capital africana y media hora después se está dentro de bosque cerrado. Sugar Loaf da la única panorámica completa de la península, la ciudad y las playas del sur de una sola vez.",
+   "see": "Selva semidecidua de dosel cerrado sobre laderas que caen al Atlántico; el expediente de la lista indicativa de la UNESCO habla de cotas de hasta 971 m, un 60 % de bosque bien conservado, más de 316 especies de aves —incluido el picatartes cuelliblanco—, chimpancés, colobos rojos y leopardo. Dentro del parque funciona desde 1995 el santuario de chimpancés de Tacugama. En la subida hay dos rellanos rocosos con vista franca de Freetown; la cima en sí está tapada de vegetación y hay que rodearla por la izquierda hasta un claro para ver algo.",
+   "access": "El pin es una zona, no un objeto: el parque son 18.337 ha. Sugar Loaf se sube desde Regent, subida moderada con tramos empinados, unas 3-7 horas según ritmo, con guía local obligado en la práctica y una aportación a la comunidad (VSL lo vende desde 20 USD con guía y comida). Tacugama tiene cuatro pases diarios — 10:30, 12:00, 14:00 y 15:30 — de una hora, con reserva previa obligatoria a partir de cinco personas, 350 Le por adulto extranjero y 150 por niño, en efectivo u Orange Money, y hay que llegar 30 minutos antes porque no admiten retrasos; 40 minutos desde el oeste de Freetown y 4x4 para subir hasta la puerta (si no, se aparca abajo y quedan 100 m a pie). El perro: Tacugama no publica política de mascotas, pero es un centro de rescate de chimpancés con riesgo sanitario evidente — dar por hecho que no entra y organizar turnos en el coche. En el sendero de Sugar Loaf no hay prohibición publicada, pero va sin sombra ni agua durante horas.",
+   "when": "Medio día para Sugar Loaf, saliendo al amanecer por el calor; unas dos horas para Tacugama contando el desplazamiento. Mejor en seca, de diciembre a abril: en lluvias el sendero es barro y desde la cima no se ve nada.",
+   "skip": "Si van con prisa hacia el sur, el parque se resume en Tacugama y se deja la cima. Y con lluvia fuerte la subida no compensa: se paga el esfuerzo entero y se pierde la vista, que es lo único que la justifica."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 6,
+  "name": "River No. 2 Beach",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1–2 días",
+  "lat": 8.3334978,
+  "lon": -13.2037767,
+  "desc": "River No. 2 combina una playa clara con la desembocadura de un río y gestión comunitaria. Es fácil de alcanzar desde Freetown, pero el baño depende de mar, corrientes y marea.",
+  "credit": "Christian Trede · Attribution",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/River_No._2_Beach_(Sierra_Leone).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:River_No._2_Beach_(Sierra_Leone).jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el paisaje costero más completo de la península para una visita de medio día.",
+   "see": "River No. 2 combina una playa clara con la desembocadura de un río y gestión comunitaria. Es fácil de alcanzar desde Freetown, pero el baño depende de mar, corrientes y marea.",
+   "access": "El pin se corrige a River No 2 Beach en Google Maps. Usar la entrada comunitaria, pagar los servicios acordados y estacionar donde indiquen los responsables.",
+   "when": "Entre semana y por la mañana; comprobar marea y oleaje.",
+   "skip": "Omitir con mar fuerte, lluvia intensa, playa saturada o si no hay vigilancia razonable del vehículo."
+  },
+  "links": [
+   {
+    "label": "Ministerio de Turismo · playas de Sierra Leona",
+    "url": "https://tourismsierraleone.com/attractions/river-no-2-beach/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/River_No._2_Beach_(Sierra_Leone).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:River_No._2_Beach_(Sierra_Leone).jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el paisaje costero más completo de la península para una visita de medio día.",
-      "see": "River No. 2 combina una playa clara con la desembocadura de un río y gestión comunitaria. Es fácil de alcanzar desde Freetown, pero el baño depende de mar, corrientes y marea.",
-      "access": "El pin se corrige a River No 2 Beach en Google Maps. Usar la entrada comunitaria, pagar los servicios acordados y estacionar donde indiquen los responsables.",
-      "when": "Entre semana y por la mañana; comprobar marea y oleaje.",
-      "skip": "Omitir con mar fuerte, lluvia intensa, playa saturada o si no hay vigilancia razonable del vehículo."
-    },
-    "links": [
-      {
-        "label": "Ministerio de Turismo · playas de Sierra Leona",
-        "url": "https://tourismsierraleone.com/attractions/river-no-2-beach/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/River_No._2_Beach_(Sierra_Leone).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:River_No._2_Beach_(Sierra_Leone).jpg",
-        "credit": "Christian Trede · Attribution",
-        "caption": "Arena, río y montaña en River No. 2 Beach."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Number_2_,_Sierra_Leone.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Number_2_,_Sierra_Leone.jpg",
-        "credit": "Hussein Kefel · CC BY-SA 3.0",
-        "caption": "La desembocadura de Number 2 y su paisaje costero."
-      },
-      {
-        "img": "https://images.squarespace-cdn.com/content/v1/695878164097753f1257ad8a/1767405595424-U85BRTDD5437RPZJN02B/birdseye%2Bof%2Bbeach%2B%281%29.jpg",
-        "source": "https://www.growingthegrassroots.org/river-no2-beach",
-        "credit": "Growing the Grassroots · derechos en la fuente",
-        "caption": "Vista aérea de la barra de arena y el estuario de River No. 2."
-      }
-    ]
+    "credit": "Christian Trede · Attribution",
+    "caption": "Arena, río y montaña en River No. 2 Beach."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Number_2_,_Sierra_Leone.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Number_2_,_Sierra_Leone.jpg",
+    "credit": "Hussein Kefel · CC BY-SA 3.0",
+    "caption": "La desembocadura de Number 2 y su paisaje costero."
+   },
+   {
+    "img": "https://images.squarespace-cdn.com/content/v1/695878164097753f1257ad8a/1767405595424-U85BRTDD5437RPZJN02B/birdseye%2Bof%2Bbeach%2B%281%29.jpg",
+    "source": "https://www.growingthegrassroots.org/river-no2-beach",
+    "credit": "Growing the Grassroots · derechos en la fuente",
+    "caption": "Vista aérea de la barra de arena y el estuario de River No. 2."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "name": "Tokeh Beach",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1 día",
+  "lat": 8.3140118,
+  "lon": -13.1962053,
+  "desc": "Cinco kilómetros de arena al sur de River No. 2, con montaña al fondo y el pueblo de pescadores en un extremo. Fue la playa de moda de Sierra Leona antes de la guerra —hubo aquí un complejo hotelero francés que la guerra arrasó— y ha vuelto a la vida con un par de resorts y varios chiringuitos. Es más larga, más abierta y con más oleaje que River No. 2, y por tanto mejor para caminar kilómetros y peor para bañarse con niños. La carretera de la península la conecta con Freetown por asfalto. Buena alternativa si River No. 2 está lleno un fin de semana. Coordenada aproximada — confirmar sobre el terreno.",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokeh_Beach.jpg?width=1600",
+    "credit": "Lars Bessel · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokeh_Beach.jpg",
+    "caption": "La playa de Tokeh."
+   }
+  ],
+  "links": [
+   {
+    "label": "Tokeh, Sierra Leone (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Tokeh,_Sierra_Leone"
+   },
+   {
+    "label": "Tokeh Beach – Sierra Leone Tourism",
+    "url": "https://tourismsierraleone.com/attractions/tokeh-beach/"
+   },
+   {
+    "label": "FCDO – Sierra Leone, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es la playa de la península donde de verdad se puede parar con dos vehículos: arena ancha, pueblo pesquero y alojamiento formal a media hora larga de Freetown. Funciona como descompresión antes o después del trámite de frontera.",
+   "see": "Arena clara con la montaña del parque nacional detrás y las canoas de pesca en un extremo. Tokeh nació como aldea fundada por un pescador sherbro, Pa Baw; entre 1968 y mediados de los noventa aquí estuvo el Africana Tokeh Village, que llegó a 400 habitaciones y 600 empleados y murió con la guerra: los rebeldes no lo destruyeron, lo vació el saqueo. Hoy quedan los resorts reconstruidos (Tokeh Sands desde 2011, The Place desde 2013) y unos 6.000 habitantes que viven de la pesca y el turismo.",
+   "access": "Por la carretera de la península hacia el sur desde Freetown, pasando River No. 2. Ninguna fuente oficial publica el estado del firme tramo a tramo y la vía lleva años en obras intermitentes: contar con asfalto irregular y desvíos, aunque no hace falta 4x4 para llegar. Sí hace falta criterio para no meter el coche en la arena. El FCDO recuerda que no hay socorristas y que las corrientes son fuertes.",
+   "when": "Una tarde o una noche. Estación seca, de noviembre a abril; de mayo a octubre la lluvia y el mar cerrado le quitan casi todo el sentido. Baño a media mañana o al atardecer.",
+   "skip": "Si buscan playa vacía, esto es justo lo contrario: es la playa de expatriados y cooperantes de Freetown, con precios de resort y llena los fines de semana. River No. 2 al norte o las Turtle dan más soledad por el mismo esfuerzo."
   },
-  {
-    "n": 8,
-    "name": "Bureh Beach · la playa del surf",
-    "cat": "Costa",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "1–2 días",
-    "lat": 8.2113922,
-    "lon": -13.1554723,
-    "desc": "Bureh Beach reúne playa, pueblo y un club de surf de raíz comunitaria. Las clases y tablas deben reservarse o confirmarse con el club, no darse por supuestas.",
-    "credit": "SurferToday · derechos en la fuente",
+  "_restaurado": true
+ },
+ {
+  "n": 8,
+  "name": "Bureh Beach · la playa del surf",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1–2 días",
+  "lat": 8.2113922,
+  "lon": -13.1554723,
+  "desc": "Bureh Beach reúne playa, pueblo y un club de surf de raíz comunitaria. Las clases y tablas deben reservarse o confirmarse con el club, no darse por supuestas.",
+  "credit": "SurferToday · derechos en la fuente",
+  "img": "https://www.surfertoday.com/images/stories/bureh-surf-club.jpg",
+  "source": "https://www.surfertoday.com/surfing/bureh-beach-surf-club-is-founded-in-sierra-leone",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite decidir entre descanso costero y una actividad de surf con impacto local.",
+   "see": "Bureh Beach reúne playa, pueblo y un club de surf de raíz comunitaria. Las clases y tablas deben reservarse o confirmarse con el club, no darse por supuestas.",
+   "access": "El pin se corrige a la playa exacta de Google Maps; el anterior estaba varios kilómetros desplazado. Preguntar en el pueblo por el club activo y respetar la zona de pescadores.",
+   "when": "Mañana con previsión de mar adecuada; mejor entre semana.",
+   "skip": "No entrar al agua sin información local de corrientes, con tormenta o sin material y supervisión adecuados."
+  },
+  "links": [
+   {
+    "label": "Ministerio de Turismo · Bureh Beach",
+    "url": "https://tourismsierraleone.com/attractions/bureh-beach/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://www.surfertoday.com/images/stories/bureh-surf-club.jpg",
     "source": "https://www.surfertoday.com/surfing/bureh-beach-surf-club-is-founded-in-sierra-leone",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite decidir entre descanso costero y una actividad de surf con impacto local.",
-      "see": "Bureh Beach reúne playa, pueblo y un club de surf de raíz comunitaria. Las clases y tablas deben reservarse o confirmarse con el club, no darse por supuestas.",
-      "access": "El pin se corrige a la playa exacta de Google Maps; el anterior estaba varios kilómetros desplazado. Preguntar en el pueblo por el club activo y respetar la zona de pescadores.",
-      "when": "Mañana con previsión de mar adecuada; mejor entre semana.",
-      "skip": "No entrar al agua sin información local de corrientes, con tormenta o sin material y supervisión adecuados."
-    },
-    "links": [
-      {
-        "label": "Ministerio de Turismo · Bureh Beach",
-        "url": "https://tourismsierraleone.com/attractions/bureh-beach/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://www.surfertoday.com/images/stories/bureh-surf-club.jpg",
-        "source": "https://www.surfertoday.com/surfing/bureh-beach-surf-club-is-founded-in-sierra-leone",
-        "credit": "SurferToday · derechos en la fuente",
-        "caption": "Primer local identificado del Bureh Beach Surf Club."
-      },
-      {
-        "img": "https://www.surfer.com/.image/c_fill%2Cw_1200%2Ch_1200%2Cg_faces%3Acenter/MTk2Mjc2ODEzNDYyNzA5Nzg3/img_1073.jpg",
-        "source": "https://www.surfer.com/culture/sierra-leone-surf-club",
-        "credit": "SURFER · derechos en la fuente",
-        "caption": "Surfistas y tablas delante del club comunitario de Bureh."
-      },
-      {
-        "img": "https://images.squarespace-cdn.com/content/v1/5a17221c49fc2bfdcee7e37e/33c16852-40e3-4218-9292-5f70c7e659ce/SB%2BBBC.jpg",
-        "source": "https://www.dreamtown.ngo/stories/2022/10/21/surf-bunkers-x-dreamtown",
-        "credit": "Dreamtown · derechos en la fuente",
-        "caption": "Actividad comunitaria de surf en Bureh Beach."
-      }
-    ]
+    "credit": "SurferToday · derechos en la fuente",
+    "caption": "Primer local identificado del Bureh Beach Surf Club."
+   },
+   {
+    "img": "https://www.surfer.com/.image/c_fill%2Cw_1200%2Ch_1200%2Cg_faces%3Acenter/MTk2Mjc2ODEzNDYyNzA5Nzg3/img_1073.jpg",
+    "source": "https://www.surfer.com/culture/sierra-leone-surf-club",
+    "credit": "SURFER · derechos en la fuente",
+    "caption": "Surfistas y tablas delante del club comunitario de Bureh."
+   },
+   {
+    "img": "https://images.squarespace-cdn.com/content/v1/5a17221c49fc2bfdcee7e37e/33c16852-40e3-4218-9292-5f70c7e659ce/SB%2BBBC.jpg",
+    "source": "https://www.dreamtown.ngo/stories/2022/10/21/surf-bunkers-x-dreamtown",
+    "credit": "Dreamtown · derechos en la fuente",
+    "caption": "Actividad comunitaria de surf en Bureh Beach."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Islas Banana (Dublin, Ricketts y Mes-Meheux)",
+  "cat": "Naturaleza · costa",
+  "prio": "Alta",
+  "dog": "no confirmado",
+  "time": "1–2 días",
+  "lat": 8.1158998,
+  "lon": -13.2115287,
+  "desc": "Las Islas Banana reúnen playas, senderos y memoria de la trata en Dublin y Ricketts, unidas por una calzada. Se llega en barca desde Kent y conviene pasar al menos una noche.",
+  "credit": "Christian Trede · Attribution",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Banana_Islands_(Sierra_Leone).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Banana_Islands_(Sierra_Leone).jpg",
+  "icon": "naturaleza · costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Aportan la mejor combinación insular de paisaje, vida local e historia del país, distinta de las playas de la península.",
+   "see": "Las Islas Banana reúnen playas, senderos y memoria de la trata en Dublin y Ricketts, unidas por una calzada. Se llega en barca desde Kent y conviene pasar al menos una noche.",
+   "access": "El pin coincide con la ficha exacta Banana Islands de Google Maps y representa el archipiélago, no el embarcadero. Reservar el traslado desde Kent con el alojamiento, exigir chalecos y pactar equipaje, perro, precio y regreso antes de embarcar.",
+   "when": "Estación seca, mar tranquilo y salida temprana desde Kent; una o dos jornadas.",
+   "skip": "Omitir con mala mar, barco sin chalecos, alojamiento no confirmado o negativa expresa a llevar al perro; no improvisar la vuelta al anochecer."
   },
-  {
-    "n": 9,
-    "name": "Islas Banana (Dublin, Ricketts y Mes-Meheux)",
-    "cat": "Naturaleza · costa",
-    "prio": "Alta",
-    "dog": "no confirmado",
-    "time": "1–2 días",
-    "lat": 8.1158998,
-    "lon": -13.2115287,
-    "desc": "Las Islas Banana reúnen playas, senderos y memoria de la trata en Dublin y Ricketts, unidas por una calzada. Se llega en barca desde Kent y conviene pasar al menos una noche.",
-    "credit": "Christian Trede · Attribution",
+  "links": [
+   {
+    "label": "Sierra Leone Tourism · Banana Islands",
+    "url": "https://tourismsierraleone.com/attractions/banana-islands/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Banana_Islands_(Sierra_Leone).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Banana_Islands_(Sierra_Leone).jpg",
-    "icon": "naturaleza · costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Aportan la mejor combinación insular de paisaje, vida local e historia del país, distinta de las playas de la península.",
-      "see": "Las Islas Banana reúnen playas, senderos y memoria de la trata en Dublin y Ricketts, unidas por una calzada. Se llega en barca desde Kent y conviene pasar al menos una noche.",
-      "access": "El pin coincide con la ficha exacta Banana Islands de Google Maps y representa el archipiélago, no el embarcadero. Reservar el traslado desde Kent con el alojamiento, exigir chalecos y pactar equipaje, perro, precio y regreso antes de embarcar.",
-      "when": "Estación seca, mar tranquilo y salida temprana desde Kent; una o dos jornadas.",
-      "skip": "Omitir con mala mar, barco sin chalecos, alojamiento no confirmado o negativa expresa a llevar al perro; no improvisar la vuelta al anochecer."
-    },
-    "links": [
-      {
-        "label": "Sierra Leone Tourism · Banana Islands",
-        "url": "https://tourismsierraleone.com/attractions/banana-islands/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Banana_Islands_(Sierra_Leone).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Banana_Islands_(Sierra_Leone).jpg",
-        "credit": "Christian Trede · Attribution",
-        "caption": "Costa y relieve de las Islas Banana vistos desde el mar."
-      },
-      {
-        "img": "https://rainbowtours.imgix.net/1973/banana-island-5-awesome.jpg?auto=enhance&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&fp-z=1&h=490&w=726",
-        "source": "https://www.rainbowtours.co.uk/tours/africa/sierra-leone-natural-history-explorer",
-        "credit": "Rainbow Tours · derechos en la fuente",
-        "caption": "Orilla boscosa de Banana Island con las embarcaciones locales."
-      },
-      {
-        "img": "https://oldturtlebay.com/wp-content/uploads/2024/04/beach5-1024x920.jpeg",
-        "source": "https://oldturtlebay.com/",
-        "credit": "Old Turtle Bay Beach Resort · derechos en la fuente",
-        "caption": "Playa de Old Turtle Bay en Ricketts, una de las Islas Banana."
-      }
-    ]
+    "credit": "Christian Trede · Attribution",
+    "caption": "Costa y relieve de las Islas Banana vistos desde el mar."
+   },
+   {
+    "img": "https://rainbowtours.imgix.net/1973/banana-island-5-awesome.jpg?auto=enhance&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&fp-z=1&h=490&w=726",
+    "source": "https://www.rainbowtours.co.uk/tours/africa/sierra-leone-natural-history-explorer",
+    "credit": "Rainbow Tours · derechos en la fuente",
+    "caption": "Orilla boscosa de Banana Island con las embarcaciones locales."
+   },
+   {
+    "img": "https://oldturtlebay.com/wp-content/uploads/2024/04/beach5-1024x920.jpeg",
+    "source": "https://oldturtlebay.com/",
+    "credit": "Old Turtle Bay Beach Resort · derechos en la fuente",
+    "caption": "Playa de Old Turtle Bay en Ricketts, una de las Islas Banana."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Bunce Island · la isla de la trata",
+  "cat": "Patrimonio",
+  "prio": "Alta",
+  "dog": "no confirmado",
+  "time": "½–1 día",
+  "lat": 8.5698616,
+  "lon": -13.0403748,
+  "desc": "Bunce Island conserva las ruinas de uno de los principales fuertes británicos de trata esclavista del estuario. La visita exige embarcación y guía para comprender el lugar y regresar con seguridad.",
+  "credit": "Pierre Chrzanowski · CC0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunce_Island_Fortress_Wall_01.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Bunce_Island_Fortress_Wall_01.jpg",
+  "icon": "patrimonio",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el PDI histórico más importante del país por su vínculo directo con la diáspora de Carolina y Georgia.",
+   "see": "Bunce Island conserva las ruinas de uno de los principales fuertes británicos de trata esclavista del estuario. La visita exige embarcación y guía para comprender el lugar y regresar con seguridad.",
+   "access": "El pin se ajusta a la isla exacta de Google Maps. Contratar barco con chalecos y guía autorizado, fijar marea, punto de embarque y hora límite de retorno.",
+   "when": "Mañana, mar y río tranquilos, con al menos medio día disponible.",
+   "skip": "Omitir con tormenta, embarcación insegura, guía no confirmado o regreso después del anochecer; el perro no debe desembarcar."
   },
-  {
-    "n": 10,
-    "name": "Bunce Island · la isla de la trata",
-    "cat": "Patrimonio",
-    "prio": "Alta",
-    "dog": "no confirmado",
-    "time": "½–1 día",
-    "lat": 8.5698616,
-    "lon": -13.0403748,
-    "desc": "Bunce Island conserva las ruinas de uno de los principales fuertes británicos de trata esclavista del estuario. La visita exige embarcación y guía para comprender el lugar y regresar con seguridad.",
-    "credit": "Pierre Chrzanowski · CC0",
+  "links": [
+   {
+    "label": "Ministerio de Turismo · Bunce Island",
+    "url": "https://tourismsierraleone.com/attractions/bunce-island/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunce_Island_Fortress_Wall_01.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Bunce_Island_Fortress_Wall_01.jpg",
-    "icon": "patrimonio",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el PDI histórico más importante del país por su vínculo directo con la diáspora de Carolina y Georgia.",
-      "see": "Bunce Island conserva las ruinas de uno de los principales fuertes británicos de trata esclavista del estuario. La visita exige embarcación y guía para comprender el lugar y regresar con seguridad.",
-      "access": "El pin se ajusta a la isla exacta de Google Maps. Contratar barco con chalecos y guía autorizado, fijar marea, punto de embarque y hora límite de retorno.",
-      "when": "Mañana, mar y río tranquilos, con al menos medio día disponible.",
-      "skip": "Omitir con tormenta, embarcación insegura, guía no confirmado o regreso después del anochecer; el perro no debe desembarcar."
-    },
-    "links": [
-      {
-        "label": "Ministerio de Turismo · Bunce Island",
-        "url": "https://tourismsierraleone.com/attractions/bunce-island/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunce_Island_Fortress_Wall_01.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Bunce_Island_Fortress_Wall_01.jpg",
-        "credit": "Pierre Chrzanowski · CC0",
-        "caption": "Muros conservados del fuerte de Bunce Island."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunce_Island_Fortress_Cannon.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Bunce_Island_Fortress_Cannon.jpg",
-        "credit": "Pierre Chrzanowski · CC0",
-        "caption": "Cañón y ruinas del recinto histórico."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunce_Island_Beach.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Bunce_Island_Beach.jpg",
-        "credit": "Pierre Chrzanowski · CC0",
-        "caption": "Orilla donde desembarcan las visitas a Bunce Island."
-      }
-    ]
+    "credit": "Pierre Chrzanowski · CC0",
+    "caption": "Muros conservados del fuerte de Bunce Island."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunce_Island_Fortress_Cannon.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bunce_Island_Fortress_Cannon.jpg",
+    "credit": "Pierre Chrzanowski · CC0",
+    "caption": "Cañón y ruinas del recinto histórico."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunce_Island_Beach.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bunce_Island_Beach.jpg",
+    "credit": "Pierre Chrzanowski · CC0",
+    "caption": "Orilla donde desembarcan las visitas a Bunce Island."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Bo · la segunda ciudad",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 7.9551791,
+  "lon": -11.7409946,
+  "desc": "Segunda ciudad del país (unos 230.000 habitantes), capital del Protectorado entre 1930 y la independencia de 1961, y el centro financiero, educativo y comercial de todo el sur. Es el nudo obligado entre Freetown, Kenema y el norte: aquí se reposta a fondo, se saca dinero y se compran provisiones antes de bajar a Tiwai y a Gola, porque más al sureste la red formal se acaba. Universidad de Njala, el Bo Government Secondary School de 1906 —la escuela de la élite del protectorado—, un mercado grande y el estadio. Ciudad sin monumentos, muy útil, con la mezcla mende-krio-fula que define el sur. La vieja estación del ferrocarril, cerrado en 1974, todavía marca el trazado urbano.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bo_Sierra_Leone_c_1944_%283134619932%29.jpg?width=1600",
+    "credit": "Sludge G · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bo_Sierra_Leone_c_1944_%283134619932%29.jpg",
+    "caption": "Bo hacia 1944. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Bo, Sierra Leone (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Bo,_Sierra_Leone"
+   },
+   {
+    "label": "FCDO – Sierra Leone, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone/safety-and-security"
+   },
+   {
+    "label": "MAEC – Ficha país Sierra Leona",
+    "url": "https://www.exteriores.gob.es/Documents/FichasPais/SIERRALEONA_FICHA%20PAIS.pdf"
+   }
+  ],
+  "visit": {
+   "why": "Es la parada logística obligada del sur: bancos, talleres, combustible y hospital, y el único sitio entre Freetown y Kenema donde se resuelve una avería sin que el día se convierta en un problema.",
+   "see": "Ciudad de trabajo más que de monumentos, con unos 223.000 habitantes en el censo de 2021. Queda el trazado de ciudad ferroviaria que nació con la llegada del tren en 1889, la Bo Government Secondary School (1906), el estadio —segundo del país— y la Universidad de Njala. Fue capital del Protectorado desde 1930 hasta la independencia de 1961 y sigue siendo el centro financiero y educativo del sur.",
+   "access": "Carretera principal asfaltada desde Freetown, unos 250 km al sureste, y otros 65 hasta Kenema; no hace falta 4x4 en el eje. El FCDO advierte del mal mantenimiento de los vehículos locales, la conducción errática y la frecuencia de accidentes graves: llegar siempre con luz.",
+   "when": "Una noche de tránsito, y sobra. Cualquier época; en la lluviosa (mayo a noviembre, con hasta 5.080 mm anuales) el interés de Bo está en los servicios, no en la calle.",
+   "skip": "Si no necesitan repostar, reparar ni dormir, Bo no retiene: no hay nada que justifique un día entero. En ese caso seguir a Kenema o desviarse a Tiwai, que es lo que da valor a esta parte del país."
   },
-  {
-    "n": 13,
-    "name": "Parque Nacional de Gola Rainforest (UNESCO 2025)",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Alta",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "1–2 días",
-    "lat": 7.6663373,
-    "lon": -10.841529,
-    "desc": "Gola Rainforest forma con Tiwai el primer sitio Patrimonio Mundial de Sierra Leona, inscrito en 2025. La selva se visita solo con coordinación previa y acceso indicado por el parque.",
-    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+  "_restaurado": true
+ },
+ {
+  "n": 12,
+  "name": "Kenema y el país de los diamantes",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 7.8632147,
+  "lon": -11.1957172,
+  "desc": "Tercera ciudad del país, en un paso natural de las colinas de Kambui a 173 m, y la capital administrativa del diamante aluvial de Sierra Leona: aquí está la Government Diamond Office, creada en 1959, donde se valoran, licencian y certifican las piedras de toda la Provincia Oriental. Es la ciudad que explica la expresión «diamantes de sangre»: los yacimientos aluviales de este rincón financiaron la guerra civil y fueron el detonante del Proceso de Kimberley. Se puede ver el mercado del diamante y los talleres de talla, pero no se compran piedras a particulares bajo ningún concepto. Segundo dato, muy relevante para la salud del viaje: el Hospital Gubernamental de Kenema tiene una de las pocas unidades del mundo dedicadas a la fiebre de Lassa, endémica en esta región, y fue aquí donde el 25 de mayo de 2014 se diagnosticó el primer caso de ébola del país. Base logística para Gola y para las colinas de Kambui.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenema_clock_tower.jpg?width=1600",
+    "credit": "Patrick S. Bangura · Copyrighted free use",
+    "source": "https://commons.wikimedia.org/wiki/File:Kenema_clock_tower.jpg",
+    "caption": "La torre del reloj de Kenema."
+   }
+  ],
+  "links": [
+   {
+    "label": "Kenema (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Kenema"
+   },
+   {
+    "label": "FCDO – Sierra Leone, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es la base del este: la última ciudad con servicios reales antes de Gola, Tiwai y la frontera liberiana por Zimmi, y el sitio donde se entiende de golpe qué significa la economía del diamante aluvial en este país.",
+   "see": "La Government Diamond Office, creada en 1959, que valora, licencia y certifica las piedras de toda la Provincia del Este; las calles de compradores alrededor; el gran mercado abierto, en reforma con apoyo del Banco Mundial; y la única sucursal provincial del Banco de Sierra Leona. Al oeste, pegada a la ciudad, la reserva forestal de Kambui Hills, hasta 645 m, bosque guineano superior y cuenca de agua de Kenema. Un apunte para la ficha: con 255.110 habitantes en el censo de 2021 Kenema ha pasado a Bo, así que la etiqueta de «tercera ciudad» ya no se sostiene.",
+   "access": "Asfalto desde Bo por el eje principal, unos 65 km; de Kenema salen 87 km hacia Zimmi, en la frontera con Liberia, y de aquí se organizan las entradas orientales al Parque Nacional de Gola y la visita a Kambui. El pin es el centro urbano. Ninguna fuente abierta publica horarios ni tarifas de visita de la Government Diamond Office: es una oficina administrativa, no un museo, y no conviene presentarse tratandola como tal.",
+   "when": "Una noche, dos si van a entrar a Gola o a Tiwai. Estación seca, de diciembre a abril: los accesos secundarios del este se embarran y dejan de ser transitables.",
+   "skip": "Si no van a Gola, ni a Tiwai, ni a Liberia por el sur, Kenema es un rodeo sin premio. Y no vayan «a ver diamantes»: fotografiar compraventa o mineros artesanales es una mala idea que acaba en conversación con quien no toca."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 13,
+  "name": "Parque Nacional de Gola Rainforest (UNESCO 2025)",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Alta",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "1–2 días",
+  "lat": 7.6663373,
+  "lon": -10.841529,
+  "desc": "Gola Rainforest forma con Tiwai el primer sitio Patrimonio Mundial de Sierra Leona, inscrito en 2025. La selva se visita solo con coordinación previa y acceso indicado por el parque.",
+  "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+  "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAb4Xql1XivdDNWziMXqVTQhVTtIaHvtEpG_UmyYPNJOw6-pp-BrFkGD5Rs0OrXNRr0Z-gxi63rHKw8phZTmqWFSjXcwNh_qntighWd50ih21zhm09NbBjzsAyJhV84suNFzcIwg=w1200-h675-k-no",
+  "source": "https://www.google.com/maps/search/?api=1&query=Gola%20Rainforest%20National%20Park%20Sierra%20Leone",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Protege el mayor bloque de selva baja del país y permite entender conservación comunitaria a escala de paisaje.",
+   "see": "Gola Rainforest forma con Tiwai el primer sitio Patrimonio Mundial de Sierra Leona, inscrito en 2025. La selva se visita solo con coordinación previa y acceso indicado por el parque.",
+   "access": "El pin se ajusta a la ficha del parque en Google Maps, pero no representa una puerta. Contactar antes con la administración; se recomienda 4x4 y guía, y debe confirmarse el acceso concreto desde Kenema.",
+   "when": "Estación seca y reserva previa, con uno o dos días disponibles.",
+   "skip": "Omitir sin respuesta del parque, tras lluvias fuertes o si se espera un safari de avistamientos garantizados; el perro no entra."
+  },
+  "links": [
+   {
+    "label": "UNESCO · Complejo Gola-Tiwai",
+    "url": "https://whc.unesco.org/en/list/1746"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAb4Xql1XivdDNWziMXqVTQhVTtIaHvtEpG_UmyYPNJOw6-pp-BrFkGD5Rs0OrXNRr0Z-gxi63rHKw8phZTmqWFSjXcwNh_qntighWd50ih21zhm09NbBjzsAyJhV84suNFzcIwg=w1200-h675-k-no",
     "source": "https://www.google.com/maps/search/?api=1&query=Gola%20Rainforest%20National%20Park%20Sierra%20Leone",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Protege el mayor bloque de selva baja del país y permite entender conservación comunitaria a escala de paisaje.",
-      "see": "Gola Rainforest forma con Tiwai el primer sitio Patrimonio Mundial de Sierra Leona, inscrito en 2025. La selva se visita solo con coordinación previa y acceso indicado por el parque.",
-      "access": "El pin se ajusta a la ficha del parque en Google Maps, pero no representa una puerta. Contactar antes con la administración; se recomienda 4x4 y guía, y debe confirmarse el acceso concreto desde Kenema.",
-      "when": "Estación seca y reserva previa, con uno o dos días disponibles.",
-      "skip": "Omitir sin respuesta del parque, tras lluvias fuertes o si se espera un safari de avistamientos garantizados; el perro no entra."
-    },
-    "links": [
-      {
-        "label": "UNESCO · Complejo Gola-Tiwai",
-        "url": "https://whc.unesco.org/en/list/1746"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkAb4Xql1XivdDNWziMXqVTQhVTtIaHvtEpG_UmyYPNJOw6-pp-BrFkGD5Rs0OrXNRr0Z-gxi63rHKw8phZTmqWFSjXcwNh_qntighWd50ih21zhm09NbBjzsAyJhV84suNFzcIwg=w1200-h675-k-no",
-        "source": "https://www.google.com/maps/search/?api=1&query=Gola%20Rainforest%20National%20Park%20Sierra%20Leone",
-        "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
-        "caption": "Fotografía aportada a la ficha exacta de Gola Rainforest National Park."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leptopelis_macrotis_(10.3897-zse.90.7120)_Figure_2_(cropped).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Leptopelis_macrotis_(10.3897-zse.90.7120)_Figure_2_(cropped).jpg",
-        "credit": "Roedel et al. · CC BY 4.0",
-        "caption": "Anfibio fotografiado en Gola; ejemplo de la biodiversidad que protege."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NW160-12_Acraea_camaena_(3430976449).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:NW160-12_Acraea_camaena_(3430976449).jpg",
-        "credit": "NSG group · CC0",
-        "caption": "Mariposa documentada en Gola Forest East."
-      }
-    ]
+    "credit": "Google Maps · aportación de usuario; autor y condiciones en la ficha",
+    "caption": "Fotografía aportada a la ficha exacta de Gola Rainforest National Park."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Leptopelis_macrotis_(10.3897-zse.90.7120)_Figure_2_(cropped).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Leptopelis_macrotis_(10.3897-zse.90.7120)_Figure_2_(cropped).jpg",
+    "credit": "Roedel et al. · CC BY 4.0",
+    "caption": "Anfibio fotografiado en Gola; ejemplo de la biodiversidad que protege."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NW160-12_Acraea_camaena_(3430976449).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:NW160-12_Acraea_camaena_(3430976449).jpg",
+    "credit": "NSG group · CC0",
+    "caption": "Mariposa documentada en Gola Forest East."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Isla de Tiwai · once especies de primates",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Alta",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "2 días",
+  "lat": 7.55415,
+  "lon": -11.3553667,
+  "desc": "Tiwai es una isla de selva en el río Moa con campamento, senderos y recorridos guiados. Forma parte del sitio UNESCO Gola-Tiwai y mantiene una web de reservas activa.",
+  "credit": "Stephanie Zito · CC BY-SA 1.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiwai_Island_River.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Tiwai_Island_River.jpg",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece la experiencia de selva más operativa del país y beneficia directamente a las comunidades vecinas.",
+   "see": "Tiwai es una isla de selva en el río Moa con campamento, senderos y recorridos guiados. Forma parte del sitio UNESCO Gola-Tiwai y mantiene una web de reservas activa.",
+   "access": "El pin se ajusta a Tiwai Island Wildlife Sanctuary en Google Maps. Reservar alojamiento, comida, guía y cruce en canoa a través de la web oficial; llevar efectivo y sacar los residuos.",
+   "when": "Estación seca, mínimo una noche y actividades de amanecer o atardecer.",
+   "skip": "Omitir sin reserva, con río crecido o traslado nocturno; no llevar al perro al santuario."
   },
-  {
-    "n": 14,
-    "name": "Isla de Tiwai · once especies de primates",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Alta",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "2 días",
-    "lat": 7.55415,
-    "lon": -11.3553667,
-    "desc": "Tiwai es una isla de selva en el río Moa con campamento, senderos y recorridos guiados. Forma parte del sitio UNESCO Gola-Tiwai y mantiene una web de reservas activa.",
-    "credit": "Stephanie Zito · CC BY-SA 1.0",
+  "links": [
+   {
+    "label": "Tiwai Island · visita y reservas",
+    "url": "https://www.tiwaiisland.org/visit/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiwai_Island_River.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Tiwai_Island_River.jpg",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece la experiencia de selva más operativa del país y beneficia directamente a las comunidades vecinas.",
-      "see": "Tiwai es una isla de selva en el río Moa con campamento, senderos y recorridos guiados. Forma parte del sitio UNESCO Gola-Tiwai y mantiene una web de reservas activa.",
-      "access": "El pin se ajusta a Tiwai Island Wildlife Sanctuary en Google Maps. Reservar alojamiento, comida, guía y cruce en canoa a través de la web oficial; llevar efectivo y sacar los residuos.",
-      "when": "Estación seca, mínimo una noche y actividades de amanecer o atardecer.",
-      "skip": "Omitir sin reserva, con río crecido o traslado nocturno; no llevar al perro al santuario."
-    },
-    "links": [
-      {
-        "label": "Tiwai Island · visita y reservas",
-        "url": "https://www.tiwaiisland.org/visit/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiwai_Island_River.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Tiwai_Island_River.jpg",
-        "credit": "Stephanie Zito · CC BY-SA 1.0",
-        "caption": "Cruce del río Moa hacia el santuario de Tiwai."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiwai_Island_-_flickr_(banner).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Tiwai_Island_-_flickr_(banner).jpg",
-        "credit": "Dorothy Voorhees · CC BY-SA 2.0",
-        "caption": "Bosque y orilla de la isla de Tiwai."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiwa_Island_-_flickr.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Tiwa_Island_-_flickr.jpg",
-        "credit": "Dorothy Voorhees · CC BY-SA 2.0",
-        "caption": "Sendero y vegetación dentro de la isla."
-      }
-    ]
+    "credit": "Stephanie Zito · CC BY-SA 1.0",
+    "caption": "Cruce del río Moa hacia el santuario de Tiwai."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiwai_Island_-_flickr_(banner).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiwai_Island_-_flickr_(banner).jpg",
+    "credit": "Dorothy Voorhees · CC BY-SA 2.0",
+    "caption": "Bosque y orilla de la isla de Tiwai."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiwa_Island_-_flickr.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiwa_Island_-_flickr.jpg",
+    "credit": "Dorothy Voorhees · CC BY-SA 2.0",
+    "caption": "Sendero y vegetación dentro de la isla."
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "name": "Sulima y la desembocadura del Moa",
+  "cat": "Costa",
+  "prio": "Baja",
+  "dog": "permitido",
+  "time": "1 día",
+  "lat": 6.9698478,
+  "lon": -11.5745457,
+  "desc": "El extremo suroriental del país, donde el río Moa —el mismo que rodea Tiwai— desemboca en el Atlántico, casi en la frontera de Liberia. Sulima fue puesto comercial en el siglo XIX y acogió después a mucha población desplazada por la guerra liberiana; hoy es un pueblo de pescadores con una playa larguísima, absolutamente vacía, y un estuario enorme. Está en las listas de proyectos de desarrollo turístico del país y también en las de un posible puerto de mineral de hierro, así que puede cambiar. Es el punto más remoto y menos visitado de todo el bucle: se llega por la pista desde Zimmi, que conviene confirmar antes de meterse. Con el perro, es la playa más libre del país — nadie a quien molestar en kilómetros.",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sierra_Leone_1970_-_sunset.jpg?width=1600",
+    "credit": "Batobureh · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sierra_Leone_1970_-_sunset.jpg",
+    "caption": "Atardecer en la costa sierraleonesa. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Sulima, Sierra Leone (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Sulima,_Sierra_Leone"
+   },
+   {
+    "label": "National Tourist Board – Sulima Beach",
+    "url": "https://ntb.gov.sl/sulima-beach-awesome-wonder/"
+   },
+   {
+    "label": "Sulima – Visit Sierra Leone",
+    "url": "https://www.visitsierraleone.org/sulima/"
+   }
+  ],
+  "visit": {
+   "why": "Es el final físico del país: la esquina sureste donde el Moa —el mismo río que rodea Tiwai— entra en el Atlántico, casi tocando Liberia. Para quien viaja por tierra vale por cerrar el mapa, no por lo que ofrece en servicios.",
+   "see": "Barra de arena entre río y mar, con las canoas alineadas para cruzar a los estuarios y a los bancos de arena, cocoteros, aves y crustáceos; la Junta Nacional de Turismo describe una playa larga de arena blanca y parda. Pueblo de pescadores con mezcla de sierraleoneses, liberianos y ghaneses, donde circulan a la vez leones y dólares liberianos. Fue puesto comercial en el siglo XIX y acogió refugiados liberianos; en 2013 se propuso aquí un puerto para exportar hierro de Tonkolili y en 2021 el presidente lo declaró foco turístico potencial — nada de eso está construido.",
+   "access": "Aquí está el problema: no hay fuente abierta que describa el estado del camino desde Zimmi o Pujehun. El propio operador VSL Travel se limita a decir que «el acceso no es bueno» y que resulta más fácil desde el lado liberiano. Dar por hecha pista de tierra, vadeos y 4x4 obligatorio, y preguntar sobre el terreno en Zimmi antes de comprometer el día. El pin es el pueblo, no un punto concreto de la playa, que se extiende varios kilómetros.",
+   "when": "Solo en estación seca bien asentada, y reservando un día entero solo para ir y volver. Entre mayo y octubre no tiene sentido intentarlo.",
+   "skip": "Si la seca no está asentada o van justos de días, cae del itinerario sin discusión: es mucho desvío por un pueblo sin infraestructura y sin alojamiento documentado en ninguna fuente. Tiwai y Bonthe dan bastante más por bastante menos esfuerzo."
   },
-  {
-    "n": 19,
-    "name": "Monte Bintumani (1.945 m) y las montañas Loma",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con precaución",
-    "time": "3–4 días",
-    "lat": 9.2166667,
-    "lon": -11.1166667,
-    "desc": "Bintumani es la cumbre más alta de Sierra Leona y una travesía remota en las montañas Loma. Requiere guía, porteadores y varios días; no es una excursión espontánea desde Kabala.",
-    "credit": "Rokaso · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 16,
+  "name": "Islas Turtle (archipiélago sherbro)",
+  "cat": "Naturaleza · costa",
+  "prio": "Media",
+  "dog": "no confirmado",
+  "time": "2 días",
+  "lat": 7.6271053,
+  "lon": -13.012672,
+  "desc": "Ocho islas de arena blanca repartidas sobre 13 km de bajíos, al oeste de la isla de Sherbro, en el distrito de Bonthe: Yele, Bakie, Bumpetuk, Chepo, Hoong, Mut, Nyangei y Sei. Siete están habitadas por sherbros que viven de la pesca y del coco, con una cultura propia intacta: las tardes se pasan cantando canciones tradicionales de valentía y de amor, y la isla de Hoong está reservada a los hombres iniciados como parte de sus ritos de paso — no se pisa. Es el rincón más remoto y más difícil de alcanzar de Sierra Leona: se llega en barca desde Freetown (unas tres horas) o desde Shenge/Bonthe, con transporte irregular y estándares de seguridad que conviene mirar de cerca antes de embarcar. Hay una amenaza real de fondo: la subida del nivel del mar, que según las estimaciones citadas podría sumergirlas hacia 2040. VISITA OPCIONAL Y CARA EN TIEMPO: solo tiene sentido con varios días de margen. Coordenada aproximada del archipiélago — confirmar.",
+  "icon": "naturaleza · costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sherbro_Island_-_panoramio.jpg?width=1600",
+    "credit": "tormentor4555 · CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sherbro_Island_-_panoramio.jpg",
+    "caption": "La isla de Sherbro, junto al archipiélago de las Turtle. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Turtle Islands, Sierra Leone (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Turtle_Islands,_Sierra_Leone"
+   },
+   {
+    "label": "Turtle Islands – Sierra Leone Tourism",
+    "url": "https://tourismsierraleone.com/attractions/turtle-islands/"
+   },
+   {
+    "label": "Bonthe – Wikivoyage (acceso por Mattru Jong)",
+    "url": "https://en.wikivoyage.org/wiki/Bonthe"
+   }
+  ],
+  "visit": {
+   "why": "Es el rincón más remoto del país y, a la vez, el que tiene fecha de caducidad: hay estimaciones de que la subida del mar las sumerja hacia 2040. Merece la parada si asumen que es una excursión en barco de varios días y no una etapa de los 4x4.",
+   "see": "Ocho islas —Yele, Bakie, Bumpetuk, Chepo, Hoong, Mut, Nyangei y Sei— repartidas sobre bajios y bancos de arena blanca, siete de ellas habitadas; Nyangai, la mayor, se está comiendo la erosión. Población sherbro que vive de la pesca y del coco, con canto tradicional por las noches. Hoong está vedada a visitantes y a mujeres por ritos de iniciación masculina: se respeta y no se discute.",
+   "access": "Solo por mar, y los vehículos se quedan en tierra. Lancha rápida desde Freetown o desde las Banana, unas 3 horas por trayecto según mareas y estado del mar, o barco desde Bonthe/Sherbro — a Bonthe se llega desde Bo en taxi colectivo hasta Mattru Jong y barco al día siguiente. El transporte es errático y no siempre cumple normas de seguridad: el FCDO desaconseja expresamente las embarcaciones de madera sin equipo de salvamento. El operador negocia a la llegada el permiso del jefe del pueblo. Alojamiento: casa de huéspedes rudimentaria de dos habitaciones en Bakie, con ducha de cubo, o acampada en playa con material del operador.",
+   "when": "Mínimo dos noches para que el viaje salga a cuenta, y solo con mar de estación seca. Salir con la marea de la mañana.",
+   "skip": "Si el mar no está plano, si no hay operador fiable o si no quieren dejar los vehículos varios días en tierra, se cae solo. Y con el perro es mala combinación: tres horas de lancha abierta, islas minúsculas sin sombra y comunidades que viven del pescado secando al sol."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 17,
+  "name": "Makeni · capital del norte",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 8.8719747,
+  "lon": -12.0375565,
+  "desc": "Quinta ciudad del país (unos 85.000 habitantes en el censo de 2021) y centro económico de la Provincia del Norte, a unos 175 km de Freetown por la carretera principal asfaltada. Es la última plaza con servicios completos antes de subir a Kabala y a las montañas: combustible formal, bancos, mercado grande, la Universidad de Makeni —la mayor privada del país— y el Holy Spirit Hospital, el mayor hospital privado del norte, que es la referencia sanitaria realista de todo el tramo de montaña. Ciudad temne, ordenada y tranquila. Nota de salud: la zona es endémica de fiebre amarilla y de malaria.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Makeni_Wusum.JPG?width=1600",
+    "credit": "David Stanley · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Makeni_Wusum.JPG",
+    "caption": "Makeni y la colina de Wusum."
+   }
+  ],
+  "links": [
+   {
+    "label": "Makeni (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Makeni"
+   },
+   {
+    "label": "National Tourist Board – Northern Provinces",
+    "url": "https://ntb.gov.sl/northern-provinces/"
+   },
+   {
+    "label": "FCDO – Sierra Leone, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es el nudo del norte y la última ciudad con servicios de verdad —banco, combustible, taller, hotel, mercado— antes de subir a Kabala o de tirar al noroeste hacia Outamba-Kilimi.",
+   "see": "Ciudad comercial temne de unos 85.000 habitantes en el censo de 2021, con la Universidad de Makeni —la mayor privada del país—, el estadio Wusum y un mercado grande. Lo que de verdad se compra aquí es gara: la Junta Nacional de Turismo destaca a las mujeres de Makeni por el teñido por reserva, y es el mejor recuerdo que se pueden llevar del norte.",
+   "access": "Carretera principal asfaltada desde Freetown, unos 175 km, sin necesidad de 4x4. Es también el punto donde se organiza la subida al norte hacia Outamba-Kilimi. Conducir siempre con luz: el FCDO insiste en el mal estado de los vehículos y en la frecuencia de accidentes graves.",
+   "when": "Una noche de tránsito. Todo el año; en lluvias es precisamente cuando más se agradece dormir en ciudad y no en pista.",
+   "skip": "Si hacen Freetown-Kabala en un día largo, Makeni se reduce a repostar y seguir. No tiene un «qué ver» que justifique quedarse."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 18,
+  "name": "Kabala y la colina de Gbawuria",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1 noche",
+  "lat": 9.5844123,
+  "lon": -11.5589105,
+  "desc": "Capital del distrito de Koinadugu, a unos 320 km de Freetown, rodeada de montañas y con el aire más seco y fresco del país: es la base obligada de todo el bloque de montaña. Al oeste del pueblo se levanta la colina de Gbawuria, donde cada 1 de enero sube media Sierra Leona a celebrar el año nuevo — una de las tradiciones populares más singulares del país, y una subida a pie corta y bonita cualquier otro día del año. Kabala es kuranko, fula, mandinga, yalunka y limba a la vez, con hospital gubernamental, mercado y alojamiento elemental. AVISO OPERATIVO: no hay electricidad de red, solo generadores, y el último tramo de acceso incluye unos 40 km de pista sin asfaltar desde la carretera principal — confirmar el estado actual, porque la red asfaltada del país ha avanzado en los últimos años.",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mother_and_child_-_Kabala%2C_Sierra_Leone_%28West_Africa%29.jpg?width=1600",
+    "credit": "John Atherton · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mother_and_child_-_Kabala%2C_Sierra_Leone_%28West_Africa%29.jpg",
+    "caption": "Kabala."
+   }
+  ],
+  "links": [
+   {
+    "label": "Kabala, Sierra Leone (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Kabala,_Sierra_Leone"
+   },
+   {
+    "label": "Kabala, Senekedugu & the Wara Wara Mountains – Visit Sierra Leone",
+    "url": "https://www.visitsierraleone.org/tour/kabala-senekedugu-the-wara-wara-mountains/"
+   },
+   {
+    "label": "National Tourist Board – Northern Provinces",
+    "url": "https://ntb.gov.sl/northern-provinces/"
+   }
+  ],
+  "visit": {
+   "why": "Es la base obligada del bloque de montaña del norte —Wara Wara, Loma, Bintumani— y el único rincón del país donde el aire es seco y fresco. Gbawuria es una subida corta que entrega la panorámica de todo el valle sin comerse el día.",
+   "see": "Pueblo de unos 19.000 habitantes rodeado de montaña, con mercado central y poco más, y al oeste la colina de Gbawuria, escenario del picnic tradicional de Año Nuevo que atrae gente de todo el país. A diez minutos en coche, la aldea de Senekedugu y sus granjas; para quien quiera más pierna, Len Konke: 3 km de subida muy empinada, hora y tres cuartos, con 360 grados arriba y buena observación de aves.",
+   "access": "El asfalto se acaba unos 40 km antes de Kabala y a partir de ahí queda pista de tierra sinuosa: aquí sí es terreno de 4x4, sobre todo con barro. Unos 320 km desde Freetown y unos 135 desde Makeni. Gbawuria son 5,5 km y hora y media de caminata total, dificultad baja-media, con guía local. Un detalle logístico que conviene tener claro: Wikipedia señala que en Kabala no hay electricidad más allá de generadores particulares, así que la carga de baterías se organiza desde el vehículo.",
+   "when": "Dos noches si piensan subir algo más que Gbawuria. Estación seca, de diciembre a abril. Si coinciden con el 1 de enero, el picnic de Gbawuria es el mejor día del año para estar aquí — y también, con diferencia, el más concurrido.",
+   "skip": "En plena lluvia (mayo a octubre, con agosto en torno a 387 mm) la pista final y las subidas dejan de tener sentido. Y si no vienen a caminar, Kabala es solo un pueblo pequeño y frío: no hay segundo motivo."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 19,
+  "name": "Monte Bintumani (1.945 m) y las montañas Loma",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con precaución",
+  "time": "3–4 días",
+  "lat": 9.2166667,
+  "lon": -11.1166667,
+  "desc": "Bintumani es la cumbre más alta de Sierra Leona y una travesía remota en las montañas Loma. Requiere guía, porteadores y varios días; no es una excursión espontánea desde Kabala.",
+  "credit": "Rokaso · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain_Bintunami.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Mountain_Bintunami.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el gran objetivo de montaña del país para quien quiera dedicarle una expedición propia.",
+   "see": "Bintumani es la cumbre más alta de Sierra Leona y una travesía remota en las montañas Loma. Requiere guía, porteadores y varios días; no es una excursión espontánea desde Kabala.",
+   "access": "El pin se corrige a la cumbre Bintumani de Google Maps. Organizar permisos, guía, campamentos, comida y evacuación con un operador que conozca la ruta actual.",
+   "when": "Estación seca, salida muy temprana y margen meteorológico de varios días.",
+   "skip": "Descartarlo sin equipo, guía o comunicación de emergencia, con lesión o lluvia; no llevar al perro a esta travesía."
+  },
+  "links": [
+   {
+    "label": "Ministerio de Turismo · montaña de Bintumani",
+    "url": "https://tourismsierraleone.com/where-to-go/loma-mountains-and-mount-bintumani/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain_Bintunami.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Mountain_Bintunami.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el gran objetivo de montaña del país para quien quiera dedicarle una expedición propia.",
-      "see": "Bintumani es la cumbre más alta de Sierra Leona y una travesía remota en las montañas Loma. Requiere guía, porteadores y varios días; no es una excursión espontánea desde Kabala.",
-      "access": "El pin se corrige a la cumbre Bintumani de Google Maps. Organizar permisos, guía, campamentos, comida y evacuación con un operador que conozca la ruta actual.",
-      "when": "Estación seca, salida muy temprana y margen meteorológico de varios días.",
-      "skip": "Descartarlo sin equipo, guía o comunicación de emergencia, con lesión o lluvia; no llevar al perro a esta travesía."
-    },
-    "links": [
-      {
-        "label": "Ministerio de Turismo · montaña de Bintumani",
-        "url": "https://tourismsierraleone.com/where-to-go/loma-mountains-and-mount-bintumani/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountain_Bintunami.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mountain_Bintunami.jpg",
-        "credit": "Rokaso · CC BY-SA 4.0",
-        "caption": "Perfil de Bintumani al comienzo de la estación lluviosa."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bintumani_1992_or_93.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mount_Bintumani_1992_or_93.jpg",
-        "credit": "sierra-leone143 · CC BY 2.0",
-        "caption": "Laderas de la cumbre durante una ascensión."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bintumani_1992_or_93_(2).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mount_Bintumani_1992_or_93_(2).jpg",
-        "credit": "sierra-leone143 · CC BY 2.0",
-        "caption": "Tramo de subida al monte Bintumani."
-      }
-    ]
+    "credit": "Rokaso · CC BY-SA 4.0",
+    "caption": "Perfil de Bintumani al comienzo de la estación lluviosa."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bintumani_1992_or_93.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Bintumani_1992_or_93.jpg",
+    "credit": "sierra-leone143 · CC BY 2.0",
+    "caption": "Laderas de la cumbre durante una ascensión."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bintumani_1992_or_93_(2).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Bintumani_1992_or_93_(2).jpg",
+    "credit": "sierra-leone143 · CC BY 2.0",
+    "caption": "Tramo de subida al monte Bintumani."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "name": "Parque Nacional de Outamba-Kilimi",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "2 días",
+  "lat": 9.7694,
+  "lon": -12.0261,
+  "desc": "Outamba-Kilimi combina sabana húmeda, bosque de galería y recorridos en canoa en dos sectores separados. La infraestructura es básica y debe confirmarse antes del desvío.",
+  "credit": "Leasmhar · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_of_Outamba_Kilimi_Park.JPG?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Vista_of_Outamba_Kilimi_Park.JPG",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el parque más interesante del norte para combinar paisaje, huellas de fauna y navegación tranquila.",
+   "see": "Outamba-Kilimi combina sabana húmeda, bosque de galería y recorridos en canoa en dos sectores separados. La infraestructura es básica y debe confirmarse antes del desvío.",
+   "access": "Google Maps no devuelve una ficha inequívoca; se conserva la referencia cartográfica auditada del sector Outamba. Confirmar oficina, guía, alojamiento y estado de la pista desde Kamakwie antes de salir.",
+   "when": "Estación seca y primera hora; prever al menos una noche y combustible de reserva.",
+   "skip": "Omitir tras lluvias, sin contacto del parque o si la canoa carece de chalecos; el perro no entra en el área protegida."
   },
-  {
-    "n": 20,
-    "name": "Parque Nacional de Outamba-Kilimi",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "2 días",
-    "lat": 9.7694,
-    "lon": -12.0261,
-    "desc": "Outamba-Kilimi combina sabana húmeda, bosque de galería y recorridos en canoa en dos sectores separados. La infraestructura es básica y debe confirmarse antes del desvío.",
-    "credit": "Leasmhar · CC BY-SA 3.0",
+  "links": [
+   {
+    "label": "Ministerio de Turismo · Outamba-Kilimi",
+    "url": "https://tourismsierraleone.com/where-to-go/outamba-kilimi-national-park/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_of_Outamba_Kilimi_Park.JPG?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Vista_of_Outamba_Kilimi_Park.JPG",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el parque más interesante del norte para combinar paisaje, huellas de fauna y navegación tranquila.",
-      "see": "Outamba-Kilimi combina sabana húmeda, bosque de galería y recorridos en canoa en dos sectores separados. La infraestructura es básica y debe confirmarse antes del desvío.",
-      "access": "Google Maps no devuelve una ficha inequívoca; se conserva la referencia cartográfica auditada del sector Outamba. Confirmar oficina, guía, alojamiento y estado de la pista desde Kamakwie antes de salir.",
-      "when": "Estación seca y primera hora; prever al menos una noche y combustible de reserva.",
-      "skip": "Omitir tras lluvias, sin contacto del parque o si la canoa carece de chalecos; el perro no entra en el área protegida."
-    },
-    "links": [
-      {
-        "label": "Ministerio de Turismo · Outamba-Kilimi",
-        "url": "https://tourismsierraleone.com/where-to-go/outamba-kilimi-national-park/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_of_Outamba_Kilimi_Park.JPG?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Vista_of_Outamba_Kilimi_Park.JPG",
-        "credit": "Leasmhar · CC BY-SA 3.0",
-        "caption": "Vista de sabana y bosque desde el sendero Karangia."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Outamba_Kilimi_Park_Sierra_Leone.JPG?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Outamba_Kilimi_Park_Sierra_Leone.JPG",
-        "credit": "Leasmhar · CC BY-SA 3.0",
-        "caption": "Recorrido en canoa dentro de Outamba-Kilimi."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Karangia_Trail_Outamba-Kilimi_Park_Sierra_Leone.JPG?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Karangia_Trail_Outamba-Kilimi_Park_Sierra_Leone.JPG",
-        "credit": "Leasmhar · CC BY-SA 3.0",
-        "caption": "Guía local en el sendero Karangia del parque."
-      }
-    ]
-  }
+    "credit": "Leasmhar · CC BY-SA 3.0",
+    "caption": "Vista de sabana y bosque desde el sendero Karangia."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Outamba_Kilimi_Park_Sierra_Leone.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Outamba_Kilimi_Park_Sierra_Leone.JPG",
+    "credit": "Leasmhar · CC BY-SA 3.0",
+    "caption": "Recorrido en canoa dentro de Outamba-Kilimi."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Karangia_Trail_Outamba-Kilimi_Park_Sierra_Leone.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Karangia_Trail_Outamba-Kilimi_Park_Sierra_Leone.JPG",
+    "credit": "Leasmhar · CC BY-SA 3.0",
+    "caption": "Guía local en el sendero Karangia del parque."
+   }
+  ]
+ }
 ]

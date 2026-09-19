@@ -1,702 +1,966 @@
 [
-  {
-    "n": 1,
-    "name": "Lomé · Grand Marché y Catedral del Sagrado Corazón",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 6.1319,
-    "lon": 1.2228,
-    "desc": "Lomé combina Grand Marché, catedral, paseo marítimo y patrimonio colonial. Es también la gran base de servicios del país y se recorre por zonas.",
-    "credit": "Dan Sloan · CC BY-SA 2.0",
+ {
+  "n": 1,
+  "name": "Lomé · Grand Marché y Catedral del Sagrado Corazón",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 noches",
+  "lat": 6.1319,
+  "lon": 1.2228,
+  "desc": "Lomé combina Grand Marché, catedral, paseo marítimo y patrimonio colonial. Es también la gran base de servicios del país y se recorre por zonas.",
+  "credit": "Dan Sloan · CC BY-SA 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lom%C3%A9_Grand_March%C3%A9_with_the_Cath%C3%A9drale_du_Sacr%C3%A9_Coeur_(33592985581).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Lom%C3%A9_Grand_March%C3%A9_with_the_Cath%C3%A9drale_du_Sacr%C3%A9_Coeur_(33592985581).jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite entender la capital comercial y resolver gestiones antes de los corredores costero e interior.",
+   "see": "Lomé combina Grand Marché, catedral, paseo marítimo y patrimonio colonial. Es también la gran base de servicios del país y se recorre por zonas.",
+   "access": "El pin se mantiene como ancla urbana. Reservar estacionamiento vigilado, evitar fotografiar controles y visitar el mercado con guía si se lleva equipo visible.",
+   "when": "Día laborable y primera hora; una noche para no encadenar ciudad y frontera.",
+   "skip": "Reducir el recorrido con protesta, tráfico extremo o sin aparcamiento seguro."
+  },
+  "links": [
+   {
+    "label": "Togo Tourisme · Lomé",
+    "url": "https://togotourisme.tg/destinations/lome/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lom%C3%A9_Grand_March%C3%A9_with_the_Cath%C3%A9drale_du_Sacr%C3%A9_Coeur_(33592985581).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Lom%C3%A9_Grand_March%C3%A9_with_the_Cath%C3%A9drale_du_Sacr%C3%A9_Coeur_(33592985581).jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite entender la capital comercial y resolver gestiones antes de los corredores costero e interior.",
-      "see": "Lomé combina Grand Marché, catedral, paseo marítimo y patrimonio colonial. Es también la gran base de servicios del país y se recorre por zonas.",
-      "access": "El pin se mantiene como ancla urbana. Reservar estacionamiento vigilado, evitar fotografiar controles y visitar el mercado con guía si se lleva equipo visible.",
-      "when": "Día laborable y primera hora; una noche para no encadenar ciudad y frontera.",
-      "skip": "Reducir el recorrido con protesta, tráfico extremo o sin aparcamiento seguro."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · Lomé",
-        "url": "https://togotourisme.tg/destinations/lome/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lom%C3%A9_Grand_March%C3%A9_with_the_Cath%C3%A9drale_du_Sacr%C3%A9_Coeur_(33592985581).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Lom%C3%A9_Grand_March%C3%A9_with_the_Cath%C3%A9drale_du_Sacr%C3%A9_Coeur_(33592985581).jpg",
-        "credit": "Dan Sloan · CC BY-SA 2.0",
-        "caption": "Grand Marché y catedral del Sagrado Corazón."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lom%C3%A9_grand_market.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Lom%C3%A9_grand_market.jpg",
-        "credit": "Ognakossan · CC BY-SA 4.0",
-        "caption": "Actividad en el Grand Marché de Lomé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cath%C3%A9drale_du_Sacr%C3%A9-C%C5%93ur_de_Lom%C3%A9_3.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_du_Sacr%C3%A9-C%C5%93ur_de_Lom%C3%A9_3.jpg",
-        "credit": "Edison McCullen · CC BY 4.0",
-        "caption": "Fachada de la catedral de Lomé."
-      }
-    ]
+    "credit": "Dan Sloan · CC BY-SA 2.0",
+    "caption": "Grand Marché y catedral del Sagrado Corazón."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lom%C3%A9_grand_market.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lom%C3%A9_grand_market.jpg",
+    "credit": "Ognakossan · CC BY-SA 4.0",
+    "caption": "Actividad en el Grand Marché de Lomé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cath%C3%A9drale_du_Sacr%C3%A9-C%C5%93ur_de_Lom%C3%A9_3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_du_Sacr%C3%A9-C%C5%93ur_de_Lom%C3%A9_3.jpg",
+    "credit": "Edison McCullen · CC BY 4.0",
+    "caption": "Fachada de la catedral de Lomé."
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "name": "Mercado de fetiches de Akodessewa (Marché des féticheurs)",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.1576318,
+  "lon": 1.267046,
+  "desc": "Akodesséwa es un mercado de objetos rituales y materia animal asociado a prácticas vodun. Requiere mediación y no debe tratarse como espectáculo exótico.",
+  "credit": "Francisco Anzola · CC BY 2.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/In_the_Akodessewa_Fetish_Market_(33632321458).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:In_the_Akodessewa_Fetish_Market_(33632321458).jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Aporta contexto sobre medicina y religión tradicionales, siempre que la visita sea explicada por alguien del lugar.",
+   "see": "Akodesséwa es un mercado de objetos rituales y materia animal asociado a prácticas vodun. Requiere mediación y no debe tratarse como espectáculo exótico.",
+   "access": "El pin coincide con el mercado. Acordar guía, precio y permiso fotográfico antes de sacar la cámara; no comprar productos de fauna protegida.",
+   "when": "Mañana y con tiempo para conversar; alrededor de una hora.",
+   "skip": "Omitir con presión comercial, fotografía no consentida o si incomoda la presencia de restos animales; perro fuera."
   },
-  {
-    "n": 2,
-    "name": "Mercado de fetiches de Akodessewa (Marché des féticheurs)",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 6.1576318,
-    "lon": 1.267046,
-    "desc": "Akodesséwa es un mercado de objetos rituales y materia animal asociado a prácticas vodun. Requiere mediación y no debe tratarse como espectáculo exótico.",
-    "credit": "Francisco Anzola · CC BY 2.0",
+  "links": [
+   {
+    "label": "Togo Tourisme · recorridos culturales",
+    "url": "https://togotourisme.tg/types-de-voyages-une-multitude-de-possibilites-2/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/In_the_Akodessewa_Fetish_Market_(33632321458).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:In_the_Akodessewa_Fetish_Market_(33632321458).jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Aporta contexto sobre medicina y religión tradicionales, siempre que la visita sea explicada por alguien del lugar.",
-      "see": "Akodesséwa es un mercado de objetos rituales y materia animal asociado a prácticas vodun. Requiere mediación y no debe tratarse como espectáculo exótico.",
-      "access": "El pin coincide con el mercado. Acordar guía, precio y permiso fotográfico antes de sacar la cámara; no comprar productos de fauna protegida.",
-      "when": "Mañana y con tiempo para conversar; alrededor de una hora.",
-      "skip": "Omitir con presión comercial, fotografía no consentida o si incomoda la presencia de restos animales; perro fuera."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · recorridos culturales",
-        "url": "https://togotourisme.tg/types-de-voyages-une-multitude-de-possibilites-2/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/In_the_Akodessewa_Fetish_Market_(33632321458).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:In_the_Akodessewa_Fetish_Market_(33632321458).jpg",
-        "credit": "Francisco Anzola · CC BY 2.0",
-        "caption": "Puesto documentado del mercado de Akodesséwa."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Skulls_at_Akodessawa_Fetish_Market_2016.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Skulls_at_Akodessawa_Fetish_Market_2016.jpg",
-        "credit": "Alexander Sarlay · CC BY-SA 4.0",
-        "caption": "Restos animales ofrecidos en el mercado."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akodessawa_Fetish_Market_2005.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Akodessawa_Fetish_Market_2005.jpg",
-        "credit": "Alexander Sarlay · CC BY-SA 4.0",
-        "caption": "Vista del mercado en 2005."
-      }
-    ]
+    "credit": "Francisco Anzola · CC BY 2.0",
+    "caption": "Puesto documentado del mercado de Akodesséwa."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Skulls_at_Akodessawa_Fetish_Market_2016.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Skulls_at_Akodessawa_Fetish_Market_2016.jpg",
+    "credit": "Alexander Sarlay · CC BY-SA 4.0",
+    "caption": "Restos animales ofrecidos en el mercado."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Akodessawa_Fetish_Market_2005.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Akodessawa_Fetish_Market_2005.jpg",
+    "credit": "Alexander Sarlay · CC BY-SA 4.0",
+    "caption": "Vista del mercado en 2005."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Lomé alemán · Palais de Lomé y arquitectura colonial",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.13,
+  "lon": 1.215,
+  "desc": "El antiguo palacio de los gobernadores, construido en 1905, es desde 2019 un centro de arte y cultura con exposiciones y jardines frente al mar.",
+  "credit": "Nero2022 · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Lom%C3%A9_-_elewacja_po%C5%82udniowa.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Palais_de_Lom%C3%A9_-_elewacja_po%C5%82udniowa.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la mejor recuperación arquitectónica de Lomé y permite leer la etapa alemana y los usos posteriores del edificio.",
+   "see": "El antiguo palacio de los gobernadores, construido en 1905, es desde 2019 un centro de arte y cultura con exposiciones y jardines frente al mar.",
+   "access": "El pin coincide con Palais de Lomé. Consultar exposiciones, horario y entradas; confirmar si el jardín admite perro y asumir que las salas no.",
+   "when": "Día de apertura, preferentemente por la mañana; dos horas.",
+   "skip": "Omitir interiores con cierre o sin custodia para el perro; no prometer una exposición concreta sin revisar programa."
   },
-  {
-    "n": 3,
-    "name": "Lomé alemán · Palais de Lomé y arquitectura colonial",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 6.13,
-    "lon": 1.215,
-    "desc": "El antiguo palacio de los gobernadores, construido en 1905, es desde 2019 un centro de arte y cultura con exposiciones y jardines frente al mar.",
-    "credit": "Nero2022 · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Togo Tourisme · Palais de Lomé",
+    "url": "https://togotourisme.tg/site/palais-de-lome/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Lom%C3%A9_-_elewacja_po%C5%82udniowa.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Palais_de_Lom%C3%A9_-_elewacja_po%C5%82udniowa.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la mejor recuperación arquitectónica de Lomé y permite leer la etapa alemana y los usos posteriores del edificio.",
-      "see": "El antiguo palacio de los gobernadores, construido en 1905, es desde 2019 un centro de arte y cultura con exposiciones y jardines frente al mar.",
-      "access": "El pin coincide con Palais de Lomé. Consultar exposiciones, horario y entradas; confirmar si el jardín admite perro y asumir que las salas no.",
-      "when": "Día de apertura, preferentemente por la mañana; dos horas.",
-      "skip": "Omitir interiores con cierre o sin custodia para el perro; no prometer una exposición concreta sin revisar programa."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · Palais de Lomé",
-        "url": "https://togotourisme.tg/site/palais-de-lome/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Lom%C3%A9_-_elewacja_po%C5%82udniowa.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Palais_de_Lom%C3%A9_-_elewacja_po%C5%82udniowa.jpg",
-        "credit": "Nero2022 · CC BY-SA 4.0",
-        "caption": "Fachada sur del Palais de Lomé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Lom%C3%A9.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Palais_de_Lom%C3%A9.jpg",
-        "credit": "Ognakossan · CC BY-SA 4.0",
-        "caption": "Palacio restaurado junto al paseo marítimo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_expositions_du_Palais_de_Lom%C3%A9_16.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Les_expositions_du_Palais_de_Lom%C3%A9_16.jpg",
-        "credit": "Lome2023 · CC BY-SA 4.0",
-        "caption": "Una exposición dentro del centro cultural."
-      }
-    ]
+    "credit": "Nero2022 · CC BY-SA 4.0",
+    "caption": "Fachada sur del Palais de Lomé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_Lom%C3%A9.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Palais_de_Lom%C3%A9.jpg",
+    "credit": "Ognakossan · CC BY-SA 4.0",
+    "caption": "Palacio restaurado junto al paseo marítimo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_expositions_du_Palais_de_Lom%C3%A9_16.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Les_expositions_du_Palais_de_Lom%C3%A9_16.jpg",
+    "credit": "Lome2023 · CC BY-SA 4.0",
+    "caption": "Una exposición dentro del centro cultural."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Playas del este de Lomé (Baguida y Coco Beach)",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1–2 noches",
+  "lat": 6.175,
+  "lon": 1.33,
+  "desc": "La franja de cocoteros entre Lomé y Agbodrafo, con alojamientos y campings sencillos junto a la arena (Coco Beach, Baguida, Avépozo) donde el perro no suele ser problema y se puede aparcar el vehículo a la vista. ATENCIÓN: la costa togolesa tiene resaca fuerte y corrientes de retorno peligrosas en casi todo el litoral — bañarse solo donde haya gente local haciéndolo. Es la parada natural para descomprimir entre la frontera de Ghana y la de Benín.",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wharf_fran%C3%A7aise_de_lom%C3%A9_Togo_02.jpg?width=1600",
+    "credit": "Adewi97 · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wharf_fran%C3%A7aise_de_lom%C3%A9_Togo_02.jpg",
+    "caption": "El viejo wharf francés, en la costa al este de Lomé."
+   }
+  ],
+  "links": [
+   {
+    "label": "Ministerio de Turismo de Togo — Plages de Lomé",
+    "url": "https://tourisme.gouv.tg/plages-de-lome-le-paradis-sable-du-togo-ou-locean-murmure-lame-africaine/"
+   },
+   {
+    "label": "Wikipedia (EN) — Baguida",
+    "url": "https://en.wikipedia.org/wiki/Baguida"
+   },
+   {
+    "label": "FCDO — Togo, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es el descompresor lógico antes o después de cruzar Lomé: a 10-15 km del centro se sale del tráfico y de los controles y se acampa o se duerme sobre la arena, con aparcamiento junto al coche y sin el ambiente tenso de la playa urbana. Para una expedición con perro es el sitio más fácil de toda la costa togolesa, porque el alojamiento es de bungalow y patio, no de resort cerrado.",
+   "see": "Una franja continua de cocoteros y arena gris entre Baguida, Avépozo y Agbodrafo, con pescadores tirando de la red al amanecer, chiringuitos y hoteles pequeños a pie de playa, y entre julio y septiembre nidificación de tortugas marinas en el tramo Baguida-Kpémé.",
+   "access": "El pin es aproximado: marca el centro de una zona de varios kilómetros, no un acceso concreto. Se llega por la carretera costera que sale de Lomé hacia Aného (N2/RN2, asfalto, la misma que lleva a la frontera de Benín); todos los accesos a la arena son pistas cortas de arena blanda entre cocoteros, transitables con cualquier 4x4 en modo normal pero donde un vehículo cargado se puede enterrar si se sale de la rodada. No hay permisos ni horarios: se negocia directamente con el establecimiento.",
+   "when": "Una o dos noches bastan; con perro a bordo funciona bien como parada de aclimatación al llegar y como base para hacer los trámites de Lomé a 20 minutos. La mejor ventana es la estación seca, de noviembre a febrero, que es además la que recomienda el ministerio togolés; de junio a septiembre la costa está más cargada y con mar peor.",
+   "skip": "Si lo que se busca es baño, no compensa: tanto el FCDO británico como el ministerio de Turismo togolés avisan de corrientes muy fuertes y ahogamientos todos los años, y el FCDO señala además robos y agresiones en las playas de Lomé de día y de noche. Fines de semana y festivos el tramo se llena de excursionistas de la capital y pierde todo el interés; y con el fondeadero de arena flojo, en plena estación de lluvias mejor dormir en Lomé."
   },
-  {
-    "n": 5,
-    "name": "Agbodrafo y el lago Togo (Maison des Esclaves de Wood Home)",
-    "cat": "Costa",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 6.2167,
-    "lon": 1.4333,
-    "desc": "La Maison Wood de Agbodrafo conserva un sótano asociado a la trata clandestina del siglo XIX. La interpretación depende del guía local.",
-    "credit": "Beaugardo · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 5,
+  "name": "Agbodrafo y el lago Togo (Maison des Esclaves de Wood Home)",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.2167,
+  "lon": 1.4333,
+  "desc": "La Maison Wood de Agbodrafo conserva un sótano asociado a la trata clandestina del siglo XIX. La interpretación depende del guía local.",
+  "credit": "Beaugardo · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_des_Esclaves_d%E2%80%99Agbodrafo_08.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Maison_des_Esclaves_d%E2%80%99Agbodrafo_08.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Hace visible una fase posterior a la abolición legal que suele quedar fuera de los grandes castillos de Ghana.",
+   "see": "La Maison Wood de Agbodrafo conserva un sótano asociado a la trata clandestina del siglo XIX. La interpretación depende del guía local.",
+   "access": "El pin coincide con Maison des Esclaves. Confirmar apertura y guía; el espacio es pequeño, sensible y no adecuado para perro.",
+   "when": "Mañana o primera tarde; una hora, combinable con el lago Togo.",
+   "skip": "Omitir si no hay guía o custodia para el perro; no repetir afirmaciones no documentadas como hechos."
+  },
+  "links": [
+   {
+    "label": "Togo Tourisme · patrimonio de la trata",
+    "url": "https://togotourisme.tg/un-patrimoine-historique/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_des_Esclaves_d%E2%80%99Agbodrafo_08.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Maison_des_Esclaves_d%E2%80%99Agbodrafo_08.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Hace visible una fase posterior a la abolición legal que suele quedar fuera de los grandes castillos de Ghana.",
-      "see": "La Maison Wood de Agbodrafo conserva un sótano asociado a la trata clandestina del siglo XIX. La interpretación depende del guía local.",
-      "access": "El pin coincide con Maison des Esclaves. Confirmar apertura y guía; el espacio es pequeño, sensible y no adecuado para perro.",
-      "when": "Mañana o primera tarde; una hora, combinable con el lago Togo.",
-      "skip": "Omitir si no hay guía o custodia para el perro; no repetir afirmaciones no documentadas como hechos."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · patrimonio de la trata",
-        "url": "https://togotourisme.tg/un-patrimoine-historique/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_des_Esclaves_d%E2%80%99Agbodrafo_08.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Maison_des_Esclaves_d%E2%80%99Agbodrafo_08.jpg",
-        "credit": "Beaugardo · CC BY-SA 4.0",
-        "caption": "Exterior de la Maison des Esclaves."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_des_Esclaves_d%E2%80%99Agbodrafo_16.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Maison_des_Esclaves_d%E2%80%99Agbodrafo_16.jpg",
-        "credit": "Beaugardo · CC BY-SA 4.0",
-        "caption": "Espacio interior de la Maison Wood."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_des_Esclaves_d%E2%80%99Agbodrafo_01.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Maison_des_Esclaves_d%E2%80%99Agbodrafo_01.jpg",
-        "credit": "Beaugardo · CC BY-SA 4.0",
-        "caption": "Detalle del edificio histórico de Agbodrafo."
-      }
-    ]
+    "credit": "Beaugardo · CC BY-SA 4.0",
+    "caption": "Exterior de la Maison des Esclaves."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_des_Esclaves_d%E2%80%99Agbodrafo_16.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Maison_des_Esclaves_d%E2%80%99Agbodrafo_16.jpg",
+    "credit": "Beaugardo · CC BY-SA 4.0",
+    "caption": "Espacio interior de la Maison Wood."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maison_des_Esclaves_d%E2%80%99Agbodrafo_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Maison_des_Esclaves_d%E2%80%99Agbodrafo_01.jpg",
+    "credit": "Beaugardo · CC BY-SA 4.0",
+    "caption": "Detalle del edificio histórico de Agbodrafo."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Togoville",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.2342074,
+  "lon": 1.4785205,
+  "desc": "Togoville es una localidad histórica de la orilla norte del lago Togo, ligada al tratado de 1884, a santuarios vodun y a la catedral.",
+  "credit": "Alexandra Pugachevsky · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Togoville_harbour.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Togoville_harbour.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Reúne historia colonial, vida lagunar y religión viva en un lugar compacto.",
+   "see": "Togoville es una localidad histórica de la orilla norte del lago Togo, ligada al tratado de 1884, a santuarios vodun y a la catedral.",
+   "access": "El pin cae en el centro de Togoville. Se llega por carretera o piragua; si se cruza el lago, pactar chalecos y regreso. Visitar santuarios solo con permiso.",
+   "when": "Mañana, con mar y viento tranquilos si se usa piragua; medio día.",
+   "skip": "Omitir la barca sin chalecos o con tormenta; no fotografiar altares ni rituales sin consentimiento."
   },
-  {
-    "n": 6,
-    "name": "Togoville",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 6.2342074,
-    "lon": 1.4785205,
-    "desc": "Togoville es una localidad histórica de la orilla norte del lago Togo, ligada al tratado de 1884, a santuarios vodun y a la catedral.",
-    "credit": "Alexandra Pugachevsky · CC BY-SA 3.0",
+  "links": [
+   {
+    "label": "Togo Tourisme · Togoville",
+    "url": "https://togotourisme.tg/destinations/togoville/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Togoville_harbour.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Togoville_harbour.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Reúne historia colonial, vida lagunar y religión viva en un lugar compacto.",
-      "see": "Togoville es una localidad histórica de la orilla norte del lago Togo, ligada al tratado de 1884, a santuarios vodun y a la catedral.",
-      "access": "El pin cae en el centro de Togoville. Se llega por carretera o piragua; si se cruza el lago, pactar chalecos y regreso. Visitar santuarios solo con permiso.",
-      "when": "Mañana, con mar y viento tranquilos si se usa piragua; medio día.",
-      "skip": "Omitir la barca sin chalecos o con tormenta; no fotografiar altares ni rituales sin consentimiento."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · Togoville",
-        "url": "https://togotourisme.tg/destinations/togoville/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Togoville_harbour.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Togoville_harbour.jpg",
-        "credit": "Alexandra Pugachevsky · CC BY-SA 3.0",
-        "caption": "Embarcadero de Togoville en el lago."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Au_march%C3%A9_de_Togoville.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Au_march%C3%A9_de_Togoville.jpg",
-        "credit": "Le bon Sos · CC BY-SA 4.0",
-        "caption": "Mercado local de Togoville."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panneau_Indicatif_du_centre_ADANU_de_Togoville.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Panneau_Indicatif_du_centre_ADANU_de_Togoville.jpg",
-        "credit": "Razak23 · CC BY-SA 4.0",
-        "caption": "Señal de un centro comunitario de Togoville."
-      }
-    ]
+    "credit": "Alexandra Pugachevsky · CC BY-SA 3.0",
+    "caption": "Embarcadero de Togoville en el lago."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Au_march%C3%A9_de_Togoville.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Au_march%C3%A9_de_Togoville.jpg",
+    "credit": "Le bon Sos · CC BY-SA 4.0",
+    "caption": "Mercado local de Togoville."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Panneau_Indicatif_du_centre_ADANU_de_Togoville.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Panneau_Indicatif_du_centre_ADANU_de_Togoville.jpg",
+    "credit": "Razak23 · CC BY-SA 4.0",
+    "caption": "Señal de un centro comunitario de Togoville."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "name": "Aného y Glidji",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "½ día · 1 noche",
+  "lat": 6.2333,
+  "lon": 1.6,
+  "desc": "Aného y Glidji forman un paisaje costero y ritual ligado a la historia guin-mina y a la fiesta Epe Ekpe. Fuera del festival sigue siendo una visita cultural.",
+  "credit": "Alfrednadjere · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Retrait_du_filet_avec_des_poissons.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Retrait_du_filet_avec_des_poissons.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la escala con más contexto histórico y religioso antes de la frontera de Hillacondji.",
+   "see": "Aného y Glidji forman un paisaje costero y ritual ligado a la historia guin-mina y a la fiesta Epe Ekpe. Fuera del festival sigue siendo una visita cultural.",
+   "access": "El pin se mantiene en Aného. Contratar guía local para Glidji, confirmar cada recinto y no entrar en ceremonias privadas.",
+   "when": "De día; septiembre solo si las fechas y condiciones de Epe Ekpe están confirmadas.",
+   "skip": "Omitir actos masivos sin plan o cualquier santuario sin permiso; no fotografiar participantes por defecto."
   },
-  {
-    "n": 7,
-    "name": "Aného y Glidji",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "½ día · 1 noche",
-    "lat": 6.2333,
-    "lon": 1.6,
-    "desc": "Aného y Glidji forman un paisaje costero y ritual ligado a la historia guin-mina y a la fiesta Epe Ekpe. Fuera del festival sigue siendo una visita cultural.",
-    "credit": "Alfrednadjere · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Togo Tourisme · Aného",
+    "url": "https://togotourisme.tg/detailsite?slug=aneho&type=ville"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Retrait_du_filet_avec_des_poissons.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Retrait_du_filet_avec_des_poissons.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la escala con más contexto histórico y religioso antes de la frontera de Hillacondji.",
-      "see": "Aného y Glidji forman un paisaje costero y ritual ligado a la historia guin-mina y a la fiesta Epe Ekpe. Fuera del festival sigue siendo una visita cultural.",
-      "access": "El pin se mantiene en Aného. Contratar guía local para Glidji, confirmar cada recinto y no entrar en ceremonias privadas.",
-      "when": "De día; septiembre solo si las fechas y condiciones de Epe Ekpe están confirmadas.",
-      "skip": "Omitir actos masivos sin plan o cualquier santuario sin permiso; no fotografiar participantes por defecto."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · Aného",
-        "url": "https://togotourisme.tg/detailsite?slug=aneho&type=ville"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Retrait_du_filet_avec_des_poissons.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Retrait_du_filet_avec_des_poissons.jpg",
-        "credit": "Alfrednadjere · CC BY-SA 4.0",
-        "caption": "Pescadores retirando una red en Aného."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_de_la_divinit%C3%A9_Osabu_de_Glidji.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Temple_de_la_divinit%C3%A9_Osabu_de_Glidji.jpg",
-        "credit": "Wisdom Mensah de Linitiateur · CC BY-SA 4.0",
-        "caption": "Templo de la divinidad Osabu en Glidji."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/An%C3%A8ho,_C%C3%A9r%C3%A9monies_rituelles_et_traditionnelles_de_%C3%89p%C3%A9-Ekp%C3%A9,_d%C3%A9part_de_Akl%C3%A9ma_pour_Glidji.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:An%C3%A8ho,_C%C3%A9r%C3%A9monies_rituelles_et_traditionnelles_de_%C3%89p%C3%A9-Ekp%C3%A9,_d%C3%A9part_de_Akl%C3%A9ma_pour_Glidji.jpg",
-        "credit": "Wisdom Mensah de Linitiateur · CC BY-SA 4.0",
-        "caption": "Ceremonia Epe Ekpe documentada en Aného."
-      }
-    ]
+    "credit": "Alfrednadjere · CC BY-SA 4.0",
+    "caption": "Pescadores retirando una red en Aného."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_de_la_divinit%C3%A9_Osabu_de_Glidji.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Temple_de_la_divinit%C3%A9_Osabu_de_Glidji.jpg",
+    "credit": "Wisdom Mensah de Linitiateur · CC BY-SA 4.0",
+    "caption": "Templo de la divinidad Osabu en Glidji."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/An%C3%A8ho,_C%C3%A9r%C3%A9monies_rituelles_et_traditionnelles_de_%C3%89p%C3%A9-Ekp%C3%A9,_d%C3%A9part_de_Akl%C3%A9ma_pour_Glidji.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:An%C3%A8ho,_C%C3%A9r%C3%A9monies_rituelles_et_traditionnelles_de_%C3%89p%C3%A9-Ekp%C3%A9,_d%C3%A9part_de_Akl%C3%A9ma_pour_Glidji.jpg",
+    "credit": "Wisdom Mensah de Linitiateur · CC BY-SA 4.0",
+    "caption": "Ceremonia Epe Ekpe documentada en Aného."
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "name": "Kara",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 noches",
+  "lat": 9.5486112,
+  "lon": 1.1977158,
+  "desc": "Segunda capital administrativa del país, a 412 km de Lomé, y única base logística real del norte: combustible, talleres, hospital regional (CHU Kara), hoteles con aparcamiento y mercado. Ciudad natal del clan Gnassingbé y sede de la lucha ritual EVALA, la iniciación de los jóvenes kabyè que se celebra cada julio y llena la región durante una semana. Punto de partida obligado para Koutammakou, Sarakawa y la falla de Aledjo. IMPORTANTE: es también el último punto del país al que se puede subir con normalidad — ver la sección de seguridad antes de continuar hacia el norte.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aper%C3%A7u_de_la_ville_de_Kara_02.jpg?width=1600",
+    "credit": "Hermannkass · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aper%C3%A7u_de_la_ville_de_Kara_02.jpg",
+    "caption": "Kara."
+   }
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (EN) — Kara, Togo",
+    "url": "https://en.wikipedia.org/wiki/Kara,_Togo"
+   },
+   {
+    "label": "Togo Tourisme — destination Kara",
+    "url": "https://togotourisme.tg/destinations/kara/"
+   },
+   {
+    "label": "République Togolaise — Kara, un pôle sanitaire en devenir",
+    "url": "https://www.republicoftogo.com/toutes-les-rubriques/sante/kara-un-pole-sanitaire-en-devenir"
+   }
+  ],
+  "visit": {
+   "why": "Es el único sitio al norte de Sokodé donde se puede resolver de verdad un problema: combustible fiable, talleres, bancos, universidad y hospital universitario. Si la ruta sigue hacia Koutammakou, Benín o Burkina, aquí es donde hay que dejar los vehículos y la gente en condiciones, porque más al norte ya no hay red.",
+   "see": "Una ciudad administrativa de traza ancha y poco turística: mercado, catedral, Palacio de Congresos con el museo regional y la plaza de la Victoria. Lo que justifica el rodeo está en los alrededores: la reserva de Sarakawa, los herreros y alfareras de Tcharè y los empedrados kabyè, y a un par de horas el paisaje cultural de Koutammakou, Patrimonio Mundial.",
+   "access": "Está a 412-413 km de Lomé por la N1 asfaltada, el eje principal del país; es un trayecto de día completo si se respeta la norma de no conducir de noche que repiten el MAEC y el FCDO. El aeropuerto internacional de Niamtougou queda 40 km al norte. Para la sanidad, Kara tiene el CHU y desde 2025 un anexo del hospital de referencia Dogta-Lafiè y un centro de enfermedades infecciosas con UCI inaugurados por el jefe del Estado: es el mejor recurso médico del norte del país.",
+   "when": "Una noche como parada logística, dos si se hace Sarakawa o Koutammakou desde aquí. La semana de los Evala, la lucha iniciática kabyè de mediados de julio, llena la ciudad de miles de visitantes y del aparato oficial: es un espectáculo real, pero hay que reservar con mucha antelación o evitarla.",
+   "skip": "Como ciudad en sí no da para más de una tarde; si no se necesita taller, hospital ni depósito lleno y no coincide con los Evala, se puede dormir en un sitio más agradable. Conviene además tener presente que el FCDO desaconseja los viajes no esenciales a la región de Savanes, al norte de Kara, y que el MAEC exige autorización previa del Ministerio de Defensa para entrar en ella: Kara puede ser el final de la ruta hacia el norte, no una etapa intermedia."
   },
-  {
-    "n": 9,
-    "name": "Reserva de fauna de Sarakawa",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "½ día",
-    "lat": 9.6244682,
-    "lon": 0.9847526,
-    "desc": "Sarakawa es un parque de fauna cercado al noroeste de Kara, con especies locales y otras introducidas. No debe confundirse con un parque nacional salvaje.",
-    "credit": "Alfrednadjere · CC BY 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 9,
+  "name": "Reserva de fauna de Sarakawa",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "½ día",
+  "lat": 9.6244682,
+  "lon": 0.9847526,
+  "desc": "Sarakawa es un parque de fauna cercado al noroeste de Kara, con especies locales y otras introducidas. No debe confundirse con un parque nacional salvaje.",
+  "credit": "Alfrednadjere · CC BY 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Piquet_PARC_SARAKAWA_04.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Piquet_PARC_SARAKAWA_04.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece una parada de fauna accesible en el eje norte, con expectativas más realistas que una reserva remota.",
+   "see": "Sarakawa es un parque de fauna cercado al noroeste de Kara, con especies locales y otras introducidas. No debe confundirse con un parque nacional salvaje.",
+   "access": "El pin coincide con el parque. Confirmar horario, vehículo de visita y política de animales; el perro no entra.",
+   "when": "A primera hora o última tarde, con seguridad regional confirmada; dos o tres horas.",
+   "skip": "Omitir con cierre, alerta en Kara o sin custodia para el perro; no salir de rutas indicadas."
+  },
+  "links": [
+   {
+    "label": "Togo Tourisme · Sarakawa",
+    "url": "https://togotourisme.tg/tour-item/kara-bassar-sokode-atakpame-2/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Piquet_PARC_SARAKAWA_04.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Piquet_PARC_SARAKAWA_04.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece una parada de fauna accesible en el eje norte, con expectativas más realistas que una reserva remota.",
-      "see": "Sarakawa es un parque de fauna cercado al noroeste de Kara, con especies locales y otras introducidas. No debe confundirse con un parque nacional salvaje.",
-      "access": "El pin coincide con el parque. Confirmar horario, vehículo de visita y política de animales; el perro no entra.",
-      "when": "A primera hora o última tarde, con seguridad regional confirmada; dos o tres horas.",
-      "skip": "Omitir con cierre, alerta en Kara o sin custodia para el perro; no salir de rutas indicadas."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · Sarakawa",
-        "url": "https://togotourisme.tg/tour-item/kara-bassar-sokode-atakpame-2/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Piquet_PARC_SARAKAWA_04.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Piquet_PARC_SARAKAWA_04.jpg",
-        "credit": "Alfrednadjere · CC BY 4.0",
-        "caption": "Señal identificativa del parque de Sarakawa."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Barrage_artificiel_de_la_r%C3%A9serve_de_faune_de_Sarakawa_au_Togo_10.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Barrage_artificiel_de_la_r%C3%A9serve_de_faune_de_Sarakawa_au_Togo_10.jpg",
-        "credit": "Akouete · CC BY-SA 4.0",
-        "caption": "Lámina de agua dentro de Sarakawa."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/La_v%C3%A9g%C3%A9tation_dans_le_parc_animalier_de_Sarakawa_07.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:La_v%C3%A9g%C3%A9tation_dans_le_parc_animalier_de_Sarakawa_07.jpg",
-        "credit": "Ubkoumbogny · CC BY-SA 4.0",
-        "caption": "Sabana arbolada del parque."
-      }
-    ]
+    "credit": "Alfrednadjere · CC BY 4.0",
+    "caption": "Señal identificativa del parque de Sarakawa."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Barrage_artificiel_de_la_r%C3%A9serve_de_faune_de_Sarakawa_au_Togo_10.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Barrage_artificiel_de_la_r%C3%A9serve_de_faune_de_Sarakawa_au_Togo_10.jpg",
+    "credit": "Akouete · CC BY-SA 4.0",
+    "caption": "Lámina de agua dentro de Sarakawa."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/La_v%C3%A9g%C3%A9tation_dans_le_parc_animalier_de_Sarakawa_07.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:La_v%C3%A9g%C3%A9tation_dans_le_parc_animalier_de_Sarakawa_07.jpg",
+    "credit": "Ubkoumbogny · CC BY-SA 4.0",
+    "caption": "Sabana arbolada del parque."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Koutammakou · el país de los batammariba (UNESCO) — CONDICIONADO A SEGURIDAD",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 días",
+  "lat": 10.067,
+  "lon": 1.133,
+  "desc": "Koutammakou es el paisaje cultural vivo de los batammariba, conocido por sus casas-fortaleza de tierra o takienta. UNESCO lo protege a ambos lados de la frontera.",
+  "credit": "Emmanuel effe · CC0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Koutammakou.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Koutammakou.jpg",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el conjunto arquitectónico y cultural más importante de Togo, siempre que se visite con la comunidad.",
+   "see": "Koutammakou es el paisaje cultural vivo de los batammariba, conocido por sus casas-fortaleza de tierra o takienta. UNESCO lo protege a ambos lados de la frontera.",
+   "access": "El pin es una referencia dentro del paisaje, no una taquilla universal. Organizar guía en Kandé o con la comunidad y confirmar seguridad antes de subir al norte.",
+   "when": "Estación seca, de día y con una jornada completa.",
+   "skip": "Descartarlo ante alerta al norte de Kandé, sin guía o permiso; no entrar en casas ni fotografiar personas sin acuerdo."
   },
-  {
-    "n": 10,
-    "name": "Koutammakou · el país de los batammariba (UNESCO) — CONDICIONADO A SEGURIDAD",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 días",
-    "lat": 10.067,
-    "lon": 1.133,
-    "desc": "Koutammakou es el paisaje cultural vivo de los batammariba, conocido por sus casas-fortaleza de tierra o takienta. UNESCO lo protege a ambos lados de la frontera.",
-    "credit": "Emmanuel effe · CC0",
+  "links": [
+   {
+    "label": "UNESCO · Koutammakou",
+    "url": "https://whc.unesco.org/en/list/1140/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Koutammakou.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Koutammakou.jpg",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el conjunto arquitectónico y cultural más importante de Togo, siempre que se visite con la comunidad.",
-      "see": "Koutammakou es el paisaje cultural vivo de los batammariba, conocido por sus casas-fortaleza de tierra o takienta. UNESCO lo protege a ambos lados de la frontera.",
-      "access": "El pin es una referencia dentro del paisaje, no una taquilla universal. Organizar guía en Kandé o con la comunidad y confirmar seguridad antes de subir al norte.",
-      "when": "Estación seca, de día y con una jornada completa.",
-      "skip": "Descartarlo ante alerta al norte de Kandé, sin guía o permiso; no entrar en casas ni fotografiar personas sin acuerdo."
-    },
-    "links": [
-      {
-        "label": "UNESCO · Koutammakou",
-        "url": "https://whc.unesco.org/en/list/1140/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Koutammakou.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Koutammakou.jpg",
-        "credit": "Emmanuel effe · CC0",
-        "caption": "Takienta dentro del paisaje de Koutammakou."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Toit_dall%C3%A9_02.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Toit_dall%C3%A9_02.jpg",
-        "credit": "Kadi1366 · CC BY-SA 4.0",
-        "caption": "Cubierta y espacios domésticos de una takienta."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A2timents_du_village.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:B%C3%A2timents_du_village.jpg",
-        "credit": "Hermannkass · CC BY-SA 4.0",
-        "caption": "Conjunto de edificios de tierra batammariba."
-      }
-    ]
+    "credit": "Emmanuel effe · CC0",
+    "caption": "Takienta dentro del paisaje de Koutammakou."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Toit_dall%C3%A9_02.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Toit_dall%C3%A9_02.jpg",
+    "credit": "Kadi1366 · CC BY-SA 4.0",
+    "caption": "Cubierta y espacios domésticos de una takienta."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A2timents_du_village.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:B%C3%A2timents_du_village.jpg",
+    "credit": "Hermannkass · CC BY-SA 4.0",
+    "caption": "Conjunto de edificios de tierra batammariba."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Falla de Aledjo y los tejedores de Bafilo",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "½ día",
+  "lat": 9.2747135,
+  "lon": 1.221549,
+  "desc": "La falla de Alédjo es un paso rocoso estrecho atravesado por la RN1 cerca de Bafilo. El interés está en la geología y el paisaje, no en parar sobre la carretera.",
+  "credit": "Adewi97 · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faille_d'Al%C3%A9djo_,_r%C3%A9gion_de_la_kara_au_Togo_03.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Faille_d'Al%C3%A9djo_,_r%C3%A9gion_de_la_kara_au_Togo_03.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el punto visual más claro del eje central y no exige una excursión larga.",
+   "see": "La falla de Alédjo es un paso rocoso estrecho atravesado por la RN1 cerca de Bafilo. El interés está en la geología y el paisaje, no en parar sobre la carretera.",
+   "access": "El pin coincide con la ficha y con fotos georreferenciadas de Google/Commons. Detenerse solo en apartadero seguro, nunca en el túnel o el carril.",
+   "when": "Con luz de día y firme seco; parada de veinte a cuarenta minutos.",
+   "skip": "Omitir con tráfico, niebla, lluvia o sin espacio fuera de la calzada."
   },
-  {
-    "n": 11,
-    "name": "Falla de Aledjo y los tejedores de Bafilo",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "½ día",
-    "lat": 9.2747135,
-    "lon": 1.221549,
-    "desc": "La falla de Alédjo es un paso rocoso estrecho atravesado por la RN1 cerca de Bafilo. El interés está en la geología y el paisaje, no en parar sobre la carretera.",
-    "credit": "Adewi97 · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Togo Tourisme · itinerario de Alédjo",
+    "url": "https://togotourisme.tg/?p=4843"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faille_d'Al%C3%A9djo_,_r%C3%A9gion_de_la_kara_au_Togo_03.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Faille_d'Al%C3%A9djo_,_r%C3%A9gion_de_la_kara_au_Togo_03.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el punto visual más claro del eje central y no exige una excursión larga.",
-      "see": "La falla de Alédjo es un paso rocoso estrecho atravesado por la RN1 cerca de Bafilo. El interés está en la geología y el paisaje, no en parar sobre la carretera.",
-      "access": "El pin coincide con la ficha y con fotos georreferenciadas de Google/Commons. Detenerse solo en apartadero seguro, nunca en el túnel o el carril.",
-      "when": "Con luz de día y firme seco; parada de veinte a cuarenta minutos.",
-      "skip": "Omitir con tráfico, niebla, lluvia o sin espacio fuera de la calzada."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · itinerario de Alédjo",
-        "url": "https://togotourisme.tg/?p=4843"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faille_d'Al%C3%A9djo_,_r%C3%A9gion_de_la_kara_au_Togo_03.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Faille_d'Al%C3%A9djo_,_r%C3%A9gion_de_la_kara_au_Togo_03.jpg",
-        "credit": "Adewi97 · CC BY-SA 4.0",
-        "caption": "Paso rocoso de la falla de Alédjo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faille_d'Al%C3%A9djo_au_Nord-Togo_(r%C3%A9gion_de_la_Kara)_20.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Faille_d'Al%C3%A9djo_au_Nord-Togo_(r%C3%A9gion_de_la_Kara)_20.jpg",
-        "credit": "Ametovenak · CC BY-SA 4.0",
-        "caption": "Carretera atravesando la falla."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faille_d'Al%C3%A9djo_au_Togo_17.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Faille_d'Al%C3%A9djo_au_Togo_17.jpg",
-        "credit": "Alfrednadjere · CC BY-SA 4.0",
-        "caption": "Paredes de roca junto a la RN1."
-      }
-    ]
+    "credit": "Adewi97 · CC BY-SA 4.0",
+    "caption": "Paso rocoso de la falla de Alédjo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faille_d'Al%C3%A9djo_au_Nord-Togo_(r%C3%A9gion_de_la_Kara)_20.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Faille_d'Al%C3%A9djo_au_Nord-Togo_(r%C3%A9gion_de_la_Kara)_20.jpg",
+    "credit": "Ametovenak · CC BY-SA 4.0",
+    "caption": "Carretera atravesando la falla."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Faille_d'Al%C3%A9djo_au_Togo_17.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Faille_d'Al%C3%A9djo_au_Togo_17.jpg",
+    "credit": "Alfrednadjere · CC BY-SA 4.0",
+    "caption": "Paredes de roca junto a la RN1."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Sokodé",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 8.9779832,
+  "lon": 1.1448981,
+  "desc": "Segunda ciudad del país por población y capital de la región Central, en pleno eje N1: combustible, mercado, hospital regional y hoteles con aparcamiento. Ciudad tem (kotokoli), mayoritariamente musulmana, célebre por la DANZA DEL FUEGO (Gadao-Adossa), en la que los danzantes manipulan brasas ardiendo durante las fiestas del calendario islámico local. Es la parada de servicios intermedia entre Kara y Atakpamé y la base natural para el desvío a Bassar y Fazao-Malfakassa.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sokod%C3%A9-centre-ville.jpg?width=1600",
+    "credit": "PhReym · CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sokod%C3%A9-centre-ville.jpg",
+    "caption": "El centro de Sokodé."
+   }
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (EN) — Sokodé",
+    "url": "https://en.wikipedia.org/wiki/Sokod%C3%A9"
+   },
+   {
+    "label": "Togo Tourisme — destination Sokodé",
+    "url": "https://togotourisme.tg/destinations/sokode/"
+   },
+   {
+    "label": "FCDO — Togo, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es el punto medio obligado de la N1 entre Lomé y el norte, y el único lugar de la región Central con mercado grande, combustible, hospital regional y hoteles con patio cerrado. También es el cambio de mundo del viaje: aquí se pasa del Togo costero y cristiano al Togo del Sahel, musulmán en un 70%.",
+   "see": "Una ciudad de mangos y flamboyanes, la más islamizada del país, con mercado central nuevo (inaugurado en enero de 2025), museo regional con colecciones etnográficas tem y piezas coloniales alemanas y francesas, y talleres de tejido y pirograbado. La jefatura de Kparatao mantiene la tradición ecuestre y saca jinetes engalanados en las fiestas.",
+   "access": "Está en plena N1 asfaltada, a 339 km de Lomé y a 340 m de altitud; no hace falta 4x4 para llegar, solo para lo que se haga desde aquí. Es la base natural para Fazao-Malfakassa, que queda al oeste. El gran festival kotokoli, el Gadao-Adossa-Kosso (la danza de los cuchillos), dura tres días y se celebra en el parque municipal, pero su fecha depende del calendario lunar islámico y conviene confirmarla sobre el terreno.",
+   "when": "Media jornada para el mercado y el museo, o una noche si se usa como escala de la N1 o como trampolín hacia Fazao. La estación seca, de noviembre a marzo, es la ventana cómoda; entre julio y septiembre llueve de verdad (1.200-1.500 mm al año).",
+   "skip": "Fuera de festival, Sokodé es una ciudad de paso sin gran atractivo y se puede reducir a repostar y seguir. Hay un motivo de peso para no quedarse más de la cuenta: el FCDO cita expresamente Sokodé, junto con Bafilo y Mango, entre las ciudades donde las manifestaciones políticas han causado heridos y muertos, así que ante cualquier convocatoria lo sensato es no dormir aquí."
   },
-  {
-    "n": 13,
-    "name": "Bassar · sitios de la metalurgia antigua del hierro",
-    "cat": "Cultura",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "1 día",
-    "lat": 9.2668305,
-    "lon": 0.7984398,
-    "desc": "Los altos hornos tradicionales de Bassar y Nangbani conservan evidencias de una metalurgia del hierro de larga duración. La visita necesita guía local para localizar estructuras.",
-    "credit": "République Togolaise · derechos en la fuente",
+  "_restaurado": true
+ },
+ {
+  "n": 13,
+  "name": "Bassar · sitios de la metalurgia antigua del hierro",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1 día",
+  "lat": 9.2668305,
+  "lon": 0.7984398,
+  "desc": "Los altos hornos tradicionales de Bassar y Nangbani conservan evidencias de una metalurgia del hierro de larga duración. La visita necesita guía local para localizar estructuras.",
+  "credit": "République Togolaise · derechos en la fuente",
+  "img": "https://www.republicoftogo.com/var/site/storage/images/toutes-les-rubriques/culture/un-tresor-archeologique/2958285-1-fre-FR/un-tresor-archeologique_i1920.jpg",
+  "source": "https://www.republicoftogo.com/toutes-les-rubriques/culture/un-tresor-archeologique",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es un patrimonio arqueológico poco habitual que explica tecnología, comercio y paisaje del norte.",
+   "see": "Los altos hornos tradicionales de Bassar y Nangbani conservan evidencias de una metalurgia del hierro de larga duración. La visita necesita guía local para localizar estructuras.",
+   "access": "El pin se ajusta a Nangbani como pueblo de referencia, no finge marcar un horno concreto. Contactar con Turismo o guía en Bassar antes de desviarse.",
+   "when": "Día seco, por la mañana y con medio día disponible.",
+   "skip": "Omitir sin guía o confirmación de acceso, con alerta regional o si la pista está mojada."
+  },
+  "links": [
+   {
+    "label": "Ministerio de Turismo · hornos de Bassar y Nangbani",
+    "url": "https://tourisme.gouv.tg/madame-lambassadrice-jocelyne-caballero-a-visite-les-hauts-fourneaux-de-bassar-et-de-nangbani/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://www.republicoftogo.com/var/site/storage/images/toutes-les-rubriques/culture/un-tresor-archeologique/2958285-1-fre-FR/un-tresor-archeologique_i1920.jpg",
     "source": "https://www.republicoftogo.com/toutes-les-rubriques/culture/un-tresor-archeologique",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es un patrimonio arqueológico poco habitual que explica tecnología, comercio y paisaje del norte.",
-      "see": "Los altos hornos tradicionales de Bassar y Nangbani conservan evidencias de una metalurgia del hierro de larga duración. La visita necesita guía local para localizar estructuras.",
-      "access": "El pin se ajusta a Nangbani como pueblo de referencia, no finge marcar un horno concreto. Contactar con Turismo o guía en Bassar antes de desviarse.",
-      "when": "Día seco, por la mañana y con medio día disponible.",
-      "skip": "Omitir sin guía o confirmación de acceso, con alerta regional o si la pista está mojada."
-    },
-    "links": [
-      {
-        "label": "Ministerio de Turismo · hornos de Bassar y Nangbani",
-        "url": "https://tourisme.gouv.tg/madame-lambassadrice-jocelyne-caballero-a-visite-les-hauts-fourneaux-de-bassar-et-de-nangbani/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://www.republicoftogo.com/var/site/storage/images/toutes-les-rubriques/culture/un-tresor-archeologique/2958285-1-fre-FR/un-tresor-archeologique_i1920.jpg",
-        "source": "https://www.republicoftogo.com/toutes-les-rubriques/culture/un-tresor-archeologique",
-        "credit": "République Togolaise · derechos en la fuente",
-        "caption": "Estructuras de fundición tradicionales de Bassar."
-      },
-      {
-        "img": "https://tourisme.gouv.tg/wp-content/uploads/2021/02/AMBS-BASSAR1.jpeg",
-        "source": "https://tourisme.gouv.tg/madame-lambassadrice-jocelyne-caballero-a-visite-les-hauts-fourneaux-de-bassar-et-de-nangbani/",
-        "credit": "Ministerio de Turismo de Togo · derechos en la fuente",
-        "caption": "Visita documentada a los hornos de Bassar y Nangbani."
-      },
-      {
-        "img": "https://archeologie.culture.gouv.fr/sites/archeologie/files/styles/archeologie_fiche_site_cover/public/upload/images/cover/figure1.jpg?itok=4TKlvFnz",
-        "source": "https://archeologie.culture.gouv.fr/en/ancient-metallurgy-west-africa",
-        "credit": "Ministère de la Culture de France · derechos en la fuente",
-        "caption": "Horno de reducción de hierro de la región de Bassar."
-      }
-    ]
+    "credit": "République Togolaise · derechos en la fuente",
+    "caption": "Estructuras de fundición tradicionales de Bassar."
+   },
+   {
+    "img": "https://tourisme.gouv.tg/wp-content/uploads/2021/02/AMBS-BASSAR1.jpeg",
+    "source": "https://tourisme.gouv.tg/madame-lambassadrice-jocelyne-caballero-a-visite-les-hauts-fourneaux-de-bassar-et-de-nangbani/",
+    "credit": "Ministerio de Turismo de Togo · derechos en la fuente",
+    "caption": "Visita documentada a los hornos de Bassar y Nangbani."
+   },
+   {
+    "img": "https://archeologie.culture.gouv.fr/sites/archeologie/files/styles/archeologie_fiche_site_cover/public/upload/images/cover/figure1.jpg?itok=4TKlvFnz",
+    "source": "https://archeologie.culture.gouv.fr/en/ancient-metallurgy-west-africa",
+    "credit": "Ministère de la Culture de France · derechos en la fuente",
+    "caption": "Horno de reducción de hierro de la región de Bassar."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Parque Nacional de Fazao-Malfakassa",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "1–2 días",
+  "lat": 8.9627846,
+  "lon": 0.9406735,
+  "desc": "Con unos 1.920-2.000 km² es el mayor espacio protegido de Togo, a caballo entre las regiones Central y de Kara, sobre la cadena de Fazao-Malfakassa: bosque de galería, sabana arbolada y escarpes con más de 200 especies de aves. La fauna grande (elefante, búfalo, leopardo) quedó muy mermada por la caza furtiva y la gestión ha pasado por varias manos desde que la fundación suiza Franz Weber se retiró; la realidad del avistamiento hoy es modesta y el atractivo principal es el paisaje y el senderismo de montaña. Accesos por pista desde Fazao (eje Sokodé-Bassar). Coordenada aproximada: NO hay una puerta oficial publicada — confirmar acceso, tasas y estado de la gestión antes de desviarse.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Paysage_du_Parc_National_Fazao-Malfakassa_02.jpg?width=1600",
+    "credit": "Layéniba · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paysage_du_Parc_National_Fazao-Malfakassa_02.jpg",
+    "caption": "El parque nacional de Fazao-Malfakassa."
+   }
+  ],
+  "links": [
+   {
+    "label": "UNESCO — Liste indicative: Parc national Fazao-Malfakassa",
+    "url": "https://whc.unesco.org/en/tentativelists/6604/"
+   },
+   {
+    "label": "Wikipedia (EN) — Fazao Malfakassa National Park",
+    "url": "https://en.wikipedia.org/wiki/Fazao_Malfakassa_National_Park"
+   },
+   {
+    "label": "Ministerio de Turismo de Togo — Explorez Fazao-Malfakassa",
+    "url": "https://tourisme.gouv.tg/explorez-fazao-malfakassa-le-tresor-vert-du-togo-terre-des-elephants-et-des-aventuriers/"
+   }
+  ],
+  "visit": {
+   "why": "Es el único espacio natural de Togo con dimensión de parque africano de verdad, unas 261.500 ha, y un relieve que no se parece a nada más del país: dos cordales paralelos de 40 km y 400-500 m de desnivel. Se va por el paisaje y por el silencio, no por la fauna: hay elefantes de sabana, pero apenas medio centenar tras la caza furtiva de los años de disturbios.",
+   "see": "Bosque semicaducifolio y de galería, bosque claro y sabana arbolada sobre lomas de hierba, con casi 600 especies de plantas. En fauna, más de 19 especies de mamíferos medianos y grandes (cobo de Buffon, antílope ruano, duikers, búfalo, facóquero) y sobre todo aves: entre 244 y 294 especies catalogadas, es Área Importante para las Aves.",
+   "access": "El pin marca una zona enorme, no una puerta: el parque se extiende entre N8°19'-9°11' y E0°36'-1°27'. La aproximación estándar es desde Sokodé por el oeste, unos 330 km desde Lomé y en torno a siete horas de carretera según el propio Ministerio de Turismo togolés, que cifra la entrada en 5-10 € y recomienda vehículo 4x4 para la observación de fauna y guía local para las caminatas; el Fazao Parc Hôtel figura como reabierto tras obras en 2025, dato que conviene confirmar antes de contar con él. Sobre el perro no hay ninguna fuente abierta que aclare si se permite entrar: en un parque nacional con guardas hay que dar por hecho que no, y resolverlo dejándolo en Sokodé.",
+   "when": "Dos días como mínimo para que compense el desvío desde la N1, con salidas al amanecer. La ventana buena es la estación seca, de noviembre a abril, con 28-32 °C; en plenas lluvias las pistas interiores no son opción.",
+   "skip": "Si se viene de Kenia, Tanzania o incluso de Pendjari, la densidad de fauna decepciona: el 14,8% de la superficie está ocupado por cultivos y la gestión ha sido intermitente desde que la Fondation Franz Weber se retiró en 2015. Y si no hay forma de dejar al perro a cubierto en Sokodé, el parque sale directamente del itinerario: no merece la pena dividir al grupo por un avistamiento improbable."
   },
-  {
-    "n": 15,
-    "name": "Cascada de Akloa (Badou)",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "½–1 día",
-    "lat": 7.51508,
-    "lon": 0.619995,
-    "desc": "Aklowa cae por una pared boscosa cerca de Badou. El acceso final es una caminata guiada exigente y puede rondar cuarenta minutos por trayecto.",
-    "credit": "SebEsteban · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 15,
+  "name": "Cascada de Akloa (Badou)",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "½–1 día",
+  "lat": 7.51508,
+  "lon": 0.619995,
+  "desc": "Aklowa cae por una pared boscosa cerca de Badou. El acceso final es una caminata guiada exigente y puede rondar cuarenta minutos por trayecto.",
+  "credit": "SebEsteban · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_d'Akroa_(pr%C3%A8s_de_Badou,_Togo).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Cascade_d'Akroa_(pr%C3%A8s_de_Badou,_Togo).jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una de las cascadas más espectaculares de la región de Plateaux y menos urbanizada que Womé.",
+   "see": "Aklowa cae por una pared boscosa cerca de Badou. El acceso final es una caminata guiada exigente y puede rondar cuarenta minutos por trayecto.",
+   "access": "Google Maps confunde a veces Aklowa con Yikpa; se conserva la coordenada auditada por cartografía y fotos locales. Salir con guía de Badou.",
+   "when": "Con caudal moderado, mañana y terreno asentado; medio día largo.",
+   "skip": "Omitir con lluvia, barro, crecida o sin guía; no contar con cobertura ni agua potable."
+  },
+  "links": [
+   {
+    "label": "Togo Tourisme · cascade d'Aklowa",
+    "url": "https://togotourisme.tg/site/cascade-dakloa/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_d'Akroa_(pr%C3%A8s_de_Badou,_Togo).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Cascade_d'Akroa_(pr%C3%A8s_de_Badou,_Togo).jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una de las cascadas más espectaculares de la región de Plateaux y menos urbanizada que Womé.",
-      "see": "Aklowa cae por una pared boscosa cerca de Badou. El acceso final es una caminata guiada exigente y puede rondar cuarenta minutos por trayecto.",
-      "access": "Google Maps confunde a veces Aklowa con Yikpa; se conserva la coordenada auditada por cartografía y fotos locales. Salir con guía de Badou.",
-      "when": "Con caudal moderado, mañana y terreno asentado; medio día largo.",
-      "skip": "Omitir con lluvia, barro, crecida o sin guía; no contar con cobertura ni agua potable."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · cascade d'Aklowa",
-        "url": "https://togotourisme.tg/site/cascade-dakloa/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_d'Akroa_(pr%C3%A8s_de_Badou,_Togo).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cascade_d'Akroa_(pr%C3%A8s_de_Badou,_Togo).jpg",
-        "credit": "SebEsteban · CC BY-SA 4.0",
-        "caption": "Caída de Aklowa/Akloa cerca de Badou."
-      },
-      {
-        "img": "https://togotourisme.tg/wp-content/uploads/2020/09/e86d513b94ccf796ebf14dfb2a9c8c4a01695a9a.jpeg",
-        "source": "https://togotourisme.tg/site/cascade-dakloa/",
-        "credit": "Togo Tourisme · derechos en la fuente",
-        "caption": "Vista oficial de la cascada de Aklowa."
-      },
-      {
-        "img": "https://atop.tg/assets/uploads/2024/07/v-scaled.jpg",
-        "source": "https://atop.tg/la-cascade-daklowa-un-site-exotique-et-apaisant/",
-        "credit": "Agence Togolaise de Presse · derechos en la fuente",
-        "caption": "Cascada y pared vegetal documentadas por la prensa togolesa."
-      }
-    ]
+    "credit": "SebEsteban · CC BY-SA 4.0",
+    "caption": "Caída de Aklowa/Akloa cerca de Badou."
+   },
+   {
+    "img": "https://togotourisme.tg/wp-content/uploads/2020/09/e86d513b94ccf796ebf14dfb2a9c8c4a01695a9a.jpeg",
+    "source": "https://togotourisme.tg/site/cascade-dakloa/",
+    "credit": "Togo Tourisme · derechos en la fuente",
+    "caption": "Vista oficial de la cascada de Aklowa."
+   },
+   {
+    "img": "https://atop.tg/assets/uploads/2024/07/v-scaled.jpg",
+    "source": "https://atop.tg/la-cascade-daklowa-un-site-exotique-et-apaisant/",
+    "credit": "Agence Togolaise de Presse · derechos en la fuente",
+    "caption": "Cascada y pared vegetal documentadas por la prensa togolesa."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Kpalimé",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2–3 noches",
+  "lat": 6.9,
+  "lon": 0.6333,
+  "desc": "Kpalimé es la base de la región de Plateaux, con arquitectura colonial, mercado, talleres y acceso a bosques y cascadas. Conviene escoger visitas concretas.",
+  "credit": "HpBob · dominio público",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kpalime.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Kpalime.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el mejor nodo para organizar guías y entender la economía de cacao, café y artesanía.",
+   "see": "Kpalimé es la base de la región de Plateaux, con arquitectura colonial, mercado, talleres y acceso a bosques y cascadas. Conviene escoger visitas concretas.",
+   "access": "El pin se mantiene como ancla urbana. Elegir alojamiento con aparcamiento y contratar guía identificado para excursiones; no seguir vendedores improvisados.",
+   "when": "Día laborable y al menos una noche si se combina con Womé o Agou.",
+   "skip": "Reducir a base logística si no se concreta taller, paseo o museo; evitar conducción nocturna de regreso."
   },
-  {
-    "n": 16,
-    "name": "Kpalimé",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2–3 noches",
-    "lat": 6.9,
-    "lon": 0.6333,
-    "desc": "Kpalimé es la base de la región de Plateaux, con arquitectura colonial, mercado, talleres y acceso a bosques y cascadas. Conviene escoger visitas concretas.",
-    "credit": "HpBob · dominio público",
+  "links": [
+   {
+    "label": "Togo Tourisme · Kpalimé",
+    "url": "https://togotourisme.tg/destinations/kpalime/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kpalime.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Kpalime.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el mejor nodo para organizar guías y entender la economía de cacao, café y artesanía.",
-      "see": "Kpalimé es la base de la región de Plateaux, con arquitectura colonial, mercado, talleres y acceso a bosques y cascadas. Conviene escoger visitas concretas.",
-      "access": "El pin se mantiene como ancla urbana. Elegir alojamiento con aparcamiento y contratar guía identificado para excursiones; no seguir vendedores improvisados.",
-      "when": "Día laborable y al menos una noche si se combina con Womé o Agou.",
-      "skip": "Reducir a base logística si no se concreta taller, paseo o museo; evitar conducción nocturna de regreso."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · Kpalimé",
-        "url": "https://togotourisme.tg/destinations/kpalime/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kpalime.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Kpalime.jpg",
-        "credit": "HpBob · dominio público",
-        "caption": "Vista urbana de Kpalimé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Postoffice_Agome-Palime_(Togo).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Postoffice_Agome-Palime_(Togo).jpg",
-        "credit": "Jakob Spieth · dominio público",
-        "caption": "Documento histórico de Agomé-Palimé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plantes_parc_missahoe_Togo_03.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Plantes_parc_missahoe_Togo_03.jpg",
-        "credit": "Theophile-kk · CC BY-SA 4.0",
-        "caption": "Vegetación del entorno de Missahoé."
-      }
-    ]
+    "credit": "HpBob · dominio público",
+    "caption": "Vista urbana de Kpalimé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Postoffice_Agome-Palime_(Togo).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Postoffice_Agome-Palime_(Togo).jpg",
+    "credit": "Jakob Spieth · dominio público",
+    "caption": "Documento histórico de Agomé-Palimé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Plantes_parc_missahoe_Togo_03.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Plantes_parc_missahoe_Togo_03.jpg",
+    "credit": "Theophile-kk · CC BY-SA 4.0",
+    "caption": "Vegetación del entorno de Missahoé."
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "name": "Cascadas de Womé y Kpimé",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1 día",
+  "lat": 6.9667,
+  "lon": 0.6333,
+  "desc": "Las dos cascadas clásicas de Kpalimé. WOMÉ, a 12 km al norte, es la más bonita y de acceso más natural: caminata corta desde la aldea, poza de baño, tasa comunitaria y guía local. KPIMÉ, de unos 35-50 m, cae por una pared escalonada y está encima de la pequeña central hidroeléctrica del mismo nombre, así que su caudal depende de lo que suelte la presa: en plena estación seca puede verse casi sin agua, y varios viajeros lo describen como una decepción si se va en mal momento — preguntar en Kpalimé antes de subir. Escalones de acceso al mirador y sendero hasta el pie del salto.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Kpim%C3%A9_7.jpg?width=1600",
+    "credit": "Ak9visuelmind · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Kpim%C3%A9_7.jpg",
+    "caption": "La cascada de Kpimé."
+   }
+  ],
+  "links": [
+   {
+    "label": "Petit Futé — Cascade de Womé (Kpalimé)",
+    "url": "https://www.petitfute.co.uk/v52232-kpalime/c1173-visites-points-d-interet/c974-site-naturel/2103497-cascade-de-wome.html"
+   },
+   {
+    "label": "Petit Futé — Cascade de Kpimé (Kpimé Dzokoto)",
+    "url": "https://www.petitfute.co.uk/v76825-kpime-dzokoto/c1173-visites-points-d-interet/c974-site-naturel/669568-cascade-de-kpime.html"
+   },
+   {
+    "label": "Togo Tourisme — destination Kpalimé",
+    "url": "https://togotourisme.tg/destinations/kpalime/"
+   }
+  ],
+  "visit": {
+   "why": "Son la excusa para bajarse del coche en la región de los Plateaux y meterse en el bosque húmedo de Kpalimé, el rincón más verde y fresco de Togo. Womé es la que justifica la parada; Kpimé se añade solo si se pasa por delante.",
+   "see": "En Womé, un salto encajado en vegetación con una poza de baño al pie, muy frecuentada por togoleses los fines de semana. Kpimé es un chorro alto sobre roca desnuda con vistas amplias del valle y, río arriba, un embalse y otras tres caídas menores (Akakpotoé, Djokoto, Akatsé).",
+   "access": "El pin es aproximado y sirve para el conjunto Kpalimé-Womé-Kpimé, no para un salto concreto: las dos cascadas están en valles distintos al norte de Kpalimé, a 120 km de Lomé, y las fuentes dan entre 7 y 12 km de distancia desde la ciudad. Se llega por asfalto y pista corta; el último tramo de Womé son 336 escalones de bajada y subida, dura de verdad con calor, con horario de 7 a 17 h y 2.500 FCFA para extranjeros. En Kpimé se cobran entre 3.000 y 5.000 FCFA y el acceso a los saltos superiores es una hora de caminata con guía local, terreno con grietas.",
+   "when": "Medio día para Womé con baño incluido; un día entero si se encadena con Kpimé y el mercado de Kpalimé. Para agua hay que ir en lluvias o justo después, de junio a octubre; para pistas y caminata cómodas, en seca.",
+   "skip": "Kpimé se cae del itinerario en estación seca sin discusión: una presa hidroeléctrica río arriba desvía el caudal y la cascada deja de correr, y aun así se cobra la entrada. Womé pierde mucho en domingo y festivo, cuando se llena; y si el grupo ya viene de cascadas mejores, ninguna de las dos es motivo para desviarse 120 km desde la costa."
   },
-  {
-    "n": 17,
-    "name": "Cascada de Womé",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1 día",
-    "lat": 6.8583,
-    "lon": 0.55458,
-    "desc": "Womé es una cascada en un anfiteatro verde cerca de Kpalimé, alcanzada por pista y sendero con guía comunitario.",
-    "credit": "Archideus · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9.jpg?width=1200",
-    "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece una excursión de agua y bosque más corta que Aklowa.",
-      "see": "Womé es una cascada en un anfiteatro verde cerca de Kpalimé, alcanzada por pista y sendero con guía comunitario.",
-      "access": "El pin coincide con Cascade de Womé. Registrarse en el pueblo, contratar guía y aparcar donde indiquen; la última pista cambia con las lluvias.",
-      "when": "Mañana y caudal moderado; dos o tres horas.",
-      "skip": "Omitir con tormenta, barro profundo o crecida; no saltar desde roca ni asumir que la poza sea segura."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · región de Plateaux",
-        "url": "https://togotourisme.tg/destinations/kpalime/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9.jpg",
-        "credit": "Archideus · CC BY-SA 4.0",
-        "caption": "Caída principal de Womé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9_au_togo_49.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9_au_togo_49.jpg",
-        "credit": "Ubkoumbogny · CC BY-SA 4.0",
-        "caption": "Poza y pared rocosa de Womé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9_au_togo_01.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9_au_togo_01.jpg",
-        "credit": "Ubkoumbogny · CC BY-SA 4.0",
-        "caption": "Sendero y entorno forestal de la cascada."
-      }
-    ]
+  "_restaurado": true
+ },
+ {
+  "n": 18,
+  "name": "Monte Klouto, Château Viale y el valle de los murciélagos",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con correa",
+  "time": "1 día",
+  "lat": 6.9634331,
+  "lon": 0.6393702,
+  "desc": "A 12 km de Kpalimé y 710 m de altitud, la meseta de Klouto conserva el bosque más denso de Togo, con más de 1.000 especies de mariposas catalogadas (los guías de Kpalimé organizan salidas específicas de mariposas y de aves) y senderos entre aldeas donde se compran batiks. En la cima está el CHÂTEAU VIALE, capricho neomedieval construido por un colono francés y usado después como residencia presidencial, hoy semiabandonado pero con la mejor vista del valle hasta Ghana. Cerca, el valle de los murciélagos (Vallée des chauves-souris) alberga colonias de decenas de miles de frugívoros que levantan el vuelo al atardecer. Correa obligatoria: el perro y los murciélagos no se llevan bien.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kpalim%C3%A9_hills%2C_DSC00773_-_by_Fanfan.jpg?width=1600",
+    "credit": "Francois Jake Green (Fanfan) · CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kpalim%C3%A9_hills%2C_DSC00773_-_by_Fanfan.jpg",
+    "caption": "Las colinas de Kpalimé, bajo el monte Klouto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Togo-Presse — Château Viale de Kpalimé",
+    "url": "https://togopresse.tg/chateau-viale-de-kpalime-un-vestige-des-temps-revolus-patrimoine-historique-et-touristique-a-decouvrir/"
+   },
+   {
+    "label": "Wikipedia (EN) — Château Viale",
+    "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Viale"
+   },
+   {
+    "label": "Petit Futé — La vallée des chauves-souris de Kuma Tsamé",
+    "url": "https://www.petitfute.co.uk/v52232-kpalime/c1173-visites-points-d-interet/c974-site-naturel/1493733-la-vallee-des-chauves-souris-de-kuma-tsame.html"
+   }
+  ],
+  "visit": {
+   "why": "Es el único sitio de Togo donde se duerme con fresco, a 700-800 m, rodeado del bosque más denso que le queda al país, y donde una caminata guiada tiene contenido real: mariposas, café y cacao, restos alemanes y una ruina colonial con vistas hasta el lago Volta en Ghana. Para tres viajeros y un perro es además terreno de andar, no de conducir.",
+   "see": "El Château Viale, encargado en 1940 por el abogado franco-alemán Raymond François Viale y terminado en 1944 con todo el material subido 17 km a hombros, a 705 m de altitud y con panorámica del valle de Kpalimé y del Volta ghanés. Alrededor, la meseta de Kloto y la selva clasificada de Missahoé con su cementerio alemán de once tumbas, y al sur el valle de los murciélagos de Kuma Tsamé.",
+   "access": "El pin es aproximado: cae prácticamente encima del de las cascadas y en realidad la zona abarca varios kilómetros de meseta al oeste y norte de Kpalimé. Hoy hay carretera asfaltada de Kpalimé al castillo y se puede recorrer el recinto con guías locales, pero las fuentes se contradicen sobre su estado: la prensa oficial togolesa lo describe abandonado y con el interior en ruinas, mientras que la ficha enciclopédica sostiene que el Estado lo conserva y lo usa para consejos de ministros, así que puede haber restricciones puntuales. El valle de los murciélagos de Kuma Tsamé se visita por 2.000 FCFA con guía. Al no ser parque nacional sino bosque clasificado y sitios comunitarios, el perro no debería dar problema en los caminos, pero conviene llevarlo atado cerca de la colonia de murciélagos y preguntar al guía antes de entrar al recinto del castillo.",
+   "when": "Un día completo, o dos noches si se usa el campamento de Kloto como descanso de altura a mitad de travesía. Los murciélagos se ven de septiembre a mayo y el espectáculo es al final de la tarde, cuando salen en masa; las mariposas piden mañana soleada.",
+   "skip": "Si se va justo de días, esto es lo primero que se corta: son 120 km de ida y vuelta desde Lomé por un patrimonio en mal estado. Y el valle de los murciélagos tiene un punto desagradable que conviene saber de antemano: los guías golpean los troncos para hacer volar a los animales y garantizar la foto, así que si eso molesta, mejor quedarse en la caminata por el bosque."
   },
-  {
-    "n": 19,
-    "name": "Monte Agou (Pic Baumann, 986 m) · techo de Togo",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con correa",
-    "time": "1 día",
-    "lat": 6.87216,
-    "lon": 0.74818,
-    "desc": "El monte Agou es la mayor elevación de Togo y se asciende por rutas que atraviesan aldeas y cultivos. La cumbre tiene instalaciones de comunicaciones.",
-    "credit": "Christophe GUILLOUX · CC BY-SA 3.0",
+  "_restaurado": true
+ },
+ {
+  "n": 19,
+  "name": "Monte Agou (Pic Baumann, 986 m) · techo de Togo",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con correa",
+  "time": "1 día",
+  "lat": 6.87216,
+  "lon": 0.74818,
+  "desc": "El monte Agou es la mayor elevación de Togo y se asciende por rutas que atraviesan aldeas y cultivos. La cumbre tiene instalaciones de comunicaciones.",
+  "credit": "Christophe GUILLOUX · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont_agou.png?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Mont_agou.png",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la caminata de montaña más completa del sur y ofrece vistas del mosaico agrícola.",
+   "see": "El monte Agou es la mayor elevación de Togo y se asciende por rutas que atraviesan aldeas y cultivos. La cumbre tiene instalaciones de comunicaciones.",
+   "access": "El pin marca la cumbre, no el inicio. Contratar guía en Agou, definir ruta y transporte de retorno y respetar las zonas técnicas.",
+   "when": "Salida al amanecer, día seco y jornada completa.",
+   "skip": "Omitir con niebla, tormenta, calor fuerte, guía no confirmado o poca forma física."
+  },
+  "links": [
+   {
+    "label": "Togo Tourisme · ecoturismo de Agou",
+    "url": "https://togotourisme.tg/types-de-voyages-une-multitude-de-possibilites-2/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont_agou.png?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Mont_agou.png",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la caminata de montaña más completa del sur y ofrece vistas del mosaico agrícola.",
-      "see": "El monte Agou es la mayor elevación de Togo y se asciende por rutas que atraviesan aldeas y cultivos. La cumbre tiene instalaciones de comunicaciones.",
-      "access": "El pin marca la cumbre, no el inicio. Contratar guía en Agou, definir ruta y transporte de retorno y respetar las zonas técnicas.",
-      "when": "Salida al amanecer, día seco y jornada completa.",
-      "skip": "Omitir con niebla, tormenta, calor fuerte, guía no confirmado o poca forma física."
-    },
-    "links": [
-      {
-        "label": "Togo Tourisme · ecoturismo de Agou",
-        "url": "https://togotourisme.tg/types-de-voyages-une-multitude-de-possibilites-2/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont_agou.png?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Mont_agou.png",
-        "credit": "Christophe GUILLOUX · CC BY-SA 3.0",
-        "caption": "Relieve del monte Agou."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agou_view_-_3329598987.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Agou_view_-_3329598987.jpg",
-        "credit": "Jeff Attaway · CC BY 2.0",
-        "caption": "Vista desde las laderas de Agou."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agou_mist.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Agou_mist.jpg",
-        "credit": "Jeff Attaway · CC BY 2.0",
-        "caption": "Niebla sobre el paisaje de Agou."
-      }
-    ]
-  }
+    "credit": "Christophe GUILLOUX · CC BY-SA 3.0",
+    "caption": "Relieve del monte Agou."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agou_view_-_3329598987.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Agou_view_-_3329598987.jpg",
+    "credit": "Jeff Attaway · CC BY 2.0",
+    "caption": "Vista desde las laderas de Agou."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agou_mist.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Agou_mist.jpg",
+    "credit": "Jeff Attaway · CC BY 2.0",
+    "caption": "Niebla sobre el paisaje de Agou."
+   }
+  ]
+ },
+ {
+  "n": 20,
+  "name": "Cascada de Womé",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1 día",
+  "lat": 6.8583,
+  "lon": 0.55458,
+  "desc": "Womé es una cascada en un anfiteatro verde cerca de Kpalimé, alcanzada por pista y sendero con guía comunitario.",
+  "credit": "Archideus · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece una excursión de agua y bosque más corta que Aklowa.",
+   "see": "Womé es una cascada en un anfiteatro verde cerca de Kpalimé, alcanzada por pista y sendero con guía comunitario.",
+   "access": "El pin coincide con Cascade de Womé. Registrarse en el pueblo, contratar guía y aparcar donde indiquen; la última pista cambia con las lluvias.",
+   "when": "Mañana y caudal moderado; dos o tres horas.",
+   "skip": "Omitir con tormenta, barro profundo o crecida; no saltar desde roca ni asumir que la poza sea segura."
+  },
+  "links": [
+   {
+    "label": "Togo Tourisme · región de Plateaux",
+    "url": "https://togotourisme.tg/destinations/kpalime/"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9.jpg",
+    "credit": "Archideus · CC BY-SA 4.0",
+    "caption": "Caída principal de Womé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9_au_togo_49.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9_au_togo_49.jpg",
+    "credit": "Ubkoumbogny · CC BY-SA 4.0",
+    "caption": "Poza y pared rocosa de Womé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cascade_de_Wom%C3%A9_au_togo_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cascade_de_Wom%C3%A9_au_togo_01.jpg",
+    "credit": "Ubkoumbogny · CC BY-SA 4.0",
+    "caption": "Sendero y entorno forestal de la cascada."
+   }
+  ]
+ }
 ]

@@ -1,552 +1,888 @@
 [
-  {
-    "n": 1,
-    "name": "Grand-Popo, la Bouche du Roy y las playas del Mono",
-    "cat": "Costa",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "1–2 noches",
-    "lat": 6.2922216,
-    "lon": 1.9172859,
-    "desc": "La Bouche du Roy es la desembocadura del Mono: manglar, laguna, dunas y Atlántico dentro de una reserva de biosfera. Se visita en barca con guía local.",
-    "credit": "Kulttuurinavigaattori · CC BY-SA 4.0",
+ {
+  "n": 1,
+  "name": "Grand-Popo, la Bouche du Roy y las playas del Mono",
+  "cat": "Costa",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "1–2 noches",
+  "lat": 6.2922216,
+  "lon": 1.9172859,
+  "desc": "La Bouche du Roy es la desembocadura del Mono: manglar, laguna, dunas y Atlántico dentro de una reserva de biosfera. Se visita en barca con guía local.",
+  "credit": "Kulttuurinavigaattori · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bouche_du_Roi_in_Grand_Popo_Benin.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Bouche_du_Roi_in_Grand_Popo_Benin.jpg",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el paisaje natural más completo de la costa beninesa y permite observar el contacto entre río y mar.",
+   "see": "La Bouche du Roy es la desembocadura del Mono: manglar, laguna, dunas y Atlántico dentro de una reserva de biosfera. Se visita en barca con guía local.",
+   "access": "El pin marca la desembocadura, no el embarcadero. Organizar la salida en Grand-Popo, confirmar chalecos, duración, marea y regreso antes de embarcar.",
+   "when": "Primera hora, mar estable y luz suficiente; el portal oficial calcula dos o tres horas.",
+   "skip": "Omitir con tormenta, oleaje, barca sin chalecos o rechazo del perro; no prometer tortugas fuera de temporada."
+  },
+  "links": [
+   {
+    "label": "Bénin Tourisme · La Bouche du Roy",
+    "url": "https://benintourisme.bj/en/destinations/the-bouche-du-roy/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bouche_du_Roi_in_Grand_Popo_Benin.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Bouche_du_Roi_in_Grand_Popo_Benin.jpg",
-    "icon": "costa",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el paisaje natural más completo de la costa beninesa y permite observar el contacto entre río y mar.",
-      "see": "La Bouche du Roy es la desembocadura del Mono: manglar, laguna, dunas y Atlántico dentro de una reserva de biosfera. Se visita en barca con guía local.",
-      "access": "El pin marca la desembocadura, no el embarcadero. Organizar la salida en Grand-Popo, confirmar chalecos, duración, marea y regreso antes de embarcar.",
-      "when": "Primera hora, mar estable y luz suficiente; el portal oficial calcula dos o tres horas.",
-      "skip": "Omitir con tormenta, oleaje, barca sin chalecos o rechazo del perro; no prometer tortugas fuera de temporada."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · La Bouche du Roy",
-        "url": "https://benintourisme.bj/en/destinations/the-bouche-du-roy/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bouche_du_Roi_in_Grand_Popo_Benin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Bouche_du_Roi_in_Grand_Popo_Benin.jpg",
-        "credit": "Kulttuurinavigaattori · CC BY-SA 4.0",
-        "caption": "Desembocadura del Mono en La Bouche du Roy."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fleuve_de_la_Bouche_du_Roy_%C3%A0_Grand-popo_au_B%C3%A9nin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Fleuve_de_la_Bouche_du_Roy_%C3%A0_Grand-popo_au_B%C3%A9nin.jpg",
-        "credit": "EGOUNLETY Eudoxie · CC BY-SA 4.0",
-        "caption": "Canal y vegetación de la reserva."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bouche_du_Roy_vue_de_face.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Bouche_du_Roy_vue_de_face.jpg",
-        "credit": "BILLA1994 · CC BY-SA 4.0",
-        "caption": "Frente de agua entre laguna y Atlántico."
-      }
-    ]
+    "credit": "Kulttuurinavigaattori · CC BY-SA 4.0",
+    "caption": "Desembocadura del Mono en La Bouche du Roy."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fleuve_de_la_Bouche_du_Roy_%C3%A0_Grand-popo_au_B%C3%A9nin.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Fleuve_de_la_Bouche_du_Roy_%C3%A0_Grand-popo_au_B%C3%A9nin.jpg",
+    "credit": "EGOUNLETY Eudoxie · CC BY-SA 4.0",
+    "caption": "Canal y vegetación de la reserva."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bouche_du_Roy_vue_de_face.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Bouche_du_Roy_vue_de_face.jpg",
+    "credit": "BILLA1994 · CC BY-SA 4.0",
+    "caption": "Frente de agua entre laguna y Atlántico."
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "name": "Ouidah · Ruta de los Esclavos y Puerta del No Retorno",
+  "cat": "Patrimonio",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½–1 día",
+  "lat": 6.3467,
+  "lon": 2.08,
+  "desc": "La Ruta de los Cautivos de Ouidah enlaza espacios de memoria hasta la Puerta del No Retorno. Los monumentos actuales interpretan un proceso histórico traumático.",
+  "credit": "Borisghost · CC0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Porte_du_non-retour_au_Benin.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Porte_du_non-retour_au_Benin.jpg",
+  "icon": "patrimonio",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el recorrido de memoria más importante de Benín y conecta la ciudad con la costa atlántica.",
+   "see": "La Ruta de los Cautivos de Ouidah enlaza espacios de memoria hasta la Puerta del No Retorno. Los monumentos actuales interpretan un proceso histórico traumático.",
+   "access": "El pin se mantiene en la Puerta del No Retorno. Recorrer con guía acreditado desde Ouidah y distinguir lugares históricos, tradiciones orales y monumentos recientes.",
+   "when": "Primera hora o última tarde; reservar medio día.",
+   "skip": "No hacerlo como una sucesión de fotos sin explicación; omitir actos o recintos cerrados sin permiso."
   },
-  {
-    "n": 2,
-    "name": "Ouidah · Ruta de los Esclavos y Puerta del No Retorno",
-    "cat": "Patrimonio",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½–1 día",
-    "lat": 6.3467,
-    "lon": 2.08,
-    "desc": "La Ruta de los Cautivos de Ouidah enlaza espacios de memoria hasta la Puerta del No Retorno. Los monumentos actuales interpretan un proceso histórico traumático.",
-    "credit": "Borisghost · CC0",
+  "links": [
+   {
+    "label": "Bénin Tourisme · Ruta de los Cautivos",
+    "url": "https://benintourisme.bj/en/destinations/the-route-of-the-enslaved/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Porte_du_non-retour_au_Benin.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Porte_du_non-retour_au_Benin.jpg",
-    "icon": "patrimonio",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el recorrido de memoria más importante de Benín y conecta la ciudad con la costa atlántica.",
-      "see": "La Ruta de los Cautivos de Ouidah enlaza espacios de memoria hasta la Puerta del No Retorno. Los monumentos actuales interpretan un proceso histórico traumático.",
-      "access": "El pin se mantiene en la Puerta del No Retorno. Recorrer con guía acreditado desde Ouidah y distinguir lugares históricos, tradiciones orales y monumentos recientes.",
-      "when": "Primera hora o última tarde; reservar medio día.",
-      "skip": "No hacerlo como una sucesión de fotos sin explicación; omitir actos o recintos cerrados sin permiso."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · Ruta de los Cautivos",
-        "url": "https://benintourisme.bj/en/destinations/the-route-of-the-enslaved/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Porte_du_non-retour_au_Benin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Porte_du_non-retour_au_Benin.jpg",
-        "credit": "Borisghost · CC0",
-        "caption": "Puerta del No Retorno en la costa de Ouidah."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Slave_route_Ouidah_Benin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Slave_route_Ouidah_Benin.jpg",
-        "credit": "jbdodane · CC BY 2.0",
-        "caption": "Tramo de la Ruta de los Cautivos."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Monument_fosse_commune_de_la_route_des_esclaves._Ouidah.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Monument_fosse_commune_de_la_route_des_esclaves._Ouidah.jpg",
-        "credit": "Eric Emeraux · CC BY-SA 4.0",
-        "caption": "Monumento de la fosa común en la ruta."
-      }
-    ]
+    "credit": "Borisghost · CC0",
+    "caption": "Puerta del No Retorno en la costa de Ouidah."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Slave_route_Ouidah_Benin.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Slave_route_Ouidah_Benin.jpg",
+    "credit": "jbdodane · CC BY 2.0",
+    "caption": "Tramo de la Ruta de los Cautivos."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Monument_fosse_commune_de_la_route_des_esclaves._Ouidah.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Monument_fosse_commune_de_la_route_des_esclaves._Ouidah.jpg",
+    "credit": "Eric Emeraux · CC BY-SA 4.0",
+    "caption": "Monumento de la fosa común en la ruta."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Ouidah · Templo de las Pitones, basílica y fuerte portugués",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.3639,
+  "lon": 2.0856,
+  "desc": "El Templo de las Pitones y el fuerte portugués permiten leer en Ouidah el vodun vivo y la presencia comercial europea. Son recintos distintos.",
+  "credit": "Ji-Elle · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "La proximidad de ambos lugares muestra historias religiosas y atlánticas que no deben confundirse.",
+   "see": "El Templo de las Pitones y el fuerte portugués permiten leer en Ouidah el vodun vivo y la presencia comercial europea. Son recintos distintos.",
+   "access": "El pin cae en el Templo de las Pitones. Confirmar horarios por separado, pedir permiso fotográfico y no manipular animales; el fuerte puede tener acceso condicionado por obras.",
+   "when": "Mañana, fuera de ceremonias y con dos horas para ambos si están abiertos.",
+   "skip": "Omitir contacto forzado con pitones, visita sin guía o cualquier recinto cerrado; perro fuera."
   },
-  {
-    "n": 3,
-    "name": "Ouidah · Templo de las Pitones, basílica y fuerte portugués",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 6.3639,
-    "lon": 2.0856,
-    "desc": "El Templo de las Pitones y el fuerte portugués permiten leer en Ouidah el vodun vivo y la presencia comercial europea. Son recintos distintos.",
-    "credit": "Ji-Elle · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Bénin Tourisme · Templo de las Pitones",
+    "url": "https://benintourisme.bj/en/destinations/the-temple-of-pythons/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "La proximidad de ambos lugares muestra historias religiosas y atlánticas que no deben confundirse.",
-      "see": "El Templo de las Pitones y el fuerte portugués permiten leer en Ouidah el vodun vivo y la presencia comercial europea. Son recintos distintos.",
-      "access": "El pin cae en el Templo de las Pitones. Confirmar horarios por separado, pedir permiso fotográfico y no manipular animales; el fuerte puede tener acceso condicionado por obras.",
-      "when": "Mañana, fuera de ceremonias y con dos horas para ambos si están abiertos.",
-      "skip": "Omitir contacto forzado con pitones, visita sin guía o cualquier recinto cerrado; perro fuera."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · Templo de las Pitones",
-        "url": "https://benintourisme.bj/en/destinations/the-temple-of-pythons/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_Temple_des_Pythons_(Ouidah).jpg",
-        "credit": "Ji-Elle · CC BY-SA 4.0",
-        "caption": "Entrada del Templo de las Pitones."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ouidah-Temple_des_Pythons-Petite_case_ronde_(2).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ouidah-Temple_des_Pythons-Petite_case_ronde_(2).jpg",
-        "credit": "Ji-Elle · CC BY-SA 4.0",
-        "caption": "Recinto interior del templo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Ouidah_Benin.JPG?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Fort_Ouidah_Benin.JPG",
-        "credit": "Tienstwatrankil · CC BY-SA 3.0",
-        "caption": "Antiguo fuerte portugués de Ouidah."
-      }
-    ]
+    "credit": "Ji-Elle · CC BY-SA 4.0",
+    "caption": "Entrada del Templo de las Pitones."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ouidah-Temple_des_Pythons-Petite_case_ronde_(2).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ouidah-Temple_des_Pythons-Petite_case_ronde_(2).jpg",
+    "credit": "Ji-Elle · CC BY-SA 4.0",
+    "caption": "Recinto interior del templo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_Ouidah_Benin.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Fort_Ouidah_Benin.JPG",
+    "credit": "Tienstwatrankil · CC BY-SA 3.0",
+    "caption": "Antiguo fuerte portugués de Ouidah."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Vodun Days · fiesta nacional del vudú (10 de enero, Ouidah)",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "prohibido",
+  "time": "2–3 días",
+  "lat": 6.3716474,
+  "lon": 2.0763253,
+  "desc": "⚠️ COMPROBAR CALENDARIO: el 10 de enero es fiesta nacional en Benín (Fête du Vodoun) desde el reconocimiento oficial de la religión en 1996, y desde 2024 el gobierno la ha convertido en el festival VODUN DAYS, un evento de tres días —habitualmente 8, 9 y 10 de enero— con epicentro en la playa de Ouidah: procesiones, zangbeto (los «guardianes de la noche» que giran como pajares vivientes), egungun, tambores y miles de peregrinos y visitantes. SI EL VIAJE ARRANCA EN ENERO DE 2027, EL PASO POR BENÍN PUEDE COINCIDIR: merece la pena forzar el calendario para estar aquí, pero implica reservar alojamiento con mucha antelación y contar con una Ouidah abrumada de gente. Confirmar fechas exactas de 2027 en vodundays.bj. Con multitudes así, el perro se queda en el vehículo.",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ZO_Vodun.jpg?width=1600",
+    "credit": "Justin ABADJAYE · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ZO_Vodun.jpg",
+    "caption": "Ceremonia vudú en Benín."
+   }
+  ],
+  "links": [
+   {
+    "label": "Vodun Days — sitio oficial (edición 2027, 2-9 de enero)",
+    "url": "https://vodundays.bj/en/"
+   },
+   {
+    "label": "Gobierno de Benín — Vodun Days en Ouidah",
+    "url": "https://www.gouv.bj/article/3397/vodun-days-2026-ouidah-embellit-accueillir-evenement-dans-ferveur-populaire/"
+   },
+   {
+    "label": "Wikipedia (EN) — Vodun Days",
+    "url": "https://en.wikipedia.org/wiki/Vodun_Days"
+   }
+  ],
+  "visit": {
+   "why": "Es el único momento del año en que el vudú deja de ser algo que se intuye por el camino y ocupa la calle con permiso del Estado. Si la etapa beninesa cae en enero, cuadrar el calendario cambia por completo lo que se ve en Ouidah.",
+   "see": "Salida de los conventos vodun, máscaras zangbeto y egungun, libaciones y sacrificios rituales al amanecer, y por la tarde una aldea de festival con artesanía y conciertos en la playa; la edición 2027 anuncia cartel internacional (Kassav', Sagbohan Danialou, Balé Folclórico da Bahia).",
+   "access": "El pin es la ciudad, no un recinto: los actos se reparten por Ouidah (Place Maro, explanada del Fort Français, bosque sagrado, playa) y la ciudad está a unos 40 km de Cotonú por la RN1 asfaltada, sin necesidad de 4x4. AVISO DE CALENDARIO PARA 2027: el 10 de enero sigue siendo fiesta nacional del vudú —religión reconocida oficialmente en 1996— y desde 2024 el Gobierno la empaqueta como Vodun Days, pero el sitio oficial anuncia la edición 2027 del 2 al 9 de enero, ocho días en lugar del formato corto de 2024-2026 (8-10 de enero); entradas y camping (7.000 FCFA con tienda propia, 20.000 con alquiler) se gestionan por vodundays.bj, que hay que reconsultar antes de fijar la etapa.",
+   "when": "La ceremonia grande es de madrugada y primera hora de la mañana; los conciertos, de noche. Dos noches en Ouidah es el mínimo razonable, y conviene reservar con mucha antelación porque la ciudad se llena y los precios se disparan.",
+   "skip": "Fuera de esas fechas no hay festival y Ouidah se visita por el museo, los fuertes y la Ruta de los Esclavos, que es otra parada distinta. Con tres viajeros, dos coches cargados y un perro, una ciudad desbordada con música hasta las tantas y aparcamiento imposible es motivo legítimo para dormir fuera y entrar solo de día."
   },
-  {
-    "n": 5,
-    "name": "Lago Ahémé y Possotomé",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 6.45,
-    "lon": 1.9833,
-    "desc": "El lago Ahémé es un sistema de agua y pesca entre Possotomé y comunidades lacustres. La visita cobra sentido con barca o interpretación local.",
-    "credit": "Adoscam · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 5,
+  "name": "Lago Ahémé y Possotomé",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1–2 noches",
+  "lat": 6.45,
+  "lon": 1.9833,
+  "desc": "El lago Ahémé es un sistema de agua y pesca entre Possotomé y comunidades lacustres. La visita cobra sentido con barca o interpretación local.",
+  "credit": "Adoscam · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/LE_LAC_AHEME_AU_BENIN_en_2018.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:LE_LAC_AHEME_AU_BENIN_en_2018.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece un paisaje habitado más tranquilo que Ganvié y permite hablar de pesca y manglar.",
+   "see": "El lago Ahémé es un sistema de agua y pesca entre Possotomé y comunidades lacustres. La visita cobra sentido con barca o interpretación local.",
+   "access": "El pin se mantiene como referencia del lago. Organizar salida en Possotomé, pactar embarcadero, chalecos y regreso; no seguir pistas ribereñas sin confirmar.",
+   "when": "Amanecer o última tarde, sin tormenta; dos o tres horas.",
+   "skip": "Omitir sin guía o barca segura, con viento fuerte o si solo se dispone de una parada desde carretera."
+  },
+  "links": [
+   {
+    "label": "Google Maps · lago Ahémé",
+    "url": "https://www.google.com/maps/search/?api=1&query=Lake%20Aheme%20Possotome%20Benin"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/LE_LAC_AHEME_AU_BENIN_en_2018.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:LE_LAC_AHEME_AU_BENIN_en_2018.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece un paisaje habitado más tranquilo que Ganvié y permite hablar de pesca y manglar.",
-      "see": "El lago Ahémé es un sistema de agua y pesca entre Possotomé y comunidades lacustres. La visita cobra sentido con barca o interpretación local.",
-      "access": "El pin se mantiene como referencia del lago. Organizar salida en Possotomé, pactar embarcadero, chalecos y regreso; no seguir pistas ribereñas sin confirmar.",
-      "when": "Amanecer o última tarde, sin tormenta; dos o tres horas.",
-      "skip": "Omitir sin guía o barca segura, con viento fuerte o si solo se dispone de una parada desde carretera."
-    },
-    "links": [
-      {
-        "label": "Google Maps · lago Ahémé",
-        "url": "https://www.google.com/maps/search/?api=1&query=Lake%20Aheme%20Possotome%20Benin"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/LE_LAC_AHEME_AU_BENIN_en_2018.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:LE_LAC_AHEME_AU_BENIN_en_2018.jpg",
-        "credit": "Adoscam · CC BY-SA 4.0",
-        "caption": "Vista amplia del lago Ahémé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pirogue_sur_le_lac_Ah%C3%A9m%C3%A9_%C3%A0_Possotom%C3%A9.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Pirogue_sur_le_lac_Ah%C3%A9m%C3%A9_%C3%A0_Possotom%C3%A9.jpg",
-        "credit": "Fawaz.tairou · CC BY-SA 4.0",
-        "caption": "Piragua en Possotomé."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_panoramique_de_mangroves_sur_le_lac_Ah%C3%A9m%C3%A9_au_Sud-Ouest_du_B%C3%A9nin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Vue_panoramique_de_mangroves_sur_le_lac_Ah%C3%A9m%C3%A9_au_Sud-Ouest_du_B%C3%A9nin.jpg",
-        "credit": "Dagnon · CC BY-SA 4.0",
-        "caption": "Manglar en la ribera del lago."
-      }
-    ]
+    "credit": "Adoscam · CC BY-SA 4.0",
+    "caption": "Vista amplia del lago Ahémé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pirogue_sur_le_lac_Ah%C3%A9m%C3%A9_%C3%A0_Possotom%C3%A9.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Pirogue_sur_le_lac_Ah%C3%A9m%C3%A9_%C3%A0_Possotom%C3%A9.jpg",
+    "credit": "Fawaz.tairou · CC BY-SA 4.0",
+    "caption": "Piragua en Possotomé."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_panoramique_de_mangroves_sur_le_lac_Ah%C3%A9m%C3%A9_au_Sud-Ouest_du_B%C3%A9nin.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Vue_panoramique_de_mangroves_sur_le_lac_Ah%C3%A9m%C3%A9_au_Sud-Ouest_du_B%C3%A9nin.jpg",
+    "credit": "Dagnon · CC BY-SA 4.0",
+    "caption": "Manglar en la ribera del lago."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Route des Pêches y playas de Avlékété",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "½ día",
+  "lat": 6.3488524,
+  "lon": 2.3188008,
+  "desc": "La franja de cocoteros entre Cotonú y Ouidah, recorrida por la ROUTE DES PÊCHES: un eje costero de unos 40 km, históricamente pista de arena entre el mar y la laguna, hoy en obras de asfaltado por tramos, con aldeas de pescadores, playas vacías y algunos alojamientos de playa (Avlékété, Djègbadji, Fidjrossè). Cuando queda pista es el tramo de conducción más divertido del sur del país. Salinas artesanales de Djègbadji cerca del embarcadero histórico de la trata. Confirmar el estado real del asfaltado en 2027.",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Route_des_p%C3%AAches_au_B%C3%A9nin.jpg?width=1600",
+    "credit": "Fawaz.tairou · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Route_des_p%C3%AAches_au_B%C3%A9nin.jpg",
+    "caption": "La Route des Pêches."
+   }
+  ],
+  "links": [
+   {
+    "label": "Wikipédia (FR) — Route des Pêches",
+    "url": "https://fr.wikipedia.org/wiki/Route_des_P%C3%AAches"
+   },
+   {
+    "label": "AutoMag Bénin — Cotonou-Ouidah por la Route des Pêches (sept. 2026)",
+    "url": "https://automag.bj/2026/09/05/cotonou-ouidah-itineraire-du-week-end-sur-la-route-des-peches/"
+   }
+  ],
+  "visit": {
+   "why": "Es el modo bonito de hacer los 40 km entre Cotonú y Ouidah: cocoteros, aldeas de pescadores y mar abierto en vez de la RN1 con sus camiones. Para un convoy de dos 4x4 es además el primer tramo de arena de verdad del viaje, cortito y sin consecuencias.",
+   "see": "La franja de cocoteros y arena entre el Atlántico y la laguna, tiradas de red desde la playa, piraguas varadas y paillotes; el contraste entre el extremo ya urbanizado junto a Cotonú y los arenales todavía vacíos hacia Avlékété, donde empiezan a asomar promociones turísticas y un campo de golf.",
+   "access": "El pin es de zona, no de punto: la coordenada cae sobre el eje costero cerca de Avlékété, no en un acceso concreto ni en un aparcamiento. La Route des Pêches es un proyecto estatal de unos 40 km asfaltado por fases (fase 1 Cotonú-Adounko, ~12,5 km; fase 2 de unos 35 km más ramales, en obra), de modo que en la práctica se alternan tramos bituminosos con tramos de arena blanda donde conviene bajar presión de neumáticos y llevar 4x4; quien no quiera arena tiene la RN1 asfaltada en paralelo.",
+   "when": "De 45 minutos a dos horas según cuánto se pare. Primera hora de la mañana o última de la tarde, por la luz y porque el mediodía en arena suelta con los coches cargados no aporta nada.",
+   "skip": "Si se va justo de tiempo, si hay que hacerlo de noche o si el convoy no quiere jugarse un atasco en arena con todo el peso encima, la RN1 hace el mismo trayecto en asfalto. Tampoco es playa de baño tranquilo: esta costa rompe fuerte y con resaca, así que el plan es mirar y parar, no nadar."
   },
-  {
-    "n": 8,
-    "name": "Ganvié · la «Venecia de África»",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "prohibido",
-    "time": "½ día",
-    "lat": 6.4699657,
-    "lon": 2.4122257,
-    "desc": "Ganvié es una ciudad lacustre viva sobre el lago Nokoué, recorrida en piragua entre viviendas, mercados y pesca. No es una escenografía para turistas.",
-    "credit": "Kume Akpubi · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 7,
+  "name": "Embarcadero de Abomey-Calavi (acceso a Ganvié)",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.4503024,
+  "lon": 2.3468195,
+  "desc": "Punto logístico obligado: es de aquí de donde salen las piraguas —motorizadas o a pértiga— hacia Ganvié, a unos 30-45 minutos de travesía por el lago Nokoué. Hay aparcamiento vigilado, oficina de tarifas oficial (el precio va por piragua, no por persona, y conviene cerrarlo antes de embarcar) y guías acreditados. ES AQUÍ DONDE SE QUEDA EL PERRO, en el vehículo a la sombra y con uno de los viajeros, mientras los otros dos hacen la visita: la piragua no es sitio para él.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Embarcad%C3%A8re_de_Ganvi%C3%A9_Abomey-Calavi_-B%C3%A9nin1.jpg?width=1600",
+    "credit": "Adoscam · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Embarcad%C3%A8re_de_Ganvi%C3%A9_Abomey-Calavi_-B%C3%A9nin1.jpg",
+    "caption": "El embarcadero de Ganvié, en Abomey-Calavi."
+   }
+  ],
+  "links": [
+   {
+    "label": "Wikipédia (FR) — Ganvié",
+    "url": "https://fr.wikipedia.org/wiki/Ganvi%C3%A9"
+   },
+   {
+    "label": "Visit Ganvié — guía completa de la visita",
+    "url": "https://visitganvie.com/en/guide/visiter-ganvie-guide-complet"
+   }
+  ],
+  "visit": {
+   "why": "No se para aquí por lo que hay, sino porque es el único nudo que hace posible Ganvié: aquí se deja el coche, se negocia la piragua y se sale al lago Nokoué. Es una decisión logística, no una visita.",
+   "see": "Un muelle de tierra y cemento con decenas de piraguas, motoristas, guías y vendedores; al otro lado del agua, la ciudad lacustre tofinu de Ganvié, nacida en el siglo XVIII cuando las poblaciones del lago se refugiaron en el agua huyendo de las razias esclavistas del Dahomey, y en lista indicativa de la UNESCO desde 1996 —no es Patrimonio Mundial, pese a lo que repiten muchas guías—.",
+   "access": "Desde Cotonú son unos 18 km de asfalto y no hace falta 4x4; la travesía en piragua motorizada es de 20 a 45 minutos según embarcación y destino dentro del lago. Hay aparcamiento junto al embarcadero y todo se negocia en efectivo —no hay cajeros en el lago—: una excursión de día ronda 30.000-40.000 FCFA por persona y el guía, recomendable pero no obligatorio, 10.000-15.000.",
+   "when": "De tres a cinco horas para la visita estándar. El mercado flotante es de madrugada, entre las 6 y las 8, y la estación seca de noviembre a marzo da mejor agua y mejor luz.",
+   "skip": "Si incomoda el turismo-escaparate sobre la vida ajena: Ganvié es un pueblo habitado, no un decorado, y fotografiar sin pedir permiso está mal visto. Con el perro es mala parada —horas en piragua sin sombra y un poblado sin un metro donde soltarlo—: lo sensato es que alguien se quede en tierra con él y con los coches cargados."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 8,
+  "name": "Ganvié · la «Venecia de África»",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "prohibido",
+  "time": "½ día",
+  "lat": 6.4699657,
+  "lon": 2.4122257,
+  "desc": "Ganvié es una ciudad lacustre viva sobre el lago Nokoué, recorrida en piragua entre viviendas, mercados y pesca. No es una escenografía para turistas.",
+  "credit": "Kume Akpubi · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganvie,_The_Venice_Of_Africa.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Ganvie,_The_Venice_Of_Africa.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el paisaje urbano sobre el agua más reconocido del país y explica una adaptación histórica excepcional.",
+   "see": "Ganvié es una ciudad lacustre viva sobre el lago Nokoué, recorrida en piragua entre viviendas, mercados y pesca. No es una escenografía para turistas.",
+   "access": "El pin cae dentro de Ganvié; la salida se contrata en el embarcadero oficial. Confirmar precio, guía, chalecos y permiso para perro antes de pagar.",
+   "when": "Primera hora; el portal oficial recomienda dos o tres horas.",
+   "skip": "Omitir con tormenta, barca insegura o retorno incierto; pedir permiso antes de fotografiar casas o residentes."
+  },
+  "links": [
+   {
+    "label": "Bénin Tourisme · Ganvié",
+    "url": "https://benintourisme.bj/en/destinations/ganvie/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganvie,_The_Venice_Of_Africa.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Ganvie,_The_Venice_Of_Africa.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el paisaje urbano sobre el agua más reconocido del país y explica una adaptación histórica excepcional.",
-      "see": "Ganvié es una ciudad lacustre viva sobre el lago Nokoué, recorrida en piragua entre viviendas, mercados y pesca. No es una escenografía para turistas.",
-      "access": "El pin cae dentro de Ganvié; la salida se contrata en el embarcadero oficial. Confirmar precio, guía, chalecos y permiso para perro antes de pagar.",
-      "when": "Primera hora; el portal oficial recomienda dos o tres horas.",
-      "skip": "Omitir con tormenta, barca insegura o retorno incierto; pedir permiso antes de fotografiar casas o residentes."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · Ganvié",
-        "url": "https://benintourisme.bj/en/destinations/ganvie/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganvie,_The_Venice_Of_Africa.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ganvie,_The_Venice_Of_Africa.jpg",
-        "credit": "Kume Akpubi · CC BY-SA 4.0",
-        "caption": "Viviendas y canoas en Ganvié."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganvi%C3%A9,_cit%C3%A9_lacustre_du_B%C3%A9nin_(25).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ganvi%C3%A9,_cit%C3%A9_lacustre_du_B%C3%A9nin_(25).jpg",
-        "credit": "Yai.isac · CC BY-SA 4.0",
-        "caption": "Calle de agua en la ciudad lacustre."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/GANVI%C3%89_LA_BELLE_CIT%C3%89_LACUSTRE_20.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:GANVI%C3%89_LA_BELLE_CIT%C3%89_LACUSTRE_20.jpg",
-        "credit": "Fermi12 · CC0",
-        "caption": "Actividad cotidiana sobre el lago Nokoué."
-      }
-    ]
+    "credit": "Kume Akpubi · CC BY-SA 4.0",
+    "caption": "Viviendas y canoas en Ganvié."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganvi%C3%A9,_cit%C3%A9_lacustre_du_B%C3%A9nin_(25).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ganvi%C3%A9,_cit%C3%A9_lacustre_du_B%C3%A9nin_(25).jpg",
+    "credit": "Yai.isac · CC BY-SA 4.0",
+    "caption": "Calle de agua en la ciudad lacustre."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/GANVI%C3%89_LA_BELLE_CIT%C3%89_LACUSTRE_20.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:GANVI%C3%89_LA_BELLE_CIT%C3%89_LACUSTRE_20.jpg",
+    "credit": "Fermi12 · CC0",
+    "caption": "Actividad cotidiana sobre el lago Nokoué."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Cotonú · mercado de Dantokpa",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 noches",
+  "lat": 6.3719445,
+  "lon": 2.4347621,
+  "desc": "Dantokpa es el gran mercado de Cotonú, extendido junto a la laguna y la pasarela. Su interés es la actividad comercial real, con aglomeración intensa.",
+  "credit": "Adoscam · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sur_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Sur_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Muestra la escala económica de Cotonú y el intercambio regional mejor que un recorrido urbano genérico.",
+   "see": "Dantokpa es el gran mercado de Cotonú, extendido junto a la laguna y la pasarela. Su interés es la actividad comercial real, con aglomeración intensa.",
+   "access": "El pin coincide con el mercado. Ir con guía local, sin objetos visibles, dejar el coche en aparcamiento vigilado y acordar punto de reunión.",
+   "when": "Temprano y de día; entre una y dos horas.",
+   "skip": "Omitir con protestas, aglomeración extrema o sin guía; no fotografiar puestos ni personas sin permiso."
   },
-  {
-    "n": 9,
-    "name": "Cotonú · mercado de Dantokpa",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 6.3719445,
-    "lon": 2.4347621,
-    "desc": "Dantokpa es el gran mercado de Cotonú, extendido junto a la laguna y la pasarela. Su interés es la actividad comercial real, con aglomeración intensa.",
-    "credit": "Adoscam · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Bénin Tourisme · Cotonú",
+    "url": "https://benintourisme.bj/en/cities/cotonou/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sur_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Sur_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Muestra la escala económica de Cotonú y el intercambio regional mejor que un recorrido urbano genérico.",
-      "see": "Dantokpa es el gran mercado de Cotonú, extendido junto a la laguna y la pasarela. Su interés es la actividad comercial real, con aglomeración intensa.",
-      "access": "El pin coincide con el mercado. Ir con guía local, sin objetos visibles, dejar el coche en aparcamiento vigilado y acordar punto de reunión.",
-      "when": "Temprano y de día; entre una y dos horas.",
-      "skip": "Omitir con protestas, aglomeración extrema o sin guía; no fotografiar puestos ni personas sin permiso."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · Cotonú",
-        "url": "https://benintourisme.bj/en/cities/cotonou/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sur_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Sur_la_passerelle_du_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg",
-        "credit": "Adoscam · CC BY-SA 4.0",
-        "caption": "Pasarela y puestos de Dantokpa."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/VENDEUSE_DE_CONDIMENTS_SUR_LA_PASSERELLE_MARCHE_DANTOKPA-COTONOU_BENIN.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:VENDEUSE_DE_CONDIMENTS_SUR_LA_PASSERELLE_MARCHE_DANTOKPA-COTONOU_BENIN.jpg",
-        "credit": "Adoscam · CC BY-SA 4.0",
-        "caption": "Vendedora de condimentos en Dantokpa."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pirogue_d%C3%A9chargeant_marchandises_pour_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Pirogue_d%C3%A9chargeant_marchandises_pour_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg",
-        "credit": "Adoscam · CC BY-SA 4.0",
-        "caption": "Mercancías llegando en piragua al mercado."
-      }
-    ]
+    "credit": "Adoscam · CC BY-SA 4.0",
+    "caption": "Pasarela y puestos de Dantokpa."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/VENDEUSE_DE_CONDIMENTS_SUR_LA_PASSERELLE_MARCHE_DANTOKPA-COTONOU_BENIN.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:VENDEUSE_DE_CONDIMENTS_SUR_LA_PASSERELLE_MARCHE_DANTOKPA-COTONOU_BENIN.jpg",
+    "credit": "Adoscam · CC BY-SA 4.0",
+    "caption": "Vendedora de condimentos en Dantokpa."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pirogue_d%C3%A9chargeant_marchandises_pour_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Pirogue_d%C3%A9chargeant_marchandises_pour_march%C3%A9_dantokpa_%C3%A0_Cotonou_B%C3%A9nin.jpg",
+    "credit": "Adoscam · CC BY-SA 4.0",
+    "caption": "Mercancías llegando en piragua al mercado."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Porto-Novo",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½–1 día",
+  "lat": 6.4969,
+  "lon": 2.6289,
+  "desc": "Porto-Novo conserva la Gran Mezquita de inspiración afrobrasileña, el palacio Honmè y barrios históricos. Es la capital política, no la mayor ciudad.",
+  "credit": "Gildaskiki · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grande_Mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin_03.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin_03.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Su arquitectura y museos explican el reino de Hogbonu y los retornos afrobrasileños.",
+   "see": "Porto-Novo conserva la Gran Mezquita de inspiración afrobrasileña, el palacio Honmè y barrios históricos. Es la capital política, no la mayor ciudad.",
+   "access": "El pin se mantiene como ancla urbana. Priorizar la Gran Mezquita y Honmè con horarios confirmados; recorrer con guía y aparcamiento acordado.",
+   "when": "Día laborable, por la mañana; medio día o una noche.",
+   "skip": "Omitir interiores durante culto o con museo cerrado; no prometer acceso a espacios palaciegos."
   },
-  {
-    "n": 10,
-    "name": "Porto-Novo",
-    "cat": "Ciudad · servicios",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "½–1 día",
-    "lat": 6.4969,
-    "lon": 2.6289,
-    "desc": "Porto-Novo conserva la Gran Mezquita de inspiración afrobrasileña, el palacio Honmè y barrios históricos. Es la capital política, no la mayor ciudad.",
-    "credit": "Gildaskiki · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Bénin Tourisme · Porto-Novo",
+    "url": "https://benintourisme.bj/en/cities/porto-novo/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grande_Mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin_03.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin_03.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Su arquitectura y museos explican el reino de Hogbonu y los retornos afrobrasileños.",
-      "see": "Porto-Novo conserva la Gran Mezquita de inspiración afrobrasileña, el palacio Honmè y barrios históricos. Es la capital política, no la mayor ciudad.",
-      "access": "El pin se mantiene como ancla urbana. Priorizar la Gran Mezquita y Honmè con horarios confirmados; recorrer con guía y aparcamiento acordado.",
-      "when": "Día laborable, por la mañana; medio día o una noche.",
-      "skip": "Omitir interiores durante culto o con museo cerrado; no prometer acceso a espacios palaciegos."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · Porto-Novo",
-        "url": "https://benintourisme.bj/en/cities/porto-novo/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Grande_Mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin_03.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9e_de_Porto-Novo_au_B%C3%A9nin_03.jpg",
-        "credit": "Gildaskiki · CC BY-SA 4.0",
-        "caption": "Fachada de la Gran Mezquita de Porto-Novo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Courtyard_Musee_Honme_Porto_Novo_Benin_Dec_2017.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Courtyard_Musee_Honme_Porto_Novo_Benin_Dec_2017.jpg",
-        "credit": "Kulttuurinavigaattori · CC BY-SA 4.0",
-        "caption": "Patio del museo Honmè."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musee_Honm%C3%A8_de_Porto-Novo_au_B%C3%A9nin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Musee_Honm%C3%A8_de_Porto-Novo_au_B%C3%A9nin.jpg",
-        "credit": "Adoscam · CC BY-SA 4.0",
-        "caption": "Edificio del antiguo palacio Honmè."
-      }
-    ]
+    "credit": "Gildaskiki · CC BY-SA 4.0",
+    "caption": "Fachada de la Gran Mezquita de Porto-Novo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Courtyard_Musee_Honme_Porto_Novo_Benin_Dec_2017.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Courtyard_Musee_Honme_Porto_Novo_Benin_Dec_2017.jpg",
+    "credit": "Kulttuurinavigaattori · CC BY-SA 4.0",
+    "caption": "Patio del museo Honmè."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Musee_Honm%C3%A8_de_Porto-Novo_au_B%C3%A9nin.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Musee_Honm%C3%A8_de_Porto-Novo_au_B%C3%A9nin.jpg",
+    "credit": "Adoscam · CC BY-SA 4.0",
+    "caption": "Edificio del antiguo palacio Honmè."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Savè · Oké Shabè y los inselbergs de las Collines",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "½–1 día",
+  "lat": 8.0509317,
+  "lon": 2.5047417,
+  "desc": "Las Tres Mamelles de Savè son inselbergs graníticos que dominan la ciudad. La caminata debe concretarse con guía porque el pin no define un inicio universal.",
+  "credit": "Express Tourisme · derechos en la fuente",
+  "img": "https://expresstourisme.com/image/news/les-mamelles-de-save-tourisme-Benin-65dc6e54b1cf8.webp",
+  "source": "https://expresstourisme.com/news.benin/104-tourisme-au-benin-a-la-decouverte-des-mamelles-de-save",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una parada geológica potente en el eje central, con vistas del mosaico urbano y agrícola.",
+   "see": "Las Tres Mamelles de Savè son inselbergs graníticos que dominan la ciudad. La caminata debe concretarse con guía porque el pin no define un inicio universal.",
+   "access": "El pin corresponde al conjunto rocoso auditado. Acordar guía e inicio en Savè, estacionar donde indiquen y no invadir lugares rituales.",
+   "when": "Salida muy temprana, día seco y de dos a cuatro horas según ruta.",
+   "skip": "Omitir con tormenta, roca mojada, calor fuerte o guía no confirmado."
   },
-  {
-    "n": 11,
-    "name": "Savè · Oké Shabè y los inselbergs de las Collines",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "½–1 día",
-    "lat": 8.0509317,
-    "lon": 2.5047417,
-    "desc": "Las Tres Mamelles de Savè son inselbergs graníticos que dominan la ciudad. La caminata debe concretarse con guía porque el pin no define un inicio universal.",
-    "credit": "Express Tourisme · derechos en la fuente",
+  "links": [
+   {
+    "label": "Gobierno de Benín · Savè y sus mamelles",
+    "url": "https://www.gouv.bj/article/936/destination-benin---save--vous-accueille-sous-mamelles/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://expresstourisme.com/image/news/les-mamelles-de-save-tourisme-Benin-65dc6e54b1cf8.webp",
     "source": "https://expresstourisme.com/news.benin/104-tourisme-au-benin-a-la-decouverte-des-mamelles-de-save",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una parada geológica potente en el eje central, con vistas del mosaico urbano y agrícola.",
-      "see": "Las Tres Mamelles de Savè son inselbergs graníticos que dominan la ciudad. La caminata debe concretarse con guía porque el pin no define un inicio universal.",
-      "access": "El pin corresponde al conjunto rocoso auditado. Acordar guía e inicio en Savè, estacionar donde indiquen y no invadir lugares rituales.",
-      "when": "Salida muy temprana, día seco y de dos a cuatro horas según ruta.",
-      "skip": "Omitir con tormenta, roca mojada, calor fuerte o guía no confirmado."
-    },
-    "links": [
-      {
-        "label": "Gobierno de Benín · Savè y sus mamelles",
-        "url": "https://www.gouv.bj/article/936/destination-benin---save--vous-accueille-sous-mamelles/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://expresstourisme.com/image/news/les-mamelles-de-save-tourisme-Benin-65dc6e54b1cf8.webp",
-        "source": "https://expresstourisme.com/news.benin/104-tourisme-au-benin-a-la-decouverte-des-mamelles-de-save",
-        "credit": "Express Tourisme · derechos en la fuente",
-        "caption": "Panorama de las Tres Mamelles de Savè."
-      },
-      {
-        "img": "https://www.gouv.bj/upload/images/articles/ckeditor/WhatsApp%20Image%202020-11-12%20at%2010_34_38%20AM.jpeg",
-        "source": "https://www.gouv.bj/article/936/destination-benin---save--vous-accueille-sous-mamelles/",
-        "credit": "Gobierno de Benín · derechos en la fuente",
-        "caption": "Promontorios rocosos sobre Savè."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_mamelles_de_Sav%C3%A8_au_centre_du_B%C3%A9nin,_vues_du_ciel_03.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Les_mamelles_de_Sav%C3%A8_au_centre_du_B%C3%A9nin,_vues_du_ciel_03.jpg",
-        "credit": "Fawaz.tairou · CC BY-SA 4.0",
-        "caption": "Vista aérea georreferenciada de las Mamelles de Savè."
-      }
-    ]
+    "credit": "Express Tourisme · derechos en la fuente",
+    "caption": "Panorama de las Tres Mamelles de Savè."
+   },
+   {
+    "img": "https://www.gouv.bj/upload/images/articles/ckeditor/WhatsApp%20Image%202020-11-12%20at%2010_34_38%20AM.jpeg",
+    "source": "https://www.gouv.bj/article/936/destination-benin---save--vous-accueille-sous-mamelles/",
+    "credit": "Gobierno de Benín · derechos en la fuente",
+    "caption": "Promontorios rocosos sobre Savè."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Les_mamelles_de_Sav%C3%A8_au_centre_du_B%C3%A9nin,_vues_du_ciel_03.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Les_mamelles_de_Sav%C3%A8_au_centre_du_B%C3%A9nin,_vues_du_ciel_03.jpg",
+    "credit": "Fawaz.tairou · CC BY-SA 4.0",
+    "caption": "Vista aérea georreferenciada de las Mamelles de Savè."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Dassa-Zoumè · las 41 colinas, la gruta de Arigbo y Savalou",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con correa",
+  "time": "1–2 días",
+  "lat": 7.775309,
+  "lon": 2.186515,
+  "desc": "Dassa-Zoumè está rodeada de colinas graníticas con cuevas, miradores y lugares de peregrinación. La basílica de Arigbo es uno de varios puntos posibles.",
+  "credit": "Tripadvisor · aportación de usuario; autor en la fuente",
+  "img": "https://media-cdn.tripadvisor.com/media/photo-s/15/42/9e/1b/entree.jpg",
+  "source": "https://www.tripadvisor.com/Attraction_Review-g1218460-d12478533-Reviews-Grotte_Mariale_Notre_Dame_d_Arigbo-Dassa_Zoume_Collines_Department.html",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Combina paisaje, historia local y espiritualidad sin exigir el desvío largo del norte.",
+   "see": "Dassa-Zoumè está rodeada de colinas graníticas con cuevas, miradores y lugares de peregrinación. La basílica de Arigbo es uno de varios puntos posibles.",
+   "access": "El pin coincide con el recinto de Arigbo. Para subir a las colinas, escoger ruta y guía por separado; respetar ceremonias y espacios sagrados.",
+   "when": "Primera hora; el portal oficial calcula dos o tres horas para las colinas.",
+   "skip": "Omitir la subida con calor, tormenta o roca mojada; no presentar una aparición religiosa como hecho verificable."
   },
-  {
-    "n": 12,
-    "name": "Dassa-Zoumè · las 41 colinas, la gruta de Arigbo y Savalou",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con correa",
-    "time": "1–2 días",
-    "lat": 7.775309,
-    "lon": 2.186515,
-    "desc": "Dassa-Zoumè está rodeada de colinas graníticas con cuevas, miradores y lugares de peregrinación. La basílica de Arigbo es uno de varios puntos posibles.",
-    "credit": "Tripadvisor · aportación de usuario; autor en la fuente",
+  "links": [
+   {
+    "label": "Bénin Tourisme · colinas de Dassa",
+    "url": "https://benintourisme.bj/en/destinations/the-dassa-hills/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://media-cdn.tripadvisor.com/media/photo-s/15/42/9e/1b/entree.jpg",
     "source": "https://www.tripadvisor.com/Attraction_Review-g1218460-d12478533-Reviews-Grotte_Mariale_Notre_Dame_d_Arigbo-Dassa_Zoume_Collines_Department.html",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Combina paisaje, historia local y espiritualidad sin exigir el desvío largo del norte.",
-      "see": "Dassa-Zoumè está rodeada de colinas graníticas con cuevas, miradores y lugares de peregrinación. La basílica de Arigbo es uno de varios puntos posibles.",
-      "access": "El pin coincide con el recinto de Arigbo. Para subir a las colinas, escoger ruta y guía por separado; respetar ceremonias y espacios sagrados.",
-      "when": "Primera hora; el portal oficial calcula dos o tres horas para las colinas.",
-      "skip": "Omitir la subida con calor, tormenta o roca mojada; no presentar una aparición religiosa como hecho verificable."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · colinas de Dassa",
-        "url": "https://benintourisme.bj/en/destinations/the-dassa-hills/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://media-cdn.tripadvisor.com/media/photo-s/15/42/9e/1b/entree.jpg",
-        "source": "https://www.tripadvisor.com/Attraction_Review-g1218460-d12478533-Reviews-Grotte_Mariale_Notre_Dame_d_Arigbo-Dassa_Zoume_Collines_Department.html",
-        "credit": "Tripadvisor · aportación de usuario; autor en la fuente",
-        "caption": "Entrada del recinto mariano de Arigbo."
-      },
-      {
-        "img": "https://media.vaticannews.va/media/content/dam-archive/vaticannews/multimedia/2022/08/24/Aribgo-Dassa--copy--rsz.jpeg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg",
-        "source": "https://www.vaticannews.va/fr/afrique/news/2022-08/cloture-de-la-68e-edition-du-pelerinage-marial-national-du-benin.html",
-        "credit": "Vatican News · derechos en la fuente",
-        "caption": "Peregrinación documentada en Arigbo-Dassa."
-      },
-      {
-        "img": "https://i0.wp.com/hobletsonthego.com/wp-content/uploads/2025/01/20250113-Benin-Dassa-Zoume-King-of-the-Hill-1-2-1-e1737578839645.jpg?fit=980%2C654&ssl=1",
-        "source": "https://hobletsonthego.com/where-weve-been/africa/benin/king-of-the-hill/",
-        "credit": "Hoblets on the Go · derechos en la fuente",
-        "caption": "Sendero rocoso en las colinas de Dassa."
-      }
-    ]
+    "credit": "Tripadvisor · aportación de usuario; autor en la fuente",
+    "caption": "Entrada del recinto mariano de Arigbo."
+   },
+   {
+    "img": "https://media.vaticannews.va/media/content/dam-archive/vaticannews/multimedia/2022/08/24/Aribgo-Dassa--copy--rsz.jpeg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg",
+    "source": "https://www.vaticannews.va/fr/afrique/news/2022-08/cloture-de-la-68e-edition-du-pelerinage-marial-national-du-benin.html",
+    "credit": "Vatican News · derechos en la fuente",
+    "caption": "Peregrinación documentada en Arigbo-Dassa."
+   },
+   {
+    "img": "https://i0.wp.com/hobletsonthego.com/wp-content/uploads/2025/01/20250113-Benin-Dassa-Zoume-King-of-the-Hill-1-2-1-e1737578839645.jpg?fit=980%2C654&ssl=1",
+    "source": "https://hobletsonthego.com/where-weve-been/africa/benin/king-of-the-hill/",
+    "credit": "Hoblets on the Go · derechos en la fuente",
+    "caption": "Sendero rocoso en las colinas de Dassa."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "name": "Palacios Reales de Abomey (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1 día",
+  "lat": 7.1833,
+  "lon": 1.9833,
+  "desc": "Los palacios reales de Abomey conservan arquitectura de tierra, bajorrelieves y colecciones del antiguo Dahomey. Parte del conjunto puede estar en restauración.",
+  "credit": "Karalyn Monteil · CC BY-SA 3.0 IGO",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palaces_of_Abomey-133466.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133466.jpg",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el gran sitio histórico de Benín y la mejor introducción al reino, las agoodjié y la trata atlántica.",
+   "see": "Los palacios reales de Abomey conservan arquitectura de tierra, bajorrelieves y colecciones del antiguo Dahomey. Parte del conjunto puede estar en restauración.",
+   "access": "El pin coincide con el museo histórico del conjunto. Confirmar entrada operativa, visita guiada y salas abiertas; el perro no entra.",
+   "when": "Primera hora y al menos dos o tres horas.",
+   "skip": "Omitir interiores sin custodia para el perro o con cierre; no tocar muros ni fotografiar donde esté prohibido."
   },
-  {
-    "n": 13,
-    "name": "Palacios Reales de Abomey (UNESCO)",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1 día",
-    "lat": 7.1833,
-    "lon": 1.9833,
-    "desc": "Los palacios reales de Abomey conservan arquitectura de tierra, bajorrelieves y colecciones del antiguo Dahomey. Parte del conjunto puede estar en restauración.",
-    "credit": "Karalyn Monteil · CC BY-SA 3.0 IGO",
+  "links": [
+   {
+    "label": "Bénin Tourisme · palacios reales de Abomey",
+    "url": "https://benintourisme.bj/en/destinations/the-royal-palaces-of-abomey/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palaces_of_Abomey-133466.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133466.jpg",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el gran sitio histórico de Benín y la mejor introducción al reino, las agoodjié y la trata atlántica.",
-      "see": "Los palacios reales de Abomey conservan arquitectura de tierra, bajorrelieves y colecciones del antiguo Dahomey. Parte del conjunto puede estar en restauración.",
-      "access": "El pin coincide con el museo histórico del conjunto. Confirmar entrada operativa, visita guiada y salas abiertas; el perro no entra.",
-      "when": "Primera hora y al menos dos o tres horas.",
-      "skip": "Omitir interiores sin custodia para el perro o con cierre; no tocar muros ni fotografiar donde esté prohibido."
-    },
-    "links": [
-      {
-        "label": "Bénin Tourisme · palacios reales de Abomey",
-        "url": "https://benintourisme.bj/en/destinations/the-royal-palaces-of-abomey/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palaces_of_Abomey-133466.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Royal_Palaces_of_Abomey-133466.jpg",
-        "credit": "Karalyn Monteil · CC BY-SA 3.0 IGO",
-        "caption": "Edificio del conjunto palaciego de Abomey."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abomey_royal_palace_wall.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Abomey_royal_palace_wall.jpg",
-        "credit": "Willem Heerbaart · CC BY 2.0",
-        "caption": "Muro de tierra del palacio real."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abomey_2006_1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Abomey_2006_1.jpg",
-        "credit": "Joachim Huber · CC BY-SA 2.0",
-        "caption": "Patio y arquitectura del museo de Abomey."
-      }
-    ]
+    "credit": "Karalyn Monteil · CC BY-SA 3.0 IGO",
+    "caption": "Edificio del conjunto palaciego de Abomey."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abomey_royal_palace_wall.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Abomey_royal_palace_wall.jpg",
+    "credit": "Willem Heerbaart · CC BY 2.0",
+    "caption": "Muro de tierra del palacio real."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Abomey_2006_1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Abomey_2006_1.jpg",
+    "credit": "Joachim Huber · CC BY-SA 2.0",
+    "caption": "Patio y arquitectura del museo de Abomey."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Bassila y los montes Kouffé",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1 día",
+  "lat": 9.006393,
+  "lon": 1.6639235,
+  "desc": "Punto medio del corredor interior, en el departamento de la Donga: bosque clasificado de Bassila y la cadena de los MONTES KOUFFÉ, una de las últimas grandes manchas de bosque seco y galería del centro de Benín, con babuinos, cefalofos, hipopótamos en el río Ouémé y una avifauna rica. Sin infraestructura turística formal: pistas forestales, guías locales y caminatas a la medida. Es la etapa que rompe los 210 km entre Savalou y Djougou. Imagen de referencia del paisaje de montaña del norte de Benín, no del propio sitio.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rice_cultivation_in_inland_valleys_in_Benin_-_panoramio.jpg?width=1600",
+    "credit": "Africa Rice Center · CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rice_cultivation_in_inland_valleys_in_Benin_-_panoramio.jpg",
+    "caption": "Valles interiores de Benín, en el entorno de Bassila. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Wikipédia (FR) — Forêts classées des monts Kouffé",
+    "url": "https://fr.wikipedia.org/wiki/For%C3%AAts_class%C3%A9es_des_monts_Kouff%C3%A9"
+   },
+   {
+    "label": "Wikipedia (EN) — Bassila",
+    "url": "https://en.wikipedia.org/wiki/Bassila"
+   }
+  ],
+  "visit": {
+   "why": "Es el punto medio real del corredor interior por la RNIE 3, entre Parakou o Savè y Djougou: el sitio donde partir en dos una etapa larga, repostar y dormir. La excusa paisajística son los montes Kouffé, la mayor mancha de bosque seco del centro del país.",
+   "see": "El bosque clasificado de los montes Kouffé, 272.804 hectáreas repartidas entre Donga, Borgou y Collines —en torno al 2,4 % del territorio nacional—, con sabana arbolada y galerías de ribera y una fauna descrita como distinta de la de los parques, pero esquiva. Bassila en sí es una población anii, cabecera de una comuna de 5.661 km² y unos 130.000 habitantes, con mercado y poco más.",
+   "access": "Bassila está a pie de la RNIE 3 asfaltada; el bosque no. El pin es de zona y no de un mirador ni de una puerta de parque: no hay entrada señalizada, ni horario, ni tarifa, ni recorridos publicados por fuente abierta, y entrar significa pistas forestales que piden 4x4 y un guía local contratado en el pueblo. Al no haber control de acceso, tampoco hay norma publicada sobre animales domésticos: el perro no es aquí el problema.",
+   "when": "Media jornada como mucho, y sobre todo como parada de descanso en mitad de la etapa. En estación seca las pistas son transitables; en lluvias, la incursión al bosque se descarta sola.",
+   "skip": "Si lo que se busca es fauna, esto no es un sustituto de Pendjari: la propia ficha del bosque habla de degradación acelerada de su riqueza faunística por presión humana. Si la etapa va sobrada de tiempo y de luz, Bassila se pasa de largo y se duerme directamente en Djougou."
   },
-  {
-    "n": 15,
-    "name": "Taneka-Koko y Taneka-Béri",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 9.8590341,
-    "lon": 1.4967939,
-    "desc": "Tanéka Béri es una aldea histórica de montaña con arquitectura de piedra y tierra y espacios rituales activos. No es una visita libre sin mediación.",
-    "credit": "Aimeabibis · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 15,
+  "name": "Taneka-Koko y Taneka-Béri",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 9.8590341,
+  "lon": 1.4967939,
+  "desc": "Tanéka Béri es una aldea histórica de montaña con arquitectura de piedra y tierra y espacios rituales activos. No es una visita libre sin mediación.",
+  "credit": "Aimeabibis · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L'entr%C3%A9e_du_village_Tan%C3%A9ka_B%C3%A9ri_1.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:L'entr%C3%A9e_du_village_Tan%C3%A9ka_B%C3%A9ri_1.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite conocer un paisaje cultural del noroeste distinto de los palacios fon y de Koutammakou.",
+   "see": "Tanéka Béri es una aldea histórica de montaña con arquitectura de piedra y tierra y espacios rituales activos. No es una visita libre sin mediación.",
+   "access": "El pin coincide con Tanéka Béri. Contratar guía comunitario desde Copargo o el acceso indicado, acordar fotografías y llegar solo de día.",
+   "when": "Estación seca, por la mañana y con medio día.",
+   "skip": "Omitir sin guía o permiso, con alerta regional o pista mojada; no entrar en espacios rituales por cuenta propia."
+  },
+  "links": [
+   {
+    "label": "Google Maps · Tanéka Béri",
+    "url": "https://www.google.com/maps/search/?api=1&query=Taneka%20Beri%20Benin"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L'entr%C3%A9e_du_village_Tan%C3%A9ka_B%C3%A9ri_1.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:L'entr%C3%A9e_du_village_Tan%C3%A9ka_B%C3%A9ri_1.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite conocer un paisaje cultural del noroeste distinto de los palacios fon y de Koutammakou.",
-      "see": "Tanéka Béri es una aldea histórica de montaña con arquitectura de piedra y tierra y espacios rituales activos. No es una visita libre sin mediación.",
-      "access": "El pin coincide con Tanéka Béri. Contratar guía comunitario desde Copargo o el acceso indicado, acordar fotografías y llegar solo de día.",
-      "when": "Estación seca, por la mañana y con medio día.",
-      "skip": "Omitir sin guía o permiso, con alerta regional o pista mojada; no entrar en espacios rituales por cuenta propia."
-    },
-    "links": [
-      {
-        "label": "Google Maps · Tanéka Béri",
-        "url": "https://www.google.com/maps/search/?api=1&query=Taneka%20Beri%20Benin"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/L'entr%C3%A9e_du_village_Tan%C3%A9ka_B%C3%A9ri_1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:L'entr%C3%A9e_du_village_Tan%C3%A9ka_B%C3%A9ri_1.jpg",
-        "credit": "Aimeabibis · CC BY-SA 4.0",
-        "caption": "Entrada de la aldea Tanéka Béri."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tan%C3%A9ka-B%C3%A9ri_(3).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Tan%C3%A9ka-B%C3%A9ri_(3).jpg",
-        "credit": "Ji-Elle · CC BY-SA 4.0",
-        "caption": "Arquitectura tradicional de Tanéka Béri."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Toits_de_Tan%C3%A9ka-B%C3%A9ri_(3).jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Toits_de_Tan%C3%A9ka-B%C3%A9ri_(3).jpg",
-        "credit": "Ji-Elle · CC BY-SA 4.0",
-        "caption": "Cubiertas y relieve de la aldea."
-      }
-    ]
-  }
+    "credit": "Aimeabibis · CC BY-SA 4.0",
+    "caption": "Entrada de la aldea Tanéka Béri."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tan%C3%A9ka-B%C3%A9ri_(3).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Tan%C3%A9ka-B%C3%A9ri_(3).jpg",
+    "credit": "Ji-Elle · CC BY-SA 4.0",
+    "caption": "Arquitectura tradicional de Tanéka Béri."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Toits_de_Tan%C3%A9ka-B%C3%A9ri_(3).jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Toits_de_Tan%C3%A9ka-B%C3%A9ri_(3).jpg",
+    "credit": "Ji-Elle · CC BY-SA 4.0",
+    "caption": "Cubiertas y relieve de la aldea."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Djougou",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 9.7080916,
+  "lon": 1.6663523,
+  "desc": "Capital de la Donga y última base logística real antes de salir a Togo por Ouaké (37 km): combustible, mercado —uno de los grandes mercados de tejidos y de ganado del interior—, hospital de zona y alojamientos con aparcamiento. Ciudad de mayoría musulmana y tradición comerciante dendi/yoruba, con una mezquita antigua y talleres de tejedores. Punto de partida de Taneka-Koko. Imagen de referencia de una ciudad del norte de Benín, no de la propia Djougou.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stra%C3%9Fenbild_djougou.JPG?width=1600",
+    "credit": "Gregor Rom · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stra%C3%9Fenbild_djougou.JPG",
+    "caption": "Una calle de Djougou."
+   }
+  ],
+  "links": [
+   {
+    "label": "Wikipedia (EN) — Djougou",
+    "url": "https://en.wikipedia.org/wiki/Djougou"
+   },
+   {
+    "label": "Gobierno de Benín — inauguración del mercado moderno de Djougou",
+    "url": "https://www.gouv.bj/article/3335/le-marche-moderne-djougou-inaugure-dans-ferveur-populaire/"
+   }
+  ],
+  "visit": {
+   "why": "Es la última ciudad de verdad antes de salir a Togo por Ouaké: combustible, banco, cobertura fiable, taller, repuestos y cama decente. En un viaje overland eso pesa más que cualquier monumento de la zona.",
+   "see": "Una ciudad de más de 237.000 habitantes, capital comercial de Atacora-Donga y mayoritariamente musulmana, con el gran mercado que se monta cada cuatro días —grano, hortaliza, pescado, tejidos y el queso local wagasi— y, desde noviembre de 2025, un mercado moderno de 6.369 m² con 424 puestos, cámaras frigoríficas y aparcamiento.",
+   "access": "Es el cruce de cuatro carreteras asfaltadas: Cotonú y Parakou por la RNIE 3, Natitingou al norte y la frontera togolesa de Ouaké al oeste, a unos 37 km. Dentro de la ciudad no hace falta 4x4 y la cobertura móvil es buena; el movimiento interno es a pie o en zémidjan.",
+   "when": "Una noche basta. Si interesa el gran mercado hay que cuadrar el ciclo de cuatro días, que no se alinea con los días de la semana, así que se calcula sobre el terreno.",
+   "skip": "No es un destino en sí: si se llega con luz, depósito lleno y papeles en regla, se repone y se cruza a Togo el mismo día. Lo que de verdad decide si se duerme aquí es no conducir de noche, que en todo el norte de Benín es regla y no consejo."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 17,
+  "name": "Parque Nacional de la Pendjari — FUERA DEL ITINERARIO 2027",
+  "cat": "Naturaleza",
+  "prio": "Baja",
+  "dog": "prohibido",
+  "time": "—",
+  "lat": 11.2481125,
+  "lon": 1.5983959,
+  "desc": "🚫 EL GRAN SACRIFICIO DE ESTA FICHA. 6.445 km² gestionados por AFRICAN PARKS desde 2017 y considerados el mejor parque de África occidental: unos 2.800 elefantes —la mayor población de la región—, búfalos, hipopótamos, y sobre todo uno de los ÚLTIMOS REFUGIOS DEL LEÓN DE ÁFRICA OCCIDENTAL, subespecie en peligro crítico de la que el complejo W-Arly-Pendjari conserva en torno al 90% de la población superviviente. También guepardo y licaón. PERO: la insurgencia yihadista del norte de Benín, iniciada en noviembre de 2021, ha convertido Pendjari y el vecino Parque W en santuario y base operativa del JNIM, con ataques recurrentes a puestos militares y guardas en la zona (Point Triple, cataratas de Koudou, Koalou) y bajas continuadas hasta 2026. Los avisos de viaje de España, Australia, Canadá y EE. UU. coinciden en «no viajar» a los departamentos de Atakora, Alibori y Borgou y expresamente a Pendjari y W. ESTE PARQUE ESTÁ FUERA DEL ITINERARIO DE 2027. Imagen de referencia de la región de la Atacora.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Parc_national_de_la_Pendjari.JPG?width=1600",
+    "credit": "Fawaz.tairou · CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parc_national_de_la_Pendjari.JPG",
+    "caption": "El parque nacional de la Pendjari."
+   }
+  ],
+  "links": [
+   {
+    "label": "African Parks — Pendjari",
+    "url": "https://www.africanparks.org/the-parks/pendjari"
+   },
+   {
+    "label": "FCDO — Benín, riesgos por regiones",
+    "url": "https://www.gov.uk/foreign-travel-advice/benin/regional-risks"
+   },
+   {
+    "label": "African Parks — incidentes en el Parque W de Benín",
+    "url": "https://www.africanparks.org/update-incidents-w-national-park-benin"
+   }
+  ],
+  "visit": {
+   "why": "Sobre el papel es justo lo que un overland viene a buscar en África occidental: 6.445 km² gestionados por African Parks desde 2017, con unos 2.800 elefantes y la única población viable de leones de la región. Se documenta precisamente para que quede constancia de por qué no se hace.",
+   "see": "En 2027, nada: no se entra. Lo que habría es sabana sudanesa al pie de la falla de la Atacora, elefantes, leones de África occidental, antílopes y, en el conjunto del complejo W-Arly-Pendjari, los últimos guepardos del noroeste africano.",
+   "access": "El FCDO desaconseja TODO viaje al Parque Nacional de la Pendjari y a sus zonas de caza adyacentes, así como a toda la franja de 5 km con Burkina Faso, y deja el resto de Atacora y Alibori en 'solo viajes esenciales'; el MAEC español describe un deterioro notable de la seguridad en torno al complejo WAP. El propio African Parks reconoce que no hay turistas en los parques desde enero de 2022 y que reconfiguró sus operaciones por riesgo, tras atentados con IED contra su personal. No existe norma publicada sobre perros porque no hay visita que regular, y en cualquier caso un parque de fauna mayor no es sitio para el animal.",
+   "when": "En condiciones normales la ventana es la estación seca, de diciembre a mayo. Con la ficha de 2027 en la mano, la pregunta no llega a plantearse.",
+   "skip": "Cae del itinerario por seguridad, no por tiempo ni por presupuesto: insurgencia yihadista activa en el norte, ataques repetidos contra guardas y militares, secuestro documentado de dos turistas franceses en el propio parque en 2019 y pólizas de viaje que no cubren zonas con 'advise against all travel'. No hay versión razonable de este desvío."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 18,
+  "name": "Cascadas de Tanougou y la cordillera de la Atacora — FUERA DEL ITINERARIO 2027",
+  "cat": "Naturaleza",
+  "prio": "Baja",
+  "dog": "prohibido",
+  "time": "—",
+  "lat": 10.8121477,
+  "lon": 1.4363443,
+  "desc": "🚫 Lo otro que se pierde. Las CASCADAS DE TANOUGOU, a unos 25 km de Tanguiéta, caen en tres saltos escalonados sobre pozas de baño al pie de la cordillera de la ATACORA, la única cadena montañosa de verdad del país (punto más alto: monte Sokbaro, 658 m) y el paisaje más bonito de Benín: cuestas de cuarcita, aldeas somba con sus tata —las mismas torres-vivienda takienta del Koutammakou togolés, aquí llamadas tata somba, en Boukoumbé y Natitingou—, y rutas de senderismo reales. Toda la zona está en el departamento de ATAKORA, marcado como «no viajar» por la insurgencia del norte. Se conserva en la ficha porque es lo que habría que recuperar si la situación cambiara — y porque el Koutammakou togolés, al otro lado de la frontera, sufre exactamente el mismo problema.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chutes_de_Tanougou_%282%29.jpg?width=1600",
+    "credit": "Ji-Elle · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chutes_de_Tanougou_%282%29.jpg",
+    "caption": "Las cascadas de Tanougou."
+   }
+  ],
+  "links": [
+   {
+    "label": "Wikipédia (FR) — Chutes de Tanougou",
+    "url": "https://fr.wikipedia.org/wiki/Chutes_de_Tanougou"
+   },
+   {
+    "label": "Wikipedia (EN) — Tanougou Falls",
+    "url": "https://en.wikipedia.org/wiki/Tanougou_Falls"
+   },
+   {
+    "label": "FCDO — Benín, riesgos por regiones",
+    "url": "https://www.gov.uk/foreign-travel-advice/benin/regional-risks"
+   }
+  ],
+  "visit": {
+   "why": "Es el segundo peaje del norte cerrado: agua corriente y pozas de baño al pie de la Atacora, el único relieve de verdad del país, a un paso de Tanguiéta. Con el norte abierto sería la parada de descanso lógica entre etapas de sabana.",
+   "see": "Un salto de unos 15-20 metros escalonado sobre una poza en plena espesura, al pie de la cordillera de la Atacora; caudal generoso de mayo a septiembre, del orden de 1,5 m³/s de media, y bastante menos en plena seca.",
+   "access": "Está a unos 20-25 km al noreste de Tanguiéta, departamento de Atacora, prácticamente en la puerta de Pendjari. No hay fuente oficial abierta que publique horario, tarifa ni gestor del sitio; lo que sí está publicado es que el FCDO desaconseja todo viaje al parque contiguo y a los 5 km de frontera con Burkina, y solo viajes esenciales al resto de Atacora. Al no ser parque nacional con control de acceso, el perro no sería el obstáculo: lo es la seguridad.",
+   "when": "Media jornada desde Tanguiéta. Para ver agua de verdad hay que ir en lluvias o justo después, entre mayo y septiembre, que es justo cuando las pistas de acceso están peor.",
+   "skip": "Cae con Pendjari, y por el mismo motivo: nadie atraviesa el norte desaconsejado para bañarse media hora. Si en 2027 la situación sigue igual —y todo apunta a que sí—, se sustituye por cualquier baño en ruta al sur del país."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 19,
+  "name": "Parque Nacional W (UNESCO, transfronterizo) — FUERA DEL ITINERARIO 2027",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Baja",
+  "dog": "prohibido",
+  "time": "—",
+  "lat": 12.0408333,
+  "lon": 3.0341667,
+  "desc": "🚫 Patrimonio Mundial transfronterizo entre Benín, Níger y Burkina Faso, nombrado por el meandro en forma de W que dibuja el río Níger; junto con Arly y Pendjari forma el complejo WAP, el mayor ecosistema de sabana intacto de África occidental. El sector beninés está igualmente gestionado por African Parks y, según los análisis publicados de la insurgencia, es hoy base operativa del JNIM: en 2024 se describía abiertamente como «cuartel general» de los grupos armados, y African Parks ha publicado partes de incidentes con guardas muertos. Zona de «no viajar» sin matices. Fuera del itinerario. Imagen de referencia del norte de Benín.",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mekrou_river_in_W-National_Park_MS_6380.JPG?width=1600",
+    "credit": "Marco Schmidt · CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mekrou_river_in_W-National_Park_MS_6380.JPG",
+    "caption": "El río Mékrou, en el parque nacional W."
+   }
+  ],
+  "links": [
+   {
+    "label": "UNESCO — Complejo W-Arly-Pendjari (bien nº 749)",
+    "url": "https://whc.unesco.org/en/list/749/"
+   },
+   {
+    "label": "Wikipedia (EN) — W National Park",
+    "url": "https://en.wikipedia.org/wiki/W_National_Park"
+   },
+   {
+    "label": "FCDO — Benín, seguridad",
+    "url": "https://www.gov.uk/foreign-travel-advice/benin/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es el Patrimonio Mundial de Benín que no se visita: el complejo W-Arly-Pendjari suma 1.714.831 hectáreas entre Benín, Níger y Burkina, con el 85 % de los elefantes de sabana de África occidental y la única población viable de leones de la región. Figura en la ficha para dejar escrito qué se está renunciando y por qué.",
+   "see": "Lo que se perdería: sabana, bosques de galería y humedales Ramsar en torno al meandro en forma de W del río Níger, con elefantes, leones, leopardos, hipopótamos y más de 350 especies de aves. La parte beninesa, más de 8.000 km², está bajo gestión plena de African Parks desde junio de 2020; el bien se inscribió en 1996 y se amplió en 2017 al complejo completo.",
+   "access": "El FCDO desaconseja todo viaje al Parc du W y a las zonas cinegéticas de Mékrou y Djona, y a toda el área entre el parque y la frontera con Níger. El parque ha sufrido ataques en 2022, 2024 y 2025 —incluidos artefactos explosivos contra equipos de African Parks en febrero de 2022, con guardas y conductores muertos, y un ataque en abril de 2025 con 54 militares fallecidos—: en la práctica es zona de grupos armados, no destino. No hay visita, luego tampoco norma publicada sobre perros; tampoco entraría en un parque de fauna mayor.",
+   "when": "No aplica en 2027. Si algún día reabre, la ventana sería la estación seca, de diciembre a mayo.",
+   "skip": "Fuera del itinerario sin matices: el acceso desde Benín pasa por Kandi y Karimama, en Alibori, que es exactamente la zona que MAEC y FCDO señalan, y ningún seguro cubre el trayecto. La foto del cartel de la UNESCO no vale un secuestro."
+  },
+  "_restaurado": true
+ }
 ]

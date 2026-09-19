@@ -1,702 +1,830 @@
 [
-  {
-    "n": 1,
-    "name": "Badagry · Ruta de los Esclavos y Punto de No Retorno",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½–1 día",
-    "lat": 6.415,
-    "lon": 2.8814,
-    "desc": "Badagry conserva museos, barracones y la ruta de memoria que cruza la laguna hasta el Punto de No Retorno. La jornada necesita guía y barca.",
-    "credit": "Kamilu Tope · CC BY-SA 4.0",
+ {
+  "n": 1,
+  "name": "Badagry · Ruta de los Esclavos y Punto de No Retorno",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½–1 día",
+  "lat": 6.415,
+  "lon": 2.8814,
+  "desc": "Badagry conserva museos, barracones y la ruta de memoria que cruza la laguna hasta el Punto de No Retorno. La jornada necesita guía y barca.",
+  "credit": "Kamilu Tope · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gberefu_Island_Point_of_No_Return,_Badagry_-_The_Original_Slave_Route.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Gberefu_Island_Point_of_No_Return,_Badagry_-_The_Original_Slave_Route.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la mejor introducción nigeriana a la trata atlántica y enlaza directamente con Ouidah.",
+   "see": "Badagry conserva museos, barracones y la ruta de memoria que cruza la laguna hasta el Punto de No Retorno. La jornada necesita guía y barca.",
+   "access": "El pin cae en el Punto de No Retorno; el recorrido empieza en Badagry. Contratar guía identificado, pactar chalecos y regreso y distinguir monumentos de lugares históricos.",
+   "when": "Primera hora y medio día; evitar combinar frontera, visita y llegada nocturna a Lagos.",
+   "skip": "Omitir el cruce con mal tiempo o barca insegura; no hacer la ruta como simple sesión fotográfica."
+  },
+  "links": [
+   {
+    "label": "Gobierno de Lagos · patrimonio de Badagry",
+    "url": "https://lagosstate.gov.ng/news/all/view/68accfd888319a643b6098ec"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gberefu_Island_Point_of_No_Return,_Badagry_-_The_Original_Slave_Route.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Gberefu_Island_Point_of_No_Return,_Badagry_-_The_Original_Slave_Route.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la mejor introducción nigeriana a la trata atlántica y enlaza directamente con Ouidah.",
-      "see": "Badagry conserva museos, barracones y la ruta de memoria que cruza la laguna hasta el Punto de No Retorno. La jornada necesita guía y barca.",
-      "access": "El pin cae en el Punto de No Retorno; el recorrido empieza en Badagry. Contratar guía identificado, pactar chalecos y regreso y distinguir monumentos de lugares históricos.",
-      "when": "Primera hora y medio día; evitar combinar frontera, visita y llegada nocturna a Lagos.",
-      "skip": "Omitir el cruce con mal tiempo o barca insegura; no hacer la ruta como simple sesión fotográfica."
-    },
-    "links": [
-      {
-        "label": "Gobierno de Lagos · patrimonio de Badagry",
-        "url": "https://lagosstate.gov.ng/news/all/view/68accfd888319a643b6098ec"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gberefu_Island_Point_of_No_Return,_Badagry_-_The_Original_Slave_Route.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Gberefu_Island_Point_of_No_Return,_Badagry_-_The_Original_Slave_Route.jpg",
-        "credit": "Kamilu Tope · CC BY-SA 4.0",
-        "caption": "Punto de No Retorno en la isla Gberefu."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/POINT_OF_NO_RETURN,_Slave_Trade_route,_Badagry,_Lagos.tif?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:POINT_OF_NO_RETURN,_Slave_Trade_route,_Badagry,_Lagos.tif",
-        "credit": "Spakinrinwa · CC BY-SA 4.0",
-        "caption": "Monumento final de la ruta de Badagry."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Badagry_slave_route._04.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Badagry_slave_route._04.jpg",
-        "credit": "Yemi festus · CC BY-SA 4.0",
-        "caption": "Tramo documentado de la ruta de los esclavos."
-      }
-    ]
+    "credit": "Kamilu Tope · CC BY-SA 4.0",
+    "caption": "Punto de No Retorno en la isla Gberefu."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/POINT_OF_NO_RETURN,_Slave_Trade_route,_Badagry,_Lagos.tif?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:POINT_OF_NO_RETURN,_Slave_Trade_route,_Badagry,_Lagos.tif",
+    "credit": "Spakinrinwa · CC BY-SA 4.0",
+    "caption": "Monumento final de la ruta de Badagry."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Badagry_slave_route._04.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Badagry_slave_route._04.jpg",
+    "credit": "Yemi festus · CC BY-SA 4.0",
+    "caption": "Tramo documentado de la ruta de los esclavos."
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "name": "Lagos · megaciudad, mercados y música",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2–3 noches",
+  "lat": 6.4541,
+  "lon": 3.3947,
+  "desc": "Lagos es una megaciudad de lagunas e islas: Lagos Island, Balogun, el Museo Nacional y Victoria Island exigen visitas separadas. Es ante todo una base logística.",
+  "credit": "FrankvEck · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagos-centre-from-executive-lounge-Continental-hotel-2026-IMG_7970.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Lagos-centre-from-executive-lounge-Continental-hotel-2026-IMG_7970.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite entender la escala económica y cultural de Nigeria y resolver servicios que no existen en el interior.",
+   "see": "Lagos es una megaciudad de lagunas e islas: Lagos Island, Balogun, el Museo Nacional y Victoria Island exigen visitas separadas. Es ante todo una base logística.",
+   "access": "El pin se mantiene como ancla urbana. Reservar alojamiento con aparcamiento y generador, usar conductor local si conviene y planificar cada cruce por tráfico.",
+   "when": "Días laborables para servicios; mínimo dos noches si se visita la ciudad.",
+   "skip": "Reducir turismo urbano con protestas, inundaciones, tráfico bloqueado o sin estacionamiento seguro."
   },
-  {
-    "n": 2,
-    "name": "Lagos · megaciudad, mercados y música",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2–3 noches",
-    "lat": 6.4541,
-    "lon": 3.3947,
-    "desc": "Lagos es una megaciudad de lagunas e islas: Lagos Island, Balogun, el Museo Nacional y Victoria Island exigen visitas separadas. Es ante todo una base logística.",
-    "credit": "FrankvEck · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Tour Nigeria · Lagos",
+    "url": "https://tournigeria.gov.ng/lagos-2/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagos-centre-from-executive-lounge-Continental-hotel-2026-IMG_7970.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Lagos-centre-from-executive-lounge-Continental-hotel-2026-IMG_7970.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite entender la escala económica y cultural de Nigeria y resolver servicios que no existen en el interior.",
-      "see": "Lagos es una megaciudad de lagunas e islas: Lagos Island, Balogun, el Museo Nacional y Victoria Island exigen visitas separadas. Es ante todo una base logística.",
-      "access": "El pin se mantiene como ancla urbana. Reservar alojamiento con aparcamiento y generador, usar conductor local si conviene y planificar cada cruce por tráfico.",
-      "when": "Días laborables para servicios; mínimo dos noches si se visita la ciudad.",
-      "skip": "Reducir turismo urbano con protestas, inundaciones, tráfico bloqueado o sin estacionamiento seguro."
-    },
-    "links": [
-      {
-        "label": "Tour Nigeria · Lagos",
-        "url": "https://tournigeria.gov.ng/lagos-2/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagos-centre-from-executive-lounge-Continental-hotel-2026-IMG_7970.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Lagos-centre-from-executive-lounge-Continental-hotel-2026-IMG_7970.jpg",
-        "credit": "FrankvEck · CC BY-SA 4.0",
-        "caption": "Centro de Lagos documentado en 2026."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balogun_Market,_Lagos_Island.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Balogun_Market,_Lagos_Island.jpg",
-        "credit": "Yellowcrunchy · CC BY-SA 4.0",
-        "caption": "Actividad en Balogun Market."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Museum_Lagos,_Nigeria.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:National_Museum_Lagos,_Nigeria.jpg",
-        "credit": "Beendy234 · CC BY-SA 4.0",
-        "caption": "Edificio del Museo Nacional de Lagos."
-      }
-    ]
+    "credit": "FrankvEck · CC BY-SA 4.0",
+    "caption": "Centro de Lagos documentado en 2026."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balogun_Market,_Lagos_Island.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Balogun_Market,_Lagos_Island.jpg",
+    "credit": "Yellowcrunchy · CC BY-SA 4.0",
+    "caption": "Actividad en Balogun Market."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Museum_Lagos,_Nigeria.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Museum_Lagos,_Nigeria.jpg",
+    "credit": "Beendy234 · CC BY-SA 4.0",
+    "caption": "Edificio del Museo Nacional de Lagos."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Lekki Conservation Centre",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "½ día",
+  "lat": 6.4415182,
+  "lon": 3.535771,
+  "desc": "Lekki Conservation Centre protege humedal y bosque urbano con senderos y pasarela elevada. Es una reserva gestionada, no una zona de paseo libre.",
+  "credit": "Ashinze · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/LEKKI_CONSERVATION_CENTRE_(LCC)_10.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:LEKKI_CONSERVATION_CENTRE_(LCC)_10.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Ofrece naturaleza accesible dentro de Lagos y un contraste claro con el centro urbano.",
+   "see": "Lekki Conservation Centre protege humedal y bosque urbano con senderos y pasarela elevada. Es una reserva gestionada, no una zona de paseo libre.",
+   "access": "El pin coincide con la entrada. Confirmar horario y estado de la pasarela con Nigerian Conservation Foundation; el perro no entra.",
+   "when": "Al abrir, en día seco; dos o tres horas.",
+   "skip": "Omitir con tormenta, pasarela cerrada, calor fuerte o sin custodia segura para el perro."
   },
-  {
-    "n": 3,
-    "name": "Lekki Conservation Centre",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "½ día",
-    "lat": 6.4415182,
-    "lon": 3.535771,
-    "desc": "Lekki Conservation Centre protege humedal y bosque urbano con senderos y pasarela elevada. Es una reserva gestionada, no una zona de paseo libre.",
-    "credit": "Ashinze · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Nigerian Conservation Foundation · Lekki",
+    "url": "https://www.ncfnigeria.org/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/LEKKI_CONSERVATION_CENTRE_(LCC)_10.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:LEKKI_CONSERVATION_CENTRE_(LCC)_10.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Ofrece naturaleza accesible dentro de Lagos y un contraste claro con el centro urbano.",
-      "see": "Lekki Conservation Centre protege humedal y bosque urbano con senderos y pasarela elevada. Es una reserva gestionada, no una zona de paseo libre.",
-      "access": "El pin coincide con la entrada. Confirmar horario y estado de la pasarela con Nigerian Conservation Foundation; el perro no entra.",
-      "when": "Al abrir, en día seco; dos o tres horas.",
-      "skip": "Omitir con tormenta, pasarela cerrada, calor fuerte o sin custodia segura para el perro."
-    },
-    "links": [
-      {
-        "label": "Nigerian Conservation Foundation · Lekki",
-        "url": "https://www.ncfnigeria.org/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/LEKKI_CONSERVATION_CENTRE_(LCC)_10.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:LEKKI_CONSERVATION_CENTRE_(LCC)_10.jpg",
-        "credit": "Ashinze · CC BY-SA 4.0",
-        "caption": "Pasarela elevada de Lekki Conservation Centre."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Biodiversity_of_Lekki_Conservation_Centre,_Lagos_State,_Nigeria_58.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Biodiversity_of_Lekki_Conservation_Centre,_Lagos_State,_Nigeria_58.jpg",
-        "credit": "MediaMOF · CC BY-SA 4.0",
-        "caption": "Vegetación dentro de la reserva."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lekki_Conservation_Centre_Caution_Board.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Lekki_Conservation_Centre_Caution_Board.jpg",
-        "credit": "James Moore200 · CC BY-SA 4.0",
-        "caption": "Señal de seguridad del centro."
-      }
-    ]
+    "credit": "Ashinze · CC BY-SA 4.0",
+    "caption": "Pasarela elevada de Lekki Conservation Centre."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Biodiversity_of_Lekki_Conservation_Centre,_Lagos_State,_Nigeria_58.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Biodiversity_of_Lekki_Conservation_Centre,_Lagos_State,_Nigeria_58.jpg",
+    "credit": "MediaMOF · CC BY-SA 4.0",
+    "caption": "Vegetación dentro de la reserva."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lekki_Conservation_Centre_Caution_Board.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lekki_Conservation_Centre_Caution_Board.jpg",
+    "credit": "James Moore200 · CC BY-SA 4.0",
+    "caption": "Señal de seguridad del centro."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Benin City · Palacio del Oba, bronces y murallas",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 noches",
+  "lat": 6.334986,
+  "lon": 5.6037465,
+  "desc": "Capital del reino de Benín, uno de los Estados africanos más sofisticados de la historia, que en el siglo XVI asombró a los portugueses por su tamaño, su orden y su alumbrado público. De él salieron los célebres «bronces de Benín», millares de placas y cabezas de latón fundidas a la cera perdida que los británicos saquearon en la expedición punitiva de 1897 y que hoy están en el centro de la mayor disputa de restitución patrimonial del mundo. El Palacio del Oba sigue siendo sede activa de la monarquía edo y se visita con guía; el Museo Nacional de Benin City, en la rotonda de King's Square, conserva piezas originales; el barrio de Igun Street mantiene vivo el gremio de fundidores de bronce desde hace siglos y está en la lista indicativa de la UNESCO. La ciudad está rodeada además por las murallas y fosos de Benín (Iya), un sistema de terraplenes de miles de kilómetros construido entre los siglos XIII y XV, hoy en gran parte devorado por el crecimiento urbano pero todavía identificable en tramos. ATENCIÓN: el nuevo Museum of West African Art (MOWAA) abrió su Pavilion en noviembre de 2025 en medio de una disputa abierta con la corte del Oba y con el gobierno del estado de Edo — confirmar si está abierto al público antes de contar con él.",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Benin_Staff_School%2C_Benin_City%2C_Edo_State.jpg?width=1600",
+    "credit": "Favouridowu · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_Benin_Staff_School%2C_Benin_City%2C_Edo_State.jpg",
+    "caption": "Benin City. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Nigeria — lista indicativa y sitios del Patrimonio Mundial (UNESCO)",
+    "url": "https://whc.unesco.org/en/statesparties/ng"
+   },
+   {
+    "label": "Royal Palace of the Oba of Benin — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_the_Oba_of_Benin"
+   },
+   {
+    "label": "Benin Moat (murallas del Iya) — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Benin_Moat"
+   }
+  ],
+  "visit": {
+   "why": "Es la única parada de toda la travesía que permite pisar la capital de un Estado africano precolonial de primer orden y encontrárselo todavía en funcionamiento: el Oba de Benín sigue reinando y el palacio es residencia real en activo, no una ruina musealizada. Para quien viene de mil kilómetros de mercados y gasolineras, es el punto donde la ruta deja de ser paisaje y se vuelve historia.",
+   "see": "El palacio que se ve no es el que asombró a los portugueses: la expedición punitiva británica de 1897 arrasó el complejo y el edificio actual lo levantó el Oba Eweka II durante su reinado (1914–1932). Alrededor, el Museo Nacional en King's Square, la calle Igun con los talleres de fundidores de bronce a la cera perdida que siguen trabajando, y los restos del Iya: los doce kilómetros de muralla y foso del recinto interior, hoy taludes arbolados incrustados entre casas, de los que se ha destruido más de la mitad desde los años sesenta. El conjunto figura en la lista indicativa de la UNESCO desde 1995 como «Benin Iya / Sungbo's Eredo», sin llegar a estar inscrito.",
+   "access": "El pin es aproximado: cae sobre el centroide de la ciudad, no sobre la puerta del palacio, que queda algo al este en el entorno de Ring Road / King's Square; Benin City es una capital de más de millón y medio de habitantes y todo el acceso es asfalto, sin necesidad de 4x4. El palacio es una residencia real: la entrada no es libre ni tiene horario publicado en ninguna fuente abierta, se gestiona con permiso y guía del propio palacio y hay patios vedados y restricciones de fotografía. Dos avisos que cambian el plan: los bronces de Benín devueltos por Europa no están expuestos al público, porque en 2023 el Estado nigeriano los entregó al Oba Ewuare II; y el MOWAA (Museum of West African Art), construido al lado y anunciado para el 11 de noviembre de 2025, no llegó a abrir por el choque entre el gobernador de Edo y el palacio, y sigue cerrado, así que hay que confirmarlo antes de contar con él. No es parque ni reserva y no hay norma publicada sobre animales, pero en el recinto palaciego lo sensato es que el perro se quede en el coche con alguien.",
+   "when": "Un día completo, y mejor entre semana y por la mañana, que es cuando se encuentra a los fundidores de Igun trabajando y cuando es más fácil que cuaje el permiso del palacio. Evitar julio–septiembre: es lo más húmedo, gris y lluvioso del año en Benin City.",
+   "skip": "Si vienen sólo por los bronces, no están: quien no consiga permiso de palacio y encuentre el MOWAA todavía cerrado se queda con el Museo Nacional y la calle de los fundidores, que son media mañana, no una etapa. También decae si toca en plena temporada de lluvias con los coches cargados y la prioridad es cruzar Nigeria rápido: Edo no figura entre los estados con restricción específica del FCDO, pero el aviso general de secuestro y delito violento en todo el país aconseja no alargar la estancia urbana sin motivo."
   },
-  {
-    "n": 4,
-    "name": "Benin City · palacio del Oba y patrimonio edo",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 6.332072,
-    "lon": 5.6203246,
-    "desc": "Benin City conserva el palacio del Oba y el patrimonio artístico edo. MOWAA es un centro distinto y en 2026 limita el acceso público a cita previa.",
-    "credit": "Kelechukwu Ajoku · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palace_of_the_Oba_of_Benin.jpg?width=1200",
-    "source": "https://commons.wikimedia.org/wiki/File:Royal_Palace_of_the_Oba_of_Benin.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el lugar central para comprender el reino de Benín, el saqueo de 1897 y el debate sobre restitución.",
-      "see": "Benin City conserva el palacio del Oba y el patrimonio artístico edo. MOWAA es un centro distinto y en 2026 limita el acceso público a cita previa.",
-      "access": "El pin se corrige al palacio del Oba. Confirmar visita local y no fotografiar sin permiso; consultar MOWAA por separado antes de contar con su acceso.",
-      "when": "Día laborable, con cita confirmada si se incluye MOWAA; medio día o una noche.",
-      "skip": "Omitir interiores sin autorización o durante ceremonia; perro fuera. No presentar MOWAA como museo de entrada libre."
-    },
-    "links": [
-      {
-        "label": "MOWAA · acceso y programa actual",
-        "url": "https://wearemowaa.org/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palace_of_the_Oba_of_Benin.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Royal_Palace_of_the_Oba_of_Benin.jpg",
-        "credit": "Kelechukwu Ajoku · CC BY-SA 4.0",
-        "caption": "Acceso al palacio real del Oba de Benín."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gateway_entrance_to_Oba_palace.3.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Gateway_entrance_to_Oba_palace.3.jpg",
-        "credit": "MediaMOF · CC BY-SA 4.0",
-        "caption": "Puerta exterior del recinto palaciego."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wooden_Pillar_of_a_Benin_Palace_02.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Wooden_Pillar_of_a_Benin_Palace_02.jpg",
-        "credit": "Adesolive · CC BY-SA 4.0",
-        "caption": "Pilar de madera asociado a la arquitectura palaciega."
-      }
-    ]
+  "_restaurado": true
+ },
+ {
+  "n": 5,
+  "name": "Cruce del Níger · puente de Asaba-Onitsha",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche (Asaba)",
+  "lat": 6.1341625,
+  "lon": 6.7595926,
+  "desc": "El gran hito geográfico de la travesía: el río Níger, el tercero más largo de África, se cruza aquí por el puente de Onitsha (1,4 km, inaugurado en 1965 y destruido parcialmente durante la guerra de Biafra) o por el Segundo Puente del Níger, terminado en 2023, que descarga buena parte del tráfico. Onitsha, en la orilla este, alberga el Onitsha Main Market, considerado el mayor mercado de África occidental; Asaba, en la orilla oeste, es una ciudad tranquila y moderna con hoteles de aparcamiento cerrado y es, según los overlanders que han hecho esta ruta, la pernocta natural del tramo. REGLA OPERATIVA: la orilla este es ya el Sureste igbo, donde los lunes de «sit-at-home» impuestos por el IPOB paralizan la región — cruzar el Níger cualquier día menos lunes. NO fotografiar el puente: es infraestructura estratégica y hay control militar permanente.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bridge_over_the_Niger_into_Onitsha.jpg?width=1600",
+    "credit": "Shiraz Chakera · CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bridge_over_the_Niger_into_Onitsha.jpg",
+    "caption": "El puente sobre el Níger, entre Asaba y Onitsha."
+   }
+  ],
+  "links": [
+   {
+    "label": "River Niger Bridge (puente de 1965) — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/River_Niger_Bridge"
+   },
+   {
+    "label": "Second Niger bridge — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Second_Niger_bridge"
+   },
+   {
+    "label": "FCDO — Nigeria travel advice, riesgos regionales",
+    "url": "https://www.gov.uk/foreign-travel-advice/nigeria/regional-risks"
+   }
+  ],
+  "visit": {
+   "why": "Es el hito geográfico y mental de la travesía nigeriana: a un lado queda el oeste edo y yoruba, al otro el sureste igbo, y el cambio se nota en la carretera, en los mercados y en el trato en cuanto se pisa Onitsha. Además es un punto de decisión logística, porque de cómo esté el cruce depende la hora a la que se duerme.",
+   "see": "En realidad hay dos puentes. El viejo, de 1.404 m, abierto en diciembre de 1965 y construido por Dumez, con dos carriles y una acera, vanos reconstruidos donde los biafreños volaron el tablero en la guerra civil, y una congestión crónica de camiones y vendedores ambulantes. Y el Segundo Puente del Níger, de 1,63 km, abierto al tráfico el 15 de diciembre de 2022 e inaugurado en mayo de 2023, unos kilómetros aguas abajo, todavía sin peaje y con parte de los accesos sin terminar. Debajo, el río Níger en su tramo bajo, ancho y cargado de canoas.",
+   "access": "El pin no es un objeto sino una zona: cae sobre el río, entre los dos puentes, así que conviene decidir antes cuál se toma. Todo es asfalto y no hace falta 4x4; el nuevo puente es más rápido y despejado, el viejo mete de lleno en el caos de Onitsha. Atención al aviso oficial: el FCDO británico desaconseja todo viaje salvo el esencial al estado de Anambra —la orilla de Onitsha— y a la parte no ribereña de Delta, y desaconseja todo viaje a las zonas ribereñas de Delta; el motivo es el riesgo de secuestro y violencia. A eso se suma el «sit-at-home» de los lunes en el sureste, una huelga forzosa de origen separatista que vacía calles y cierra el mercado de Onitsha, en retroceso desde 2026 pero todavía impredecible de una semana a otra.",
+   "when": "El cruce en sí son minutos; lo que cuesta horas es la congestión del lado de Onitsha. Cruzar a primera hora de la mañana, en día laborable y evitando el lunes. Si se puede elegir, mejor en estación seca, cuando el nivel del río deja ver los bancos de arena y las orillas no están embarradas.",
+   "skip": "Si el grupo está aplicando al pie de la letra el aviso del FCDO sobre el sureste, el cruce se hace y se sigue sin entrar en Onitsha, o directamente se pernocta en Asaba, en la orilla de Delta. Y si el día cae en lunes o hay convocatoria de «sit-at-home», no merece la pena forzarlo: se pierde una jornada entera parado en un sitio donde no interesa estar parado."
   },
-  {
-    "n": 6,
-    "name": "Calabar",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2 noches",
-    "lat": 4.9589,
-    "lon": 8.3269,
-    "desc": "Calabar conserva Duke Town, el museo y una fuerte cultura efik; también es la base para Drill Ranch y el sureste de Cross River.",
-    "credit": "stone wu · CC BY-SA 3.0",
+  "_restaurado": true
+ },
+ {
+  "n": 6,
+  "name": "Calabar",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2 noches",
+  "lat": 4.9589,
+  "lon": 8.3269,
+  "desc": "Calabar conserva Duke Town, el museo y una fuerte cultura efik; también es la base para Drill Ranch y el sureste de Cross River.",
+  "credit": "stone wu · CC BY-SA 3.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Duke_Town,_Calabar,_Nigeria_-_panoramio.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Duke_Town,_Calabar,_Nigeria_-_panoramio.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Funciona como nodo cultural y logístico antes de las carreteras más exigentes hacia Ikom y Camerún.",
+   "see": "Calabar conserva Duke Town, el museo y una fuerte cultura efik; también es la base para Drill Ranch y el sureste de Cross River.",
+   "access": "El pin se mantiene como ancla urbana. Elegir alojamiento con aparcamiento, confirmar museo y recorrer Duke Town de día con guía.",
+   "when": "Día laborable y una o dos noches para preparar el corredor interior.",
+   "skip": "Reducir visitas con lluvia intensa, protestas o museo cerrado; no conducir de noche hacia Ikom."
+  },
+  "links": [
+   {
+    "label": "Cross River State · portal oficial",
+    "url": "https://crossriverstate.gov.ng/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Duke_Town,_Calabar,_Nigeria_-_panoramio.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Duke_Town,_Calabar,_Nigeria_-_panoramio.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Funciona como nodo cultural y logístico antes de las carreteras más exigentes hacia Ikom y Camerún.",
-      "see": "Calabar conserva Duke Town, el museo y una fuerte cultura efik; también es la base para Drill Ranch y el sureste de Cross River.",
-      "access": "El pin se mantiene como ancla urbana. Elegir alojamiento con aparcamiento, confirmar museo y recorrer Duke Town de día con guía.",
-      "when": "Día laborable y una o dos noches para preparar el corredor interior.",
-      "skip": "Reducir visitas con lluvia intensa, protestas o museo cerrado; no conducir de noche hacia Ikom."
-    },
-    "links": [
-      {
-        "label": "Cross River State · portal oficial",
-        "url": "https://crossriverstate.gov.ng/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Duke_Town,_Calabar,_Nigeria_-_panoramio.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Duke_Town,_Calabar,_Nigeria_-_panoramio.jpg",
-        "credit": "stone wu · CC BY-SA 3.0",
-        "caption": "Duke Town y el río en Calabar."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigeria_masquerade_Calabar.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Nigeria_masquerade_Calabar.jpg",
-        "credit": "Orokbest1 · CC BY-SA 4.0",
-        "caption": "Mascarada cultural documentada en Calabar."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigeria_cultural_dance_group.Cross_River_State.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Nigeria_cultural_dance_group.Cross_River_State.jpg",
-        "credit": "Orokbest1 · CC BY-SA 4.0",
-        "caption": "Grupo de danza de Cross River State."
-      }
-    ]
+    "credit": "stone wu · CC BY-SA 3.0",
+    "caption": "Duke Town y el río en Calabar."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigeria_masquerade_Calabar.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nigeria_masquerade_Calabar.jpg",
+    "credit": "Orokbest1 · CC BY-SA 4.0",
+    "caption": "Mascarada cultural documentada en Calabar."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigeria_cultural_dance_group.Cross_River_State.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Nigeria_cultural_dance_group.Cross_River_State.jpg",
+    "credit": "Orokbest1 · CC BY-SA 4.0",
+    "caption": "Grupo de danza de Cross River State."
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "name": "Drill Ranch de Calabar (Pandrillus)",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "½ día",
+  "lat": 4.9822749,
+  "lon": 8.3438219,
+  "desc": "Drill Ranch Calabar rehabilita drills y chimpancés rescatados y ofrece visita guiada. Es un centro de conservación activo, no un zoológico de contacto.",
+  "credit": "Imanueljnr · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_02.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_02.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite conocer una especie muy amenazada y el trabajo que después continúa en Afi Mountain.",
+   "see": "Drill Ranch Calabar rehabilita drills y chimpancés rescatados y ofrece visita guiada. Es un centro de conservación activo, no un zoológico de contacto.",
+   "access": "El pin coincide con la sede de Calabar. Contactar antes aunque la web indique apertura diaria; seguir al personal y dejar al perro fuera.",
+   "when": "Primera hora, evitando grupos escolares; una o dos horas.",
+   "skip": "Omitir sin confirmación, con emergencia animal o sin custodia para el perro; nunca tocar ni alimentar primates."
   },
-  {
-    "n": 7,
-    "name": "Drill Ranch de Calabar (Pandrillus)",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "½ día",
-    "lat": 4.9822749,
-    "lon": 8.3438219,
-    "desc": "Drill Ranch Calabar rehabilita drills y chimpancés rescatados y ofrece visita guiada. Es un centro de conservación activo, no un zoológico de contacto.",
-    "credit": "Imanueljnr · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Pandrillus · Drill Ranch",
+    "url": "https://www.pandrillus.org/projects/drill-ranch/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_02.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_02.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite conocer una especie muy amenazada y el trabajo que después continúa en Afi Mountain.",
-      "see": "Drill Ranch Calabar rehabilita drills y chimpancés rescatados y ofrece visita guiada. Es un centro de conservación activo, no un zoológico de contacto.",
-      "access": "El pin coincide con la sede de Calabar. Contactar antes aunque la web indique apertura diaria; seguir al personal y dejar al perro fuera.",
-      "when": "Primera hora, evitando grupos escolares; una o dos horas.",
-      "skip": "Omitir sin confirmación, con emergencia animal o sin custodia para el perro; nunca tocar ni alimentar primates."
-    },
-    "links": [
-      {
-        "label": "Pandrillus · Drill Ranch",
-        "url": "https://www.pandrillus.org/projects/drill-ranch/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_02.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_02.jpg",
-        "credit": "Imanueljnr · CC BY-SA 4.0",
-        "caption": "Drills en el centro de Calabar."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_03.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_03.jpg",
-        "credit": "Imanueljnr · CC BY-SA 4.0",
-        "caption": "Grupo de drills rehabilitados."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_01.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_01.jpg",
-        "credit": "Imanueljnr · CC BY-SA 4.0",
-        "caption": "Recinto naturalizado de los primates."
-      }
-    ]
+    "credit": "Imanueljnr · CC BY-SA 4.0",
+    "caption": "Drills en el centro de Calabar."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_03.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_03.jpg",
+    "credit": "Imanueljnr · CC BY-SA 4.0",
+    "caption": "Grupo de drills rehabilitados."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Endangered_Drill_monkeys_at_Driving_ranch,_calabar,Nigeria_01.jpg",
+    "credit": "Imanueljnr · CC BY-SA 4.0",
+    "caption": "Recinto naturalizado de los primates."
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "name": "Parque Nacional de Cross River · división de Oban",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "1–2 días",
+  "lat": 5.35,
+  "lon": 8.65,
+  "desc": "Cross River National Park protege dos divisiones no contiguas, Oban y Okwangwo. El PDI representa el espacio, no una puerta turística comprobada.",
+  "credit": "Auskid1215 · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Oban_Hills,_Cross_River_State.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Oban_Hills,_Cross_River_State.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Conserva una de las últimas grandes selvas nigerianas, pero solo merece la pena con acceso oficial organizado.",
+   "see": "Cross River National Park protege dos divisiones no contiguas, Oban y Okwangwo. El PDI representa el espacio, no una puerta turística comprobada.",
+   "access": "El pin se mantiene como referencia del sector Oban. Contactar con Nigeria Park Service para puerta, permiso, guía y seguridad; perro prohibido.",
+   "when": "Estación menos lluviosa y solo con confirmación reciente; jornada completa.",
+   "skip": "Descartarlo sin respuesta del parque, con alerta, pista mojada o sin custodia del perro; no internarse por cuenta propia."
   },
-  {
-    "n": 8,
-    "name": "Parque Nacional de Cross River · división de Oban",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "1–2 días",
-    "lat": 5.35,
-    "lon": 8.65,
-    "desc": "Cross River National Park protege dos divisiones no contiguas, Oban y Okwangwo. El PDI representa el espacio, no una puerta turística comprobada.",
-    "credit": "Auskid1215 · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Nigeria Park Service · Cross River National Park",
+    "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/cross-river-national-park/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Oban_Hills,_Cross_River_State.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Oban_Hills,_Cross_River_State.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Conserva una de las últimas grandes selvas nigerianas, pero solo merece la pena con acceso oficial organizado.",
-      "see": "Cross River National Park protege dos divisiones no contiguas, Oban y Okwangwo. El PDI representa el espacio, no una puerta turística comprobada.",
-      "access": "El pin se mantiene como referencia del sector Oban. Contactar con Nigeria Park Service para puerta, permiso, guía y seguridad; perro prohibido.",
-      "when": "Estación menos lluviosa y solo con confirmación reciente; jornada completa.",
-      "skip": "Descartarlo sin respuesta del parque, con alerta, pista mojada o sin custodia del perro; no internarse por cuenta propia."
-    },
-    "links": [
-      {
-        "label": "Nigeria Park Service · Cross River National Park",
-        "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/cross-river-national-park/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Oban_Hills,_Cross_River_State.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Oban_Hills,_Cross_River_State.jpg",
-        "credit": "Auskid1215 · CC BY-SA 4.0",
-        "caption": "Relieve selvático de Oban Hills."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ime_river.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ime_river.jpg",
-        "credit": "Dotun55 · CC BY-SA 4.0",
-        "caption": "Curso de agua en el paisaje de Cross River."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Papilio_zalmoxis_Nigeria.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Papilio_zalmoxis_Nigeria.jpg",
-        "credit": "Rdwarre57 · CC BY-SA 4.0",
-        "caption": "Mariposa Papilio zalmoxis documentada en Nigeria."
-      }
-    ]
-  },
-  {
-    "n": 9,
-    "name": "Monolitos de Alok / Ikom",
-    "cat": "Cultura · lista indicativa",
-    "prio": "Media",
-    "dog": "permitido",
-    "time": "½ día",
-    "lat": 6.0005131,
-    "lon": 8.5019592,
-    "desc": "Los monolitos de Alok/Ikom son piedras talladas de los siglos XVI–XX, distribuidas por comunidades del alto Cross River y en la lista indicativa de UNESCO.",
+    "credit": "Auskid1215 · CC BY-SA 4.0",
+    "caption": "Relieve selvático de Oban Hills."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ime_river.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ime_river.jpg",
     "credit": "Dotun55 · CC BY-SA 4.0",
+    "caption": "Curso de agua en el paisaje de Cross River."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Papilio_zalmoxis_Nigeria.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Papilio_zalmoxis_Nigeria.jpg",
+    "credit": "Rdwarre57 · CC BY-SA 4.0",
+    "caption": "Mariposa Papilio zalmoxis documentada en Nigeria."
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "name": "Monolitos de Alok / Ikom",
+  "cat": "Cultura · lista indicativa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "½ día",
+  "lat": 6.0005131,
+  "lon": 8.5019592,
+  "desc": "Los monolitos de Alok/Ikom son piedras talladas de los siglos XVI–XX, distribuidas por comunidades del alto Cross River y en la lista indicativa de UNESCO.",
+  "credit": "Dotun55 · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikom_monolith_3.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Ikom_monolith_3.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Son el patrimonio arqueológico más singular del corredor hacia Camerún.",
+   "see": "Los monolitos de Alok/Ikom son piedras talladas de los siglos XVI–XX, distribuidas por comunidades del alto Cross River y en la lista indicativa de UNESCO.",
+   "access": "El pin coincide con el conjunto de Alok. Llegar con guía local o Turismo de Cross River, pedir permiso comunitario y no tocar ni mover las piedras.",
+   "when": "Mañana, tiempo seco y dos o tres horas desde Ikom.",
+   "skip": "Omitir sin guía, con pista impracticable o alerta local; no inventar significados de las inscripciones."
+  },
+  "links": [
+   {
+    "label": "UNESCO · monolitos de Alok/Ikom",
+    "url": "https://whc.unesco.org/en/tentativelists/5170/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikom_monolith_3.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Ikom_monolith_3.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Son el patrimonio arqueológico más singular del corredor hacia Camerún.",
-      "see": "Los monolitos de Alok/Ikom son piedras talladas de los siglos XVI–XX, distribuidas por comunidades del alto Cross River y en la lista indicativa de UNESCO.",
-      "access": "El pin coincide con el conjunto de Alok. Llegar con guía local o Turismo de Cross River, pedir permiso comunitario y no tocar ni mover las piedras.",
-      "when": "Mañana, tiempo seco y dos o tres horas desde Ikom.",
-      "skip": "Omitir sin guía, con pista impracticable o alerta local; no inventar significados de las inscripciones."
-    },
-    "links": [
-      {
-        "label": "UNESCO · monolitos de Alok/Ikom",
-        "url": "https://whc.unesco.org/en/tentativelists/5170/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikom_monolith_3.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ikom_monolith_3.jpg",
-        "credit": "Dotun55 · CC BY-SA 4.0",
-        "caption": "Monolito tallado del conjunto de Ikom."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikom_Monolith_1.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ikom_Monolith_1.jpg",
-        "credit": "Dotun55 · CC BY-SA 4.0",
-        "caption": "Detalle antropomorfo de una piedra de Alok."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikom_monoliths.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Ikom_monoliths.jpg",
-        "credit": "Dotun55 · CC BY-SA 4.0",
-        "caption": "Varios monolitos conservados en su entorno."
-      }
-    ]
+    "credit": "Dotun55 · CC BY-SA 4.0",
+    "caption": "Monolito tallado del conjunto de Ikom."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikom_Monolith_1.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ikom_Monolith_1.jpg",
+    "credit": "Dotun55 · CC BY-SA 4.0",
+    "caption": "Detalle antropomorfo de una piedra de Alok."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikom_monoliths.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Ikom_monoliths.jpg",
+    "credit": "Dotun55 · CC BY-SA 4.0",
+    "caption": "Varios monolitos conservados en su entorno."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Cataratas de Agbokim",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con precaución",
+  "time": "½ día",
+  "lat": 5.9069,
+  "lon": 8.9128,
+  "desc": "Agbokim reúne siete brazos de cascada cerca de la frontera camerunesa. El acceso por carretera ha sido descrito como deficiente por el propio estado.",
+  "credit": "MuaMee · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agbokim_waterfalls.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Agbokim_waterfalls.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el conjunto de saltos más espectacular de Cross River cuando el caudal permite distinguir sus brazos.",
+   "see": "Agbokim reúne siete brazos de cascada cerca de la frontera camerunesa. El acceso por carretera ha sido descrito como deficiente por el propio estado.",
+   "access": "El pin coincide con la cascada. Preguntar en Ikom por firme y seguridad el mismo día, contratar guía y aparcar antes del tramo dudoso.",
+   "when": "Con caudal moderado, por la mañana y sin lluvia activa; medio día.",
+   "skip": "Omitir con pista embarrada, crecida, tormenta o alerta fronteriza; no bajar a roca mojada."
   },
-  {
-    "n": 10,
-    "name": "Cataratas de Agbokim",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con precaución",
-    "time": "½ día",
-    "lat": 5.9069,
-    "lon": 8.9128,
-    "desc": "Agbokim reúne siete brazos de cascada cerca de la frontera camerunesa. El acceso por carretera ha sido descrito como deficiente por el propio estado.",
-    "credit": "MuaMee · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Cross River State · visita oficial a Agbokim",
+    "url": "https://news.crossriverstate.gov.ng/criver-tourism-ministry-embarks-on-familiarization-tour-of-agbokim-waterfalls-alok-ikom-monoliths/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agbokim_waterfalls.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Agbokim_waterfalls.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el conjunto de saltos más espectacular de Cross River cuando el caudal permite distinguir sus brazos.",
-      "see": "Agbokim reúne siete brazos de cascada cerca de la frontera camerunesa. El acceso por carretera ha sido descrito como deficiente por el propio estado.",
-      "access": "El pin coincide con la cascada. Preguntar en Ikom por firme y seguridad el mismo día, contratar guía y aparcar antes del tramo dudoso.",
-      "when": "Con caudal moderado, por la mañana y sin lluvia activa; medio día.",
-      "skip": "Omitir con pista embarrada, crecida, tormenta o alerta fronteriza; no bajar a roca mojada."
-    },
-    "links": [
-      {
-        "label": "Cross River State · visita oficial a Agbokim",
-        "url": "https://news.crossriverstate.gov.ng/criver-tourism-ministry-embarks-on-familiarization-tour-of-agbokim-waterfalls-alok-ikom-monoliths/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agbokim_waterfalls.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Agbokim_waterfalls.jpg",
-        "credit": "MuaMee · CC BY-SA 4.0",
-        "caption": "Varios brazos de Agbokim Waterfalls."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agbokim_Waterfalls,_Agbokim,_Cross_River_state.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Agbokim_Waterfalls,_Agbokim,_Cross_River_state.jpg",
-        "credit": "Ei'eke · CC BY-SA 4.0",
-        "caption": "Caída principal en temporada con agua."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agbokim_Waterfalls_Small_falls_05.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Agbokim_Waterfalls_Small_falls_05.jpg",
-        "credit": "Ransome E Owan · CC BY-SA 4.0",
-        "caption": "Uno de los saltos menores del conjunto."
-      }
-    ]
+    "credit": "MuaMee · CC BY-SA 4.0",
+    "caption": "Varios brazos de Agbokim Waterfalls."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agbokim_Waterfalls,_Agbokim,_Cross_River_state.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Agbokim_Waterfalls,_Agbokim,_Cross_River_state.jpg",
+    "credit": "Ei'eke · CC BY-SA 4.0",
+    "caption": "Caída principal en temporada con agua."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Agbokim_Waterfalls_Small_falls_05.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Agbokim_Waterfalls_Small_falls_05.jpg",
+    "credit": "Ransome E Owan · CC BY-SA 4.0",
+    "caption": "Uno de los saltos menores del conjunto."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Montaña de Afi · santuario de drills y gorilas de Cross River",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "1–2 noches",
+  "lat": 6.2833,
+  "lon": 8.9667,
+  "desc": "Afi Mountain combina un santuario forestal estatal y el centro de campo de Drill Ranch. Las caminatas son abruptas y la fauna salvaje es esquiva.",
+  "credit": "Obongha oguni · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Afi_Mountain_Wildlife_Sanctuary.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Afi_Mountain_Wildlife_Sanctuary.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es una experiencia de conservación profunda, valiosa por el bosque y el proyecto aunque no se vea un gorila.",
+   "see": "Afi Mountain combina un santuario forestal estatal y el centro de campo de Drill Ranch. Las caminatas son abruptas y la fauna salvaje es esquiva.",
+   "access": "El pin es una referencia del santuario. Reservar con Pandrillus, pedir estado de los últimos 6 km y puentes y llegar con comida, agua y combustible desde Ikom u Obudu.",
+   "when": "Estación menos lluviosa, reserva previa y una o más noches.",
+   "skip": "Omitir sin confirmación, con vehículo pesado para los puentes, alerta o sin custodia del perro; guía obligatorio."
   },
-  {
-    "n": 11,
-    "name": "Montaña de Afi · santuario de drills y gorilas de Cross River",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "1–2 noches",
-    "lat": 6.2833,
-    "lon": 8.9667,
-    "desc": "Afi Mountain combina un santuario forestal estatal y el centro de campo de Drill Ranch. Las caminatas son abruptas y la fauna salvaje es esquiva.",
-    "credit": "Obongha oguni · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Pandrillus · información de visita a Afi",
+    "url": "https://www.pandrillus.org/projects/drill-ranch/visitor-information/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Afi_Mountain_Wildlife_Sanctuary.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Afi_Mountain_Wildlife_Sanctuary.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es una experiencia de conservación profunda, valiosa por el bosque y el proyecto aunque no se vea un gorila.",
-      "see": "Afi Mountain combina un santuario forestal estatal y el centro de campo de Drill Ranch. Las caminatas son abruptas y la fauna salvaje es esquiva.",
-      "access": "El pin es una referencia del santuario. Reservar con Pandrillus, pedir estado de los últimos 6 km y puentes y llegar con comida, agua y combustible desde Ikom u Obudu.",
-      "when": "Estación menos lluviosa, reserva previa y una o más noches.",
-      "skip": "Omitir sin confirmación, con vehículo pesado para los puentes, alerta o sin custodia del perro; guía obligatorio."
-    },
-    "links": [
-      {
-        "label": "Pandrillus · información de visita a Afi",
-        "url": "https://www.pandrillus.org/projects/drill-ranch/visitor-information/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Afi_Mountain_Wildlife_Sanctuary.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Afi_Mountain_Wildlife_Sanctuary.jpg",
-        "credit": "Obongha oguni · CC BY-SA 4.0",
-        "caption": "Bosque y relieve del santuario de Afi."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Afi_Mountain_Wildlife_Sanctuary.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:View_from_Afi_Mountain_Wildlife_Sanctuary.jpg",
-        "credit": "Dotun55 · CC BY-SA 4.0",
-        "caption": "Vista desde Afi Mountain."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Odiga_Waterfall.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Odiga_Waterfall.jpg",
-        "credit": "Dotun55 · CC BY-SA 4.0",
-        "caption": "Cascada Odiga en el entorno de Afi."
-      }
-    ]
+    "credit": "Obongha oguni · CC BY-SA 4.0",
+    "caption": "Bosque y relieve del santuario de Afi."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Afi_Mountain_Wildlife_Sanctuary.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:View_from_Afi_Mountain_Wildlife_Sanctuary.jpg",
+    "credit": "Dotun55 · CC BY-SA 4.0",
+    "caption": "Vista desde Afi Mountain."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Odiga_Waterfall.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Odiga_Waterfall.jpg",
+    "credit": "Dotun55 · CC BY-SA 4.0",
+    "caption": "Cascada Odiga en el entorno de Afi."
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "name": "Meseta de Obudu (Obudu Mountain Resort)",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 noches",
+  "lat": 6.37,
+  "lon": 9.37,
+  "desc": "Obudu Mountain Resort ocupa una meseta fresca con vistas, senderos y antiguas infraestructuras turísticas. No debe darse por operativo ningún servicio sin confirmarlo.",
+  "credit": "Bassnificient · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obudu_Mountain_Resort_02.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Obudu_Mountain_Resort_02.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "El paisaje de altitud es excepcional en Nigeria y puede cerrar bien el eje de Cross River.",
+   "see": "Obudu Mountain Resort ocupa una meseta fresca con vistas, senderos y antiguas infraestructuras turísticas. No debe darse por operativo ningún servicio sin confirmarlo.",
+   "access": "El pin coincide con el resort. Llamar antes para carretera, alojamiento, electricidad y actividades; la imagen del teleférico es histórica y no prueba que funcione.",
+   "when": "Estación seca, llegada con luz y una o dos noches.",
+   "skip": "Omitir con niebla densa, carretera dañada o sin reserva confirmada; no planificar alrededor del teleférico."
   },
-  {
-    "n": 12,
-    "name": "Meseta de Obudu (Obudu Mountain Resort)",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "1–2 noches",
-    "lat": 6.37,
-    "lon": 9.37,
-    "desc": "Obudu Mountain Resort ocupa una meseta fresca con vistas, senderos y antiguas infraestructuras turísticas. No debe darse por operativo ningún servicio sin confirmarlo.",
-    "credit": "Bassnificient · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Google Maps · Obudu Mountain Resort",
+    "url": "https://www.google.com/maps/search/?api=1&query=Obudu%20Mountain%20Resort%20Nigeria"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obudu_Mountain_Resort_02.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Obudu_Mountain_Resort_02.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "El paisaje de altitud es excepcional en Nigeria y puede cerrar bien el eje de Cross River.",
-      "see": "Obudu Mountain Resort ocupa una meseta fresca con vistas, senderos y antiguas infraestructuras turísticas. No debe darse por operativo ningún servicio sin confirmarlo.",
-      "access": "El pin coincide con el resort. Llamar antes para carretera, alojamiento, electricidad y actividades; la imagen del teleférico es histórica y no prueba que funcione.",
-      "when": "Estación seca, llegada con luz y una o dos noches.",
-      "skip": "Omitir con niebla densa, carretera dañada o sin reserva confirmada; no planificar alrededor del teleférico."
-    },
-    "links": [
-      {
-        "label": "Google Maps · Obudu Mountain Resort",
-        "url": "https://www.google.com/maps/search/?api=1&query=Obudu%20Mountain%20Resort%20Nigeria"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obudu_Mountain_Resort_02.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Obudu_Mountain_Resort_02.jpg",
-        "credit": "Bassnificient · CC BY-SA 4.0",
-        "caption": "Paisaje de la meseta de Obudu."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obudu_Cattle_ranch_Gate,_Obudu,_Cross_river_state3.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Obudu_Cattle_ranch_Gate,_Obudu,_Cross_river_state3.jpg",
-        "credit": "MediaMOF · CC BY-SA 4.0",
-        "caption": "Puerta de acceso al antiguo Cattle Ranch."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cable_Car,_Obudu_Cattle_Ranch,_Obudu,_Cross_river_state_01.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cable_Car,_Obudu_Cattle_Ranch,_Obudu,_Cross_river_state_01.jpg",
-        "credit": "Ei'eke · CC BY-SA 4.0",
-        "caption": "Teleférico de Obudu fotografiado; confirmar operación actual."
-      }
-    ]
+    "credit": "Bassnificient · CC BY-SA 4.0",
+    "caption": "Paisaje de la meseta de Obudu."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Obudu_Cattle_ranch_Gate,_Obudu,_Cross_river_state3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Obudu_Cattle_ranch_Gate,_Obudu,_Cross_river_state3.jpg",
+    "credit": "MediaMOF · CC BY-SA 4.0",
+    "caption": "Puerta de acceso al antiguo Cattle Ranch."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cable_Car,_Obudu_Cattle_Ranch,_Obudu,_Cross_river_state_01.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cable_Car,_Obudu_Cattle_Ranch,_Obudu,_Cross_river_state_01.jpg",
+    "credit": "Ei'eke · CC BY-SA 4.0",
+    "caption": "Teleférico de Obudu fotografiado; confirmar operación actual."
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "name": "Bosque Sagrado de Osun-Osogbo (UNESCO)",
+  "cat": "Patrimonio UNESCO",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 7.7581,
+  "lon": 4.5586,
+  "desc": "Osun-Osogbo es un bosque sagrado yoruba con santuarios, esculturas y el río Osun. Es un lugar religioso vivo y Patrimonio Mundial.",
+  "credit": "Tosin Odunfa · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Osun_Sacred_Grove_Forest_-_Shrine_II.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Osun_Sacred_Grove_Forest_-_Shrine_II.jpg",
+  "icon": "patrimonio unesco",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Combina paisaje forestal, arte de Susanne Wenger y continuidad ritual de una forma única.",
+   "see": "Osun-Osogbo es un bosque sagrado yoruba con santuarios, esculturas y el río Osun. Es un lugar religioso vivo y Patrimonio Mundial.",
+   "access": "El pin coincide con el acceso del bosque. Entrar con guía, seguir las normas de cada santuario y dejar al perro fuera.",
+   "when": "Primera hora y fuera del festival si se busca calma; dos o tres horas.",
+   "skip": "Omitir con ceremonia privada, cierre o sin custodia del perro; no tocar esculturas ni fotografiar rituales sin permiso."
   },
-  {
-    "n": 13,
-    "name": "Bosque Sagrado de Osun-Osogbo (UNESCO)",
-    "cat": "Patrimonio UNESCO",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "½ día",
-    "lat": 7.7581,
-    "lon": 4.5586,
-    "desc": "Osun-Osogbo es un bosque sagrado yoruba con santuarios, esculturas y el río Osun. Es un lugar religioso vivo y Patrimonio Mundial.",
-    "credit": "Tosin Odunfa · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "UNESCO · Osun-Osogbo Sacred Grove",
+    "url": "https://whc.unesco.org/en/list/1118/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Osun_Sacred_Grove_Forest_-_Shrine_II.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Osun_Sacred_Grove_Forest_-_Shrine_II.jpg",
-    "icon": "patrimonio unesco",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Combina paisaje forestal, arte de Susanne Wenger y continuidad ritual de una forma única.",
-      "see": "Osun-Osogbo es un bosque sagrado yoruba con santuarios, esculturas y el río Osun. Es un lugar religioso vivo y Patrimonio Mundial.",
-      "access": "El pin coincide con el acceso del bosque. Entrar con guía, seguir las normas de cada santuario y dejar al perro fuera.",
-      "when": "Primera hora y fuera del festival si se busca calma; dos o tres horas.",
-      "skip": "Omitir con ceremonia privada, cierre o sin custodia del perro; no tocar esculturas ni fotografiar rituales sin permiso."
-    },
-    "links": [
-      {
-        "label": "UNESCO · Osun-Osogbo Sacred Grove",
-        "url": "https://whc.unesco.org/en/list/1118/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Osun_Sacred_Grove_Forest_-_Shrine_II.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Osun_Sacred_Grove_Forest_-_Shrine_II.jpg",
-        "credit": "Tosin Odunfa · CC BY-SA 4.0",
-        "caption": "Santuario dentro del bosque de Osun-Osogbo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Osun_Osogbo_Sacred_Groove_-_The_Forest_Pathway.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Osun_Osogbo_Sacred_Groove_-_The_Forest_Pathway.jpg",
-        "credit": "Tunde Akangbe · CC BY-SA 4.0",
-        "caption": "Sendero forestal del bosque sagrado."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Deity_in_Osogbo_Groove_02.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Deity_in_Osogbo_Groove_02.jpg",
-        "credit": "Love Ifechukwu ObianujuAku Nebo · CC BY-SA 4.0",
-        "caption": "Escultura ritual en Osun-Osogbo."
-      }
-    ]
+    "credit": "Tosin Odunfa · CC BY-SA 4.0",
+    "caption": "Santuario dentro del bosque de Osun-Osogbo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Osun_Osogbo_Sacred_Groove_-_The_Forest_Pathway.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Osun_Osogbo_Sacred_Groove_-_The_Forest_Pathway.jpg",
+    "credit": "Tunde Akangbe · CC BY-SA 4.0",
+    "caption": "Sendero forestal del bosque sagrado."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Deity_in_Osogbo_Groove_02.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Deity_in_Osogbo_Groove_02.jpg",
+    "credit": "Love Ifechukwu ObianujuAku Nebo · CC BY-SA 4.0",
+    "caption": "Escultura ritual en Osun-Osogbo."
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "name": "Ibadan",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 7.3775355,
+  "lon": 3.9470396,
+  "desc": "La segunda ciudad de Nigeria y, durante buena parte del siglo XX, la mayor ciudad del África negra: una extensión inabarcable de tejados de cinc oxidado sobre siete colinas, que es en sí misma una de las vistas más características del país (mejor desde Bower's Tower, la torre-mirador de Oke-Are). Fue capital de la Región Occidental y capital intelectual del país: la Universidad de Ibadan, fundada en 1948, es la más antigua de Nigeria, y su campus arbolado con el zoológico y el jardín botánico es un oasis. El Cocoa House (1965), primer rascacielos del África occidental, se levantó con el dinero del cacao yoruba; el Mapo Hall, ayuntamiento colonial de 1929 en lo alto de su colina, domina el casco viejo. Buena plaza de servicios, hospital universitario (UCH) de referencia nacional y ambiente notablemente más tranquilo que Lagos. Es la pernocta lógica entre Osogbo y Abeokuta.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Ibadan_from_the_top_of_Mapo_Hall_1.jpg?width=1600",
+    "credit": "Lafemo 123 · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Ibadan_from_the_top_of_Mapo_Hall_1.jpg",
+    "caption": "Ibadán desde el Mapo Hall."
+   }
+  ],
+  "links": [
+   {
+    "label": "Ibadan — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Ibadan"
+   },
+   {
+    "label": "FCDO — Nigeria travel advice, riesgos regionales",
+    "url": "https://www.gov.uk/foreign-travel-advice/nigeria/regional-risks"
+   }
+  ],
+  "visit": {
+   "why": "Es la parada de servicios lógica del suroeste nigeriano y la manera de no tener que meterse en Lagos: unos 4,3 millones de habitantes, talleres, repuestos, bancos y hoteles, a 120 km al noreste de la capital económica. Y de paso es una ciudad con peso propio: fundada en 1829 como campamento militar, en la independencia de 1960 era la más poblada de Nigeria y la segunda de África por detrás de El Cairo.",
+   "see": "Más que monumentos, una escala: la mancha interminable de tejados de cinc sobre las colinas, que se entiende de golpe desde la Bower's Tower. Luego, el Cocoa House —el primer rascacielos de Nigeria, levantado con el dinero del cacao—, el Mapo Hall colonial en alto, y, si sobra tiempo, el campus de la Universidad de Ibadan y el IITA, el instituto internacional de agricultura tropical, en las afueras.",
+   "access": "El pin es el centroide de la ciudad, no un punto concreto: Ibadan es la mayor ciudad de Nigeria por superficie, unos 3.080 km², y los sitios citados están repartidos por ella, así que hay que navegar barrio a barrio. Todo asfalto, sin necesidad de 4x4, con autopista a Lagos y ferrocarril de vía estándar desde 2021. Oyo no figura entre los estados con restricción específica en el aviso del FCDO, pero el mismo aviso recuerda que el secuestro, el delito violento y la violencia intercomunitaria se dan en todas las regiones del país: no conducir de noche y no improvisar el sitio donde se duerme.",
+   "when": "Una noche, dos si toca mantenimiento de los coches o papeleo. Mejor en estación seca, de noviembre a febrero: la lluviosa se alarga de marzo a octubre y convierte el tráfico y los barrios bajos, drenados por cinco ríos, en un problema. Las vistas desde la torre piden última hora de la tarde.",
+   "skip": "No es una parada de turismo: si no hay que reparar, reabastecer ni descansar, y ya se ha hecho escala en Abeokuta o al salir de la frontera de Benín, Ibadan se puede rodear sin remordimiento. Tampoco compensa entrar en hora punta ni en plena lluvia, cuando cruzar la ciudad puede costar más que la etapa del día."
   },
-  {
-    "n": 14,
-    "name": "Ibadan · Mapo Hall y Cocoa House",
-    "cat": "Ciudad · servicios",
-    "prio": "Media",
-    "dog": "permitido con condiciones",
-    "time": "1 noche",
-    "lat": 7.376231,
-    "lon": 3.895901,
-    "desc": "Mapo Hall domina el casco histórico de Ibadan y ofrece contexto sobre la administración colonial; Cocoa House recuerda el auge regional del cacao.",
-    "credit": "Ayorinde Ogundele · CC BY-SA 4.0",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg?width=1200",
-    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Convierte una escala urbana difusa en dos hitos concretos con lectura histórica y económica.",
-      "see": "Mapo Hall domina el casco histórico de Ibadan y ofrece contexto sobre la administración colonial; Cocoa House recuerda el auge regional del cacao.",
-      "access": "El pin se corrige a Mapo Hall mediante coordenada georreferenciada. Confirmar acceso y aparcamiento; Cocoa House es un edificio distinto en Dugbe.",
-      "when": "Día laborable y primera hora; una o dos horas.",
-      "skip": "Omitir interiores sin autorización o con actos oficiales; no detenerse en calzada congestionada para fotografiar."
-    },
-    "links": [
-      {
-        "label": "Google Maps · Mapo Hall",
-        "url": "https://www.google.com/maps/search/?api=1&query=Mapo%20Hall%20Ibadan%20Nigeria"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg",
-        "credit": "Ayorinde Ogundele · CC BY-SA 4.0",
-        "caption": "Vista aérea georreferenciada de Mapo Hall."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocoa_House,_Ibadan.JPG?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cocoa_House,_Ibadan.JPG",
-        "credit": "Ibadan234 · CC BY-SA 4.0",
-        "caption": "Cocoa House en el distrito de Dugbe."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Further_images_of_Ibadan_city_from_Mapo_Hall_12.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Further_images_of_Ibadan_city_from_Mapo_Hall_12.jpg",
-        "credit": "Kaizernify · dominio público",
-        "caption": "Ibadan visto desde Mapo Hall."
-      }
-    ]
+  "_restaurado": true
+ },
+ {
+  "n": 15,
+  "name": "Abeokuta y la roca de Olumo",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con precaución",
+  "time": "½–1 día",
+  "lat": 7.1663453,
+  "lon": 3.3416324,
+  "desc": "Olumo Rock es un afloramiento sobre Abeokuta usado como refugio en el siglo XIX. El recinto tiene escalones y pasajes naturales; servicios mecánicos pueden no operar.",
+  "credit": "F.Samuel95 · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Olumo_Rock_Abk.2.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Olumo_Rock_Abk.2.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Combina historia egba, geología y una gran vista urbana en una visita manejable.",
+   "see": "Olumo Rock es un afloramiento sobre Abeokuta usado como refugio en el siglo XIX. El recinto tiene escalones y pasajes naturales; servicios mecánicos pueden no operar.",
+   "access": "El pin coincide con la entrada de Olumo Rock. Confirmar horario, guía y estado de accesos; no contar con ascensor ni dejar objetos en el coche.",
+   "when": "A primera hora, con roca seca; dos horas.",
+   "skip": "Omitir con tormenta, calor extremo, movilidad reducida sin alternativa confirmada o controles de seguridad insuficientes."
   },
-  {
-    "n": 15,
-    "name": "Abeokuta y la roca de Olumo",
-    "cat": "Cultura",
-    "prio": "Alta",
-    "dog": "permitido con precaución",
-    "time": "½–1 día",
-    "lat": 7.1663453,
-    "lon": 3.3416324,
-    "desc": "Olumo Rock es un afloramiento sobre Abeokuta usado como refugio en el siglo XIX. El recinto tiene escalones y pasajes naturales; servicios mecánicos pueden no operar.",
-    "credit": "F.Samuel95 · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Google Maps · Olumo Rock",
+    "url": "https://www.google.com/maps/search/?api=1&query=Olumo%20Rock%20Abeokuta%20Nigeria"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Olumo_Rock_Abk.2.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Olumo_Rock_Abk.2.jpg",
-    "icon": "cultura",
-    "color": "morado",
-    "dog_note": "",
-    "visit": {
-      "why": "Combina historia egba, geología y una gran vista urbana en una visita manejable.",
-      "see": "Olumo Rock es un afloramiento sobre Abeokuta usado como refugio en el siglo XIX. El recinto tiene escalones y pasajes naturales; servicios mecánicos pueden no operar.",
-      "access": "El pin coincide con la entrada de Olumo Rock. Confirmar horario, guía y estado de accesos; no contar con ascensor ni dejar objetos en el coche.",
-      "when": "A primera hora, con roca seca; dos horas.",
-      "skip": "Omitir con tormenta, calor extremo, movilidad reducida sin alternativa confirmada o controles de seguridad insuficientes."
-    },
-    "links": [
-      {
-        "label": "Google Maps · Olumo Rock",
-        "url": "https://www.google.com/maps/search/?api=1&query=Olumo%20Rock%20Abeokuta%20Nigeria"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Olumo_Rock_Abk.2.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Olumo_Rock_Abk.2.jpg",
-        "credit": "F.Samuel95 · CC BY-SA 4.0",
-        "caption": "Afloramiento de Olumo Rock sobre Abeokuta."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Olumo_Rock_Shrine_in_Abeokuta.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Olumo_Rock_Shrine_in_Abeokuta.jpg",
-        "credit": "Akintoye Dekalu · CC BY-SA 4.0",
-        "caption": "Santuario dentro del conjunto de Olumo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Natural_look_of_OlumoRock.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Natural_look_of_OlumoRock.jpg",
-        "credit": "Adenekan19 · CC BY-SA 4.0",
-        "caption": "Pasajes de roca natural en Olumo."
-      }
-    ]
-  }
+    "credit": "F.Samuel95 · CC BY-SA 4.0",
+    "caption": "Afloramiento de Olumo Rock sobre Abeokuta."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Olumo_Rock_Shrine_in_Abeokuta.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Olumo_Rock_Shrine_in_Abeokuta.jpg",
+    "credit": "Akintoye Dekalu · CC BY-SA 4.0",
+    "caption": "Santuario dentro del conjunto de Olumo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Natural_look_of_OlumoRock.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Natural_look_of_OlumoRock.jpg",
+    "credit": "Adenekan19 · CC BY-SA 4.0",
+    "caption": "Pasajes de roca natural en Olumo."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Benin City · palacio del Oba y patrimonio edo",
+  "cat": "Cultura",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "1–2 noches",
+  "lat": 6.332072,
+  "lon": 5.6203246,
+  "desc": "Benin City conserva el palacio del Oba y el patrimonio artístico edo. MOWAA es un centro distinto y en 2026 limita el acceso público a cita previa.",
+  "credit": "Kelechukwu Ajoku · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palace_of_the_Oba_of_Benin.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Royal_Palace_of_the_Oba_of_Benin.jpg",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el lugar central para comprender el reino de Benín, el saqueo de 1897 y el debate sobre restitución.",
+   "see": "Benin City conserva el palacio del Oba y el patrimonio artístico edo. MOWAA es un centro distinto y en 2026 limita el acceso público a cita previa.",
+   "access": "El pin se corrige al palacio del Oba. Confirmar visita local y no fotografiar sin permiso; consultar MOWAA por separado antes de contar con su acceso.",
+   "when": "Día laborable, con cita confirmada si se incluye MOWAA; medio día o una noche.",
+   "skip": "Omitir interiores sin autorización o durante ceremonia; perro fuera. No presentar MOWAA como museo de entrada libre."
+  },
+  "links": [
+   {
+    "label": "MOWAA · acceso y programa actual",
+    "url": "https://wearemowaa.org/"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palace_of_the_Oba_of_Benin.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Palace_of_the_Oba_of_Benin.jpg",
+    "credit": "Kelechukwu Ajoku · CC BY-SA 4.0",
+    "caption": "Acceso al palacio real del Oba de Benín."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gateway_entrance_to_Oba_palace.3.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Gateway_entrance_to_Oba_palace.3.jpg",
+    "credit": "MediaMOF · CC BY-SA 4.0",
+    "caption": "Puerta exterior del recinto palaciego."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wooden_Pillar_of_a_Benin_Palace_02.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Wooden_Pillar_of_a_Benin_Palace_02.jpg",
+    "credit": "Adesolive · CC BY-SA 4.0",
+    "caption": "Pilar de madera asociado a la arquitectura palaciega."
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "name": "Ibadan · Mapo Hall y Cocoa House",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 7.376231,
+  "lon": 3.895901,
+  "desc": "Mapo Hall domina el casco histórico de Ibadan y ofrece contexto sobre la administración colonial; Cocoa House recuerda el auge regional del cacao.",
+  "credit": "Ayorinde Ogundele · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Convierte una escala urbana difusa en dos hitos concretos con lectura histórica y económica.",
+   "see": "Mapo Hall domina el casco histórico de Ibadan y ofrece contexto sobre la administración colonial; Cocoa House recuerda el auge regional del cacao.",
+   "access": "El pin se corrige a Mapo Hall mediante coordenada georreferenciada. Confirmar acceso y aparcamiento; Cocoa House es un edificio distinto en Dugbe.",
+   "when": "Día laborable y primera hora; una o dos horas.",
+   "skip": "Omitir interiores sin autorización o con actos oficiales; no detenerse en calzada congestionada para fotografiar."
+  },
+  "links": [
+   {
+    "label": "Google Maps · Mapo Hall",
+    "url": "https://www.google.com/maps/search/?api=1&query=Mapo%20Hall%20Ibadan%20Nigeria"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Mapo_Hall_in_ibadan_city.jpg",
+    "credit": "Ayorinde Ogundele · CC BY-SA 4.0",
+    "caption": "Vista aérea georreferenciada de Mapo Hall."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocoa_House,_Ibadan.JPG?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cocoa_House,_Ibadan.JPG",
+    "credit": "Ibadan234 · CC BY-SA 4.0",
+    "caption": "Cocoa House en el distrito de Dugbe."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Further_images_of_Ibadan_city_from_Mapo_Hall_12.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Further_images_of_Ibadan_city_from_Mapo_Hall_12.jpg",
+    "credit": "Kaizernify · dominio público",
+    "caption": "Ibadan visto desde Mapo Hall."
+   }
+  ]
+ }
 ]

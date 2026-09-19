@@ -1,402 +1,882 @@
 [
-  {
-    "n": 2,
-    "name": "Robertsport · surf de clase mundial",
-    "cat": "Costa · surf",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "2–3 días",
-    "lat": 6.7509063,
-    "lon": -11.367219,
-    "desc": "Robertsport ocupa una península entre el Atlántico y el lago Piso, con varias rompientes y un club local de surf. Las condiciones del mar cambian y no todas las olas sirven a principiantes.",
-    "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+ {
+  "n": 1,
+  "name": "Bo-Waterside · la frontera que no podemos cruzar",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.85,
+  "lon": -11.25,
+  "desc": "El paso fronterizo principal del oeste de Liberia, frente al sierraleonés de Jendema, con tráfico comercial denso de camiones y autobuses. Es la puerta natural desde Sierra Leona y la primera que se activaría si el problema del visado se resolviera. Y es exactamente donde está el problema: el visado electrónico liberiano, en vigor desde el 11 de marzo de 2025, es un «visado electrónico a la llegada» que SOLO se expide en el aeropuerto internacional de Monrovia. En una frontera terrestre no sirve: hay que presentarse con un visado estampado por una misión diplomática liberiana. Sin ese papel, este puesto es una pared. Con él, Liberia se abre entera. Ver el bloque de visado para el detalle y para la vía de solución.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_DFID_-_UK_Department_for_International_Development_-_Displaced_people_crossing_the_border_from_Ivory_Coast_to_Liberia.jpg?width=1600",
+    "credit": "DFID — UK Department for International Development · CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_DFID_-_UK_Department_for_International_Development_-_Displaced_people_crossing_the_border_from_Ivory_Coast_to_Liberia.jpg",
+    "caption": "Paso fronterizo liberiano. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Bo Waterside (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Bo_Waterside"
+   },
+   {
+    "label": "FCDO · Liberia, safety and security (carreteras, lluvias, controles)",
+    "url": "https://www.gov.uk/foreign-travel-advice/liberia/safety-and-security"
+   },
+   {
+    "label": "Visit Sierra Leone · entrada por tierra (documentación y vehículo)",
+    "url": "https://www.visitsierraleone.org/getting-to-sierra-leone-by-land/"
+   }
+  ],
+  "visit": {
+   "why": "Es el paso principal entre Liberia y Sierra Leona y el punto donde se decide si Sierra Leona entra o no en el viaje: merece estar en la guía aunque sea para descartarlo con conocimiento de causa. Cerró en 1990 con la invasión de Charles Taylor desde el lado sierraleonés y no volvió a abrir oficialmente hasta junio de 2007, y esa historia explica por qué todo aquí es reciente y provisional.",
+   "see": "Un pueblo-frontera de Grand Cape Mount sobre el río Mano, con cola de camiones y autobuses, cambistas, puestos y el paso hacia Jendema. No hay nada que ver en el sentido turístico: se ve un trámite.",
+   "access": "El pin es aproximado: marca la zona fronteriza, no un edificio concreto. Se llega por la carretera del oeste desde Monrovia, uno de los pocos ejes que el FCDO describe como asfaltado y en condición razonable (junto con el de Buchanan y el de la frontera guineana); el resto de pistas de la zona son de tierra y en lluvias empeoran mucho. No hay fuente abierta que publique los horarios oficiales del paso: hay que llegar con margen y en horario de oficina. Visado sierraleonés tramitado antes (no se da en frontera) y el liberiano en regla, certificado de fiebre amarilla, carnet de passage o permiso temporal de importación y seguro a terceros.",
+   "when": "Si solo se cruza, media jornada contando trámites en los dos lados; llegar a media mañana y nunca al atardecer. Fuera de la estación seca (diciembre-abril) la aproximación se complica y la espera se hace en barro.",
+   "skip": "Si Sierra Leona queda fuera de la ruta, no hay ninguna razón para acercarse: son cientos de kilómetros de ida y vuelta para ver una aduana. Tampoco es sitio para dormir ni para hacer noche en el coche."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 2,
+  "name": "Robertsport · surf de clase mundial",
+  "cat": "Costa · surf",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "2–3 días",
+  "lat": 6.7509063,
+  "lon": -11.367219,
+  "desc": "Robertsport ocupa una península entre el Atlántico y el lago Piso, con varias rompientes y un club local de surf. Las condiciones del mar cambian y no todas las olas sirven a principiantes.",
+  "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Robertsport_Beach,_Cape_Mount_County.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Robertsport_Beach,_Cape_Mount_County.jpg",
+  "icon": "costa · surf",
+  "color": "turquesa",
+  "dog_note": "",
+  "visit": {
+   "why": "Combina el mejor paisaje costero del país con una actividad gestionada localmente.",
+   "see": "Robertsport ocupa una península entre el Atlántico y el lago Piso, con varias rompientes y un club local de surf. Las condiciones del mar cambian y no todas las olas sirven a principiantes.",
+   "access": "El pin se ajusta a la ficha de Robertsport en Google Maps; acordar después playa, clase y alojamiento concretos con el club u operador. No dejar el vehículo aislado en la arena.",
+   "when": "Estación seca para carretera y mañana con previsión de oleaje adecuada.",
+   "skip": "Omitir el surf con corrientes, tormenta o sin guía local; convertirlo en visita costera si el mar no acompaña."
+  },
+  "links": [
+   {
+    "label": "Autoridad de Turismo · Grand Cape Mount",
+    "url": "https://enjoyliberia.travel/blog/post/robertsport-liberia-the-ultimate-surfing-guide/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Robertsport_Beach,_Cape_Mount_County.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Robertsport_Beach,_Cape_Mount_County.jpg",
-    "icon": "costa · surf",
-    "color": "turquesa",
-    "dog_note": "",
-    "visit": {
-      "why": "Combina el mejor paisaje costero del país con una actividad gestionada localmente.",
-      "see": "Robertsport ocupa una península entre el Atlántico y el lago Piso, con varias rompientes y un club local de surf. Las condiciones del mar cambian y no todas las olas sirven a principiantes.",
-      "access": "El pin se ajusta a la ficha de Robertsport en Google Maps; acordar después playa, clase y alojamiento concretos con el club u operador. No dejar el vehículo aislado en la arena.",
-      "when": "Estación seca para carretera y mañana con previsión de oleaje adecuada.",
-      "skip": "Omitir el surf con corrientes, tormenta o sin guía local; convertirlo en visita costera si el mar no acompaña."
-    },
-    "links": [
-      {
-        "label": "Autoridad de Turismo · Grand Cape Mount",
-        "url": "https://enjoyliberia.travel/blog/post/robertsport-liberia-the-ultimate-surfing-guide/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Robertsport_Beach,_Cape_Mount_County.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Robertsport_Beach,_Cape_Mount_County.jpg",
-        "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
-        "caption": "Playa de Robertsport en Grand Cape Mount."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Robertsport_Liberia.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Robertsport_Liberia.jpg",
-        "credit": "Erik Cleves Kristensen · CC BY 2.0",
-        "caption": "Península y asentamiento de Robertsport."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_057_-_The_bay_of_Robertsport_with_houses,_the_beach,_and_the_Atlantic_ocean_-_Robertsport,_Grand_Cape_Mount_County,_Liberia,_1977.tiff?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_057_-_The_bay_of_Robertsport_with_houses,_the_beach,_and_the_Atlantic_ocean_-_Robertsport,_Grand_Cape_Mount_County,_Liberia,_1977.tiff",
-        "credit": "Fred van der Kraaij · CC BY-SA 4.0",
-        "caption": "Bahía, casas y playa de Robertsport en 1977."
-      }
-    ]
-  },
-  {
-    "n": 3,
-    "name": "Lago Piso (sitio Ramsar)",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con precaución",
-    "time": "½–1 día",
-    "lat": 6.7362206,
-    "lon": -11.2637155,
-    "desc": "Lake Piso es la mayor laguna costera de Liberia y un humedal Ramsar junto a Robertsport. La navegación o pesca debe contratarse con gente local que conozca la bocana y las mareas.",
     "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+    "caption": "Playa de Robertsport en Grand Cape Mount."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Robertsport_Liberia.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Robertsport_Liberia.jpg",
+    "credit": "Erik Cleves Kristensen · CC BY 2.0",
+    "caption": "Península y asentamiento de Robertsport."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_057_-_The_bay_of_Robertsport_with_houses,_the_beach,_and_the_Atlantic_ocean_-_Robertsport,_Grand_Cape_Mount_County,_Liberia,_1977.tiff?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_057_-_The_bay_of_Robertsport_with_houses,_the_beach,_and_the_Atlantic_ocean_-_Robertsport,_Grand_Cape_Mount_County,_Liberia,_1977.tiff",
+    "credit": "Fred van der Kraaij · CC BY-SA 4.0",
+    "caption": "Bahía, casas y playa de Robertsport en 1977."
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "name": "Lago Piso (sitio Ramsar)",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con precaución",
+  "time": "½–1 día",
+  "lat": 6.7362206,
+  "lon": -11.2637155,
+  "desc": "Lake Piso es la mayor laguna costera de Liberia y un humedal Ramsar junto a Robertsport. La navegación o pesca debe contratarse con gente local que conozca la bocana y las mareas.",
+  "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Piso.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Lake_Piso.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Aporta manglar, aves y paisaje lagunar en contraste con el océano del lado opuesto de la península.",
+   "see": "Lake Piso es la mayor laguna costera de Liberia y un humedal Ramsar junto a Robertsport. La navegación o pesca debe contratarse con gente local que conozca la bocana y las mareas.",
+   "access": "El pin se ajusta a Lago Piso en Google Maps y representa el agua, no un embarcadero. Elegir con el operador un punto seguro, chalecos y hora de regreso.",
+   "when": "Amanecer o última hora, estación seca y marea confirmada.",
+   "skip": "Omitir con viento, tormenta o embarcación sin chalecos; no conducir siguiendo el pin hacia la orilla sin una pista confirmada."
+  },
+  "links": [
+   {
+    "label": "Ramsar · Lake Piso",
+    "url": "https://rsis.ramsar.org/ris/1306"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Piso.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Lake_Piso.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Aporta manglar, aves y paisaje lagunar en contraste con el océano del lado opuesto de la península.",
-      "see": "Lake Piso es la mayor laguna costera de Liberia y un humedal Ramsar junto a Robertsport. La navegación o pesca debe contratarse con gente local que conozca la bocana y las mareas.",
-      "access": "El pin se ajusta a Lago Piso en Google Maps y representa el agua, no un embarcadero. Elegir con el operador un punto seguro, chalecos y hora de regreso.",
-      "when": "Amanecer o última hora, estación seca y marea confirmada.",
-      "skip": "Omitir con viento, tormenta o embarcación sin chalecos; no conducir siguiendo el pin hacia la orilla sin una pista confirmada."
-    },
-    "links": [
-      {
-        "label": "Ramsar · Lake Piso",
-        "url": "https://rsis.ramsar.org/ris/1306"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Piso.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Lake_Piso.jpg",
-        "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
-        "caption": "Vista abierta del lago Piso."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_view_of_Lake_Piso,_Bomi_County.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Lake_Piso,_Bomi_County.jpg",
-        "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
-        "caption": "Orilla y vegetación del humedal."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Piso_Drone_Shot.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Lake_Piso_Drone_Shot.jpg",
-        "credit": "Bwoart · CC BY 4.0",
-        "caption": "Vista aérea de la laguna y su escala."
-      }
-    ]
+    "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+    "caption": "Vista abierta del lago Piso."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_view_of_Lake_Piso,_Bomi_County.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Lake_Piso,_Bomi_County.jpg",
+    "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+    "caption": "Orilla y vegetación del humedal."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Piso_Drone_Shot.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Piso_Drone_Shot.jpg",
+    "credit": "Bwoart · CC BY 4.0",
+    "caption": "Vista aérea de la laguna y su escala."
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "name": "Monrovia · la capital más lluviosa del mundo",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2–3 noches",
+  "lat": 6.3156068,
+  "lon": -10.8073698,
+  "desc": "Capital sobre el cabo Mesurado, con 1,76 millones de habitantes en el censo de 2022 y un área metropolitana de más de 2,2 millones: un tercio del país entero vive aquí. Ostenta un récord que hay que tener muy presente para planificar: es la CAPITAL MÁS LLUVIOSA DEL MUNDO, con una media de 4.600 mm al año. Barrios con carácter propio: Mamba Point, el barrio diplomático sobre el mar; Sinkor, el centro moderno de hoteles y negocios; Waterside, el mercado grande frente al puerto natural; y West Point, una península densísima de bajos ingresos que es también uno de los símbolos urbanos del país. Para ver: el Museo Nacional de Liberia, el mercado de Waterside y, sobre todo, la ruina del Hotel Ducor, el hotel de lujo de los años sesenta encaramado sobre el cabo, hoy esqueleto de hormigón con la mejor vista de la ciudad. Única base logística seria: puerto franco, bancos, talleres, hospitales y —lo más importante para nosotros— todas las embajadas.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Monrovia%2C_Liberia_-_panoramio_%2813%29.jpg?width=1600",
+    "credit": "blk24ga · CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Monrovia%2C_Liberia_-_panoramio_%2813%29.jpg",
+    "caption": "Monrovia."
+   }
+  ],
+  "links": [
+   {
+    "label": "Monrovia (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Monrovia"
+   },
+   {
+    "label": "Enjoy Liberia · condado de Montserrado (oficial de turismo)",
+    "url": "https://enjoyliberia.travel/pages/montserrado-county/"
+   },
+   {
+    "label": "MAEC · Recomendaciones de viaje a Liberia",
+    "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Liberia"
+   }
+  ],
+  "visit": {
+   "why": "Es la base logística obligada del país: puerto, embajadas para los visados del siguiente tramo, bancos, talleres y el único mercado serio de repuestos y suministros. Además concentra un tercio de la población del país, así que todo lo que no se resuelva aquí no se resuelve.",
+   "see": "Broad Street y Capitol Hill, el Museo Nacional de Liberia, el Waterside Market, la isla de Providence —donde desembarcaron los primeros libertos y hoy hay museo—, el barrio diplomático de Mamba Point y las playas urbanas tipo Tropicana. West Point, el barrio sobre la lengua de arena, se ve desde fuera y no se entra con cámara.",
+   "access": "Llegada asfaltada desde el norte (Gbarnga-Ganta) y desde Buchanan; dentro de la ciudad el tráfico es denso y los sentidos cambian según la hora. El aeropuerto Roberts queda a unos 56 km por carretera asfaltada. El FCDO insiste en no conducir de noche y en pedir consejo local antes de salir por carretera de Monrovia; el MAEC clasifica Monrovia como zona de riesgo medio y recomienda no circular de noche ni en solitario.",
+   "when": "Dos o tres noches para trámites y descanso. Conviene evitar el corazón de la estación lluviosa: con una media de 4.600 mm anuales es la capital más lluviosa del mundo, y entre junio y septiembre la ciudad se inunda por tramos.",
+   "skip": "Si solo se busca playa, no compensa: el FCDO avisa de resacas y corrientes peligrosas en las playas del país. Y si los visados ya están resueltos y se viaja en plena lluvia, se puede reducir a una noche de logística."
   },
-  {
-    "n": 4,
-    "name": "Museo Nacional de Liberia · Monrovia",
-    "cat": "Ciudad · servicios",
-    "prio": "Alta",
-    "dog": "permitido con condiciones",
-    "time": "2–3 noches",
-    "lat": 6.3167718,
-    "lon": -10.8039201,
-    "desc": "El Museo Nacional de Liberia ocupa el antiguo Legislative Building en Broad Street. Ofrece una visita concreta para entender la república, sus presidentes y la cultura material del país.",
-    "credit": "Spc. Caitlyn Byrne · dominio público",
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg?width=1200",
-    "source": "https://commons.wikimedia.org/wiki/File:JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg",
-    "icon": "ciudad · servicios",
-    "color": "azul",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la mejor introducción histórica de Monrovia y evita presentar toda la capital como un único PDI difuso.",
-      "see": "El Museo Nacional de Liberia ocupa el antiguo Legislative Building en Broad Street. Ofrece una visita concreta para entender la república, sus presidentes y la cultura material del país.",
-      "access": "El pin se mueve a la ficha exacta Museo nacional de Liberia de Google Maps. Confirmar apertura el mismo día y aparcar con vigilancia en el centro.",
-      "when": "Mañana de día laborable; reservar una o dos horas y combinar gestiones por la zona.",
-      "skip": "Omitir con museo cerrado, manifestaciones o imposibilidad de estacionar con seguridad."
-    },
-    "links": [
-      {
-        "label": "Liberia Tourism · sitios históricos",
-        "url": "https://enjoyliberia.travel/blog/post/a-guide-for-activities-shopping-and-tours-in-liber/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg",
-        "credit": "Spc. Caitlyn Byrne · dominio público",
-        "caption": "Sala y piezas del Museo Nacional de Liberia."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-233.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-233.jpg",
-        "credit": "Spc. Caitlyn Byrne · dominio público",
-        "caption": "Exposición interior distribuida en las plantas del museo."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Tubman's_limousine.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:President_Tubman's_limousine.jpg",
-        "credit": "Jforest59 · CC BY-SA 4.0",
-        "caption": "Automóvil presidencial conservado en el Museo Nacional."
-      }
-    ]
+  "_restaurado": true
+ },
+ {
+  "n": 5,
+  "name": "Providence Island · donde empezó Liberia",
+  "cat": "Patrimonio",
+  "prio": "Alta",
+  "dog": "no confirmado",
+  "time": "2–3 h",
+  "lat": 6.33,
+  "lon": -10.795,
+  "desc": "Providence Island es el lugar de desembarco de los colonos afroamericanos en 1822 y conserva monumentos sobre la fundación y los conflictos posteriores. La visita se coordina, no es un parque de acceso libre garantizado.",
+  "credit": "Jforest59 · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Providence_Island.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Providence_Island.jpg",
+  "icon": "patrimonio",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Permite abordar las tensiones entre retorno, colonización, pueblos locales y nacimiento de Liberia en el lugar físico donde confluyen.",
+   "see": "Providence Island es el lugar de desembarco de los colonos afroamericanos en 1822 y conserva monumentos sobre la fundación y los conflictos posteriores. La visita se coordina, no es un parque de acceso libre garantizado.",
+   "access": "Google Maps no ofrece una ficha inequívoca; se conserva el pin cartográfico de la isla junto al Gabriel Tucker Bridge. Organizar guía con Turismo o Cultura antes de ir.",
+   "when": "Mañana de día laborable y con visita confirmada.",
+   "skip": "Omitir sin guía, con recinto cerrado o si el entorno no permite estacionar de forma segura."
   },
-  {
-    "n": 5,
-    "name": "Providence Island · donde empezó Liberia",
-    "cat": "Patrimonio",
-    "prio": "Alta",
-    "dog": "no confirmado",
-    "time": "2–3 h",
-    "lat": 6.33,
-    "lon": -10.795,
-    "desc": "Providence Island es el lugar de desembarco de los colonos afroamericanos en 1822 y conserva monumentos sobre la fundación y los conflictos posteriores. La visita se coordina, no es un parque de acceso libre garantizado.",
-    "credit": "Jforest59 · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Autoridad de Turismo · Providence Island",
+    "url": "https://lnta.gov.lr/tourism-investment/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Providence_Island.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Providence_Island.jpg",
-    "icon": "patrimonio",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Permite abordar las tensiones entre retorno, colonización, pueblos locales y nacimiento de Liberia en el lugar físico donde confluyen.",
-      "see": "Providence Island es el lugar de desembarco de los colonos afroamericanos en 1822 y conserva monumentos sobre la fundación y los conflictos posteriores. La visita se coordina, no es un parque de acceso libre garantizado.",
-      "access": "Google Maps no ofrece una ficha inequívoca; se conserva el pin cartográfico de la isla junto al Gabriel Tucker Bridge. Organizar guía con Turismo o Cultura antes de ir.",
-      "when": "Mañana de día laborable y con visita confirmada.",
-      "skip": "Omitir sin guía, con recinto cerrado o si el entorno no permite estacionar de forma segura."
-    },
-    "links": [
-      {
-        "label": "Autoridad de Turismo · Providence Island",
-        "url": "https://lnta.gov.lr/tourism-investment/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Providence_Island.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Providence_Island.jpg",
-        "credit": "Jforest59 · CC BY-SA 4.0",
-        "caption": "Lado oriental de Providence Island desde el puente."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Providence_Island_monument.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Providence_Island_monument.jpg",
-        "credit": "Jforest59 · CC BY-SA 4.0",
-        "caption": "Monumento del árbol de armas en la isla."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_022_-_A_close_up_of_Providence_Island_in_full,_in_the_Mesurado_river_-_Monrovia,_Mamba_Point,_Montserrado,_Liberia,_1975.tif?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_022_-_A_close_up_of_Providence_Island_in_full,_in_the_Mesurado_river_-_Monrovia,_Mamba_Point,_Montserrado,_Liberia,_1975.tif",
-        "credit": "Fred van der Kraaij · CC BY-SA 4.0",
-        "caption": "Providence Island completa en el río Mesurado en 1975."
-      }
-    ]
+    "credit": "Jforest59 · CC BY-SA 4.0",
+    "caption": "Lado oriental de Providence Island desde el puente."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Providence_Island_monument.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Providence_Island_monument.jpg",
+    "credit": "Jforest59 · CC BY-SA 4.0",
+    "caption": "Monumento del árbol de armas en la isla."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_022_-_A_close_up_of_Providence_Island_in_full,_in_the_Mesurado_river_-_Monrovia,_Mamba_Point,_Montserrado,_Liberia,_1975.tif?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_022_-_A_close_up_of_Providence_Island_in_full,_in_the_Mesurado_river_-_Monrovia,_Mamba_Point,_Montserrado,_Liberia,_1975.tif",
+    "credit": "Fred van der Kraaij · CC BY-SA 4.0",
+    "caption": "Providence Island completa en el río Mesurado en 1975."
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "name": "Harbel · la mayor plantación de caucho del mundo",
+  "cat": "Cultura",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.246604,
+  "lon": -10.3554035,
+  "desc": "A una hora de Monrovia, camino del aeropuerto Roberts, empieza una cosa difícil de imaginar hasta que se atraviesa: un millón de acres —unas 400.000 hectáreas— de hevea plantada en filas perfectas, la mayor explotación continua de caucho natural del planeta. Firestone la obtuvo del gobierno liberiano en 1926 con un arrendamiento a 99 años por seis centavos el acre, en una operación que hipotecó literalmente la economía del país durante décadas; en 2005 se renegoció a 37 años y cincuenta centavos. El nombre, Harbel, es la contracción de Harvey y Bell, el fundador de Firestone y su mujer. La carretera la cruza durante kilómetros: hileras infinitas de árboles sangrados con su cuenco, poblados de trabajadores, y una historia laboral muy dura que ha llegado a los tribunales internacionales. No es un «sitio turístico»; es una de las cosas que mejor explican Liberia. No fotografiar instalaciones ni trabajadores sin permiso.",
+  "icon": "cultura",
+  "color": "morado",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_13_-_009_-_The_Firestone_rubber_plantation._A_rubber_tapper_with_buckets_containing_fresh_tapped_rubber_-_Harbel%2C_Montserrado_county%2C_Liberia_-_1976.jpg?width=1600",
+    "credit": "Fred van der Kraaij · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_13_-_009_-_The_Firestone_rubber_plantation._A_rubber_tapper_with_buckets_containing_fresh_tapped_rubber_-_Harbel%2C_Montserrado_county%2C_Liberia_-_1976.jpg",
+    "caption": "Sangrado del caucho en la plantación de Harbel."
+   }
+  ],
+  "links": [
+   {
+    "label": "Harbel, Liberia (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Harbel,_Liberia"
+   },
+   {
+    "label": "Firestone Natural Rubber Company (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Firestone_Natural_Rubber_Company"
+   },
+   {
+    "label": "Roberts International Airport (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Roberts_International_Airport"
+   }
+  ],
+  "visit": {
+   "why": "Porque explica Liberia mejor que un museo: en 1926 el gobierno arrendó a Firestone un millón de acres durante 99 años a seis centavos el acre, y de ahí salió la mayor plantación de caucho del mundo, todavía operada por la filial de Bridgestone. Se atraviesa sin querer camino del aeropuerto y conviene atravesarla sabiendo qué se mira.",
+   "see": "Kilómetros de hevea plantada en hilera, con los cuencos de látex atados al tronco y las sangrías en espiral; campamentos de trabajadores, hospital y escuelas de la compañía, y el pueblo de Harbel —unos 25.000 habitantes en 2008— nacido como ciudad-empresa bautizada por Harvey Firestone y su mujer Idabelle.",
+   "access": "Asfalto: la carretera de Monrovia al aeropuerto Roberts atraviesa la concesión, y el aeropuerto queda a poco más de 3 km del pueblo. No hace falta 4x4. Es propiedad privada en explotación: se ve perfectamente desde la carretera y desde las pistas de servicio, pero entrar a instalaciones, hospital o campamentos exige permiso de la empresa y no hay visita pública publicada. El pin es aproximado, marca el pueblo y no un punto concreto de la plantación.",
+   "when": "Una o dos horas, de paso hacia o desde el aeropuerto. Mejor a primera hora de la mañana, que es cuando se sangra el árbol y se ve gente trabajando; en cualquier época del año, porque no depende de la lluvia.",
+   "skip": "Si no interesa la historia industrial, el paisaje es monótono a los veinte minutos. Y conviene no fotografiar trabajadores, básculas ni instalaciones sin permiso: es una concesión privada con guardas y con un historial de litigios laborales muy vivo."
   },
-  {
-    "n": 9,
-    "name": "Parque Nacional de Sapo",
-    "cat": "Naturaleza",
-    "prio": "Alta",
-    "dog": "prohibido",
-    "time": "3–5 días",
-    "lat": 5.4603195,
-    "lon": -8.4403573,
-    "desc": "Sapo protege una enorme extensión de selva primaria en Sinoe. La oferta turística sigue siendo remota y debe confirmarse con la autoridad o un operador; el pin no es una puerta de carretera.",
-    "credit": "Liberia Tourism · derechos en la fuente",
+  "_restaurado": true
+ },
+ {
+  "n": 7,
+  "name": "Buchanan y las playas de Grand Bassa",
+  "cat": "Costa",
+  "prio": "Media",
+  "dog": "permitido",
+  "time": "1–2 días",
+  "lat": 5.887247,
+  "lon": -10.0303723,
+  "desc": "A unos 110 km al sureste de Monrovia, el tercer puerto del país y el punto donde termina el ferrocarril minero de 250 km que baja el hierro desde Yekepa, en los montes Nimba — una de las pocas líneas férreas en funcionamiento de África occidental. Fundada en 1832 por cuáqueros negros como Port Cresson y refundada como Bassa Cove tras el conflicto de 1835 con los bassa, se libró relativamente de la destrucción de la primera guerra civil y sirvió de refugio. Lo que interesa al viajero está fuera del puerto: playas aisladas y lagunas a lo largo de toda la costa de Grand Bassa, prácticamente vacías, con cocoteros y pueblos de pescadores kru. Es la última parada con servicios reales antes de meterse en el sureste, que es otro mundo. Aquí se reposta a fondo y se cargan provisiones.",
+  "icon": "costa",
+  "color": "turquesa",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ebola_treatment_unit_in_Buchanan_opens_141221-A-MK740-045.jpg?width=1600",
+    "credit": "Sgt. Ange Desinor · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Ebola_treatment_unit_in_Buchanan_opens_141221-A-MK740-045.jpg",
+    "caption": "Buchanan. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Buchanan, Liberia (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Buchanan,_Liberia"
+   },
+   {
+    "label": "Enjoy Liberia · condado de Grand Bassa (oficial de turismo)",
+    "url": "https://enjoyliberia.travel/pages/grand-bassa-county/"
+   },
+   {
+    "label": "Transporte en Liberia · ferrocarril Buchanan-Yekepa (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Transport_in_Liberia"
+   }
+  ],
+  "visit": {
+   "why": "Es la escapada costera fácil desde Monrovia —unas dos horas por asfalto— y el único sitio del país donde se ve funcionar el ferrocarril minero: 243 km de vía que ArcelorMittal reconstruyó en 2011 sobre el trazado de LAMCO para bajar el hierro desde Yekepa. Ciudad tranquila, buen sitio para descomprimir después de la capital.",
+   "see": "El puerto —el segundo más activo del país, con el 95% de su carga en mineral de hierro—, el final de la línea férrea, playas y lagunas aisladas al norte y al sur, la desembocadura del río St. John y, al lado, Edina, con casas, iglesias y monumentos de estilo decimonónico de la colonización americo-liberiana.",
+   "access": "Unos 110 km al sureste de Monrovia; el FCDO cita la ruta a Buchanan entre las pocas asfaltadas y en condición razonable, así que hasta el pueblo no hace falta 4x4. Sí lo hace falta para las pistas de arena que llevan a las playas apartadas y al Kokon Ecolodge de Bassa Point. Hay hoteles de tamaño real en la ciudad (Hotel Buchanan, Crowne, Spark) y guesthouses baratas.",
+   "when": "Dos noches, encajadas justo después de Monrovia. Mejor en estación seca; entre mayo y noviembre la lluvia convierte las pistas de playa en un problema y el mar se pone feo.",
+   "skip": "No es sitio para bañarse a la ligera: el FCDO avisa de corrientes de resaca y aconseja preguntar en el sitio antes de meterse. Si el plan es enfilar directamente hacia el interior o hacia el sureste, cae sin drama: es una parada de placer, no de logística."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 8,
+  "name": "Greenville (Sinoe) · la puerta de Sapo",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 5.0153677,
+  "lon": -9.0377612,
+  "desc": "Capital del condado de Sinoe, a unos 150 km al sureste de Monrovia en línea recta pero mucho más por carretera, sobre una laguna junto a la desembocadura del río Sinoe. Unos 16.000 habitantes, tercer puerto del país con dos muelles y seis metros de calado, y una economía que gira alrededor de la madera. La fundó hacia 1838 la Mississippi Colonization Society y lleva el nombre de un plantador de Misisipi que financió el traslado de sus antiguos esclavos; quedó destruida en la guerra civil y se reconstruyó después. El dato que la define: 185 días de lluvia al año. Es la base logística obligatoria para Sapo —el último sitio con combustible, provisiones y un teléfono— y el punto donde hay que tener resuelta la autorización de la Forestry Development Authority antes de seguir.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Greenville_Ebola_lab_visit_150121-A-QE750-028.jpg?width=1600",
+    "credit": "Sgt. 1st Class Brien Vorhees · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Greenville_Ebola_lab_visit_150121-A-QE750-028.jpg",
+    "caption": "Greenville, en el condado de Sinoe. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Greenville, Liberia (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Greenville,_Liberia"
+   },
+   {
+    "label": "Sapo National Park (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Sapo_National_Park"
+   },
+   {
+    "label": "Enjoy Liberia · condado de Sinoe y Sapo (oficial de turismo)",
+    "url": "https://enjoyliberia.travel/pages/sinoe-county/"
+   }
+  ],
+  "visit": {
+   "why": "Es la única base realista para entrar en el Parque Nacional de Sapo, 1.804 km² que son la segunda mayor masa de selva tropical primaria de África Occidental después de Taï, en Costa de Marfil. Sin Sapo, Greenville no justifica el desvío; con Sapo, es la razón de bajar al sureste.",
+   "see": "En el pueblo, un puerto maderero con dos muelles —el tercero del país—, la laguna, la playa y el pulso de una ciudad reconstruida desde cero tras la guerra. En el parque, selva cerrada con unas 125 especies de mamíferos y 590 de aves: chimpancé occidental, elefante de bosque, mono Diana, siete especies de duiker y el hipopótamo pigmeo, del que quedan menos de 3.000 en libertad y para el que Sapo es la mejor baza que existe.",
+   "access": "La coordenada corresponde al pueblo, no al parque. Por carretera desde Monrovia el trazado es largo y mayoritariamente sin asfaltar: 4x4 obligatorio, y entre mayo y noviembre el FCDO y el MAEC coinciden en que muchos tramos se vuelven impracticables. La entrada a Sapo exige autorización de la Forestry Development Authority (FDA); dentro no hay carreteras ni senderos acondicionados, se camina, y el alojamiento es el Sapo Ecolodge o campamento organizado con la FDA, que también facilita guías y las bajadas en canoa por el río Sinoe. El perro no pinta nada ahí dentro: es parque nacional con hipopótamo pigmeo y chimpancés, no hay norma publicada sobre animales de compañía, y hay que dar por hecho que no pasa la barrera y que alguien se queda con él en Greenville o en el ecolodge.",
+   "when": "Mínimo cuatro o cinco días contando la ida y la vuelta desde Monrovia, y solo en estación seca (diciembre-abril). Las caminatas salen de madrugada, que es cuando hay fauna.",
+   "skip": "En estación lluviosa, directamente. Y si no se ha gestionado el permiso de la FDA con semanas de antelación: sin permiso y sin guía no se entra, y el viaje se queda en un pueblo portuario sin más."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 9,
+  "name": "Parque Nacional de Sapo",
+  "cat": "Naturaleza",
+  "prio": "Alta",
+  "dog": "prohibido",
+  "time": "3–5 días",
+  "lat": 5.4603195,
+  "lon": -8.4403573,
+  "desc": "Sapo protege una enorme extensión de selva primaria en Sinoe. La oferta turística sigue siendo remota y debe confirmarse con la autoridad o un operador; el pin no es una puerta de carretera.",
+  "credit": "Liberia Tourism · derechos en la fuente",
+  "img": "https://b-cdn.springnest.com/media/img/15n/dji_01664200e09.jpg?crop=1600%2C640%2C0%2C353&width=1500",
+  "source": "https://enjoyliberia.travel/pages/sapo-national-park/",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el principal parque de selva de Liberia y un refugio clave para hipopótamo pigmeo, elefante de bosque y chimpancé occidental.",
+   "see": "Sapo protege una enorme extensión de selva primaria en Sinoe. La oferta turística sigue siendo remota y debe confirmarse con la autoridad o un operador; el pin no es una puerta de carretera.",
+   "access": "El pin se corrige a la ficha Parque nacional Sapo de Google Maps, más de 40 km al este del anterior; sigue siendo una referencia de área. No salir sin permiso, guía, puerta y campamento escritos.",
+   "when": "Estación seca, varios días, 4x4 preparado y autonomía completa.",
+   "skip": "Descartarlo si la autoridad no confirma una visita operativa, con pista inundada o si se esperan avistamientos garantizados; el perro no entra."
+  },
+  "links": [
+   {
+    "label": "Liberia Tourism · Sapo National Park",
+    "url": "https://enjoyliberia.travel/pages/sapo-national-park/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://b-cdn.springnest.com/media/img/15n/dji_01664200e09.jpg?crop=1600%2C640%2C0%2C353&width=1500",
     "source": "https://enjoyliberia.travel/pages/sapo-national-park/",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el principal parque de selva de Liberia y un refugio clave para hipopótamo pigmeo, elefante de bosque y chimpancé occidental.",
-      "see": "Sapo protege una enorme extensión de selva primaria en Sinoe. La oferta turística sigue siendo remota y debe confirmarse con la autoridad o un operador; el pin no es una puerta de carretera.",
-      "access": "El pin se corrige a la ficha Parque nacional Sapo de Google Maps, más de 40 km al este del anterior; sigue siendo una referencia de área. No salir sin permiso, guía, puerta y campamento escritos.",
-      "when": "Estación seca, varios días, 4x4 preparado y autonomía completa.",
-      "skip": "Descartarlo si la autoridad no confirma una visita operativa, con pista inundada o si se esperan avistamientos garantizados; el perro no entra."
-    },
-    "links": [
-      {
-        "label": "Liberia Tourism · Sapo National Park",
-        "url": "https://enjoyliberia.travel/pages/sapo-national-park/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/dji_01664200e09.jpg?crop=1600%2C640%2C0%2C353&width=1500",
-        "source": "https://enjoyliberia.travel/pages/sapo-national-park/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Canopia continua del Parque Nacional de Sapo."
-      },
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/dscf3146d7d45e7.jpg?height=916",
-        "source": "https://enjoyliberia.travel/pages/sapo-national-park/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Interior de selva documentado en la ficha oficial de Sapo."
-      },
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/dscf3097a8b139c.jpg?width=800",
-        "source": "https://enjoyliberia.travel/pages/sapo-national-park/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Actividad guiada dentro del paisaje del parque."
-      }
-    ]
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Canopia continua del Parque Nacional de Sapo."
+   },
+   {
+    "img": "https://b-cdn.springnest.com/media/img/15n/dscf3146d7d45e7.jpg?height=916",
+    "source": "https://enjoyliberia.travel/pages/sapo-national-park/",
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Interior de selva documentado en la ficha oficial de Sapo."
+   },
+   {
+    "img": "https://b-cdn.springnest.com/media/img/15n/dscf3097a8b139c.jpg?width=800",
+    "source": "https://enjoyliberia.travel/pages/sapo-national-park/",
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Actividad guiada dentro del paisaje del parque."
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "name": "Harper y Cabo Palmas · las mansiones en ruinas",
+  "cat": "Patrimonio",
+  "prio": "Alta",
+  "dog": "permitido",
+  "time": "2 días",
+  "lat": 4.3759676,
+  "lon": -7.7009416,
+  "desc": "Harper conserva el trazado y algunos edificios de la antigua República de Maryland junto a Cabo Palmas. Su interés está en recorrer la ciudad y el faro con contexto, no en prometer mansiones visitables.",
+  "credit": "Fred van der Kraaij · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_15_-_37_-_The_lighthouse_Cape_Palmas_Light_on_a_peninsula_in_the_Atlantic_Ocean_-_Harper_city,_Maryland_County,_Liberia_-_1979.tif?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_15_-_37_-_The_lighthouse_Cape_Palmas_Light_on_a_peninsula_in_the_Atlantic_Ocean_-_Harper_city,_Maryland_County,_Liberia_-_1979.tif",
+  "icon": "patrimonio",
+  "color": "marron",
+  "dog_note": "",
+  "visit": {
+   "why": "Es el final cultural y costero más singular antes de Costa de Marfil.",
+   "see": "Harper conserva el trazado y algunos edificios de la antigua República de Maryland junto a Cabo Palmas. Su interés está en recorrer la ciudad y el faro con contexto, no en prometer mansiones visitables.",
+   "access": "El pin se ajusta a Harper en Google Maps porque las huellas están dispersas. Contratar guía local, preguntar por accesos y no entrar en ruinas inestables.",
+   "when": "Estación seca, luz de mañana y al menos una noche en la ciudad.",
+   "skip": "Omitir con carretera cortada, sin alojamiento seguro o si solo se dispone de una parada breve."
   },
-  {
-    "n": 10,
-    "name": "Harper y Cabo Palmas · las mansiones en ruinas",
-    "cat": "Patrimonio",
-    "prio": "Alta",
-    "dog": "permitido",
-    "time": "2 días",
-    "lat": 4.3759676,
-    "lon": -7.7009416,
-    "desc": "Harper conserva el trazado y algunos edificios de la antigua República de Maryland junto a Cabo Palmas. Su interés está en recorrer la ciudad y el faro con contexto, no en prometer mansiones visitables.",
-    "credit": "Fred van der Kraaij · CC BY-SA 4.0",
+  "links": [
+   {
+    "label": "Liberia Tourism · destinos y patrimonio",
+    "url": "https://visitliberia.com/things-to-do-in-liberia/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_15_-_37_-_The_lighthouse_Cape_Palmas_Light_on_a_peninsula_in_the_Atlantic_Ocean_-_Harper_city,_Maryland_County,_Liberia_-_1979.tif?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_15_-_37_-_The_lighthouse_Cape_Palmas_Light_on_a_peninsula_in_the_Atlantic_Ocean_-_Harper_city,_Maryland_County,_Liberia_-_1979.tif",
-    "icon": "patrimonio",
-    "color": "marron",
-    "dog_note": "",
-    "visit": {
-      "why": "Es el final cultural y costero más singular antes de Costa de Marfil.",
-      "see": "Harper conserva el trazado y algunos edificios de la antigua República de Maryland junto a Cabo Palmas. Su interés está en recorrer la ciudad y el faro con contexto, no en prometer mansiones visitables.",
-      "access": "El pin se ajusta a Harper en Google Maps porque las huellas están dispersas. Contratar guía local, preguntar por accesos y no entrar en ruinas inestables.",
-      "when": "Estación seca, luz de mañana y al menos una noche en la ciudad.",
-      "skip": "Omitir con carretera cortada, sin alojamiento seguro o si solo se dispone de una parada breve."
-    },
-    "links": [
-      {
-        "label": "Liberia Tourism · destinos y patrimonio",
-        "url": "https://visitliberia.com/things-to-do-in-liberia/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_15_-_37_-_The_lighthouse_Cape_Palmas_Light_on_a_peninsula_in_the_Atlantic_Ocean_-_Harper_city,_Maryland_County,_Liberia_-_1979.tif?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_15_-_37_-_The_lighthouse_Cape_Palmas_Light_on_a_peninsula_in_the_Atlantic_Ocean_-_Harper_city,_Maryland_County,_Liberia_-_1979.tif",
-        "credit": "Fred van der Kraaij · CC BY-SA 4.0",
-        "caption": "Faro de Cabo Palmas y pista de acceso en 1979."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/HEARD(1898)_50_Church_of_Harper,_Cape_Palmas.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:HEARD(1898)_50_Church_of_Harper,_Cape_Palmas.jpg",
-        "credit": "William H. Heard · dominio público",
-        "caption": "Iglesia histórica de Harper a finales del siglo XIX."
-      },
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Palmas_etch.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Cape_Palmas_etch.jpg",
-        "credit": "Wagner & C. · dominio público",
-        "caption": "Vista histórica de Cabo Palmas en 1853."
-      }
-    ]
+    "credit": "Fred van der Kraaij · CC BY-SA 4.0",
+    "caption": "Faro de Cabo Palmas y pista de acceso en 1979."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/HEARD(1898)_50_Church_of_Harper,_Cape_Palmas.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:HEARD(1898)_50_Church_of_Harper,_Cape_Palmas.jpg",
+    "credit": "William H. Heard · dominio público",
+    "caption": "Iglesia histórica de Harper a finales del siglo XIX."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Palmas_etch.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Cape_Palmas_etch.jpg",
+    "credit": "Wagner & C. · dominio público",
+    "caption": "Vista histórica de Cabo Palmas en 1853."
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "name": "Zwedru (Grand Gedeh)",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 6.064944,
+  "lon": -8.1393179,
+  "desc": "Capital del condado de Grand Gedeh, a 435 km de Monrovia, cerca del río Cavalla y de la frontera marfileña: unos 24.000 habitantes krahn, mandingo, grebo, fulani, gio y mano, y el principal nudo de transporte del interior sureste. Es la ciudad natal de Samuel Doe, el sargento que dio el golpe de Estado de 1980 y puso fin a 133 años de dominio américo-liberiano, y que invirtió aquí en infraestructuras durante su mandato. Tiene aeródromo de tierra, tres emisoras locales, cobertura móvil de Lonestar y Orange, y un campus universitario. Para el viajero es la parada obligada entre Harper y Ganta: la carretera Zwedru-Ganta son 238 km y es el eje principal del interior sureste.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Zwedru%2C_Liberia_-_panoramio.jpg?width=1600",
+    "credit": "Mr. R. Sobah · CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zwedru%2C_Liberia_-_panoramio.jpg",
+    "caption": "Zwedru."
+   }
+  ],
+  "links": [
+   {
+    "label": "Zwedru (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Zwedru"
+   },
+   {
+    "label": "Enjoy Liberia · condado de Grand Gedeh (oficial de turismo)",
+    "url": "https://enjoyliberia.travel/pages/grand-gedeh-county/"
+   },
+   {
+    "label": "MAEC · Recomendaciones de viaje a Liberia",
+    "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Liberia"
+   }
+  ],
+  "visit": {
+   "why": "Es el nudo del sureste interior y el mayor asentamiento al este del río Cestos: donde se reposta, se duerme y se repara antes de seguir hacia Costa de Marfil o bajar hacia Maryland. Como destino no se sostiene; como eslabón de la ruta, es imprescindible.",
+   "see": "El mercado central, que mezcla producto liberiano, guineano y marfileño y es lo más vivo del pueblo; la mansión que Samuel Doe —nacido aquí— mandó construir y en la que nunca llegó a vivir; y el bosque de Grebo alrededor, con endemismos vegetales y chimpancé occidental en peligro crítico.",
+   "access": "435 km desde Monrovia, con dos carreteras principales que se cruzan unos 13 km al suroeste de la ciudad. El grueso del recorrido es pista: 4x4 y margen de horas. Ojo con el encuadre administrativo: el MAEC desaconseja viajar a Grand Gedeh (igual que a Nimba, River Gee y Maryland), lo que puede dejar fuera de cobertura al seguro de viaje. Hay hoteles reales (Cash Hotel, Ma Queen Yonnoh) y el aeródromo William D. Coleman, solo para vuelos domésticos.",
+   "when": "Una noche, dos como mucho si se va a Grebo. Solo en estación seca; llegar con luz, porque los últimos tramos de pista no perdonan.",
+   "skip": "Si el MAEC mantiene la recomendación de no viajar a Grand Gedeh y el seguro lo excluye expresamente, el punto cae por sí solo. Y si la ruta sale de Liberia por Loguatuo desde Ganta, Zwedru es un desvío largo que no aporta nada que no se encuentre más al norte."
   },
-  {
-    "n": 13,
-    "name": "East Nimba Nature Reserve · Yekepa",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "no confirmado — tratar como prohibido",
-    "time": "1–2 días",
-    "lat": 7.5558497,
-    "lon": -8.4732243,
-    "desc": "East Nimba Nature Reserve conserva el lado liberiano del macizo y las huellas de la minería LAMCO. No forma parte del bien UNESCO de Guinea y Costa de Marfil, aunque comparte el mismo paisaje fronterizo.",
-    "credit": "Liberia Tourism · derechos en la fuente",
-    "img": "https://b-cdn.springnest.com/media/img/15n/dji_063752250b4.jpg?crop=1600%2C640%2C0%2C294&width=1500&quality=78",
-    "source": "https://enjoyliberia.travel/pages/mount-nimba/",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Combina una montaña excepcional, historia industrial, Blue Lake y rutas guiadas desde Yekepa.",
-      "see": "East Nimba Nature Reserve conserva el lado liberiano del macizo y las huellas de la minería LAMCO. No forma parte del bien UNESCO de Guinea y Costa de Marfil, aunque comparte el mismo paisaje fronterizo.",
-      "access": "El pin se corrige a East Nimba Nature Reserve Cornerstone en Google Maps. Pasar por la recepción, pagar la entrada y contratar guía; confirmar si la pista histórica admite el vehículo ese día.",
-      "when": "Estación seca y salida de mañana; una noche en Yekepa o Nimba Ecolodge evita correr.",
-      "skip": "Omitir sin guía, con niebla o lluvia fuerte, o si la actividad minera restringe accesos; el perro queda fuera de senderos sensibles."
-    },
-    "links": [
-      {
-        "label": "Liberia Tourism · Mount Nimba",
-        "url": "https://enjoyliberia.travel/pages/mount-nimba/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/dji_063752250b4.jpg?crop=1600%2C640%2C0%2C294&width=1500&quality=78",
-        "source": "https://enjoyliberia.travel/pages/mount-nimba/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Relieve y antigua pista minera de East Nimba."
-      },
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/blue_lake_waterfalls_ennr6682dac.png?height=1204",
-        "source": "https://enjoyliberia.travel/pages/mount-nimba/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Blue Lake dentro del paisaje minero rehabilitado de East Nimba."
-      },
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/lamco_ruins_ennr_247cd699.png?width=800",
-        "source": "https://enjoyliberia.travel/pages/mount-nimba/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Restos de la etapa LAMCO absorbidos por la vegetación."
-      }
-    ]
+  "_restaurado": true
+ },
+ {
+  "n": 12,
+  "name": "Ganta · el nudo del noreste",
+  "cat": "Ciudad · servicios",
+  "prio": "Media",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 7.2334899,
+  "lon": -8.9860484,
+  "desc": "Segunda ciudad más poblada de Liberia (unos 41.000 habitantes en 2008) en el condado de Nimba, a 323 km de Monrovia y justo en la frontera guineana, que aquí marca el río Mano. Es un mercado fronterizo en ebullición, con cinco bancos, hoteles y el Ganta Hospital, que atiende a unas 450.000 personas de todo el condado. Su mezquita blanca de minaretes decorados es el edificio más reconocible. Ganta es el cruce de todo: al norte, Guinea y Nzérékoré; al este, la salida a Costa de Marfil por Loguatuo y Danané; al sur, los 238 km a Zwedru; al oeste, Gbarnga y Monrovia. Es la última ciudad con servicios completos antes de cualquiera de las tres fronteras del noreste y el punto donde se reposta a fondo.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen%27s_Theatre_-_Ganta_-_Liberia_-_2011.jpg?width=1600",
+    "credit": "mjmkeating · CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen%27s_Theatre_-_Ganta_-_Liberia_-_2011.jpg",
+    "caption": "El Queen's Theatre de Ganta."
+   }
+  ],
+  "links": [
+   {
+    "label": "Ganta (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Ganta"
+   },
+   {
+    "label": "Enjoy Liberia · condado de Nimba (oficial de turismo)",
+    "url": "https://enjoyliberia.travel/pages/nimba-county/"
+   },
+   {
+    "label": "FCDO · Liberia, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/liberia/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Aquí se junta todo: la frontera guineana, la carretera asfaltada a Monrovia (323 km vía Gbarnga), el desvío a Zwedru (238 km al sureste) y la subida a Yekepa y al Nimba. Con cinco bancos, hoteles y talleres, es el mejor punto del noreste para repostar, sacar efectivo y arreglar lo que se haya roto.",
+   "see": "Un mercado enorme y ruidoso de ciudad de paso; la mezquita blanca con los minaretes decorados con estrellas talladas; y el hospital de Ganta, heredero de la misión que el médico americano George Way Harley fundó en 1926 tras encontrar aquí una leprosería, y que hoy atiende a medio condado. El río Mano, al norte, marca la raya con Guinea.",
+   "access": "Asfalto desde Monrovia: el FCDO señala precisamente las rutas a las fronteras de Sierra Leona y Guinea como las que están pavimentadas y en condición razonable. No hace falta 4x4 para llegar, sí para casi todo lo que sale de la ciudad. Alojamiento en Alvino Hotel, Jackie's Guest House y similares. El MAEC desaconseja viajar al condado de Nimba, conviene comprobarlo antes de contratar el seguro.",
+   "when": "Una noche, o unas horas si solo se repone. Llegar con luz y aparcar en recinto cerrado del hotel; el FCDO avisa del riesgo de robo en controles, sobre todo de noche.",
+   "skip": "No hay nada monumental y el ruido es constante: si se busca dormir tranquilo, Gbarnga está a mitad de camino y es mucho más llevadero. Si tampoco se sube al Nimba ni se cruza a Guinea, Ganta es solo una gasolinera grande."
   },
-  {
-    "n": 15,
-    "name": "Cataratas de Kpatawee",
-    "cat": "Naturaleza",
-    "prio": "Media",
-    "dog": "permitido con precaución",
-    "time": "½ día",
-    "lat": 7.1223645,
-    "lon": -9.6407703,
-    "desc": "Kpatawee tiene dos cascadas, pozas, senderos y un ecolodge operativo cerca de Gbarnga. La primera caída es sencilla; la segunda requiere aproximadamente una hora a pie según el gestor.",
-    "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+  "_restaurado": true
+ },
+ {
+  "n": 13,
+  "name": "Yekepa y el monte Nimba liberiano",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "1–2 días",
+  "lat": 7.5790498,
+  "lon": -8.5363982,
+  "desc": "CORRECCIÓN IMPORTANTE RESPECTO A VERSIONES ANTERIORES DE ESTA FICHA: el lado liberiano del macizo de Nimba NO forma parte del Patrimonio Mundial de la UNESCO. La inscripción de la Reserva Natural Integral del Monte Nimba cubre 17.632 ha repartidas solo entre Guinea (12.540 ha) y Costa de Marfil (5.000 ha); la propia documentación de la UNESCO explica que la parte liberiana quedó EXCLUIDA de la protección porque está «muy degradada por antiguas actividades mineras». Esa minería es Yekepa: la ciudad-mina que construyó la LAMCO sueco-americana en los años sesenta para explotar el hierro del Nimba, con su ferrocarril de 250 km hasta el puerto de Buchanan. Del lado liberiano el espacio protegido es la Reserva Natural de Nimba Este, mucho más reciente y modesta — POR CONFIRMAR su régimen de visita, tasas y guías con la Forestry Development Authority. Lo que sí ofrece la zona es paisaje de montaña, aire fresco, bosque de ladera y la memoria industrial de una company town entera construida en la selva. Coordenada aproximada.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_F._van_der_Kraaij_Collection_-_13_-_001_-_LAMCO_J.V._A_landscape_with_open_pit_mining_for_iron_ore._Excavators_and_lorries_-_Yekepa%2C_Nimba_county%2C_Liberia_-_1976.jpg?width=1600",
+    "credit": "Fred van der Kraaij · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_13_-_001_-_LAMCO_J.V._A_landscape_with_open_pit_mining_for_iron_ore._Excavators_and_lorries_-_Yekepa%2C_Nimba_county%2C_Liberia_-_1976.jpg",
+    "caption": "Minería a cielo abierto en Yekepa, al pie del Nimba."
+   }
+  ],
+  "links": [
+   {
+    "label": "UNESCO · Mount Nimba Strict Nature Reserve (Guinea y Côte d'Ivoire, en peligro)",
+    "url": "https://whc.unesco.org/en/list/155/"
+   },
+   {
+    "label": "UNESCO · Lista Indicativa de Liberia: Mount Nimba Strict Reserve (extension)",
+    "url": "https://whc.unesco.org/en/tentativelists/6246/"
+   },
+   {
+    "label": "Fauna & Flora · East Nimba Nature Reserve (11.500 ha, declarada en 2003)",
+    "url": "https://www.fauna-flora.org/projects/implementing-effective-management-east-nimba-nature-reserve/"
+   }
+  ],
+  "visit": {
+   "why": "Por la corrección que encabeza la ficha y porque el sitio lo merece igualmente: se sube a ver la tri-frontera Liberia-Guinea-Costa de Marfil desde uno de los puntos más altos del país y a recorrer el esqueleto de una ciudad minera sueca de los años sesenta. La inscripción UNESCO del macizo (Réserve naturelle intégrale du Mont Nimba, 17.632,62 ha) corresponde solo a Guinea y Costa de Marfil, está en la Lista del Patrimonio Mundial en Peligro desde 1992, y la propia UNESCO explica que la parte liberiana quedó fuera por la degradación minera. Lo que Liberia protege aquí es la East Nimba Nature Reserve, 11.500 ha declaradas en 2003, incluida en la Lista Indicativa de la UNESCO el 30 de marzo de 2017 como propuesta de extensión, no como bien inscrito.",
+   "see": "Yekepa, el poblado de LAMCO medio abandonado y recuperado a medias por ArcelorMittal desde 2007; el Blue Lake, una antigua corta inundada que es el punto de referencia de todas las rutas; dos carreteras asfaltadas de la época minera que entran en la reserva; y la fauna del macizo —chimpancés que usan herramientas, el sapo vivíparo y la nutria-musaraña del Nimba, endemismos que no existen en ningún otro sitio— además de la mariposa más grande de África, la cola de golondrina gigante.",
+   "access": "Desde Ganta se sube en una hora larga; el portal oficial de turismo habla de cuatro a cinco horas desde Monrovia. Se entra por una barrera de la FDA donde se paga entrada y donde el guía es obligatorio para caminar. El único alojamiento dentro del área protegida es el Nimba Ecolodge, junto al Blue Lake; fuera hay guesthouses en Yekepa y en Sanniquellie. Con el perro, asumir que no pasa la barrera: es reserva natural con chimpancés y no hay ninguna norma publicada que lo permita, así que hay que planificar que uno de los tres se quede con él abajo.",
+   "when": "Un día completo para subir y volver, saliendo al amanecer para tener vistas antes de que entre la bruma. Solo en estación seca: en lluvias la pista de acceso y las crestas no compensan el riesgo.",
+   "skip": "Si se viene buscando el sello de Patrimonio Mundial, no está en este lado de la montaña, y entrar desde Guinea o Costa de Marfil es otro viaje y otro visado. Tampoco merece la pena sin guía y sin permiso de la FDA: la barrera está y no se negocia."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 14,
+  "name": "Gbarnga (Bong)",
+  "cat": "Ciudad · servicios",
+  "prio": "Baja",
+  "dog": "permitido con condiciones",
+  "time": "1 noche",
+  "lat": 7.0024321,
+  "lon": -9.4728244,
+  "desc": "Capital del condado de Bong, en el centro geográfico del país, a mitad de camino entre Monrovia y Ganta por la carretera asfaltada principal. Durante la primera guerra civil fue la capital de facto del territorio controlado por Charles Taylor y su Frente Patriótico Nacional, la llamada «Gran Liberia» — un dato incómodo que forma parte de la historia del lugar y que conviene conocer antes de sacarlo en una conversación. Hoy es una ciudad de mercado y de universidad (Cuttington University, una de las más antiguas de África occidental, está a pocos kilómetros), con combustible, banco y hospital. Es la base para las cataratas de Kpatawee y el punto medio natural de la travesía interior.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Marines_Support_Operation_United_Assistance_141013-M-PA636-130.jpg?width=1600",
+    "credit": "Lance Cpl. Andre Dakis · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:U.S._Marines_Support_Operation_United_Assistance_141013-M-PA636-130.jpg",
+    "caption": "Gbarnga. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Gbarnga (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Gbarnga"
+   },
+   {
+    "label": "Enjoy Liberia · condado de Bong y cascada de Kpatawee (oficial de turismo)",
+    "url": "https://enjoyliberia.travel/pages/bong-county/"
+   }
+  ],
+  "visit": {
+   "why": "Está justo a mitad del único eje asfaltado largo del país, entre Monrovia y Ganta, y es una noche mucho más tranquila que cualquiera de las dos puntas. Además es la puerta de la cascada de Kpatawee, lo más parecido a un sitio bonito y accesible que hay en el centro de Liberia.",
+   "see": "Una capital de condado administrativa y comercial, con un mercado general nuevo inaugurado en 2024 —y la polémica de los vendedores a los que mudaron lejos de Broad Street—, la Cuttington University de 1889 a las afueras y la tumba de la jefa de clan Madame Suakoko. Por debajo, la memoria de la guerra: aquí tuvo su cuartel general el NPFL de Charles Taylor.",
+   "access": "Asfalto desde Monrovia y desde Ganta, sin necesidad de 4x4 en el eje principal. Kpatawee queda a una treintena de millas de Gbarnga por pista, con ecolodge y zona de acampada: ahí sí conviene el 4x4, y en lluvias puede quedarse en intento. Alojamiento sencillo y suficiente en la ciudad (Passion Hotel, Serengeti, Paulma's) y camas en la propia universidad.",
+   "when": "Una noche de tránsito; media jornada más si se hace la cascada, mejor por la mañana. Cualquier época sirve para el eje asfaltado; la pista de Kpatawee pide seca.",
+   "skip": "Si se hace Monrovia-Ganta del tirón en un día, Gbarnga se queda en gasolinera y café. Y si ya se ha visto agua en otros puntos de la ruta, Kpatawee no justifica por sí sola el desvío."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 15,
+  "name": "Cataratas de Kpatawee",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "permitido con precaución",
+  "time": "½ día",
+  "lat": 7.1223645,
+  "lon": -9.6407703,
+  "desc": "Kpatawee tiene dos cascadas, pozas, senderos y un ecolodge operativo cerca de Gbarnga. La primera caída es sencilla; la segunda requiere aproximadamente una hora a pie según el gestor.",
+  "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_View_of_Kpatawee_Falls.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:Front_View_of_Kpatawee_Falls.jpg",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la parada natural más fácil de ejecutar en el interior liberiano, con alojamiento y reserva directa.",
+   "see": "Kpatawee tiene dos cascadas, pozas, senderos y un ecolodge operativo cerca de Gbarnga. La primera caída es sencilla; la segunda requiere aproximadamente una hora a pie según el gestor.",
+   "access": "El pin se ajusta a la ficha Cascada Kpatawee de Google Maps. Reservar con el ecolodge, seguir al guía hacia la segunda caída y no cruzar roca mojada fuera de las rutas.",
+   "when": "Estación seca o transición con caudal moderado; mañana antes de grupos locales.",
+   "skip": "Omitir con crecida, tormenta o si el resort no confirma acceso; no bañarse fuera de la zona indicada por el socorrista."
+  },
+  "links": [
+   {
+    "label": "Kpatawee Waterfalls Ecolodge · reservas",
+    "url": "https://www.kpataweewaterfalls.com/"
+   }
+  ],
+  "photos": [
+   {
     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_View_of_Kpatawee_Falls.jpg?width=1200",
     "source": "https://commons.wikimedia.org/wiki/File:Front_View_of_Kpatawee_Falls.jpg",
-    "icon": "naturaleza",
-    "color": "verde",
-    "dog_note": "",
-    "visit": {
-      "why": "Es la parada natural más fácil de ejecutar en el interior liberiano, con alojamiento y reserva directa.",
-      "see": "Kpatawee tiene dos cascadas, pozas, senderos y un ecolodge operativo cerca de Gbarnga. La primera caída es sencilla; la segunda requiere aproximadamente una hora a pie según el gestor.",
-      "access": "El pin se ajusta a la ficha Cascada Kpatawee de Google Maps. Reservar con el ecolodge, seguir al guía hacia la segunda caída y no cruzar roca mojada fuera de las rutas.",
-      "when": "Estación seca o transición con caudal moderado; mañana antes de grupos locales.",
-      "skip": "Omitir con crecida, tormenta o si el resort no confirma acceso; no bañarse fuera de la zona indicada por el socorrista."
-    },
-    "links": [
-      {
-        "label": "Kpatawee Waterfalls Ecolodge · reservas",
-        "url": "https://www.kpataweewaterfalls.com/"
-      }
-    ],
-    "photos": [
-      {
-        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_View_of_Kpatawee_Falls.jpg?width=1200",
-        "source": "https://commons.wikimedia.org/wiki/File:Front_View_of_Kpatawee_Falls.jpg",
-        "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
-        "caption": "Vista frontal de la cascada principal de Kpatawee."
-      },
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/dji_04736490596.jpg?width=800",
-        "source": "https://enjoyliberia.travel/pages/kpatawee-waterfall/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Vista elevada del conjunto de Kpatawee."
-      },
-      {
-        "img": "https://b-cdn.springnest.com/media/img/15n/kpatawee_falls_ecolodge5753ec7.jpg?width=800",
-        "source": "https://enjoyliberia.travel/pages/kpatawee-waterfall/",
-        "credit": "Liberia Tourism · derechos en la fuente",
-        "caption": "Cascada y equipamiento del ecolodge junto al sendero."
-      }
-    ]
-  }
+    "credit": "Bethel Anthony Chisom · CC BY-SA 4.0",
+    "caption": "Vista frontal de la cascada principal de Kpatawee."
+   },
+   {
+    "img": "https://b-cdn.springnest.com/media/img/15n/dji_04736490596.jpg?width=800",
+    "source": "https://enjoyliberia.travel/pages/kpatawee-waterfall/",
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Vista elevada del conjunto de Kpatawee."
+   },
+   {
+    "img": "https://b-cdn.springnest.com/media/img/15n/kpatawee_falls_ecolodge5753ec7.jpg?width=800",
+    "source": "https://enjoyliberia.travel/pages/kpatawee-waterfall/",
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Cascada y equipamiento del ecolodge junto al sendero."
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "name": "Bosque de Gola liberiano (frontera con Sierra Leona)",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "1–2 días",
+  "lat": 7.6663373,
+  "lon": -10.841529,
+  "desc": "La continuación al sur del Parque Nacional de Gola Rainforest sierraleonés, con el que forma un bloque transfronterizo de selva primaria de Alto Guinea gestionado en cooperación entre los dos países: chimpancé occidental, hipopótamo pigmeo, elefante de bosque y una avifauna excepcional. Del lado sierraleonés, Gola entró en 2025 en la lista del Patrimonio Mundial de la UNESCO dentro del complejo Gola-Tiwai; del lado liberiano el proceso de protección ha ido por detrás y existe además el proyecto del Parque Nacional de Lofa-Mano en la misma franja. POR CONFIRMAR el estatus legal exacto, el régimen de visita y quién lo gestiona sobre el terreno. Acceso desde la zona de Kongo/Bopolu o desde el norte del condado de Gbarpolu, por pistas forestales. Es el gran comodín natural del oeste liberiano y la pieza que conectaría, sobre el mapa, este país con el bucle sierraleonés. Coordenada aproximada.",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Odontobatrachus_natator_collage.jpg?width=1600",
+    "credit": "Michael F. Barej et al. · CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Odontobatrachus_natator_collage.jpg",
+    "caption": "Anfibios del complejo forestal de Gola. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "Rainforest Trust · lanzamiento del Gola Forest National Park de Liberia (88.900 ha)",
+    "url": "https://www.rainforesttrust.org/our-impact/rainforest-news/liberia-marks-official-launch-of-gola-forest-national-park-with-community-ceremony/"
+   },
+   {
+    "label": "Gola Rainforest · programa de Liberia (FDA y SCNL, parque de la paz)",
+    "url": "https://golarainforest.org/gola-liberia"
+   },
+   {
+    "label": "Gola Rainforest National Park (Wikipedia EN)",
+    "url": "https://en.wikipedia.org/wiki/Gola_Rainforest_National_Park"
+   }
+  ],
+  "visit": {
+   "why": "Es el mayor bloque continuo de selva de Alto Guinea del noroeste liberiano y una de las pocas historias de conservación que han salido bien en la región: el parque nacional se firmó por ley el 22 de septiembre de 2016 y se presentó a las comunidades en mayo de 2018, con 88.900 ha (219.609 acres) en Gbarpolu y Grand Cape Mount. Unido al Gola Rainforest National Park sierraleonés (71.070 ha) forma un parque de la paz transfronterizo de más de 2.000 km².",
+   "see": "Selva húmeda densa, siempreverde y semicaducifolia, de las mejor conservadas del hotspot de Alto Guinea. En la lista de fauna hay 60 especies de la Lista Roja de la UICN: elefante de bosque, chimpancé occidental en peligro crítico, mono Diana, hipopótamo pigmeo, duiker de Jentink y colobo rojo occidental, sobre 48 especies de mamíferos medianos y grandes censadas.",
+   "access": "El pin es aproximado y corresponde a una zona, no a un objeto ni a una entrada: cae dentro del bloque forestal y no en ninguna puerta de acceso. Se llega por pistas de tierra desde Bopolu y el resto de Gbarpolu, con 4x4 obligatorio y tramos impracticables en lluvias. La gestión es de la FDA con la Society for the Conservation of Nature of Liberia (SCNL), pero no hay fuente abierta que publique horarios, tarifas ni un punto de entrada turístico: hay que contactar antes. El alojamiento más cercano que aparece en el portal oficial de turismo es la Lorine Guesthouse de Bopolu. Con el perro, lo mismo que en Sapo y Nimba: es parque nacional con fauna sensible, no hay norma publicada, y lo razonable es asumir que no entra y dejarlo fuera acompañado.",
+   "when": "Dos o tres días desde Monrovia, y solo en estación seca (diciembre-abril). Nunca sin haber hablado antes con la FDA o la SCNL.",
+   "skip": "Sin contacto previo es un viaje largo por pista a un bosque en el que no se puede entrar. Y si lo que se busca es selva de Gola visitable, el lado sierraleonés está mucho mejor preparado y desde 2025 forma parte del Patrimonio Mundial como complejo Gola-Tiwai; si Sierra Leona está fuera de la ruta, este punto se convierte en una parada de paisaje desde la pista y poco más."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 17,
+  "name": "Loguatuo · la salida hacia Costa de Marfil",
+  "cat": "Ciudad · servicios",
+  "prio": "Baja",
+  "dog": "permitido con condiciones",
+  "time": "½ día",
+  "lat": 6.8427612,
+  "lon": -8.6600586,
+  "desc": "El paso fronterizo del noreste, a unos 40 km de Ganta, por el que se sale hacia Danané y Man, en el oeste de Costa de Marfil. Sería la salida natural del corredor liberiano si el país estuviera en la ruta, y el punto donde el itinerario volvería a engancharse con el trazado marfileño ya previsto. Mismos avisos que en toda frontera de la región: cruzar de día, tener el CPD o el permiso temporal en regla, el seguro Brown Card de la CEDEAO vigente y el certificado de fiebre amarilla a mano. POR CONFIRMAR horarios y si sella CPD. Coordenada aproximada.",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Steps_leading_to_Lonestar_telecommunications_tower_along_Redlight-Ganta_Highway.jpg?width=1600",
+    "credit": "Jefferson Krua · CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steps_leading_to_Lonestar_telecommunications_tower_along_Redlight-Ganta_Highway.jpg",
+    "caption": "La carretera de Ganta hacia la frontera marfileña. Foto de contexto: no es el objeto exacto del punto."
+   }
+  ],
+  "links": [
+   {
+    "label": "AllAfrica / Liberian Observer · extorsión y controles en la frontera de Loguatuo (feb. 2025)",
+    "url": "https://allafrica.com/stories/202502190131.html"
+   },
+   {
+    "label": "Ganta (Wikipedia EN) · distancias y contexto del corredor",
+    "url": "https://en.wikipedia.org/wiki/Ganta"
+   },
+   {
+    "label": "FCDO · Liberia, safety and security",
+    "url": "https://www.gov.uk/foreign-travel-advice/liberia/safety-and-security"
+   }
+  ],
+  "visit": {
+   "why": "Es la salida natural del corredor del noreste: desde Ganta se planta uno en la frontera en menos de una hora y al otro lado están Danané y Man, ya en el oeste marfileño. Si la ruta continúa hacia el este sin volver a la costa, este es el paso.",
+   "see": "Un puesto pequeño, muy vivo comercialmente: es por donde sale a Costa de Marfil el aceite de palma liberiano en bidones de cinco galones, por miles al mes. Lo que se ve es comercio informal, motos-taxi (penpen) y una sucesión de controles.",
+   "access": "Unos 40 km de Ganta, en buena parte pista. No hay fuente abierta que publique los horarios oficiales del paso, así que hay que cruzar en horario de oficina y con margen. La prensa liberiana documentó en febrero de 2025 cobros informales sistemáticos: unos 1.000 FCFA por bulto del lado marfileño y tasas en cada uno de los varios controles camino de Danané, al margen de cualquier recaudación formal y en contra del protocolo de libre circulación de la CEDEAO. Llevar cambio pequeño y la documentación impecable: visado marfileño tramitado antes, carnet de passage o permiso temporal de importación y seguro a terceros.",
+   "when": "Cruzar a primera hora de la mañana y contar media jornada larga entre los dos lados. Estación seca; en lluvias la pista de aproximación y la ruta a Danané se degradan mucho.",
+   "skip": "De noche, ni acercarse: el FCDO advierte del riesgo de robo en controles ilegales precisamente después del anochecer. Y si el MAEC mantiene desaconsejado el condado de Nimba y el seguro excluye la zona, el paso hay que replantearlo entero antes de salir de casa, no en la frontera."
+  },
+  "_restaurado": true
+ },
+ {
+  "n": 18,
+  "name": "Museo Nacional de Liberia · Monrovia",
+  "cat": "Ciudad · servicios",
+  "prio": "Alta",
+  "dog": "permitido con condiciones",
+  "time": "2–3 noches",
+  "lat": 6.3167718,
+  "lon": -10.8039201,
+  "desc": "El Museo Nacional de Liberia ocupa el antiguo Legislative Building en Broad Street. Ofrece una visita concreta para entender la república, sus presidentes y la cultura material del país.",
+  "credit": "Spc. Caitlyn Byrne · dominio público",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg?width=1200",
+  "source": "https://commons.wikimedia.org/wiki/File:JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg",
+  "icon": "ciudad · servicios",
+  "color": "azul",
+  "dog_note": "",
+  "visit": {
+   "why": "Es la mejor introducción histórica de Monrovia y evita presentar toda la capital como un único PDI difuso.",
+   "see": "El Museo Nacional de Liberia ocupa el antiguo Legislative Building en Broad Street. Ofrece una visita concreta para entender la república, sus presidentes y la cultura material del país.",
+   "access": "El pin se mueve a la ficha exacta Museo nacional de Liberia de Google Maps. Confirmar apertura el mismo día y aparcar con vigilancia en el centro.",
+   "when": "Mañana de día laborable; reservar una o dos horas y combinar gestiones por la zona.",
+   "skip": "Omitir con museo cerrado, manifestaciones o imposibilidad de estacionar con seguridad."
+  },
+  "links": [
+   {
+    "label": "Liberia Tourism · sitios históricos",
+    "url": "https://enjoyliberia.travel/blog/post/a-guide-for-activities-shopping-and-tours-in-liber/"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-211.jpg",
+    "credit": "Spc. Caitlyn Byrne · dominio público",
+    "caption": "Sala y piezas del Museo Nacional de Liberia."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-233.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:JFC-UA_service_members_visit_Liberian_National_Museum_150120-A-YF937-233.jpg",
+    "credit": "Spc. Caitlyn Byrne · dominio público",
+    "caption": "Exposición interior distribuida en las plantas del museo."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Tubman's_limousine.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Tubman's_limousine.jpg",
+    "credit": "Jforest59 · CC BY-SA 4.0",
+    "caption": "Automóvil presidencial conservado en el Museo Nacional."
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "name": "East Nimba Nature Reserve · Yekepa",
+  "cat": "Naturaleza",
+  "prio": "Media",
+  "dog": "no confirmado — tratar como prohibido",
+  "time": "1–2 días",
+  "lat": 7.5558497,
+  "lon": -8.4732243,
+  "desc": "East Nimba Nature Reserve conserva el lado liberiano del macizo y las huellas de la minería LAMCO. No forma parte del bien UNESCO de Guinea y Costa de Marfil, aunque comparte el mismo paisaje fronterizo.",
+  "credit": "Liberia Tourism · derechos en la fuente",
+  "img": "https://b-cdn.springnest.com/media/img/15n/dji_063752250b4.jpg?crop=1600%2C640%2C0%2C294&width=1500&quality=78",
+  "source": "https://enjoyliberia.travel/pages/mount-nimba/",
+  "icon": "naturaleza",
+  "color": "verde",
+  "dog_note": "",
+  "visit": {
+   "why": "Combina una montaña excepcional, historia industrial, Blue Lake y rutas guiadas desde Yekepa.",
+   "see": "East Nimba Nature Reserve conserva el lado liberiano del macizo y las huellas de la minería LAMCO. No forma parte del bien UNESCO de Guinea y Costa de Marfil, aunque comparte el mismo paisaje fronterizo.",
+   "access": "El pin se corrige a East Nimba Nature Reserve Cornerstone en Google Maps. Pasar por la recepción, pagar la entrada y contratar guía; confirmar si la pista histórica admite el vehículo ese día.",
+   "when": "Estación seca y salida de mañana; una noche en Yekepa o Nimba Ecolodge evita correr.",
+   "skip": "Omitir sin guía, con niebla o lluvia fuerte, o si la actividad minera restringe accesos; el perro queda fuera de senderos sensibles."
+  },
+  "links": [
+   {
+    "label": "Liberia Tourism · Mount Nimba",
+    "url": "https://enjoyliberia.travel/pages/mount-nimba/"
+   }
+  ],
+  "photos": [
+   {
+    "img": "https://b-cdn.springnest.com/media/img/15n/dji_063752250b4.jpg?crop=1600%2C640%2C0%2C294&width=1500&quality=78",
+    "source": "https://enjoyliberia.travel/pages/mount-nimba/",
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Relieve y antigua pista minera de East Nimba."
+   },
+   {
+    "img": "https://b-cdn.springnest.com/media/img/15n/blue_lake_waterfalls_ennr6682dac.png?height=1204",
+    "source": "https://enjoyliberia.travel/pages/mount-nimba/",
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Blue Lake dentro del paisaje minero rehabilitado de East Nimba."
+   },
+   {
+    "img": "https://b-cdn.springnest.com/media/img/15n/lamco_ruins_ennr_247cd699.png?width=800",
+    "source": "https://enjoyliberia.travel/pages/mount-nimba/",
+    "credit": "Liberia Tourism · derechos en la fuente",
+    "caption": "Restos de la etapa LAMCO absorbidos por la vegetación."
+   }
+  ]
+ }
 ]
