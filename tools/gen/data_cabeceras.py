@@ -74,6 +74,10 @@ RUTAS = {
     "guinea-ecuatorial": ("Fuera de ruta · solo en avión", "No aplica"),
     "cabo-verde": ("Fuera de ruta · solo en avión", "No aplica"),
     "santo-tome": ("Fuera de ruta · solo en avión", "No aplica"),
+    "comoras": ("Fuera de ruta · solo en avión", "No aplica"),
+    "seychelles": ("Fuera de ruta · solo en avión", "No aplica"),
+    "mauricio": ("Fuera de ruta · solo en avión", "No aplica"),
+    "burundi": ("Fuera de ruta · frontera RW cerrada", "No aplica"),
 }
 
 
@@ -115,6 +119,10 @@ ACTIVIDADES = {
     "guinea-ecuatorial": ("Inviable: Bioko es isla y el continente está cerrado", "Solo de día · pasaporte y visado siempre encima"),
     "cabo-verde": ("Solo alquiler local · sin ro-ro desde el continente", "Santo Antão y Fogo: el mejor senderismo insular"),
     "santo-tome": ("Solo para el sur, Praia Jalé y el Obô", "Capital y roças sin problema · de noche, no"),
+    "comoras": ("Inútil: sin ferry al continente · 40 €/día con chófer", "Moroni de día sí · nunca solo de noche"),
+    "seychelles": ("Inútil: 453 km de carretera y se conduce por la izquierda", "Excelente: senderos de Mahé, Valle de Mai y La Digue"),
+    "mauricio": ("Innecesario · asfalto y conducción por la izquierda", "Sí · Black River Gorges, Le Morne y Le Pouce"),
+    "burundi": ("Solo por Tanzania · entrar con depósito lleno", "No de noche · ni calle ni transporte tras el ocaso"),
 }
 
 
@@ -155,6 +163,10 @@ SEGUROS = {
     "guinea-ecuatorial": "Carta Verde no vale · Carte Rose CEMAC s/confirmar",
     "cabo-verde": "Carta Verde no vale · póliza local",
     "santo-tome": "Carta Verde no vale · repatriación obligatoria",
+    "comoras": "Carta Verde no vale · póliza local en destino",
+    "seychelles": "Seguro médico OBLIGATORIO para entrar",
+    "mauricio": "Sin Carta Verde · seguro local obligatorio",
+    "burundi": "Carta Verde no vale · Yellow Card COMESA",
 }
 
 
@@ -204,6 +216,10 @@ PELIGROS = {
     "guinea-ecuatorial": "Retenes y detención por fotos",
     "cabo-verde": "Delincuencia urbana en Praia",
     "santo-tome": "Malaria alta · sanidad básica",
+    "comoras": "Inestable · sin sanidad fiable",
+    "seychelles": "Mar y robos · país muy seguro",
+    "mauricio": "Ciclones y chikungunya",
+    "burundi": "Conflicto al oeste · granadas",
 }
 
 

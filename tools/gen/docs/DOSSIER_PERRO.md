@@ -269,6 +269,10 @@ Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si s
 | **Guinea Ecuatorial** | ✈️ Avión a Malabo (SSG) o Bata (BSG) · fronteras terrestres del Río Muni CERRADAS desde el 15-12-2025 | ❓ Por confirmar (servicios veterinarios) | 🟡 | **[PROBABLE]** Microchip ISO, rabia en vigor y certificado sanitario CEXGAN modelo ASE-3505 (validez 10 días), solo por el aeropuerto de Malabo; sin web oficial del organismo veterinario. Visado obligatorio para españoles (eVisa, ~105 €). Vuelta a la UE solo por vía A. | Ministerio de Agricultura |  | ✅ Sí · **10 días** |
 | **Cabo Verde** | ✈️ Solo en avión (RAI, SID, BVC, VXE) · insular, sin ro-ro ni ferry de coches desde el continente | ❓ Por confirmar (DGASP) | 🟡 | **[PROBABLE]** Microchip, rabia no antes de los 3 meses, serología ≥0,5 UI/ml a los 30 días y certificado válido 10 días, según el modelo de la DGAV portuguesa; sin página oficial caboverdiana localizada. Prerregistro EASE y TSA obligatorios. Vuelta a la UE solo por vía A. | Direção Geral da Agricultura |  | ✅ Sí · **10 días** |
 | **Santo Tomé y Príncipe** | ✈️ Solo en avión a São Tomé (TMS) · insular, sin travesía regular que admita vehículos | ❓ Por confirmar | 🟡 | **[POR CONFIRMAR]** No hay web nacional accesible con los requisitos de entrada de animales; `stp.gov.st` abre pero su sección de ministerios no carga. Exención de visado de solo 15 días y tasa de turismo a la llegada. Vuelta a la UE solo por vía A. | [Gobierno de Santo Tomé y Príncipe —…](https://stp.gov.st/ministerios) ⚠️ | `geral@gpm.gov.st` | sin confirmar |
+| **Comoras** | ✈️ Solo en avión a Moroni (HAH) · insular, sin travesía de vehículos con el continente | ❓ Por confirmar (Aduanas) | 🟡 | **[PROBABLE]** Microchip, pasaporte, rabia en vigor y certificado sanitario internacional ≤72 h (Anivetvoyage 2023); no existe web del servicio veterinario comorense y las secciones de importación de aduanas dan 404. Vuelta a la UE solo por vía A. | [Direction Générale des Douanes de l'Union…](https://www.douane.gov.km/) ⚠️ | `douane@douane.gov.km` | ✅ Sí · **3 días** |
+| **Seychelles** | ✈️ Solo en avión a Mahé (SEZ) · insular; los catamaranes interinsulares solo llevan pasajeros | ✅ Sí, previo (Animal Biosecurity, MoFBE) | 🔴 | **[CONFIRMADO]** Permiso veterinario previo obligatorio, titulación antirrábica ≥0,5 UI/ml y **cuarentena mínima de dos semanas** en la única instalación de Mahé; Noonsite añade que no se admiten mascotas para estancias de menos de seis meses. Seguro médico obligatorio para el viajero. Vuelta a la UE por vía A. | [Animal Biosecurity Section](https://mofbe.gov.sc/agriculture-department/border-control-and-support-division/) | `info@mofbe.gov.sc` · `seyvet@seychelles.net` | ✅ Sí · *validez sin publicar* |
+| **Mauricio** | ✈️ Solo en avión a Plaisance (MRU) · insular, sin travesía de vehículos; se conduce por la izquierda | ✅ Sí, previo (SPS, con 3 meses de antelación) | 🟡 | **[CONFIRMADO · CASO ÚNICO]** Mauricio es el **único país africano del Anexo II del Reg. Ejec. (UE) 2026/636**: para VOLVER a la UE NO hace falta la titulación antirrábica de la vía A, basta microchip, rabia en vigor y certificado oficial. La titulación la exige Mauricio para ENTRAR (≥0,5 UI/ml, 3 meses de espera), junto con permiso previo, serologías de Ehrlichia y Brucella, llegada como carga y **cuarentena mínima de 5 días en Réduit**; nueve razas prohibidas. | [Livestock and Veterinary Division](https://sps.govmu.org/lvd-imports/) | `petimport@govmu.org` | ✅ Sí · *validez sin publicar* |
+| **Burundi** | 🚗 Por tierra solo desde Tanzania (Kobero–Kabanga) · la frontera con Ruanda sigue CERRADA desde enero de 2024 | ❓ Por confirmar (MINEAGRIE) | 🟡 | **[PROBABLE]** Microchip, rabia en vigor y certificado sanitario internacional; la web del ministerio existe pero está en construcción y solo publica un correo. Fiebre amarilla exigida al viajero en frontera. Vuelta a la UE solo por vía A. | [Ministère de l'Environnement](https://www.mineagrie.gov.bi/) ⚠️ | `info@mineagri.gov.bi` | ✅ Sí · *validez sin publicar* |
 
 ---
 
@@ -1139,6 +1143,86 @@ Evidencia:
 **Teléfono:** +239 224 21 50 (centralita del Gobierno); Consulado Honorario de España: +239 997 80 22 y +34 601 41 12 84  
 **Certificado sanitario:** sin confirmar · lo emite: Por confirmar. Presumiblemente veterinario oficial del país de origen; en España, certificado tramitado por CEXGAN del MAPA.  
 **Otra fuente:** [stp.gov.st](https://stp.gov.st/ministerios_detail?id=usz5fq60yyepysg5dz680aja) · [exteriores.gob.es](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Santo%20Tom%C3%A9%20y%20Pr%C3%ADncipe)  
+
+## 3.44 COMORAS 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Solo en avión: aeropuerto Príncipe Said Ibrahim (HAH/FMCH), Hahaya, a 15 km de Moroni. Ethiopian (Adís Abeba), Kenya Airways (Nairobi), Air Tanzania y Precision Air (Dar es Salam), Air Austral (Reunión), Ewa Air (Dzaoudzi) y Turkish (Estambul, estacional).
+**Papeles:** Entrada: microchip, pasaporte, antirrábica en vigor y certificado sanitario internacional emitido MENOS DE 72 HORAS antes de llegar. Sin fuente oficial comorense localizada. Para volver a la UE hace falta titulación antirrábica.
+
+- ENTRADA (fuente especializada, NO oficial): microchip o identificación electrónica, pasaporte del animal, VACUNA ANTIRRÁBICA EN VIGOR y CERTIFICADO SANITARIO INTERNACIONAL emitido por un veterinario MENOS DE 72 HORAS antes de la llegada. No se exige validación por veterinario oficial ni titulación antirrábica para entrar (Anivetvoyage, ficha de 7-1-2023).
+- NO HEMOS LOCALIZADO NINGUNA PÁGINA OFICIAL del servicio veterinario nacional comorense que publique estos requisitos. El dato de entrada queda como PROBABLE, no confirmado: hay que validarlo con la aduana (douane@douane.gov.km, +269 773 18 89) o con la embajada de Comoras en París.
+- SALIDA DE COMORAS: la misma fuente indica que la titulación antirrábica SÍ es obligatoria para salir del país. Coherente con la clasificación de Comoras como tercer país de situación antirrábica DESFAVORABLE.
+- RAZAS PROHIBIDAS: sin información publicada. El problema práctico no es la norma escrita: Comoras es musulmana en un 99,6 % y el perro tiene muy mala consideración social; el rechazo cotidiano y la negativa de alojamientos son el obstáculo real.
+- VUELTA A LA UE: Comoras NO FIGURA en los anexos del Reglamento de Ejecución (UE) 2026/636. Se aplica la vía A del Reglamento Delegado (UE) 2026/131: microchip (art. 13), primovacunación antirrábica completa al menos 21 días antes del desplazamiento (art. 14.b) y PRUEBA DE VALORACIÓN DE ANTICUERPOS ANTIRRÁBICOS válida conforme al anexo XXI, punto 1 (art. 14.c).
+
+---
+
+**Dónde se pide.** Direction Générale des Douanes de l'Union des Comores (única administración comorense con portal accesible que regula importaciones). El servicio veterinario nacional, dependiente del Ministerio de Agricultura, Pesca, Medio Ambiente, Turismo y Artesanía, NO tiene portal localizable. — [portada del organismo](https://www.douane.gov.km/) ⚠️ *no se ha localizado la página del trámite*  
+**Escribir a:** `douane@douane.gov.km`  
+**Teléfono:** +269 773 18 89  
+**Certificado sanitario:** ✅ Sí · 3 días · lo emite: Veterinario colegiado (certificado sanitario internacional); según la fuente consultada NO se exige validación por veterinario oficial del país de origen.  
+**Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/comores/) · [anivetvoyage.com](https://anivetvoyage.com/continents/afrique/)  
+
+> No existe ninguna página oficial comorense accesible que publique los requisitos de entrada de perros: ni el MAEC, ni el FCDO, ni Canadá los mencionan.
+
+## 3.45 SEYCHELLES 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Solo en avión al aeropuerto de Mahé (SEZ), a 11 km de Victoria. Emirates, Qatar, Etihad, Turkish, Ethiopian, Kenya Airways, Air France y Condor.
+**Papeles:** MUY RESTRICTIVO. Permiso de importación previo, cuarentena obligatoria y no se admiten mascotas para estancias cortas. En la práctica, inviable.
+
+- ENTRADA MUY RESTRICTIVA. El organismo competente es la Animal Biosecurity Section de la Border Control and Support Division (Ministry of Fisheries, Agriculture and Blue Economy), en Maison Collet, Palm Street, Victoria: +248 4672300, info@mofbe.gov.sc. Exige PERMISO DE IMPORTACIÓN PREVIO tramitado antes del embarque en un procedimiento de cinco pasos.
+- Noonsite (actualización de enero de 2024) recoge que Seychelles «no acepta mascotas para periodos inferiores a seis meses»: para un viaje turístico la entrada es, en la práctica, INVIABLE.
+- CUARENTENA OBLIGATORIA A LA LLEGADA para todo animal vivo, en la instalación de biosseguridad designada: mínimo 14 días desde países con rabia controlada y hasta 180 días desde países de alta incidencia. La tasa estándar es de unas 1.000 SCR por dos semanas, con permiso, recogida, transporte y estancia incluidos.
+- Requisitos del animal: edad mínima de 16 semanas, microchip, vacunación antirrábica entre 30 días y 12 meses antes de la entrada, titulación de anticuerpos antirrábicos y tratamiento antiparasitario en las 48 horas previas al viaje. Toda vacuna, al menos 2 semanas antes de la salida.
+- RAZAS: hay un listado (Anexo 1 del documento veterinario) de más de cuarenta razas —rottweiler, pastor alemán, pit bull y otras— que exigen esterilización quirúrgica previa a la entrada.
+
+---
+
+**Dónde se pide.** Animal Biosecurity Section, Border Control and Support Division — Departamento de Agricultura, Ministry of Fisheries, Agriculture and Blue Economy de Seychelles — [página del trámite](https://mofbe.gov.sc/agriculture-department/border-control-and-support-division/)  
+**Escribir a:** `info@mofbe.gov.sc` · `seyvet@seychelles.net` (Servicios Veterinarios)  
+**Teléfono:** +248 4672300 · +248 4285 950 (Servicios Veterinarios)  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Autoridad veterinaria oficial del país exportador: certificado veterinario original, en inglés o francés, fechado, firmado y sellado, previo permiso de importación de biosseguridad emitido en Victoria  
+**Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/wp-content/uploads/2022/04/Veterinary-Import-Conditions-for-Cats-and-Dogs1.pdf) · [noonsite.com](https://www.noonsite.com/place/seychelles/view/pets/)  
+
+## 3.46 MAURICIO 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Solo en avión: Aeropuerto Internacional Sir Seewoosagur Ramgoolam (MRU), en Plaine Magnien, a 48 km al sureste de Port Louis. Port Louis es el ÚNICO puerto de entrada oficial del país.
+**Papeles:** ENTRADA DURA: permiso previo con 3 meses de antelación, titulación antirrábica ≥0,5 UI/ml con 3 meses de espera, Ehrlichia y Brucella negativos, viaje como carga y CUARENTENA MÍNIMA DE 5 DÍAS en Réduit. VUELTA A LA UE FÁCIL: Mauricio está en el Anexo II del Reglamento de Ejecución (UE) 2026/636 y NO exige la titulación previa hecha en la UE.
+
+- ENTRADA · PERMISO PREVIO. Mauricio exige un Import Permit solicitado con AL MENOS TRES MESES de antelación a la Livestock and Veterinary Division del Ministry of Agro-Industry and Food Security, por petimport@govmu.org. Tasa de Rs 500 por animal más Rs 500 de inspección veterinaria. Fuente: guía oficial «Guidelines to bring dogs to Mauritius», publicada en el portal sanitario del Gobierno de Mauricio (sps.govmu.org).
+- ENTRADA · REQUISITOS SANITARIOS. Microchip leído en el momento de la extracción de sangre; vacuna antirrábica aplicada no menos de dos semanas antes del envío; TITULACIÓN DE ANTICUERPOS ANTIRRÁBICOS por FAVN o RFFIT con resultado igual o superior a 0,5 UI/ml, con la muestra tomada al menos cuatro semanas después de la vacuna y al menos TRES MESES antes del viaje; vacunas de moquillo, hepatitis infecciosa, leptospirosis y parvovirus; serología NEGATIVA de Ehrlichia canis (IFAT, dilución 1:40) y de Brucella canis en los 45 días previos; y certificado veterinario internacional firmado por la autoridad competente del país exportador.
+- ENTRADA · CUARENTENA Y TRANSPORTE. Cuarentena obligatoria de un MÍNIMO DE CINCO DÍAS en la Quarantine Facility de Réduit, a Rs 15 por día y animal según la guía oficial. No es domiciliaria. Visitas de lunes a sábado de 9:00 a 11:00 y de 13:00 a 14:30, y domingos y festivos de 9:00 a 12:00. El animal debe llegar «as manifest CARGO ONLY»: ni en cabina ni en la bodega de equipaje.
+- ENTRADA · RAZAS PROHIBIDAS. El Fourth Schedule veta American Pit Bull Terrier, American Staffordshire Terrier, Staffordshire Terrier, Blue Nose Pit Bull, Red Nose Pit Bull, Tosa japonés, Dogo argentino, Fila brasileiro y Boerboel. Otras razas consideradas peligrosas (Rottweiler, Dobermann, Cane Corso, Bullmastiff, Mastino napolitano, Presa canario, Rhodesian Ridgeback, Kangal, Alaskan Malamute) solo se admiten si son de pura raza acreditada.
+- VUELTA A LA UE · AQUÍ MAURICIO ES LA EXCEPCIÓN DE TODA LA GUÍA. Mauricio (código MU) figura en el ANEXO II del Reglamento de Ejecución (UE) 2026/636, aplicable desde el 22 de abril de 2026, junto con Santa Elena (SH) y Ascensión (AC): son los ÚNICOS territorios africanos de la lista y Mauricio es el único Estado africano. Por eso, a diferencia de los otros cuarenta y tantos países de esta guía, el perro NO necesita la titulación antirrábica hecha en la UE antes de salir, la llamada vía A. El considerando 3 del Reglamento y el artículo 17, apartado 1, letra b), del Reglamento Delegado (UE) 2026/131 lo dicen expresamente: los animales que se desplacen desde un tercer país listado «no están obligados a someterse a una prueba de valoración de anticuerpos de la rabia».
+
+---
+
+**Dónde se pide.** Livestock and Veterinary Division (Division of Veterinary Services), Ministry of Agro-Industry, Food Security, Blue Economy and Fisheries — [página del trámite](https://sps.govmu.org/lvd-imports/)  
+**Escribir a:** `petimport@govmu.org`  
+**Teléfono:** +230 454 1016 / +230 454 1017 / +230 466 6662  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Para la ENTRADA, veterinario oficial de la autoridad competente del país exportador (International Veterinary Certificate). Para la VUELTA A LA UE, veterinario oficial de la Livestock and Veterinary Division mauriciana, en el modelo del Reglamento de Ejecución (UE) 2026/705, salvo que se use el pasaporte europeo con el que el animal salió.  
+**Otra fuente:** [sps.govmu.org](https://sps.govmu.org/wp-content/uploads/2022/12/2022-GUIDELINES-TO-BRING-DOGS-TO-MAURITIUS.pdf) · [sps.govmu.org](https://sps.govmu.org/wp-content/uploads/2025/05/APPLICATION-FORM-Pet-animals-Dog-Cat-others.pdf)  
+
+## 3.47 BURUNDI 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** 
+**Papeles:** Entrada con microchip ISO, rabia al menos 30 días antes, certificado sanitario endosado y permiso de importación del Ministerio de Medio Ambiente, Agricultura y Ganadería (PetTravel). Punto de entrada citado: aeropuerto de Buyumbura. Entrada por tierra con perro, POR CONFIRMAR.
+
+- ENTRADA: PetTravel resume microchip ISO 11784/11785 de 15 dígitos, vacuna antirrábica aplicada al menos 30 días antes de la llegada para animales mayores de tres meses, certificado sanitario original de veterinario colegiado y endoso por el servicio veterinario oficial del país de origen.
+- PERMISO PREVIO DE IMPORTACIÓN expedido por el Ministerio de Medio Ambiente, Agricultura y Ganadería (MINEAGRIE). Su web oficial, mineagrie.gov.bi, existe pero está EN CONSTRUCCIÓN y solo ofrece el correo genérico info@mineagri.gov.bi: no hay formulario, plazo ni tasa publicados. Es el mayor agujero de esta ficha.
+- RAZAS: Burundi no publica lista de razas prohibidas. Si están vetados los híbridos de lobo y los felinos híbridos con menos de cinco generaciones de separación.
+- PUNTO DE ENTRADA: la única vía documentada para mascotas es el aeropuerto de Buyumbura. Entrar con el perro por Kobero en vehículo propio no está documentado en ninguna fuente abierta: POR CONFIRMAR con la aduana y con el servicio veterinario.
+- VUELTA A LA UE: Burundi NO figura en las listas del Reglamento de Ejecución (UE) 2026/636, aplicable desde el 22 de abril de 2026 (el único país africano listado es Mauricio). Se aplica por tanto la vía de tercer país no listado del Reglamento Delegado (UE) 2026/131: microchip, primovacunación antirrábica completa al menos 21 días antes, TITULACIÓN DE ANTICUERPOS ANTIRRÁBICOS válida y certificado zoosanitario, con entrada obligatoria por un punto de entrada de viajeros designado.
+
+---
+
+**Dónde se pide.** Ministère de l'Environnement, de l'Agriculture et de l'Élevage (MINEAGRIE) - servicios veterinarios / dirección de sanidad animal — [portada del organismo](https://www.mineagrie.gov.bi/) ⚠️ *no se ha localizado la página del trámite*  
+**Escribir a:** `info@mineagri.gov.bi`  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario colegiado del país de origen, con endoso del servicio veterinario oficial (en España, servicios oficiales de sanidad animal de la comunidad autónoma y MAPA)  
+**Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/burundi-pet-import-requirements/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
+
+> Lo que se sabe:
 
 # 4. La vuelta a la UE
 

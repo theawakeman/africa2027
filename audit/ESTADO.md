@@ -37,6 +37,10 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 10 | Guinea Ecuatorial | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 14 galerías; 44 fotos (Commons muy pobre) | No auditada (Malabo documentada) |
 | 10 | Santo Tomé y Príncipe | Hecho, por validar | Hecho: 17/18 (Boca do Inferno sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 17 galerías; 50 fotos | No auditada (São Tomé documentada) |
 | 10 | Cabo Verde | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con galería; 52 fotos | No auditada (Praia documentada) |
+| 10 | Comoras | Hecho, por validar | Hecho: 13/18 (7 sin objeto navegable) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 13 galerías; 36 fotos (Commons muy pobre) | No auditada (Moroni documentada) |
+| 10 | Seychelles | Hecho, por validar | Hecho: 15/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 16 galerías; 42 fotos | No auditada (Victoria documentada) |
+| 10 | Mauricio | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con galería; 50 fotos | No auditada (Port Louis documentada) |
+| 10 | Burundi | Hecho, por validar | Hecho: 16/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 14 galerías; 38 fotos | No auditada (Buyumbura documentada) |
 
 ## Países fuera del itinerario (grupos «Alternativas», «Avión», «Excluidos», «Fuera de ruta»)
 
@@ -78,7 +82,21 @@ NO exime de visado a los españoles y tiene las fronteras terrestres del Río
 Muni cerradas desde el 15-12-2025, con la capital trasladada a Ciudad de la Paz
 por decreto de enero de 2026; y Las Geel, en Somalilandia, NO es Patrimonio de
 la Humanidad ni figura en la lista indicativa.
-Pendientes: Comoras, Seychelles, Mauricio y Burundi (nuevos).
+Cerrados el 19-09-2026 los cuatro últimos: Comoras, Seychelles, Mauricio y
+Burundi (expedientes en [`comoras.md`](pdi/comoras.md),
+[`seychelles.md`](pdi/seychelles.md), [`mauricio.md`](pdi/mauricio.md) y
+[`burundi.md`](pdi/burundi.md)). **Con ellos queda completo el encargo: los 24
+países de los grupos «Alternativas y opcionales», «Solo alcanzable en avión»,
+«Excluidos por protocolo» y «Fuera de la ruta prevista» tienen ya ficha completa
+y no queda ninguno pendiente.**
+Hallazgos de esta última tanda: Mauricio es el único país africano del Anexo II
+del Reg. de Ejecución (UE) 2026/636, así que su ficha del perro NO sigue la vía A
+—la titulación antirrábica se la exige Mauricio para entrar, no la UE para
+volver—; Comoras tiene desde julio de 2026 su primer bien del Patrimonio Mundial
+(las medinas de los sultanatos históricos); Seychelles cambió de presidente en
+octubre de 2025 (Patrick Herminie) y deniega asistencia médica a quien no lleve
+seguro; y la frontera de Burundi con Ruanda sigue cerrada desde enero de 2024,
+lo que convierte al país en un fondo de saco al que solo se entra por Tanzania.
 Aviso para Mauricio: es el único país africano listado en el Reg. (UE)
 2026/636, así que su ficha del perro NO sigue la vía A del resto.
 

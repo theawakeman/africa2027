@@ -321,6 +321,30 @@ VISADOS = {
         ruta="fuera", entradas="Exención de 15 días · eVisa para estancias mayores", coste="0 € el visado · 25 € de tasa de turismo por persona (10 € si se entra por Príncipe)",
         alerta="La exención es de SOLO 15 DÍAS, una de las más cortas de África: pasarse un día ya exige visado previo.",
         oficial="https://turismo.gov.st/pt/taxa-de-turismo", maec=_maec("Santo Tomé y Príncipe")),
+    "comoras": visa(
+        "frontera", "Visado a la llegada para españoles en el aeropuerto de Hahaya: 45 días, una sola entrada, 30 € en efectivo.",
+        "Llegar con pasaporte de 6 meses de validez, 30 € en billetes, billete de vuelta y reserva de alojamiento.",
+        ruta="fuera", entradas="Una entrada, 45 días", coste="30 € o 15.000 KMF, solo en efectivo",
+        alerta="No hay eVisa ni frontera terrestre: todas las entradas son aéreas o portuarias y no se admite tarjeta.",
+        oficial="", maec=_maec("Comoras")),
+    "seychelles": visa(
+        "electronico", "Ninguna nacionalidad necesita visado, pero todos los viajeros deben obtener antes de embarcar la Seychelles Travel Authorisation electrónica.",
+        "Solicitarla en seychelles.govtas.com hasta 30 días antes del viaje, con pasaporte, billete de vuelta, reserva de alojamiento y prueba de fondos.",
+        ruta="fuera", entradas="Visitor's Permit gratuito de 3 meses a la llegada, prorrogable hasta 12", coste="10 € estándar (24 h) · 30 € premium (6 h) · 70 € exprés (60 min)",
+        alerta="Sin la autorización aprobada la aerolínea no permite embarcar y a la llegada se aplica penalización.",
+        oficial="https://seychelles.govtas.com/en", maec=_maec("Seychelles")),
+    "mauricio": visa(
+        "sin", "Los españoles entran SIN VISADO: 90 días por visita y hasta 180 días de turismo al año.",
+        "Cumplimentar el «All in One travel form» en safemauritius.govmu.org antes de volar y llevar el QR.",
+        ruta="fuera", entradas="Múltiples · 90 días por visita", coste="Gratuito",
+        alerta="En inmigración pueden exigir billete de vuelta, alojamiento confirmado y 100 dólares por día de estancia.",
+        oficial="https://safemauritius.govmu.org/", maec=_maec("Mauricio")),
+    "burundi": visa(
+        "electronico", "Visado obligatorio para españoles: eVisa previa en migration.gov.bi, 90 USD por un mes, con expedición también a la llegada en el aeropuerto y, según relatos, en pasos terrestres.",
+        "Solicitar el eVisa con al menos 15 días de antelación y llegar con el certificado internacional de fiebre amarilla y el billete de salida.",
+        ruta="fuera", entradas="Una entrada, 1 mes prorrogable por tramos", coste="90 USD (1 mes) · 180 USD (2 meses) · 270 USD (3 meses)",
+        alerta="Da igual el visado si no se puede entrar: la frontera con Ruanda sigue cerrada desde enero de 2024 y solo quedan Tanzania y, con riesgo, Gatumba.",
+        oficial="https://www.migration.gov.bi/", maec=_maec("Burundi")),
     "burkina-faso": visa(
         "no_viable", "El visado existe y se tramita en línea, pero el país está excluido por protocolo y lo desaconsejan MAEC, FCDO y Canadá.",
         "No tramitar: el tramo se sustituye por el norte de Ghana y Costa de Marfil; si algún día se reabriera, solicitar el eVisa en visaburkina.bf y la fiche de voyage en las 72 h previas.",
