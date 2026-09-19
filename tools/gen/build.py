@@ -252,9 +252,9 @@ function a27Map(elId, cfg){
   const el = document.getElementById(elId);
   if (!el || typeof L === 'undefined') return null;
   const map = L.map(elId, {scrollWheelZoom: cfg.wheel !== false}).setView(cfg.center, cfg.zoom);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 17,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    attribution: 'Teselas &copy; <a href="https://www.esri.com/">Esri</a> &middot; Esri, HERE, Garmin, USGS, NGA y colaboradores de <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
   const groups = {};
   // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.
@@ -1771,15 +1771,15 @@ self.addEventListener('install', e => {
     .then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== 'a27-tiles').map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== 'a27-tiles-esri').map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener('message', e => { if (e.data === 'skip') self.skipWaiting(); });
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
-  if (url.hostname === 'tile.openstreetmap.org') {
-    e.respondWith(caches.open('a27-tiles').then(c => c.match(req).then(m => m || fetch(req).then(res => { if (res.ok) c.put(req, res.clone()); return res; }).catch(() => new Response('', {status: 408})))));
+  if (url.hostname === 'server.arcgisonline.com') {
+    e.respondWith(caches.open('a27-tiles-esri').then(c => c.match(req).then(m => m || fetch(req).then(res => { if (res.ok) c.put(req, res.clone()); return res; }).catch(() => new Response('', {status: 408})))));
     return;
   }
   if (req.mode === 'navigate' || (url.origin === location.origin && url.pathname.endsWith('.html'))) {

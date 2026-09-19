@@ -176,9 +176,9 @@ function a27Map(elId, cfg){
   const el = document.getElementById(elId);
   if (!el || typeof L === 'undefined') return null;
   const map = L.map(elId, {scrollWheelZoom: cfg.wheel !== false}).setView(cfg.center, cfg.zoom);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 17,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    attribution: 'Teselas &copy; <a href="https://www.esri.com/">Esri</a> &middot; Esri, HERE, Garmin, USGS, NGA y colaboradores de <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
   const groups = {};
   // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.

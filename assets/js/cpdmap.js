@@ -8,8 +8,8 @@ function a27CpdMap(elId, cfg) {
   if (!el) return;
 
   var map = L.map(elId, { scrollWheelZoom: false, minZoom: 2 }).setView([2.0, 17.0], 3);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 10, attribution: "&copy; OpenStreetMap"
+  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 10, attribution: "Teselas &copy; Esri &middot; Esri, HERE, Garmin, USGS, NGA y colaboradores de OpenStreetMap"
   }).addTo(map);
 
   var NEUTRO = "#cfd8dc";
