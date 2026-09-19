@@ -40,6 +40,10 @@ FILA = {
     "Egipto": "egipto",
     "Etiopía": "etiopia",
     "Yibuti": "yibuti",
+    "Argelia": "argelia",
+    "Libia": "libia",
+    "Burkina Faso": "burkina-faso",
+    "Níger": "niger",
 }
 
 # Búsqueda tolerante: «COSTA DE MARFIL» y «Costa de Marfil» son el mismo país.

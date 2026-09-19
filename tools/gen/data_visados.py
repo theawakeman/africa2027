@@ -271,15 +271,30 @@ VISADOS = {
         ruta="excluido", entradas="Visado de 30 días, entrada única (según relatos); por confirmar", coste="Por confirmar en Madrid (referencia regional: ~45 € en Nuakchot, 2024)",
         alerta="Algunas embajadas europeas han dejado de emitir visados turísticos y otras tardan semanas (2024-2026).",
         oficial="https://www.embajadademali.es/", maec=_maec("Malí")),
+    "argelia": visa(
+        "presencial", "Visado obligatorio y presencial en la Embajada de Argelia en Madrid o en los consulados de Barcelona y Alicante; no hay eVisa ni visado en frontera terrestre o marítima.",
+        "Pedir cita y presentar expediente con cuatro semanas de antelación como mínimo: pasaporte con más de seis meses de validez, fotocopia, dos fotos y seguro de viaje para toda la estancia.",
+        ruta="fuera", entradas="Una entrada, duración según lo concedido", coste="En torno a 65 € (Against the Compass, 2026); un viajero documentó 105 € en otro consulado europeo. Confirmar tarifa vigente.",
+        alerta="Se deniega sin motivar y sobrepasar la estancia autorizada supone detención a la salida y hasta tres meses de prisión.",
+        oficial="https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Argelia", maec=_maec("Argelia")),
+    "niger": visa(
+        "no_viable", "Visado obligatorio y presencial en la Embajada de Níger en Bruselas, pero el país está excluido por protocolo y desaconsejado absolutamente por el MAEC.",
+        "No tramitar: si algún día se reconsiderase, escribir a la Embajada de Níger en Bruselas (+32 2 648 61 40) y pedir requisitos, tasa y plazo por escrito.",
+        ruta="fuera", entradas="Presencial en Bruselas · pasaporte 6 meses", coste="por confirmar",
+        alerta="NO se expiden visados en aeropuertos ni en fronteras terrestres (MAEC): sin visado previo no se entra.",
+        oficial="", maec=_maec("Níger")),
     "burkina-faso": visa(
-        "electronico", "Visado obligatorio; eVisa prioritario y sin visado en frontera.",
-        "Tramitar online e imprimirlo; completar además la ficha de viaje dentro de las 72 h previas.", ruta="fuera",
-        alerta="Fuera del itinerario por conflicto; disponer de eVisa no convierte el viaje en aceptable.",
+        "no_viable", "El visado existe y se tramita en línea, pero el país está excluido por protocolo y lo desaconsejan MAEC, FCDO y Canadá.",
+        "No tramitar: el tramo se sustituye por el norte de Ghana y Costa de Marfil; si algún día se reabriera, solicitar el eVisa en visaburkina.bf y la fiche de voyage en las 72 h previas.",
+        ruta="fuera", entradas="Una o múltiples, estancia máxima 90 días", coste="33.000 FCFA turismo una entrada (~50 €); 55.000 FCFA múltiples entradas (~84 €)",
+        alerta="Desde el 8 de abril de 2026 la «fiche de voyage» es obligatoria además del visado, y la validez del eVisa en pasos terrestres sigue sin confirmar.",
         oficial="https://www.visaburkina.bf/", maec=_maec("Burkina Faso")),
     "libia": visa(
-        "no_viable", "No se expiden visados turísticos.",
-        "Excluir del viaje.", ruta="fuera",
-        alerta="MAEC desaconseja el viaje y el país exige además visado de salida.", maec=_maec("Libia")),
+        "no_viable", "Existe eVisa turístico desde marzo de 2024, pero lo patrocina una agencia libia autorizada y obliga a guía y policía turística: no hay visado para un viajero independiente con vehículo propio.",
+        "Descartar Libia en la ruta; quien quiera ir, que contrate aparte un tour cerrado con agencia autorizada y tramite la eVisa en evisa.gov.ly.",
+        ruta="fuera", entradas="Una entrada, 30 días de estancia, validez de 90 días", coste="63 USD la eVisa; el tour, de 1.100 € por tres días a 2.850 € por once días",
+        alerta="El MAEC exige visado de entrada Y de salida, el pasaporte con rastro de viaje a Israel es rechazo directo y un visado emitido fuera puede no ser reconocido en la zona controlada por el otro gobierno.",
+        oficial="https://evisa.gov.ly (no verificada en esta sesión: bloqueada por robots.txt)", maec=_maec("Libia")),
 }
 
 # La imagen de planificación es la fuente única de fechas aproximadas. Las

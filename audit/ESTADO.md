@@ -25,6 +25,10 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 10 | Egipto | Hecho, por validar | Hecho: 20/20 en Google Maps | Hecho: 20/20 | Hecho: 20/20 | Hecho: 20/20 con galería; 60 fotos | No auditada (Asuán documentado) |
 | 10 | Etiopía | Hecho, por validar | Hecho: 20/20 en Google Maps | Hecho: 20/20 | Hecho: 20/20 | Hecho: 20/20 con galería; 59 fotos | No auditada (Wim's Holland House) |
 | 10 | Yibuti | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 16 galerías; 45 fotos (Commons muy pobre) | No auditada (capital documentada) |
+| 10 | Argelia | Hecho, por validar | Hecho: 20/20 en Google Maps | Hecho: 20/20 | Hecho: 20/20 | Hecho: 20/20 con galería; 56 fotos | No auditada (Argel documentado) |
+| 10 | Libia | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 15 galerías; 44 fotos | No auditada (Trípoli documentado) |
+| 10 | Burkina Faso | Hecho, por validar | Hecho: 17/18 (Tagbaladougou sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 16 galerías; 43 fotos | No auditada (Uagadugú documentado) |
+| 10 | Níger | Hecho, por validar | Hecho: 16/18 (Ténéré y Bilma sin objeto) | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 17 galerías; 49 fotos | No auditada (Niamey documentado) |
 
 ## Países fuera del itinerario (grupos «Alternativas», «Avión», «Excluidos», «Fuera de ruta»)
 
@@ -42,9 +46,13 @@ Sudán, Egipto, Etiopía y Yibuti — expedientes en [`audit/pdi/tunez.md`](pdi/
 [`egipto.md`](pdi/egipto.md), [`etiopia.md`](pdi/etiopia.md) y
 [`yibuti.md`](pdi/yibuti.md). Egipto, Etiopía y Yibuti tenían ficha corta (3–4
 PDIs sin fotos ni enlaces) y se han sustituido por la ficha completa.
-Pendientes: Argelia, Libia, Burkina Faso, Níger, Chad, RCA, Sudán del Sur,
-Somalia, Eritrea, Guinea Ecuatorial, Santo Tomé, Cabo Verde, Comoras,
-Seychelles, Mauricio y Burundi (nuevos).
+Añadidos el 19-09-2026: Argelia, Libia, Burkina Faso y Níger (expedientes en
+[`argelia.md`](pdi/argelia.md), [`libia.md`](pdi/libia.md),
+[`burkina-faso.md`](pdi/burkina-faso.md) y [`niger.md`](pdi/niger.md)).
+Pendientes: Chad, RCA, Sudán del Sur, Somalia, Eritrea, Guinea Ecuatorial,
+Santo Tomé, Cabo Verde, Comoras, Seychelles, Mauricio y Burundi (nuevos).
+Aviso para Mauricio: es el único país africano listado en el Reg. (UE)
+2026/636, así que su ficha del perro NO sigue la vía A del resto.
 
 ## Línea de corte de la nueva pasada PDI
 

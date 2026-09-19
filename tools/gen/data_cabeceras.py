@@ -62,6 +62,10 @@ RUTAS = {
     "tunez": ("Fuera de ruta · ferry desde Italia/Francia", "No aplica"),
     "mali": ("Excluido · conflicto activo", "No aplica"),
     "guinea-bisau": ("Excluido · junta militar", "No aplica"),
+    "argelia": ("Fuera de ruta · ferry desde España", "No aplica"),
+    "libia": ("Excluido · conflicto activo", "No aplica"),
+    "burkina-faso": ("Excluido · conflicto activo", "No aplica"),
+    "niger": ("Excluido · conflicto activo", "No aplica"),
 }
 
 
@@ -91,6 +95,10 @@ ACTIVIDADES = {
     "egipto": ("CPD obligatorio + matrícula y carné egipcios", "Valle del Nilo sí; desierto y norte del Sinaí, no"),
     "etiopia": ("Imprescindible fuera del asfalto · 250 km/día, irreal", "Solo de día y en la capital; nunca solo de noche"),
     "yibuti": ("Imprescindible · convoy de dos · nunca de noche", "Solo en la capital y de día · nada fuera del asfalto"),
+    "argelia": ("Sí, con TIP 90 días · gasóleo con mucho azufre", "Solo ciudades del norte · sur con agencia"),
+    "libia": ("Sin entrada documentada con vehículo propio desde 2012", "Imposible: guía y policía turística obligatorios"),
+    "burkina-faso": ("Diésel 675 XOF/l (feb-2026) · minas en los ejes", "Solo casco urbano y de día · nunca interurbano"),
+    "niger": ("Inviable: escolta militar obligatoria fuera de Niamey", "No: el MAEC desaconseja caminar por Niamey"),
 }
 
 
@@ -119,6 +127,10 @@ SEGUROS = {
     "egipto": "Carta Verde y Yellow Card NO valen · local",
     "etiopia": "Sin Carta Verde · Yellow Card COMESA obligatoria",
     "yibuti": "Carta Verde no vale · COMESA Yellow Card",
+    "argelia": "Carta Verde NO vale · seguro local en frontera",
+    "libia": "Sin Carta Verde · seguro local sin confirmar",
+    "burkina-faso": "Carta Verde NO cubre · Carte Brune CEDEAO",
+    "niger": "Sin cobertura: MAEC desaconseja absolutamente",
 }
 
 
@@ -156,6 +168,10 @@ PELIGROS = {
     "mali": "Terrorismo, secuestro, minas",
     "guinea-bisau": "Golpe 2025 · minas · carreteras",
     "yibuti": "Calor 45 °C · minas · fronteras",
+    "argelia": "Sur y fronteras · terrorismo",
+    "libia": "Milicias, minas y secuestros",
+    "burkina-faso": "Terrorismo y secuestro: todo BF",
+    "niger": "Terrorismo y secuestro: máximo",
 }
 
 

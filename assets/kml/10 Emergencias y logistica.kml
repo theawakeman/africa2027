@@ -4011,4 +4011,326 @@
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-15.59046,11.85926,0</coordinates></Point>
   </Placemark>
+  <Placemark>
+    <name>Puerto de Orán (entrada en ferry desde Almería y Alicante)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Principal puerto de entrada desde España con vehículo. Almería–Orán con Naviera Armas, unas 10 horas, una salida semanal (miércoles 22:00) según Direct Ferries 2026; Alicante–Orán con Algérie Ferries. Admite coche, furgoneta y autocaravana. Aquí se hace la admisión temporal del vehículo y se compra el seguro argelino obligatorio. Pin comprobado en Google Maps («Orán (la terminal de pasajeros no figura como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.69874,-0.63493">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-0.63493,35.69874,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto de Argel (entrada en ferry desde Barcelona y Alicante)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puerto de la capital, al abrigo de todos los vientos con dos dársenas artificiales según Wikipedia. Baleària opera Barcelona–Argel desde 185 € (2026) con vehículo; Algérie Ferries lo sirve desde Alicante. Es la mejor entrada si el plan es el centro y el este del país o salir después por Túnez. Pin comprobado en Google Maps («Argel (la gare maritime no figura como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.75377,3.05876">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.05876,36.75377,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto de Ghazaouet (entrada en ferry desde Almería)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puerto de la wilaya de Tlemecén, en el extremo oeste. Baleària publica Almería–Ghazaouet desde 143,60 € (2026) y Wikipedia lo describe como punto de entrada habitual desde Almería. Atención: está muy cerca de la frontera con Marruecos, que lleva CERRADA desde 1994 y no se puede cruzar. Pin comprobado en Google Maps («Ghazaouet»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.09365,-1.86186">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.86186,35.09365,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Argel</name>
+    <description><![CDATA[<b>Consular</b><br/>3, Chemin Ziryab, B.P. 185, Argel. Teléfono +213 (0) 23 48 74 40 / 41. Correo emb.argel@maec.es. Emergencia consular 24 horas +213 770 99 98 99. El MAEC pide avisar previamente a la Embajada de los planes de viaje por el país. Pin comprobado en Google Maps («Chemin Ziryab, Argel (la embajada no figura como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.76108,3.04399">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.04399,36.76108,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Consulado General de España en Argel</name>
+    <description><![CDATA[<b>Consular</b><br/>10 rue Reda Houhou, Alger Centre. Teléfono +213 (0) 21 63 93 54. Correo cog.argel@maec.es. Emergencia consular +213 (0) 770 99 98 99. Es el punto de referencia para pérdida de pasaporte, problemas con la policía o asistencia en caso de accidente. Pin comprobado en Google Maps («(sin objeto en Google Maps; coordenada de la fuente)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.7325,3.08722">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.08722,36.7325,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Consulado General de España en Orán</name>
+    <description><![CDATA[<b>Consular</b><br/>7, rue Mohamed Benabdeslem, Orán. Teléfono +213 (0) 42 06 76 96 / 98. Correo cog.oran@maec.es. Es el consulado competente para el oeste del país y el más útil si se entra por el ferry de Orán o de Ghazaouet. Pin comprobado en Google Maps («Consulado de España en Orán»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.70318,-0.64047">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-0.64047,35.70318,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>CHU Mustapha Pacha (hospital de referencia de Argel)</name>
+    <description><![CDATA[<b>Hospital</b><br/>El hospital más grande de Argelia, 1.500 camas, fundado el 1 de agosto de 1854 y centro universitario del Ministerio de Sanidad. Dirección: Place du 1er Mai 1945, Sidi M'Hamed, Argel 16000. Teléfono +213 23 55 96 80. Es el destino natural de una urgencia grave en la capital, aunque con seguro de repatriación medicalizada el centro lo fija la aseguradora.dz, no se pudo abrir en esta sesión. Pin comprobado en Google Maps («CHU Mustapha Pacha (Argel)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.76267,3.05609">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.05609,36.76267,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tamanrasset (base del Hoggar y puerta del sur)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Capital de la wilaya homónima, a 1.320 m de altitud, 140.955 habitantes en 2025, con aeropuerto propio y cabecera de la Transahariana. Es el punto desde el que se organiza el Hoggar y Assekrem, SIEMPRE con agencia autorizada. Aquí es donde el FCDO recoge la posibilidad de visado a la llegada con reserva confirmada de agencia argelina. En enero de 2025 se secuestró a un turista español en Assekrem. Pin comprobado en Google Maps («Tamanrasset»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=22.79424,5.53614">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>5.53614,22.79424,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible: red Naftal en el eje Orán–Argel (autopista Este-Oeste)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Naftal es la distribuidora estatal y cubre bien el norte y las nacionales. Gasolina a 47,00 DZD por litro a 9 de febrero de 2026 (GlobalPetrolPrices) y gasóleo en torno a 30 DZD por litro según Sahara Overland, con alto contenido en azufre. Hacia el sur las distancias entre estaciones crecen mucho: planificar por autonomía y llevar bidones. Pin comprobado en Google Maps («Orán (sin gasolinera concreta como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.69874,-0.63493">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-0.63493,35.69874,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua de uso general: red urbana de Argel</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Para llenar depósitos de ducha y lavado, el agua de red de las ciudades grandes del norte sirve sin problema. NO es potable sin tratar: TravelHealthPro señala riesgo de fiebre tifoidea por agua contaminada, así que para beber, embotellada o filtro. Salir siempre con los depósitos llenos antes de dejar una ciudad grande, porque hacia el sur el agua escasea. Pin comprobado en Google Maps («Argel»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.75377,3.05876">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.05876,36.75377,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso terrestre con Túnez: Oum Teboul / Melloula (costa norte)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso costero del norte hacia Tabarka (Túnez), el más usado por extranjeros. Es la única frontera terrestre realmente practicable de Argelia junto con Bouchebka. El FCDO (24 de julio de 2026) solo autoriza viaje esencial a la franja de 30 km de la frontera tunecina, y desaconseja todo viaje en los tramos de Illizi y Ouargla. COORDENADAS APROXIMADAS, sin fuente verificada en esta sesión: hay que comprobarlas. Pin comprobado en Google Maps («Oum Teboul»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.88006,8.56249">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.56249,36.88006,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Frontera con Marruecos: Zouj Bghal (Oujda–Maghnia) CERRADA</name>
+    <description><![CDATA[<b>Frontera</b><br/>CERRADA DESDE 1994 y prohibido cruzarla (FCDO, 24 de julio de 2026). Argelia rompió relaciones con Marruecos el 24 de agosto de 2021 y cerró su espacio aéreo a aeronaves marroquíes el 22 de septiembre de 2021. Se incluye aquí solo para que quede constancia de que NO es una opción: es el motivo por el que Argelia sale de la ruta 2027. COORDENADAS APROXIMADAS, sin fuente verificada. Pin comprobado en Google Maps («Zouj Beghal»).<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=34.78608,-1.84111">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.84111,34.78608,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Ras Jedir (Túnez–Libia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Única entrada terrestre viable a Libia. Reabrió a mediados de 2024; trámites muy lentos y cierres sin aviso. Túnez abrió en abril de 2026 un corredor de tránsito africano por aquí. Control libio variable según la milicia: por confirmar. Pin comprobado en Google Maps («Libya Border Crossing Station Ra's Ajdir»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.14821,11.56246">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.56246,33.14821,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Dehiba–Wazzin</name>
+    <description><![CDATA[<b>Frontera</b><br/>Dehiba (Túnez, gobernación de Tataouine) está a 4 km de la frontera; Wazzin queda al otro lado. Estado para extranjeros SIN CONFIRMAR: Wikipedia solo documenta su uso como vía de suministro en 2011. Pin comprobado en Google Maps («Dehiba (lado tunecino de Wazzin)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.01345,10.6957">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.6957,32.01345,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Sallum–Amsaad (Egipto–Libia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Sallum está 8 km al este de la frontera libia. CERRADO A EXTRANJEROS: desde mayo de 2026 el paso queda reservado a nacionales libios y egipcios según el gobierno paralelo del este. Pin comprobado en Google Maps («Musaid (lado libio de Sallum)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.6051,25.04965">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>25.04965,31.6051,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional de Mitiga, Trípoli</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único aeropuerto internacional de Trípoli, 8 km al este del centro. Vuelos a Túnez, El Cairo, Estambul, Ammán, Casablanca y Yeda; ITA vuela a diario desde Roma. Puerta de entrada real para cualquier visita autorizada. Pin comprobado en Google Maps («Mitiga International Airport»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.90514,13.27382">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.27382,32.90514,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional de Benina, Bengasi</name>
+    <description><![CDATA[<b>Frontera</b><br/>19 km al este de Bengasi, en zona controlada por el bloque del este. Vuelos a Roma, Estambul, Ammán, El Cairo, Alejandría, Túnez, Dubái y Atenas. Bengasi está en la lista de zonas a evitar del MAEC. Pin comprobado en Google Maps («Aeropuerto Internacional de Benina»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.08572,20.26517">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>20.26517,32.08572,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto de Trípoli</name>
+    <description><![CDATA[<b>Frontera</b><br/>Carga general, granel y pasajeros según Wikipedia. SIN LÍNEA REGULAR DE PASAJEROS CONFIRMADA para 2026: no sirve como vía de entrada con vehículo desde Europa mientras no lo confirme una naviera. Pin comprobado en Google Maps («Puerto de Trípoli»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.90222,13.18583">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.18583,32.90222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Trípoli</name>
+    <description><![CDATA[<b>Consular</b><br/>Al Hawana - Bin Ashour, frente a la Mezquita «Bagui», P.O.B. 23302, Trípoli. Tel. +218 21 362 00 51 / 52, fax +218 21 362 00 61, TRIPOLI-EM@maec.es. Los asuntos consulares se atienden temporalmente desde Túnez. Emergencia consular 24 h: +218 91 320 39 04 y +216 29 174 445. Pin comprobado en Google Maps («Trípoli (la embajada de España no figura como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.88771,13.18719">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.18719,32.88771,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Túnez (competente en la práctica)</name>
+    <description><![CDATA[<b>Consular</b><br/>22 y 24, Avenue Ernest Conseil, Cité Jardin, 1002 Túnez. Tel. +216 71 782 217, emb.tunez@maec.es, consular emb.tunez.sc@maec.es. Para Libia el MAEC da los fijos +216 71 750 802 y +216 71 801 729. Pin comprobado en Google Maps («Embajada de España en Túnez»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=36.82519,10.18119">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.18119,36.82519,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tripoli Central Hospital</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital general, universitario y principal centro de trauma del centro de Trípoli, entre la calle Zawia y la calle Saidi. Segundo mayor del país. Para un europeo, referencia de estabilización antes de evacuar: el MAEC da por normal la evacuación a Europa. Pin comprobado en Google Maps («Hospital central de Trípoli»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.88136,13.19053">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.19053,32.88136,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hospital de referencia en Bengasi</name>
+    <description><![CDATA[<b>Hospital</b><br/>POR CONFIRMAR. No hemos podido abrir en esta sesión una ficha con coordenadas de un hospital de Bengasi. Las coordenadas son las del centro de Bengasi, no las del hospital: sirven solo para situar la ciudad. Pin comprobado en Google Maps («Benghazi Medical Center (1200 Hospital)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.07777,20.09681">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>20.09681,32.07777,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Combustible en Trípoli (gasolineras autorizadas)</name>
+    <description><![CDATA[<b>Combustible</b><br/>Gasolina a 0,024 USD/litro (GlobalPetrolPrices, 09-02-2026), la más barata del mundo, pero con colas y racionamiento de hecho: en septiembre de 2026 Interior cerró 490 gasolineras por contrabando y autorizó 365. Pin comprobado en Google Maps («Trípoli (sin gasolinera concreta como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.88771,13.18719">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.18719,32.88771,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agua potable en Libia</name>
+    <description><![CDATA[<b>Agua potable</b><br/>SIN PUNTO VERIFICADO. El MAEC advierte de que el suministro no es fiable y recomienda agua embotellada; los apagones desde junio de 2026 dejan sin bombeo depósitos y estaciones. Filtrar y clorar siempre. Pin comprobado en Google Maps («Trípoli»).<br/><a href="https://theawakeman.github.io/africa2027/paises/libia/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.88771,13.18719">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>13.18719,32.88771,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional Thomas Sankara de Uagadugú (OUA / DFFD)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único acceso aéreo internacional real del país: concentra el 98 % del tráfico comercial y está a 1,5 km al sureste del centro de Uagadugú. Exige eVisa impreso, fiche de voyage y certificado de fiebre amarilla. Está prevista su sustitución por el nuevo aeropuerto de Donsin, 35 km al noreste. Pin comprobado en Google Maps («Aeropuerto de Uagadugú (Thomas Sankara)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.35499,-1.51399">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.51399,12.35499,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Niangoloko (Costa de Marfil – Burkina Faso)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso con Costa de Marfil, lado marfileño Laleraba. Mercancías de 6.30 a 18.00, pasajeros 24/7, todos los días. A 131 km de Bobo-Dioulasso, unas 2 h 30. Gestiona la Direction Générale des Douanes, contacto Sr. HAMADO, 70 26 47 45. Zona de riesgo extremo para el MAEC. Pin comprobado en Google Maps («Niangoloko»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=10.2819,-4.91676">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-4.91676,10.2819,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Koloko – Hèrèmakono (Mali – Burkina Faso)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso con Mali en el eje Bobo-Dioulasso – Sikasso. Mercancías de 6.00 a 18.00, pasajeros 24/7. A 132 km de Bobo-Dioulasso, 2 h 45 en turismo. La nacional N8 está asfaltada pero con muchos baches que obligan a reducir la velocidad. Pin comprobado en Google Maps («Koloko»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.08103,-5.31236">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-5.31236,11.08103,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Cinkansé (Togo – Burkina Faso)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Poste de Contrôle Juxtaposé en el corredor hacia el puerto de Lomé. Mercancías de 6.30 a 18.00, pasajeros 24/7. A 105 km de Tenkodogo por la N16. N4 y N16 asfaltadas y en buen estado, con cinco puestos de control hasta Uagadugú. Pin comprobado en Google Maps («Cinkansé»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.11798,0.00945">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.00945,11.11798,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Kantchari (Níger – Burkina Faso)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso con Níger, lado nigerino Torodi, a 152 km de Fada N'Gourma y 148 km del aeropuerto de Niamey. Abierto sobre el papel, pero el Logistics Cluster no evaluó la carretera por presencia de grupos terroristas y advierte de que el eje «es objeto cada vez más frecuente de ataques». Desaconsejado sin matices. Pin comprobado en Google Maps («Kantchari»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.4802,1.51522">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>1.51522,12.4802,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso fronterizo de Nadiagou – Porga (Benín – Burkina Faso)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Paso con Benín en el eje hacia Natitingou. Mercancías de 6.30 a 18.00, pasajeros 24/7. A 20 km de Pama y 344 km de Uagadugú (7 h). Carretera no evaluada por inseguridad desde noviembre de 2021 y descrita como muy dañada. Jefe de puesto: Sr. SALOU, 70 32 40 14. Pin comprobado en Google Maps («Nadiagou»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.15844,0.8378">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.8378,11.15844,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Viceconsulado Honorario de España en Uagadugú</name>
+    <description><![CDATA[<b>Consular</b><br/>Sr. Ziad Azar. Avenue J.F. Kennedy, Kuluba, Uagadugú. Tel. (+226) 50 33 16 32. Correo CH.OUAGADOUGOU@maec.es. Es la única representación española sobre el terreno. ATENCIÓN: las coordenadas son las del centro de Uagadugú, no las del edificio; hay que verificarlas. Pin comprobado en Google Maps («Koulouba, Uagadugú (el viceconsulado no figura como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.36795,-1.51844">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.51844,12.36795,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Mali y Burkina Faso (Bamako)</name>
+    <description><![CDATA[<b>Consular</b><br/>ACI 2000, en face de l'École de Maintien de la Paix, BP E-3230, Bamako (Mali). Tel. (+223) 44 98 24 30. Emergencia consular 24 h (+223) 73 31 23 24. Correos emb.bamako@maec.es y emb.bamako.sc@maec.es. Es la embajada competente para Burkina Faso. Pin comprobado en Google Maps («Embajada de España en Bamako»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.62778,-8.02596">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.02596,12.62778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>CHU Yalgado Ouédraogo, Uagadugú</name>
+    <description><![CDATA[<b>Hospital</b><br/>Principal hospital universitario de referencia del país y mejor dotado de Burkina Faso. Para casos complejos se deriva a Abiyán, Accra o París. Pin comprobado en Google Maps («CHU Yalgado Ouédraogo»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.38359,-1.50646">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.50646,12.38359,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>CHU Sourou Sanou, Bobo-Dioulasso</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital universitario de referencia del oeste: 593 camas y 1.115 empleados, con urgencias, cirugía, traumatología ortopédica, maternidad, hemodiálisis y resonancia magnética. Sede principal en el sector 8, barrio Sikasso-Cira. Pin comprobado en Google Maps («CHU Sourô Sanou (Bobo-Diulasso)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.17004,-4.30119">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-4.30119,11.17004,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Estaciones de servicio del eje central, Uagadugú</name>
+    <description><![CDATA[<b>Combustible</b><br/>Gasóleo a 675 XOF/litro (dato de 09-02-2026) y gasolina a 850 XOF/litro (dato de 12-01-2026), precios fijados por el Gobierno. Red fiable solo en Uagadugú, Bobo-Dioulasso y capitales regionales del eje central; fuera de ahí, bidones y riesgo de adulteración. Pin comprobado en Google Maps («Uagadugú (sin gasolinera concreta como objeto)»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.37143,-1.51966">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.51966,12.37143,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Llenado de agua no potable, Uagadugú</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Estaciones de servicio y hoteles del centro de Uagadugú como punto realista de llenado para ducha y lavado. Agua de red NO potable y brotes de cólera registrados: filtro más tratamiento obligatorio incluso para uso no alimentario. Punto concreto por confirmar, sin registros verificados de iOverlander. Pin comprobado en Google Maps («Uagadugú»).<br/><a href="https://theawakeman.github.io/africa2027/paises/burkina-faso/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.37143,-1.51966">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-1.51966,12.37143,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aeropuerto Internacional Diori Hamani (NIM/DRRN)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Única puerta de entrada realista al país, a 9 km al sureste de Niamey. Operativo, con controles reforzados a extranjeros. Atacado el 29/01/2026 (Estado Islámico) y el 18/06/2026 (JNIM), y objetivo del intento de golpe del 29/08/2026. Pin comprobado en Google Maps («Aeropuerto Internacional Diori Hamani»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.47656,2.17697">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.17697,13.47656,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puesto fronterizo de Assamakka (Argelia)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Único paso oficial Níger-Argelia, 10 km al sur de In Guezzam, en la Transahariana. 400 km a Tamanrasset y 200 km a Arlit por pista. Punto de deportación de migrantes; sin cruces de viajeros registrados en más de una década (Sahara Overland, 07/2026). Pin comprobado en Google Maps («Assamakka»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.33398,5.77278">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>5.77278,19.33398,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso de Gaya - Malanville (Benín)</name>
+    <description><![CDATA[<b>Frontera</b><br/>Puente sobre el río Níger entre Gaya (Níger) y Malanville (Benín), a 733 km de Cotonú. CERRADO desde 2023; comunicado conjunto de reapertura el 18/06/2026 y comité de expertos, sin apertura efectiva. Pin comprobado en Google Maps («Gaya»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=11.88644,3.45351">Google Maps</a>]]></description>
+    <styleUrl>#icon-frontera</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.45351,11.88644,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de España en Niamey</name>
+    <description><![CDATA[<b>Consular</b><br/>Rue AM-5, enfrente de la Embajada de Turquía, Koira Kano (barrio de las Embajadas), Niamey. Tel. +227 20 75 59 61/62/64. EMERGENCIA CONSULAR +227 96 83 83 94. emb.niamey@maec.es · consular emb.niamey.vis@maec.es · citas emb.niamey.cita@maec.es. Abierta desde 2007 y operativa en 2026. Pin comprobado en Google Maps («Embajada de España en Niamey»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.52603,2.07009">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.07009,13.52603,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Embajada de Níger en Bruselas (visados para España)</name>
+    <description><![CDATA[<b>Consular</b><br/>Avenue Fr. Roosevelt 78, B-1050 Bruselas. Tel. +32 2 648 61 40 / +32 2 648 59 60. Es donde el MAEC dice que los españoles deben solicitar el visado. Pin comprobado en Google Maps («Embajada de Níger en Bruselas»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=50.80989,4.38358">Google Maps</a>]]></description>
+    <styleUrl>#icon-consular</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Consulado</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>4.38358,50.80989,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital National de Niamey</name>
+    <description><![CDATA[<b>Hospital</b><br/>Mayor hospital de referencia del país según Wikipedia («the country's largest referral hospital»). POR CONFIRMAR capacidad actual y si la Embajada de España lo recomienda. Pin comprobado en Google Maps («National Hospital of Niamey»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.51288,2.10116">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.10116,13.51288,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hôpital Central et maternité de Niamey</name>
+    <description><![CDATA[<b>Hospital</b><br/>Hospital central y maternidad construidos en los años cuarenta (Wikipedia). POR CONFIRMAR ubicación exacta y servicios. El MAEC advierte de que las condiciones sanitarias son muy precarias fuera de Niamey y todo caso grave exige evacuación internacional. Pin comprobado en Google Maps («Hôpital Général de Référence de Niamey»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.58613,2.09189">Google Maps</a>]]></description>
+    <styleUrl>#icon-hospital</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Hospital</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.09189,13.58613,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Eje de repostaje Niamey - Dosso - Birni N'Konni</name>
+    <description><![CDATA[<b>Combustible</b><br/>Dosso, nudo comercial entre Niamey y el este del país y hacia Benín, a 130-140 km al sureste de la capital (Wikipedia). Gasolina 499 FCFA/l (GlobalPetrolPrices, 08/12/2025); precios de calle de 600 FCFA el gasóleo y 636 la gasolina (Sahara Overland, 07/2026). Pin comprobado en Google Maps («Dosso»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.05048,3.2081">Google Maps</a>]]></description>
+    <styleUrl>#icon-combustible</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Combustible</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.2081,13.05048,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Agadez, última base logística hacia el norte</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Última base logística antes del Aïr y el Ténéré y sede de los operadores que gestionan permisos y escolta. Quinta ciudad del país (110.497 hab., censo de 2012). El norte de Agadez está señalado por EEUU como zona de máximo riesgo. Acceso vetado sin escolta militar. Pin comprobado en Google Maps («Agadez»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.97417,7.98653">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>7.98653,16.97417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Niamey, punto de carga de agua</name>
+    <description><![CDATA[<b>Agua potable</b><br/>Única red urbana con garantías relativas. Toda el agua de boca debe filtrarse y potabilizarse: el MAEC prohíbe beber agua no embotellada. No vadear ni bañarse en el río Níger por esquistosomiasis (TravelHealthPro). Pin comprobado en Google Maps («Niamey»).<br/><a href="https://theawakeman.github.io/africa2027/paises/niger/#agua-combustible">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=13.5116,2.12539">Google Maps</a>]]></description>
+    <styleUrl>#icon-agua</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.12539,13.5116,0</coordinates></Point>
+  </Placemark>
 </Document></kml>

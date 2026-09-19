@@ -257,6 +257,10 @@ Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si s
 | **Egipto** | 🚗 Desde Sudán por Argeen o Qustul (corredor humanitario, 12–48 h de espera) | ❌ No previo (GOVS) | 🟡 | **[PROBABLE]** Microchip, rabia en vigor y certificado sanitario oficial; la web egipcia (govs.gov.eg) no publica los requisitos. Vuelta a la UE: vía A (§4). | [General Organization for Veterinary Services](https://www.govs.gov.eg/) ⚠️ |  | ✅ Sí · **14 días** |
 | **Etiopía** | ✈️ Bole (ADD) o por tierra desde Yibuti; el resto de fronteras, desaconsejadas por el MAEC | ✅ Sí, previo (Min. de Agricultura) | 🟡 | **[PROBABLE]** Permiso previo del Ministerio de Agricultura (solo fuente secundaria), microchip y rabia en vigor. Vuelta a la UE: vía A (§4). | [Ministerio de Agricultura de la RDFE](https://www.moa.gov.et/) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | **Yibuti** | 🚗 Por tierra desde Etiopía (Galafi, Dewele) o desde Somalilandia (Loyada) | ❓ Sin requisitos publicados | 🟡 | **[POR CONFIRMAR]** Yibuti no publica ningún requisito para perros; el ministerio (maepe-rh.dj) abre pero es genérico. Vuelta a la UE: vía A (§4). | [Ministère de l'Agriculture](https://www.maepe-rh.dj/) ⚠️ |  | sin confirmar |
+| **Argelia** | ⛴️ En ferry desde España (Almería, Alicante, Valencia, Barcelona) · frontera con Marruecos CERRADA desde 1994 | ❓ Por confirmar (Servicios Veterinarios) | 🟡 | **[PROBABLE]** Microchip, rabia en vigor y certificado sanitario oficial; las webs veterinarias argelinas no abrieron. Algérie Ferries pide reserva del animal y pasaporte europeo. Vuelta a la UE: vía A (§4). | [Direction des Services Vétérinaires](https://psl.madr.gov.dz/dsv/derogation-sanitaire-dimportation/) ❓ |  | ✅ Sí · *validez sin publicar* |
+| **Libia** | ✈️ Solo en avión y con tour cerrado (agencia autorizada y escolta) · Ras Jedir es el único paso terrestre viable | ❓ Sin fuente oficial | 🔴 | **[SIN CONFIRMAR]** No existe web del servicio veterinario libio ni vía documentada para entrar con perro y vehículo propio. Vuelta a la UE: vía A (§4). | Sin identificar. No hemos localizado en… | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| **Burkina Faso** | 🚗 Por tierra desde Costa de Marfil, Mali, Togo, Benín o Ghana · país excluido por protocolo | ❓ Por confirmar | 🟡 | **[PROBABLE]** service-public.gov.bf solo publica una ficha genérica de importación de animales, sin detalle para perros. Vuelta a la UE: vía A (§4). | [Servicios veterinarios del Ministère de…](https://www.service-public.gov.bf/thematiques/secteur-de-lelevage/demande-dautorisation-dimportation-des-animaux-des-produits-animaux-et-des-produits-dorigine-animale) | — *sin correo publicado* | sin confirmar |
+| **Níger** | ✈️ Avión a Niamey · por tierra solo Nigeria reabierta; escolta militar obligatoria fuera de la capital | ❓ Por confirmar (DNSV) | 🟡 | **[PROBABLE]** Ningún portal veterinario nigerino accesible; requisitos de fuente secundaria. Vuelta a la UE: vía A (§4). | Ministère de l'Agriculture et de l'Élevage… |  | ✅ Sí · **10 días** |
 
 ---
 
@@ -900,6 +904,80 @@ Evidencia:
 **Teléfono:** por confirmar  
 **Certificado sanitario:** sin confirmar · lo emite: por confirmar; en la práctica, certificado veterinario internacional en francés firmado por veterinario oficial del país de salida  
 **Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/live-animal-export/export-live-animals-djibouti) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636&qid=1776938175276)  
+
+## 3.32 ARGELIA 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** En ferry desde Almería, Alicante, Valencia o Barcelona a Orán, Argel, Mostaganem o Ghazaouet (Algérie Ferries, Baleària, Naviera Armas), o por tierra desde Túnez. En avión a Argel, Orán, Tamanrasset y Djanet.
+**Papeles:** Se entra con microchip, pasaporte europeo, vacuna antirrábica en vigor y certificado sanitario. Argelia NO figura en las listas del Reglamento (UE) 2026/636, así que la vuelta exige TITULACIÓN DE ANTICUERPOS hecha ANTES de salir de España.
+
+- ENTRADA: según AniVetVoyage (verificado el 23 de julio de 2025), Argelia admite perros con microchip (o tatuaje legible si es anterior al 3 de julio de 2011), pasaporte europeo de animal de compañía, vacuna antirrábica en vigor y certificado sanitario firmado por el veterinario y refrendado por un veterinario oficial antes de salir. NO se ha podido abrir ninguna página oficial argelina que lo confirme.
+- La web de los servicios veterinarios argelinos (psl.madr.gov.dz, Direction des Services Vétérinaires del Ministerio de Agricultura) y la de la Dirección General de Aduanas (douane.gov.dz) NO se abrieron en esta sesión, así que no hay confirmación oficial argelina de nada de esto, ni lista de RAZAS PROHIBIDAS, ni número máximo de animales por viajero: todo eso queda por confirmar con el consulado argelino al pedir el visado.
+- VUELTA A LA UE: comprobado en el Reglamento de Ejecución (UE) 2026/636, de 20 de marzo de 2026, aplicable desde el 22 de abril de 2026: Argelia NO figura en ninguna de sus listas. Los únicos territorios africanos listados son Mauricio, Ascensión y Santa Elena, todos insulares. Por tanto el regreso se rige por el Reglamento Delegado (UE) 2026/131, en vigor desde el 28 de marzo de 2026, que exige TITULACIÓN DE ANTICUERPOS ANTIRRÁBICOS en laboratorio autorizado.
+- HAZ LA TITULACIÓN EN ESPAÑA ANTES DE SALIR (vía A) y que quede anotada en el pasaporte del perro. Si no se hace antes, al volver hay que sacar la muestra en Argelia y esperar TRES MESES fuera de la UE desde la toma. Con dos coches y un calendario cerrado, eso hunde el viaje.
+- Si durante la estancia se vacuna o se analiza al animal en Argelia, el pasaporte europeo ya no basta al regresar: hace falta certificado sanitario emitido por la autoridad oficial argelina, válido diez días desde su expedición y hasta cuatro meses para movimientos posteriores dentro de la UE.
+
+---
+
+**Dónde se pide.** Direction des Services Vétérinaires (DSV), Ministère de l'Agriculture, du Développement Rural et de la Pêche (MADR) — Argelia — [página del trámite](https://psl.madr.gov.dz/dsv/derogation-sanitaire-dimportation/) ❓ *no se ha podido abrir para comprobarla*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario colegiado español con refrendo de veterinario oficial (Servicios Veterinarios Oficiales de la comunidad autónoma) antes de salir de España  
+**Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/algerie/) · [algerieferries.com](https://algerieferries.com/algerie-ferries/guide-de-passager/animaux)  
+
+## 3.33 LIBIA 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Solo en avión y con tour cerrado: Túnez–Mitiga (Libyan Wings, Tunisair) o Roma–Mitiga (ITA). Por tierra, solo Ras Jedir desde Túnez y con trámites muy lentos.
+**Papeles:** Microchip ISO y rabia entre 30 días y 12 meses, con certificado veterinario oficial (PetTravel). NO hemos localizado la web del servicio veterinario nacional libio. De vuelta a la UE: Libia no está en la lista del Reg. (UE) 2026/636, así que titulación antirrábica previa.
+
+- ENTRADA: no hemos localizado la página oficial del servicio veterinario nacional libio. El único pliego de requisitos que hemos podido abrir es el de PetTravel: microchip ISO 11784 o anexo A del 11785, vacuna antirrábica puesta entre 30 días y 12 meses antes de la entrada y certificado veterinario internacional emitido o avalado por un veterinario oficial poco antes del viaje.
+- Las mascotas que entran acompañando a su dueño NO necesitan permiso de importación según PetTravel; sí lo necesitan los envíos comerciales. No hay cuarentena si se cumple todo, pero el incumplimiento puede acabar en cuarentena, devolución o sacrificio a cargo del importador.
+- RAZAS: Libia no publica lista de razas prohibidas (PetTravel). No es lo mismo que decir que no exista: es que no se publica.
+- VUELTA A LA UE: Libia NO figura en las listas del Reglamento de Ejecución (UE) 2026/636, de 20 de marzo de 2026 —de África solo aparecen territorios insulares: Ascensión, Mauricio y Santa Elena—. Eso obliga a la vía A: titulación de anticuerpos antirrábicos en laboratorio autorizado por la UE, con la muestra tomada al menos 30 días después de la vacunación, ANOTADA EN EL PASAPORTE ANTES DE SALIR de la Unión. Sin ese análisis hecho en España, el perro no vuelve.
+- VETERINARIOS: no hemos encontrado ninguna clínica veterinaria de referencia en Trípoli en fuente abierta. Con la red sanitaria humana degradada y el desabastecimiento de medicamentos que describe el MAEC, dar por hecho que hay atención veterinaria de urgencia para un perro europeo es imprudente.
+
+---
+
+**Dónde se pide.** Sin identificar. No hemos localizado en fuente abierta la web del servicio veterinario oficial de Libia (dependiente del Ministerio de Agricultura); las búsquedas en árabe devuelven prensa sobre un Centro Nacional de Salud Animal pero ninguna sede electrónica utilizable. — *sin página localizada*  
+**Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario colegiado del país de origen con endoso o emisión por veterinario oficial del gobierno (en España, servicios veterinarios oficiales de Sanidad Exterior / comunidad autónoma).  
+**Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/libya-pet-import-requirements/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
+
+> Lo que se sabe:
+
+## 3.34 BURKINA FASO 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Por aire al aeropuerto internacional Thomas Sankara de Uagadugú (OUA), que concentra el 98 % del tráfico comercial del país. Por tierra hay pasos operativos con seis países vecinos, pero los ejes de acceso están en zona de emboscada y minas.
+**Papeles:** Entrada regulada por la autorización de importación de animales del portal oficial service-public.gov.bf (3 a 14 días hábiles, coste variable); el detalle para perros no está publicado. Para volver a la UE, Burkina Faso NO está en la lista del Reglamento (UE) 2026/636: hace falta titulación antirrábica previa.
+
+- Entrada: el portal oficial de trámites service-public.gov.bf recoge la «Demande d'autorisation d'importation des animaux, des produits animaux et des produits d'origine animale», con plazo de 3 a 14 días hábiles y coste variable. Exige solicitud timbrada a la autoridad competente, copia legalizada del pasaporte y los justificantes del caso, pero no detalla nada específico sobre perros.
+- Documentación que cabe esperar por práctica regional y que hay que confirmar con el servicio veterinario: microchip, vacuna antirrábica en vigor y certificado veterinario internacional reciente. Régimen exacto POR CONFIRMAR: no hemos podido abrir ninguna página nacional del servicio veterinario burkinés que lo desarrolle.
+- Razas prohibidas o restringidas: sin información en fuente oficial. POR CONFIRMAR.
+- VUELTA A LA UE: Burkina Faso NO figura en las listas del Reglamento de Ejecución (UE) 2026/636 —el único territorio africano listado es Mauricio—, así que se aplica la vía A del Reglamento Delegado (UE) 2026/131: titulación de anticuerpos antirrábicos hecha ANTES de salir de España y anotada en el pasaporte del animal. Si se hiciera ya en África, hay que esperar tres meses desde la extracción.
+- Riesgo sanitario alto para el perro: la rabia está presente en el país (TravelHealthPro) y la atención veterinaria de calidad se limita a Uagadugú y Bobo-Dioulasso; fuera de ahí, según la propia guía sanitaria, la asistencia es muy básica y circulan medicamentos falsificados.
+
+---
+
+**Dónde se pide.** Servicios veterinarios del Ministère de l'Agriculture et des Ressources Animales et Halieutiques; trámite publicado en el portal nacional de trámites service-public.gov.bf — [página del trámite](https://www.service-public.gov.bf/thematiques/secteur-de-lelevage/demande-dautorisation-dimportation-des-animaux-des-produits-animaux-et-des-produits-dorigine-animale)  
+**Certificado sanitario:** sin confirmar · lo emite: por confirmar  
+**Otra fuente:** [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636) · [travelhealthpro.org.uk](https://travelhealthpro.org.uk/country/37/burkina-faso)  
+
+## 3.35 NÍGER 🟡 — *fuera de la ruta prevista*
+
+**Entrada:** Solo en avión, al Aeropuerto Internacional Diori Hamani de Niamey (NIM/DRRN). Operan Air Algérie, Ethiopian, Turkish, Royal Air Maroc, ASKY, Air France y otras.
+**Papeles:** Entrada con microchip, rabia de más de 1 mes y menos de 1 año y certificado sanitario internacional de menos de 10 días (AniVetVoyage). Sin web oficial nigerina localizable: POR CONFIRMAR.
+
+- NO LLEVES AL PERRO. Es un país con escolta militar obligatoria fuera de la capital, restricción de movimientos nocturnos y riesgo de secuestro: no hay escenario en el que el animal esté a salvo ni atendido.
+- Requisitos de entrada según AniVetVoyage (recopilador francés que cita IATA y PetTravel, no fuente oficial nigerina): identificación electrónica (microchip), vacuna antirrábica de MÁS DE 1 MES Y MENOS DE 1 AÑO y certificado sanitario internacional expedido MENOS DE 10 DÍAS antes de la llegada.
+- No se ha localizado en esta sesión ninguna página oficial del Ministerio de Agricultura y Ganadería de Níger ni de sus servicios veterinarios que publique estas condiciones: el dato queda como POR CONFIRMAR con la autoridad nigerina o vía la embajada de Bruselas.
+- Razas prohibidas: POR CONFIRMAR. No se ha encontrado lista publicada de razas vetadas en Níger.
+- VUELTA A LA UE: es aquí donde está el problema real. El Reglamento de Ejecución (UE) 2026/636, de 20 de marzo de 2026, adopta las listas de terceros países y NÍGER NO FIGURA EN NINGUNO DE SUS ANEXOS; los únicos territorios africanos listados son insulares (Ascensión, Mauricio y Santa Elena). Por tanto rige el régimen del Reglamento Delegado (UE) 2026/131: prueba de valoración de anticuerpos antirrábicos, en laboratorio autorizado y ANOTADA EN EL PASAPORTE ANTES DE SALIR de la UE (vía A).
+
+---
+
+**Dónde se pide.** Ministère de l'Agriculture et de l'Élevage de Níger — Direction Générale des Services Vétérinaires (denominación por confirmar) — *sin página localizada*  
+**Escribir a:** por confirmar  
+**Teléfono:** por confirmar  
+**Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial / veterinario habilitado del país de origen, certificado sanitario internacional  
+**Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/niger/) · [travelhealthpro.org.uk](https://travelhealthpro.org.uk/country/164/niger)  
 
 # 4. La vuelta a la UE
 
