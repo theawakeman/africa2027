@@ -11,12 +11,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: rebuild-main
+  cancel-in-progress: false
+
 jobs:
   rebuild:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -37,5 +43,8 @@ jobs:
             echo "Sin cambios que publicar."
           else
             git commit -m "Reconstrucción automática tras editar contenido [skip ci]"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
+
+        
