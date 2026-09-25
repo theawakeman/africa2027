@@ -74,6 +74,7 @@ VISADOS = {
     "guinea": visa(
         "electronico", "Visado obligatorio; solicitud en la plataforma de la Policía de Fronteras.",
         "Tramitar online y confirmar en paralelo con la Embajada de Guinea en Madrid.", pasos="2 feb · 28 jun",
+        coste="100 USD por eVisa de una entrada (portal oficial, 25-09-2026).",
         entradas="2 entradas", alerta="La propia recomendación española pide coordinar la solicitud con la Embajada; no viajar solo con el justificante.",
         oficial="https://www.paf.gov.gn/visa", maec=_maec("Guinea")),
     "guinea-bisau": visa(
@@ -107,11 +108,13 @@ VISADOS = {
     "togo": visa(
         "electronico", "eVisa obligatorio y aprobado antes de llegar.",
         "Solicitarlo en Togo Voyage al menos 5 días antes; prever dos entradas.", pasos="17 feb · 18 jun", entradas="2 entradas",
+        coste="25.000 FCFA (1-15 días, una entrada) · 45.000 FCFA (16-30 días, múltiple) · 65.000 FCFA (31-90 días, múltiple). Portal oficial; ya no se expide en frontera.",
         alerta="El portal oficial dice que sin autorización aprobada se rechaza la entrada; confirmar que ambos pasos terrestres están ya digitalizados.",
         oficial="https://voyage.gouv.tg/", maec=_maec("Togo")),
     "benin": visa(
         "electronico", "Benín solo concede visados por vía electrónica.",
         "Solicitar dos eVisas o uno que cubra ambas entradas.", pasos="18 feb · 16 jun", entradas="2 entradas",
+        coste="50 € (30 días, una entrada) · 75 € (30 días, múltiple) · 100 € (90 días, múltiple). Tarifa oficial publicada en 2020.",
         alerta="La validez empieza en la fecha de emisión; no pedirlo demasiado pronto.",
         oficial="https://evisa.bj/", maec=_maec("Benín")),
     "nigeria": visa(
@@ -142,11 +145,13 @@ VISADOS = {
     "congo": visa(
         "presencial", "Visado obligatorio antes del viaje.",
         "Tramitar en la Embajada de la República del Congo en París y pedir modalidad que cubra dos pasos.", pasos="28 feb · 2 jun",
+        coste="55 € (15 días) o 110 € (91 días) una entrada; 110 € / 220 € múltiple. Fuente no oficial (agencia, 09-2026).",
         entradas="2 entradas", alerta="No hay embajada congoleña en España; no confundir Congo-Brazzaville con RD Congo.",
         oficial="https://girafe.ambacongofr.org/", maec=_maec("República del Congo")),
     "rd-congo": visa(
         "presencial", "Visado obligatorio expedido en el país de residencia.",
         "Solicitar en la Embajada de la RDC en Madrid una modalidad que cubra los dos tránsitos de Kongo Central.", pasos="6 mar · 1 jun",
+        coste="200 € (3 meses, una entrada) · 225 € (3 meses, múltiple). Solicitud en persona en Madrid, unos 14 días hábiles.",
         entradas="2 entradas", alerta="No puede obtenerse en Brazzaville; llevar itinerario terrestre Cabinda–Muanda–Boma–Matadi–Lufu y documentación de salida.",
         oficial="https://ambardcmadrid.com/", maec=_maec("República Democrática del Congo")),
     "angola": visa(
@@ -163,8 +168,8 @@ VISADOS = {
     "malaui": visa(
         "electronico", "Visado obligatorio; eVisa oficial disponible.",
         "Usar el asistente de elegibilidad y obtener el eVisa antes de llegar.", pasos="1 abr", entradas="alternativa",
-        ruta="alternativa", coste="Referencia de la hoja: 50 USD; verificar.",
-        alerta="Desde febrero de 2026 algunas nacionalidades obtienen visado al llegar, pero la lista de categorías debe comprobarse en el asistente; el eVisa evita esa incertidumbre.",
+        ruta="alternativa", coste="100 USD una entrada · 220 USD múltiple (MAEC, dato de 2022).",
+        alerta="La exención de visado de 2024 se revocó el 2 de enero de 2026. Los europeos pueden obtenerlo al llegar, pero el eVisa evita la incertidumbre en frontera terrestre.",
         oficial="https://www.evisa.gov.mw/", maec=_maec("Malaui")),
     "tanzania": visa(
         "electronico", "Visado obligatorio; para nuestra entrada terrestre conviene eVisa previo.",
@@ -175,6 +180,7 @@ VISADOS = {
     "kenia": visa(
         "electronico", "No exige visado, pero sí una eTA antes de viajar.",
         "Solicitar la eTA oficial con margen y llevarla impresa o descargada.", entradas="1 entrada",
+        coste="Desde 30 USD (tramitación normal).",
         alerta="La eTA es de una sola entrada y expira al salir; si cambia el bucle y se reentra, hace falta otra.",
         oficial="https://www.etakenya.go.ke/", maec=_maec("Kenia")),
     "uganda": visa(
@@ -191,6 +197,7 @@ VISADOS = {
     "mozambique": visa(
         "electronico", "Exento de visado hasta 30 días, pero con permiso electrónico previo obligatorio.",
         "Registrar la entrada en el portal oficial al menos 5 días antes.", pasos="21 abr", entradas="1 entrada",
+        coste="Importe del permiso sin dato oficial (~650 MZN según fuente no oficial).",
         alerta="No tratar la exención como entrada sin trámite: MAEC exige la solicitud digital a todos los viajeros españoles.",
         oficial="https://evisa.gov.mz/", maec=_maec("Mozambique")),
     "zimbabue": visa(

@@ -751,46 +751,6 @@
  },
  {
   "n": 16,
-  "name": "Cataratas de Boti y el baobab de tres cabezas",
-  "cat": "Naturaleza",
-  "prio": "Media",
-  "dog": "permitido con condiciones",
-  "time": "½ día",
-  "lat": 6.1937608,
-  "lon": -0.2186041,
-  "desc": "En la región Oriental, cerca de Koforidua: un salto doble de unos 30 m al que se baja por 250 escalones de piedra entre selva, con la peculiaridad de que los dos chorros («macho» y «hembra») solo se juntan en plena temporada de lluvias, lo que la tradición local llama su apareamiento. En el mismo circuito guiado están el Umbrella Rock (una seta de roca sobre la que caben veinte personas y desde la que se domina todo el valle) y el «baobab de tres cabezas», a unos 30 minutos a pie. La caminata completa entre los tres puntos es de unas 2-3 horas. Mejor en junio-julio o septiembre-octubre. Imagen de referencia de una cascada de Ghana, no de la propia Boti.",
-  "icon": "naturaleza",
-  "color": "verde",
-  "dog_note": "",
-  "photos": [
-   {
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Boti_Falls_and_environs_06.jpg?width=1600",
-    "credit": "Nkansahrexford · CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Boti_Falls_and_environs_06.jpg",
-    "caption": "Las cataratas de Boti."
-   }
-  ],
-  "links": [
-   {
-    "label": "Boti Falls — Visit Ghana (Ghana Tourism Authority)",
-    "url": "https://visitghana.com/boti-falls-2/"
-   },
-   {
-    "label": "Boti Falls — Wikipedia (EN)",
-    "url": "https://en.wikipedia.org/wiki/Boti_Falls"
-   }
-  ],
-  "visit": {
-   "why": "Es el respiro verde más accesible del corredor Accra–Koforidua: a 17 km al noreste de Koforidua, media hora de asfalto desde la capital regional y poco más de hora y media desde Accra, sin salirse de la ruta hacia el este del país. Vale como parada de media mañana para estirar las piernas y bañarse antes de seguir hacia el Volta, no como destino en sí.",
-   "see": "Un salto doble de unos 30 m sobre el río Ponpon, con los dos chorros que la tradición local llama «macho» (el grande) y «hembra» (el pequeño) cayendo en paralelo sobre una misma poza en la que se puede nadar; cuando el caudal sube ambos se juntan y levantan un arcoíris que los vecinos leen como el apareamiento de los dos. Ojo con el nombre de la ficha: el árbol singular del conjunto no es un baobab, sino una palmera de tres cabezas, que junto con la Umbrella Rock (una roca en forma de paraguas) forma el paquete de tres visitas que se vende en taquilla.",
-   "access": "Carretera asfaltada desde Koforidua, sin necesidad de 4x4; el pin cae sobre el recinto de las cataratas, que está cercado y con taquilla. Desde el aparcamiento se baja al pie del salto por 250 escalones de hormigón, y la Umbrella Rock queda a unos 45 minutos de caminata desde allí. La web oficial de turismo de Ghana no publica ni horario ni tarifa (sólo teléfonos de contacto); la referencia más concreta que hemos encontrado habla de unos 100 GHS de entrada con guía incluido, así que conviene tomarlo como orden de magnitud y no como precio en firme. No es parque nacional ni reserva de fauna (el río nace aguas arriba, en la reserva forestal de Huhunya) y ninguna fuente abierta publica norma sobre perros: lo previsible es que nadie ponga pegas dentro del recinto, pero los 250 escalones y la subida a la roca no son terreno para el perro, así que hay que contar con turnarse.",
-   "when": "Dos o tres horas bastan para bajar, bañarse y subir; si se añade la Umbrella Rock, medio día. El momento es la estación de lluvias, de junio a agosto, cuando los dos chorros van llenos y se funden: es un salto estacional, y fuera de esa ventana el espectáculo se reduce mucho. Mejor a primera hora, antes de que lleguen las excursiones.",
-   "skip": "En plena estación seca (de diciembre a marzo) el agua baja a un hilo y no compensa ni el desvío ni la bajada de escalones. También cae del itinerario en fin de semana o festivo, cuando se llena de grupos venidos de Accra, y cualquier día en que haya prisa por llegar al lago Volta o a la frontera de Togo: es una parada de placer, no un hito."
-  },
-  "_restaurado": true
- },
- {
-  "n": 17,
   "name": "Kumasi · mercado Kejetia y palacio Manhyia",
   "cat": "Ciudad · servicios",
   "prio": "Alta",
@@ -840,7 +800,7 @@
   ]
  },
  {
-  "n": 18,
+  "n": 17,
   "name": "Edificios tradicionales ashanti (UNESCO) · Besease y Ejisu",
   "cat": "Patrimonio UNESCO",
   "prio": "Media",
@@ -890,7 +850,7 @@
   ]
  },
  {
-  "n": 19,
+  "n": 18,
   "name": "Travesía del lago Volta · ferry Yeji–Makango",
   "cat": "Naturaleza",
   "prio": "Media",
@@ -908,6 +868,18 @@
     "credit": "Hugues · CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ferry_Lake_Volta.jpg",
     "caption": "Ferry en el lago Volta."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Volta_Lake_at_Yeji.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Volta_Lake_at_Yeji.jpg",
+    "credit": "Shellback Richan · CC BY-SA 4.0",
+    "caption": "El lago Volta en Yeji."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pontoon_MV_Ndewura_Jakpa.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Pontoon_MV_Ndewura_Jakpa.jpg",
+    "credit": "Shellback Richan · CC BY-SA 4.0",
+    "caption": "El pontón MV Ndewura Jakpa, que cruza de Yeji a Makango."
    }
   ],
   "links": [
@@ -934,7 +906,7 @@
   "_restaurado": true
  },
  {
-  "n": 20,
+  "n": 19,
   "name": "Parque Nacional de Mole · safari a pie entre elefantes",
   "cat": "Naturaleza",
   "prio": "Alta",
@@ -984,7 +956,7 @@
   ]
  },
  {
-  "n": 21,
+  "n": 20,
   "name": "Mezquita de barro de Larabanga",
   "cat": "Cultura",
   "prio": "Alta",
@@ -1034,7 +1006,7 @@
   ]
  },
  {
-  "n": 22,
+  "n": 21,
   "name": "Cocodrilos sagrados de Paga",
   "cat": "Cultura",
   "prio": "Media",
@@ -1084,7 +1056,7 @@
   ]
  },
  {
-  "n": 23,
+  "n": 22,
   "name": "Cataratas de Boti y la palmera de tres cabezas",
   "cat": "Naturaleza",
   "prio": "Media",

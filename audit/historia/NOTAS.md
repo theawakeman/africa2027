@@ -175,3 +175,60 @@
 - Freedom in the World 2025 describe sobre todo el año 2024 y clasifica Malaui como Partly Free, 65/100; la referencia separada a 2026 recoge la mejora posterior a Free, 68/100.
 - La población de 17,6 millones es el recuento censal de 2018; los 21,1 millones son una estimación del Banco Mundial para 2023 y no se mezclan.
 - Los porcentajes de la elección de 2025 se redondean conforme a Associated Press; la fuente oficial del Gobierno confirma el retorno al cargo y la fecha de toma de posesión.
+
+## botsuana
+
+- BBC News (perfil y cronología de Botswana) bloqueado desde esta sesión (SITE_BLOCKED); la cronología se ha reconstruido con Britannica y Wikipedia.
+- La página de Britannica /History solo devolvió la parte precolonial; el protectorado y la etapa independiente se tomaron de las subpáginas «British protectorate» y «Botswana since independence». Britannica /Economy no dio texto utilizable y la página del Banco Mundial devolvió datos de otro país: no se han usado.
+- Discrepancia en religión: el MAEC (julio de 2026) da 86,5 % de cristianos; Wikipedia en inglés, con datos de 2021, 79,1 % cristianos, 15,2 % sin religión y 4,1 % badimo. Se citan ambas con su fuente.
+- Fecha de los diamantes: Wikipedia «History of Botswana» habla de hallazgos en 1969; se usa el descubrimiento de Orapa el 1 de marzo de 1967 (Wikipedia «Orapa diamond mine»), coherente con el texto anterior. No se ha verificado la fecha de creación de Debswana, por eso no se da.
+- Transparency International no indicó el año del índice en la respuesta obtenida (58/100, puesto 41 de 182, +1): por el número de países parece el CPI 2025, publicado en 2026; revisar.
+- Venta de De Beers: situación a julio de 2026 (CNBC Africa); se esperaba el cierre en el último trimestre de 2026, sujeto a la aprobación del Gobierno de Botsuana. Comprobar antes de publicar si ya se ha cerrado.
+- Se descartó un artículo de The Rio Times (septiembre de 2026) sobre la caída de Debswana y una rebaja de S&P a BBB- por incoherencias de fechas; no se ha usado ningún dato suyo.
+- El dato de que el perro no puede entrar en parques ni concesiones procede de la ficha del propio proyecto (content/ficha/botsuana.json), no de una fuente externa abierta en esta sesión.
+- No se ha podido verificar en las fuentes consultadas la postura de la UE ni el acuerdo UE-SADC (el MAEC no los trata); se omite la relación con la UE.
+
+## namibia
+
+- BBC News country profile bloqueado (SITE_BLOCKED); el artículo de Amnistía Internacional de octubre de 2025 sobre reparaciones falló por exceso de redirecciones. La cronología reciente se ha contrastado con Wikipedia, MAEC, Freedom House, OPB/AP e Informanté.
+- Cifras de víctimas del genocidio muy dispares entre fuentes: Wikipedia «History of Namibia» da 24.000–65.000 herero; «Herero and Nama genocide» da 40.000–80.000; Britannica habla de ~90 % de los herero eliminados hacia 1910. Se ofrece el rango 24.000–80.000 atribuido. La fecha del alzamiento nama figura como septiembre de 1904 en Wikipedia y como 1906–1907 (fase de resistencia) en Britannica: se escribe «a finales de 1904».
+- Estado de la declaración conjunta Alemania–Namibia: el 9 de abril de 2026 la presidenta dijo que iría a la Asamblea Nacional antes de firmarse; en el artículo del 18 de junio de 2026 no consta firma. No se ha verificado nada posterior a junio de 2026.
+- Población: el MAEC habla de 3,03 millones «censo 2024»; Wikipedia da 3.022.401 en el censo de 2023 y el Banco Mundial «algo más de 3,1 millones». Religión: MAEC 97 % cristianos frente a 87,9 % (Wikipedia, 2023); se citan ambas.
+- Freedom House 2025 habla de «December elections», pero la votación fue del 27 al 30 de noviembre de 2024 (Wikipedia, MAEC); se usa noviembre. El Banco Mundial reclasifica a Namibia como renta media-baja en 2025, mientras el MAEC sigue citando su graduación a renta media-alta (2015); conviene que el revisor lo confirme en data.worldbank.org.
+- No verificado y por tanto omitido: estado judicial actual del caso Fishrot, Heroes' Day (26 de agosto) como festivo, la papilla oshifima, detalles sobre los himba (la fuente consultada era contradictoria). La participación de España en UNTAG procede solo del MAEC. La huelga de 1971–1972 y el plan Odendaal proceden solo de Wikipedia (la página general de Britannica no cargó con detalle).
+- Las frases prácticas finales (fotos, vestimenta, memoriales) son consejos de redacción, no datos de fuente.
+
+## zimbabue
+
+- Fuentes que fallaron: la ficha del MAEC no carga con «ZIMBABUE_FICHA PAIS.pdf» ni «Zimbabue_…» (404); sí con «ZIMBABWE_FICHA%20PAIS.pdf» (junio de 2026). BBC News está bloqueada desde este entorno y Britannica (place/Zimbabwe y /History) devolvió solo la navegación, sin texto: se retira de las fuentes y se sustituye por Wikipedia (en/es), UNESCO y prensa.
+- La ficha del MAEC de junio de 2026 sigue previendo elecciones generales en 2028; la Enmienda n.º 3, firmada el 7 de julio de 2026 (Wikipedia, HRW, Nehanda Radio en búsqueda), las aplaza a 2030 y suprime la elección presidencial directa. Posibles recursos pendientes ante el Tribunal Superior: revisar antes de publicar.
+- Tipo de cambio del ZiG (26–27 oficial, ~32 paralelo) e inflación en mínimos proceden de Rio Times (5 sep 2026), fuente de prensa secundaria; la inflación del MAEC es ~7 % (marzo de 2026). No se ha abierto la web del RBZ: verificar antes del viaje (mayo de 2027).
+- Discrepancias: PIB per cápita 2.200 USD (MAEC, 2025) frente a 3.070 USD (Wikipedia/FMI, 2025); religión: MAEC da 86,2 % cristianos (sus porcentajes suman más de 100) y Wikipedia 84,1 % (2017). Se usa la cifra de 2017 y se menciona la horquilla del PIB.
+- La cifra de Gukurahundi («al menos 20.000 muertes civiles») procede solo de Wikipedia (History of Zimbabwe); la fuente previa de la CCJP (archive.org) no se ha reabierto en esta sesión y se retira. El ranking de platino (3.º mundial) es de 2019. La etimología «casas de piedra» no se ha podido verificar y se omite.
+
+## sudafrica
+
+- BBC News (country profile) no se pudo abrir: bbc.com y bbc.co.uk devolvieron «SITE_BLOCKED». CNN y CNBC (G20) también fallaron (robots.txt / 403); el G20 se documenta con CIVICUS Lens.
+- Britannica /History solo devolvió el índice y la prehistoria (Klasies River, ~115.000 años); la cronología colonial procede de Wikipedia (en/es), contrastada entre artículos.
+- Discrepancias de fechas: el descubrimiento de diamantes en Kimberley figura como 1866–67 (en) y 1869 (es); se escribe «a finales de la década de 1860». La reocupación británica del Cabo aparece como 1805 en History of South Africa y 1806 (Blaauwberg) en Cape Colony; se usa 1806. La abolición: 1834 (ley) y 1838 (fin del aprendizaje); se da 1834.
+- Liberación de Mandela: ninguna fuente abierta dio literalmente el 11 de febrero de 1990; se escribe «días después» del discurso de De Klerk del 2 de febrero. Cifra de muertos en Soweto 1976: oficial 23 (Wikipedia) frente a ~700 (gov.za); se cita la del Gobierno.
+- El resumen del PDF del MAEC atribuía al GNU partidos como MK y EFF (probable confusión con la composición del Parlamento); se usa la cifra de Wikipedia: diez partidos y 287 de 400 escaños (junio de 2024). No se verificó la composición actual exacta del GNU en 2026 (la Wikipedia de las municipales menciona una amenaza de salida del Patriotic Alliance en septiembre de 2026 que no se ha contrastado y no se incluye).
+- Phala Phala: el resultado de la revisión en el Tribunal Superior del Cabo Occidental (vistas 2–4 de septiembre de 2026) no consta en las fuentes abiertas; conviene actualizar antes de publicar. Sondeos para las municipales (Wikipedia) no se incluyen por no contrastarse.
+- Transparency International: 41/100 y puesto 81 de 182; la página no dejó claro si corresponde al IPC 2024 o 2025, por eso el texto no da año. El MAEC fecha a Ramaphosa «desde el 19 de junio de 2024» (investidura tras la reelección); el texto da el 15 de febrero de 2018 como inicio de su presidencia y junio de 2024 como reelección.
+- Los porcentajes de religión difieren entre el MAEC (cristianos 82 %) y el censo 2022 citado en Wikipedia (85,3 %); se usa el censo. Consejos prácticos finales (fotos, townships) son orientaciones generales, no datos de fuente.
+
+## lesoto
+
+- BBC News (country profile) bloqueado desde esta sesión y Britannica (/History) devolvió solo el índice, sin texto: la cronología precolonial y colonial se apoya en Wikipedia (en), la candidatura UNESCO de 2025 y el Gobierno de Lesoto. Conviene contrastarla con Britannica.
+- La URL del MAEC con «LESOTO» da 404; la ficha correcta está en LESOTHO_FICHA PAIS.pdf (mayo de 2026). La ficha no trata historia, textil ni LHWP; esos datos vienen de otras fuentes citadas.
+- Arancel de EE. UU.: 50 % anunciado en abril de 2025 y 15 % desde agosto de 2025 (Wikipedia, Rio Times). Una fuente secundaria (Rio Times, 7 de septiembre de 2026) afirma que el arancel recíproco caducó el 29 de julio de 2026, pero otra del mismo medio (19 de septiembre) dice que su vigencia es incierta: no se ha escrito nada sobre su estado actual. La prórroga del AGOA hasta el 31 de diciembre de 2028 sí está confirmada por Lesotho Times (10 de septiembre de 2026).
+- Empleo textil: las cifras varían (35.000 trabajadores según NPR, 34.000 o 40.000 según otras fuentes; 12.000 empleos en riesgo o perdidos a mediados de 2025). El texto habla de «miles» para no dar una cifra dudosa. El 49 % de paro juvenil procede de NPR (julio de 2025).
+- Población: el MAEC da 2.337.000 (2024), Wikipedia 2.116.427 (2024) y el Banco Mundial «más de 2,4 millones». Se usa la del MAEC. No se ha verificado la fecha exacta (30 de agosto) del intento de golpe de 2014; el texto solo dice «en 2014». El Índice de Percepción de la Corrupción (37/100, puesto 99 de 182) no se cita por no poder confirmar el año de la edición. RSF menciona el secuestro de un editor (Kananelo Boloetse) con una fecha que no se ha podido contrastar; se ha omitido.
+
+## esuatini
+
+- BBC News (country profile) bloqueado desde esta sesión; Britannica /History solo devolvió el índice y la sección «Colonial administration» apenas aportó datos. La cronología procede sobre todo de Wikipedia (en); conviene contrastarla con Britannica.
+- Lion Cavern: la antigüedad de «al menos 43.000 años» y el título de «mina más antigua del mundo» son afirmaciones de la autoridad turística; el texto las atribuye a esa fuente y no las da por indiscutibles.
+- Número de tinkhundla: la página Tinkhundla de Wikipedia habla de 55 (cifra de 1993) y la de las elecciones de 2023 de 59 circunscripciones; se usa 59 para 2023. La fecha de las próximas elecciones (2028) es una deducción del ciclo quinquenal (2013, 2018, 2023) y así se indica en el texto.
+- Freedom House 2025 es una versión abreviada por recortes presupuestarios: no detalla los poderes de nombramiento del rey; estos proceden de Wikipedia (Constitución de 2005) y de la web del Parlamento (hasta diez diputados y dos tercios del Senado). La gov.sz no cargó (timeout).
+- PIB por habitante: MAEC 4.610 dólares (2025) y Banco Mundial 4.305 (2025); se redondea a «unos 4.600» citando al MAEC. Población: MAEC 1,19 millones (FMI 2025), Banco Mundial 1,3 millones. El pago de 5,1 millones de dólares por los deportados procede de Wikipedia («2026 in Eswatini»); la noticia del Washington Times no cargó (403). La afirmación de que el Umhlanga incluye pruebas de virginidad (Wikipedia) se ha omitido por prudencia; el revisor puede decidir si incluirla.

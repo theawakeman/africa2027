@@ -8,7 +8,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="icon" href="../assets/icons/icon-192.png">
 <link rel="apple-touch-icon" href="../assets/icons/icon-192.png">
-<link rel="stylesheet" href="../assets/css/site.css?v=20260919-1837">
+<link rel="stylesheet" href="../assets/css/site.css?v=20260926-0023">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <title>Documentación general · África 2027</title>
 </head>
@@ -31,7 +31,7 @@
 <section id="starlink"><h2>9 · Starlink Roam</h2><ul class="ticks"><li>Comprobar en la cuenta que el plan Roam permite uso internacional y que el hardware está activado antes de salir de cobertura europea.</li><li>Starlink limita el uso internacional (60 días por viaje según sus condiciones publicadas) y puede restringir el servicio en países no autorizados; revisar el estado país por país (cada ficha lo indica).</li><li>Declarar el equipo en aduanas si se solicita; conservar factura, número de serie y prueba de titularidad. No usar en movimiento salvo en países que lo autoricen.</li><li>Starlink no sustituye una baliza ni la mensajería satelital: mantener SIM/eSIM local + InReach o similar como canal independiente.</li></ul></section>
 <section id="seguridad"><h2>10 · Protocolo de seguridad y conducción</h2><ul class="ticks"><li>No conducir de noche en ningún país del corredor. Ante un retraso: dormir en población o recinto vigilado y reanudar de día.</li><li>Dos vehículos siempre juntos en pista; check-in diario a hora fija con un contacto en España y protocolo de escalado 6/12/24 h sin noticias.</li><li>Ante un control: cortesía, documentos preparados en copias, no entregar originales fuera de ventanilla, no pagar sin recibo, no fotografiar puestos ni fuerzas de seguridad.</li><li>Consultar MAEC España + France Diplomatie + FCDO antes de cada frontera (72 h) y registrar el viaje en el Registro de Viajeros del MAEC.</li><li>Acampada libre solo con validación local; en ciudades, fronteras y áreas protegidas, recinto vigilado con espacio para ambos 4x4.</li><li>Efectivo repartido, copias cifradas de documentos, y nada visible en los vehículos.</li></ul></section>
 <section id="gpx"><h2>11 · GPX y navegación</h2><ul class="ticks"><li>Preparar navegación para OsmAnd y Google Maps; comprobar la importación de cada GPX en OsmAnd (incluidos nombres con tildes).</li><li>Separar tramos asfaltados, pistas sencillas y secciones de arena/navegación; definir autonomía mínima y punto de retorno por etapa.</li><li>Guardar waypoints de combustible, agua, talleres, controles, campamentos, hospitales y salidas de emergencia.</li><li>Dos copias offline por vehículo y una impresa con coordenadas de hospitales, consulados y fronteras.</li><li>No convertir líneas de mapa en instrucciones de conducción: validar con fuentes recientes y guía local.</li></ul></section>
-<footer>ÁFRICA 2027 · Documentación general · versión 20260919-1837 · <a href="../">Portal</a></footer>
+<footer>ÁFRICA 2027 · Documentación general · versión 20260926-0023 · <a href="../">Portal</a></footer>
 </main>
 
 <div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
@@ -43,9 +43,42 @@ if ('serviceWorker' in navigator) {
     if (reg.installing) watch(reg.installing);
     reg.addEventListener('updatefound', () => watch(reg.installing));
   });
-  let reloading = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  // Recargar solo al cambiar de versión, no en la primera instalación (cuando aún no había controlador).
+  let reloading = false; const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !reloading) { reloading = true; location.reload(); } });
   function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
+}
+// Guardar fotos para uso sin conexión (caché «a27-fotos», que sobrevive a las actualizaciones).
+async function a27GuardarFotos(btn){
+  const box = btn.closest('.offline-photos'), out = box.querySelector('.op-msg');
+  if (!('caches' in window)) { out.textContent = 'Este navegador no permite guardar fotos sin conexión.'; return; }
+  let urls = [];
+  try {
+    if (box.dataset.points) {
+      const slugs = JSON.parse(box.dataset.slugs || '[]');
+      const pts = await fetch(box.dataset.points).then(r => r.json());
+      pts.forEach(p => { if (p.type === 'poi' && p.ficha && slugs.some(s => p.ficha.startsWith('paises/' + s + '/'))) (p.photos || []).forEach(x => urls.push(x.img)); });
+    } else urls = JSON.parse(box.dataset.urls || '[]');
+  } catch (e) { out.textContent = 'No se ha podido leer la lista de fotos.'; return; }
+  urls = [...new Set(urls.filter(u => /^https?:/.test(u)))];
+  if (!urls.length) { out.textContent = 'No hay fotos externas que guardar: las de este apartado ya van dentro de la app.'; return; }
+  btn.disabled = true;
+  try { if (navigator.storage && navigator.storage.persist) await navigator.storage.persist(); } catch (e) {}
+  const cache = await caches.open('a27-fotos');
+  let ok = 0, fail = 0, done = 0; const queue = urls.slice();
+  async function one(u){
+    if (await caches.match(u)) { ok++; return; }
+    let res = null;
+    try { res = await fetch(u, {mode: 'cors'}); } catch (e) { res = null; }
+    if (!res || !res.ok) { try { res = await fetch(u, {mode: 'no-cors'}); } catch (e) { res = null; } }
+    if (res && (res.ok || res.type === 'opaque')) { await cache.put(u, res); ok++; } else fail++;
+  }
+  async function worker(){ while (queue.length) { const u = queue.shift(); try { await one(u); } catch (e) { fail++; } done++; out.textContent = 'Guardando… ' + done + ' de ' + urls.length; } }
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  let extra = '';
+  try { if (navigator.storage && navigator.storage.estimate) { const e = await navigator.storage.estimate(); extra = ' La app ocupa unos ' + Math.round((e.usage || 0) / 1048576) + ' MB en este dispositivo.'; } } catch (e) {}
+  out.textContent = (fail ? ok + ' fotos guardadas; ' + fail + ' no se pudieron descargar (sin red o servidor caído): vuelve a pulsar con conexión.' : 'Las ' + ok + ' fotos quedan guardadas para verlas sin conexión.') + extra;
+  btn.disabled = false;
 }
 </script>
 </body>

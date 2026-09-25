@@ -8,9 +8,10 @@ import sys
 from pathlib import Path
 
 from site_common import (SITE, MYMAPS, esc, attr, gmaps, page, table, callout,
-                         bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML, FICHA_FIELDS)
+                         bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML, FICHA_FIELDS, offline_box)
 from admin_panel import render_admin, ADMIN_CSS
 from enlaza_fuentes import enlazar_fuentes
+from presupuesto_page import render_presupuesto
 
 
 def destinos_conocidos():
@@ -476,7 +477,7 @@ def navbar(root, items, brand_suffix=""):
 
 TOP_NAV = [("Mapa", "{root}mapa/"), ("Países", "{root}#paises"), ("El perro", "{root}perro/"),
            ("Visados", "{root}visados/"), ("CPD", "{root}cpd/"),
-           ("Documentación", "{root}documentacion/")]
+           ("Presupuesto", "{root}presupuesto/"), ("Documentación", "{root}documentacion/")]
 
 def top_nav(root, extra=""):
     items = [(t, u.format(root=root)) for t, u in TOP_NAV]
@@ -571,8 +572,12 @@ def render_ficha(d):
                          f'<span class="st {dog_cls(p["dog"])}">{esc(p["dog"])}</span>',
                          gmaps(p["lat"], p["lon"])))
         row_attrs.append(f'data-poi="poi-{p["n"]}"')
+    fotos_ext = sorted({ph["img"] for p in d["pois"] for ph in poi_photos(p) if str(ph["img"]).startswith("http")}
+                       | ({d["hero_img"]} if str(d.get("hero_img", "")).startswith("http") else set()))
     pois_html = (
         "<p>Toca cualquier fila para abrir la ficha del punto; toca las coordenadas para abrirlo en Google Maps.</p>"
+        + (offline_box(f"Guardar las {len(fotos_ext)} fotos de {d['name']} para verlas sin conexión", urls=fotos_ext)
+           if fotos_ext else "")
         + table(("Nombre exacto", "Prioridad", "Tiempo", "Perro", "Coordenadas"), poi_rows, cls="num", row_attrs=row_attrs)
     )
     body.append(sec("pois", "Puntos de interés", pois_html))
@@ -808,6 +813,7 @@ def render_portal(countries):
     root = ""
     nav = top_nav(root)
     ruta_total = sum(1 for c in countries if c["group"] in ("bajada", "bucle", "subida"))
+    ruta_slugs = [c["slug"] for c in countries if c["group"] in ("bajada", "bucle", "subida")]
     ruta_completas = sum(1 for c in countries if c["group"] in ("bajada", "bucle", "subida") and c["estado"] == "completa")
     groups = {}
     for c in countries:
@@ -856,6 +862,7 @@ def render_portal(countries):
   <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua de servicio y combustible. Toca un punto para ver su ficha.</span></div></a>
   <a class="card" href="visados/"><div class="body"><h3>🛂 Visados</h3><span class="meta">Mapa y calendario para pasaporte español: sin visado, electrónico, presencial o en frontera, ajustado a los pasos terrestres de la ruta.</span></div></a>
   <a class="card" href="cpd/"><div class="body"><h3>🚙 CPD</h3><span class="meta">Mapa y auditoría país por país sobre la exigencia del Carnet de Passage para los dos vehículos.</span></div></a>
+  <a class="card" href="presupuesto/"><div class="body"><h3>💶 Presupuesto</h3><span class="meta">Calculadora por vehículo: combustible país a país con el gasóleo actual, visados, CPD, tasas de frontera, ferry, perro y gastos diarios. Editable y sin conexión.</span></div></a>
   <a class="card" href="perro/"><div class="body"><h3>🐕 El perro</h3><span class="meta">Requisitos sanitarios, documentación, fronteras, riesgos y preparación para viajar con el perro.</span></div></a>
   <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
   <a class="card" href="{MYMAPS}" target="_blank" rel="noopener"><div class="body"><h3>📍 My Maps (Google)</h3><span class="meta">Mapa maestro compartido del proyecto (requiere conexión).</span></div></a>
@@ -863,7 +870,9 @@ def render_portal(countries):
 </section>
 <section id="paises"><h2>Fichas de país</h2>{cards_html}</section>
 <section id="offline"><h2>Uso sin conexión</h2>
-<p class="callout" style="display:block"><strong>Instalar en el móvil:</strong> abre esta página en el navegador y usa «Añadir a pantalla de inicio». La app guarda todas las fichas y fotos en el teléfono y funciona sin cobertura; el mapa base necesita internet la primera vez que se ve cada zona. Cuando vuelve a haber conexión, la app comprueba sola si hay cambios y avisa con «Nueva versión disponible».</p>
+<p class="callout" style="display:block"><strong>Instalar en el móvil:</strong> abre esta página en el navegador y usa «Añadir a pantalla de inicio». La app guarda todas las fichas, mapas de puntos y textos en el teléfono y funciona sin cobertura. Las fotos de los PDIs vienen de Wikimedia Commons y otras webs: solo quedan guardadas las que ya se han visto, salvo que se descarguen antes con el botón de abajo (o el de cada país). El mapa base necesita internet la primera vez que se ve cada zona. Cuando vuelve a haber conexión, la app comprueba sola si hay cambios y avisa con «Nueva versión disponible».</p>
+{offline_box("Guardar todas las fotos de la ruta (bajada, bucle y subida) para verlas sin conexión", points="assets/js/points.json", slugs=ruta_slugs)}
+<p class="figcap">Son más de mil fotos (del orden de 150–300 MB). Mejor con wifi, antes de salir. Las fotos guardadas se conservan aunque la app se actualice.</p>
 </section>
 <footer>ÁFRICA 2027 · versión {VERSION} · <a href="documentacion/">documentación</a> · <a href="mapa/">mapa</a></footer>
 </main>"""
@@ -1853,6 +1862,7 @@ def main():
     pages["perro/index.html"] = render_perro()
     pages["cpd/index.html"] = render_cpd()
     pages["visados/index.html"] = render_visados()
+    pages["presupuesto/index.html"] = render_presupuesto(FULL, C, navbar, VERSION)
 
     name_by_slug = {slug: name for slug, name, *_ in C}
     countries_for_admin = [{"slug": slug, "name": name_by_slug.get(slug, slug)}
@@ -1918,7 +1928,7 @@ self.addEventListener('install', e => {
     .then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== 'a27-tiles-esri').map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== 'a27-tiles-esri' && k !== 'a27-fotos').map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener('message', e => { if (e.data === 'skip') self.skipWaiting(); });
 self.addEventListener('fetch', e => {
@@ -1942,6 +1952,14 @@ self.addEventListener('fetch', e => {
       caches.open(VERSION).then(c => c.put(req, copy));
       return res;
     }).catch(() => caches.match(req, {ignoreSearch: true})));
+    return;
+  }
+  // Fotos externas (Commons y otras webs): caché propia que no se borra al actualizar la app.
+  if (req.destination === 'image' && url.origin !== location.origin) {
+    e.respondWith(caches.match(req).then(m => m || fetch(req).then(res => {
+      if (res.ok || res.type === 'opaque') { const copy = res.clone(); caches.open('a27-fotos').then(c => c.put(req, copy)); }
+      return res;
+    })));
     return;
   }
   e.respondWith(caches.match(req, {ignoreSearch: true}).then(m => m || fetch(req).then(res => {

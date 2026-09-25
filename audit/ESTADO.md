@@ -1,6 +1,6 @@
 # Estado de la auditoría integral
 
-Última actualización: 18 de septiembre de 2026.
+Última actualización: 26 de septiembre de 2026.
 
 Este archivo separa las capas de revisión para que «país revisado» no oculte
 trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
@@ -160,3 +160,30 @@ rehecho por Cabinda; la fase activa es la auditoría de agua de servicio por gru
   fronteras, visados, vehículos, etapas, costes, riesgos y agua. El expediente
   de fuentes y las incógnitas que deben cerrarse en 2027 están en
   [`audit/corredor-congo-cabinda.md`](corredor-congo-cabinda.md).
+
+
+## Revisión general del 26-09-2026
+
+Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-revision-2026-09-25`
+(más un bundle completo en `_incoming/restore-2026-09-25.bundle` del clon local).
+
+- **Historia (grupos 7-8):** Botsuana, Namibia, Zimbabue, Sudáfrica, Lesoto y Esuatini tenían la
+  versión corta (6 secciones, ~450 palabras). Reescritas con las siete secciones del encargo
+  `historia/PROMPT_HISTORIA.md` (1.500-1.560 palabras, 25-40 fuentes cada una). Dudas en `historia/NOTAS.md`.
+- **PDIs duplicados** que dejó la recuperación del 19-09: Cataratas de Boti (Ghana) y Benin City
+  (Nigeria) aparecían dos veces. Se conserva la versión auditada; en Benin City se fusiona la
+  descripción histórica larga y los enlaces de la recuperada.
+- **GPS:** Mont Niénokoué (Costa de Marfil) compartía pin con el Parque de Taï; ahora está en la cima
+  (5,42993 N, 7,17658 O, Wikipedia). `tools/validate_gps.py` estaba roto (leía tuplas de los .py);
+  ahora valida lo publicado (`content/pois` y `content/ficha`).
+- **Fotos:** 82 fotos de Commons nuevas (más una de contexto en Valle Blanco) para 50 de los 75 PDIs recuperados, que solo tenían una
+  (búsqueda por coordenadas y por nombre, autor y licencia comprobados; las de contexto lo dicen en
+  el pie). Retiradas 3 fotos rotas (proxy de nikon-fotografie en Valle Blanco y Morocco World News en
+  Bu Craa). Siguen con una sola foto 25 recuperados para los que Commons no tiene nada útil.
+- **Panel de edición:** editar un PDI borraba su galería, su ficha de decisión y sus enlaces, y dejaba
+  la prioridad vacía si era «Alta» o «Media»; guardar la ficha borraba la fuente de los puntos de agua.
+  Corregido.
+- **Visados:** importes añadidos para Guinea, Togo, Benín, Congo, RD Congo, Kenia y Mozambique;
+  Malaui actualizado (exención revocada el 02-01-2026).
+- **Nuevo:** página `/presupuesto/` (calculadora por vehículo) y botón para guardar las fotos sin
+  conexión (por país y de toda la ruta).

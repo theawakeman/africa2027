@@ -22,6 +22,7 @@ No sustituye a comprobar el pin en Google Maps: dice que la coordenada es
 plausible, no que el objeto sea el correcto.
 """
 import importlib.util
+import json
 import math
 import statistics
 import sys
@@ -91,11 +92,31 @@ def carga(slug):
     return m
 
 
-def puntos(m):
-    for p in getattr(m, "POIS", []):
-        yield "PDI", p["n"], p["name"], float(p["lat"]), float(p["lon"])
-    for i, l in enumerate(getattr(m, "LOGISTICS", []), 1):
-        yield "LOG", i, l[0], float(l[2]), float(l[3])
+def puntos(m, slug=None):
+    """Lo publicado manda: content/pois y content/ficha sustituyen al módulo Python."""
+    root = GEN.parents[1]
+    pf = root / "content" / "pois" / f"{slug}.json" if slug else None
+    ff = root / "content" / "ficha" / f"{slug}.json" if slug else None
+    if pf is not None and pf.exists():
+        for p in json.loads(pf.read_text(encoding="utf-8")):
+            yield "PDI", p["n"], p["name"], float(p["lat"]), float(p["lon"])
+    else:
+        for i, p in enumerate(getattr(m, "POIS", []), 1):
+            if isinstance(p, dict):
+                yield "PDI", p.get("n", i), p["name"], float(p["lat"]), float(p["lon"])
+            else:  # tupla (nombre, cat, lat, lon, ...)
+                nums = [x for x in p if isinstance(x, (int, float)) and not isinstance(x, bool)]
+                if len(nums) >= 2:
+                    yield "PDI", i, str(p[0]), float(nums[0]), float(nums[1])
+    logs = None
+    if ff is not None and ff.exists():
+        logs = json.loads(ff.read_text(encoding="utf-8")).get("logistics")
+    if logs is not None:
+        for i, l in enumerate(logs, 1):
+            yield "LOG", i, l["name"], float(l["lat"]), float(l["lon"])
+    else:
+        for i, l in enumerate(getattr(m, "LOGISTICS", []), 1):
+            yield "LOG", i, l[0], float(l[2]), float(l[3])
 
 
 def revisa(slug):
@@ -107,7 +128,7 @@ def revisa(slug):
         print(f"{slug}: sin caja definida en CAJAS, no se puede comprobar")
         return None
     errores, avisos, vistos, coords = [], [], {}, []
-    for tipo, n, nombre, lat, lon in puntos(m):
+    for tipo, n, nombre, lat, lon in puntos(m, slug):
         et = f"{tipo} {n} · {nombre[:44]}"
         if not dentro(caja, lat, lon):
             if dentro(caja, lon, lat):
@@ -132,7 +153,7 @@ def revisa(slug):
             if d > 600:
                 avisos.append(f"PDI {n} · {nombre[:44]}: a {d:.0f} km del centro del país")
     estado = "ERROR" if errores else ("avisos" if avisos else "OK")
-    print(f"{slug}: {estado} · {len(list(puntos(m)))} puntos")
+    print(f"{slug}: {estado} · {len(list(puntos(m, slug)))} puntos")
     for e in errores:
         print(f"   ERROR  {e}")
     for a in avisos:

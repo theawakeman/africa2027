@@ -61,6 +61,10 @@ html { scroll-behavior:smooth; }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
 body { background:var(--bg); color:var(--ink); font-family:"Source Serif 4", Georgia, serif; font-size:16.5px; line-height:1.62; margin:0; }
 img { max-width:100%; }
+.offline-photos { margin:10px 0 14px; font-family:"Archivo",sans-serif; font-size:13.5px; color:var(--ink-soft); }
+.btn-offline { font-family:"Archivo",sans-serif; font-weight:600; font-size:13px; padding:7px 13px; border-radius:8px; border:1px solid var(--teal); background:var(--surface); color:var(--teal); cursor:pointer; margin-right:6px; }
+.btn-offline:disabled { opacity:.5; cursor:wait; }
+pre { white-space:pre-wrap; overflow-wrap:anywhere; overflow-x:auto; max-width:100%; background:var(--surface2); border:1px solid var(--line); border-radius:8px; padding:10px 12px; font-size:13.5px; }
 h1,h2,h3,h4, .nav, .st, .prio, .cat, .time, th, .callout-title, .kicker, .chip-label, .badge, .btn { font-family:"Archivo", "Helvetica Neue", Arial, sans-serif; }
 a { color:var(--link); text-decoration-thickness:1px; text-underline-offset:2px; }
 a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline:2px solid var(--teal); outline-offset:2px; }
@@ -333,11 +337,51 @@ if ('serviceWorker' in navigator) {
     if (reg.installing) watch(reg.installing);
     reg.addEventListener('updatefound', () => watch(reg.installing));
   });
-  let reloading = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  // Recargar solo al cambiar de versión, no en la primera instalación (cuando aún no había controlador).
+  let reloading = false; const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !reloading) { reloading = true; location.reload(); } });
   function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
 }
+// Guardar fotos para uso sin conexión (caché «a27-fotos», que sobrevive a las actualizaciones).
+async function a27GuardarFotos(btn){
+  const box = btn.closest('.offline-photos'), out = box.querySelector('.op-msg');
+  if (!('caches' in window)) { out.textContent = 'Este navegador no permite guardar fotos sin conexión.'; return; }
+  let urls = [];
+  try {
+    if (box.dataset.points) {
+      const slugs = JSON.parse(box.dataset.slugs || '[]');
+      const pts = await fetch(box.dataset.points).then(r => r.json());
+      pts.forEach(p => { if (p.type === 'poi' && p.ficha && slugs.some(s => p.ficha.startsWith('paises/' + s + '/'))) (p.photos || []).forEach(x => urls.push(x.img)); });
+    } else urls = JSON.parse(box.dataset.urls || '[]');
+  } catch (e) { out.textContent = 'No se ha podido leer la lista de fotos.'; return; }
+  urls = [...new Set(urls.filter(u => /^https?:/.test(u)))];
+  if (!urls.length) { out.textContent = 'No hay fotos externas que guardar: las de este apartado ya van dentro de la app.'; return; }
+  btn.disabled = true;
+  try { if (navigator.storage && navigator.storage.persist) await navigator.storage.persist(); } catch (e) {}
+  const cache = await caches.open('a27-fotos');
+  let ok = 0, fail = 0, done = 0; const queue = urls.slice();
+  async function one(u){
+    if (await caches.match(u)) { ok++; return; }
+    let res = null;
+    try { res = await fetch(u, {mode: 'cors'}); } catch (e) { res = null; }
+    if (!res || !res.ok) { try { res = await fetch(u, {mode: 'no-cors'}); } catch (e) { res = null; } }
+    if (res && (res.ok || res.type === 'opaque')) { await cache.put(u, res); ok++; } else fail++;
+  }
+  async function worker(){ while (queue.length) { const u = queue.shift(); try { await one(u); } catch (e) { fail++; } done++; out.textContent = 'Guardando… ' + done + ' de ' + urls.length; } }
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  let extra = '';
+  try { if (navigator.storage && navigator.storage.estimate) { const e = await navigator.storage.estimate(); extra = ' La app ocupa unos ' + Math.round((e.usage || 0) / 1048576) + ' MB en este dispositivo.'; } } catch (e) {}
+  out.textContent = (fail ? ok + ' fotos guardadas; ' + fail + ' no se pudieron descargar (sin red o servidor caído): vuelve a pulsar con conexión.' : 'Las ' + ok + ' fotos quedan guardadas para verlas sin conexión.') + extra;
+  btn.disabled = false;
+}
 </script>"""
+
+def offline_box(label, urls=None, points=None, slugs=None):
+    """Botón para guardar fotos externas en el dispositivo (ver a27GuardarFotos)."""
+    data = (f' data-urls="{attr(json.dumps(urls, ensure_ascii=False))}"' if urls is not None
+            else f' data-points="{attr(points)}" data-slugs="{attr(json.dumps(slugs))}"')
+    return (f'<div class="offline-photos"{data}><button type="button" class="btn-offline" onclick="a27GuardarFotos(this)">'
+            f'⤓ {esc(label)}</button> <span class="op-msg"></span></div>')
 
 MODAL_JS = """
 <script>

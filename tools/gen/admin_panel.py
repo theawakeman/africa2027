@@ -120,9 +120,12 @@ const REPEATER_DEFS = {
     fromArr:a=>({label:a?.[0]??"", url:a?.[1]??""}), toArr:o=>[o.label||"", o.url||""]},
   logistics: {label:"Logística (hospitales, fronteras, combustible, agua, consulados...)", hint:"Puntos que aparecen en la capa de emergencias y logística del mapa.",
     fields:[{name:"name", label:"Nombre"}, {name:"cat", label:"Categoría", ph:"Hospital / Frontera / Combustible / Agua potable / Consular"},
-      {name:"lat", label:"Latitud", num:true}, {name:"lon", label:"Longitud", num:true}, {name:"info", label:"Información", ta:true}],
-    fromArr:o=>({name:o?.name??"", cat:o?.cat??"", lat:o?.lat??"", lon:o?.lon??"", info:o?.info??""}),
-    toArr:o=>({name:o.name||"", cat:o.cat||"", lat:parseFloat(o.lat)||0, lon:parseFloat(o.lon)||0, info:o.info||""})},
+      {name:"lat", label:"Latitud", num:true}, {name:"lon", label:"Longitud", num:true}, {name:"info", label:"Información", ta:true},
+      {name:"source", label:"Fuente (URL que respalda el punto)"}],
+    // Se conservan los campos que el formulario no muestra; «source» solo se escribe si tiene valor.
+    fromArr:o=>({...(o||{}), name:o?.name??"", cat:o?.cat??"", lat:o?.lat??"", lon:o?.lon??"", info:o?.info??"", source:o?.source??""}),
+    toArr:o=>{ const out = {...o, name:o.name||"", cat:o.cat||"", lat:parseFloat(o.lat), lon:parseFloat(o.lon), info:o.info||""};
+               if (!out.source) delete out.source; return out; }},
   custom_sections: {label:"Secciones personalizadas (antes de logística y fuentes)", hint:"Resumen operativo, historia, ruta, agua y combustible… Contenido en HTML.",
     fields:[{name:"id", label:"ID (ancla, sin espacios ni acentos)", ph:"p. ej. resumen"}, {name:"title", label:"Título visible"},
       {name:"html", label:"Contenido (HTML)", ta:true, big:true}],
@@ -305,7 +308,7 @@ function renderPoiList(){
   if (!currentPois || !currentPois.length){ list.innerHTML = "<p class='hint'>Este país todavía no tiene puntos.</p>"; return; }
   list.innerHTML = currentPois.map((p, i) => `
     <div class="poi-row">
-      <img src="${imgSrc(p.img)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
+      <img src="${imgSrc(firstPhoto(p).img)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">
       <div class="meta"><b>${p.name || "(sin nombre)"}</b><span>${p.cat || ""}${p.prio ? " · " + p.prio : ""}</span></div>
       <div class="acts">
         <button onclick="openEdit(${i})">Editar</button>
@@ -314,23 +317,43 @@ function renderPoiList(){
     </div>`).join("");
 }
 
+// Los PDIs auditados guardan la galería en «photos»; los campos img/credit/source
+// son el formato antiguo. El formulario edita siempre la primera foto.
+function firstPhoto(p){
+  if (Array.isArray(p.photos) && p.photos.length && p.photos[0].img) return p.photos[0];
+  return {img: p.img || "", credit: p.credit || "", source: p.source || ""};
+}
+
+// Un <select> sin la opción guardada devolvería "" y borraría el valor al guardar.
+function setSelect(id, value){
+  const sel = document.getElementById(id);
+  if (value && ![...sel.options].some(o => o.value === value)) sel.add(new Option(value, value));
+  sel.value = value;
+}
+
 function openEdit(index){
   editingIndex = index;
   const p = index === null ? {} : currentPois[index];
   document.getElementById("formTitle").textContent = index === null ? "Añadir punto nuevo" : "Editar punto";
   document.getElementById("f_name").value = p.name || "";
   document.getElementById("f_cat").value = p.cat || "";
-  document.getElementById("f_prio").value = p.prio || "Recomendable";
-  document.getElementById("f_color").value = p.color || "ambar";
+  setSelect("f_prio", p.prio || "Media");
+  setSelect("f_color", ({"marrón":"marron","ámbar":"ambar"})[p.color] || p.color || "ambar");
   document.getElementById("f_dog").value = p.dog || "";
   document.getElementById("f_dog_note").value = p.dog_note || "";
   document.getElementById("f_time").value = p.time || "";
   document.getElementById("f_lat").value = p.lat ?? "";
   document.getElementById("f_lon").value = p.lon ?? "";
   document.getElementById("f_desc").value = p.desc || "";
-  document.getElementById("f_img").value = p.img || "";
-  document.getElementById("f_credit").value = p.credit || "";
-  document.getElementById("f_source").value = p.source || "";
+  const ph = firstPhoto(p);
+  document.getElementById("f_img").value = ph.img || "";
+  document.getElementById("f_credit").value = ph.credit || "";
+  document.getElementById("f_source").value = ph.source || "";
+  const extra = [];
+  if (Array.isArray(p.photos) && p.photos.length > 1) extra.push(`galería de ${p.photos.length} fotos (aquí se edita la primera)`);
+  if (p.visit) extra.push("ficha de decisión");
+  if (Array.isArray(p.links) && p.links.length) extra.push(`${p.links.length} enlaces`);
+  document.getElementById("f_keep").textContent = extra.length ? "Se conservan sin cambios: " + extra.join(", ") + "." : "";
   document.getElementById("f_icon").value = p.icon || "";
   document.getElementById("formCard").hidden = false;
   document.getElementById("formCard").scrollIntoView({behavior:"smooth", block:"start"});
@@ -361,8 +384,11 @@ function submitForm(ev){
     msg("Nombre, latitud y longitud son obligatorios.", "err");
     return;
   }
+  // Partir del punto existente para no perder galería, ficha de decisión ni enlaces.
+  const prev = editingIndex === null ? {} : currentPois[editingIndex];
   const poi = {
-    n: editingIndex === null ? nextN() : currentPois[editingIndex].n,
+    ...prev,
+    n: editingIndex === null ? nextN() : prev.n,
     name, lat, lon,
     cat: document.getElementById("f_cat").value.trim(),
     prio: document.getElementById("f_prio").value,
@@ -376,6 +402,12 @@ function submitForm(ev){
     source: document.getElementById("f_source").value.trim(),
     icon: document.getElementById("f_icon").value.trim(),
   };
+  if (Array.isArray(prev.photos) && prev.photos.length){
+    const ph = {...prev.photos[0], img: poi.img, credit: poi.credit, source: poi.source};
+    poi.photos = poi.img ? [ph, ...prev.photos.slice(1)] : prev.photos.slice(1);
+  } else if (poi.img){
+    poi.photos = [{img: poi.img, credit: poi.credit, source: poi.source, caption: ""}];
+  }
   if (editingIndex === null) currentPois.push(poi);
   else currentPois[editingIndex] = poi;
   savePois(`${editingIndex === null ? "Añadir" : "Editar"} POI: ${name} (${currentSlug})`);
@@ -386,7 +418,7 @@ async function savePois(commitMessage){
   try {
     const body = {
       message: commitMessage,
-      content: utf8ToB64(JSON.stringify(currentPois, null, 2) + "\n"),
+      content: utf8ToB64(JSON.stringify(currentPois, null, 1)),
       sha: currentSha,
       branch: BRANCH,
     };
@@ -491,6 +523,7 @@ def render_admin(countries_for_admin):
           <div><label for="f_cat">Categoría</label><input type="text" id="f_cat" placeholder="p. ej. Naturaleza y cultura"></div>
           <div><label for="f_prio">Prioridad</label>
             <select id="f_prio">
+              <option>Alta</option><option>Media</option><option>Baja</option>
               <option>Imprescindible</option><option>Muy recomendable</option>
               <option>Recomendable</option><option>Opcional</option>
             </select>
@@ -513,6 +546,7 @@ def render_admin(countries_for_admin):
           <div><label for="f_credit">Crédito de la foto</label><input type="text" id="f_credit"></div>
           <div><label for="f_source">Fuente (URL)</label><input type="url" id="f_source"></div>
         </div>
+        <p class="hint" id="f_keep"></p>
 
         <div class="row2">
           <div><label for="f_dog">Perro (estado)</label><input type="text" id="f_dog" placeholder="p. ej. permitido con condiciones"></div>

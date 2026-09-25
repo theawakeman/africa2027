@@ -151,50 +151,6 @@
  },
  {
   "n": 4,
-  "name": "Benin City · Palacio del Oba, bronces y murallas",
-  "cat": "Cultura",
-  "prio": "Alta",
-  "dog": "permitido con condiciones",
-  "time": "1–2 noches",
-  "lat": 6.334986,
-  "lon": 5.6037465,
-  "desc": "Capital del reino de Benín, uno de los Estados africanos más sofisticados de la historia, que en el siglo XVI asombró a los portugueses por su tamaño, su orden y su alumbrado público. De él salieron los célebres «bronces de Benín», millares de placas y cabezas de latón fundidas a la cera perdida que los británicos saquearon en la expedición punitiva de 1897 y que hoy están en el centro de la mayor disputa de restitución patrimonial del mundo. El Palacio del Oba sigue siendo sede activa de la monarquía edo y se visita con guía; el Museo Nacional de Benin City, en la rotonda de King's Square, conserva piezas originales; el barrio de Igun Street mantiene vivo el gremio de fundidores de bronce desde hace siglos y está en la lista indicativa de la UNESCO. La ciudad está rodeada además por las murallas y fosos de Benín (Iya), un sistema de terraplenes de miles de kilómetros construido entre los siglos XIII y XV, hoy en gran parte devorado por el crecimiento urbano pero todavía identificable en tramos. ATENCIÓN: el nuevo Museum of West African Art (MOWAA) abrió su Pavilion en noviembre de 2025 en medio de una disputa abierta con la corte del Oba y con el gobierno del estado de Edo — confirmar si está abierto al público antes de contar con él.",
-  "icon": "cultura",
-  "color": "morado",
-  "dog_note": "",
-  "photos": [
-   {
-    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/University_of_Benin_Staff_School%2C_Benin_City%2C_Edo_State.jpg?width=1600",
-    "credit": "Favouridowu · CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:University_of_Benin_Staff_School%2C_Benin_City%2C_Edo_State.jpg",
-    "caption": "Benin City. Foto de contexto: no es el objeto exacto del punto."
-   }
-  ],
-  "links": [
-   {
-    "label": "Nigeria — lista indicativa y sitios del Patrimonio Mundial (UNESCO)",
-    "url": "https://whc.unesco.org/en/statesparties/ng"
-   },
-   {
-    "label": "Royal Palace of the Oba of Benin — Wikipedia (EN)",
-    "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_the_Oba_of_Benin"
-   },
-   {
-    "label": "Benin Moat (murallas del Iya) — Wikipedia (EN)",
-    "url": "https://en.wikipedia.org/wiki/Benin_Moat"
-   }
-  ],
-  "visit": {
-   "why": "Es la única parada de toda la travesía que permite pisar la capital de un Estado africano precolonial de primer orden y encontrárselo todavía en funcionamiento: el Oba de Benín sigue reinando y el palacio es residencia real en activo, no una ruina musealizada. Para quien viene de mil kilómetros de mercados y gasolineras, es el punto donde la ruta deja de ser paisaje y se vuelve historia.",
-   "see": "El palacio que se ve no es el que asombró a los portugueses: la expedición punitiva británica de 1897 arrasó el complejo y el edificio actual lo levantó el Oba Eweka II durante su reinado (1914–1932). Alrededor, el Museo Nacional en King's Square, la calle Igun con los talleres de fundidores de bronce a la cera perdida que siguen trabajando, y los restos del Iya: los doce kilómetros de muralla y foso del recinto interior, hoy taludes arbolados incrustados entre casas, de los que se ha destruido más de la mitad desde los años sesenta. El conjunto figura en la lista indicativa de la UNESCO desde 1995 como «Benin Iya / Sungbo's Eredo», sin llegar a estar inscrito.",
-   "access": "El pin es aproximado: cae sobre el centroide de la ciudad, no sobre la puerta del palacio, que queda algo al este en el entorno de Ring Road / King's Square; Benin City es una capital de más de millón y medio de habitantes y todo el acceso es asfalto, sin necesidad de 4x4. El palacio es una residencia real: la entrada no es libre ni tiene horario publicado en ninguna fuente abierta, se gestiona con permiso y guía del propio palacio y hay patios vedados y restricciones de fotografía. Dos avisos que cambian el plan: los bronces de Benín devueltos por Europa no están expuestos al público, porque en 2023 el Estado nigeriano los entregó al Oba Ewuare II; y el MOWAA (Museum of West African Art), construido al lado y anunciado para el 11 de noviembre de 2025, no llegó a abrir por el choque entre el gobernador de Edo y el palacio, y sigue cerrado, así que hay que confirmarlo antes de contar con él. No es parque ni reserva y no hay norma publicada sobre animales, pero en el recinto palaciego lo sensato es que el perro se quede en el coche con alguien.",
-   "when": "Un día completo, y mejor entre semana y por la mañana, que es cuando se encuentra a los fundidores de Igun trabajando y cuando es más fácil que cuaje el permiso del palacio. Evitar julio–septiembre: es lo más húmedo, gris y lluvioso del año en Benin City.",
-   "skip": "Si vienen sólo por los bronces, no están: quien no consiga permiso de palacio y encuentre el MOWAA todavía cerrado se queda con el Museo Nacional y la calle de los fundidores, que son media mañana, no una etapa. También decae si toca en plena temporada de lluvias con los coches cargados y la prioridad es cruzar Nigeria rápido: Edo no figura entre los estados con restricción específica del FCDO, pero el aviso general de secuestro y delito violento en todo el país aconseja no alargar la estancia urbana sin motivo."
-  },
-  "_restaurado": true
- },
- {
-  "n": 5,
   "name": "Cruce del Níger · puente de Asaba-Onitsha",
   "cat": "Ciudad · servicios",
   "prio": "Media",
@@ -212,6 +168,18 @@
     "credit": "Shiraz Chakera · CC BY-SA 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Bridge_over_the_Niger_into_Onitsha.jpg",
     "caption": "El puente sobre el Níger, entre Asaba y Onitsha."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_River_Niger_Bridge_as_viewed_from_Asaba.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:The_River_Niger_Bridge_as_viewed_from_Asaba.jpg",
+    "credit": "Idimean · CC BY-SA 4.0",
+    "caption": "El puente del Níger visto desde Asaba."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sideview_of_River_Niger_bridge,_Nigeria.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Sideview_of_River_Niger_bridge,_Nigeria.jpg",
+    "credit": "MediaMOF · CC BY-SA 4.0",
+    "caption": "Vista lateral del puente de Onitsha."
    }
   ],
   "links": [
@@ -238,7 +206,7 @@
   "_restaurado": true
  },
  {
-  "n": 6,
+  "n": 5,
   "name": "Calabar",
   "cat": "Ciudad · servicios",
   "prio": "Alta",
@@ -288,7 +256,7 @@
   ]
  },
  {
-  "n": 7,
+  "n": 6,
   "name": "Drill Ranch de Calabar (Pandrillus)",
   "cat": "Naturaleza",
   "prio": "Alta",
@@ -338,7 +306,7 @@
   ]
  },
  {
-  "n": 8,
+  "n": 7,
   "name": "Parque Nacional de Cross River · división de Oban",
   "cat": "Naturaleza",
   "prio": "Alta",
@@ -388,7 +356,7 @@
   ]
  },
  {
-  "n": 9,
+  "n": 8,
   "name": "Monolitos de Alok / Ikom",
   "cat": "Cultura · lista indicativa",
   "prio": "Media",
@@ -438,7 +406,7 @@
   ]
  },
  {
-  "n": 10,
+  "n": 9,
   "name": "Cataratas de Agbokim",
   "cat": "Naturaleza",
   "prio": "Alta",
@@ -488,7 +456,7 @@
   ]
  },
  {
-  "n": 11,
+  "n": 10,
   "name": "Montaña de Afi · santuario de drills y gorilas de Cross River",
   "cat": "Naturaleza",
   "prio": "Alta",
@@ -538,7 +506,7 @@
   ]
  },
  {
-  "n": 12,
+  "n": 11,
   "name": "Meseta de Obudu (Obudu Mountain Resort)",
   "cat": "Naturaleza",
   "prio": "Alta",
@@ -588,7 +556,7 @@
   ]
  },
  {
-  "n": 13,
+  "n": 12,
   "name": "Bosque Sagrado de Osun-Osogbo (UNESCO)",
   "cat": "Patrimonio UNESCO",
   "prio": "Alta",
@@ -638,7 +606,7 @@
   ]
  },
  {
-  "n": 14,
+  "n": 13,
   "name": "Ibadan",
   "cat": "Ciudad · servicios",
   "prio": "Media",
@@ -656,6 +624,18 @@
     "credit": "Lafemo 123 · CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Ibadan_from_the_top_of_Mapo_Hall_1.jpg",
     "caption": "Ibadán desde el Mapo Hall."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Ibadan_City_2.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Ibadan_City_2.jpg",
+    "credit": "N. E. Nkoro · CC BY-SA 4.0",
+    "caption": "Ibadan desde el Premier Hotel."
+   },
+   {
+    "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Overview_Ibadan,_Nigeria.jpg?width=1200",
+    "source": "https://commons.wikimedia.org/wiki/File:Overview_Ibadan,_Nigeria.jpg",
+    "credit": "MWteL · CC BY-SA 4.0",
+    "caption": "Tejados de Ibadan."
    }
   ],
   "links": [
@@ -678,7 +658,7 @@
   "_restaurado": true
  },
  {
-  "n": 15,
+  "n": 14,
   "name": "Abeokuta y la roca de Olumo",
   "cat": "Cultura",
   "prio": "Alta",
@@ -728,15 +708,15 @@
   ]
  },
  {
-  "n": 16,
-  "name": "Benin City · palacio del Oba y patrimonio edo",
+  "n": 15,
+  "name": "Benin City · palacio del Oba, bronces y murallas",
   "cat": "Cultura",
   "prio": "Alta",
   "dog": "permitido con condiciones",
   "time": "1–2 noches",
   "lat": 6.332072,
   "lon": 5.6203246,
-  "desc": "Benin City conserva el palacio del Oba y el patrimonio artístico edo. MOWAA es un centro distinto y en 2026 limita el acceso público a cita previa.",
+  "desc": "Capital del reino de Benín, uno de los Estados africanos más sofisticados de la historia, que en el siglo XVI asombró a los portugueses por su tamaño, su orden y su alumbrado público. De él salieron los célebres «bronces de Benín», millares de placas y cabezas de latón fundidas a la cera perdida que los británicos saquearon en la expedición punitiva de 1897 y que hoy están en el centro de la mayor disputa de restitución patrimonial del mundo. El Palacio del Oba sigue siendo sede activa de la monarquía edo y se visita con guía; el Museo Nacional de Benin City, en la rotonda de King's Square, conserva piezas originales; el barrio de Igun Street mantiene vivo el gremio de fundidores de bronce desde hace siglos y está en la lista indicativa de la UNESCO. La ciudad está rodeada además por las murallas y fosos de Benín (Iya), un sistema de terraplenes de miles de kilómetros construido entre los siglos XIII y XV, hoy en gran parte devorado por el crecimiento urbano pero todavía identificable en tramos. ATENCIÓN: el nuevo Museum of West African Art (MOWAA) abrió su Pavilion en noviembre de 2025 en medio de una disputa abierta con la corte del Oba y con el gobierno del estado de Edo — confirmar si está abierto al público antes de contar con él.",
   "credit": "Kelechukwu Ajoku · CC BY-SA 4.0",
   "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Palace_of_the_Oba_of_Benin.jpg?width=1200",
   "source": "https://commons.wikimedia.org/wiki/File:Royal_Palace_of_the_Oba_of_Benin.jpg",
@@ -754,6 +734,18 @@
    {
     "label": "MOWAA · acceso y programa actual",
     "url": "https://wearemowaa.org/"
+   },
+   {
+    "label": "Nigeria — lista indicativa y sitios del Patrimonio Mundial (UNESCO)",
+    "url": "https://whc.unesco.org/en/statesparties/ng"
+   },
+   {
+    "label": "Royal Palace of the Oba of Benin — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_the_Oba_of_Benin"
+   },
+   {
+    "label": "Benin Moat (murallas del Iya) — Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Benin_Moat"
    }
   ],
   "photos": [
@@ -778,7 +770,7 @@
   ]
  },
  {
-  "n": 17,
+  "n": 16,
   "name": "Ibadan · Mapo Hall y Cocoa House",
   "cat": "Ciudad · servicios",
   "prio": "Media",

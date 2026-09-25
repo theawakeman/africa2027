@@ -4,7 +4,6 @@
   <Style id="icon-poi-ambar"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,C47F17,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-azul"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,2B6CB0,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-gris"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,666666,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
-  <Style id="icon-poi-marron"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,8B5A2B,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-morado"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-naranja"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,D97B29,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-poi-turquesa"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1502-shape_star_4x.png&amp;highlight=ff000000,1E7A8A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
@@ -26,8 +25,8 @@
   <Placemark>
     <name>Saint-Louis – isla histórica</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/senegal/03.jpg" width="320"/><br/><b>Imprescindible · Patrimonio UNESCO</b><br/>La isla de Saint‑Louis conserva un trazado urbano, muelles y arquitectura de los siglos XIX y XX alrededor del puente Faidherbe. Es también la base práctica para Djoudj y Gandiol.<br/><b>Perro:</b> permitido con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.02607,-16.50373">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-marron</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Marrón</SimpleData></SchemaData></ExtendedData>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-16.50373,16.02607,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -54,8 +53,8 @@
   <Placemark>
     <name>Isla de Gorée</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/senegal/07.jpg" width="320"/><br/><b>Imprescindible · Patrimonio UNESCO</b><br/>Gorée reúne arquitectura insular, fuertes y espacios de memoria ligados a la trata atlántica. La Maison des Esclaves es importante como lugar memorial, aunque algunos detalles de su relato histórico se debaten.<br/><b>Perro:</b> pendiente de confirmación oficial para chalupa y museos<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.66786,-17.39893">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-marron</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Marrón</SimpleData></SchemaData></ExtendedData>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-17.39893,14.66786,0</coordinates></Point>
   </Placemark>
   <Placemark>
@@ -68,15 +67,15 @@
   <Placemark>
     <name>Monumento del Renacimiento Africano</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/senegal/09.jpg" width="320"/><br/><b>Recomendable · Monumento y mirador</b><br/>El Monumento del Renacimiento Africano domina Dakar desde una colina de Ouakam. La visita permite rodear la escultura y, si está abierto, subir al mirador interior.<br/><b>Perro:</b> permitido con condiciones en exterior<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.72221,-17.49495">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-marron</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Marrón</SimpleData></SchemaData></ExtendedData>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-17.49495,14.72221,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Joal-Fadiouth – isla de conchas</name>
     <description><![CDATA[<img src="https://theawakeman.github.io/africa2027/assets/img/senegal/10.jpg" width="320"/><br/><b>Muy recomendable · Cultura y manglar</b><br/>Fadiouth es una isla peatonal construida sobre conchas y unida a Joal por un puente. Otro puente conduce a un cementerio compartido por comunidades musulmana y cristiana.<br/><b>Perro:</b> permitido con condiciones; confirmar puente y cementerio<br/><a href="https://theawakeman.github.io/africa2027/paises/senegal/#poi-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=14.18117,-16.85029">Google Maps</a>]]></description>
-    <styleUrl>#icon-poi-marron</styleUrl>
-    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Marrón</SimpleData></SchemaData></ExtendedData>
+    <styleUrl>#icon-poi-ambar</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">PDI · Ámbar</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-16.85029,14.18117,0</coordinates></Point>
   </Placemark>
   <Placemark>

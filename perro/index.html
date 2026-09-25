@@ -8,7 +8,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="icon" href="../assets/icons/icon-192.png">
 <link rel="apple-touch-icon" href="../assets/icons/icon-192.png">
-<link rel="stylesheet" href="../assets/css/site.css?v=20260919-1837">
+<link rel="stylesheet" href="../assets/css/site.css?v=20260926-0023">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <title>El perro · África 2027</title><link rel="stylesheet" href="../assets/vendor/leaflet.css"><script src="../assets/vendor/leaflet.js"></script><script src="../assets/js/perromap.js"></script>
 </head>
@@ -494,9 +494,42 @@ if ('serviceWorker' in navigator) {
     if (reg.installing) watch(reg.installing);
     reg.addEventListener('updatefound', () => watch(reg.installing));
   });
-  let reloading = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!reloading) { reloading = true; location.reload(); } });
+  // Recargar solo al cambiar de versión, no en la primera instalación (cuando aún no había controlador).
+  let reloading = false; const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !reloading) { reloading = true; location.reload(); } });
   function show(reg){ const el = document.getElementById('upd'); el.hidden = false; el.onclick = () => { el.hidden = true; reg.waiting && reg.waiting.postMessage('skip'); }; }
+}
+// Guardar fotos para uso sin conexión (caché «a27-fotos», que sobrevive a las actualizaciones).
+async function a27GuardarFotos(btn){
+  const box = btn.closest('.offline-photos'), out = box.querySelector('.op-msg');
+  if (!('caches' in window)) { out.textContent = 'Este navegador no permite guardar fotos sin conexión.'; return; }
+  let urls = [];
+  try {
+    if (box.dataset.points) {
+      const slugs = JSON.parse(box.dataset.slugs || '[]');
+      const pts = await fetch(box.dataset.points).then(r => r.json());
+      pts.forEach(p => { if (p.type === 'poi' && p.ficha && slugs.some(s => p.ficha.startsWith('paises/' + s + '/'))) (p.photos || []).forEach(x => urls.push(x.img)); });
+    } else urls = JSON.parse(box.dataset.urls || '[]');
+  } catch (e) { out.textContent = 'No se ha podido leer la lista de fotos.'; return; }
+  urls = [...new Set(urls.filter(u => /^https?:/.test(u)))];
+  if (!urls.length) { out.textContent = 'No hay fotos externas que guardar: las de este apartado ya van dentro de la app.'; return; }
+  btn.disabled = true;
+  try { if (navigator.storage && navigator.storage.persist) await navigator.storage.persist(); } catch (e) {}
+  const cache = await caches.open('a27-fotos');
+  let ok = 0, fail = 0, done = 0; const queue = urls.slice();
+  async function one(u){
+    if (await caches.match(u)) { ok++; return; }
+    let res = null;
+    try { res = await fetch(u, {mode: 'cors'}); } catch (e) { res = null; }
+    if (!res || !res.ok) { try { res = await fetch(u, {mode: 'no-cors'}); } catch (e) { res = null; } }
+    if (res && (res.ok || res.type === 'opaque')) { await cache.put(u, res); ok++; } else fail++;
+  }
+  async function worker(){ while (queue.length) { const u = queue.shift(); try { await one(u); } catch (e) { fail++; } done++; out.textContent = 'Guardando… ' + done + ' de ' + urls.length; } }
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  let extra = '';
+  try { if (navigator.storage && navigator.storage.estimate) { const e = await navigator.storage.estimate(); extra = ' La app ocupa unos ' + Math.round((e.usage || 0) / 1048576) + ' MB en este dispositivo.'; } } catch (e) {}
+  out.textContent = (fail ? ok + ' fotos guardadas; ' + fail + ' no se pudieron descargar (sin red o servidor caído): vuelve a pulsar con conexión.' : 'Las ' + ok + ' fotos quedan guardadas para verlas sin conexión.') + extra;
+  btn.disabled = false;
 }
 </script>
 </body>
