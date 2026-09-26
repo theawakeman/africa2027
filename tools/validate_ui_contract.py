@@ -75,10 +75,11 @@ require("assets/css/site.css?v=" in visa_html, "falta versionar el CSS de Visado
 require("assets/js/visamap.js?v=" in visa_html, "falta versionar el mapa de Visados")
 require("function a27VisaMap" in visa_js, "falta el mapa interactivo de Visados")
 require('class="cards portal-access"' in portal_html and
-        all(f'href="{path}/"' in portal_html for path in ("mapa", "visados", "cpd", "perro", "documentacion")),
-        "el portal debe conservar los accesos directos a Mapa, Visados, CPD, El perro y Documentación")
-require('.cards.portal-access { grid-auto-rows:1fr; }' in css,
-        "los seis accesos principales deben tener la misma altura")
+        all(f'href="{path}/"' in portal_html for path in ("mapa", "visados", "cpd", "presupuesto", "perro", "documentacion"))
+        and portal_html.split('class="cards portal-access"')[1].split('</div>\n</section>')[0].count('class="card"') == 6,
+        "el portal debe tener exactamente seis accesos: Mapa, Visados, CPD, Presupuesto, El perro y Documentación")
+require('.cards.portal-access { grid-auto-rows:1fr;' in css and 'grid-template-columns:repeat(3,minmax(0,1fr))' in css,
+        "los seis accesos principales deben tener la misma altura y formar dos filas de tres")
 visa_match = re.search(r'<script>var A27_VISAS = (\{.*?\});</script>', visa_html, re.S)
 require(visa_match, "no se encuentra la configuración del mapa de Visados")
 visa_config = json.loads(visa_match.group(1))

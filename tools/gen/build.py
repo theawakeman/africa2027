@@ -865,7 +865,6 @@ def render_portal(countries):
   <a class="card" href="presupuesto/"><div class="body"><h3>💶 Presupuesto</h3><span class="meta">Calculadora por vehículo: combustible país a país con el gasóleo actual, visados, CPD, tasas de frontera, ferry, perro y gastos diarios. Editable y sin conexión.</span></div></a>
   <a class="card" href="perro/"><div class="body"><h3>🐕 El perro</h3><span class="meta">Requisitos sanitarios, documentación, fronteras, riesgos y preparación para viajar con el perro.</span></div></a>
   <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
-  <a class="card" href="{MYMAPS}" target="_blank" rel="noopener"><div class="body"><h3>📍 My Maps (Google)</h3><span class="meta">Mapa maestro compartido del proyecto (requiere conexión).</span></div></a>
 </div>
 </section>
 <section id="paises"><h2>Fichas de país</h2>{cards_html}</section>
