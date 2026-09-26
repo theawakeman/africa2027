@@ -144,7 +144,7 @@ function paintStatic(){
   }).join('');
   // Visados
   $('bud-visados').innerHTML = D.visados.map(v => `<tr data-row="${v.id}"><td>${chk(v.id, v.on)}</td><td><strong>${v.pais}</strong><span class="nota">${v.txt} · <a href="${v.url}" target="_blank" rel="noopener">fuente</a></span></td>
-    <td class="n">${inp(v.id+'.eur', v.eur, 1)}</td><td class="n">${inp(v.id+'.n', v.n, 1)}</td><td class="n" data-o="pp"></td></tr>`).join('');
+    <td class="n">${inp(v.id+'.eur', v.eur, 1)}</td><td class="n">${inp(v.id+'.n', v.n, 1)}</td><td class="n" data-o="pp"></td><td class="n" data-o="grp"></td></tr>`).join('');
   // Tasas de frontera
   $('bud-tasas').innerHTML = D.tasas.map(v => `<tr data-row="${v.id}"><td>${chk(v.id, v.on)}</td><td><strong>${v.pais}</strong><span class="nota">${v.txt}${v.eur === 0 ? ' · <strong>sin importe: no suma nada</strong>' : ''}</span></td>
     <td class="n">${inp(v.id+'.eur', v.eur, 1)}</td></tr>`).join('');
@@ -179,16 +179,22 @@ function compute(){
   $('bud-km').textContent = num(kmTot) + ' km';
   veh.forEach(v => { $('bud-tf-'+v.id).innerHTML = `${eur(R[v.id].comb)}<span class="nota">${num(R[v.id].litros)} L</span>`; });
   $('bud-tf-km').textContent = num(kmTot);
-  // Visados (por persona)
+  // Visados: el importe es por persona; se multiplica por todas las personas del viaje.
+  const nPers = veh.reduce((s, v) => s + v.personas, 0);
   let visPP = 0;
   D.visados.forEach(v => {
     const row = document.querySelector(`tr[data-row="${v.id}"]`);
     const act = on(v.id, v.on); row.classList.toggle('off', !act);
     const t = V(v.id+'.eur', v.eur) * V(v.id+'.n', v.n);
     row.querySelector('[data-o="pp"]').textContent = eur(t);
+    row.querySelector('[data-o="grp"]').textContent = eur(t * nPers);
     if (act) visPP += t;
   });
   $('bud-vis-pp').textContent = eur(visPP);
+  document.querySelectorAll('.bud-npers').forEach(e => e.textContent = num(nPers));
+  $('bud-vis-grp').textContent = eur(visPP * nPers);
+  $('bud-vis-tf-pp').textContent = eur(visPP);
+  $('bud-vis-tf-grp').textContent = eur(visPP * nPers);
   // Tasas de frontera (por vehículo)
   let tasas = 0;
   D.tasas.forEach(v => {
@@ -313,9 +319,10 @@ Total activo: <strong id="bud-km"></strong>.</p>
 <p class="figcap">GlobalPetrolPrices publica precios en euros; para Mauritania, Gambia y Congo el precio no es público en esa web y se ha usado el precio oficial nacional convertido. Revisar antes de salir: la guerra de Irán ha movido mucho los precios en 2026.</p>
 </section>
 <section id="visados"><h2>Visados (por persona)</h2>
-<p>Coste por persona; se multiplica por las personas de cada vehículo. Sin visado: {esc(', '.join(D['sin_visado']))}.
-Total por persona: <strong id="bud-vis-pp"></strong>.</p>
-<div class="tblwrap"><table><thead><tr><th></th><th>País</th><th class="n">€ por visado</th><th class="n">Nº</th><th class="n">Por persona</th></tr></thead><tbody id="bud-visados"></tbody></table></div>
+<p>Cada uno de los <span class="bud-npers">3</span> viajeros necesita su propio visado. La columna <strong>«Visados por persona»</strong> no es el número de personas: es cuántos visados necesita <em>cada</em> persona en ese país. Vale 2 donde se entra dos veces (bajada y subida) con un visado de una sola entrada, y 1 donde se entra una vez. La última columna multiplica por todos los viajeros.</p>
+<p>Por persona: <strong id="bud-vis-pp"></strong> · para las <span class="bud-npers">3</span> personas: <strong id="bud-vis-grp"></strong>. En el resumen, el vehículo 1 paga 2 personas y el vehículo 2, una. Sin visado: {esc(', '.join(D['sin_visado']))}.</p>
+<div class="tblwrap"><table><thead><tr><th></th><th>País</th><th class="n">€ por visado</th><th class="n">Visados por persona</th><th class="n">Por persona</th><th class="n">Total <span class="bud-npers">3</span> personas</th></tr></thead><tbody id="bud-visados"></tbody>
+<tfoot><tr><td></td><td>Total activo</td><td></td><td></td><td class="n" id="bud-vis-tf-pp"></td><td class="n" id="bud-vis-tf-grp"></td></tr></tfoot></table></div>
 </section>
 <section id="vehiculo"><h2>Vehículo (por cada uno)</h2>
 {callout("", "CPD", f"Emisión ~{P.CPD_EMISION} € + comisión del aval ~{P.CPD_COMISION_AVAL} € por vehículo, incluidos en el cálculo. El aval (mínimo {f'{P.CPD_AVAL:,}'.replace(',', '.')} € por vehículo) queda inmovilizado y no se cuenta como gasto.", raw=True)}
