@@ -9,9 +9,8 @@ La página /presupuesto/ es una calculadora: todos los valores de aquí son los
 valores iniciales y se pueden cambiar en la propia página (se guardan solo en
 ese navegador). Cada cifra lleva su fuente o dice que es una estimación.
 
-Los kilómetros NO están aquí: se calculan al construir el sitio a partir de los
-corredores dibujados en cada ficha, medidos por carretera con OSRM (ver
-KM_CARRETERA), más un pequeño margen de desvíos (DESVIOS_PCT).
+Los países, el orden, los kilómetros y los días NO están aquí: están en
+data_ruta.py y se calculan en la propia página según los países que se marquen.
 """
 
 FECHA = "25 de septiembre de 2026"
@@ -29,11 +28,6 @@ VEHICULOS = [
     {"id": "v2", "nombre": "Delica", "detalle": "1 persona", "personas": 1, "perros": 0, "l100": 12.0,
      "cpd_libro": 383.35, "cpd_aval": 2900, "cpd_banco": 0},
 ]
-
-# Fechas del portal: salida 10 ene 2027, regreso ~15 ago 2027 → 217 días.
-# La planificación manuscrita pone la última entrada en Marruecos el 20 jul, lo
-# que llevaría el regreso a finales de julio (unos 200 días).
-DIAS = 217
 
 # Los km ya son por carretera (OSRM): el factor queda en 1 y solo sirve para
 # ajustar a mano (por ejemplo, 1,1 si se prevén muchas pistas lentas).
@@ -75,123 +69,107 @@ GASOIL = {
     "botsuana": (1.351, GPP, GPP_FECHA, ""),
     "sudafrica": (1.721, GPP, GPP_FECHA, "Precio del interior (Gauteng) algo mayor que en la costa."),
     "namibia": (1.501, GPP, GPP_FECHA, ""),
+    # Resto de países continentales (solo cuentan si se marcan o se cruzan).
+    # GlobalPetrolPrices en USD, convertido al cambio implícito de arriba.
+    "sierra-leona": (round(2.287 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "liberia": (round(1.551 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "gabon": (round(1.006 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "uganda": (round(1.725 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "ruanda": (round(1.984 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "esuatini": (round(1.779 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "lesoto": (round(1.909 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "etiopia": (round(1.117 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "egipto": (round(0.397 * USD_EUR, 3), GPP, GPP_FECHA, "Precio subvencionado."),
+    "tunez": (round(0.748 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "argelia": (round(0.232 * USD_EUR, 3), GPP, GPP_FECHA, "Precio subvencionado."),
+    "burundi": (round(1.308 * USD_EUR, 3), GPP, GPP_FECHA, "Escasez crónica de combustible."),
+    "libia": (round(0.024 * USD_EUR, 3), GPP, GPP_FECHA, "Precio subvencionado: casi gratis."),
+    "niger": (round(1.081 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "burkina-faso": (round(1.312 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "mali": (round(1.644 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "sudan": (round(0.656 * USD_EUR, 3), GPP, GPP_FECHA, ""),
+    "rca": (round(2.186 * USD_EUR, 3), GPP, GPP_FECHA, ""),
 }
-
-# ---------------------------------------------------------------- tramos
-# (slug, clave del corredor, veces, etiqueta, activo por defecto, nota)
-# clave: "corridor", "corridor_alt", "corridor+alt" (los dos seguidos forman
-# una sola pasada), "extra:<n>" (índice en extra_corridors) o una lista de
-# puntos propia cuando la ficha no dibuja ese trayecto.
-MARRUECOS_DIRECTO = [(35.8900, -5.5000), (34.0209, -6.8416), (33.5731, -7.5898), (31.6295, -7.9811),
-                     (30.4278, -9.5981), (28.9870, -10.0574), (28.4378, -11.1032), (27.9394, -12.9231)]
-MAURITANIA_COSTA = [(16.2158, -16.4148), (18.0858, -15.9785), (19.8784, -16.3044), (20.9300, -17.0330),
-                    (21.3337, -16.9472)]
-TRAMOS = [
-    ("marruecos", MARRUECOS_DIRECTO, 1, "Bajada: Tánger Med → Tarfaya por la vía rápida", True,
-     "El índice de países dice «de paso, ruta más rápida, sin paradas». La ficha de Marruecos dibuja en cambio un bucle turístico (fila de más abajo): hay que decidir cuál vale."),
-    ("marruecos", MARRUECOS_DIRECTO, 1, "Subida: Tarfaya → Tánger Med por la vía rápida", True, ""),
-    ("marruecos", "corridor", 1, "Bucle de la ficha (Fez, Merzouga, Todra, Marrakech, costa)", False, "Sustituye a la bajada por la vía rápida si se hace."),
-    ("sahara-occidental", "corridor", 1, "Bajada", True, ""),
-    ("sahara-occidental", "corridor_alt", 1, "Subida", True, ""),
-    ("mauritania", "corridor+alt", 1, "Bajada por el Adrar (Guerguerat → Atar → Uadane → Nuakchot → Diama)", True, ""),
-    ("mauritania", "corridor+alt", 1, "Subida por el mismo corredor del Adrar", True, "La ficha dice «mismo corredor previsto a la vuelta»."),
-    ("mauritania", MAURITANIA_COSTA, 1, "Subida directa por la costa (Diama → Nuakchot → Nuadibú → Guerguerat)", False, "Alternativa a la fila anterior."),
-    ("senegal", "corridor", 1, "Bajada por el este (Ferlo, Niokolo-Koba, Kédougou)", True, ""),
-    ("senegal", "corridor_alt", 1, "Subida por Casamance, Saloum y Dakar", True, ""),
-    ("gambia", "corridor", 1, "Eje costero (subida)", True, ""),
-    ("gambia", "corridor_alt", 1, "Variante río arriba", False, ""),
-    ("guinea", "corridor", 1, "Bajada", True, ""),
-    ("guinea", "corridor_alt", 1, "Subida", True, ""),
-    ("costa-de-marfil", "corridor", 1, "Bajada", True, ""),
-    ("costa-de-marfil", "corridor_alt", 1, "Subida", True, ""),
-    ("ghana", "corridor", 1, "Bajada", True, ""),
-    ("ghana", "corridor_alt", 1, "Subida", True, ""),
-    ("togo", "corridor", 1, "Bajada por la costa", True, ""),
-    ("togo", "corridor_alt", 1, "Subida por el interior", True, ""),
-    ("benin", "corridor", 1, "Bajada por la costa", True, ""),
-    ("benin", "corridor_alt", 1, "Subida por el interior", True, ""),
-    ("nigeria", "corridor", 1, "Bajada", True, ""),
-    ("nigeria", "corridor_alt", 1, "Subida", True, ""),
-    ("camerun", "corridor", 1, "Bajada", True, ""),
-    ("camerun", "corridor_alt", 1, "Subida", True, ""),
-    ("congo", "corridor", 1, "Bajada (Odzala y gorilas)", True, ""),
-    ("congo", "corridor_alt", 1, "Subida por Cabinda", True, ""),
-    ("rd-congo", "corridor", 1, "Bajada (Kongo Central)", True, ""),
-    ("rd-congo", "corridor_alt", 1, "Subida (Kongo Central)", True, ""),
-    ("angola", "corridor", 1, "Bajada", True, ""),
-    ("angola", "corridor_alt", 1, "Subida", True, ""),
-    ("angola", "extra:0", 1, "Cabinda, bajada", True, ""),
-    ("angola", "extra:1", 1, "Cabinda, subida", True, ""),
-    ("zambia", "corridor", 1, "Travesía principal", True, ""),
-    ("zambia", "corridor_alt", 1, "Variante sur (cataratas Victoria)", False, ""),
-    ("malaui", "corridor", 1, "Bucle completo", True, "Está en la planificación manuscrita (1 abr), aunque el índice de países aún lo lista como alternativa."),
-    ("tanzania", "corridor", 1, "Interior hacia Kenia", True, "Solo si se va a Kenia. La planificación manuscrita pone Tanzania una sola vez (16 abr) y todavía no encaja Kenia."),
-    ("tanzania", "corridor_alt", 1, "Costa desde Kenia hacia Mozambique", True, ""),
-    ("kenia", "corridor", 1, "Entrada, Rift y norte", True, "Sin fecha en la planificación manuscrita."),
-    ("kenia", "corridor_alt", 1, "Salida por la costa", True, ""),
-    ("mozambique", "corridor", 1, "Eje costero (Rovuma → Ponta do Ouro → Machipanda)", True, ""),
-    ("mozambique", "corridor_alt", 1, "Variante interior del Zambeze", False, ""),
-    ("zimbabue", "corridor", 1, "Diagonal sur", True, ""),
-    ("zimbabue", "corridor_alt", 1, "Variante norte (Zambeze, Mana Pools, Kariba)", False, ""),
-    ("botsuana", "corridor", 1, "Eje norte–sur (Chobe, Okavango, salinas)", True, ""),
-    ("botsuana", "corridor_alt", 1, "Variante oeste (Tsodilo, Kalahari Central)", False, ""),
-    ("sudafrica", "corridor", 1, "Entrada por el centro y el este", True, ""),
-    ("sudafrica", "corridor_alt", 1, "Salida por la costa oeste", True, ""),
-    ("namibia", "corridor", 1, "Eje interior (Windhoek, Waterberg, Etosha)", True, ""),
-    ("namibia", "corridor_alt", 1, "Variante costera y 4x4 (Namib, Skeleton Coast, Kaokoland)", False, ""),
-]
+# Países sin precio en GlobalPetrolPrices (Guinea Ecuatorial, Chad, Eritrea,
+# Yibuti, Somalia, Sudán del Sur, Guinea-Bisáu): se usa este valor y se avisa.
+GASOIL_SIN_DATO = 1.30
 
 # ---------------------------------------------------------------- visados
 # Por persona. (slug, € por visado, nº de visados, texto, fuente)
 _MAEC = "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc="
-VISADOS = [
-    ("mauritania", 55, 2, "55 € · una entrada, 30 días", "https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-entree-sejour"),
-    ("guinea", round(100 * USD_EUR), 2, "100 USD · eVisa de una entrada. Sin confirmar que valga en frontera terrestre", "https://www.paf.gov.gn/visa"),
-    ("costa-de-marfil", 50, 2, "50 € + gastos bancarios · embajada en Madrid (la eVisa exige biometría en el aeropuerto de Abiyán)", _MAEC + "Costa%20de%20Marfil"),
-    ("ghana", round(260 * USD_EUR), 2, "260 USD · eVisa, estancia máxima 60 días", "https://www.exteriores.gob.es/Embajadas/accra/es/ViajarA/Paginas/Recomendaciones-de-viaje.aspx"),
-    ("togo", round(25000 * XOF_EUR), 2, "25.000 FCFA · eVisa 1–15 días, una entrada. Ya no se da en frontera", "https://voyage.gouv.tg/about"),
-    ("benin", 50, 2, "50 € · eVisa 30 días, una entrada (tarifa publicada en 2020)", "https://evisa.bj/articles/les-couts-des-visas-dentree-au-benin/8c948600-ca08-443e-bac9-33aae6583b54"),
-    ("nigeria", 250, 2, "~250 € · eVisa de una entrada, 30 días", _MAEC + "Nigeria"),
-    ("camerun", 153, 2, "153 € · eVisa normal (exprés 230 €)", "https://ambacamespagne.com/web/en/visa/"),
-    ("congo", 110, 2, "110 € · 91 días, una entrada, en la embajada de París. Fuente no oficial (agencia)", _MAEC + "Congo"),
-    ("rd-congo", 200, 2, "200 € · 3 meses, una entrada, en persona en Madrid. Validez desde la emisión: con salida en enero no llega a la subida de junio", "https://ambardcmadrid.com/visa/"),
-    ("malaui", round(100 * USD_EUR), 1, "100 USD · la exención de 2024 se revocó el 02-01-2026; importe del MAEC de 2022", "https://apta-africa.org/2026/01/14/malawi-visa-update/"),
-    ("tanzania", round(50 * USD_EUR), 2, "50 USD · eVisa. Dos si se entra otra vez al volver de Kenia", _MAEC + "Tanzania"),
-    ("kenia", round(30 * USD_EUR), 1, "30 USD · eTA de una entrada", "https://etakenya.go.ke/faqs"),
-    ("mozambique", 9, 1, "Sin visado (30 días), pero ETA obligatorio: ~650 MZN según fuente no oficial", _MAEC + "Mozambique"),
-    ("zimbabue", round(30 * USD_EUR), 1, "30 USD · en frontera (KAZA Zambia + Zimbabue: 50 USD)", _MAEC + "Zimbabue"),
-    ("namibia", 78, 1, "1.600 NAD · eVisa o en frontera", _MAEC + "Namibia"),
-]
-SIN_VISADO = ["marruecos", "sahara-occidental", "senegal", "gambia", "angola", "zambia", "botsuana", "sudafrica"]
+# Por persona y por ENTRADA: la página multiplica por las veces que se entra en
+# el país con la ruta elegida. slug: (€ por visado, texto, fuente)
+VISADOS = {
+    "mauritania": (55, "55 € · una entrada, 30 días", "https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-entree-sejour"),
+    "guinea": (round(100 * USD_EUR), "100 USD · eVisa de una entrada. Sin confirmar que valga en frontera terrestre", "https://www.paf.gov.gn/visa"),
+    "costa-de-marfil": (50, "50 € + gastos bancarios · embajada en Madrid (la eVisa exige biometría en el aeropuerto de Abiyán)", _MAEC + "Costa%20de%20Marfil"),
+    "ghana": (round(260 * USD_EUR), "260 USD · eVisa, estancia máxima 60 días", "https://www.exteriores.gob.es/Embajadas/accra/es/ViajarA/Paginas/Recomendaciones-de-viaje.aspx"),
+    "togo": (round(25000 * XOF_EUR), "25.000 FCFA · eVisa 1–15 días, una entrada. Ya no se da en frontera", "https://voyage.gouv.tg/about"),
+    "benin": (50, "50 € · eVisa 30 días, una entrada (tarifa publicada en 2020)", "https://evisa.bj/articles/les-couts-des-visas-dentree-au-benin/8c948600-ca08-443e-bac9-33aae6583b54"),
+    "nigeria": (250, "~250 € · eVisa de una entrada, 30 días", _MAEC + "Nigeria"),
+    "camerun": (153, "153 € · eVisa normal (exprés 230 €)", "https://ambacamespagne.com/web/en/visa/"),
+    "congo": (110, "110 € · 91 días, una entrada, en la embajada de París. Fuente no oficial (agencia)", _MAEC + "Congo"),
+    "rd-congo": (200, "200 € · 3 meses, una entrada, en persona en Madrid. Validez desde la emisión: con salida en enero no llega a la subida de junio", "https://ambardcmadrid.com/visa/"),
+    "malaui": (round(100 * USD_EUR), "100 USD · la exención de 2024 se revocó el 02-01-2026; importe del MAEC de 2022", "https://apta-africa.org/2026/01/14/malawi-visa-update/"),
+    "tanzania": (round(50 * USD_EUR), "50 USD · eVisa. Dos si se entra otra vez al volver de Kenia", _MAEC + "Tanzania"),
+    "kenia": (round(30 * USD_EUR), "30 USD · eTA de una entrada", "https://etakenya.go.ke/faqs"),
+    "mozambique": (9, "Sin visado (30 días), pero ETA obligatorio: ~650 MZN según fuente no oficial", _MAEC + "Mozambique"),
+    "zimbabue": (round(30 * USD_EUR), "30 USD · en frontera (KAZA Zambia + Zimbabue: 50 USD)", _MAEC + "Zimbabue"),
+    "namibia": (78, "1.600 NAD · eVisa o en frontera", _MAEC + "Namibia"),
+    # Resto de países (solo cuentan si la ruta pasa por ellos).
+    "sierra-leona": (round(80 * USD_EUR), "~80 USD de referencia (visado a la llegada, 2026). Por tierra hace falta visado consular previo: importe por confirmar", "https://globe2me.com/blog/visa-sierra-leone"),
+    "liberia": (100, "100 € una entrada · 200 € múltiple (MAEC). No sirve el e-visa del aeropuerto para la frontera terrestre", _MAEC + "Liberia"),
+    "gabon": (110, "Tasa consular 109,60 € en París según agencia, sin gestión. El eVisa solo vale llegando en avión", "https://www.visatravel.fr/en/visas/gabon/"),
+    "uganda": (round(50 * USD_EUR), "50 USD · eVisa de una entrada", "https://immigration.go.ug/services/tourist-visa"),
+    "ruanda": (round(50 * USD_EUR), "50 USD una entrada · 70 USD múltiple (MAEC)", _MAEC + "Ruanda"),
+    "guinea-ecuatorial": (105, "105 € · eVisa previa", _MAEC + "Guinea%20Ecuatorial"),
+    "etiopia": (round(82 * USD_EUR), "82 USD · eVisa 30 días; pensada para el aeropuerto, confirmar en frontera terrestre", _MAEC + "Etiop%C3%ADa"),
+    "egipto": (round(30 * USD_EUR), "30 USD · a la llegada", _MAEC + "Egipto"),
+    "yibuti": (round(23 * USD_EUR), "23 USD estancia corta (12 USD tránsito) · eVisa", "https://www.evisa.gouv.dj/"),
+    "argelia": (65, "~65 € · presencial en Madrid; confirmar tarifa", _MAEC + "Argelia"),
+    "chad": (134, "134 € según agencia (tasa oficial sin publicar) · solo eVisa desde mayo de 2026", _MAEC + "Chad"),
+    "rca": (50, "~50 € orientativos · embajada en París", _MAEC + "Rep%C3%BAblica%20Centroafricana"),
+    "sudan-del-sur": (round(100 * USD_EUR), "100 USD para pasaportes europeos", _MAEC + "Sud%C3%A1n%20del%20Sur"),
+    "somalia": (round(60 * USD_EUR), "60 USD en efectivo, una entrada", _MAEC + "Somalia"),
+    "eritrea": (round(120 * USD_EUR), "~70 USD a la llegada con carta de invitación + ~50 USD de gestión del operador", _MAEC + "Eritrea"),
+    "burundi": (round(90 * USD_EUR), "90 USD · eVisa de un mes", _MAEC + "Burundi"),
+    "burkina-faso": (50, "33.000 FCFA una entrada (~50 €) · eVisa", _MAEC + "Burkina%20Faso"),
+    "libia": (round(63 * USD_EUR), "63 USD la eVisa; además obliga a ir con una agencia libia (de 1.100 € por 3 días a 2.850 € por 11), que no está incluida", _MAEC + "Libia"),
+    "niger": (0, "Importe por confirmar (embajada en Bruselas)", _MAEC + "N%C3%ADger"),
+}
+SIN_VISADO = ["marruecos", "sahara-occidental", "senegal", "gambia", "angola", "cabinda", "zambia", "botsuana",
+              "sudafrica", "esuatini", "lesoto", "tunez"]
 
 # ---------------------------------------------------------------- vehículo
 # El CPD va por vehículo en VEHICULOS (cpd_libro, cpd_aval, cpd_banco).
 
-# Tasas de importación temporal en frontera, por vehículo, a partir de
-# data_cpd (importe × entradas). (slug, €, texto)
-TASAS_FRONTERA = [
-    ("mauritania", 20, "~10 € × 2 entradas"),
-    ("senegal", 24, "5.000 FCFA × 3 entradas si el vehículo tiene 8 años o menos; ~250 € por entrada si los supera"),
-    ("gambia", 10, "~11 USD (dato de 2023)"),
-    ("guinea", 10, "Gratis en 2023 · ~5 € en 2017; 2 entradas"),
-    ("costa-de-marfil", 0, "Sin dato posterior a 2023"),
-    ("ghana", 24, "~12 € × 2 como excepción con CPD; sin CPD, ~490 USD con localizador (2023)"),
-    ("togo", 19, "~11 USD × 2 (2023)"),
-    ("benin", 28, "~16 USD × 2 (2023)"),
-    ("nigeria", 0, "Gratis en 2023 · importe de 2026 sin publicar"),
-    ("camerun", 26, "~15 USD × 2 (2023)"),
-    ("congo", 0, "Sin tarifa pública localizada"),
-    ("rd-congo", 0, "Sin tarifa pública localizada"),
-    ("angola", 173, "43.236,78 AOA por entrada × 4 (aviso oficial de julio de 2025)"),
-    ("zambia", 70, "~60–100 USD (datos de 2014–2019)"),
-    ("malaui", 30, "TIP 5.000–10.000 MWK + 20 USD de RAF"),
-    ("tanzania", 26, "25 USD/mes + 5 USD (dato de 2014)"),
-    ("kenia", 50, "FVP de 21 a 101 USD según cilindrada y plazo (cifras de 2018, no oficiales)"),
-    ("mozambique", 17, "~11–17 € (2026)"),
-    ("zimbabue", 50, "~45–70 USD"),
-    ("botsuana", 11, "~8–11 €"),
-    ("namibia", 27, "N$534 por entrada"),
-]
+# Tasas de importación temporal en frontera, por vehículo y por ENTRADA, a
+# partir de data_cpd. La página multiplica por las entradas de la ruta elegida.
+# Donde no hay dato vale 0 y lo dice. slug: (€ por entrada, texto)
+TASAS = {
+    "mauritania": (10, "~10 € por entrada"),
+    "senegal": (8, "5.000 FCFA por entrada si el vehículo tiene 8 años o menos; ~250 € si los supera"),
+    "gambia": (10, "~11 USD (dato de 2023)"),
+    "guinea": (5, "Gratis en 2023 · ~5 € en 2017"),
+    "costa-de-marfil": (0, "Sin dato posterior a 2023"),
+    "ghana": (12, "~12 € como excepción con CPD; sin CPD, ~490 USD con localizador (2023)"),
+    "togo": (10, "~11 USD (2023)"),
+    "benin": (14, "~16 USD (2023)"),
+    "nigeria": (0, "Gratis en 2023 · importe de 2026 sin publicar"),
+    "camerun": (13, "~15 USD (2023)"),
+    "congo": (0, "Sin tarifa pública localizada"),
+    "rd-congo": (0, "Sin tarifa pública localizada"),
+    "angola": (43, "43.236,78 AOA por entrada (aviso oficial de julio de 2025)"),
+    "cabinda": (43, "Como Angola: 43.236,78 AOA por entrada"),
+    "zambia": (70, "~60–100 USD (datos de 2014–2019)"),
+    "malaui": (30, "TIP 5.000–10.000 MWK + 20 USD de RAF"),
+    "tanzania": (26, "25 USD/mes + 5 USD (dato de 2014)"),
+    "kenia": (50, "FVP de 21 a 101 USD según cilindrada y plazo (cifras de 2018, no oficiales)"),
+    "mozambique": (17, "~11–17 € (2026)"),
+    "zimbabue": (50, "~45–70 USD"),
+    "botsuana": (11, "~8–11 €"),
+    "namibia": (27, "N$534 por entrada"),
+}
 
 # ---------------------------------------------------------------- partidas
 # (id, etiqueta, valor, unidad, ámbito, tipo, nota)
@@ -241,65 +219,3 @@ PARAMETROS = [
     ("imprevistos", "Imprevistos", 10, "% del total", "pct", "estimacion",
      "Multas, sobornos rechazados que acaban en tasa, reparaciones, cambios de ruta."),
 ]
-
-# Km por carretera de cada tramo (un sentido, sin multiplicar por «veces»),
-# calculados con el enrutador OSRM (router.project-osrm.org, datos de
-# OpenStreetMap) pasando por todos los puntos del corredor de la ficha, el
-# 26-09-2026. Excepciones: en la costa de Tanzania se omite Zanzíbar (ferry);
-# en el Adrar mauritano y el Kaokoland varios puntos están a 10-60 km de la
-# carretera más cercana y la cifra es aproximada. Si un tramo no está aquí,
-# se usa la línea recta × FACTOR_SIN_RUTA.
-KM_CARRETERA = {
-    ("marruecos", "Bajada: Tánger Med → Tarfaya por la vía rápida"): 1401,
-    ("marruecos", "Subida: Tarfaya → Tánger Med por la vía rápida"): 1401,
-    ("marruecos", "Bucle de la ficha (Fez, Merzouga, Todra, Marrakech, costa)"): 2786,
-    ("sahara-occidental", "Bajada"): 1384,
-    ("sahara-occidental", "Subida"): 1730,
-    ("mauritania", "Bajada por el Adrar (Guerguerat → Atar → Uadane → Nuakchot → Diama)"): 2800,
-    ("mauritania", "Subida por el mismo corredor del Adrar"): 2800,
-    ("mauritania", "Subida directa por la costa (Diama → Nuakchot → Nuadibú → Guerguerat)"): 845,
-    ("senegal", "Bajada por el este (Ferlo, Niokolo-Koba, Kédougou)"): 1946,
-    ("senegal", "Subida por Casamance, Saloum y Dakar"): 778,
-    ("gambia", "Eje costero (subida)"): 257,
-    ("gambia", "Variante río arriba"): 641,
-    ("guinea", "Bajada"): 2009,
-    ("guinea", "Subida"): 1275,
-    ("costa-de-marfil", "Bajada"): 2142,
-    ("costa-de-marfil", "Subida"): 1259,
-    ("ghana", "Bajada"): 885,
-    ("ghana", "Subida"): 1807,
-    ("togo", "Bajada por la costa"): 111,
-    ("togo", "Subida por el interior"): 957,
-    ("benin", "Bajada por la costa"): 235,
-    ("benin", "Subida por el interior"): 697,
-    ("nigeria", "Bajada"): 1319,
-    ("nigeria", "Subida"): 1483,
-    ("camerun", "Bajada"): 1295,
-    ("camerun", "Subida"): 2873,
-    ("congo", "Bajada (Odzala y gorilas)"): 2297,
-    ("congo", "Subida por Cabinda"): 1748,
-    ("rd-congo", "Bajada (Kongo Central)"): 361,
-    ("rd-congo", "Subida (Kongo Central)"): 361,
-    ("angola", "Bajada"): 2878,
-    ("angola", "Subida"): 3144,
-    ("angola", "Cabinda, bajada"): 123,
-    ("angola", "Cabinda, subida"): 123,
-    ("zambia", "Travesía principal"): 4623,
-    ("zambia", "Variante sur (cataratas Victoria)"): 1235,
-    ("malaui", "Bucle completo"): 2040,
-    ("tanzania", "Interior hacia Kenia"): 3463,
-    ("tanzania", "Costa desde Kenia hacia Mozambique"): 1730,
-    ("kenia", "Entrada, Rift y norte"): 2371,
-    ("kenia", "Salida por la costa"): 1728,
-    ("mozambique", "Eje costero (Rovuma → Ponta do Ouro → Machipanda)"): 5994,
-    ("mozambique", "Variante interior del Zambeze"): 1246,
-    ("zimbabue", "Diagonal sur"): 2680,
-    ("zimbabue", "Variante norte (Zambeze, Mana Pools, Kariba)"): 2891,
-    ("botsuana", "Eje norte–sur (Chobe, Okavango, salinas)"): 3608,
-    ("botsuana", "Variante oeste (Tsodilo, Kalahari Central)"): 3030,
-    ("sudafrica", "Entrada por el centro y el este"): 6338,
-    ("sudafrica", "Salida por la costa oeste"): 2943,
-    ("namibia", "Eje interior (Windhoek, Waterberg, Etosha)"): 2175,
-    ("namibia", "Variante costera y 4x4 (Namib, Skeleton Coast, Kaokoland)"): 4571,
-}
-FACTOR_SIN_RUTA = 1.25

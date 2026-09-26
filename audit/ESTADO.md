@@ -187,3 +187,21 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   Malaui actualizado (exención revocada el 02-01-2026).
 - **Nuevo:** página `/presupuesto/` (calculadora por vehículo) y botón para guardar las fotos sin
   conexión (por país y de toda la ruta).
+
+## Planificador de ruta en el presupuesto (26-09-2026)
+
+- `/presupuesto/` deja marcar cualquier país continental. La página ordena la ruta desde y hasta
+  Tánger Med (orden de la planificación por defecto; «Ordenar automáticamente» busca la más corta),
+  añade los países de paso obligado y recalcula km, días, fecha de regreso, gasóleo, visados (por
+  entrada), tasas de frontera y totales. Datos fijos en `tools/gen/data_ruta.py`; cálculo en
+  `assets/js/presupuesto.js`.
+- Km de los 50 corredores nuevos medidos con OSRM el 26-09-2026 (Chad, Sudán del Sur y Yibuti con
+  línea recta × 1,5 porque el enrutador no encuentra carretera). Enlaces entre corredores y países
+  de paso: línea recta × 1,25. Esto suma los huecos que antes no contaban (p. ej. volver desde el sur
+  de Malaui a Tunduma), y la ruta de la planificación pasa de ~87.750 a ~91.300 km por vehículo.
+- Días = km ÷ ritmo (250 km/día donde se para, 450 de paso; estimación) + 10 % + 2 noches de ferry:
+  la ruta actual sale en ~403 días. Hay una casilla para fijar la duración y ver el ritmo necesario.
+- Gasóleo de 18 países más (GlobalPetrolPrices 21-09-2026) y visados de 19 más (Uganda con la tarifa
+  oficial; el resto MAEC o agencia, marcado en cada fila). Nunca se pasa por Mali, Guinea-Bisáu ni
+  Sudán; los países en conflicto solo si se marcan; el interior de RD Congo solo si no hay otro camino.
+

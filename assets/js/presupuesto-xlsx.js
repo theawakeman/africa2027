@@ -79,16 +79,18 @@
   }
 
   window.a27PresupuestoXlsx = function(ctx){
-    const {D, V, on} = ctx;
+    const {D, V, res, PA} = ctx;
+    const RU = D.ruta;
     const H = t => ({v: t, s: 1});
     const P = "'Parámetros'!";
     const ref = {};                      // id → referencia absoluta en Parámetros
     const vc = ['B', 'C'];               // columnas de los vehículos en Parámetros
-
+    const pas = res.ruta.pas, nP = pas.length;
+    const g0 = 5, g1 = g0 + nP - 1, gt = g1 + 2;   // filas de la hoja Ruta
     // ---------- Parámetros ----------
     const pr = [];
     pr[0] = [{v: 'África 2027 · Presupuesto por vehículo', s: 7}];
-    pr[1] = [{v: 'Casillas con fondo amarillo = datos editables. El resto de hojas se calcula solo a partir de ellas.', s: 12}];
+    pr[1] = [{v: 'Casillas con fondo amarillo = datos editables. El resto de hojas se calcula solo a partir de ellas. Ruta: ' + res.ruta.o.map(s => PA[s].n).join(' → '), s: 12}];
     pr[3] = [H('Vehículo'), H(D.vehiculos[0].nombre), H(D.vehiculos[1].nombre), H('Nota')];
     pr[4] = ['Descripción', D.vehiculos[0].detalle, D.vehiculos[1].detalle];
     const vrows = [
@@ -109,9 +111,14 @@
     let r = 5 + vrows.length + 1;
     pr[r] = [H('Parámetro del viaje'), H('Valor'), H('Unidad'), H('Tipo / nota')];
     const gen = [
-      ['dias', 'Días de viaje', V('dias', D.dias), 10, 'días', '10 ene – ~15 ago 2027; la planificación manuscrita apunta a unos 200'],
-      ['factor', 'Factor de ajuste de km', V('factor', D.factor), 8, '×', 'Los km ya son por carretera (OSRM); 1 = sin ajuste'],
-      ['desvios', 'Desvíos fuera del corredor', V('desvios', D.desvios) / 100, 11, '%', 'Agua, gasoil, trámites'],
+      ['ritmo_v', 'Ritmo en países de parada', res.rv, 10, 'km/día', 'Estimación, contando los días de parada'],
+      ['ritmo_t', 'Ritmo en países de paso', res.rt, 10, 'km/día', 'Estimación'],
+      ['margen', 'Margen de días', res.margen, 11, '%', 'Fronteras, trámites, averías, lluvia'],
+      ['dias_ferry', 'Noches de ferry', RU.dias_ferry, 10, 'días', 'Barcelona – Tánger Med, ida y vuelta'],
+      ['dias_fijos', 'Duración fija (0 = calcular)', res.fijos, 10, 'días', 'Si vale más de 0, sustituye a la duración calculada'],
+      ['dias', 'Días de viaje', null, 13, 'días', 'Fórmula: días de la hoja Ruta × (1 + margen) + ferry, o la duración fija'],
+      ['factor', 'Factor de ajuste de km', res.factor, 8, '×', 'Los km ya son por carretera (OSRM); 1 = sin ajuste'],
+      ['desvios', 'Desvíos fuera del corredor', res.desv, 11, '%', 'Agua, gasoil, trámites'],
       ['perro_ferry', 'Perro en el ferry', D.perro_ferry, 9, '€ / trayecto', 'Estimación: GNV no publica el precio'],
     ];
     D.params.forEach(p => {
@@ -121,69 +128,69 @@
     });
     gen.forEach(([id, label, val, st, unidad, nota]) => {
       r++;
-      pr[r] = [label, {v: val, s: st}, unidad, {v: nota, s: 12}];
       ref[id] = `${P}$B$${r + 1}`;
+      const cell = id === 'dias'
+        ? {f: `IF(${ref.dias_fijos}>0,${ref.dias_fijos},ROUNDUP(Ruta!J${gt}*(1+${ref.margen})+${ref.dias_ferry},0))`, s: st}
+        : {v: val, s: st};
+      pr[r] = [label, cell, unidad, {v: nota, s: 12}];
     });
     const personasTot = `(${ref.personas(0)}+${ref.personas(1)})`;
-
-    // ---------- Combustible ----------
+    // ---------- Ruta y combustible ----------
     const cr = [];
-    cr[0] = [{v: 'Combustible por país y tramo', s: 7}];
-    cr[1] = [{v: 'Incluir: 1 = sí, 0 = no. Km por carretera: OSRM por los puntos del corredor de cada ficha (26-09-2026). Km estimados = km por carretera × factor de ajuste × (1 + desvíos). Son los mismos para los dos vehículos.', s: 12}];
-    cr[3] = ['Incluir', 'País', 'Tramo', 'Km por carretera', 'Km estimados', '€/litro', 'Litros ' + D.vehiculos[0].nombre, '€ ' + D.vehiculos[0].nombre,
-      'Litros ' + D.vehiculos[1].nombre, '€ ' + D.vehiculos[1].nombre, 'Fecha precio', 'Fuente precio', 'Nota'].map(H);
-    const c0 = 5;
-    D.tramos.forEach((t, k) => {
-      const n = c0 + k, g = D.gasoil[t.slug] || {};
-      cr[n - 1] = [{v: on(t.id, t.on) ? 1 : 0, s: 14}, t.pais, t.tramo, {v: V(t.id + '.km', t.km), s: 10},
-        {f: `D${n}*${ref.factor}*(1+${ref.desvios})`, s: 4},
-        {v: V('g.' + t.slug, g.eur || 0), s: 9},
-        {f: `A${n}*E${n}*${ref.l100(0)}/100`, s: 4}, {f: `G${n}*F${n}`, s: 2},
-        {f: `A${n}*E${n}*${ref.l100(1)}/100`, s: 4}, {f: `I${n}*F${n}`, s: 2},
-        g.fecha || '', g.fuente || '', {v: t.nota || '', s: 12}];
+    cr[0] = [{v: 'Ruta, días y combustible', s: 7}];
+    cr[1] = [{v: 'Una fila por cada entrada en un país, en orden de marcha. Km base: OSRM por el corredor de la ficha en las paradas; línea recta × 1,25 en enlaces y países de paso. Km estimados = km base × factor × (1 + desvíos). Días = km ÷ ritmo, salvo que se escriba una cifra en «Días fijados».', s: 12}];
+    cr[3] = ['#', 'País', 'Tipo', 'Recorrido', 'Km base', 'Km estimados', 'Ritmo km/día', 'Días calculados', 'Días fijados', 'Días', '€/litro',
+      'Litros ' + D.vehiculos[0].nombre, '€ ' + D.vehiculos[0].nombre, 'Litros ' + D.vehiculos[1].nombre, '€ ' + D.vehiculos[1].nombre].map(H);
+    pas.forEach((p, k) => {
+      const n = g0 + k, s = p.s, g = PA[s].gas;
+      const pr1 = V('g.' + (s === 'cabinda' ? 'angola' : s), g ? g.eur : RU.gas_sin_dato);
+      const ov = p.dias !== p.diasCalc ? {v: p.dias, s: 8} : {v: '', s: 8};
+      cr[n - 1] = [k + 1, PA[s].n, p.tipo === 'visita' ? 'parada' : 'de paso', {v: p.lab || 'enlace aproximado', s: 12}, {v: Math.round(p.km), s: 10},
+        {f: `E${n}*${ref.factor}*(1+${ref.desvios})`, s: 4},
+        {f: `IF(C${n}="parada",${ref.ritmo_v},${ref.ritmo_t})`, s: 4},
+        {f: `F${n}/G${n}`, s: 6}, ov.v === '' ? {v: ' ', s: 8} : ov, {f: `IF(ISNUMBER(I${n}),I${n},H${n})`, s: 6},
+        {v: pr1, s: 9},
+        {f: `F${n}*${ref.l100(0)}/100`, s: 4}, {f: `L${n}*K${n}`, s: 2},
+        {f: `F${n}*${ref.l100(1)}/100`, s: 4}, {f: `N${n}*K${n}`, s: 2}];
     });
-    const c1 = c0 + D.tramos.length - 1, ct = c1 + 2;
-    cr[ct - 1] = [null, {v: 'TOTAL', s: 1}, null, null, {f: `SUMPRODUCT(A${c0}:A${c1},E${c0}:E${c1})`, s: 13}, null,
-      {f: `SUM(G${c0}:G${c1})`, s: 13}, {f: `SUM(H${c0}:H${c1})`, s: 3}, {f: `SUM(I${c0}:I${c1})`, s: 13}, {f: `SUM(J${c0}:J${c1})`, s: 3}];
-
+    cr[gt - 1] = [null, {v: 'TOTAL', s: 1}, null, null, {f: `SUM(E${g0}:E${g1})`, s: 13}, {f: `SUM(F${g0}:F${g1})`, s: 13}, null, null, null,
+      {f: `SUM(J${g0}:J${g1})`, s: 6}, null, {f: `SUM(L${g0}:L${g1})`, s: 13}, {f: `SUM(M${g0}:M${g1})`, s: 3}, {f: `SUM(N${g0}:N${g1})`, s: 13}, {f: `SUM(O${g0}:O${g1})`, s: 3}];
     // ---------- Visados ----------
     const vr = [];
     vr[0] = [{v: 'Visados (el importe es por persona)', s: 7}];
-    vr[1] = [{v: '«Visados por persona» = cuántos visados necesita CADA viajero en ese país (2 si se entra dos veces con visado de una entrada). La última columna multiplica por todas las personas de Parámetros.', s: 12}];
-    vr[3] = ['Incluir', 'País', '€ por visado', 'Visados por persona', 'Por persona', 'Todas las personas', 'Nota', 'Fuente'].map(H);
-    const v0 = 5;
-    D.visados.forEach((v, k) => {
+    vr[1] = [{v: '«Visados por persona» = cuántos visados necesita CADA viajero en ese país: uno por entrada con la ruta elegida (1 si se saca uno de entradas múltiples). La última columna multiplica por todas las personas de Parámetros.', s: 12}];
+    vr[3] = ['País', '€ por visado', 'Visados por persona', 'Por persona', 'Todas las personas', 'Nota', 'Fuente'].map(H);
+    const v0 = 5, VO = res.visOut;
+    VO.forEach((v, k) => {
       const n = v0 + k;
-      vr[n - 1] = [{v: on(v.id, v.on) ? 1 : 0, s: 14}, v.pais, {v: V(v.id + '.eur', v.eur), s: 9}, {v: V(v.id + '.n', v.n), s: 10},
-        {f: `A${n}*C${n}*D${n}`, s: 2}, {f: `E${n}*${personasTot}`, s: 2}, {v: v.txt, s: 12}, v.url];
+      vr[n - 1] = [PA[v.s].n, {v: v.eur, s: 9}, {v: v.n, s: 10}, {f: `B${n}*C${n}`, s: 2}, {f: `D${n}*${personasTot}`, s: 2}, {v: v.txt, s: 12}, v.url];
     });
-    const v1 = v0 + D.visados.length - 1, vt = v1 + 2;
-    vr[vt - 1] = [null, {v: 'TOTAL', s: 1}, null, null, {f: `SUM(E${v0}:E${v1})`, s: 3}, {f: `SUM(F${v0}:F${v1})`, s: 3}];
-    vr[vt + 1] = [{v: 'Sin visado: ' + D.sin_visado.join(', '), s: 12}];
-
+    const v1 = v0 + Math.max(VO.length, 1) - 1, vt = v1 + 2;
+    vr[vt - 1] = [{v: 'TOTAL', s: 1}, null, null, {f: `SUM(D${v0}:D${v1})`, s: 3}, {f: `SUM(E${v0}:E${v1})`, s: 3}];
+    const sinV = res.orden.filter(s => PA[s].vis === 'sin' && !PA[s].solo_paso).map(s => PA[s].n);
+    vr[vt + 1] = [{v: 'Sin visado: ' + (sinV.join(', ') || '—'), s: 12}];
     // ---------- Tasas de frontera ----------
     const tr = [];
     tr[0] = [{v: 'Tasas de importación temporal en frontera (por vehículo)', s: 7}];
-    tr[1] = [{v: 'Donde no hay dato publicado el importe es 0: rellenarlo cuando se conozca.', s: 12}];
-    tr[3] = ['Incluir', 'País', '€ por vehículo', 'Nota'].map(H);
-    const t0 = 5;
-    D.tasas.forEach((v, k) => {
+    tr[1] = [{v: 'Importe por entrada × entradas de la ruta elegida. Donde no hay dato publicado el importe es 0: rellenarlo cuando se conozca.', s: 12}];
+    tr[3] = ['País', '€ por entrada', 'Entradas', '€ por vehículo', 'Nota'].map(H);
+    const t0 = 5, TO = res.tasOut;
+    TO.forEach((v, k) => {
       const n = t0 + k;
-      tr[n - 1] = [{v: on(v.id, v.on) ? 1 : 0, s: 14}, v.pais, {v: V(v.id + '.eur', v.eur), s: 9}, {v: v.txt, s: 12}];
+      tr[n - 1] = [PA[v.s].n, {v: v.eur, s: 9}, {v: v.n, s: 10}, {f: `B${n}*C${n}`, s: 2}, {v: v.txt, s: 12}];
     });
-    const t1 = t0 + D.tasas.length - 1, tt = t1 + 2;
-    tr[tt - 1] = [null, {v: 'TOTAL', s: 1}, {f: `SUMPRODUCT(A${t0}:A${t1},C${t0}:C${t1})`, s: 3}];
-
+    const t1 = t0 + Math.max(TO.length, 1) - 1, tt = t1 + 2;
+    tr[tt - 1] = [{v: 'TOTAL', s: 1}, null, null, {f: `SUM(D${t0}:D${t1})`, s: 3}];
     // ---------- Resumen ----------
     const R = [];
     R[0] = [{v: 'Resumen del presupuesto', s: 7}];
-    R[1] = [{v: 'Todo son fórmulas: se actualiza al cambiar Parámetros, Combustible, Visados o Tasas.', s: 12}];
+    R[1] = [{v: 'Todo son fórmulas: se actualiza al cambiar Parámetros, Ruta, Visados o Tasas.', s: 12}];
     R[3] = [H('Partida'), H(D.vehiculos[0].nombre + ' · ' + D.vehiculos[0].detalle), H(D.vehiculos[1].nombre + ' · ' + D.vehiculos[1].detalle), H('Total')];
     const p = id => ref[id];
     const lines = [
-      ['Combustible', i => `Combustible!${i ? 'J' : 'H'}${ct}`],
-      ['Visados', i => `Visados!E${vt}*${ref.personas(i)}`],
-      ['Vehículo: CPD, tasas, seguros, mantenimiento', i => `${ref.cpd_libro(i)}+${ref.cpd_banco(i)}+'Tasas frontera'!C${tt}+${p('seguros')}+${p('mantenimiento')}`],
+      ['Combustible', i => `Ruta!${i ? 'O' : 'M'}${gt}`],
+      ['Visados', i => `Visados!D${vt}*${ref.personas(i)}`],
+      ['Vehículo: CPD, tasas, seguros, mantenimiento', i => `${ref.cpd_libro(i)}+${ref.cpd_banco(i)}+'Tasas frontera'!D${tt}+${p('seguros')}+${p('mantenimiento')}`],
       ['Ferry Barcelona – Tánger Med (ida y vuelta)', i => `${ref.ferry_ida(i)}+${ref.ferry_vuelta(i)}`],
       ['Comida, noches y actividades', i => `${p('comida')}*${ref.personas(i)}*${p('dias')}+${p('noche')}*${p('dias')}+${p('parques')}*${ref.personas(i)}`],
       ['Perro (comida, trámites y ferry)', i => `${ref.perros(i)}*(${p('perro_comida')}*${p('dias')}+${p('perro_tramites')}+2*${p('perro_ferry')})`],
@@ -200,17 +207,17 @@
     R[rt - 1] = [{v: 'TOTAL', s: 1}, {f: `B${rs}+B${ri}`, s: 3}, {f: `C${rs}+C${ri}`, s: 3}, {f: `B${rt}+C${rt}`, s: 3}];
     R[rt + 1] = ['Por persona', {f: `IF(${ref.personas(0)}>0,B${rt}/${ref.personas(0)},0)`, s: 2}, {f: `IF(${ref.personas(1)}>0,C${rt}/${ref.personas(1)},0)`, s: 2}, {f: `D${rt}/${personasTot}`, s: 2}];
     R[rt + 2] = ['Por día', {f: `B${rt}/${p('dias')}`, s: 2}, {f: `C${rt}/${p('dias')}`, s: 2}, {f: `D${rt}/${p('dias')}`, s: 2}];
-    R[rt + 3] = ['Kilómetros', {f: `Combustible!E${ct}`, s: 4}];
-    R[rt + 4] = ['Litros de gasóleo', {f: `Combustible!G${ct}`, s: 4}, {f: `Combustible!I${ct}`, s: 4}, {f: `B${rt + 5}+C${rt + 5}`, s: 13}];
+    R[rt + 3] = ['Kilómetros por vehículo', {f: `Ruta!F${gt}`, s: 4}];
+    R[rt + 4] = ['Litros de gasóleo', {f: `Ruta!L${gt}`, s: 4}, {f: `Ruta!N${gt}`, s: 4}, {f: `B${rt + 5}+C${rt + 5}`, s: 13}];
     R[rt + 5] = ['Aval CPD inmovilizado (no suma al total; se recupera)', {f: ref.cpd_aval(0), s: 2}, {f: ref.cpd_aval(1), s: 2}, {f: `B${rt + 6}+C${rt + 6}`, s: 2}];
     R[rt + 6] = ['Dinero comprometido al salir (total + avales)', {f: `B${rt}+B${rt + 6}`, s: 3}, {f: `C${rt}+C${rt + 6}`, s: 3}, {f: `D${rt}+D${rt + 6}`, s: 3}];
-
+    R[rt + 7] = ['Días de viaje', {f: p('dias'), s: 13}, {v: 'Salida ' + res.salida + ' · regreso con los valores de la web: ' + res.regreso, s: 12}];
     const sheets = [
       ['Resumen', sheetXml(R, [46, 30, 30, 16])],
       ['Parámetros', sheetXml(pr, [44, 18, 18, 70])],
-      ['Combustible', sheetXml(cr, [8, 24, 48, 12, 13, 10, 13, 12, 13, 12, 12, 40, 60])],
-      ['Visados', sheetXml(vr, [8, 24, 13, 13, 12, 14, 70, 50])],
-      ['Tasas frontera', sheetXml(tr, [8, 24, 14, 80])],
+      ['Ruta', sheetXml(cr, [5, 22, 10, 50, 10, 11, 10, 10, 10, 8, 9, 12, 12, 12, 12])],
+      ['Visados', sheetXml(vr, [24, 13, 13, 12, 14, 70, 50])],
+      ['Tasas frontera', sheetXml(tr, [24, 13, 10, 14, 80])],
     ];
     const files = [
       ['[Content_Types].xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>'
