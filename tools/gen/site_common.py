@@ -22,6 +22,30 @@ FICHA_FIELDS = [
 def esc(s):
     return _html.escape(str(s), quote=False)
 
+import re as _re
+_TAGS_OK = r"(?:strong|em|b|i|br|code|small|sup|sub|span|u|mark)"
+_RE_TAG = _re.compile(r"&lt;(/?" + _TAGS_OK + r")\s*(/?)&gt;", _re.I)
+_RE_A_OPEN = _re.compile(r'&lt;a\s+href=(?:&quot;|")([^"&]*?)(?:&quot;|")((?:\s+[a-z-]+=(?:&quot;|")[^"&]*?(?:&quot;|"))*)\s*&gt;', _re.I)
+_RE_A_CLOSE = _re.compile(r"&lt;/a&gt;", _re.I)
+_RE_MD_BOLD = _re.compile(r"\*\*(?=\S)(.+?)(?<=\S)\*\*")
+
+
+def rich(s):
+    """Texto de contenido → HTML seguro.
+
+    Idempotente: primero deshace entidades (evita el doble escape «&amp;lt;»),
+    luego escapa todo y restaura solo las etiquetas de formato permitidas y los
+    enlaces <a href>. Convierte también el **negrita** de Markdown. Así ninguna
+    etiqueta ni asterisco aparece como texto en pantalla.
+    """
+    t = _html.escape(_html.unescape(str(s)), quote=False)
+    t = _RE_TAG.sub(lambda m: "<" + m.group(1) + (" /" if m.group(2) else "") + ">", t)
+    t = _RE_A_OPEN.sub(lambda m: '<a href="' + m.group(1).replace('"', '') + '" target="_blank" rel="noopener">', t)
+    t = _RE_A_CLOSE.sub("</a>", t)
+    t = _RE_MD_BOLD.sub(r"<strong>\1</strong>", t)
+    return t
+
+
 def attr(s):
     return _html.escape(str(s), quote=True)
 
@@ -450,11 +474,11 @@ def table(headers, rows, cls="", row_attrs=None):
     body = ""
     for i, r in enumerate(rows):
         extra = (row_attrs[i] if row_attrs else "") or ""
-        body += f"<tr {extra}>" + "".join(f"<td>{c if str(c).startswith('<') else esc(c)}</td>" for c in r) + "</tr>"
+        body += f"<tr {extra}>" + "".join(f"<td>{c if str(c).startswith('<') else rich(c)}</td>" for c in r) + "</tr>"
     return f'<div class="tblwrap"><table class="{cls}"><thead><tr>{h}</tr></thead><tbody>{body}</tbody></table></div>'
 
 def callout(kind, title, body_html, raw=False):
-    b = body_html if raw else esc(body_html)
+    b = body_html if raw else rich(body_html)
     return f'<div class="callout {kind}"><div class="callout-title">{esc(title)}</div><p>{b}</p></div>'
 
 def bullets(items_list, bold_split=False):
@@ -462,11 +486,11 @@ def bullets(items_list, bold_split=False):
     for t in items_list:
         if str(t).startswith("<"):
             lis += f"<li>{t}</li>"
-        elif bold_split and ":" in t[:42]:
+        elif bold_split and ":" in t[:42] and "**" not in t:
             pre, rest = t.split(":", 1)
-            lis += f"<li><strong>{esc(pre)}:</strong>{esc(rest)}</li>"
+            lis += f"<li><strong>{rich(pre)}:</strong>{rich(rest)}</li>"
         else:
-            lis += f"<li>{esc(t)}</li>"
+            lis += f"<li>{rich(t)}</li>"
     return f'<ul class="ticks">{lis}</ul>'
 
 def st_pill(status_text):

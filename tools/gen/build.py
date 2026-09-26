@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 from site_common import (SITE, MYMAPS, esc, attr, gmaps, page, table, callout,
-                         bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML, FICHA_FIELDS, offline_box)
+                         bullets, st_pill, SITE_CSS, MODAL_JS, MODAL_HTML, FICHA_FIELDS, offline_box, rich)
 from admin_panel import render_admin, ADMIN_CSS
 from enlaza_fuentes import enlazar_fuentes
 from presupuesto_page import render_presupuesto
@@ -527,7 +527,7 @@ def render_ficha(d):
 </header>
 <div class="chips country-facts">{chips}</div>"""
 
-    body = [hero, f'<main><p class="notice">{esc(d["notice"])} <a href="{MYMAPS}" target="_blank" rel="noopener">Abrir el My Maps África 2027</a></p>']
+    body = [hero, f'<main><p class="notice">{rich(d["notice"])} <a href="{MYMAPS}" target="_blank" rel="noopener">Abrir el My Maps África 2027</a></p>']
 
     n_sec = 0
     def sec(sid, title, inner):
