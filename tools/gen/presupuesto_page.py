@@ -155,6 +155,38 @@ CSS = """
 .bud-chip.cf{border-color:#B43A3A}
 .bud-chip.ex{opacity:.45;cursor:not-allowed}
 .bud-chip small{font-size:10.5px;color:var(--ink-soft)}
+.bud-mapkey{display:flex;flex-wrap:wrap;gap:14px;font-family:"Archivo",sans-serif;font-size:12.5px;color:var(--ink-soft);margin:6px 0 0}
+.bud-mapkey i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:6px;vertical-align:-2px}
+#bud-mapa .leaflet-interactive{cursor:pointer}
+.bud-actions select{max-width:320px;width:auto;padding:8px 10px;border-radius:8px;font-weight:600}
+.bud-msg{background:var(--amber-bg);border:1px solid var(--amber);border-radius:10px;padding:10px 14px;font-size:14.5px;margin:8px 0}
+.bud-itin{list-style:none;margin:10px 0 0;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
+.bud-itin .it{display:grid;grid-template-columns:30px minmax(0,1fr) auto 92px 104px 104px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid var(--line);font-family:"Archivo",sans-serif}
+.bud-itin .it:first-child{border-top:0}
+.bud-itin .it.cruza{background:var(--surface2)}
+.bud-itin .it.cruza .it-p strong{font-weight:600;color:var(--ink-soft)}
+.it-n{display:inline-block;min-width:26px;height:26px;line-height:26px;border-radius:13px;text-align:center;font-size:12px;font-weight:700;background:var(--line);color:var(--ink)}
+.it.para .it-n{background:#1E7A8A;color:#fff}
+.it-p{font-size:14.5px;min-width:0}
+.it-dir{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);margin-left:4px}
+.it-p .nota{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.seg button{font:600 13px "Archivo",sans-serif;padding:6px 13px;border:0;background:transparent;color:var(--ink-soft);cursor:pointer}
+.seg button[aria-pressed="true"]{background:#1E7A8A;color:#fff}
+.seg button[data-modo$="|c"][aria-pressed="true"]{background:#C47F17}
+.seg-fijo{font-size:12.5px;color:var(--ink-soft)}
+.it-km{text-align:right;font-variant-numeric:tabular-nums;font-size:14px;white-space:nowrap}
+.it-km small,.it-d small{color:var(--ink-soft);font-size:11.5px}
+.it-d{white-space:nowrap;text-align:right}
+.bud .it-d input[type=number]{width:62px}
+.it-act{display:flex;gap:4px;justify-content:flex-end}
+.bud .mv.x{color:#B43A3A;font-weight:700}
+.bud-itin-tot{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end;font-family:"Archivo",sans-serif;font-size:14px;padding:10px 12px}
+.bud-det{margin:14px 0;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--surface)}
+.bud-det summary{cursor:pointer;font-family:"Archivo",sans-serif;font-weight:700;color:var(--head)}
+@media (max-width:760px){.bud-itin .it{grid-template-columns:30px minmax(0,1fr) auto;grid-template-areas:"n p act" "n seg seg" "n km d";row-gap:8px}
+ .it-n{grid-area:n;align-self:start}.it-p{grid-area:p}.it-seg{grid-area:seg}.it-km{grid-area:km;text-align:left}.it-d{grid-area:d}.it-act{grid-area:act}
+ .it-p .nota{white-space:normal}}
 #bud-mapa{height:460px;border-radius:12px;border:1px solid var(--line);margin:12px 0;background:var(--surface2)}
 .bud-avisos{margin:10px 0;padding-left:20px;font-size:14px}
 .bud-avisos li{margin:3px 0}
@@ -186,21 +218,19 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     td_tf = "".join(f'<td class="n" id="bud-tf-{v["id"]}"></td>' for v in P.VEHICULOS)
     body = f"""{nav}{hero}
 <main class="bud" style="max-width:1200px">
-<section id="ruta"><h2>Ruta: países y orden</h2>
+<section id="ruta"><h2>Ruta</h2>
 <div class="bud-grid" id="bud-ruta-cards"></div>
 <ul class="bud-avisos" id="bud-avisos"></ul>
-<h3>Países</h3>
-<p>Marca dónde queréis parar. Los países de <em>paso obligado</em> (sin marcar, con borde discontinuo) los añade el cálculo: cuentan sus km, su visado y sus tasas, pero con ritmo de tránsito. Marruecos siempre es el principio y el final (ferry desde Barcelona).</p>
-<div class="bud-actions"><button type="button" id="ruta-plan">Volver a la ruta de la planificación</button><button type="button" id="ruta-opt">Ordenar automáticamente (la más corta)</button><button type="button" id="ruta-none">Desmarcar todos</button></div>
-<div class="bud-paises" id="bud-paises"></div>
-<h3>Ritmo y fechas</h3>
-<div class="bud-cfg" id="bud-cfg"></div>
-<div id="bud-mapa" role="img" aria-label="Mapa de la ruta elegida"></div>
-<p class="figcap">Línea continua: países donde se para, con su corredor de la ficha. Discontinua: enlaces y países de paso (línea aproximada, no el trazado real).</p>
+<p><strong>Toca un país en el mapa</strong> para añadirlo o quitarlo, o usa el desplegable. En la lista, cada fila es una entrada en un país: elige <strong>Parar</strong> (se hace el recorrido de su ficha) o <strong>Cruzar</strong> (lo más rápido posible). La ✕ quita el país de la ruta; si es el único camino para seguir, se queda como «cruzar».</p>
+<div class="bud-mapkey"><span><i style="background:rgba(30,122,138,.55)"></i>Se para</span><span><i style="background:rgba(217,123,41,.5)"></i>Solo se cruza</span><span><i style="background:#fff;border:1px solid #8A949A"></i>Fuera de la ruta</span><span><i style="background:rgba(180,58,58,.2);border:1px dashed #B43A3A"></i>Excluido</span></div>
+<div id="bud-mapa" role="img" aria-label="Mapa de la ruta: toca un país para añadirlo o quitarlo"></div>
+<div class="bud-actions"><select id="ruta-add" aria-label="Añadir un país"></select><button type="button" id="ruta-opt">Ordenar por la ruta más corta</button><button type="button" id="ruta-plan">Volver a la ruta planificada</button><button type="button" id="ruta-none">Vaciar</button></div>
+<div class="bud-msg" id="bud-msg" role="status" aria-live="polite" hidden></div>
 <h3>Itinerario</h3>
-<p>En el orden de marcha. Las flechas mueven un país de parada; el desplegable elige qué corredor de su ficha se hace cada vez que se entra (si la ruta no vuelve a pasar por el país, solo cuenta la primera parte). Los días salen de dividir los km por el ritmo; escribe una cifra para fijar los de un país.</p>
-<div class="tblwrap"><table><thead><tr><th>#</th><th>País y recorrido</th><th class="n">Km</th><th class="n">Días</th><th><span class="hm">Orden</span></th></tr></thead>
-<tbody id="bud-itin"></tbody><tfoot><tr><td></td><td>Total</td><td class="n" id="bud-itin-km"></td><td class="n" id="bud-itin-dias"></td><td></td></tr></tfoot></table></div>
+<ol class="bud-itin" id="bud-itin"></ol>
+<div class="bud-itin-tot"><span>Total</span><span><strong id="bud-itin-km"></strong> km</span><span><strong id="bud-itin-dias"></strong> días de ruta (+ margen y ferry)</span></div>
+<details class="bud-det"><summary>Ritmo, fechas y ajustes</summary><div class="bud-cfg" id="bud-cfg"></div>
+<p class="figcap">Los días de cada fila salen de dividir sus km por el ritmo; escribe una cifra en la casilla de días para fijar la de ese país.</p></details>
 </section>
 <section id="resumen"><h2>Resumen</h2>
 <div class="bud-grid" id="bud-cards"></div>
@@ -250,8 +280,8 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <section id="criterio"><h2>Criterio</h2>
 {bullets([
     "Orden automático: la ruta sale de Tánger Med, pasa por todos los países marcados y vuelve a Tánger Med por el camino más corto entre ellos, sin cruzar fronteras cerradas ni países excluidos por protocolo (Mali, Guinea-Bisáu, Sudán). Los países en conflicto (Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) solo se usan si se marcan.",
-    "Al añadir un país se mete en el hueco del orden donde menos km suma; «Ordenar automáticamente» rehace todo el orden buscando la ruta más corta. Las flechas del itinerario lo cambian a mano.",
-    "Cada país marcado tiene un plan: qué corredor de su ficha se hace la primera vez que se entra, cuál la segunda, etc. Si la ruta pasa más veces, el resto son de tránsito. En Marruecos, el Sahara Occidental y Mauritania el tránsito es la vía rápida de la costa.",
+    "Al añadir un país se mete en el hueco del orden donde menos km suma; «Ordenar por la ruta más corta» rehace todo el orden. Las flechas del itinerario lo cambian a mano. Al quitar un país, el cálculo deja de usarlo también como paso, salvo que sea el único camino.",
+    "«Parar» hace el corredor de la ficha que toca (en los países de ida y vuelta, el de bajada a la ida y el de subida a la vuelta); «Cruzar» es un tránsito directo. En Marruecos, el Sahara Occidental y Mauritania cruzar es la vía rápida de la costa.",
     "Km de parada: OSRM (OpenStreetMap) por todos los puntos del corredor de la ficha, 26-09-2026. Km de enlace y de tránsito: línea recta × 1,25, así que son aproximados.",
     "Días = km ÷ ritmo (uno para los países de parada y otro para los de paso) + margen + noches de ferry. Si se escribe una duración fija, se usa esa y la página dice qué ritmo haría falta.",
     "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el INEOS Grenadier.",

@@ -41,13 +41,15 @@ const ANC = {}; Object.entries(PA).forEach(([s, p]) => { ANC[s] = p.opts.flatMap
 
 function selSet(){ return new Set(['marruecos', ...(get('ruta.sel', null) || RU.sel_plan)].filter(s => PA[s] && !PA[s].ex && !PA[s].solo_paso)); }
 function planOf(s){ return get('ruta.plan.' + s, PA[s].plan); }
-function usable(s, sel, conConflicto){ return PA[s] && !PA[s].ex && (!PA[s].cf || conConflicto || sel.has(s)); }
+function evitarSet(){ return new Set(get('ruta.evitar', [])); }
+function usable(s, sel, conConflicto, ev){ return PA[s] && !PA[s].ex && (!PA[s].cf || conConflicto || sel.has(s)) && (sel.has(s) || !ev || !ev.has(s)); }
 
-function grafo(sel, conConflicto){
+function grafo(sel, conConflicto, ev){
+  ev = ev || evitarSet();
   const G = {};
   Object.keys(PA).forEach(s => G[s] = []);
   RU.fronteras.forEach(([a, b, t]) => {
-    if (t === 'cerrada' || (t === 'evitar' && !conConflicto) || !usable(a, sel, conConflicto) || !usable(b, sel, conConflicto)) return;
+    if (t === 'cerrada' || (t === 'evitar' && !conConflicto) || !usable(a, sel, conConflicto, ev) || !usable(b, sel, conConflicto, ev)) return;
     const base = hav(PA[a].pos, PA[b].pos) * F + (t === 'ferry' ? RU.penal_ferry : 0);
     G[a].push([b, base * (sel.has(b) || PA[b].solo_paso ? 1 : RU.penal)]);
     G[b].push([a, base * (sel.has(a) || PA[a].solo_paso ? 1 : RU.penal)]);
@@ -150,11 +152,12 @@ function ruta(oFijo, DDfijo){
   const cnt = {}, pas = [];
   seq.forEach(it => {
     const s = it.s, k = cnt[s] = (cnt[s] || 0) + 1, marcado = sel.has(s);
-    let ids = null;
-    if (marcado) { const pl = String(planOf(s)).split('|'); if (k <= pl.length && pl[k - 1]) ids = pl[k - 1].split('+'); }
+    const parts = String(planOf(s)).split('|'), def = marcado && k <= parts.length && !!parts[k - 1];
+    const modo = get('ruta.modo.' + s + '.' + k, null), parar = PA[s].solo_paso ? false : (modo ? modo === 'p' : def);
+    let ids = parar ? (parts[k - 1] || (PA[s].opts[k - 1] || PA[s].opts[0]).id).split('+') : null;
     const tipo = ids ? 'visita' : 'transito';
     if (!ids && PA[s].tr) ids = [PA[s].tr];
-    pas.push({s, k, tipo, ids, oi: it.oi, marcado});
+    pas.push({s, k, tipo, ids, oi: it.oi, marcado, def});
   });
   // Geometría y km
   let cur = RU.tanger;
@@ -213,47 +216,76 @@ function paintStatic(){
     <td class="n">${inp('p.'+p.id, p.val, p.val >= 100 ? 10 : 0.5)}</td><td>${p.unidad}</td></tr>`).join('');
 }
 
-function paintPaises(R){
-  const vistos = new Set(R.pas.map(p => p.s));
-  const html = RU.grupos.map(([g, lab]) => {
-    const ss = Object.keys(PA).filter(s => PA[s].g === g && !PA[s].solo_paso);
+function paintAdd(R){
+  const en = new Set(R.pas.map(p => p.s));
+  const grupos = RU.grupos.filter(([g]) => g !== 'excluido').map(([g, lab]) => {
+    const ss = Object.keys(PA).filter(x => PA[x].g === g && !PA[x].solo_paso && !PA[x].ex && !R.sel.has(x)).sort((a, b) => PA[a].n.localeCompare(PA[b].n, 'es'));
     if (!ss.length) return '';
-    return `<div><div class="gr">${lab}</div><div class="bud-chips">${ss.map(s => {
-      const P0 = PA[s], onn = R.sel.has(s), paso = !onn && vistos.has(s);
-      const cls = ['bud-chip', onn ? 'on' : '', paso ? 'paso' : '', P0.cf ? 'cf' : '', P0.ex ? 'ex' : ''].join(' ').trim();
-      const dis = P0.ex || s === 'marruecos' ? 'disabled' : '';
-      const t = P0.ex ? 'Excluido por protocolo' : (P0.cf ? 'Conflicto: ' + P0.seg : (P0.nota || ''));
-      return `<label class="${cls}" title="${escH(t)}"><input type="checkbox" data-sel="${s}" ${onn ? 'checked' : ''} ${dis}>${P0.n}${paso ? ' <small>de paso</small>' : ''}${P0.cf ? ' <small>conflicto</small>' : ''}</label>`;
-    }).join('')}</div></div>`;
+    return `<optgroup label="${escH(lab)}">${ss.map(x => `<option value="${x}">${escH(PA[x].n)}${en.has(x) ? ' (ya se cruza)' : ''}${PA[x].cf ? ' · conflicto' : ''}</option>`).join('')}</optgroup>`;
   }).join('');
-  paint('bud-paises', html);
+  paint('ruta-add', `<option value="">＋ Añadir un país…</option>${grupos}`);
 }
 
-function planChoices(s){
-  const ops = PA[s].opts, L = id => (ops.find(o => o.id === id) || {}).l || id, out = [];
-  ops.forEach(o => out.push([o.id, 'Solo ' + o.l]));
-  ops.forEach(o => out.push([o.id + '|' + o.id, 'Ida y vuelta: ' + o.l]));
-  if (ops.length >= 2) {
-    const a = ops[0].id, b = ops[1].id;
-    out.push([a + '|' + b, 'Ida: ' + L(a) + ' · vuelta: ' + L(b)]);
-    out.push([b + '|' + a, 'Ida: ' + L(b) + ' · vuelta: ' + L(a)]);
-    out.push([a + '+' + b, 'Los dos seguidos en una sola entrada']);
-  }
-  const cur = planOf(s);
-  if (!out.some(x => x[0] === cur)) out.push([cur, cur]);
-  return out;
+function aviso(t){ const m = $('bud-msg'); if (!m) return; m.innerHTML = t; m.hidden = !t; clearTimeout(aviso.t); if (t) aviso.t = setTimeout(() => { m.hidden = true; }, 9000); }
+
+function agregar(s){
+  if (!PA[s] || PA[s].solo_paso) return;
+  if (PA[s].ex) { aviso(`<strong>${PA[s].n}</strong> está excluido por protocolo del proyecto: no se puede añadir.`); return; }
+  const sel = selSet(), ev = evitarSet();
+  sel.add(s); ev.delete(s);
+  Object.keys(S).filter(k => k.startsWith('ruta.modo.' + s + '.')).forEach(k => delete S[k]);
+  S['ruta.sel'] = [...sel]; S['ruta.evitar'] = [...ev]; save();
+  aviso(`<strong>${PA[s].n}</strong> añadido a la ruta.${PA[s].cf ? ' Ojo: país en conflicto.' : ''}`);
+  compute();
+}
+function quitar(s){
+  if (s === 'marruecos') { aviso('Marruecos no se puede quitar: el viaje empieza y acaba en Tánger Med.'); return; }
+  const R0 = window.__A27_BUDGET_RESULT.ruta, sel = selSet(), ev = evitarSet();
+  sel.delete(s); ev.add(s);
+  const o = R0.o.filter(x => x !== s), full = ['marruecos', ...o, 'marruecos'];
+  const D1 = makeDist(grafo(sel, false, ev), full);
+  let corte = null;
+  for (let i = 0; i < full.length - 1 && !corte; i++) if (full[i] !== full[i + 1] && !D1.path(full[i], full[i + 1])) corte = [full[i], full[i + 1]];
+  Object.keys(S).filter(k => k.startsWith('ruta.modo.' + s + '.') || k.startsWith('ruta.d.' + s + '.')).forEach(k => delete S[k]);
+  if (corte) {
+    ev.delete(s);
+    aviso(`<strong>${PA[s].n}</strong> no se puede quitar del todo: es el único camino por carretera entre ${PA[corte[0]].n} y ${PA[corte[1]].n}. Queda como <strong>solo cruzar</strong>, lo más rápido posible.`);
+  } else aviso(`<strong>${PA[s].n}</strong> quitado de la ruta.`);
+  S['ruta.sel'] = [...sel]; S['ruta.evitar'] = [...ev]; S['ruta.orden'] = o; save(); compute();
 }
 
 // ------------------------------------------------------------------ mapa
-let MAP = null, CAPA = null, ENCUADRADO = false;
+let MAP = null, CAPA = null, PAISES = null, ENCUADRADO = false, ULTIMA = null;
+function estiloPaises(R){
+  ULTIMA = R;
+  if (!PAISES) return;
+  const para = new Set(R.pas.filter(p => p.tipo === 'visita').map(p => p.s)), cruza = new Set(R.pas.map(p => p.s));
+  PAISES.eachLayer(l => {
+    const s = l.feature.properties.slug, P0 = PA[s];
+    let st = {weight: 1, color: '#8A949A', fillColor: '#ffffff', fillOpacity: .05, dashArray: null};
+    let txt = P0 ? P0.n + ' · toca para añadir' : '';
+    if (!P0) st.fillOpacity = 0;
+    else if (P0.ex) { st = {...st, fillColor: '#B43A3A', fillOpacity: .12, dashArray: '3 4'}; txt = P0.n + ' · excluido por protocolo'; }
+    else if (para.has(s)) { st = {...st, fillColor: '#1E7A8A', fillOpacity: .45, color: '#1E7A8A'}; txt = P0.n + ' · se para · toca para quitar'; }
+    else if (cruza.has(s)) { st = {...st, fillColor: '#D97B29', fillOpacity: .35, color: '#C47F17'}; txt = P0.n + ' · solo se cruza · toca para ' + (R.sel.has(s) ? 'quitar' : 'añadir'); }
+    l.setStyle(st);
+    if (txt) l.bindTooltip(txt, {sticky: true});
+  });
+}
 function paintMapa(R){
   if (typeof L === 'undefined' || !$('bud-mapa')) return;
   try {
     if (!MAP) {
       MAP = L.map('bud-mapa', {scrollWheelZoom: false}).setView([2, 18], 3);
       L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {maxZoom: 12, attribution: 'Tiles © Esri'}).addTo(MAP);
+      PAISES = L.geoJSON(null, {style: () => ({weight: 1, color: '#8A949A', fillOpacity: .05, fillColor: '#ffffff'}),
+        onEachFeature: (f, lay) => { const s = f.properties.slug; if (!PA[s]) return;
+          lay.on('click', () => { const R = window.__A27_BUDGET_RESULT.ruta; if (R.sel.has(s)) quitar(s); else agregar(s); }); }}).addTo(MAP);
       CAPA = L.layerGroup().addTo(MAP);
+      const raiz = (document.querySelector('script[src*="assets/js/presupuesto.js"]') || {}).src || '';
+      fetch(raiz.replace(/presupuesto\.js.*$/, 'africa.geo.json')).then(r => r.json()).then(g => { PAISES.addData(g); if (ULTIMA) estiloPaises(ULTIMA); }).catch(() => {});
     }
+    estiloPaises(R);
     CAPA.clearLayers();
     const todos = [RU.tanger];
     R.pas.forEach(p => {
@@ -264,8 +296,6 @@ function paintMapa(R){
     });
     const last = R.pas.length ? R.pas[R.pas.length - 1].pts.slice(-1)[0] : RU.tanger;
     L.polyline([last, RU.tanger], {color: '#5F6B72', weight: 2, dashArray: '5 6'}).addTo(CAPA);
-    R.pas.forEach((p, i) => { if (p.tipo !== 'visita') return; const c = p.pts[Math.floor(p.pts.length / 2)];
-      L.marker(c, {icon: L.divIcon({className: 'bud-mk', html: String(i + 1), iconSize: [24, 24]})}).addTo(CAPA).bindTooltip((i + 1) + '. ' + PA[p.s].n); });
     if (!ENCUADRADO) { MAP.fitBounds(L.latLngBounds(todos), {padding: [20, 20]}); ENCUADRADO = true; }
   } catch (e) { /* sin mapa: el resto sigue funcionando */ }
 }
@@ -291,22 +321,25 @@ function compute(){
   const regreso = addDays(salida, dias), previsto = iso2d(RU.regreso);
   const diasPrev = Math.round((previsto - iso2d(salida)) / 864e5);
   // ---- Países e itinerario
-  paintPaises(R);
-  const firstPass = {};
+  paintAdd(R);
+  const vecesPais = {}; R.pas.forEach(p => { vecesPais[p.s] = (vecesPais[p.s] || 0) + 1; });
   const rows = R.pas.map((p, i) => {
-    const P0 = PA[p.s];
-    let rec = '';
-    if (p.marcado && !firstPass[p.s]) {
-      firstPass[p.s] = 1;
-      const ch = planChoices(p.s);
-      if (ch.length > 1) rec = `<select data-plan="${p.s}" class="${planOf(p.s) !== P0.plan ? 'edited' : ''}" aria-label="Recorrido en ${escH(P0.n)}">${ch.map(([v, l]) => `<option value="${escH(v)}" ${v === planOf(p.s) ? 'selected' : ''}>${escH(l)}</option>`).join('')}</select>`;
-    }
-    const que = p.tipo === 'visita' ? `<span class="tag vi">parada</span> ${escH(p.lab)}` : `<span class="tag tr">de paso</span> ${p.lab ? escH(p.lab) : 'enlace aproximado'}`;
-    const mv = p.oi != null ? `<button type="button" class="mv" data-mv="${p.oi},-1" ${p.oi === 0 ? 'disabled' : ''} aria-label="Antes">↑</button> <button type="button" class="mv" data-mv="${p.oi},1" ${p.oi === R.o.length - 1 ? 'disabled' : ''} aria-label="Después">↓</button>` : '';
+    const P0 = PA[p.s], parar = p.tipo === 'visita';
+    const oeste = ['bajada', 'subida'].includes(P0.g);
+    const dir = vecesPais[p.s] > 1 ? (oeste && p.k <= 2 ? (p.k === 1 ? 'ida' : 'vuelta') : p.k + 'ª vez') : '';
+    const sub = parar ? escH(p.lab) + (p.aprox ? ' · km aproximados' : '') : (p.marcado ? 'Solo cruzar, lo más rápido posible' : (P0.solo_paso ? escH(p.lab) : 'Paso obligado para llegar al siguiente país'));
+    const fijo = p.s === 'marruecos' || P0.solo_paso;
+    const seg = fijo ? `<span class="seg-fijo">${P0.solo_paso ? 'Solo cruzar' : 'Vía rápida'}</span>`
+      : `<div class="seg" role="group" aria-label="Qué hacer en ${escH(P0.n)}"><button type="button" data-modo="${p.s}|${p.k}|p" aria-pressed="${parar}">Parar</button><button type="button" data-modo="${p.s}|${p.k}|c" aria-pressed="${!parar}">Cruzar</button></div>`;
+    const mv = p.oi != null ? `<button type="button" class="mv" data-mv="${p.oi},-1" ${p.oi === 0 ? 'disabled' : ''} title="Antes" aria-label="Mover ${escH(P0.n)} antes">↑</button><button type="button" class="mv" data-mv="${p.oi},1" ${p.oi === R.o.length - 1 ? 'disabled' : ''} title="Después" aria-label="Mover ${escH(P0.n)} después">↓</button>` : '';
+    const x = fijo ? '' : `<button type="button" class="mv x" data-quitar="${p.s}" title="Quitar ${escH(P0.n)} de la ruta" aria-label="Quitar ${escH(P0.n)} de la ruta">✕</button>`;
     const dv = get(p.dkey, '');
-    return `<tr class="${p.tipo}"><td>${p.tipo === 'visita' ? '<span class="bud-num">' + (i + 1) + '</span>' : (i + 1)}</td><td><strong>${escH(P0.n)}</strong>${p.k > 1 ? ' <small>(' + p.k + 'ª vez)</small>' : ''}<span class="nota">${que}${p.aprox && p.tipo === 'visita' ? ' · km aproximados' : ''}</span>${rec ? '<div class="rec">' + rec + '</div>' : ''}</td>
-      <td class="n" data-o="km${i}"></td>
-      <td class="n"><input type="number" step="0.5" min="0" data-k="${p.dkey}" data-d="" value="${dv}" class="${dv !== '' ? 'edited' : ''}" data-o="dp${i}" autocomplete="off" data-1p-ignore data-lpignore="true" aria-label="Días en ${escH(P0.n)}"></td><td class="mvs">${mv}</td></tr>`;
+    return `<li class="it ${parar ? 'para' : 'cruza'}"><span class="it-n">${i + 1}</span>
+      <div class="it-p"><strong>${escH(P0.n)}</strong>${dir ? ' <span class="it-dir">' + dir + '</span>' : ''}<span class="nota">${sub}</span></div>
+      <div class="it-seg">${seg}</div>
+      <div class="it-km"><span data-o="km${i}"></span> <small>km</small></div>
+      <div class="it-d"><input type="number" step="0.5" min="0" data-k="${p.dkey}" data-d="" value="${dv}" class="${dv !== '' ? 'edited' : ''}" data-o="dp${i}" autocomplete="off" data-1p-ignore data-lpignore="true" aria-label="Días en ${escH(P0.n)}"> <small>días</small></div>
+      <div class="it-act">${mv}${x}</div></li>`;
   });
   paint('bud-itin', rows.join(''));
   R.pas.forEach((p, i) => { const k = q(`[data-o="km${i}"]`); if (k) k.textContent = num(p.kmE); const d = q(`[data-o="dp${i}"]`); if (d) d.placeholder = num(p.diasCalc, 1); });
@@ -433,22 +466,27 @@ document.addEventListener('input', e => {
   e.target.classList.toggle('edited', e.target.value != e.target.dataset.d); save(); compute();
 });
 document.addEventListener('change', e => {
-  const s = e.target.dataset.sel;
-  if (s) { const cur = selSet(); if (e.target.checked) cur.add(s); else cur.delete(s); S['ruta.sel'] = [...cur]; save(); compute(); return; }
-  const pl = e.target.dataset.plan;
-  if (pl) { if (e.target.value === PA[pl].plan) delete S['ruta.plan.' + pl]; else S['ruta.plan.' + pl] = e.target.value; save(); compute(); }
+  if (e.target.id === 'ruta-add') { const v = e.target.value; e.target.value = ''; if (v) agregar(v); }
 });
 document.addEventListener('click', e => {
+  const md = e.target.closest('[data-modo]');
+  if (md) {
+    const [s, k, v] = md.dataset.modo.split('|'), R = window.__A27_BUDGET_RESULT.ruta, p = R.pas.find(x => x.s === s && String(x.k) === k);
+    const key = 'ruta.modo.' + s + '.' + k;
+    if (p && (v === 'p') === p.def) delete S[key]; else S[key] = v;
+    save(); compute(); return;
+  }
+  const qx = e.target.closest('[data-quitar]'); if (qx) { quitar(qx.dataset.quitar); return; }
   const b = e.target.closest('[data-mv]'); if (!b) return;
   const [i, d] = b.dataset.mv.split(',').map(Number), o = window.__A27_BUDGET_RESULT.ruta.o.slice(), j = i + d;
   if (j < 0 || j >= o.length) return;
   [o[i], o[j]] = [o[j], o[i]]; S['ruta.orden'] = o; S['ruta.sel'] = [...selSet()]; save(); compute();
 });
 paintStatic(); compute();
-$('ruta-plan').addEventListener('click', () => { Object.keys(S).filter(k => k.startsWith('ruta.') && !RUTA_CFG.includes(k)).forEach(k => delete S[k]); save(); compute(); });
+$('ruta-plan').addEventListener('click', () => { Object.keys(S).filter(k => k.startsWith('ruta.') && !RUTA_CFG.includes(k)).forEach(k => delete S[k]); save(); aviso('Vuelta a la ruta de la planificación.'); compute(); });
 $('ruta-opt').addEventListener('click', () => { const R = window.__A27_BUDGET_RESULT.ruta; S['ruta.orden'] = optimizar(R.o, R.DD); S['ruta.sel'] = [...R.sel]; save(); compute(); });
-$('ruta-none').addEventListener('click', () => { S['ruta.sel'] = ['marruecos']; S['ruta.orden'] = []; save(); compute(); });
-$('bud-reset').addEventListener('click', () => { S = {}; save(); ['bud-itin','bud-comb','bud-visados','bud-tasas','bud-paises','bud-precios'].forEach(id => { $(id).__h = null; }); paintStatic(); compute(); });
+$('ruta-none').addEventListener('click', () => { S['ruta.sel'] = ['marruecos']; S['ruta.orden'] = []; S['ruta.evitar'] = []; save(); aviso('Ruta vacía: toca países en el mapa o usa «Añadir un país».'); compute(); });
+$('bud-reset').addEventListener('click', () => { S = {}; save(); ['bud-itin','bud-comb','bud-visados','bud-tasas','ruta-add','bud-precios'].forEach(id => { $(id).__h = null; }); paintStatic(); compute(); });
 $('bud-csv').addEventListener('click', csv);
 $('bud-xlsx').addEventListener('click', () => {
   if (typeof window.a27PresupuestoXlsx !== 'function') return;
