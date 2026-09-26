@@ -1888,7 +1888,7 @@ def main():
         # controla la pestaña. Versionar los recursos críticos impide mezclar el
         # marcado nuevo del carrusel/mapa con CSS o JavaScript antiguos.
         for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js",
-                      "assets/js/visamap.js"):
+                      "assets/js/visamap.js", "assets/js/presupuesto-xlsx.js"):
             html_text = html_text.replace(asset + '"', asset + f'?v={VERSION}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)

@@ -268,6 +268,14 @@ document.addEventListener('change', e => {
 paintStatic(); compute();
 $('bud-reset').addEventListener('click', () => { S = {}; save(); paintStatic(); compute(); });
 $('bud-csv').addEventListener('click', csv);
+$('bud-xlsx').addEventListener('click', () => {
+  if (typeof window.a27PresupuestoXlsx !== 'function') return;
+  const blob = window.a27PresupuestoXlsx({D, V, on});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = 'presupuesto-africa-2027.xlsx';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+});
 })();
 """
 
@@ -301,7 +309,8 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <div class="bud-grid" id="bud-cards"></div>
 <div class="bud-bars" id="bud-bars"></div><div class="bud-key" id="bud-key"></div>
 <div class="tblwrap"><table><thead><tr><th>Partida</th>{th_v}<th class="n">Total</th></tr></thead><tbody id="bud-resumen"></tbody></table></div>
-<div class="bud-actions"><button type="button" class="primary" id="bud-csv">Descargar CSV (para la hoja de cálculo)</button><button type="button" id="bud-reset">Volver a los valores iniciales</button></div>
+<div class="bud-actions"><button type="button" class="primary" id="bud-xlsx">Descargar hoja de cálculo completa (.xlsx, con fórmulas)</button><button type="button" id="bud-csv">Solo el resumen (CSV)</button><button type="button" id="bud-reset">Volver a los valores iniciales</button></div>
+<p class="figcap">La hoja lleva los valores que tengas ahora en esta página. Tiene cinco pestañas —Resumen, Parámetros, Combustible, Visados y Tasas frontera—; las casillas amarillas son datos y todo lo demás son fórmulas, así que al cambiar un dato en Excel, Numbers o Google Sheets se recalcula todo.</p>
 {callout("warn", "Qué es dato y qué es estimación",
     "Combustible, visados, CPD y tasas de frontera salen de fuentes citadas en cada fila. Comida, noches, parques, "
     "seguros, mantenimiento, trámites del perro e imprevistos son <strong>estimaciones iniciales</strong> marcadas como tales: "
@@ -356,5 +365,6 @@ Total activo: <strong id="bud-km"></strong>.</p>
 <footer>ÁFRICA 2027 · Presupuesto · valores iniciales del {esc(P.FECHA)} · versión {VERSION}</footer>
 </main>
 <script>var A27_BUDGET = {json.dumps(D, ensure_ascii=False)};</script>
+<script src="{root}assets/js/presupuesto-xlsx.js"></script>
 <script>{JS}</script>"""
     return page(root, "Presupuesto · África 2027", body, extra_head=f"<style>{CSS}</style>")
