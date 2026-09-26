@@ -12,7 +12,7 @@ const num = (v, d=0) => { const [a, b] = Math.abs(Number(v)).toFixed(d).split('.
 const $ = id => document.getElementById(id);
 const escH = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const COLORS = {comb:'#1E7A8A', vis:'#2B6CB0', veh:'#C47F17', ferry:'#673AB7', vida:'#2E7D32', perro:'#8B5A2B', otros:'#5F6B72', imp:'#B43A3A'};
-const CATS = [['comb','Combustible'],['vis','Visados'],['veh','Vehículo: CPD, tasas, seguros, mantenimiento'],['ferry','Ferry Barcelona–Tánger'],['vida','Comida, noches y actividades'],['perro','Perro'],['otros','Comunicaciones'],['imp','Imprevistos']];
+const CATS = [['comb','Combustible'],['vis','Visados'],['veh','Vehículo: CPD, tasas, seguros, mantenimiento'],['ferry','Ferris'],['vida','Comida, noches y actividades'],['perro','Perro'],['otros','Comunicaciones'],['imp','Imprevistos']];
 const MES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 const fecha = d => d.getUTCDate() + ' ' + MES[d.getUTCMonth()] + ' ' + d.getUTCFullYear();
 const iso2d = iso => { const d = new Date((iso || RU.salida) + 'T00:00:00Z'); return isNaN(d) ? new Date(RU.salida + 'T00:00:00Z') : d; };
@@ -39,7 +39,7 @@ function hav(a, b){
 const F = RU.f_sin_ruta;
 const ANC = {}; Object.entries(PA).forEach(([s, p]) => { ANC[s] = p.opts.flatMap(o => o.pts); });
 
-function selSet(){ return new Set(['marruecos', ...(get('ruta.sel', null) || RU.sel_plan)].filter(s => PA[s] && !PA[s].ex && !PA[s].solo_paso)); }
+function selSet(){ return new Set((get('ruta.sel', null) || RU.sel_plan).filter(s => PA[s] && !PA[s].ex && !PA[s].solo_paso)); }
 function planOf(s){ return get('ruta.plan.' + s, PA[s].plan); }
 function evitarSet(){ return new Set(get('ruta.evitar', [])); }
 function usable(s, sel, conConflicto, ev){ return PA[s] && !PA[s].ex && (!PA[s].cf || conConflicto || sel.has(s)) && (sel.has(s) || !ev || !ev.has(s)); }
@@ -74,50 +74,52 @@ function makeDist(G, nodes){
   const path = (a, b) => { if (!T[a] || !(b in T[a].dist)) return null; const p = [b]; let x = b; while (x !== a) { x = T[a].prev[x]; p.unshift(x); } return p; };
   return {d, path};
 }
-function tourLen(o, d){ const f = ['marruecos', ...o, 'marruecos']; let s = 0; for (let i = 0; i < f.length - 1; i++) s += d(f[i], f[i + 1]); return s; }
+// ------------------------------------------------------------------ orden libre
+// El primer y el último país de la lista fijan los ferris; «ordenar» solo mueve los de en medio.
+function tourLen(o, d){ let s = 0; for (let i = 0; i < o.length - 1; i++) s += d(o[i], o[i + 1]); return s; }
 function insertar(o, s, d){
-  const f = ['marruecos', ...o, 'marruecos']; let best = 0, bc = Infinity;
-  for (let i = 0; i < f.length - 1; i++) { const c = d(f[i], s) + d(s, f[i + 1]) - d(f[i], f[i + 1]); if (c < bc) { bc = c; best = i; } }
+  if (o.length < 2) return o.concat([s]);
+  let best = 1, bc = Infinity;
+  for (let i = 1; i < o.length; i++) { const c = d(o[i - 1], s) + d(s, o[i]) - d(o[i - 1], o[i]); if (c < bc) { bc = c; best = i; } }
   const r = o.slice(); r.splice(best, 0, s); return r;
 }
 function mejorar(r, d){
-  // 2-opt + reubicación de un país hasta que no mejore
   let mejor = tourLen(r, d), cambio = true, vueltas = 0;
   while (cambio && vueltas++ < 60) {
     cambio = false;
-    for (let i = 0; i < r.length - 1; i++) for (let j = i + 1; j < r.length; j++) {
+    for (let i = 1; i < r.length - 2; i++) for (let j = i + 1; j < r.length - 1; j++) {
       const t = r.slice(0, i).concat(r.slice(i, j + 1).reverse(), r.slice(j + 1)), l = tourLen(t, d);
       if (l < mejor - 1e-6) { r = t; mejor = l; cambio = true; }
     }
-    for (let i = 0; i < r.length; i++) {
+    for (let i = 1; i < r.length - 1; i++) {
       const sin = r.slice(0, i).concat(r.slice(i + 1)), t = insertar(sin, r[i], d), l = tourLen(t, d);
       if (l < mejor - 1e-6) { r = t; mejor = l; cambio = true; }
     }
   }
   return r;
 }
-function kmReales(o, DD){ return ruta(o, DD).pas.reduce((t, p) => t + p.km, 0); }
+function kmReales(o, DD){ const R = ruta(o, DD); return R.pas.reduce((t, p) => t + p.km, 0); }
 function optimizar(o, DD){
-  const d = DD.d;
-  // 1) orden aproximado con la distancia entre países (vecino más próximo + 2-opt)
-  let rest = o.slice(), r = [], cur = 'marruecos';
+  if (o.length < 4) return o.slice();
+  const d = DD.d, ini = o[0], fin = o[o.length - 1];
+  let rest = o.slice(1, -1), r = [ini], cur = ini;
   while (rest.length) { rest.sort((a, b) => d(cur, a) - d(cur, b)); cur = rest.shift(); r.push(cur); }
+  r.push(fin);
   const cands = [mejorar(r, d), mejorar(o.slice(), d), o.slice()];
   let best = null, bk = Infinity;
   cands.forEach(c => { const k = kmReales(c, DD); if (k < bk) { bk = k; best = c; } });
-  // 2) afinado con los km reales de la ruta (corredores incluidos)
   const t0 = Date.now();
   for (let vuelta = 0, cambio = true; cambio && vuelta < 6 && Date.now() - t0 < 4000; vuelta++) {
     cambio = false;
-    for (let i = 0; i < best.length; i++) {
+    for (let i = 1; i < best.length - 1; i++) {
       const x = best[i], sin = best.slice(0, i).concat(best.slice(i + 1));
-      for (let j = 0; j <= sin.length; j++) {
+      for (let j = 1; j < sin.length; j++) {
         if (j === i) continue;
         const t = sin.slice(0, j).concat([x], sin.slice(j)), k = kmReales(t, DD);
         if (k < bk - 1) { bk = k; best = t; cambio = true; break; }
       }
     }
-    for (let i = 0; i < best.length - 1; i++) for (let j = i + 1; j < best.length; j++) {
+    for (let i = 1; i < best.length - 2; i++) for (let j = i + 1; j < best.length - 1; j++) {
       const t = best.slice(0, i).concat(best.slice(i, j + 1).reverse(), best.slice(j + 1)), k = kmReales(t, DD);
       if (k < bk - 1) { bk = k; best = t; cambio = true; }
     }
@@ -125,27 +127,53 @@ function optimizar(o, DD){
   return best;
 }
 
+// ------------------------------------------------------------------ ferris
+const FER = RU.ferries, FER_PAISES = [...new Set(FER.map(f => f.pais))];
+const ferry = id => FER.find(f => f.id === id);
+function persVeh(){ return D.vehiculos.map(v => V(v.id + '.personas', v.personas)); }
+function precioFerry(f, dir, v){
+  const k = 'fer.' + f.id + '.' + dir + '.' + v.id, dflt = Math.round(((dir === 'ida' ? f.coche_ida : f.coche_vuelta) + Math.max(0, V(v.id + '.personas', v.personas) - 1) * f.pax) * 100) / 100;
+  return {k, dflt, eur: V(k, dflt)};
+}
+function gasEU(code){ return V('g.eu.' + code, RU.gas_eu[code]); }
+function costeFerry(f, dir){
+  return D.vehiculos.reduce((t, v) => t + precioFerry(f, dir, v).eur + f.km_eu * V(v.id + '.l100', v.l100) / 100 * gasEU(f.gas), 0);
+}
+function elegirFerry(dir, s, DD){
+  const man = get('ruta.ferry_' + dir, '');
+  if (man && ferry(man)) return {f: ferry(man), auto: false};
+  let pais = s && FER_PAISES.includes(s) ? s : null;
+  if (!pais) pais = FER_PAISES.slice().sort((a, b) => (s ? DD.d(a, s) : 0) - (s ? DD.d(b, s) : 0))[0];
+  const pref = ferry(RU.ferry_pref[pais]);
+  const c = pref ? [pref] : FER.filter(f => f.pais === pais).sort((a, b) => costeFerry(a, dir) - costeFerry(b, dir));
+  return {f: c[0], auto: true};
+}
+
 // ------------------------------------------------------------------ ruta
 function ruta(oFijo, DDfijo){
   const sel = selSet();
-  let o = (oFijo || get('ruta.orden', null) || RU.orden_plan).filter((s, i, a) => sel.has(s) && s !== 'marruecos' && a.indexOf(s) === i);
-  const DD = DDfijo || makeDist(grafo(sel), ['marruecos', ...sel]);
-  for (const s of sel) if (s !== 'marruecos' && !o.includes(s)) o = insertar(o, s, DD.d);
+  let o = (oFijo || get('ruta.orden', null) || RU.orden_plan).filter((s, i, a) => sel.has(s) && a.indexOf(s) === i);
+  const DD = DDfijo || makeDist(grafo(sel), [...new Set([...sel, ...FER_PAISES])]);
+  for (const s of sel) if (!o.includes(s)) o = insertar(o, s, DD.d);
   const avisos = [];
   let DD2 = null;
-  // Secuencia completa con los países de paso
-  const full = ['marruecos', ...o, 'marruecos'], seq = [{s: 'marruecos', oi: null}];
-  for (let i = 0; i < full.length - 1; i++) {
-    const oi = i < o.length ? i : null;
-    if (full[i] === full[i + 1]) { seq.push({s: full[i + 1], oi}); continue; }
-    let p = DD.path(full[i], full[i + 1]);
+  const FI = elegirFerry('ida', o[0], DD), FV = elegirFerry('vuelta', o[o.length - 1], DD);
+  // Paradas en orden, con el país del ferry al principio y al final si no coincide
+  const nodos = o.map((s, i) => ({s, oi: i}));
+  if (!nodos.length || nodos[0].s !== FI.f.pais) nodos.unshift({s: FI.f.pais, oi: null});
+  if (nodos[nodos.length - 1].s !== FV.f.pais || nodos.length === 1) nodos.push({s: FV.f.pais, oi: null});
+  const seq = [nodos[0]];
+  for (let i = 0; i < nodos.length - 1; i++) {
+    const a = nodos[i].s, b = nodos[i + 1].s, oi = nodos[i + 1].oi;
+    if (a === b) { seq.push({s: b, oi}); continue; }
+    let p = DD.path(a, b);
     if (!p) {
-      DD2 = DD2 || makeDist(grafo(sel, true), ['marruecos', ...sel]);
-      p = DD2.path(full[i], full[i + 1]);
+      DD2 = DD2 || makeDist(grafo(sel, true), [...new Set([...sel, ...FER_PAISES])]);
+      p = DD2.path(a, b);
       if (p) { const cf = p.filter(s => PA[s].cf && !sel.has(s)).map(s => PA[s].n);
-        avisos.push(`Entre ${PA[full[i]].n} y ${PA[full[i + 1]].n} solo hay camino ${cf.length ? 'cruzando países en conflicto sin marcar: <strong>' + cf.join(', ') + '</strong>' : 'por el <strong>interior de RD Congo</strong>, que el MAEC desaconseja por carretera'}.`); }
+        avisos.push(`Entre ${PA[a].n} y ${PA[b].n} solo hay camino ${cf.length ? 'cruzando países en conflicto sin marcar: <strong>' + cf.join(', ') + '</strong>' : 'por el <strong>interior de RD Congo</strong>, que el MAEC desaconseja por carretera'}.`); }
     }
-    if (!p) { avisos.push(`<strong>Sin camino por carretera permitido</strong> entre ${PA[full[i]].n} y ${PA[full[i + 1]].n} (fronteras cerradas, países excluidos o en conflicto sin marcar). Se une en línea recta.`); seq.push({s: full[i + 1], oi}); continue; }
+    if (!p) { avisos.push(`<strong>Sin camino por carretera permitido</strong> entre ${PA[a].n} y ${PA[b].n} (fronteras cerradas, países excluidos o en conflicto sin marcar). Se une en línea recta.`); seq.push({s: b, oi}); continue; }
     p.slice(1).forEach((s, k) => seq.push({s, oi: k === p.length - 2 ? oi : null}));
   }
   // Pasadas: cada entrada en un país
@@ -154,20 +182,21 @@ function ruta(oFijo, DDfijo){
     const s = it.s, k = cnt[s] = (cnt[s] || 0) + 1, marcado = sel.has(s);
     const parts = String(planOf(s)).split('|'), def = marcado && k <= parts.length && !!parts[k - 1];
     const modo = get('ruta.modo.' + s + '.' + k, null), parar = PA[s].solo_paso ? false : (modo ? modo === 'p' : def);
-    let ids = parar ? (parts[k - 1] || (PA[s].opts[k - 1] || PA[s].opts[0]).id).split('+') : null;
+    const noTr = PA[s].opts.filter(x => x.id !== PA[s].tr);
+    let ids = parar ? (parts[k - 1] || (noTr[k - 1] || noTr[0] || PA[s].opts[0]).id).split('+') : null;
     const tipo = ids ? 'visita' : 'transito';
     if (!ids && PA[s].tr) ids = [PA[s].tr];
     pas.push({s, k, tipo, ids, oi: it.oi, marcado, def});
   });
-  // Geometría y km
-  let cur = RU.tanger;
+  // Geometría y km: del puerto de llegada al de salida
+  let cur = FI.f.pos;
   pas.forEach((p, i) => {
     let pts = [], kmIn = 0, aprox = false;
     const lab = [];
     (p.ids || []).forEach(id => { const op = PA[p.s].opts.find(x => x.id === id); if (!op) return; pts = pts.concat(op.pts); kmIn += op.km; aprox = aprox || op.aprox; lab.push(op.l); });
     if (pts.length > 1 && hav(cur, pts[pts.length - 1]) < hav(cur, pts[0])) pts = pts.slice().reverse();
     if (!pts.length) {
-      const nx = pas[i + 1] ? PA[pas[i + 1].s].pos : RU.tanger;
+      const nx = pas[i + 1] ? PA[pas[i + 1].s].pos : FV.f.pos;
       let qq = PA[p.s].pos, bq = Infinity;
       (ANC[p.s] || []).forEach(a => { const c = hav(cur, a) + hav(a, nx); if (c < bq) { bq = c; qq = a; } });
       pts = [qq]; aprox = true;
@@ -175,7 +204,7 @@ function ruta(oFijo, DDfijo){
     p.kmBase = kmIn; p.legIn = hav(cur, pts[0]) * F; p.pts = pts; p.aprox = aprox; p.lab = lab.join(' + ');
     p.from = cur; cur = pts[pts.length - 1];
   });
-  const vuelta = hav(cur, RU.tanger) * F;
+  const vuelta = hav(cur, FV.f.pos) * F;
   pas.forEach((p, i) => { p.km = p.kmBase + (i ? p.legIn / 2 : p.legIn) + (pas[i + 1] ? pas[i + 1].legIn / 2 : vuelta); });
   // Avisos
   const vistos = [...new Set(pas.map(p => p.s))];
@@ -187,9 +216,10 @@ function ruta(oFijo, DDfijo){
     if (P0.vis === null) avisos.push(`<strong>${P0.n}</strong>: sin importe de visado localizado; cuenta 0 €.`);
     else if (P0.vis !== 'sin' && !P0.vis.eur) avisos.push(`<strong>${P0.n}</strong>: importe del visado por confirmar; cuenta 0 €.`);
   });
+  if (vistos.includes('argelia')) avisos.push('<strong>Argelia</strong>: visado consular, seguro local (la carta verde no vale) y escolta obligatoria en el sur.');
   const paso = vistos.filter(s => !sel.has(s) && !PA[s].solo_paso);
   if (paso.length) avisos.push(`De paso obligado, sin marcar: ${paso.map(s => PA[s].n).join(', ')}. Cuentan sus km, su visado y sus tasas.`);
-  return {sel, o, pas, avisos, DD};
+  return {sel, o, pas, avisos, DD, FI, FV};
 }
 
 // ------------------------------------------------------------------ pintado estático
@@ -201,9 +231,10 @@ function paintStatic(){
     <label>Perros ${inp(v.id+'.perros', v.perros, 1)}</label>
     <label>CPD: carnet de 25 hojas (€) ${inp(v.id+'.cpd_libro', v.cpd_libro, 0.01)}</label>
     <label>CPD: costes bancarios del aval (€) ${inp(v.id+'.cpd_banco', v.cpd_banco, 1)}</label>
-    <label>CPD: aval inmovilizado (€) ${inp(v.id+'.cpd_aval', v.cpd_aval, 100)}</label>
-    <label>Ferry ida (€) ${inp(v.id+'.ferry_ida', D.ferry.ida[v.id], 1)}</label>
-    <label>Ferry vuelta (€) ${inp(v.id+'.ferry_vuelta', D.ferry.vuelta[v.id], 1)}</label></div>`).join('');
+    <label>CPD: aval inmovilizado (€) ${inp(v.id+'.cpd_aval', v.cpd_aval, 100)}</label></div>`).join('');
+  const eu = {es: 'España', fr: 'Francia', it: 'Italia'};
+  $('bud-ferry-todos').innerHTML = FER.map(f => `<tr><td><strong>${f.origen} → ${f.puerto}</strong> <small>(${PA[f.pais].n})</small><span class="nota">${escH(f.naviera)} · ${escH(f.frec)} · ${escH(f.nota)} · <a href="${f.fuente}" target="_blank" rel="noopener">fuente</a></span></td>
+    <td class="n">${num(f.h, f.h % 1 ? 1 : 0)}</td><td class="n">${num(f.km_eu)}</td><td class="n">${eur(f.coche_ida)} / ${eur(f.coche_vuelta)}</td><td class="n">${eur(f.pax)}</td></tr>`).join('');
   const sal = get('ruta.salida', RU.salida);
   $('bud-cfg').innerHTML = `<label>Fecha de salida <input type="date" data-k="ruta.salida" data-d="${RU.salida}" value="${sal}" class="${sal != RU.salida ? 'edited' : ''}"></label>
     <label>Ritmo en países de parada (km/día) ${inp('ruta.ritmo_v', RU.ritmo_v, 10)}</label>
@@ -239,10 +270,9 @@ function agregar(s){
   compute();
 }
 function quitar(s){
-  if (s === 'marruecos') { aviso('Marruecos no se puede quitar: el viaje empieza y acaba en Tánger Med.'); return; }
   const R0 = window.__A27_BUDGET_RESULT.ruta, sel = selSet(), ev = evitarSet();
   sel.delete(s); ev.add(s);
-  const o = R0.o.filter(x => x !== s), full = ['marruecos', ...o, 'marruecos'];
+  const o = R0.o.filter(x => x !== s), full = o;
   const D1 = makeDist(grafo(sel, false, ev), full);
   let corte = null;
   for (let i = 0; i < full.length - 1 && !corte; i++) if (full[i] !== full[i + 1] && !D1.path(full[i], full[i + 1])) corte = [full[i], full[i + 1]];
@@ -287,15 +317,18 @@ function paintMapa(R){
     }
     estiloPaises(R);
     CAPA.clearLayers();
-    const todos = [RU.tanger];
+    const todos = [R.FI.f.pos, R.FV.f.pos];
     R.pas.forEach(p => {
       L.polyline([p.from, p.pts[0]], {color: '#5F6B72', weight: 2, dashArray: '5 6', opacity: .8}).addTo(CAPA);
       if (p.pts.length > 1) L.polyline(p.pts, {color: p.tipo === 'visita' ? '#1E7A8A' : '#8A949A', weight: p.tipo === 'visita' ? 3.5 : 2.5, dashArray: p.tipo === 'visita' ? null : '5 6'})
         .addTo(CAPA).bindTooltip(PA[p.s].n + (p.lab ? ' · ' + p.lab : ''));
       todos.push(...p.pts);
     });
-    const last = R.pas.length ? R.pas[R.pas.length - 1].pts.slice(-1)[0] : RU.tanger;
-    L.polyline([last, RU.tanger], {color: '#5F6B72', weight: 2, dashArray: '5 6'}).addTo(CAPA);
+    const last = R.pas.length ? R.pas[R.pas.length - 1].pts.slice(-1)[0] : R.FV.f.pos;
+    L.polyline([last, R.FV.f.pos], {color: '#5F6B72', weight: 2, dashArray: '5 6'}).addTo(CAPA);
+    const puertos = R.FI.f.id === R.FV.f.id ? [[R.FI.f, 'Llegada y salida']] : [[R.FI.f, 'Llegada'], [R.FV.f, 'Salida']];
+    puertos.forEach(([f, t]) => L.marker(f.pos, {icon: L.divIcon({className: 'bud-mk', html: '⛴', iconSize: [26, 26]})}).addTo(CAPA)
+      .bindTooltip(`${t}: ${f.puerto} (ferry ${f.origen})`));
     if (!ENCUADRADO) { MAP.fitBounds(L.latLngBounds(todos), {padding: [20, 20]}); ENCUADRADO = true; }
   } catch (e) { /* sin mapa: el resto sigue funcionando */ }
 }
@@ -314,8 +347,13 @@ function compute(){
     p.dkey = k; p.dias = (ov !== '' && isFinite(parseFloat(ov))) ? parseFloat(ov) : p.diasCalc;
     kmTot += p.kmE; diasRuta += p.dias;
   });
+  const medio = h => Math.max(0.5, Math.ceil(h / 24 * 2) / 2);
+  const FE = [['ida', R.FI], ['vuelta', R.FV]].map(([dir, x]) => ({dir, f: x.f, auto: x.auto, km: x.f.km_eu,
+    dias: x.f.km_eu / rt + medio(x.f.h), diasFerry: medio(x.f.h), precios: D.vehiculos.map(v => precioFerry(x.f, dir, v).eur)}));
+  const kmEU = FE.reduce((t, e) => t + e.km, 0), diasEU = FE.reduce((t, e) => t + e.dias, 0);
+  kmTot += kmEU; diasRuta += diasEU;
   const margen = V('ruta.margen', RU.margen) / 100, fijos = V('ruta.dias_fijos', 0);
-  const diasCalc = Math.ceil(diasRuta * (1 + margen) + RU.dias_ferry);
+  const diasCalc = Math.ceil(diasRuta * (1 + margen));
   const dias = fijos > 0 ? fijos : diasCalc;
   const salida = get('ruta.salida', RU.salida) || RU.salida;
   const regreso = addDays(salida, dias), previsto = iso2d(RU.regreso);
@@ -327,14 +365,15 @@ function compute(){
     const P0 = PA[p.s], parar = p.tipo === 'visita';
     const oeste = ['bajada', 'subida'].includes(P0.g);
     const dir = vecesPais[p.s] > 1 ? (oeste && p.k <= 2 ? (p.k === 1 ? 'ida' : 'vuelta') : p.k + 'ª vez') : '';
-    const sub = parar ? escH(p.lab) + (p.aprox ? ' · km aproximados' : '') : (p.marcado ? 'Solo cruzar, lo más rápido posible' : (P0.solo_paso ? escH(p.lab) : 'Paso obligado para llegar al siguiente país'));
-    const fijo = p.s === 'marruecos' || P0.solo_paso;
-    const seg = fijo ? `<span class="seg-fijo">${P0.solo_paso ? 'Solo cruzar' : 'Vía rápida'}</span>`
+    const sub = parar ? escH(p.lab) + (p.aprox ? ' · km aproximados' : '') : (p.marcado ? 'Solo cruzar' + (p.lab ? ': ' + escH(p.lab) : ', lo más rápido posible') : (P0.solo_paso ? escH(p.lab) : 'Paso obligado para llegar al siguiente país'));
+    const fijo = P0.solo_paso;
+    const seg = fijo ? `<span class="seg-fijo">Solo cruzar</span>`
       : `<div class="seg" role="group" aria-label="Qué hacer en ${escH(P0.n)}"><button type="button" data-modo="${p.s}|${p.k}|p" aria-pressed="${parar}">Parar</button><button type="button" data-modo="${p.s}|${p.k}|c" aria-pressed="${!parar}">Cruzar</button></div>`;
     const mv = p.oi != null ? `<button type="button" class="mv" data-mv="${p.oi},-1" ${p.oi === 0 ? 'disabled' : ''} title="Antes" aria-label="Mover ${escH(P0.n)} antes">↑</button><button type="button" class="mv" data-mv="${p.oi},1" ${p.oi === R.o.length - 1 ? 'disabled' : ''} title="Después" aria-label="Mover ${escH(P0.n)} después">↓</button>` : '';
     const x = fijo ? '' : `<button type="button" class="mv x" data-quitar="${p.s}" title="Quitar ${escH(P0.n)} de la ruta" aria-label="Quitar ${escH(P0.n)} de la ruta">✕</button>`;
     const dv = get(p.dkey, '');
-    return `<li class="it ${parar ? 'para' : 'cruza'}"><span class="it-n">${i + 1}</span>
+    const asa = p.oi != null ? `<span class="it-h" title="Arrastra para cambiar el orden" aria-hidden="true">⠿</span>` : '<span class="it-h vacio"></span>';
+    return `<li class="it ${parar ? 'para' : 'cruza'}" ${p.oi != null ? 'data-oi="' + p.oi + '"' : ''}>${asa}<span class="it-n">${i + 1}</span>
       <div class="it-p"><strong>${escH(P0.n)}</strong>${dir ? ' <span class="it-dir">' + dir + '</span>' : ''}<span class="nota">${sub}</span></div>
       <div class="it-seg">${seg}</div>
       <div class="it-km"><span data-o="km${i}"></span> <small>km</small></div>
@@ -342,20 +381,44 @@ function compute(){
       <div class="it-act">${mv}${x}</div></li>`;
   });
   paint('bud-itin', rows.join(''));
+  FE.forEach(e => {
+    const f = e.f, opts = FER_PAISES.map(pp => `<optgroup label="${escH(PA[pp].n)}">${FER.filter(x => x.pais === pp).map(x => `<option value="${x.id}" ${!e.auto && x.id === f.id ? 'selected' : ''}>${escH(x.origen)} → ${escH(x.puerto)} · ${escH(x.naviera)}</option>`).join('')}</optgroup>`).join('');
+    const extremo = e.dir === 'ida' ? R.o[0] : R.o[R.o.length - 1], pais = PA[f.pais].n;
+    const sinFerry = extremo && extremo !== f.pais ? ` · ${PA[extremo].n} no tiene ferry: ${e.dir === 'ida' ? 'se entra' : 'se sale'} por ${pais} y se sigue por carretera` : '';
+    const precio = D.vehiculos.reduce((t, v) => t + precioFerry(f, e.dir, v).eur, 0);
+    const txt = e.dir === 'ida'
+      ? `<strong>Salida</strong> · ${RU.origen}${f.km_eu ? ' → ' + num(f.km_eu) + ' km por carretera hasta ' + f.origen : ''} → ferry ${f.origen} – ${f.puerto}`
+      : `<strong>Regreso</strong> · ferry ${f.puerto} – ${f.origen}${f.km_eu ? ' → ' + num(f.km_eu) + ' km por carretera hasta ' + RU.origen : ''}`;
+    paint('bud-fer-' + e.dir, `<span class="fer-ic" aria-hidden="true">⛴</span><div class="fer-t">${txt}<span class="nota">${escH(f.naviera)} · ${num(f.h, f.h % 1 ? 1 : 0)} h · ${escH(f.frec)} · ${eur(precio)} los dos vehículos · ${num(e.dias, 1)} días${sinFerry}</span></div>
+      <label class="fer-sel"><span class="sr">Ferry de ${e.dir}</span><select data-ferry="${e.dir}"><option value="" ${e.auto ? 'selected' : ''}>Automático: según el ${e.dir === 'ida' ? 'primer' : 'último'} país de la lista</option>${opts}</select></label>`);
+  });
   R.pas.forEach((p, i) => { const k = q(`[data-o="km${i}"]`); if (k) k.textContent = num(p.kmE); const d = q(`[data-o="dp${i}"]`); if (d) d.placeholder = num(p.diasCalc, 1); });
   $('bud-itin-km').textContent = num(kmTot);
   $('bud-itin-dias').textContent = num(diasRuta, 1);
+  if (window.Sortable && !$('bud-itin').__sort) {
+    $('bud-itin').__sort = Sortable.create($('bud-itin'), {handle: '.it-h', draggable: 'li', animation: 150, ghostClass: 'it-ghost',
+      onEnd: () => {
+        const R1 = window.__A27_BUDGET_RESULT.ruta, nuevo = [...$('bud-itin').children].map(li => li.dataset.oi).filter(x => x != null && x !== '').map(x => R1.o[+x]);
+        $('bud-itin').__h = null; S['ruta.orden'] = nuevo; S['ruta.sel'] = [...selSet()]; save(); compute();
+      }});
+  }
   paintMapa(R);
   // ---- Por país
   const porPais = {}, orden = [];
   R.pas.forEach(p => { if (!porPais[p.s]) { porPais[p.s] = {km: 0, entradas: 0}; orden.push(p.s); } porPais[p.s].km += p.kmE; porPais[p.s].entradas++; });
   const veh = D.vehiculos.map(v => ({...v, l100: V(v.id+'.l100', v.l100), personas: V(v.id+'.personas', v.personas),
-      perros: V(v.id+'.perros', v.perros), ferry: V(v.id+'.ferry_ida', D.ferry.ida[v.id]) + V(v.id+'.ferry_vuelta', D.ferry.vuelta[v.id])}));
+      perros: V(v.id+'.perros', v.perros), ferry: precioFerry(R.FI.f, 'ida', v).eur + precioFerry(R.FV.f, 'vuelta', v).eur}));
   const Rr = {}; veh.forEach(v => Rr[v.id] = {comb:0, vis:0, veh:0, ferry:0, vida:0, perro:0, otros:0, imp:0, litros:0});
   const gasDef = s => { const g = PA[s].gas; return g ? g.eur : RU.gas_sin_dato; };
   const gasKey = s => 'g.' + (s === 'cabinda' ? 'angola' : s);
-  paint('bud-comb', orden.map(s => `<tr><td><strong>${PA[s].n}</strong>${PA[s].gas ? '' : '<span class="nota">Sin precio publicado: valor genérico</span>'}</td><td class="n" data-o="ck${s}"></td>
-    <td class="n">${inp(gasKey(s), gasDef(s), 0.01)}</td>${D.vehiculos.map(v => `<td class="n" data-o="c${v.id}${s}"></td>`).join('')}</tr>`).join(''));
+  const EUN = {es: 'España', fr: 'Francia', it: 'Italia'};
+  const euRows = FE.filter(e => e.km > 0).map(e => ({key: 'eu' + e.dir, n: `Carretera en Europa (${e.dir === 'ida' ? RU.origen + ' → ' + e.f.origen : e.f.origen + ' → ' + RU.origen})`, km: e.km, gk: 'g.eu.' + e.f.gas, gd: RU.gas_eu[e.f.gas], nota: 'Precio de ' + EUN[e.f.gas] + ', GlobalPetrolPrices 21-09-2026'}));
+  paint('bud-comb', euRows.filter(r => r.key === 'euida').map(r => `<tr><td><strong>${r.n}</strong><span class="nota">${r.nota}</span></td><td class="n" data-o="ck${r.key}"></td><td class="n">${inp(r.gk, r.gd, 0.01)}</td>${D.vehiculos.map(v => `<td class="n" data-o="c${v.id}${r.key}"></td>`).join('')}</tr>`).join('')
+    + orden.map(s => `<tr><td><strong>${PA[s].n}</strong>${PA[s].gas ? '' : '<span class="nota">Sin precio publicado: valor genérico</span>'}</td><td class="n" data-o="ck${s}"></td>
+    <td class="n">${inp(gasKey(s), gasDef(s), 0.01)}</td>${D.vehiculos.map(v => `<td class="n" data-o="c${v.id}${s}"></td>`).join('')}</tr>`).join('')
+    + euRows.filter(r => r.key === 'euvuelta').map(r => `<tr><td><strong>${r.n}</strong><span class="nota">${r.nota}</span></td><td class="n" data-o="ck${r.key}"></td><td class="n">${inp(r.gk, r.gd, 0.01)}</td>${D.vehiculos.map(v => `<td class="n" data-o="c${v.id}${r.key}"></td>`).join('')}</tr>`).join(''));
+  euRows.forEach(r => { const pr = V(r.gk, r.gd); q(`[data-o="ck${r.key}"]`).textContent = num(r.km);
+    veh.forEach(v => { const l = r.km * v.l100 / 100, e = l * pr; Rr[v.id].comb += e; Rr[v.id].litros += l; q(`[data-o="c${v.id}${r.key}"]`).innerHTML = `${eur(e)}<span class="nota">${num(l)} L</span>`; }); });
   const combOut = [];
   orden.forEach(s => {
     const km = porPais[s].km, pr = V(gasKey(s), gasDef(s));
@@ -369,6 +432,11 @@ function compute(){
   veh.forEach(v => { $('bud-tf-'+v.id).innerHTML = `${eur(Rr[v.id].comb)}<span class="nota">${num(Rr[v.id].litros)} L</span>`; });
   paint('bud-precios', orden.filter(s => PA[s].gas && s !== 'cabinda').map(s => { const g = PA[s].gas, host = (g.fuente.match(/^https?:\/\/(?:www\.)?([^/]+)/) || [,''])[1];
     return `<tr><td><strong>${PA[s].n}</strong>${g.nota ? '<span class="nota">'+g.nota+'</span>' : ''}</td><td class="n">${num(g.eur,3)} €</td><td>${g.fecha}</td><td><a href="${g.fuente}" target="_blank" rel="noopener">${host}</a></td></tr>`; }).join(''));
+  // ---- Ferris elegidos
+  paint('bud-ferry-sel', FE.map(e => `<tr><td><strong>${e.dir === 'ida' ? 'Ida' : 'Vuelta'}: ${e.dir === 'ida' ? e.f.origen + ' → ' + e.f.puerto : e.f.puerto + ' → ' + e.f.origen}</strong><span class="nota">${escH(e.f.naviera)} · ${num(e.f.h, e.f.h % 1 ? 1 : 0)} h · ${e.auto ? 'elegido automáticamente' : 'elegido a mano'}</span></td>
+    ${D.vehiculos.map(v => { const pf = precioFerry(e.f, e.dir, v); return `<td class="n">${inp(pf.k, pf.dflt, 1)}</td>`; }).join('')}</tr>`).join('')
+    + `<tr><td>Perro (dos trayectos, estimación)</td>${veh.map(v => `<td class="n">${eur(v.perros ? 2 * D.perro_ferry * v.perros : 0)}</td>`).join('')}</tr>`);
+  D.vehiculos.forEach(v => FE.forEach(e => { const pf = precioFerry(e.f, e.dir, v), el = q(`[data-k="${pf.k}"]`); if (el && !(pf.k in S)) { el.value = pf.dflt; el.dataset.d = pf.dflt; } }));
   // ---- Visados
   const nPers = veh.reduce((s, v) => s + v.personas, 0);
   const conVis = orden.filter(s => PA[s].vis !== 'sin'), sinVis = orden.filter(s => PA[s].vis === 'sin' && !PA[s].solo_paso);
@@ -413,7 +481,7 @@ function compute(){
   const aval = veh.reduce((s, v) => s + V(v.id+'.cpd_aval', v.cpd_aval), 0);
   // ---- Tarjetas de la ruta
   const dif = Math.round((regreso - previsto) / 864e5);
-  const ritmoNec = kmTot / Math.max(1, (diasPrev - RU.dias_ferry) / (1 + margen));
+  const ritmoNec = (kmTot - kmEU) / Math.max(1, diasPrev / (1 + margen) - diasEU);
   const nPaso = new Set(R.pas.filter(p => !R.sel.has(p.s) && !PA[p.s].solo_paso).map(p => p.s)).size;
   $('bud-ruta-cards').innerHTML = `<div class="bud-card"><div class="lbl">Países</div><div class="big">${R.sel.size}</div><div class="sub">marcados · ${nPaso} más de paso · ${R.pas.length} entradas en total</div></div>
     <div class="bud-card"><div class="lbl">Km por vehículo</div><div class="big">${num(kmTot)}</div><div class="sub">${num(kmTot / Math.max(1, dias))} km de media al día, contando paradas</div></div>
@@ -440,7 +508,7 @@ function compute(){
     + `<tr class="bud-aval"><td>Aval del CPD inmovilizado <span class="nota">No es gasto y no suma al total: el banco lo bloquea y se recupera al devolver el carnet con todos los sellos.</span></td>${veh.map(v => `<td class="n">${eur(V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(aval)}</td></tr>`
     + `<tr class="bud-aval"><td>Dinero comprometido al salir <span class="nota">Total del viaje + avales.</span></td>${veh.map(v => `<td class="n">${eur(Rr[v.id].total + V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(total + aval)}</td></tr>`;
   window.__A27_BUDGET_RESULT = {R: Rr, total, kmTot, veh, dias, diasCalc, diasRuta, fijos, margen, salida, regreso: fecha(regreso),
-    ruta: R, porPais, orden, combOut, visOut, tasOut, factor, desv, rv, rt};
+    ruta: R, porPais, orden, combOut, visOut, tasOut, factor, desv, rv, rt, FE, euRows, kmEU, diasEU};
 }
 
 function csv(){
@@ -466,6 +534,8 @@ document.addEventListener('input', e => {
   e.target.classList.toggle('edited', e.target.value != e.target.dataset.d); save(); compute();
 });
 document.addEventListener('change', e => {
+  const fd = e.target.dataset.ferry;
+  if (fd) { if (e.target.value) S['ruta.ferry_' + fd] = e.target.value; else delete S['ruta.ferry_' + fd]; save(); compute(); return; }
   if (e.target.id === 'ruta-add') { const v = e.target.value; e.target.value = ''; if (v) agregar(v); }
 });
 document.addEventListener('click', e => {
@@ -485,7 +555,7 @@ document.addEventListener('click', e => {
 paintStatic(); compute();
 $('ruta-plan').addEventListener('click', () => { Object.keys(S).filter(k => k.startsWith('ruta.') && !RUTA_CFG.includes(k)).forEach(k => delete S[k]); save(); aviso('Vuelta a la ruta de la planificación.'); compute(); });
 $('ruta-opt').addEventListener('click', () => { const R = window.__A27_BUDGET_RESULT.ruta; S['ruta.orden'] = optimizar(R.o, R.DD); S['ruta.sel'] = [...R.sel]; save(); compute(); });
-$('ruta-none').addEventListener('click', () => { S['ruta.sel'] = ['marruecos']; S['ruta.orden'] = []; S['ruta.evitar'] = []; save(); aviso('Ruta vacía: toca países en el mapa o usa «Añadir un país».'); compute(); });
+$('ruta-none').addEventListener('click', () => { S['ruta.sel'] = []; S['ruta.orden'] = []; S['ruta.evitar'] = []; save(); aviso('Ruta vacía: toca países en el mapa o usa «Añadir un país».'); compute(); });
 $('bud-reset').addEventListener('click', () => { S = {}; save(); ['bud-itin','bud-comb','bud-visados','bud-tasas','ruta-add','bud-precios'].forEach(id => { $(id).__h = null; }); paintStatic(); compute(); });
 $('bud-csv').addEventListener('click', csv);
 $('bud-xlsx').addEventListener('click', () => {

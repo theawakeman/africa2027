@@ -87,7 +87,11 @@ def datos(FULL, C):
         "tanger": list(RT.TANGER_MED), "f_sin_ruta": RT.FACTOR_SIN_RUTA,
         "penal": RT.PENAL_NO_MARCADO, "penal_ferry": RT.PENAL_FERRY_KM,
         "salida": RT.SALIDA, "regreso": RT.REGRESO_PREVISTO, "ritmo_v": RT.RITMO_VISITA,
-        "ritmo_t": RT.RITMO_TRANSITO, "margen": RT.MARGEN_PCT, "dias_ferry": RT.DIAS_FERRY,
+        "ritmo_t": RT.RITMO_TRANSITO, "margen": RT.MARGEN_PCT,
+        "origen": RT.ORIGEN, "gas_eu": RT.GASOIL_EUROPA, "ferry_pref": RT.FERRY_PREFERIDO,
+        "ferries": [{"id": f[0], "pais": f[1], "origen": f[2], "puerto": f[3], "pos": [f[4], f[5]], "naviera": f[6],
+                     "h": f[7], "frec": f[8], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "km_eu": f[12],
+                     "gas": f[13], "nota": f[14], "fuente": f[15]} for f in RT.FERRIES],
         "gas_sin_dato": P.GASOIL_SIN_DATO,
         "grupos": [("bajada", "Corredor oeste"), ("subida", "Corredor oeste · solo subida"),
                    ("bucle", "Sur y este"), ("alternativa", "Opcionales"), ("fuera", "Fuera de la ruta prevista"),
@@ -161,7 +165,7 @@ CSS = """
 .bud-actions select{max-width:320px;width:auto;padding:8px 10px;border-radius:8px;font-weight:600}
 .bud-msg{background:var(--amber-bg);border:1px solid var(--amber);border-radius:10px;padding:10px 14px;font-size:14.5px;margin:8px 0}
 .bud-itin{list-style:none;margin:10px 0 0;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
-.bud-itin .it{display:grid;grid-template-columns:30px minmax(0,1fr) auto 92px 104px 104px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid var(--line);font-family:"Archivo",sans-serif}
+.bud-itin .it{display:grid;grid-template-columns:16px 30px minmax(0,1fr) auto 92px 104px 104px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid var(--line);font-family:"Archivo",sans-serif}
 .bud-itin .it:first-child{border-top:0}
 .bud-itin .it.cruza{background:var(--surface2)}
 .bud-itin .it.cruza .it-p strong{font-weight:600;color:var(--ink-soft)}
@@ -182,10 +186,18 @@ CSS = """
 .it-act{display:flex;gap:4px;justify-content:flex-end}
 .bud .mv.x{color:#B43A3A;font-weight:700}
 .bud-itin-tot{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end;font-family:"Archivo",sans-serif;font-size:14px;padding:10px 12px}
+.it-h{cursor:grab;color:var(--ink-soft);font-size:18px;line-height:1;user-select:none;touch-action:none;text-align:center}
+.it-h.vacio{cursor:default}
+.it-ghost{opacity:.4;background:var(--amber-bg)!important}
+.bud-ferry-card{display:grid;grid-template-columns:30px minmax(0,1fr) minmax(220px,340px);gap:10px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0;background:var(--surface2);font-family:"Archivo",sans-serif;font-size:14px}
+.fer-ic{font-size:20px;text-align:center}
+.fer-sel select{width:100%;max-width:none}
+.bud .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:760px){.bud-ferry-card{grid-template-columns:30px minmax(0,1fr)}.fer-sel{grid-column:1/-1}}
 .bud-det{margin:14px 0;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--surface)}
 .bud-det summary{cursor:pointer;font-family:"Archivo",sans-serif;font-weight:700;color:var(--head)}
-@media (max-width:760px){.bud-itin .it{grid-template-columns:30px minmax(0,1fr) auto;grid-template-areas:"n p act" "n seg seg" "n km d";row-gap:8px}
- .it-n{grid-area:n;align-self:start}.it-p{grid-area:p}.it-seg{grid-area:seg}.it-km{grid-area:km;text-align:left}.it-d{grid-area:d}.it-act{grid-area:act}
+@media (max-width:760px){.bud-itin .it{grid-template-columns:16px 30px minmax(0,1fr) auto;grid-template-areas:"h n p act" "h n seg seg" "h n km d";row-gap:8px}
+ .it-h{grid-area:h;align-self:center}.it-n{grid-area:n;align-self:start}.it-p{grid-area:p}.it-seg{grid-area:seg}.it-km{grid-area:km;text-align:left}.it-d{grid-area:d}.it-act{grid-area:act}
  .it-p .nota{white-space:normal}}
 #bud-mapa{height:460px;border-radius:12px;border:1px solid var(--line);margin:12px 0;background:var(--surface2)}
 .bud-avisos{margin:10px 0;padding-left:20px;font-size:14px}
@@ -221,14 +233,16 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <section id="ruta"><h2>Ruta</h2>
 <div class="bud-grid" id="bud-ruta-cards"></div>
 <ul class="bud-avisos" id="bud-avisos"></ul>
-<p><strong>Toca un país en el mapa</strong> para añadirlo o quitarlo, o usa el desplegable. En la lista, cada fila es una entrada en un país: elige <strong>Parar</strong> (se hace el recorrido de su ficha) o <strong>Cruzar</strong> (lo más rápido posible). La ✕ quita el país de la ruta; si es el único camino para seguir, se queda como «cruzar».</p>
+<p><strong>Toca un país en el mapa</strong> para añadirlo o quitarlo, o usa el desplegable. <strong>Arrastra</strong> los países de la lista (por el asa ⠿) para ponerlos en el orden que quieras: el viaje <strong>empieza en el primero y acaba en el último</strong>, y la página busca el ferry desde España a cada uno (o al puerto más cercano si no tienen). En cada fila elige <strong>Parar</strong> (el recorrido de su ficha) o <strong>Cruzar</strong> (lo más rápido posible). La ✕ quita el país; si es el único camino para seguir, se queda como «cruzar».</p>
 <div class="bud-mapkey"><span><i style="background:rgba(30,122,138,.55)"></i>Se para</span><span><i style="background:rgba(217,123,41,.5)"></i>Solo se cruza</span><span><i style="background:#fff;border:1px solid #8A949A"></i>Fuera de la ruta</span><span><i style="background:rgba(180,58,58,.2);border:1px dashed #B43A3A"></i>Excluido</span></div>
 <div id="bud-mapa" role="img" aria-label="Mapa de la ruta: toca un país para añadirlo o quitarlo"></div>
 <div class="bud-actions"><select id="ruta-add" aria-label="Añadir un país"></select><button type="button" id="ruta-opt">Ordenar por la ruta más corta</button><button type="button" id="ruta-plan">Volver a la ruta planificada</button><button type="button" id="ruta-none">Vaciar</button></div>
 <div class="bud-msg" id="bud-msg" role="status" aria-live="polite" hidden></div>
 <h3>Itinerario</h3>
+<div class="bud-ferry-card" id="bud-fer-ida"></div>
 <ol class="bud-itin" id="bud-itin"></ol>
-<div class="bud-itin-tot"><span>Total</span><span><strong id="bud-itin-km"></strong> km</span><span><strong id="bud-itin-dias"></strong> días de ruta (+ margen y ferry)</span></div>
+<div class="bud-ferry-card" id="bud-fer-vuelta"></div>
+<div class="bud-itin-tot"><span>Total</span><span><strong id="bud-itin-km"></strong> km</span><span><strong id="bud-itin-dias"></strong> días (+ margen)</span></div>
 <details class="bud-det"><summary>Ritmo, fechas y ajustes</summary><div class="bud-cfg" id="bud-cfg"></div>
 <p class="figcap">Los días de cada fila salen de dividir sus km por el ritmo; escribe una cifra en la casilla de días para fijar la de ese país.</p></details>
 </section>
@@ -264,26 +278,30 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <p>Por vehículo y por entrada, con las entradas de la ruta elegida. Total por vehículo: <strong id="bud-tasas-tot"></strong>. Donde no hay dato, la fila vale 0 y lo dice.</p>
 <div class="tblwrap"><table><thead><tr><th>País</th><th class="n">€ por entrada</th><th class="n">Entradas</th><th class="n">€ por vehículo</th></tr></thead><tbody id="bud-tasas"></tbody></table></div>
 </section>
-<section id="ferry"><h2>Ferry Barcelona – Tánger Med</h2>
-<p>Tarifas de <a href="{attr(P.FERRY['fuente'])}" target="_blank" rel="noopener">GNV</a> consultadas el {esc(P.FERRY['fecha'])}, para coche de clase A2 (alto de 1,90 a 2,79 m y largo hasta 4,99 m, que es donde entra un 4x4 con tienda de techo). Son precios «desde»: suben al llenarse el barco. El cálculo usa camarote.</p>
-<div class="tblwrap"><table><thead><tr><th>Vehículo</th><th>Fecha de ida</th><th>Ida (Barcelona → Tánger)</th><th>Vuelta (Tánger → Barcelona)</th></tr></thead><tbody>
-{"".join(f"<tr><td><strong>{esc(a)}</strong></td><td>{esc(b)}</td><td class='n'>{esc(c)}</td><td class='n'>{esc(d)}</td></tr>" for a, b, c, d in P.FERRY['filas'])}
-</tbody></table></div>
+<section id="ferry"><h2>Ferris</h2>
+<p>El de ida y el de vuelta los elige la ruta (primer y último país); se pueden cambiar arriba, en el itinerario. Precio de cada vehículo por trayecto = coche con conductor + un pasaje por cada persona más. Las casillas se pueden corregir con el presupuesto real de la naviera.</p>
+<div class="tblwrap"><table><thead><tr><th>Trayecto</th>{th_v}</tr></thead><tbody id="bud-ferry-sel"></tbody></table></div>
+<h3>Todos los ferris a Marruecos, Argelia y Túnez</h3>
+<p>Desde {esc(RT.ORIGEN)}: los km hasta el puerto de embarque cuentan en el combustible y en los días. Consultado el 26-09-2026.</p>
+<div class="tblwrap"><table><thead><tr><th>Ruta</th><th class="n">Horas</th><th class="n">Km desde {esc(RT.ORIGEN)}</th><th class="n">Coche + conductor ida / vuelta</th><th class="n">Pasaje</th></tr></thead><tbody id="bud-ferry-todos"></tbody></table></div>
 {callout("warn", "Lo que no está confirmado",
-    "<strong>Vuelta:</strong> julio y agosto de 2027 todavía no están a la venta; la cifra es la de abril y mayo de 2027, y en verano suele costar más. "
-    f"<strong>Perro:</strong> tiene que ir en camarote pet-friendly (máximo 2 mascotas) o en la perrera; no puede quedarse en el coche. GNV no publica el precio de la mascota ni del suplemento: se calcula ~{P.PERRO_FERRY} € por trayecto (estimación). "
-    "<strong>Medidas:</strong> si algún vehículo pasa de 4,99 m de largo (portabicis, rueda trasera) o de 2,79 m de alto, cambia de clase y de precio.", raw=True)}
+    "Solo Barcelona–Tánger Med (GNV) es un presupuesto real para nuestros vehículos (clase A2, camarote). El resto son tarifas de coche con conductor de agregadores o «desde» de la naviera: "
+    "<strong>no incluyen camarote ni el recargo de vehículo alto</strong> (el 4x4 con tienda mide ~2,3 m y casi todas las navieras lo cobran aparte: Corsica Linea, 50 €). "
+    "La vuelta usa la media de julio o agosto, que en Argelia y Túnez es temporada de la diáspora y puede multiplicar el precio. "
+    f"<strong>Perro:</strong> ~{P.PERRO_FERRY} € por trayecto (estimación); Algérie Ferries y Corsica Linea solo lo admiten en perrera, y Grimaldi prohíbe algunas razas en Túnez. "
+    "<strong>Argelia:</strong> visado consular, seguro local y escolta en el sur. <strong>Túnez:</strong> autorización previa «Smart Traveller» para el coche.", raw=True)}
 </section>
 <section id="partidas"><h2>Resto de partidas</h2>
 <div class="tblwrap"><table><thead><tr><th>Partida</th><th class="n">Valor</th><th>Unidad</th></tr></thead><tbody id="bud-params"></tbody></table></div>
 </section>
 <section id="criterio"><h2>Criterio</h2>
 {bullets([
-    "Orden automático: la ruta sale de Tánger Med, pasa por todos los países marcados y vuelve a Tánger Med por el camino más corto entre ellos, sin cruzar fronteras cerradas ni países excluidos por protocolo (Mali, Guinea-Bisáu, Sudán). Los países en conflicto (Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) solo se usan si se marcan.",
+    "Orden: el que se ponga en la lista. Entre un país y el siguiente se va por el camino más corto, sin cruzar fronteras cerradas ni países excluidos por protocolo (Mali, Guinea-Bisáu, Sudán). Los países en conflicto (Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) solo se usan si se marcan.",
     "Al añadir un país se mete en el hueco del orden donde menos km suma; «Ordenar por la ruta más corta» rehace todo el orden. Las flechas del itinerario lo cambian a mano. Al quitar un país, el cálculo deja de usarlo también como paso, salvo que sea el único camino.",
     "«Parar» hace el corredor de la ficha que toca (en los países de ida y vuelta, el de bajada a la ida y el de subida a la vuelta); «Cruzar» es un tránsito directo. En Marruecos, el Sahara Occidental y Mauritania cruzar es la vía rápida de la costa.",
     "Km de parada: OSRM (OpenStreetMap) por todos los puntos del corredor de la ficha, 26-09-2026. Km de enlace y de tránsito: línea recta × 1,25, así que son aproximados.",
-    "Días = km ÷ ritmo (uno para los países de parada y otro para los de paso) + margen + noches de ferry. Si se escribe una duración fija, se usa esa y la página dice qué ritmo haría falta.",
+    "Días = km ÷ ritmo (uno para los países de parada y otro para los de paso y la carretera en Europa) + horas de ferry + margen. Si se escribe una duración fija, se usa esa y la página dice qué ritmo haría falta.",
+    "Ferris: el de ida es el recomendado para el primer país de la lista (Marruecos: GNV Barcelona–Tánger Med; Argelia: Valencia–Mostaganem; Túnez: Génova–Túnez); si ese país no tiene ferry, el del país con ferry más cercano, y desde allí se conduce. Igual con la vuelta y el último país.",
     "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el INEOS Grenadier.",
     "Tipo de cambio: 1 USD = %s € (implícito en GlobalPetrolPrices del 21-09-2026). Franco CFA fijo: 655,957 por euro." % str(P.USD_EUR).replace(".", ","),
     "No incluye: el viaje hasta Barcelona, la preparación de los vehículos, vacunas y seguro médico de viaje, ni una posible escapada en avión.",
@@ -294,6 +312,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 </main>
 <script>var A27_BUDGET = {json.dumps(D, ensure_ascii=False, separators=(",", ":"))};</script>
 <script src="{root}assets/vendor/leaflet.js"></script>
+<script src="{root}assets/vendor/Sortable.min.js"></script>
 <script src="{root}assets/js/presupuesto-xlsx.js"></script>
 <script src="{root}assets/js/{JS_PATH}"></script>"""
     extra = f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css"><style>{CSS}</style>'

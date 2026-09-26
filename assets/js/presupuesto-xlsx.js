@@ -85,7 +85,14 @@
     const P = "'Parámetros'!";
     const ref = {};                      // id → referencia absoluta en Parámetros
     const vc = ['B', 'C'];               // columnas de los vehículos en Parámetros
-    const pas = res.ruta.pas, nP = pas.length;
+    const EU = {es: 'España', fr: 'Francia', it: 'Italia'};
+    const FE = res.FE, fIda = FE[0], fVu = FE[1];
+    const eu = r => ({eu: true, n: r.n, tipo: 'de paso', lab: r.nota, km: r.km, dias: null, pr: V(r.gk, r.gd)});
+    const filas = [...res.euRows.filter(r => r.key === 'euida').map(eu),
+      ...res.ruta.pas.map(p => ({n: PA[p.s].n, tipo: p.tipo === 'visita' ? 'parada' : 'de paso', lab: p.lab || 'enlace aproximado', km: p.km,
+        dias: p.dias !== p.diasCalc ? p.dias : null, pr: V('g.' + (p.s === 'cabinda' ? 'angola' : p.s), PA[p.s].gas ? PA[p.s].gas.eur : RU.gas_sin_dato)})),
+      ...res.euRows.filter(r => r.key === 'euvuelta').map(eu)];
+    const nP = filas.length;
     const g0 = 5, g1 = g0 + nP - 1, gt = g1 + 2;   // filas de la hoja Ruta
     // ---------- Parámetros ----------
     const pr = [];
@@ -100,8 +107,8 @@
       ['cpd_libro', 'CPD: carnet de 25 hojas (€)', v => V(v.id + '.cpd_libro', v.cpd_libro), 9, 'RACE; importes facilitados el 26-09-2026'],
       ['cpd_banco', 'CPD: costes bancarios del aval (€)', v => V(v.id + '.cpd_banco', v.cpd_banco), 9, 'Sin dato todavía'],
       ['cpd_aval', 'CPD: aval inmovilizado (€, no es gasto)', v => V(v.id + '.cpd_aval', v.cpd_aval), 9, 'Se recupera al cerrar el carnet'],
-      ['ferry_ida', 'Ferry ida Barcelona → Tánger Med (€)', v => V(v.id + '.ferry_ida', D.ferry.ida[v.id]), 9, 'GNV, camarote, coche clase A2, 10-01-2027'],
-      ['ferry_vuelta', 'Ferry vuelta Tánger Med → Barcelona (€)', v => V(v.id + '.ferry_vuelta', D.ferry.vuelta[v.id]), 9, 'Referencia abril-mayo 2027: el verano aún no está a la venta'],
+      ['ferry_ida', `Ferry ida ${fIda.f.origen} → ${fIda.f.puerto} (€)`, v => fIda.precios[D.vehiculos.indexOf(v)], 9, `${fIda.f.naviera} · ${fIda.f.nota}`],
+      ['ferry_vuelta', `Ferry vuelta ${fVu.f.puerto} → ${fVu.f.origen} (€)`, v => fVu.precios[D.vehiculos.indexOf(v)], 9, `${fVu.f.naviera} · ${fVu.f.nota}`],
     ];
     vrows.forEach(([id, label, fn, st, nota], k) => {
       const r = 5 + k;
@@ -114,7 +121,7 @@
       ['ritmo_v', 'Ritmo en países de parada', res.rv, 10, 'km/día', 'Estimación, contando los días de parada'],
       ['ritmo_t', 'Ritmo en países de paso', res.rt, 10, 'km/día', 'Estimación'],
       ['margen', 'Margen de días', res.margen, 11, '%', 'Fronteras, trámites, averías, lluvia'],
-      ['dias_ferry', 'Noches de ferry', RU.dias_ferry, 10, 'días', 'Barcelona – Tánger Med, ida y vuelta'],
+      ['dias_ferry', 'Días de ferry (ida + vuelta)', fIda.diasFerry + fVu.diasFerry, 8, 'días', `${fIda.f.h} h + ${fVu.f.h} h de travesía`],
       ['dias_fijos', 'Duración fija (0 = calcular)', res.fijos, 10, 'días', 'Si vale más de 0, sustituye a la duración calculada'],
       ['dias', 'Días de viaje', null, 13, 'días', 'Fórmula: días de la hoja Ruta × (1 + margen) + ferry, o la duración fija'],
       ['factor', 'Factor de ajuste de km', res.factor, 8, '×', 'Los km ya son por carretera (OSRM); 1 = sin ajuste'],
@@ -130,7 +137,7 @@
       r++;
       ref[id] = `${P}$B$${r + 1}`;
       const cell = id === 'dias'
-        ? {f: `IF(${ref.dias_fijos}>0,${ref.dias_fijos},ROUNDUP(Ruta!J${gt}*(1+${ref.margen})+${ref.dias_ferry},0))`, s: st}
+        ? {f: `IF(${ref.dias_fijos}>0,${ref.dias_fijos},ROUNDUP((Ruta!J${gt}+${ref.dias_ferry})*(1+${ref.margen}),0))`, s: st}
         : {v: val, s: st};
       pr[r] = [label, cell, unidad, {v: nota, s: 12}];
     });
@@ -138,15 +145,14 @@
     // ---------- Ruta y combustible ----------
     const cr = [];
     cr[0] = [{v: 'Ruta, días y combustible', s: 7}];
-    cr[1] = [{v: 'Una fila por cada entrada en un país, en orden de marcha. Km base: OSRM por el corredor de la ficha en las paradas; línea recta × 1,25 en enlaces y países de paso. Km estimados = km base × factor × (1 + desvíos). Días = km ÷ ritmo, salvo que se escriba una cifra en «Días fijados».', s: 12}];
+    cr[1] = [{v: 'Salida y regreso por ' + RU.origen + '. Una fila por cada entrada en un país, en orden de marcha, más la carretera en Europa hasta el puerto. Km base: OSRM por el corredor de la ficha en las paradas; línea recta × 1,25 en enlaces y países de paso. Km estimados = km base × factor × (1 + desvíos). Días = km ÷ ritmo, salvo que se escriba una cifra en «Días fijados».', s: 12}];
     cr[3] = ['#', 'País', 'Tipo', 'Recorrido', 'Km base', 'Km estimados', 'Ritmo km/día', 'Días calculados', 'Días fijados', 'Días', '€/litro',
       'Litros ' + D.vehiculos[0].nombre, '€ ' + D.vehiculos[0].nombre, 'Litros ' + D.vehiculos[1].nombre, '€ ' + D.vehiculos[1].nombre].map(H);
-    pas.forEach((p, k) => {
-      const n = g0 + k, s = p.s, g = PA[s].gas;
-      const pr1 = V('g.' + (s === 'cabinda' ? 'angola' : s), g ? g.eur : RU.gas_sin_dato);
-      const ov = p.dias !== p.diasCalc ? {v: p.dias, s: 8} : {v: '', s: 8};
-      cr[n - 1] = [k + 1, PA[s].n, p.tipo === 'visita' ? 'parada' : 'de paso', {v: p.lab || 'enlace aproximado', s: 12}, {v: Math.round(p.km), s: 10},
-        {f: `E${n}*${ref.factor}*(1+${ref.desvios})`, s: 4},
+    filas.forEach((p, k) => {
+      const n = g0 + k, pr1 = p.pr;
+      const ov = p.dias != null ? {v: p.dias, s: 8} : {v: '', s: 8};
+      cr[n - 1] = [k + 1, p.n, p.tipo, {v: p.lab, s: 12}, {v: Math.round(p.km), s: 10},
+        {f: p.eu ? `E${n}` : `E${n}*${ref.factor}*(1+${ref.desvios})`, s: 4},
         {f: `IF(C${n}="parada",${ref.ritmo_v},${ref.ritmo_t})`, s: 4},
         {f: `F${n}/G${n}`, s: 6}, ov.v === '' ? {v: ' ', s: 8} : ov, {f: `IF(ISNUMBER(I${n}),I${n},H${n})`, s: 6},
         {v: pr1, s: 9},
@@ -191,7 +197,7 @@
       ['Combustible', i => `Ruta!${i ? 'O' : 'M'}${gt}`],
       ['Visados', i => `Visados!D${vt}*${ref.personas(i)}`],
       ['Vehículo: CPD, tasas, seguros, mantenimiento', i => `${ref.cpd_libro(i)}+${ref.cpd_banco(i)}+'Tasas frontera'!D${tt}+${p('seguros')}+${p('mantenimiento')}`],
-      ['Ferry Barcelona – Tánger Med (ida y vuelta)', i => `${ref.ferry_ida(i)}+${ref.ferry_vuelta(i)}`],
+      ['Ferris (ida y vuelta)', i => `${ref.ferry_ida(i)}+${ref.ferry_vuelta(i)}`],
       ['Comida, noches y actividades', i => `${p('comida')}*${ref.personas(i)}*${p('dias')}+${p('noche')}*${p('dias')}+${p('parques')}*${ref.personas(i)}`],
       ['Perro (comida, trámites y ferry)', i => `${ref.perros(i)}*(${p('perro_comida')}*${p('dias')}+${p('perro_tramites')}+2*${p('perro_ferry')})`],
       ['Comunicaciones', i => `${p('comunicaciones')}*${p('dias')}/30.4`],

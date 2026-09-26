@@ -204,4 +204,10 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Gasóleo de 18 países más (GlobalPetrolPrices 21-09-2026) y visados de 19 más (Uganda con la tarifa
   oficial; el resto MAEC o agencia, marcado en cada fila). Nunca se pasa por Mali, Guinea-Bisáu ni
   Sudán; los países en conflicto solo si se marcan; el interior de RD Congo solo si no hay otro camino.
+- 26-09-2026 (tarde): itinerario libre. El viaje empieza en el primer país de la lista y acaba en el
+  último; la página propone el ferry desde España a cada uno (Marruecos: GNV Barcelona–Tánger Med;
+  Argelia: Baleària Valencia–Mostaganem; Túnez: Génova–Túnez) o al país con ferry más cercano, y se
+  puede elegir otro de los 14 investigados (`FERRIES` en `data_ruta.py`). Cuentan los km por
+  carretera desde Barcelona hasta el puerto y las horas de travesía. La lista se ordena arrastrando
+  (SortableJS 1.15.6 en `assets/vendor/`). Marruecos ya no es fijo.
 
