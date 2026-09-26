@@ -121,8 +121,9 @@ function paintStatic(){
     <label>Consumo medio (L/100 km) ${inp(v.id+'.l100', v.l100, 0.5)}</label>
     <label>Personas ${inp(v.id+'.personas', v.personas, 1)}</label>
     <label>Perros ${inp(v.id+'.perros', v.perros, 1)}</label>
-    <label>Ferry por trayecto (€) ${inp(v.id+'.ferry', D.ferry[v.id], 10)}</label></div>`).join('')
-    + `<div class="bud-card"><div class="lbl">Viaje</div><div class="sub">10 ene – ~15 ago 2027</div>
+    <label>Ferry ida (€) ${inp(v.id+'.ferry_ida', D.ferry.ida[v.id], 1)}</label>
+    <label>Ferry vuelta (€) ${inp(v.id+'.ferry_vuelta', D.ferry.vuelta[v.id], 1)}</label></div>`).join('')
+    + `<div class="bud-card"><div class="lbl">Viaje</div><div class="sub">10 ene – ~15 ago 2027 = 217 días. La planificación manuscrita apunta a volver a finales de julio (unos 200).</div>
     <label>Días ${inp('dias', D.dias, 1)}</label>
     <label>Factor carretera / línea recta ${inp('factor', D.factor, 0.05)}</label>
     <label>Desvíos fuera del corredor (%) ${inp('desvios', D.desvios, 1)}</label></div>`;
@@ -158,7 +159,7 @@ function on(k, d){ return !!get(k, d); }
 function compute(){
   const dias = V('dias', D.dias), factor = V('factor', D.factor), desv = V('desvios', D.desvios) / 100;
   const veh = D.vehiculos.map(v => ({...v, l100: V(v.id+'.l100', v.l100), personas: V(v.id+'.personas', v.personas),
-      perros: V(v.id+'.perros', v.perros), ferry: V(v.id+'.ferry', D.ferry[v.id])}));
+      perros: V(v.id+'.perros', v.perros), ferry: V(v.id+'.ferry_ida', D.ferry.ida[v.id]) + V(v.id+'.ferry_vuelta', D.ferry.vuelta[v.id])}));
   const R = {}; veh.forEach(v => R[v.id] = {comb:0, vis:0, veh:0, ferry:0, vida:0, perro:0, otros:0, imp:0, litros:0});
   let kmTot = 0;
   // Combustible
@@ -202,7 +203,7 @@ function compute(){
     const r = R[v.id];
     r.vis = visPP * v.personas;
     r.veh = D.cpd.emision + D.cpd.comision + tasas + P.seguros + P.mantenimiento;
-    r.ferry = 2 * v.ferry;
+    r.ferry = v.ferry;
     r.vida = P.comida * v.personas * dias + P.noche * dias + P.parques * v.personas;
     r.perro = v.perros ? (P.perro_comida * dias * v.perros + P.perro_tramites * v.perros + 2 * D.perro_ferry * v.perros) : 0;
     r.otros = P.comunicaciones * meses;
@@ -271,7 +272,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     D = datos(FULL, nombres)
     nav = navbar(root, [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
                         ("CPD", root + "cpd/"), ("Resumen", "#resumen"), ("Combustible", "#combustible"),
-                        ("Visados", "#visados"), ("Vehículo", "#vehiculo"), ("Resto", "#partidas"),
+                        ("Visados", "#visados"), ("Vehículo", "#vehiculo"), ("Ferry", "#ferry"), ("Resto", "#partidas"),
                         ("Criterio", "#criterio")], "Presupuesto")
     v1, v2 = P.VEHICULOS
     hero = f"""<header class="hero small">
@@ -280,6 +281,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     <h1>Presupuesto</h1>
     <p><strong>{esc(v1['nombre'])}</strong>: {esc(v1['detalle'])}, {v1['l100']:g} L/100 km.
     <strong>{esc(v2['nombre'])}</strong>: {esc(v2['detalle'])}, {v2['l100']:g} L/100 km.
+    <strong>Duración:</strong> {P.DIAS} días (10 ene – ~15 ago 2027).
     Todo es editable: los cambios se recalculan al momento y se guardan en este dispositivo.</p>
   </div>
 </header>"""
@@ -320,7 +322,16 @@ Total por persona: <strong id="bud-vis-pp"></strong>.</p>
 <h3>Tasas de importación temporal en frontera</h3>
 <p>Importes publicados en la sección CPD, por vehículo. Total activo: <strong id="bud-tasas-tot"></strong>. Donde no hay dato, la fila vale 0 y lo dice.</p>
 <div class="tblwrap"><table><thead><tr><th></th><th>País</th><th class="n">€</th></tr></thead><tbody id="bud-tasas"></tbody></table></div>
-<p class="figcap">Ferry: {esc(P.FERRY['nota'])} Perro en el ferry: ~{P.PERRO_FERRY} € por trayecto (mascota + camarote pet-friendly, fuente no oficial); el perro no puede quedarse en el garaje.</p>
+</section>
+<section id="ferry"><h2>Ferry Barcelona – Tánger Med</h2>
+<p>Tarifas de <a href="{attr(P.FERRY['fuente'])}" target="_blank" rel="noopener">GNV</a> consultadas el {esc(P.FERRY['fecha'])}, para coche de clase A2 (alto de 1,90 a 2,79 m y largo hasta 4,99 m, que es donde entra un 4x4 con tienda de techo). Son precios «desde»: suben al llenarse el barco. El cálculo usa camarote.</p>
+<div class="tblwrap"><table><thead><tr><th>Vehículo</th><th>Fecha de ida</th><th>Ida (Barcelona → Tánger)</th><th>Vuelta (Tánger → Barcelona)</th></tr></thead><tbody>
+{"".join(f"<tr><td><strong>{esc(a)}</strong></td><td>{esc(b)}</td><td class='n'>{esc(c)}</td><td class='n'>{esc(d)}</td></tr>" for a, b, c, d in P.FERRY['filas'])}
+</tbody></table></div>
+{callout("warn", "Lo que no está confirmado",
+    "<strong>Vuelta:</strong> julio y agosto de 2027 todavía no están a la venta; la cifra es la de abril y mayo de 2027, y en verano suele costar más. "
+    f"<strong>Perro:</strong> tiene que ir en camarote pet-friendly (máximo 2 mascotas) o en la perrera; no puede quedarse en el coche. GNV no publica el precio de la mascota ni del suplemento: se calcula ~{P.PERRO_FERRY} € por trayecto (estimación). "
+    "<strong>Medidas:</strong> si algún vehículo pasa de 4,99 m de largo (portabicis, rueda trasera) o de 2,79 m de alto, cambia de clase y de precio.", raw=True)}
 </section>
 <section id="partidas"><h2>Resto de partidas</h2>
 <div class="tblwrap"><table><thead><tr><th>Partida</th><th class="n">Valor</th><th>Unidad</th></tr></thead><tbody id="bud-params"></tbody></table></div>

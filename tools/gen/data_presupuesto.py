@@ -26,7 +26,9 @@ VEHICULOS = [
     {"id": "v2", "nombre": "Vehículo 2", "detalle": "1 persona", "personas": 1, "perros": 0, "l100": 12.0},
 ]
 
-# Fechas del portal: salida 10 ene 2027, regreso ~15 ago 2027.
+# Fechas del portal: salida 10 ene 2027, regreso ~15 ago 2027 → 217 días.
+# La planificación manuscrita pone la última entrada en Marruecos el 20 jul, lo
+# que llevaría el regreso a finales de julio (unos 200 días).
 DIAS = 217
 
 # Distancia real por carretera ≈ línea recta × factor. 1,25 es un valor medio
@@ -81,9 +83,10 @@ MARRUECOS_DIRECTO = [(35.8900, -5.5000), (34.0209, -6.8416), (33.5731, -7.5898),
 MAURITANIA_COSTA = [(16.2158, -16.4148), (18.0858, -15.9785), (19.8784, -16.3044), (20.9300, -17.0330),
                     (21.3337, -16.9472)]
 TRAMOS = [
-    ("marruecos", MARRUECOS_DIRECTO, 2, "Tánger Med → Tarfaya por la vía rápida, ida y vuelta", True,
-     "El índice de países dice «de paso, ruta más rápida, sin paradas». La ficha de Marruecos dibuja en cambio un bucle turístico (fila siguiente): hay que decidir cuál vale."),
-    ("marruecos", "corridor", 1, "Bucle de la ficha (Fez, Merzouga, Todra, Marrakech, costa)", False, "Sustituye a la ida por la vía rápida si se hace."),
+    ("marruecos", MARRUECOS_DIRECTO, 1, "Bajada: Tánger Med → Tarfaya por la vía rápida", True,
+     "El índice de países dice «de paso, ruta más rápida, sin paradas». La ficha de Marruecos dibuja en cambio un bucle turístico (fila de más abajo): hay que decidir cuál vale."),
+    ("marruecos", MARRUECOS_DIRECTO, 1, "Subida: Tarfaya → Tánger Med por la vía rápida", True, ""),
+    ("marruecos", "corridor", 1, "Bucle de la ficha (Fez, Merzouga, Todra, Marrakech, costa)", False, "Sustituye a la bajada por la vía rápida si se hace."),
     ("sahara-occidental", "corridor", 1, "Bajada", True, ""),
     ("sahara-occidental", "corridor_alt", 1, "Subida", True, ""),
     ("mauritania", "corridor+alt", 1, "Bajada por el Adrar (Guerguerat → Atar → Uadane → Nuakchot → Diama)", True, ""),
@@ -193,12 +196,32 @@ TASAS_FRONTERA = [
 # (id, etiqueta, valor, unidad, ámbito, tipo, nota)
 #   ámbito: "vehiculo" (por vehículo), "persona", "perro", "total"
 #   tipo: "dato" (fuente citada) o "estimacion" (valor inicial a ajustar)
+# Ferry Barcelona – Tánger Med (GNV). Tarifas «desde» del calendario de
+# salidas de gnv.it, consultado el 26-09-2026, para coche de clase A2 (alto de
+# 1,90 a 2,79 m y largo hasta 4,99 m: un 4x4 con tienda de techo), camarote.
+#   Ida 10-01-2027: 2 adultos + coche 485,17 € (butaca 432,04 €)
+#                   1 adulto  + coche 403,85 € (butaca 327,50 €)
+#   Vuelta Tánger → Barcelona: julio y agosto de 2027 aún no están a la venta.
+#   Referencia: salidas de abril-mayo de 2027, 2 adultos + coche 446,34 €
+#   (butaca 396,16 €); 1 adulto + coche 369,14 € (butaca 298,52 €).
 FERRY = {
-    "v1": 700, "v2": 550,
-    "nota": "Barcelona–Tánger Med con GNV, solo ida. Rango no oficial de 450 a 900 € por 4x4 con camarote; GNV no publica tarifas de vehículo y un 4x4 de 2,3 m con tienda de techo puede cobrarse como sobrealto. Pedir presupuesto con largo y alto.",
-    "fuente": "https://www.gnv.it/",
+    "ida": {"v1": 485.17, "v2": 403.85},
+    "vuelta": {"v1": 446.34, "v2": 369.14},
+    "fecha": "26-09-2026",
+    "fuente": "https://www.gnv.it/es/departures-calendar?type=outward",
+    "filas": [
+        ("Vehículo 1 · 2 adultos + coche + perro", "10 ene 2027", "485,17 € camarote · 432,04 € butaca",
+         "446,34 € camarote · 396,16 € butaca"),
+        ("Vehículo 2 · 1 adulto + coche", "10 ene 2027", "403,85 € camarote · 327,50 € butaca",
+         "369,14 € camarote · 298,52 € butaca"),
+    ],
 }
-PERRO_FERRY = 100   # mascota + camarote pet-friendly por trayecto, no oficial
+# Perro: con él a bordo hay que reservar camarote «pet-friendly» (máximo 2
+# mascotas) o dejarlo en la perrera; no puede quedarse en el vehículo. GNV no
+# publica el precio de la mascota ni el suplemento del camarote pet-friendly:
+# ~100 € por trayecto es una estimación a partir de agencias (30-50 € mascota +
+# 50-80 € de suplemento).
+PERRO_FERRY = 100
 
 PARAMETROS = [
     ("comida", "Comida y agua de boca", 12, "€ / persona / día", "persona_dia", "estimacion",
