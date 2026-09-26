@@ -1909,7 +1909,7 @@ def main():
 
     # service worker: precache every site file
     precache = ["./"]
-    EXCLUDE_DIRS = {"tools", ".github", "content", ".git", "tmp", "_to_delete", "_incoming", "audit"}
+    EXCLUDE_DIRS = {"tools", ".github", "content", ".git", "tmp", "_to_delete", "_incoming", "audit", "Claude outputs"}
     for f in sorted(SITE.rglob("*")):
         if (f.is_file() and not EXCLUDE_DIRS.intersection(f.parts)
                 and not f.name.startswith(".") and f.name != "sw.js"):

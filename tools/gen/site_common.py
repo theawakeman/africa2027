@@ -336,6 +336,11 @@ if ('serviceWorker' in navigator) {
     if (reg.waiting && navigator.serviceWorker.controller) show(reg);
     if (reg.installing) watch(reg.installing);
     reg.addEventListener('updatefound', () => watch(reg.installing));
+    // En el móvil la app instalada puede pasar días abierta en segundo plano:
+    // buscar versión nueva cada vez que vuelve a primer plano y cada hora.
+    const check = () => { if (navigator.onLine) reg.update().catch(() => {}); };
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') check(); });
+    setInterval(check, 3600000);
   });
   // Recargar solo al cambiar de versión, no en la primera instalación (cuando aún no había controlador).
   let reloading = false; const hadController = !!navigator.serviceWorker.controller;
