@@ -41,7 +41,9 @@ def datos(FULL, nombres):
         precio = P.GASOIL.get(slug)
         tramos.append({
             "id": f"t{i}", "slug": slug, "pais": nombres.get(slug, slug), "tramo": etiqueta,
-            "km": round(_km(pts) * veces), "on": activo, "nota": nota,
+            "km": round((P.KM_CARRETERA[(slug, etiqueta)] if (slug, etiqueta) in P.KM_CARRETERA
+                         else _km(pts) * P.FACTOR_SIN_RUTA) * veces),
+            "on": activo, "nota": nota,
         })
     gasoil = {s: {"eur": v[0], "fuente": v[1], "fecha": v[2], "nota": v[3]} for s, v in P.GASOIL.items()}
     visados = [{"id": f"vi{i}", "slug": s, "pais": nombres.get(s, s), "eur": e, "n": n, "txt": t, "url": u, "on": True}
@@ -131,7 +133,7 @@ function paintStatic(){
     <label>Ferry vuelta (€) ${inp(v.id+'.ferry_vuelta', D.ferry.vuelta[v.id], 1)}</label></div>`).join('')
     + `<div class="bud-card"><div class="lbl">Viaje</div><div class="sub">10 ene – ~15 ago 2027 = 217 días. La planificación manuscrita apunta a volver a finales de julio (unos 200).</div>
     <label>Días ${inp('dias', D.dias, 1)}</label>
-    <label>Factor carretera / línea recta ${inp('factor', D.factor, 0.05)}</label>
+    <label>Factor de ajuste de km ${inp('factor', D.factor, 0.05)}</label>
     <label>Desvíos fuera del corredor (%) ${inp('desvios', D.desvios, 1)}</label></div>`;
   // Tramos
   $('bud-tramos').innerHTML = D.tramos.map(t => {
@@ -232,7 +234,7 @@ function compute(){
       <div class="sub">Combustible ${eur(R[v.id].comb)} (${num(R[v.id].litros)} L a ${num(v.l100,1)} L/100)</div>
       <div class="sub">CPD: carnet ${num(V(v.id+'.cpd_libro', v.cpd_libro), 2)} € (incluido) · <strong>aval ${eur(V(v.id+'.cpd_aval', v.cpd_aval))} inmovilizado</strong>, no suma</div></div>`).join('')
     + `<div class="bud-card"><div class="lbl">Total del viaje</div><div class="big">${eur(total)}</div>
-      <div class="sub">${num(personas)} personas · ${num(dias)} días · ${num(kmTot)} km</div>
+      <div class="sub">${num(personas)} personas · ${num(dias)} días · ${num(kmTot)} km por vehículo (≈ ${num(kmTot / Math.max(1, dias))} km cada día, sin días de parada)</div>
       <div class="sub"><strong>Además, ${eur(aval)} inmovilizados en los avales del CPD</strong> (se recuperan al cerrar los carnets). Dinero comprometido al salir: ${eur(total + aval)}.</div></div>`;
   const max = Math.max(...CATS.map(([k]) => veh.reduce((s, v) => s + R[v.id][k], 0)), 1);
   $('bud-bars').innerHTML = CATS.map(([k, lab]) => {
@@ -328,10 +330,10 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 </section>
 <section id="vehiculos"><h2>Vehículos y viaje</h2><div class="bud-veh" id="bud-veh"></div></section>
 <section id="combustible"><h2>Combustible por país y tramo</h2>
-<p>Kilómetros del corredor de cada ficha (línea recta entre sus puntos) × factor de carretera × (1 + desvíos). Desmarca los tramos que no vayáis a hacer y cambia cualquier cifra.
+<p>Kilómetros por carretera del corredor de cada ficha, calculados con OSRM (mapa de OpenStreetMap) pasando por todos sus puntos, × factor de ajuste × (1 + desvíos). Son los mismos km para los dos vehículos: los dos hacen todo el recorrido. Desmarca los tramos que no vayáis a hacer y cambia cualquier cifra.
 Total activo: <strong id="bud-km"></strong>.</p>
 {callout("ok", "Dónde repostar", f"El gasóleo más barato de la ruta está en <strong>{nombres.get(barato[0], barato[0])} ({f'{barato[1][0]:.2f}'.replace('.', ',')} €/l)</strong> y el más caro en <strong>{nombres.get(caro[0], caro[0])} ({f'{caro[1][0]:.2f}'.replace('.', ',')} €/l)</strong>. Llenar depósitos y bidones al salir de Angola en los dos sentidos ahorra más que cualquier otra decisión de repostaje.", raw=True)}
-<div class="tblwrap"><table><thead><tr><th></th><th>País y tramo</th><th class="n">Km corredor</th><th class="n hm">Km estimados</th><th class="n">€/litro</th>{th_v}</tr></thead>
+<div class="tblwrap"><table><thead><tr><th></th><th>País y tramo</th><th class="n">Km por carretera</th><th class="n hm">Km estimados</th><th class="n">€/litro</th>{th_v}</tr></thead>
 <tbody id="bud-tramos"></tbody><tfoot><tr><td></td><td>Total activo</td><td></td><td class="n hm" id="bud-tf-km"></td><td></td>{td_tf}</tr></tfoot></table></div>
 <h3>Precio del gasóleo usado</h3>
 <div class="tblwrap"><table><thead><tr><th>País</th><th class="n">€/litro</th><th>Fecha</th><th>Fuente</th></tr></thead><tbody id="bud-precios"></tbody></table></div>

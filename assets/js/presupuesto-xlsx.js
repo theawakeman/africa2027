@@ -110,7 +110,7 @@
     pr[r] = [H('Parámetro del viaje'), H('Valor'), H('Unidad'), H('Tipo / nota')];
     const gen = [
       ['dias', 'Días de viaje', V('dias', D.dias), 10, 'días', '10 ene – ~15 ago 2027; la planificación manuscrita apunta a unos 200'],
-      ['factor', 'Factor carretera / línea recta', V('factor', D.factor), 8, '×', 'Corrige la distancia en línea recta de los corredores'],
+      ['factor', 'Factor de ajuste de km', V('factor', D.factor), 8, '×', 'Los km ya son por carretera (OSRM); 1 = sin ajuste'],
       ['desvios', 'Desvíos fuera del corredor', V('desvios', D.desvios) / 100, 11, '%', 'Agua, gasoil, trámites'],
       ['perro_ferry', 'Perro en el ferry', D.perro_ferry, 9, '€ / trayecto', 'Estimación: GNV no publica el precio'],
     ];
@@ -129,8 +129,8 @@
     // ---------- Combustible ----------
     const cr = [];
     cr[0] = [{v: 'Combustible por país y tramo', s: 7}];
-    cr[1] = [{v: 'Incluir: 1 = sí, 0 = no. Km estimados = km del corredor × factor carretera × (1 + desvíos).', s: 12}];
-    cr[3] = ['Incluir', 'País', 'Tramo', 'Km corredor', 'Km estimados', '€/litro', 'Litros ' + D.vehiculos[0].nombre, '€ ' + D.vehiculos[0].nombre,
+    cr[1] = [{v: 'Incluir: 1 = sí, 0 = no. Km por carretera: OSRM por los puntos del corredor de cada ficha (26-09-2026). Km estimados = km por carretera × factor de ajuste × (1 + desvíos). Son los mismos para los dos vehículos.', s: 12}];
+    cr[3] = ['Incluir', 'País', 'Tramo', 'Km por carretera', 'Km estimados', '€/litro', 'Litros ' + D.vehiculos[0].nombre, '€ ' + D.vehiculos[0].nombre,
       'Litros ' + D.vehiculos[1].nombre, '€ ' + D.vehiculos[1].nombre, 'Fecha precio', 'Fuente precio', 'Nota'].map(H);
     const c0 = 5;
     D.tramos.forEach((t, k) => {

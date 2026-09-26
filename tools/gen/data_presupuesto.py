@@ -10,8 +10,8 @@ valores iniciales y se pueden cambiar en la propia página (se guardan solo en
 ese navegador). Cada cifra lleva su fuente o dice que es una estimación.
 
 Los kilómetros NO están aquí: se calculan al construir el sitio a partir de los
-corredores dibujados en cada ficha (distancia en línea recta entre vértices) y
-se corrigen con FACTOR_CARRETERA y DESVIOS_PCT.
+corredores dibujados en cada ficha, medidos por carretera con OSRM (ver
+KM_CARRETERA), más un pequeño margen de desvíos (DESVIOS_PCT).
 """
 
 FECHA = "25 de septiembre de 2026"
@@ -35,9 +35,9 @@ VEHICULOS = [
 # que llevaría el regreso a finales de julio (unos 200 días).
 DIAS = 217
 
-# Distancia real por carretera ≈ línea recta × factor. 1,25 es un valor medio
-# habitual para redes secundarias; en pista de montaña o selva es mayor.
-FACTOR_CARRETERA = 1.25
+# Los km ya son por carretera (OSRM): el factor queda en 1 y solo sirve para
+# ajustar a mano (por ejemplo, 1,1 si se prevén muchas pistas lentas).
+FACTOR_CARRETERA = 1.0
 # Kilómetros que no están en el corredor: buscar agua, gasoil, alojamiento,
 # trámites en capitales. Los corredores ya pasan por los PDIs, así que es poco.
 # Estimación, no dato.
@@ -241,3 +241,65 @@ PARAMETROS = [
     ("imprevistos", "Imprevistos", 10, "% del total", "pct", "estimacion",
      "Multas, sobornos rechazados que acaban en tasa, reparaciones, cambios de ruta."),
 ]
+
+# Km por carretera de cada tramo (un sentido, sin multiplicar por «veces»),
+# calculados con el enrutador OSRM (router.project-osrm.org, datos de
+# OpenStreetMap) pasando por todos los puntos del corredor de la ficha, el
+# 26-09-2026. Excepciones: en la costa de Tanzania se omite Zanzíbar (ferry);
+# en el Adrar mauritano y el Kaokoland varios puntos están a 10-60 km de la
+# carretera más cercana y la cifra es aproximada. Si un tramo no está aquí,
+# se usa la línea recta × FACTOR_SIN_RUTA.
+KM_CARRETERA = {
+    ("marruecos", "Bajada: Tánger Med → Tarfaya por la vía rápida"): 1401,
+    ("marruecos", "Subida: Tarfaya → Tánger Med por la vía rápida"): 1401,
+    ("marruecos", "Bucle de la ficha (Fez, Merzouga, Todra, Marrakech, costa)"): 2786,
+    ("sahara-occidental", "Bajada"): 1384,
+    ("sahara-occidental", "Subida"): 1730,
+    ("mauritania", "Bajada por el Adrar (Guerguerat → Atar → Uadane → Nuakchot → Diama)"): 2800,
+    ("mauritania", "Subida por el mismo corredor del Adrar"): 2800,
+    ("mauritania", "Subida directa por la costa (Diama → Nuakchot → Nuadibú → Guerguerat)"): 845,
+    ("senegal", "Bajada por el este (Ferlo, Niokolo-Koba, Kédougou)"): 1946,
+    ("senegal", "Subida por Casamance, Saloum y Dakar"): 778,
+    ("gambia", "Eje costero (subida)"): 257,
+    ("gambia", "Variante río arriba"): 641,
+    ("guinea", "Bajada"): 2009,
+    ("guinea", "Subida"): 1275,
+    ("costa-de-marfil", "Bajada"): 2142,
+    ("costa-de-marfil", "Subida"): 1259,
+    ("ghana", "Bajada"): 885,
+    ("ghana", "Subida"): 1807,
+    ("togo", "Bajada por la costa"): 111,
+    ("togo", "Subida por el interior"): 957,
+    ("benin", "Bajada por la costa"): 235,
+    ("benin", "Subida por el interior"): 697,
+    ("nigeria", "Bajada"): 1319,
+    ("nigeria", "Subida"): 1483,
+    ("camerun", "Bajada"): 1295,
+    ("camerun", "Subida"): 2873,
+    ("congo", "Bajada (Odzala y gorilas)"): 2297,
+    ("congo", "Subida por Cabinda"): 1748,
+    ("rd-congo", "Bajada (Kongo Central)"): 361,
+    ("rd-congo", "Subida (Kongo Central)"): 361,
+    ("angola", "Bajada"): 2878,
+    ("angola", "Subida"): 3144,
+    ("angola", "Cabinda, bajada"): 123,
+    ("angola", "Cabinda, subida"): 123,
+    ("zambia", "Travesía principal"): 4623,
+    ("zambia", "Variante sur (cataratas Victoria)"): 1235,
+    ("malaui", "Bucle completo"): 2040,
+    ("tanzania", "Interior hacia Kenia"): 3463,
+    ("tanzania", "Costa desde Kenia hacia Mozambique"): 1730,
+    ("kenia", "Entrada, Rift y norte"): 2371,
+    ("kenia", "Salida por la costa"): 1728,
+    ("mozambique", "Eje costero (Rovuma → Ponta do Ouro → Machipanda)"): 5994,
+    ("mozambique", "Variante interior del Zambeze"): 1246,
+    ("zimbabue", "Diagonal sur"): 2680,
+    ("zimbabue", "Variante norte (Zambeze, Mana Pools, Kariba)"): 2891,
+    ("botsuana", "Eje norte–sur (Chobe, Okavango, salinas)"): 3608,
+    ("botsuana", "Variante oeste (Tsodilo, Kalahari Central)"): 3030,
+    ("sudafrica", "Entrada por el centro y el este"): 6338,
+    ("sudafrica", "Salida por la costa oeste"): 2943,
+    ("namibia", "Eje interior (Windhoek, Waterberg, Etosha)"): 2175,
+    ("namibia", "Variante costera y 4x4 (Namib, Skeleton Coast, Kaokoland)"): 4571,
+}
+FACTOR_SIN_RUTA = 1.25
