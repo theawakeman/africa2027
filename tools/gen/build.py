@@ -1064,7 +1064,7 @@ def render_cpd():
              + callout("warn", "Comparación directa",
                        "Las tasas de entrada de <strong>todos</strong> los países de la ruta suman del orden "
                        "de <strong>700-900 €</strong> (cifras casi todas de 2023), y la mitad son Ghana y "
-                       "Senegal. Los dos carnets cuestan 466,70 € (más los costes bancarios, aún sin dato) y retienen 16.600 € en avales, y aun así <strong>habría que "
+                       "Senegal. Los dos carnets cuestan 766,70 € (más los costes bancarios, aún sin dato) y retienen 16.600 € en avales, y aun así <strong>habría que "
                        "pagar igualmente</strong> casi todas las tasas de carretera, carbono y seguro, que "
                        "no son aduaneras.", raw=True)
              + '</section>')
@@ -1536,7 +1536,7 @@ def render_docs():
         + bullets([
             "El RACE lo expide en exclusiva en España y solo a vehículos de matrícula española. Contacto publicado: eloy_gonzalo@race.es · +34 91 594 73 00.",
             "Documentación: permiso de circulación, ficha técnica, DNI del titular, solicitud y aval bancario de validez indefinida.",
-            "Carnet de 25 hojas: 383,35 € el INEOS Grenadier y 83,35 € el Delica. Aval: 13.700 € y 2.900 €. Costes bancarios de los avales: sin dato todavía. Validez de un año.",
+            "Carnet de 25 hojas: 383,35 € cada vehículo (INEOS Grenadier y Delica). Aval: 13.700 € y 2.900 €. Costes bancarios de los avales: sin dato todavía. Validez de un año.",
             "Cada entrada y salida debe quedar sellada (par completo). Un sello que falte puede bloquear la devolución del aval: comprobarlo antes de salir de cada puesto.",
             "No cerrar el expediente hasta que el CPD vuelva con todos los pares de sellos, especialmente del último país.",
             "En Uganda el carnet no se reconoce y en Mozambique el TIP es obligatorio aunque se lleve; en Angola un sello mal puesto es justo lo que hace perder el aval. Llevarlo no exime de vigilarlo.",

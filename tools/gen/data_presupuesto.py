@@ -27,7 +27,7 @@ VEHICULOS = [
     {"id": "v1", "nombre": "INEOS Grenadier", "detalle": "2 personas + perro", "personas": 2, "perros": 1, "l100": 15.0,
      "cpd_libro": 383.35, "cpd_aval": 13700, "cpd_banco": 0},
     {"id": "v2", "nombre": "Delica", "detalle": "1 persona", "personas": 1, "perros": 0, "l100": 12.0,
-     "cpd_libro": 83.35, "cpd_aval": 2900, "cpd_banco": 0},
+     "cpd_libro": 383.35, "cpd_aval": 2900, "cpd_banco": 0},
 ]
 
 # Fechas del portal: salida 10 ene 2027, regreso ~15 ago 2027 → 217 días.

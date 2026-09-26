@@ -76,6 +76,7 @@ CSS = """
 .bud input[type=checkbox]{width:17px;height:17px;accent-color:var(--teal)}
 .bud td.n,.bud th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .bud tr.off td{opacity:.45}
+.bud tr.bud-aval td{background:var(--amber-bg);font-style:italic}
 .bud tfoot td{font-weight:700;font-family:"Archivo",sans-serif;background:var(--surface2)}
 .bud .nota{display:block;font-size:12.5px;color:var(--ink-soft);line-height:1.4;margin-top:2px}
 .bud .tag{font-family:"Archivo",sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:1px 6px;border-radius:4px;white-space:nowrap}
@@ -225,20 +226,23 @@ function compute(){
   const aval = veh.reduce((s, v) => s + V(v.id+'.cpd_aval', v.cpd_aval), 0);
   $('bud-cards').innerHTML = veh.map(v => `<div class="bud-card"><div class="lbl">${v.nombre} · ${v.detalle}</div>
       <div class="big">${eur(R[v.id].total)}</div><div class="sub">${eur(R[v.id].total / Math.max(1, v.personas))} por persona · ${eur(R[v.id].total / Math.max(1, dias))} al día</div>
-      <div class="sub">Combustible ${eur(R[v.id].comb)} (${num(R[v.id].litros)} L a ${num(v.l100,1)} L/100)</div></div>`).join('')
+      <div class="sub">Combustible ${eur(R[v.id].comb)} (${num(R[v.id].litros)} L a ${num(v.l100,1)} L/100)</div>
+      <div class="sub">CPD: carnet ${num(V(v.id+'.cpd_libro', v.cpd_libro), 2)} € (incluido) · <strong>aval ${eur(V(v.id+'.cpd_aval', v.cpd_aval))} inmovilizado</strong>, no suma</div></div>`).join('')
     + `<div class="bud-card"><div class="lbl">Total del viaje</div><div class="big">${eur(total)}</div>
       <div class="sub">${num(personas)} personas · ${num(dias)} días · ${num(kmTot)} km</div>
-      <div class="sub">Además, ${eur(aval)} inmovilizados en los avales del CPD (se recuperan)</div></div>`;
+      <div class="sub"><strong>Además, ${eur(aval)} inmovilizados en los avales del CPD</strong> (se recuperan al cerrar los carnets). Dinero comprometido al salir: ${eur(total + aval)}.</div></div>`;
   const max = Math.max(...CATS.map(([k]) => veh.reduce((s, v) => s + R[v.id][k], 0)), 1);
   $('bud-bars').innerHTML = CATS.map(([k, lab]) => {
     const parts = veh.map((v, i) => `<i style="width:${R[v.id][k] / max * 100}%;background:${COLORS[k]};opacity:${i ? .55 : 1}" title="${v.nombre}: ${eur(R[v.id][k])}"></i>`).join('');
     const tot = veh.reduce((s, v) => s + R[v.id][k], 0);
     return `<div class="bud-bar"><span>${lab}</span><div class="track">${parts}</div><span class="v">${eur(tot)}</span></div>`;
   }).join('');
-  $('bud-key').innerHTML = veh.map((v, i) => `<span><i style="background:var(--ink-soft);opacity:${i ? .55 : 1}"></i>${v.nombre} (${v.detalle})</span>`).join('') + '<span>Tono lleno: vehículo 1 · tono claro: vehículo 2</span>';
+  $('bud-key').innerHTML = veh.map((v, i) => `<span><i style="background:var(--ink-soft);opacity:${i ? .55 : 1}"></i>${v.nombre} (${v.detalle})</span>`).join('') + `<span>Tono lleno: ${veh[0].nombre} · tono claro: ${veh[1].nombre}</span>`;
   // Tabla por partidas
   $('bud-resumen').innerHTML = CATS.map(([k, lab]) => `<tr><td>${lab}</td>${veh.map(v => `<td class="n">${eur(R[v.id][k])}</td>`).join('')}<td class="n"><strong>${eur(veh.reduce((s, v) => s + R[v.id][k], 0))}</strong></td></tr>`).join('')
-    + `<tr><td><strong>Total</strong></td>${veh.map(v => `<td class="n"><strong>${eur(R[v.id].total)}</strong></td>`).join('')}<td class="n"><strong>${eur(total)}</strong></td></tr>`;
+    + `<tr><td><strong>Total</strong></td>${veh.map(v => `<td class="n"><strong>${eur(R[v.id].total)}</strong></td>`).join('')}<td class="n"><strong>${eur(total)}</strong></td></tr>`
+    + `<tr class="bud-aval"><td>Aval del CPD inmovilizado <span class="nota">No es gasto y no suma al total: el banco lo bloquea y se recupera al devolver el carnet con todos los sellos.</span></td>${veh.map(v => `<td class="n">${eur(V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(aval)}</td></tr>`
+    + `<tr class="bud-aval"><td>Dinero comprometido al salir <span class="nota">Total del viaje + avales.</span></td>${veh.map(v => `<td class="n">${eur(R[v.id].total + V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(total + aval)}</td></tr>`;
   window.__A27_BUDGET_RESULT = {R, total, kmTot, veh};
 }
 
@@ -247,6 +251,7 @@ function csv(){
   const rows = [['Partida', ...res.veh.map(v => v.nombre + ' (' + v.detalle + ')'), 'Total']];
   CATS.forEach(([k, lab]) => rows.push([lab, ...res.veh.map(v => Math.round(res.R[v.id][k])), Math.round(res.veh.reduce((s, v) => s + res.R[v.id][k], 0))]));
   rows.push(['Total', ...res.veh.map(v => Math.round(res.R[v.id].total)), Math.round(res.total)]);
+  rows.push(['Aval CPD inmovilizado (no suma)', ...res.veh.map(v => Math.round(V(v.id+'.cpd_aval', v.cpd_aval))), Math.round(res.veh.reduce((s, v) => s + V(v.id+'.cpd_aval', v.cpd_aval), 0))]);
   rows.push([]); rows.push(['País', 'Tramo', 'Km estimados', '€/L', ...res.veh.map(v => v.nombre + ' €')]);
   const factor = V('factor', D.factor), desv = V('desvios', D.desvios) / 100;
   D.tramos.filter(t => on(t.id, t.on)).forEach(t => {
@@ -336,7 +341,7 @@ Total activo: <strong id="bud-km"></strong>.</p>
 <tfoot><tr><td></td><td>Total activo</td><td></td><td></td><td class="n" id="bud-vis-tf-pp"></td><td class="n" id="bud-vis-tf-grp"></td></tr></tfoot></table></div>
 </section>
 <section id="vehiculo"><h2>Vehículo (por cada uno)</h2>
-{callout("", "CPD (carnet de 25 hojas, RACE)", "<strong>INEOS Grenadier:</strong> carnet 383,35 € y aval de 13.700 €. <strong>Delica:</strong> carnet 83,35 € y aval de 2.900 €. Los carnets entran en el cálculo; los costes bancarios del aval todavía no se conocen y valen 0 hasta que se sepan (se editan en «Vehículos y viaje»). Los avales, 16.600 € entre los dos, quedan inmovilizados y no cuentan como gasto.", raw=True)}
+{callout("", "CPD (carnet de 25 hojas, RACE)", "<strong>INEOS Grenadier:</strong> carnet 383,35 € y aval de 13.700 €. <strong>Delica:</strong> carnet 383,35 € y aval de 2.900 €. Los carnets entran en el cálculo; los costes bancarios del aval todavía no se conocen y valen 0 hasta que se sepan (se editan en «Vehículos y viaje»). Los avales, 16.600 € entre los dos, quedan inmovilizados y no cuentan como gasto.", raw=True)}
 <h3>Tasas de importación temporal en frontera</h3>
 <p>Importes publicados en la sección CPD, por vehículo. Total activo: <strong id="bud-tasas-tot"></strong>. Donde no hay dato, la fila vale 0 y lo dice.</p>
 <div class="tblwrap"><table><thead><tr><th></th><th>País</th><th class="n">€</th></tr></thead><tbody id="bud-tasas"></tbody></table></div>

@@ -202,7 +202,8 @@
     R[rt + 2] = ['Por día', {f: `B${rt}/${p('dias')}`, s: 2}, {f: `C${rt}/${p('dias')}`, s: 2}, {f: `D${rt}/${p('dias')}`, s: 2}];
     R[rt + 3] = ['Kilómetros', {f: `Combustible!E${ct}`, s: 4}];
     R[rt + 4] = ['Litros de gasóleo', {f: `Combustible!G${ct}`, s: 4}, {f: `Combustible!I${ct}`, s: 4}, {f: `B${rt + 5}+C${rt + 5}`, s: 13}];
-    R[rt + 5] = ['Aval CPD inmovilizado (se recupera)', {f: ref.cpd_aval(0), s: 2}, {f: ref.cpd_aval(1), s: 2}, {f: `B${rt + 6}+C${rt + 6}`, s: 2}];
+    R[rt + 5] = ['Aval CPD inmovilizado (no suma al total; se recupera)', {f: ref.cpd_aval(0), s: 2}, {f: ref.cpd_aval(1), s: 2}, {f: `B${rt + 6}+C${rt + 6}`, s: 2}];
+    R[rt + 6] = ['Dinero comprometido al salir (total + avales)', {f: `B${rt}+B${rt + 6}`, s: 3}, {f: `C${rt}+C${rt + 6}`, s: 3}, {f: `D${rt}+D${rt + 6}`, s: 3}];
 
     const sheets = [
       ['Resumen', sheetXml(R, [46, 30, 30, 16])],

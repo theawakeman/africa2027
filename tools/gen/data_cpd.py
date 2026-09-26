@@ -243,7 +243,7 @@ FUERA_DE_RUTA = {"egipto", "libia", "tunez", "burundi", "mauricio", "seychelles"
 COSTE_CPD = [
     ("Carnet de 25 hojas · INEOS Grenadier", "383,35 €"),
     ("Aval bancario · INEOS Grenadier", "13.700 € inmovilizados"),
-    ("Carnet de 25 hojas · Delica", "83,35 €"),
+    ("Carnet de 25 hojas · Delica", "383,35 €"),
     ("Aval bancario · Delica", "2.900 € inmovilizados"),
     ("Costes bancarios de los avales", "Sin dato todavía"),
     ("Validez", "1 año"),
