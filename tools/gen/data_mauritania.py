@@ -134,6 +134,13 @@ def get_data(root="../../"):
         "center": [19.6, -13.9], "zoom": 6,
         "pois": pois, "logistics": logistics,
         "corridor": corridor, "corridor_alt": corridor2,
+        # Variante 2027 en estudio: entrada desde Argelia por Tinduf (Hassi 75).
+        "extra_corridors": [dict(
+            label="Entrada desde Argelia · Hassi 75 → Aïn Bentili → Bir Moghrein → Zuérat → Atar → Chinguetti → Nuakchot → Diama",
+            role="alternativa", color="#8B5A2B", dash=True,
+            pts=[(27.1500, -8.4400), (26.0000, -8.6660), (25.8761, -9.5487), (25.2294, -11.5730),
+                 (22.7388, -12.4708), (22.6800, -12.7100), (20.5182, -13.0544), (20.4634, -12.3665),
+                 (20.5182, -13.0544), (18.1103, -16.0229), (16.2158, -16.4148)])],
         "notice": "Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de la entrada.",
     }
     d["historia_resumen"] = HISTORIA_RESUMEN

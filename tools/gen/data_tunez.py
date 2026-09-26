@@ -1002,16 +1002,20 @@ CORRIDOR = [
     (34.3231388, 7.9409292),
 ]
 
-# Regreso: Tozeur → Gafsa → Kairuán → Susa → Hammamet → cabo Bon (Kelibia, Kerkuane) → Túnez
+# Variante 2027 (26-09-2026): del sur a la frontera argelina del norte,
+# evitando Kasserine: Midès → Tozeur → Gafsa → Sidi Bouzid → Maktar → Le Kef →
+# Bulla Regia → Aïn Draham → Tabarka → Melloula (frontera con Argelia).
 CORRIDOR_ALT = [
-    (33.9206525, 8.1386141),
-    (34.425, 8.7842),
-    (35.6810764, 10.1042297),
-    (35.827671, 10.6387949),
-    (36.4, 10.6),
-    (36.85, 11.1),
-    (36.9462271, 11.09946),
-    (36.7970222, 10.1713704),
+    (34.3231388, 7.9409292),  # Midès
+    (33.9206525, 8.1386141),  # Tozeur
+    (34.425, 8.7842),         # Gafsa
+    (35.038, 9.485),          # Sidi Bouzid
+    (35.857, 9.206),          # Maktar
+    (36.182, 8.714),          # Le Kef
+    (36.558, 8.756),          # Bulla Regia
+    (36.780, 8.690),          # Aïn Draham
+    (36.955, 8.758),          # Tabarka
+    (36.887, 8.593),          # Melloula (frontera, aprox.)
 ]
 
 HISTORIA_RESUMEN = "Túnez es el país más pequeño del Magreb y, durante siglos, uno de los más abiertos al Mediterráneo: aquí estuvieron Cartago, la provincia romana de África, la Kairuán de los aglabíes y la Túnez de los hafsíes. Un protectorado francés de setenta y cinco años dio paso, en 1956, a un Estado moderno moldeado por Habib Bourguiba y, después, por la dictadura de Ben Ali. En 2011 encendió la Primavera Árabe y fue su única transición con éxito, premiada con el Nobel de la Paz en 2015. Desde 2021 el presidente Kaïs Saïed ha concentrado el poder y Freedom House lo clasifica como «parcialmente libre». Para quien viaja sigue siendo un país hospitalario, francófono en la práctica y con diez sitios del Patrimonio Mundial."
@@ -1093,7 +1097,7 @@ SPEC = dict(
     notice="Documento de planificación de un país FUERA DE LA RUTA 2027: no hay forma de llegar por tierra con los vehículos desde el corredor previsto. La ficha sirve para un posible viaje aparte en ferry. Revalidar visados, aduana, seguro, salud, seguridad, drones y comunicaciones 30–60 días antes de embarcar.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
     corridor_label="Ida · norte → sur (La Goulette → oasis de montaña)",
-    corridor_alt_label="Regreso · Gafsa, Kairuán y cabo Bon",
+    corridor_alt_label="Salida a Argelia · Gafsa, Le Kef, Bulla Regia, Tabarka y Melloula",
     hero_img="https://commons.wikimedia.org/wiki/Special:FilePath/Ksar-Ghilane_Sun_-_Jan_2023.jpg?width=1200",
     hero_credit="Ksar Ghilane · Makrem Larnaout · CC BY-SA 4.0",
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,

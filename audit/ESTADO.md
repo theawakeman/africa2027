@@ -211,3 +211,17 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   carretera desde Barcelona hasta el puerto y las horas de travesía. La lista se ordena arrastrando
   (SortableJS 1.15.6 en `assets/vendor/`). Marruecos ya no es fijo.
 
+## Variante Túnez → Argelia → Tinduf → Mauritania (26-09-2026)
+
+- Investigación de seguridad, pasos y trámites (MAEC, Francia, FCDO; Sahara Overland, HUBB, Wüstenschiff,
+  Cantone Libero). Veredicto: viable con condiciones; la salida por Hassi 75 va contra el aviso de los
+  tres ministerios. Resumen en el documento del proyecto «tunez-argelia-tinduf-2027».
+- Fichas: nueva sección «Plan 2027» en Túnez y Argelia, «Entrada desde Argelia por Tinduf» en Mauritania,
+  seguridad por zonas a 26-09-2026, pasos fronterizos con coordenadas (Melloula, Hazoua, Taleb Larbi,
+  Hassi 75, puesto mauritano, Aïn Bentili, Bir Moghrein, aduana de Zuérat) y chips/cabeceras.
+- Corredores: Argelia A = Oum Teboul → … → Tinduf → Hassi 75 (3.702 km, OSRM); B = Taleb Larbi → … → Hassi 75
+  (2.861 km). Túnez B = salida por Melloula (579 km). Mauritania, extra 0 = Hassi 75 → Zuérat → Atar →
+  Chinguetti → Nuakchot → Diama (~1.950 km, 790 de pista aproximados).
+- Planificador: Mauritania usa siempre ese recorrido cuando la ruta viene o va a Argelia (`VIA`);
+  Túnez y Argelia pasan al grupo «alternativa».
+

@@ -178,14 +178,16 @@ function ruta(oFijo, DDfijo){
   }
   // Pasadas: cada entrada en un país
   const cnt = {}, pas = [];
-  seq.forEach(it => {
+  seq.forEach((it, idx) => {
     const s = it.s, k = cnt[s] = (cnt[s] || 0) + 1, marcado = sel.has(s);
+    const via = PA[s].via || {}, vecino = [seq[idx - 1], seq[idx + 1]].map(x => x && via[x.s]).find(Boolean);
     const parts = String(planOf(s)).split('|'), def = marcado && k <= parts.length && !!parts[k - 1];
     const modo = get('ruta.modo.' + s + '.' + k, null), parar = PA[s].solo_paso ? false : (modo ? modo === 'p' : def);
     const noTr = PA[s].opts.filter(x => x.id !== PA[s].tr);
     let ids = parar ? (parts[k - 1] || (noTr[k - 1] || noTr[0] || PA[s].opts[0]).id).split('+') : null;
     const tipo = ids ? 'visita' : 'transito';
-    if (!ids && PA[s].tr) ids = [PA[s].tr];
+    if (vecino) ids = [vecino];
+    else if (!ids && PA[s].tr) ids = [PA[s].tr];
     pas.push({s, k, tipo, ids, oi: it.oi, marcado, def});
   });
   // Geometría y km: del puerto de llegada al de salida

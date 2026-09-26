@@ -35,6 +35,9 @@ RECORRIDOS_PROPIOS = {
     "mauritania": [
         ("A", "Adrar: Guerguerat → Atar → Uadane → Nuakchot → Diama", "A+B"),
         ("C", "Directo por la costa: Guerguerat → Nuadibú → Nuakchot → Diama", MAURITANIA_COSTA),
+        # Entrada desde Argelia por Tinduf (Hassi 75): corredor dibujado en la
+        # ficha de Mauritania (extra 0). Se usa si la ruta viene o va a Argelia (VIA).
+        ("N", "Desde Argelia: Hassi 75 → Aïn Bentili → Bir Moghrein → Zuérat → Atar → Chinguetti → Nuakchot → Diama", "ex:mauritania:0"),
     ],
     # Cabinda no es un país: es el enclave angoleño entre Congo y RD Congo. Se
     # trata como un nudo de paso (visado y gasóleo de Angola).
@@ -46,6 +49,9 @@ RECORRIDOS_PROPIOS = {
 # Recorrido que se usa cuando el país es solo de paso (no marcado o ya
 # recorrido las veces que dice su plan). Si no está aquí, el tránsito es una
 # línea por el punto del país que mejor une la entrada y la salida.
+# Recorrido obligado según el país vecino: si la ruta llega de Argelia o va
+# hacia Argelia, Mauritania solo se puede cruzar por la pista de Tinduf.
+VIA = {"mauritania": {"argelia": "N"}}
 TRANSITO_FIJO = {"marruecos": "R", "sahara-occidental": "A", "mauritania": "C", "cabinda": "C"}
 
 # Km por carretera de cada recorrido, un sentido. OSRM (router.project-osrm.org,
@@ -58,6 +64,10 @@ KM = {
     "marruecos:R": 1401, "marruecos:A": 2786,
     "sahara-occidental:A": 1384, "sahara-occidental:B": 1730,
     "mauritania:A": 2800, "mauritania:C": 845,
+    # Frontera (Ismail Ould El Bardi) → Zuérat por pista: ~790 km (Sahara
+    # Overland y relatos 2025: Tinduf–Zuérat 800–860 km); Zuérat → F'Derik →
+    # Atar → Chinguetti → Atar → Nuakchot → Diama por OSRM: 1.160 km.
+    "mauritania:N": 1950,
     "senegal:A": 1946, "senegal:B": 778,
     "gambia:A": 257, "gambia:B": 641,
     "guinea:A": 2009, "guinea:B": 1275,
@@ -90,8 +100,14 @@ KM = {
     "mali:A": 2466, "mali:B": 2497,
     "guinea-bisau:A": 1006, "guinea-bisau:B": 438,
     "sudan:A": 1978, "sudan:B": 1395,
-    "argelia:A": 4053, "argelia:B": 2534,
-    "tunez:A": 2040, "tunez:B": 657,
+    # Argelia (26-09-2026, OSRM): A = Oum Teboul → Annaba → Constantina →
+    # Djémila → Timgad → Biskra → El Oued → Ghardaïa → El Menia → Timimoun →
+    # Adrar → Béni Abbès → Taghit → Béchar → Tinduf → Hassi 75;
+    # B = lo mismo entrando por Taleb Larbi (Hazoua) sin el norte.
+    "argelia:A": 3702, "argelia:B": 2861,
+    # Túnez: B = Midès → Tozeur → Gafsa → Sidi Bouzid → Maktar → Le Kef →
+    # Bulla Regia → Aïn Draham → Tabarka → Melloula (salida a Argelia).
+    "tunez:A": 2040, "tunez:B": 579,
     "libia:A": 1624, "libia:B": 2613,
     "burkina-faso:A": 1920, "burkina-faso:B": 1510,
     "niger:A": 5691, "niger:B": 934,
@@ -106,7 +122,7 @@ KM = {
     "egipto:A": 3201, "egipto:B": 2211,
     "yibuti:A": 1010, "yibuti:B": 390,
 }
-KM_APROX = {"mauritania:A", "namibia:B", "chad:A", "chad:B", "sudan-del-sur:A", "yibuti:A"}
+KM_APROX = {"mauritania:N", "mauritania:A", "namibia:B", "chad:A", "chad:B", "sudan-del-sur:A", "yibuti:A"}
 # Km de un trayecto sin corredor (enlaces y tránsitos): línea recta × factor.
 FACTOR_SIN_RUTA = 1.25
 
@@ -130,6 +146,9 @@ PLAN = {
     "benin": "A|B", "nigeria": "A|B", "camerun": "A|B", "congo": "A|B", "rd-congo": "A|B",
     "angola": "A|B", "zambia": "A", "malaui": "A", "tanzania": "A|B", "kenia": "A+B",
     "mozambique": "A", "zimbabue": "A", "botsuana": "A", "sudafrica": "A+B", "namibia": "A",
+    # Variante estudiada el 26-09-2026: Túnez a fondo (bucle sur + salida por
+    # el oeste hasta Melloula) y Argelia de norte a Tinduf.
+    "tunez": "A+B", "argelia": "A",
 }
 
 # ---------------------------------------------------------------- restricciones
@@ -151,7 +170,8 @@ FRONTERAS = [
     ("marruecos", "argelia", "cerrada", "Frontera cerrada desde 1994"),
     ("sahara-occidental", "mauritania", "", "Guerguerat"),
     ("mauritania", "senegal", "", "Diama / Rosso"),
-    ("mauritania", "mali", "", ""), ("mauritania", "argelia", "", "Paso de Tinduf, abierto en 2018 y poco usado"),
+    ("mauritania", "mali", "", ""),
+    ("mauritania", "argelia", "", "Hassi 75 (PK75) – Ismail Ould El Bardi, al sur de Tinduf: abierto a personas desde el 23-02-2024; escolta en Tinduf; zona roja del MAEC en Mauritania"),
     ("senegal", "gambia", "", ""), ("senegal", "guinea", "", ""), ("senegal", "mali", "", ""),
     ("senegal", "guinea-bisau", "", ""),
     ("guinea", "guinea-bisau", "", ""), ("guinea", "sierra-leona", "", ""), ("guinea", "liberia", "", ""),

@@ -73,7 +73,7 @@ def datos(FULL, C):
         nivel = (VIS_INFO.get(s) or {}).get("nivel", "")
         paises[s] = {
             "n": nombre, "g": grupo, "seg": seg, "nota": nota, "opts": opts, "pos": pos,
-            "plan": RT.PLAN.get(s, opts[0]["id"]), "tr": RT.TRANSITO_FIJO.get(s, ""),
+            "plan": RT.PLAN.get(s, opts[0]["id"]), "tr": RT.TRANSITO_FIJO.get(s, ""), "via": RT.VIA.get(s, {}),
             "gas": ({"eur": g[0], "fuente": g[1], "fecha": g[2], "nota": g[3]} if g else None),
             "vis": ("sin" if s in P.SIN_VISADO else ({"eur": vis[0], "txt": vis[1], "url": vis[2]} if vis else None)),
             "tasa": ({"eur": tasa[0], "txt": tasa[1]} if tasa else None),
@@ -289,7 +289,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     "<strong>no incluyen camarote ni el recargo de vehículo alto</strong> (el 4x4 con tienda mide ~2,3 m y casi todas las navieras lo cobran aparte: Corsica Linea, 50 €). "
     "La vuelta usa la media de julio o agosto, que en Argelia y Túnez es temporada de la diáspora y puede multiplicar el precio. "
     f"<strong>Perro:</strong> ~{P.PERRO_FERRY} € por trayecto (estimación); Algérie Ferries y Corsica Linea solo lo admiten en perrera, y Grimaldi prohíbe algunas razas en Túnez. "
-    "<strong>Argelia:</strong> visado consular, seguro local y escolta en el sur. <strong>Túnez:</strong> autorización previa «Smart Traveller» para el coche.", raw=True)}
+    "<strong>Argelia:</strong> visado consular, seguro local y escolta en el sur. <strong>Túnez:</strong> rellenar la «Smart Traveller» del coche (obligatoria para tunecinos; para extranjeros, sin confirmar).", raw=True)}
 </section>
 <section id="partidas"><h2>Resto de partidas</h2>
 <div class="tblwrap"><table><thead><tr><th>Partida</th><th class="n">Valor</th><th>Unidad</th></tr></thead><tbody id="bud-params"></tbody></table></div>

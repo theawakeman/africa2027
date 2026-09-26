@@ -878,38 +878,45 @@ SOURCES = [
     ("Wikipedia · El Oued", "https://en.wikipedia.org/wiki/El_Oued"),
 ]
 
-# Norte y Sáhara occidental: Orán · Argel · Constantina · M'Zab · Gourara · Saoura
+# Variante 2027 en estudio (26-09-2026): entrada desde Túnez por Oum Teboul,
+# norte (Annaba, Constantina, Djémila, Timgad), Sáhara oeste y salida a
+# Mauritania por Hassi 75 (PK75), al sur de Tinduf.
 CORRIDOR = [
-    (35.69874, -0.63493),
-    (34.87786, -1.2896),
-    (36.60838, 2.19114),
-    (36.59067, 2.44337),
-    (36.78489, 3.0612),
-    (36.46853, 4.18662),
-    (36.7744, 5.10217),
-    (36.19, 5.41),
-    (36.31384, 5.73738),
-    (36.37236, 6.61418),
-    (36.8818, 7.74475),
-    (35.49441, 6.4684),
-    (34.85, 5.733),
-    (33.36781, 6.85165),
-    (32.49437, 3.64446),
-    (29.26278, -0.23889),
-    (27.867, -0.283),
-    (30.13122, -2.16623),
-    (30.91699, -2.02956),
-    (31.617, -2.217),
+    (36.8800568, 8.5624875),  # Oum Teboul (frontera con Túnez)
+    (36.9000, 7.7660),        # Annaba
+    (36.4620, 7.4260),        # Guelma
+    (36.3650, 6.6150),        # Constantina
+    (36.3138, 5.7374),        # Djémila
+    (35.5560, 6.1740),        # Batna
+    (35.4944, 6.4684),        # Timgad
+    (34.8500, 5.7330),        # Biskra
+    (33.3678, 6.8517),        # El Oued
+    (33.1000, 6.0600),        # Touggourt
+    (32.4944, 3.6445),        # Ghardaïa (M'Zab)
+    (30.5800, 2.8800),        # El Menia
+    (29.2640, 0.2310),        # Timimoun
+    (27.8740, -0.2940),       # Adrar
+    (30.1310, -2.1660),       # Béni Abbès
+    (30.9170, -2.0300),       # Taghit
+    (31.6170, -2.2170),       # Béchar
+    (27.6710, -8.1470),       # Tinduf
+    (27.1760, -8.4331),       # Hassi 75 · puesto Mostefa Ben Boulaïd
 ]
 
-# Gran Sur solo con agencia: M'Zab · Tamanrasset · Assekrem · Djanet · Tassili
+# Alternativa: entrada por Hazoua / Taleb Larbi (sur de Túnez) sin el norte.
 CORRIDOR_ALT = [
-    (32.49437, 3.64446),
-    (22.78889, 5.52556),
-    (23.28889, 5.53361),
-    (23.21128, 5.72822),
-    (24.55415, 9.48543),
-    (25.5, 9.0),
+    (33.7300, 7.5600),        # Taleb Larbi (frontera con Túnez, aprox.)
+    (33.3678, 6.8517),        # El Oued
+    (33.1000, 6.0600),        # Touggourt
+    (32.4944, 3.6445),        # Ghardaïa
+    (30.5800, 2.8800),        # El Menia
+    (29.2640, 0.2310),        # Timimoun
+    (27.8740, -0.2940),       # Adrar
+    (30.1310, -2.1660),       # Béni Abbès
+    (30.9170, -2.0300),       # Taghit
+    (31.6170, -2.2170),       # Béchar
+    (27.6710, -8.1470),       # Tinduf
+    (27.1760, -8.4331),       # Hassi 75
 ]
 
 HISTORIA_RESUMEN = "Argelia es el país más extenso de África, 2.381.741 km² en los que el Sáhara ocupa la mayor parte y casi toda la población se concentra en la franja mediterránea. Su historia encadena reinos amazigh, Cartago y Roma, la islamización árabe, las dinastías medievales del Magreb y tres siglos de regencia otomana, antes de 132 años de colonización francesa y de una guerra que terminó con la independencia el 5 de julio de 1962. Desde entonces el poder gira en torno al Frente de Liberación Nacional y al ejército, con una economía sostenida por el gas y el petróleo. Para el viajero es un país de acceso complicado: visado obligatorio, frontera con Marruecos cerrada desde 1994 y un sur sahariano que solo se recorre con agencia local autorizada."
@@ -969,11 +976,11 @@ SPEC = dict(
         ("MONEDA", "Dinar argelino (DZD), NO convertible: no se puede importar ni sacar del país…"),
         ("VENTANA", "Mediterráneo en la costa (Orán: 32 °C de máxima en agosto…"),
     ],
-    center=[30.09, 3.66], zoom=5,
+    center=[31.0, 0.5], zoom=5,
     notice="Documento de planificación de un país FUERA DE LA RUTA PREVISTA: no forma parte de la ruta 2027. La ficha se mantiene completa por si en el futuro cambia la situación o se plantea un viaje aparte. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
-    corridor_label="Norte y Sáhara occidental: Orán · Argel · Constantina · M'Zab · Gourara · Saoura",
-    corridor_alt_label="Gran Sur solo con agencia: M'Zab · Tamanrasset · Assekrem · Djanet · Tassili",
+    corridor_label="Túnez → Tinduf por el norte: Oum Teboul · Constantina · Djémila · Timgad · El Oued · M'Zab · Gourara · Saoura · Tinduf · Hassi 75",
+    corridor_alt_label="Túnez → Tinduf por el sur: Taleb Larbi (Hazoua) · El Oued · M'Zab · Gourara · Saoura · Tinduf · Hassi 75",
     hero_img="https://commons.wikimedia.org/wiki/Special:FilePath/The_Tanzoumaitak_cave_painting_in_Tassili_n'ajjer.jpg?width=1200",
     hero_credit="Tassili n'Ajjer · IssamBarhoumi · CC BY-SA 4.0",
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
