@@ -83,7 +83,10 @@ CSS = """
 .bud .tag.est{background:var(--amber-bg);color:var(--amber)}
 .bud .tag.dat{background:var(--green-bg);color:var(--green)}
 .bud-veh{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
-.bud-veh .bud-card label{display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:"Archivo",sans-serif;font-size:13.5px;margin:6px 0}
+.bud-veh .bud-card label{display:grid;grid-template-columns:minmax(0,1fr) 92px;align-items:center;gap:10px;font-family:"Archivo",sans-serif;font-size:13.5px;margin:6px 0}
+.bud-veh .bud-card label input[type=number]{width:92px;justify-self:end}
+/* Safari y los gestores de contraseñas añaden un botón de autorrelleno dentro de algunas casillas y las ensanchan */
+.bud input::-webkit-contacts-auto-fill-button,.bud input::-webkit-credentials-auto-fill-button,.bud input::-webkit-strong-password-auto-fill-button{visibility:hidden;display:none!important;pointer-events:none;position:absolute;right:0}
 .bud-actions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
 .bud-actions button{font-family:"Archivo",sans-serif;font-weight:600;font-size:13px;padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
 .bud-actions button.primary{background:var(--teal);border-color:var(--teal);color:#fff}
@@ -107,7 +110,7 @@ const CATS = [['comb','Combustible'],['vis','Visados'],['veh','Vehículo: CPD, t
 
 function inp(key, dflt, step, extra){
   const v = get(key, dflt);
-  return `<input type="number" inputmode="decimal" step="${step||'any'}" data-k="${key}" data-d="${dflt}" value="${v}" class="${v != dflt ? 'edited' : ''}" ${extra||''}>`;
+  return `<input type="number" inputmode="decimal" step="${step||'any'}" data-k="${key}" data-d="${dflt}" value="${v}" autocomplete="off" data-1p-ignore data-lpignore="true" data-form-type="other" class="${v != dflt ? 'edited' : ''}" ${extra||''}>`;
 }
 function chk(key, dflt){
   return `<input type="checkbox" data-c="${key}" ${get(key, dflt) ? 'checked' : ''} aria-label="Incluir">`;
