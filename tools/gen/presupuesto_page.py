@@ -54,7 +54,6 @@ def datos(FULL, nombres):
         "fecha": P.FECHA, "dias": P.DIAS, "factor": P.FACTOR_CARRETERA, "desvios": P.DESVIOS_PCT,
         "vehiculos": P.VEHICULOS, "tramos": tramos, "gasoil": gasoil, "visados": visados,
         "sin_visado": [nombres.get(s, s) for s in P.SIN_VISADO], "tasas": tasas, "params": params,
-        "cpd": {"emision": P.CPD_EMISION, "comision": P.CPD_COMISION_AVAL, "aval": P.CPD_AVAL},
         "ferry": P.FERRY, "perro_ferry": P.PERRO_FERRY,
     }
 
@@ -121,6 +120,9 @@ function paintStatic(){
     <label>Consumo medio (L/100 km) ${inp(v.id+'.l100', v.l100, 0.5)}</label>
     <label>Personas ${inp(v.id+'.personas', v.personas, 1)}</label>
     <label>Perros ${inp(v.id+'.perros', v.perros, 1)}</label>
+    <label>CPD: carnet de 25 hojas (€) ${inp(v.id+'.cpd_libro', v.cpd_libro, 0.01)}</label>
+    <label>CPD: costes bancarios del aval (€) ${inp(v.id+'.cpd_banco', v.cpd_banco, 1)}</label>
+    <label>CPD: aval inmovilizado (€) ${inp(v.id+'.cpd_aval', v.cpd_aval, 100)}</label>
     <label>Ferry ida (€) ${inp(v.id+'.ferry_ida', D.ferry.ida[v.id], 1)}</label>
     <label>Ferry vuelta (€) ${inp(v.id+'.ferry_vuelta', D.ferry.vuelta[v.id], 1)}</label></div>`).join('')
     + `<div class="bud-card"><div class="lbl">Viaje</div><div class="sub">10 ene – ~15 ago 2027 = 217 días. La planificación manuscrita apunta a volver a finales de julio (unos 200).</div>
@@ -208,7 +210,7 @@ function compute(){
   veh.forEach(v => {
     const r = R[v.id];
     r.vis = visPP * v.personas;
-    r.veh = D.cpd.emision + D.cpd.comision + tasas + P.seguros + P.mantenimiento;
+    r.veh = V(v.id+'.cpd_libro', v.cpd_libro) + V(v.id+'.cpd_banco', v.cpd_banco) + tasas + P.seguros + P.mantenimiento;
     r.ferry = v.ferry;
     r.vida = P.comida * v.personas * dias + P.noche * dias + P.parques * v.personas;
     r.perro = v.perros ? (P.perro_comida * dias * v.perros + P.perro_tramites * v.perros + 2 * D.perro_ferry * v.perros) : 0;
@@ -220,7 +222,7 @@ function compute(){
   // Resumen
   const total = veh.reduce((s, v) => s + R[v.id].total, 0);
   const personas = veh.reduce((s, v) => s + v.personas, 0);
-  const aval = D.cpd.aval * veh.length;
+  const aval = veh.reduce((s, v) => s + V(v.id+'.cpd_aval', v.cpd_aval), 0);
   $('bud-cards').innerHTML = veh.map(v => `<div class="bud-card"><div class="lbl">${v.nombre} · ${v.detalle}</div>
       <div class="big">${eur(R[v.id].total)}</div><div class="sub">${eur(R[v.id].total / Math.max(1, v.personas))} por persona · ${eur(R[v.id].total / Math.max(1, dias))} al día</div>
       <div class="sub">Combustible ${eur(R[v.id].comb)} (${num(R[v.id].litros)} L a ${num(v.l100,1)} L/100)</div></div>`).join('')
@@ -329,12 +331,12 @@ Total activo: <strong id="bud-km"></strong>.</p>
 </section>
 <section id="visados"><h2>Visados (por persona)</h2>
 <p>Cada uno de los <span class="bud-npers">3</span> viajeros necesita su propio visado. La columna <strong>«Visados por persona»</strong> no es el número de personas: es cuántos visados necesita <em>cada</em> persona en ese país. Vale 2 donde se entra dos veces (bajada y subida) con un visado de una sola entrada, y 1 donde se entra una vez. La última columna multiplica por todos los viajeros.</p>
-<p>Por persona: <strong id="bud-vis-pp"></strong> · para las <span class="bud-npers">3</span> personas: <strong id="bud-vis-grp"></strong>. En el resumen, el vehículo 1 paga 2 personas y el vehículo 2, una. Sin visado: {esc(', '.join(D['sin_visado']))}.</p>
+<p>Por persona: <strong id="bud-vis-pp"></strong> · para las <span class="bud-npers">3</span> personas: <strong id="bud-vis-grp"></strong>. En el resumen, el INEOS Grenadier paga 2 personas y el Delica, una. Sin visado: {esc(', '.join(D['sin_visado']))}.</p>
 <div class="tblwrap"><table><thead><tr><th></th><th>País</th><th class="n">€ por visado</th><th class="n">Visados por persona</th><th class="n">Por persona</th><th class="n">Total <span class="bud-npers">3</span> personas</th></tr></thead><tbody id="bud-visados"></tbody>
 <tfoot><tr><td></td><td>Total activo</td><td></td><td></td><td class="n" id="bud-vis-tf-pp"></td><td class="n" id="bud-vis-tf-grp"></td></tr></tfoot></table></div>
 </section>
 <section id="vehiculo"><h2>Vehículo (por cada uno)</h2>
-{callout("", "CPD", f"Emisión ~{P.CPD_EMISION} € + comisión del aval ~{P.CPD_COMISION_AVAL} € por vehículo, incluidos en el cálculo. El aval (mínimo {f'{P.CPD_AVAL:,}'.replace(',', '.')} € por vehículo) queda inmovilizado y no se cuenta como gasto.", raw=True)}
+{callout("", "CPD (carnet de 25 hojas, RACE)", "<strong>INEOS Grenadier:</strong> carnet 383,35 € y aval de 13.700 €. <strong>Delica:</strong> carnet 83,35 € y aval de 2.900 €. Los carnets entran en el cálculo; los costes bancarios del aval todavía no se conocen y valen 0 hasta que se sepan (se editan en «Vehículos y viaje»). Los avales, 16.600 € entre los dos, quedan inmovilizados y no cuentan como gasto.", raw=True)}
 <h3>Tasas de importación temporal en frontera</h3>
 <p>Importes publicados en la sección CPD, por vehículo. Total activo: <strong id="bud-tasas-tot"></strong>. Donde no hay dato, la fila vale 0 y lo dice.</p>
 <div class="tblwrap"><table><thead><tr><th></th><th>País</th><th class="n">€</th></tr></thead><tbody id="bud-tasas"></tbody></table></div>
@@ -354,7 +356,7 @@ Total activo: <strong id="bud-km"></strong>.</p>
 </section>
 <section id="criterio"><h2>Criterio</h2>
 {bullets([
-    "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el vehículo 1.",
+    "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el INEOS Grenadier.",
     "Tipo de cambio: 1 USD = %s € (implícito en GlobalPetrolPrices del 21-09-2026). Franco CFA fijo: 655,957 por euro." % str(P.USD_EUR).replace(".", ","),
     "Los visados siguen la tabla de la sección Visados; Congo y RD Congo se tramitan fuera de ruta (París y Madrid) y con su vigencia no cubren a la vez la bajada y la subida, por eso figuran dos.",
     "Kenia, el interior de Tanzania y Malaui están activados porque figuran en el mapa o en la planificación, pero la planificación manuscrita todavía no encaja Kenia. Desmarcar lo que no se haga.",

@@ -238,17 +238,22 @@ NIVELES = {
 
 FUERA_DE_RUTA = {"egipto", "libia", "tunez", "burundi", "mauricio", "seychelles", "comoras", "santo-tome", "cabo-verde", "guinea-ecuatorial", "somalia", "eritrea", "sudan-del-sur", "rca", "chad", "niger", "burkina-faso", "argelia", "yibuti", "etiopia", "sudan", "guinea-bisau", "mali", "madagascar"}
 
+# Importes de los dos vehículos del proyecto, facilitados por el propietario el
+# 26-09-2026 (carnet de 25 hojas del RACE). El aval depende del valor del vehículo.
 COSTE_CPD = [
-    ("Emisión del carnet (10 o 25 hojas)", "~230 €"),
-    ("Aval bancario, según valor GANVAM del vehículo", "mínimo 2.780 € inmovilizados"),
-    ("Comisión bancaria del aval", "~100 €"),
+    ("Carnet de 25 hojas · INEOS Grenadier", "383,35 €"),
+    ("Aval bancario · INEOS Grenadier", "13.700 € inmovilizados"),
+    ("Carnet de 25 hojas · Delica", "83,35 €"),
+    ("Aval bancario · Delica", "2.900 € inmovilizados"),
+    ("Costes bancarios de los avales", "Sin dato todavía"),
     ("Validez", "1 año"),
 ]
 
 FUENTES = [
     ("RACE", "https://www.race.es/servicios/carnet-de-passages", "Emisor exclusivo en España. Su lista de países "
      "en los que el CPD «es requerido» incluye, de toda África: Kenia, Sudáfrica y países de la Commonwealth, "
-     "Libia y Senegal (Egipto no está). Precios, aval mínimo de 2.780 € y validez de un año, literales. "
+     "Libia y Senegal (Egipto no está). Validez de un año. Los importes de carnet y aval de los dos "
+     "vehículos del proyecto son los facilitados por el propietario (26-09-2026). "
      "No expide carnets a vehículos de matrícula extranjera."),
     ("Automobile Association of South Africa — «Travelling in Africa? You need to read this first» (2020)",
      "https://aa.co.za/travelling-in-africa-you-need-to-read-this-first-2/",

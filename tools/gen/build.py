@@ -1058,14 +1058,15 @@ def render_cpd():
     coste = ('<section id="coste"><h2>Lo que cuesta el CPD</h2>'
              '<p>Emitido por el <strong>RACE</strong>, único emisor en España:</p>'
              + table(["Concepto", "Importe"], [[c, f"<strong>{v}</strong>"] for c, v in COSTE_CPD])
-             + '<p>El aval no es un gasto, pero son casi 2.800 € inmovilizados durante todo el viaje, '
-               'y se pierden si el carnet vuelve sin cerrar correctamente.</p>'
+             + '<p>El aval no es un gasto, pero son 16.600 € inmovilizados entre los dos vehículos durante '
+               'todo el viaje (13.700 € el INEOS Grenadier y 2.900 € el Delica), y se pierden si el carnet '
+               'vuelve sin cerrar correctamente.</p>'
              + callout("warn", "Comparación directa",
                        "Las tasas de entrada de <strong>todos</strong> los países de la ruta suman del orden "
                        "de <strong>700-900 €</strong> (cifras casi todas de 2023), y la mitad son Ghana y "
-                       "Senegal. El CPD cuesta ~330 € más 2.780 € retenidos, y aun así <strong>habría que "
+                       "Senegal. Los dos carnets cuestan 466,70 € (más los costes bancarios, aún sin dato) y retienen 16.600 € en avales, y aun así <strong>habría que "
                        "pagar igualmente</strong> casi todas las tasas de carretera, carbono y seguro, que "
-                       "no son aduaneras.")
+                       "no son aduaneras.", raw=True)
              + '</section>')
 
     decision = ('<section id="decision"><h2>Cómo se decide</h2>'
@@ -1098,7 +1099,7 @@ def render_cpd():
                   "Senegal. El carnet deja de ser un gasto evitable.</p>"
                   "<p><strong>Sin Kenia</strong> —si el bucle oriental se recorta— la balanza sigue "
                   "inclinada por Nigeria y Sudáfrica, que se cruzan igualmente; solo si además se evitaran "
-                  "esos dos compensaría no inmovilizar 2.780 €.</p>"
+                  "esos dos compensaría no inmovilizar los 16.600 € de avales.</p>"
                   "<p>Y en cualquiera de los casos: si se embarca el vehículo de vuelta desde Durban, "
                   "Ciudad del Cabo o Walvis Bay, el carnet hace falta para el despacho portuario y "
                   "<strong>emitirlo desde África es inviable</strong>.</p>"
@@ -1535,7 +1536,7 @@ def render_docs():
         + bullets([
             "El RACE lo expide en exclusiva en España y solo a vehículos de matrícula española. Contacto publicado: eloy_gonzalo@race.es · +34 91 594 73 00.",
             "Documentación: permiso de circulación, ficha técnica, DNI del titular, solicitud y aval bancario de validez indefinida.",
-            "Aval mínimo de 2.780 € según valor venal GANVAM, emisión de unos 230 €, formatos de 10 o 25 hojas y validez de un año. Pedir presupuesto escrito para cada vehículo.",
+            "Carnet de 25 hojas: 383,35 € el INEOS Grenadier y 83,35 € el Delica. Aval: 13.700 € y 2.900 €. Costes bancarios de los avales: sin dato todavía. Validez de un año.",
             "Cada entrada y salida debe quedar sellada (par completo). Un sello que falte puede bloquear la devolución del aval: comprobarlo antes de salir de cada puesto.",
             "No cerrar el expediente hasta que el CPD vuelva con todos los pares de sellos, especialmente del último país.",
             "En Uganda el carnet no se reconoce y en Mozambique el TIP es obligatorio aunque se lleve; en Angola un sello mal puesto es justo lo que hace perder el aval. Llevarlo no exime de vigilarlo.",

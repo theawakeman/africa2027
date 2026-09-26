@@ -2,8 +2,8 @@
 """Presupuesto del viaje por vehículo.
 
 Planteamiento pedido por el propietario (25-09-2026):
-  · Vehículo 1: 2 personas y el perro, consumo medio 15 L/100 km.
-  · Vehículo 2: 1 persona, consumo medio 12 L/100 km.
+  · INEOS Grenadier: 2 personas y el perro, consumo medio 15 L/100 km.
+  · Delica: 1 persona, consumo medio 12 L/100 km.
 
 La página /presupuesto/ es una calculadora: todos los valores de aquí son los
 valores iniciales y se pueden cambiar en la propia página (se guardan solo en
@@ -22,8 +22,12 @@ USD_EUR = round(1.400 / 1.603, 4)          # 0,8734 € por dólar
 XOF_EUR = 1 / 655.957
 
 VEHICULOS = [
-    {"id": "v1", "nombre": "Vehículo 1", "detalle": "2 personas + perro", "personas": 2, "perros": 1, "l100": 15.0},
-    {"id": "v2", "nombre": "Vehículo 2", "detalle": "1 persona", "personas": 1, "perros": 0, "l100": 12.0},
+    # CPD (RACE, carnet de 25 hojas): importes facilitados por el propietario el
+    # 26-09-2026. Los costes bancarios del aval aún no se conocen (0 = sin dato).
+    {"id": "v1", "nombre": "INEOS Grenadier", "detalle": "2 personas + perro", "personas": 2, "perros": 1, "l100": 15.0,
+     "cpd_libro": 383.35, "cpd_aval": 13700, "cpd_banco": 0},
+    {"id": "v2", "nombre": "Delica", "detalle": "1 persona", "personas": 1, "perros": 0, "l100": 12.0,
+     "cpd_libro": 83.35, "cpd_aval": 2900, "cpd_banco": 0},
 ]
 
 # Fechas del portal: salida 10 ene 2027, regreso ~15 ago 2027 → 217 días.
@@ -161,10 +165,7 @@ VISADOS = [
 SIN_VISADO = ["marruecos", "sahara-occidental", "senegal", "gambia", "angola", "zambia", "botsuana", "sudafrica"]
 
 # ---------------------------------------------------------------- vehículo
-# Por vehículo. CPD según data_cpd.COSTE_CPD (RACE).
-CPD_EMISION = 230
-CPD_COMISION_AVAL = 100
-CPD_AVAL = 2780          # inmovilizado, no es gasto
+# El CPD va por vehículo en VEHICULOS (cpd_libro, cpd_aval, cpd_banco).
 
 # Tasas de importación temporal en frontera, por vehículo, a partir de
 # data_cpd (importe × entradas). (slug, €, texto)
@@ -210,9 +211,9 @@ FERRY = {
     "fecha": "26-09-2026",
     "fuente": "https://www.gnv.it/es/departures-calendar?type=outward",
     "filas": [
-        ("Vehículo 1 · 2 adultos + coche + perro", "10 ene 2027", "485,17 € camarote · 432,04 € butaca",
+        ("INEOS Grenadier · 2 adultos + coche + perro", "10 ene 2027", "485,17 € camarote · 432,04 € butaca",
          "446,34 € camarote · 396,16 € butaca"),
-        ("Vehículo 2 · 1 adulto + coche", "10 ene 2027", "403,85 € camarote · 327,50 € butaca",
+        ("Delica · 1 adulto + coche", "10 ene 2027", "403,85 € camarote · 327,50 € butaca",
          "369,14 € camarote · 298,52 € butaca"),
     ],
 }

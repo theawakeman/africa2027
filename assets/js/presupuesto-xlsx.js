@@ -95,6 +95,9 @@
       ['l100', 'Consumo medio (L/100 km)', v => V(v.id + '.l100', v.l100), 8, ''],
       ['personas', 'Personas', v => V(v.id + '.personas', v.personas), 10, ''],
       ['perros', 'Perros', v => V(v.id + '.perros', v.perros), 10, ''],
+      ['cpd_libro', 'CPD: carnet de 25 hojas (€)', v => V(v.id + '.cpd_libro', v.cpd_libro), 9, 'RACE; importes facilitados el 26-09-2026'],
+      ['cpd_banco', 'CPD: costes bancarios del aval (€)', v => V(v.id + '.cpd_banco', v.cpd_banco), 9, 'Sin dato todavía'],
+      ['cpd_aval', 'CPD: aval inmovilizado (€, no es gasto)', v => V(v.id + '.cpd_aval', v.cpd_aval), 9, 'Se recupera al cerrar el carnet'],
       ['ferry_ida', 'Ferry ida Barcelona → Tánger Med (€)', v => V(v.id + '.ferry_ida', D.ferry.ida[v.id]), 9, 'GNV, camarote, coche clase A2, 10-01-2027'],
       ['ferry_vuelta', 'Ferry vuelta Tánger Med → Barcelona (€)', v => V(v.id + '.ferry_vuelta', D.ferry.vuelta[v.id]), 9, 'Referencia abril-mayo 2027: el verano aún no está a la venta'],
     ];
@@ -103,15 +106,12 @@
       pr[r] = [label, {v: fn(D.vehiculos[0]), s: st}, {v: fn(D.vehiculos[1]), s: st}, {v: nota, s: 12}];
       ref[id] = i => `${P}$${vc[i]}$${r + 1}`;
     });
-    let r = 11;
+    let r = 5 + vrows.length + 1;
     pr[r] = [H('Parámetro del viaje'), H('Valor'), H('Unidad'), H('Tipo / nota')];
     const gen = [
       ['dias', 'Días de viaje', V('dias', D.dias), 10, 'días', '10 ene – ~15 ago 2027; la planificación manuscrita apunta a unos 200'],
       ['factor', 'Factor carretera / línea recta', V('factor', D.factor), 8, '×', 'Corrige la distancia en línea recta de los corredores'],
       ['desvios', 'Desvíos fuera del corredor', V('desvios', D.desvios) / 100, 11, '%', 'Agua, gasoil, trámites'],
-      ['cpd_emision', 'CPD: emisión del carnet', D.cpd.emision, 9, '€ / vehículo', 'RACE'],
-      ['cpd_comision', 'CPD: comisión bancaria del aval', D.cpd.comision, 9, '€ / vehículo', 'RACE'],
-      ['cpd_aval', 'CPD: aval inmovilizado (no es gasto)', D.cpd.aval, 9, '€ / vehículo', 'Se recupera al volver'],
       ['perro_ferry', 'Perro en el ferry', D.perro_ferry, 9, '€ / trayecto', 'Estimación: GNV no publica el precio'],
     ];
     D.params.forEach(p => {
@@ -183,7 +183,7 @@
     const lines = [
       ['Combustible', i => `Combustible!${i ? 'J' : 'H'}${ct}`],
       ['Visados', i => `Visados!E${vt}*${ref.personas(i)}`],
-      ['Vehículo: CPD, tasas, seguros, mantenimiento', i => `${p('cpd_emision')}+${p('cpd_comision')}+'Tasas frontera'!C${tt}+${p('seguros')}+${p('mantenimiento')}`],
+      ['Vehículo: CPD, tasas, seguros, mantenimiento', i => `${ref.cpd_libro(i)}+${ref.cpd_banco(i)}+'Tasas frontera'!C${tt}+${p('seguros')}+${p('mantenimiento')}`],
       ['Ferry Barcelona – Tánger Med (ida y vuelta)', i => `${ref.ferry_ida(i)}+${ref.ferry_vuelta(i)}`],
       ['Comida, noches y actividades', i => `${p('comida')}*${ref.personas(i)}*${p('dias')}+${p('noche')}*${p('dias')}+${p('parques')}*${ref.personas(i)}`],
       ['Perro (comida, trámites y ferry)', i => `${ref.perros(i)}*(${p('perro_comida')}*${p('dias')}+${p('perro_tramites')}+2*${p('perro_ferry')})`],
@@ -202,7 +202,7 @@
     R[rt + 2] = ['Por día', {f: `B${rt}/${p('dias')}`, s: 2}, {f: `C${rt}/${p('dias')}`, s: 2}, {f: `D${rt}/${p('dias')}`, s: 2}];
     R[rt + 3] = ['Kilómetros', {f: `Combustible!E${ct}`, s: 4}];
     R[rt + 4] = ['Litros de gasóleo', {f: `Combustible!G${ct}`, s: 4}, {f: `Combustible!I${ct}`, s: 4}, {f: `B${rt + 5}+C${rt + 5}`, s: 13}];
-    R[rt + 5] = ['Aval CPD inmovilizado (se recupera)', {f: p('cpd_aval'), s: 2}, {f: p('cpd_aval'), s: 2}, {f: `B${rt + 6}+C${rt + 6}`, s: 2}];
+    R[rt + 5] = ['Aval CPD inmovilizado (se recupera)', {f: ref.cpd_aval(0), s: 2}, {f: ref.cpd_aval(1), s: 2}, {f: `B${rt + 6}+C${rt + 6}`, s: 2}];
 
     const sheets = [
       ['Resumen', sheetXml(R, [46, 30, 30, 16])],
