@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Página /presupuesto/: planificador de ruta + calculadora de presupuesto por
+"""Página /planificador/ (antes /presupuesto/): planificador de ruta + calculadora de presupuesto por
 vehículo (funciona sin conexión).
 
 Se marcan los países y la página rehace sola el orden, los países de tránsito
@@ -210,27 +210,27 @@ CSS = """
 @media (max-width:760px){.bud-itin .it{grid-template-columns:16px 30px minmax(0,1fr) auto;grid-template-areas:"h n p act" "h n seg seg" "h n km d";row-gap:8px}
  .it-h{grid-area:h;align-self:center}.it-n{grid-area:n;align-self:start}.it-p{grid-area:p}.it-seg{grid-area:seg}.it-km{grid-area:km;text-align:left}.it-d{grid-area:d}.it-act{grid-area:act}
  .it-p .nota{white-space:normal}}
-#bud-mapa{height:460px;border-radius:12px;border:1px solid var(--line);margin:12px 0;background:var(--surface2)}
+#bud-mapa{height:calc(100vh - 120px);min-height:420px;width:min(1400px,calc(100vw - 32px));margin:12px 0 12px calc(50% - min(700px,50vw - 16px));border-radius:12px;border:1px solid var(--line);background:var(--surface2)}
 .bud-avisos{margin:10px 0;padding-left:20px;font-size:14px}
 .bud-avisos li{margin:3px 0}
 .bud-num{display:inline-block;min-width:22px;height:22px;line-height:22px;border-radius:11px;background:var(--teal);color:#fff;text-align:center;font-family:"Archivo",sans-serif;font-size:11.5px;font-weight:700}
 .bud-mk{background:#1E7A8A;color:#fff;border:2px solid #fff;border-radius:50%;width:24px!important;height:24px!important;line-height:20px;text-align:center;font:700 11px Archivo,sans-serif;box-shadow:0 1px 3px rgba(0,0,0,.4)}
-@media (max-width:640px){.bud .hm{display:none}.bud td.mvs .mv{display:block;margin:0 0 4px}.bud #bud-itin input[type=number]{width:56px}.bud #bud-itin td{padding-left:5px;padding-right:5px}.bud input[type=number]{width:64px}.bud-bar{grid-template-columns:96px 1fr auto;font-size:12px}.bud-card .big{font-size:24px}#bud-mapa{height:340px}.bud select{max-width:100%}}
+@media (max-width:640px){.bud .hm{display:none}.bud td.mvs .mv{display:block;margin:0 0 4px}.bud #bud-itin input[type=number]{width:56px}.bud #bud-itin td{padding-left:5px;padding-right:5px}.bud input[type=number]{width:64px}.bud-bar{grid-template-columns:96px 1fr auto;font-size:12px}.bud-card .big{font-size:24px}#bud-mapa{height:72vh;min-height:360px}.bud select{max-width:100%}}
 """
 
 
 def render_presupuesto(FULL, C, navbar, VERSION):
     root = "../"
     D = datos(FULL, C)
-    nav = navbar(root, [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
-                        ("CPD", root + "cpd/"), ("Ruta", "#ruta"), ("Resumen", "#resumen"),
+    nav = navbar(root, [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/"),
+                        ("Visados", root + "visados/"), ("CPD", root + "cpd/"), ("El perro", root + "perro/"), ("Ruta", "#ruta"), ("Resumen", "#resumen"),
                         ("Combustible", "#combustible"), ("Visados", "#visados"), ("Vehículo", "#vehiculo"),
-                        ("Ferry", "#ferry"), ("Resto", "#partidas"), ("Criterio", "#criterio")], "Presupuesto")
+                        ("Ferry", "#ferry"), ("Resto", "#partidas"), ("Criterio", "#criterio")], "Planificador")
     v1, v2 = P.VEHICULOS
     hero = f"""<header class="hero small">
   <div class="hero-txt">
-    <span class="kicker">Planificador de ruta y presupuesto por vehículo · valores iniciales del {esc(P.FECHA)}</span>
-    <h1>Presupuesto</h1>
+    <span class="kicker">Ruta, fechas y presupuesto por vehículo · valores iniciales del {esc(P.FECHA)}</span>
+    <h1>Planificador</h1>
     <p>Marca los países que queréis recorrer: la página ordena la ruta, añade los países de paso obligado y recalcula
     kilómetros, días, fecha de regreso y dinero. <strong>{esc(v1['nombre'])}</strong>: {esc(v1['detalle'])}, {v1['l100']:g} L/100 km.
     <strong>{esc(v2['nombre'])}</strong>: {esc(v2['detalle'])}, {v2['l100']:g} L/100 km.
@@ -324,7 +324,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     "Los valores que cambies se guardan solo en este navegador. La hoja de cálculo del proyecto sigue siendo la referencia: los botones de descarga sirven para pasar los números.",
 ])}
 </section>
-<footer>ÁFRICA 2027 · Presupuesto · valores iniciales del {esc(P.FECHA)} · versión {VERSION}</footer>
+<footer>ÁFRICA 2027 · Planificador · valores iniciales del {esc(P.FECHA)} · versión {VERSION}</footer>
 </main>
 <script>var A27_BUDGET = {json.dumps(D, ensure_ascii=False, separators=(",", ":"))};</script>
 <script src="{root}assets/vendor/leaflet.js"></script>
@@ -332,4 +332,4 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <script src="{root}assets/js/presupuesto-xlsx.js"></script>
 <script src="{root}assets/js/{JS_PATH}"></script>"""
     extra = f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css"><style>{CSS}</style>'
-    return page(root, "Presupuesto · África 2027", body, extra_head=extra)
+    return page(root, "Planificador · África 2027", body, extra_head=extra)

@@ -261,7 +261,7 @@ function a27Map(elId, cfg){
   const groups = {};
   // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.
   const on = cfg.defaultOn ? new Set(cfg.defaultOn) : null;
-  // Viaje calculado en Presupuesto (mismo navegador): se dibuja como «Tu viaje».
+  // Viaje calculado en el Planificador (mismo navegador): se dibuja como «Tu viaje».
   let viaje = null;
   if (cfg.viaje) {
     try { viaje = JSON.parse(localStorage.getItem('a27-ruta-resumen') || 'null'); } catch(e) { viaje = null; }
@@ -432,7 +432,7 @@ def map_lines(d):
 # leyenda no tenga un ramal por país:
 #   bajada      → «Ruta planificada · ida»        · encendida si no hay viaje propio
 #   subida      → «Ruta planificada · vuelta»     · encendida si no hay viaje propio
-# (el viaje configurado en Presupuesto se dibuja aparte como «Tu viaje»)
+# (el viaje configurado en el Planificador se dibuja aparte como «Tu viaje»)
 #   variante    → «Variantes por país»            · apagada
 #   alternativa → «Ramales y alternativas»        · apagada
 # (papel del corredor principal, papel del corredor alternativo)
@@ -489,9 +489,9 @@ def navbar(root, items, brand_suffix=""):
     suf = f'<span class="brand" style="padding-left:0">· {esc(brand_suffix)}</span>' if brand_suffix else ""
     return f'<nav class="nav"><a class="brand" href="{root}">ÁFRICA 2027</a>{suf}{links}</nav>'
 
-TOP_NAV = [("Mapa", "{root}mapa/"), ("Países", "{root}#paises"), ("El perro", "{root}perro/"),
-           ("Visados", "{root}visados/"), ("CPD", "{root}cpd/"),
-           ("Presupuesto", "{root}presupuesto/"), ("Documentación", "{root}documentacion/")]
+TOP_NAV = [("Planificador", "{root}planificador/"), ("Mapa", "{root}mapa/"), ("Documentación", "{root}documentacion/"),
+           ("Visados", "{root}visados/"), ("CPD", "{root}cpd/"), ("El perro", "{root}perro/"),
+           ("Países", "{root}#paises")]
 
 def top_nav(root, extra=""):
     items = [(t, u.format(root=root)) for t, u in TOP_NAV]
@@ -524,7 +524,7 @@ def render_ficha(d):
     sec_nav += [("Agua/Comb.", "#agua-combustible"), ("PDIs", "#pois"),
                ("Fotos", "#fotos"), ("Emergencias", "#logistica"), ("Fronteras", "#fronteras"),
                ("Perro", "#perro"), ("Fuentes", "#fuentes")]
-    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
+    nav = navbar(root, [("Planificador", root + "planificador/"), ("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
                         ("Documentación", root + "documentacion/")] +
                  sec_nav, d["name"])
 
@@ -587,7 +587,7 @@ def render_ficha(d):
         if sid == "ruta" and re.search(r"\b(bajada|subida)\b", inner, re.I):
             inner = ('<p class="notice viaje-nota">Esta sección se escribió para la ruta planificada original: '
                      '«bajada» es la ida hacia el sur y «subida» la vuelta. En tu viaje cada recorrido se usa según el '
-                     f'orden que pongas en <a href="{root}presupuesto/">Presupuesto</a>; el mapa de arriba dice por dónde '
+                     f'orden que pongas en el <a href="{root}planificador/">Planificador</a>; el mapa de arriba dice por dónde '
                      'entras y sales.</p>' + inner)
         body.append(sec(sid, title, inner))
         insert_here = sid == "historia" if has_history else n_sec == 2
@@ -719,7 +719,7 @@ def render_ficha(d):
 def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota):
     from data_cabeceras import construir as construir_cabecera
     root = "../../"
-    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
+    nav = navbar(root, [("Planificador", root + "planificador/"), ("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
                         ("Documentación", root + "documentacion/"), ("Todos los países", root + "#paises")], name)
     glabel = REGION_LABELS.get(REGION.get(slug, ""), "")
     badge = '<span class="badge b-draft">Borrador · pendiente de revisión</span>'
@@ -790,7 +790,7 @@ AUDIO_JS = """
 def render_historia(d):
     root = "../../../"
     slug = d["slug"]
-    nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
+    nav = navbar(root, [("Planificador", root + "planificador/"), ("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
                         ("Documentación", root + "documentacion/"),
                         ("← Ficha de " + d["name"], root + f"paises/{slug}/")], "Historia")
 
@@ -843,7 +843,7 @@ def render_portal(countries):
         por_region.setdefault(REGION.get(c["slug"], ""), []).append(c)
     cards_html = ('<div class="viaje-portal" data-viaje-portal hidden></div>'
                   '<p class="figcap">Las fichas se agrupan por regiones. El orden del viaje, y si cada país se '
-                  'recorre o solo se cruza, se decide en <a href="presupuesto/">Presupuesto</a>; con un viaje '
+                  'recorre o solo se cruza, se decide en el <a href="planificador/">Planificador</a>; con un viaje '
                   'calculado, cada tarjeta indica su papel en él.</p>')
     for g, glabel, _ in REGIONES:
         if g not in por_region:
@@ -880,12 +880,12 @@ def render_portal(countries):
 <main>
 <section id="accesos" style="margin-top:26px">
 <div class="cards portal-access">
+  <a class="card" href="planificador/"><div class="body"><h3>🧭 Planificador</h3><span class="meta">Elige los países y el orden: calcula la ruta, los ferris desde Europa, los kilómetros, los días, las fechas y el presupuesto por vehículo (combustible, visados, CPD, tasas, perro). Guarda varios viajes y funciona sin conexión.</span></div></a>
   <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua de servicio y combustible. Toca un punto para ver su ficha.</span></div></a>
+  <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
   <a class="card" href="visados/"><div class="body"><h3>🛂 Visados</h3><span class="meta">Mapa y calendario para pasaporte español: sin visado, electrónico, presencial o en frontera, ajustado a los pasos terrestres de la ruta.</span></div></a>
   <a class="card" href="cpd/"><div class="body"><h3>🚙 CPD</h3><span class="meta">Mapa y auditoría país por país sobre la exigencia del Carnet de Passage para los dos vehículos.</span></div></a>
-  <a class="card" href="presupuesto/"><div class="body"><h3>💶 Presupuesto</h3><span class="meta">Calculadora por vehículo: combustible país a país con el gasóleo actual, visados, CPD, tasas de frontera, ferry, perro y gastos diarios. Editable y sin conexión.</span></div></a>
   <a class="card" href="perro/"><div class="body"><h3>🐕 El perro</h3><span class="meta">Requisitos sanitarios, documentación, fronteras, riesgos y preparación para viajar con el perro.</span></div></a>
-  <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
 </div>
 </section>
 <section id="paises"><h2>Fichas de país</h2>{cards_html}</section>
@@ -901,7 +901,7 @@ def render_portal(countries):
 # ---------------------------------------------------------------- general map
 def render_map_page(all_points, all_lines):
     root = "../"
-    nav = navbar(root, [("Portal", root), ("Visados", root + "visados/"),
+    nav = navbar(root, [("Portal", root), ("Planificador", root + "planificador/"), ("Visados", root + "visados/"),
                         ("Documentación", root + "documentacion/")], "Mapa general")
     cfg = {"center": [14.0, -5.0], "zoom": 4, "root": root, "points": all_points, "lines": all_lines,
            "defaultOn": MAPA_GENERAL_ON, "groupOrder": MAPA_GENERAL_ORDEN, "viaje": True,
@@ -909,7 +909,7 @@ def render_map_page(all_points, all_lines):
     body = f"""{nav}
 <main style="max-width:1400px">
 <h2 style="margin-top:18px">Mapa general del viaje</h2>
-<p>Si has calculado un viaje en <a href="../presupuesto/">Presupuesto</a>, el mapa lo dibuja como <strong>Tu viaje</strong> junto a los <strong>puntos de interés</strong>; si no, muestra la <strong>ruta planificada</strong> (ida y vuelta). El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
+<p>Si has calculado un viaje en el <a href="../planificador/">Planificador</a>, el mapa lo dibuja como <strong>Tu viaje</strong> junto a los <strong>puntos de interés</strong>; si no, muestra la <strong>ruta planificada</strong> (ida y vuelta). El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
 <p class="callout" style="display:block"><strong>Agua y combustible:</strong> la capa de agua distingue recarga confirmada o publicada, acceso condicionado, solo ducha y puntos descartados. Agua de servicio no equivale a agua potable, y una instalación con duchas no autoriza por sí sola a llenar el depósito. Abrir cada pin y reconfirmar la fuente el mismo día. Para combustible, el objetivo es no dejar tramos de más de ~500 km sin una opción confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
 <p class="figcap">Rojo = tu viaje · turquesa = ruta planificada, ida · ámbar = ruta planificada, vuelta · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
@@ -930,7 +930,7 @@ def render_cpd():
     nombres = {slug: name for slug, name, *_ in C}
     grupos = {slug: group for slug, _, group, *_ in C}
 
-    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
+    secs = [("Portal", root), ("Planificador", root + "planificador/"), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
             ("Documentación", root + "documentacion/")]
     nav = navbar(root, secs + [("Obligatorio", "#obligatorio"), ("Recomendable", "#recomendable"),
                                ("No necesario", "#no"), ("Coste", "#coste"), ("En disputa", "#disputa"),
@@ -1164,7 +1164,7 @@ def render_visados():
     grupos = {slug: group for slug, _, group, *_ in C}
     orden = {slug: pos for slug, _, _, pos, *_ in C}
 
-    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("El perro", root + "perro/"),
+    secs = [("Portal", root), ("Planificador", root + "planificador/"), ("Mapa", root + "mapa/"), ("El perro", root + "perro/"),
             ("CPD", root + "cpd/"), ("Documentación", root + "documentacion/")]
     nav = navbar(root, secs + [("Mapa de visados", "#mapa-visados"), ("Ruta principal", "#ruta"),
                                ("Alternativas", "#alternativas"), ("Calendario", "#calendario"),
@@ -1347,7 +1347,7 @@ def render_perro():
 
     # Índice lateral a partir de los encabezados de primer nivel
     tops = [(t, a) for t, a, lvl in md_headings(md, levels=(1,))]
-    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
+    secs = [("Portal", root), ("Planificador", root + "planificador/"), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
             ("Documentación", root + "documentacion/")]
     def _short(t):
         t = re.sub(r"^\d+[.)]\s*", "", t.split("·")[0].strip())   # fuera el "1. "
@@ -1530,7 +1530,7 @@ def render_perro():
 # ---------------------------------------------------------------- docs page
 def render_docs():
     root = "../"
-    secs = [("Portal", root), ("Mapa", root + "mapa/"), ("Visados", root + "visados/")]
+    secs = [("Portal", root), ("Planificador", root + "planificador/"), ("Mapa", root + "mapa/"), ("Visados", root + "visados/")]
     anchors = [("CPD", "#cpd"), ("Grenadier", "#grenadier"), ("Delica", "#delica"), ("Seguro", "#seguro"),
                ("Perro", "#perro"), ("Salud", "#salud"), ("Agua/Comb.", "#agua-combustible"),
                ("Drones", "#drones"), ("Starlink", "#starlink"),
@@ -1884,7 +1884,11 @@ def main():
     pages["perro/index.html"] = render_perro()
     pages["cpd/index.html"] = render_cpd()
     pages["visados/index.html"] = render_visados()
-    pages["presupuesto/index.html"] = render_presupuesto(FULL, C, navbar, VERSION)
+    pages["planificador/index.html"] = render_presupuesto(FULL, C, navbar, VERSION)
+    # Dirección antigua: redirige al Planificador conservando el ancla.
+    pages["presupuesto/index.html"] = page("../", "Planificador · África 2027",
+        '<main><p style="margin-top:30px">El presupuesto ahora es el <a href="../planificador/">Planificador</a>.</p></main>'
+        '<script>location.replace("../planificador/" + location.hash);</script>')
 
     name_by_slug = {slug: name for slug, name, *_ in C}
     countries_for_admin = [{"slug": slug, "name": name_by_slug.get(slug, slug)}

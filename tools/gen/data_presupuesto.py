@@ -5,7 +5,7 @@ Planteamiento pedido por el propietario (25-09-2026):
   · INEOS Grenadier: 2 personas y el perro, consumo medio 15 L/100 km.
   · Delica: 1 persona, consumo medio 12 L/100 km.
 
-La página /presupuesto/ es una calculadora: todos los valores de aquí son los
+La página /planificador/ es una calculadora: todos los valores de aquí son los
 valores iniciales y se pueden cambiar en la propia página (se guardan solo en
 ese navegador). Cada cifra lleva su fuente o dice que es una estimación.
 

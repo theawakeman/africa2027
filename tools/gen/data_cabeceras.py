@@ -393,7 +393,7 @@ def construir(slug, group, *, data=None, fallback=None):
             peligro = "Por verificar"
 
     values = (
-        "Sin calcular · abre Presupuesto", "Según tu viaje", fronteras_terrestres(slug),
+        "Sin calcular · abre el Planificador", "Según tu viaje", fronteras_terrestres(slug),
         _visa(slug, fallback.get("visado", "")), _cpd(slug, fallback.get("cpd", "")),
         _short(seguro, 52), _short(seguridad, 58), pdis, _short(cuatro, 58), _short(pie, 58),
         vacunacion, _short(dron, 52), _short(starlink, 52), peligro,

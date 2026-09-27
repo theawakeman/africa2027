@@ -1,5 +1,5 @@
-/* Tu viaje · aplica a las fichas y al portal el viaje calculado en Presupuesto.
-   Presupuesto guarda un resumen de la ruta en este navegador ('a27-ruta-resumen');
+/* Tu viaje · aplica a las fichas y al portal el viaje calculado en el Planificador.
+   El Planificador guarda un resumen de la ruta en este navegador ('a27-ruta-resumen');
    aquí solo se lee. Sin resumen, las páginas se quedan con su texto neutro. */
 (function(){
   let V = null;
@@ -12,7 +12,7 @@
   const n = v => String(Math.round(v)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
   const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   const root = (() => { const s = document.querySelector('script[src*="assets/js/viaje.js"]'); return s ? s.getAttribute('src').split('assets/js/viaje.js')[0] : ''; })();
-  const pres = root + 'presupuesto/';
+  const pres = root + 'planificador/';
   const set = (el, txt) => { if (!el) return; const b = el.querySelector('b'); if (b) b.textContent = txt; el.title = txt; };
   const dias = x => { const v = Math.max(1, Math.round(x)); return v + (v === 1 ? ' día' : ' días'); };
   const tipoTxt = p => p.tipo === 'visita' ? 'se recorre' : 'solo se cruza';
@@ -26,11 +26,11 @@
     const chip = k => fichas.querySelector('[data-viaje="' + k + '"]');
     const caja = document.querySelector('[data-viaje-ruta]');
     if (!V) {
-      if (caja) { caja.innerHTML = '<div class="callout-title">Tu viaje</div><p>Todavía no hay un viaje calculado en este navegador. Configúralo en <a href="' + pres + '">Presupuesto</a> y esta ficha dirá por dónde entras, por dónde sales y en qué fechas.</p>'; caja.hidden = false; }
+      if (caja) { caja.innerHTML = '<div class="callout-title">Tu viaje</div><p>Todavía no hay un viaje calculado en este navegador. Configúralo en el <a href="' + pres + '">Planificador</a> y esta ficha dirá por dónde entras, por dónde sales y en qué fechas.</p>'; caja.hidden = false; }
     } else if (!ps.length) {
       set(chip('en'), 'No está en «' + V.nombre + '»');
       set(chip('fechas'), '—');
-      if (caja) { caja.innerHTML = '<div class="callout-title">Tu viaje · ' + esc(V.nombre) + '</div><p>Este país no está en el viaje. Se puede añadir en <a href="' + pres + '">Presupuesto</a> (tocándolo en el mapa o con «Añadir un país»).</p>'; caja.hidden = false; }
+      if (caja) { caja.innerHTML = '<div class="callout-title">Tu viaje · ' + esc(V.nombre) + '</div><p>Este país no está en el viaje. Se puede añadir en el <a href="' + pres + '">Planificador</a> (tocándolo en el mapa o con «Añadir un país»).</p>'; caja.hidden = false; }
     } else {
       const tipos = [...new Set(ps.map(tipoTxt))];
       set(chip('en'), ps.length > 1 ? ps.length + ' pasos · ' + tipos.join(' y ') : 'Paso ' + (ps[0].i + 1) + ' de ' + total + ' · ' + tipoTxt(ps[0]));
@@ -41,7 +41,7 @@
           + ' (~' + esc(f(p.ent, true)) + ') y sales hacia ' + esc(p.a) + ' (~' + esc(f(p.sal, true)) + ') · ' + tipoTxt(p)
           + (p.lab ? ' (' + esc(p.lab) + ')' : '') + ' · ~' + dias(p.d) + ' · ~' + n(p.km) + ' km.</li>').join('');
         caja.innerHTML = '<div class="callout-title">Tu viaje · ' + esc(V.nombre) + '</div><ol>' + li + '</ol>'
-          + '<p>La línea roja del mapa es tu viaje. Para cambiarlo: <a href="' + pres + '">Presupuesto</a>.</p>';
+          + '<p>La línea roja del mapa es tu viaje. Para cambiarlo: <a href="' + pres + '">Planificador</a>.</p>';
         caja.hidden = false;
       }
     }
@@ -55,7 +55,7 @@
     const items = vistos.map(p => '<li><a class="' + (ya[p.f].tipos.has('visita') ? 'para' : 'cruza') + '" href="paises/' + p.f + '/">' + esc(p.nf || p.n.replace(/ \(.*\)$/, '')) + ' <small>' + f(p.ent) + '</small></a></li>').join('');
     portal.innerHTML = '<div class="callout" style="border-left-color:#B43A3A"><div class="callout-title">Tu viaje · ' + esc(V.nombre) + '</div>'
       + '<p>' + esc(rango(V.salida, V.regreso)) + ' · ' + n(V.dias) + ' días · ' + n(V.km) + ' km · ' + vistos.length + ' países. Ferry de ida ' + esc(V.ida) + '; de vuelta ' + esc(V.vuelta)
-      + '. Línea continua: se recorre; discontinua: solo se cruza. <a href="' + pres + '">Cambiarlo en Presupuesto</a>.</p><ol class="viaje-lista">' + items + '</ol></div>';
+      + '. Línea continua: se recorre; discontinua: solo se cruza. <a href="' + pres + '">Cambiarlo en el Planificador</a>.</p><ol class="viaje-lista">' + items + '</ol></div>';
     portal.hidden = false;
     document.querySelectorAll('a.card[data-pais]').forEach(a => {
       const x = ya[a.dataset.pais]; if (!x) return;

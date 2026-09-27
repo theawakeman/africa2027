@@ -1,4 +1,4 @@
-/* Presupuesto · planificador de ruta + calculadora por vehículo (sin conexión).
+/* Planificador · ruta + calculadora por vehículo (sin conexión).
    Datos: A27_BUDGET (generado por tools/gen/presupuesto_page.py). */
 (function(){
 const D = A27_BUDGET, RU = D.ruta, PA = RU.paises, KEY = 'a27-presupuesto-v1';
@@ -307,7 +307,7 @@ function paintMapa(R){
   if (typeof L === 'undefined' || !$('bud-mapa')) return;
   try {
     if (!MAP) {
-      MAP = L.map('bud-mapa', {scrollWheelZoom: false}).setView([2, 18], 3);
+      MAP = L.map('bud-mapa', {scrollWheelZoom: false, zoomSnap: 0.25}).setView([2, 18], 3);
       L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {maxZoom: 12, attribution: 'Tiles © Esri'}).addTo(MAP);
       PAISES = L.geoJSON(null, {style: () => ({weight: 1, color: '#8A949A', fillOpacity: .05, fillColor: '#ffffff'}),
         onEachFeature: (f, lay) => { const s = f.properties.slug; if (!PA[s]) return;

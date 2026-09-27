@@ -6,7 +6,7 @@ verified one by one. Fields: (slug, name, group, order, seguridad, frontera,
 visado, cpd, perro, nota)
 groups: bajada | bucle | subida | alternativa | vuelo | fuera
 (el grupo describe la ruta planificada de referencia; la web agrupa por regiones
-y el viaje real lo decide el planificador de Presupuesto)
+y el viaje real lo decide el Planificador)
 
 Ruta global confirmada (ver documento "Ruta global 2027" del proyecto):
 ida y vuelta por la costa oeste (bajada), con un bucle de exploración fuerte
@@ -95,7 +95,7 @@ GROUP_LABELS = {
 
 
 # Regiones para agrupar las fichas en el portal y en el planificador. No dicen
-# nada de la ruta: el viaje real lo decide el planificador de Presupuesto.
+# nada de la ruta: el viaje real lo decide el Planificador.
 REGIONES = [
     ("norte", "Norte de África", ["marruecos", "sahara-occidental", "argelia", "tunez", "libia", "egipto"]),
     ("oeste", "África occidental", ["mauritania", "senegal", "gambia", "guinea-bisau", "guinea", "sierra-leona",

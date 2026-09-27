@@ -5,7 +5,7 @@ Las fichas se escribieron para una ruta fija (bajada por la costa oeste, bucle
 en el sur y subida). Con el planificador el viaje puede ir en cualquier orden,
 así que los títulos visibles no deben decir «bajada», «subida» ni
 «alternativa»: cada corredor es un recorrido (A, B, …) y el papel que tiene en
-el viaje lo pone la página según el plan activo en Presupuesto.
+el viaje lo pone la página según el plan activo en el Planificador.
 """
 import re
 

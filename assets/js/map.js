@@ -183,7 +183,7 @@ function a27Map(elId, cfg){
   const groups = {};
   // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.
   const on = cfg.defaultOn ? new Set(cfg.defaultOn) : null;
-  // Viaje calculado en Presupuesto (mismo navegador): se dibuja como «Tu viaje».
+  // Viaje calculado en el Planificador (mismo navegador): se dibuja como «Tu viaje».
   let viaje = null;
   if (cfg.viaje) {
     try { viaje = JSON.parse(localStorage.getItem('a27-ruta-resumen') || 'null'); } catch(e) { viaje = null; }

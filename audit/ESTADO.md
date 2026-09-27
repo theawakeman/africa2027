@@ -246,3 +246,12 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   Guinea Ecuatorial con fronteras terrestres cerradas (desde el 15-12-2025).
 - Pendiente: los textos largos de algunas fichas siguen hablando de «bajada» y
   «subida» (ruta original); la sección Ruta lo advierte con una nota.
+
+## Planificador (27-09-2026)
+
+- «Presupuesto» pasa a llamarse **Planificador** y vive en `/planificador/`; la dirección
+  antigua `/presupuesto/` redirige (con el ancla). Los datos guardados no se pierden.
+- Portal y menú superior en este orden: Planificador, Mapa general, Documentación general,
+  Visados, CPD y El perro (el validador de UI comprueba el orden).
+- El mapa del Planificador ocupa casi toda la pantalla, como el mapa general, con zoom
+  fraccionado para encuadrar África entera.

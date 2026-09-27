@@ -47,7 +47,7 @@ require(config.get("defaultOn") == [
     "Puntos de interés",
 ], "las capas visibles por defecto han cambiado")
 require(config.get("viaje") is True and "Tu viaje" in config.get("groupOrder", []),
-        "el mapa general debe dibujar el viaje calculado en Presupuesto")
+        "el mapa general debe dibujar el viaje calculado en el Planificador")
 
 # Evita mezclar HTML nuevo con CSS/JS antiguos en una pestaña controlada por PWA.
 require("assets/css/site.css?v=" in map_html, "falta versionar el CSS")
@@ -77,9 +77,12 @@ require("assets/css/site.css?v=" in visa_html, "falta versionar el CSS de Visado
 require("assets/js/visamap.js?v=" in visa_html, "falta versionar el mapa de Visados")
 require("function a27VisaMap" in visa_js, "falta el mapa interactivo de Visados")
 require('class="cards portal-access"' in portal_html and
-        all(f'href="{path}/"' in portal_html for path in ("mapa", "visados", "cpd", "presupuesto", "perro", "documentacion"))
+        all(f'href="{path}/"' in portal_html for path in ("planificador", "mapa", "documentacion", "visados", "cpd", "perro"))
         and portal_html.split('class="cards portal-access"')[1].split('</div>\n</section>')[0].count('class="card"') == 6,
-        "el portal debe tener exactamente seis accesos: Mapa, Visados, CPD, Presupuesto, El perro y Documentación")
+        "el portal debe tener exactamente seis accesos: Planificador, Mapa, Documentación, Visados, CPD y El perro")
+acc = portal_html.split('class="cards portal-access"')[1].split('</div>\n</section>')[0]
+require(re.findall(r'class="card" href="([a-z]+)/"', acc) == ["planificador", "mapa", "documentacion", "visados", "cpd", "perro"],
+        "orden de accesos del portal: Planificador, Mapa, Documentación, Visados, CPD y El perro")
 require('.cards.portal-access { grid-auto-rows:1fr;' in css and 'grid-template-columns:repeat(3,minmax(0,1fr))' in css,
         "los seis accesos principales deben tener la misma altura y formar dos filas de tres")
 visa_match = re.search(r'<script>var A27_VISAS = (\{.*?\});</script>', visa_html, re.S)

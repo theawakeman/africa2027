@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Planificador de ruta del presupuesto: qué países se recorren y en qué orden.
 
-La página /presupuesto/ deja marcar cualquier país continental y rehace sola el
+La página /planificador/ deja marcar cualquier país continental y rehace sola el
 orden, los países de tránsito obligatorio, los km, los días y el dinero. Este
 módulo solo tiene los datos fijos; el cálculo va en el navegador
 (presupuesto_page.py).
