@@ -254,6 +254,7 @@ function calcular(){
   const base = t + dFerry(FV.f), dias = Math.ceil(base * (1 + margen));
   const kmEU = FI.f.km_eu + FV.f.km_eu;
   R = {ida, vuelta, todos, FI, FV, seq, tramos, kmTot, kmEU, kmPais, runs, orden, entradas, avisos, dias, fechaPunto, diasPais, factor: 1 + margen};
+  R.colores = {}; [...new Set(runs.map(r => r.s))].forEach((s, i) => { R.colores[s] = PALETA[i % PALETA.length]; });
   R.bud = presupuesto(R);
   publicar(R);
   pintar();
@@ -323,6 +324,31 @@ function presupuesto(R){
         vehiculo: `× ${num(nVeh)} vehículos`, vehiculo_mes: `× ${num(nVeh)} vehículos × ${num(meses, 1)} meses`, pct: `de ${eur(base)}`}[p.ambito] || ''};
   });
   return {veh, Rr, total, aval, cat, filas, ferris, visPP, tasas, nPers, km: litros, desv, gastos, perros, A, ajustado: Object.keys(A).length > 0};
+}
+// Tiempo por país: línea del viaje (cada tramo en su país, en orden) y tabla con días,
+// entradas, fechas y km de cada país.
+function pintarTiempo(){
+  const el = $('pp-tiempo'); if (!el) return;
+  if (!R || !R.todos.length || !R.runs.length) { el.innerHTML = ''; return; }
+  const f = R.factor, ini = R.runs[0].t0, fin = R.runs[R.runs.length - 1].t1, total = Math.max(1e-6, R.dias);
+  const dF1 = ini * f, dF2 = Math.max(0, total - fin * f);
+  const ancho = el.clientWidth || 900;
+  const seg = (d, html, st, tt) => `<i style="width:${d / total * 100}%;${st}" title="${esc(tt)}">${d / total * ancho > html.replace(/<[^>]+>/g, '').length * 6.6 + 10 ? html : ''}</i>`;
+  const tl = seg(dF1, 'Ferry', '', `Salida y ferry ${R.FI.f.origen} → ${R.FI.f.puerto}: ~${num(dF1, 1)} días`).replace('<i ', '<i class="fer" ')
+    + R.runs.map(r => { const d = (r.t1 - r.t0) * f; return seg(d, esc(nom(r.s)) + ' · ' + num(d, d < 10 ? 1 : 0) + ' d', `background:${colPais(r.s)}`,
+      `${nom(r.s)}: ${fecha(addDays(S.salida, r.t0 * f))} – ${fecha(addDays(S.salida, r.t1 * f))} · ~${num(d, 1)} días · ${num(r.km)} km${r.puntos.length ? ' · ' + r.puntos.map(p => p.nombre.split(' · ')[0]).join(', ') : ' · de paso'}`); }).join('')
+    + seg(dF2, 'Ferry', '', `Ferry ${R.FV.f.puerto} → ${R.FV.f.origen} y regreso: ~${num(dF2, 1)} días`).replace('<i ', '<i class="fer" ');
+  const por = {}, orden = [];
+  R.runs.forEach(r => { const d = (r.t1 - r.t0) * f;
+    if (!por[r.s]) { por[r.s] = {d: 0, km: 0, n: 0, rangos: [], puntos: 0}; orden.push(r.s); }
+    const x = por[r.s]; x.d += d; x.km += r.km; x.n++; x.puntos += r.puntos.length; const a = fecha(addDays(S.salida, r.t0 * f)), b = fecha(addDays(S.salida, r.t1 * f)); x.rangos.push(a === b ? a : a + '–' + b); });
+  const filas = orden.map(s => { const x = por[s];
+    return `<tr><td><i style="background:${colPais(s)}"></i>${esc(nom(s))}${x.puntos ? '' : ' <small style="color:var(--ink-soft)">de paso</small>'}</td><td class="n"><strong>${num(x.d, x.d < 10 ? 1 : 0)}</strong></td><td class="n">${x.n}</td><td>${x.rangos.join(' · ')}</td><td class="n">${num(x.km)}</td><td class="n">${x.puntos || '—'}</td></tr>`; }).join('');
+  let abierto = true; const prev = el.querySelector('details'); if (prev) abierto = prev.open;
+  el.innerHTML = `<div class="pp-tl" role="img" aria-label="Línea del viaje por países">${tl}</div>
+    <div class="pp-tl-ej"><span>${fecha(addDays(S.salida, 0), true)}</span><span>${num(R.dias)} días</span><span>${fecha(addDays(S.salida, R.dias), true)}</span></div>
+    <details ${abierto ? 'open' : ''}><summary>Tiempo por país</summary>
+    <div style="overflow-x:auto"><table class="pp-tt"><thead><tr><th>País</th><th class="n">Días</th><th class="n">Entradas</th><th>Fechas aproximadas</th><th class="n">Km</th><th class="n">Puntos</th></tr></thead><tbody>${filas}</tbody></table></div></details>`;
 }
 // Cifras clave del viaje, arriba y a todo el ancho (como en el Planificador actual)
 function pintarKPIs(){
@@ -423,7 +449,9 @@ function pintarComparar(){
 // ------------------------------------------------------------------ mapa
 let MAP, CAPA_P, CAPA_SEL, CAPA_RUTA, CAPA_FR, PAISES, ENCUADRE = false;
 const COL = ['#1E7A8A', '#C47F17', '#2B6CB0', '#2E7D32', '#8B5A2B', '#673AB7', '#B43A3A', '#5F6B72'];
-const colPais = s => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return COL[h % COL.length]; };
+// Colores por orden de aparición en el viaje: dos países seguidos nunca comparten color
+const PALETA = ['#1E7A8A', '#C47F17', '#2E7D32', '#673AB7', '#B43A3A', '#2B6CB0', '#8B5A2B', '#D97B29', '#0F8B6E', '#8E4585', '#5F6B72', '#A0892C'];
+const colPais = s => { if (R && R.colores && R.colores[s]) return R.colores[s]; let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return COL[h % COL.length]; };
 function estiloPaises(){
   if (!PAISES) return;
   const act = new Set(S.paises), cruza = new Set(R ? R.orden : []);
@@ -605,7 +633,7 @@ function pintar(){
   }
   $('pp-salida').value = S.salida || CFG.salida; $('pp-kmdia').value = S.kmdia; $('pp-margen').value = S.margen;
   if (MAP) { estiloPaises(); pintarPuntos(); pintarSel(); pintarRuta(); }
-  pintarKPIs(); pintarPresupuesto(); pintarWeb();
+  pintarKPIs(); pintarTiempo(); pintarPresupuesto(); pintarWeb();
   paintViajes();
 }
 

@@ -384,3 +384,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Todo punto creado lleva `propio.revisar = true`: etiqueta «creado por ti · por revisar» en la
   ficha y lista en `audit/pdi-por-revisar.md`.
 - (27-09-2026) Cifras clave arriba a todo el ancho: km por vehículo, días y regreso (frente al previsto), países, puntos, presupuesto y avisos.
+- (27-09-2026) Tiempo por país: línea del viaje bajo las cifras clave (cada tramo en su país, en orden, con ferris) y tabla con días, entradas, fechas, km y puntos por país; colores distintos por país según el orden del viaje.

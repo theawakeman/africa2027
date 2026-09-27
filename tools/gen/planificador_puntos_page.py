@@ -141,6 +141,20 @@ CSS = """
 .pp-kpi .s{font-size:12px;color:var(--ink-soft);line-height:1.35}
 .pp-kpi a{color:var(--teal);font-weight:700}
 @media (max-width:640px){.pp-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.pp-kpi .v{font-size:20px}}
+.pp-tiempo{margin:10px 0 0;font-family:"Archivo",sans-serif}
+.pp-tiempo:empty{display:none}
+.pp-tl{display:flex;height:34px;border-radius:9px;overflow:hidden;border:1px solid var(--line);background:var(--surface2)}
+.pp-tl i{display:flex;align-items:center;justify-content:center;min-width:2px;height:100%;color:#fff;font-style:normal;font-size:11.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:clip;border-right:1px solid rgba(255,255,255,.55)}
+.pp-tl i.fer{background:repeating-linear-gradient(45deg,#8A949A,#8A949A 5px,#9AA3A8 5px,#9AA3A8 10px)}
+.pp-tl-ej{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink-soft);margin:3px 2px 0}
+.pp-tiempo details{margin-top:6px}
+.pp-tiempo summary{cursor:pointer;font-size:12.5px;font-weight:700;color:var(--teal)}
+table.pp-tt{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+table.pp-tt th{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:6px 9px;background:var(--surface2)}
+table.pp-tt td{padding:6px 9px;border-top:1px solid var(--line)}
+table.pp-tt td:first-child{white-space:nowrap}
+table.pp-tt .n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.pp-tt i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
 .pp-eur{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;background:var(--surface2);border-radius:8px;padding:8px 10px;margin:0 0 8px}
 .pp-eur b{font-size:22px;font-variant-numeric:tabular-nums;color:var(--head)}
 .pp-eur span{font-size:12px;color:var(--ink-soft);flex:1}
@@ -192,6 +206,7 @@ def render(FULL, navbar, VERSION):
 <h2 style="margin-top:16px">Planificador por puntos <small style="font-size:13px;color:var(--amber);letter-spacing:.1em">BETA</small></h2>
 <p class="pp-ayuda"><b>1.</b> Toca un país para ver sus puntos de interés. <b>2.</b> Toca un punto y añádelo a la <b style="color:#1E7A8A">ida</b> o a la <b style="color:#C47F17">vuelta</b>. <b>3.</b> Ordena arrastrando en la lista. La carretera, las fronteras, los km y los días salen solos. Clic derecho (o mantener pulsado) en cualquier sitio del mapa = «pasar por aquí». <button type="button" class="pp-b" id="pp-crear" aria-pressed="false">★ Crear un punto</button> para añadir un sitio tuyo (PDI, agua, camping, taller…): la app completa sola fotos, enlaces, servicios y clima. Tus viajes de esta página se guardan aparte del Planificador actual.</p>
 <div class="pp-kpis" id="pp-kpis" aria-live="polite"></div>
+<div class="pp-tiempo" id="pp-tiempo"></div>
 <div class="pp-wrap">
   <div id="pp-mapa" role="application" aria-label="Mapa: toca países y puntos para montar el viaje"></div>
   <aside class="pp-panel" aria-label="Viaje">
