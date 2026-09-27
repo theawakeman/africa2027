@@ -1923,6 +1923,13 @@ def main():
                                       extra_head=f"<style>{ADMIN_CSS}</style>")
 
     (SITE / "assets/js/points.json").write_text(json.dumps(all_points, ensure_ascii=False), encoding="utf-8")
+    # Planificador por puntos (fase 1): puntos con días y perro, fronteras con sus dos países.
+    from planificador_puntos import construir as construir_pp, informe as informe_pp
+    from data_ruta import FRONTERAS as _FR, ISLAS as _ISLAS
+    datos_pp, dudas_pp = construir_pp(FULL, C, _FR, _ISLAS)
+    (SITE / "assets/js/planificador-puntos.json").write_text(
+        json.dumps(datos_pp, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    (SITE / "audit/planificador-puntos-datos.md").write_text(informe_pp(datos_pp, dudas_pp), encoding="utf-8")
 
     # Cualquier referencia externa del texto (URL, dominio, correo o fuente
     # conocida) se convierte en enlace cliclable antes de escribir la página.
