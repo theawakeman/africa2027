@@ -1,0 +1,236 @@
+{
+ "pais": "lesoto",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Sani Top: puesto fronterizo de Lesoto en lo alto del Sani Pass",
+   "tipo": "paso",
+   "lat": -29.58814,
+   "lon": 29.29272,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "todo el año; en invierno (junio-agosto) cierra a menudo por nieve y hielo",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Es un paso fronterizo: el perro necesita cumplir los requisitos de entrada de Lesoto (ver dossier del perro). No se han encontrado restricciones en carretera.",
+   "autonomia": "Las fuentes consultadas no confirman gasolinera en Sani Top. El núcleo con servicios más cercano en Lesoto es Mokhotlong, a hora y media.",
+   "desc": "Es la entrada a Lesoto por la cima del Sani Pass, a 2.876 m, en el borde del escarpe del Drakensberg. La web oficial de turismo de Lesoto lo presenta como uno de los puntos más altos del país con acceso rodado. Desde aquí la carretera sigue hacia Mokhotlong y el techo de Lesoto.",
+   "acceso": "Por el Sani Pass desde Sudáfrica (Sudáfrica suele exigir 4x4 para subir) o desde Mokhotlong. Horario del puesto: 06:00-18:00.",
+   "riesgos": "Altitud, hielo y nieve en invierno, niebla. El FCDO y el MAEC advierten de carreteras en mal estado y de ganado en la calzada, sobre todo de noche.",
+   "cerca": "Sani Top · lodge y escarpe",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Sani Pass",
+     "url": "https://en.wikipedia.org/wiki/Sani_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Visit Lesotho (Lesotho Tourism Development Corporation)",
+     "url": "https://visitlesotho.travel/",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Lesotho, Safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/lesotho/safety-and-security",
+     "fecha": "2025-12"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Tlaeeng Pass (3.275 m)",
+   "tipo": "paso",
+   "lat": -28.9432,
+   "lon": 28.82854,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "octubre a abril; en invierno, nieve y hielo",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Carretera pública; limitar el esfuerzo del perro por la altitud y el frío.",
+   "autonomia": "Repostar en Mokhotlong o Butha-Buthe (no verificado en fuentes consultadas).",
+   "desc": "Según la web oficial de turismo de Lesoto, es el puerto de carretera más alto del sur de África, a 3.275 m, en la ruta entre Mokhotlong y Butha-Buthe. La misma web marca algunas rutas de la zona como solo para 4x4 extremos. Es el punto culminante del eje del techo de Lesoto.",
+   "acceso": "Por la carretera Mokhotlong–Butha-Buthe. Las fuentes consultadas no confirman el tipo de firme del puerto.",
+   "riesgos": "Altitud, nieve y hielo en invierno. Coordenada del PDI general, no verificada.",
+   "cerca": "Tlaeeng Pass",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Visit Lesotho (Lesotho Tourism Development Corporation)",
+     "url": "https://visitlesotho.travel/",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Mafika-Lisiu Pass (3.090 m)",
+   "tipo": "paso",
+   "lat": -29.0646,
+   "lon": 28.4062,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril; en invierno, nieve y hielo",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Carretera pública; sin normas conocidas.",
+   "autonomia": "No verificado en fuentes consultadas.",
+   "desc": "Puerto de alta montaña a 3.090 m junto a la reserva natural de Bokong, en el camino hacia la presa de Katse desde las tierras bajas del norte. Es la puerta de entrada al altiplano central de Lesoto. Las fuentes accesibles no describen el estado del firme.",
+   "acceso": "Carretera de montaña hacia Katse. Tipo de firme no confirmado.",
+   "riesgos": "Altitud, nieve y niebla. Carreteras de montaña en mal estado según el MAEC.",
+   "cerca": "Bokong Nature Reserve · visitantes",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Mafika-Lisiu Pass",
+     "url": "https://mapcarta.com/Mafika_Lisiu_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Lesoto",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Lesoto",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Semonkong y las cataratas de Maletsunyane",
+   "tipo": "pista",
+   "lat": -29.84861,
+   "lon": 27.99389,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "No se han encontrado normas.",
+   "autonomia": "No verificado en fuentes consultadas.",
+   "desc": "Semonkong ('lugar del humo'), a 2.275 m, es la base para visitar las cataratas de Maletsunyane, de 192 m de caída libre, donde el Semonkong Lodge opera el rápel comercial más largo del mundo (204 m). La web de turismo de Lesoto indica que la ruta a las cataratas incluye un tramo solo practicable a caballo o a pie.",
+   "acceso": "Carretera desde Maseru; tipo de firme no confirmado en las fuentes accesibles. Último tramo a las cataratas, a pie o en poni.",
+   "riesgos": "Carretera de montaña; niebla y lluvia de octubre a marzo.",
+   "cerca": "Maletsunyane Falls",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Semonkong",
+     "url": "https://en.wikipedia.org/wiki/Semonkong",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Maletsunyane Falls",
+     "url": "https://en.wikipedia.org/wiki/Maletsunyane_Falls",
+     "fecha": ""
+    },
+    {
+     "titulo": "Visit Lesotho (Lesotho Tourism Development Corporation)",
+     "url": "https://visitlesotho.travel/",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Parque Nacional de Sehlabathebe",
+   "tipo": "pista",
+   "lat": -29.867,
+   "lon": 29.117,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Parque nacional gestionado por el Ministerio de Turismo de Lesoto. No se ha encontrado la norma sobre perros: consultar antes.",
+   "autonomia": "Zona muy aislada del sureste; no se han encontrado datos de repostaje.",
+   "desc": "Primer parque nacional de Lesoto (1970), en el escarpe del Drakensberg, casi todo zona de naturaleza salvaje deshabitada. Forma parte del Patrimonio de la Humanidad Maloti-Drakensberg. Es el destino más remoto del país.",
+   "acceso": "No se han encontrado fuentes accesibles con el estado actual de la pista de acceso.",
+   "riesgos": "Aislamiento, clima de montaña. Coordenada del centro del parque (Wikipedia), no de la entrada.",
+   "cerca": "Sehlabathebe National Park",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Sehlabathebe National Park",
+     "url": "https://en.wikipedia.org/wiki/Sehlabathebe_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Visit Lesotho (Lesotho Tourism Development Corporation)",
+     "url": "https://visitlesotho.travel/",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Techo de Lesoto: Sani Top – Mokhotlong – Tlaeeng – Moteng – Butha-Buthe",
+   "desde": "Sani Top",
+   "hasta": "Butha-Buthe",
+   "km": 250,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "octubre a abril; en invierno, riesgo de nieve y cierres",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Cruza el altiplano nororiental de Lesoto desde el Sani Pass hasta las tierras bajas del norte, pasando por Mokhotlong, el Tlaeeng Pass (3.275 m, el puerto de carretera más alto del sur de África) y el Moteng Pass. Es más una ruta de alta montaña que un tramo offroad. Enlaza con la subida del Sani Pass desde Sudáfrica.",
+   "firme": "El Moteng Pass está asfaltado (OSM). Para el resto, las fuentes accesibles no confirman el firme.",
+   "autonomia": "Servicios en Mokhotlong y Butha-Buthe (no verificado que haya gasóleo en ambos).",
+   "riesgos": "Nieve y hielo en invierno, pendientes fuertes, ganado en la calzada. No circular de noche (FCDO, MAEC).",
+   "puntos": [
+    [
+     -29.58814,
+     29.29272
+    ],
+    [
+     -29.2894,
+     29.0632
+    ],
+    [
+     -28.9432,
+     28.82854
+    ],
+    [
+     -28.82036,
+     28.72725
+    ],
+    [
+     -28.75585,
+     28.60046
+    ],
+    [
+     -28.803,
+     28.564
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Mokhotlong",
+     "url": "https://en.wikipedia.org/wiki/Mokhotlong",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mokhotlong",
+     "url": "https://mapcarta.com/Mokhotlong",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Moteng Pass",
+     "url": "https://mapcarta.com/Moteng_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Visit Lesotho (Lesotho Tourism Development Corporation)",
+     "url": "https://visitlesotho.travel/",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (actualizado el 10-12-2025, vigente a 23-09-2026) no desaconseja ninguna zona; avisa de carreteras y conducción de mala calidad, ganado en la calzada de noche, controles y asaltos a coches, sobre todo en ciudades. MAEC (18-05-2026) pide extremar precauciones, evitar conducir de noche y advierte de carreteras de montaña y sin asfaltar; no nombra zonas concretas. PERROS: no se ha encontrado la norma de Sehlabathebe ni de otros parques de Lesoto; para entrar al país con el perro, ver el dossier del perro. DUDAS. (1) Qué tramos de la red de montaña siguen sin asfaltar: solo se ha confirmado que el Moteng Pass está asfaltado; la web oficial marca algunas rutas como solo para 4x4 extremos sin detallar cuáles. (2) El estado de la pista a Sehlabathebe. (3) Repostajes en el altiplano. Coordenadas no verificadas en la ruta: Tlaeeng y Afriski (PDI general) y Butha-Buthe (centro del distrito). Kilómetros de la ruta estimados: 200 km Mokhotlong–Butha-Buthe según Wikipedia más el tramo Sani Top–Mokhotlong (hora y media, sin kilometraje en la fuente). Wikiloc: no se ha podido ver ningún listado de Lesoto; se deja vacío. SIN FICHA NI RUTA: Katse–Thaba-Tseka–Mokhotlong y Mafika-Lisiu–Katse como rutas, por falta de fuentes sobre el firme; el presupuesto de búsquedas web de la sesión se agotó antes de documentarlas. DESCARTADAS: ninguna zona por seguridad."
+}

@@ -1,0 +1,406 @@
+{
+ "pais": "zimbabue",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Mana Pools: oficina de permisos de Marongora",
+   "tipo": "pista",
+   "lat": -16.22021,
+   "lon": 29.16373,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "época seca (aprox. abril a noviembre); el parque funciona por temporadas",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "La ley de parques y fauna (cap. 20:14, art. 24.1.d.ii) prohíbe introducir en un parque nacional cualquier animal, incluidos los domésticos. Solo se autorizan a residentes en zonas de desarrollo del parque.",
+   "autonomia": "Repostar antes (Makuti está a 14 km; el FCDO avisa de que a veces falta combustible y hay colas: llevar reserva y efectivo).",
+   "desc": "Marongora, en lo alto del escarpe del Zambeze junto a la carretera A1 Harare–Chirundu, es donde se tramitan los permisos de entrada a Mana Pools. El parque, Patrimonio de la Humanidad desde 1984, se recorre en 4x4, a pie o acampando. Desde el pie del escarpe se llega por pista de tierra.",
+   "acceso": "Asfalto (A1) hasta Marongora; luego bajada del escarpe y pista de tierra hasta el río. Las fuentes consultadas no dan el kilometraje de la pista.",
+   "riesgos": "Carreteras con baches, vehículos sin luces y controles policiales: no conducir de noche (FCDO, MAEC). Pista impracticable en lluvias.",
+   "cerca": "Mana Pools · base de Nyamepi",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Mana Pools National Park",
+     "url": "https://en.wikipedia.org/wiki/Mana_Pools_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Marongora",
+     "url": "https://mapcarta.com/Marongora",
+     "fecha": ""
+    },
+    {
+     "titulo": "ZimLII: Parks and Wild Life Act (cap. 20:14)",
+     "url": "https://zimlii.org/akn/zw/act/1975/14/eng@2016-12-31",
+     "fecha": "2016-12"
+    },
+    {
+     "titulo": "FCDO: Zimbabwe, Safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/safety-and-security",
+     "fecha": "2026-07"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Mana Pools: llanura del Zambeze (Nyamepi)",
+   "tipo": "oasis",
+   "lat": -15.75,
+   "lon": 29.3667,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "época seca; el parque funciona por temporadas",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: prohibido por ley.",
+   "autonomia": "Sin combustible en el parque según las fuentes consultadas: calcular ida y vuelta desde Makuti.",
+   "desc": "Llanura de inundación del Zambeze que, tras las lluvias, se convierte en un rosario de lagunas; alberga las mayores poblaciones de hipopótamos y cocodrilos del país y grandes manadas de elefantes y búfalos. Nyamepi es el camping y centro de operaciones junto al río. Es uno de los pocos parques de África donde se permite caminar sin guía.",
+   "acceso": "Pista de tierra desde el pie del escarpe. Entrada por Marongora o Nyamepi.",
+   "riesgos": "Fauna peligrosa sin vallas en los campings; pistas de algodón negro impracticables con lluvia. Coordenada aproximada (centro de la zona del parque según OSM).",
+   "cerca": "Mana Pools · base de Nyamepi",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Mana Pools National Park",
+     "url": "https://en.wikipedia.org/wiki/Mana_Pools_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mana Pools National Park",
+     "url": "https://mapcarta.com/Mana_Pools_National_Park",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Mana Pools: manantiales de Chitake",
+   "tipo": "oasis",
+   "lat": -16.07184,
+   "lon": 29.41299,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "final de la época seca",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: prohibido por ley.",
+   "autonomia": "Sin servicios. Llevar agua y gasóleo para todo el desvío.",
+   "desc": "El río Chitake nace en un manantial perenne al pie del escarpe del Zambeze y corre un kilómetro entre paredes de cañón. En la época seca es de las pocas fuentes de agua de la zona, por lo que concentra fauna y depredadores. Es un desvío remoto dentro de Mana Pools.",
+   "acceso": "Pista desde la carretera de acceso a Mana Pools; las fuentes consultadas no detallan distancia ni estado.",
+   "riesgos": "Aislamiento, fauna peligrosa. Coordenada del río según OSM, no del camping.",
+   "cerca": "Mana Pools · base de Nyamepi",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Chitake (Chitaki) River",
+     "url": "https://mapcarta.com/Chitake",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Gonarezhou: Chipinda Pools (entrada norte)",
+   "tipo": "pista",
+   "lat": -21.28876,
+   "lon": 31.91412,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "marzo a diciembre; el parque cierra del 10 de enero al 1 de marzo",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: la ley de parques prohíbe introducir animales domésticos.",
+   "autonomia": "Las fuentes oficiales no mencionan gasolineras en el parque: repostar en Chiredzi (34 km). Agua de pozo sin filtrar en los campings desarrollados; sin agua en los de monte.",
+   "desc": "Es la entrada norte del Parque Nacional de Gonarezhou, a 34 km de Chiredzi, junto al río Runde. Tiene nueve parcelas de camping desarrollado a la orilla del río (2 vehículos y de 4 a 6 adultos por parcela). Desde aquí se sigue el Runde hacia Bhenji Weir y los acantilados de Chilojo.",
+   "acceso": "Desde Chiredzi por pista. La web del parque recomienda como mínimo vehículo alto y, en zonas remotas, 4x4 y dos vehículos con equipo de rescate.",
+   "riesgos": "Los vehículos de más de 3 toneladas solo pueden usar las pistas principales, y los de más de 5 t necesitan permiso previo: comprobar el peso real del Grenadier cargado. Calor de más de 35 °C de noviembre a marzo.",
+   "cerca": "Chilojo Cliffs · Gonarezhou",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Gonarezhou National Park: Frequently asked questions",
+     "url": "https://gonarezhou.org/visit-gonarezhou-national-park/frequently-asked-questions/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Gonarezhou National Park: Camping",
+     "url": "https://gonarezhou.org/visit-gonarezhou-national-park/camping-gonarezhou-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Chipinda Pools (mirador)",
+     "url": "https://mapcarta.com/N5659188842",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Gonarezhou: acantilados de Chilojo",
+   "tipo": "oasis",
+   "lat": -21.44938,
+   "lon": 32.08209,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "marzo a noviembre; campings remotos cerrados de finales de noviembre a marzo-abril",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: prohibido por ley.",
+   "autonomia": "Sin agua en los campings de monte (Hlaro, Bopomela, Lisoda…). Llevar todo desde Chiredzi.",
+   "desc": "Acantilados de arenisca de 180 m de altura que se extienden unos 20 km por la orilla sur del Runde; son la imagen del parque. Hay miradores al oeste y al este y campings de monte exclusivos cerca (4 vehículos por parcela, mínimo de 4 a 6 adultos según el tipo).",
+   "acceso": "Pista por la orilla del Runde desde Chipinda Pools pasando por Bhenji Weir (16 km al oeste).",
+   "riesgos": "Límite de 3 t fuera de las pistas principales. Los campings de monte exigen un mínimo de adultos: comprobar si tres personas bastan.",
+   "cerca": "Chilojo Cliffs · Gonarezhou",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Gonarezhou National Park",
+     "url": "https://en.wikipedia.org/wiki/Gonarezhou_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Chilojo Cliffs",
+     "url": "https://mapcarta.com/Chilojo_Cliffs",
+     "fecha": ""
+    },
+    {
+     "titulo": "Gonarezhou National Park: Camping",
+     "url": "https://gonarezhou.org/visit-gonarezhou-national-park/camping-gonarezhou-national-park/",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Gonarezhou: Mabalauta (sector sur)",
+   "tipo": "pista",
+   "lat": -21.9179,
+   "lon": 31.45704,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "marzo a noviembre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: prohibido por ley.",
+   "autonomia": "Agua de pozo sin filtrar en el camping. Sin gasolinera mencionada en el parque.",
+   "desc": "Sector sur de Gonarezhou junto al río Mwenezi, con cinco parcelas de camping desarrollado. Está cerca de la puerta de Malipati, que da acceso desde el corredor del Limpopo y Beitbridge, y de la de Sango, en la frontera de Mozambique. Es la puerta de entrada lógica viniendo del sur.",
+   "acceso": "Por Malipati (18 km al sur) o Boli (desde Mwenezi). La coordenada es la del aeródromo de Mabalauta según OSM, no la del camping.",
+   "riesgos": "Límite de 3 t fuera de las pistas principales. Calor y aislamiento.",
+   "cerca": "Chilojo Cliffs · Gonarezhou",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Gonarezhou National Park: Frequently asked questions",
+     "url": "https://gonarezhou.org/visit-gonarezhou-national-park/frequently-asked-questions/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mabalauta",
+     "url": "https://mapcarta.com/Mabalauta",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Hwange: Sinamatella",
+   "tipo": "pista",
+   "lat": -18.58546,
+   "lon": 26.31532,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "época seca (fauna concentrada en los puntos de agua bombeada)",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: prohibido por ley.",
+   "autonomia": "No se ha confirmado gasóleo en el campamento; el pueblo de Hwange está a 32 km.",
+   "desc": "Uno de los tres campamentos principales del Parque Nacional de Hwange, el mayor de Zimbabue, sobre una colina con vistas a la llanura. Es la base del sector noroeste, con las presas de Mandavu y Masuma cerca. La mayoría de las pistas del parque son de arena y algunas zonas exigen 4x4.",
+   "acceso": "Pista desde la carretera Bulawayo–Victoria Falls por el pueblo de Hwange; pistas de arena dentro del parque.",
+   "riesgos": "Arena, fauna. No circular de noche.",
+   "cerca": "Hwange National Park · Main Camp",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Hwange National Park",
+     "url": "https://en.wikipedia.org/wiki/Hwange_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Sinamatella Reception Office",
+     "url": "https://mapcarta.com/N3938109365",
+     "fecha": ""
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Parque Nacional de Chizarira",
+   "tipo": "pista",
+   "lat": -17.75,
+   "lon": 28.167,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "época seca",
+   "guia": "recomendado",
+   "perro": "no",
+   "perro_nota": "Parque nacional: prohibido por ley.",
+   "autonomia": "Sin datos de repostaje en fuentes consultadas: llegar con depósitos llenos.",
+   "desc": "Tercer parque más grande de Zimbabue (2.000 km²), en el escarpe del Zambeze, y de los menos conocidos por su aislamiento. Solo es accesible en 4x4 y tiene campings en lugares como Busi y Mucheni. Es un destino para viajeros muy autónomos.",
+   "acceso": "Solo en 4x4; las fuentes consultadas no detallan la pista de acceso.",
+   "riesgos": "Aislamiento; la propia Wikipedia menciona presión de caza furtiva y dudas de accesibilidad y seguridad. Coordenada del centro del parque.",
+   "cerca": "Chizarira · Mucheni Gorge Viewpoint",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Chizarira National Park",
+     "url": "https://en.wikipedia.org/wiki/Chizarira_National_Park",
+     "fecha": ""
+    }
+   ],
+   "n": 8
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Gonarezhou por el Runde: Chiredzi – Chipinda Pools – Bhenji Weir – Chilojo",
+   "desde": "Chiredzi",
+   "hasta": "Mirador este de Chilojo",
+   "km": 100,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "marzo a noviembre (parque cerrado del 10 de enero al 1 de marzo)",
+   "guia": "autorización",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Entra por Chipinda Pools y sigue la orilla del Runde hasta Bhenji Weir y los acantilados de Chilojo, con noche en uno de los campings de monte. Es el recorrido más emblemático del parque. Se vuelve por el mismo camino o se sigue hacia otros sectores.",
+   "firme": "Pista de tierra y arena; cruces de arena de río en otros accesos (Save-Runde).",
+   "autonomia": "Gasóleo en Chiredzi (el FCDO avisa de cortes de suministro: llevar reserva y efectivo). Agua solo en los campings desarrollados, sin filtrar.",
+   "riesgos": "Límite de 3 t fuera de las pistas principales; se recomiendan dos vehículos en zonas remotas. Mínimo de adultos por camping. Perros prohibidos.",
+   "puntos": [
+    [
+     -21.0453,
+     31.66888
+    ],
+    [
+     -21.24746,
+     31.90845
+    ],
+    [
+     -21.28876,
+     31.91412
+    ],
+    [
+     -21.44124,
+     31.92326
+    ],
+    [
+     -21.44938,
+     32.08209
+    ],
+    [
+     -21.4172,
+     32.17365
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Gonarezhou National Park: Frequently asked questions",
+     "url": "https://gonarezhou.org/visit-gonarezhou-national-park/frequently-asked-questions/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Chiredzi",
+     "url": "https://mapcarta.com/14132648",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Bhenji Weir Viewpoint",
+     "url": "https://mapcarta.com/N11059646018",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Chilojo Cliffs Viewpoint East",
+     "url": "https://mapcarta.com/N10020095217",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Hwange de este a oeste: Main Camp – Shumba – Masuma – Mandavu – Sinamatella – Robins",
+   "desde": "Main Camp",
+   "hasta": "Robins Camp",
+   "km": 150,
+   "dias": 3,
+   "dificultad": "media",
+   "epoca": "época seca",
+   "guia": "autorización",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Atraviesa el Parque Nacional de Hwange por la cadena de charcas y presas del oeste: Shumba, Masuma y Mandavu, hasta los campamentos de Sinamatella y Robins. En la época seca la fauna se concentra en los puntos de agua bombeada. Hay campings exclusivos en Masuma y Mandavu.",
+   "firme": "Pistas de arena; algunas zonas exigen 4x4.",
+   "autonomia": "No se ha confirmado gasóleo dentro del parque; llevar reserva para toda la travesía.",
+   "riesgos": "Arena, fauna. Sin cobertura en buena parte. No circular de noche.",
+   "puntos": [
+    [
+     -18.735,
+     26.955
+    ],
+    [
+     -18.80732,
+     26.34497
+    ],
+    [
+     -18.73071,
+     26.28072
+    ],
+    [
+     -18.64651,
+     26.27832
+    ],
+    [
+     -18.58546,
+     26.31532
+    ],
+    [
+     -18.62869,
+     25.98591
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Hwange National Park",
+     "url": "https://en.wikipedia.org/wiki/Hwange_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Shumba Pan",
+     "url": "https://mapcarta.com/Shumba_Pan",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Masuma Dam Hide",
+     "url": "https://mapcarta.com/N910393722",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mandavu Dam",
+     "url": "https://mapcarta.com/Mandavu_Dam",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Robins Camp",
+     "url": "https://mapcarta.com/Robins_Camp",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (actualizado el 15-07-2026) no desaconseja ninguna zona; avisa de baches, vehículos sin luces, controles policiales (pedir recibo de las multas), robos por el método del cristal roto en la carretera Masvingo–Beitbridge, y de cortes de combustible (llevar reserva y efectivo). No menciona minas. MAEC (09-06-2026): sin restricciones específicas ni zonas de riesgo alto; no conducir de noche, carreteras en mal estado en lluvias (recomienda 4x4) y planificar los repostajes fuera de las ciudades. PERROS: la ley de parques y fauna (cap. 20:14, art. 24.1.d.ii) prohíbe introducir cualquier animal, incluidos los domésticos, en un parque nacional; solo se autoriza a residentes en zonas de desarrollo (art. 23.1.l). Afecta a Mana Pools, Gonarezhou, Hwange, Matobo y Chizarira. RESERVAS Y VEHÍCULOS: Gonarezhou se reserva por correo (reservations@gonarezhou.org); límite de 3 t fuera de las pistas principales y más de 5 t con permiso; dos vehículos recomendados en zonas remotas; mínimo de adultos por camping (de 3 a 6 según el tipo). Mana Pools: permisos en Marongora. DUDAS. (1) El peso real de los vehículos cargados frente al límite de 3 t de Gonarezhou. (2) Si tres adultos cumplen el mínimo de los campings de Gonarezhou (en Chipinda Pools son de 4 a 6). (3) Las fechas exactas de temporada de Mana Pools y el kilometraje de su pista de acceso. Coordenadas aproximadas: Nyamepi (centro del parque), Chitake (río), Mabalauta (aeródromo), Chizarira (centro del parque) y Main Camp de Hwange (coordenada de Wikipedia del parque, que coincide con el PDI general). Kilómetros de las rutas estimados por distancias entre puntos. Wikiloc: no se ha podido ver ningún listado de Zimbabue; se deja vacío. SIN FICHA: Matobo (no se han encontrado fuentes accesibles sobre pistas 4x4) y Robins como punto propio (va como final de ruta); el presupuesto de búsquedas web de la sesión se agotó antes de documentarlos. DESCARTADAS: ninguna zona por seguridad."
+}

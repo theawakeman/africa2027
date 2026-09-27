@@ -193,6 +193,12 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .off-src a { word-break:break-word; }
 .off-h { margin-top:18px; }
 .off-notas { margin:10px 0; font-size:13.5px; color:var(--ink-soft); }
+.off-foto { margin:-14px -16px 10px -16px; }
+.off-foto img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; border-radius:9px 9px 0 0; }
+.off-foto figcaption { font-size:11.5px; color:var(--ink-soft); padding:4px 16px 0; }
+.off-add { margin-top:8px; font-size:13px; }
+/* Globos de las líneas del mapa: estrechos y en varias filas */
+.leaflet-tooltip.a27-tip { white-space:normal; max-width:240px; font-size:12.5px; line-height:1.35; }
 .poi-grid > .poi-card .poi-desc:not(.dognote) { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:5; overflow:hidden; }
 .poi-grid > .poi-card .poi-details { display:none; }
 .poi-details { display:grid; gap:7px; }

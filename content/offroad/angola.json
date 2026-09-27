@@ -1,0 +1,765 @@
+{
+ "pais": "angola",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Luvo: arranque de la pista hacia Mbanza Kongo",
+   "tipo": "pista",
+   "lat": -5.84917,
+   "lon": 14.08417,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre (estación seca)",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas en la ruta; calor y controles. Tener a mano la documentación del perro tras la frontera.",
+   "autonomia": "Cambistas en Luvo (llevar dólares). Mbanza Kongo (capital provincial, unos 148.000 habitantes) es la primera ciudad; según Angola Expert el gasóleo es fácil de encontrar en Angola, pero conviene llenar siempre que se pueda.",
+   "desc": "Luvo es el puesto fronterizo con la RD Congo (Lufu) y el inicio de la «carretera» hacia Mbanza Kongo, uno de los tramos más malos del norte del país. Según Bradt, los primeros 75 km desde Luvo son una vía de un solo carril con algunos tramos sellados, y de la frontera a N'zeto hay unos 300 km, de los que unos 200 están asfaltados. Angola Expert sitúa las rutas del norte entre los terrenos más duros del país.",
+   "acceso": "Desde Songololo (RD Congo) por la pista hasta Lufu y el puente fronterizo. Hacia el sur, vía estrecha con tramos de tierra y asfalto roto hasta Mbanza Kongo.",
+   "riesgos": "El MAEC (septiembre de 2026) señala las zonas fronterizas del norte como las más peligrosas del país; pide no salir de las rutas establecidas por las minas, no conducir de noche, usar 4x4 con ruedas de repuesto e ir en convoy. El 27 de abril de 2026 el ministro de Obras Públicas visitó Mbanza Kongo, Cuimba y Luvo, donde se inauguraron proyectos y se adjudicaron contratos: puede haber tramos en obras.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Bradt Guides: Central Africa, an overland adventure",
+     "url": "https://www.bradtguides.com/central-africa-an-overland-adventure/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Angola Expert: Angola overland, road conditions and best season",
+     "url": "https://www.angolaexpert.com/en/angola-overland-road-conditions-and-seasonality/",
+     "fecha": "2026"
+    },
+    {
+     "titulo": "WhirledAway: Crossing the border between DR Congo (Lufu) and Angola (Luvo)",
+     "url": "https://whirled-away.com/border-crossing-drc-angola/",
+     "fecha": "2023-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Angola",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Angola",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "allAfrica/ANGOP: Angolan Minister of Public Works assesses progress of works in Soyo",
+     "url": "https://allafrica.com/stories/202605070425.html",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Soyo: llegada del barco desde Cabinda (alternativa a la RD Congo)",
+   "tipo": "paso",
+   "lat": -6.13472,
+   "lon": 12.36889,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos sobre perros a bordo; preguntar al operador.",
+   "autonomia": "Soyo es una ciudad grande (unos 220.000 habitantes según GeoNames). Hacia Luanda, French Overlander habla de carreteras largas y no muy buenas y de pocas infraestructuras; de N'zeto a Luanda la EN-100 es de asfalto moderno según Wikipedia.",
+   "desc": "Soyo, en la desembocadura del río Congo, es el puerto donde llega el barco desde Cabinda. French Overlander (marzo de 2025) lo usó para no entrar en la RD Congo: pagaron unos 800 euros por el vehículo y los pasajeros para unas 3 horas de travesía, frente a unos 300 euros por persona y una semana de espera del visado congoleño. El título de su relato habla de serios contratiempos en la travesía.",
+   "acceso": "Por mar desde Cabinda. Para llegar a Cabinda desde el Congo hay que cruzar la frontera de Massabi (inicio norte de la EN-100) y atravesar la provincia.",
+   "riesgos": "El FCDO desaconseja todo viaje salvo lo esencial a la provincia de Cabinda, excepto la ciudad de Cabinda, por grupos separatistas que atacan a extranjeros y riesgo de secuestro; el MAEC pide precauciones extra en Cabinda. La carretera Massabi–Cabinda cruza esa zona. En Soyo había obras de asfaltado urbano en 2026.",
+   "cerca": "Cabinda ciudad · Nossa Senhora Rainha do Mundo",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "French Overlander: La galère la plus chère de tous nos voyages réunis",
+     "url": "https://frenchoverlander.com/la-galere-la-plus-chere-de-tous-nos-voyages-reunis/",
+     "fecha": "2025-03"
+    },
+    {
+     "titulo": "FCDO: Angola travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/angola/warnings-and-insurance",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Wikipedia: EN-100",
+     "url": "https://en.wikipedia.org/wiki/EN-100",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Soyo",
+     "url": "https://www.geonames.org/search.html?q=Soyo&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Cascadas de Kalandula: tramo final de pista",
+   "tipo": "pista",
+   "lat": -9.07444,
+   "lon": 16.00333,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a julio (buena carretera y caudal); en lluvias (noviembre-abril) más agua pero peor acceso",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; el descenso a la base es empinado y resbaladizo: mejor que el perro se quede en el mirador.",
+   "autonomia": "Repostar en Malanje (a unos 80 km). Efectivo en kwanzas: los cajeros no son fiables.",
+   "desc": "Kalandula es una de las mayores cascadas de África por caudal (unos 100 m de alto y 400 m de ancho),. La carretera principal desde Luanda ha mejorado, pero los últimos kilómetros siguen con baches y barro y conviene un 4x4 robusto. Hay un mirador principal, la vista lateral desde la Pousada da Calandula y un descenso empinado a la base con guía local.",
+   "acceso": "Desde Luanda (360-420 km, 6-8 horas) o desde Malanje (unos 80 km). Tramo final degradado. Guía local para bajar a la base (unos 5.000 kwanzas) y pequeña entrada.",
+   "riesgos": "Barro en lluvias; bordes y sendero a la base resbaladizos. MAEC: no salir de las rutas establecidas por las minas y no conducir de noche.",
+   "cerca": "Cascadas de Kalandula (Calandula)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Kalandula Falls",
+     "url": "https://www.angolaexpert.com/en/angola-kalandula-falls/",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Angola, une traversée haute en couleurs",
+     "url": "https://frenchoverlander.com/angola-une-traversee-haute-en-couleurs/",
+     "fecha": "2025-03"
+    },
+    {
+     "titulo": "GeoNames: Calandula Falls",
+     "url": "https://www.geonames.org/search.html?q=Calandula&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Pedras Negras de Pungo Andongo: bivac entre monolitos",
+   "tipo": "oasis",
+   "lat": -9.66944,
+   "lon": 15.58917,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "mayo a octubre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; rocas muy calientes al mediodía.",
+   "autonomia": "Repostar en Malanje. Agua para el bivac.",
+   "desc": "Son unos monolitos negros redondeados, con tonos de colores por los líquenes, que se alzan sobre la sabana de Malanje. French Overlander (marzo de 2025) los visitó tras Kalandula y destaca las excelentes posibilidades de acampada libre entre las rocas. Es un buen bivac de etapa en el bucle Luanda–Kalandula.",
+   "acceso": "Por carretera desde Malanje; las fuentes no detallan el firme de los accesos a los puntos de acampada. Coordenada: sede administrativa de Pungo a Ndongo (aprox.).",
+   "riesgos": "MAEC: no salir de las rutas y caminos establecidos por el riesgo de minas; pedir permiso en el pueblo antes de acampar.",
+   "cerca": "Pedras Negras de Pungo Andongo",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "French Overlander: Angola, une traversée haute en couleurs",
+     "url": "https://frenchoverlander.com/angola-une-traversee-haute-en-couleurs/",
+     "fecha": "2025-03"
+    },
+    {
+     "titulo": "GeoNames: Pungo a Ndongo",
+     "url": "https://www.geonames.org/search.html?q=Pungo+Andongo&country=AO",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Angola",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Angola",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Cachoeiras do Binga (río Keve o Cuvo)",
+   "tipo": "pista",
+   "lat": -10.98833,
+   "lon": 14.09194,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "mayo a septiembre; febrero a abril, lluvias fuertes",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; orillas resbaladizas y corriente fuerte: atado cerca del agua.",
+   "autonomia": "Repostar en Sumbe (unos 30 km).",
+   "desc": "Son una serie de cascadas y canales del río Keve, también llamado Cuvo, en el municipio de Conda (Cuanza Sul), entre rocas antiguas y vegetación de ribera, con una pasarela peatonal sobre el río. Están unos 30 km tierra adentro desde Sumbe y a unos 350 km al sur de Luanda por la EN-100. El acceso es fácil o moderado; un 4x4 da comodidad en el tramo final.",
+   "acceso": "EN-100 asfaltada hasta la zona de Sumbe (4-5 horas desde Luanda) y carretera hacia el interior; la fuente no detalla el firme del tramo final. Coordenada: «Cachoeiras do Rio Keve» en GeoNames.",
+   "riesgos": "Orillas resbaladizas en época de lluvias; crecidas. No bañarse en la corriente. No salir de caminos marcados (minas, según el MAEC).",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Cachoeiras do Binga, guia completo",
+     "url": "https://www.angolaexpert.com/cachoeiras-do-binga-o-guia-completo-para-visitar-no-cuanza-sul/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Cachoeiras do Rio Keve",
+     "url": "https://www.geonames.org/search.html?q=Binga&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Fenda da Tundavala y pistas del borde de la Chela",
+   "tipo": "pista",
+   "lat": -14.81746,
+   "lon": 13.38153,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "mayo a octubre (cacimbo, cielos despejados)",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; acantilados sin barreras: siempre atado.",
+   "autonomia": "A unos 18 km de Lubango; repostar en la ciudad.",
+   "desc": "La Tundavala es una grieta en el borde de la sierra de la Chela, a más de 2.200 m, con caídas verticales sobre la llanura de Namibe. Se llega por asfalto desde Lubango y, según French Overlander (enero de 2026), hay pistas sin asfaltar alrededor de la fenda para buscar otros miradores. Es el gran balcón del sur de Angola y complemento de la Serra da Leba.",
+   "acceso": "Carretera asfaltada de unos 18 km desde Lubango hasta el mirador principal; pistas de tierra cortas por el borde.",
+   "riesgos": "Bordes sin protección. French Overlander cuenta que en la zona ha habido «bandidos» que asaltan coches y a sus ocupantes: no dejar el vehículo solo ni quedarse al anochecer. Niebla en época de lluvias.",
+   "cerca": "Tundavala (Fenda da Tundavala)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Fenda da Tundavala",
+     "url": "https://www.angolaexpert.com/fenda-da-tundavala-o-abismo-sagrado-e-majestoso-da-huila/",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Sensations fortes et vertiges garantis",
+     "url": "https://frenchoverlander.com/sensations-fortes-et-vertiges-garantis/",
+     "fecha": "2026-01"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Serra da Leba: el puerto de las curvas",
+   "tipo": "paso",
+   "lat": -15.07679,
+   "lon": 13.23432,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "mayo a septiembre (cacimbo); en lluvias, más niebla",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; mirador junto al tráfico: atado.",
+   "autonomia": "Repostar en Lubango o Namibe; el puerto está a unos 20 km de Humpata.",
+   "desc": "Es la carretera más icónica de Angola: unas 56 curvas talladas en la roca a finales de los años sesenta para bajar del planalto de Huíla (más de 2.000 m) hacia el desierto de Namibe (unos 1.000 m). Está asfaltada y no requiere 4x4, pero es un puerto de montaña espectacular con mirador y cascada. Enlaza Lubango con Namibe y es parada obligada para cualquier overlander.",
+   "acceso": "Carretera asfaltada desde Lubango y Humpata; mirador principal en la coordenada indicada.",
+   "riesgos": "Mucho tráfico de camiones y autobuses hacia el puerto de Namibe, curvas cerradas y niebla densa, sobre todo de noche: no bajar de noche.",
+   "cerca": "Serra da Leba",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Serra da Leba, o guia completo",
+     "url": "https://www.angolaexpert.com/serra-da-leba-em-angola-o-guia-completo-da-estrada-mais-iconica/",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Sensations fortes et vertiges garantis",
+     "url": "https://frenchoverlander.com/sensations-fortes-et-vertiges-garantis/",
+     "fecha": "2026-01"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Lagoa do Arco y Colinas do Curoca",
+   "tipo": "oasis",
+   "lat": -15.77573,
+   "lon": 12.06897,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "mayo a octubre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; desierto sin sombra.",
+   "autonomia": "Repostar en Namibe o Tômbua. Agua para el día.",
+   "desc": "El Arco es un arco de piedra en un antiguo oasis del desierto de Namibe, cerca de Tômbua, junto a las colinas del Curoca (el «valle de los espíritus», con cañones de arenisca rojos, naranjas y grises de 400 a 600 m). French Overlander (febrero de 2026) cuenta que las lagunas están secas desde 2014 por la falta de lluvias. Es una excursión clásica en pista entre Namibe y Tômbua.",
+   "acceso": "Por pistas desde la carretera Namibe–Tômbua (las fuentes no detallan el firme). Coordenada del PDI general (aprox.).",
+   "riesgos": "Navegación (en la zona de Namibe las pistas son poco visibles y no coinciden con los mapas, según los viajeros), arena y viento.",
+   "cerca": "Lagoa do Arco (Lake Arco)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "French Overlander: Sensassss",
+     "url": "https://frenchoverlander.com/sensassss/",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "French Overlander: C'est où la piste pour Namibe ?",
+     "url": "https://frenchoverlander.com/cest-ou-la-piste-pour-namibe/",
+     "fecha": "2026-01"
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "Tômbua: último repostaje antes de Iona y la costa del Namib",
+   "tipo": "repostaje",
+   "lat": -15.80389,
+   "lon": 11.84472,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "mayo a octubre",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Ciudad pesquera; sin restricciones conocidas.",
+   "autonomia": "Última reposición citada (junto con Namibe) antes del Parque Nacional de Iona: llenar depósitos, 2-4 bidones de gasóleo y 20-40 litros de agua por persona. En arena el consumo sube un 30-40 %.",
+   "desc": "Tômbua es una ciudad pesquera con salinas en el extremo sur de la EN-100 asfaltada. Desde aquí la vía se convierte en pista y en la travesía por la playa y las dunas hacia Baía dos Tigres y la desembocadura del Cunene. Angola Expert la señala, con Namibe, como último punto de abastecimiento.",
+   "acceso": "EN-100 asfaltada desde Namibe.",
+   "riesgos": "Ninguno especial en la ciudad (fuerte olor a pescado; los viajeros acamparon tras unas colinas). Al sur empieza la zona sin servicios ni cobertura.",
+   "cerca": "Namibe (Moçâmedes)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Touring Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-touring-iona-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Angola Expert: Daily logistics, fuel, money, connectivity and supplies",
+     "url": "https://www.angolaexpert.com/en/angola-overland-daily-logistics-fortravelers-in-angola-fuel-money-connectivity-and-supplies/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: EN-100",
+     "url": "https://en.wikipedia.org/wiki/EN-100",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Sensassss",
+     "url": "https://frenchoverlander.com/sensassss/",
+     "fecha": "2026-02"
+    }
+   ],
+   "n": 9
+  },
+  {
+   "name": "Corredor de playa hacia Baía dos Tigres (solo con marea baja)",
+   "tipo": "paso",
+   "lat": -16.64861,
+   "lon": 11.78139,
+   "aprox": true,
+   "dificultad": "muy difícil",
+   "epoca": "mayo a octubre; solo con marea baja",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Dentro del Parque Nacional de Iona: no se ha encontrado norma sobre perros; preguntar a African Parks. Hay chacales, hienas y leones marinos.",
+   "autonomia": "Autonomía total desde Tômbua: sin combustible, agua ni cobertura. Teléfono por satélite.",
+   "desc": "Al sur de Tômbua hay unos 50 km de pistas junto al océano con dunas cada vez más altas; a los 30 km solo queda un estrecho pasillo de arena entre las dunas y el mar que únicamente se puede pasar con marea baja. French Overlander (febrero de 2026) renunció a seguir por ir con un solo vehículo y sin comunicación. Angola Expert describe la pista de playa Tômbua–Foz do Cunene como dependiente de la marea y de entrada y salida por el mismo sitio. Coordenada: la bahía de los Tigres en el continente (aprox.).",
+   "acceso": "Desde Tômbua hacia el sur por la playa y las dunas; presiones muy bajas (a menudo 1,0-1,5 bar según Angola Expert). Consultar las tablas de mareas antes de entrar.",
+   "riesgos": "Quedar atrapado por la marea en el pasillo entre dunas y mar, atascos en arena blanda, navegación y aislamiento total. Mínimo dos vehículos y teléfono por satélite (Angola Expert). Registro en el parque (African Parks).",
+   "cerca": "Baía dos Tigres · antiguo poblado (avanzado)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "French Overlander: Du soleil, des dunes et du sable",
+     "url": "https://frenchoverlander.com/du-soleil-des-dunes-et-du-sable/",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "Angola Expert: Touring Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-touring-iona-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Baía dos Tigres",
+     "url": "https://www.geonames.org/search.html?q=Tigres&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 10
+  },
+  {
+   "name": "Foz do Cunene: desembocadura del Cunene en el Parque de Iona",
+   "tipo": "oasis",
+   "lat": -17.26667,
+   "lon": 11.79917,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "mayo a octubre",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Parque nacional y humedal de aves migratorias: sin norma encontrada; preguntar a African Parks.",
+   "autonomia": "Totalmente autónomo desde Tômbua o Namibe (unos 150-200 km de playa y dunas a 10-30 km/h): 2-4 bidones de gasóleo, agua para varios días y comida.",
+   "desc": "Es el extremo sur de la EN-100, donde el río Cunene (frontera con Namibia) llega al Atlántico, con humedales de aves migratorias en pleno desierto del Namib. Se llega por la pista costera desde Tômbua, dependiente de las mareas, o por las pistas interiores del Parque Nacional de Iona, gestionado por African Parks desde 2020. Es la meta más remota y codiciada del overland angoleño.",
+   "acceso": "Por la costa desde Tômbua (marea baja) o por el interior del parque, con balizas de hormigón numeradas en los cruces. Los mapas GPS suelen fallar.",
+   "riesgos": "Aislamiento total, sin cobertura ni rescate. Dos vehículos como mínimo y teléfono por satélite. Las 12 zonas de acampada del parque son solo coordenadas, sin agua ni servicios.",
+   "cerca": "Foz do Cunene",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Touring Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-touring-iona-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Iona National Park",
+     "url": "https://en.wikipedia.org/wiki/Iona_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: EN-100",
+     "url": "https://en.wikipedia.org/wiki/EN-100",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Foz do Cunene",
+     "url": "https://www.geonames.org/search.html?q=Foz+do+Cunene&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 11
+  },
+  {
+   "name": "Oncócua: cruce de pistas hacia Iona",
+   "tipo": "pista",
+   "lat": -16.65556,
+   "lon": 13.42333,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; zona de pastores con ganado: atado.",
+   "autonomia": "Servicios mínimos y ningún repostaje fiable desde aquí: llegar con 2-4 bidones llenos (muchos viajeros los llenan en Namibia).",
+   "desc": "Oncócua, en el Cunene, es el cruce clave de las pistas que van de Ruacana a Iona. Desde aquí, 80-120 km o más de barrancos profundos, arena suelta y piedra llevan al parque, a velocidades de 10-30 km/h. Una variante por el río Ovipaka hasta Espinheira se comprobó practicable con un Land Cruiser 105 en mayo de 2025.",
+   "acceso": "Desde Ruacana por Calueque y Chitado (pistas de grava y tierra, cada vez más técnicas).",
+   "riesgos": "Barrancos, arena y piedras; crecidas repentinas en lluvias (noviembre-abril). Cobertura móvil casi nula. Angola Expert recomienda un guía local para la navegación.",
+   "cerca": "Parque Nacional de Iona",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: From Ruacana to Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-from-ruacana-to-iona-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Angola Expert: Southwest entry to Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-southwest-entry-iona-national-park/",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "GeoNames: Oncócua",
+     "url": "https://www.geonames.org/search.html?q=Oncocua&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 12
+  },
+  {
+   "name": "Espinheira: interior del Parque Nacional de Iona",
+   "tipo": "oasis",
+   "lat": -16.74444,
+   "lon": 12.37667,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Parque nacional con jirafas reintroducidas y fauna del desierto: sin norma encontrada; preguntar a African Parks.",
+   "autonomia": "Sin agua ni combustible: todo desde Namibe, Tômbua o Namibia.",
+   "desc": "Espinheira es un antiguo poblado abandonado en el interior del Parque Nacional de Iona, un desierto del Namib con Welwitschia mirabilis. Es uno de los puntos que Angola Expert cita en los recorridos por el parque (junto a Baía dos Tigres, Otchifengo y las llanuras de welwitschias) y el destino de la variante del río Ovipaka desde Oncócua. En el parque se han reintroducido jirafas de Angola en 2023 y 2024.",
+   "acceso": "Pistas interiores del parque, con balizas numeradas; desde Oncócua por el Ovipaka o desde la puerta norte (Pediva). Coordenada: poblado destruido de GeoNames (aprox.).",
+   "riesgos": "Navegación (mapas poco fiables), arena y aislamiento. Registrarse en la entrada del parque. Mínimo dos vehículos y teléfono por satélite.",
+   "cerca": "Parque Nacional de Iona",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Touring Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-touring-iona-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Angola Expert: Southwest entry to Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-southwest-entry-iona-national-park/",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "Wikipedia: Iona National Park",
+     "url": "https://en.wikipedia.org/wiki/Iona_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Espinheira (Namibe)",
+     "url": "https://www.geonames.org/search.html?q=Espinheira&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 13
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Corredor norte: Luvo – Mbanza Kongo – Tomboco – N'zeto – Ambriz – Luanda",
+   "desde": "Luvo (frontera con la RD Congo)",
+   "hasta": "Luanda",
+   "km": 530,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Es la entrada por el norte desde la RD Congo. Según Bradt, los primeros 75 km desde Luvo son una vía de un solo carril con algunos tramos sellados y, de los unos 300 km hasta N'zeto, unos 200 están asfaltados; desde N'zeto la EN-100 es de asfalto moderno hasta Luanda. Angola Expert incluye las rutas del norte entre las más duras del país. En 2026 había obras en la zona de Mbanza Kongo, Luvo y Tomboco.",
+   "firme": "Pista y asfalto roto en Luvo–Mbanza Kongo; mezcla de asfalto y tierra hasta N'zeto; asfalto moderno N'zeto–Ambriz–Luanda.",
+   "autonomia": "Según Angola Expert el gasóleo está disponible en casi todo el país, con cortes esporádicos: llenar en cada ciudad (Mbanza Kongo, N'zeto, Luanda). Cambiar dinero en Luvo.",
+   "riesgos": "MAEC: las zonas fronterizas del norte son las de mayor riesgo; no salir de las rutas por las minas, no conducir de noche, 4x4 con repuestos y convoy. FCDO: controles policiales frecuentes; minas en carreteras, arcenes y puentes, que pueden reaparecer con las lluvias (noviembre-abril).",
+   "puntos": [
+    [
+     -5.84917,
+     14.08417
+    ],
+    [
+     -6.26667,
+     14.23833
+    ],
+    [
+     -6.805,
+     13.33
+    ],
+    [
+     -7.22778,
+     12.86944
+    ],
+    [
+     -7.84611,
+     13.10778
+    ],
+    [
+     -8.8383,
+     13.2344
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Bradt Guides: Central Africa, an overland adventure",
+     "url": "https://www.bradtguides.com/central-africa-an-overland-adventure/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: EN-100",
+     "url": "https://en.wikipedia.org/wiki/EN-100",
+     "fecha": ""
+    },
+    {
+     "titulo": "Angola Expert: Angola overland, road conditions and best season",
+     "url": "https://www.angolaexpert.com/en/angola-overland-road-conditions-and-seasonality/",
+     "fecha": "2026"
+    },
+    {
+     "titulo": "allAfrica/ANGOP: Angolan Minister of Public Works assesses progress of works in Soyo",
+     "url": "https://allafrica.com/stories/202605070425.html",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "FCDO: Angola travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/angola/safety-and-security",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Angola",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Angola",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Lubango – Tundavala – Humpata – Serra da Leba – Namibe",
+   "desde": "Lubango",
+   "hasta": "Namibe",
+   "km": 215,
+   "dias": 1,
+   "dificultad": "fácil",
+   "epoca": "mayo a octubre",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "recomendada",
+   "desc": "Es la jornada escénica del sur: subida de 18 km a la Fenda da Tundavala, vuelta a Lubango y bajada por Humpata y las 56 curvas de la Serra da Leba desde el planalto (más de 2.000 m) hasta el desierto de Namibe. Todo es asfalto salvo las pistas cortas de los miradores de la Tundavala. French Overlander la hizo en enero de 2026.",
+   "firme": "Asfalto; pistas de tierra cortas en la Tundavala.",
+   "autonomia": "Gasolineras en Lubango y Namibe.",
+   "riesgos": "Camiones y autobuses en la Leba, niebla, curvas; no hacerla de noche. En la Tundavala, no dejar el vehículo solo (asaltos mencionados por los viajeros).",
+   "puntos": [
+    [
+     -14.91694,
+     13.4925
+    ],
+    [
+     -14.81746,
+     13.38153
+    ],
+    [
+     -14.91694,
+     13.4925
+    ],
+    [
+     -15.01028,
+     13.37639
+    ],
+    [
+     -15.07679,
+     13.23432
+    ],
+    [
+     -15.19611,
+     12.15222
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Serra da Leba, o guia completo",
+     "url": "https://www.angolaexpert.com/serra-da-leba-em-angola-o-guia-completo-da-estrada-mais-iconica/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Angola Expert: Fenda da Tundavala",
+     "url": "https://www.angolaexpert.com/fenda-da-tundavala-o-abismo-sagrado-e-majestoso-da-huila/",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Sensations fortes et vertiges garantis",
+     "url": "https://frenchoverlander.com/sensations-fortes-et-vertiges-garantis/",
+     "fecha": "2026-01"
+    },
+    {
+     "titulo": "GeoNames: Lubango, Humpata, Mossamedes",
+     "url": "https://www.geonames.org/search.html?q=Humpata&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Costa del Namib: Namibe – Arco – Tômbua – Baía dos Tigres – Foz do Cunene",
+   "desde": "Namibe",
+   "hasta": "Foz do Cunene",
+   "km": 300,
+   "dias": 3,
+   "dificultad": "muy difícil",
+   "epoca": "mayo a octubre; tramo de playa solo con marea baja",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "La gran travesía de arena de Angola: asfalto hasta Tômbua con desvío por el Arco y las colinas del Curoca, y después la pista de playa y dunas del Parque Nacional de Iona hacia Baía dos Tigres y la desembocadura del Cunene. El tramo costero (unos 150-200 km) depende de la marea y se hace a 10-30 km/h; a los 30 km de Tômbua solo queda un pasillo entre dunas y mar practicable con marea baja. Es de ida y vuelta por el mismo sitio o de salida por las pistas interiores del parque.",
+   "firme": "Asfalto hasta Tômbua; pistas de arena y piedra; playa de arena húmeda entre dunas y mar; dunas.",
+   "autonomia": "Último repostaje en Tômbua (o Namibe). 2-4 bidones extra, 20-40 litros de agua por persona y comida para 7-10 días en zonas remotas; el consumo en arena sube un 30-40 %.",
+   "riesgos": "Marea (atrapamiento en el pasillo), arena blanda (presiones de 1,0-1,5 bar), navegación y aislamiento; sin cobertura. Mínimo dos vehículos y teléfono por satélite (Angola Expert). Registro en el parque (African Parks). French Overlander, con un solo vehículo, se dio la vuelta.",
+   "puntos": [
+    [
+     -15.19611,
+     12.15222
+    ],
+    [
+     -15.77573,
+     12.06897
+    ],
+    [
+     -15.80389,
+     11.84472
+    ],
+    [
+     -16.64861,
+     11.78139
+    ],
+    [
+     -16.79389,
+     11.79528
+    ],
+    [
+     -17.26667,
+     11.79917
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: Touring Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-touring-iona-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Du soleil, des dunes et du sable",
+     "url": "https://frenchoverlander.com/du-soleil-des-dunes-et-du-sable/",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "French Overlander: Sensassss",
+     "url": "https://frenchoverlander.com/sensassss/",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "Angola Expert: Daily logistics, fuel, money, connectivity and supplies",
+     "url": "https://www.angolaexpert.com/en/angola-overland-daily-logistics-fortravelers-in-angola-fuel-money-connectivity-and-supplies/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: EN-100",
+     "url": "https://en.wikipedia.org/wiki/EN-100",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Entrada suroeste a Iona: Ruacana – Calueque – Chitado – Oncócua – Iona – Espinheira",
+   "desde": "Ruacana (frontera con Namibia)",
+   "hasta": "Espinheira (Parque Nacional de Iona)",
+   "km": 330,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre; viento fuerte del este en junio-agosto",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "Es la entrada clásica al Parque Nacional de Iona desde Namibia: Ruacana–Calueque (30-40 km de grava), Calueque–Chitado (60-70 km), Chitado–Oncócua (50-60 km, más técnica) y Oncócua–Iona (80-120 km o más de barrancos, arena y piedra). En total 250-350 km y 1,5-2 días a velocidades de 10-30 km/h en lo peor. Una variante por el río Ovipaka hasta Espinheira se comprobó practicable en mayo de 2025. Para la guía de 2027 es útil sobre todo como salida o bucle desde Namibia.",
+   "firme": "Grava y tierra hasta Chitado; pista técnica con barrancos, arena suelta y piedra desde Chitado; pistas del parque con balizas numeradas.",
+   "autonomia": "Sin repostaje fiable después de Oncócua: 2-4 bidones (muchos los llenan en Namibia) y agua para varios días.",
+   "riesgos": "Crecidas repentinas y ríos desbordados en lluvias (noviembre-abril); arena y barrancos; cobertura casi nula. Seguro del vehículo a contratar antes de la frontera (en Ruacana no suele haber) y fotos en color de los cuatro lados del vehículo. Registro en las puertas del parque (African Parks).",
+   "puntos": [
+    [
+     -17.42806,
+     14.415
+    ],
+    [
+     -17.26361,
+     14.57056
+    ],
+    [
+     -17.31306,
+     13.905
+    ],
+    [
+     -16.65556,
+     13.42333
+    ],
+    [
+     -16.88306,
+     12.57028
+    ],
+    [
+     -16.74444,
+     12.37667
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Angola Expert: From Ruacana to Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-from-ruacana-to-iona-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Angola Expert: Southwest entry to Iona National Park",
+     "url": "https://www.angolaexpert.com/en/angola-overland-southwest-entry-iona-national-park/",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "GeoNames: Ruacana, Calueque, Chitado, Oncócua, Iona",
+     "url": "https://www.geonames.org/search.html?q=Chitado&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  }
+ ],
+ "notas": "SEGURIDAD. FCDO (28-05-2026) desaconseja todo viaje salvo lo esencial a la provincia de Cabinda (salvo la ciudad de Cabinda), por grupos separatistas que atacan a extranjeros y riesgo de secuestro, y a la franja de 1 km de la frontera de la RD Congo en Lunda Norte (salvo pasos oficiales y sus accesos). En su página de seguridad avisa de minas y munición sin explotar en carreteras, arcenes y puentes (más riesgo fuera de Luanda y de las capitales provinciales, y con las inundaciones de noviembre a abril), de los controles frecuentes y de que fuera de las ciudades los extranjeros suelen viajar en convoy de al menos dos vehículos. MAEC (03-09-2026): extremar la precaución; las zonas fronterizas del norte son las más peligrosas; precauciones extra en Cabinda (también por viruela del mono) y en las Lundas; no conducir de noche, no salir de las rutas establecidas por las minas, 4x4 bien equipado y convoy; alerta por ébola (mayo de 2026) y cólera. DUDAS. (1) Estado actual de Luvo–Mbanza Kongo: la descripción concreta es de Bradt (sin fecha) y hay obras anunciadas en 2026. (2) Tarifas, permisos y normas para perros del Parque Nacional de Iona: African Parks no publica datos de visita; Angola Expert solo dice que hay que registrarse en las puertas. (3) El barco Cabinda–Soyo: solo un relato (2025), con problemas en la travesía y sin datos del operador. Perros: no se ha encontrado ninguna norma en las fuentes. Kilómetros: Luvo–N'zeto (unos 300 km) según Bradt más N'zeto–Luanda estimado; Ruacana–Iona (250-350 km) y la costa Tômbua–Foz do Cunene (150-200 km) según Angola Expert; el resto, estimaciones. Coordenadas aproximadas: Luvo (sede administrativa), Pungo Andongo (sede), Tundavala y Arco (PDI general), Espinheira (poblado destruido en GeoNames) y el corredor de Baía dos Tigres (bahía en el continente). Wikiloc: no se ha podido comprobar ningún listado de offroading para Angola (la consulta directa devolvió error 403). DESCARTADAS. Provincia de Cabinda por carretera (Massabi–Cabinda): FCDO la desaconseja salvo lo esencial; solo se menciona como acceso al barco a Soyo. Lundas y frontera noreste. Morro do Moco y Tchitundu-Hulu: sin fuentes sobre el acceso en vehículo. Parque de Kissama: sin datos de pistas para vehículo propio."
+}

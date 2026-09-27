@@ -120,7 +120,21 @@ function a27OpenPoi(p, root, map, marker){
   map.closePopup();
   dialog.showModal();
 }
+function a27Corto(t, n){
+  t = String(t || ''); const i = t.indexOf('. ');
+  if (i > 30 && i < n) return t.slice(0, i + 1);
+  return t.length <= n ? t : t.slice(0, t.lastIndexOf(' ', n)) + '…';
+}
 function a27Popup(p, root){
+  if (p.type === 'offroad') {
+    let o = p.img ? '<img src="'+a27Esc(a27MapSrc(p.img, root))+'" alt="'+a27Esc(p.name || '')+'">' : '';
+    o += '<strong class="a27-popup-title">'+a27Esc(p.name)+'</strong>';
+    o += '<span class="a27-popup-meta">'+a27Esc([p.cat, p.prio, p.time].filter(Boolean).join(' · '))+'</span>';
+    o += '<span class="a27-map-summary">'+a27Esc(a27Corto(p.desc, 150))+'</span>';
+    if (p.dog) o += '<span class="st '+a27Esc(p.dogcls)+'">perro: '+a27Esc(p.dog)+'</span>';
+    return o + '<div class="a27-popup-actions"><button type="button" class="a27-popup-expand">Ver ficha ampliada</button>' +
+      '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
+  }
   let h = '';
   if (p.img) h += '<img src="'+a27Esc(a27MapSrc(p.img, root))+'" alt="'+a27Esc(p.name || '')+'">';
   h += '<strong class="a27-popup-title">'+a27Esc(p.name)+'</strong>';
@@ -218,7 +232,7 @@ function a27Map(elId, cfg){
   }
   (cfg.lines || []).filter(li => !quitar.has(li.label)).forEach(li => {
     const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
-    if (li.title) pl.bindTooltip(li.title, {sticky: true});
+    if (li.title) pl.bindTooltip(a27Esc(li.title).replace(/\n/g, '<br>'), {sticky: true, className: 'a27-tip'});
     pl.addTo(group(li.label || 'Corredor'));
   });
   (cfg.points || []).forEach(p => {

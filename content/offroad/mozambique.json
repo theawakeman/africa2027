@@ -1,0 +1,416 @@
+{
+ "pais": "mozambique",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Ponta do Ouro – Ponta Malongane: pistas de arena de la costa sur",
+   "tipo": "pista",
+   "lat": -26.79619,
+   "lon": 32.89166,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a noviembre; en lluvias, charcos y barro en el interior",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Zona de playa y campings fuera de parques; el dossier del proyecto considera la costa mozambiqueña muy tolerante con perros. El Parque Nacional de Maputo empieza al norte: allí no.",
+   "autonomia": "Tracks4Africa (2015) aconsejaba repostar y comprar en Manguzi (Sudáfrica) antes de cruzar por Kosi Bay. Agua del grifo no potable en la mayoría de campings.",
+   "desc": "Entre Ponta do Ouro y Ponta Malongane (5 km al norte) y hacia el interior, la red de pistas es de arena blanda con muchas variantes que se separan y se vuelven a unir para esquivar los tramos difíciles. Es la primera toma de contacto con la arena de Mozambique entrando desde Sudáfrica. Hoy hay una carretera asfaltada nueva desde Maputo (una hora), así que la arena ya es opcional.",
+   "acceso": "Desde el puesto fronterizo de Kosi Bay/Ponta do Ouro o por el asfalto desde Maputo. Pistas de arena blanda; desinflar (las fuentes no dan cifra).",
+   "riesgos": "Arena blanda y atascos, variantes sin señalizar, muchos controles de policía. FCDO: las minas se consideran limpiadas, pero puede quedar alguna en zonas remotas de la provincia de Maputo: no salirse de las rodadas. Llevar dos triángulos y dos chalecos (multa si no).",
+   "cerca": "Ponta do Ouro · costa sur",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/maputo-province",
+   "fuentes": [
+    {
+     "titulo": "Tracks4Africa: Southern Mozambique, first impressions",
+     "url": "https://blog.tracks4africa.co.za/southern-mozambique-first-impressions/",
+     "fecha": "2015-04"
+    },
+    {
+     "titulo": "Mapcarta: Ponta Malongane",
+     "url": "https://mapcarta.com/Ponta_Malongane",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Ponta do Ouro",
+     "url": "https://en.wikipedia.org/wiki/Ponta_do_Ouro",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Mozambique, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/mozambique/safety-and-security",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Parque Nacional de Maputo (antigua Reserva Especial)",
+   "tipo": "dunas",
+   "lat": -26.5,
+   "lon": 32.8,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "mayo a noviembre",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "No se ha encontrado la norma del parque sobre mascotas. Con elefantes, búfalos e hipopótamos, tratarlo como prohibido y preguntar a la administración (Peace Parks).",
+   "autonomia": "Sin gasolinera en el parque. Repostar en Maputo o en la zona de Ponta do Ouro. Campings costeros con servicios básicos o sin ellos.",
+   "desc": "Es el parque creado en 2021 al unir la Reserva Especial de Maputo y la reserva marina de Ponta do Ouro, a unos 100 km de Maputo: 1.718 km² de dunas costeras, lagos y bosque, con elefantes, jirafas, cebras y búfalos reintroducidos, y patrimonio mundial desde 2025. Tiene campings junto al mar. La entrada principal es la puerta de Futi.",
+   "acceso": "Desde la carretera Maputo–Ponta do Ouro hasta la puerta de Futi; dentro, pistas de arena. Tasas 2026: 900 MZN por adulto internacional al día (unos 14 USD) y 900 MZN por vehículo de 1 a 6 plazas; camping 400-600 MZN por parcela. Coordenada aproximada del parque (sin puerta verificada).",
+   "riesgos": "Arena blanda y dunas; fauna peligrosa. No se ha podido confirmar en fuente oficial si exige 4x4 ni las normas de circulación por la playa.",
+   "cerca": "Ponta do Ouro · costa sur",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/maputo-province",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Maputo National Park",
+     "url": "https://en.wikipedia.org/wiki/Maputo_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Africa Travel Essentials: Southern Africa National Park Fees 2026",
+     "url": "https://africatravelessentials.com/southern-africa-national-park-fees-2026/",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "Maputo National Park transfers (puerta de Futi)",
+     "url": "https://www.maputonationalpark.com/",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Blue Lakes (Quissico): pista de arena con cárcavas",
+   "tipo": "paso",
+   "lat": -24.71694,
+   "lon": 34.74222,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "mayo a noviembre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Camping privado fuera de parques; preguntar al alojamiento. Lagunas: cuidado con el agua.",
+   "autonomia": "Repostar en Xai-Xai o en la EN1. Agua potable no garantizada.",
+   "desc": "Un desvío de la EN1 cerca de Quissico lleva a Blue Lakes Island Resort, entre los lagos Nhamaiane y Massava, con acampada a la sombra de cocoteros. La pista de acceso es de arena con cárcavas profundas y taludes de más de 3 m. Es un buen ejemplo de los accesos de arena de la costa de Inhambane. Coordenada: Quissico (Zavala); el camping está en las lagunas cercanas.",
+   "acceso": "EN1 asfaltada hasta Quissico y pista de arena hacia la costa; el nivel del agua de las lagunas cambia el acceso.",
+   "riesgos": "Cárcavas y taludes empinados, arena blanda. Fuente antigua (2015): confirmar el estado del camping y del acceso.",
+   "cerca": "Tofo Beach · megafauna marina",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/inhambane",
+   "fuentes": [
+    {
+     "titulo": "Tracks4Africa: A surprise stop-over en route to Zavora",
+     "url": "https://blog.tracks4africa.co.za/a-surprise-stop-over-en-route-to-zavora-2/",
+     "fecha": "2015-04"
+    },
+    {
+     "titulo": "Mapcarta: Quissico (Zavala)",
+     "url": "https://mapcarta.com/Quissico",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Závora: playa y camping en la costa de Inhambane",
+   "tipo": "oasis",
+   "lat": -24.51106,
+   "lon": 35.18949,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a noviembre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Costa fuera de parques; preguntar al lodge. No bañarlo en lagunas con posibles cocodrilos.",
+   "autonomia": "Agua potable en el lodge según Tracks4Africa (2015). Gasóleo en Inharrime o en la EN1.",
+   "desc": "Závora es una playa aislada a 27 km de Inharrime, conocida por el buceo con mantas y las pozas de roca. El lodge tenía agua potable y buenas instalaciones para acampar con el propio coche. Es una parada de arena típica en el eje Maputo–Inhambane, con menos gente que Tofo.",
+   "acceso": "Desde la EN1 en Inharrime, carretera y pista de arena hasta la costa.",
+   "riesgos": "Arena en el acceso final. Datos del camping de 2015: confirmar.",
+   "cerca": "Tofo Beach · megafauna marina",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/inhambane",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Zavora",
+     "url": "https://mapcarta.com/Zavora",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: A surprise stop-over en route to Zavora",
+     "url": "https://blog.tracks4africa.co.za/a-surprise-stop-over-en-route-to-zavora-2/",
+     "fecha": "2015-04"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Vilankulo: arena gruesa hacia la costa y base de Bazaruto",
+   "tipo": "paso",
+   "lat": -22.0,
+   "lon": 35.317,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "mayo a noviembre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "El pueblo y los campings de playa suelen admitirlo (dossier del proyecto). Bazaruto es parque nacional marino y solo se llega en barco: el perro se queda en tierra.",
+   "autonomia": "Repostar en Vilankulo. Al norte, la EN1 empeora mucho (baches, a veces a 20 km/h).",
+   "desc": "Vilankulo es la puerta del archipiélago de Bazaruto, parque nacional desde 1971, al que solo se llega en barco (dhow) o helicóptero desde aquí o desde Inhassoro: los coches se quedan en tierra. Para llegar a algunos campings de la bahía, como Bluewater Bay en 2015, había que atravesar arena espesa. Es la base para combinar playa y arena antes de subir hacia Gorongosa.",
+   "acceso": "EN1 asfaltada en buen estado hasta Vilankulo; pistas de arena en los accesos a la costa.",
+   "riesgos": "Arena espesa en los accesos; baches graves en la EN1 al norte. FCDO: no circular de noche fuera de las ciudades.",
+   "cerca": "Vilanculos · acceso a Bazaruto",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/inhambane",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Vilankulo",
+     "url": "https://en.wikipedia.org/wiki/Vilankulo",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Bazaruto Archipelago",
+     "url": "https://en.wikipedia.org/wiki/Bazaruto_Archipelago",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Mozambique, from the coast to the forest",
+     "url": "https://blog.tracks4africa.co.za/mozambique-from-the-coast-to-the-forest/",
+     "fecha": "2015-05"
+    },
+    {
+     "titulo": "Tracks4Africa: Blissful and busy Mozambique, Maputo to Nampula",
+     "url": "https://blog.tracks4africa.co.za/blissful-busy-mozambique-road-maputo-nampula/",
+     "fecha": "2018-02"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Inchope: cruce y repostaje hacia Gorongosa",
+   "tipo": "repostaje",
+   "lat": -19.20722,
+   "lon": 33.93306,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Cruce de carreteras; sin restricciones conocidas.",
+   "autonomia": "Tracks4Africa (2018) repostó aquí camino de Gorongosa. FCDO avisa de que el combustible es impredecible en todo el país, incluso en ciudades: no dejar bajar el depósito.",
+   "desc": "Inchope es el cruce de la EN1 con el corredor Beira–Chimoio–Zimbabue y el punto de repostaje natural antes de desviarse al norte hacia Gorongosa. En Mozambique la escasez de combustible es frecuente, así que conviene llenar en cada ocasión. También es buen punto para comprobar niveles antes de las pistas del parque.",
+   "acceso": "Asfalto (EN1 y EN6).",
+   "riesgos": "Tráfico pesado de camiones y controles de policía; pedir multa por escrito si no está justificada (FCDO).",
+   "cerca": "Parque Nacional de Gorongosa",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/sofala",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Inchope",
+     "url": "https://mapcarta.com/Inchope",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Blissful and busy Mozambique, Maputo to Nampula",
+     "url": "https://blog.tracks4africa.co.za/blissful-busy-mozambique-road-maputo-nampula/",
+     "fecha": "2018-02"
+    },
+    {
+     "titulo": "FCDO: Mozambique, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/mozambique/safety-and-security",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Chitengo: campamento de Gorongosa (sin autoconducción)",
+   "tipo": "oasis",
+   "lat": -18.97927,
+   "lon": 34.35226,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "abril a mediados de diciembre; cerrado de mediados de diciembre a finales de marzo",
+   "guia": "obligatorio",
+   "perro": "no",
+   "perro_nota": "Prohibido expresamente: «no se permite entrar con mascotas» por riesgo de enfermedades y parásitos para la fauna (solo perros guía con autorización previa).",
+   "autonomia": "Llenar en Inchope. Dentro del parque solo se circula en los safaris guiados en vehículo abierto.",
+   "desc": "Chitengo es el campamento y centro de visitantes de Gorongosa, uno de los grandes éxitos de restauración de fauna de África. El parque no permite la autoconducción: el 4x4 llega hasta el campamento por la pista de acceso y los recorridos se hacen en safaris guiados desde Chitengo o desde el lodge. Tasa diaria: 20 USD por adulto internacional; vehículos gratis.",
+   "acceso": "Desvío de la EN1 al norte de Inchope y pista de acceso, en mal estado según Tracks4Africa (2018). Puertas de 6:00 a 18:00 (varía según la época).",
+   "riesgos": "Pista de acceso rota; algunas pistas siguen cerradas tras la reapertura de abril. FCDO: posibles minas residuales en zonas remotas de Sofala.",
+   "cerca": "Parque Nacional de Gorongosa",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/sofala",
+   "fuentes": [
+    {
+     "titulo": "Gorongosa: Park fees and rules",
+     "url": "https://gorongosa.org/park-fees-and-rules/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Gorongosa: Things to know",
+     "url": "https://gorongosa.org/things-to-know-2/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Chitengo",
+     "url": "https://mapcarta.com/Chitengo",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Blissful and busy Mozambique",
+     "url": "https://blog.tracks4africa.co.za/blissful-busy-mozambique-road-maputo-nampula/",
+     "fecha": "2018-02"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Reserva de Niassa (Mecula–Marrupa): DESACONSEJADA",
+   "tipo": "pista",
+   "lat": -12.14306,
+   "lon": 37.66889,
+   "aprox": true,
+   "dificultad": "muy difícil",
+   "epoca": "no recomendable",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Zona desaconsejada; no aplica.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "desc": "Es el mayor espacio protegido de Mozambique (42.000 km², el doble que Kruger), con licaones, elefantes y tres especies endémicas, y sin infraestructura turística. Sus pistas eran uno de los grandes retos del overland en África austral. Se incluye solo para advertir: hoy no forma parte de la ruta.",
+   "acceso": "Desde Lichinga o Cuamba por Marrupa; pistas remotas sin servicios.",
+   "riesgos": "FCDO (20-08-2026) desaconseja todo viaje a los distritos de Mecula y Marrupa, donde está la reserva; MAEC (13-03-2026) desaconseja el este de Niassa (Mecula y Marrupa). En abril de 2025 un ataque reivindicado por el Estado Islámico en Mozambique mató a dos guardas antifurtivos, diez días después de otro asalto a un campamento de safari cercano.",
+   "cerca": "Reserva Especial de Niassa · excluida por seguridad",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "FCDO: Mozambique, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mozambique/warnings-and-insurance",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Mozambique",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mozambique",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "Wikipedia: Niassa Reserve",
+     "url": "https://en.wikipedia.org/wiki/Niassa_Reserve",
+     "fecha": ""
+    }
+   ],
+   "n": 8
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Pistas de la costa sur: Ponta do Ouro – Ponta Malongane – Zitundo – Catembe",
+   "desde": "Ponta do Ouro",
+   "hasta": "Catembe (Maputo)",
+   "km": 120,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "mayo a noviembre",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Es la vieja ruta de arena por la que se entraba a Mozambique desde Kosi Bay antes del asfalto: pistas de arena con variantes alrededor de Ponta do Ouro y Malongane, tramos muy arenosos al salir de Malongane y después unos 40 km de grava ondulada con barro y agua estancada, en segunda todo el rato. Hoy hay una carretera asfaltada paralela (una hora hasta Maputo), así que se puede hacer la arena en un sentido y volver por asfalto. En Catembe se cruzaba a Maputo en transbordador.",
+   "firme": "Arena blanda con variantes, luego grava ondulada con barro y charcos; asfalto nuevo como alternativa.",
+   "autonomia": "Repostar en Manguzi (Sudáfrica) o en Maputo. Agua potable no garantizada.",
+   "riesgos": "Arena y barro en lluvias; controles policiales frecuentes; posibles minas residuales en zonas remotas de la provincia de Maputo (FCDO): no salirse de las rodadas. Datos de la pista de 2015: el asfalto nuevo puede haber cambiado el trazado de las variantes.",
+   "puntos": [
+    [
+     -26.84024,
+     32.88786
+    ],
+    [
+     -26.79619,
+     32.89166
+    ],
+    [
+     -26.75139,
+     32.82417
+    ],
+    [
+     -26.03,
+     32.53194
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mozambique/maputo-province",
+   "fuentes": [
+    {
+     "titulo": "Tracks4Africa: Southern Mozambique, first impressions",
+     "url": "https://blog.tracks4africa.co.za/southern-mozambique-first-impressions/",
+     "fecha": "2015-04"
+    },
+    {
+     "titulo": "Wikipedia: Ponta do Ouro (carretera asfaltada nueva)",
+     "url": "https://en.wikipedia.org/wiki/Ponta_do_Ouro",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Zitundo",
+     "url": "https://mapcarta.com/Zitundo",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Catembe",
+     "url": "https://mapcarta.com/Catembe",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Travesía de la Reserva de Niassa (Marrupa – Mecula)",
+   "desde": "Marrupa",
+   "hasta": "Mecula / interior de la reserva",
+   "km": 130,
+   "dias": 2,
+   "dificultad": "muy difícil",
+   "epoca": "no recomendable",
+   "guia": "autorización",
+   "perro": "no",
+   "estado": "desaconsejada",
+   "desc": "La entrada por carretera a la reserva de Niassa pasa por Marrupa y Mecula, en pleno norte remoto. Se incluye solo como aviso: los dos distritos están en la lista de zonas a las que FCDO desaconseja todo viaje y MAEC también los desaconseja, y en 2025 hubo ataques yihadistas contra guardas y un campamento de safari.",
+   "firme": "Pistas remotas de tierra sin servicios.",
+   "autonomia": "No aplica.",
+   "riesgos": "Insurgencia armada (Estado Islámico en Mozambique), aislamiento total. No ir.",
+   "puntos": [
+    [
+     -13.19405,
+     37.49987
+    ],
+    [
+     -11.96,
+     37.57
+    ],
+    [
+     -12.14306,
+     37.66889
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "FCDO: Mozambique, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mozambique/warnings-and-insurance",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Mozambique",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mozambique",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "Mapcarta: Marrupa",
+     "url": "https://mapcarta.com/Marrupa",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mecula District",
+     "url": "https://mapcarta.com/Mecula",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (20-08-2026) desaconseja todo viaje a la provincia de Cabo Delgado (salvo Palma, donde desaconseja todo salvo lo esencial, igual que en el entorno de Pemba y Afungi), a los distritos de Memba y Eráti (Nampula) y a los de Mecula y Marrupa (Niassa, donde está la reserva). MAEC (13-03-2026) desaconseja Cabo Delgado entera, el este de Niassa (Mecula y Marrupa), el norte de Nampula (Memba y Eráti) y las carreteras entre Pemba y Nampula. Minas: FCDO da por limpiados los campos conocidos, pero advierte de que puede quedar alguna en zonas remotas de Sofala, Tete, Manica, Gaza, Inhambane y Maputo: preguntar a las autoridades del distrito y no salirse de las rodadas. Equipo obligatorio: dos triángulos y dos chalecos reflectantes. Combustible impredecible en todo el país. No conducir de noche fuera de las ciudades. PERROS: Gorongosa los prohíbe expresamente (solo perros guía con autorización). Para Maputo, Bazaruto y Niassa no se ha encontrado la norma; el dossier del proyecto los da por prohibidos en todos los parques. Fuera de parques, la costa es el tramo más tolerante con perros del viaje según el dossier. TASAS 2026: Gorongosa, 20 USD por adulto internacional y vehículos gratis; Maputo, 900 MZN por adulto internacional más 900 MZN por vehículo y 400-600 MZN por parcela de camping. DUDAS. (1) Si está prohibido conducir por la playa en Mozambique: no se ha podido verificar en ninguna fuente abierta en esta fase (FCDO no lo menciona). No circular por la arena de playa hasta confirmarlo. (2) Las normas de autoconducción y 4x4 dentro del Parque Nacional de Maputo, y la coordenada de la puerta de Futi (el punto usa una coordenada aproximada del parque). (3) Las fuentes de las pistas de arena del sur y de Inhambane son de 2015-2018: el asfalto nuevo de Ponta do Ouro y el estado de los campings pueden haber cambiado. LÍMITES: se agotó el cupo de búsquedas web de la sesión durante este país, así que no se pudieron buscar fuentes sobre la pista de arena de Pomene, la península de Barra/Tofo, el lago Niassa (Metangula–Cóbuè) ni Chimanimani; quedan fuera por falta de fuentes, no por descarte. Las rutas tienen menos de seis puntos verificados y sus kilómetros (120 y 130) son estimaciones a partir de los puntos de paso. DESCARTADAS. Cabo Delgado y el norte de Nampula (Memba, Eráti) y la carretera Pemba–Nampula, por FCDO y MAEC; las pistas hacia Ponta Pangane (norte de Pemba) que describía Tracks4Africa quedan dentro de Cabo Delgado. La reserva de Niassa solo como aviso. Gorongosa no admite autoconducción. Wikiloc bloquea WebFetch: se enlazan solo los listados vistos en búsqueda (maputo-province, inhambane, sofala)."
+}

@@ -473,3 +473,23 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   países y zonas que cruza. Buscador de lugares (Nominatim) y de coordenadas (decimales, grados-minutos-
   segundos o enlace de Google Maps). Los PDI van en un panel por encima de las zonas y se pueden tocar.
 - Pendiente: fase 2 con el resto de países de la ruta.
+
+## 4x4 y offroad · fase 2: resto de la ruta, fotos y globos cortos (27-09-2026)
+
+- 28 países más en `content/offroad/`: 197 puntos y 52 rutas (Namibia 21 + 6, Botsuana 17 + 3, Kenia 15 + 4,
+  Angola 13 + 4, Zambia 12 + 4…). Fuentes: MAEC, FCDO, webs de parques (SANParks, DWNP, MEFT, KWS, UWA,
+  TANAPA/NCAA), French Overlander, Tracks4Africa (solo texto), Mapcarta/GeoNames. Perros: prohibidos por ley
+  o norma en los parques nacionales de Namibia, Botsuana, Sudáfrica, Zimbabue, Zambia, Kenia, Uganda,
+  Tanzania y en Gorongosa; sin norma encontrada en Lesoto, Esuatini, Malaui, Ruanda y el oeste.
+- La cuota de búsquedas web de la sesión (200) se agotó a mitad de la investigación: Sudáfrica, Lesoto,
+  Esuatini, Zimbabue, Uganda, Ruanda, Congo y RD Congo quedan más cortos (pendientes: Baviaanskloof,
+  Cederberg, Matobo, más rutas en Lesoto y Uganda). Wikiloc verificado solo en algunos países.
+- Correcciones: Shai Hills (Ghana) tenía la longitud con el signo cambiado; Sehlabathebe ajustado.
+  Por revisar: Loguatuo (Liberia) no coincide con GeoNames; el PDI «Mamfe (paso obligado)» de Camerún choca
+  con la zona roja del FCDO/MAEC; el Grenadier cargado puede pasar de 3 t (límite en Gonarezhou).
+- Fotos de 4x4: botón «Añadir fotos» en cada tarjeta 4x4 de las fichas y en el Planificador
+  (`assets/js/fotos-4x4.js`). Reduce a 1.600 px; guarda en el navegador o publica con el token del panel
+  (imagen en assets/img/offroad/<pais>/, ficha en content/offroad). El workflow de GitHub reconstruye
+  también al cambiar content/offroad.
+- Globos de las rutas 4x4 y de los puntos 4x4 más cortos y en varias filas (nombre / km · dificultad);
+  ventana del punto 4x4 en los mapas resumida a una frase.

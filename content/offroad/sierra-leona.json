@@ -1,0 +1,280 @@
+{
+ "pais": "sierra-leona",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Potoru: fin del asfalto hacia Tiwai",
+   "tipo": "pista",
+   "lat": 7.50583,
+   "lon": -11.47889,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a abril; muy difícil de mayo a octubre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Pueblo: correa. Tiwai no admite perro según la ficha general (no confirmado: tratar como prohibido).",
+   "autonomia": "Repostar en Bo. Entre Potoru y Kambama no hay servicios.",
+   "desc": "Según un operador de viajes overland, la carretera de Bo a Potoru era buen asfalto y en Potoru se acababa de golpe para convertirse en tierra lavada por las lluvias; más allá, las pistas eran tan estrechas que casi solo servían para motos. Desde aquí quedan unos 15 km hasta Kambama, el embarcadero de Tiwai.",
+   "acceso": "Asfalto desde Bo (unos 72 km por la carretera de Potoru según OSRM) y pista de tierra hacia el este.",
+   "riesgos": "Pista estrecha, erosionada y con barro en lluvias. MAEC desaconseja las fronteras con Liberia y las zonas diamantíferas del sur: comprobar antes de desviarse hacia el este o el sur.",
+   "cerca": "Isla de Tiwai · once especies de primates",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Overlanding West Africa: Sierra Leone, Guinea's Forest Region & the wild west of Ivory Coast",
+     "url": "https://www.overlandingwestafrica.com/news/sierraleone-guinea-ivorycoast/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Potoru",
+     "url": "https://www.geonames.org/search.html?q=Potoru&country=SL",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Tiwai Island",
+     "url": "https://en.wikipedia.org/wiki/Tiwai_Island",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Sierra Leona",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sierra%20Leona",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "OSRM (red viaria de OpenStreetMap): cálculo del trazado entre puntos verificados",
+     "url": "https://router.project-osrm.org/",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Kambama: embarcadero de la isla de Tiwai",
+   "tipo": "pista",
+   "lat": 7.55694,
+   "lon": -11.36528,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a abril",
+   "guia": "obligatorio",
+   "perro": "no",
+   "perro_nota": "La ficha general marca Tiwai como no confirmado: tratar como prohibido. Dejarlo con alguien en Kambama o no ir.",
+   "autonomia": "Sin gasolinera. Alojamiento y comida en la isla (reservando). Gasóleo en Bo o Kenema.",
+   "desc": "Kambama es el pueblo a orillas del río Moa desde el que se pasa en barca a motor a la isla de Tiwai, santuario de fauna de gestión comunitaria con once especies de primates. Visit Sierra Leone recomienda llegar en 4x4 y deja los vehículos aquí. Es el final natural de la pista desde Potoru.",
+   "acceso": "Pista de tierra desde Potoru (unos 15 km); barca a la isla.",
+   "riesgos": "Pista con barro y roderas en lluvias. Las visitas a la isla van con guía local. Queda cerca de las zonas diamantíferas del sur que el MAEC desaconseja.",
+   "cerca": "Isla de Tiwai · once especies de primates",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Visit Sierra Leone: Tiwai Island Wildlife Sanctuary tour",
+     "url": "https://www.visitsierraleone.org/tiwai-island/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Kambama (Southern Province, junto a Tiwai)",
+     "url": "https://www.geonames.org/search.html?q=Kambama&country=SL",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Tiwai Island",
+     "url": "https://en.wikipedia.org/wiki/Tiwai_Island",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Sierra Leona",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sierra%20Leona",
+     "fecha": "2026-06"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Kamakwie y los ferris del Little Scarcies: acceso a Outamba-Kilimi",
+   "tipo": "paso",
+   "lat": 9.49667,
+   "lon": -12.24056,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a abril; en lluvias los ferris fallan más",
+   "guia": "recomendado",
+   "perro": "no",
+   "perro_nota": "Outamba-Kilimi figura como no confirmado en la ficha general: tratar como prohibido.",
+   "autonomia": "Repostar en Makeni. En el parque no hay electricidad ni agua corriente: agua y víveres propios.",
+   "desc": "Kamakwie es la población más cercana al Parque Nacional de Outamba-Kilimi, a 15 km al sur, en el norte del país y cerca de la frontera guineana. Las carreteras principales de la zona cruzan el río Little Scarcies en dos ferris viejos que a veces se averían y cortan el tráfico durante días, sobre todo en la época de lluvias. El parque tiene campamento de tiendas, cocina y centro de visitantes, y organiza paseos guiados y en canoa.",
+   "acceso": "Carretera desde Makeni cruzando el Little Scarcies en ferri; desde Kamakwie, 15 km de pista hasta el parque. Se recomienda 4x4.",
+   "riesgos": "Ferris averiados (quedarse bloqueado varios días), pistas embarradas en lluvias. Cerca de la frontera guineana: MAEC desaconseja la zona fronteriza de Yenga, que está en el este, no aquí.",
+   "cerca": "Parque Nacional de Outamba-Kilimi",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Visit Sierra Leone: Outamba-Kilimi National Park",
+     "url": "https://www.visitsierraleone.org/outamba-kilimi-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Outamba-Kilimi National Park",
+     "url": "https://en.wikipedia.org/wiki/Outamba-Kilimi_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Kamakwie",
+     "url": "https://www.geonames.org/search.html?q=Kamakwie&country=SL",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Sierra Leona",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sierra%20Leona",
+     "fecha": "2026-06"
+    }
+   ],
+   "n": 3
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Bo – Potoru – Kambama (isla de Tiwai)",
+   "desde": "Bo",
+   "hasta": "Kambama (Tiwai)",
+   "km": 88,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "noviembre a abril",
+   "guia": "obligatorio en la isla; no en la pista",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Es la escapada a la selva del sureste: asfalto de Bo a Potoru y, desde allí, pista de tierra hasta Kambama, a orillas del río Moa, donde se toma la barca a Tiwai. Visit Sierra Leone recomienda hacerla en 4x4 y un operador overland la describe como asfalto bueno que acaba de golpe en tierra lavada. Tiwai es, con Gola, Patrimonio Mundial desde 2025 (ficha general).",
+   "firme": "Asfalto Bo–Potoru (unos 72 km) y pista de tierra estrecha y erosionada Potoru–Kambama (unos 16 km).",
+   "autonomia": "Gasóleo en Bo. Sin servicios en la pista; alojamiento y comida en Tiwai reservando.",
+   "riesgos": "Barro y roderas en lluvias (mayo a octubre, MAEC y FCDO). No conducir de noche: el personal británico evita la carretera de noche fuera de la península de Freetown (FCDO). MAEC desaconseja las fronteras con Liberia y las zonas diamantíferas del sur. El perro no puede ir a la isla (ficha general). Kilometraje y trazado de OSRM sobre OpenStreetMap entre puntos verificados.",
+   "puntos": [
+    [
+     7.95509,
+     -11.74102
+    ],
+    [
+     7.94935,
+     -11.74508
+    ],
+    [
+     7.87294,
+     -11.70741
+    ],
+    [
+     7.84907,
+     -11.70973
+    ],
+    [
+     7.8314,
+     -11.73119
+    ],
+    [
+     7.77135,
+     -11.72392
+    ],
+    [
+     7.7388,
+     -11.69909
+    ],
+    [
+     7.66435,
+     -11.68327
+    ],
+    [
+     7.64207,
+     -11.67454
+    ],
+    [
+     7.59714,
+     -11.65679
+    ],
+    [
+     7.5735,
+     -11.65084
+    ],
+    [
+     7.56335,
+     -11.65474
+    ],
+    [
+     7.56073,
+     -11.57565
+    ],
+    [
+     7.54675,
+     -11.5411
+    ],
+    [
+     7.52534,
+     -11.51947
+    ],
+    [
+     7.52053,
+     -11.46065
+    ],
+    [
+     7.51593,
+     -11.45204
+    ],
+    [
+     7.51915,
+     -11.43297
+    ],
+    [
+     7.56048,
+     -11.38247
+    ],
+    [
+     7.55693,
+     -11.36529
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Overlanding West Africa: Sierra Leone, Guinea's Forest Region & the wild west of Ivory Coast",
+     "url": "https://www.overlandingwestafrica.com/news/sierraleone-guinea-ivorycoast/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Visit Sierra Leone: Tiwai Island Wildlife Sanctuary tour",
+     "url": "https://www.visitsierraleone.org/tiwai-island/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Tiwai Island",
+     "url": "https://en.wikipedia.org/wiki/Tiwai_Island",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Potoru",
+     "url": "https://www.geonames.org/search.html?q=Potoru&country=SL",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Kambama (Southern Province, junto a Tiwai)",
+     "url": "https://www.geonames.org/search.html?q=Kambama&country=SL",
+     "fecha": ""
+    },
+    {
+     "titulo": "OSRM (red viaria de OpenStreetMap): cálculo del trazado entre puntos verificados",
+     "url": "https://router.project-osrm.org/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "FCDO: Sierra Leone travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/sierra-leone/safety-and-security",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Sierra Leona",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sierra%20Leona",
+     "fecha": "2026-06"
+    }
+   ],
+   "n": 1
+  }
+ ],
+ "notas": "Sierra Leona solo entra en la subida y es opcional (ruta global). SEGURIDAD. MAEC (19-06-2026) recomienda evitar las fronteras con Liberia, la zona fronteriza con Guinea en Yenga y las zonas de producción diamantífera del sur; en lluvias (mayo a octubre) los desplazamientos por el interior son muy difíciles, con inundaciones y corrimientos de tierra. FCDO (19-06-2026, revisado el 15-09-2026) no marca zonas en rojo; avisa de accidentes frecuentes y de que el personal británico no circula de noche fuera de la península de Freetown. Visit Sierra Leone (2026): entrada del vehículo con carnet o con permiso temporal en frontera; las carreteras rurales y fronterizas son complicadas en lluvias. DUDAS. (1) Si la pista Potoru–Kambama admite un 4x4 grande: el relato overland la describe muy estrecha más allá de Potoru. (2) El estado actual de los ferris del Little Scarcies. (3) La fecha del relato de Overlanding West Africa (viaje en noviembre, sin año visible). Wikiloc: no se ha podido verificar ningún listado de offroading de Sierra Leona (error 403 y sin resultados), así que se deja vacío. DESCARTADAS. Monte Bintumani y montañas Loma: no se ha encontrado fuente sobre la pista de acceso desde Kabala. Gola Rainforest y todo lo que esté cerca de la frontera liberiana (MAEC). La zona diamantífera de Kono y Kenema (MAEC). Las playas de la península: no hay fuentes sobre circulación en 4x4 por la arena."
+}

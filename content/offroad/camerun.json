@@ -1,0 +1,598 @@
+{
+ "pais": "camerun",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Ekok: frontera con Nigeria (Mfum) en la zona anglófona",
+   "tipo": "paso",
+   "lat": 5.80678,
+   "lon": 8.85418,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "no recomendable",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Zona desaconsejada; no aplica.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "desc": "Ekok es el paso fronterizo del corredor Enugu–Bamenda, frente a Mfum (Nigeria), y el arranque de la mítica pista Ekok–Mamfe (unos 65 km), que durante años fue uno de los barrizales más temidos del overland: Dangerous Roads aún la describe como intransitable tras las lluvias incluso en 4x4. Según Cameroon Tribune, en agosto de 2017 la parte camerunesa del corredor ya estaba asfaltada y terminada al 90 %. Se incluye solo como aviso: está en la región Suroeste y pegado a Nigeria.",
+   "acceso": "Desde Nigeria por Mfum. En Camerún, carretera hacia Eyumojock y Mamfe, asfaltada según la fuente de 2017. No se han encontrado relatos recientes de viajeros que confirmen el estado actual.",
+   "riesgos": "El FCDO (febrero de 2026) desaconseja todo viaje a la región Suroeste (salvo Limbe y 35 km de la N3) y a la franja de 40 km de la frontera con Nigeria. El MAEC (noviembre de 2025) desaconseja totalmente el Noroeste y el Suroeste por los enfrentamientos entre fuerzas de seguridad y grupos armados, y la franja de 30 km de Nigeria. French Overlander (noviembre de 2024) no usó este paso: entró por el altiplano de Mambilla y, según ellos, el único paso autorizado para turistas era el de Banyo; en Camerún sufrieron controles de más de una hora cada uno.",
+   "cerca": "Mamfe (paso obligado de entrada)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "FCDO: Cameroon travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/cameroon/warnings-and-insurance",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Camerún",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Camerun",
+     "fecha": "2025-11"
+    },
+    {
+     "titulo": "Dangerous Roads: Mamfe–Ekok road",
+     "url": "https://www.dangerousroads.org/africa/nigeria/10307-mamfe-ekok-road.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Cameroon Tribune: Bamenda-Ekok-Enugu corridor, South-West draws benefits from highway",
+     "url": "https://www.cameroon-tribune.cm/article.html/11190/fr.html/bamenda-ekok-enugu-corridor-south-west-draws-benefits-highway",
+     "fecha": "2017-08"
+    },
+    {
+     "titulo": "Mapcarta: Ekok",
+     "url": "https://mapcarta.com/Ekok",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Premiers pas bien encadrés au Cameroun",
+     "url": "https://frenchoverlander.com/premiers-pas-bien-encadres-au-cameroun/",
+     "fecha": "2024-12"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Mamfe: cruce del antiguo corredor de barro Ekok–Bamenda / Kumba",
+   "tipo": "pista",
+   "lat": 5.75277,
+   "lon": 9.31521,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "no recomendable",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Zona desaconsejada; no aplica.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "desc": "Mamfe es la capital del departamento de Manyu, a orillas del río Manyu y a unos 74 km de Nigeria. Es el cruce entre la carretera hacia Bamenda (noroeste) y la de Kumba (sur), dos tramos que en la época de pistas de laterita se cruzaban en días de barro. Según Cameroon Tribune (2017), tras el asfaltado del corredor el billete Mamfe–Kumba bajó de 6.000 a 3.000 FCFA. El estado actual de Mamfe–Kumba no se ha podido confirmar (hay un proyecto de asfaltado del BAfD).",
+   "acceso": "Por la carretera del corredor desde Ekok (unos 65 km) o desde Bamenda por Batibo; hacia el sur, carretera a Kumba.",
+   "riesgos": "Región Suroeste: el FCDO desaconseja todo viaje y el MAEC la desaconseja totalmente por el conflicto armado anglófono. En 2026 siguen registrándose incidentes en la zona anglófona (sobre todo en el Noroeste), aunque la cronología de Wikipedia no recoge ninguno en Manyu.",
+   "cerca": "Mamfe (paso obligado de entrada)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Mamfe",
+     "url": "https://mapcarta.com/Mamfe",
+     "fecha": ""
+    },
+    {
+     "titulo": "Cameroon Tribune: Bamenda-Ekok-Enugu corridor, South-West draws benefits from highway",
+     "url": "https://www.cameroon-tribune.cm/article.html/11190/fr.html/bamenda-ekok-enugu-corridor-south-west-draws-benefits-highway",
+     "fecha": "2017-08"
+    },
+    {
+     "titulo": "FCDO: Cameroon travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/cameroon/warnings-and-insurance",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "Wikipedia: Timeline of the Anglophone Crisis (2026)",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Anglophone_Crisis_(2026)",
+     "fecha": "2026"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Wum: tramo sin asfaltar de la Ring Road (Noroeste)",
+   "tipo": "pista",
+   "lat": 6.3878,
+   "lon": 10.07664,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "no recomendable; en lluvias hay tramos intransitables",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Zona desaconsejada; no aplica.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "desc": "Wum, capital de Menchum, es el vértice norte de la Ring Road, el circuito de unos 365 km por las tierras altas del Noroeste (Bamenda, Bafut, Wum, Nkambe, Kumbo). Es la gran pista de montaña de Camerún: tramos asfaltados alternan con otros de tierra y baches, se recomienda 4x4 y algunos tramos quedan intransitables con lluvia. Los paisajes (montañas, lagos de cráter, jefaturas tradicionales) la hicieron famosa entre los overlanders.",
+   "acceso": "Desde Bamenda por Bafut y luego hacia el norte; de Wum se sigue al este hacia Nkambe por el tramo más aislado.",
+   "riesgos": "Región Noroeste: el FCDO desaconseja todo viaje y el MAEC la desaconseja totalmente. La cronología de 2026 recoge incidentes armados en Bafut, Bamenda, Jakiri, Sabga, Noni y Bui (Kumbo), todos en el trazado o junto a él.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Dangerous Roads: The Ring Road of Cameroon",
+     "url": "https://www.dangerousroads.org/africa/cameroon/12282-the-ring-road-of-cameroon-a-scenic-drive-through-north-western-mountains.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Wum",
+     "url": "https://mapcarta.com/Wum",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Timeline of the Anglophone Crisis (2026)",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Anglophone_Crisis_(2026)",
+     "fecha": "2026"
+    },
+    {
+     "titulo": "FCDO: Cameroon travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/cameroon/warnings-and-insurance",
+     "fecha": "2026-02"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Mbouroukou: acceso a los lagos gemelos del Manengouba",
+   "tipo": "pista",
+   "lat": 5.05881,
+   "lon": 9.89151,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca; un operador programa salidas de noviembre a junio",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Zona de pastoreo con campamentos bororo y ganado: llevarlo atado. Sin normas conocidas.",
+   "autonomia": "Repostar en Nkongsamba o Melong (N5). Agua y comida para la subida; no hay servicios en el cráter.",
+   "desc": "Mbouroukou es un pueblo a 1.330 m en la ladera del Manengouba, un volcán extinto de 2.411 m con dos lagos de caldera (el «macho» y la «hembra») a unos 1.900 m. Los operadores de Douala suben por Nkongsamba, Melong y Mbouroukou, y hacen la ascensión a pie o a caballo entre pastores bororo. French Overlander visitó los lagos en diciembre de 2024, en su paso por las tierras altas.",
+   "acceso": "Desvío desde la N5 en Melong (unos 9 km al noreste de Mbouroukou según Mapcarta). Los lagos quedan unos 7 km al suroeste del pueblo. No se han encontrado datos fiables sobre el firme ni sobre si se puede subir en 4x4 hasta el cráter: preguntar en Melong.",
+   "riesgos": "Mbouroukou está en la región Litoral, pero los lagos pertenecen a Bangem, en la región Suroeste, que el FCDO desaconseja (todo viaje) y el MAEC también. Decidir con información local y sin cruzar hacia Bangem. Pistas de montaña resbaladizas con lluvia.",
+   "cerca": "Cataratas de Ekom-Nkam",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Mbouroukou",
+     "url": "https://mapcarta.com/16800824",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Muanenguba Lakes",
+     "url": "https://en.wikipedia.org/wiki/Muanenguba_Lakes",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tourismo Cameroun: randonnée au mont Manengouba et chutes d'Ekom-Nkam",
+     "url": "https://www.tourismo-cameroun.com/voyage/randonnee-au-mont-manengouba-et-immersion-aux-chutes-dekom-nkam/",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: Premiers pas bien encadrés au Cameroun",
+     "url": "https://frenchoverlander.com/premiers-pas-bien-encadres-au-cameroun/",
+     "fecha": "2024-12"
+    },
+    {
+     "titulo": "FCDO: Cameroon travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/cameroon/warnings-and-insurance",
+     "fecha": "2026-02"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Pista a las cataratas de Ekom-Nkam",
+   "tipo": "pista",
+   "lat": 5.06196,
+   "lon": 10.02966,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca; evitar mayo a septiembre (lluvias)",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas conocidas; sendero resbaladizo y guía obligatorio: preguntar en el centro de información.",
+   "autonomia": "Repostar en Nkongsamba o Melong; agua para la caminata.",
+   "desc": "Es una cascada de unos 80 m en el río Nkam, junto al pueblo de Mboué, famosa por el rodaje de la película Greystoke. Se llega por un desvío de la carretera Melong–Nkongsamba y una pista de tierra entre cafetales y maizales, seguida de un sendero por el bosque. Buen complemento al Manengouba en la misma zona del Litoral.",
+   "acceso": "En la carretera entre Melong y Nkongsamba, girar junto a un monumento azul y rosa con una estrella. Pista de tierra y después un sendero de casi 4 km, mal mantenido y resbaladizo, más unos 20 minutos por el valle. Hay que pagar una tasa y contratar guía en el centro de información.",
+   "riesgos": "Barro y resbalones en lluvias. Región Litoral: sin restricciones del FCDO ni del MAEC, pero cerca del límite con el Suroeste (desaconsejado).",
+   "cerca": "Cataratas de Ekom-Nkam",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Bouger & Voyager: Les chutes d'Ekom au Cameroun",
+     "url": "https://www.bouger-voyager.com/chutes-ekom-cameroun/",
+     "fecha": "2024-04"
+    },
+    {
+     "titulo": "Tourismo Cameroun: randonnée au mont Manengouba et chutes d'Ekom-Nkam",
+     "url": "https://www.tourismo-cameroun.com/voyage/randonnee-au-mont-manengouba-et-immersion-aux-chutes-dekom-nkam/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Ekom Nkam",
+     "url": "https://www.geonames.org/search.html?q=Ekom+Nkam&country=CM",
+     "fecha": ""
+    },
+    {
+     "titulo": "French Overlander: De Greystoke à Saga Africa",
+     "url": "https://frenchoverlander.com/de-greystoke-a-saga-africa-attention-secousse/",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Ebodjé: pista costera Kribi–Campo (playas de tortugas)",
+   "tipo": "pista",
+   "lat": 2.56497,
+   "lon": 9.82521,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca; en lluvias intransitable según las fuentes",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Playas de puesta de tortugas marinas: llevarlo atado y lejos de los nidos (precaución; no se ha encontrado norma).",
+   "autonomia": "Repostar en Kribi; en la costa sur no se han encontrado gasolineras citadas en las fuentes.",
+   "desc": "Ebodjé es un pueblo costero con un proyecto de ecoturismo de tortugas marinas, en la pista costera entre Kribi y Campo. Esa pista (unos 75 km de tierra y laterita) se describía como intransitable en lluvias y muy difícil en seco, y en 2020 el tramo Lolabé–Campo (39 km) seguía siendo de tierra. French Overlander (enero de 2025) hizo 25 km de pista en mal estado hasta un sitio de tortugas al sur de Kribi y se quedó seis días.",
+   "acceso": "Desde Kribi hacia el sur por Grand Batanga y Lolabé (junto al puerto de aguas profundas); pista de tierra y laterita con tramos embarrados. Hay obras financiadas para Lolabé–Campo, con inicio previsto en diciembre de 2025: en 2027 puede haber tramos en obras o ya asfaltados.",
+   "riesgos": "Barro y roderas en lluvias; tráfico de obras. Región Sur: sin restricciones del FCDO ni del MAEC.",
+   "cerca": "Kribi",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Ébodjé",
+     "url": "https://mapcarta.com/Ebodj%C3%A9",
+     "fecha": ""
+    },
+    {
+     "titulo": "Agence Ecofin: La route Kribi-Campo cherche entrepreneurs et financiers",
+     "url": "https://www.agenceecofin.com/infrastructures/2308-6358-la-route-kribi-campo-cherche-entrepreneurs-et-financiers",
+     "fecha": "2012-08"
+    },
+    {
+     "titulo": "Investir au Cameroun: aménagement des routes Edéa-Kribi et Lolabé-Campo",
+     "url": "https://www.investiraucameroun.com/travaux-publics/3108-15107-vers-l-amenagement-des-routes-edea-kribi-et-lolabe-campo-en-vue-de-desenclaver-la-zone-industrielle-et-portuaire-de-kribi",
+     "fecha": "2020-08"
+    },
+    {
+     "titulo": "EcoMatin: 148 milliards FCFA pour les routes Edéa–Kribi et Lolabé–Campo",
+     "url": "https://ecomatin.net/cameroun-148-milliards-fcfa-pour-la-rehabilitation-des-routes-edea-kribi-et-lolabe-campo",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "French Overlander: Petit, petit, petit… grand",
+     "url": "https://frenchoverlander.com/petit-petit-petit-grand/",
+     "fecha": "2025-01"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Campo: final de la pista costera y frontera con Guinea Ecuatorial",
+   "tipo": "pista",
+   "lat": 2.37796,
+   "lon": 9.82993,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos. Si se entra en el Parque Nacional de Campo Ma'an, preguntar a la administración.",
+   "autonomia": "Llegar con reserva desde Kribi (unos 75 km de pista) y volver con margen.",
+   "desc": "Campo es el pueblo fronterizo con Guinea Ecuatorial, junto a la desembocadura del Ntem (Río Campo queda 4,5 km al sur, en la otra orilla). Es el final de la pista costera desde Kribi y la puerta del área de Campo Ma'an. Útil como extremo de un ida y vuelta en 4x4 por la costa sur.",
+   "acceso": "Por la pista costera desde Kribi (Grand Batanga, Lolabé, Ebodjé). El tramo Lolabé–Campo era de tierra e intransitable en lluvias según la fuente de 2020; obras previstas desde finales de 2025.",
+   "riesgos": "Barro en lluvias. La frontera con Guinea Ecuatorial no aparece en los avisos del FCDO ni del MAEC consultados. Si no se va a cruzar, no acercarse al puesto fronterizo con cámaras.",
+   "cerca": "Parque Nacional de Campo Ma'an",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Campo",
+     "url": "https://mapcarta.com/16812440",
+     "fecha": ""
+    },
+    {
+     "titulo": "Investir au Cameroun: aménagement des routes Edéa-Kribi et Lolabé-Campo",
+     "url": "https://www.investiraucameroun.com/travaux-publics/3108-15107-vers-l-amenagement-des-routes-edea-kribi-et-lolabe-campo-en-vue-de-desenclaver-la-zone-industrielle-et-portuaire-de-kribi",
+     "fecha": "2020-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Camerún",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Camerun",
+     "fecha": "2025-11"
+    }
+   ],
+   "n": 7
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Ekok – Mamfe – Bamenda (antiguo corredor de barro de la zona anglófona)",
+   "desde": "Ekok (frontera con Nigeria)",
+   "hasta": "Bamenda",
+   "km": 200,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "no recomendable",
+   "guia": "no",
+   "perro": "sin_dato",
+   "estado": "desaconsejada",
+   "desc": "Fue el paso clásico del overland entre Nigeria y Camerún: Ekok, Mamfe y la subida a Bamenda, con barrizales que retenían camiones durante días en la época de lluvias. Según Cameroon Tribune, desde 2017 el tramo camerunés del corredor Bamenda–Enugu está asfaltado. Se documenta por su fama, pero atraviesa las dos regiones anglófonas en conflicto armado.",
+   "firme": "Asfalto según la fuente de 2017 (antes, pista de tierra y barro). Sin relatos recientes de viajeros.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "riesgos": "FCDO: todo viaje desaconsejado en el Noroeste, en el Suroeste (salvo Limbe y 35 km de la N3) y en la franja de 40 km de Nigeria. MAEC: Noroeste y Suroeste totalmente desaconsejados. French Overlander (noviembre de 2024) prefirió entrar por el altiplano de Mambilla (Nguroje–Mayo Ndaga) hacia Banyo, aunque ese paso también queda en la franja de 40 km de Nigeria.",
+   "puntos": [
+    [
+     5.83611,
+     8.83528
+    ],
+    [
+     5.80678,
+     8.85418
+    ],
+    [
+     5.7697,
+     8.9864
+    ],
+    [
+     5.75277,
+     9.31521
+    ],
+    [
+     5.83556,
+     9.85528
+    ],
+    [
+     5.96141,
+     10.15165
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Cameroon Tribune: Bamenda-Ekok-Enugu corridor, South-West draws benefits from highway",
+     "url": "https://www.cameroon-tribune.cm/article.html/11190/fr.html/bamenda-ekok-enugu-corridor-south-west-draws-benefits-highway",
+     "fecha": "2017-08"
+    },
+    {
+     "titulo": "Dangerous Roads: Mamfe–Ekok road",
+     "url": "https://www.dangerousroads.org/africa/nigeria/10307-mamfe-ekok-road.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Cameroon travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/cameroon/warnings-and-insurance",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Camerún",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Camerun",
+     "fecha": "2025-11"
+    },
+    {
+     "titulo": "French Overlander: Nigeria, Cameroon's highlands",
+     "url": "https://frenchoverlander.com/nigeria-cameroons-highlands/",
+     "fecha": "2024-11"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Ring Road de Bamenda: Bamenda – Bafut – Wum – Nkambe – Kumbo – Ndop – Bamenda",
+   "desde": "Bamenda",
+   "hasta": "Bamenda",
+   "km": 365,
+   "dias": 3,
+   "dificultad": "difícil",
+   "epoca": "no recomendable; en lluvias hay tramos intransitables",
+   "guia": "no",
+   "perro": "sin_dato",
+   "estado": "desaconsejada",
+   "desc": "Circuito de unos 365 km por las tierras altas del Noroeste, con Bafut, Wum, Nkambe y Kumbo (a unos 110 km de Bamenda). Mezcla tramos asfaltados con pistas de tierra llenas de baches; 4x4 muy recomendable y algunos tramos intransitables con lluvia. Fue una de las rutas más bonitas del oeste de África, pero hoy está en plena zona de conflicto.",
+   "firme": "Asfalto en partes y pista de tierra con baches en otras (sobre todo en el norte, Wum–Nkambe).",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "riesgos": "Región Noroeste: FCDO y MAEC desaconsejan todo viaje. En 2026 hubo incidentes armados en Bafut, Bamenda, Jakiri, Sabga, Noni y Bui (Kumbo). El MAEC también desaconseja 20 km alrededor del lago Bamendjing (región Oeste), junto a Ndop.",
+   "puntos": [
+    [
+     5.96141,
+     10.15165
+    ],
+    [
+     6.09072,
+     10.11395
+    ],
+    [
+     6.3878,
+     10.07664
+    ],
+    [
+     6.57838,
+     10.70624
+    ],
+    [
+     6.21089,
+     10.68678
+    ],
+    [
+     5.98925,
+     10.43618
+    ],
+    [
+     5.96141,
+     10.15165
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Dangerous Roads: The Ring Road of Cameroon",
+     "url": "https://www.dangerousroads.org/africa/cameroon/12282-the-ring-road-of-cameroon-a-scenic-drive-through-north-western-mountains.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Kumbo",
+     "url": "https://mapcarta.com/Kumbo",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Timeline of the Anglophone Crisis (2026)",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_the_Anglophone_Crisis_(2026)",
+     "fecha": "2026"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Camerún",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Camerun",
+     "fecha": "2025-11"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Pista costera Kribi – Grand Batanga – Ebodjé – Campo",
+   "desde": "Kribi",
+   "hasta": "Campo",
+   "km": 75,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "estación seca; intransitable en lluvias según las fuentes",
+   "guia": "no",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "Pista de unos 75 km de tierra y laterita por la costa sur, desde Kribi y las cataratas de la Lobé hasta Campo, en la frontera con Guinea Ecuatorial. Pasa por Grand Batanga, Lolabé (junto al puerto de aguas profundas) y Ebodjé, con playas de tortugas. En 2020 el tramo Lolabé–Campo seguía siendo de tierra, y hay obras financiadas con inicio previsto a finales de 2025.",
+   "firme": "Asfalto en la salida de Kribi y pista de tierra/laterita hacia el sur; roderas y barro en lluvias. Posibles tramos en obras en 2027.",
+   "autonomia": "Repostar en Kribi. Agua y comida para el día; volver por el mismo camino.",
+   "riesgos": "Barro, atascos y tráfico de obras y camiones del puerto. Región Sur: sin restricciones del FCDO ni del MAEC. No conducir de noche (FCDO).",
+   "puntos": [
+    [
+     2.93722,
+     9.9075
+    ],
+    [
+     2.88168,
+     9.89756
+    ],
+    [
+     2.84889,
+     9.8875
+    ],
+    [
+     2.66667,
+     9.85
+    ],
+    [
+     2.56497,
+     9.82521
+    ],
+    [
+     2.37796,
+     9.82993
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Agence Ecofin: La route Kribi-Campo cherche entrepreneurs et financiers",
+     "url": "https://www.agenceecofin.com/infrastructures/2308-6358-la-route-kribi-campo-cherche-entrepreneurs-et-financiers",
+     "fecha": "2012-08"
+    },
+    {
+     "titulo": "Investir au Cameroun: aménagement des routes Edéa-Kribi et Lolabé-Campo",
+     "url": "https://www.investiraucameroun.com/travaux-publics/3108-15107-vers-l-amenagement-des-routes-edea-kribi-et-lolabe-campo-en-vue-de-desenclaver-la-zone-industrielle-et-portuaire-de-kribi",
+     "fecha": "2020-08"
+    },
+    {
+     "titulo": "EcoMatin: 148 milliards FCFA pour les routes Edéa–Kribi et Lolabé–Campo",
+     "url": "https://ecomatin.net/cameroun-148-milliards-fcfa-pour-la-rehabilitation-des-routes-edea-kribi-et-lolabe-campo",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "French Overlander: Petit, petit, petit… grand",
+     "url": "https://frenchoverlander.com/petit-petit-petit-grand/",
+     "fecha": "2025-01"
+    },
+    {
+     "titulo": "GeoNames: Grand Batanga, Lolabé, Kribi",
+     "url": "https://www.geonames.org/search.html?q=Grand+Batanga&country=CM",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Corredor al Congo: Sangmélima – Djoum – Mintom – Ntam",
+   "desde": "Sangmélima",
+   "hasta": "Ntam (frontera con el Congo)",
+   "km": 320,
+   "dias": 1,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "recomendada",
+   "desc": "Es el enlace asfaltado Camerún–Congo (N9 y corredor Ketta–Djoum), inaugurado por completo en diciembre de 2021: Sangmélima–Bikoula (85 km), Bikoula–Djoum (38), Djoum–Mintom (98), Mintom–Lélé (67,5) y Lélé–Ntam–Mbalam (53). Un viajero de julio de 2025 lo describe como liso y bien asfaltado. No es offroad, pero es la vía segura hacia Souanké y Ouesso que evita el este de Camerún.",
+   "firme": "Asfalto en todo el trazado; en 2024 había obras de rehabilitación entre Mbalmayo y Sangmélima.",
+   "autonomia": "Repostar en Sangmélima. Las fuentes no citan gasolineras entre Djoum y la frontera; en el Congo, el siguiente servicio fiable citado es Ouesso.",
+   "riesgos": "Controles en la frontera (un viajero pagó 20.000 FCFA de salida en Camerún en 2025; en el Congo, tres oficinas: inmigración, sanidad y policía). No conducir de noche. El MAEC considera de alto riesgo Yokadouma y Batouri (Este), que quedan fuera de esta ruta.",
+   "puntos": [
+    [
+     2.93333,
+     11.98333
+    ],
+    [
+     2.81667,
+     12.41667
+    ],
+    [
+     2.67227,
+     12.67807
+    ],
+    [
+     2.69525,
+     13.28696
+    ],
+    [
+     2.28333,
+     13.33333
+    ],
+    [
+     2.17769,
+     13.70381
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Jumelages-Partenariats: Yaounde-Brazzaville corridor, Cameroon's capital now connected to Congo",
+     "url": "https://jumelages-partenariats.com/en/actualites.php?n=14263",
+     "fecha": "2021-12"
+    },
+    {
+     "titulo": "Wikipédia: Route nationale 9 (Cameroun)",
+     "url": "https://fr.wikipedia.org/wiki/Route_nationale_9_(Cameroun)",
+     "fecha": ""
+    },
+    {
+     "titulo": "Alárìnká: Cameroon to Congo Brazzaville by road via Ntam border",
+     "url": "https://alarinka.com/cameroon-to-congo-brazzaville-by-road-via-ntam-border/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Mapcarta: Ntam (Congo), poste de contrôle unique frontalier",
+     "url": "https://mapcarta.com/fr/16857778",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Camerún",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Camerun",
+     "fecha": "2025-11"
+    }
+   ],
+   "n": 4
+  }
+ ],
+ "notas": "SEGURIDAD. FCDO (09-02-2026) desaconseja todo viaje a: la península de Bakassi; los 40 km de las fronteras con la RCA, Chad y Nigeria (salvo Garoua); el Extremo Norte (salvo Maroua y alrededores); el Noroeste; y el Suroeste salvo Limbe y 35 km de la N3. Desaconseja todo salvo lo esencial en Limbe y ese tramo de N3, en la región Norte y en la zona de Maroua. MAEC (28-11-2025) desaconseja totalmente el Extremo Norte (salvo Maroua), el Noroeste, el Suroeste y la franja de 30 km de Nigeria, Chad y la RCA; considera de alto riesgo el Norte y Adamaua, Yokadouma, Batouri, Garoua-Boulai y Touboro, y 20 km alrededor del lago Bamendjing; y advierte de que la seguridad se ha deteriorado gravemente en el este. CONTRADICCIÓN IMPORTANTE: el PDI general «Mamfe (paso obligado de entrada)» presenta Mamfe como paso obligado, pero está en zona roja del FCDO y del MAEC; conviene revisar ese PDI. DUDAS. (1) Paso de entrada desde Nigeria: Ekok–Mamfe está asfaltado (2017) pero en zona roja; French Overlander (11-2024) entró por el altiplano de Mambilla (Nguroje–Mayo Ndaga–«Boundjoukoura») hacia Banyo, y dicen que era el único paso autorizado para turistas; ese paso también cae en la franja de 40 km de Nigeria del FCDO. No se han encontrado coordenadas fiables del puesto ni confirmación oficial: verificar antes de salir. (2) Estado real en 2027 de Kribi–Campo (obras con inicio previsto en diciembre de 2025) y de Mamfe–Kumba. (3) Si se puede subir en 4x4 hasta los lagos del Manengouba desde Mbouroukou y dónde pasa exactamente el límite Litoral/Suroeste. Perros: no se ha encontrado ninguna norma específica en las fuentes. Kilómetros: la Ring Road (365 km) y Kribi–Campo (75 km) salen de fuentes; Ekok–Bamenda (200 km) es una estimación (Ekok–Mamfe 65 km según Dangerous Roads más la distancia por puntos); Sangmélima–Ntam suma los tramos oficiales (unos 320 km). Coordenadas: Ekom-Nkam tomada del PDI general (aprox.); el resto de Mapcarta o GeoNames. Wikiloc: no se ha podido comprobar ningún listado público de offroading para Camerún (Wikiloc bloquea la consulta y no aparecieron en resultados), así que los campos quedan vacíos. DESCARTADAS. Monte Camerún/Buea (Suroeste, desaconsejado). Pista Yokadouma–Moloundou–Lobéké (este; MAEC alto riesgo en Yokadouma y deterioro de la seguridad en el este). Reserva del Dja: solo se visita a pie, con permiso del conservador, guías y grupos de 6 como máximo; se desaconseja de septiembre a mediados de noviembre; no es un destino 4x4. Norte y Extremo Norte (Waza, Rumsiki): zona roja."
+}

@@ -1,0 +1,70 @@
+{
+ "pais": "esuatini",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Malolotja: pistas 4x4 del parque",
+   "tipo": "pista",
+   "lat": -26.098,
+   "lon": 31.099,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "abril a septiembre (seco); de octubre a marzo, lluvias",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Parque gestionado por la Swaziland National Trust Commission. No se ha encontrado su norma sobre perros: consultar antes.",
+   "autonomia": "Repostar en Mbabane.",
+   "desc": "Parque de montaña de 180 km² en el noroeste, con el monte Ngwenya (1.829 m) y las cataratas de Malolotja (89 m, las más altas del país). Solo tiene 25 km de carretera, pero se puede explorar mucho más en 4x4, bici de montaña o a pie. Hay zonas de acampada designadas.",
+   "acceso": "Desde Mbabane hacia el noroeste (el PDI general marca el acceso). Las fuentes no describen el estado de las pistas 4x4.",
+   "riesgos": "Lluvias y niebla de octubre a marzo. El MAEC aconseja no circular de noche por el estado de las carreteras y el ganado. Coordenada del centro del parque (OSM), no de la entrada.",
+   "cerca": "Malolotja · acceso de la reserva",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Malolotja Nature Reserve",
+     "url": "https://en.wikipedia.org/wiki/Malolotja_Nature_Reserve",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Malolotja Nature Reserve",
+     "url": "https://mapcarta.com/Malolotja_Nature_Reserve",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Esuatini",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Esuatini",
+     "fecha": "2026-01"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Mlilwane: puerta de Sangweni y pistas de montaña",
+   "tipo": "pista",
+   "lat": -26.47458,
+   "lon": 31.19107,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "abril a septiembre",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Big Game Parks no publica norma sobre perros en las páginas consultadas: preguntar a reservations@biggameparks.org.",
+   "autonomia": "Zona del valle de Ezulwini, con servicios cerca.",
+   "desc": "Santuario de fauna de Big Game Parks en el valle de Ezulwini. Casi todas sus pistas valen para turismos, salvo las de montaña, que son el interés 4x4. Tiene camping básico desde 180 rand y acceso de 24 horas por una ruta nocturna señalizada.",
+   "acceso": "Puerta de Sangweni. La web oficial advierte que las indicaciones de Google Maps son erróneas y da la coordenada 26°28.475' S, 31°11.464' E (convertida aquí a decimal).",
+   "riesgos": "Fauna dentro del recinto. Circular solo de día fuera de la ruta nocturna.",
+   "cerca": "Mlilwane Wildlife Sanctuary",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Big Game Parks: Mlilwane Wildlife Sanctuary",
+     "url": "https://biggameparks.org/properties/mlilwane-wildlife-sanctuary",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "rutas": [],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (actualizado el 10-12-2025) no desaconseja ninguna zona. MAEC (26-01-2026): viajar con precaución, ninguna zona de riesgo alto; evitar circular de noche por el estado de las carreteras y el ganado, y ha habido asaltos a vehículos averiados; lluvias de octubre a marzo. PERROS: no se ha encontrado la norma de Big Game Parks (Hlane, Mlilwane, Mkhaya) ni de la SNTC (Malolotja, Mlawula). DUDAS. (1) El estado de las pistas 4x4 de Malolotja. (2) Las normas de perros. (3) La coordenada de Malolotja es la del centro del parque. Hlane se ha descartado como punto 4x4 porque sus pistas valen para turismos en seco según su web oficial. Mkhaya no se ha incluido: la visita parte de un punto de encuentro oficial (ver PDI general) y no se ha encontrado si admite vehículo propio. No se propone ruta: no hay fuentes accesibles de una travesía 4x4 de 30 km o más. Wikiloc: no se ha podido ver ningún listado de Esuatini; se deja vacío. DESCARTADAS: ninguna zona por seguridad."
+}

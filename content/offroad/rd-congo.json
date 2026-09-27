@@ -1,0 +1,250 @@
+{
+ "pais": "rd-congo",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Luozi: llegada por pista desde el Congo (Boko)",
+   "tipo": "pista",
+   "lat": -4.94278,
+   "lon": 14.1325,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "estación seca; en lluvias (octubre a mayo) muy desaconsejable",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos.",
+   "autonomia": "Repostar en Brazzaville antes de salir; las fuentes no citan gasolineras en el territorio de Luozi. Autonomía y comida para varios días.",
+   "desc": "Luozi es la capital de su territorio, en la orilla norte del río Congo, y el punto de llegada de la vía terrestre desde Boko (Congo). Un viajero en 2017 describe el lado congoleño de la frontera como un camino de motos más que una carretera, con muchas horas de pista entre pueblos diminutos hasta Luozi. Es la alternativa al ferry Brazzaville–Kinshasa, pero depende de un ferry en muy mal estado.",
+   "acceso": "Desde Boko (Congo) por pistas de tierra estrechas y erosionadas; en Luozi, ferry sobre el río Congo hacia la orilla sur (territorio de Songololo).",
+   "riesgos": "Pistas muy degradadas y aisladas. El MAEC desaconseja los viajes no esenciales a la RD Congo y los desplazamientos por carretera fuera de Kinshasa; pide extremar la precaución en las zonas fronterizas del Congo. El FCDO no incluye el Kongo Central entre las zonas desaconsejadas.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Luozi",
+     "url": "https://www.geonames.org/search.html?q=Luozi&country=CD",
+     "fecha": ""
+    },
+    {
+     "titulo": "The Road Chose Me: Across the DRC Day 1",
+     "url": "http://theroadchoseme.com/across-the-drc-day-1",
+     "fecha": "2017-10"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a la República Democrática del Congo",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rep%C3%BAblica+Democr%C3%A1tica+del+Congo",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "FCDO: DRC travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/warnings-and-insurance",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Ferry de Luozi sobre el río Congo",
+   "tipo": "paso",
+   "lat": -4.95092,
+   "lon": 14.15192,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "según el estado del ferry; confirmar justo antes",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos; cubierta abierta con camiones y pasajeros: llevarlo dentro del vehículo o atado.",
+   "autonomia": "Posibles esperas de días si el ferry está averiado: agua y comida de reserva.",
+   "desc": "Es el ferry que une el territorio de Luozi con el de Songololo, al sur del río. En 2017 costaba unos 16.500 francos congoleños por vehículo ligero, cruzaba en unos 20 minutos y salía cuando se llenaba (un camión grande y dos 4x4 a la vez). El ferry actual, de 35 toneladas, lleva en servicio desde 1997 y se avería a menudo: en abril de 2023 estuvo parado 4 días y desde principios de agosto de 2026 estaba averiado, con vehículos atascados en ambas orillas y solo una barca pequeña, sobrecargada, que casi vuelca el 18 de agosto.",
+   "acceso": "Desde Luozi (orilla norte) o por pistas desde la zona de Songololo (orilla sur). Tras el ferry, en 2017, la orilla sur era una pista de barro con baches y trincheras más altas que el techo de un Jeep, que mejoraba hasta una buena pista de grava y enlazaba con el asfalto de la N1.",
+   "riesgos": "Averías del ferry y esperas largas; embarque de riesgo en la barca de emergencia. El Bradt pide no hacer fotos del río Congo. Llegar con luz de día.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: List of crossings of the Congo River",
+     "url": "https://en.wikipedia.org/wiki/List_of_crossings_of_the_Congo_River",
+     "fecha": ""
+    },
+    {
+     "titulo": "The Road Chose Me: Luozi ferry across the Congo River",
+     "url": "http://theroadchoseme.com/luozi-ferry-the-congo-river",
+     "fecha": "2017-10"
+    },
+    {
+     "titulo": "The Road Chose Me: Across the DRC Day 4",
+     "url": "http://theroadchoseme.com/across-the-drc-day-4",
+     "fecha": "2017-10"
+    },
+    {
+     "titulo": "Radio Okapi: reprise de la traversée entre Luozi et Songololo par bac",
+     "url": "https://www.radiookapi.net/2023/04/09/actualite/societe/kongo-central-reprise-de-la-traversee-entre-luozi-et-songololo-par-bac",
+     "fecha": "2023-04"
+    },
+    {
+     "titulo": "Radio Okapi: Luozi isolé après la panne du bac sur le fleuve Congo",
+     "url": "https://www.radiookapi.net/2026/08/19/actualite/societe/luozi-isole-apres-la-panne-du-bac-sur-le-fleuve-congo",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "Congo Press: en panne depuis trois semaines, le bac de Luozi",
+     "url": "https://www.congo-press.com/economie/kongo-central-en-panne-depuis-trois-semaines-le-bac-de-luozi-perturbe-la-traversee-du-fleuve-et-inquiete-les-commercants/",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Songololo: desvío de la N1 hacia la frontera de Angola",
+   "tipo": "pista",
+   "lat": -5.7,
+   "lon": 14.03333,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; muchos controles.",
+   "autonomia": "Repostar en Matadi o Kinshasa antes del desvío; al otro lado, en Angola, el gasóleo está disponible en casi todo el país según Angola Expert.",
+   "desc": "En Songololo, unos 81 km al este de Matadi, se deja la N1 para ir a la frontera de Lufu–Luvo. Según Bradt, el tramo Songololo–Luvo era una pista de tierra en mal estado, y la RD Congo fue el país con peores carreteras de su ruta. Es el paso terrestre habitual de la RD Congo a Angola por el oeste.",
+   "acceso": "N1 asfaltada Kinshasa–Matadi (con congestión y camiones averiados en las cuestas) y desvío en Songololo; pista hasta Lufu. En agosto de 2023 un viajero tardó unas 3 horas de Matadi a Lufu por las colinas y los atascos de camiones.",
+   "riesgos": "Camiones averiados en las cuestas y tráfico pesado; controles. El MAEC desaconseja los viajes por carretera fuera de Kinshasa y avisa de que las rutas quedan intransitables en lluvias (octubre a mayo). Coordenada: división administrativa de Songololo (aprox.).",
+   "cerca": "Matadi y el puente Maréchal sobre el río Congo",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Bradt Guides: Central Africa, an overland adventure",
+     "url": "https://www.bradtguides.com/central-africa-an-overland-adventure/",
+     "fecha": ""
+    },
+    {
+     "titulo": "WhirledAway: Crossing the border between DR Congo (Lufu) and Angola (Luvo)",
+     "url": "https://whirled-away.com/border-crossing-drc-angola/",
+     "fecha": "2023-08"
+    },
+    {
+     "titulo": "GeoNames: Songololo",
+     "url": "https://www.geonames.org/search.html?q=Songololo&country=CD",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a la República Democrática del Congo",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rep%C3%BAblica+Democr%C3%A1tica+del+Congo",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Lufu–Luvo: frontera con Angola",
+   "tipo": "paso",
+   "lat": -5.84917,
+   "lon": 14.08417,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas específicas encontradas; llevar la documentación sanitaria del perro para la entrada en Angola.",
+   "autonomia": "En Luvo hay cambistas; llevar dólares. Gasóleo en Angola (Mbanza Kongo).",
+   "desc": "Es el paso fronterizo entre Lufu (RD Congo) y Luvo (Angola), a ambos lados de un puente sobre el río. En agosto de 2023 el trámite fue ordenado, sin intentos de soborno en el lado congoleño y algo más lento en el angoleño. Desde aquí empieza la pista hacia Mbanza Kongo (ver Angola).",
+   "acceso": "Pista desde Songololo. El puente fronterizo es corto (unos 500 m de paso a pie en total para quien cruza caminando). Con vehículo, sellar el carné de pasos (Bradt).",
+   "riesgos": "Controles y trámites; el FCDO pide llevar el permiso internacional y los documentos del vehículo en Angola. Coordenada: sede administrativa de Luvo (lado angoleño, aprox.).",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "WhirledAway: Crossing the border between DR Congo (Lufu) and Angola (Luvo)",
+     "url": "https://whirled-away.com/border-crossing-drc-angola/",
+     "fecha": "2023-08"
+    },
+    {
+     "titulo": "Bradt Guides: Central Africa, an overland adventure",
+     "url": "https://www.bradtguides.com/central-africa-an-overland-adventure/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Luvo (Zaire)",
+     "url": "https://www.geonames.org/search.html?q=Luvo&country=AO",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Kinshasa – Kisantu – Mbanza-Ngungu – Kimpese – Songololo – Lufu (frontera de Angola)",
+   "desde": "Kinshasa",
+   "hasta": "Lufu (frontera con Angola)",
+   "km": 300,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "estación seca (junio a septiembre)",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Es la travesía del Kongo Central por la N1 hacia Angola, con desvío en Songololo hacia Lufu. Bradt la describe en estado variable hasta Matadi y con una pista de tierra mala entre Songololo y la frontera. En agosto de 2023 un viajero tardó unas 14 horas entre Kinshasa y Matadi (lo normal serían unas 7) por el tráfico de festivos y los camiones parados en las cuestas.",
+   "firme": "Asfalto en la N1 (irregular, mucho tráfico pesado) y pista de tierra en el desvío Songololo–Lufu.",
+   "autonomia": "Repostar en Kinshasa y en las ciudades de la N1 (Mbanza-Ngungu, Kimpese). En Angola el gasóleo está disponible en casi todo el país según Angola Expert.",
+   "riesgos": "El MAEC (agosto de 2026) desaconseja los viajes no esenciales a la RD Congo, los desplazamientos por carretera fuera de Kinshasa y avisa de secuestros exprés en el centro de Kinshasa. El FCDO no incluye el Kongo Central entre las zonas desaconsejadas; sí pide no ir salvo lo esencial a N'djili y Kimbanseke (sur de la carretera del aeropuerto) y al tramo de la N1 entre Menkao y Kenge (al este, fuera de esta ruta). No hacer fotos del río Congo (Bradt). No conducir de noche.",
+   "puntos": [
+    [
+     -4.30158,
+     15.31647
+    ],
+    [
+     -5.12472,
+     15.08028
+    ],
+    [
+     -5.25833,
+     14.85833
+    ],
+    [
+     -5.56139,
+     14.43139
+    ],
+    [
+     -5.7,
+     14.03333
+    ],
+    [
+     -5.84917,
+     14.08417
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "WhirledAway: Crossing the border between DR Congo (Lufu) and Angola (Luvo)",
+     "url": "https://whirled-away.com/border-crossing-drc-angola/",
+     "fecha": "2023-08"
+    },
+    {
+     "titulo": "Bradt Guides: Central Africa, an overland adventure",
+     "url": "https://www.bradtguides.com/central-africa-an-overland-adventure/",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a la República Democrática del Congo",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rep%C3%BAblica+Democr%C3%A1tica+del+Congo",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "FCDO: DRC travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/warnings-and-insurance",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "GeoNames: Kisantu, Mbanza-Ngungu, Kimpese",
+     "url": "https://www.geonames.org/search.html?q=Kimpese&country=CD",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  }
+ ],
+ "notas": "SEGURIDAD. FCDO (26-08-2026) desaconseja todo viaje a Haut-Uélé e Ituri, Kivu Norte, Kivu Sur, Maniema, Tanganyika, Haut-Lomami, la franja de 50 km de la RCA y el territorio de Kwamouth (Mai-Ndombe); y todo salvo lo esencial en N'djili y Kimbanseke (Kinshasa), la N1 entre Menkao y Kenge, el aeropuerto de Bangoka (Kisangani) y el parque de Upemba. MAEC (24-08-2026) desaconseja todos los viajes no esenciales a la RD Congo y especialmente Ituri, Kivu Norte y Sur, Tanganyika, Haut-Lomami, Haut-Uélé, Bas-Uélé, Mai-Ndombe y Kwilu (entre Kwamouth y Bandundu), además de la franja de 50 km de la RCA; el M23/AFC controla Goma y Bukavu, hay un brote de ébola Bundibugyo declarado emergencia internacional en seis provincias del este y el MAEC desaconseja viajar por carretera fuera de Kinshasa. Todo el este queda descartado. PASO DEL RÍO CONGO. Opciones encontradas: (a) ferry Brazzaville–Kinshasa: una agencia (Congo Travel and Tours) ofrece el paso de vehículos «VIP» desde 4.000 euros con todos los trámites, unas 3 horas de travesía, cierre el domingo a mediodía y 1-3 días de despacho en Kinshasa; (b) vía terrestre Boko–Luozi con el ferry de Luozi (averiado en agosto de 2026); (c) evitar la RD Congo: French Overlander (marzo de 2025) fue de Pointe-Noire a Cabinda y tomó un barco Cabinda–Soyo (unos 800 euros, 3 horas) porque el visado de la RD Congo con carta de invitación costaba unos 300 euros por persona y una semana de espera (ver Angola; Cabinda está desaconsejada salvo lo esencial por el FCDO). DUDAS. (1) Estado del ferry de Luozi en 2027. (2) Estado actual de la pista Songololo–Lufu (Bradt, sin fecha). (3) El ferry de Kinganga (Wikipedia lo da como abierto, en -5.289, 13.737) podría ser otra opción de cruce del río entre Luozi y Matadi, pero no se ha encontrado ninguna información práctica: no se incluye. La pista Matadi–Luozi no se ha podido documentar con fuentes. Perros: sin normas encontradas. Kilómetros: estimación a partir de los puntos de paso (Songololo está 81 km al este de Matadi según Bradt). Wikiloc: no se ha podido comprobar ningún listado. DESCARTADAS. Este de la RD Congo (zona roja). Parque Marino de los Manglares y Muanda: sin fuentes de acceso 4x4. Cataratas de Zongo: sin fuentes sobre el acceso en vehículo."
+}

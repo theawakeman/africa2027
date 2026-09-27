@@ -93,6 +93,11 @@ def wikiloc_pais(slug):
     return f"https://www.wikiloc.com/trails/offroading/{en}" if en else ""
 
 
+def off_fotos(x):
+    """Fotos de un punto o ruta 4x4 (añadidas desde la web con «Añadir fotos»)."""
+    return [f for f in (x.get("photos") or []) if isinstance(f, dict) and f.get("img")]
+
+
 def off_detalle(slug, x, ruta=False):
     """Punto o ruta 4x4 en el formato de la ficha ampliada del mapa (a27PoiDetail)."""
     links = [{"label": f.get("titulo") or "fuente", "url": f["url"]} for f in x.get("fuentes", []) if str(f.get("url", "")).startswith("http")]
@@ -113,7 +118,7 @@ def off_detalle(slug, x, ruta=False):
             "visit": {"access": x.get("acceso", "") or x.get("firme", ""), "when": x.get("epoca", ""),
                       "fuel": x.get("autonomia", ""), "skip": x.get("riesgos", ""),
                       "guide": OFF_GUIA.get(x.get("guia"), x.get("guia", ""))},
-            "links": links, "photos": [], "img": "",
+            "links": links, "photos": off_fotos(x), "img": (off_fotos(x)[0]["img"] if off_fotos(x) else ""),
             "ficha": f"paises/{slug}/#{'rx' if ruta else 'ox'}-{x['n']}"}
 
 
@@ -252,7 +257,21 @@ function a27OpenPoi(p, root, map, marker){
   map.closePopup();
   dialog.showModal();
 }
+function a27Corto(t, n){
+  t = String(t || ''); const i = t.indexOf('. ');
+  if (i > 30 && i < n) return t.slice(0, i + 1);
+  return t.length <= n ? t : t.slice(0, t.lastIndexOf(' ', n)) + '…';
+}
 function a27Popup(p, root){
+  if (p.type === 'offroad') {
+    let o = p.img ? '<img src="'+a27Esc(a27MapSrc(p.img, root))+'" alt="'+a27Esc(p.name || '')+'">' : '';
+    o += '<strong class="a27-popup-title">'+a27Esc(p.name)+'</strong>';
+    o += '<span class="a27-popup-meta">'+a27Esc([p.cat, p.prio, p.time].filter(Boolean).join(' · '))+'</span>';
+    o += '<span class="a27-map-summary">'+a27Esc(a27Corto(p.desc, 150))+'</span>';
+    if (p.dog) o += '<span class="st '+a27Esc(p.dogcls)+'">perro: '+a27Esc(p.dog)+'</span>';
+    return o + '<div class="a27-popup-actions"><button type="button" class="a27-popup-expand">Ver ficha ampliada</button>' +
+      '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
+  }
   let h = '';
   if (p.img) h += '<img src="'+a27Esc(a27MapSrc(p.img, root))+'" alt="'+a27Esc(p.name || '')+'">';
   h += '<strong class="a27-popup-title">'+a27Esc(p.name)+'</strong>';
@@ -350,7 +369,7 @@ function a27Map(elId, cfg){
   }
   (cfg.lines || []).filter(li => !quitar.has(li.label)).forEach(li => {
     const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
-    if (li.title) pl.bindTooltip(li.title, {sticky: true});
+    if (li.title) pl.bindTooltip(a27Esc(li.title).replace(/\n/g, '<br>'), {sticky: true, className: 'a27-tip'});
     pl.addTo(group(li.label || 'Corredor'));
   });
   (cfg.points || []).forEach(p => {
@@ -487,8 +506,7 @@ def off_lineas(d, with_ficha=True):
     for r in d.get("offroad", {}).get("rutas", []):
         mal = r.get("estado") == "desaconsejada"
         out.append({"label": "Rutas 4x4", "color": OFF_MAL if mal else OFF_RUTA, "dash": True,
-                    "title": f"{d['name']} · {r['name']} · ~{r.get('km', '?')} km · {r.get('dificultad', '')}"
-                             + (" · DESACONSEJADA" if mal else "") + " · trazado aproximado",
+                    "title": f"{r['name']}\n~{r.get('km', '?')} km · {r.get('dificultad', '')}" + (" · desaconsejada" if mal else ""),
                     "pts": [[round(a, 5), round(b, 5)] for a, b in r["puntos"]]})
     return out
 
@@ -770,7 +788,8 @@ def render_ficha(d):
     # --- 4x4 y offroad ---
     off = d.get("offroad", {})
     if off.get("puntos") or off.get("rutas"):
-        body.append(sec("offroad", "4x4 y offroad", render_offroad(d, off)))
+        body.append(sec("offroad", "4x4 y offroad", render_offroad(d, off, root)))
+        body.append(f'<script src="{root}assets/js/fotos-4x4.js" defer></script>')
 
     # --- logistics ---
     log_rows = [(lg["name"], lg["cat"], gmaps(lg["lat"], lg["lon"]), lg["info"]) for lg in d["logistics"]]
@@ -809,7 +828,7 @@ def render_ficha(d):
                 ' a27Map("fichamap", A27_FICHA); });</script>')
     return page(root, f"{d['name']} · África 2027", nav + "".join(body), extra_head=extra_head)
 
-def render_offroad(d, off):
+def render_offroad(d, off, root="../../"):
     """Apartado «4x4 y offroad» de la ficha: rutas y puntos con fuentes y enlaces a Wikiloc."""
     def fuentes(x):
         fs = [f'<a href="{attr(f["url"])}" target="_blank" rel="noopener">{esc(f.get("titulo") or f["url"])}</a>'
@@ -819,6 +838,18 @@ def render_offroad(d, off):
     def wl(x):
         return (f' · <a href="{attr(x["wikiloc"])}" target="_blank" rel="noopener">rutas de la zona en Wikiloc</a>'
                 if x.get("wikiloc") else "")
+    def foto(x):
+        fs = off_fotos(x)
+        if not fs:
+            return ""
+        f0 = fs[0]
+        src = f' · <a href="{attr(f0["source"])}" target="_blank" rel="noopener">fuente</a>' if str(f0.get("source", "")).startswith("http") else ""
+        mas = f" · {len(fs)} fotos en la ficha ampliada" if len(fs) > 1 else ""
+        return (f'<figure class="off-foto"><img src="{isrc(root, f0["img"])}" alt="{attr(f0.get("caption") or x["name"])}" loading="lazy">'
+                f'<figcaption>{esc(f0.get("caption") or "")} · {esc(f0.get("credit", ""))}{src}{mas}</figcaption></figure>')
+    def boton(x, k):
+        return (f'<button type="button" class="btn ghost off-add" data-foto4="{attr(d["slug"])}|{k}|{x["n"]}|{attr(x["name"])}" data-raiz="{root}">'
+                f'{"Añadir más fotos" if off_fotos(x) else "Añadir fotos"}</button>')
     def filas(x, pares):
         return "".join(f"<div><dt>{t}</dt><dd>{esc(x[k])}</dd></div>" for k, t in pares if x.get(k))
     rutas = ""
@@ -826,23 +857,25 @@ def render_offroad(d, off):
         mal = r.get("estado") == "desaconsejada"
         rutas += f"""
 <article class="off-card{' mal' if mal else ''}" id="rx-{r['n']}">
-  <h3>{esc(r['name'])}</h3>
+  {foto(r)}<h3>{esc(r['name'])}</h3>
   <div class="poi-tags"><span class="cat">Ruta 4x4</span><span class="prio">{esc(r.get('dificultad', ''))}</span><span class="time">~{esc(r.get('km', '?'))} km · {esc(r.get('dias', '?'))} d</span><span class="off-estado">{esc(r.get('estado', ''))}</span><span>{esc(OFF_GUIA.get(r.get('guia'), r.get('guia', '')))}</span><span class="st {dict(si='ok', condiciones='warn', no='bad').get(r.get('perro'), 'na')}">perro: {esc(OFF_PERRO.get(r.get('perro'), 'sin dato'))}</span></div>
   <p>{esc(r.get('desc', ''))}</p>
   <dl class="poi-decision">{filas(r, (("desde", "Desde"), ("hasta", "Hasta"), ("firme", "Firme"), ("epoca", "Cuándo"), ("autonomia", "Autonomía"), ("riesgos", "Riesgos")))}</dl>
   {fuentes(r)}
   <div class="credit">Trazado aproximado por {len(r['puntos'])} puntos de paso: navegar con un GPX validado{wl(r)} · {gmaps(r['puntos'][0][0], r['puntos'][0][1], 'inicio en Google Maps')}</div>
+  {boton(r, 'rx')}
 </article>"""
     pts = ""
     for x in off.get("puntos", []):
         pts += f"""
 <article class="off-card" id="ox-{x['n']}">
-  <h3>{esc(x['name'])}</h3>
+  {foto(x)}<h3>{esc(x['name'])}</h3>
   <div class="poi-tags"><span class="cat">{esc(OFF_TIPO.get(x.get('tipo'), '4x4'))}</span><span class="prio">{esc(x.get('dificultad', ''))}</span><span>{esc(OFF_GUIA.get(x.get('guia'), x.get('guia', '')))}</span><span class="st {dict(si='ok', condiciones='warn', no='bad').get(x.get('perro'), 'na')}">perro: {esc(OFF_PERRO.get(x.get('perro'), 'sin dato'))}</span>{'<span>coordenada aproximada</span>' if x.get('aprox') else ''}</div>
   <p>{esc(x.get('desc', ''))}</p>
   <dl class="poi-decision">{filas(x, (("acceso", "Acceso"), ("epoca", "Cuándo"), ("autonomia", "Autonomía"), ("riesgos", "Riesgos"), ("perro_nota", "Perro")))}</dl>
   {fuentes(x)}
   <div class="credit">{gmaps(x['lat'], x['lon'], 'abrir ubicación')}{wl(x)}</div>
+  {boton(x, 'ox')}
 </article>"""
     wp = wikiloc_pais(d["slug"])
     intro = (f"<p>Puntos y pistas para los 4x4, aparte de los puntos de interés. En el mapa de arriba están en las capas «4x4 y offroad» "
@@ -2106,7 +2139,7 @@ def main():
         for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js",
                       "assets/js/visamap.js", "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js",
                       "assets/js/viaje.js", "assets/js/planificador-puntos.js", "assets/js/perromap.js",
-                      "assets/js/creador-pdi.js"):
+                      "assets/js/creador-pdi.js", "assets/js/fotos-4x4.js"):
             html_text = html_text.replace(asset + '"', asset + f'?v={huella(SITE / asset)}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)
@@ -2133,7 +2166,8 @@ def main():
     PRECACHE_FUERA = {"assets/js/points.json"}          # 3 MB: solo para «guardar fotos»
     versionados = {"assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js", "assets/js/visamap.js",
                    "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js", "assets/js/viaje.js",
-                   "assets/js/planificador-puntos.js", "assets/js/perromap.js", "assets/js/creador-pdi.js"}
+                   "assets/js/planificador-puntos.js", "assets/js/perromap.js", "assets/js/creador-pdi.js",
+                   "assets/js/fotos-4x4.js"}
     precache = {}
     for rel in sorted(pages):
         if rel == "admin/index.html" or not (SITE / rel).exists():

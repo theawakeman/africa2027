@@ -1,0 +1,245 @@
+{
+ "pais": "liberia",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Ganta: arranque de la pista a Loguatuo (Costa de Marfil)",
+   "tipo": "pista",
+   "lat": 7.23349,
+   "lon": -8.98605,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "diciembre a abril; muy difícil de mayo a noviembre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Ciudad: correa y cuidado con los perros sueltos.",
+   "autonomia": "Repostar en Ganta. Hasta Danané (Costa de Marfil) no hay servicios fiables.",
+   "desc": "Ganta es el nudo del noreste liberiano, al final de la carretera asfaltada desde Monrovia y junto a la frontera guineana. Hacia el este sale la pista a Loguatuo, el paso hacia Danané y Man: una guía de viajeros la describe como una pista de tierra con roderas que empeora rápidamente, y el tramo marfileño hasta Danané como malo y bacheado, con controles policiales. Se incluye como referencia: Liberia está fuera de la ruta por el visado.",
+   "acceso": "Asfalto Monrovia–Ganta (FCDO); desde Ganta, pista de tierra hacia el este.",
+   "riesgos": "MAEC recomienda evitar el condado de Nimba, donde están Ganta y Loguatuo (recomendación de 2024). Controles con cobros ilegales, más peligrosos de noche (FCDO). Carreteras intransitables en lluvias.",
+   "cerca": "Ganta · el nudo del noreste",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "WhirledAway: How to cross the border from Liberia to Ivory Coast",
+     "url": "https://whirled-away.com/liberia-to-ivory-coast-border-crossing/",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Liberia travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/liberia/safety-and-security",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Liberia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Liberia",
+     "fecha": "2024-03"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Greenville: fin de la carretera hacia Sapo",
+   "tipo": "pista",
+   "lat": 5.01537,
+   "lon": -9.03776,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "noviembre a abril (enero y diciembre, los más secos)",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "El parque de Sapo figura como prohibido en la ficha general.",
+   "autonomia": "Greenville es la base logística para Sapo (ficha general). No hay pistas dentro del parque.",
+   "desc": "Sapo es el gran parque de selva primaria de Liberia, cerca de Greenville, pero no hay carreteras que entren en él: solo se visita a pie y con autorización previa de la Forestry Development Authority. Se incluye para dejar claro que el 4x4 llega solo hasta Greenville o el borde del parque. En la época de lluvias los ríos pueden subir más de 4 metros en una noche.",
+   "acceso": "Por la red de carreteras sin asfaltar del sureste; el acceso final es a pie.",
+   "riesgos": "Pistas de laterita intransitables en lluvias (FCDO: de mayo a noviembre). Aislamiento total. Autorización de la FDA obligatoria.",
+   "cerca": "Greenville (Sinoe) · la puerta de Sapo",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Sapo National Park",
+     "url": "https://en.wikipedia.org/wiki/Sapo_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Liberia travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/liberia/safety-and-security",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Wikipedia: Transport in Liberia",
+     "url": "https://en.wikipedia.org/wiki/Transport_in_Liberia",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Zwedru: el eje de laterita del sureste",
+   "tipo": "paso",
+   "lat": 6.06494,
+   "lon": -8.13932,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "diciembre a abril; intransitable a menudo de mayo a noviembre",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos.",
+   "autonomia": "Tramos largos sin servicios; repostar en cada capital de condado.",
+   "desc": "Zwedru es la capital de Grand Gedeh y el nudo del interior sureste entre Ganta y Harper. Solo un 10 % de la red liberiana está asfaltada (fin de 2024) y las carreteras sin asfaltar del interior están, en general, en mal estado. FCDO avisa de que muchas se vuelven intransitables en la época de lluvias. Se incluye como aviso, no como destino.",
+   "acceso": "Carreteras de laterita desde Ganta y desde Harper.",
+   "riesgos": "MAEC recomienda evitar los condados de Nimba, Grand Gedeh, River Gee y Maryland, es decir, todo este eje. Barro, puentes en mal estado y controles.",
+   "cerca": "Zwedru (Grand Gedeh)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Transport in Liberia",
+     "url": "https://en.wikipedia.org/wiki/Transport_in_Liberia",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Liberia travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/liberia/safety-and-security",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Liberia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Liberia",
+     "fecha": "2024-03"
+    }
+   ],
+   "n": 3
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Ganta – Loguatuo: la pista hacia Costa de Marfil",
+   "desde": "Ganta",
+   "hasta": "Loguatuo (frontera con Costa de Marfil)",
+   "km": 91,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "diciembre a abril",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Es el enlace del noreste liberiano con Danané y Man, en el oeste marfileño: pista de tierra con roderas desde Ganta hasta el puesto de Loguatuo. Sería la salida natural del corredor liberiano si el país entrara en la ruta. Se marca desaconsejada porque Liberia está excluida por el visado y porque el MAEC recomienda evitar el condado de Nimba.",
+   "firme": "Pista de tierra con roderas; al otro lado, carretera mala y bacheada hasta Danané.",
+   "autonomia": "Gasóleo en Ganta. Sin servicios fiables hasta Danané.",
+   "riesgos": "MAEC (2024): evitar Nimba. Controles con cobros ilegales y extorsión (sobre todo de noche). Barro en lluvias. En el lado marfileño, las guías citan avisos contra viajes no esenciales en la franja de 20-50 km de la frontera liberiana. Kilometraje y trazado de OSRM sobre OpenStreetMap: el PDI general dice 40 km, pero GeoNames sitúa Loguatuo (Zali) en 7.22389, -8.3475, a unos 70 km en línea recta de Ganta.",
+   "puntos": [
+    [
+     7.23345,
+     -8.98604
+    ],
+    [
+     7.2308,
+     -8.95319
+    ],
+    [
+     7.23036,
+     -8.89244
+    ],
+    [
+     7.24701,
+     -8.86247
+    ],
+    [
+     7.29663,
+     -8.8127
+    ],
+    [
+     7.30527,
+     -8.8032
+    ],
+    [
+     7.32915,
+     -8.74638
+    ],
+    [
+     7.36141,
+     -8.7137
+    ],
+    [
+     7.3686,
+     -8.66506
+    ],
+    [
+     7.3599,
+     -8.60801
+    ],
+    [
+     7.34555,
+     -8.5882
+    ],
+    [
+     7.30572,
+     -8.53188
+    ],
+    [
+     7.28068,
+     -8.50306
+    ],
+    [
+     7.26742,
+     -8.48614
+    ],
+    [
+     7.28306,
+     -8.43408
+    ],
+    [
+     7.28942,
+     -8.39767
+    ],
+    [
+     7.27771,
+     -8.37189
+    ],
+    [
+     7.25771,
+     -8.3664
+    ],
+    [
+     7.23171,
+     -8.36833
+    ],
+    [
+     7.22282,
+     -8.35306
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "WhirledAway: How to cross the border from Liberia to Ivory Coast",
+     "url": "https://whirled-away.com/liberia-to-ivory-coast-border-crossing/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Zali / Loguatuo",
+     "url": "https://www.geonames.org/search.html?q=Loguatuo&country=LR",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Liberia travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/liberia/safety-and-security",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Liberia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Liberia",
+     "fecha": "2024-03"
+    },
+    {
+     "titulo": "OSRM (red viaria de OpenStreetMap): cálculo del trazado entre puntos verificados",
+     "url": "https://router.project-osrm.org/",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  }
+ ],
+ "notas": "Liberia está EXCLUIDA de la ruta por el visado (el eVisa solo sirve en el aeropuerto de Monrovia). Estos datos son solo de referencia. SEGURIDAD. MAEC (ficha del 25-03-2024, la más reciente publicada) recomienda evitar los condados de Nimba, Grand Gedeh, River Gee y Maryland y avisa de controles de carretera para exigir dinero; en lluvias (mayo a noviembre) el interior es muy difícil. FCDO (27-05-2026) no marca zonas en rojo: las carreteras de Monrovia a Buchanan, a Bo Waterside y a Ganta están casi todas asfaltadas y en estado razonable, casi todas las demás están sin asfaltar, y de mayo a noviembre muchas se vuelven intransitables; desaconseja conducir de noche fuera de Monrovia. DUDA IMPORTANTE. La coordenada del PDI general «Loguatuo» (6.84276, -8.66006) no coincide con GeoNames (Zali/Loguatuo, 7.22389, -8.3475), que sí queda en la frontera marfileña: revisar el PDI general. Wikiloc: no se ha podido verificar ningún listado de offroading de Liberia, así que se deja vacío. DESCARTADAS. Robertsport y el lago Piso: no se ha encontrado fuente sobre el estado de la pista. Monte Nimba liberiano (East Nimba): condado de Nimba (MAEC) y sin pistas documentadas. Eje Zwedru–Harper: condados que el MAEC recomienda evitar. Bosque de Gola liberiano: frontera con Sierra Leona (MAEC Sierra Leona) y sin acceso documentado."
+}

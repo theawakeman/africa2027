@@ -242,7 +242,7 @@ function popRuta(r){
   return `<div class="pp-pop"><strong>${esc(r.nombre)}</strong><div class="meta">Ruta 4x4 · ${esc(nom(r.pais))} · ~${num(r.km)} km · ${num(r.dias, 1)} d · ${esc(r.dificultad)}</div>
     <span class="pp-zona ${r.estado === 'desaconsejada' ? 'rojo' : r.estado === 'recomendada' ? '' : 'naranja'}">${esc(r.estado)}</span> <span class="pp-r4">${esc(G_TXT[r.guia] || r.guia || '')}${r.perro ? ' · perro: ' + esc({si: 'sí', condiciones: 'con condiciones', no: 'no', sin_dato: 'sin dato'}[r.perro] || r.perro) : ''}</span>
     <p class="pp-r4">${esc(r.desc)}</p>${r.riesgos ? `<p class="pp-r4"><b>Riesgos:</b> ${esc(r.riesgos)}</p>` : ''}
-    ${acc}<div class="lnk"><a href="${raiz}${esc(r.ficha)}" target="_blank" rel="noopener">Ver en la ficha</a>${r.wikiloc ? `<a href="${esc(r.wikiloc)}" target="_blank" rel="noopener">Wikiloc de la zona</a>` : ''}</div></div>`;
+    ${acc}<div class="lnk"><button type="button" class="a27-popup-expand" data-foto4="${esc(r.pais)}|rx|${esc(r.id.split('-rx').pop())}|${esc(r.nombre)}" data-raiz="${raiz}">Añadir fotos</button><a href="${raiz}${esc(r.ficha)}" target="_blank" rel="noopener">Ver en la ficha</a>${r.wikiloc ? `<a href="${esc(r.wikiloc)}" target="_blank" rel="noopener">Wikiloc de la zona</a>` : ''}</div></div>`;
 }
 let CAPA_4 = null;
 function pintar4x4(){
@@ -251,7 +251,7 @@ function pintar4x4(){
   CAPA_4.clearLayers();
   const ver = !$('pp-ver4x4') || $('pp-ver4x4').checked, act = $('pp-vertodos').checked ? null : new Set(S.paises);
   const dib = (r, color) => L.polyline(r.pts, {pane: 'rutas', color, weight: 4, opacity: .85, dashArray: r.gpx ? null : '9 6'})
-    .bindTooltip((r.gpx ? 'GPX · ' : 'Ruta 4x4 · ') + esc(r.nombre) + ' · ~' + num(r.km) + ' km', {sticky: true})
+    .bindTooltip('<b>' + esc(r.nombre) + '</b><br>' + (r.gpx ? 'GPX' : 'Ruta 4x4') + ' · ~' + num(r.km) + ' km', {sticky: true, className: 'a27-tip'})
     .bindPopup(() => popRuta(r), {maxWidth: 330, minWidth: 250}).addTo(CAPA_4);
   if (ver) Object.values(R4).forEach(r => { if (!act || act.has(r.pais)) dib(r, r.estado === 'desaconsejada' ? '#B43A3A' : '#9C6B00'); });
   Object.keys(GPX).forEach(id => dib(ruta4(id), '#7B3FA0'));
@@ -910,11 +910,13 @@ function acciones(p){
 const perroTxt = p => ({si: 'perro: sí', condiciones: 'perro: con condiciones', no: 'perro: no', sin_dato: 'perro: sin dato'}[p.perro] || '');
 function popPunto(p){
   const d = det(p), pd = perroTxt(p);
-  const img = d && d.img ? `<img src="${esc(/^https?:/.test(d.img) ? d.img : raiz + d.img)}" alt="${esc(p.nombre)}" loading="lazy">` : '';
+  const loc = p.offroad && window.A27Fotos4x4 ? A27Fotos4x4.locales(p.pais + '-ox' + p.n) : [];
+  const img = d && d.img ? `<img src="${esc(/^https?:/.test(d.img) ? d.img : raiz + d.img)}" alt="${esc(p.nombre)}" loading="lazy">` : (loc.length ? `<img src="${esc(loc[0].img)}" alt="${esc(p.nombre)}">` : '');
   const res = d && d.desc ? `<span class="a27-map-summary">${esc(d.desc)}</span>` : (!DET && !p.libre ? '<span class="pp-cargando">Cargando la ficha…</span>' : '');
   const en = S.ida.includes(p.id) ? ' · <b>en la ida</b>' : S.vuelta.includes(p.id) ? ' · <b>en la vuelta</b>' : '';
   const lnk = (p.libre ? `<button type="button" class="a27-popup-expand" data-crear="${p.lat},${p.lon}">Crear un punto aquí</button>` : `<button type="button" class="a27-popup-expand" data-ficha="${esc(p.id)}">Ver ficha ampliada</button>`) +
     (p.propio ? `<button type="button" class="a27-popup-expand" data-editar="${esc(p.id)}">Editar o publicar</button>` : '') +
+    (p.offroad ? `<button type="button" class="a27-popup-expand" data-foto4="${esc(p.pais)}|ox|${p.n}|${esc(p.nombre)}" data-raiz="${raiz}">Añadir fotos</button>` : '') +
     `<a href="https://www.google.com/maps?q=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a>`;
   return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${(() => { const z = zonaDe(p.lat, p.lon); return z ? `<span class="pp-zona ${z.nivel}">${z.nivel === 'guia' ? 'guía o autorización obligatoria' : (z.nivel === 'rojo' ? 'zona roja' : 'zona naranja') + ' · ' + esc(z.organismo || 'FCDO')}</span>` : ''; })()}${p.propio ? `<span class="pp-propio">punto propio · ${p.publicado ? 'publicado, ' : ''}por revisar</span>` : ''}${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
 }
@@ -952,7 +954,7 @@ function pintarPuntos(){
   Object.values(PUNTOS).forEach(p => {
     if (sel.has(p.id) || (act && !act.has(p.pais))) return;
     if (p.offroad) { if (v4) conPopup(L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: '<div class="pp-mk4"></div>', iconSize: [14, 14], iconAnchor: [7, 7]}), zIndexOffset: 100})
-      .bindTooltip(esc(p.nombre) + ' · ' + esc(p.cat)), p).addTo(CAPA_P); return; }
+      .bindTooltip('<b>' + esc(p.nombre) + '</b><br>' + esc(p.cat), {className: 'a27-tip'}), p).addTo(CAPA_P); return; }
     const imp = /imprescindible/i.test(p.prio);
     // En su propio panel, por encima de las zonas: siempre se pueden tocar
     conPopup(L.circleMarker([p.lat, p.lon], {pane: 'puntos', radius: imp ? 6.5 : 5, color: '#fff', weight: 1.5, fillColor: p.perro === 'no' ? '#8A949A' : '#46535B', fillOpacity: .9})

@@ -1,0 +1,970 @@
+{
+ "pais": "kenia",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Maralal: arranque de la A4 hacia Baragoi y el lago Turkana",
+   "tipo": "pista",
+   "lat": 1.09589,
+   "lon": 36.69791,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca; evitar las lluvias de marzo a mayo",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Ciudad fuera de parques; sin normas específicas conocidas. Al norte el calor pasa de 40 °C: limitar la exposición del perro.",
+   "autonomia": "Última ciudad grande de Samburu antes de la bajada al lago; salir con depósitos llenos y agua para al menos dos días.",
+   "desc": "Maralal es la capital del condado de Samburu, en una ladera al este de la meseta de Loroghi, y el punto de partida clásico de la vía de Baragoi y South Horr hacia Loiyangalani. Los operadores de expediciones al valle de Suguta la usan como base de la primera noche, porque es fresca por la noche y por la mañana. Desde aquí el terreno baja por etapas hasta el calor del lago Turkana.",
+   "acceso": "Desde el sur por Kisima (18 km al sureste) y la meseta de Loroghi. Hacia el norte, la A4 sigue por Baragoi y South Horr.",
+   "riesgos": "El MAEC (01-09-2026) incluye entre las zonas que deben evitarse el North Rift, y en el condado de Samburu cita expresamente Loroki y Kirisia (el entorno de Maralal), con toque de queda nocturno de 18:00 a 06:00 y operaciones de seguridad. El FCDO (04-09-2026) cita operaciones de seguridad por bandidaje y robo de ganado en Samburu, Baringo y otros condados del norte, sobre todo en zonas remotas.",
+   "cerca": "Reserva Nacional de Samburu",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Maralal",
+     "url": "https://mapcarta.com/W678380669",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mara Nomads: 5-Day Lake Logipi Expedition (Maralal como base)",
+     "url": "https://www.maranomads.com/solo_tour/5-day-lake-logipi-expedition",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "FCDO: Kenya, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/kenya/regional-risks",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "South Horr: valle verde de la A4 antes de bajar al lago",
+   "tipo": "pista",
+   "lat": 2.09898,
+   "lon": 36.92064,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca; evitar las lluvias de marzo a mayo",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas específicas; zona muy calurosa y aislada, sin veterinario.",
+   "autonomia": "Sin servicios fiables: llegar con gasóleo desde Maralal para alcanzar Loiyangalani y con agua de reserva.",
+   "desc": "South Horr es una aldea a 1.037 m, en la A4 que une Maralal y Baragoi con Loiyangalani, a los pies del monte Ng'iro y de su reserva forestal. Es la última zona alta y con vegetación antes de la bajada a la orilla sur del lago Turkana. Pertenece al condado de Marsabit.",
+   "acceso": "Por la A4 desde Baragoi (pista de tierra y piedra). Hacia el norte, bajada a Loiyangalani por terreno rocoso y volcánico.",
+   "riesgos": "Condado de Marsabit: el MAEC (01-09-2026) lo incluye entero entre las zonas de riesgo alto que deben evitarse por conflictos entre comunidades. Aislamiento, calor y controles policiales con registro del vehículo (relato de 2024). Ruta desaconsejada; si se hace, con guía local y escolta según indiquen las autoridades.",
+   "cerca": "Marsabit · puerta del bucle del norte",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: South Horr",
+     "url": "https://mapcarta.com/12705416",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: South Horr",
+     "url": "https://en.wikipedia.org/wiki/South_Horr",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "A Kenyan Nomad: Exploring northern Kenya, an Eastern Lake Turkana traverse",
+     "url": "https://akenyannomad.com/2024/03/14/exploring-northern-kenya-an-eastern-lake-turkana-traverse/",
+     "fecha": "2024-03"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Loiyangalani: oasis de palmeras en la orilla del lago Turkana",
+   "tipo": "oasis",
+   "lat": 2.75768,
+   "lon": 36.71866,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "estación seca; temperaturas de 40 °C incluso en febrero",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "perro_nota": "Los campamentos no publican su política con mascotas; consultar. Calor extremo: el perro necesita sombra y agua constantes.",
+   "autonomia": "Gasóleo solo en bidones, según un viajero de 2019, que tiró de su depósito auxiliar para seguir. No contar con repostar aquí: llegar con autonomía para ir hasta Marsabit (unos 300 km por el Chalbi) o volver a Maralal.",
+   "desc": "Es un pequeño pueblo en la orilla sureste del lago Turkana, a 379 m, cuyo nombre significa en samburu 'lugar de muchos árboles'. El campamento Palm Shade está construido alrededor de un manantial de agua templada, un oasis de palmeras en pleno desierto de lava. Es la base para la aldea El Molo (8 km al norte), las pinturas rupestres y el cruce del Chalbi hacia Marsabit.",
+   "acceso": "Desde South Horr por pista muy rocosa (un viajero de 2019 la describe como 'rocas y más rocas') y cruzando el parque eólico; o desde Marsabit por el Chalbi y North Horr. Neumáticos todoterreno en buen estado y ruedas de repuesto.",
+   "riesgos": "Condado de Marsabit: el MAEC (01-09-2026) lo incluye entero entre las zonas que deben evitarse por conflictos entre comunidades. Controles policiales con revisión de documentos y del vehículo, y posible confiscación de fotos (relato de 2024). Calor extremo, sin cobertura en muchos tramos. Las empresas de alquiler de 4x4 prohíben ir al norte de Samburu por la inestabilidad ligada al robo de ganado.",
+   "cerca": "Marsabit · puerta del bucle del norte",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Loiyangalani",
+     "url": "https://mapcarta.com/32953010",
+     "fecha": ""
+    },
+    {
+     "titulo": "The Road Chose Me: Loiyangalani, Lake Turkana",
+     "url": "http://theroadchoseme.com/loiyangalani-lake-turkana",
+     "fecha": "2019-02"
+    },
+    {
+     "titulo": "A Kenyan Nomad: Exploring northern Kenya, an Eastern Lake Turkana traverse",
+     "url": "https://akenyannomad.com/2024/03/14/exploring-northern-kenya-an-eastern-lake-turkana-traverse/",
+     "fecha": "2024-03"
+    },
+    {
+     "titulo": "Roadtrip Africa: Off limit areas in Kenya for self-drive rentals",
+     "url": "https://www.roadtripafrica.com/kenya/practical-info/restricted-areas/",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "North Horr: parada entre el lago y el Chalbi",
+   "tipo": "oasis",
+   "lat": 3.32168,
+   "lon": 37.07062,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "estación seca",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; calor extremo.",
+   "autonomia": "Un relato de 2024 la usa como parada de noche y de suministros entre Loiyangalani y Marsabit. No hay datos fiables de gasóleo: llevar autonomía completa.",
+   "desc": "Aldea de unos 5.000 habitantes a 382 m, con misión católica y centro de salud. Es la etapa natural entre Loiyangalani y el desierto del Chalbi en la travesía del lago Turkana por el este. Un grupo de 2024 durmió aquí en cabañas ventiladas.",
+   "acceso": "Pista de lava y arena desde Loiyangalani; hacia el este, pista por el borde del Chalbi hasta Kalacha.",
+   "riesgos": "Condado de Marsabit, a menos de 100 km de Etiopía: el MAEC (01-09-2026) desaconseja el condado y las zonas fronterizas con Etiopía (incursiones de grupos armados). Controles policiales. Aislamiento total.",
+   "cerca": "Marsabit · puerta del bucle del norte",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: North Horr",
+     "url": "https://mapcarta.com/12712140",
+     "fecha": ""
+    },
+    {
+     "titulo": "A Kenyan Nomad: Exploring northern Kenya, an Eastern Lake Turkana traverse",
+     "url": "https://akenyannomad.com/2024/03/14/exploring-northern-kenya-an-eastern-lake-turkana-traverse/",
+     "fecha": "2024-03"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Desierto del Chalbi (borde de Kalacha)",
+   "tipo": "paso",
+   "lat": 3.17052,
+   "lon": 37.35015,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "solo en seco: con lluvia el suelo de barro y sal se vuelve blando y pegajoso y se forman lagos temporales",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas; sin sombra, viento fuerte y tormentas de arena. Proteger al perro del calor y del polvo.",
+   "autonomia": "Sin servicios entre North Horr y Marsabit. Un relato indica llevar comida y agua porque apenas hay tiendas abiertas en los pueblos.",
+   "desc": "El Chalbi es un antiguo lecho de lago de unos 110 km de largo y 10 a 20 km de ancho: barro seco, sal, roca y coladas de lava. Es el único desierto propiamente dicho de Kenia y el tramo más espectacular de la vuelta al lago Turkana por el este. El oasis de Kalacha, con manantiales, está en su borde.",
+   "acceso": "Pista de arena mezclada con sal y arcilla blanca, y tramos de fragmentos de lava. Un relato de 2018 tardó unas 9 horas en los 300 km Marsabit–Maikona–Kalacha–North Horr–Loiyangalani con un 4x4 preparado.",
+   "riesgos": "Barro con lluvia (se vuelve blando y pegajoso), vientos de más de 50 km/h más de 50 días al año y tormentas de arena, navegación. Condado de Marsabit: el MAEC (01-09-2026) lo incluye entre las zonas que deben evitarse.",
+   "cerca": "Marsabit · puerta del bucle del norte",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Chalbi Desert",
+     "url": "https://mapcarta.com/12745438",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Chalbi Desert",
+     "url": "https://en.wikipedia.org/wiki/Chalbi_Desert",
+     "fecha": ""
+    },
+    {
+     "titulo": "Travel with Shreya: From Marsabit National Park via Chalbi Desert to Loiyangalani",
+     "url": "https://travelwithshreya.com/kenya-safari-marsabit-national-park-chalbi-desert-loiyangalani/",
+     "fecha": "2018-08"
+    },
+    {
+     "titulo": "Mapcarta: Kalacha",
+     "url": "https://mapcarta.com/37331212",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Marsabit: última ciudad antes del Chalbi",
+   "tipo": "repostaje",
+   "lat": 2.33806,
+   "lon": 37.99164,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "En la ciudad, sin restricciones conocidas. El Parque Nacional de Marsabit que la rodea es un parque del KWS: perros prohibidos.",
+   "autonomia": "Punto de suministro de la travesía del lago por el este (relato de 2024). Llenar depósitos y agua aquí: hacia Maikona, Kalacha y North Horr no hay servicios fiables.",
+   "desc": "Marsabit es la principal ciudad del norte, casi rodeada por el Parque Nacional de Marsabit, y está en la A2 que une Isiolo con Moyale y Etiopía. Es el punto de salida hacia el oeste por Maikona y el Chalbi. El parque es de interés especial para el KWS (tarifa reducida, unos 40 USD por no residente en la tabla de 2025).",
+   "acceso": "Por la A2 asfaltada desde Isiolo o desde Moyale.",
+   "riesgos": "El MAEC (01-09-2026) incluye todo el condado de Marsabit entre las zonas que deben evitarse. El FCDO (04-09-2026) informa de ataques con minas cerca de Moyale en la A2 y aconseja no parar en Sololo y seguir directo hasta Marsabit.",
+   "cerca": "Marsabit · puerta del bucle del norte",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Marsabit",
+     "url": "https://mapcarta.com/N44929360",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Kenya, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/kenya/regional-risks",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Safari Desire: New 2025 conservation fees, KWS park entry",
+     "url": "https://www.safaridesire.com/new-2025-conservation-fees-kws-park-entry/",
+     "fecha": "2025-10"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Valle de Suguta y lago Logipi",
+   "tipo": "paso",
+   "lat": 2.233,
+   "lon": 36.567,
+   "aprox": true,
+   "dificultad": "muy difícil",
+   "epoca": "estación seca; salidas de madrugada por el calor",
+   "guia": "obligatorio",
+   "perro": "no",
+   "perro_nota": "Calor extremo, sin agua dulce ni sombra: no llevar al perro.",
+   "autonomia": "Totalmente autónomo. Los operadores lo hacen como ida y vuelta en el día desde la zona de Baragoi/Ng'iro, con jornadas de 10 horas.",
+   "desc": "El Suguta es una fosa del Rift al sur del lago Turkana, de las zonas más secas y calurosas de Kenia, cerrada al norte por el volcán Barrier. En su extremo norte está el lago Logipi, salino y alimentado por fuentes termales, con flamencos y costras de sal. Es una de las expediciones 4x4 más duras del país: unos 2.000 km, el 60 % fuera de asfalto, con vados, rocas y pendientes fuertes.",
+   "acceso": "Desde Maralal y Baragoi por pistas de roca y lechos de río; un operador lleva seguridad armada en puntos concretos. Coordenadas redondeadas del lago (Wikipedia).",
+   "riesgos": "Wikipedia lo describe como refugio de ladrones de ganado y zona donde no entra la policía. Está en el área que el MAEC (01-09-2026) manda evitar (Turkana y el North Rift). Calor extremo, sin agua, navegación. Desaconsejado.",
+   "cerca": "Lago Bogoria · géiseres y aguas termales",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Suguta Valley",
+     "url": "https://en.wikipedia.org/wiki/Suguta_Valley",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Lake Logipi",
+     "url": "https://en.wikipedia.org/wiki/Lake_Logipi",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mara Nomads: 5-Day Lake Logipi Expedition",
+     "url": "https://www.maranomads.com/solo_tour/5-day-lake-logipi-expedition",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Eliye Springs: playa y duna en la orilla oeste del Turkana",
+   "tipo": "oasis",
+   "lat": 3.23639,
+   "lon": 35.97444,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "perro_nota": "El resort no publica su política con mascotas; consultar. Calor extremo.",
+   "autonomia": "Sin cobertura móvil. Repostar en Lodwar, a 50 km.",
+   "desc": "Aldea en la orilla oeste del lago Turkana, cerca de la desembocadura del Turkwel, con manantiales que sostienen un palmeral de palmeras dum. Tiene un pequeño resort, varias zonas de acampada en la playa y una gran duna con vistas al lago. Es la meta clásica del lado oeste del lago.",
+   "acceso": "Desde Lodwar, 50 km hacia el este (en 1982 se tardaba unas 2 horas). Coordenadas de la pista de aterrizaje de Eliye Springs.",
+   "riesgos": "Todo el condado de Turkana está entre las zonas que el MAEC (01-09-2026) manda evitar. La carretera Kitale–Lodwar ha sufrido emboscadas: toque de queda nocturno entre Marich y Lokichar (2024) y escoltas policiales entre Kainuk y Lami Nyeusi tras varios muertos (diciembre de 2025). Desaconsejado.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Eliye Springs",
+     "url": "https://en.wikipedia.org/wiki/Eliye_Springs",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Eliye Springs Airport",
+     "url": "https://en.wikipedia.org/wiki/Eliye_Springs_Airport",
+     "fecha": ""
+    },
+    {
+     "titulo": "Turkana County Tourism: The beaches of Eliye Springs",
+     "url": "https://tourism.turkana.go.ke/tour-item/the-beaches-of-eliye-springs/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Kenya News Agency: Motorists plying Kitale–Lodwar highway to get police escort",
+     "url": "https://www.kenyanews.go.ke/motorists-plying-kitale-lodwar-highway-to-get-police-escort/",
+     "fecha": "2025-12"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "Valle del Kerio y garganta de Cheploch",
+   "tipo": "paso",
+   "lat": 0.67722,
+   "lon": 35.60851,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "julio y agosto (fin de las lluvias, sin calor excesivo)",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Fuera de la Reserva Nacional del Valle del Kerio, sin normas específicas. Calor en el fondo del valle.",
+   "autonomia": "Tramo corto entre Iten y Kabarnet; repostar en cualquiera de las dos ciudades.",
+   "desc": "El Kerio es una fosa del Rift de unos 80 km de largo y hasta 1.200 m de profundidad, entre los montes Tugen y el escarpe de Elgeyo. La carretera C51 Iten–Kabarnet baja por el escarpe y cruza el río en la garganta de Cheploch, a unos 39 km de Iten, un tajo en el basalto con un puente moderno y otro colonial abandonado. Es uno de los descensos más espectaculares del país.",
+   "acceso": "Por la C51 desde Iten (2.355 m) hasta el fondo del valle (unos 1.000 m) y subida a Kabarnet. Las pistas laterales del valle son de tierra. Coordenada del valle según Mapcarta; la garganta no tiene coordenada verificada.",
+   "riesgos": "El FCDO (04-09-2026) cita el valle del Kerio como foco de bandidaje con operaciones de seguridad. En 2025 hubo ataques contra personas de fuera en Tot y la Iglesia suspendió su trabajo en la zona. El MAEC manda evitar Marakwet Este y Oeste y varias zonas de Baringo (Tiaty, Mukutani, Bartabwa). Solo de día, por la C51 y tras consultar la situación local.",
+   "cerca": "Lago Bogoria · géiseres y aguas termales",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Kerio Valley",
+     "url": "https://mapcarta.com/Kerio_Valley",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kerio Valley",
+     "url": "https://en.wikipedia.org/wiki/Kerio_Valley",
+     "fecha": ""
+    },
+    {
+     "titulo": "Condado de Elgeyo Marakwet: Cheploch Gorge",
+     "url": "https://www.elgeyomarakwet.go.ke/docs/HTML/cheploch_gorge.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Daily Nation: Catholic Church halts aid operations in volatile Kerio Valley",
+     "url": "https://nation.africa/kenya/counties/elgeyo-marakwet/catholic-church-halts-aid-operations-in-volatile-kerio-valley-5065568",
+     "fecha": "2025-06"
+    },
+    {
+     "titulo": "FCDO: Kenya, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/kenya/regional-risks",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 9
+  },
+  {
+   "name": "Archer's Post: entrada a la Reserva Nacional de Samburu",
+   "tipo": "pista",
+   "lat": 0.63849,
+   "lon": 37.66707,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "estación seca (junio-octubre)",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Perros prohibidos dentro de parques y reservas de Kenia. Dejarlo en un alojamiento que lo admita fuera de la reserva.",
+   "autonomia": "Acceso por asfalto (A2); la reserva es pequeña (165 km²).",
+   "desc": "Archer's Post es el pueblo de la puerta principal de Samburu, una reserva de 165 km² junto al río Ewaso Ng'iro, con palmeras dum y bosque de ribera. Tiene fauna de zona seca que no se ve en el sur: gerenuk, cebra de Grévy, jirafa reticulada y órix. La gestiona el condado de Samburu, no el KWS.",
+   "acceso": "A2 asfaltada Isiolo–Marsabit hasta Archer's Post; dentro, pistas de tierra y arena junto al río.",
+   "riesgos": "El FCDO (04-09-2026) menciona operaciones de seguridad en zonas remotas de Samburu e Isiolo; la reserva está fuera de las subzonas que cita el MAEC (Loroki y Kirisia). Las empresas de alquiler fijan Samburu como límite norte. Arena blanda en los lechos secos.",
+   "cerca": "Reserva Nacional de Samburu",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Archers Post",
+     "url": "https://mapcarta.com/Archers_Post",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Samburu National Reserve",
+     "url": "https://en.wikipedia.org/wiki/Samburu_National_Reserve",
+     "fecha": ""
+    },
+    {
+     "titulo": "Roadtrip Africa: Off limit areas in Kenya for self-drive rentals",
+     "url": "https://www.roadtripafrica.com/kenya/practical-info/restricted-areas/",
+     "fecha": ""
+    },
+    {
+     "titulo": "4x4 Kenya: Can I go on a game drive with my dog in Kenya or Tanzania?",
+     "url": "https://www.4x4kenya.com/dog-safari-east-africa/",
+     "fecha": "2026-06"
+    }
+   ],
+   "n": 10
+  },
+  {
+   "name": "Sekenani: puerta este del Masái Mara",
+   "tipo": "pista",
+   "lat": -1.51802,
+   "lon": 35.33788,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "junio-octubre (seco; migración y cruces del río en agosto-septiembre); evitar marzo-mayo",
+   "guia": "recomendado",
+   "perro": "no",
+   "perro_nota": "Perros prohibidos en el Masái Mara (multas, expulsión y posible arresto). Hay conservancias y zonas de amortiguación donde algunos alojamientos admiten perros atados.",
+   "autonomia": "Repostar en Narok; hay gasolineras más pequeñas y caras en Talek y Sekenani, y gasóleo en algunos lodges.",
+   "desc": "Es la puerta principal y la más usada del Masái Mara. La carretera desde Narok está asfaltada, pero dentro de la reserva todo son pistas: unas 3-4 horas hasta el puente del Mara (Purungat) para pasar al Triángulo. En agosto y septiembre los grandes cruces del río están entre la zona de Lookout, el Cul-de-Sac y Purungat.",
+   "acceso": "Asfalto Narok–Sekenani. Dentro: pistas de tierra con barro de algodón negro muy resbaladizo cuando llueve, rodadas y orillas empinadas. Una guía recomienda bajar a 28-30 psi en grava suelta y volver a 35 psi en asfalto. Coordenada del pueblo de Sekenani; la puerta está en su entorno.",
+   "riesgos": "Prohibido salir de las pistas (multas fuertes). El permiso vale 12 horas: salir tarde supone pagar otro día. Pagar por el portal del condado de Narok, no por el del KWS. La norma de 'self-drive' cambia: una fuente sin fecha dice que hace falta ranger (40 USD/día); otras de 2025-2026 dicen que a veces lo exigen según el vehículo y la conducta. No hay alerta del FCDO ni del MAEC en la zona.",
+   "cerca": "Reserva Nacional Masái Mara",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Sekenani",
+     "url": "https://mapcarta.com/N11637858916",
+     "fecha": ""
+    },
+    {
+     "titulo": "Self Drive East Africa: Guide to self drive in Masai Mara",
+     "url": "https://www.selfdriveeastafrica.com/guide-to-self-drive-in-masai-mara-game-reserve/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Black Leopard 4x4 Hire: How to camp and self drive in the Masai Mara",
+     "url": "https://www.blackleopard4x4hire.com/post/how-to-camp-and-self-drive-in-the-masai-mara-2025",
+     "fecha": "2026-01"
+    },
+    {
+     "titulo": "Hilmuks: Masai Mara self drive rules 2026",
+     "url": "https://www.hilmuks.com/masai-mara-self-drive-rules/",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "4x4 Kenya: Peak wildebeest Mara river crossing, self-drive ideas",
+     "url": "https://www.4x4kenya.com/peak-wildebeest-mara-river-crossing/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Roadtrip Africa: Kenya's national parks, fees and permits",
+     "url": "https://www.roadtripafrica.com/kenya/practical-info/national-parks/",
+     "fecha": ""
+    },
+    {
+     "titulo": "4x4 Kenya: Can I go on a game drive with my dog in Kenya or Tanzania?",
+     "url": "https://www.4x4kenya.com/dog-safari-east-africa/",
+     "fecha": "2026-06"
+    }
+   ],
+   "n": 11
+  },
+  {
+   "name": "Oloololo: puerta del Triángulo del Mara bajo el escarpe",
+   "tipo": "paso",
+   "lat": -1.26069,
+   "lon": 34.999,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "junio-octubre; con lluvia, barro",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Perros prohibidos en la reserva, incluido el Triángulo.",
+   "autonomia": "Gasóleo solo en campamentos y lodges, y a veces falta: preguntar antes.",
+   "desc": "La puerta de Oloololo da acceso al Triángulo del Mara, el sector oeste de la reserva que gestiona la Mara Conservancy, al pie del escarpe de Oloololo (Siria). Varias fuentes lo recomiendan para conducir por libre porque las normas se aplican con más coherencia. Desde la puerta hasta el puente de Purungat hay algo más de una hora por la pista principal.",
+   "acceso": "La ruta más rápida desde fuera de la reserva es la de Aitong. Basta cualquier 4x4 con reductora. Coordenada del camping público de la puerta (la caseta está 300 m al noroeste).",
+   "riesgos": "Límite de 50 km/h en pistas niveladas y 30 km/h en el resto, con radares. Prohibido salir de pista en las zonas de uso intensivo; en las de uso bajo solo para acercarse a grandes felinos (hasta 25 m). La tasa del vehículo vale 12 horas.",
+   "cerca": "Reserva Nacional Masái Mara",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Olololo Gate Public Campsite (Mara Triangle)",
+     "url": "https://mapcarta.com/W666754118",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Esoit Oloololo Escarpment",
+     "url": "https://mapcarta.com/12705682",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mara Conservancy: Driving to the Mara Triangle",
+     "url": "https://www.maratriangle.org/driving-to-the-mara-triangle-2",
+     "fecha": ""
+    },
+    {
+     "titulo": "Black Leopard 4x4 Hire: How to camp and self drive in the Masai Mara",
+     "url": "https://www.blackleopard4x4hire.com/post/how-to-camp-and-self-drive-in-the-masai-mara-2025",
+     "fecha": "2026-01"
+    }
+   ],
+   "n": 12
+  },
+  {
+   "name": "Amboseli: lecho seco del lago (Ol Tukai)",
+   "tipo": "pista",
+   "lat": -2.66588,
+   "lon": 37.27963,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "estación seca (polvo); con lluvia, el lecho se vuelve barro",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Parque nacional del KWS: perros prohibidos.",
+   "autonomia": "Repostar antes de entrar; el parque es pequeño (392 km²).",
+   "desc": "Amboseli ocupa un antiguo lago seco del Pleistoceno, con pantanos alimentados por el Kilimanjaro que contrastan con la llanura árida. Ol Tukai es la zona central de alojamientos. Es uno de los parques 'premium' del KWS: 90 USD por no residente y día con las tarifas de octubre de 2025.",
+   "acceso": "Pistas de tierra y polvo dentro del parque. Pago solo sin efectivo (eCitizen/KWSPay, tarjeta o M-Pesa).",
+   "riesgos": "Polvo fino y remolinos en seco; barro en el lecho del lago con lluvia. Prohibido salir de pista. Sin alertas del FCDO ni del MAEC.",
+   "cerca": "Parque Nacional de Amboseli",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Ol Tukai",
+     "url": "https://mapcarta.com/Ol_Tukai",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Amboseli National Park",
+     "url": "https://en.wikipedia.org/wiki/Amboseli_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "BestKenya: Kenya park entry fees 2026",
+     "url": "https://bestkenya.ke/guides/kenya-park-entry-fees",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "4x4 Kenya: Can I go on a game drive with my dog in Kenya or Tanzania?",
+     "url": "https://www.4x4kenya.com/dog-safari-east-africa/",
+     "fecha": "2026-06"
+    }
+   ],
+   "n": 13
+  },
+  {
+   "name": "Tsavo Oeste: colada de lava de Shetani y puerta de Chyulu",
+   "tipo": "pista",
+   "lat": -2.91675,
+   "lon": 37.99976,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Parque nacional del KWS: perros prohibidos.",
+   "autonomia": "Repostar antes de entrar; alojamiento y camping público en la zona de Kilaguni y Chyulu.",
+   "desc": "La colada de Shetani es un campo de lava negra de la erupción de 1856 de los volcanes Shaitani y Chainu, en el extremo del macizo de Chyulu, que separa las llanuras de Tsavo y Amboseli. Está a unos 7 km al oeste de Kilaguni y cerca de la puerta de Chyulu, que conecta Tsavo Oeste con el Parque Nacional de las Colinas de Chyulu. Tsavo Oeste cuesta 80 USD por no residente y día (tarifas de octubre de 2025).",
+   "acceso": "Por las pistas de Tsavo Oeste desde Kilaguni; hay un camping público a 4,5 km de la colada. Puerta de Chyulu en -2.90557, 38.04085.",
+   "riesgos": "Lava cortante: neumáticos en buen estado. No hay alertas del FCDO ni del MAEC en Tsavo Oeste.",
+   "cerca": "Parque Nacional de Tsavo Oeste",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Shetani Lava Flow",
+     "url": "https://mapcarta.com/Shetani_Lava_Flow",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Chyulu Gate",
+     "url": "https://mapcarta.com/Chyulu_Gate",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Chyulu Hills National Park",
+     "url": "https://en.wikipedia.org/wiki/Chyulu_Hills_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "BestKenya: Kenya park entry fees 2026",
+     "url": "https://bestkenya.ke/guides/kenya-park-entry-fees",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 14
+  },
+  {
+   "name": "Hell's Gate: puerta Elsa y la garganta",
+   "tipo": "pista",
+   "lat": -0.85255,
+   "lon": 36.36903,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año; evitar la garganta con lluvia",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Parque nacional del KWS: perros prohibidos. Hay campings junto al lago Naivasha, fuera del parque.",
+   "autonomia": "A 90 km de Nairobi y junto a Naivasha: sin problema de gasóleo.",
+   "desc": "Parque pequeño (68 km²) junto al lago Naivasha, con la torre de Fischer y la Central Tower (chimeneas volcánicas), la garganta de paredes rojas y fuentes termales. Es uno de los dos parques de Kenia donde se puede ir a pie, en bici o en moto, y tiene tres campings básicos. Tarifa: 50 USD por no residente y día (octubre de 2025).",
+   "acceso": "Desde Naivasha por la carretera sur del lago hasta la puerta Elsa; pistas de tierra y roca volcánica dentro. Dentro hay centrales geotérmicas (Olkaria).",
+   "riesgos": "Crecidas repentinas en la garganta con lluvia. Sin alertas del FCDO ni del MAEC.",
+   "cerca": "Monte Longonot y lago Naivasha",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Elsa Gate",
+     "url": "https://mapcarta.com/Elsa_Gate",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Hell's Gate National Park",
+     "url": "https://en.wikipedia.org/wiki/Hell%27s_Gate_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "BestKenya: Kenya park entry fees 2026",
+     "url": "https://bestkenya.ke/guides/kenya-park-entry-fees",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 15
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Lago Turkana por el este: Maralal – Baragoi – South Horr – Loiyangalani",
+   "desde": "Kisima / Maralal",
+   "hasta": "Loiyangalani (aldea El Molo)",
+   "km": 260,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "estación seca",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Es la vía clásica de bajada al lago Turkana por la A4: meseta de Loroghi, Maralal, Baragoi, el valle verde de South Horr y descenso por terreno volcánico hasta la orilla y el oasis de Loiyangalani. Termina en la aldea El Molo, 8 km al norte. Combinada con la vuelta por el Chalbi forma el gran bucle del norte de Kenia.",
+   "firme": "Pista de tierra y piedra, cada vez más rocosa y volcánica al acercarse al lago; tramos de lava al final.",
+   "autonomia": "Repostar en Maralal. En Loiyangalani el gasóleo solo aparece en bidones (relato de 2019). Agua y comida para varios días.",
+   "riesgos": "Desaconsejada: el MAEC (01-09-2026) manda evitar el condado de Marsabit (South Horr, Loiyangalani) y, en Samburu, Loroki y Kirisia (entorno de Maralal), con toque de queda de 18:00 a 06:00. El FCDO señala operaciones de seguridad por bandidaje en Samburu y Turkana. Controles con registro del vehículo. Las empresas de alquiler prohíben ir más allá de Samburu.",
+   "puntos": [
+    [
+     0.94741,
+     36.76572
+    ],
+    [
+     1.09589,
+     36.69791
+    ],
+    [
+     1.7833,
+     36.7833
+    ],
+    [
+     2.09898,
+     36.92064
+    ],
+    [
+     2.75768,
+     36.71866
+    ],
+    [
+     2.82682,
+     36.69689
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: South Horr (la A4 une Maralal y Baragoi con Loyangalani)",
+     "url": "https://en.wikipedia.org/wiki/South_Horr",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Kisima",
+     "url": "https://mapcarta.com/Kisima",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Baragoi",
+     "url": "https://mapcarta.com/12746916",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Elmolo Village",
+     "url": "https://mapcarta.com/Elmolo_Village",
+     "fecha": ""
+    },
+    {
+     "titulo": "The Road Chose Me: Loiyangalani, Lake Turkana",
+     "url": "http://theroadchoseme.com/loiyangalani-lake-turkana",
+     "fecha": "2019-02"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Travesía del Chalbi: Loiyangalani – North Horr – Kalacha – Maikona – Marsabit",
+   "desde": "Loiyangalani",
+   "hasta": "Marsabit",
+   "km": 300,
+   "dias": 1,
+   "dificultad": "difícil",
+   "epoca": "solo en seco (con lluvia el Chalbi se vuelve barro pegajoso)",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Une el lago Turkana con Marsabit cruzando el único desierto de Kenia: lava hasta North Horr, el antiguo lecho de sal y barro del Chalbi hasta el oasis de Kalacha y pista hasta Maikona y la subida a Marsabit. Un relato de 2018 tardó unas 9 horas en los 300 km; un grupo de 2024 lo partió en dos días con noche en North Horr.",
+   "firme": "Fragmentos de lava, arena mezclada con sal y arcilla blanca, y pista de tierra en la subida a Marsabit.",
+   "autonomia": "Sin servicios fiables entre Loiyangalani y Marsabit: gasóleo para todo el tramo más reserva, agua y comida (apenas hay tiendas abiertas en los pueblos).",
+   "riesgos": "Desaconsejada: todo el trayecto está en el condado de Marsabit, que el MAEC (01-09-2026) manda evitar, y cerca de la frontera etíope. Barro con lluvia, viento fuerte y tormentas de arena, calor de 40 °C, controles policiales.",
+   "puntos": [
+    [
+     2.75768,
+     36.71866
+    ],
+    [
+     3.32168,
+     37.07062
+    ],
+    [
+     3.17052,
+     37.35015
+    ],
+    [
+     3.12963,
+     37.42726
+    ],
+    [
+     2.9233,
+     37.6344
+    ],
+    [
+     2.33806,
+     37.99164
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Travel with Shreya: From Marsabit National Park via Chalbi Desert to Loiyangalani",
+     "url": "https://travelwithshreya.com/kenya-safari-marsabit-national-park-chalbi-desert-loiyangalani/",
+     "fecha": "2018-08"
+    },
+    {
+     "titulo": "A Kenyan Nomad: Exploring northern Kenya, an Eastern Lake Turkana traverse",
+     "url": "https://akenyannomad.com/2024/03/14/exploring-northern-kenya-an-eastern-lake-turkana-traverse/",
+     "fecha": "2024-03"
+    },
+    {
+     "titulo": "Mapcarta: Maikona",
+     "url": "https://mapcarta.com/12722226",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Chalbi Desert",
+     "url": "https://en.wikipedia.org/wiki/Chalbi_Desert",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Kenia",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Kenia",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Lago Turkana por el oeste: Kitale – paso de Marich – Lodwar – Eliye Springs",
+   "desde": "Kitale",
+   "hasta": "Eliye Springs",
+   "km": 330,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Baja desde las tierras altas de Kitale por el paso de Marich a las llanuras de Turkana, pasando por Kainuk, Lokichar y Lodwar, y acaba en el palmeral y la playa de Eliye Springs. El tramo Lodwar–Eliye (50 km) es el único realmente de pista. Un operador de 2023-24 lo combinó con la bajada al valle del Kerio.",
+   "firme": "Carretera A1 en gran parte asfaltada o en obras; pista de arena en los 50 km de Lodwar a Eliye Springs.",
+   "autonomia": "Repostar en Kitale y Lodwar.",
+   "riesgos": "Desaconsejada: todo el condado de Turkana está entre las zonas que el MAEC (01-09-2026) manda evitar. Toque de queda nocturno entre Marich y Lokichar (2024) por emboscadas y escoltas policiales entre Kainuk y Lami Nyeusi tras ataques con muertos (diciembre de 2025). El FCDO señala la frontera Turkana–West Pokot como foco de bandidaje.",
+   "puntos": [
+    [
+     1.017,
+     35.0
+    ],
+    [
+     1.52745,
+     35.43387
+    ],
+    [
+     1.77464,
+     35.50303
+    ],
+    [
+     2.37666,
+     35.64599
+    ],
+    [
+     3.11659,
+     35.60229
+    ],
+    [
+     3.23639,
+     35.97444
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Daily Nation: Rogue police officers reverse curfew gains along Kitale–Lodwar highway",
+     "url": "https://nation.africa/kenya/counties/turkana/rogue-police-officers-reverse-curfew-kitale-lodwar-highway-4713174",
+     "fecha": "2024-08"
+    },
+    {
+     "titulo": "Kenya News Agency: Motorists plying Kitale–Lodwar highway to get police escort",
+     "url": "https://www.kenyanews.go.ke/motorists-plying-kitale-lodwar-highway-to-get-police-escort/",
+     "fecha": "2025-12"
+    },
+    {
+     "titulo": "Mara Nomads: Turkana West – Eliye Springs overland tour",
+     "url": "https://www.maranomads.com/group_tour/turkana-west-eliye-springs-overland-group-tour",
+     "fecha": "2023-12"
+    },
+    {
+     "titulo": "Mapcarta: Marich Pass",
+     "url": "https://mapcarta.com/12720978",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Lokichar",
+     "url": "https://mapcarta.com/12724058",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Lodwar",
+     "url": "https://mapcarta.com/Lodwar",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Eliye Springs",
+     "url": "https://en.wikipedia.org/wiki/Eliye_Springs",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Masái Mara por pista: Narok – Sekenani – puente del Mara – Oloololo – Aitong",
+   "desde": "Narok",
+   "hasta": "Lemek (vuelta hacia Narok)",
+   "km": 300,
+   "dias": 3,
+   "dificultad": "media",
+   "epoca": "junio-octubre; migración en agosto-septiembre; evitar marzo-mayo",
+   "guia": "recomendado",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Bucle completo por la reserva: asfalto hasta Sekenani, pistas por el lado de Narok hasta el puente de Purungat (3-4 horas), cruce al Triángulo del Mara, pista principal hasta la puerta de Oloololo (algo más de una hora) y salida por la ruta de Aitong. En agosto-septiembre pasa junto a los puntos de cruce del río.",
+   "firme": "Asfalto Narok–Sekenani; dentro, pistas de tierra y barro de algodón negro, rodadas y orillas empinadas; pista de tierra por Aitong.",
+   "autonomia": "Repostar en Narok. Gasóleo caro en Talek y Sekenani y en algunos lodges (Sarova, Serena), con faltas ocasionales.",
+   "riesgos": "Con condiciones: el perro no puede entrar (hay que dejarlo fuera) y conducir por libre en el lado de Narok puede requerir ranger. Permiso de 12 horas; pago por el portal del condado de Narok (el Triángulo cobra aparte). Prohibido salir de pista; radares en el Triángulo. Barro con lluvia. Sin alertas del FCDO ni del MAEC.",
+   "puntos": [
+    [
+     -1.0887,
+     35.8715
+    ],
+    [
+     -1.15392,
+     35.76178
+    ],
+    [
+     -1.51802,
+     35.33788
+    ],
+    [
+     -1.5455,
+     35.018
+    ],
+    [
+     -1.4016,
+     35.02504
+    ],
+    [
+     -1.26069,
+     34.999
+    ],
+    [
+     -1.19209,
+     35.24988
+    ],
+    [
+     -1.1,
+     35.3833
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Black Leopard 4x4 Hire: How to camp and self drive in the Masai Mara (ruta Sekenani–puente del Mara, coordenadas del puente)",
+     "url": "https://www.blackleopard4x4hire.com/post/how-to-camp-and-self-drive-in-the-masai-mara-2025",
+     "fecha": "2026-01"
+    },
+    {
+     "titulo": "Mara Conservancy: Driving to the Mara Triangle",
+     "url": "https://www.maratriangle.org/driving-to-the-mara-triangle-2",
+     "fecha": ""
+    },
+    {
+     "titulo": "Self Drive East Africa: Guide to self drive in Masai Mara",
+     "url": "https://www.selfdriveeastafrica.com/guide-to-self-drive-in-masai-mara-game-reserve/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Hilmuks: Masai Mara self drive rules 2026",
+     "url": "https://www.hilmuks.com/masai-mara-self-drive-rules/",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "Mapcarta: Narok",
+     "url": "https://mapcarta.com/Narok",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mara Serena Safari Lodge",
+     "url": "https://mapcarta.com/Mara_Serena_Safari_Lodge",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Aitong",
+     "url": "https://mapcarta.com/Aitong",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Lemek",
+     "url": "https://mapcarta.com/Lemek",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. El MAEC (actualizado el 01-09-2026) pone entre las zonas de riesgo alto que deben evitarse: los condados fronterizos con Somalia (Mandera, Wajir, Garissa y Lamu, salvo las islas de Lamu y Manda), la franja costera del Tana al Galana, las zonas fronterizas con Sudán del Sur y Etiopía, los condados enteros de Marsabit, Turkana y Wajir (conflictos entre comunidades) y el North Rift con toque de queda de 18:00 a 06:00 (Turkana South, Turkana East y Loima; Pokot North y Sigor; Marakwet Este y Oeste; en Baringo, Mukutani, Muchongoi, Bartabwa y Tiaty Este y Oeste; en Laikipia, Olmoran, Ng'arua y Mukogodo; y en Samburu, Loroki y Kirisia). También pone el monte Elgon en riesgo medio. El FCDO (04-09-2026) es más suave: desaconseja todo viaje a Mandera, partes de Wajir, casi todo Garissa y Lamu (salvo las islas), y todo salvo lo esencial a Garissa ciudad, el Tana River al norte del río y la costa entre el Tana y el Galana. Para Turkana, West Pokot, Elgeyo-Marakwet, Baringo, Samburu, Laikipia, Meru e Isiolo solo avisa de operaciones de seguridad (focos: frontera Turkana–West Pokot, valle del Kerio, zonas remotas de Samburu y Baringo). Además advierte de minas cerca de Moyale en la A2. Consecuencia: todo el lago Turkana (este y oeste), el Chalbi, Marsabit y el Suguta quedan desaconsejados por el MAEC y las tres rutas del norte llevan 'estado': 'desaconsejada'. Ojo: la A2 Moyale–Marsabit–Isiolo, que es el paso natural desde Etiopía, cruza el condado de Marsabit; hay que decidir ese tránsito aparte. La frontera somalí y la costa norte (Lamu por carretera) quedan fuera de esta capa. PERROS. Según 4x4 Kenya (06-2026), los perros están prohibidos en los parques nacionales de Kenia y en reservas como el Masái Mara (multas, expulsión y posible arresto); algunas conservancias y alojamientos de la periferia los admiten atados. No se ha abierto el reglamento oficial del KWS (su web falla por certificado). TASAS. Tarifas del KWS vigentes desde el 01-10-2025, recurridas en los tribunales pero cobradas en 2026 según BestKenya: Amboseli 90 USD, Tsavo Este y Oeste 80, Hell's Gate 50 y parques de interés especial (Marsabit, Sibiloi, Central Island) unos 40 USD por no residente y día. Pago solo electrónico (eCitizen/KWSPay). Vehículo: las tablas del KWS no distinguen el vehículo extranjero (500-600 KES/día por turismo de menos de 6 plazas), pero Roadtrip Africa (sin fecha) dice que un vehículo extranjero paga 1.500 KES/día en el KWS y 1.000 KES en el Mara: hay que confirmarlo. Masái Mara: 200 USD por adulto no residente y día en 2025, camping 40 USD. Permiso de vehículo extranjero (KRA/NTSA): permiso temporal gratuito de 14 días solo con el formulario C32; con carnet, permiso de pago de un mes. Un viajero pagó en Moyale en 2017 unos 41 USD de tránsito al mes más 40 USD de peaje (ver también el documento del proyecto fronteras-verificadas-2027). DUDAS. (1) Si hace falta ranger para conducir por libre en el lado de Narok del Mara (las fuentes 2025-2026 se contradicen). (2) La tarifa real del KWS para vehículos con matrícula extranjera. (3) Gasóleo en Loiyangalani y North Horr: solo hay relatos de 2019 (bidones) y 2024 (sin detalle). Kilómetros: el de la ruta del Chalbi sale de una fuente (300 km); los de las otras tres son estimaciones a partir de los puntos de paso. La coordenada de Sekenani es la del pueblo, no la de la puerta; la del lago Logipi está redondeada (Wikipedia). La garganta de Cheploch no tiene coordenada verificada (se usa la del valle). WIKILOC: el buscador llegó a su límite antes de poder comprobar listados de Wikiloc para Kenia y Wikiloc bloquea WebFetch, así que no hay enlaces. DESCARTADAS. Amboseli–Tsavo Oeste por Kimana y Chyulu, y la pista Magadi–Shompole–Nguruman: no he podido abrir ninguna fuente que describa el trazado. Sibiloi y la orilla norte del Turkana: condado de Marsabit y cerca de Etiopía (MAEC). Todo el noreste (Wajir, Mandera, Garissa, Lamu por tierra): zonas rojas del FCDO y el MAEC. El monte Elgon por el lado keniano: riesgo medio del MAEC y enfrentamientos armados según el FCDO."
+}

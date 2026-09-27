@@ -1,0 +1,603 @@
+{
+ "pais": "guinea",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Labé: repostaje antes de las pistas del Fouta Djallon",
+   "tipo": "repostaje",
+   "lat": 11.3232,
+   "lon": -12.28913,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año (las pistas de alrededor, de noviembre a mayo)",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Ciudad con servicios; correa. Tiene laboratorio veterinario regional (ficha general).",
+   "autonomia": "Unos viajeros holandeses llenaron aquí en una gasolinera de confianza para cubrir 1.000 km (2023). FCDO avisa de que el combustible no es fiable en los trayectos largos del país.",
+   "desc": "Labé es el nudo del Fouta Djallon: aquí terminan o empiezan la pista de Mali–Kédougou, la carretera de Koundara y Senegal y la ruta de las cascadas (Saala, Kinkon, Kambadaga). Es el sitio donde llenar el depósito, reparar neumáticos y comprar víveres antes de meterse en las pistas. Los viajeros de Lost in a 4x4 pararon aquí a reparar una rueda tras la pista de Djinkan.",
+   "acceso": "Asfalto (con baches) desde Pita (40 km) y desde Mamou; hacia Senegal, carretera de Koundara con un tramo de pista en las colinas de Sita.",
+   "riesgos": "Tráfico urbano. FCDO desaconseja conducir de noche fuera de Conakry.",
+   "cerca": "Labé · capital del Fouta Djallon",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Wereldreizigers: Overlanding in Guinea",
+     "url": "https://wereldreizigers.nl/en/Africa/Guinea/overland-in-Guinea/",
+     "fecha": "2023-01"
+    },
+    {
+     "titulo": "Lost in a 4x4: Overlanding Guinea in a 4x4, Kambadaga, Les Échelles de Djinkan, the road to Conakry",
+     "url": "https://lostina4x4.com/overlanding-guinea-in-a-4x4-kambadaga-waterfalls-les-echelles-de-djinkan-the-road-to-conakry/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "FCDO: Guinea travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/guinea/safety-and-security",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "Scoot West Africa: Everything you need to know about traveling in the Fouta Djallon",
+     "url": "https://scootwestafrica.com/guide-fouta-djallon-guinea/",
+     "fecha": "2025-07"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Yambéring – Mali-Centre: el tramo de montaña sin obras (lote 3)",
+   "tipo": "paso",
+   "lat": 11.81667,
+   "lon": -12.35,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "diciembre a mayo; muy duro de junio a octubre",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas conocidas.",
+   "autonomia": "Repostar en Labé. Mali tiene mercado y hospital, pero no hay dato de gasolinera fiable.",
+   "desc": "La carretera Labé–Mali (N8, unos 107-110 km) se está asfaltando por lotes desde 2024-2025: Labé–Sarékaly y Sarékaly–Yambéring estaban en obras a finales de 2025 y el trayecto Labé–Yambéring ya se hacía en 2-3 horas. El lote 3, Yambéring–Mali-Centre, aún no había empezado. Es el tramo de montaña que sube a la meseta de Mali, a más de 1.400 m. Coordenada de Yambéring en GeoNames (al minuto).",
+   "acceso": "Desde Labé por la N8 en obras hasta Yambéring; después, pista de montaña hasta Mali.",
+   "riesgos": "Pista degradada con roderas y piedra; obras con desvíos en el tramo sur. En lluvias, las obras se ralentizan y la pista empeora. Confirmar el avance de las obras antes de ir: el plazo es de 30 a 36 meses desde 2025.",
+   "cerca": "Monte Loura y la Dama de Mali (1.515 m)",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Africa Guinée: Projet routier Labé–Mali–Kédougou, la route qui change le quotidien entre Labé et Yembering",
+     "url": "https://www.africaguinee.com/projet-routier-labe-mali-kedougou-la-route-qui-change-le-quotidien-entre-labe-et-yembering/",
+     "fecha": "2025-12"
+    },
+    {
+     "titulo": "Guinee360: Route Labé–Mali, un an après le lancement, quel est l'état des lieux",
+     "url": "https://www.guinee360.com/27/07/2025/route-labe-mali-un-an-apres-le-lancement-quel-est-letat-des-lieux/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "GeoNames: Yambéring",
+     "url": "https://www.geonames.org/search.html?q=Yambering&country=GN",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mali (Guinea)",
+     "url": "https://mapcarta.com/Mali_Guinea",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Lébékéré: pista Mali–frontera de Senegal",
+   "tipo": "pista",
+   "lat": 12.10889,
+   "lon": -12.39806,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "diciembre a mayo",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas conocidas; zona rural con ganado.",
+   "autonomia": "Sin servicios fiables entre Mali y Kédougou (unos 120 km según una guía antigua). Gasóleo en Labé o en Kédougou.",
+   "desc": "Lébékéré está en el tramo Mali–frontera de Senegal del eje Labé–Mali–Kédougou, que el ministerio guineano tiene en estudio para asfaltar. Hoy es la parte más dura: una guía antigua describe unos 120 km de tierra roja dura con pendientes fuertes, piedras grandes, surcos profundos de las lluvias y unos cinco vados, y la prensa habla de 10 horas para 100 km. Una guía de 2017 la reserva a conductores de 4x4 con experiencia.",
+   "acceso": "Pista de montaña desde Mali hacia el noroeste y la frontera; en el lado senegalés, por Ségou y Dindéfelo hasta Kédougou.",
+   "riesgos": "Vados que crecen en lluvias, roderas, piedra suelta y averías. Las fronteras guineanas cierran de noche. MAEC desaconseja todas las zonas fronterizas de Guinea. Confirmar en Labé o en Kédougou que el puesto fronterizo de este eje sella la entrada del vehículo (CPD).",
+   "cerca": "Monte Loura y la Dama de Mali (1.515 m)",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Hans Rossel: Guinea Conakry travel guide (carretera Mali-ville–Kédougou)",
+     "url": "https://www.hansrossel.com/africa/guineaconakry.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Le360: Guinée, 10 heures pour 100 kilomètres, Labé–Mali–Kédougou ou l'enfer sur route",
+     "url": "https://fr.le360.ma/monde/guinee-10-heures-pour-100-kilometres-labemalikedougou-ou-lenfer-sur-route_6QQ2R4U5NZA3FA6X3VEH6UX45Q/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Fouta-découverte: Pour entrer en Guinée, infos aux frontières",
+     "url": "https://www.foutadecouverte.com/2017/01/pour-entrer-en-guinee-infos-aux-frontieres.html",
+     "fecha": "2017-01"
+    },
+    {
+     "titulo": "GeoNames: Lébékéré",
+     "url": "https://www.geonames.org/search.html?q=Lebekere&country=GN",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Guinea",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Guinea",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Meseta de Djinkan: las escaleras de Lélouma",
+   "tipo": "pista",
+   "lat": 11.48074,
+   "lon": -12.70168,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "diciembre a mayo",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "perro_nota": "La bajada es por escaleras metálicas y de troncos colgadas del acantilado: el perro no puede bajar. Dejarlo con alguien en la meseta.",
+   "autonomia": "Repostar en Labé. Sin servicios en la meseta; acampada libre.",
+   "desc": "Son escaleras de troncos, lianas y ahora metal que los vecinos usan desde hace siglos para bajar el acantilado entre la meseta y el valle, a unos 6 km al norte de Lélouma. Lost in a 4x4 llegó en su segundo intento, por Ansanouere, tras dos horas de pista estrecha entre acantilados, y acampó en la meseta. La prensa guineana (2026) señala que la accesibilidad es el gran problema del sitio.",
+   "acceso": "Pista de tierra que se estrecha a un carril entre acantilados; se llega por la meseta, no por el valle. Según Lost in a 4x4, el camino es casi imposible sin un guía local. Desde la meseta, unos 20 minutos de bajada a pie.",
+   "riesgos": "Pistas lavadas por las lluvias con roderas enormes y rocas cortantes; el primer intento de Lost in a 4x4, por el sur de Touba, acabó en un vado impracticable. Navegación: pistas no cartografiadas.",
+   "cerca": "Labé · capital del Fouta Djallon",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Lost in a 4x4: Overlanding Guinea in a 4x4, Kambadaga, Les Échelles de Djinkan, the road to Conakry",
+     "url": "https://lostina4x4.com/overlanding-guinea-in-a-4x4-kambadaga-waterfalls-les-echelles-de-djinkan-the-road-to-conakry/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Mapcarta: Les échelles de Djinkan",
+     "url": "https://mapcarta.com/fr/N5199011157",
+     "fecha": ""
+    },
+    {
+     "titulo": "Guinéenews: Les échelles de Djinkan et de Singandé à Lélouma, du passage quotidien à l'attraction touristique",
+     "url": "https://guineenews.org/2026/08/18/les-echelles-de-djinkan-et-de-singande-a-lelouma-du-simple-passage-quotidien-a-lattraction-touristique/",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Cataratas de Saala: pista desde Labé",
+   "tipo": "pista",
+   "lat": 11.29578,
+   "lon": -12.51925,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a mayo; más agua en octubre-noviembre",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas conocidas; rocas resbaladizas junto al agua.",
+   "autonomia": "A unos 37 km de Labé por carretera y pista: repostar en Labé.",
+   "desc": "Es una cascada en un cañón de unos 200 m entre las subprefecturas de Diari (Labé) y Timbi Madina (Pita). Los viajeros de Pistenkuh (2020) la visitaron en su travesía 4x4 del Fouta y publicaron la coordenada, y unos viajeros alemanes la visitaron desde Labé en enero de 2025. Es la primera parada de la ruta de las cascadas.",
+   "acceso": "Carretera y después pista de tierra desde Labé hacia el oeste; la parte final es pista.",
+   "riesgos": "Pista de piedra y tierra; roca resbaladiza en el borde del cañón. Coordenada de Pistenkuh.",
+   "cerca": "Pita y las cataratas de Kinkon",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Pistenkuh: Expeditionsziel Fouta Djalon, das Wasserschloss Westafrikas",
+     "url": "https://pistenkuh.de/reisen/afrika/mali-guinea/expeditionsziel-fouta-djalon-das-wasserschloss-westafrika/",
+     "fecha": "2020-01"
+    },
+    {
+     "titulo": "Die Schmidt's: Guinea, Wasserfälle, pittoreske Felsen und surreale Schluchten",
+     "url": "https://www.schmidt.aero/guinea-wasserfaelle-pittoreske-felsen-und-surreale-schluchten/",
+     "fecha": "2025-01"
+    },
+    {
+     "titulo": "OSRM (red viaria de OpenStreetMap): cálculo del trazado entre puntos verificados",
+     "url": "https://router.project-osrm.org/",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Bourouwal-Tappé: desvío de la pista de Kambadaga",
+   "tipo": "pista",
+   "lat": 11.0,
+   "lon": -12.383,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "noviembre a mayo; inaccesible en lluvias",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Ficha general de Kambadaga: permitido con precaución. Cuidado en el borde de las cascadas.",
+   "autonomia": "Repostar en Pita o Labé. Sin servicios en la pista.",
+   "desc": "Es el pueblo donde se deja el asfalto para bajar a las cataratas de Kambadaga, las que muchos consideran las más bonitas del Fouta. Lost in a 4x4 cuenta el procedimiento: permiso en la prefectura de Pita (25.000 GNF por persona para acampar), contacto en el desvío de Bourouwal-Tappé y sello del alcalde. A partir de aquí, unos 14 km de pista 4x4 (23 km según Pistenkuh).",
+   "acceso": "Asfalto desde Pita (unos 10 minutos) y después pista deteriorada; la última bajada es muy empinada y exige altura libre al suelo.",
+   "riesgos": "Bajada final empinada, pista estrecha (2,5 m según Pistenkuh) y cada vez peor. En lluvias, inaccesible. Coordenada de Wikipedia al minuto (aproximada).",
+   "cerca": "Cataratas de Kambadaga",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Lost in a 4x4: Overlanding Guinea in a 4x4, Kambadaga, Les Échelles de Djinkan, the road to Conakry",
+     "url": "https://lostina4x4.com/overlanding-guinea-in-a-4x4-kambadaga-waterfalls-les-echelles-de-djinkan-the-road-to-conakry/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Pistenkuh: Expeditionsziel Fouta Djalon, das Wasserschloss Westafrikas",
+     "url": "https://pistenkuh.de/reisen/afrika/mali-guinea/expeditionsziel-fouta-djalon-das-wasserschloss-westafrika/",
+     "fecha": "2020-01"
+    },
+    {
+     "titulo": "Scoot West Africa: Everything you need to know about traveling in the Fouta Djallon",
+     "url": "https://scootwestafrica.com/guide-fouta-djallon-guinea/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Wikipedia: Bourouwal-Tappé",
+     "url": "https://en.wikipedia.org/wiki/Bourouwal-Tapp%C3%A9",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Kambadaga: bivac junto al río",
+   "tipo": "oasis",
+   "lat": 10.99718,
+   "lon": -12.49317,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "noviembre a mayo",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Permitido con precaución según la ficha general; vigilarlo en el borde de las cascadas.",
+   "autonomia": "Totalmente autónomo: agua potable, comida y gasóleo para volver a Pita.",
+   "desc": "Al final de la pista se puede acampar a la sombra junto al río, a unos 15 minutos a pie de lo alto de las cataratas; Lost in a 4x4 lo hizo allí. Pistenkuh describe una meseta rocosa sobre las cascadas apta para acampar. En estación seca se puede llegar al borde mismo del salto.",
+   "acceso": "Final de la pista 4x4 desde Bourouwal-Tappé.",
+   "riesgos": "Bajada final muy empinada, crecidas del río y roca resbaladiza. Llevar el permiso sellado de la prefectura de Pita.",
+   "cerca": "Cataratas de Kambadaga",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Lost in a 4x4: Overlanding Guinea in a 4x4, Kambadaga, Les Échelles de Djinkan, the road to Conakry",
+     "url": "https://lostina4x4.com/overlanding-guinea-in-a-4x4-kambadaga-waterfalls-les-echelles-de-djinkan-the-road-to-conakry/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Pistenkuh: Expeditionsziel Fouta Djalon, das Wasserschloss Westafrikas",
+     "url": "https://pistenkuh.de/reisen/afrika/mali-guinea/expeditionsziel-fouta-djalon-das-wasserschloss-westafrika/",
+     "fecha": "2020-01"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Doucki: pista desde Pita al «Gran Cañón de Guinea»",
+   "tipo": "pista",
+   "lat": 10.98214,
+   "lon": -12.60318,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a mayo",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Permitido con precaución según la ficha general; senderos por cañones y bloques de arenisca.",
+   "autonomia": "Repostar en Pita. En Doucki hay alojamiento en casa de Hassan Bah, el guía local.",
+   "desc": "Doucki es la aldea desde la que se recorren los cañones y bloques de arenisca del Fouta con el guía Hassan Bah o sus hijos. Una guía de 2026 calcula 2-3 horas desde Pita por pistas llenas de baches, y Scoot West Africa avisa de que llegar ya es una aventura. Unos viajeros alemanes hicieron allí un circuito a pie de una hora en enero de 2025.",
+   "acceso": "Desde Pita por pistas de tierra con baches; tramo final por pista rural hasta la aldea.",
+   "riesgos": "Pista lenta y rota; empeora mucho en lluvias. Sin cobertura en tramos.",
+   "cerca": "Doucki · el «Gran Cañón de Guinea»",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Matt's Next Steps: Hiking in Fouta Djallon, complete guide to Doucki",
+     "url": "https://mattsnextsteps.com/hiking-in-fouta-djallon-complete-guide-to-doucki/",
+     "fecha": "2026-04"
+    },
+    {
+     "titulo": "Scoot West Africa: Everything you need to know about traveling in the Fouta Djallon",
+     "url": "https://scootwestafrica.com/guide-fouta-djallon-guinea/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Die Schmidt's: Guinea, Wasserfälle, pittoreske Felsen und surreale Schluchten",
+     "url": "https://www.schmidt.aero/guinea-wasserfaelle-pittoreske-felsen-und-surreale-schluchten/",
+     "fecha": "2025-01"
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "Timbo: arranque de la pista a las cataratas de Ditinn",
+   "tipo": "pista",
+   "lat": 10.63426,
+   "lon": -11.82845,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a mayo; más agua en octubre-noviembre",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Cataratas de Ditinn: permitido con precaución (ficha general).",
+   "autonomia": "Repostar en Mamou (unos 50 km). 63,5 km de pista sin servicios hasta Ditinn.",
+   "desc": "Timbo es una pequeña ciudad del Fouta Djallon a unos 50 km de Mamou. Pistenkuh (2020) enlazó desde aquí las cascadas del Fouta por pista: 63,5 km de terreno bacheado sobre crestas pedregosas hasta las cataratas de Ditinn, un salto de 120 m. Es una alternativa por pista a la carretera Mamou–Dalaba.",
+   "acceso": "Desde Mamou por carretera; después, pista de piedra y tierra por las crestas hasta Ditinn, y de allí a Dalaba.",
+   "riesgos": "Avance lento en pista de montaña; cobros informales en algunos pueblos según Pistenkuh (la entrada a Ditinn costaba 10.000 GNF en 2020). FCDO señala robos a mano armada en la carretera de Mamou.",
+   "cerca": "Cataratas de Ditinn",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Pistenkuh: Expeditionsziel Fouta Djalon, das Wasserschloss Westafrikas",
+     "url": "https://pistenkuh.de/reisen/afrika/mali-guinea/expeditionsziel-fouta-djalon-das-wasserschloss-westafrika/",
+     "fecha": "2020-01"
+    },
+    {
+     "titulo": "Mapcarta: Timbo",
+     "url": "https://mapcarta.com/17175194",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Guinea travel advice, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/guinea/safety-and-security",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 9
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Kédougou – Dindéfelo – Mali – Labé: la entrada de montaña al Fouta Djallon",
+   "desde": "Kédougou (Senegal)",
+   "hasta": "Labé",
+   "km": 240,
+   "dias": 2,
+   "dificultad": "muy difícil",
+   "epoca": "diciembre a mayo; desaconsejable de junio a octubre",
+   "guia": "recomendado (sobre todo entre Ségou y Mali)",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "Es la alternativa de pista al paso asfaltado de Kalifourou–Sambaïlo–Koundara: sube desde Kédougou por Dindéfelo y Ségou, cruza la frontera hacia Lébékéré y la meseta de Mali (con la Dama de Mali) y baja a Labé por la N8 en obras. El proyecto oficial Labé–Mali–Kédougou suma 240,71 km. La mitad guineana se está asfaltando (Labé–Yambéring en obras avanzadas en diciembre de 2025) y la otra mitad sigue siendo una pista durísima de 10 horas para 100 km.",
+   "firme": "Labé–Yambéring: carretera en obras (desvíos y tierra). Yambéring–Mali: pista de montaña. Mali–Lébékéré–frontera–Ségou: pista de tierra roja dura, piedra, surcos y unos cinco vados. Ségou–Kédougou: carretera o pista según las obras de AGEROUTE.",
+   "autonomia": "Llenar en Kédougou o en Labé; entre medias no hay repostaje fiable. Agua y víveres para dos días; prever noche en Mali o acampada.",
+   "riesgos": "Vados que suben con las lluvias, roderas profundas, averías y aislamiento. Las fronteras guineanas cierran de noche. MAEC Guinea desaconseja todas las zonas fronterizas y MAEC Senegal señala bandidaje en la zona aurífera de Kédougou. Queda por confirmar si el puesto fronterizo del eje tramita el CPD: si no, usar Kalifourou–Sambaïlo. Los puntos de paso son pueblos verificados unidos en orden; OpenStreetMap no tiene la pista Ségou–Mali (OSRM da un rodeo de 138 km), así que el trazado es solo orientativo.",
+   "puntos": [
+    [
+     12.55558,
+     -12.18075
+    ],
+    [
+     12.38139,
+     -12.32472
+    ],
+    [
+     12.40917,
+     -12.28306
+    ],
+    [
+     12.10889,
+     -12.39806
+    ],
+    [
+     12.07552,
+     -12.29569
+    ],
+    [
+     11.81667,
+     -12.35
+    ],
+    [
+     11.3232,
+     -12.28913
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "MITP Guinée: Projet d'aménagement de la route inter-États Labé-Mali-Kédougou (240,71 km)",
+     "url": "https://mitp.gov.gn/projet-damenagement-de-la-route-inter-etats-labe-mali-kedougou-24071km/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Africa Guinée: Projet routier Labé–Mali–Kédougou, la route qui change le quotidien entre Labé et Yembering",
+     "url": "https://www.africaguinee.com/projet-routier-labe-mali-kedougou-la-route-qui-change-le-quotidien-entre-labe-et-yembering/",
+     "fecha": "2025-12"
+    },
+    {
+     "titulo": "Guinee360: Route Labé–Mali, un an après le lancement, quel est l'état des lieux",
+     "url": "https://www.guinee360.com/27/07/2025/route-labe-mali-un-an-apres-le-lancement-quel-est-letat-des-lieux/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Le360: Guinée, 10 heures pour 100 kilomètres, Labé–Mali–Kédougou ou l'enfer sur route",
+     "url": "https://fr.le360.ma/monde/guinee-10-heures-pour-100-kilometres-labemalikedougou-ou-lenfer-sur-route_6QQ2R4U5NZA3FA6X3VEH6UX45Q/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Hans Rossel: Guinea Conakry travel guide (carretera Mali-ville–Kédougou)",
+     "url": "https://www.hansrossel.com/africa/guineaconakry.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Fouta-découverte: Pour entrer en Guinée, infos aux frontières",
+     "url": "https://www.foutadecouverte.com/2017/01/pour-entrer-en-guinee-infos-aux-frontieres.html",
+     "fecha": "2017-01"
+    },
+    {
+     "titulo": "GeoNames: Ségou (Kédougou)",
+     "url": "https://www.geonames.org/search.html?q=Segou&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Lébékéré",
+     "url": "https://www.geonames.org/search.html?q=Lebekere&country=GN",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Yambéring",
+     "url": "https://www.geonames.org/search.html?q=Yambering&country=GN",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mali (Guinea)",
+     "url": "https://mapcarta.com/Mali_Guinea",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Guinea",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Guinea",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Ruta de las cascadas: Labé – Saala – Pita – Bourouwal-Tappé – Kambadaga",
+   "desde": "Labé",
+   "hasta": "Kambadaga",
+   "km": 112,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "noviembre a mayo",
+   "guia": "recomendado; permiso de la prefectura de Pita para Kambadaga",
+   "perro": "condiciones",
+   "estado": "recomendada",
+   "desc": "Es el bucle 4x4 más documentado del Fouta Djallon: pista de Labé a las cataratas de Saala, carretera y pista hasta Pita (junto a las de Kinkon) y, desde Bourouwal-Tappé, la pista de 14-23 km que baja a Kambadaga, con noche de bivac junto al río. La hicieron Pistenkuh (2020) y Lost in a 4x4 (publicado en 2026), y aparece en la guía de Scoot West Africa. Se puede alargar a Doucki desde Pita.",
+   "firme": "Pista de tierra y piedra hasta Saala; asfalto con baches Pita–Labé; pista estrecha y cada vez peor hasta Kambadaga, con bajada final muy empinada.",
+   "autonomia": "Gasóleo en Labé o Pita. Sin servicios en Saala ni en Kambadaga: agua y comida para la noche de bivac.",
+   "riesgos": "La bajada final a Kambadaga exige altura libre; en lluvias es inaccesible. Permiso y sello en la prefectura de Pita y del alcalde de Bourouwal-Tappé (25.000 GNF por persona para acampar, según Lost in a 4x4). FCDO desaconseja conducir de noche fuera de Conakry. Kilometraje y trazado de OSRM sobre OpenStreetMap entre puntos verificados.",
+   "puntos": [
+    [
+     11.32328,
+     -12.28914
+    ],
+    [
+     11.3641,
+     -12.37893
+    ],
+    [
+     11.39491,
+     -12.40476
+    ],
+    [
+     11.36858,
+     -12.45839
+    ],
+    [
+     11.34189,
+     -12.47046
+    ],
+    [
+     11.32833,
+     -12.48962
+    ],
+    [
+     11.30138,
+     -12.50566
+    ],
+    [
+     11.30703,
+     -12.48196
+    ],
+    [
+     11.29464,
+     -12.47807
+    ],
+    [
+     11.27853,
+     -12.47477
+    ],
+    [
+     11.26899,
+     -12.44113
+    ],
+    [
+     11.24574,
+     -12.43654
+    ],
+    [
+     11.23466,
+     -12.44741
+    ],
+    [
+     11.21803,
+     -12.40168
+    ],
+    [
+     11.19098,
+     -12.38552
+    ],
+    [
+     11.16568,
+     -12.38701
+    ],
+    [
+     11.09355,
+     -12.38649
+    ],
+    [
+     11.07391,
+     -12.39227
+    ],
+    [
+     11.01206,
+     -12.40001
+    ],
+    [
+     11.00173,
+     -12.3888
+    ],
+    [
+     10.98935,
+     -12.40312
+    ],
+    [
+     10.98634,
+     -12.45393
+    ],
+    [
+     10.98122,
+     -12.47204
+    ],
+    [
+     10.99788,
+     -12.49135
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/guinea",
+   "fuentes": [
+    {
+     "titulo": "Lost in a 4x4: Overlanding Guinea in a 4x4, Kambadaga, Les Échelles de Djinkan, the road to Conakry",
+     "url": "https://lostina4x4.com/overlanding-guinea-in-a-4x4-kambadaga-waterfalls-les-echelles-de-djinkan-the-road-to-conakry/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Pistenkuh: Expeditionsziel Fouta Djalon, das Wasserschloss Westafrikas",
+     "url": "https://pistenkuh.de/reisen/afrika/mali-guinea/expeditionsziel-fouta-djalon-das-wasserschloss-westafrika/",
+     "fecha": "2020-01"
+    },
+    {
+     "titulo": "Scoot West Africa: Everything you need to know about traveling in the Fouta Djallon",
+     "url": "https://scootwestafrica.com/guide-fouta-djallon-guinea/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Wikipedia: Bourouwal-Tappé",
+     "url": "https://en.wikipedia.org/wiki/Bourouwal-Tapp%C3%A9",
+     "fecha": ""
+    },
+    {
+     "titulo": "OSRM (red viaria de OpenStreetMap): cálculo del trazado entre puntos verificados",
+     "url": "https://router.project-osrm.org/",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "notas": "SEGURIDAD. MAEC (22-05-2026) desaconseja las zonas fronterizas con Mali, Liberia, Sierra Leona, Guinea-Bisáu, Senegal y Costa de Marfil (sin fijar franja en km); Forécariah, Madina Oula–Pamelap y la zona limítrofe de Banti (zona militar desde Farmoreah); y las prefecturas de Guéckédou, Macenta, Zogota, Koyama y el país mano. FCDO (12-08-2026) no marca zonas en rojo, pero avisa de robos a mano armada en las carreteras de Mamou, Faranah, Kissidougou, Guéckédou, Macenta y Nzérékoré, de fronteras tensas con presencia militar y de que el personal británico no circula de noche fuera de Conakry. Época de lluvias de mayo a octubre: carreteras impracticables, inundaciones y corrimientos (MAEC recomienda 4x4). ESTADO DE LAS CARRETERAS. Mamou–Pita: gran parte sin asfaltar y en obras (Scoot West Africa, 07-2025). Pita–Labé: 40 km en buen estado con baches crecientes. Labé–Koundara–Senegal: el tramo de las colinas de Sita (23 km, entre Lélouma y Gaoual) llevaba 15 años sin asfaltar y era impracticable en lluvias; las obras empezaron en diciembre de 2023 con plazo de 18 meses: confirmar si ya está terminado. Labé–Mali: en obras (lotes 1 y 2) y el lote 3 sin empezar a finales de 2025. Paso principal Senegal–Guinea: Kalifourou (SN, GeoNames 12.92583, -13.63889) – Sambaïlo (GN, 12.57833, -13.37056), por asfalto según Fouta-découverte (2017). DUDAS. (1) Si el puesto fronterizo del eje Kédougou–Ségou–Lébékéré–Mali tramita la entrada del vehículo (CPD): no hay relato reciente de un vehículo extranjero. (2) El estado real de las obras de Sita y de la N8 en 2027. (3) Coordenadas al minuto (aprox) en Yambéring y Bourouwal-Tappé; Labé, Kambadaga y Doucki usan las coordenadas de los PDI generales. Wikiloc: listado de Guinea verificado por WebFetch (70 tracks, entre ellos «Traversée du Fouta Djalon 2013» y «Ditin–Labé par la piste vers Koundara 2013»). Los listados regionales devolvieron error 403. DESCARTADAS. Montes Nimba: solo hay senderismo con guía desde Gbakoré, la estación científica o Bossou/Séringbara (Petit Futé), no hay pistas 4x4 documentadas, está en la triple frontera que el MAEC desaconseja y la ficha general lo trata como prohibido para el perro. No hay coordenadas verificadas de Gbakoré. Pista Timbo–Ditinn como ruta: la fuente (Pistenkuh 2020) da 63,5 km pero OSRM no encuentra esa pista (propone 119 km por el sur), así que solo figura como punto. Pista Koundara–Touba–Djinkan de Lost in a 4x4: hay dos Touba posibles y no se ha podido fijar el trazado; solo figura la meseta de Djinkan. Región forestal (Guéckédou, Macenta) y la zona de Forécariah hacia Sierra Leona (MAEC)."
+}

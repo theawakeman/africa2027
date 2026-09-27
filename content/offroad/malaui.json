@@ -1,0 +1,348 @@
+{
+ "pais": "malaui",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Rumphi: repostaje antes de Nyika y Vwaza",
+   "tipo": "repostaje",
+   "lat": -11.017,
+   "lon": 33.867,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Pueblo mercado; sin restricciones conocidas. Mucho ganado y perros sueltos en la carretera.",
+   "autonomia": "Llenar aquí o en Mzuzu todo lo posible: FCDO y MAEC avisan de escasez frecuente de combustible y colas en Malaui. En Nyika y Vwaza no hay gasolinera.",
+   "desc": "Rumphi es el pueblo mercado de la puerta de Nyika y de Vwaza Marsh, con el mayor mercado de ganado entre Lilongüe y Karonga (sábados a las 6:00). Es el último punto para abastecerse antes de subir a la meseta. El tramo Mzuzu–Rumphi está renovado en buena parte (2026).",
+   "acceso": "Asfalto desde la M1 (Mzuzu). De aquí salen la carretera hacia Thazima y Chelinda y la pista a Vwaza.",
+   "riesgos": "Escasez de combustible; no conducir de noche (vehículos sin luces, bicis, ganado). Controles de policía cada 50 km aproximadamente.",
+   "cerca": "Mzuzu · base logística del norte",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/malawi/northern-region",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Rumphi",
+     "url": "https://en.wikipedia.org/wiki/Rumphi",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Malawi, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/malawi/safety-and-security",
+     "fecha": "2026-07"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Malaui",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Malawi",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "Tracks4Africa: Malawi rewards the adventurous traveller",
+     "url": "https://blog.tracks4africa.co.za/malawi-rewards-the-adventurous-traveller/",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Thazima: subida sur a la meseta de Nyika",
+   "tipo": "pista",
+   "lat": -10.82865,
+   "lon": 33.59455,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "finales de abril a septiembre; flores de enero a abril, con lluvia y barro",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "No se ha encontrado la norma malauí sobre perros en parques. El dossier del proyecto los da por prohibidos en todos los parques nacionales; confirmar con el DNPW antes de subir.",
+   "autonomia": "Sin combustible en Nyika. Mzuzu–Nyika son unos 160 km (un día entero): ida y vuelta con reservas.",
+   "desc": "La carretera a Nyika sale de Rumphi hacia el norte y sube el escarpe suroeste hasta la meseta; en la zona de Thazima está la entrada sur del parque. Es una pista de grava que atraviesa pastizales de altura y castigó los coches en todas las crónicas. Coordenada: localidad de Thazima (la puerta está en la zona; no verificada).",
+   "acceso": "Desde Rumphi, pista de grava y tierra con tramos rotos en el escarpe. En lluvias, barro.",
+   "riesgos": "Firme muy roto (Tracks4Africa, 2018: el coche «recibió una paliza»), niebla frecuente en la meseta, frío (máximas de 20 °C en invierno y cerca de 0 °C de noche en julio).",
+   "cerca": "Nyika National Park · Chelinda",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/malawi/northern-region",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Thazima",
+     "url": "https://mapcarta.com/Thazima",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Nyika National Park",
+     "url": "https://en.wikipedia.org/wiki/Nyika_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Malawi meanderings from north to south",
+     "url": "https://blog.tracks4africa.co.za/malawi-national-parks-north-south/",
+     "fecha": "2018-11"
+    },
+    {
+     "titulo": "Tracks4Africa: Malawi rewards the adventurous traveller",
+     "url": "https://blog.tracks4africa.co.za/malawi-rewards-the-adventurous-traveller/",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Chelinda: corazón de la meseta de Nyika",
+   "tipo": "oasis",
+   "lat": -10.58173,
+   "lon": 33.8083,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "finales de abril a septiembre",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Parque nacional: sin norma localizada, pero tratarlo como prohibido (dossier del proyecto) y preguntar al DNPW.",
+   "autonomia": "No hay gasolinera. Alojamiento en Chelinda Camp y cabañas; camping en la zona.",
+   "desc": "Chelinda, a 2.294 m, es la sede del mayor parque de Malaui (3.134 km²): praderas onduladas con cebras, antílopes ruanos y leopardos, bosques de pinos y lagos como el Kaulime. Las pistas de la meseta son de grava por pradera abierta, un recorrido 4x4 tranquilo pero lejano. Es la gran recompensa del norte del país.",
+   "acceso": "Por Rumphi y Thazima, subiendo el escarpe; ramal final hacia el este hasta Chelinda. Hay aeródromo 3 km al noroeste.",
+   "riesgos": "Niebla, frío y pistas rotas; navegación sencilla pero sin cobertura fiable.",
+   "cerca": "Nyika National Park · Chelinda",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/malawi/northern-region",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Chelinda",
+     "url": "https://mapcarta.com/Chelinda",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Nyika National Park",
+     "url": "https://en.wikipedia.org/wiki/Nyika_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Malawi meanderings from north to south",
+     "url": "https://blog.tracks4africa.co.za/malawi-national-parks-north-south/",
+     "fecha": "2018-11"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Curvas de herradura de Livingstonia (paso de Gorodi)",
+   "tipo": "paso",
+   "lat": -10.6099,
+   "lon": 34.1073,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre; con lluvia, resbaladizo",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Carretera pública fuera de parques; sin restricciones.",
+   "autonomia": "Corto (unos 7 km de subida), pero lento: más de una hora. Repostar en Mzuzu o Karonga.",
+   "desc": "Es la subida desde el lago Malaui hasta la misión de Livingstonia (1.353 m): unas 20 curvas de herradura en unos 7 km, algunas tan cerradas que hay que maniobrar marcha atrás a mitad. Tracks4Africa (2026) recomienda reductora, quizá bloqueo de diferencial, y la desaconseja con remolque. En lo alto están las cataratas de Manchewe y la misión.",
+   "acceso": "Desde la M1 en Chitimba (7 km al este de Livingstonia) por la S103, de tierra y piedra. Alternativa fácil: la carretera que sale de la M1 en Phwezi, asfaltada hasta Livingstonia. Coordenada: pueblo de Livingstonia (cima del paso).",
+   "riesgos": "Curvas muy cerradas, piedra suelta, mototaxis bajando. Tracks4Africa llama «Gorodi Pass» a esta subida y la sitúa en la zona de Chilumba: confirmar si se refiere a la S103 desde Chitimba o a otra subida cercana.",
+   "cerca": "Livingstonia y la carretera de las curvas de herradura",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/malawi/northern-region",
+   "fuentes": [
+    {
+     "titulo": "Tracks4Africa: Malawi rewards the adventurous traveller (Gorodi Pass)",
+     "url": "https://blog.tracks4africa.co.za/malawi-rewards-the-adventurous-traveller/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Wikipedia: Livingstonia",
+     "url": "https://en.wikipedia.org/wiki/Livingstonia",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Livingstonia",
+     "url": "https://mapcarta.com/Livingstonia",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Chitimba",
+     "url": "https://mapcarta.com/Chitimba",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Vwaza Marsh: pistas de la reserva",
+   "tipo": "pista",
+   "lat": -11.0425,
+   "lon": 33.7753,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "mayo a octubre",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Reserva de fauna con búfalos, elefantes e hipopótamos: sin norma localizada, tratar como prohibido.",
+   "autonomia": "Repostar en Rumphi. Sin servicios en la reserva.",
+   "desc": "Es una reserva de 1.000 km² de mopane, miombo y marismas al sureste de la meseta de Nyika, con hipopótamos en el lago Kazuni y elefantes y búfalos. Wikipedia la describe como poco visitada precisamente por el mal estado de las pistas y lo difícil del terreno. Es un complemento salvaje y sin gente a Nyika. Coordenada: centro de la reserva.",
+   "acceso": "Desde Rumphi hacia el oeste por pista de tierra; interior con pistas en mal estado.",
+   "riesgos": "Pistas rotas y barro en lluvias; fauna peligrosa (hipopótamos en el lago).",
+   "cerca": "Nyika National Park · Chelinda",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Vwaza Marsh Wildlife Reserve",
+     "url": "https://en.wikipedia.org/wiki/Vwaza_Marsh_Wildlife_Reserve",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Rumphi",
+     "url": "https://en.wikipedia.org/wiki/Rumphi",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Liwonde: pistas de autoconducción junto al Shire (Mvuu)",
+   "tipo": "pista",
+   "lat": -14.85005,
+   "lon": 35.29418,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "abril a octubre; 4x4 recomendado de diciembre a abril y algunas pistas cerradas con lluvias",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Parque gestionado por African Parks: la web no publica política de mascotas. Con rinocerontes y leones, tratarlo como prohibido y confirmar antes.",
+   "autonomia": "Liwonde está a 120 km de Blantyre y 250 km de Lilongüe; repostar en la ciudad de Liwonde o en Blantyre. Camping en Mvuu (Chimwala, autoabastecido, no tiene valla).",
+   "desc": "Liwonde, gestionado por African Parks desde 2015, permite la autoconducción por todas sus pistas según la estación, con elefantes, hipopótamos y rinoceronte negro junto al río Shire. En la puerta principal se pueden contratar guías comunitarios que acompañan en el propio coche. Mvuu, en el norte del parque, tiene lodge y zona de acampada.",
+   "acceso": "Por carretera desde Liwonde; horario del parque de 6:00 a 18:00. Pistas de tierra; algodón negro y barro en lluvias. Coordenada: Mvuu Camp.",
+   "riesgos": "Barro en la estación húmeda, fauna peligrosa (campamentos sin valla). Las tasas de entrada no están publicadas en la web: preguntar.",
+   "cerca": "Liwonde National Park",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/malawi",
+   "fuentes": [
+    {
+     "titulo": "Visit Liwonde (African Parks)",
+     "url": "https://visitliwonde.org/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Visit Liwonde: Day visitors",
+     "url": "https://visitliwonde.org/day-visitors/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Mvuu Camp",
+     "url": "https://mapcarta.com/Mvuu_Camp",
+     "fecha": ""
+    },
+    {
+     "titulo": "Visit Liwonde: Chimwala Camp",
+     "url": "https://visitliwonde.org/chimwala/",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Likhubula: base del macizo de Mulanje",
+   "tipo": "pista",
+   "lat": -15.94139,
+   "lon": 35.49083,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "mayo a octubre",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "El vehículo llega hasta Likhubula; la montaña se sube a pie con guía y porteadores. No se ha encontrado norma sobre perros en la reserva forestal.",
+   "autonomia": "Repostar en Blantyre o Mulanje. Thyolo está a unos 50 km.",
+   "desc": "Likhubula es la aldea y misión al pie de Mulanje (3.002 m, patrimonio mundial desde 2025) donde empieza la ruta de tres días a Sapitwa por los refugios de Chisepo y Chambe. No es un destino 4x4: se incluye como punto de aparcamiento y base del trekking, con paquetes de unos 210 USD por persona con guía, dos porteadores y cocinero.",
+   "acceso": "Asfalto desde Blantyre y Mulanje hasta el desvío; último tramo de tierra hasta la misión.",
+   "riesgos": "El FCDO recoge una agresión violenta a turistas británicos en Mulanje en 2025: guía oficial y no dejar el coche sin vigilancia.",
+   "cerca": "Mount Mulanje · acceso por Likhubula",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Likhubula",
+     "url": "https://mapcarta.com/Likhubula",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Malawi rewards the adventurous traveller (trekking de Mulanje)",
+     "url": "https://blog.tracks4africa.co.za/malawi-rewards-the-adventurous-traveller/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Wikipedia: Mulanje Massif",
+     "url": "https://en.wikipedia.org/wiki/Mulanje_Massif",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Malawi, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/malawi/safety-and-security",
+     "fecha": "2026-07"
+    }
+   ],
+   "n": 7
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Bucle del norte: Chitimba – Livingstonia – Phwezi – Rumphi – Thazima – Chelinda",
+   "desde": "Chitimba (M1, orilla del lago)",
+   "hasta": "Chelinda (meseta de Nyika)",
+   "km": 200,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "finales de abril a septiembre",
+   "guia": "no",
+   "perro": "sin_dato",
+   "estado": "recomendada",
+   "desc": "Sube del lago a la misión de Livingstonia por las curvas de herradura, baja por la carretera asfaltada hasta la M1 en Phwezi, sigue a Rumphi para repostar y remonta el escarpe de Nyika hasta Chelinda. Combina el paso de montaña más técnico del país con la meseta de pastizales más alta. Tracks4Africa aconseja no contar con más de 200 km al día en Malaui.",
+   "firme": "Tierra y piedra en las lazadas de Livingstonia, asfalto nuevo hasta Phwezi y Rumphi, grava rota en el escarpe de Nyika y pistas de pradera en la meseta.",
+   "autonomia": "Repostar en Rumphi (o Mzuzu) y llevar reserva: escasez frecuente de combustible en el país y ninguna gasolinera en Nyika.",
+   "riesgos": "Curvas de herradura muy cerradas (no apto para remolques), firme roto en Nyika, niebla y frío en la meseta. No conducir de noche. El perro no debería entrar en el parque de Nyika.",
+   "puntos": [
+    [
+     -10.573,
+     34.161
+    ],
+    [
+     -10.6099,
+     34.1073
+    ],
+    [
+     -10.88527,
+     34.04578
+    ],
+    [
+     -11.017,
+     33.867
+    ],
+    [
+     -10.82865,
+     33.59455
+    ],
+    [
+     -10.58173,
+     33.8083
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/malawi/northern-region",
+   "fuentes": [
+    {
+     "titulo": "Tracks4Africa: Malawi rewards the adventurous traveller",
+     "url": "https://blog.tracks4africa.co.za/malawi-rewards-the-adventurous-traveller/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Wikipedia: Livingstonia (carretera de Phwezi asfaltada)",
+     "url": "https://en.wikipedia.org/wiki/Livingstonia",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Phwezi",
+     "url": "https://mapcarta.com/Phwezi",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Nyika National Park",
+     "url": "https://en.wikipedia.org/wiki/Nyika_National_Park",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (03-07-2026) no desaconseja ninguna zona de Malaui; avisa de escasez frecuente de combustible con colas, de no conducir de noche, de secuestros ocasionales para pedir rescate, de robos en Lilongüe, Blantyre y Limbe y de una agresión violenta a turistas británicos en Mulanje en 2025. El permiso británico vale 90 días; con permiso internacional, un año. MAEC (09-06-2026) tampoco desaconseja zonas; recomienda no conducir de noche, planificar el combustible y cuidado con hipopótamos y cocodrilos en el lago y los ríos. PASO DE FRONTERA (Tracks4Africa, 09-2026): 2-4 horas; seguro a terceros obligatorio en la frontera; pegatina de país y triángulos rojos; carnet de passages recomendado o permiso de importación temporal. Cambio oficial unos 1.760 kwachas por dólar frente a unos 4.000 en el mercado paralelo (la fuente sugiere Mukuru). PERROS: no se ha encontrado la ley malauí de parques ni una norma de African Parks sobre mascotas; se marca «sin_dato», pero el dossier del proyecto los da por prohibidos en todos los parques nacionales. Confirmar con el DNPW de Malaui y con African Parks (Nyika, Liwonde, Nkhotakota). TASAS: no se han podido verificar las tasas 2026 de los parques malauíes ni la de vehículo extranjero (las webs de African Parks no las publican). DUDAS. (1) Tasas de entrada y de vehículo extranjero. (2) Si el «Gorodi Pass» de Tracks4Africa es la S103 Chitimba–Livingstonia o otra subida en la zona de Chilumba (Chilumba está unos 20 km al norte de Chitimba). (3) La posición exacta de la puerta de Thazima y de la de Vwaza (coordenadas de localidad o de centro de reserva). Solo una ruta: no se encontraron fuentes con puntos de paso para rutas 4x4 en Nkhotakota, Liwonde o Mulanje. DESCARTADAS. La carretera del lago Nkhotakota–Salima: asfalto muy dañado (170 km en 4 horas), no es offroad. Nkhotakota Wildlife Reserve: se cita pero sin datos de pistas de autoconducción. Mulanje solo como base de trekking, no hay pista 4x4 de interés verificada. Wikiloc bloquea WebFetch: se enlazan solo los listados vistos en búsqueda (malawi y northern-region). También existen balaka y blantyre/mandala, pero no se han usado por no corresponder con seguridad a Liwonde ni a Mulanje."
+}

@@ -1,0 +1,409 @@
+{
+ "pais": "uganda",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Apoka y el valle de Narus (Kidepo)",
+   "tipo": "pista",
+   "lat": 3.73551,
+   "lon": 33.72733,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "recomendado",
+   "perro": "no",
+   "perro_nota": "El reglamento de la UWA prohíbe entrar con perros u otras mascotas en los parques.",
+   "autonomia": "Kidepo está a unos 520-700 km de Kampala según la fuente; llegar con gasóleo para moverse por el parque y volver a Kaabong o Kitgum.",
+   "desc": "Apoka es el centro del parque del valle de Kidepo, con la oficina de la UWA y la pista de aterrizaje a 3 km. Desde aquí salen las pistas del valle de Narus, la zona más accesible del parque; el valle de Kidepo, al norte, es más remoto. En el extremo norte, junto a la frontera de Sudán del Sur, está la fuente templada de Kanangorok, el agua más permanente del parque.",
+   "acceso": "Por Gulu y Kitgum hasta la puerta de Lokumoit (la ruta más directa, unas 10 horas desde Kampala) o por Karamoja (Moroto, Kotido, Kaabong) hasta la puerta de Nataba. Pistas de tierra dentro del parque.",
+   "riesgos": "El MAEC (01-09-2026) manda evitar Karamoja y la región fronteriza con Sudán del Sur, y Kidepo está en las dos. El FCDO (02-09-2026) no lo desaconseja, pero avisa de robos de ganado con muertos en Karamoja y aconseja no circular de noche. La UWA dice que Karamoja se considera segura desde hace años. El valle de Kidepo ha sufrido más caza furtiva e inseguridad.",
+   "cerca": "Parque Nacional del Valle de Kidepo",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Apoka",
+     "url": "https://mapcarta.com/Apoka",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kidepo Valley National Park",
+     "url": "https://en.wikipedia.org/wiki/Kidepo_Valley_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "UWA: Kidepo Valley National Park",
+     "url": "https://ugandawildlife.org/national-parks/kidepo-valley-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "UWA: Conservation Tariff July 2024 – June 2026",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "fecha": "2024-03"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Uganda",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Uganda",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "FCDO: Uganda, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/uganda/regional-risks",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Nataba: entrada a Kidepo desde Karamoja",
+   "tipo": "pista",
+   "lat": 3.68936,
+   "lon": 33.82302,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "recomendado",
+   "perro": "no",
+   "perro_nota": "A partir de la puerta rige el reglamento de la UWA: perros prohibidos.",
+   "autonomia": "Repostar en la última ciudad de Karamoja antes del parque; no hay datos de gasolineras en el tramo final.",
+   "desc": "Las dos rutas largas a Kidepo por Karamoja terminan en la puerta de Nataba, unos 12 km al sureste de Apoka. Pasan por pueblos como Moroto, que se están abriendo al turismo comunitario. Es la entrada lógica si se llega desde Kenia por el este de Uganda.",
+   "acceso": "Pista de tierra desde Kaabong. Coordenada del caserío de Nataba; la puerta está en su entorno.",
+   "riesgos": "Karamoja: el MAEC (01-09-2026) manda evitar la subregión por luchas tribales y bandidaje. El FCDO (02-09-2026) señala más presencia de seguridad en Kaabong, Kotido, Abim, Moroto y Nakapiripirit por robo de ganado y aconseja no circular de noche.",
+   "cerca": "Parque Nacional del Valle de Kidepo",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Nataba",
+     "url": "https://mapcarta.com/Nataba",
+     "fecha": ""
+    },
+    {
+     "titulo": "UWA: Kidepo Valley National Park (rutas por Karamoja hasta la puerta de Nataba)",
+     "url": "https://ugandawildlife.org/national-parks/kidepo-valley-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Uganda, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/uganda/regional-risks",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Uganda",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Uganda",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Kaniyo Pabidi y la puerta sur de Murchison (Kichumbanyobo)",
+   "tipo": "pista",
+   "lat": 1.90483,
+   "lon": 31.71564,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "estación seca; con lluvia, barro en las pistas",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Reglamento de la UWA: perros prohibidos dentro del parque. El grupo de mujeres Boomu, justo fuera de la puerta de Kichumbanyobo, ofrece alojamiento (consultar si admiten perros).",
+   "autonomia": "Repostar en Masindi.",
+   "desc": "La reserva forestal de Kaniyo Pabidi, parte del bosque de Budongo, está junto a la puerta principal de Murchison, Kichumbanyobo, al norte de Masindi. Es el comienzo de la pista hacia Paraa y lo alto de las cataratas. Murchison es el parque más grande de Uganda y la entrada cuesta 45 USD por no residente y día (tarifa 2024-2026).",
+   "acceso": "Desde Masindi por pista de tierra hacia el norte. Dentro del parque las pistas son básicas: una guía aconseja conectar la tracción total y no pasar de 40 km/h, el límite del parque. Coordenada de la reserva forestal; la colina de Kichumbanyobo está al lado.",
+   "riesgos": "Pistas con baches. Obras y tráfico ligados a los pozos de petróleo y al oleoducto dentro y alrededor del parque. Sin alertas del FCDO ni del MAEC en la zona.",
+   "cerca": "Cataratas Murchison · el Nilo estrangulado",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Kaniyo-Pabidi Forest Reserve",
+     "url": "https://mapcarta.com/Kaniyo_Pabidi",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikivoyage: Murchison Falls National Park",
+     "url": "https://en.wikivoyage.org/wiki/Murchison_Falls_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Murchison Falls National Park",
+     "url": "https://en.wikipedia.org/wiki/Murchison_Falls_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "UWA: Conservation Tariff July 2024 – June 2026",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "fecha": "2024-03"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Lo alto de las cataratas Murchison",
+   "tipo": "pista",
+   "lat": 2.27848,
+   "lon": 31.6855,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "todo el año; mejor en seco",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Dentro del parque: perros prohibidos (UWA).",
+   "autonomia": "Desvío corto desde la pista Kichumbanyobo–Paraa.",
+   "desc": "Es el mirador donde el Nilo Victoria se estrecha en una garganta de solo 7 m y cae 43 m. Se llega por un ramal de la pista que va de la puerta sur a Paraa. Es la visita imprescindible del parque y se puede combinar con la barca que remonta el río desde Paraa.",
+   "acceso": "Ramal de pista de tierra; tracción total recomendada en mojado. Coordenada del PDI general existente (no verificada con fuente independiente).",
+   "riesgos": "Barro en época de lluvias. Sin alertas.",
+   "cerca": "Cataratas Murchison · el Nilo estrangulado",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Murchison Falls National Park",
+     "url": "https://en.wikipedia.org/wiki/Murchison_Falls_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikivoyage: Murchison Falls National Park",
+     "url": "https://en.wikivoyage.org/wiki/Murchison_Falls_National_Park",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Ferry de Paraa sobre el Nilo",
+   "tipo": "paso",
+   "lat": 2.28785,
+   "lon": 31.56905,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Dentro del parque: perros prohibidos (UWA).",
+   "autonomia": "Paraa está a unos 86 km de Masindi y a 25 km de Pakwach, donde se puede repostar al salir por el norte.",
+   "desc": "En Paraa, centro turístico del parque desde los años 50, un ferry cruza el Nilo Victoria y une el sur del parque con las llanuras del norte (sector de Buligi y Pakuba), las mejores para ver fauna. La terminal sur está junto a la recepción de la UWA. Sin el ferry no hay forma rápida de cruzar el río dentro del parque.",
+   "acceso": "Por la pista desde la puerta sur o desde lo alto de las cataratas. Horarios y tarifa del ferry: no confirmados en las fuentes abiertas; preguntar en la recepción de la UWA.",
+   "riesgos": "Esperas si el ferry está averiado o lleno. Sin alertas.",
+   "cerca": "Cataratas Murchison · el Nilo estrangulado",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Paraa (terminal sur del ferry)",
+     "url": "https://mapcarta.com/Paraa",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Paraa",
+     "url": "https://en.wikipedia.org/wiki/Paraa",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Ishasha: sector sur de Queen Elizabeth",
+   "tipo": "pista",
+   "lat": -0.5858,
+   "lon": 29.71757,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "recomendado",
+   "perro": "no",
+   "perro_nota": "Reglamento de la UWA: perros prohibidos.",
+   "autonomia": "Kihihi, unos 9 km al este del puesto fronterizo de Ishasha, es la población más cercana.",
+   "desc": "Ishasha es el sector sur del Parque Nacional Queen Elizabeth, famoso por los leones que trepan a los árboles (los machos, a menudo de melena negra). Las pistas recorren sabana abierta junto al río Ishasha, que marca la frontera con la RD del Congo. Entrada: 40 USD por no residente y día; un 4x4 con matrícula extranjera paga 150 USD (tarifa 2024-2026).",
+   "acceso": "Por carretera desde Kihihi o desde el norte del parque; pistas de tierra dentro. Coordenada del PDI general existente (no verificada con fuente independiente).",
+   "riesgos": "Pegado a la frontera con la RD del Congo: el MAEC (01-09-2026) manda evitar las zonas cercanas a esa frontera. El FCDO (02-09-2026) recuerda que en octubre de 2023 dos turistas y su conductor murieron a manos de terroristas en este parque, y pide precaución especial en los parques del oeste cercanos al Congo. Desaconsejado.",
+   "cerca": "Ishasha · los leones trepadores",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Queen Elizabeth National Park",
+     "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Ishasha (puesto fronterizo)",
+     "url": "https://mapcarta.com/Ishasha",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Uganda, safety and security",
+     "url": "https://www.gov.uk/foreign-travel-advice/uganda/safety-and-security",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Uganda",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Uganda",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "UWA: Conservation Tariff July 2024 – June 2026",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "fecha": "2024-03"
+    }
+   ],
+   "n": 6
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Karamoja hasta Kidepo: Moroto – Kotido – Kaabong – Nataba – Apoka",
+   "desde": "Moroto",
+   "hasta": "Apoka (Kidepo)",
+   "km": 230,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Es la aproximación larga a Kidepo por la subregión de Karamoja, que la UWA propone como alternativa a la ruta de Gulu y Kitgum. Sube desde Moroto, la mayor ciudad de Karamoja, por Kotido (107 km) y Kaabong hasta la puerta de Nataba y Apoka. Atraviesa el país karamojong, con pueblos que empiezan a ofrecer turismo comunitario.",
+   "firme": "Carretera y pista de tierra entre los pueblos; pistas dentro del parque.",
+   "autonomia": "Repostar en Moroto y Kotido; no hay datos verificados de gasolineras en Kaabong.",
+   "riesgos": "Desaconsejada: el MAEC (01-09-2026) manda evitar Karamoja por luchas tribales y bandidaje, y la región fronteriza con Sudán del Sur. El FCDO (02-09-2026) avisa de robos de ganado con muertos y aconseja no circular de noche. El perro no puede entrar en el parque.",
+   "puntos": [
+    [
+     2.53,
+     34.67
+    ],
+    [
+     3.00719,
+     34.19828
+    ],
+    [
+     3.006,
+     34.1125
+    ],
+    [
+     3.52,
+     34.12
+    ],
+    [
+     3.68936,
+     33.82302
+    ],
+    [
+     3.73551,
+     33.72733
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "UWA: Kidepo Valley National Park (rutas de acceso)",
+     "url": "https://ugandawildlife.org/national-parks/kidepo-valley-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Moroto, Uganda",
+     "url": "https://en.wikipedia.org/wiki/Moroto,_Uganda",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kotido (107 km al noroeste de Moroto)",
+     "url": "https://en.wikipedia.org/wiki/Kotido",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kaabong (186 km de Moroto por carretera)",
+     "url": "https://en.wikipedia.org/wiki/Kaabong",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Nakapelimoru",
+     "url": "https://mapcarta.com/Nakapelimoru",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Uganda, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/uganda/regional-risks",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Uganda",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Uganda",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Murchison de sur a norte: Masindi – Kichumbanyobo – cataratas – Paraa (ferry) – Pakwach",
+   "desde": "Masindi",
+   "hasta": "Pakwach",
+   "km": 140,
+   "dias": 2,
+   "dificultad": "fácil",
+   "epoca": "estación seca; con lluvia, barro",
+   "guia": "no",
+   "perro": "no",
+   "estado": "recomendada",
+   "desc": "Atraviesa el parque más grande de Uganda: entrada por Kichumbanyobo junto al bosque de Kaniyo Pabidi, desvío a lo alto de las cataratas, bajada a Paraa, cruce del Nilo en ferry y salida por las llanuras del norte hacia Pakwach. Paraa está a unos 86 km de Masindi y a 25 km de Pakwach.",
+   "firme": "Pista de tierra con baches; tracción total y límite de 40 km/h dentro del parque.",
+   "autonomia": "Repostar en Masindi a la entrada y en Pakwach a la salida.",
+   "riesgos": "El perro no puede entrar: dejarlo fuera o elegir otra ruta. Tráfico y obras del petróleo (pozos y oleoducto). Horarios del ferry por confirmar. No circular de noche fuera de las ciudades (FCDO).",
+   "puntos": [
+    [
+     1.68525,
+     31.72059
+    ],
+    [
+     1.90483,
+     31.71564
+    ],
+    [
+     2.27848,
+     31.6855
+    ],
+    [
+     2.28785,
+     31.56905
+    ],
+    [
+     2.32551,
+     31.4983
+    ],
+    [
+     2.4609,
+     31.4987
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Paraa (86 km de Masindi, 25 km de Pakwach)",
+     "url": "https://en.wikipedia.org/wiki/Paraa",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikivoyage: Murchison Falls National Park",
+     "url": "https://en.wikivoyage.org/wiki/Murchison_Falls_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Masindi",
+     "url": "https://mapcarta.com/Masindi",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Pakwach",
+     "url": "https://mapcarta.com/Pakwach",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Pakuba Airport",
+     "url": "https://en.wikipedia.org/wiki/Pakuba_Airport",
+     "fecha": ""
+    },
+    {
+     "titulo": "UWA: Conservation Tariff July 2024 – June 2026",
+     "url": "https://ugandawildlife.org/wp-content/uploads/2024/03/UWA-Conservation-Tariff-July-2024-June-2026.pdf",
+     "fecha": "2024-03"
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. El MAEC (actualizado el 01-09-2026) manda evitar tres zonas: la subregión de Karamoja (luchas tribales y bandidaje), las zonas cercanas a la frontera con la RD del Congo (alta inestabilidad) y la región fronteriza con Sudán del Sur. También recomienda evitar los parques cercanos a esas fronteras. El resto del país es riesgo medio y no hay ninguna zona 'sin problemas'. El FCDO (02-09-2026) no desaconseja ninguna zona dentro de Uganda, solo las provincias congoleñas vecinas y Sudán del Sur. Avisa del ADF (vinculado a Daesh), que puede atacar a turistas: en octubre de 2023 mató a dos turistas y a su conductor en Queen Elizabeth, hay atentados en torno al paso de Bwera y en noviembre de 2025 hubo ataques armados coordinados en Kasese y Bundibugyo. En Karamoja señala robos de ganado con muertos y pide no circular de noche. En la zona del Elgon, solo el riesgo de corrimientos de tierra con lluvias. El 27-08-2026 la OMS dio por terminado el brote de ébola. Consecuencia: la ruta de Karamoja a Kidepo va como 'desaconsejada' y el punto de Ishasha también (frontera congoleña). PERROS. El reglamento de la UWA dice que no se entre con perros ni otras mascotas en los parques. TASAS (tarifa de la UWA de julio de 2024 a junio de 2026). Vehículo con matrícula extranjera: turismo 40 USD, pick-up 50, 4x4 o vehículo de agencia 150, autobús o camión 200. El documento añade 10 USD en Murchison, sin que quede claro a qué se aplica. Entrada por no residente y día: Murchison 45 USD, Queen Elizabeth, Kidepo y lago Mburo 40, Elgon y Rwenzori 35. Camping: de 30 a 40 USD por parcela según su tamaño. El billete vale 24 horas. Hay que comprobar la tarifa que rija en 2027, porque esta vence en junio de 2026. Con dos Grenadier, 300 USD al día solo en vehículos. Entrada del vehículo al país (documentos del proyecto): Temporary Road Licence de la URA de hasta 90 días (unos 71.000 UGX al mes en 2019). Uganda no reconoce el carnet de passages (Tracks4Africa). DUDAS. (1) La tarifa de la UWA para 2026-2027 y si hay un vehículo extranjero 'particular' distinto del de 150 USD. (2) El horario y la tarifa del ferry de Paraa. (3) Las coordenadas de lo alto de las cataratas y de Ishasha salen de los PDI generales y no se han podido contrastar. Kilómetros: Moroto–Kotido (107) y Moroto–Kaabong (186) salen de Wikipedia; el tramo final hasta Apoka es una estimación, y Wikipedia sitúa Kidepo a 220 km de Moroto. El punto de Nakapelimoru está 9 km al este de Kotido y no se ha confirmado que esté en la carretera de Moroto. Murchison: 86 km Masindi–Paraa más 25 km Paraa–Pakwach, y el desvío a las cataratas es una estimación. WIKILOC: no se ha podido comprobar ningún listado (buscador agotado; Wikiloc bloquea WebFetch). DESCARTADAS. Rwenzori: es trekking y no hay pista 4x4, está en Kasese (ataques de noviembre de 2025, FCDO) y cerca de la frontera congoleña (MAEC). Sipi y Elgon: el acceso está asfaltado y el interés es a pie; no he encontrado fuente 4x4 y el FCDO avisa de corrimientos con lluvias. Queen Elizabeth norte (Kasenyi, Mweya) y la pista Katunguru–Ishasha: sin fuentes de trazado, y todo el parque está en la franja que el MAEC manda evitar. Semliki, Bwindi y Mgahinga: frontera congoleña (el FCDO exige operador registrado para Bwindi y Mgahinga). Ruta directa a Kidepo por Gulu, Kitgum y Lokumoit: no se ha podido situar la puerta de Lokumoit, y el parque sigue en zona del MAEC."
+}

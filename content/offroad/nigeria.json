@@ -1,0 +1,276 @@
+{
+ "pais": "nigeria",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Subida a la meseta de Obudu (Obudu Mountain Resort)",
+   "tipo": "paso",
+   "lat": 6.38667,
+   "lon": 9.37389,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca (aprox. noviembre a marzo); ojo a la niebla",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "El resort no publica su política con mascotas; consultar al reservar.",
+   "autonomia": "Unos 65 km desde la ciudad de Obudu; repostar allí.",
+   "desc": "Es una antigua granja ganadera a 1.600 m, en la meseta de Obudu, cerca de la frontera con Camerún. Se sube por una carretera de montaña con muchas curvas de herradura, y su clima es casi templado. Arriba está la reserva de Becheve, con cascadas y una gruta. El teleférico de 870 m lleva tiempo parado por falta de mantenimiento. No es una pista, sino la gran subida de montaña del corredor sur nigeriano.",
+   "acceso": "Desde Obudu, unos 65 km (la fuente dice unos 30 minutos) por carretera de montaña con curvas de herradura. No se ha encontrado ninguna fuente reciente sobre el estado del firme. Coordenada: el resort.",
+   "riesgos": "Curvas cerradas con vehículos cargados, niebla. Cross River: el FCDO solo desaconseja sus zonas ribereñas (accesibles en barco y no por carretera); el MAEC lo considera de riesgo alto por asaltos y secuestros. No circular de noche, en ningún caso, según el MAEC.",
+   "cerca": "Meseta de Obudu (Obudu Mountain Resort)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Obudu Mountain Resort",
+     "url": "https://en.wikipedia.org/wiki/Obudu_Mountain_Resort",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Nigeria travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/nigeria/warnings-and-insurance",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Nigeria",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nigeria",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Buanchor: vado y últimos 5-6 km de tierra hacia la Drill Ranch de Afi",
+   "tipo": "paso",
+   "lat": 6.3301,
+   "lon": 8.98852,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca; en lluvias puede hacer falta 4x4 en los últimos 6 km",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Pueblo; sin normas conocidas.",
+   "autonomia": "Llegar con combustible, agua y comida desde Ikom u Obudu; no se ha encontrado ninguna gasolinera en Buanchor.",
+   "desc": "Buanchor es el pueblo de acceso a la montaña de Afi. Según Pandrillus, se cruza el pueblo, se vadea un río y la Drill Ranch queda 5 km al sur por una pista de tierra muy usada. Según la época, hace falta 4x4 en los últimos 6 km, y los puentes admiten como máximo 3 toneladas por eje.",
+   "acceso": "Desde la carretera Ikom–Obudu, desvío asfaltado unos 2 km antes de Wula; de ahí, por Olum hasta Buanchor. Después, vado y pista de tierra. Coordenada: el pueblo (GeoNames); el vado no está georreferenciado.",
+   "riesgos": "Crecida del río en lluvias y límite de 3 t por eje en los puentes (dentro del margen de un Grenadier cargado, pero hay que comprobarlo con el peso real). Cross River: riesgo alto según el MAEC por asaltos y secuestros; no circular de noche. Los datos de Pandrillus son de 2019.",
+   "cerca": "Montaña de Afi · santuario de drills y gorilas de Cross River",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Pandrillus: Afi Mountain Drill Ranch, visitor information",
+     "url": "https://www.pandrillus.org/projects/drill-ranch/visitor-information/",
+     "fecha": "2019-11"
+    },
+    {
+     "titulo": "GeoNames: Baunchor (Buanchor)",
+     "url": "https://www.geonames.org/search.html?q=Buanchor&country=NG",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Nigeria",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nigeria",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Afi Mountain Drill Ranch: campamento en la selva",
+   "tipo": "oasis",
+   "lat": 6.285,
+   "lon": 8.9885,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "Pandrillus no menciona perros. Es un santuario de drills y chimpancés en el que todas las visitas van acompañadas por personal: preguntar antes; lo previsible es que no se admita.",
+   "autonomia": "Hay cocina compartida con utensilios; la comida hay que llevarla. Agua, gasóleo y compras en Ikom u Obudu.",
+   "desc": "Es el campamento de Pandrillus al pie de la montaña de Afi (unos 100 km² de selva con picos de hasta 1.300 m), donde viven el gorila de Cross River, el drill y el chimpancé. Tiene seis cabañas, zona de acampada y una pasarela en el dosel del bosque a 25 m de altura. En 2019 la acampada costaba 2.500 nairas por persona y noche y había un recargo por vehículo. Es el mejor bivac en selva del corredor nigeriano.",
+   "acceso": "5 km al sur de Buanchor, tras el vado, por pista de tierra. Desde Calabar se tarda 5-6 horas. Coordenada aproximada: 5 km al sur del pueblo, según Pandrillus.",
+   "riesgos": "Pista embarrada en lluvias; con los primates, visitas siempre acompañadas. Cross River: el MAEC la considera de riesgo alto (asaltos y secuestros); el FCDO solo desaconseja las zonas ribereñas.",
+   "cerca": "Montaña de Afi · santuario de drills y gorilas de Cross River",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Pandrillus: Afi Mountain Drill Ranch, visitor information",
+     "url": "https://www.pandrillus.org/projects/drill-ranch/visitor-information/",
+     "fecha": "2019-11"
+    },
+    {
+     "titulo": "Wikipedia: Afi Mountain Wildlife Sanctuary",
+     "url": "https://en.wikipedia.org/wiki/Afi_Mountain_Wildlife_Sanctuary",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Nigeria",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nigeria",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Parque Nacional de Gashaka-Gumti: desaconsejado",
+   "tipo": "pista",
+   "lat": 7.35,
+   "lon": 11.52,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "no recomendable",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Zona desaconsejada; no aplica.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "desc": "Es el mayor parque nacional de Nigeria (6.402 km²), entre Taraba y Adamawa, en la frontera con Camerún: montañas, bosque de galería y cascadas. Se incluye solo como aviso. Según Wikipedia, el turismo cayó desde 2012 por la inseguridad del noreste y al menos nueve guardas han muerto a manos de taladores ilegales.",
+   "acceso": "No aplica.",
+   "riesgos": "El FCDO desaconseja todo viaje a Adamawa y, salvo lo esencial, a Taraba. El MAEC incluye Adamawa entre los estados de riesgo muy alto y Taraba entre los de riesgo alto, con violencia étnica. Coordenada: la de Wikipedia para el parque (aproximada).",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Gashaka Gumti National Park",
+     "url": "https://en.wikipedia.org/wiki/Gashaka_Gumti_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Nigeria travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/nigeria/warnings-and-insurance",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Nigeria",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nigeria",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Meseta de Mambilla (Gembu): desaconsejada",
+   "tipo": "paso",
+   "lat": 6.7255,
+   "lon": 11.25652,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "no recomendable",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Zona desaconsejada; no aplica.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "desc": "Es la meseta más alta de Nigeria, en Taraba, con sus escarpes sur y este sobre la frontera camerunesa; Gembu es su mayor población. Se incluye solo como aviso, porque es el otro gran destino de montaña del este nigeriano. Coordenada: Gembu.",
+   "acceso": "No aplica. No he encontrado ninguna fuente abierta sobre el estado de la carretera de subida.",
+   "riesgos": "El FCDO desaconseja todo viaje salvo el esencial a Taraba, y el MAEC la considera de riesgo alto, con violencia étnica.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Mambilla Plateau",
+     "url": "https://en.wikipedia.org/wiki/Mambilla_Plateau",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Gembu",
+     "url": "https://www.geonames.org/search.html?q=Gembu&country=NG",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Nigeria travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/nigeria/warnings-and-insurance",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Nigeria",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nigeria",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 5
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Obudu Mountain Resort – Obudu – Wula – Buanchor – Afi Drill Ranch",
+   "desde": "Obudu Mountain Resort",
+   "hasta": "Afi Mountain Drill Ranch",
+   "km": 130,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "no; en la Drill Ranch las visitas van con personal",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "Enlaza los dos puntos de montaña y selva de Cross River: la bajada de la meseta de Obudu por las curvas de herradura, unos 47 km hacia el sur por la carretera Obudu–Ikom, el desvío asfaltado de Wula hacia el oeste por Olum hasta Buanchor y, después, un vado y 5 km de pista hasta la Drill Ranch. Casi todo es asfalto; lo 4x4 está en el final. Sirve de desvío de una o dos noches desde el corredor sur hacia Camerún.",
+   "firme": "Carretera de montaña con curvas de herradura desde el resort, asfalto hasta Buanchor, un vado y pista de tierra (4x4 según la época) en los últimos 5-6 km.",
+   "autonomia": "Repostar en Obudu (o en Ikom si se entra desde el sur). No se han encontrado servicios en Buanchor ni en la Drill Ranch.",
+   "riesgos": "Cross River: el MAEC la considera de riesgo alto por asaltos y secuestros y prohíbe circular de noche; el FCDO solo desaconseja las zonas ribereñas. Vado y puentes de 3 t por eje; barro en lluvias.",
+   "puntos": [
+    [
+     6.38667,
+     9.37389
+    ],
+    [
+     6.66819,
+     9.16453
+    ],
+    [
+     6.3825,
+     9.08806
+    ],
+    [
+     6.38722,
+     9.01389
+    ],
+    [
+     6.3301,
+     8.98852
+    ],
+    [
+     6.285,
+     8.9885
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Pandrillus: Afi Mountain Drill Ranch, visitor information",
+     "url": "https://www.pandrillus.org/projects/drill-ranch/visitor-information/",
+     "fecha": "2019-11"
+    },
+    {
+     "titulo": "Wikipedia: Obudu Mountain Resort",
+     "url": "https://en.wikipedia.org/wiki/Obudu_Mountain_Resort",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Obudu",
+     "url": "https://www.geonames.org/search.html?q=Obudu&country=NG",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Wula (Boki, Cross River)",
+     "url": "https://www.geonames.org/search.html?q=Wula&country=NG",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Olum (Boki, Cross River)",
+     "url": "https://www.geonames.org/search.html?q=Olum&country=NG",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Nigeria travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/nigeria/warnings-and-insurance",
+     "fecha": "2026-08"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Nigeria",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Nigeria",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 1
+  }
+ ],
+ "notas": "SEGURIDAD. FCDO (20-08-2026). Desaconseja todo viaje a Borno, Yobe, Adamawa, Gombe, Katsina, Zamfara y a las zonas ribereñas (solo accesibles en barco) de Delta, Bayelsa, Rivers, Akwa Ibom y Cross River. Desaconseja todo salvo lo esencial a Bauchi, Kaduna, Kano, Kebbi, Jigawa, Sokoto, Niger, Kogi, Plateau, Taraba, Kwara, Benue, Abia, Anambra, Imo y las zonas no ribereñas de Delta, Bayelsa y Rivers. MAEC (29-05-2026): riesgo muy alto en la mayor parte del norte y en Bayelsa y Delta; riesgo alto en Lagos, Abuja, Edo, Cross River (asaltos y secuestros), Taraba y Plateau; no viajar de noche bajo ningún concepto. Cross River (zona no ribereña) es el único sector del este con interés de montaña que el FCDO no desaconseja. DUDAS. (1) La posición exacta de la Drill Ranch y del vado: no hay coordenadas publicadas; la del campamento está estimada 5 km al sur de Buanchor, como dice Pandrillus. (2) Los datos de Pandrillus (tarifas, 4x4 según la época, 3 t por eje) son de 2019. (3) El estado actual de la carretera de Obudu y la distancia (la fuente da 65 km, pero dice «unos 30 minutos»). La distancia de la ruta es una estimación: 65 + 47 km de las fuentes más unos 20 km medidos entre puntos. RUTAS. No se incluye Serti–Gembu (Mambilla) como ruta porque no he encontrado puntos de paso ni descripción del firme verificables; queda como punto desaconsejado. DESCARTADAS. Gashaka-Gumti y Mambilla (Taraba/Adamawa); Yankari (Bauchi: FCDO todo salvo lo esencial); Kainji (Niger/Kwara: FCDO todo salvo lo esencial). Cross River NP, división de Oban: la única fuente oficial (Nigeria Park Service, 2014) no describe accesos ni pistas. Old Oyo NP: Oyo no está en las listas del FCDO, pero no he encontrado fuentes sobre sus pistas. Delta del Níger: zonas ribereñas desaconsejadas por el FCDO. WIKILOC. No he podido comprobar si hay listado de Nigeria (Wikiloc bloquea la consulta directa)."
+}

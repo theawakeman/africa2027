@@ -1,0 +1,583 @@
+{
+ "pais": "senegal",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Desierto de Lompoul: dunas rojas entre Dakar y Saint-Louis",
+   "tipo": "dunas",
+   "lat": 15.45987,
+   "lon": -16.68296,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a mayo (estación seca)",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas publicadas; los campamentos de jaimas no indican su política con mascotas: preguntar al reservar. Arena muy caliente a mediodía.",
+   "autonomia": "Zona pequeña y cercana a la N2: repostar en Kébémer o en la N2 antes de desviarse. Agua y comida en los campamentos.",
+   "desc": "Es un pequeño erg de unos 18 km² con dunas de 40-50 m de arena fina ocre y rojiza, casi sin vegetación, a menos de 10 km del Atlántico. Es el único campo de dunas de verdad en la ruta senegalesa y se usa como anticipo de los desiertos de Mauritania. Tiene campamentos de jaimas y se recorre en 4x4 o en dromedario. Coordenada: el Écolodge de Lompoul, dentro del campo de dunas.",
+   "acceso": "Por la N2 (Dakar–Saint-Louis) hasta el desvío hacia Lompoul y unos kilómetros de arena solo aptos para 4x4. Una guía de 2024 indica que se deja el coche en un aparcamiento de pago del pueblo y el campamento baja a buscar a los clientes en su propio 4x4: con vehículo propio 4x4, confirmar con el campamento si se permite entrar hasta él. Desinflar antes de la arena (las fuentes no dan cifra).",
+   "riesgos": "Arena blanda y dunas pequeñas pero empinadas; quads y dromedarios de los campamentos. Sin riesgos de seguridad señalados por FCDO o MAEC en esta zona.",
+   "cerca": "Saint-Louis – isla histórica",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal/louga",
+   "fuentes": [
+    {
+     "titulo": "Wikipédia: Désert de Lompoul",
+     "url": "https://fr.wikipedia.org/wiki/D%C3%A9sert_de_Lompoul",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Écolodge de Lompoul",
+     "url": "https://mapcarta.com/W362892917",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Lompoul (dunas y pueblo)",
+     "url": "https://www.geonames.org/search.html?q=Lompoul&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "Carnet d'escapades: Désert de Lompoul, le mini désert du Sénégal",
+     "url": "https://www.carnetdescapades.com/afrique/senegal/desert-lompoul.html",
+     "fecha": "2024-03"
+    },
+    {
+     "titulo": "Mustseespots: How to get to Lompoul Desert from Dakar",
+     "url": "https://www.mustseespots.com/senegal/articles/how-to-get-to-lompoul-desert-from-dakar-transportation-guide/",
+     "fecha": "2026-01"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Kayar: entrada a la playa de la Grande Côte (solo con marea baja)",
+   "tipo": "paso",
+   "lat": 14.91893,
+   "lon": -17.11978,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "noviembre a junio; salir según la tabla de mareas",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Playa abierta, sin norma conocida; mucho tráfico de pescadores, piraguas y perros sueltos. Llevarlo atado en los pueblos pesqueros.",
+   "autonomia": "Repostar en la zona de Dakar/Lac Rose antes de salir. En la playa no hay servicios hasta desviarse a Lompoul, Potou o Saint-Louis.",
+   "desc": "Kayar es el gran puerto pesquero de la Grande Côte y uno de los puntos de partida del transfer en 4x4 por la playa hacia Lompoul y Saint-Louis, que sigue el trazado histórico del rally París-Dakar. Desde aquí la arena corre sin interrupción hacia el norte, con dunas y filaos a un lado y el océano al otro. Los operadores también salen del Lac Rose, unos 15 km al suroeste.",
+   "acceso": "Asfalto hasta Kayar. En la playa se circula por la franja de arena húmeda y compacta que deja la bajamar; los operadores fijan la hora de salida según la marea.",
+   "riesgos": "Quedar atrapado por la marea alta, arena blanda en la franja seca, piraguas y redes varadas, bañistas y carros de pesca en los pueblos. El agua salada y la arena exigen lavar bajos y frenos después. Hay una zona marina protegida frente a Kayar (GeoNames).",
+   "cerca": "Lac Rose – lago Retba",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal",
+   "fuentes": [
+    {
+     "titulo": "Sahel Découverte: transfert 4x4 par la plage Dakar – Lompoul – Saint-Louis",
+     "url": "https://www.saheldecouverte.com/en/transport-2/transfer-by-the-beach/",
+     "fecha": "2023-12"
+    },
+    {
+     "titulo": "Hôtel Diamarek: transfert en 4x4 vers Dakar par la plage via le lac Rose",
+     "url": "https://hotel-diamarek.com/transfert-en-4-x-4-vers-dakar-par-la-plage-via-le-lac-rose/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Kayar",
+     "url": "https://www.geonames.org/search.html?q=Kayar&country=SN",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Potou y Gandiol: salida norte de la playa hacia Saint-Louis",
+   "tipo": "paso",
+   "lat": 15.71667,
+   "lon": -16.5,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "noviembre a junio; según la marea",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Pueblos pesqueros: correa. El Parque Nacional de la Langue de Barbarie, justo al norte, requiere autorización escrita para el perro según la ficha general.",
+   "autonomia": "Gasóleo en Saint-Louis o de vuelta en la N2 (Louga).",
+   "desc": "Es la zona donde el recorrido por la playa deja el océano para seguir el río por el Gandiolais hasta Saint-Louis, según el hotel que organiza el transfer desde Saint-Louis. Al norte queda la Langue de Barbarie, cortada por la antigua desembocadura del río. Coordenada de Potou (aproximada, al minuto).",
+   "acceso": "Arena de playa con marea baja y, después, pistas de arena y tierra por los pueblos del Gandiolais hasta el asfalto de Saint-Louis.",
+   "riesgos": "Marea, arena blanda y tramos de pista sin señalizar entre pueblos. No meterse en la Langue de Barbarie (parque nacional).",
+   "cerca": "Parque Nacional de la Langue de Barbarie",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal/louga",
+   "fuentes": [
+    {
+     "titulo": "Hôtel Diamarek: transfert en 4x4 vers Dakar par la plage via le lac Rose",
+     "url": "https://hotel-diamarek.com/transfert-en-4-x-4-vers-dakar-par-la-plage-via-le-lac-rose/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Sahel Découverte: transfert 4x4 par la plage Dakar – Lompoul – Saint-Louis",
+     "url": "https://www.saheldecouverte.com/en/transport-2/transfer-by-the-beach/",
+     "fecha": "2023-12"
+    },
+    {
+     "titulo": "GeoNames: Potou (Louga)",
+     "url": "https://www.geonames.org/search.html?q=Potou&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Ndiébène Gandiol",
+     "url": "https://www.geonames.org/search.html?q=Gandiol&country=SN",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Ranérou: arranque de la pista a Katané (Ferlo Norte)",
+   "tipo": "pista",
+   "lat": 15.3,
+   "lon": -13.96667,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "diciembre a junio (estación seca)",
+   "guia": "obligatorio",
+   "perro": "no",
+   "perro_nota": "La ficha general de Katané exige autorización escrita de la Dirección de Parques incluso con el perro dentro del vehículo; sin ella, dejarlo con cuidador en Ranérou.",
+   "autonomia": "Ranérou es la base del Ferlo (ficha general). Katané está a unos 30 km sin servicios: agua y gasóleo para ida y vuelta.",
+   "desc": "Desde Ranérou sale la pista de unos 30 km hacia el enclos de Katané, en la Reserva de Fauna del Ferlo Norte, donde se han reintroducido más de 300 órix algacel y gacelas. Un reportaje de 2020 describe el trayecto como una hora de pista impracticable esquivando charcas y vegetación espinosa, y recomienda buen vehículo y un conductor que conozca la zona. Routard aconseja guía o agencia para los sitios aislados del Ferlo.",
+   "acceso": "Pista de tierra y arena sin trazado evidente. La visita se coordina con el conservador de la reserva.",
+   "riesgos": "Navegación, espinos (pinchazos), barro y charcas si ha llovido. MAEC desaconseja la zona nororiental de Senegal (región de Matam), fronteriza con Mauritania, y Ranérou pertenece a la región de Matam. FCDO pide especial cuidado en las zonas remotas cercanas a Mauritania y Mali. Coordenada de GeoNames al minuto (aproximada).",
+   "cerca": "Ranérou — puerta del Ferlo",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal",
+   "fuentes": [
+    {
+     "titulo": "PressAfrik: Réserve de faune du Ferlo, l'enclos de Katané, un paradis au cœur de Ranérou",
+     "url": "https://www.pressafrik.com/Reserve-de-faune-du-Ferlo-l-enclos-de-Katane-un-paradis-au-coeur-de-Ranerou_a218630.html",
+     "fecha": "2020-07"
+    },
+    {
+     "titulo": "Routard: Ferlo",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/ferlo",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Ranérou",
+     "url": "https://www.geonames.org/search.html?q=Ranerou&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Senegal",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal",
+     "fecha": "2026-04"
+    },
+    {
+     "titulo": "FCDO: Senegal travel advice, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/senegal/regional-risks",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Dar Salam: entrada principal del Niokolo-Koba",
+   "tipo": "pista",
+   "lat": 13.25,
+   "lon": -13.2,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "finales de noviembre a junio",
+   "guia": "obligatorio",
+   "perro": "no",
+   "perro_nota": "La ficha general del parque lo marca prohibido, también dentro del vehículo: prever cuidador fuera del parque.",
+   "autonomia": "Tambacounda es la última ciudad grande antes del parque (unos 80 km al norte). Llevar efectivo en francos CFA: no se aceptan tarjetas.",
+   "desc": "Es la puerta principal del parque, sobre la N7, a unos 80 km al sur de Tambacounda y unos 100 km de Kédougou. Aquí se pagan las entradas (5.000 FCFA por persona y 10.000 por vehículo y día según una guía de 2026) y se contrata el guía oficial, que es obligatorio. Las pistas interiores, donde se ve la fauna, solo son practicables en 4x4.",
+   "acceso": "Asfalto por la N7 hasta la entrada; dentro, pistas de tierra con baches. Se puede entrar con vehículo propio acompañado del guía.",
+   "riesgos": "Pistas impracticables y vegetación muy cerrada de junio a octubre. Fauna salvaje. MAEC desaconseja las zonas limítrofes con Mali de las regiones de Tambacounda y Kédougou: el parque no es fronterizo con Mali, pero conviene confirmarlo antes de ir. Coordenada: localidad de Dar el Salam en GeoNames (aproximada).",
+   "cerca": "Parque Nacional de Niokolo-Koba",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal/tambacounda",
+   "fuentes": [
+    {
+     "titulo": "Kédougou Tourisme: Parc national du Niokolo-Koba, guide complet",
+     "url": "https://kedougoutourisme.com/en/parc-national-niokolo-koba-guide-complet/",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "Bouger & Voyager: Visiter le parc national du Niokolo-Koba",
+     "url": "https://www.bouger-voyager.com/visiter-parc-national-niokolo-koba/",
+     "fecha": "2023-12"
+    },
+    {
+     "titulo": "Birdingplaces: Niokolo Koba National Park",
+     "url": "https://www.birdingplaces.eu/en/birdingplaces/senegal/niokolo-koba-national-park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Dar el Salam (junto a Nioufaye)",
+     "url": "https://mapcarta.com/16852196",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Senegal",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal",
+     "fecha": "2026-04"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Simenti: campamentos junto al río Gambia",
+   "tipo": "oasis",
+   "lat": 13.04687,
+   "lon": -13.29522,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "finales de noviembre a junio",
+   "guia": "obligatorio",
+   "perro": "no",
+   "perro_nota": "Dentro del parque nacional: prohibido según la ficha general.",
+   "autonomia": "Sin gasolinera. El Hôtel Simenti y los campamentos del León y del Gué de Damantan dan cama y comida; llegar con gasóleo para volver a la N7.",
+   "desc": "Simenti es el núcleo turístico del interior del parque, a orillas del río Gambia, con el hotel del mismo nombre y campamentos rústicos (cabañas de unos 8.000 FCFA la noche en 2023). Es la base para las pistas de observación de fauna y, en la estación seca, para subir a la meseta del monte Assirik. Coordenada: pista de aterrizaje de Simenti.",
+   "acceso": "Desde Dar Salam por pistas del parque, siempre con el guía oficial. Tierra y baches; 4x4 imprescindible.",
+   "riesgos": "Pistas cortadas en lluvias, fauna (hipopótamos y cocodrilos en el río), calor extremo en marzo-mayo.",
+   "cerca": "Parque Nacional de Niokolo-Koba",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal/tambacounda",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Simenti Airport",
+     "url": "https://mapcarta.com/16836768",
+     "fecha": ""
+    },
+    {
+     "titulo": "Bouger & Voyager: Visiter le parc national du Niokolo-Koba",
+     "url": "https://www.bouger-voyager.com/visiter-parc-national-niokolo-koba/",
+     "fecha": "2023-12"
+    },
+    {
+     "titulo": "Kédougou Tourisme: Parc national du Niokolo-Koba, guide complet",
+     "url": "https://kedougoutourisme.com/en/parc-national-niokolo-koba-guide-complet/",
+     "fecha": "2026-06"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Ségou (Kédougou): arranque de la pista hacia Mali (Guinea)",
+   "tipo": "pista",
+   "lat": 12.40917,
+   "lon": -12.28306,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "diciembre a mayo; evitar julio a octubre",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas en la pista. La Reserva Comunitaria de Dindéfelo, a 5 km, requiere permiso de la gestión local (ficha general).",
+   "autonomia": "Llenar en Kédougou. Hasta Labé (unos 240 km) no hay repostaje fiable; Labé tiene gasolineras.",
+   "desc": "Ségou, junto a Dindéfelo, es el último pueblo senegalés del eje Kédougou–Mali–Labé, la variante de montaña para entrar en el Fouta Djallon. Una guía de 2017 la describe como pista difícil reservada a conductores de 4x4 con experiencia, frente al paso principal de Kalifourou–Sambaïlo, que va por asfalto. El lado senegalés (Sily–Ségou–frontera) está en proyecto de asfaltado con AGEROUTE.",
+   "acceso": "Asfalto o pista desde Kédougou hacia Dindéfelo y Ségou; después, pista de montaña hacia Lébékéré y Mali (Guinea).",
+   "riesgos": "Pista muy degradada (10 horas para 100 km en el lado guineano según la prensa), vados, roderas profundas y averías. Las fronteras guineanas cierran de noche. MAEC Guinea desaconseja todas las zonas fronterizas del país, incluida la de Senegal, y MAEC Senegal señala bandidaje en la zona aurífera de Kédougou.",
+   "cerca": "Cascada de Dindéfelo",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal",
+   "fuentes": [
+    {
+     "titulo": "Fouta-découverte: Pour entrer en Guinée, infos aux frontières",
+     "url": "https://www.foutadecouverte.com/2017/01/pour-entrer-en-guinee-infos-aux-frontieres.html",
+     "fecha": "2017-01"
+    },
+    {
+     "titulo": "AGEROUTE Sénégal: route Labé–Mali–Kédougou, sections Sily–Ségou et Ségou–frontière Guinée",
+     "url": "https://ageroute.sn/projet-inter-etat-damenagement-de-la-route-labe-mali-kedougou-sections-sily-segou-et-segou-frontiere-guinee/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Le360: Guinée, 10 heures pour 100 kilomètres, Labé–Mali–Kédougou ou l'enfer sur route",
+     "url": "https://fr.le360.ma/monde/guinee-10-heures-pour-100-kilometres-labemalikedougou-ou-lenfer-sur-route_6QQ2R4U5NZA3FA6X3VEH6UX45Q/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Ségou (Kédougou)",
+     "url": "https://www.geonames.org/search.html?q=Segou&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Senegal",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal",
+     "fecha": "2026-04"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Guinea",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Guinea",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Casamance: no salir del asfalto (riesgo de minas)",
+   "tipo": "pista",
+   "lat": 12.56801,
+   "lon": -16.27326,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "no recomendable fuera del asfalto",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "No aplica: no se recomienda circular por pistas.",
+   "autonomia": "No aplica.",
+   "desc": "Aviso para la subida, que entra en Senegal por la Casamance. MAEC recomienda no abandonar nunca las carreteras asfaltadas, salvo en las zonas turísticas cercanas a Cap Skirring, por el riesgo de minas, y desaconseja la ciudad de Ziguinchor y sus carreteras secundarias y caminos. No se propone ninguna pista 4x4 en la región. Coordenada: Ziguinchor.",
+   "acceso": "Solo por asfalto (N4 hacia Guinea-Bisáu, N5 hacia Gambia, R20 hacia Cap Skirring) y de día.",
+   "riesgos": "Minas fuera del asfalto, bandidaje armado y restricciones de circulación nocturna en la N4, la N5 y la R20 (MAEC). FCDO pide estar alerta a enfrentamientos, sobre todo cerca de las fronteras de Gambia y Guinea-Bisáu.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Senegal",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal",
+     "fecha": "2026-04"
+    },
+    {
+     "titulo": "FCDO: Senegal travel advice, regional risks",
+     "url": "https://www.gov.uk/foreign-travel-advice/senegal/regional-risks",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "GeoNames: Ziguinchor",
+     "url": "https://www.geonames.org/search.html?q=Ziguinchor&country=SN",
+     "fecha": ""
+    }
+   ],
+   "n": 8
+  }
+ ],
+ "rutas": [
+  {
+   "name": "La playa del París-Dakar: Lac Rose – Kayar – Lompoul – Gandiol – Saint-Louis",
+   "desde": "Lac Rose",
+   "hasta": "Saint-Louis",
+   "km": 200,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "noviembre a junio; hora de salida según la marea",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Es el recorrido de más de 200 km por la playa de la Grande Côte, que sigue el trazado histórico del rally París-Dakar entre el Lac Rose y Saint-Louis. Varios operadores lo hacen en 4x4 como transfer de medio día o jornada completa, saliendo del Lac Rose o de Kayar, y en Saint-Louis entran por el Gandiolais siguiendo el río. Con parada o noche en las dunas de Lompoul es la mejor jornada 4x4 del país, y encaja en la subida (Dakar–Lac Rose–Mauritania).",
+   "firme": "Arena húmeda compacta en bajamar; arena blanda en la franja seca y en los accesos a los pueblos; pistas de arena en el Gandiolais.",
+   "autonomia": "Repostar en la zona de Dakar/Lac Rose. Sin gasolineras en la playa; desvíos posibles a la N2 por Mboro, Lompoul o Potou. Llegada con gasóleo en Saint-Louis.",
+   "riesgos": "La marea es el riesgo principal: los operadores fijan la hora de salida con la tabla de mareas. Arena blanda, piraguas y redes, pueblos pesqueros con mucha gente y corrosión salina. No entrar en la Langue de Barbarie (parque nacional). No se ha encontrado norma que prohíba circular por la playa, pero tampoco confirmación oficial de que esté permitido para particulares: preguntar en Kayar o en Lompoul.",
+   "puntos": [
+    [
+     14.83878,
+     -17.23413
+    ],
+    [
+     14.91893,
+     -17.11978
+    ],
+    [
+     15.17389,
+     -16.91028
+    ],
+    [
+     15.42778,
+     -16.71972
+    ],
+    [
+     15.71667,
+     -16.5
+    ],
+    [
+     15.89139,
+     -16.50222
+    ],
+    [
+     16.02607,
+     -16.50373
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal",
+   "fuentes": [
+    {
+     "titulo": "Sahel Découverte: transfert 4x4 par la plage Dakar – Lompoul – Saint-Louis",
+     "url": "https://www.saheldecouverte.com/en/transport-2/transfer-by-the-beach/",
+     "fecha": "2023-12"
+    },
+    {
+     "titulo": "Hôtel Diamarek: transfert en 4x4 vers Dakar par la plage via le lac Rose",
+     "url": "https://hotel-diamarek.com/transfert-en-4-x-4-vers-dakar-par-la-plage-via-le-lac-rose/",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Kayar",
+     "url": "https://www.geonames.org/search.html?q=Kayar&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Mboro-sur-Mer",
+     "url": "https://www.geonames.org/search.html?q=Mboro&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Lompoul (dunas y pueblo)",
+     "url": "https://www.geonames.org/search.html?q=Lompoul&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Potou (Louga)",
+     "url": "https://www.geonames.org/search.html?q=Potou&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Ndiébène Gandiol",
+     "url": "https://www.geonames.org/search.html?q=Gandiol&country=SN",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Tambacounda – Dar Salam – Simenti (Niokolo-Koba)",
+   "desde": "Tambacounda",
+   "hasta": "Simenti",
+   "km": 180,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "finales de noviembre a junio",
+   "guia": "obligatorio dentro del parque",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Es la entrada al gran parque de sabana de Senegal: N7 asfaltada hasta la puerta de Dar Salam (unos 80 km), trámites y guía oficial, y pistas de tierra hasta los campamentos de Simenti, a orillas del río Gambia. Las pistas interiores solo se hacen en 4x4, y el parque se recorre en modo safari. Queda justo en la bajada Ferlo–Tambacounda–Kédougou.",
+   "firme": "Asfalto (N7) hasta Dar Salam; pistas de tierra con baches dentro del parque.",
+   "autonomia": "Gasóleo en Tambacounda. Sin gasolineras en el parque. Efectivo en francos CFA para entradas y guía.",
+   "riesgos": "Pistas impracticables de junio a octubre. El perro no puede entrar en el parque (ficha general). MAEC desaconseja las zonas limítrofes con Mali de Tambacounda y Kédougou. El kilometraje sale del trazado de OSRM (182 km), que desde Dar Salam vuelve a la N7 y baja por una pista al oeste: dentro del parque el guía puede usar pistas más cortas.",
+   "puntos": [
+    [
+     13.77073,
+     -13.66728
+    ],
+    [
+     13.73347,
+     -13.66992
+    ],
+    [
+     13.53113,
+     -13.52651
+    ],
+    [
+     13.50835,
+     -13.47269
+    ],
+    [
+     13.43601,
+     -13.42544
+    ],
+    [
+     13.35933,
+     -13.35811
+    ],
+    [
+     13.31625,
+     -13.28464
+    ],
+    [
+     13.29801,
+     -13.26459
+    ],
+    [
+     13.28953,
+     -13.24166
+    ],
+    [
+     13.26072,
+     -13.20161
+    ],
+    [
+     13.25467,
+     -13.1969
+    ],
+    [
+     13.35562,
+     -13.34971
+    ],
+    [
+     13.34883,
+     -13.36711
+    ],
+    [
+     13.30995,
+     -13.38325
+    ],
+    [
+     13.2404,
+     -13.41527
+    ],
+    [
+     13.21878,
+     -13.43111
+    ],
+    [
+     13.18603,
+     -13.41986
+    ],
+    [
+     13.15289,
+     -13.42586
+    ],
+    [
+     13.11927,
+     -13.44261
+    ],
+    [
+     13.06863,
+     -13.44026
+    ],
+    [
+     13.02378,
+     -13.37578
+    ],
+    [
+     13.03699,
+     -13.33437
+    ],
+    [
+     13.04009,
+     -13.29833
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/senegal/tambacounda",
+   "fuentes": [
+    {
+     "titulo": "Bouger & Voyager: Visiter le parc national du Niokolo-Koba",
+     "url": "https://www.bouger-voyager.com/visiter-parc-national-niokolo-koba/",
+     "fecha": "2023-12"
+    },
+    {
+     "titulo": "Kédougou Tourisme: Parc national du Niokolo-Koba, guide complet",
+     "url": "https://kedougoutourisme.com/en/parc-national-niokolo-koba-guide-complet/",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "Birdingplaces: Niokolo Koba National Park",
+     "url": "https://www.birdingplaces.eu/en/birdingplaces/senegal/niokolo-koba-national-park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Dar el Salam (junto a Nioufaye)",
+     "url": "https://mapcarta.com/16852196",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Simenti Airport",
+     "url": "https://mapcarta.com/16836768",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Tambacounda",
+     "url": "https://www.geonames.org/search.html?q=Tambacounda&country=SN",
+     "fecha": ""
+    },
+    {
+     "titulo": "OSRM (red viaria de OpenStreetMap): cálculo del trazado entre puntos verificados",
+     "url": "https://router.project-osrm.org/",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "notas": "SEGURIDAD. MAEC (24-04-2026) desaconseja: la zona nororiental (región de Matam) fronteriza con Mauritania; las zonas limítrofes con Mali de las regiones de Tambacounda y Kédougou; Kédougou por las minas de oro y el bandidaje; y la ciudad de Ziguinchor con sus carreteras secundarias y caminos. En Casamance recomienda no salir nunca del asfalto (minas) salvo en las zonas turísticas de Cap Skirring, y hay restricciones nocturnas en la N4, la N5 y la R20. FCDO (13-05-2026) no marca zonas en rojo: pide especial cuidado en las zonas remotas cercanas a Mauritania y Mali (JNIM activo en Mali) y alerta en Casamance cerca de Gambia y Guinea-Bisáu. OJO: Ranérou (bajada por el Ferlo) está en la región de Matam: la frase del MAEC no aclara si desaconseja toda la región o solo la franja fronteriza con Mauritania. Hay que confirmarlo antes de fijar la bajada por el Ferlo. DUDAS. (1) Si un particular puede circular legalmente por la playa de la Grande Côte con su 4x4: solo hay operadores que lo hacen, ninguna norma encontrada a favor o en contra. (2) Si en Lompoul se puede entrar con el 4x4 propio hasta el campamento o hay que dejarlo en el aparcamiento del pueblo. (3) La pista Ranérou–Tambacounda del PDI general sigue sin fuente de viajero ni puntos de paso verificables: no se ha incluido como ruta 4x4. Coordenadas: Potou, Ranérou y Dar Salam salen de GeoNames con precisión de minuto (aprox). Simenti es la pista de aterrizaje. En la ruta de la playa los puntos son pueblos costeros (no hay traza de playa), y en la de Niokolo el trazado sale de OSRM sobre la red de OpenStreetMap. Wikiloc: listados vistos en resultados de búsqueda: senegal, senegal/louga, senegal/tambacounda, senegal/dakar, senegal/fatick, senegal/kaffrine, senegal/saint-louis/nder y senegal/saint-louis/diamaguene. No se ha visto listado de Kédougou ni de Matam. DESCARTADAS. Delta del Saloum: no se han encontrado pistas 4x4 documentadas (solo navegación en piragua y pistas estrechas mencionadas por una agencia). País Bassari (Salémata, Ethiolo): sin fuente sobre el estado de las pistas. Cualquier pista en Casamance (minas). La zona de Bakel y la frontera con Mali (MAEC)."
+}

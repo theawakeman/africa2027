@@ -1,0 +1,393 @@
+{
+ "pais": "congo",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Ngongo: entrada al Congo desde Doussala (Gabón)",
+   "tipo": "paso",
+   "lat": -2.63639,
+   "lon": 11.64333,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "estación seca (junio a septiembre); la época de lluvias va de octubre a junio",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas específicas encontradas; llevar certificado veterinario y vacunas para el puesto.",
+   "autonomia": "Unos 255 km hasta Dolisie sin gasolineras citadas en las fuentes: salir de Ndendé (Gabón) con depósito lleno, bidones y agua y comida para dos días.",
+   "desc": "Es el primer pueblo congoleño tras la frontera de Doussala, en el río Ngongo, donde empieza el tramo más temido del corredor Libreville–Brazzaville. En julio de 2023 un viajero tardó 12 horas en recorrer los 255 km hasta Dolisie en plena estación seca, con unos siete controles. En febrero de 2025, tras fuertes lluvias, French Overlander se quedó atascado varias horas: el lomo entre roderas era tan alto que engancha los bajos de camiones y coches.",
+   "acceso": "Desde Ndendé (Gabón) por los 48 km de Ndendé–Doussala y el paso del Ngongo (puente en construcción). Después, pista de tierra con roderas profundas hacia Nyanga.",
+   "riesgos": "Roderas profundas, barro, camiones atascados o con ejes rotos que bloquean la pista, y conducción nocturna forzada si se retrasa la marcha. El MAEC desaconseja conducir solo y avisa de que en lluvias muchas rutas solo son practicables en 4x4. Ir con los dos vehículos juntos y material de rescate.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Ngongo (Niari)",
+     "url": "https://www.geonames.org/search.html?q=Ngongo&country=CG",
+     "fecha": ""
+    },
+    {
+     "titulo": "WhirledAway: Crossing the border from Gabon (Ndendé) to Republic of Congo (Dolisie)",
+     "url": "https://whirled-away.com/cross-border-gabon-congo-ndende-dolisie/",
+     "fecha": "2023-07"
+    },
+    {
+     "titulo": "French Overlander: Nous revoici au Congo",
+     "url": "https://frenchoverlander.com/nous-revoici-au-congo/",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a la República del Congo",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rep%C3%BAblica+del+Congo",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Nyanga: tramo central de barro Ngongo–Kibangou",
+   "tipo": "pista",
+   "lat": -2.91389,
+   "lon": 11.8875,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "estación seca; en lluvias puede requerir varios días",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; posible noche imprevista en un pueblo: tenerlo controlado.",
+   "autonomia": "Sin servicios citados. Autonomía para todo el tramo Ndendé–Dolisie.",
+   "desc": "Nyanga, cabecera de su distrito en el Niari, está en la parte central del tramo de tierra entre la frontera y Kibangou. Este segmento intermedio (unos 130 km entre el río Ngongo y Kibangou) no se asfaltará en la fase 1 del proyecto: solo está prevista una rehabilitación en tierra para mantener el tráfico. Es el corazón del tramo en el que los viajeros de 2023 y 2025 describen roderas profundas y camiones atascados.",
+   "acceso": "Pista de tierra desde Ngongo hacia el sureste; roderas profundas y barro tras las lluvias.",
+   "riesgos": "Atascos, bloqueos por camiones y controles policiales. Los viajeros de 2025 tuvieron que pernoctar donde pudieron (junto a la casa de un director de escuela). Cerca de la reserva de Nyanga-Nord.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Nyanga (Niari)",
+     "url": "https://www.geonames.org/search.html?q=Nyanga&country=CG",
+     "fecha": ""
+    },
+    {
+     "titulo": "Les Échos du Congo-Brazzaville: Le Gabon et le Congo bientôt reliés par route bitumée",
+     "url": "https://lesechos-congobrazza.com/economie/10606-le-gabon-et-le-congo-bientot-relies-par-route-bitumee",
+     "fecha": "2024-11"
+    },
+    {
+     "titulo": "French Overlander: Nous revoici au Congo",
+     "url": "https://frenchoverlander.com/nous-revoici-au-congo/",
+     "fecha": "2025-02"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Kibangou: inicio del tramo a asfaltar hacia Dolisie",
+   "tipo": "pista",
+   "lat": -3.49306,
+   "lon": 12.31778,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas.",
+   "autonomia": "Sin gasolineras citadas; Dolisie queda a unos 93 km.",
+   "desc": "Kibangou marca el final del tramo de tierra central y el inicio de los 93 km Kibangou–Dolisie que la fase 1 del proyecto prevé asfaltar (junto con los 49 km de Ndendé–Ngongo en Gabón). No se ha encontrado el grado de avance de ese tramo congoleño; en 2019 se hablaba de un proyecto de 276 km ejecutado por CRBC.",
+   "acceso": "Pista desde Nyanga; hacia Dolisie, tramo de tierra o en obras según el avance.",
+   "riesgos": "Barro y obras; controles. Coordenada aproximada: hay varios Kibangou en el Niari en GeoNames.",
+   "cerca": "Dolisie",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Kibangou (Niari)",
+     "url": "https://www.geonames.org/search.html?q=Kibangou&country=CG",
+     "fecha": ""
+    },
+    {
+     "titulo": "Les Échos du Congo-Brazzaville: Le Gabon et le Congo bientôt reliés par route bitumée",
+     "url": "https://lesechos-congobrazza.com/economie/10606-le-gabon-et-le-congo-bientot-relies-par-route-bitumee",
+     "fecha": "2024-11"
+    },
+    {
+     "titulo": "Les Échos du Congo-Brazzaville: la route Dolisie-Kibangou-Ndendé avance",
+     "url": "https://lesechos-congobrazza.com/economie/6553-congo-gabon-la-route-dolisie-kibangou-ndende-avance",
+     "fecha": "2019-12"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Dolisie: fin del tramo de barro desde Gabón",
+   "tipo": "pista",
+   "lat": -4.19833,
+   "lon": 12.66639,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Ciudad; sin restricciones conocidas.",
+   "autonomia": "Primera ciudad grande (unos 121.000 habitantes) tras 255 km de pista desde la frontera: reponer aquí. Hacia Pointe-Noire, la carretera ha mejorado según los viajeros de 2025.",
+   "desc": "Dolisie, capital del Niari, es el final del tramo técnico desde Gabón y el cruce con el eje Pointe-Noire–Brazzaville. Los viajeros de julio de 2023 llegaron de madrugada tras 12 horas de pista; los de febrero de 2025 tardaron más por el barro. Desde aquí se sigue hacia Pointe-Noire (donde French Overlander tuvo que comprar cuatro neumáticos) o hacia Brazzaville.",
+   "acceso": "Pista desde Kibangou; asfalto hacia Pointe-Noire.",
+   "riesgos": "Llegar de noche tras el tramo es habitual y peligroso: calcular el tiempo. El MAEC avisa del aumento de la delincuencia en Pointe-Noire fuera del centro de noche.",
+   "cerca": "Dolisie",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Dolisie",
+     "url": "https://www.geonames.org/search.html?q=Dolisie&country=CG",
+     "fecha": ""
+    },
+    {
+     "titulo": "WhirledAway: Crossing the border from Gabon (Ndendé) to Republic of Congo (Dolisie)",
+     "url": "https://whirled-away.com/cross-border-gabon-congo-ndende-dolisie/",
+     "fecha": "2023-07"
+    },
+    {
+     "titulo": "French Overlander: Nous revoici au Congo",
+     "url": "https://frenchoverlander.com/nous-revoici-au-congo/",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a la República del Congo",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rep%C3%BAblica+del+Congo",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Okoyo: pista arenosa de las mesetas Batéké hacia Léconi (Gabón)",
+   "tipo": "pista",
+   "lat": -1.409,
+   "lon": 14.765,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "estación seca",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas conocidas; documentación sanitaria para el puesto fronterizo.",
+   "autonomia": "Unos 125 km de pista arenosa hasta Léconi sin servicios citados: combustible y agua de reserva.",
+   "desc": "Okoyo, en la Cuvette-Ouest, es el lado congoleño del paso por las mesetas Batéké hacia Léconi (Gabón). Según Bradt, entre Léconi y Okoyo hay unos 125 km de pista pequeña y arenosa por la sabana de la meseta. Es la alternativa oriental al barro de Ndendé–Dolisie para quien viene del norte (Ouesso, Odzala) o va hacia él.",
+   "acceso": "Pista arenosa por la meseta desde Léconi; después, según Bradt, carretera mayormente asfaltada hacia el sur, en dirección a Brazzaville.",
+   "riesgos": "Arena blanda y navegación; poco tráfico. No hay relatos detallados recientes del paso: confirmar que el puesto fronterizo está abierto.",
+   "cerca": "Djambala · puerta de las mesetas Batéké",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Okoyo",
+     "url": "https://mapcarta.com/Okoyo",
+     "fecha": ""
+    },
+    {
+     "titulo": "Bradt Guides: Central Africa, an overland adventure",
+     "url": "https://www.bradtguides.com/central-africa-an-overland-adventure/",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Boko: pista del Pool hacia Luozi (RD Congo)",
+   "tipo": "pista",
+   "lat": -4.77806,
+   "lon": 14.60722,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "estación seca; nunca en lluvias",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos.",
+   "autonomia": "Repostar en Brazzaville. Autonomía para varios días: un viajero en 2017 habla de «una semana en las peores pistas de toda la expedición» hasta llegar al asfalto de la N1 en la RD Congo.",
+   "desc": "Boko, en el Pool, es el último pueblo congoleño de la vía terrestre Brazzaville–Kinkala–Boko–Luozi, la alternativa al ferry de Brazzaville a Kinshasa. Un viajero que la hizo en 2017 describe pistas de tierra lavadas por las lluvias y, al cruzar a la RD Congo, un camino que era más bien un sendero de motos, hasta el ferry de Luozi. Una agencia de Brazzaville dice que el Pool ha tenido cortes de carretera que hacen esta vía poco fiable.",
+   "acceso": "Desde Brazzaville por Kinkala hacia el suroeste. De Boko a la frontera y a Luozi, pistas de tierra estrechas y erosionadas; en la RD Congo, ferry de Luozi sobre el río Congo.",
+   "riesgos": "El MAEC pide extremar la precaución en la región del Pool y en las zonas fronterizas con la RD Congo. Pistas muy degradadas, sin tráfico ni ayuda. El ferry de Luozi estaba averiado en agosto de 2026 (ver RD Congo).",
+   "cerca": "Brazzaville · Basílica de Santa Ana",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Boko (Pool)",
+     "url": "https://www.geonames.org/search.html?q=Boko&country=CG",
+     "fecha": ""
+    },
+    {
+     "titulo": "The Road Chose Me: Across the DRC Day 1",
+     "url": "http://theroadchoseme.com/across-the-drc-day-1",
+     "fecha": "2017-10"
+    },
+    {
+     "titulo": "The Road Chose Me: Luozi ferry across the Congo River",
+     "url": "http://theroadchoseme.com/luozi-ferry-the-congo-river",
+     "fecha": "2017-10"
+    },
+    {
+     "titulo": "Congo Travel and Tours: Congo River car crossing",
+     "url": "https://congotravelandtours.com/river-crossing-vehicles/",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a la República del Congo",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rep%C3%BAblica+del+Congo",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Ndendé – Doussala – Nyanga – Kibangou – Dolisie (el barro Gabón–Congo)",
+   "desde": "Ndendé (Gabón)",
+   "hasta": "Dolisie",
+   "km": 300,
+   "dias": 2,
+   "dificultad": "muy difícil",
+   "epoca": "estación seca (junio a septiembre); en lluvias puede llevar varios días",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Es el tramo técnico más famoso del corredor oeste: unos 48 km de Ndendé a la frontera de Doussala y 255 km de pista hasta Dolisie. En julio de 2023, en plena estación seca, se tardaron 2,5 horas hasta la frontera, 1,5 horas de trámites y 12 horas hasta Dolisie, con unos siete controles. En febrero de 2025, con lluvia, French Overlander quedó atrapado por el lomo entre roderas y necesitó horas y ayuda de un camión para salir. Hay obras de asfaltado en los extremos (Ndendé–Ngongo y Kibangou–Dolisie); el centro seguirá siendo de tierra.",
+   "firme": "Pista de tierra y laterita con roderas muy profundas; barro con lluvia. Tramos en obras en los extremos.",
+   "autonomia": "Sin gasolineras citadas entre Ndendé y Dolisie: depósito lleno, bidones, agua y comida para 2-3 días. Reponer en Dolisie.",
+   "riesgos": "Atascos, bloqueos por camiones, controles (alrededor de diez en total) y llegada de noche. El MAEC desaconseja conducir solo y avisa de que en lluvias (octubre a junio) muchas rutas solo son practicables en 4x4. Llevar planchas, eslingas, pala, cabrestante si se tiene y los dos vehículos juntos.",
+   "puntos": [
+    [
+     -2.39629,
+     11.35808
+    ],
+    [
+     -2.64389,
+     11.6275
+    ],
+    [
+     -2.63639,
+     11.64333
+    ],
+    [
+     -2.91389,
+     11.8875
+    ],
+    [
+     -3.49306,
+     12.31778
+    ],
+    [
+     -4.19833,
+     12.66639
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "WhirledAway: Crossing the border from Gabon (Ndendé) to Republic of Congo (Dolisie)",
+     "url": "https://whirled-away.com/cross-border-gabon-congo-ndende-dolisie/",
+     "fecha": "2023-07"
+    },
+    {
+     "titulo": "French Overlander: Nous revoici au Congo",
+     "url": "https://frenchoverlander.com/nous-revoici-au-congo/",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "Les Échos du Congo-Brazzaville: Le Gabon et le Congo bientôt reliés par route bitumée",
+     "url": "https://lesechos-congobrazza.com/economie/10606-le-gabon-et-le-congo-bientot-relies-par-route-bitumee",
+     "fecha": "2024-11"
+    },
+    {
+     "titulo": "Gabonreview: Route Ndendé-Doussala",
+     "url": "https://www.gabonreview.com/route-ndende-doussala-7-milliards-fcfa-dimpayes-la-bad-coupe-les-vivres-et-fait-vaciller-le-chantier/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a la República del Congo",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Rep%C3%BAblica+del+Congo",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Corredor norte: Mintom (Camerún) – Ntam – Souanké – Sembé – Ketta – Ouesso",
+   "desde": "Mintom (Camerún)",
+   "hasta": "Ouesso",
+   "km": 450,
+   "dias": 1,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "recomendada",
+   "desc": "Es el enlace asfaltado desde Camerún (Mintom–Lélé–Ntam, unos 110 km, inaugurado en diciembre de 2021) y, en el Congo, Ketta–Sembé (169 km, terminado en 2016) y Sembé–Souanké–Ntam (143 km, abierto en marzo de 2020), más el último tramo hasta Ouesso. French Overlander lo describe como una cinta plana en muy buen estado entre hierba alta y pocos pueblos. No es offroad, pero es la entrada al norte del Congo (Odzala, Nouabalé-Ndoki) y a la ruta de las mesetas Batéké hacia Gabón.",
+   "firme": "Asfalto en todo el trazado.",
+   "autonomia": "Repostar en Sangmélima (Camerún) antes de la frontera; siguiente servicio citado en Ouesso.",
+   "riesgos": "Puesto fronterizo con tres oficinas (inmigración, sanidad y policía) y tasas; controles policiales en ruta. El FCDO desaconseja todo viaje a 50 km de la frontera con la RCA en la Likouala (más al este, fuera de esta ruta). Tráfico de camiones madereros.",
+   "puntos": [
+    [
+     2.69525,
+     13.28696
+    ],
+    [
+     2.28333,
+     13.33333
+    ],
+    [
+     2.17769,
+     13.70381
+    ],
+    [
+     2.05944,
+     14.13194
+    ],
+    [
+     1.64806,
+     14.58056
+    ],
+    [
+     1.48194,
+     15.90056
+    ],
+    [
+     1.6167,
+     16.05
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Jumelages-Partenariats: Yaounde-Brazzaville corridor (tramo camerunés inaugurado)",
+     "url": "https://jumelages-partenariats.com/en/actualites.php?n=14263",
+     "fecha": "2021-12"
+    },
+    {
+     "titulo": "Ministère de l'Aménagement et des Grands Travaux: The Sembé-Souanké-Ntam road opens to traffic",
+     "url": "https://grands-travaux.gouv.cg/en/media/news/sembe-souanke-ntam-road-opens-traffic",
+     "fecha": "2020-03"
+    },
+    {
+     "titulo": "French Overlander: Passage de l'équateur au Congo",
+     "url": "https://frenchoverlander.com/passage-equateur-au-congo/",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "Alárìnká: Cameroon to Congo Brazzaville by road via Ntam border",
+     "url": "https://alarinka.com/cameroon-to-congo-brazzaville-by-road-via-ntam-border/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "FCDO: Republic of the Congo travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/congo/warnings-and-insurance",
+     "fecha": "2026-06"
+    },
+    {
+     "titulo": "GeoNames: Souanké, Sémbé, Ketta",
+     "url": "https://www.geonames.org/search.html?q=Souanke&country=CG",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "notas": "SEGURIDAD. El FCDO (02-06-2026) solo desaconseja todo viaje a 50 km de la frontera con la RCA en la Likouala; no menciona el Pool. El MAEC pide extremar la precaución en la región del Pool y en las zonas fronterizas con la RCA y la RD Congo, avisa de la delincuencia en las periferias de Brazzaville y en Pointe-Noire de noche, desaconseja conducir solo y sitúa la época de lluvias de octubre a junio (no se pudo leer la fecha de actualización). DUDAS. (1) Avance real del asfaltado Kibangou–Dolisie (93 km, fase 1): no se ha encontrado ninguna cifra; en 2025 la pista seguía siendo muy mala. (2) Estado del paso Okoyo–Léconi (solo Bradt, sin fecha). (3) Si la vía Brazzaville–Boko–Luozi es practicable y está abierta en 2027: los datos son de 2017 y la agencia que lo desaconseja no fecha su aviso. La ruta Brazzaville–Kinkala–Boko–Luozi no se ha incluido como ruta porque no se han podido verificar puntos de paso intermedios. Perros: sin normas encontradas. Kilómetros: Ndendé–Dolisie (48 + 255 km) y Ntam–Ketta (312 km) salen de fuentes; el tramo Ketta–Ouesso es una estimación. Wikiloc: no se ha podido comprobar ningún listado de offroading para el Congo. DESCARTADAS. Lésio-Louna: no se ha encontrado ninguna fuente accesible sobre el acceso en vehículo (pista, permisos), así que no se incluye como punto 4x4 (existe como PDI general). Odzala-Kokoua: gestionado por African Parks; French Overlander lo visitó en 2025 (un día en un bai) pero no da datos del acceso con vehículo propio; no se incluye como punto 4x4. Conkouati-Douli y Loufoulakari: sin fuentes de acceso. Pointe-Noire–Cabinda (paso de Massabi): atraviesa la provincia de Cabinda, que el FCDO desaconseja salvo lo esencial (ver Angola). Ferry Brazzaville–Kinshasa: una agencia ofrece el paso de vehículos «VIP» desde 4.000 euros con trámites incluidos y 1-3 días de despacho en Kinshasa; se documenta en las notas de la RD Congo."
+}

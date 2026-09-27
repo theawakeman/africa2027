@@ -1,0 +1,431 @@
+{
+ "pais": "sudafrica",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Richtersveld: Sendelingsdrif (puerta, repostaje y balsa a Namibia)",
+   "tipo": "pista",
+   "lat": -28.12475,
+   "lon": 16.89435,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "agosto a mediados de octubre (flores y temperaturas suaves); en verano, calor extremo",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "SANParks: no se admiten mascotas (perros, gatos, aves ni otras) en ningún parque; solo perros guía con consulta previa. Los infractores pueden ser multados y el animal sacrificado.",
+   "autonomia": "Único gasóleo del parque, en Sendelingsdrif, de 08:00 a 16:00. No hay tienda, cajero ni restaurante: llevar víveres y agua para toda la estancia.",
+   "desc": "Sendelingsdrif es la entrada principal y el campamento base del Parque Transfronterizo |Ai-|Ais/Richtersveld, un desierto de montaña cogestionado por el pueblo nama y SANParks. Desde aquí salen las pistas a los campings de Potjiespram (11 km), De Hoop (38 km), Richtersberg (48 km) y Kokerboomkloof (80 km). Tiene paso fronterizo y balsa sobre el Orange hacia Namibia, reabierta tras un dragado según SANParks.",
+   "acceso": "Desde Steinkopf por Port Nolloth y Alexander Bay (265 km), por Eksteenfontein (200 km, la más bonita) o por Lekkersing (220 km). Dentro del parque solo se admiten 4x4 o vehículos de gran altura libre; no turismos. Velocidad media de 15-20 km/h.",
+   "riesgos": "Calor, aislamiento y pistas de roca y arena. El MAEC aconseja evitar rutas aisladas porque los 4x4 son objetivo de robo en Sudáfrica: ir en convoy y no circular de noche.",
+   "cerca": "Richtersveld · Sendelingsdrift",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "SANParks: |Ai-|Ais/Richtersveld",
+     "url": "https://www.sanparks.org/parks/richtersveld",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Richtersveld Transfrontier Park",
+     "url": "https://www.ostrichtrails.com/africa/south-africa/richtersveld/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Sendelingsdrif",
+     "url": "https://mapcarta.com/19069058",
+     "fecha": ""
+    },
+    {
+     "titulo": "SANParks: Rules and regulations",
+     "url": "https://www.sanparks.org/travel/plan/useful-information/rules-regulations",
+     "fecha": "2025-08"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Richtersveld: puertos de Swartpoort y Halfmens",
+   "tipo": "paso",
+   "lat": -28.14167,
+   "lon": 16.97786,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "abril a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: sin mascotas (SANParks).",
+   "autonomia": "Repostar en Sendelingsdrif (8 km al oeste).",
+   "desc": "Son los primeros puertos de montaña del circuito interior del Richtersveld, entre Sendelingsdrif y los campings junto al Orange, rodeados de 'halfmens' (Pachypodium namaquanum), la planta emblemática del parque. Según Ostrich Trails son de los fáciles; el más difícil del parque es el Domorogh, con roca, arena, pendiente y escalones. Sirven para calibrar vehículo y conductores antes de lo más duro.",
+   "acceso": "Pista de roca y grava desde Sendelingsdrif hacia el este (Swartpoort a 4,5 km, Halfmens a 8 km).",
+   "riesgos": "Piedra suelta y pinchazos. Prohibido salir de las pistas marcadas.",
+   "cerca": "Richtersveld · Sendelingsdrift",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Halfmens Pass",
+     "url": "https://mapcarta.com/Halfmens_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Richtersveld Transfrontier Park",
+     "url": "https://www.ostrichtrails.com/africa/south-africa/richtersveld/",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Richtersveld: Helskloof",
+   "tipo": "paso",
+   "lat": -28.31914,
+   "lon": 16.97456,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "abril a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: sin mascotas (SANParks).",
+   "autonomia": "Sin servicios; gasóleo solo en Sendelingsdrif.",
+   "desc": "Hay dos puertos con este nombre. El del interior del parque tiene un gran escalón de roca que conviene inspeccionar a pie antes de pasarlo. El otro, fuera del parque, está en la pista Vioolsdrif–Eksteenfontein, donde la media no pasa de 10 km/h.",
+   "acceso": "Pista de roca dentro del parque. La coordenada es la del valle de Helskloof según OSM; no se ha podido confirmar que coincida con el escalón.",
+   "riesgos": "Escalón rocoso con riesgo de daño en bajos; bajar del coche a mirar y guiar. Coordenada aproximada.",
+   "cerca": "Richtersveld · Sendelingsdrift",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Richtersveld Transfrontier Park",
+     "url": "https://www.ostrichtrails.com/africa/south-africa/richtersveld/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Helskloof",
+     "url": "https://mapcarta.com/Helskloof",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Kgalagadi: Nossob y el Nossob 4x4 Eco Trail",
+   "tipo": "pista",
+   "lat": -25.42239,
+   "lon": 20.59652,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "todo el año salvo dos semanas en Navidad; mejor de abril a octubre",
+   "guia": "obligatorio",
+   "perro": "no",
+   "perro_nota": "SANParks prohíbe mascotas en todos sus parques.",
+   "autonomia": "Unos 300 km entre puntos de repostaje durante el sendero. Autonomía total en comida y agua.",
+   "desc": "Nossob es el campamento central del lado sudafricano del Parque Transfronterizo de Kgalagadi y uno de los extremos del Nossob 4x4 Eco Trail: 214 km por las dunas del Kalahari en 4 días y 3 noches, acompañados por un vehículo guía. Sale de Twee Rivieren en los meses pares y de Nossob en los impares, los lunes, y la tarifa incluye una parcela en Nossob. También es el final del Mabuasehube Wilderness Trail que viene de Botsuana.",
+   "acceso": "Por el lecho del río Nossob desde Twee Rivieren. Requisitos del Eco Trail: solo 4x4 con reductora y buena altura libre; mínimo 2 y máximo 5 vehículos; sin remolques, Unimogs ni camiones overland; sin menores de 12 años. Reservas: +27 (0)54 561 2037.",
+   "riesgos": "Arena de duna, calor. Para salir del parque hacia Botsuana o Namibia hay que pasar al menos dos noches dentro y hacer los trámites en Twee Rivieren. Comprobar si un Grenadier equipado cuenta como 'overlander' para SANParks.",
+   "cerca": "Kgalagadi · Twee Rivieren",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "SANParks: 4x4 Trails, Kgalagadi",
+     "url": "https://www.sanparks.org/parks/kgalagadi/what-to-do/activities/4x4-trails",
+     "fecha": ""
+    },
+    {
+     "titulo": "SANParks: Kgalagadi, Border crossings",
+     "url": "https://www.sanparks.org/parks/kgalagadi/travel/border-crossings",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Nossob Rest Camp",
+     "url": "https://mapcarta.com/W226153465",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Namaqua: desembocadura del río Groen (costa Groen-Spoeg)",
+   "tipo": "oasis",
+   "lat": -30.84631,
+   "lon": 17.57755,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "todo el año; de junio a septiembre llamar antes (lluvias). Flores en agosto-septiembre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: sin mascotas (SANParks).",
+   "autonomia": "No hay combustible en el parque. Gasolineras en la N7: Bitterfontein, Garies y Kamieskroon.",
+   "desc": "Recepción sur del Parque Nacional de Namaqua y final de la Caracal Eco Route. SANParks describe la franja costera entre los ríos Groen y Spoeg como el único tramo virgen importante que queda de la costa de Namaqualand. Hay unos diez campings costeros (Groenriviermond, Moonbay, Varswater…) con refugios de piedra contra el viento, desde 250 rand la noche.",
+   "acceso": "Por el desvío de la N7 a 37 km al norte de Bitterfontein, o por la costa desde la entrada norte (14 km al este de Hondeklipbaai). Arena gruesa en tramos: 4x4 imprescindible en la costa.",
+   "riesgos": "Prohibido circular por las playas y por pistas cerradas. Viento y frío en invierno. Cerrar las cancelas de las granjas.",
+   "cerca": "Namaqua · Skilpad Rest Camp",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "SANParks: Namaqua National Park",
+     "url": "https://www.sanparks.org/parks/namaqua",
+     "fecha": ""
+    },
+    {
+     "titulo": "SANParks: 4x4 Trails, Namaqua",
+     "url": "https://www.sanparks.org/parks/namaqua/what-to-do/activities/4x4-trails",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Namaqua National Park",
+     "url": "https://www.ostrichtrails.com/africa/south-africa/namaqua-national-park/",
+     "fecha": "2025-11"
+    },
+    {
+     "titulo": "Mapcarta: Groen River",
+     "url": "https://mapcarta.com/Groen_River",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Sani Pass (cara sudafricana)",
+   "tipo": "paso",
+   "lat": -29.58814,
+   "lon": 29.29272,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "todo el año, pero en invierno (junio-agosto) cierra a menudo por nieve y hielo",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "No es parque nacional. Pasar con el perro implica cruzar la frontera de Lesoto en la cima: ver los requisitos de importación de Lesoto en el dossier del perro.",
+   "autonomia": "Repostar antes en Underberg o Himeville (no verificado en fuentes consultadas). En Lesoto, el siguiente núcleo con servicios es Mokhotlong, a hora y media.",
+   "desc": "Es el puerto más famoso del sur de África: sube desde KwaZulu-Natal hasta 2.876 m en el borde del escarpe de Lesoto, con pendientes de hasta 1:3 en la parte de grava. Todo el puerto está en Sudáfrica: el control sudafricano está abajo y la frontera y el puesto de Lesoto, en la cima. Desde 2012 se ha ido asfaltando por fases la parte baja; en 2021 la segunda fase estaba casi terminada.",
+   "acceso": "Control sudafricano abajo y puesto lesotense arriba, ambos de 06:00 a 18:00. Sudáfrica suele dejar subir solo 4x4; Lesoto deja intentar la bajada a cualquier vehículo. La coordenada marca la cima (frontera).",
+   "riesgos": "Horquillas empinadas, hielo y nieve en invierno, niebla. El estado actual del asfaltado no está confirmado por una fuente posterior a 2021.",
+   "cerca": "Sani Pass",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Sani Pass",
+     "url": "https://en.wikipedia.org/wiki/Sani_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Mokhotlong",
+     "url": "https://en.wikipedia.org/wiki/Mokhotlong",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Swartberg Pass",
+   "tipo": "paso",
+   "lat": -33.35225,
+   "lon": 22.04614,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "todo el año; tras las lluvias o con nieve puede ser peligroso",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Carretera pública (R328). La reserva natural de Swartberg es de CapeNature: no se ha encontrado su norma sobre perros.",
+   "autonomia": "Repostar en Oudtshoorn o Prince Albert.",
+   "desc": "Puerto sin asfaltar de 1.572 m construido por Thomas Bain entre 1883 y 1888, que une Oudtshoorn (Pequeño Karoo) con Prince Albert. Es una de las obras viarias históricas más espectaculares del país y la única vía de acceso a Gamkaskloof (Die Hel). No exige 4x4 en seco, pero sí prudencia.",
+   "acceso": "R328 desde Oudtshoorn (asfalto hasta el pie del puerto) o desde Prince Albert (37 km). Grava con curvas cerradas y precipicios.",
+   "riesgos": "Firme resbaladizo tras la lluvia, precipicios sin protección, tráfico en sentido contrario en curvas ciegas.",
+   "cerca": "Cango Caves",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Swartberg Pass",
+     "url": "https://en.wikipedia.org/wiki/Swartberg_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Swartberg Pass",
+     "url": "https://mapcarta.com/Swartberg_Pass",
+     "fecha": ""
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Gamkaskloof (Die Hel)",
+   "tipo": "pista",
+   "lat": -33.3558,
+   "lon": 21.70813,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "todo el año; evitar tras lluvias fuertes",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "El valle forma parte de la Reserva Natural de Swartberg (CapeNature). No se ha encontrado la norma sobre perros: consultar al reservar.",
+   "autonomia": "Callejón sin salida: se vuelve por el mismo camino. Repostar en Oudtshoorn o Prince Albert.",
+   "desc": "Valle aislado de unos 20 km de largo en el corazón del Swartberg, donde vivió una comunidad casi incomunicada hasta que en 1962 se abrió la pista. Hoy es monumento nacional (1997) y parte de la Reserva Natural de Swartberg, con casitas restauradas que gestiona CapeNature. La bajada final pierde casi 580 m en muy poca distancia.",
+   "acceso": "Pista de grava desde lo alto del Swartberg Pass, única vía de entrada. Las fuentes consultadas no dan su longitud ni el tiempo; tramo final muy empinado (Elands Pass).",
+   "riesgos": "Pendiente muy fuerte en la bajada final, estrechez, lluvia. La coordenada es la del valle según OSM (extremo oeste); Wikipedia da otra más al este (-33.3415, 21.8768).",
+   "cerca": "Cango Caves",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Gamkaskloof",
+     "url": "https://en.wikipedia.org/wiki/Gamkaskloof",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Die Hel (Gamkaskloof)",
+     "url": "https://mapcarta.com/Gamkaskloof",
+     "fecha": ""
+    },
+    {
+     "titulo": "CapeNature: Swartberg Nature Reserve",
+     "url": "https://www.capenature.co.za/reserves/swartberg-nature-reserve",
+     "fecha": ""
+    }
+   ],
+   "n": 8
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Oudtshoorn – Swartberg Pass – Gamkaskloof (Die Hel)",
+   "desde": "Oudtshoorn",
+   "hasta": "Gamkaskloof (Die Hel)",
+   "km": 100,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "todo el año; evitar días de lluvia",
+   "guia": "no",
+   "perro": "sin_dato",
+   "estado": "recomendada",
+   "desc": "Sube por la R328 hasta la cima del Swartberg Pass, construido en el siglo XIX, y toma la pista de Gamkaskloof hasta el fondo del valle de Die Hel. Es un ida y vuelta por la misma pista, con noche recomendable en el valle. Combina paso histórico de grava y bajada muy empinada.",
+   "firme": "Asfalto hasta el pie del puerto; grava en el puerto y en toda la pista de Gamkaskloof.",
+   "autonomia": "Gasóleo en Oudtshoorn; no hay servicios en el valle.",
+   "riesgos": "Grava resbaladiza tras la lluvia, precipicios, bajada final muy pronunciada. Perros: la reserva no publica norma en las fuentes consultadas.",
+   "puntos": [
+    [
+     -33.5903,
+     22.2042
+    ],
+    [
+     -33.48139,
+     22.24611
+    ],
+    [
+     -33.40278,
+     22.025
+    ],
+    [
+     -33.35225,
+     22.04614
+    ],
+    [
+     -33.34582,
+     22.03896
+    ],
+    [
+     -33.3415,
+     21.8768
+    ],
+    [
+     -33.3558,
+     21.70813
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Swartberg Pass",
+     "url": "https://en.wikipedia.org/wiki/Swartberg_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Gamkaskloof",
+     "url": "https://en.wikipedia.org/wiki/Gamkaskloof",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Matjiesrivier",
+     "url": "https://mapcarta.com/Matjiesrivier",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Schoemanshoek",
+     "url": "https://mapcarta.com/Schoemanshoek",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Ou Tol",
+     "url": "https://mapcarta.com/Ou_Tol",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Caracal Eco Route (Namaqua): Skilpad – Soebatsfontein – costa – río Groen",
+   "desde": "Kamieskroon (Skilpad)",
+   "hasta": "Desembocadura del río Groen",
+   "km": 190,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "todo el año; de junio a septiembre consultar antes; flores en agosto-septiembre",
+   "guia": "autorización",
+   "perro": "no",
+   "estado": "recomendada",
+   "desc": "Ruta 4x4 oficial del Parque Nacional de Namaqua: de Skilpad por el paso de Soebatsfontein, las llanuras de Wildeperdehoek y el llano de Namaqua hasta la carretera de Hondeklipbaai y la costa virgen Groen-Spoeg. Son 176-200 km según las pistas elegidas y 6-8 horas. En la recepción se entrega un cuadernillo con puntos de referencia.",
+   "firme": "Pista de tierra con tramos de arena gruesa y algunas pendientes; en la costa, arena.",
+   "autonomia": "Sin combustible en el parque. Repostar en Kamieskroon, Garies o Bitterfontein (N7).",
+   "riesgos": "Prohibido circular por playas y pistas cerradas. Perros prohibidos (parque nacional).",
+   "puntos": [
+    [
+     -30.20964,
+     17.93454
+    ],
+    [
+     -30.16326,
+     17.77808
+    ],
+    [
+     -30.11873,
+     17.59118
+    ],
+    [
+     -30.31639,
+     17.27722
+    ],
+    [
+     -30.84631,
+     17.57755
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "SANParks: 4x4 Trails, Namaqua (Caracal Eco Route)",
+     "url": "https://www.sanparks.org/parks/namaqua/what-to-do/activities/4x4-trails",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Namaqua National Park",
+     "url": "https://www.ostrichtrails.com/africa/south-africa/namaqua-national-park/",
+     "fecha": "2025-11"
+    },
+    {
+     "titulo": "Mapcarta: Soebatsfontein",
+     "url": "https://mapcarta.com/Soebatsfontein",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Hondeklip Bay",
+     "url": "https://mapcarta.com/Hondeklip_Bay",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Kamieskroon",
+     "url": "https://mapcarta.com/Kamieskroon",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (actualizado el 08-07-2026) no desaconseja ninguna zona de Sudáfrica. MAEC (27-07-2026) señala criminalidad alta en Ciudad del Cabo, Durban, Johannesburgo y Nelson Mandela Bay; desaconseja conducir de noche, sobre todo por carreteras secundarias poco transitadas, y evitar rutas aisladas porque los 4x4 son muy buscados en el mercado ilícito y se asalta a vehículos detenidos. Esto afecta a todas las rutas remotas: ir en convoy, de día y sin detenerse ante desconocidos. PERROS: SANParks (normas modificadas el 19-08-2025) prohíbe llevar mascotas a cualquier parque nacional, salvo perros guía con consulta previa; los infractores se exponen a multa y a la destrucción del animal. Afecta a Richtersveld, Kgalagadi, Namaqua y Augrabies. No se ha podido consultar la norma de CapeNature (Cederberg, Swartberg/Die Hel). RESERVAS Y VEHÍCULOS: Nossob 4x4 Eco Trail, mínimo 2 vehículos y máximo 5, con guía; lado botsuano de Kgalagadi, mínimo 2 vehículos en todas las rutas; Richtersveld, solo 4x4 o vehículos altos. DUDAS. (1) El estado actual del asfaltado del Sani Pass: la fuente disponible (Wikipedia) llega a 2021. (2) Si SANParks considera 'overlander' un Grenadier equipado (exclusión del Eco Trail de Nossob). (3) La norma de perros de CapeNature. PUNTOS Y RUTAS: la coordenada de Skilpad en la ruta Caracal es la del PDI general, no verificada; la ruta tiene solo 5 puntos de paso verificables (el brief pide 6). Kilómetros: Caracal según SANParks (176-200); Swartberg–Die Hel estimado (unos 30 km hasta el pie del puerto, 10 de puerto y unos 50-60 de pista del valle, no confirmados). La pista de Helskloof del Richtersveld tiene coordenada aproximada. Wikiloc: no se han podido ver listados de offroading de Sudáfrica (el buscador de la sesión se agotó y WebFetch no abre Wikiloc), así que se deja vacío. SIN FICHA POR FALTA DE FUENTES ACCESIBLES: Baviaanskloof (Patensie–Willowmore), Cederberg (Algeria y pistas de la zona) y la ruta interior del Richtersveld con puntos de paso ordenados; el presupuesto de búsquedas web de la sesión se agotó antes de poder documentarlos. DESCARTADAS: ninguna zona por seguridad."
+}

@@ -406,6 +406,7 @@ def render(FULL, navbar, VERSION):
 <script src="{root}assets/vendor/Sortable.min.js"></script>
 <script src="{root}assets/js/map.js"></script>
 <script src="{root}assets/js/creador-pdi.js"></script>
+<script src="{root}assets/js/fotos-4x4.js"></script>
 <script src="{root}assets/js/presupuesto-xlsx.js"></script>
 <script src="{root}assets/js/{JS}"></script>"""
     extra = f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css"><style>{CSS}</style>'

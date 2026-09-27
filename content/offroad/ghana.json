@@ -1,0 +1,136 @@
+{
+ "pais": "ghana",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Shai Hills Resource Reserve: pistas de tierra con guía a bordo",
+   "tipo": "pista",
+   "lat": 5.90944,
+   "lon": 0.06528,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "todo el año salvo el pico de lluvias (mayo a julio)",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "Es reserva de fauna (babuinos, antílopes, cebras); ninguna fuente publica norma sobre perros. Contar con que no entra.",
+   "autonomia": "A unos 57 km de Accra por la carretera Tema–Akosombo; sin problema de gasóleo ni agua.",
+   "desc": "Es una reserva de 51 km² de sabana y colinas graníticas con cuevas, a una hora de Accra. Se puede recorrer con el propio vehículo por caminos sin asfaltar, pero un guía de la reserva tiene que ir a bordo (hay que dejarle un asiento libre). Oficialmente se recomienda 4x4, aunque una viajera la recorrió en un turismo. Es la manera más fácil de rodar por tierra con el 4x4 en el tramo de Accra.",
+   "acceso": "Asfalto de la carretera Tema–Akosombo hasta la entrada de Doryumu; dentro, caminos de tierra. Horario de 8:00 a 17:00. En 2019 se pagaba una tasa por vehículo (5 GHS) más la entrada por horas.",
+   "riesgos": "Poca dificultad técnica; calor e incendios de sabana en la estación seca. Fuera de las zonas desaconsejadas por FCDO y MAEC. Coordenada: centro de la reserva (Wikipedia); la puerta no está verificada. El PDI general tiene la longitud con el signo cambiado (-0,0667 en vez de +0,06).",
+   "cerca": "Shai Hills Resource Reserve",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/ghana/greater-accra",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Shai Hills Resource Reserve",
+     "url": "https://en.wikipedia.org/wiki/Shai_Hills_Resource_Reserve",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Shai Hills Resource Reserve",
+     "url": "https://mapcarta.com/Shai_Hills_Resource_Reserve",
+     "fecha": ""
+    },
+    {
+     "titulo": "197 Travel Stamps: Things to know before visiting Shai Hills",
+     "url": "https://197travelstamps.com/shai-hills-resource-reserve-ghana/",
+     "fecha": "2019-11"
+    },
+    {
+     "titulo": "Ghana-Net: Shai Hills entrance fees",
+     "url": "https://shaihills.ghana-net.com/shai-hills-resource-reserve-entrance-fees/",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Larabanga: arranque de la pista a Mole",
+   "tipo": "pista",
+   "lat": 9.22035,
+   "lon": -1.85996,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "noviembre a marzo (seca)",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Pueblo con la mezquita de barro; sin restricciones conocidas fuera del parque.",
+   "autonomia": "Repostar en Tamale o Damongo; en Mole no se ha encontrado gasolinera.",
+   "desc": "Larabanga, con su mezquita de barro, es el cruce donde se deja la carretera para entrar en el Parque Nacional de Mole. Según Wikipedia, se entra por Larabanga, a unos 24 km de Damongo. El tramo final hasta el motel es de tierra y Wikivoyage lo describe como malo; Roammate habla de laterita bacheada desde Tamale (3-4 h), aunque Wikivoyage dice que desde Tamale está asfaltada.",
+   "acceso": "Desde Tamale (unos 146 km según Wikipedia) por Damongo; último tramo de tierra desde Larabanga. Coordenada: la mezquita de Larabanga.",
+   "riesgos": "Laterita con baches y polvo; barro en lluvias. Región de Savannah: el MAEC recomienda informarse antes de viajar a Savannah, Upper East y Upper West; el FCDO solo desaconseja el municipio de Bawku (Upper East), lejos de aquí.",
+   "cerca": "Mezquita de barro de Larabanga",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Mole National Park",
+     "url": "https://en.wikipedia.org/wiki/Mole_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikivoyage: Mole National Park",
+     "url": "https://en.wikivoyage.org/wiki/Mole_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Roammate: Mole National Park Guide 2026",
+     "url": "https://roammate.com/guides/mole-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Ghana travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/ghana/warnings-and-insurance",
+     "fecha": "2026-07"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Ghana",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Ghana",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Mole: campamento junto al motel y safaris con ranger",
+   "tipo": "oasis",
+   "lat": 9.26227,
+   "lon": -1.85339,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "noviembre a marzo (seca: fauna en los abrevaderos y pistas practicables)",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "No hay norma publicada que se haya encontrado. Hay elefantes y fauna sin vallar alrededor del motel y no se puede salir del recinto sin ranger armado: contar con que el perro no sale del vehículo ni entra en los safaris.",
+   "autonomia": "Hay agua corriente en la zona de acampada del motel. Gasóleo, en Damongo o Tamale.",
+   "desc": "Es el parque más desarrollado de Ghana (4.840 km²) y el mejor sitio para ver elefantes del país. Se permite acampar junto al Mole Motel. No se puede conducir el propio vehículo por el parque: todos los safaris (a pie o en jeep) se contratan en la oficina y van con ranger armado obligatorio. En 4x4 el interés está en llegar y dormir dentro del parque.",
+   "acceso": "Pista de tierra desde Larabanga hasta la zona del motel y la oficina del parque (coordenada del PDI general, ajustada a esa zona).",
+   "riesgos": "Fauna suelta en el campamento: no caminar fuera del recinto sin ranger, sobre todo de noche. Región de Savannah: el MAEC recomienda informarse antes. Si se entra en Ghana sin carnet, el permiso de tránsito puede obligar a ruta directa con rastreador GPS (ver notas).",
+   "cerca": "Parque Nacional de Mole · safari a pie entre elefantes",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikivoyage: Mole National Park",
+     "url": "https://en.wikivoyage.org/wiki/Mole_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Roammate: Mole National Park Guide 2026",
+     "url": "https://roammate.com/guides/mole-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Mole National Park",
+     "url": "https://en.wikipedia.org/wiki/Mole_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Ghana",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Ghana",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 3
+  }
+ ],
+ "rutas": [],
+ "notas": "SEGURIDAD. FCDO (02-07-2026): solo desaconseja (todo salvo lo esencial) el municipio de Bawku, en Upper East. MAEC (24-03-2026): evitar Bawku y las zonas fronterizas con Burkina y el norte de Togo, e informarse antes de ir a Upper East, Upper West, Savannah y Volta. ADUANA Y DESVÍOS. Sin carnet de passages, Rogue Wanderers (03-2023) recibió un permiso de tránsito de 490 USD con adhesivo «Transit», rastreador GPS en el vehículo, ruta directa y 10 días para llegar a Accra y salir por el sureste. Si en 2027 se entra sin carnet, desviarse a Mole o Shai Hills puede no estar permitido; con carnet no hay restricción conocida. DUDAS. (1) El estado de la carretera hasta Mole: Wikivoyage dice que está asfaltada desde Tamale y Roammate, que es laterita; en lo que coinciden es en que el tramo Larabanga–Mole es malo. (2) La puerta exacta de Shai Hills y si en 2027 se sigue permitiendo el vehículo propio (la fuente es de 2019). (3) Perros en Mole y Shai Hills: no hay norma publicada. RUTAS. No he encontrado ninguna pista o travesía 4x4 documentada de 30 km o más en Ghana. El ferry Yeji–Makango del lago Volta ya es PDI general (el enlace de Makango a Salaga y Tamale no está documentado). No se incluye ninguna ruta para no rellenar. WIKILOC. He visto listados de offroading de ghana y de ghana/greater-accra; de Savannah o Northern, ninguno. DESCARTADAS. Cape Three Points (la única fuente sobre la pista es de 2018: «mala a terrible con lluvia»; conviene confirmarla sobre el terreno). Kyabobo (Oti): el parque asegura que es seguro tras los conflictos de Nkwanta South (GNA, 12-2025), pero no hay datos de pistas, y el MAEC pide informarse antes de ir a Volta. Tongo Hills: se llega en coche o autobús desde Bolgatanga (Wikivoyage); no hay interés 4x4. Digya: sin fuentes. Bawku: desaconsejado."
+}

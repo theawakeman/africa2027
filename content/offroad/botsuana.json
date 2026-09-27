@@ -1,0 +1,832 @@
+{
+ "pais": "botsuana",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Maun: repostaje y compras antes de Moremi, Khwai y Savuti",
+   "tipo": "repostaje",
+   "lat": -19.983,
+   "lon": 23.417,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Ciudad con servicios; no se han encontrado restricciones. El perro no podrá entrar en Moremi, Chobe ni Nxai Pan (ver sus fichas): hay que prever dónde dejarlo.",
+   "autonomia": "Llenar gasóleo, agua y víveres aquí: según las guías consultadas no hay combustible dentro ni cerca de Moremi, Khwai ni Savuti; el siguiente repostaje hacia el norte es Kasane (o Muchenje, cerca de Ngoma).",
+   "desc": "Maun es la capital turística de Botsuana y la base de operaciones para el delta del Okavango. Es el último punto con gasóleo, supermercados y talleres antes del circuito de arena Moremi–Khwai–Savuti. También hay oficinas del DWNP donde se gestionan permisos de parque.",
+   "acceso": "Asfalto desde Nata (A3) y desde Ghanzi (A3/A35).",
+   "riesgos": "El MAEC considera Maun zona de riesgo medio (precauciones básicas en ciudad). Al salir hacia Nxai Pan, Makgadikgadi o Nata hay que pasar vallas veterinarias: según Tracks4Africa (2015) no se puede sacar carne cruda de Maun hacia esas zonas; sí hacia Moremi, Chobe y Savuti.",
+   "cerca": "Maun · Nhabe Museum",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Maun, Botswana",
+     "url": "https://en.wikipedia.org/wiki/Maun,_Botswana",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Moremi Game Reserve (combustible)",
+     "url": "https://www.ostrichtrails.com/africa/botswana/moremi-game-reserve/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Tracks4Africa Blog: Veterinary fences in Namibia and Botswana",
+     "url": "https://blog.tracks4africa.co.za/veterinary-fences-in-namibia-and-botswana/",
+     "fecha": "2015-02"
+    },
+    {
+     "titulo": "MAEC: Recomendaciones de viaje, Botsuana",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Botsuana",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Moremi: South Gate",
+   "tipo": "pista",
+   "lat": -19.4248,
+   "lon": 23.64572,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "abril a octubre (época seca); de noviembre a marzo hay tramos inundados y cierres",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "La ley de fauna y parques nacionales (cap. 38:01, art. 8.1.d) prohíbe introducir animales domésticos, perros incluidos, en un parque nacional; los operadores de campings (p. ej. SKL) tampoco admiten mascotas. Moremi es reserva de caza: se aplica el mismo criterio en los campings.",
+   "autonomia": "No hay combustible en el parque; la única tienda está en el camping de Third Bridge. Salir de Maun con depósitos llenos.",
+   "desc": "Es la entrada sur a la reserva de Moremi, en el borde oriental del delta del Okavango, y el inicio del circuito South Gate–Third Bridge–Xakanaxa–North Gate. Desde aquí hasta Xakanaxa hay unos 42 km que suelen estar practicables todo el año. Tiene camping propio gestionado por Kwalate Safaris.",
+   "acceso": "92 km desde Maun: 40 km de asfalto y 52 km de pista de tierra y arena (unas 2 horas). Horario de puerta: 06:00-18:30 de abril a septiembre y 05:30-19:00 de octubre a marzo.",
+   "riesgos": "Arena, fauna peligrosa sin vallas, prohibido circular de noche y salir de las pistas. Los campings suelen estar llenos: reservar con mucha antelación y llevar la confirmación a la puerta.",
+   "cerca": "Moremi · Xakanaxa",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Moremi Game Reserve",
+     "url": "https://www.ostrichtrails.com/africa/botswana/moremi-game-reserve/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Northern Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-northern-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Botswana Laws: Wildlife Conservation and National Parks Act (cap. 38:01)",
+     "url": "https://botswanalaws.com/consolidated-statutes/principle-legislation/wildlife-conservation-and-national-parks",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tawana Self Drive: cómo reservar campings en los parques de Botsuana",
+     "url": "https://en.tawanaselfdrive.com/book-campsites-in-botswana-national-parks-permit/",
+     "fecha": "2026-04"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Third Bridge: puentes de troncos y vados de Moremi",
+   "tipo": "paso",
+   "lat": -19.23955,
+   "lon": 23.35643,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "abril a octubre; de enero a marzo el acceso puede quedar cortado",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Reserva de caza dentro del sistema de parques: perros no admitidos (ver South Gate).",
+   "autonomia": "Hay una pequeña tienda en el camping, pero no combustible. Prever gasóleo para volver a Maun o seguir a Khwai.",
+   "desc": "Third Bridge es el camping más salvaje de Moremi, junto a un puente de troncos sobre un canal del delta. Para llegar hay que pasar First Bridge y Second Bridge y varios vados de profundidad variable según la crecida. Es la experiencia de agua más típica del Okavango en 4x4. El camping lo gestiona Xomae Group.",
+   "acceso": "Pista de arena desde South Gate o desde Xakanaxa, con vados y puentes de troncos. Límite de 5 toneladas para cruzar los puentes.",
+   "riesgos": "Vados de profundidad cambiante (preguntar en la puerta), el puente se daña a menudo en las lluvias y deja el camping inaccesible. Fauna sin vallas en el camping. El MAEC recomienda no bañarse en masas de agua.",
+   "cerca": "Moremi · Xakanaxa",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Moremi Game Reserve",
+     "url": "https://www.ostrichtrails.com/africa/botswana/moremi-game-reserve/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Northern Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-northern-botswana.htm",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Khwai: North Gate y pistas del río",
+   "tipo": "paso",
+   "lat": -19.17093,
+   "lon": 23.75075,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a octubre; tras las lluvias las pistas junto al río se encharcan",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Dentro de Moremi, no (ley de parques). La concesión comunitaria de Khwai, al otro lado del río, no es parque nacional: no se ha encontrado norma sobre perros; el camping de North Gate lo gestiona SKL, que no admite mascotas.",
+   "autonomia": "En Khwai no hay combustible y solo refrescos garantizados. Repostar en Maun o Kasane.",
+   "desc": "North Gate es la entrada norte de Moremi, junto al pueblo de Khwai y el río del mismo nombre. Al norte del río está la concesión comunitaria de Khwai, que permite recorrer la orilla sin pagar tasas de parque. Las pistas junto al río tienen tramos encharcados y cruces de agua; las del interior son más fáciles.",
+   "acceso": "Unos 125 km desde Maun por la ruta directa o 150 km por Mababe. Arena ligera en el interior; barro y agua junto al río.",
+   "riesgos": "Pistas anegadas junto al río, hipopótamos y elefantes. No circular de noche.",
+   "cerca": "Khwai · North Gate",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana/north-west/khwai-river-lodge",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Khwai",
+     "url": "https://www.ostrichtrails.com/africa/botswana/khwai/",
+     "fecha": "2025-06"
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Northern Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-northern-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "SKL Camps: Conditions of Entry",
+     "url": "https://sklcamps.com/legal/conditions-of-entry/",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Mababe Gate: elección entre Sand Ridge Road y Marsh Road",
+   "tipo": "paso",
+   "lat": -19.01278,
+   "lon": 23.9894,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre; en enero-febrero llueve mucho y la Marsh Road puede cortarse",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Entrada al Parque Nacional de Chobe: perros prohibidos por la ley de parques.",
+   "autonomia": "Sin combustible hasta Kasane o Muchenje. Contar con consumo alto en arena.",
+   "desc": "Es la puerta sur del sector de Savuti en el Parque Nacional de Chobe. Desde aquí hay unos 70 km hasta Savuti por dos pistas alternativas: la Sand Ridge Road, de arena, y la Marsh Road, por el borde de la ciénaga. Los guardas indican cuál está mejor según la estación.",
+   "acceso": "Desde Khwai o desde Maun por Mababe. Pista de arena blanda; 3 a 5 horas hasta Savuti según el estado. Una guía comercial recomienda bajar a 1,2-1,5 bar, reductora e inercia en la arena.",
+   "riesgos": "Arena profunda, sobrecalentamiento, encharcamientos en la Marsh Road. Prohibido salir de las pistas y circular tras el cierre de puertas.",
+   "cerca": "Savuti · campamento",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana/chobe/savuti",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Savuti",
+     "url": "https://www.ostrichtrails.com/africa/botswana/savuti/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Chobe National Park: Self-drive guide",
+     "url": "https://chobenationalpark.co.za/chobe-self-drive-guide/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Northern Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-northern-botswana.htm",
+     "fecha": ""
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Savuti: camping de SKL junto al canal",
+   "tipo": "oasis",
+   "lat": -18.57052,
+   "lon": 24.06963,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "SKL prohíbe expresamente mascotas y animales domésticos; además es parque nacional.",
+   "autonomia": "Sin combustible ni tienda. Agua: no se ha encontrado confirmación de agua potable; llevar toda la necesaria.",
+   "desc": "Savuti es el corazón salvaje de Chobe, con fama de depredadores y elefantes. El camping público tiene 14 parcelas gestionadas por SKL, con un máximo de tres vehículos por parcela. Es la etapa central del eje Maun–Khwai–Savuti–Kasane y solo se alcanza por pistas de arena.",
+   "acceso": "Desde Mababe Gate (unos 70 km) o desde Kachikau por Ghoha Gate (unos 40 km de arena hasta la puerta y 30 km más hasta el centro). Todo arena.",
+   "riesgos": "Fauna dentro del camping, arena profunda en los accesos. Reservar con antelación: la reserva se muestra en la puerta y en el camping.",
+   "cerca": "Savuti · campamento",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana/chobe/savuti",
+   "fuentes": [
+    {
+     "titulo": "SKL Camps: Conditions of Entry",
+     "url": "https://sklcamps.com/legal/conditions-of-entry/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Savuti",
+     "url": "https://www.ostrichtrails.com/africa/botswana/savuti/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Northern Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-northern-botswana.htm",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Linyanti: camping remoto junto al pantano",
+   "tipo": "oasis",
+   "lat": -18.29495,
+   "lon": 23.90948,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Camping de SKL en el Parque Nacional de Chobe: sin mascotas.",
+   "autonomia": "Sin servicios. Llevar gasóleo para volver a Savuti y seguir a Kasane.",
+   "desc": "Linyanti es un pequeño camping de cinco parcelas en el extremo noroeste de Chobe, frente a los pantanos del Linyanti y la frontera de Namibia. Es de los lugares más aislados del circuito y se llega solo por pista de arena desde Savuti. Lo gestiona SKL.",
+   "acceso": "Pista de arena desde la zona de Savuti. No se ha encontrado en fuentes abiertas la distancia exacta ni el estado reciente.",
+   "riesgos": "Arena profunda, aislamiento, sin cobertura. Fauna en el camping.",
+   "cerca": "Linyanti · campsite",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana/chobe",
+   "fuentes": [
+    {
+     "titulo": "SKL Camps: Conditions of Entry",
+     "url": "https://sklcamps.com/legal/conditions-of-entry/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Northern Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-northern-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tawana Self Drive: operadores de campings",
+     "url": "https://en.tawanaselfdrive.com/book-campsites-in-botswana-national-parks-permit/",
+     "fecha": "2026-04"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Ghoha Gate–Kachikau: la arena más dura del norte",
+   "tipo": "paso",
+   "lat": -18.41667,
+   "lon": 24.25,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Tramo que entra en el Parque Nacional de Chobe: perros prohibidos.",
+   "autonomia": "Repostar en Kasane (o Muchenje, cerca de Ngoma): es el último gasóleo antes de Savuti. Kasane–Kachikau son 93 km de asfalto.",
+   "desc": "Es el acceso norte a Savuti desde Kasane: 93 km de asfalto hasta Kachikau y luego unos 40 km de pista ancha y ondulada hasta Ghoha Gate. Una guía de viaje lo describe como el tramo más arenoso que encontraron en Botsuana, con uso de reductora. El punto marca las colinas de Goha, junto a la puerta.",
+   "acceso": "Desde Kachikau, pista de arena suelta y profunda de unos 40 km; después 30 km hasta el centro de Savuti. Bajar presiones al dejar el asfalto.",
+   "riesgos": "Arena muy blanda y roderas profundas, riesgo de quedarse clavado y de sobrecalentar. Coordenada aproximada (colinas de Goha, no la puerta exacta).",
+   "cerca": "Savuti · campamento",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana/chobe/kataba",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Savuti",
+     "url": "https://www.ostrichtrails.com/africa/botswana/savuti/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Chobe National Park: Self-drive guide",
+     "url": "https://chobenationalpark.co.za/chobe-self-drive-guide/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Goha Hills",
+     "url": "https://mapcarta.com/14213180",
+     "fecha": ""
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "CKGR: Matswere Gate",
+   "tipo": "pista",
+   "lat": -21.15678,
+   "lon": 24.00742,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "abril a octubre para conducir mejor; de enero a abril hay más fauna pero calor y barro",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Reserva de caza del sistema de parques: la ley prohíbe introducir animales domésticos. No se ha encontrado excepción para turistas.",
+   "autonomia": "El último gasóleo es Rakops (45 km). Dentro no hay agua ni combustible: calcular todo. Un viajero gastó 83 L en 793 km de arena con un Defender. Tracks4Africa recomienda unos 6 L de agua por persona y día más 2 L de reserva.",
+   "desc": "Es la entrada más usada a la Reserva de Caza del Kalahari Central, en el nordeste, y la más cómoda para Deception Valley y Sunday Pan. La reserva es enorme, sin vallas ni agua, y se recorre por pistas de arena a 40 km/h como máximo. Los campings los gestionan Bigfoot Tours (Piper Pan y Sunday Pan) y el DWNP (el resto).",
+   "acceso": "Desde Rakops, unos 45 km de pista de arena relativamente buena (unas 2 horas). Para obtener el permiso hay que presentar la reserva de camping en una oficina del DWNP (Maun, Gaborone, Ghanzi) o en la puerta.",
+   "riesgos": "Aislamiento total, sin cobertura (llevar teléfono satélite). Una guía aconseja ir en convoy de al menos dos vehículos en las travesías. Las costras de las salinas pueden ceder tras las lluvias.",
+   "cerca": "CKGR · Deception Valley",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Life Journey 4 Two: Camping in the Central Kalahari Game Reserve",
+     "url": "https://lifejourney4two.com/central-kalahari-game-reserve/",
+     "fecha": "2025-01"
+    },
+    {
+     "titulo": "Travel4Wildlife: Traveling to the Central Kalahari Game Reserve",
+     "url": "https://www.travel4wildlife.com/traveling-central-kalahari-game-reserve/",
+     "fecha": "2024-01"
+    },
+    {
+     "titulo": "Ostrich Trails: Central Kalahari Game Reserve",
+     "url": "https://www.ostrichtrails.com/africa/botswana/central-kalahari-game-reserve/",
+     "fecha": ""
+    }
+   ],
+   "n": 9
+  },
+  {
+   "name": "CKGR: Deception Valley",
+   "tipo": "oasis",
+   "lat": -21.40502,
+   "lon": 23.8029,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "enero a abril para fauna; abril a octubre para conducir",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Dentro de la reserva, no (ley de parques).",
+   "autonomia": "Sin agua ni combustible. Todo desde Rakops o Ghanzi.",
+   "desc": "Es el valle fósil más famoso del Kalahari Central y la zona con más depredadores. Tiene varios campings dispersos (Deception, Kori, Sunday Pan cerca). El punto marca la entrada al valle desde Matswere.",
+   "acceso": "Desde Matswere Gate por pista de arena, unos 30 km. Límite de 40 km/h.",
+   "riesgos": "Leones sin vallas en los campings, calor extremo en verano (más de 38 °C), barro tras las lluvias.",
+   "cerca": "CKGR · Deception Valley",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Central Kalahari Game Reserve",
+     "url": "https://www.ostrichtrails.com/africa/botswana/central-kalahari-game-reserve/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Life Journey 4 Two: Camping in the Central Kalahari Game Reserve",
+     "url": "https://lifejourney4two.com/central-kalahari-game-reserve/",
+     "fecha": "2025-01"
+    }
+   ],
+   "n": 10
+  },
+  {
+   "name": "CKGR: Piper Pan",
+   "tipo": "oasis",
+   "lat": -21.7841,
+   "lon": 23.21265,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "abril a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Dentro de la reserva, no (ley de parques).",
+   "autonomia": "143 km de arena desde Matswere, sin ningún servicio. Salida más cercana por Xade hacia Ghanzi.",
+   "desc": "Piper Pan es una salina con dos campings (gestionados por Bigfoot Tours) en el centro de la reserva, a mitad de la travesía norte–sur. Es uno de los lugares más remotos que se pueden visitar sin guía en Botsuana. Desde aquí se sale por Xade hacia Ghanzi.",
+   "acceso": "Pista de arena desde Deception/Sunday Pan (143 km desde Matswere) o desde Xade. Los campings tienen letrina, ducha de cubo y hogar.",
+   "riesgos": "Aislamiento extremo, sin cobertura; conviene ir con dos vehículos y teléfono satélite. Reservar con hasta un año de antelación en temporada alta.",
+   "cerca": "CKGR · Deception Valley",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Life Journey 4 Two: Camping in the Central Kalahari Game Reserve",
+     "url": "https://lifejourney4two.com/central-kalahari-game-reserve/",
+     "fecha": "2025-01"
+    }
+   ],
+   "n": 11
+  },
+  {
+   "name": "Khumaga Gate: vado o balsa del río Boteti",
+   "tipo": "paso",
+   "lat": -20.47242,
+   "lon": 24.51782,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a octubre; el paso depende del nivel del Boteti",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional de Makgadikgadi y camping de SKL: sin mascotas.",
+   "autonomia": "Sin combustible en el parque: repostar en Rakops, Nata o Maun. La arena sube el consumo un 15-20 %.",
+   "desc": "Es la entrada oeste del Parque Nacional de las salinas de Makgadikgadi, al otro lado del río Boteti. En seco se cruza el cauce en el propio vehículo; con crecida funciona una balsa que lleva un coche cada vez (P150 por coche). A veces hay demasiada agua para vadear y poca para la balsa, y hay que rodear unos 80 km por asfalto.",
+   "acceso": "Desde Rakops o la A30. Balsa: llamar al +267 722 34998. Camping de Khumaga (SKL) y Tree Island (DWNP). El de Njuca Hills está cerrado desde 2021.",
+   "riesgos": "Profundidad del vado cambiante; preguntar antes de cruzar. Arena en el interior del parque.",
+   "cerca": "Makgadikgadi · acceso de Khumaga",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Makgadikgadi Pans National Park",
+     "url": "https://www.ostrichtrails.com/africa/botswana/makgadikgadi-pans-national-park/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    }
+   ],
+   "n": 12
+  },
+  {
+   "name": "Nxai Pan: Baines' Baobabs y la salina de Kudiakam",
+   "tipo": "paso",
+   "lat": -20.11262,
+   "lon": 24.76917,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a octubre; en lluvias la salina se inunda",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque nacional: perros prohibidos por ley.",
+   "autonomia": "La gasolinera de Gweta abre solo de forma esporádica según la guía consultada: repostar en Maun (140 km) o Nata (165 km).",
+   "desc": "Grupo de baobabs pintado por Thomas Baines en 1862, al borde de la salina de Kudiakam, dentro del Parque Nacional de Nxai Pan. Tiene tres campings dispersos gestionados por Xomae. La entrada al parque desde la A3 es el tramo más arenoso de toda la zona.",
+   "acceso": "Puerta de Nxai Pan en la A3 entre Maun y Nata (arena gruesa desde la puerta). En época húmeda se recomienda la pista norte, algo más larga, porque la sur cruza la salina; los guardas indican cuál usar.",
+   "riesgos": "Salina que se vuelve barro pegajoso con lluvia; no salir de las rodadas. Vallas veterinarias: no llevar carne cruda desde Maun.",
+   "cerca": "Baines Baobabs",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Nxai Pan National Park",
+     "url": "https://www.ostrichtrails.com/africa/botswana/nxai-pan-national-park/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa Blog: Veterinary fences in Namibia and Botswana",
+     "url": "https://blog.tracks4africa.co.za/veterinary-fences-in-namibia-and-botswana/",
+     "fecha": "2015-02"
+    }
+   ],
+   "n": 13
+  },
+  {
+   "name": "Kubu Island (Lekhubu)",
+   "tipo": "oasis",
+   "lat": -20.893,
+   "lon": 25.819,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a octubre; no ir de noviembre a abril",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "No es parque nacional sino monumento nacional gestionado por la comunidad. Las normas publicadas no mencionan perros: preguntar al reservar.",
+   "autonomia": "Sin combustible ni tiendas. Repostar en Letlhakane (sur) o en Nata o Maun (norte).",
+   "desc": "Isla de granito con baobabs en medio de la salina de Sowa, parte del complejo de Makgadikgadi. Es monumento nacional y lugar sagrado; el camping (13 parcelas) lo gestiona el Gaing-O Community Trust desde Mmatshumo. Es uno de los vivacs más espectaculares del sur de África.",
+   "acceso": "Desde el sur (Mmatshumo): unos 47 km de pista de arena con un único trazado evidente. Desde el norte (desvío cerca de Mabole, 17 km al oeste de Nata): unos 90 km de pistas con muchos ramales sin señalizar. Desde Gweta solo en años muy secos y con experiencia. Normas: prohibido salir de las pistas, 30 km/h.",
+   "riesgos": "La salina parece firme pero debajo hay barro arcilloso que atrapa el vehículo, sobre todo en época húmeda. Navegación difícil en la ruta norte. Tarifa internacional de camping: 150 BWP por persona y noche más tasas.",
+   "cerca": "Kubu Island · Lekhubu",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Kubu Island",
+     "url": "https://www.ostrichtrails.com/africa/botswana/kubu-island/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Kubu Island (Gaing-O Community Trust)",
+     "url": "https://www.kubuisland.com/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kubu Island",
+     "url": "https://en.wikipedia.org/wiki/Kubu_Island",
+     "fecha": ""
+    }
+   ],
+   "n": 14
+  },
+  {
+   "name": "Kgalagadi: Mabuasehube Gate",
+   "tipo": "pista",
+   "lat": -25.08364,
+   "lon": 22.15481,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "abril a octubre (en verano, arena muy caliente y blanda)",
+   "guia": "autorización",
+   "perro": "no",
+   "perro_nota": "Parque transfronterizo: perros prohibidos por la ley de Botsuana (y por SANParks en el lado sudafricano).",
+   "autonomia": "Sin combustible en la reserva; el agua anunciada no es fiable y, si hay, es salobre. Llevar todo desde Tsabong, Hukuntsi o Kang.",
+   "desc": "Es la entrada al sector de Mabuasehube, la parte más oriental y salvaje del Parque Transfronterizo de Kgalagadi. Tiene unas 17 parcelas repartidas en siete salinas (DWNP e Intertourism). Desde aquí sale el Mabuasehube Wilderness Trail, de 155 km y dos días hasta cerca de Nossob (Sudáfrica), solo en un sentido, con mínimo dos vehículos y máximo cuatro, un grupo por día y reserva con el DWNP.",
+   "acceso": "Desde Tsabong: 140 km (27 de asfalto, 56 de ripio y 56 de arena). Desde Hukuntsi: unos 140 km al sur por arena y ripio. Desde Sekoma: pista por una línea de corte que empieza 30 km al sur de Khakhea. Bajar presiones al dejar el asfalto.",
+   "riesgos": "Aislamiento total. SANParks indica que todas las rutas del lado botsuano del parque deben hacerse con al menos dos vehículos, y que para entrar o salir del parque hacia Botsuana o Namibia hay que pasar un mínimo de dos noches en él (trámites de inmigración en Twee Rivieren/Two Rivers). Las fuentes recomiendan además reservas de combustible y comunicación por satélite. Los campings no se reservan en línea.",
+   "cerca": "Kgalagadi · Twee Rivieren",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Mabuasehube Entrance Gate (KT-ENG-03)",
+     "url": "https://mapcarta.com/N3635576145",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ostrich Trails: Mabuasehube",
+     "url": "https://www.ostrichtrails.com/africa/botswana/mabuasehube/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa Blog: Mabuasehube, the Kgalagadi's wild side",
+     "url": "https://blog.tracks4africa.co.za/mabuasehube-the-kgalagadis-wild-side/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Leisure Wheels: Mabuasehube Wilderness trail",
+     "url": "https://www.leisurewheels.co.za/4x4-news/mabuasehube-wilderness-trail/",
+     "fecha": "2018-02"
+    },
+    {
+     "titulo": "SANParks: 4x4 Trails, Kgalagadi",
+     "url": "https://www.sanparks.org/parks/kgalagadi/what-to-do/activities/4x4-trails",
+     "fecha": ""
+    },
+    {
+     "titulo": "SANParks: Kgalagadi, Border crossings",
+     "url": "https://www.sanparks.org/parks/kgalagadi/travel/border-crossings",
+     "fecha": ""
+    }
+   ],
+   "n": 15
+  },
+  {
+   "name": "Tsodilo Hills: puerta y camping",
+   "tipo": "oasis",
+   "lat": -18.78793,
+   "lon": 21.74773,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "abril a octubre",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Patrimonio de la Humanidad (no parque nacional). No se han encontrado normas sobre perros.",
+   "autonomia": "No se ha confirmado combustible en la zona del Panhandle en fuentes recientes; llegar con reservas desde Maun o Divundu (Namibia).",
+   "desc": "Colinas sagradas con más de 4.000 pinturas rupestres, Patrimonio de la Humanidad, al oeste del Panhandle del Okavango. Se visitan con guías locales desde el museo. El acceso es una pista de arena y ripio que, según un viajero de 2025, exige 4x4.",
+   "acceso": "Desvío desde la A35; aproximadamente una hora por pista de ripio y arena cuyo estado varía con la estación.",
+   "riesgos": "Arena variable en la pista de acceso. Sin más riesgos específicos encontrados.",
+   "cerca": "Tsodilo Hills · museo y oficina",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "The Travel Info Blogger: Northern Botswana and north-eastern Namibia self-drive itinerary",
+     "url": "https://thetravelinfoblogger.com/northern-botswana-and-north-eastern-namibia-self-drive-itinerary-2-weeks/",
+     "fecha": "2025-10"
+    }
+   ],
+   "n": 16
+  },
+  {
+   "name": "Gcwihaba (Drotsky's Caves)",
+   "tipo": "oasis",
+   "lat": -20.0217,
+   "lon": 21.35458,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "abril a octubre",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "No se han encontrado normas.",
+   "autonomia": "Zona muy remota del noroeste: llevar depósitos largos y agua de reserva. No se ha encontrado en fuentes abiertas el punto de repostaje más cercano.",
+   "desc": "Cuevas calizas con estalactitas y colonias de murciélagos a unos 50 km al este de las colinas de Aha, en pleno Kalahari del noroeste. Se llega por una pista de arena estrecha y larga. En 2018 se estaba construyendo un centro de visitantes y una puerta, así que puede haber tasas.",
+   "acceso": "Pista de arena estrecha; las fuentes no dan kilómetros ni punto de partida concretos.",
+   "riesgos": "Aislamiento, navegación, arena. Información escasa y antigua (2018): verificar el estado de la pista y si hay que pagar entrada.",
+   "cerca": "Gcwihaba Caves",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "The Road Chose Me: Gcwihaba Caves",
+     "url": "https://theroadchoseme.com/gcwihaba-caves",
+     "fecha": "2018-02"
+    },
+    {
+     "titulo": "Travel Adventures Botswana: Drotsky's Caves",
+     "url": "https://traveladventuresbotswana.com/planning-a-botswana-self-drive-safari-itinerary/drotskys-caves-gcwihaba-caves/",
+     "fecha": ""
+    }
+   ],
+   "n": 17
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Circuito de Moremi: Maun – South Gate – Third Bridge – Xakanaxa – North Gate",
+   "desde": "Maun",
+   "hasta": "North Gate (Khwai)",
+   "km": 230,
+   "dias": 3,
+   "dificultad": "difícil",
+   "epoca": "abril a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Es el recorrido clásico por la reserva de Moremi: entrada por South Gate, noche en Third Bridge o Xakanaxa y salida por North Gate hacia Khwai. Combina arena, puentes de troncos y vados del delta. Es la antesala de la ruta a Savuti.",
+   "firme": "40 km de asfalto desde Maun, luego pista de tierra y arena; puentes de troncos (máximo 5 t) y vados de profundidad variable.",
+   "autonomia": "Gasóleo solo en Maun; no hay combustible hasta Kasane. Tienda pequeña en Third Bridge.",
+   "riesgos": "Vados y puentes dañados tras las lluvias (Third Bridge puede quedar incomunicado de enero a marzo). Reservas de camping obligatorias y a menudo agotadas. Perros prohibidos.",
+   "puntos": [
+    [
+     -19.983,
+     23.417
+    ],
+    [
+     -19.76194,
+     23.67694
+    ],
+    [
+     -19.4248,
+     23.64572
+    ],
+    [
+     -19.23955,
+     23.35643
+    ],
+    [
+     -19.18273,
+     23.41138
+    ],
+    [
+     -19.17093,
+     23.75075
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana/north-west/khwai-river-lodge",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Moremi Game Reserve",
+     "url": "https://www.ostrichtrails.com/africa/botswana/moremi-game-reserve/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Northern Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-northern-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Shorobe",
+     "url": "https://en.wikipedia.org/wiki/Shorobe",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Khwai – Mababe – Savuti – Ghoha – Kasane",
+   "desde": "Khwai",
+   "hasta": "Kasane",
+   "km": 270,
+   "dias": 3,
+   "dificultad": "difícil",
+   "epoca": "mayo a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Travesía de arena por el Parque Nacional de Chobe de sur a norte: de Khwai a Mababe Gate, 70 km hasta Savuti por la Sand Ridge o la Marsh Road, salida por Ghoha Gate y 40 km de arena muy blanda hasta Kachikau, donde empieza el asfalto a Kasane. Es la columna vertebral del circuito de parques del norte de Botsuana.",
+   "firme": "Arena blanda y profunda casi todo el tramo de parque (reductora en Ghoha–Kachikau); 93 km de asfalto al final.",
+   "autonomia": "Sin combustible entre Maun y Kasane (o Muchenje). Prever el consumo alto en arena.",
+   "riesgos": "Arena, sobrecalentamiento, Marsh Road encharcada en lluvias. Prohibido circular de noche y fuera de pista. Perros prohibidos en todo el tramo de parque.",
+   "puntos": [
+    [
+     -19.166,
+     23.75
+    ],
+    [
+     -19.01278,
+     23.9894
+    ],
+    [
+     -18.57052,
+     24.06963
+    ],
+    [
+     -18.41667,
+     24.25
+    ],
+    [
+     -18.15722,
+     24.5
+    ],
+    [
+     -17.817,
+     25.15
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana/chobe/savuti",
+   "fuentes": [
+    {
+     "titulo": "Ostrich Trails: Savuti",
+     "url": "https://www.ostrichtrails.com/africa/botswana/savuti/",
+     "fecha": "2025-07"
+    },
+    {
+     "titulo": "Ostrich Trails: Khwai",
+     "url": "https://www.ostrichtrails.com/africa/botswana/khwai/",
+     "fecha": "2025-06"
+    },
+    {
+     "titulo": "Chobe National Park: Self-drive guide",
+     "url": "https://chobenationalpark.co.za/chobe-self-drive-guide/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kachikau",
+     "url": "https://en.wikipedia.org/wiki/Kachikau",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kasane",
+     "url": "https://en.wikipedia.org/wiki/Kasane",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Travesía del Kalahari Central: Rakops – Matswere – Deception – Piper Pan – Xade",
+   "desde": "Rakops",
+   "hasta": "Xade Gate",
+   "km": 270,
+   "dias": 4,
+   "dificultad": "difícil",
+   "epoca": "abril a octubre",
+   "guia": "autorización",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Travesía de la Reserva de Caza del Kalahari Central de nordeste a suroeste por sus valles fósiles y salinas. Se entra por Matswere, se duerme en Deception o Sunday Pan y en Piper Pan, y se sale por Xade hacia Ghanzi. Es totalmente autónoma: no hay agua, combustible ni cobertura.",
+   "firme": "Pista de arena, a ratos ondulada; barro y costras de salina tras las lluvias. Límite de 40 km/h.",
+   "autonomia": "Gasóleo en Rakops (entrada) y Ghanzi (salida). Agua para todo el viaje: unos 6 L por persona y día más reserva.",
+   "riesgos": "Aislamiento, sin vallas en los campings, calor. Se recomienda convoy de dos vehículos y teléfono satélite. Permiso del DWNP solo con reserva de camping previa.",
+   "puntos": [
+    [
+     -21.03694,
+     24.40917
+    ],
+    [
+     -21.15678,
+     24.00742
+    ],
+    [
+     -21.40502,
+     23.8029
+    ],
+    [
+     -21.35062,
+     23.67463
+    ],
+    [
+     -21.7841,
+     23.21265
+    ],
+    [
+     -22.33947,
+     23.0079
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/botswana",
+   "fuentes": [
+    {
+     "titulo": "Namibweb: GPS coordinates of camping sites, Botswana",
+     "url": "https://www.namibweb.com/camping-coordinates-botswana.htm",
+     "fecha": ""
+    },
+    {
+     "titulo": "Life Journey 4 Two: Camping in the Central Kalahari Game Reserve",
+     "url": "https://lifejourney4two.com/central-kalahari-game-reserve/",
+     "fecha": "2025-01"
+    },
+    {
+     "titulo": "Travel4Wildlife: Traveling to the Central Kalahari Game Reserve",
+     "url": "https://www.travel4wildlife.com/traveling-central-kalahari-game-reserve/",
+     "fecha": "2024-01"
+    },
+    {
+     "titulo": "Wikipedia: Rakops",
+     "url": "https://en.wikipedia.org/wiki/Rakops",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (actualizado el 01-06-2026) no desaconseja ninguna zona de Botsuana; recomienda en zonas muy remotas ir en convoy o con teléfono satélite y extremar la precaución de noche por fauna y ganado. MAEC (26-05-2026): ninguna zona desaconsejada; riesgo medio en Gaborone y Maun; no conducir de noche, pistas con riesgo de vuelco a velocidad excesiva e inundaciones estacionales en el norte. PERROS: la ley de fauna y parques nacionales (cap. 38:01, art. 8.1.d) prohíbe introducir animales domésticos (perros incluidos) en un parque nacional, con una excepción por permiso para el tránsito legal (art. 8.2.b), y permite sacrificar al animal que se encuentre sin permiso (art. 8.3.a). SKL (Savuti, Linyanti, Khwai North Gate, Khumaga) prohíbe expresamente mascotas. No se ha encontrado la norma específica de las reservas de caza (Moremi, CKGR): se ha aplicado el mismo criterio. Con perro, el circuito de parques exige dejarlo al cuidado de alguien en Maun o Kasane: no se ha buscado ese servicio. RESERVAS: desde 2009 casi todos los campings los gestionan operadores privados (SKL, Xomae, Kwalate, Bigfoot) y el resto el DWNP; se reserva directamente con cada uno y la confirmación se muestra en la puerta; el permiso del DWNP se expide con la reserva. Máximo tres vehículos por parcela en los de SKL. NÚMERO DE VEHÍCULOS: obligatorio en el lado botsuano de Kgalagadi (SANParks: todas las rutas, mínimo dos vehículos; Mabuasehube Wilderness Trail, de 2 a 4); en CKGR se recomienda ir con dos. VALLAS VETERINARIAS: no se puede sacar carne cruda ni leche sin pasteurizar de las zonas infectadas (norte y oeste) hacia el sur o el este; desde Maun no hacia Nxai Pan, Makgadikgadi, Nata ni Ghanzi (fuente de 2015). DUDAS. (1) La coordenada de Xakanaxa (punto de paso de la ruta 1) es la del PDI general, no verificada: la lista de Namibweb le da por error la misma que a South Gate. (2) Los kilómetros de las rutas son estimaciones sumando tramos de las fuentes y distancias en línea recta: Moremi (92 km a South Gate + unos 140 dentro), Khwai–Kasane (Ostrich Trails suma 70 + 30 + 40 + 93; otra guía da 220 km solo de Kasane a Savuti), CKGR (45 + 143 + unos 80 a Xade). (3) La coordenada de Ghoha Gate es la de las colinas de Goha (aproximada). Falta confirmar la distancia Savuti–Linyanti y el acceso exacto a Gcwihaba. No se encontraron presiones de neumáticos de fuente independiente; la de 1,2-1,5 bar sale de una guía comercial. SIN RUTA PROPIA (solo punto): Mabuasehube Wilderness Trail (155 km a Nossob, Sudáfrica) y la travesía Nata–Kubu–Mmatshumo, por falta de puntos de paso verificables. El presupuesto de búsquedas web de la sesión se agotó a mitad del trabajo, lo que limitó la verificación de algunos puntos intermedios. Listados de Wikiloc vistos en resultados de búsqueda: botswana, botswana-general, chobe, chobe/kasane, chobe/savuti, chobe/kataba, north-west/khwai-river-lodge y ghanzi/charles-hill; no se vieron listados de Central ni Kgalagadi. DESCARTADAS: ninguna zona por seguridad. Los Northern Tuli (PDI general) no se han trabajado como offroad por falta de fuentes."
+}

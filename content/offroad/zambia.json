@@ -1,0 +1,696 @@
+{
+ "pais": "zambia",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Mfuwe: último repostaje del valle del Luangwa",
+   "tipo": "repostaje",
+   "lat": -13.11056,
+   "lon": 31.79778,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año (las pistas del valle, solo de junio/julio a octubre)",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "En el pueblo no hay restricción conocida, pero la puerta de South Luangwa está al lado: la Ley de Fauna de Zambia prohíbe entrar en un parque nacional con animales domésticos (perros incluidos) sin consentimiento escrito del Director del DNPW.",
+   "autonomia": "Llenar aquí gasóleo y bidones: según Tracks4Africa (2022) es el último combustible antes de North Luangwa, a unos 220 km al norte del pontón. Por la carretera 05 hacia Mpika tampoco hay servicios hasta la Great North Road.",
+   "desc": "Mfuwe es el núcleo de servicios junto a la puerta principal de South Luangwa, unos 100 km al oeste-noroeste de Chipata. De aquí salen las dos grandes pistas del valle: la carretera 05 que sube el escarpe de Muchinga hacia Mpika y la pista hacia el norte por Luambe y el pontón de North Luangwa. Tiene el récord de temperatura de Zambia (42,8 °C), así que el calor de octubre pesa en el consumo y en el perro.",
+   "acceso": "Asfalto desde Chipata (Great East Road). Dentro del parque: 25 USD por persona y día, 15 USD por vehículo extranjero de menos de 3 t y un recargo de autoconducción de 30 USD (tarifas 2026).",
+   "riesgos": "Calor extremo en octubre y noviembre; fauna suelta (elefantes, hipopótamos) en el propio pueblo. No conducir de noche (FCDO).",
+   "cerca": "Parque Nacional de South Luangwa (Mfuwe)",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/zambia",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Mfuwe",
+     "url": "https://en.wikipedia.org/wiki/Mfuwe",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Self-driving North Luangwa National Park",
+     "url": "https://blog.tracks4africa.co.za/self-driving-north-luangwa-national-park/",
+     "fecha": "2022-04"
+    },
+    {
+     "titulo": "Africa Travel Essentials: Southern Africa National Park Fees 2026",
+     "url": "https://africatravelessentials.com/southern-africa-national-park-fees-2026/",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "Zambia Laws: Zambia Wildlife Act (sección 22, animales domésticos)",
+     "url": "https://www.zambialaws.com/z/411-zambia-wildlife-act",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Nabwalya y la subida del escarpe de Muchinga (carretera 05)",
+   "tipo": "paso",
+   "lat": -12.42145,
+   "lon": 31.97575,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "julio a octubre; intransitable con lluvias",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Nabwalya está en la zona de caza controlada (GMA) de Munyamadzi, fuera del parque; el tramo previo cruza South Luangwa, donde el perro no puede entrar sin permiso escrito del DNPW.",
+   "autonomia": "Sin combustible entre Mfuwe y Mpika. Gasóleo de sobra por el consumo en reductora; agua para dos días.",
+   "desc": "Nabwalya es la aldea de la jefatura del mismo nombre, en el fondo del valle del Luangwa, a unos 110 km de Mpika por una pista señalizada como «Strictly 4x4». Es el pie del escarpe de Muchinga: una rampa de unos 5 km (12 km de lazadas de piedra según otro relato) que obliga a subir en primera reductora. Es el paso clave de la ruta 05 entre South Luangwa y la Great North Road.",
+   "acceso": "Desde Mfuwe, por dentro de South Luangwa hasta la puerta de Chifungwe y luego pista de dos rodadas por mopane y miombo, con unos 4 km de algodón negro y el vado arenoso del Mupamadzi (en 2021 faltaban troncos y hubo que rescatar el coche). Desde Mpika, bajada del escarpe.",
+   "riesgos": "Unas 28 cárcavas y arroyos sin puentes (2016), roca suelta en el escarpe, vados que cambian cada año, sin cobertura. Ir en convoy de dos vehículos con eslinga y planchas.",
+   "cerca": "Parque Nacional de South Luangwa (Mfuwe)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Nabwalya",
+     "url": "https://mapcarta.com/14150592",
+     "fecha": ""
+    },
+    {
+     "titulo": "Jack Zimba: Down the rugged road to Nabwalya",
+     "url": "http://jackjzimba.blogspot.com/2016/10/down-rugged-road-to-nabwalya.html",
+     "fecha": "2016-10"
+    },
+    {
+     "titulo": "Stuck in Low Gear: We drive the 05 road to Kasanka",
+     "url": "https://stuckinlowgear.com/drive-the-05-road-kasanka-national-park/",
+     "fecha": "2021-11"
+    },
+    {
+     "titulo": "Open Africa: Munyamadzi Community Bush Camp (ruta Mpika–Nabwalya–South Luangwa)",
+     "url": "https://openafrica.org/participant/munyamadzi-community-bush-camp/",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Mukungule y Mano Gate: entrada oeste de North Luangwa",
+   "tipo": "pista",
+   "lat": -11.36667,
+   "lon": 32.11667,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "julio a mediados de noviembre (el parque cierra con las lluvias)",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Parque nacional: la Ley de Fauna prohíbe introducir perros sin consentimiento escrito del Director; los guardas pueden sacrificar un perro que moleste a la fauna. Pedir permiso por escrito o dejarlo fuera.",
+   "autonomia": "Última gasolinera en Mpika (Great North Road). Dentro del parque no hay combustible; hasta Mfuwe, más de 300 km.",
+   "desc": "Mano Gate es la entrada oeste de North Luangwa, a 32 km de la aldea de Mukungule, a la que se llega desde la Great North Road unos 60 km al norte de Mpika. North Luangwa ha sido durante décadas un parque casi cerrado; desde hace pocos años se puede entrar en autoconducción. Desde aquí se baja el escarpe hacia el Amatololo Loop o se cruza el parque hasta el pontón del Luangwa.",
+   "acceso": "Pista de tierra desde la Great North Road por Mukungule. El tramo del escarpe se mejoró hacia 2022; de Mano a Ituba (70 km) se tarda menos de tres horas. Reservar campamentos en bookings@northluangwa.org. Coordenada: aldea de Mukungule (la puerta está a unos 32 km).",
+   "riesgos": "Parque con rinoceronte negro y fauna peligrosa; vados arenosos que exigen 4x4. No se recomiendan remolques. Sin cobertura.",
+   "cerca": "Parque Nacional de South Luangwa (Mfuwe)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "North Luangwa National Park: Tourism",
+     "url": "https://northluangwa.org/tourism/",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "Mapcarta: Mukungule",
+     "url": "https://mapcarta.com/14155706",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Self-driving North Luangwa National Park",
+     "url": "https://blog.tracks4africa.co.za/self-driving-north-luangwa-national-park/",
+     "fecha": "2022-04"
+    },
+    {
+     "titulo": "Zambia Tourism: North Luangwa opens up to self-drivers",
+     "url": "https://www.zambiatourism.com/north-luangwa-opens-up-to-self-drivers/",
+     "fecha": "2025-08"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Cataratas de Lufila: campamento del Amatololo Loop",
+   "tipo": "oasis",
+   "lat": -11.45966,
+   "lon": 32.27803,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "julio a octubre",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Dentro del parque nacional: perros prohibidos sin permiso escrito del DNPW.",
+   "autonomia": "Agua del río (no hay pozo en este campamento), letrina. Llevar todo el gasóleo desde Mpika.",
+   "desc": "Es el primero de los cuatro campamentos comunitarios del Amatololo Loop, en lo alto del escarpe junto a las cataratas del río Lufila, y el más adecuado para grupos pequeños. El bucle sigue el Lufila y el Luangwa y según Zambia Tourism exige un 4x4 bien equipado y experiencia fuera de pista. Se reserva en exclusiva (máximo 15 personas) a 10 USD por persona.",
+   "acceso": "Desde Mano Gate, pista de escarpe con roca y vados. Remolques desaconsejados.",
+   "riesgos": "Terreno roto en el escarpe, fauna peligrosa sin vallas, aislamiento total.",
+   "cerca": "Parque Nacional de South Luangwa (Mfuwe)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "North Luangwa National Park: Tourism (coordenadas de los campamentos)",
+     "url": "https://northluangwa.org/tourism/",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "Zambia Tourism: North Luangwa opens up to self-drivers",
+     "url": "https://www.zambiatourism.com/north-luangwa-opens-up-to-self-drivers/",
+     "fecha": "2025-08"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Mushika: campamento junto al Luangwa (Amatololo Loop)",
+   "tipo": "oasis",
+   "lat": -11.78213,
+   "lon": 32.50424,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "julio a octubre",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Dentro del parque nacional: perros prohibidos sin permiso escrito del DNPW.",
+   "autonomia": "Pozo con agua, letrina y ducha de cubo. Sin combustible.",
+   "desc": "Es el mayor de los campamentos comunitarios del bucle, con vistas al río y un insaka (cobertizo) para la sombra. Cerca están Muzungwe (junto a una laguna, bueno para aves) y Nkholo (bajo ébanos). Es la base para recorrer el fondo del valle en uno de los parques menos visitados de África austral.",
+   "acceso": "Por el Amatololo Loop desde Mano Gate, bajando el escarpe; pistas de arena y vados. El pontón del Luangwa (5 USD) comunica con la orilla este y con Mfuwe.",
+   "riesgos": "Fauna peligrosa en el campamento (sin vallas), vados, calor en octubre.",
+   "cerca": "Parque Nacional de South Luangwa (Mfuwe)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "North Luangwa National Park: Tourism (coordenadas de Mushika, Muzungwe y Nkholo)",
+     "url": "https://northluangwa.org/tourism/",
+     "fecha": "2025"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Kalabo: transbordador y arena de acceso a Liuwa Plain",
+   "tipo": "paso",
+   "lat": -14.99111,
+   "lon": 22.67889,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "mayo a noviembre; con lluvias (noviembre-abril) la llanura se inunda",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "En Kalabo no hay restricción conocida; al pasar el transbordador se entra en la zona del parque (ver Liuwa Plain).",
+   "autonomia": "Llenar en Mongu. Kaingu Lodge recomienda un bidón de 20 l extra para estancias largas en el parque.",
+   "desc": "Kalabo es el pueblo al otro lado de la llanura del Barotse, unido a Mongu desde 2016 por una calzada de 27 puentes. Tras él, un transbordador de tracción manual cruza al lado del parque. Según Kaingu Lodge, la arena entre el transbordador y la sede de African Parks es la peor de toda la visita: profunda y dura.",
+   "acceso": "Asfalto Mongu–Kalabo por la calzada; desinflar antes del transbordador (la norma del parque fija 1,6 bar como mínimo y se puede bajar a 1,2-1,4 bar si se atasca) y volver a inflar en Kalabo a la salida.",
+   "riesgos": "Atascos en arena blanda y rotura de neumáticos por bajar demasiado la presión. Llanura inundable.",
+   "cerca": "Mongu y la llanura del Barotse (Kuomboka)",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Kalabo",
+     "url": "https://en.wikipedia.org/wiki/Kalabo",
+     "fecha": ""
+    },
+    {
+     "titulo": "KaingU Safari Lodge: Liuwa Plain National Park self-drive notes",
+     "url": "https://kaingu-lodge.com/liuwa-plain-national-park-self-drive-notes-guidance/",
+     "fecha": "2021-07"
+    },
+    {
+     "titulo": "Wikipedia: Mongu (calzada del Barotse)",
+     "url": "https://en.wikipedia.org/wiki/Mongu",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Llanuras de Liuwa Plain (African Parks)",
+   "tipo": "pista",
+   "lat": -14.5,
+   "lon": 22.483,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "mayo a noviembre (migración de ñus con las primeras lluvias, noviembre)",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Parque nacional gestionado por African Parks con el DNPW: rige la prohibición legal de introducir perros sin permiso escrito del Director.",
+   "autonomia": "Sin gasolinera en el parque. Llegar con el depósito lleno desde Mongu y un bidón extra. Cinco campamentos repartidos por el parque; Katoyana y Lyangu tienen cobertura móvil.",
+   "desc": "Es un parque de 3.369 km² de pradera abierta con la segunda migración de ñus más grande de África (unos 40.000). Se recorre en autoconducción por pistas de arena que se vuelven más firmes a medida que se aleja de Kalabo. Es un 4x4 puro de horizontes infinitos y navegación por GPS, lejos de cualquier ruta turística.",
+   "acceso": "Por Kalabo y el transbordador; entradas en la sede de African Parks. La web del parque exige 4x4 de alto despeje. Coordenada: centro del parque (Wikipedia).",
+   "riesgos": "Navegación en llanura sin referencias (Tracks4Africa recomendado), arena, lluvias. Guías y escoltas comunitarios solo con reserva previa.",
+   "cerca": "Parque Nacional de Liuwa Plain",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Visit Liuwa (African Parks)",
+     "url": "https://visitliuwa.org/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Liuwa Plain National Park",
+     "url": "https://en.wikipedia.org/wiki/Liuwa_Plain_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "KaingU Safari Lodge: Liuwa Plain self-drive notes",
+     "url": "https://kaingu-lodge.com/liuwa-plain-national-park-self-drive-notes-guidance/",
+     "fecha": "2021-07"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Llanuras de Busanga (norte de Kafue): algodón negro",
+   "tipo": "paso",
+   "lat": -14.32096,
+   "lon": 25.96578,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "junio/julio a octubre; inundadas de noviembre a abril como mínimo",
+   "guia": "recomendado",
+   "perro": "no",
+   "perro_nota": "Parque nacional: perros prohibidos sin permiso escrito del DNPW.",
+   "autonomia": "No hay combustible dentro de Kafue. Últimos repostajes: Mumbwa (desde Lusaka) o Itezhi-Tezhi (al sur). Desde Musekese son al menos cuatro horas de pista.",
+   "desc": "Son las praderas inundables del río Lufupa, en el extremo noroeste de Kafue, famosas por los leones, el lechwe y las grullas carunculadas. En autoconducción solo se llega en la estación seca y el suelo de algodón negro es el obstáculo: duro y roto en seco, imposible en mojado. No se pueden visitar en el día: hay que dormir en los campamentos de la zona, que son caros.",
+   "acceso": "Por la M9 (Lusaka–Mongu), que cruza el parque, y pistas hacia el norte por la zona del Lufupa. La Spinal Road hasta Itezhi-Tezhi es buena todo el año; la Boundary Road al sur tiene tramos de arena profunda. Coordenada aproximada.",
+   "riesgos": "Algodón negro, moscas tse-tsé, pistas que cambian tras cada estación de lluvias. Entrada: 20 USD por persona y día y 15 USD por vehículo extranjero (2026).",
+   "cerca": "Parque Nacional de Kafue · llanuras de Busanga",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Zambia Tourism: Busanga Plains",
+     "url": "https://www.zambiatourism.com/destinations/national-parks/busanga-plains/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tracks4Africa: Kafue National Park offers a true wild Africa experience",
+     "url": "https://blog.tracks4africa.co.za/kafue-national-park-offers-a-true-wild-africa-experience/",
+     "fecha": "2020-12"
+    },
+    {
+     "titulo": "Wikipedia: Kafue National Park",
+     "url": "https://en.wikipedia.org/wiki/Kafue_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Khokelo Safaris: Park fees 2026 national parks in Zambia",
+     "url": "https://www.khokelosafaris.com/blog/parkfees-national-parks-in-zambia/",
+     "fecha": "2026-01"
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "Chongwe Gate: entrada de Lower Zambezi",
+   "tipo": "pista",
+   "lat": -15.70147,
+   "lon": 29.33419,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "mayo a octubre (noviembre y abril, aceptables)",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Parque nacional: perros prohibidos sin permiso escrito del DNPW. En los campings de la GMA (antes de la puerta) consultar a cada uno.",
+   "autonomia": "Abastecerse en Chirundu (hay supermercado). Sin gasolinera en la GMA ni en el parque.",
+   "desc": "Es la puerta occidental de Lower Zambezi, junto al río Chongwe, al final de la pista de la zona de caza controlada que sale de Chirundu. Desde aquí se entra a las pistas de la llanura del Zambeze entre elefantes y búfalos. La alternativa desde Lusaka es la Leopards Hill Road, que baja el escarpe con pendientes fuertes y curvas de herradura: solo para conductores muy experimentados, en convoy.",
+   "acceso": "Por la T2 asfaltada Lusaka–Chirundu (unos 140 km) y después pista de tierra y vados por la GMA; 5-7 horas en total. Entrada 2026: 25 USD por persona, 15 USD por vehículo extranjero y recargo de autoconducción de 30 USD.",
+   "riesgos": "Vados (en 2018, agua a la altura de la llanta), sin cobertura ni señales fuera de las aldeas, fauna peligrosa. La Leopards Hill Road es mucho más exigente y puede estar en obras.",
+   "cerca": "Lusaka",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/zambia/lusaka",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Lower Zambezi National Park, Chongwe Gate Office",
+     "url": "https://mapcarta.com/W330891549",
+     "fecha": ""
+    },
+    {
+     "titulo": "Expedition Conservation: Self-drive or all-inclusive safari in Lower Zambezi",
+     "url": "https://expeditionconservation.org/lower-zambezi-national-park-safari-tips/",
+     "fecha": "2021-10"
+    },
+    {
+     "titulo": "Self Drive East Africa: Lower Zambezi National Park",
+     "url": "https://www.selfdriveeastafrica.com/zambia/national-park/lower-zambezi/",
+     "fecha": "2026-07"
+    },
+    {
+     "titulo": "Stuck in Low Gear: Driving to the Lower Zambezi",
+     "url": "https://stuckinlowgear.com/driving-the-lower-zambezi-zambia/",
+     "fecha": "2018-05"
+    },
+    {
+     "titulo": "Tripadvisor: Zambia self drive (Leopards Hill Road)",
+     "url": "https://www.tripadvisor.com/ShowTopic-g293842-i9277-k14095732-Zambia_self_drive-Zambia.html",
+     "fecha": ""
+    }
+   ],
+   "n": 9
+  },
+  {
+   "name": "Kasanka: campamentos del parque de los murciélagos",
+   "tipo": "oasis",
+   "lat": -12.565,
+   "lon": 30.17788,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "todo el año; murciélagos de octubre a diciembre",
+   "guia": "no",
+   "perro": "no",
+   "perro_nota": "Parque nacional (gestionado por Kasanka Trust con el DNPW): rige la prohibición legal de perros sin permiso escrito.",
+   "autonomia": "Repostar en Serenje o Mpika. Hacia Bangweulu no hay combustible.",
+   "desc": "Kasanka es un parque pequeño (390 km²) gestionado por Kasanka Trust, célebre por los unos diez millones de murciélagos frugívoros que llegan de octubre a diciembre. La puerta es accesible sin 4x4, pero las pistas que lo unen con Lavushi Manda y Bangweulu requieren 4x4. Es la base natural antes de entrar en los humedales.",
+   "acceso": "Great North Road hasta Serenje y carretera Serenje–Samfya; desvío al sur hacia la puerta. Entrada 10 USD por persona (2021); camping 20 USD por persona (Pontoon, el más cercano a los murciélagos). Coordenada: centro del parque.",
+   "riesgos": "Pistas cerradas con lluvias (diciembre-abril) hacia Bangweulu. Tse-tsé en el miombo.",
+   "cerca": "Parque Nacional de Kasanka · migración de murciélagos",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Kasanka National Park",
+     "url": "https://mapcarta.com/14171054",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Kasanka National Park",
+     "url": "https://en.wikipedia.org/wiki/Kasanka_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Open Africa: Nsobe Sitatunga Experience, Bangweulu-Kasanka Eco-Tourism Route",
+     "url": "https://openafrica.org/route/nsobe-sitatunga-experience-bangweulukasanka-ecotourism-route/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Stuck in Low Gear: 05 road to Kasanka",
+     "url": "https://stuckinlowgear.com/drive-the-05-road-kasanka-national-park/",
+     "fecha": "2021-11"
+    }
+   ],
+   "n": 10
+  },
+  {
+   "name": "Humedales de Bangweulu: pista final de Muwele a los campamentos",
+   "tipo": "paso",
+   "lat": -11.6,
+   "lon": 30.083,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "mayo a julio para el picozapato; agosto a diciembre, más seco; campamentos cerrados de febrero a abril",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Área de gestión de fauna (GMA) gestionada por African Parks, no parque nacional; la web no dice nada de perros. Preguntar al reservar: hay fauna y aldeas pesqueras.",
+   "autonomia": "Salir de Serenje o Mpika con el depósito lleno y provisiones: en la zona no hay combustible. Nsobe tiene campamento; Shoebill Island Camp reabre el 1 de mayo.",
+   "desc": "Son 9.850 km² de llanuras inundables, pastizales y pantanos permanentes gestionados por African Parks, hogar del picozapato y del lechwe negro. El acceso por carretera termina en unos 35 km de pista desde Muwele, la última aldea (hora y media). Es uno de los destinos más remotos del recorrido por Zambia.",
+   "acceso": "Desde la Great North Road al norte de Mpika (cartel 12 km al norte del ferrocarril de Kalonje), 66 km a través de Lavushi Manda y 35 km hasta los pantanos; o por Kasanka y el lago Waka Waka, solo en seco. 4x4 de alto despeje. Entrada: 10 USD por adulto. Coordenada: centro del humedal (Wikipedia).",
+   "riesgos": "Llanura inundable, barro y navegación; aislamiento. En Shoebill Island el acceso final puede requerir canoa según la estación.",
+   "cerca": "Humedales de Bangweulu · el picozapato",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "African Parks: Visit Bangweulu",
+     "url": "https://www.africanparks.org/the-parks/bangweulu/visit-bangweulu",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Bangweulu Wetlands",
+     "url": "https://en.wikipedia.org/wiki/Bangweulu_Wetlands",
+     "fecha": ""
+    },
+    {
+     "titulo": "Open Africa: Bangweulu-Kasanka Eco-Tourism Route",
+     "url": "https://openafrica.org/route/nsobe-sitatunga-experience-bangweulukasanka-ecotourism-route/",
+     "fecha": ""
+    }
+   ],
+   "n": 11
+  },
+  {
+   "name": "Termas de Kapishya (Shiwa Ng'andu)",
+   "tipo": "oasis",
+   "lat": -11.17063,
+   "lon": 31.60039,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "todo el año (mejor en seco)",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Finca privada con camping; no hay política de mascotas publicada. Preguntar antes; hay cocodrilos en el río (el muro de la poza los separa).",
+   "autonomia": "Repostar en Mpika. Camping y chalés junto al río.",
+   "desc": "Es una poza de agua caliente natural en el bosque de galería de la finca de Shiwa Ng'andu, la mansión de estilo inglés construida en los años veinte a unos 12 km de la Great North Road entre Mpika y Chinsali. Tiene camping junto al río y es la parada de descanso clásica de los overlanders en el eje Mpika–Tanzania. Es un buen punto para reponerse antes o después de North Luangwa o de la carretera 05.",
+   "acceso": "Desvío de la Great North Road y pista de tierra por la finca. Firme de tierra transitable.",
+   "riesgos": "Pista embarrada con lluvias. Cocodrilos en el río, fuera de la poza.",
+   "cerca": "",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Atlas Obscura: Kapishya Hot Springs",
+     "url": "https://www.atlasobscura.com/places/kapishya-hot-springs",
+     "fecha": "2018-06"
+    },
+    {
+     "titulo": "Wikipedia: Shiwa Ngandu",
+     "url": "https://en.wikipedia.org/wiki/Shiwa_Ngandu",
+     "fecha": ""
+    },
+    {
+     "titulo": "iOverlander: Kapishya Hot Springs (camping)",
+     "url": "https://ioverlander.com/places/6380-kapishya-hot-springs",
+     "fecha": ""
+    }
+   ],
+   "n": 12
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Carretera 05: Mfuwe – escarpe de Muchinga – Mpika",
+   "desde": "Mfuwe",
+   "hasta": "Mpika (Great North Road)",
+   "km": 260,
+   "dias": 2,
+   "dificultad": "muy difícil",
+   "epoca": "julio a octubre",
+   "guia": "recomendado (convoy de dos vehículos)",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Es la travesía clásica que une South Luangwa con la Great North Road sin volver por Lusaka o Chipata: atraviesa el parque hacia el norte hasta la puerta de Chifungwe, sigue por la GMA de Munyamadzi hasta Nabwalya y sube el escarpe de Muchinga. Hay tramos de algodón negro, el vado arenoso del Mupamadzi y 5-12 km de lazadas de roca en reductora. Un relato de 2021 tardó unas seis horas de conducción desde la puerta hasta la Great North Road, pero la mayoría de las fuentes aconsejan partirlo.",
+   "firme": "Pista de grava ancha cerca de Mfuwe, luego dos rodadas por mopane y miombo, algodón negro, vados de arena y roca suelta en el escarpe.",
+   "autonomia": "Llenar en Mfuwe; sin servicios hasta Mpika. Consumo alto en reductora: bidones de reserva y agua para dos días.",
+   "riesgos": "Vados sin puente (unos 28 entre Nabwalya y Mpika), roturas, sin cobertura, fauna. Cruza South Luangwa: tasas del parque y prohibición de perros sin permiso escrito del DNPW.",
+   "puntos": [
+    [
+     -13.11056,
+     31.79778
+    ],
+    [
+     -13.09924,
+     31.78607
+    ],
+    [
+     -12.42145,
+     31.97575
+    ],
+    [
+     -11.85,
+     31.43333
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/zambia",
+   "fuentes": [
+    {
+     "titulo": "Stuck in Low Gear: We drive the 05 road to Kasanka",
+     "url": "https://stuckinlowgear.com/drive-the-05-road-kasanka-national-park/",
+     "fecha": "2021-11"
+    },
+    {
+     "titulo": "Jack Zimba: Down the rugged road to Nabwalya",
+     "url": "http://jackjzimba.blogspot.com/2016/10/down-rugged-road-to-nabwalya.html",
+     "fecha": "2016-10"
+    },
+    {
+     "titulo": "Mapcarta: Nabwalya",
+     "url": "https://mapcarta.com/14150592",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Mpika",
+     "url": "https://en.wikipedia.org/wiki/Mpika",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Travesía de North Luangwa: Mpika – Mano – pontón del Luangwa – Luambe – Mfuwe",
+   "desde": "Mpika",
+   "hasta": "Mfuwe",
+   "km": 390,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "julio a mediados de noviembre",
+   "guia": "no; reserva previa de campamentos y del pontón",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Cruza de oeste a este el valle del Luangwa: de la Great North Road a Mukungule y Mano Gate, bajada del escarpe, 70 km hasta Ituba, pontón sobre el Luangwa (5 USD, no apto para remolques) y pista por la jefatura de Chifunda y Luambe hasta Mfuwe. Un viajero tardó unas cuatro horas del pontón a Mpika; otros aconsejan contar con dos días desde Mfuwe. Se puede combinar con el Amatololo Loop.",
+   "firme": "Pista de tierra con tramos de escarpe mejorados hacia 2022, vados arenosos y bush track en la orilla este.",
+   "autonomia": "Gasóleo en Mpika y Mfuwe; nada entre medias (Mfuwe está a unos 220 km al sur del pontón). Bidones extra por el consumo en reductora.",
+   "riesgos": "Vados, sin cobertura (se recomienda teléfono satelital), fauna peligrosa. Las estimaciones de Google Maps no sirven: usar Tracks4Africa. Parque nacional: perros prohibidos sin permiso escrito.",
+   "puntos": [
+    [
+     -11.85,
+     31.43333
+    ],
+    [
+     -11.36667,
+     32.11667
+    ],
+    [
+     -11.45966,
+     32.27803
+    ],
+    [
+     -11.78213,
+     32.50424
+    ],
+    [
+     -12.333,
+     32.25
+    ],
+    [
+     -13.09924,
+     31.78607
+    ],
+    [
+     -13.11056,
+     31.79778
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Tracks4Africa: Self-driving North Luangwa National Park",
+     "url": "https://blog.tracks4africa.co.za/self-driving-north-luangwa-national-park/",
+     "fecha": "2022-04"
+    },
+    {
+     "titulo": "North Luangwa National Park: Tourism",
+     "url": "https://northluangwa.org/tourism/",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "Zambia Tourism: North Luangwa opens up to self-drivers",
+     "url": "https://www.zambiatourism.com/north-luangwa-opens-up-to-self-drivers/",
+     "fecha": "2025-08"
+    },
+    {
+     "titulo": "Tripadvisor: Driving across North Luangwa NP possible?",
+     "url": "https://www.tripadvisor.com/ShowTopic-g3650630-i34394-k13736937-Driving_across_North_Luangwa_NP_possible-Northern_Province.html",
+     "fecha": "2021"
+    },
+    {
+     "titulo": "Wikipedia: Luambe National Park",
+     "url": "https://en.wikipedia.org/wiki/Luambe_National_Park",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Mongu – Kalabo – Liuwa Plain",
+   "desde": "Mongu",
+   "hasta": "Liuwa Plain (campamentos del parque)",
+   "km": 100,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "mayo a noviembre",
+   "guia": "no",
+   "perro": "no",
+   "estado": "recomendada",
+   "desc": "Cruza la llanura del Barotse por la calzada de 27 puentes hasta Kalabo, pasa el río en un transbordador manual y entra en la arena del parque. El primer tramo de arena, hasta la sede de African Parks, es el peor; después las pistas se endurecen. Es la entrada a una de las grandes praderas salvajes de África, con campamentos propios.",
+   "firme": "Asfalto hasta Kalabo; arena profunda y dura tras el transbordador, luego pistas de arena más firmes por la pradera.",
+   "autonomia": "Gasóleo en Mongu; bidón de 20 l extra. Sin combustible en el parque.",
+   "riesgos": "Arena blanda (norma de presión mínima 1,6 bar; 1,2-1,4 bar si hay atasco), inundación de noviembre a abril, navegación. Perros prohibidos en el parque sin permiso.",
+   "puntos": [
+    [
+     -15.2775,
+     23.1319
+    ],
+    [
+     -14.99111,
+     22.67889
+    ],
+    [
+     -14.5,
+     22.483
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "KaingU Safari Lodge: Liuwa Plain self-drive notes",
+     "url": "https://kaingu-lodge.com/liuwa-plain-national-park-self-drive-notes-guidance/",
+     "fecha": "2021-07"
+    },
+    {
+     "titulo": "Visit Liuwa (African Parks)",
+     "url": "https://visitliuwa.org/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Mongu",
+     "url": "https://en.wikipedia.org/wiki/Mongu",
+     "fecha": ""
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Serenje – Kasanka – Bangweulu (por el lago Waka Waka)",
+   "desde": "Serenje",
+   "hasta": "Humedales de Bangweulu (Nsobe/Shoebill Island)",
+   "km": 250,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "mayo a noviembre; la variante de Waka Waka, solo en seco",
+   "guia": "recomendado",
+   "perro": "no",
+   "estado": "con condiciones",
+   "desc": "Une el parque de Kasanka con los humedales de Bangweulu por pistas de la región del Lala. Open Africa da unos 540 km de Lusaka a Kasanka y otras seis horas (más de 70 km) hasta Shoebill Island y Nsobe. African Parks describe la variante por Kasanka y el lago Waka Waka como solo de estación seca; la alternativa es la entrada por Lavushi Manda desde la Great North Road.",
+   "firme": "Asfalto Serenje–Samfya hasta el desvío; luego pistas de tierra y arena y, al final, llanura inundable.",
+   "autonomia": "Llenar en Serenje. Sin combustible en Kasanka ni en Bangweulu.",
+   "riesgos": "Pistas intransitables de diciembre a abril, barro, navegación y aislamiento. Kasanka es parque nacional (perros prohibidos sin permiso).",
+   "puntos": [
+    [
+     -13.25972,
+     30.2375
+    ],
+    [
+     -12.565,
+     30.17788
+    ],
+    [
+     -11.6,
+     30.083
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Open Africa: Bangweulu-Kasanka Eco-Tourism Route",
+     "url": "https://openafrica.org/route/nsobe-sitatunga-experience-bangweulukasanka-ecotourism-route/",
+     "fecha": ""
+    },
+    {
+     "titulo": "African Parks: Visit Bangweulu",
+     "url": "https://www.africanparks.org/the-parks/bangweulu/visit-bangweulu",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Serenje",
+     "url": "https://en.wikipedia.org/wiki/Serenje",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (actualizado el 01-06-2026, vigente a 28-07-2026) no desaconseja ninguna zona de Zambia; solo pide precaución en las zonas rurales de la frontera con la RD del Congo, que no está delimitada (riesgo de cruzarla sin querer), y desaconseja conducir de noche fuera de las ciudades. MAEC (09-06-2026) pide máxima precaución en la franja rural fronteriza con la RD del Congo, menciona vigilancia sanitaria por ébola en las fronteras con la RD del Congo y Angola y recuerda que el permiso internacional vale tres meses. Ninguna de las zonas de este archivo está en esas franjas. PERROS: la Ley de Fauna de Zambia (sección 22 según zambialaws.com; sección 19 en la ley de 1998) castiga introducir animales domésticos, perros incluidos, en un parque nacional, un parque comunitario o un santuario sin consentimiento escrito del Director, y permite a los guardas sacrificar un perro que moleste a la fauna. En la práctica: perro fuera de South y North Luangwa, Kafue, Lower Zambezi, Liuwa y Kasanka salvo permiso escrito del DNPW. TASAS 2026 (no residentes): South Luangwa y Lower Zambezi, 25 USD por persona y día; North Luangwa y Kafue, 20 USD; Kasanka, 10 USD; vehículo con matrícula extranjera de menos de 3 t, 15 USD por día; recargo de autoconducción de 30 USD en los parques principales según una fuente (Africa Travel Essentials, 03-2026) y de 30 USD por persona en Lower Zambezi según otra (2021): confirmar. Bangweulu y Liuwa (African Parks) cobran aparte. DUDAS. (1) Los kilómetros de la carretera 05 (una fuente da 401 km en total, otra 110 km solo entre Mpika y Nabwalya): los 260 km son una estimación. (2) La coordenada exacta de Mano Gate, de la puerta de Chifungwe y del pontón de North Luangwa (se usa Mukungule, a 32 km, como aproximación); en la ruta 2 se usan los campamentos de Lufila y Mushika como puntos de paso aunque el trazado directo Mano–Ituba puede no pasar por ellos. (3) Si hace falta permiso escrito del DNPW para llevar el perro solo en tránsito (por ejemplo, la carretera 05 dentro de South Luangwa) y si lo conceden. PUNTOS DE PASO: las rutas 1, 3 y 4 tienen menos de seis puntos verificados (no se encontraron coordenadas fiables de puntos intermedios); el trazado es solo orientativo. Las coordenadas de Liuwa, Busanga, Kasanka y Bangweulu son del centro de la zona. DESCARTADAS. La Leopards Hill Road (Lusaka–Lower Zambezi por el escarpe) se menciona en la ficha de Chongwe pero no como ruta: fuentes de 2021 y un foro la describen como solo para conductores muy experimentados, con obras y sin puntos de paso verificables. La franja fronteriza con la RD del Congo (Luapula, Copperbelt rural), por la advertencia del FCDO y el MAEC. Wikiloc bloquea WebFetch: solo se han enlazado los listados vistos en resultados de búsqueda (zambia, zambia/lusaka); no apareció ninguno para Muchinga, Western ni Central."
+}
