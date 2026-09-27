@@ -354,7 +354,9 @@ def render(FULL, navbar, VERSION):
     <div class="pp-sec">
       <h3>Mis viajes</h3>
       <div class="pp-row"><select id="pp-viajes" style="flex:1"></select><button type="button" class="pp-b" id="pp-cargar">Cargar</button><button type="button" class="pp-b x" id="pp-borrar">Borrar</button></div>
+      <div class="pp-row" id="pp-gact" hidden></div>
       <div class="pp-row"><input type="text" id="pp-vnombre" placeholder="Nombre del viaje" style="flex:1" autocomplete="off" data-1p-ignore data-lpignore="true"><button type="button" class="pp-b ida" id="pp-guardar">Guardar</button></div>
+      <p class="pp-ayuda" style="margin:2px 0 0">El viaje en el que trabajas se guarda solo en este navegador, aunque cierres la página. «Guardar» lo copia a «Mis viajes» para poder volver a él.</p>
       <div class="pp-row"><button type="button" class="pp-b" id="pp-nuevo">Empezar de cero</button><button type="button" class="pp-b" id="pp-exportar">Descargar</button><button type="button" class="pp-b" id="pp-traer" title="Convierte el último viaje calculado en el Planificador clásico en un viaje por puntos">Traer el viaje del Planificador clásico</button><label class="pp-b" style="cursor:pointer">Importar<input type="file" id="pp-importar" accept=".json,application/json" hidden></label></div>
     </div>
   </aside>

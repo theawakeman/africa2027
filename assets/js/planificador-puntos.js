@@ -1143,9 +1143,16 @@ function paintViajes(){
   const el = $('pp-viajes'), cur = el.value;
   el.innerHTML = n.length ? n.map(x => `<option value="${esc(x)}">${esc(x)} · ${V[x].r ? num(V[x].r.km) + ' km · ' + V[x].r.dias + ' días' : ''}</option>`).join('') : '<option value="">Aún no hay viajes guardados</option>';
   if (n.includes(cur)) el.value = cur; else if (n.includes(S.nombre)) el.value = S.nombre;
+  // Viaje con nombre: un botón guarda el progreso en él sin preguntar; el campo de texto sirve para «guardar como» otro
+  const act = S.nombre && V[S.nombre], g = $('pp-gact');
+  if (g) { g.hidden = !act;
+    if (act) { const igual = JSON.stringify(V[S.nombre].S) === JSON.stringify(S);
+      g.innerHTML = `<button type="button" class="pp-b ida" id="pp-guardar-act"${igual ? ' disabled' : ''}>Guardar cambios en «${esc(S.nombre)}»</button><small style="color:${igual ? 'var(--ink-soft)' : '#C47F17'}">${igual ? 'todo guardado' : '● cambios sin guardar'}</small>`; } }
+  $('pp-vnombre').placeholder = act ? 'Guardar como otro viaje (nombre nuevo)' : 'Nombre del viaje';
+  $('pp-guardar').textContent = act ? 'Guardar como' : 'Guardar';
 }
-function guardarViaje(){
-  const n = ($('pp-vnombre').value || S.nombre || '').trim().slice(0, 60);
+function guardarViaje(actual){
+  const n = (actual ? S.nombre : ($('pp-vnombre').value || S.nombre || '')).trim().slice(0, 60);
   if (!n) { msg('Pon un nombre al viaje.'); $('pp-vnombre').focus(); return; }
   const V = leerV(); S.nombre = n;
   V[n] = {S: JSON.parse(JSON.stringify(S)), fecha: new Date().toISOString(), r: R ? {km: Math.round(R.kmTot), dias: R.dias} : null};
@@ -1296,7 +1303,8 @@ document.addEventListener('change', e => {
 $('pp-buscar').addEventListener('submit', e => { e.preventDefault(); buscar($('pp-buscar-q').value); });
 $('pp-ord-ida').addEventListener('click', () => ordenar('ida'));
 $('pp-ord-vuelta').addEventListener('click', () => ordenar('vuelta'));
-$('pp-guardar').addEventListener('click', guardarViaje);
+$('pp-guardar').addEventListener('click', () => guardarViaje(false));
+document.addEventListener('click', e => { if (e.target.closest('#pp-guardar-act')) guardarViaje(true); });
 $('pp-cargar').addEventListener('click', cargarViaje);
 $('pp-borrar').addEventListener('click', borrarViaje);
 $('pp-exportar').addEventListener('click', exportar);

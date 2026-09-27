@@ -527,3 +527,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - La ventana de cada puesto (los del viaje y los de «Ver puestos fronterizos») tiene «+ Ida / + Vuelta».
   El puesto entra en la lista donde el viaje cambia entre sus dos países (si no, donde menos km suma), con
   0 días. La ruta cruza por ahí y ya no inserta otro puesto automático en ese cambio. Aviso rojo si está cerrado.
+- 2026-09-27 · Planificador: «Guardar cambios en «viaje»» guarda el progreso del viaje cargado sin pedir nombre (con aviso de cambios sin guardar); el campo de nombre queda para «Guardar como».
