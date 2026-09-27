@@ -79,9 +79,32 @@ function enlace(a, b){
   const d = hav(a, b);
   if (d < 1) return {pts: [a, b], km: d, real: true};
   const ka = ck(a), kb = ck(b), inv = ka > kb, key = inv ? kb + '|' + ka : ka + '|' + kb, e = ENL[key];
+  // Rodeo absurdo (pista que OpenStreetMap no enlaza o frontera cerrada que sí enlaza):
+  // se descarta y queda en línea recta con km estimados.
+  if (e && e.km > 2.5 * d + 100) return {pts: [a, b], km: d * F, real: true, rodeo: true};
   if (e) return {pts: inv ? e.p.slice().reverse() : e.p, km: e.km, real: true};
   if (!(Date.now() - (FALLO.get(key) || 0) < 60000) && !COLA.has(key)) { COLA.set(key, inv ? [b, a] : [a, b]); setTimeout(pedir, 0); }
   return {pts: [a, b], km: d * F, real: false};
+}
+// Tramo con pista conocida: si empieza (o acaba) junto a un extremo de una pista y
+// esta le acerca al destino, se sigue la pista y el resto va por carretera.
+function tramo(a, b){
+  const dab = hav(a, b);
+  for (const pi of (CFG.pistas || [])) {
+    const P = pi.pts, n = P.length;
+    for (const rev of [false, true]) {
+      const pts = rev ? P.slice().reverse() : P, E1 = pts[0], E2 = pts[n - 1];
+      if (hav(a, E1) <= 40 && hav(E2, b) < dab - 50) {
+        const r = enlace(E2, b);
+        return {pts: [a, ...pts, ...r.pts.slice(1)], km: hav(a, E1) * F + pi.km + r.km, real: r.real, rodeo: r.rodeo, pista: pi};
+      }
+      if (hav(b, E2) <= 40 && hav(a, E1) < dab - 50) {
+        const r = enlace(a, E1);
+        return {pts: [...r.pts, ...pts.slice(1), b], km: r.km + pi.km + hav(E2, b) * F, real: r.real, rodeo: r.rodeo, pista: pi};
+      }
+    }
+  }
+  return enlace(a, b);
 }
 function pedir(){
   while (VUELO < 3 && COLA.size) {
@@ -167,7 +190,7 @@ function calcular(){
   }
   // Tramos por carretera
   const tramos = [];
-  for (let i = 1; i < seq.length; i++) { const e = enlace(seq[i - 1].pos, seq[i].pos); tramos.push({a: seq[i - 1], b: seq[i], ...e, mitad: seq[i].mitad}); }
+  for (let i = 1; i < seq.length; i++) { const e = tramo(seq[i - 1].pos, seq[i].pos); tramos.push({a: seq[i - 1], b: seq[i], ...e, mitad: seq[i].mitad}); }
   // Km por país y países atravesados, en orden
   const kmPais = {}, runs = [];
   let kmTot = 0;
@@ -185,7 +208,8 @@ function calcular(){
       if (!s) continue;
       const k = seg / len * t.km;
       kmPais[s] = (kmPais[s] || 0) + k;
-      if (runs.length && runs[runs.length - 1].s === s) runs[runs.length - 1].km += k; else runs.push({s, km: k});
+      const recta = !t.real || !!t.rodeo;
+      if (runs.length && runs[runs.length - 1].s === s) runs[runs.length - 1].km += k; else runs.push({s, km: k, recta});   // recta: se entró por un tramo provisional
     }
   });
   // Un roce de menos de 10 km con otro país (carretera pegada a la frontera) no cuenta como entrada
@@ -199,10 +223,15 @@ function calcular(){
   });
   for (let i = 1; i < orden.length; i++) {
     const a = orden[i - 1], b = orden[i], e = (GRAFO[a] || []).find(([v]) => v === b);
-    if (e && e[1] === 'cerrada') avisos.push({rojo: true, t: `La carretera pasa de ${esc(nom(a))} a ${esc(nom(b))} por una frontera <strong>cerrada</strong>.`});
+    // Una línea recta provisional puede rozar un país vecino: no se da por cruzada una frontera cerrada.
+    if (e && e[1] === 'cerrada' && !runs[i].recta) avisos.push({rojo: true, t: `La carretera pasa de ${esc(nom(a))} a ${esc(nom(b))} por una frontera <strong>cerrada</strong>.`});
   }
   const sinPerro = todos.filter(p => p.perro === 'no').length;
   if (sinPerro) avisos.push({rojo: false, t: `${sinPerro} punto${sinPerro > 1 ? 's' : ''} donde el perro no puede entrar (marcados en la lista).`});
+  const pistas = [...new Set(tramos.filter(t => t.pista).map(t => t.pista))];
+  pistas.forEach(pi => avisos.push({rojo: true, t: `Tramo por <strong>${esc(pi.nombre)}</strong> (~${num(pi.km)} km aproximados): ${esc(pi.nota)}.`}));
+  const rodeos = tramos.filter(t => t.rodeo).length;
+  if (rodeos) avisos.push({rojo: true, t: `${rodeos} tramo${rodeos > 1 ? 's' : ''} sin carretera razonable en el mapa de rutas (daba un rodeo de más del doble, a menudo por una frontera cerrada o una pista sin cartografiar): en línea recta con km estimados. Revisa el paso.`});
   const aprox = tramos.filter(t => !t.real).length;
   if (aprox) avisos.push({rojo: false, t: FALLO.size ? `Sin respuesta del servidor de rutas: ${aprox} tramo${aprox > 1 ? 's' : ''} en línea recta (discontinua) con km aproximados.` : `Calculando la carretera de ${aprox} tramo${aprox > 1 ? 's' : ''}…`});
   // Días y fechas
@@ -306,7 +335,9 @@ function pintarRuta(){
   if (!R) return;
   R.tramos.forEach(t => {
     if (t.pts.length < 2 || hav(t.pts[0], t.pts[t.pts.length - 1]) < .5) return;
-    L.polyline(t.pts, {color: t.mitad === 'ida' ? '#1E7A8A' : '#C47F17', weight: 4, opacity: .85, dashArray: t.real ? null : '6 7'}).addTo(CAPA_RUTA);
+    const lin = L.polyline(t.pts, {color: t.mitad === 'ida' ? '#1E7A8A' : '#C47F17', weight: 4, opacity: .85, dashArray: t.real && !t.rodeo ? null : '6 7'}).addTo(CAPA_RUTA);
+    if (t.pista) { const P = t.pista.pts; L.polyline(P, {color: '#8B5A2B', weight: 5, opacity: .9, dashArray: '2 7', lineCap: 'round'}).bindTooltip(`Pista: ${esc(t.pista.nombre)} · ~${num(t.pista.km)} km`, {sticky: true}).addTo(CAPA_RUTA); }
+    else if (t.rodeo) lin.bindTooltip('Sin carretera razonable en el mapa de rutas: línea recta, km estimados', {sticky: true});
   });
   R.seq.filter(w => w.tipo === 'frontera').forEach(w => L.marker(w.pos, {icon: L.divIcon({className: '', html: '<div class="pp-fr"></div>', iconSize: [12, 12], iconAnchor: [6, 6]}), zIndexOffset: 300})
     .bindTooltip('Frontera: ' + esc(w.f.nombre) + ' (' + esc(nom(w.f.pais)) + ' – ' + esc(nom(w.f.otro)) + ')').addTo(CAPA_FR));

@@ -331,3 +331,14 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   (el enlace a la página del país se abre en otra pestaña).
 - Datos: `assets/js/pdi-detalle.json` (id «pais-n» → ficha del PDI, 2,8 MB), generado por
   `build.py` y cargado en segundo plano.
+
+## Planificador por puntos: Argelia → Mauritania por Hassi 75 (27-09-2026)
+
+- OpenStreetMap no enlaza la pista Hassi 75 – Bir Moghrein – Zuérat: el servidor de rutas mandaba
+  de Hassi 75 a Chinguetti por Marruecos y el Sáhara Occidental (2.250 km). Nuevo `PISTAS` en
+  `planificador_puntos.py` (trazado por el lado mauritano, ~800 km aproximados): un tramo que
+  empieza o acaba junto a un extremo sigue la pista y el resto va por carretera. Aviso rojo con
+  escolta desde Tinduf y zona roja del MAEC.
+- Cualquier resultado del servidor de más de 2,5 × la línea recta + 100 km se descarta (línea
+  recta con km estimados y aviso), también si ya estaba guardado en la caché.
+- El aviso de frontera cerrada ya no salta cuando el cruce es de una línea recta provisional.

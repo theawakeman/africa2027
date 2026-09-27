@@ -127,6 +127,20 @@ def distancia_pais(pt, geom):
 
 # Pares de países con un único paso habilitado para vehículos: los demás puntos
 # de frontera de las fichas entre esos dos países no se usan para la ruta.
+# Pistas que el servidor de rutas (OSRM/OpenStreetMap) no tiene enlazadas: sin
+# ellas manda la ruta por Marruecos y el Sáhara Occidental (2.250 km de rodeo
+# para ir de Hassi 75 a Chinguetti). El trazado sigue la pista por el lado
+# mauritano (comprobado punto a punto con africa.geo.json) y los km son
+# aproximados. Se usan cuando un tramo empieza o acaba junto a un extremo.
+PISTAS = [
+    {"id": "hassi75-zuerat",
+     "nombre": "pista Hassi 75 – Aïn Bentili – Bir Moghrein – Zuérat",
+     "nota": "sin asfalto ni servicios; escolta desde Tinduf; zona roja del MAEC en el norte de Mauritania",
+     "km": 800,
+     "pts": [[27.15, -8.44], [26.3, -8.45], [25.8, -8.6], [25.75, -9.3], [25.876, -9.549], [25.6, -10.6],
+             [25.229, -11.573], [24.2, -11.75], [23.4, -11.7], [22.739, -12.471]]},
+]
+
 PASOS_HABILITADOS = {
     frozenset({"mauritania", "sahara-occidental"}): r"guerguerat",
 }

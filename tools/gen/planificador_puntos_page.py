@@ -11,6 +11,7 @@ import data_ruta as RT
 from data_countries import C, REGION
 from presupuesto_page import datos as datos_presupuesto
 from site_common import esc, page
+from planificador_puntos import PISTAS
 
 JS = "planificador-puntos.js"
 
@@ -34,7 +35,7 @@ def config(FULL):
     ferris = [{"id": f[0], "pais": f[1], "origen": f[2], "puerto": f[3], "pos": [f[4], f[5]], "naviera": f[6],
                "h": f[7], "km_eu": f[12]} for f in RT.FERRIES]
     return {"paises": paises, "fronteras": fronteras, "ferris": ferris, "ferry_pref": RT.FERRY_PREFERIDO,
-            "salida": RT.SALIDA, "origen": RT.ORIGEN}
+            "salida": RT.SALIDA, "origen": RT.ORIGEN, "pistas": PISTAS}
 
 
 CSS = """
