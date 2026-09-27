@@ -108,6 +108,11 @@
     // Tarjetas: las del viaje arriba y en su orden; las demás, a su región por orden alfabético.
     const cards = {}; document.querySelectorAll('a.card[data-pais]').forEach(a => { cards[a.dataset.pais] = a; a.querySelectorAll('.b-orden').forEach(x => x.remove()); });
     const cont = document.querySelector('[data-viaje-cards]');
+    const blq = document.querySelector('[data-viaje-bloque]'), sinv = document.querySelector('[data-sin-viaje]');
+    if (blq) blq.hidden = false;
+    if (sinv) sinv.hidden = true;
+    // Fotos sin conexión: solo las de los países del viaje
+    document.querySelectorAll('.offline-photos[data-slugs]').forEach(b => { b.dataset.slugs = JSON.stringify(vistos.map(p => p.f)); });
     if (cont) {
       const tit = document.querySelector('[data-viaje-titulo]'), nota = document.querySelector('[data-viaje-nota]');
       if (tit) tit.textContent = 'En el orden de tu viaje · ' + V.nombre;

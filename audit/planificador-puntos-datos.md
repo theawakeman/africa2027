@@ -14,7 +14,7 @@ si algo está mal, se corrige en la ficha del país (tiempo, perro o punto de fr
 | benin | Parque Nacional de la Pendjari — DESACONSEJADO POR SEGURIDAD | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
 | benin | Cascadas de Tanougou y la cordillera de la Atacora — DESACONSEJADO POR SEGURIDAD | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
 | benin | Parque Nacional W (UNESCO, transfronterizo) — DESACONSEJADO POR SEGURIDAD | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
-| camerun | Mamfe (paso obligado de entrada) | sin pernocta | 0.5 | sin pernocta: medio día |
+| camerun | Mamfe (paso obligado desde Nigeria) | sin pernocta | 0.5 | sin pernocta: medio día |
 | camerun | Kumba y el lago cratérico de Barombi Mbo | paso, sin parada | 0.25 | parada breve |
 | camerun | Mefou · santuario de primates (Ape Action Africa) | cerrado hasta nuevo aviso; revalidar | 0 | la ficha dice que no se visita o está cerrado |
 | mozambique | Reserva Especial de Niassa · excluida por seguridad | no se visita | 0 | la ficha dice que no se visita o está cerrado |

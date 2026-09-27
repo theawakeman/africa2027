@@ -560,18 +560,21 @@ MAPA_GENERAL_ROLES = {
     "kenia": ("bajada", "subida"), "mozambique": ("subida", "variante"), "zimbabue": ("subida", "variante"),
     "botsuana": ("subida", "variante"), "sudafrica": ("subida", "subida"), "namibia": ("subida", "variante"),
 }
+# Ya no hay ruta fija: todos los recorridos de las fichas van a una sola capa,
+# apagada por defecto. «Ruta · ida» y «Ruta · vuelta» solo existen si hay un viaje
+# calculado en el Planificador (las dibuja map.js).
 MAPA_GENERAL_CAPAS = {
-    "bajada":      ("Ruta · ida",                  "#1E7A8A", False),
-    "subida":      ("Ruta · vuelta",               "#C47F17", False),
-    "variante":    ("Variantes por país",          "#5F6B72", True),
-    "alternativa": ("Ramales y alternativas",      "#9AA5AB", True),
+    "bajada":      ("Recorridos por país",         "#5F6B72", True),
+    "subida":      ("Recorridos por país",         "#5F6B72", True),
+    "variante":    ("Recorridos por país",         "#5F6B72", True),
+    "alternativa": ("Recorridos por país",         "#5F6B72", True),
 }
 # Capas encendidas al abrir cualquier mapa: el viaje, los puntos de interés y las fronteras.
 # El resto (recorridos de la ficha, variantes, hospitales, consulados, agua, combustible…) se enciende desde la leyenda.
 MAPA_FICHA_ON = ["Tu viaje", "Puntos de interés", "Fronteras"]
 MAPA_GENERAL_ON = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés", "Fronteras"]
 MAPA_GENERAL_ORDEN = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés", "4x4 y offroad", "Rutas 4x4",
-                      "Variantes por país", "Ramales y alternativas", "Fronteras", "Hospitales",
+                      "Recorridos por país", "Fronteras", "Hospitales",
                       "Consulados", "Agua de servicio", "Combustible", "Servicios"]
 
 
@@ -700,11 +703,6 @@ def render_ficha(d):
     map_inserted = False
     has_history = any(sid == "historia" for sid, _title, _inner in d["custom_sections"])
     for sid, title, inner in d["custom_sections"]:
-        if sid == "ruta" and re.search(r"\b(bajada|subida)\b", inner, re.I):
-            inner = ('<p class="notice viaje-nota">Esta sección se escribió para la ruta planificada original: '
-                     '«bajada» es la ida hacia el sur y «subida» la vuelta. En tu viaje cada recorrido se usa según el '
-                     f'orden que pongas en el <a href="{root}planificador/">Planificador</a>; el mapa de arriba dice por dónde '
-                     'entras y sales.</p>' + inner)
         body.append(sec(sid, title, inner))
         insert_here = sid == "historia" if has_history else n_sec == 2
         if insert_here:
@@ -1018,9 +1016,8 @@ def render_historia(d):
 def render_portal(countries):
     root = ""
     nav = top_nav(root)
-    ruta_slugs = [c["slug"] for c in countries if c["group"] in ("bajada", "bucle", "subida")]
+    todos_slugs = [c["slug"] for c in countries]
     n_completas = sum(1 for c in countries if c["estado"] == "completa")
-    from data_ruta import ORDEN_PLAN
 
     def tarjeta(c, n=None):
         if c["estado"] == "completa":
@@ -1036,20 +1033,18 @@ def render_portal(countries):
                 f'data-region="{REGION.get(c["slug"], "")}" data-nombre="{attr(c["name"])}">{img}<div class="body">'
                 f'<h3>{esc(c["name"])}</h3>{orden}{badge}<span class="meta">{meta}</span></div></a>')
 
-    # Sin viaje calculado en este navegador: la ruta planificada, en su orden.
-    # Con viaje, viaje.js mueve las tarjetas: las del viaje arriba y en su orden,
-    # el resto a su región.
-    por_slug = {c["slug"]: c for c in countries}
-    plan = [s for i, s in enumerate(ORDEN_PLAN) if s in por_slug and s not in ORDEN_PLAN[:i]]
+    # Sin viaje calculado en este navegador: todos los países por región.
+    # Con viaje, viaje.js sube las tarjetas del viaje arriba, en su orden,
+    # y deja el resto en su región.
     cards_html = ('<div class="viaje-portal" data-viaje-portal hidden></div>'
-                  '<h3 style="margin-top:26px" data-viaje-titulo>Ruta planificada</h3>'
-                  '<p class="figcap" data-viaje-nota>Países en el orden de la ruta planificada. Cuando calculas un viaje en el '
-                  '<a href="planificador/">Planificador</a>, aquí aparecen sus países en el orden del viaje.</p>'
-                  '<div class="cards" data-viaje-cards>'
-                  + "".join(tarjeta(por_slug[s], i + 1) for i, s in enumerate(plan)) + '</div>'
-                  '<h2 style="margin-top:34px" data-resto-titulo>Resto de países</h2>')
+                  '<div data-viaje-bloque hidden><h3 style="margin-top:26px" data-viaje-titulo>Tu viaje</h3>'
+                  '<p class="figcap" data-viaje-nota></p>'
+                  '<div class="cards" data-viaje-cards></div>'
+                  '<h2 style="margin-top:34px" data-resto-titulo>Resto de países</h2></div>'
+                  '<p class="figcap" data-sin-viaje>Todos los países, por regiones. Cuando calculas un viaje en el '
+                  '<a href="planificador/">Planificador</a>, aquí arriba aparecen sus países en el orden del viaje.</p>')
     for g, glabel, _ in REGIONES:
-        resto = sorted((c for c in countries if REGION.get(c["slug"]) == g and c["slug"] not in plan),
+        resto = sorted((c for c in countries if REGION.get(c["slug"]) == g),
                        key=lambda x: x["name"])
         cards_html += (f'<div data-region-box="{g}"{"" if resto else " hidden"}><h3 style="margin-top:26px">{esc(glabel)}</h3>'
                        f'<div class="cards" data-region-cards="{g}">{"".join(tarjeta(c) for c in resto)}</div></div>')
@@ -1059,14 +1054,14 @@ def render_portal(countries):
   <img class="bg" src="assets/img/senegal/01.jpg" alt="Delta del Saloum">
   <div class="veil"></div>
   <div class="inner">
-    <div class="kicker">EXPEDICIÓN OVERLAND · ENERO–AGOSTO 2027</div>
+    <div class="kicker">GUÍA OVERLAND · ÁFRICA POR TIERRA</div>
     <h1>África 2027</h1>
-    <p class="sub" data-viaje="portal-sub">Barcelona → Sudáfrica → Barcelona · 2 vehículos 4x4 · 3 viajeros · 1 perro</p>
+    <p class="sub" data-viaje="portal-sub">Monta tu viaje en el Planificador · 2 vehículos 4x4 · 3 viajeros · 1 perro</p>
   </div>
 </header>
 <div class="chips">
-  <div class="chip" data-viaje="salida"><span class="chip-label">SALIDA</span><b>10 ene 2027</b></div>
-  <div class="chip" data-viaje="regreso"><span class="chip-label">REGRESO</span><b>~15 ago 2027</b></div>
+  <div class="chip" data-viaje="salida"><span class="chip-label">SALIDA</span><b>Sin calcular</b></div>
+  <div class="chip" data-viaje="regreso"><span class="chip-label">REGRESO</span><b>Sin calcular</b></div>
   <div class="chip"><span class="chip-label">FICHAS COMPLETAS</span><b>{n_completas} de {len(countries)} países</b></div>
   <div class="chip"><span class="chip-label">VERSIÓN</span><b>{VERSION}</b></div>
 </div>
@@ -1076,7 +1071,7 @@ def render_portal(countries):
   <a class="card" href="planificador/"><div class="body"><h3>🧭 Planificador</h3><span class="meta">Monta el viaje eligiendo en el mapa los puntos de interés de la ida y de la vuelta: calcula la carretera, las fronteras, los ferris, los km, los días y las fechas por país, avisa de las zonas desaconsejadas y hace el presupuesto por vehículo. Crea tus propios puntos, guarda varios viajes y funciona sin conexión.</span></div></a>
   <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua de servicio y combustible. Toca un punto para ver su ficha.</span></div></a>
   <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
-  <a class="card" href="visados/"><div class="body"><h3>🛂 Visados</h3><span class="meta">Mapa y calendario para pasaporte español: sin visado, electrónico, presencial o en frontera, ajustado a los pasos terrestres de la ruta.</span></div></a>
+  <a class="card" href="visados/"><div class="body"><h3>🛂 Visados</h3><span class="meta">Mapa y calendario para pasaporte español: sin visado, electrónico, presencial o en frontera, para entrar por carretera, con los plazos de los países de tu viaje.</span></div></a>
   <a class="card" href="cpd/"><div class="body"><h3>🚙 CPD</h3><span class="meta">Mapa y auditoría país por país sobre la exigencia del Carnet de Passage para los dos vehículos.</span></div></a>
   <a class="card" href="perro/"><div class="body"><h3>🐕 El perro</h3><span class="meta">Requisitos sanitarios, documentación, fronteras, riesgos y preparación para viajar con el perro.</span></div></a>
 </div>
@@ -1084,8 +1079,8 @@ def render_portal(countries):
 <section id="paises"><h2>Fichas de país</h2>{cards_html}</section>
 <section id="offline"><h2>Uso sin conexión</h2>
 <p class="callout" style="display:block"><strong>Instalar en el móvil:</strong> abre esta página en el navegador y usa «Añadir a pantalla de inicio». La app guarda todas las fichas, mapas de puntos y textos en el teléfono y funciona sin cobertura. Las fotos de los PDIs vienen de Wikimedia Commons y otras webs: solo quedan guardadas las que ya se han visto, salvo que se descarguen antes con el botón de abajo (o el de cada país). El mapa base necesita internet la primera vez que se ve cada zona. Cuando vuelve a haber conexión, la app comprueba sola si hay cambios y avisa con «Nueva versión disponible».</p>
-{offline_box("Guardar todas las fotos de los países de la ruta planificada para verlas sin conexión", points="assets/js/points.json", slugs=ruta_slugs)}
-<p class="figcap">Son más de mil fotos (del orden de 150–300 MB). Mejor con wifi, antes de salir. Las fotos guardadas se conservan aunque la app se actualice.</p>
+{offline_box("Guardar las fotos de los países de tu viaje para verlas sin conexión", points="assets/js/points.json", slugs=todos_slugs)}
+<p class="figcap">Con un viaje calculado en el Planificador se guardan solo las de sus países; sin viaje, las de todos (varios cientos de MB). Mejor con wifi, antes de salir. Las fotos guardadas se conservan aunque la app se actualice.</p>
 </section>
 <footer>ÁFRICA 2027 · versión {VERSION} · <a href="documentacion/">documentación</a> · <a href="mapa/">mapa</a></footer>
 </main>"""
@@ -1102,10 +1097,10 @@ def render_map_page(all_points, all_lines):
     body = f"""{nav}
 <main style="max-width:1400px">
 <h2 style="margin-top:18px">Mapa general del viaje</h2>
-<p>Por defecto se ven la <strong>ruta de ida</strong>, la <strong>de vuelta</strong> y los <strong>puntos de interés</strong>. La ida y la vuelta son las del viaje calculado en el <a href="../planificador/">Planificador</a> (se parte en el punto más alejado del puerto de llegada a África); si en este navegador aún no hay ninguno, son las de la ruta planificada. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
+<p>Por defecto se ven la <strong>ruta de ida</strong>, la <strong>de vuelta</strong> y los <strong>puntos de interés</strong>. La ida y la vuelta son las del viaje calculado en el <a href="../planificador/">Planificador</a> (se parte en el punto más alejado del puerto de llegada a África); si en este navegador aún no hay ninguno, no se dibuja ninguna. El resto de capas —recorridos de cada país, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
 <p class="callout" style="display:block"><strong>Agua y combustible:</strong> la capa de agua distingue recarga confirmada o publicada, acceso condicionado, solo ducha y puntos descartados. Agua de servicio no equivale a agua potable, y una instalación con duchas no autoriza por sí sola a llenar el depósito. Abrir cada pin y reconfirmar la fuente el mismo día. Para combustible, el objetivo es no dejar tramos de más de ~500 km sin una opción confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
-<p class="figcap" id="genmap-pie">Turquesa = ida · ámbar = vuelta · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
+<p class="figcap" id="genmap-pie">Turquesa = ida y ámbar = vuelta de tu viaje · gris discontinuo = recorridos de cada país (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
 <footer>ÁFRICA 2027</footer>
 </main>
 <script>var A27_GEN = {json.dumps(cfg, ensure_ascii=False)};</script>
