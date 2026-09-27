@@ -410,3 +410,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   no se usan para calcular la ruta.
 - (27-09-2026) Panel lateral más ancho (400–480 px según pantalla) y tabla de comparación compacta: sin desplazamiento horizontal.
 - (27-09-2026) «Entradas» pasa a «Estancias» (entrar y salir, con su sello); un roce de hasta 25 km sin paradas con otro país ya no cuenta como estancia. Globo propio al pasar el ratón (o el dedo) por la línea del viaje: país, fechas, días, km y paradas.
+- (27-09-2026) Avisos enlazados: cada aviso lleva al sitio en el mapa (el punto con su globo, el país, la zona o el tramo) y nombra el país del punto; colores legibles en modo claro y oscuro (texto normal con borde rojo o ámbar).

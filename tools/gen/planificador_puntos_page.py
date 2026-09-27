@@ -99,8 +99,11 @@ CSS = """
 .pp-sum b{display:block;font-size:17px;font-variant-numeric:tabular-nums}
 .pp-sum span{font-size:11px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em}
 .pp-avisos{list-style:none;margin:6px 0 0;padding:0;font-size:12.5px}
-.pp-avisos li{padding:5px 8px;border-radius:7px;margin:4px 0;background:var(--amber-bg)}
-.pp-avisos li.rojo{background:rgba(180,58,58,.12);color:#8E2B2B}
+.pp-avisos li{padding:6px 9px;border-radius:7px;margin:5px 0;background:var(--amber-bg);color:var(--ink);border-left:4px solid var(--amber)}
+.pp-avisos li.ir{cursor:pointer}.pp-avisos li.ir:hover,.pp-avisos li.ir:focus-visible{filter:brightness(1.08);outline:2px solid var(--teal);outline-offset:1px}
+.pp-avisos li .ver{display:block;margin-top:3px;font-size:11.5px;font-weight:700;color:var(--link)}
+.pp-avisos li.rojo{background:var(--red-bg);color:var(--ink);border-left-color:var(--red)}
+.pp-avisos li.rojo strong{color:var(--red)}
 .pp-paises{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
 .pp-paises span{font-size:11.5px;border-radius:99px;padding:2px 8px;border:1px solid var(--line)}
 .pp-paises span.fuera{border-color:#B43A3A;color:#B43A3A}
