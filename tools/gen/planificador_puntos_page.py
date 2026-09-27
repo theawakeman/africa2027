@@ -38,7 +38,7 @@ def config(FULL):
                "h": f[7], "km_eu": f[12], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "gas": f[13]}
               for f in RT.FERRIES]
     return {"paises": paises, "fronteras": fronteras, "ferris": ferris, "ferry_pref": RT.FERRY_PREFERIDO,
-            "salida": RT.SALIDA, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
+            "salida": RT.SALIDA, "regreso": RT.REGRESO_PREVISTO, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
 
 
 def presupuesto(D, nombres):
@@ -133,6 +133,14 @@ CSS = """
 .pp-mkp.log{background:#1E88C7}
 .pp-pop .pp-propio{display:inline-block;font-size:11px;font-weight:700;color:#9A6410;background:#FCF1DA;border-radius:99px;padding:1px 8px;margin-bottom:6px}
 #pp-crear[aria-pressed="true"]{background:#D97B29;border-color:#D97B29;color:#fff}
+.pp-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:12px 0 0;font-family:"Archivo",sans-serif}
+.pp-kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 13px;min-width:0}
+.pp-kpi.alerta{border-color:var(--amber);background:var(--amber-bg)}
+.pp-kpi .l{font-size:10.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--teal)}
+.pp-kpi .v{font-size:24px;font-weight:800;color:var(--head);font-variant-numeric:tabular-nums;line-height:1.2;white-space:nowrap}
+.pp-kpi .s{font-size:12px;color:var(--ink-soft);line-height:1.35}
+.pp-kpi a{color:var(--teal);font-weight:700}
+@media (max-width:640px){.pp-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.pp-kpi .v{font-size:20px}}
 .pp-eur{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;background:var(--surface2);border-radius:8px;padding:8px 10px;margin:0 0 8px}
 .pp-eur b{font-size:22px;font-variant-numeric:tabular-nums;color:var(--head)}
 .pp-eur span{font-size:12px;color:var(--ink-soft);flex:1}
@@ -183,6 +191,7 @@ def render(FULL, navbar, VERSION):
 <main style="max-width:1500px">
 <h2 style="margin-top:16px">Planificador por puntos <small style="font-size:13px;color:var(--amber);letter-spacing:.1em">BETA</small></h2>
 <p class="pp-ayuda"><b>1.</b> Toca un país para ver sus puntos de interés. <b>2.</b> Toca un punto y añádelo a la <b style="color:#1E7A8A">ida</b> o a la <b style="color:#C47F17">vuelta</b>. <b>3.</b> Ordena arrastrando en la lista. La carretera, las fronteras, los km y los días salen solos. Clic derecho (o mantener pulsado) en cualquier sitio del mapa = «pasar por aquí». <button type="button" class="pp-b" id="pp-crear" aria-pressed="false">★ Crear un punto</button> para añadir un sitio tuyo (PDI, agua, camping, taller…): la app completa sola fotos, enlaces, servicios y clima. Tus viajes de esta página se guardan aparte del Planificador actual.</p>
+<div class="pp-kpis" id="pp-kpis" aria-live="polite"></div>
 <div class="pp-wrap">
   <div id="pp-mapa" role="application" aria-label="Mapa: toca países y puntos para montar el viaje"></div>
   <aside class="pp-panel" aria-label="Viaje">

@@ -383,3 +383,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   («país-n») llega, sustituye a la local también en los viajes.
 - Todo punto creado lleva `propio.revisar = true`: etiqueta «creado por ti · por revisar» en la
   ficha y lista en `audit/pdi-por-revisar.md`.
+- (27-09-2026) Cifras clave arriba a todo el ancho: km por vehículo, días y regreso (frente al previsto), países, puntos, presupuesto y avisos.

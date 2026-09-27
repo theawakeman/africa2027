@@ -324,6 +324,23 @@ function presupuesto(R){
   });
   return {veh, Rr, total, aval, cat, filas, ferris, visPP, tasas, nPers, km: litros, desv, gastos, perros, A, ajustado: Object.keys(A).length > 0};
 }
+// Cifras clave del viaje, arriba y a todo el ancho (como en el Planificador actual)
+function pintarKPIs(){
+  const el = $('pp-kpis'); if (!el) return;
+  if (!R || !R.todos.length) { el.innerHTML = '<div class="pp-kpi" style="grid-column:1/-1"><div class="s">Toca un país en el mapa y añade puntos a la ida o a la vuelta: aquí verás los km, los días, la fecha de regreso, los países y el presupuesto del viaje.</div></div>'; return; }
+  const B = R.bud, kmT = R.kmTot + R.kmEU, reg = addDays(S.salida, R.dias), prev = new Date((CFG.regreso || S.salida) + 'T00:00:00Z');
+  const dif = Math.round((reg - prev) / 864e5), act = new Set(S.paises);
+  const vis = [...new Set(R.runs.filter(r => r.puntos.length).map(r => r.s))], paso = [...new Set(R.orden)].filter(s => !vis.includes(s));
+  const entradas = R.runs.length, diasPuntos = R.todos.reduce((t, p) => t + diasDe(p), 0);
+  const rojos = R.avisos.filter(a => a.rojo).length;
+  el.innerHTML = `
+    <div class="pp-kpi"><div class="l">Km por vehículo</div><div class="v">${num(kmT)}</div><div class="s">${num(kmT / Math.max(1, R.dias))} km de media al día${R.kmEU ? ' · ' + num(R.kmEU) + ' por Europa' : ''}</div></div>
+    <div class="pp-kpi ${dif > 0 ? 'alerta' : ''}"><div class="l">Días · regreso</div><div class="v">${num(R.dias)} días</div><div class="s">${fecha(addDays(S.salida, 0), true)} → <strong>${fecha(reg, true)}</strong><br>${dif > 0 ? num(dif) + ' días después' : num(-dif) + ' días antes'} del regreso previsto (${fecha(prev, true)})</div></div>
+    <div class="pp-kpi"><div class="l">Países</div><div class="v">${vis.length}</div><div class="s">con paradas · ${paso.length} más de paso · ${entradas} entradas en total</div></div>
+    <div class="pp-kpi"><div class="l">Puntos</div><div class="v">${R.todos.length}</div><div class="s">${R.ida.length} a la ida · ${R.vuelta.length} a la vuelta · ${num(diasPuntos, 1).replace(/,0$/, '')} días parado</div></div>
+    <div class="pp-kpi"><div class="l">Presupuesto total</div><div class="v">${B ? eur(B.total) : '—'}</div><div class="s">${B ? eur(B.total / Math.max(1, B.nPers)) + ' por persona · ' + eur(B.total / Math.max(1, R.dias)) + ' al día · <a href="#pp-bud">desglose</a>' : ''}</div></div>
+    <div class="pp-kpi ${rojos ? 'alerta' : ''}"><div class="l">Avisos</div><div class="v">${R.avisos.length}</div><div class="s">${rojos ? rojos + ' importantes (en rojo en el panel)' : 'ninguno importante'}${B ? ' · combustible ' + eur(B.cat.comb) + ' · visados ' + eur(B.cat.vis) : ''}</div></div>`;
+}
 function pintarPresupuesto(){
   const B = R && R.bud; if (!B || !$('pp-bud')) return;
   const hay = R.todos.length > 0;
@@ -588,7 +605,7 @@ function pintar(){
   }
   $('pp-salida').value = S.salida || CFG.salida; $('pp-kmdia').value = S.kmdia; $('pp-margen').value = S.margen;
   if (MAP) { estiloPaises(); pintarPuntos(); pintarSel(); pintarRuta(); }
-  pintarPresupuesto(); pintarWeb();
+  pintarKPIs(); pintarPresupuesto(); pintarWeb();
   paintViajes();
 }
 
