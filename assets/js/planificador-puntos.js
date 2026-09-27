@@ -428,7 +428,7 @@ function pintarZonas(){
   if (!on) { MAP.removeLayer(CAPA_Z); return; }
   ZONAS.forEach(z => { const col = z.nivel === 'rojo' ? '#B43A3A' : '#D97B29';
     L.polygon(z.polys.map(p => p.rs), {color: col, weight: 1, dashArray: '4 3', fillColor: col, fillOpacity: z.nivel === 'rojo' ? .22 : .14, pane: 'zonas'})
-      .bindTooltip(`${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'} · ${esc(nom(z.pais))}: ${esc(z.nombre)}`, {sticky: true})
+      .bindTooltip(`<strong>${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'} · ${esc(nom(z.pais))}</strong><br>${esc(z.nombre.length > 70 ? z.nombre.slice(0, 68).replace(/\s+\S*$/, '') + '…' : z.nombre)}<br><small>Toca para ver el aviso</small>`, {sticky: true, className: 'pp-tip', direction: 'top', offset: [0, -8]})
       .on('click', ev => { L.DomEvent.stop(ev); if (CREANDO) { crearEn(ev.latlng); return; } popZona(z, ev.latlng); })
       .on('contextmenu', ev => { L.DomEvent.stop(ev); libre(ev.latlng); })
       .addTo(CAPA_Z); });
