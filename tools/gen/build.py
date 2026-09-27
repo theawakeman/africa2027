@@ -36,6 +36,12 @@ from data_countries import C, GROUP_LABELS, REGION, REGION_LABELS, REGIONES
 from recorridos import etiqueta as etiqueta_recorrido, descripcion as descripcion_recorrido, subtitulo as subtitulo_neutro
 
 VERSION = datetime.datetime.now().strftime("%Y%m%d-%H%M")
+
+
+def huella(ruta, n=10):
+    """Huella corta del contenido (sirve de ?v= y para que el PWA solo baje lo que cambia)."""
+    import hashlib
+    return hashlib.sha1(Path(ruta).read_bytes()).hexdigest()[:n]
 TODAY = "12 de septiembre de 2026"
 SITE_URL = "https://theawakeman.github.io/africa2027/"
 
@@ -711,7 +717,7 @@ def render_ficha(d):
                     callout("", "Control de consistencia", d["matrix_note"])
                     + table(("Nombre exacto", "Categoría", "Icono / color", "Coordenadas"), matrix_rows, cls="num")))
 
-    body.append(f'<footer>ÁFRICA 2027 · Ficha de país {esc(d["name"])} · Revisión {esc(d["revision"])} · versión {VERSION} · <a href="{root}">Portal</a> · <a href="{root}mapa/">Mapa general</a></footer></main>')
+    body.append(f'<footer>ÁFRICA 2027 · Ficha de país {esc(d["name"])} · Revisión {esc(d["revision"])} · <a href="{root}">Portal</a> · <a href="{root}mapa/">Mapa general</a></footer></main>')
     body.append(MODAL_HTML)
     body.append(MODAL_JS)
     body.append(CAROUSEL_JS)
@@ -758,7 +764,7 @@ def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota
 <main>
 <p style="margin-top:14px">{badge}</p>
 <section id="estado" style="margin-top:10px"><h2>Estado de planificación</h2>{inner}</section>
-<footer>ÁFRICA 2027 · {esc(name)} · borrador · versión {VERSION} · <a href="{root}">Portal</a></footer>
+<footer>ÁFRICA 2027 · {esc(name)} · borrador · <a href="{root}">Portal</a></footer>
 </main>"""
     return page(root, f"{name} · África 2027", body)
 
@@ -839,7 +845,7 @@ def render_historia(d):
     body = (hero + "<main>" + audio_bar +
             f'<article id="historia-article" class="historia-article"><p>{esc(d.get("historia_resumen",""))}</p>{secciones_html}</article>' +
             fuentes_html +
-            f'<footer>ÁFRICA 2027 · Historia de {esc(d["name"])} · versión {VERSION} · '
+            f'<footer>ÁFRICA 2027 · Historia de {esc(d["name"])} · '
             f'<a href="{root}paises/{slug}/">Volver a la ficha</a> · <a href="{root}">Portal</a></footer></main>')
 
     return page(root, f"Historia de {d['name']} · África 2027", nav + body + AUDIO_JS)
@@ -936,7 +942,7 @@ def render_map_page(all_points, all_lines):
 <p class="callout" style="display:block"><strong>Agua y combustible:</strong> la capa de agua distingue recarga confirmada o publicada, acceso condicionado, solo ducha y puntos descartados. Agua de servicio no equivale a agua potable, y una instalación con duchas no autoriza por sí sola a llenar el depósito. Abrir cada pin y reconfirmar la fuente el mismo día. Para combustible, el objetivo es no dejar tramos de más de ~500 km sin una opción confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
 <p class="figcap" id="genmap-pie">Turquesa = ida · ámbar = vuelta · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
-<footer>ÁFRICA 2027 · versión {VERSION}</footer>
+<footer>ÁFRICA 2027</footer>
 </main>
 <script>var A27_GEN = {json.dumps(cfg, ensure_ascii=False)};</script>
 <script>window.addEventListener("load", function(){{ if (typeof L !== "undefined" && typeof a27Map === "function") a27Map("genmap", A27_GEN); }});</script>"""
@@ -1168,7 +1174,7 @@ def render_cpd():
 
     body = (nav + hero + '<main style="max-width:1200px">' + conclusion + mapa + bloques
             + coste + disputa + decision + fuentes
-            + f"<footer>ÁFRICA 2027 · versión {VERSION}</footer></main>"
+            + f"<footer>ÁFRICA 2027</footer></main>"
             + f'<script>var A27_CPD = {json.dumps(cfg, ensure_ascii=False)};</script>'
             + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
               '&& typeof a27CpdMap === "function") a27CpdMap("cpdmap", A27_CPD); });</script>')
@@ -1340,7 +1346,7 @@ def render_visados():
 
     body = (nav + hero + '<main style="max-width:1200px">' + conclusion + mapa + ruta
             + alternativas + calendario + criterio
-            + f'<footer>ÁFRICA 2027 · Visados · auditoría {esc(AUDIT_DATE)} · versión {VERSION}</footer></main>'
+            + f'<footer>ÁFRICA 2027 · Visados · auditoría {esc(AUDIT_DATE)}</footer></main>'
             + f'<script>var A27_VISAS = {json.dumps(cfg, ensure_ascii=False)};</script>'
             + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
               '&& typeof a27VisaMap === "function") a27VisaMap("visamap", A27_VISAS); });</script>')
@@ -1722,7 +1728,7 @@ def render_docs():
 {s(9,"starlink","Starlink Roam", starlink)}
 {s(10,"seguridad","Protocolo de seguridad y conducción", seguridad)}
 {s(11,"gpx","GPX y navegación", gpx)}
-<footer>ÁFRICA 2027 · Documentación general · versión {VERSION} · <a href="{root}">Portal</a></footer>
+<footer>ÁFRICA 2027 · Documentación general · <a href="{root}">Portal</a></footer>
 </main>"""
     return page(root, "Documentación general · África 2027", body)
 
@@ -1948,8 +1954,8 @@ def main():
         # marcado nuevo del carrusel/mapa con CSS o JavaScript antiguos.
         for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js",
                       "assets/js/visamap.js", "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js",
-                      "assets/js/viaje.js", "assets/js/planificador-puntos.js"):
-            html_text = html_text.replace(asset + '"', asset + f'?v={VERSION}"')
+                      "assets/js/viaje.js", "assets/js/planificador-puntos.js", "assets/js/perromap.js"):
+            html_text = html_text.replace(asset + '"', asset + f'?v={huella(SITE / asset)}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)
         f.write_text(html_text, encoding="utf-8")
@@ -1967,30 +1973,71 @@ def main():
         ],
     }, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # service worker: precache every site file
-    precache = ["./"]
-    EXCLUDE_DIRS = {"tools", ".github", "content", ".git", "tmp", "_to_delete", "_incoming", "audit", "Claude outputs"}
-    for f in sorted(SITE.rglob("*")):
-        if (f.is_file() and not EXCLUDE_DIRS.intersection(f.parts)
-                and not f.name.startswith(".") and f.name != "sw.js"):
-            rel = "./" + f.relative_to(SITE).as_posix()
-            precache.append(rel)
-            if rel.endswith("/index.html"):
-                precache.append(rel[: -len("index.html")])
-    ext_imgs = sorted({photo["img"] for d in FULL.values() for p in d["pois"]
-                       for photo in poi_photos(p) if str(photo["img"]).startswith("http")})
-    sw = ("const VERSION = 'a27-" + VERSION + "';\nconst PRECACHE = " + json.dumps(precache) + ";\nconst EXT = " + json.dumps(ext_imgs) + ";\n" + r"""
+    # Service worker. Solo se guarda por adelantado la «carcasa» (páginas, CSS,
+    # JS y datos pequeños); fotos, KML y el panel de edición se guardan al usarlos.
+    # Cada entrada lleva la huella de su contenido: al publicar una versión nueva,
+    # el PWA copia de la caché anterior lo que no ha cambiado y solo baja el resto.
+    PRECACHE_DIRS = ("assets/css/", "assets/js/", "assets/vendor/", "assets/icons/")
+    PRECACHE_FUERA = {"assets/js/points.json"}          # 3 MB: solo para «guardar fotos»
+    versionados = {"assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js", "assets/js/visamap.js",
+                   "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js", "assets/js/viaje.js",
+                   "assets/js/planificador-puntos.js", "assets/js/perromap.js"}
+    precache = {}
+    for rel in sorted(pages):
+        if rel == "admin/index.html" or not (SITE / rel).exists():
+            continue
+        clave = "./" + (rel[: -len("index.html")] if rel.endswith("index.html") else rel)
+        precache[clave] = huella(SITE / rel)
+    for f in sorted(SITE.joinpath("assets").rglob("*")):
+        rel = f.relative_to(SITE).as_posix()
+        if f.is_file() and rel.startswith(PRECACHE_DIRS) and rel not in PRECACHE_FUERA and not f.name.startswith("."):
+            h = huella(f)
+            precache["./" + rel + (f"?v={h}" if rel in versionados else "")] = h
+    precache["./manifest.webmanifest"] = huella(SITE / "manifest.webmanifest")
+    sw = ("const VERSION = 'a27-" + VERSION + "';\nconst PRECACHE = " + json.dumps(precache, indent=0) + ";\n" + r"""
+const MAPA = './__a27-huellas.json';
+const FIJAS = ['a27-tiles-esri', 'a27-fotos'];
+const hex = buf => Array.from(new Uint8Array(buf), b => b.toString(16).padStart(2, '0')).join('');
 self.addEventListener('install', e => {
-  // Activar en cuanto la carcasa local coherente esté lista. Las imágenes
-  // externas se cachean al usarlas y no bloquean una corrección de interfaz.
-  e.waitUntil(caches.open(VERSION)
-    .then(c => Promise.allSettled(PRECACHE.map(u => c.add(u))))
-    .then(() => self.skipWaiting()));
+  e.waitUntil((async () => {
+    const nueva = await caches.open(VERSION);
+    // Caché de la versión anterior con su mapa de huellas (la más reciente primero).
+    let vieja = null, antes = {};
+    const previas = (await caches.keys()).filter(k => k.startsWith('a27-') && k !== VERSION && !FIJAS.includes(k)).reverse();
+    for (const k of previas) {
+      const c = await caches.open(k), m = await c.match(MAPA);
+      if (m) { vieja = c; antes = await m.json().catch(() => ({})); break; }
+    }
+    const urls = Object.keys(PRECACHE), guardado = {};
+    let i = 0;
+    const obrero = async () => {
+      while (i < urls.length) {
+        const u = urls[i++], h = PRECACHE[u];
+        try {
+          if (vieja && antes[u] === h) {
+            const r = await vieja.match(u);
+            if (r) { await nueva.put(u, r); guardado[u] = h; continue; }
+          }
+          // cache:'reload' salta la caché HTTP del navegador (GitHub la guarda 10 min).
+          const res = await fetch(new Request(u, {cache: 'reload'}));
+          if (!res.ok) continue;
+          const buf = await res.clone().arrayBuffer();
+          const ok = hex(await crypto.subtle.digest('SHA-1', buf)).slice(0, h.length) === h;
+          await nueva.put(u, res);
+          if (ok) guardado[u] = h;     // si el CDN aún servía la copia vieja, se vuelve a pedir la próxima vez
+        } catch (_) {}
+      }
+    };
+    await Promise.all(Array.from({length: 6}, obrero));
+    await nueva.put(MAPA, new Response(JSON.stringify(guardado), {headers: {'Content-Type': 'application/json'}}));
+    await self.skipWaiting();
+  })());
 });
 self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && k !== 'a27-tiles-esri' && k !== 'a27-fotos').map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION && !FIJAS.includes(k)).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 self.addEventListener('message', e => { if (e.data === 'skip') self.skipWaiting(); });
+const guardar = (nombre, clave, res) => { if (res && (res.ok || res.type === 'opaque')) { const copia = res.clone(); caches.open(nombre).then(c => c.put(clave, copia)); } return res; };
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
@@ -2000,35 +2047,42 @@ self.addEventListener('fetch', e => {
     e.respondWith(caches.open('a27-tiles-esri').then(c => c.match(req).then(m => m || fetch(req).then(res => { if (res.ok) c.put(req, res.clone()); return res; }).catch(() => new Response('', {status: 408})))));
     return;
   }
-  if (req.mode === 'navigate' || (url.origin === location.origin && url.pathname.endsWith('.html'))) {
-    e.respondWith(fetch(req).then(res => { const copy = res.clone(); caches.open(VERSION).then(c => c.put(req, copy)); return res; })
-      .catch(() => caches.match(req, {ignoreSearch: true}).then(m => m || caches.match('./index.html'))));
+  const propio = url.origin === location.origin;
+  // Páginas: siempre de la red (revalidando la caché HTTP); sin red, la copia guardada.
+  if (req.mode === 'navigate' || (propio && url.pathname.endsWith('.html'))) {
+    const clave = url.origin + url.pathname.replace(/index\.html$/, '');
+    e.respondWith(fetch(clave + url.search, {cache: 'no-cache', credentials: 'same-origin'}).then(res => {
+      if (res.redirected) return Response.redirect(res.url, 302);   // /pais → /pais/ (enlaces relativos)
+      return res.ok ? guardar(VERSION, clave, res) : res;
+    }).catch(() => caches.match(clave).then(m => m || caches.match('./'))));
     return;
   }
-  // CSS y JavaScript deben corresponder siempre al HTML que acaba de llegar.
-  // Si no hay red, se conserva la copia offline de la misma versión.
-  if (url.origin === location.origin && (req.destination === 'style' || req.destination === 'script')) {
-    e.respondWith(fetch(req).then(res => {
-      const copy = res.clone();
-      caches.open(VERSION).then(c => c.put(req, copy));
-      return res;
-    }).catch(() => caches.match(req, {ignoreSearch: true})));
+  if (propio) {
+    const clave = url.origin + url.pathname;
+    // ?v=huella: el contenido no cambia nunca para esa URL.
+    if (url.searchParams.has('v')) {
+      e.respondWith(caches.match(req).then(m => m || fetch(req).then(res => guardar(VERSION, req, res))
+        .catch(() => caches.match(clave, {ignoreSearch: true}))));
+      return;
+    }
+    // Datos y CSS/JS sin huella: de la red si hay (revalidando); sin red, la copia de la versión.
+    if (url.pathname.endsWith('.json') || req.destination === 'style' || req.destination === 'script') {
+      e.respondWith(fetch(req, {cache: 'no-cache'}).then(res => guardar(VERSION, clave, res))
+        .catch(() => caches.match(clave, {ignoreSearch: true})));
+      return;
+    }
+    // Fotos propias y el resto (KML, iconos…): se guardan al verlas, en una caché que sobrevive a las versiones.
+    const fija = req.destination === 'image' || url.pathname.includes('/assets/img/');
+    e.respondWith(caches.match(clave, {ignoreSearch: true}).then(m => m || fetch(req).then(res => guardar(fija ? 'a27-fotos' : VERSION, clave, res))));
     return;
   }
   // Fotos externas (Commons y otras webs): caché propia que no se borra al actualizar la app.
-  if (req.destination === 'image' && url.origin !== location.origin) {
-    e.respondWith(caches.match(req).then(m => m || fetch(req).then(res => {
-      if (res.ok || res.type === 'opaque') { const copy = res.clone(); caches.open('a27-fotos').then(c => c.put(req, copy)); }
-      return res;
-    })));
+  if (req.destination === 'image') {
+    e.respondWith(caches.match(req).then(m => m || fetch(req).then(res => guardar('a27-fotos', req, res))));
     return;
   }
-  e.respondWith(caches.match(req, {ignoreSearch: true}).then(m => m || fetch(req).then(res => {
-    if ((res.ok || res.type === 'opaque') && (url.origin === location.origin || req.destination === 'image' || url.hostname.includes('gstatic') || url.hostname.includes('googleapis'))) {
-      const copy = res.clone(); caches.open(VERSION).then(c => c.put(req, copy));
-    }
-    return res;
-  })));
+  e.respondWith(caches.match(req).then(m => m || fetch(req).then(res =>
+    (url.hostname.includes('gstatic') || url.hostname.includes('googleapis') || url.hostname.includes('unpkg') || url.hostname.includes('cdnjs') || url.hostname.includes('jsdelivr')) ? guardar(VERSION, req, res) : res)));
 });
 """)
     (SITE / "sw.js").write_text(sw, encoding="utf-8")
@@ -2065,7 +2119,7 @@ self.addEventListener('fetch', e => {
     # La reconstrucción no se considera válida si altera el diseño aprobado
     # de las fichas o el estado inicial de la leyenda del mapa.
     subprocess.run([sys.executable, str(SITE / "tools/validate_ui_contract.py")], check=True)
-    print("pages:", len(pages), "| precache:", len(precache), "| version:", VERSION)
+    print("pages:", len(pages), "| precache:", len(precache), f"({sum((SITE / (k[2:].split('?')[0] or 'index.html') if not k.endswith('/') else SITE / k[2:] / 'index.html').stat().st_size for k in precache) / 1e6:.1f} MB)", "| version:", VERSION)
 
 if __name__ == "__main__":
     main()

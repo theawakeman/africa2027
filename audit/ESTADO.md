@@ -305,3 +305,18 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   OSRM compartiendo caché con el Planificador, km y entradas por país, días y fechas, avisos
   (conflicto, frontera cerrada, país no marcado, perro) y viajes guardados aparte
   (`a27pp-estado-v1`, `a27pp-viajes-v1`). Pendiente de que David lo pruebe.
+
+## Actualización del PWA (27-09-2026)
+
+- Antes, cada publicación obligaba a bajar 322 archivos (50,8 MB, las páginas por duplicado:
+  `x/` y `x/index.html`) y la versión nueva no se activaba hasta tenerlos todos; además la
+  precarga podía guardar copias viejas de la caché HTTP de GitHub (10 min).
+- Ahora `sw.js` precarga solo la carcasa (142 entradas, 19 MB, ~5 MB comprimidos): páginas,
+  CSS, JS, datos, iconos. Fotos, KML, `points.json` y el panel de edición se guardan al usarlos
+  (fotos en `a27-fotos`, que sobrevive a las versiones).
+- Cada entrada lleva la huella SHA-1 de su contenido; al instalar, el PWA copia de la versión
+  anterior lo que no cambia y baja el resto con `cache: 'reload'`, comprobando la huella.
+  `?v=` de CSS/JS es ahora la huella del archivo. La versión solo aparece en el portal, así que
+  una publicación sin cambios en las fichas baja unos pocos KB.
+- Páginas: red primero revalidando (`no-cache`); `?v=`: caché primero; JSON y CSS/JS sin huella:
+  red primero. La primera actualización a este sistema aún baja la carcasa entera una vez.

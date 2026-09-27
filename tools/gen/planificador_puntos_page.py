@@ -146,7 +146,7 @@ def render(FULL, navbar, VERSION):
   </aside>
 </div>
 <div id="pp-msg" role="status" aria-live="polite" hidden></div>
-<footer>ÁFRICA 2027 · Planificador por puntos (beta) · versión {VERSION}</footer>
+<footer>ÁFRICA 2027 · Planificador por puntos (beta)</footer>
 </main>
 <script>var A27_PP = {json.dumps(cfg, ensure_ascii=False, separators=(",", ":"))};</script>
 <script src="{root}assets/vendor/leaflet.js"></script>

@@ -54,7 +54,11 @@ require("assets/css/site.css?v=" in map_html, "falta versionar el CSS")
 require("assets/js/map.js?v=" in map_html, "falta versionar el JavaScript del mapa")
 require("self.skipWaiting()" in sw, "el PWA no activa automáticamente la versión coherente")
 require("req.destination === 'style' || req.destination === 'script'" in sw,
-        "CSS y JavaScript deben usar red primero")
+        "CSS y JavaScript sin huella deben usar red primero")
+require("url.searchParams.has('v')" in sw and "crypto.subtle.digest" in sw,
+        "el PWA debe guardar por huella y bajar solo lo que cambia")
+for forbidden in ("./assets/img/", "./assets/kml/", "./admin/", "points.json", "index.html\""):
+    require(forbidden not in sw, f"la precarga no debe incluir {forbidden}")
 for forbidden in ("./.DS_Store", "./tmp/", "./_to_delete/", "./_incoming/"):
     require(forbidden not in sw, f"la precaché no debe incluir {forbidden}")
 

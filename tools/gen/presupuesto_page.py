@@ -341,7 +341,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     "Los valores que cambies se guardan solo en este navegador. La hoja de cálculo del proyecto sigue siendo la referencia: los botones de descarga sirven para pasar los números.",
 ])}
 </section>
-<footer>ÁFRICA 2027 · Planificador · valores iniciales del {esc(P.FECHA)} · versión {VERSION}</footer>
+<footer>ÁFRICA 2027 · Planificador · valores iniciales del {esc(P.FECHA)}</footer>
 </main>
 <script>var A27_BUDGET = {json.dumps(D, ensure_ascii=False, separators=(",", ":"))};</script>
 <script src="{root}assets/vendor/leaflet.js"></script>
