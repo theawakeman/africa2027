@@ -493,3 +493,18 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   también al cambiar content/offroad.
 - Globos de las rutas 4x4 y de los puntos 4x4 más cortos y en varias filas (nombre / km · dificultad);
   ventana del punto 4x4 en los mapas resumida a una frase.
+
+## Fotos de 4x4, creador con GPS y Wikipedia elegible, pistas a mano y Sáhara Occidental (27-09-2026)
+
+- 261 fotos de Wikimedia Commons en 156 puntos y rutas 4x4 (hasta 3 por punto): buscadas por cercanía
+  (≤10 km) y filtradas por nombre del lugar o paisaje; fuera fauna, flora, edificios y documentos.
+  Marcadas `auto: true` con la distancia: la ficha dice «foto de la zona, a X km». Se pueden quitar las
+  que no sean del sitio con «Añadir fotos» → × en «Ya publicadas» → Publicar. 202 ficheros comprobados.
+  Unos 190 puntos remotos siguen sin foto en Commons.
+- Creador de puntos: campo de coordenadas GPS editable (decimales, grados-minutos-segundos o enlace de
+  Google Maps). Wikipedia: busca por el nombre escrito y por cercanía, puntúa (fuera aeropuertos,
+  colegios, estaciones…) y deja elegir otro artículo en el paso 2.
+- Planificador: botón 〰 en cada punto de la lista = llegar por pista, en línea recta (km × 1,3), sin
+  buscar carretera; con varios «pasar por aquí» se dibuja la pista a mano.
+- assets/js/africa.geo.json: Marruecos traía dentro el Sáhara Occidental (Dajla o Guerguerat salían como
+  Marruecos). `tools/gen/fix_sahara.py` lo separa por el paralelo 27°40' N.

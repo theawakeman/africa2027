@@ -87,6 +87,7 @@
 .pp-gpx{list-style:none;margin:6px 0 0;padding:0;font-size:13px}
 .pp-gpx li{display:flex;gap:6px;align-items:center;border-left:4px solid #7B3FA0;padding:3px 0 3px 8px;margin:4px 0}
 .pp-gpx li span{flex:1;min-width:0}.pp-gpx li small{display:block;color:var(--ink-soft)}
+.pp-recto{font-weight:700;color:#8B5A2B}.pp-recto.on{background:#8B5A2B;border-color:#8B5A2B;color:#fff}
 .pp-mk4{width:14px;height:14px;background:#D4A017;border:2px solid #5C4300;transform:rotate(45deg);border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.35)}
 .pp-pop .pp-r4{font-size:12.5px;line-height:1.4;margin:4px 0}
 .pp-vd{display:inline-block;border-left:4px solid #9AA4AA;padding:1px 0 1px 7px;margin:3px 0;font-size:12.5px;color:var(--ink,#1F2A30)}
@@ -190,7 +191,7 @@ table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);backgrou
 <nav class="nav"><a class="brand" href="../">ÁFRICA 2027</a><span class="brand" style="padding-left:0">· Planificador</span><a href="../">Portal</a><a href="../mapa/">Mapa</a><a href="../documentacion/">Documentación</a><a href="../visados/">Visados</a><a href="../cpd/">CPD</a><a href="../perro/">El perro</a><a href="#pp-bud">Presupuesto</a><a href="#criterio">Criterio</a><a href="#fronteras">Fronteras</a><a href="../planificador-clasico/">Clásico</a></nav>
 <main style="max-width:1500px">
 <h2 style="margin-top:16px">Planificador</h2>
-<p class="pp-ayuda"><b>1.</b> Toca un país para ver sus puntos de interés. <b>2.</b> Toca un punto y añádelo a la <b style="color:#1E7A8A">ida</b> o a la <b style="color:#C47F17">vuelta</b>. <b>3.</b> Ordena arrastrando en la lista. La carretera, las fronteras, los km y los días salen solos. Clic derecho (o mantener pulsado) en cualquier sitio del mapa = «pasar por aquí». <button type="button" class="pp-b" id="pp-crear" aria-pressed="false">★ Crear un punto</button> para añadir un sitio tuyo (PDI, agua, camping, taller…): la app completa sola fotos, enlaces, servicios y clima. Todo se guarda en este navegador y funciona sin conexión.</p>
+<p class="pp-ayuda"><b>1.</b> Toca un país para ver sus puntos de interés. <b>2.</b> Toca un punto y añádelo a la <b style="color:#1E7A8A">ida</b> o a la <b style="color:#C47F17">vuelta</b>. <b>3.</b> Ordena arrastrando en la lista. La carretera, las fronteras, los km y los días salen solos. Clic derecho (o mantener pulsado) en cualquier sitio del mapa = «pasar por aquí». <b>〰</b> en un punto de la lista = llegar a él por pista, en línea recta, sin buscar carretera (con varios «pasar por aquí» marcados así se dibuja la pista a mano). <button type="button" class="pp-b" id="pp-crear" aria-pressed="false">★ Crear un punto</button> para añadir un sitio tuyo (PDI, agua, camping, taller…): la app completa sola fotos, enlaces, servicios y clima. Todo se guarda en este navegador y funciona sin conexión.</p>
 <form class="pp-buscar" id="pp-buscar" autocomplete="off" role="search">
   <input type="search" id="pp-buscar-q" placeholder="Busca un lugar (como en Google Maps) o pega coordenadas GPS o un enlace de Google Maps: 31.0802, -4.0133" aria-label="Buscar un lugar o unas coordenadas" data-1p-ignore data-lpignore="true">
   <button type="submit" class="pp-b ida">Buscar</button>
@@ -300,10 +301,10 @@ table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);backgrou
 <script src="../assets/vendor/leaflet.js"></script>
 <script src="../assets/vendor/Sortable.min.js"></script>
 <script src="../assets/js/map.js?v=29484ec2a4"></script>
-<script src="../assets/js/creador-pdi.js?v=97e92d7f30"></script>
-<script src="../assets/js/fotos-4x4.js?v=bafe6b8cc4"></script>
+<script src="../assets/js/creador-pdi.js?v=569eeec2d5"></script>
+<script src="../assets/js/fotos-4x4.js?v=7d053de40f"></script>
 <script src="../assets/js/presupuesto-xlsx.js?v=6cb35d90f7"></script>
-<script src="../assets/js/planificador-puntos.js?v=aaf80002b0"></script>
+<script src="../assets/js/planificador-puntos.js?v=a3048b9bf1"></script>
 <script src="../assets/js/viaje.js?v=86b37c8e1e"></script>
 
 <div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>

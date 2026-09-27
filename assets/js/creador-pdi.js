@@ -57,19 +57,58 @@ async function lugar(lat, lon){
   const loc = a.village || a.town || a.city || a.hamlet || a.municipality || a.suburb || a.county || '';
   return {loc, region: a.state || a.region || a.county || '', pais: a.country || '', nombre: j.name || '', display: j.display_name || ''};
 }
+// Wikipedia: candidatos por nombre (si se ha escrito) y por cercanía, puntuados para que salga lo interesante
+// del sitio y no lo que por casualidad está más cerca (aeropuertos, colegios, estaciones…). Se puede cambiar en el paso 2.
+const GENERICAS = /\b(ciudad|pueblo|villa|poblado|zona|regi[oó]n|de|del|la|el|los|las|en|the|of|city|town)\b/gi;
+const FEOS = /(aeropuerto|airport|a[ée]roport|aer[oó]dromo|estaci[oó]n|station|gare|escuela|school|[ée]cole|colegio|lyc[ée]e|universi|hospital|h[oô]pital|estadio|stadium|stade|hotel|h[oô]tel|banco|bank|embajada|consulado|prisi[oó]n|prison|club|f[uú]tbol|football|elecci[oó]n|election|batalla de|battle of)/i;
+const TIPO_PUNTOS = {landmark: -4, mountain: -4, isle: -4, waterbody: -4, river: -3, pass: -3, forest: -3, glacier: -3, city: -1, adm3rd: 0, adm2nd: 2, adm1st: 4, airport: 20, edu: 20, railwaystation: 15, event: 10};
+const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+async function candidatosWiki(lat, lon, nombre, radio){
+  const limpio = (nombre || '').replace(GENERICAS, ' ').replace(/\s+/g, ' ').trim();
+  const palabras = norm(limpio).split(/\W+/).filter(w => w.length > 2);
+  const todos = [];
+  await Promise.all(['es', 'fr', 'en'].map(async (lang, li) => {
+    const base = `https://${lang}.wikipedia.org/w/api.php?format=json&origin=*&action=query`;
+    const pide = [getJSON(`${base}&list=geosearch&gscoord=${lat}|${lon}&gsradius=${radio}&gslimit=20&gsprop=type`, null, 15000).catch(() => null)];
+    if (limpio) pide.push(getJSON(`${base}&generator=search&gsrsearch=${encodeURIComponent(limpio)}&gsrlimit=8&prop=coordinates&coprimary=primary`, null, 15000).catch(() => null));
+    const [g, b] = await Promise.all(pide);
+    ((g && g.query && g.query.geosearch) || []).forEach(x => todos.push({lang, titulo: x.title, dist: x.dist, tipo: x.type || '', por: 'cerca', li}));
+    Object.values((b && b.query && b.query.pages) || {}).forEach(pg => { const c = pg.coordinates && pg.coordinates[0]; if (!c) return;
+      const d = hav([lat, lon], [c.lat, c.lon]) * 1000; if (d > 60000) return;
+      todos.push({lang, titulo: pg.title, dist: d, tipo: '', por: 'nombre', rango: pg.index || 1, li}); });
+  }));
+  todos.forEach(x => {
+    let p = x.dist / 1000 + (TIPO_PUNTOS[x.tipo] || 0) + x.li * 0.5 + (FEOS.test(x.titulo) ? 25 : 0);
+    if (x.por === 'nombre') p += -12 + (x.rango - 1) * 2;
+    if (palabras.length && palabras.some(w => norm(x.titulo).includes(w))) p -= 15;
+    x.p = p;
+  });
+  const vistos = new Set(), out = [];
+  // El mismo artículo en otro idioma cuenta una sola vez (se queda el mejor puntuado, normalmente en español)
+  todos.sort((a, b) => a.p - b.p).forEach(x => { const k = norm(x.titulo).replace(/[^a-z0-9]/g, ''); if (!vistos.has(k)) { vistos.add(k); out.push(x); } });
+  return out.slice(0, 8);
+}
+async function resumenWiki(c){
+  const s = await getJSON(`https://${c.lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(c.titulo)}`, null, 15000).catch(() => null);
+  if (!s || !s.extract) return null;
+  return {lang: c.lang, titulo: s.title, dist: c.dist, extracto: s.extract, url: s.content_urls && s.content_urls.desktop ? s.content_urls.desktop.page : '',
+    wikidata: s.wikibase_item || '', imagen: s.originalimage ? s.originalimage.source : ''};
+}
 async function wikipedia(lat, lon, nombre, radio){
-  const palabras = (nombre || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').split(/\W+/).filter(w => w.length > 3);
-  for (const lang of ['es', 'fr', 'en']) {
-    const j = await getJSON(`https://${lang}.wikipedia.org/w/api.php?action=query&list=geosearch&gscoord=${lat}|${lon}&gsradius=${radio}&gslimit=10&format=json&origin=*`, null, 15000).catch(() => null);
-    const gs = (j && j.query && j.query.geosearch) || [];
-    if (!gs.length) continue;
-    const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-    const elegido = (palabras.length && gs.find(g => palabras.some(w => norm(g.title).includes(w)))) || gs[0];
-    const s = await getJSON(`https://${lang}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(elegido.title)}`, null, 15000).catch(() => null);
-    if (!s || !s.extract) continue;
-    return {lang, titulo: s.title, dist: elegido.dist, extracto: s.extract, url: s.content_urls && s.content_urls.desktop ? s.content_urls.desktop.page : '',
-      wikidata: s.wikibase_item || '', imagen: s.originalimage ? s.originalimage.source : ''};
-  }
+  const cand = await candidatosWiki(lat, lon, nombre, radio);
+  for (const c of cand.slice(0, 3)) { const r = await resumenWiki(c); if (r) return {...r, candidatos: cand}; }
+  return cand.length ? {candidatos: cand, vacio: true} : null;
+}
+// Coordenadas en cualquier formato habitual: decimales, grados-minutos-segundos o enlace de Google Maps
+function coords(t){
+  t = String(t || '').trim();
+  let m = t.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/) || t.match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/) || t.match(/[?&](?:q|ll|query|destination)=(-?\d+\.?\d*)\s*(?:,|%2C)\s*(-?\d+\.?\d*)/i);
+  if (m) return [+m[1], +m[2]];
+  const dms = [...t.matchAll(/(\d+(?:[.,]\d+)?)\s*[°º]\s*(?:(\d+(?:[.,]\d+)?)\s*['’′])?\s*(?:(\d+(?:[.,]\d+)?)\s*(?:["”″]|''))?\s*([NSEWOnsewo])/g)];
+  if (dms.length === 2) { const v = dms.map(x => { const d = +x[1].replace(',', '.') + (+(x[2] || '0').replace(',', '.')) / 60 + (+(x[3] || '0').replace(',', '.')) / 3600; return /[SWOswo]/.test(x[4]) ? -d : d; });
+    return /[NSns]/.test(dms[0][4]) ? v : [v[1], v[0]]; }
+  m = t.match(/^(-?\d+(?:\.\d+)?)\s*°?\s*([NS])?[\s,;]+(-?\d+(?:\.\d+)?)\s*°?\s*([EWO])?$/i);
+  if (m) { let a = +m[1], b = +m[3]; if (m[2] && /s/i.test(m[2])) a = -Math.abs(a); if (m[4] && /[wo]/i.test(m[4])) b = -Math.abs(b); return [a, b]; }
   return null;
 }
 async function fotos(lat, lon, radio){
@@ -183,7 +222,9 @@ function paso1(){
   const o = ESTADO, t = tipo(o.tipo);
   DLG.innerHTML = `<div class="a27c-h"><h2 id="a27c-t">${o.editar ? 'Editar punto' : 'Crear un punto'}</h2><button type="button" class="a27c-x" data-c="cerrar" aria-label="Cerrar">×</button></div>
   <div class="a27c-b">
-    <div class="a27c-coord">📍 ${o.lat.toFixed(5)}, ${o.lon.toFixed(5)} · ${esc(o.paisNombre || 'país sin detectar')} · <a href="https://www.google.com/maps?q=${o.lat},${o.lon}" target="_blank" rel="noopener">ver en Google Maps</a></div>
+    <label>Coordenadas GPS <small style="font-weight:400">(decimales, grados-minutos-segundos o un enlace de Google Maps)</small>
+      <input id="a27c-coords" value="${o.lat.toFixed(5)}, ${o.lon.toFixed(5)}" autocomplete="off" inputmode="text" data-1p-ignore data-lpignore="true"></label>
+    <div class="a27c-coord" id="a27c-coordinfo">📍 ${esc(o.paisNombre || 'país sin detectar')} · <a href="https://www.google.com/maps?q=${o.lat},${o.lon}" target="_blank" rel="noopener">ver en Google Maps</a></div>
     <label>Tipo<select id="a27c-tipo"><optgroup label="Punto de interés">${TIPOS.filter(x => x.clase === 'pdi').map(x => `<option value="${x.id}" ${x.id === o.tipo ? 'selected' : ''}>${esc(x.l)}</option>`).join('')}</optgroup>
       <optgroup label="Logística">${TIPOS.filter(x => x.clase === 'log').map(x => `<option value="${x.id}" ${x.id === o.tipo ? 'selected' : ''}>${esc(x.l)}</option>`).join('')}</optgroup></select></label>
     <label>Nombre <small style="font-weight:400">(si lo dejas vacío, lo busca la app)</small><input id="a27c-nombre" value="${esc(o.nombre || '')}" autocomplete="off" data-1p-ignore data-lpignore="true"></label>
@@ -197,13 +238,27 @@ function paso1(){
     <div class="a27c-btns"><button type="button" class="a27c-btn pri" data-c="completar">Completar automáticamente</button><span class="a27c-nota">Busca el lugar, Wikipedia, fotos, servicios cercanos y el clima (20–40 s).</span></div>
   </div>`;
 }
+function ponerCoords(){
+  const el = document.getElementById('a27c-coords'); if (!el) return true;
+  const c = coords(el.value), o = ESTADO, info = document.getElementById('a27c-coordinfo');
+  if (!c || !(Math.abs(c[0]) <= 90 && Math.abs(c[1]) <= 180)) { if (info) info.innerHTML = '⚠️ No entiendo esas coordenadas. Ejemplos: 23.7136, -15.9355 · 23°42\'49"N 15°56\'08"W · un enlace de Google Maps'; return false; }
+  if (Math.abs(c[0] - o.lat) > 1e-6 || Math.abs(c[1] - o.lon) > 1e-6) {
+    o.lat = c[0]; o.lon = c[1];
+    if (CB.paisDe) { const s = CB.paisDe(o.lat, o.lon); o.pais = s || ''; o.paisNombre = s && CB.nom ? CB.nom(s) : (s || ''); }
+    o.auto = null;
+  }
+  if (info) info.innerHTML = `📍 ${esc(o.paisNombre || 'país sin detectar')} · <a href="https://www.google.com/maps?q=${o.lat},${o.lon}" target="_blank" rel="noopener">ver en Google Maps</a>`;
+  return true;
+}
 function leerForm(){
   const o = ESTADO, v = id => { const el = document.getElementById(id); return el ? el.value : ''; };
+  ponerCoords();
   o.tipo = v('a27c-tipo') || o.tipo; o.nombre = v('a27c-nombre').trim(); o.texto = v('a27c-texto').trim();
   o.prio = v('a27c-prio') || o.prio || 'Media'; o.dias = parseFloat(v('a27c-dias')); if (!isFinite(o.dias)) o.dias = tipo(o.tipo).dias;
   o.perro = v('a27c-perro') || 'sin_dato'; o.perroNota = v('a27c-perronota').trim();
 }
 async function completar(){
+  if (!ponerCoords()) return;
   leerForm();
   const o = ESTADO, t = tipo(o.tipo), pdi = t.clase === 'pdi';
   if (!o.texto) { const ta = document.getElementById('a27c-texto'); ta.focus(); ta.placeholder = 'Escribe al menos una frase: es lo único que la app no puede inventar'; return; }
@@ -214,7 +269,7 @@ async function completar(){
   const radioServ = pdi ? 20000 : 3000;
   await Promise.all([
     lugar(o.lat, o.lon).then(x => { R.lugar = x; marca('lugar', 'ok', [x.loc, x.region].filter(Boolean).join(', ') || x.display.slice(0, 60)); }).catch(e => marca('lugar', 'err', 'sin respuesta')),
-    pdi ? wikipedia(o.lat, o.lon, o.nombre, 10000).then(x => { R.wiki = x; marca('wiki', x ? 'ok' : 'no', x ? `${x.titulo} (${x.lang}, a ${km(x.dist / 1000)})` : 'ningún artículo a menos de 10 km'); }).catch(() => marca('wiki', 'err', 'sin respuesta')) : null,
+    pdi ? wikipedia(o.lat, o.lon, o.nombre, 10000).then(x => { R.wiki = x; marca('wiki', x && !x.vacio ? 'ok' : 'no', x && !x.vacio ? `${x.titulo} (${x.lang}, a ${km(x.dist / 1000)})` : 'ningún artículo a menos de 10 km'); }).catch(() => marca('wiki', 'err', 'sin respuesta')) : null,
     pdi ? fotos(o.lat, o.lon, 3000).then(async x => { if (x.length < 3) { const y = await fotos(o.lat, o.lon, 10000).catch(() => []); x = x.concat(y.filter(f => !x.some(g => g.source === f.source))); }
       R.fotos = x; marca('fotos', x.length ? 'ok' : 'no', x.length ? x.length + ' encontradas' : 'ninguna cerca'); }).catch(() => marca('fotos', 'err', 'sin respuesta')) : null,
     servicios(o.lat, o.lon, radioServ).then(x => { R.serv = x; R.radioServ = radioServ; const n = Object.values(x).reduce((s, v) => s + v.length, 0); marca('serv', 'ok', n + ' encontrados'); }).catch(() => marca('serv', 'err', 'sin respuesta (el servidor de OpenStreetMap va lento)')),
@@ -234,7 +289,7 @@ async function completar(){
 function armar(){
   const o = ESTADO, t = tipo(o.tipo), R = o.auto || {}, pdi = t.clase === 'pdi';
   const loc = R.lugar ? [R.lugar.loc, R.lugar.region].filter(Boolean).join(', ') : '';
-  const w = R.wiki && (pdi && (R.wiki.dist <= 3000 || (o.nombre && o.nombre.length > 3))) ? R.wiki : null;
+  const w = R.wiki && !R.wiki.vacio && pdi && (R.wiki.elegido || R.wiki.dist <= 3000 || (o.nombre && o.nombre.length > 3)) ? R.wiki : null;
   const nombre = o.nombre || (w && w.dist <= 2000 ? w.titulo : '') || (t.pref ? t.pref + (loc ? ' · ' + loc : '') : (R.lugar && (R.lugar.nombre || R.lugar.loc)) || 'Punto propio');
   const frases = w ? w.extracto.split(/(?<=\.)\s+/) : [];
   const serv = textoServicios(R.serv, R.radioServ || 20000), cli = textoClima(R.clima);
@@ -271,9 +326,13 @@ function paso2(){
   const o = ESTADO, R = o.auto || {}, pdi = tipo(o.tipo).clase === 'pdi';
   const fotosHTML = pdi ? ((R.fotos || []).length ? `<div class="a27c-fotos">${R.fotos.slice(0, 12).map(f => `<label class="${(o.elegidas || []).includes(f.source) ? 'on' : ''}" title="${esc(f.caption + ' · ' + f.credit)}"><input type="checkbox" data-foto="${esc(f.source)}" ${(o.elegidas || []).includes(f.source) ? 'checked' : ''}><img src="${esc(f.thumb)}" alt="${esc(f.caption)}" loading="lazy"><span>${esc(f.credit)}</span></label>`).join('')}</div>
     <p class="a27c-nota">Marca las fotos que quieras (la primera marcada será la portada). Las fotos de Commons se muestran con su autor y licencia.</p>` : '<p class="a27c-aviso">No hay fotos en Wikimedia Commons cerca de este punto. Puedes publicarlo igual; en la revisión se buscará una.</p>') : '';
+  const cand = (R.wiki && R.wiki.candidatos) || [];
+  const wsel = pdi && cand.length ? `<label>Información de Wikipedia <small style="font-weight:400">(si no es lo que buscas, elige otro artículo o vuelve atrás y escribe el nombre)</small>
+      <select id="a27c-wiki"><option value="">Ninguno: solo mi texto</option>${cand.map((c, i) => `<option value="${i}" ${R.wiki && !R.wiki.vacio && c.lang === R.wiki.lang && c.titulo === R.wiki.titulo ? 'selected' : ''}>${esc(c.titulo)} · ${c.lang} · ${km(c.dist / 1000)}${c.por === 'nombre' ? ' · por el nombre' : ''}</option>`).join('')}</select></label>` : '';
   const pub = o.publicado ? `<p class="a27c-nota">Publicado en la web el ${esc(o.publicado.fecha)} (${esc(o.publicado.slug)}).</p>` : '';
   DLG.innerHTML = `<div class="a27c-h"><h2 id="a27c-t">${esc(o.poi.name)}</h2><button type="button" class="a27c-x" data-c="cerrar" aria-label="Cerrar">×</button></div>
   <div class="a27c-b">
+    ${wsel}
     ${fotosHTML}
     <div class="a27c-prev map-poi-sheet">${typeof a27PoiDetail === 'function' ? a27PoiDetail(o.detalle, CB.raiz || '../') : ''}</div>
     <p class="a27c-nota">Fuentes: ${esc(o.poi.propio.fuentes.join(', '))}. Queda marcado «por revisar»: pídeme «revisa los puntos nuevos» y compruebo acceso, fotos, seguridad y perro.</p>
@@ -350,6 +409,13 @@ function onChange(e){
     armar(); paso2();
   }
   if (e.target.id === 'a27c-tipo') { leerForm(); paso1(); }
+  if (e.target.id === 'a27c-coords') ponerCoords();
+  if (e.target.id === 'a27c-wiki') {
+    const o = ESTADO, R = o.auto || {}, cand = (R.wiki && R.wiki.candidatos) || [], v = e.target.value;
+    if (v === '') { R.wiki = {candidatos: cand, vacio: true}; armar(); paso2(); return; }
+    e.target.disabled = true;
+    resumenWiki(cand[+v]).then(r => { R.wiki = r ? {...r, candidatos: cand, elegido: true} : {candidatos: cand, vacio: true}; armar(); paso2(); });
+  }
 }
 // API pública
 window.A27Creador = {

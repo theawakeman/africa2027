@@ -40,6 +40,7 @@ function pintar(m){
     <div class="fila" style="margin-top:0"><input type="url" id="a27f4-url" placeholder="https://…" style="flex:1"><button type="button" data-f="url">Añadir</button></div>
     <label for="a27f4-pie">Pie de foto</label><input type="text" id="a27f4-pie" value="${esc(c.pie || c.nombre)}">
     <label for="a27f4-autor">Autor y licencia</label><input type="text" id="a27f4-autor" value="${esc(c.autor || 'David · África 2027')}">
+    ${(c.pub || []).length ? `<label>Ya publicadas (toca × para quitar las que no sean del sitio)</label><div class="miniaturas">${c.pub.map((f, i) => `<figure style="${c.quitar.has(f.img) ? 'opacity:.3' : ''}"><img src="${esc(/^https?:/.test(f.img) ? f.img : (c.raiz || '../../') + f.img)}" alt=""><button type="button" data-f="quitarpub" data-i="${i}" aria-label="Quitar">${c.quitar.has(f.img) ? '↺' : '×'}</button><figcaption>${c.quitar.has(f.img) ? 'se quitará' : f.auto ? 'de la zona' + (f.km != null ? ' · ' + f.km + ' km' : '') : 'publicada'}</figcaption></figure>`).join('')}</div>` : ''}
     <div class="miniaturas">${COLA.map((f, i) => `<figure><img src="${esc(f.ver)}" alt=""><button type="button" data-f="quitar" data-i="${i}" aria-label="Quitar">×</button><figcaption>nueva</figcaption></figure>`).join('')}
       ${loc.map((f, i) => `<figure><img src="${esc(f.img)}" alt=""><button type="button" data-f="quitarloc" data-i="${i}" aria-label="Quitar">×</button><figcaption>en este navegador</figcaption></figure>`).join('')}</div>
     <div class="fila"><button type="button" class="pri" data-f="publicar">Publicar en la web</button><button type="button" data-f="guardar">Guardar solo en este navegador</button></div>
@@ -74,7 +75,7 @@ async function publicar(){
   const raiz = CUR.raiz || '../../';
   if (!tk) { msg(`Para publicar hace falta poner una vez el token de GitHub en el <a href="${raiz}admin/" target="_blank" rel="noopener">panel de edición</a>, en este mismo navegador. Mientras tanto usa «Guardar solo en este navegador».`); return; }
   const loc = leer(), k = clave(CUR), todas = COLA.concat((loc[k] || []).map(f => f.url ? {tipo: 'url', ...f} : {tipo: 'archivo', ver: f.img, datos: f.img, pie: f.caption, autor: f.credit}));
-  if (!todas.length) { msg('Añade antes alguna foto.'); return; }
+  if (!todas.length && !CUR.quitar.size) { msg('Añade antes alguna foto o marca alguna para quitar.'); return; }
   const H = {'Authorization': 'Bearer ' + tk, 'Accept': 'application/vnd.github+json'};
   try {
     const nuevas = [];
@@ -96,14 +97,14 @@ async function publicar(){
     for (let i = 0; i < bin.length; i++) by[i] = bin.charCodeAt(i);
     const datos = JSON.parse(new TextDecoder().decode(by)), lista = CUR.k === 'rx' ? datos.rutas : datos.puntos, x = lista.find(y => +y.n === +CUR.n);
     if (!x) throw new Error('no encuentro ese punto en la ficha publicada');
-    x.photos = (x.photos || []).concat(nuevas);
+    x.photos = (x.photos || []).filter(f => !CUR.quitar.has(f.img)).concat(nuevas);
     const txt = JSON.stringify(datos, null, 1) + '\n', eb = new TextEncoder().encode(txt); let s = '';
     for (let i = 0; i < eb.length; i += 8192) s += String.fromCharCode.apply(null, eb.subarray(i, i + 8192));
     const put = await fetch(`${API}/contents/${fich}`, {method: 'PUT', headers: {...H, 'Content-Type': 'application/json'},
-      body: JSON.stringify({message: `Fotos 4x4: ${CUR.nombre} (${nuevas.length})`, content: btoa(s), sha: j.sha, branch: BRANCH})});
+      body: JSON.stringify({message: `Fotos 4x4: ${CUR.nombre} (+${nuevas.length}${CUR.quitar.size ? ', −' + CUR.quitar.size : ''})`, content: btoa(s), sha: j.sha, branch: BRANCH})});
     if (!put.ok) throw new Error('GitHub respondió ' + put.status + ' al guardar la ficha');
-    COLA = []; delete loc[k]; escribir(loc);
-    pintar(`Publicadas ${nuevas.length} foto${nuevas.length > 1 ? 's' : ''}. GitHub reconstruye la web en 2–3 minutos; después salen en la ficha, en los mapas y en el Planificador. Acuérdate de hacer <b>git pull</b> en el Mac antes del próximo push.`);
+    COLA = []; delete loc[k]; escribir(loc); CUR.pub = x.photos; CUR.quitar = new Set();
+    pintar(`Hecho: ${nuevas.length} foto${nuevas.length !== 1 ? 's' : ''} nueva${nuevas.length !== 1 ? 's' : ''}. GitHub reconstruye la web en 2–3 minutos; después salen en la ficha, en los mapas y en el Planificador. Acuérdate de hacer <b>git pull</b> en el Mac antes del próximo push.`);
     locales();
   } catch(err) { msg('No se ha podido publicar: ' + esc(err.message) + '. Las fotos siguen aquí; puedes guardarlas en este navegador.'); }
 }
@@ -113,6 +114,7 @@ function onClick(e){
   if (f === 'cerrar') { DLG.close(); return; }
   leerCampos();
   if (f === 'quitar') { COLA.splice(+b.dataset.i, 1); pintar(); }
+  else if (f === 'quitarpub') { const img = CUR.pub[+b.dataset.i].img; if (CUR.quitar.has(img)) CUR.quitar.delete(img); else CUR.quitar.add(img); pintar(CUR.quitar.size ? 'Pulsa «Publicar en la web» para quitarlas.' : ''); }
   else if (f === 'quitarloc') { const loc = leer(), k = clave(CUR); (loc[k] || []).splice(+b.dataset.i, 1); if (loc[k] && !loc[k].length) delete loc[k]; escribir(loc); pintar(); locales(); }
   else if (f === 'url') { const v = (document.getElementById('a27f4-url').value || '').trim();
     if (!/^https?:\/\//.test(v)) { msg('Pega un enlace que empiece por https://'); return; }
@@ -138,8 +140,14 @@ function locales(){
   });
 }
 function abrir(o){
-  CUR = {...o}; COLA = []; dialogo(); pintar();
+  CUR = {...o, pub: [], quitar: new Set()}; COLA = []; dialogo(); pintar();
   if (!DLG.open) DLG.showModal();
+  // Fotos ya publicadas de ese punto o ruta (para poder quitar las que no sean del sitio)
+  const c = CUR;
+  fetch((c.raiz || '../../') + 'content/offroad/' + c.pais + '.json', {cache: 'no-store'}).then(r => r.ok ? r.json() : null).then(d => {
+    if (!d || CUR !== c) return; const x = (c.k === 'rx' ? d.rutas : d.puntos).find(y => +y.n === +c.n);
+    c.pub = (x && x.photos) || []; if (c.pub.length) pintar();
+  }).catch(() => {});
 }
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-foto4]'); if (!b || b.closest('#a27f4')) return;

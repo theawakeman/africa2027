@@ -95,7 +95,16 @@ def wikiloc_pais(slug):
 
 def off_fotos(x):
     """Fotos de un punto o ruta 4x4 (añadidas desde la web con «Añadir fotos»)."""
-    return [f for f in (x.get("photos") or []) if isinstance(f, dict) and f.get("img")]
+    out = []
+    for f in (x.get("photos") or []):
+        if not isinstance(f, dict) or not f.get("img"):
+            continue
+        if f.get("auto"):
+            # Foto de Wikimedia Commons tomada cerca del punto: se avisa de que es «de la zona»
+            km = str(f.get("km", "?")).replace(".", ",")
+            f = {**f, "caption": (f.get("caption") or "").rstrip(". ") + f" · foto de la zona, a {km} km"}
+        out.append(f)
+    return out
 
 
 def off_detalle(slug, x, ruta=False):

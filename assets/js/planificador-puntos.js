@@ -29,6 +29,7 @@ const VACIO = () => ({paises: [], evitar: [], ida: [], vuelta: [], libres: {}, d
 let S;
 try { S = Object.assign(VACIO(), JSON.parse(localStorage.getItem(KEY) || '{}') || {}); } catch(e) { S = VACIO(); }
 if (!Array.isArray(S.evitar)) S.evitar = [];
+if (!S.recto || typeof S.recto !== 'object') S.recto = {};   // puntos a los que se llega «por pista», a mano y en línea recta
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e) {} };
 function msg(t){ const m = $('pp-msg'); m.innerHTML = t; m.hidden = !t; clearTimeout(msg.t); if (t) msg.t = setTimeout(() => { m.hidden = true; }, 4500); }
 
@@ -372,7 +373,10 @@ function calcular(){
   const tramos = [];
   for (let i = 1; i < seq.length; i++) {
     const A = seq[i - 1], B = seq[i];
-    let e = (A.tipo === 'punto' && B.tipo === 'punto' && A.p.r4 && A.p.r4 === B.p.r4 && ruta4(A.p.r4)) ? tramo4(ruta4(A.p.r4), A.pos, B.pos) : tramo(A.pos, B.pos);
+    let e = (A.tipo === 'punto' && B.tipo === 'punto' && A.p.r4 && A.p.r4 === B.p.r4 && ruta4(A.p.r4)) ? tramo4(ruta4(A.p.r4), A.pos, B.pos)
+      : (B.tipo === 'punto' && S.recto[B.p.id]) ? (() => { const km = hav(A.pos, B.pos) * 1.3;   // tramo a mano: pista en línea recta
+          return {pts: [A.pos, B.pos], km, real: true, pista: {nombre: 'pista hasta ' + B.p.nombre.split(' · ')[0], km, pts: [A.pos, B.pos], nota: 'tramo a mano, en línea recta; km estimados (distancia × 1,3)', rojo: false, mano: true}}; })()
+      : tramo(A.pos, B.pos);
     // Ningún tramo puede cambiar de país fuera de un puesto oficial. Si la carretera calculada lo hace,
     // se prueba con las alternativas del servidor de rutas; si ninguna sirve, se marca en rojo.
     if (e.real && !e.rodeo && !e.pista && POLIS.length) {
@@ -889,7 +893,7 @@ function crearEn(latlng){
   if (!window.A27Creador) { msg('El creador de puntos no se ha cargado.'); return; }
   MAP.closePopup();
   const s = paisDe(latlng.lat, latlng.lng);
-  A27Creador.abrir(latlng.lat, latlng.lng, {pais: s || '', paisNombre: s ? nom(s) : '', raiz, enViaje: true, cambio: (reg, guardado) => {
+  A27Creador.abrir(latlng.lat, latlng.lng, {pais: s || '', paisNombre: s ? nom(s) : '', raiz, enViaje: true, paisDe, nom, cambio: (reg, guardado) => {
     cargarPropios(); calcular();
     if (guardado && reg && MAP) { const p = punto('propio-' + reg.id); if (p) L.popup({maxWidth: 320, minWidth: 250}).setLatLng([p.lat, p.lon]).setContent(popPunto(p)).openOn(MAP); }
   }});
@@ -897,7 +901,7 @@ function crearEn(latlng){
 function editarPropio(id){
   const p = punto(id); if (!p || !p.propio || !window.A27Creador) return;
   MAP && MAP.closePopup();
-  A27Creador.abrir(p.lat, p.lon, {id: p.reg, pais: p.pais, paisNombre: nom(p.pais), raiz, enViaje: true, cambio: reg => {
+  A27Creador.abrir(p.lat, p.lon, {id: p.reg, pais: p.pais, paisNombre: nom(p.pais), raiz, enViaje: true, paisDe, nom, cambio: reg => {
     if (!reg) { S.ida = S.ida.filter(x => x !== id); S.vuelta = S.vuelta.filter(x => x !== id); save(); }
     cargarPropios(); calcular(); }});
 }
@@ -1004,7 +1008,7 @@ function filas(m, lista, base){
     return `<li class="pp-it" data-id="${esc(id)}"><span class="pp-h" title="Arrastra para cambiar el orden o pasarlo a la otra mitad" aria-hidden="true">⠿</span><span class="pp-n">${base + i + 1}</span>
       <span class="pp-t">${p.libre ? `<strong title="${esc(p.nombre)}">${esc(p.nombre)}</strong>` : `<button type="button" class="pp-ver" data-ficha="${esc(id)}" title="Ver la ficha de ${esc(p.nombre)}">${esc(p.nombre)}</button>`}<small>${esc(nom(p.pais))}${f ? ' · ~' + f : ''}${perro}</small></span>
       <span class="pp-a"><input type="number" min="0" step="0.5" value="${d != null && d !== '' ? esc(d) : ''}" placeholder="${num(p.dias, 2).replace(/,?0+$/, '')}" data-dias="${esc(id)}" class="${d != null && d !== '' ? 'edited' : ''}" title="Días en este punto" aria-label="Días en ${esc(p.nombre)}" autocomplete="off" data-1p-ignore data-lpignore="true">
-      <button type="button" class="pp-b" data-pp="${m === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(id)}" title="Pasar a la ${m === 'ida' ? 'vuelta' : 'ida'}">${m === 'ida' ? '↓' : '↑'}</button><button type="button" class="pp-b x" data-pp="quitar" data-id="${esc(id)}" title="Quitar">✕</button></span></li>`;
+      <button type="button" class="pp-b pp-recto${S.recto[id] ? ' on' : ''}" data-recto="${esc(id)}" aria-pressed="${S.recto[id] ? 'true' : 'false'}" title="${S.recto[id] ? 'Se llega por pista, en línea recta: toca para volver a buscar carretera' : 'Llegar a este punto por pista, en línea recta, sin buscar carretera (añade «pasar por aquí» para dibujar la pista)'}">〰</button><button type="button" class="pp-b" data-pp="${m === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(id)}" title="Pasar a la ${m === 'ida' ? 'vuelta' : 'ida'}">${m === 'ida' ? '↓' : '↑'}</button><button type="button" class="pp-b x" data-pp="quitar" data-id="${esc(id)}" title="Quitar">✕</button></span></li>`;
   }).join('');
 }
 function pintar(){
@@ -1196,6 +1200,8 @@ document.addEventListener('click', e => {
   const fi = e.target.closest('[data-ficha]'); if (fi) { abrirFicha(fi.dataset.ficha); return; }
   const cr = e.target.closest('[data-crear]'); if (cr) { const [la, lo] = cr.dataset.crear.split(',').map(Number); crearEn({lat: la, lng: lo}); return; }
   const ed = e.target.closest('[data-editar]'); if (ed) { editarPropio(ed.dataset.editar); return; }
+  const rc = e.target.closest('[data-recto]'); if (rc) { const id = rc.dataset.recto; if (S.recto[id]) delete S.recto[id]; else S.recto[id] = true; save(); calcular();
+    msg(S.recto[id] ? 'Ese tramo va ahora por pista, en línea recta. Para seguir la pista de verdad, añade puntos «pasar por aquí» (clic derecho) y márcalos también con 〰.' : 'Ese tramo vuelve a buscar carretera.'); return; }
   const r4 = e.target.closest('[data-r4]'); if (r4) { const [id, m] = r4.dataset.r4.split('|'); meterRuta(id, m); return; }
   const gq = e.target.closest('[data-gpxq]'); if (gq) { const id = gq.dataset.gpxq;
     if (S.ida.concat(S.vuelta).some(x => S.libres[x] && S.libres[x].r4 === id)) { msg('Ese GPX está en el viaje: quita antes su inicio y su final.'); return; }

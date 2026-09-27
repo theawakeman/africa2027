@@ -40,12 +40,12 @@ si algo está mal, se corrige en la ficha del país (tiempo, perro o punto de fr
 | guinea | Frontera · Entrada bajada — Sambaïlo / Koundara (desde Kalifourou, Senegal) | senegal | 0.1 | 0.0 | abierta | no |
 | guinea | Frontera · Salida bajada — N'Zo / Gbapleu (hacia Danané, Costa de Marfil) | costa-de-marfil | 0.0 | 8.9 | revisar | sí |
 | libia | Paso fronterizo de Sallum–Amsaad (Egipto–Libia) | egipto | 10.9 | 0.0 | cerrada | sí |
-| marruecos | Continuidad hacia el sur — límite de administración marroquí / Sáhara Occidental | — | None | 0.0 | abierta | sí |
 | mauritania | Aïn Bentili — puesto militar y tienda | sahara-occidental | 1.9 | 0.0 | abierta | no |
 | mauritania | Aduana de Zuérat — trámite del vehículo tras entrar desde Argelia | argelia | 647.9 | 0.0 | abierta | sí |
 | niger | Puesto fronterizo de Assamakka (Argelia) | argelia | 31.1 | 0.0 | abierta | sí |
 | niger | Paso de Gaya - Malanville (Benín) | benin | 9.4 | 0.0 | cerrada | sí |
-| sahara-occidental | Entrada (bajada) · Tarfaya → Tah: sin frontera internacional | marruecos | 11.3 | 191.2 | abierta | sí |
+| sahara-occidental | Entrada (bajada) · Tarfaya → Tah: sin frontera internacional | marruecos | 11.3 | 30.3 | abierta | sí |
+| sahara-occidental | Salida (subida) · Smara → Tan-Tan o El Aaiún → Tarfaya | marruecos | 102.7 | 0.0 | abierta | sí |
 | senegal | Paso fronterizo Kalifourou — salida hacia Guinea | guinea | 37.3 | 0.0 | abierta | sí |
 | senegal | Sambaïlo (Koundara) — primeros controles guineanos tras Kalifourou | guinea | 0.0 | 0.1 | abierta | no |
 | seychelles | Port Victoria (puerto de entrada marítimo e Inter Island Quay) | — | None | None | abierta | sí |
