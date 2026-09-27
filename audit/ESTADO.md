@@ -521,3 +521,9 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - En la ventana de un punto que ya está en el viaje: «Pasar otra vez: + Ida / + Vuelta». Crea una entrada
   propia (`S.libres[rep-…] = {ref}`) al final de esa mitad, con 0 días por defecto, su propio tipo de
   tramo y su botón 〰; la ficha y las fotos son las del punto original. Se mueve y se quita como cualquier otra.
+
+## Planificador: puestos fronterizos como puntos del viaje (27-09-2026)
+
+- La ventana de cada puesto (los del viaje y los de «Ver puestos fronterizos») tiene «+ Ida / + Vuelta».
+  El puesto entra en la lista donde el viaje cambia entre sus dos países (si no, donde menos km suma), con
+  0 días. La ruta cruza por ahí y ya no inserta otro puesto automático en ese cambio. Aviso rojo si está cerrado.

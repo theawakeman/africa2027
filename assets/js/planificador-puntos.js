@@ -37,6 +37,7 @@ function msg(t){ const m = $('pp-msg'); m.innerHTML = t; m.hidden = !t; clearTim
 
 // ------------------------------------------------------------------ datos
 let PROPIOS = {}, PDET = {}, CREANDO = false;
+let FRID = {};
 let PUNTOS = {}, PORPAIS = {}, FRPAR = {}, FRTODAS = [], GEO = null, POLIS = [], SINCTRL = new Set();
 const GRAFO = {};
 CFG.fronteras.forEach(([a, b, t]) => { (GRAFO[a] = GRAFO[a] || []).push([b, t]); (GRAFO[b] = GRAFO[b] || []).push([a, t]); });
@@ -45,6 +46,8 @@ function punto(id){
   if (PROPIOS[id]) return PROPIOS[id];
   const l = S.libres[id];
   // Segunda (o tercera…) vez por el mismo punto: una entrada propia que apunta al original, con sus días (0 por defecto)
+  // Puesto fronterizo usado como punto del viaje: se cruza por ahí
+  if (l && l.fr) { const f = FRID[l.fr]; return f ? {id, libre: true, fr: l.fr, nombre: f.nombre, pais: f.pais, lat: f.lat, lon: f.lon, dias: 0, cat: 'Frontera · ' + V_TXT[vDe(f)], prio: '', perro: 'sin_dato', tiempo: ''} : null; }
   if (l && l.ref) { const b = l.ref !== id && punto(l.ref); return b ? {...b, id, rep: l.ref, dias: 0, r4: null} : null; }
   return l ? {id, libre: true, nombre: l.nombre, pais: l.pais, lat: l.lat, lon: l.lon, dias: 0, cat: l.r4 ? 'Ruta 4x4 · ' + (l.r4pos === 'a' ? 'inicio' : 'final') : 'Paso por aquí', prio: '', perro: 'sin_dato', tiempo: '', r4: l.r4 || null} : null;
 }
@@ -180,6 +183,7 @@ function popFrontera(f){
     <span class="pp-vd" style="border-left-color:${V_COL[v]}"><b>${esc(V_TXT[v])}</b>${f.verif ? ' · comprobado el ' + esc(f.verif.fecha) : ''}</span>
     ${f.verif ? `<p>${esc(f.verif.r)}</p>` : '<p>Sin comprobación con fuentes: no se usa para calcular la ruta si hay otro puesto.</p>'}
     ${fu.length ? `<div class="pp-fu"><b>Fuentes</b>${fu.map(x => `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t || x.u)}</a>${x.d ? ' <small>(' + esc(x.d) + ')</small>' : ''}`).join('')}</div>` : ''}
+    <div class="acc"><button type="button" class="pp-b big ida" data-fradd="ida|${esc(f.id)}">+ Ida</button><button type="button" class="pp-b big vuelta" data-fradd="vuelta|${esc(f.id)}">+ Vuelta</button></div>
     <a href="${raiz}${esc(f.ficha)}" target="_blank" rel="noopener">Ver en la ficha del país</a></div>`;
 }
 function puesto(x, y, desde, hacia){
@@ -353,12 +357,19 @@ function calcular(){
   const seq = [wp[0]], avisos = [];
   for (let i = 1; i < wp.length; i++) {
     const a = seq[seq.length - 1]; let b = wp[i];
+    // Puesto fronterizo elegido a mano: se llega por el lado del país de donde se viene y se cruza al salir
+    if (b.tipo === 'punto' && b.p.fr && FRID[b.p.fr]) { const f = FRID[b.p.fr];
+      let lado = [f.pais, f.otro].includes(a.pais) ? a.pais : null;
+      if (!lado) { const c1 = caminoPaises(a.pais, f.pais), c2 = caminoPaises(a.pais, f.otro); lado = !c2 || (c1 && c1.length <= c2.length) ? f.pais : f.otro; }
+      b = {...b, f, pais: lado, cruza: lado === f.pais ? f.otro : f.pais};
+      if (vDe(f) === 'cerrada') avisos.push({rojo: true, ir: {fr: f.id, pos: b.pos}, t: `Has elegido <strong>${esc(f.nombre)}</strong>, que está <strong>cerrado</strong>.`}); }
     if (a.pais && b.pais && a.pais !== b.pais) {
       const cam = caminoPaises(a.pais, b.pais);
       if (!cam) { avisos.push({rojo: true, ir: {pais: b.pais}, t: `No hay camino por carretera permitido entre ${esc(nom(a.pais))} y ${esc(nom(b.pais))} (fronteras cerradas, sin puesto oficial utilizable o países en conflicto sin marcar).`}); b = {...b, perm: [a.pais, b.pais]}; }
       else {
-        let desde = a.pos, cur = [a.pais];
-        for (let k = 0; k < cam.length - 1; k++) {
+        let desde = a.pos, cur = [a.pais], k0 = 0;
+        if (a.cruza && cam[1] === a.cruza) { k0 = 1; cur = [a.cruza]; }   // se sale del puesto elegido ya en el otro país
+        for (let k = k0; k < cam.length - 1; k++) {
           if (SINCTRL.has(cam[k] + '|' + cam[k + 1])) { cur.push(cam[k + 1]); continue; }
           const f = puesto(cam[k], cam[k + 1], desde, b.pos);
           if (f) { seq.push({tipo: 'frontera', f, pos: [f.lat, f.lon], pais: cam[k + 1], mitad: b.mitad, nombre: f.nombre, perm: cur}); desde = [f.lat, f.lon]; cur = [cam[k + 1]]; }
@@ -384,7 +395,7 @@ function calcular(){
     // Ningún tramo puede cambiar de país fuera de un puesto oficial. Si la carretera calculada lo hace,
     // se prueba con las alternativas del servidor de rutas; si ninguna sirve, se marca en rojo.
     if (e.real && !e.rodeo && !e.pista && POLIS.length) {
-      const perm = new Set(B.perm || [A.pais, B.pais]), bordes = [A, B].filter(w => w.tipo === 'frontera');
+      const perm = new Set(B.perm || [A.pais, B.pais]), bordes = [A, B].filter(w => w.tipo === 'frontera' || w.f);
       let mal = cruceIlegal(e.pts, perm, bordes);
       if (mal) {
         const d = hav(A.pos, B.pos), ok = (e.alts || []).find(x => x.km <= 2.5 * d + 100 && !cruceIlegal(x.pts, perm, bordes));
@@ -1211,6 +1222,16 @@ document.addEventListener('click', e => {
   const fi = e.target.closest('[data-ficha]'); if (fi) { abrirFicha(fi.dataset.ficha); return; }
   const cr = e.target.closest('[data-crear]'); if (cr) { const [la, lo] = cr.dataset.crear.split(',').map(Number); crearEn({lat: la, lng: lo}); return; }
   const ed = e.target.closest('[data-editar]'); if (ed) { editarPropio(ed.dataset.editar); return; }
+  const fa = e.target.closest('[data-fradd]'); if (fa) { const [m, fid] = fa.dataset.fradd.split('|'), f = FRID[fid]; if (!f) return;
+    const id = 'fr-' + fid + '-' + Date.now().toString(36); S.libres[id] = {fr: fid};
+    // Va donde el viaje pasa de un país del puesto al otro; si no hay tal cambio, donde menos km suma
+    const lista = m === 'ida' ? S.ida : S.vuelta, par = [f.pais, f.otro];
+    const pais = i => i < 0 ? (m === 'ida' ? (R ? R.FI.f.pais : null) : (S.ida.length ? (punto(S.ida[S.ida.length - 1]) || {}).pais : null))
+      : i >= lista.length ? (m === 'vuelta' && R ? R.FV.f.pais : null) : (punto(lista[i]) || {}).pais;
+    let donde = -1;
+    for (let i = 0; i <= lista.length && donde < 0; i++) { const x = pais(i - 1), y = pais(i); if (x && y && x !== y && par.includes(x) && par.includes(y)) donde = i; }
+    if (donde >= 0) lista.splice(donde, 0, id); else insertar(m, id);
+    save(); MAP && MAP.closePopup(); calcular(); msg(`La ${m} cruza ahora por <b>${esc(f.nombre)}</b>. Ponle días si hay que esperar en la frontera.`); return; }
   const rp = e.target.closest('[data-rep]'); if (rp) { const [m, base] = rp.dataset.rep.split('|'), b = punto(base); if (!b) return;
     const id = 'rep-' + Date.now().toString(36); S.libres[id] = {ref: base};
     const dlg = rp.closest('dialog'); if (dlg) dlg.close();
@@ -1318,6 +1339,7 @@ Promise.all([
   d.fronteras.filter(f => f.tipo === 'terrestre' && f.otro && f.fiable && f.oficial && ['abierta', 'revisar'].includes(f.estado) && vDe(f) !== 'cerrada').forEach(f => {
     const k = f.pais < f.otro ? f.pais + '|' + f.otro : f.otro + '|' + f.pais; (FRPAR[k] = FRPAR[k] || []).push(f); });
   FRTODAS = d.fronteras.filter(f => f.tipo === 'terrestre' && f.otro);
+  FRTODAS.forEach(f => { FRID[f.id] = f; });
   (d.rutas4x4 || []).forEach(r => { R4[r.id] = r; });
   (d.sin_control || []).forEach(([a, b]) => { SINCTRL.add(a + '|' + b); SINCTRL.add(b + '|' + a); });
   const recPts = s => (PA[s] && PA[s].rec || []).flatMap(r => r.pts);
