@@ -360,3 +360,8 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   parámetro editable (valor, unidad, cálculo y total), CPD y perro en los ferris, y vehículos
   (personas, perros, consumo). Los cambios se guardan en `a27-presupuesto-v1`, compartidos con el
   Planificador actual.
+- (27-09-2026) Carcasa primero: con una conexión lenta (medido desde el Mac de David: 1-2,4 s por
+  petición a GitHub, 3,7 s a OSRM) cada página esperaba a la red. Ahora todo lo propio que está en
+  la caché de la versión (páginas, CSS, JS, datos) se sirve al instante; lo demás va a la red y se
+  guarda. Las versiones nuevas llegan por el service worker (solo lo que cambia) y la página se
+  recarga sola al activarse.

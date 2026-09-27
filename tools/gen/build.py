@@ -2054,33 +2054,26 @@ self.addEventListener('fetch', e => {
     e.respondWith(caches.open('a27-tiles-esri').then(c => c.match(req).then(m => m || fetch(req).then(res => { if (res.ok) c.put(req, res.clone()); return res; }).catch(() => new Response('', {status: 408})))));
     return;
   }
-  const propio = url.origin === location.origin;
-  // Páginas: siempre de la red (revalidando la caché HTTP); sin red, la copia guardada.
-  if (req.mode === 'navigate' || (propio && url.pathname.endsWith('.html'))) {
-    const clave = url.origin + url.pathname.replace(/index\.html$/, '');
-    e.respondWith(fetch(clave + url.search, {cache: 'no-cache', credentials: 'same-origin'}).then(res => {
-      if (res.redirected) return Response.redirect(res.url, 302);   // /pais → /pais/ (enlaces relativos)
-      return res.ok ? guardar(VERSION, clave, res) : res;
-    }).catch(() => caches.match(clave).then(m => m || caches.match('./'))));
-    return;
-  }
-  if (propio) {
-    const clave = url.origin + url.pathname;
-    // ?v=huella: el contenido no cambia nunca para esa URL.
-    if (url.searchParams.has('v')) {
-      e.respondWith(caches.match(req).then(m => m || fetch(req).then(res => guardar(VERSION, req, res))
-        .catch(() => caches.match(clave, {ignoreSearch: true}))));
-      return;
-    }
-    // Datos y CSS/JS sin huella: de la red si hay (revalidando); sin red, la copia de la versión.
-    if (url.pathname.endsWith('.json') || req.destination === 'style' || req.destination === 'script') {
-      e.respondWith(fetch(req, {cache: 'no-cache'}).then(res => guardar(VERSION, clave, res))
-        .catch(() => caches.match(clave, {ignoreSearch: true})));
-      return;
-    }
-    // Fotos propias y el resto (KML, iconos…): se guardan al verlas, en una caché que sobrevive a las versiones.
+  if (url.origin === location.origin) {
+    // Carcasa primero: lo que está en la caché de esta versión se sirve al instante,
+    // sin esperar a la red (con una conexión lenta cada petición a GitHub tarda 1-3 s).
+    // Las versiones nuevas llegan por el propio service worker: al publicar, se
+    // instala en segundo plano bajando solo lo que ha cambiado y la página se recarga.
+    const nav = req.mode === 'navigate', conV = url.searchParams.has('v');
+    const limpia = url.origin + url.pathname.replace(/index\.html$/, '');
     const fija = req.destination === 'image' || url.pathname.includes('/assets/img/');
-    e.respondWith(caches.match(clave, {ignoreSearch: true}).then(m => m || fetch(req).then(res => guardar(fija ? 'a27-fotos' : VERSION, clave, res))));
+    e.respondWith((async () => {
+      const c = await caches.open(VERSION);
+      const m = (conV ? await c.match(url.href) : null) || await c.match(limpia) || (fija ? await caches.match(limpia) : null);
+      if (m) return m;
+      try {
+        const res = nav ? await fetch(limpia + url.search, {cache: 'no-cache', credentials: 'same-origin'}) : await fetch(req);
+        if (nav && res.redirected) return Response.redirect(res.url, 302);   // /pais → /pais/ (enlaces relativos)
+        return guardar(fija ? 'a27-fotos' : VERSION, conV ? url.href : limpia, res);
+      } catch (err) {
+        return (await caches.match(limpia, {ignoreSearch: true})) || (nav ? await c.match(new URL('./', self.registration.scope).href) : null) || Response.error();
+      }
+    })());
     return;
   }
   // Fotos externas (Commons y otras webs): caché propia que no se borra al actualizar la app.
