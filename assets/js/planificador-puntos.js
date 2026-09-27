@@ -990,14 +990,34 @@ function pintarPuntos(){
       .bindTooltip(esc(p.nombre)), p).addTo(CAPA_P);
   });
 }
+// Marcadores del viaje. Los que caen casi en el mismo sitio (<~400 m) se desplazan un poco
+// a la derecha para que se vean todos los números. RESALTE: punto marcado desde la lista.
+let SELMK = {}, RESALTE = null, RES_FIJO = null;
+const iconoSel = (m, p, i, k, on) => { const t = on ? 32 : 24;
+  return L.divIcon({className: '', html: `<div class="pp-mk ${m}${p.libre ? ' libre' : ''}${on ? ' sel' : ''}" style="width:${t}px;height:${t}px">${i}</div>`, iconSize: [t, t], iconAnchor: [t / 2 - k * 22, t / 2]}); };
 function pintarSel(){
-  CAPA_SEL.clearLayers();
-  let i = 0;
+  CAPA_SEL.clearLayers(); SELMK = {};
+  let i = 0; const cas = {};
   [['ida', S.ida], ['vuelta', S.vuelta]].forEach(([m, lista]) => lista.forEach(id => {
     const p = punto(id); if (!p) return; i++;
-    const mk = L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: `<div class="pp-mk ${m}${p.libre ? ' libre' : ''}" style="width:24px;height:24px">${i}</div>`, iconSize: [24, 24], iconAnchor: [12, 12]}), zIndexOffset: 500});
-    mk._a27id = id; conPopup(mk.bindTooltip(i + '. ' + esc(p.nombre)), p).addTo(CAPA_SEL);
+    const ck = Math.round(p.lat / 0.004) + '|' + Math.round(p.lon / 0.004), k = cas[ck] = (cas[ck] || 0) + 1;
+    const mk = L.marker([p.lat, p.lon], {icon: iconoSel(m, p, i, k - 1, false), zIndexOffset: 500});
+    mk._a27id = id; mk._a27 = {m, p, i, k: k - 1}; SELMK[id] = mk;
+    conPopup(mk.bindTooltip(i + '. ' + esc(p.nombre)), p).addTo(CAPA_SEL);
   }));
+  const r = RES_FIJO || RESALTE; RESALTE = null; if (r) resaltar(r, false);
+}
+function resaltar(id, ir){
+  if (RESALTE && SELMK[RESALTE]) { const o = SELMK[RESALTE], a = o._a27; o.setIcon(iconoSel(a.m, a.p, a.i, a.k, false)); o.setZIndexOffset(500); }
+  document.querySelectorAll('.pp-it.sel').forEach(li => li.classList.remove('sel'));
+  RESALTE = null; const mk = id && SELMK[id]; if (!mk) return;
+  const a = mk._a27; mk.setIcon(iconoSel(a.m, a.p, a.i, a.k, true)); mk.setZIndexOffset(3000); RESALTE = id;
+  document.querySelectorAll(`.pp-it[data-id="${CSS.escape(id)}"]`).forEach(li => li.classList.add('sel'));
+  if (ir) {
+    MAP.setView(mk.getLatLng(), Math.max(MAP.getZoom(), 11));
+    const r = $('pp-mapa').getBoundingClientRect(); if (r.bottom < 60 || r.top > innerHeight - 60) $('pp-mapa').scrollIntoView({behavior: 'smooth', block: 'center'});
+    mk.openTooltip();
+  }
 }
 function pintarRuta(){
   CAPA_RUTA.clearLayers(); CAPA_FR.clearLayers();
@@ -1031,7 +1051,7 @@ function filas(m, lista, base){
     const d = S.dias[id], f = R && R.fechaPunto[id] != null ? fecha(addDays(S.salida, R.fechaPunto[id] * R.factor)) : '';
     const lg = R && R.llega && R.llega[id], kmT = lg ? `<span class="pp-km" title="Desde el punto anterior${i + base === 0 ? ' (puerto de llegada)' : ''}: ${lg.aprox ? 'km aproximados, ' : ''}${num(lg.d, 1)} días al volante">${lg.aprox ? '~' : ''}${num(lg.km)} km · ${num(lg.d, 1)} d</span>` : '';
     const perro = (p.perro === 'no' ? ' · <span style="color:#B43A3A">sin perro</span>' : '') + (p.rep ? ' · <b>otra vez</b>' : '');
-    return `<li class="pp-it" data-id="${esc(id)}"><span class="pp-h" title="Arrastra para cambiar el orden o pasarlo a la otra mitad" aria-hidden="true">⠿</span><span class="pp-n">${base + i + 1}</span>
+    return `<li class="pp-it" data-id="${esc(id)}"><span class="pp-h" title="Arrastra para cambiar el orden o pasarlo a la otra mitad" aria-hidden="true">⠿</span><button type="button" class="pp-n" data-verpt="${esc(id)}" title="Ver en el mapa">${base + i + 1}</button>
       <span class="pp-t">${p.libre ? `<strong title="${esc(p.nombre)}">${esc(p.nombre)}</strong>` : `<button type="button" class="pp-ver" data-ficha="${esc(id)}" title="Ver la ficha de ${esc(p.nombre)}">${esc(p.nombre)}</button>`}<small>${esc(nom(p.pais))}${f ? ' · ~' + f : ''}${perro}<button type="button" class="pp-modo${S.paso[id] ? ' paso' : ''}" data-modo="${esc(id)}" title="Tramo que llega a este punto: ${S.paso[id] ? 'de paso, a ' + (S.kmdia_t || 450) + ' km/día. Toca para que sea de visita' : 'de visita, a ' + (S.kmdia || 250) + ' km/día. Toca para que sea de paso'}">${S.paso[id] ? 'tramo de paso' : 'tramo de visita'}</button>${kmT}</small></span>
       <span class="pp-a"><input type="number" min="0" step="0.5" value="${d != null && d !== '' ? esc(d) : ''}" placeholder="${num(p.dias, 2).replace(/,?0+$/, '')}" data-dias="${esc(id)}" class="${d != null && d !== '' ? 'edited' : ''}" title="Días en este punto" aria-label="Días en ${esc(p.nombre)}" autocomplete="off" data-1p-ignore data-lpignore="true">
       <button type="button" class="pp-b pp-recto${S.recto[id] ? ' on' : ''}" data-recto="${esc(id)}" aria-pressed="${S.recto[id] ? 'true' : 'false'}" title="${S.recto[id] ? 'Se llega por pista, en línea recta: toca para volver a buscar carretera' : 'Llegar a este punto por pista, en línea recta, sin buscar carretera (añade «pasar por aquí» para dibujar la pista)'}">〰</button><button type="button" class="pp-b" data-pp="${m === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(id)}" title="Pasar a la ${m === 'ida' ? 'vuelta' : 'ida'}">${m === 'ida' ? '↓' : '↑'}</button><button type="button" class="pp-b x" data-pp="quitar" data-id="${esc(id)}" title="Quitar">✕</button></span></li>`;
@@ -1247,6 +1267,7 @@ document.addEventListener('click', e => {
     for (let i = 0; i <= lista.length && donde < 0; i++) { const x = pais(i - 1), y = pais(i); if (x && y && x !== y && par.includes(x) && par.includes(y)) donde = i; }
     if (donde >= 0) lista.splice(donde, 0, id); else insertar(m, id);
     save(); MAP && MAP.closePopup(); calcular(); msg(`La ${m} cruza ahora por <b>${esc(f.nombre)}</b>. Ponle días si hay que esperar en la frontera.`); return; }
+  const vpt = e.target.closest('[data-verpt]'); if (vpt) { const id = vpt.dataset.verpt; if (RES_FIJO === id) { RES_FIJO = null; resaltar(null); } else { RES_FIJO = id; resaltar(id, true); } return; }
   const mv = e.target.closest('[data-mover]'); if (mv) { const [d, id] = mv.dataset.mover.split('|'), m = S.ida.includes(id) ? 'ida' : 'vuelta', L0 = S[m], k = L0.indexOf(id), j = k + (+d);
     if (k < 0 || j < 0 || j >= L0.length) return;
     [L0[k], L0[j]] = [L0[j], L0[k]]; save(); calcular();
@@ -1330,6 +1351,10 @@ $('pp-csv').addEventListener('click', bajarCsv);
 $('pp-reset').addEventListener('click', resetAjustes);
 $('pp-vnombre').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); guardarViaje(); } });
 $('pp-nuevo').addEventListener('click', () => { if (!confirm('¿Empezar un viaje nuevo? El actual se pierde si no lo has guardado.')) return; S = VACIO(); save(); calcular(); encuadrar(); });
+// Pasar el ratón por un punto de la lista lo resalta en el mapa; tocar su número lo centra y lo deja marcado
+['pp-lista-ida', 'pp-lista-vuelta'].forEach(id => { const ul = $(id);
+  ul.addEventListener('mouseover', e => { const li = e.target.closest('.pp-it'); if (li && !ARRASTRE && li.dataset.id !== RESALTE) resaltar(li.dataset.id, false); });
+  ul.addEventListener('mouseleave', () => { if (!ARRASTRE && RESALTE !== RES_FIJO) resaltar(RES_FIJO, false); }); });
 if (window.Sortable) ['pp-lista-ida', 'pp-lista-vuelta'].forEach(id => Sortable.create($(id), {group: 'pp', handle: '.pp-h', animation: 150,
   forceFallback: true, fallbackTolerance: 3, scroll: true, bubbleScroll: true, scrollSensitivity: 80,
   onStart: () => { ARRASTRE = true; },

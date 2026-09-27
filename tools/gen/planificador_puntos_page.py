@@ -132,6 +132,9 @@ CSS = """
 .pp-dlg-acc .en{font:600 12.5px "Archivo",sans-serif;color:var(--ink-soft);margin-right:4px}
 .pp-mk{border-radius:50%;color:#fff;font:700 11px "Archivo",sans-serif;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.35)}
 .pp-mk.ida{background:#1E7A8A}.pp-mk.vuelta{background:#C47F17}.pp-mk.libre{border-style:dashed}
+.pp-mk.sel{background:#D6336C;border-width:3px;font-size:13px;box-shadow:0 0 0 5px rgba(214,51,108,.35),0 2px 6px rgba(0,0,0,.4)}
+button.pp-n{border:0;padding:0;cursor:pointer;font-family:inherit}button.pp-n:hover{outline:2px solid #D6336C;outline-offset:1px}
+.pp-it.sel{background:rgba(214,51,108,.10);box-shadow:inset 3px 0 0 #D6336C}.pp-it.sel .pp-n{background:#D6336C}
 /* Sin el recuadro de foco del navegador al clicar un país o una zona: basta el cambio de color */
 .leaflet-container path.leaflet-interactive:focus,.leaflet-container path.leaflet-interactive:focus-visible{outline:none}
 .pp-buscar{position:relative;display:flex;gap:6px;margin:6px 0 10px;font-family:"Archivo",sans-serif;z-index:1001}
