@@ -32,7 +32,19 @@ if (!Array.isArray(S.evitar)) S.evitar = [];
 if (!S.recto || typeof S.recto !== 'object') S.recto = {};   // puntos a los que se llega «por pista», a mano y en línea recta
 if (!S.paso || typeof S.paso !== 'object') S.paso = {};       // puntos a los que se llega por un tramo «de paso» (más km al día)
 if (!S.kmdia_t) S.kmdia_t = CFG.ritmo_t || 450;
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e) {} };
+// Cada cambio se guarda al momento como viaje en curso y, si el viaje tiene nombre, también
+// en «Mis viajes» (sin tener que pulsar Guardar). El segundo guardado va con un pequeño retardo
+// para llevar ya los km y días recalculados.
+let T_AUTO = null;
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e) {}
+  clearTimeout(T_AUTO); T_AUTO = setTimeout(autoGuardar, 700); };
+function autoGuardar(){
+  if (!S.nombre) return;
+  const V = leerV(); if (!V[S.nombre]) return;
+  if (JSON.stringify(V[S.nombre].S) === JSON.stringify(S)) return;
+  V[S.nombre] = {S: JSON.parse(JSON.stringify(S)), fecha: new Date().toISOString(), r: R ? {km: Math.round(R.kmTot), dias: R.dias} : V[S.nombre].r};
+  if (escV(V)) { const g = $('pp-gact-t'); if (g) { g.textContent = '✓ guardado ' + new Date().toLocaleTimeString('es-ES', {hour: '2-digit', minute: '2-digit'}); } }
+}
 function msg(t){ const m = $('pp-msg'); m.innerHTML = t; m.hidden = !t; clearTimeout(msg.t); if (t) msg.t = setTimeout(() => { m.hidden = true; }, 4500); }
 
 // ------------------------------------------------------------------ datos
@@ -1174,8 +1186,7 @@ function paintViajes(){
   // Viaje con nombre: un botón guarda el progreso en él sin preguntar; el campo de texto sirve para «guardar como» otro
   const act = S.nombre && V[S.nombre], g = $('pp-gact');
   if (g) { g.hidden = !act;
-    if (act) { const igual = JSON.stringify(V[S.nombre].S) === JSON.stringify(S);
-      g.innerHTML = `<button type="button" class="pp-b ida" id="pp-guardar-act"${igual ? ' disabled' : ''}>Guardar cambios en «${esc(S.nombre)}»</button><small style="color:${igual ? 'var(--ink-soft)' : '#C47F17'}">${igual ? 'todo guardado' : '● cambios sin guardar'}</small>`; } }
+    if (act && g.dataset.n !== S.nombre) { g.dataset.n = S.nombre; g.innerHTML = `<small style="color:var(--ink-soft)">Trabajando en <b style="color:var(--ink)">«${esc(S.nombre)}»</b>: los cambios se guardan solos en «Mis viajes». <span id="pp-gact-t" style="color:#2E7D32"></span></small>`; } }
   $('pp-vnombre').placeholder = act ? 'Guardar como otro viaje (nombre nuevo)' : 'Nombre del viaje';
   $('pp-guardar').textContent = act ? 'Guardar como' : 'Guardar';
 }
@@ -1350,7 +1361,7 @@ $('pp-xlsx').addEventListener('click', bajarXlsx);
 $('pp-csv').addEventListener('click', bajarCsv);
 $('pp-reset').addEventListener('click', resetAjustes);
 $('pp-vnombre').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); guardarViaje(); } });
-$('pp-nuevo').addEventListener('click', () => { if (!confirm('¿Empezar un viaje nuevo? El actual se pierde si no lo has guardado.')) return; S = VACIO(); save(); calcular(); encuadrar(); });
+$('pp-nuevo').addEventListener('click', () => { const gu = S.nombre && leerV()[S.nombre]; if (!confirm('¿Empezar un viaje nuevo? ' + (gu ? `«${S.nombre}» queda guardado en «Mis viajes».` : 'El actual no tiene nombre y se perderá: guárdalo antes si lo quieres conservar.'))) return; clearTimeout(T_AUTO); autoGuardar(); S = VACIO(); save(); calcular(); encuadrar(); });
 // Pasar el ratón por un punto de la lista lo resalta en el mapa; tocar su número lo centra y lo deja marcado
 ['pp-lista-ida', 'pp-lista-vuelta'].forEach(id => { const ul = $(id);
   ul.addEventListener('mouseover', e => { const li = e.target.closest('.pp-it'); if (li && !ARRASTRE && li.dataset.id !== RESALTE) resaltar(li.dataset.id, false); });
