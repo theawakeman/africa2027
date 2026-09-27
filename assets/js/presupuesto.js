@@ -331,8 +331,41 @@ function agregar(s){
   sel.add(s); ev.delete(s);
   Object.keys(S).filter(k => ['ruta.modo.', 'ruta.rec.', 'ruta.inv.'].some(x => k.startsWith(x + s + '.'))).forEach(k => delete S[k]);
   S['ruta.sel'] = [...sel]; S['ruta.evitar'] = [...ev]; save();
-  aviso(`<strong>${PA[s].n}</strong> añadido a la ruta.${PA[s].cf ? ' Ojo: país en conflicto.' : ''}`);
   compute();
+  const R1 = window.__A27_BUDGET_RESULT.ruta, m = mitadDe(R1, s);
+  aviso(`<strong>${PA[s].n}</strong> añadido a la ${m || 'ruta'}.${PA[s].cf ? ' Ojo: país en conflicto.' : ''}`
+    + (m ? ` <button type="button" class="lnk" data-mitad="${s}">Pasarlo a la ${m === 'ida' ? 'vuelta' : 'ida'}</button>` : ''));
+}
+// ------------------------------------------------------------------ ida y vuelta
+// La ida acaba en el país más alejado del puerto de llegada a África; lo que
+// viene después es la vuelta. Sirve para decir en qué mitad va cada país y
+// para pasarlo de una a otra sin tener que arrastrarlo.
+function giro(R){
+  let far = -1, fi = -1;
+  R.pas.forEach((p, i) => { const d = hav(R.FI.f.pos, PA[p.s].pos); if (d > far) { far = d; fi = i; } });
+  let tIdx = -1;
+  R.pas.forEach((p, i) => { if (i <= fi && p.oi != null) tIdx = Math.max(tIdx, p.oi); });
+  return {fi, tIdx};
+}
+function mitadDe(R, s){
+  const i = R.o.indexOf(s); if (i < 0) return '';
+  const g = giro(R), pi = R.pas.findIndex(p => p.oi === i);
+  return pi < 0 ? '' : (pi <= g.fi ? 'ida' : 'vuelta');
+}
+function moverMitad(s){
+  const R = window.__A27_BUDGET_RESULT.ruta, i = R.o.indexOf(s), m = mitadDe(R, s);
+  if (i <= 0 || i >= R.o.length - 1 || !m) { aviso(`<strong>${PA[s].n}</strong> es el primer o el último país: se mueve arrastrándolo.`); return; }
+  const g = giro(R), sin = R.o.filter(x => x !== s), t = i <= g.tIdx ? g.tIdx - 1 : g.tIdx;
+  const js = [];
+  if (m === 'ida') for (let j = t + 1; j <= sin.length - 1; j++) js.push(j);
+  else for (let j = 1; j <= t + 1; j++) js.push(j);
+  let best = null, bk = Infinity;
+  js.forEach(j => { const c = sin.slice(0, j).concat([s], sin.slice(j)), k = kmReales(c, R.DD); if (k < bk) { bk = k; best = c; } });
+  if (!best) return;
+  Object.keys(S).filter(k => ['ruta.modo.', 'ruta.rec.', 'ruta.inv.', 'ruta.d.'].some(x => k.startsWith(x + s + '.'))).forEach(k => delete S[k]);
+  S['ruta.orden'] = best; S['ruta.sel'] = [...selSet()]; save(); compute();
+  const m2 = mitadDe(window.__A27_BUDGET_RESULT.ruta, s);
+  aviso(`<strong>${PA[s].n}</strong> pasa a la ${m2}.` + (m2 === m ? ' (No hay un hueco mejor en la otra mitad: arrástralo a mano.)' : ''));
 }
 function quitar(s){
   const R0 = window.__A27_BUDGET_RESULT.ruta, sel = selSet(), ev = evitarSet();
@@ -428,6 +461,7 @@ function compute(){
   // ---- Países e itinerario
   paintAdd(R);
   const vecesPais = {}; R.pas.forEach(p => { vecesPais[p.s] = (vecesPais[p.s] || 0) + 1; });
+  const G = giro(R);
   const rows = R.pas.map((p, i) => {
     const P0 = PA[p.s], parar = p.tipo === 'visita';
     const dir = vecesPais[p.s] > 1 ? p.k + 'ª vez' : '';
@@ -447,6 +481,7 @@ function compute(){
     const seg = fijo ? `<span class="seg-fijo">${p.dentro ? 'Dentro de ' + escH(PA[p.dentro].n.replace(/ \(.*\)$/, '')) : 'Solo cruzar'}</span>`
       : `<div class="seg" role="group" aria-label="Qué hacer en ${escH(P0.n)}"><button type="button" data-modo="${p.s}|${p.k}|p" aria-pressed="${parar}">Parar</button><button type="button" data-modo="${p.s}|${p.k}|c" aria-pressed="${!parar}">Cruzar</button></div>`;
     const mv = p.oi != null ? `<button type="button" class="mv" data-mv="${p.oi},-1" ${p.oi === 0 ? 'disabled' : ''} title="Antes" aria-label="Mover ${escH(P0.n)} antes">↑</button><button type="button" class="mv" data-mv="${p.oi},1" ${p.oi === R.o.length - 1 ? 'disabled' : ''} title="Después" aria-label="Mover ${escH(P0.n)} después">↓</button>` : '';
+    const mit = p.oi != null && p.oi > 0 && p.oi < R.o.length - 1 ? `<button type="button" class="mv mit" data-mitad="${p.s}" title="Pasar ${escH(P0.n)} a la ${i <= G.fi ? 'vuelta' : 'ida'}">${i <= G.fi ? 'a vuelta' : 'a ida'}</button>` : '';
     const x = fijo ? '' : `<button type="button" class="mv x" data-quitar="${p.s}" title="Quitar ${escH(P0.n)} de la ruta" aria-label="Quitar ${escH(P0.n)} de la ruta">✕</button>`;
     const dv = get(p.dkey, '');
     const asa = p.oi != null ? `<span class="it-h" title="Arrastra para cambiar el orden" aria-hidden="true">⠿</span>` : '<span class="it-h vacio"></span>';
@@ -455,7 +490,7 @@ function compute(){
       <div class="it-seg">${seg}</div>
       <div class="it-km"><span data-o="km${i}"></span> <small>km</small></div>
       <div class="it-d"><input type="number" step="0.5" min="0" data-k="${p.dkey}" data-d="" value="${dv}" class="${dv !== '' ? 'edited' : ''}" data-o="dp${i}" autocomplete="off" data-1p-ignore data-lpignore="true" aria-label="Días en ${escH(P0.n)}"> <small>días</small></div>
-      <div class="it-act">${mv}${x}</div></li>`;
+      <div class="it-act">${mv}${mit}${x}</div></li>` + (i === G.fi && i < R.pas.length - 1 ? `<li class="it-sep" aria-hidden="true">Vuelta · desde ${escH(PA[p.s].n.replace(/ \(.*\)$/, ''))}</li>` : '');
   });
   paint('bud-itin', rows.join(''));
   FE.forEach(e => {
@@ -473,7 +508,7 @@ function compute(){
   $('bud-itin-km').textContent = num(kmTot);
   $('bud-itin-dias').textContent = num(diasRuta, 1);
   if (window.Sortable && !$('bud-itin').__sort) {
-    $('bud-itin').__sort = Sortable.create($('bud-itin'), {handle: '.it-h', draggable: 'li', animation: 150, ghostClass: 'it-ghost',
+    $('bud-itin').__sort = Sortable.create($('bud-itin'), {handle: '.it-h', draggable: 'li.it', animation: 150, ghostClass: 'it-ghost',
       onEnd: () => {
         const R1 = window.__A27_BUDGET_RESULT.ruta, nuevo = [...$('bud-itin').children].map(li => li.dataset.oi).filter(x => x != null && x !== '').map(x => R1.o[+x]);
         $('bud-itin').__h = null; S['ruta.orden'] = nuevo; S['ruta.sel'] = [...selSet()]; save(); compute();
@@ -737,6 +772,8 @@ document.addEventListener('click', e => {
     if (p && (v === 'p') === p.def) delete S[key]; else S[key] = v;
     save(); compute(); return;
   }
+  const mt = e.target.closest('[data-mitad]');
+  if (mt) { moverMitad(mt.dataset.mitad); return; }
   const iv = e.target.closest('[data-inv]');
   if (iv) { const key = 'ruta.inv.' + iv.dataset.inv.replace('|', '.'); if (S[key]) delete S[key]; else S[key] = true; save(); compute(); return; }
   const qx = e.target.closest('[data-quitar]'); if (qx) { quitar(qx.dataset.quitar); return; }

@@ -181,7 +181,7 @@ CSS = """
 .bud-actions select{max-width:320px;width:auto;padding:8px 10px;border-radius:8px;font-weight:600}
 .bud-msg{background:var(--amber-bg);border:1px solid var(--amber);border-radius:10px;padding:10px 14px;font-size:14.5px;margin:8px 0}
 .bud-itin{list-style:none;margin:10px 0 0;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
-.bud-itin .it{display:grid;grid-template-columns:16px 30px minmax(0,1fr) auto 92px 104px 104px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid var(--line);font-family:"Archivo",sans-serif}
+.bud-itin .it{display:grid;grid-template-columns:16px 30px minmax(0,1fr) auto 92px 104px auto;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid var(--line);font-family:"Archivo",sans-serif}
 .bud-itin .it:first-child{border-top:0}
 .bud-itin .it.cruza{background:var(--surface2)}
 .bud-itin .it.cruza .it-p strong{font-weight:600;color:var(--ink-soft)}
@@ -211,6 +211,8 @@ CSS = """
 .it-h{cursor:grab;color:var(--ink-soft);font-size:18px;line-height:1;user-select:none;touch-action:none;text-align:center}
 .it-h.vacio{cursor:default}
 .it-ghost{opacity:.4;background:var(--amber-bg)!important}
+.bud-itin .it-sep{list-style:none;padding:7px 12px;background:var(--surface2);border-top:2px solid var(--amber);font-family:"Archivo",sans-serif;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--amber)}
+.it-act .mv.mit{width:auto;padding:2px 7px;font-size:11px;white-space:nowrap}
 .bud-ferry-card{display:grid;grid-template-columns:30px minmax(0,1fr) minmax(220px,340px);gap:10px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0;background:var(--surface2);font-family:"Archivo",sans-serif;font-size:14px}
 .fer-ic{font-size:20px;text-align:center}
 .fer-sel select{width:100%;max-width:none}
