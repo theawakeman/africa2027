@@ -141,6 +141,7 @@ CSS = """
 .pp-gpx li{display:flex;gap:6px;align-items:center;border-left:4px solid #7B3FA0;padding:3px 0 3px 8px;margin:4px 0}
 .pp-gpx li span{flex:1;min-width:0}.pp-gpx li small{display:block;color:var(--ink-soft)}
 .pp-modo{font:inherit;font-size:11px;border:1px solid var(--line);border-radius:99px;padding:0 7px;margin-left:4px;background:transparent;color:var(--ink-soft);cursor:pointer}.pp-modo.paso{border-color:#D97B29;color:#D97B29;font-weight:700}
+.pp-km{margin-left:6px;font-size:11px;color:var(--ink-soft);white-space:nowrap}
 .pp-otra{display:block;margin-top:6px;font-size:12px;color:var(--ink-soft)}.pp-otra .pp-b{margin-left:4px}
 .pp-recto{font-weight:700;color:#8B5A2B}.pp-recto.on{background:#8B5A2B;border-color:#8B5A2B;color:#fff}
 .pp-mk4{width:14px;height:14px;background:#D4A017;border:2px solid #5C4300;transform:rotate(45deg);border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.35)}

@@ -484,14 +484,16 @@ function calcular(){
   if (aprox) avisos.push({rojo: false, t: FALLO.size ? `Sin respuesta del servidor de rutas: ${aprox} tramo${aprox > 1 ? 's' : ''} en línea recta (discontinua) con km aproximados.` : `Calculando la carretera de ${aprox} tramo${aprox > 1 ? 's' : ''}…`});
   // Días y fechas
   let t = dFerry(FI.f);
-  const fechaPunto = {};
-  tramos.forEach(tr => { t += tr.km / tr.kmd; if (tr.b.tipo === 'punto') { fechaPunto[tr.b.p.id] = t; t += diasDe(tr.b.p); } });
+  const fechaPunto = {}, llega = {};   // llega[id]: km y días al volante desde el punto (o puerto) anterior
+  let lk = 0, ld = 0, lap = false;
+  tramos.forEach(tr => { t += tr.km / tr.kmd; lk += tr.km; ld += tr.km / tr.kmd; lap = lap || !tr.real || !!tr.rodeo;
+    if (tr.b.tipo === 'punto') { fechaPunto[tr.b.p.id] = t; t += diasDe(tr.b.p); llega[tr.b.p.id] = {km: lk, d: ld, aprox: lap}; lk = 0; ld = 0; lap = false; } });
   const diasPais = {};
   Object.entries(conduce).forEach(([s, d]) => { diasPais[s] = (diasPais[s] || 0) + d; });
   todos.forEach(p => { if (p.pais) diasPais[p.pais] = (diasPais[p.pais] || 0) + diasDe(p); });
   const base = t + dFerry(FV.f), dias = Math.ceil(base * (1 + margen));
   const kmEU = FI.f.km_eu + FV.f.km_eu;
-  R = {ida, vuelta, todos, FI, FV, seq, tramos, kmTot, kmEU, kmPais, runs, orden, entradas, avisos, dias, fechaPunto, diasPais, factor: 1 + margen};
+  R = {ida, vuelta, todos, FI, FV, seq, tramos, kmTot, kmEU, kmPais, runs, orden, entradas, avisos, dias, fechaPunto, llega, llegaPuerto: {km: lk, d: ld, aprox: lap}, diasPais, factor: 1 + margen};
   R.colores = {}; [...new Set(runs.map(r => r.s))].forEach((s, i) => { R.colores[s] = PALETA[i % PALETA.length]; });
   R.bud = presupuesto(R);
   publicar(R);
@@ -1026,9 +1028,10 @@ function filas(m, lista, base){
   return lista.map((id, i) => {
     const p = punto(id); if (!p) return '';
     const d = S.dias[id], f = R && R.fechaPunto[id] != null ? fecha(addDays(S.salida, R.fechaPunto[id] * R.factor)) : '';
+    const lg = R && R.llega && R.llega[id], kmT = lg ? `<span class="pp-km" title="Desde el punto anterior${i + base === 0 ? ' (puerto de llegada)' : ''}: ${lg.aprox ? 'km aproximados, ' : ''}${num(lg.d, 1)} días al volante">${lg.aprox ? '~' : ''}${num(lg.km)} km · ${num(lg.d, 1)} d</span>` : '';
     const perro = (p.perro === 'no' ? ' · <span style="color:#B43A3A">sin perro</span>' : '') + (p.rep ? ' · <b>otra vez</b>' : '');
     return `<li class="pp-it" data-id="${esc(id)}"><span class="pp-h" title="Arrastra para cambiar el orden o pasarlo a la otra mitad" aria-hidden="true">⠿</span><span class="pp-n">${base + i + 1}</span>
-      <span class="pp-t">${p.libre ? `<strong title="${esc(p.nombre)}">${esc(p.nombre)}</strong>` : `<button type="button" class="pp-ver" data-ficha="${esc(id)}" title="Ver la ficha de ${esc(p.nombre)}">${esc(p.nombre)}</button>`}<small>${esc(nom(p.pais))}${f ? ' · ~' + f : ''}${perro}<button type="button" class="pp-modo${S.paso[id] ? ' paso' : ''}" data-modo="${esc(id)}" title="Tramo que llega a este punto: ${S.paso[id] ? 'de paso, a ' + (S.kmdia_t || 450) + ' km/día. Toca para que sea de visita' : 'de visita, a ' + (S.kmdia || 250) + ' km/día. Toca para que sea de paso'}">${S.paso[id] ? 'tramo de paso' : 'tramo de visita'}</button></small></span>
+      <span class="pp-t">${p.libre ? `<strong title="${esc(p.nombre)}">${esc(p.nombre)}</strong>` : `<button type="button" class="pp-ver" data-ficha="${esc(id)}" title="Ver la ficha de ${esc(p.nombre)}">${esc(p.nombre)}</button>`}<small>${esc(nom(p.pais))}${f ? ' · ~' + f : ''}${perro}<button type="button" class="pp-modo${S.paso[id] ? ' paso' : ''}" data-modo="${esc(id)}" title="Tramo que llega a este punto: ${S.paso[id] ? 'de paso, a ' + (S.kmdia_t || 450) + ' km/día. Toca para que sea de visita' : 'de visita, a ' + (S.kmdia || 250) + ' km/día. Toca para que sea de paso'}">${S.paso[id] ? 'tramo de paso' : 'tramo de visita'}</button>${kmT}</small></span>
       <span class="pp-a"><input type="number" min="0" step="0.5" value="${d != null && d !== '' ? esc(d) : ''}" placeholder="${num(p.dias, 2).replace(/,?0+$/, '')}" data-dias="${esc(id)}" class="${d != null && d !== '' ? 'edited' : ''}" title="Días en este punto" aria-label="Días en ${esc(p.nombre)}" autocomplete="off" data-1p-ignore data-lpignore="true">
       <button type="button" class="pp-b pp-recto${S.recto[id] ? ' on' : ''}" data-recto="${esc(id)}" aria-pressed="${S.recto[id] ? 'true' : 'false'}" title="${S.recto[id] ? 'Se llega por pista, en línea recta: toca para volver a buscar carretera' : 'Llegar a este punto por pista, en línea recta, sin buscar carretera (añade «pasar por aquí» para dibujar la pista)'}">〰</button><button type="button" class="pp-b" data-pp="${m === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(id)}" title="Pasar a la ${m === 'ida' ? 'vuelta' : 'ida'}">${m === 'ida' ? '↓' : '↑'}</button><button type="button" class="pp-b x" data-pp="quitar" data-id="${esc(id)}" title="Quitar">✕</button></span></li>`;
   }).join('');
