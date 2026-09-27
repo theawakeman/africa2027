@@ -1,14 +1,14 @@
 [
  {
   "n": 1,
-  "name": "Bo-Waterside · la frontera que no podemos cruzar",
+  "name": "Bo-Waterside · la frontera que exige visado previo",
   "cat": "Ciudad · servicios",
   "prio": "Media",
   "dog": "permitido con condiciones",
   "time": "½ día",
   "lat": 6.85,
   "lon": -11.25,
-  "desc": "El paso fronterizo principal del oeste de Liberia, frente al sierraleonés de Jendema, con tráfico comercial denso de camiones y autobuses. Es la puerta natural desde Sierra Leona y la primera que se activaría si el problema del visado se resolviera. Y es exactamente donde está el problema: el visado electrónico liberiano, en vigor desde el 11 de marzo de 2025, es un «visado electrónico a la llegada» que SOLO se expide en el aeropuerto internacional de Monrovia. En una frontera terrestre no sirve: hay que presentarse con un visado estampado por una misión diplomática liberiana. Sin ese papel, este puesto es una pared. Con él, Liberia se abre entera. Ver el bloque de visado para el detalle y para la vía de solución.",
+  "desc": "El paso fronterizo principal del oeste de Liberia, frente al sierraleonés de Jendema, con tráfico comercial denso de camiones y autobuses. Es la puerta natural desde Sierra Leona y la primera que se usa una vez resuelto el visado. Y es exactamente donde está el problema: el visado electrónico liberiano, en vigor desde el 11 de marzo de 2025, es un «visado electrónico a la llegada» que SOLO se expide en el aeropuerto internacional de Monrovia. En una frontera terrestre no sirve: hay que presentarse con un visado estampado por una misión diplomática liberiana. Sin ese papel, este puesto es una pared. Con él, Liberia se abre entera. Ver el bloque de visado para el detalle y para la vía de solución.",
   "icon": "ciudad · servicios",
   "color": "azul",
   "dog_note": "",
@@ -35,11 +35,11 @@
    }
   ],
   "visit": {
-   "why": "Es el paso principal entre Liberia y Sierra Leona y el punto donde se decide si Sierra Leona entra o no en el viaje: merece estar en la guía aunque sea para descartarlo con conocimiento de causa. Cerró en 1990 con la invasión de Charles Taylor desde el lado sierraleonés y no volvió a abrir oficialmente hasta junio de 2007, y esa historia explica por qué todo aquí es reciente y provisional.",
+   "why": "Es el paso principal entre Liberia y Sierra Leona y el punto donde se decide si Liberia y Sierra Leona se encadenan en el viaje: merece estar en la guía aunque sea para descartarlo con conocimiento de causa. Cerró en 1990 con la invasión de Charles Taylor desde el lado sierraleonés y no volvió a abrir oficialmente hasta junio de 2007, y esa historia explica por qué todo aquí es reciente y provisional.",
    "see": "Un pueblo-frontera de Grand Cape Mount sobre el río Mano, con cola de camiones y autobuses, cambistas, puestos y el paso hacia Jendema. No hay nada que ver en el sentido turístico: se ve un trámite.",
    "access": "El pin es aproximado: marca la zona fronteriza, no un edificio concreto. Se llega por la carretera del oeste desde Monrovia, uno de los pocos ejes que el FCDO describe como asfaltado y en condición razonable (junto con el de Buchanan y el de la frontera guineana); el resto de pistas de la zona son de tierra y en lluvias empeoran mucho. No hay fuente abierta que publique los horarios oficiales del paso: hay que llegar con margen y en horario de oficina. Visado sierraleonés tramitado antes (no se da en frontera) y el liberiano en regla, certificado de fiebre amarilla, carnet de passage o permiso temporal de importación y seguro a terceros.",
    "when": "Si solo se cruza, media jornada contando trámites en los dos lados; llegar a media mañana y nunca al atardecer. Fuera de la estación seca (diciembre-abril) la aproximación se complica y la espera se hace en barro.",
-   "skip": "Si Sierra Leona queda fuera de la ruta, no hay ninguna razón para acercarse: son cientos de kilómetros de ida y vuelta para ver una aduana. Tampoco es sitio para dormir ni para hacer noche en el coche."
+   "skip": "Si no se va a cruzar a Sierra Leona, no hay ninguna razón para acercarse: son cientos de kilómetros, entre ir y volver, para ver una aduana. Tampoco es sitio para dormir ni para hacer noche en el coche."
   },
   "_restaurado": true
  },
@@ -152,7 +152,7 @@
   "time": "2–3 noches",
   "lat": 6.3156068,
   "lon": -10.8073698,
-  "desc": "Capital sobre el cabo Mesurado, con 1,76 millones de habitantes en el censo de 2022 y un área metropolitana de más de 2,2 millones: un tercio del país entero vive aquí. Ostenta un récord que hay que tener muy presente para planificar: es la CAPITAL MÁS LLUVIOSA DEL MUNDO, con una media de 4.600 mm al año. Barrios con carácter propio: Mamba Point, el barrio diplomático sobre el mar; Sinkor, el centro moderno de hoteles y negocios; Waterside, el mercado grande frente al puerto natural; y West Point, una península densísima de bajos ingresos que es también uno de los símbolos urbanos del país. Para ver: el Museo Nacional de Liberia, el mercado de Waterside y, sobre todo, la ruina del Hotel Ducor, el hotel de lujo de los años sesenta encaramado sobre el cabo, hoy esqueleto de hormigón con la mejor vista de la ciudad. Única base logística seria: puerto franco, bancos, talleres, hospitales y —lo más importante para nosotros— todas las embajadas.",
+  "desc": "Capital sobre el cabo Mesurado, con 1,76 millones de habitantes en el censo de 2022 y un área metropolitana de más de 2,2 millones: un tercio del país entero vive aquí. Ostenta un récord que hay que tener muy presente para planificar: es la CAPITAL MÁS LLUVIOSA DEL MUNDO, con una media de 4.600 mm al año. Barrios con carácter propio: Mamba Point, el barrio diplomático sobre el mar; Sinkor, el centro moderno de hoteles y negocios; Waterside, el mercado grande frente al puerto natural; y West Point, una península densísima de bajos ingresos que es también uno de los símbolos urbanos del país. Para ver: el Museo Nacional de Liberia, el mercado de Waterside y, sobre todo, la ruina del Hotel Ducor, el hotel de lujo de los años sesenta encaramado sobre el cabo, hoy esqueleto de hormigón con la mejor vista de la ciudad. Única base logística seria: puerto franco, bancos, talleres, hospitales y —lo más importante para un overlander— todas las embajadas.",
   "icon": "ciudad · servicios",
   "color": "azul",
   "dog_note": "",
@@ -179,7 +179,7 @@
    }
   ],
   "visit": {
-   "why": "Es la base logística obligada del país: puerto, embajadas para los visados del siguiente tramo, bancos, talleres y el único mercado serio de repuestos y suministros. Además concentra un tercio de la población del país, así que todo lo que no se resuelva aquí no se resuelve.",
+   "why": "Es la base logística obligada del país: puerto, embajadas para los visados de los países siguientes, bancos, talleres y el único mercado serio de repuestos y suministros. Además concentra un tercio de la población del país, así que todo lo que no se resuelva aquí no se resuelve.",
    "see": "Broad Street y Capitol Hill, el Museo Nacional de Liberia, el Waterside Market, la isla de Providence —donde desembarcaron los primeros libertos y hoy hay museo—, el barrio diplomático de Mamba Point y las playas urbanas tipo Tropicana. West Point, el barrio sobre la lengua de arena, se ve desde fuera y no se entra con cámara.",
    "access": "Llegada asfaltada desde el norte (Gbarnga-Ganta) y desde Buchanan; dentro de la ciudad el tráfico es denso y los sentidos cambian según la hora. El aeropuerto Roberts queda a unos 56 km por carretera asfaltada. El FCDO insiste en no conducir de noche y en pedir consejo local antes de salir por carretera de Monrovia; el MAEC clasifica Monrovia como zona de riesgo medio y recomienda no circular de noche ni en solitario.",
    "when": "Dos o tres noches para trámites y descanso. Conviene evitar el corazón de la estación lluviosa: con una media de 4.600 mm anuales es la capital más lluviosa del mundo, y entre junio y septiembre la ciudad se inunda por tramos.",
@@ -370,7 +370,7 @@
    "why": "Es la única base realista para entrar en el Parque Nacional de Sapo, 1.804 km² que son la segunda mayor masa de selva tropical primaria de África Occidental después de Taï, en Costa de Marfil. Sin Sapo, Greenville no justifica el desvío; con Sapo, es la razón de bajar al sureste.",
    "see": "En el pueblo, un puerto maderero con dos muelles —el tercero del país—, la laguna, la playa y el pulso de una ciudad reconstruida desde cero tras la guerra. En el parque, selva cerrada con unas 125 especies de mamíferos y 590 de aves: chimpancé occidental, elefante de bosque, mono Diana, siete especies de duiker y el hipopótamo pigmeo, del que quedan menos de 3.000 en libertad y para el que Sapo es la mejor baza que existe.",
    "access": "La coordenada corresponde al pueblo, no al parque. Por carretera desde Monrovia el trazado es largo y mayoritariamente sin asfaltar: 4x4 obligatorio, y entre mayo y noviembre el FCDO y el MAEC coinciden en que muchos tramos se vuelven impracticables. La entrada a Sapo exige autorización de la Forestry Development Authority (FDA); dentro no hay carreteras ni senderos acondicionados, se camina, y el alojamiento es el Sapo Ecolodge o campamento organizado con la FDA, que también facilita guías y las bajadas en canoa por el río Sinoe. El perro no pinta nada ahí dentro: es parque nacional con hipopótamo pigmeo y chimpancés, no hay norma publicada sobre animales de compañía, y hay que dar por hecho que no pasa la barrera y que alguien se queda con él en Greenville o en el ecolodge.",
-   "when": "Mínimo cuatro o cinco días contando la ida y la vuelta desde Monrovia, y solo en estación seca (diciembre-abril). Las caminatas salen de madrugada, que es cuando hay fauna.",
+   "when": "Mínimo cuatro o cinco días contando el trayecto desde Monrovia y el regreso, y solo en estación seca (diciembre-abril). Las caminatas salen de madrugada, que es cuando hay fauna.",
    "skip": "En estación lluviosa, directamente. Y si no se ha gestionado el permiso de la FDA con semanas de antelación: sin permiso y sin guía no se entra, y el viaje se queda en un pueblo portuario sin más."
   },
   "_restaurado": true
@@ -517,11 +517,11 @@
    }
   ],
   "visit": {
-   "why": "Es el nudo del sureste interior y el mayor asentamiento al este del río Cestos: donde se reposta, se duerme y se repara antes de seguir hacia Costa de Marfil o bajar hacia Maryland. Como destino no se sostiene; como eslabón de la ruta, es imprescindible.",
+   "why": "Es el nudo del sureste interior y el mayor asentamiento al este del río Cestos: donde se reposta, se duerme y se repara antes de seguir hacia Costa de Marfil o bajar hacia Maryland. Como destino no se sostiene; como eslabón del recorrido, es imprescindible.",
    "see": "El mercado central, que mezcla producto liberiano, guineano y marfileño y es lo más vivo del pueblo; la mansión que Samuel Doe —nacido aquí— mandó construir y en la que nunca llegó a vivir; y el bosque de Grebo alrededor, con endemismos vegetales y chimpancé occidental en peligro crítico.",
    "access": "435 km desde Monrovia, con dos carreteras principales que se cruzan unos 13 km al suroeste de la ciudad. El grueso del recorrido es pista: 4x4 y margen de horas. Ojo con el encuadre administrativo: el MAEC desaconseja viajar a Grand Gedeh (igual que a Nimba, River Gee y Maryland), lo que puede dejar fuera de cobertura al seguro de viaje. Hay hoteles reales (Cash Hotel, Ma Queen Yonnoh) y el aeródromo William D. Coleman, solo para vuelos domésticos.",
    "when": "Una noche, dos como mucho si se va a Grebo. Solo en estación seca; llegar con luz, porque los últimos tramos de pista no perdonan.",
-   "skip": "Si el MAEC mantiene la recomendación de no viajar a Grand Gedeh y el seguro lo excluye expresamente, el punto cae por sí solo. Y si la ruta sale de Liberia por Loguatuo desde Ganta, Zwedru es un desvío largo que no aporta nada que no se encuentre más al norte."
+   "skip": "Si el MAEC mantiene la recomendación de no viajar a Grand Gedeh y el seguro lo excluye expresamente, el punto cae por sí solo. Y si se sale de Liberia por Loguatuo desde Ganta, Zwedru es un desvío largo que no aporta nada que no se encuentre más al norte."
   },
   "_restaurado": true
  },
@@ -567,7 +567,7 @@
    }
   ],
   "visit": {
-   "why": "Aquí se junta todo: la frontera guineana, la carretera asfaltada a Monrovia (323 km vía Gbarnga), el desvío a Zwedru (238 km al sureste) y la subida a Yekepa y al Nimba. Con cinco bancos, hoteles y talleres, es el mejor punto del noreste para repostar, sacar efectivo y arreglar lo que se haya roto.",
+   "why": "Aquí se junta todo: la frontera guineana, la carretera asfaltada a Monrovia (323 km vía Gbarnga), el desvío a Zwedru (238 km al sureste) y el ascenso a Yekepa y al Nimba. Con cinco bancos, hoteles y talleres, es el mejor punto del noreste para repostar, sacar efectivo y arreglar lo que se haya roto.",
    "see": "Un mercado enorme y ruidoso de ciudad de paso; la mezquita blanca con los minaretes decorados con estrellas talladas; y el hospital de Ganta, heredero de la misión que el médico americano George Way Harley fundó en 1926 tras encontrar aquí una leprosería, y que hoy atiende a medio condado. El río Mano, al norte, marca la raya con Guinea.",
    "access": "Asfalto desde Monrovia: el FCDO señala precisamente las rutas a las fronteras de Sierra Leona y Guinea como las que están pavimentadas y en condición razonable. No hace falta 4x4 para llegar, sí para casi todo lo que sale de la ciudad. Alojamiento en Alvino Hotel, Jackie's Guest House y similares. El MAEC desaconseja viajar al condado de Nimba, conviene comprobarlo antes de contratar el seguro.",
    "when": "Una noche, o unas horas si solo se repone. Llegar con luz y aparcar en recinto cerrado del hotel; el FCDO avisa del riesgo de robo en controles, sobre todo de noche.",
@@ -667,7 +667,7 @@
    "see": "Una capital de condado administrativa y comercial, con un mercado general nuevo inaugurado en 2024 —y la polémica de los vendedores a los que mudaron lejos de Broad Street—, la Cuttington University de 1889 a las afueras y la tumba de la jefa de clan Madame Suakoko. Por debajo, la memoria de la guerra: aquí tuvo su cuartel general el NPFL de Charles Taylor.",
    "access": "Asfalto desde Monrovia y desde Ganta, sin necesidad de 4x4 en el eje principal. Kpatawee queda a una treintena de millas de Gbarnga por pista, con ecolodge y zona de acampada: ahí sí conviene el 4x4, y en lluvias puede quedarse en intento. Alojamiento sencillo y suficiente en la ciudad (Passion Hotel, Serengeti, Paulma's) y camas en la propia universidad.",
    "when": "Una noche de tránsito; media jornada más si se hace la cascada, mejor por la mañana. Cualquier época sirve para el eje asfaltado; la pista de Kpatawee pide seca.",
-   "skip": "Si se hace Monrovia-Ganta del tirón en un día, Gbarnga se queda en gasolinera y café. Y si ya se ha visto agua en otros puntos de la ruta, Kpatawee no justifica por sí sola el desvío."
+   "skip": "Si se hace Monrovia-Ganta del tirón en un día, Gbarnga se queda en gasolinera y café. Y si ya se ha visto agua en otros puntos del viaje, Kpatawee no justifica por sí sola el desvío."
   },
   "_restaurado": true
  },
@@ -730,7 +730,7 @@
   "time": "1–2 días",
   "lat": 7.6663373,
   "lon": -10.841529,
-  "desc": "La continuación al sur del Parque Nacional de Gola Rainforest sierraleonés, con el que forma un bloque transfronterizo de selva primaria de Alto Guinea gestionado en cooperación entre los dos países: chimpancé occidental, hipopótamo pigmeo, elefante de bosque y una avifauna excepcional. Del lado sierraleonés, Gola entró en 2025 en la lista del Patrimonio Mundial de la UNESCO dentro del complejo Gola-Tiwai; del lado liberiano el proceso de protección ha ido por detrás y existe además el proyecto del Parque Nacional de Lofa-Mano en la misma franja. POR CONFIRMAR el estatus legal exacto, el régimen de visita y quién lo gestiona sobre el terreno. Acceso desde la zona de Kongo/Bopolu o desde el norte del condado de Gbarpolu, por pistas forestales. Es el gran comodín natural del oeste liberiano y la pieza que conectaría, sobre el mapa, este país con el bucle sierraleonés. Coordenada aproximada.",
+  "desc": "La continuación al sur del Parque Nacional de Gola Rainforest sierraleonés, con el que forma un bloque transfronterizo de selva primaria de Alto Guinea gestionado en cooperación entre los dos países: chimpancé occidental, hipopótamo pigmeo, elefante de bosque y una avifauna excepcional. Del lado sierraleonés, Gola entró en 2025 en la lista del Patrimonio Mundial de la UNESCO dentro del complejo Gola-Tiwai; del lado liberiano el proceso de protección ha ido por detrás y existe además el proyecto del Parque Nacional de Lofa-Mano en la misma franja. POR CONFIRMAR el estatus legal exacto, el régimen de visita y quién lo gestiona sobre el terreno. Acceso desde la zona de Kongo/Bopolu o desde el norte del condado de Gbarpolu, por pistas forestales. Es el gran comodín natural del oeste liberiano y la pieza que conectaría, sobre el mapa, este país con Sierra Leona. Coordenada aproximada.",
   "icon": "naturaleza",
   "color": "verde",
   "dog_note": "",
@@ -761,7 +761,7 @@
    "see": "Selva húmeda densa, siempreverde y semicaducifolia, de las mejor conservadas del hotspot de Alto Guinea. En la lista de fauna hay 60 especies de la Lista Roja de la UICN: elefante de bosque, chimpancé occidental en peligro crítico, mono Diana, hipopótamo pigmeo, duiker de Jentink y colobo rojo occidental, sobre 48 especies de mamíferos medianos y grandes censadas.",
    "access": "El pin es aproximado y corresponde a una zona, no a un objeto ni a una entrada: cae dentro del bloque forestal y no en ninguna puerta de acceso. Se llega por pistas de tierra desde Bopolu y el resto de Gbarpolu, con 4x4 obligatorio y tramos impracticables en lluvias. La gestión es de la FDA con la Society for the Conservation of Nature of Liberia (SCNL), pero no hay fuente abierta que publique horarios, tarifas ni un punto de entrada turístico: hay que contactar antes. El alojamiento más cercano que aparece en el portal oficial de turismo es la Lorine Guesthouse de Bopolu. Con el perro, lo mismo que en Sapo y Nimba: es parque nacional con fauna sensible, no hay norma publicada, y lo razonable es asumir que no entra y dejarlo fuera acompañado.",
    "when": "Dos o tres días desde Monrovia, y solo en estación seca (diciembre-abril). Nunca sin haber hablado antes con la FDA o la SCNL.",
-   "skip": "Sin contacto previo es un viaje largo por pista a un bosque en el que no se puede entrar. Y si lo que se busca es selva de Gola visitable, el lado sierraleonés está mucho mejor preparado y desde 2025 forma parte del Patrimonio Mundial como complejo Gola-Tiwai; si Sierra Leona está fuera de la ruta, este punto se convierte en una parada de paisaje desde la pista y poco más."
+   "skip": "Sin contacto previo es un viaje largo por pista a un bosque en el que no se puede entrar. Y si lo que se busca es selva de Gola visitable, el lado sierraleonés está mucho mejor preparado y desde 2025 forma parte del Patrimonio Mundial como complejo Gola-Tiwai; si no se va a pasar por Sierra Leona, este punto se convierte en una parada de paisaje desde la pista y poco más."
   },
   "_restaurado": true
  },
@@ -774,7 +774,7 @@
   "time": "½ día",
   "lat": 6.8427612,
   "lon": -8.6600586,
-  "desc": "El paso fronterizo del noreste, a unos 40 km de Ganta, por el que se sale hacia Danané y Man, en el oeste de Costa de Marfil. Sería la salida natural del corredor liberiano si el país estuviera en la ruta, y el punto donde el itinerario volvería a engancharse con el trazado marfileño ya previsto. Mismos avisos que en toda frontera de la región: cruzar de día, tener el CPD o el permiso temporal en regla, el seguro Brown Card de la CEDEAO vigente y el certificado de fiebre amarilla a mano. POR CONFIRMAR horarios y si sella CPD. Coordenada aproximada.",
+  "desc": "El paso fronterizo del noreste, a unos 40 km de Ganta, por el que se sale hacia Danané y Man, en el oeste de Costa de Marfil. Es la salida natural del noreste liberiano hacia Costa de Marfil, y el punto donde se enlaza con el oeste marfileño. Mismos avisos que en toda frontera de la región: cruzar de día, tener el CPD o el permiso temporal en regla, el seguro Brown Card de la CEDEAO vigente y el certificado de fiebre amarilla a mano. POR CONFIRMAR horarios y si sella CPD. Coordenada aproximada.",
   "icon": "ciudad · servicios",
   "color": "azul",
   "dog_note": "",
@@ -801,7 +801,7 @@
    }
   ],
   "visit": {
-   "why": "Es la salida natural del corredor del noreste: desde Ganta se planta uno en la frontera en menos de una hora y al otro lado están Danané y Man, ya en el oeste marfileño. Si la ruta continúa hacia el este sin volver a la costa, este es el paso.",
+   "why": "Es la salida natural del noreste: desde Ganta se planta uno en la frontera en menos de una hora y al otro lado están Danané y Man, ya en el oeste marfileño. Si el viaje sigue hacia el este sin volver a la costa, este es el paso.",
    "see": "Un puesto pequeño, muy vivo comercialmente: es por donde sale a Costa de Marfil el aceite de palma liberiano en bidones de cinco galones, por miles al mes. Lo que se ve es comercio informal, motos-taxi (penpen) y una sucesión de controles.",
    "access": "Unos 40 km de Ganta, en buena parte pista. No hay fuente abierta que publique los horarios oficiales del paso, así que hay que cruzar en horario de oficina y con margen. La prensa liberiana documentó en febrero de 2025 cobros informales sistemáticos: unos 1.000 FCFA por bulto del lado marfileño y tasas en cada uno de los varios controles camino de Danané, al margen de cualquier recaudación formal y en contra del protocolo de libre circulación de la CEDEAO. Llevar cambio pequeño y la documentación impecable: visado marfileño tramitado antes, carnet de passage o permiso temporal de importación y seguro a terceros.",
    "when": "Cruzar a primera hora de la mañana y contar media jornada larga entre los dos lados. Estación seca; en lluvias la pista de aproximación y la ruta a Danané se degradan mucho.",

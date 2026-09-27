@@ -11,9 +11,9 @@ si algo está mal, se corrige en la ficha del país (tiempo, perro o punto de fr
 
 | País | Punto | Texto de la ficha | Días | Criterio |
 | --- | --- | --- | --- | --- |
-| benin | Parque Nacional de la Pendjari — FUERA DEL ITINERARIO 2027 | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
-| benin | Cascadas de Tanougou y la cordillera de la Atacora — FUERA DEL ITINERARIO 2027 | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
-| benin | Parque Nacional W (UNESCO, transfronterizo) — FUERA DEL ITINERARIO 2027 | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
+| benin | Parque Nacional de la Pendjari — DESACONSEJADO POR SEGURIDAD | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
+| benin | Cascadas de Tanougou y la cordillera de la Atacora — DESACONSEJADO POR SEGURIDAD | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
+| benin | Parque Nacional W (UNESCO, transfronterizo) — DESACONSEJADO POR SEGURIDAD | — | 0.5 | sin tiempo en la ficha: medio día por defecto |
 | camerun | Mamfe (paso obligado de entrada) | sin pernocta | 0.5 | sin pernocta: medio día |
 | camerun | Kumba y el lago cratérico de Barombi Mbo | paso, sin parada | 0.25 | parada breve |
 | camerun | Mefou · santuario de primates (Ape Action Africa) | cerrado hasta nuevo aviso; revalidar | 0 | la ficha dice que no se visita o está cerrado |
@@ -37,16 +37,16 @@ si algo está mal, se corrige en la ficha del país (tiempo, perro o punto de fr
 | egipto | Paso fronterizo de El Salloum (Egipto-Libia) | libia | 0.0 | 6.1 | cerrada | sí |
 | eritrea | Teseney (paso hacia Kassala, Sudán) | sudan | 26.4 | 0.0 | revisar | sí |
 | etiopia | Paso fronterizo de Togochale / Tog Wajaale (Somalilandia) | — | None | 7.9 | abierta | sí |
-| guinea | Frontera · Entrada bajada — Sambaïlo / Koundara (desde Kalifourou, Senegal) | senegal | 0.1 | 0.0 | abierta | no |
-| guinea | Frontera · Salida bajada — N'Zo / Gbapleu (hacia Danané, Costa de Marfil) | costa-de-marfil | 0.0 | 8.9 | revisar | sí |
+| guinea | Frontera · Senegal — Sambaïlo / Koundara (Kalifourou) | senegal | 0.1 | 0.0 | abierta | no |
+| guinea | Frontera · Costa de Marfil — N'Zo / Gbapleu (sentido Guinea → Danané) | costa-de-marfil | 0.0 | 8.9 | revisar | sí |
 | libia | Paso fronterizo de Sallum–Amsaad (Egipto–Libia) | egipto | 10.9 | 0.0 | cerrada | sí |
 | mauritania | Aïn Bentili — puesto militar y tienda | sahara-occidental | 1.9 | 0.0 | abierta | no |
 | mauritania | Aduana de Zuérat — trámite del vehículo tras entrar desde Argelia | argelia | 647.9 | 0.0 | abierta | sí |
 | niger | Puesto fronterizo de Assamakka (Argelia) | argelia | 31.1 | 0.0 | abierta | sí |
 | niger | Paso de Gaya - Malanville (Benín) | benin | 9.4 | 0.0 | cerrada | sí |
-| sahara-occidental | Entrada (bajada) · Tarfaya → Tah: sin frontera internacional | marruecos | 11.3 | 30.3 | abierta | sí |
-| sahara-occidental | Salida (subida) · Smara → Tan-Tan o El Aaiún → Tarfaya | marruecos | 102.7 | 0.0 | abierta | sí |
-| senegal | Paso fronterizo Kalifourou — salida hacia Guinea | guinea | 37.3 | 0.0 | abierta | sí |
+| sahara-occidental | Límite con Marruecos · Tarfaya → Tah: sin frontera internacional | marruecos | 11.3 | 30.3 | abierta | sí |
+| sahara-occidental | Enlace norte con Marruecos · Smara → Tan-Tan o El Aaiún → Tarfaya | marruecos | 102.7 | 0.0 | abierta | sí |
+| senegal | Paso fronterizo Kalifourou — frontera con Guinea | guinea | 37.3 | 0.0 | abierta | sí |
 | senegal | Sambaïlo (Koundara) — primeros controles guineanos tras Kalifourou | guinea | 0.0 | 0.1 | abierta | no |
 | seychelles | Port Victoria (puerto de entrada marítimo e Inter Island Quay) | — | None | None | abierta | sí |
 | sierra-leona | Frontera · Salida alternativa noreste — Kabala / Faranah (hacia la Alta Guinea) | guinea | 30.6 | 0.0 | abierta | sí |
