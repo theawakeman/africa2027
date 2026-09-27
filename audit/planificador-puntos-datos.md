@@ -4,7 +4,7 @@ Generado por `tools/gen/planificador_puntos.py` en cada reconstrucción. No se e
 si algo está mal, se corrige en la ficha del país (tiempo, perro o punto de frontera).
 
 - Puntos de interés: 1049; tiempo leído directamente en 1038, con criterio en 11.
-- Puestos fronterizos terrestres: 190; emparejados con seguridad 173, a revisar 25. Puertos y aeropuertos: 56 (no unen dos países por carretera).
+- Puestos fronterizos terrestres: 190; emparejados con seguridad 173, a revisar 26. Puertos y aeropuertos: 56 (no unen dos países por carretera).
 - Perro: si 68, condiciones 464, no 458, sin_dato 59.
 
 ## Tiempos leídos con criterio
@@ -41,6 +41,7 @@ si algo está mal, se corrige en la ficha del país (tiempo, perro o punto de fr
 | guinea | Frontera · Salida bajada — N'Zo / Gbapleu (hacia Danané, Costa de Marfil) | costa-de-marfil | 0.0 | 8.9 | revisar | sí |
 | libia | Paso fronterizo de Sallum–Amsaad (Egipto–Libia) | egipto | 10.9 | 0.0 | revisar | sí |
 | marruecos | Continuidad hacia el sur — límite de administración marroquí / Sáhara Occidental | — | None | 0.0 | abierta | sí |
+| mauritania | Aïn Bentili — puesto militar y tienda | sahara-occidental | 1.9 | 0.0 | abierta | no |
 | mauritania | Aduana de Zuérat — trámite del vehículo tras entrar desde Argelia | argelia | 647.9 | 0.0 | abierta | sí |
 | niger | Puesto fronterizo de Assamakka (Argelia) | argelia | 31.1 | 0.0 | abierta | sí |
 | niger | Paso de Gaya - Malanville (Benín) | benin | 9.4 | 0.0 | revisar | sí |

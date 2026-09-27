@@ -1908,6 +1908,9 @@ def main():
     pages["cpd/index.html"] = render_cpd()
     pages["visados/index.html"] = render_visados()
     pages["planificador/index.html"] = render_presupuesto(FULL, C, navbar, VERSION)
+    # Proyecto aparte (beta): el viaje punto a punto. No toca la página anterior.
+    from planificador_puntos_page import render as render_pp
+    pages["planificador-puntos/index.html"] = render_pp(FULL, navbar, VERSION)
     # Dirección antigua: redirige al Planificador conservando el ancla.
     pages["presupuesto/index.html"] = page("../", "Planificador · África 2027",
         '<main><p style="margin-top:30px">El presupuesto ahora es el <a href="../planificador/">Planificador</a>.</p></main>'
@@ -1945,7 +1948,7 @@ def main():
         # marcado nuevo del carrusel/mapa con CSS o JavaScript antiguos.
         for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js",
                       "assets/js/visamap.js", "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js",
-                      "assets/js/viaje.js"):
+                      "assets/js/viaje.js", "assets/js/planificador-puntos.js"):
             html_text = html_text.replace(asset + '"', asset + f'?v={VERSION}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)

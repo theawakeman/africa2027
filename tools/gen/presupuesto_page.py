@@ -256,6 +256,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     body = f"""{nav}{hero}
 <main class="bud" style="max-width:1200px">
 <section id="ruta"><h2>Ruta</h2>
+<p class="callout" style="display:block;margin-top:0"><strong>Nuevo, en pruebas:</strong> el <a href="{root}planificador-puntos/">Planificador por puntos</a> monta el viaje eligiendo puntos de interés en el mapa, para la ida o la vuelta. Esta página no cambia.</p>
 <div class="bud-viajes">
 <div class="bv-row"><label class="bv-l" for="viaje-sel">Mis viajes</label><select id="viaje-sel" aria-label="Viajes guardados"></select><button type="button" id="viaje-cargar">Cargar</button><button type="button" id="viaje-borrar">Borrar</button></div>
 <div class="bv-row"><label class="bv-l" for="viaje-nombre">Guardar como</label><input type="text" id="viaje-nombre" placeholder="Nombre del viaje (p. ej. Túnez – Tinduf)" maxlength="60" autocomplete="off" data-1p-ignore data-lpignore="true" data-form-type="other"><button type="button" class="primary" id="viaje-guardar">Guardar</button></div>

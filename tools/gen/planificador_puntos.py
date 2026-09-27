@@ -125,6 +125,15 @@ def distancia_pais(pt, geom):
                for p in polys for anillo in p for i in range(len(anillo) - 1))
 
 
+# Pares de países con un único paso habilitado para vehículos: los demás puntos
+# de frontera de las fichas entre esos dos países no se usan para la ruta.
+PASOS_HABILITADOS = {
+    frozenset({"mauritania", "sahara-occidental"}): r"guerguerat",
+}
+# Pares sin control fronterizo (misma administración): la ruta no mete puesto.
+SIN_CONTROL = [["marruecos", "sahara-occidental"]]
+
+
 # ------------------------------------------------------------------ construir
 def construir(FULL, C, FRONTERAS, ISLAS):
     nombres = {c[0]: c[1].split(" (")[0] for c in C}
@@ -184,6 +193,9 @@ def construir(FULL, C, FRONTERAS, ISLAS):
                     r"(frontera|paso|puesto) cerrad[ao]|cerrad[ao] (desde|hasta|al tráfico|a extranjeros)|sigue cerrad|permanece cerrad", texto)):
                 estado = "revisar"
             fiable = bool(otro) and km_otro is not None and km_otro <= 25 and (km_propio or 0) <= 25
+            unico = PASOS_HABILITADOS.get(frozenset({slug, otro})) if otro else None
+            if unico and not re.search(unico, texto):
+                oficial = False     # no es el paso habilitado para vehículos entre esos dos países
             f = {"id": f"{slug}-f{i + 1}", "pais": slug, "otro": otro, "nombre": lg["name"], "tipo": sub,
                  "lat": round(lg["lat"], 5), "lon": round(lg["lon"], 5), "estado": estado,
                  "oficial": oficial, "fiable": fiable, "km_otro": km_otro, "km_propio": km_propio,
@@ -192,7 +204,7 @@ def construir(FULL, C, FRONTERAS, ISLAS):
             if not fiable or not oficial or estado == "revisar":
                 dudas["frontera"].append(f)
     datos = {"version": 1, "puntos": puntos, "fronteras": fronteras,
-             "islas": sorted(ISLAS)}
+             "islas": sorted(ISLAS), "sin_control": SIN_CONTROL}
     return datos, dudas
 
 

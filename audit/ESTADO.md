@@ -291,3 +291,17 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Revisión mensual con Claude (tarea programada, día 2 de cada mes): resuelve los
   avisos de vigilancia, revisa los precios oficiales puestos a mano y deja el commit
   listo en el Mac para publicar.
+
+## Planificador por puntos · beta (27-09-2026)
+
+- Proyecto aparte en `/planificador-puntos/` (plan en el documento «Planificador por puntos de
+  interés · plan»). Punto de restauración: etiqueta `antes-planificador-puntos`.
+- Fase 1: `tools/gen/planificador_puntos.py` → `assets/js/planificador-puntos.json` (PDIs con días
+  y perro; puestos fronterizos con sus dos países). Informe en `audit/planificador-puntos-datos.md`.
+  Guerguerat es el único paso Sahara–Mauritania; Marruecos–Sahara sin control fronterizo.
+- Fase 2 (+ núcleo de la 3): página con mapa (países → PDIs → ida/vuelta), lista ordenable,
+  «pasar por aquí» con clic derecho, atajo «recorrido A/B de la ficha», ferris automáticos,
+  puestos fronterizos (se prefieren los que están en los recorridos de las fichas), carretera
+  OSRM compartiendo caché con el Planificador, km y entradas por país, días y fechas, avisos
+  (conflicto, frontera cerrada, país no marcado, perro) y viajes guardados aparte
+  (`a27pp-estado-v1`, `a27pp-viajes-v1`). Pendiente de que David lo pruebe.
