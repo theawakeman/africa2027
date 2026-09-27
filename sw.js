@@ -1,8 +1,8 @@
-const VERSION = 'a27-20260927-2002';
+const VERSION = 'a27-20260927-2003';
 const PRECACHE = {
 "./cpd/": "6a874877ee",
 "./documentacion/": "b3793f5d58",
-"./": "46ad77d360",
+"./": "a6ff1955c5",
 "./mapa/": "b366db1e1d",
 "./paises/angola/historia/": "717b072a02",
 "./paises/angola/": "165a367c1b",
