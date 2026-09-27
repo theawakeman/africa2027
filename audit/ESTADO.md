@@ -508,3 +508,10 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   buscar carretera; con varios «pasar por aquí» se dibuja la pista a mano.
 - assets/js/africa.geo.json: Marruecos traía dentro el Sáhara Occidental (Dajla o Guerguerat salían como
   Marruecos). `tools/gen/fix_sahara.py` lo separa por el paralelo 27°40' N.
+
+## Planificador: tramos de visita y de paso (27-09-2026)
+
+- Cada punto de la lista lleva «tramo de visita / tramo de paso»: el tramo que llega a ese punto (con sus
+  fronteras) va al ritmo de visita o al de paso. Ajustes: «Km/día en tramos de visita» (250 por defecto,
+  RT.RITMO_VISITA) y «en tramos de paso» (450, RT.RITMO_TRANSITO). La carretera por Europa hasta el
+  ferry va al ritmo de paso, como en el Planificador clásico. Los tramos de paso se dibujan más finos.

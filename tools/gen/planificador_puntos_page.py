@@ -41,7 +41,7 @@ def config(FULL):
                "nota": f[14], "fuente": f[15]}
               for f in RT.FERRIES]
     return {"paises": paises, "fronteras": fronteras, "ferris": ferris, "ferry_pref": RT.FERRY_PREFERIDO,
-            "salida": RT.SALIDA, "regreso": RT.REGRESO_PREVISTO, "zonas": ZONAS, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
+            "salida": RT.SALIDA, "regreso": RT.REGRESO_PREVISTO, "ritmo_v": RT.RITMO_VISITA, "ritmo_t": RT.RITMO_TRANSITO, "zonas": ZONAS, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
 
 
 def presupuesto(D, nombres):
@@ -140,6 +140,7 @@ CSS = """
 .pp-gpx{list-style:none;margin:6px 0 0;padding:0;font-size:13px}
 .pp-gpx li{display:flex;gap:6px;align-items:center;border-left:4px solid #7B3FA0;padding:3px 0 3px 8px;margin:4px 0}
 .pp-gpx li span{flex:1;min-width:0}.pp-gpx li small{display:block;color:var(--ink-soft)}
+.pp-modo{font:inherit;font-size:11px;border:1px solid var(--line);border-radius:99px;padding:0 7px;margin-left:4px;background:transparent;color:var(--ink-soft);cursor:pointer}.pp-modo.paso{border-color:#D97B29;color:#D97B29;font-weight:700}
 .pp-recto{font-weight:700;color:#8B5A2B}.pp-recto.on{background:#8B5A2B;border-color:#8B5A2B;color:#fff}
 .pp-mk4{width:14px;height:14px;background:#D4A017;border:2px solid #5C4300;transform:rotate(45deg);border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.35)}
 .pp-pop .pp-r4{font-size:12.5px;line-height:1.4;margin:4px 0}
@@ -338,7 +339,7 @@ def render(FULL, navbar, VERSION):
     <div class="pp-sec">
       <h3>Ajustes</h3>
       <div class="pp-row"><label>Salida de {esc(cfg['origen'])} <input type="date" id="pp-salida"></label></div>
-      <div class="pp-row"><label>Km de conducción al día <input type="number" id="pp-kmdia" min="50" step="10" style="width:70px"></label><label>Margen % <input type="number" id="pp-margen" min="0" step="1" style="width:56px"></label></div>
+      <div class="pp-row"><label title="Tramos en los que se va parando y visitando">Km/día en tramos de visita <input type="number" id="pp-kmdia" min="50" step="10" style="width:70px"></label><label title="Tramos para avanzar: el tramo que llega a un punto marcado «de paso», y la carretera por Europa hasta el ferry">Km/día en tramos de paso <input type="number" id="pp-kmdiat" min="50" step="10" style="width:70px"></label><label>Margen % <input type="number" id="pp-margen" min="0" step="1" style="width:56px"></label></div>
       <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas y con guía obligatoria</label><label><input type="checkbox" id="pp-ver4x4" checked> Ver puntos 4x4</label><label><input type="checkbox" id="pp-verr4" checked> Ver rutas 4x4</label></div>
       <div class="pp-row"><label class="full">Países a evitar en la ruta <select id="pp-evitar-add"></select></label></div>
       <div class="pp-evitar" id="pp-evitar"></div>

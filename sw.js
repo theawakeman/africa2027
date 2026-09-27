@@ -1,8 +1,8 @@
-const VERSION = 'a27-20260927-1625';
+const VERSION = 'a27-20260927-1633';
 const PRECACHE = {
 "./cpd/": "3101fb1b9a",
 "./documentacion/": "c818230218",
-"./": "f8fe7aef1c",
+"./": "44f67f5fb5",
 "./mapa/": "801d975164",
 "./paises/angola/historia/": "2a248cbf4c",
 "./paises/angola/": "f0c2d20654",
@@ -117,7 +117,7 @@ const PRECACHE = {
 "./perro/": "dd85675109",
 "./planificador-clasico/": "a93159d53f",
 "./planificador-puntos/": "2926baba1a",
-"./planificador/": "f0a3e35dea",
+"./planificador/": "0fee865a9a",
 "./presupuesto/": "9edcd2b43b",
 "./visados/": "ba19302cf3",
 "./assets/css/site.css?v=b8ec3f9201": "b8ec3f9201",
@@ -131,7 +131,7 @@ const PRECACHE = {
 "./assets/js/map.js?v=29484ec2a4": "29484ec2a4",
 "./assets/js/pdi-detalle.json": "fe12fcd59f",
 "./assets/js/perromap.js?v=cb72346aa0": "cb72346aa0",
-"./assets/js/planificador-puntos.js?v=86c561f80e": "86c561f80e",
+"./assets/js/planificador-puntos.js?v=3b3af24deb": "3b3af24deb",
 "./assets/js/planificador-puntos.json": "d85f71b8c6",
 "./assets/js/presupuesto-xlsx.js?v=6cb35d90f7": "6cb35d90f7",
 "./assets/js/presupuesto.js?v=5ae41123c1": "5ae41123c1",
