@@ -11,6 +11,8 @@ import math
 import data_presupuesto as P
 import data_ruta as RT
 from data_visados import VISADOS as VIS_INFO
+from data_countries import REGIONES, REGION
+from recorridos import descripcion
 from site_common import esc, attr, page, callout, bullets
 
 JS_PATH = "presupuesto.js"
@@ -39,9 +41,9 @@ def _opts(slug, d, FULL):
             out.append((oid, label, pts))
     else:
         if len(d.get("corridor") or []) >= 2:
-            out.append(("A", d.get("corridor_label") or "Corredor principal", d["corridor"]))
+            out.append(("A", descripcion(slug, "corridor", d.get("corridor_label", "")) or "Recorrido A", d["corridor"]))
         if len(d.get("corridor_alt") or []) >= 2 and f"{slug}:B" in RT.KM:
-            out.append(("B", d.get("corridor_alt_label") or "Corredor alternativo", d["corridor_alt"]))
+            out.append(("B", descripcion(slug, "corridor_alt", d.get("corridor_alt_label", "")) or "Recorrido B", d["corridor_alt"]))
     res = []
     for oid, label, pts in out:
         k = f"{slug}:{oid}"
@@ -77,6 +79,7 @@ def datos(FULL, C):
             "gas": ({"eur": g[0], "fuente": g[1], "fecha": g[2], "nota": g[3]} if g else None),
             "vis": ("sin" if s in P.SIN_VISADO else ({"eur": vis[0], "txt": vis[1], "url": vis[2]} if vis else None)),
             "tasa": ({"eur": tasa[0], "txt": tasa[1]} if tasa else None),
+            "r": REGION.get("angola" if s == "cabinda" else s, ""),
             "ex": s in RT.EXCLUIDOS, "cf": s in RT.CONFLICTO, "nivel": nivel,
             "solo_paso": s == "cabinda",
         }
@@ -93,9 +96,7 @@ def datos(FULL, C):
                      "h": f[7], "frec": f[8], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "km_eu": f[12],
                      "gas": f[13], "nota": f[14], "fuente": f[15]} for f in RT.FERRIES],
         "gas_sin_dato": P.GASOIL_SIN_DATO,
-        "grupos": [("bajada", "Corredor oeste"), ("subida", "Corredor oeste · solo subida"),
-                   ("bucle", "Sur y este"), ("alternativa", "Opcionales"), ("fuera", "Fuera de la ruta prevista"),
-                   ("excluido", "Excluidos por protocolo (no se pueden marcar)")],
+        "grupos": [(r, l) for r, l, _ in REGIONES],
     }
     params = [{"id": a, "label": b, "val": c, "unidad": d, "ambito": e, "tipo": f, "nota": g}
               for a, b, c, d, e, f, g in P.PARAMETROS]
@@ -249,7 +250,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <div class="bud-grid" id="bud-ruta-cards"></div>
 <ul class="bud-avisos" id="bud-avisos"></ul>
 <p><strong>Toca un país en el mapa</strong> para añadirlo o quitarlo, o usa el desplegable. <strong>Arrastra</strong> los países de la lista (por el asa ⠿) para ponerlos en el orden que quieras: el viaje <strong>empieza en el primero y acaba en el último</strong>, y la página busca el ferry desde España a cada uno (o al puerto más cercano si no tienen). En cada fila elige <strong>Parar</strong> (el recorrido de su ficha) o <strong>Cruzar</strong> (lo más rápido posible). La ✕ quita el país; si es el único camino para seguir, se queda como «cruzar».</p>
-<div class="bud-mapkey"><span><i style="background:rgba(30,122,138,.55)"></i>Se para</span><span><i style="background:rgba(217,123,41,.5)"></i>Solo se cruza</span><span><i style="background:#fff;border:1px solid #8A949A"></i>Fuera de la ruta</span><span><i style="background:rgba(180,58,58,.2);border:1px dashed #B43A3A"></i>Excluido</span></div>
+<div class="bud-mapkey"><span><i style="background:rgba(30,122,138,.55)"></i>Se para</span><span><i style="background:rgba(217,123,41,.5)"></i>Solo se cruza</span><span><i style="background:#fff;border:1px solid #8A949A"></i>Fuera de la ruta</span><span><i style="background:rgba(180,58,58,.2);border:1px dashed #B43A3A"></i>En conflicto (solo si se marca)</span></div>
 <div id="bud-mapa" role="img" aria-label="Mapa de la ruta: toca un país para añadirlo o quitarlo"></div>
 <div class="bud-actions"><select id="ruta-add" aria-label="Añadir un país"></select><button type="button" id="ruta-opt">Ordenar por la ruta más corta</button><button type="button" id="ruta-plan">Volver a la ruta planificada</button><button type="button" id="ruta-none">Vaciar</button></div>
 <div class="bud-msg" id="bud-msg" role="status" aria-live="polite" hidden></div>
@@ -311,9 +312,9 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 </section>
 <section id="criterio"><h2>Criterio</h2>
 {bullets([
-    "Orden: el que se ponga en la lista. Entre un país y el siguiente se va por el camino más corto, sin cruzar fronteras cerradas ni países excluidos por protocolo (Mali, Guinea-Bisáu, Sudán). Los países en conflicto (Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) solo se usan si se marcan.",
+    "Orden: el que se ponga en la lista. Entre un país y el siguiente se va por el camino más corto, sin cruzar fronteras cerradas. Los países en conflicto (Mali, Sudán, Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) solo se usan si se marcan, y siempre con aviso.",
     "Al añadir un país se mete en el hueco del orden donde menos km suma; «Ordenar por la ruta más corta» rehace todo el orden. Las flechas del itinerario lo cambian a mano. Al quitar un país, el cálculo deja de usarlo también como paso, salvo que sea el único camino.",
-    "«Parar» hace el corredor de la ficha que toca (en los países de ida y vuelta, el de bajada a la ida y el de subida a la vuelta); «Cruzar» es un tránsito directo. En Marruecos, el Sahara Occidental y Mauritania cruzar es la vía rápida de la costa.",
+    "«Parar» hace el recorrido de la ficha que toca (en los países que se pasan dos veces, el recorrido A la primera vez y el B la segunda); «Cruzar» es un tránsito directo. En Marruecos, el Sahara Occidental y Mauritania cruzar es la vía rápida de la costa.",
     "Km de parada: OSRM (OpenStreetMap) por todos los puntos del corredor de la ficha, 26-09-2026. Km de enlace y de tránsito: línea recta × 1,25, así que son aproximados.",
     "Días = km ÷ ritmo (uno para los países de parada y otro para los de paso y la carretera en Europa) + horas de ferry + margen. Si se escribe una duración fija, se usa esa y la página dice qué ritmo haría falta.",
     "Ferris: el de ida es el recomendado para el primer país de la lista (Marruecos: GNV Barcelona–Tánger Med; Argelia: Valencia–Mostaganem; Túnez: Génova–Túnez); si ese país no tiene ferry, el del país con ferry más cercano, y desde allí se conduce. Igual con la vuelta y el último país.",

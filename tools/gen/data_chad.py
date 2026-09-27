@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Chad — ficha completa (18 sep 2026): FUERA DE LA RUTA PREVISTA.
 
-Chad está EXCLUIDO POR PROTOCOLO: régimen de Mahamat Déby tras la muerte de su padre en 2021 y la transición prorrogada, Boko Haram e ISWAP en la cuenca del lago Chad, desbordamiento de la guerra de Sudán en el este (cientos de miles de refugiados en Uadai y Enedi Este) y bandidaje en el norte. El MAEC desaconseja viajar. La app solo tiene una ficha stub: créala entera con el formato del piloto de Túnez. La ficha es INFORMATIVA. Clave: el norte (Enedi, Tibesti, Ounianga) fue el gran destino sahariano de los overlanders hasta 2019 y tiene DOS sitios UNESCO; documenta si hoy existe alguna vía legal (permiso de circulación, agencia autorizada, escolta) y con qué fuente fechada. Cada PDI tiene que decir en qué región está y qué dice el MAEC de esa región, porque el sur, la cuenca del lago y el norte no están igual.
+Chad no está en la ruta planificada: régimen de Mahamat Déby tras la muerte de su padre en 2021 y la transición prorrogada, Boko Haram e ISWAP en la cuenca del lago Chad, desbordamiento de la guerra de Sudán en el este (cientos de miles de refugiados en Uadai y Enedi Este) y bandidaje en el norte. El MAEC desaconseja viajar. La app solo tiene una ficha stub: créala entera con el formato del piloto de Túnez. La ficha es INFORMATIVA. Clave: el norte (Enedi, Tibesti, Ounianga) fue el gran destino sahariano de los overlanders hasta 2019 y tiene DOS sitios UNESCO; documenta si hoy existe alguna vía legal (permiso de circulación, agencia autorizada, escolta) y con qué fuente fechada. Cada PDI tiene que decir en qué región está y qué dice el MAEC de esa región, porque el sur, la cuenca del lago y el norte no están igual.
 
 Método: PDIs con pin comprobado uno a uno en Google Maps, tres fotografías de Wikimedia Commons por PDI (autor y licencia leídos de la API), fichas de decisión y enlaces concretos; historia de siete secciones con fuentes abiertas en la sesión; secciones operativas con fuente y fecha, y «por confirmar» donde no hay fuente. Expediente: audit/historia/chad.json y audit/pdi/chad.md.
 """
@@ -823,9 +823,9 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="chad", name="Chad", revision="18 sep 2026",
-    sub="EXCLUIDO POR PROTOCOLO — conflicto activo y MAEC desaconseja el viaje · ficha informativa · el norte (Enedi, Tibesti, Ounianga) solo con agencia autorizada",
+    sub="conflicto activo y MAEC desaconseja el viaje · ficha informativa · el norte (Enedi, Tibesti, Ounianga) solo con agencia autorizada",
     chips=[
-        ("ESTATUS", "EXCLUIDO POR PROTOCOLO. El MAEC recomienda posponer todo viaje no indispensable…"),
+        ("ESTATUS", "El MAEC recomienda posponer todo viaje no indispensable…"),
         ("CÓMO LLEGAR", "En avión a Yamena-Hassan Djamous (NDJ), único aeropuerto internacional, con París, Estambul, Adís Abeba…"),
         ("VISADO", "OBLIGATORIO y SOLO EN LÍNEA en evisa.td desde el 11 de mayo de 2026…"),
         ("VEHÍCULO", "Conducción por la DERECHA, permiso internacional de conducción exigido…"),
@@ -850,7 +850,7 @@ SPEC = dict(
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
     decision="Chad queda FUERA DE LA RUTA 2027. El MAEC recomienda posponer cualquier viaje no indispensable y señala «un serio riesgo de que se produzcan secuestros en todo el país», con riesgo alto en todo el este fronterizo con Sudán, la cuenca del lago Chad en estado de emergencia, el Tibesti, Borkou y Enedi, y una franja de 30 km en todas las fronteras. El FCDO (6 de agosto de 2026) desaconseja todo viaje al norte y al lago, y todo viaje no esencial al resto, incluida Yamena. Para dos 4x4 españoles con perro y una media de 250 km/día esto significa: seguro de viaje invalidado, asistencia consular solo remota desde Yaundé, autorización del Ministerio del Interior para salir de Yamena y escolta recomendada. Lo que sí existe hoy es una vía legal: la autorisation de circuler del Ministerio de Turismo y agencias chadianas que operan expediciones al Enedi, Ounianga y Tibesti en 4x4 propios de la agencia (Kumakonda 16 días por 3.100 € persona, Chad Travel and Tours 19 días al Tibesti por 8.350 $, ambas con salidas 2026-2027). Ese es el único formato documentado. Como apartado independiente costaría del orden de 4.000-6.000 € por persona con vuelo a Yamena, dos o tres semanas, y dejar los coches fuera del país. Decidir: si se acepta viajar contra recomendación oficial sin cobertura de seguro, y si alguien está dispuesto a dejar los vehículos y el perro en Camerún.",
     facts=[
-        ("Estatus", "EXCLUIDO POR PROTOCOLO. El MAEC recomienda posponer todo viaje no indispensable; FCDO y Canadá desaconsejan todo viaje al norte, al lago Chad y a 30 km de cualquier frontera."),
+        ("Estatus", "El MAEC recomienda posponer todo viaje no indispensable; FCDO y Canadá desaconsejan todo viaje al norte, al lago Chad y a 30 km de cualquier frontera."),
         ("Cómo llegar", "En avión a Yamena-Hassan Djamous (NDJ), único aeropuerto internacional, con París, Estambul, Adís Abeba, El Cairo, Duala, Abuya y Niamey. Por tierra, el paso realista es el puente Kousséri-Yamena desde Camerún."),
         ("Visado", "OBLIGATORIO y SOLO EN LÍNEA en evisa.td desde el 11 de mayo de 2026; los visados no tramitados en línea son inválidos desde el 21 de mayo de 2026. No hay visado en frontera. Registro policial obligatorio en 72 horas."),
         ("Vehículo/aduana", "Conducción por la DERECHA, permiso internacional de conducción exigido. No hay organismo AIT/FIA emisor de CPD en Chad; para el vehículo extranjero se usa laissez-passer de aduana. Autorización del Ministerio del Interior para circular fuera de Yamena."),

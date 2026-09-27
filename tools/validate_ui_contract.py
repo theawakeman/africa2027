@@ -42,10 +42,12 @@ match = re.search(r'<script>var A27_GEN = (\{.*?\});</script>', map_html, re.S)
 require(match, "no se encuentra la configuración generada del mapa")
 config = json.loads(match.group(1))
 require(config.get("defaultOn") == [
-    "Corredor de bajada (ida)",
-    "Corredor de subida (vuelta)",
+    "Ruta planificada · ida",
+    "Ruta planificada · vuelta",
     "Puntos de interés",
 ], "las capas visibles por defecto han cambiado")
+require(config.get("viaje") is True and "Tu viaje" in config.get("groupOrder", []),
+        "el mapa general debe dibujar el viaje calculado en Presupuesto")
 
 # Evita mezclar HTML nuevo con CSS/JS antiguos en una pestaña controlada por PWA.
 require("assets/css/site.css?v=" in map_html, "falta versionar el CSS")
@@ -90,7 +92,7 @@ require(visa_config["data"]["angola"]["pasos"] == "7 mar · 20 jun",
 require(visa_config["data"]["tanzania"]["pasos"] == "16 abr" and
         visa_config["data"]["mozambique"]["pasos"] == "24 abr",
         "se han perdido las correcciones manuscritas del bucle oriental")
-expected_facts = ["FECHAS", "BAJADA", "SUBIDA", "VISADO", "CPD", "SEGURO", "SEGURIDAD",
+expected_facts = ["EN TU VIAJE", "FECHAS", "FRONTERAS", "VISADO", "CPD", "SEGURO", "SEGURIDAD",
                   "PDIs", "4x4", "A PIE", "VACUNACIÓN", "DRONES", "STARLINK", "PELIGROS"]
 require('.chips.country-facts { grid-template-columns:repeat(7,minmax(0,1fr)); }' in css,
         "la cabecera de país debe mantener siete columnas y dos filas en escritorio")
@@ -101,9 +103,11 @@ require('-webkit-line-clamp:2' in css,
         "los resúmenes de cabecera no pueden crecer más de dos líneas")
 for page in country_pages:
     html = page.read_text(encoding="utf-8")
-    match = re.search(r'<div class="chips country-facts">(.*?)</div>\s*<main', html, re.S)
+    match = re.search(r'<div class="chips country-facts" data-pais="[a-z-]+">(.*?)</div>\s*<main', html, re.S)
     require(match, f"falta la cabecera uniforme en {page.relative_to(ROOT)}")
     labels = re.findall(r'<span class="chip-label">([^<]+)</span>', match.group(1))
+    require(len(re.findall(r'data-viaje="(en|fechas|fronteras)"', match.group(1))) == 3,
+            f"faltan los campos dinámicos del viaje en {page.relative_to(ROOT)}")
     require(labels == expected_facts,
             f"campos u orden incorrectos en {page.relative_to(ROOT)}: {labels}")
     require('<div class="callout-title">Calendario aproximado</div>' not in html,

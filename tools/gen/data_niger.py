@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Níger — ficha completa (18 sep 2026): FUERA DE LA RUTA PREVISTA.
 
-Níger está EXCLUIDO POR PROTOCOLO: golpe militar de julio de 2023, junta del CNSP, salida de la CEDEAO junto a Mali y Burkina Faso, ruptura con Francia y con la misión militar estadounidense, y yihadismo activo en Tillabéri (frontera de las tres fronteras), Diffa (Boko Haram/ISWAP) y el norte. El MAEC desaconseja viajar bajo cualquier circunstancia. La app solo tiene una ficha stub: créala entera con el formato del piloto de Túnez. La ficha es INFORMATIVA. Ojo a dos datos que hay que verificar bien: el estado del visado tras la ruptura diplomática (dónde se pide ahora para un español) y si el Aïr y el Ténéré, que fueron el gran destino sahariano de los años noventa, tienen hoy alguna vía legal de acceso. El Árbol del Ténéré original fue derribado en 1973 y está en el Museo Nacional de Niamey: dilo, no lo pongas como si siguiera en pie.
+Níger no está en la ruta planificada: golpe militar de julio de 2023, junta del CNSP, salida de la CEDEAO junto a Mali y Burkina Faso, ruptura con Francia y con la misión militar estadounidense, y yihadismo activo en Tillabéri (frontera de las tres fronteras), Diffa (Boko Haram/ISWAP) y el norte. El MAEC desaconseja viajar bajo cualquier circunstancia. La app solo tiene una ficha stub: créala entera con el formato del piloto de Túnez. La ficha es INFORMATIVA. Ojo a dos datos que hay que verificar bien: el estado del visado tras la ruptura diplomática (dónde se pide ahora para un español) y si el Aïr y el Ténéré, que fueron el gran destino sahariano de los años noventa, tienen hoy alguna vía legal de acceso. El Árbol del Ténéré original fue derribado en 1973 y está en el Museo Nacional de Niamey: dilo, no lo pongas como si siguiera en pie.
 
 Método: PDIs con pin comprobado uno a uno en Google Maps, tres fotografías de Wikimedia Commons por PDI (autor y licencia leídos de la API), fichas de decisión y enlaces concretos; historia de siete secciones con fuentes abiertas en la sesión; secciones operativas con fuente y fecha, y «por confirmar» donde no hay fuente. Expediente: audit/historia/niger.json y audit/pdi/niger.md.
 """
@@ -863,9 +863,9 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="niger", name="Níger", revision="18 sep 2026",
-    sub="EXCLUIDO POR PROTOCOLO — junta militar, yihadismo activo y escolta militar obligatoria fuera de Niamey · ficha informativa",
+    sub="junta militar, yihadismo activo y escolta militar obligatoria fuera de Niamey · ficha informativa",
     chips=[
-        ("ESTATUS", "EXCLUIDO POR PROTOCOLO. MAEC: «SE DESACONSEJA ABSOLUTAMENTE VIAJAR A NÍGER»…"),
+        ("ESTATUS", "MAEC: «SE DESACONSEJA ABSOLUTAMENTE VIAJAR A NÍGER»…"),
         ("CÓMO LLEGAR", "Solo en avión, al Aeropuerto Internacional Diori Hamani de Niamey (NIM/DRRN)…"),
         ("VISADO", "OBLIGATORIO Y PRESENCIAL. Níger no tiene embajada en Madrid: el MAEC remite a la Embajada…"),
         ("VEHÍCULO", "Históricamente laissez-passer local en lugar de CPD (Sahara Overland)…"),
@@ -890,10 +890,10 @@ SPEC = dict(
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
     decision="Níger queda fuera de la ruta de 2027 y no se plantea ni como tramo alternativo ni como desvío corto. El MAEC desaconseja absolutamente viajar a todo el país y el FCDO británico mantiene «advise against all travel»; ese doble aviso, por sí solo, deja el viaje sin cobertura de seguro y convierte cualquier incidente en un problema sin red. Sobre eso se acumula lo operativo: fuera de Niamey la escolta de las fuerzas de seguridad nigerinas es obligatoria según el FCDO, los convoyes privados de seguridad que citaba Niger Travel and Tours ya en 2018 partían de 4.000 dólares por cinco a siete días alrededor de Agadez, y en 2026 el aeropuerto de Niamey fue atacado en enero y en junio y fue escenario del intento de golpe del 29 de agosto. La frontera con Benín, la puerta natural desde Cotonú, sigue cerrada desde 2023 pese al compromiso de reapertura firmado en junio de 2026. Si algún día fuera viable, no sería una etapa de la vuelta sino un viaje aparte: vuelo a Niamey, operador local, permisos y escolta contratados con antelación, y un presupuesto que con escolta militar y guía se va con facilidad por encima de 5.000–8.000 euros por persona para diez días, sin contar el seguro de riesgo de guerra. Lo que habría que decidir entonces es sencillo: si el objetivo es el Aïr y el Ténéré, se va en avión y con operador; los vehículos propios no entran en esa ecuación.",
     facts=[
-        ("Estatus", "EXCLUIDO POR PROTOCOLO. MAEC: «SE DESACONSEJA ABSOLUTAMENTE VIAJAR A NÍGER». FCDO: «advises against all travel to Niger» (todo el país)."),
+        ("Estatus", "MAEC: «SE DESACONSEJA ABSOLUTAMENTE VIAJAR A NÍGER». FCDO: «advises against all travel to Niger» (todo el país)."),
         ("Cómo llegar", "Solo en avión, al Aeropuerto Internacional Diori Hamani de Niamey (NIM/DRRN). Operan Air Algérie, Ethiopian, Turkish, Royal Air Maroc, ASKY, Air France y otras."),
         ("Visado", "OBLIGATORIO Y PRESENCIAL. Níger no tiene embajada en Madrid: el MAEC remite a la Embajada de Níger en BRUSELAS. No se expide visado en aeropuerto ni en frontera terrestre."),
-        ("Vehículo/aduana", "Históricamente laissez-passer local en lugar de CPD (Sahara Overland). Con el país excluido y la escolta obligatoria, la entrada con vehículo propio matriculado en España es inviable en la práctica."),
+        ("Vehículo/aduana", "Históricamente laissez-passer local en lugar de CPD (Sahara Overland). Con la escolta obligatoria, la entrada con vehículo propio matriculado en España es inviable en la práctica."),
         ("Seguro", "Carta Verde NO cubre Níger. El seguro regional es la Carte Brune de la CEDEAO, pero Níger salió de la CEDEAO junto a Mali y Burkina Faso: su validez futura está POR CONFIRMAR."),
         ("Moneda", "Franco CFA de África Occidental (XOF), paridad fija 1 EUR = 655,957 FCFA (MAEC). País de efectivo: cajeros escasos y tarjetas de aceptación muy limitada (FCDO)."),
         ("Perro", "Entrada con microchip, rabia de más de 1 mes y menos de 1 año y certificado sanitario internacional de menos de 10 días (AniVetVoyage). Sin web oficial nigerina localizable: POR CONFIRMAR."),
@@ -1096,7 +1096,7 @@ SPEC = dict(
         ("Aviso oficial sobre drones", "Localizar y abrir anac.ne o el Journal Officiel nigerino con el reglamento de aeronaves no tripuladas y su régimen de importación."),
     ],
     sources=SOURCES,
-    sources_note="Ficha revisada el 18 de septiembre de 2026. Todos los datos proceden de páginas abiertas en esa revisión y llevan la fecha de su fuente; lo que no se pudo confirmar aparece como «por confirmar» y está recogido en pendientes. Esta ficha es una herramienta de planificación, no una autorización de viaje: Níger está excluido por protocolo y nada de lo aquí escrito sustituye a la recomendación del MAEC ni a la decisión de una aseguradora.",
+    sources_note="Ficha revisada el 18 de septiembre de 2026. Todos los datos proceden de páginas abiertas en esa revisión y llevan la fecha de su fuente; lo que no se pudo confirmar aparece como «por confirmar» y está recogido en pendientes. Esta ficha es una herramienta de planificación, no una autorización de viaje: el MAEC desaconseja Níger y nada de lo aquí escrito sustituye a la recomendación del MAEC ni a la decisión de una aseguradora.",
     emergency="EMERGENCIA CONSULAR ESPAÑOLA EN NÍGER: +227 96 83 83 94 (Embajada de España en Niamey, Rue AM-5, Koira Kano; centralita +227 20 75 59 61/62/64, emb.niamey@maec.es). Números nacionales de Níger: POLICÍA 17, AMBULANCIA 15, BOMBEROS 18 (Wikipedia, lista de números de emergencia). No confundir con Nigeria, que usa el 112. La respuesta real de ambulancia y bomberos es muy limitada: el canal principal es el teléfono consular, y fuera de Niamey la embajada no puede garantizar asistencia.",
 )
 

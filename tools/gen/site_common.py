@@ -339,6 +339,17 @@ a.card { transition:transform .15s ease; } a.card:hover { transform:translateY(-
 .b-draft { background:var(--amber-bg); color:var(--amber); }
 .b-off { background:var(--grey-bg); color:var(--grey); }
 .b-x { background:var(--red-bg); color:var(--red); }
+.b-viaje { background:var(--red-bg); color:var(--red); }
+.b-paso { background:var(--amber-bg); color:var(--amber); }
+.callout.viaje-ruta { border-left-color:#B43A3A; }
+.callout.viaje-ruta ol { margin:6px 0 0; padding-left:20px; }
+.viaje-portal { margin:18px 0 6px; }
+.viaje-lista { display:flex; flex-wrap:wrap; gap:6px; list-style:none; padding:0; margin:10px 0 0; }
+.viaje-lista a { display:inline-block; border:1px solid var(--line); border-radius:99px; padding:3px 10px; font-family:"Archivo",sans-serif; font-size:13px; text-decoration:none; color:var(--ink); background:var(--surface); }
+.viaje-lista a.para { border-color:#1E7A8A; }
+.viaje-lista a.cruza { border-style:dashed; color:var(--ink-soft); }
+.viaje-lista small { color:var(--ink-soft); }
+.notice.viaje-nota { text-align:left; max-width:none; font-size:13.5px; }
 .hero .verif-badge { display:inline-block; margin:8px 0 2px; align-self:auto; }
 
 .btn { display:inline-block; background:var(--teal); color:#fff; border:none; border-radius:8px; padding:8px 16px; font-size:14px; font-weight:700; text-decoration:none; cursor:pointer; }
@@ -467,6 +478,7 @@ def page(root, title, body, extra_head=""):
 </head>
 <body>
 {body}
+<script src="{root}assets/js/viaje.js"></script>
 {SW_SNIPPET}
 </body>
 </html>"""

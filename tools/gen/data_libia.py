@@ -851,7 +851,7 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="libia", name="Libia", revision="18 sep 2026",
-    sub="EXCLUIDO POR PROTOCOLO — conflicto activo y país partido en dos gobiernos · ficha informativa e histórica: cinco sitios UNESCO, TODOS en la Lista del Patrimonio Mundial en Peligro desde 2016",
+    sub="conflicto activo y país partido en dos gobiernos · ficha informativa e histórica: cinco sitios UNESCO, TODOS en la Lista del Patrimonio Mundial en Peligro desde 2016",
     chips=[
         ("ESTATUS", "EXCLUIDO. Fuera de la ruta prevista. Ficha informativa; no se planifica entrada con los vehículos."),
         ("CÓMO LLEGAR", "Solo en avión y con tour cerrado: Túnez–Mitiga (Libyan Wings, Tunisair) o Roma–Mitiga (ITA)…"),

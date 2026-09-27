@@ -78,9 +78,9 @@ VISADOS = {
         entradas="2 entradas", alerta="La propia recomendación española pide coordinar la solicitud con la Embajada; no viajar solo con el justificante.",
         oficial="https://www.paf.gov.gn/visa", maec=_maec("Guinea")),
     "guinea-bisau": visa(
-        "no_viable", "Visado obligatorio para españoles; país excluido por protocolo tras el golpe de noviembre de 2025.",
+        "no_viable", "Visado obligatorio para españoles; junta militar tras el golpe de noviembre de 2025.",
         "Si se reabriera el desvío: visado en el consulado de Ziguinchor (25.000 XOF/30 días, en el día) o en la Embajada de Madrid; nunca contar con el de frontera.",
-        ruta="excluido", entradas="Simple (doble entrada citada en 2016); 30/60/90 días", coste="25.000 XOF (~40 €) 30 días en Ziguinchor (2025); Madrid por confirmar",
+        ruta="fuera", entradas="Simple (doble entrada citada en 2016); 30/60/90 días", coste="25.000 XOF (~40 €) 30 días en Ziguinchor (2025); Madrid por confirmar",
         alerta="eVisa paralizada y visado en frontera terrestre «ni claro ni estable» (MAEC, 19-3-2026).",
         oficial="", maec=_maec("Guinea Bissau")),
     "sierra-leona": visa(
@@ -239,9 +239,9 @@ VISADOS = {
         alerta="El MAEC afirma que NO se conceden visados en fronteras terrestres: llegar a Moyale sin visado emitido es arriesgarse al rechazo.",
         oficial="https://www.evisa.gov.et/", maec=_maec("Etiopía")),
     "sudan": visa(
-        "no_viable", "Visado obligatorio previo en la Embajada de Sudán en Madrid (5 semanas–2 meses), pero el país está excluido por guerra y el MAEC desaconseja viajar bajo cualquier circunstancia.",
+        "no_viable", "Visado obligatorio previo en la Embajada de Sudán en Madrid (5 semanas–2 meses), pero el país está en guerra y el MAEC desaconseja viajar bajo cualquier circunstancia.",
         "Ninguna: no se tramita; si algún día se reconsidera, pedirlo en Madrid (Av. Miraflores 63) con 2 meses de margen y registrarse en Interior en 3 días.",
-        ruta="excluido", entradas="Solo aeropuertos de Port Sudán y Jartum; pasos terrestres cerrados a extranjeros (MAEC)", coste="Por confirmar (150 USD en Asuán en 2023, relato de viajero)",
+        ruta="fuera", entradas="Solo aeropuertos de Port Sudán y Jartum; pasos terrestres cerrados a extranjeros (MAEC)", coste="Por confirmar (150 USD en Asuán en 2023, relato de viajero)",
         alerta="Sello israelí en el pasaporte = entrada denegada; permiso de viaje para salir del estado del Mar Rojo o de Jartum.",
         oficial="", maec=_maec("Sudán")),
     "egipto": visa(
@@ -276,8 +276,8 @@ VISADOS = {
         maec=_maec("Túnez")),
     "mali": visa(
         "no_viable", "Visado obligatorio y previo en la Embajada de Mali en Madrid (presencia personal); Mali no expide visados en frontera, y el país está vetado por el MAEC.",
-        "Ninguna: país excluido; si se reabriera, pedir cita en Madrid con formulario, fotos, carta de invitación y certificado de fiebre amarilla.",
-        ruta="excluido", entradas="Visado de 30 días, entrada única (según relatos); por confirmar", coste="Por confirmar en Madrid (referencia regional: ~45 € en Nuakchot, 2024)",
+        "Ninguna mientras dure la situación; si se reabriera, pedir cita en Madrid con formulario, fotos, carta de invitación y certificado de fiebre amarilla.",
+        ruta="fuera", entradas="Visado de 30 días, entrada única (según relatos); por confirmar", coste="Por confirmar en Madrid (referencia regional: ~45 € en Nuakchot, 2024)",
         alerta="Algunas embajadas europeas han dejado de emitir visados turísticos y otras tardan semanas (2024-2026).",
         oficial="https://www.embajadademali.es/", maec=_maec("Malí")),
     "argelia": visa(
@@ -287,7 +287,7 @@ VISADOS = {
         alerta="Se deniega sin motivar y sobrepasar la estancia autorizada supone detención a la salida y hasta tres meses de prisión.",
         oficial="https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Argelia", maec=_maec("Argelia")),
     "niger": visa(
-        "no_viable", "Visado obligatorio y presencial en la Embajada de Níger en Bruselas, pero el país está excluido por protocolo y desaconsejado absolutamente por el MAEC.",
+        "no_viable", "Visado obligatorio y presencial en la Embajada de Níger en Bruselas, pero el MAEC lo desaconseja absolutamente.",
         "No tramitar: si algún día se reconsiderase, escribir a la Embajada de Níger en Bruselas (+32 2 648 61 40) y pedir requisitos, tasa y plazo por escrito.",
         ruta="fuera", entradas="Presencial en Bruselas · pasaporte 6 meses", coste="por confirmar",
         alerta="NO se expiden visados en aeropuertos ni en fronteras terrestres (MAEC): sin visado previo no se entra.",
@@ -300,12 +300,12 @@ VISADOS = {
         oficial="https://evisa.td/", maec=_maec("Chad")),
     "rca": visa(
         "no_viable", "Visado obligatorio y previo en la Embajada de la RCA en París, sobre un país que el MAEC pide abandonar.",
-        "No se tramita: el país queda excluido por protocolo y no se solicita visado.",
+        "No se tramita mientras el país no entre en la ruta.",
         ruta="fuera", entradas="Una entrada, previa en París", coste="50 € orientativos según la web de Dzanga-Sangha; tarifa oficial por confirmar",
         alerta="El «visa volant» a la llegada solo lo gestionan operadores locales con carta de invitación y contratación de tour.",
         oficial="", maec=_maec("República Centroafricana")),
     "sudan-del-sur": visa(
-        "no_viable", "Visado obligatorio por eVisa o embajada, pero el país está excluido por protocolo: el MAEC desaconseja el viaje bajo cualquier circunstancia.",
+        "no_viable", "Visado obligatorio por eVisa o embajada, pero el MAEC desaconseja el viaje bajo cualquier circunstancia.",
         "No tramitar. Si algún día se rebajara el aviso, eVisa en evisa.gov.ss o solicitud en la Embajada de Sudán del Sur en París, acreditada ante España.",
         ruta="fuera", entradas="Entrada única o múltiple según el tipo de eVisa", coste="100 USD para pasaportes europeos (tarifario consular sursudanés)",
         alerta="NO hay visado a la llegada: EE. UU. y Canadá lo niegan expresamente. Además, salir de Yuba exige un «alien travel permit» aparte.",
@@ -353,7 +353,7 @@ VISADOS = {
         alerta="Da igual el visado si no se puede entrar: la frontera con Ruanda sigue cerrada desde enero de 2024 y solo quedan Tanzania y, con riesgo, Gatumba.",
         oficial="https://www.migration.gov.bi/", maec=_maec("Burundi")),
     "burkina-faso": visa(
-        "no_viable", "El visado existe y se tramita en línea, pero el país está excluido por protocolo y lo desaconsejan MAEC, FCDO y Canadá.",
+        "no_viable", "El visado existe y se tramita en línea, pero lo desaconsejan el MAEC, el FCDO y Canadá.",
         "No tramitar: el tramo se sustituye por el norte de Ghana y Costa de Marfil; si algún día se reabriera, solicitar el eVisa en visaburkina.bf y la fiche de voyage en las 72 h previas.",
         ruta="fuera", entradas="Una o múltiples, estancia máxima 90 días", coste="33.000 FCFA turismo una entrada (~50 €); 55.000 FCFA múltiples entradas (~84 €)",
         alerta="Desde el 8 de abril de 2026 la «fiche de voyage» es obligatoria además del visado, y la validez del eVisa en pasos terrestres sigue sin confirmar.",

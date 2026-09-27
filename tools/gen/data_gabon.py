@@ -447,7 +447,7 @@ SPEC = dict(
                         "Tracks4Africa, y Gabón es de los países del continente con MENOS documentación overland disponible — hay muy pocos relatos y casi ninguno reciente."),
     experiencias=EXPERIENCIAS,
     pendientes=[
-        ("ESTATUS", "Ninguna acción pendiente mientras Gabón siga excluido. Esta ficha existe para tener la información, no para ejecutarla"),
+        ("ESTATUS", "Ninguna acción pendiente mientras Gabón no entre en el viaje. Esta ficha existe para tener la información, no para ejecutarla"),
         ("Si se reconsiderara · visado", "Llamar al consulado de Gabón en Barcelona (o a la embajada en Madrid): tasa del visado consular, plazo, documentación, si sirve para entrada terrestre y qué aceptan como justificante de entrada/salida en un viaje sin billete de avión. Pedir validez larga y entradas múltiples"),
         ("Si se reconsiderara · perro", "Escribir a la administración veterinaria gabonesa (Direction Générale de l'Élevage) para conocer los requisitos reales de importación y si admiten entrada por puesto terrestre. Es el agujero documental más grande de esta ficha"),
         ("Si se reconsiderara · Loango", "Confirmar operador, pista de acceso, precio y reserva con meses de antelación: es el punto más difícil de organizar del país"),

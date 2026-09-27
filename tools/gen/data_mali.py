@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Mali — ficha completa (18 sep 2026): EXCLUIDO POR PROTOCOLO.
+"""Mali — ficha completa (18 sep 2026).
 
-Mali está EXCLUIDO POR PROTOCOLO del proyecto: conflicto activo (junta militar desde 2020-2021, yihadismo en el centro y el norte, retirada de la MINUSMA en 2023), y el MAEC desaconseja viajar a todo el país. La ruta 2027 no toca ninguna frontera maliense (el corredor Senegal→Guinea por Kalifourou–Sambaïlo la evita expresamente). La ficha es INFORMATIVA: se redacta completa (PDIs, historia, trámites) por si en el futuro cambia la situación, dejando claro en cada punto el estado de seguridad actual con fuente y fecha. Ojo: la localidad guineana llamada Mali (Fouta Djalon) no es este país.
+Mali no está en la ruta planificada: conflicto activo (junta militar desde 2020-2021, yihadismo en el centro y el norte, retirada de la MINUSMA en 2023), y el MAEC desaconseja viajar a todo el país. La ruta 2027 no toca ninguna frontera maliense (el corredor Senegal→Guinea por Kalifourou–Sambaïlo la evita expresamente). La ficha es INFORMATIVA: se redacta completa (PDIs, historia, trámites) por si en el futuro cambia la situación, dejando claro en cada punto el estado de seguridad actual con fuente y fecha. Ojo: la localidad guineana llamada Mali (Fouta Djalon) no es este país.
 
 Método: PDIs con pin comprobado uno a uno en Google Maps, tres fotografías de Wikimedia Commons por PDI (autor y licencia leídos de la API), fichas de decisión y enlaces concretos; historia de siete secciones con fuentes abiertas en la sesión; secciones operativas con fuente y fecha, y «por confirmar» donde no hay fuente. Expediente: audit/historia/mali.json y audit/pdi/mali.md.
 """
@@ -715,7 +715,7 @@ STARLINK_CALLOUT = ("warn", "STARLINK: SIN SERVICIO OFICIAL Y CON HISTORIAL DE P
                     "A 18-09-2026 Mali no aparece como país activo de Starlink: figura entre los «próximamente 2026» junto a Mauritania, Guinea y Burkina Faso (tech.africa 25-06-2026; Mappr 05-2026). En marzo de 2024 la AMRTP declaró ilegal y sancionable el uso no autorizado de terminales; en octubre de 2024 la junta levantó la suspensión seis meses para redactar un marco legal. Un terminal en itinerancia funcionaría técnicamente o no según la política de SpaceX, pero jurídicamente sería equipo sin licencia en un país que lo asocia a los yihadistas.")
 
 DOG_MATRIX = [
-    ("Todo Mali (protocolo del proyecto)", "prohibido", "País excluido; el perro permanece con los vehículos en Senegal/Guinea con uno de los viajeros."),
+    ("Todo Mali (MAEC: desaconsejado bajo cualquier circunstancia)", "prohibido", "País fuera de la ruta; el perro permanece con los vehículos en Senegal/Guinea con uno de los viajeros."),
     ("Bamako (hoteles, Sleeping Camel)", "por confirmar", "Ningún alojamiento verificado admite perros; The Sleeping Camel era el campamento overlander de referencia (2016-17) pero no se ha comprobado su estado en 2026."),
     ("Parques y reservas (Boucle du Baoulé, Bafing)", "por confirmar", "Sin información oficial sobre mascotas; zonas fronterizas de Kayes desaconsejadas por el MAEC."),
     ("País Dogón, Djenné, Mopti, Tombuctú", "prohibido", "Riesgo muy elevado (MAEC); ni perro ni personas."),
@@ -910,9 +910,9 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="mali", name="Mali", revision="18 sep 2026",
-    sub="EXCLUIDO POR PROTOCOLO — conflicto activo y bloqueo yihadista del combustible · ficha informativa (revisión 18-09-2026)",
+    sub="conflicto activo y bloqueo yihadista del combustible · ficha informativa (revisión 18-09-2026)",
     chips=[
-        ("ESTATUS", "EXCLUIDO POR PROTOCOLO. MAEC (30-04-2026): «se desaconseja el viaje a Mali bajo cualquier circunstancia»…"),
+        ("ESTATUS", "MAEC (30-04-2026): «se desaconseja el viaje a Mali bajo cualquier circunstancia»…"),
         ("CÓMO LLEGAR", "Solo en avión a Bamako-Sénou (BKO): Air France y Corsair desde París, Royal Air Maroc vía Casablanca…"),
         ("VISADO", "OBLIGATORIO y previo: Mali NO expide visados en frontera (MAEC)…"),
         ("VEHÍCULO", "Mali no tiene club emisor de CPD afiliado a AIT/FIA y carnetdepassage.org no lo marca como obligatorio…"),
@@ -928,16 +928,16 @@ SPEC = dict(
         ("VENTANA", "Lluvias de finales de abril a principios de octubre en el sur…"),
     ],
     center=[14.02, -5.71], zoom=5,
-    notice="Documento de planificación de un país EXCLUIDO POR PROTOCOLO: no forma parte de la ruta 2027. La ficha se mantiene completa por si en el futuro cambia la situación o se plantea un viaje aparte. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
+    notice="Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
     corridor_label="Bucle oeste y eje del Níger: Bamako – Siby – Kita – Bafoulabé – Gouina – Kayes – Bamako – Koulikoro – Ségou – Djenné – Mopti – Bandiagara – Sangha – Douentza – Hombori – Gao",
     corridor_alt_label="Variante norte por el río: Mopti – Douentza – Tombuctú – Niafunké – lago Débo – Mopti (pista y pinaza); más bucle sur Bamako – Sikasso – Ségou",
     hero_img="https://commons.wikimedia.org/wiki/Special:FilePath/MaliDjenn%C3%A9Mosqu%C3%A9e.JPG?width=1200",
     hero_credit="Djenné · BluesyPete · CC BY-SA 3.0",
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
-    decision="Mali queda fuera de la ruta 2027 por protocolo y no hay margen de discusión a fecha de hoy: el MAEC «desaconseja el viaje a Mali bajo cualquier circunstancia» (actualización 30-04-2026), el FCDO británico advierte contra todo viaje y pide expresamente no intentar salir del país por carretera (10-07-2026) y Canadá mantiene «evitar todo viaje» con estado de emergencia nacional (09-09-2026). Desde septiembre de 2025 el JNIM bloquea el combustible que entra por Senegal y Costa de Marfil, ataca cisternas escoltadas y monta controles móviles en la N1 (Bamako–Kayes–Diboli) y en la carretera de Sikasso; el 25 de abril de 2026 atacó Bamako y su aeropuerto, y el 28 de abril reimplantó el bloqueo total. El corredor Senegal→Guinea por Kalifourou–Sambaïlo evita cualquier frontera maliense. Si algún día cambiara la situación, la forma razonable de «hacer» Mali sería aparte y sin los vehículos: vuelo Barcelona→Bamako vía París (Air France/Corsair), Casablanca (RAM) o Estambul (Turkish), 3–5 días con guía local acreditado limitados a Bamako, Siby y Ségou, con visado tramitado en la Embajada de Mali en Madrid; orden de magnitud 900–1.500 € por persona sin contar el visado, cifra sin contrastar en esta sesión. Habría que decidir antes: quién custodia a los coches y al perro, si se acepta viajar a un país sin seguro de evacuación viable y con qué criterio objetivo (MAEC por debajo de «desaconsejado») se reabriría el debate.",
+    decision="Mali no está en la ruta planificada y, con los datos de hoy, no hay margen de discusión: el MAEC «desaconseja el viaje a Mali bajo cualquier circunstancia» (actualización 30-04-2026), el FCDO británico advierte contra todo viaje y pide expresamente no intentar salir del país por carretera (10-07-2026) y Canadá mantiene «evitar todo viaje» con estado de emergencia nacional (09-09-2026). Desde septiembre de 2025 el JNIM bloquea el combustible que entra por Senegal y Costa de Marfil, ataca cisternas escoltadas y monta controles móviles en la N1 (Bamako–Kayes–Diboli) y en la carretera de Sikasso; el 25 de abril de 2026 atacó Bamako y su aeropuerto, y el 28 de abril reimplantó el bloqueo total. El corredor Senegal→Guinea por Kalifourou–Sambaïlo evita cualquier frontera maliense. Si algún día cambiara la situación, la forma razonable de «hacer» Mali sería aparte y sin los vehículos: vuelo Barcelona→Bamako vía París (Air France/Corsair), Casablanca (RAM) o Estambul (Turkish), 3–5 días con guía local acreditado limitados a Bamako, Siby y Ségou, con visado tramitado en la Embajada de Mali en Madrid; orden de magnitud 900–1.500 € por persona sin contar el visado, cifra sin contrastar en esta sesión. Habría que decidir antes: quién custodia a los coches y al perro, si se acepta viajar a un país sin seguro de evacuación viable y con qué criterio objetivo (MAEC por debajo de «desaconsejado») se reabriría el debate.",
     facts=[
-        ("Estatus", "EXCLUIDO POR PROTOCOLO. MAEC (30-04-2026): «se desaconseja el viaje a Mali bajo cualquier circunstancia». FCDO (10-07-2026) y Canadá (09-09-2026): evitar todo viaje. Junta militar desde 2020-21; Goïta con mandato de 5 años renovable sin elecciones (Freedom House 2026: 21/100, No Libre)."),
+        ("Estatus", "MAEC (30-04-2026): «se desaconseja el viaje a Mali bajo cualquier circunstancia». FCDO (10-07-2026) y Canadá (09-09-2026): evitar todo viaje. Junta militar desde 2020-21; Goïta con mandato de 5 años renovable sin elecciones (Freedom House 2026: 21/100, No Libre)."),
         ("Cómo llegar", "Solo en avión a Bamako-Sénou (BKO): Air France y Corsair desde París, Royal Air Maroc vía Casablanca, Turkish vía Estambul, Tunisair, Ethiopian. Por tierra, el FCDO pide no intentar entrar ni salir por carretera. La ruta 2027 no toca ninguna frontera maliense."),
         ("Visado", "OBLIGATORIO y previo: Mali NO expide visados en frontera (MAEC). Se tramita en la Embajada de Mali en Madrid (presencia personal); coste y plazos por confirmar. Autorización especial para periodismo/fotografía."),
         ("Vehículo/aduana", "Mali no tiene club emisor de CPD afiliado a AIT/FIA y carnetdepassage.org no lo marca como obligatorio; en la práctica se entraba con pase de aduana temporal en frontera (relatos anteriores a 2018). Permiso internacional de conducir obligatorio (MAEC). Sin verificación posible en 2025-26: nadie cruza con vehículo propio."),
@@ -3174,7 +3174,7 @@ SPEC = dict(
         ("Criterio objetivo para reabrir el debate sobre Mali", "Acordar en el grupo: MAEC por debajo de «desaconsejado», fin del bloqueo y al menos dos relatos overland con vehículo en 12 meses."),
     ],
     sources=SOURCES,
-    sources_note="Revisión documental cerrada el 18 de septiembre de 2026 con las fuentes listadas; los avisos oficiales citados llevan su fecha (MAEC 30-04-2026, FCDO 10-07-2026, Canadá 09-09-2026). Esta ficha es una herramienta de planificación, no una autorización ni un aval de seguridad: Mali está excluido del proyecto y cualquier reconsideración exige volver a las fuentes oficiales el día de la decisión.",
+    sources_note="Revisión documental cerrada el 18 de septiembre de 2026 con las fuentes listadas; los avisos oficiales citados llevan su fecha (MAEC 30-04-2026, FCDO 10-07-2026, Canadá 09-09-2026). Esta ficha es una herramienta de planificación, no una autorización ni un aval de seguridad: Mali no está en la ruta planificada y cualquier decisión de incluirlo exige volver a las fuentes oficiales el día de la decisión.",
     emergency="Emergencia consular Embajada de España en Bamako (24 h): +223 73 31 23 24; centralita +223 44 98 24 30 (Ficha País 02-2026) / +223 20 70 73 50 (Recomendaciones MAEC 04-2026). Policía Bamako +223 20 28 42 48; Gendarmería +223 80 88 11 14; Bomberos +223 80 00 12 01; Ambulancia +223 90 50 50 26 76 (MAEC). Números cortos según Canadá: policía 17, urgencias médicas 15, bomberos 18.",
 )
 

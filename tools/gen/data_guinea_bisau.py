@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Guinea-Bisáu — ficha completa (18 sep 2026): EXCLUIDO POR PROTOCOLO.
+"""Guinea-Bisáu — ficha completa (18 sep 2026).
 
-Guinea-Bisáu está EXCLUIDA POR PROTOCOLO del proyecto por su inestabilidad política recurrente (golpes y disolución del Parlamento; comprueba la situación de 2025-2026 con fuentes fechadas). El corredor Senegal→Guinea de la ruta 2027 (Kalifourou–Sambaïlo) la evita expresamente. La ficha es INFORMATIVA y completa por si en el futuro se plantea un desvío desde Casamance (Ziguinchor–Mpack–São Domingos) o una escapada a los Bijagós: PDIs, historia, trámites, dejando claro el estado de seguridad y el visado.
+Guinea-Bisáu no está en la ruta planificada por su inestabilidad política recurrente (golpes y disolución del Parlamento; comprueba la situación de 2025-2026 con fuentes fechadas). El corredor Senegal→Guinea de la ruta 2027 (Kalifourou–Sambaïlo) la evita expresamente. La ficha es INFORMATIVA y completa por si en el futuro se plantea un desvío desde Casamance (Ziguinchor–Mpack–São Domingos) o una escapada a los Bijagós: PDIs, historia, trámites, dejando claro el estado de seguridad y el visado.
 
 Método: PDIs con pin comprobado uno a uno en Google Maps, tres fotografías de Wikimedia Commons por PDI (autor y licencia leídos de la API), fichas de decisión y enlaces concretos; historia de siete secciones con fuentes abiertas en la sesión; secciones operativas con fuente y fecha, y «por confirmar» donde no hay fuente. Expediente: audit/historia/guinea-bisau.json y audit/pdi/guinea-bisau.md.
 """
@@ -840,9 +840,9 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="guinea-bisau", name="Guinea-Bisáu", revision="18 sep 2026",
-    sub="EXCLUIDO POR PROTOCOLO — junta militar desde noviembre de 2025 · ficha informativa (Casamance–São Domingos y Bijagós)",
+    sub="junta militar desde noviembre de 2025 · ficha informativa (Casamance–São Domingos y Bijagós)",
     chips=[
-        ("ESTATUS", "EXCLUIDO POR PROTOCOLO. Junta militar desde el 26-11-2025; suspendido de CEDEAO y UA…"),
+        ("ESTATUS", "Junta militar desde el 26-11-2025; suspendido de CEDEAO y UA…"),
         ("CÓMO LLEGAR", "Por tierra desde Casamance (Ziguinchor–Mpack–São Domingos, principal paso)…"),
         ("VISADO", "OBLIGATORIO para españoles. Embajada en Madrid (Av…"),
         ("VEHÍCULO", "Sin CPD el aduanero emite un passavant de 2 semanas (2.500 XOF, relatos 2016)…"),
@@ -858,16 +858,16 @@ SPEC = dict(
         ("VENTANA", "Lluvias de junio a octubre: muchas pistas intransitables (MAEC)…"),
     ],
     center=[11.64, -15.41], zoom=7,
-    notice="Documento de planificación de un país EXCLUIDO POR PROTOCOLO: no forma parte de la ruta 2027. La ficha se mantiene completa por si en el futuro cambia la situación o se plantea un viaje aparte. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
+    notice="Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
     corridor_label="Casamance → São Domingos → Cacheu/Varela → Bisáu → Bafatá → Gabú → Saltinho → Buba → Cantanhez",
     corridor_alt_label="Escapada Casamance–Varela–Cacheu (bucle norte, 2-3 días)",
     hero_img="https://commons.wikimedia.org/wiki/Special:FilePath/Lagoa_com_hipop%C3%B3tamos_01.jpg?width=1200",
     hero_credit="Parque nacional de Orango · Joehawkins · CC BY-SA 4.0",
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
-    decision="Guinea-Bisáu queda fuera de la ruta 2027 por protocolo: el 26 de noviembre de 2025 el ejército anuló las elecciones del 23 de noviembre y entregó el poder a una junta («Alto Mando Militar para la Restauración del Orden») presidida por el general Horta Inta-A Na Man; la CEDEAO y la Unión Africana suspendieron al país (1 de diciembre de 2025), un referéndum constitucional del 30 de agosto de 2026 amplió los poderes presidenciales y las elecciones están convocadas para el 6 de diciembre de 2026 (Wikipedia, Africanews, APA). El MAEC (19 de marzo de 2026) habla de «nueva etapa de inestabilidad institucional y política» y Freedom House 2026 lo califica «Parcialmente libre» (33/100). Es el noveno golpe consumado desde 1974: la inestabilidad es estructural, no coyuntural. La ruta Senegal→Guinea por Kalifourou–Sambaïlo lo evita. Si algún día se planteara un desvío, la opción realista sería una escapada de 4–6 días desde Ziguinchor por Mpack–São Domingos hasta Bissau (unos 130 km, asfalto degradado) con visado obtenido ANTES en el consulado de Ziguinchor (25.000 XOF/30 días en 2025), passavant aduanero de 2 semanas (2.500 XOF en relatos antiguos) y Carte Brune CEDEAO; a los Bijagós solo se iría sin coches (ferry o lancha, 16.500–30.000 XOF por persona). Coste orientativo del desvío: 400–700 € por vehículo sin contar Bijagós. Habría que decidir: resultado y aceptación de las elecciones de diciembre de 2026, situación de la frontera norte (Casamance) y si compensa el riesgo con perro y dos vehículos.",
+    decision="Guinea-Bisáu no está en la ruta planificada: el 26 de noviembre de 2025 el ejército anuló las elecciones del 23 de noviembre y entregó el poder a una junta («Alto Mando Militar para la Restauración del Orden») presidida por el general Horta Inta-A Na Man; la CEDEAO y la Unión Africana suspendieron al país (1 de diciembre de 2025), un referéndum constitucional del 30 de agosto de 2026 amplió los poderes presidenciales y las elecciones están convocadas para el 6 de diciembre de 2026 (Wikipedia, Africanews, APA). El MAEC (19 de marzo de 2026) habla de «nueva etapa de inestabilidad institucional y política» y Freedom House 2026 lo califica «Parcialmente libre» (33/100). Es el noveno golpe consumado desde 1974: la inestabilidad es estructural, no coyuntural. La ruta Senegal→Guinea por Kalifourou–Sambaïlo lo evita. Si algún día se planteara un desvío, la opción realista sería una escapada de 4–6 días desde Ziguinchor por Mpack–São Domingos hasta Bissau (unos 130 km, asfalto degradado) con visado obtenido ANTES en el consulado de Ziguinchor (25.000 XOF/30 días en 2025), passavant aduanero de 2 semanas (2.500 XOF en relatos antiguos) y Carte Brune CEDEAO; a los Bijagós solo se iría sin coches (ferry o lancha, 16.500–30.000 XOF por persona). Coste orientativo del desvío: 400–700 € por vehículo sin contar Bijagós. Habría que decidir: resultado y aceptación de las elecciones de diciembre de 2026, situación de la frontera norte (Casamance) y si compensa el riesgo con perro y dos vehículos.",
     facts=[
-        ("Estatus", "EXCLUIDO POR PROTOCOLO. Junta militar desde el 26-11-2025; suspendido de CEDEAO y UA; elecciones previstas el 6-12-2026. MAEC: «viajar con precaución»; Canadá: evitar la franja de 20 km junto a Senegal."),
+        ("Estatus", "Junta militar desde el 26-11-2025; suspendido de CEDEAO y UA; elecciones previstas el 6-12-2026. MAEC: «viajar con precaución»; Canadá: evitar la franja de 20 km junto a Senegal."),
         ("Cómo llegar", "Por tierra desde Casamance (Ziguinchor–Mpack–São Domingos, principal paso), desde Tambacounda/Vélingara por Pirada, o desde Guinea por Buruntuma–Kandika. Avión: aeropuerto Osvaldo Vieira (OXB) con TAP Lisboa, Royal Air Maroc, Air Senegal, ASKY."),
         ("Visado", "OBLIGATORIO para españoles. Embajada en Madrid (Av. de América 16) o consulado de Ziguinchor (25.000 XOF/30 días, en el día, 2025). eVisa paralizada; visado en frontera terrestre NO fiable (MAEC)."),
         ("Vehículo/aduana", "Sin CPD el aduanero emite un passavant de 2 semanas (2.500 XOF, relatos 2016); con CPD debería sellarse gratis, pero los relatos describen confusión del personal. Conducción por la DERECHA; MAEC exige permiso internacional; Canadá dice que no lo reconoce (3 meses con carné propio)."),

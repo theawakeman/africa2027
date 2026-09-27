@@ -183,6 +183,13 @@ function a27Map(elId, cfg){
   const groups = {};
   // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.
   const on = cfg.defaultOn ? new Set(cfg.defaultOn) : null;
+  // Viaje calculado en Presupuesto (mismo navegador): se dibuja como «Tu viaje».
+  let viaje = null;
+  if (cfg.viaje) {
+    try { viaje = JSON.parse(localStorage.getItem('a27-ruta-resumen') || 'null'); } catch(e) { viaje = null; }
+    if (!viaje || !viaje.linea || viaje.linea.length < 2) viaje = null;
+    if (viaje && on) { on.add('Tu viaje'); (cfg.viajeOff || []).forEach(l => on.delete(l)); }
+  }
   function group(label){
     if (!groups[label]) {
       groups[label] = L.layerGroup();
@@ -192,6 +199,11 @@ function a27Map(elId, cfg){
   }
   // Orden fijo de la leyenda (las capas no listadas van después, por orden de aparición).
   (cfg.groupOrder || []).forEach(label => { if (!groups[label]) groups[label] = null; });
+  if (viaje) {
+    const pv = L.polyline(viaje.linea, {color: '#B43A3A', weight: 5, opacity: .75});
+    pv.bindTooltip('Tu viaje · ' + a27Esc(viaje.nombre || '') + (viaje.salida ? ' · salida ' + a27Esc(viaje.salida) : ''), {sticky: true});
+    pv.addTo(group('Tu viaje'));
+  }
   (cfg.lines || []).forEach(li => {
     const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
     if (li.title) pl.bindTooltip(li.title, {sticky: true});

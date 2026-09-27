@@ -152,11 +152,12 @@ PLAN = {
 }
 
 # ---------------------------------------------------------------- restricciones
-# No se pueden marcar ni se usan para pasar (protocolo del proyecto).
-EXCLUIDOS = {"mali", "guinea-bisau", "sudan"}
+# Ningún país está vetado en el planificador: los que están en conflicto van
+# en CONFLICTO (solo se usan si se marcan y siempre con aviso).
+EXCLUIDOS = set()
 # Se pueden marcar, con aviso, pero el cálculo nunca los usa como paso si no
 # están marcados.
-CONFLICTO = {"libia", "burkina-faso", "niger", "chad", "rca", "sudan-del-sur", "somalia"}
+CONFLICTO = {"mali", "sudan", "libia", "burkina-faso", "niger", "chad", "rca", "sudan-del-sur", "somalia"}
 # Sin carretera desde el continente: no entran en el planificador.
 ISLAS = {"madagascar", "cabo-verde", "santo-tome", "comoras", "seychelles", "mauricio"}
 
@@ -183,8 +184,8 @@ FRONTERAS = [
     ("benin", "nigeria", "", ""), ("benin", "niger", "", ""), ("benin", "burkina-faso", "", ""),
     ("nigeria", "camerun", "", ""), ("nigeria", "niger", "", ""), ("nigeria", "chad", "", ""),
     ("camerun", "chad", "", ""), ("camerun", "rca", "", ""), ("camerun", "congo", "", ""),
-    ("camerun", "gabon", "", ""), ("camerun", "guinea-ecuatorial", "", ""),
-    ("guinea-ecuatorial", "gabon", "", ""), ("gabon", "congo", "", ""),
+    ("camerun", "gabon", "", ""), ("camerun", "guinea-ecuatorial", "cerrada", "Fronteras terrestres de Guinea Ecuatorial cerradas desde el 15-12-2025"),
+    ("guinea-ecuatorial", "gabon", "cerrada", "Fronteras terrestres de Guinea Ecuatorial cerradas desde el 15-12-2025"), ("gabon", "congo", "", ""),
     ("congo", "rca", "", ""), ("congo", "cabinda", "", "Massabi"),
     ("congo", "rd-congo", "ferry", "Ferry Brazzaville–Kinshasa"),
     ("cabinda", "rd-congo", "", "Yema"),
@@ -204,7 +205,7 @@ FRONTERAS = [
     ("malaui", "tanzania", "", ""),
     ("tanzania", "burundi", "", ""), ("tanzania", "ruanda", "", ""), ("tanzania", "uganda", "", ""),
     ("tanzania", "kenia", "", ""),
-    ("burundi", "ruanda", "", ""), ("ruanda", "uganda", "", ""),
+    ("burundi", "ruanda", "cerrada", "Cerrada por Burundi desde enero de 2024"), ("ruanda", "uganda", "", ""),
     ("uganda", "kenia", "", ""), ("uganda", "sudan-del-sur", "", ""),
     ("kenia", "sudan-del-sur", "", ""), ("kenia", "etiopia", "", "Moyale"), ("kenia", "somalia", "", ""),
     ("etiopia", "sudan-del-sur", "", ""), ("etiopia", "sudan", "", ""), ("etiopia", "yibuti", "", ""),

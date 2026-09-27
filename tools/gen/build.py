@@ -32,7 +32,8 @@ def destinos_conocidos():
     return out
 import data_senegal
 import data_mauritania
-from data_countries import C, GROUP_LABELS
+from data_countries import C, GROUP_LABELS, REGION, REGION_LABELS, REGIONES
+from recorridos import etiqueta as etiqueta_recorrido, descripcion as descripcion_recorrido, subtitulo as subtitulo_neutro
 
 VERSION = datetime.datetime.now().strftime("%Y%m%d-%H%M")
 TODAY = "12 de septiembre de 2026"
@@ -260,6 +261,13 @@ function a27Map(elId, cfg){
   const groups = {};
   // Capas encendidas al cargar: todas, salvo que cfg.defaultOn diga cuáles.
   const on = cfg.defaultOn ? new Set(cfg.defaultOn) : null;
+  // Viaje calculado en Presupuesto (mismo navegador): se dibuja como «Tu viaje».
+  let viaje = null;
+  if (cfg.viaje) {
+    try { viaje = JSON.parse(localStorage.getItem('a27-ruta-resumen') || 'null'); } catch(e) { viaje = null; }
+    if (!viaje || !viaje.linea || viaje.linea.length < 2) viaje = null;
+    if (viaje && on) { on.add('Tu viaje'); (cfg.viajeOff || []).forEach(l => on.delete(l)); }
+  }
   function group(label){
     if (!groups[label]) {
       groups[label] = L.layerGroup();
@@ -269,6 +277,11 @@ function a27Map(elId, cfg){
   }
   // Orden fijo de la leyenda (las capas no listadas van después, por orden de aparición).
   (cfg.groupOrder || []).forEach(label => { if (!groups[label]) groups[label] = null; });
+  if (viaje) {
+    const pv = L.polyline(viaje.linea, {color: '#B43A3A', weight: 5, opacity: .75});
+    pv.bindTooltip('Tu viaje · ' + a27Esc(viaje.nombre || '') + (viaje.salida ? ' · salida ' + a27Esc(viaje.salida) : ''), {sticky: true});
+    pv.addTo(group('Tu viaje'));
+  }
   (cfg.lines || []).forEach(li => {
     const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
     if (li.title) pl.bindTooltip(li.title, {sticky: true});
@@ -398,14 +411,14 @@ def map_points(d, with_ficha=True):
 def map_lines(d):
     lines = []
     if d.get("corridor"):
-        lines.append({"label":d.get("corridor_label","Corredor"),"color":"#1E7A8A","pts":[[round(a,5),round(b,5)] for a,b in d["corridor"]]})
+        lines.append({"label":etiqueta_recorrido(d["slug"], "corridor", d.get("corridor_label",""), "A"),"color":"#1E7A8A","pts":[[round(a,5),round(b,5)] for a,b in d["corridor"]]})
     if d.get("corridor_alt"):
-        lines.append({"label":d.get("corridor_alt_label","Corredor (alternativo)"),"color":"#C47F17","dash":True,"pts":[[round(a,5),round(b,5)] for a,b in d["corridor_alt"]]})
+        lines.append({"label":etiqueta_recorrido(d["slug"], "corridor_alt", d.get("corridor_alt_label",""), "B"),"color":"#C47F17","dash":True,"pts":[[round(a,5),round(b,5)] for a,b in d["corridor_alt"]]})
     for extra in d.get("extra_corridors", []):
         if not isinstance(extra, dict) or not extra.get("pts"):
             continue
         lines.append({
-            "label": extra.get("label", "Ramal"),
+            "label": "Ramal · " + (descripcion_recorrido(d["slug"], "extra", extra.get("label", "")) or "sin nombre"),
             "color": extra.get("color", "#5F6B72"),
             "dash": bool(extra.get("dash", True)),
             "pts": [[round(a, 5), round(b, 5)] for a, b in extra["pts"]],
@@ -417,8 +430,9 @@ def map_lines(d):
 # Papel de cada corredor de país en el mapa general. En las fichas cada país
 # conserva sus propias etiquetas; aquí se agrupan en cuatro capas para que la
 # leyenda no tenga un ramal por país:
-#   bajada      → «Corredor de bajada (ida)»      · encendida por defecto
-#   subida      → «Corredor de subida (vuelta)»   · encendida por defecto
+#   bajada      → «Ruta planificada · ida»        · encendida si no hay viaje propio
+#   subida      → «Ruta planificada · vuelta»     · encendida si no hay viaje propio
+# (el viaje configurado en Presupuesto se dibuja aparte como «Tu viaje»)
 #   variante    → «Variantes por país»            · apagada
 #   alternativa → «Ramales y alternativas»        · apagada
 # (papel del corredor principal, papel del corredor alternativo)
@@ -435,13 +449,13 @@ MAPA_GENERAL_ROLES = {
     "botsuana": ("subida", "variante"), "sudafrica": ("subida", "subida"), "namibia": ("subida", "variante"),
 }
 MAPA_GENERAL_CAPAS = {
-    "bajada":      ("Corredor de bajada (ida)",    "#1E7A8A", False),
-    "subida":      ("Corredor de subida (vuelta)", "#C47F17", False),
+    "bajada":      ("Ruta planificada · ida",      "#1E7A8A", False),
+    "subida":      ("Ruta planificada · vuelta",   "#C47F17", False),
     "variante":    ("Variantes por país",          "#5F6B72", True),
     "alternativa": ("Ramales y alternativas",      "#9AA5AB", True),
 }
-MAPA_GENERAL_ON = ["Corredor de bajada (ida)", "Corredor de subida (vuelta)", "Puntos de interés"]
-MAPA_GENERAL_ORDEN = ["Corredor de bajada (ida)", "Corredor de subida (vuelta)", "Puntos de interés",
+MAPA_GENERAL_ON = ["Ruta planificada · ida", "Ruta planificada · vuelta", "Puntos de interés"]
+MAPA_GENERAL_ORDEN = ["Tu viaje", "Ruta planificada · ida", "Ruta planificada · vuelta", "Puntos de interés",
                       "Variantes por país", "Ramales y alternativas", "Fronteras", "Hospitales",
                       "Consulados", "Agua de servicio", "Combustible", "Servicios"]
 
@@ -455,7 +469,7 @@ def map_lines_general(d):
             continue
         label, color, dash = MAPA_GENERAL_CAPAS[role]
         lines.append({"label": label, "color": color, "dash": dash,
-                      "title": f"{d['name']} · {d.get(key + '_label', 'Corredor')}",
+                      "title": f"{d['name']} · " + etiqueta_recorrido(d["slug"], key, d.get(key + "_label", ""), "A" if key == "corridor" else "B"),
                       "pts": [[round(a, 5), round(b, 5)] for a, b in d[key]]})
     for extra in d.get("extra_corridors", []):
         if not isinstance(extra, dict) or not extra.get("pts"):
@@ -465,7 +479,7 @@ def map_lines_general(d):
             role = "alternativa"
         label, color, dash = MAPA_GENERAL_CAPAS[role]
         lines.append({"label": label, "color": color, "dash": dash,
-                      "title": f"{d['name']} · {extra.get('label', 'Ramal')}",
+                      "title": f"{d['name']} · Ramal · " + (descripcion_recorrido(d["slug"], "extra", extra.get("label", "")) or "sin nombre"),
                       "pts": [[round(a, 5), round(b, 5)] for a, b in extra["pts"]]})
     return lines
 
@@ -484,6 +498,19 @@ def top_nav(root, extra=""):
     return navbar(root, items, extra)
 
 # ---------------------------------------------------------------- full ficha
+VIAJE_CHIPS = {"EN TU VIAJE": "en", "FECHAS": "fechas", "FRONTERAS": "fronteras"}
+
+
+def chips_html(facts):
+    """Cabecera de 14 campos; los tres primeros los completa viaje.js con el plan activo."""
+    out = ""
+    for l, v in facts:
+        k = VIAJE_CHIPS.get(l)
+        dv = f' data-viaje="{k}"' if k else ""
+        out += f'<div class="chip" title="{attr(v)}"{dv}><span class="chip-label">{esc(l)}</span><b>{esc(v)}</b></div>'
+    return out
+
+
 def render_ficha(d):
     from data_cabeceras import construir as construir_cabecera
     root = "../../"
@@ -506,11 +533,10 @@ def render_ficha(d):
                          if s == slug), ("", "", "", "", "", ""))
     fallback = dict(zip(("seguridad", "frontera", "visado", "cpd", "perro", "nota"), fallback_row))
     facts = construir_cabecera(slug, grupo_plan, data=d, fallback=fallback)
-    chips = "".join(
-        f'<div class="chip" title="{attr(v)}"><span class="chip-label">{esc(l)}</span><b>{esc(v)}</b></div>'
-        for l, v in facts
-    )
+    chips = chips_html(facts)
 
+    sub = subtitulo_neutro(d.get("sub", ""))
+    sub_html = f'<p class="sub">{esc(sub)}</p>' if sub else ""
     verif_badge = ('<span class="badge b-ok verif-badge">✓ Ficha verificada</span>' if d.get("verificado")
                    else '<span class="badge b-draft verif-badge">Ficha borrador — pendiente de verificar</span>')
     hero = f"""
@@ -522,10 +548,10 @@ def render_ficha(d):
     <div class="kicker">FICHA DE PAÍS · REVISIÓN {esc(d['revision']).upper()}</div>
     {verif_badge}
     <h1>{esc(d['name'])}</h1>
-    <p class="sub">{esc(d['sub'])}</p>
+    {sub_html}
   </div>
 </header>
-<div class="chips country-facts">{chips}</div>"""
+<div class="chips country-facts" data-pais="{slug}">{chips}</div>"""
 
     body = [hero, f'<main><p class="notice">{rich(d["notice"])} <a href="{MYMAPS}" target="_blank" rel="noopener">Abrir el My Maps África 2027</a></p>']
 
@@ -537,7 +563,7 @@ def render_ficha(d):
 
     # --- interactive map section ---
     cfg = {"center": d["center"], "zoom": d["zoom"], "root": root,
-           "points": map_points(d, with_ficha=False), "lines": map_lines(d)}
+           "points": map_points(d, with_ficha=False), "lines": map_lines(d), "viaje": True}
     for p in cfg["points"]:
         if p["type"] == "poi":
             n = next(x["n"] for x in d["pois"] if x["name"] == p["name"])
@@ -547,8 +573,9 @@ def render_ficha(d):
         else:
             p["ficha"] = "#logistica"
     map_html = (
+        f'<div class="callout viaje-ruta" data-viaje-ruta hidden></div>'
         f'<div id="fichamap" class="mapbox"></div>'
-        f'<p class="figcap">Activa o desactiva los corredores y ramales desde la leyenda. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'
+        f'<p class="figcap">Activa o desactiva los recorridos y ramales desde la leyenda. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'
         f'<script>var A27_FICHA = {json.dumps(cfg, ensure_ascii=False)};</script>'
     )
     # El mapa ocupa siempre el punto 3. En las fichas con historia queda justo
@@ -557,13 +584,18 @@ def render_ficha(d):
     map_inserted = False
     has_history = any(sid == "historia" for sid, _title, _inner in d["custom_sections"])
     for sid, title, inner in d["custom_sections"]:
+        if sid == "ruta" and re.search(r"\b(bajada|subida)\b", inner, re.I):
+            inner = ('<p class="notice viaje-nota">Esta sección se escribió para la ruta planificada original: '
+                     '«bajada» es la ida hacia el sur y «subida» la vuelta. En tu viaje cada recorrido se usa según el '
+                     f'orden que pongas en <a href="{root}presupuesto/">Presupuesto</a>; el mapa de arriba dice por dónde '
+                     'entras y sales.</p>' + inner)
         body.append(sec(sid, title, inner))
         insert_here = sid == "historia" if has_history else n_sec == 2
         if insert_here:
-            body.append(sec("mapa", "Mapa del corredor", map_html))
+            body.append(sec("mapa", "Mapa de recorridos", map_html))
             map_inserted = True
     if not map_inserted:
-        body.append(sec("mapa", "Mapa del corredor", map_html))
+        body.append(sec("mapa", "Mapa de recorridos", map_html))
 
     # --- POI table ---
     poi_rows, row_attrs = [], []
@@ -689,20 +721,12 @@ def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota
     root = "../../"
     nav = navbar(root, [("Mapa general", root + "mapa/"), ("Visados", root + "visados/"),
                         ("Documentación", root + "documentacion/"), ("Todos los países", root + "#paises")], name)
-    glabel = GROUP_LABELS[group]
-    if group == "excluido":
-        badge = '<span class="badge b-x">Excluido por protocolo</span>'
-    elif group == "fuera":
-        badge = '<span class="badge b-off">Fuera de la ruta prevista</span>'
-    else:
-        badge = '<span class="badge b-draft">Borrador · pendiente de revisión</span>'
+    glabel = REGION_LABELS.get(REGION.get(slug, ""), "")
+    badge = '<span class="badge b-draft">Borrador · pendiente de revisión</span>'
     fallback = {"seguridad": seguridad, "frontera": frontera, "visado": visado,
                 "cpd": cpd, "perro": perro, "nota": nota}
     facts = construir_cabecera(slug, group, fallback=fallback)
-    chips = "".join(
-        f'<div class="chip" title="{attr(v)}"><span class="chip-label">{esc(l)}</span><b>{esc(v)}</b></div>'
-        for l, v in facts
-    )
+    chips = chips_html(facts)
     rows = [("Seguridad y conflicto", seguridad), ("Frontera terrestre", frontera),
             ("Visado (españoles)", visado), ("Vehículos / CPD", cpd),
             ("Perro", perro), ("Nota de ruta", nota)]
@@ -718,7 +742,7 @@ def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota
   <h1>{esc(name)}</h1>
   <p class="sub">{esc(glabel)}</p>
 </div></header>
-<div class="chips country-facts">{chips}</div>
+<div class="chips country-facts" data-pais="{slug}">{chips}</div>
 <main>
 <p style="margin-top:14px">{badge}</p>
 <section id="estado" style="margin-top:10px"><h2>Estado de planificación</h2>{inner}</section>
@@ -812,33 +836,30 @@ def render_historia(d):
 def render_portal(countries):
     root = ""
     nav = top_nav(root)
-    ruta_total = sum(1 for c in countries if c["group"] in ("bajada", "bucle", "subida"))
     ruta_slugs = [c["slug"] for c in countries if c["group"] in ("bajada", "bucle", "subida")]
-    ruta_completas = sum(1 for c in countries if c["group"] in ("bajada", "bucle", "subida") and c["estado"] == "completa")
-    groups = {}
+    n_completas = sum(1 for c in countries if c["estado"] == "completa")
+    por_region = {}
     for c in countries:
-        groups.setdefault(c["group"], []).append(c)
-    cards_html = ""
-    order = ["bajada", "bucle", "subida", "alternativa", "vuelo", "excluido", "fuera"]
-    for g in order:
-        if g not in groups:
+        por_region.setdefault(REGION.get(c["slug"], ""), []).append(c)
+    cards_html = ('<div class="viaje-portal" data-viaje-portal hidden></div>'
+                  '<p class="figcap">Las fichas se agrupan por regiones. El orden del viaje, y si cada país se '
+                  'recorre o solo se cruza, se decide en <a href="presupuesto/">Presupuesto</a>; con un viaje '
+                  'calculado, cada tarjeta indica su papel en él.</p>')
+    for g, glabel, _ in REGIONES:
+        if g not in por_region:
             continue
         cards = ""
-        for c in sorted(groups[g], key=lambda x: x["order"]):
+        for c in sorted(por_region[g], key=lambda x: x["name"]):
             if c["estado"] == "completa":
                 badge = '<span class="badge b-ok">Ficha disponible</span>'
                 badge += (' <span class="badge b-ok">✓ Verificada</span>' if c.get("verificado")
                           else ' <span class="badge b-draft">Contenido borrador</span>')
-            elif c["group"] == "excluido":
-                badge = '<span class="badge b-x">Excluido</span>'
-            elif c["group"] == "fuera":
-                badge = '<span class="badge b-off">Fuera de ruta</span>'
             else:
                 badge = '<span class="badge b-draft">Borrador</span>'
             img = f'<img src="{c["img"]}" alt="" loading="lazy">' if c.get("img") else ""
             meta = esc(c.get("meta", ""))
-            cards += f"""<a class="card" href="paises/{c['slug']}/">{img}<div class="body"><h3>{esc(c['name'])}</h3>{badge}<span class="meta">{meta}</span></div></a>"""
-        cards_html += f'<h3 style="margin-top:26px">{esc(GROUP_LABELS[g])}</h3><div class="cards">{cards}</div>'
+            cards += f"""<a class="card" href="paises/{c['slug']}/" data-pais="{c['slug']}">{img}<div class="body"><h3>{esc(c['name'])}</h3>{badge}<span class="meta">{meta}</span></div></a>"""
+        cards_html += f'<h3 style="margin-top:26px">{esc(glabel)}</h3><div class="cards">{cards}</div>'
 
     body = f"""{nav}
 <header class="hero">
@@ -847,13 +868,13 @@ def render_portal(countries):
   <div class="inner">
     <div class="kicker">EXPEDICIÓN OVERLAND · ENERO–AGOSTO 2027</div>
     <h1>África 2027</h1>
-    <p class="sub">Barcelona → Sudáfrica → Barcelona · 2 vehículos 4x4 · 3 viajeros · 1 perro</p>
+    <p class="sub" data-viaje="portal-sub">Barcelona → Sudáfrica → Barcelona · 2 vehículos 4x4 · 3 viajeros · 1 perro</p>
   </div>
 </header>
 <div class="chips">
-  <div class="chip"><span class="chip-label">SALIDA</span><b>10 ene 2027</b></div>
-  <div class="chip"><span class="chip-label">REGRESO</span><b>~15 ago 2027</b></div>
-  <div class="chip"><span class="chip-label">FICHAS COMPLETAS</span><b>{ruta_completas} de {ruta_total} en ruta</b></div>
+  <div class="chip" data-viaje="salida"><span class="chip-label">SALIDA</span><b>10 ene 2027</b></div>
+  <div class="chip" data-viaje="regreso"><span class="chip-label">REGRESO</span><b>~15 ago 2027</b></div>
+  <div class="chip"><span class="chip-label">FICHAS COMPLETAS</span><b>{n_completas} de {len(countries)} países</b></div>
   <div class="chip"><span class="chip-label">VERSIÓN</span><b>{VERSION}</b></div>
 </div>
 <main>
@@ -870,7 +891,7 @@ def render_portal(countries):
 <section id="paises"><h2>Fichas de país</h2>{cards_html}</section>
 <section id="offline"><h2>Uso sin conexión</h2>
 <p class="callout" style="display:block"><strong>Instalar en el móvil:</strong> abre esta página en el navegador y usa «Añadir a pantalla de inicio». La app guarda todas las fichas, mapas de puntos y textos en el teléfono y funciona sin cobertura. Las fotos de los PDIs vienen de Wikimedia Commons y otras webs: solo quedan guardadas las que ya se han visto, salvo que se descarguen antes con el botón de abajo (o el de cada país). El mapa base necesita internet la primera vez que se ve cada zona. Cuando vuelve a haber conexión, la app comprueba sola si hay cambios y avisa con «Nueva versión disponible».</p>
-{offline_box("Guardar todas las fotos de la ruta (bajada, bucle y subida) para verlas sin conexión", points="assets/js/points.json", slugs=ruta_slugs)}
+{offline_box("Guardar todas las fotos de los países de la ruta planificada para verlas sin conexión", points="assets/js/points.json", slugs=ruta_slugs)}
 <p class="figcap">Son más de mil fotos (del orden de 150–300 MB). Mejor con wifi, antes de salir. Las fotos guardadas se conservan aunque la app se actualice.</p>
 </section>
 <footer>ÁFRICA 2027 · versión {VERSION} · <a href="documentacion/">documentación</a> · <a href="mapa/">mapa</a></footer>
@@ -883,14 +904,15 @@ def render_map_page(all_points, all_lines):
     nav = navbar(root, [("Portal", root), ("Visados", root + "visados/"),
                         ("Documentación", root + "documentacion/")], "Mapa general")
     cfg = {"center": [14.0, -5.0], "zoom": 4, "root": root, "points": all_points, "lines": all_lines,
-           "defaultOn": MAPA_GENERAL_ON, "groupOrder": MAPA_GENERAL_ORDEN}
+           "defaultOn": MAPA_GENERAL_ON, "groupOrder": MAPA_GENERAL_ORDEN, "viaje": True,
+           "viajeOff": ["Ruta planificada · ida", "Ruta planificada · vuelta"]}
     body = f"""{nav}
 <main style="max-width:1400px">
 <h2 style="margin-top:18px">Mapa general del viaje</h2>
-<p>Por defecto se muestran solo el <strong>corredor de bajada</strong>, el <strong>corredor de subida</strong> y los <strong>puntos de interés</strong>. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
+<p>Si has calculado un viaje en <a href="../presupuesto/">Presupuesto</a>, el mapa lo dibuja como <strong>Tu viaje</strong> junto a los <strong>puntos de interés</strong>; si no, muestra la <strong>ruta planificada</strong> (ida y vuelta). El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
 <p class="callout" style="display:block"><strong>Agua y combustible:</strong> la capa de agua distingue recarga confirmada o publicada, acceso condicionado, solo ducha y puntos descartados. Agua de servicio no equivale a agua potable, y una instalación con duchas no autoriza por sí sola a llenar el depósito. Abrir cada pin y reconfirmar la fuente el mismo día. Para combustible, el objetivo es no dejar tramos de más de ~500 km sin una opción confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
-<p class="figcap">Corredores: turquesa = bajada (ida) · ámbar = subida (vuelta) · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
+<p class="figcap">Rojo = tu viaje · turquesa = ruta planificada, ida · ámbar = ruta planificada, vuelta · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
 <footer>ÁFRICA 2027 · versión {VERSION}</footer>
 </main>
 <script>var A27_GEN = {json.dumps(cfg, ensure_ascii=False)};</script>
@@ -1888,7 +1910,8 @@ def main():
         # controla la pestaña. Versionar los recursos críticos impide mezclar el
         # marcado nuevo del carrusel/mapa con CSS o JavaScript antiguos.
         for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js",
-                      "assets/js/visamap.js", "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js"):
+                      "assets/js/visamap.js", "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js",
+                      "assets/js/viaje.js"):
             html_text = html_text.replace(asset + '"', asset + f'?v={VERSION}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)

@@ -15,7 +15,7 @@ from data_visados import NIVELES as NIVELES_VISADO, VISADOS
 
 
 CAMPOS = (
-    "FECHAS", "BAJADA", "SUBIDA", "VISADO", "CPD", "SEGURO", "SEGURIDAD",
+    "EN TU VIAJE", "FECHAS", "FRONTERAS", "VISADO", "CPD", "SEGURO", "SEGURIDAD",
     "PDIs", "4x4", "A PIE", "VACUNACIÓN", "DRONES", "STARLINK", "PELIGROS",
 )
 
@@ -307,8 +307,6 @@ def _cpd(slug, fallback=""):
 def _rutas(slug, group):
     if slug in RUTAS:
         return RUTAS[slug]
-    if group == "excluido":
-        return "Excluido por protocolo", "No aplica"
     if group == "fuera":
         return "Fuera de la ruta prevista", "No aplica"
     if group == "vuelo":
@@ -320,12 +318,38 @@ def _rutas(slug, group):
     return "Por auditar", "Por auditar"
 
 
+def fronteras_terrestres(slug):
+    """Vecinos por carretera según el grafo del planificador (neutral: no dice por dónde se va)."""
+    from data_ruta import FRONTERAS, ISLAS
+    from data_countries import C
+    nombres = {c[0]: c[1].split(" (")[0] for c in C}
+    if slug in ISLAS:
+        return "Sin conexión por carretera"
+    abiertas, cerradas, ferry = [], [], []
+    for a, b, tipo, _nota in FRONTERAS:
+        if slug == "angola" and "cabinda" in (a, b):
+            a, b = ("angola" if a == "cabinda" else a), ("angola" if b == "cabinda" else b)
+        if slug not in (a, b):
+            continue
+        otro = b if a == slug else a
+        nombre = "Angola (Cabinda)" if otro == "cabinda" else nombres.get(otro)
+        if otro == slug or not nombre:
+            continue
+        {"cerrada": cerradas, "ferry": ferry}.get(tipo, abiertas).append(nombre)
+    abiertas = sorted(set(abiertas), key=str.lower)
+    txt = " · ".join(abiertas) if abiertas else "Sin frontera terrestre útil"
+    if ferry:
+        txt += " · ferry: " + ", ".join(sorted(set(ferry)))
+    if cerradas:
+        txt += " · cerrada: " + ", ".join(sorted(set(cerradas)))
+    return txt
+
+
 def construir(slug, group, *, data=None, fallback=None):
     """Devuelve siempre los catorce campos, en el orden visual aprobado."""
     data = data or {}
     fallback = fallback or {}
     chips = _chip_map(data)
-    bajada, subida = _rutas(slug, group)
     actividades = ACTIVIDADES.get(slug, ("", ""))
 
     cuatro = _pick(chips, "4X4", "EXPEDICIÓN 4X4") or actividades[0]
@@ -363,17 +387,13 @@ def construir(slug, group, *, data=None, fallback=None):
     seguro = SEGUROS.get(slug) or _pick(chips, "SEGURO") or "Por verificar"
     peligro = PELIGROS.get(slug)
     if not peligro:
-        if group == "excluido":
-            peligro = "Conflicto · país excluido"
-        elif group == "fuera":
-            peligro = "Fuera de la ruta"
-        elif not data:
+        if not data:
             peligro = "Por auditar"
         else:
             peligro = "Por verificar"
 
     values = (
-        FECHAS_CORTAS.get(slug, resumen_planificacion(slug, group)), bajada, subida,
+        "Sin calcular · abre Presupuesto", "Según tu viaje", fronteras_terrestres(slug),
         _visa(slug, fallback.get("visado", "")), _cpd(slug, fallback.get("cpd", "")),
         _short(seguro, 52), _short(seguridad, 58), pdis, _short(cuatro, 58), _short(pie, 58),
         vacunacion, _short(dron, 52), _short(starlink, 52), peligro,

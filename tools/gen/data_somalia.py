@@ -894,7 +894,7 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="somalia", name="Somalia", revision="18 sep 2026",
-    sub="EXCLUIDO POR PROTOCOLO — MAEC: desaconsejado bajo cualquier circunstancia · ficha informativa",
+    sub="MAEC: desaconsejado bajo cualquier circunstancia · ficha informativa",
     chips=[
         ("ESTATUS", "FUERA DE RUTA. MAEC: se desaconseja el viaje bajo cualquier circunstancia…"),
         ("CÓMO LLEGAR", "En la práctica solo en avión: Aden Adde (Mogadiscio) o Egal (Hargeisa)…"),

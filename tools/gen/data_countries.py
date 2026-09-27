@@ -4,7 +4,9 @@
 Every entry that is not 'completa' is a DRAFT: quick orientation data to be
 verified one by one. Fields: (slug, name, group, order, seguridad, frontera,
 visado, cpd, perro, nota)
-groups: bajada | bucle | subida | alternativa | vuelo | excluido | fuera
+groups: bajada | bucle | subida | alternativa | vuelo | fuera
+(el grupo describe la ruta planificada de referencia; la web agrupa por regiones
+y el viaje real lo decide el planificador de Presupuesto)
 
 Ruta global confirmada (ver documento "Ruta global 2027" del proyecto):
 ida y vuelta por la costa oeste (bajada), con un bucle de exploración fuerte
@@ -55,15 +57,15 @@ C = [
  # --- Solo alcanzable en avión: ficha propia para un posible viaje aparte,
  # no forma parte de la ruta overland con los vehículos ---
  ("madagascar","Madagascar","vuelo",50,"estable · precaución normal","Sin conexión terrestre ni ferry de pasajero+vehículo viable (solo transporte de carga comercial) — se llegaría en avión, dejando los 4x4 en el continente","eVisa","No aplica (no se lleva el vehículo)","Certificado veterinario si se lleva al perro en avión — trámite aparte","Posible escapada en avión si apetece durante el bucle sur/este; ficha propia para planificarlo aparte de la ruta 4x4"),
- # --- Excluidos por protocolo (conflicto activo) ---
- ("mali","Mali","excluido",90,"CONFLICTO ACTIVO — excluido totalmente por protocolo del proyecto","No utilizar ninguna frontera de Mali","—","—","—","Ninguna entrada, tránsito, desvío ni paso fronterizo; la localidad guineana llamada Mali se cita siempre como «Mali (localidad de Guinea)»"),
- ("guinea-bisau","Guinea-Bisáu","excluido",91,"inestabilidad política recurrente — fuera del itinerario por protocolo","No prevista","—","—","—","El corredor Senegal→Guinea (Kalifourou–Sambaïlo) la evita expresamente"),
- ("sudan","Sudán","excluido",92,"CONFLICTO ACTIVO (guerra civil desde 2023)","Fronteras no fiables mientras dure el conflicto","No planificable","No planificable","No planificable","Excluido por conflicto; en todo caso ya queda fuera de la ruta confirmada (el viaje no pasa de Kenia hacia el Cuerno de África)"),
+ # --- Conflicto activo o inestabilidad: fichas completas, fuera de la ruta planificada ---
+ ("mali","Mali","fuera",90,"CONFLICTO ACTIVO — el MAEC desaconseja el viaje a todo el país","No utilizar ninguna frontera de Mali","—","—","—","Ninguna entrada, tránsito, desvío ni paso fronterizo; la localidad guineana llamada Mali se cita siempre como «Mali (localidad de Guinea)»"),
+ ("guinea-bisau","Guinea-Bisáu","fuera",91,"inestabilidad política · junta militar desde noviembre de 2025","No prevista","—","—","—","El corredor Senegal→Guinea (Kalifourou–Sambaïlo) la evita expresamente"),
+ ("sudan","Sudán","fuera",92,"CONFLICTO ACTIVO (guerra civil desde 2023)","Fronteras no fiables mientras dure el conflicto","No planificable","No planificable","No planificable","Guerra civil desde 2023; la ruta planificada no pasa de Kenia hacia el Cuerno de África"),
  # --- Fuera de la ruta prevista (la ruta confirmada no llega hasta aquí) ---
  ("tunez","Túnez","alternativa",48,"circuito turístico en amarillo · evitar Kasserine rural, Chaambi y las franjas de Argelia y Libia","Entrada en ferry (Génova–La Goulette); salida por tierra a Argelia por Melloula (norte) o Hazoua (sur)","Exención 90 días para españoles","Admisión temporal 3 meses; CPD no exigido","Certificado sanitario reciente + antirrábica; titulación para volver a la UE","EN ESTUDIO (26-09-2026): puerta de entrada de la variante Túnez → Argelia → Tinduf → Mauritania"),
  ("argelia","Argelia","alternativa",49,"viable con condiciones · agencia y escoltas en el sur · Tébessa sur y fronteras vetadas · Tinduf contra aviso MAEC","Entrada desde Túnez (Oum Teboul o Taleb Larbi); salida a Mauritania por Hassi 75 (sur de Tinduf). Marruecos cerrada","Visado consular, 30 días máx., con carta de invitación de agencia","TPD 3+3 meses; seguro local en frontera; CPD no exigido","Certificado sanitario reciente (probablemente tunecino) + antirrábica; permiso DSV sin confirmar","EN ESTUDIO (26-09-2026): Túnez → Argelia (norte y Sáhara oeste) → Tinduf → Mauritania, unos 28–30 días"),
  ("libia","Libia","fuera",102,"CONFLICTO / inestabilidad grave","Fronteras no planificables","No planificable","—","—","Fuera de ruta"),
- ("burkina-faso","Burkina Faso","fuera",103,"CONFLICTO ACTIVO (insurgencia)","No prevista","—","—","—","Fuera de ruta; refuerza la exclusión de Mali"),
+ ("burkina-faso","Burkina Faso","fuera",103,"CONFLICTO ACTIVO (insurgencia)","No prevista","—","—","—","Fuera de ruta"),
  ("niger","Níger","fuera",104,"riesgo alto / junta militar","No prevista","—","—","—","Fuera de ruta"),
  ("chad","Chad","fuera",105,"riesgo alto en varias zonas","No prevista","—","—","—","Fuera de ruta"),
  ("rca","República Centroafricana","fuera",106,"CONFLICTO ACTIVO","No prevista","—","—","—","Fuera de ruta"),
@@ -88,6 +90,24 @@ GROUP_LABELS = {
     "subida": "Solo en la subida",
     "alternativa": "Alternativas y opcionales",
     "vuelo": "Solo alcanzable en avión",
-    "excluido": "Excluidos por protocolo",
     "fuera": "Fuera de la ruta prevista",
 }
+
+
+# Regiones para agrupar las fichas en el portal y en el planificador. No dicen
+# nada de la ruta: el viaje real lo decide el planificador de Presupuesto.
+REGIONES = [
+    ("norte", "Norte de África", ["marruecos", "sahara-occidental", "argelia", "tunez", "libia", "egipto"]),
+    ("oeste", "África occidental", ["mauritania", "senegal", "gambia", "guinea-bisau", "guinea", "sierra-leona",
+                                     "liberia", "costa-de-marfil", "ghana", "togo", "benin", "nigeria", "mali",
+                                     "burkina-faso", "niger", "cabo-verde"]),
+    ("centro", "África central", ["camerun", "chad", "rca", "guinea-ecuatorial", "gabon", "congo", "rd-congo",
+                                   "angola", "santo-tome"]),
+    ("este", "África oriental y Cuerno", ["sudan", "sudan-del-sur", "eritrea", "etiopia", "yibuti", "somalia",
+                                          "kenia", "uganda", "ruanda", "burundi", "tanzania"]),
+    ("sur", "África austral", ["zambia", "malaui", "mozambique", "zimbabue", "botsuana", "namibia", "sudafrica",
+                               "esuatini", "lesoto"]),
+    ("islas", "Islas del Índico", ["madagascar", "comoras", "seychelles", "mauricio"]),
+]
+REGION = {s: r for r, _, ss in REGIONES for s in ss}
+REGION_LABELS = {r: l for r, l, _ in REGIONES}

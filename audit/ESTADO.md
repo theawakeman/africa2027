@@ -1,6 +1,6 @@
 # Estado de la auditoría integral
 
-Última actualización: 26 de septiembre de 2026.
+Última actualización: 27 de septiembre de 2026.
 
 Este archivo separa las capas de revisión para que «país revisado» no oculte
 trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
@@ -42,7 +42,7 @@ trabajo pendiente. Un grupo solo se considera cerrado cuando su commit está en
 | 10 | Mauricio | Hecho, por validar | Hecho: 18/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con galería; 50 fotos | No auditada (Port Louis documentada) |
 | 10 | Burundi | Hecho, por validar | Hecho: 16/18 en Google Maps | Hecho: 18/18 | Hecho: 18/18 | Hecho: 18/18 con foto; 14 galerías; 38 fotos | No auditada (Buyumbura documentada) |
 
-## Países fuera del itinerario (grupos «Alternativas», «Avión», «Excluidos», «Fuera de ruta»)
+## Países fuera del itinerario (grupos «Alternativas», «Avión», «Fuera de ruta»)
 
 Túnez es el piloto del formato para los 23 países sin ficha completa o con
 ficha corta. Método: 15–20 PDIs por país (decisión del propietario, 18-09-2026)
@@ -225,3 +225,24 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Planificador: Mauritania usa siempre ese recorrido cuando la ruta viene o va a Argelia (`VIA`);
   Túnez y Argelia pasan al grupo «alternativa».
 
+## Fichas neutras y «Tu viaje» (27-09-2026)
+
+- Desaparece la categoría «Excluido por protocolo»: Mali, Guinea-Bisáu y Sudán son
+  fichas completas como las demás. En el planificador, Mali y Sudán pasan a la lista
+  de países en conflicto (solo se usan si se marcan, con aviso); Guinea-Bisáu queda
+  como país normal.
+- Cabecera de país: FECHAS/BAJADA/SUBIDA se sustituyen por EN TU VIAJE, FECHAS y
+  FRONTERAS. Sin viaje calculado muestran texto neutro y los vecinos por carretera
+  (fronteras cerradas y ferris marcados); con viaje, `assets/js/viaje.js` los rellena
+  con el paso, las fechas y de qué país a qué país.
+- Presupuesto guarda en el navegador un resumen de la ruta (`a27-ruta-resumen`):
+  pasos, fechas, recorridos y la línea del viaje. Lo leen las fichas (recuadro «Tu
+  viaje» sobre el mapa y línea roja), el portal (lista del viaje y distintivo en cada
+  tarjeta) y el mapa general (capa «Tu viaje», que sustituye a la ruta planificada).
+- Títulos neutros: los corredores de las fichas pasan a «Recorrido A/B · …» sin
+  «bajada/subida» (`tools/gen/recorridos.py`); el subtítulo de la ficha pierde los
+  trozos que hablaban del papel en la ruta; el portal agrupa por regiones.
+- Fronteras corregidas en el grafo: Burundi–Ruanda cerrada (desde enero de 2024) y
+  Guinea Ecuatorial con fronteras terrestres cerradas (desde el 15-12-2025).
+- Pendiente: los textos largos de algunas fichas siguen hablando de «bajada» y
+  «subida» (ruta original); la sección Ruta lo advierte con una nota.

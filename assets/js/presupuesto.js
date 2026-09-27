@@ -173,7 +173,7 @@ function ruta(oFijo, DDfijo){
       if (p) { const cf = p.filter(s => PA[s].cf && !sel.has(s)).map(s => PA[s].n);
         avisos.push(`Entre ${PA[a].n} y ${PA[b].n} solo hay camino ${cf.length ? 'cruzando países en conflicto sin marcar: <strong>' + cf.join(', ') + '</strong>' : 'por el <strong>interior de RD Congo</strong>, que el MAEC desaconseja por carretera'}.`); }
     }
-    if (!p) { avisos.push(`<strong>Sin camino por carretera permitido</strong> entre ${PA[a].n} y ${PA[b].n} (fronteras cerradas, países excluidos o en conflicto sin marcar). Se une en línea recta.`); seq.push({s: b, oi}); continue; }
+    if (!p) { avisos.push(`<strong>Sin camino por carretera permitido</strong> entre ${PA[a].n} y ${PA[b].n} (fronteras cerradas o países en conflicto sin marcar). Se une en línea recta.`); seq.push({s: b, oi}); continue; }
     p.slice(1).forEach((s, k) => seq.push({s, oi: k === p.length - 2 ? oi : null}));
   }
   // Pasadas: cada entrada en un país
@@ -251,8 +251,8 @@ function paintStatic(){
 
 function paintAdd(R){
   const en = new Set(R.pas.map(p => p.s));
-  const grupos = RU.grupos.filter(([g]) => g !== 'excluido').map(([g, lab]) => {
-    const ss = Object.keys(PA).filter(x => PA[x].g === g && !PA[x].solo_paso && !PA[x].ex && !R.sel.has(x)).sort((a, b) => PA[a].n.localeCompare(PA[b].n, 'es'));
+  const grupos = RU.grupos.map(([g, lab]) => {
+    const ss = Object.keys(PA).filter(x => PA[x].r === g && !PA[x].solo_paso && !PA[x].ex && !R.sel.has(x)).sort((a, b) => PA[a].n.localeCompare(PA[b].n, 'es'));
     if (!ss.length) return '';
     return `<optgroup label="${escH(lab)}">${ss.map(x => `<option value="${x}">${escH(PA[x].n)}${en.has(x) ? ' (ya se cruza)' : ''}${PA[x].cf ? ' · conflicto' : ''}</option>`).join('')}</optgroup>`;
   }).join('');
@@ -263,7 +263,6 @@ function aviso(t){ const m = $('bud-msg'); if (!m) return; m.innerHTML = t; m.hi
 
 function agregar(s){
   if (!PA[s] || PA[s].solo_paso) return;
-  if (PA[s].ex) { aviso(`<strong>${PA[s].n}</strong> está excluido por protocolo del proyecto: no se puede añadir.`); return; }
   const sel = selSet(), ev = evitarSet();
   sel.add(s); ev.delete(s);
   Object.keys(S).filter(k => k.startsWith('ruta.modo.' + s + '.')).forEach(k => delete S[k]);
@@ -297,9 +296,9 @@ function estiloPaises(R){
     let st = {weight: 1, color: '#8A949A', fillColor: '#ffffff', fillOpacity: .05, dashArray: null};
     let txt = P0 ? P0.n + ' · toca para añadir' : '';
     if (!P0) st.fillOpacity = 0;
-    else if (P0.ex) { st = {...st, fillColor: '#B43A3A', fillOpacity: .12, dashArray: '3 4'}; txt = P0.n + ' · excluido por protocolo'; }
     else if (para.has(s)) { st = {...st, fillColor: '#1E7A8A', fillOpacity: .45, color: '#1E7A8A'}; txt = P0.n + ' · se para · toca para quitar'; }
     else if (cruza.has(s)) { st = {...st, fillColor: '#D97B29', fillOpacity: .35, color: '#C47F17'}; txt = P0.n + ' · solo se cruza · toca para ' + (R.sel.has(s) ? 'quitar' : 'añadir'); }
+    else if (P0.cf) { st = {...st, fillColor: '#B43A3A', fillOpacity: .12, dashArray: '3 4'}; txt = P0.n + ' · en conflicto · toca para añadir (con aviso)'; }
     l.setStyle(st);
     if (txt) l.bindTooltip(txt, {sticky: true});
   });
@@ -365,8 +364,7 @@ function compute(){
   const vecesPais = {}; R.pas.forEach(p => { vecesPais[p.s] = (vecesPais[p.s] || 0) + 1; });
   const rows = R.pas.map((p, i) => {
     const P0 = PA[p.s], parar = p.tipo === 'visita';
-    const oeste = ['bajada', 'subida'].includes(P0.g);
-    const dir = vecesPais[p.s] > 1 ? (oeste && p.k <= 2 ? (p.k === 1 ? 'ida' : 'vuelta') : p.k + 'ª vez') : '';
+    const dir = vecesPais[p.s] > 1 ? p.k + 'ª vez' : '';
     const sub = parar ? escH(p.lab) + (p.aprox ? ' · km aproximados' : '') : (p.marcado ? 'Solo cruzar' + (p.lab ? ': ' + escH(p.lab) : ', lo más rápido posible') : (P0.solo_paso ? escH(p.lab) : 'Paso obligado para llegar al siguiente país'));
     const fijo = P0.solo_paso;
     const seg = fijo ? `<span class="seg-fijo">Solo cruzar</span>`
@@ -510,8 +508,37 @@ function compute(){
     + `<tr class="bud-aval"><td>Aval del CPD inmovilizado <span class="nota">No es gasto y no suma al total: el banco lo bloquea y se recupera al devolver el carnet con todos los sellos.</span></td>${veh.map(v => `<td class="n">${eur(V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(aval)}</td></tr>`
     + `<tr class="bud-aval"><td>Dinero comprometido al salir <span class="nota">Total del viaje + avales.</span></td>${veh.map(v => `<td class="n">${eur(Rr[v.id].total + V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(total + aval)}</td></tr>`;
   setTimeout(estadoViaje, 0);
+  publicarResumen(R, FE, dias, diasRuta, salida, kmTot);
   window.__A27_BUDGET_RESULT = {R: Rr, total, kmTot, veh, dias, diasCalc, diasRuta, fijos, margen, salida, regreso: fecha(regreso),
     ruta: R, porPais, orden, combOut, visOut, tasOut, factor, desv, rv, rt, FE, euRows, kmEU, diasEU};
+}
+
+// Resumen del viaje para las fichas, el portal y el mapa general (misma web,
+// mismo navegador). Solo describe la ruta; no guarda precios.
+const RKEY = 'a27-ruta-resumen';
+function nombreViaje(){
+  const V = leerViajes(), cur = viajeActual();
+  return cur && V[cur] ? cur + (JSON.stringify(V[cur].S) === JSON.stringify(S) ? '' : ' (con cambios)') : (Object.keys(S).length ? 'Viaje sin guardar' : 'Ruta planificada');
+}
+function publicarResumen(R, FE, dias, diasRuta, salida, kmTot){
+  try {
+    const f = diasRuta > 0 ? dias / diasRuta : 1, iso = d => d.toISOString().slice(0, 10);
+    const nombre = nombreViaje();
+    let t = FE[0].dias * f;
+    const nom = s => PA[s].n.replace(/ \(.*\)$/, '');
+    const pasos = R.pas.map((p, i) => {
+      const ent = iso(addDays(salida, t)); t += p.dias * f;
+      const prev = R.pas[i - 1], next = R.pas[i + 1];
+      return {s: p.s, f: p.s === 'cabinda' ? 'angola' : p.s, n: PA[p.s].n, nf: nom(p.s === 'cabinda' ? 'angola' : p.s), k: p.k, tipo: p.tipo, lab: p.lab || '',
+        de: prev ? nom(prev.s) : 'ferry desde ' + FE[0].f.origen, a: next ? nom(next.s) : 'ferry a ' + FE[1].f.origen,
+        ent, sal: iso(addDays(salida, t)), d: Math.round(p.dias * f * 10) / 10, km: Math.round(p.kmE)};
+    });
+    const linea = [];
+    const push = q => { const x = [Math.round(q[0] * 100) / 100, Math.round(q[1] * 100) / 100], u = linea[linea.length - 1]; if (!u || u[0] !== x[0] || u[1] !== x[1]) linea.push(x); };
+    push(FE[0].f.pos); R.pas.forEach(p => p.pts.forEach(push)); push(FE[1].f.pos);
+    localStorage.setItem(RKEY, JSON.stringify({v: 1, nombre, origen: RU.origen, salida, regreso: iso(addDays(salida, dias)), dias, km: Math.round(kmTot),
+      ida: FE[0].f.origen + ' → ' + FE[0].f.puerto, vuelta: FE[1].f.puerto + ' → ' + FE[1].f.origen, pasos, linea, hecho: new Date().toISOString()}));
+  } catch(e) {}
 }
 
 function csv(){
@@ -548,6 +575,7 @@ function paintViajes(){
   estadoViaje();
 }
 function estadoViaje(){
+  try { const r = JSON.parse(localStorage.getItem(RKEY) || 'null'); if (r && r.nombre !== nombreViaje()) { r.nombre = nombreViaje(); localStorage.setItem(RKEY, JSON.stringify(r)); } } catch(e) {}
   const el = $('viaje-actual'); if (!el) return;
   const V = leerViajes(), cur = viajeActual();
   if (!cur || !V[cur]) { el.textContent = Object.keys(S).length ? 'Configuración sin guardar.' : 'Ruta planificada, sin cambios.'; return; }

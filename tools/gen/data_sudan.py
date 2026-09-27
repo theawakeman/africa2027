@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Sudán — ficha completa (18 sep 2026): EXCLUIDO POR PROTOCOLO.
+"""Sudán — ficha completa (18 sep 2026).
 
-Sudán está EXCLUIDO POR PROTOCOLO: guerra civil desde abril de 2023 entre las Fuerzas Armadas y las RSF, con fronteras terrestres no fiables y solo el aeropuerto de Port Sudán operativo; el MAEC desaconseja viajar bajo cualquier circunstancia. Además la ruta 2027 termina en Kenia y no sube hacia el Cuerno de África, así que Sudán queda fuera incluso sin guerra. La app ya tiene una ficha corta (4 PDIs, historia breve) que hay que sustituir por la ficha completa. La ficha es INFORMATIVA: PDIs, historia y trámites redactados con el estado de guerra actual explícito en cada punto (qué zonas están bajo control de quién según fuentes fechadas: ONU/OCHA, Crisis Group, ACLED, prensa).
+Sudán no está en la ruta planificada: guerra civil desde abril de 2023 entre las Fuerzas Armadas y las RSF, con fronteras terrestres no fiables y solo el aeropuerto de Port Sudán operativo; el MAEC desaconseja viajar bajo cualquier circunstancia. Además la ruta 2027 termina en Kenia y no sube hacia el Cuerno de África, así que Sudán queda fuera incluso sin guerra. La app ya tiene una ficha corta (4 PDIs, historia breve) que hay que sustituir por la ficha completa. La ficha es INFORMATIVA: PDIs, historia y trámites redactados con el estado de guerra actual explícito en cada punto (qué zonas están bajo control de quién según fuentes fechadas: ONU/OCHA, Crisis Group, ACLED, prensa).
 
 Método: PDIs con pin comprobado uno a uno en Google Maps, tres fotografías de Wikimedia Commons por PDI (autor y licencia leídos de la API), fichas de decisión y enlaces concretos; historia de siete secciones con fuentes abiertas en la sesión; secciones operativas con fuente y fecha, y «por confirmar» donde no hay fuente. Expediente: audit/historia/sudan.json y audit/pdi/sudan.md.
 """
@@ -924,9 +924,9 @@ HISTORIA_FUENTES = [
 
 SPEC = dict(
     slug="sudan", name="Sudán", revision="18 sep 2026",
-    sub="EXCLUIDO POR PROTOCOLO — guerra civil SAF/RSF desde abril de 2023 · ficha informativa (Nubia, Meroe, mar Rojo)",
+    sub="guerra civil SAF/RSF desde abril de 2023 · ficha informativa (Nubia, Meroe, mar Rojo)",
     chips=[
-        ("ESTATUS", "EXCLUIDO POR PROTOCOLO. Guerra civil SAF–RSF desde el 15 de abril de 2023…"),
+        ("ESTATUS", "Guerra civil SAF–RSF desde el 15 de abril de 2023…"),
         ("CÓMO LLEGAR", "Solo en avión: Port Sudán (PZU: EgyptAir, Ethiopian, Turkish, Qatar) y, desde el 28-04-2026…"),
         ("VISADO", "OBLIGATORIO y previo, en la Embajada de Sudán en Madrid (Av. Miraflores 63)…"),
         ("VEHÍCULO", "CPD aceptado (Sudanese Automobile and Touring Club, Jartum, +249 183 403 402)…"),
@@ -942,7 +942,7 @@ SPEC = dict(
         ("VENTANA", "Desierto hiperárido en el norte (Wadi Halfa: 0,5 mm/año, 4.300 h de sol…"),
     ],
     center=[17.31, 33.83], zoom=5,
-    notice="Documento de planificación de un país EXCLUIDO POR PROTOCOLO: no forma parte de la ruta 2027. La ficha se mantiene completa por si en el futuro cambia la situación o se plantea un viaje aparte. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
+    notice="Documento de planificación. Revalidar visados, fronteras, salud, seguridad, drones y comunicaciones 30–60 días antes de cualquier entrada.",
     pois=POIS, logistics=LOGISTICS, corridor=CORRIDOR, corridor_alt=CORRIDOR_ALT,
     corridor_label="Bucle del Nilo: Wadi Halfa → Nubia → Karima → Bayuda → Meroe → Jartum → Gezira → Dinder",
     corridor_alt_label="Ramal oriental: Jartum → Wad Madani → Kassala → Suakin → Port Sudán → Dungonab",
@@ -951,7 +951,7 @@ SPEC = dict(
     historia_resumen=HISTORIA_RESUMEN, historia_secciones=HISTORIA_SECCIONES, historia_fuentes=HISTORIA_FUENTES,
     decision="Sudán queda fuera de la expedición 2027 por dos razones que se suman. La primera es de protocolo: el MAEC «desaconseja el viaje a Sudán bajo cualquier circunstancia», la Embajada de España en Jartum está cerrada desde abril de 2023 (opera desde El Cairo) y el país sigue partido en dos bloques —SAF en Jartum, el norte, el este y el centro; RSF en Darfur y el oeste de Kordofán— con drones atacando ciudades, aeropuertos y depósitos de combustible hasta septiembre de 2026. La segunda es de ruta: la vuelta 2027 termina en Kenia y no sube por el Cuerno de África ni por el corredor Nilo–Egipto, así que Sudán no entraría ni con paz. Si algún día vuelve a ser viable, la forma clásica sería entrar desde Asuán por Argeen o Qustul/Ashkeet con CPD, recorrer la Nubia (Wadi Halfa–Dongola–Karima–Meroe–Jartum) y salir por Gallabat–Metema hacia Etiopía o por Port Sudán en barco: unos 2.000 km y 10–14 días. Coste orientativo hoy: visado (150 USD en Asuán según relato de 2023; tarifa en Madrid por confirmar) + registro (~10 USD) y permisos de viaje por estado + combustible a ~0,55–0,60 €/l (2026) con racionamiento y colas de 12 horas. Lo que habría que decidir antes: que el MAEC retire el «bajo cualquier circunstancia», que Argeen o Ashkeet vuelvan a admitir extranjeros con vehículo propio, y que el seguro de viaje y el CPD (RACE) cubran el país.",
     facts=[
-        ("Estatus", "EXCLUIDO POR PROTOCOLO. Guerra civil SAF–RSF desde el 15 de abril de 2023; MAEC: viaje desaconsejado bajo cualquier circunstancia (rev. 28-02-2025); FCDO 11-05-2026 y Canadá 09-09-2026: no viajar."),
+        ("Estatus", "Guerra civil SAF–RSF desde el 15 de abril de 2023; MAEC: viaje desaconsejado bajo cualquier circunstancia (rev. 28-02-2025); FCDO 11-05-2026 y Canadá 09-09-2026: no viajar."),
         ("Cómo llegar", "Solo en avión: Port Sudán (PZU: EgyptAir, Ethiopian, Turkish, Qatar) y, desde el 28-04-2026, Jartum internacional; ambos atacados con drones en 2025–2026. Pasos terrestres cerrados a extranjeros según MAEC; Argeen/Ashkeet solo refugiados y ayuda."),
         ("Visado", "OBLIGATORIO y previo, en la Embajada de Sudán en Madrid (Av. Miraflores 63); 5 semanas (MAEC) a 2 meses (Canadá); registro policial en 3 días; permiso de viaje para salir del estado del Mar Rojo."),
         ("Vehículo/aduana", "CPD aceptado (Sudanese Automobile and Touring Club, Jartum, +249 183 403 402); en la práctica no hay cruces de overlanders documentados desde 2023. Se conduce por la derecha; permiso internacional válido 3 meses."),
@@ -1142,7 +1142,7 @@ SPEC = dict(
         ("Precio del agua embotellada y estado de la carretera Wadi Halfa–Jartum en 2026", "Relato de viajero o informe OCHA/Logistics Cluster fechado en 2026."),
     ],
     sources=SOURCES,
-    sources_note="Ficha revisada el 18 de septiembre de 2026 con las fuentes abiertas ese día; el MAEC no actualiza su recomendación desde febrero de 2025 y la situación militar cambia por semanas. Es una herramienta de planificación, no una autorización: Sudán está excluido de la ruta 2027 y ningún dato de esta ficha sustituye a la recomendación oficial vigente en el momento de viajar.",
+    sources_note="Ficha revisada el 18 de septiembre de 2026 con las fuentes abiertas ese día; el MAEC no actualiza su recomendación desde febrero de 2025 y la situación militar cambia por semanas. Es una herramienta de planificación, no una autorización: Sudán no está en la ruta planificada y ningún dato de esta ficha sustituye a la recomendación oficial vigente en el momento de viajar.",
     emergency="Emergencia consular española: Unidad de Emergencia Consular (Madrid) +34 910 001 249, unidaddecrisis@maec.es; Embajada en Jartum (cerrada, emergencia +249 912 36 33 77, emb.jartum@maec.es) con sede provisional en la Embajada en El Cairo (+20 2 2735 5813, emergencia +20 122 318 3783). Sudán: policía 999, bomberos 998 (MAEC; Canadá indica 777), ambulancia Jartum +249 183 432 500 (MAEC; Canadá indica 333). Hospital Royal Care Jartum +249 156 550 150. Los servicios sudaneses pueden no responder por el conflicto.",
 )
 
