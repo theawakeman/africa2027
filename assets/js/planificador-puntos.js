@@ -242,9 +242,13 @@ function calcular(){
     if (e && e[1] === 'cerrada' && !runs[i].recta) avisos.push({rojo: true, ir: {pais: b}, t: `La carretera pasa de ${esc(nom(a))} a ${esc(nom(b))} por una frontera <strong>cerrada</strong>.`});
   }
   // Zonas desaconsejadas: puntos dentro y km de carretera dentro
-  todos.forEach(p => { const z = zonaDe(p.lat, p.lon); if (z) avisos.push({rojo: z.nivel === 'rojo', ir: {punto: p.id}, t: `<strong>${esc(p.nombre)}</strong> (${esc(nom(p.pais))}) está en una ${z.nivel === 'rojo' ? 'zona roja' : 'zona naranja'}: ${esc(z.nombre)} (FCDO).`}); });
+  todos.forEach(p => { const z = zonaDe(p.lat, p.lon); if (z) avisos.push({rojo: z.nivel === 'rojo', ir: {punto: p.id}, t: z.nivel === 'guia'
+    ? `<strong>${esc(p.nombre)}</strong> (${esc(nom(p.pais))}) está en una zona con <strong>guía o autorización obligatoria</strong>: ${esc(z.nombre)}.`
+    : `<strong>${esc(p.nombre)}</strong> (${esc(nom(p.pais))}) está en una ${z.nivel === 'rojo' ? 'zona roja' : 'zona naranja'}: ${esc(z.nombre)} (${esc(z.organismo || 'FCDO')}).`}); });
   Object.entries(kmZona).forEach(([id, kz]) => { const k = kz.km; if (k < 3) return; const z = ZONAS.find(x => x.id === id);
-    avisos.push({rojo: z.nivel === 'rojo', ir: {zona: id, pos: kz.pos}, t: `La carretera pasa ~${num(k)} km por una ${z.nivel === 'rojo' ? '<strong>zona roja</strong>' : 'zona naranja'}: ${esc(z.nombre)} (${esc(nom(z.pais))}, FCDO).`}); });
+    avisos.push({rojo: z.nivel === 'rojo', ir: {zona: id, pos: kz.pos}, t: z.nivel === 'guia'
+      ? `La carretera pasa ~${num(k)} km por una zona con <strong>guía o autorización obligatoria</strong>: ${esc(z.nombre)} (${esc(nom(z.pais))}).`
+      : `La carretera pasa ~${num(k)} km por una ${z.nivel === 'rojo' ? '<strong>zona roja</strong>' : 'zona naranja'}: ${esc(z.nombre)} (${esc(nom(z.pais))}, ${esc(z.organismo || 'FCDO')}).`}); });
   // Países que se quieren evitar y por los que aun así pasa la carretera
   [...new Set(orden)].filter(s => S.evitar.includes(s)).forEach(s => avisos.push({rojo: true, ir: {pais: s}, t: `La carretera cruza <strong>${esc(nom(s))}</strong>, que quieres evitar: no hay otro camino con estos puntos, o la carretera lo roza. Añade un «pasar por aquí» (clic derecho) para desviarla.`}));
   const sinPerro = todos.filter(p => p.perro === 'no').length;
@@ -436,9 +440,9 @@ function pintarZonas(){
   CAPA_Z.clearLayers();
   const on = $('pp-verzonas') ? $('pp-verzonas').checked : true;
   if (!on) { MAP.removeLayer(CAPA_Z); return; }
-  ZONAS.forEach(z => { const col = z.nivel === 'rojo' ? '#B43A3A' : '#D97B29';
-    L.polygon(z.polys.map(p => p.rs), {color: col, weight: 1, dashArray: '4 3', fillColor: col, fillOpacity: z.nivel === 'rojo' ? .22 : .14, pane: 'zonas'})
-      .bindTooltip(`<strong>${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'} · ${esc(nom(z.pais))}</strong><br>${esc(z.nombre.length > 70 ? z.nombre.slice(0, 68).replace(/\s+\S*$/, '') + '…' : z.nombre)}<br><small>Toca para ver el aviso</small>`, {sticky: true, className: 'pp-tip', direction: 'top', offset: [0, -8]})
+  ZONAS.forEach(z => { const col = zn(z).c;
+    L.polygon(z.polys.map(p => p.rs), {color: col, weight: 1, dashArray: z.nivel === 'guia' ? '1 4' : '4 3', fillColor: col, fillOpacity: zn(z).f, pane: 'zonas'})
+      .bindTooltip(`<strong>${zn(z).t} · ${esc(nom(z.pais))}</strong><br>${esc(z.nombre.length > 70 ? z.nombre.slice(0, 68).replace(/\s+\S*$/, '') + '…' : z.nombre)}<br><small>Toca para ver el aviso</small>`, {sticky: true, className: 'pp-tip', direction: 'top', offset: [0, -8]})
       .on('click', ev => { L.DomEvent.stop(ev); if (CREANDO) { crearEn(ev.latlng); return; } popZona(z, ev.latlng); })
       .on('contextmenu', ev => { L.DomEvent.stop(ev); libre(ev.latlng); })
       .addTo(CAPA_Z); });
@@ -631,6 +635,10 @@ const det = p => (p && p.propio ? PDET[p.id] : (DET && p && DET[p.id])) || null;
 // ------------------------------------------------------------------ zonas desaconsejadas (FCDO)
 // Polígonos [exterior, agujeros…] generados por tools/zonas_riesgo_gen.py. Rojo = todo viaje
 // desaconsejado; naranja = solo viajes esenciales. Los países enteros en conflicto van aparte.
+// Niveles: rojo (todo viaje desaconsejado), naranja (solo esenciales), guia (guía, agencia o autorización obligatoria)
+const ZN = {rojo: {t: 'Zona roja', c: '#B43A3A', f: .22, d: 'todo viaje desaconsejado', r: 3}, naranja: {t: 'Zona naranja', c: '#D97B29', f: .14, d: 'solo viajes esenciales', r: 2},
+  guia: {t: 'Guía o autorización obligatoria', c: '#2B6CB0', f: .12, d: 'solo con guía, agencia o autorización', r: 1}};
+const zn = z => ZN[z.nivel] || ZN.naranja;
 const ZONAS = (CFG.zonas || []).map(z => {
   const polys = z.poly.map(rs => { const ex = rs[0]; let a = 90, b = -90, c = 180, d = -180; ex.forEach(([la, lo]) => { a = Math.min(a, la); b = Math.max(b, la); c = Math.min(c, lo); d = Math.max(d, lo); });
     return {rs, bb: [a, b, c, d]}; });
@@ -641,16 +649,16 @@ function zonaDe(la, lo){
   let hit = null;
   for (const z of ZONAS) for (const p of z.polys) {
     const [a, b, c, d] = p.bb; if (la < a || la > b || lo < c || lo > d) continue;
-    if (enAnillo(la, lo, p.rs[0]) && !p.rs.slice(1).some(h => enAnillo(la, lo, h))) { if (!hit || (z.nivel === 'rojo' && hit.nivel !== 'rojo')) hit = z; }
+    if (enAnillo(la, lo, p.rs[0]) && !p.rs.slice(1).some(h => enAnillo(la, lo, h))) { if (!hit || zn(z).r > zn(hit).r) hit = z; }
   }
   return hit;
 }
-const zonaTxt = z => `<strong>${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'}</strong> (${z.nivel === 'rojo' ? 'todo viaje desaconsejado' : 'solo viajes esenciales'}, FCDO): ${esc(z.nombre)}`;
+const zonaTxt = z => `<strong>${zn(z).t}</strong> (${zn(z).d}, ${esc(z.organismo || 'FCDO')}): ${esc(z.nombre)}`;
 function popZona(z, latlng){
   const s = z.pais;
-  L.popup({maxWidth: 340}).setLatLng(latlng).setContent(`<div class="pp-pop"><strong style="color:${z.nivel === 'rojo' ? '#B43A3A' : '#B8560D'}">${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'} · ${esc(nom(s))}</strong>
+  L.popup({maxWidth: 340}).setLatLng(latlng).setContent(`<div class="pp-pop"><strong style="color:${zn(z).c}">${zn(z).t} · ${esc(nom(s))}</strong>
     <div class="meta">${esc(z.nombre)}</div><div style="font-size:12.5px;line-height:1.4">${esc(z.texto)}</div>
-    <div style="font-size:11.5px;color:#5F6B72;margin-top:6px">FCDO británico, revisado el ${esc(z.fecha)}${z.aprox ? ' · límites aproximados' : ''} · <a href="${esc(z.fuente)}" target="_blank" rel="noopener">aviso oficial</a> · <a href="${raiz}paises/${s}/" target="_blank" rel="noopener">ficha</a></div>
+    <div style="font-size:11.5px;color:#5F6B72;margin-top:6px">${esc(z.organismo === 'FCDO' || !z.organismo ? 'FCDO británico' : z.organismo)}, ${esc(z.fecha)}${z.aprox ? ' · límites aproximados' : ''} · <a href="${esc(z.fuente)}" target="_blank" rel="noopener">aviso oficial</a> · <a href="${raiz}paises/${s}/" target="_blank" rel="noopener">ficha</a></div>
     <div class="acc" style="margin-top:8px">${S.paises.includes(s) ? '' : `<button type="button" class="pp-b" data-verpais="${s}">Ver los puntos de ${esc(nom(s))}</button>`}</div></div>`).openOn(MAP);
 }
 
@@ -708,7 +716,7 @@ function popPunto(p){
   const lnk = (p.libre ? `<button type="button" class="a27-popup-expand" data-crear="${p.lat},${p.lon}">Crear un punto aquí</button>` : `<button type="button" class="a27-popup-expand" data-ficha="${esc(p.id)}">Ver ficha ampliada</button>`) +
     (p.propio ? `<button type="button" class="a27-popup-expand" data-editar="${esc(p.id)}">Editar o publicar</button>` : '') +
     `<a href="https://www.google.com/maps?q=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a>`;
-  return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${(() => { const z = zonaDe(p.lat, p.lon); return z ? `<span class="pp-zona ${z.nivel}">${z.nivel === 'rojo' ? 'zona roja' : 'zona naranja'} · FCDO</span>` : ''; })()}${p.propio ? `<span class="pp-propio">punto propio · ${p.publicado ? 'publicado, ' : ''}por revisar</span>` : ''}${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
+  return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${(() => { const z = zonaDe(p.lat, p.lon); return z ? `<span class="pp-zona ${z.nivel}">${z.nivel === 'guia' ? 'guía o autorización obligatoria' : (z.nivel === 'rojo' ? 'zona roja' : 'zona naranja') + ' · ' + esc(z.organismo || 'FCDO')}</span>` : ''; })()}${p.propio ? `<span class="pp-propio">punto propio · ${p.publicado ? 'publicado, ' : ''}por revisar</span>` : ''}${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
 }
 // Popup con la ficha resumida; si los datos aún no han llegado, se completa al llegar.
 function conPopup(capa, p){

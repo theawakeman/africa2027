@@ -80,7 +80,7 @@ def zona(pais, nivel, nombre, geom, texto, slug, aprox=False):
         print("VACÍA", pais, nombre)
         return
     Z.append({"pais": pais, "nivel": nivel, "nombre": nombre, "g": g, "texto": texto,
-              "fuente": FCDO + slug, "fecha": FECHA, "aprox": aprox})
+              "fuente": FCDO + slug, "fecha": FECHA, "aprox": aprox, "organismo": "FCDO"})
 
 
 # ---------------------------------------------------------------- Mauritania
@@ -267,6 +267,46 @@ zona("argelia", "rojo", "30 km de Libia, Mauritania, Malí y Níger", dz_rojo,
      "Todo viaje desaconsejado a 30 km de las fronteras de Libia, Mauritania, Malí y Níger, y de la de Túnez en Illizi, Ouargla y los montes Chaambi.", "algeria")
 zona("argelia", "naranja", "Resto de la franja de 30 km con Túnez", franja("argelia", "tunez", 30).difference(dz_rojo),
      "Solo viajes esenciales al resto de la franja de 30 km con Túnez.", "algeria")
+
+# ---------------------------------------------------------------- MAEC: campamentos saharauis de Tinduf
+zona("argelia", "rojo", "Campamentos de refugiados saharauis (Tinduf)",
+     unary_union([circulo(27.476, -8.089, 7), circulo(27.515, -8.01, 7), circulo(27.492, -7.828, 7), circulo(27.621, -7.878, 7),
+                  circulo(27.56, -8.05, 6), circulo(26.827, -6.88, 8)]),
+     "El MAEC (7-5-2026) desaconseja los campamentos de refugiados saharauis (Rabuni, El Aaiún, Smara, Auserd, Bojador y Dajla) por "
+     "amenaza terrorista concreta contra españoles. La ciudad de Tinduf y la carretera hacia Hassi 75 quedan fuera, pero con escolta.",
+     "algeria", aprox=True)
+Z[-1]["fuente"] = "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Argelia"
+Z[-1]["organismo"] = "MAEC"
+
+# ---------------------------------------------------------------- guía o autorización obligatoria (nivel «guia», azul)
+GS = "https://embbrussels.mfa.gov.dz/fr/announcements/algerian-great-south-tourist-destination-new-visa-issuance-measures"
+FR_TN = "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/tunisie/"
+def guia(pais, nombre, geom, texto, fuente, organismo, fecha, aprox=True):
+    zona(pais, "guia", nombre, geom, texto, "", aprox=aprox)
+    Z[-1].update(fuente=fuente, organismo=organismo, fecha=fecha)
+guia("argelia", "Tassili n'Ajjer, Tadrart y Djanet", reg("argelia", "Illizi").intersection(box(5, 20, 12.5, 27.5)),
+     "Solo con agencia de viajes argelina autorizada y guía: en Djanet la policía identifica al viajero en el aeropuerto y exige que lo "
+     "recoja un guía; control militar a la entrada de la meseta y del Tadrart. Wilaya del Gran Sur (visado por agencia).",
+     GS, "Embajada de Argelia + fichas", "2023 / 2026")
+guia("argelia", "Hoggar (Tamanrasset, Assekrem) y sur de In Salah", reg("argelia", "Tamanghasset").intersection(box(-2, 18, 12, 27.2)),
+     "Solo con agencia autorizada y guía (al sur de In Salah, según los viajeros); controles militares en el Ahaggar. Wilaya del Gran Sur.",
+     GS, "Embajada de Argelia + fichas", "2023 / 2026")
+guia("argelia", "Gran Sur: Adrar, Timimoun, Béchar, Béni Abbès, Tinduf", reg("argelia", "Adrar", "Béchar", "Tindouf"),
+     "Wilayas del Gran Sur: el turismo va por agencia autorizada (visado del Gran Sur) y las autoridades pueden imponer escolta, "
+     "sobre todo al oeste de Béchar hacia Tinduf. Con visado consular normal, confirmar con la agencia y la gendarmería antes de entrar.",
+     GS, "Embajada de Argelia + fichas", "2023 / 2026")
+TN_LINEA = pol((33.32, 8.033), (32.205, 10.03), (33.14, 11.22), (30.0, 11.8), (30.0, 7.4), (33.32, 7.4))
+guia("tunez", "Sáhara al sur y este de Rjim Maatoug – Borj Bourguiba – Ben Guerdane", TN_LINEA,
+     "Zona militar desde 2013: cualquier desplazamiento necesita autorización previa (Francia la desaconseja salvo motivo imperativo; "
+     "el FCDO, rojo al sur de El Borma y Dehiba).", FR_TN, "Francia (MAEE)", "15-09-2026")
+guia("tunez", "Desierto al sur de Douz (Gran Erg Oriental)",
+     reg("tunez", "Kebili").intersection(box(7.5, 31.5, 10.5, 33.4)).difference(unary_union([circulo(33.457, 9.025, 8), circulo(32.977, 9.645, 6),
+         km2deg(linea((33.457, 9.025), (33.221, 9.191), (32.977, 9.645)), 3, 33)])).difference(TN_LINEA),
+     "Guía local o agencia oficial obligatorios en la práctica al sur de Douz, con registro en la Guardia Nacional de Douz: el ejército "
+     "puede devolver a quien vaya sin guía. Douz – Jebil – Ksar Ghilane se puede hacer sin guía con experiencia y equipo.",
+     "https://www.grand-sahara-aventures.com/guides/guide-sud-tunisien-4x4", "Fichas (viajeros)", "2025", aprox=True)
+guia("tunez", "Mesa de Yugurta", circulo(35.744, 8.38, 4),
+     "Solo en circuitos organizados con guías, en coordinación con las autoridades locales (Francia).", FR_TN, "Francia (MAEE)", "15-09-2026")
 
 # ---------------------------------------------------------------- salida
 out = []

@@ -169,7 +169,7 @@ table.pp-tt i{display:inline-block;width:10px;height:10px;border-radius:2px;marg
 .pp-evitar>span{display:inline-flex;align-items:center;gap:4px;font-size:12.5px;border:1px dashed #2B2F33;border-radius:99px;padding:1px 3px 1px 9px}
 .pp-evitar .pp-b{padding:1px 5px}
 .pp-pop .pp-zona{display:inline-block;font-size:11px;font-weight:700;border-radius:99px;padding:1px 8px;margin:0 4px 6px 0}
-.pp-pop .pp-zona.rojo{background:#F6E1E1;color:#B43A3A}.pp-pop .pp-zona.naranja{background:#FCE9D6;color:#B8560D}
+.pp-pop .pp-zona.rojo{background:#F6E1E1;color:#B43A3A}.pp-pop .pp-zona.naranja{background:#FCE9D6;color:#B8560D}.pp-pop .pp-zona.guia{background:#E1EAF6;color:#2B6CB0}
 .leaflet-tooltip.pp-tip{white-space:normal;width:max-content;max-width:240px;font:12.5px/1.35 "Archivo",sans-serif}
 .leaflet-tooltip.pp-tip small{color:#5F6B72}
 .pp-eur{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;background:var(--surface2);border-radius:8px;padding:8px 10px;margin:0 0 8px}
@@ -231,7 +231,7 @@ CRITERIO = [
     "Km por país: la carretera se trocea y cada tramo cuenta en el país donde cae. Un roce de menos de 25 km sin paradas con otro país no cuenta como estancia.",
     "Días = km ÷ km de conducción al día + días de cada punto (los de su ficha, editables) + ferris y carretera en Europa, más el margen. Las fechas por país salen de ese mismo reloj.",
     "Ferris: el de ida es el recomendado para el país del primer punto (Marruecos: GNV Barcelona–Tánger Med; Argelia: Valencia–Mostaganem; Túnez: Génova–Túnez); si no tiene ferry, el del país con ferry más cercano. Igual con la vuelta y el último punto. Se pueden elegir a mano en el panel.",
-    "Zonas desaconsejadas: avisos del FCDO británico (rojo = todo viaje desaconsejado; naranja = solo esenciales), con límites aproximados donde el aviso habla de comarcas o líneas entre pueblos. Revisar siempre el MAEC antes de cada frontera.",
+    "Zonas desaconsejadas: avisos del FCDO británico (rojo = todo viaje desaconsejado; naranja = solo esenciales) y los campamentos saharauis de Tinduf que desaconseja el MAEC, con límites aproximados donde el aviso habla de comarcas o líneas entre pueblos. En azul, zonas donde hace falta guía, agencia o autorización: el Gran Sur argelino (agencia autorizada; guía obligatorio en el Tassili, el Tadrart y el Hoggar) y en Túnez el Sáhara militar (autorización previa), el desierto al sur de Douz (guía) y la Mesa de Yugurta. Revisar siempre el MAEC antes de cada frontera.",
     "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el INEOS Grenadier.",
     "Tipo de cambio: 1 USD = %s € (%s). Franco CFA fijo: 655,957 por euro. El gasóleo y el cambio se actualizan solos cada semana; si la página oficial de un visado cambia, su fila lo avisa hasta que se revisa." % (str(P.USD_EUR).replace(".", ","), P.USD_EUR_FUENTE),
     "No incluye: el viaje hasta Barcelona, la preparación de los vehículos, vacunas y seguro médico de viaje, ni una posible escapada en avión.",
@@ -286,7 +286,7 @@ def render(FULL, navbar, VERSION):
       <h3>Ajustes</h3>
       <div class="pp-row"><label>Salida de {esc(cfg['origen'])} <input type="date" id="pp-salida"></label></div>
       <div class="pp-row"><label>Km de conducción al día <input type="number" id="pp-kmdia" min="50" step="10" style="width:70px"></label><label>Margen % <input type="number" id="pp-margen" min="0" step="1" style="width:56px"></label></div>
-      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas (FCDO)</label></div>
+      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas y con guía obligatoria</label></div>
       <div class="pp-row"><label class="full">Países a evitar en la ruta <select id="pp-evitar-add"></select></label></div>
       <div class="pp-evitar" id="pp-evitar"></div>
     </div>

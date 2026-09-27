@@ -428,3 +428,9 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   descarga de la hoja de cálculo con fórmulas (mismo generador, comprobada con LibreOffice: el
   total coincide con la web) y del CSV; «Volver a todos los valores iniciales»; avisos sobre
   dato/estimación, ferris sin confirmar y CPD; sección «Criterio» adaptada al viaje por puntos.
+- (27-09-2026) Zonas: añadidos los campamentos saharauis de Tinduf (rojo, MAEC 7-5-2026) y un tercer
+  nivel azul «guía o autorización obligatoria»: Argelia — Tassili n'Ajjer/Tadrart/Djanet y Hoggar
+  (agencia y guía), resto del Gran Sur (Adrar, Béchar, Tinduf: agencia autorizada, escoltas);
+  Túnez — Sáhara militar al sur y este de Rjim Maatoug–Borj Bourguiba–Ben Guerdane (autorización
+  previa, Francia 15-09-2026), desierto al sur de Douz salvo Douz–Jebil–Ksar Ghilane (guía) y Mesa
+  de Yugurta (circuito con guía). Avisos por punto y km de carretera, como las otras zonas.
