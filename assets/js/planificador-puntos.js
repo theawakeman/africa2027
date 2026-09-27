@@ -250,7 +250,7 @@ function pintar4x4(){
   if (!MAP) return;
   if (!CAPA_4) CAPA_4 = L.layerGroup().addTo(MAP);
   CAPA_4.clearLayers();
-  const ver = !$('pp-ver4x4') || $('pp-ver4x4').checked, act = $('pp-vertodos').checked ? null : new Set(S.paises);
+  const ver = !$('pp-verr4') || $('pp-verr4').checked, act = $('pp-vertodos').checked ? null : new Set(S.paises);
   const dib = (r, color) => L.polyline(r.pts, {pane: 'rutas', color, weight: 4, opacity: .85, dashArray: r.gpx ? null : '9 6'})
     .bindTooltip('<b>' + esc(r.nombre) + '</b><br>' + (r.gpx ? 'GPX' : 'Ruta 4x4') + ' · ~' + num(r.km) + ' km', {sticky: true, className: 'a27-tip'})
     .bindPopup(() => popRuta(r), {maxWidth: 330, minWidth: 250}).addTo(CAPA_4);
@@ -1248,7 +1248,9 @@ document.addEventListener('change', e => {
     if (e.target.checked) { publicar(R); msg('El mapa general y las fichas usan ahora este viaje.'); } else msg('La web usará el viaje del Planificador clásico en cuanto lo abras.');
     pintarWeb(); return;
   }
-  if (e.target.id === 'pp-vertodos' || e.target.id === 'pp-ver4x4') { pintarPuntos(); pintar4x4(); }
+  if (e.target.id === 'pp-vertodos' || e.target.id === 'pp-ver4x4' || e.target.id === 'pp-verr4') {
+    if (e.target.id !== 'pp-vertodos') try { localStorage.setItem('a27pp-' + e.target.id, e.target.checked ? '1' : '0'); } catch(err) {}
+    pintarPuntos(); pintar4x4(); }
   if (e.target.id === 'pp-gpx-in' && e.target.files.length) { [...e.target.files].forEach(leerGPX); e.target.value = ''; }
   if (e.target.id === 'pp-importar' && e.target.files[0]) { importar(e.target.files[0]); e.target.value = ''; }
 });
@@ -1281,6 +1283,8 @@ function iniciarMapa(){
       lay.on('click', ev => { if (CREANDO) { L.DomEvent.stop(ev); crearEn(ev.latlng); return; } if (S.paises.includes(s)) popPais(s, ev.latlng); else alternarPais(s); }); }}).addTo(MAP);
   MAP.createPane('zonas').style.zIndex = 405; MAP.createPane('rutas').style.zIndex = 415; MAP.createPane('puntos').style.zIndex = 425;
   try { if ($('pp-verzonas')) $('pp-verzonas').checked = localStorage.getItem('a27pp-zonas') !== '0'; } catch(e) {}
+  // Casillas de 4x4 recordadas en este navegador (puntos y rutas por separado)
+  ['pp-ver4x4', 'pp-verr4'].forEach(id => { try { if ($(id)) $(id).checked = localStorage.getItem('a27pp-' + id) !== '0'; } catch(e) {} });
   pintarZonas();
   CAPA_RUTA = L.layerGroup().addTo(MAP); CAPA_FR = L.layerGroup().addTo(MAP); CAPA_P = L.layerGroup().addTo(MAP); CAPA_SEL = L.layerGroup().addTo(MAP);
   MAP.on('contextmenu', ev => libre(ev.latlng));

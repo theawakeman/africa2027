@@ -339,7 +339,7 @@ def render(FULL, navbar, VERSION):
       <h3>Ajustes</h3>
       <div class="pp-row"><label>Salida de {esc(cfg['origen'])} <input type="date" id="pp-salida"></label></div>
       <div class="pp-row"><label>Km de conducción al día <input type="number" id="pp-kmdia" min="50" step="10" style="width:70px"></label><label>Margen % <input type="number" id="pp-margen" min="0" step="1" style="width:56px"></label></div>
-      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas y con guía obligatoria</label><label><input type="checkbox" id="pp-ver4x4" checked> Ver 4x4 y offroad</label></div>
+      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas y con guía obligatoria</label><label><input type="checkbox" id="pp-ver4x4" checked> Ver puntos 4x4</label><label><input type="checkbox" id="pp-verr4" checked> Ver rutas 4x4</label></div>
       <div class="pp-row"><label class="full">Países a evitar en la ruta <select id="pp-evitar-add"></select></label></div>
       <div class="pp-evitar" id="pp-evitar"></div>
     </div>
