@@ -193,7 +193,10 @@ function calcular(){
   for (let i = 1; i < seq.length; i++) { const e = tramo(seq[i - 1].pos, seq[i].pos); tramos.push({a: seq[i - 1], b: seq[i], ...e, mitad: seq[i].mitad}); }
   // Km por país y países atravesados, en orden
   const kmPais = {}, runs = [];
-  let kmTot = 0;
+  const kmdia = Math.max(50, +S.kmdia || 300), margen = Math.max(0, +S.margen || 0) / 100;
+  const medio = h => Math.max(0.5, Math.ceil(h / 24 * 2) / 2);
+  const dFerry = f => medio(f.h) + f.km_eu / kmdia;
+  let kmTot = 0, reloj = dFerry(FI.f);   // días desde la salida (sin margen), para las fechas por país
   tramos.forEach(t => {
     t.kmAcum = kmTot; kmTot += t.km;
     // Los tramos se trocean cada ~25 km para repartir los km por países
@@ -208,12 +211,17 @@ function calcular(){
       if (!s) continue;
       const k = seg / len * t.km;
       kmPais[s] = (kmPais[s] || 0) + k;
+      reloj += k / kmdia;
       const recta = !t.real || !!t.rodeo;
-      if (runs.length && runs[runs.length - 1].s === s) runs[runs.length - 1].km += k; else runs.push({s, km: k, recta});   // recta: se entró por un tramo provisional
+      if (runs.length && runs[runs.length - 1].s === s) { runs[runs.length - 1].km += k; runs[runs.length - 1].t1 = reloj; }
+      else runs.push({s, km: k, recta, t0: reloj - k / kmdia, t1: reloj, puntos: []});   // recta: se entró por un tramo provisional
     }
+    // La estancia en un punto cuenta en el país donde está
+    if (t.b.tipo === 'punto') { reloj += diasDe(t.b.p); const u = runs[runs.length - 1]; if (u) { u.t1 = reloj; u.puntos.push(t.b.p); } }
   });
   // Un roce de menos de 10 km con otro país (carretera pegada a la frontera) no cuenta como entrada
-  for (let i = runs.length - 2; i > 0; i--) if (runs[i].km < 10 && runs[i - 1].s === runs[i + 1].s) { runs[i - 1].km += runs[i].km + runs[i + 1].km; runs.splice(i, 2); }
+  for (let i = runs.length - 2; i > 0; i--) if (runs[i].km < 10 && runs[i - 1].s === runs[i + 1].s) {
+    const a = runs[i - 1]; a.km += runs[i].km + runs[i + 1].km; a.t1 = runs[i + 1].t1; a.puntos = a.puntos.concat(runs[i].puntos, runs[i + 1].puntos); runs.splice(i, 2); }
   const orden = runs.map(x => x.s);
   const entradas = {}; orden.forEach(s => { entradas[s] = (entradas[s] || 0) + 1; });
   const act = new Set(S.paises.concat([FI.f.pais, FV.f.pais]));
@@ -235,9 +243,6 @@ function calcular(){
   const aprox = tramos.filter(t => !t.real).length;
   if (aprox) avisos.push({rojo: false, t: FALLO.size ? `Sin respuesta del servidor de rutas: ${aprox} tramo${aprox > 1 ? 's' : ''} en línea recta (discontinua) con km aproximados.` : `Calculando la carretera de ${aprox} tramo${aprox > 1 ? 's' : ''}…`});
   // Días y fechas
-  const kmdia = Math.max(50, +S.kmdia || 300), margen = Math.max(0, +S.margen || 0) / 100;
-  const medio = h => Math.max(0.5, Math.ceil(h / 24 * 2) / 2);
-  const dFerry = f => medio(f.h) + f.km_eu / kmdia;
   let t = dFerry(FI.f);
   const fechaPunto = {};
   tramos.forEach(tr => { t += tr.km / kmdia; if (tr.b.tipo === 'punto') { fechaPunto[tr.b.p.id] = t; t += diasDe(tr.b.p); } });
@@ -245,8 +250,135 @@ function calcular(){
   Object.entries(kmPais).forEach(([s, k]) => { diasPais[s] = (diasPais[s] || 0) + k / kmdia; });
   todos.forEach(p => { if (p.pais) diasPais[p.pais] = (diasPais[p.pais] || 0) + diasDe(p); });
   const base = t + dFerry(FV.f), dias = Math.ceil(base * (1 + margen));
-  R = {ida, vuelta, todos, FI, FV, seq, tramos, kmTot, kmPais, orden, entradas, avisos, dias, fechaPunto, diasPais, factor: 1 + margen};
+  const kmEU = FI.f.km_eu + FV.f.km_eu;
+  R = {ida, vuelta, todos, FI, FV, seq, tramos, kmTot, kmEU, kmPais, runs, orden, entradas, avisos, dias, fechaPunto, diasPais, factor: 1 + margen};
+  R.bud = presupuesto(R);
+  publicar(R);
   pintar();
+}
+
+
+// ------------------------------------------------------------------ presupuesto
+// Mismo modelo y mismos precios que el Planificador actual. Los ajustes que se
+// hacen allí (vehículos, consumos, gasóleo, visados, ferris, parámetros) se
+// guardan en 'a27-presupuesto-v1' y se aplican también aquí.
+const BUD = CFG.bud, AJ_KEY = 'a27-presupuesto-v1';
+const eur = v => { const r = Math.round(v); return (r < 0 ? '−' : '') + grp(Math.abs(r)) + ' €'; };
+const CATS = [['comb', 'Combustible', '#1E7A8A'], ['vis', 'Visados', '#2B6CB0'], ['veh', 'Vehículo: CPD, tasas, seguros, mantenimiento', '#C47F17'],
+  ['ferry', 'Ferris', '#673AB7'], ['vida', 'Comida, noches y actividades', '#2E7D32'], ['perro', 'Perro', '#8B5A2B'], ['otros', 'Comunicaciones', '#5F6B72'], ['imp', 'Imprevistos', '#B43A3A']];
+function ajustes(){ try { return JSON.parse(localStorage.getItem(AJ_KEY) || '{}') || {}; } catch(e) { return {}; } }
+function presupuesto(R){
+  const A = ajustes(), V = (k, d) => { const x = parseFloat(k in A ? A[k] : d); return isFinite(x) ? x : 0; };
+  const factor = V('factor', BUD.factor), desv = V('desvios', BUD.desvios) / 100;
+  const veh = BUD.vehiculos.map(v => ({...v, l100: V(v.id + '.l100', v.l100), personas: V(v.id + '.personas', v.personas), perros: V(v.id + '.perros', v.perros),
+    cpd: V(v.id + '.cpd_libro', v.cpd_libro) + V(v.id + '.cpd_banco', v.cpd_banco), aval: V(v.id + '.cpd_aval', v.cpd_aval)}));
+  const P = {}; BUD.params.forEach(p => { P[p.id] = V('p.' + p.id, p.val); });
+  const nPers = veh.reduce((t, v) => t + v.personas, 0), dias = R.dias, meses = dias / 30.4;
+  const pb = s => BUD.paises[s] || {};
+  // Km y combustible: Europa (ida), África por país, Europa (vuelta)
+  const filas = [], vistos = new Set();
+  const eu = (dir, f) => f.km_eu > 0 ? {eu: dir, n: dir === 'ida' ? `Europa: ${CFG.origen} → ${f.origen}` : `Europa: ${f.origen} → ${CFG.origen}`, km: f.km_eu * factor, precio: V('g.eu.' + f.gas, BUD.gas_eu[f.gas])} : null;
+  const e1 = eu('ida', R.FI.f); if (e1) filas.push(e1);
+  R.runs.forEach(r => { if (vistos.has(r.s)) return; vistos.add(r.s);
+    const d = pb(r.s).gas;
+    filas.push({s: r.s, n: nom(r.s), km: (R.kmPais[r.s] || 0) * factor * (1 + desv), precio: V('g.' + r.s, d != null ? d : BUD.gas_sin_dato), generico: d == null, entradas: R.entradas[r.s] || 1}); });
+  const e2 = eu('vuelta', R.FV.f); if (e2) filas.push(e2);
+  const litros = filas.reduce((t, f) => t + f.km, 0);   // km totales (cada vehículo los hace todos)
+  // Visados y tasas (por entrada)
+  let visPP = 0, tasas = 0;
+  filas.filter(f => f.s).forEach(f => {
+    const b = pb(f.s);
+    f.vis = V('vis.' + f.s, b.vis != null ? b.vis : 0); f.visSin = b.vis == null; f.visTxt = b.vis_txt || ''; f.visUrl = b.vis_url || ''; f.visAviso = b.vis_aviso || '';
+    f.tasa = V('tasa.' + f.s, b.tasa || 0); f.tasaTxt = b.tasa_txt || '';
+    visPP += f.vis * f.entradas; tasas += f.tasa * f.entradas;
+  });
+  const precioFerry = (f, dir, v) => V('fer.' + f.id + '.' + dir + '.' + v.id, Math.round(((dir === 'ida' ? f.coche_ida : f.coche_vuelta) + Math.max(0, v.personas - 1) * f.pax) * 100) / 100);
+  const Rr = {};
+  veh.forEach(v => {
+    const r = Rr[v.id] = {litros: 0, comb: 0};
+    filas.forEach(f => { const l = f.km * v.l100 / 100; r.litros += l; r.comb += l * f.precio; });
+    r.vis = visPP * v.personas;
+    r.veh = v.cpd + tasas + P.seguros + P.mantenimiento;
+    r.ferry = precioFerry(R.FI.f, 'ida', v) + precioFerry(R.FV.f, 'vuelta', v);
+    r.vida = P.comida * v.personas * dias + P.noche * dias + P.parques * v.personas;
+    r.perro = v.perros ? (P.perro_comida * dias * v.perros + P.perro_tramites * v.perros + 2 * BUD.perro_ferry * v.perros) : 0;
+    r.otros = P.comunicaciones * meses;
+    const base = r.comb + r.vis + r.veh + r.ferry + r.vida + r.perro + r.otros;
+    r.imp = base * P.imprevistos / 100; r.total = base + r.imp;
+  });
+  const total = veh.reduce((t, v) => t + Rr[v.id].total, 0), aval = veh.reduce((t, v) => t + v.aval, 0);
+  const cat = {}; CATS.forEach(([k]) => { cat[k] = veh.reduce((t, v) => t + Rr[v.id][k], 0); });
+  const ferris = [['ida', R.FI.f], ['vuelta', R.FV.f]].map(([dir, f]) => ({dir, f, eur: veh.reduce((t, v) => t + precioFerry(f, dir, v), 0)}));
+  return {veh, Rr, total, aval, cat, filas, ferris, visPP, tasas, nPers, km: litros, desv, ajustado: Object.keys(A).length > 0};
+}
+function pintarPresupuesto(){
+  const B = R && R.bud; if (!B || !$('pp-bud')) return;
+  const hay = R.todos.length > 0;
+  $('pp-total').textContent = hay ? eur(B.total) : '—';
+  $('pp-total-sub').textContent = hay ? `${eur(B.total / Math.max(1, B.nPers))} por persona · ${eur(B.total / Math.max(1, R.dias))} al día` : 'Añade puntos para calcularlo';
+  if (!hay) { $('pp-bud').hidden = true; return; }
+  $('pp-bud').hidden = false;
+  $('pp-bud-cards').innerHTML = B.veh.map(v => `<div class="pp-card"><div class="lbl">${esc(v.nombre)} · ${esc(v.detalle)}</div><div class="big">${eur(B.Rr[v.id].total)}</div>
+      <div class="sub">${eur(B.Rr[v.id].total / Math.max(1, v.personas))} por persona · combustible ${eur(B.Rr[v.id].comb)} (${num(B.Rr[v.id].litros)} L a ${num(v.l100, 1)} L/100)</div></div>`).join('')
+    + `<div class="pp-card tot"><div class="lbl">Total del viaje</div><div class="big">${eur(B.total)}</div><div class="sub">${num(B.nPers)} personas · ${num(R.dias)} días · ${num(B.km)} km por vehículo${B.desv ? ' (con un ' + num(B.desv * 100) + ' % de desvíos para agua, gasóleo y noche)' : ''}</div>
+      <div class="sub">Además, <strong>${eur(B.aval)}</strong> inmovilizados en los avales del CPD (se recuperan al cerrar los carnets).</div></div>`;
+  const max = Math.max(1, ...CATS.map(([k]) => B.cat[k]));
+  $('pp-bud-barras').innerHTML = CATS.map(([k, l, c]) => `<div class="pp-bar"><span>${l}</span><div class="track"><i style="width:${B.cat[k] / max * 100}%;background:${c}"></i></div><span class="v">${eur(B.cat[k])}</span></div>`).join('');
+  $('pp-bud-paises').innerHTML = B.filas.map(f => f.eu ? `<tr class="eu"><td>${esc(f.n)}</td><td class="n">${num(f.km)}</td><td class="n">—</td><td class="n">${num(f.precio, 2)} €</td><td class="n">${eur(B.veh.reduce((t, v) => t + f.km * v.l100 / 100 * f.precio, 0))}</td><td class="n">—</td><td class="n">—</td></tr>`
+    : `<tr><td><strong>${esc(f.n)}</strong>${f.entradas > 1 ? ` <small>${f.entradas} entradas</small>` : ''}${f.generico ? '<span class="nota">gasóleo sin precio publicado: valor genérico</span>' : ''}${f.visAviso ? `<span class="nota av">⚠ la fuente del visado cambió el ${esc(f.visAviso)}: revisar</span>` : ''}</td>
+      <td class="n">${num(f.km)}</td><td class="n">${num((R.diasPais[f.s] || 0) * R.factor, 1)}</td><td class="n">${num(f.precio, 2)} €</td>
+      <td class="n">${eur(B.veh.reduce((t, v) => t + f.km * v.l100 / 100 * f.precio, 0))}</td>
+      <td class="n" title="${esc(f.visTxt)}">${f.vis ? (f.visUrl ? `<a href="${esc(f.visUrl)}" target="_blank" rel="noopener">${eur(f.vis * f.entradas)}</a>` : eur(f.vis * f.entradas)) : (f.visSin ? '<span class="nota">sin dato</span>' : '—')}</td>
+      <td class="n" title="${esc(f.tasaTxt)}">${f.tasa ? eur(f.tasa * f.entradas) : '—'}</td></tr>`).join('')
+    + B.ferris.map(x => `<tr class="eu"><td>Ferry de ${x.dir}: ${esc(x.dir === 'ida' ? x.f.origen + ' → ' + x.f.puerto : x.f.puerto + ' → ' + x.f.origen)}<span class="nota">${esc(x.f.naviera)} · ${num(x.f.h)} h · los dos vehículos</span></td><td class="n" colspan="6">${eur(x.eur)}</td></tr>`).join('');
+  $('pp-bud-pie').innerHTML = `Visados: ${eur(B.visPP)} por persona (${eur(B.visPP * B.nPers)} el grupo) · tasas de vehículo: ${eur(B.tasas)} por vehículo · ferris: ${eur(B.cat.ferry)}.
+    Precios del ${esc(BUD.fecha)}; gasóleo de GlobalPetrolPrices (${esc(BUD.gpp_fecha)}), actualizado cada semana.
+    ${B.ajustado ? 'Incluye tus ajustes del Planificador actual.' : ''} Los vehículos, consumos y precios se cambian en el <a href="${raiz}planificador/#resumen">Planificador actual</a> y valen para los dos.`;
+  pintarComparar();
+}
+
+// ------------------------------------------------------------------ la web usa este viaje
+// Con la casilla marcada, el resumen de este viaje ('a27-ruta-resumen') alimenta
+// el mapa general, el portal y el bloque «Tu viaje» de las fichas, igual que el
+// Planificador actual (que deja de publicar el suyo mientras tanto).
+const RKEY = 'a27-ruta-resumen', FUENTE = 'a27-ruta-fuente', CIFRAS = 'a27-plan-cifras';
+const usaWeb = () => { try { return localStorage.getItem(FUENTE) === 'puntos'; } catch(e) { return false; } };
+function publicar(R){
+  if (!usaWeb() || !R.todos.length) return;
+  try {
+    const iso = d => d.toISOString().slice(0, 10), f = R.factor, veces = {};
+    const pasos = R.runs.map((r, i) => {
+      veces[r.s] = (veces[r.s] || 0) + 1;
+      const prev = R.runs[i - 1], next = R.runs[i + 1], ps = r.puntos;
+      return {s: r.s, f: r.s, n: nom(r.s), nf: nom(r.s), k: veces[r.s], tipo: ps.length ? 'visita' : 'transito',
+        lab: ps.length ? ps.slice(0, 3).map(p => p.nombre.split(' · ')[0]).join(', ') + (ps.length > 3 ? ' y ' + (ps.length - 3) + ' más' : '') : '',
+        de: prev ? nom(prev.s) : 'ferry desde ' + R.FI.f.origen, a: next ? nom(next.s) : 'ferry a ' + R.FV.f.origen,
+        ent: iso(addDays(S.salida, r.t0 * f)), sal: iso(addDays(S.salida, r.t1 * f)), d: Math.round((r.t1 - r.t0) * f * 10) / 10, km: Math.round(r.km)};
+    });
+    const linea = [];
+    const push = q => { const x = [Math.round(q[0] * 100) / 100, Math.round(q[1] * 100) / 100], u = linea[linea.length - 1]; if (!u || u[0] !== x[0] || u[1] !== x[1]) linea.push(x); };
+    R.tramos.forEach(t => t.pts.forEach(push));
+    localStorage.setItem(RKEY, JSON.stringify({v: 1, fuente: 'puntos', nombre: (S.nombre || 'Viaje por puntos') + ' · por puntos', origen: CFG.origen, salida: S.salida,
+      regreso: iso(addDays(S.salida, R.dias)), dias: R.dias, km: Math.round(R.kmTot + R.kmEU),
+      ida: R.FI.f.origen + ' → ' + R.FI.f.puerto, vuelta: R.FV.f.puerto + ' → ' + R.FV.f.origen, pasos, linea, hecho: new Date().toISOString()}));
+  } catch(e) {}
+}
+function pintarWeb(){
+  const on = usaWeb(); $('pp-web').checked = on;
+  $('pp-web-txt').innerHTML = on ? 'El mapa general, el portal y las fichas muestran <strong>este viaje</strong>.'
+    : 'Ahora la web muestra el viaje del <a href="' + raiz + 'planificador/">Planificador actual</a>.';
+}
+function pintarComparar(){
+  const el = $('pp-comp'); if (!el) return;
+  let C = null; try { C = JSON.parse(localStorage.getItem(CIFRAS) || 'null'); } catch(e) { C = null; }
+  if (!C || !R || !R.bud || !R.todos.length) { el.innerHTML = C ? '' : '<p class="pp-ayuda">Abre el <a href="' + raiz + 'planificador/">Planificador actual</a> una vez y aquí verás la comparación.</p>'; return; }
+  const yo = {km: R.kmTot + R.kmEU, dias: R.dias, total: R.bud.total};
+  const dif = (a, b, fmt) => { const d = a - b; return Math.abs(d) < 0.5 ? '<span class="ig">igual</span>' : `<span class="${d > 0 ? 'mas' : 'menos'}">${d > 0 ? '+' : '−'}${fmt(Math.abs(d))}</span>`; };
+  el.innerHTML = `<table class="pp-comp"><thead><tr><th></th><th>Este viaje</th><th>Planificador actual</th><th>Diferencia</th></tr></thead><tbody>
+    <tr><td>Km</td><td>${num(yo.km)}</td><td>${num(C.km)}</td><td>${dif(yo.km, C.km, num)}</td></tr>
+    <tr><td>Días</td><td>${num(yo.dias)}</td><td>${num(C.dias)}</td><td>${dif(yo.dias, C.dias, num)}</td></tr>
+    <tr><td>Presupuesto</td><td>${eur(yo.total)}</td><td>${eur(C.total)}</td><td>${dif(yo.total, C.total, eur)}</td></tr></tbody></table>
+    <p class="pp-ayuda">Planificador actual: «${esc(C.nombre || '')}»${C.paises ? ' · ' + C.paises + ' países' : ''}.</p>`;
 }
 
 // ------------------------------------------------------------------ mapa
@@ -377,11 +509,11 @@ function pintar(){
     el.value = cur || '';
   });
   if (R) {
-    $('pp-km').textContent = num(R.kmTot);
+    $('pp-km').textContent = num(R.kmTot + R.kmEU);
     $('pp-dias').textContent = num(R.dias);
     const ps = [...new Set(R.orden)];
     $('pp-np').textContent = ps.length;
-    $('pp-fechas').textContent = R.todos.length ? `Salida ${fecha(addDays(S.salida, 0), true)} · regreso ~${fecha(addDays(S.salida, R.dias), true)} · ferry ${R.FI.f.origen} → ${R.FI.f.puerto} y ${R.FV.f.puerto} → ${R.FV.f.origen}` : '';
+    $('pp-fechas').textContent = R.todos.length ? `Salida ${fecha(addDays(S.salida, 0), true)} · regreso ~${fecha(addDays(S.salida, R.dias), true)} · ferry ${R.FI.f.origen} → ${R.FI.f.puerto} y ${R.FV.f.puerto} → ${R.FV.f.origen}${R.kmEU ? ' · ' + num(R.kmEU) + ' km por Europa' : ''}` : '';
     const act = new Set(S.paises), totD = Object.values(R.diasPais).reduce((a, b) => a + b, 0) || 1;
     $('pp-tira').innerHTML = ps.map(s => `<i style="width:${(R.diasPais[s] || 0) / totD * 100}%;background:${colPais(s)}" title="${esc(nom(s))}: ~${num(R.diasPais[s] * R.factor, 1)} días"></i>`).join('');
     $('pp-paises').innerHTML = ps.map(s => `<span class="${act.has(s) ? '' : 'fuera'}" style="border-left:4px solid ${colPais(s)}">${esc(nom(s))} · ${num(R.kmPais[s] || 0)} km${R.entradas[s] > 1 ? ' · ' + R.entradas[s] + ' entradas' : ''}</span>`).join('');
@@ -389,6 +521,7 @@ function pintar(){
   }
   $('pp-salida').value = S.salida || CFG.salida; $('pp-kmdia').value = S.kmdia; $('pp-margen').value = S.margen;
   if (MAP) { estiloPaises(); pintarPuntos(); pintarSel(); pintarRuta(); }
+  pintarPresupuesto(); pintarWeb();
   paintViajes();
 }
 
@@ -529,6 +662,11 @@ document.addEventListener('change', e => {
   if (e.target.id === 'pp-kmdia') { S.kmdia = Math.max(50, +e.target.value || 300); save(); calcular(); }
   if (e.target.id === 'pp-margen') { S.margen = Math.max(0, +e.target.value || 0); save(); calcular(); }
   if (e.target.id === 'pp-verfr') pintarRuta();
+  if (e.target.id === 'pp-web') {
+    try { if (e.target.checked) localStorage.setItem(FUENTE, 'puntos'); else { localStorage.setItem(FUENTE, 'planificador'); localStorage.removeItem(RKEY); } } catch(err) {}
+    if (e.target.checked) { publicar(R); msg('El mapa general y las fichas usan ahora este viaje.'); } else msg('La web volverá a usar el Planificador actual en cuanto lo abras.');
+    pintarWeb(); return;
+  }
   if (e.target.id === 'pp-vertodos') pintarPuntos();
   if (e.target.id === 'pp-importar' && e.target.files[0]) { importar(e.target.files[0]); e.target.value = ''; }
 });
@@ -542,6 +680,8 @@ $('pp-vnombre').addEventListener('keydown', e => { if (e.key === 'Enter') { e.pr
 $('pp-nuevo').addEventListener('click', () => { if (!confirm('¿Empezar un viaje nuevo? El actual se pierde si no lo has guardado.')) return; S = VACIO(); save(); calcular(); encuadrar(); });
 if (window.Sortable) ['pp-lista-ida', 'pp-lista-vuelta'].forEach(id => Sortable.create($(id), {group: 'pp', handle: '.pp-h', animation: 150,
   onEnd: () => { S.ida = [...$('pp-lista-ida').children].map(li => li.dataset.id); S.vuelta = [...$('pp-lista-vuelta').children].map(li => li.dataset.id); save(); calcular(); }}));
+
+window.addEventListener('storage', e => { if (e.key === AJ_KEY || e.key === CIFRAS || e.key === FUENTE) calcular(); });
 
 // ------------------------------------------------------------------ arranque
 function iniciarMapa(){

@@ -12,6 +12,8 @@ from data_countries import C, REGION
 from presupuesto_page import datos as datos_presupuesto
 from site_common import esc, page
 from planificador_puntos import PISTAS
+import data_presupuesto as P
+from precios_auto import aviso_fuente
 
 JS = "planificador-puntos.js"
 
@@ -33,9 +35,29 @@ def config(FULL):
         if a != b:
             fronteras.append([a, b, tipo])
     ferris = [{"id": f[0], "pais": f[1], "origen": f[2], "puerto": f[3], "pos": [f[4], f[5]], "naviera": f[6],
-               "h": f[7], "km_eu": f[12]} for f in RT.FERRIES]
+               "h": f[7], "km_eu": f[12], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "gas": f[13]}
+              for f in RT.FERRIES]
     return {"paises": paises, "fronteras": fronteras, "ferris": ferris, "ferry_pref": RT.FERRY_PREFERIDO,
-            "salida": RT.SALIDA, "origen": RT.ORIGEN, "pistas": PISTAS}
+            "salida": RT.SALIDA, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
+
+
+def presupuesto(D, nombres):
+    """Precios del Planificador actual (mismos valores y mismas claves de ajuste)."""
+    bud = {"fecha": D["fecha"], "factor": D["factor"], "desvios": D["desvios"], "vehiculos": D["vehiculos"],
+           "params": D["params"], "perro_ferry": D["perro_ferry"], "gas_sin_dato": P.GASOIL_SIN_DATO,
+           "gas_eu": RT.GASOIL_EUROPA, "gpp_fecha": P.GPP_FECHA, "paises": {}}
+    for s in nombres:
+        g, v, t = P.GASOIL.get(s), P.VISADOS.get(s), P.TASAS.get(s)
+        aviso = aviso_fuente(v[2]) if v else ""
+        bud["paises"][s] = {
+            "gas": g[0] if g else None,
+            "vis": 0 if s in P.SIN_VISADO else (v[0] if v else None),
+            "vis_txt": "Sin visado" if s in P.SIN_VISADO else (v[1] if v else "Sin importe localizado"),
+            "vis_url": v[2] if v and s not in P.SIN_VISADO else "",
+            **({"vis_aviso": aviso} if aviso and s not in P.SIN_VISADO else {}),
+            "tasa": t[0] if t else 0, "tasa_txt": t[1] if t else "",
+        }
+    return bud
 
 
 CSS = """
@@ -107,6 +129,38 @@ CSS = """
 .pp-ayuda b{color:var(--ink)}
 #pp-msg{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--ink);color:var(--surface);padding:9px 14px;border-radius:10px;font:600 13px "Archivo",sans-serif;z-index:2000;max-width:90vw;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 .pp-it.sortable-ghost{opacity:.35}
+.pp-eur{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;background:var(--surface2);border-radius:8px;padding:8px 10px;margin:0 0 8px}
+.pp-eur b{font-size:22px;font-variant-numeric:tabular-nums;color:var(--head)}
+.pp-eur span{font-size:12px;color:var(--ink-soft);flex:1}
+.pp-eur a{font-size:12px;font-weight:700;color:var(--teal)}
+.pp-chk{display:flex;gap:8px;align-items:flex-start;font-size:13px;cursor:pointer}
+.pp-chk input{margin-top:2px;width:16px;height:16px;accent-color:#1E7A8A}
+table.pp-comp{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
+table.pp-comp th{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);text-align:right;font-weight:700;padding:3px 4px}
+table.pp-comp td{text-align:right;padding:4px;border-top:1px solid var(--line)}
+table.pp-comp td:first-child,table.pp-comp th:first-child{text-align:left}
+table.pp-comp .mas{color:#B43A3A;font-weight:700}table.pp-comp .menos{color:#2E7D32;font-weight:700}table.pp-comp .ig{color:var(--ink-soft)}
+.pp-bud{margin:26px 0 10px;font-family:"Archivo",sans-serif}
+.pp-bud h2{margin:0 0 10px}
+.pp-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.pp-card{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:12px 14px}
+.pp-card.tot{border-color:#1E7A8A}
+.pp-card .lbl{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
+.pp-card .big{font-size:26px;font-weight:800;color:var(--head);font-variant-numeric:tabular-nums;line-height:1.2}
+.pp-card .sub{font-size:12.5px;color:var(--ink-soft);margin-top:2px}
+.pp-bars{display:flex;flex-direction:column;gap:6px;margin:16px 0}
+.pp-bar{display:grid;grid-template-columns:minmax(120px,300px) 1fr 90px;gap:10px;align-items:center;font-size:13px}
+.pp-bar .track{background:var(--surface2);border-radius:4px;height:13px;overflow:hidden}.pp-bar .track i{display:block;height:100%}
+.pp-bar .v{text-align:right;font-variant-numeric:tabular-nums}
+.pp-tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table.pp-bt{width:100%;border-collapse:collapse;font-size:13.5px}
+table.pp-bt th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:8px 10px;background:var(--surface2)}
+table.pp-bt td{padding:7px 10px;border-top:1px solid var(--line);vertical-align:top}
+table.pp-bt .n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.pp-bt tr.eu td{color:var(--ink-soft);background:var(--surface2)}
+table.pp-bt .nota{display:block;font-size:11.5px;color:var(--ink-soft)}table.pp-bt .nota.av{color:var(--amber);font-weight:600}
+table.pp-bt small{color:var(--ink-soft)}
+@media (max-width:640px){.pp-bar{grid-template-columns:110px 1fr 78px;font-size:12px}}
 @media (max-width:900px){.pp-wrap{grid-template-columns:1fr}#pp-mapa{height:68vh;min-height:360px}.pp-panel{position:static;max-height:none}}
 """
 
@@ -126,6 +180,7 @@ def render(FULL, navbar, VERSION):
     <div class="pp-sec">
       <h3>Tu viaje <span class="cnt" id="pp-nombre"></span></h3>
       <div class="pp-sum"><div><b id="pp-km">0</b><span>km</span></div><div><b id="pp-dias">0</b><span>días</span></div><div><b id="pp-np">0</b><span>países</span></div></div>
+      <div class="pp-eur"><b id="pp-total">—</b><span id="pp-total-sub"></span><a href="#pp-bud">Ver el desglose</a></div>
       <div class="pp-tira" id="pp-tira" aria-hidden="true"></div>
       <div id="pp-fechas" style="font-size:12.5px;color:var(--ink-soft)"></div>
       <div class="pp-paises" id="pp-paises"></div>
@@ -144,6 +199,13 @@ def render(FULL, navbar, VERSION):
       <div class="pp-row"><button type="button" class="pp-b" id="pp-ord-vuelta">Ordenar la vuelta por cercanía</button></div>
     </div>
     <div class="pp-sec">
+      <h3>En la web</h3>
+      <label class="pp-chk"><input type="checkbox" id="pp-web"> Usar este viaje en el mapa general, el portal y las fichas</label>
+      <p class="pp-ayuda" id="pp-web-txt" style="margin-top:4px"></p>
+      <h3 style="margin-top:14px">Comparar con el Planificador actual</h3>
+      <div id="pp-comp"></div>
+    </div>
+    <div class="pp-sec">
       <h3>Ajustes</h3>
       <div class="pp-row"><label>Salida de {esc(cfg['origen'])} <input type="date" id="pp-salida"></label></div>
       <div class="pp-row"><label>Km de conducción al día <input type="number" id="pp-kmdia" min="50" step="10" style="width:70px"></label><label>Margen % <input type="number" id="pp-margen" min="0" step="1" style="width:56px"></label></div>
@@ -157,6 +219,14 @@ def render(FULL, navbar, VERSION):
     </div>
   </aside>
 </div>
+<section id="pp-bud" class="pp-bud" hidden aria-labelledby="pp-bud-t">
+  <h2 id="pp-bud-t">Presupuesto del viaje</h2>
+  <div class="pp-cards" id="pp-bud-cards"></div>
+  <div class="pp-bars" id="pp-bud-barras"></div>
+  <div class="pp-tw"><table class="pp-bt"><thead><tr><th>País</th><th class="n">Km</th><th class="n">Días</th><th class="n">Gasóleo</th><th class="n">Combustible</th><th class="n">Visados / persona</th><th class="n">Tasas / vehículo</th></tr></thead>
+  <tbody id="pp-bud-paises"></tbody></table></div>
+  <p class="pp-ayuda" id="pp-bud-pie" style="margin-top:8px"></p>
+</section>
 <div id="pp-msg" role="status" aria-live="polite" hidden></div>
 <footer>ÁFRICA 2027 · Planificador por puntos (beta)</footer>
 </main>

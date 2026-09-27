@@ -600,7 +600,9 @@ function compute(){
     <div class="bud-card ${dif > 0 ? 'alerta' : ''}"><div class="lbl">Días · regreso</div><div class="big">${num(dias)} días</div><div class="sub">${fecha(iso2d(salida))} → <strong>${fecha(regreso)}</strong>${fijos > 0 ? ' · duración fija (con el ritmo elegido saldrían ' + num(diasCalc) + ')' : ''}</div>
       <div class="sub">${dif > 0 ? `${num(dif)} días después del regreso previsto (${fecha(previsto)}). Para llegar ese día haría falta un ritmo medio de ~${num(ritmoNec)} km/día.` : `${num(-dif)} días antes del regreso previsto (${fecha(previsto)}).`}</div></div>
     <div class="bud-card"><div class="lbl">Presupuesto total</div><div class="big">${eur(total)}</div><div class="sub">${eur(total / Math.max(1, nPers))} por persona · <a href="#resumen">ver el resumen</a></div></div>`;
-  $('bud-avisos').innerHTML = R.avisos.map(a => `<li>${a}</li>`).join('');
+  const dePuntos = (() => { try { return localStorage.getItem('a27-ruta-fuente') === 'puntos'; } catch(e) { return false; } })();
+  $('bud-avisos').innerHTML = (dePuntos ? `<li class="bud-aviso-fuente">El mapa general y las fichas usan ahora un viaje del <a href="../planificador-puntos/">Planificador por puntos</a>. <button type="button" class="mv" data-usar-web="1">Usar este viaje en la web</button></li>` : '')
+    + R.avisos.map(a => `<li>${a}</li>`).join('');
   // ---- Resumen
   $('bud-cards').innerHTML = veh.map(v => `<div class="bud-card"><div class="lbl">${v.nombre} · ${v.detalle}</div>
       <div class="big">${eur(Rr[v.id].total)}</div><div class="sub">${eur(Rr[v.id].total / Math.max(1, v.personas))} por persona · ${eur(Rr[v.id].total / Math.max(1, dias))} al día</div>
@@ -620,7 +622,9 @@ function compute(){
     + `<tr class="bud-aval"><td>Aval del CPD inmovilizado <span class="nota">No es gasto y no suma al total: el banco lo bloquea y se recupera al devolver el carnet con todos los sellos.</span></td>${veh.map(v => `<td class="n">${eur(V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(aval)}</td></tr>`
     + `<tr class="bud-aval"><td>Dinero comprometido al salir <span class="nota">Total del viaje + avales.</span></td>${veh.map(v => `<td class="n">${eur(Rr[v.id].total + V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(total + aval)}</td></tr>`;
   setTimeout(estadoViaje, 0);
-  publicarResumen(R, FE, dias, diasRuta, salida, kmTot);
+  // Cifras para la comparación del Planificador por puntos
+  try { localStorage.setItem('a27-plan-cifras', JSON.stringify({nombre: nombreViaje(), km: Math.round(kmTot), dias, total: Math.round(total), paises: R.sel.size, hecho: new Date().toISOString()})); } catch(e) {}
+  if (!dePuntos) publicarResumen(R, FE, dias, diasRuta, salida, kmTot);
   window.__A27_BUDGET_RESULT = {R: Rr, total, kmTot, veh, dias, diasCalc, diasRuta, fijos, margen, salida, regreso: fecha(regreso),
     ruta: R, porPais, orden, combOut, visOut, tasOut, factor, desv, rv, rt, FE, euRows, kmEU, diasEU};
 }
@@ -765,6 +769,7 @@ document.addEventListener('change', e => {
   }
 });
 document.addEventListener('click', e => {
+  if (e.target.closest('[data-usar-web]')) { try { localStorage.setItem('a27-ruta-fuente', 'planificador'); } catch(err) {} compute(); aviso('El mapa general y las fichas vuelven a usar este viaje.'); return; }
   const md = e.target.closest('[data-modo]');
   if (md) {
     const [s, k, v] = md.dataset.modo.split('|'), R = window.__A27_BUDGET_RESULT.ruta, p = R.pas.find(x => x.s === s && String(x.k) === k);

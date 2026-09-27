@@ -342,3 +342,17 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Cualquier resultado del servidor de más de 2,5 × la línea recta + 100 km se descarta (línea
   recta con km estimados y aviso), también si ya estaba guardado en la caché.
 - El aviso de frontera cerrada ya no salta cuando el cruce es de una línea recta provisional.
+
+## Planificador por puntos · fase 4: presupuesto y la web (27-09-2026)
+
+- Presupuesto en € con el mismo modelo, precios y ajustes que el Planificador actual (lee
+  `a27-presupuesto-v1`): combustible por país con los km reales (+ desvíos) y Europa hasta el
+  ferry, visados y tasas por entrada, ferris, CPD, seguros, mantenimiento, comida, noches,
+  actividades, perro, comunicaciones e imprevistos. Total en el panel y desglose bajo el mapa
+  (tarjetas por vehículo, barras por partida, tabla por país y ferris).
+- «Usar este viaje en el mapa general, el portal y las fichas»: `a27-ruta-fuente = puntos` y el
+  resumen `a27-ruta-resumen` sale de este planificador (pasos por país con fechas, puntos y km;
+  línea de la ruta). Mientras tanto el Planificador actual no publica el suyo y muestra un botón
+  para recuperarlo.
+- Comparación con el Planificador actual (km, días, €): este guarda sus cifras en
+  `a27-plan-cifras` cada vez que calcula.
