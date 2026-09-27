@@ -909,7 +909,7 @@ def render_portal(countries):
 <main>
 <section id="accesos" style="margin-top:26px">
 <div class="cards portal-access">
-  <a class="card" href="planificador/"><div class="body"><h3>🧭 Planificador</h3><span class="meta">Elige los países y el orden: calcula la ruta, los ferris desde Europa, los kilómetros, los días, las fechas y el presupuesto por vehículo (combustible, visados, CPD, tasas, perro). Guarda varios viajes y funciona sin conexión.</span></div></a>
+  <a class="card" href="planificador/"><div class="body"><h3>🧭 Planificador</h3><span class="meta">Monta el viaje eligiendo en el mapa los puntos de interés de la ida y de la vuelta: calcula la carretera, las fronteras, los ferris, los km, los días y las fechas por país, avisa de las zonas desaconsejadas y hace el presupuesto por vehículo. Crea tus propios puntos, guarda varios viajes y funciona sin conexión.</span></div></a>
   <a class="card" href="mapa/"><div class="body"><h3>🗺️ Mapa general</h3><span class="meta">Todos los puntos por capas: PDIs, hospitales, consulados, fronteras, agua de servicio y combustible. Toca un punto para ver su ficha.</span></div></a>
   <a class="card" href="documentacion/"><div class="body"><h3>📋 Documentación general</h3><span class="meta">CPD, autorización del Grenadier, Delica, seguros, perro, salud, drones, Starlink y protocolo de seguridad.</span></div></a>
   <a class="card" href="visados/"><div class="body"><h3>🛂 Visados</h3><span class="meta">Mapa y calendario para pasaporte español: sin visado, electrónico, presencial o en frontera, ajustado a los pasos terrestres de la ruta.</span></div></a>
@@ -1913,10 +1913,14 @@ def main():
     pages["perro/index.html"] = render_perro()
     pages["cpd/index.html"] = render_cpd()
     pages["visados/index.html"] = render_visados()
-    pages["planificador/index.html"] = render_presupuesto(FULL, C, navbar, VERSION)
+    # Planificador = el de puntos; el anterior sigue en /planificador-clasico/ (sus viajes guardados no se pierden)
+    pages["planificador-clasico/index.html"] = render_presupuesto(FULL, C, navbar, VERSION)
     # Proyecto aparte (beta): el viaje punto a punto. No toca la página anterior.
     from planificador_puntos_page import render as render_pp
-    pages["planificador-puntos/index.html"] = render_pp(FULL, navbar, VERSION)
+    pages["planificador/index.html"] = render_pp(FULL, navbar, VERSION)
+    pages["planificador-puntos/index.html"] = page("../", "Planificador · África 2027",
+        '<main><p style="margin-top:30px">El planificador por puntos es ahora el <a href="../planificador/">Planificador</a>.</p></main>'
+        '<script>location.replace("../planificador/" + location.hash);</script>')
     # Dirección antigua: redirige al Planificador conservando el ancla.
     pages["presupuesto/index.html"] = page("../", "Planificador · África 2027",
         '<main><p style="margin-top:30px">El presupuesto ahora es el <a href="../planificador/">Planificador</a>.</p></main>'

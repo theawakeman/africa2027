@@ -239,12 +239,12 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     nav = navbar(root, [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/"),
                         ("Visados", root + "visados/"), ("CPD", root + "cpd/"), ("El perro", root + "perro/"), ("Ruta", "#ruta"), ("Resumen", "#resumen"),
                         ("Combustible", "#combustible"), ("Visados", "#visados"), ("Vehículo", "#vehiculo"),
-                        ("Ferry", "#ferry"), ("Resto", "#partidas"), ("Criterio", "#criterio")], "Planificador")
+                        ("Ferry", "#ferry"), ("Resto", "#partidas"), ("Criterio", "#criterio")], "Planificador clásico")
     v1, v2 = P.VEHICULOS
     hero = f"""<header class="hero small">
   <div class="hero-txt">
     <span class="kicker">Ruta, fechas y presupuesto por vehículo · valores iniciales del {esc(P.FECHA)}</span>
-    <h1>Planificador</h1>
+    <h1>Planificador clásico</h1>
     <p>Marca los países que queréis recorrer: la página ordena la ruta, añade los países de paso obligado y recalcula
     kilómetros, días, fecha de regreso y dinero. <strong>{esc(v1['nombre'])}</strong>: {esc(v1['detalle'])}, {v1['l100']:g} L/100 km.
     <strong>{esc(v2['nombre'])}</strong>: {esc(v2['detalle'])}, {v2['l100']:g} L/100 km.
@@ -256,7 +256,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     body = f"""{nav}{hero}
 <main class="bud" style="max-width:1200px">
 <section id="ruta"><h2>Ruta</h2>
-<p class="callout" style="display:block;margin-top:0"><strong>Nuevo, en pruebas:</strong> el <a href="{root}planificador-puntos/">Planificador por puntos</a> monta el viaje eligiendo puntos de interés en el mapa, para la ida o la vuelta. Esta página no cambia.</p>
+<p class="callout" style="display:block;margin-top:0"><strong>Este es el planificador anterior, por países.</strong> El <a href="{root}planificador/">Planificador</a> principal es ahora el de puntos (se eligen los puntos de interés de la ida y de la vuelta en el mapa). Aquí siguen tus viajes guardados; desde el Planificador puedes traer el último que calcules aquí con «Traer el viaje del Planificador clásico».</p>
 <div class="bud-viajes">
 <div class="bv-row"><label class="bv-l" for="viaje-sel">Mis viajes</label><select id="viaje-sel" aria-label="Viajes guardados"></select><button type="button" id="viaje-cargar">Cargar</button><button type="button" id="viaje-borrar">Borrar</button></div>
 <div class="bv-row"><label class="bv-l" for="viaje-nombre">Guardar como</label><input type="text" id="viaje-nombre" placeholder="Nombre del viaje (p. ej. Túnez – Tinduf)" maxlength="60" autocomplete="off" data-1p-ignore data-lpignore="true" data-form-type="other"><button type="button" class="primary" id="viaje-guardar">Guardar</button></div>
@@ -349,4 +349,4 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <script src="{root}assets/js/presupuesto-xlsx.js"></script>
 <script src="{root}assets/js/{JS_PATH}"></script>"""
     extra = f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css"><style>{CSS}</style>'
-    return page(root, "Planificador · África 2027", body, extra_head=extra)
+    return page(root, "Planificador clásico · África 2027", body, extra_head=extra)

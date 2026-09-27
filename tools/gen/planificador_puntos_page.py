@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Página /planificador-puntos/ (beta): el viaje se hace punto a punto.
+"""Página /planificador/: el Planificador (por puntos). El viaje se hace punto a punto.
 
-Proyecto aparte del Planificador actual (/planificador/): archivos propios
-(assets/js/planificador-puntos.js), viajes guardados aparte y ningún cambio en
-la otra página. Usa los datos de la fase 1 (assets/js/planificador-puntos.json).
+El planificador anterior, por países, sigue en /planificador-clasico/ (presupuesto_page.py).
+Archivos propios (assets/js/planificador-puntos.js) y viajes guardados aparte.
+Usa los datos de assets/js/planificador-puntos.json (planificador_puntos.py).
 """
 import json
 
 import data_ruta as RT
 from data_countries import C, REGION
 from presupuesto_page import datos as datos_presupuesto
-from site_common import esc, page
+from site_common import esc, page, callout, bullets
 from planificador_puntos import PISTAS
 from pathlib import Path as _P
 ZONAS = json.loads((_P(__file__).with_name("zonas_riesgo.json")).read_text(encoding="utf-8"))
@@ -37,14 +37,15 @@ def config(FULL):
         if a != b:
             fronteras.append([a, b, tipo])
     ferris = [{"id": f[0], "pais": f[1], "origen": f[2], "puerto": f[3], "pos": [f[4], f[5]], "naviera": f[6],
-               "h": f[7], "km_eu": f[12], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "gas": f[13]}
+               "h": f[7], "frec": f[8], "km_eu": f[12], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "gas": f[13],
+               "nota": f[14], "fuente": f[15]}
               for f in RT.FERRIES]
     return {"paises": paises, "fronteras": fronteras, "ferris": ferris, "ferry_pref": RT.FERRY_PREFERIDO,
             "salida": RT.SALIDA, "regreso": RT.REGRESO_PREVISTO, "zonas": ZONAS, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
 
 
 def presupuesto(D, nombres):
-    """Precios del Planificador actual (mismos valores y mismas claves de ajuste)."""
+    """Precios del Planificador clásico (mismos valores y mismas claves de ajuste)."""
     bud = {"fecha": D["fecha"], "factor": D["factor"], "desvios": D["desvios"], "vehiculos": D["vehiculos"],
            "params": D["params"], "perro_ferry": D["perro_ferry"], "gas_sin_dato": P.GASOIL_SIN_DATO,
            "gas_eu": RT.GASOIL_EUROPA, "gpp_fecha": P.GPP_FECHA, "paises": {}}
@@ -52,7 +53,7 @@ def presupuesto(D, nombres):
         g, v, t = P.GASOIL.get(s), P.VISADOS.get(s), P.TASAS.get(s)
         aviso = aviso_fuente(v[2]) if v else ""
         bud["paises"][s] = {
-            "gas": g[0] if g else None,
+            "gas": g[0] if g else None, "gas_fuente": g[1] if g else "", "gas_fecha": g[2] if g else "", "gas_nota": g[3] if g else "",
             "vis": 0 if s in P.SIN_VISADO else (v[0] if v else None),
             "vis_txt": "Sin visado" if s in P.SIN_VISADO else (v[1] if v else "Sin importe localizado"),
             "vis_url": v[2] if v and s not in P.SIN_VISADO else "",
@@ -202,6 +203,16 @@ table.pp-bt .n{text-align:right;font-variant-numeric:tabular-nums;white-space:no
 table.pp-bt tr.eu td{color:var(--ink-soft);background:var(--surface2)}
 table.pp-bt .nota{display:block;font-size:11.5px;color:var(--ink-soft)}table.pp-bt .nota.av{color:var(--amber);font-weight:600}
 table.pp-bt small{color:var(--ink-soft)}
+.pp-acc{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 6px}
+.pp-det{margin:10px 0;border:1px solid var(--line);border-radius:12px;padding:8px 12px;background:var(--surface)}
+.pp-det summary{cursor:pointer;font-weight:700;color:var(--head);font-size:14px}
+.pp-det .pp-tw{margin-top:8px}
+.pp-key{display:flex;gap:14px;font-size:12px;color:var(--ink-soft)}.pp-key i{display:inline-block;width:11px;height:11px;border-radius:2px;background:var(--ink-soft);margin-right:5px;vertical-align:-1px}
+.pp-bar .track{display:flex}
+table.pp-bt tr.tot td{background:var(--surface2);font-weight:600}
+table.pp-bt a{color:var(--link)}
+.pp-bud .callout{margin:12px 0}
+#criterio ul{font-size:14px;line-height:1.5}
 .pp-bud-h{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin:22px 0 8px}
 table.pp-bt input{font:inherit;font-size:13px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);text-align:right}
 table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);background:var(--amber-bg)}
@@ -212,15 +223,32 @@ table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);backgrou
 """
 
 
+BUD_PERRO = P.PERRO_FERRY
+CRITERIO = [
+    "El viaje es la lista de puntos de la ida y de la vuelta, en ese orden. Entre dos puntos de países distintos se busca el camino de países más corto por fronteras abiertas; se prefieren los puestos por los que pasan los recorridos de las fichas. Los países en conflicto (Malí, Sudán, Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) y los que marques como «evitar» solo se usan si no hay otro camino, siempre con aviso.",
+    "Al añadir un punto se mete en el hueco de su mitad (ida o vuelta) donde menos km suma; «Ordenar por cercanía» rehace el orden de esa mitad. Se puede arrastrar cualquier punto, también de una mitad a la otra.",
+    "Carretera: OSRM (OpenStreetMap), pedida al calcular y guardada en el navegador. Sin respuesta, línea recta × 1,25 (discontinua). Si el servidor da un rodeo de más del doble, se descarta y se avisa. Pistas que OpenStreetMap no enlaza (Hassi 75 – Zuérat) van dibujadas a mano con km aproximados.",
+    "Km por país: la carretera se trocea y cada tramo cuenta en el país donde cae. Un roce de menos de 25 km sin paradas con otro país no cuenta como estancia.",
+    "Días = km ÷ km de conducción al día + días de cada punto (los de su ficha, editables) + ferris y carretera en Europa, más el margen. Las fechas por país salen de ese mismo reloj.",
+    "Ferris: el de ida es el recomendado para el país del primer punto (Marruecos: GNV Barcelona–Tánger Med; Argelia: Valencia–Mostaganem; Túnez: Génova–Túnez); si no tiene ferry, el del país con ferry más cercano. Igual con la vuelta y el último punto. Se pueden elegir a mano en el panel.",
+    "Zonas desaconsejadas: avisos del FCDO británico (rojo = todo viaje desaconsejado; naranja = solo esenciales), con límites aproximados donde el aviso habla de comarcas o líneas entre pueblos. Revisar siempre el MAEC antes de cada frontera.",
+    "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el INEOS Grenadier.",
+    "Tipo de cambio: 1 USD = %s € (%s). Franco CFA fijo: 655,957 por euro. El gasóleo y el cambio se actualizan solos cada semana; si la página oficial de un visado cambia, su fila lo avisa hasta que se revisa." % (str(P.USD_EUR).replace(".", ","), P.USD_EUR_FUENTE),
+    "No incluye: el viaje hasta Barcelona, la preparación de los vehículos, vacunas y seguro médico de viaje, ni una posible escapada en avión.",
+    "Todo lo que cambies se guarda solo en este navegador («Descargar» en Mis viajes para llevarlo a otro). El Planificador clásico (por países) sigue disponible con sus viajes.",
+]
+
+
 def render(FULL, navbar, VERSION):
     root = "../"
-    nav = navbar(root, [("Portal", root), ("Planificador actual", root + "planificador/"), ("Mapa", root + "mapa/"),
-                        ("Documentación", root + "documentacion/")], "Planificador por puntos · beta")
+    nav = navbar(root, [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/"),
+                        ("Visados", root + "visados/"), ("CPD", root + "cpd/"), ("El perro", root + "perro/"),
+                        ("Presupuesto", "#pp-bud"), ("Criterio", "#criterio"), ("Clásico", root + "planificador-clasico/")], "Planificador")
     cfg = config(FULL)
     body = f"""{nav}
 <main style="max-width:1500px">
-<h2 style="margin-top:16px">Planificador por puntos <small style="font-size:13px;color:var(--amber);letter-spacing:.1em">BETA</small></h2>
-<p class="pp-ayuda"><b>1.</b> Toca un país para ver sus puntos de interés. <b>2.</b> Toca un punto y añádelo a la <b style="color:#1E7A8A">ida</b> o a la <b style="color:#C47F17">vuelta</b>. <b>3.</b> Ordena arrastrando en la lista. La carretera, las fronteras, los km y los días salen solos. Clic derecho (o mantener pulsado) en cualquier sitio del mapa = «pasar por aquí». <button type="button" class="pp-b" id="pp-crear" aria-pressed="false">★ Crear un punto</button> para añadir un sitio tuyo (PDI, agua, camping, taller…): la app completa sola fotos, enlaces, servicios y clima. Tus viajes de esta página se guardan aparte del Planificador actual.</p>
+<h2 style="margin-top:16px">Planificador</h2>
+<p class="pp-ayuda"><b>1.</b> Toca un país para ver sus puntos de interés. <b>2.</b> Toca un punto y añádelo a la <b style="color:#1E7A8A">ida</b> o a la <b style="color:#C47F17">vuelta</b>. <b>3.</b> Ordena arrastrando en la lista. La carretera, las fronteras, los km y los días salen solos. Clic derecho (o mantener pulsado) en cualquier sitio del mapa = «pasar por aquí». <button type="button" class="pp-b" id="pp-crear" aria-pressed="false">★ Crear un punto</button> para añadir un sitio tuyo (PDI, agua, camping, taller…): la app completa sola fotos, enlaces, servicios y clima. Todo se guarda en este navegador y funciona sin conexión.</p>
 <div class="pp-kpis" id="pp-kpis" aria-live="polite"></div>
 <div class="pp-tiempo" id="pp-tiempo"></div>
 <div class="pp-wrap">
@@ -251,7 +279,7 @@ def render(FULL, navbar, VERSION):
       <h3>En la web</h3>
       <label class="pp-chk"><input type="checkbox" id="pp-web"> Usar este viaje en el mapa general, el portal y las fichas</label>
       <p class="pp-ayuda" id="pp-web-txt" style="margin-top:4px"></p>
-      <h3 style="margin-top:14px">Comparar con el Planificador actual</h3>
+      <h3 style="margin-top:14px">Comparar con el Planificador clásico</h3>
       <div id="pp-comp"></div>
     </div>
     <div class="pp-sec">
@@ -266,7 +294,7 @@ def render(FULL, navbar, VERSION):
       <h3>Mis viajes</h3>
       <div class="pp-row"><select id="pp-viajes" style="flex:1"></select><button type="button" class="pp-b" id="pp-cargar">Cargar</button><button type="button" class="pp-b x" id="pp-borrar">Borrar</button></div>
       <div class="pp-row"><input type="text" id="pp-vnombre" placeholder="Nombre del viaje" style="flex:1" autocomplete="off" data-1p-ignore data-lpignore="true"><button type="button" class="pp-b ida" id="pp-guardar">Guardar</button></div>
-      <div class="pp-row"><button type="button" class="pp-b" id="pp-nuevo">Empezar de cero</button><button type="button" class="pp-b" id="pp-exportar">Descargar</button><button type="button" class="pp-b" id="pp-traer" title="Convierte el último viaje calculado en el Planificador actual en un viaje por puntos">Traer el viaje del Planificador actual</button><label class="pp-b" style="cursor:pointer">Importar<input type="file" id="pp-importar" accept=".json,application/json" hidden></label></div>
+      <div class="pp-row"><button type="button" class="pp-b" id="pp-nuevo">Empezar de cero</button><button type="button" class="pp-b" id="pp-exportar">Descargar</button><button type="button" class="pp-b" id="pp-traer" title="Convierte el último viaje calculado en el Planificador clásico en un viaje por puntos">Traer el viaje del Planificador clásico</button><label class="pp-b" style="cursor:pointer">Importar<input type="file" id="pp-importar" accept=".json,application/json" hidden></label></div>
     </div>
   </aside>
 </div>
@@ -274,23 +302,52 @@ def render(FULL, navbar, VERSION):
   <h2 id="pp-bud-t">Presupuesto del viaje</h2>
   <div class="pp-cards" id="pp-bud-cards"></div>
   <div class="pp-bars" id="pp-bud-barras"></div>
-  <div class="pp-tw"><table class="pp-bt"><thead><tr><th>País</th><th class="n">Km</th><th class="n">Días</th><th class="n">Gasóleo</th><th class="n">Combustible</th><th class="n">Visados / persona</th><th class="n">Tasas / vehículo</th></tr></thead>
-  <tbody id="pp-bud-paises"></tbody></table></div>
-  <h3 class="pp-bud-h">Comida, noches, comunicaciones y otros gastos</h3>
+  <div class="pp-tw"><table class="pp-bt"><thead id="pp-bud-res-h"></thead><tbody id="pp-bud-res"></tbody></table></div>
+  <div class="pp-acc"><button type="button" class="pp-b big ida" id="pp-xlsx">Descargar la hoja de cálculo (.xlsx, con fórmulas)</button><button type="button" class="pp-b big" id="pp-csv">Solo el resumen (CSV)</button><button type="button" class="pp-b big x" id="pp-reset">Volver a todos los valores iniciales</button></div>
+  <p class="pp-ayuda">La hoja lleva el viaje y los valores que tengas ahora: Resumen, Parámetros, Ruta (una fila por estancia en cada país), Visados y Tasas frontera. Las casillas amarillas son datos y el resto fórmulas: al cambiar un dato en Excel, Numbers o Google Sheets se recalcula todo.</p>
+  {callout("warn", "Qué es dato y qué es estimación",
+    "Combustible, visados, CPD, tasas de frontera y ferris salen de fuentes citadas. Los km son por carretera (OSRM, OpenStreetMap) entre los puntos del viaje; sin respuesta del servidor, línea recta × 1,25. "
+    "Comida, noches, parques, seguros, mantenimiento, trámites del perro, imprevistos, los <strong>km de conducción al día</strong> y los días de cada punto son <strong>estimaciones</strong>: hay que ajustarlas.", raw=True)}
+
+  <h3 class="pp-bud-h" id="combustible">Combustible, visados y tasas por país</h3>
+  <p class="pp-ayuda">Km de cada país (todas las veces que se pasa) × factor × (1 + desvíos); son los mismos para los dos vehículos. Visados: uno por persona y por estancia; si sacáis uno de entradas múltiples, escribe 1 en «Visados». Tasas de importación temporal: por vehículo y por estancia. Las casillas se pueden corregir (en ámbar las cambiadas).</p>
+  <div class="pp-tw"><table class="pp-bt pp-paises-t"><thead><tr><th>País</th><th class="n">Km</th><th class="n">Días</th><th class="n">€/litro</th><th class="n">Combustible</th><th class="n">€ visado</th><th class="n">Visados</th><th class="n">Visados / persona</th><th class="n">Tasa / estancia</th><th class="n">Tasas / vehículo</th></tr></thead>
+  <tbody id="pp-bud-paises"></tbody><tfoot id="pp-bud-paises-f"></tfoot></table></div>
+  <p class="pp-ayuda" id="pp-bud-gasnota"></p>
+
+  <h3 class="pp-bud-h" id="ferris">Ferris</h3>
+  <p class="pp-ayuda">El de ida y el de vuelta se eligen en el panel (automáticos según el primer y el último punto). Precio por vehículo y trayecto = coche con conductor + un pasaje por cada persona más; corrígelo con el presupuesto real de la naviera.</p>
+  <div class="pp-tw"><table class="pp-bt"><thead id="pp-bud-fer-h"></thead><tbody id="pp-bud-fer"></tbody></table></div>
+  <details class="pp-det"><summary>Todos los ferris a Marruecos, Argelia y Túnez</summary>
+  <div class="pp-tw"><table class="pp-bt"><thead><tr><th>Ruta</th><th class="n">Horas</th><th>Frecuencia</th><th class="n">Km desde {esc(cfg['origen'])}</th><th class="n">Coche + conductor ida / vuelta</th><th class="n">Pasaje</th></tr></thead><tbody id="pp-bud-fer-todos"></tbody></table></div></details>
+  {callout("warn", "Ferris: lo que no está confirmado",
+    "Solo Barcelona–Tánger Med (GNV) es un presupuesto real para nuestros vehículos (clase A2, camarote). El resto son tarifas de coche con conductor de agregadores o «desde» de la naviera: "
+    "<strong>no incluyen camarote ni el recargo de vehículo alto</strong> (el 4x4 con tienda mide ~2,3 m y casi todas las navieras lo cobran aparte). "
+    "La vuelta en julio o agosto es temporada de la diáspora en Argelia y Túnez y puede multiplicar el precio. "
+    f"<strong>Perro:</strong> ~{BUD_PERRO} € por trayecto (estimación); Algérie Ferries y Corsica Linea solo lo admiten en perrera.", raw=True)}
+
+  <h3 class="pp-bud-h" id="gastos">Comida, noches, comunicaciones y otros gastos</h3>
   <div class="pp-tw"><table class="pp-bt"><thead><tr><th>Concepto</th><th class="n">Valor</th><th>Unidad y cálculo</th><th class="n">Total</th></tr></thead>
   <tbody id="pp-bud-gastos"></tbody></table></div>
-  <h3 class="pp-bud-h">Vehículos</h3>
+
+  <h3 class="pp-bud-h" id="vehiculos">Vehículos y cálculo de km</h3>
   <div class="pp-cards pp-veh" id="pp-bud-veh"></div>
+  {callout("", "CPD (carnet de 25 hojas, RACE)", "El carnet entra en el presupuesto; los costes bancarios del aval valen 0 hasta que se sepan. Los avales quedan inmovilizados y no cuentan como gasto: se recuperan al devolver los carnets con todos los sellos.", raw=True)}
   <p class="pp-ayuda" id="pp-bud-pie" style="margin-top:8px"></p>
 </section>
+<section id="criterio" class="pp-bud">
+  <h2>Criterio</h2>
+  {bullets(CRITERIO)}
+</section>
 <div id="pp-msg" role="status" aria-live="polite" hidden></div>
-<footer>ÁFRICA 2027 · Planificador por puntos (beta)</footer>
+<footer>ÁFRICA 2027 · Planificador · <a href="{root}planificador-clasico/">Planificador clásico</a></footer>
 </main>
 <script>var A27_PP = {json.dumps(cfg, ensure_ascii=False, separators=(",", ":"))};</script>
 <script src="{root}assets/vendor/leaflet.js"></script>
 <script src="{root}assets/vendor/Sortable.min.js"></script>
 <script src="{root}assets/js/map.js"></script>
 <script src="{root}assets/js/creador-pdi.js"></script>
+<script src="{root}assets/js/presupuesto-xlsx.js"></script>
 <script src="{root}assets/js/{JS}"></script>"""
     extra = f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css"><style>{CSS}</style>'
-    return page(root, "Planificador por puntos · África 2027", body, extra_head=extra)
+    return page(root, "Planificador · África 2027", body, extra_head=extra)

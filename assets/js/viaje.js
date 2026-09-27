@@ -30,7 +30,7 @@
     } else if (!ps.length) {
       set(chip('en'), 'No está en «' + V.nombre + '»');
       set(chip('fechas'), '—');
-      if (caja) { caja.innerHTML = '<div class="callout-title">Tu viaje · ' + esc(V.nombre) + '</div><p>Este país no está en el viaje. Se puede añadir en el <a href="' + pres + '">Planificador</a> (tocándolo en el mapa o con «Añadir un país»).</p>'; caja.hidden = false; }
+      if (caja) { caja.innerHTML = '<div class="callout-title">Tu viaje · ' + esc(V.nombre) + '</div><p>Este país no está en el viaje. Se puede añadir en el <a href="' + pres + '">Planificador</a>: toca el país en el mapa y elige sus puntos.</p>'; caja.hidden = false; }
     } else {
       const tipos = [...new Set(ps.map(tipoTxt))];
       set(chip('en'), ps.length > 1 ? ps.length + ' pasos · ' + tipos.join(' y ') : 'Paso ' + (ps[0].i + 1) + ' de ' + total + ' · ' + tipoTxt(ps[0]));

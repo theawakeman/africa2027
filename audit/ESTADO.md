@@ -412,3 +412,19 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - (27-09-2026) «Entradas» pasa a «Estancias» (entrar y salir, con su sello); un roce de hasta 25 km sin paradas con otro país ya no cuenta como estancia. Globo propio al pasar el ratón (o el dedo) por la línea del viaje: país, fechas, días, km y paradas.
 - (27-09-2026) Avisos enlazados: cada aviso lleva al sitio en el mapa (el punto con su globo, el país, la zona o el tramo) y nombra el país del punto; colores legibles en modo claro y oscuro (texto normal con borde rojo o ámbar).
 - (27-09-2026) Globos de las zonas cortos y en varias líneas (zona, país y nombre abreviado; el aviso completo al tocar).
+
+## El Planificador por puntos pasa a ser el Planificador (27-09-2026)
+
+- `/planificador/` = planificador por puntos (título «Planificador», sin «beta», con el menú de
+  la web y enlaces a Presupuesto y Criterio). El anterior, por países, sigue en
+  `/planificador-clasico/` con sus viajes guardados. `/planificador-puntos/` y `/presupuesto/`
+  redirigen a `/planificador/`. Portal y fichas actualizados.
+- La web (mapa general, portal, fichas) usa por defecto el viaje del Planificador; solo usa el
+  del clásico si se pide allí («Usar este viaje en la web») o se desmarca la casilla.
+- Traído del clásico al Planificador: tabla por país con gasóleo, visado (importe y número),
+  tasas editables y sus fuentes (y aviso si la fuente del visado cambió); ferris con precio por
+  vehículo editable, perro y la tabla de todos los ferris; resumen por partida y vehículo con
+  aval y dinero comprometido; CPD (carnet, costes y aval) editables; factor de km y desvíos;
+  descarga de la hoja de cálculo con fórmulas (mismo generador, comprobada con LibreOffice: el
+  total coincide con la web) y del CSV; «Volver a todos los valores iniciales»; avisos sobre
+  dato/estimación, ferris sin confirmar y CPD; sección «Criterio» adaptada al viaje por puntos.

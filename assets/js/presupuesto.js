@@ -600,8 +600,9 @@ function compute(){
     <div class="bud-card ${dif > 0 ? 'alerta' : ''}"><div class="lbl">Días · regreso</div><div class="big">${num(dias)} días</div><div class="sub">${fecha(iso2d(salida))} → <strong>${fecha(regreso)}</strong>${fijos > 0 ? ' · duración fija (con el ritmo elegido saldrían ' + num(diasCalc) + ')' : ''}</div>
       <div class="sub">${dif > 0 ? `${num(dif)} días después del regreso previsto (${fecha(previsto)}). Para llegar ese día haría falta un ritmo medio de ~${num(ritmoNec)} km/día.` : `${num(-dif)} días antes del regreso previsto (${fecha(previsto)}).`}</div></div>
     <div class="bud-card"><div class="lbl">Presupuesto total</div><div class="big">${eur(total)}</div><div class="sub">${eur(total / Math.max(1, nPers))} por persona · <a href="#resumen">ver el resumen</a></div></div>`;
-  const dePuntos = (() => { try { return localStorage.getItem('a27-ruta-fuente') === 'puntos'; } catch(e) { return false; } })();
-  $('bud-avisos').innerHTML = (dePuntos ? `<li class="bud-aviso-fuente">El mapa general y las fichas usan ahora un viaje del <a href="../planificador-puntos/">Planificador por puntos</a>. <button type="button" class="mv" data-usar-web="1">Usar este viaje en la web</button></li>` : '')
+  // La web (mapa general, portal, fichas) usa el viaje del Planificador de puntos salvo que aquí se pida lo contrario
+  const dePuntos = (() => { try { return localStorage.getItem('a27-ruta-fuente') !== 'planificador'; } catch(e) { return true; } })();
+  $('bud-avisos').innerHTML = (dePuntos ? `<li class="bud-aviso-fuente">El mapa general y las fichas usan el viaje del <a href="../planificador/">Planificador</a>. <button type="button" class="mv" data-usar-web="1">Usar este viaje en la web</button></li>` : '')
     + R.avisos.map(a => `<li>${a}</li>`).join('');
   // ---- Resumen
   $('bud-cards').innerHTML = veh.map(v => `<div class="bud-card"><div class="lbl">${v.nombre} · ${v.detalle}</div>
