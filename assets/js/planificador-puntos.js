@@ -44,6 +44,8 @@ function punto(id){
   if (PUNTOS[id]) return PUNTOS[id];
   if (PROPIOS[id]) return PROPIOS[id];
   const l = S.libres[id];
+  // Segunda (o tercera…) vez por el mismo punto: una entrada propia que apunta al original, con sus días (0 por defecto)
+  if (l && l.ref) { const b = l.ref !== id && punto(l.ref); return b ? {...b, id, rep: l.ref, dias: 0, r4: null} : null; }
   return l ? {id, libre: true, nombre: l.nombre, pais: l.pais, lat: l.lat, lon: l.lon, dias: 0, cat: l.r4 ? 'Ruta 4x4 · ' + (l.r4pos === 'a' ? 'inicio' : 'final') : 'Paso por aquí', prio: '', perro: 'sin_dato', tiempo: '', r4: l.r4 || null} : null;
 }
 const diasDe = p => (S.dias[p.id] != null && S.dias[p.id] !== '' ? parseFloat(S.dias[p.id]) || 0 : p.dias);
@@ -841,7 +843,7 @@ function cargarDet(){
   if (!DETP) DETP = fetch(raiz + 'assets/js/pdi-detalle.json').then(r => r.json()).then(d => { DET = d; return d; }).catch(() => { DET = {}; return DET; });
   return DETP;
 }
-const det = p => (p && p.propio ? PDET[p.id] : (DET && p && DET[p.id])) || null;
+const det = p => (p && p.propio ? PDET[p.rep || p.id] : (DET && p && DET[p.rep || p.id])) || null;
 
 // ------------------------------------------------------------------ zonas desaconsejadas (FCDO)
 // Polígonos [exterior, agujeros…] generados por tools/zonas_riesgo_gen.py. Rojo = todo viaje
@@ -914,8 +916,10 @@ function editarPropio(id){
 }
 function acciones(p){
   const en = S.ida.includes(p.id) ? 'ida' : S.vuelta.includes(p.id) ? 'vuelta' : '';
+  const base = p.rep || p.id;
   return en
-    ? `<button type="button" class="pp-b big ${en === 'ida' ? 'vuelta' : 'ida'}" data-pp="${en === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(p.id)}">Pasar a la ${en === 'ida' ? 'vuelta' : 'ida'}</button><button type="button" class="pp-b big x" data-pp="quitar" data-id="${esc(p.id)}">Quitar</button>`
+    ? `<button type="button" class="pp-b big ${en === 'ida' ? 'vuelta' : 'ida'}" data-pp="${en === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(p.id)}">Pasar a la ${en === 'ida' ? 'vuelta' : 'ida'}</button><button type="button" class="pp-b big x" data-pp="quitar" data-id="${esc(p.id)}">Quitar</button>
+       <span class="pp-otra">Pasar otra vez: <button type="button" class="pp-b ida" data-rep="ida|${esc(base)}">+ Ida</button><button type="button" class="pp-b vuelta" data-rep="vuelta|${esc(base)}">+ Vuelta</button></span>`
     : `<button type="button" class="pp-b big ida" data-pp="ida" data-id="${esc(p.id)}">+ Ida</button><button type="button" class="pp-b big vuelta" data-pp="vuelta" data-id="${esc(p.id)}">+ Vuelta</button>`;
 }
 const perroTxt = p => ({si: 'perro: sí', condiciones: 'perro: con condiciones', no: 'perro: no', sin_dato: 'perro: sin dato'}[p.perro] || '');
@@ -1011,7 +1015,7 @@ function filas(m, lista, base){
   return lista.map((id, i) => {
     const p = punto(id); if (!p) return '';
     const d = S.dias[id], f = R && R.fechaPunto[id] != null ? fecha(addDays(S.salida, R.fechaPunto[id] * R.factor)) : '';
-    const perro = p.perro === 'no' ? ' · <span style="color:#B43A3A">sin perro</span>' : '';
+    const perro = (p.perro === 'no' ? ' · <span style="color:#B43A3A">sin perro</span>' : '') + (p.rep ? ' · <b>otra vez</b>' : '');
     return `<li class="pp-it" data-id="${esc(id)}"><span class="pp-h" title="Arrastra para cambiar el orden o pasarlo a la otra mitad" aria-hidden="true">⠿</span><span class="pp-n">${base + i + 1}</span>
       <span class="pp-t">${p.libre ? `<strong title="${esc(p.nombre)}">${esc(p.nombre)}</strong>` : `<button type="button" class="pp-ver" data-ficha="${esc(id)}" title="Ver la ficha de ${esc(p.nombre)}">${esc(p.nombre)}</button>`}<small>${esc(nom(p.pais))}${f ? ' · ~' + f : ''}${perro}<button type="button" class="pp-modo${S.paso[id] ? ' paso' : ''}" data-modo="${esc(id)}" title="Tramo que llega a este punto: ${S.paso[id] ? 'de paso, a ' + (S.kmdia_t || 450) + ' km/día. Toca para que sea de visita' : 'de visita, a ' + (S.kmdia || 250) + ' km/día. Toca para que sea de paso'}">${S.paso[id] ? 'tramo de paso' : 'tramo de visita'}</button></small></span>
       <span class="pp-a"><input type="number" min="0" step="0.5" value="${d != null && d !== '' ? esc(d) : ''}" placeholder="${num(p.dias, 2).replace(/,?0+$/, '')}" data-dias="${esc(id)}" class="${d != null && d !== '' ? 'edited' : ''}" title="Días en este punto" aria-label="Días en ${esc(p.nombre)}" autocomplete="off" data-1p-ignore data-lpignore="true">
@@ -1207,6 +1211,11 @@ document.addEventListener('click', e => {
   const fi = e.target.closest('[data-ficha]'); if (fi) { abrirFicha(fi.dataset.ficha); return; }
   const cr = e.target.closest('[data-crear]'); if (cr) { const [la, lo] = cr.dataset.crear.split(',').map(Number); crearEn({lat: la, lng: lo}); return; }
   const ed = e.target.closest('[data-editar]'); if (ed) { editarPropio(ed.dataset.editar); return; }
+  const rp = e.target.closest('[data-rep]'); if (rp) { const [m, base] = rp.dataset.rep.split('|'), b = punto(base); if (!b) return;
+    const id = 'rep-' + Date.now().toString(36); S.libres[id] = {ref: base};
+    const dlg = rp.closest('dialog'); if (dlg) dlg.close();
+    // Al final de esa mitad (junto al original no tendría sentido): se coloca arrastrando en la lista
+    (m === 'ida' ? S.ida : S.vuelta).push(id); save(); MAP && MAP.closePopup(); calcular(); msg(`<b>${esc(b.nombre)}</b> otra vez, al final de la ${m}: arrástralo en la lista a su sitio. Días: 0 (cámbialo si te quedas).`); return; }
   const mo = e.target.closest('[data-modo]'); if (mo) { const id = mo.dataset.modo; if (S.paso[id]) delete S.paso[id]; else S.paso[id] = true; save(); calcular(); return; }
   const rc = e.target.closest('[data-recto]'); if (rc) { const id = rc.dataset.recto; if (S.recto[id]) delete S.recto[id]; else S.recto[id] = true; save(); calcular();
     msg(S.recto[id] ? 'Ese tramo va ahora por pista, en línea recta. Para seguir la pista de verdad, añade puntos «pasar por aquí» (clic derecho) y márcalos también con 〰.' : 'Ese tramo vuelve a buscar carretera.'); return; }

@@ -515,3 +515,9 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   fronteras) va al ritmo de visita o al de paso. Ajustes: «Km/día en tramos de visita» (250 por defecto,
   RT.RITMO_VISITA) y «en tramos de paso» (450, RT.RITMO_TRANSITO). La carretera por Europa hasta el
   ferry va al ritmo de paso, como en el Planificador clásico. Los tramos de paso se dibujan más finos.
+
+## Planificador: pasar dos veces por el mismo punto (27-09-2026)
+
+- En la ventana de un punto que ya está en el viaje: «Pasar otra vez: + Ida / + Vuelta». Crea una entrada
+  propia (`S.libres[rep-…] = {ref}`) al final de esa mitad, con 0 días por defecto, su propio tipo de
+  tramo y su botón 〰; la ficha y las fotos son las del punto original. Se mueve y se quita como cualquier otra.
