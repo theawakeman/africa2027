@@ -63,9 +63,9 @@ def presupuesto(D, nombres):
 
 
 CSS = """
-.pp-wrap{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:14px;align-items:start;margin:12px 0}
+.pp-wrap{display:grid;grid-template-columns:minmax(0,1fr) clamp(400px,31vw,480px);gap:14px;align-items:start;margin:12px 0}
 #pp-mapa{height:calc(100vh - 110px);min-height:460px;border-radius:12px;border:1px solid var(--line);background:var(--surface2)}
-.pp-panel{position:sticky;top:60px;max-height:calc(100vh - 80px);overflow:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-family:"Archivo",sans-serif}
+.pp-panel{min-width:0;overflow-x:hidden;position:sticky;top:60px;max-height:calc(100vh - 80px);overflow:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-family:"Archivo",sans-serif}
 .pp-sec{padding:12px 14px;border-top:1px solid var(--line)}
 .pp-sec:first-child{border-top:0}
 .pp-sec h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px;color:var(--ink-soft);display:flex;justify-content:space-between;align-items:center;gap:8px}
@@ -168,10 +168,10 @@ table.pp-tt i{display:inline-block;width:10px;height:10px;border-radius:2px;marg
 .pp-eur a{font-size:12px;font-weight:700;color:var(--teal)}
 .pp-chk{display:flex;gap:8px;align-items:flex-start;font-size:13px;cursor:pointer}
 .pp-chk input{margin-top:2px;width:16px;height:16px;accent-color:#1E7A8A}
-table.pp-comp{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
-table.pp-comp th{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);text-align:right;font-weight:700;padding:3px 4px}
-table.pp-comp td{text-align:right;padding:4px;border-top:1px solid var(--line)}
-table.pp-comp td:first-child,table.pp-comp th:first-child{text-align:left}
+table.pp-comp{width:100%;table-layout:fixed;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
+table.pp-comp th{font-size:10px;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-soft);text-align:right;font-weight:700;padding:3px 4px}
+table.pp-comp td{text-align:right;padding:4px;white-space:nowrap;border-top:1px solid var(--line)}
+table.pp-comp td:first-child,table.pp-comp th:first-child{text-align:left;width:26%}
 table.pp-comp .mas{color:#B43A3A;font-weight:700}table.pp-comp .menos{color:#2E7D32;font-weight:700}table.pp-comp .ig{color:var(--ink-soft)}
 .pp-bud{margin:26px 0 10px;font-family:"Archivo",sans-serif}
 .pp-bud h2{margin:0 0 10px}

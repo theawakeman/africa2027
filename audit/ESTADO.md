@@ -408,3 +408,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   carretera por la orilla oeste del Zambeze). Los puestos que la ficha marca EXCLUIDA o
   DESCARTADA (Guinea–Guinea-Bisáu, Negomano, Kilambo, Cinkassé) pasan a estado «descartada» y ya
   no se usan para calcular la ruta.
+- (27-09-2026) Panel lateral más ancho (400–480 px según pantalla) y tabla de comparación compacta: sin desplazamiento horizontal.

@@ -469,7 +469,7 @@ function pintarComparar(){
   if (!C || !R || !R.bud || !R.todos.length) { el.innerHTML = C ? '' : '<p class="pp-ayuda">Abre el <a href="' + raiz + 'planificador/">Planificador actual</a> una vez y aquí verás la comparación.</p>'; return; }
   const yo = {km: R.kmTot + R.kmEU, dias: R.dias, total: R.bud.total};
   const dif = (a, b, fmt) => { const d = a - b; return Math.abs(d) < 0.5 ? '<span class="ig">igual</span>' : `<span class="${d > 0 ? 'mas' : 'menos'}">${d > 0 ? '+' : '−'}${fmt(Math.abs(d))}</span>`; };
-  el.innerHTML = `<table class="pp-comp"><thead><tr><th></th><th>Este viaje</th><th>Planificador actual</th><th>Diferencia</th></tr></thead><tbody>
+  el.innerHTML = `<table class="pp-comp"><thead><tr><th></th><th title="Este viaje">Este</th><th title="Planificador actual">Actual</th><th title="Diferencia">Dif.</th></tr></thead><tbody>
     <tr><td>Km</td><td>${num(yo.km)}</td><td>${num(C.km)}</td><td>${dif(yo.km, C.km, num)}</td></tr>
     <tr><td>Días</td><td>${num(yo.dias)}</td><td>${num(C.dias)}</td><td>${dif(yo.dias, C.dias, num)}</td></tr>
     <tr><td>Presupuesto</td><td>${eur(yo.total)}</td><td>${eur(C.total)}</td><td>${dif(yo.total, C.total, eur)}</td></tr></tbody></table>
