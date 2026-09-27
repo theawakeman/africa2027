@@ -6,6 +6,7 @@ on:
     paths:
       - "content/pois/**"
       - "content/ficha/**"
+      - "content/offroad/**"
       - "assets/img/**"
 
 permissions:
