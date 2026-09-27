@@ -52,18 +52,29 @@
   if (portal && V) {
     const vistos = [], ya = {};
     V.pasos.forEach((p, i) => { if (!ya[p.f]) { ya[p.f] = {i, tipos: new Set()}; vistos.push(p); } ya[p.f].tipos.add(p.tipo); });
-    const items = vistos.map(p => '<li><a class="' + (ya[p.f].tipos.has('visita') ? 'para' : 'cruza') + '" href="paises/' + p.f + '/">' + esc(p.nf || p.n.replace(/ \(.*\)$/, '')) + ' <small>' + f(p.ent) + '</small></a></li>').join('');
     portal.innerHTML = '<div class="callout" style="border-left-color:#B43A3A"><div class="callout-title">Tu viaje · ' + esc(V.nombre) + '</div>'
       + '<p>' + esc(rango(V.salida, V.regreso)) + ' · ' + n(V.dias) + ' días · ' + n(V.km) + ' km · ' + vistos.length + ' países. Ferry de ida ' + esc(V.ida) + '; de vuelta ' + esc(V.vuelta)
-      + '. Línea continua: se recorre; discontinua: solo se cruza. <a href="' + pres + '">Cambiarlo en el Planificador</a>.</p><ol class="viaje-lista">' + items + '</ol></div>';
+      + '. <a href="' + pres + '">Cambiarlo en el Planificador</a>.</p></div>';
     portal.hidden = false;
-    document.querySelectorAll('a.card[data-pais]').forEach(a => {
-      const x = ya[a.dataset.pais]; if (!x) return;
-      const b = document.createElement('span');
-      b.className = 'badge ' + (x.tipos.has('visita') ? 'b-viaje' : 'b-paso');
-      b.textContent = (x.tipos.has('visita') ? 'En tu viaje' : 'De paso') + ' · ' + (x.i + 1) + 'º';
-      const h = a.querySelector('h3'); if (h) h.after(b, document.createTextNode(' '));
-    });
+    // Tarjetas: las del viaje arriba y en su orden; las demás, a su región por orden alfabético.
+    const cards = {}; document.querySelectorAll('a.card[data-pais]').forEach(a => { cards[a.dataset.pais] = a; a.querySelectorAll('.b-orden').forEach(x => x.remove()); });
+    const cont = document.querySelector('[data-viaje-cards]');
+    if (cont) {
+      const tit = document.querySelector('[data-viaje-titulo]'), nota = document.querySelector('[data-viaje-nota]');
+      if (tit) tit.textContent = 'En el orden de tu viaje · ' + V.nombre;
+      if (nota) nota.innerHTML = 'Salida y llegada de cada país según el viaje calculado en el <a href="' + pres + '">Planificador</a>. «De paso»: solo se cruza.';
+      vistos.forEach((p, j) => {
+        const a = cards[p.f]; if (!a) return;
+        const b = document.createElement('span'), para = ya[p.f].tipos.has('visita');
+        b.className = 'badge b-orden ' + (para ? 'b-viaje' : 'b-paso');
+        b.textContent = (j + 1) + 'º · ' + f(p.ent, (p.ent || '').slice(0, 4) !== (V.salida || '').slice(0, 4)) + (para ? '' : ' · de paso');
+        const h = a.querySelector('h3'); if (h) h.after(b, document.createTextNode(' '));
+        cont.appendChild(a);
+      });
+      const resto = Object.keys(cards).filter(s => !ya[s]).sort((x, y) => cards[x].dataset.nombre.localeCompare(cards[y].dataset.nombre, 'es'));
+      resto.forEach(s => { const box = document.querySelector('[data-region-cards="' + cards[s].dataset.region + '"]'); if (box) box.appendChild(cards[s]); });
+      document.querySelectorAll('[data-region-box]').forEach(b => { b.hidden = !b.querySelector('a.card'); });
+    }
     set(document.querySelector('[data-viaje="salida"]'), f(V.salida, true));
     set(document.querySelector('[data-viaje="regreso"]'), '~' + f(V.regreso, true));
     const sub = document.querySelector('[data-viaje="portal-sub"]');

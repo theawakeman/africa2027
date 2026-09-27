@@ -838,28 +838,39 @@ def render_portal(countries):
     nav = top_nav(root)
     ruta_slugs = [c["slug"] for c in countries if c["group"] in ("bajada", "bucle", "subida")]
     n_completas = sum(1 for c in countries if c["estado"] == "completa")
-    por_region = {}
-    for c in countries:
-        por_region.setdefault(REGION.get(c["slug"], ""), []).append(c)
+    from data_ruta import ORDEN_PLAN
+
+    def tarjeta(c, n=None):
+        if c["estado"] == "completa":
+            badge = '<span class="badge b-ok">Ficha disponible</span>'
+            badge += (' <span class="badge b-ok">✓ Verificada</span>' if c.get("verificado")
+                      else ' <span class="badge b-draft">Contenido borrador</span>')
+        else:
+            badge = '<span class="badge b-draft">Borrador</span>'
+        orden = f'<span class="badge b-viaje b-orden">{n}º</span> ' if n else ""
+        img = f'<img src="{c["img"]}" alt="" loading="lazy">' if c.get("img") else ""
+        meta = esc(c.get("meta", ""))
+        return (f'<a class="card" href="paises/{c["slug"]}/" data-pais="{c["slug"]}" '
+                f'data-region="{REGION.get(c["slug"], "")}" data-nombre="{attr(c["name"])}">{img}<div class="body">'
+                f'<h3>{esc(c["name"])}</h3>{orden}{badge}<span class="meta">{meta}</span></div></a>')
+
+    # Sin viaje calculado en este navegador: la ruta planificada, en su orden.
+    # Con viaje, viaje.js mueve las tarjetas: las del viaje arriba y en su orden,
+    # el resto a su región.
+    por_slug = {c["slug"]: c for c in countries}
+    plan = [s for i, s in enumerate(ORDEN_PLAN) if s in por_slug and s not in ORDEN_PLAN[:i]]
     cards_html = ('<div class="viaje-portal" data-viaje-portal hidden></div>'
-                  '<p class="figcap">Las fichas se agrupan por regiones. El orden del viaje, y si cada país se '
-                  'recorre o solo se cruza, se decide en el <a href="planificador/">Planificador</a>; con un viaje '
-                  'calculado, cada tarjeta indica su papel en él.</p>')
+                  '<h3 style="margin-top:26px" data-viaje-titulo>Ruta planificada</h3>'
+                  '<p class="figcap" data-viaje-nota>Países en el orden de la ruta planificada. Cuando calculas un viaje en el '
+                  '<a href="planificador/">Planificador</a>, aquí aparecen sus países en el orden del viaje.</p>'
+                  '<div class="cards" data-viaje-cards>'
+                  + "".join(tarjeta(por_slug[s], i + 1) for i, s in enumerate(plan)) + '</div>'
+                  '<h2 style="margin-top:34px" data-resto-titulo>Resto de países</h2>')
     for g, glabel, _ in REGIONES:
-        if g not in por_region:
-            continue
-        cards = ""
-        for c in sorted(por_region[g], key=lambda x: x["name"]):
-            if c["estado"] == "completa":
-                badge = '<span class="badge b-ok">Ficha disponible</span>'
-                badge += (' <span class="badge b-ok">✓ Verificada</span>' if c.get("verificado")
-                          else ' <span class="badge b-draft">Contenido borrador</span>')
-            else:
-                badge = '<span class="badge b-draft">Borrador</span>'
-            img = f'<img src="{c["img"]}" alt="" loading="lazy">' if c.get("img") else ""
-            meta = esc(c.get("meta", ""))
-            cards += f"""<a class="card" href="paises/{c['slug']}/" data-pais="{c['slug']}">{img}<div class="body"><h3>{esc(c['name'])}</h3>{badge}<span class="meta">{meta}</span></div></a>"""
-        cards_html += f'<h3 style="margin-top:26px">{esc(glabel)}</h3><div class="cards">{cards}</div>'
+        resto = sorted((c for c in countries if REGION.get(c["slug"]) == g and c["slug"] not in plan),
+                       key=lambda x: x["name"])
+        cards_html += (f'<div data-region-box="{g}"{"" if resto else " hidden"}><h3 style="margin-top:26px">{esc(glabel)}</h3>'
+                       f'<div class="cards" data-region-cards="{g}">{"".join(tarjeta(c) for c in resto)}</div></div>')
 
     body = f"""{nav}
 <header class="hero">

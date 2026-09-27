@@ -255,3 +255,6 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   Visados, CPD y El perro (el validador de UI comprueba el orden).
 - El mapa del Planificador ocupa casi toda la pantalla, como el mapa general, con zoom
   fraccionado para encuadrar África entera.
+- Portal: las fichas salen en el orden del viaje. Sin viaje calculado en el navegador,
+  en el de la ruta planificada; con viaje, viaje.js mueve las tarjetas (número, fecha
+  de entrada y «de paso») y el resto va a «Resto de países» por regiones.
