@@ -187,7 +187,7 @@ table.pp-tt i{display:inline-block;width:10px;height:10px;border-radius:2px;marg
 .pp-evitar .pp-b{padding:1px 5px}
 .pp-pop .pp-zona{display:inline-block;font-size:11px;font-weight:700;border-radius:99px;padding:1px 8px;margin:0 4px 6px 0}
 .pp-pop .pp-zona.rojo{background:#F6E1E1;color:#B43A3A}.pp-pop .pp-zona.naranja{background:#FCE9D6;color:#B8560D}.pp-pop .pp-zona.guia{background:#E1EAF6;color:#2B6CB0}
-.leaflet-tooltip.pp-tip{white-space:normal;width:max-content;max-width:240px;font:12.5px/1.35 "Archivo",sans-serif}
+.leaflet-tooltip.pp-tip{white-space:normal;width:max-content;min-width:min(170px,55vw);max-width:min(380px,70vw);font:13.5px/1.4 "Archivo",sans-serif;padding:6px 10px}
 .leaflet-tooltip.pp-tip small{color:#5F6B72}
 .pp-eur{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;background:var(--surface2);border-radius:8px;padding:8px 10px;margin:0 0 8px}
 .pp-eur b{font-size:22px;font-variant-numeric:tabular-nums;color:var(--head)}
