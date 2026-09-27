@@ -28,7 +28,9 @@ def _opts(slug, d, FULL):
     propios = RT.RECORRIDOS_PROPIOS.get(slug)
     if propios:
         for oid, label, clave in propios:
-            if isinstance(clave, list):
+            if callable(clave):
+                pts = clave(d, FULL)
+            elif isinstance(clave, list):
                 pts = clave
             elif clave == "A+B":
                 pts = (d.get("corridor") or []) + (d.get("corridor_alt") or [])[1:]
@@ -48,7 +50,8 @@ def _opts(slug, d, FULL):
     for oid, label, pts in out:
         k = f"{slug}:{oid}"
         res.append({"id": oid, "l": label.replace("BAJADA · ", "").replace("SUBIDA · ", ""),
-                    "km": RT.KM.get(k), "aprox": k in RT.KM_APROX, "pts": [_r(p) for p in pts]})
+                    "km": RT.KM.get(k), "aprox": k in RT.KM_APROX, "pts": [_r(p) for p in pts],
+                    **({"cruza": RT.CRUZA[k]} if k in RT.CRUZA else {})})
     return [o for o in res if o["km"]]
 
 
@@ -190,6 +193,12 @@ CSS = """
 .seg button[aria-pressed="true"]{background:#1E7A8A;color:#fff}
 .seg button[data-modo$="|c"][aria-pressed="true"]{background:#C47F17}
 .seg-fijo{font-size:12.5px;color:var(--ink-soft)}
+.it-rec{display:flex;align-items:center;gap:6px;margin-top:4px;flex-wrap:wrap}
+.it-rec select{font-size:12.5px;max-width:min(420px,100%);padding:3px 6px}
+.it-rec select.edited{border-color:var(--amber);background:var(--amber-bg)}
+.it-rec .mv.inv{width:auto;padding:2px 8px}
+.it-rec .mv.inv[aria-pressed="true"]{border-color:var(--amber);background:var(--amber-bg)}
+.it-man{font-family:"Archivo",sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amber)}
 .it-km{text-align:right;font-variant-numeric:tabular-nums;font-size:14px;white-space:nowrap}
 .it-km small,.it-d small{color:var(--ink-soft);font-size:11.5px}
 .it-d{white-space:nowrap;text-align:right}
@@ -249,8 +258,8 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 </div>
 <div class="bud-grid" id="bud-ruta-cards"></div>
 <ul class="bud-avisos" id="bud-avisos"></ul>
-<p><strong>Toca un país en el mapa</strong> para añadirlo o quitarlo, o usa el desplegable. <strong>Arrastra</strong> los países de la lista (por el asa ⠿) para ponerlos en el orden que quieras: el viaje <strong>empieza en el primero y acaba en el último</strong>, y la página busca el ferry desde España a cada uno (o al puerto más cercano si no tienen). En cada fila elige <strong>Parar</strong> (el recorrido de su ficha) o <strong>Cruzar</strong> (lo más rápido posible). La ✕ quita el país; si es el único camino para seguir, se queda como «cruzar».</p>
-<div class="bud-mapkey"><span><i style="background:rgba(30,122,138,.55)"></i>Se para</span><span><i style="background:rgba(217,123,41,.5)"></i>Solo se cruza</span><span><i style="background:#fff;border:1px solid #8A949A"></i>Fuera de la ruta</span><span><i style="background:rgba(180,58,58,.2);border:1px dashed #B43A3A"></i>En conflicto (solo si se marca)</span></div>
+<p><strong>Toca un país en el mapa</strong> para añadirlo o quitarlo, o usa el desplegable. <strong>Arrastra</strong> los países de la lista (por el asa ⠿) para ponerlos en el orden que quieras: el viaje <strong>empieza en el primero y acaba en el último</strong>, y la página busca el ferry desde España a cada uno (o al puerto más cercano si no tienen). En cada fila elige <strong>Parar</strong> (el recorrido de su ficha) o <strong>Cruzar</strong> (lo más rápido posible). Debajo, la <strong>ruta</strong> de ese país: «Automática» deja que la app elija el recorrido; también puedes fijar tú el recorrido A, el B, los dos o solo cruzar, y con ⇄ recorrerlo en sentido contrario (queda marcado como <em>manual</em>). La ✕ quita el país; si es el único camino para seguir, se queda como «cruzar».</p>
+<div class="bud-mapkey"><span><i style="background:rgba(30,122,138,.55)"></i>Se para</span><span><i style="background:rgba(217,123,41,.5)"></i>Solo se cruza</span><span><i style="background:#fff;border:1px solid #8A949A"></i>Fuera de la ruta</span><span><i style="background:rgba(180,58,58,.2);border:1px dashed #B43A3A"></i>En conflicto (solo si se marca)</span><span><i style="background:none;border-top:3px solid #1E7A8A;height:0;border-radius:0"></i>Recorrido</span><span><i style="background:none;border-top:3px solid #D97B29;height:0;border-radius:0"></i>Solo cruzar</span><span><i style="background:none;border-top:3px solid #5F6B72;height:0;border-radius:0"></i>Enlace por carretera</span><span><i style="background:none;border-top:2px dashed #5F6B72;height:0;border-radius:0"></i>Enlace aproximado</span></div>
 <div id="bud-mapa" role="img" aria-label="Mapa de la ruta: toca un país para añadirlo o quitarlo"></div>
 <div class="bud-actions"><select id="ruta-add" aria-label="Añadir un país"></select><button type="button" id="ruta-opt">Ordenar por la ruta más corta</button><button type="button" id="ruta-plan">Volver a la ruta planificada</button><button type="button" id="ruta-none">Vaciar</button></div>
 <div class="bud-msg" id="bud-msg" role="status" aria-live="polite" hidden></div>
@@ -314,8 +323,10 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 {bullets([
     "Orden: el que se ponga en la lista. Entre un país y el siguiente se va por el camino más corto, sin cruzar fronteras cerradas. Los países en conflicto (Mali, Sudán, Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) solo se usan si se marcan, y siempre con aviso.",
     "Al añadir un país se mete en el hueco del orden donde menos km suma; «Ordenar por la ruta más corta» rehace todo el orden. Las flechas del itinerario lo cambian a mano. Al quitar un país, el cálculo deja de usarlo también como paso, salvo que sea el único camino.",
-    "«Parar» hace el recorrido de la ficha que toca (en los países que se pasan dos veces, el recorrido A la primera vez y el B la segunda); «Cruzar» es un tránsito directo. En Marruecos, el Sahara Occidental y Mauritania cruzar es la vía rápida de la costa.",
-    "Km de parada: OSRM (OpenStreetMap) por todos los puntos del corredor de la ficha, 26-09-2026. Km de enlace y de tránsito: línea recta × 1,25, así que son aproximados.",
+    "«Parar» hace el recorrido de la ficha que toca (en los países que se pasan dos veces, el recorrido A la primera vez y el B la segunda); «Cruzar» es un tránsito directo. En Marruecos, el Sahara Occidental y Mauritania cruzar es la vía rápida de la costa. En modo automático el sentido de cada recorrido es el que mejor une la entrada con el país siguiente; en modo manual se fija el recorrido y el sentido.",
+    "Senegal y Gambia: la vuelta de la ficha de Senegal cruza Gambia por Banjul. Si Gambia no va en la ruta, se añade sola como país de paso (visado, tasas y una entrada); si va, Senegal se parte en Casamance (hasta Séléti) y el norte (desde Karang), y Gambia queda en medio. La Casamance va por la N6 (Kolda), sin pasar por Guinea-Bisáu.",
+    "Los países que no se han marcado solo se usan para pasar cuando no hay otro camino razonable (cuentan 2,5 veces su distancia al elegir el camino).",
+    "Km de parada: OSRM (OpenStreetMap) por todos los puntos del corredor de la ficha, 26-09-2026. Enlaces entre recorridos: ruta por carretera de OSRM, pedida al calcular y guardada en el navegador (línea gris continua); sin conexión son línea recta × 1,25 (gris discontinua) y los km son aproximados. Los tránsitos sin recorrido propio pasan por el punto del país que mejor une la entrada y la salida.",
     "Días = km ÷ ritmo (uno para los países de parada y otro para los de paso y la carretera en Europa) + horas de ferry + margen. Si se escribe una duración fija, se usa esa y la página dice qué ritmo haría falta.",
     "Ferris: el de ida es el recomendado para el primer país de la lista (Marruecos: GNV Barcelona–Tánger Med; Argelia: Valencia–Mostaganem; Túnez: Génova–Túnez); si ese país no tiene ferry, el del país con ferry más cercano, y desde allí se conduce. Igual con la vuelta y el último país.",
     "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el INEOS Grenadier.",

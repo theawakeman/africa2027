@@ -1985,6 +1985,7 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
+  if (url.hostname === 'router.project-osrm.org') return;   // rutas del Planificador: directo a la red
   if (url.hostname === 'server.arcgisonline.com') {
     e.respondWith(caches.open('a27-tiles-esri').then(c => c.match(req).then(m => m || fetch(req).then(res => { if (res.ok) c.put(req, res.clone()); return res; }).catch(() => new Response('', {status: 408})))));
     return;

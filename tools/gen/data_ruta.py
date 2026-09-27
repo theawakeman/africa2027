@@ -24,10 +24,33 @@ MARRUECOS_DIRECTO = [(35.8900, -5.5000), (34.0209, -6.8416), (33.5731, -7.5898),
 MAURITANIA_COSTA = [(21.3337, -16.9472), (20.9300, -17.0330), (19.8784, -16.3044), (18.0858, -15.9785),
                     (16.2158, -16.4148)]
 
+# Casamance por carretera (OSRM, 27-09-2026): Kalifourou → Vélingara → Kolda →
+# Ziguinchor → Bignona → Séléti (frontera de Gambia). Evita Guinea-Bisáu.
+SENEGAL_CASAMANCE = [(12.5824, -13.3721), (12.6107, -13.5344), (12.6795, -13.5597), (12.7585, -13.5436),
+                     (12.8721, -13.5581), (12.9148, -13.6334), (13.0194, -13.7065), (13.0445, -13.7943),
+                     (13.0232, -13.9319), (13.0559, -14.0331), (12.9696, -14.0306), (12.9144, -14.1122),
+                     (12.9227, -14.2625), (12.8599, -14.5019), (12.8382, -14.7561), (12.8913, -14.9373),
+                     (12.8214, -15.0357), (12.7408, -15.1534), (12.6416, -15.5004), (12.5904, -15.4934),
+                     (12.5179, -15.5207), (12.497, -15.6303), (12.5624, -15.6846), (12.5438, -15.8095),
+                     (12.569, -15.9211), (12.6277, -16.018), (12.593, -16.0753), (12.5592, -16.2719),
+                     (12.6679, -16.2607), (12.8153, -16.2328), (12.8915, -16.3368), (12.9141, -16.433),
+                     (13.0429, -16.598), (13.1, -16.52)]
+
 # (slug, id, etiqueta, clave) · clave: "A", "B", "A+B" (los dos corredores de
 # la ficha como un único trayecto), "ex:<n>" (corredor extra de la ficha) o una
-# lista de puntos propia. Los países que no aparecen aquí usan A y B tal cual.
+# lista de puntos propia, o una función (datos de la ficha, fichas) → puntos.
+# Los países que no aparecen aquí usan A y B tal cual.
 RECORRIDOS_PROPIOS = {
+    # Senegal: la vuelta de la ficha (B) cruza Gambia por Banjul. Si Gambia va
+    # en la ruta como país propio, Senegal se parte en S (Casamance, hasta la
+    # frontera de Gambia) y N (desde Karang hasta Diama); ver VIA.
+    "senegal": [
+        ("A", "Diama · Saint-Louis · Ferlo · Niokolo-Koba · Kédougou · Kalifourou", "A"),
+        ("B", "Kalifourou · Kolda · Casamance · Gambia (Banjul) · Saloum · Dakar · lago Retba · Diama",
+         lambda d, F: SENEGAL_CASAMANCE + list(F["gambia"]["corridor"]) + list(d["corridor_alt"][1:])),
+        ("S", "Casamance: Kalifourou · Kolda · Ziguinchor · Séléti (frontera de Gambia)", SENEGAL_CASAMANCE),
+        ("N", "Karang (frontera de Gambia) · Saloum · Dakar · lago Retba · Diama", lambda d, F: list(d["corridor_alt"][1:])),
+    ],
     "marruecos": [
         ("A", "Bucle de la ficha (Fez, Merzouga, Todra, Marrakech, costa)", "A"),
         ("R", "Vía rápida Tánger Med – Tarfaya (sin paradas)", MARRUECOS_DIRECTO),
@@ -51,7 +74,11 @@ RECORRIDOS_PROPIOS = {
 # línea por el punto del país que mejor une la entrada y la salida.
 # Recorrido obligado según el país vecino: si la ruta llega de Argelia o va
 # hacia Argelia, Mauritania solo se puede cruzar por la pista de Tinduf.
-VIA = {"mauritania": {"argelia": "N"}}
+# Una lista = candidatos: se usa el que mejor une la entrada y la salida.
+VIA = {"mauritania": {"argelia": "N"}, "senegal": {"gambia": ["S", "N"]}}
+# Países que un recorrido atraviesa sin ser su país: si no van en la ruta justo
+# al lado, se añaden como paso (cuentan visado, tasas y entradas).
+CRUZA = {"senegal:B": ["gambia"]}
 TRANSITO_FIJO = {"marruecos": "R", "sahara-occidental": "A", "mauritania": "C", "cabinda": "C"}
 
 # Km por carretera de cada recorrido, un sentido. OSRM (router.project-osrm.org,
@@ -68,7 +95,7 @@ KM = {
     # Overland y relatos 2025: Tinduf–Zuérat 800–860 km); Zuérat → F'Derik →
     # Atar → Chinguetti → Atar → Nuakchot → Diama por OSRM: 1.160 km.
     "mauritania:N": 1950,
-    "senegal:A": 1946, "senegal:B": 778,
+    "senegal:A": 1946, "senegal:B": 1378, "senegal:S": 520, "senegal:N": 601,
     "gambia:A": 257, "gambia:B": 641,
     "guinea:A": 2009, "guinea:B": 1275,
     "costa-de-marfil:A": 2142, "costa-de-marfil:B": 1259,
@@ -141,7 +168,7 @@ ORDEN_PLAN = ["marruecos", "sahara-occidental", "mauritania", "senegal", "guinea
 # aparecen aquí paran en "A". Marruecos vacío = cruzar por la vía rápida
 # (decisión del proyecto: de paso, sin paradas).
 PLAN = {
-    "marruecos": "", "sahara-occidental": "A|B", "mauritania": "A|A", "senegal": "A|B",
+    "marruecos": "", "sahara-occidental": "A|B", "mauritania": "A|A", "senegal": "A|B|N",
     "gambia": "A", "guinea": "A|B", "costa-de-marfil": "A|B", "ghana": "A|B", "togo": "A|B",
     "benin": "A|B", "nigeria": "A|B", "camerun": "A|B", "congo": "A|B", "rd-congo": "A|B",
     "angola": "A|B", "zambia": "A", "malaui": "A", "tanzania": "A|B", "kenia": "A+B",
@@ -225,7 +252,7 @@ FRONTERAS = [
 ]
 # Penalizaciones del cálculo del orden: pasar por un país que no está marcado
 # (otro visado, otra frontera) y cruzar en ferry.
-PENAL_NO_MARCADO = 1.4
+PENAL_NO_MARCADO = 2.5
 PENAL_FERRY_KM = 300
 
 # ---------------------------------------------------------------- días

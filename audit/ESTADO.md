@@ -261,3 +261,18 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Mapa general: las capas «Ruta · ida» y «Ruta · vuelta» son las del viaje del
   Planificador (partido en el punto más alejado del puerto de llegada a África); sin
   viaje calculado en el navegador, las de la ruta planificada.
+
+## Ruta manual y enlaces por carretera (27-09-2026)
+
+- Cada país del itinerario tiene un selector de ruta: «Automática» o manual (recorrido
+  A, B, A y B, o solo cruzar) y ⇄ para recorrerlo al revés. Claves `ruta.rec.<país>.<n>`
+  y `ruta.inv.<país>.<n>`; se guardan con el viaje.
+- Senegal: nuevo recorrido de Casamance por la N6 (Kalifourou → Kolda → Ziguinchor →
+  Séléti, OSRM). B = Casamance + Gambia (Banjul) + norte; si Gambia va en la ruta,
+  Senegal se parte en S (Casamance) y N (Karang → Diama). Si B cruza Gambia sin estar
+  en la ruta, Gambia se añade como paso «dentro de Senegal» (visado, tasas, entrada).
+- Los países sin marcar pesan 2,5 (antes 1,4) al elegir el camino: solo se usan si no
+  hay otro razonable.
+- Enlaces entre recorridos: ruta por carretera de OSRM pedida desde el navegador y
+  guardada en `a27-enlaces-v1`; sin conexión, línea recta ×1,25 discontinua. El service
+  worker deja pasar esas peticiones sin tocarlas.
