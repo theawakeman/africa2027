@@ -77,7 +77,7 @@ CSS = """
 .pp-lista:empty::after{content:"Toca puntos en el mapa y añádelos aquí";display:block;padding:8px;font-size:12.5px;color:var(--ink-soft)}
 .pp-it{display:grid;grid-template-columns:14px 24px minmax(0,1fr) auto;gap:6px;align-items:center;padding:6px 4px;border-bottom:1px solid var(--line);font-size:13.5px}
 .pp-it:last-child{border-bottom:0}
-.pp-h{cursor:grab;color:var(--ink-soft);user-select:none}
+.pp-h{cursor:grab;color:var(--ink-soft);user-select:none;touch-action:none;padding:6px 4px;font-size:18px;line-height:1}.pp-h:hover{color:var(--ink)}.pp-it.sortable-chosen{background:var(--amber-bg)}.sortable-fallback{opacity:.9;box-shadow:0 6px 18px rgba(0,0,0,.25)}.pp-b[disabled]{opacity:.4;cursor:default}
 .pp-n{width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff}
 .pp-ida .pp-n{background:#1E7A8A}.pp-vuelta .pp-n{background:#C47F17}
 .pp-t{min-width:0}.pp-t strong{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}

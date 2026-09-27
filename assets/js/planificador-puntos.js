@@ -929,10 +929,11 @@ function editarPropio(id){
 }
 function acciones(p){
   const en = S.ida.includes(p.id) ? 'ida' : S.vuelta.includes(p.id) ? 'vuelta' : '';
-  const base = p.rep || p.id;
+  const base = p.rep || p.id, L0 = en ? S[en] : [], k = L0.indexOf(p.id);
+  const orden = en ? `<span class="pp-otra">Orden en la ${en}: <b>${k + 1}</b> de ${L0.length} <button type="button" class="pp-b" data-mover="-1|${esc(p.id)}"${k <= 0 ? ' disabled' : ''} title="Pasar antes del punto anterior">↑ Antes</button><button type="button" class="pp-b" data-mover="1|${esc(p.id)}"${k >= L0.length - 1 ? ' disabled' : ''} title="Pasar después del punto siguiente">↓ Después</button></span>` : '';
   return en
     ? `<button type="button" class="pp-b big ${en === 'ida' ? 'vuelta' : 'ida'}" data-pp="${en === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(p.id)}">Pasar a la ${en === 'ida' ? 'vuelta' : 'ida'}</button><button type="button" class="pp-b big x" data-pp="quitar" data-id="${esc(p.id)}">Quitar</button>
-       <span class="pp-otra">Pasar otra vez: <button type="button" class="pp-b ida" data-rep="ida|${esc(base)}">+ Ida</button><button type="button" class="pp-b vuelta" data-rep="vuelta|${esc(base)}">+ Vuelta</button></span>`
+       ${orden}<span class="pp-otra">Pasar otra vez: <button type="button" class="pp-b ida" data-rep="ida|${esc(base)}">+ Ida</button><button type="button" class="pp-b vuelta" data-rep="vuelta|${esc(base)}">+ Vuelta</button></span>`
     : `<button type="button" class="pp-b big ida" data-pp="ida" data-id="${esc(p.id)}">+ Ida</button><button type="button" class="pp-b big vuelta" data-pp="vuelta" data-id="${esc(p.id)}">+ Vuelta</button>`;
 }
 const perroTxt = p => ({si: 'perro: sí', condiciones: 'perro: con condiciones', no: 'perro: no', sin_dato: 'perro: sin dato'}[p.perro] || '');
@@ -994,8 +995,8 @@ function pintarSel(){
   let i = 0;
   [['ida', S.ida], ['vuelta', S.vuelta]].forEach(([m, lista]) => lista.forEach(id => {
     const p = punto(id); if (!p) return; i++;
-    conPopup(L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: `<div class="pp-mk ${m}${p.libre ? ' libre' : ''}" style="width:24px;height:24px">${i}</div>`, iconSize: [24, 24], iconAnchor: [12, 12]}), zIndexOffset: 500})
-      .bindTooltip(i + '. ' + esc(p.nombre)), p).addTo(CAPA_SEL);
+    const mk = L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: `<div class="pp-mk ${m}${p.libre ? ' libre' : ''}" style="width:24px;height:24px">${i}</div>`, iconSize: [24, 24], iconAnchor: [12, 12]}), zIndexOffset: 500});
+    mk._a27id = id; conPopup(mk.bindTooltip(i + '. ' + esc(p.nombre)), p).addTo(CAPA_SEL);
   }));
 }
 function pintarRuta(){
@@ -1036,9 +1037,10 @@ function filas(m, lista, base){
       <button type="button" class="pp-b pp-recto${S.recto[id] ? ' on' : ''}" data-recto="${esc(id)}" aria-pressed="${S.recto[id] ? 'true' : 'false'}" title="${S.recto[id] ? 'Se llega por pista, en línea recta: toca para volver a buscar carretera' : 'Llegar a este punto por pista, en línea recta, sin buscar carretera (añade «pasar por aquí» para dibujar la pista)'}">〰</button><button type="button" class="pp-b" data-pp="${m === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(id)}" title="Pasar a la ${m === 'ida' ? 'vuelta' : 'ida'}">${m === 'ida' ? '↓' : '↑'}</button><button type="button" class="pp-b x" data-pp="quitar" data-id="${esc(id)}" title="Quitar">✕</button></span></li>`;
   }).join('');
 }
+let ARRASTRE = false;
 function pintar(){
-  $('pp-lista-ida').innerHTML = filas('ida', S.ida, 0);
-  $('pp-lista-vuelta').innerHTML = filas('vuelta', S.vuelta, S.ida.length);
+  if (!ARRASTRE) { $('pp-lista-ida').innerHTML = filas('ida', S.ida, 0);
+    $('pp-lista-vuelta').innerHTML = filas('vuelta', S.vuelta, S.ida.length); }
   $('pp-cnt-ida').textContent = S.ida.length ? S.ida.length + ' puntos' : '';
   $('pp-cnt-vuelta').textContent = S.vuelta.length ? S.vuelta.length + ' puntos' : '';
   $('pp-nombre').textContent = S.nombre || '';
@@ -1245,6 +1247,11 @@ document.addEventListener('click', e => {
     for (let i = 0; i <= lista.length && donde < 0; i++) { const x = pais(i - 1), y = pais(i); if (x && y && x !== y && par.includes(x) && par.includes(y)) donde = i; }
     if (donde >= 0) lista.splice(donde, 0, id); else insertar(m, id);
     save(); MAP && MAP.closePopup(); calcular(); msg(`La ${m} cruza ahora por <b>${esc(f.nombre)}</b>. Ponle días si hay que esperar en la frontera.`); return; }
+  const mv = e.target.closest('[data-mover]'); if (mv) { const [d, id] = mv.dataset.mover.split('|'), m = S.ida.includes(id) ? 'ida' : 'vuelta', L0 = S[m], k = L0.indexOf(id), j = k + (+d);
+    if (k < 0 || j < 0 || j >= L0.length) return;
+    [L0[k], L0[j]] = [L0[j], L0[k]]; save(); calcular();
+    // El popup sigue abierto sobre el punto, para poder moverlo varias posiciones seguidas
+    CAPA_SEL.eachLayer(l => { if (l._a27id === id) l.openPopup(); }); return; }
   const rp = e.target.closest('[data-rep]'); if (rp) { const [m, base] = rp.dataset.rep.split('|'), b = punto(base); if (!b) return;
     const id = 'rep-' + Date.now().toString(36); S.libres[id] = {ref: base};
     const dlg = rp.closest('dialog'); if (dlg) dlg.close();
@@ -1324,7 +1331,9 @@ $('pp-reset').addEventListener('click', resetAjustes);
 $('pp-vnombre').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); guardarViaje(); } });
 $('pp-nuevo').addEventListener('click', () => { if (!confirm('¿Empezar un viaje nuevo? El actual se pierde si no lo has guardado.')) return; S = VACIO(); save(); calcular(); encuadrar(); });
 if (window.Sortable) ['pp-lista-ida', 'pp-lista-vuelta'].forEach(id => Sortable.create($(id), {group: 'pp', handle: '.pp-h', animation: 150,
-  onEnd: () => { S.ida = [...$('pp-lista-ida').children].map(li => li.dataset.id); S.vuelta = [...$('pp-lista-vuelta').children].map(li => li.dataset.id); save(); calcular(); }}));
+  forceFallback: true, fallbackTolerance: 3, scroll: true, bubbleScroll: true, scrollSensitivity: 80,
+  onStart: () => { ARRASTRE = true; },
+  onEnd: () => { ARRASTRE = false; S.ida = [...$('pp-lista-ida').children].map(li => li.dataset.id); S.vuelta = [...$('pp-lista-vuelta').children].map(li => li.dataset.id); save(); calcular(); }}));
 
 window.addEventListener('storage', e => { if (e.key === 'a27-pdi-propios') cargarPropios(); if (e.key === AJ_KEY || e.key === CIFRAS || e.key === FUENTE || e.key === 'a27-pdi-propios') calcular(); });
 
