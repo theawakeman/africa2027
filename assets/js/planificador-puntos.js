@@ -225,7 +225,8 @@ function calcular(){
     if (t.b.tipo === 'punto') { reloj += diasDe(t.b.p); const u = runs[runs.length - 1]; if (u) { u.t1 = reloj; u.puntos.push(t.b.p); } }
   });
   // Un roce de menos de 10 km con otro país (carretera pegada a la frontera) no cuenta como entrada
-  for (let i = runs.length - 2; i > 0; i--) if (runs[i].km < 10 && runs[i - 1].s === runs[i + 1].s) {
+  // (hasta 25 km y sin paradas: carreteras que siguen la frontera, como la del río Senegal o la península de Nuadibú)
+  for (let i = runs.length - 2; i > 0; i--) if (runs[i].km < 25 && !runs[i].puntos.length && runs[i - 1].s === runs[i + 1].s) {
     const a = runs[i - 1]; a.km += runs[i].km + runs[i + 1].km; a.t1 = runs[i + 1].t1; a.puntos = a.puntos.concat(runs[i].puntos, runs[i + 1].puntos); runs.splice(i, 2); }
   const orden = runs.map(x => x.s);
   const entradas = {}; orden.forEach(s => { entradas[s] = (entradas[s] || 0) + 1; });
@@ -342,10 +343,10 @@ function pintarTiempo(){
   const f = R.factor, ini = R.runs[0].t0, fin = R.runs[R.runs.length - 1].t1, total = Math.max(1e-6, R.dias);
   const dF1 = ini * f, dF2 = Math.max(0, total - fin * f);
   const ancho = el.clientWidth || 900;
-  const seg = (d, html, st, tt) => `<i style="width:${d / total * 100}%;${st}" title="${esc(tt)}">${d / total * ancho > html.replace(/<[^>]+>/g, '').length * 6.6 + 10 ? html : ''}</i>`;
+  const seg = (d, html, st, tt) => `<i style="width:${d / total * 100}%;${st}" data-tt="${esc(tt)}">${d / total * ancho > html.replace(/<[^>]+>/g, '').length * 6.6 + 10 ? html : ''}</i>`;
   const tl = seg(dF1, 'Ferry', '', `Salida y ferry ${R.FI.f.origen} → ${R.FI.f.puerto}: ~${num(dF1, 1)} días`).replace('<i ', '<i class="fer" ')
     + R.runs.map(r => { const d = (r.t1 - r.t0) * f; return seg(d, esc(nom(r.s)) + ' · ' + num(d, d < 10 ? 1 : 0) + ' d', `background:${colPais(r.s)}`,
-      `${nom(r.s)}: ${fecha(addDays(S.salida, r.t0 * f))} – ${fecha(addDays(S.salida, r.t1 * f))} · ~${num(d, 1)} días · ${num(r.km)} km${r.puntos.length ? ' · ' + r.puntos.map(p => p.nombre.split(' · ')[0]).join(', ') : ' · de paso'}`); }).join('')
+      `${nom(r.s)}: ${fecha(addDays(S.salida, r.t0 * f))} – ${fecha(addDays(S.salida, r.t1 * f))} · ~${num(d, 1)} días · ${num(r.km)} km${r.puntos.length ? ' · paradas: ' + r.puntos.map(p => p.nombre.split(' · ')[0]).join(', ') : ' · de paso, sin paradas'}`); }).join('')
     + seg(dF2, 'Ferry', '', `Ferry ${R.FV.f.puerto} → ${R.FV.f.origen} y regreso: ~${num(dF2, 1)} días`).replace('<i ', '<i class="fer" ');
   const por = {}, orden = [];
   R.runs.forEach(r => { const d = (r.t1 - r.t0) * f;
@@ -354,11 +355,32 @@ function pintarTiempo(){
   const filas = orden.map(s => { const x = por[s];
     return `<tr><td><i style="background:${colPais(s)}"></i>${esc(nom(s))}${x.puntos ? '' : ' <small style="color:var(--ink-soft)">de paso</small>'}</td><td class="n"><strong>${num(x.d, x.d < 10 ? 1 : 0)}</strong></td><td class="n">${x.n}</td><td>${x.rangos.join(' · ')}</td><td class="n">${num(x.km)}</td><td class="n">${x.puntos || '—'}</td></tr>`; }).join('');
   let abierto = true; const prev = el.querySelector('details'); if (prev) abierto = prev.open;
-  el.innerHTML = `<div class="pp-tl" role="img" aria-label="Línea del viaje por países">${tl}</div>
+  el.innerHTML = `<div class="pp-tl" role="img" aria-label="Línea del viaje por países">${tl}</div><div class="pp-tl-tip" hidden></div>
     <div class="pp-tl-ej"><span>${fecha(addDays(S.salida, 0), true)}</span><span>${num(R.dias)} días</span><span>${fecha(addDays(S.salida, R.dias), true)}</span></div>
     <details ${abierto ? 'open' : ''}><summary>Tiempo por país</summary>
-    <div style="overflow-x:auto"><table class="pp-tt"><thead><tr><th>País</th><th class="n">Días</th><th class="n">Entradas</th><th>Fechas aproximadas</th><th class="n">Km</th><th class="n">Puntos</th></tr></thead><tbody>${filas}</tbody></table></div></details>`;
+    <div style="overflow-x:auto"><table class="pp-tt"><thead><tr><th>País</th><th class="n">Días</th><th class="n" title="Veces que se entra en el país (cada una con su sello de entrada y de salida, y su visado si no es de entradas múltiples)">Estancias</th><th>Fechas aproximadas</th><th class="n">Km</th><th class="n">Puntos</th></tr></thead><tbody>${filas}</tbody></table></div></details>`;
 }
+// Globo de la línea del viaje: sigue al ratón (o al dedo) sobre cada tramo
+(function(){
+  const cont = () => $('pp-tiempo');
+  function mostrar(ev){
+    const el = cont(); if (!el) return;
+    const tip = el.querySelector('.pp-tl-tip'), x = ev.touches ? ev.touches[0].clientX : ev.clientX, y = ev.touches ? ev.touches[0].clientY : ev.clientY;
+    const seg = document.elementFromPoint(x, y), i = seg && seg.closest && seg.closest('.pp-tl i');
+    if (!tip) return;
+    if (!i || !i.dataset.tt) { tip.hidden = true; return; }
+    el.querySelectorAll('.pp-tl i.on').forEach(e => e.classList.remove('on')); i.classList.add('on');
+    const [t0, ...resto] = i.dataset.tt.split(' · ');
+    tip.innerHTML = `<strong>${esc(t0.split(': ')[0])}</strong>${t0.includes(': ') ? '<br>' + esc(t0.split(': ').slice(1).join(': ')) : ''}${resto.length ? '<br>' + resto.map(esc).join('<br>') : ''}`;
+    tip.hidden = false;
+    const r = el.getBoundingClientRect(), w = tip.offsetWidth;
+    tip.style.left = Math.max(0, Math.min(r.width - w, x - r.left - w / 2)) + 'px';
+    tip.style.top = (el.querySelector('.pp-tl').offsetTop + 40) + 'px';
+  }
+  function ocultar(){ const el = cont(); if (!el) return; const tip = el.querySelector('.pp-tl-tip'); if (tip) tip.hidden = true; el.querySelectorAll('.pp-tl i.on').forEach(e => e.classList.remove('on')); }
+  document.addEventListener('mousemove', ev => { if (ev.target.closest && ev.target.closest('.pp-tl')) mostrar(ev); else ocultar(); });
+  document.addEventListener('touchstart', ev => { if (ev.target.closest && ev.target.closest('.pp-tl')) mostrar(ev); else ocultar(); }, {passive: true});
+})();
 // Cifras clave del viaje, arriba y a todo el ancho (como en el Planificador actual)
 function pintarKPIs(){
   const el = $('pp-kpis'); if (!el) return;
@@ -371,7 +393,7 @@ function pintarKPIs(){
   el.innerHTML = `
     <div class="pp-kpi"><div class="l">Km por vehículo</div><div class="v">${num(kmT)}</div><div class="s">${num(kmT / Math.max(1, R.dias))} km de media al día${R.kmEU ? ' · ' + num(R.kmEU) + ' por Europa' : ''}</div></div>
     <div class="pp-kpi ${dif > 0 ? 'alerta' : ''}"><div class="l">Días · regreso</div><div class="v">${num(R.dias)} días</div><div class="s">${fecha(addDays(S.salida, 0), true)} → <strong>${fecha(reg, true)}</strong><br>${dif > 0 ? num(dif) + ' días después' : num(-dif) + ' días antes'} del regreso previsto (${fecha(prev, true)})</div></div>
-    <div class="pp-kpi"><div class="l">Países</div><div class="v">${vis.length}</div><div class="s">con paradas · ${paso.length} más de paso · ${entradas} entradas en total</div></div>
+    <div class="pp-kpi"><div class="l">Países</div><div class="v">${vis.length}</div><div class="s">con paradas · ${paso.length} más de paso · ${entradas} estancias en total (entrar y salir)</div></div>
     <div class="pp-kpi"><div class="l">Puntos</div><div class="v">${R.todos.length}</div><div class="s">${R.ida.length} a la ida · ${R.vuelta.length} a la vuelta · ${num(diasPuntos, 1).replace(/,0$/, '')} días parado</div></div>
     <div class="pp-kpi"><div class="l">Presupuesto total</div><div class="v">${B ? eur(B.total) : '—'}</div><div class="s">${B ? eur(B.total / Math.max(1, B.nPers)) + ' por persona · ' + eur(B.total / Math.max(1, R.dias)) + ' al día · <a href="#pp-bud">desglose</a>' : ''}</div></div>
     <div class="pp-kpi ${rojos ? 'alerta' : ''}"><div class="l">Avisos</div><div class="v">${R.avisos.length}</div><div class="s">${rojos ? rojos + ' importantes (en rojo en el panel)' : 'ninguno importante'}${B ? ' · combustible ' + eur(B.cat.comb) + ' · visados ' + eur(B.cat.vis) : ''}</div></div>`;
@@ -685,7 +707,7 @@ function pintar(){
     $('pp-fechas').textContent = R.todos.length ? `Salida ${fecha(addDays(S.salida, 0), true)} · regreso ~${fecha(addDays(S.salida, R.dias), true)} · ferry ${R.FI.f.origen} → ${R.FI.f.puerto} y ${R.FV.f.puerto} → ${R.FV.f.origen}${R.kmEU ? ' · ' + num(R.kmEU) + ' km por Europa' : ''}` : '';
     const act = new Set(S.paises), totD = Object.values(R.diasPais).reduce((a, b) => a + b, 0) || 1;
     $('pp-tira').innerHTML = ps.map(s => `<i style="width:${(R.diasPais[s] || 0) / totD * 100}%;background:${colPais(s)}" title="${esc(nom(s))}: ~${num(R.diasPais[s] * R.factor, 1)} días"></i>`).join('');
-    $('pp-paises').innerHTML = ps.map(s => `<span class="${act.has(s) ? '' : 'fuera'}" style="border-left:4px solid ${colPais(s)}">${esc(nom(s))} · ${num(R.kmPais[s] || 0)} km${R.entradas[s] > 1 ? ' · ' + R.entradas[s] + ' entradas' : ''}</span>`).join('');
+    $('pp-paises').innerHTML = ps.map(s => `<span class="${act.has(s) ? '' : 'fuera'}" style="border-left:4px solid ${colPais(s)}">${esc(nom(s))} · ${num(R.kmPais[s] || 0)} km${R.entradas[s] > 1 ? ' · ' + R.entradas[s] + ' estancias' : ''}</span>`).join('');
     $('pp-avisos').innerHTML = R.avisos.map(a => `<li class="${a.rojo ? 'rojo' : ''}">${a.t}</li>`).join('');
   }
   $('pp-salida').value = S.salida || CFG.salida; $('pp-kmdia').value = S.kmdia; $('pp-margen').value = S.margen;

@@ -148,6 +148,10 @@ CSS = """
 .pp-tl{display:flex;height:34px;border-radius:9px;overflow:hidden;border:1px solid var(--line);background:var(--surface2)}
 .pp-tl i{display:flex;align-items:center;justify-content:center;min-width:2px;height:100%;color:#fff;font-style:normal;font-size:11.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:clip;border-right:1px solid rgba(255,255,255,.55)}
 .pp-tl i.fer{background:repeating-linear-gradient(45deg,#8A949A,#8A949A 5px,#9AA3A8 5px,#9AA3A8 10px)}
+.pp-tiempo{position:relative}
+.pp-tl i{cursor:default;transition:filter .1s}.pp-tl i.on{filter:brightness(1.18);box-shadow:inset 0 0 0 2px rgba(255,255,255,.8)}
+.pp-tl-tip{position:absolute;z-index:500;min-width:170px;max-width:320px;background:var(--ink);color:var(--surface);border-radius:9px;padding:8px 11px;font-size:12.5px;line-height:1.45;box-shadow:0 6px 20px rgba(0,0,0,.3);pointer-events:none}
+.pp-tl-tip strong{font-size:13.5px}
 .pp-tl-ej{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink-soft);margin:3px 2px 0}
 .pp-tiempo details{margin-top:6px}
 .pp-tiempo summary{cursor:pointer;font-size:12.5px;font-weight:700;color:var(--teal)}

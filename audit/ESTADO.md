@@ -409,3 +409,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   DESCARTADA (Guinea–Guinea-Bisáu, Negomano, Kilambo, Cinkassé) pasan a estado «descartada» y ya
   no se usan para calcular la ruta.
 - (27-09-2026) Panel lateral más ancho (400–480 px según pantalla) y tabla de comparación compacta: sin desplazamiento horizontal.
+- (27-09-2026) «Entradas» pasa a «Estancias» (entrar y salir, con su sello); un roce de hasta 25 km sin paradas con otro país ya no cuenta como estancia. Globo propio al pasar el ratón (o el dedo) por la línea del viaje: país, fechas, días, km y paradas.
