@@ -489,7 +489,7 @@ function compute(){
   const gasDef = s => { const g = PA[s].gas; return g ? g.eur : RU.gas_sin_dato; };
   const gasKey = s => 'g.' + (s === 'cabinda' ? 'angola' : s);
   const EUN = {es: 'España', fr: 'Francia', it: 'Italia'};
-  const euRows = FE.filter(e => e.km > 0).map(e => ({key: 'eu' + e.dir, n: `Carretera en Europa (${e.dir === 'ida' ? RU.origen + ' → ' + e.f.origen : e.f.origen + ' → ' + RU.origen})`, km: e.km, gk: 'g.eu.' + e.f.gas, gd: RU.gas_eu[e.f.gas], nota: 'Precio de ' + EUN[e.f.gas] + ', GlobalPetrolPrices 21-09-2026'}));
+  const euRows = FE.filter(e => e.km > 0).map(e => ({key: 'eu' + e.dir, n: `Carretera en Europa (${e.dir === 'ida' ? RU.origen + ' → ' + e.f.origen : e.f.origen + ' → ' + RU.origen})`, km: e.km, gk: 'g.eu.' + e.f.gas, gd: RU.gas_eu[e.f.gas], nota: 'Precio de ' + EUN[e.f.gas] + ', GlobalPetrolPrices ' + (RU.gpp_fecha || '21-09-2026')}));
   paint('bud-comb', euRows.filter(r => r.key === 'euida').map(r => `<tr><td><strong>${r.n}</strong><span class="nota">${r.nota}</span></td><td class="n" data-o="ck${r.key}"></td><td class="n">${inp(r.gk, r.gd, 0.01)}</td>${D.vehiculos.map(v => `<td class="n" data-o="c${v.id}${r.key}"></td>`).join('')}</tr>`).join('')
     + orden.map(s => `<tr><td><strong>${PA[s].n}</strong>${PA[s].gas ? '' : '<span class="nota">Sin precio publicado: valor genérico</span>'}</td><td class="n" data-o="ck${s}"></td>
     <td class="n">${inp(gasKey(s), gasDef(s), 0.01)}</td>${D.vehiculos.map(v => `<td class="n" data-o="c${v.id}${s}"></td>`).join('')}</tr>`).join('')
@@ -518,7 +518,7 @@ function compute(){
   const nPers = veh.reduce((s, v) => s + v.personas, 0);
   const conVis = orden.filter(s => PA[s].vis !== 'sin'), sinVis = orden.filter(s => PA[s].vis === 'sin' && !PA[s].solo_paso);
   paint('bud-visados', conVis.map(s => { const vi = PA[s].vis;
-    return `<tr><td><strong>${PA[s].n}</strong><span class="nota">${vi ? escH(vi.txt) + ' · <a href="' + vi.url + '" target="_blank" rel="noopener">fuente</a>' : 'Sin importe localizado'}</span></td>
+    return `<tr><td><strong>${PA[s].n}</strong><span class="nota">${vi ? escH(vi.txt) + ' · <a href="' + vi.url + '" target="_blank" rel="noopener">fuente</a>' : 'Sin importe localizado'}</span>${vi && vi.aviso ? '<span class="nota bud-aviso-fuente">⚠ La fuente oficial cambió el ' + escH(vi.aviso) + ': revisar el importe</span>' : ''}</td>
     <td class="n">${inp('vis.'+s, vi ? vi.eur : 0, 1)}</td><td class="n"><input type="number" step="1" min="0" data-k="vis.n.${s}" data-d="" value="${get('vis.n.'+s, '')}" class="${get('vis.n.'+s, '') !== '' ? 'edited' : ''}" data-o="vn${s}" autocomplete="off" data-1p-ignore data-lpignore="true" aria-label="Visados por persona en ${escH(PA[s].n)}"></td><td class="n" data-o="vp${s}"></td><td class="n" data-o="vg${s}"></td></tr>`; }).join(''));
   let visPP = 0;
   const visOut = [];

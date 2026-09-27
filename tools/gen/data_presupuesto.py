@@ -15,9 +15,15 @@ data_ruta.py y se calculan en la propia página según los países que se marque
 
 FECHA = "25 de septiembre de 2026"
 
-# Tipo de cambio implícito en GlobalPetrolPrices del 21-09-2026
-# (Marruecos: 1,603 USD = 1,400 EUR). El franco CFA es fijo.
-USD_EUR = round(1.400 / 1.603, 4)          # 0,8734 € por dólar
+from precios_auto import auto as _precios_auto
+
+# Actualización semanal automática (content/precios/auto.json): gasóleo de
+# GlobalPetrolPrices y cambio del BCE. Sin ese archivo, valores del 21-09-2026.
+AUTO = _precios_auto()
+# Tipo de cambio: BCE si hay actualización; si no, el implícito en
+# GlobalPetrolPrices del 21-09-2026 (Marruecos: 1,603 USD = 1,400 EUR).
+USD_EUR = round(AUTO["usd_eur"], 4) if AUTO else round(1.400 / 1.603, 4)
+USD_EUR_FUENTE = (f"BCE, {AUTO['ecb_fecha']}" if AUTO else "implícito en GlobalPetrolPrices del 21-09-2026")
 XOF_EUR = 1 / 655.957
 
 VEHICULOS = [
@@ -39,7 +45,7 @@ DESVIOS_PCT = 5
 
 # ---------------------------------------------------------------- gasóleo
 GPP = "https://www.globalpetrolprices.com/diesel_prices/"
-GPP_FECHA = "21-09-2026"
+GPP_FECHA = AUTO.get("gpp_fecha", "21-09-2026") if AUTO else "21-09-2026"
 # slug: (€/litro, fuente, fecha, nota)
 GASOIL = {
     "marruecos": (1.400, GPP, GPP_FECHA, ""),
@@ -90,6 +96,13 @@ GASOIL = {
     "sudan": (round(0.656 * USD_EUR, 3), GPP, GPP_FECHA, ""),
     "rca": (round(2.186 * USD_EUR, 3), GPP, GPP_FECHA, ""),
 }
+# Los que vienen de GlobalPetrolPrices se sustituyen por el último dato semanal.
+if AUTO:
+    for _s, (_eur, _src, _fecha, _nota) in list(GASOIL.items()):
+        _usd = AUTO["gasoil_usd"].get(_s)
+        if _src == GPP and _usd:
+            GASOIL[_s] = (round(_usd * USD_EUR, 3), GPP, GPP_FECHA, _nota)
+
 # Países sin precio en GlobalPetrolPrices (Guinea Ecuatorial, Chad, Eritrea,
 # Yibuti, Somalia, Sudán del Sur, Guinea-Bisáu): se usa este valor y se avisa.
 GASOIL_SIN_DATO = 1.30

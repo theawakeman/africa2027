@@ -275,6 +275,13 @@ ORIGEN = "Barcelona"
 GASOIL_EUROPA = {  # €/l, GlobalPetrolPrices 21-09-2026 (USD × 0,8734)
     "es": 1.934, "fr": 2.383, "it": 2.343,
 }
+# Actualización semanal (content/precios/auto.json), si existe.
+from precios_auto import auto as _precios_auto
+_A = _precios_auto()
+if _A:
+    for _c in GASOIL_EUROPA:
+        if _A["gasoil_usd"].get("eu:" + _c):
+            GASOIL_EUROPA[_c] = round(_A["gasoil_usd"]["eu:" + _c] * _A["usd_eur"], 3)
 # Precio de cada vehículo en un sentido = coche + conductor + (personas − 1) ×
 # pasajero. «coche» es la tarifa de coche con conductor (aFerry: media del mes
 # de ida —enero— y del de vuelta —julio/agosto— de 2026, o el «desde» de la

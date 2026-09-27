@@ -13,6 +13,7 @@ import data_ruta as RT
 from data_visados import VISADOS as VIS_INFO
 from data_countries import REGIONES, REGION
 from recorridos import descripcion
+from precios_auto import aviso_fuente
 from site_common import esc, attr, page, callout, bullets
 
 JS_PATH = "presupuesto.js"
@@ -80,7 +81,8 @@ def datos(FULL, C):
             "n": nombre, "g": grupo, "seg": seg, "nota": nota, "opts": opts, "pos": pos,
             "plan": RT.PLAN.get(s, opts[0]["id"]), "tr": RT.TRANSITO_FIJO.get(s, ""), "via": RT.VIA.get(s, {}),
             "gas": ({"eur": g[0], "fuente": g[1], "fecha": g[2], "nota": g[3]} if g else None),
-            "vis": ("sin" if s in P.SIN_VISADO else ({"eur": vis[0], "txt": vis[1], "url": vis[2]} if vis else None)),
+            "vis": ("sin" if s in P.SIN_VISADO else ({"eur": vis[0], "txt": vis[1], "url": vis[2],
+                                                    **({"aviso": aviso_fuente(vis[2])} if aviso_fuente(vis[2]) else {})} if vis else None)),
             "tasa": ({"eur": tasa[0], "txt": tasa[1]} if tasa else None),
             "r": REGION.get("angola" if s == "cabinda" else s, ""),
             "ex": s in RT.EXCLUIDOS, "cf": s in RT.CONFLICTO, "nivel": nivel,
@@ -98,7 +100,7 @@ def datos(FULL, C):
         "ferries": [{"id": f[0], "pais": f[1], "origen": f[2], "puerto": f[3], "pos": [f[4], f[5]], "naviera": f[6],
                      "h": f[7], "frec": f[8], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "km_eu": f[12],
                      "gas": f[13], "nota": f[14], "fuente": f[15]} for f in RT.FERRIES],
-        "gas_sin_dato": P.GASOIL_SIN_DATO,
+        "gas_sin_dato": P.GASOIL_SIN_DATO, "gpp_fecha": P.GPP_FECHA,
         "grupos": [(r, l) for r, l, _ in REGIONES],
     }
     params = [{"id": a, "label": b, "val": c, "unidad": d, "ambito": e, "tipo": f, "nota": g}
@@ -222,6 +224,7 @@ CSS = """
 #bud-mapa{height:calc(100vh - 120px);min-height:420px;width:min(1400px,calc(100vw - 32px));margin:12px 0 12px calc(50% - min(700px,50vw - 16px));border-radius:12px;border:1px solid var(--line);background:var(--surface2)}
 .bud-avisos{margin:10px 0;padding-left:20px;font-size:14px}
 .bud-avisos li{margin:3px 0}
+.bud-aviso-fuente{color:var(--amber)!important;font-weight:600}
 .bud-num{display:inline-block;min-width:22px;height:22px;line-height:22px;border-radius:11px;background:var(--teal);color:#fff;text-align:center;font-family:"Archivo",sans-serif;font-size:11.5px;font-weight:700}
 .bud-mk{background:#1E7A8A;color:#fff;border:2px solid #fff;border-radius:50%;width:24px!important;height:24px!important;line-height:20px;text-align:center;font:700 11px Archivo,sans-serif;box-shadow:0 1px 3px rgba(0,0,0,.4)}
 @media (max-width:640px){.bud .hm{display:none}.bud td.mvs .mv{display:block;margin:0 0 4px}.bud #bud-itin input[type=number]{width:56px}.bud #bud-itin td{padding-left:5px;padding-right:5px}.bud input[type=number]{width:64px}.bud-bar{grid-template-columns:96px 1fr auto;font-size:12px}.bud-card .big{font-size:24px}#bud-mapa{height:72vh;min-height:360px}.bud select{max-width:100%}}
@@ -289,7 +292,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
 <tbody id="bud-comb"></tbody><tfoot><tr><td>Total</td><td class="n" id="bud-tf-km"></td><td></td>{td_tf}</tr></tfoot></table></div>
 <h3>Precio del gasóleo usado</h3>
 <div class="tblwrap"><table><thead><tr><th>País</th><th class="n">€/litro</th><th>Fecha</th><th>Fuente</th></tr></thead><tbody id="bud-precios"></tbody></table></div>
-<p class="figcap">GlobalPetrolPrices del 21-09-2026 convertido a euros; Mauritania, Gambia y Congo con el precio oficial nacional. Donde no hay precio publicado se usa {str(P.GASOIL_SIN_DATO).replace('.', ',')} €/l y se avisa. Revisar antes de salir.</p>
+<p class="figcap">GlobalPetrolPrices del {esc(P.GPP_FECHA)} convertido a euros ({esc(P.USD_EUR_FUENTE)}; se actualiza solo cada semana); Mauritania, Gambia y Congo con el precio oficial nacional. Donde no hay precio publicado se usa {str(P.GASOIL_SIN_DATO).replace('.', ',')} €/l y se avisa. Revisar antes de salir.</p>
 </section>
 <section id="visados"><h2>Visados (por persona)</h2>
 <p>Cada uno de los <span class="bud-npers">3</span> viajeros necesita su propio visado, y uno por <strong>cada entrada</strong> en el país (si se saca un visado de entradas múltiples, escribe 1 en «Visados» y su precio en «€ por visado»). Las entradas salen de la ruta elegida.</p>
@@ -330,7 +333,7 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     "Días = km ÷ ritmo (uno para los países de parada y otro para los de paso y la carretera en Europa) + horas de ferry + margen. Si se escribe una duración fija, se usa esa y la página dice qué ritmo haría falta.",
     "Ferris: el de ida es el recomendado para el primer país de la lista (Marruecos: GNV Barcelona–Tánger Med; Argelia: Valencia–Mostaganem; Túnez: Génova–Túnez); si ese país no tiene ferry, el del país con ferry más cercano, y desde allí se conduce. Igual con la vuelta y el último país.",
     "Los gastos compartidos no se reparten: cada vehículo paga su combustible, sus visados, su CPD, sus tasas, su ferry y la comida de quienes viajan en él. El perro va en el INEOS Grenadier.",
-    "Tipo de cambio: 1 USD = %s € (implícito en GlobalPetrolPrices del 21-09-2026). Franco CFA fijo: 655,957 por euro." % str(P.USD_EUR).replace(".", ","),
+    "Tipo de cambio: 1 USD = %s € (%s). Franco CFA fijo: 655,957 por euro. El gasóleo y el cambio se actualizan solos cada semana; si la página oficial de un visado cambia, su fila lo avisa hasta que se revisa." % (str(P.USD_EUR).replace(".", ","), P.USD_EUR_FUENTE),
     "No incluye: el viaje hasta Barcelona, la preparación de los vehículos, vacunas y seguro médico de viaje, ni una posible escapada en avión.",
     "Los valores que cambies se guardan solo en este navegador. La hoja de cálculo del proyecto sigue siendo la referencia: los botones de descarga sirven para pasar los números.",
 ])}

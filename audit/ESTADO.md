@@ -276,3 +276,18 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Enlaces entre recorridos: ruta por carretera de OSRM pedida desde el navegador y
   guardada en `a27-enlaces-v1`; sin conexión, línea recta ×1,25 discontinua. El service
   worker deja pasar esas peticiones sin tocarlas.
+
+## Precios automáticos (27-09-2026)
+
+- `.github/workflows/actualizar-precios.yml` (lunes 05:17 UTC y a mano desde Actions)
+  ejecuta `tools/actualizar_precios.py`, reconstruye y publica.
+- Gasóleo: página mundial de GlobalPetrolPrices (una petición; robots.txt lo permite).
+  Cambio USD→EUR del BCE (api.frankfurter.dev; XML del BCE de reserva). Resultado en
+  `content/precios/auto.json`; lo leen `data_presupuesto.py` y `data_ruta.py`.
+  Mauritania, Gambia y Congo siguen con su precio oficial a mano.
+- Visados: `content/precios/vigilancia.json` guarda la huella de las frases de precio
+  de cada fuente de `VISADOS`. Si cambia, el Planificador marca la fila hasta que se
+  revise y se ponga la fecha en «confirmado».
+- Revisión mensual con Claude (tarea programada, día 2 de cada mes): resuelve los
+  avisos de vigilancia, revisa los precios oficiales puestos a mano y deja el commit
+  listo en el Mac para publicar.
