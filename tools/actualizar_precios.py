@@ -62,8 +62,11 @@ def escribir(nombre, datos):
 # ------------------------------------------------------------------ gasóleo
 def gasoil_gpp(texto):
     """{'fecha': 'dd-mm-aaaa', 'usd': {pais_url: usd}} a partir del HTML de la página mundial."""
-    nombres = re.findall(r'<a href="/([^/"]+)/diesel_prices/" class="graph_outside_link">', texto)
-    valores = [float(v) for v in re.findall(r'background: #e2bb04;">\s*<div[^>]*>([\d.]+)</div>', texto)]
+    # Los nombres van en <a ... class="graph_outside_link" href="/Pais/diesel_prices/"> (el orden de
+    # los atributos y las comillas cambian según cómo se sirva la página).
+    enlaces = re.findall(r"<a\b[^>]*graph_outside_link[^>]*>", texto)
+    nombres = [m.group(1) for m in (re.search(r"href=[\"']/([^/\"']+)/diesel_prices/", e) for e in enlaces) if m]
+    valores = [float(v) for v in re.findall(r"background:\s*#e2bb04;?[\"'][^>]*>\s*<div[^>]*>\s*([\d.]+)\s*</div>", texto)]
     if len(nombres) < 100 or len(nombres) != len(valores):
         raise ValueError(f"formato inesperado: {len(nombres)} países y {len(valores)} precios")
     m = re.search(r"(\d{2})-(\w{3})-(\d{4})", texto)
