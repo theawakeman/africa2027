@@ -159,6 +159,16 @@ CSS = """
 .bud-chip.cf{border-color:#B43A3A}
 .bud-chip.ex{opacity:.45;cursor:not-allowed}
 .bud-chip small{font-size:10.5px;color:var(--ink-soft)}
+.bud-viajes{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:12px 14px;margin:6px 0 16px;font-family:"Archivo",sans-serif}
+.bv-row{display:grid;grid-template-columns:110px minmax(0,1fr) auto auto;gap:8px;align-items:center;margin:4px 0}
+.bv-row:nth-child(2){grid-template-columns:110px minmax(0,1fr) auto}
+.bv-l{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
+.bud-viajes select,.bud-viajes input[type=text]{width:100%;max-width:none;font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.bud-viajes button{font-family:"Archivo",sans-serif;font-weight:600;font-size:13px;padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap}
+.bud-viajes button.primary{background:var(--teal);border-color:var(--teal);color:#fff}
+.bv-pie{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--ink-soft);margin-top:6px}
+.bud-viajes .lnk{background:none;border:0;padding:0;color:var(--teal);text-decoration:underline;cursor:pointer;font-weight:600;font-size:13px}
+@media (max-width:640px){.bv-row,.bv-row:nth-child(2){grid-template-columns:1fr 1fr}.bv-l{grid-column:1/-1}.bv-row select,.bv-row input[type=text],.bv-row:nth-child(2) button{grid-column:1/-1}}
 .bud-mapkey{display:flex;flex-wrap:wrap;gap:14px;font-family:"Archivo",sans-serif;font-size:12.5px;color:var(--ink-soft);margin:6px 0 0}
 .bud-mapkey i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:6px;vertical-align:-2px}
 #bud-mapa .leaflet-interactive{cursor:pointer}
@@ -231,6 +241,11 @@ def render_presupuesto(FULL, C, navbar, VERSION):
     body = f"""{nav}{hero}
 <main class="bud" style="max-width:1200px">
 <section id="ruta"><h2>Ruta</h2>
+<div class="bud-viajes">
+<div class="bv-row"><label class="bv-l" for="viaje-sel">Mis viajes</label><select id="viaje-sel" aria-label="Viajes guardados"></select><button type="button" id="viaje-cargar">Cargar</button><button type="button" id="viaje-borrar">Borrar</button></div>
+<div class="bv-row"><label class="bv-l" for="viaje-nombre">Guardar como</label><input type="text" id="viaje-nombre" placeholder="Nombre del viaje (p. ej. Túnez – Tinduf)" maxlength="60" autocomplete="off" data-1p-ignore data-lpignore="true" data-form-type="other"><button type="button" class="primary" id="viaje-guardar">Guardar</button></div>
+<div class="bv-pie"><span id="viaje-actual"></span><span class="bv-arch"><button type="button" class="lnk" id="viaje-exportar">Descargar mis viajes</button> · <label class="lnk">Importar<input type="file" id="viaje-importar" accept=".json,application/json" hidden></label></span></div>
+</div>
 <div class="bud-grid" id="bud-ruta-cards"></div>
 <ul class="bud-avisos" id="bud-avisos"></ul>
 <p><strong>Toca un país en el mapa</strong> para añadirlo o quitarlo, o usa el desplegable. <strong>Arrastra</strong> los países de la lista (por el asa ⠿) para ponerlos en el orden que quieras: el viaje <strong>empieza en el primero y acaba en el último</strong>, y la página busca el ferry desde España a cada uno (o al puerto más cercano si no tienen). En cada fila elige <strong>Parar</strong> (el recorrido de su ficha) o <strong>Cruzar</strong> (lo más rápido posible). La ✕ quita el país; si es el único camino para seguir, se queda como «cruzar».</p>

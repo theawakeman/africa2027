@@ -509,6 +509,7 @@ function compute(){
     + `<tr><td><strong>Total</strong></td>${veh.map(v => `<td class="n"><strong>${eur(Rr[v.id].total)}</strong></td>`).join('')}<td class="n"><strong>${eur(total)}</strong></td></tr>`
     + `<tr class="bud-aval"><td>Aval del CPD inmovilizado <span class="nota">No es gasto y no suma al total: el banco lo bloquea y se recupera al devolver el carnet con todos los sellos.</span></td>${veh.map(v => `<td class="n">${eur(V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(aval)}</td></tr>`
     + `<tr class="bud-aval"><td>Dinero comprometido al salir <span class="nota">Total del viaje + avales.</span></td>${veh.map(v => `<td class="n">${eur(Rr[v.id].total + V(v.id+'.cpd_aval', v.cpd_aval))}</td>`).join('')}<td class="n">${eur(total + aval)}</td></tr>`;
+  setTimeout(estadoViaje, 0);
   window.__A27_BUDGET_RESULT = {R: Rr, total, kmTot, veh, dias, diasCalc, diasRuta, fijos, margen, salida, regreso: fecha(regreso),
     ruta: R, porPais, orden, combOut, visOut, tasOut, factor, desv, rv, rt, FE, euRows, kmEU, diasEU};
 }
@@ -526,6 +527,81 @@ function csv(){
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob(['﻿' + text], {type: 'text/csv;charset=utf-8'}));
   a.download = 'presupuesto-africa-2027.csv'; document.body.appendChild(a); a.click(); a.remove();
+}
+
+// ------------------------------------------------------------------ viajes guardados
+// Se guardan en este navegador (localStorage) y se pueden pasar a otro
+// dispositivo con «Descargar mis viajes» / «Importar».
+const VKEY = 'a27-viajes-v1', VCUR = 'a27-viaje-actual';
+const ORIGINAL = '__original__';
+function leerViajes(){ try { return JSON.parse(localStorage.getItem(VKEY) || '{}') || {}; } catch(e) { return {}; } }
+function escribirViajes(v){ try { localStorage.setItem(VKEY, JSON.stringify(v)); return true; } catch(e) { return false; } }
+function viajeActual(){ try { return localStorage.getItem(VCUR) || ''; } catch(e) { return ''; } }
+function marcarActual(n){ try { if (n) localStorage.setItem(VCUR, n); else localStorage.removeItem(VCUR); } catch(e) {} }
+function resumenViaje(r){ return r ? `${num(r.km)} km · ${num(r.dias)} días · ${eur(r.total)}` : ''; }
+function paintViajes(){
+  const sel = $('viaje-sel'); if (!sel) return;
+  const V = leerViajes(), cur = viajeActual();
+  const nombres = Object.keys(V).sort((a, b) => (V[b].fecha || '').localeCompare(V[a].fecha || ''));
+  sel.innerHTML = `<option value="${ORIGINAL}">Ruta planificada (valores iniciales)</option>`
+    + nombres.map(n => `<option value="${escH(n)}" ${n === cur ? 'selected' : ''}>${escH(n)} — ${resumenViaje(V[n].r)}</option>`).join('');
+  estadoViaje();
+}
+function estadoViaje(){
+  const el = $('viaje-actual'); if (!el) return;
+  const V = leerViajes(), cur = viajeActual();
+  if (!cur || !V[cur]) { el.textContent = Object.keys(S).length ? 'Configuración sin guardar.' : 'Ruta planificada, sin cambios.'; return; }
+  const igual = JSON.stringify(V[cur].S) === JSON.stringify(S);
+  el.innerHTML = `Viaje actual: <strong>${escH(cur)}</strong>${igual ? '' : ' · <em>con cambios sin guardar</em>'}`;
+  if (!$('viaje-nombre').value) $('viaje-nombre').value = cur;
+}
+function aplicarEstado(nuevo){
+  S = JSON.parse(JSON.stringify(nuevo || {})); save();
+  ['bud-itin','bud-comb','bud-visados','bud-tasas','ruta-add','bud-precios','bud-ferry-sel','bud-fer-ida','bud-fer-vuelta'].forEach(id => { if ($(id)) $(id).__h = null; });
+  paintStatic(); compute();
+}
+function guardarViaje(){
+  const n = ($('viaje-nombre').value || '').trim() || ('Viaje ' + new Date().toLocaleDateString('es-ES'));
+  const V = leerViajes(), existia = n in V, R = window.__A27_BUDGET_RESULT;
+  V[n] = {S: JSON.parse(JSON.stringify(S)), fecha: new Date().toISOString(), r: R ? {km: Math.round(R.kmTot), dias: R.dias, total: Math.round(R.total)} : null};
+  if (!escribirViajes(V)) { aviso('No se ha podido guardar: este navegador no deja guardar datos (¿modo privado?).'); return; }
+  marcarActual(n); $('viaje-nombre').value = n; paintViajes();
+  aviso(`${existia ? 'Actualizado' : 'Guardado'} el viaje <strong>${escH(n)}</strong>.`);
+}
+function cargarViaje(){
+  const n = $('viaje-sel').value;
+  if (n === ORIGINAL) { marcarActual(''); $('viaje-nombre').value = ''; aplicarEstado({}); paintViajes(); aviso('Cargada la ruta planificada con los valores iniciales.'); return; }
+  const V = leerViajes(); if (!V[n]) return;
+  marcarActual(n); $('viaje-nombre').value = n; aplicarEstado(V[n].S); paintViajes();
+  aviso(`Cargado el viaje <strong>${escH(n)}</strong>.`);
+}
+function borrarViaje(){
+  const n = $('viaje-sel').value, V = leerViajes();
+  if (n === ORIGINAL || !V[n]) { aviso('La ruta planificada no se puede borrar.'); return; }
+  const b = $('viaje-borrar');
+  if (b.dataset.confirmar !== n) { b.dataset.confirmar = n; b.textContent = '¿Borrar «' + n + '»? Toca otra vez'; setTimeout(() => { b.dataset.confirmar = ''; b.textContent = 'Borrar'; }, 5000); return; }
+  delete V[n]; escribirViajes(V); if (viajeActual() === n) marcarActual('');
+  b.dataset.confirmar = ''; b.textContent = 'Borrar'; paintViajes(); aviso(`Borrado el viaje <strong>${escH(n)}</strong>.`);
+}
+function exportarViajes(){
+  const V = leerViajes();
+  if (!Object.keys(V).length) { aviso('Todavía no hay viajes guardados.'); return; }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({tipo: 'africa2027-viajes', version: 1, viajes: V}, null, 1)], {type: 'application/json'}));
+  a.download = 'viajes-africa-2027.json'; document.body.appendChild(a); a.click(); a.remove();
+}
+function importarViajes(file){
+  const rd = new FileReader();
+  rd.onload = () => {
+    try {
+      const d = JSON.parse(rd.result), nuevos = d && d.viajes;
+      if (!nuevos || typeof nuevos !== 'object') throw new Error('formato');
+      const V = leerViajes(); let n = 0;
+      Object.entries(nuevos).forEach(([k, v]) => { if (v && v.S) { V[k] = v; n++; } });
+      escribirViajes(V); paintViajes(); aviso(`Importados ${n} viajes.`);
+    } catch(e) { aviso('Ese archivo no es una copia de viajes de esta app.'); }
+  };
+  rd.readAsText(file);
 }
 
 // ------------------------------------------------------------------ eventos
@@ -554,11 +630,17 @@ document.addEventListener('click', e => {
   if (j < 0 || j >= o.length) return;
   [o[i], o[j]] = [o[j], o[i]]; S['ruta.orden'] = o; S['ruta.sel'] = [...selSet()]; save(); compute();
 });
-paintStatic(); compute();
+paintStatic(); compute(); paintViajes();
+$('viaje-guardar').addEventListener('click', guardarViaje);
+$('viaje-cargar').addEventListener('click', cargarViaje);
+$('viaje-borrar').addEventListener('click', borrarViaje);
+$('viaje-exportar').addEventListener('click', exportarViajes);
+$('viaje-importar').addEventListener('change', e => { if (e.target.files[0]) importarViajes(e.target.files[0]); e.target.value = ''; });
+$('viaje-nombre').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); guardarViaje(); } });
 $('ruta-plan').addEventListener('click', () => { Object.keys(S).filter(k => k.startsWith('ruta.') && !RUTA_CFG.includes(k)).forEach(k => delete S[k]); save(); aviso('Vuelta a la ruta de la planificación.'); compute(); });
 $('ruta-opt').addEventListener('click', () => { const R = window.__A27_BUDGET_RESULT.ruta; S['ruta.orden'] = optimizar(R.o, R.DD); S['ruta.sel'] = [...R.sel]; save(); compute(); });
 $('ruta-none').addEventListener('click', () => { S['ruta.sel'] = []; S['ruta.orden'] = []; S['ruta.evitar'] = []; save(); aviso('Ruta vacía: toca países en el mapa o usa «Añadir un país».'); compute(); });
-$('bud-reset').addEventListener('click', () => { S = {}; save(); ['bud-itin','bud-comb','bud-visados','bud-tasas','ruta-add','bud-precios'].forEach(id => { $(id).__h = null; }); paintStatic(); compute(); });
+$('bud-reset').addEventListener('click', () => { marcarActual(''); S = {}; save(); ['bud-itin','bud-comb','bud-visados','bud-tasas','ruta-add','bud-precios'].forEach(id => { $(id).__h = null; }); paintStatic(); compute(); });
 $('bud-csv').addEventListener('click', csv);
 $('bud-xlsx').addEventListener('click', () => {
   if (typeof window.a27PresupuestoXlsx !== 'function') return;
