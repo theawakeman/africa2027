@@ -3,9 +3,9 @@
 Generado por `tools/gen/planificador_puntos.py` en cada reconstrucción. No se edita a mano:
 si algo está mal, se corrige en la ficha del país (tiempo, perro o punto de frontera).
 
-- Puntos de interés: 1049; tiempo leído directamente en 1038, con criterio en 11.
+- Puntos de interés: 1121; tiempo leído directamente en 1110, con criterio en 11.
 - Puestos fronterizos terrestres: 190; emparejados con seguridad 173, a revisar 26. Puertos y aeropuertos: 56 (no unen dos países por carretera).
-- Perro: si 68, condiciones 464, no 458, sin_dato 59.
+- Perro: si 82, condiciones 500, no 459, sin_dato 80.
 
 ## Tiempos leídos con criterio
 

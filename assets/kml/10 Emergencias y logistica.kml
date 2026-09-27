@@ -6,6 +6,7 @@
   <Style id="icon-consular"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1548-civic_4x.png&amp;highlight=ff000000,673AB7,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-frontera"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1538-car_4x.png&amp;highlight=ff000000,5F6B72,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-hospital"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1807-hospital-h_4x.png&amp;highlight=ff000000,B43A3A,ff000000&amp;scale=2.0</href></Icon></IconStyle></Style>
+  <Style id="icon-offroad"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png&amp;highlight=ff000000,D4A017&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Style id="icon-servicio"><IconStyle><Icon><href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png,icons/onion/SHARED-mymaps-container_4x.png&amp;highlight=ff000000,2B6CB0&amp;scale=2.0</href></Icon></IconStyle></Style>
   <Placemark>
     <name>Embajada de España en Dakar</name>
@@ -302,6 +303,132 @@
     <Point><coordinates>-12.4708,22.7388,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Chami – gasóleo y oficina del Parque del Banc d'Arguin</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Ciudad nueva en la N2 Nuadibú–Nuakchot, nacida en 2012 y convertida en centro de la fiebre del oro. Tiene gasolinera y una oficina del Parque Nacional del Banc d'Arguin donde se pagan las entradas. Es la base lógica para entrar al parque por el norte y la última gasolinera antes de muchos kilómetros de N2.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.1673,-15.9724">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.9724,20.1673,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Acceso norte del Parque Nacional del Banc d'Arguin (pista a Iwik)</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Entrada norte al Banc d'Arguin, Patrimonio Mundial, a pocos km al sur de Chami. Desde aquí una pista de arena lleva hacia la costa y los campamentos imraguen de Iwik. Es la forma más directa de meter los 4x4 en el parque, con la ventaja de tener gasóleo justo al lado.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.04231,-15.91961">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.91961,20.04231,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mamghar (Nouamghar) – acceso sur del Banc d'Arguin y playa con marea baja</name>
+    <description><![CDATA[<b>difícil · Paso técnico</b><br/>Pueblo pesquero sobre una duna costera, a la entrada del cabo Timiris, que hace de sede administrativa del parque y de su acceso sur. Es el punto donde la antigua pista de playa desde Nuakchot entraba en el Banc d'Arguin. Hoy se llega por asfalto, pero la playa al sur y al norte sigue siendo un tramo que solo se puede hacer con marea baja.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.35752,-16.50848">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.50848,19.35752,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Playa de Tiouilit – salida a la playa al norte de Nuakchot</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Playa de arena blanca a unos 25 km al norte de Nuakchot, con tiendas de pescadores que sirven té y comida y lugar gratuito para pernoctar. Es el acceso a la playa documentado más cercano a la capital y el primer tramo de la antigua pista costera hacia el Banc d'Arguin. Buen sitio para probar la conducción en arena de playa antes de alejarse.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.2525,-16.0371">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.0371,18.2525,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Erg Amatlich – entrada de la travesía de dunas</name>
+    <description><![CDATA[<b>difícil · Dunas</b><br/>Cordón de dunas de unos 130 km de largo y 5-8 km de ancho, encajado entre los relieves del Adrar, que va desde el paso de Tifoujar hasta cerca de Akjoujt. Cruzarlo en 4x4 es uno de los clásicos del Adrar y lo incluyen casi todos los circuitos 4x4 de agencia. En 2013 un convoy de tres vehículos lo pasó en una mañana sin atascos, con guía abriendo pista, aunque lo describió como nada fácil.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.71543,-13.70892">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.70892,19.71543,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Guelta de Amazmaz</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Poza natural de agua (guelta) en un valle rocoso entre el Amatlich y el paso de Tifoujar. Permite baño y es un buen lugar de bivac en la travesía. Su interés en 4x4 es que obliga a navegar: la pista no es fácil de encontrar y el último tramo es pedregoso.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=19.68735,-13.43275">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.43275,19.68735,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso de Tifoujar (bajada al Valle Blanco)</name>
+    <description><![CDATA[<b>media · Paso técnico</b><br/>Puerto en pista de arena a 278 m que domina una garganta que acaba en el Oued el Abiod o Valle Blanco; en su ladera oeste nace el erg Amatlich. Un viajero de 2013 lo describió como espléndido, con una gran bajada. Es el enlace natural entre la travesía del Amatlich y el oasis de Terjit.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.09967,-13.19672">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.19672,20.09967,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Oasis de Mhaïreth</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Uno de los principales oasis del Adrar, un palmeral entre rocas y dunas cerca de Terjit. Los circuitos 4x4 lo usan como etapa entre Terjit y Chinguetti, con una bajada hacia el oasis. Permite enlazar Terjit con la meseta sin volver a Atar.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.26389,-13.00556">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.00556,20.26389,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso de Amogjar y Fort Saganne</name>
+    <description><![CDATA[<b>media · Paso técnico</b><br/>Antigua subida a la meseta del Adrar por una garganta de arenisca, en la ruta histórica Atar–Chinguetti. Sobre el paso quedan las ruinas de adobe del decorado de la película Fort Saganne (1984) y, junto al pico Agrour Amogjar (690 m), abrigos con pinturas rupestres de pago. Hoy el tráfico va por el paso de Ebnou, más directo, así que Amogjar queda como alternativa en pista, más lenta y con más paisaje.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.6362,-12.72448">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.72448,20.6362,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Oasis de Tanouchert (pista sur Chinguetti–Ouadane)</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Pequeño oasis con pozo y unas pocas casas a mitad de la pista sur, la de arena, entre Chinguetti y Ouadane. Esta variante evita la tôle ondulée de la pista principal y atraviesa acacias y algunas dunas que en 2024 dieron «fuertes sensaciones» a una furgoneta Sprinter. Es la puerta de entrada al erg Ouarane para quien no va en caravana de agencia.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.74471,-11.73504">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.73504,20.74471,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ouadane – única gasolinera antes del Richat</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Ciudad caravanera Patrimonio Mundial en el extremo noreste de la meseta del Adrar. Su pequeña gasolinera es el único punto de gasóleo de la zona y condiciona cualquier salida hacia el Guelb er Richat o la vuelta por el erg.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.93373,-11.61737">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.61737,20.93373,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ben Amera – bivac al pie del monolito</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Monolito de 633 m sobre el llano, el mayor de África, a unos 60 km al oeste de Choum y 3-4 km al norte de la vía del tren minero. A 5-7 km está Aïcha, con esculturas talladas por artistas en 1999. No hay carretera: se llega por arena siguiendo la vía, y la acampada libre al pie del monolito está permitida.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.23003,-13.66437">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.66437,21.23003,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Choum – gasóleo y albergue en el cruce del tren</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Pueblo en el cruce de la carretera Atar–Zuérat con el tren minero, junto al famoso túnel de 2 km. Es el punto de partida hacia Ben Amera y el extremo este de la pista del ferrocarril. Aquí se puede subir el coche al tren del desierto.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.3,-13.06667">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-13.06667,21.3,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Desvío a Diama en Bavreichiya – inicio de la pista del Diawling</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Punto donde se deja la carretera de Rosso para tomar la pista hacia el paso fronterizo de Diama, alternativa tranquila al caótico ferry de Rosso. La pista cruza el Parque Nacional del Diawling, con humedales, aves, facoceros y cocodrilos. Para dos 4x4 con perro es el paso a Senegal más recomendable.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.79007,-16.09879">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.09879,16.79007,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dique del Diawling – pista de la presa hacia Diama</name>
+    <description><![CDATA[<b>media · Paso técnico</b><br/>Zona de entrada al Parque del Diawling, donde un viajero bivaqueó para cruzarlo a primera hora. Desde aquí la pista sigue la presa: hay dos trazados paralelos, uno arriba del dique y otro abajo, a su lado. Es el tramo más lento del día, con baches enormes y tôle que rara vez permiten pasar de 20 km/h.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=16.60589,-16.24133">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.24133,16.60589,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pista del oued Matmata a la guelta Tartêga</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Acceso a las gueltas de cocodrilos del Tagant. Extrem-Sud (2008) da el aparcamiento de la pista 4x4 del jebel sobre la guelta Tartêga, que sale del cauce del oued Matmata. ChingiTours describe unos 20 km de arena profunda desde el desvío. Un grupo en Sprinter llegó en noviembre de 2024 por la pista de arena desde N'Beika.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=17.88417,-12.0975">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.0975,17.88417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hassi et Tâloghza – oasis abandonado del Tagant norte</name>
+    <description><![CDATA[<b>muy difícil · Oasis o bivac</b><br/>Oasis abandonado (hassi = pozo) en la zona arenosa entre el Adrar y el Tagant. Es el único lugar del sitio con coordenada GPS publicada. Su autor lo usa como imagen de portada y como paso de la Trace Nomade: ruinas, agua a poca profundidad y total aislamiento. Un foro de viajeros lo tuvo como objetivo de un viaje en 4x4 en enero de 2020.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=18.90303,-12.33935">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-12.33935,18.90303,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Laguna de Bellaat (península de Tintan) – paso con marea baja</name>
+    <description><![CDATA[<b>muy difícil · Paso técnico</b><br/>En 2013 el mar abrió una brecha en el cordón de dunas de la península de Tintan, frente a Nuadibú, e inundó las depresiones de detrás. Así se formó una laguna de unos 10 × 6 km que hoy es una gran zona de cría de peces, con tortugas verdes y aves. mauritanie-au-gps.fr la describe como una laguna donde el océano entra varios km entre las dunas y cuenta que el 4x4 solo pasa con marea baja donde la duna toca el mar. En la misma península están las pesqueras neolíticas de piedra de Tintan, estudiadas por R. Vernet.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/mauritania/#ox-18">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=20.67978,-16.67709">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.67709,20.67978,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Frontera · Entrada — Puerto de Tánger Med (ferry Tarifa/Algeciras)</name>
     <description><![CDATA[<b>Frontera</b><br/>Entrada con vehículo y perro en el mismo ferry; control de pasaporte, ficha de importación temporal (TVIP) y, si procede, TIR/CPD de la Delica en el mismo trámite. Reservar plaza de vehículo con antelación en temporada alta. Punto en la terminal de pasajeros (Port Passagers Tanger Med), no en las terminales de contenedores.<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=35.87794,-5.51435">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
@@ -391,6 +518,125 @@
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-11.78283,28.205,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Erg Chebbi (acceso por Hassi Labied)</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>Es el gran erg de Marruecos: unos 28 km de norte a sur, 5-7 km de ancho y dunas de hasta 150 m sobre la hamada. Hassi Labied es el pueblo del borde occidental, junto a Merzouga, donde empieza y acaba la vuelta al Erg Chebbi, que alterna tramos compactos y arena blanda.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.13444,-4.02611">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-4.02611,31.13444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>M'Fis – cara sureste del Erg Chebbi</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>M'Fis es un antiguo pueblo minero abandonado al sureste del Erg Chebbi. Es la parte más aislada de la vuelta al erg. La variante estándar de la vuelta pasa por aquí y la fácil lo evita. Desde aquí se ve la cara oriental de las dunas, con mucho menos tráfico que en Merzouga.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=31.04143,-3.95066">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-3.95066,31.04143,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Taouz – inicio de la pista Merzouga–Zagora</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Taouz es el pueblo al sur de Merzouga donde se acaba el asfalto y empieza la pista clásica hacia Ramlia, Tafraoute Sidi Ali y el valle del Draa. La travesía cruza lechos de oued, llanuras de arcilla, tramos de arena y pistas pedregosas, con controles militares amables en el camino. Es una de las travesías de desierto más conocidas de Marruecos que se pueden hacer sin permisos especiales.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.90722,-3.99583">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-3.99583,30.90722,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ramlia – paso de fech-fech</name>
+    <description><![CDATA[<b>difícil · Paso técnico</b><br/>Ramlia es un pequeño oasis en la pista Taouz–Tafraoute Sidi Ali. Cerca está el tramo más delicado de la travesía: varios kilómetros de fech-fech (polvo muy fino) donde es fácil quedarse clavado. En los foros aconsejan no entrar a Ramlia por el este, porque la arena entre las palmeras es profunda y blanda. Existe una variante por el paso de M'Harech que evita parte de este tramo.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.68528,-4.41583">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-4.41583,30.68528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tafraoute Sidi Ali</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Pueblo-oasis a mitad de la pista Merzouga–Zagora, rodeado de gara y dunas pequeñas (la duna Zereg está a unos 4 km al este). Los viajeros lo recomiendan como parada para comer y tiene cobertura de internet. A unos 15 km al noreste hay un albergue-camping en Foum Mharech.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.67351,-4.68907">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-4.68907,30.67351,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lago Maider (Daya el Maïder)</name>
+    <description><![CDATA[<b>media · Paso técnico</b><br/>Es una depresión inundable y temporal (daya) del Maïder, al oeste de Tafraoute Sidi Ali. La llanura de inundación del Maïder forma parte de la travesía Merzouga–Zagora. Es un paisaje muy abierto, con relieves de gara alrededor.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.73778,-4.79056">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-4.79056,30.73778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tagounite – fin de la pista desde Merzouga</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Es el pueblo del valle del Draa donde termina la pista que viene de Taouz y vuelve el asfalto (N9). Sirve para repostar y reponer agua después de la travesía, o antes de seguir hacia M'Hamid y el Erg Chigaga.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.97,-5.58">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-5.58,29.97,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>M'Hamid El Ghizlane – último gasóleo antes del Chigaga</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Es el final de la carretera N9 y la base de las salidas en camello y en 4x4 hacia el Erg Chigaga. Su gasolinera es el último punto de repostaje antes de la travesía por el Chigaga y el lago Iriki. Aquí se pueden contratar guías: el campamento La Boussole, por ejemplo, organiza la salida con guía.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.82793,-5.72844">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-5.72844,29.82793,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Erg Chigaga</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>Es el segundo gran erg de Marruecos, con dunas de más de 50 m y mucho menos visitado que el Erg Chebbi. Queda entre el Jbel Bani al norte y el lago Iriki al oeste. Se llega solo en 4x4 o en camello, y hay campamentos en su borde. Es la etapa central de la travesía M'Hamid–Foum Zguid.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.8278,-6.25">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-6.25,29.8278,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lago Iriki (Parque Nacional de Iriqui)</name>
+    <description><![CDATA[<b>media · Paso técnico</b><br/>Es un lago seco de unos 65 x 15 km dentro del Parque Nacional de Iriqui (creado en 1994, 1230 km²). Normalmente está seco, pero en septiembre de 2024 se inundó por primera vez en 20 años. Cruzarlo es una de las experiencias más impactantes de la travesía: una llanura inmensa, espejismos y ninguna referencia.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.84165,-6.51725">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-6.51725,29.84165,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Foum Zguid – salida de la travesía Iriki–Chigaga</name>
+    <description><![CDATA[<b>fácil · Pista 4x4</b><br/>Es el pueblo de la provincia de Tata en el extremo occidental de la travesía. De aquí salen las pistas hacia el lago Iriki y el Erg Chigaga. Hay agencias y campamentos locales que ofrecen guía para la travesía.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.08778,-6.87111">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-6.87111,30.08778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Oasis de Fint</name>
+    <description><![CDATA[<b>fácil · Oasis o bivac</b><br/>Es un oasis escondido entre relieves minerales a 15-17 km de Ouarzazate. Hace falta medio día para pasear sin prisa. No es una gran pista, pero sí una salida corta en 4x4 desde la zona de Ouarzazate y Aït Benhaddou. El verdor depende mucho de las lluvias del año.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.81861,-6.96472">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-6.96472,30.81861,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Souk Tleta Tasserirt – bifurcación Aït Mansour / Tizerkine</name>
+    <description><![CDATA[<b>fácil · Pista 4x4</b><br/>Es el cruce, a unos 8 km de Tafraout, donde empiezan las dos bajadas hacia el sur: por la derecha las gargantas de Aït Mansour (con palmeral) y por la izquierda la garganta de Tizerkine. Las dos se juntan en Afella Ighir y forman un bucle de unos 50 km, en gran parte por pista, entre pueblos del Anti-Atlas.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.60611,-8.91667">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.91667,29.60611,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Bou Jerif</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Es un hotel-camping aislado junto a las ruinas de un fuerte de la época colonial, en el valle del oued Noun. Es la base clásica para bajar a la Plage Blanche por pista. Las reseñas de 2025 lo describen como un sitio tranquilo, aunque con precios altos en el restaurante.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.0822,-10.3313">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-10.3313,29.0822,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Plage Blanche – bajada junto al fuerte de Aoreora</name>
+    <description><![CDATA[<b>difícil · Paso técnico</b><br/>Es una playa virgen de unos 25-30 km en la costa de Guelmim, entre Aoreora y la desembocadura del Draa. Se puede recorrer en 4x4 por la arena, siempre con la marea bajando. Es de los tramos de pista más exigentes de la costa marroquí y se ha usado como salida del Morocco Desert Challenge.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=28.84028,-10.84306">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-10.84306,28.84028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Desembocadura del Oued Draa (Foum Oued Drâa)</name>
+    <description><![CDATA[<b>difícil · Paso técnico</b><br/>Es la desembocadura del río más largo de Marruecos, al sur del cabo Draa. El paso del oued es una de las claves de la pista costera Plage Blanche–Tafnidilt, con aproximaciones rocosas y bajadas técnicas. Es un tramo muy salvaje, entre acantilados y arena.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=28.66,-11.11">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-11.11,28.66,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ksar Tafnidilt</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Es un hotel-campamento de estilo ksar levantado 'en medio de la nada' al norte de Tan-Tan. Es la base sur de la pista hacia la desembocadura del Draa, el cabo Draa y la Plage Blanche. Desde aquí sale una travesía de unos 150 km (unas 7 h) hasta Fort Bou Jerif.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/marruecos/#ox-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=28.54194,-10.99083">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-10.99083,28.54194,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Entrada (bajada) · Tarfaya → Tah: sin frontera internacional</name>
@@ -496,6 +742,34 @@
     <styleUrl>#icon-agua</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Agua de servicio</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>-15.9075,23.76417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Duna Blanca de Dajla (acceso por las llanuras de marea)</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>Gran duna de arena muy clara que cae directamente sobre la laguna de Dajla, en la orilla continental, frente a la isla Herné. Con la marea alta el agua casi rodea su base y con la baja aparecen bajíos turquesa. Es la excursión 4x4 clásica de Dajla: se llega por pistas sin señalizar a través de sebjas y llanuras mareales, lo que la convierte en una buena primera toma de contacto con la arena y la lectura de mareas antes de Mauritania.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#ox-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.822,-15.7448">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.7448,23.822,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pozas de la Sebja de Imlili (tramo final de pista)</name>
+    <description><![CDATA[<b>fácil · Oasis o bivac</b><br/>Sebja (salar) con decenas de pozas naturales de agua salobre en pleno desierto, habitadas por pequeños peces. Es uno de los pocos lugares del sur del territorio documentados para salir del asfalto con un destino claro. El último tramo es una pista rota, pedregosa y ondulada que termina en arena, útil para probar suspensión y presiones sin alejarse de la N1.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#ox-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.27956,-15.91336">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-15.91336,23.27956,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bir Gandouz – último gasóleo antes de Guerguerat</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Pueblo de paso en la N1 a 79 km de Guerguerat, con una estación Petrom a la entrada y una Shell junto al Hotel Barbas. Es la última parada lógica para repostar, comer y comprar agua antes de la frontera. Para dos 4x4 que luego harán pistas en Mauritania, salir de aquí con todo lleno es la mejor garantía de autonomía.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#ox-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=22.05474,-16.75">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.75,22.05474,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tierra de nadie de Guerguerat (tramo sin asfaltar entre puestos)</name>
+    <description><![CDATA[<b>fácil · Paso técnico</b><br/>Franja entre el puesto marroquí de Guerguerat y el mauritano, donde el asfalto termina de golpe y se pasa a una pista rota con montículos de arena, chatarra y basura, atravesando el Berm. No es técnica, pero es el único tramo sin asfaltar obligatorio del paso y el primer contacto con el desierto de verdad. Hay un acuerdo Marruecos-Mauritania (septiembre de 2026) para rehabilitar la carretera por este paso, sin fecha de obra.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/sahara-occidental/#ox-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=21.38,-16.953">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-16.953,21.38,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Frontera · Entrada bajada — Sambaïlo / Koundara (desde Kalifourou, Senegal)</name>
@@ -3900,6 +4174,118 @@
     <Point><coordinates>7.585,33.735,0</coordinates></Point>
   </Placemark>
   <Placemark>
+    <name>Douz: último repostaje antes del Gran Erg Oriental</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Douz es la llamada puerta del Sáhara tunecino y el punto de partida de las pistas hacia el Gran Erg Oriental. Las gasolineras fiables del sur están en Tozeur, Douz, Tataouine, Medenine y Gabès; entre ellas escasean. Aquí también está la oficina de la Garde Nationale/Garde Touristique donde los guías registran la ruta antes de entrar al desierto.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.45722,9.025">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.025,33.45722,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Arranque de la pista Douz–Jebil (salida sur de Douz)</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Es la entrada sur hacia el Parque Nacional de Jebil saliendo directamente de Douz. Según un viajero que la comparó en 2021, es más arenosa y exigente que el acceso norte. Es el comienzo del corredor Douz–Jebil–Ksar Ghilane/Tembaine, que según viajeros de 2024 se puede hacer sin guía obligatorio si se tiene experiencia y equipo.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.3984,9.0088">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.0088,33.3984,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Acceso norte a Jebil (desvío de la carretera Douz–Matmata)</name>
+    <description><![CDATA[<b>fácil · Pista 4x4</b><br/>Es la alternativa más firme para entrar al parque de Jebil: parte de la carretera al este de Douz y la usan camiones pesados, así que el firme está más compactado. Un viajero de 2021 la consideró practicable incluso para un turismo, frente a la entrada sur. Es un buen acceso de ida o de vuelta para cerrar un bucle por el erg.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.455,9.279">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.279,33.455,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque Nacional de Jebil</name>
+    <description><![CDATA[<b>difícil · Dunas</b><br/>Es el segundo parque nacional de Túnez (unas 150.000 ha) y está dentro del Gran Erg Oriental: dunas altas, afloramientos rocosos y restos prehistóricos. Es la primera gran zona de dunas accesible desde Douz y la puerta de Tembaine y de la travesía hacia Ksar Ghilane. Según viajeros de 2024, el corredor Douz–Jebil–Ksar Ghilane/Tembaine no exige guía obligatorio.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.93411,9.11392">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.11392,32.93411,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tembaine: monte-isla y campamentos del erg</name>
+    <description><![CDATA[<b>difícil · Oasis o bivac</b><br/>Tembaine es un monte rocoso (239 m) que sobresale entre las dunas, al sur de Jebil, con varios campamentos a sus pies y un café. Es el clásico destino de 4x4 desde Douz y la base para ir hacia Houidhat Erreched. Según viajeros de 2024, el trayecto Douz–Jebil–Tembaine se puede hacer sin guía obligatorio con experiencia y equipo.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.86316,9.10582">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.10582,32.86316,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Houidhat Erreched (lago termal del erg) y Aïn Ouadette</name>
+    <description><![CDATA[<b>muy difícil · Oasis o bivac</b><br/>Es un lago de agua caliente en pleno Gran Erg, unos 30 km al sur de Tembaine, con un café muy cerca. Es la meta clásica de los circuitos de varios días que salen de Douz o de Tozeur. Según viajeros de 2024, para Aïn Ouadette o Sif Essouane hacen falta guía y autorización de la oficina oficial (Garde Touristique).<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.59164,9.10671">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.10671,32.59164,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Campement Zmela</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Es un campamento con jaimas, bungalós y parcelas de acampada entre las dunas, unos 15 km al sur de Ksar Ghilane. Un operador lo sitúa a unos 20 km de pista desde Ksar Ghilane y lo usa como etapa entre Ksar Ghilane y Tembaine. Es una buena base para dormir dentro del erg con los propios vehículos.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.8588,9.56937">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.56937,32.8588,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ksar Ghilane: oasis y fuente termal</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Es un oasis en el borde oriental del Gran Erg, con una fuente termal (unos 32 °C) donde se puede bañar, campamentos y un puesto de la Garde Nationale. Es el cruce natural de las pistas desde Douz (por el oleoducto o por las dunas), desde Tataouine/Chenini y hacia Zmela. Según viajeros de 2024, el corredor Douz–Jebil–Ksar Ghilane puede hacerse sin guía obligatorio.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.98863,9.64017">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.64017,32.98863,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fuerte romano de Tisavar y dunas de Ksar Ghilane</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>Es un castellum romano del limes tripolitanus (época de Cómodo) rodeado de dunas, a unos 3 km al noroeste de la fuente. Es el paseo corto en arena clásico de Ksar Ghilane, sirve para practicar la conducción en dunas y es un buen punto de puesta de sol.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.00864,9.61621">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.61621,33.00864,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Bir Soltane: cruce de la pista del oleoducto</name>
+    <description><![CDATA[<b>fácil · Pista 4x4</b><br/>Es el pozo y café que marca la antigua pista del oleoducto (hoy asfaltada) entre la carretera Douz–Matmata y Ksar Ghilane, unos 35 km al norte del oasis. Es la vía fácil al erg y el punto donde los locales informan del estado de las pistas hacia Ksar Ghilane y Tataouine.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.29368,9.73369">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.73369,33.29368,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chenini: inicio de la pista del Dahar hacia Ksar Ghilane</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Chenini es un ksar bereber colgado en un circo montañoso a media hora de Tataouine. Detrás del pueblo arranca la pista que cruza la meseta del Dahar hacia el oeste hasta Ksar Ghilane: primero piedra y chapa ondulada, y después las primeras dunas. Es la conexión offroad entre la zona de los ksour y el erg.<br/><b>Perro:</b> sí<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.91028,10.26222">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.26222,32.91028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Remada y la pista hacia El Borma (zona militar)</name>
+    <description><![CDATA[<b>difícil · Pista 4x4</b><br/>Remada es una ciudad-guarnición con base militar en el extremo sur. Más allá empiezan las pistas del desierto hacia Borj Bourguiba y El Borma (zona petrolera) que usaban los raids antiguos. Se incluye solo para advertir: no forma parte de la ruta recomendada.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=32.30611,10.38222">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>10.38222,32.30611,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chott el Jerid fuera de la carretera (sebja)</name>
+    <description><![CDATA[<b>muy difícil · Paso técnico</b><br/>Es un inmenso lago salado (unos 7.000 km²) que se cruza cómodamente por la carretera elevada entre Kebili y Tozeur. Atravesarlo por pista, como hacían los raids antiguos, es muy arriesgado: la costra de sal no siempre es firme y debajo hay barro. En 2003 un grupo en 4x4 tardó seis horas en rescatar sus vehículos atascados.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.7,8.43">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.43,33.7,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mos Espa (decorado de Star Wars) y dunas de Ong Jmel</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>Es el decorado de la ciudad de Mos Espa (Star Wars), que las dunas van cubriendo: avanzan unos 15 m al año; la campaña #SaveMosEspa lo salvó del enterramiento. Está junto al Chott el Gharsa, con dunas alrededor, y es acceso libre. Es una salida clásica en 4x4 desde Tozeur o Nefta.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.9943,7.8428">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>7.8428,33.9943,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ong Jmel (Cuello de Camello) y borde del Chott el Gharsa</name>
+    <description><![CDATA[<b>fácil · Pista 4x4</b><br/>Es una formación rocosa con forma de cuello de camello sobre el Chott el Gharsa, el punto más bajo de Túnez, y lugar de rodaje de varias películas. Desde Mos Espa se llega en unos 15 minutos (unos 8 km) por una pista de arena compactada. Tiene buenas vistas del chott y de los espejismos.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=34.016,7.9124">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>7.9124,34.016,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Oasis de montaña: Chebika, Tamerza y el cañón de Midès</name>
+    <description><![CDATA[<b>media · Paso técnico</b><br/>Son tres oasis de montaña (Chebika, Tamerza y Midès) con cañones, cascadas y pueblos antiguos abandonados, escenarios de El paciente inglés y En busca del arca perdida. Las excursiones en 4x4 desde Tozeur combinan asfalto con tramos de pista: un pequeño chott, arena, uadi, estepa y una subida con vistas al Chott el Gharsa. Coordenada: Chebika.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/tunez/#ox-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=34.317,7.933">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>7.933,34.317,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
     <name>Aeropuerto Internacional Modibo Keita – Bamako-Sénou (BKO)</name>
     <description><![CDATA[<b>Frontera</b><br/>15 km al sur de Bamako. Air France, Corsair, RAM, Turkish, Tunisair, Ethiopian. Atacado por el JNIM el 17-09-2024 y el 25-04-2026. Pin comprobado en Google Maps («Aeropuerto Internacional de Bamako-Sénou»).<br/><a href="https://theawakeman.github.io/africa2027/paises/mali/#logistica">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=12.54139,-7.94621">Google Maps</a>]]></description>
     <styleUrl>#icon-frontera</styleUrl>
@@ -4157,6 +4543,125 @@
     <styleUrl>#icon-frontera</styleUrl>
     <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">Frontera</SimpleData></SchemaData></ExtendedData>
     <Point><coordinates>7.56,33.73,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dunas del Gran Erg Oriental en El Oued (Souf)</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>El Oued, la «ciudad de las mil cúpulas», está en el borde norte del Gran Erg Oriental, el segundo mar de arena de Argelia. Las dunas rodean la ciudad y las agencias locales montan salidas en 4x4, vivac y sandboard. Es el primer contacto con arena de verdad si se entra desde Túnez por el sur. Al norte y noroeste del erg dominan los cordones longitudinales (seif), más fáciles de seguir que las dunas estrella del sur.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-1">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=33.35583,6.86306">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>6.86306,33.35583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dunas de Taghit (Gran Erg Occidental)</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>Taghit se asienta en la orilla izquierda del oued Zousfana, con las dunas del Gran Erg Occidental alzándose justo al otro lado del cauce. Es uno de los sitios más fotogénicos del Sáhara argelino y las excursiones locales suben en pick-up a las dunas. Al sur, en Zaouia Tahtania, hay grabados rupestres neolíticos (jirafas, antílopes). Buena primera toma de contacto con arena blanda.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-2">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.92,-2.02972">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-2.02972,30.92,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Dunas de Béni Abbès (Saoura)</name>
+    <description><![CDATA[<b>media · Dunas</b><br/>Béni Abbès, el «oasis blanco» del valle de la Saoura, está pegado a las dunas del Gran Erg Occidental. Desde aquí se exploran las dunas, el palmeral, los grabados de Marhouma y el ksar de Mazzer. Las agencias combinan 4x4, sandboard y paseos en camello. El punto marca el pueblo; la arena empieza en sus afueras.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-3">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=30.13306,-2.16611">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-2.16611,30.13306,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sebja de Timimoun</name>
+    <description><![CDATA[<b>media · Paso técnico</b><br/>Gran depresión salina al oeste y suroeste de Timimoun, bordeada por un escarpe con ksour de adobe rojo (Tala, Kali, Ouled Saïd, Ighzer) y regada por foggaras. El «circuito de la sebja» es la excursión clásica en 4x4 del Gourara. Es un paisaje único, pero la sebja misma es terreno engañoso.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-4">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=29.04806,0.06639">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.06639,29.04806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>In Salah – repostaje antes del Tademait y de Arak</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Última ciudad grande de la Transahariana (N1) antes de la meseta del Tademait y de las gargantas de Arak. Aquí empieza en 2025 una escolta obligatoria de gendarmería de dos coches hasta In Amguel. Es el punto lógico para llenar gasóleo, agua y víveres antes del tramo largo hacia el Hoggar.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-5">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.19667,2.47889">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>2.47889,27.19667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gargantas de Arak (Immidir)</name>
+    <description><![CDATA[<b>fácil · Paso técnico</b><br/>Cañón espectacular de la N1 al atravesar los macizos del Immidir, a medio camino entre In Salah y Tamanrasset. Es un paso histórico de la Transahariana y marca la entrada al Sáhara central. Hoy la carretera está asfaltada pero muy deteriorada, con desvíos por tierra.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-6">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=25.28944,3.75694">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>3.75694,25.28944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tamanrasset – repostaje y base del Hoggar</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Capital del Hoggar y base obligada para el Assekrem y el bucle del Hoggar. En la práctica hay que moverse con una agencia local y guía. Es el último repostaje fiable (con reservas) antes de las pistas del macizo.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-7">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=22.785,5.52278">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>5.52278,22.785,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Paso del Assekrem (ermita de Foucauld)</name>
+    <description><![CDATA[<b>difícil · Paso técnico</b><br/>Collado a unos 2.700 m en el macizo del Atakor con la ermita de Charles de Foucauld (1910-1911) y vistas a los picos volcánicos del Hoggar. Es la pista de montaña más famosa de Argelia. Hay tres accesos: la pista este «normal» de 85 km por el pico Iharen, una oeste más dura y algo más corta (mejor de bajada) y otra norte desde Hirafok. Refugio con dormitorios sencillos en el collado.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-8">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.26944,5.635">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>5.635,23.26944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ideles – oasis y repostaje del Hoggar</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Oasis del norte del Hoggar en el cruce de la N55 (Djanet–Tamanrasset) con el bucle del Hoggar. Tiene combustible y una rotonda que sirve de referencia. Desde aquí se va al sur por el «Hoggar Ring Road» (Col Azrou–Tahifet, unos 190 km hasta Tamanrasset) o al oeste por In Amguel (unos 140 km).<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-9">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.82361,5.93306">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>5.93306,23.82361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Serouenout – fin del asfalto de la N55</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Control de gendarmería y antiguo puesto en la N55, a unos 270 km de Djanet. Unos 8 km al oeste se acababa el asfalto en 2025 y empezaban tramos de pista (24 km), asfalto (20 km) y otra vez pista (unos 70 km). Es la puerta de la travesía Tassili–Hoggar.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-10">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=24.3,7.46889">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>7.46889,24.3,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Erg Admer</name>
+    <description><![CDATA[<b>difícil · Dunas</b><br/>Erg de dunas doradas al sur y suroeste de Djanet, al pie del Tassili n'Ajjer. Las agencias lo usan para puestas de sol y vivacs (duna de Edehi), y es la variante de pista de la N55 hacia el Hoggar. En invierno de 2026 una pareja suiza llegó a Djanet cruzándolo sin escolta formal, pero es la excepción.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-11">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=24.22222,9.24222">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.24222,24.22222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Djanet – repostaje y base del Tassili</name>
+    <description><![CDATA[<b>fácil · Repostaje</b><br/>Oasis y capital de wilaya al pie del Tassili n'Ajjer: base de todos los circuitos del norte (Essendilène, Iherir) y del sur (Tadrart Rouge). Las salidas se hacen con agencia local, guía tuareg y a menudo con vehículos de la agencia. Está a unos 74 km en línea recta del paso fronterizo libio de Tin Alkoum.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-12">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=24.55528,9.485">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>9.485,24.55528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cañón y guelta de Essendilène</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Wadi encajado a unos 1.100 m, afluente del Tafassasset, con una guelta (poza natural) al fondo del cañón, adelfas y grabados rupestres. Es la excursión estrella del «circuito norte» de Djanet y suele combinarse con el erg Admer, Tikoubaouine, Dider e Iherir. En 4x4 se llega a la entrada, junto a un campamento tuareg.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-13">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=25.06,8.92">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.92,25.06,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Oasis de Iherir (Tassili n'Ajjer)</name>
+    <description><![CDATA[<b>media · Oasis o bivac</b><br/>Valle con palmeral y agua permanente en el corazón del Tassili n'Ajjer, con el pueblo de Idharen y abundante arte rupestre. Se suele llegar tras cruzar la meseta de Dider (grabado de la gacela de Tin Taghirt). Es de los pocos oasis remotos del Tassili al que se llega en 4x4.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-14">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=25.40778,8.40667">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>8.40667,25.40778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tadrart Rouge – dunas de Tin Merzouga y Moul Naga</name>
+    <description><![CDATA[<b>muy difícil · Dunas</b><br/>Prolongación argelina de la Tadrart Acacus libia: una franja de 15-30 km de ancho y unos 150 km de largo con dunas rojas y anaranjadas (Tin Merzouga, Moul Naga, Wan Zaouaten), arcos de roca y el cañón de In Djerane con grabados rupestres. Es probablemente el paisaje de dunas más espectacular del Sáhara argelino. Solo se visita con agencia autorizada de Djanet.<br/><b>Perro:</b> sin dato<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-15">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=23.85444,11.15694">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>11.15694,23.85444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Hassi 75 – pista de Tinduf a la frontera mauritana</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Puesto fronterizo argelino a 75 km de Tinduf, única salida por tierra de Argelia hacia Mauritania abierta a viajeros. El tramo desde Tinduf se hace por pista con escolta militar obligatoria. Al otro lado empiezan los 860 km de pistas trenzadas hasta Zuérat.<br/><b>Perro:</b> con condiciones<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-16">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=27.176,-8.4331">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>-8.4331,27.176,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Reggane – inicio de la pista del Tanezrouft</name>
+    <description><![CDATA[<b>media · Pista 4x4</b><br/>Último pueblo antes de la mítica travesía del Tanezrouft, el «desierto de la sed», hacia Bordj Badji Mokhtar y Malí. Hoy está asfaltada hasta la frontera, pero cerrada a turistas por el conflicto del norte de Malí. Se incluye solo como referencia: no es un destino recomendable.<br/><b>Perro:</b> no<br/><a href="https://theawakeman.github.io/africa2027/paises/argelia/#ox-17">Ver ficha completa</a> · <a href="https://www.google.com/maps?q=26.72028,0.17278">Google Maps</a>]]></description>
+    <styleUrl>#icon-offroad</styleUrl>
+    <ExtendedData><SchemaData schemaUrl="#a27schema"><SimpleData name="categoria">4x4 y offroad</SimpleData></SchemaData></ExtendedData>
+    <Point><coordinates>0.17278,26.72028,0</coordinates></Point>
   </Placemark>
   <Placemark>
     <name>Paso fronterizo de Ras Jedir (Túnez–Libia)</name>

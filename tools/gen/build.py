@@ -69,6 +69,54 @@ for _slug, _d in FULL.items():
     if _pf.exists():
         _d["pois"] = json.loads(_pf.read_text(encoding="utf-8"))
 
+# ---- 4x4 y offroad: content/offroad/<slug>.json (puntos y rutas con fuentes, investigados
+# por países; ver audit/ESTADO.md). Capa aparte en fichas, mapa general y Planificador.
+OFFROAD_DIR = SITE / "content" / "offroad"
+for _slug, _d in FULL.items():
+    _of = OFFROAD_DIR / f"{_slug}.json"
+    _d["offroad"] = json.loads(_of.read_text(encoding="utf-8")) if _of.exists() else {"puntos": [], "rutas": []}
+
+OFF_TIPO = {"dunas": "Dunas", "pista": "Pista 4x4", "paso": "Paso técnico", "oasis": "Oasis o bivac", "repostaje": "Repostaje"}
+OFF_GUIA = {"no": "sin guía", "recomendado": "guía recomendado", "obligatorio": "guía obligatorio", "autorización": "autorización previa"}
+OFF_PERRO = {"si": "sí", "condiciones": "con condiciones", "no": "no", "sin_dato": "sin dato"}
+OFF_COLOR, OFF_RUTA, OFF_MAL = "#D4A017", "#9C6B00", "#B43A3A"
+
+
+def wikiloc_pais(slug):
+    """Listado público de rutas 4x4 de Wikiloc para el país (solo enlace)."""
+    en = {"marruecos": "morocco", "sahara-occidental": "western-sahara", "mauritania": "mauritania", "tunez": "tunisia",
+          "argelia": "algeria", "senegal": "senegal", "namibia": "namibia", "botsuana": "botswana", "sudafrica": "south-africa",
+          "kenia": "kenya", "tanzania": "tanzania", "zambia": "zambia", "mozambique": "mozambique", "angola": "angola",
+          "egipto": "egypt", "libia": "libya", "mali": "mali", "niger": "niger", "chad": "chad", "etiopia": "ethiopia",
+          "uganda": "uganda", "malaui": "malawi", "zimbabue": "zimbabwe", "lesoto": "lesotho", "esuatini": "eswatini",
+          "camerun": "cameroon", "gabon": "gabon", "ghana": "ghana", "nigeria": "nigeria", "madagascar": "madagascar"}.get(slug)
+    return f"https://www.wikiloc.com/trails/offroading/{en}" if en else ""
+
+
+def off_detalle(slug, x, ruta=False):
+    """Punto o ruta 4x4 en el formato de la ficha ampliada del mapa (a27PoiDetail)."""
+    links = [{"label": f.get("titulo") or "fuente", "url": f["url"]} for f in x.get("fuentes", []) if str(f.get("url", "")).startswith("http")]
+    if x.get("wikiloc"):
+        links.insert(0, {"label": "Rutas de la zona en Wikiloc", "url": x["wikiloc"]})
+    lat, lon = (x["puntos"][0] if ruta else (x["lat"], x["lon"]))
+    extra = []
+    if ruta:
+        extra.append(f"{x.get('desde', '')} → {x.get('hasta', '')} · ~{x.get('km', '?')} km · {x.get('dias', '?')} días · {x.get('estado', '')}")
+        if x.get("firme"): extra.append("Firme: " + x["firme"])
+    return {"type": "offroad", "name": x["name"], "lat": round(lat, 5), "lon": round(lon, 5),
+            "cat": "Ruta 4x4" if ruta else OFF_TIPO.get(x.get("tipo"), "4x4"),
+            "prio": x.get("dificultad", ""), "time": OFF_GUIA.get(x.get("guia"), x.get("guia", "")),
+            "desc": " ".join(extra + [x.get("desc", "")]).strip(),
+            "dog": OFF_PERRO.get(x.get("perro"), "sin dato"),
+            "dogcls": {"si": "ok", "condiciones": "warn", "no": "bad"}.get(x.get("perro"), "na"),
+            "dog_note": x.get("perro_nota", ""),
+            "visit": {"access": x.get("acceso", "") or x.get("firme", ""), "when": x.get("epoca", ""),
+                      "fuel": x.get("autonomia", ""), "skip": x.get("riesgos", ""),
+                      "guide": OFF_GUIA.get(x.get("guia"), x.get("guia", ""))},
+            "links": links, "photos": [], "img": "",
+            "ficha": f"paises/{slug}/#{'rx' if ruta else 'ox'}-{x['n']}"}
+
+
 # ---- Resto de la ficha editable desde el panel (/admin/): si existe
 # content/ficha/<slug>.json, cada clave presente ahí sustituye a la calculada
 # por data_<pais>.py (hero, chips, historia, logística, fuentes, secciones...).
@@ -95,6 +143,7 @@ function a27CatStyle(p){
   if (p.type === 'agua')      return {color:'#1E88C7', label:'Agua de servicio'};
   if (p.type === 'combustible') return {color:'#B8560D', label:'Combustible'};
   if (p.type === 'servicio')  return {color:'#2B6CB0', label:'Servicios'};
+  if (p.type === 'offroad')   return {color:'#D4A017', label:'4x4 y offroad'};
   return {color:a27Color(p.color), label:'Puntos de interés'};
 }
 function a27Esc(value){
@@ -141,7 +190,7 @@ function a27GalleryMove(gallery, step){
   if (count) count.textContent = (index + 1) + ' / ' + slides.length;
 }
 function a27PoiDetail(p, root){
-  const labels = {why:'Por qué ir', see:'Qué se ve', access:'Acceso real', when:'Cuándo', skip:'Cuándo descartarlo'};
+  const labels = {why:'Por qué ir', see:'Qué se ve', access:'Acceso real', when:'Cuándo', guide:'Guía y permisos', fuel:'Autonomía', skip:'Cuándo descartarlo'};
   const visit = p.visit && typeof p.visit === 'object' ? p.visit : {};
   const decision = Object.keys(labels).filter(key => visit[key]).map(key =>
     '<div><dt>' + labels[key] + '</dt><dd>' + a27Esc(visit[key]) + '</dd></div>').join('');
@@ -212,7 +261,7 @@ function a27Popup(p, root){
   if (p.dog) h += '<span class="st '+a27Esc(p.dogcls)+'">perro: '+a27Esc(p.dog)+'</span>';
   if (p.info) h += '<span>'+a27Esc(p.info)+'</span>';
   h += '<div class="a27-popup-actions">';
-  if (p.type === 'poi') h += '<button type="button" class="a27-popup-expand">Ver ficha ampliada</button>';
+  if (p.type === 'poi' || p.type === 'offroad') h += '<button type="button" class="a27-popup-expand">Ver ficha ampliada</button>';
   else if (p.ficha) h += '<a href="'+a27Esc(a27MapHref(p.ficha, root))+'">Ver en la ficha</a>';
   if (p.source) h += '<a href="'+a27Esc(p.source)+'" target="_blank" rel="noopener">Fuente del punto</a>';
   h += '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
@@ -306,7 +355,7 @@ function a27Map(elId, cfg){
   });
   (cfg.points || []).forEach(p => {
     const s = a27CatStyle(p);
-    const mk = L.circleMarker([p.lat, p.lon], {radius: 8, color:'#fff', weight:2, fillColor:s.color, fillOpacity:.95});
+    const mk = L.circleMarker([p.lat, p.lon], {radius: 8, color: p.type === 'offroad' ? '#5C4300' : '#fff', weight:2, fillColor:s.color, fillOpacity:.95});
     mk.bindPopup(a27Popup(p, cfg.root), {maxWidth: 320});
     mk.on('popupopen', function(){
       const popup = mk.getPopup() && mk.getPopup().getElement();
@@ -423,7 +472,25 @@ def map_points(d, with_ficha=True):
                     "cat":lg["cat"],"info":lg["info"],
                     "source":lg.get("source", ""),
                     "ficha": f"paises/{d['slug']}/#{'agua-combustible' if point_type == 'agua' else 'logistica'}" if with_ficha else None})
+    for x in d.get("offroad", {}).get("puntos", []):
+        q = off_detalle(d["slug"], x)
+        q["info"] = f"{q['cat']} · {q['prio']} · {q['time']}"
+        if not with_ficha:
+            q["ficha"] = f"#ox-{x['n']}"
+        pts.append(q)
     return pts
+
+
+def off_lineas(d, with_ficha=True):
+    """Rutas 4x4 del país como líneas (trazado aproximado por puntos de paso)."""
+    out = []
+    for r in d.get("offroad", {}).get("rutas", []):
+        mal = r.get("estado") == "desaconsejada"
+        out.append({"label": "Rutas 4x4", "color": OFF_MAL if mal else OFF_RUTA, "dash": True,
+                    "title": f"{d['name']} · {r['name']} · ~{r.get('km', '?')} km · {r.get('dificultad', '')}"
+                             + (" · DESACONSEJADA" if mal else "") + " · trazado aproximado",
+                    "pts": [[round(a, 5), round(b, 5)] for a, b in r["puntos"]]})
+    return out
 
 def map_lines(d):
     lines = []
@@ -476,7 +543,7 @@ MAPA_GENERAL_CAPAS = {
 # El resto (recorridos de la ficha, variantes, hospitales, consulados, agua, combustible…) se enciende desde la leyenda.
 MAPA_FICHA_ON = ["Tu viaje", "Puntos de interés", "Fronteras"]
 MAPA_GENERAL_ON = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés", "Fronteras"]
-MAPA_GENERAL_ORDEN = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés",
+MAPA_GENERAL_ORDEN = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés", "4x4 y offroad", "Rutas 4x4",
                       "Variantes por país", "Ramales y alternativas", "Fronteras", "Hospitales",
                       "Consulados", "Agua de servicio", "Combustible", "Servicios"]
 
@@ -584,7 +651,7 @@ def render_ficha(d):
 
     # --- interactive map section ---
     cfg = {"center": d["center"], "zoom": d["zoom"], "root": root,
-           "points": map_points(d, with_ficha=False), "lines": map_lines(d), "viaje": True,
+           "points": map_points(d, with_ficha=False), "lines": map_lines(d) + off_lineas(d), "viaje": True,
            "defaultOn": MAPA_FICHA_ON}
     for p in cfg["points"]:
         if p["type"] == "poi":
@@ -700,6 +767,11 @@ def render_ficha(d):
                     "<p>Los créditos y licencias se conservan junto a cada fotografía; revisar la fuente antes de reutilizarlas fuera de esta ficha.</p>"
                     f'<div class="poi-grid">{cards}</div>'))
 
+    # --- 4x4 y offroad ---
+    off = d.get("offroad", {})
+    if off.get("puntos") or off.get("rutas"):
+        body.append(sec("offroad", "4x4 y offroad", render_offroad(d, off)))
+
     # --- logistics ---
     log_rows = [(lg["name"], lg["cat"], gmaps(lg["lat"], lg["lon"]), lg["info"]) for lg in d["logistics"]]
     log_html = (
@@ -736,6 +808,52 @@ def render_ficha(d):
                 'if (typeof L !== "undefined" && typeof a27Map === "function" && window.A27_FICHA)'
                 ' a27Map("fichamap", A27_FICHA); });</script>')
     return page(root, f"{d['name']} · África 2027", nav + "".join(body), extra_head=extra_head)
+
+def render_offroad(d, off):
+    """Apartado «4x4 y offroad» de la ficha: rutas y puntos con fuentes y enlaces a Wikiloc."""
+    def fuentes(x):
+        fs = [f'<a href="{attr(f["url"])}" target="_blank" rel="noopener">{esc(f.get("titulo") or f["url"])}</a>'
+              + (f' <small>({esc(f["fecha"])})</small>' if f.get("fecha") else "")
+              for f in x.get("fuentes", []) if str(f.get("url", "")).startswith("http")]
+        return '<div class="off-src"><strong>Fuentes:</strong> ' + " · ".join(fs) + "</div>" if fs else ""
+    def wl(x):
+        return (f' · <a href="{attr(x["wikiloc"])}" target="_blank" rel="noopener">rutas de la zona en Wikiloc</a>'
+                if x.get("wikiloc") else "")
+    def filas(x, pares):
+        return "".join(f"<div><dt>{t}</dt><dd>{esc(x[k])}</dd></div>" for k, t in pares if x.get(k))
+    rutas = ""
+    for r in off.get("rutas", []):
+        mal = r.get("estado") == "desaconsejada"
+        rutas += f"""
+<article class="off-card{' mal' if mal else ''}" id="rx-{r['n']}">
+  <h3>{esc(r['name'])}</h3>
+  <div class="poi-tags"><span class="cat">Ruta 4x4</span><span class="prio">{esc(r.get('dificultad', ''))}</span><span class="time">~{esc(r.get('km', '?'))} km · {esc(r.get('dias', '?'))} d</span><span class="off-estado">{esc(r.get('estado', ''))}</span><span>{esc(OFF_GUIA.get(r.get('guia'), r.get('guia', '')))}</span><span class="st {dict(si='ok', condiciones='warn', no='bad').get(r.get('perro'), 'na')}">perro: {esc(OFF_PERRO.get(r.get('perro'), 'sin dato'))}</span></div>
+  <p>{esc(r.get('desc', ''))}</p>
+  <dl class="poi-decision">{filas(r, (("desde", "Desde"), ("hasta", "Hasta"), ("firme", "Firme"), ("epoca", "Cuándo"), ("autonomia", "Autonomía"), ("riesgos", "Riesgos")))}</dl>
+  {fuentes(r)}
+  <div class="credit">Trazado aproximado por {len(r['puntos'])} puntos de paso: navegar con un GPX validado{wl(r)} · {gmaps(r['puntos'][0][0], r['puntos'][0][1], 'inicio en Google Maps')}</div>
+</article>"""
+    pts = ""
+    for x in off.get("puntos", []):
+        pts += f"""
+<article class="off-card" id="ox-{x['n']}">
+  <h3>{esc(x['name'])}</h3>
+  <div class="poi-tags"><span class="cat">{esc(OFF_TIPO.get(x.get('tipo'), '4x4'))}</span><span class="prio">{esc(x.get('dificultad', ''))}</span><span>{esc(OFF_GUIA.get(x.get('guia'), x.get('guia', '')))}</span><span class="st {dict(si='ok', condiciones='warn', no='bad').get(x.get('perro'), 'na')}">perro: {esc(OFF_PERRO.get(x.get('perro'), 'sin dato'))}</span>{'<span>coordenada aproximada</span>' if x.get('aprox') else ''}</div>
+  <p>{esc(x.get('desc', ''))}</p>
+  <dl class="poi-decision">{filas(x, (("acceso", "Acceso"), ("epoca", "Cuándo"), ("autonomia", "Autonomía"), ("riesgos", "Riesgos"), ("perro_nota", "Perro")))}</dl>
+  {fuentes(x)}
+  <div class="credit">{gmaps(x['lat'], x['lon'], 'abrir ubicación')}{wl(x)}</div>
+</article>"""
+    wp = wikiloc_pais(d["slug"])
+    intro = (f"<p>Puntos y pistas para los 4x4, aparte de los puntos de interés. En el mapa de arriba están en las capas «4x4 y offroad» "
+             f"y «Rutas 4x4» (apagadas al abrir). Las rutas son trazados aproximados por puntos de paso: sirven para planificar, no para navegar. "
+             f"Investigado el {esc(off.get('fecha', ''))} con fuentes; revisar MAEC y FCDO antes de salir del asfalto.</p>"
+             + (f'<p><a class="btn ghost" href="{attr(wp)}" target="_blank" rel="noopener">Rutas 4x4 de {esc(d["name"])} en Wikiloc</a> '
+                '<span class="figcap">Baja el GPX con tu cuenta de Wikiloc y usa «Importar GPX» en el Planificador: se queda solo en tu navegador.</span></p>' if wp else ""))
+    notas = f'<details class="off-notas"><summary>Dudas y zonas descartadas</summary><p>{esc(off.get("notas", ""))}</p></details>' if off.get("notas") else ""
+    return (intro + (f'<h3 class="off-h">Rutas</h3><div class="off-grid">{rutas}</div>' if rutas else "")
+            + (f'<h3 class="off-h">Puntos</h3><div class="off-grid">{pts}</div>' if pts else "") + notas)
+
 
 # ---------------------------------------------------------------- stub ficha
 def render_stub(slug, name, group, seguridad, frontera, visado, cpd, perro, nota):
@@ -1746,7 +1864,7 @@ A27_COLOR_HEX = {"verde": "#2E7D32", "turquesa": "#1E7A8A", "marron": "#8B5A2B",
                  "naranja": "#D97B29", "morado": "#673AB7", "azul": "#2B6CB0",
                  "gris": "#666666", "ambar": "#C47F17"}
 A27_CAT_HEX = {"hospital": "#B43A3A", "consular": "#673AB7", "frontera": "#5F6B72",
-               "agua": "#1E88C7", "combustible": "#B8560D", "servicio": "#2B6CB0"}
+               "agua": "#1E88C7", "combustible": "#B8560D", "servicio": "#2B6CB0", "offroad": "#D4A017"}
 
 # Google My Maps ignores KML <IconStyle><color> tinting on import (confirmed:
 # stock shapes/star.png came back white/unfilled), so colors must be baked
@@ -1779,7 +1897,7 @@ def kml_style_for(p):
     return (f"icon-poi-{c}", _onion_badge(A27_COLOR_HEX.get(c, A27_COLOR_HEX["ambar"]), _POI_GLYPH))
 
 _CAT_LABELS = {"hospital": "Hospital", "consular": "Consulado", "frontera": "Frontera",
-               "agua": "Agua de servicio", "combustible": "Combustible", "servicio": "Servicio"}
+               "agua": "Agua de servicio", "combustible": "Combustible", "servicio": "Servicio", "offroad": "4x4 y offroad"}
 _POI_COLOR_LABELS = {"verde": "Verde", "turquesa": "Turquesa", "marron": "Marrón",
                       "naranja": "Naranja", "morado": "Morado", "azul": "Azul",
                       "gris": "Gris", "ambar": "Ámbar"}
@@ -1911,7 +2029,7 @@ def main():
     all_points, all_lines = [], []
     for d in FULL.values():
         all_points += map_points(d, with_ficha=True)
-        all_lines += map_lines_general(d)
+        all_lines += map_lines_general(d) + off_lineas(d)
     pages["mapa/index.html"] = render_map_page(all_points, all_lines)
     pages["documentacion/index.html"] = render_docs()
     pages["perro/index.html"] = render_perro()
@@ -1946,6 +2064,9 @@ def main():
     for q in all_points:
         if q.get("type") == "poi" and q.get("ficha") and "#poi-" in q["ficha"]:
             detalle[q["ficha"].split("/")[1] + "-" + q["ficha"].split("#poi-")[1]] = q
+    for _s, _d in FULL.items():
+        for _x in _d.get("offroad", {}).get("puntos", []):
+            detalle[f"{_s}-ox{_x['n']}"] = off_detalle(_s, _x)
     (SITE / "assets/js/pdi-detalle.json").write_text(json.dumps(detalle, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # Planificador por puntos (fase 1): puntos con días y perro, fronteras con sus dos países.
     from planificador_puntos import construir as construir_pp, informe as informe_pp

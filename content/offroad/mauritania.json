@@ -1,0 +1,1237 @@
+{
+ "pais": "mauritania",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Chami – gasóleo y oficina del Parque del Banc d'Arguin",
+   "tipo": "repostaje",
+   "lat": 20.1673,
+   "lon": -15.9724,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "Todo el año",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Parada en carretera; poca sombra.",
+   "autonomia": "Llenar aquí antes y después del Banc d'Arguin. Sahara Overland sitúa la gasolinera de Chami a 270 km de Nuakchot en la N2 y aconseja repostar siempre que se pueda porque el suministro falla; en el parque no hay gasóleo.",
+   "desc": "Ciudad nueva en la N2 Nuadibú–Nuakchot, nacida en 2012 y convertida en centro de la fiebre del oro. Tiene gasolinera y una oficina del Parque Nacional del Banc d'Arguin donde se pagan las entradas. Es la base lógica para entrar al parque por el norte y la última gasolinera antes de muchos kilómetros de N2.",
+   "acceso": "Asfalto (N2). Desde aquí, unos km al sur, sale el acceso norte del parque.",
+   "riesgos": "Contaminación por mercurio de la minería de oro artesanal alrededor (no acampar junto a los lavaderos). Zona costera: riesgo medio según el MAEC, sin restricción del FCDO.",
+   "cerca": "Iwik y Banc d'Arguin",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/dakhlet-nouadhibou",
+   "fuentes": [
+    {
+     "titulo": "Sahara Overland – Mauritania (combustible, Chami)",
+     "url": "https://sahara-overland.com/mauritania/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Voyages autour du monde – Le Banc d'Arguin (Mauritanie 2024)",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/le-banc-darguin/",
+     "fecha": "2024"
+    },
+    {
+     "titulo": "Wikipedia – Chami, Mauritania",
+     "url": "https://en.wikipedia.org/wiki/Chami,_Mauritania",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Acceso norte del Parque Nacional del Banc d'Arguin (pista a Iwik)",
+   "tipo": "pista",
+   "lat": 20.04231,
+   "lon": -15.91961,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Noviembre a marzo (aves migratorias y menos calor).",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "No hay norma publicada sobre perros en el parque. Es un santuario de aves nidificantes: consultar en la oficina de entrada y llevarlo siempre atado.",
+   "autonomia": "Depósito lleno en Chami. En el parque no hay combustible; agua y comida para 2-3 días.",
+   "desc": "Entrada norte al Banc d'Arguin, Patrimonio Mundial, a pocos km al sur de Chami. Desde aquí una pista de arena lleva hacia la costa y los campamentos imraguen de Iwik. Es la forma más directa de meter los 4x4 en el parque, con la ventaja de tener gasóleo justo al lado.",
+   "acceso": "Desde la N2, unos km al sur de Chami. Hasta Iwik hay unos 50 km de pista de arena, que un relato de 2015 hizo a unos 40 km/h. Bajar presiones al entrar en la arena. Se permite pernoctar delante de los puntos de acceso.",
+   "riesgos": "Arena blanda. Prohibido circular fuera de las pistas dentro del parque. Entrada de 200 MRU (~5 €) por persona y día; en 2023 los guardas del parque acompañaban obligatoriamente como guías (propina a voluntad). Coordenadas GPS de las pistas: las dan los propios guardas.",
+   "cerca": "Iwik y Banc d'Arguin",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/dakhlet-nouadhibou",
+   "fuentes": [
+    {
+     "titulo": "Le Mobil Cub – Mauritanie 2023, le Banc d'Arguin et Nouakchott (GPS de los accesos, tarifa, guardas)",
+     "url": "https://lemobilcub.fr/2023/02/13/02-mauritanie-2023-le-banc-darguin-et-nouakchott/",
+     "fecha": "2023-02"
+    },
+    {
+     "titulo": "USnomads – Enroute: Nouakchott to Iwik",
+     "url": "http://usnomadstudio.com/usnomads/blog/?page_id=3375",
+     "fecha": "2015-01"
+    },
+    {
+     "titulo": "Voyages autour du monde – Le Banc d'Arguin (Mauritanie 2024)",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/le-banc-darguin/",
+     "fecha": "2024"
+    },
+    {
+     "titulo": "Détours Mauritanie – Parc du Banc d'Arguin: guide pratique",
+     "url": "https://www.voyagemauritanie.com/guide-mauritanie/attraction/banc-d-arguin-park",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Mamghar (Nouamghar) – acceso sur del Banc d'Arguin y playa con marea baja",
+   "tipo": "paso",
+   "lat": 19.35752,
+   "lon": -16.50848,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "Noviembre a marzo. En la playa, circular solo con marea bajando; evitar mareas vivas.",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "Sin norma publicada. Aves y focas en la costa: atado. Cuidado con el sol y la sal en las almohadillas.",
+   "autonomia": "Sin gasolinera en Mamghar según las fuentes consultadas; llegar lleno desde Nuakchot o Chami.",
+   "desc": "Pueblo pesquero sobre una duna costera, a la entrada del cabo Timiris, que hace de sede administrativa del parque y de su acceso sur. Es el punto donde la antigua pista de playa desde Nuakchot entraba en el Banc d'Arguin. Hoy se llega por asfalto, pero la playa al sur y al norte sigue siendo un tramo que solo se puede hacer con marea baja.",
+   "acceso": "Carretera asfaltada hasta Mamghar (2023). Por la playa: solo con marea descendente, siguiendo la franja de arena húmeda y firme. Dentro del parque, solo por las pistas autorizadas y con guarda.",
+   "riesgos": "Marea que sube y deja el coche atrapado contra la duna; bancos de algas cerca de Mamghar que obligaron a algún viajero a dejar la playa (noviembre de 2017); calles del pueblo sin asfaltar y traicioneras tras lluvias fuertes. Entrada al parque 200 MRU por persona y día (pago en Mamghar o Chami).",
+   "cerca": "Iwik y Banc d'Arguin",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/dakhlet-nouadhibou",
+   "fuentes": [
+    {
+     "titulo": "Le Mobil Cub – Mauritanie 2023, le Banc d'Arguin (GPS del acceso de Mamghar)",
+     "url": "https://lemobilcub.fr/2023/02/13/02-mauritanie-2023-le-banc-darguin-et-nouakchott/",
+     "fecha": "2023-02"
+    },
+    {
+     "titulo": "Wikipedia – Nouamghar",
+     "url": "https://en.wikipedia.org/wiki/Nouamghar",
+     "fecha": ""
+    },
+    {
+     "titulo": "Voyage Forum – Piste de plage en Mauritanie: bancs d'algues?",
+     "url": "https://voyageforum.com/forum/piste-plage-en-mauritanie-bancs-algues-d8308638/",
+     "fecha": "2017-12"
+    },
+    {
+     "titulo": "Voyages autour du monde – Le Banc d'Arguin (Mauritanie 2024)",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/le-banc-darguin/",
+     "fecha": "2024"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Playa de Tiouilit – salida a la playa al norte de Nuakchot",
+   "tipo": "pista",
+   "lat": 18.2525,
+   "lon": -16.0371,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Octubre a abril; bajar a la playa con marea baja.",
+   "guia": "recomendado",
+   "perro": "si",
+   "perro_nota": "Playa abierta y tranquila; pescadores al atardecer. Agua dulce propia para enjuagarlo.",
+   "autonomia": "A unos 25 km de Nuakchot: repostar en la capital.",
+   "desc": "Playa de arena blanca a unos 25 km al norte de Nuakchot, con tiendas de pescadores que sirven té y comida y lugar gratuito para pernoctar. Es el acceso a la playa documentado más cercano a la capital y el primer tramo de la antigua pista costera hacia el Banc d'Arguin. Buen sitio para probar la conducción en arena de playa antes de alejarse.",
+   "acceso": "Pista ondulada practicable incluso sin 4x4 hasta el aparcamiento; para bajar a la playa y circular por ella hace falta 4x4 y presiones bajas por la arena profunda.",
+   "riesgos": "Arena profunda junto a la duna (atascos, según usuarios); marea. Zona costera sin restricción del FCDO; riesgo medio según el MAEC.",
+   "cerca": "Puerto pesquero de Nuakchot",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/nouakchott",
+   "fuentes": [
+    {
+     "titulo": "park4night – Tiouilit (plazas, acceso, arena profunda)",
+     "url": "https://park4night.com/en/place/392694",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Erg Amatlich – entrada de la travesía de dunas",
+   "tipo": "dunas",
+   "lat": 19.71543,
+   "lon": -13.70892,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "Noviembre a febrero. En octubre de 2013 se midieron 46-48 °C.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Solo en invierno y a primera hora: la arena del erg quema al mediodía y no hay sombra. Agua de sobra.",
+   "autonomia": "Repostar en Akjoujt; hasta Atar o Terjit no hay gasolinera en la pista. Agua para 2-3 días.",
+   "desc": "Cordón de dunas de unos 130 km de largo y 5-8 km de ancho, encajado entre los relieves del Adrar, que va desde el paso de Tifoujar hasta cerca de Akjoujt. Cruzarlo en 4x4 es uno de los clásicos del Adrar y lo incluyen casi todos los circuitos 4x4 de agencia. En 2013 un convoy de tres vehículos lo pasó en una mañana sin atascos, con guía abriendo pista, aunque lo describió como nada fácil.",
+   "acceso": "Por la pista Akjoujt – pozo de Tabrenkount – Amatlich. Presiones bajas y mantener el impulso en las subidas. Hay rodadas marcadas, pero conviene ir detrás de un vehículo que conozca el paso. El libro «La Mauritanie au GPS» (Ribas y Béallet) resultó clave cuando el guía no conocía la pista.",
+   "riesgos": "Arena blanda y crestas; calor extremo fuera de temporada; navegación. Seguridad: zona al oeste de la línea Choum–Ouadane, fuera de las áreas desaconsejadas por el FCDO; riesgo medio según el MAEC (entre la costa y el meridiano 12° O), que pide 4x4, varios vehículos y guías mauritanos experimentados en el desierto.",
+   "cerca": "Paso de Tifoujar",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar",
+   "fuentes": [
+    {
+     "titulo": "Sahara Overland – Mauritania 2013 (GPS de entrada y salida del Amatlich)",
+     "url": "https://sahara-overland.com/2014/01/10/mauritania-autumn-2013/",
+     "fecha": "2014-01"
+    },
+    {
+     "titulo": "Sahara Overland – etiqueta Erg Amatlich",
+     "url": "https://sahara-overland.com/tag/erg-amatlich/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Erg Amatlich",
+     "url": "https://en.wikipedia.org/wiki/Erg_Amatlich",
+     "fecha": ""
+    },
+    {
+     "titulo": "Point Afrique – Désert en 4x4 (circuito que incluye Amatlich)",
+     "url": "https://www.point-afrique.com/tour-item/desert-en-4x4-panorama/",
+     "fecha": "2025-12"
+    },
+    {
+     "titulo": "MAEC – Recomendaciones de viaje Mauritania",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mauritania",
+     "fecha": "2025-11"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Guelta de Amazmaz",
+   "tipo": "oasis",
+   "lat": 19.68735,
+   "lon": -13.43275,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Noviembre a marzo; más agua tras la temporada de lluvias.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "El agua de la guelta es para beber de la gente y del ganado de la zona: que no se bañe en ella.",
+   "autonomia": "Sin servicios. Entre Akjoujt y Atar/Terjit: gasóleo y agua para 2-3 días.",
+   "desc": "Poza natural de agua (guelta) en un valle rocoso entre el Amatlich y el paso de Tifoujar. Permite baño y es un buen lugar de bivac en la travesía. Su interés en 4x4 es que obliga a navegar: la pista no es fácil de encontrar y el último tramo es pedregoso.",
+   "acceso": "Desde la zona del Amatlich hacia el este por pista pedregosa difícil de localizar sin GPS o guía.",
+   "riesgos": "Pinchazos en piedra; perder la pista. Mismo marco de seguridad que el Amatlich (MAEC riesgo medio; FCDO sin restricción).",
+   "cerca": "Paso de Tifoujar",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar",
+   "fuentes": [
+    {
+     "titulo": "Sahara Overland – Mauritania 2013 (GPS de la guelta)",
+     "url": "https://sahara-overland.com/2014/01/10/mauritania-autumn-2013/",
+     "fecha": "2014-01"
+    },
+    {
+     "titulo": "Sahara Overland – etiqueta Erg Amatlich",
+     "url": "https://sahara-overland.com/tag/erg-amatlich/",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Paso de Tifoujar (bajada al Valle Blanco)",
+   "tipo": "paso",
+   "lat": 20.09967,
+   "lon": -13.19672,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Noviembre a marzo",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Calor y piedra caliente; paradas en sombra de acantilado.",
+   "autonomia": "Atar y Terjit quedan a unas decenas de km; llegar con margen desde Akjoujt.",
+   "desc": "Puerto en pista de arena a 278 m que domina una garganta que acaba en el Oued el Abiod o Valle Blanco; en su ladera oeste nace el erg Amatlich. Un viajero de 2013 lo describió como espléndido, con una gran bajada. Es el enlace natural entre la travesía del Amatlich y el oasis de Terjit.",
+   "acceso": "Pista de arena; bajada larga hacia el este por arena suelta con piedras.",
+   "riesgos": "Bajada de arena con piedras; calor. FCDO sin restricción; MAEC riesgo medio.",
+   "cerca": "Paso de Tifoujar",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/atar",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia – Tifoujar Pass",
+     "url": "https://en.wikipedia.org/wiki/Tifoujar_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Sahara Overland – Mauritania 2013",
+     "url": "https://sahara-overland.com/2014/01/10/mauritania-autumn-2013/",
+     "fecha": "2014-01"
+    },
+    {
+     "titulo": "Point Afrique – Désert en 4x4 (Tifoujar y Terjit)",
+     "url": "https://www.point-afrique.com/tour-item/desert-en-4x4-panorama/",
+     "fecha": "2025-12"
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Oasis de Mhaïreth",
+   "tipo": "oasis",
+   "lat": 20.26389,
+   "lon": -13.00556,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Noviembre a marzo",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Palmeral habitado: atado y lejos de huertos y acequias.",
+   "autonomia": "Cerca de Terjit y Atar; sin servicios en el oasis.",
+   "desc": "Uno de los principales oasis del Adrar, un palmeral entre rocas y dunas cerca de Terjit. Los circuitos 4x4 lo usan como etapa entre Terjit y Chinguetti, con una bajada hacia el oasis. Permite enlazar Terjit con la meseta sin volver a Atar.",
+   "acceso": "Por pista desde la zona de Terjit (existe un track público «Mauritanie Mhairith Terjit» en Wikiloc) y bajada desde la meseta. Sin detalle del firme en las fuentes consultadas.",
+   "riesgos": "Navegación; bajada técnica sin descripción detallada. FCDO sin restricción; MAEC riesgo medio.",
+   "cerca": "Oasis de Terjit",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/atar",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia – Mhaïreth",
+     "url": "https://en.wikipedia.org/wiki/Mha%C3%AFreth",
+     "fecha": ""
+    },
+    {
+     "titulo": "Point Afrique – Désert en 4x4 (descenso a Mhaïreth, llegada a Chinguetti)",
+     "url": "https://www.point-afrique.com/tour-item/desert-en-4x4-panorama/",
+     "fecha": "2025-12"
+    },
+    {
+     "titulo": "Wikiloc – MAURITANIE Mhairith Terjit (título visto en resultados)",
+     "url": "https://www.wikiloc.com/offroading-trails/mauritanie-mhairith-terjit-23717798",
+     "fecha": ""
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "Paso de Amogjar y Fort Saganne",
+   "tipo": "paso",
+   "lat": 20.6362,
+   "lon": -12.72448,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "Octubre a marzo; en verano se superan los 40 °C.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Sin sombra en la subida; las pinturas del Agrour Amogjar están en abrigos cerrados (no entrar con él).",
+   "autonomia": "Sin servicios en el paso; salir lleno de Atar.",
+   "desc": "Antigua subida a la meseta del Adrar por una garganta de arenisca, en la ruta histórica Atar–Chinguetti. Sobre el paso quedan las ruinas de adobe del decorado de la película Fort Saganne (1984) y, junto al pico Agrour Amogjar (690 m), abrigos con pinturas rupestres de pago. Hoy el tráfico va por el paso de Ebnou, más directo, así que Amogjar queda como alternativa en pista, más lenta y con más paisaje.",
+   "acceso": "Pista antigua solo para 4x4, con una subida rota según Sahara Overland. Desde Atar se rodea el cerro Teniaggoûri, principal referencia visual, antes de subir.",
+   "riesgos": "Firme roto y piedra en la subida. Seguridad: al oeste del meridiano 12° O (MAEC riesgo medio) y fuera de las zonas del FCDO.",
+   "cerca": "Chinguetti",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/chinguetti",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta (OSM/GeoNames) – Goûr Amogjâr",
+     "url": "https://mapcarta.com/26183654",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Agrour Amogjar",
+     "url": "https://en.wikipedia.org/wiki/Agrour_Amogjar",
+     "fecha": ""
+    },
+    {
+     "titulo": "Détours Mauritanie – Passe d'Amogjar et Fort Saganne",
+     "url": "https://www.voyagemauritanie.com/guide-mauritanie/destination/passe-amogjar-et-fort-saganne",
+     "fecha": ""
+    },
+    {
+     "titulo": "Sahara Overland – X marks the spot: the highest peaks in Mauritania",
+     "url": "https://sahara-overland.com/2017/09/13/x-marks-the-spot-the-highest-peaks-in-mauritania/",
+     "fecha": "2017-09"
+    }
+   ],
+   "n": 9
+  },
+  {
+   "name": "Oasis de Tanouchert (pista sur Chinguetti–Ouadane)",
+   "tipo": "oasis",
+   "lat": 20.74471,
+   "lon": -11.73504,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Noviembre a febrero",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Espinas de acacia en la zona (también pinchan neumáticos): revisar almohadillas.",
+   "autonomia": "Entre Chinguetti y Ouadane (110 km de pista): llenar en Atar/Chinguetti; en Ouadane solo hay una gasolinera básica.",
+   "desc": "Pequeño oasis con pozo y unas pocas casas a mitad de la pista sur, la de arena, entre Chinguetti y Ouadane. Esta variante evita la tôle ondulée de la pista principal y atraviesa acacias y algunas dunas que en 2024 dieron «fuertes sensaciones» a una furgoneta Sprinter. Es la puerta de entrada al erg Ouarane para quien no va en caravana de agencia.",
+   "acceso": "Pista de arena desde Chinguetti hacia el noreste. Presiones bajas en los pasos de duna.",
+   "riesgos": "Espinas de acacia que perforan neumáticos; arena blanda. Seguridad: queda al este del meridiano 12° O, zona que el MAEC desaconseja en todo caso, aunque el propio MAEC admite visitar Chinguetti y Ouadane «con precaución» y con guías locales; el FCDO lo deja fuera de sus zonas (al oeste de la línea Choum–Ouadane).",
+   "cerca": "Chinguetti",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/ouadane",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta (OSM/GeoNames) – Tanouchert",
+     "url": "https://mapcarta.com/17098596",
+     "fecha": ""
+    },
+    {
+     "titulo": "Voyages autour du monde – Chinguetti–Ouadane (Mauritanie 2024)",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/chinguetti-ouadane/",
+     "fecha": "2024-10"
+    },
+    {
+     "titulo": "MAEC – Recomendaciones de viaje Mauritania",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mauritania",
+     "fecha": "2025-11"
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 10
+  },
+  {
+   "name": "Ouadane – única gasolinera antes del Richat",
+   "tipo": "repostaje",
+   "lat": 20.93373,
+   "lon": -11.61737,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "Todo el año",
+   "guia": "recomendado",
+   "perro": "si",
+   "perro_nota": "Pueblo tranquilo; calor.",
+   "autonomia": "Una sola estación de gasóleo básica, electrificada hace poco y lenta. No contar con ella al 100 %: llegar desde Atar/Chinguetti con autonomía para volver.",
+   "desc": "Ciudad caravanera Patrimonio Mundial en el extremo noreste de la meseta del Adrar. Su pequeña gasolinera es el único punto de gasóleo de la zona y condiciona cualquier salida hacia el Guelb er Richat o la vuelta por el erg.",
+   "acceso": "Por pista desde Chinguetti (110 km por la variante sur de arena, o por la pista principal ondulada).",
+   "riesgos": "Suministro lento o irregular. Seguridad: el FCDO excluye expresamente la ciudad de Ouadane de sus zonas desaconsejadas; el MAEC la sitúa junto al límite del meridiano 12° O y dice que puede visitarse con precaución y guía local.",
+   "cerca": "Ouadane",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/ouadane",
+   "fuentes": [
+    {
+     "titulo": "Voyages autour du monde – Chinguetti–Ouadane (gasolinera de Ouadane)",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/chinguetti-ouadane/",
+     "fecha": "2024-10"
+    },
+    {
+     "titulo": "Wikipedia – Ouadane",
+     "url": "https://en.wikipedia.org/wiki/Ouadane",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "MAEC – Recomendaciones de viaje Mauritania",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mauritania",
+     "fecha": "2025-11"
+    }
+   ],
+   "n": 11
+  },
+  {
+   "name": "Ben Amera – bivac al pie del monolito",
+   "tipo": "oasis",
+   "lat": 21.23003,
+   "lon": -13.66437,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Noviembre a marzo",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Bivac libre y sin gente; mantenerlo cerca por la noche (zona fronteriza) y con agua abundante.",
+   "autonomia": "Choum (unos 60 km al este) tiene gasóleo; llevar agua para todo el bivac.",
+   "desc": "Monolito de 633 m sobre el llano, el mayor de África, a unos 60 km al oeste de Choum y 3-4 km al norte de la vía del tren minero. A 5-7 km está Aïcha, con esculturas talladas por artistas en 1999. No hay carretera: se llega por arena siguiendo la vía, y la acampada libre al pie del monolito está permitida.",
+   "acceso": "Desde la carretera Atar–Choum–Zuérat, por pistas de arena paralelas a la vía; se cruza la vía en el km 395, donde hay un control (en 2018 bastaba una fotocopia del pasaporte). Se recomienda conductor local con experiencia.",
+   "riesgos": "Está a unos 11 km de la frontera con el Sáhara Occidental: el FCDO desaconseja todo viaje salvo esencial a menos de 25 km de esa frontera, y el MAEC pone la frontera con el Sáhara en su zona de riesgo alto. Sahara Overland pide no desviarse hacia el norte, hacia la zona controlada por el Polisario. Arena blanda.",
+   "cerca": "Ben Amera",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/choum",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta (OSM) – Ben Amera",
+     "url": "https://mapcarta.com/27134378",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Ben Amera",
+     "url": "https://en.wikipedia.org/wiki/Ben_Amera",
+     "fecha": ""
+    },
+    {
+     "titulo": "ChingiTours – Ben Amera",
+     "url": "https://www.chingitours.com/en/spot/ben-amera-en/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Sahara Overland – Mauritania: the Railway Piste",
+     "url": "https://sahara-overland.com/2025/02/12/mauritania-the-railway-piste-440km/",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 12
+  },
+  {
+   "name": "Choum – gasóleo y albergue en el cruce del tren",
+   "tipo": "repostaje",
+   "lat": 21.3,
+   "lon": -13.06667,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "Todo el año",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Pueblo de paso; calor.",
+   "autonomia": "Gasóleo y albergue según Sahara Overland (2025). Único repostaje entre Atar (115 km al sur) y Ben Amera o la pista del tren.",
+   "desc": "Pueblo en el cruce de la carretera Atar–Zuérat con el tren minero, junto al famoso túnel de 2 km. Es el punto de partida hacia Ben Amera y el extremo este de la pista del ferrocarril. Aquí se puede subir el coche al tren del desierto.",
+   "acceso": "Asfalto desde Atar (115 km) y hasta Zuérat.",
+   "riesgos": "A pocos km de la frontera con el Sáhara Occidental: dentro de la franja de 25 km que el FCDO desaconseja salvo viaje esencial y de la frontera que el MAEC pone en riesgo alto. No salir de la carretera hacia el norte.",
+   "cerca": "Ben Amera",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/choum",
+   "fuentes": [
+    {
+     "titulo": "Sahara Overland – Mauritania: the Railway Piste (fuel y auberge en Choum)",
+     "url": "https://sahara-overland.com/2025/02/12/mauritania-the-railway-piste-440km/",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "Wikipedia – Choum",
+     "url": "https://en.wikipedia.org/wiki/Choum",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 13
+  },
+  {
+   "name": "Desvío a Diama en Bavreichiya – inicio de la pista del Diawling",
+   "tipo": "pista",
+   "lat": 16.79007,
+   "lon": -16.09879,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Fuera de la estación de lluvias: en lluvias la pista se vuelve una pesadilla.",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Zona húmeda con mosquitos (el relato de 2026 avisa de riesgo alto de malaria para personas): antiparasitario y repelente también para él.",
+   "autonomia": "Repostar en Nuakchot; de Nuakchot a Diama son unas 3-4 h de conducción sin paradas.",
+   "desc": "Punto donde se deja la carretera de Rosso para tomar la pista hacia el paso fronterizo de Diama, alternativa tranquila al caótico ferry de Rosso. La pista cruza el Parque Nacional del Diawling, con humedales, aves, facoceros y cocodrilos. Para dos 4x4 con perro es el paso a Senegal más recomendable.",
+   "acceso": "Desde la carretera Nuakchot–Rosso a la altura del pueblo de Bavreichiya; a partir de aquí pista.",
+   "riesgos": "Baches y tôle; camiones. En lluvias, impracticable. Tasa del parque de 200 MRU por persona y día (no siempre se cobra). Seguridad: fuera de zonas desaconsejadas por FCDO; MAEC riesgo medio.",
+   "cerca": "Parque de Diawling",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/trarza",
+   "fuentes": [
+    {
+     "titulo": "Le P'tit Reporter – Frontière Mauritanie–Sénégal (GPS del desvío y del bivac)",
+     "url": "https://leptitreporter.com/frontiere-mauritanie-senegal-conseils-et-retour-dexperience/",
+     "fecha": ""
+    },
+    {
+     "titulo": "EV Overlanding – Nouakchott to Saint-Louis",
+     "url": "https://ev-overlanding.com/2026/02/21/there-and-back-again-an-ev-adventure-to-dakar-13-nouakchott-to-saint-louis/",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "Routard forum – Frontière Mauritanie–Sénégal par Diama et Diawling",
+     "url": "https://www.routard.com/forums/t/frontiere-mauritanie-senegal-par-diama-et-diawling/278557",
+     "fecha": ""
+    }
+   ],
+   "n": 14
+  },
+  {
+   "name": "Dique del Diawling – pista de la presa hacia Diama",
+   "tipo": "paso",
+   "lat": 16.60589,
+   "lon": -16.24133,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Fuera de la estación de lluvias; en lluvias, intransitable.",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Fauna salvaje (facoceros, cocodrilos en las lagunas): no soltarlo cerca del agua.",
+   "autonomia": "Sin servicios hasta Diama; salir lleno de Nuakchot.",
+   "desc": "Zona de entrada al Parque del Diawling, donde un viajero bivaqueó para cruzarlo a primera hora. Desde aquí la pista sigue la presa: hay dos trazados paralelos, uno arriba del dique y otro abajo, a su lado. Es el tramo más lento del día, con baches enormes y tôle que rara vez permiten pasar de 20 km/h.",
+   "acceso": "Pista de tierra con grandes baches; no apta para vehículos bajos. Alternativa más larga y medio asfaltada por el puerto de N'Diago.",
+   "riesgos": "Baches profundos, barro en lluvias; mosquitos (malaria). Tasa del parque al salir.",
+   "cerca": "Parque de Diawling",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/trarza",
+   "fuentes": [
+    {
+     "titulo": "Le P'tit Reporter – Frontière Mauritanie–Sénégal",
+     "url": "https://leptitreporter.com/frontiere-mauritanie-senegal-conseils-et-retour-dexperience/",
+     "fecha": ""
+    },
+    {
+     "titulo": "EV Overlanding – Nouakchott to Saint-Louis (dos pistas en el dique, <20 km/h)",
+     "url": "https://ev-overlanding.com/2026/02/21/there-and-back-again-an-ev-adventure-to-dakar-13-nouakchott-to-saint-louis/",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "Scoot West Africa – Crossing the border between Mauritania and Senegal",
+     "url": "https://scootwestafrica.com/crossing-border-mauritania-senegal-rosso-diama/",
+     "fecha": ""
+    }
+   ],
+   "n": 15
+  },
+  {
+   "name": "Pista del oued Matmata a la guelta Tartêga",
+   "tipo": "pista",
+   "lat": 17.88417,
+   "lon": -12.0975,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Noviembre a febrero; evitar justo después de lluvias fuertes (cauce).",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Cocodrilos en las pozas: atado y lejos del agua. Tramo a pie por roca caliente.",
+   "autonomia": "Unos 20 km de arena profunda desde el desvío de la carretera de Moudjéria. No se ha confirmado gasóleo en Moudjéria: llegar con autonomía desde Aleg (carretera de la Esperanza).",
+   "desc": "Acceso a las gueltas de cocodrilos del Tagant. Extrem-Sud (2008) da el aparcamiento de la pista 4x4 del jebel sobre la guelta Tartêga, que sale del cauce del oued Matmata. ChingiTours describe unos 20 km de arena profunda desde el desvío. Un grupo en Sprinter llegó en noviembre de 2024 por la pista de arena desde N'Beika.",
+   "acceso": "Coordenada = aparcamiento de Extrem-Sud, 17°53.05'N 12°05.85'W; el mirador de la guelta está en 17°52.95'N 12°05.75'W. Desde la carretera Moudjéria–Tidjikja, unos 17 km después de Moudjéria, desvío y 20 km de arena; o pista desde N'Beika. Presiones bajas en la arena del cauce.",
+   "riesgos": "Arena profunda en el cauce; desprendimientos de roca dentro del cañón (2024). Seguridad: MAEC riesgo medio (al oeste del 12° O). FCDO: probablemente al este de la carretera Aleg–Moudjéria–Tidjikja y por tanto 'all but essential'; confirmarlo antes de ir.",
+   "cerca": "Guelta de Matmata (nuevo PDI)",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/tagant",
+   "fuentes": [
+    {
+     "titulo": "mauritanie-au-gps.fr – Mauritanie (gueltas del Tagant)",
+     "url": "https://www.mauritanie-au-gps.fr/MAURITANIE.AB.htm",
+     "fecha": "consultado 2026-09"
+    },
+    {
+     "titulo": "Extrem-Sud – Tagant: visite aux crocodiles de la guelta Tartéga (GPS)",
+     "url": "https://www.extrem-sud.com/mises-a-jour-guides/maj-mauritanie/101-tagant-visite-aux-crocodiles-de-la-guelta-tartega.html",
+     "fecha": "2008-12"
+    },
+    {
+     "titulo": "ChingiTours – Guelta Matmata",
+     "url": "https://www.chingitours.com/en/spot/guelta-matmata-en/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Voyages autour du monde – Les gueltas aux crocodiles",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/les-gueltas-aux-crocodiles/",
+     "fecha": "2024-11"
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 16
+  },
+  {
+   "name": "Hassi et Tâloghza – oasis abandonado del Tagant norte",
+   "tipo": "oasis",
+   "lat": 18.90303,
+   "lon": -12.33935,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "Diciembre a febrero",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "perro_nota": "Zona sin sombra ni servicios, a varios días de un veterinario. Solo en pleno invierno y con agua de reserva para él.",
+   "autonomia": "Autonomía total de gasóleo, agua y comida para varios días. mauritanie-au-gps.fr dice que el agua está a unos 60 cm de profundidad, pero no hay que contar con ella.",
+   "desc": "Oasis abandonado (hassi = pozo) en la zona arenosa entre el Adrar y el Tagant. Es el único lugar del sitio con coordenada GPS publicada. Su autor lo usa como imagen de portada y como paso de la Trace Nomade: ruinas, agua a poca profundidad y total aislamiento. Un foro de viajeros lo tuvo como objetivo de un viaje en 4x4 en enero de 2020.",
+   "acceso": "Sin pista marcada: navegación con GPS por arena y valles. Mapcarta/OSM sitúa el pozo a 18.8967, -12.3446 (a menos de 1 km del punto del sitio). A unos 21 km está El Khatt y a 6 km Jeïlane.",
+   "riesgos": "Aislamiento extremo, arena blanda, averías lejos de todo; solo con dos vehículos, guía y comunicación por satélite. Seguridad: MAEC riesgo medio (unos 35 km al oeste del 12° O); FCDO dentro de la excepción al oeste de la línea Choum–Ouadane–10° O/18°40' N. Sin relatos de 2024-2026 localizados.",
+   "cerca": "Paso de Tifoujar / Atar (lejos, más de 150 km)",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/tagant",
+   "fuentes": [
+    {
+     "titulo": "mauritanie-au-gps.fr – Accueil (Hassi et Talôghza, 18° 54.182'N ; 12° 20.361'O)",
+     "url": "https://www.mauritanie-au-gps.fr/",
+     "fecha": "consultado 2026-09"
+    },
+    {
+     "titulo": "mauritanie-au-gps.fr – Ultracyclisme / Trace Nomade (Taloghza)",
+     "url": "https://www.mauritanie-au-gps.fr/Ultracyclime-gravel.LB.htm",
+     "fecha": "consultado 2026-09"
+    },
+    {
+     "titulo": "Mapcarta (OSM) – Ḥassi et Tâloghza",
+     "url": "https://mapcarta.com/17098674",
+     "fecha": ""
+    },
+    {
+     "titulo": "Casa Trotter – Objectif Et Tâloghza Mauritanie janv 2020 (título visto en resultados; la página dio 404)",
+     "url": "https://www.casa-trotter.com/phpBB3/viewtopic.php?t=12129",
+     "fecha": "2020-01"
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 17
+  },
+  {
+   "name": "Laguna de Bellaat (península de Tintan) – paso con marea baja",
+   "tipo": "paso",
+   "lat": 20.67978,
+   "lon": -16.67709,
+   "aprox": true,
+   "dificultad": "muy difícil",
+   "epoca": "Noviembre a marzo; solo con marea baja.",
+   "guia": "autorización",
+   "perro": "sin_dato",
+   "perro_nota": "Zona de cría de peces, tortugas y aves en el límite del Parque del Banc d'Arguin: atado. Sin norma publicada sobre perros.",
+   "autonomia": "Zona remota frente a Nuadibú: gasóleo en Nuadibú o Chami. Agua y comida para 2 días.",
+   "desc": "En 2013 el mar abrió una brecha en el cordón de dunas de la península de Tintan, frente a Nuadibú, e inundó las depresiones de detrás. Así se formó una laguna de unos 10 × 6 km que hoy es una gran zona de cría de peces, con tortugas verdes y aves. mauritanie-au-gps.fr la describe como una laguna donde el océano entra varios km entre las dunas y cuenta que el 4x4 solo pasa con marea baja donde la duna toca el mar. En la misma península están las pesqueras neolíticas de piedra de Tintan, estudiadas por R. Vernet.",
+   "acceso": "Coordenada aproximada: es la del cabo Sainte-Anne (Mapcarta); la laguna queda justo al norte. No se ha encontrado ningún trazado de acceso publicado. Está en el límite norte del Parque Nacional del Banc d'Arguin: preguntar en la oficina del parque (Nuadibú/Chami) si hace falta permiso o guarda.",
+   "riesgos": "Marea que sube contra la duna; arena blanda; brecha activa que cambia. Coordenadas y acceso sin verificar: no ir sin guía local. Seguridad: costa, a unos 70 km de la frontera del Sáhara Occidental; FCDO sin restricción y MAEC riesgo medio.",
+   "cerca": "Iwik y Banc d'Arguin",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/dakhlet-nouadhibou/nouadhibou",
+   "fuentes": [
+    {
+     "titulo": "mauritanie-au-gps.fr – Mauritanie (lagune de Bellaat, paso 4x4 con marea baja)",
+     "url": "https://www.mauritanie-au-gps.fr/MAURITANIE.AB.htm",
+     "fecha": "consultado 2026-09"
+    },
+    {
+     "titulo": "Préhistoire de l'Ouest Saharien – La « brèche de Bellaat » (Baie du Lévrier)",
+     "url": "https://prehistoireouestsaharienne.wordpress.com/2022/05/26/la-breche-de-bellaat-baie-du-levrier/",
+     "fecha": "2022-05"
+    },
+    {
+     "titulo": "Université de Groningen / IMROP – Rapport lagune de Bellaât",
+     "url": "https://pure.rug.nl/ws/portalfiles/portal/620468679/Ballaat_Rapport_finale2022.pdf",
+     "fecha": "2022"
+    },
+    {
+     "titulo": "Enhaut – Bellaat, une nouvelle lagune pour le PNBA ?",
+     "url": "https://enhaut.org/projets/bellaat-nouvelle-lagune-pnba/",
+     "fecha": "2017-11"
+    },
+    {
+     "titulo": "Mapcarta (OSM) – Cap Sainte-Anne",
+     "url": "https://mapcarta.com/17099370",
+     "fecha": ""
+    },
+    {
+     "titulo": "Vernet et al. – Les barrages à poissons néolithiques de la presqu'île de Tintan",
+     "url": "https://www.academia.edu/7169153/Les_barrages_%C3%A0_poissons_n%C3%A9olithiques_de_la_presqu%C3%AEle_de_Tintan_littoral_atlantique_du_Sahara_mauritanien",
+     "fecha": "2013"
+    }
+   ],
+   "n": 18
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Pista de la playa y Banc d'Arguin: Nuakchot – Mamghar – Iwik – Chami",
+   "desde": "Nuakchot",
+   "hasta": "Chami (N2)",
+   "km": 280,
+   "dias": 3,
+   "dificultad": "difícil",
+   "epoca": "Noviembre a marzo; tramos de playa solo con marea descendente.",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "Antes de asfaltarse la N2, la ruta Nuakchot–Nuadibú iba por la playa con marea baja y algunos viajeros aún la usan. Sube por la playa desde Tiouilit hasta Mamghar, entra en el Banc d'Arguin y cruza por pistas del parque hasta Iwik, saliendo a la N2 junto a Chami. Es la gran travesía costera de Mauritania, pero hoy está muy regulada dentro del parque y los relatos de playa completa son anteriores a 2018.",
+   "firme": "Arena húmeda de playa (firme solo con marea baja), arena blanda en las dunas costeras y pistas de arena dentro del parque; asfalto hasta Mamghar como alternativa.",
+   "autonomia": "Repostar en Nuakchot; siguiente gasóleo en Chami (en el parque no hay). Agua y comida para 3 días.",
+   "riesgos": "Marea que sube y atrapa el vehículo; bancos de algas junto a Mamghar; punto delicado señalado cerca de la isla Agadir (N 20°36,58 O 16°25,78), más al norte de Iwik. Dentro del parque: entrada de 200 MRU por persona y día, guarda del parque obligatorio como guía (2023), prohibido salir de las pistas. Costa fuera de zonas desaconsejadas por el FCDO; MAEC riesgo medio.",
+   "puntos": [
+    [
+     18.08528,
+     -15.9725
+    ],
+    [
+     18.2525,
+     -16.0371
+    ],
+    [
+     18.8247,
+     -16.2125
+    ],
+    [
+     19.35833,
+     -16.51278
+    ],
+    [
+     19.87841,
+     -16.30442
+    ],
+    [
+     20.04231,
+     -15.91961
+    ],
+    [
+     20.1673,
+     -15.9724
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/dakhlet-nouadhibou",
+   "fuentes": [
+    {
+     "titulo": "USnomads – Enroute: Nouakchott to Iwik",
+     "url": "http://usnomadstudio.com/usnomads/blog/?page_id=3375",
+     "fecha": "2015-01"
+    },
+    {
+     "titulo": "Voyage Forum – Piste de plage en Mauritanie: bancs d'algues?",
+     "url": "https://voyageforum.com/forum/piste-plage-en-mauritanie-bancs-algues-d8308638/",
+     "fecha": "2017-12"
+    },
+    {
+     "titulo": "Le Mobil Cub – Mauritanie 2023, le Banc d'Arguin",
+     "url": "https://lemobilcub.fr/2023/02/13/02-mauritanie-2023-le-banc-darguin-et-nouakchott/",
+     "fecha": "2023-02"
+    },
+    {
+     "titulo": "Voyages autour du monde – Le Banc d'Arguin (Mauritanie 2024)",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/le-banc-darguin/",
+     "fecha": "2024"
+    },
+    {
+     "titulo": "Wikipedia – Nouamghar",
+     "url": "https://en.wikipedia.org/wiki/Nouamghar",
+     "fecha": ""
+    },
+    {
+     "titulo": "GetAMap (GeoNames) – Tiouilit, campamento",
+     "url": "https://fr.getamap.net/cartes/mauritania/trarza/_tiouilit/",
+     "fecha": ""
+    },
+    {
+     "titulo": "park4night – Tiouilit",
+     "url": "https://park4night.com/en/place/392694",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Akjoujt – erg Amatlich – guelta de Amazmaz – paso de Tifoujar – Terjit – Atar",
+   "desde": "Akjoujt",
+   "hasta": "Atar",
+   "km": 250,
+   "dias": 3,
+   "dificultad": "difícil",
+   "epoca": "Noviembre a febrero",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Travesía clásica para subir de la costa al Adrar por pista en lugar de por la carretera: pozo de Tabrenkount, cruce del erg Amatlich, guelta de Amazmaz, bajada espectacular del paso de Tifoujar al Valle Blanco y llegada al palmeral de Terjit antes de Atar. Combina dunas, pista de piedra y navegación. Un convoy de tres vehículos con guía la hizo en octubre de 2013 y la usan los circuitos 4x4 de agencia.",
+   "firme": "Pista de reg y piedra, cordón de dunas del Amatlich (arena blanda), pista pedregosa hacia Amazmaz, bajada de arena en Tifoujar y pista hasta Terjit y Atar.",
+   "autonomia": "Repostar en Akjoujt; sin gasolinera hasta Atar. Agua para 3 días; Amazmaz es una guelta natural, no un punto de agua potable garantizado.",
+   "riesgos": "Atascos en el Amatlich; pista difícil de encontrar hacia Amazmaz; calor extremo fuera de temporada (46-48 °C en octubre de 2013); espinas. Zona fuera de las áreas desaconsejadas por el FCDO; MAEC riesgo medio, con recomendación de ir en caravana con guías mauritanos.",
+   "puntos": [
+    [
+     19.745,
+     -14.384
+    ],
+    [
+     19.81143,
+     -14.03582
+    ],
+    [
+     19.71543,
+     -13.70892
+    ],
+    [
+     19.68735,
+     -13.43275
+    ],
+    [
+     20.09967,
+     -13.19672
+    ],
+    [
+     20.17762,
+     -13.21507
+    ],
+    [
+     20.25242,
+     -13.0877
+    ],
+    [
+     20.51819,
+     -13.05439
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar",
+   "fuentes": [
+    {
+     "titulo": "Sahara Overland – Mauritania 2013",
+     "url": "https://sahara-overland.com/2014/01/10/mauritania-autumn-2013/",
+     "fecha": "2014-01"
+    },
+    {
+     "titulo": "Sahara Overland – etiqueta Erg Amatlich (GPS Akjoujt, Tabrenkount, Amazmaz, Tifoujar)",
+     "url": "https://sahara-overland.com/tag/erg-amatlich/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Tifoujar Pass",
+     "url": "https://en.wikipedia.org/wiki/Tifoujar_Pass",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Terjit",
+     "url": "https://en.wikipedia.org/wiki/Terjit",
+     "fecha": ""
+    },
+    {
+     "titulo": "Akaoka – Raid 4x4 en Mauritanie: Adrar, erg Ouarane et oasis",
+     "url": "https://www.akaoka.fr/voyage-randonnee-trek/raid-4x4-en-mauritanie-sahara/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Sahara Overland – Mauritania (Adrar: Tifoujar y Amatlich)",
+     "url": "https://sahara-overland.com/mauritania/",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Atar – paso de Amogjar – Chinguetti – Tanouchert – Ouadane",
+   "desde": "Atar",
+   "hasta": "Ouadane",
+   "km": 200,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "Noviembre a febrero",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "La travesía de la meseta del Adrar por pista: subida por el antiguo paso de Amogjar (Fort Saganne y pinturas rupestres), Chinguetti y después la pista sur de arena por el oasis de Tanouchert, en el borde del erg Ouarane, hasta Ouadane. La variante de arena evita la tôle de la pista principal y tiene algunos pasos de duna. En 2024 una Sprinter hizo los 110 km Chinguetti–Ouadane en un día.",
+   "firme": "Pista rota y pedregosa en Amogjar; pista de meseta hasta Chinguetti; arena con acacias y pasos de duna entre Chinguetti y Ouadane.",
+   "autonomia": "Llenar en Atar. Ouadane tiene una sola gasolinera lenta; no hay más gasóleo en ruta. Agua para 2-3 días.",
+   "riesgos": "Espinas de acacia (pinchazos); arena blanda; navegación. Seguridad: el FCDO no desaconseja la zona (al oeste de la línea Choum–Ouadane y Ouadane excluida). El MAEC la pone en riesgo alto al este del meridiano 12° O (de Chinguetti hacia Ouadane), pero admite visitar Chinguetti y Ouadane con precaución y guías locales expertos. Para viajeros españoles: ir con guía local, como pide el MAEC.",
+   "puntos": [
+    [
+     20.51819,
+     -13.05439
+    ],
+    [
+     20.57669,
+     -12.80389
+    ],
+    [
+     20.6362,
+     -12.72448
+    ],
+    [
+     20.46343,
+     -12.36648
+    ],
+    [
+     20.74471,
+     -11.73504
+    ],
+    [
+     20.93373,
+     -11.61737
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/chinguetti",
+   "fuentes": [
+    {
+     "titulo": "Voyages autour du monde – Chinguetti–Ouadane (Mauritanie 2024)",
+     "url": "https://voyagesautourdumonde.fr/mauritanie-2024/chinguetti-ouadane/",
+     "fecha": "2024-10"
+    },
+    {
+     "titulo": "Sahara Overland – X marks the spot (Amogjar, Teniaggoûri, domo de 820 m)",
+     "url": "https://sahara-overland.com/2017/09/13/x-marks-the-spot-the-highest-peaks-in-mauritania/",
+     "fecha": "2017-09"
+    },
+    {
+     "titulo": "Détours Mauritanie – Passe d'Amogjar et Fort Saganne",
+     "url": "https://www.voyagemauritanie.com/guide-mauritanie/destination/passe-amogjar-et-fort-saganne",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta – Goûr Amogjâr",
+     "url": "https://mapcarta.com/26183654",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta – Tanouchert",
+     "url": "https://mapcarta.com/17098596",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC – Recomendaciones de viaje Mauritania",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mauritania",
+     "fecha": "2025-11"
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Ouadane – Guelb er Richat",
+   "desde": "Ouadane",
+   "hasta": "Centro del Guelb er Richat",
+   "km": 30,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "Noviembre a febrero",
+   "guia": "obligatorio",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Unos 30 km de pista totalmente fuera de asfalto, más de una hora de 4x4 por arena, hasta la gran estructura circular de 40 km de diámetro conocida como el Ojo de África. Es la excursión 4x4 más famosa de Mauritania y la incluyen muchos circuitos de agencia. Se mantiene en la lista por su fama, pero queda fuera de las zonas aceptadas por los dos ministerios.",
+   "firme": "Pista de arena y reg.",
+   "autonomia": "Repostar en Ouadane (gasolinera única y lenta); agua para el día y reserva.",
+   "riesgos": "Desaconsejada: el Richat está al este del meridiano 12° O, zona a la que el MAEC no recomienda viajar en ningún caso (la excepción es solo la ciudad de Ouadane). El FCDO desaconseja todo viaje salvo esencial, porque queda fuera de la excepción del oeste de la línea Choum–Ouadane (solo se excluye la ciudad de Ouadane). Viajar contra el FCDO puede invalidar el seguro. Si aun así se va: solo con agencia y guía local.",
+   "puntos": [
+    [
+     20.93373,
+     -11.61737
+    ],
+    [
+     21.11472,
+     -11.39417
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/adrar/ouadane",
+   "fuentes": [
+    {
+     "titulo": "ChingiTours – Richat Structure (30 km de pista desde Ouadane)",
+     "url": "https://www.chingitours.com/en/spot/richat-structure/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Richat Structure",
+     "url": "https://en.wikipedia.org/wiki/Richat_Structure",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC – Recomendaciones de viaje Mauritania",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mauritania",
+     "fecha": "2025-11"
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Pista del tren minero: Boulenouar – Ben Amera – Choum",
+   "desde": "Boulenouar (N2)",
+   "hasta": "Choum",
+   "km": 400,
+   "dias": 3,
+   "dificultad": "difícil",
+   "epoca": "Octubre a marzo",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Pista de unos 400 km que sigue la vía del tren de hierro, siempre a la vista o poco al norte, desde Boulenouar (junto a la N2) hasta Choum, pasando por Ben Amera en el km 360. Tiene cordones sucesivos de dunas bajas (Anezal) en el este, arena blanda, escalones y roderas. Sahara Overland la considera una buena introducción al desierto. Hoy existe un atajo asfaltado por Benichab que ahorra 200 km.",
+   "firme": "Arena y reg junto a la vía; cordones de dunas bajas redondeadas en la parte este.",
+   "autonomia": "Gasóleo y agua de bidón en los poblados junto a la vía (caros); gasóleo y albergue en Choum. Llevar autonomía completa.",
+   "riesgos": "Desaconsejada: la vía corre muy cerca de la frontera con el Sáhara Occidental. El FCDO desaconseja todo viaje salvo esencial a menos de 25 km de esa frontera (solo exceptúa la carretera Nuakchot–Nuadibú y la ciudad de Nuadibú). El MAEC pone la frontera con el Sáhara en riesgo alto y desaconseja expresamente ir por tierra de Nuadibú a Zuérat. Sahara Overland pide no desviarse al norte hacia la zona del Polisario. Calor y averías lejos de todo.",
+   "puntos": [
+    [
+     21.29,
+     -16.52
+    ],
+    [
+     21.23003,
+     -13.66437
+    ],
+    [
+     21.3,
+     -13.06667
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/dakhlet-nouadhibou/bou-lanouar",
+   "fuentes": [
+    {
+     "titulo": "Sahara Overland – Mauritania: the Railway Piste",
+     "url": "https://sahara-overland.com/2025/02/12/mauritania-the-railway-piste-440km/",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "Mapcarta – Boulenouar",
+     "url": "https://mapcarta.com/17540546",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta – Ben Amera",
+     "url": "https://mapcarta.com/27134378",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "MAEC – Recomendaciones de viaje Mauritania",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mauritania",
+     "fecha": "2025-11"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Pista de enlace Argelia–Mauritania: Hassi 75 – Aïn Ben Tili – Bir Moghrein – Zuérat",
+   "desde": "Hassi 75 (frontera argelina)",
+   "hasta": "Zuérat",
+   "km": 785,
+   "dias": 4,
+   "dificultad": "muy difícil",
+   "epoca": "Solo en la estación fresca (noviembre a febrero)",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "desaconsejada",
+   "desc": "Única conexión por tierra entre Tinduf y el norte de Mauritania, abierta en 2024. Tras el puesto de Hassi 75 no hay una pista única sino un haz de rodadas por zona arenosa, casi sin balizas, hasta el campamento sur de Aïn Ben Tili (unos 300 km); después, 240 km hasta Bir Moghrein y el resto hasta Zuérat por pista muy ondulada. Hay mástiles de telefonía cada ~30 km que funcionan como paradas con agua y comida. Una carretera nueva al este de la pista llevaba más de 100 km hechos en abril de 2026, pero la ruta seguía siendo toda de tierra.",
+   "firme": "Arena y reg sin traza definida al principio; pista ondulada desde Bir Moghrein, con una sebja lisa; berms al final y asfalto unos 15 km antes de Zuérat.",
+   "autonomia": "Unos 300 km de autonomía mínima desde Tinduf hasta Aïn Ben Tili (gasóleo en el campamento sur); gasolinera nueva en Bir Moghrein; gasóleo en Zuérat.",
+   "riesgos": "Desaconsejada: todo el tramo está en la zona del FCDO de «all travel» (al norte y este de Zuérat y F'Derik) y en la zona roja del MAEC (al este de 12° O y fronteras con Argelia y el Sáhara). Aïn Ben Tili es zona militar, con un ataque de dron marroquí en 2022 en la zona tampón cercana. Averiarse solo fuera de temporada puede ser grave; poco tráfico, casi solo camiones.",
+   "puntos": [
+    [
+     27.176,
+     -8.4331
+    ],
+    [
+     25.99452,
+     -9.55337
+    ],
+    [
+     25.217,
+     -11.617
+    ],
+    [
+     22.733,
+     -12.467
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Sahara Overland – Trans Sahara: Tindouf Route",
+     "url": "https://sahara-overland.com/routes/trans-sahara-tindouf-route/",
+     "fecha": "2026-04"
+    },
+    {
+     "titulo": "Mapcarta – Ain Ben Tili",
+     "url": "https://mapcarta.com/N2420923196",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Ain Ben Tili",
+     "url": "https://en.wikipedia.org/wiki/Ain_Ben_Tili",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Bir Moghrein",
+     "url": "https://en.wikipedia.org/wiki/Bir_Moghrein",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Zouérat",
+     "url": "https://en.wikipedia.org/wiki/Zou%C3%A9rat",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO – Mauritania: warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/mauritania/warnings-and-insurance",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "MAEC – Recomendaciones de viaje Mauritania",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Mauritania",
+     "fecha": "2025-11"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Nuakchot – Diama por la pista del Diawling",
+   "desde": "Nuakchot",
+   "hasta": "Presa y frontera de Diama",
+   "km": 230,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "Fuera de la estación de lluvias; en lluvias, impracticable.",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "recomendada",
+   "desc": "Salida a Senegal evitando el ferry de Rosso: carretera hacia el sur y, desde Bavreichiya, pista que atraviesa el Parque del Diawling siguiendo el dique hasta la presa de Diama, único puente terrestre entre ambos países en la zona. La frontera es pequeña y tranquila y deja cerca de Saint-Louis. El tramo de pista es lento pero sin dificultad técnica en seco.",
+   "firme": "Asfalto hasta Bavreichiya; después pista con baches y tôle (dos trazados paralelos, sobre el dique y a su lado). Variante más larga y medio asfaltada por el puerto de N'Diago.",
+   "autonomia": "Repostar en Nuakchot. Sin servicios en la pista.",
+   "riesgos": "Baches profundos; barro en lluvias; mosquitos (malaria). Tasa del parque (200 MRU por persona y día). Trámites largos en Diama (5 h en enero de 2026) y en 2026 dieron solo 48 h de passavant a un viajero. Fuera de zonas desaconsejadas por el FCDO; MAEC riesgo medio.",
+   "puntos": [
+    [
+     18.08528,
+     -15.9725
+    ],
+    [
+     17.25,
+     -16.0
+    ],
+    [
+     16.79007,
+     -16.09879
+    ],
+    [
+     16.60589,
+     -16.24133
+    ],
+    [
+     16.39078,
+     -16.35094
+    ],
+    [
+     16.21672,
+     -16.4149
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/mauritania/trarza",
+   "fuentes": [
+    {
+     "titulo": "Le P'tit Reporter – Frontière Mauritanie–Sénégal",
+     "url": "https://leptitreporter.com/frontiere-mauritanie-senegal-conseils-et-retour-dexperience/",
+     "fecha": ""
+    },
+    {
+     "titulo": "EV Overlanding – Nouakchott to Saint-Louis",
+     "url": "https://ev-overlanding.com/2026/02/21/there-and-back-again-an-ev-adventure-to-dakar-13-nouakchott-to-saint-louis/",
+     "fecha": "2026-02"
+    },
+    {
+     "titulo": "Scoot West Africa – Crossing the border between Mauritania and Senegal",
+     "url": "https://scootwestafrica.com/crossing-border-mauritania-senegal-rosso-diama/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Diama Dam",
+     "url": "https://en.wikipedia.org/wiki/Diama_Dam",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia – Tiguent",
+     "url": "https://en.wikipedia.org/wiki/Tiguent",
+     "fecha": ""
+    },
+    {
+     "titulo": "Sahara Overland – Mauritania (Diama como alternativa a Rosso)",
+     "url": "https://sahara-overland.com/mauritania/",
+     "fecha": "2026-05"
+    }
+   ],
+   "n": 7
+  }
+ ],
+ "notas": "Marco de seguridad usado. FCDO (act. 24-03-2026): «all travel» al este de la línea Kankossa–Akhreijit–Ghallaouia–Zuérat–F'Derik y hasta el Sáhara Occidental, y a 25 km de Malí; «all but essential» a 25 km de la frontera con el Sáhara Occidental (salvo la carretera Nuakchot–Nuadibú y Nuadibú) y al resto de Tiris Zemmour y partes de Adrar y Tagant, con excepciones: oeste de la línea Choum–Ouadane–meridiano 10° O a 18°40' N, ciudad de Ouadane, carretera Tidjikja–Tichit y Aleg–Tidjikja. MAEC (act. 19-11-2025): riesgo alto al este del meridiano 12° O y en las fronteras con Sáhara, Argelia y Malí, más una Zona Prohibida (Cheggat–Aïn Bentili–Dhar Tichitt–Lemreyye) donde se puede ser tratado como objetivo militar; riesgo medio entre la costa y 12° O; Chinguetti y Ouadane visitables con precaución y guías. Descartadas o solo en notas: Atar–Tidjikja (Sahara Overland la describe como carretera de 400 km a menudo cubierta de arena): Tidjikja está al este de 12° O, así que el MAEC la desaconseja, aunque el FCDO la admite; no se incluye como ruta. Tidjikja–Tichit y Dhar Tichitt–Néma: riesgo alto MAEC y cercanía a Malí. Al norte de Choum y cerca de Aïn Ben Tili: zona roja. Tergit = Terjit (mismo oasis; ya es PDI). Azougui: se llega por pista corta desde Atar, pero es visita cultural más que 4x4 y no se ha localizado coordenada fiable. Azoueiga (duna de 205 m): sin coordenada fiable, descartada. Dudas principales: (1) La pista de playa continua Nuakchot–Mamghar: los relatos que la describen son de 2015-2017; en 2023-2024 los viajeros llegan a Mamghar por asfalto y dentro del parque el guarda es obligatorio, así que no está confirmado que hoy se permita circular por toda la playa. Preguntar en la oficina del PNBA (Nuakchot/Chami/Mamghar). (2) Coordenadas aproximadas: paso de Amogjar (se usa el pico Agrour Amogjar, junto al paso), Choum (coordenada de Wikipedia a minuto de grado), Boulenouar y Bir Moghrein/Zuérat (coordenadas de Wikipedia/Mapcarta a 0,01°); el campamento sur de Aïn Ben Tili no tiene coordenada publicada y se usa la del pueblo. Rutas con menos de 6 puntos de paso (Richat 2, tren 3, Hassi 75 4) porque no he encontrado más puntos verificados; los km de Akjoujt–Atar (250), Atar–Ouadane (200), playa (280), Diama (230) y Hassi 75–Zuérat (785 = 860 Tinduf–Zuérat menos 75) son estimaciones, no medidas. (3) Revisar los textos de los PDIs generales Guelb er Richat (categoría «4x4 y geología») y Ben Amera: el Richat está en zona roja del MAEC y «all but essential» del FCDO; Ben Amera y Choum están a menos de 25 km de la frontera del Sáhara. Presiones de neumáticos: ninguna fuente da cifras; solo «bajar presiones». Perros: ninguna fuente menciona normas para perros en el PNBA ni en el Diawling. Wikiloc: listados vistos en resultados de búsqueda (Mauritania, Adrar, Atar, Choum, Chinguetti, Ouadane, Dakhlet Nouadhibou, Bou Lanouar, Nouakchott, Trarza, Tagant, Inchiri); las fichas de tracks dieron 403. Para Tiris Zemmour no se vio listado. | mauritanie-au-gps.fr (27-09-2026): la web ya no publica su guía GPS (página de itinerarios 410); de ella sale Hassi et Tâloghza; el resto se verificó con OSM/GeoNames/Wikipedia. Descartados por seguridad: cráter de Tenoumer, Oualata y Dhar Tichitt (FCDO «all travel» o MAEC riesgo alto). SOBRE LA FUENTE: mauritanie-au-gps.fr ya no es la antigua guía de itinerarios GPS: la página Itineraires.c.htm da error 410 y el archivo web está bloqueado. Hoy es un escaparate de expediciones (Trace Nomade, 2CV, Mission Archéo) que menciona lugares sin coordenadas. La única coordenada publicada en todo el sitio es la de Hassi et Talôghza (18° 54.182'N ; 12° 20.361'O, grados y minutos decimales, en la portada y en la versión inglesa). El resto de coordenadas salen de OSM/Mapcarta, GeoNames, Wikipedia y Extrem-Sud, y se indica en cada caso en gps_original. Páginas revisadas: MAURITANIE.AB, portada, Accueil_en_anglais.ZB, INFOS_DOCS.o, MISSION_ARCHEO.hB, Voyage-aventure.TB, Ultracyclime-gravel.LB, RECOS_REGLES.LB, POUR_ALLER_PLUS_LOIN.VB, TRACE_NOMADE_AI.t, Documents.BB, Liens.y, Documentaires.x, Deuxieme_edition.h. POR QUÉ SOLO 5 PDI Y 3 OFFROAD: el sitio da poco material fuera de lo que ya está en la guía y casi todo lo demás cae en zona roja. Oualata, Tichitt y Tenoumer se dejan como referencia con prio Baja y marcados como desaconsejados. DESCARTADOS por estar ya en la guía: Ben Amera/Aïcha, Chinguetti (incluidas sus minas subterráneas de banco), Ouadane, Guelb er Richat, Terjit, Atar, Banc d'Arguin/Iwik, guelta de M'Haïreth (= oasis de Mhaïreth del offroad), Erg Amatlich (y los yacimientos neolíticos de Khatt Leimateg, en el propio Amatlich), paso de Amogjar y sus pinturas, el tren minero. DESCARTADOS POR SEGURIDAD (fuera de la lista): Majâbat al Koubra, El Mrayer y Erg Maqteir (al este del 12° O, zonas 'all travel' o 'all but essential' y cerca de la Zona Prohibida del MAEC). Sebkha El Azrag, con huellas humanas de unos 10.000 años, a unos 70 km al ESE de Zuérat: FCDO 'all travel'; además está saqueada y dentro de zona minera. Akreijit (grabados): zona roja. Aouker (paleolagos): zona roja. DESCARTADOS POR FALTA DE DATOS: Arouakim (yacimiento ateriense, sin ubicación pública), El Ghaicha (zona arqueológica junto a la mina de Tasiast, acceso restringido previsible), Foum Arguin (dentro del Banc d'Arguin), 'Zaïda' (solo aparece en un nombre de imagen). DUDAS: (1) Matmata. El FCDO exceptúa solo la carretera Aleg–Moudjéria–Tidjikja y el Tagant al oeste de ella. Matmata está unos 25 km al este de Moudjéria, así que probablemente queda en 'all but essential'. Hay que comprobarlo sobre un mapa del trazado real de la carretera. El MAEC lo deja en riesgo medio. Point Afrique vende un circuito que pasa por Matmata. (2) El lago Gabou tiene coordenadas distintas según la fuente: OSM 18.279/-12.370, GeoNames 18.215/-12.369, Wikipedia 17°55'N 11°53'W (el sitio Ramsar entero). Se usa la de OSM. (3) Bellaat: coordenada aproximada (cabo Sainte-Anne) y ningún acceso publicado; puede requerir permi"
+}

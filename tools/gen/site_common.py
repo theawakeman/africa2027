@@ -180,6 +180,19 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .poi-carousel-count { position:absolute; right:8px; top:8px; z-index:2; padding:2px 7px;
   border-radius:99px; color:#fff; background:rgba(22,50,79,.78); font:700 10.5px/1.5 "Archivo",sans-serif; }
 .poi-grid > .poi-card { cursor:pointer; }
+/* 4x4 y offroad: tarjetas con borde ocre (misma familia que su capa del mapa) */
+.off-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px,1fr)); gap:16px; margin:12px 0 20px; }
+.off-card { background:var(--surface); border:1px solid var(--line); border-left:5px solid #D4A017; border-radius:10px; padding:14px 16px; font-family:"Archivo", "Helvetica Neue", Arial, sans-serif; font-size:14px; }
+.off-card.mal { border-left-color:#B43A3A; }
+.off-card h3 { margin:0 0 6px; font-size:16px; }
+.off-card .poi-tags span { margin-right:4px; }
+.off-card .off-estado { font-weight:700; }
+.off-card p { margin:8px 0; line-height:1.45; }
+.off-card .poi-decision { margin:6px 0; }
+.off-src { font-size:12.5px; line-height:1.5; margin-top:6px; color:var(--ink-soft); }
+.off-src a { word-break:break-word; }
+.off-h { margin-top:18px; }
+.off-notas { margin:10px 0; font-size:13.5px; color:var(--ink-soft); }
 .poi-grid > .poi-card .poi-desc:not(.dognote) { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:5; overflow:hidden; }
 .poi-grid > .poi-card .poi-details { display:none; }
 .poi-details { display:grid; gap:7px; }

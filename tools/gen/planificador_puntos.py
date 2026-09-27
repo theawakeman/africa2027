@@ -149,6 +149,9 @@ SIN_CONTROL = [["marruecos", "sahara-occidental"]]
 
 
 # ------------------------------------------------------------------ construir
+OFF_TIPO = {"dunas": "dunas", "pista": "pista", "paso": "paso técnico", "oasis": "oasis o bivac", "repostaje": "repostaje"}
+
+
 def construir(FULL, C, FRONTERAS, ISLAS):
     nombres = {c[0]: c[1].split(" (")[0] for c in C}
     geo = {f["properties"]["slug"]: f["geometry"]
@@ -162,6 +165,7 @@ def construir(FULL, C, FRONTERAS, ISLAS):
         vecinos.setdefault(b, {})[a] = (tipo, nota)
 
     puntos, fronteras, dudas = [], [], {"tiempo": [], "frontera": []}
+    rutas4 = []
     for slug, d in sorted(FULL.items()):
         for p in d.get("pois", []):
             dd, nota = dias(p.get("time", ""))
@@ -175,6 +179,25 @@ def construir(FULL, C, FRONTERAS, ISLAS):
                 "perro": perro(p.get("dog", "")), "perro_txt": p.get("dog", ""),
                 "ficha": f"paises/{slug}/#poi-{p['n']}",
             })
+        # 4x4 y offroad (content/offroad): puntos propios de la capa, con días orientativos por tipo
+        off = d.get("offroad", {})
+        for x in off.get("puntos", []):
+            puntos.append({
+                "id": f"{slug}-ox{x['n']}", "pais": slug, "n": x["n"], "nombre": x["name"],
+                "cat": "4x4 · " + OFF_TIPO.get(x.get("tipo"), "offroad"), "prio": x.get("dificultad", ""),
+                "lat": round(x["lat"], 5), "lon": round(x["lon"], 5), "tiempo": "",
+                "dias": {"dunas": 1, "oasis": 1, "pista": 0.5}.get(x.get("tipo"), 0),
+                "perro": x.get("perro", "sin_dato") if x.get("perro") in ("si", "condiciones", "no") else "sin_dato",
+                "perro_txt": x.get("perro", ""), "offroad": True, "guia": x.get("guia", ""),
+                "ficha": f"paises/{slug}/#ox-{x['n']}",
+            })
+        for r in off.get("rutas", []):
+            rutas4.append({"id": f"{slug}-rx{r['n']}", "pais": slug, "nombre": r["name"], "km": r.get("km") or 0,
+                           "dias": r.get("dias") or 0, "dificultad": r.get("dificultad", ""), "estado": r.get("estado", ""),
+                           "guia": r.get("guia", ""), "perro": r.get("perro", ""), "desc": r.get("desc", ""),
+                           "riesgos": r.get("riesgos", ""), "desde": r.get("desde", ""), "hasta": r.get("hasta", ""),
+                           "pts": [[round(a, 5), round(b, 5)] for a, b in r["puntos"]],
+                           "wikiloc": r.get("wikiloc", ""), "ficha": f"paises/{slug}/#rx-{r['n']}"})
         for i, lg in enumerate(d.get("logistics", [])):
             if "frontera" not in (lg.get("cat", "").lower()):
                 continue
@@ -233,7 +256,7 @@ def construir(FULL, C, FRONTERAS, ISLAS):
         if v["veredicto"] == "cerrada":
             f["estado"] = "cerrada"
     datos = {"version": 1, "puntos": puntos, "fronteras": fronteras,
-             "islas": sorted(ISLAS), "sin_control": SIN_CONTROL}
+             "islas": sorted(ISLAS), "sin_control": SIN_CONTROL, "rutas4x4": rutas4}
     return datos, dudas
 
 

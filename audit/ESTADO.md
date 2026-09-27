@@ -454,3 +454,22 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   por Tah); gambia-f6 es el puente de Senegambia, no un puesto; malaui-f6 «Kameme» dudoso.
 - Mapas de fichas y mapa general: al abrir solo se ven el viaje, los PDI y las fronteras; el resto se
   activa en la leyenda. Sin recuadro de foco al clicar un país.
+
+## 4x4 y offroad · fase 1: norte de África (27-09-2026)
+
+- `content/offroad/<pais>.json`: puntos (dunas, pistas, pasos técnicos, oasis/bivacs, repostaje) y rutas 4x4
+  con puntos de paso, dificultad, época, guía/permisos, perro, autonomía, riesgos y fuentes (MAEC, FCDO,
+  Sahara Overland, Wikipedia/GeoNames, crónicas 2021-2026). Marruecos 17 + 5 rutas; Sáhara Occidental 4 + 1;
+  Mauritania 18 + 7; Túnez 16 + 4; Argelia 17 + 6. Rutas desaconsejadas en rojo (Richat, tren minero,
+  Hassi 75–Zuérat, Tadrart Rouge, Tanezrouft). Trazados aproximados: no son para navegar.
+- mauritanie-au-gps.fr ya no publica su guía GPS (itinerarios con error 410): de ahí sale Hassi et Tâloghza;
+  se añaden también la pista a la guelta de Matmata y la laguna de Bellaat. Guelta de Matmata y lago Gabou
+  quedan pendientes como PDI generales hasta tener fotos verificadas; Tenoumer, Oualata y Dhar Tichitt,
+  descartados por seguridad.
+- Fichas: apartado «4x4 y offroad» con tarjetas, fuentes y enlaces a los listados de Wikiloc (solo enlaces).
+  Mapas: capas «4x4 y offroad» (rombos ocre) y «Rutas 4x4», apagadas al abrir.
+- Planificador: rombos 4x4 y rutas (casilla «Ver 4x4 y offroad»); una ruta se mete en la ida o la vuelta y
+  el tramo sigue su trazado. «Importar GPX» (Wikiloc u otros): se guarda solo en el navegador, con km,
+  países y zonas que cruza. Buscador de lugares (Nominatim) y de coordenadas (decimales, grados-minutos-
+  segundos o enlace de Google Maps). Los PDI van en un panel por encima de las zonas y se pueden tocar.
+- Pendiente: fase 2 con el resto de países de la ruta.

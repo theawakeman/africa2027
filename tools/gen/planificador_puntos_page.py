@@ -131,6 +131,17 @@ CSS = """
 .pp-mk.ida{background:#1E7A8A}.pp-mk.vuelta{background:#C47F17}.pp-mk.libre{border-style:dashed}
 /* Sin el recuadro de foco del navegador al clicar un país o una zona: basta el cambio de color */
 .leaflet-container path.leaflet-interactive:focus,.leaflet-container path.leaflet-interactive:focus-visible{outline:none}
+.pp-buscar{position:relative;display:flex;gap:6px;margin:6px 0 10px;font-family:"Archivo",sans-serif;z-index:1001}
+.pp-buscar input{flex:1;min-width:0;font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--ink)}
+.pp-buscar ul{position:absolute;top:100%;left:0;right:90px;margin:4px 0 0;padding:4px;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:9px;box-shadow:0 6px 18px rgba(0,0,0,.25);max-height:320px;overflow:auto}
+.pp-buscar li button{display:block;width:100%;text-align:left;background:none;border:0;padding:7px 8px;border-radius:6px;color:var(--ink);font:inherit;font-size:13.5px;cursor:pointer}
+.pp-buscar li button:hover,.pp-buscar li button:focus-visible{background:var(--line)}
+.pp-buscar li small{display:block;color:var(--ink-soft);font-size:11.5px}
+.pp-gpx{list-style:none;margin:6px 0 0;padding:0;font-size:13px}
+.pp-gpx li{display:flex;gap:6px;align-items:center;border-left:4px solid #7B3FA0;padding:3px 0 3px 8px;margin:4px 0}
+.pp-gpx li span{flex:1;min-width:0}.pp-gpx li small{display:block;color:var(--ink-soft)}
+.pp-mk4{width:14px;height:14px;background:#D4A017;border:2px solid #5C4300;transform:rotate(45deg);border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.35)}
+.pp-pop .pp-r4{font-size:12.5px;line-height:1.4;margin:4px 0}
 .pp-vd{display:inline-block;border-left:4px solid #9AA4AA;padding:1px 0 1px 7px;margin:3px 0;font-size:12.5px;color:var(--ink,#1F2A30)}
 .pp-fu a{display:block;font-size:12px;line-height:1.35;margin:2px 0;word-break:break-word}.pp-fu small{color:#5F6B72}
 .pp-pop p{font-size:12.5px;line-height:1.4;margin:4px 0 6px}.pp-pop .pp-fu{margin:4px 0 6px;max-height:150px;overflow:auto}.pp-pop small{display:block;color:#5F6B72}
@@ -285,6 +296,11 @@ def render(FULL, navbar, VERSION):
 <main style="max-width:1500px">
 <h2 style="margin-top:16px">Planificador</h2>
 <p class="pp-ayuda"><b>1.</b> Toca un país para ver sus puntos de interés. <b>2.</b> Toca un punto y añádelo a la <b style="color:#1E7A8A">ida</b> o a la <b style="color:#C47F17">vuelta</b>. <b>3.</b> Ordena arrastrando en la lista. La carretera, las fronteras, los km y los días salen solos. Clic derecho (o mantener pulsado) en cualquier sitio del mapa = «pasar por aquí». <button type="button" class="pp-b" id="pp-crear" aria-pressed="false">★ Crear un punto</button> para añadir un sitio tuyo (PDI, agua, camping, taller…): la app completa sola fotos, enlaces, servicios y clima. Todo se guarda en este navegador y funciona sin conexión.</p>
+<form class="pp-buscar" id="pp-buscar" autocomplete="off" role="search">
+  <input type="search" id="pp-buscar-q" placeholder="Busca un lugar (como en Google Maps) o pega coordenadas GPS o un enlace de Google Maps: 31.0802, -4.0133" aria-label="Buscar un lugar o unas coordenadas" data-1p-ignore data-lpignore="true">
+  <button type="submit" class="pp-b ida">Buscar</button>
+  <ul id="pp-buscar-res" hidden></ul>
+</form>
 <div class="pp-kpis" id="pp-kpis" aria-live="polite"></div>
 <div class="pp-tiempo" id="pp-tiempo"></div>
 <div class="pp-wrap">
@@ -322,9 +338,15 @@ def render(FULL, navbar, VERSION):
       <h3>Ajustes</h3>
       <div class="pp-row"><label>Salida de {esc(cfg['origen'])} <input type="date" id="pp-salida"></label></div>
       <div class="pp-row"><label>Km de conducción al día <input type="number" id="pp-kmdia" min="50" step="10" style="width:70px"></label><label>Margen % <input type="number" id="pp-margen" min="0" step="1" style="width:56px"></label></div>
-      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas y con guía obligatoria</label></div>
+      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas y con guía obligatoria</label><label><input type="checkbox" id="pp-ver4x4" checked> Ver 4x4 y offroad</label></div>
       <div class="pp-row"><label class="full">Países a evitar en la ruta <select id="pp-evitar-add"></select></label></div>
       <div class="pp-evitar" id="pp-evitar"></div>
+    </div>
+    <div class="pp-sec">
+      <h3>Rutas GPX <span class="cnt" id="pp-gpx-n"></span></h3>
+      <p class="pp-ayuda" style="margin:0 0 6px">Baja el GPX de Wikiloc (o de otra fuente) con tu cuenta e impórtalo: se dibuja en morado con sus km, los países y las zonas que cruza, y puedes meterlo en el viaje. Se queda solo en este navegador.</p>
+      <div class="pp-row"><label class="pp-b" style="cursor:pointer">Importar GPX<input type="file" id="pp-gpx-in" accept=".gpx,application/gpx+xml" multiple hidden></label></div>
+      <ul class="pp-gpx" id="pp-gpx"></ul>
     </div>
     <div class="pp-sec">
       <h3>Mis viajes</h3>

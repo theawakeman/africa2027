@@ -41,7 +41,7 @@ function punto(id){
   if (PUNTOS[id]) return PUNTOS[id];
   if (PROPIOS[id]) return PROPIOS[id];
   const l = S.libres[id];
-  return l ? {id, libre: true, nombre: l.nombre, pais: l.pais, lat: l.lat, lon: l.lon, dias: 0, cat: 'Paso por aquí', prio: '', perro: 'sin_dato', tiempo: ''} : null;
+  return l ? {id, libre: true, nombre: l.nombre, pais: l.pais, lat: l.lat, lon: l.lon, dias: 0, cat: l.r4 ? 'Ruta 4x4 · ' + (l.r4pos === 'a' ? 'inicio' : 'final') : 'Paso por aquí', prio: '', perro: 'sin_dato', tiempo: '', r4: l.r4 || null} : null;
 }
 const diasDe = p => (S.dias[p.id] != null && S.dias[p.id] !== '' ? parseFloat(S.dias[p.id]) || 0 : p.dias);
 
@@ -187,6 +187,127 @@ function puesto(x, y, desde, hacia){
   return best;
 }
 
+// ------------------------------------------------------------------ rutas 4x4 (content/offroad) y GPX importados
+const R4 = {}, GKEY = 'a27pp-gpx-v1';
+let GPX = {};
+try { GPX = JSON.parse(localStorage.getItem(GKEY) || '{}') || {}; } catch(e) { GPX = {}; }
+const guardaGPX = () => { try { localStorage.setItem(GKEY, JSON.stringify(GPX)); return true; } catch(e) { msg('No cabe más en el navegador: quita algún GPX.'); return false; } };
+const ruta4 = id => R4[id] || (GPX[id] ? {id, gpx: true, ...GPX[id]} : null);
+const largo = pts => pts.reduce((s, q, i) => s + (i ? hav(pts[i - 1], q) : 0), 0);
+const G_TXT = {no: 'sin guía', recomendado: 'guía recomendado', obligatorio: 'guía obligatorio', 'autorización': 'autorización previa'};
+// Tramo que sigue la ruta 4x4 o el GPX entre sus dos extremos (en el sentido que toque).
+function tramo4(r, a, b){
+  const n = r.pts.length, rev = hav(a, r.pts[n - 1]) + hav(b, r.pts[0]) < hav(a, r.pts[0]) + hav(b, r.pts[n - 1]) - 1;
+  const P = rev ? r.pts.slice().reverse() : r.pts, km = r.km || largo(P) * (r.gpx ? 1 : 1.2);
+  const nota = r.gpx ? 'GPX importado' : `${r.estado || 'ruta 4x4'} · ${G_TXT[r.guia] || r.guia || ''} · trazado aproximado por puntos de paso`;
+  return {pts: [a, ...P, b], km, real: true, pista: {nombre: r.nombre, km, pts: P, nota, rojo: r.estado === 'desaconsejada', r4: r.id}};
+}
+// Mete una ruta en el viaje: un «inicio» y un «final» seguidos, en el hueco y el sentido que menos km suman.
+function meterRuta(id, m){
+  const r = ruta4(id); if (!r) return;
+  if (Object.values(S.libres).some(l => l.r4 === id && (S.ida.concat(S.vuelta)).some(x => S.libres[x] === l))) { msg('Esa ruta ya está en el viaje.'); return; }
+  const n = r.pts.length, t = Date.now().toString(36), ia = 'libre-' + t + 'a', ib = 'libre-' + t + 'b';
+  const mk = (q, pos) => ({lat: q[0], lon: q[1], pais: paisDe(q[0], q[1]) || r.pais || '', nombre: (pos === 'a' ? 'Inicio · ' : 'Final · ') + r.nombre, r4: id, r4pos: pos});
+  const lista = m === 'ida' ? S.ida : S.vuelta;
+  const ini = m === 'ida' ? (R ? R.FI.f.pos : null) : (S.ida.length ? posDe(punto(S.ida[S.ida.length - 1])) : (R ? R.FI.f.pos : null));
+  const fin = m === 'vuelta' ? (R ? R.FV.f.pos : null) : null, pos = lista.map(x => posDe(punto(x)));
+  let best = [lista.length, false], bc = Infinity;
+  for (const rev of [false, true]) { const A = rev ? r.pts[n - 1] : r.pts[0], B = rev ? r.pts[0] : r.pts[n - 1];
+    for (let i = 0; i <= lista.length; i++) { const u = i ? pos[i - 1] : ini, v = i < lista.length ? pos[i] : fin;
+      const c = (u ? hav(u, A) : 0) + (v ? hav(B, v) : 0) - (u && v ? hav(u, v) : 0); if (c < bc) { bc = c; best = [i, rev]; } } }
+  S.libres[ia] = mk(best[1] ? r.pts[n - 1] : r.pts[0], 'a'); S.libres[ib] = mk(best[1] ? r.pts[0] : r.pts[n - 1], 'b');
+  lista.splice(best[0], 0, ia, ib);
+  [S.libres[ia].pais, S.libres[ib].pais].forEach(s => { if (s && PA[s] && !S.paises.includes(s)) S.paises.push(s); });
+  // Por pista se va más despacio: los días de la ruta que no cubre la conducción normal van en su final.
+  const extra = Math.max(0, Math.round(((r.dias || 0) - (r.km || largo(r.pts)) / Math.max(50, +S.kmdia || 300)) * 2) / 2);
+  if (extra) S.dias[ib] = extra;
+  save(); MAP && MAP.closePopup(); calcular(); msg(`<b>${esc(r.nombre)}</b> en la ${m}.`);
+}
+// Países y zonas que cruza una ruta (para el GPX)
+function cruza(pts){
+  const km = {}, zs = new Map();
+  for (let i = 1; i < pts.length; i++) { const a = pts[i - 1], b = pts[i], d = hav(a, b), m = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+    const s = paisDe(m[0], m[1]); if (s) km[s] = (km[s] || 0) + d;
+    const z = ZONAS.length ? zonaDe(m[0], m[1]) : null; if (z) zs.set(z.id, z); }
+  return {km, zonas: [...zs.values()]};
+}
+function popRuta(r){
+  const en = Object.values(S.libres).some(l => l.r4 === r.id && S.ida.concat(S.vuelta).some(x => S.libres[x] === l));
+  const acc = en ? '<div class="acc"><b>En tu viaje</b></div>' : `<div class="acc"><button type="button" class="pp-b big ida" data-r4="${esc(r.id)}|ida">+ Ida</button><button type="button" class="pp-b big vuelta" data-r4="${esc(r.id)}|vuelta">+ Vuelta</button></div>`;
+  if (r.gpx) { const c = cruza(r.pts);
+    return `<div class="pp-pop"><strong>${esc(r.nombre)}</strong><div class="meta">GPX importado · ${num(r.km)} km · ${r.pts.length} puntos</div>
+      <p class="pp-r4">Países: ${Object.entries(c.km).sort((a, b) => b[1] - a[1]).map(([s, k]) => esc(nom(s)) + ' ' + num(k) + ' km').join(', ') || '—'}</p>
+      ${c.zonas.length ? `<p class="pp-r4">Cruza: ${c.zonas.map(z => `<span class="pp-zona ${z.nivel}">${esc(z.nombre)}</span>`).join(' ')}</p>` : ''}
+      ${acc}<div class="lnk"><button type="button" class="a27-popup-expand" data-gpxq="${esc(r.id)}">Quitar el GPX</button></div></div>`; }
+  return `<div class="pp-pop"><strong>${esc(r.nombre)}</strong><div class="meta">Ruta 4x4 · ${esc(nom(r.pais))} · ~${num(r.km)} km · ${num(r.dias, 1)} d · ${esc(r.dificultad)}</div>
+    <span class="pp-zona ${r.estado === 'desaconsejada' ? 'rojo' : r.estado === 'recomendada' ? '' : 'naranja'}">${esc(r.estado)}</span> <span class="pp-r4">${esc(G_TXT[r.guia] || r.guia || '')}${r.perro ? ' · perro: ' + esc({si: 'sí', condiciones: 'con condiciones', no: 'no', sin_dato: 'sin dato'}[r.perro] || r.perro) : ''}</span>
+    <p class="pp-r4">${esc(r.desc)}</p>${r.riesgos ? `<p class="pp-r4"><b>Riesgos:</b> ${esc(r.riesgos)}</p>` : ''}
+    ${acc}<div class="lnk"><a href="${raiz}${esc(r.ficha)}" target="_blank" rel="noopener">Ver en la ficha</a>${r.wikiloc ? `<a href="${esc(r.wikiloc)}" target="_blank" rel="noopener">Wikiloc de la zona</a>` : ''}</div></div>`;
+}
+let CAPA_4 = null;
+function pintar4x4(){
+  if (!MAP) return;
+  if (!CAPA_4) CAPA_4 = L.layerGroup().addTo(MAP);
+  CAPA_4.clearLayers();
+  const ver = !$('pp-ver4x4') || $('pp-ver4x4').checked, act = $('pp-vertodos').checked ? null : new Set(S.paises);
+  const dib = (r, color) => L.polyline(r.pts, {pane: 'rutas', color, weight: 4, opacity: .85, dashArray: r.gpx ? null : '9 6'})
+    .bindTooltip((r.gpx ? 'GPX · ' : 'Ruta 4x4 · ') + esc(r.nombre) + ' · ~' + num(r.km) + ' km', {sticky: true})
+    .bindPopup(() => popRuta(r), {maxWidth: 330, minWidth: 250}).addTo(CAPA_4);
+  if (ver) Object.values(R4).forEach(r => { if (!act || act.has(r.pais)) dib(r, r.estado === 'desaconsejada' ? '#B43A3A' : '#9C6B00'); });
+  Object.keys(GPX).forEach(id => dib(ruta4(id), '#7B3FA0'));
+  const ul = $('pp-gpx'); if (ul) { const ks = Object.keys(GPX);
+    $('pp-gpx-n').textContent = ks.length ? ks.length + '' : '';
+    ul.innerHTML = ks.map(id => `<li><span><button type="button" class="pp-ver" data-gpxver="${esc(id)}">${esc(GPX[id].nombre)}</button><small>${num(GPX[id].km)} km</small></span><button type="button" class="pp-b ida" data-r4="${esc(id)}|ida" title="Meter en la ida">+ Ida</button><button type="button" class="pp-b vuelta" data-r4="${esc(id)}|vuelta" title="Meter en la vuelta">+ Vuelta</button><button type="button" class="pp-b x" data-gpxq="${esc(id)}" title="Quitar">✕</button></li>`).join(''); }
+}
+function leerGPX(file){
+  file.text().then(txt => {
+    const x = new DOMParser().parseFromString(txt, 'application/xml');
+    if (x.querySelector('parsererror')) throw new Error('no es un GPX válido');
+    let q = [...x.getElementsByTagName('trkpt')]; if (!q.length) q = [...x.getElementsByTagName('rtept')];
+    const all = q.map(e => [+e.getAttribute('lat'), +e.getAttribute('lon')]).filter(p => isFinite(p[0]) && isFinite(p[1]));
+    if (all.length < 2) throw new Error('no tiene track ni ruta');
+    const km = largo(all);
+    // Se simplifica a un punto cada ~300 m (y 1.500 como mucho) para que quepa en el navegador
+    let pts = [all[0]]; all.forEach(p => { if (hav(pts[pts.length - 1], p) > .3) pts.push(p); }); pts.push(all[all.length - 1]);
+    if (pts.length > 1500) { const k = Math.ceil(pts.length / 1500); pts = pts.filter((p, i) => i % k === 0 || i === pts.length - 1); }
+    pts = pts.map(p => [Math.round(p[0] * 1e5) / 1e5, Math.round(p[1] * 1e5) / 1e5]);
+    const nm = (x.querySelector('trk > name') || x.querySelector('metadata > name') || x.querySelector('rte > name') || {}).textContent || file.name.replace(/\.gpx$/i, '');
+    const id = 'gpx-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+    GPX[id] = {nombre: nm.trim().slice(0, 90), km: Math.round(km * 10) / 10, pts, pais: paisDe(pts[0][0], pts[0][1]) || ''};
+    if (!guardaGPX()) { delete GPX[id]; return; }
+    pintar4x4(); MAP.fitBounds(L.latLngBounds(pts), {padding: [30, 30]});
+    msg(`GPX <b>${esc(GPX[id].nombre)}</b>: ${num(km)} km. Tócalo en el mapa para ver lo que cruza o meterlo en el viaje.`);
+  }).catch(e => msg('No se ha podido leer ' + esc(file.name) + ': ' + esc(e.message || e)));
+}
+// Buscador: nombre de un lugar (Nominatim) o coordenadas en cualquier formato habitual, o un enlace de Google Maps.
+function coords(t){
+  t = t.trim();
+  let m = t.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/) || t.match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/) || t.match(/[?&](?:q|ll|query|destination)=(-?\d+\.?\d*)\s*(?:,|%2C)\s*(-?\d+\.?\d*)/i);
+  if (m) return [+m[1], +m[2]];
+  const dms = [...t.matchAll(/(\d+(?:[.,]\d+)?)\s*[°º]\s*(?:(\d+(?:[.,]\d+)?)\s*['’′])?\s*(?:(\d+(?:[.,]\d+)?)\s*(?:["”″]|''))?\s*([NSEWOnsewo])/g)];
+  if (dms.length === 2) { const v = dms.map(x => { let d = +x[1].replace(',', '.') + (+(x[2] || '0').replace(',', '.')) / 60 + (+(x[3] || '0').replace(',', '.')) / 3600; return /[SWOswo]/.test(x[4]) ? -d : d; });
+    return /[NSns]/.test(dms[0][4]) ? v : [v[1], v[0]]; }
+  m = t.match(/^(-?\d+(?:\.\d+)?)\s*°?\s*([NS])?[\s,;]+(-?\d+(?:\.\d+)?)\s*°?\s*([EWO])?$/i);
+  if (m) { let a = +m[1], b = +m[3]; if (m[2] && /s/i.test(m[2])) a = -Math.abs(a); if (m[4] && /[wo]/i.test(m[4])) b = -Math.abs(b); return [a, b]; }
+  return null;
+}
+function irA(lat, lon, nombre){
+  $('pp-buscar-res').hidden = true;
+  if (!(Math.abs(lat) <= 90 && Math.abs(lon) <= 180)) { msg('Coordenadas fuera de rango.'); return; }
+  MAP.setView([lat, lon], Math.max(MAP.getZoom(), 10));
+  $('pp-mapa').scrollIntoView({behavior: 'smooth', block: 'center'});
+  setTimeout(() => libre({lat, lng: lon}, nombre), 350);
+}
+function buscar(q){
+  const c = coords(q); if (c) { irA(c[0], c[1], ''); return; }
+  if (q.trim().length < 3) return;
+  const ul = $('pp-buscar-res'); ul.hidden = false; ul.innerHTML = '<li><small>Buscando…</small></li>';
+  fetch('https://nominatim.openstreetmap.org/search?format=jsonv2&limit=8&accept-language=es&viewbox=-26,38,60,-36&q=' + encodeURIComponent(q))
+    .then(r => r.json()).then(js => {
+      ul.innerHTML = js.length ? js.map(x => `<li><button type="button" data-irla="${x.lat}|${x.lon}|${esc(x.name || x.display_name.split(',')[0])}">${esc(x.name || x.display_name.split(',')[0])}<small>${esc(x.display_name)}</small></button></li>`).join('') : '<li><small>Sin resultados. Prueba con otro nombre o pega las coordenadas.</small></li>';
+    }).catch(() => { ul.innerHTML = '<li><small>Sin conexión con el buscador. Las coordenadas sí funcionan sin conexión.</small></li>'; });
+}
+
 // ------------------------------------------------------------------ cruces de frontera fuera de puesto
 const tNom = w => w.tipo === 'punto' ? w.p.nombre.split(' · ')[0] : (w.nombre || '');
 // Recorre la carretera cada ~5 km. Devuelve el primer tramo de más de 25 km en un país que no toca
@@ -251,7 +372,7 @@ function calcular(){
   const tramos = [];
   for (let i = 1; i < seq.length; i++) {
     const A = seq[i - 1], B = seq[i];
-    let e = tramo(A.pos, B.pos);
+    let e = (A.tipo === 'punto' && B.tipo === 'punto' && A.p.r4 && A.p.r4 === B.p.r4 && ruta4(A.p.r4)) ? tramo4(ruta4(A.p.r4), A.pos, B.pos) : tramo(A.pos, B.pos);
     // Ningún tramo puede cambiar de país fuera de un puesto oficial. Si la carretera calculada lo hace,
     // se prueba con las alternativas del servidor de rutas; si ninguna sirve, se marca en rojo.
     if (e.real && !e.rodeo && !e.pista && POLIS.length) {
@@ -332,7 +453,7 @@ function calcular(){
   const pNo = todos.filter(p => p.perro === 'no');
   if (sinPerro) avisos.push({rojo: false, ir: {punto: pNo[0].id}, t: `${sinPerro} punto${sinPerro > 1 ? 's' : ''} donde el perro no puede entrar: ${pNo.slice(0, 3).map(p => `<strong>${esc(p.nombre.split(' · ')[0])}</strong> (${esc(nom(p.pais))})`).join(', ')}${sinPerro > 3 ? ' y ' + (sinPerro - 3) + ' más' : ''}.`});
   const pistas = [...new Set(tramos.filter(t => t.pista).map(t => t.pista))];
-  pistas.forEach(pi => avisos.push({rojo: true, ir: {pts: pi.pts}, t: `Tramo por <strong>${esc(pi.nombre)}</strong> (~${num(pi.km)} km aproximados): ${esc(pi.nota)}.`}));
+  pistas.forEach(pi => avisos.push({rojo: pi.rojo !== false, ir: {pts: pi.pts}, t: `Tramo por <strong>${esc(pi.nombre)}</strong> (~${num(pi.km)} km aproximados): ${esc(pi.nota)}.`}));
   const rodeos = tramos.filter(t => t.rodeo).length;
   if (rodeos) avisos.push({rojo: true, ir: {pts: tramos.filter(t => t.rodeo).flatMap(t => [t.pts[0], t.pts[t.pts.length - 1]])}, t: `${rodeos} tramo${rodeos > 1 ? 's' : ''} sin carretera razonable en el mapa de rutas (daba un rodeo de más del doble, a menudo por una frontera cerrada o una pista sin cartografiar): en línea recta con km estimados. Revisa el paso.`});
   const aprox = tramos.filter(t => !t.real).length;
@@ -827,10 +948,14 @@ function pintarPuntos(){
   Object.values(PROPIOS).forEach(p => { if (sel.has(p.id)) return;
     conPopup(L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: `<div class="pp-mkp${p.clase === 'log' ? ' log' : ''}">★</div>`, iconSize: [20, 20], iconAnchor: [10, 10]}), zIndexOffset: 200})
       .bindTooltip(esc(p.nombre) + ' · punto propio'), p).addTo(CAPA_P); });
+  const v4 = !$('pp-ver4x4') || $('pp-ver4x4').checked;
   Object.values(PUNTOS).forEach(p => {
     if (sel.has(p.id) || (act && !act.has(p.pais))) return;
+    if (p.offroad) { if (v4) conPopup(L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: '<div class="pp-mk4"></div>', iconSize: [14, 14], iconAnchor: [7, 7]}), zIndexOffset: 100})
+      .bindTooltip(esc(p.nombre) + ' · ' + esc(p.cat)), p).addTo(CAPA_P); return; }
     const imp = /imprescindible/i.test(p.prio);
-    conPopup(L.circleMarker([p.lat, p.lon], {radius: imp ? 6.5 : 5, color: '#fff', weight: 1.5, fillColor: p.perro === 'no' ? '#8A949A' : '#46535B', fillOpacity: .9})
+    // En su propio panel, por encima de las zonas: siempre se pueden tocar
+    conPopup(L.circleMarker([p.lat, p.lon], {pane: 'puntos', radius: imp ? 6.5 : 5, color: '#fff', weight: 1.5, fillColor: p.perro === 'no' ? '#8A949A' : '#46535B', fillOpacity: .9})
       .bindTooltip(esc(p.nombre)), p).addTo(CAPA_P);
   });
 }
@@ -859,7 +984,7 @@ function pintarRuta(){
   if ($('pp-verfr').checked) FRTODAS.forEach(f => {
     if (R.seq.some(w => w.f === f)) return;
     const v = vDe(f);
-    L.circleMarker([f.lat, f.lon], {radius: 5, color: '#fff', weight: 1.5, fillColor: V_COL[v], fillOpacity: 1})
+    L.circleMarker([f.lat, f.lon], {pane: 'puntos', radius: 5, color: '#fff', weight: 1.5, fillColor: V_COL[v], fillOpacity: 1})
       .bindTooltip(esc(f.nombre) + ' · ' + esc(nom(f.pais)) + ' – ' + esc(nom(f.otro)) + ' · ' + V_TXT[v]).bindPopup(popFrontera(f), {maxWidth: 340, minWidth: 260}).addTo(CAPA_FR);
   });
   const pts = [[R.FI.f, 'Llegada'], [R.FV.f, 'Salida']];
@@ -904,7 +1029,7 @@ function pintar(){
     $('pp-avisos').innerHTML = R.avisos.map((a, i) => a.ir ? `<li class="${a.rojo ? 'rojo' : ''} ir" data-aviso="${i}" role="button" tabindex="0" title="Ver en el mapa">${a.t}<span class="ver">Ver en el mapa ›</span></li>` : `<li class="${a.rojo ? 'rojo' : ''}">${a.t}</li>`).join('');
   }
   $('pp-salida').value = S.salida || CFG.salida; $('pp-kmdia').value = S.kmdia; $('pp-margen').value = S.margen;
-  if (MAP) { estiloPaises(); pintarPuntos(); pintarSel(); pintarRuta(); }
+  if (MAP) { estiloPaises(); pintarPuntos(); pintarSel(); pintarRuta(); pintar4x4(); }
   pintarKPIs(); pintarTiempo(); pintarPresupuesto(); pintarWeb(); pintarEvitar();
   paintViajes();
 }
@@ -972,11 +1097,11 @@ function popPais(s, latlng){
   const recs = (PA[s].rec || []).map(r => `<div style="margin:5px 0"><div style="font-size:12px;color:#5F6B72">Recorrido ${esc(r.id)} · ${esc(r.l.length > 60 ? r.l.slice(0, 58) + '…' : r.l)}</div><div class="acc"><button type="button" class="pp-b ida" data-rec="${s}|${esc(r.id)}|ida">A la ida</button><button type="button" class="pp-b vuelta" data-rec="${s}|${esc(r.id)}|vuelta">A la vuelta</button></div></div>`).join('');
   L.popup({maxWidth: 320}).setLatLng(latlng).setContent(`<div class="pp-pop"><strong>${esc(nom(s))}</strong><div class="meta">${(PORPAIS[s] || []).length} puntos de interés${PA[s].cf ? ' · <b style="color:#B43A3A">país en conflicto</b>' : ''}</div>${recs ? '<div style="font-size:12px;margin-bottom:2px">Atajo: añadir los puntos de un recorrido de la ficha</div>' + recs : ''}<div class="acc" style="margin-top:8px"><button type="button" class="pp-b" data-ocultar="${s}">Ocultar sus puntos</button><button type="button" class="pp-b" data-evitar="${s}">${S.evitar.includes(s) ? 'Dejar de evitar' : 'Evitar en la ruta'}</button><a href="${raiz}paises/${s}/" target="_blank" rel="noopener" style="font-size:12px;align-self:center">Ficha del país</a></div></div>`).openOn(MAP);
 }
-function libre(latlng){
+function libre(latlng, nombre){
   const s = paisDe(latlng.lat, latlng.lng);
   if (!s) { msg('Ese punto no cae en ningún país del mapa.'); return; }
   const id = 'libre-' + Date.now().toString(36);
-  S.libres[id] = {lat: Math.round(latlng.lat * 1e5) / 1e5, lon: Math.round(latlng.lng * 1e5) / 1e5, pais: s, nombre: 'Paso por aquí · ' + nom(s)};
+  S.libres[id] = {lat: Math.round(latlng.lat * 1e5) / 1e5, lon: Math.round(latlng.lng * 1e5) / 1e5, pais: s, nombre: nombre ? nombre + ' · ' + nom(s) : 'Paso por aquí · ' + nom(s)};
   const p = punto(id);
   L.popup({maxWidth: Math.max(200, Math.min(320, MAP.getSize().x - 70)), minWidth: 200}).setLatLng(latlng).setContent(popPunto(p)).openOn(MAP);
   MAP.once('popupclose', () => { if (S.libres[id] && !S.ida.includes(id) && !S.vuelta.includes(id)) delete S.libres[id]; });
@@ -1069,6 +1194,13 @@ document.addEventListener('click', e => {
   const fi = e.target.closest('[data-ficha]'); if (fi) { abrirFicha(fi.dataset.ficha); return; }
   const cr = e.target.closest('[data-crear]'); if (cr) { const [la, lo] = cr.dataset.crear.split(',').map(Number); crearEn({lat: la, lng: lo}); return; }
   const ed = e.target.closest('[data-editar]'); if (ed) { editarPropio(ed.dataset.editar); return; }
+  const r4 = e.target.closest('[data-r4]'); if (r4) { const [id, m] = r4.dataset.r4.split('|'); meterRuta(id, m); return; }
+  const gq = e.target.closest('[data-gpxq]'); if (gq) { const id = gq.dataset.gpxq;
+    if (S.ida.concat(S.vuelta).some(x => S.libres[x] && S.libres[x].r4 === id)) { msg('Ese GPX está en el viaje: quita antes su inicio y su final.'); return; }
+    delete GPX[id]; guardaGPX(); MAP && MAP.closePopup(); pintar4x4(); return; }
+  const gv = e.target.closest('[data-gpxver]'); if (gv) { const r = ruta4(gv.dataset.gpxver); if (r) { MAP.fitBounds(L.latLngBounds(r.pts), {padding: [30, 30]}); $('pp-mapa').scrollIntoView({behavior: 'smooth', block: 'center'}); } return; }
+  const il = e.target.closest('[data-irla]'); if (il) { const [la, lo, nm] = il.dataset.irla.split('|'); irA(+la, +lo, nm); return; }
+  if (!e.target.closest('#pp-buscar') && $('pp-buscar-res')) $('pp-buscar-res').hidden = true;
   const ev = e.target.closest('[data-evitar]');
   if (ev) { const s = ev.dataset.evitar; if (S.evitar.includes(s)) S.evitar = S.evitar.filter(x => x !== s);
     else { if (S.ida.concat(S.vuelta).some(id => (punto(id) || {}).pais === s)) { msg(`${esc(nom(s))} tiene puntos en tu viaje: quítalos antes de evitarlo.`); return; } S.evitar.push(s); S.paises = S.paises.filter(x => x !== s); }
@@ -1108,9 +1240,11 @@ document.addEventListener('change', e => {
     if (e.target.checked) { publicar(R); msg('El mapa general y las fichas usan ahora este viaje.'); } else msg('La web usará el viaje del Planificador clásico en cuanto lo abras.');
     pintarWeb(); return;
   }
-  if (e.target.id === 'pp-vertodos') pintarPuntos();
+  if (e.target.id === 'pp-vertodos' || e.target.id === 'pp-ver4x4') { pintarPuntos(); pintar4x4(); }
+  if (e.target.id === 'pp-gpx-in' && e.target.files.length) { [...e.target.files].forEach(leerGPX); e.target.value = ''; }
   if (e.target.id === 'pp-importar' && e.target.files[0]) { importar(e.target.files[0]); e.target.value = ''; }
 });
+$('pp-buscar').addEventListener('submit', e => { e.preventDefault(); buscar($('pp-buscar-q').value); });
 $('pp-ord-ida').addEventListener('click', () => ordenar('ida'));
 $('pp-ord-vuelta').addEventListener('click', () => ordenar('vuelta'));
 $('pp-guardar').addEventListener('click', guardarViaje);
@@ -1137,11 +1271,12 @@ function iniciarMapa(){
     onEachFeature: (f, lay) => { const s = f.properties.slug; if (!PA[s]) return;
       lay.bindTooltip(nom(s) + (PA[s].cf ? ' · en conflicto' : ''), {sticky: true});
       lay.on('click', ev => { if (CREANDO) { L.DomEvent.stop(ev); crearEn(ev.latlng); return; } if (S.paises.includes(s)) popPais(s, ev.latlng); else alternarPais(s); }); }}).addTo(MAP);
-  MAP.createPane('zonas').style.zIndex = 405; MAP.createPane('rutas').style.zIndex = 415;
+  MAP.createPane('zonas').style.zIndex = 405; MAP.createPane('rutas').style.zIndex = 415; MAP.createPane('puntos').style.zIndex = 425;
   try { if ($('pp-verzonas')) $('pp-verzonas').checked = localStorage.getItem('a27pp-zonas') !== '0'; } catch(e) {}
   pintarZonas();
   CAPA_RUTA = L.layerGroup().addTo(MAP); CAPA_FR = L.layerGroup().addTo(MAP); CAPA_P = L.layerGroup().addTo(MAP); CAPA_SEL = L.layerGroup().addTo(MAP);
   MAP.on('contextmenu', ev => libre(ev.latlng));
+  pintar4x4();
   MAP.on('click', ev => { if (CREANDO) crearEn(ev.latlng); });
   encuadrar();
 }
@@ -1153,6 +1288,7 @@ Promise.all([
   d.fronteras.filter(f => f.tipo === 'terrestre' && f.otro && f.fiable && f.oficial && ['abierta', 'revisar'].includes(f.estado) && vDe(f) !== 'cerrada').forEach(f => {
     const k = f.pais < f.otro ? f.pais + '|' + f.otro : f.otro + '|' + f.pais; (FRPAR[k] = FRPAR[k] || []).push(f); });
   FRTODAS = d.fronteras.filter(f => f.tipo === 'terrestre' && f.otro);
+  (d.rutas4x4 || []).forEach(r => { R4[r.id] = r; });
   (d.sin_control || []).forEach(([a, b]) => { SINCTRL.add(a + '|' + b); SINCTRL.add(b + '|' + a); });
   const recPts = s => (PA[s] && PA[s].rec || []).flatMap(r => r.pts);
   Object.values(FRPAR).flat().forEach(f => { const q = [f.lat, f.lon]; f.cerca = recPts(f.pais).concat(recPts(f.otro)).some(x => hav(q, x) <= 25); });

@@ -1,0 +1,987 @@
+{
+ "pais": "marruecos",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Erg Chebbi (acceso por Hassi Labied)",
+   "tipo": "dunas",
+   "lat": 31.13444,
+   "lon": -4.02611,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Octubre a abril; primavera y otoño ideales. Verano con unos 43 °C.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas específicas encontradas. Arena muy caliente y calor extremo fuera de temporada. El MAEC avisa de muchos perros callejeros sin vacunar (rabia).",
+   "autonomia": "Poca: la vuelta al erg son 80-100 km. Llegar con depósito y agua llenos: ViaMichelin no muestra ninguna gasolinera en Merzouga, así que hay que repostar antes (Rissani/Erfoud, por confirmar).",
+   "desc": "Es el gran erg de Marruecos: unos 28 km de norte a sur, 5-7 km de ancho y dunas de hasta 150 m sobre la hamada. Hassi Labied es el pueblo del borde occidental, junto a Merzouga, donde empieza y acaba la vuelta al Erg Chebbi, que alterna tramos compactos y arena blanda.",
+   "acceso": "Por carretera asfaltada hasta Merzouga y Hassi Labied. Luego, pistas de hamada y arena por el perímetro del erg. Hay que desinflar antes de meterse en arena blanda. Las dunas grandes, mejor con guía local.",
+   "riesgos": "Arena blanda y encalladas. Calor. La cara este del erg está cerca de la frontera argelina, que está cerrada y vigilada (FCDO); allí conviene no alejarse hacia el este. El MAEC aconseja evitar las zonas desérticas sin señalizar y las cercanas a Argelia.",
+   "cerca": "Merzouga/Erg Chebbi",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/hassilabied",
+   "fuentes": [
+    {
+     "titulo": "Erg Chebbi (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Erg_Chebbi",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Hassi Labied",
+     "url": "https://www.geonames.org/search.html?q=Hassi+Labied&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "Itinéraire moto autour de l'erg Chebbi – Aventuratrail",
+     "url": "https://aventuratrail.com/fr/blogs/spain/ruta-en-moto-alrededor-del-desierto-de-erg-chebbi-merzouga-guia-completa-2025",
+     "fecha": "2025"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "M'Fis – cara sureste del Erg Chebbi",
+   "tipo": "pista",
+   "lat": 31.04143,
+   "lon": -3.95066,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Octubre a abril",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Calor y arena caliente. No hay servicios. Sin datos sobre normas.",
+   "autonomia": "Tramo corto (vuelta de 80-100 km) pero sin servicios. Llegar con depósito lleno y agua.",
+   "desc": "M'Fis es un antiguo pueblo minero abandonado al sureste del Erg Chebbi. Es la parte más aislada de la vuelta al erg. La variante estándar de la vuelta pasa por aquí y la fácil lo evita. Desde aquí se ve la cara oriental de las dunas, con mucho menos tráfico que en Merzouga.",
+   "acceso": "Desde Merzouga hacia el sur por Khamlia y luego al este por pistas de hamada con tramos de arena blanda.",
+   "riesgos": "Es una zona sensible por la cercanía a la frontera argelina: no ir hacia el este sin motivo y respetar la señalización. Arena blanda y navegación.",
+   "cerca": "Merzouga/Erg Chebbi",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/hassilabied",
+   "fuentes": [
+    {
+     "titulo": "Itinéraire moto autour de l'erg Chebbi – Aventuratrail",
+     "url": "https://aventuratrail.com/fr/blogs/spain/ruta-en-moto-alrededor-del-desierto-de-erg-chebbi-merzouga-guia-completa-2025",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "GeoNames: Mfis",
+     "url": "https://www.geonames.org/search.html?q=Mfis&country=MA",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Taouz – inicio de la pista Merzouga–Zagora",
+   "tipo": "pista",
+   "lat": 30.90722,
+   "lon": -3.99583,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Octubre a abril. Evitar después de lluvias fuertes.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Etapa larga con calor y sin sombra. Llevar agua de sobra para el perro.",
+   "autonomia": "Unos 280-300 km de pista hasta Tagounite/Zagora. Salir con depósitos llenos (no hay gasolinera confirmada en Merzouga) (gasóleo confirmado en M'Hamid y, según un foro, en Tagounite) y agua para 2 días.",
+   "desc": "Taouz es el pueblo al sur de Merzouga donde se acaba el asfalto y empieza la pista clásica hacia Ramlia, Tafraoute Sidi Ali y el valle del Draa. La travesía cruza lechos de oued, llanuras de arcilla, tramos de arena y pistas pedregosas, con controles militares amables en el camino. Es una de las travesías de desierto más conocidas de Marruecos que se pueden hacer sin permisos especiales.",
+   "acceso": "Carretera asfaltada desde Merzouga. En Taouz empieza la pista. Hay que evitar ir directo de Taouz a Ouzina: unos 10 km de arena blanda en oueds.",
+   "riesgos": "Arena blanda y fech-fech. Oued Taouz en la frontera con Argelia (cerrada). Controles de pasaporte. Las inundaciones de septiembre de 2024 dañaron pistas del sur. El MAEC recomienda viajar con más de un vehículo, preferiblemente 4x4.",
+   "cerca": "Merzouga/Erg Chebbi",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Taouz",
+     "url": "https://www.geonames.org/search.html?q=Taouz&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "piste Taouz (Merzouga) > Tagounit – GS France",
+     "url": "https://gsfr.forumactif.com/t42705-piste-taouz-merzouga-tagounit-mhamid-et-lac-iriki",
+     "fecha": ""
+    },
+    {
+     "titulo": "From Merzouga to Zagora – we-travel.at",
+     "url": "https://we-travel.at/from-merzouga-to-zagora/",
+     "fecha": "2025-01"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Ramlia – paso de fech-fech",
+   "tipo": "paso",
+   "lat": 30.68528,
+   "lon": -4.41583,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "Octubre a abril. Peor después de tormentas de arena o con mucho tráfico.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Si toca desatascar al sol, el perro necesita sombra y agua.",
+   "autonomia": "Punto intermedio de la pista Merzouga–Zagora. No hay repostaje confirmado.",
+   "desc": "Ramlia es un pequeño oasis en la pista Taouz–Tafraoute Sidi Ali. Cerca está el tramo más delicado de la travesía: varios kilómetros de fech-fech (polvo muy fino) donde es fácil quedarse clavado. En los foros aconsejan no entrar a Ramlia por el este, porque la arena entre las palmeras es profunda y blanda. Existe una variante por el paso de M'Harech que evita parte de este tramo.",
+   "acceso": "Por pista desde Taouz. Hay que desinflar, mantener la inercia y seguir las rodadas más usadas. Si hace falta, variante por el norte (paso de M'Harech).",
+   "riesgos": "Fech-fech de 3-4 km, encalladas y sobrecalentamiento. Zona cercana a la frontera argelina con controles militares.",
+   "cerca": "Merzouga/Erg Chebbi",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/ramlia",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Ramlia",
+     "url": "https://www.geonames.org/search.html?q=Ramlia&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "Piste Merzouga - Zagora (en 4x4) – VoyageForum",
+     "url": "https://voyageforum.com/forum/piste-merzouga-zagora-en-4x4-d9171551/",
+     "fecha": "2018-10"
+    },
+    {
+     "titulo": "piste Taouz (Merzouga) > Tagounit – GS France",
+     "url": "https://gsfr.forumactif.com/t42705-piste-taouz-merzouga-tagounit-mhamid-et-lac-iriki",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Tafraoute Sidi Ali",
+   "tipo": "oasis",
+   "lat": 30.67351,
+   "lon": -4.68907,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Octubre a abril",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "No hay información sobre alojamientos que admitan perros.",
+   "autonomia": "No hay gasolinera confirmada. Es un buen sitio para parar a comer a mitad de travesía.",
+   "desc": "Pueblo-oasis a mitad de la pista Merzouga–Zagora, rodeado de gara y dunas pequeñas (la duna Zereg está a unos 4 km al este). Los viajeros lo recomiendan como parada para comer y tiene cobertura de internet. A unos 15 km al noreste hay un albergue-camping en Foum Mharech.",
+   "acceso": "Por pista desde Ramlia (unos 26 km) o desde Oum Jrane (unos 40 km al oeste).",
+   "riesgos": "Navegación entre pistas paralelas y nombres que cambian según el mapa. Calor.",
+   "cerca": "Merzouga/Erg Chebbi",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet",
+   "fuentes": [
+    {
+     "titulo": "Tafraout Sidi Ali – Mapcarta",
+     "url": "https://mapcarta.com/N2149779320",
+     "fecha": ""
+    },
+    {
+     "titulo": "From Merzouga to Zagora – we-travel.at",
+     "url": "https://we-travel.at/from-merzouga-to-zagora/",
+     "fecha": "2025-01"
+    },
+    {
+     "titulo": "Piste Merzouga - Zagora (en 4x4) – VoyageForum",
+     "url": "https://voyageforum.com/forum/piste-merzouga-zagora-en-4x4-d9171551/",
+     "fecha": "2018-10"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Lago Maider (Daya el Maïder)",
+   "tipo": "paso",
+   "lat": 30.73778,
+   "lon": -4.79056,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Octubre a abril. No cruzar si ha llovido hace poco.",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "",
+   "autonomia": "Sin servicios. Queda entre Tafraoute Sidi Ali y Oum Jrane.",
+   "desc": "Es una depresión inundable y temporal (daya) del Maïder, al oeste de Tafraoute Sidi Ali. La llanura de inundación del Maïder forma parte de la travesía Merzouga–Zagora. Es un paisaje muy abierto, con relieves de gara alrededor.",
+   "acceso": "Por las pistas de la travesía Merzouga–Zagora. El firme es arcilla y arena. Si está mojado, rodearlo.",
+   "riesgos": "Barro después de lluvias: en septiembre de 2024 las inundaciones dañaron las pistas del sur. Navegación sin referencias.",
+   "cerca": "Merzouga/Erg Chebbi",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Daya el Maïder",
+     "url": "https://www.geonames.org/search.html?q=Maider&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "Piste Zagora-Merzouga, quelques curiosités – 4x4 Mag",
+     "url": "https://www.4x4-mag.com/Piste-Zagora-Merzouga-quelques-curiosites_a257.html",
+     "fecha": "2014-12"
+    },
+    {
+     "titulo": "Morocco 4 – Updates & Corrections – Sahara Overland",
+     "url": "https://sahara-overland.com/morocco-4-updates-corrections/",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Tagounite – fin de la pista desde Merzouga",
+   "tipo": "repostaje",
+   "lat": 29.97,
+   "lon": -5.58,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "Todo el año (localidad)",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Localidad. Cuidado con los perros callejeros (MAEC).",
+   "autonomia": "Un foro de motoristas cita surtidor en Tagounite. Gasolinera confirmada en M'Hamid, a unos 30 km al sur. Conviene confirmar el gasóleo en el momento.",
+   "desc": "Es el pueblo del valle del Draa donde termina la pista que viene de Taouz y vuelve el asfalto (N9). Sirve para repostar y reponer agua después de la travesía, o antes de seguir hacia M'Hamid y el Erg Chigaga.",
+   "acceso": "Por asfalto (N9) desde Zagora o M'Hamid. Por pista desde Oum Jrane.",
+   "riesgos": "Sin riesgos especiales. Controles de policía o militares en la zona.",
+   "cerca": "",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Tagounite",
+     "url": "https://www.geonames.org/search.html?q=Tagounite&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "piste Taouz (Merzouga) > Tagounit – GS France",
+     "url": "https://gsfr.forumactif.com/t42705-piste-taouz-merzouga-tagounit-mhamid-et-lac-iriki",
+     "fecha": ""
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "M'Hamid El Ghizlane – último gasóleo antes del Chigaga",
+   "tipo": "repostaje",
+   "lat": 29.82793,
+   "lon": -5.72844,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "Todo el año",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Localidad. Hay perros callejeros (MAEC: riesgo de rabia).",
+   "autonomia": "Gasolinera Ziz. Después no hay servicios en los unos 130-150 km de pista hasta Foum Zguid. Llenar depósitos, bidones y agua.",
+   "desc": "Es el final de la carretera N9 y la base de las salidas en camello y en 4x4 hacia el Erg Chigaga. Su gasolinera es el último punto de repostaje antes de la travesía por el Chigaga y el lago Iriki. Aquí se pueden contratar guías: el campamento La Boussole, por ejemplo, organiza la salida con guía.",
+   "acceso": "Asfalto (N9) desde Zagora.",
+   "riesgos": "Ninguno especial. Desde aquí hacia el sur y el oeste, zona desértica cerca de la frontera argelina.",
+   "cerca": "",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/mhamid",
+   "fuentes": [
+    {
+     "titulo": "Stations essence M'Hamid El Ghizlane – ViaMichelin",
+     "url": "https://www.viamichelin.com/maps/service-stations/morocco/draa_tafilalet/zakourah/amhameed_al_ghizlan-47402",
+     "fecha": ""
+    },
+    {
+     "titulo": "M'Hamid El Ghizlane (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/M%27Hamid_El_Ghizlane",
+     "fecha": ""
+    },
+    {
+     "titulo": "L'erg Chegaga et le lac Iriki – Carnet de Martine et Gérard",
+     "url": "https://martine.tatangelo.com/index.php/2023/03/09/lerg-chegaga-et-le-lac-iriki/",
+     "fecha": "2023-03"
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "Erg Chigaga",
+   "tipo": "dunas",
+   "lat": 29.8278,
+   "lon": -6.25,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "Octubre a abril. De mediados de junio a principios de septiembre se superan los 45 °C.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Calor extremo en verano y arena muy caliente. Sin normas conocidas en los campamentos.",
+   "autonomia": "Está a unos 50-60 km de pista de M'Hamid y a unos 74 km de Foum Zguid. Gasóleo y agua para toda la travesía desde M'Hamid.",
+   "desc": "Es el segundo gran erg de Marruecos, con dunas de más de 50 m y mucho menos visitado que el Erg Chebbi. Queda entre el Jbel Bani al norte y el lago Iriki al oeste. Se llega solo en 4x4 o en camello, y hay campamentos en su borde. Es la etapa central de la travesía M'Hamid–Foum Zguid.",
+   "acceso": "Pista desde M'Hamid (unos 60 km), primero con dunas pequeñas y hamada y al final arena. Un camión expedicionario bajó de 6 a 4,5 bar. Otra opción es entrar desde Foum Zguid por el lago Iriki.",
+   "riesgos": "Arena blanda. Navegación: se recomienda ir con guía. Cerca de la frontera argelina, que está cerrada. Una salida marcada como 'sin dunas' en la guía Sahara Overland resultó más arenosa de lo que se describía (actualización de oct-2025).",
+   "cerca": "",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/mhamid",
+   "fuentes": [
+    {
+     "titulo": "Erg Chigaga (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Erg_Chigaga",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Erg Chigaga",
+     "url": "https://www.geonames.org/search.html?q=Erg+Chigaga&country=",
+     "fecha": ""
+    },
+    {
+     "titulo": "Foum Zguid – Erg Chegaga – M'Hamid: la traversée – Desert Foum Zguid",
+     "url": "https://en.desertfoumzguid.com/post/foum-zguid-erg-chegaga-mhamid-el-ghizlane-la-traversee-du-desert-marocain",
+     "fecha": "2024-01"
+    },
+    {
+     "titulo": "L'erg Chegaga et le lac Iriki – Carnet de Martine et Gérard",
+     "url": "https://martine.tatangelo.com/index.php/2023/03/09/lerg-chegaga-et-le-lac-iriki/",
+     "fecha": "2023-03"
+    }
+   ],
+   "n": 9
+  },
+  {
+   "name": "Lago Iriki (Parque Nacional de Iriqui)",
+   "tipo": "paso",
+   "lat": 29.84165,
+   "lon": -6.51725,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Octubre a abril, y solo con el lago seco. Después de lluvias puede ser una trampa de barro.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Es un parque nacional y no se han encontrado normas sobre perros; consultar. Calor y ninguna sombra.",
+   "autonomia": "Sin servicios. Queda entre el Erg Chigaga y Foum Zguid.",
+   "desc": "Es un lago seco de unos 65 x 15 km dentro del Parque Nacional de Iriqui (creado en 1994, 1230 km²). Normalmente está seco, pero en septiembre de 2024 se inundó por primera vez en 20 años. Cruzarlo es una de las experiencias más impactantes de la travesía: una llanura inmensa, espejismos y ninguna referencia.",
+   "acceso": "Pista desde Foum Zguid o desde el Erg Chigaga. Los viajeros bajaron presiones a unos 1,2 bar, circularon con suavidad y volvieron a inflar en el propio lago.",
+   "riesgos": "La costra del lago tiene espesor variable y hay zonas blandas. Barro si ha llovido. Desorientación. Conducir fuerte ha roto suspensiones. Cerca de la frontera argelina.",
+   "cerca": "",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/mhamid",
+   "fuentes": [
+    {
+     "titulo": "Iriqui National Park (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Iriqui_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Raid 4x4 Sahara Maroc – Umnya Desert Camp",
+     "url": "https://www.umnyadesertcamp.com/fr/blog/raid-4x4-sahara-maroc-expedition-desert/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Traverser le lac Iriki – VoyageForum",
+     "url": "https://voyageforum.com/forum/traverser-lac-iriki-maroc-d8123928/",
+     "fecha": "2017-05"
+    },
+    {
+     "titulo": "Morocco 4 – Updates & Corrections – Sahara Overland",
+     "url": "https://sahara-overland.com/morocco-4-updates-corrections/",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 10
+  },
+  {
+   "name": "Foum Zguid – salida de la travesía Iriki–Chigaga",
+   "tipo": "pista",
+   "lat": 30.08778,
+   "lon": -6.87111,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "Octubre a abril",
+   "guia": "recomendado",
+   "perro": "si",
+   "perro_nota": "Localidad. Hay perros callejeros (MAEC).",
+   "autonomia": "Localidad de unos 10.000 habitantes. El gasóleo no se ha podido confirmar en fuentes abiertas: conviene no depender de él y llegar con reserva desde M'Hamid.",
+   "desc": "Es el pueblo de la provincia de Tata en el extremo occidental de la travesía. De aquí salen las pistas hacia el lago Iriki y el Erg Chigaga. Hay agencias y campamentos locales que ofrecen guía para la travesía.",
+   "acceso": "Por asfalto desde Tazenakht o Tata. Aquí empieza la pista hacia el sur (Iriki).",
+   "riesgos": "Ninguno en el pueblo. Hacia el sur, desierto sin señalizar: el MAEC recomienda evitar las zonas desérticas sin señalización o ir bien preparado y con más de un vehículo.",
+   "cerca": "",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/souss-massa",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Foum Zguid",
+     "url": "https://www.geonames.org/search.html?q=Foum+Zguid&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "Foum Zguid – Erg Chegaga – M'Hamid: la traversée – Desert Foum Zguid",
+     "url": "https://en.desertfoumzguid.com/post/foum-zguid-erg-chegaga-mhamid-el-ghizlane-la-traversee-du-desert-marocain",
+     "fecha": "2024-01"
+    }
+   ],
+   "n": 11
+  },
+  {
+   "name": "Oasis de Fint",
+   "tipo": "oasis",
+   "lat": 30.81861,
+   "lon": -6.96472,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "Primavera y otoño. Tras lluvias fuertes el acceso puede cambiar.",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "",
+   "autonomia": "Está a 15-17 km de Ouarzazate, así que no hay problema de autonomía.",
+   "desc": "Es un oasis escondido entre relieves minerales a 15-17 km de Ouarzazate. Hace falta medio día para pasear sin prisa. No es una gran pista, pero sí una salida corta en 4x4 desde la zona de Ouarzazate y Aït Benhaddou. El verdor depende mucho de las lluvias del año.",
+   "acceso": "Carretera hasta cerca del oasis y los últimos kilómetros por pista pedregosa. No hace falta 4x4, pero hay que ir despacio con vehículos bajos. Las obras y las lluvias cambian el acceso.",
+   "riesgos": "El firme se deteriora después de lluvias. Calor al mediodía en verano.",
+   "cerca": "Aït Benhaddou",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet",
+   "fuentes": [
+    {
+     "titulo": "Oasis de Fint: visite et accès depuis Ouarzazate – Sudestmaroc",
+     "url": "https://sudestmaroc.com/oasis-de-fint-ouarzazate/",
+     "fecha": "2026-07"
+    },
+    {
+     "titulo": "GeoNames: Oasis de Fint",
+     "url": "https://www.geonames.org/search.html?q=Fint&country=MA",
+     "fecha": ""
+    }
+   ],
+   "n": 12
+  },
+  {
+   "name": "Souk Tleta Tasserirt – bifurcación Aït Mansour / Tizerkine",
+   "tipo": "pista",
+   "lat": 29.60611,
+   "lon": -8.91667,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "Otoño a primavera. Evitar con tormentas.",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Zona de pueblos y palmerales. Cuidado con los perros callejeros.",
+   "autonomia": "Poca distancia: repostar en Tafraout (localidad principal; gasolinera no verificada en esta búsqueda).",
+   "desc": "Es el cruce, a unos 8 km de Tafraout, donde empiezan las dos bajadas hacia el sur: por la derecha las gargantas de Aït Mansour (con palmeral) y por la izquierda la garganta de Tizerkine. Las dos se juntan en Afella Ighir y forman un bucle de unos 50 km, en gran parte por pista, entre pueblos del Anti-Atlas.",
+   "acceso": "Carretera desde Tafraout. El ramal de Aït Mansour es una carretera estrecha que se hizo en turismo en 2017. El resto del bucle es pista.",
+   "riesgos": "Carreteras estrechas y señalización escasa: preguntar a los vecinos. Los oueds bajan con fuerza en tormenta (el FCDO avisa de riadas en zonas de montaña).",
+   "cerca": "Tafraout",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/souss-massa/tafraout",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Souk Tleta de Tasserirt",
+     "url": "https://www.geonames.org/search.html?q=Tasserirt&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ameln Valley + Afella Ighir trip – Tripadvisor",
+     "url": "https://www.tripadvisor.ca/ShowTopic-g316111-i10537-k14870338-Ameln_Valley_Afella_Ighir_trip-Tafraoute_Souss_Massa.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Les gorges d'Aït Mansour – Anti-Atlas Aventures",
+     "url": "https://www.anti-atlas-aventures.com/les-gorges-d-ait-mansour",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tafraout et Aït Mansour – Mi fugue mi raison",
+     "url": "https://www.mifuguemiraison.com/fr/tafraout-ait-mansour-maroc/",
+     "fecha": "2017-04"
+    }
+   ],
+   "n": 13
+  },
+  {
+   "name": "Fort Bou Jerif",
+   "tipo": "oasis",
+   "lat": 29.0822,
+   "lon": -10.3313,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "Todo el año; mejor de otoño a primavera",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Park4night lo marca como lugar que admite animales.",
+   "autonomia": "Hotel-campamento con restaurante. Repostar antes de la pista en Guelmim o Sidi Ifni (ciudades; gasolineras no verificadas aquí).",
+   "desc": "Es un hotel-camping aislado junto a las ruinas de un fuerte de la época colonial, en el valle del oued Noun. Es la base clásica para bajar a la Plage Blanche por pista. Las reseñas de 2025 lo describen como un sitio tranquilo, aunque con precios altos en el restaurante.",
+   "acceso": "Desde Guelmim, unos 9 km de pista lenta pero fácil. Desde Sidi Ifni (52 km, unas 2 h 30 min) hay unos 4 km casi intransitables para autocaravanas.",
+   "riesgos": "Pistas dañadas por las lluvias. Algunos pasos son malos para vehículos bajos.",
+   "cerca": "Sidi Ifni",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/guelmim-oued-noun",
+   "fuentes": [
+    {
+     "titulo": "park4night – Complexe Touristique Bou Jerif",
+     "url": "https://park4night.com/en/place/42797",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "voyage4x4.com – Bou Jérif",
+     "url": "https://www.voyage4x4.com/Maroc/boujerif.html",
+     "fecha": ""
+    }
+   ],
+   "n": 14
+  },
+  {
+   "name": "Plage Blanche – bajada junto al fuerte de Aoreora",
+   "tipo": "paso",
+   "lat": 28.84028,
+   "lon": -10.84306,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "Todo el año. Hay que cuadrar la bajada con la marea baja.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Playa salvaje sin servicios. Cuidado con los cadáveres de animales marinos en la arena y con las moscas.",
+   "autonomia": "No hay servicios en unos 150 km entre Fort Bou Jerif y Tafnidilt. Llevar gasóleo y agua desde Guelmim o Sidi Ifni.",
+   "desc": "Es una playa virgen de unos 25-30 km en la costa de Guelmim, entre Aoreora y la desembocadura del Draa. Se puede recorrer en 4x4 por la arena, siempre con la marea bajando. Es de los tramos de pista más exigentes de la costa marroquí y se ha usado como salida del Morocco Desert Challenge.",
+   "acceso": "Pistas de grava desde Fort Bou Jerif, o desde el sur por Tafnidilt. Junto al fuerte de Aoreora se baja a la playa. Hay que circular por la arena dura cerca de la orilla o por la seca por encima de la línea de marea, y evitar la margen izquierda del oued, donde corre agua bajo la arena.",
+   "riesgos": "Arena muy blanda en el centro de la playa. Quedarse atascado con la marea subiendo. Se hace de noche. Un viajero con furgoneta estuvo a punto de perderla aquí en 2024. Hay controles militares en la zona.",
+   "cerca": "Sidi Ifni",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/guelmim-oued-noun/tafnidilt",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Aoreora (fuerte)",
+     "url": "https://www.geonames.org/search.html?q=Aoreora&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "Plage Blanche – Morocco's most nerve-racking piste – Il giorno giusto",
+     "url": "https://www.ilgiornogiusto.com/post/plage-blanche-moroccos-most-nerve-racking-piste",
+     "fecha": "2024"
+    },
+    {
+     "titulo": "voyage4x4.com – Tafnidilt / Plage Blanche",
+     "url": "https://www.voyage4x4.com/Maroc/tafnidilt.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Objectif Plage Blanche – Au fil du voyage",
+     "url": "https://aufilduvoyage.com/objectif-plage-blanche/",
+     "fecha": "2020-03"
+    },
+    {
+     "titulo": "MDC 2023 Plage Blanche – Assa – Journal du 4x4",
+     "url": "https://journaldu4x4.com/mdc-2023-plage-blanche-assa/",
+     "fecha": "2023-04"
+    }
+   ],
+   "n": 15
+  },
+  {
+   "name": "Desembocadura del Oued Draa (Foum Oued Drâa)",
+   "tipo": "paso",
+   "lat": 28.66,
+   "lon": -11.11,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "Otoño a primavera. Después de crecidas puede no pasarse.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Zona aislada sin servicios.",
+   "autonomia": "Sin servicios entre la Plage Blanche y Tafnidilt/El Ouatia.",
+   "desc": "Es la desembocadura del río más largo de Marruecos, al sur del cabo Draa. El paso del oued es una de las claves de la pista costera Plage Blanche–Tafnidilt, con aproximaciones rocosas y bajadas técnicas. Es un tramo muy salvaje, entre acantilados y arena.",
+   "acceso": "Por la pista costera desde la Plage Blanche y el cabo Draa, o desde Tafnidilt. Es un vado o lecho de arena que depende del caudal.",
+   "riesgos": "Agua bajo la arena y lecho blando. Tramos rocosos lentos (más de 20 km) y rampas técnicas. Condiciones de los vados del Draa cambiantes por obras (Sahara Overland, dic-2024).",
+   "cerca": "Khnifiss",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/guelmim-oued-noun/tafnidilt",
+   "fuentes": [
+    {
+     "titulo": "GeoNames: Foum Oued Drâa",
+     "url": "https://www.geonames.org/search.html?q=Foum+Draa&country=MA",
+     "fecha": ""
+    },
+    {
+     "titulo": "voyage4x4.com – Tafnidilt / Plage Blanche",
+     "url": "https://www.voyage4x4.com/Maroc/tafnidilt.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Plage Blanche – Morocco's most nerve-racking piste – Il giorno giusto",
+     "url": "https://www.ilgiornogiusto.com/post/plage-blanche-moroccos-most-nerve-racking-piste",
+     "fecha": "2024"
+    },
+    {
+     "titulo": "Morocco 4 – Updates & Corrections – Sahara Overland",
+     "url": "https://sahara-overland.com/morocco-4-updates-corrections/",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 16
+  },
+  {
+   "name": "Ksar Tafnidilt",
+   "tipo": "oasis",
+   "lat": 28.54194,
+   "lon": -10.99083,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "Todo el año",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "",
+   "autonomia": "Hotel-campamento. Gasóleo en Tan-Tan o El Ouatia (ciudades; por confirmar).",
+   "desc": "Es un hotel-campamento de estilo ksar levantado 'en medio de la nada' al norte de Tan-Tan. Es la base sur de la pista hacia la desembocadura del Draa, el cabo Draa y la Plage Blanche. Desde aquí sale una travesía de unos 150 km (unas 7 h) hasta Fort Bou Jerif.",
+   "acceso": "Pista desde la N1 en la zona de Tan-Tan. La coordenada es la del poblado Tafnidilt en GeoNames; el ksar-hotel está en esa zona.",
+   "riesgos": "Arena y navegación en la pista hacia el Draa. Controles militares en la costa.",
+   "cerca": "Khnifiss",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/guelmim-oued-noun/tafnidilt",
+   "fuentes": [
+    {
+     "titulo": "voyage4x4.com – Tafnidilt / Plage Blanche",
+     "url": "https://www.voyage4x4.com/Maroc/tafnidilt.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "GeoNames: Tafnidilt",
+     "url": "https://www.geonames.org/search.html?q=Tafnidilt&country=MA",
+     "fecha": ""
+    }
+   ],
+   "n": 17
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Pista Merzouga – Taouz – Ramlia – Tafraoute Sidi Ali – Tagounite",
+   "desde": "Merzouga",
+   "hasta": "Tagounite (valle del Draa, cerca de Zagora)",
+   "km": 300,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "Octubre a abril; evitar tras lluvias fuertes",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Es la travesía de desierto clásica del sur de Marruecos. Va a lo largo del Jbel Bani oriental y cerca de la frontera argelina, por oueds, llanuras de arcilla, hamada y tramos de arena. El punto difícil es el fech-fech de Ramlia (3-4 km). Hay dos controles militares de pasaporte, con militares descritos como muy amables. Un viaje de enero de 2025 la describe como fácil salvo tramos puntuales.",
+   "firme": "Asfalto al principio (Taouz) y al final. En medio, pista de hamada, oueds, arcilla, arena y fech-fech.",
+   "autonomia": "Unos 300 km sin gasolinera confirmada. Llegar a Merzouga con depósitos y bidones llenos (repostar antes, en Rissani/Erfoud, por confirmar). Un foro cita surtidor en Tagounite y hay gasolinera confirmada en M'Hamid. Agua para 2 días y para el perro.",
+   "riesgos": "Fech-fech en Ramlia y arena blanda entre Taouz y Ouzina (evitar la entrada directa). Frontera argelina cerrada y vigilada muy cerca: seguir las pistas principales. Daños por las inundaciones de septiembre de 2024. El MAEC recomienda ir con más de un vehículo, preferiblemente 4x4.",
+   "puntos": [
+    [
+     31.09889,
+     -4.01278
+    ],
+    [
+     30.90722,
+     -3.99583
+    ],
+    [
+     30.68528,
+     -4.41583
+    ],
+    [
+     30.72389,
+     -4.51417
+    ],
+    [
+     30.67351,
+     -4.68907
+    ],
+    [
+     30.73778,
+     -4.79056
+    ],
+    [
+     30.64597,
+     -5.10938
+    ],
+    [
+     29.97,
+     -5.58
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/ramlia",
+   "fuentes": [
+    {
+     "titulo": "From Merzouga to Zagora – we-travel.at",
+     "url": "https://we-travel.at/from-merzouga-to-zagora/",
+     "fecha": "2025-01"
+    },
+    {
+     "titulo": "Piste Merzouga - Zagora (en 4x4) – VoyageForum",
+     "url": "https://voyageforum.com/forum/piste-merzouga-zagora-en-4x4-d9171551/",
+     "fecha": "2018-10"
+    },
+    {
+     "titulo": "piste Taouz (Merzouga) > Tagounit – GS France",
+     "url": "https://gsfr.forumactif.com/t42705-piste-taouz-merzouga-tagounit-mhamid-et-lac-iriki",
+     "fecha": ""
+    },
+    {
+     "titulo": "Piste Zagora-Merzouga, quelques curiosités – 4x4 Mag",
+     "url": "https://www.4x4-mag.com/Piste-Zagora-Merzouga-quelques-curiosites_a257.html",
+     "fecha": "2014-12"
+    },
+    {
+     "titulo": "Recomendaciones de viaje Marruecos – MAEC",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Marruecos",
+     "fecha": "2026-07"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "M'Hamid – Erg Chigaga – lago Iriki – Foum Zguid",
+   "desde": "M'Hamid El Ghizlane",
+   "hasta": "Foum Zguid",
+   "km": 135,
+   "dias": 2,
+   "dificultad": "media",
+   "epoca": "Octubre a abril, con el lago Iriki seco. Evitar de mediados de junio a principios de septiembre (más de 45 °C).",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Travesía clásica del Sahara marroquí. Empieza con unos 60 km de pista y arena desde M'Hamid hasta el Erg Chigaga, pasando por el oasis 'sagrado' de Oum Lâalag. Después cruza el lago seco de Iriki, dentro del parque nacional, y sube hasta Foum Zguid. Se hace solo en 4x4 o moto. Lo más habitual es hacerla con guía local, aunque algunas fuentes no lo consideran imprescindible.",
+   "firme": "Hamada, pistas de arena y dunas pequeñas hasta el Chigaga. Después, llanura del lago Iriki (costra de espesor variable) y pista pedregosa al pie del Jbel Bani.",
+   "autonomia": "Repostar en M'Hamid (gasolinera Ziz). No hay servicios hasta Foum Zguid. Llevar agua y comida para 2 días.",
+   "riesgos": "Arena blanda. Barro en el Iriki tras lluvias: se inundó en septiembre de 2024 por primera vez en 20 años. Desorientación en el lago. Frontera argelina cerrada cerca. Una salida 'sin dunas' de la guía Sahara Overland resultó más arenosa de lo descrito (actualización de oct-2025). El MAEC recomienda evitar las zonas desérticas sin señalizar o ir con más de un vehículo.",
+   "puntos": [
+    [
+     29.82793,
+     -5.72844
+    ],
+    [
+     29.8278,
+     -6.25
+    ],
+    [
+     29.81611,
+     -6.52028
+    ],
+    [
+     29.84165,
+     -6.51725
+    ],
+    [
+     30.05,
+     -6.86
+    ],
+    [
+     30.08778,
+     -6.87111
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/mhamid",
+   "fuentes": [
+    {
+     "titulo": "Foum Zguid – Erg Chegaga – M'Hamid: la traversée – Desert Foum Zguid",
+     "url": "https://en.desertfoumzguid.com/post/foum-zguid-erg-chegaga-mhamid-el-ghizlane-la-traversee-du-desert-marocain",
+     "fecha": "2024-01"
+    },
+    {
+     "titulo": "L'erg Chegaga et le lac Iriki – Carnet de Martine et Gérard",
+     "url": "https://martine.tatangelo.com/index.php/2023/03/09/lerg-chegaga-et-le-lac-iriki/",
+     "fecha": "2023-03"
+    },
+    {
+     "titulo": "Raid 4x4 Sahara Maroc – Umnya Desert Camp",
+     "url": "https://www.umnyadesertcamp.com/fr/blog/raid-4x4-sahara-maroc-expedition-desert/",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Iriki National Park: crossing Foum Zguid – M'hamid – Explore Agadir Souss Massa",
+     "url": "https://explore-agadirsoussmassa.com/en/iriki-national-park-crossing-foum-zguid-mhamid/",
+     "fecha": "2021-03"
+    },
+    {
+     "titulo": "Morocco 4 – Updates & Corrections – Sahara Overland",
+     "url": "https://sahara-overland.com/morocco-4-updates-corrections/",
+     "fecha": "2026-03"
+    },
+    {
+     "titulo": "Oum Lâalag (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Oum_L%C3%A2alag",
+     "fecha": ""
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Vuelta al Erg Chebbi",
+   "desde": "Merzouga / Hassi Labied",
+   "hasta": "Merzouga / Hassi Labied",
+   "km": 90,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "Marzo-mayo y septiembre-noviembre",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Es un bucle de 80-100 km (5-7 h con paradas) alrededor del Erg Chebbi. Pasa por Dayet Srij, Khamlia (pueblo gnawa) y el pueblo minero abandonado de M'Fis. Tiene tres variantes: fácil (sin M'Fis), estándar (bucle completo) y técnica (con guía y vehículo de apoyo). Es una buena forma de ver el erg por todos sus lados sin meterse en las dunas grandes.",
+   "firme": "Hamada compacta alternada con arena blanda.",
+   "autonomia": "Corta. Llegar con depósito lleno (no hay gasolinera confirmada en Merzouga) y agua.",
+   "riesgos": "Arena blanda. La cara este es sensible por la frontera argelina: no ir hacia el este sin motivo y respetar la señalización. Calor en verano (unos 43 °C).",
+   "puntos": [
+    [
+     31.09889,
+     -4.01278
+    ],
+    [
+     31.13444,
+     -4.02611
+    ],
+    [
+     31.24611,
+     -3.95861
+    ],
+    [
+     31.04143,
+     -3.95066
+    ],
+    [
+     31.03778,
+     -4.00889
+    ],
+    [
+     31.09889,
+     -4.01278
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/draa-tafilalet/hassilabied",
+   "fuentes": [
+    {
+     "titulo": "Itinéraire moto autour de l'erg Chebbi – Aventuratrail",
+     "url": "https://aventuratrail.com/fr/blogs/spain/ruta-en-moto-alrededor-del-desierto-de-erg-chebbi-merzouga-guia-completa-2025",
+     "fecha": "2025"
+    },
+    {
+     "titulo": "Erg Chebbi (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Erg_Chebbi",
+     "fecha": ""
+    },
+    {
+     "titulo": "Morocco – Regional risks – FCDO",
+     "url": "https://www.gov.uk/foreign-travel-advice/morocco/regional-risks",
+     "fecha": "2026-08"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Pista costera Fort Bou Jerif – Plage Blanche – Oued Draa – Tafnidilt – El Ouatia",
+   "desde": "Fort Bou Jerif (Guelmim)",
+   "hasta": "El Ouatia (Tan-Tan Plage)",
+   "km": 180,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "Todo el año, planificando la marea. Evitar después de crecidas.",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Travesía por la costa salvaje del sur marroquí: bajada a la Plage Blanche junto al fuerte de Aoreora, unos 26 km por la arena, cabo Draa y desembocadura del Oued Draa, y subida a Tafnidilt. De Bou Jerif a Tafnidilt son unos 150 km (unas 7 h) y luego se sigue a la costa de Tan-Tan. Es de las pistas más exigentes de la costa por la marea y la arena blanda de la playa.",
+   "firme": "Pistas de grava y roca, lechos de oued, arena de playa (dura junto a la orilla y muy blanda en el centro) y rampas técnicas.",
+   "autonomia": "Repostar antes de salir en Guelmim o Sidi Ifni (por confirmar). No hay servicios hasta Tafnidilt o El Ouatia. Agua para 2 días.",
+   "riesgos": "Marea: cruzar la playa con la marea bajando y con margen de luz. Atascos en arena blanda. Agua bajo la arena en los oueds. Más de 20 km de roca lenta. Controles militares. Vados del Draa cambiantes (Sahara Overland, dic-2024).",
+   "puntos": [
+    [
+     29.0822,
+     -10.3313
+    ],
+    [
+     28.87,
+     -10.78
+    ],
+    [
+     28.84028,
+     -10.84306
+    ],
+    [
+     28.74028,
+     -11.0725
+    ],
+    [
+     28.66,
+     -11.11
+    ],
+    [
+     28.54194,
+     -10.99083
+    ],
+    [
+     28.49611,
+     -11.3325
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/guelmim-oued-noun/tafnidilt",
+   "fuentes": [
+    {
+     "titulo": "voyage4x4.com – Tafnidilt / Plage Blanche",
+     "url": "https://www.voyage4x4.com/Maroc/tafnidilt.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Plage Blanche – Morocco's most nerve-racking piste – Il giorno giusto",
+     "url": "https://www.ilgiornogiusto.com/post/plage-blanche-moroccos-most-nerve-racking-piste",
+     "fecha": "2024"
+    },
+    {
+     "titulo": "Objectif Plage Blanche – Au fil du voyage",
+     "url": "https://aufilduvoyage.com/objectif-plage-blanche/",
+     "fecha": "2020-03"
+    },
+    {
+     "titulo": "park4night – Complexe Touristique Bou Jerif",
+     "url": "https://park4night.com/en/place/42797",
+     "fecha": "2025-02"
+    },
+    {
+     "titulo": "Morocco 4 – Updates & Corrections – Sahara Overland",
+     "url": "https://sahara-overland.com/morocco-4-updates-corrections/",
+     "fecha": "2026-03"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Bucle Tafraout – gargantas de Aït Mansour – Afella Ighir – Tizerkine",
+   "desde": "Tafraout",
+   "hasta": "Tafraout",
+   "km": 70,
+   "dias": 1,
+   "dificultad": "fácil",
+   "epoca": "Otoño a primavera; evitar con tormentas",
+   "guia": "no",
+   "perro": "si",
+   "estado": "con condiciones",
+   "desc": "Es un bucle corto por el Anti-Atlas. Desde Souk Tleta Tasserirt se baja por las gargantas de Aït Mansour, con su palmeral, hasta Afella Ighir, y se vuelve por la garganta de Tizerkine. El bucle desde Tasserirt tiene unos 50 km, en buena parte de pista, entre pueblos como Timguilcht, Tizerkine y Taghaout. No es técnico: vale como alternativa tranquila cerca de Tafraout.",
+   "firme": "Carretera estrecha sin señalizar en Aït Mansour (hecha en turismo en 2017) y pista en el resto del bucle.",
+   "autonomia": "Repostar en Tafraout (por confirmar). Son distancias cortas.",
+   "riesgos": "Señalización escasa. Riadas en tormenta (el FCDO avisa de ellas en zonas de montaña). Minas de oro de Iourirn al sureste, con pistas de mucho polvo si se sigue hacia Tata.",
+   "puntos": [
+    [
+     29.72444,
+     -8.97444
+    ],
+    [
+     29.60611,
+     -8.91667
+    ],
+    [
+     29.51,
+     -8.88
+    ],
+    [
+     29.49528,
+     -8.82167
+    ],
+    [
+     29.58528,
+     -8.79556
+    ],
+    [
+     29.60611,
+     -8.91667
+    ],
+    [
+     29.72444,
+     -8.97444
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/morocco/souss-massa/tafraout",
+   "fuentes": [
+    {
+     "titulo": "Les gorges d'Aït Mansour – Anti-Atlas Aventures",
+     "url": "https://www.anti-atlas-aventures.com/les-gorges-d-ait-mansour",
+     "fecha": ""
+    },
+    {
+     "titulo": "Ameln Valley + Afella Ighir trip – Tripadvisor",
+     "url": "https://www.tripadvisor.ca/ShowTopic-g316111-i10537-k14870338-Ameln_Valley_Afella_Ighir_trip-Tafraoute_Souss_Massa.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tafraout / Aït Mansour / Imitek / Tata – 4x4 Mag",
+     "url": "https://www.4x4-mag.com/TAFRAOUT-AIT-MANSOUR-IMITEK-TATA_a55.html",
+     "fecha": "2014-12"
+    },
+    {
+     "titulo": "Tafraout et Aït Mansour – Mi fugue mi raison",
+     "url": "https://www.mifuguemiraison.com/fr/tafraout-ait-mansour-maroc/",
+     "fecha": "2017-04"
+    }
+   ],
+   "n": 5
+  }
+ ],
+ "notas": "SEGURIDAD: el MAEC (actualizado el 09-07-2026) no marca zonas prohibidas en Marruecos, pero aconseja evitar las zonas militares (prohibido fotografiarlas), las zonas desérticas sin señalizar y las cercanas a la frontera argelina, que en su mayoría no tiene delimitación visible. También recomienda no viajar solo por zonas rurales aisladas y hacerlo con más de un vehículo, preferiblemente 4x4. El MAEC avisa de muchos perros callejeros sin vacunar (rabia). El FCDO (19-08-2026) indica que la frontera con Argelia está cerrada y vigilada y que cruzarla es ilegal; el Sáhara Occidental tiene un consejo aparte. No se han encontrado zonas rojas en las rutas propuestas y ninguna se marca como desaconsejada. No se han encontrado referencias a minas en estas rutas; el Sáhara Occidental, al sur de Tarfaya, queda fuera de este encargo. DESCARTADOS: (1) Gargantas del Dadès–Todra por Msemrir, Tizi n'Ouano y Agoudal/Tamtattouchte: en septiembre de 2025 los foros confirman que todas las pistas del bucle están asfaltadas, y Sahara Overland (abril de 2025) dice que el Tizi n'Ouano y el enlace Msemrir–Tamtattouchte ya están sellados. Ya no es ruta 4x4. (2) Jbel Saghro por el Tizi n'Tazazert (Nkob–Ikniouen–Boumalne): asfaltado de punta a punta desde 2022 (confirmado en 2023). (3) Antigua ruta del Tichka Telouet–Ounila–Aït Benhaddou: asfaltada según foros de 2012-2013; no se encontró información más reciente que diga lo contrario. (4) Imilchil–Anergui–Zaouiat Ahansal: existe como pista (unos 170 km de Anergui a Agouti según voyage4x4), pero Sahara Overland informa de un tramo cerrado desde noviembre de 2024 y de carreteras nuevas; no hay fuente reciente fiable sobre su estado. Queda fuera. (5) Amtoudi: se llega sin 4x4 (camping con parcelas asfaltadas y reseñas de autocaravanas hasta 2026), así que no se incluye como punto 4x4. (6) Laguna de Khnifiss/Naila: hace falta autorización del caíd en Akhfenir para visitar o pescar, y las visitas son en barca; no se ha encontrado información sobre pistas 4x4 útiles. (7) Tizi n'Test, Chefchaouen, Fez, Marrakech, Essaouira, Legzira y Tarfaya: no se han encontrado pistas 4x4 destacadas con fuentes fiables y recientes. En el Rif (zona de Ketama) el MAEC pide precaución por la venta agresiva de hachís. DUDAS: (a) La coordenada del Erg Chigaga es la de referencia de Wikipedia/GeoNames, no la de un acceso concreto (por eso va marcada como aprox). No se encontraron coordenadas verificables del oasis de Oum Lâalag. (b) El gasóleo en Tagounite y Foum Zguid no está confirmado en fuentes recientes; solo está confirmada la gasolinera de M'Hamid (ViaMichelin). (c) El estado actual del lago Iriki y de las pistas del sur después de las inundaciones de septiembre de 2024 (Sahara Overland habla de daños hasta la primavera de 2025). (d) Normas sobre perros en los parques nacionales de Iriqui y Khenifiss: sin datos. (e) El kilometraje de la travesía M'Hamid–Foum Zguid es una estimación (unos 60 km hasta el Chigaga más unos 74 km hasta Foum Zguid). (f) El bucle de Tafraout se basa en fuentes antiguas o sin fecha (el circuito de 54 km de Anti-Atlas Aventures podría ser un recorrido de BTT). (g) Los puntos de paso de las rutas son coordenadas de pueblos y pozos de GeoNames, Mapcarta y 4x4 Mag. El trazado real sigue pistas que pueden desviarse varios km."
+}

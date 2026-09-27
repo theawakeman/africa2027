@@ -11,6 +11,7 @@ function a27CatStyle(p){
   if (p.type === 'agua')      return {color:'#1E88C7', label:'Agua de servicio'};
   if (p.type === 'combustible') return {color:'#B8560D', label:'Combustible'};
   if (p.type === 'servicio')  return {color:'#2B6CB0', label:'Servicios'};
+  if (p.type === 'offroad')   return {color:'#D4A017', label:'4x4 y offroad'};
   return {color:a27Color(p.color), label:'Puntos de interés'};
 }
 function a27Esc(value){
@@ -57,7 +58,7 @@ function a27GalleryMove(gallery, step){
   if (count) count.textContent = (index + 1) + ' / ' + slides.length;
 }
 function a27PoiDetail(p, root){
-  const labels = {why:'Por qué ir', see:'Qué se ve', access:'Acceso real', when:'Cuándo', skip:'Cuándo descartarlo'};
+  const labels = {why:'Por qué ir', see:'Qué se ve', access:'Acceso real', when:'Cuándo', guide:'Guía y permisos', fuel:'Autonomía', skip:'Cuándo descartarlo'};
   const visit = p.visit && typeof p.visit === 'object' ? p.visit : {};
   const decision = Object.keys(labels).filter(key => visit[key]).map(key =>
     '<div><dt>' + labels[key] + '</dt><dd>' + a27Esc(visit[key]) + '</dd></div>').join('');
@@ -128,7 +129,7 @@ function a27Popup(p, root){
   if (p.dog) h += '<span class="st '+a27Esc(p.dogcls)+'">perro: '+a27Esc(p.dog)+'</span>';
   if (p.info) h += '<span>'+a27Esc(p.info)+'</span>';
   h += '<div class="a27-popup-actions">';
-  if (p.type === 'poi') h += '<button type="button" class="a27-popup-expand">Ver ficha ampliada</button>';
+  if (p.type === 'poi' || p.type === 'offroad') h += '<button type="button" class="a27-popup-expand">Ver ficha ampliada</button>';
   else if (p.ficha) h += '<a href="'+a27Esc(a27MapHref(p.ficha, root))+'">Ver en la ficha</a>';
   if (p.source) h += '<a href="'+a27Esc(p.source)+'" target="_blank" rel="noopener">Fuente del punto</a>';
   h += '<a href="https://www.google.com/maps?q='+p.lat+','+p.lon+'" target="_blank" rel="noopener">Google Maps</a></div>';
@@ -222,7 +223,7 @@ function a27Map(elId, cfg){
   });
   (cfg.points || []).forEach(p => {
     const s = a27CatStyle(p);
-    const mk = L.circleMarker([p.lat, p.lon], {radius: 8, color:'#fff', weight:2, fillColor:s.color, fillOpacity:.95});
+    const mk = L.circleMarker([p.lat, p.lon], {radius: 8, color: p.type === 'offroad' ? '#5C4300' : '#fff', weight:2, fillColor:s.color, fillOpacity:.95});
     mk.bindPopup(a27Popup(p, cfg.root), {maxWidth: 320});
     mk.on('popupopen', function(){
       const popup = mk.getPopup() && mk.getPopup().getElement();

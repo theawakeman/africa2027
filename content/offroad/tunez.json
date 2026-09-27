@@ -1,0 +1,894 @@
+{
+ "pais": "tunez",
+ "fecha": "27-09-2026",
+ "puntos": [
+  {
+   "name": "Douz: último repostaje antes del Gran Erg Oriental",
+   "tipo": "repostaje",
+   "lat": 33.45722,
+   "lon": 9.025,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "octubre a abril",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Ciudad con servicios; no hay restricciones conocidas. Evitar arena caliente en horas centrales.",
+   "autonomia": "Llenar gasóleo y agua aquí: hacia Jebil, Tembaine y Ksar Ghilane no hay gasolineras fiables. Regla práctica de las fuentes: no bajar de medio depósito y repostar en cada ciudad.",
+   "desc": "Douz es la llamada puerta del Sáhara tunecino y el punto de partida de las pistas hacia el Gran Erg Oriental. Las gasolineras fiables del sur están en Tozeur, Douz, Tataouine, Medenine y Gabès; entre ellas escasean. Aquí también está la oficina de la Garde Nationale/Garde Touristique donde los guías registran la ruta antes de entrar al desierto.",
+   "acceso": "Asfalto desde Kebili (y desde Tozeur por la carretera que cruza el Chott el Jerid). Gasolineras atendidas por empleado; pago en efectivo.",
+   "riesgos": "Ninguno especial en la ciudad. Recordar que al sur de Douz empieza el desierto: conviene declarar la ruta en la Garde Touristique antes de salir.",
+   "cerca": "Douz y el Gran Erg Oriental",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili/douz",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Douz",
+     "url": "https://en.wikipedia.org/wiki/Douz",
+     "fecha": ""
+    },
+    {
+     "titulo": "3A Rent Car: Sahara by Car, Tunisia desert driving guide",
+     "url": "https://www.3a-rentcar.com/en/blog/sahara-driving-guide.php",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Tripadvisor: Self-Drive Southern Tunisia Recent Trip Report",
+     "url": "https://www.tripadvisor.com/ShowTopic-g293753-i9122-k13743639-Self_Drive_Southern_Tunisia_Recent_Trip_Report-Tunisia.html",
+     "fecha": "2021-11"
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Arranque de la pista Douz–Jebil (salida sur de Douz)",
+   "tipo": "pista",
+   "lat": 33.3984,
+   "lon": 9.0088,
+   "aprox": true,
+   "dificultad": "media",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas específicas conocidas en la pista; el calor y la arena caliente son el límite. Dentro del parque de Jebil, ver su ficha.",
+   "autonomia": "Unos 70-80 km sin servicios hasta el parque; salir con depósitos llenos y agua de reserva desde Douz.",
+   "desc": "Es la entrada sur hacia el Parque Nacional de Jebil saliendo directamente de Douz. Según un viajero que la comparó en 2021, es más arenosa y exigente que el acceso norte. Es el comienzo del corredor Douz–Jebil–Ksar Ghilane/Tembaine, que según viajeros de 2024 se puede hacer sin guía obligatorio si se tiene experiencia y equipo.",
+   "acceso": "Desde el sur de Douz, pista de arena y tramos blandos. Desinflar según el vehículo antes de la arena blanda (las fuentes no dan una cifra); llevar compresor y planchas.",
+   "riesgos": "Arena blanda, dunas que se desplazan y cubren las rodadas, navegación. Declarar la ruta en la Garde Touristique de Douz. Fuera del corredor Jebil–Tembaine/Ksar Ghilane, hacia el sur profundo, se exige guía y autorización.",
+   "cerca": "Douz y el Gran Erg Oriental",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili/douz",
+   "fuentes": [
+    {
+     "titulo": "Tripadvisor: Self-Drive Southern Tunisia Recent Trip Report (coordenadas de las dos entradas a Jebil)",
+     "url": "https://www.tripadvisor.com/ShowTopic-g293753-i9122-k13743639-Self_Drive_Southern_Tunisia_Recent_Trip_Report-Tunisia.html",
+     "fecha": "2021-11"
+    },
+    {
+     "titulo": "Overland Bound: Trip to Tunisia (guía y autorización en el desierto)",
+     "url": "https://www.overlandbound.com/forums/threads/trip-to-tunisia.48740/",
+     "fecha": "2024-11"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Acceso norte a Jebil (desvío de la carretera Douz–Matmata)",
+   "tipo": "pista",
+   "lat": 33.455,
+   "lon": 9.279,
+   "aprox": true,
+   "dificultad": "fácil",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Sin normas específicas; limitar la exposición al calor.",
+   "autonomia": "Repostar en Douz; no hay servicios en la pista.",
+   "desc": "Es la alternativa más firme para entrar al parque de Jebil: parte de la carretera al este de Douz y la usan camiones pesados, así que el firme está más compactado. Un viajero de 2021 la consideró practicable incluso para un turismo, frente a la entrada sur. Es un buen acceso de ida o de vuelta para cerrar un bucle por el erg.",
+   "acceso": "Asfalto desde Douz hacia el este y desvío por pista compactada hacia el sur. Firme de tierra y arena dura.",
+   "riesgos": "Tráfico de camiones, polvo, arena acumulada en tramos. Navegación sencilla; la dificultad empieza al dejarla para entrar en las dunas.",
+   "cerca": "Douz y el Gran Erg Oriental",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Tripadvisor: Self-Drive Southern Tunisia Recent Trip Report",
+     "url": "https://www.tripadvisor.com/ShowTopic-g293753-i9122-k13743639-Self_Drive_Southern_Tunisia_Recent_Trip_Report-Tunisia.html",
+     "fecha": "2021-11"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Parque Nacional de Jebil",
+   "tipo": "dunas",
+   "lat": 32.93411,
+   "lon": 9.11392,
+   "aprox": true,
+   "dificultad": "difícil",
+   "epoca": "octubre a abril",
+   "guia": "autorización",
+   "perro": "sin_dato",
+   "perro_nota": "Es un parque nacional con fauna protegida (gacelas, fénec, arruí). No se ha encontrado norma sobre perros: preguntar a la DGF al pedir la autorización y llevarlo siempre atado.",
+   "autonomia": "Unos 70-80 km de pista desde Douz, sin agua ni gasóleo. Hay refugios vigilados en el parque, pero no servicios.",
+   "desc": "Es el segundo parque nacional de Túnez (unas 150.000 ha) y está dentro del Gran Erg Oriental: dunas altas, afloramientos rocosos y restos prehistóricos. Es la primera gran zona de dunas accesible desde Douz y la puerta de Tembaine y de la travesía hacia Ksar Ghilane. Según viajeros de 2024, el corredor Douz–Jebil–Ksar Ghilane/Tembaine no exige guía obligatorio.",
+   "acceso": "Por la pista sur desde Douz o por el acceso norte desde la carretera de Matmata; unos 70-80 km sin asfalto. Arena blanda y cordones de dunas: desinflar según el vehículo, con compresor y planchas. Una fuente de 2024 indica que para entrar hace falta autorización de la Dirección General de Bosques (DGF).",
+   "riesgos": "Dunas móviles que borran las rodadas, quedarse atascado, navegación (GPS imprescindible) y calor. Hay guardas en el parque. Guía recomendado; obligatorio si se sale del corredor hacia el sur profundo.",
+   "cerca": "Douz y el Gran Erg Oriental",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Wildly.tn: Parc national de Jebil, guide du désert tunisien",
+     "url": "https://wildly.tn/jebil-national-park/",
+     "fecha": "2024-12"
+    },
+    {
+     "titulo": "Wikipedia: Jebil National Park",
+     "url": "https://en.wikipedia.org/wiki/Jebil_National_Park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Overland Bound: Trip to Tunisia",
+     "url": "https://www.overlandbound.com/forums/threads/trip-to-tunisia.48740/",
+     "fecha": "2024-11"
+    }
+   ],
+   "n": 4
+  },
+  {
+   "name": "Tembaine: monte-isla y campamentos del erg",
+   "tipo": "oasis",
+   "lat": 32.86316,
+   "lon": 9.10582,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Los campamentos no publican su política con mascotas; consultar antes. Entorno de parque nacional.",
+   "autonomia": "Sin gasóleo. Los campamentos (Camp Mars, Abdelmoula, Tiniri) dan comida y cama, pero hay que llegar con agua y combustible para la vuelta.",
+   "desc": "Tembaine es un monte rocoso (239 m) que sobresale entre las dunas, al sur de Jebil, con varios campamentos a sus pies y un café. Es el clásico destino de 4x4 desde Douz y la base para ir hacia Houidhat Erreched. Según viajeros de 2024, el trayecto Douz–Jebil–Tembaine se puede hacer sin guía obligatorio con experiencia y equipo.",
+   "acceso": "Desde Douz por Jebil, pista de arena y cordones de dunas; los operadores lo hacen en una jornada. Coordenadas del Camp Mars (el monte está a 1 km al norte).",
+   "riesgos": "Dunas blandas, navegación y riesgo de quedarse atascado. Declarar la ruta en Douz. Al sur de Tembaine, la zona de Houidhat Erreched ya queda al sur de la línea Rjim Maatoug–Borj Bourguiba (desaconsejada por Francia) y requiere guía y autorización.",
+   "cerca": "Douz y el Gran Erg Oriental",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Camp Mars",
+     "url": "https://mapcarta.com/W246350665",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Tembaine Mountain",
+     "url": "https://mapcarta.com/N2505690768",
+     "fecha": ""
+    },
+    {
+     "titulo": "Camp Abdelmoula: circuito Rosa de arena Douz–Jebil–Tembaine",
+     "url": "http://camp-abdelmoula.com/en/sand-rose-ride.html",
+     "fecha": ""
+    },
+    {
+     "titulo": "Overland Bound: Trip to Tunisia",
+     "url": "https://www.overlandbound.com/forums/threads/trip-to-tunisia.48740/",
+     "fecha": "2024-11"
+    }
+   ],
+   "n": 5
+  },
+  {
+   "name": "Houidhat Erreched (lago termal del erg) y Aïn Ouadette",
+   "tipo": "oasis",
+   "lat": 32.59164,
+   "lon": 9.10671,
+   "aprox": false,
+   "dificultad": "muy difícil",
+   "epoca": "octubre a abril",
+   "guia": "autorización",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos. Zona remota sin veterinario ni servicios.",
+   "autonomia": "Totalmente autónomo: gasóleo para ida y vuelta desde Douz y agua de reserva para varios días.",
+   "desc": "Es un lago de agua caliente en pleno Gran Erg, unos 30 km al sur de Tembaine, con un café muy cerca. Es la meta clásica de los circuitos de varios días que salen de Douz o de Tozeur. Según viajeros de 2024, para Aïn Ouadette o Sif Essouane hacen falta guía y autorización de la oficina oficial (Garde Touristique).",
+   "acceso": "Solo con guía, desde Tembaine y a través de dunas; unos 30 minutos de 4x4 desde los campamentos, según un operador. Arena blanda continua.",
+   "riesgos": "Queda al sur de la línea Bir Rjim Maatoug–Borj Bourguiba–Ben Guerdane, donde Francia desaconseja viajar salvo por motivo imperativo (naranja). Guía y autorización obligatorios. Navegación difícil, dunas y aislamiento total.",
+   "cerca": "Douz y el Gran Erg Oriental",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Lac Houidat Erreched",
+     "url": "https://mapcarta.com/N5864500385",
+     "fecha": ""
+    },
+    {
+     "titulo": "Overland Bound: Trip to Tunisia (guía y autorización obligatorios en Aïn Ouadette y Sif Essouane)",
+     "url": "https://www.overlandbound.com/forums/threads/trip-to-tunisia.48740/",
+     "fecha": "2024-11"
+    },
+    {
+     "titulo": "France Diplomatie: Tunisie, sécurité",
+     "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Wildyness: Jebil National Park circuit",
+     "url": "https://wildyness.com/news/circuit-south-tunisia-jebil-national-park",
+     "fecha": ""
+    }
+   ],
+   "n": 6
+  },
+  {
+   "name": "Campement Zmela",
+   "tipo": "oasis",
+   "lat": 32.8588,
+   "lon": 9.56937,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "La web del campamento no indica su política con mascotas; preguntar al reservar.",
+   "autonomia": "El campamento tiene duchas con agua caliente y restaurante. Gasóleo solo en Douz (o tras volver al asfalto).",
+   "desc": "Es un campamento con jaimas, bungalós y parcelas de acampada entre las dunas, unos 15 km al sur de Ksar Ghilane. Un operador lo sitúa a unos 20 km de pista desde Ksar Ghilane y lo usa como etapa entre Ksar Ghilane y Tembaine. Es una buena base para dormir dentro del erg con los propios vehículos.",
+   "acceso": "Desde Ksar Ghilane, unos 15-20 km de pista de arena hacia el sur; tramo final en arena blanda.",
+   "riesgos": "Arena blanda y navegación. El enlace Zmela–Tembaine atraviesa unos 45 km de dunas sin referencias: con guía o con otro vehículo y GPS.",
+   "cerca": "Ksar Ghilane",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Campement Zmela (web oficial, coordenadas GPS)",
+     "url": "https://www.campement-zmela.com/en/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wildyness: Jebil National Park circuit",
+     "url": "https://wildyness.com/news/circuit-south-tunisia-jebil-national-park",
+     "fecha": ""
+    }
+   ],
+   "n": 7
+  },
+  {
+   "name": "Ksar Ghilane: oasis y fuente termal",
+   "tipo": "oasis",
+   "lat": 32.98863,
+   "lon": 9.64017,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril; evitar julio y agosto",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "perro_nota": "Una pareja británica llegó en autocaravana con su perro (2013) sin problemas. En el oasis hay dromedarios y quads: llevarlo atado; calor extremo en verano.",
+   "autonomia": "No hay gasolinera en el oasis. Llegar con el depósito lleno desde Douz o Tataouine y volver con reserva. Agua potable en los campamentos.",
+   "desc": "Es un oasis en el borde oriental del Gran Erg, con una fuente termal (unos 32 °C) donde se puede bañar, campamentos y un puesto de la Garde Nationale. Es el cruce natural de las pistas desde Douz (por el oleoducto o por las dunas), desde Tataouine/Chenini y hacia Zmela. Según viajeros de 2024, el corredor Douz–Jebil–Ksar Ghilane puede hacerse sin guía obligatorio.",
+   "acceso": "Por la carretera del oleoducto desde la de Douz–Matmata (asfaltada, a menudo con arena) y un tramo final arenoso de unos 5 km. También por las pistas de dunas desde Jebil/Zmela o por la pista del Dahar desde Chenini.",
+   "riesgos": "Atascos en el tramo final, averías, deshidratación y pérdida de orientación son los riesgos reales, más que la seguridad. Wikipedia lo sitúa en la gobernación de Tataouine y OSM en la de Kebili: la zona militar empieza más al sur.",
+   "cerca": "Ksar Ghilane",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Hot Spring (Ksar Ghilane)",
+     "url": "https://mapcarta.com/N2516996947",
+     "fecha": ""
+    },
+    {
+     "titulo": "Roule Popote: Ksar Ghilane danger, guide de sécurité 2026",
+     "url": "https://roulepopote.fr/ksar-ghilane-danger",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Our Tour: On the edge of an empire, Ksar Ghilane oasis",
+     "url": "https://ourtour.co.uk/home/on-the-edge-of-an-empire-ksar-ghilane-oasis/",
+     "fecha": "2013-02"
+    },
+    {
+     "titulo": "Overland Bound: Trip to Tunisia",
+     "url": "https://www.overlandbound.com/forums/threads/trip-to-tunisia.48740/",
+     "fecha": "2024-11"
+    },
+    {
+     "titulo": "Wikipedia: Ksar Ghilane",
+     "url": "https://en.wikipedia.org/wiki/Ksar_Ghilane",
+     "fecha": ""
+    }
+   ],
+   "n": 8
+  },
+  {
+   "name": "Fuerte romano de Tisavar y dunas de Ksar Ghilane",
+   "tipo": "dunas",
+   "lat": 33.00864,
+   "lon": 9.61621,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril",
+   "guia": "no",
+   "perro": "condiciones",
+   "perro_nota": "Arena muy caliente a mediodía; ir al amanecer o al atardecer.",
+   "autonomia": "A unos 3 km del oasis; agua para el paseo.",
+   "desc": "Es un castellum romano del limes tripolitanus (época de Cómodo) rodeado de dunas, a unos 3 km al noroeste de la fuente. Es el paseo corto en arena clásico de Ksar Ghilane, sirve para practicar la conducción en dunas y es un buen punto de puesta de sol.",
+   "acceso": "Desde el oasis, pista de arena blanda de unos 3 km entre dunas pequeñas y medianas. Desinflar antes.",
+   "riesgos": "Arena blanda y mucho tráfico de quads y dromedarios. Respetar el yacimiento arqueológico.",
+   "cerca": "Ksar Ghilane",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Qasr Ghilan (Tisavar)",
+     "url": "https://mapcarta.com/W186628348",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikipedia: Ksar Ghilane",
+     "url": "https://en.wikipedia.org/wiki/Ksar_Ghilane",
+     "fecha": ""
+    }
+   ],
+   "n": 9
+  },
+  {
+   "name": "Bir Soltane: cruce de la pista del oleoducto",
+   "tipo": "pista",
+   "lat": 33.29368,
+   "lon": 9.73369,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "octubre a abril",
+   "guia": "no",
+   "perro": "si",
+   "perro_nota": "Café de carretera; sin restricciones conocidas.",
+   "autonomia": "Café y campamento, pero sin gasolinera. El gasóleo, en Douz o en Matmata/Gabès.",
+   "desc": "Es el pozo y café que marca la antigua pista del oleoducto (hoy asfaltada) entre la carretera Douz–Matmata y Ksar Ghilane, unos 35 km al norte del oasis. Es la vía fácil al erg y el punto donde los locales informan del estado de las pistas hacia Ksar Ghilane y Tataouine.",
+   "acceso": "Asfalto desde el desvío de la carretera Douz–Matmata; unos 60 km en total hacia el sur hasta Ksar Ghilane. Hay tramos con arena acumulada.",
+   "riesgos": "Arena sobre el asfalto tras el viento. Una fuente de 2013 menciona un control militar en la carretera del oleoducto (solo revisión de pasaportes).",
+   "cerca": "Ksar Ghilane",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Mapcarta: Café Bir Soltane",
+     "url": "https://mapcarta.com/W186666586",
+     "fecha": ""
+    },
+    {
+     "titulo": "Our Tour: On the edge of an empire, Ksar Ghilane oasis",
+     "url": "https://ourtour.co.uk/home/on-the-edge-of-an-empire-ksar-ghilane-oasis/",
+     "fecha": "2013-02"
+    },
+    {
+     "titulo": "Routard forum: Liaison Ksar Ghilane - Tataouine",
+     "url": "https://www.routard.com/forums/t/liaison-ksar-ghilane-tataouine/19637",
+     "fecha": "2012-03"
+    }
+   ],
+   "n": 10
+  },
+  {
+   "name": "Chenini: inicio de la pista del Dahar hacia Ksar Ghilane",
+   "tipo": "pista",
+   "lat": 32.91028,
+   "lon": 10.26222,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "si",
+   "perro_nota": "Pueblo con visitas turísticas; sin restricciones conocidas.",
+   "autonomia": "Repostar en Tataouine. Entre Chenini y Ksar Ghilane no hay servicios.",
+   "desc": "Chenini es un ksar bereber colgado en un circo montañoso a media hora de Tataouine. Detrás del pueblo arranca la pista que cruza la meseta del Dahar hacia el oeste hasta Ksar Ghilane: primero piedra y chapa ondulada, y después las primeras dunas. Es la conexión offroad entre la zona de los ksour y el erg.",
+   "acceso": "Asfalto Tataouine–Douiret–Chenini (el circuito de los ksour está todo asfaltado). Desde Chenini, pista pedregosa y arenosa; subida inicial muy empinada según un relato.",
+   "riesgos": "Pinchazos en la pista pedregosa y arena en el tramo final. El MAEC considera de riesgo medio la región entre El Borma y Zarzis pasando por Tataouine. Informarse del estado de la pista en Bir Soltane o en Ksar Ghilane.",
+   "cerca": "Ksour de Tataouine",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Chenini",
+     "url": "https://en.wikipedia.org/wiki/Chenini",
+     "fecha": ""
+    },
+    {
+     "titulo": "Jomaya: Jour 4, de Tataouine à Ksar Ghilane",
+     "url": "https://www.jomaya.com/voyages/destinations/afrique/tunisie/jour-4-de-tataouine-a-ksar-ghilane/",
+     "fecha": "2008-01"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Túnez",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Tunez",
+     "fecha": "2026-04"
+    }
+   ],
+   "n": 11
+  },
+  {
+   "name": "Remada y la pista hacia El Borma (zona militar)",
+   "tipo": "pista",
+   "lat": 32.30611,
+   "lon": 10.38222,
+   "aprox": false,
+   "dificultad": "difícil",
+   "epoca": "no recomendable",
+   "guia": "autorización",
+   "perro": "sin_dato",
+   "perro_nota": "Zona desaconsejada; no aplica.",
+   "autonomia": "No aplica: no se recomienda el viaje.",
+   "desc": "Remada es una ciudad-guarnición con base militar en el extremo sur. Más allá empiezan las pistas del desierto hacia Borj Bourguiba y El Borma (zona petrolera) que usaban los raids antiguos. Se incluye solo para advertir: no forma parte de la ruta recomendada.",
+   "acceso": "Carretera desde Tataouine. Al sur y al oeste, zona militar con autorización previa.",
+   "riesgos": "El FCDO desaconseja todo viaje salvo esencial en la franja de 75 km de la frontera libia, citando expresamente Remada y El Borma, y cualquier viaje en la zona militarizada al sur de El Borma y Dhehiba. Francia la marca en rojo: zona militar desde agosto de 2013 con autorización previa obligatoria. El MAEC desaconseja la franja El Borma–Ben Guerdane.",
+   "cerca": "Ksour de Tataouine",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "FCDO: Tunisia travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/tunisia/warnings-and-insurance",
+     "fecha": "2026-07"
+    },
+    {
+     "titulo": "France Diplomatie: Tunisie, sécurité",
+     "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Túnez",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Tunez",
+     "fecha": "2026-04"
+    },
+    {
+     "titulo": "Wikipedia: Remada",
+     "url": "https://en.wikipedia.org/wiki/Remada",
+     "fecha": ""
+    }
+   ],
+   "n": 12
+  },
+  {
+   "name": "Chott el Jerid fuera de la carretera (sebja)",
+   "tipo": "paso",
+   "lat": 33.7,
+   "lon": 8.43,
+   "aprox": true,
+   "dificultad": "muy difícil",
+   "epoca": "solo en seco, y aun así desaconsejado; nunca tras lluvias",
+   "guia": "obligatorio",
+   "perro": "sin_dato",
+   "perro_nota": "Sin datos; la costra salina y el barro no son terreno para pasear.",
+   "autonomia": "Por la carretera no hay problema (Kebili–Tozeur). Fuera de ella, autonomía y material de rescate completos.",
+   "desc": "Es un inmenso lago salado (unos 7.000 km²) que se cruza cómodamente por la carretera elevada entre Kebili y Tozeur. Atravesarlo por pista, como hacían los raids antiguos, es muy arriesgado: la costra de sal no siempre es firme y debajo hay barro. En 2003 un grupo en 4x4 tardó seis horas en rescatar sus vehículos atascados.",
+   "acceso": "Carretera asfaltada Kebili–Tozeur (recomendada), con paradas en el arcén. Las pistas por el chott parten de Rjim Maatoug y de la zona de Nefta/Hazoua; en 2003 había un control de la Garde Nationale en la entrada sur.",
+   "riesgos": "Hundimiento en la costra salina y el barro, espejismos en verano y la cercanía de la frontera argelina en el sector oeste. Rjim Maatoug marca el inicio de la línea al sur de la cual Francia desaconseja viajar. Coordenada: centro del chott (aproximada).",
+   "cerca": "Chott el Jerid y Tozeur",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/tawzar",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Chott el Djerid",
+     "url": "https://en.wikipedia.org/wiki/Chott_el_Djerid",
+     "fecha": ""
+    },
+    {
+     "titulo": "E-Voyageur: Raid 4x4 en Tunisie (El Borma, Ksar Ghilane, Douz, Chott el Djerid)",
+     "url": "https://www.e-voyageur.com/carnet-voyage/tunisie/raid-4x4-tunisie-du-sud-matmata-3",
+     "fecha": "2003-04"
+    },
+    {
+     "titulo": "Our Tour: An eerie world of nothingness at Chott El Jerid",
+     "url": "https://ourtour.co.uk/home/an-eerie-world-of-nothingness-at-chott-el-jerid/",
+     "fecha": "2013-01"
+    }
+   ],
+   "n": 13
+  },
+  {
+   "name": "Mos Espa (decorado de Star Wars) y dunas de Ong Jmel",
+   "tipo": "dunas",
+   "lat": 33.9943,
+   "lon": 7.8428,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril; madrugada o atardecer",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas conocidas. Hay vendedores y basura en el recinto; cuidado con restos cortantes.",
+   "autonomia": "A unos 40 km de Tozeur; repostar allí. Agua para la jornada.",
+   "desc": "Es el decorado de la ciudad de Mos Espa (Star Wars), que las dunas van cubriendo: avanzan unos 15 m al año; la campaña #SaveMosEspa lo salvó del enterramiento. Está junto al Chott el Gharsa, con dunas alrededor, y es acceso libre. Es una salida clásica en 4x4 desde Tozeur o Nefta.",
+   "acceso": "Carretera y después pista desde la zona de Nefta; a Mos Espa se llega por carretera según algunas fuentes, pero las agencias usan 4x4 por el tramo de arena. Tras lluvias fuertes, evitar el acceso con turismos.",
+   "riesgos": "Arena blanda alrededor del decorado. Está a unos 20 km de la frontera argelina, fuera de la franja de 10 km que desaconseja el FCDO. No acercarse más al oeste.",
+   "cerca": "Chott el Jerid y Tozeur",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/tawzar",
+   "fuentes": [
+    {
+     "titulo": "Tourism Tunisia: Ong Jemel and Mos Espa, how to visit",
+     "url": "https://www.tourismtunisia.com/mos-espa-ong-jemel-tozeur/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Guide Voyage Tunisie: Ong Jmel Tozeur",
+     "url": "https://guide-voyage-tunisie.com/en/ong-jemel/",
+     "fecha": "2023-08"
+    }
+   ],
+   "n": 14
+  },
+  {
+   "name": "Ong Jmel (Cuello de Camello) y borde del Chott el Gharsa",
+   "tipo": "pista",
+   "lat": 34.016,
+   "lon": 7.9124,
+   "aprox": false,
+   "dificultad": "fácil",
+   "epoca": "octubre a abril",
+   "guia": "no",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas conocidas.",
+   "autonomia": "Repostar en Tozeur o Nefta. Hay cobertura móvil (3G/4G) según un viajero de 2021.",
+   "desc": "Es una formación rocosa con forma de cuello de camello sobre el Chott el Gharsa, el punto más bajo de Túnez, y lugar de rodaje de varias películas. Desde Mos Espa se llega en unos 15 minutos (unos 8 km) por una pista de arena compactada. Tiene buenas vistas del chott y de los espejismos.",
+   "acceso": "Pista de tierra y arena compactada desde Mos Espa; tras salir de Mos Espa, desvío a la izquierda y otra vez a la izquierda a los 4 km, según una guía local.",
+   "riesgos": "El chott puede estar embarrado tras lluvias: no entrar en la sebja. Vendedores y guías insistentes en la zona.",
+   "cerca": "Chott el Jerid y Tozeur",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/tawzar",
+   "fuentes": [
+    {
+     "titulo": "Tourism Tunisia: Ong Jemel and Mos Espa",
+     "url": "https://www.tourismtunisia.com/mos-espa-ong-jemel-tozeur/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Tripadvisor: Self-Drive Southern Tunisia Recent Trip Report",
+     "url": "https://www.tripadvisor.com/ShowTopic-g293753-i9122-k13743639-Self_Drive_Southern_Tunisia_Recent_Trip_Report-Tunisia.html",
+     "fecha": "2021-11"
+    },
+    {
+     "titulo": "Mapcarta: Chott El Rharsa",
+     "url": "https://mapcarta.com/Chott_el_Gharsa",
+     "fecha": ""
+    }
+   ],
+   "n": 15
+  },
+  {
+   "name": "Oasis de montaña: Chebika, Tamerza y el cañón de Midès",
+   "tipo": "paso",
+   "lat": 34.317,
+   "lon": 7.933,
+   "aprox": false,
+   "dificultad": "media",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "sin_dato",
+   "perro_nota": "Sin normas conocidas; senderos por cañones con rocas y agua.",
+   "autonomia": "Tamerza está a unos 70 km de Tozeur; repostar en Tozeur.",
+   "desc": "Son tres oasis de montaña (Chebika, Tamerza y Midès) con cañones, cascadas y pueblos antiguos abandonados, escenarios de El paciente inglés y En busca del arca perdida. Las excursiones en 4x4 desde Tozeur combinan asfalto con tramos de pista: un pequeño chott, arena, uadi, estepa y una subida con vistas al Chott el Gharsa. Coordenada: Chebika.",
+   "acceso": "Carretera desde Tozeur por El Hamma du Jérid; tramos de pista en las variantes de las agencias. Midès está 3 km al norte de Tamerza y Chebika 8 km al sur.",
+   "riesgos": "Chebika está a unos 8 km de Argelia, y Tamerza y Midès aún más cerca: dentro de la franja de 10 km de la frontera argelina donde el FCDO desaconseja todo viaje salvo esencial. El MAEC desaconseja las zonas fronterizas con Argelia. Guías insistentes en los senderos.",
+   "cerca": "Oasis de montaña (Chebika, Tamerza, Midès)",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/tawzar/tamaghzah",
+   "fuentes": [
+    {
+     "titulo": "Wikipedia: Chebika, Tozeur",
+     "url": "https://en.wikipedia.org/wiki/Chebika,_Tozeur",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Tamerza",
+     "url": "https://mapcarta.com/Tamerza",
+     "fecha": ""
+    },
+    {
+     "titulo": "Escapade Tunisie: excursion en 4x4 dans les oasis de montagne",
+     "url": "https://escapade-tunisie.com/voyages/escapades/excursion-dans-les-oasis-de-montagne-1-journee/",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Tunisia travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/tunisia/warnings-and-insurance",
+     "fecha": "2026-07"
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Túnez",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Tunez",
+     "fecha": "2026-04"
+    }
+   ],
+   "n": 16
+  }
+ ],
+ "rutas": [
+  {
+   "name": "Douz – Ksar Ghilane por la carretera del oleoducto",
+   "desde": "Douz",
+   "hasta": "Ksar Ghilane",
+   "km": 145,
+   "dias": 1,
+   "dificultad": "fácil",
+   "epoca": "octubre a abril",
+   "guia": "no",
+   "perro": "condiciones",
+   "estado": "recomendada",
+   "desc": "Es la vía fácil al oasis: carretera hacia Matmata unos 70 km, desvío al sur por la antigua pista del oleoducto (hoy asfaltada) pasando por Bir Soltane y, al final, unos 5-12 km de asfalto roto y arena. Es practicable incluso para autocaravanas con cuidado, así que en 4x4 es un trayecto de enlace. Sirve de vuelta segura tras entrar a Ksar Ghilane por las dunas.",
+   "firme": "Asfalto estrecho y ondulado, con arena acumulada; tramo final de pista arenosa hasta los campamentos.",
+   "autonomia": "Gasóleo en Douz; no hay gasolineras en el trayecto ni en Ksar Ghilane. Hay café en Bir Soltane.",
+   "riesgos": "Arena sobre el asfalto tras tormentas; posible control militar o de la Garde Nationale (revisión de pasaportes). Sin cobertura en algunos tramos.",
+   "puntos": [
+    [
+     33.45722,
+     9.025
+    ],
+    [
+     33.455,
+     9.279
+    ],
+    [
+     33.29368,
+     9.73369
+    ],
+    [
+     33.28441,
+     9.70671
+    ],
+    [
+     32.977,
+     9.6452
+    ],
+    [
+     32.98863,
+     9.64017
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Our Tour: On the edge of an empire, Ksar Ghilane oasis",
+     "url": "https://ourtour.co.uk/home/on-the-edge-of-an-empire-ksar-ghilane-oasis/",
+     "fecha": "2013-02"
+    },
+    {
+     "titulo": "Voyage Forum: État de la route entre Douz et Ksar Ghilane",
+     "url": "https://voyageforum.com/forum/etat-route-entre-douz-ksar-ghilane-tunisie-d2106467/",
+     "fecha": "2008-11"
+    },
+    {
+     "titulo": "3A Rent Car: Sahara by Car",
+     "url": "https://www.3a-rentcar.com/en/blog/sahara-driving-guide.php",
+     "fecha": "2026-05"
+    },
+    {
+     "titulo": "Mapcarta: Bir Soltane (pozo)",
+     "url": "https://mapcarta.com/17275560",
+     "fecha": ""
+    }
+   ],
+   "n": 1
+  },
+  {
+   "name": "Travesía del Gran Erg: Douz – Jebil – Tembaine – Zmela – Ksar Ghilane",
+   "desde": "Douz",
+   "hasta": "Ksar Ghilane",
+   "km": 150,
+   "dias": 2,
+   "dificultad": "difícil",
+   "epoca": "octubre a abril",
+   "guia": "recomendado; sin guía obligatorio en el corredor Douz–Jebil–Tembaine/Ksar Ghilane según viajeros de 2024, con registro de la ruta en la Garde Touristique de Douz; autorización DGF para el parque de Jebil según una fuente de 2024",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "Es la travesía clásica en arena del sur tunisino: de Douz a Jebil, noche en los campamentos de Tembaine, cruce de dunas hacia el este hasta Zmela y llegada a Ksar Ghilane. Recorre cordones de dunas, afloramientos rocosos y los mejores bivacs del erg. Las fuentes de 2024 sitúan Douz–Jebil–Ksar Ghilane y Douz–Jebil–Tembaine fuera de la obligación de guía para conductores con experiencia. El enlace Tembaine–Zmela no se menciona expresamente.",
+   "firme": "Pista de arena desde Douz, arena blanda y cordones de dunas en Jebil y entre Tembaine y Zmela, y pista arenosa hasta Ksar Ghilane.",
+   "autonomia": "Todo el gasóleo desde Douz (unos 150 km en arena gastan mucho más que en asfalto) y agua para al menos dos días de más. Los campamentos de Tembaine y Zmela dan comida y agua, no combustible. Se puede volver a Douz por el asfalto del oleoducto.",
+   "riesgos": "Atascos, roturas y navegación entre dunas móviles; ir con al menos dos vehículos, GPS, planchas, eslinga y compresor. No desviarse al sur de Tembaine (Houidhat Erreched, Aïn Ouadette, Sif Essouane): esa zona exige guía y autorización y queda al sur de la línea desaconsejada por Francia. El Auswärtiges Amt desaconseja los viajes por el desierto sin organizar y recomienda ir con guías locales.",
+   "puntos": [
+    [
+     33.45722,
+     9.025
+    ],
+    [
+     33.3984,
+     9.0088
+    ],
+    [
+     33.0742,
+     9.0901
+    ],
+    [
+     32.93411,
+     9.11392
+    ],
+    [
+     32.8732,
+     9.1121
+    ],
+    [
+     32.86316,
+     9.10582
+    ],
+    [
+     32.8588,
+     9.56937
+    ],
+    [
+     32.98863,
+     9.64017
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/qibili",
+   "fuentes": [
+    {
+     "titulo": "Overland Bound: Trip to Tunisia (guía y autorización, corredores permitidos)",
+     "url": "https://www.overlandbound.com/forums/threads/trip-to-tunisia.48740/",
+     "fecha": "2024-11"
+    },
+    {
+     "titulo": "Wildly.tn: Parc national de Jebil",
+     "url": "https://wildly.tn/jebil-national-park/",
+     "fecha": "2024-12"
+    },
+    {
+     "titulo": "Wildyness: Jebil National Park circuit",
+     "url": "https://wildyness.com/news/circuit-south-tunisia-jebil-national-park",
+     "fecha": ""
+    },
+    {
+     "titulo": "Campement Zmela",
+     "url": "https://www.campement-zmela.com/en/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Auswärtiges Amt: Tunesien, Reise- und Sicherheitshinweise",
+     "url": "https://www.auswaertiges-amt.de/de/service/laender/tunesien-node/tunesiensicherheit/219024",
+     "fecha": "2026-09"
+    }
+   ],
+   "n": 2
+  },
+  {
+   "name": "Tataouine – Douiret – Chenini – Ksar Ghilane por la pista del Dahar",
+   "desde": "Tataouine",
+   "hasta": "Ksar Ghilane",
+   "km": 100,
+   "dias": 1,
+   "dificultad": "media",
+   "epoca": "octubre a abril",
+   "guia": "recomendado",
+   "perro": "condiciones",
+   "estado": "con condiciones",
+   "desc": "Une la zona de los ksour con el erg: asfalto por Douiret y Chenini y, desde Chenini, una pista hacia el oeste por la meseta del Dahar, con piedra y chapa ondulada que se va llenando de arena hasta las dunas de Ksar Ghilane. En Wikiloc hay tracks públicos recientes (2020) y los operadores de Djerba la usan a diario. En foros se desaconseja hacerla con coches de alquiler normales, pero en 4x4 es un bonito enlace.",
+   "firme": "Asfalto hasta Chenini, pista pedregosa con chapa ondulada en el Dahar y arena en los últimos kilómetros.",
+   "autonomia": "Gasóleo en Tataouine (la última gasolinera fiable). No hay servicios hasta Ksar Ghilane. Agua para el día y reserva.",
+   "riesgos": "Pinchazos en la pista de piedra, arena y tramos que cambian con el viento: preguntar el estado en Bir Soltane o Ksar Ghilane. El MAEC considera de riesgo medio la región de Tataouine (entre El Borma y Zarzis). La ruta queda al norte de la línea Rjim Maatoug–Borj Bourguiba y fuera de la franja de 75 km de Libia (FCDO). No desviarse al sur (Remada).",
+   "puntos": [
+    [
+     32.93056,
+     10.45
+    ],
+    [
+     32.867,
+     10.283
+    ],
+    [
+     32.91028,
+     10.26222
+    ],
+    [
+     32.90671,
+     9.94831
+    ],
+    [
+     32.98863,
+     9.64017
+    ],
+    [
+     33.00864,
+     9.61621
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "",
+   "fuentes": [
+    {
+     "titulo": "Find Latitude and Longitude: Piste Chenini-Ksar Ghilane",
+     "url": "https://www.findlatitudeandlongitude.com/l/Piste+CHENINI-KSAR+GHILANE,+Tunisia/2179200/",
+     "fecha": ""
+    },
+    {
+     "titulo": "Wikiloc: Tunisie, Ksar Ghilane Tataouine 2020 03",
+     "url": "https://www.wikiloc.com/offroading-trails/tunisie-ksar-ghilane-tataouine-2020-03-48649298",
+     "fecha": "2020-03"
+    },
+    {
+     "titulo": "Routard forum: Liaison Ksar Ghilane - Tataouine",
+     "url": "https://www.routard.com/forums/t/liaison-ksar-ghilane-tataouine/19637",
+     "fecha": "2012-03"
+    },
+    {
+     "titulo": "Grand Sahara Aventures: excursión Ksar Ghilane 2 días desde Djerba",
+     "url": "https://www.grand-sahara-aventures.com/djerba-excursion-ksar-ghilane-2-jours",
+     "fecha": ""
+    },
+    {
+     "titulo": "MAEC: recomendaciones de viaje a Túnez",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Tunez",
+     "fecha": "2026-04"
+    }
+   ],
+   "n": 3
+  },
+  {
+   "name": "Bucle de Tozeur: Nefta – Mos Espa – Ong Jmel – oasis de montaña",
+   "desde": "Tozeur",
+   "hasta": "Tozeur",
+   "km": 180,
+   "dias": 1,
+   "dificultad": "fácil",
+   "epoca": "octubre a abril",
+   "guia": "recomendado en los cañones de Chebika, Tamerza y Midès",
+   "perro": "sin_dato",
+   "estado": "con condiciones",
+   "desc": "Es un bucle de un día que combina los decorados de Star Wars (Mos Espa), la pista de arena compactada hasta Ong Jmel sobre el Chott el Gharsa y los oasis de montaña de Chebika, Tamerza y Midès. Es la misma combinación que ofrecen las agencias de Tozeur y la de un track público de Wikiloc (Tozeur–Nefta–Star Wars–Tamerza–Tozeur). Si se quiere evitar la franja fronteriza, basta con hacer solo el tramo Nefta–Mos Espa–Ong Jmel.",
+   "firme": "Asfalto con tramos de pista de arena compactada (Mos Espa–Ong Jmel, unos 8 km) y pistas cortas en los alrededores de los oasis.",
+   "autonomia": "Repostar en Tozeur. Hay gasolineras en Tozeur y Nefta. Agua para la jornada.",
+   "riesgos": "Chebika, Tamerza y Midès están dentro de los 10 km de la frontera argelina: el FCDO desaconseja todo viaje salvo esencial y el MAEC desaconseja las zonas fronterizas con Argelia. Mos Espa y Ong Jmel quedan a unos 20 km de la frontera, fuera de esa franja. No entrar en la sebja del Chott el Gharsa tras lluvias.",
+   "puntos": [
+    [
+     33.917,
+     8.133
+    ],
+    [
+     33.8757,
+     7.8798
+    ],
+    [
+     33.9943,
+     7.8428
+    ],
+    [
+     34.016,
+     7.9124
+    ],
+    [
+     34.317,
+     7.933
+    ],
+    [
+     34.38639,
+     7.9335
+    ],
+    [
+     34.4117,
+     7.9275
+    ],
+    [
+     33.917,
+     8.133
+    ]
+   ],
+   "trazado": "aproximado por puntos de paso",
+   "wikiloc": "https://www.wikiloc.com/trails/offroading/tunisia/tawzar",
+   "fuentes": [
+    {
+     "titulo": "Wikiloc: Tozeur-Nefta-Star Wars-Tamerza-Tozeur",
+     "url": "https://www.wikiloc.com/offroading-trails/tozeur-nefta-star-wars-tamerza-tozeur-460975",
+     "fecha": ""
+    },
+    {
+     "titulo": "Tourism Tunisia: Ong Jemel and Mos Espa",
+     "url": "https://www.tourismtunisia.com/mos-espa-ong-jemel-tozeur/",
+     "fecha": "2026-09"
+    },
+    {
+     "titulo": "Grand Sahara Aventures: excursión oasis de montaña desde Tozeur",
+     "url": "https://www.grand-sahara-aventures.com/tozeur-excursions-circuits/tozeur-oasis-de-montagne-1j",
+     "fecha": ""
+    },
+    {
+     "titulo": "FCDO: Tunisia travel advice, warnings and insurance",
+     "url": "https://www.gov.uk/foreign-travel-advice/tunisia/warnings-and-insurance",
+     "fecha": "2026-07"
+    },
+    {
+     "titulo": "Mapcarta: Midès",
+     "url": "https://mapcarta.com/Mides",
+     "fecha": ""
+    },
+    {
+     "titulo": "Mapcarta: Nefta",
+     "url": "https://mapcarta.com/Nefta",
+     "fecha": ""
+    }
+   ],
+   "n": 4
+  }
+ ],
+ "notas": "SEGURIDAD Y NORMAS. FCDO (actualizado el 24-07-2026) desaconseja todo viaje a: el parque del Chaambi y los montes Salloum, Sammamma y Mghila; la zona militarizada al sur de El Borma y Dhehiba; los 20 km de la frontera libia al norte de Dhehiba; y Ben Guerdane. Desaconseja todo salvo lo esencial en: la franja de 75 km de Libia (incluidos Remada y El Borma, pero no Zarzis, la C118 ni Medenine al norte de ella); los 10 km de la frontera argelina al sur de Kasserine (afecta a Chebika, Tamerza y Midès); y toda la gobernación de Kasserine, incluida Sbeitla (PDI general existente). MAEC (22-04-2026) desaconseja las zonas fronterizas con Argelia y las militarizadas (Chaâmbi) y la franja El Borma–Ben Guerdane, y considera de riesgo medio la región entre El Borma y Zarzis por Tataouine; no menciona guía ni autorización en el desierto. France Diplomatie (15-09-2026): zona militar desde agosto de 2013 en el extremo sur, con autorización previa obligatoria (roja), y naranja al sur y al este de la línea Bir Rjim Maatoug–Borj Bourguiba–Ben Guerdane. Houidhat Erreched y Aïn Ouadette quedan al sur de esa línea; Jebil, Tembaine, Zmela y Ksar Ghilane quedan al norte (comprobado con las coordenadas de Rjim Maatoug y Borj Bourguiba). El Auswärtiges Amt (27-09-2026) desaconseja viajar al sur y sureste de la línea Tozeur/Nefta–Douz–Ksar Ghilane–Tataouine–Zarzis y los viajes por el desierto sin organizar, y recomienda ir con guías; es más restrictivo que el resto. GUÍA AL SUR DE DOUZ: la única fuente reciente y concreta es un foro (Overland Bound, 11-2024). Según ella, para Aïn Ouadette, Sif Essouane y el sur profundo hacen falta guía y autorización de la oficina oficial (Garde Touristique de Douz), mientras que Douz–Jebil–Ksar Ghilane y Douz–Jebil–Tembaine pueden hacerse sin guía si se tiene experiencia; el guía registró la ruta en la Garde Touristique de Douz. No se ha encontrado un texto oficial tunecino que lo confirme: hay que verificarlo en Douz a la llegada. Wildly.tn (12-2024) dice que para Jebil hace falta autorización de la DGF (Dirección General de Bosques), pero otras fuentes no lo mencionan: confirmar. DUDAS. (1) La obligación exacta de guía y autorización en el Gran Erg y la autorización de la DGF para Jebil. (2) Si el enlace Tembaine–Zmela está dentro del corredor sin guía. (3) Los perros en el parque nacional de Jebil y en los campamentos: no hay datos. Kilómetros: los de las rutas 1 y 3 salen de fuentes (unos 142-150 km; unos 100 km según un track de ida y vuelta de 200 km); los de las rutas 2 y 4 son estimaciones a partir de los puntos de paso (en línea recta salen 126 y 147 km, más el margen de las curvas). En la ruta 3 solo hay un punto intermedio verificado en la pista del Dahar. Tembaine–Houidhat Erreched solo figura como punto, no como ruta, porque no hay puntos de paso verificables (Mapcarta da 31 km al sur de Tembaine). Ksar Ghilane: Wikipedia lo sitúa en Tataouine y OSM en Kebili. No se han encontrado fuentes con presiones de neumáticos concretas. Wikiloc bloquea WebFetch, así que los listados enlazados se han visto en los resultados de búsqueda (tunisia, qibili, qibili/douz, tawzar, tawzar/tamaghzah); para Tataouine no apareció ningún listado offroading. DESCARTADAS. La pista del oleoducto sur Ksar Ghilane–El Borma y la zona de Remada, Borj Bourguiba y Dhehiba (FCDO lo desaconseja todo o todo salvo lo esencial; zona militar con autorización). El cruce del Chott el Jerid por pista (hundimientos; el acceso sur por Rjim Maatoug está en el límite de la zona naranja francesa). El sur profundo de Sif Essouane (guía y autorización obligatorios, zona naranja). Sbeitla: FCDO desaconseja todo salvo lo esencial en Kasserine, y no hay offroad. Djerba: no hay interés offroad relevante. Matmata–Tamezret–Douz está asfaltada (unos 100 km, sin gasolineras); la pista histórica Douz–Bir Agareb–Borj l'Asnam–Tamezret (unos 140 km de pista, según un blog de 2013) no se ha incluido por falta de coordenadas y de fuentes recientes."
+}
