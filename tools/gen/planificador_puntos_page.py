@@ -99,10 +99,13 @@ CSS = """
 .pp-sum div{background:var(--surface2);border-radius:8px;padding:7px 8px}
 .pp-sum b{display:block;font-size:17px;font-variant-numeric:tabular-nums}
 .pp-sum span{font-size:11px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em}
-.pp-avisos{list-style:none;margin:6px 0 0;padding:0;font-size:12.5px}
+.pp-avisos{list-style:none;margin:4px 0 0;padding:0;font-size:12.5px;max-height:320px;overflow:auto}
+.pp-avdet{margin-top:8px}.pp-avdet>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:7px;background:var(--amber-bg);border-left:4px solid var(--amber);font-size:13px;font-weight:700}
+.pp-avdet>summary::-webkit-details-marker{display:none}.pp-avdet>summary::after{content:'▾';margin-left:auto;transition:transform .15s}.pp-avdet[open]>summary::after{transform:rotate(180deg)}
+.pp-avdet>summary .r{color:var(--red)}.pp-avdet.rojo>summary{background:var(--red-bg);border-left-color:var(--red)}
 .pp-avisos li{padding:6px 9px;border-radius:7px;margin:5px 0;background:var(--amber-bg);color:var(--ink);border-left:4px solid var(--amber)}
 .pp-avisos li.ir{cursor:pointer}.pp-avisos li.ir:hover,.pp-avisos li.ir:focus-visible{filter:brightness(1.08);outline:2px solid var(--teal);outline-offset:1px}
-.pp-avisos li .ver{display:block;margin-top:3px;font-size:11.5px;font-weight:700;color:var(--link)}
+.pp-avisos li .ver{display:inline;margin-left:6px;white-space:nowrap;font-size:11.5px;font-weight:700;color:var(--link)}
 .pp-avisos li.rojo{background:var(--red-bg);color:var(--ink);border-left-color:var(--red)}
 .pp-avisos li.rojo strong{color:var(--red)}
 .pp-paises{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
@@ -317,7 +320,7 @@ def render(FULL, navbar, VERSION):
       <div class="pp-tira" id="pp-tira" aria-hidden="true"></div>
       <div id="pp-fechas" style="font-size:12.5px;color:var(--ink-soft)"></div>
       <div class="pp-paises" id="pp-paises"></div>
-      <ul class="pp-avisos" id="pp-avisos"></ul>
+      <details class="pp-avdet" id="pp-avdet" hidden><summary id="pp-avsum">Avisos</summary><ul class="pp-avisos" id="pp-avisos"></ul></details>
     </div>
     <div class="pp-sec pp-ida">
       <h3>Ida <span class="cnt" id="pp-cnt-ida"></span></h3>

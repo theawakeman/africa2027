@@ -1057,6 +1057,9 @@ function pintar(){
     const act = new Set(S.paises), totD = Object.values(R.diasPais).reduce((a, b) => a + b, 0) || 1;
     $('pp-tira').innerHTML = ps.map(s => `<i style="width:${(R.diasPais[s] || 0) / totD * 100}%;background:${colPais(s)}" title="${esc(nom(s))}: ~${num(R.diasPais[s] * R.factor, 1)} días"></i>`).join('');
     $('pp-paises').innerHTML = ps.map(s => `<span class="${act.has(s) ? '' : 'fuera'}" style="border-left:4px solid ${colPais(s)}">${esc(nom(s))} · ${num(R.kmPais[s] || 0)} km${R.entradas[s] > 1 ? ' · ' + R.entradas[s] + ' estancias' : ''}</span>`).join('');
+    { const n = R.avisos.length, nr = R.avisos.filter(a => a.rojo).length, dt = $('pp-avdet');
+      dt.hidden = !n; dt.classList.toggle('rojo', !!nr);
+      $('pp-avsum').innerHTML = `⚠ ${n} aviso${n === 1 ? '' : 's'}${nr ? ` · <span class="r">${nr} importante${nr === 1 ? '' : 's'}</span>` : ''}<small style="font-weight:400;color:var(--ink-soft)">${dt.open ? 'ocultar' : 'ver'}</small>`; }
     $('pp-avisos').innerHTML = R.avisos.map((a, i) => a.ir ? `<li class="${a.rojo ? 'rojo' : ''} ir" data-aviso="${i}" role="button" tabindex="0" title="Ver en el mapa">${a.t}<span class="ver">Ver en el mapa ›</span></li>` : `<li class="${a.rojo ? 'rojo' : ''}">${a.t}</li>`).join('');
   }
   $('pp-salida').value = S.salida || CFG.salida; $('pp-kmdia').value = S.kmdia; if ($('pp-kmdiat')) $('pp-kmdiat').value = S.kmdia_t; $('pp-margen').value = S.margen;
@@ -1307,6 +1310,9 @@ $('pp-buscar').addEventListener('submit', e => { e.preventDefault(); buscar($('p
 $('pp-ord-ida').addEventListener('click', () => ordenar('ida'));
 $('pp-ord-vuelta').addEventListener('click', () => ordenar('vuelta'));
 $('pp-guardar').addEventListener('click', () => guardarViaje(false));
+{ const dt = $('pp-avdet'); try { dt.open = localStorage.getItem('a27pp-avisos-abierto') === '1'; } catch(e) {}
+  dt.addEventListener('toggle', () => { try { localStorage.setItem('a27pp-avisos-abierto', dt.open ? '1' : '0'); } catch(e) {}
+    const sm = $('pp-avsum').querySelector('small'); if (sm) sm.textContent = dt.open ? 'ocultar' : 'ver'; }); }
 document.addEventListener('click', e => { if (e.target.closest('#pp-guardar-act')) guardarViaje(true); });
 $('pp-cargar').addEventListener('click', cargarViaje);
 $('pp-borrar').addEventListener('click', borrarViaje);

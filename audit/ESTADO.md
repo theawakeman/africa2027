@@ -529,3 +529,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   0 días. La ruta cruza por ahí y ya no inserta otro puesto automático en ese cambio. Aviso rojo si está cerrado.
 - 2026-09-27 · Planificador: «Guardar cambios en «viaje»» guarda el progreso del viaje cargado sin pedir nombre (con aviso de cambios sin guardar); el campo de nombre queda para «Guardar como».
 - 2026-09-27 · Planificador: cada punto del viaje muestra los km y días al volante del tramo que llega a él (con ~ si son aproximados).
+- 2026-09-27 · Planificador: avisos en un desplegable («⚠ N avisos · M importantes»), cerrado por defecto y recordando si lo dejas abierto.
