@@ -266,7 +266,7 @@ function a27Map(elId, cfg){
   if (cfg.viaje) {
     try { viaje = JSON.parse(localStorage.getItem('a27-ruta-resumen') || 'null'); } catch(e) { viaje = null; }
     if (!viaje || !viaje.linea || viaje.linea.length < 2) viaje = null;
-    if (viaje && on) { on.add('Tu viaje'); (cfg.viajeOff || []).forEach(l => on.delete(l)); }
+    if (viaje && on && !cfg.viajeIdaVuelta) on.add('Tu viaje');
   }
   function group(label){
     if (!groups[label]) {
@@ -277,12 +277,23 @@ function a27Map(elId, cfg){
   }
   // Orden fijo de la leyenda (las capas no listadas van después, por orden de aparición).
   (cfg.groupOrder || []).forEach(label => { if (!groups[label]) groups[label] = null; });
-  if (viaje) {
+  const quitar = new Set();
+  if (viaje && cfg.viajeIdaVuelta) {
+    // Mapa general: la ida y la vuelta pasan a ser las del viaje del Planificador.
+    // Se parte en el punto más alejado del puerto de llegada a África.
+    const [lIda, lVuelta] = cfg.viajeIdaVuelta, o = viaje.linea[0];
+    let k = 0, dmax = -1;
+    viaje.linea.forEach((q, i) => { const d = (q[0] - o[0]) ** 2 + ((q[1] - o[1]) * Math.cos(o[0] * Math.PI / 180)) ** 2; if (d > dmax) { dmax = d; k = i; } });
+    const tip = a27Esc(viaje.nombre || 'Tu viaje');
+    L.polyline(viaje.linea.slice(0, k + 1), {color: '#1E7A8A', weight: 4, opacity: .9}).bindTooltip(tip + ' · ida', {sticky: true}).addTo(group(lIda));
+    L.polyline(viaje.linea.slice(k), {color: '#C47F17', weight: 4, opacity: .9}).bindTooltip(tip + ' · vuelta', {sticky: true}).addTo(group(lVuelta));
+    quitar.add(lIda); quitar.add(lVuelta);
+  } else if (viaje) {
     const pv = L.polyline(viaje.linea, {color: '#B43A3A', weight: 5, opacity: .75});
     pv.bindTooltip('Tu viaje · ' + a27Esc(viaje.nombre || '') + (viaje.salida ? ' · salida ' + a27Esc(viaje.salida) : ''), {sticky: true});
     pv.addTo(group('Tu viaje'));
   }
-  (cfg.lines || []).forEach(li => {
+  (cfg.lines || []).filter(li => !quitar.has(li.label)).forEach(li => {
     const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
     if (li.title) pl.bindTooltip(li.title, {sticky: true});
     pl.addTo(group(li.label || 'Corredor'));
@@ -430,9 +441,10 @@ def map_lines(d):
 # Papel de cada corredor de país en el mapa general. En las fichas cada país
 # conserva sus propias etiquetas; aquí se agrupan en cuatro capas para que la
 # leyenda no tenga un ramal por país:
-#   bajada      → «Ruta planificada · ida»        · encendida si no hay viaje propio
-#   subida      → «Ruta planificada · vuelta»     · encendida si no hay viaje propio
-# (el viaje configurado en el Planificador se dibuja aparte como «Tu viaje»)
+#   bajada      → «Ruta · ida»      · encendida
+#   subida      → «Ruta · vuelta»   · encendida
+# Sin viaje calculado se ven los corredores de la ruta planificada; con viaje,
+# map.js los sustituye por la ida y la vuelta del viaje del Planificador.
 #   variante    → «Variantes por país»            · apagada
 #   alternativa → «Ramales y alternativas»        · apagada
 # (papel del corredor principal, papel del corredor alternativo)
@@ -449,13 +461,13 @@ MAPA_GENERAL_ROLES = {
     "botsuana": ("subida", "variante"), "sudafrica": ("subida", "subida"), "namibia": ("subida", "variante"),
 }
 MAPA_GENERAL_CAPAS = {
-    "bajada":      ("Ruta planificada · ida",      "#1E7A8A", False),
-    "subida":      ("Ruta planificada · vuelta",   "#C47F17", False),
+    "bajada":      ("Ruta · ida",                  "#1E7A8A", False),
+    "subida":      ("Ruta · vuelta",               "#C47F17", False),
     "variante":    ("Variantes por país",          "#5F6B72", True),
     "alternativa": ("Ramales y alternativas",      "#9AA5AB", True),
 }
-MAPA_GENERAL_ON = ["Ruta planificada · ida", "Ruta planificada · vuelta", "Puntos de interés"]
-MAPA_GENERAL_ORDEN = ["Tu viaje", "Ruta planificada · ida", "Ruta planificada · vuelta", "Puntos de interés",
+MAPA_GENERAL_ON = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés"]
+MAPA_GENERAL_ORDEN = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés",
                       "Variantes por país", "Ramales y alternativas", "Fronteras", "Hospitales",
                       "Consulados", "Agua de servicio", "Combustible", "Servicios"]
 
@@ -916,14 +928,14 @@ def render_map_page(all_points, all_lines):
                         ("Documentación", root + "documentacion/")], "Mapa general")
     cfg = {"center": [14.0, -5.0], "zoom": 4, "root": root, "points": all_points, "lines": all_lines,
            "defaultOn": MAPA_GENERAL_ON, "groupOrder": MAPA_GENERAL_ORDEN, "viaje": True,
-           "viajeOff": ["Ruta planificada · ida", "Ruta planificada · vuelta"]}
+           "viajeIdaVuelta": ["Ruta · ida", "Ruta · vuelta"]}
     body = f"""{nav}
 <main style="max-width:1400px">
 <h2 style="margin-top:18px">Mapa general del viaje</h2>
-<p>Si has calculado un viaje en el <a href="../planificador/">Planificador</a>, el mapa lo dibuja como <strong>Tu viaje</strong> junto a los <strong>puntos de interés</strong>; si no, muestra la <strong>ruta planificada</strong> (ida y vuelta). El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
+<p>Por defecto se ven la <strong>ruta de ida</strong>, la <strong>de vuelta</strong> y los <strong>puntos de interés</strong>. La ida y la vuelta son las del viaje calculado en el <a href="../planificador/">Planificador</a> (se parte en el punto más alejado del puerto de llegada a África); si en este navegador aún no hay ninguno, son las de la ruta planificada. El resto de capas —variantes por país, ramales y países alternativos, fronteras, hospitales, consulados, agua de servicio, combustible y servicios— están apagadas y se activan con el control de la esquina superior derecha. Los puntos de agua indican recarga real o condicionada para ducha y lavado, no potabilidad automática; hay que leer el estado del pin. Toca un PDI para ver exactamente el mismo resumen y la misma portada que en su ficha; «Ver ficha ampliada» abre todos los detalles, fotos y enlaces sin salir del mapa, y al cerrarla conserva la posición y el zoom. El fondo es OpenStreetMap: con conexión se puede navegar y hacer zoom por toda África; sin conexión se muestran las zonas ya visitadas.</p>
 <p class="callout" style="display:block"><strong>Agua y combustible:</strong> la capa de agua distingue recarga confirmada o publicada, acceso condicionado, solo ducha y puntos descartados. Agua de servicio no equivale a agua potable, y una instalación con duchas no autoriza por sí sola a llenar el depósito. Abrir cada pin y reconfirmar la fuente el mismo día. Para combustible, el objetivo es no dejar tramos de más de ~500 km sin una opción confirmada; donde no se pueda garantizar, se indica como alerta en la ficha del país.</p>
 <div id="genmap" class="mapbox tall"></div>
-<p class="figcap">Rojo = tu viaje · turquesa = ruta planificada, ida · ámbar = ruta planificada, vuelta · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
+<p class="figcap" id="genmap-pie">Turquesa = ida · ámbar = vuelta · gris discontinuo = variantes y ramales (apagados por defecto). Los países en borrador aún no tienen puntos; se añadirán ficha a ficha.</p>
 <footer>ÁFRICA 2027 · versión {VERSION}</footer>
 </main>
 <script>var A27_GEN = {json.dumps(cfg, ensure_ascii=False)};</script>

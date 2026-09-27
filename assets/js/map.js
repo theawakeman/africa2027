@@ -188,7 +188,7 @@ function a27Map(elId, cfg){
   if (cfg.viaje) {
     try { viaje = JSON.parse(localStorage.getItem('a27-ruta-resumen') || 'null'); } catch(e) { viaje = null; }
     if (!viaje || !viaje.linea || viaje.linea.length < 2) viaje = null;
-    if (viaje && on) { on.add('Tu viaje'); (cfg.viajeOff || []).forEach(l => on.delete(l)); }
+    if (viaje && on && !cfg.viajeIdaVuelta) on.add('Tu viaje');
   }
   function group(label){
     if (!groups[label]) {
@@ -199,12 +199,23 @@ function a27Map(elId, cfg){
   }
   // Orden fijo de la leyenda (las capas no listadas van después, por orden de aparición).
   (cfg.groupOrder || []).forEach(label => { if (!groups[label]) groups[label] = null; });
-  if (viaje) {
+  const quitar = new Set();
+  if (viaje && cfg.viajeIdaVuelta) {
+    // Mapa general: la ida y la vuelta pasan a ser las del viaje del Planificador.
+    // Se parte en el punto más alejado del puerto de llegada a África.
+    const [lIda, lVuelta] = cfg.viajeIdaVuelta, o = viaje.linea[0];
+    let k = 0, dmax = -1;
+    viaje.linea.forEach((q, i) => { const d = (q[0] - o[0]) ** 2 + ((q[1] - o[1]) * Math.cos(o[0] * Math.PI / 180)) ** 2; if (d > dmax) { dmax = d; k = i; } });
+    const tip = a27Esc(viaje.nombre || 'Tu viaje');
+    L.polyline(viaje.linea.slice(0, k + 1), {color: '#1E7A8A', weight: 4, opacity: .9}).bindTooltip(tip + ' · ida', {sticky: true}).addTo(group(lIda));
+    L.polyline(viaje.linea.slice(k), {color: '#C47F17', weight: 4, opacity: .9}).bindTooltip(tip + ' · vuelta', {sticky: true}).addTo(group(lVuelta));
+    quitar.add(lIda); quitar.add(lVuelta);
+  } else if (viaje) {
     const pv = L.polyline(viaje.linea, {color: '#B43A3A', weight: 5, opacity: .75});
     pv.bindTooltip('Tu viaje · ' + a27Esc(viaje.nombre || '') + (viaje.salida ? ' · salida ' + a27Esc(viaje.salida) : ''), {sticky: true});
     pv.addTo(group('Tu viaje'));
   }
-  (cfg.lines || []).forEach(li => {
+  (cfg.lines || []).filter(li => !quitar.has(li.label)).forEach(li => {
     const pl = L.polyline(li.pts, {color: li.color, weight: li.dash ? 3 : 4, dashArray: li.dash ? '8 8' : null, opacity:.85});
     if (li.title) pl.bindTooltip(li.title, {sticky: true});
     pl.addTo(group(li.label || 'Corredor'));

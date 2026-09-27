@@ -42,11 +42,11 @@ match = re.search(r'<script>var A27_GEN = (\{.*?\});</script>', map_html, re.S)
 require(match, "no se encuentra la configuración generada del mapa")
 config = json.loads(match.group(1))
 require(config.get("defaultOn") == [
-    "Ruta planificada · ida",
-    "Ruta planificada · vuelta",
+    "Ruta · ida",
+    "Ruta · vuelta",
     "Puntos de interés",
 ], "las capas visibles por defecto han cambiado")
-require(config.get("viaje") is True and "Tu viaje" in config.get("groupOrder", []),
+require(config.get("viaje") is True and config.get("viajeIdaVuelta") == ["Ruta · ida", "Ruta · vuelta"],
         "el mapa general debe dibujar el viaje calculado en el Planificador")
 
 # Evita mezclar HTML nuevo con CSS/JS antiguos en una pestaña controlada por PWA.

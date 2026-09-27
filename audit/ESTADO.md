@@ -258,3 +258,6 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Portal: las fichas salen en el orden del viaje. Sin viaje calculado en el navegador,
   en el de la ruta planificada; con viaje, viaje.js mueve las tarjetas (número, fecha
   de entrada y «de paso») y el resto va a «Resto de países» por regiones.
+- Mapa general: las capas «Ruta · ida» y «Ruta · vuelta» son las del viaje del
+  Planificador (partido en el punto más alejado del puerto de llegada a África); sin
+  viaje calculado en el navegador, las de la ruta planificada.
