@@ -398,3 +398,13 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - Datos: `tools/gen/zonas_riesgo.json`, generado a mano con `tools/zonas_riesgo_gen.py`
   (shapely + Natural Earth admin-1 + franjas sobre africa.geo.json). Donde el aviso habla de
   comarcas, distritos o líneas entre pueblos, los límites son aproximados y así se indica.
+- (27-09-2026) «Traer el viaje del Planificador actual» (Mis viajes): el Planificador actual guarda
+  siempre su último cálculo en `a27-plan-resumen`; se convierte en viaje por puntos tomando, en
+  cada país donde para, los PDI por los que pasa su recorrido (vértice a ≤ 3 km), en orden, y
+  partiendo ida/vuelta en el punto más alejado. Los días salen de los tiempos de cada ficha
+  (con la ruta planificada: 270 puntos y ~614 días frente a 395; hay que ajustar días por punto).
+- Comprobación de pasos fronterizos con OSRM (266 tramos puesto → PDI más cercano de cada lado):
+  el único rodeo real era Hassi 75 (ya con pista). Caripande–Liuwa (~700 km) es real (no hay
+  carretera por la orilla oeste del Zambeze). Los puestos que la ficha marca EXCLUIDA o
+  DESCARTADA (Guinea–Guinea-Bisáu, Negomano, Kilambo, Cinkassé) pasan a estado «descartada» y ya
+  no se usan para calcular la ruta.

@@ -624,7 +624,7 @@ function compute(){
   setTimeout(estadoViaje, 0);
   // Cifras para la comparación del Planificador por puntos
   try { localStorage.setItem('a27-plan-cifras', JSON.stringify({nombre: nombreViaje(), km: Math.round(kmTot), dias, total: Math.round(total), paises: R.sel.size, hecho: new Date().toISOString()})); } catch(e) {}
-  if (!dePuntos) publicarResumen(R, FE, dias, diasRuta, salida, kmTot);
+  publicarResumen(R, FE, dias, diasRuta, salida, kmTot, !dePuntos);
   window.__A27_BUDGET_RESULT = {R: Rr, total, kmTot, veh, dias, diasCalc, diasRuta, fijos, margen, salida, regreso: fecha(regreso),
     ruta: R, porPais, orden, combOut, visOut, tasOut, factor, desv, rv, rt, FE, euRows, kmEU, diasEU};
 }
@@ -636,7 +636,7 @@ function nombreViaje(){
   const V = leerViajes(), cur = viajeActual();
   return cur && V[cur] ? cur + (JSON.stringify(V[cur].S) === JSON.stringify(S) ? '' : ' (con cambios)') : (Object.keys(S).length ? 'Viaje sin guardar' : 'Ruta planificada');
 }
-function publicarResumen(R, FE, dias, diasRuta, salida, kmTot){
+function publicarResumen(R, FE, dias, diasRuta, salida, kmTot, enLaWeb){
   try {
     const f = diasRuta > 0 ? dias / diasRuta : 1, iso = d => d.toISOString().slice(0, 10);
     const nombre = nombreViaje();
@@ -652,8 +652,11 @@ function publicarResumen(R, FE, dias, diasRuta, salida, kmTot){
     const linea = [];
     const push = q => { const x = [Math.round(q[0] * 100) / 100, Math.round(q[1] * 100) / 100], u = linea[linea.length - 1]; if (!u || u[0] !== x[0] || u[1] !== x[1]) linea.push(x); };
     push(FE[0].f.pos); R.pas.forEach(p => { (p.linkIn || []).forEach(push); p.pts.forEach(push); }); (R.linkVuelta || []).forEach(push); push(FE[1].f.pos);
-    localStorage.setItem(RKEY, JSON.stringify({v: 1, nombre, origen: RU.origen, salida, regreso: iso(addDays(salida, dias)), dias, km: Math.round(kmTot),
-      ida: FE[0].f.origen + ' → ' + FE[0].f.puerto, vuelta: FE[1].f.puerto + ' → ' + FE[1].f.origen, pasos, linea, hecho: new Date().toISOString()}));
+    const txt = JSON.stringify({v: 1, nombre, origen: RU.origen, salida, regreso: iso(addDays(salida, dias)), dias, km: Math.round(kmTot),
+      ida: FE[0].f.origen + ' → ' + FE[0].f.puerto, vuelta: FE[1].f.puerto + ' → ' + FE[1].f.origen, pasos, linea, hecho: new Date().toISOString()});
+    // Copia propia para el Planificador por puntos («Traer el viaje del Planificador actual»)
+    localStorage.setItem('a27-plan-resumen', txt);
+    if (enLaWeb) localStorage.setItem(RKEY, txt);
   } catch(e) {}
 }
 

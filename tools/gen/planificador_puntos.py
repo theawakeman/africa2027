@@ -206,6 +206,8 @@ def construir(FULL, C, FRONTERAS, ISLAS):
             if estado == "abierta" and (re.search(r"cerrad[ao]", nombre_l) or re.search(
                     r"(frontera|paso|puesto) cerrad[ao]|cerrad[ao] (desde|hasta|al tráfico|a extranjeros)|sigue cerrad|permanece cerrad", texto)):
                 estado = "revisar"
+            if re.search(r"\b(excluid|descartad)[ao]", nombre_l):
+                estado = "descartada"   # la ficha lo descarta expresamente: no se usa para calcular la ruta
             fiable = bool(otro) and km_otro is not None and km_otro <= 25 and (km_propio or 0) <= 25
             unico = PASOS_HABILITADOS.get(frozenset({slug, otro})) if otro else None
             if unico and not re.search(unico, texto):

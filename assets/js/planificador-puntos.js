@@ -792,6 +792,37 @@ function borrarViaje(){
   if (!confirm(`¿Borrar el viaje «${n}»?`)) return;
   delete V[n]; escV(V); paintViajes(); msg(`Viaje «${esc(n)}» borrado.`);
 }
+// Convierte el viaje del Planificador actual (su último cálculo, 'a27-plan-resumen') en
+// un viaje por puntos: en cada país donde se para, los PDI por los que pasa su
+// recorrido, en el orden en que la ruta pasa junto a ellos; la ida acaba en el punto
+// más alejado del puerto de llegada, como en el mapa general.
+function traerPlan(){
+  let P = null; try { P = JSON.parse(localStorage.getItem('a27-plan-resumen') || 'null'); } catch(e) {}
+  if (!P || !P.linea || P.linea.length < 2) { msg(`Abre antes el <a href="${raiz}planificador/">Planificador actual</a> con el viaje que quieras traer (se guarda al calcularlo).`); return; }
+  const L0 = P.linea, o = L0[0];
+  let k = 0, dm = -1; L0.forEach((q, i) => { const d = hav(o, q); if (d > dm) { dm = d; k = i; } });
+  const visita = new Set(P.pasos.filter(x => x.tipo === 'visita').map(x => x.f === 'cabinda' ? 'angola' : x.f));
+  // Los recorridos de las fichas pasan por sus PDI: se toman los que coinciden con un vértice
+  // de la línea (redondeada a 0,01°, ~1 km), no todos los que quedan cerca de la carretera.
+  const D = L0.map((q, i) => ({p: q, i}));
+  const elegidos = [];
+  visita.forEach(s => (PORPAIS[s] || []).forEach(p => {
+    let best = null;
+    for (let j = 0; j < D.length; j++) { const q = D[j]; if (Math.abs(q.p[0] - p.lat) > 0.15 || Math.abs(q.p[1] - p.lon) > 0.2) continue;
+      const d = hav([p.lat, p.lon], q.p); if (d <= 3 && (!best || d < best.d)) best = {d, i: q.i, j}; }
+    if (best) elegidos.push({id: p.id, pais: s, i: best.i, j: best.j});
+  }));
+  if (!elegidos.length) { msg('No hay puntos de interés junto al recorrido de ese viaje.'); return; }
+  if ((S.ida.length || S.vuelta.length) && !confirm(`Se sustituye el viaje actual de esta página por «${P.nombre}» (${elegidos.length} puntos). Si quieres conservar el actual, cancela y guárdalo antes en «Mis viajes». ¿Seguir?`)) return;
+  elegidos.sort((a, b) => a.j - b.j);
+  const n = VACIO();
+  n.paises = [...visita].filter(s => PA[s]);
+  n.ida = elegidos.filter(x => x.i <= k).map(x => x.id); n.vuelta = elegidos.filter(x => x.i > k).map(x => x.id);
+  n.salida = P.salida || S.salida; n.kmdia = S.kmdia; n.margen = S.margen; n.evitar = S.evitar.slice();
+  n.nombre = (P.nombre || 'Planificador actual').replace(/ \(con cambios\)$/, '') + ' · por puntos';
+  S = n; save(); calcular(); encuadrar();
+  msg(`Traído «${esc(P.nombre)}»: ${n.ida.length} puntos a la ida y ${n.vuelta.length} a la vuelta en ${n.paises.length} países. Revisa los días de cada punto.`);
+}
 function exportar(){
   const propios = window.A27Creador ? A27Creador.lista() : [];
   const blob = new Blob([JSON.stringify({app: 'a27-planificador-puntos', v: 1, viajes: leerV(), actual: S, propios}, null, 1)], {type: 'application/json'});
@@ -869,6 +900,7 @@ $('pp-guardar').addEventListener('click', guardarViaje);
 $('pp-cargar').addEventListener('click', cargarViaje);
 $('pp-borrar').addEventListener('click', borrarViaje);
 $('pp-exportar').addEventListener('click', exportar);
+$('pp-traer').addEventListener('click', traerPlan);
 $('pp-vnombre').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); guardarViaje(); } });
 $('pp-nuevo').addEventListener('click', () => { if (!confirm('¿Empezar un viaje nuevo? El actual se pierde si no lo has guardado.')) return; S = VACIO(); save(); calcular(); encuadrar(); });
 if (window.Sortable) ['pp-lista-ida', 'pp-lista-vuelta'].forEach(id => Sortable.create($(id), {group: 'pp', handle: '.pp-h', animation: 150,

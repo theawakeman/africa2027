@@ -200,7 +200,7 @@ table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);backgrou
       <h3>Mis viajes</h3>
       <div class="pp-row"><select id="pp-viajes" style="flex:1"></select><button type="button" class="pp-b" id="pp-cargar">Cargar</button><button type="button" class="pp-b x" id="pp-borrar">Borrar</button></div>
       <div class="pp-row"><input type="text" id="pp-vnombre" placeholder="Nombre del viaje" style="flex:1" autocomplete="off" data-1p-ignore data-lpignore="true"><button type="button" class="pp-b ida" id="pp-guardar">Guardar</button></div>
-      <div class="pp-row"><button type="button" class="pp-b" id="pp-nuevo">Empezar de cero</button><button type="button" class="pp-b" id="pp-exportar">Descargar</button><label class="pp-b" style="cursor:pointer">Importar<input type="file" id="pp-importar" accept=".json,application/json" hidden></label></div>
+      <div class="pp-row"><button type="button" class="pp-b" id="pp-nuevo">Empezar de cero</button><button type="button" class="pp-b" id="pp-exportar">Descargar</button><button type="button" class="pp-b" id="pp-traer" title="Convierte el último viaje calculado en el Planificador actual en un viaje por puntos">Traer el viaje del Planificador actual</button><label class="pp-b" style="cursor:pointer">Importar<input type="file" id="pp-importar" accept=".json,application/json" hidden></label></div>
     </div>
   </aside>
 </div>
@@ -225,7 +225,7 @@ table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);backgrou
 <script src="../assets/vendor/Sortable.min.js"></script>
 <script src="../assets/js/map.js?v=5bc6730f6d"></script>
 <script src="../assets/js/creador-pdi.js?v=97e92d7f30"></script>
-<script src="../assets/js/planificador-puntos.js?v=a875506788"></script>
+<script src="../assets/js/planificador-puntos.js?v=83304993a0"></script>
 <script src="../assets/js/viaje.js?v=e75eb3a1cc"></script>
 
 <div id="upd" hidden style="position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:999;background:#16324F;color:#fff;font-family:Archivo,sans-serif;font-size:14px;padding:10px 18px;border-radius:99px;box-shadow:0 4px 18px rgba(0,0,0,.35);cursor:pointer">Nueva versión disponible · toca para actualizar</div>
