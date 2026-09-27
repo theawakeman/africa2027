@@ -1125,7 +1125,7 @@ def render_cpd():
 
     secs = [("Portal", root), ("Planificador", root + "planificador/"), ("Mapa", root + "mapa/"), ("Visados", root + "visados/"),
             ("Documentación", root + "documentacion/")]
-    nav = navbar(root, secs + [("Obligatorio", "#obligatorio"), ("Recomendable", "#recomendable"),
+    nav = navbar(root, secs + [("Tu viaje", "#tu-viaje"), ("Obligatorio", "#obligatorio"), ("Recomendable", "#recomendable"),
                                ("No necesario", "#no"), ("Coste", "#coste"), ("En disputa", "#disputa"),
                                ("Cómo se decide", "#decision"), ("Fuentes", "#fuentes")], "CPD")
 
@@ -1134,12 +1134,14 @@ def render_cpd():
     <span class="kicker">Carnet de Passages en Douane · investigación de septiembre de 2026</span>
     <h1>El CPD, país por país</h1>
     <p>Dónde hace falta de verdad el «pasaporte del vehículo», dónde solo conviene y dónde no sirve
-    para nada. Clasificación para un vehículo español que entra y sale <strong>por tierra</strong>.</p>
+    para nada. Clasificación para un vehículo español que entra y sale <strong>por tierra</strong>.
+    Arriba, los países de tu viaje en el orden en que los cruzas.</p>
   </div>
 </header>"""
 
     # --- conclusión
-    en_ruta = {s: v for s, v in CPD.items() if s not in FUERA_DE_RUTA}
+    ISLAS_CPD = {"mauricio", "seychelles", "comoras", "santo-tome", "cabo-verde", "madagascar"}
+    en_ruta = {s: v for s, v in CPD.items() if s not in ISLAS_CPD}
     n_obl = sum(1 for v in en_ruta.values() if v[0] == "obligatorio")
     n_rec = sum(1 for v in en_ruta.values() if v[0] == "recomendable")
     n_no = sum(1 for v in en_ruta.values() if v[0] == "no")
@@ -1150,7 +1152,7 @@ def render_cpd():
         return ", ".join(noms[:-1]) + (" y " if len(noms) > 1 else "") + noms[-1] if noms else "ninguno"
 
     conclusion = callout("warn", "La respuesta corta",
-        f"<p>De los {len(en_ruta)} países de la ruta, <strong>{n_obl} exige CPD</strong> ({_lista('obligatorio')}), "
+        f"<p>De los {len(en_ruta)} países continentales estudiados, <strong>{n_obl} exigen CPD</strong> ({_lista('obligatorio')}), "
         f"<strong>{n_rec} son recomendables</strong> ({_lista('recomendable')}) y "
         f"<strong>{n_no} no lo necesitan</strong>: se resuelven con un permiso temporal en la frontera.</p>"
         f"<p><strong>Cuidado: en {n_disp} países las fuentes no coinciden</strong> (Sudáfrica, Nigeria y "
@@ -1201,7 +1203,7 @@ def render_cpd():
              "Horizons Unlimited la pone en su tabla de países que lo <em>exigen</em>.",
              "La Gambia Revenue Authority dice que «for foreigners, a carnet de passage has to be "
              "obtained»; en la práctica un overlander sin carnet pagó 11 USD de TIP (2023).",
-             "<strong>Recomendable, en disputa.</strong> Solo se cruza en la subida."],
+             "<strong>Recomendable, en disputa.</strong>"],
             ["<strong>Tanzania</strong>",
              "No aparece en la lista del RACE; sí en la tabla de países que lo <em>exigen</em> de Horizons "
              "Unlimited.",
@@ -1226,33 +1228,38 @@ def render_cpd():
         datos_mapa[slug] = {
             "n": nombres.get(slug, slug), "lvl": nivel, "color": NIVELES[nivel][0],
             "lab": NIVELES[nivel][1], "alt": alt, "cost": coste,
-            "ruta": slug not in FUERA_DE_RUTA,
+            "slug": slug,
             "href": root + f"paises/{slug}/" if slug in grupos else "",
         }
     cfg = {"root": root, "data": datos_mapa}
+    tema = {"tema": "cpd", "col": "CPD", "niveles": [[k, lab, col] for k, (col, lab, _) in NIVELES.items()],
+            "data": {s: {"n": d["n"], "lab": d["lab"], "color": d["color"], "lvl": d["lvl"],
+                         "corto": ("En su lugar: " + d["alt"] if d["lvl"] != "obligatorio" else "Llevar el carnet.") + (" · " + d["cost"] if d["cost"] not in ("", "—") else ""),
+                         "href": d["href"]} for s, d in datos_mapa.items()}}
+    tu_viaje = '<section id="tu-viaje"><h2>Tu viaje</h2><div data-viaje-tema hidden></div></section>'
 
     leyenda = '<div class="cpdleg">' + "".join(
         f'<span class="cpdkey"><i style="background:{c}"></i><b>{lab}</b> — {desc}</span>'
         for c, lab, desc in NIVELES.values()
-    ) + '<span class="cpdkey"><i style="background:#cfd8dc"></i><b>Fuera del estudio</b> — países que no se cruzan.</span></div>'
+    ) + '<span class="cpdkey"><i style="background:#cfd8dc"></i><b>Sin datos</b> — fuera del estudio.</span></div>'
 
     mapa = (f'<div id="cpdmap" class="mapbox tall"></div>{leyenda}'
-            '<p class="figcap">Toca cualquier país coloreado para ver su situación. '
-            'Egipto y Libia salen en rojo pero <strong>no están en la ruta</strong>: Egipto es el caso '
-            'clásico de carnet obligatorio y Libia figura en la lista del RACE sin ninguna fuente actual '
-            'que lo confirme.</p>')
+            '<p class="figcap">Toca cualquier país coloreado para ver su situación. Con un viaje calculado, '
+            'sus países van en color continuo y el resto más claro. Egipto es el caso clásico de carnet '
+            'obligatorio; Libia figura en la lista del RACE sin ninguna fuente actual que lo confirme.</p>')
 
     # --- tablas por nivel
     def tabla(nivel):
-        filas = []
+        filas, attrs = [], []
         for slug, (lvl, conf, alt, coste, nota) in CPD.items():
             if lvl != nivel:
                 continue
             nom = nombres.get(slug, slug)
-            etiqueta = "" if slug not in FUERA_DE_RUTA else ' <em>(fuera de la ruta)</em>'
+            etiqueta = ""
             enlace = (f'<a href="{root}paises/{slug}/">{esc(nom)}</a>' if slug in grupos else esc(nom))
             filas.append([f"<strong>{enlace}</strong>{etiqueta}", st_pill(conf), alt, coste, nota or "—"])
-        return table(["País", "Confianza", "Qué se usa en su lugar", "Coste", "Detalle"], filas)
+            attrs.append(f'data-pais="{attr(slug)}"')
+        return table(["País", "Confianza", "Qué se usa en su lugar", "Coste", "Detalle"], filas, row_attrs=attrs)
 
     bloques = ""
     for nivel, anchor, titulo, intro in [
@@ -1276,7 +1283,7 @@ def render_cpd():
                'todo el viaje (13.700 € el INEOS Grenadier y 2.900 € el Delica), y se pierden si el carnet '
                'vuelve sin cerrar correctamente.</p>'
              + callout("warn", "Comparación directa",
-                       "Las tasas de entrada de <strong>todos</strong> los países de la ruta suman del orden "
+                       "Sin carnet, los permisos temporales de la costa oeste, de Gambia a Angola, suman del orden "
                        "de <strong>700-900 €</strong> (cifras casi todas de 2023), y la mitad son Ghana y "
                        "Senegal. Los dos carnets cuestan 766,70 € (más los costes bancarios, aún sin dato) y retienen 16.600 € en avales, y aun así <strong>habría que "
                        "pagar igualmente</strong> casi todas las tasas de carretera, carbono y seguro, que "
@@ -1285,7 +1292,7 @@ def render_cpd():
 
     decision = ('<section id="decision"><h2>Cómo se decide</h2>'
         + bullets([
-            "**Por tierra, tres países de la ruta exigen o probablemente exigen el carnet:** Kenia (los dos "
+            "**Por tierra, tres países exigen o probablemente exigen el carnet:** Kenia (los dos "
             "emisores coinciden), Nigeria (el comunicado de aduanas de 2026 lo lista como documento a "
             "presentar) y Sudáfrica (según el ADAC, obligatorio para vehículos de fuera de la SACU; SARS no "
             "lo aclara). El resto se resuelve con un permiso temporal en frontera.",
@@ -1293,7 +1300,7 @@ def render_cpd():
             "carnet pasa a ser muy recomendable para el despacho portuario, y **emitirlo desde África es "
             "inviable en la práctica** (el RACE solo expide a matrícula española y exige aval bancario; "
             "no dice nada de tramitar a distancia: preguntarlo). Es una decisión que hay que tomar antes de salir.",
-            "**Senegal no se resuelve por la ruta:** la aduana aplica la norma de los 8 años tanto en Rosso "
+            "**Senegal no se resuelve eligiendo frontera:** la aduana aplica la norma de los 8 años tanto en Rosso "
             "como en Diama (250 € documentados en Diama hasta 2026). Con vehículo de 8 años o menos, "
             "passavant de 5.000 FCFA y a seguir; si lo supera, 250 € o entrar desde Mali por Kidira (dato "
             "de 2017). Con carnet también se paga el passavant y hay que sellar en Dakar.",
@@ -1305,15 +1312,15 @@ def render_cpd():
             "**En Uganda, Mozambique y Angola el carnet no ayuda.** Uganda no lo reconoce, Mozambique exige "
             "TIP igualmente; en Angola, un sello mal puesto es justo lo que hace perder el aval.",
         ], bold_split=True)
-        + callout("warn", "Veredicto para esta ruta",
-                  "<p><strong>Con Kenia en la ruta, la balanza se inclina claramente a emitirlo.</strong> "
+        + callout("warn", "Cómo decidir según tu viaje",
+                  "<p><strong>Si tu viaje pasa por Kenia, la balanza se inclina claramente a emitirlo.</strong> "
                   "Es el país en el que los dos emisores consultados coinciden en que se exige, y a él se "
-                  "suman ahora Nigeria (documento exigido por el texto oficial de 2026), Sudáfrica (el ADAC "
+                  "suman Nigeria (documento exigido por el texto oficial de 2026), Sudáfrica (el ADAC "
                   "lo da por obligatorio y SARS no lo desmiente), Ghana (490 USD de permiso sin carnet) y "
-                  "Senegal. El carnet deja de ser un gasto evitable.</p>"
-                  "<p><strong>Sin Kenia</strong> —si el bucle oriental se recorta— la balanza sigue "
-                  "inclinada por Nigeria y Sudáfrica, que se cruzan igualmente; solo si además se evitaran "
-                  "esos dos compensaría no inmovilizar los 16.600 € de avales.</p>"
+                  "Senegal. Con cualquiera de ellos, el carnet deja de ser un gasto evitable.</p>"
+                  "<p><strong>Si no pasas por Kenia, Nigeria ni Sudáfrica</strong>, puede compensar no "
+                  "inmovilizar los 16.600 € de avales y pagar los permisos temporales. La tabla «Tu viaje» "
+                  "de arriba te dice qué países de los tuyos lo exigen.</p>"
                   "<p>Y en cualquiera de los casos: si se embarca el vehículo de vuelta desde Durban, "
                   "Ciudad del Cabo o Walvis Bay, el carnet hace falta para el despacho portuario y "
                   "<strong>emitirlo desde África es inviable</strong>.</p>"
@@ -1336,10 +1343,11 @@ def render_cpd():
                          "conservado el emisor.", raw=True)
                + '</section>')
 
-    body = (nav + hero + '<main style="max-width:1200px">' + conclusion + mapa + bloques
+    body = (nav + hero + '<main style="max-width:1200px">' + conclusion + tu_viaje + mapa + bloques
             + coste + disputa + decision + fuentes
             + f"<footer>ÁFRICA 2027</footer></main>"
-            + f'<script>var A27_CPD = {json.dumps(cfg, ensure_ascii=False)};</script>'
+            + f'<script>var A27_CPD = {json.dumps(cfg, ensure_ascii=False)};'
+            + f'var A27_TEMA = {json.dumps(tema, ensure_ascii=False)};</script>'
             + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
               '&& typeof a27CpdMap === "function") a27CpdMap("cpdmap", A27_CPD); });</script>')
     extra_head = (f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css">'
@@ -1349,8 +1357,11 @@ def render_cpd():
 
 # ---------------------------------------------------------------- visados page
 def render_visados():
-    """Visados personales para pasaporte español, ajustados a la ruta terrestre."""
-    from data_planificacion import NOTAS as NOTAS_PLAN, SOURCE_FOLDER as PLAN_FOLDER, SOURCE_NAME as PLAN_NAME
+    """Visados personales para pasaporte español, para entrar por carretera.
+
+    La página no supone ningún itinerario: da la información de todos los
+    países y viaje.js pone arriba los del viaje del Planificador, en orden y
+    con sus fechas, entradas y fecha límite para pedir cada visado."""
     from data_visados import AUDIT_DATE, NIVELES, SOURCE_SHEET, VISADOS
     root = "../"
     nombres = {slug: name for slug, name, *_ in C}
@@ -1359,8 +1370,8 @@ def render_visados():
 
     secs = [("Portal", root), ("Planificador", root + "planificador/"), ("Mapa", root + "mapa/"), ("El perro", root + "perro/"),
             ("CPD", root + "cpd/"), ("Documentación", root + "documentacion/")]
-    nav = navbar(root, secs + [("Mapa de visados", "#mapa-visados"), ("Ruta principal", "#ruta"),
-                               ("Alternativas", "#alternativas"), ("Calendario", "#calendario"),
+    nav = navbar(root, secs + [("Tu viaje", "#tu-viaje"), ("Mapa de visados", "#mapa-visados"),
+                               ("Todos los países", "#paises"), ("Plazos", "#plazos"),
                                ("Criterio", "#criterio")], "Visados")
 
     hero = f"""<header class="hero small">
@@ -1368,55 +1379,58 @@ def render_visados():
     <span class="kicker">Pasaporte ordinario español · auditoría de {esc(AUDIT_DATE)}</span>
     <h1>Visados, país por país</h1>
     <p>Qué hay que llevar aprobado antes de cada frontera, qué se obtiene al llegar y dónde un
-    eVisa <strong>no sirve para entrar por carretera</strong>. La clasificación sigue los pasos
-    terrestres reales del viaje, no una llegada genérica en avión.</p>
+    eVisa <strong>no sirve para entrar por carretera</strong>. La clasificación es para entradas
+    terrestres, no para una llegada en avión. Arriba, los países de tu viaje en el orden en que los cruzas.</p>
   </div>
 </header>"""
 
-    principales = {s: v for s, v in VISADOS.items() if v["ruta"] == "principal"}
-    conteos = {nivel: sum(1 for v in principales.values() if v["nivel"] == nivel) for nivel in NIVELES}
+    terrestres = {s: v for s, v in VISADOS.items() if v["ruta"] != "vuelo"}
+    conteos = {nivel: sum(1 for v in terrestres.values() if v["nivel"] == nivel) for nivel in NIVELES}
     conclusion = callout(
         "warn", "La respuesta corta",
-        f'En los <strong>{len(principales)} territorios y países de la ruta principal</strong> hay '
-        f'<strong>{conteos["sin"]} sin visado</strong>, <strong>{conteos["electronico"]} con autorización '
-        f'electrónica previa</strong>, <strong>{conteos["presencial"]} con visado presencial previo</strong> '
-        f'y <strong>{conteos["frontera"]} que se resuelven al llegar</strong>.<br><br>'
+        f'De los <strong>{len(terrestres)} países con frontera terrestre</strong> estudiados, '
+        f'<strong>{conteos["sin"]} no piden visado</strong>, <strong>{conteos["electronico"]} piden una autorización '
+        f'electrónica previa</strong>, <strong>{conteos["presencial"]} un visado presencial previo</strong>, '
+        f'<strong>{conteos["frontera"]} se resuelven al llegar</strong> y en <strong>{conteos["no_viable"]}</strong> '
+        'hoy no es viable entrar.<br><br>'
         'Lo que manda aquí es la <strong>entrada terrestre</strong>. Costa de Marfil, Sierra Leona, '
         'Liberia, Gabón y Etiopía tienen procedimientos electrónicos asociados a aeropuertos que no '
         'sustituyen el visado consular en carretera. En Togo, Nigeria y Camerún se conserva una alerta '
         'para obtener confirmación escrita del puesto concreto.<br><br>'
-        '<span class="figcap">La hoja de Drive se usa como inventario de visados y la imagen de planificación '
-        'como fuente de fechas. Modalidad, condiciones y enlaces se contrastaron con el portal oficial del '
+        '<span class="figcap">Modalidad, condiciones y enlaces contrastados con el portal oficial de cada '
         'país y las recomendaciones del Ministerio de Asuntos Exteriores de España.</span>', raw=True)
 
     datos_mapa = {}
     for slug, v in VISADOS.items():
         color, etiqueta, _ = NIVELES[v["nivel"]]
         datos_mapa[slug] = {
-            "n": nombres.get(slug, slug.replace("-", " ").title()),
+            "slug": slug, "n": nombres.get(slug, slug.replace("-", " ").title()),
             "lvl": v["nivel"], "color": color, "lab": etiqueta,
             "resumen": v["resumen"], "accion": v["accion"],
-            "pasos": v["pasos"], "entradas": v["entradas"], "coste": v["coste"],
+            "entradas": v["entradas"], "coste": v["coste"],
             "alerta": v["alerta"], "oficial": v["oficial"], "maec": v["maec"],
-            "ruta": v["ruta"],
+            "vuelo": v["ruta"] == "vuelo",
             "href": root + f"paises/{slug}/" if slug in grupos else "",
         }
     cfg = {"root": root, "data": datos_mapa}
+    tema = {"tema": "visados", "col": "Visado", "niveles": [[k, lab, col] for k, (col, lab, _) in NIVELES.items()],
+            "data": {s: {"n": d["n"], "lab": d["lab"], "color": d["color"], "lvl": d["lvl"],
+                         "corto": VISADOS[s]["accion"], "href": d["href"]} for s, d in datos_mapa.items()}}
+
+    tu_viaje = '<section id="tu-viaje"><h2>Tu viaje</h2><div data-viaje-tema hidden></div></section>'
 
     leyenda = '<div class="cpdleg">' + "".join(
         f'<span class="cpdkey"><i style="background:{color}"></i><b>{esc(etiqueta)}</b> — {esc(desc)}</span>'
         for color, etiqueta, desc in NIVELES.values()
-    ) + ('<span class="cpdkey"><i style="background:#cfd8dc"></i><b>Sin auditar</b> — no aparecía '
-         'en la hoja de visados y no forma parte del itinerario.</span></div>')
+    ) + ('<span class="cpdkey"><i style="background:#cfd8dc"></i><b>Sin auditar</b> — fuera del '
+         'inventario de visados.</span></div>')
 
     mapa = (f'<section id="mapa-visados"><h2>Mapa de visados</h2>'
-            '<p>Color continuo: ruta principal. Color más claro y contorno discontinuo: alternativa, '
-            'país excluido, fuera de ruta o visita en avión. Toca un país para ver la decisión, los '
-            'pasos previstos y sus enlaces oficiales.</p>'
+            '<p>Con un viaje calculado en el Planificador, sus países van en color continuo y el resto más '
+            'claro y con contorno discontinuo. Toca un país para ver la decisión, las fechas de tu viaje y '
+            'los enlaces oficiales.</p>'
             f'<div id="visamap" class="mapbox tall"></div>{leyenda}'
-            '<p class="figcap">Este mapa reproduce la lógica del mapa de la carpeta Visats, actualizada '
-            'para entradas terrestres con pasaporte español. Gris no significa «no necesita visado»: '
-            'significa «fuera del inventario auditado».</p></section>')
+            '<p class="figcap">Gris no significa «no necesita visado»: significa «fuera del inventario auditado».</p></section>')
 
     def _pais(slug):
         nombre = nombres.get(slug, slug.replace("-", " ").title())
@@ -1438,80 +1452,74 @@ def render_visados():
 
     def _detalle(v):
         texto = f'<strong>{esc(v["resumen"])}</strong><br>{esc(v["accion"])}'
+        if v["entradas"]:
+            texto += f'<br><span class="figcap">Modalidades: {esc(v["entradas"])}</span>'
         if v["coste"]:
             texto += f'<br><span class="figcap">{esc(v["coste"])}</span>'
         if v["alerta"]:
             texto += f'<br><span style="color:var(--amber)"><strong>Atención:</strong> {esc(v["alerta"])}</span>'
         return texto
 
-    def _tabla(slugs, mostrar_ruta=False):
-        filas = []
-        for slug in sorted(slugs, key=lambda s: orden.get(s, 999)):
-            v = VISADOS[slug]
-            paso = esc(v["pasos"] or v["entradas"] or "—")
-            fila = [_pais(slug), _estado(v)]
-            if mostrar_ruta:
-                rutas = {"alternativa": "Alternativa", "excluido": "Excluido",
-                         "fuera": "Fuera de ruta", "vuelo": "Solo en avión"}
-                fila.append(rutas.get(v["ruta"], v["ruta"]))
-            fila += [paso, _detalle(v), _fuentes(v)]
-            filas.append(fila)
-        cab = ["País", "Modalidad"]
-        if mostrar_ruta:
-            cab.append("Papel")
-        cab += ["Paso previsto / entradas", "Qué hacer", "Fuentes"]
-        return table(cab, filas)
+    def _tabla(slugs):
+        slugs = sorted(slugs, key=lambda s: nombres.get(s, s))
+        filas = [[_pais(s) + (' <em class="figcap">(solo en avión)</em>' if VISADOS[s]["ruta"] == "vuelo" else ""),
+                  _estado(VISADOS[s]), _detalle(VISADOS[s]), _fuentes(VISADOS[s])] for s in slugs]
+        return table(["País", "Modalidad", "Qué hacer", "Fuentes"], filas,
+                     row_attrs=[f'data-pais="{attr(s)}"' for s in slugs])
 
-    ruta = ('<section id="ruta"><h2>Ruta principal</h2>'
-            '<p>El orden sigue el corredor y el bucle del proyecto. Las fechas proceden de la planificación manuscrita y '
-            'sirven para decidir cuándo iniciar cada solicitud; no sustituyen la vigencia que conceda '
-            'finalmente cada visado.</p>' + _tabla(principales.keys()) + '</section>')
+    REG = [("Norte y oeste de África", ("marruecos", "sahara-occidental", "argelia", "tunez", "libia", "mauritania", "senegal",
+            "gambia", "guinea-bisau", "guinea", "sierra-leona", "liberia", "costa-de-marfil", "mali", "burkina-faso",
+            "ghana", "togo", "benin", "niger", "nigeria", "cabo-verde")),
+           ("África central", ("camerun", "chad", "rca", "guinea-ecuatorial", "gabon", "congo", "rd-congo", "santo-tome", "angola")),
+           ("África oriental", ("egipto", "sudan", "sudan-del-sur", "eritrea", "etiopia", "yibuti", "somalia", "kenia",
+            "uganda", "ruanda", "burundi", "tanzania")),
+           ("África austral e islas", ("zambia", "malaui", "mozambique", "zimbabue", "botsuana", "namibia", "sudafrica",
+            "lesoto", "esuatini", "madagascar", "comoras", "mauricio", "seychelles"))]
+    vistos, bloques = set(), ""
+    for titulo, lista in REG:
+        ss = [x for x in lista if x in VISADOS]
+        vistos.update(ss)
+        bloques += f"<h3>{esc(titulo)}</h3>" + _tabla(ss)
+    resto = [x for x in VISADOS if x not in vistos]
+    if resto:
+        bloques += "<h3>Otros</h3>" + _tabla(resto)
+    paises = ('<section id="paises"><h2>Todos los países</h2>'
+              '<p>Ordenados por región y alfabéticamente. Los de tu viaje llevan la marca «en tu viaje».</p>'
+              + bloques + '</section>')
 
-    secundarios = [s for s, v in VISADOS.items() if v["ruta"] in ("alternativa", "vuelo")]
-    descartados = [s for s, v in VISADOS.items() if v["ruta"] in ("excluido", "fuera")]
-    alternativas = ('<section id="alternativas"><h2>Alternativas y países fuera de la ruta</h2>'
-        '<p>Se conservan porque estaban en la hoja o en el mapa, pero no se mezclan con la preparación '
-        'del corredor principal.</p><h3>Alternativas y visita en avión</h3>'
-        + _tabla(secundarios, mostrar_ruta=True)
-        + '<h3>Excluidos o fuera del itinerario</h3>' + _tabla(descartados, mostrar_ruta=True) + '</section>')
-
-    calendario_slugs = [s for s, v in principales.items()
-                        if v["nivel"] in ("electronico", "presencial")]
-    calendario = ('<section id="calendario"><h2>Calendario de solicitudes</h2>'
-        '<p>Estos son los trámites que no se pueden dejar para el mostrador fronterizo. Antes de pagar, '
-        'hay que cuadrar fecha de expedición, duración y número de entradas con ambos pasos previstos.</p>'
-        + table(["País", "Modalidad", "Pasos planificados", "Acción"], [
-            [_pais(s), _estado(VISADOS[s]), VISADOS[s]["pasos"] or "por cerrar", VISADOS[s]["accion"]]
-            for s in sorted(calendario_slugs, key=lambda x: orden.get(x, 999))
-        ])
-        + callout("warn", "Trámites que deben salir resueltos de Europa",
-            '<strong>Congo-Brazzaville, RD Congo y Costa de Marfil</strong> son presenciales en la ruta '
-            'principal. Solicitar modalidades que cubran la bajada y la subida, o presupuestar dos visados. '
-            'Si se reactivan Sierra Leona, Liberia o Gabón, también necesitan visado consular para entrar '
-            'por carretera.', raw=True)
-        + callout("warn", "Fecha que aún hay que cuadrar",
-            esc(NOTAS_PLAN["kenia"]), raw=True)
+    previos = [x for x, v in terrestres.items() if v["nivel"] in ("electronico", "presencial")]
+    plazos = ('<section id="plazos"><h2>Plazos para pedirlos</h2>'
+        '<p>Los trámites previos no se pueden dejar para el mostrador fronterizo. En la tabla de «Tu viaje» '
+        'tienes, para cada país que lo necesita, la fecha límite orientativa para pedirlo (60 días antes de '
+        'entrar si es presencial, 30 si es electrónico) calculada con las fechas del Planificador.</p>'
+        + bullets([
+            "**Presenciales:** se tramitan desde Europa antes de salir. Si tu viaje entra dos veces en el mismo país, "
+            "pide entrada múltiple o presupuesta dos visados, y comprueba que la validez llega a la última salida.",
+            "**Electrónicos:** muchos empiezan a contar desde la emisión, no desde la entrada (Benín, Ghana): no los pidas "
+            "demasiado pronto. Llévalos impresos.",
+            "**Revalida** cada país entre 30 y 60 días antes de entrar y vuelve a comprobar el puesto terrestre 72 horas antes de cruzar.",
+            f"**Piden trámite previo** {len(previos)} de los países con frontera terrestre: "
+            + ", ".join(sorted(nombres.get(x, x) for x in previos)) + ".",
+        ], bold_split=True)
         + '</section>')
 
     criterio = ('<section id="criterio"><h2>Criterio y trazabilidad</h2>'
         + bullets([
-            "De la hoja solo se han usado los datos de visados; las fechas proceden de Planificació Viatge.jpeg. Vacunas, perro y trámites del coche no entran en esta sección.",
             "La categoría responde a la entrada turística con pasaporte ordinario español. Una eTA o un permiso electrónico obligatorio se pinta como electrónico aunque jurídicamente no se llame visado.",
-            "Si el procedimiento electrónico solo entrega el visado en un aeropuerto, para este viaje se clasifica como presencial.",
+            "Si el procedimiento electrónico solo entrega el visado en un aeropuerto, se clasifica como presencial, porque aquí se entra por carretera.",
+            "Las fechas y el número de entradas no son fijos: salen del viaje que tengas en el Planificador y cambian con él.",
             "Los costes son orientativos porque pueden variar por moneda, comisión, duración o número de entradas. El importe vigente es siempre el del portal oficial en el momento de pagar.",
-            "Revalidar cada país entre 30 y 60 días antes de la entrada y volver a comprobar el puesto terrestre 72 horas antes de cruzar.",
         ])
         + callout("", "Hoja de trabajo original",
             f'<a href="{attr(SOURCE_SHEET)}" target="_blank" rel="noopener">Visats Africa en Google Sheets</a> '
-            f'(solo datos de visados) · <a href="{attr(PLAN_FOLDER)}" target="_blank" rel="noopener">'
-            f'{esc(PLAN_NAME)}</a> (fechas aproximadas). '
-            f'Revisión publicada: <strong>{esc(AUDIT_DATE)}</strong>.', raw=True)
+            f'(inventario inicial de visados). Revisión publicada: <strong>{esc(AUDIT_DATE)}</strong>.', raw=True)
         + '</section>')
 
-    body = (nav + hero + '<main style="max-width:1200px">' + conclusion + mapa + ruta
-            + alternativas + calendario + criterio
+    body = (nav + hero + '<main style="max-width:1200px">' + conclusion + tu_viaje + mapa + paises
+            + plazos + criterio
             + f'<footer>ÁFRICA 2027 · Visados · auditoría {esc(AUDIT_DATE)}</footer></main>'
-            + f'<script>var A27_VISAS = {json.dumps(cfg, ensure_ascii=False)};</script>'
+            + f'<script>var A27_VISAS = {json.dumps(cfg, ensure_ascii=False)};'
+            + f'var A27_TEMA = {json.dumps(tema, ensure_ascii=False)};</script>'
             + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
               '&& typeof a27VisaMap === "function") a27VisaMap("visamap", A27_VISAS); });</script>')
     extra_head = (f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css">'
@@ -1548,7 +1556,7 @@ def render_perro():
             return t
         cut = t[:20].rsplit(" ", 1)[0]                              # cortar por palabra
         return (cut or t[:20]) + "…"
-    nav = navbar(root, secs + [("Mapa del perro", "#mapa-perro"), ("Simple", "#perro-verde"),
+    nav = navbar(root, secs + [("Tu viaje", "#tu-viaje"), ("Mapa del perro", "#mapa-perro"), ("Simple", "#perro-verde"),
                                ("Con permiso", "#perro-ambar"), ("Mal documentado", "#perro-naranja"),
                                ("No viable", "#perro-rojo")]
                  + [(_short(t), "#" + a) for t, a in tops[:6]], "El perro")
@@ -1558,8 +1566,8 @@ def render_perro():
     <span class="kicker">Sección propia · se actualiza sobre la marcha</span>
     <h1>El perro</h1>
     <p>Todo lo que hace falta para cruzar África por tierra con el perro: entrada país por país,
-    papeles, plazos, dónde puede estar y dónde no, salud en ruta y la vuelta a la UE.
-    Cada afirmación lleva su nivel de confianza y su fuente.</p>
+    papeles, plazos, dónde puede estar y dónde no, salud durante el viaje y la vuelta a la UE.
+    Cada afirmación lleva su nivel de confianza y su fuente. Arriba, los países de tu viaje en orden.</p>
   </div>
 </header>"""
 
@@ -1574,7 +1582,6 @@ def render_perro():
     # --- mapa de países por dificultad, leído del propio dosier
     from perro_niveles import niveles as perro_niveles, NIVELES as PERRO_NIVELES
     from data_perro_contactos import CONTACTOS
-    from data_cpd import FUERA_DE_RUTA
 
     nombres = {slug: name for slug, name, *_ in C}
     grupos = {slug: group for slug, _, group, *_ in C}
@@ -1594,7 +1601,7 @@ def render_perro():
         datos_mapa[slug] = {
             "n": nombres.get(slug, d["nombre"]),
             "color": color, "lab": lab,
-            "ruta": slug not in FUERA_DE_RUTA,
+            "slug": slug,
             "org": esc(_corta(c.get("organismo"), 70)),
             "cert": (f"sí, validez {dias} días" if dias else ("sí, validez sin publicar" if c.get("cert") else "")),
             "nota": esc(_corta(d.get("nota"), 190)),
@@ -1647,24 +1654,31 @@ def render_perro():
         f"<strong>{cuenta['naranja']}</strong> no publican <em>ninguna</em> fuente oficial —ahí se viaja "
         f"con lo que dicen webs comerciales— y <strong>{cuenta['rojo']}</strong> son inviables o muy duros.</p>"
         "<p>El color es el mismo semáforo de las tablas del capítulo 2, leído directamente de ellas: el mapa "
-        "no puede desmentir a la tabla. Para los países que se cruzan dos veces manda la entrada de ida, "
-        "que es la que decide si el perro empieza el viaje.</p>"
+        "no puede desmentir a la tabla. Si tu viaje entra dos veces en un país, cuenta con un permiso por "
+        "entrada (ver el apartado 2.2 del dosier).</p>"
         + (f"<p class=\"figcap\">Sin clasificar todavía: {esc(', '.join(sin_ficha))}.</p>" if sin_ficha else ""),
         raw=True)
 
     mapa = (f'<section id="mapa-perro"><h2>El perro, país por país</h2>{resumen}'
             f'<div id="perromap" class="mapbox"></div>{leyenda_mapa}'
             '<p class="figcap">Toca cualquier país para ver quién emite el permiso, la validez del '
-            'certificado sanitario y la nota clave. Los países rayados no están en la ruta prevista: '
-            'su ficha es informativa. Los cinco estados insulares —Cabo Verde, Santo Tomé y Príncipe, '
+            'certificado sanitario y la nota clave. Con un viaje calculado, sus países van en color '
+            'continuo y el resto más claro y rayado. Los cinco estados insulares —Cabo Verde, Santo Tomé y Príncipe, '
             'Comoras, Seychelles y Mauricio— salen como punto porque el fichero de contornos de la app '
             'no los trae.</p></section>')
 
-    # --- tablas por nivel
-    ETAPA = {"ida": "Ida", "vuelta": "Vuelta", "alternativa": "Alternativa", "fuera": "Fuera de ruta"}
+    # --- «Tu viaje»: los países del viaje del Planificador, en orden
+    tema = {"tema": "perro", "col": "Perro", "niveles": [[k, lab, col] for k, (col, lab, _) in PERRO_NIVELES.items()],
+            "data": {s: {"n": d["n"], "lab": d["lab"], "color": d["color"],
+                         "lvl": next((k for k, v in PERRO_NIVELES.items() if v[1] == d["lab"]), ""),
+                         "corto": (("Permiso: " + _corta(CONTACTOS.get(s, {}).get("organismo"), 60).rstrip(".…") + ". ") if CONTACTOS.get(s, {}).get("organismo") else "")
+                                  + (("Certificado válido " + str(CONTACTOS[s]["cert_dias"]) + " días: hacerlo justo antes de la frontera.") if CONTACTOS.get(s, {}).get("cert_dias") else ""),
+                         "href": d["href"]} for s, d in list(datos_mapa.items()) + [(x["slug"], x) for x in puntos]}}
+    tu_viaje = '<section id="tu-viaje"><h2>Tu viaje</h2><div data-viaje-tema hidden></div></section>'
 
+    # --- tablas por nivel
     def tabla(nivel):
-        filas = []
+        filas, attrs = [], []
         for slug in sorted(set(datos_mapa) | set(_islas), key=lambda s: nombres.get(s, s)):
             d = niv[slug]
             if d["nivel"] != nivel:
@@ -1673,8 +1687,6 @@ def render_perro():
             dias = c.get("cert_dias")
             cert = (f"<strong>{dias} días</strong>" if dias else
                     ("sí, validez sin publicar" if c.get("cert") else "—"))
-            etapas = " · ".join(ETAPA[e] for e in ("ida", "vuelta", "alternativa", "fuera")
-                                if e in d["etapas"])
             org = esc(_corta(c.get("organismo"), 60)) or "—"
             if c.get("url"):
                 org = f'<a href="{esc(c["url"])}" rel="noopener">{org}</a>'
@@ -1683,8 +1695,9 @@ def render_perro():
                 elif not c.get("url_verificada"):
                     org += " <em>(no abre desde aquí)</em>"
             filas.append([f'<strong><a href="{root}paises/{slug}/">{esc(nombres.get(slug, slug))}</a></strong>',
-                          etapas, org, cert, esc(_corta(d.get("nota"), 210)) or "—"])
-        return table(["País", "Etapa", "Quién lo emite", "Certificado", "Nota clave"], filas)
+                          org, cert, esc(_corta(d.get("nota"), 210)) or "—"])
+            attrs.append(f'data-pais="{attr(slug)}"')
+        return table(["País", "Quién lo emite", "Certificado", "Nota clave"], filas, row_attrs=attrs)
 
     bloques = ""
     for nivel, titulo, intro in [
@@ -1701,7 +1714,7 @@ def render_perro():
          "conseguir respuesta por escrito antes de comprometer la etapa."),
         ("rojo", "Rojo — no viable o muy duro",
          "Cuarentena obligatoria, prohibición, o países a los que el perro directamente no va. Aquí la "
-         "decisión no es de papeleo: es de ruta."),
+         "decisión no es de papeleo: es si el país entra o no en tu viaje."),
     ]:
         if not any(d["nivel"] == nivel for s, d in niv.items() if s in datos_mapa):
             continue
@@ -1710,9 +1723,10 @@ def render_perro():
 
     from enlaza_secciones import indice, enlazar_secciones
     cuerpo = enlazar_secciones(md_to_html(md, base_level=2), indice(md))
-    body = (nav + hero + '<main style="max-width:1200px">' + leyenda + mapa + bloques + cuerpo
+    body = (nav + hero + '<main style="max-width:1200px">' + leyenda + tu_viaje + mapa + bloques + cuerpo
             + "</main>"
-            + f'<script>var A27_PERRO = {json.dumps(cfg, ensure_ascii=False)};</script>'
+            + f'<script>var A27_PERRO = {json.dumps(cfg, ensure_ascii=False)};'
+            + f'var A27_TEMA = {json.dumps(tema, ensure_ascii=False)};</script>'
             + '<script>window.addEventListener("load", function(){ if (typeof L !== "undefined" '
               '&& typeof a27PerroMap === "function") a27PerroMap("perromap", A27_PERRO); });</script>')
     extra_head = (f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css">'
@@ -1736,10 +1750,11 @@ def render_docs():
         "países; el detalle país por país, con su color y su alternativa, está en "
         f'<a href="{root}cpd/">la sección CPD</a>.</strong></p>'
         + callout("warn", "Lo que hay que saber antes de decidir",
-            "<p>De los 32 países de la ruta, <strong>uno lo exige</strong> (Kenia), <strong>cinco son "
-            "recomendables</strong> (Senegal, Gambia, Ghana, Nigeria y Sudáfrica; en Sudáfrica, Nigeria y "
-            "Gambia las fuentes se contradicen) y <strong>el resto se resuelve con un permiso temporal en la "
-            "propia frontera</strong>.</p>"
+            "<p>Depende de por dónde pase tu viaje. Por tierra <strong>lo exigen</strong> Kenia (y, fuera de "
+            "la red habitual, Egipto y Libia); <strong>es recomendable</strong> en Senegal, Gambia, Ghana, Nigeria y "
+            "Sudáfrica (en Sudáfrica, Nigeria y Gambia las fuentes se contradicen), y <strong>el resto se "
+            "resuelve con un permiso temporal en la propia frontera</strong>. La sección CPD te dice, arriba, "
+            "qué países de tu viaje lo piden.</p>"
             "<p><strong>Sudáfrica está en disputa:</strong> SARS publica desde junio de 2026 un permiso "
             "temporal gratuito de seis meses que no nombra el carnet; el RACE la incluye entre los países "
             "en los que el CPD «es requerido» y el ADAC afirma que ese permiso «no sustituye al carnet» y que "
@@ -1759,7 +1774,7 @@ def render_docs():
         + callout("", "Egipto y Libia",
             "Egipto es el caso clásico de carnet obligatorio en África (depósito de hasta el 200 % del valor "
             "del vehículo sin él); Libia figura en la lista del RACE sin ninguna fuente actual que lo "
-            "confirme. Ninguno está en la ruta.")
+            "confirme.")
     )
     grenadier = (
         "<p>El Ineos Grenadier está a nombre de una empresa: para sacarlo de España, importarlo temporalmente y cruzar fronteras hace falta un paquete de autorización societaria coherente con el CPD.</p>"
@@ -1780,18 +1795,19 @@ def render_docs():
         "África occidental (CEDEAO): pedir la Carte Brune para continuidad regional; verificar países cubiertos, vehículo, fechas, matrícula y conductor.",
         "África oriental y austral (COMESA): existe la Yellow Card regional equivalente — pedirla en la primera frontera del bloque.",
         "Conservar recibo y certificado por separado; fotografiar todos los documentos.",
-        "Seguro de viaje de las personas: hospitalización, rescate y evacuación médica real desde zonas remotas, sin exclusión por 4x4, acampada o países de la ruta.",
+        "Seguro de viaje de las personas: hospitalización, rescate y evacuación médica real desde zonas remotas, sin exclusión por 4x4, acampada o por los países de tu viaje.",
     ])
     perro = (
         "<p>Lo común a todas las fronteras. <strong>El detalle —permiso país por país, quién lo emite, "
         "a qué correo se escribe, plazos y dónde puede estar el perro y dónde no— está en "
         f'<a href="{root}perro/">la sección El perro</a>.</strong></p>'
         + callout("warn", "Esto no es un trámite ligero",
-            "<p>De los 22 países de la ruta de ida, <strong>doce exigen permiso de importación previo "
+            "<p>De los 22 países mejor documentados del dosier, <strong>doce exigen permiso de importación previo "
             "confirmado</strong> y dos más lo piden con toda probabilidad; en el resto no hay fuente que lo "
-            "aclare. Solo Marruecos y el Sáhara Occidental no piden ninguno.</p>"
+            "aclare. Solo Marruecos y el Sáhara Occidental no piden ninguno. La sección El perro te dice, "
+            "arriba, qué pide cada país de tu viaje.</p>"
             "<p>Los permisos se piden <strong>con semanas de antelación</strong>; los certificados "
-            "sanitarios se emiten <strong>en ruta, días antes de cada frontera</strong>, porque caducan: "
+            "sanitarios se emiten <strong>durante el viaje, días antes de cada frontera</strong>, porque caducan: "
             "en los países francófonos la ventana habitual es de <strong>48-72 horas</strong> (Senegal, "
             "Benín, Guinea, Mauritania), en el resto entre 7 y 10 días. Los «30 días» que circulan son la "
             "validez del modelo estadounidense de APHIS, no una norma del país.</p>", raw=True)
@@ -1813,15 +1829,15 @@ def render_docs():
             "ruta</strong>. Todo lo demás admite gestionarse sobre la marcha.</p>", raw=True)
     )
     salud = bullets([
-        "Visita al Centro de Vacunación Internacional con el itinerario continental completo (ambos sentidos).",
-        "Fiebre amarilla: certificado internacional obligatorio de facto en la mayor parte del corredor; se pide al llegar desde países con riesgo.",
-        "Malaria: profilaxis según tramo (el riesgo cubre casi todo el corredor subsahariano); mosquitera, repelente DEET, ropa larga al atardecer.",
+        "Visita al Centro de Vacunación Internacional con la lista de países de tu viaje (la tienes en el Planificador).",
+        "Fiebre amarilla: certificado internacional obligatorio de facto en casi toda el África subsahariana; se pide al llegar desde países con riesgo.",
+        "Malaria: profilaxis según la zona (el riesgo cubre casi toda el África subsahariana); mosquitera, repelente DEET, ropa larga al atardecer.",
         "Revisar hepatitis A/B, tifoidea, tétanos-difteria-tosferina, polio, meningocócica (Sahel en estación seca) y rabia preexposición.",
         "Agua y alimentos: filtración/desinfección redundante; sales de rehidratación; protocolo de diarrea y fiebre; no bañarse en aguas dulces (esquistosomiasis).",
         "Botiquín de expedición + medicación personal para 8 meses con recetas; copias en francés/inglés.",
     ])
     agua_combustible_general = (
-        "<p>Ambos son puntos generales del proyecto: cada ficha de país detalla los puntos concretos verificados, pero el criterio y la estrategia son los mismos para todo el corredor.</p>"
+        "<p>Ambos son puntos generales del proyecto: cada ficha de país detalla los puntos concretos verificados, pero el criterio y la estrategia son los mismos para cualquier viaje.</p>"
         + "<h3>Agua: no solo de beber</h3>"
         + "<p>Como vehículos de expedición autónomos (Grenadier y Delica) llevamos depósito propio de agua, y hay que distinguir dos necesidades que se resuelven de forma distinta:</p>"
         + bullets([
@@ -1834,7 +1850,7 @@ def render_docs():
         + "<h3>Combustible: gasóleo y la regla de los 500 km</h3>"
         + bullets([
             "Ambos vehículos usan diésel: exigir siempre la calidad máxima disponible localmente (menor contenido de azufre dentro del estándar del país) y evitar surtidores informales o de garrafa salvo necesidad, por riesgo de agua o sedimentos en el gasóleo.",
-            "Regla del proyecto: no debe haber más de 500 km entre dos puntos de repostaje fiables a lo largo de la ruta prevista. Sin track GPX cerrado, cada ficha calcula la distancia entre las poblaciones con surtidor conocido del tramo y señala con una alerta cualquier hueco mayor de 500 km sin garantía.",
+            "Regla del proyecto: no debe haber más de 500 km entre dos puntos de repostaje fiables a lo largo del viaje. Cada ficha calcula la distancia entre las poblaciones con surtidor conocido del tramo y señala con una alerta cualquier hueco mayor de 500 km sin garantía.",
             "Llevar reserva propia (jerricán) dimensionada para cubrir el mayor hueco identificado en la ficha del país que se esté cruzando, no solo la autonomía de fábrica del depósito.",
             "Filtrar el gasóleo al repostar en surtidores dudosos (embudo con filtro/decantador) y llevar aditivo anti-agua/biocida de repuesto.",
             "Antes de cerrar cada tramo, contrastar los surtidores previstos en iOverlander y Tracks4Africa: ambas plataformas recogen comentarios recientes de otros overlanders sobre si un surtidor concreto tenía diésel, de qué calidad y a qué precio.",
@@ -1842,7 +1858,7 @@ def render_docs():
         + callout("", "Verificación de agua y combustible", 'Cada punto se contrasta con la fuente más directa disponible —operador, registro o ficha geolocalizada— y con comentarios recientes cuando existen. <a href="https://ioverlander.com/" target="_blank" rel="noopener">iOverlander</a> y <a href="https://tracks4africa.co.za/" target="_blank" rel="noopener">Tracks4Africa</a> son apoyos, no una garantía: revisar fecha, condiciones y coordenadas antes de desviarse.', raw=True)
     )
     drones = bullets([
-        "Regla general del viaje: ningún país africano del corredor permite volar «por defecto» — casi todos exigen registro o autorización previa, y varios prohíben la entrada del dron sin permiso de importación.",
+        "Regla general del viaje: ningún país africano permite volar «por defecto» — casi todos exigen registro o autorización previa, y varios prohíben la entrada del dron sin permiso de importación.",
         "Norma prudente: transportar el dron apagado, embalado y declarable; no volar en ningún país sin autorización escrita de su autoridad de aviación civil.",
         "Nunca volar cerca de aeropuertos, instalaciones militares, fronteras, multitudes ni áreas protegidas, tampoco con autorización genérica.",
         "Cada ficha indica la autoridad local (ANAC, ANACIM…), el procedimiento publicado y la decisión práctica.",
@@ -1855,7 +1871,7 @@ def render_docs():
     ])
     seguridad = (
         bullets([
-            "No conducir de noche en ningún país del corredor. Ante un retraso: dormir en población o recinto vigilado y reanudar de día.",
+            "No conducir de noche en ningún país. Ante un retraso: dormir en población o recinto vigilado y reanudar de día.",
             "Dos vehículos siempre juntos en pista; check-in diario a hora fija con un contacto en España y protocolo de escalado 6/12/24 h sin noticias.",
             "Ante un control: cortesía, documentos preparados en copias, no entregar originales fuera de ventanilla, no pagar sin recibo, no fotografiar puestos ni fuerzas de seguridad.",
             "Consultar MAEC España + France Diplomatie + FCDO antes de cada frontera (72 h) y registrar el viaje en el Registro de Viajeros del MAEC.",

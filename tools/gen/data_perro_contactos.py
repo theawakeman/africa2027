@@ -645,7 +645,7 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
                             'Interterritorial Movement Permit (valido 60 dias) firmado por '
                             'veterinario y refrendado por un Government Veterinarian. Para un '
                             'perro que llega de fuera de la SADC no hay validez publicada',
-              'nota': 'La mejor pagina oficial de toda la ruta: permiso en un dia habil en '
+              'nota': 'La mejor pagina oficial de todas: permiso en un dia habil en '
                       'cualquier District Veterinary Office, con inspeccion del animal, cartilla '
                       'de rabia valida y prueba de que no hay restricciones por rabia en la zona '
                       'de origen; documentos en ingles o setsuana; sin restriccion de puesto '
@@ -811,7 +811,7 @@ CONTACTOS = {'marruecos': {'organismo': 'Office National de Sécurité Sanitaire
                          'original + libreta/pasaporte del animal); en Espana, certificado CEXGAN por el '
                          'veterinario colegiado (modelo para Tunez: por confirmar en el buscador de '
                          'animales de compania del MAPA)',
-           'nota': 'FUERA DE LA RUTA 2027 (solo viaje aparte en ferry a La Goulette). Pagina oficial de '
+           'nota': 'Acceso solo en ferry a La Goulette (sin frontera terrestre utilizable). Pagina oficial de '
                    'la Aduana abierta y leida el 18-09-2026: certificado sanitario veterinario original '
                    'de los servicios oficiales del pais de origen + libreta sanitaria + vacuna '
                    'antirrabica en vigor; razas prohibidas Pit-bull, Rottweiler, Tosa y Mastiff/Boerboel '

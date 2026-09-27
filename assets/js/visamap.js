@@ -11,13 +11,13 @@ function a27VisaMap(elId, cfg) {
   }).addTo(map);
 
   var NEUTRO = "#cfd8dc";
-  var RUTAS = {
-    principal: "Ruta principal",
-    alternativa: "Alternativa u opcional",
-    excluido: "Excluido del itinerario",
-    fuera: "Fuera de la ruta",
-    vuelo: "Solo en avión"
-  };
+  // ¿Está en el viaje del Planificador? Sin viaje calculado, todos cuentan como «en viaje».
+  function enViaje(slug) { var v = window.A27Viaje; return !v || !v.V || v.en(slug); }
+  function lineaViaje(slug) {
+    var v = window.A27Viaje; if (!v || !v.V) return "";
+    return v.en(slug) ? '<br><em style="font-size:12px;color:#B43A3A">En tu viaje: ' + v.fechas(slug) + "</em>"
+                      : '<br><em style="font-size:12px">No está en tu viaje</em>';
+  }
 
   function safe(v) {
     return String(v == null ? "" : v).replace(/[&<>"']/g, function (c) {
@@ -27,7 +27,7 @@ function a27VisaMap(elId, cfg) {
 
   function estilo(f) {
     var d = cfg.data[f.properties.slug];
-    var principal = d && d.ruta === "principal";
+    var principal = d && enViaje(f.properties.slug);
     return {
       color: "#ffffff",
       weight: d ? 1.1 : 0.6,
@@ -45,11 +45,11 @@ function a27VisaMap(elId, cfg) {
     var h = '<strong style="font-size:15px">' + safe(d.n) + "</strong><br>";
     h += '<span style="display:inline-block;margin:5px 0 6px;padding:2px 8px;border-radius:999px;'
        + 'font-size:12px;font-weight:700;color:#fff;background:' + safe(d.color) + '">' + safe(d.lab) + "</span>";
-    h += '<br><em style="font-size:12px">' + safe(RUTAS[d.ruta] || d.ruta) + "</em>";
+    if (d.vuelo) h += '<br><em style="font-size:12px">Solo se llega en avión</em>';
+    h += lineaViaje(d.slug);
     h += "<br><b>Situación:</b> " + safe(d.resumen);
     h += "<br><b>Qué hacer:</b> " + safe(d.accion);
-    if (d.pasos) h += "<br><b>Pasos previstos:</b> " + safe(d.pasos);
-    if (d.entradas) h += "<br><b>Entradas:</b> " + safe(d.entradas);
+    if (d.entradas) h += "<br><b>Modalidades:</b> " + safe(d.entradas);
     if (d.coste) h += "<br><b>Coste:</b> " + safe(d.coste);
     if (d.alerta) h += '<br><span style="color:#8b4d08"><b>Atención:</b> ' + safe(d.alerta) + "</span>";
     var links = [enlace(d.oficial, "Portal oficial"), enlace(d.maec, "MAEC")].filter(Boolean);

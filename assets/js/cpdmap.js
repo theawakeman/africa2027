@@ -13,6 +13,13 @@ function a27CpdMap(elId, cfg) {
   }).addTo(map);
 
   var NEUTRO = "#cfd8dc";
+  // ¿Está en el viaje del Planificador? Sin viaje calculado, todos cuentan como «en viaje».
+  function enViaje(slug) { var v = window.A27Viaje; return !v || !v.V || v.en(slug); }
+  function lineaViaje(slug) {
+    var v = window.A27Viaje; if (!v || !v.V) return "";
+    return v.en(slug) ? '<br><em style="font-size:12px;color:#B43A3A">En tu viaje: ' + v.fechas(slug) + "</em>"
+                      : '<br><em style="font-size:12px">No está en tu viaje</em>';
+  }
 
   function estilo(f) {
     var d = cfg.data[f.properties.slug];
@@ -20,8 +27,8 @@ function a27CpdMap(elId, cfg) {
       color: "#ffffff",
       weight: d ? 1.1 : 0.6,
       fillColor: d ? d.color : NEUTRO,
-      fillOpacity: d ? (d.ruta ? 0.82 : 0.45) : 0.25,
-      dashArray: d && !d.ruta ? "3,3" : null
+      fillOpacity: d ? (enViaje(f.properties.slug) ? 0.82 : 0.4) : 0.25,
+      dashArray: d && !enViaje(f.properties.slug) ? "3,3" : null
     };
   }
 
@@ -29,7 +36,7 @@ function a27CpdMap(elId, cfg) {
     var h = '<strong style="font-size:15px">' + d.n + "</strong><br>";
     h += '<span style="display:inline-block;margin:5px 0 6px;padding:2px 8px;border-radius:999px;'
        + 'font-size:12px;font-weight:700;color:#fff;background:' + d.color + '">' + d.lab + "</span>";
-    if (!d.ruta) h += '<br><em style="font-size:12px">No está en la ruta</em>';
+    h += lineaViaje(d.slug);
     h += "<br><b>En su lugar:</b> " + d.alt;
     h += "<br><b>Coste:</b> " + d.cost;
     if (d.href) h += '<br><a href="' + d.href + '">Ver la ficha del país &rarr;</a>';

@@ -1,7 +1,7 @@
-# DOSSIER PERRO — Expedición overland España → Sudáfrica → España (2027)
+# DOSSIER PERRO — Viajar por tierra por África con perro (2027)
 
 > **Versión:** v0.5 — 12/09/2026 · Documento vivo · **Auditado el 12/09/2026** contra las fuentes originales (informe «auditoria-perro-2027» del proyecto): se han corregido la base legal y la vía de vuelta a la UE, plazos de certificado, contactos y enlaces; los enlaces «Quién lo emite» apuntan ahora a la web nacional del organismo cuando existe.
-> **Perro:** 1 ejemplar, viaja en los vehículos con sus tres dueños. Enero–agosto 2027.
+> **Perro:** 1 ejemplar, viaja en los vehículos con sus tres dueños durante todo el viaje (2027).
 > **Punto de partida documental:** pasaporte europeo de animal de compañía, microchip, rabia en vigor y **titulación serológica de anticuerpos antirrábicos ya realizada**.
 
 ## Cómo leer este documento
@@ -26,20 +26,20 @@ Jerarquía de fuentes usada: (1) oficial del país → (2) embajadas/consulados 
 4. [La vuelta a la UE](#4-la-vuelta-a-la-ue)
 5. [Calendario de trámites](#5-calendario-de-trámites)
 6. [Contactos reales](#6-contactos-reales)
-7. [Salud del perro en la ruta](#7-salud-del-perro-en-la-ruta)
+7. [Salud del perro durante el viaje](#7-salud-del-perro-durante-el-viaje)
 8. [Contradicciones abiertas](#8-contradicciones-abiertas)
 
 ---
 
 # 1. Resumen ejecutivo
 
-## 1.1 Los cuatro riesgos que pueden tumbar la ruta
+## 1.1 Los cuatro riesgos que pueden tumbar el viaje
 
 ### RIESGO 1 — El mito del "solo por aeropuerto" (Tanzania, Botsuana y otros)
 
 **Éste era el riesgo número uno y está en buena medida desactivado, pero no del todo.**
 
-PetTravel.com afirma literalmente que *"las mascotas deben entrar en Tanzania por vía aérea a través del Aeropuerto Internacional Julius Nyerere de Dar es Salaam o el Aeropuerto Internacional del Kilimanjaro"*. Si eso fuera una norma legal, la ruta terrestre se rompería en seco.
+PetTravel.com afirma literalmente que *"las mascotas deben entrar en Tanzania por vía aérea a través del Aeropuerto Internacional Julius Nyerere de Dar es Salaam o el Aeropuerto Internacional del Kilimanjaro"*. Si eso fuera una norma legal, el viaje por tierra con perro se rompería en seco.
 
 **No lo es, o al menos no como lo cuenta esa web.** [CONFIRMADO por protocolo oficial y testimonio de cruce; falta la confirmación escrita]
 
@@ -59,7 +59,7 @@ PetTravel.com afirma literalmente que *"las mascotas deben entrar en Tanzania po
 
 ---
 
-### RIESGO 2 — Los permisos son de ENTRADA ÚNICA y de VALIDEZ CORTA, y la ruta pasa dos veces por muchos países
+### RIESGO 2 — Los permisos son de ENTRADA ÚNICA y de VALIDEZ CORTA: si tu viaje entra dos veces en un país, hacen falta dos permisos
 
 Éste es, en la práctica, **el riesgo real más subestimado** del viaje.
 
@@ -67,9 +67,9 @@ PetTravel.com afirma literalmente que *"las mascotas deben entrar en Tanzania po
 - **[CONFIRMADO]** Botsuana emite el permiso en **1 día hábil** en cualquier **Oficina Veterinaria de Distrito**, previa inspección del animal (web oficial gov.bw).
 - **[CONFIRMADO]** Los certificados veterinarios internacionales tienen ventanas **muy cortas**: en los países francófonos la ventana habitual es de **48–72 horas** antes de la llegada (Senegal, Benín, Guinea, Mauritania, según Anivetvoyage); Tanzania: **4 días** (Keringa, comercial), **10** (modelo británico) o **14** (PetTravel); Sudáfrica: emisión y refrendo dentro de los **10 días** previos. Los "30 días" que aparecen en varias fichas son la validez del **modelo estadounidense de APHIS**, no una norma del país de destino. La UE exige **10 días** para el certificado de reentrada (solo en la vía B, §4).
 
-**Consecuencia:** es **imposible** sacar en Europa todos los permisos del viaje. La mayoría **hay que tramitarlos sobre la marcha**, desde el país anterior, con 1–4 semanas de antelación cada uno. Y en los países que se cruzan **dos veces** (Angola, RD Congo, Congo, Camerún, Nigeria, Benín, Togo, Ghana, Costa de Marfil, Guinea, Senegal, Mauritania, Sáhara Occidental, Marruecos) hay que contar con **dos permisos separados**, salvo que se confirme lo contrario por escrito.
+**Consecuencia:** es **imposible** sacar en Europa todos los permisos del viaje. La mayoría **hay que tramitarlos sobre la marcha**, desde el país anterior, con 1–4 semanas de antelación cada uno. Y en cada país en el que tu viaje entre **dos veces** hay que contar con **dos permisos separados**, salvo que se confirme lo contrario por escrito (§2.2).
 
-> **ACCIÓN:** presupuestar tiempo y dinero para **~35–40 trámites**, no ~22. Ver §5.
+> **ACCIÓN:** presupuestar tiempo y dinero para **un trámite por cada entrada en un país**, no uno por país: si el viaje repite países, la cuenta se acerca al doble. Ver §5.
 
 ---
 
@@ -96,9 +96,9 @@ Namibia: *"Los métodos de análisis se especificarán en el permiso junto con c
 
 | | |
 |---|---|
-| **Para qué sirven las de España** | **Para decidir, no para entrar.** Si la leishmania sale positiva, Namibia y Sudáfrica se caen, y hay que rehacer el tramo sur antes de comprometer dinero. |
+| **Para qué sirven las de España** | **Para decidir, no para entrar.** Si la leishmania sale positiva, Namibia y Sudáfrica se caen, y hay que replantear esa parte del viaje antes de comprometer dinero. |
 | **Por qué no valen como documento de entrada** | **[CONFIRMADO]** Sudáfrica y Namibia (modelo APHIS) exigen las pruebas **en los 30 días previos** a la entrada. **[CONFIRMADO]** *Babesia*, *Dirofilaria* y *T. evansi* se contagian en ruta: un negativo español no dice nada del perro al llegar. |
-| **Dónde se repiten** | **Una sola vez, en Sudáfrica**, en la ventana de 30 días antes de entrar: **Onderstepoort Veterinary Institute (Pretoria)** es el laboratorio de referencia del continente. Para Namibia, semanas después, habría que repetirlas salvo que valga el permiso interterritorial (§8). |
+| **Dónde se repiten** | **Lo ideal, una sola vez, en Sudáfrica**, en la ventana de 30 días antes de entrar: **Onderstepoort Veterinary Institute (Pretoria)** es el laboratorio de referencia del continente. Si Namibia queda fuera de esa ventana de 30 días, habría que repetirlas salvo que valga el permiso interterritorial (§8). |
 | **Lo que falta saber** | **[SIN CONFIRMAR]** Si Namibia acepta analíticas de un laboratorio **no namibio** (Onderstepoort) o exige laboratorio propio; y si un perro ya importado a Sudáfrica puede entrar en Namibia con el **Inter-Territorial Movement Permit** (30 días, sin analíticas) en vez del permiso completo. Pregunta abierta a `vet.permits@mawlr.gov.na` — checklist fila 4 y §8. |
 | **Plazo de validez de las analíticas** | **[CONFIRMADO]** 30 días para Sudáfrica (certificado oficial) y para Namibia según el modelo APHIS; el permiso namibio puede fijar otra cosa. |
 
@@ -110,9 +110,9 @@ Namibia: *"Los métodos de análisis se especificarán en el permiso junto con c
 
 **[CONFIRMADO]** — Fuente oficial: Comisión Europea, DG SANTE; **Reglamento Delegado (UE) 2026/131** (en vigor desde el 22/04/2026; deroga el 576/2013), Reg. de Ejecución (UE) 2026/636 (lista de países) y 2026/705 (modelos de certificado).
 
-Todos los países africanos de la ruta son **terceros países NO listados** para la UE (la lista de 2026 no contiene ningún país africano continental). Hay **dos vías** de vuelta, y la buena es la primera:
+Todos los países del continente africano son **terceros países NO listados** para la UE (la lista de 2026 no contiene ningún país africano continental). Hay **dos vías** de vuelta, y la buena es la primera:
 
-**VÍA A — con el pasaporte, sin certificado.** [CONFIRMADO] Art. 20(b) del Reg. 2026/131 y página de la Comisión: un perro que reside en la UE y vuelve de un tercer país entra **solo con el pasaporte** si en él consta, **anotado antes de salir de la UE**, que (i) fue vacunado de rabia y **esa vacuna sigue en vigor al volver**, y (ii) tiene titulación ≥0,5 UI/ml favorable. Texto de la Comisión: *"The 90 day period shall not apply to the re-entry of a pet animal residing habitually in the EU whose passport certifies that the test was carried out and documented, with a favourable result, before the animal left the EU."* Sin certificado ONSSA, sin refrendo, sin validez de 10 días, sin espera. El MAPA lo dice igual en su página «Viajar con la mascota». Condiciones que la rompen: que la rabia caduque en ruta, o que se **revacune fuera de la UE** (FAQ oficial francesa: *"pas de revaccination antirabique en dehors de l'UE"*; una vacuna puesta en África no la puede anotar válidamente un veterinario de la UE).
+**VÍA A — con el pasaporte, sin certificado.** [CONFIRMADO] Art. 20(b) del Reg. 2026/131 y página de la Comisión: un perro que reside en la UE y vuelve de un tercer país entra **solo con el pasaporte** si en él consta, **anotado antes de salir de la UE**, que (i) fue vacunado de rabia y **esa vacuna sigue en vigor al volver**, y (ii) tiene titulación ≥0,5 UI/ml favorable. Texto de la Comisión: *"The 90 day period shall not apply to the re-entry of a pet animal residing habitually in the EU whose passport certifies that the test was carried out and documented, with a favourable result, before the animal left the EU."* Sin certificado oficial, sin refrendo, sin validez de 10 días, sin espera. El MAPA lo dice igual en su página «Viajar con la mascota». Condiciones que la rompen: que la rabia caduque en ruta, o que se **revacune fuera de la UE** (FAQ oficial francesa: *"pas de revaccination antirabique en dehors de l'UE"*; una vacuna puesta en África no la puede anotar válidamente un veterinario de la UE).
 
 **VÍA B — con certificado, solo si falla la A.** Microchip; rabia válida, puesta después del chip, ≥21 días desde la primovacunación; **titulación ≥0,5 UI/ml** en laboratorio aprobado por la UE, con sangre extraída ≥30 días después de la vacuna y **≥90 días antes** del certificado (los 90 días no se aplican si el test consta en el pasaporte antes de salir; sí se aplican si hubo que rehacerlo en África); **certificado zoosanitario** (modelo del Reg. 2026/705, anexo III) emitido por veterinario oficial del país de salida —o autorizado y refrendado por la autoridad competente—, válido **10 días** hasta el control; **declaración escrita** de movimiento no comercial; entrada por un **Punto de Entrada de Viajeros** designado (Algeciras y Tarifa lo son, puerto, todas las categorías; también Ceuta-El Tarajal por tierra).
 
@@ -123,8 +123,8 @@ Todos los países africanos de la ruta son **terceros países NO listados** para
 Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro**, siempre y cuando **NO se les pase ni un solo día la revacunación antirrábica**. Y con la vía A, ni siquiera hace falta certificado para volver.
 
 > **ACCIÓN — ESTO ES LO MÁS IMPORTANTE DE TODO EL DOCUMENTO:**
-> **Si en algún momento del viaje caduca la vacuna antirrábica antes de revacunar, la titulación europea MUERE.** Habría que revacunar, esperar 30 días, sacar sangre, mandarla a un laboratorio aprobado por la UE (en África solo **ARC-Onderstepoort, Sudáfrica**, aprobación vigente desde el 24/05/2024), esperar **90 días** y volver por la vía B con certificado ONSSA. **Cuatro meses de perro atrapado en África.**
-> → **Revacunar en España antes de salir** (diciembre de 2026), con una vacuna cuya validez cubra hasta **después de agosto de 2027**, y **NO tocar la rabia en ruta**: una revacunación en África rompe la vía A. Como Sudáfrica, Senegal y varios francófonos exigen rabia puesta hace **menos de 12 meses**, la vacuna anual puesta justo antes de salir cumple con todos.
+> **Si en algún momento del viaje caduca la vacuna antirrábica antes de revacunar, la titulación europea MUERE.** Habría que revacunar, esperar 30 días, sacar sangre, mandarla a un laboratorio aprobado por la UE (en África solo **ARC-Onderstepoort, Sudáfrica**, aprobación vigente desde el 24/05/2024), esperar **90 días** y volver por la vía B con certificado oficial del país de salida. **Cuatro meses de perro atrapado en África.**
+> → **Revacunar en España antes de salir** (el mes previo a la salida), con una vacuna cuya validez cubra hasta **después de la fecha de regreso prevista**, y **NO tocar la rabia en ruta**: una revacunación en África rompe la vía A. Como Sudáfrica, Senegal y varios francófonos exigen rabia puesta hace **menos de 12 meses**, la vacuna anual puesta justo antes de salir cumple con todos.
 > → Poner **alarma doble** (mes −2 y mes −1) sobre la fecha de caducidad, por si el viaje se alarga: si hubiera que revacunar en África, hacerlo con vacuna trazable (Sudáfrica o Nairobi) y asumir que se vuelve por la vía B.
 > → **Llevar el pasaporte y el certificado de titulación original en papel**, plastificados, y tres copias en distintos vehículos + escaneado en la nube. La titulación es además **requisito de salida**: la exigen el certificado español para Marruecos (ASE-3131, exportación temporal) y el certificado de Angola.
 
@@ -167,7 +167,7 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 | Pregunta | Respuesta |
 |---|---|
 | **¿Hace falta para el continente africano?** | **NO.** Solo para **salir de España**. Los cruces entre países africanos no pasan por CEXGAN: los resuelven las autoridades veterinarias de cada país (§3). |
-| **¿Hace falta para volver a Europa?** | **NO.** CEXGAN es solo exportación. Por la vía A (§4) el perro vuelve con el pasaporte; por la vía B el certificado lo emite el **veterinario oficial del país de salida** —Marruecos, ONSSA— y lo refrenda su autoridad competente. España no interviene. |
+| **¿Hace falta para volver a Europa?** | **NO.** CEXGAN es solo exportación. Por la vía A (§4) el perro vuelve con el pasaporte; por la vía B el certificado lo emite el **veterinario oficial del país de salida** —si se sale por Marruecos, ONSSA— y lo refrenda su autoridad competente. España no interviene. |
 | **¿Quién lo tramita?** | El **veterinario colegiado**, en nombre del propietario. Lo revisa y emite el **servicio veterinario oficial** (Servicio de Inspección en Frontera / Sanidad Animal de la Delegación). **[CONFIRMADO]** |
 | **¿Cuándo?** | Los colegios veterinarios recomiendan empezar **≥2–3 semanas antes**. El certificado exige **examen clínico en las 24 horas previas al embarque**: se emite pegado a la fecha del ferry. |
 | **¿Qué modelo de certificado?** | **[CONFIRMADO]** Existe certificado bilateral: **ASE-3131 «Certificado sanitario para la exportación definitiva o temporal de perros y gatos desde España a Marruecos»**, bilingüe ES/FR, **exclusivamente digital desde el 01/09/2025**, sin apostilla ni legalización consular. Exige: marca permanente **antes** de la vacuna antirrábica; vacuna **inactivada**, ≥21 días si es primovacunación; examen clínico en las 24 h previas; y, para exportación **temporal** (nuestro caso), **titulación ≥0,5 UI/ml** en laboratorio aprobado por la Comisión, ≥30 días tras la vacuna. Marruecos no está en la lista GeNI porque tiene modelo propio. |
@@ -183,9 +183,9 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 
 **Leyenda dificultad:** 🟢 fácil · 🟡 media · 🟠 difícil · 🔴 bloqueante potencial
 
-## 2.1 Ruta de ida
+## 2.1 Países con más información (entrada terrestre)
 
-*«Tiempo de tramitación» es lo que tarda la administración en devolver el permiso desde que se solicita, no lo que dura el permiso ni con cuánta antelación hay que pedirlo. Como casi todos se piden en ruta, esa cifra es la que dice cuántos días de margen hace falta en el país anterior antes de plantarse en la frontera.*
+*Países con la información más completa sobre la entrada por tierra con perro. El número de la primera columna es solo una referencia: no indica ningún orden de viaje. «Tiempo de tramitación» es lo que tarda la administración en devolver el permiso desde que se solicita, no lo que dura el permiso ni con cuánta antelación hay que pedirlo. Como casi todos se piden en ruta, esa cifra es la que dice cuántos días de margen hace falta en el país anterior antes de plantarse en la frontera.*
 
 | # | País | Entrada terrestre | Permiso previo | Tiempo de tramitación | Dificultad | Nota clave | Quién lo emite | Correo | Certificado sanitario |
 |---|---|---|---|---|---|---|---|---|---|
@@ -203,16 +203,18 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 | 12 | **Congo-Brazzaville** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | Portal ministerial en mantenimiento. | [Direction Générale de l'Élevage](https://agriculture.gouv.cg/) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | 13 | **RD Congo** | ⚠️ Sin confirmar | ⚠️ Sin confirmar | ? | 🟠 | Cruce del río en Kinshasa. Ver §8. | [Direction des Services Veterinaires](https://agriculture.gouv.cd/contact.php) ⚠️ | `info@agriculture.gouv.cd` | ✅ Sí · **10 días** |
 | 14 | **Angola** | ✅ Probable | ✅ Sí (licença zoo-sanitária) | ? | 🟠 | **Exige titulación antirrábica.** Modelo oficial DGAV: certificado 10 días. | [Instituto dos Serviços de Veterinária](https://minagrif.gov.ao/) ⚠️ | `gticii@minagrif.gov.ao` | ✅ Sí · **10 días** |
-| 15 | **Zambia** | ✅ Sí | ✅ Sí | ? (permiso válido 6 semanas) | 🟡 | Dept. of Veterinary Services, Lusaka. Tasa ZMW 50 (≤2 mascotas). Ruta bien rodada. | [Department of Veterinary Services](https://www.zambiatradeportal.gov.zm/index.php?r=searchProcedure/view1&id=116) | `info@mfl.gov.zm` | ✅ Sí · **7 días** |
+| 15 | **Zambia** | ✅ Sí | ✅ Sí | ? (permiso válido 6 semanas) | 🟡 | Dept. of Veterinary Services, Lusaka. Tasa ZMW 50 (≤2 mascotas). Pasos muy rodados por overlanders. | [Department of Veterinary Services](https://www.zambiatradeportal.gov.zm/index.php?r=searchProcedure/view1&id=116) | `info@mfl.gov.zm` | ✅ Sí · **7 días** |
 | 16 | **Tanzania** | ✅ **Sí** (ver §1.1) | ✅ Sí | ? | 🟡 | **Nombrar el puesto terrestre en la solicitud.** Permisos por MIMIS. 30.000 TSH según embajada; gratis según testimonio. | [Director of Veterinary Services](https://www.mifugouvuvi.go.tz/services/vibali-vya-mifugo) | `barua@mlf.go.tz` · `helpdesk@mlf.go.tz` · `zoosanitary@mifugo.go.tz` · `epid1@mifugo.go.tz` · `barua@mifugo.go.tz` | ✅ Sí · **10 días** |
 | 17 | **Kenia** | ✅ Sí | ✅ Sí | ? | 🟢 | DVS Kabete. Avisar a la oficina veterinaria más cercana en 3 días si se entra por tierra. | [Directorate of Veterinary Services](https://infotradekenya.go.ke/procedure/1422?l=en) | — *sin correo publicado* | ✅ Sí · **7 días** |
 | 18 | **Mozambique** | ✅ Sí | ✅ Sí | ? | 🟡 | DINAV. Razas prohibidas desde 2024. | [Direccao Nacional de Veterinaria](https://www.agricultura.gov.mz/servicos-ao-cidadao/procedimentos-para-o-movimento-de-animais-seus-produtos-e-subprodutos/) ⚠️ | `geral@maap.gov.mz` · `geral@agricultura.gov.mz` | ✅ Sí · **7 días** |
 | 19 | **Zimbabue** | ✅ Sí | ✅ Sí | ? | 🟡 | Directorate of Veterinary Services, Harare. | [Directorate of Veterinary Services](https://www.agric.gov.zw/wordpress/?page_id=7883) ⚠️ | — *sin correo publicado* | ✅ Sí · **7 días** |
-| 20 | **Botsuana** | ✅ **Sí** | ✅ Sí | **1 día hábil** | 🟢 | Oficina Veterinaria de Distrito. El más ágil de la ruta. Sin analíticas publicadas. | [Department of Veterinary Services](https://www.gov.bw/business-compliance-agriculture-animal-husbandry/issuance-import-permit-live-animals-animal) | `DVSpermits@gov.bw` | ✅ Sí · *validez sin publicar* |
+| 20 | **Botsuana** | ✅ **Sí** | ✅ Sí | **1 día hábil** | 🟢 | Oficina Veterinaria de Distrito. El más ágil de todos. Sin analíticas publicadas. | [Department of Veterinary Services](https://www.gov.bw/business-compliance-agriculture-animal-husbandry/issuance-import-permit-live-animals-animal) | `DVSpermits@gov.bw` | ✅ Sí · *validez sin publicar* |
 | 21 | **Sudáfrica** | ✅ Sí | ✅ Sí (una sola entrada) | **pedir con ≥4 sem** | 🟠 | DALRRD. **Las 5 analíticas, 30 días antes.** Rabia <12 meses. Acelera entregar en mano. | [Director: Animal Health - Import Export…](https://www.gov.za/services/import/import-animals-and-animal-products) | `vetpermits@dalrrd.gov.za` · `VetPermits@daff.gov.za` | ✅ Sí · **10 días** |
 | 22 | **Namibia** | ✅ Sí | ✅ Sí | **3 días hábiles** (+ mensajería y analíticas) | 🟠 | **Las 5 analíticas.** El permiso original se envía por mensajería a tu país; «landing permission» por email antes de viajar. | [Directorate of Veterinary Services -…](https://namibiatradeportal.gov.na/trade-goods/procedure-details/view_express_entity/485) | `vet.permits@mawlr.gov.na` | ✅ Sí · *validez sin publicar* |
 
-## 2.2 Ruta de vuelta (segundo cruce)
+## 2.2 Segunda entrada en un mismo país: ¿hace falta permiso nuevo?
+
+*Si tu viaje entra por segunda vez en un país, esta tabla dice si hay que contar con un permiso nuevo para esa segunda entrada. Solo está confirmado que el de Sudáfrica es de entrada única; en el resto, sin respuesta escrita, conviene contar con otro permiso (§1.1, riesgo 2; §8).*
 
 | # | País | ¿Permiso nuevo? | Dificultad | Nota | Quién lo emite | Correo | Certificado sanitario |
 |---|---|---|---|---|---|---|---|
@@ -227,12 +229,14 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 | 31 | **Costa de Marfil** | ⚠️ Probable | 🟡 | | [Direction des Services Vétérinaires](https://www.gucecotedivoire.ci/pwic/animaux-vivants/) ⚠️ | `carv.dsvci@gmail.com` · `dsv.sdsa2017@gmail.com` | ✅ Sí · **10 días** |
 | 32 | **Guinea** | ⚠️ Sin confirmar | 🟠 | | [Direction Nationale des Services Vétérinaires](https://www.elevage.gov.gn/) ⚠️ | `contact@elevage.gov.gn` | ✅ Sí · **3 días** |
 | 33 | **Senegal** | ⚠️ Probable (el permiso vale 3 meses) | 🟡 | | [Direction des Services Vétérinaires](https://senegalservices.sn/demarche/demander-lautorisation-dimporter-des-animaux-de-compagnie) ❓ | `contacts@elevage.gouv.sn` · `wadesanou@gmail.com` · `dsvmepa@gmail.com` | ✅ Sí · **3 días** |
-| 34 | **Gambia** | ❌ No previo: se registra al animal al llegar | 🟡 | Solo en la vuelta. | [Department of Livestock Services](https://gambiaembassy.eu/faqs/) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| 34 | **Gambia** | ❌ No previo: se registra al animal al llegar | 🟡 | Registro del animal en la frontera, sin permiso previo. | [Department of Livestock Services](https://gambiaembassy.eu/faqs/) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | 35 | **Mauritania** | ⚠️ Sin confirmar | 🟡 | | [Direction des Services Vétérinaires](https://elevage.gov.mr/?lang=fr) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | 36 | **Sáhara Occ. / Marruecos** | ❌ No | 🟢 | | [Office National de Sécurité Sanitaire des…](https://www.onssa.gov.ma/controle-a-limportation-et-a-lexportation/controle-a-limportation/importation-des-animaux-vivants/chiens-et-chats/) ❓ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | 37 | **UE / España** | ❌ **Solo pasaporte** (vía A) · certificado UE solo si falla (vía B) | 🟢 | Ver §4. **Punto de Entrada de Viajeros** (Algeciras/Tarifa). | [Comisión Europea](https://food.ec.europa.eu/animals/movement-pets/eu-legislation/non-commercial-movement-non-eu-countries_en) | — *sin correo publicado* | ✅ Sí · **10 días** |
 
-## 2.3 Alternativas
+## 2.3 Otros países con frontera terrestre
+
+*Países a los que también se puede llegar por tierra; el resumen del perro está en §3.23.*
 
 | País | Entrada terrestre | Permiso | Dificultad | Nota | Quién lo emite | Correo | Certificado sanitario |
 |---|---|---|---|---|---|---|---|
@@ -243,13 +247,13 @@ Es decir: **la titulación que ya tienen hecha vale para toda la vida del perro*
 | **Esuatini** | ✅ **Sí** (testimonio directo) | SACU | 🟢 | Cruce terrestre con perro documentado. | [Department of Veterinary and Livestock…](https://www.gov.sz/index.php/ministries-departments/ministry-of-agriculture/veterinary-a-livestock) ⚠️ | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | **Lesoto** | ✅ Probable | SACU | 🟢 | | [Department of Livestock Services - Imports…](https://lesotho.eregulations.org/procedure/160?l=en) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 
-## 2.4 Fuera de la ruta prevista (fichas informativas)
+## 2.4 Países de acceso difícil o solo en avión
 
-Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si se plantea un viaje aparte. Mismo criterio de etiquetas que el resto del dosier.
+Países con el acceso por tierra difícil o cerrado (fronteras cerradas, conflicto activo, escolta obligatoria) o que solo se alcanzan en ferry o en avión. Cada uno tiene ficha propia en §3. Mismo criterio de etiquetas que el resto del dosier.
 
 | País | Entrada terrestre | Permiso | Dificultad | Nota | Quién lo emite | Correo | Certificado sanitario |
 |---|---|---|---|---|---|---|---|
-| **Túnez** | ⛴️ Solo en ferry (La Goulette) · sin conexión terrestre con la ruta | ❌ No previo (Aduana) | 🟢 | **[CONFIRMADO]** Certificado sanitario oficial del país de origen + libreta + rabia en vigor; razas prohibidas Pit-bull, Rottweiler, Tosa, Mastiff/Boerboel. Vuelta a la UE: vía A (§4). | [Direction Générale des Services Vétérinaires](https://www.douane.gov.tn/animaux-de-compagnie/) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
+| **Túnez** | ⛴️ Solo en ferry (La Goulette) · por tierra, Marruecos–Argelia cerrada desde 1994 y Libia inviable | ❌ No previo (Aduana) | 🟢 | **[CONFIRMADO]** Certificado sanitario oficial del país de origen + libreta + rabia en vigor; razas prohibidas Pit-bull, Rottweiler, Tosa, Mastiff/Boerboel. Vuelta a la UE: vía A (§4). | [Direction Générale des Services Vétérinaires](https://www.douane.gov.tn/animaux-de-compagnie/) | — *sin correo publicado* | ✅ Sí · *validez sin publicar* |
 | **Madagascar** | ✈️ Solo en avión (Ivato) · sin ferry con vehículo | ✅ Sí, previo (DSV, ≥10 días, 30.000 MGA) | 🟡 | **[PROBABLE]** Microchip, rabia 30 días–12 meses y certificado oficial ≤15 días; sin cuarentena si todo está en regla. Vuelta a la UE: vía A (§4). | [Direction des Services Vétérinaires](https://www.minae.gov.mg/direction-des-services-veterinaires-dsv/) ❓ | `dsv.sif.info@gmail.com` | ✅ Sí · **15 días** |
 | **Mali** | ✈️ Solo en avión (Bamako-Sénou) · el FCDO desaconseja entrar por carretera | ❓ Por confirmar (DNSV) | 🟡 | **[PROBABLE]** Microchip, rabia en vigor y certificado sanitario oficial ≤72 h (Anivetvoyage 2022); sin web oficial maliense. Vuelta a la UE: vía A (§4). | Direction Nationale des Services Vétérinaires | — *sin correo publicado* | ✅ Sí · **3 días** |
 | **Guinea-Bisáu** | 🚗 Por tierra desde Casamance (Mpack–São Domingos) · junta militar desde noviembre de 2025 | ❓ Por confirmar (Direcção Geral da Pecuária) | 🟡 | **[PROBABLE]** MAEC: identificación, rabia en vigor y certificado internacional de salud de menos de una semana; sin web oficial veterinaria. Vuelta a la UE: vía A (§4). | Ministério da Agricultura e Desenvolvimento… | `geral@gov.gw` | ✅ Sí · **7 días** |
@@ -264,8 +268,8 @@ Países que la ruta 2027 no toca pero que tienen ficha propia en la app por si s
 | **Chad** | ✈️ Avión a Yamena-Hassan Djamous (NDJ); por tierra, solo el puente Kousséri–Yamena desde Camerún | ❓ Por confirmar (Dir. de Servicios Veterinarios) | 🟡 | **[PROBABLE]** Microchip, pasaporte, rabia en vigor y certificado sanitario internacional ≤72 h; sin web oficial del servicio veterinario chadiano. Vuelta a la UE solo por vía A (titulación en la UE antes de salir). | Ministère de l'Élevage et des Productions… |  | ✅ Sí · **3 días** |
 | **República Centroafricana** | ✈️ Avión a Bangui M'Poko (BGF); por tierra, el eje Duala–Garoua-Boulaï/Béloko–Bangui | ❓ Por confirmar (Min. de Agricultura y Desarrollo Rural) | 🟡 | **[PROBABLE]** Microchip, rabia de más de 2 semanas y menos de 6 meses y certificado sanitario internacional ≤72 h; dato de fuente veterinaria secundaria, sin web nacional verificada. Vuelta a la UE solo por vía A. | Ministère de l'Agriculture et du… | — *sin correo publicado* | ✅ Sí · **3 días** |
 | **Sudán del Sur** | ✈️ Avión a Yuba (JUB); por tierra, solo el corredor Uganda–Nimule tiene tráfico civil normal | ❓ Por confirmar (Ministry of Livestock and Fisheries) | 🟡 | **[PROBABLE]** Rabia entre 30 días y 12 meses antes y certificado veterinario ≤10 días refrendado por veterinario oficial; entrada de mascotas por el aeropuerto de Yuba (PetTravel). Vuelta a la UE solo por vía A. | Ministry of Livestock and Fisheries | — *sin correo publicado* | ✅ Sí · **10 días** |
-| **Eritrea** | ✈️ Solo en avión a Asmara (ASM) · fronteras terrestres cerradas | ❓ Sin normativa publicada | 🔴 | **[SIN CONFIRMAR]** Ninguna norma eritrea de importación localizable en fuente oficial. Con acceso solo aéreo y fronteras cerradas, el perro NO entra en el plan. | Ministerio de Agricultura de Eritrea —… |  | sin confirmar |
-| **Somalia** | ✈️ Avión a Mogadiscio (MGQ) con escolta armada, o a Hargeisa (HGA) · por tierra solo Tog Wajaale desde Etiopía, con visado somalilandés previo | ❓ Sin normativa publicada | 🔴 | **[SIN CONFIRMAR]** Ninguna norma somalí de importación localizable; el único organismo con web es el Ministry of Livestock, Forestry and Range, genérico. Los visados de Somalia, Somalilandia y Puntlandia NO son intercambiables. Con el viaje desaconsejado bajo cualquier circunstancia, el perro NO entra en el plan. | [Ministry of Livestock](https://molfr.gov.so/contact-us/) ⚠️ | `Info@molfr.gov.so` | sin confirmar |
+| **Eritrea** | ✈️ Solo en avión a Asmara (ASM) · fronteras terrestres cerradas | ❓ Sin normativa publicada | 🔴 | **[SIN CONFIRMAR]** Ninguna norma eritrea de importación localizable en fuente oficial. Con acceso solo aéreo y fronteras cerradas, llevar al perro no es viable. | Ministerio de Agricultura de Eritrea —… |  | sin confirmar |
+| **Somalia** | ✈️ Avión a Mogadiscio (MGQ) con escolta armada, o a Hargeisa (HGA) · por tierra solo Tog Wajaale desde Etiopía, con visado somalilandés previo | ❓ Sin normativa publicada | 🔴 | **[SIN CONFIRMAR]** Ninguna norma somalí de importación localizable; el único organismo con web es el Ministry of Livestock, Forestry and Range, genérico. Los visados de Somalia, Somalilandia y Puntlandia NO son intercambiables. Con el viaje desaconsejado bajo cualquier circunstancia, llevar al perro no es viable. | [Ministry of Livestock](https://molfr.gov.so/contact-us/) ⚠️ | `Info@molfr.gov.so` | sin confirmar |
 | **Guinea Ecuatorial** | ✈️ Avión a Malabo (SSG) o Bata (BSG) · fronteras terrestres del Río Muni CERRADAS desde el 15-12-2025 | ❓ Por confirmar (servicios veterinarios) | 🟡 | **[PROBABLE]** Microchip ISO, rabia en vigor y certificado sanitario CEXGAN modelo ASE-3505 (validez 10 días), solo por el aeropuerto de Malabo; sin web oficial del organismo veterinario. Visado obligatorio para españoles (eVisa, ~105 €). Vuelta a la UE solo por vía A. | Ministerio de Agricultura |  | ✅ Sí · **10 días** |
 | **Cabo Verde** | ✈️ Solo en avión (RAI, SID, BVC, VXE) · insular, sin ro-ro ni ferry de coches desde el continente | ❓ Por confirmar (DGASP) | 🟡 | **[PROBABLE]** Microchip, rabia no antes de los 3 meses, serología ≥0,5 UI/ml a los 30 días y certificado válido 10 días, según el modelo de la DGAV portuguesa; sin página oficial caboverdiana localizada. Prerregistro EASE y TSA obligatorios. Vuelta a la UE solo por vía A. | Direção Geral da Agricultura |  | ✅ Sí · **10 días** |
 | **Santo Tomé y Príncipe** | ✈️ Solo en avión a São Tomé (TMS) · insular, sin travesía regular que admita vehículos | ❓ Por confirmar | 🟡 | **[POR CONFIRMAR]** No hay web nacional accesible con los requisitos de entrada de animales; `stp.gov.st` abre pero su sección de ministerios no carga. Exención de visado de solo 15 días y tasa de turismo a la llegada. Vuelta a la UE solo por vía A. | [Gobierno de Santo Tomé y Príncipe —…](https://stp.gov.st/ministerios) ⚠️ | `geral@gpm.gov.st` | sin confirmar |
@@ -290,7 +294,7 @@ Tres indicios de que esas fichas no son fiables como fuente legal:
 2. **Contradicción con la fuente oficial.** PetTravel dice que Tanzania es "solo aire, por Dar es Salaam o Kilimanjaro". La guía oficial de las embajadas de Tanzania dice que el solicitante **declara su puerto de entrada** en la carta de solicitud, y USDA-APHIS —que sí documenta restricciones de puerto cuando existen— **no menciona ninguna** para Tanzania.
 3. **Silencio sobre lo terrestre.** La ficha de Nigeria no dice una palabra de la entrada por tierra. No la prohíbe: **no la trata**, porque no es su negocio. (Y en Angola, Camerún y Tanzania contradice a la fuente oficial: sin permiso, sin titulación, «solo por aire».)
 
-> **Regla de trabajo de este dosier:** *"no mencionado por una web de vuelos"* ≠ *"prohibido"*. Solo se marca 🔴 bloqueante cuando **una fuente oficial** lo prohíbe. Hasta hoy, **ninguna fuente oficial de la ruta prohíbe la entrada terrestre de un animal de compañía.**
+> **Regla de trabajo de este dosier:** *"no mencionado por una web de vuelos"* ≠ *"prohibido"*. Solo se marca 🔴 bloqueante cuando **una fuente oficial** lo prohíbe. Hasta hoy, **ninguna fuente oficial de los países de §2.1 y §2.2 prohíbe la entrada terrestre de un animal de compañía.**
 
 ---
 
@@ -308,9 +312,9 @@ Tres indicios de que esas fichas no son fiables como fuente legal:
 **Con el perro dentro:**
 - Alojamiento: los *riads* y campings de la costa suelen aceptar perros; en ciudad imperial, variable.
 - Playas: sin restricción práctica fuera de zonas turísticas concurridas.
-- Atención: **rabia endémica en perros callejeros**. Evitar contacto. Es el país de la ruta con mayor riesgo de mordedura de can asilvestrado.
+- Atención: **rabia endémica en perros callejeros**. Evitar contacto. Es uno de los países con mayor riesgo de mordedura de can asilvestrado.
 
-**La vuelta:** Marruecos es el **último país** antes de la UE. Por la **vía A** (§4) el perro vuelve **solo con el pasaporte** y aquí no hay que hacer ningún trámite. Solo si falla la vía A habría que conseguir en Marruecos un certificado UE de veterinario oficial (ONSSA), ver §4.4.
+**La vuelta:** si el viaje regresa a Europa por Marruecos, es el **último país** antes de la UE. Por la **vía A** (§4) el perro vuelve **solo con el pasaporte** y aquí no hay que hacer ningún trámite. Solo si falla la vía A habría que conseguir en Marruecos un certificado UE de veterinario oficial (ONSSA), ver §4.4.
 
 ---
 
@@ -323,7 +327,7 @@ Tres indicios de que esas fichas no son fiables como fuente legal:
 
 ## 3.2 SÁHARA OCCIDENTAL 🟢
 
-**[CONFIRMADO]** Territorio bajo administración marroquí de facto en el corredor de la ruta (Bojador–Dajla–Guerguerat). **No hay trámite aduanero ni veterinario independiente.** El control se produce al salir hacia Mauritania, en **Guerguerat**.
+**[CONFIRMADO]** Territorio bajo administración marroquí de facto en el eje costero Bojador–Dajla–Guerguerat. **No hay trámite aduanero ni veterinario independiente.** El control se produce al salir hacia Mauritania, en **Guerguerat**.
 
 Sin requisitos propios para el perro. Consideración práctica: **calor extremo y ausencia total de veterinarios** en ~1.100 km. Llevar agua de sobra y botiquín.
 
@@ -338,7 +342,7 @@ Sin requisitos propios para el perro. Consideración práctica: **calor extremo 
 
 ## 3.3 MAURITANIA 🟡
 
-**Entrada terrestre:** ✅ Sí, por **Guerguerat** (ida) y **Rosso / Diama** (hacia Senegal). **[PROBABLE]** — es la única vía posible y no consta prohibición.
+**Entrada terrestre:** ✅ Sí, por **Guerguerat** (con el Sáhara Occidental) y **Rosso / Diama** (con Senegal). **[PROBABLE]** — es la única vía posible y no consta prohibición.
 
 **Papeles:** **[SIN CONFIRMAR]** en fuente oficial; **[PROBABLE]** según fuentes comerciales.
 - No existe fuente oficial mauritana: la web del Ministère de l'Élevage (`elevage.gov.mr`) abre, pero su sección de servicios veterinarios solo tiene noticias.
@@ -362,14 +366,14 @@ Sin requisitos propios para el perro. Consideración práctica: **calor extremo 
 
 **Papeles:** **[CONFIRMADO]** por tres fuentes independientes (USDA-APHIS, Anivetvoyage, PetTravel):
 - **Permiso de importación previo obligatorio**, emitido por la **Direction des Services Vétérinaires (DSV)**, 37 Avenue Pasteur, BP 67, Dakar; **válido 3 meses** desde su emisión (APHIS).
-- **Certificado sanitario** emitido por veterinario autorizado **menos de 72 horas antes de la llegada** y validado por veterinario oficial (Anivetvoyage, verificado 24/01/2026); PetTravel y el modelo británico hablan de examen en las **48 h** previas. Los «21 días» que circulan son la validez del modelo estadounidense, no una norma senegalesa. ⚠️ **Ventana extremadamente corta** — 72 h es muy poco margen para una ruta terrestre. Hay que preguntar expresamente si para vía terrestre se flexibiliza.
+- **Certificado sanitario** emitido por veterinario autorizado **menos de 72 horas antes de la llegada** y validado por veterinario oficial (Anivetvoyage, verificado 24/01/2026); PetTravel y el modelo británico hablan de examen en las **48 h** previas. Los «21 días» que circulan son la validez del modelo estadounidense, no una norma senegalesa. ⚠️ **Ventana extremadamente corta** — 72 h es muy poco margen para un viaje por tierra. Hay que preguntar expresamente si para vía terrestre se flexibiliza.
 - **Rabia:** puesta **más de 1 mes y menos de 12 meses** antes de la salida. ⚠️ **Ojo: "menos de 12 meses"** — si la vacuna del perro es trienal y se puso hace 18 meses, **formalmente no cumple** aunque siga en vigor en la UE.
 - **Titulación de anticuerpos:** ❌ **No exigida** para entrar en Senegal (sí para salir de España hacia Marruecos y para volver a la UE).
 - Identificación electrónica, pasaporte y **tratamiento antiparasitario** obligatorios.
 
 **Contactos reales:** `contacts@elevage.gouv.sn` (buzón general del ministerio; tel. +221 33 859 06 31) · `wadesanou@gmail.com` (secretaría de la DSV) · `dsvmepa@gmail.com` (DSV, según APHIS). La ficha oficial de Senegal Services («Demander l'autorisation d'importer des animaux de compagnie») no se ha podido abrir desde el entorno de verificación: comprobarla a mano.
 
-**Con el perro dentro:** Dakar y la Petite Côte tienen buena oferta de alojamiento tolerante con perros y **veterinarios competentes** (es el mejor punto veterinario de África occidental en la ruta). Parques nacionales (Niokolo-Koba, Djoudj): **prohibido**.
+**Con el perro dentro:** Dakar y la Petite Côte tienen buena oferta de alojamiento tolerante con perros y **veterinarios competentes** (es uno de los mejores puntos veterinarios de África occidental). Parques nacionales (Niokolo-Koba, Djoudj): **prohibido**.
 
 > **⚠️ ALERTA DE PLANIFICACIÓN:** el requisito "rabia puesta hace menos de 12 meses" aparece en **varios países francófonos y en Sudáfrica**. Si el perro lleva vacuna trienal, hay que **revacunar con vacuna anual en España justo antes de salir** (y no en África, ver §4.3). **Es la decisión más rentable del viaje.**
 
@@ -388,10 +392,10 @@ Sin requisitos propios para el perro. Consideración práctica: **calor extremo 
 **Entrada terrestre:** **[SIN CONFIRMAR]** — sin testimonio de cruce con perro. El Code de l'Élevage (Loi L/2018/026/AN, art. 41) somete a control veterinario todo animal vivo que entre *"par voie terrestre, ferroviaire, fluviale, maritime ou aérienne"*: la entrada terrestre está prevista por la ley.
 **Papeles:** **[SIN CONFIRMAR]** en fuente oficial (la web del Ministère de l'Élevage es solo portada); **[PROBABLE]** según Anivetvoyage (verificado 06/04/2024): **microchip, rabia puesta hace menos de 12 meses, certificado de veterinario oficial <72 h antes de la llegada, sin titulación**. El art. 150 del Code prohíbe importar **perros de primera categoría** (razas de ataque). Permiso previo: sin fuente.
 
-Es, junto con Congo-Brazzaville y RD Congo, uno de los **tres agujeros negros documentales** de la ruta.
+Es, junto con Congo-Brazzaville y RD Congo, uno de los **tres agujeros negros documentales** del dosier.
 
 > **A quién escribir:** `contact@elevage.gov.gn` (Ministère de l'Élevage, Almamiya, Conakry); Embajada de Guinea en Madrid/París; Direction Nationale des Services Vétérinaires, BP 559, Conakry.
-> **Plan B:** si no hay respuesta, la alternativa es **Guinea-Bisáu o Malí** para enlazar Senegal con Costa de Marfil, o **Sierra Leona + Liberia**.
+> **Si no hay respuesta:** para enlazar Senegal con Costa de Marfil sin pasar por Guinea quedan **Guinea-Bisáu o Malí**, o **Sierra Leona + Liberia**.
 
 ---
 
@@ -469,7 +473,7 @@ PetTravel afirma que los perros entran *"vía Aeropuerto Internacional Murtala M
 - Procedimiento (nota del servicio veterinario ruso, sin fecha): escribir al CVO (`vpcs@fmard.gov.ng`) con pasaporte veterinario, certificado antirrábico (<1 año) y carta firmada; pagar **5.000 NGN** por Remita; permiso en **3–4 días**. Otras fuentes hablan de hasta 3 meses, o del mismo día en persona en Abuya. El portal `fmard.gov.ng/l_page/vetpermit/` existe pero está caído: probarlo a mano.
 - Certificado sanitario: PetTravel dice **48 h**; el modelo estadounidense 30 días con refrendo en tinta original. **[SIN CONFIRMAR]** la ventana real. Microchip obligatorio; rabia inactivada puesta hace menos de 12 meses.
 
-**Realidad de ventanilla:** Nigeria es el país con burocracia más densa e "informal" de la ruta. **Llevar copias de todo por triplicado** y presupuestar tiempo.
+**Realidad de ventanilla:** Nigeria es, de todos los países con ficha completa, el de burocracia más densa e "informal". **Llevar copias de todo por triplicado** y presupuestar tiempo.
 
 > **A quién escribir:** CVO (`vpcs@fmard.gov.ng`, `info@fmld.gov.ng`) y, para la inspección de llegada, NAQS (`contact@naqs.gov.ng`, +234 807 777 8943). **Es la consulta más urgente de África occidental** junto con Guinea.
 
@@ -488,7 +492,7 @@ PetTravel afirma que los perros entran *"vía Aeropuerto Internacional Murtala M
 **Entrada terrestre:** ✅ Probable (Ekok/Mfum desde Nigeria; Kye-Ossi hacia el sur). **[PROBABLE]**
 **Papeles:** **[SIN CONFIRMAR]** — **MINEPIA** (Ministère de l'Élevage, des Pêches et des Industries Animales) publica una ficha *"Obtention d'une autorisation d'importation... des animaux d'élevage et de compagnie"*, que por título es exactamente el trámite, pero el certificado TLS de su web está roto y no se ha podido abrir (el navegador avisará: comprobarla a mano). PetTravel, en cambio, dice que **no hace falta permiso** para una mascota con dueño y pide rabia puesta al menos 30 días antes. Los «30 días» de validez del certificado son del modelo estadounidense, no una norma camerunesa. Sin email ni teléfono verificables.
 
-**Con el perro dentro:** Yaundé y Duala tienen veterinarios. **Zona de máximo riesgo de tsetse** en el tramo sur/este (ver §7).
+**Con el perro dentro:** Yaundé y Duala tienen veterinarios. **Zona de máximo riesgo de tsetse** en el sur y el este del país (ver §7).
 
 ---
 
@@ -500,12 +504,12 @@ PetTravel afirma que los perros entran *"vía Aeropuerto Internacional Murtala M
 
 **Entrada terrestre:** **[SIN CONFIRMAR]** en ambos. **Agujero negro documental**, también en fuentes de campo: el único precedente localizado con perros (The Pack Track, 2017) cruzó Gabón y Congo por tierra sin contar qué papeles le pidieron, y **evitó la RDC** entrando en Angola por Cabinda.
 
-La ruta principal ya no usa el ferry Brazzaville–Kinshasa: cruza por tierra en **Massabi → Cabinda → Yema**, atraviesa Kongo Central hasta **Lufu/Luvo** y repite el eje a la subida. El ferry queda como contingencia secundaria. Para el perro esto no elimina el problema documental: Congo y RD Congo reciben dos entradas cada uno, y Angola puede registrar cuatro entradas entre Cabinda y el territorio continental.
+Entre Congo y RD Congo hay dos opciones: el ferry Brazzaville–Kinshasa o, por tierra, **Massabi → Cabinda → Yema** y Kongo Central hasta **Lufu/Luvo**. La vía terrestre atraviesa el enclave angoleño de Cabinda, así que suma entradas en Angola: hasta cuatro, entre Cabinda y el territorio continental, si se hace en los dos sentidos. Para el perro, ninguna de las dos opciones elimina el problema documental.
 
 **Papeles:** **[SIN CONFIRMAR]**. Congo: el portal del ministerio está en mantenimiento y la página de la Direction Générale de l'Élevage devuelve 404. RD Congo: el portal del MINASA tiene contacto pero ningún trámite; el control en frontera lo ejerce el **Service de la Quarantaine Animale et Végétale (SQAV)** (decreto 05/161 de 2005, sin contacto propio), y la Direction des Services Vétérinaires depende probablemente del **Ministère de la Pêche et Élevage**, no del MINASA. Fuente comercial (Anivetvoyage) para la RDC: certificado <10 días, rabia >1 mes y <1 año, microchip.
 
 > **A quién escribir:** RDC: `info@agriculture.gouv.cd` (MINASA, +243 828 174 932) **y** Ministère de la Pêche et Élevage; Embajada de RD Congo en Bruselas (`info@ambardc.be`). Congo: Direction Générale de l'Élevage, BP 2453, Brazzaville (reintentar el portal `agriculture.gouv.cg`).
-> **Ésta es la incógnita con mayor potencial de sorpresa desagradable de todo el viaje**, porque además se cruza **dos veces**.
+> **Ésta es la incógnita con mayor potencial de sorpresa desagradable de todo el viaje**, sobre todo si el viaje entra **dos veces** en estos países.
 
 ---
 
@@ -525,7 +529,7 @@ La ruta principal ya no usa el ferry Brazzaville–Kinshasa: cruza por tierra en
 
 **Entrada terrestre:** ✅ Probable. **[PROBABLE]**
 **Papeles:** **[CONFIRMADO]** por el certificado oficial bilateral de la DGAV portuguesa (2023): **licença zoo-sanitária previa** (*"a solicitar pelos interessados"*; el emisor es el **Instituto dos Serviços de Veterinária (ISV)**, autoridad competente), **microchip**, vacuna antirrábica administrada **más de 72 h antes** del embarque, examen clínico acreditado por veterinario clínico, certificado **válido 10 días** y —dato que faltaba— **titulación antirrábica ≥0,5 UI/ml en laboratorio autorizado OIE**, con sangre extraída ≥30 días después de la vacuna. Llevar el resultado original vinculado al microchip. Documentación **en portugués**. Es un modelo Portugal→Angola: confirmar en CEXGAN si España usa el mismo. PetTravel lo contradice en todo (sin permiso, 14 días, sin titulación, «air cargo»): se conserva la oficial. Ninguna página angoleña describe el trámite.
-Angola puede registrar **cuatro entradas** en el itinerario revisado (Cabinda y territorio continental en ambos sentidos): confirmar si la licença zoo-sanitaria cubre varias entradas dentro de su vigencia o si hacen falta hasta cuatro permisos. No presupuestar solo dos sin respuesta escrita.
+Angola puede sumar **varias entradas** si el viaje pasa por Cabinda y por el territorio continental (hasta cuatro, si se hace en los dos sentidos): confirmar si la licença zoo-sanitaria cubre varias entradas dentro de su vigencia o si hace falta un permiso por entrada. No presupuestar menos permisos que entradas sin respuesta escrita.
 
 ---
 
@@ -538,7 +542,7 @@ Angola puede registrar **cuatro entradas** en el itinerario revisado (Cabinda y 
 
 ## 3.15 ZAMBIA 🟡
 
-**Entrada terrestre:** ✅ Sí. **[CONFIRMADO]** — la ruta Kazungula / Nakonde / Chirundu está muy rodada por overlanders.
+**Entrada terrestre:** ✅ Sí. **[CONFIRMADO]** — los pasos de Kazungula, Nakonde y Chirundu están muy rodados por overlanders.
 
 **Papeles:** **[CONFIRMADO]** — portal oficial de comercio de Zambia (Animal Health Act 2010) y Embajada de Zambia en Washington:
 - **Permiso de importación obligatorio**, emitido por el **Department of Veterinary Services, Ministry of Fisheries and Livestock** (la embajada aún lo llama por su nombre antiguo, *Department of Research & Specialist Services / Veterinary & Tsetse Control Services*), **Mulungushi House, Lusaka**. **Válido 6 semanas**; requiere *Letter of No Objection* del Director of Veterinary Services. **Tasa: ZMW 50** por consignación de hasta 2 mascotas.
@@ -628,7 +632,7 @@ Guía de embajadas (Temeke Veterinary Office, Dar es Salaam, texto antiguo): `zo
 **Papeles:** **[CONFIRMADO]** el permiso: la web oficial del ministerio dice *"a licença de importação é emitida pela DINAV"* (**Direcção Nacional de Veterinária**, Praça dos Heróis Moçambicanos, Maputo), más certificado sanitario internacional (modelo británico: válido 7 días, examen en las 48 h previas, rabia entre 30 días y 12 meses). La página no menciona mascotas; el plazo «2–3 semanas» no tiene fuente. Documentación **en portugués**.
 ⚠️ **Razas prohibidas desde abril de 2024:** Pit-bull, Rottweiler, Staffordshire americano, Bull Terrier, Dogo Argentino, Fila Brasileiro, Tosa Inu, San Bernardo, cruces con lobo y otras.
 
-**Con el perro dentro:** Costa mozambiqueña (Tofo, Vilanculos, Pemba) **muy tolerante** con perros: alojamientos de playa, camping, playas abiertas. **Es probablemente el mejor tramo de todo el viaje para el perro.** Parque de Gorongosa: prohibido.
+**Con el perro dentro:** Costa mozambiqueña (Tofo, Vilanculos, Pemba) **muy tolerante** con perros: alojamientos de playa, camping, playas abiertas. **Es probablemente la mejor zona de todo el continente para viajar con perro.** Parque de Gorongosa: prohibido.
 
 ---
 
@@ -670,7 +674,7 @@ Evidencia:
 - **Permiso de importación**, emitido por el **Department of Veterinary Services**.
 - **Cómo:** *"Visit the nearest District Veterinary Office with relevant document and complete an application form"*, o contactar por correo/teléfono.
 - **Requisitos:** cartilla de rabia válida; prueba de que **no hay restricciones de movimiento por rabia en la zona de origen**; **inspección del animal en la oficina** (la página dice literalmente *"before issuance of Export permit"*, errata probable). **Sin analíticas publicadas.**
-- **Plazo: 1 día hábil.** ✅ **El trámite más rápido de toda la ruta.**
+- **Plazo: 1 día hábil.** ✅ **El trámite más rápido de todo el dosier.**
 - **Validez:** no publicada para un perro que llega de fuera de la SADC. **[SIN CONFIRMAR]** — el permiso interterritorial SADC (modelo 2012, para animales ya en SA/Zimbabue/Botsuana/Lesoto/Esuatini) vale **60 días**; el que usó The Pack Track (2017) valía 30 y nombraba un destino.
 
 **Contactos reales:** `DVSpermits@gov.bw` · Tel. +267 3689513 / 3689510 · Call Centre 17755 (L-V 07:30–12:45 y 13:45–16:30) · Department of Veterinary Services, Private Bag 0032, Gaborone
@@ -706,7 +710,7 @@ Evidencia:
 - **Ventana de 7 días para cruzar** tras obtener el sello del veterinario estatal sudafricano.
 - **Plazo de repatriación de 30 días.**
 - Exige **vacunaciones anuales al día, sin saltarse ningún año.**
-- ⚠️ Es el régimen de un perro **residente** en Sudáfrica/Namibia. Si un perro de la UE ya importado a Sudáfrica puede acogerse a él para Namibia, Botsuana, Zimbabue, Lesoto y Esuatini **[SIN CONFIRMAR]** — es la pregunta que más simplificaría el tramo sur (§8).
+- ⚠️ Es el régimen de un perro **residente** en Sudáfrica/Namibia. Si un perro de la UE ya importado a Sudáfrica puede acogerse a él para Namibia, Botsuana, Zimbabue, Lesoto y Esuatini **[SIN CONFIRMAR]** — es la pregunta que más simplificaría el paso por el sur de África (§8).
 
 **Contactos reales:** `vetpermits@dalrrd.gov.za` (vigente, página de contactos de DALRRD) con copia a `VetPermits@daff.gov.za` (heredado) · Tel. +27 12 319 7514 / 7559 · Private Bag X138, Pretoria 0001 · Fax +27 12 329-8292
 
@@ -755,7 +759,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial del pais de salida (examen clinico en los 10 dias previos), sobre el formulario del permiso namibio enviado por mensajeria; CINCO analiticas negativas (Brucella canis, Trypanosoma evansi, Leishmania, Dirofilaria, Babesia) con los metodos que fije el permiso y, segun el modelo estadounidense, hechas en los 30 dias previos; rabia entre 30 dias y 12 meses si es primovacunacion; prevencion de filaria durante 6 meses tras la llegada  
 **Otra fuente:** [van.org.na](https://van.org.na/section.php?secid=52&menuid=52) · [van.org.na](https://www.van.org.na/pdf/Namibian%20Interterritorial%20Movement%20Permit.pdf)  
 
-## 3.23 ALTERNATIVAS
+## 3.23 OTROS PAÍSES CON FRONTERA TERRESTRE
 
 | País | Resumen |
 |---|---|
@@ -768,9 +772,9 @@ Evidencia:
 
 ---
 
-## 3.24 TÚNEZ 🟢 — *fuera de la ruta: solo viaje aparte en ferry*
+## 3.24 TÚNEZ 🟢 — *solo en ferry*
 
-**Entrada:** ⛴️ Solo por mar (ferry a La Goulette desde Génova, Civitavecchia, Salerno, Palermo o Marsella; CTN a Zarzis en verano). No hay conexión terrestre con la ruta 2027: Marruecos–Argelia cerrada desde 1994, Libia inviable.
+**Entrada:** ⛴️ Solo por mar (ferry a La Goulette desde Génova, Civitavecchia, Salerno, Palermo o Marsella; CTN a Zarzis en verano). Desde Marruecos no hay acceso por tierra: la frontera Marruecos–Argelia está cerrada desde 1994, y Libia es inviable.
 **Papeles:** **[CONFIRMADO]** — portal oficial de la Douane Tunisienne (leído el 18/09/2026): *"Les animaux de compagnie doivent être accompagnés de l'original du certificat sanitaire vétérinaire délivré par les services vétérinaires officiels du pays d'origine ainsi que le livret sanitaire de l'animal; l'animal doit avoir été vacciné contre la rage."*
 - Sin permiso previo de importación publicado; sin plazo de validez del certificado publicado (las webs comerciales dicen 10–12 días: **[SIN CONFIRMAR]**).
 - **Razas prohibidas** (cartel de la DGSV): Pit-bull, Rottweiler, Tosa, Mastiff/Boerboel y sus cruces.
@@ -785,7 +789,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario oficial del pais de origen (certificado sanitario veterinario original + libreta/pasaporte del animal); en Espana, certificado CEXGAN por el veterinario colegiado (modelo para Tunez: por confirmar en el buscador de animales de compania del MAPA)  
 **Otra fuente:** [woah.org](https://www.woah.org/fileadmin/Home/eng/About_us/RRData/africa/Delegates/Delegates_en.htm) · [mapa.gob.es](https://www.mapa.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/viajar-perros-gatos-hurones)  
 
-> FUERA DE LA RUTA 2027 (solo viaje aparte en ferry a La Goulette).
+> Acceso solo en ferry, a La Goulette.
 
 ## 3.25 MADAGASCAR 🟡 — *solo alcanzable en avión*
 
@@ -808,7 +812,7 @@ Evidencia:
 
 ## 3.26 MALI 🟡 — *conflicto activo*
 
-**Entrada:** Solo en avión a Bamako-Sénou (BKO): Air France y Corsair desde París, Royal Air Maroc vía Casablanca, Turkish vía Estambul, Tunisair, Ethiopian. Por tierra, el FCDO pide no intentar entrar ni salir por carretera. La ruta 2027 no toca ninguna frontera maliense.
+**Entrada:** Solo en avión a Bamako-Sénou (BKO): Air France y Corsair desde París, Royal Air Maroc vía Casablanca, Turkish vía Estambul, Tunisair, Ethiopian. Por tierra, el FCDO pide no intentar entrar ni salir por carretera.
 **Papeles:** Entrada: microchip, vacuna antirrábica y certificado sanitario oficial de menos de 72 h (Anivetvoyage 2022); autoridad: Direction Nationale des Services Vétérinaires (DNSV), sin web oficial localizable. Vuelta a la UE: Mali NO está en la lista del Reg. (UE) 2026/636 → titulación antirrábica anotada en el pasaporte ANTES de salir de España (vía A, Reg. Delegado 2026/131).
 
 - Entrada (fuente secundaria Anivetvoyage, actualizada 02-11-2022): microchip, pasaporte, vacuna antirrábica en vigor y certificado sanitario internacional emitido por veterinario OFICIAL menos de 72 h antes de la llegada. No hay página oficial maliense accesible que lo confirme.
@@ -862,7 +866,7 @@ Evidencia:
 
 > No se ha localizado ni abierto ninguna web oficial del organismo veterinario sudanés; las búsquedas devuelven referencias a Sudán del Sur o fichas de terceros.
 
-## 3.29 EGIPTO 🟡 — *fuera de la ruta prevista*
+## 3.29 EGIPTO 🟡 — *acceso por tierra difícil*
 
 **Entrada:** Desde Sudán por Argeen/Arqin o Qustul-Ashkeit (corredor humanitario por la guerra); puertos de Alejandría, Safaga y Nuweiba; Taba desde Israel. Libia, cerrada a extranjeros.
 **Papeles:** Entrada con microchip, rabia y certificado veterinario oficial de 14 días. La vuelta a la UE exige TITULACIÓN ANTIRRÁBICA: Egipto no está en las listas del Reglamento (UE) 2026/636.
@@ -881,7 +885,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · 14 días · lo emite: Veterinario colegiado del país de origen, con visado (endoso) de la autoridad veterinaria oficial; en España, los Servicios Veterinarios de Sanidad Exterior del MAPA  
 **Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/egypt-pet-import-requirements/) · [fsis.usda.gov](https://www.fsis.usda.gov/inspection/import-export/import-export-library/egypt)  
 
-## 3.30 ETIOPÍA 🟡 — *fuera de la ruta prevista*
+## 3.30 ETIOPÍA 🟡 — *fronteras terrestres desaconsejadas*
 
 **Entrada:** Avión a Adís Abeba–Bole (ADD, 8,978 N / 38,799 E) o por tierra desde Kenia por Moyale. MAEC desaconseja todas las fronteras terrestres.
 **Papeles:** Permiso previo de importación del Ministerio de Agricultura, microchip ISO y rabia entre 30 días y 12 meses antes (PetTravel). Vuelta a la UE: Etiopía NO está en el Anexo II del Reg. (UE) 2026/636 → titulación antirrábica obligatoria.
@@ -898,7 +902,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario colegiado del país de origen, con endoso recomendado de la autoridad competente (en España, Servicios Veterinarios Oficiales); permiso previo de importación emitido por el Ministerio de Agricultura etíope  
 **Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/ethiopia-pet-import-requirements/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
 
-## 3.31 YIBUTI 🟡 — *fuera de la ruta prevista*
+## 3.31 YIBUTI 🟡
 
 **Entrada:** Por tierra desde Etiopía (Galafi, Dewele/Ali Sabieh, Balho) o desde Somalilandia (Loyada); en avión a Yibuti-Ambouli (JIB); en tren Adís Abeba–Nagad desde el 1 de enero de 2018.
 **Papeles:** SIN REQUISITOS PUBLICADOS por Yibuti. La web del ministerio competente (maepe-rh.dj) existe pero no publica trámite. Vuelta a la UE por vía A: titulación antirrábica hecha en la UE con 3 meses de antelación.
@@ -917,7 +921,7 @@ Evidencia:
 **Certificado sanitario:** sin confirmar · lo emite: por confirmar; en la práctica, certificado veterinario internacional en francés firmado por veterinario oficial del país de salida  
 **Otra fuente:** [aphis.usda.gov](https://www.aphis.usda.gov/live-animal-export/export-live-animals-djibouti) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636&qid=1776938175276)  
 
-## 3.32 ARGELIA 🟡 — *fuera de la ruta prevista*
+## 3.32 ARGELIA 🟡 — *frontera con Marruecos cerrada*
 
 **Entrada:** En ferry desde Almería, Alicante, Valencia o Barcelona a Orán, Argel, Mostaganem o Ghazaouet (Algérie Ferries, Baleària, Naviera Armas), o por tierra desde Túnez. En avión a Argel, Orán, Tamanrasset y Djanet.
 **Papeles:** Se entra con microchip, pasaporte europeo, vacuna antirrábica en vigor y certificado sanitario. Argelia NO figura en las listas del Reglamento (UE) 2026/636, así que la vuelta exige TITULACIÓN DE ANTICUERPOS hecha ANTES de salir de España.
@@ -925,7 +929,7 @@ Evidencia:
 - ENTRADA: según AniVetVoyage (verificado el 23 de julio de 2025), Argelia admite perros con microchip (o tatuaje legible si es anterior al 3 de julio de 2011), pasaporte europeo de animal de compañía, vacuna antirrábica en vigor y certificado sanitario firmado por el veterinario y refrendado por un veterinario oficial antes de salir. NO se ha podido abrir ninguna página oficial argelina que lo confirme.
 - La web de los servicios veterinarios argelinos (psl.madr.gov.dz, Direction des Services Vétérinaires del Ministerio de Agricultura) y la de la Dirección General de Aduanas (douane.gov.dz) NO se abrieron en esta sesión, así que no hay confirmación oficial argelina de nada de esto, ni lista de RAZAS PROHIBIDAS, ni número máximo de animales por viajero: todo eso queda por confirmar con el consulado argelino al pedir el visado.
 - VUELTA A LA UE: comprobado en el Reglamento de Ejecución (UE) 2026/636, de 20 de marzo de 2026, aplicable desde el 22 de abril de 2026: Argelia NO figura en ninguna de sus listas. Los únicos territorios africanos listados son Mauricio, Ascensión y Santa Elena, todos insulares. Por tanto el regreso se rige por el Reglamento Delegado (UE) 2026/131, en vigor desde el 28 de marzo de 2026, que exige TITULACIÓN DE ANTICUERPOS ANTIRRÁBICOS en laboratorio autorizado.
-- HAZ LA TITULACIÓN EN ESPAÑA ANTES DE SALIR (vía A) y que quede anotada en el pasaporte del perro. Si no se hace antes, al volver hay que sacar la muestra en Argelia y esperar TRES MESES fuera de la UE desde la toma. Con dos coches y un calendario cerrado, eso hunde el viaje.
+- HAZ LA TITULACIÓN EN ESPAÑA ANTES DE SALIR (vía A) y que quede anotada en el pasaporte del perro. Si no se hace antes, al volver hay que sacar la muestra en Argelia y esperar TRES MESES fuera de la UE desde la toma. En un viaje con fechas cerradas, eso lo hunde.
 - Si durante la estancia se vacuna o se analiza al animal en Argelia, el pasaporte europeo ya no basta al regresar: hace falta certificado sanitario emitido por la autoridad oficial argelina, válido diez días desde su expedición y hasta cuatro meses para movimientos posteriores dentro de la UE.
 
 ---
@@ -936,7 +940,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Veterinario colegiado español con refrendo de veterinario oficial (Servicios Veterinarios Oficiales de la comunidad autónoma) antes de salir de España  
 **Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/algerie/) · [algerieferries.com](https://algerieferries.com/algerie-ferries/guide-de-passager/animaux)  
 
-## 3.33 LIBIA 🟡 — *fuera de la ruta prevista*
+## 3.33 LIBIA 🟡 — *solo en avión y con tour cerrado*
 
 **Entrada:** Solo en avión y con tour cerrado: Túnez–Mitiga (Libyan Wings, Tunisair) o Roma–Mitiga (ITA). Por tierra, solo Ras Jedir desde Túnez y con trámites muy lentos.
 **Papeles:** Microchip ISO y rabia entre 30 días y 12 meses, con certificado veterinario oficial (PetTravel). NO hemos localizado la web del servicio veterinario nacional libio. De vuelta a la UE: Libia no está en la lista del Reg. (UE) 2026/636, así que titulación antirrábica previa.
@@ -955,7 +959,7 @@ Evidencia:
 
 > Lo que se sabe:
 
-## 3.34 BURKINA FASO 🟡 — *fuera de la ruta prevista*
+## 3.34 BURKINA FASO 🟡 — *conflicto activo*
 
 **Entrada:** Por aire al aeropuerto internacional Thomas Sankara de Uagadugú (OUA), que concentra el 98 % del tráfico comercial del país. Por tierra hay pasos operativos con seis países vecinos, pero los ejes de acceso están en zona de emboscada y minas.
 **Papeles:** Entrada regulada por la autorización de importación de animales del portal oficial service-public.gov.bf (3 a 14 días hábiles, coste variable); el detalle para perros no está publicado. Para volver a la UE, Burkina Faso NO está en la lista del Reglamento (UE) 2026/636: hace falta titulación antirrábica previa.
@@ -972,7 +976,7 @@ Evidencia:
 **Certificado sanitario:** sin confirmar · lo emite: por confirmar  
 **Otra fuente:** [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636) · [travelhealthpro.org.uk](https://travelhealthpro.org.uk/country/37/burkina-faso)  
 
-## 3.35 NÍGER 🟡 — *fuera de la ruta prevista*
+## 3.35 NÍGER 🟡 — *escolta militar obligatoria*
 
 **Entrada:** Solo en avión, al Aeropuerto Internacional Diori Hamani de Niamey (NIM/DRRN). Operan Air Algérie, Ethiopian, Turkish, Royal Air Maroc, ASKY, Air France y otras.
 **Papeles:** Entrada con microchip, rabia de más de 1 mes y menos de 1 año y certificado sanitario internacional de menos de 10 días (AniVetVoyage). Sin web oficial nigerina localizable: POR CONFIRMAR.
@@ -991,7 +995,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial / veterinario habilitado del país de origen, certificado sanitario internacional  
 **Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/niger/) · [travelhealthpro.org.uk](https://travelhealthpro.org.uk/country/164/niger)  
 
-## 3.36 CHAD 🟡 — *fuera de la ruta prevista*
+## 3.36 CHAD 🟡 — *acceso difícil*
 
 **Entrada:** En avión a Yamena-Hassan Djamous (NDJ), único aeropuerto internacional, con París, Estambul, Adís Abeba, El Cairo, Duala, Abuya y Niamey. Por tierra, el paso realista es el puente Kousséri-Yamena desde Camerún.
 **Papeles:** Entrada con microchip, pasaporte, rabia en vigor y certificado sanitario internacional de menos de 72 horas. NO hay página oficial del servicio veterinario chadiano verificada. Para volver a la UE hace falta titulación antirrábica previa.
@@ -1010,7 +1014,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · 3 días · lo emite: Veterinario colegiado con visado del veterinario oficial (Servicios Veterinarios Oficiales de la comunidad autónoma, vía CEXGAN) — según anivetvoyage.com, no confirmado por fuente chadiana  
 **Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/pays/tchad/) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
 
-## 3.37 REPÚBLICA CENTROAFRICANA 🟡 — *fuera de la ruta prevista*
+## 3.37 REPÚBLICA CENTROAFRICANA 🟡 — *acceso difícil*
 
 **Entrada:** En avión a Bangui M'Poko (BGF): Ethiopian, ASKY, Royal Air Maroc, RwandAir, AfriJet. Por tierra, el eje real es Duala–Garoua-Boulaï/Béloko–Bangui, por donde pasa el 80 % de las importaciones. Al suroeste turístico (Bayanga), chárter de 50 min desde Bangui, 500 km de pista, o barco por el río Sangha desde Congo y Camerún.
 **Papeles:** Entrada con microchip, vacuna antirrábica de más de 2 semanas y menos de 6 meses y certificado sanitario internacional de menos de 72 horas. No hay página oficial nacional verificada; dato de fuente veterinaria secundaria.
@@ -1029,16 +1033,16 @@ Evidencia:
 
 > No se ha localizado en esta sesión ninguna página oficial del servicio veterinario nacional de la República Centroafricana ni portal de trámites del Ministerio de Agricultura accesible.
 
-## 3.38 SUDÁN DEL SUR 🟡 — *fuera de la ruta prevista*
+## 3.38 SUDÁN DEL SUR 🟡 — *acceso difícil*
 
 **Entrada:** En la práctica, en avión a Yuba (JUB) desde Nairobi, Adís Abeba, El Cairo o Dubái. Por tierra, solo el corredor Uganda–Nimule tiene tráfico civil normal.
 **Papeles:** Rabia entre 30 días y 12 meses antes, certificado veterinario emitido dentro de los 10 días previos y refrendado por veterinario oficial; entrada de mascotas por el aeropuerto de Yuba (PetTravel). Sin web oficial nacional localizada.
 
 - NO se ha localizado ninguna página oficial nacional del servicio veterinario de Sudán del Sur que publique los requisitos de entrada de animales de compañía. Lo que sigue procede de PetTravel.com, una fuente comercial, no gubernamental: tratar como orientativo y confirmar por vía consular antes de cualquier movimiento.
 - Requisitos recogidos por PetTravel: vacuna antirrábica administrada entre 30 días y 12 meses antes de la entrada (no se aceptan vacunas plurianuales salvo que se hayan puesto dentro de los 12 meses previos); certificado veterinario cumplimentado por veterinario colegiado dentro de los 10 días anteriores a la entrada y emitido o refrendado por un veterinario oficial del país de origen.
-- Microchip ISO 11784 de 15 dígitos: recomendado, no obligatorio según esa misma fuente. Para la expedición es obligatorio de facto, porque el regreso a la UE lo exige.
+- Microchip ISO 11784 de 15 dígitos: recomendado, no obligatorio según esa misma fuente. Para quien viaja desde la UE es obligatorio de facto, porque el regreso a la UE lo exige.
 - Permiso de importación previo: PetTravel afirma que NO se exige para mascotas que entran acompañadas de su dueño. Razas prohibidas: Sudán del Sur no publica lista. Cuarentena: se exime si se cumple todo; si no, cuarentena, devolución o eutanasia a costa del propietario.
-- TODAS las mascotas deben entrar por el Aeropuerto Internacional de Yuba según PetTravel. No hay ninguna fuente que describa la entrada de un perro por el paso terrestre de Nimule: para la expedición, que viaja por carretera, esto es un bloqueo en sí mismo.
+- TODAS las mascotas deben entrar por el Aeropuerto Internacional de Yuba según PetTravel. No hay ninguna fuente que describa la entrada de un perro por el paso terrestre de Nimule: para un viaje por carretera, esto es un bloqueo en sí mismo.
 
 ---
 
@@ -1047,12 +1051,12 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario colegiado del país de origen, emitido o refrendado por un veterinario oficial (en España, servicios veterinarios oficiales de la comunidad autónoma / MAPA)  
 **Otra fuente:** [pettravel.com](https://www.pettravel.com/information/pet-passports/south-sudan-pet-import-requirements/) · [exteriores.gob.es](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Sud%C3%A1n%20del%20Sur)  
 
-## 3.39 ERITREA 🟡 — *fuera de la ruta prevista*
+## 3.39 ERITREA 🟡 — *solo en avión*
 
 **Entrada:** SOLO EN AVIÓN, al Aeropuerto Internacional de Asmara (ASM). Vuelan EgyptAir (El Cairo), Turkish (Estambul), flydubai (Dubái), flynas (Yeda) y Tarco (Port Sudan); Etihad anuncia Abu Dabi desde noviembre de 2026.
-**Papeles:** Sin normativa nacional de importación localizable en fuente oficial. Con las fronteras cerradas y acceso solo aéreo, el perro NO entra en el plan.
+**Papeles:** Sin normativa nacional de importación localizable en fuente oficial. Con las fronteras cerradas y acceso solo aéreo, llevar al perro no es viable.
 
-- EL PERRO NO VIENE. Con las fronteras terrestres cerradas y entrada solo aérea, meter al perro en Eritrea exigiría vuelo en bodega desde El Cairo, Estambul o Dubái: desproporcionado para un país que está fuera de ruta y donde ni siquiera se puede circular sin permiso.
+- NO LLEVES AL PERRO. Con las fronteras terrestres cerradas y entrada solo aérea, meter al perro en Eritrea exigiría vuelo en bodega desde El Cairo, Estambul o Dubái: desproporcionado para un país al que no se puede entrar por tierra y donde ni siquiera se puede circular sin permiso.
 - NO SE HA LOCALIZADO NORMATIVA NACIONAL de importación de animales de compañía. El Ministerio de Agricultura eritreo y sus servicios veterinarios no tienen portal de trámites accesible en esta sesión: requisitos POR CONFIRMAR.
 - Tampoco consta lista de razas prohibidas ni exigencia publicada de permiso previo de importación. Ausencia de fuente no es ausencia de requisito: sin requisitos por escrito de la embajada eritrea, el perro no se mueve.
 - RABIA PRESENTE en animales domésticos según TravelHealthPro: cualquier mordedura o lametón sobre herida obliga a buscar profilaxis posexposición inmediata, que en Eritrea puede no estar disponible y obligaría a evacuar.
@@ -1068,7 +1072,7 @@ Evidencia:
 
 > No se ha localizado ninguna página oficial nacional eritrea de servicios veterinarios ni portal de trámites de importación de animales de compañía:
 
-## 3.40 SOMALIA 🟡 — *fuera de la ruta prevista*
+## 3.40 SOMALIA 🟡 — *viaje desaconsejado*
 
 **Entrada:** En la práctica solo en avión: Aden Adde (Mogadiscio) o Egal (Hargeisa). Por tierra, únicamente Tog Wajaale desde Etiopía.
 **Papeles:** Sin trámite oficial publicado. Vuelta a la UE: Somalia NO figura en el Reglamento (UE) 2026/636 → titulación antirrábica previa obligatoria.
@@ -1087,7 +1091,7 @@ Evidencia:
 **Certificado sanitario:** sin confirmar · lo emite: por confirmar  
 **Otra fuente:** [en.wikipedia.org](https://en.wikipedia.org/wiki/Ministry_of_Livestock_(Somaliland)) · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=OJ%3AL_202600636)  
 
-## 3.41 GUINEA ECUATORIAL 🟡 — *fuera de la ruta prevista*
+## 3.41 GUINEA ECUATORIAL 🟡 — *fronteras terrestres cerradas*
 
 **Entrada:** En la práctica solo por aire o mar: aeropuertos de Malabo (SSG, isla de Bioko) y Bata (BSG, continente), y ferry Malabo–Bata. Bioko y Annobón no tienen acceso por carretera.
 **Papeles:** Microchip ISO, rabia en vigor y certificado veterinario oficial (CEXGAN, modelo ASE-3505, válido 10 días). Entrada de animales por el aeropuerto de Malabo.
@@ -1106,7 +1110,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial de los servicios veterinarios del país de origen. Desde España, certificado tramitado por CEXGAN con el modelo ASE-3505 específico de Guinea Ecuatorial y visado por el Servicio de Sanidad Animal de la comunidad autónoma.  
 **Otra fuente:** [handervet.com](https://handervet.com/certificados/viajar-perro-gato-guinea-ecuatorial-cexgan/) · [pettravel.com](https://www.pettravel.com/information/pet-passports/equatorial-guinea-pet-import-requirements/)  
 
-## 3.42 CABO VERDE 🟡 — *fuera de la ruta prevista*
+## 3.42 CABO VERDE 🟡 — *solo en avión*
 
 **Entrada:** Vuelo a Sal (SID), Praia (RAI), Boa Vista (BVC) o São Vicente/Mindelo (VXE) desde Lisboa, Madrid, Las Palmas y varias ciudades europeas. Entre islas, CV Interilhas, Nôs Ferry y vuelos domésticos; el salto Mindelo–Porto Novo cuesta 1.500 CVE (unos 13,60 €) por pasajero no residente.
 **Papeles:** Entrada con certificado veterinario oficial, microchip, rabia y serología ≥0,5 UI/ml; certificado válido 10 días. VUELTA A LA UE: Cabo Verde NO está en el anexo II del Reg. (UE) 2026/636, así que hace falta titulación antirrábica previa anotada en el pasaporte.
@@ -1125,7 +1129,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · 10 días · lo emite: Veterinario oficial del país de origen (en España, Servicios Veterinarios Oficiales del MAPA / comunidad autónoma), sobre modelo OIE/WOAH; visado previo por la representación consular de Cabo Verde  
 **Otra fuente:** [dgav.pt](https://www.dgav.pt/wp-content/uploads/2021/04/CERTIFICACAO-SANITARIA-CABO-VERDE-CAES-E-GATOS.pdf) · [embcv.org.br](http://www.embcv.org.br/portal/viagem-com-animais/)  
 
-## 3.43 SANTO TOMÉ Y PRÍNCIPE 🟡 — *fuera de la ruta prevista*
+## 3.43 SANTO TOMÉ Y PRÍNCIPE 🟡 — *solo en avión*
 
 **Entrada:** SOLO EN AVIÓN. São Tomé (TMS): TAP (Lisboa, Accra), STP Airways (Lisboa), TAAG (Luanda), ASKY (Libreville, Lomé), Afrijet (Libreville). A Príncipe (PCP), avioneta de 20–70 plazas o el barco Olivia C.
 **Papeles:** Entrada: requisitos nacionales NO publicados en ninguna web oficial accesible (por confirmar). Vuelta a la UE: el país NO figura en el Reg. de Ejecución (UE) 2026/636 → TITULACIÓN ANTIRRÁBICA ≥0,5 UI/ml, mejor hecha en España y anotada en el pasaporte antes de salir.
@@ -1144,7 +1148,7 @@ Evidencia:
 **Certificado sanitario:** sin confirmar · lo emite: Por confirmar. Presumiblemente veterinario oficial del país de origen; en España, certificado tramitado por CEXGAN del MAPA.  
 **Otra fuente:** [stp.gov.st](https://stp.gov.st/ministerios_detail?id=usz5fq60yyepysg5dz680aja) · [exteriores.gob.es](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Santo%20Tom%C3%A9%20y%20Pr%C3%ADncipe)  
 
-## 3.44 COMORAS 🟡 — *fuera de la ruta prevista*
+## 3.44 COMORAS 🟡 — *solo en avión*
 
 **Entrada:** Solo en avión: aeropuerto Príncipe Said Ibrahim (HAH/FMCH), Hahaya, a 15 km de Moroni. Ethiopian (Adís Abeba), Kenya Airways (Nairobi), Air Tanzania y Precision Air (Dar es Salam), Air Austral (Reunión), Ewa Air (Dzaoudzi) y Turkish (Estambul, estacional).
 **Papeles:** Entrada: microchip, pasaporte, antirrábica en vigor y certificado sanitario internacional emitido MENOS DE 72 HORAS antes de llegar. Sin fuente oficial comorense localizada. Para volver a la UE hace falta titulación antirrábica.
@@ -1165,7 +1169,7 @@ Evidencia:
 
 > No existe ninguna página oficial comorense accesible que publique los requisitos de entrada de perros: ni el MAEC, ni el FCDO, ni Canadá los mencionan.
 
-## 3.45 SEYCHELLES 🟡 — *fuera de la ruta prevista*
+## 3.45 SEYCHELLES 🟡 — *solo en avión*
 
 **Entrada:** Solo en avión al aeropuerto de Mahé (SEZ), a 11 km de Victoria. Emirates, Qatar, Etihad, Turkish, Ethiopian, Kenya Airways, Air France y Condor.
 **Papeles:** MUY RESTRICTIVO. Permiso de importación previo, cuarentena obligatoria y no se admiten mascotas para estancias cortas. En la práctica, inviable.
@@ -1184,7 +1188,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Autoridad veterinaria oficial del país exportador: certificado veterinario original, en inglés o francés, fechado, firmado y sellado, previo permiso de importación de biosseguridad emitido en Victoria  
 **Otra fuente:** [anivetvoyage.com](https://anivetvoyage.com/wp-content/uploads/2022/04/Veterinary-Import-Conditions-for-Cats-and-Dogs1.pdf) · [noonsite.com](https://www.noonsite.com/place/seychelles/view/pets/)  
 
-## 3.46 MAURICIO 🟡 — *fuera de la ruta prevista*
+## 3.46 MAURICIO 🟡 — *solo en avión*
 
 **Entrada:** Solo en avión: Aeropuerto Internacional Sir Seewoosagur Ramgoolam (MRU), en Plaine Magnien, a 48 km al sureste de Port Louis. Port Louis es el ÚNICO puerto de entrada oficial del país.
 **Papeles:** ENTRADA DURA: permiso previo con 3 meses de antelación, titulación antirrábica ≥0,5 UI/ml con 3 meses de espera, Ehrlichia y Brucella negativos, viaje como carga y CUARENTENA MÍNIMA DE 5 DÍAS en Réduit. VUELTA A LA UE FÁCIL: Mauricio está en el Anexo II del Reglamento de Ejecución (UE) 2026/636 y NO exige la titulación previa hecha en la UE.
@@ -1203,7 +1207,7 @@ Evidencia:
 **Certificado sanitario:** ✅ Sí · *validez sin publicar* · lo emite: Para la ENTRADA, veterinario oficial de la autoridad competente del país exportador (International Veterinary Certificate). Para la VUELTA A LA UE, veterinario oficial de la Livestock and Veterinary Division mauriciana, en el modelo del Reglamento de Ejecución (UE) 2026/705, salvo que se use el pasaporte europeo con el que el animal salió.  
 **Otra fuente:** [sps.govmu.org](https://sps.govmu.org/wp-content/uploads/2022/12/2022-GUIDELINES-TO-BRING-DOGS-TO-MAURITIUS.pdf) · [sps.govmu.org](https://sps.govmu.org/wp-content/uploads/2025/05/APPLICATION-FORM-Pet-animals-Dog-Cat-others.pdf)  
 
-## 3.47 BURUNDI 🟡 — *fuera de la ruta prevista*
+## 3.47 BURUNDI 🟡 — *frontera con Ruanda cerrada*
 
 **Entrada:** 
 **Papeles:** Entrada con microchip ISO, rabia al menos 30 días antes, certificado sanitario endosado y permiso de importación del Ministerio de Medio Ambiente, Agricultura y Ganadería (PetTravel). Punto de entrada citado: aeropuerto de Buyumbura. Entrada por tierra con perro, POR CONFIRMAR.
@@ -1236,7 +1240,7 @@ El perro **sale** de la UE con pasaporte europeo y vuelve tras meses en terceros
 | | **Vía A — con el pasaporte** (por defecto) | **Vía B — con certificado** (solo si falla la A) |
 |---|---|---|
 | **Cuándo aplica** | Perro que reside en la UE y vuelve de un tercer país, si en el pasaporte consta, **anotado antes de salir**: rabia puesta en la UE y **aún válida al volver** + titulación ≥0,5 UI/ml favorable (art. 20(b) del Reg. 2026/131). | Si la rabia caducó en ruta, si se revacunó fuera de la UE, o si la titulación no estaba anotada antes de salir. |
-| **Qué se presenta** | **Solo el pasaporte** (llevar también el certificado original de la titulación). | Certificado zoosanitario UE (modelo Reg. 2026/705 anexo III) de veterinario oficial marroquí, o autorizado y refrendado por ONSSA, **válido 10 días**; declaración escrita de movimiento no comercial. |
+| **Qué se presenta** | **Solo el pasaporte** (llevar también el certificado original de la titulación). | Certificado zoosanitario UE (modelo Reg. 2026/705 anexo III) de veterinario oficial del último país antes de la UE, o autorizado y refrendado por su autoridad competente (en Marruecos, ONSSA), **válido 10 días**; declaración escrita de movimiento no comercial. |
 | **Los 90 días** | **No se aplican.** Texto de la Comisión: *"The 90 day period shall not apply to the re-entry of a pet animal residing habitually in the EU whose passport certifies that the test was carried out and documented, with a favourable result, before the animal left the EU."* | No se aplican si la titulación consta en el pasaporte antes de salir; **sí** si hubo que rehacerla en África. |
 | **Punto de entrada** | Punto de Entrada de Viajeros: **Algeciras y Tarifa** (puerto, todas las categorías; servicio en Muelle Juan Carlos I s/n, Algeciras); también Ceuta-El Tarajal por tierra. | Igual. |
 
@@ -1261,19 +1265,19 @@ Texto de la Comisión: *"The test does not have to be renewed following a satisf
 
 ```
 Rabia puesta en España antes de salir y válida al volver  →  vuelta con el PASAPORTE, sin certificado ni 90 días
-Rabia revacunada en África (dentro de validez)           →  titulación válida, pero vuelta por la vía B (certificado ONSSA)
+Rabia revacunada en África (dentro de validez)           →  titulación válida, pero vuelta por la vía B (certificado oficial)
 Rabia caducada aunque sea UN DÍA                          →  titulación MUERTA
                                                           →  revacunar + 30 días + sangre + Onderstepoort + ESPERAR 90 DÍAS + vía B
 ```
 
-**Cuatro meses varados en África.** Éste es el fallo de planificación más caro posible y el más fácil de evitar: **revacunar en España en diciembre de 2026** con vacuna anual y no tocar la rabia en ruta.
+**Cuatro meses varados en África.** Éste es el fallo de planificación más caro posible y el más fácil de evitar: **revacunar en España el mes antes de salir** con vacuna anual y no tocar la rabia en ruta.
 
 - Laboratorios aprobados por la UE en África: **[CONFIRMADO]** solo **ARC-Onderstepoort Veterinary Institute (Sudáfrica)**, aprobación del 24/05/2024 sin fecha de caducidad (contacto publicado por la Comisión: OieRabLab@arc.agric.za). Marruecos (ONSSA), Túnez y Egipto tuvieron laboratorios aprobados que **caducaron** (2018, 2024, 2016). Ninguno en Kenia.
 - Si hay que rehacer la titulación en ruta, **hacerlo en Sudáfrica**, no en África occidental.
 
-## 4.4 Plan B: el certificado en el último país (Marruecos)
+## 4.4 Plan B: el certificado en el último país antes de la UE (ejemplo: Marruecos)
 
-Solo si falla la vía A. El certificado UE debe emitirlo un **veterinario oficial** o refrendarlo la **autoridad competente** del país de salida; en la ruta de vuelta el último país africano es **Marruecos**.
+Solo si falla la vía A. El certificado UE debe emitirlo un **veterinario oficial** o refrendarlo la **autoridad competente** del país de salida; si el viaje regresa por el Estrecho, el último país africano es **Marruecos**.
 
 - **[PROBABLE]** ONSSA publica un procedimiento de *"Exportation de chiens, chats ou de furets vers l'UE"* (PDF de 2024, indexado, no abierto desde el entorno de verificación) y tuvo laboratorio de titulación aprobado por la UE hasta 2018: tiene la capacidad formal.
 - **[SIN CONFIRMAR]** El **plazo real**, la **oficina** (Tánger) y si exige cita previa. No se ha localizado ningún testimonio de un viajero obteniendo ese certificado en Marruecos; el único relato de vuelta Tánger Med → Algeciras con perros pasó **con pasaporte y titulación**, sin certificado.
@@ -1290,9 +1294,9 @@ Solo si falla la vía A. El certificado UE debe emitirlo un **veterinario oficia
 
 Lo que **sí** hay que cerrar en Europa es lo **irreversible**: serologías, rabia (revacunación anual **antes de salir**), titulación y la confirmación escrita de que la entrada terrestre es viable.
 
-## 5.2 Cuenta atrás desde la salida (enero 2027)
+## 5.2 Cuenta atrás desde la fecha de salida
 
-### T −12 meses (enero 2026) — LO IRREVERSIBLE
+### T −12 meses — LO IRREVERSIBLE
 
 | Acción | Por qué ahora |
 |---|---|
@@ -1300,7 +1304,7 @@ Lo que **sí** hay que cerrar en Europa es lo **irreversible**: serologías, rab
 | Auditar la **fecha de caducidad de la rabia** y fijar la **revacunación anual en España justo antes de salir** | La titulación UE y la vuelta con solo el pasaporte viven o mueren con esto (§4.3) |
 | Verificar que la **titulación** se hizo en laboratorio **aprobado por la UE**, que está **anotada en el pasaporte** y que hay **certificado original en papel** | Si no lo es, hay que rehacerla ya. La exigen además Marruecos (ASE-3131) y Angola |
 
-### T −10 meses (marzo 2026) — LAS CARTAS QUE DESBLOQUEAN LA RUTA
+### T −10 meses — LAS CARTAS QUE DESBLOQUEAN EL VIAJE
 
 Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escrito**:
 
@@ -1311,14 +1315,14 @@ Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escri
 3. **Namibia** → `vet.permits@mawlr.gov.na`
    *"¿Se aceptan analíticas realizadas en Onderstepoort (Sudáfrica) durante el viaje, y qué test de T. evansi usan? ¿Puede enviarse el permiso por correo electrónico en lugar de mensajería? Un perro de la UE ya importado legalmente a Sudáfrica, ¿puede entrar con el Inter-Territorial Movement Permit?"*
 4. **Sudáfrica** → `vetpermits@dalrrd.gov.za` (cc `VetPermits@daff.gov.za`), tel. +27 12 319 7514
-   *"Confirmación del certificado IMP.DOG.GEN vigente y de la ventana de 30 días para un perro procedente de la UE que lleva 6 meses en África. Tasa actual. ¿Puede el perro moverse después por la SACU con el permiso interterritorial?"*
+   *"Confirmación del certificado IMP.DOG.GEN vigente y de la ventana de 30 días para un perro procedente de la UE que lleva meses en África. Tasa actual. ¿Puede el perro moverse después por la SACU con el permiso interterritorial?"*
 5. **Senegal** → `contacts@elevage.gouv.sn`, `wadesanou@gmail.com`, `dsvmepa@gmail.com`
    *"¿La ventana de 72 h del certificado sanitario se aplica igual en entrada terrestre? Plazo de emisión del permiso."*
 6. **Nigeria** → CVO (`vpcs@fmard.gov.ng`, `info@fmld.gov.ng`) · **Camerún** → MINEPIA (permiso previo sí/no) · **Guinea** → `contact@elevage.gov.gn` · **RD Congo** → `info@agriculture.gouv.cd` y Ministère de la Pêche et Élevage · **Congo-Brazzaville** → DG de l'Élevage. Escribir a ministerios **y** a sus embajadas en Madrid/París/Bruselas en paralelo.
 
-> **Regla:** si a los **60 días** no hay respuesta de Guinea / RD Congo / Congo, activar plan B de ruta.
+> **Regla:** si a los **60 días** no hay respuesta de Guinea / RD Congo / Congo, replantear el paso por esos países.
 
-### T −6 meses (julio 2026) — SANIDAD
+### T −6 meses — SANIDAD
 
 - Cuadro completo **DHLPP**: moquillo, hepatitis, leptospirosis, parvovirus, parainfluenza. **Tanzania las recomienda; Uganda las lista.**
 - Tos de las perreras (residencias caninas la piden para admitirlo).
@@ -1326,7 +1330,7 @@ Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escri
 - Chequeo general: analítica sanguínea, ecografía cardíaca (si es raza predispuesta), revisión dental.
 - **Vacuna de leishmania:** valorarla con el veterinario. Solo existe **LetiFend** (CaniLeish fue retirada en la UE en 2023); el fabricante la presenta como DIVA, sin interferencia serológica. Preguntar igualmente a Namibia/Sudáfrica qué test usan antes de ponerla.
 
-### T −3 meses (octubre 2026) — DOCUMENTACIÓN Y EQUIPO
+### T −3 meses — DOCUMENTACIÓN Y EQUIPO
 
 - **Dosier físico por triplicado**, repartido en los tres vehículos + copia en la nube:
   pasaporte UE · certificado de titulación **original** · historial vacunal completo · serologías · certificados de desparasitación · 10 fotos del perro con el microchip legible · traducción jurada al **francés**, **inglés** y **portugués** del historial sanitario.
@@ -1334,17 +1338,19 @@ Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escri
 - Botiquín canino (§7.5). Los fármacos clave **no se compran en ruta**.
 - Abrir a mano las páginas oficiales que no se han podido verificar desde aquí: ONSSA (Marruecos), Senegal Services, MINEPIA (Camerún), vsd.gov.gh/255-2/ (Ghana), fmard.gov.ng/l_page/vetpermit/ (Nigeria), mawlr.gov.na (Namibia).
 
-### T −1 mes (diciembre 2026)
+### T −1 mes
 
-- **Revacunación antirrábica anual en España** (dentro de validez de la anterior — **no dejar que caduque**), con validez que cubra hasta después de agosto de 2027. Anotarla en el pasaporte.
+- **Revacunación antirrábica anual en España** (dentro de validez de la anterior — **no dejar que caduque**), con validez que cubra hasta después de la fecha de regreso prevista. Anotarla en el pasaporte.
 - Certificado **ASE-3131** para Marruecos por CEXGAN, con examen clínico **en las 24 h previas al ferry**.
-- Solicitar por adelantado lo que admita tramitación remota: **Senegal** (DSV Dakar, admite gestión previa; el permiso vale 3 meses), **Ghana** (VSD Accra).
+- Solicitar por adelantado lo que admita tramitación remota para los primeros países del viaje; por ejemplo, **Senegal** (DSV Dakar, admite gestión previa; el permiso vale 3 meses), **Ghana** (VSD Accra).
 
-## 5.3 Trámites en ruta — el mapa real
+## 5.3 Trámites durante el viaje: desde dónde pedir cada permiso
 
-| Tramo | Dónde se tramita el siguiente permiso | Antelación |
+*Ejemplos de desde qué país vecino se puede pedir cada permiso. Adáptalo al orden de tu viaje: lo que manda es pedir cada permiso desde el país anterior con la antelación indicada.*
+
+| Si estás en… | Permiso que puedes pedir desde ahí | Antelación |
 |---|---|---|
-| Marruecos → Mauritania → Senegal | Senegal desde España (DSV Dakar admite contacto previo) | −1 mes |
+| España / Marruecos / Mauritania | Senegal (la DSV de Dakar admite contacto previo, también desde España) | 1 mes |
 | Senegal | Guinea / Costa de Marfil desde **Dakar** (Costa de Marfil: por correo a la DSV) | 2–3 sem |
 | Costa de Marfil | Ghana, Togo, Benín desde **Abiyán** | 2–4 sem |
 | Ghana/Benín | **Nigeria** desde **Accra o Cotonú** — el más incierto de África occidental (de 3–4 días a 3 meses según fuente) | 4 sem |
@@ -1358,9 +1364,9 @@ Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escri
 | Mozambique | Zimbabue + Botsuana desde **Maputo/Harare** | 2 sem |
 | Botsuana | Sudáfrica desde **Gaborone** ⚠️ **4 semanas** y **analíticas en los 30 días previos** | 4 sem |
 | Sudáfrica | Namibia desde **Pretoria/Ciudad del Cabo** ⚠️ analíticas (o permiso interterritorial, si lo admiten) | 4 sem |
-| Namibia | **Segunda vuelta:** Angola desde **Windhoek** | 4 sem |
-| Vuelta África occidental | Repetir toda la cadena: **~14 permisos más** | — |
-| **Marruecos final** | **Nada, por la vía A** (pasaporte). Solo si falla: certificado UE de ONSSA, válido 10 días | — |
+| Namibia | Angola desde **Windhoek** | 4 sem |
+| Cualquier país en el que se entre por segunda vez | **Un permiso nuevo**, pedido igual que el primero (§2.2) | — |
+| **Último país antes de la UE** (p. ej. Marruecos) | **Nada, por la vía A** (pasaporte). Solo si falla: certificado UE oficial (en Marruecos, de ONSSA), válido 10 días | — |
 
 ## 5.4 Dónde tramitar lo médico: los dos hospitales base
 
@@ -1369,7 +1375,7 @@ Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escri
 | **Nairobi (Kenia)** | Analíticas, residencia canina fiable durante los safaris de Kenia y Tanzania. Clínicas de estándar occidental. **No** para revacunar de rabia (rompería la vuelta con el pasaporte, §4.3). |
 | **Pretoria / Johannesburgo (Sudáfrica)** | **ARC-Onderstepoort Veterinary Institute**: laboratorio de referencia continental y único aprobado por la UE en África. Las **cinco analíticas** (ventana de 30 días) para Sudáfrica y Namibia; **rehacer la titulación antirrábica** si hiciera falta. Oficina veterinaria estatal donde **entregar permisos en mano acelera el trámite**. |
 
-> **Si hay que rehacer la titulación, hay que hacerlo en Sudáfrica y contar 90 días de espera más el certificado de la vía B.** Planificar el calendario de modo que Sudáfrica quede **al menos 4 meses antes** del regreso previsto a Europa. Con la ruta actual (Sudáfrica/Namibia hacia la mitad del viaje, vuelta en agosto), ese colchón **existe**. Es una de las pocas cosas que la ruta ya hace bien sin saberlo.
+> **Si hay que rehacer la titulación, hay que hacerlo en Sudáfrica y contar 90 días de espera más el certificado de la vía B.** Planificar el calendario de modo que Sudáfrica quede **al menos 4 meses antes** del regreso previsto a Europa. Si tu viaje pasa por Sudáfrica en los últimos meses, ese colchón **no existe**: tenlo en cuenta al ordenar el recorrido.
 
 ---
 
@@ -1410,16 +1416,16 @@ Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escri
 | País | A quién buscar | Prioridad |
 |---|---|---|
 | **Guinea** | Direction Nationale des Services Vétérinaires, BP 559, Conakry + Embajada en Madrid/París (solo hay buzón general del ministerio) | 🔴 **Máxima** |
-| **RD Congo** | Direction des Services Vétérinaires (Ministère de la Pêche et Élevage), Kinshasa + SQAV | 🔴 **Máxima** (se cruza 2 veces) |
-| **Congo-Brazzaville** | Direction Générale de l'Élevage, BP 2453, Brazzaville (portal en mantenimiento) | 🔴 **Máxima** (se cruza 2 veces) |
+| **RD Congo** | Direction des Services Vétérinaires (Ministère de la Pêche et Élevage), Kinshasa + SQAV | 🔴 **Máxima** (cero fuentes oficiales) |
+| **Congo-Brazzaville** | Direction Générale de l'Élevage, BP 2453, Brazzaville (portal en mantenimiento) | 🔴 **Máxima** (cero fuentes oficiales) |
 | **Nigeria** | CVO / FMLD: confirmar buzón y tasa vigentes; portal fmard.gov.ng/l_page/vetpermit/ | 🟠 Alta |
 | **Camerún** | MINEPIA, Yaundé: permiso previo sí/no (ficha con TLS roto) | 🟠 Alta |
 | **Mauritania** | Direction des Services Vétérinaires, Nuakchot (solo formulario web) | 🟠 Alta |
-| **Angola** | Instituto dos Serviços de Veterinária (ISV), Luanda: contacto directo y modelo español | 🟠 Alta (2 cruces) |
+| **Angola** | Instituto dos Serviços de Veterinária (ISV), Luanda: contacto directo y modelo español | 🟠 Alta (varias entradas si se pasa por Cabinda) |
 | **Kenia** | DVS Kabete, Nairobi: email; Embajada de Kenia en Madrid: tasa | 🟡 Media |
 | **Zimbabue** | Directorate of Veterinary Services, Harare: numeración actual | 🟡 Media |
 | **Togo / Benín** | Directions de l'Élevage (Lomé, Cotonú): sin contacto electrónico | 🟡 Media |
-| **Sierra Leona** | Livestock and Veterinary Services Division, MAFS: nada publicado | 🟡 Media (alternativa) |
+| **Sierra Leona** | Livestock and Veterinary Services Division, MAFS: nada publicado | 🟡 Media |
 
 ## 6.3 Comunidades donde preguntar (testimonio de campo)
 
@@ -1435,7 +1441,7 @@ Enviar **simultáneamente**, en inglés/francés, pidiendo **respuesta por escri
 
 ---
 
-# 7. Salud del perro en la ruta
+# 7. Salud del perro durante el viaje
 
 ## 7.1 TRIPANOSOMIASIS (mosca tsé-tsé) — el riesgo sanitario número uno
 
@@ -1463,7 +1469,7 @@ https://www.nature.com/articles/s41598-024-69834-1 (Lisulo et al., 2024; cifras 
 4. **Más casos al inicio de la estación lluviosa** (diciembre, en el estudio).
 5. **No hay profilaxis registrada para perros en la UE.** El ejército francés usa **isometamidio** (Trypamidium, 1 mg/kg IM cada 2 meses, solo disponible en África, uso off-label) en sus perros destinados en África, con al menos un fallo documentado (perro muerto por *T. congolense* en 2019 pese a isometamidio y collar Scalibor). El tratamiento documentado es **aceturato de diminazeno** (Berenil), inyectable, con **toxicidad del sistema nervioso central dosis-dependiente** en perros (Köster et al., 2015: 3,5 mg/kg).
 
-**Zonas de riesgo en la ruta:** la franja tsetse va del **norte de Senegal (~15° N)** hasta KwaZulu-Natal (34 países según el atlas FAO de 2024): es decir, **toda África occidental de la ruta** (Senegal, Guinea, Costa de Marfil, Ghana, Togo, Benín, Nigeria: los dos casos caninos publicados en perros europeos son de Abiyán y Senegal), sur/este de **Camerún**, cuenca del **Congo** (Congo-Brazzaville, **RD Congo**), norte de **Angola**, **Zambia** (valle del Luangwa, Kafue), **Tanzania** occidental, oeste de **Uganda** (Bwindi-Mgahinga y Queen Elizabeth: prevalencia baja, 3,2 %, pero presente), norte de **Mozambique**, **Zimbabue** (valle del Zambeze). **Botsuana (Okavango) y Namibia (Zambezi/Caprivi)** quedaron libres tras las fumigaciones aéreas de 2001–2006; la frontera de la mosca se empujó al sur de Angola: vigilar Kwando/Bwabwata.
+**Zonas de riesgo:** la franja tsetse va del **norte de Senegal (~15° N)** hasta KwaZulu-Natal (34 países según el atlas FAO de 2024): es decir, **prácticamente toda África occidental** (Senegal, Guinea, Costa de Marfil, Ghana, Togo, Benín, Nigeria: los dos casos caninos publicados en perros europeos son de Abiyán y Senegal), sur/este de **Camerún**, cuenca del **Congo** (Congo-Brazzaville, **RD Congo**), norte de **Angola**, **Zambia** (valle del Luangwa, Kafue), **Tanzania** occidental, oeste de **Uganda** (Bwindi-Mgahinga y Queen Elizabeth: prevalencia baja, 3,2 %, pero presente), norte de **Mozambique**, **Zimbabue** (valle del Zambeze). **Botsuana (Okavango) y Namibia (Zambezi/Caprivi)** quedaron libres tras las fumigaciones aéreas de 2001–2006; la frontera de la mosca se empujó al sur de Angola: vigilar Kwando/Bwabwata.
 
 **Prevención realista:**
 - **Collar impregnado de deltametrina** (tipo Scalibor) — piretroide con efecto repelente/insecticida demostrado frente a *Glossina* **en ganado**; **no hay ningún ensayo en perros** y el caso de 2019 muestra que **no evita la infección**. Llevarlo igualmente (protege además frente a flebótomos y garrapatas), con recambios para **todo el viaje**; no se encuentran en ruta.
@@ -1471,7 +1477,7 @@ https://www.nature.com/articles/s41598-024-69834-1 (Lisulo et al., 2024; cifras 
 - Evitar conducir con ventanillas abiertas en galería ribereña y monte bajo — la tsetse **entra en los coches** y ataca a lo que se mueve.
 - **Llevar diminazeno** en el botiquín y **saber la dosis**. Que la recete un veterinario español de viajes antes de salir. Preguntarle por el isometamidio como profilaxis (solo se consigue en África).
 
-> ⚠️ **Nota crítica cruzada con §1.1:** Sudáfrica y Namibia exigen **serología negativa de Trypanosoma evansi**. El manual de la WOAH (cap. 3.1.21) es explícito: *"In areas where… tsetse-transmitted trypanosomes occur, cross-reactions may occur with any serological test employed"*, el ELISA tiene *"strong cross reactions with T. vivax, T. congolense"* y *"there is no common test… capable of distinguishing T. evansi from the other Trypanozoon"* (*T. brucei* incluido). Un perro que **seroconvierte** por tripanosomas africanos en Zambia o Tanzania puede **dar positivo cuando llegue a pedir el permiso**. Además, el *T. evansi* verdadero se contrae en el **Sahel** (camellos, transmisión mecánica por tábanos): tramo Mauritania–Senegal. **Ésta es la interacción más peligrosa y menos evidente de todo el dosier**, y hay que preguntarla por escrito a `vet.permits@mawlr.gov.na` y `vetpermits@dalrrd.gov.za` antes de salir (qué test usan; si aceptan PCR negativa o tratamiento documentado).
+> ⚠️ **Nota crítica cruzada con §1.1:** Sudáfrica y Namibia exigen **serología negativa de Trypanosoma evansi**. El manual de la WOAH (cap. 3.1.21) es explícito: *"In areas where… tsetse-transmitted trypanosomes occur, cross-reactions may occur with any serological test employed"*, el ELISA tiene *"strong cross reactions with T. vivax, T. congolense"* y *"there is no common test… capable of distinguishing T. evansi from the other Trypanozoon"* (*T. brucei* incluido). Un perro que **seroconvierte** por tripanosomas africanos en Zambia o Tanzania puede **dar positivo cuando llegue a pedir el permiso**. Además, el *T. evansi* verdadero se contrae en el **Sahel** (camellos, transmisión mecánica por tábanos): por ejemplo, entre Mauritania y Senegal. **Ésta es la interacción más peligrosa y menos evidente de todo el dosier**, y hay que preguntarla por escrito a `vet.permits@mawlr.gov.na` y `vetpermits@dalrrd.gov.za` antes de salir (qué test usan; si aceptan PCR negativa o tratamiento documentado).
 
 ## 7.2 El resto de riesgos por zonas
 
@@ -1479,18 +1485,18 @@ https://www.nature.com/articles/s41598-024-69834-1 (Lisulo et al., 2024; cifras 
 |---|---|---|
 | **Leishmaniosis** | **España (origen)**, Marruecos, norte de África | Collar de deltametrina. ⚠️ **Doble problema**: riesgo clínico **+ bloquea la entrada a Namibia y Sudáfrica** (17 % de seropositivos en España). Vacuna: solo queda **LetiFend** (CaniLeish fue **retirada** en la UE en 2023 y daba IFAT positivo durante ≥2 años); el fabricante presenta LetiFend como DIVA, sin interferencia serológica, pero no está contrastado con literatura independiente. **Consultar expresamente a Namibia/Sudáfrica qué test usan antes de vacunar.** |
 | **Babesiosis** | Toda África subsahariana | Garrapatas. Collar + pipeta. También es **requisito de entrada** en Namibia. *B. rossi* en el sur de África es **muy virulenta**, con mortalidad alta. |
-| **Ehrlichiosis / Anaplasmosis** | Toda la ruta | Garrapatas. Doxiciclina en el botiquín. |
-| **Dirofilariosis (filaria)** | Zonas húmedas, toda la ruta | **Profilaxis mensual obligatoria** (ivermectina o milbemicina). También requisito de entrada. **No fallar ni un mes.** |
+| **Ehrlichiosis / Anaplasmosis** | Todo el viaje | Garrapatas. Doxiciclina en el botiquín. |
+| **Dirofilariosis (filaria)** | Zonas húmedas, todo el viaje | **Profilaxis mensual obligatoria** (ivermectina o milbemicina). También requisito de entrada. **No fallar ni un mes.** |
 | **Parvovirus** | Toda África, muy prevalente | **Vacunar y revacunar.** Mata cachorros y adultos no protegidos. Alta circulación en perros callejeros. |
 | **Rabia** | **Marruecos, toda África occidental** | Vacuna en vigor **siempre**. Evitar contacto con callejeros. Una mordedura de perro desconocido obliga a protocolo. |
-| **Moquillo** | Toda la ruta | En el DHLPP. Tanzania lo exige. |
-| **Garrapatas** | Toda la ruta | **Inspección diaria manual**, tarde. Pinzas extractoras. Es el gesto más rentable del día. |
+| **Moquillo** | Todo el viaje | En el DHLPP. Tanzania lo exige. |
+| **Garrapatas** | Todo el viaje | **Inspección diaria manual**, tarde. Pinzas extractoras. Es el gesto más rentable del día. |
 | **Calor extremo** | Sáhara Occidental, Mauritania, Namibia, Botsuana | **[CONFIRMADO]** — testimonios directos lo citan como el problema práctico número uno. Nunca dejarlo en el coche. Conducir de madrugada. Agua permanente. Esterilla refrigerante. **Parar 15 min cada 2 h** (recomendación del testimonio Tracks4Africa). |
 | **Cocodrilos e hipopótamos** | Ríos y lagos: Zambeze, Okavango, Nilo, Luangwa, Chobe | **Perro atado SIEMPRE cerca del agua.** Los cocodrilos atacan de forma oportunista a cualquier animal que se acerque a la orilla o entre al agua, y hay casos documentados de perros. Ningún baño en aguas abiertas. |
 | **Leones, hienas, licaones, leopardos** | Botsuana, Namibia, Zambia, Tanzania | Por eso los parques prohíben perros: **el perro es presa**, y además puede transmitir moquillo y rabia a los licaones (especie amenazada). **Nunca fuera del vehículo sin correa en zona de fauna.** |
-| **Serpientes** | Toda la ruta | Mamba, cobra escupidora (**ceguera por veneno en ojos** — lavar con agua abundante durante 15–20 minutos de inmediato y luego veterinario), y sobre todo la **víbora bufadora**, la que más perros muerde según el African Snakebite Institute. Botiquín con antihistamínico y corticoide como soporte; el tratamiento real es el antiveneno. |
-| **Vermes / parásitos intestinales** | Toda la ruta | Desparasitar **cada 45 días** (cadencia que pide la guía de la embajada de Tanzania; llevar registro). |
-| **Agua contaminada** | Toda la ruta | Solo agua filtrada o embotellada. Giardia es casi universal. |
+| **Serpientes** | Todo el viaje | Mamba, cobra escupidora (**ceguera por veneno en ojos** — lavar con agua abundante durante 15–20 minutos de inmediato y luego veterinario), y sobre todo la **víbora bufadora**, la que más perros muerde según el African Snakebite Institute. Botiquín con antihistamínico y corticoide como soporte; el tratamiento real es el antiveneno. |
+| **Vermes / parásitos intestinales** | Todo el viaje | Desparasitar **cada 45 días** (cadencia que pide la guía de la embajada de Tanzania; llevar registro). |
+| **Agua contaminada** | Todo el viaje | Solo agua filtrada o embotellada. Giardia es casi universal. |
 | **Carreteras de tabla de lavar** | Namibia (C14 citada), pistas | **[CONFIRMADO]** — testimonio directo. Sujeción segura del perro; lesiones por vibración y golpes. |
 
 ## 7.3 Vacunas: obligatorias y muy recomendables
@@ -1500,7 +1506,7 @@ https://www.nature.com/articles/s41598-024-69834-1 (Lisulo et al., 2024; cifras 
 | **Rabia** | **Obligatoria en todos los países** | **Revacunar ANUALMENTE, en España, antes de salir**: Sudáfrica, Senegal y varios francófonos exigen "<12 meses", protege la titulación UE y no se puede revacunar en África sin perder la vuelta con el pasaporte. |
 | **Moquillo (Distemper)** | Recomendada por Tanzania; listada por Uganda | |
 | **Hepatitis (adenovirus)** | Recomendada por Tanzania; listada por Uganda | |
-| **Leptospirosis** | Recomendada por Tanzania | Muy recomendable: agua contaminada y roedores en toda la ruta. |
+| **Leptospirosis** | Recomendada por Tanzania | Muy recomendable: agua contaminada y roedores en todo el viaje. |
 | **Parvovirus** | Recomendada por Tanzania; listada por Uganda | **Imprescindible** con independencia de la ley. |
 | **Parainfluenza** | Listada por Uganda; Keringa la da por exigida en Tanzania | |
 | **Tos de las perreras (Bordetella)** | Listada por Uganda; recomendada | **Las residencias caninas la exigen** para admitirlo — y habrá que dejarlo en varias. |
@@ -1508,7 +1514,7 @@ https://www.nature.com/articles/s41598-024-69834-1 (Lisulo et al., 2024; cifras 
 
 ## 7.4 Dónde se podrá dejar al perro
 
-Los parques nacionales están prohibidos **en todos los países de la ruta** sin excepción conocida. Habrá que dejarlo. Nodos identificados:
+Los parques nacionales están prohibidos **en todos los países de §2.1** sin excepción conocida. Habrá que dejarlo. Nodos identificados:
 
 | Lugar | Para qué |
 |---|---|
@@ -1522,13 +1528,13 @@ Los parques nacionales están prohibidos **en todos los países de la ruta** sin
 
 **Dónde SÍ puede ir:**
 - **Granjas turísticas y reservas privadas** de Namibia y Sudáfrica — **[CONFIRMADO]**, la mejor opción del viaje. Contactar **directamente** con los alojamientos aunque no anuncien política de mascotas.
-- **Costa de Mozambique** (Tofo, Vilanculos, Pemba) — probablemente el mejor tramo del viaje para el perro.
+- **Costa de Mozambique** (Tofo, Vilanculos, Pemba) — probablemente la mejor zona para viajar con perro.
 - Campings dog-friendly de Sudáfrica y Namibia (BringFido, Pitchup, LekkerKampplekke los listan).
 - Playas del Cabo Occidental, Diani y Watamu (Kenia), Petite Côte (Senegal).
 
 ## 7.5 Botiquín canino — lo que no se compra en ruta
 
-**Antiparasitarios (llevar para 8 meses, sin excepción):**
+**Antiparasitarios (llevar para toda la duración del viaje, sin excepción):**
 - Collares de **deltametrina** (Scalibor) — recambios para todo el viaje
 - Pipetas repelentes (permetrina/fipronil) mensuales
 - **Ivermectina o milbemicina** — profilaxis de filaria, mensual
@@ -1566,11 +1572,11 @@ Estas son las preguntas **sin cerrar**. No se han rellenado con suposiciones. (R
 | 3 | **Serología de Namibia en ruta** — ¿se aceptan analíticas de Onderstepoort (Sudáfrica), o exigen laboratorio del país de origen? ¿Qué test de *T. evansi* usan? | 🔴 **Abierto y crítico** | `vet.permits@mawlr.gov.na` |
 | 4 | **Riesgo de seroconversión en ruta** — un perro que atraviesa zona de tsetse y garrapatas puede dar **positivo en T. evansi / Babesia / Dirofilaria** justo cuando pide el permiso (la WOAH documenta la reacción cruzada). ¿Aceptan PCR negativa o tratamiento documentado? | 🔴 **Abierto y crítico** | `vet.permits@mawlr.gov.na`, `vetpermits@dalrrd.gov.za` |
 | 5 | **Leishmania de origen español** — perro procedente de país endémico (17 % de seropositivos); un positivo serológico sin enfermedad **bloquea Namibia y Sudáfrica**. ¿Aceptan PCR negativa frente a serología positiva? | 🔴 **Abierto y crítico** | `vet.permits@mawlr.gov.na`, `vetpermits@dalrrd.gov.za` |
-| 6 | **Permiso interterritorial para un perro de la UE** — una vez importado legalmente a Sudáfrica (con las 5 analíticas), ¿puede moverse a Namibia, Botsuana, Zimbabue, Lesoto y Esuatini con el Inter-Territorial Movement Permit (30/60 días, sin repetir analíticas) como un perro residente? Si es sí, las analíticas se hacen **una sola vez** y todo el tramo austral se simplifica. | 🔴 **Abierto y muy rentable** | `vet.permits@mawlr.gov.na`, `vetpermits@dalrrd.gov.za`, `DVSpermits@gov.bw` |
-| 7 | **Permisos de entrada única en los países que se cruzan dos veces** — confirmado para Sudáfrica (*"one consignment only"*). **Sin confirmar** para Angola, RD Congo, Congo, Camerún, Nigeria y toda África occidental. | 🟠 Abierto | Cada servicio veterinario nacional |
+| 6 | **Permiso interterritorial para un perro de la UE** — una vez importado legalmente a Sudáfrica (con las 5 analíticas), ¿puede moverse a Namibia, Botsuana, Zimbabue, Lesoto y Esuatini con el Inter-Territorial Movement Permit (30/60 días, sin repetir analíticas) como un perro residente? Si es sí, las analíticas se hacen **una sola vez** y todo el paso por el sur de África se simplifica. | 🔴 **Abierto y muy rentable** | `vet.permits@mawlr.gov.na`, `vetpermits@dalrrd.gov.za`, `DVSpermits@gov.bw` |
+| 7 | **Permisos de entrada única si el viaje entra dos veces en un país** — confirmado para Sudáfrica (*"one consignment only"*). **Sin confirmar** para Angola, RD Congo, Congo, Camerún, Nigeria y toda África occidental. | 🟠 Abierto | Cada servicio veterinario nacional |
 | 8 | **Plazo del certificado sanitario de Tanzania** — 4 días (Keringa), 10 (modelo británico) o 14 (PetTravel). | 🟡 Abierto | `barua@mlf.go.tz` |
-| 9 | **Ventana de 72 h de Senegal** — implausiblemente corta para llegada terrestre desde Mauritania. ¿Se flexibiliza por carretera? | 🟠 Abierto | `contacts@elevage.gouv.sn`, `wadesanou@gmail.com` |
-| 10 | **Guinea, RD Congo, Congo-Brazzaville** — **cero fuentes oficiales** (Guinea: solo el Code de l'Élevage y una ficha comercial). Tres países, dos de ellos cruzados dos veces, y ningún testimonio con perro. | 🔴 **Agujero negro** | Ministerios + embajadas en Madrid/París/Bruselas |
+| 9 | **Ventana de 72 h de Senegal** — implausiblemente corta para una llegada por tierra (por ejemplo, desde Mauritania). ¿Se flexibiliza por carretera? | 🟠 Abierto | `contacts@elevage.gouv.sn`, `wadesanou@gmail.com` |
+| 10 | **Guinea, RD Congo, Congo-Brazzaville** — **cero fuentes oficiales** (Guinea: solo el Code de l'Élevage y una ficha comercial). Tres países y ningún testimonio con perro. | 🔴 **Agujero negro** | Ministerios + embajadas en Madrid/París/Bruselas |
 | 11 | **Nigeria** — quién emite está claro (CVO); el buzón `vpcs@fmard.gov.ng`, la tasa de 5.000 NGN y el plazo vienen de una nota sin fecha; el portal de permisos está caído; el ministerio cambió en 2024. Ventana del certificado sin confirmar. | 🟠 Abierto | CVO / FMLD, Abuya |
 | 12 | **Camerún** — MINEPIA publica un trámite de autorización de importación de animales de compañía (ficha con TLS roto); PetTravel dice que no hace falta permiso. | 🟠 Abierto | MINEPIA, Yaundé |
 | 13 | **Mauritania** — sin fuente oficial; los relatos de Guerguerat no mencionan animales; PetTravel dice sin permiso previo. | 🟡 Abierto | DSV Nuakchot |
@@ -1631,4 +1637,4 @@ Estas son las preguntas **sin cerrar**. No se han rellenado con suposiciones. (R
 
 ---
 
-*Fin del documento — v0.5. Las preguntas de §8 deben cerrarse por correo antes de comprometer la ruta.*
+*Fin del documento — v0.5. Las preguntas de §8 deben cerrarse por correo antes de comprometer el viaje.*

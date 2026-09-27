@@ -91,16 +91,13 @@ require(re.findall(r'class="card" href="([a-z]+)/"', acc) == ["planificador", "m
         "orden de accesos del portal: Planificador, Mapa, Documentación, Visados, CPD y El perro")
 require('.cards.portal-access { grid-auto-rows:1fr;' in css and 'grid-template-columns:repeat(3,minmax(0,1fr))' in css,
         "los seis accesos principales deben tener la misma altura y formar dos filas de tres")
-visa_match = re.search(r'<script>var A27_VISAS = (\{.*?\});</script>', visa_html, re.S)
+visa_match = re.search(r'<script>var A27_VISAS = (\{.*?\});', visa_html, re.S)
 require(visa_match, "no se encuentra la configuración del mapa de Visados")
 visa_config = json.loads(visa_match.group(1))
-require(visa_config["data"]["namibia"]["pasos"] == "5 jun",
-        "Namibia debe conservar la corrección a junio")
-require(visa_config["data"]["angola"]["pasos"] == "7 mar · 20 jun",
-        "la segunda entrada de Angola debe estar en junio")
-require(visa_config["data"]["tanzania"]["pasos"] == "16 abr" and
-        visa_config["data"]["mozambique"]["pasos"] == "24 abr",
-        "se han perdido las correcciones manuscritas del bucle oriental")
+require(all(not d.get("pasos") for d in visa_config["data"].values()),
+        "Visados no debe llevar fechas fijas: las pone el viaje del Planificador")
+require("data-viaje-tema" in visa_html and "var A27_TEMA" in visa_html,
+        "Visados debe tener el bloque «Tu viaje» dinámico")
 expected_facts = ["EN TU VIAJE", "FECHAS", "FRONTERAS", "VISADO", "CPD", "SEGURO", "SEGURIDAD",
                   "PDIs", "4x4", "A PIE", "VACUNACIÓN", "DRONES", "STARLINK", "PELIGROS"]
 require('.chips.country-facts { grid-template-columns:repeat(7,minmax(0,1fr)); }' in css,

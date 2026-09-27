@@ -198,6 +198,11 @@ ul.ticks li::before { content:""; position:absolute; left:2px; top:.55em; width:
 .off-foto figcaption { font-size:11.5px; color:var(--ink-soft); padding:4px 16px 0; }
 .off-add { margin-top:8px; font-size:13px; }
 /* Globos de las líneas del mapa: estrechos y en varias filas */
+.tv-pill{display:inline-block;padding:1px 8px;border-radius:999px;color:#fff;font-size:12px;font-weight:700;white-space:nowrap;margin:1px 0}
+.tv-ojo{display:block;margin-top:3px;color:var(--amber);font-size:12.5px}
+.tv-marca{display:inline-block;margin-top:3px;padding:0 7px;border-radius:999px;background:#B43A3A;color:#fff;font-size:11px;font-weight:700}
+tr.en-viaje td:first-child{box-shadow:inset 3px 0 0 #B43A3A}
+.tv-tabla td:first-child{color:var(--ink-soft);width:1%}
 .leaflet-tooltip.a27-tip { white-space:normal; width:max-content; min-width:min(170px, 55vw); max-width:min(380px, 70vw);
   font-size:13.5px; line-height:1.4; padding:6px 10px; }
 .poi-grid > .poi-card .poi-desc:not(.dognote) { display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:5; overflow:hidden; }

@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """Visados para pasaporte ordinario español y entrada turística.
 
-La clasificación está pensada para la ruta overland: cuando un eVisa solo se
-entrega o valida en un aeropuerto, el país figura como ``presencial``. La hoja
+La clasificación está pensada para entrar por carretera: cuando un eVisa solo se
+entrega o valida en un aeropuerto, el país figura como ``presencial``. Las fechas
+y el número de entradas no se fijan aquí: salen del viaje del Planificador. La hoja
 de Drive es el inventario de partida; la modalidad publicada aquí se ha
 contrastado con MAEC y, cuando existe, con el portal oficial del país.
 
@@ -18,7 +19,7 @@ NIVELES = {
     "electronico": ("#2B6CB0", "Electrónico previo", "eVisa, eTA o permiso que debe estar aprobado antes de la frontera."),
     "presencial": ("#D97B29", "Presencial previo", "El pasaporte debe llevar el visado emitido por embajada o consulado."),
     "frontera": ("#9A6410", "En frontera", "Se obtiene al llegar; llevar efectivo y documentación de apoyo."),
-    "no_viable": ("#B43A3A", "No viable ahora", "La frontera o el viaje no son utilizables para esta ruta, aunque exista un visado."),
+    "no_viable": ("#B43A3A", "No viable ahora", "La frontera o el viaje no son utilizables por carretera ahora mismo, aunque exista un visado."),
 }
 
 
@@ -45,81 +46,79 @@ def visa(nivel, resumen, accion, *, pasos="", entradas="", coste="", alerta="",
 
 
 VISADOS = {
-    # Corredor occidental, bajada y regreso.
+    # África occidental.
     "marruecos": visa(
         "sin", "Exención turística de hasta 90 días.",
-        "Pasaporte en vigor; no se admite el DNI.", pasos="12 ene · 20 jul", entradas="2 entradas",
+        "Pasaporte en vigor; no se admite el DNI.",
         alerta="El pasaporte debe cubrir toda la estancia y MAEC pide más de 6 meses de validez.",
         maec=_maec("Marruecos")),
     "sahara-occidental": visa(
-        "sin", "El corredor costero está bajo el mismo régimen de entrada de Marruecos.",
-        "Conservar el sello marroquí y no abandonar el corredor habilitado.", pasos="tránsito ida y vuelta",
-        entradas="incluido en Marruecos", alerta="No es un Estado separado a efectos del control migratorio de esta ruta.",
+        "sin", "La carretera costera está bajo el mismo régimen de entrada de Marruecos.",
+        "Conservar el sello marroquí y no abandonar la carretera costera.", alerta="No es un Estado separado a efectos del control migratorio: se entra con el sello de Marruecos.",
         maec=_maec("Marruecos")),
     "mauritania": visa(
         "electronico", "Visado obligatorio con solicitud electrónica previa.",
-        "Solicitar el código en ANRPTS; biometría y pago al llegar.", pasos="18 ene · 15 jul", entradas="2 visados",
+        "Solicitar el código en ANRPTS; biometría y pago al llegar.",
         coste="Referencia: 55 € por 30 días y entrada única.",
         alerta="El sistema oficial enumera PK55, Rosso y Diama entre los puestos que completan el trámite.",
         oficial="https://anrpts.gov.mr/visa/requestvisa", maec=_maec("Mauritania")),
     "senegal": visa(
         "sin", "Exención para estancias inferiores a 90 días.",
-        "Pasaporte con validez superior a 6 meses.", pasos="27 ene · 3 jul · 8 jul", entradas="3 entradas",
+        "Pasaporte con validez superior a 6 meses.",
         alerta="No confundir el visado personal con el passavant o CPD del vehículo.", maec=_maec("Senegal")),
     "gambia": visa(
         "sin", "No se exige visado a españoles que cruzan por tierra desde Senegal.",
-        "Llevar impresa la recomendación MAEC y efectivo por si cambia la práctica.", pasos="4 jul", entradas="1 entrada",
+        "Llevar impresa la recomendación MAEC y efectivo por si cambia la práctica.",
         alerta="MAEC advierte que la gestión puede cambiar sin aviso; la exención aérea tiene además tasas de seguridad.",
         maec=_maec("Gambia")),
     "guinea": visa(
         "electronico", "Visado obligatorio; solicitud en la plataforma de la Policía de Fronteras.",
-        "Tramitar online y confirmar en paralelo con la Embajada de Guinea en Madrid.", pasos="2 feb · 28 jun",
-        coste="100 USD por eVisa de una entrada (portal oficial, 25-09-2026).",
-        entradas="2 entradas", alerta="La propia recomendación española pide coordinar la solicitud con la Embajada; no viajar solo con el justificante.",
+        "Tramitar online y confirmar en paralelo con la Embajada de Guinea en Madrid.",
+        coste="100 USD por eVisa de una entrada (portal oficial, 25-09-2026).", alerta="La propia recomendación española pide coordinar la solicitud con la Embajada; no viajar solo con el justificante.",
         oficial="https://www.paf.gov.gn/visa", maec=_maec("Guinea")),
     "guinea-bisau": visa(
         "no_viable", "Visado obligatorio para españoles; junta militar tras el golpe de noviembre de 2025.",
-        "Si se reabriera el desvío: visado en el consulado de Ziguinchor (25.000 XOF/30 días, en el día) o en la Embajada de Madrid; nunca contar con el de frontera.",
+        "Visado en el consulado de Ziguinchor (25.000 XOF/30 días, en el día) o en la Embajada de Madrid; nunca contar con el de frontera.",
         ruta="fuera", entradas="Simple (doble entrada citada en 2016); 30/60/90 días", coste="25.000 XOF (~40 €) 30 días en Ziguinchor (2025); Madrid por confirmar",
         alerta="eVisa paralizada y visado en frontera terrestre «ni claro ni estable» (MAEC, 19-3-2026).",
         oficial="", maec=_maec("Guinea Bissau")),
     "sierra-leona": visa(
         "presencial", "Para entrar por tierra hace falta visado consular previo.",
-        "Consultar el Consulado Honorario en Las Palmas y llevar el visado en el pasaporte.", entradas="alternativa de subida",
+        "Consultar el Consulado Honorario en Las Palmas y llevar el visado en el pasaporte.",
         ruta="alternativa", alerta="El eVisa publicado por MAEC es una autorización para expedir el visado al llegar al aeropuerto de Lungi, no en la frontera terrestre.",
         oficial="https://www.evisa.sl/", maec=_maec("Sierra Leona")),
     "liberia": visa(
         "presencial", "Visado obligatorio; no se obtiene al llegar.",
-        "Tramitarlo en el Consulado Honorario de Liberia en Madrid.", entradas="alternativa terrestre", ruta="alternativa",
+        "Tramitarlo en el Consulado Honorario de Liberia en Madrid.", ruta="alternativa",
         coste="MAEC publica 100 € una entrada y 200 € múltiple.",
         alerta="El procedimiento de llegada/eVisa no resuelve una entrada por carretera.", maec=_maec("Liberia")),
     "costa-de-marfil": visa(
         "presencial", "Visado previo estampado para cualquier entrada terrestre.",
-        "Pedir entrada múltiple en Madrid o confirmar emisión en Conakry y Accra.", pasos="9 feb · 23 jun", entradas="2 entradas",
+        "Pedir entrada múltiple en Madrid o confirmar emisión en Conakry y Accra.",
         coste="Referencia MAEC: 50 € más gastos para el visado presencial corto.",
         alerta="El eVisa SNEDAI se expide exclusivamente en el aeropuerto de Abiyán y no sirve en carretera.",
         oficial="https://snedai.com/e-visa/", maec=_maec("Costa de Marfil")),
     "ghana": visa(
         "electronico", "eVisa obligatorio para pasaporte español.",
-        "Solicitarlo online y comprobar que cubre las dos entradas previstas.", pasos="14 feb · 19 jun", entradas="2 entradas",
+        "Solicitarlo online y comprobar que cubre todas las entradas de tu viaje.",
         coste="260 USD según MAEC; verificar la tarifa al solicitar.",
         alerta="El portal oficial declara el eVisa válido en aeropuertos y fronteras terrestres; el de una entrada caduca 90 días después de emitirse.",
         oficial="https://evisa.immigration.gov.gh/", maec=_maec("Ghana")),
     "togo": visa(
         "electronico", "eVisa obligatorio y aprobado antes de llegar.",
-        "Solicitarlo en Togo Voyage al menos 5 días antes; prever dos entradas.", pasos="17 feb · 18 jun", entradas="2 entradas",
+        "Solicitarlo en Togo Voyage al menos 5 días antes; si entras más de una vez, pedir el múltiple.",
         coste="25.000 FCFA (1-15 días, una entrada) · 45.000 FCFA (16-30 días, múltiple) · 65.000 FCFA (31-90 días, múltiple). Portal oficial; ya no se expide en frontera.",
         alerta="El portal oficial dice que sin autorización aprobada se rechaza la entrada; confirmar que ambos pasos terrestres están ya digitalizados.",
         oficial="https://voyage.gouv.tg/", maec=_maec("Togo")),
     "benin": visa(
         "electronico", "Benín solo concede visados por vía electrónica.",
-        "Solicitar dos eVisas o uno que cubra ambas entradas.", pasos="18 feb · 16 jun", entradas="2 entradas",
+        "Si entras más de una vez, pedir el de entrada múltiple o un eVisa por entrada.",
         coste="50 € (30 días, una entrada) · 75 € (30 días, múltiple) · 100 € (90 días, múltiple). Tarifa oficial publicada en 2020.",
         alerta="La validez empieza en la fecha de emisión; no pedirlo demasiado pronto.",
         oficial="https://evisa.bj/", maec=_maec("Benín")),
     "nigeria": visa(
         "electronico", "Visado turístico electrónico disponible; 30 días y una entrada.",
-        "Tramitar cada eVisa, imprimir la aprobación y completar landing/exit card.", pasos="19 feb · 11 jun", entradas="2 eVisas",
+        "Tramitar cada eVisa, imprimir la aprobación y completar landing/exit card.",
         coste="MAEC sitúa una entrada alrededor de 250 €.",
         alerta="La web oficial habla de presentarlo en el «port of entry», pero no enumera Seme/Ekok: pedir confirmación escrita para ambos pasos terrestres.",
         oficial="https://immigration.gov.ng/info-center/tourism-visa-f5a/", maec=_maec("Nigeria")),
@@ -127,9 +126,9 @@ VISADOS = {
     # África central y enlace a Angola.
     "camerun": visa(
         "electronico", "Visado obligatorio; solicitud exclusivamente online en EvisaCam.",
-        "Obtener la preautorización y el QR antes de viajar; comprobar la validez para cada paso.", pasos="24 feb · 7 jun", entradas="2 entradas",
+        "Obtener la preautorización y el QR antes de viajar; comprobar la validez para cada paso.",
         coste="Referencia de la hoja: 153 €; comprobar en la plataforma.",
-        alerta="La mera solicitud no basta. El QR permite la expedición en frontera, pero hay que confirmar por escrito los puestos exactos de la ruta.",
+        alerta="La mera solicitud no basta. El QR permite la expedición en frontera, pero hay que confirmar por escrito el puesto terrestre por el que vas a entrar.",
         oficial="https://www.evisacam.cm/ords/dl_portal/r/public_portal/home", maec=_maec("Camerún")),
     "guinea-ecuatorial": visa(
         "electronico", "Visado obligatorio para españoles, sin ninguna exención en vigor, con eVisa previa de 105 € para estancias de menos de 90 días.",
@@ -139,99 +138,96 @@ VISADOS = {
         oficial="https://equatorialguinea-evisa.com/", maec=_maec("Guinea Ecuatorial")),
     "gabon": visa(
         "presencial", "Para entrar por carretera se necesita visado consular previo.",
-        "Tramitarlo en la Embajada de Gabón antes de salir de Europa.", entradas="solo si se reactiva la alternativa", ruta="alternativa",
+        "Tramitarlo en la Embajada de Gabón antes de salir de Europa.", ruta="alternativa",
         alerta="El eVisa se materializa exclusivamente en el aeropuerto de Libreville; no es válido para la frontera terrestre.",
         oficial="https://evisa.dgdi.ga/", maec=_maec("Gabón")),
     "congo": visa(
         "presencial", "Visado obligatorio antes del viaje.",
-        "Tramitar en la Embajada de la República del Congo en París y pedir modalidad que cubra dos pasos.", pasos="28 feb · 2 jun",
-        coste="55 € (15 días) o 110 € (91 días) una entrada; 110 € / 220 € múltiple. Fuente no oficial (agencia, 09-2026).",
-        entradas="2 entradas", alerta="No hay embajada congoleña en España; no confundir Congo-Brazzaville con RD Congo.",
+        "Tramitar en la Embajada de la República del Congo en París; si entras más de una vez, pedir la modalidad que cubra todas las entradas.",
+        coste="55 € (15 días) o 110 € (91 días) una entrada; 110 € / 220 € múltiple. Fuente no oficial (agencia, 09-2026).", alerta="No hay embajada congoleña en España; no confundir Congo-Brazzaville con RD Congo.",
         oficial="https://girafe.ambacongofr.org/", maec=_maec("República del Congo")),
     "rd-congo": visa(
         "presencial", "Visado obligatorio expedido en el país de residencia.",
-        "Solicitar en la Embajada de la RDC en Madrid una modalidad que cubra los dos tránsitos de Kongo Central.", pasos="6 mar · 1 jun",
-        coste="200 € (3 meses, una entrada) · 225 € (3 meses, múltiple). Solicitud en persona en Madrid, unos 14 días hábiles.",
-        entradas="2 entradas", alerta="No puede obtenerse en Brazzaville; llevar itinerario terrestre Cabinda–Muanda–Boma–Matadi–Lufu y documentación de salida.",
+        "Solicitar en la Embajada de la RDC en Madrid; si cruzas Kongo Central más de una vez, pedir una modalidad que cubra todas las entradas.",
+        coste="200 € (3 meses, una entrada) · 225 € (3 meses, múltiple). Solicitud en persona en Madrid, unos 14 días hábiles.", alerta="No puede obtenerse en Brazzaville; llevar impreso el itinerario terrestre por el país (por ejemplo Yema–Muanda–Boma–Matadi–Lufu) y la documentación de salida.",
         oficial="https://ambardcmadrid.com/", maec=_maec("República Democrática del Congo")),
     "angola": visa(
         "sin", "Exención turística: 30 días por entrada y 90 días por año.",
-        "Llevar prueba de continuación y controlar todos los sellos de Cabinda y Angola continental.", pasos="7 mar · 20 may",
-        entradas="4 controles angoleños", alerta="La exención es solo turística; la suma anual no puede superar 90 días.",
+        "Llevar prueba de continuación y controlar todos los sellos de Cabinda y Angola continental.", alerta="La exención es solo turística; la suma anual no puede superar 90 días.",
         maec=_maec("Angola")),
 
-    # Bucle sur y este.
+    # África austral y oriental.
     "zambia": visa(
         "sin", "Los españoles no necesitan visado.",
-        "Pasaporte con al menos 6 meses y 3 páginas libres.", pasos="17 mar", entradas="1 entrada",
+        "Pasaporte con al menos 6 meses y 3 páginas libres.",
         alerta="El KAZA Univisa solo interesa si se necesita cubrir también Zimbabue; no es requisito para Zambia.", maec=_maec("Zambia")),
     "malaui": visa(
         "electronico", "Visado obligatorio; eVisa oficial disponible.",
-        "Usar el asistente de elegibilidad y obtener el eVisa antes de llegar.", pasos="1 abr", entradas="alternativa",
+        "Usar el asistente de elegibilidad y obtener el eVisa antes de llegar.",
         ruta="alternativa", coste="100 USD una entrada · 220 USD múltiple (MAEC, dato de 2022).",
         alerta="La exención de visado de 2024 se revocó el 2 de enero de 2026. Los europeos pueden obtenerlo al llegar, pero el eVisa evita la incertidumbre en frontera terrestre.",
         oficial="https://www.evisa.gov.mw/", maec=_maec("Malaui")),
     "tanzania": visa(
         "electronico", "Visado obligatorio; para nuestra entrada terrestre conviene eVisa previo.",
-        "Solicitar online antes de la frontera y prever la posible segunda entrada desde Kenia.", pasos="6 abr", entradas="2 entradas si se vuelve desde Kenia",
+        "Solicitar online antes de la frontera y prever la posible segunda entrada desde Kenia.",
         coste="Referencia habitual: 50 USD; verificar al solicitar.",
         alerta="MAEC solo enumera visado a la llegada en aeropuertos y puertos; no lo ofrece como solución general en frontera terrestre.",
         oficial="https://visa.immigration.go.tz/", maec=_maec("Tanzania")),
     "kenia": visa(
         "electronico", "No exige visado, pero sí una eTA antes de viajar.",
-        "Solicitar la eTA oficial con margen y llevarla impresa o descargada.", entradas="1 entrada",
+        "Solicitar la eTA oficial con margen y llevarla impresa o descargada.",
         coste="Desde 30 USD (tramitación normal).",
-        alerta="La eTA es de una sola entrada y expira al salir; si cambia el bucle y se reentra, hace falta otra.",
+        alerta="La eTA es de una sola entrada y expira al salir; si tu viaje entra más de una vez, hace falta otra por entrada.",
         oficial="https://www.etakenya.go.ke/", maec=_maec("Kenia")),
     "uganda": visa(
         "electronico", "Visado obligatorio y exclusivamente electrónico.",
-        "Obtener el eVisa y llevar impresa la aprobación antes de la frontera.", entradas="alternativa Grandes Lagos", ruta="alternativa",
+        "Obtener el eVisa y llevar impresa la aprobación antes de la frontera.", ruta="alternativa",
         alerta="Uganda ya no expide visados en frontera.",
         oficial="https://visas.immigration.go.ug/", maec=_maec("Uganda")),
     "ruanda": visa(
         "frontera", "Visado turístico disponible online o al llegar, también en frontera terrestre.",
-        "Puede tramitarse online; si se hace al llegar, llevar efectivo.", entradas="alternativa Grandes Lagos", ruta="alternativa",
+        "Puede tramitarse online; si se hace al llegar, llevar efectivo.", ruta="alternativa",
         coste="50 USD entrada única; 70 USD múltiple según MAEC.",
         alerta="Las tarjetas no se aceptan en todas las fronteras terrestres.",
         oficial="https://irembo.gov.rw/rolportal/en/web/dgie/newhome", maec=_maec("Ruanda")),
     "mozambique": visa(
         "electronico", "Exento de visado hasta 30 días, pero con permiso electrónico previo obligatorio.",
-        "Registrar la entrada en el portal oficial al menos 5 días antes.", pasos="21 abr", entradas="1 entrada",
+        "Registrar la entrada en el portal oficial al menos 5 días antes.",
         coste="Importe del permiso sin dato oficial (~650 MZN según fuente no oficial).",
         alerta="No tratar la exención como entrada sin trámite: MAEC exige la solicitud digital a todos los viajeros españoles.",
         oficial="https://evisa.gov.mz/", maec=_maec("Mozambique")),
     "zimbabue": visa(
         "frontera", "Visado obligatorio disponible en frontera terrestre.",
-        "Pagar al llegar y comprobar duración y número de entradas antes de alejarse del puesto.", pasos="1 may", entradas="1 entrada",
+        "Pagar al llegar y comprobar duración y número de entradas antes de alejarse del puesto.",
         coste="30 USD una entrada; 45 USD dos entradas según MAEC.",
         alerta="El visado múltiple no se expide en frontera; el KAZA puede convenir si se cruza también Zambia.", maec=_maec("Zimbabue")),
     "botsuana": visa(
         "sin", "Exención turística para estancias inferiores a 90 días.",
-        "Pasaporte con validez mínima de 6 meses desde la salida prevista.", pasos="10 may", entradas="1 entrada",
+        "Pasaporte con validez mínima de 6 meses desde la salida prevista.",
         alerta="Comprobar el sello y la duración concedida antes de abandonar el puesto.", maec=_maec("Botsuana")),
     "sudafrica": visa(
         "sin", "Exención turística de hasta 90 días.",
-        "Pasaporte con 2 páginas libres y declaración aduanera electrónica de viajero.", pasos="20 may", entradas="según ramales",
+        "Pasaporte con 2 páginas libres y declaración aduanera electrónica de viajero.",
         alerta="Desde el 1 de julio de 2026 la declaración aduanera electrónica se exige también por tierra; no es un visado.",
         oficial="https://www.sars.gov.za/traveller-declaration/", maec=_maec("Sudáfrica")),
     "esuatini": visa(
         "sin", "Los ciudadanos de la UE no necesitan visado.",
-        "Pasaporte con al menos 3 meses de validez posterior a la entrada y hojas libres.", entradas="ramal opcional", ruta="alternativa",
+        "Pasaporte con al menos 3 meses de validez posterior a la entrada y hojas libres.", ruta="alternativa",
         alerta="Los 13 puestos terrestres tienen horarios distintos; comprobar el elegido.",
         oficial="https://www.gov.sz/index.php/component/content/article/309-entry-requirements?Itemid=630&catid=61",
         maec=_maec("Esuatini")),
     "lesoto": visa(
         "sin", "Exención para turismo de hasta 14 días.",
-        "Pasaporte con 2 páginas libres y validez mínima de 30 días tras la salida.", entradas="ramal opcional", ruta="alternativa",
+        "Pasaporte con 2 páginas libres y validez mínima de 30 días tras la salida.", ruta="alternativa",
         alerta="La exención es de solo 14 días, no 90.", maec=_maec("Lesoto")),
     "namibia": visa(
         "electronico", "Desde abril de 2025 España necesita visado; puede tramitarse online o al llegar.",
-        "Solicitar el eVisa antes de la entrada para no depender del servicio del puesto.", pasos="5 may", entradas="1 entrada",
+        "Solicitar el eVisa antes de la entrada para no depender del servicio del puesto.",
         coste="1.600 NAD (unos 78 €) según MAEC.",
         alerta="Oshikango y Noordoewer aceptan eVisa y visado presencial al llegar; otros pasos solo admiten eVisa o aún no están operativos.",
         oficial="https://eservices.mhaiss.gov.na/", maec=_maec("Namibia")),
 
-    # Países de la hoja que ya no forman parte de la ruta confirmada.
+    # Resto de países del inventario (muchos, hoy desaconsejados o sin paso terrestre utilizable).
     "etiopia": visa(
         "electronico", "eVisa obligatorio y previo para españoles, de entrada única y pensado para el aeropuerto de Bole.",
         "Tramitar el eVisa en evisa.gov.et con al menos una semana de margen y llevarlo impreso junto al certificado de fiebre amarilla.",
@@ -252,7 +248,7 @@ VISADOS = {
         oficial="https://visa2egypt.gov.eg", maec=_maec("Egipto")),
     "somalia": visa(
         "no_viable", "Hay visado, pero el país no es utilizable: el MAEC desaconseja el viaje bajo cualquier circunstancia y Somalia, Somalilandia y Puntlandia emiten permisos distintos que no se reconocen entre sí.",
-        "No se tramita nada: Somalia está excluida de la ruta de 2027.",
+        "No tramitar: el MAEC desaconseja viajar a Somalia.",
         ruta="fuera", entradas="Una entrada, 1 mes", coste="60 USD en efectivo (visado somalí, una entrada, un mes) · Somalilandia 30 GBP–100 USD según dónde se emita",
         alerta="Desde el 10 de noviembre de 2025 Somalilandia declara NO válidos los visados emitidos por Somalia; además, el sistema electrónico somalí sufrió una filtración de más de 35.000 registros.",
         oficial="https://etas.gov.so/", maec=_maec("Somalia")),
@@ -271,8 +267,8 @@ VISADOS = {
     "tunez": visa(
         "sin", "Exención turística de hasta 90 días para pasaporte español.",
         "Pasaporte con 3 meses de validez (llevar 6); el DNI no sirve. Por vía marítima pueden pedir dirección en Túnez y billete de vuelta.",
-        ruta="fuera", entradas="solo en un viaje aparte en ferry",
-        alerta="Fuera de la ruta 2027: sin conexión terrestre (Marruecos–Argelia cerrada desde 1994; Libia inviable). El vehículo se anota en el pasaporte del conductor.",
+        ruta="fuera", entradas="solo por mar o aire: no hay frontera terrestre utilizable",
+        alerta="Sin conexión terrestre útil desde el resto de la red: Marruecos–Argelia cerrada desde 1994 y Libia inviable; se llega en ferry desde Europa. El vehículo se anota en el pasaporte del conductor.",
         maec=_maec("Túnez")),
     "mali": visa(
         "no_viable", "Visado obligatorio y previo en la Embajada de Mali en Madrid (presencia personal); Mali no expide visados en frontera, y el país está vetado por el MAEC.",
@@ -300,7 +296,7 @@ VISADOS = {
         oficial="https://evisa.td/", maec=_maec("Chad")),
     "rca": visa(
         "no_viable", "Visado obligatorio y previo en la Embajada de la RCA en París, sobre un país que el MAEC pide abandonar.",
-        "No se tramita mientras el país no entre en la ruta.",
+        "No tramitar mientras el MAEC pida abandonar el país.",
         ruta="fuera", entradas="Una entrada, previa en París", coste="50 € orientativos según la web de Dzanga-Sangha; tarifa oficial por confirmar",
         alerta="El «visa volant» a la llegada solo lo gestionan operadores locales con carta de invitación y contratación de tour.",
         oficial="", maec=_maec("República Centroafricana")),
@@ -354,22 +350,17 @@ VISADOS = {
         oficial="https://www.migration.gov.bi/", maec=_maec("Burundi")),
     "burkina-faso": visa(
         "no_viable", "El visado existe y se tramita en línea, pero lo desaconsejan el MAEC, el FCDO y Canadá.",
-        "No tramitar: el tramo se sustituye por el norte de Ghana y Costa de Marfil; si algún día se reabriera, solicitar el eVisa en visaburkina.bf y la fiche de voyage en las 72 h previas.",
+        "No tramitar mientras el aviso de viaje siga igual; si algún día se rebajara, solicitar el eVisa en visaburkina.bf y la fiche de voyage en las 72 h previas.",
         ruta="fuera", entradas="Una o múltiples, estancia máxima 90 días", coste="33.000 FCFA turismo una entrada (~50 €); 55.000 FCFA múltiples entradas (~84 €)",
         alerta="Desde el 8 de abril de 2026 la «fiche de voyage» es obligatoria además del visado, y la validez del eVisa en pasos terrestres sigue sin confirmar.",
         oficial="https://www.visaburkina.bf/", maec=_maec("Burkina Faso")),
     "libia": visa(
         "no_viable", "Existe eVisa turístico desde marzo de 2024, pero lo patrocina una agencia libia autorizada y obliga a guía y policía turística: no hay visado para un viajero independiente con vehículo propio.",
-        "Descartar Libia en la ruta; quien quiera ir, que contrate aparte un tour cerrado con agencia autorizada y tramite la eVisa en evisa.gov.ly.",
+        "Por libre no es viable; quien quiera ir, que contrate un tour cerrado con agencia autorizada y tramite la eVisa en evisa.gov.ly.",
         ruta="fuera", entradas="Una entrada, 30 días de estancia, validez de 90 días", coste="63 USD la eVisa; el tour, de 1.100 € por tres días a 2.850 € por once días",
         alerta="El MAEC exige visado de entrada Y de salida, el pasaporte con rastro de viaje a Israel es rechazo directo y un visado emitido fuera puede no ser reconocido en la zona controlada por el otro gobierno.",
         oficial="https://evisa.gov.ly (no verificada en esta sesión: bloqueada por robots.txt)", maec=_maec("Libia")),
 }
 
-# La imagen de planificación es la fuente única de fechas aproximadas. Las
-# notas manuales de esta tabla solo se conservan para países sin fecha propia.
-from data_planificacion import pasos_visado
-for _slug, _datos in VISADOS.items():
-    _pasos = pasos_visado(_slug)
-    if _pasos:
-        _datos["pasos"] = _pasos
+# Las fechas y el número de entradas ya no se fijan aquí: los calcula el viaje
+# del Planificador (assets/js/viaje.js) en cada navegador.
