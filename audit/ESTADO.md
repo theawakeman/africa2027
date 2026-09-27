@@ -530,3 +530,4 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
 - 2026-09-27 · Planificador: «Guardar cambios en «viaje»» guarda el progreso del viaje cargado sin pedir nombre (con aviso de cambios sin guardar); el campo de nombre queda para «Guardar como».
 - 2026-09-27 · Planificador: cada punto del viaje muestra los km y días al volante del tramo que llega a él (con ~ si son aproximados).
 - 2026-09-27 · Planificador: avisos en un desplegable («⚠ N avisos · M importantes»), cerrado por defecto y recordando si lo dejas abierto.
+- 2026-09-27 · Planificador: nuevo paso Senegal–Guinea en Boundou Fourdou (eje Kalifourou–Koundara, N5) verificado como abierto; antes no había ningún puesto Senegal–Guinea utilizable y la ruta daba la vuelta por Guinea-Bisáu. «Ver rutas 4x4» oculta también los GPX importados y el dibujo de las pistas.

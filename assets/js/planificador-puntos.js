@@ -263,7 +263,7 @@ function pintar4x4(){
     .bindTooltip('<b>' + esc(r.nombre) + '</b><br>' + (r.gpx ? 'GPX' : 'Ruta 4x4') + ' · ~' + num(r.km) + ' km', {sticky: true, className: 'a27-tip'})
     .bindPopup(() => popRuta(r), {maxWidth: 330, minWidth: 250}).addTo(CAPA_4);
   if (ver) Object.values(R4).forEach(r => { if (!act || act.has(r.pais)) dib(r, r.estado === 'desaconsejada' ? '#B43A3A' : '#9C6B00'); });
-  Object.keys(GPX).forEach(id => dib(ruta4(id), '#7B3FA0'));
+  if (ver) Object.keys(GPX).forEach(id => dib(ruta4(id), '#7B3FA0'));
   const ul = $('pp-gpx'); if (ul) { const ks = Object.keys(GPX);
     $('pp-gpx-n').textContent = ks.length ? ks.length + '' : '';
     ul.innerHTML = ks.map(id => `<li><span><button type="button" class="pp-ver" data-gpxver="${esc(id)}">${esc(GPX[id].nombre)}</button><small>${num(GPX[id].km)} km</small></span><button type="button" class="pp-b ida" data-r4="${esc(id)}|ida" title="Meter en la ida">+ Ida</button><button type="button" class="pp-b vuelta" data-r4="${esc(id)}|vuelta" title="Meter en la vuelta">+ Vuelta</button><button type="button" class="pp-b x" data-gpxq="${esc(id)}" title="Quitar">✕</button></li>`).join(''); }
@@ -1005,7 +1005,7 @@ function pintarRuta(){
     if (t.pts.length < 2 || hav(t.pts[0], t.pts[t.pts.length - 1]) < .5) return;
     const lin = L.polyline(t.pts, {pane: 'rutas', color: t.ilegal ? '#B43A3A' : t.mitad === 'ida' ? '#1E7A8A' : '#C47F17', weight: t.paso ? 3 : 4, opacity: t.paso ? .6 : .85, dashArray: t.real && !t.rodeo && !t.ilegal ? null : '6 7'}).addTo(CAPA_RUTA);
     if (t.ilegal) lin.bindTooltip(`Cruce no válido: entra en ${esc(nom(t.ilegal.pais))} sin puesto fronterizo oficial`, {sticky: true});
-    if (t.pista) { const P = t.pista.pts; L.polyline(P, {pane: 'rutas', color: '#8B5A2B', weight: 5, opacity: .9, dashArray: '2 7', lineCap: 'round'}).bindTooltip(`Pista: ${esc(t.pista.nombre)} · ~${num(t.pista.km)} km`, {sticky: true}).addTo(CAPA_RUTA); }
+    if (t.pista && (!$('pp-verr4') || $('pp-verr4').checked)) { const P = t.pista.pts; L.polyline(P, {pane: 'rutas', color: '#8B5A2B', weight: 5, opacity: .9, dashArray: '2 7', lineCap: 'round'}).bindTooltip(`Pista: ${esc(t.pista.nombre)} · ~${num(t.pista.km)} km`, {sticky: true}).addTo(CAPA_RUTA); }
     else if (t.rodeo) lin.bindTooltip('Sin carretera razonable en el mapa de rutas: línea recta, km estimados', {sticky: true});
   });
   R.seq.filter(w => w.tipo === 'frontera').forEach(w => { const v = vDe(w.f);
@@ -1302,7 +1302,7 @@ document.addEventListener('change', e => {
   }
   if (e.target.id === 'pp-vertodos' || e.target.id === 'pp-ver4x4' || e.target.id === 'pp-verr4') {
     if (e.target.id !== 'pp-vertodos') try { localStorage.setItem('a27pp-' + e.target.id, e.target.checked ? '1' : '0'); } catch(err) {}
-    pintarPuntos(); pintar4x4(); }
+    pintarPuntos(); pintar4x4(); if (e.target.id === 'pp-verr4' && R) pintarRuta(); }
   if (e.target.id === 'pp-gpx-in' && e.target.files.length) { [...e.target.files].forEach(leerGPX); e.target.value = ''; }
   if (e.target.id === 'pp-importar' && e.target.files[0]) { importar(e.target.files[0]); e.target.value = ''; }
 });
