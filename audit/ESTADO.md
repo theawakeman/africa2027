@@ -434,3 +434,23 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   Túnez — Sáhara militar al sur y este de Rjim Maatoug–Borj Bourguiba–Ben Guerdane (autorización
   previa, Francia 15-09-2026), desierto al sur de Douz salvo Douz–Jebil–Ksar Ghilane (guía) y Mesa
   de Yugurta (circuito con guía). Avisos por punto y km de carretera, como las otras zonas.
+
+## Fronteras comprobadas con fuentes y sin cruces fuera de puesto (27-09-2026)
+
+- `tools/gen/fronteras_verificadas.json`: 107 pasos (los 161 puestos terrestres de las fichas, 66 pares
+  de países) comprobados con 294 fuentes (MAEC, FCDO, embajadas, Sahara Overland, iOverlander,
+  crónicas 2024-2026). 63 abiertos, 23 con condiciones, 12 sin confirmar, 9 cerrados.
+- Cerrados (el planificador ya no los usa): Salloum–Amsaad, Qustul y Argeen, Adré, Malanville–Gaya,
+  Labbezanga, Metema–Gallabat, Gogui, Dehiba–Wazin.
+- Planificador: solo se cambia de país por un puesto oficial utilizable (sin puesto no hay arista en el
+  camino de países); se prefieren abiertos > con condiciones > sin confirmar. Cada tramo de OSRM se
+  recorre cada 5 km: si entra más de 25 km en un país sin puesto oficial se prueba otra alternativa de
+  OSRM (`alternatives=3`) y, si ninguna sirve, sale en rojo discontinuo con aviso. Se admite atravesar
+  un tercer país si se entra y se sale por puestos (Gambia).
+- Puestos del mapa coloreados por estado y con ventana de resumen y fuentes; tabla «Pasos fronterizos
+  comprobados» en el Planificador (#fronteras).
+- Datos por corregir en las fichas: egipto-f1 con las coordenadas de Argeen (cerrado igualmente);
+  sahara-occidental-f3 situado en Smara (variante interior desaconsejada por el FCDO; la costera sale
+  por Tah); gambia-f6 es el puente de Senegambia, no un puesto; malaui-f6 «Kameme» dudoso.
+- Mapas de fichas y mapa general: al abrir solo se ven el viaje, los PDI y las fronteras; el resto se
+  activa en la leyenda. Sin recuadro de foco al clicar un país.

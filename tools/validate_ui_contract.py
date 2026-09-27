@@ -36,7 +36,8 @@ require("translateX(-' + (index * 100) + '%)" in map_js or
         "translateX(-' + (index * 100) + '%)" in (ROOT / "tools/gen/build.py").read_text(encoding="utf-8"),
         "el carrusel debe desplazar una fotografía cada vez")
 
-# Contrato del mapa: control plegado y solo los dos corredores y los PDI activos.
+# Contrato del mapa: control plegado; al abrir solo el viaje (ida y vuelta), los PDI y las fronteras
+# (petición de David, 27-09-2026). El resto de capas se activa desde la leyenda.
 require("{collapsed: true}" in map_js, "la leyenda debe arrancar plegada")
 match = re.search(r'<script>var A27_GEN = (\{.*?\});</script>', map_html, re.S)
 require(match, "no se encuentra la configuración generada del mapa")
@@ -45,6 +46,7 @@ require(config.get("defaultOn") == [
     "Ruta · ida",
     "Ruta · vuelta",
     "Puntos de interés",
+    "Fronteras",
 ], "las capas visibles por defecto han cambiado")
 require(config.get("viaje") is True and config.get("viajeIdaVuelta") == ["Ruta · ida", "Ruta · vuelta"],
         "el mapa general debe dibujar el viaje calculado en el Planificador")

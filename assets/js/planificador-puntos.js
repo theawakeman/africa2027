@@ -85,9 +85,14 @@ function enlace(a, b){
   // Rodeo absurdo (pista que OpenStreetMap no enlaza o frontera cerrada que sí enlaza):
   // se descarta y queda en línea recta con km estimados.
   if (e && e.km > 2.5 * d + 100) return {pts: [a, b], km: d * F, real: true, rodeo: true};
-  if (e) return {pts: inv ? e.p.slice().reverse() : e.p, km: e.km, real: true};
+  if (e) { const al = (e.alt || []).map(x => ({pts: inv ? x.p.slice().reverse() : x.p, km: x.km}));
+    return {pts: inv ? e.p.slice().reverse() : e.p, km: e.km, real: true, alts: al, conAlt: !!e.alt, key}; }
   if (!(Date.now() - (FALLO.get(key) || 0) < 60000) && !COLA.has(key)) { COLA.set(key, inv ? [b, a] : [a, b]); setTimeout(pedir, 0); }
   return {pts: [a, b], km: d * F, real: false};
+}
+function repedir(key, a, b){
+  if (!ENL[key] || ENL[key].alt || COLA.has(key) || Date.now() - (FALLO.get(key) || 0) < 60000) return;
+  COLA.set(key, ck(a) > ck(b) ? [b, a] : [a, b]); setTimeout(pedir, 0);
 }
 // Tramo con pista conocida: si empieza (o acaba) junto a un extremo de una pista y
 // esta le acerca al destino, se sigue la pista y el resto va por carretera.
@@ -112,11 +117,13 @@ function tramo(a, b){
 function pedir(){
   while (VUELO < 3 && COLA.size) {
     const [key, [a, b]] = COLA.entries().next().value; COLA.delete(key); VUELO++;
-    fetch(OSRM + a[1] + ',' + a[0] + ';' + b[1] + ',' + b[0] + '?overview=simplified&geometries=geojson')
+    fetch(OSRM + a[1] + ',' + a[0] + ';' + b[1] + ',' + b[0] + '?overview=simplified&geometries=geojson&alternatives=3')
       .then(r => r.ok ? r.json() : Promise.reject(r.status))
       .then(j => { const rt = j.routes && j.routes[0]; if (!rt) throw 0;
-        const p = rt.geometry.coordinates.map(c => [Math.round(c[1] * 1e3) / 1e3, Math.round(c[0] * 1e3) / 1e3]);
-        ENL[key] = {km: Math.round(rt.distance / 100) / 10, p: [a, ...p.slice(1, -1), b]};
+        const geo = r => { const p = r.geometry.coordinates.map(c => [Math.round(c[1] * 1e3) / 1e3, Math.round(c[0] * 1e3) / 1e3]);
+          return {km: Math.round(r.distance / 100) / 10, p: [a, ...p.slice(1, -1), b]}; };
+        // Se guardan también las alternativas: si la primera sale del país sin pasar por un puesto oficial, se prueba otra.
+        ENL[key] = {...geo(rt), alt: j.routes.slice(1).map(geo)};
         clearTimeout(T_GUARDA); T_GUARDA = setTimeout(() => { try { localStorage.setItem(LKEY, JSON.stringify(ENL)); } catch(e) {} }, 800); })
       .catch(() => { FALLO.set(key, Date.now()); })
       .finally(() => { VUELO--; clearTimeout(T_REP); T_REP = setTimeout(() => { if (!VUELO && !COLA.size) calcular(); }, 300); pedir(); });
@@ -144,6 +151,9 @@ function caminoPaises(a, b){
     hecho.add(u);
     (GRAFO[u] || []).forEach(([v, t]) => {
       if (t === 'cerrada' || !PA[v] || !PA[v].pos || !PA[u] || !PA[u].pos) return;
+      // Por tierra solo se pasa de un país a otro por un puesto fronterizo oficial y utilizable
+      // (comprobado con fuentes: fronteras_verificadas.json). Sin puesto no hay arista.
+      if (t !== 'ferry' && !SINCTRL.has(u + '|' + v) && !(FRPAR[u < v ? u + '|' + v : v + '|' + u] || []).length) return;
       const libre = act.has(v) || v === b;
       if ((t === 'evitar' || PA[v].cf) && !libre) return;
       if (ev.has(v) && v !== b) return;
@@ -155,13 +165,52 @@ function caminoPaises(a, b){
   const p = [b]; let x = b; while (x !== a) { x = prev[x]; p.unshift(x); }
   return p;
 }
+const PEN_V = {abierta: 0, abierta_condiciones: 60, sin_confirmar: 400, sin_dato: 400, cerrada: 1e6};
+const V_TXT = {abierta: 'abierto', abierta_condiciones: 'abierto con condiciones', sin_confirmar: 'sin confirmar', sin_dato: 'sin comprobar', cerrada: 'cerrado'};
+const V_COL = {abierta: '#2E7D32', abierta_condiciones: '#C47F17', sin_confirmar: '#8A6BB0', sin_dato: '#9AA4AA', cerrada: '#B43A3A'};
+const vDe = f => (f.verif && f.verif.v) || (f.estado === 'cerrada' ? 'cerrada' : 'sin_dato');
+function popFrontera(f){
+  const v = vDe(f), fu = (f.verif && f.verif.fuentes) || [];
+  return `<div class="pp-pop"><strong>${esc(f.nombre)}</strong><small>${esc(nom(f.pais))} – ${esc(nom(f.otro))}</small>
+    <span class="pp-vd" style="border-left-color:${V_COL[v]}"><b>${esc(V_TXT[v])}</b>${f.verif ? ' · comprobado el ' + esc(f.verif.fecha) : ''}</span>
+    ${f.verif ? `<p>${esc(f.verif.r)}</p>` : '<p>Sin comprobación con fuentes: no se usa para calcular la ruta si hay otro puesto.</p>'}
+    ${fu.length ? `<div class="pp-fu"><b>Fuentes</b>${fu.map(x => `<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t || x.u)}</a>${x.d ? ' <small>(' + esc(x.d) + ')</small>' : ''}`).join('')}</div>` : ''}
+    <a href="${raiz}${esc(f.ficha)}" target="_blank" rel="noopener">Ver en la ficha del país</a></div>`;
+}
 function puesto(x, y, desde, hacia){
   const c = FRPAR[x < y ? x + '|' + y : y + '|' + x] || [];
   let best = null, bd = Infinity;
   // Se prefieren los puestos por los que pasan los recorridos de las fichas (pasos
   // oficiales ya estudiados): uno que no está en ningún recorrido cuenta 250 km más.
-  c.forEach(f => { const d = hav(desde, [f.lat, f.lon]) + hav([f.lat, f.lon], hacia) + (f.cerca ? 0 : 250); if (d < bd) { bd = d; best = f; } });
+  // Y según la comprobación con fuentes: abierto sin más < abierto con condiciones < sin confirmar.
+  c.forEach(f => { const d = hav(desde, [f.lat, f.lon]) + hav([f.lat, f.lon], hacia) + (f.cerca ? 0 : 250) + PEN_V[vDe(f)]; if (d < bd) { bd = d; best = f; } });
   return best;
+}
+
+// ------------------------------------------------------------------ cruces de frontera fuera de puesto
+const tNom = w => w.tipo === 'punto' ? w.p.nombre.split(' · ')[0] : (w.nombre || '');
+// Recorre la carretera cada ~5 km. Devuelve el primer tramo de más de 25 km en un país que no toca
+// (los roces cortos son carreteras pegadas a la frontera y el dibujo aproximado de los países).
+// Se admite atravesar un tercer país si se entra y se sale por puestos oficiales (p. ej. Gambia).
+function cruceIlegal(pts, perm, fws){
+  const mues = [], bordes = fws.map(w => w.pos), excl = new Set(fws.flatMap(w => [w.f.pais, w.f.otro]));
+  for (let i = 1; i < pts.length; i++) { const a = pts[i - 1], b = pts[i], n = Math.max(1, Math.ceil(hav(a, b) / 5));
+    for (let k = 1; k <= n; k++) { const q = [a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n];
+      mues.push({q, s: bordes.some(x => hav(x, q) < 20) ? null : paisDe(q[0], q[1]), km: hav(a, b) / n}); } }
+  let run = null, prev = [...perm][0];
+  const cierra = fin => {
+    if (!run || run.km <= 25) return null;
+    const cerca = (x, y, q) => (FRPAR[x < y ? x + '|' + y : y + '|' + x] || []).some(f => hav([f.lat, f.lon], q) < 30);
+    const tercero = !perm.has(run.s) && !excl.has(run.s), ok = tercero && fin && cerca(run.de, run.s, run.pos) && cerca(run.s, fin.s, fin.q);
+    return ok ? null : {pais: run.s, de: run.de, pos: run.pos, pos2: run.last};
+  };
+  for (const m of mues) {
+    if (!m.s) continue;
+    if (perm.has(m.s)) { const r = cierra(m); if (r) return r; run = null; prev = m.s; continue; }
+    if (run && run.s === m.s) { run.km += m.km; run.last = m.q; }
+    else { const r = cierra(m); if (r) return r; run = {s: m.s, de: prev, km: m.km, pos: m.q, last: m.q}; }
+  }
+  return cierra(null);
 }
 
 // ------------------------------------------------------------------ la ruta
@@ -177,24 +226,51 @@ function calcular(){
   // Fronteras entre puntos de países distintos
   const seq = [wp[0]], avisos = [];
   for (let i = 1; i < wp.length; i++) {
-    const a = seq[seq.length - 1], b = wp[i];
+    const a = seq[seq.length - 1]; let b = wp[i];
     if (a.pais && b.pais && a.pais !== b.pais) {
       const cam = caminoPaises(a.pais, b.pais);
-      if (!cam) avisos.push({rojo: true, ir: {pais: b.pais}, t: `No hay camino por carretera permitido entre ${esc(nom(a.pais))} y ${esc(nom(b.pais))} (fronteras cerradas o países en conflicto sin marcar).`});
+      if (!cam) { avisos.push({rojo: true, ir: {pais: b.pais}, t: `No hay camino por carretera permitido entre ${esc(nom(a.pais))} y ${esc(nom(b.pais))} (fronteras cerradas, sin puesto oficial utilizable o países en conflicto sin marcar).`}); b = {...b, perm: [a.pais, b.pais]}; }
       else {
-        let desde = a.pos;
+        let desde = a.pos, cur = [a.pais];
         for (let k = 0; k < cam.length - 1; k++) {
-          if (SINCTRL.has(cam[k] + '|' + cam[k + 1])) continue;
+          if (SINCTRL.has(cam[k] + '|' + cam[k + 1])) { cur.push(cam[k + 1]); continue; }
           const f = puesto(cam[k], cam[k + 1], desde, b.pos);
-          if (f) { seq.push({tipo: 'frontera', f, pos: [f.lat, f.lon], pais: cam[k + 1], mitad: b.mitad, nombre: f.nombre}); desde = [f.lat, f.lon]; }
+          if (f) { seq.push({tipo: 'frontera', f, pos: [f.lat, f.lon], pais: cam[k + 1], mitad: b.mitad, nombre: f.nombre, perm: cur}); desde = [f.lat, f.lon]; cur = [cam[k + 1]]; }
+          else {   // arista por mar (ferry): el tramo puede tocar los dos países
+            cur.push(cam[k + 1]);
+            const e = (GRAFO[cam[k]] || []).find(([v]) => v === cam[k + 1]);
+            if (!e || e[1] !== 'ferry') avisos.push({rojo: true, ir: {pais: cam[k + 1]}, t: `No hay ningún puesto fronterizo oficial utilizable entre ${esc(nom(cam[k]))} y ${esc(nom(cam[k + 1]))}.`});
+          }
         }
+        b = {...b, perm: cur};
       }
-    }
+    } else b = {...b, perm: [a.pais || b.pais]};
     seq.push(b);
   }
   // Tramos por carretera
   const tramos = [];
-  for (let i = 1; i < seq.length; i++) { const e = tramo(seq[i - 1].pos, seq[i].pos); tramos.push({a: seq[i - 1], b: seq[i], ...e, mitad: seq[i].mitad}); }
+  for (let i = 1; i < seq.length; i++) {
+    const A = seq[i - 1], B = seq[i];
+    let e = tramo(A.pos, B.pos);
+    // Ningún tramo puede cambiar de país fuera de un puesto oficial. Si la carretera calculada lo hace,
+    // se prueba con las alternativas del servidor de rutas; si ninguna sirve, se marca en rojo.
+    if (e.real && !e.rodeo && !e.pista && POLIS.length) {
+      const perm = new Set(B.perm || [A.pais, B.pais]), bordes = [A, B].filter(w => w.tipo === 'frontera');
+      let mal = cruceIlegal(e.pts, perm, bordes);
+      if (mal) {
+        const d = hav(A.pos, B.pos), ok = (e.alts || []).find(x => x.km <= 2.5 * d + 100 && !cruceIlegal(x.pts, perm, bordes));
+        if (ok) { e = {...e, pts: ok.pts, km: ok.km, alt: true}; mal = null; }
+        else if (!e.conAlt) repedir(e.key, A.pos, B.pos);
+      }
+      if (mal) e = {...e, ilegal: mal};
+    }
+    tramos.push({a: A, b: B, ...e, mitad: B.mitad});
+  }
+  tramos.filter(t => t.ilegal).forEach(t => avisos.push({rojo: true, ir: {pts: [t.ilegal.pos, t.ilegal.pos2 || t.ilegal.pos]},
+    t: `La carretera calculada entre <strong>${esc(tNom(t.a))}</strong> y <strong>${esc(tNom(t.b))}</strong> ${t.ilegal.pais ? `entra en <strong>${esc(nom(t.ilegal.pais))}</strong>` : 'cambia de país'} sin pasar por un puesto fronterizo oficial. No es un paso válido: está en rojo y discontinua. Añade un «pasar por aquí» (clic derecho) dentro de ${esc(nom(t.ilegal.de))} para llevarla por otra carretera.`}));
+  // Puestos con condiciones o sin confirmar por los que pasa la ruta
+  seq.filter((w, i) => w.tipo === 'frontera' && vDe(w.f) !== 'abierta' && seq.findIndex(x => x.f === w.f) === i).forEach(w => { const v = vDe(w.f);
+    avisos.push({rojo: v === 'sin_confirmar' || v === 'sin_dato', ir: {fr: w.f.id, pos: w.pos}, t: `Frontera <strong>${esc(w.f.nombre.replace(/^Frontera · /, ''))}</strong> (${esc(nom(w.f.pais))} – ${esc(nom(w.f.otro))}): ${esc(V_TXT[v])}. ${esc(w.f.verif ? w.f.verif.r.split('. ')[0].slice(0, 170) : '')}${w.f.verif && w.f.verif.r.length > 170 ? '…' : ''}`}); });
   // Km por país y países atravesados, en orden
   const kmPais = {}, runs = [], kmZona = {};
   const kmdia = Math.max(50, +S.kmdia || 300), margen = Math.max(0, +S.margen || 0) / 100;
@@ -232,14 +308,15 @@ function calcular(){
   const orden = runs.map(x => x.s);
   const entradas = {}; orden.forEach(s => { entradas[s] = (entradas[s] || 0) + 1; });
   const act = new Set(S.paises.concat([FI.f.pais, FV.f.pais]));
+  const ILEG = new Set(tramos.filter(t => t.ilegal).map(t => t.ilegal.pais));   // ya avisados como cruce no válido
   [...new Set(orden)].forEach(s => {
     if (PA[s] && PA[s].cf) avisos.push({rojo: true, ir: {pais: s}, t: `La ruta atraviesa <strong>${esc(nom(s))}</strong>: país en conflicto (el MAEC desaconseja el viaje).`});
-    else if (!act.has(s) && (kmPais[s] || 0) > 3) avisos.push({rojo: false, ir: {pais: s}, t: `La ruta cruza <strong>${esc(nom(s))}</strong> (${num(kmPais[s])} km), que no has marcado: cuenta su visado y su frontera.`});
+    else if (!act.has(s) && !ILEG.has(s) && (kmPais[s] || 0) > 3) avisos.push({rojo: false, ir: {pais: s}, t: `La ruta cruza <strong>${esc(nom(s))}</strong> (${num(kmPais[s])} km), que no has marcado: cuenta su visado y su frontera.`});
   });
   for (let i = 1; i < orden.length; i++) {
     const a = orden[i - 1], b = orden[i], e = (GRAFO[a] || []).find(([v]) => v === b);
     // Una línea recta provisional puede rozar un país vecino: no se da por cruzada una frontera cerrada.
-    if (e && e[1] === 'cerrada' && !runs[i].recta) avisos.push({rojo: true, ir: {pais: b}, t: `La carretera pasa de ${esc(nom(a))} a ${esc(nom(b))} por una frontera <strong>cerrada</strong>.`});
+    if (e && e[1] === 'cerrada' && !runs[i].recta && !ILEG.has(a) && !ILEG.has(b)) avisos.push({rojo: true, ir: {pais: b}, t: `La carretera pasa de ${esc(nom(a))} a ${esc(nom(b))} por una frontera <strong>cerrada</strong>.`});
   }
   // Zonas desaconsejadas: puntos dentro y km de carretera dentro
   todos.forEach(p => { const z = zonaDe(p.lat, p.lon); if (z) avisos.push({rojo: z.nivel === 'rojo', ir: {punto: p.id}, t: z.nivel === 'guia'
@@ -422,6 +499,8 @@ function irAviso(a){
   MAP.closePopup();
   if (g.punto) { const p = punto(g.punto); if (!p) return; MAP.setView([p.lat, p.lon], Math.max(MAP.getZoom(), 8));
     setTimeout(() => L.popup({maxWidth: 320, minWidth: 250}).setLatLng([p.lat, p.lon]).setContent(popPunto(p)).openOn(MAP), 250); return; }
+  if (g.fr) { const f = FRTODAS.find(x => x.id === g.fr); if (!f) return; MAP.setView(g.pos, Math.max(MAP.getZoom(), 8));
+    setTimeout(() => L.popup({maxWidth: 340, minWidth: 260}).setLatLng(g.pos).setContent(popFrontera(f)).openOn(MAP), 250); return; }
   if (g.zona) { const z = ZONAS.find(x => x.id === g.zona); if (!z) return; MAP.setView(g.pos, Math.max(MAP.getZoom(), 7)); setTimeout(() => popZona(z, L.latLng(g.pos)), 250); return; }
   if (g.pts && g.pts.length) { MAP.fitBounds(L.latLngBounds(g.pts), {padding: [40, 40], maxZoom: 9}); return; }
   if (g.pais && PAISES) { let lay = null; PAISES.eachLayer(l => { if (l.feature.properties.slug === g.pais) lay = l; });
@@ -769,16 +848,19 @@ function pintarRuta(){
   if (!R) return;
   R.tramos.forEach(t => {
     if (t.pts.length < 2 || hav(t.pts[0], t.pts[t.pts.length - 1]) < .5) return;
-    const lin = L.polyline(t.pts, {pane: 'rutas', color: t.mitad === 'ida' ? '#1E7A8A' : '#C47F17', weight: 4, opacity: .85, dashArray: t.real && !t.rodeo ? null : '6 7'}).addTo(CAPA_RUTA);
+    const lin = L.polyline(t.pts, {pane: 'rutas', color: t.ilegal ? '#B43A3A' : t.mitad === 'ida' ? '#1E7A8A' : '#C47F17', weight: 4, opacity: .85, dashArray: t.real && !t.rodeo && !t.ilegal ? null : '6 7'}).addTo(CAPA_RUTA);
+    if (t.ilegal) lin.bindTooltip(`Cruce no válido: entra en ${esc(nom(t.ilegal.pais))} sin puesto fronterizo oficial`, {sticky: true});
     if (t.pista) { const P = t.pista.pts; L.polyline(P, {pane: 'rutas', color: '#8B5A2B', weight: 5, opacity: .9, dashArray: '2 7', lineCap: 'round'}).bindTooltip(`Pista: ${esc(t.pista.nombre)} · ~${num(t.pista.km)} km`, {sticky: true}).addTo(CAPA_RUTA); }
     else if (t.rodeo) lin.bindTooltip('Sin carretera razonable en el mapa de rutas: línea recta, km estimados', {sticky: true});
   });
-  R.seq.filter(w => w.tipo === 'frontera').forEach(w => L.marker(w.pos, {icon: L.divIcon({className: '', html: '<div class="pp-fr"></div>', iconSize: [12, 12], iconAnchor: [6, 6]}), zIndexOffset: 300})
-    .bindTooltip('Frontera: ' + esc(w.f.nombre) + ' (' + esc(nom(w.f.pais)) + ' – ' + esc(nom(w.f.otro)) + ')').addTo(CAPA_FR));
+  R.seq.filter(w => w.tipo === 'frontera').forEach(w => { const v = vDe(w.f);
+    L.marker(w.pos, {icon: L.divIcon({className: '', html: `<div class="pp-fr" style="background:${V_COL[v]}"></div>`, iconSize: [12, 12], iconAnchor: [6, 6]}), zIndexOffset: 300})
+      .bindTooltip('Frontera: ' + esc(w.f.nombre) + ' · ' + V_TXT[v] + ' (clic: fuentes)').bindPopup(popFrontera(w.f), {maxWidth: 340, minWidth: 260}).addTo(CAPA_FR); });
   if ($('pp-verfr').checked) FRTODAS.forEach(f => {
     if (R.seq.some(w => w.f === f)) return;
-    L.circleMarker([f.lat, f.lon], {radius: 4, color: '#5F6B72', weight: 1, fillColor: f.estado === 'cerrada' ? '#B43A3A' : '#fff', fillOpacity: 1})
-      .bindTooltip(esc(f.nombre) + ' · ' + esc(nom(f.pais)) + ' – ' + esc(nom(f.otro)) + (f.estado !== 'abierta' ? ' · ' + f.estado : '')).addTo(CAPA_FR);
+    const v = vDe(f);
+    L.circleMarker([f.lat, f.lon], {radius: 5, color: '#fff', weight: 1.5, fillColor: V_COL[v], fillOpacity: 1})
+      .bindTooltip(esc(f.nombre) + ' · ' + esc(nom(f.pais)) + ' – ' + esc(nom(f.otro)) + ' · ' + V_TXT[v]).bindPopup(popFrontera(f), {maxWidth: 340, minWidth: 260}).addTo(CAPA_FR);
   });
   const pts = [[R.FI.f, 'Llegada'], [R.FV.f, 'Salida']];
   (R.FI.f.id === R.FV.f.id ? [[R.FI.f, 'Llegada y salida']] : pts).forEach(([f, txt]) =>
@@ -1068,7 +1150,7 @@ Promise.all([
   fetch(raiz + 'assets/js/africa.geo.json').then(r => r.json()),
 ]).then(([d, g]) => {
   d.puntos.forEach(p => { PUNTOS[p.id] = p; (PORPAIS[p.pais] = PORPAIS[p.pais] || []).push(p); });
-  d.fronteras.filter(f => f.tipo === 'terrestre' && f.otro && f.fiable && f.oficial && ['abierta', 'revisar'].includes(f.estado)).forEach(f => {
+  d.fronteras.filter(f => f.tipo === 'terrestre' && f.otro && f.fiable && f.oficial && ['abierta', 'revisar'].includes(f.estado) && vDe(f) !== 'cerrada').forEach(f => {
     const k = f.pais < f.otro ? f.pais + '|' + f.otro : f.otro + '|' + f.pais; (FRPAR[k] = FRPAR[k] || []).push(f); });
   FRTODAS = d.fronteras.filter(f => f.tipo === 'terrestre' && f.otro);
   (d.sin_control || []).forEach(([a, b]) => { SINCTRL.add(a + '|' + b); SINCTRL.add(b + '|' + a); });

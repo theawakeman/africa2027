@@ -178,6 +178,7 @@ CSS = """
 .bud-mapkey{display:flex;flex-wrap:wrap;gap:14px;font-family:"Archivo",sans-serif;font-size:12.5px;color:var(--ink-soft);margin:6px 0 0}
 .bud-mapkey i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:6px;vertical-align:-2px}
 #bud-mapa .leaflet-interactive{cursor:pointer}
+.leaflet-container path.leaflet-interactive:focus{outline:none}
 .bud-actions select{max-width:320px;width:auto;padding:8px 10px;border-radius:8px;font-weight:600}
 .bud-msg{background:var(--amber-bg);border:1px solid var(--amber);border-radius:10px;padding:10px 14px;font-size:14.5px;margin:8px 0}
 .bud-itin{list-style:none;margin:10px 0 0;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}

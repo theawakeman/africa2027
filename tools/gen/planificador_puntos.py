@@ -219,6 +219,19 @@ def construir(FULL, C, FRONTERAS, ISLAS):
             fronteras.append(f)
             if not fiable or not oficial or estado == "revisar":
                 dudas["frontera"].append(f)
+    # Comprobación de cada paso con fuentes (tools/gen/fronteras_verificadas.json, 27-09-2026):
+    # «cerrada» deja de usarse para calcular la ruta; el resto lleva su veredicto, resumen y fuentes.
+    ver = json.loads((Path(__file__).with_name("fronteras_verificadas.json")).read_text(encoding="utf-8"))
+    por_id = {i: v for v in ver["pasos"] for i in v["ids"]}
+    for f in fronteras:
+        v = por_id.get(f["id"])
+        if not v:
+            continue
+        f["verif"] = {"v": v["veredicto"], "paso": v["paso"], "r": v["resumen"],
+                      "fuentes": [{"t": x.get("titulo", ""), "u": x["url"], "d": x.get("fecha", "")} for x in v.get("fuentes", []) if x.get("url")],
+                      "fecha": ver["verificado"]}
+        if v["veredicto"] == "cerrada":
+            f["estado"] = "cerrada"
     datos = {"version": 1, "puntos": puntos, "fronteras": fronteras,
              "islas": sorted(ISLAS), "sin_control": SIN_CONTROL}
     return datos, dudas

@@ -472,7 +472,10 @@ MAPA_GENERAL_CAPAS = {
     "variante":    ("Variantes por país",          "#5F6B72", True),
     "alternativa": ("Ramales y alternativas",      "#9AA5AB", True),
 }
-MAPA_GENERAL_ON = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés"]
+# Capas encendidas al abrir cualquier mapa: el viaje, los puntos de interés y las fronteras.
+# El resto (recorridos de la ficha, variantes, hospitales, consulados, agua, combustible…) se enciende desde la leyenda.
+MAPA_FICHA_ON = ["Tu viaje", "Puntos de interés", "Fronteras"]
+MAPA_GENERAL_ON = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés", "Fronteras"]
 MAPA_GENERAL_ORDEN = ["Ruta · ida", "Ruta · vuelta", "Puntos de interés",
                       "Variantes por país", "Ramales y alternativas", "Fronteras", "Hospitales",
                       "Consulados", "Agua de servicio", "Combustible", "Servicios"]
@@ -581,7 +584,8 @@ def render_ficha(d):
 
     # --- interactive map section ---
     cfg = {"center": d["center"], "zoom": d["zoom"], "root": root,
-           "points": map_points(d, with_ficha=False), "lines": map_lines(d), "viaje": True}
+           "points": map_points(d, with_ficha=False), "lines": map_lines(d), "viaje": True,
+           "defaultOn": MAPA_FICHA_ON}
     for p in cfg["points"]:
         if p["type"] == "poi":
             n = next(x["n"] for x in d["pois"] if x["name"] == p["name"])
@@ -593,7 +597,7 @@ def render_ficha(d):
     map_html = (
         f'<div class="callout viaje-ruta" data-viaje-ruta hidden></div>'
         f'<div id="fichamap" class="mapbox"></div>'
-        f'<p class="figcap">Activa o desactiva los recorridos y ramales desde la leyenda. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'
+        f'<p class="figcap">Al abrirse se ven tu viaje, los puntos de interés y las fronteras; los recorridos, ramales, hospitales, consulados, agua y combustible se activan desde la leyenda. Mapa de planificación (OpenStreetMap); navegar con OsmAnd/Google Maps y GPX validado. Sin conexión se muestran los puntos sobre las zonas ya visitadas.</p>'
         f'<script>var A27_FICHA = {json.dumps(cfg, ensure_ascii=False)};</script>'
     )
     # El mapa ocupa siempre el punto 3. En las fichas con historia queda justo

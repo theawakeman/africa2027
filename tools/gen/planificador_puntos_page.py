@@ -129,6 +129,12 @@ CSS = """
 .pp-dlg-acc .en{font:600 12.5px "Archivo",sans-serif;color:var(--ink-soft);margin-right:4px}
 .pp-mk{border-radius:50%;color:#fff;font:700 11px "Archivo",sans-serif;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.35)}
 .pp-mk.ida{background:#1E7A8A}.pp-mk.vuelta{background:#C47F17}.pp-mk.libre{border-style:dashed}
+/* Sin el recuadro de foco del navegador al clicar un país o una zona: basta el cambio de color */
+.leaflet-container path.leaflet-interactive:focus,.leaflet-container path.leaflet-interactive:focus-visible{outline:none}
+.pp-vd{display:inline-block;border-left:4px solid #9AA4AA;padding:1px 0 1px 7px;margin:3px 0;font-size:12.5px;color:var(--ink,#1F2A30)}
+.pp-fu a{display:block;font-size:12px;line-height:1.35;margin:2px 0;word-break:break-word}.pp-fu small{color:#5F6B72}
+.pp-pop p{font-size:12.5px;line-height:1.4;margin:4px 0 6px}.pp-pop .pp-fu{margin:4px 0 6px;max-height:150px;overflow:auto}.pp-pop small{display:block;color:#5F6B72}
+.pp-frt td{vertical-align:top;font-size:13px}.pp-frt td:nth-child(4){min-width:260px}.pp-frt td:nth-child(5){min-width:200px}
 .pp-fr{width:12px;height:12px;background:#5F6B72;transform:rotate(45deg);border:2px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.4)}
 .pp-puerto{font-size:18px;line-height:1}
 .pp-ayuda{font-size:12.5px;color:var(--ink-soft);margin:0}
@@ -226,6 +232,7 @@ table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);backgrou
 BUD_PERRO = P.PERRO_FERRY
 CRITERIO = [
     "El viaje es la lista de puntos de la ida y de la vuelta, en ese orden. Entre dos puntos de países distintos se busca el camino de países más corto por fronteras abiertas; se prefieren los puestos por los que pasan los recorridos de las fichas. Los países en conflicto (Malí, Sudán, Libia, Burkina Faso, Níger, Chad, República Centroafricana, Sudán del Sur, Somalia) y los que marques como «evitar» solo se usan si no hay otro camino, siempre con aviso.",
+    "Fronteras: solo se cambia de país por un puesto fronterizo oficial. Cada puesto está comprobado con fuentes (MAEC, FCDO, embajadas, Sahara Overland, iOverlander y crónicas de viajeros de 2024-2026): los cerrados no se usan; entre los abiertos se prefieren los que no tienen condiciones y se evitan los que no se han podido confirmar. Si la carretera que da el servidor de rutas sale del país sin pasar por un puesto, se prueba otra carretera y, si no hay, el tramo sale en rojo con aviso. Debajo, la tabla con cada paso y sus fuentes.",
     "Al añadir un punto se mete en el hueco de su mitad (ida o vuelta) donde menos km suma; «Ordenar por cercanía» rehace el orden de esa mitad. Se puede arrastrar cualquier punto, también de una mitad a la otra.",
     "Carretera: OSRM (OpenStreetMap), pedida al calcular y guardada en el navegador. Sin respuesta, línea recta × 1,25 (discontinua). Si el servidor da un rodeo de más del doble, se descarta y se avisa. Pistas que OpenStreetMap no enlaza (Hassi 75 – Zuérat) van dibujadas a mano con km aproximados.",
     "Km por país: la carretera se trocea y cada tramo cuenta en el país donde cae. Un roce de menos de 25 km sin paradas con otro país no cuenta como estancia.",
@@ -239,11 +246,40 @@ CRITERIO = [
 ]
 
 
+V_TXT = {"abierta": ("abierto", "#2E7D32"), "abierta_condiciones": ("con condiciones", "#C47F17"),
+         "sin_confirmar": ("sin confirmar", "#8A6BB0"), "cerrada": ("cerrado", "#B43A3A")}
+
+
+def tabla_fronteras():
+    """Pasos fronterizos comprobados con fuentes (tools/gen/fronteras_verificadas.json)."""
+    ver = json.loads((_P(__file__).with_name("fronteras_verificadas.json")).read_text(encoding="utf-8"))
+    nom = lambda s: C[s]["name"] if s in C else s.replace("-", " ").capitalize()
+    pasos = sorted(ver["pasos"], key=lambda v: (["cerrada", "sin_confirmar", "abierta_condiciones", "abierta"].index(v["veredicto"]), v["par"]))
+    cuenta = {k: sum(1 for v in pasos if v["veredicto"] == k) for k in V_TXT}
+    filas = []
+    for v in pasos:
+        par = " – ".join(nom(x) for x in v["par"].split("|")) if "|" in v["par"] else esc(v["par"])
+        t, col = V_TXT[v["veredicto"]]
+        fu = "".join(f'<a href="{esc(x["url"])}" target="_blank" rel="noopener">{esc(x.get("titulo") or x["url"])}</a>'
+                     + (f' <small>({esc(x["fecha"])})</small>' if x.get("fecha") else "") for x in v.get("fuentes", []) if x.get("url"))
+        filas.append(f'<tr data-v="{v["veredicto"]}"><td>{esc(par)}</td><td>{esc(v["paso"])}</td>'
+                     f'<td><span class="pp-vd" style="border-left-color:{col}"><b>{t}</b></span></td>'
+                     f'<td>{esc(v["resumen"])}</td><td class="pp-fu">{fu}</td></tr>')
+    resumen = " · ".join(f'<span class="pp-vd" style="border-left-color:{V_TXT[k][1]}"><b>{cuenta[k]}</b> {V_TXT[k][0]}</span>' for k in V_TXT)
+    return f"""<section id="fronteras" class="pp-bud">
+  <h2>Pasos fronterizos comprobados</h2>
+  <p class="pp-ayuda">Comprobados el {esc(ver["verificado"])}, cada uno con sus fuentes. {resumen}. El planificador no usa los cerrados, evita los que no se han podido confirmar y avisa de las condiciones de los demás. En el mapa, «Ver puestos fronterizos» los pinta con el mismo color; al hacer clic en uno salen su resumen y sus fuentes. Revisar el MAEC antes de cada frontera: esto cambia.</p>
+  <details class="pp-det"><summary>Ver los {len(pasos)} pasos con sus fuentes</summary>
+  <div class="pp-tw"><table class="pp-bt pp-frt"><thead><tr><th>Países</th><th>Paso</th><th>Estado</th><th>Qué dicen las fuentes</th><th>Fuentes</th></tr></thead>
+  <tbody>{"".join(filas)}</tbody></table></div></details>
+</section>"""
+
+
 def render(FULL, navbar, VERSION):
     root = "../"
     nav = navbar(root, [("Portal", root), ("Mapa", root + "mapa/"), ("Documentación", root + "documentacion/"),
                         ("Visados", root + "visados/"), ("CPD", root + "cpd/"), ("El perro", root + "perro/"),
-                        ("Presupuesto", "#pp-bud"), ("Criterio", "#criterio"), ("Clásico", root + "planificador-clasico/")], "Planificador")
+                        ("Presupuesto", "#pp-bud"), ("Criterio", "#criterio"), ("Fronteras", "#fronteras"), ("Clásico", root + "planificador-clasico/")], "Planificador")
     cfg = config(FULL)
     body = f"""{nav}
 <main style="max-width:1500px">
@@ -339,6 +375,7 @@ def render(FULL, navbar, VERSION):
   <h2>Criterio</h2>
   {bullets(CRITERIO)}
 </section>
+{tabla_fronteras()}
 <div id="pp-msg" role="status" aria-live="polite" hidden></div>
 <footer>ÁFRICA 2027 · Planificador · <a href="{root}planificador-clasico/">Planificador clásico</a></footer>
 </main>
