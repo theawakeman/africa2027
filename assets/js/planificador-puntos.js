@@ -309,7 +309,18 @@ function presupuesto(R){
   const total = veh.reduce((t, v) => t + Rr[v.id].total, 0), aval = veh.reduce((t, v) => t + v.aval, 0);
   const cat = {}; CATS.forEach(([k]) => { cat[k] = veh.reduce((t, v) => t + Rr[v.id][k], 0); });
   const ferris = [['ida', R.FI.f], ['vuelta', R.FV.f]].map(([dir, f]) => ({dir, f, eur: veh.reduce((t, v) => t + precioFerry(f, dir, v), 0)}));
-  return {veh, Rr, total, aval, cat, filas, ferris, visPP, tasas, nPers, km: litros, desv, ajustado: Object.keys(A).length > 0};
+  const nVeh = veh.length, perros = veh.reduce((t, v) => t + v.perros, 0);
+  const base = veh.reduce((t, v) => t + Rr[v.id].total - Rr[v.id].imp, 0);
+  // Gastos del día a día y fijos: cada parámetro con lo que suma en este viaje
+  const gastos = BUD.params.map(p => {
+    const x = P[p.id], m = {persona_dia: nPers * dias, perro_dia: perros * dias, vehiculo_dia: nVeh * dias, persona: nPers, perro: perros,
+      vehiculo: nVeh, vehiculo_mes: nVeh * meses}[p.ambito];
+    return {...p, v: x, total: p.ambito === 'pct' ? base * x / 100 : x * (m || 0),
+      como: {persona_dia: `× ${num(nPers)} personas × ${num(dias)} días`, perro_dia: `× ${num(perros)} perro${perros === 1 ? '' : 's'} × ${num(dias)} días`,
+        vehiculo_dia: `× ${num(nVeh)} vehículos × ${num(dias)} noches`, persona: `× ${num(nPers)} personas`, perro: `× ${num(perros)} perro${perros === 1 ? '' : 's'}`,
+        vehiculo: `× ${num(nVeh)} vehículos`, vehiculo_mes: `× ${num(nVeh)} vehículos × ${num(meses, 1)} meses`, pct: `de ${eur(base)}`}[p.ambito] || ''};
+  });
+  return {veh, Rr, total, aval, cat, filas, ferris, visPP, tasas, nPers, km: litros, desv, gastos, perros, A, ajustado: Object.keys(A).length > 0};
 }
 function pintarPresupuesto(){
   const B = R && R.bud; if (!B || !$('pp-bud')) return;
@@ -331,9 +342,18 @@ function pintarPresupuesto(){
       <td class="n" title="${esc(f.visTxt)}">${f.vis ? (f.visUrl ? `<a href="${esc(f.visUrl)}" target="_blank" rel="noopener">${eur(f.vis * f.entradas)}</a>` : eur(f.vis * f.entradas)) : (f.visSin ? '<span class="nota">sin dato</span>' : '—')}</td>
       <td class="n" title="${esc(f.tasaTxt)}">${f.tasa ? eur(f.tasa * f.entradas) : '—'}</td></tr>`).join('')
     + B.ferris.map(x => `<tr class="eu"><td>Ferry de ${x.dir}: ${esc(x.dir === 'ida' ? x.f.origen + ' → ' + x.f.puerto : x.f.puerto + ' → ' + x.f.origen)}<span class="nota">${esc(x.f.naviera)} · ${num(x.f.h)} h · los dos vehículos</span></td><td class="n" colspan="6">${eur(x.eur)}</td></tr>`).join('');
+  const aj = (k, v, d, step, w) => `<input type="number" min="0" step="${step}" value="${+v.toFixed(2)}" data-aj="${k}" data-def="${d}" class="${k in B.A ? 'edited' : ''}" style="width:${w || 74}px" autocomplete="off" data-1p-ignore data-lpignore="true">`;
+  $('pp-bud-gastos').innerHTML = B.gastos.map(g => `<tr><td><strong>${esc(g.label)}</strong>${g.nota ? `<span class="nota">${esc(g.nota)}</span>` : ''}</td>
+      <td class="n">${aj('p.' + g.id, g.v, g.val, g.ambito === 'pct' ? 1 : 0.5)}</td><td>${esc(g.unidad)}<span class="nota">${esc(g.como)}</span></td><td class="n"><strong>${eur(g.total)}</strong></td></tr>`).join('')
+    + B.veh.map(v => `<tr class="eu"><td>CPD de ${esc(v.nombre)}<span class="nota">carnet; el aval de ${eur(v.aval)} no suma</span></td><td class="n">${num(v.cpd, 2)} €</td><td>por vehículo</td><td class="n">${eur(v.cpd)}</td></tr>`).join('')
+    + (B.perros ? `<tr class="eu"><td>Perro en los ferris<span class="nota">ida y vuelta</span></td><td class="n">${num(BUD.perro_ferry)} €</td><td>por trayecto y perro</td><td class="n">${eur(2 * BUD.perro_ferry * B.perros)}</td></tr>` : '');
+  $('pp-bud-veh').innerHTML = B.veh.map(v => `<div class="pp-card"><div class="lbl">${esc(v.nombre)}</div>
+      <label>Personas ${aj(v.id + '.personas', v.personas, BUD.vehiculos.find(x => x.id === v.id).personas, 1, 60)}</label>
+      <label>Perros ${aj(v.id + '.perros', v.perros, BUD.vehiculos.find(x => x.id === v.id).perros, 1, 60)}</label>
+      <label>Consumo (L/100 km) ${aj(v.id + '.l100', v.l100, BUD.vehiculos.find(x => x.id === v.id).l100, 0.5, 60)}</label></div>`).join('');
   $('pp-bud-pie').innerHTML = `Visados: ${eur(B.visPP)} por persona (${eur(B.visPP * B.nPers)} el grupo) · tasas de vehículo: ${eur(B.tasas)} por vehículo · ferris: ${eur(B.cat.ferry)}.
     Precios del ${esc(BUD.fecha)}; gasóleo de GlobalPetrolPrices (${esc(BUD.gpp_fecha)}), actualizado cada semana.
-    ${B.ajustado ? 'Incluye tus ajustes del Planificador actual.' : ''} Los vehículos, consumos y precios se cambian en el <a href="${raiz}planificador/#resumen">Planificador actual</a> y valen para los dos.`;
+    ${B.ajustado ? 'Incluye tus ajustes del Planificador actual.' : ''} Lo que cambies aquí (en ámbar) vale también para el <a href="${raiz}planificador/#resumen">Planificador actual</a>, y al revés; allí están además los precios del gasóleo, visados y ferris por país.`;
   pintarComparar();
 }
 
@@ -661,6 +681,12 @@ document.addEventListener('change', e => {
   if (e.target.id === 'pp-salida') { S.salida = e.target.value || CFG.salida; save(); calcular(); }
   if (e.target.id === 'pp-kmdia') { S.kmdia = Math.max(50, +e.target.value || 300); save(); calcular(); }
   if (e.target.id === 'pp-margen') { S.margen = Math.max(0, +e.target.value || 0); save(); calcular(); }
+  if (e.target.dataset.aj) {
+    const k = e.target.dataset.aj, v = e.target.value, A = ajustes();
+    if (v === '' || parseFloat(v) === parseFloat(e.target.dataset.def)) delete A[k]; else A[k] = parseFloat(v);
+    try { localStorage.setItem(AJ_KEY, JSON.stringify(A)); } catch(err) {}
+    calcular(); return;
+  }
   if (e.target.id === 'pp-verfr') pintarRuta();
   if (e.target.id === 'pp-web') {
     try { if (e.target.checked) localStorage.setItem(FUENTE, 'puntos'); else { localStorage.setItem(FUENTE, 'planificador'); localStorage.removeItem(RKEY); } } catch(err) {}

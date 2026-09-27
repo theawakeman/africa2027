@@ -160,6 +160,11 @@ table.pp-bt .n{text-align:right;font-variant-numeric:tabular-nums;white-space:no
 table.pp-bt tr.eu td{color:var(--ink-soft);background:var(--surface2)}
 table.pp-bt .nota{display:block;font-size:11.5px;color:var(--ink-soft)}table.pp-bt .nota.av{color:var(--amber);font-weight:600}
 table.pp-bt small{color:var(--ink-soft)}
+.pp-bud-h{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin:22px 0 8px}
+table.pp-bt input{font:inherit;font-size:13px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);text-align:right}
+table.pp-bt input.edited,.pp-veh input.edited{border-color:var(--amber);background:var(--amber-bg)}
+.pp-veh label{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px;margin:6px 0}
+.pp-veh input{font:inherit;font-size:13px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);text-align:right}
 @media (max-width:640px){.pp-bar{grid-template-columns:110px 1fr 78px;font-size:12px}}
 @media (max-width:900px){.pp-wrap{grid-template-columns:1fr}#pp-mapa{height:68vh;min-height:360px}.pp-panel{position:static;max-height:none}}
 """
@@ -225,6 +230,11 @@ def render(FULL, navbar, VERSION):
   <div class="pp-bars" id="pp-bud-barras"></div>
   <div class="pp-tw"><table class="pp-bt"><thead><tr><th>País</th><th class="n">Km</th><th class="n">Días</th><th class="n">Gasóleo</th><th class="n">Combustible</th><th class="n">Visados / persona</th><th class="n">Tasas / vehículo</th></tr></thead>
   <tbody id="pp-bud-paises"></tbody></table></div>
+  <h3 class="pp-bud-h">Comida, noches, comunicaciones y otros gastos</h3>
+  <div class="pp-tw"><table class="pp-bt"><thead><tr><th>Concepto</th><th class="n">Valor</th><th>Unidad y cálculo</th><th class="n">Total</th></tr></thead>
+  <tbody id="pp-bud-gastos"></tbody></table></div>
+  <h3 class="pp-bud-h">Vehículos</h3>
+  <div class="pp-cards pp-veh" id="pp-bud-veh"></div>
   <p class="pp-ayuda" id="pp-bud-pie" style="margin-top:8px"></p>
 </section>
 <div id="pp-msg" role="status" aria-live="polite" hidden></div>

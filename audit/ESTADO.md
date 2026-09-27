@@ -356,3 +356,7 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   para recuperarlo.
 - Comparación con el Planificador actual (km, días, €): este guarda sus cifras en
   `a27-plan-cifras` cada vez que calcula.
+- (27-09-2026) Desglose ampliado: tabla «Comida, noches, comunicaciones y otros gastos» con cada
+  parámetro editable (valor, unidad, cálculo y total), CPD y perro en los ferris, y vehículos
+  (personas, perros, consumo). Los cambios se guardan en `a27-presupuesto-v1`, compartidos con el
+  Planificador actual.
