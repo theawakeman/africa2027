@@ -25,9 +25,10 @@ const raiz = SC ? SC.getAttribute('src').split('assets/js/')[0] : '../';
 
 // ------------------------------------------------------------------ estado
 const KEY = 'a27pp-estado-v1', VKEY = 'a27pp-viajes-v1';
-const VACIO = () => ({paises: [], ida: [], vuelta: [], libres: {}, dias: {}, fer_ida: '', fer_vuelta: '', salida: CFG.salida, kmdia: 300, margen: 10, nombre: ''});
+const VACIO = () => ({paises: [], evitar: [], ida: [], vuelta: [], libres: {}, dias: {}, fer_ida: '', fer_vuelta: '', salida: CFG.salida, kmdia: 300, margen: 10, nombre: ''});
 let S;
 try { S = Object.assign(VACIO(), JSON.parse(localStorage.getItem(KEY) || '{}') || {}); } catch(e) { S = VACIO(); }
+if (!Array.isArray(S.evitar)) S.evitar = [];
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e) {} };
 function msg(t){ const m = $('pp-msg'); m.innerHTML = t; m.hidden = !t; clearTimeout(msg.t); if (t) msg.t = setTimeout(() => { m.hidden = true; }, 4500); }
 
@@ -135,7 +136,7 @@ function ferrisDe(dir, cerca){
 // ------------------------------------------------------------------ camino entre países y puestos fronterizos
 function caminoPaises(a, b){
   if (a === b) return [a];
-  const act = new Set(S.paises), dist = {[a]: 0}, prev = {}, hecho = new Set();
+  const act = new Set(S.paises), ev = new Set(S.evitar), dist = {[a]: 0}, prev = {}, hecho = new Set();
   for (;;) {
     let u = null, m = Infinity;
     for (const k in dist) if (!hecho.has(k) && dist[k] < m) { m = dist[k]; u = k; }
@@ -145,6 +146,7 @@ function caminoPaises(a, b){
       if (t === 'cerrada' || !PA[v] || !PA[v].pos || !PA[u] || !PA[u].pos) return;
       const libre = act.has(v) || v === b;
       if ((t === 'evitar' || PA[v].cf) && !libre) return;
+      if (ev.has(v) && v !== b) return;
       const w = hav(PA[u].pos, PA[v].pos) * (libre ? 1 : 2.5) + (t === 'ferry' ? 300 : 0);
       if (!(v in dist) || m + w < dist[v]) { dist[v] = m + w; prev[v] = u; }
     });
@@ -194,7 +196,7 @@ function calcular(){
   const tramos = [];
   for (let i = 1; i < seq.length; i++) { const e = tramo(seq[i - 1].pos, seq[i].pos); tramos.push({a: seq[i - 1], b: seq[i], ...e, mitad: seq[i].mitad}); }
   // Km por país y países atravesados, en orden
-  const kmPais = {}, runs = [];
+  const kmPais = {}, runs = [], kmZona = {};
   const kmdia = Math.max(50, +S.kmdia || 300), margen = Math.max(0, +S.margen || 0) / 100;
   const medio = h => Math.max(0.5, Math.ceil(h / 24 * 2) / 2);
   const dFerry = f => medio(f.h) + f.km_eu / kmdia;
@@ -210,6 +212,7 @@ function calcular(){
       const seg = hav(pts[i - 1], pts[i]), m = [(pts[i - 1][0] + pts[i][0]) / 2, (pts[i - 1][1] + pts[i][1]) / 2];
       // En el mar (ferris, costa) cuenta para el país en el que ya se estaba
       const s = paisDe(m[0], m[1]) || (runs.length ? runs[runs.length - 1].s : t.a.pais);
+      const zz = ZONAS.length ? zonaDe(m[0], m[1]) : null; if (zz) kmZona[zz.id] = (kmZona[zz.id] || 0) + seg / len * t.km;
       if (!s) continue;
       const k = seg / len * t.km;
       kmPais[s] = (kmPais[s] || 0) + k;
@@ -236,6 +239,12 @@ function calcular(){
     // Una línea recta provisional puede rozar un país vecino: no se da por cruzada una frontera cerrada.
     if (e && e[1] === 'cerrada' && !runs[i].recta) avisos.push({rojo: true, t: `La carretera pasa de ${esc(nom(a))} a ${esc(nom(b))} por una frontera <strong>cerrada</strong>.`});
   }
+  // Zonas desaconsejadas: puntos dentro y km de carretera dentro
+  todos.forEach(p => { const z = zonaDe(p.lat, p.lon); if (z) avisos.push({rojo: z.nivel === 'rojo', t: `<strong>${esc(p.nombre)}</strong> está en una ${z.nivel === 'rojo' ? 'zona roja' : 'zona naranja'}: ${esc(z.nombre)} (FCDO).`}); });
+  Object.entries(kmZona).forEach(([id, k]) => { if (k < 3) return; const z = ZONAS.find(x => x.id === id);
+    avisos.push({rojo: z.nivel === 'rojo', t: `La carretera pasa ~${num(k)} km por una ${z.nivel === 'rojo' ? '<strong>zona roja</strong>' : 'zona naranja'}: ${esc(z.nombre)} (${esc(nom(z.pais))}, FCDO).`}); });
+  // Países que se quieren evitar y por los que aun así pasa la carretera
+  [...new Set(orden)].filter(s => S.evitar.includes(s)).forEach(s => avisos.push({rojo: true, t: `La carretera cruza <strong>${esc(nom(s))}</strong>, que quieres evitar: no hay otro camino con estos puntos, o la carretera lo roza. Añade un «pasar por aquí» (clic derecho) para desviarla.`}));
   const sinPerro = todos.filter(p => p.perro === 'no').length;
   if (sinPerro) avisos.push({rojo: false, t: `${sinPerro} punto${sinPerro > 1 ? 's' : ''} donde el perro no puede entrar (marcados en la lista).`});
   const pistas = [...new Set(tramos.filter(t => t.pista).map(t => t.pista))];
@@ -367,6 +376,27 @@ function pintarKPIs(){
     <div class="pp-kpi"><div class="l">Presupuesto total</div><div class="v">${B ? eur(B.total) : '—'}</div><div class="s">${B ? eur(B.total / Math.max(1, B.nPers)) + ' por persona · ' + eur(B.total / Math.max(1, R.dias)) + ' al día · <a href="#pp-bud">desglose</a>' : ''}</div></div>
     <div class="pp-kpi ${rojos ? 'alerta' : ''}"><div class="l">Avisos</div><div class="v">${R.avisos.length}</div><div class="s">${rojos ? rojos + ' importantes (en rojo en el panel)' : 'ninguno importante'}${B ? ' · combustible ' + eur(B.cat.comb) + ' · visados ' + eur(B.cat.vis) : ''}</div></div>`;
 }
+function pintarEvitar(){
+  const el = $('pp-evitar'); if (!el) return;
+  el.innerHTML = S.evitar.length ? S.evitar.map(s => `<span>${esc(nom(s))} <button type="button" class="pp-b x" data-evitar="${s}" aria-label="Dejar de evitar ${esc(nom(s))}">✕</button></span>`).join('') : '<span class="pp-ayuda">Ninguno</span>';
+  const sel = $('pp-evitar-add');
+  if (sel && !sel.__lleno) { sel.innerHTML = '<option value="">Evitar un país…</option>' + Object.keys(PA).filter(s => !PA[s].isla && PA[s].pos).sort((a, b) => nom(a).localeCompare(nom(b), 'es')).map(s => `<option value="${s}">${esc(nom(s))}</option>`).join(''); sel.__lleno = true; }
+}
+let CAPA_Z = null;
+function pintarZonas(){
+  if (!MAP) return;
+  if (!CAPA_Z) CAPA_Z = L.layerGroup();
+  CAPA_Z.clearLayers();
+  const on = $('pp-verzonas') ? $('pp-verzonas').checked : true;
+  if (!on) { MAP.removeLayer(CAPA_Z); return; }
+  ZONAS.forEach(z => { const col = z.nivel === 'rojo' ? '#B43A3A' : '#D97B29';
+    L.polygon(z.polys.map(p => p.rs), {color: col, weight: 1, dashArray: '4 3', fillColor: col, fillOpacity: z.nivel === 'rojo' ? .22 : .14, pane: 'zonas'})
+      .bindTooltip(`${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'} · ${esc(nom(z.pais))}: ${esc(z.nombre)}`, {sticky: true})
+      .on('click', ev => { L.DomEvent.stop(ev); if (CREANDO) { crearEn(ev.latlng); return; } popZona(z, ev.latlng); })
+      .on('contextmenu', ev => { L.DomEvent.stop(ev); libre(ev.latlng); })
+      .addTo(CAPA_Z); });
+  CAPA_Z.addTo(MAP);
+}
 function pintarPresupuesto(){
   const B = R && R.bud; if (!B || !$('pp-bud')) return;
   const hay = R.todos.length > 0;
@@ -461,6 +491,7 @@ function estiloPaises(){
     if (P0 && P0.cf) st = {...st, fillColor: '#B43A3A', fillOpacity: act.has(s) ? .28 : .16, color: '#B43A3A', dashArray: '3 4'};
     if (act.has(s)) st = {...st, fillColor: P0 && P0.cf ? '#B43A3A' : '#1E7A8A', fillOpacity: P0 && P0.cf ? .3 : .16, color: P0 && P0.cf ? '#B43A3A' : '#1E7A8A', weight: 1.5};
     else if (cruza.has(s)) st = {...st, fillColor: '#D97B29', fillOpacity: .12, color: '#C47F17'};
+    if (S.evitar.includes(s)) st = {...st, fillColor: '#2B2F33', fillOpacity: .28, color: '#2B2F33', dashArray: '2 5', weight: 1.5};
     l.setStyle(st);
   });
 }
@@ -471,6 +502,32 @@ function cargarDet(){
   return DETP;
 }
 const det = p => (p && p.propio ? PDET[p.id] : (DET && p && DET[p.id])) || null;
+
+// ------------------------------------------------------------------ zonas desaconsejadas (FCDO)
+// Polígonos [exterior, agujeros…] generados por tools/zonas_riesgo_gen.py. Rojo = todo viaje
+// desaconsejado; naranja = solo viajes esenciales. Los países enteros en conflicto van aparte.
+const ZONAS = (CFG.zonas || []).map(z => {
+  const polys = z.poly.map(rs => { const ex = rs[0]; let a = 90, b = -90, c = 180, d = -180; ex.forEach(([la, lo]) => { a = Math.min(a, la); b = Math.max(b, la); c = Math.min(c, lo); d = Math.max(d, lo); });
+    return {rs, bb: [a, b, c, d]}; });
+  return {...z, polys};
+});
+function enAnillo(la, lo, r){ let c = false; for (let i = 0, j = r.length - 1; i < r.length; j = i++) { const [yi, xi] = r[i], [yj, xj] = r[j]; if ((yi > la) !== (yj > la) && lo < (xj - xi) * (la - yi) / (yj - yi) + xi) c = !c; } return c; }
+function zonaDe(la, lo){
+  let hit = null;
+  for (const z of ZONAS) for (const p of z.polys) {
+    const [a, b, c, d] = p.bb; if (la < a || la > b || lo < c || lo > d) continue;
+    if (enAnillo(la, lo, p.rs[0]) && !p.rs.slice(1).some(h => enAnillo(la, lo, h))) { if (!hit || (z.nivel === 'rojo' && hit.nivel !== 'rojo')) hit = z; }
+  }
+  return hit;
+}
+const zonaTxt = z => `<strong>${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'}</strong> (${z.nivel === 'rojo' ? 'todo viaje desaconsejado' : 'solo viajes esenciales'}, FCDO): ${esc(z.nombre)}`;
+function popZona(z, latlng){
+  const s = z.pais;
+  L.popup({maxWidth: 340}).setLatLng(latlng).setContent(`<div class="pp-pop"><strong style="color:${z.nivel === 'rojo' ? '#B43A3A' : '#B8560D'}">${z.nivel === 'rojo' ? 'Zona roja' : 'Zona naranja'} · ${esc(nom(s))}</strong>
+    <div class="meta">${esc(z.nombre)}</div><div style="font-size:12.5px;line-height:1.4">${esc(z.texto)}</div>
+    <div style="font-size:11.5px;color:#5F6B72;margin-top:6px">FCDO británico, revisado el ${esc(z.fecha)}${z.aprox ? ' · límites aproximados' : ''} · <a href="${esc(z.fuente)}" target="_blank" rel="noopener">aviso oficial</a> · <a href="${raiz}paises/${s}/" target="_blank" rel="noopener">ficha</a></div>
+    <div class="acc" style="margin-top:8px">${S.paises.includes(s) ? '' : `<button type="button" class="pp-b" data-verpais="${s}">Ver los puntos de ${esc(nom(s))}</button>`}</div></div>`).openOn(MAP);
+}
 
 // ------------------------------------------------------------------ puntos propios (creador)
 // Los puntos creados con el creador viven en 'a27-pdi-propios'. Cuando uno ya está
@@ -526,7 +583,7 @@ function popPunto(p){
   const lnk = (p.libre ? `<button type="button" class="a27-popup-expand" data-crear="${p.lat},${p.lon}">Crear un punto aquí</button>` : `<button type="button" class="a27-popup-expand" data-ficha="${esc(p.id)}">Ver ficha ampliada</button>`) +
     (p.propio ? `<button type="button" class="a27-popup-expand" data-editar="${esc(p.id)}">Editar o publicar</button>` : '') +
     `<a href="https://www.google.com/maps?q=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a>`;
-  return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${p.propio ? `<span class="pp-propio">punto propio · ${p.publicado ? 'publicado, ' : ''}por revisar</span>` : ''}${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
+  return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${(() => { const z = zonaDe(p.lat, p.lon); return z ? `<span class="pp-zona ${z.nivel}">${z.nivel === 'rojo' ? 'zona roja' : 'zona naranja'} · FCDO</span>` : ''; })()}${p.propio ? `<span class="pp-propio">punto propio · ${p.publicado ? 'publicado, ' : ''}por revisar</span>` : ''}${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
 }
 // Popup con la ficha resumida; si los datos aún no han llegado, se completa al llegar.
 function conPopup(capa, p){
@@ -579,8 +636,8 @@ function pintarRuta(){
   if (!R) return;
   R.tramos.forEach(t => {
     if (t.pts.length < 2 || hav(t.pts[0], t.pts[t.pts.length - 1]) < .5) return;
-    const lin = L.polyline(t.pts, {color: t.mitad === 'ida' ? '#1E7A8A' : '#C47F17', weight: 4, opacity: .85, dashArray: t.real && !t.rodeo ? null : '6 7'}).addTo(CAPA_RUTA);
-    if (t.pista) { const P = t.pista.pts; L.polyline(P, {color: '#8B5A2B', weight: 5, opacity: .9, dashArray: '2 7', lineCap: 'round'}).bindTooltip(`Pista: ${esc(t.pista.nombre)} · ~${num(t.pista.km)} km`, {sticky: true}).addTo(CAPA_RUTA); }
+    const lin = L.polyline(t.pts, {pane: 'rutas', color: t.mitad === 'ida' ? '#1E7A8A' : '#C47F17', weight: 4, opacity: .85, dashArray: t.real && !t.rodeo ? null : '6 7'}).addTo(CAPA_RUTA);
+    if (t.pista) { const P = t.pista.pts; L.polyline(P, {pane: 'rutas', color: '#8B5A2B', weight: 5, opacity: .9, dashArray: '2 7', lineCap: 'round'}).bindTooltip(`Pista: ${esc(t.pista.nombre)} · ~${num(t.pista.km)} km`, {sticky: true}).addTo(CAPA_RUTA); }
     else if (t.rodeo) lin.bindTooltip('Sin carretera razonable en el mapa de rutas: línea recta, km estimados', {sticky: true});
   });
   R.seq.filter(w => w.tipo === 'frontera').forEach(w => L.marker(w.pos, {icon: L.divIcon({className: '', html: '<div class="pp-fr"></div>', iconSize: [12, 12], iconAnchor: [6, 6]}), zIndexOffset: 300})
@@ -633,7 +690,7 @@ function pintar(){
   }
   $('pp-salida').value = S.salida || CFG.salida; $('pp-kmdia').value = S.kmdia; $('pp-margen').value = S.margen;
   if (MAP) { estiloPaises(); pintarPuntos(); pintarSel(); pintarRuta(); }
-  pintarKPIs(); pintarTiempo(); pintarPresupuesto(); pintarWeb();
+  pintarKPIs(); pintarTiempo(); pintarPresupuesto(); pintarWeb(); pintarEvitar();
   paintViajes();
 }
 
@@ -698,7 +755,7 @@ function alternarPais(s){
 }
 function popPais(s, latlng){
   const recs = (PA[s].rec || []).map(r => `<div style="margin:5px 0"><div style="font-size:12px;color:#5F6B72">Recorrido ${esc(r.id)} · ${esc(r.l.length > 60 ? r.l.slice(0, 58) + '…' : r.l)}</div><div class="acc"><button type="button" class="pp-b ida" data-rec="${s}|${esc(r.id)}|ida">A la ida</button><button type="button" class="pp-b vuelta" data-rec="${s}|${esc(r.id)}|vuelta">A la vuelta</button></div></div>`).join('');
-  L.popup({maxWidth: 320}).setLatLng(latlng).setContent(`<div class="pp-pop"><strong>${esc(nom(s))}</strong><div class="meta">${(PORPAIS[s] || []).length} puntos de interés${PA[s].cf ? ' · <b style="color:#B43A3A">país en conflicto</b>' : ''}</div>${recs ? '<div style="font-size:12px;margin-bottom:2px">Atajo: añadir los puntos de un recorrido de la ficha</div>' + recs : ''}<div class="acc" style="margin-top:8px"><button type="button" class="pp-b" data-ocultar="${s}">Ocultar sus puntos</button><a href="${raiz}paises/${s}/" target="_blank" rel="noopener" style="font-size:12px;align-self:center">Ficha del país</a></div></div>`).openOn(MAP);
+  L.popup({maxWidth: 320}).setLatLng(latlng).setContent(`<div class="pp-pop"><strong>${esc(nom(s))}</strong><div class="meta">${(PORPAIS[s] || []).length} puntos de interés${PA[s].cf ? ' · <b style="color:#B43A3A">país en conflicto</b>' : ''}</div>${recs ? '<div style="font-size:12px;margin-bottom:2px">Atajo: añadir los puntos de un recorrido de la ficha</div>' + recs : ''}<div class="acc" style="margin-top:8px"><button type="button" class="pp-b" data-ocultar="${s}">Ocultar sus puntos</button><button type="button" class="pp-b" data-evitar="${s}">${S.evitar.includes(s) ? 'Dejar de evitar' : 'Evitar en la ruta'}</button><a href="${raiz}paises/${s}/" target="_blank" rel="noopener" style="font-size:12px;align-self:center">Ficha del país</a></div></div>`).openOn(MAP);
 }
 function libre(latlng){
   const s = paisDe(latlng.lat, latlng.lng);
@@ -766,6 +823,11 @@ document.addEventListener('click', e => {
   const fi = e.target.closest('[data-ficha]'); if (fi) { abrirFicha(fi.dataset.ficha); return; }
   const cr = e.target.closest('[data-crear]'); if (cr) { const [la, lo] = cr.dataset.crear.split(',').map(Number); crearEn({lat: la, lng: lo}); return; }
   const ed = e.target.closest('[data-editar]'); if (ed) { editarPropio(ed.dataset.editar); return; }
+  const ev = e.target.closest('[data-evitar]');
+  if (ev) { const s = ev.dataset.evitar; if (S.evitar.includes(s)) S.evitar = S.evitar.filter(x => x !== s);
+    else { if (S.ida.concat(S.vuelta).some(id => (punto(id) || {}).pais === s)) { msg(`${esc(nom(s))} tiene puntos en tu viaje: quítalos antes de evitarlo.`); return; } S.evitar.push(s); S.paises = S.paises.filter(x => x !== s); }
+    save(); MAP && MAP.closePopup(); calcular(); msg(S.evitar.includes(s) ? `La ruta evitará ${esc(nom(s))} si hay otro camino.` : `${esc(nom(s))} vuelve a estar disponible.`); return; }
+  const vp = e.target.closest('[data-verpais]'); if (vp) { MAP.closePopup(); alternarPais(vp.dataset.verpais); return; }
   if (e.target.closest('#pp-crear')) { CREANDO = !CREANDO; $('pp-crear').setAttribute('aria-pressed', String(CREANDO)); if (MAP) MAP.getContainer().style.cursor = CREANDO ? 'crosshair' : '';
     if (CREANDO) msg('Toca en el mapa el sitio del punto nuevo.'); return; }
   const r = e.target.closest('[data-rec]'); if (r) { const [s, id, m] = r.dataset.rec.split('|'); cargarRecorrido(s, id, m); return; }
@@ -789,6 +851,10 @@ document.addEventListener('change', e => {
     calcular(); return;
   }
   if (e.target.id === 'pp-verfr') pintarRuta();
+  if (e.target.id === 'pp-verzonas') { try { localStorage.setItem('a27pp-zonas', e.target.checked ? '1' : '0'); } catch(err) {} pintarZonas(); }
+  if (e.target.id === 'pp-evitar-add' && e.target.value) { const s = e.target.value; e.target.value = '';
+    if (S.ida.concat(S.vuelta).some(id => (punto(id) || {}).pais === s)) { msg(`${esc(nom(s))} tiene puntos en tu viaje: quítalos antes de evitarlo.`); return; }
+    if (!S.evitar.includes(s)) S.evitar.push(s); S.paises = S.paises.filter(x => x !== s); save(); calcular(); return; }
   if (e.target.id === 'pp-web') {
     try { if (e.target.checked) localStorage.setItem(FUENTE, 'puntos'); else { localStorage.setItem(FUENTE, 'planificador'); localStorage.removeItem(RKEY); } } catch(err) {}
     if (e.target.checked) { publicar(R); msg('El mapa general y las fichas usan ahora este viaje.'); } else msg('La web volverá a usar el Planificador actual en cuanto lo abras.');
@@ -819,6 +885,9 @@ function iniciarMapa(){
     onEachFeature: (f, lay) => { const s = f.properties.slug; if (!PA[s]) return;
       lay.bindTooltip(nom(s) + (PA[s].cf ? ' · en conflicto' : ''), {sticky: true});
       lay.on('click', ev => { if (CREANDO) { L.DomEvent.stop(ev); crearEn(ev.latlng); return; } if (S.paises.includes(s)) popPais(s, ev.latlng); else alternarPais(s); }); }}).addTo(MAP);
+  MAP.createPane('zonas').style.zIndex = 405; MAP.createPane('rutas').style.zIndex = 415;
+  try { if ($('pp-verzonas')) $('pp-verzonas').checked = localStorage.getItem('a27pp-zonas') !== '0'; } catch(e) {}
+  pintarZonas();
   CAPA_RUTA = L.layerGroup().addTo(MAP); CAPA_FR = L.layerGroup().addTo(MAP); CAPA_P = L.layerGroup().addTo(MAP); CAPA_SEL = L.layerGroup().addTo(MAP);
   MAP.on('contextmenu', ev => libre(ev.latlng));
   MAP.on('click', ev => { if (CREANDO) crearEn(ev.latlng); });

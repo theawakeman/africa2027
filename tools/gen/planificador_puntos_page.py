@@ -12,6 +12,8 @@ from data_countries import C, REGION
 from presupuesto_page import datos as datos_presupuesto
 from site_common import esc, page
 from planificador_puntos import PISTAS
+from pathlib import Path as _P
+ZONAS = json.loads((_P(__file__).with_name("zonas_riesgo.json")).read_text(encoding="utf-8"))
 import data_presupuesto as P
 from precios_auto import aviso_fuente
 
@@ -38,7 +40,7 @@ def config(FULL):
                "h": f[7], "km_eu": f[12], "coche_ida": f[9], "coche_vuelta": f[10], "pax": f[11], "gas": f[13]}
               for f in RT.FERRIES]
     return {"paises": paises, "fronteras": fronteras, "ferris": ferris, "ferry_pref": RT.FERRY_PREFERIDO,
-            "salida": RT.SALIDA, "regreso": RT.REGRESO_PREVISTO, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
+            "salida": RT.SALIDA, "regreso": RT.REGRESO_PREVISTO, "zonas": ZONAS, "origen": RT.ORIGEN, "pistas": PISTAS, "bud": presupuesto(D, nombres)}
 
 
 def presupuesto(D, nombres):
@@ -155,6 +157,11 @@ table.pp-tt td{padding:6px 9px;border-top:1px solid var(--line)}
 table.pp-tt td:first-child{white-space:nowrap}
 table.pp-tt .n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 table.pp-tt i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.pp-evitar{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.pp-evitar>span{display:inline-flex;align-items:center;gap:4px;font-size:12.5px;border:1px dashed #2B2F33;border-radius:99px;padding:1px 3px 1px 9px}
+.pp-evitar .pp-b{padding:1px 5px}
+.pp-pop .pp-zona{display:inline-block;font-size:11px;font-weight:700;border-radius:99px;padding:1px 8px;margin:0 4px 6px 0}
+.pp-pop .pp-zona.rojo{background:#F6E1E1;color:#B43A3A}.pp-pop .pp-zona.naranja{background:#FCE9D6;color:#B8560D}
 .pp-eur{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;background:var(--surface2);border-radius:8px;padding:8px 10px;margin:0 0 8px}
 .pp-eur b{font-size:22px;font-variant-numeric:tabular-nums;color:var(--head)}
 .pp-eur span{font-size:12px;color:var(--ink-soft);flex:1}
@@ -242,7 +249,9 @@ def render(FULL, navbar, VERSION):
       <h3>Ajustes</h3>
       <div class="pp-row"><label>Salida de {esc(cfg['origen'])} <input type="date" id="pp-salida"></label></div>
       <div class="pp-row"><label>Km de conducción al día <input type="number" id="pp-kmdia" min="50" step="10" style="width:70px"></label><label>Margen % <input type="number" id="pp-margen" min="0" step="1" style="width:56px"></label></div>
-      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label></div>
+      <div class="pp-row"><label><input type="checkbox" id="pp-verfr"> Ver puestos fronterizos</label><label><input type="checkbox" id="pp-vertodos"> Ver puntos de todos los países</label><label><input type="checkbox" id="pp-verzonas" checked> Ver zonas desaconsejadas (FCDO)</label></div>
+      <div class="pp-row"><label class="full">Países a evitar en la ruta <select id="pp-evitar-add"></select></label></div>
+      <div class="pp-evitar" id="pp-evitar"></div>
     </div>
     <div class="pp-sec">
       <h3>Mis viajes</h3>

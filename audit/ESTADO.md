@@ -385,3 +385,16 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   ficha y lista en `audit/pdi-por-revisar.md`.
 - (27-09-2026) Cifras clave arriba a todo el ancho: km por vehículo, días y regreso (frente al previsto), países, puntos, presupuesto y avisos.
 - (27-09-2026) Tiempo por país: línea del viaje bajo las cifras clave (cada tramo en su país, en orden, con ferris) y tabla con días, entradas, fechas, km y puntos por país; colores distintos por país según el orden del viaje.
+
+## Planificador por puntos · fase 6: evitar países y zonas desaconsejadas (27-09-2026)
+
+- «Evitar en la ruta» (en el globo de cada país) y «Países a evitar» en Ajustes: la búsqueda de
+  fronteras no pasa por ellos si hay otro camino; si la carretera los cruza igualmente, aviso rojo.
+  Se pintan en gris oscuro rayado.
+- Zonas desaconsejadas dentro de los países (FCDO, revisado el 27-09-2026): 38 zonas en 20
+  países, rojo = todo viaje desaconsejado, naranja = solo esenciales, con texto, fuente y fecha
+  en el globo. Aviso si un punto cae dentro o si la carretera pasa por ellas (km por zona).
+  Casilla «Ver zonas desaconsejadas» en Ajustes. Los países enteros en conflicto siguen aparte.
+- Datos: `tools/gen/zonas_riesgo.json`, generado a mano con `tools/zonas_riesgo_gen.py`
+  (shapely + Natural Earth admin-1 + franjas sobre africa.geo.json). Donde el aviso habla de
+  comarcas, distritos o líneas entre pueblos, los límites son aproximados y así se indica.
