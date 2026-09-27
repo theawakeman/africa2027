@@ -1,8 +1,8 @@
-const VERSION = 'a27-20260927-1054';
+const VERSION = 'a27-20260927-1105';
 const PRECACHE = {
 "./cpd/": "870fa08c27",
 "./documentacion/": "e1435c0df8",
-"./": "d4fefffbbd",
+"./": "13fd3c25a6",
 "./mapa/": "dd251fed19",
 "./paises/angola/historia/": "5b2cea41f8",
 "./paises/angola/": "36796458ac",
@@ -115,7 +115,7 @@ const PRECACHE = {
 "./paises/zimbabue/historia/": "5fa8513bd9",
 "./paises/zimbabue/": "1c643eac27",
 "./perro/": "7dc51a26b2",
-"./planificador-puntos/": "4c00822016",
+"./planificador-puntos/": "37faef8e85",
 "./planificador/": "3b8e95ce88",
 "./presupuesto/": "56d2dd1cd3",
 "./visados/": "6f3de4f640",
@@ -126,8 +126,9 @@ const PRECACHE = {
 "./assets/js/africa.geo.json": "efd2b0c9b4",
 "./assets/js/cpdmap.js?v=cf099e102d": "cf099e102d",
 "./assets/js/map.js?v=5bc6730f6d": "5bc6730f6d",
+"./assets/js/pdi-detalle.json": "a9fe2e1fc6",
 "./assets/js/perromap.js?v=cb72346aa0": "cb72346aa0",
-"./assets/js/planificador-puntos.js?v=d17fb261bf": "d17fb261bf",
+"./assets/js/planificador-puntos.js?v=93de1908d0": "93de1908d0",
 "./assets/js/planificador-puntos.json": "cf9abcdf49",
 "./assets/js/presupuesto-xlsx.js?v=6cb35d90f7": "6cb35d90f7",
 "./assets/js/presupuesto.js?v=edff7f8a27": "edff7f8a27",

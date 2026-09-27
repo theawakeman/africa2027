@@ -320,3 +320,14 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   una publicación sin cambios en las fichas baja unos pocos KB.
 - Páginas: red primero revalidando (`no-cache`); `?v=`: caché primero; JSON y CSS/JS sin huella:
   red primero. La primera actualización a este sistema aún baja la carcasa entera una vez.
+
+## Planificador por puntos: ficha de cada punto sin salir (27-09-2026)
+
+- Al tocar un punto sale su resumen: foto, país, categoría, prioridad, días, texto de la ficha,
+  perro, «+ Ida / + Vuelta» (o pasar/quitar), «Ver ficha ampliada» y Google Maps.
+- «Ver ficha ampliada» abre encima del planificador la misma ficha del mapa general (galería,
+  por qué ir, qué se ve, acceso, cuándo, perro, enlaces) con la barra de ida/vuelta abajo. El
+  nombre de cada punto de la lista abre también su ficha. Nada navega fuera de la página
+  (el enlace a la página del país se abre en otra pestaña).
+- Datos: `assets/js/pdi-detalle.json` (id «pais-n» → ficha del PDI, 2,8 MB), generado por
+  `build.py` y cargado en segundo plano.

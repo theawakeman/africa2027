@@ -1932,6 +1932,13 @@ def main():
                                       extra_head=f"<style>{ADMIN_CSS}</style>")
 
     (SITE / "assets/js/points.json").write_text(json.dumps(all_points, ensure_ascii=False), encoding="utf-8")
+    # Ficha completa de cada PDI para el Planificador por puntos (clave = id «pais-n»):
+    # la misma que abre el mapa general con «Ver ficha ampliada», sin salir del planificador.
+    detalle = {}
+    for q in all_points:
+        if q.get("type") == "poi" and q.get("ficha") and "#poi-" in q["ficha"]:
+            detalle[q["ficha"].split("/")[1] + "-" + q["ficha"].split("#poi-")[1]] = q
+    (SITE / "assets/js/pdi-detalle.json").write_text(json.dumps(detalle, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # Planificador por puntos (fase 1): puntos con días y perro, fronteras con sus dos países.
     from planificador_puntos import construir as construir_pp, informe as informe_pp
     from data_ruta import FRONTERAS as _FR, ISLAS as _ISLAS

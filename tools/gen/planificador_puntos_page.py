@@ -87,6 +87,17 @@ CSS = """
 .pp-pop .perro{font-size:11.5px;display:inline-block;border-radius:99px;padding:1px 7px;margin-bottom:6px}
 .pp-pop .perro.si{background:#E5F1E5;color:#2E7D32}.pp-pop .perro.condiciones{background:#FCF1DA;color:#9A6410}.pp-pop .perro.no{background:#F6E1E1;color:#B43A3A}.pp-pop .perro.sin_dato{background:#EEF0F1;color:#5F6B72}
 .pp-pop .acc{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.pp-pop img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:6px;margin-bottom:8px;background:#EEF0F1}
+.pp-pop .a27-map-summary{font-size:12.5px;line-height:1.4;margin-bottom:6px;-webkit-line-clamp:4}
+@media (max-width:600px){.pp-pop img{aspect-ratio:2/1}.pp-pop .a27-map-summary{-webkit-line-clamp:3}}
+.pp-pop .pp-cargando{display:block;font-size:12px;color:#5F6B72;margin-bottom:6px}
+.pp-pop .lnk{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:8px;font:700 12px/1.35 "Archivo",sans-serif}
+.pp-pop .lnk a{color:var(--teal)}
+.pp-pop .a27-popup-expand{font-size:12.5px}
+.pp-ver{appearance:none;border:0;background:none;padding:0;margin:0;font:inherit;color:inherit;text-align:left;cursor:pointer;display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.pp-ver:hover,.pp-ver:focus-visible{color:var(--teal);text-decoration:underline}
+.pp-dlg-acc{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:12px 18px;border-top:1px solid var(--line);background:var(--surface);position:sticky;bottom:0}
+.pp-dlg-acc .en{font:600 12.5px "Archivo",sans-serif;color:var(--ink-soft);margin-right:4px}
 .pp-mk{border-radius:50%;color:#fff;font:700 11px "Archivo",sans-serif;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.35)}
 .pp-mk.ida{background:#1E7A8A}.pp-mk.vuelta{background:#C47F17}.pp-mk.libre{border-style:dashed}
 .pp-fr{width:12px;height:12px;background:#5F6B72;transform:rotate(45deg);border:2px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.4)}
@@ -151,6 +162,7 @@ def render(FULL, navbar, VERSION):
 <script>var A27_PP = {json.dumps(cfg, ensure_ascii=False, separators=(",", ":"))};</script>
 <script src="{root}assets/vendor/leaflet.js"></script>
 <script src="{root}assets/vendor/Sortable.min.js"></script>
+<script src="{root}assets/js/map.js"></script>
 <script src="{root}assets/js/{JS}"></script>"""
     extra = f'<link rel="stylesheet" href="{root}assets/vendor/leaflet.css"><style>{CSS}</style>'
     return page(root, "Planificador por puntos · África 2027", body, extra_head=extra)

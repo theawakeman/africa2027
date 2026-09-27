@@ -236,14 +236,50 @@ function estiloPaises(){
     l.setStyle(st);
   });
 }
-function popPunto(p){
+// Ficha completa de cada PDI (la misma que el mapa general): se carga en segundo plano.
+let DET = null, DETP = null;
+function cargarDet(){
+  if (!DETP) DETP = fetch(raiz + 'assets/js/pdi-detalle.json').then(r => r.json()).then(d => { DET = d; return d; }).catch(() => { DET = {}; return DET; });
+  return DETP;
+}
+const det = p => (DET && p && DET[p.id]) || null;
+function acciones(p){
   const en = S.ida.includes(p.id) ? 'ida' : S.vuelta.includes(p.id) ? 'vuelta' : '';
-  const pd = {si: 'perro: sí', condiciones: 'perro: con condiciones', no: 'perro: no', sin_dato: 'perro: sin dato'}[p.perro] || '';
-  const ficha = p.libre ? '' : `<a href="${raiz}paises/${p.pais}/#poi-${p.n}" target="_blank" rel="noopener">Ver ficha</a>`;
-  const acc = en
+  return en
     ? `<button type="button" class="pp-b big ${en === 'ida' ? 'vuelta' : 'ida'}" data-pp="${en === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(p.id)}">Pasar a la ${en === 'ida' ? 'vuelta' : 'ida'}</button><button type="button" class="pp-b big x" data-pp="quitar" data-id="${esc(p.id)}">Quitar</button>`
     : `<button type="button" class="pp-b big ida" data-pp="ida" data-id="${esc(p.id)}">+ Ida</button><button type="button" class="pp-b big vuelta" data-pp="vuelta" data-id="${esc(p.id)}">+ Vuelta</button>`;
-  return `<div class="pp-pop"><strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}</div>${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acc}</div><div style="margin-top:6px;font-size:12px">${ficha}</div></div>`;
+}
+const perroTxt = p => ({si: 'perro: sí', condiciones: 'perro: con condiciones', no: 'perro: no', sin_dato: 'perro: sin dato'}[p.perro] || '');
+function popPunto(p){
+  const d = det(p), pd = perroTxt(p);
+  const img = d && d.img ? `<img src="${esc(/^https?:/.test(d.img) ? d.img : raiz + d.img)}" alt="${esc(p.nombre)}" loading="lazy">` : '';
+  const res = d && d.desc ? `<span class="a27-map-summary">${esc(d.desc)}</span>` : (!DET && !p.libre ? '<span class="pp-cargando">Cargando la ficha…</span>' : '');
+  const en = S.ida.includes(p.id) ? ' · <b>en la ida</b>' : S.vuelta.includes(p.id) ? ' · <b>en la vuelta</b>' : '';
+  const lnk = (p.libre ? '' : `<button type="button" class="a27-popup-expand" data-ficha="${esc(p.id)}">Ver ficha ampliada</button>`) +
+    `<a href="https://www.google.com/maps?q=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a>`;
+  return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
+}
+// Popup con la ficha resumida; si los datos aún no han llegado, se completa al llegar.
+function conPopup(capa, p){
+  const w = Math.max(200, Math.min(320, (MAP ? MAP.getSize().x : 400) - 70));
+  capa.bindPopup(() => popPunto(p), {maxWidth: w, minWidth: Math.min(250, w), autoPanPadding: [12, 12]});
+  capa.on('popupopen', e => { if (!DET && !p.libre) cargarDet().then(() => { if (e.popup.isOpen()) e.popup.setContent(popPunto(p)); }); });
+  return capa;
+}
+// Ficha ampliada (fotos, qué se ve, acceso, perro, enlaces) en una ventana encima del planificador.
+function abrirFicha(id){
+  const p = punto(id); if (!p || p.libre) return;
+  cargarDet().then(() => {
+    const d = det(p);
+    if (!d || typeof a27OpenPoi !== 'function') { msg('No hay ficha ampliada para este punto.'); return; }
+    a27OpenPoi(d, raiz, MAP, null);
+    const dlg = document.getElementById('a27-map-poi-dialog'); if (!dlg) return;
+    dlg.querySelectorAll('.map-poi-actions a').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
+    const en = S.ida.includes(id) ? 'En tu ida' : S.vuelta.includes(id) ? 'En tu vuelta' : '';
+    const bar = document.createElement('div'); bar.className = 'pp-dlg-acc';
+    bar.innerHTML = (en ? `<span class="en">${en}</span>` : '') + acciones(p);
+    dlg.querySelector('.map-poi-sheet').appendChild(bar);
+  });
 }
 function pintarPuntos(){
   if (!CAPA_P) return;
@@ -252,8 +288,8 @@ function pintarPuntos(){
   Object.values(PUNTOS).forEach(p => {
     if (sel.has(p.id) || (act && !act.has(p.pais))) return;
     const imp = /imprescindible/i.test(p.prio);
-    L.circleMarker([p.lat, p.lon], {radius: imp ? 6.5 : 5, color: '#fff', weight: 1.5, fillColor: p.perro === 'no' ? '#8A949A' : '#46535B', fillOpacity: .9})
-      .bindTooltip(esc(p.nombre)).bindPopup(() => popPunto(p), {maxWidth: 300}).addTo(CAPA_P);
+    conPopup(L.circleMarker([p.lat, p.lon], {radius: imp ? 6.5 : 5, color: '#fff', weight: 1.5, fillColor: p.perro === 'no' ? '#8A949A' : '#46535B', fillOpacity: .9})
+      .bindTooltip(esc(p.nombre)), p).addTo(CAPA_P);
   });
 }
 function pintarSel(){
@@ -261,8 +297,8 @@ function pintarSel(){
   let i = 0;
   [['ida', S.ida], ['vuelta', S.vuelta]].forEach(([m, lista]) => lista.forEach(id => {
     const p = punto(id); if (!p) return; i++;
-    L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: `<div class="pp-mk ${m}${p.libre ? ' libre' : ''}" style="width:24px;height:24px">${i}</div>`, iconSize: [24, 24], iconAnchor: [12, 12]}), zIndexOffset: 500})
-      .bindTooltip(i + '. ' + esc(p.nombre)).bindPopup(() => popPunto(p), {maxWidth: 300}).addTo(CAPA_SEL);
+    conPopup(L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: `<div class="pp-mk ${m}${p.libre ? ' libre' : ''}" style="width:24px;height:24px">${i}</div>`, iconSize: [24, 24], iconAnchor: [12, 12]}), zIndexOffset: 500})
+      .bindTooltip(i + '. ' + esc(p.nombre)), p).addTo(CAPA_SEL);
   }));
 }
 function pintarRuta(){
@@ -292,7 +328,7 @@ function filas(m, lista, base){
     const d = S.dias[id], f = R && R.fechaPunto[id] != null ? fecha(addDays(S.salida, R.fechaPunto[id] * R.factor)) : '';
     const perro = p.perro === 'no' ? ' · <span style="color:#B43A3A">sin perro</span>' : '';
     return `<li class="pp-it" data-id="${esc(id)}"><span class="pp-h" title="Arrastra para cambiar el orden o pasarlo a la otra mitad" aria-hidden="true">⠿</span><span class="pp-n">${base + i + 1}</span>
-      <span class="pp-t"><strong title="${esc(p.nombre)}">${esc(p.nombre)}</strong><small>${esc(nom(p.pais))}${f ? ' · ~' + f : ''}${perro}</small></span>
+      <span class="pp-t">${p.libre ? `<strong title="${esc(p.nombre)}">${esc(p.nombre)}</strong>` : `<button type="button" class="pp-ver" data-ficha="${esc(id)}" title="Ver la ficha de ${esc(p.nombre)}">${esc(p.nombre)}</button>`}<small>${esc(nom(p.pais))}${f ? ' · ~' + f : ''}${perro}</small></span>
       <span class="pp-a"><input type="number" min="0" step="0.5" value="${d != null && d !== '' ? esc(d) : ''}" placeholder="${num(p.dias, 2).replace(/,?0+$/, '')}" data-dias="${esc(id)}" class="${d != null && d !== '' ? 'edited' : ''}" title="Días en este punto" aria-label="Días en ${esc(p.nombre)}" autocomplete="off" data-1p-ignore data-lpignore="true">
       <button type="button" class="pp-b" data-pp="${m === 'ida' ? 'vuelta' : 'ida'}" data-id="${esc(id)}" title="Pasar a la ${m === 'ida' ? 'vuelta' : 'ida'}">${m === 'ida' ? '↓' : '↑'}</button><button type="button" class="pp-b x" data-pp="quitar" data-id="${esc(id)}" title="Quitar">✕</button></span></li>`;
   }).join('');
@@ -394,7 +430,7 @@ function libre(latlng){
   const id = 'libre-' + Date.now().toString(36);
   S.libres[id] = {lat: Math.round(latlng.lat * 1e5) / 1e5, lon: Math.round(latlng.lng * 1e5) / 1e5, pais: s, nombre: 'Paso por aquí · ' + nom(s)};
   const p = punto(id);
-  L.popup({maxWidth: 300}).setLatLng(latlng).setContent(popPunto(p)).openOn(MAP);
+  L.popup({maxWidth: Math.max(200, Math.min(320, MAP.getSize().x - 70)), minWidth: 200}).setLatLng(latlng).setContent(popPunto(p)).openOn(MAP);
   MAP.once('popupclose', () => { if (S.libres[id] && !S.ida.includes(id) && !S.vuelta.includes(id)) delete S.libres[id]; });
 }
 
@@ -444,7 +480,9 @@ function encuadrar(){
 
 // ------------------------------------------------------------------ eventos
 document.addEventListener('click', e => {
-  const b = e.target.closest('[data-pp]'); if (b) { mover(b.dataset.id, b.dataset.pp); return; }
+  const b = e.target.closest('[data-pp]');
+  if (b) { const dlg = b.closest('dialog'); if (dlg) dlg.close(); mover(b.dataset.id, b.dataset.pp); return; }
+  const fi = e.target.closest('[data-ficha]'); if (fi) { abrirFicha(fi.dataset.ficha); return; }
   const r = e.target.closest('[data-rec]'); if (r) { const [s, id, m] = r.dataset.rec.split('|'); cargarRecorrido(s, id, m); return; }
   const o = e.target.closest('[data-ocultar]');
   if (o) { const s = o.dataset.ocultar; const usados = S.ida.concat(S.vuelta).some(id => (punto(id) || {}).pais === s);
@@ -500,6 +538,7 @@ Promise.all([
   Object.values(FRPAR).flat().forEach(f => { const q = [f.lat, f.lon]; f.cerca = recPts(f.pais).concat(recPts(f.otro)).some(x => hav(q, x) <= 25); });
   GEO = g; prepGeo(g);
   iniciarMapa(); calcular();
+  cargarDet();
   window.__A27_PP = () => R; window.__A27_PP_MAP = () => MAP;
 }).catch(e => { msg('No se han podido cargar los datos de puntos: ' + esc(e && e.message || e)); });
 })();
