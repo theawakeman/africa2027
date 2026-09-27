@@ -32,11 +32,13 @@ const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch
 function msg(t){ const m = $('pp-msg'); m.innerHTML = t; m.hidden = !t; clearTimeout(msg.t); if (t) msg.t = setTimeout(() => { m.hidden = true; }, 4500); }
 
 // ------------------------------------------------------------------ datos
+let PROPIOS = {}, PDET = {}, CREANDO = false;
 let PUNTOS = {}, PORPAIS = {}, FRPAR = {}, FRTODAS = [], GEO = null, POLIS = [], SINCTRL = new Set();
 const GRAFO = {};
 CFG.fronteras.forEach(([a, b, t]) => { (GRAFO[a] = GRAFO[a] || []).push([b, t]); (GRAFO[b] = GRAFO[b] || []).push([a, t]); });
 function punto(id){
   if (PUNTOS[id]) return PUNTOS[id];
+  if (PROPIOS[id]) return PROPIOS[id];
   const l = S.libres[id];
   return l ? {id, libre: true, nombre: l.nombre, pais: l.pais, lat: l.lat, lon: l.lon, dias: 0, cat: 'Paso por aquí', prio: '', perro: 'sin_dato', tiempo: ''} : null;
 }
@@ -423,7 +425,47 @@ function cargarDet(){
   if (!DETP) DETP = fetch(raiz + 'assets/js/pdi-detalle.json').then(r => r.json()).then(d => { DET = d; return d; }).catch(() => { DET = {}; return DET; });
   return DETP;
 }
-const det = p => (DET && p && DET[p.id]) || null;
+const det = p => (p && p.propio ? PDET[p.id] : (DET && p && DET[p.id])) || null;
+
+// ------------------------------------------------------------------ puntos propios (creador)
+// Los puntos creados con el creador viven en 'a27-pdi-propios'. Cuando uno ya está
+// publicado y la web reconstruida, su copia oficial («pais-n») lo sustituye también
+// en los viajes guardados.
+function cargarPropios(){
+  PROPIOS = {}; PDET = {};
+  if (!window.A27Creador) return;
+  let cambio = false;
+  A27Creador.lista().forEach(x => {
+    const id = 'propio-' + x.id, of = x.publicado && x.publicado.n ? x.publicado.slug + '-' + x.publicado.n : '';
+    if (of && PUNTOS[of]) {
+      ['ida', 'vuelta'].forEach(m => { S[m] = S[m].map(y => { if (y === id) { cambio = true; return of; } return y; }); });
+      return;
+    }
+    if (!x.poi) return;
+    PROPIOS[id] = {id, propio: true, reg: x.id, pais: x.pais, nombre: x.poi.name, cat: x.poi.cat, prio: x.poi.prio || '', lat: x.lat, lon: x.lon,
+      tiempo: x.poi.time || '', dias: isFinite(x.dias) ? x.dias : 0, perro: x.perro || 'sin_dato', clase: x.clase, publicado: !!x.publicado};
+    PDET[id] = x.detalle;
+  });
+  if (cambio) save();
+}
+function crearEn(latlng){
+  CREANDO = false; if ($('pp-crear')) $('pp-crear').setAttribute('aria-pressed', 'false');
+  if (MAP) MAP.getContainer().style.cursor = '';
+  if (!window.A27Creador) { msg('El creador de puntos no se ha cargado.'); return; }
+  MAP.closePopup();
+  const s = paisDe(latlng.lat, latlng.lng);
+  A27Creador.abrir(latlng.lat, latlng.lng, {pais: s || '', paisNombre: s ? nom(s) : '', raiz, enViaje: true, cambio: (reg, guardado) => {
+    cargarPropios(); calcular();
+    if (guardado && reg && MAP) { const p = punto('propio-' + reg.id); if (p) L.popup({maxWidth: 320, minWidth: 250}).setLatLng([p.lat, p.lon]).setContent(popPunto(p)).openOn(MAP); }
+  }});
+}
+function editarPropio(id){
+  const p = punto(id); if (!p || !p.propio || !window.A27Creador) return;
+  MAP && MAP.closePopup();
+  A27Creador.abrir(p.lat, p.lon, {id: p.reg, pais: p.pais, paisNombre: nom(p.pais), raiz, enViaje: true, cambio: reg => {
+    if (!reg) { S.ida = S.ida.filter(x => x !== id); S.vuelta = S.vuelta.filter(x => x !== id); save(); }
+    cargarPropios(); calcular(); }});
+}
 function acciones(p){
   const en = S.ida.includes(p.id) ? 'ida' : S.vuelta.includes(p.id) ? 'vuelta' : '';
   return en
@@ -436,14 +478,16 @@ function popPunto(p){
   const img = d && d.img ? `<img src="${esc(/^https?:/.test(d.img) ? d.img : raiz + d.img)}" alt="${esc(p.nombre)}" loading="lazy">` : '';
   const res = d && d.desc ? `<span class="a27-map-summary">${esc(d.desc)}</span>` : (!DET && !p.libre ? '<span class="pp-cargando">Cargando la ficha…</span>' : '');
   const en = S.ida.includes(p.id) ? ' · <b>en la ida</b>' : S.vuelta.includes(p.id) ? ' · <b>en la vuelta</b>' : '';
-  const lnk = (p.libre ? '' : `<button type="button" class="a27-popup-expand" data-ficha="${esc(p.id)}">Ver ficha ampliada</button>`) +
+  const lnk = (p.libre ? `<button type="button" class="a27-popup-expand" data-crear="${p.lat},${p.lon}">Crear un punto aquí</button>` : `<button type="button" class="a27-popup-expand" data-ficha="${esc(p.id)}">Ver ficha ampliada</button>`) +
+    (p.propio ? `<button type="button" class="a27-popup-expand" data-editar="${esc(p.id)}">Editar o publicar</button>` : '') +
     `<a href="https://www.google.com/maps?q=${p.lat},${p.lon}" target="_blank" rel="noopener">Google Maps</a>`;
-  return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
+  return `<div class="pp-pop">${img}<strong>${esc(p.nombre)}</strong><div class="meta">${esc(nom(p.pais))}${p.cat ? ' · ' + esc(p.cat) : ''}${p.prio ? ' · ' + esc(p.prio) : ''}${p.libre ? '' : ' · ' + num(diasDe(p), 2).replace(/,?0+$/, '') + ' d'}${en}</div>${p.propio ? `<span class="pp-propio">punto propio · ${p.publicado ? 'publicado, ' : ''}por revisar</span>` : ''}${res}${pd && !p.libre ? `<span class="perro ${p.perro}">${pd}</span>` : ''}<div class="acc">${acciones(p)}</div><div class="lnk">${lnk}</div></div>`;
 }
 // Popup con la ficha resumida; si los datos aún no han llegado, se completa al llegar.
 function conPopup(capa, p){
   const w = Math.max(200, Math.min(320, (MAP ? MAP.getSize().x : 400) - 70));
   capa.bindPopup(() => popPunto(p), {maxWidth: w, minWidth: Math.min(250, w), autoPanPadding: [12, 12]});
+  capa.on('click', ev => { if (CREANDO) { L.DomEvent.stop(ev); setTimeout(() => crearEn(ev.latlng), 0); } });
   capa.on('popupopen', e => { if (!DET && !p.libre) cargarDet().then(() => { if (e.popup.isOpen()) e.popup.setContent(popPunto(p)); }); });
   return capa;
 }
@@ -466,6 +510,9 @@ function pintarPuntos(){
   if (!CAPA_P) return;
   CAPA_P.clearLayers();
   const sel = new Set(S.ida.concat(S.vuelta)), act = $('pp-vertodos').checked ? null : new Set(S.paises);
+  Object.values(PROPIOS).forEach(p => { if (sel.has(p.id)) return;
+    conPopup(L.marker([p.lat, p.lon], {icon: L.divIcon({className: '', html: `<div class="pp-mkp${p.clase === 'log' ? ' log' : ''}">★</div>`, iconSize: [20, 20], iconAnchor: [10, 10]}), zIndexOffset: 200})
+      .bindTooltip(esc(p.nombre) + ' · punto propio'), p).addTo(CAPA_P); });
   Object.values(PUNTOS).forEach(p => {
     if (sel.has(p.id) || (act && !act.has(p.pais))) return;
     const imp = /imprescindible/i.test(p.prio);
@@ -644,14 +691,19 @@ function borrarViaje(){
   delete V[n]; escV(V); paintViajes(); msg(`Viaje «${esc(n)}» borrado.`);
 }
 function exportar(){
-  const blob = new Blob([JSON.stringify({app: 'a27-planificador-puntos', v: 1, viajes: leerV(), actual: S}, null, 1)], {type: 'application/json'});
+  const propios = window.A27Creador ? A27Creador.lista() : [];
+  const blob = new Blob([JSON.stringify({app: 'a27-planificador-puntos', v: 1, viajes: leerV(), actual: S, propios}, null, 1)], {type: 'application/json'});
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'viajes-por-puntos-africa-2027.json'; document.body.appendChild(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 4000);
 }
 function importar(file){
   const rd = new FileReader();
   rd.onload = () => { try { const j = JSON.parse(rd.result); if (j.app !== 'a27-planificador-puntos') throw 0;
-    const V = leerV(); Object.assign(V, j.viajes || {}); escV(V); paintViajes(); msg(`${Object.keys(j.viajes || {}).length} viajes importados.`); }
+    const V = leerV(); Object.assign(V, j.viajes || {}); escV(V);
+    if (Array.isArray(j.propios) && j.propios.length) { const ya = new Set((window.A27Creador ? A27Creador.lista() : []).map(x => x.id));
+      const todos = (window.A27Creador ? A27Creador.lista() : []).concat(j.propios.filter(x => x && x.id && !ya.has(x.id)));
+      try { localStorage.setItem('a27-pdi-propios', JSON.stringify(todos)); } catch(err) {} cargarPropios(); calcular(); }
+    paintViajes(); msg(`${Object.keys(j.viajes || {}).length} viajes importados${j.propios && j.propios.length ? ' y ' + j.propios.length + ' puntos propios' : ''}.`); }
     catch(e) { msg('Ese archivo no es una copia de viajes de esta página.'); } };
   rd.readAsText(file);
 }
@@ -667,6 +719,10 @@ document.addEventListener('click', e => {
   const b = e.target.closest('[data-pp]');
   if (b) { const dlg = b.closest('dialog'); if (dlg) dlg.close(); mover(b.dataset.id, b.dataset.pp); return; }
   const fi = e.target.closest('[data-ficha]'); if (fi) { abrirFicha(fi.dataset.ficha); return; }
+  const cr = e.target.closest('[data-crear]'); if (cr) { const [la, lo] = cr.dataset.crear.split(',').map(Number); crearEn({lat: la, lng: lo}); return; }
+  const ed = e.target.closest('[data-editar]'); if (ed) { editarPropio(ed.dataset.editar); return; }
+  if (e.target.closest('#pp-crear')) { CREANDO = !CREANDO; $('pp-crear').setAttribute('aria-pressed', String(CREANDO)); if (MAP) MAP.getContainer().style.cursor = CREANDO ? 'crosshair' : '';
+    if (CREANDO) msg('Toca en el mapa el sitio del punto nuevo.'); return; }
   const r = e.target.closest('[data-rec]'); if (r) { const [s, id, m] = r.dataset.rec.split('|'); cargarRecorrido(s, id, m); return; }
   const o = e.target.closest('[data-ocultar]');
   if (o) { const s = o.dataset.ocultar; const usados = S.ida.concat(S.vuelta).some(id => (punto(id) || {}).pais === s);
@@ -707,7 +763,7 @@ $('pp-nuevo').addEventListener('click', () => { if (!confirm('¿Empezar un viaje
 if (window.Sortable) ['pp-lista-ida', 'pp-lista-vuelta'].forEach(id => Sortable.create($(id), {group: 'pp', handle: '.pp-h', animation: 150,
   onEnd: () => { S.ida = [...$('pp-lista-ida').children].map(li => li.dataset.id); S.vuelta = [...$('pp-lista-vuelta').children].map(li => li.dataset.id); save(); calcular(); }}));
 
-window.addEventListener('storage', e => { if (e.key === AJ_KEY || e.key === CIFRAS || e.key === FUENTE) calcular(); });
+window.addEventListener('storage', e => { if (e.key === 'a27-pdi-propios') cargarPropios(); if (e.key === AJ_KEY || e.key === CIFRAS || e.key === FUENTE || e.key === 'a27-pdi-propios') calcular(); });
 
 // ------------------------------------------------------------------ arranque
 function iniciarMapa(){
@@ -717,9 +773,10 @@ function iniciarMapa(){
   PAISES = L.geoJSON(GEO, {style: () => ({weight: 1, color: '#8A949A', fillOpacity: .04, fillColor: '#fff'}),
     onEachFeature: (f, lay) => { const s = f.properties.slug; if (!PA[s]) return;
       lay.bindTooltip(nom(s) + (PA[s].cf ? ' · en conflicto' : ''), {sticky: true});
-      lay.on('click', ev => { if (S.paises.includes(s)) popPais(s, ev.latlng); else alternarPais(s); }); }}).addTo(MAP);
+      lay.on('click', ev => { if (CREANDO) { L.DomEvent.stop(ev); crearEn(ev.latlng); return; } if (S.paises.includes(s)) popPais(s, ev.latlng); else alternarPais(s); }); }}).addTo(MAP);
   CAPA_RUTA = L.layerGroup().addTo(MAP); CAPA_FR = L.layerGroup().addTo(MAP); CAPA_P = L.layerGroup().addTo(MAP); CAPA_SEL = L.layerGroup().addTo(MAP);
   MAP.on('contextmenu', ev => libre(ev.latlng));
+  MAP.on('click', ev => { if (CREANDO) crearEn(ev.latlng); });
   encuadrar();
 }
 Promise.all([
@@ -734,6 +791,7 @@ Promise.all([
   const recPts = s => (PA[s] && PA[s].rec || []).flatMap(r => r.pts);
   Object.values(FRPAR).flat().forEach(f => { const q = [f.lat, f.lon]; f.cerca = recPts(f.pais).concat(recPts(f.otro)).some(x => hav(q, x) <= 25); });
   GEO = g; prepGeo(g);
+  cargarPropios();
   iniciarMapa(); calcular();
   cargarDet();
   window.__A27_PP = () => R; window.__A27_PP_MAP = () => MAP;

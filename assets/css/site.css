@@ -254,6 +254,7 @@ dialog.map-poi-modal::backdrop { background:rgba(10,20,30,.62); }
 .map-poi-description { margin:0; color:var(--ink); font-size:14.5px; line-height:1.55; }
 .map-poi-body .poi-decision { margin-top:2px; }
 .map-poi-body .poi-decision dt, .map-poi-body .poi-decision dd, .map-poi-body .poi-links { font-size:13.5px; }
+.poi-tags .propio { font-size:11px; font-weight:700; color:var(--amber); background:var(--amber-bg); border-radius:99px; padding:1px 8px; }
 .map-poi-actions { display:flex; flex-wrap:wrap; gap:9px; padding-top:4px; }
 .map-poi-actions .btn { font-size:13px; }
 @media (max-width:560px) {

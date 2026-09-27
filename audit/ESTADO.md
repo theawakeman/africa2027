@@ -365,3 +365,21 @@ Punto de restauración previo: etiqueta `restore-2026-09-25` y rama `backup/pre-
   la caché de la versión (páginas, CSS, JS, datos) se sirve al instante; lo demás va a la red y se
   guarda. Las versiones nuevas llegan por el service worker (solo lo que cambia) y la página se
   recarga sola al activarse.
+
+## Creador de puntos · fase 5 (27-09-2026)
+
+- `assets/js/creador-pdi.js` (en el Planificador por puntos: botón «★ Crear un punto», o
+  «Crear un punto aquí» en el menú del clic derecho). Tipos: Naturaleza, Cultura, Ciudad,
+  Costa, Patrimonio UNESCO y logística (agua de servicio, agua potable, combustible, camping,
+  taller, hospital, frontera, servicio).
+- «Completar automáticamente»: lugar (Nominatim), Wikipedia (es → fr → en, 10 km), fotos de
+  Wikimedia Commons (3 km, 10 km si hay pocas; autor y licencia), servicios en 20 km (Overpass:
+  gasolineras, agua, campings, clínicas, talleres) y clima de referencia (Open-Meteo, 2024).
+  Rellena desc, visit (por qué, qué se ve, acceso, cuándo, cuándo descartarlo), enlaces y galería.
+- Guardar: `a27-pdi-propios` (este navegador); se usa en el planificador al momento (estrella
+  naranja; azul si es logística) y viaja con «Descargar/Importar». Publicar: mismo token que el
+  panel de edición; añade el PDI a `content/pois/<país>.json` (n siguiente) o la logística a
+  `content/ficha/<país>.json`; la acción de GitHub reconstruye la web. Cuando la copia oficial
+  («país-n») llega, sustituye a la local también en los viajes.
+- Todo punto creado lleva `propio.revisar = true`: etiqueta «creado por ti · por revisar» en la
+  ficha y lista en `audit/pdi-por-revisar.md`.

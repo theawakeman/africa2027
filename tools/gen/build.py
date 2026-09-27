@@ -681,7 +681,7 @@ def render_ficha(d):
   {img_html}
   <div class="poi-body">
     <h3>{esc(p['name'])}</h3>
-    <div class="poi-tags"><span class="prio">{esc(p['prio'])}</span><span class="cat">{esc(p['cat'])}</span><span class="time">{esc(p['time'])}</span></div>
+    <div class="poi-tags"><span class="prio">{esc(p['prio'])}</span><span class="cat">{esc(p['cat'])}</span><span class="time">{esc(p['time'])}</span>{'<span class="propio">creado por ti · por revisar</span>' if (p.get('propio') or {}).get('revisar') else ''}</div>
     <div><span class="st {dog_cls(p['dog'])}">perro: {esc(p['dog'])}</span></div>
     <p class="poi-desc">{esc(p['desc'])}</p>
     <div class="poi-details">
@@ -1946,6 +1946,21 @@ def main():
     (SITE / "assets/js/planificador-puntos.json").write_text(
         json.dumps(datos_pp, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (SITE / "audit/planificador-puntos-datos.md").write_text(informe_pp(datos_pp, dudas_pp), encoding="utf-8")
+    # Puntos creados con el creador de puntos que esperan revisión
+    rev = []
+    for _s, _d in sorted(FULL.items()):
+        for _p in _d.get("pois", []):
+            if (_p.get("propio") or {}).get("revisar"):
+                rev.append(f"| {_s} | PDI {_p.get('n')} | {_p['name']} | {_p['propio'].get('creado', '')} | {len(poi_photos(_p))} fotos |")
+        for _l in _d.get("logistics", []):
+            if (_l.get("propio") or {}).get("revisar"):
+                rev.append(f"| {_s} | {_l.get('cat', '')} | {_l['name']} | {_l['propio'].get('creado', '')} | — |")
+    (SITE / "audit/pdi-por-revisar.md").write_text(
+        "# Puntos creados con el creador, pendientes de revisar\n\n"
+        "Al revisarlos: comprobar ubicación, acceso, seguridad (MAEC), fotos, perro y días; "
+        "después quitar `propio.revisar` (o ponerlo a false) en content/pois o content/ficha.\n\n"
+        + ("| País | Tipo | Nombre | Creado | Fotos |\n|---|---|---|---|---|\n" + "\n".join(rev) if rev else "Ninguno.") + "\n",
+        encoding="utf-8")
 
     # Cualquier referencia externa del texto (URL, dominio, correo o fuente
     # conocida) se convierte en enlace cliclable antes de escribir la página.
@@ -1961,7 +1976,8 @@ def main():
         # marcado nuevo del carrusel/mapa con CSS o JavaScript antiguos.
         for asset in ("assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js",
                       "assets/js/visamap.js", "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js",
-                      "assets/js/viaje.js", "assets/js/planificador-puntos.js", "assets/js/perromap.js"):
+                      "assets/js/viaje.js", "assets/js/planificador-puntos.js", "assets/js/perromap.js",
+                      "assets/js/creador-pdi.js"):
             html_text = html_text.replace(asset + '"', asset + f'?v={huella(SITE / asset)}"')
         f = SITE / path
         f.parent.mkdir(parents=True, exist_ok=True)
@@ -1988,7 +2004,7 @@ def main():
     PRECACHE_FUERA = {"assets/js/points.json"}          # 3 MB: solo para «guardar fotos»
     versionados = {"assets/css/site.css", "assets/js/map.js", "assets/js/cpdmap.js", "assets/js/visamap.js",
                    "assets/js/presupuesto-xlsx.js", "assets/js/presupuesto.js", "assets/js/viaje.js",
-                   "assets/js/planificador-puntos.js", "assets/js/perromap.js"}
+                   "assets/js/planificador-puntos.js", "assets/js/perromap.js", "assets/js/creador-pdi.js"}
     precache = {}
     for rel in sorted(pages):
         if rel == "admin/index.html" or not (SITE / rel).exists():
