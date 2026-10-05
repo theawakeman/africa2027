@@ -1,8 +1,8 @@
-const VERSION = 'a27-20260928-1148';
+const VERSION = 'a27-20261005-1222';
 const PRECACHE = {
 "./cpd/": "09638ee451",
 "./documentacion/": "520eaa9afc",
-"./": "93b0cd3536",
+"./": "c03863c0aa",
 "./mapa/": "1a7e1bae3e",
 "./paises/angola/historia/": "ad0e5f3409",
 "./paises/angola/": "9d5ec593cf",
@@ -115,9 +115,9 @@ const PRECACHE = {
 "./paises/zimbabue/historia/": "42cfbbefb2",
 "./paises/zimbabue/": "1e0ae7cd94",
 "./perro/": "140bded05b",
-"./planificador-clasico/": "8b173833e2",
+"./planificador-clasico/": "2909bc6e64",
 "./planificador-puntos/": "cd0f238d11",
-"./planificador/": "0a48c51d01",
+"./planificador/": "8f29d0f707",
 "./presupuesto/": "f505d943bd",
 "./visados/": "a266ab20df",
 "./assets/css/site.css?v=3cac24495c": "3cac24495c",
